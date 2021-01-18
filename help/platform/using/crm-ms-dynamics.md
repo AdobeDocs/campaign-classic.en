@@ -10,28 +10,34 @@ topic-tags: connectors
 
 # Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
    
-You can connect Campaign Classic to **Microsoft Dynamics CRM 365** via Web API. Refer to [this section](#microsoft-dynamics-implementation-step) to learn how to set up the connection with Microsoft Dynamics.
+In this page, you will  learn how to connect Campaign Classic to **Microsoft Dynamics CRM 365**.
+
+Possible deployments are:
+
+* via **Web API** (recommended). Refer to [the section below](#microsoft-dynamics-implementation-step) to learn steps to set up the connection with Microsoft Dynamics.
+* with **Office 365**. Refer to [this video](#microsoft-dynamics-office-365) to learn key steps to set up this integration.
+* for an **On-premise** deployment, apply Office 365 key steps.
 
 Data synchronization is carried out via a dedicated workflow activity. [Learn more](../../platform/using/crm-data-sync.md).
 
-![](assets/do-not-localize/how-to-video.png) Learn how to implement the Adobe Campaign and Microsoft Dynamics integration in [this video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html).
 
 >[!NOTE]
-> Starting Campaign 20.3 release, connection with older Microsoft Dynamics versions is deprecated. [Learn more](../../rn/using/deprecated-features.md).
 >
-> For more information on CRM systems version compatibility, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#CRMconnectors).
+> CRM systems version compatible with Campaign are listed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#CRMconnectors).
 >
 
 ## Implementation steps{#microsoft-dynamics-implementation-steps}
 
-To connect Microsoft Dynamics to work with Adobe Campaign, you need to apply the following steps:
+To connect Microsoft Dynamics 365 to work with Adobe Campaign via **Web API**, you need to apply the following steps:
 
 In Microsoft Dynamics CRM:
-1. Get Microsoft Dynamics Client ID.
-1. Generate Microsoft Dynamics Client Secret.
-1. Configure permissions.
+1. Get Microsoft Dynamics Client ID
+1. Generate Microsoft Dynamics Client Secret
+1. Configure permissions
 1. Create an App User
 1. Encode the private key
+
+[Learn more in this section](#config-crm-microsoft)
 
 In Campaign Classic:
 1. Create a new external account
@@ -39,7 +45,8 @@ In Campaign Classic:
 1. Use the configuration wizard to map tables and synchronize enumerations
 1. Create the synchronization workflow
 
-These steps are detailed below.
+[Learn more in this section](#configure-acc-for-microsoft)
+
 
 >[!CAUTION]
 > When connecting Adobe Campaign with Microsoft Dynamics, you cannot:
@@ -123,11 +130,13 @@ The App user is the user that the application registered above will use. Any cha
 
 ## Configure Campaign {#configure-acc-for-microsoft}
 
-To connect Microsoft Dynamics and Campaign, you need to create and configure a dedicated External Account in Campaign.
+To connect Microsoft Dynamics 365 and Campaign, you need to create and configure a dedicated External Account in Campaign.
 
 1. Navigate to **[!UICONTROL Administration > Platform > External accounts]**.
 
-1. Select the type: **Microsoft Dynamics CRM** and the **Deployment type**: **[!UICONTROL Web API]**.
+1. Create a new external account, select the type **[!UICONTROL Microsoft Dynamics CRM]** and the **[!UICONTROL Enable]** option.
+
+1. Select the **[!UICONTROL Web API]**  deployment type: 
 
    Adobe Campaign Classic supports the Dynamics 365 REST interface with OAuth protocol for authentication with a **[!UICONTROL Certificate]** or **[!UICONTROL Password Credentials]**.
 
@@ -137,9 +146,7 @@ To connect Microsoft Dynamics and Campaign, you need to create and configure a d
 
    >[!NOTE]
    >
-   >* For more information on CRM version compatibility, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
-   >
-   >* Microsoft Dynamics CRM External account configuration is detailed [in this section](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
+   >Microsoft Dynamics CRM External account configuration is detailed [in this section](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
 
 1. Click the **[!UICONTROL Microsoft CRM configuration wizard...]** link: Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.
 
@@ -166,3 +173,9 @@ To connect Microsoft Dynamics and Campaign, you need to create and configure a d
    ![](assets/crm_connectors_msdynamics_06.png)
 
 Campaign and Microsoft Dynamics are now connected. You can set up data synchronization between the two systems. Learn more in the [Data synchronization](../../platform/using/crm-data-sync.md) section.
+
+## Configure Microsoft Dynamics CRM Office 365 integration{#microsoft-dynamics-office-365}
+
+Watch this video to learn how to integrate Dynamics 365 with Adobe Campaign Classic, in the context of an Office 365 deployment.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
