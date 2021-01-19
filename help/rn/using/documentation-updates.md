@@ -18,9 +18,11 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 The **[!UICONTROL Fork]** activity section has been enriched with best practices. [Read more](../../workflow/using/fork.md)
 
+The **CRM Connectors** section has been updated, improved and reorganized. [Read more](../../platform/using/crm-connectors.md).
+
 Steps to connect **Adobe Campaign and Microsoft Dynamics** are now detailed in a dedicated page. [Read more](../../platform/using/crm-ms-dynamics.md).
 
-The **CRM Connectors** section has been updated, improved and reorganized. [Read more](../../platform/using/crm-connectors.md).
+Oracle On Demand API is now deprecated as a CRM connected with Campaign. [Read more](../../rn/using/deprecated-features.md).
 
 Learn how to find out the current version of embedded Tomcat web servlet used in an instance of Adobe Campaign [here](../../production/using/locate-tomcat-version.md).
 
