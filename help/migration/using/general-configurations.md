@@ -614,11 +614,11 @@ All standard reports currently use rendering engine v6.x. If you had added JavaS
 
 ### Personalized reports {#personalized-reports}
 
-If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
+<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
-
-If you wish to benefit from the new report functionalities, you must select the v.6.x rendering engine. In this case, check all of your scripts and change them if necessary. In regards to PDF export, if you had added specific script for OpenOffice, this will no longer work with the new PDF export engine (PhantomJS).
+-->
+If you wish to benefit from the new report functionalities, you must republish reports. To do this, edit the report **[!UICONTROL Properties]**, click **[!UICONTROL Rendering]** and select the v.6.x rendering engine. In this case, check all of your scripts and change them if necessary. In regards to PDF export, if you had added specific script for Open Office, this will no longer work with the new PDF export engine (PhantomJS).
 
 ## Web applications {#web-applications}
 

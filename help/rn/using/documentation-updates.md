@@ -12,31 +12,39 @@ topic-tags: latest-documentation-updates
 
 This page lists all the new features and documentation updates per month and Campaign release.
 
-You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
-## January 2021 {#jan,2021}
+## January 2021 {#jan-2021}
 
-The **[!UICONTROL Fork]** activity section has been enriched with additional information. A note has been added to specify that the outbound transitions do not execute simultaneously and that the activity should therefore not be used to improve workflows's performances. [Read more](../../workflow/using/fork.md)
+The **[!UICONTROL Fork]** activity section has been enriched with best practices. [Read more](../../workflow/using/fork.md)
 
-The Locating Tomcat version section has been moved [here](../../production/using/locate-tomcat-version.md).
+The **CRM Connectors** section has been updated, improved and reorganized. [Read more](../../platform/using/crm-connectors.md).
 
-The list of technical workflows with their associated packages has been reorganized into one single page. [Read more](../../workflow/using/about-technical-workflows.md)
+Steps to connect **Adobe Campaign and Microsoft Dynamics** are now detailed in a dedicated page. [Read more](../../platform/using/crm-ms-dynamics.md).
 
-The troubleshooting section of the Monitoring guide has been reorganized and enhanced with a landing page. [Read more](../../production/using/troubleshooting.md).
+Oracle On Demand API is now deprecated as a CRM connected with Campaign. [Read more](../../rn/using/deprecated-features.md).
+
+Learn how to find out the current version of embedded Tomcat web servlet used in an instance of Adobe Campaign [here](../../production/using/locate-tomcat-version.md).
+
+The list of technical workflows with their associated packages has been enhanced and centralized into one single page. [Read more](../../workflow/using/about-technical-workflows.md)
+
+The troubleshooting section of the **Monitoring** guide has been reorganized and enhanced with a landing page. [Read more](../../production/using/troubleshooting.md).
+
+A new **Importing and exporting data** section is available with new pages related to workflows, data compression, encryption, and import best practices. [Read more](../../platform/using/get-started-data-import-export.md)
 
 ## December 2020 {#dec-2020}
 
-The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
+The **Delivery monitoring** section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
 
 A use case has been added on how to add senders' IP addresses to the delivery logs. [Read more](../../delivery/using/delivery-dashboard.md#use-case)
 
 Privacy FAQ has been moved to [this section](../../platform/using/privacy-faq.md).
 
-A use case has been added on how to use the Deduplication activity's Merge functionality. [Read more](../../workflow/using/deduplication-merge.md)
+A use case has been added on how to use the **[!UICONTROL Deduplication]** activity's merge functionality. [Read more](../../workflow/using/deduplication-merge.md)
 
-The SMS connector protocol and settings page has been moved [here](../../delivery/using/sms-protocol.md).
+The complete description of SMS connector protocol and settings page is now available [here](../../delivery/using/sms-protocol.md).
 
-A note has been added to the Transactional messaging section to warn that the event folders must not be set as views on the execution instances, to avoid access right issues. [Read more](../../message-center/using/event-collection.md)
+A note has been added to the **Transactional messaging** section to warn that the event folders must not be set as views on the execution instances, to avoid access right issues. [Read more](../../message-center/using/event-collection.md)
 
 ## November 2020 {#nov-2020}
 
@@ -166,7 +174,7 @@ Best practices have been added in the **[!UICONTROL Scheduler]** activity sectio
 
 The Removing a quarantined address section has been updated. This includes clarification of the cases in which addresses are automatically removed from the quarantine list. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Use cases have been added on how to [encrypt](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) and [decrypt](../../workflow/using/importing-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
+Use cases have been added on how to [encrypt](../../platform/using/zip-encrypt.md) and [decrypt](../../platform/using/unzip-decrypt.md) data using Control Panel and Campaign workflows.
 
 The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 

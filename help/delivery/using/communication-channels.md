@@ -81,7 +81,11 @@ Online channels allow you to create your messages (email, SMS, mobile app delive
 
 ## Other channels {#other-channels}
 
-Adobe Campaign offers Agency or Telephone delivery templates, which are used to create external deliveries. Using these channels implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](../../delivery/using/about-direct-mail-channel.md).
+Adobe Campaign offers Telephone delivery template, which is used to create external deliveries. Using this channel implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](../../delivery/using/about-direct-mail-channel.md).
+
+>[!NOTE]
+>
+>The Telephone channel is not available out-of-the-box. Its implementation requires Adobe Consulting or an Adobe Partner to be engaged. Please reach out to your Adobe representative for more information.
 
 In addition, 'Other' type deliveries use a specific technical template which does not execute a process: this lets them manage marketing actions executed outside of the Adobe Campaign platform.
 

@@ -38,7 +38,7 @@ The main methods for creating recipient profiles are as follows:
 
 >[!NOTE]
 >
->To find out how files and web forms are imported, refer to [Generic imports and exports](../../platform/using/generic-imports-and-exports.md).
+>To find out how files and web forms are imported, refer to [Generic imports and exports](../../platform/using/get-started-data-import-export.md).
 
 ## Profiles and targets {#profiles-and-targets}
 
@@ -51,7 +51,7 @@ It also gives you access to:
 * lists; see [Creating and managing lists](../../platform/using/creating-and-managing-lists.md),
 * subscription services; refer to [this page](../../delivery/using/managing-subscriptions.md),
 * web applications; refer to [this page](../../web/using/about-web-applications.md),
-* imports and exports (jobs); refer to [Generic imports and exports](../../platform/using/generic-imports-and-exports.md),
+* imports and exports (jobs); refer to [Generic imports and exports](../../platform/using/about-generic-imports-exports.md),
 * targeting workflows; refer to [this page](../../workflow/using/building-a-workflow.md#implementation-steps-).
 
 The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.

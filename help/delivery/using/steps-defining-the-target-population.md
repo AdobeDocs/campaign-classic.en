@@ -97,7 +97,7 @@ To do this:
 
 1. When importing the recipients, click the **[!UICONTROL File format definition...]** link to select and configure the external file.
 
-   For more information on data import, refer to [this section](../../platform/using/importing-data.md#step-2---source-file-selection).
+   For more information on data import, refer to [this section](../../platform/using/executing-import-jobs.md#step-2---source-file-selection).
 
 1. Click **[!UICONTROL Finish]** and configure your delivery as a standard delivery.
 

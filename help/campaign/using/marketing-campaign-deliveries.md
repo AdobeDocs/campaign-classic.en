@@ -449,7 +449,7 @@ The export model must be associated with the service provider selected for the d
 
 >[!NOTE]
 >
->For more on exports, refer to the [Getting Started](../../platform/using/generic-imports-and-exports.md) section.
+>For more on exports, refer to the [Getting Started](../../platform/using/get-started-data-import-export.md) section.
 
 #### Tutorial video {#create-email-video}
 

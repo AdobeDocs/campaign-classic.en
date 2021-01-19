@@ -171,19 +171,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </td>
 </tr>
 <tr>
-<td>SFDC API</td>
-<td>
-<p>API version 21</p>
-<p>API version 15</p>
-</td>
-</tr>
-<tr><td>Oracle On Demand API</td>
-<td>
-<p>Web Services v1.0 API</p>
-</td>
-</tr>
-<tr>
-<td>MS Dynamics</td>
+<td>Microsoft Dynamics connector</td>
 <td>
 <p>Web API: Dynamics 365 On-premise and Online</p>
 </td>

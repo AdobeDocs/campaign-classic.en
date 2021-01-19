@@ -21,12 +21,10 @@ You can also use the activity in the context of content creation and delivery se
 
 >[!IMPORTANT]
 >
->Keep in mind that the outbound transitions added after a Fork activity will not execute simultaneously.
->
->The activity should therefore not be used in order to improve the workflow's performances, but rather to execute multiple activities independentely, and eventually join them together before executing the rest of the worklow.
+>Outbound transitions added after a **[!UICONTROL Fork]** activity **will not** execute simultaneously. This behaviour can impact the workflow's performances. Use this activity if you need to execute several activities independentely, and eventually join them together before executing the rest of the worklow.
 
-To configure the activity, open it then define the number and label of the desired outbound transitions.
+To configure the  **[!UICONTROL Fork]** activity, open it define the number and label of the outbound transitions.
 
 ![](assets/s_user_segmentation_fork.png)
 
-You can then configure each outbound transitions, then join them together using an [AND-join](../../workflow/using/and-join.md) activity, if necessary. This way, the rest of the workflow will execute only once the **[!UICONTROL Fork]** activity's outbound transitions have finished.
+You can then configure each outbound transitions, then join them together using an [AND-join](../../workflow/using/and-join.md) activity, if needed. This way, the rest of the workflow will execute only once the **[!UICONTROL Fork]** activity's outbound transitions are finished.

@@ -63,10 +63,22 @@ type: Documentation
        + [Exporting and importing profiles](platform/using/exporting-and-importing-profiles.md)
        + [Creating and managing lists](platform/using/creating-and-managing-lists.md)
   + Importing and exporting data {#importing-and-exporting-data}
-       + [Generic imports and exports](platform/using/generic-imports-and-exports.md)
-       + [Exporting data](platform/using/exporting-data.md)
-       + [Importing data](platform/using/importing-data.md)
-       + [SFTP server usage](platform/using/sftp-server-usage.md)
+       + [Get started with data import and export](platform/using/get-started-data-import-export.md)
+       + [Importing and exporting data using workflows](platform/using/import-export-workflows.md)
+       + Working with generic imports and exports {generic-imports-exports}
+          + [Get started with generic imports and exports](platform/using/about-generic-imports-exports.md)
+          + [Creating import and export templates](platform/using/creating-import-export-templates.md)
+          + [Creating import and export jobs](platform/using/creating-import-export-jobs.md)
+          + [Configuring import jobs](platform/using/executing-import-jobs.md)
+          + [Configuring export jobs](platform/using/executing-export-jobs.md)
+          + [Monitoring jobs execution](platform/using/monitoring-jobs-execution.md)
+          + [Generic import samples](platform/using/import-operations-samples.md)
+       + Managing data encryption and compression {managing-data-encryption-compression}
+          + [Unzipping or decrypting a file before processing](platform/using/unzip-decrypt.md)
+          + [Zipping or encrypting a file before processing](platform/using/zip-encrypt.md)
+       + Best practices and troubleshooting {best-practices}
+          + [Import and export best practices](platform/using/import-export-best-practices.md)
+          + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
   + Filtering data {#filtering-data}
        + [Filtering options](platform/using/filtering-options.md)
        + [Creating filters](platform/using/creating-filters.md)
@@ -81,7 +93,10 @@ type: Documentation
        + [Managing enumerations](platform/using/managing-enumerations.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
-       + [CRM Connectors](platform/using/crm-connectors.md)
+       + CRM Connectors{#crm-connectors}
+          + [Get started with CRM Connectors](platform/using/crm-connectors.md)
+          + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+          + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
@@ -342,13 +357,11 @@ type: Documentation
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
-  + Introduction {#introduction}
-       + [Get started with workflows](workflow/using/about-workflows.md)
+  + Get started with workflows {#introduction}
+       + [About workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)
-  +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
        + [Targeting data](workflow/using/targeting-data.md)
-       + [Importing data](workflow/using/importing-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
        + [Workflow best practices](workflow/using/workflow-best-practices.md)
   +  Executing a workflow {#executing-a-workflow}
@@ -436,6 +449,7 @@ type: Documentation
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
           + [Using the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
+          + [Setting up a recurring import workflow](workflow/using/recurring-import-workflow.md)
        + Designing queries {#designing-queries}
           + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
        + Targeting {#designing-queries}
