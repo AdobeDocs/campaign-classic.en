@@ -65,7 +65,7 @@ type: Documentation
   + Importing and exporting data {#importing-and-exporting-data}
        + [Get started with data import and export](platform/using/get-started-data-import-export.md)
        + [Importing and exporting data using workflows](platform/using/import-export-workflows.md)
-       + Working with generic imports and exports {generic-imports-exports}
+       + Working with generic imports and exports {#generic-imports-exports}
           + [Get started with generic imports and exports](platform/using/about-generic-imports-exports.md)
           + [Creating import and export templates](platform/using/creating-import-export-templates.md)
           + [Creating import and export jobs](platform/using/creating-import-export-jobs.md)
@@ -73,10 +73,10 @@ type: Documentation
           + [Configuring export jobs](platform/using/executing-export-jobs.md)
           + [Monitoring jobs execution](platform/using/monitoring-jobs-execution.md)
           + [Generic import samples](platform/using/import-operations-samples.md)
-       + Managing data encryption and compression {managing-data-encryption-compression}
+       + Managing data encryption and compression {#managing-data-encryption-compression}
           + [Unzipping or decrypting a file before processing](platform/using/unzip-decrypt.md)
           + [Zipping or encrypting a file before processing](platform/using/zip-encrypt.md)
-       + Best practices and troubleshooting {best-practices}
+       + Best practices and troubleshooting {#best-practices}
           + [Import and export best practices](platform/using/import-export-best-practices.md)
           + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
   + Filtering data {#filtering-data}
