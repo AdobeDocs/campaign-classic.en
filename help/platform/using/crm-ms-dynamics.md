@@ -179,3 +179,22 @@ Campaign and Microsoft Dynamics are now connected. You can set up data synchroni
 Watch this video to learn how to integrate Dynamics 365 with Adobe Campaign Classic, in the context of an Office 365 deployment.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
+
+
+## Supported field data types {#ms-dyn-supported-types}
+
+For Microsoft Dynamics 365 supported/unsupported attribute types are listed below:
+
+
+| Attribute  type                                                                   | Supported |
+| --------------------------------------------------------------------------------- | --------- |
+| Basic types : boolean, datetime, decimal, float, double, integer, bigint , string | Yes       |
+| Money (as double)                                                                 | Yes       |
+| memo, entityname , primarykey, uniqueidentifier (as strings)                      | Yes       |
+| Status, picklist (we store the possible values in enumerations), state (string)   | Yes       |
+| owner (as string)                                                                 | Yes       |
+| Lookup (only single entity reference lookups)                                     | Yes       |
+| customer                                                                          | No        |
+| Regarding                                                                         | No        |
+| PartyList                                                                         | No        |
+| ManagedProperty                                                                   | No        |
