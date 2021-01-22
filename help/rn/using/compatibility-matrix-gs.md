@@ -111,11 +111,6 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <table>
 <tbody>
 <tr>
-<td>Amazon Redshift</td>
-<td><p>&nbsp;</p>
-</td>
-</tr>
-<tr>
 <td>Oracle</td>
 <td>
 <p>18c</p>
@@ -197,6 +192,11 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 
 <table>
 <tbody>
+<tr>
+<td>Amazon Redshift</td>
+<td><p>&nbsp;</p>
+</td>
+</tr>
 <tr>
 <td>Oracle</td>
 <td>
