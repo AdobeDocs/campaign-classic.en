@@ -15,7 +15,7 @@ The **Digital Content Editor (DCE)** is an HTML content editor that lets you eas
 With the Digital Content Editor, you can insert and format page elements, and map database fields with elements of an HTML page. This editor is available when creating a page for a web application, or when creating deliveries based on a DCE template.
 
 >[!NOTE]
->>
+>
 >If you need to add server-side JavaScript code, use personalization blocks. [Learn more](../../delivery/using/personalization-blocks.md).
 
 >[!CAUTION]
