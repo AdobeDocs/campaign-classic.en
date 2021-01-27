@@ -10,6 +10,10 @@ topic-tags: connecting-via-an-adobe-id
 
 # Configuring IMS{#configuring-ims}
 
+>[!IMPORTANT]
+>
+>Adobe IMS implementation is strictly reserved to the Adobe technical administrators. Contact your Adobe executive to start the implementation process.
+
 ## Prerequisites {#prerequisites}
 
 To use the integration with the IMS:
