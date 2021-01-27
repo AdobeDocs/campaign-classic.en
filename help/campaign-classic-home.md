@@ -14,7 +14,7 @@ topic: Premium
 
 * **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **March 21st, 2021**.
 
-* **[Campaign Security Bulletin](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> Update to the latest builds to secure your Campaign platform.
+* **[Secure your Campaign instances](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> Update to the latest builds to secure your Campaign platform.
 
 * **[Remove incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
 
