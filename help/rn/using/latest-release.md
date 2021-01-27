@@ -25,6 +25,13 @@ _11 January 2021_
 
 _October 27, 2020_
 
+>[!CAUTION]
+>
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 21st, 2021**.
+>
+> * This release comes with a security fix: upgrade is mandatory to reinforce your environment security. 
+>
+
 **What's new?**
 
 <table> 
@@ -64,10 +71,6 @@ _October 27, 2020_
 </tr> 
 </tbody> 
 </table>
-
->[!CAUTION]
->
->This release comes with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2021.
 
 **Security enhancements**
 
