@@ -19,7 +19,7 @@ _22 December 2020_
 >[!CAUTION]
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 21, 2021**.
-> * This release comes with a security fix: upgrade is mandatory to reinforce your environment security. 
+> * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 > * If you are using the Experience Cloug Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
 
 
@@ -27,7 +27,7 @@ _22 December 2020_
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 * Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
-* Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
+* Following the [end of support for iOS APNs legacy binary protocol](https://developer.apple.com/news/?id=c88acm2b), all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 * Fixed an issue causing the deactivation of the SMPP connector after a connection error, preventing other SMS deliveries from being sent and leading to performance issues. (NEO-28609)
 * Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
