@@ -12,7 +12,7 @@ topic-tags: troubleshooting
 
 The reasons for a connection problem can be multiple and depend on various contexts.
 
-You can try the following tests and if the connection failure persists, please contact the **Adobe Campaign support**.
+You can try the following tests and if the connection failure persists, please contact the [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 

@@ -812,7 +812,7 @@ If you have multiple accounts on the same Adobe Campaign instance that connect t
 ### Enable verbose SMPP traces during checks {#enable-verbose}
 
 You should always enable verbose SMPP traces during checks.
-Even if you cannot check the logs yourself, it will be easier for Support to help you.
+Even if you cannot check the logs yourself, it will be easier for [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to help you.
 
 ### Test your SMS {#test}
 

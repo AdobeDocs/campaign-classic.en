@@ -64,15 +64,7 @@ The information provided is real-time, which allows for a pro-active assistance.
 
 ## Technical Deliverability Monitoring Report {#technical-deliverability-monitoring}
 
-The technical deliverability monitoring report is updated daily and available by navigating to **[!UICONTROL Monitoring]** > **[!UICONTROL Overview]** and clicking the **[!UICONTROL Technical monitoring]** link from the Adobe Campaign **[!UICONTROL Home]** tab. It includes a number of deliverability quality indicators for your platform.
-
-These indicators are updated daily at 9 AM.
-
->[!NOTE]
->
->In addition, you are able to receive a daily report by email at a specified address. Let us know the requested email address by email or via the Adobe Campaign Extranet.
-
-![](assets/s_tn_del_monitoring.png)
+The technical deliverability monitoring report includes a number of deliverability quality indicators for your platform. You can receive this daily report by email. To request it, open a specific [Support Case](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and specify the email addresses to send the report to.
 
 The following indicators are used in the report:
 
@@ -85,6 +77,9 @@ The following indicators are used in the report:
 * **[!UICONTROL IP and RBL domain]** (Real-time Blackhole List): A list of IP addresses and domains that have been flagged by denylist organizations for poor sending reputation. These lists are maintained by dedicated organizations such as Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign currently processes checks against RBLs that have a significant deliverability impact. These RBLs reflect sending reputation, and may be referenced by ISPs before accepting to receive your emails.
 
 * **[!UICONTROL SNDS]** (Smart Network Data Services): A [Windows Live Hotmail anti-spam service](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail is the only ISP that provides this type of information. Benchmark scores are a green filter result, a complaint rate of less than 0.1%, and zero spam traps.
+
+These indicators are updated daily at 9 AM.
+
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 

@@ -91,11 +91,11 @@ The section below lists the information to check and provide to the Adobe Suppor
    >
    >The Netcat tool lets you easily manage network connections on various operating systems (see [https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/)).
 
-   If the port is not opened, make sure to open outbound connections at your side, then try again. If you still meet connection issues, share the output of the command with Adobe Support team.
+   If the port is not opened, make sure to open outbound connections at your side, then try again. If you still meet connection issues, share the output of the command with [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team.
 
 1. Check that the public IP from which you are trying to initiate the SFTP connection is the one you provided to the Adobe Support for the allowlist.
 1. If you are using a password-based authentication, your password may have expired (passwords have a 90 days validity period). We therefore strongly recommend using a key based authentication (see [SFTP server best practices](#sftp-server-best-practices)).
-1. If you are using a key based authentication, check that the key you are using is the same that you provided to Adobe Support team for the instance configuration.
+1. If you are using a key based authentication, check that the key you are using is the same that you provided to [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team for the instance configuration.
 1. If you are using FileZilla or an equivalent FTP tool, provide the connection logs details in the support ticket.
 
 ## "Couldn't resolve host name" error
