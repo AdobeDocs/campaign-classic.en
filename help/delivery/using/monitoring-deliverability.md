@@ -64,7 +64,10 @@ The information provided is real-time, which allows for a pro-active assistance.
 
 ## Technical Deliverability Monitoring Report {#technical-deliverability-monitoring}
 
-The **Technical Deliverability Monitoring** report includes a number of deliverability quality indicators for your platform. You can receive this daily report by email. To request it, open a specific [Support Case](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and specify the email addresses to send the report to.
+The **Technical Deliverability Monitoring** report includes a number of deliverability quality indicators for your platform. You can receive this daily report by email. To request it, open a specific [Support Case](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and specify:
+
+* the name of the instance
+* the email addresses to send the report to
 
 This reports contains the following indicators:
 
