@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Sending an email with Adobe Campaign Classic
-description: Learn about email delivery parameters
+description: Learn how to send an email and discover the specificities of delivering emails.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
@@ -12,38 +12,16 @@ topic-tags: sending-emails
 
 To approve your email and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
-The detailed process when validating and sending a delivery is presented in the sections below:
+<!--add screnn: ![](assets/email-send-button.png)-->
 
+To validate and send an email, refer to the detailed process presented in the sections below:
 * [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
 * [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)
 
-The sections below detail the parameters that are specific to delivering emails.
-
-## Email BCC {#archiving-emails}
-
-Adobe Campaign enables you to store emails on an external system through BCC by simply adding a BCC email address to your message target. Once the option activated, an exact copy of all sent messages will be kept for this delivery.
-
-For more information on Email BCC configuration and best practices, refer to [this section](../../installation/using/email-archiving.md).
-
->[!NOTE]
->
->Email BCC is an optional capability. Please check your license agreement and contact your account executive to activate it.
-
-When creating a new delivery or delivery template, Email BCC is not enabled by default. You need enable it manually at the email delivery or delivery template level.
-
-To enable Email BCC for an email delivery template, follow the steps below:
-
-1. Go to **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** or **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Select the delivery of your choice or duplicate the out-of-the-box **Email delivery** template, then select the duplicated template.
-1. Click the **Properties** button.
-1. Select the **[!UICONTROL Delivery]** tab.
-1. Check the **Email BCC** option. A copy of all sent messages for each delivery based on this template will be sent to the Email BCC address which has been configured.
-
-   ![](assets/s_ncs_user_wizard_archiving.png)
-
-   >[!NOTE]
-   >
-   >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
+The following sections detail the options and parameters that are specific to delivering emails:
+* [Email BCC](../../delivery/using/email-bcc.md)
+* [Generating the mirror page](../../delivery/using/generating-mirror-page.md)
+* [Sending emails with the Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md)
 
 ## Generating the mirror page {#generating-the-mirror-page}
 

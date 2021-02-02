@@ -119,7 +119,11 @@ type: Documentation
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
        + [Defining interactive content](delivery/using/defining-interactive-content.md)
-       + [Sending messages](delivery/using/sending-messages.md)
+       + [Sending an email](delivery/using/sending-messages.md)
+            + [Sending emails](delivery/using/sending-messages.md)
+            + [Email BCC](delivery/using/email-bcc.md)
+            + [Generating the mirror page](delivery/using/generating-mirror-page.md)
+            + [Sending with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
        + [Attaching files](delivery/using/attaching-files.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
