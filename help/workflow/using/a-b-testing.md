@@ -42,7 +42,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one.
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
@@ -176,7 +176,7 @@ The choice of the delivery content destined for the remaining population is calc
 
 ### Example of a script {#example-of-a-script}
 
-The following script can be used as is in the targeting workflow. For more on this, refer to [Implementation](#implementation).
+The following script can be used as is in the targeting workflow (see [Configuring the script](../../workflow/using/a-b-testing.md#configuring-script)).
 
 ```
  // query the database to find the winner (best open rate)
@@ -222,12 +222,12 @@ The following script can be used as is in the targeting workflow. For more on th
    vars.deliveryId = delivery.id
 ```
 
-For a detailed explanation of the script, refer to [Details of the script](#details-of-the-script).
+For a detailed explanation of the script, refer to [this section](../../workflow/using/a-b-testing.md#details-of-the-script).
 
-### Implementation {#implementation}
+### Configuring the script {#configuring-script}
 
 1. Open your **[!UICONTROL JavaScript code]** activity.
-1. Copy the script offered in [Example of a script](#example-of-a-script) into the **[!UICONTROL JavaScript code]** window.
+1. Copy the script presented [previously](../../workflow/using/a-b-testing.md#example-of-a-script) into the **[!UICONTROL JavaScript code]** window.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
