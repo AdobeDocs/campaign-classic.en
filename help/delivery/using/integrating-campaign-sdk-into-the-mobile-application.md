@@ -14,7 +14,7 @@ Campaign SDKs for iOS and Android are one of the components of the Mobile App Ch
 
 >[!NOTE]
 >
->To get Campaign SDK (previously known as Neolane SDK), contact Adobe Customer Care.
+>To get Campaign SDK (previously known as Neolane SDK), contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
 

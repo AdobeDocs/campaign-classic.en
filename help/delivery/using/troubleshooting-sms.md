@@ -196,7 +196,7 @@ With hexadecimal, you can tell the difference between similar characters. A lowe
 
 To convert unicode to hexadecimal, you can use online tools such as the [Unicode code converter](https://r12a.github.io/app-conversion/) website. Type in your text, make sure there is no PII such as phone numbers and click **Convert**. You will see the hexadecimal values at the bottom (UTF-32 zone).
 
-When opening tickets about encoding problems, whether with the provider or the Adobe Campaign support, always include a hexadecimal version of what you type and what you see.
+When opening tickets about encoding problems, whether with the provider or [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html), always include a hexadecimal version of what you type and what you see.
 
 **Step 3: Know what you should send**
 

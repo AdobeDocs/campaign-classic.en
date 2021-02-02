@@ -18,8 +18,7 @@ _23 December 2020_
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 21st, 2021**.
 >
-> * This release comes with a security fix: upgrade is mandatory to reinforce your environment security. 
->
+> * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
@@ -134,7 +133,7 @@ Please ensure you are on supported versions of any systems listed in the latest 
 
 _Campaign Mobile SDK_
 
-The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve added the support of iOS 13. This new version now supports notification priority and the new registration token management process for iOS 13 Push notifications. If you’re running applications on a previous version of the SDK, you need to recompile your applications with the new SDK. To get the SDK, please contact Adobe Customer Care.
+The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve added the support of iOS 13. This new version now supports notification priority and the new registration token management process for iOS 13 Push notifications. If you’re running applications on a previous version of the SDK, you need to recompile your applications with the new SDK. To get the SDK, please contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Patches**
 
