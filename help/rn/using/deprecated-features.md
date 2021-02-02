@@ -38,6 +38,13 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Feature</strong></td>
    <td><strong>Replacement</strong></td>
   </tr>
+    <tr>
+  <td>Technical Deliverability Monitoring Report<br></td>
+   <td><p>Starting Campaign 21.1 release, the Technical Deliverability Monitoring Report is deprecated.</p>
+   <p>If needed, you can receive this report daily by email. <a href="../../delivery/using/monitoring-deliverability.md#technical-deliverability-monitoring">Learn more</a></p> 
+  <p><em>Target removal date: End of 2021</em></p>
+  </td>
+ </tr>
   <tr>
   <td>CRM connectors<br></td>
    <td><p>Starting Campaign 20.3 release, the following CRM connectors are deprecated with Campaign:</p>
