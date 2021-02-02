@@ -27,6 +27,7 @@ To create the A/B test, apply the following steps:
 * [Step 3: Creating two delivery templates](#step-3--creating-two-delivery-templates)
 * [Step 4: Configuring the deliveries in the workflow](#step-4--configuring-the-deliveries-in-the-workflow)
 * [Step 5: Creating the script](#step-5--creating-the-script)
+* [Step 6: Defining the final delivery](#step-6--defining-the-final-delivery)
 * [Step 7: Starting the workflow](#step-7--starting-the-workflow)
 * [Step 8: Analyzing the result](#step-8--analyzing-the-result).
 
