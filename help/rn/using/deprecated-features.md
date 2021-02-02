@@ -41,7 +41,8 @@ Customers are advised to review if they make use of the feature/capability in th
     <tr>
   <td>Technical Deliverability Monitoring Report<br></td>
    <td><p>Starting Campaign 21.1 release, the Technical Deliverability Monitoring Report is deprecated.</p>
-   <p>If needed, you can receive this report daily by email. <a href="../../delivery/using/monitoring-deliverability.md#technical-deliverability-monitoring">Learn more</a></p> 
+   <p>If needed, you can receive this report daily by email until the feature removal date. <a href="../../delivery/using/monitoring-deliverability.md#technical-deliverability-monitoring">Learn more</a></p> 
+   <p>Adobe recommends you to work with the Deliverability Team to define the best tools to monitor your instance deliverability performances.</p>
   <p><em>Target removal date: End of 2021</em></p>
   </td>
  </tr>
