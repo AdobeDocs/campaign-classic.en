@@ -15,7 +15,9 @@ snippet: y
 
 >[!CAUTION]
 >
->If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode will be retired in April 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode will be retired on April 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>
+>Note that during this move to Adobe I/O, some incoming triggers may be lost.
 
 ## Prerequisites {#adobe-io-prerequisites}
 
@@ -35,7 +37,7 @@ Before starting this implementation, please check you have:
     >
     > Make sure you are logged into the correct Organization portal.
 
-1. Extract existing integration client ID from the instance configuration file ims/authIMSTAClientId. Non existing or empty attribute indicates client identifier is not configured.
+1. Extract existing integration client identifier  (Client ID) from the instance configuration file ims/authIMSTAClientId. Non existing or empty attribute indicates client identifier is not configured.
 
     >[!NOTE]
     >
@@ -57,7 +59,7 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_3.png)
 
-1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a Public and Private keypair.
+1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a public and private key pair.
 
     ![](assets/do-not-localize/adobe_io_4.png)
 
@@ -77,17 +79,21 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_7.png)
 
+>[!NOTE]
+>
+>Adobe I/O certificate will expire after 12 months. You need to generate a new key pair very year.
+
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 
 To add the project credentials in Adobe Campaign, run the following command as 'neolane' user on all the containers of the Adobe Campaign instance to insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
 
 ```
-nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
+nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
 >[!NOTE]
 >
->You should encode the private key in base64 UTF-8 format. Remember to remove the new line from the key before encoding it except for the private key. The private key needs to be the same that was used to create the integration.
+>You should encode the private key in base64 UTF-8 format. Remember to remove the new line from the key before encoding it, except for the private key. The private key needs to be the same that was used to create the integration. To test the base64 encoding of the private key, you can use [this website](https://www.base64encode.org/).
 
 ## Step 3: Update pipelined tag {#update-pipelined-tag}
 
