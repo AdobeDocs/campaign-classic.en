@@ -5,7 +5,6 @@ title: Configuring Adobe Experience Manager integration
 description: Learn how to configure Campaign-AEM integration
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Configuring the integration{#configuring-the-integration}
