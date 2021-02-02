@@ -65,18 +65,18 @@ type: Documentation
   + Importing and exporting data {#importing-and-exporting-data}
        + [Get started with data import and export](platform/using/get-started-data-import-export.md)
        + [Importing and exporting data using workflows](platform/using/import-export-workflows.md)
-       + Working with generic imports and exports {generic-imports-exports}
+       + Working with generic imports and exports {#generic-imports-exports}
           + [Get started with generic imports and exports](platform/using/about-generic-imports-exports.md)
           + [Creating import and export templates](platform/using/creating-import-export-templates.md)
           + [Creating import and export jobs](platform/using/creating-import-export-jobs.md)
           + [Configuring import jobs](platform/using/executing-import-jobs.md)
           + [Configuring export jobs](platform/using/executing-export-jobs.md)
           + [Monitoring jobs execution](platform/using/monitoring-jobs-execution.md)
-          + [Import operations samples](platform/using/import-operations-samples.md)
-       + Managing data encryption and compression {managing-data-encryption-compression}
+          + [Generic import samples](platform/using/import-operations-samples.md)
+       + Managing data encryption and compression {#managing-data-encryption-compression}
           + [Unzipping or decrypting a file before processing](platform/using/unzip-decrypt.md)
           + [Zipping or encrypting a file before processing](platform/using/zip-encrypt.md)
-       + Best practices and troubleshooting {best-practices}
+       + Best practices and troubleshooting {#best-practices}
           + [Import and export best practices](platform/using/import-export-best-practices.md)
           + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
   + Filtering data {#filtering-data}
@@ -93,7 +93,10 @@ type: Documentation
        + [Managing enumerations](platform/using/managing-enumerations.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
-       + [CRM Connectors](platform/using/crm-connectors.md)
+       + CRM Connectors{#crm-connectors}
+          + [Get started with CRM Connectors](platform/using/crm-connectors.md)
+          + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+          + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)

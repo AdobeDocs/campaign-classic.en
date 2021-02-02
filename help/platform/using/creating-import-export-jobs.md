@@ -29,5 +29,5 @@ Once templates have been configured, import and export operations can be launche
 
 All of these open data import or export wizards. They are detailed in these sections:
 
-* [Executing an import job](../../platform/using/executing-import-jobs.md)
-* [Executing an export job](../../platform/using/executing-export-jobs.md)
+* [Configuring an import job](../../platform/using/executing-import-jobs.md)
+* [Configuring an export job](../../platform/using/executing-export-jobs.md)

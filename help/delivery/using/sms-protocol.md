@@ -95,7 +95,7 @@ In the separated **Transmitter+receiver** mode, the connection used depends on t
 
 For example, when sending an MT, the transmitter connection is used and the `RESP` that acknowledges the MT is also sent through the transmitter channel. When you receive an MO (or an SR), the receiver connection is used to receive the MO and to send the `RESP` that acknowledges the MO.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 In Adobe Campaign Classic, to link SR with their corresponding MT, an ID is returned by the SMSC with the `SUBMIT_SM_RESP` and `DELIVER_SM` steps. The identifier is stored in the `providerId` field of the `nms::providerMsgId` table and is linked to `broadLogId` and `deliveryId`. This matching operation is done by the SMS process when writing to the database.
 
@@ -498,7 +498,7 @@ The window is the number of `SUBMIT_SM PDU`s that can be sent without waiting fo
 
 Example of a transmission with a maximum window of 4:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 The window helps increase the throughput when the network link has a high latency.  The value of the window must be at least the number of SMS/s multiplied by the latency of the link
 in seconds so the connector is never waiting for a `SUBMIT_SM_RESP` before sending the next message.
@@ -765,7 +765,7 @@ The validity period is transmitted in the `validity_period` field of the `SUBMIT
 
 ## Extended generic SMPP connector {#acc-extended-connector}
 
-![](assets/sms_protocol_4.png)
+![](assets/do-not-localize/sms_protocol_4.png)
 
 Arrows represent data flows.
 
@@ -812,7 +812,7 @@ If you have multiple accounts on the same Adobe Campaign instance that connect t
 ### Enable verbose SMPP traces during checks {#enable-verbose}
 
 You should always enable verbose SMPP traces during checks.
-Even if you cannot check the logs yourself, it will be easier for Support to help you.
+Even if you cannot check the logs yourself, it will be easier for [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to help you.
 
 ### Test your SMS {#test}
 

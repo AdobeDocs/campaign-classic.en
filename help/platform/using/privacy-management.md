@@ -13,22 +13,15 @@ topic-tags: starting-with-adobe-campaign
 Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
 Here are the five main capabilities offered by Adobe Campaign to ensure GDPR and other privacy regulations readiness:
+* **Right to Access**
+* **Right to Delete**
+* **Consent management**
+* **Data retention**
+* **Rights management**
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **Right to Access**
-
-* **Right to Delete**
-
-For more on this, see [Right to Access and Right to be Forgotten](#right-access-forgotten).
-
-* **Consent management**
-
-* **Data retention**
-
-* **Rights management**
-
-For more on this, see [Consent, Retention and Roles](#consent-retention-roles).
+For more on this, see [Right to Access and Right to be Forgotten](#right-access-forgotten) and [Consent, Retention and Roles](#consent-retention-roles).
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 

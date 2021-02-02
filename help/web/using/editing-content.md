@@ -200,19 +200,6 @@ The available options are as follows:
 
 The Digital Content Editor lets you work on **any type of image** compatible with browsers.
 
-To be compatible with the DCE, **"Flash" type animations** must be inserted into an HTML page in the following way:
-
-```
-
-<object type="application/x-shockwave-flash" data="https://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
- <param name="movie" value="https://www.mydomain.com/flash/your_animation.swf" />
- <param name="quality" value="high" />
- <param name="play" value="true"/>
- <param name="loop" value="true"/> 
-</object>
-
-```
-
 >[!CAUTION]
 >
 >You must not call up external files in a **script** tag of the HTML page. These files will not be imported onto the Adobe Campaign server.

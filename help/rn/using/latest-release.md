@@ -25,6 +25,12 @@ _11 January 2021_
 
 _October 27, 2020_
 
+>[!CAUTION]
+>
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 21, 2021**.
+> * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
+> * If you are using the Experience Cloug Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+
 **What's new?**
 
 <table> 
@@ -64,10 +70,6 @@ _October 27, 2020_
 </tr> 
 </tbody> 
 </table>
-
->[!CAUTION]
->
->This release comes with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2021.
 
 **Security enhancements**
 

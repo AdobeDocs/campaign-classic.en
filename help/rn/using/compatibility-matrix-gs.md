@@ -10,7 +10,7 @@ topic-tags: latest-release-notes
 
 # Gold Standard Compatibility matrix{#compatibility-matrix-gs}
 
-This document lists all systems and components supported for **Adobe Campaign Classic Gold Standard** 19.1 builds. Products and versions that are not part of this list are not compatible with Adobe Campaign.
+This document lists all systems and components supported for **Adobe Campaign Classic Gold Standard** 19.1 builds. Products and versions that are not part of this list are not compatible with this version of Adobe Campaign.
 
 ## Important notes{#important-notes-gs}
 
@@ -132,8 +132,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tr>
 <td>SQL Server</td>
 <td>
-<p>2018</p>
-<p>2018 R2</p>
+<p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
@@ -193,6 +192,11 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <table>
 <tbody>
 <tr>
+<td>Amazon Redshift</td>
+<td><p>&nbsp;</p>
+</td>
+</tr>
+<tr>
 <td>Oracle</td>
 <td>
 <p>12c</p>
@@ -210,6 +214,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tr>
 <tr><td>SQL Server</td>
 <td>
+<p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>

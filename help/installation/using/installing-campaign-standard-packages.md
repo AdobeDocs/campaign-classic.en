@@ -117,6 +117,11 @@ The following table lists all Campaign built-in packages.
    <td> Sends deliveries using the Mobile/SMS channel with Adobe Campaign. Optional. <a href="../../delivery/using/sms-channel.md">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
+   <tr> 
+   <td> Telephone channel<br /> </td> 
+   <td> Sends deliveries using the telephone channel with Adobe Campaign. Used for call center. Optional. <a href="../../delivery/using/communication-channels.md">Learn More</a> <br /> </td> 
+   <td> All<br /> </td> 
+  </tr> 
   <tr> 
    <td> Mobile App Channel<br /> </td> 
    <td> Uses the Adobe Campaign platform to send personalized notifications to iOS and Android terminals via apps. Optional. <a href="../../delivery/using/about-mobile-app-channel.md">Learn More</a> <br /> </td> 
