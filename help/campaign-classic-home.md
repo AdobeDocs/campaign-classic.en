@@ -12,7 +12,7 @@ topic: Premium
 
 ## What's New
 
-* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **March 21st, 2021**.
+* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **March 31, 2021**.
 
 * **[Secure your Campaign instances](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> Update to the latest builds to secure your Campaign platform.
 
