@@ -49,7 +49,7 @@ If you have several contents for an email delivery, you can use A/B testing to f
 
 * Select the one with the highest success rate and send it to the rest of your target
 
-Learn more [in this section](../../workflow/using/a-b-testing.md).
+Learn more [in this section](../../delivery/using/get-started-a-b-testing.md).
 
 ## Make sure your message is delivered {#make-sure-your-message-is-delivered}
 
