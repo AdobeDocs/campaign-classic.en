@@ -591,6 +591,12 @@ When checked, the connection is not secure anymore, it should not be enabled in 
 
 It can useful for debugging or test purposes.
 
+You can choose between three different values for the certificate validation:
+
+* Full certification check (including the hostname), default.
+* Skip the hostname verification.
+* Skip the certificate verification.
+
 #### Bind TON/NPI {#bind-ton-npi}
 
 TON (Type Of Number) and NPI (Numbering Plan Indicator) described in section 5.2.5 of the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 117). These values should be set to whatever the provider needs.
