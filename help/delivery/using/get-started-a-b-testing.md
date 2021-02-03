@@ -19,3 +19,9 @@ With Campaign Classic, A/B testing is implemented through workflows, where you s
 In the example below, the delivery target has been splitted into two groups, each representing 50% of the targeted population. Each group receives two versions of the delivery with two different promotional offers. After the delivery is sent, it is concluded that variant A performed better, based on the number of clicks on the promotional offers.
 
 ![](assets/a-b-testing-schema.png)
+
+
+Related topics:
+
+* [Configuring a/b testing](../../delivery/using/configuring-a-b-testing.md)
+* [Use case](../../delivery/using/a-b-testing-use-case.md)
