@@ -447,7 +447,6 @@ type: Documentation
        + [About workflow use cases](workflow/using/about-workflow-use-cases.md)
        + Deliveries {#deliveries}
           + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
-          + [A/B testing](workflow/using/a-b-testing.md)
           + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
           + [Loading delivery content](workflow/using/loading-delivery-content.md)
           + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
