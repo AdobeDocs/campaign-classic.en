@@ -160,6 +160,19 @@ type: Documentation
        + [Using an external recipient table](delivery/using/using-an-external-recipient-table.md)
        + [Use case: selecting seed addresses on criteria](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
        + [Use case: configuring the field substitution](delivery/using/use-case--configuring-the-field-substitution.md)
+  + A/B testing {#a-b-testing}
+       + [Get started with A/B testing](delivery/using/get-started-a-b-testing.md)
+       + [Configuring A/B testing](delivery/using/configuring-a-b-testing.md)
+       + Use case {#use-case}
+          + [About this use case](delivery/using/a-b-testing-use-case.md)
+          + [Creating a targeting workflow](delivery/using/a-b-testing-uc-targeting-workflow.md)
+          + [Configuring population samples](delivery/using/a-b-testing-uc-population-samples.md)
+          + [Creating the delivery templates](delivery/using/a-b-testing-uc-delivery-templates.md)
+          + [Configuring the deliveries](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+          + [Creating the script](delivery/using/a-b-testing-uc-script.md)
+          + [Defining the final delivery](delivery/using/a-b-testing-uc-final-delivery.md)
+          + [Starting the workflow](delivery/using/a-b-testing-uc-start-workflow.md)
+          + [Analyzing the result](delivery/using/a-b-testing-uc-analyzing.md)
   + Subscriptions and referrals {#subscriptions-and-referrals}
        + [About services and subscriptions](delivery/using/about-services-and-subscriptions.md)
        + [Managing subscriptions](delivery/using/managing-subscriptions.md)
@@ -434,7 +447,6 @@ type: Documentation
        + [About workflow use cases](workflow/using/about-workflow-use-cases.md)
        + Deliveries {#deliveries}
           + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
-          + [A/B testing](workflow/using/a-b-testing.md)
           + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
           + [Loading delivery content](workflow/using/loading-delivery-content.md)
           + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
