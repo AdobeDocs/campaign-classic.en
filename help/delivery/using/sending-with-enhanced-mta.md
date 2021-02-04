@@ -61,7 +61,7 @@ For more on bounce qualification, see Bounce mail qualification in Campaign Clas
 
 ## Sent status
 
-### With Enhanced MTA
+### With Enhanced MTA {#efs}
 
 All messages will show as Sent as soon as they are successfully relayed from Campaign to the Enhanced MTA. They will stay in that state unless or until a bounce for that message is communicated back from the Enhanced MTA to Campaign.
 
