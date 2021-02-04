@@ -75,7 +75,7 @@ The following systems are now supported with Campaign:
 
 **Deprecated features**
 
-Technical Deliverability Monitoring Report is now deprecated. 
+The **Technical Deliverability Monitoring** report is now deprecated. 
 
 Learn more in the [Deprecated and removed features page](../../rn/using/deprecated-features.md).
 
