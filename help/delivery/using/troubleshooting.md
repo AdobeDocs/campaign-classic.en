@@ -16,8 +16,6 @@ If your mobile device is connected to Wi-Fi and you are not receiving notificati
 
 **iOS**:
 
-Binary connector: to send notifications, you must authorize inbound and outbound TCP traffic on port 2195. Devices connected to the push service must authorize inbound and outbound TCP traffic on port 5223.
-
 HTTP/2 connector: you must allow communication to and from the following servers:
 
 * api.push.apple.com: port 443

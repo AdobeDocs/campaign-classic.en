@@ -144,24 +144,7 @@ The items put in quarantine are device tokens.
 
 ### iOS quarantine {#ios-quarantine}
 
-**For iOS - binary connector**
-
->[!NOTE]
->
->Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
-
-For each notification, Adobe Campaign receives the synchronous and asynchronous errors from the APNs server. For the following synchronous errors, Adobe Campaign generates soft errors:
-
-* Payload length issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
-* Certificate expiration issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
-* Connection lost during the delivery: retry performed, the failure reason is **[!UICONTROL Unreachable]**.
-* Service configuration issue (invalid certificate, invalid certificate password, no certificate): no retry, the failure reason is **[!UICONTROL Unreachable]**.
-
-The APNs server asynchronously notifies Adobe Campaign that a device token has been unregistered (when the mobile application has been uninstalled by the user). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNs feedback services to update the **AppSubscriptionRcp** table. For all the deactivated tokens, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
-
-**For iOS - HTTP/V2 connector**
-
-The HTTP/V2 protocol allows a direct feedback and status for each push delivery. If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. The unregistered tokens are handled differently between the iOS binary connector and the iOS HTTP/V2 connector. A token is considered unregistered when a mobile application is uninstalled or reinstalled.
+The HTTP/V2 protocol allows a direct feedback and status for each push delivery. If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. A token is considered unregistered when a mobile application is uninstalled or reinstalled.
 
 Synchronously, if the APNs returns an "unregistered" status for a message, the target token will be immediately be put in quarantine.
 
