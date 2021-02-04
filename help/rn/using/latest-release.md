@@ -75,6 +75,10 @@ The following systems are now supported with Campaign:
 
 **Deprecated features**
 
+Technical Deliverability Monitoring Report is now deprecated. 
+
+Learn more in the [Deprecated and removed features page](../../rn/using/deprecated-features.md).
+
 **Improvements**
 
 * The support of Hadoop 3.0 has been optimized.
