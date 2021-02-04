@@ -64,8 +64,8 @@ _10 February 2021_
 
 **Security enhancements**
 
-* The console authentication mecanism has been improved to optimize security.
-* Security has been improved when generating captchas and in the validation functionnality.
+* The console authentication mechanism has been improved to optimize security.
+* Security has been improved when generating captchas and in the validation functionality.
 
 **Compatibility updates**
 
@@ -110,7 +110,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Fixed an issue which could prevent the instance from working when trying to run specific complex queries.
 * Fixed an issue which could prevent the **Synchronizing Twitter pages** technical workflow from running. (NEO-28634)
 * Fixed an issue which could display an error message related to the decryptPassword function when trying to publish on Twitter using the **Tweet (twitter)** delivery template. (NEO-28216)
-* Fixed an issue which occurred when using a Javascrit activity to make an HTTP request in a workflow. After defining the port number in the Host name, the call would fail with the following error (NEO-29146): 
+* Fixed an issue which occurred when using a **Javascript** activity to make an HTTP request in a workflow. After defining the port number in the Host name, the call would fail with the following error (NEO-29146): 
 
 ```
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
