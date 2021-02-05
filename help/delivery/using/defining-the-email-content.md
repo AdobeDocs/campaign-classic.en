@@ -103,7 +103,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
-### Inserting emoticons in an email {#inserting-emoticons}
+## Inserting emoticons {#inserting-emoticons}
 
 You can insert emoticons to your email content.
 
@@ -116,7 +116,7 @@ You can insert emoticons to your email content.
 
 To customize the emoticon list, refer to this [page](../../delivery/using/customizing-emoticon-list.md).
 
-## Selecting message formats {#selecting-message-formats}
+<!--## Selecting message formats {#selecting-message-formats}
 
 You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
@@ -138,7 +138,7 @@ Select the format of the email in the lower section of the window:
 
 * **[!UICONTROL Send all messages in text format]**
 
-  The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.
+  The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.-->
 
 ## Defining interactive content {#amp-for-email-format}
 
@@ -316,7 +316,7 @@ Once these elements have been configured, you can finalize your email and send i
 
 ![](assets/barcode_insert_11.png)
 
-## Sending emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
+<!--## Sending emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
 
 ### Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 
@@ -409,4 +409,4 @@ The message contact will display correctly for the users on Japanese mobiles, ju
 
 >[!IMPORTANT]
 >
->Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](#limitations-and-recommendations).
+>Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](#limitations-and-recommendations).-->

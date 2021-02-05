@@ -121,9 +121,11 @@ type: Documentation
        + [Defining interactive content](delivery/using/defining-interactive-content.md)
        + [Sending an email](delivery/using/sending-messages.md)
             + [Sending emails](delivery/using/sending-messages.md)
-            + [Email BCC](delivery/using/email-bcc.md)
             + [Generating the mirror page](delivery/using/generating-mirror-page.md)
+            + [Email BCC](delivery/using/email-bcc.md)
+            + [Email parameters](delivery/using/sending-email-parameters.md)
             + [Sending with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
+            + [Sending on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
        + [Attaching files](delivery/using/attaching-files.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
