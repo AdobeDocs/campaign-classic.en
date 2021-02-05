@@ -167,14 +167,11 @@ The central section of the **[!UICONTROL Delivery]** tab for delivery parameters
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](#defining-validity-period)).
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
->
->All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) document.
-
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) based on the type and severity of the bounce responses coming back from the message’s email domain.
 
 ## Defining validity period {#defining-validity-period}
 

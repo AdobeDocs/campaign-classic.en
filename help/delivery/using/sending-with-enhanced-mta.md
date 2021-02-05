@@ -10,19 +10,19 @@ topic-tags: sending-emails
 
 # Sending with the Enhanced MTA{#sending-with-enhanced-mta}
 
-The Adobe Campaign Enhanced MTA (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for improved deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
+The **Adobe Campaign Enhanced MTA** (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for improved deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
 
 It is implemented to improve scalability, increase delivery throughput and help send more emails faster. This is achieved with new adaptive delivery techniques that alter email sending settings in real-time based on feedback from Internet Service Providers.
-
-If you were provisioned a Campaign Classic instance after September 2018, no action is required as you’re already using the Enhanced MTA. For all other Campaign Classic customers, see the Frequently asked questions below.
 
 >[!IMPORTANT]
 >
 >The Adobe Campaign Enhanced MTA is only available for Campaign Classic hosted or hybrid customers. Campaign Classic on-premise installations cannot be upgraded to use the Enhanced MTA.
 
-Enhanced MTA impacts
+If you were provisioned a Campaign Classic instance after September 2018, you are using the Enhanced MTA. For all other Campaign Classic customers, see the Frequently asked questions below.
 
-## Enhanced MTA headers
+## Enhanced MTA impacts
+
+### Enhanced MTA headers
 
 The latest Campaign Classic instances include code that adds the required Enhanced MTA headers to every message. If you are using Adobe Campaign 19.1 (build 9032) or above and if this is not the case, you must add the "useMomentum=true" parameter to your marketing instance configuration (in the serverConf.xml file).
 
@@ -43,13 +43,13 @@ If you're a hybrid client, the Adobe Campaign team will provide you with instruc
 
 For more on typologies, see About campaign typologies in Campaign Classic.
 
-## New MX rules
+### New MX rules
 
 The MX management delivery throughput rules are no longer used. The Enhanced MTA has its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 
 For more on MX management, see MX configuration in Campaign Classic.
 
-## Bounce qualification
+### Bounce qualification
 
 The bounce qualifications in the Campaign Delivery log qualification table are no longer used. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
 
@@ -59,9 +59,21 @@ The bounce qualifications in the Campaign Delivery log qualification table are n
 
 For more on bounce qualification, see Bounce mail qualification in Campaign Classic.
 
-## Sent status
+### Sent status with Enhanced MTA 
 
-### With Enhanced MTA {#efs}
+In the **[!UICONTROL Summary]** view of an email delivery dashboard, the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
+
+Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs) as soon as they are successfully relayed from Campaign to the Enhanced MTA (Message Transfer Agent). They remain in that status unless or until a [bounce](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
+
+When hard-bouncing messages get reported back from the Enhanced MTA, their status changes from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** and the **[!UICONTROL Delivered]** percentage is decreased accordingly.
+
+When soft-bouncing messages get reported back from the Enhanced MTA, they still show as **[!UICONTROL Sent]** and the **[!UICONTROL Delivered]** percentage is not yet updated. Soft-bouncing messages are then [retried](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) throughout the delivery validity period:
+
+* If a retry is successful before the end of the validity period, the message status remains as **[!UICONTROL Sent]** and the **[!UICONTROL Delivered]** percentage remains unchanged.
+
+* Otherwise, the status changes to **[!UICONTROL Failed]** and the **[!UICONTROL Delivered]** percentage is decreased accordingly.
+
+Consequently, you should wait until the end of the validity period to see the final **[!UICONTROL Delivered]** percentage, and the final number of actually **[!UICONTROL Sent]** and **[!UICONTROL Failed]** messages.
 
 All messages will show as Sent as soon as they are successfully relayed from Campaign to the Enhanced MTA. They will stay in that state unless or until a bounce for that message is communicated back from the Enhanced MTA to Campaign.
 
@@ -79,9 +91,9 @@ The fact that the Success percentage will go to 100% very quickly indicates that
 The Campaign Delivery throughput graph will no longer display the throughput to your email recipients. That graph will now show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
 For more on the delivery throughput, see Accessing deliveries throughput information in Campaign Classic.
 
-### Email Feedback Service
+### Email Feedback Service (beta) {#efs}
 
-## Validity period
+### Validity period
 
 The validity period setting in your Campaign deliveries will be used by the Enhanced MTA only if set to 3.5 days or less. If you define a value higher than 3.5 days in Campaign, it will not be taken into account.
 
