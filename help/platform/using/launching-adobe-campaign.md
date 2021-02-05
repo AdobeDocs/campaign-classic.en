@@ -38,7 +38,7 @@ You can also connect with a dedicated login/password:
 
 You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
 
-A few shortcuts are available on the **[!UICONTROL Sign in screen]**:
+Some keyboard shortcuts are available on the **[!UICONTROL Sign in screen]**:
 * All actionable items are selectable through the **Tab** key (top to bottom) or the **Tab** + **Shift** keys (bottom to top).
 * To launch connection, you can also press the **Enter** key.
 * You can use the **Escape** key to reset the **[!UICONTROL Login]** and **[!UICONTROL Password]** fields to the last successful connection values.
