@@ -10,6 +10,7 @@ user-guide-description: Design, execute, manage, and monitor your workflows in A
 
 # Design and execute workflows in Campaign {#design-and-execute-wf}
 
++ [Design and execute workflows](using/home.md)
 + Get started with workflows {#introduction}
     + [About workflows](using/about-workflows.md)
     + [About activities](using/about-activities.md)
