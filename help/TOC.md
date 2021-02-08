@@ -2,7 +2,7 @@
 audience: end-user
 product: campaign
 title: Adobe Campaign Classic Guide
-breadcrumb-title: Campaign Classic
+breadcrumb-title: Help Center
 product: campaign
 title: Campaign Classic Guide
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
