@@ -124,15 +124,13 @@ By default, the statistics server listens on port 7777. This port can be modifie
 
 ## MX configuration {#mx-configuration}
 
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+
 ### About MX rules {#about-mx-rules}
 
 MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
-
->[!IMPORTANT]
->
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 These rules are reloaded automatically every morning at 6AM (server time) in order to regularly supply the client instance.
 

@@ -191,4 +191,4 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** setting in your Campaign email deliveries will be used only if set to **3.5** days or less. If you define a value higher than 3.5 days, it will not be taken into account.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL Delivery duration]** setting in your Campaign email deliveries will be used only if set to **3.5** days or less. If you define a value higher than 3.5 days, it will not be taken into account.

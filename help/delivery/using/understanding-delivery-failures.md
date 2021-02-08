@@ -232,7 +232,7 @@ Bounce mails can have the following qualification status:
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA:
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md):
 >
 >* The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for synchronous delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
 >
@@ -271,9 +271,7 @@ For more on bounce mail qualification, see [this section](#bounce-mail-qualifica
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, and if your instance has **Webhooks/EFS** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
->
->For more on the Adobe Campaign Enhanced MTA, refer to [this document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), and if your instance has **Webhooks/EFS** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
 
 #### Domain management {#domain-management}
 
@@ -288,9 +286,7 @@ If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in 
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
->
->For more on the Adobe Campaign Enhanced MTA, refer to [this document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 
 #### MX Management {#mx-management}
 
@@ -304,6 +300,4 @@ For more on MX management, refer to [this section](../../installation/using/emai
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
->
->For more on the Adobe Campaign Enhanced MTA, refer to [this document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
