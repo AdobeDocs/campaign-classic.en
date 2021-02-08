@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration
+title: Configure your environment
 description: Configuration
 audience: production
 content-type: reference

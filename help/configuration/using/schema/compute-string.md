@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Elements and attributes
-description: Elements and attributes
+title: compute-string element
+description: compute-string element in Campaign
 audience: configuration
 content-type: reference
 topic-tags: schema-reference

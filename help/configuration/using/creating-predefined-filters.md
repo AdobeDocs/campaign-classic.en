@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating filters
-description: Creating filters
+title: Create predefined filters
+description: Create predefined filters
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 ---
 
-# Creating filters{#creating-filters}
+# Creating predefined filters{#creating-predefined-filters}
 
 Just like the out-of-the-box recipient table provided with Adobe Campaign, the new recipient table may receive a batch of predefined filters.
 

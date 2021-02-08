@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Troubleshooting
-description: Troubleshooting
+title: Troubleshooting mobile devices
+description: Learn how to troubleshoot mobile devices
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
