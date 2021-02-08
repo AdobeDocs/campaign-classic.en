@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration
+title: Configure Campaign Navtree
 description: Configuration
 audience: configuration
 content-type: reference

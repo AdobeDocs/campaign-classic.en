@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Data schemas
-description: Data schemas
+title: Edit and configure Campaign data schemas
+description: Data schemas in Campaign
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas

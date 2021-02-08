@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration
-description: Configuration
+title: Response Management Configuration
+description: Learn how to configure Campaign Response Manager
 audience: campaign
 content-type: reference
 topic-tags: response-manager

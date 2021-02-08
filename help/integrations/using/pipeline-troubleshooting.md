@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuring the integration
-description: Configuring the integration
+title: Pipeline troubleshooting
+description: Troubleshoot the pipeline integration
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
