@@ -38,7 +38,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
 * **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [this section](../../delivery/using/sending-messages.md#archiving-emails).
 
-## Confirming delivery {#confirming delivery}
+## Confirming delivery {#confirming-delivery}
 
 When the delivery is configured and ready to be sent, make sure you have run the delivery analysis.
 

@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Defining the email content in Adobe Campaign Classic
-description: Learn how to define the email content when using Adobe Campaign Classic.
+title: Sending emails on Japanese mobiles with Adobe Campaign Classic
+description: Learn how to configure, design and send emails that will be read on a Japanese mobile.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails

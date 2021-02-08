@@ -2,29 +2,32 @@
 solution: Campaign Classic
 product: campaign
 title: Sending an email with Adobe Campaign Classic
-description: Learn how to send an email and discover the specificities of delivering emails.
+description: Learn how to confirm the delivery of an email and discover the specificities of delivering email messages.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 ---
 
-# Sending an email{#sending-an-email}
+# Confirming email delivery {#confirming-email-delivery}
 
-When a delivery has been created and configured, you must validate it before sending it to the main target. For more on this, see [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md).
+Once your email has been created and configured, you can send it to the main target. This section presents the main steps to confirm the delivery of an email.
 
-When the delivery is validated and ready for send, click **[!UICONTROL Send]** to approve your email and send it to the recipients of the delivery being created.
+1. Make sure you configured all the settings that are specific to email delivery. For more on this, see [Email parameters](../../delivery/using/sending-email-parameters.md).
+1. When the email is ready, before sending it to the main target, it is recommended to detect any potential errors by sending proofs. For more on this, see [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-Select an action and click **[!UICONTROL Analyze]** to run the analysis. For more on this, see [Launching the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Once done, you must validate the email by launching the analysis. To do this, click **[!UICONTROL Send]**, select an action and click **[!UICONTROL Analyze]**. For more on this, see [Launching the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
-![](assets/email-send-button.png)
+1. Once analysis is complete, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages to the targeted recipients. For more on this, see [Confirming delivery](../../delivery/using/steps-sending-the-delivery.md#confirming-delivery).
 
-Once analysis is complete, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages. For more confirming the send, see [this section](../../delivery/using/steps-sending-the-delivery.md).
+    <!--Add screenshot with analysis done and Confirm delivery button activated.-->
 
-The full and detailed steps to configure and send a delivery are presented in [this section](../../delivery/using/steps-sending-the-delivery.md).
+>[!NOTE]
+>
+>The whole process to validate a delivery is described in [this section](../../delivery/using/steps-validating-the-delivery.md). The full detailed steps to configure and send a delivery are presented in [this section](../../delivery/using/steps-sending-the-delivery.md).
 
-The following sections detail the options and parameters that are specific to delivering emails:
-* [Generating the mirror page](../../delivery/using/generating-mirror-page.md)
-* [Email BCC](../../delivery/using/email-bcc.md)
-* [Email parameters](../../delivery/using/sending-email-parameters.md)
+The following sections detail settings and configurations that are specific to delivering emails:
+<!--* [Generating the mirror page](../../delivery/using/generating-mirror-page.md)
+* [Email BCC](../../delivery/using/email-bcc.md)-->
+* [Email parameters](../../delivery/using/email-parameters.md)
 * [Sending emails with the Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md)
-* [Sending on Japanese mobiles](../../)
+* [Sending emails on Japanese mobiles](../../delivery/using/sending-emails-on-japanese-mobiles.md)

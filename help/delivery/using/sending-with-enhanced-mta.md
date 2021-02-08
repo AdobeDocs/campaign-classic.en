@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Sending an email with Adobe Campaign Classic
-description: Learn about email delivery parameters
+title: Sending with the Enhanced MTA in Adobe Campaign Classic
+description: Learn about the scope and the specificities of sending emails with the Adobe Campaign Enhanced MTA.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 ---
 
-# Sending with the Enhanced MTA{#sending-with-enhanced-mta}
+# Sending with the Enhanced MTA {#sending-with-enhanced-mta}
 
 The **Adobe Campaign Enhanced MTA** (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for improved deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
 
@@ -32,7 +32,7 @@ Momentum represents innovative, high-performance MTA technology which includes s
 
 * Adobe Campaign clients using the Enhanced MTA have seen a 300% increase in overall throughput speed, and a 90%+ reduction in soft bounces.
 * The Enhanced MTA uses the latest MTA technology to provide you with the optimal throughput speeds for your email delivery.
-* By adapting instantly and automatically to the feedback it receives, it also ensures more accurate and intelligent email delivery with real-time delivery data.
+* By adapting instantly and automatically to the feedback it receives, it also ensures more accurate and intelligent email delivery with real-timse delivery data.
 
 **Can I use the native Adobe Campaign MTA and the Enhanced MTA at the same time?**
 
