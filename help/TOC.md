@@ -356,7 +356,7 @@ type: Documentation
        + [Configuring events for custom implementation](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
-+ [Design and execute workflows](workflow/home.md)
++ [Design and execute workflows](workflow/using/home.md)
 + Managing Offers {#managing-offers}
   + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
