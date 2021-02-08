@@ -19,13 +19,13 @@ This guide provides helpful information, guidance and best practices about Campa
 
 Refer to these sections to find guidance and best practices to automate processes with workflows:
 
-* [Workflow activities](using/how-to-use-workflow-data.md).
-* [Build a workflow](using/building-a-workflow.md).
-* [Import data with a workflow](../platform/using/import-export-workflows.md).
-* [Workflow best practices](using/workflow-best-practices.md).
-* [Start a workflow](using/starting-a-workflow.md).
-* [Monitor Campaign workflows](using/monitoring-workflow-execution.md).
-* [Grant user permissions](using/managing-rights.md).
+* [Workflow activities](using/how-to-use-workflow-data.md)
+* [Build a workflow](using/building-a-workflow.md)
+* [Import data with a workflow](../platform/using/import-export-workflows.md)
+* [Workflow best practices](using/workflow-best-practices.md)
+* [Start a workflow](using/starting-a-workflow.md)
+* [Monitor Campaign workflows](using/monitoring-workflow-execution.md)
+* [Grant user permissions](using/managing-rights.md)
 
 ## More Campaign user guides
 
