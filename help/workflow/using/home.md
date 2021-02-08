@@ -11,7 +11,7 @@ This guide provides helpful information, guidance and best practices about Campa
 
 ## What's new?
 
-* The **[!UICONTROL Fork]** activity section has been enriched with best practices. [Read more](using/fork.md)
+* The **[!UICONTROL Fork]** activity section has been enriched with best practices. [Read more](fork.md)
 * The list of technical workflows with their associated packages has been enhanced and centralized into one single page. [Read more](about-technical-workflows.md)
 * A use case has been added on how to use the **[!UICONTROL Deduplication]** activity's merge functionality. [Read more](deduplication-merge.md)
 
