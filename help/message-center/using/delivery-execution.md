@@ -28,7 +28,7 @@ By default, they are sorted into sub-folders by delivery month. This sort can be
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, all transactional messages may also be sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages and they are detailed in the [Sending with the Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) section.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), all transactional messages may also be sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages.
 
 ## Transactional message monitoring {#transactional-message-monitoring}
 

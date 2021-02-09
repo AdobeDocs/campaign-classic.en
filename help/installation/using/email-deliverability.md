@@ -128,6 +128,8 @@ By default, the statistics server listens on port 7777. This port can be modifie
 >
 >For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 
+The sections below only apply to on-premise installations and hosted/hybrid installations using the legacy Campaign MTA.
+
 ### About MX rules {#about-mx-rules}
 
 MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
