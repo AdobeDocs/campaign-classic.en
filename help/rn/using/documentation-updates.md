@@ -18,6 +18,10 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 A new section has been added with detailed information on how to perform A/B testing using workflows. [Read more](../../delivery/using/get-started-a-b-testing.md)
 
+The Adobe Campaign Enhanced MTA section has moved [here](../../delivery/using/sending-with-enhanced-mta.md).
+
+The **Sending an email** section has been reorganized and clarified with new subsections. [Read more](../../delivery/using/sending-messages.md)
+
 ## January 2021 {#jan-2021}
 
 The **[!UICONTROL Fork]** activity section has been enriched with best practices. [Read more](../../workflow/using/fork.md)
