@@ -114,7 +114,7 @@ For more on MX configuration, see [this section](../../installation/using/email-
 
 ### Bounce qualification
 
-The bounce qualifications in the Campaign [!UICONTROL Delivery log qualification] table are no longer used. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+The bounce qualifications in the Campaign **[!UICONTROL Delivery log qualification]** table are no longer used. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
 
 >[!NOTE]
 >

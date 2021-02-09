@@ -83,7 +83,7 @@ In the delivery properties, the **[!UICONTROL Mode]** field of the **[!UICONTROL
 
 ![](assets/s_ncs_user_wizard_miror_page_mode.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >An HTML content must have been defined for the delivery for the mirror page to be created.
 
@@ -127,7 +127,7 @@ The script entered in this window must reference one header per line in the foll
 
 Values are encoded automatically if necessary.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adding a script for inserting additional SMTP headers is reserved for advanced users.
 >
