@@ -12,9 +12,7 @@ topic-tags: about-deliveries-and-channels
 
 >[!NOTE]
 >
->Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.
->
->Refer to [this section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers) for further information.
+>Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field. For further information, refer to [this section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ## Delivery additional parameters {#delivery-additiona-parameters}
 
@@ -30,21 +28,25 @@ Before sending the delivery, you can define the sending parameters in the delive
   >
   >When the delivery is duplicated, the parameter is reset.
 
-* **[!UICONTROL Send using multiple waves]**: For more on this refer to [Sending using multiple waves](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: For more on this, refer to [Sending using multiple waves](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: This option allows you to test sending a delivery via SMTP. The delivery is processed up to connection to the SMTP server but is not sent.
 
   >[!NOTE]
   >
-  >Using this option is not advised when installing using mid-sourcing as to not call mta.
-  >
-  >For more information on configuring an SMTP server, refer [to this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+  >Using this option is not advised when installing using mid-sourcing as to not call mta. For more on configuring an SMTP server, refer [to this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer [to this section](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [this section](../../delivery/using/sending-messages.md#archiving-emails).
 
-Once the delivery is configured and ready to be sent, make sure you have run the [Delivery analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
+## Confirming delivery {#confirming-delivery}
+
+When the delivery is configured and ready to be sent, make sure you have run the delivery analysis.
+
+To do this, click **[!UICONTROL Send]**, select the desired action and click **[!UICONTROL Analyze]**. For more on this, see [Launching the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
+
+Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
 
 You can then close the delivery wizard and track the execution of the delivery from the **[!UICONTROL Delivery]** tab, accessible via the detail of this delivery or via the list of deliveries.
 
@@ -163,18 +165,15 @@ The two examples below are the most common use cases for using multiple waves.
 
 Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-The central section of the **[!UICONTROL Delivery]** tab for delivery parameters indicates how many retries should be performed the day after the delivery and the minimum delay between retries.
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, the central section of the **[!UICONTROL Delivery]** tab for delivery parameters indicates how many retries should be performed the day after the delivery and the minimum delay between retries.
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
-
->[!NOTE]
->
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
->
->All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) document.
-
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](#defining-validity-period)).
 
 ## Defining validity period {#defining-validity-period}
 
@@ -190,8 +189,6 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 
   The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** setting in your Campaign deliveries will be used only if set to **3.5** days or less. If you define a value higher than 3.5 days, it will not be taken into account.
->
->All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) document.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL Delivery duration]** setting in your Campaign email deliveries will be used only if set to **3.5 days or less**. If you define a value higher than 3.5 days, it will not be taken into account.

@@ -82,7 +82,7 @@ Using DKIM requires some prerequisites:
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
 
 ### DMARC {#dmarc}
 
