@@ -95,7 +95,7 @@ Make sure you adjust these parameters according to the email sending throughput.
 
 ## Configuring the BCC email address (on premise) {#configuring-the-bcc-email-address--on-premise-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
 
@@ -118,7 +118,7 @@ In the **config- `<instance name>.xml`** file, use the following parameters to d
 
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The email archiving system (BCC) changed with Adobe Campaign 17.2 (build 8795). If you are upgrading from an older build and were already using email archiving capabilities, you must upgrade manually to the new email archiving system (BCC).
 
