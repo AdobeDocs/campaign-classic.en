@@ -140,7 +140,7 @@ Consequently, you should wait until the end of the validity period to see the fi
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-## Delivery throughput
+### Delivery throughput
 
 The Campaign Delivery throughput graph will no longer display the throughput to your email recipients. That graph will now show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
 
@@ -156,7 +156,7 @@ Once a message has been in the Enhanced MTA queue for 3.5 days and has failed to
 
 For more on the validity period, see [this section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
 
-## DKIM-signing
+### DKIM-signing
 
 DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the Domain management table as part of the Enhanced MTA upgrade.
 For more on DKIM, see [this section](../../delivery/using/technical-recommendations.md#dkim).

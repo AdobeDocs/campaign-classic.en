@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Coonfiguring A/B testing
+title: Configuring A/B testing
 description: Learn how to configure A/B testing in Campaign Classic.
 audience: delivery
 content-type: reference
@@ -16,7 +16,7 @@ This section details how to build a workflow to perform A/B testing.
 
 1. Add a [Split](../../workflow/using/split.md) activity to divide the targeted population into multiple sub-sets.
 
-1. Open the activity, then configure each sub-set according to your needs. For more on how to configure a **[!UICONTROL Split]** activity, refer to this section.
+1. Open the activity, then configure each sub-set according to your needs. For more on how to configure a **[!UICONTROL Split]** activity, refer to [this section](../../workflow/using/split.md).
 
     In this example, we want to test 2 new subjects for a newsletter by presenting each of them to 10% of the targeted population.
 
