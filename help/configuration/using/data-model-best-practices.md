@@ -246,7 +246,7 @@ By default, Adobe Campaign delivery and tracking logs have a retention duration 
 
 Learn more about data retention in [Campaign Privacy and Securuty guidelines](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
 
-Learn more about Campaign Data base cleanup workflow [in this section](../../production/using/database-cleanup-workflow.md)..
+Learn more about Campaign Data base cleanup workflow [in this section](../../production/using/database-cleanup-workflow.md).
 
 >[!IMPORTANT]
 >
