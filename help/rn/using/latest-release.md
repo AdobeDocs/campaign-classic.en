@@ -86,24 +86,21 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 
 **Other changes**
 
-* Shortcuts using the TAB, ESC and ENTER keys are available on the updated logon screen to connect to Adobe Campaign.
 * Heatmap has been improved to avoid timeouts when running workflows with numerous activities. (NEO-27423).
 * Fixed an issue which could allow an offer to be presented even if its end date was passed. Campaign Classic now takes into account the end date's whole timestamp rather that the date only. (NEO-27590)
 * The Google+ link has been removed from the **Social network sharing links** personalization block.
 * Salesforce API version 49 is now supported when using Salesforce CRM external account.
-* Fixed an issue after the implementation of a bug fix in the last release. A check was added on the hostname when connecting using SSL/TLS which led SMS deliveries to fail. Hostname verification has been disabled for most protocols such as POP3, SMS and HTTP with proxy and the certificate check for the SMS external account has been improved with three values (NEO-29581).
-
-**Technical evolutions**
-
+* Fixed an issue after the implementation of a bug fix in the last release. A check was added on the hostname when connecting using SSL/TLS which led SMS deliveries to fail. Hostname verification has been disabled for most protocols such as POP3, SMS and HTTP with proxy and the certificate check for the SMS external account has been improved with three values (NEO-29581). [Learn more](../../delivery/using/sms-protocol.md#skip-tls)
 
 **Patches**
 
+* Fixed an issue which prevented the Tab, Enter and Escape keyboard shortcuts from working on the new logon screen.
 * Fixed a refresh issue which caused the name of a newly created workflow to be replaced with the default value after saving (NEO-26106).
 * Fixed an issue that occurred when running workflows where a new field was added as part of an **Enrichment** activity prior to a **Delivery** activity using an **External file** target mapping: unwanted fields were added to the **External file** target mapping. (NEO-27687)
 * Fixed an issue that caused some characters in the source code to be altered when reopening a web application previously created and saved. (NEO-27597)
 * Fixed an issue that could occur when upgrading to a build including the new signature mechanism for tracking links (from Build 19.1.4 and Campaign 20.2): when several templates were associated to an event, upgrading could cause the wrong template to be selected when sending the transactional message. (NEO-28326)
 * Fixed an issue that caused the MTA to become unresponsive and unable to process deliveries unless restarted. (NEO-27455)
-* Fixed an issue on SQL Server related to timezone management during bulk load operations.
+* Fixed an issue on MSSQL database related to timestamp management during bulk load operations for a datetime type column.
 * Fixed a workflow query issue when using Redshift xtk functions. The SubDays, SubSeconds, SubMinutes and SubHours now accept both Redshift timestamp types (NEO-24962).
 * Fixed an issue which displayed a script error message when trying to preview a report with Anonymous access. (NEO-27081)
 * Fixed an issue which could reduce the memory usage on the server when performing delivery analysis.
