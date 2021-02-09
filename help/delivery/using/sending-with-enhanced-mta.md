@@ -34,9 +34,9 @@ Momentum represents innovative, high-performance MTA technology which includes s
 
 **What are the benefits?**
 
-* Adobe Campaign clients using the Enhanced MTA have seen a <!--300%-->huge increase in overall throughput speed, and a <!--90%+-->significant reduction in soft bounces.
+* Adobe Campaign clients using the Enhanced MTA have seen a <!--300%-->massive increase in overall throughput speed, and a <!--90%+-->significant reduction in soft bounces.
 * The Enhanced MTA uses the latest MTA technology to provide you with the optimal throughput speeds for your email delivery.
-* By adapting instantly and automatically to the feedback it receives, it also ensures more accurate and intelligent email delivery with real-timse delivery data.
+* By adapting instantly and automatically to the feedback it receives, it also ensures more accurate and intelligent email delivery with real-time delivery data.
 
 **Can I use the native Adobe Campaign MTA and the Enhanced MTA at the same time?**
 
@@ -89,7 +89,7 @@ For customers using Adobe Campaign transactional messaging functionality, any AP
 
 The latest Campaign Classic instances include code that adds the required Enhanced MTA headers to every message. If you are using Adobe Campaign 19.1 (build 9032) or above and if this is not the case, you must add the "useMomentum=true" parameter to your marketing instance configuration (in the [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) file).
 
-However, if you're using an older instance that doesn't include this code, a new typology rule named **[!UICONTROL Typology Rule for Enhanced MTAs]** must be added to all the existing typologies in your Campaign instance.
+However, if you are using an older instance that does not include this code, a new typology rule named **[!UICONTROL Typology Rule for Enhanced MTAs]** must be added to all the existing typologies in your Campaign instance.
 This rule is added by a **[!UICONTROL Typology]** package installed as part of the upgrade to the Enhanced MTA.
 
 >[!IMPORTANT]
@@ -98,7 +98,7 @@ This rule is added by a **[!UICONTROL Typology]** package installed as part of t
 
 This **[!UICONTROL Typology]** package needs to be installed on the Adobe Campaign marketing instance.
 
-If you're a hybrid client, the Adobe Campaign team will provide you with instructions on how to install the **[!UICONTROL Typology]** package on your marketing instance as part of the upgrade to the Enhanced MTA. Contact your account executive to get the full instructions.
+If you are a hybrid client, the Adobe Campaign team will provide you with instructions on how to install the **[!UICONTROL Typology]** package on your marketing instance as part of the upgrade to the Enhanced MTA. Contact your account executive to get the full instructions.
 
 >[!IMPORTANT]
 >
@@ -114,7 +114,7 @@ For more on MX configuration, see [this section](../../installation/using/email-
 
 ### Bounce qualification
 
-The bounce qualifications in the Campaign **[!UICONTROL Delivery log qualification]** table are no longer used. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+The bounce qualifications in the Campaign **[!UICONTROL Delivery log qualification]** table are no longer used for **synchronous** delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ For more on bounce qualification, see [this section](../../delivery/using/unders
 
 In the **[!UICONTROL Summary]** view of an email delivery [dashboard](../../delivery/using/delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
 
-Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA (Message Transfer Agent). They remain in that status unless or until a [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
+Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
 
 When hard-bouncing messages get reported back from the Enhanced MTA, their status changes from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
 

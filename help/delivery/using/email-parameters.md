@@ -95,18 +95,6 @@ In addition to the default mode, the following options are also available:
 
   ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
-## Managing bounce emails {#managing-bounce-emails}
-
-The **[!UICONTROL SMTP]** tab of the delivery parameters lets you configure the management of bounce mails.
-
-![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
-
-By default, bounced emails are received in the default error box of the platform, but you can define a specific error address for a delivery.
-
-You can also define a specific address from this screen in order to investigate the reasons for bounce mails when these could not be automatically qualified by the application. For each of these fields, the **Add personalized fields** icon lets you add personalization parameters.
-
-For more on bounce mail management, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
-
 ## Character encoding {#character-encoding}
 
 In the **[!UICONTROL SMTP]** tab of the delivery parameters, the **[!UICONTROL Character encoding]** section allows you to set a specific encoding.
@@ -118,6 +106,18 @@ For example, you want to send an email containing Japanese characters. To make s
 To do this, select the **[!UICONTROL Force the encoding used for messages]** option in the **[!UICONTROL Character encoding]** section and choose an encoding from the drop-down list that is displayed.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
+
+## Managing bounce emails {#managing-bounce-emails}
+
+The **[!UICONTROL SMTP]** tab of the delivery parameters lets you configure the management of bounce mails.
+
+By default, bounced emails are received in the default error box of the platform, but you can define a specific error address for a delivery.
+
+You can also define a specific address from this screen in order to investigate the reasons for bounce mails when these could not be automatically qualified by the application. For each of these fields, the **Add personalized fields** icon lets you add personalization parameters.
+
+![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
+
+For more on bounce mail management, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 ## Adding SMTP headers {#adding-smtp-headers}
 
