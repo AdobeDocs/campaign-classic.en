@@ -12,7 +12,7 @@ topic-tags: sending-emails
 
 Once your email has been created and configured, you can send it to the main target. This section presents the main steps to confirm the delivery of an email.
 
-1. Make sure you configured all the settings that are specific to email delivery. For more on this, see [Email parameters](../../delivery/using/sending-email-parameters.md).
+1. Make sure you configured all the settings that are specific to email delivery. For more on this, see [Email parameters](../../delivery/using/email-parameters.md).
 1. When the email is ready, before sending it to the main target, it is recommended to detect any potential errors by sending proofs. For more on this, see [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 1. Once done, you must validate the email by launching the analysis. To do this, click **[!UICONTROL Send]**, select an action and click **[!UICONTROL Analyze]**. For more on this, see [Launching the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
