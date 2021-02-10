@@ -42,15 +42,15 @@ Once the delivery has started, there is no change in the **[!UICONTROL Success]*
 
 <!--![](assets/efs-sending.png)-->
 
-The delivery logs show the **[!UICONTROL Taken into account by the service provider]** status for each targeted address.
+The delivery logs show the **[!UICONTROL Taken into account by the service provider/Pending]** status for each targeted address.
 
 <!--![](assets/efs-pending.png)-->
 
 When the message is actually delivered to the targeted profiles and once this information is reported back in real time from the Enhanced MTA, the delivery logs show the **[!UICONTROL Sent]** status for each address that successfully received the message. The **[!UICONTROL Success]** percentage is increased accordingly with each successful delivery.
 
-When hard-bouncing messages get reported back from the Enhanced MTA, their log status changes from **[!UICONTROL Taken into account by the service provider]** to **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
+When hard-bouncing messages get reported back from the Enhanced MTA, their log status changes from **[!UICONTROL Taken into account by the service provider/Pending]** to **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-When soft-bouncing messages get reported back from the Enhanced MTA, their log status also changes from **[!UICONTROL Taken into account by the service provider]** to **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. The **[!UICONTROL Success]** percentage remains unchanged. Soft-bouncing messages are then retried throughout the delivery [validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters):
+When soft-bouncing messages get reported back from the Enhanced MTA, their log status also changes from **[!UICONTROL Taken into account by the service provider/Pending]** to **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. The **[!UICONTROL Success]** percentage remains unchanged. Soft-bouncing messages are then retried throughout the delivery [validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters):
 
 * If a retry is successful before the end of the validity period, the message status changes to **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is increased accordingly.
 
@@ -68,8 +68,8 @@ The table below shows the changes in KPIs and sending logs statuses introduced b
 
 | Step in the<br>sending process | KPI summary<br>WITHOUT EFS | Sending logs status<br>WITHOUT EFS | KPI summary<br>WITH EFS | Sending logs status<br>WITH EFS |
 |--- |--- |--- | --- | --- |
-| Message is successfully relayed from Campaign to the Enhanced MTA | <ul><li>**[!UICONTROL Success]** percentage starts out at 100%</li></ul>| Sent | <ul><li>**[!UICONTROL Success]** percentage starts out at 0%</li></ul> | Taken into account by the service provider |
-| Hard-bouncing messages get reported back from the Enhanced MTA | <ul><li>**[!UICONTROL Success]** percentage is decreased accordingly</li></li></ul> | Failed | <ul><li>No change in **[!UICONTROL Success]** percentage</li></ul> | Failed |
-| Soft-bouncing messages get reported back from the Enhanced MTA | <ul><li>No change in **[!UICONTROL Success]** percentage</li></ul> | Sent | <ul><li>No change in **[!UICONTROL Success]** percentage</li></ul> | Taken into account by the service provider |
-| Soft-bouncing messages retries are successful | <ul><li>No change in **[!UICONTROL Success]** percentage</li></ul> | Sent | <ul><li>**[!UICONTROL Success]** percentage is increased accordingly</li></ul> | Sent |
-| Soft-bouncing messages retries fail | <ul><li>**[!UICONTROL Success]** percentage is decreased accordingly</li></ul> | Failed | <ul><li> No change in **[!UICONTROL Success]** percentage </li></ul> | Failed |
+| Message is successfully relayed from Campaign to the Enhanced MTA | **[!UICONTROL Success]** percentage starts out at 100%| Sent | **[!UICONTROL Success]** percentage starts out at 0% | Taken into account by the service provider / Pending |
+| Hard-bouncing messages get reported back from the Enhanced MTA | **[!UICONTROL Success]** percentage is decreased accordingly | Failed | No change in **[!UICONTROL Success]** percentage | Failed |
+| Soft-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Sent | No change in **[!UICONTROL Success]** percentage | Taken into account by the service provider / Pending |
+| Soft-bouncing messages retries are successful | No change in **[!UICONTROL Success]** percentage | Sent | **[!UICONTROL Success]** percentage is increased accordingly | Sent |
+| Soft-bouncing messages retries fail | **[!UICONTROL Success]** percentage is decreased accordingly | Failed |  No change in **[!UICONTROL Success]** percentage  | Failed |
