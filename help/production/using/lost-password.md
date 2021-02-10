@@ -13,20 +13,27 @@ topic-tags: troubleshooting
 You can change or recover a lost password.
 There are two possible scenarios:
 
-**Password lost by an Adobe Campaign operator**
+* [Password lost by an Adobe Campaign operator](#password-lost-by-campaign-operator)
+* [Internal password lost](#internal-password-lost) (on-premise customers only)
 
-In this case, you can change the password of the operator concerned.
+## Password lost by a Campaign operator {#password-lost-by-campaign-operator}
+
+If an Adobe Campaign operator loses their password, you can change it.
 To do this, follow the steps below:
 
 1. Connect via an operator with administrator rights.
-1. Right-click on an operator.
+1. Right-click an operator.
 1. Select **[!UICONTROL Actions]** > **[!UICONTROL Reset password]**.
 
    ![](assets/operator-passwd.png)
 
-1. Set the operator's new password. We recommend that the operators change their password when they first reconnect.
+1. Set the operator's new password. We recommend that the operator changes their password when they first reconnect.
 
-**Internal password loss (on-premise customers only)**
+## Internal password lost {#internal-password-lost}
+
+>[!NOTE]
+>
+>This section only applies to on-premise customers only.
 
 If the internal password is lost, you must reinitialize it.
 To do this, apply the following procedure:

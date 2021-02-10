@@ -18,7 +18,9 @@ The cause is as follows:
 
 Adobe Campaign generates temporary files under **/tmp**, and then renames them to move them to **/usr/local/neolane/nl6/var**. This error occurs when both folders (**/tmp** and **/usr/local/neolane/nl6/var**, which is in fact a symbolic link to **/var/nl6**) correspond to different devices. The **df** command is used for verification.
 
-To correct this problem, the temporary files must be generated in the same device as the destination. For example, by executing:
+To correct this problem, the temporary files must be generated in the same device as the destination.
+
+For example, execute the following:
 
 ```
 $ cd ~/nl6/var
@@ -26,9 +28,8 @@ $ mkdir tmp
 $ vi ~/nl6/customer.sh
 ```
 
-and then adding:
+Then add:
 
 ```
 export TMPDIR=/usr/local/neolane/nl6/var/tmp 
 ```
-
