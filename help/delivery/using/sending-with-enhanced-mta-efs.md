@@ -10,7 +10,7 @@ topic-tags: sending-emails
 
 # Sending with the Enhanced MTA {#sending-with-enhanced-mta}
 
-## Sent status with Enhanced MTA
+<!--## Sent status with Enhanced MTA
 
 In the **[!UICONTROL Summary]** view of an email delivery [dashboard](../..delivery/using/delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
 
@@ -26,7 +26,7 @@ When soft-bouncing messages get reported back from the Enhanced MTA, they still
 
 Consequently, you should wait until the end of the validity period to see the final **[!UICONTROL Success]** percentage, and the final number of actually **[!UICONTROL Sent]** and **[!UICONTROL Failed]** messages.
 
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
+Note: The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
 ## Email Feedback Service (beta) {#email-feedback-service}
 
