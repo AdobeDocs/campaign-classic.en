@@ -34,7 +34,7 @@ You can also connect with a dedicated login/password:
 
    The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../platform/using/access-management.md).
 
-1. Click **[!UICONTROL LOG IN]** to confirm. You can also press the **Enter** key to launch connection.
+1. Click **[!UICONTROL LOG IN]** to confirm.<!--You can also press the **Enter** key to launch connection.-->
 
 You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
 
