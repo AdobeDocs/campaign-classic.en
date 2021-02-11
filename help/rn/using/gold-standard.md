@@ -24,12 +24,11 @@ _22 December 2020_
 
 >[!CAUTION]
 >
-> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 21st, 2021**.
->
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 31, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
+> * If you are using the Experience Cloug Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
 >
 >Learn more in the [Gold Standard 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
->
 
 The build 9032&#64;d3b452f includes the following improvements and fixes:
 
@@ -37,9 +36,11 @@ The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 * Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
 
-* Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
+* Following the [end of support for iOS APNs legacy binary protocol](https://developer.apple.com/news/?id=c88acm2b), all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+
+* Fixed an issue that could cause workflows to fail when running an **Enrichment** activity. (NEO-17338)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 10 release{#gs-10}
 

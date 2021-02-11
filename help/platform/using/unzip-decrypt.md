@@ -20,7 +20,7 @@ To be able to do so:
     >
     >Control Panel is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
 
-1. If your installation of Adobe Campaign is hosted by Adobe, contact Adobe Customer Care to have the necessary utilities installed on the server.
+1. If your installation of Adobe Campaign is hosted by Adobe, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have the necessary utilities installed on the server.
 1. If your installation of Adobe Campaign is on premise, install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
 
 You can then use the desired pre-processing commands into your workflows:

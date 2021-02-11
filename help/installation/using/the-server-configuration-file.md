@@ -25,6 +25,7 @@ The first parameters are inside the **shared** node. These are related to the in
 * [dnsConfig](#dnsconfig)
 * [exec](#exec)
 * [htmlToPdf](#htmltopdf)
+* [ims](#ims)
 * [javaScript](#javascript)
 * [mailExchanger](#mailexchanger)
 * [module](#module)
@@ -630,6 +631,71 @@ Example for phantomjs:
 ```
 phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:{outPdf}' '-post:{postFile}' '-url:{originUrl}' -sessiontoken:{sessiontoken} -format:{format} -orientation:{orientation} -marginTop:{marginTop} -marginLeft:{marginLeft} -marginRight:{marginRight} -marginBottom:{marginBottom}
 ```
+
+## ims {#ims}
+
+Here are the different parameters of the **ims** node. This is the configuration for Campaign connecting to another service using [IMS](../../integrations/using/about-adobe-id.md).
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Parameter </th> 
+   <th> Description </th> 
+   <th> Type </th> 
+   <th> Default value </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> authIMSClientId<br /> </td> 
+   <td> Client ID.<br /> </td> 
+   <td> String<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSClientSecret<br /> </td> 
+   <td> Secret key (encrypted in AES).<br /> </td> 
+   <td> String<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSCode<br /> </td> 
+   <td> Authorization code (encrypted in AES).<br /> </td> 
+   <td> String<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSEndpoint<br /> </td> 
+   <td> IMS server URL.<br /> </td> 
+   <td> String<br /> </td> 
+   <td> 'https://ims-na1.adobelogin.com'<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAClientId<br /> </td> 
+   <td> Technical Account Client ID.<br /> </td> 
+   <td> String<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAClientSecret<br /> </td> 
+   <td> Technical Account Secret key (encrypted in AES). <br /> </td> 
+   <td> String<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAId<br /> </td> 
+   <td> Technical Account ID. <br /> </td> 
+   <td> String<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAPrivateKey<br /> </td> 
+   <td> Technical Account Private Key (encrypted in AES). <br /> </td> 
+   <td> String<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## javaScript {#javascript}
 
@@ -1554,7 +1620,7 @@ Here are the different parameters of the **mta** node. This is the configuration
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> If set to "true", your instance is using the <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">Enhanced MTA</a>.<br /> </td> 
+   <td> If set to "true", your instance is using the <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>.<br /> </td> 
    <td> Boolean<br /> </td> 
    <td> <br /> </td>b 
   </tr>

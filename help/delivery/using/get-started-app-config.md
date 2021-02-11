@@ -28,9 +28,15 @@ To send push notifications in Adobe Campaign, you need to:
 
 ![](assets/do-not-localize/how-to-video.png) [Learn how to install the mobile app package in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
 
-As a hybrid/hosted customer, contact Adobe Customer Care team to access push notification channel in Campaign. 
+As a hybrid/hosted customer, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team to access push notification channel in Campaign. 
 
-As an on-premise customer, you need to perform the following installation steps:
+As an on-premise customer, you need to install a built-in package.
+
+>[!CAUTION]
+>
+>Learn more about Campaign built-in packages, best practices and recommendations in [this page](../../installation/using/installing-campaign-standard-packages.md).
+
+Installation steps are:
 
 1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
 

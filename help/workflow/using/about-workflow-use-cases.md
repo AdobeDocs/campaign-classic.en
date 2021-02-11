@@ -22,7 +22,7 @@ They will help you discover the different contexts in which workflows can be use
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 * [Using the local approval activity](../../workflow/using/using-the-local-approval-activity.md)
-* [A/B testing](../../workflow/using/a-b-testing.md)
+* [A/B testing](../../delivery/using/a-b-testing-use-case.md)
 * [Sending a birthday email](../../workflow/using/sending-a-birthday-email.md)
 * [Loading delivery content](../../workflow/using/loading-delivery-content.md)
 * [Cross-channel delivery workflow](../../workflow/using/cross-channel-delivery-workflow.md)

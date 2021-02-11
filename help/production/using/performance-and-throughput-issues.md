@@ -18,7 +18,7 @@ Refer to the [Release Notes](../../rn/using/latest-release.md) for more informat
 
 General guidelines for hardware requirements for on-premise Campaign Classic are detailed on this [page](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html).
 
-The consulting team can provide hosted customers with a tool that allows you to easily view how much space is used by various types of tables in the database as well as the space used on the SFTP site. It additionally provides tools to allow you to clean up unnecessary data. Contact the Consulting or Support teams if you need this tool implemented. Here are a few important things to check using this tool:
+The consulting team can provide hosted customers with a tool that allows you to easily view how much space is used by various types of tables in the database as well as the space used on the SFTP site. It additionally provides tools to allow you to clean up unnecessary data. Contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) if you need this tool implemented. Here are a few important things to check using this tool:
 
 * If index size is larger than table size, then a vacuum is required.
 * Check the tables which have the maximum bloat. If these tables are frequently used, they need to be vacuumed. 

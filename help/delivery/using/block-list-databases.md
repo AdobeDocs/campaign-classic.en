@@ -24,7 +24,7 @@ The following is a list of the most widely used RBLs. For a more comprehensive l
 
   Refer to [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-  The database is more important. Being classified on this list is generally a serious situation. If this happens, you must act IMMEDIATELY and warn commercial services, deliverability, and Adobe Campaign support.
+  The database is more important. Being classified on this list is generally a serious situation. If this happens, you must act IMMEDIATELY and warn commercial services, deliverability, and [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
@@ -36,13 +36,13 @@ The following is a list of the most widely used RBLs. For a more comprehensive l
 
   Refer to [https://www.uribl.com/](https://www.uribl.com/)
 
-  This list identifies the domains that regularly appear in messages declared as spam. If your domain appears on this list, it can significantly affect your deliverability. You should inform the deliverability services and Adobe Campaign support immediately.
+  This list identifies the domains that regularly appear in messages declared as spam. If your domain appears on this list, it can significantly affect your deliverability. You should inform the deliverability services and [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediately.
 
 * **SURBL**
 
   Refer to [http://www.surbl.org/](http://www.surbl.org/)
 
-  SURBL identifies the websites that regularly appear in spam. If your domain appears on this list, it can significantly affect your deliverability. You should inform the deliverability services and Adobe Campaign support immediately.
+  SURBL identifies the websites that regularly appear in spam. If your domain appears on this list, it can significantly affect your deliverability. You should inform the deliverability services and [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediately.
 
 * **iX Manitu**
 
