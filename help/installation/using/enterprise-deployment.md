@@ -162,7 +162,7 @@ The steps for installing the first server are:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Linux: [Client console availability for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#client-console-availability-for-linux)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
@@ -195,7 +195,7 @@ The steps for installing the first server are:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Linux: [Client console availability for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#client-console-availability-for-linux)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 ### Installing and configuring the application server 2 {#installing-and-configuring-the-application-server-2}

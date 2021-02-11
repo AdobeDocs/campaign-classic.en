@@ -161,7 +161,7 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Linux: [Client console availability for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#client-console-availability-for-linux)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 1. Follow the Web server integration procedure (IIS, Apache) described in the following sections:
@@ -211,7 +211,7 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Linux: [Client console availability for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#client-console-availability-for-linux)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 1. Start the Adobe Campaign client console (from the previous download page or launched directly on the server for a Windows installation), set the server connection URL to https://console.campaign.net and connect using the **internal** login.
