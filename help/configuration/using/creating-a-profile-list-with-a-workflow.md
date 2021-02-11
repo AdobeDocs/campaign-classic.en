@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating a profile list with a workflow
+title: Create a profile list with a workflow
 description: Learn how to create a profile list in a workflow
 audience: configuration
 content-type: reference

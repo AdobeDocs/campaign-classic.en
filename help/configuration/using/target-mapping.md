@@ -17,7 +17,7 @@ Target mapping creation is necessary in two cases:
 
 The target mapping creation wizard will help you create all schemas required to use your custom table.
 
-## Creating and configuring schemas linked to the custom table {#creating-and-configuring-schemas-linked-to-the-custom-table}
+## Create and configure schemas linked to the custom table {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
 Before you create a target mapping, several configurations are necessary in order for Adobe Campaign to operate with a new recipient data schema.
 
@@ -113,7 +113,7 @@ To do this, apply the following steps:
 
    ![](assets/mapping_schema_list.png)
 
-## Using target mapping {#using-target-mapping}
+## Use target mapping {#using-target-mapping}
 
 There are two ways of using the new schema as the target of a delivery:
 

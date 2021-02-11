@@ -8,15 +8,13 @@ content-type: reference
 topic-tags: api
 ---
 
-# Implementing SOAP methods{#implementing-soap-methods}
+# Implement SOAP methods{#implementing-soap-methods}
 
-## Introduction {#introduction}
-
-It is possible to create SOAP methods in JavaScript. This function simply enables applicative processes, it can avoid developing JSPs and their calling in the forms.
+You can create SOAP methods in JavaScript. This function simply enables applicative processes, it can avoid developing JSPs and their calling in the forms.
 
 These SOAP methods behave in the same way as those defined natively in the application. The same attributes are supported: static, key only and const.
 
-## Defining a method library {#defining-a-method-library}
+## Define a method library {#defining-a-method-library}
 
 Creating a method library involves two stages:
 

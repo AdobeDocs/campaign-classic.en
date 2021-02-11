@@ -8,9 +8,7 @@ content-type: reference
 topic-tags: api
 ---
 
-# Adding additional SQL functions{#adding-additional-sql-functions}
-
-## Introduction {#introduction}
+# Add additional SQL functions{#adding-additional-sql-functions}
 
 Adobe Campaign allows the user to define **their own functions** that can access SQL functions, both those offered by the database and those which are not already available in the console. This is useful for aggregate functions (average, maximum, sum) for example, which can only be calculated on the server or when the database provides an easier way to implement certain functions, rather than "manually" write the expression in the console (e.g. date management).
 

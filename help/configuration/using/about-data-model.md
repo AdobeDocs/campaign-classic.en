@@ -57,7 +57,7 @@ However, it is possible to extend the Recipient table, but not to reduce the num
 
 Also, as the Recipient table is part of the product, both the table and its associated form evolve as the product changes. Therefore extra maintenance is needed to check that any extensions are still valid upon upgrade.
 
-## Extending the data model {#extending-data-model}
+## Extend the data model {#extending-data-model}
 
 When starting with Adobe Campaign, you need to assess the default data model to check which table is the best suited to store your marketing data.
 
@@ -74,9 +74,9 @@ For more on configuring extension schemas to extend the conceptual data model, s
 >
 >Extending the data model is reserved for advanced users.
 
-## Using a custom recipient table {#custom-recipient-table}
+## Use a custom recipient table {#custom-recipient-table}
 
-When designing your Adobe Campaign data model, you can use the [out-of-the-box Recipient table](#default-recipient-table), or decide to create a [custom recipient table](../../configuration/using/about-custom-recipient-table.md) table to store you marketing profiles.
+When designing your Adobe Campaign data model, you can use the [built-in Recipient table](#default-recipient-table), or decide to create a [custom recipient table](../../configuration/using/about-custom-recipient-table.md) table to store you marketing profiles.
 
 Indeed, if your data model does not fit the recipient-centric structure, you can set up other tables as the targeting dimension within Adobe Campaign. For example, this can be relevant when you need to target households, accounts (like mobile phones) and companies/sites rather than simply recipients.
 

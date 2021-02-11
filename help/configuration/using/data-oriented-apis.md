@@ -12,8 +12,6 @@ topic-tags: api
 
 Data oriented APIs let you address the entire datamodel.
 
-## Overview of the datamodel {#overview-of-the-datamodel}
-
 Adobe Campaign does not offer a dedicated read API per entity (no getRecipient or getDelivery function, etc.). Use the QUERY & WRITER data read and modification methods to access the data of the model.
 
 Adobe Campaign lets you manage collections: queries enable you to recover a set of information collected throughout the base. Unlike access in SQL mode, Adobe Campaign APIs return an XML tree instead of data columns. Adobe Campaign thus creates composite documents with all the collected data.
@@ -395,7 +393,7 @@ To avoid binding a parameter, the "noSqlBind" attribute must be populated with t
 >
 >If the query includes "order-by" or "group-by" instructions, the database engines will not be able to "bind" values. You must place the @noSqlBind="true" attribute on the "select" and/or "where" instructions of the query.
 
-#### Query-building tip: {#query-building-tip-}
+#### Query-building tip {#query-building-tip-}
 
 To help with the syntax of a query, you can write the query using the generic query editor in the Adobe Campaign client console ( **[!UICONTROL Tools/ Generic query editor...]** menu). To do this:
 

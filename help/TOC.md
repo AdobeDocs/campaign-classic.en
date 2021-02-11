@@ -786,7 +786,7 @@ type: Documentation
        + [About web tracking](configuration/using/about-web-tracking.md)
        + [Web tracking mode](configuration/using/web-tracking-mode.md)
        + [Web tracking tag: definition](configuration/using/web-tracking-tag--definition.md)
-       + [Setup stages](configuration/using/setup-stages.md)
+       + [Implementation steps](configuration/using/setup-stages.md)
        + [Additional parameters](configuration/using/additional-parameters.md)
        + [Create web tracking tags](configuration/using/creating-web-tracking-tags.md)
        + [Insert tags in your site](configuration/using/inserting-tags-in-your-site.md)

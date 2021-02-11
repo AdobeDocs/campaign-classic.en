@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-schemas
 ---
 
-# Extending a schema{#extending-a-schema}
+# Extend a schema{#extending-a-schema}
 
 >[!IMPORTANT]
 >
@@ -56,6 +56,6 @@ There are two methods for extending an existing schema:
 
 >[!IMPORTANT]
 >
->For the modifications to be taken into account, you need to regenerate schemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.   
->If the modifications impact the structure of the database, you need to run an update. For more on this, refer to the [Updating the database structure](../../configuration/using/updating-the-database-structure.md) section.
+>For the modifications to be taken into account, you need to regenerate schemas. For more on this, refer to the [Regenerate schemas](../../configuration/using/regenerating-schemas.md) section.   
+>If the modifications impact the structure of the database, you need to run an update. For more on this, refer to the [Update the database structure](../../configuration/using/updating-the-database-structure.md) section.
 
