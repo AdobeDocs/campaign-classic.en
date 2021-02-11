@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Types of maintenance
-seo-title: Types of maintenance
 description: Types of maintenance
-seo-description: 
-page-status-flag: never-activated
-uuid: 44faee3d-0549-4f63-8fdc-b24e6de47bc4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: 4a436ccf-097c-43e6-9eda-492bada5512a
-index: y
-internal: n
-snippet: y
 ---
 
 # Types of maintenance{#types-of-maintenance}
@@ -26,7 +18,7 @@ Adobe Campaign provides a built-in workflow which lets you schedule certain data
 * deletion of orphaned records and status reinitialization for expired objects,
 * updating the database statistics.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Please note that the cleanup task deals mostly with application level maintenance, not with RDBMS level maintenance (with the exception of statistics update). However, maintenance operations will be required on the database. Even if the database cleanup workflow runs successfully, this does not mean that the database is optimally tuned.
 

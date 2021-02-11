@@ -1,19 +1,11 @@
 ---
-title: Configuring the integration
-seo-title: Configuring the integration
-description: Configuring the integration
-seo-description: 
-page-status-flag: never-activated
-uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Configuring Adobe Experience Manager integration
+description: Learn how to configure Campaign-AEM integration
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring the integration{#configuring-the-integration}
@@ -56,7 +48,7 @@ You need to configure a security zone for this operator to connect to Adobe Camp
 >
 >We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the Installation [guide](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
-If your Campaign instance is hosted by Adobe, contact Adobe Support team. If you are using Campaign on-premise, follow the steps below:
+If your Campaign instance is hosted by Adobe, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. If you are using Campaign on-premise, follow the steps below:
 
 1. Open the **serverConf.xml** configuration file.
 1. Access the **allowUserPassword** attribute of the selected security zone and set it to **true**.

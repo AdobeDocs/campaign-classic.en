@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About queries in Campaign
-seo-title: About queries in Campaign
 description: About queries in Campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 5b48dc57-678d-4cef-84e9-5c50df3c72db
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-discoiquuid: 08161b4a-7196-41db-b3df-68012a9fc2f8
-index: y
-internal: n
-snippet: y
 ---
 
 # About queries in Campaign{#about-queries-in-campaign}

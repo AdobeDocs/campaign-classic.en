@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sending a birthday email
-seo-title: Sending a birthday email
-description: Sending a birthday email
-seo-description: 
-page-status-flag: never-activated
-uuid: 4d215ff4-a61d-4294-8f15-17c612022577
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to send a birthday email with a workflow
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Sending a birthday email{#sending-a-birthday-email}
@@ -28,7 +20,7 @@ To set up this use case, we created the following targeting workflow:
 
 This (daily run) workflow selects all recipients that have their birthday on the current date.
 
-This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+![](assets/do-not-localize/how-to-video.png) This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html) video.
 
 To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
 
@@ -205,7 +197,7 @@ Add a **Recurring delivery** activity based on the birthday email template that 
 
 >[!CAUTION]
 >
->For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](../../workflow/using/campaign.md) section.
+>For the workflows to execute, the technical workflows relating to the Campaign package must be started. For more on this, refer to the [List of technical workflows](../../workflow/using/about-technical-workflows.md) section.
 >
 >If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) section.
 

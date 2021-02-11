@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a summary list
-seo-title: Creating a summary list
 description: Creating a summary list
-seo-description: 
-page-status-flag: never-activated
-uuid: ea9d097d-d474-47e6-b0d7-08d587666a55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6b0acb6b-0808-4972-b2a2-15fab29b3861
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a summary list{#creating-a-summary-list}
@@ -62,7 +54,7 @@ This data is contained in a "Purchases.txt" text file.
 
    The **Data loading(file)** activity lets you enrich the work table of the workflow with the collected data.
 
-   For more on this activity, refer to [Loading data from a file](../../workflow/using/importing-data.md#loading-data-from-a-file).
+   For more on this activity, refer to [Loading data from a file](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
 1. Configure the **File collector** activity to collect text (&#42;.txt) type files from the selected directory.
 

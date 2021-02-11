@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Standalone deployment
-seo-title: Standalone deployment
 description: Standalone deployment
-seo-description: 
-page-status-flag: never-activated
-uuid: 48ce793e-cb9f-4102-898f-758512cb9bf2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 9834638f-a8bb-4969-9f8d-99b8d9fdb1ca
-index: y
-internal: n
-snippet: y
 ---
 
 # Standalone deployment{#standalone-deployment}
@@ -71,7 +63,7 @@ As the volume grows, a variant of this architecture moves the database server to
     * the first exposed to the public for tracking and pointing to the computer on its public IP;
     * the second alias exposed to internal users for console access and pointing to the same computer.
 
-* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to [Network configuration](../../installation/using/network-configuration.md).
+* Firewall configured to open SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to [Network configuration](../../installation/using/network-configuration.md).
 
 In the following examples, the parameters of the instance are:
 

@@ -1,24 +1,20 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Marketing campaign deliveries
-seo-title: Marketing campaign deliveries
-description: Marketing campaign deliveries
-seo-description: Learn more about marketing campaign deliveries
-page-status-flag: never-activated
-uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about marketing campaign deliveries
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.
+
+When created from a campaign, deliveries will be linked to this campaign and consolidated at the campaign level.
+
+![](assets/do-not-localize/how-to-video.png)[ Discover this feature in video](#create-email-video)
 
 ## Creating deliveries {#creating-deliveries}
 
@@ -26,29 +22,21 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 ![](assets/campaign_op_add_delivery.png)
 
-The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. 
-
->[!NOTE]
->
->For more on creating and configuring deliveries, refer to the [Sending Messages](../../delivery/using/communication-channels.md) section.
+The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. [Learn more](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Selecting the target population {#selecting-the-target-population}
 
-For each delivery, the campaign manager will define:
+For each delivery, you can define:
 
-* The main target. For more on this, refer to [Building the main target in a workflow](#building-the-main-target-in-a-workflow) and [Selecting the target population](#selecting-the-target-population).
-* The control group. For more on this, refer to [Defining a control group](#defining-a-control-group).
-* The seed addresses. For more on this, refer to [this section](../../delivery/using/about-seed-addresses.md).
+* The audience - Learn more in [Building the audience in a workflow](#building-the-main-target-in-a-workflow) and [Selecting the target population](#selecting-the-target-population).
+* A control group - Learn more in [Defining a control group](#defining-a-control-group).
+* Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).
 
-Some of this information is inherited from the template.
+Some of this information can be inherited from the [template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
->[!NOTE]
->
->Campaign templates are presented in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in [this section](../../delivery/using/steps-defining-the-target-population.md).
 
-To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in the [Sending Messages](../../delivery/using/steps-defining-the-target-population.md) section.
-
-### Example: delivering to a group of recipients {#example--delivering-to-a-group-of-recipients}
+**Example: send messages to a group**
 
 You can import a population into a list, then target this list in deliveries.
 
@@ -62,17 +50,15 @@ You can import a population into a list, then target this list in deliveries.
 
 ![](assets/s_user_target_group_next.png)
 
-### Building the main target in a workflow {#building-the-main-target-in-a-workflow}
+### Building the audience in a workflow {#building-the-main-target-in-a-workflow}
 
-The main target of a delivery can also be defined in the targeting workflow: this graphical environment lets you build a target using queries, tests and operators: union, deduplication, sharing, etc.
-
-The [Automating with workflows](../../workflow/using/architecture.md) guide includes a detailed description of how the workflow module operates.
+The main target of a delivery can also be defined in the targeting workflow: this graphical environment lets you build a target using queries, tests and operators: union, deduplication, sharing, etc. [Learn more](../../workflow/using/architecture.md).
 
 >[!IMPORTANT]
 >
->In the same campaign, you cannot set up more than 28 workflows. Past this limit, additional workflows are not visible in the interface and can generate errors.
+>You cannot create more than 28 workflows in a campaign. Past this limit, additional workflows are not visible in the interface and can generate errors.
 
-#### Creating a targeting workflow {#creating-a-targeting-workflow}
+#### Create the workflow {#creating-a-targeting-workflow}
 
 Targeting can be created via a combination of filtering conditions in a graphical sequence in a workflow. You can create populations and sub-populations which will be targeted according to your requirements. To display the workflow editor, click the **[!UICONTROL Targeting and workflows]** tab in the campaign dashboard.
 
@@ -111,7 +97,7 @@ You can create several targeting workflows for a single campaign. To add a workf
 1. Select the **[!UICONTROL New workflow]** template and name this workflow.
 1. Click **[!UICONTROL OK]** to confirm creation of the workflow, and then create the diagram for this workflow.
 
-#### Executing a workflow {#executing-a-workflow}
+#### Execute the workflow {#executing-a-workflow}
 
 Targeting workflows can be launched manually via the **[!UICONTROL Start]** button in the toolbar, provided that you have the appropriate rights.
 
@@ -213,7 +199,7 @@ You can define a control group at campaign level, in which case the control grou
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Activating the control group for a delivery {#activating-the-control-group-for-a-delivery}
 
@@ -232,7 +218,7 @@ By default, the control group configuration defined at the campaign level applie
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]**.
 1. Click **[!UICONTROL Edit...]** to configure the control group.
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Extracting the control group from the main target {#extracting-the-control-group-from-the-main-target}
 
@@ -251,7 +237,7 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 
 This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/architecture.md) for more information.
 
-### Adding a population {#adding-a-population}
+### Adding a control group {#adding-a-population}
 
 You can define a new population to be used as a control group. This population can come from a group of recipients or you can create it via a specific query.
 
@@ -263,7 +249,7 @@ You can define a new population to be used as a control group. This population c
 
 ## Starting a delivery {#starting-a-delivery}
 
-Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For e-mail or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
+Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
 
 ### Starting an online delivery {#starting-an-online-delivery}
 
@@ -289,7 +275,7 @@ Once all approvals have been granted, the delivery status changes to **[!UICONTR
 
 >[!NOTE]
 >
->The technical workflows concerning campaign processes are presented in [List of campaign process workflows](../../workflow/using/campaign.md).
+>The technical workflows related to the Campaign package are presented in [List of technical workflows](../../workflow/using/about-technical-workflows.md).
 
 **Step 1 - File approval**
 
@@ -463,4 +449,12 @@ The export model must be associated with the service provider selected for the d
 
 >[!NOTE]
 >
->For more on exports, refer to the [Getting Started](../../platform/using/generic-imports-and-exports.md) section.
+>For more on exports, refer to the [Getting Started](../../platform/using/get-started-data-import-export.md) section.
+
+#### Tutorial video {#create-email-video}
+
+This video explains how to create a campaign and an email in Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

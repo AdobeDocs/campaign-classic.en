@@ -1,26 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflow HeatMap
-seo-title: Workflow HeatMap
-description: Workflow HeatMap
-seo-description: 
-page-status-flag: never-activated
-uuid: 4d215ff4-a61d-4294-8f15-17c612022577
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Monitor your Campaign workflows with Workflow HeatMap
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow HeatMap {#workflow-heatmap}
 
-The Adobe Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is available to the instance Administrators only.
+Adobe Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is available to the instance Administrators only.
 
-Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
 
 ## About the Workflow HeatMap {#about-the-workflow-heatmap}
 
@@ -41,24 +33,7 @@ More precisely, it helps the platform administrators to:
 
 Using the Workflow HeatMap requires to have a good understanding of the following concepts: [Workflows](../../workflow/using/about-workflows.md), [Activities](../../workflow/using/about-activities.md) and [Workflow Best Practices](../../workflow/using/workflow-best-practices.md).
 
-The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://support.neolane.net/) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.
-
-When you first access Worfklow HeatMap the following pop-up window will appear. This agreement allows the transfer and storage in the United States allowing Adobe Campaign to:
-
-* monitor instances to investigate any performance issues.
-* collect data for anomaly detection.
-
-Note that the transfer of your data is only available for users connecting to Adobe Campaign using their Adobe ID. 
-
-![](assets/wf_monitoring_agreement.png)
-
-Three options are available:
-
-* **[!UICONTROL Accept]** : By accepting this agreement, you authorize Adobe Campaign to collect your data and to transfer it to the United States to be able to help you in case of anomaly detections.
-* **[!UICONTROL Refuse]** : By declining the agreement, your data will not be transferred but you can still use Workflow Heatmap.
-* **[!UICONTROL Do not show this message again]** : By clicking **[!UICONTROL Do not show this message again]** , the pop-up window will stop showing when accessing Workflow Heatmap but is still available from the **[!UICONTROL Term of use]** button.
-
-This choice is not final, you can always change it by clicking the **[!UICONTROL Term of use]** button.
+The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.
 
 ## Using the HeatMap {#using-the-heatmap}
 

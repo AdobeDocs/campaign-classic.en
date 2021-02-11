@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: How to configure tracked links
-seo-title: How to configure tracked links
 description: How to configure tracked links
-seo-description: 
-page-status-flag: never-activated
-uuid: 0fb41a43-8a84-4a61-bf93-97e1d448a5ec
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
-index: y
-internal: n
-snippet: y
 ---
 
 # How to configure tracked links{#how-to-configure-tracked-links}
@@ -22,9 +14,9 @@ For each delivery, you can track the reception of messages and the activation of
 
 >[!NOTE]
 >
->Tracking applies to messages, but webtracking lets you monitor how recipients browse a website (pages visited, purchases).
+>Tracking applies to messages, but web tracking lets you monitor how recipients browse a website (pages visited, purchases).
 >
->The configuration of webtracking is presented in [this section](../../configuration/using/about-web-tracking.md).
+>The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
 

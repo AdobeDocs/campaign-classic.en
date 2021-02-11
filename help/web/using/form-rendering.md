@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Form rendering
-seo-title: Form rendering
 description: Form rendering
-seo-description: 
-page-status-flag: never-activated
-uuid: 714ce201-5535-4fde-b388-1605ac54edcb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 669635bd-868b-4550-b075-6294ccb71297
-index: y
-internal: n
-snippet: y
 ---
 
 # Form rendering{#form-rendering}

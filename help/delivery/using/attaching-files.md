@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Attaching files
-seo-title: Attaching files
 description: Attaching files
-seo-description: 
-page-status-flag: never-activated
-uuid: a4dc1908-a6ef-4bc8-a310-605fc80c34ca
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: f3666c12-5e6f-452e-b1d6-b69a7e9f6f6e
-index: y
-internal: n
-snippet: y
 ---
 
 # Attaching files{#attaching-files}

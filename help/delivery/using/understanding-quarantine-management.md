@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Understanding quarantine management
-seo-title: Understanding quarantine management
 description: Understanding quarantine management
-seo-description: 
-page-status-flag: never-activated
-uuid: 9421e26c-bdcc-4588-8e44-fa6f31051081
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding quarantine management{#understanding-quarantine-management}
@@ -30,21 +22,21 @@ Adobe Campaign manages a list of quarantined addresses. Recipients whose address
 
 The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
-Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid blacklisting by these providers.
+Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
 
-Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
+Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](../../delivery/using/delivery-best-practices.md) .
 
-### Quarantine vs blacklisting {#quarantine-vs-blacklisting}
+### Quarantine vs denylist {#quarantine-vs-denylist}
 
 **Quarantine** applies only to an address, not the profile itself. It means that, if two profiles have the same email address, they will both be affected if the address is quarantined.
 
 Likewise, a profile whose email address is quarantined could update his profile and enter a new address, and could then be targeted by delivery actions again.
 
-**Blacklisting**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
+Being on the **denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
 
 >[!NOTE]
 >
->When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not blacklisted like in the email opt-out process. The profile phone number is sent to quarantine, so that the user continues receiving email messages.
+>When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. The profile phone number is sent to quarantine, so that the user continues receiving email messages.
 
 ## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
@@ -52,7 +44,7 @@ Quarantined addresses can be listed for a specific delivery or for the entire pl
 
 ### Identifying quarantined addresses for a delivery {#identifying-quarantined-addresses-for-a-delivery}
 
-Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard (see [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)).
+Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard (see [Delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)).
 
 ### Identifying quarantined addresses for the entire platform {#identifying-quarantined-addresses-for-the-entire-platform}
 
@@ -86,7 +78,7 @@ The following reports provide information about the addresses in quarantine:
 
 * The **[!UICONTROL Non-deliverables and bounces]** report displays information about the addresses in quarantine, the types of error encountered, etc., and a failure breakdown by domain.
 
-You can look up this information for all deliveries of the platform (**Home page>Reports**) or for a specific delivery. You can also create customized reports and select the information to be displayed.
+You can look up this information for all deliveries of the platform (**[!UICONTROL Home page > Reports]**) or for a specific delivery. You can also create customized reports and select the information to be displayed.
 
 ### Identifying quarantined addresses for a recipient {#identifying-quarantined-addresses-for-a-recipient}
 
@@ -96,17 +88,29 @@ You can look up the status of the email address of any recipient. To do this, se
 
 ### Removing a quarantined address {#removing-a-quarantined-address}
 
-If you need to remove an address from quarantine, change its status manually to **[!UICONTROL Valid]**. 
+If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the **[!UICONTROL Database cleanup]** workflow.
 
-![](assets/tech_quarant_error_status.png)
+To manually remove an address from the quarantine list:
 
-If you change the status to **[!UICONTROL Whitelisted]**, the address will be targeted systematically each time even if an error is encountered.
+* You can change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
 
->[!CAUTION]
+  ![](assets/tech_quarant_error_status.png)
+
+* You can also change its status to **[!UICONTROL Allowlisted]**. In this case, the address remains on the quarantine list, but it will be systematically targeted, even if an error is encountered.
+
+The addresses are automatically removed from the quarantine list in the following cases:
+
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if the last soft bounce occurred more than 10 days ago. For more on soft error management, see [this section](#soft-error-management).
+* Addresses in a **[!UICONTROL With errors]** status that bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
+
+Their status then changes to **[!UICONTROL Valid]**.
+
+>[!IMPORTANT]
 >
->Blacklisted addresses are not concerned by the quarantine system and are not targeted, even if you change the status of the address.
+>Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On denylist]** status will never be removed, even if they receive an email.
 
-You can also change the number of errors and the period between errors. To do this, change the settings of the deployment wizard (Email channel/Advanced settings). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
+You can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
 
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 
@@ -116,7 +120,7 @@ Adobe Campaign manages quarantine according to the delivery failure type and the
 * **Hard error**: the corresponding email address is immediately sent to quarantine.
 * **Soft error**: soft errors do not send immediately an address to quarantine, but they increment an error counter. For more on this, see [Soft error management](#soft-error-management).
 
-If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine.
+If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)), the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine.
 
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. Quarantine in Adobe Campaign is case sensitive. Make sure to import email addresses in lower case, so that they are not retargeted later on.
 
@@ -142,20 +146,24 @@ The items put in quarantine are device tokens.
 
 **For iOS - binary connector**
 
-For each notification, Adobe Campaign receives the synchronous and asynchronous errors from the APNS server. For the following synchronous errors, Adobe Campaign generates soft errors:
+>[!NOTE]
+>
+>Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+
+For each notification, Adobe Campaign receives the synchronous and asynchronous errors from the APNs server. For the following synchronous errors, Adobe Campaign generates soft errors:
 
 * Payload length issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
 * Certificate expiration issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
 * Connection lost during the delivery: retry performed, the failure reason is **[!UICONTROL Unreachable]**.
 * Service configuration issue (invalid certificate, invalid certificate password, no certificate): no retry, the failure reason is **[!UICONTROL Unreachable]**.
 
-The APNS server asynchronously notifies Adobe Campaign that a device token has been unregistered (when the mobile application has been uninstalled by the user). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNS feedback services to update the **AppSubscriptionRcp** table. For all the deactivated tokens, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
+The APNs server asynchronously notifies Adobe Campaign that a device token has been unregistered (when the mobile application has been uninstalled by the user). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNs feedback services to update the **AppSubscriptionRcp** table. For all the deactivated tokens, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
 
-**For iOS - HTTP/2 connector**
+**For iOS - HTTP/V2 connector**
 
-The http/2 protocol allows a direct feedback and status for each push delivery. If the http/2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. The unregistered tokens are handled differently between the iOS binary connector and the iOS http/2 connector. A token is considered unregistered when a mobile application is uninstalled or reinstalled.
+The HTTP/V2 protocol allows a direct feedback and status for each push delivery. If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. The unregistered tokens are handled differently between the iOS binary connector and the iOS HTTP/V2 connector. A token is considered unregistered when a mobile application is uninstalled or reinstalled.
 
-Synchronously, if the APNS returns an "unregistered" status for a message, the target token will be immediately be put in quarantine.
+Synchronously, if the APNs returns an "unregistered" status for a message, the target token will be immediately be put in quarantine.
 
 <table> 
  <tbody> 
@@ -208,7 +216,7 @@ Synchronously, if the APNS returns an "unregistered" status for a message, the t
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Certificate issue (password, corruption, etc.) and test connection to APNS issue<br /> </td> 
+   <td> Certificate issue (password, corruption, etc.) and test connection to APNs issue<br /> </td> 
    <td> Failure<br /> </td> 
    <td> Various error messages according to the error<br /> </td> 
    <td> Soft<br /> </td> 
@@ -224,7 +232,7 @@ Synchronously, if the APNS returns an "unregistered" status for a message, the t
    <td> Yes<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNS message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
+   <td> APNs message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
    <td> Failure<br /> </td> 
    <td> Unregistered<br /> </td> 
    <td> Hard<br /> </td> 
@@ -232,7 +240,7 @@ Synchronously, if the APNS returns an "unregistered" status for a message, the t
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNS message rejection: all other errors<br /> </td> 
+   <td> APNs message rejection: all other errors<br /> </td> 
    <td> Failure<br /> </td> 
    <td> The error rejection cause will be present in the error message<br /> </td> 
    <td> Soft<br /> </td> 
@@ -344,6 +352,134 @@ Android V2 quarantine mecanism uses the same process as Android V1, the same app
    <td> Refused<br /> </td> 
    <td> No<br /> </td> 
   </tr> 
+    <tr> 
+   <td> FCM message rejection: Invalid argument<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> INVALID_ARGUMENT </td> 
+   <td> Ignored</td> 
+   <td> Undefined<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Third party authentication error<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> THIRD_PARTY_AUTH_ERROR </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Sender ID mismatch<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> SENDER_ID_MISMATCH </td> 
+   <td> Soft</td>
+   <td> User unknown<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Unregistered<br /> </td> 
+   <td> Failure<br /> </td>
+   <td> UNREGISTERED </td> 
+   <td> Hard</td> 
+   <td> User unknown<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Internal<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> INTERNAL </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Unavailable<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> UNAVAILABLE</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: unexpected error code<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unexpected error code</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+  <tr> 
+   <td> Authentication: Connection issue<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> Impossible to connect to authentication server </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Unauthorized client or scope in request.<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Client is unauthorized to retrieve access tokens using this method, or client not authorized for any of the scopes requested.<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Access denied<br /> </td> 
+   <td> Failure<br /> </td>
+   <td> access_denied</td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Non-valid email<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid JWT<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid JWT Signature<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid OAuth scope or ID token audience provided<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: OAuth client disabled<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> disabled_client</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
  </tbody> 
 </table>
 

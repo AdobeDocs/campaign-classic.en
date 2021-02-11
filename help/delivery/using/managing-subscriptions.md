@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing subscriptions
-seo-title: Managing subscriptions
 description: Managing subscriptions
-seo-description: 
-page-status-flag: never-activated
-uuid: a2c526fa-3080-4dd5-9628-f0e7040f93cd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing subscriptions{#managing-subscriptions}
@@ -131,7 +123,7 @@ To register recipients for an information service, you can:
 * Automatically subscribe a set of recipients to this service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct selection using the mouse. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]**, select the service concerned, and launch the operation.
 * Import recipients and subscribe them automatically to an information service. To do this, select the service concerned in the last step of the import wizard.
 
-  For more on this, refer to [this section](../../platform/using/importing-data.md#import-wizard).
+  For more on this, refer to [this section](../../platform/using/executing-import-jobs.md).
 
 * Use a web form so that recipients can subscribe to a service.
 
@@ -149,7 +141,7 @@ To register recipients for an information service, you can:
 
 email deliveries must contain an unsubscription link, by law. Recipients can click this link to update their profile and be excluded from the targets of future deliveries.
 
-The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see [About personalization](../../delivery/using/about-personalization.md)). When the recipient clicks this link, the profile is blacklisted (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
+The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see [About personalization](../../delivery/using/about-personalization.md)). When the recipient clicks this link, the profile is added to the denylist (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
 
 Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) or insert a personalized unsubscription link (see [Personalization blocks](../../delivery/using/personalization-blocks.md)).
 

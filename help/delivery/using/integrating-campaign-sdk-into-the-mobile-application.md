@@ -1,32 +1,24 @@
 ---
-title: Setting up mobile app channel
-seo-title: Setting up mobile app channel
-description: Setting up mobile app channel
-seo-description: 
-page-status-flag: never-activated
-uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Integrate Campaign SDK
+description: Learn how to integrate Campaign SDK to your mobile app
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-index: y
-internal: n
-snippet: y
 ---
 
-# Integrating Campaign SDK into the mobile application {#integrating-campaign-sdk-into-the-mobile-application}
+# Integrating Campaign SDK with your app {#integrating-campaign-sdk-into-the-mobile-application}
 
 Campaign SDKs for iOS and Android are one of the components of the Mobile App Channel module.
 
 >[!NOTE]
 >
->To get Campaign SDK (previously known as Neolane SDK), contact Adobe Customer Care.
+>To get Campaign SDK (previously known as Neolane SDK), contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
 
-To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) .
+To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#MobileSDK) .
 
 ## Loading Campaign SDK {#loading-campaign-sdk}
 
@@ -133,7 +125,7 @@ The registration function enables you to:
 * **In iOS**:
 
   ```
-  // Callback called on successful registration to the APNS
+  // Callback called on successful registration to the APNs
   - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
   {
       // Pass the token to Adobe Campaign
@@ -198,14 +190,19 @@ The registration function enables you to:
       if( url == null )     url = "https://www.tripadvisor.fr";
       int iconId = R.drawable.notif_neotrip;
 
-      // notify Neolane that a notification just arrived
-      NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-      nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-        public void onNeolaneException(NeolaneException arg0, Object arg1) {}
-        public void onIOException(IOException arg0, Object arg1) {}
-        public void onComplete(String arg0, Object arg1){}
-      });
-      if (yourApplication.isActivityVisible())
+    // notify Neolane that a notification just arrived
+    SharedPreferences settings = context.getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+    Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
+    Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
+    Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
+ 
+    NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
+    nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+      public void onNeolaneException(NeolaneException arg0, Object arg1) {}
+      public void onIOException(IOException arg0, Object arg1) {}
+      public void onComplete(String arg0, Object arg1){}
+    });
+    if (yourApplication.isActivityVisible())
       {
         Log.i("INFO", "The application has the focus" );
         ...
@@ -243,27 +240,32 @@ The registration function enables you to:
 
   ```
   public class NotificationActivity extends Activity {
-   public static final String NOTIFICATION_URL_KEYNAME = "NotificationUrl";
-   .....
-   public void onCreate(Bundle savedBundle) {
-    super.onCreate(savedBundle);
-    setContentView(R.layout.notification_viewer);  
-    .....  
-    Bundle extra = getIntent().getExtras();  
-    .....  
-    //get the messageId and the deliveryId to do the tracking  
-    String deliveryId = extra.getString("_dId");
-    String messageId = extra.getString("_mId");
-    if (deliveryId != null && messageId != null) {
-     NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
-     neolaneAs.notifyOpening(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-      public void onNeolaneException(NeolaneException arg0, Object arg1) {}
-      public void onIOException(IOException arg0, Object arg1) {}
-      public void onComplete(String arg0, Object arg1) {}
-      });
+  public void onCreate(Bundle savedBundle) {
+    [...]
+    Bundle extra = getIntent().getExtras();
+    if (extra != null) {
+      // reinit the acc sdk
+      SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+      Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
+      Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));               
+      Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
+ 
+      // Get the messageId and the deliveryId to do the tracking
+      String deliveryId = extra.getString("_dId");
+      String messageId = extra.getString("_mId");
+      if (deliveryId != null && messageId != null) {
+        try {
+          Neolane.getInstance().notifyOpening(Integer.valueOf(messageId), Integer.valueOf(deliveryId));
+        } catch (NeolaneException e) {
+          // ...
+        } catch (IOException e) {
+          // ...
+        }
+      }
     }
    }
   }
+
   ```
 
 * **In iOS**:

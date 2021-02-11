@@ -1,19 +1,11 @@
 ---
-title: Creating notifications
-seo-title: Creating notifications
-description: Creating notifications
-seo-description: 
-page-status-flag: never-activated
-uuid: fb1862df-e616-4147-a642-dc867bc983b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Creating push notifications
+description: Learn how to create push notifications
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating notifications{#creating-notifications}
@@ -66,7 +58,7 @@ Start by creating a new delivery.
    >
    >**[!UICONTROL Badge]** and **[!UICONTROL Alert and badge]** type notifications enable you to modify the value of the badge (the number above the mobile application logo). To refresh the badge, you just have to enter 0 as the value. If the field is empty, the badge value will not change.
 
-1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [customizing the emoticon list](../../delivery/using/defining-interactive-content.md)
+1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [customizing the emoticon list](../../delivery/using/customizing-emoticon-list.md)
 
 1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload). If your iOS application manages localizable strings (**Localizable.strings**), enter the corresponding key into this field. If your application does not manage localizable text, enter the label that you want to see appear on the action button. For more information on localizable strings, consult the [Apple documentation](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
 1. In the **[!UICONTROL Play a sound]** field, select the sound to be played by the mobile terminal when the notification is received.
@@ -96,7 +88,7 @@ To send a proof and to send the final delivery, use the same process as email de
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 
 ## Sending notifications on Android {#sending-notifications-on-android}
@@ -139,5 +131,5 @@ The detailed process when validating and sending a delivery is presented in the 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)

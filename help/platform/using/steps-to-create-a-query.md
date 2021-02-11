@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Steps to create a query
-seo-title: Steps to create a query
 description: Steps to create a query
-seo-description: 
-page-status-flag: never-activated
-uuid: 9668f49c-2da7-42c8-8728-8d644c787935
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-discoiquuid: d538f489-f1ae-4682-9c21-d0300bd42b26
-index: y
-internal: n
-snippet: y
 ---
 
 # Steps to create a query{#steps-to-create-a-query}

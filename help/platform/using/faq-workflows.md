@@ -1,18 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflows FAQ
-seo-title: Automate processes and manage data with workflows
 description: Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflows FAQ {#workflows-faq}
@@ -25,7 +18,7 @@ Learn how to orchestrate processes and tasks with Adobe Campaign workflows.
 
 ## How can I import data in Campaign? {#how-can-i-import-data-in-campaign-}
 
-Learn best practices to import data through a Campaign workflow [in this section](../../workflow/using/importing-data.md).
+Learn best practices to import data in [this section](../../platform/using/import-export-best-practices.md).
 
 ## Can I monitor workflow execution? {#can-i-monitor-workflow-execution-}
 
@@ -59,7 +52,7 @@ Learn how to split a target into several subsets [in this section](../../workflo
 
 You can modify certain fields in a Campaign table with values from an external text file.
 
-[Click here to learn how](../../platform/using/importing-data.md#example--enrich-the-values-with-those-of-an-external-file).
+[Click here to learn how](../../platform/using/import-operations-samples.md#example--enrich-the-values-with-those-of-an-external-file).
 
 ## How can I identify and target new recipients? {#how-can-i-identify-and-target-new-recipients-}
 

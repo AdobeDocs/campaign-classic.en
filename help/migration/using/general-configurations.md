@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: General configurations
-seo-title: General configurations
 description: General configurations
-seo-description: 
-page-status-flag: never-activated
-uuid: 317a145d-36b0-40fe-a272-ad5e35b0b190
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
-index: y
-internal: n
-snippet: y
 ---
 
 # General configurations{#general-configurations}
@@ -479,13 +471,13 @@ If you choose to manually resolve the conflict, proceed as follows:
 The integrated Tomcat server in Adobe Campaign v7 has changed version (Tomcat 7). Its installation folder (tomcat-6) has therefore also changed (tomcat 7). After the postupgrade, make sure to check that the paths do link to the updated folder (in the **[!UICONTROL serverConf.xml]** file):
 
 ```
-$(XTK_INSTALL_DIR)/tomcat-7/bin/bootstrap.jar 
-$(XTK_INSTALL_DIR)/tomcat-7/bin/tomcat-juli.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-util.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/servlet-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/jsp-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
+$(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 ```
 
 ## Interaction {#interaction}
@@ -622,11 +614,11 @@ All standard reports currently use rendering engine v6.x. If you had added JavaS
 
 ### Personalized reports {#personalized-reports}
 
-If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
+<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
-
-If you wish to benefit from the new report functionalities, you must select the v.6.x rendering engine. In this case, check all of your scripts and change them if necessary. In regards to PDF export, if you had added specific script for OpenOffice, this will no longer work with the new PDF export engine (PhantomJS).
+-->
+If you wish to benefit from the new report functionalities, you must republish reports. To do this, edit the report **[!UICONTROL Properties]**, click **[!UICONTROL Rendering]** and select the v.6.x rendering engine. In this case, check all of your scripts and change them if necessary. In regards to PDF export, if you had added specific script for Open Office, this will no longer work with the new PDF export engine (PhantomJS).
 
 ## Web applications {#web-applications}
 

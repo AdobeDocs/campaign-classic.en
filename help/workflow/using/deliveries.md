@@ -1,24 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Deliveries
-seo-title: Deliveries
-description: Deliveries
-seo-description: 
-page-status-flag: never-activated
-uuid: d323eb4d-937b-4b37-8400-942336f0a1b4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about default Deliveries workflows
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 37612f62-68c0-4f73-a9a1-6d017aab862f
-index: y
-internal: n
-snippet: y
 ---
 
 # Deliveries{#deliveries}
 
-The workflows detailed below are installed by default.
+The workflows detailed below are installed with the **Deliveries** module by default.
 
 <table> 
  <tbody> 
@@ -38,7 +30,7 @@ The workflows detailed below are installed by default.
    <td> This workflow sends the system activity report to the 'billing' operator by email. It is triggered the 25th of every month by default.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Number of active billing profiles</span> <br /> </td> 
+   <td> <span class="uicontrol">Billing (active profiles)</span> <br /> </td> 
    <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
    <td> <p>This wokflow counts the number of active profiles. It is triggered every night at 1am by default.</p> <p>“<strong>Profile</strong>” means a record of information (e.g.: a record in the nmsRecipient table or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead. Billing only concerns Profiles that are “active”. A Profile is considered “active” if the Profile has been targeted or communicated within the past 12 months via any channel.</p> <p>Facebook and Twitter channels are not taken into account.</p> <p>You can have an overview of the <span class="uicontrol">Number of active profiles</span> from the <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Campaign Management</span> &gt; <span class="uicontrol">Customer metrics</span> menu.</p> </td> 
   </tr> 
@@ -68,7 +60,7 @@ The workflows detailed below are installed by default.
    <td> This workflow deploys approved offers onto the online environment, as well as every category contained in the offer catalog.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Preview</span> <br /> </td> 
+   <td> <span class="uicontrol">Forecasting</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
    <td> This workflow analyzes deliveries saved in the provisional calendar (creates provisional logs). It is triggered every day at 1am by default.<br /> </td> 
   </tr> 

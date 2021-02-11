@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Filtering schemas
-seo-title: Filtering schemas
 description: Filtering schemas
-seo-description: 
-page-status-flag: never-activated
-uuid: 04a90785-3084-42fd-85af-77bc28687579
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 64d4c5b8-db0b-4287-8d30-4bf09878a401
-index: y
-internal: n
-snippet: y
 ---
 
 # Filtering schemas{#filtering-schemas}

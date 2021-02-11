@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Power Booster and Power Cluster
-seo-title: Power Booster and Power Cluster
 description: Power Booster and Power Cluster
-seo-description: 
-page-status-flag: never-activated
-uuid: 4d23ed42-a368-4bd6-afaf-48452e253d19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 715d2b69-5b47-4890-8b7d-1dc0a0d4ead8
-index: y
-internal: n
-snippet: y
 ---
 
 # Power Booster and Power Cluster{#power-booster-and-power-cluster}

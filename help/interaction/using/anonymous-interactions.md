@@ -1,24 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Anonymous interactions
-seo-title: Anonymous interactions
 description: Anonymous interactions
-seo-description: 
-page-status-flag: never-activated
-uuid: 6e28e8a4-8d2f-4747-8dd0-680fbf02b25d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-discoiquuid: 3fd7a1ef-b0e2-4a7e-9e36-044d997db785
-index: y
-internal: n
-snippet: y
 ---
 
 # Anonymous interactions{#anonymous-interactions}
 
-Watch this [video](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) to get an overview of how offers are delivered to identified and anonymous targets.
+![](assets/do-not-localize/how-to-video.png) Watch this [video](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) to get an overview of how offers are delivered to identified and anonymous targets.
 
 ## Targeting and storing an environment for anonymous interactions {#targeting-and-storing-an-environment-for-anonymous-interactions}
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring Campaign server
-seo-title: Configuring Campaign server
 description: Configuring Campaign server
-seo-description: 
-page-status-flag: never-activated
-uuid: be21ae4b-ca2a-4952-b256-cd8dc51309cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Campaign server{#configuring-campaign-server}
@@ -24,14 +16,14 @@ The section below details server-side configurations that can be performed to ma
 >
 >These configurations must be performed by administrators and for **On-premise** hosting models only.
 >
->For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP whitelisting or URL permissions).
+>For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP allowlist management or URL permissions).
 
 For more information, refer to these sections:
 
 * [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 * [Hosting models](../../installation/using/hosting-models.md)
-* [Campaign Classic On-premise & Hosted capability matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
-* [Hybrid and hosted models configuration steps](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
+* [Campaign Classic On-premise & Hosted capability matrix](../../installation/using/capability-matrix.md)
+* [Hybrid and hosted models configuration steps](../../installation/using/hosting-models.md)
 
 Campaign Classic configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
@@ -240,7 +232,7 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
 
 ### Default port for Tomcat {#default-port-for-tomcat}
 
-When the 8080 listening port of the Tomcat server is already busy with another application required for your configuration, you need to replace the 8080 port with a free one (8090 for instance). To change it, edit the **server.xml** file saved in the **/tomcat-7/conf** directory of the Adobe Campaign installation folder.
+When the 8080 listening port of the Tomcat server is already busy with another application required for your configuration, you need to replace the 8080 port with a free one (8090 for instance). To change it, edit the **server.xml** file saved in the **/tomcat-8/conf** directory of the Adobe Campaign installation folder.
 
 Then modify the port of the JSP relay pages. To do this, change the **serverConf.xml** file saved in the **/conf** directory of the Adobe Campaign installation directory. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
@@ -254,7 +246,7 @@ Then modify the port of the JSP relay pages. To do this, change the **serverConf
 
 ### Mapping a folder in Tomcat {#mapping-a-folder-in-tomcat}
 
-To define customer specific settings, you can create a **user_contexts.xml** file in the **/tomcat-7/conf** folder, which also contains the **contexts.xml** file.
+To define customer specific settings, you can create a **user_contexts.xml** file in the **/tomcat-8/conf** folder, which also contains the **contexts.xml** file.
 
 This file will contain the following type of information:
 
@@ -354,9 +346,9 @@ With **Hybrid** and **On-premise** hosting models, the administrator needs to re
 
 Three connection protection modes exist:
 
-* **Blocking**: all URLs that do not belong to the whitelist are blocked, with an error message. This is the default mode after a postupgrade.
-* **Permissive**: all URLs that do not belong to the whitelist are allowed.
-* **Warning**: all non-white URLs are allowed, but the JS interpreter emits a warning, so that the administrator can collect them. This mode adds JST-310027 warning messages.
+* **Blocking**: all URLs that do not belong to the allowlist are blocked, with an error message. This is the default mode after a postupgrade.
+* **Permissive**: all URLs that do not belong to the allowlist are allowed.
+* **Warning**: all URLs that do not belong to the allowlist are allowed, but the JS interpreter emits a warning, so that the administrator can collect them. This mode adds JST-310027 warning messages.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -368,9 +360,9 @@ Three connection protection modes exist:
 
 >[!IMPORTANT]
 >
->By default, new customers' client use the **blocking mode**. If they need to allow a new URL, they should contact their administrator to whitelist it.
+>By default, new customers' client use the **blocking mode**. If they need to allow a new URL, they should contact their administrator to add it to the allowlist.
 >
->Existing customers coming from a migration can use the **warning mode** for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLs. Once the list of authorized URLs defined, they should contact their administrator to whitelist the URLs and activate the **blocking mode**.
+>Existing customers coming from a migration can use the **warning mode** for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLs. Once the list of authorized URLs defined, they should contact their administrator to add the URLs to the allowlist and activate the **blocking mode**.
 
 ## Dynamic page security and relays {#dynamic-page-security-and-relays}
 
@@ -607,15 +599,18 @@ For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG
 
 ## Proxy connection configuration {#proxy-connection-configuration}
 
-If you need to connect the Campaign server to the outside through a proxy (using a file transfer workflow activity for example), you need to configure the proxyConfig section of the serverConf via a command. The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+You can connect the Campaign server to an external system through a proxy, using a **File Transfer** workflow activity for example. To achieve this, you need to configure the **proxyConfig** section of the **serverConf.xml** file through a specific command. All parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
->[!NOTE]
+The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. Please note that starting 20.2 Campaign release, the HTTP and HTTPS protocol parameters are **no longer available**. Those parameters are still mentioned below as they remain available in previous builds - including 9032.
+
+>[!CAUTION]
 >
->Starting 20.2, the HTTP and HTTPS protocol parameters are no longer available. The following information still mentions those parameters as they remain available to previous builds including 9032.
+>Only the basic authentication mode is supported. NTLM authentication is not supported.
 >
 >SOCKS proxies are not supported.
+>
 
-Use the following command:
+You can use the following command:
 
 ```
 nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a collaborative campaign
-seo-title: Creating a collaborative campaign
 description: Creating a collaborative campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 13d8ff65-1480-422a-85b6-40b553a3c151
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 01d8be92-7312-4386-b5f5-651af31308f7
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a collaborative campaign{#creating-a-collaborative-campaign-intro}
@@ -38,7 +30,7 @@ To create a collaborative campaign (by form), the **[!UICONTROL Collaborative ca
 
 In the **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to access the **Distributed Marketing** tab.
 
-Select the **By form** Web interface. This type of interface lets you create personalization fields that will be used by local entities when ordering a campaign. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+Select the **By form** web interface. This type of interface lets you create personalization fields that will be used by local entities when ordering a campaign. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
 Save your campaign. You can now use it from the **Campaign packages** view in the **Campaign** universe, by clicking the **[!UICONTROL Create]** button.
 

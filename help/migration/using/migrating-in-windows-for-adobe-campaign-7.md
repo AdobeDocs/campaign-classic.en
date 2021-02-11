@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migrating in Windows for Adobe Campaign 7
-seo-title: Migrating in Windows for Adobe Campaign 7
 description: Migrating in Windows for Adobe Campaign 7
-seo-description: 
-page-status-flag: never-activated
-uuid: 74464400-bdd4-42f8-bcbe-ace7095ae4e4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-discoiquuid: f459dc07-b7db-4526-b428-852b51c9c00e
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrating in Windows for Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}
@@ -301,10 +293,10 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](#service-
 
 1. Execute the **iis_neolane_setup.vbs** script to automatically configure the resources used by the Adobe Campaign server on the virtual directory previously created.
 
-    * This file is found in the **`[Adobe Campaign v7]`\tomcat-7\conf file**, where **`[Adobe Campaign v7]`** is the access path to the Adobe Campaign installation directory. The command for executing the script is as follows (for administrators):
+    * This file is found in the **`[Adobe Campaign v7]`\conf** directory, where **`[Adobe Campaign v7]`** is the access path to the Adobe Campaign installation directory. The command for executing the script is as follows (for administrators):
 
       ```    
-      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\tomcat-7\conf
+      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
       cscript iis_neolane_setup.vbs
       ```
 

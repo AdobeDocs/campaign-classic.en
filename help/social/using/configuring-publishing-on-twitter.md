@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring publishing on Twitter
-seo-title: Configuring publishing on Twitter
 description: Configuring publishing on Twitter
-seo-description: 
-page-status-flag: never-activated
-uuid: 88867881-fb59-4f0d-862e-537d498e9aef
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: configuration
-discoiquuid: 9d74ed9c-0055-4556-a205-6e5fea11816b
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring publishing on Twitter{#configuring-publishing-on-twitter}

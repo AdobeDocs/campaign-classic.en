@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use case: creating content management"
-seo-title: "Use case: creating content management"
 description: "Use case: creating content management"
-seo-description: 
-page-status-flag: never-activated
-uuid: 204a63eb-40dd-446d-a847-4e55ad23b2bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: a4c62580-664d-47fe-87f5-cfe608b05e6f
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: creating content management{#use-case-creating-content-management}

@@ -1,24 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Troubleshooting
-seo-title: Troubleshooting
 description: Troubleshooting
-seo-description: 
-page-status-flag: never-activated
-uuid: 02bd48cf-3928-4817-97b0-1e64cc8ad8ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}
 
-If your mobile device is connected to Wi-Fi and you are not receiving notifications, check that the FCM/APNS ports are not being blocked by your firewall.
+If your mobile device is connected to Wi-Fi and you are not receiving notifications, check that the FCM/APNs ports are not being blocked by your firewall.
 
 **Android**: The mobile device connects to the FCM servers on ports 5228 to 5230. You therefore must configure your firewall so that it authorizes connection with FCM. The ports to open are: 5228 (the most frequently used), 5229 and 5230.
 

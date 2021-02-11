@@ -1,26 +1,30 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Fork
-seo-title: Fork
-description: Fork
-seo-description: 
-page-status-flag: never-activated
-uuid: 90db1991-cff9-4dbd-a478-7aae1d845836
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Fork workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 16f50f5f-cbad-4de7-aa73-38615ae76ac0
-index: y
-internal: n
-snippet: y
 ---
 
 # Fork{#fork}
 
-A fork lets you launch several activities in parallel.
+The **[!UICONTROL Fork]** activity allows you to create multiple outbound transitions, in order to carry out several activities independently within the same workflow.
 
-Double-click the graphic object to define the number of outbound transitions, create a new transition or change the label of the selected transition.
+For example, you can use the activity after a query, in order to perform two actions in parallel:
+
+* Save the result of the query into an audience,
+* Execute a segmentation on the result in order to send multiple deliveries.
+
+You can also use the activity in the context of content creation and delivery sending automation, in order to launch the target calculation and the content creation in parallel. A dedicated use case is available in [this section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
+
+>[!IMPORTANT]
+>
+>Outbound transitions added after a **[!UICONTROL Fork]** activity **will not** execute simultaneously. This behaviour can impact the workflow's performances. Use this activity if you need to execute several activities independentely, and eventually join them together before executing the rest of the worklow.
+
+To configure the  **[!UICONTROL Fork]** activity, open it define the number and label of the outbound transitions.
 
 ![](assets/s_user_segmentation_fork.png)
 
+You can then configure each outbound transitions, then join them together using an [AND-join](../../workflow/using/and-join.md) activity, if needed. This way, the rest of the workflow will execute only once the **[!UICONTROL Fork]** activity's outbound transitions are finished.

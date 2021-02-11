@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Local approval
-seo-title: Local approval
 description: Local approval
-seo-description: 
-page-status-flag: never-activated
-uuid: 4de59c8a-e229-4c8d-acab-2b116cafb70b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: a223641e-93e1-42ef-bb6b-8e1a0f8f6a65
-index: y
-internal: n
-snippet: y
 ---
 
 # Local approval{#local-approval}

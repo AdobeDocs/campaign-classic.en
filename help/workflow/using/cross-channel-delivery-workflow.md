@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Cross-channel delivery workflow
-seo-title: Cross-channel delivery workflow
-description: Cross-channel delivery workflow
-seo-description: 
-page-status-flag: never-activated
-uuid: 02d51b13-656f-48f3-b744-5968ffa94b3e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about cross-channel delivery workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 2fe907da-ef37-46e2-a8fb-6ad4e18be486
-index: y
-internal: n
-snippet: y
 ---
 
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}

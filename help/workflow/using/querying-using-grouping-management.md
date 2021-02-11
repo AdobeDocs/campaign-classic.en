@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Querying using grouping management
 description: Learn how to perform queries using grouping management
-page-status-flag: never-activated
-uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
 ---
 
 # Querying using grouping management {#querying-using-grouping-management}
@@ -53,15 +47,15 @@ To create this example, apply the following steps:
 
    This data grouping window is only displayed if the **[!UICONTROL Handle groupings (GROUP BY + HAVING]**) box was checked.
 
-   ![](assets/query_editor_blacklist_04.png)
+   ![](assets/query_editor_blocklist_04.png)
 
 1. In the **[!UICONTROL Grouping condition]** window, indicate a primary key count greater than 30 since we only want email domains targeted more than 30 times to be returned as results.
 
    This window appears when the **[!UICONTROL Manage groupings (GROUP BY + HAVING)]** box was checked: this is where the grouping result is filtered (HAVING).
 
-   ![](assets/query_editor_blacklist_05.png)
+   ![](assets/query_editor_blocklist_05.png)
 
 1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]**: no formatting is necessary here.
 1. In the data preview window, click **[!UICONTROL Launch data preview]**: here, three different email domains targeted over 30 times are returned.
 
-   ![](assets/query_editor_blacklist_06.png)
+   ![](assets/query_editor_blocklist_06.png)

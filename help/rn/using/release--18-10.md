@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 18.10
-seo-title: Release 18.10
 description: Release 18.10
-seo-description: 
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Release 18.10{#release-18-10}
@@ -59,7 +51,7 @@ snippet: y
 
 >[!CAUTION]
 >
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+>This build has been recalled. Please [upgrade to the latest build](../../production/using/build-upgrade.md)  or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Improvements**
 
@@ -83,7 +75,7 @@ snippet: y
 
 >[!CAUTION]
 >
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+>This build has been recalled. Please [upgrade to the latest build](../../production/using/build-upgrade.md) or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Improvements**
 
@@ -105,7 +97,7 @@ snippet: y
 
 >[!CAUTION]
 >
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+>This build has been recalled. Please [upgrade to the latest build](../../production/using/build-upgrade.md) or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **What's new?**
 
@@ -147,7 +139,7 @@ snippet: y
 
 **Improvements**
 
-* Campaign Classic APIs are now available in a [dedicated page](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html). If you were using the jsapi.chm file, you should now refer to the new online version.
+* Campaign Classic APIs are now available in a [dedicated page](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html). If you were using the jsapi.chm file, you should now refer to the new online version.
 * PostgreSQL 10, Debian 9 and Teradata 16.20 are now supported. Refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 * When creating an SFTP connection, you can now use proxy authentication. For more information, refer to the [detailed documentation](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868)
 * The **Date calculation formula** option is now available in the delivery properties when creating a single delivery using the direct mail delivery template. (NEO-9792)

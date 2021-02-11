@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About seed addresses
-seo-title: About seed addresses
 description: About seed addresses
-seo-description: 
-page-status-flag: never-activated
-uuid: 80ab5abc-3ae0-484d-88c0-be039aac360d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
-index: y
-internal: n
-snippet: y
 ---
 
 # About seed addresses{#about-seed-addresses}
@@ -22,7 +14,9 @@ Seed addresses are used to target recipients who do not match the defined target
 
 Once of the main reason for using them is **your mailing list protection**. Inserting seed addresses into your mailing list lets you be noticed if it is being used by a third-party, as the seed addresses it contains will receive the deliveries sent to your mailing list.
 
-Moreover, seed addresses let you **preview and test the deliveries personalization and rendering** before their sending, by sending them proofs (see [Using seed addresses as proof](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof)).
+Moreover, seed addresses let you **preview and test the deliveries personalization and rendering** before their sending, by sending them proofs (see [Using seed addresses as proof](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof).
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../delivery/using/steps-defining-the-target-population.md#seeds-and-proofs-video)
 
 The seed addresses feature has the following benefits:
 
@@ -40,10 +34,10 @@ Seed addresses are added to the target of deliveries by being imported or by bei
 
 For direct mail deliveries, seed addresses are added during extraction and mixed in the output document.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For direct mail deliveries, the extraction file format must comply with the following limitations:  
 >
 >* It must not use the option **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
->* If element collections are extracted, these fields will have an empty value for the seed addresses, unless the **[!UICONTROL Single row (expert user)]** option is selected. For more on this, refer to [this section](../../platform/using/exporting-data.md#step-7---data-formatting).
+>* If element collections are extracted, these fields will have an empty value for the seed addresses, unless the **[!UICONTROL Single row (expert user)]** option is selected. For more on this, refer to [this section](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
 >

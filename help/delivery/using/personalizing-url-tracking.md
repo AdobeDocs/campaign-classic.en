@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalizing URL tracking
-seo-title: Personalizing URL tracking
 description: Personalizing URL tracking
-seo-description: 
-page-status-flag: never-activated
-uuid: e054d106-9cf2-49db-aa16-2fdbc0777c8b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-discoiquuid: f0e8a50b-d4a4-4271-87f7-802ef410a0f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalizing URL tracking{#personalizing-url-tracking}

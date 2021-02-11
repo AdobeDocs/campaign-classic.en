@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing the campaign package
-seo-title: Publishing the campaign package
 description: Publishing the campaign package
-seo-description: 
-page-status-flag: never-activated
-uuid: f2d35a8d-191f-4c53-8682-7ccce2a94257
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 8653d4fc-e47f-451a-95f2-c9209a252664
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing the campaign package{#publishing-the-campaign-package}
@@ -32,7 +24,7 @@ You may then begin the approval process by clicking **[!UICONTROL Submit for app
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 
-A notification message is then sent to the reviewer to confirm the availability of this campaign package. The message contains a link to accept or reject the approval via Web access.
+A notification message is then sent to the reviewer to confirm the availability of this campaign package. The message contains a link to accept or reject the approval via web access.
 
 ![](assets/s_advuser_mkg_dist_valid_process1.png)
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: How to use workflow data
-seo-title: How to use workflow data
-description: How to use workflow data
-seo-description: 
-page-status-flag: never-activated
-uuid: ed03f14b-1b53-426e-9213-22cb2f3deb19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to use workflow data
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
-index: y
-internal: n
-snippet: y
 ---
 
 # How to use workflow data{#how-to-use-workflow-data}
@@ -69,25 +61,3 @@ Within the framework of email delivery, personalization fields can also use data
 If a segment code is specified in a targeting activity, it is added to a specific column of the workflow table and will be offered along with the personalization fields. To display all personalization fields, click the **[!UICONTROL Target extension > Other...]** link accessible via the personalization button.
 
 ![](assets/s_advuser_segment_code_select.png)
-
-## Exporting data {#exporting-data}
-
-### Zipping or encrypting a file {#zipping-or-encrypting-a-file}
-
-Adobe Campaign lets you export zipped or encrypted files. When defining an export through a **[!UICONTROL Data extraction (file)]** activity, you can define a post-processing to zip or to encrypt the file.
-
-To be able to do so:
-
-* If your installation of Adobe Campaign is hosted by Adobe: send a request to [Support](https://support.neolane.net) to have the necessary utilities installed on the server.
-* If your installation of Adobe Campaign is on premise: install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
-
-You can then use commands or code, such as:
-
-```
-function encryptFile(file) {  
-  var systemCommand = “gpg --encrypt --recipient  recipientToEncryptTo ” + file;  
-  var result = execCommand(systemCommand, true); 
-}
-```
-
-When importing a file, you can also unzip or decrypt it. See [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).

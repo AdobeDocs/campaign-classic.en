@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring Campaign options
-seo-title: Configuring Campaign options
-description: Configuring Campaign options
-seo-description: 
-page-status-flag: never-activated
-uuid: 32e85e41-6898-4fb3-90c8-2201ceea2e91
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to configure Campaign options
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
-index: y
-internal: n
-snippet: y
 ---
 
 # List of Campaign Classic options{#configuring-campaign-options}
@@ -168,7 +160,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Formula used to calculate the weighting of a message for a provisional delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsInmail_WhitelistEmails</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
    <td> List of authorized forwarding email addresses (from the inbound mail processing module). The addresses have to be separated by commas (or * to allow all). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
@@ -205,7 +197,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to “7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
+   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to “7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -361,7 +353,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Allows you to monitor the <a href="../../workflow/using/campaign.md">operationMgt</a> technical workflow execution. When activated (value "1"), the execution information are logged in the workflow audit logs.<br /> </td> 
+   <td> Allows you to monitor the <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> technical workflow execution. When activated (value "1"), the execution information are logged in the workflow audit logs.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -626,25 +618,25 @@ Some of them are built-in when installing Campaign, and others can be added manu
     <li><p>1 -  pg_cancel_backend: stops workflow process and cancels query in the database<p></li>
     <li><p>2 – pg_terminate_backend: stops workflow process and terminates query in the database<p></li></ul></td> 
   </tr>  
-  <tr> 
-   <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign standard tables.<br /> </td> 
+    <tr> 
+   <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
+   <td> Name of the tablespace intended to contain the data of the Adobe Campaign standard tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the data of the standard Adobe Campaign tables.<br /> </td> 
+   <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
+   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign standard tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the data of the Adobe Campaign work tables.<br /> </td> 
+   <td> Name of the tablespace intended to contain the data of the Adobe Campaign work tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign work tables.<br /> </td> 
+   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign work tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Allows you to configure a separate database for working tables on Microsoft SQL Server, in order to optimize backups and replication. The option corresponds to the name of the temporary database: Work tables will be written in this database if specified. Example: 'tempdb.dbo.' (note that the name must end with a dot).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Read more</a> <br /> </td> 
+   <td> Allows you to configure a separate database for working tables on Microsoft SQL Server, in order to optimize backups and replication. The option corresponds to the name of the temporary database: Work tables will be written in this database if specified. Example: 'tempdb.dbo.' (note that the name must end with a dot). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Read more</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 

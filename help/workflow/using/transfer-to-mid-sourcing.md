@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Transfer to Mid-sourcing
-seo-title: Transfer to Mid-sourcing
-description: Transfer to Mid-sourcing
-seo-description: 
-page-status-flag: never-activated
-uuid: 6b5be5a0-d1ea-428b-a755-74dd34b1d53d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about Transfer to Mid-sourcing workflows
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 57b873e9-e934-410b-b966-040cebd94e3e
-index: y
-internal: n
-snippet: y
 ---
 
 # Transfer to Mid-sourcing{#transfer-to-mid-sourcing}

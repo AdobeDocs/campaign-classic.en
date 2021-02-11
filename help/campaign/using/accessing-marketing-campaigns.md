@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Accessing marketing campaigns
-seo-title: Accessing marketing campaigns
 description: Accessing marketing campaigns
-seo-description: 
-page-status-flag: never-activated
-uuid: a482be37-61bb-4588-9dfb-f9c3ee5a1930
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
-index: y
-internal: n
-snippet: y
 ---
 
 # Accessing marketing campaigns{#accessing-marketing-campaigns}
@@ -37,13 +29,13 @@ The navigation block of the **[!UICONTROL Campaigns]** universe offers various e
 * **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](#campaign-calendar).
 * **Campaigns**: access to the campaigns contained in all marketing programs.
 * **Deliveries**: access to the deliveries linked to the campaigns.
-* **Web Applications**: access to Web applications (forms, surveys, etc.).
+* **Web Applications**: access to web applications (forms, surveys, etc.).
 
 >[!NOTE]
 >
 >For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to [this section](../../platform/using/adobe-campaign-workspace.md).
 >
->All functionalities related to channels and deliveries are detailed in [this section](../../delivery/using/communication-channels.md).
+>All functionalities related to channels and deliveries are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ### Campaign calendar {#campaign-calendar}
 
@@ -163,7 +155,7 @@ You can access the Adobe Campaign console screens via an internet browser to vie
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
 
-Approvals (of a target or a delivery content, for instance) can be carried out via Web access.
+Approvals (of a target or a delivery content, for instance) can be carried out via web access.
 
 ![](assets/campaign_web_interface_validation.png)
 

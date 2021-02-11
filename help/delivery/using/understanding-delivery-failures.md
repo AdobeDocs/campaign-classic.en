@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Understanding delivery failures
-seo-title: Understanding delivery failures
-description: Understanding delivery failures
-seo-description: 
-page-status-flag: never-activated
-uuid: 03a91f84-77fe-40a9-8be9-a6a35a873ae1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to understand delivery failures
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding delivery failures{#understanding-delivery-failures}
@@ -24,16 +16,18 @@ When a message (email, SMS, push notification) cannot be sent to a profile, the 
 
 >[!NOTE]
 >
->Email error messages (or "bounces") are qualified by the inMail process. SMS error messages (or "SR" for "Status Report") are qualified by the MTA process.
+>**Email** error messages (or "bounces") are qualified by the Enhanced MTA (synchronous bounces) or by the inMail process (asynchronous bounces).
+>
+>**SMS** error messages (or "SR" for "Status Report") are qualified by the MTA process.
 
 Once a message is sent, the delivery logs allows you to view the delivery status for each profile and the associated failure type and reason.
 
-Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is blacklisted. Excluded messages are listed in the delivery dashboard.
+Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is on denylist. Excluded messages are listed in the delivery dashboard.
 
 **Related topics:**
 
-* [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
-* [Failed status](../../delivery/using/monitoring-a-delivery.md#failed-status)
+* [Delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)
+* [Failed status](../../delivery/using/delivery-performances.md#failed-status)
 * [Delivery failure types and reasons](#delivery-failure-types-and-reasons)
 
 ## Delivery failure types and reasons {#delivery-failure-types-and-reasons}
@@ -79,10 +73,10 @@ The possible reasons for a delivery failure are:
    <td> The quality rating for this address is too low.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted address </td> 
+   <td> Denylisted address </td> 
    <td> Hard </td> 
    <td> 8 </td> 
-   <td> The address was blacklisted at the time of sending. This status is used for importing data from external lists and external systems when importing data into the Adobe Campaign Quarantine list.<br /> </td> 
+   <td> The address was added to the denylist at the time of sending. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
   </tr> 
   <tr> 
    <td> Control address </td> 
@@ -100,7 +94,7 @@ The possible reasons for a delivery failure are:
    <td> Error ignored </td> 
    <td> Ignored </td> 
    <td> 25 </td> 
-   <td> The address is whitelisted. The error is therefore ignored and an email will be sent.<br /> </td> 
+   <td> The address is on the allowlist. The error is therefore ignored and an email will be sent.<br /> </td> 
   </tr> 
   <tr> 
    <td> Excluded after arbitration </td> 
@@ -185,9 +179,13 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 >
 >Temporarily undelivered messages can only be related to a **Soft** or **Ignored** error, but not a **Hard** error (see [Delivery failure types and reasons](#delivery-failure-types-and-reasons)).
 
-To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. See [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [Configuring retries](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
@@ -200,7 +198,7 @@ A message can fail immediately (synchronous error), or later on, after it has be
   >
   >Configuration of the bounce mailbox is detailed in [this section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-  The feedback loop operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are blacklisted even though they didn't click the unsubscription link. Addresses are blacklisted in the (**NmsAddress**) quarantine table and not the (**NmsRecipient**) recipient table.
+  The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are on denylist even though they didn't click the unsubscription link. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
 
   >[!NOTE]
   >
@@ -208,27 +206,45 @@ A message can fail immediately (synchronous error), or later on, after it has be
 
 ## Bounce mail management {#bounce-mail-management}
 
-The Adobe Campaign platform lets you manage email delivery failures via the bounce mail functionality. When an email cannot be delivered to a recipient, the remote messaging server automatically returns an error message (bounce mail) to a technical inbox designed for this purpose. Error messages are collected by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules
+The Adobe Campaign platform lets you manage email delivery failures via the bounce mail functionality.
+
+When an email cannot be delivered to a recipient, the remote messaging server automatically returns an error message (bounce mail) to a technical inbox designed for this purpose.
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, error messages are collected by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), most of the email management rules are no longer used. For more on this, see [this section](#email-management-rules).
 
 ### Bounce mail qualification {#bounce-mail-qualification}
 
-When the delivery of an email fails, the Adobe Campaign delivery server receives an error message from the messaging server or the remote DNS server. The list of errors is made up of strings contained in the message returned by the remote server. Failure types and reasons are assigned to each error message.
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md):
+>
+>* The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for **synchronous** delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+>
+>* **Asynchronous** bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, see [Email management rules](#email-management-rules).
+>
+>* For instances using the Enhanced MTA **without Webhooks/EFS**, the **[!UICONTROL Inbound email]** rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, when the delivery of an email fails, the Adobe Campaign delivery server receives an error message from the messaging server or the remote DNS server. The list of errors is made up of strings contained in the message returned by the remote server. Failure types and reasons are assigned to each error message.
 
 This list is available via the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It contains all the rules used by Adobe Campaign to qualify delivery failures. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-* The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. If this column is not displayed, click the **[!UICONTROL Configure list]** button at the right bottom of the list to select it.
+The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. If this column is not displayed, click the **[!UICONTROL Configure list]** button at the right bottom of the list to select it.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-  Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
 
-  This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
+This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
   
-  >[!NOTE]
-  >
-  >The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+>[!NOTE]
+>
+>The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
 
 Bounce mails can have the following qualification status:
 
@@ -238,19 +254,11 @@ Bounce mails can have the following qualification status:
 
 ![](assets/deliverability_qualif_status.png)
 
+### Email management rules {#email-management-rules}
+
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA:
->
->* The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for synchronous delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
->
->* Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, see [Email management rules](#email-management-rules).
->
->* For instances using the Enhanced MTA without **Webhooks/EFS**, the **[!UICONTROL Inbound email]** rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
->
->For more on the Adobe Campaign Enhanced MTA, refer to [this document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
-
-### Email management rules {#email-management-rules}
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), most of the email management rules are no longer used. For more details, see the sections below.
 
 Mail rules are accessed via the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** node. Email management rules are shown in the lower part of the window.
 
@@ -269,7 +277,11 @@ The default rules are as follows.
 
 #### Inbound email {#inbound-email}
 
-These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), and if your instance has **Webhooks/EFS** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
   
 When an email fails, the remote server returns a bounce message to the address specified in the platform parameters. Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three [error types](#delivery-failure-types-and-reasons).
 
@@ -279,30 +291,28 @@ When an email fails, the remote server returns a bounce message to the address s
 
 For more on bounce mail qualification, see [this section](#bounce-mail-qualification).
 
->[!IMPORTANT]
->
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, and if your instance has **Webhooks/EFS** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
->
->For more on the Adobe Campaign Enhanced MTA, refer to [this document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
-
 #### Domain management {#domain-management}
 
-The Adobe Campaign messaging server applies a single **Domain management** rule to all domains.
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, the Adobe Campaign messaging server applies a single **Domain management** rule to all domains.
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
 * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
 * The **SMTP relay** parameters let you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
-If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in the sender address, make sure you are not signing your emails with **Sender ID**, which is the outdated proprietary email authentication standard from Microsoft. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact the Adobe Campaign support. Your deliverability will not be impacted.
+If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in the sender address, make sure you are not signing your emails with **Sender ID**, which is the outdated proprietary email authentication standard from Microsoft. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Your deliverability will not be impacted.
+
+#### MX Management {#mx-management}
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
->
->For more on the Adobe Campaign Enhanced MTA, refer to [this document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 
-#### MX Management {#mx-management}
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA:
 
 * The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
 
@@ -311,9 +321,3 @@ If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in 
 * To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked. For example, in the general case, for a minimum of 300 messages, the sending of emails is blocked for three hours if the error rate reaches 90%.
 
 For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
-
->[!IMPORTANT]
->
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
->
->For more on the Adobe Campaign Enhanced MTA, refer to [this document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).

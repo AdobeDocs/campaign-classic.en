@@ -1,22 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About workflows
-seo-title: About workflows
-description: About workflows
-seo-description: 
-page-status-flag: never-activated
-uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Automate processes with workflows, manage data and audiences, send messages, and more.
 audience: workflow
 content-type: reference
 topic-tags: introduction
-discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
-index: y
-internal: n
-snippet: y
 ---
 
-# About workflows{#about-workflows}
+# Get started with workflows{#gs-workflows}
+
+## About workflows{#about-workflows}
 
 Adobe Campaign includes a workflow module that empowers you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
 
@@ -28,9 +22,9 @@ Workflows occur within various contexts and stages of the campaign management pr
 
 Adobe Campaign uses workflows to:
 
-* Carry out targeting campaigns. For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
-* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. For more on this, refer to [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows).
-* Perform technical processes: cleanup, collecting tracking information or provisional calculations. For more on this, refer to [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows).
+* Carry out targeting campaigns. [Learn more](../../workflow/using/building-a-workflow.md#implementation-steps-)
+* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. [Learn more](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* Perform technical processes: cleanup, collecting tracking information or provisional calculations. [Learn more](../../workflow/using/building-a-workflow.md#technical-workflows)
 
 A workflow can mean both a process definition (the workflow model, which is a representation of what is supposed to happen) and an instance of this process (a workflow instance, which is a representation of what is actually happening).
 
@@ -66,3 +60,14 @@ Each workflow contains:
 
   Learn more on workflow data and tables in [this section](../../workflow/using/how-to-use-workflow-data.md).
 
+## Key principles and best practices{#principles-workflows}
+
+Refer to these sections to find guidance and best practices to automate processes with workflows:
+
+* Learn more about workflow activities in [this page](../../workflow/using/how-to-use-workflow-data.md).
+* Learn how to build a workflow in [this section](../../workflow/using/building-a-workflow.md).
+* Discover how to use workflows to import data in Campaign in [this section](../../platform/using/import-export-workflows.md).
+* Workflow best practices are detailed in [this page](../../workflow/using/workflow-best-practices.md).
+* Find guidance about workflow execution in [this section](../../workflow/using/starting-a-workflow.md).
+* Learn how to monitor workflows in [this page](../../workflow/using/monitoring-workflow-execution.md).
+* Learn how to grant access to users to use workflows in [this page](../../workflow/using/managing-rights.md).

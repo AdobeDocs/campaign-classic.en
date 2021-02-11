@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Enterprise deployment
-seo-title: Enterprise deployment
 description: Enterprise deployment
-seo-description: 
-page-status-flag: never-activated
-uuid: 2c2b5cef-86cb-4cb5-801a-ca6afeae90bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 066d0ac1-033c-467b-aa6c-43a97ecd8632
-index: y
-internal: n
-snippet: y
 ---
 
 # Enterprise deployment{#enterprise-deployment}

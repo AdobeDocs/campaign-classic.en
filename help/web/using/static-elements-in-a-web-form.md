@@ -1,24 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Static elements in a web form
-seo-title: Static elements in a web form
 description: Static elements in a web form
-seo-description: 
-page-status-flag: never-activated
-uuid: 628e2252-16a2-4c8a-a178-60a9441d3198
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: ca3377c6-a120-4cd0-aaf4-80248f4f5918
-index: y
-internal: n
-snippet: y
 ---
 
 # Static elements in a web form{#static-elements-in-a-web-form}
 
-You can include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. These elements are created via the first button in the toolbar, by clicking the **[!UICONTROL Add static element]** menu.
+You can include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. These elements are created via the first button in the toolbar, by selecting **[!UICONTROL Static elements]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -35,9 +27,9 @@ The following types of field are available:
 
 ## Inserting HTML content {#inserting-html-content}
 
-You can include HTML content in a form page: hypertext links, images, formatted paragraphs, video or Flash objects, etc.
+You can include HTML content in a form page: hypertext links, images, formatted paragraphs, videos, etc.
 
-The HTML editor lets you enter the content to insert into the form page. To open the editor, go to **[!UICONTROL Static elements>HTML]** .
+The HTML editor lets you enter the content to insert into the form page. To open the editor, click **[!UICONTROL Static elements]** > **[!UICONTROL HTML]** .
 
 You can enter and format your content directly or display the source code window to paste in some external content. To switch to "source code" mode, click the first icon in the toolbar:
 
@@ -55,7 +47,7 @@ To insert a database field, use the personalization button.
 
 Fill in the fields in the editing window as shown in the following example:
 
-To add a hypertext link, go to **[!UICONTROL Static elements>Link]**.
+To add a hypertext link, go to **[!UICONTROL Static elements]** > **[!UICONTROL Link]**.
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
@@ -175,7 +167,7 @@ Use personalization fields to re-inject the user name and selected brand into th
 
 >[!NOTE]
 >
->For security reasons, the value entered in the **`<%=`** formula is replaced with escape characters. To avoid this, and only when necessary, use the following syntax: **`<%=`**.
+>For security reasons, the value entered in the **`<%=`** formula is replaced with escaped characters.
 
 In our example, the first and last name of the recipient are stored in a field of the database, while the brand of their car is stored in a variable. The syntax of the message personalized on page 2 will be as follows:
 
@@ -211,19 +203,19 @@ For example, you can create a **Contact** field that will enable you to display 
 
    >[!CAUTION]
    >
-   >If you enter these characters in the HTML editor, the **<** and **>** fields will be replaced with their escape characters. In this case, you need to correct the source code by clicking the **[!UICONTROL Display source code]** icon of the HTML text editor.
+   >If you enter these characters in the HTML editor, the **<** and **>** fields will be replaced with their escaped characters. In this case, you need to correct the source code by clicking the **[!UICONTROL Display source code]** icon of the HTML text editor.
 
 1. Open the **[!UICONTROL Preview]** label of the form to view the value entered in the HTML:
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-This operating mode lets you factorize the text of Web forms and manage translations using the integrated translation tool. For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
+This operating mode lets you define the text of Web forms only once, and manage translations using the integrated translation tool. For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
 
 ## Inserting images {#inserting-images}
 
 For images to be included in forms, they must be saved on a server that is accessible from outside.
 
-Select the **[!UICONTROL Static elements>Image]** menu.
+Select the **[!UICONTROL Static elements]** > **[!UICONTROL Image]** menu.
 
 Select the source of the image to be inserted: it can come from the public resource library or be stored on an external server accessible from outside.
 

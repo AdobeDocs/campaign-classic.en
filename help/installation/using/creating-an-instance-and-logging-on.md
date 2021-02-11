@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating an instance and logging on
-seo-title: Creating an instance and logging on
 description: Creating an instance and logging on
-seo-description: 
-page-status-flag: never-activated
-uuid: cb1620b3-f6e8-41dc-9142-ac0da65b6f8d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: c7395094-c635-45ab-8455-a050f7d16b64
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating an instance and logging on{#creating-an-instance-and-logging-on}
@@ -42,7 +34,7 @@ To create a new instance, follow the steps below:
 
 1. Specify a connection to your Adobe Campaign application server via a URL. Use either a DNS or an alias of the machine, or your IP address.
 
-   For example, you can use the [`https://<machine>.<domain>.com`](https://machine) type URL.
+   For example, you can use the [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
 
    >[!CAUTION]
    >

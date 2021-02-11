@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Editing content
-seo-title: Editing content
 description: Editing content
-seo-description: 
-page-status-flag: never-activated
-uuid: 2f51e848-1820-4bec-a0ea-63c9ddff05e0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
-index: y
-internal: n
-snippet: y
 ---
 
 # Editing content{#editing-content}
@@ -207,19 +199,6 @@ The available options are as follows:
 ## Managing images and animations {#managing-images-and-animations}
 
 The Digital Content Editor lets you work on **any type of image** compatible with browsers.
-
-To be compatible with the DCE, **"Flash" type animations** must be inserted into an HTML page in the following way:
-
-```
-
-<object type="application/x-shockwave-flash" data="https://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
- <param name="movie" value="https://www.mydomain.com/flash/your_animation.swf" />
- <param name="quality" value="high" />
- <param name="play" value="true"/>
- <param name="loop" value="true"/> 
-</object>
-
-```
 
 >[!CAUTION]
 >

@@ -1,24 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About campaign typologies
-seo-title: About campaign typologies
 description: About campaign typologies
-seo-description: 
-page-status-flag: never-activated
-uuid: ec89fb14-7e2f-4e9f-b7ab-3c2caf93a697
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
-index: y
-internal: n
-snippet: y
 ---
 
 # About campaign typologies{#about-campaign-typologies}
 
 Campaign Optimization is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#typologies-video)
 
 >[!NOTE]
 >
@@ -62,6 +56,27 @@ Steps to create and apply a typology to your deliveries are listed below:
 
 During delivery preparation, recipients are excluded when criterion is met. You can check logs to monitor exclusions. Sample use cases on pressure typology rules are available in [this page](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
 
+## Tutorial videos {#typologies-video}
+
+### How to set up fatigue management using typology rules
+
+This video explains how to implement fatigue management in Adobe Campaign Classic by leveraging typology rules.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+
+### How to set up fatigue management using predefined filters
+
+Fatigue management controls frequency and quantity of messaging to avoid over-solicitation of recipients. If you do not have the campaign optimization module in your campaign instance, you may configure a predefined filter that will filter the target population by the number of messages received
+This video explains how to implement fatigue management in Adobe Campaign Classic by using filters.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
 **Related topic**
 
 * [Apply automatic business rules to deliveries on any channel](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
+
+* [About campaign typologies](../../campaign/using/pressure-rules.md)
+
+* [Managing marketing fatigue with pressure rules](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Database mapping
-seo-title: Database mapping
 description: Database mapping
-seo-description: 
-page-status-flag: never-activated
-uuid: a51df3eb-cae6-4e8d-8386-d62defc1b610
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Database mapping{#database-mapping}
@@ -358,7 +350,7 @@ The various types of associations (known as "cardinalities") are as follows:
 
 In the interface, you can distinguish the different types of relations easily thanks to their icons.
 
-For join relations with a campain table/database:
+For join relations with a campaign table/database:
 
 * ![](assets/join_with_campaign11.png) : Cardinality 1-1. For example, between a recipient and a current order. A recipient can be related to only one occurrence of the current order table at a time. 
 * ![](assets/externaljoin11.png) : Cardinality 1-1, external join. For example, between a recipient and their country. A recipient can be related to only one occurrence of the table country. The content of the country table will not be saved. 
@@ -369,7 +361,7 @@ For join relations using Federated Database Access:
 * ![](assets/join_fda_11.png) : Cardinality 1-1
 * ![](assets/join_fda_1m.png) : Cardinality 1-N
 
-For more information on FDA tables, refer to [Accessing an external database](../../platform/using/about-fda.md).
+For more information on FDA tables, refer to [Accessing an external database](../../installation/using/about-fda.md).
 
 A link must be declared in the schema containing the foreign key of the table linked via the main element:
 

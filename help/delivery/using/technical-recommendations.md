@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Technical recommendations for improving deliverability with Adobe Campaign Classic
 description: Discover techniques, configurations, and tools that you can use to improve your deliverability rate with Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 71be1087-e5ff-4a7a-85ca-36803839e72f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
-index: y
-internal: n
-snippet: y
 ---
 
 # Technical recommendations{#technical-recommendations}
@@ -68,6 +62,10 @@ It is worth noting that records made at the level of the DNS servers can take up
 
 ### DKIM {#dkim}
 
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
+
 DKIM (DomainKeys Identified Mail) authentication is a successor to SPF and uses public-key cryptography that allows the receiving email server to verify that a message was in fact sent by the person or entity it claims it was sent by, and whether or not the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the "From" or "Sender" header. To insure the security level of the DKIM, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers.
 
 DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Internet Mail authentication principles and is used to check the authenticity of the sender domain and guarantee the integrity of the message.
@@ -85,10 +83,6 @@ Using DKIM requires some prerequisites:
 >* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the [Domain management rules](../../delivery/using/understanding-delivery-failures.md#domain-management). If not, follow the same configuration steps (private/public key) as for DomainKeys.
 >* It is not necessary to enable both DomainKeys and DKIM for the same domain as DKIM is an improved version of DomainKeys.
 >* The following domains currently validate DKIM: AOL, Gmail.
-
->[!IMPORTANT]
->
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
 
 ### DMARC {#dmarc}
 
@@ -130,7 +124,7 @@ Recommendations for defining an SPF record:
 
 ## Feedback loop {#feedback-loop}
 
-A feedback loop works by declaring at the ISP level a given email address for a range of IP addresses used for sending messages. The ISP will send to this mailbox, in a similar way as what is done for bounce messages, those messages that are reported by recipients as spam. The platform should be configured to block future deliveries to users who have complained. It is important to no longer contact them even if they did not use the proper opt-out link. It is on the basis of these complaints that an ISP will blacklist an IP address. Depending on the ISP, a complaint rate of around 1% will result in the blacklisting of an IP address.
+A feedback loop works by declaring at the ISP level a given email address for a range of IP addresses used for sending messages. The ISP will send to this mailbox, in a similar way as what is done for bounce messages, those messages that are reported by recipients as spam. The platform should be configured to block future deliveries to users who have complained. It is important to no longer contact them even if they did not use the proper opt-out link. It is on the basis of these complaints that an ISP will add an IP address to its denylist. Depending on the ISP, a complaint rate of around 1% will result in blocking an IP address.
 
 A standard is currently being drawn up to define the format of feedback loop messages: the [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
@@ -246,11 +240,11 @@ Adobe provides a dedicated IP strategy for each customer with a ramp-up IP in or
 
 ## IP Certification {#ip-certification}
 
-IP Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
+IP Certification is a sending best practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
 
 Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
 
-Certified senders are added to email whitelists which are used by global mailbox providers and email security companies. These commercial whitelists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
+Certified senders are added to email allowlists which are used by global mailbox providers and email security companies. These commercial allowlists are based on a system that enables the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
 
 The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
 
@@ -267,6 +261,6 @@ The [Certified Senders Alliance](https://certified-senders.org/certification-pro
 * Protection from legal and financial risks by fully complying with legal standards
 * Protecting reputation by means of early warnings from the CSA Complaints Office and daily spam trap reports
 
-ISPs are free to use these services and the number of ISPs can vary depending on the whitelist.
+ISPs are free to use these services and the number of ISPs can vary depending on the allowlist.
 
 However, because more and more ISPs build their antispam filters based on each inbox owner's behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of inbox placement or even delivery.

@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Starting a workflow
-description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu.
-page-status-flag: never-activated
-uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting a workflow {#starting-a-workflow}
@@ -23,6 +17,10 @@ Actions related to targeting workflow execution (launch, stop, pause, etc.) are 
 The toolbar allows you to start and track the execution of the workflow.
 
 The list of options available in the **[!UICONTROL Actions]** menu and the right-click menu are detailed below.
+
+>[!IMPORTANT]
+>
+>Keep in mind that, when an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway, but instead placed in a queue in order to be processed by the [workflow module](../../workflow/using/architecture.md).
 
 ## Actions toolbar {#actions-toolbar}
 

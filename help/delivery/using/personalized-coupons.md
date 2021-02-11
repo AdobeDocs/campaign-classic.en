@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalized coupons
-seo-title: Personalized coupons
 description: Personalized coupons
-seo-description: 
-page-status-flag: never-activated
-uuid: c840e2de-f0ef-478b-af9f-82e1b6534933
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: f324afa5-304c-470e-a592-290f76a11ccb
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalized coupons{#personalized-coupons}
@@ -24,7 +16,7 @@ Adding coupons to your deliveries can give your recipients enhanced value for pr
 >
 >Coupon management is a package that must be installed. To confirm that you have Coupon management, check **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 >
->Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](../../platform/using/generic-imports-and-exports.md).
+>Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
 
 ## Creating a coupon {#creating-a-coupon}
 
@@ -59,7 +51,7 @@ Before following the steps below, make sure that you know the type of coupon you
 
    >[!NOTE]
    >
-   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../../platform/using/generic-imports-and-exports.md).
+   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
 
 ### Configuring individual coupons {#configuring-individual-coupons}
 

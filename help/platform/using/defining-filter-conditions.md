@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining filter conditions
-seo-title: Defining filter conditions
 description: Defining filter conditions
-seo-description: 
-page-status-flag: never-activated
-uuid: 2ed5d0bd-88fd-4eff-baf0-ed1b097269da
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-discoiquuid: 8e575da0-c51a-4106-a826-3e1771e63649
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining filter conditions{#defining-filter-conditions}

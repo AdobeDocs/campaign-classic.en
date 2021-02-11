@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Content manager resources and principles
-seo-title: Content manager resources and principles
 description: Content manager resources and principles
-seo-description: 
-page-status-flag: never-activated
-uuid: 3560e392-129a-471d-a211-05481cdda224
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: b22b3abb-6fe5-4f4d-93fc-0d00d426edb6
-index: y
-internal: n
-snippet: y
 ---
 
 # Content manager resources and principles{#content-manager-resources-and-principles}

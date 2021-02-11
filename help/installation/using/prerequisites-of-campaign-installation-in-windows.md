@@ -1,24 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prerequisites of Campaign installation in Windows
-seo-title: Prerequisites of Campaign installation in Windows
 description: Prerequisites of Campaign installation in Windows
-seo-description: 
-page-status-flag: never-activated
-uuid: 3c030186-d2ab-4845-b5c6-2ed49da00756
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: faaecbd6-f707-4307-8921-04d8993c2c47
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites of Campaign installation in Windows{#prerequisites-of-campaign-installation-in-windows}
 
-The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 The Adobe Campaign server installation process for multi-instance usage is described below in [Installing the server](../../installation/using/installing-the-server.md).
 

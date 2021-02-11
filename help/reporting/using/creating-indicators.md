@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating indicators
-seo-title: Creating indicators
 description: Creating indicators
-seo-description: 
-page-status-flag: never-activated
-uuid: 3caaba6b-b6c8-4b64-b123-d7098e9ddc7a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-discoiquuid: a5fc6c78-b4fb-41fd-a072-7be4ece3c554
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating indicators{#creating-indicators}

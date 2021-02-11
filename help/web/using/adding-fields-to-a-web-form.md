@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adding fields to a web form
-seo-title: Adding fields to a web form
 description: Adding fields to a web form
-seo-description: 
-page-status-flag: never-activated
-uuid: 33c6ab85-b021-422a-a224-c9eff27e6fc0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: d63892b3-260d-45e8-b99a-1e7c78353395
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding fields to a web form{#adding-fields-to-a-web-form}
@@ -197,7 +189,7 @@ Radio buttons let you offer the user a series of exclusive options to choose fro
 
 ![](assets/s_ncs_admin_survey_radio_button.png)
 
-You can create radio buttons individually (unit buttons) or via a multiple-choice list, but since the point of the radio buttons is to select one option or another, we will always create at least a pair of radio buttons, never just a single button.
+You can create radio buttons individually (unitary buttons) or via a multiple-choice list, but since the point of the radio buttons is to select one option or another, we will always create at least a pair of radio buttons, never just a single button.
 
 >[!CAUTION]
 >
@@ -252,7 +244,7 @@ The content of the form fields can be formatted to match the data stored in the 
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-To allow the user to enter a date in a form page, select **[!UICONTROL Add input field > Date...]** in the toolbar or page editor.
+To allow the user to enter a date in a form page, add an input field and select the type **[!UICONTROL Date...]**.
 
 Enter a label for the field and configure the data storage mode.
 
@@ -386,11 +378,13 @@ You can store the link to these files in a local variable or in a database field
 
 ## Inserting a hidden constant {#inserting-a-hidden-constant}
 
-You can highlight a field when the user passes on one of the pages of the form. To do this, place a constant in the page and specify the value and the storage location.
+When the user validates one of the pages of the form, you can set a specific value to a field of his profile or to a variable. 
 
 This field is not visible to the user, but can be used to enrich the data in the user profile.
 
-In the following example, the **origin** file of the recipient profile is filled in automatically whenever a user approves this page. The constant is not displayed on the page.
+To do this, place a **constant** in the page and specify the value and the storage location.
+
+In the following example, the **origin** field of the recipient profile is filled in automatically whenever a user approves this page. The constant is not displayed on the page.
 
 ![](assets/s_ncs_admin_survey_constante.png)
 

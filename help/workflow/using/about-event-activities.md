@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About event activities
-seo-title: About event activities
 description: About event activities
-seo-description: 
-page-status-flag: never-activated
-uuid: 68a7c3b1-5f6b-482d-97d1-b7b398284ab5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-discoiquuid: 7714d028-018e-4728-8c92-42021ed280e0
-index: y
-internal: n
-snippet: y
 ---
 
 # About event activities{#about-event-activities}

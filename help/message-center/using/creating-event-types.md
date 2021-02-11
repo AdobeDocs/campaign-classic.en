@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating event types
-seo-title: Creating event types
 description: Creating event types
-seo-description: 
-page-status-flag: never-activated
-uuid: 70c8325e-a6ef-4e47-85f9-a9fa04c2ef30
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 5c0a428f-a3e7-4848-8c47-b72832ba97c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating event types{#creating-event-types}

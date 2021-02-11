@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring multibranding
-seo-title: Configuring multibranding
 description: Configuring multibranding
-seo-description: 
-page-status-flag: never-activated
-uuid: 61b4235c-da03-4da8-b14b-7ffb12c8d4c8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 907d82c8-9262-4952-b8df-21144dd55824
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring multibranding{#configuring-multibranding}
@@ -73,7 +65,7 @@ To configure multibranding, you need to configure both execution instances and c
    <%@ value object="provider" xpath="@trackingURL" %>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >These changes could lead to conflicts when upgrading. You may need to manually merge these formulas with their new version.
 

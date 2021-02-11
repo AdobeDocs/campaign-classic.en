@@ -1,32 +1,24 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Performance and throughput issues
-seo-title: Performance and throughput issues
 description: Performance and throughput issues
-seo-description: 
-page-status-flag: never-activated
-uuid: 28c35453-9a15-44a3-9961-f4c604c209c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance and throughput issues{#performance-and-throughput-issues}
 
->[!NOTE]
->
->First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes. Refer to the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) for more information on the content of each release.
+First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes.
+
+Refer to the [Release Notes](../../rn/using/latest-release.md) for more information on the content of each release.
 
 ## Hardware and infrastructure {#hardware-and-infrastructure}
 
-General guidelines for hardware requirements for on-premise Campaign Classic are detailed in this [article](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html).
+General guidelines for hardware requirements for on-premise Campaign Classic are detailed on this [page](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html).
 
-The consulting team can provide hosted customers with a tool that allows you to easily view how much space is used by various types of tables in the database as well as the space used on the SFTP site. It additionally provides tools to allow you to clean up unnecessary data. Contact the Consulting or Support teams if you need this tool implemented. Here are a few important things to check using this tool:
+The consulting team can provide hosted customers with a tool that allows you to easily view how much space is used by various types of tables in the database as well as the space used on the SFTP site. It additionally provides tools to allow you to clean up unnecessary data. Contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) if you need this tool implemented. Here are a few important things to check using this tool:
 
 * If index size is larger than table size, then a vacuum is required.
 * Check the tables which have the maximum bloat. If these tables are frequently used, they need to be vacuumed. 
@@ -34,7 +26,7 @@ The consulting team can provide hosted customers with a tool that allows you to 
 
 Adobe Campaign also provides a [tool](../../production/using/monitoring-processes.md#manual-monitoring) to check CPU and RAM usage. Use this tool and look at specific indicators such as: **Memory**, **Swap Memory**, **Disk**, **Active Processes**. If the values are too high, you can try reducing the number of workflows or schedule workflows to start at different times.
 
-## Database performances {#database-performances}
+## Database check {#database-performances}
 
 Most of the time, performance issues are linked to database maintenance. Here are the main items to check:
 
@@ -45,9 +37,9 @@ Most of the time, performance issues are linked to database maintenance. Here ar
 
 >[!NOTE]
 >
->For more information, refer to this section: [Database performances](../../production/using/database-performances.md).
+>For more information, refer to this section: [Database performance](../../production/using/database-performances.md).
 
-## Application Configuration {#application-configuration}
+## Application configuration {#application-configuration}
 
 Here are is a list of articles related to application configuration best practices:
 
@@ -68,5 +60,4 @@ Here are is a list of best practices and articles related to deliverability:
 
 >[!NOTE]
 >
->Don't forget to consult the [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) guide.
-
+>See also [Deliverability key points](../../delivery/using/deliverability-key-points.md) section.

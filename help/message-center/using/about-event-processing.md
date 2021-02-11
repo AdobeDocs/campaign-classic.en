@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About event processing
-seo-title: About event processing
 description: About event processing
-seo-description: 
-page-status-flag: never-activated
-uuid: 6c3e02b3-0d4d-4661-952a-e4915ca9ef92
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-discoiquuid: a78c9986-7c49-47db-99a0-9f0949c4dee7
-index: y
-internal: n
-snippet: y
 ---
 
 # About event processing{#about-event-processing}

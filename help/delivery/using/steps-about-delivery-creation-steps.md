@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About deliveries creation steps in Adobe Campaign Classic
 description: Discover the main delivery creation steps in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-index: y
-internal: n
-snippet: y
 ---
 
 # About deliveries creation steps {#about-delivery-creation}
@@ -31,7 +25,7 @@ The key steps when creating a delivery are as follows:
 
 1. **Send the delivery**. [Read more](../../delivery/using/steps-sending-the-delivery.md)
 
-1. **Monitor the delivery** (tracking, quarantine, reports, etc.). For more on this, refer to the [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md) and [Tracking deliveries](../../delivery/using/about-message-tracking.md) sections.
+1. **Monitor the delivery** (tracking, quarantine, reports, etc.). For more on this, refer to the [Monitoring deliveries](../../delivery/using/about-delivery-monitoring.md) and [Tracking deliveries](../../delivery/using/about-message-tracking.md) sections.
 
 >[!NOTE]
 >

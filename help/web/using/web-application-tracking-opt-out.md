@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Web application tracking opt-out
-seo-title: Web application tracking opt-out
 description: Web application tracking opt-out
-seo-description: 
-page-status-flag: never-activated
-uuid: c9b9eee2-a5be-4378-b2d7-53ed7121eae8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
-index: y
-internal: n
-snippet: y
 ---
 
 # Web application tracking opt-out{#web-application-tracking-opt-out}
@@ -32,7 +24,7 @@ To be displayed within Web applications or Landing pages, the banner needs to be
 
 Adobe Campaign is delivered with a sample banner that you must adapt to your needs. This banner version appears as a personalization block located in the content model folder. Refer to [this page](../../delivery/using/personalization-blocks.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >To create your own banner, you must personalize the out-of-the-box banner.
 
@@ -101,7 +93,7 @@ If you have to write a JSSP, Server-Side APIs are available:
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-  Returns true if the opt-out banner should be displayed after an opt-out banner was selected by the administrator
+  Returns "true" if the opt-out banner should be displayed after an opt-out banner was selected by the administrator
 
   This code is called when the administrator has already chosen to use the Web tracking opt-out banner.
 

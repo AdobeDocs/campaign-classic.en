@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integration into a Web server for Linux
-seo-title: Integration into a Web server for Linux
-description: Integration into a Web server for Linux
-seo-description: 
-page-status-flag: never-activated
-uuid: 7b18d176-4458-46a8-8da4-3621f90c6b13
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to integrate Campaign into a Web server (Linux)
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 752ba848-aee9-4bb0-b2c5-490f3124f74e
-index: y
-internal: n
-snippet: y
 ---
 
 # Integration into a Web server for Linux{#integration-into-a-web-server-for-linux}
@@ -70,7 +62,7 @@ Apply the following steps:
 1. Create the file **nlsrv.conf** in **/etc/apache2/mods-available** using the following command:
 
    ```
-   ln -s /usr/local/[INSTALL]/nl6/tomcat-7/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
+   ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
    ```
 
 1. Activate this module with the following command:
@@ -159,7 +151,7 @@ Apply the following steps:
 
     ```
     LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-    Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+    Include /usr/local/neolane/nl6/conf/apache_neolane.conf
     ```
 
 1. For **RHEL7**:
@@ -245,4 +237,4 @@ The following information is displayed:
 Connection closed by foreign host.
 ```
 
-You can also request the URL [`https://<computer>`](https://machine/r/test) from a Web browser.
+You can also request the URL [`https://<computer>`](https://myserver.adobe.com/r/test) from a Web browser.

@@ -1,22 +1,14 @@
 ---
-title: About web applications
-seo-title: About web applications
-description: About web applications
-seo-description: 
-page-status-flag: never-activated
-uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Get started with web applications
+description: Create and share dynamic Web applications, landing pages and surveys
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
-index: y
-internal: n
-snippet: y
 ---
 
-# About web applications{#about-web-applications}
+# Get started with web applications{#about-web-applications}
 
 Adobe Campaign lets you create and publish dynamic and interactive Web applications with data from the database and content adapted to the rights of the connected user. 
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Updating data
-seo-title: Updating data
 description: Updating data
-seo-description: 
-page-status-flag: never-activated
-uuid: 3a192934-215a-4a0a-a141-956b5c229f5b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 1e196989-b8c1-473a-89c9-bbeb68b98419
-index: y
-internal: n
-snippet: y
 ---
 
 # Updating data{#updating-data}
@@ -87,13 +79,13 @@ The content of a list can be exported. To configure and run the export:
 1. Select records to export.
 1. Right-click and select **[!UICONTROL Export...]**.
 
-   ![](assets/s_ncs_user_export_list.png)
+    ![](assets/s_ncs_user_export_list.png)
 
 1. Then select the data to extract. By default, all columns displayed are added to the output columns.
 
-   ![](assets/s_ncs_user_export_list_start.png)
+    ![](assets/s_ncs_user_export_list_start.png)
 
-   For more on how to configure the export wizard, refer to [Export wizard](../../platform/using/exporting-data.md#export-wizard).
+   For more on how to configure the export wizard, refer to [this section](../../platform/using/executing-export-jobs.md).
 
 ## Subscribing to a service {#subscribing-to-a-service}
 
@@ -102,20 +94,20 @@ In most cases, recipients subscribe to a newsletter through a dedicated landing 
 1. Select the recipients you want to subscribe and right-click. 
 1. Select **[!UICONTROL Actions > Subscribe selection to a service]**.
 
-   ![](assets/s_ncs_user_selection_subscribe_service.png)
+    ![](assets/s_ncs_user_selection_subscribe_service.png)
 
 1. Select the desired service and click **[!UICONTROL Next]**:
 
-   ![](assets/s_ncs_user_selection_subscribe_service_2.png)
+    ![](assets/s_ncs_user_selection_subscribe_service_2.png)
 
-   >[!NOTE]
-   >
-   >This editor lets you create a new service: click the **[!UICONTROL Create]** button.
+    >[!NOTE]
+    >
+    >This editor lets you create a new service: click the **[!UICONTROL Create]** button.
 
 1. You can **[!UICONTROL Send a confirmation message]** to recipients. The content of this message can be configured in the subscription scenario linked to the selected service.
 1. Click the **[!UICONTROL Start]** button to run the subscription process.
 
-   ![](assets/s_ncs_user_selection_subscribe_service_3.png)
+    ![](assets/s_ncs_user_selection_subscribe_service_3.png)
 
 The upper section of the window lets you monitor the execution process. The **[!UICONTROL Stop]** button lets you stop the process. However, recipients already processed will be subscribed.
 

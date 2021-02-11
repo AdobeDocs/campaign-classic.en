@@ -1,18 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Test and Send FAQ
-seo-title: Validate, send and track messages
 description: Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-index: y
-internal: n
-snippet: y
 ---
 
 # Validate, send and track messages {#validate-send-track}
@@ -31,7 +24,7 @@ The delivery analysis is the phase during which the target population is calcula
 
 Adobe highly recommends creating proof messages to test your delivery on an approval group before sending it to the main target. You can then validate message content, personalization and delivery parameters.
 
-[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html).
+[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). 
 
 ### How to use seed addresses in Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
 
@@ -96,7 +89,7 @@ For each URL of the message, you can choose whether or not to activate tracking,
 
 ### Where can I access delivery and tracking logs? {#where-can-i-access-delivery-and-tracking-logs-}
 
-Learn how to track your deliveries and understand the recipients' behaviour [from this page](../../delivery/using/monitoring-a-delivery.md).
+Learn how to track your deliveries and understand the recipients' behaviour [from this page](../../delivery/using/delivery-dashboard.md).
 
 ### Where can I get delivery reports? {#where-can-i-get-delivery-reports-}
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining the direct mail content
-seo-title: Defining the direct mail content
 description: Defining the direct mail content
-seo-description: 
-page-status-flag: never-activated
-uuid: eac69f58-5ecb-4884-8806-edb16e6dece8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-discoiquuid: 443689f4-4c82-490f-ad96-22446f649a07
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining the direct mail content{#defining-the-direct-mail-content}
@@ -34,8 +26,8 @@ This link lets you access the extraction wizard and define the information (colu
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-It is possible to insert a personalized URL into the extraction file. For more on this, refer to [Web functionality](../../web/using/publishing-a-web-form.md).
+It is possible to insert a personalized URL into the extraction file. For more on this, refer to [this section](../../web/using/publishing-a-web-form.md).
 
 >[!NOTE]
 >
->This wizard includes the steps of the export wizard detailed in the [Getting Started](../../platform/using/exporting-data.md#export-wizard) section.
+>This wizard includes the steps of the export wizard detailed in the [Getting Started](../../platform/using/executing-export-jobs.md) section.

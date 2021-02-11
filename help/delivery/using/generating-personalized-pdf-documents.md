@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Generating personalized PDF documents
-seo-title: Generating personalized PDF documents
 description: Generating personalized PDF documents
-seo-description: 
-page-status-flag: never-activated
-uuid: d4c27523-bff3-457a-ba60-e2747a2b3166
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 8dfc5e7c-c762-46ba-bbda-a7251354cb47
-index: y
-internal: n
-snippet: y
 ---
 
 # Generating personalized PDF documents{#generating-personalized-pdf-documents}

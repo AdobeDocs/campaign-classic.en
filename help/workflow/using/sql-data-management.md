@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: SQL Data Management
-seo-title: SQL Data Management
-description: SQL Data Management
-seo-description: 
-page-status-flag: never-activated
-uuid: b6057496-2dd5-4289-96df-98378e4f0ae7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about SQL Data Management workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
-index: y
-internal: n
-snippet: y
 ---
 
 # SQL Data Management{#sql-data-management}
@@ -24,9 +16,9 @@ The **SQL Data Management** activity lets you write your own SQL scripts to crea
 
 Before configuring the activity, make sure the following prerequisites are fulfilled:
 
-* The activity is available for remote data sources only. The **[!UICONTROL FDA]** (Federated Data Access) package must therefore be installed on your instance (see [this section](../../platform/using/about-fda.md)).
-* The Outbound schema must exist in the database and be linked to an FDA database (for more on data schemas, refer to [this section](../../configuration/using/about-schema-reference.md)).
-* The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. For more on named rights, refer to [this section](../../platform/using/access-management.md#named-rights).
+* The activity is available for remote data sources only. The **[!UICONTROL FDA]** (Federated Data Access) package must therefore be installed on your instance. [Learn more](../../installation/using/about-fda.md).
+* The Outbound schema must exist in the database and be linked to an FDA database. [Learn more](../../configuration/using/about-schema-reference.md).
+* The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. [Learn more](../../platform/using/access-management.md#named-rights).
 
 ## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}
 

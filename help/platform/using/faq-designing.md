@@ -1,18 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Message design FAQ
-seo-title: Common Questions when designing messages
 description: Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-index: y
-internal: n
-snippet: y
 ---
 
 # Message design FAQ {#design-messages-faq}
@@ -23,7 +16,7 @@ Discover key steps to design omni-channel messages with Adobe Campaign.
 
 Before starting designing emails, learn the concepts and best practices related to delivery design and sending with Adobe Campaign.
 
-[Click here to learn more](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
+[Click here to learn more](../../delivery/using/delivery-best-practices.md).
 
 ## What is a delivery template? {#what-is-a-delivery-template-}
 

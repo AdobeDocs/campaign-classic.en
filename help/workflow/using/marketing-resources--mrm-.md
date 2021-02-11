@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Marketing Resources (MRM)
-seo-title: Marketing Resources (MRM)
 description: Marketing Resources (MRM)
-seo-description: 
-page-status-flag: never-activated
-uuid: cccd9046-be4f-4eaa-adb4-802fbb2ea87a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: cf535ff5-f871-4edb-bc05-993cd5b1937b
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing Resources (MRM){#marketing-resources-mrm}

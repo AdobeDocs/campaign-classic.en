@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Message Center (Execution)
-seo-title: Message Center (Execution)
 description: Message Center (Execution)
-seo-description: 
-page-status-flag: never-activated
-uuid: 8dfb09d1-da00-43fb-9df4-243bb915cbde
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: dc3d8998-9493-4d71-b3e2-6f9531cb9bac
-index: y
-internal: n
-snippet: y
 ---
 
 # Message Center (Execution){#message-center-execution}

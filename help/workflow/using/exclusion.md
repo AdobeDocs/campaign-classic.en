@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Exclusion
-seo-title: Exclusion
-description: Exclusion
-seo-description: 
-page-status-flag: never-activated
-uuid: e4f54a0b-2fec-4415-986b-83c8928ed174
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Exclusion workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: acab51f3-686b-4d2b-bb02-8fbfae36b1ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Exclusion{#exclusion}
@@ -43,8 +35,6 @@ The following example seeks to compile a list of recipients aged between 18 and 
 1. Execute the workflow. In this example, the result is made up of recipients aged 18 to 30, but those living in Paris are excluded and sent to the complement.
 
    ![](assets/exclusion_example.png)
-
-The blacklist importation example uses an **Exclusion**-type activity which can be found in [Read list](../../workflow/using/read-list.md).
 
 ## Input parameters {#input-parameters}
 

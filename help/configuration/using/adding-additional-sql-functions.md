@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adding additional SQL functions
-seo-title: Adding additional SQL functions
 description: Adding additional SQL functions
-seo-description: 
-page-status-flag: never-activated
-uuid: d66b5ca2-ac7d-4654-9f0e-9bfe56490c19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 728a95f8-46fe-49a8-a645-a0dd6eeb6615
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding additional SQL functions{#adding-additional-sql-functions}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing rights
-seo-title: Managing rights
 description: Managing rights
-seo-description: 
-page-status-flag: never-activated
-uuid: 07039fec-c957-4548-acc7-22dc7827a54b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-discoiquuid: f78603e9-f6ff-4ebe-941b-b3fbd1924b71
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing rights{#managing-rights}

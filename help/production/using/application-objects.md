@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Application objects
-seo-title: Application objects
 description: Application objects
-seo-description: 
-page-status-flag: never-activated
-uuid: 84fbad0f-872d-4aca-8ea9-007577be076d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: 24d4875b-81fa-4bf3-8cf0-e6998bec4949
-index: y
-internal: n
-snippet: y
 ---
 
 # Application objects{#application-objects}

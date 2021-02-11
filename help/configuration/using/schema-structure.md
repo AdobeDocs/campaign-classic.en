@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Schema structure
-seo-title: Schema structure
 description: Schema structure
-seo-description: 
-page-status-flag: never-activated
-uuid: 9be70907-6154-4890-91e8-fd0fac30ab05
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: b5c8faf7-d0ae-4d95-b7fe-6ef9674a33d2
-index: y
-internal: n
-snippet: y
 ---
 
 # Schema structure{#schema-structure}
@@ -128,13 +120,13 @@ The following rules must be adhered to:
 
 * Only **`<element>`** elements can contain **`<attribute>`** elements and **`<element>`** elements in the XML structure.
 * An **`<attribute>`** element must have a unique name within an **`<element>`**.
-* The use of**`<elements>`** in multi-line data strings is recommended.
+* The use of **`<elements>`** in multi-line data strings is recommended.
 
 ## Data types {#data-types}
 
 The data type is entered via the **type** attribute in the **`<attribute>`** and **`<element>`** elements.
 
-A detailed list is available in the description of the [`<attribute>` element](../../configuration/using/elements-and-attributes.md#attribute--element) and the [`<element>` element](../../configuration/using/elements-and-attributes.md#element--element).
+A detailed list is available in the description of the [`<attribute>` element](../../configuration/using/schema/attribute.md) and the [`<element>` element](../../configuration/using/schema/element.md)).
 
 When this attribute is not populated, **string** is the default data type unless the element contains child elements. If it does, it is used only to structure the elements hierarchically (**`<location>`** element in our example).
 

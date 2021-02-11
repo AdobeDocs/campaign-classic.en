@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publication templates
-seo-title: Publication templates
 description: Publication templates
-seo-description: 
-page-status-flag: never-activated
-uuid: 1976f70c-b2d8-44ca-8fc3-6451fb67d18b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: 279b0ae6-2578-4f1f-af59-13a1a9c80b32
-index: y
-internal: n
-snippet: y
 ---
 
 # Publication templates{#publication-templates}
@@ -74,7 +66,7 @@ The following publication options are available:
 * The **[!UICONTROL Multi-file generation]** option activates a special document publication mode. This option consists of populating a partitioning tag at the beginning of each page of the output document. Generating the content will produce a file for each populated partitioning tag. This mode is used to generate mini-sites from a content block. for more on this, refer to [Multi-file generation](#multi-file-generation).
 * The **[!UICONTROL Location]** field contains the name of the output file. The name can be made up of variables in order to generate an automatic filename.
 
-  A variable is populated with the following format: **`$(<xpath>)`, where `<xpath>` is the path of a field of the publication template data schema.
+  A variable is populated with the following format: **`$(<xpath>)`**, where **`<xpath>`** is the path of a field of the publication template data schema.
 
   The name of a file can consist of a date-type field. To format this field correctly, use the **$date-format** function, using the path of the field and the output format as parameters.
 
@@ -112,7 +104,7 @@ The partitioning tag to be integrated in the stylesheet is as follows:
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`** where **`<name_of_file>`** is the filename of the page to be generated.
 
-**Example:**Multiple file generation using the "cus:book" schema.
+**Example:** Multiple file generation using the "cus:book" schema.
 
 The principle is to generate a main page listing the chapters, with the possibility of displaying the details of the chapter in an external page.
 

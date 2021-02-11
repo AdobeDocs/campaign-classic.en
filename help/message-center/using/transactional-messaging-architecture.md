@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic transactional messaging architecture
 description: This section describes the Adobe Campaign Classic transactional messaging architecture.
-page-status-flag: never-activated
-uuid: a8fe7a37-6df7-49f4-838f-97a72e4a38f3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: introduction
-discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
-index: y
-internal: n
-snippet: y
 ---
 
 # Transactional messaging architecture{#transactional-messaging-architecture}
@@ -31,7 +25,7 @@ Execution instances receive events, link them to transactional message templates
 
 ## Supporting several control instances {#supporting-several-control-instances}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Sharing an execution cluster with several control instances is only supported for on-premise environments.
 
@@ -47,7 +41,7 @@ It is possible to share an execution cluster among several control instances. Fo
 
 There are several precautions to take when installing the Transactional message packages. Adobe recommends you to work in a test environment before putting into production. You also need to have a compatible Adobe Campaign license. For more information, please contact your Adobe account executive.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
@@ -63,11 +57,19 @@ If you need to use several channels, you must install and configure related pack
 
 ## Adding a delivery channel {#adding-a-delivery-channel}
 
-Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package. If you have started a transactional messaging project on the email channel, then decide during the project to add a new channel, you must follow these steps:
+Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package.
 
-1. Install the channel you need, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]** ).
-1. Perform a file import ( **[!UICONTROL Tools > Advanced > Import package... > File]** ), and select the **datakitnms**`[Your language]`**packagemessageCenter.xml** file.
-1. In the **[!UICONTROL XML content of the data to import]** , keep only the delivery template that corresponds to the added channel. For example, if you have added the **Mobile channel**, keep only the **entities** element that corresponds to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). If you have added the **Mobile App Channel**, keep only the **iOS transactional message** (iosTriggerMessage) and the **Android transactional message** (androidTriggerMessage).
+Adobe recommends you always add the delivery channel package before installing the Transactional message package.
+
+However, if you have started a transactional messaging project on the email channel, then decide during the project to add a new channel, you can follow the steps below.
+
+>[!NOTE]
+>
+>This procedure only applies to customers using a Windows NLServer installed on the same machine as they are working on.
+
+1. Install the channel you need, for example the **Mobile channel**, using the package import wizard (**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
+1. Perform a file import (**[!UICONTROL Tools > Advanced > Import package... > File]**), and select the **datakitnms**`[Your language]`**packagemessageCenter.xml** file.
+1. In the **[!UICONTROL XML content of the data to import]**, keep only the delivery template that corresponds to the added channel. For example, if you have added the **Mobile channel**, keep only the **entities** element that corresponds to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). If you have added the **Mobile App Channel**, keep only the **iOS transactional message** (iosTriggerMessage) and the **Android transactional message** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
@@ -83,7 +85,7 @@ To use transactional messaging with Interaction, you need to apply the following
 
 * Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Do not replicate the offers onto the execution instances.
 

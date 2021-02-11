@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: JavaScript scripts and templates
-seo-title: JavaScript scripts and templates
 description: JavaScript scripts and templates
-seo-description: 
-page-status-flag: never-activated
-uuid: d341a892-dc71-4413-acb8-9cba372b38cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript scripts and templates{#javascript-scripts-and-templates}
@@ -80,13 +72,19 @@ The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local vari
 
 The event variables (**[!UICONTROL vars.xxx]**) enable the exchange of data between the elementary tasks of a workflow process. These variables are passed by the task that activated the task in progress. It is possible to modify them and to define new ones. They are then passed to the following activities.
 
-In the case of **AND-join** type activities, the variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined.
+>[!CAUTION]
+>
+>In the case of [AND-join](../../workflow/using/and-join.md) type activities, the variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined.
 
-These are the most often used variables, and they should be used in preference to instance variables.
+Event are the most often used variables, and they should be used in preference to instance variables.
 
 Certain event variables are modified or read by the various activities. These are all string-type variables. For example, an export sets the **[!UICONTROL vars.filename]** variable with the full name of the file that has just been exported. All these read or modified variables are documented in [About activities](../../workflow/using/about-activities.md), in the sections **Input parameters** and **Output parameters** of the activities.
 
-### Examples {#example}
+### Use cases {#example}
+
+>[!NOTE]
+>
+>Additional worklow use cases are available in [this section](../../workflow/using/about-workflow-use-cases.md).
 
 **Example 1**
 

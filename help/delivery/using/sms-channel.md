@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: SMS channel
-seo-title: SMS channel
 description: SMS channel
-seo-description: 
-page-status-flag: never-activated
-uuid: be6a2abc-ba5c-4363-bf38-cc309ee3a8d9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
-index: y
-internal: n
-snippet: y
 ---
 
 # SMS channel{#sms-channel}
@@ -57,7 +49,7 @@ To do this, follow the steps below:
 
    >[!CAUTION]
    >
-   > As of release 20.2, legacy connectors will be deprecated and not supported. We recommend using the **[!UICONTROL Extended generic SMPP]** connector. For more information on how to migrate to the recommended connector, refer to this [page](https://helpx.adobe.com/campaign/kb/sms-connector.html).
+   > As of release 20.2, legacy connectors are deprecated and not supported. We recommend using the **[!UICONTROL Extended generic SMPP]** connector. For more information on how to migrate to the recommended connector, refer to this [page](https://helpx.adobe.com/campaign/kb/sms-connector.html).
 
 1. The **[!UICONTROL Enable verbose SMPP traces in the log file]** option allows you to dump all SMPP traffic in log files. This option must be enabled to troubleshoot the connector and to compare with the traffic seen by the provider.
 
@@ -491,7 +483,7 @@ The following options are available:
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [About message tracking](../../delivery/using/about-message-tracking.md)
 
@@ -595,6 +587,6 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!IMPORTANT]
 >
->These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+>These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](../../delivery/using/delivery-dashboard.md).
 >
 >These messages are not considered part of the [commercial pressure rules](../../campaign/using/pressure-rules.md).

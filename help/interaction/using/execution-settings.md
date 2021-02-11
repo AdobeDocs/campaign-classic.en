@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Execution settings
-seo-title: Execution settings
 description: Execution settings
-seo-description: 
-page-status-flag: never-activated
-uuid: a6549091-0c33-4fe1-adde-de3b285dd456
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-discoiquuid: 52b5d5a9-10dc-4601-8fe4-962a2334322b
-index: y
-internal: n
-snippet: y
 ---
 
 # Execution settings{#execution-settings}

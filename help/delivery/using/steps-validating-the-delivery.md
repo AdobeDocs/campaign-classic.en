@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Validating the delivery
-seo-title: Validating the delivery
 description: Validating the delivery
-seo-description: 
-page-status-flag: never-activated
-uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-index: y
-internal: n
-snippet: y
 ---
 
 # Validating the delivery {#validating-the-delivery}
@@ -24,7 +16,7 @@ To do this:
 
 1. **Analyze the delivery**: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](#analyzing-the-delivery).
 
-   The rules applied during analysis are presented in the [Validation process with typologies](#validation-process-with-typologies) section. The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
+   The rules applied during analysis are presented in [this section](#validation-process-with-typologies). The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
 
 1. **Send proofs**: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) and [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
@@ -149,7 +141,7 @@ To send a proof, follow the steps below:
 1. Start message analysis. See [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 1. You can now send the delivery (see [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)).
 
-   Once the delivery is sent, the proof will appear in the delivery list, and is automatically created and numbered. It can be edited if you wish to access its content and properties. For more on this, refer to this [page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+   Once the delivery is sent, the proof will appear in the delivery list, and is automatically created and numbered. It can be edited if you wish to access its content and properties. For more on this, refer to this [page](../../delivery/using/about-delivery-monitoring.md).
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
@@ -174,7 +166,7 @@ The **[!UICONTROL Advanced]** tab of delivery properties lets you define the pro
 The following options are available:
 
 * The first option lets you keep the proof doubles.
-* Both of the following options let you keep blacklisted recipients and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
+* Both of the following options let you keep recipients that are on denylist and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
 * The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery wizard.
 * By default, the subject of the proof is prefixed by 'Proof #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: SOAP methods in JavaScript
-seo-title: SOAP methods in JavaScript
 description: SOAP methods in JavaScript
-seo-description: 
-page-status-flag: never-activated
-uuid: 8fd1aabc-e51a-433d-835f-6b5a717c7aeb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 815d3eb9-ac45-441f-9a5f-0cd505fcf88a
-index: y
-internal: n
-snippet: y
 ---
 
 # SOAP methods in JavaScript{#soap-methods-in-javascript}

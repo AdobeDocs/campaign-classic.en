@@ -1,24 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining web forms page sequencing
-seo-title: Defining web forms page sequencing
 description: Defining web forms page sequencing
-seo-description: 
-page-status-flag: never-activated
-uuid: 297fad62-d806-4bd8-9b8c-313c20344ab0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 85bf3244-6896-43e7-96b8-84c45c282fec
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining web forms page sequencing{#defining-web-forms-page-sequencing}
 
-The form can contain one or more pages. It is built via a diagram which lets you sequence pages and testing, script execution and page jump recording stages. The diagram construction mode is the same as for a workflow.
+The form can contain one or more pages. It is built via a diagram which lets you sequence pages, testing, script execution, page jump and recording steps. Global diagram design mode is the same as for a Campaign workflow.
 
 ## About previous page and next page {#about-previous-page-and-next-page}
 

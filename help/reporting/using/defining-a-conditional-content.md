@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining a conditional content
-seo-title: Defining a conditional content
 description: Defining a conditional content
-seo-description: 
-page-status-flag: never-activated
-uuid: 2b49958d-6429-445d-a7dc-caaca072f4e4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 0ca5e0f6-cc81-4da9-aecf-a095cc1a19f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining a conditional content{#defining-a-conditional-content}

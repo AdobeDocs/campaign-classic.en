@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Using the local approval activity
-seo-title: Using the local approval activity
-description: Using the local approval activity
-seo-description: 
-page-status-flag: never-activated
-uuid: 6003aaed-543d-4e6b-b1f2-ad4e9757bff3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to use the local approval activity
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: c143d8c3-c3ce-470c-8812-4b19cdb8afbf
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the local approval activity{#using-the-local-approval-activity}

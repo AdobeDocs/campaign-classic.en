@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Controlling costs
-seo-title: Controlling costs
 description: Controlling costs
-seo-description: 
-page-status-flag: never-activated
-uuid: 4209ebad-966f-44a6-a33c-bbb398c6f5c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: 892b93ed-cb0e-4af5-a1ae-eff0c8b703c6
-index: y
-internal: n
-snippet: y
 ---
 
 # Controlling costs{#controlling-costs}
@@ -94,7 +86,7 @@ For campaigns, according to the level of commitment, a cost can be planned, comm
 >   
 >The option **[!UICONTROL Commitment level]** represents a projection of costs into the future before they are charged to the budget. According to the progress of a campaign, task, or delivery, you can decide to assign a higher or lower commitment level (1. Planned, 2. Reserved, 3. Committed) using the combo box.
 
-For example, the estimated planned cost of a Web campaign is 45,000 Euro.
+For example, the estimated planned cost of a web campaign is 45,000 Euro.
 
 ![](assets/s_user_edit_budget_node_impact_0.png)
 

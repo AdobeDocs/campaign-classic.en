@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Mobile App Channel
-seo-title: Mobile App Channel
 description: Mobile App Channel
-seo-description: 
-page-status-flag: never-activated
-uuid: fec0a107-3fff-4382-b63d-cc7ee71a37ee
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: f75cef72-a841-4b58-b135-7aed770bc4e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile App Channel{#mobile-app-channel}

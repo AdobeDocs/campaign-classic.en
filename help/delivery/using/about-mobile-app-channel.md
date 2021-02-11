@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About mobile app channel in Adobe Campaign Classic
 description: This section provides general information specific to the mobile app channel in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: e8d26b33-dc7c-4abd-956a-92f419a117e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
-index: y
-internal: n
-snippet: y
 ---
 
 # About mobile app channel{#about-mobile-app-channel}
@@ -52,16 +46,16 @@ You can define the application behavior for when the user activates the notifica
 >* You need to make sure the notifications sent to a mobile application are compliant with the prerequisites and conditions specified by Apple (Apple Push Notification Service) and Google (Firebase Cloud Messaging).
 >* Warning: in some countries, the law requires that you inform users of your collected data type mobile applications and the purpose of their processing. You must check the legislation.
 
-The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [Workflows guide](../../workflow/using/mobile-app-channel.md).
+The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [list of technical workflows](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign is compatible with both binary and HTTP/2 APNS. For more details on the configuration steps, refer to the [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
+Adobe Campaign is compatible with both binary and HTTP/2 APNs. For more details on the configuration steps, refer to the [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
 
 ## Data path {#data-path}
 
 The following schemas detail the steps that enable a mobile application to exchange data with Adobe Campaign. This process involves three entities:
 
 * the mobile application
-* the notification service: APNS (Apple Push Notification Service) for Apple and FCM (Firebase Cloud Messaging) for Android
+* the notification service: APNs (Apple Push Notification Service) for Apple and FCM (Firebase Cloud Messaging) for Android
 * Adobe Campaign
 
 The three main steps of the notification process are: registration of the application in Adobe Campaign (subscription collection), deliveries, and tracking.
@@ -83,10 +77,14 @@ The following information is available in Adobe Campaign:
 
 ![](assets/nmac_delivery_view.png)
 
-The Adobe Campaign server must be able to contact the APNS server on the following ports:
+The Adobe Campaign server must be able to contact the APNs server on the following ports:
 
 * 2195 (sending) and 2186 (feedback service) for iOS binary connector
 * 443 for iOS HTTP/2 connector
+
+   >[!NOTE]
+   >
+   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 To check that it works correctly, use the following commands:
 
@@ -102,7 +100,7 @@ To check that it works correctly, use the following commands:
   telnet gateway.push.apple.com
   ```
 
-If an iOS binary connector is used, the MTA and web server must be able to contact the APNS on port 2195 (sending), the workflow server must be able to contact the APNS on port 2196 (feedback service).
+If an iOS binary connector is used, the MTA and web server must be able to contact the APNs on port 2195 (sending), the workflow server must be able to contact the APNs on port 2196 (feedback service).
 
-If an iOS HTTP/2 connector is used, the MTA, web server and workflow server must be able to contact the APNS on port 443.
+If an iOS HTTP/2 connector is used, the MTA, web server and workflow server must be able to contact the APNs on port 443.
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About direct mail channel
-seo-title: About direct mail channel
 description: About direct mail channel
-seo-description: 
-page-status-flag: never-activated
-uuid: c7fe4d33-a056-49cd-977e-b56753360c8b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-discoiquuid: 33fe5a57-55db-4cd7-b1fd-0dc3691909ab
-index: y
-internal: n
-snippet: y
 ---
 
 # About direct mail channel{#about-direct-mail-channel}

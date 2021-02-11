@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Web tracking mode
-seo-title: Web tracking mode
 description: Web tracking mode
-seo-description: 
-page-status-flag: never-activated
-uuid: 51b889d3-28f8-480a-a614-10c8eb3128ac
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: efeef54b-925d-4654-8601-52a73539b41f
-index: y
-internal: n
-snippet: y
 ---
 
 # Web tracking mode{#web-tracking-mode}

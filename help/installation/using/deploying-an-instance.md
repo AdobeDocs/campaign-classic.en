@@ -1,26 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Deploying an instance
-seo-title: Deploying an instance
-description: Deploying an instance
-seo-description: 
-page-status-flag: never-activated
-uuid: 5694b07a-6c1c-45a3-8a22-fd9da163c28c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about Campaign deployment wizard
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Deploying an instance{#deploying-an-instance}
 
 >[!NOTE]
 >
->Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
 
 ## Deployment wizard {#deployment-wizard}
 
@@ -109,7 +101,7 @@ The following options are available:
 
 * **[!UICONTROL Delivery duration of messages]** : Beyond this time, the delivery is stopped (by default, 5 days),
 * **[!UICONTROL Online resources validity duration]** : Time for which information from the recipient profile is kept in order to generate mirror pages,
-* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : When this option is selected, blacklisted recipients will not be contacted,
+* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : When this option is selected, on denylist recipients will not be contacted,
 * **[!UICONTROL Automatically ignore doubles]** : When this option is selected, delivery will not be made to duplicate addresses.
 
 ### Retry parameters {#retry-parameters}
@@ -452,7 +444,7 @@ The status attribute can be one of three values:
 
 * normal: Existing behavior (without synchronization)
 
-* blacklist: The URL is blacklisted if it returns a 404 error. The duration (in seconds) of the blacklisting is defined by a **timeout** attribute whose default value is 60s.
+* blacklist: The URL is added to the denylist if it returns a 404 error. The duration (in seconds) of the URL being in the denylist is defined by a **timeout** attribute whose default value is 60s.
 
 The out-of-the-box configuration of the synchronization is:
 

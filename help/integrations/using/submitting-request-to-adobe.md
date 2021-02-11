@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Submitting request to Adobe
-seo-title: Submitting request to Adobe
 description: Submitting request to Adobe
-seo-description: 
-page-status-flag: never-activated
-uuid: 8caa1dd6-864d-4101-8b72-c9bd28b8173f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Submitting request to Adobe{#submitting-request-to-adobe}
@@ -35,8 +27,8 @@ Once IMS is enabled, you can request provisioning of the People core service/Aud
    <td> Your organization name </td> 
   </tr> 
   <tr> 
-   <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> Your IMS Org ID. <br> You can find your IMS Org ID on the Experience Cloud, in the Administration menu. It is also provided when you first connect to the Adobe Experience Cloud. </td> 
+   <td> <strong>IMS Organization ID</strong><br /> </td> 
+   <td> Your IMS Organization ID. <br> You can find your IMS Organization ID on the Experience Cloud, in the Administration menu. It is also provided when you first connect to the Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Environment:</strong><br /> </td> 

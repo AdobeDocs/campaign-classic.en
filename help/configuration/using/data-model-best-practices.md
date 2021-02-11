@@ -1,17 +1,11 @@
 ---
-title: Using the Adobe Campaign Classic Recipient table
-description: Learn how to use the out-of-the-box recipient table in Adobe Campaign Classic when designing your data model.
-page-status-flag: never-activated
-uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Data model best practices
+description: Learn how to work with Campaign Classic data model
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 ---
 
 # Data model best practices{#data-model-best-practices}
@@ -79,7 +73,7 @@ To ensure good architecture and performance of your system, follow the best prac
 
 A field is required to be stored in a table if it has a targeting or personalization purpose. In other words, if a field is not used to send a personalized email or used as a criterion in a query, it takes up disk space whereas it is useless. 
 
-For hybrid and on-premise instances, FDA (Federated Data Access, an optional feature that allows to access external data) covers the need to add a field "on-the-fly" during a campaign process. You do not need to import everything if you have FDA. For more on this, see [About Federated Data Access](../../platform/using/about-fda.md).
+For hybrid and on-premise instances, FDA (Federated Data Access, an optional feature that allows to access external data) covers the need to add a field "on-the-fly" during a campaign process. You do not need to import everything if you have FDA. For more on this, see [About Federated Data Access](../../installation/using/about-fda.md).
 
 ### Choice of keys {#choice-of-keys}
 
@@ -241,7 +235,7 @@ If the reverse link should not be visible to the user, you can hide it with the 
 
 Links performing an external join (1-0..1) should be used with care as it will impact the system performance.
 
-## Data retention - Cleanup and purge {#data-retention}
+## Data retention - cleanup and purge {#data-retention}
 
 Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, to ensure good performance of the Adobe Campaign solution, database growth should stay under control. To achieve this, following some of the best practices below may help.
 
@@ -249,6 +243,10 @@ By default, Adobe Campaign delivery and tracking logs have a retention duration 
 
 * If you want to keep logs longer, this decision should be taken carefully depending on the database size and the volume of messages sent. As a reminder, Adobe Campaign sequence is a 32-bit integer.
 * It is recommended not to have more than 1 billion records at a time in these tables (about 50% of the 2.14 billion ids available) to limit risks of consuming all the available ids. This will require for some customers to lower the retention duration below 180 days.
+
+Learn more about data retention in [Campaign Privacy and Securuty guidelines](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
+
+Learn more about Campaign Data base cleanup workflow [in this section](../../production/using/database-cleanup-workflow.md).
 
 >[!IMPORTANT]
 >

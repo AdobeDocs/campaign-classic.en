@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use case: creating a Refer A Friend form"
-seo-title: "Use case: creating a Refer A Friend form"
 description: "Use case: creating a Refer A Friend form"
-seo-description: 
-page-status-flag: never-activated
-uuid: ad8b9076-c551-420d-bb23-0b3c645ee943
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: bbb1154f-2818-489c-9860-0e860596cbf7
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: creating a Refer A Friend form{#use-case-creating-a-refer-a-friend-form}

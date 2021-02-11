@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Hooks
-seo-title: Hooks
 description: Hooks
-seo-description: 
-page-status-flag: never-activated
-uuid: 4394717e-8625-4e2f-9492-3fd9b444a732
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-discoiquuid: 2b799ad7-b729-4b3e-9adc-1df13259f2a9
-index: y
-internal: n
-snippet: y
 ---
 
 # Hooks{#hooks}

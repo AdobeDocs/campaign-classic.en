@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: List update
-seo-title: List update
 description: List update
-seo-description: 
-page-status-flag: never-activated
-uuid: 1446f115-3f64-4b95-8e04-6426ab1b8dab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: ca2cd5bf-78a2-4e43-955d-206f4474d1e0
-index: y
-internal: n
-snippet: y
 ---
 
 # List update{#list-update}
@@ -36,6 +28,8 @@ To use the option, the specific tables concerned must have been configured in yo
 
 Generally, saving a target in a list marks the end of a workflow. By default, the **[!UICONTROL List update]** activity therefore does not have an outbound transition. Check the **[!UICONTROL Generate an outbound transition]** option to add one.
 
+![](assets/do-not-localize/how-to-video.png) [Discover how to create a list of recipients from the Explorer in video](#video)
+
 ## Example: List update {#example--list-update}
 
 In the following example, the list update activity follows a query which targets men over 30 living in France. The list will initially be created from the results of the query. It will then be updated every time it is launched from the workflow. It may, for example, be used regularly for targeted promotional offers for campaigns.
@@ -57,8 +51,6 @@ In the following example, the list update activity follows a query which targets
 
    The list of matching recipients is then created or updated.
 
-For more on this, refer to the [Creating a list of recipients](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
-
 ## Input parameters {#input-parameters}
 
 * tableName
@@ -69,3 +61,11 @@ Identifies the population to be saved in the group.
 ## Output parameters {#output-parameters}
 
 * groupId: Group identifier.
+
+## Tutorial video {#video}
+
+This video shows how to create a list of recipients from the Explorer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

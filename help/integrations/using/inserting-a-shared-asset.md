@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inserting a shared asset
-seo-title: Inserting a shared asset
 description: Inserting a shared asset
-seo-description: 
-page-status-flag: never-activated
-uuid: ab661bfd-d0a3-4b5c-ba52-4c76c834d584
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-discoiquuid: 3d01cc7e-5685-4101-bf4b-ef5f6e52b3c9
-index: y
-internal: n
-snippet: y
 ---
 
 # Inserting a shared asset{#inserting-a-shared-asset}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Wait
-seo-title: Wait
-description: Wait
-seo-description: 
-page-status-flag: never-activated
-uuid: 55e4f15d-8d69-45b1-b842-5ccdfdedf550
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Wait workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 41bcfe67-b5d6-4ee6-9f8a-6a7a208e2036
-index: y
-internal: n
-snippet: y
 ---
 
 # Wait{#wait}

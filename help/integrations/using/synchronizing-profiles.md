@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Synchronizing profiles
-seo-title: Synchronizing profiles
 description: Synchronizing profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: 3d5f0fd4-dfe7-4b34-a75f-8cf36fb7c91d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Synchronizing profiles{#synchronizing-profiles}
@@ -56,7 +48,7 @@ When a recipient clicks the unsubscription link in an email sent by Campaign Sta
 
 ## Editing a recipient {#editing-a-recipient}
 
-The steps below for changing a single point of data offer a simple example of how Campaign v7 becomes the master database for Campaign Standard when using data replication. Modifying or deleting replicated data in Campaign v7 has the same effect on the corresponding data in Campaign Standard.
+The steps below for changing a single point of data offer a simple example of how Campaign v7 becomes the primary database for Campaign Standard when using data replication. Modifying or deleting replicated data in Campaign v7 has the same effect on the corresponding data in Campaign Standard.
 
 1. Choose the newly created recipient from [Creating a new recipient](#creating-a-new-recipient) and edit the recipient’s name. For example, choose a **[!UICONTROL Salutation]** for the recipient (e.g. Mr. or Mrs.). For further information, see [Editing a profile](../../platform/using/editing-a-profile.md).
 

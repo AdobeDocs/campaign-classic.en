@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use cases: web forms"
-seo-title: "Use cases: web forms"
 description: "Use cases: web forms"
-seo-description: 
-page-status-flag: never-activated
-uuid: b2c3f171-325e-4913-a188-a791bad0df2e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
-index: y
-internal: n
-snippet: y
 ---
 
 # Use cases: web forms{#use-cases-web-forms}
@@ -47,15 +39,15 @@ Confirmation messages are sent via a dedicated delivery template referenced at t
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Since the recipients of this delivery haven't confirmed their approval, they are still blacklisted in the database. For them to receive this communication, you need to authorize deliveries based on this template to target blacklisted recipients.
+1. Since the recipients of this delivery haven't confirmed their approval, they are still on the database denylist. For them to receive this communication, you need to authorize deliveries based on this template to target recipients on denylist.
 
    To do this, click the **[!UICONTROL Exclusions]** tab.
 
-1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]** option.
+1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted]** option.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)
+   <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >This option may only be disabled in this type of context.
 
@@ -105,7 +97,7 @@ To do this, follow the steps below:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   The first **[!UICONTROL Script]** activity will blacklist recipients until they confirmed their subscription to the newsletter. Its content must be as follows:
+   The first **[!UICONTROL Script]** activity will add recipients on denylist until they confirmed their subscription to the newsletter. Its content must be as follows:
 
    ```
    ctx.recipient.@blackList=1
@@ -135,7 +127,7 @@ To do this, follow the steps below:
 
 1. Configure the **[!UICONTROL Storage]** activity to save the information entered in the form page.
 
-   This activity lets you create recipient profiles in a dedicated temporary to set them apart from the profiles in the database, whom communications can be sent to.
+   This activity lets you create recipient profiles in a dedicated temporary folder to set them apart from the profiles in the database, whom communications can be sent to.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
 
@@ -169,7 +161,7 @@ Subscription to the newsletter involves the following steps:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is blacklisted until they confirm their subscription with the email.
+   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is on denylist until they confirm their subscription with the email.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -183,7 +175,7 @@ Subscription to the newsletter involves the following steps:
 
    In Adobe Campaign, the user profile is updated:
 
-    * they are no longer blacklisted,
+    * they are no longer on denylist,
     * they are subscribed to the information service.
     
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integrating an offer via a workflow
-seo-title: Integrating an offer via a workflow
 description: Integrating an offer via a workflow
-seo-description: 
-page-status-flag: never-activated
-uuid: 57c4d4e0-6594-46f0-b9ce-2c689fb2eaa2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-discoiquuid: 6e27caea-1f1a-457d-bdec-1f93a12b01cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating an offer via a workflow{#integrating-an-offer-via-a-workflow}

@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Monitoring deliverability in Adobe Campaign Classic
 description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 0b5c5dbd-f532-4d8a-a255-9e6d88357d8d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring deliverability{#monitoring-deliverability}
@@ -37,10 +31,10 @@ You can also use the following tools:
     * **[!UICONTROL Soft bounces]** indicate reputation. This number should not be higher than 10% for any given ISP.
     
     For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
-* More generally, the [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to:
-    * the [delivery summary](../../delivery/using/monitoring-a-delivery.md#delivery-summary), which shows the detail of the sending and the [number of messages](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) to send, processed and sent with success;
-    * the [delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), which show which target has been excluded and why;
-    * the [tracking logs](../../delivery/using/monitoring-a-delivery.md#tracking-logs), which show tracking information such as opens and clicks.
+* More generally, the [delivery dashboard](../../delivery/using/about-delivery-monitoring.md) gives you access to:
+    * the [delivery summary](../../delivery/using/delivery-dashboard.md#delivery-summary), which shows the detail of the sending and the number of messages to send, processed and sent with success;
+    * the [delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history), which show which target has been excluded and why;
+    * the [tracking logs](../../delivery/using/delivery-dashboard.md#tracking-logs), which show tracking information such as opens and clicks.
 
 ## Monitoring guidelines {#monitoring-guidelines}
 
@@ -52,7 +46,7 @@ Here are some additional guidelines on deliverability monitoring:
 * Check each delivery throughput to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
 * When using [waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new [quarantines](../../delivery/using/understanding-quarantine-management.md) are consistent with other deliveries.
-* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (grey or black-listing, DNS issues, anti-spam rules, etc.).
+* Carefully consult the [delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
 
 ## Signal Spam {#signal-spam}
 
@@ -64,23 +58,18 @@ Signal Spam is a French service which offers anonymized feedback loop reporting 
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) is a complementary monitoring solution to the Adobe deliverability internal tools which provides IP, domain blacklisting and reputation indicators.
+[250ok](https://250ok.com/) is a complementary monitoring solution to the Adobe deliverability internal tools which provides IP and domain denylists, and reputation indicators.
 
 The information provided is real-time, which allows for a pro-active assistance.
 
 ## Technical Deliverability Monitoring Report {#technical-deliverability-monitoring}
 
-The technical deliverability monitoring report is updated daily and available by navigating to **[!UICONTROL Monitoring]** > **[!UICONTROL Overview]** and clicking the **[!UICONTROL Technical monitoring]** link from the Adobe Campaign **[!UICONTROL Home]** tab. It includes a number of deliverability quality indicators for your platform.
+The **Technical Deliverability Monitoring** report includes a number of deliverability quality indicators for your platform. You can receive this daily report by email. To request it, open a specific [Support Case](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and specify:
 
-These indicators are updated daily at 9 AM.
+* the name of the instance
+* the email addresses to send the report to
 
->[!NOTE]
->
->In addition, you are able to receive a daily report by email at a specified address. Let us know the requested email address by email or via the Adobe Campaign Extranet.
-
-![](assets/s_tn_del_monitoring.png)
-
-The following indicators are used in the report:
+This reports contains the following indicators:
 
 * **[!UICONTROL Reverse DNS]** : Adobe Campaign checks whether a reverse DNS is given for an IP address and that this correctly points back to the IP.
 
@@ -88,9 +77,12 @@ The following indicators are used in the report:
     
 * **[!UICONTROL DomainKeys]** : A service developed by Yahoo and intended to certify the identity of an email sender.
 
-* **[!UICONTROL IP and RBL domain]** (Real-time Blackhole List): A list of IP addresses and domains that have been flagged by blocklist organizations for poor sending reputation. These lists are maintained by dedicated organizations such as Spamhaus,Spamcop, SURBL/URIBL, etc. Adobe Campaign currently processes checks against RBLs that have a significant deliverability impact. These RBLs reflect sending reputation, and may be referenced by ISPs before accepting to receive your emails.
+* **[!UICONTROL IP and RBL domain]** (Real-time Blackhole List): A list of IP addresses and domains that have been flagged by denylist organizations for poor sending reputation. These lists are maintained by dedicated organizations such as Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign currently processes checks against RBLs that have a significant deliverability impact. These RBLs reflect sending reputation, and may be referenced by ISPs before accepting to receive your emails.
 
 * **[!UICONTROL SNDS]** (Smart Network Data Services): A [Windows Live Hotmail anti-spam service](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail is the only ISP that provides this type of information. Benchmark scores are a green filter result, a complaint rate of less than 0.1%, and zero spam traps.
+
+These indicators are updated daily at 9 AM.
+
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 

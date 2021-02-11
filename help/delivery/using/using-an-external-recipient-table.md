@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Using an external recipient table
-seo-title: Using an external recipient table
 description: Using an external recipient table
-seo-description: 
-page-status-flag: never-activated
-uuid: a6147425-14f0-41e8-a47f-3e7072deafa7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: 92c32b2d-d8bf-41ab-9349-ef4a15f10521
-index: y
-internal: n
-snippet: y
 ---
 
 # Using an external recipient table{#using-an-external-recipient-table}

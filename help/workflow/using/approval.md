@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Approval
-seo-title: Approval
 description: Approval
-seo-description: 
-page-status-flag: never-activated
-uuid: 49285790-5aa7-4e15-a657-42e4f78be518
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: a0090c78-5873-446d-8d5f-b0f94ff5d373
-index: y
-internal: n
-snippet: y
 ---
 
 # Approval{#approval}

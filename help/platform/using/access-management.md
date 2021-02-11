@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Access management
-seo-title: Access management
 description: Access management
-seo-description: 
-page-status-flag: never-activated
-uuid: 3f0cfa8f-1511-4445-9acb-b5be46e78295
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
-index: y
-internal: n
-snippet: y
 ---
 
 # Access management{#access-management}
@@ -37,7 +29,7 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
->Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
+>Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
 
 ## Operators {#operators}
 
@@ -99,7 +91,7 @@ Once the operator's profile has been created, you can add to or update their inf
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../platform/using/about-fda.md).
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../installation/using/about-fda.md).
 
 ### Time zone of the operator {#time-zone-of-the-operator}
 
@@ -124,6 +116,11 @@ Use the **[!UICONTROL Access rights]** tab to update the groups and named rights
 The **[!UICONTROL Edit the access parameters...]** link lets you access the following options:
 
 * The **[!UICONTROL Disable account]** option lets you disable the operator's account: he will no longer access Adobe Campaign.
+
+  >[!NOTE]
+  >
+  >Even if his account is disabled, the operator can still receive alerts or notifications from Campaign. To stop sending Campaign notifications to this operator, Adobe recommends you to remove the email address from his profile.
+
 * The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) or through APIs: access to the Adobe Campaign client console is no longer available.
 * It's possible to link a safety zone to the operator. For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 * You can also define a trusted IP mask using the appropriate link.
@@ -204,7 +201,7 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
 >[!NOTE]
 >
->For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
+>For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
 
 ## Operator groups {#operator-groups}
 
@@ -234,55 +231,63 @@ To create a new operator group, apply the following steps:
 
 The default operator groups are:
 
-1. Delivery operators
+1. **[!UICONTROL Administrator]**
+
+   The operators in this group have full access to the instance. Administrators are users who can access the most technical parts of the interface. They hold the **[!UICONTROL Administration]** role and make sure that the platform is all set up.
+
+   This group contains the following named right:
+
+    * **[!UICONTROL ADMINISTRATION]**: right to execute/create/edit/delete any object such as workflow, delivery, scripts, etc.
+
+1. **[!UICONTROL Delivery operators]**
 
    The operators in this group are in charge of managing deliveries: they enable access to the main resources required for creating and preparing deliveries (campaign typologies, delivery mappings, default templates, personalization blocks, etc.).
 
    This group contains the following named rights:
 
-    * PREPARE DELIVERIES: right to create, edit and start the delivery analysis,
-    * START DELIVERIES: right to approve previously analyzed deliveries.
+    * **[!UICONTROL PREPARE DELIVERIES]**: right to create, edit and start the delivery analysis,
+    * **[!UICONTROL START DELIVERIES]**: right to approve previously analyzed deliveries.
 
-1. Campaign managers
+1. **[!UICONTROL Campaign managers]**
 
-   The operators in this group can manage marketing campaigns: it lets you access the objects linked to campaigns (plans, programs, workflows, budgets, etc.).
+   The operators in this group can manage marketing campaigns: it lets you access the objects linked to campaigns (plans, programs, workflows, budgets, etc.) within the framework of **[!UICONTROL Campaign]** (optional Adobe Campaign module).
 
    This group contains the following named rights:
 
-    * INSERT FOLDERS: right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),
-    * WORKFLOW: right to use workflows.
+    * **[!UICONTROL INSERT FOLDERS]**: right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),
+    * **[!UICONTROL WORKFLOW]**: right to use workflows.
 
    >[!NOTE]
    >
    >This group does not enable operators to start deliveries.
 
-1. Content contributors
+1. **[!UICONTROL Content contributors]**
 
-   The operators in this group can access the Content folders, within the framework of **Content management** (optional Adobe Campaign module). This group does not grant any additional rights.
+   The operators in this group can access the Content folders, within the framework of **[!UICONTROL Content management]** (optional Adobe Campaign module). This group does not grant any additional rights.
 
-1. Access to reports
+1. **[!UICONTROL Access to reports]**
 
    This group is reserved for external operators, to access the delivery reports via a Web access.
 
-1. Workflow execution
+1. **[!UICONTROL Workflow execution]**
 
    This group lets you assign operators the right to manage workflows which are unrelated to campaigns.
 
-1. Workflow supervisors
+1. **[!UICONTROL Workflow supervisors]**
 
    The operators in this group receive an email notification in case of alerts concerning campaign workflows.
 
 1. Local / Central management
 
-   These groups let you use **Distributed marketing** (optional Adobe Campaign module).
+   These groups let you use **[!UICONTROL Distributed marketing]** (optional Adobe Campaign module).
 
-1. Offer managers
+1. **[!UICONTROL Offer managers]**
 
    The operators in this group can create and maintain offers. For more information on this, refer to this [page](../../interaction/using/operator-profiles.md).
    This group contains the following named rights:
 
-    * INSERT FOLDERS: Right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),
-    * EDIT FOLDERS: Right to alter folder properties such as internal name, label, associated image, sub folder order, etc.
+    * **[!UICONTROL INSERT FOLDERS]**: Right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),
+    * **[!UICONTROL EDIT FOLDERS]**: Right to alter folder properties such as internal name, label, associated image, sub folder order, etc.
 
 ## Named rights {#named-rights}
 
@@ -340,7 +345,9 @@ These rights are as follows:
 
 Default groups and named rights allow operators to access certain folders in the navigation hierarchy, and grant read, write, and delete permissions.
 
-Adobe Campaign access rights matrix is available [here](/help/platform/using/assets/accessrights.pdf).
+Adobe Campaign access rights matrix is available [here](/help/platform/using/assets/access-rights-matrix.pdf).
+
+[![image](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en)
 
 ## Folder access management {#folder-access-management}
 
@@ -442,3 +449,7 @@ In the example below, we will create new folders to display specific data:
 The following deliveries will be displayed in the view:
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
+
+>[!NOTE]
+>
+>When managing [transactional messaging](../../message-center/using/about-transactional-messaging.md) events, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views on the execution instances, as this could lead to access right issues. For more on event collection, see [this section](../../message-center/using/event-collection.md).

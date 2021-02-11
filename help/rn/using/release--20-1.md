@@ -1,56 +1,41 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 20.1
 description: Release 20.1
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: campaign-release-notes
-topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
+topic-tags: campaign-release-notes, latest-release-notes
 ---
 
 # Release 20.1{#release-20-1}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-2.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+## ![](assets/do-not-localize/limited_2.png) Release 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>No longer available</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Deprecated</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
-   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
-   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
-   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
-  </tr> 
- </tbody> 
-</table>
+_23 December 2020_
 
-The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+>[!CAUTION]
+>
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 31, 2021**.
+>
+> * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1.3 - Build 9124 {#release-20-1-3-build-9124}
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+
+## ![](assets/do-not-localize/red_2.png) Release 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
 _May 6, 2020_
 
-* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183)
+* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/red_2.png) Release 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
 _March 13, 2020_
 
 * Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
+## ![](assets/do-not-localize/red_2.png) Release 20.1 - Build 9122{#release-20-1-build-9122}
 
 _February 17, 2020_
 
@@ -65,7 +50,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>Snowflake is a fully managed cloud data warehouse built to scale on both storage and compute level. With this new connector, Adobe Campaign can now leverage the power of Snowflake to perform Big Data Segmentation. This connector is available to all customers, including hosted by Adobe.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
+    <p>For more information, refer to the <a href="../../installation/using/configure-fda-snowflake.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -80,7 +65,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>The Hadoop FDA Connector has been improved to support Hadoop 3.0 as well as Cloudera.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">detailed documentation</a>.</p>
+    <p>For more information, refer to the <a href="../../installation/using/configure-fda-hadoop.md">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -122,7 +107,7 @@ _February 17, 2020_
 
 * Improved query performance which could be affected by unnecessary database connections.
 
-* Improved the performance of the database update wizard.
+* Improved the performance of the database update wizard to make fewer SQL statements in order to optimize response time.
 
 * The database record management was enhanced.
 
@@ -198,7 +183,7 @@ _February 17, 2020_
 
 * Fixed an issue that occurred when deleting, inserting or updating a large amount of data with the **Update data** activity in a workflow using an FDA schema as the targeting dimension. (NEO-13280)
 
-* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag.
+* Fixed an issue preventing emails from being sent when there was Javascript code outside of the HTML content tag. (NEO-18628)
 
 * Fixed an issue that occurred when trying to display the mirror page from the delivery logs of a sent message. (NEO-17976)
 

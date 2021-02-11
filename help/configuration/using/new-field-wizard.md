@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: New field wizard
-seo-title: New field wizard
 description: New field wizard
-seo-description: 
-page-status-flag: never-activated
-uuid: 2c8d35db-042a-47cf-a7a6-3bb63bf40d94
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 6da65fb5-18a1-41a0-96d8-588e383f944b
-index: y
-internal: n
-snippet: y
 ---
 
 # New field wizard{#new-field-wizard}

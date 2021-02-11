@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing on Facebook walls
-seo-title: Publishing on Facebook walls
 description: Publishing on Facebook walls
-seo-description: 
-page-status-flag: never-activated
-uuid: 02288473-a0d7-42b5-9f86-3c96550ab1a8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: configuration
-discoiquuid: 8577db0b-f1fc-41af-aa0f-ec4d02dac376
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing on Facebook walls{#publishing-on-facebook-walls}

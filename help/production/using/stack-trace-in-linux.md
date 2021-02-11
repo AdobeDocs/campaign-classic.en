@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Stack trace in Linux
-seo-title: Stack trace in Linux
 description: Stack trace in Linux
-seo-description: 
-page-status-flag: never-activated
-uuid: d839df47-902f-4b92-bc78-536fc4fb6c98
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 60f306ea-4593-4e56-896e-8933277ee26a
-index: y
-internal: n
-snippet: y
 ---
 
 # Stack trace in Linux{#stack-trace-in-linux}

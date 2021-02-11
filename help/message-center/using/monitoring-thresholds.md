@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Monitoring thresholds
-seo-title: Monitoring thresholds
 description: Monitoring thresholds
-seo-description: 
-page-status-flag: never-activated
-uuid: a65bbab5-c96e-4db8-ab17-72189fb48608
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 76922657-2c0d-467e-acee-c1a61677fb44
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring thresholds{#monitoring-thresholds}

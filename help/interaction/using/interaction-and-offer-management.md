@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Interaction and offer management
-seo-title: Interaction and offer management
-description: Interaction and offer management
-seo-description: 
-page-status-flag: never-activated
-uuid: 70720baa-e64e-4fb6-8301-fe3920791f79
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Send the best offers to your contacts based on eligibility rules.
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
-index: y
-internal: n
-snippet: y
 ---
 
 # Interaction and offer management{#interaction-and-offer-management}
@@ -28,7 +20,7 @@ Interaction lets you create and manage a catalog of offers, and configure the el
 
 ![](assets/Offermgt2.png)
 
-To familiarize yourself with the interaction feature and terminologies used in Campaign Interaction, watch this video: [Adobe Campaign Interaction overview](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) To familiarize yourself with the interaction feature and terminologies used in Campaign Interaction, watch [this video](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
 
 ## Related topics
 

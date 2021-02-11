@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use cases: creating overviews"
-seo-title: "Use cases: creating overviews"
 description: "Use cases: creating overviews"
-seo-description: 
-page-status-flag: never-activated
-uuid: 404ae82b-2766-4802-8673-aaaa26868f46
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: a3834828-4d39-4699-b648-d399797b8ea7
-index: y
-internal: n
-snippet: y
 ---
 
 # Use cases: creating overviews{#use-cases-creating-overviews}
@@ -217,7 +209,7 @@ These two elements will be grouped in the same container in order to be graphica
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png **.
+1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png**.
 1. Using the sort-order arrows, reorganize the various elements of your Web application as shown below.
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)

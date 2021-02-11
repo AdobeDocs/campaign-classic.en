@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Data loading (file)
-description: Learn more about the Data loading (file) activity.
-page-status-flag: never-activated
-uuid: c064aa23-412e-49b4-a51d-b0e8ca572f2e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Data loading (file) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Data loading (file){#data-loading-file}
@@ -31,6 +25,10 @@ The upper section of the configuration window for this activity lets you define 
 ![](assets/s_advuser_wf_etl_file.png)
 
 You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
+
+   ![](assets/preprocessing-dataloading.png)
+
+For more on this, refer to this section: [Unzippping or decrypting a file before processing](../../platform/using/unzip-decrypt.md).
 
 ## Defining the file format {#defining-the-file-format}
 
@@ -108,7 +106,7 @@ The following example lets you collect a file on the server every day, load its 
     * the first column contains a code that coincides with the event: purchase (more or less than 3,000 euro), no purchase or refund on one or more purchases.
     * the four following columns contain the client's first name, last name, email and account number.
 
-   The format configuration of the file to be loaded coincides with that defined during a data import in Adobe Campaign. For more on this, refer to this [section](../../platform/using/importing-data.md#step-2---source-file-selection).
+   The format configuration of the file to be loaded coincides with that defined during a data import in Adobe Campaign. For more on this, refer to this [section](../../platform/using/executing-import-jobs.md#step-2---source-file-selection).
 
 1. In the split activity, specify the subsets to create, according to the **Event** column value.
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offers on an outbound channel
-seo-title: Offers on an outbound channel
 description: Offers on an outbound channel
-seo-description: 
-page-status-flag: never-activated
-uuid: a8a7ce5f-0d18-47f2-b258-34b9471de769
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: case-study
-discoiquuid: 3bd113c3-da67-4f4f-aa40-f4c7860a8569
-index: y
-internal: n
-snippet: y
 ---
 
 # Offers on an outbound channel{#offers-on-an-outbound-channel}

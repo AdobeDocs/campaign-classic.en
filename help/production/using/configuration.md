@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration
-seo-title: Configuration
 description: Configuration
-seo-description: 
-page-status-flag: never-activated
-uuid: 4316d4b2-0964-4e25-9e4f-f2378f044c85
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 12f13b8d-afc3-4b55-a31b-080d31f84fc9
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration{#configuration}
@@ -36,7 +28,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 You need to create the **TRACE_ADDR** environment variable with the **localhost** value: **`<listening port="" />`**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >We recommend running some tests to make sure your platform is working after you create this environment variable.
 
@@ -47,4 +39,3 @@ Each operator needs to be linked to a zone to log on to an instance and the oper
 >[!NOTE]
 >
 >For more on configuring security zones, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
-

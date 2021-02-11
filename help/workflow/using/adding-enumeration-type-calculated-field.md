@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adding an Enumeration type calculated field
 description: Learn how to add an Enumeration type calculated field
-page-status-flag: never-activated
-uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}

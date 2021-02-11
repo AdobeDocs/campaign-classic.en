@@ -1,26 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating an Experience Manager newsletter
-seo-title: Creating an Experience Manager newsletter
 description: Creating an Experience Manager newsletter
-seo-description: 
-page-status-flag: never-activated
-uuid: 75cf4891-06a6-42d2-9b22-b4d93e0dc64a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
 
 This integration can be used for example to create a newsletter in Adobe Experience Manager which will then be used in Adobe Campaign as part of an email campaign.
 
-For a more detailed example on how to use this integration, refer to this [step-by-step guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html).
+For a more detailed example on how to use this integration, refer to this [step-by-step guide](https://helpx.adobe.com/campaign/kb/acc-aem.html).
 
 **From Adobe Experience Manager:**
 
@@ -28,7 +20,7 @@ For a more detailed example on how to use this integration, refer to this [step-
 
    ![](assets/aem_uc_1.png)
 
-1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Master Area > Email campaigns]**.
+1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**.
 1. Click the **[!UICONTROL Create]** button in the upper right side of the page then select **[!UICONTROL Page]**.
 
    ![](assets/aem_uc_2.png)

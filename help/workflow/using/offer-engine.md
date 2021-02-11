@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offer engine
-seo-title: Offer engine
 description: Offer engine
-seo-description: 
-page-status-flag: never-activated
-uuid: a8f6056a-80e6-4f9f-81f5-563c98d11d28
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 08987595-e80c-4197-ad1e-9aa7cfc7c3eb
-index: y
-internal: n
-snippet: y
 ---
 
 # Offer engine{#offer-engine}

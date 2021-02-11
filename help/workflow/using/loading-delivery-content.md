@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Loading delivery content
-seo-title: Loading delivery content
 description: Loading delivery content
-seo-description: 
-page-status-flag: never-activated
-uuid: f2004fb0-9beb-463f-9903-10f291b3663e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 3667da3d-4940-4128-8878-f1ee67216f56
-index: y
-internal: n
-snippet: y
 ---
 
 # Loading delivery content{#loading-delivery-content}
@@ -58,4 +50,3 @@ To do this:
 >[!NOTE]
 >
 >Best practices and troubleshooting on SFTP server usage are detailed [in this page](../../platform/using/sftp-server-usage.md).
-
