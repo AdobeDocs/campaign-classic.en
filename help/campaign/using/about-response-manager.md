@@ -8,9 +8,7 @@ content-type: reference
 topic-tags: response-manager
 ---
 
-# About response manager{#about-response-manager}
-
-## Objectives {#objectives}
+# Get started with Response Manager{#about-response-manager}
 
 Adobe Campaign offers a response management application (Response Manager) that lets you measure the success and profitability of marketing campaigns or offer propositions for all communication channels (email, mobile, telephone, direct mail, fax, agency, etc.).
 
@@ -42,8 +40,8 @@ In order to launch a hypothesis on a delivery or an offer, you need to define it
 
 To define and create measuring hypotheses, apply the following process:
 
-1. Define a hypothesis model. Refer to [Creating a hypothesis model](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
-1. Create one or more hypotheses on an existing delivery. Refer to [Referencing a hypothesis in a campaign delivery](../../campaign/using/creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery).
+1. Define a hypothesis model. Refer to [Create a hypothesis model](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
+1. Create one or more hypotheses on an existing delivery. Refer to [Reference a hypothesis in a campaign delivery](../../campaign/using/creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery).
 
    or
 

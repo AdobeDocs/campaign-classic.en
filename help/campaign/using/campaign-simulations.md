@@ -10,7 +10,7 @@ topic-tags: campaign-optimization
 
 # Campaign simulations{#campaign-simulations}
 
-## About simulations {#about-simulations}
+## Get started with simulations {#about-simulations}
 
 Campaign Optimization lets you test the efficiency of a campaign plan using simulations. This lets you measure the potential success of a campaign: generated revenue, target volume based on the typology rules applied, etc.
 
@@ -24,9 +24,9 @@ Simulation lets you monitor and compare the impact of deliveries.
 
 ![](assets/simu_campaign_select_delivery_mode.png)
 
-## Setting up a simulation {#setting-up-a-simulation}
+## Set up a simulation {#setting-up-a-simulation}
 
-### Creating a simulation {#creating-a-simulation}
+### Create a simulation {#creating-a-simulation}
 
 To create a simulation, apply the following steps:
 
@@ -90,9 +90,9 @@ The **[!UICONTROL General]** tab of the simulation lets you enter execution sett
 * The **[!UICONTROL Priority]** is the level applied to the simulation to delay its triggering.
 * **[!UICONTROL Save SQL queries in the log]**. SQL logs let you diagnose a simulation if it ends with errors. They can also help you find out why a simulation is too slow. These messages will be visible after the simulation in the **[!UICONTROL SQL logs]** sub-tab of the **[!UICONTROL Audit]** tab.
 
-## Executing a simulation {#executing-a-simulation}
+## Execute a simulation {#executing-a-simulation}
 
-### Starting a simulation {#starting-a-simulation}
+### Start a simulation {#starting-a-simulation}
 
 Once the simulation scope is defined, you can execute it.
 
@@ -120,17 +120,17 @@ Once execution is complete, open the simulation and click the **[!UICONTROL Resu
 1. The **[!UICONTROL Alerts]** sub-tab groups all alert messages generated during the simulation. Alert messages can be sent in case of capacity overload (if the number of recipients targeted exceeds the set capacity, for instance).
 1. The **[!UICONTROL Exploration of the exclusions]** sub-tab lets you create a result analysis table. The user needs to indicate variables in the abscissa/ordinates axes.
 
-   For an example of analysis table creation, refer to the end of [Exploring results](#exploring-results).
+   For an example of analysis table creation, refer to the end of [Explore results](#exploring-results).
 
-### Viewing results {#viewing-results}
+### View results {#viewing-results}
 
-#### Audit {#audit}
+#### Audit tab {#audit}
 
 The **[!UICONTROL Audit]** tab lets you monitor simulation execution. The **[!UICONTROL SQL Logs]** sub-tab is useful for expert users. It lists execution logs in SQL format. These logs are only displayed if the **[!UICONTROL Save SQL queries in the log]** option has been selected in the **[!UICONTROL General]** tab before simulation execution.
 
 ![](assets/simu_campaign_opti_11.png)
 
-#### Exploring results {#exploring-results}
+#### Explore results {#exploring-results}
 
 The **[!UICONTROL Exploration of the exclusions]** sub-tab lets you analyze the data resulting from a simulation.
 
@@ -160,7 +160,7 @@ To access reports, click the **[!UICONTROL Reports]** link of the targeted simul
 
 You can also edit reports using the **[!UICONTROL Reports]** link accessible from the simulation dashboard.
 
-### Comparing simulations {#comparing-simulations-}
+### Compare simulations {#comparing-simulations-}
 
 Each time a simulation is executed, the result replaces any previous results: you cannot display and compare results from one execution to another.
 
@@ -183,7 +183,7 @@ To compare results, you need to use reports. Indeed, Adobe Campaign lets you sav
 
 ### Reporting axes {#reporting-axes}
 
-The **[!UICONTROL Calculations]** tab lets you define reporting axes on the target. Theses axes will be used during result analysis (refer to [Exploring results](#exploring-results)).
+The **[!UICONTROL Calculations]** tab lets you define reporting axes on the target. Theses axes will be used during result analysis (refer to [Explore results](#exploring-results)).
 
 >[!NOTE]
 >
@@ -223,4 +223,4 @@ Delivery target overlaps indicate the targeted recipients in at least two delive
 >
 >This sub-tab is only displayed if the **[!UICONTROL Generate target recovery statistics]** option has been enabled.
 
-The information on reporting axes can be processed in exclusion analysis reports created in the **[!UICONTROL Exploring exclusions]** sub-tab. For more on this, refer to [Exploring results](#exploring-results).
+The information on reporting axes can be processed in exclusion analysis reports created in the **[!UICONTROL Exploring exclusions]** sub-tab. For more on this, refer to [Explore results](#exploring-results).

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: distributed-marketing
 ---
 
-# Tracking a campaign{#tracking-a-campaign}
+# Track a campaign{#tracking-a-campaign}
 
 Central entity operators can track campaign orders in the list of campaign packages.
 
@@ -17,7 +17,7 @@ This lets them:
 * [Filter packages](#filter-packages),
 * [Edit packages](#edit-packages),
 * [Cancel a package](#cancel-a-package),
-* [Reinitializing a package](#reinitializing-a-package).
+* [Reinitialize a package](#reinitializing-a-package).
 
 ## Filter packages {#filter-packages}
 
@@ -79,7 +79,7 @@ For **collaborative campaigns**, canceling a package triggers numerous actions:
 
 Canceled packages can still be accessed and reinitialized by the central entity (see below) if necessary. They will only be offered to local entities again once they have been approved and started. The package reinitialization process is shown below.
 
-## Reinitializing a package {#reinitializing-a-package}
+## Reinitialize a package {#reinitializing-a-package}
 
 Campaign packages which have already been published can be reinitialized, modified and made available to local entities.
 
