@@ -528,7 +528,8 @@ Argument details:
  targetKeySize: Max. number of characters stored in the shared memory for identifying individuals Default: 16 
 ```
 
-### Related topics {#related-topics}
+## Related topics {#related-topics}
+
 * [Configure security zones](security-zones.md)
 * [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 * [Campaign Hosting models](../../installation/using/hosting-models.md)
