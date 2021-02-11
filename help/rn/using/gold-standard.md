@@ -40,6 +40,8 @@ The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
+* Fixed an issue that could cause workflows to fail when running an **Enrichment** activity. (NEO-17338)
+
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 10 release{#gs-10}
 
 _7 July 2020_

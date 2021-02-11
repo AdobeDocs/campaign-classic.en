@@ -476,7 +476,7 @@ Specifying short code is helpful for two features:
 
 * The preview will display the short code if no source number is provided. It will reflect the real behavior on the mobile phone.
 
-* The blocklist setting of the auto reply feature only sends to quarantine the user for a specific short code.
+* The denylist setting of the auto reply feature only sends to quarantine the user for a specific short code.
 
 #### Source TON/NPI, Destination TON/NPI {#ton-npi}
 
@@ -707,7 +707,7 @@ This setting only allows adding one TLV option per message.
 >
 >In Adobe Campaign Classic and in an hybrid architecture, applying auto-reply for the extended SMPP connector requires to add write access for the mid operator on the **External account** folder.
 
-This feature allows to quickly reply text to MO and handle per-short code sending to block list.
+This feature allows to quickly reply text to MO and handle per-short code sending to denylist.
 
 The **Keyword** and **Short code** columns define conditions to trigger the auto reply. If both fields match, the MO is sent and the additional action is triggered. To specify a wildcard, you should leave the field empty. Keyword matches against the first alphanumeric word in the MO text, ignoring punctuation and leading spaces. It means that the **Keyword** field cannot contain spaces and must be a single word.
 

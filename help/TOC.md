@@ -2,7 +2,7 @@
 audience: end-user
 product: campaign
 title: Adobe Campaign Classic Guide
-breadcrumb-title: Campaign Classic
+breadcrumb-title: Help Center
 product: campaign
 title: Campaign Classic Guide
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
@@ -119,7 +119,11 @@ type: Documentation
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
        + [Defining interactive content](delivery/using/defining-interactive-content.md)
-       + [Sending messages](delivery/using/sending-messages.md)
+       + Sending an email {#sending-an-email}
+            + [Confirming email delivery](delivery/using/sending-messages.md)
+            + [Email parameters](delivery/using/email-parameters.md)
+            + [Sending with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
+            + [Sending on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
        + [Attaching files](delivery/using/attaching-files.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
@@ -160,6 +164,19 @@ type: Documentation
        + [Using an external recipient table](delivery/using/using-an-external-recipient-table.md)
        + [Use case: selecting seed addresses on criteria](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
        + [Use case: configuring the field substitution](delivery/using/use-case--configuring-the-field-substitution.md)
+  + A/B testing {#a-b-testing}
+       + [Get started with A/B testing](delivery/using/get-started-a-b-testing.md)
+       + [Configuring A/B testing](delivery/using/configuring-a-b-testing.md)
+       + Use case {#use-case}
+          + [About this use case](delivery/using/a-b-testing-use-case.md)
+          + [Creating a targeting workflow](delivery/using/a-b-testing-uc-targeting-workflow.md)
+          + [Configuring population samples](delivery/using/a-b-testing-uc-population-samples.md)
+          + [Creating the delivery templates](delivery/using/a-b-testing-uc-delivery-templates.md)
+          + [Configuring the deliveries](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+          + [Creating the script](delivery/using/a-b-testing-uc-script.md)
+          + [Defining the final delivery](delivery/using/a-b-testing-uc-final-delivery.md)
+          + [Starting the workflow](delivery/using/a-b-testing-uc-start-workflow.md)
+          + [Analyzing the result](delivery/using/a-b-testing-uc-analyzing.md)
   + Subscriptions and referrals {#subscriptions-and-referrals}
        + [About services and subscriptions](delivery/using/about-services-and-subscriptions.md)
        + [Managing subscriptions](delivery/using/managing-subscriptions.md)
@@ -190,7 +207,7 @@ type: Documentation
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
-       + [Block list databases](delivery/using/block-list-databases.md)
+       + [Denylist databases](delivery/using/block-list-databases.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
@@ -434,7 +451,6 @@ type: Documentation
        + [About workflow use cases](workflow/using/about-workflow-use-cases.md)
        + Deliveries {#deliveries}
           + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
-          + [A/B testing](workflow/using/a-b-testing.md)
           + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
           + [Loading delivery content](workflow/using/loading-delivery-content.md)
           + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
