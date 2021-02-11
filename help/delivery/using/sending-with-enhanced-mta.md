@@ -22,6 +22,10 @@ If you were provisioned a Campaign Classic instance after September 2018, you ar
 
 The Enhanced MTA implementation may impact some of the existing Campaign functionality. For more on this, see the [Enhanced MTA specificities](#enhanced-mta-impacts).
 
+>[!NOTE]
+>
+>If you are an end user of Adobe Campaign and you want to know whether your instance has been upgraded to the Enhanced MTA, contact your internal Campaign administrator.
+
 ## Frequently asked questions {#enhanced-mta-faq}
 
 ### Usage and benefits
