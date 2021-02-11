@@ -18,15 +18,15 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 **New capabilities included in 21.1 release**
 
-Email Feedback Service - [Read more](../../delivery/using/sending-with-enhanced-mta.md#)
+Email Feedback Service - [Read more](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)
 
 **Other documentation updates coming with the release**
 
-The server configuration file documentation has been updated with the configuration parameters needed for Campaign connecting to another service using IMS. [Read more](../../installation/using/the-server-configuration-file.md#ims)
+The **Server configuration file** section has been updated with the configuration parameters needed for Campaign to connect to another service using IMS. [Read more](../../installation/using/the-server-configuration-file.md#ims)
 
-In the list of delivery statuses, the **Taken into account by the service provider** description has been updated: it is now also used for email deliveries sent using the Email Feedback Service. [Read more](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+In the list of delivery statuses, the description for **Taken into account by the service provider** has been updated: this status is now also used for email deliveries sent using the [Email Feedback Service](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [Read more](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
 
-
+The keyboard shortcuts available on the new logon screen to connect to Adobe Campaign are now documented. [Read more](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
 ## February 2021 {#feb-2021}
 

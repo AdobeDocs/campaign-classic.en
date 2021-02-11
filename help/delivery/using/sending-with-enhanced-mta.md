@@ -122,7 +122,7 @@ The bounce qualifications in the Campaign **[!UICONTROL Delivery log qualificati
 
 For more on bounce qualification, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### Sent status with Enhanced MTA 
+### Delivery success reporting
 
 In the **[!UICONTROL Summary]** view of an email delivery [dashboard](../../delivery/using/delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
 
