@@ -170,7 +170,7 @@ When soft-bouncing messages get reported back from the Enhanced MTA, their log 
 
 * If a retry is successful before the end of the validity period, the message status changes to **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is increased accordingly.
 
-* Otherwise, the status remains as **[!UICONTROL Failed]**. The **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** -->percentage remains unchanged.
+* Otherwise, the status changes to **[!UICONTROL Failed]**. The **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** -->percentage remains unchanged.
   
 >[!NOTE]
 >
