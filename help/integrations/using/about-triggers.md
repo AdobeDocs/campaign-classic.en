@@ -5,7 +5,6 @@ title: About Adobe Experience Cloud Triggers
 description: Get started with Adobe Experience Cloud Triggers implementation
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Get started with Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}
