@@ -14,6 +14,20 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## February 2021 {#release-21.1}
+
+**New capabilities included in 21.1 release**
+
+Email Feedback Service - [Read more](../../delivery/using/sending-with-enhanced-mta.md#)
+
+**Other documentation updates coming with the release**
+
+The server configuration file documentation has been updated with the configuration parameters needed for Campaign connecting to another service using IMS. [Read more](../../installation/using/the-server-configuration-file.md#ims)
+
+In the list of delivery statuses, the **Taken into account by the service provider** description has been updated: it is now also used for email deliveries sent using the Email Feedback Service. [Read more](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+
+
+
 ## February 2021 {#feb-2021}
 
 A new section has been added with detailed information on how to perform A/B testing using workflows. [Read more](../../delivery/using/get-started-a-b-testing.md)
