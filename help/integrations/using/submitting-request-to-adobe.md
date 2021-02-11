@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: audience-sharing
 ---
 
-# Submitting request to Adobe{#submitting-request-to-adobe}
+# Request provisioning updates to share audiences {#submitting-request-to-adobe}
 
 >[!NOTE]
 >
->To be able to proceed further, make sure that IMS is enabled on your system. Consult the section about [IMS](../../integrations/using/about-adobe-id.md).
+>To be able to proceed further, make sure that Adobe IMS is enabled on your system. Consult the section about [IMS](../../integrations/using/about-adobe-id.md).
 
 Once IMS is enabled, you can request provisioning of the People core service/Audience Manager integration with Campaign. To do that, send an email to [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) with the following information:
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: acs-connector
 ---
 
-# Synchronizing audiences{#synchronizing-audiences}
+# Synchronize audiences{#synchronizing-audiences}
 
 You can build a sophisticated list by using the Campaign v7 advanced features and share this list as an audience directly and in real time with Campaign Standard (including additional data) in a seamless way. Your Campaign Standard user can then consume the audience in Adobe Campaign Standard.
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: audience-sharing
 ---
 
-# Importing and exporting audiences{#importing-and-exporting-audiences}
+# Import and export audiences{#importing-and-exporting-audiences}
 
-## Importing an audience {#importing-an-audience}
+## Import an audience {#importing-an-audience}
 
 You can import audiences/segments from Audience manager or People core service into Adobe Campaign via the recipient lists.
 
@@ -44,7 +44,7 @@ The import process takes 24-36 hours to synchronize, when segments are imported 
 
 The audience data is completely replaced every time it is synchronized. Only segments can be imported. Granular data including key-value pairs, traits and rules are not supported.
 
-## Exporting an audience {#exporting-an-audience}
+## Export an audience {#exporting-an-audience}
 
 You can export an audience from Adobe Campaign to Audience manager or People core service using a workflow. The processes for creating and using a workflow are detailed in [this document](../../workflow/using/building-a-workflow.md). The exported audiences are saved as segments in People core service:
 

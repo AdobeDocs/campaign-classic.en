@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: message-templates
 ---
 
-# Managing seed addresses in transactional messages{#managing-seed-addresses-in-transactional-messages}
+# Manage seed addresses in transactional messages{#managing-seed-addresses-in-transactional-messages}
 
 A seed address lets you display a preview of your message, send a proof, and test message personalization before email or SMS delivery. Seed addresses are linked to the delivery and cannot be used for other deliveries.
 
-## Creating seed addresses {#creating-a-seed-address}
+## Create seed addresses {#creating-a-seed-address}
 
 1. In the transactional message template, click the **[!UICONTROL Seed addresses]** tab.
 

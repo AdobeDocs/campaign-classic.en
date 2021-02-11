@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating an Experience Manager newsletter
-description: Creating an Experience Manager newsletter
+title: Create an Experience Manager newsletter
+description: Learn how to create an Experience Manager newsletter
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 ---
 
-# Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
+# Create an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
 
 This integration can be used for example to create a newsletter in Adobe Experience Manager which will then be used in Adobe Campaign as part of an email campaign.
 

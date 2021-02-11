@@ -10,7 +10,7 @@ topic-tags: case-study
 
 # Presentation rules{#presentation-rules}
 
-## Creating a presentation rule {#creating-a-presentation-rule}
+## Create a presentation rule {#creating-a-presentation-rule}
 
 In our database, there are several travel offers for Europe, Africa, the United States and Canada. We want to send offers for a trip to Canada, but if the recipient refuses this type of offer, we don't want to send it to them again
 
@@ -71,7 +71,7 @@ We are going to configure our rule so that the trip to Canada is only offered on
 
    ![](assets/offer_typology_example_014.png)
 
-## Applying the presentation rule {#applying-the-presentation-rule}
+## Apply the presentation rule {#applying-the-presentation-rule}
 
 Here is an application example of the previously created typology rule.
 

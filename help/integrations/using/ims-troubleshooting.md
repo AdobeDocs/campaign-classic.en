@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 ---
 
-# IMS troubleshooting{#ims-troubleshooting}
+# Campaign/IMS troubleshooting{#ims-troubleshooting}
 
 The following troubleshooting tips will help **on-premise** customers solve the most common problems happening when using the IMS integration. For **hosted** customers, please contact Adobe.
 

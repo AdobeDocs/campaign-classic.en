@@ -35,7 +35,7 @@ It is possible to share an execution cluster among several control instances. Fo
 
 >[!NOTE]
 >
->For more on the necessary configuration, refer to [Using several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
+>For more on the necessary configuration, refer to [Use several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
 
 ## Installing instances {#installing-instances}
 
@@ -45,7 +45,7 @@ There are several precautions to take when installing the Transactional message 
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
-If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Adding a delivery channel](#adding-a-delivery-channel).
+If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Add a delivery channel](#adding-a-delivery-channel).
 
 * To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** module.
 

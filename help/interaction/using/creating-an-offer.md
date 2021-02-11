@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 ---
 
-# Creating an offer{#creating-an-offer}
+# Create an offer{#creating-an-offer}
 
-## Creating the offer {#creating-the-offer}
+## Create the offer {#creating-the-offer}
 
 To create an offer, apply the following steps:
 
@@ -34,11 +34,11 @@ To create an offer, apply the following steps:
 
    ![](assets/offer_create_004.png)
 
-## Configuring offer eligibility {#configuring-offer-eligibility}
+## Configure offer eligibility {#configuring-offer-eligibility}
 
 In the **[!UICONTROL Eligibility]** tab, define the period the offer will be valid for and can be presented, the filters to apply to the target and the offer weight.
 
-### Defining the eligibility period of an offer {#defining-the-eligibility-period-of-an-offer}
+### Define the eligibility period of an offer {#defining-the-eligibility-period-of-an-offer}
 
 To define the eligibility period of the offer, use the drop-down lists and select a start and an end date in the calendar.
 
@@ -54,7 +54,7 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
 
 ![](assets/offer_eligibility_create_003.png)
 
-If predefined filters have been created already, you can select them from the list of user filters. For more on this, refer to [Creating predefined filters](../../interaction/using/creating-predefined-filters.md).
+If predefined filters have been created already, you can select them from the list of user filters. For more on this, refer to [Create predefined filters](../../interaction/using/creating-predefined-filters.md).
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -68,7 +68,7 @@ For example, an offer can have a weight of A for contacts aged 18 to 25 and a we
 
 >[!NOTE]
 >
->The assigned weight can be temporarily modified according to the parameters of the category the offer belongs to. For more on this, refer to [Creating offer categories](../../interaction/using/creating-offer-categories.md).
+>The assigned weight can be temporarily modified according to the parameters of the category the offer belongs to. For more on this, refer to [Create offer categories](../../interaction/using/creating-offer-categories.md).
 
 To create a weight in an offer, apply the following steps:
 
@@ -112,7 +112,7 @@ To view it, click the **[!UICONTROL Schedule and eligibility rules]** link.
 
 ![](assets/offer_eligibility_create_005.png)
 
-## Creating the offer content {#creating-the-offer-content}
+## Create the offer content {#creating-the-offer-content}
 
 1. Click the **[!UICONTROL Edit]** tab, then click the **[!UICONTROL Content]** tab.
 
@@ -140,17 +140,17 @@ To view it, click the **[!UICONTROL Schedule and eligibility rules]** link.
       </div>
    ```
 
-   Defining the acceptance URL is presented in the [Configuring the status when the proposition is accepted](../../interaction/using/creating-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted) section.
+   Defining the acceptance URL is presented in the [Configure the status when the proposition is accepted](../../interaction/using/creating-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted) section.
 
    ![](assets/offer_content_create_002.png)
 
-   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. For more on this, refer to [Create offer spaces](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_content_create_003.png)
 
    In this example, the offer must include a title, an image, HTML content and a destination URL.
 
-## Previewing the offer {#previewing-the-offer}
+## Preview the offer {#previewing-the-offer}
 
 As soon as your offer content is configured, you can preview the offer as it will appear for its recipient. To do this:
 
@@ -166,7 +166,7 @@ As soon as your offer content is configured, you can preview the offer as it wil
 
    ![](assets/offer_preview_create_003.png)
 
-## Creating a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}
+## Create a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}
 
 You can create hypotheses on your offer propositions. This lets you determine the impact of your offers on purchases carried out for the product concerned.
 

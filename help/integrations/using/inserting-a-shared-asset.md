@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: asset-sharing
 ---
 
-# Inserting a shared asset{#inserting-a-shared-asset}
+# Insert a shared asset{#inserting-a-shared-asset}
 
 Assets shared from Adobe Experience Cloud can be used in your emails and landing pages as follows:
 

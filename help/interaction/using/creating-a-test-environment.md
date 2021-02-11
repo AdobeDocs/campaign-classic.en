@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: advanced-parameters
 ---
 
-# Creating a test environment{#creating-a-test-environment}
+# Create a test environment{#creating-a-test-environment}
 
 To create a test environment (sandbox mode), apply the following steps:
 
