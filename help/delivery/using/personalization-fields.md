@@ -31,7 +31,7 @@ Personalization fields can come from two types of data source, according to the 
 >
 >An Adobe Campaign personalization tag always has the following form **<%=table.field%>**.
 
-## Inserting a personalization field {#inserting-a-personalization-field}
+## Insert a personalization field {#inserting-a-personalization-field}
 
 To insert personalization fields, click the drop-down icon that is accessible from any header, subject, or message body editing field.
 
@@ -68,13 +68,13 @@ We create an email in which we will first insert the name of the recipient and t
    >
    >When a delivery is part of a workflow, you can use the data from the temporary workflow table. This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to [this section](../../workflow/using/data-life-cycle.md#target-data).
 
-## Optimizing personalization {#optimizing-personalization}
+## Optimize personalization {#optimizing-personalization}
 
 You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties. For more on analyzing the delivery, see [this section](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
 
-Checking this option can highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. For more on this, see [Accessing an external database (FDA)](../../installation/using/about-fda.md).
+Checking this option can highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. For more on this, see [Access an external database (FDA)](../../installation/using/about-fda.md).
 
 For example, if you are experiencing performance issues when delivering to a high number of recipients while using a lot of personalization fields and/or personalization blocks in the content of your messages, this option can accelerate the handling of personalization and therefore the delivering of your messages.
 

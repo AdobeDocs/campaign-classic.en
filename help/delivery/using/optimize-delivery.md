@@ -27,7 +27,7 @@ Several factors can directly impact server performance and slow the platform:
 
 * As a hosted customer, you can leverage [Campaign Contol Panel capabilities](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html) to monitor your platform, using [performance monitoring](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionalities.
 
-## Checking network configuration {#network-config}
+## Check network configuration {#network-config}
 
 To optimize delivery when handling emails in large volumes and avoid being mistaken for a spammer, make sure that you have a legitimate network configuration that does not try to hide the identity of the server.
 

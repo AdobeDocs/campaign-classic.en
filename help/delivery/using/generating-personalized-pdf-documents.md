@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: personalizing-deliveries
 ---
 
-# Generating personalized PDF documents{#generating-personalized-pdf-documents}
+# Generate personalized PDF documents{#generating-personalized-pdf-documents}
 
 ## About variable PDF documents {#about-variable-pdf-documents}
 
@@ -26,7 +26,7 @@ Example of an invoice header personalization:
 
 To generate dynamic tables or include images via a URL, you need to follow a specific process.
 
-## Generating dynamic tables {#generating-dynamic-tables}
+## Generate dynamic tables {#generating-dynamic-tables}
 
 The procedure for generating dynamic tables is as follows:
 
@@ -40,13 +40,13 @@ The procedure for generating dynamic tables is as follows:
 
   ![](assets/s_ncs_pdf_table.png)
 
-## Inserting external images {#inserting-external-images}
+## Insert external images {#inserting-external-images}
 
 The insertion of external images is useful if, for instance, you want to personalize a document with an image whose URL is entered in a field of the recipient.
 
 To do this, you need to configure a personalization block, then include a call to the personalization block in the attachment.
 
-**Example: inserting a personalized logo depending on the recipient's country**
+**Example: insert a personalized logo depending on the recipient's country**
 
 **Step 1: create the attachment:**
 

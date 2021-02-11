@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-emails
 ---
 
-# Sending with the Enhanced MTA {#sending-with-enhanced-mta}
+# Send with the Enhanced MTA {#sending-with-enhanced-mta}
 
 The **Adobe Campaign Enhanced MTA** (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for improved deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
 
@@ -53,7 +53,7 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 * For Adobe Campaign Classic existing customers, we’ve implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you’re not already using it, we’ll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
 -->
 
-### Upgrading to the enhanced MTA
+### Upgrade to the enhanced MTA
 
 **What is required to upgrade to the Enhanced MTA?**
 

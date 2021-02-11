@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deliverability-management
 ---
 
-# Improving deliverability through re-engagement{#re-engagement}
+# Improve deliverability through re-engagement{#re-engagement}
 
 While implementing deliverability, some of the best practices consist in trying to maintain a healthy subscriber base and improve deliverability through re-engagement strategies.
 

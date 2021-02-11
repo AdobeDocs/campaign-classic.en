@@ -11,7 +11,7 @@ topic-tags: deliveries-best-practices
 
 You clicked the Send button? Let's see what happens. Once the delivery is sent, Adobe Campaign enables you to keep track of the sent messages and discover how your recipients react to your delivery. This will help you improve future sending and optimize your next campaigns.
 
-## Monitoring deliveries {#monitoring-deliveries}
+## Monitor deliveries {#monitoring-deliveries}
 
 To control your campaigns, you must ensure that the message has indeed been delivered to your recipients.
 

@@ -40,7 +40,7 @@ To enable Email BCC for an email delivery template, follow the steps below:
 >
 >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
 
-## Selecting message formats {#selecting-message-formats}
+## Select message formats {#selecting-message-formats}
 
 You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
@@ -68,7 +68,7 @@ Select the format of the email in the lower section of the window:
 >
 >For more on defining the email content, see [this section](../../delivery/using/defining-the-email-content.md).
 
-## Generating the mirror page {#generating-mirror-page}
+## Generate the mirror page {#generating-mirror-page}
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email.
 
@@ -102,7 +102,7 @@ To do this, select the **[!UICONTROL Force the encoding used for messages]** opt
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
-## Managing bounce emails {#managing-bounce-emails}
+## Manage bounce emails {#managing-bounce-emails}
 
 The **[!UICONTROL SMTP]** tab of the delivery parameters lets you configure the management of bounce mails.
 
@@ -114,7 +114,7 @@ You can also define a specific address from this screen in order to investigate 
 
 For more on bounce mail management, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
-## Adding SMTP headers {#adding-smtp-headers}
+## Add SMTP headers {#adding-smtp-headers}
 
 It is possible to add SMTP headers to your deliveries. To do this, use the relevant section of the **[!UICONTROL SMTP]** tab in the delivery.
 

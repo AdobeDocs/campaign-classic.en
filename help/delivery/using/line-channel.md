@@ -28,9 +28,9 @@ The steps for using the LINE channel are:
 1. Sending the messages
 1. Monitoring the delivery (tracking, quarantining, reports, etc.).
 
-## Setting up LINE channel {#setting-up-line-channel}
+## Set up LINE channel {#setting-up-line-channel}
 
-### Creating a LINE account and an external account {#creating-a-line-account-and-an-external-account-}
+### Create a LINE account and an external account {#creating-a-line-account-and-an-external-account-}
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ You must first create a LINE account, so that you can then link it to Adobe Camp
 
 To create and configure a LINE account, see [https://developers.line.me/](https://developers.line.me/).
 
-To create and configure a LINE service, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
+To create and configure a LINE service, see [Manage subscriptions](../../delivery/using/managing-subscriptions.md).
 
 ![](assets/line_service.png)
 
@@ -85,7 +85,7 @@ To create a **LINE** delivery you have to follow these steps:
 1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Click **[!UICONTROL Continue]** to create your delivery.
 
-## Defining the content {#defining-the-content}
+## Define the content {#defining-the-content}
 
 To define the content of a LINE delivery, you first have to add message type to your delivery. Each LINE delivery can contain up to 5 messages.
 
@@ -94,7 +94,7 @@ You can choose between two message types:
 * Text message
 * Image and link
 
-### Configuring a Text message delivery {#configuring-a-text-message-delivery}
+### Configure a Text message delivery {#configuring-a-text-message-delivery}
 
 A **Text message** LINE delivery is a message sent to recipients in text form. 
 
@@ -150,19 +150,19 @@ You can use:
 
 * When you send a LINE delivery to a new recipient for the first time, you must add the official LINE message regarding the terms of use and consent into the delivery. The official message is available at the following link: [https://terms.line.me/OA_privacy/](https://terms.line.me/OA_privacy/sp?lang=fr).
 
-## Selecting the target population {#selecting-the-target-population}
+## Select the target population {#selecting-the-target-population}
 
-Selecting recipients of a LINE delivery is similar to defining email delivery recipients. For more information, refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md).
+Selecting recipients of a LINE delivery is similar to defining email delivery recipients. For more information, refer to [Identify target populations](../../delivery/using/steps-defining-the-target-population.md).
 
 Targeting is carried out on **visitors**.
 
-## Sending messages {#sending-messages}
+## Send messages {#sending-messages}
 
 When your delivery is created and configured correctly, you can send it to the target defined earlier.
 
-Sending LINE deliveries is similar to sending an email delivery. For more information on sending a delivery, refer to [Sending messages](../../delivery/using/sending-messages.md).
+Sending LINE deliveries is similar to sending an email delivery. For more information on sending a delivery, refer to [Send messages](../../delivery/using/sending-messages.md).
 
-## Accessing reports {#accessing-reports}
+## Access reports {#accessing-reports}
 
 You can view reports on the LINE service by clicking **[!UICONTROL Profiles and Targets > Services and Subscriptions > LINE]** in the explorer. Then click the **[!UICONTROL Reports]** icon in the LINE service.
 

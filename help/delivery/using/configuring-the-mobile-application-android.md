@@ -28,7 +28,7 @@ Key steps are:
 
 You will then be able to [create an Android rich notification](#creating-android-delivery).
 
-## Configuring Android external account {#configuring-external-account-android}
+## Configure Android external account {#configuring-external-account-android}
 
 For Android, two connectors are available:
 
@@ -53,7 +53,7 @@ To choose which connector you want to use, follow these steps:
 
     * **maxGCMConnectPerChild**: Maximum limit of parallel HTTP requests to the FCM initiated by each child server (8 by default).
 
-## Configuring Android service {#configuring-android-service}
+## Configure Android service {#configuring-android-service}
 
 ![](assets/do-not-localize/how-to-video.png) [Learn how to configure an Android service in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=en#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
@@ -185,7 +185,7 @@ You need to extend the **appsubscriptionRcp** to define new additional fields to
    >
    >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) section.
 
-## Creating an Android rich notification {#creating-android-delivery}
+## Create an Android rich notification {#creating-android-delivery}
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
@@ -198,7 +198,7 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 For more information on Firebase Cloud Messaging messages types, refer to [FCM documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages
 ).
 
-### Creating a data message {#creating-data-message}
+### Create a data message {#creating-data-message}
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
@@ -233,7 +233,7 @@ The image and web page should be displayed in the push notification when receive
 
 ![](assets/nmac_android_4.png)
 
-### Creating a notification message {#creating-notification-message}
+### Create a notification message {#creating-notification-message}
 
    >[!NOTE]
    >

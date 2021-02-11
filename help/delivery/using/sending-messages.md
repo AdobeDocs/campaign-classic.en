@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: sending-emails
 ---
 
-# Confirming email delivery {#confirming-email-delivery}
+# Confirm email delivery {#confirming-email-delivery}
 
 Once your email has been created and configured, you can send it to the main target. This section presents the main steps to confirm the delivery of an email.
 
 1. Make sure you configured all the settings that are specific to email delivery. For more on this, see [Email parameters](../../delivery/using/email-parameters.md).
-1. When the email is ready, before sending it to the main target, it is recommended to detect any potential errors by sending proofs. For more on this, see [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+1. When the email is ready, before sending it to the main target, it is recommended to detect any potential errors by sending proofs. For more on this, see [Send a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-1. Once done, you must validate the email by launching the analysis. To do this, click **[!UICONTROL Send]**, select an action and click **[!UICONTROL Analyze]**. For more on this, see [Launching the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Once done, you must validate the email by launching the analysis. To do this, click **[!UICONTROL Send]**, select an action and click **[!UICONTROL Analyze]**. For more on this, see [Launch the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
-1. Once analysis is complete, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages to the targeted recipients. For more on this, see [Confirming delivery](../../delivery/using/steps-sending-the-delivery.md#confirming-delivery).
+1. Once analysis is complete, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages to the targeted recipients. For more on this, see [Confirm delivery](../../delivery/using/steps-sending-the-delivery.md#confirming-delivery).
 
     <!--Add screenshot with analysis done and Confirm delivery button activated.-->
 
@@ -29,5 +29,5 @@ The following sections detail settings and configurations that are specific to d
 <!--* [Generating the mirror page](../../delivery/using/generating-mirror-page.md)
 * [Email BCC](../../delivery/using/email-bcc.md)-->
 * [Email parameters](../../delivery/using/email-parameters.md)
-* [Sending emails with the Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md)
-* [Sending emails on Japanese mobiles](../../delivery/using/sending-emails-on-japanese-mobiles.md)
+* [Send emails with the Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md)
+* [Send emails on Japanese mobiles](../../delivery/using/sending-emails-on-japanese-mobiles.md)

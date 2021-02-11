@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Starting the workflow
+title: Start the workflow
 description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 ---
 
-# Starting the workflow {#step-7--starting-the-workflow}
+# Start the workflow {#step-7--starting-the-workflow}
 
 1. Click **[!UICONTROL Start]** the workflow.
 

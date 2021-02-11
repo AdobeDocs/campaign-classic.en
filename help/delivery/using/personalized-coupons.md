@@ -18,7 +18,7 @@ Adding coupons to your deliveries can give your recipients enhanced value for pr
 >
 >Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
 
-## Creating a coupon {#creating-a-coupon}
+## Create a coupon {#creating-a-coupon}
 
 The coupon module gives you two options when creating coupons:
 
@@ -47,13 +47,13 @@ Before following the steps below, make sure that you know the type of coupon you
     1. Enter a unique code for the individual coupon when prompted by the pop-up window.
     1. Click **[!UICONTROL Save]** to generate the coupon.
 
-   For more details about the Coupons tab, see [Configuring individual coupons](#configuring-individual-coupons).
+   For more details about the Coupons tab, see [Configure individual coupons](#configuring-individual-coupons).
 
    >[!NOTE]
    >
    >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
 
-### Configuring individual coupons {#configuring-individual-coupons}
+### Configure individual coupons {#configuring-individual-coupons}
 
 ![](assets/deliv_coup_03.png)
 
@@ -66,7 +66,7 @@ The Coupons tab is only available with Individual coupons. After a coupon is ass
 
 Values for **[!UICONTROL status]**, **[!UICONTROL channel]**, and **[!UICONTROL address]** are automatically completed. However, the values for **[!UICONTROL redeemed on]** are not recovered by Campaign. They can be completed by importing a file that has the details for coupon redemption.
 
-## Inserting a coupon into an email delivery {#inserting-a-coupon-into-an-email-delivery}
+## Insert a coupon into an email delivery {#inserting-a-coupon-into-an-email-delivery}
 
 In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](../../delivery/using/about-email-channel.md). You can also add a coupon to a delivery in a workflow.
 
@@ -130,7 +130,7 @@ In the example below, the delivery is created from the Home page. For detailed i
 
 >[!NOTE]
 >
->For instructions on how to manage insufficient coupons for a delivery, see [Managing insufficient coupons](#managing-insufficient-coupons)
+>For instructions on how to manage insufficient coupons for a delivery, see [Manage insufficient coupons](#managing-insufficient-coupons)
 
 To confirm that the delivery was successful:
 
@@ -143,9 +143,9 @@ To confirm that the delivery was successful:
 
 >[!NOTE]
 >
->By default, the coupon management module uses an **nms:recipient** table. For instructions on how to use other tables, see [Editing schemas](../../configuration/using/data-schemas.md).
+>By default, the coupon management module uses an **nms:recipient** table. For instructions on how to use other tables, see [Edit schemas](../../configuration/using/data-schemas.md).
 
-## Managing insufficient coupons {#managing-insufficient-coupons}
+## Manage insufficient coupons {#managing-insufficient-coupons}
 
 The delivery analysis stops if there are fewer coupons than messages. In such a case, you can import more coupons or restrict the number of messages. Follow the instructions below if you want to limit the number of messages.
 

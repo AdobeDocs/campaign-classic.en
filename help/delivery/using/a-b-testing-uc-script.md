@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating the script
+title: Create the script
 description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 ---
 
-# Creating the script {#step-5--creating-the-script}
+# Create the script {#step-5--creating-the-script}
 
 The choice of the delivery content destined for the remaining population is calculated by a script. This script recovers the information concerning the delivery with the highest rate of opens and copies the content into the final delivery.
 

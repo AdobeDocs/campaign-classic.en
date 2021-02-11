@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: using-seed-addresses
 ---
 
-# Use case: selecting seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}
+# Use case: select seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}
 
 In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic condition...]** link lets you choose seed addresses based on specific selection criteria.
 
@@ -23,21 +23,21 @@ To use the dynamic condition, you must have:
 * a delivery ready to be sent,
 * seed addresses that have a common value. This value can be a field that already exists in Adobe Campaign. In this example, the seed addresses share the "Purchasing" value in the "Department" field, which is not present in the application by default.
 
-## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
+## Step 1 - Create a delivery {#step-1---creating-a-delivery}
 
-The steps for creating a delivery are detailed in the [Creating an email delivery](../../delivery/using/creating-an-email-delivery.md) section.
+The steps for creating a delivery are detailed in the [Create an email delivery](../../delivery/using/creating-an-email-delivery.md) section.
 
 In this example, the delivery manager has created the newsletter and selected the recipients.
 
 ![](assets/dlv_seeds_usecase_01.png)
 
-## Step 2 - Creating a common value {#step-2---creating-a-common-value}
+## Step 2 - Create a common value {#step-2---creating-a-common-value}
 
 To create a common value like the one in our example (Purchasing department), you must first extend the **data schema** of your seed addresses and edit the associated input form.
 
-### Extending the data schema {#extending-the-data-schema}
+### Extend the data schema {#extending-the-data-schema}
 
-For further details on schema extensions, refer to the [Configuration guide](../../configuration/using/data-schemas.md).
+For further details on schema extensions, refer to [this section](../../configuration/using/data-schemas.md).
 
 1. In the **[!UICONTROL Administration > Configuration > Data schemas]** node, click the **[!UICONTROL New]** icon.
 1. In the **[!UICONTROL Creation of a data schema]** window, select the **[!UICONTROL Extension of a schema]** option and click **[!UICONTROL Next]**.
@@ -88,9 +88,9 @@ For further details on schema extensions, refer to the [Configuration guide](../
 
    Once the update has finished, you can close the wizard.
 
-1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. Refer to the [Updating the input form](#updating-the-input-form) section.
+1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. Refer to the [Update the input form](#updating-the-input-form) section.
 
-#### Extending the data schema from a linked table {#extending-the-data-schema-from-a-linked-table}
+#### Extend the data schema from a linked table {#extending-the-data-schema-from-a-linked-table}
 
 The seed addresses data schema can use values from a table linked to the recipient data schema - Recipient (nms).
 
@@ -124,9 +124,9 @@ They indicate:
 
 The user can then follow from **step 5** of the section, and update the **[!UICONTROL Input form]** of the seed addresses.
 
-Refer to the [Updating the input form](#updating-the-input-form) section.
+Refer to the [Update the input form](#updating-the-input-form) section.
 
-#### Updating the input form {#updating-the-input-form}
+#### Update the input form {#updating-the-input-form}
 
 1. In the **[!UICONTROL Administration > Configuration > Input forms]** node, find the seed addresses input form.
 
@@ -147,7 +147,7 @@ Refer to the [Updating the input form](#updating-the-input-form) section.
 
 1. Edit the seed addresses that you want to use for the delivery and enter **Purchasing** as the value in the **[!UICONTROL Department]** field.
 
-## Step 3 - Defining the condition {#step-3---defining-the-condition}
+## Step 3 - Define the condition {#step-3---defining-the-condition}
 
 You can now specify the dynamic condition of the seed addresses for the delivery. To do this:
 

@@ -16,7 +16,7 @@ Once the package is installed, you can define your iOS app settings in Adobe Cam
 >
 >To learn how to configure your app for Android and how to create a delivery for Android, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md).
 
-## Configuring iOS external account {#configuring-external-account-ios}
+## Configure iOS external account {#configuring-external-account-ios}
 
 For iOS, the iOS HTTP/2 connector sends notifications to the HTTP/2 APNs.
 
@@ -36,7 +36,7 @@ To configure this connector, follow these steps:
 
 Your iOS connector is now configured. You can start creating your service.
 
-## Configuring iOS service {#configuring-ios-service}
+## Configure iOS service {#configuring-ios-service}
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ Your iOS connector is now configured. You can start creating your service.
 
    >[!NOTE]
    >
-   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to the [Configuration guide](../../configuration/using/about-custom-recipient-table.md).
+   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to [this section](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -63,7 +63,7 @@ Your iOS connector is now configured. You can start creating your service.
 
 1. Create your iOS Development and Production applications. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app).
 
-## Creating iOS mobile application {#creating-ios-app}
+## Create iOS mobile application {#creating-ios-app}
 
 After creating your service, you now need to create your iOS application:
 
@@ -90,7 +90,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrate Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
 
     >[!NOTE]
     >
@@ -118,7 +118,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 Your iOS application is now ready to be used in Campaign Classic.
 
-## Creating an iOS rich notification {#creating-ios-delivery}
+## Create an iOS rich notification {#creating-ios-delivery}
 
 With iOS 10 or higher, it is possible to generate rich notifications. Adobe Campaign can send notifications using variables that will allow the device to display a rich notification.
 

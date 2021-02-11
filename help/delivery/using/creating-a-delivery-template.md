@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: using-delivery-templates
 ---
 
-# Creating a delivery template{#creating-a-delivery-template}
+# Create a delivery template{#creating-a-delivery-template}
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
 
-## Converting an existing delivery to a template {#converting-an-existing-delivery-to-a-template}
+## Convert an existing delivery to a template {#converting-an-existing-delivery-to-a-template}
 
 A delivery can be converted to a template for new repeated delivery actions. To convert a delivery to a template, select it from the delivery list, accessible via the **[!UICONTROL Campaign management]** node of the tree.
 
@@ -24,9 +24,9 @@ This action creates a delivery template from the selected delivery. You must ent
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
-For more information on the configuration mode, refer to [Linking the template to a delivery](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
+For more information on the configuration mode, refer to [Link the template to a delivery](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
 
-## Creating a new template {#creating-a-new-template}
+## Create a new template {#creating-a-new-template}
 
 To configure a delivery template, carry out the following steps:
 

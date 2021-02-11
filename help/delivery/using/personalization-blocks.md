@@ -10,19 +10,19 @@ topic-tags: personalizing-deliveries
 
 # Personalization blocks{#personalization-blocks}
 
-Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](#inserting-personalization-blocks).
+Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Insert personalization blocks](#inserting-personalization-blocks).
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature [in video](#personalization-blocks-video)
 
-Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks)).
+Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Built-in personalization blocks](#out-of-the-box-personalization-blocks)).
 
-You have the ability to define new blocks that will enable you to optimize your deliveries personalization. For more on this, refer to [Defining custom personalization blocks](#defining-custom-personalization-blocks).
+You have the ability to define new blocks that will enable you to optimize your deliveries personalization. For more on this, refer to [Define custom personalization blocks](#defining-custom-personalization-blocks).
 
 >[!NOTE]
 >
 >Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
-## Inserting personalization blocks {#inserting-personalization-blocks}
+## Insert personalization blocks {#inserting-personalization-blocks}
 
 To insert a personalization block in a message, follow the steps below:
 
@@ -31,7 +31,7 @@ To insert a personalization block in a message, follow the steps below:
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. The **[!UICONTROL Other...]** menu gives access to all the out-of-the-box and custom personalization blocks (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks) and [Defining custom personalization blocks](#defining-custom-personalization-blocks)).
+1. The **[!UICONTROL Other...]** menu gives access to all the built-in and custom personalization blocks. See [Built-in personalization blocks](#out-of-the-box-personalization-blocks) and [Define custom personalization blocks](#defining-custom-personalization-blocks).
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
@@ -63,7 +63,7 @@ To do this, we need to insert the following personalization blocks:
 
 >[!NOTE]
 >
->For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+>For more on the mirror page generation, refer to [Generate the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 1. Create a new delivery or open an existing email type delivery.
 1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
@@ -78,7 +78,7 @@ To do this, we need to insert the following personalization blocks:
 
 1. Confirm that the block contents are displayed properly.
 
-## Out-of-the-box personalization blocks {#out-of-the-box-personalization-blocks}
+## Built-in personalization blocks {#out-of-the-box-personalization-blocks}
 
 A list of personalization blocks is available by default to help you personalize the content of your message.
 
@@ -95,7 +95,7 @@ A list of personalization blocks is available by default to help you personalize
 
   >[!NOTE]
   >
-  >For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+  >For more on the mirror page generation, refer to [Generate the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist).
@@ -125,7 +125,7 @@ A list of personalization blocks is available by default to help you personalize
 * **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. These blocks must be inserted in the source code of the delivery, in the **[!UICONTROL ...]** section, into **`<style>...</style>`** tags.
 * **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an Interaction offer to **[!UICONTROL Accepted]** (see [this section](../../interaction/using/offer-analysis-report.md)).
 
-## Defining custom personalization blocks {#defining-custom-personalization-blocks}
+## Define custom personalization blocks {#defining-custom-personalization-blocks}
 
 You can define new personalization fields to be inserted from the personalized field icon via the **[!UICONTROL Include...]** menu. These fields are defined in personalization blocks.
 

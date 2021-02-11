@@ -28,7 +28,7 @@ The identification key of a stylesheet is a string made up of the namespace and 
 >
 >In practice, it is recommended to use the same key for the schema, the form, and the publication template.
 
-## Creating and configuring the template {#creating-and-configuring-the-template}
+## Create and configure the template {#creating-and-configuring-the-template}
 
 Publication templates are stored by default in the **[!UICONTROL Administration > Configuration > Publication templates]** node. To create a new template, click the **[!UICONTROL New]** button above the list of templates.
 

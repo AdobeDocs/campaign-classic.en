@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating a targeting workflow
+title: Create a targeting workflow
 description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 ---
 
-# Creating a targeting workflow {#step-1--creating-a-targeting-workflow}
+# Create a targeting workflow {#step-1--creating-a-targeting-workflow}
 
 You need to create your workflow in the **[!UICONTROL Targeting and Workflows]** tab of a campaign. It is made up of a **[!UICONTROL Query]** activity, a **[!UICONTROL Split]** activity linked to two **[!UICONTROL Email delivery]** activities, a **[!UICONTROL Wait]** activity, a **[!UICONTROL JavaScript code]** activity, and a **[!UICONTROL Delivery]** activity.
 

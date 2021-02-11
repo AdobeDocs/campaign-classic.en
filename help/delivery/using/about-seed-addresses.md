@@ -20,7 +20,7 @@ Moreover, seed addresses let you **preview and test the deliveries personalizati
 
 The seed addresses feature has the following benefits:
 
-* Random substitution of fields with data taken from recipient profiles: this lets you enter only the email address, for instance in the seed address section, and let Campaign automatically fill in the other fields form the profile (see [Use case: configuring the field substitution](../../delivery/using/use-case--configuring-the-field-substitution.md)).
+* Random substitution of fields with data taken from recipient profiles: this lets you enter only the email address, for instance in the seed address section, and let Campaign automatically fill in the other fields form the profile (see [Use case: configure the field substitution](../../delivery/using/use-case--configuring-the-field-substitution.md)).
 * When using a workflow with Datamanagement functionalities, the additional data processed in deliveries can be entered at seed address level to force values: this sidesteps random value substitution.
 * Seed addresses are automatically excluded from reports on the following delivery statistics: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
@@ -30,7 +30,7 @@ Seed addresses are added to the target of deliveries by being imported or by bei
 >
 >Seed addresses do not belong to the recipients table,they are created in a separate table. If you extend the recipients table with new data, you have to extend the seed addresses table as well with the same data. Otherwise, they extended fields will not be taken into account for seed addresses.
 >
->An example of how to extend the seed addresses table is presented in this section: [Use case: selecting seed addresses on criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+>An example of how to extend the seed addresses table is presented in this section: [Use case: select seed addresses on criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
 
 For direct mail deliveries, seed addresses are added during extraction and mixed in the output document.
 

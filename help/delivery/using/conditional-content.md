@@ -15,7 +15,7 @@ By configuring conditional content fields, you can create dynamic personalizatio
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#conditionnal-content-video)
 
 
-## Using conditions in an email {#using-conditions-in-an-email}
+## Use conditions in an email {#using-conditions-in-an-email}
 
 In the example below, you will learn how to create a message, dynamically personalized on the recipient's gender and interests.
 
@@ -70,7 +70,7 @@ Click **[!UICONTROL Preview]** and select a recipient to view the conditional co
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
-## Creating multilingual email {#creating-multilingual-email}
+## Create multilingual email {#creating-multilingual-email}
 
 In the example below, you will learn how to create a multilingual email. Content will display in one language or the other depending on the recipient's preferred language.
 
