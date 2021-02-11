@@ -186,7 +186,7 @@ The table below shows the changes in KPIs and sending logs statuses introduced b
 |--- |--- |--- | --- | --- |
 | Message is successfully relayed from Campaign to the Enhanced MTA | **[!UICONTROL Success]** percentage starts out at 100%| Sent | **[!UICONTROL Success]** percentage is not displayed (starts out at 0%) | Taken into account by the service provider |
 | Hard-bouncing messages get reported back from the Enhanced MTA | **[!UICONTROL Success]** percentage is decreased accordingly | Failed | No change in **[!UICONTROL Success]** percentage | Failed |
-| Soft-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Sent | No change in **[!UICONTROL Success]** percentage | Taken into account by the service provider (no change in status, but [error reason](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) is updated) |
+| Soft-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Sent | No change in **[!UICONTROL Success]** percentage | Taken into account by the service provider |
 | Soft-bouncing messages retries are successful | No change in **[!UICONTROL Success]** percentage | Sent | **[!UICONTROL Success]** percentage is increased accordingly | Sent |
 | Soft-bouncing messages retries fail | **[!UICONTROL Success]** percentage is decreased accordingly | Failed |  No change in **[!UICONTROL Success]** percentage  | Failed |
 
