@@ -21,7 +21,7 @@ The different hosting models are introduced [in this section](../../installation
 | Capability | Hosted | Hybrid | On-premise |  Details                                                                                                                                                                                                              |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configure Campaign server | On-demand | Available | Available | [Learn more](../../installation/using/the-server-configuration-file.md) |
-| Email BCC | On-demand | On-demand | Available |  [Learn more](../../installation/using/email-archiving.md)|
+| Email BCC | On-demand | On-demand | Available |  [Learn more](../../installation/using/email-bcc.md)|
 | Manage Message Center execution instance | On-demand | On-demand | Available | [Learn more](../../message-center/using/about-transactional-messaging.md) | 
 | Managing Mid-sourcing platform | On-demand | On-demand | Available | [Learn more](../../installation/using/mid-sourcing-server.md) |
 | Inbox rendering via Litmus | On-demand | On-demand | Available | [Learn more](../../delivery/using/inbox-rendering.md) |

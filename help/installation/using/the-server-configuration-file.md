@@ -1007,7 +1007,7 @@ Here are the different parameters of the **xtkJobs** node. This is the configura
 
 Here are the different parameters of the **archiving** node. This is the configuration of the executed archiving operations in the background.
 
-For additional information, refer to [Activating email archiving (on premise)](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-).
+For additional information, refer to [Activating email BCC (on premise)](../../installation/using/email-bcc.md#activating-email-archiving--on-premise-).
 
 <table> 
  <thead> 
@@ -1300,7 +1300,7 @@ In the **inMail > msgDump** node, configure the following parameters. This is th
 
 Here are the different parameters of the **interactiond** node. This is the configuration of the write daemon for inbound Interaction events.
 
-For additional information, refer to [Interaction - Data buffer](../../installation/using/interaction---data-buffer.md).
+For additional information, refer to [Interaction - Data buffer](../../installation/using/configuring-campaign-server.md#interaction-data-buffer).
 
 <table> 
  <thead> 

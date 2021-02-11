@@ -270,7 +270,7 @@ The Deliverability FAQ has been updated with more details on the "quotas met" er
 
 AMP for Email is now supported by new email providers: the related documentation has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
 
-The Email archiving section has been improved. [Read more](../../installation/using/email-archiving.md#recommendations-and-limitations)
+The Email archiving section has been improved. [Read more](../../installation/using/email-bcc.md#recommendations-and-limitations)
 
 ## January 2020 {#release-20-1}
 
@@ -503,7 +503,7 @@ Information was added about the use of seed addresses to protect your mailing li
 
 Key steps when creating and sending a delivery have been regrouped into a new section, with references to the various channels when needed. [Read more](../../delivery/using/steps-about-delivery-creation-steps.md)
 
-The [Email archiving](../../installation/using/email-archiving.md) section has been moved, reorganized and improved with clarified information:
+The [Email archiving](../../installation/using/email-bcc.md) section has been moved, reorganized and improved with clarified information:
 
 * Best practices have been added regarding emails per connection and BCC sending IPs parameters.
 

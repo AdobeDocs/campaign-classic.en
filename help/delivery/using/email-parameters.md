@@ -18,7 +18,7 @@ Adobe Campaign enables you to store emails on an external system through BCC by 
 
 Once the option activated, an exact copy of all sent messages will be kept for this delivery.
 
-For more information on Email BCC configuration and best practices, refer to [this section](../../installation/using/email-archiving.md).
+For more information on Email BCC configuration and best practices, refer to [this section](../../installation/using/email-bcc.md).
 
 >[!NOTE]
 >

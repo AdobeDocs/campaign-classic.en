@@ -97,7 +97,7 @@ For this type of attachment, apply the following configuration steps:
 
    >[!NOTE]
    >
-   >The source file must be created in LibreOffice. The instance must be configured in keeping with the prerequisites detailed in [this section](../../installation/using/before-starting.md).
+   >The source file must be created in LibreOffice.
 
 1. Specify the label if necessary.
 1. Select **[!UICONTROL Upload file on the server]**, and then click **[!UICONTROL Update on server]** to start the transfer.
