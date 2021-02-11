@@ -650,9 +650,9 @@ type: Documentation
                + [Configure Teradata](installation/using/configure-fda-teradata.md)
                + [Configure SAP HANA](installation/using/configure-fda-sap-hana.md)
           + [Remote access rights](installation/using/remote-database-access-rights.md)
-          + [Connecting to the database](installation/using/connecting-to-database.md)
-          + [Creating the data schema](installation/using/creating-data-schema.md)
-          + [Defining data mapping](installation/using/defining-data-mapping.md)
+          + [Connect to the database](installation/using/connecting-to-database.md)
+          + [Create the data schema](installation/using/creating-data-schema.md)
+          + [Define data mapping](installation/using/defining-data-mapping.md)
   + Appendices {#appendices}
        + [Server configuration file](installation/using/the-server-configuration-file.md)
        + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
