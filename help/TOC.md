@@ -596,14 +596,14 @@ type: Documentation
        + Hosting models{#hosting-models-lp}
           + [Campaign hosting models](installation/using/hosting-models.md)
           + [Capability matrix per model](installation/using/capability-matrix.md)
-       + Deployment types {#deployment-types-}
+       + Deployment types {#deployment-types}
           + [About deployment types](installation/using/about-deployment-types.md)
           + [Standalone deployment](installation/using/standalone-deployment.md)
           + [Standard deployment](installation/using/standard-deployment.md)
           + [Enterprise deployment](installation/using/enterprise-deployment.md)
           + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
           + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
-  + Install Campaign (on-premise)
+  + Install Campaign (on-premise){#install-campaign-on-prem}
        + On-premise deployment guidelines {#deployment-guidelines}
           + [Database server](installation/using/database.md)
           + [Application server](installation/using/application-server.md)
