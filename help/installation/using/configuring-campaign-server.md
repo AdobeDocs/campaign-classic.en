@@ -23,7 +23,7 @@ The page below details server-side configurations that can be performed to match
 * Relay execution of dynamic pages [here](#dynamic-page-security-and-relays)
 * Autorized external commands restriction [here](#restricting-authorized-external-commands)
 * HTTP headers management [here](#managing-http-headers)
-* Redundant tracking management [here](redundant-tracking)
+* Redundant tracking management [here](#redundant-tracking)
 * Public resource management [here](#managing-public-resources)
 * Workflow affinities for high availability [here](#high-availability-workflows-and-affinities)
 * Processes automatic restart [here](#automatic-process-restart)
