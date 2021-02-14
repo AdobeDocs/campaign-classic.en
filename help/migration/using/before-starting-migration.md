@@ -54,7 +54,7 @@ The migration procedure must be carried out on **all** servers and in a specific
     1. Migrate the redirection and tracking servers (Apache / IIS).
 
 * In the case of a **Cloud Messaging platform**, the execution servers are hosted at Adobe Campaign. Please contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). to coordinate migration between different servers.
-* In the case of a [Power Booster or Power Cluster platform](../../installation/using/power-booster-and)power-cluster.md), migration steps are:
+* In the case of a [Power Booster or Power Cluster platform](../../installation/using/power-booster-and-power-cluster.md), migration steps are:
 
     1. Migrate the redirection and tracking servers (Apache / IIS).
     1. Migrate the Power Booster/Cluster servers.
