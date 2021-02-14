@@ -796,11 +796,10 @@ type: Documentation
   + Migration overview {#migration-overview}
        + [About migration](migration/using/about-migration.md)
        + [Migration method](migration/using/migration-method.md)
-       + [Migration warnings](migration/using/migration-warnings.md)
   + Migration procedure {#migration-procedure}
-       + [Before starting migration](migration/using/before-starting-migration.md)
+       + [Prerequisites](migration/using/before-starting-migration.md)
+       + [Adapt your configuration](migration/using/configuring-your-platform.md)
        + [Test the migration](migration/using/testing-the-migration.md)
-       + [Configure your platform](migration/using/configuring-your-platform.md)
   + Migrating to Adobe Campaign 7 {#migrating-to-adobe-campaign-7}
        + [Prerequisites for migration to Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
        + [Campaign on Windows migration](migration/using/migrating-in-windows-for-adobe-campaign-7.md)

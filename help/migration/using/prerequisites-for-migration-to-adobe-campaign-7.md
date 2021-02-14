@@ -10,7 +10,7 @@ topic-tags: migrating-to-adobe-campaign-7
 
 # Prerequisites for migration to Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
 
-Before running any migration, consult the [Before starting migration](../../migration/using/before-starting-migration.md) and [Configuring your platform](../../migration/using/configuring-your-platform.md) sections.
+Before running any migration, consult [this section](../../migration/using/before-starting-migration.md) and [this page](../../migration/using/configuring-your-platform.md) sections.
 
 When migrating from v6.02 to Adobe Campaign v7, some files delivered beforehand are not delivered.
 

@@ -106,7 +106,7 @@ Once you have configured the restriction filters, you will access the **[!UICONT
 
 >[!NOTE]
 >
->For more information on the types of calculated fields, refer to [Creating calculated fields](../../platform/using/defining-filter-conditions.md#creating-calculated-fields).
+>For more information on the types of calculated fields, refer to [Create calculated fields](../../platform/using/defining-filter-conditions.md#creating-calculated-fields).
 
 Unchecked columns will not be shown in the data preview window.
 

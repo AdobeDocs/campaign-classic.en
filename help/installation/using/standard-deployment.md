@@ -83,7 +83,7 @@ The steps are as follows:
     
       ![](assets/install_create_new_connexion.png)
 
-      For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
+      For more on this, refer to [Create an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 
       or
     
@@ -93,7 +93,7 @@ The steps are as follows:
       nlserver config -addinstance:demo/tracking.campaign.net*
       ```    
     
-      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
+      For more on this, refer to [Create an instance](../../installation/using/command-lines.md#creating-an-instance).
 
    The name of the instance is the same as that of the application server.
 
@@ -111,7 +111,7 @@ The steps are as follows:
 
 1. In the **config-default.xml** and **config-demo.xml** files, enable the **web**, **trackinglogd** and **mta** modules.
 
-   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   For more on this, refer to [Enable processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and populate:
 
@@ -152,13 +152,13 @@ The steps are as follows:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-    * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+    * For Linux: [Launch the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+    * For Windows: [Launch the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Start the Adobe Campaign server.
 1. In the Adobe Campaign console, connect using the **admin** login without a password and launch the deployment wizard.
 
-   For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
+   For more on this, refer to [Deploy an instance](../../installation/using/deploying-an-instance.md).
 
    Configuration is identical to a standalone instance apart from the configuration of the tracking module.
 
