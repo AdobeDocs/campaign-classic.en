@@ -39,8 +39,8 @@ Before starting the migration, you must:
 
 >[!IMPORTANT]
 >
->   * You cannot change your database engine type (DBMS), but you can upgrade its version.
->   * It is not possible to move from a non-Unicode database to a Unicode database.
+>* You cannot change your database engine type (DBMS), but you can upgrade its version.
+>* It is not possible to move from a non-Unicode database to a Unicode database.
 
 ## Migration steps{#migration-steps}
 
