@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Troubleshooting
+title: Troubleshooting your integration
 description: Troubleshooting
 audience: integrations
 content-type: reference

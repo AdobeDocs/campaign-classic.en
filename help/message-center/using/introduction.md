@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Introduction
+title: Message templates and event types
 description: Introduction
 audience: message-center
 content-type: reference

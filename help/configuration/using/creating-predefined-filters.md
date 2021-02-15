@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating filters
-description: Creating filters
+title: Create predefined filters
+description: Create predefined filters
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table

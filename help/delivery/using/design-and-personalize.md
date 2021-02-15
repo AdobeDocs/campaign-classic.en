@@ -2,6 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Build personalized content
+description: Delivery best practices
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices

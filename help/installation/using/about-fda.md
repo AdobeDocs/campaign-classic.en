@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Accessing an external database
-description: Learn how to access and process data in an external database
+title: Get Started with Federated Data Access
+description: Learn how to get started with Federated Data Access
 audience: platform
 content-type: reference
 topic-tags: connectors

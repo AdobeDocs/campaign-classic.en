@@ -371,8 +371,8 @@ type: Documentation
 + Automate with Workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
-       + [About activities](workflow/using/about-activities.md)
-       + [Building a workflow](workflow/using/building-a-workflow.md)
+       + [Workflow activities](workflow/using/about-activities.md)
+       + [Build a workflow](workflow/using/building-a-workflow.md)
        + [Targeting data](workflow/using/targeting-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
        + [Workflow best practices](workflow/using/workflow-best-practices.md)
@@ -413,7 +413,7 @@ type: Documentation
        + [Wait](workflow/using/wait.md)
        + [Time constraint](workflow/using/time-constraint.md)
        + [Sub-workflow](workflow/using/sub-workflow.md)
-       + [Jump (start point and end point)](workflow/using/jump--start-point-and-end-point-.md)
+       + [Jump (start, end)](workflow/using/jump--start-point-and-end-point-.md)
        + [External signal](workflow/using/external-signal.md)
        + [Approval](workflow/using/approval.md)
        + [Alert](workflow/using/alert.md)

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Navtree configuration
+title: Configure Campaign Navtree
 description: Learn how to configure the navtree
 audience: configuration
 content-type: reference

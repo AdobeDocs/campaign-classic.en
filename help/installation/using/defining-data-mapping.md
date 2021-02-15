@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Accessing an external database
-description: Accessing an external database
+title: Defining data mapping
+description: Learn how to define data mapping
 audience: platform
 content-type: reference
 topic-tags: connectors

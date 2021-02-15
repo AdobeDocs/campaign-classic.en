@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Template publication
-description: Template publication
+title: Template unpublication
+description: Learn how to unpublish a message template
 audience: message-center
 content-type: reference
 topic-tags: message-templates

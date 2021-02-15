@@ -2,6 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Check before sending
+description: Delivery best practices
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices

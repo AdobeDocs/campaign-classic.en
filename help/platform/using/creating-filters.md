@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating filters
-description: Creating filters
+title: Create and save filters
+description: Learn how to create and save filters in Campaign
 audience: platform
 content-type: reference
 topic-tags: filtering-data

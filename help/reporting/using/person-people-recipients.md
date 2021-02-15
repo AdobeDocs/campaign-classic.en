@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Reports on deliveries
-description: Reports on deliveries
+title: People and recipients
+description: People, person and recipients in Campaign
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports

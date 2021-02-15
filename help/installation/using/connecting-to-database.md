@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Accessing an external database
-description: Learn how to connect to an external database
+title: Connecting to the external database
+description: Learn how to connect Campaign to the external database
 audience: platform
 content-type: reference
 topic-tags: connectors
 ---
 
-# Connecting to the database {#connecting-to-the-database}
+# Connecting to the external database {#connecting-to-the-database}
 
 To enable a connection to the external database, you must indicate the connection parameters, i.e. the targeted data source and the name of the table with data requiring loading.
 

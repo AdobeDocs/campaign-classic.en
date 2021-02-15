@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Accessing an external database
-description: Accessing an external database
+title: Creating the data schema
+description: Learn how to create the data schema
 audience: platform
 content-type: reference
 topic-tags: connectors
