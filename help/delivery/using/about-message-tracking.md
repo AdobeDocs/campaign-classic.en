@@ -82,7 +82,7 @@ This report provides statistics on opens, clicks and transactions and lets you t
 
 **URLs and click streams**
 
-This report shows the list of pages visited following a delivery. [Learn more](../../reporting/using/delivery-reports.m#urls-and-click-streams)
+This report shows the list of pages visited following a delivery. [Learn more](../../reporting/using/delivery-reports.md#urls-and-click-streams)
 
 **Person/people and recipients**
 
