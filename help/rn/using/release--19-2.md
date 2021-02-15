@@ -26,7 +26,7 @@ _23 December 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
-_February 07, 2020_
+_7 February 2020_
 
 **Improvements**
 
@@ -35,7 +35,7 @@ _February 07, 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-_December 02, 2019_
+_2 December 2019_
 
 **What's new?**
 

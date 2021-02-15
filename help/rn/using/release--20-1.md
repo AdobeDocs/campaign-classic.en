@@ -25,19 +25,19 @@ _23 December 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
-_May 6, 2020_
+_6 May 2020_
 
 * Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
-_March 13, 2020_
+_13 March 2020_
 
 * Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.1 - Build 9122{#release-20-1-build-9122}
 
-_February 17, 2020_
+_17 February 2020_
 
 **What's new?**
 
