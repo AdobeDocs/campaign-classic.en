@@ -48,7 +48,7 @@ To get the final audience and its additional data:
 
    ![](assets/acs_connect_query1.png)
 
-1. Add additional data from within the query. For more information, refer to the [Adding data](../../workflow/using/query.md#adding-data) section.
+1. Add additional data from within the query. For more information, refer to the [Add data](../../workflow/using/query.md#adding-data) section.
 
    This example shows how to add an aggregate to count how many deliveries a recipient received in a year.
 

@@ -97,7 +97,7 @@ You can select filtering criteria to exclude propositions based on the channel, 
 
 ![](assets/offer_typology_014.png)
 
-These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Creating a query on propositions](#creating-a-query-on-propositions) section.
+These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Create a query on propositions](#creating-a-query-on-propositions) section.
 
 * **Filter on the channel**
 

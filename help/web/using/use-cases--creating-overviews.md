@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: web-applications
 ---
 
-# Use cases: creating overviews{#use-cases-creating-overviews}
+# Use cases: create overviews{#use-cases-creating-overviews}
 
 In the following example, we will create overview-type Web applications to display all the Web applications in your database. Configure the following elements:
 
-* a filter on the folder (refer to [Adding a filter on a folder](#adding-a-filter-on-a-folder)),
-* a button for creating a new Web application (refer to [Adding a button to configure a new Web application](#adding-a-button-to-configure-a-new-web-application)),
-* detail display for each entry in the list (refer to [Adding detail to a list](#adding-detail-to-a-list)),
-* one filter per link editing tool (refer to [Creating a filter using a link editor](#creating-a-filter-using-a-link-editor)), 
-* a refresh link (refer to [Creating a refresh link](#creating-a-refresh-link)).
+* a filter on the folder (refer to [Add a filter on a folder](#adding-a-filter-on-a-folder)),
+* a button for creating a new Web application (refer to [Add a button to configure a new Web application](#adding-a-button-to-configure-a-new-web-application)),
+* detail display for each entry in the list (refer to [Add detail to a list](#adding-detail-to-a-list)),
+* one filter per link editing tool (refer to [Create a filter using a link editor](#creating-a-filter-using-a-link-editor)), 
+* a refresh link (refer to [Create a refresh link](#creating-a-refresh-link)).
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
 
@@ -153,7 +153,7 @@ When you configure a list in your overview, you can choose to display additional
 >
 >JavaScript libraries take five minutes to refresh on the server. You can restart the server to avoid waiting for this delay.
 
-## Filtering and updating the list {#filtering-and-updating-the-list}
+## Filter and update the list {#filtering-and-updating-the-list}
 
 In this section, you will create a filter for displaying the overview of Web applications created by a specific operator. This filter is created with a link editor. Once you have selected an operator, refresh the list to apply your filter; this requires creating a refresh link.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: appendices
 ---
 
-# The server configuration file{#the-server-configuration-file}
+# Campaign server configuration file{#the-server-configuration-file}
 
 The overall configuration of Adobe Campaign is defined in the **serverConf.xml** file, located in the **conf** directory of the installation directory. This section lists all the different nodes and parameters of the **serverConf.xml** file.
 
@@ -2118,7 +2118,7 @@ Here are the different parameters of the **repair** node. This is the configurat
 
 Here are the different parameters of the **securityZone** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+For additional information, refer to [Define security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 <table> 
  <thead> 
@@ -2216,7 +2216,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **securityZone > subNetwork** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+For additional information, refer to [Define security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 <table> 
  <thead> 
@@ -3314,7 +3314,7 @@ For additional information, refer to [Redundant tracking](../../installation/usi
 
 Here are the different parameters of the **web > spamCheck** node. This is the configuration the Email anti-spam scoring evaluation parameters.
 
-For additional information, refer to [Configuring SpamAssassin](../../installation/using/configuring-spamassassin.md).
+For additional information, refer to [Configure SpamAssassin](../../installation/using/configuring-spamassassin.md).
 
 <table> 
  <thead> 

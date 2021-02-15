@@ -28,7 +28,7 @@ To create a chart in a report, apply the following steps:
 
 1. Click the **[!UICONTROL Data]** tab to define the data source and the series to be calculated.
 
-   The statistics to be displayed in the chart can be calculated based on a query or on the context data, i.e. the data provided by the inbound transition of the current page (for more on this, refer to [Using context data](../../reporting/using/using-the-context.md#using-context-data)).
+   The statistics to be displayed in the chart can be calculated based on a query or on the context data, i.e. the data provided by the inbound transition of the current page (for more on this, refer to [Use context data](../../reporting/using/using-the-context.md#using-context-data)).
 
     * Click the **[!UICONTROL Filter data...]** link to define filtering criteria for the data in the database.
     

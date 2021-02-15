@@ -65,13 +65,13 @@ Start by creating a new delivery.
 
    >[!NOTE]
    >
-   >Sounds must be included in the application and defined when the service is created. Refer to [Configuring iOS external account](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
+   >Sounds must be included in the application and defined when the service is created. Refer to [Configure iOS external account](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configure a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
@@ -109,13 +109,13 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
    ![](assets/nmac_delivery_android_4.png)
 
-1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [customiz the emoticon list](../../delivery/using/defining-interactive-content.md)
+1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [customize the emoticon list](../../delivery/using/defining-interactive-content.md)
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configur a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configure a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 

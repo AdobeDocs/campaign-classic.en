@@ -334,17 +334,17 @@ The file extraction launches two operations: budget calculation and stock calcul
 
 ## Manage associated documents {#managing-associated-documents}
 
-You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](#adding-documents).
+You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Add documents](#adding-documents).
 
 >[!IMPORTANT]
 >
 >This mode is reserved for small documents.
 
-In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associate and structure resources linked via a delivery outline](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
->If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
+>If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Manage marketing resources](../../campaign/using/managing-marketing-resources.md).
 
 ### Add documents {#adding-documents}
 

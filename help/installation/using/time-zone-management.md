@@ -40,7 +40,7 @@ However, if you use the **SET TIME ZONE 0200;** command, the time-lag will alway
 
 ## Configuration {#configuration}
 
-The storage mode for dates and times is selected during database creation (refer to [Creating a new instance](#creating-a-new-instance)). In case of a migration, the hours linked to dates are converted into local dates and hours (refer to [Migration](#migration)).
+The storage mode for dates and times is selected during database creation (refer to [Create a new instance](#creating-a-new-instance)). In case of a migration, the hours linked to dates are converted into local dates and hours (refer to [Migration](#migration)).
 
 From a technical point of view, there are two ways of storing **Date+time** type information in the database:
 
@@ -91,5 +91,5 @@ Example of possible values:
 * Europe/London,
 * America/New_York, etc.
 
-  These values are taken from the tz (Olson) database. For more information, refer to [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+  These values are taken from the tz (Olson) database. For more information, refer to [this page](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 

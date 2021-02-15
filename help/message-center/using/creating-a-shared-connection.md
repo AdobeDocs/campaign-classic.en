@@ -112,11 +112,11 @@ In the tree of all the execution instances, create one folder per operator (**Fo
 
 ### Configure control instances {#configuring-control-instances}
 
-1. In the **Control 1** control instance, create one external account per execution instance, and enter the **mc1** operator in each external account. The **mc1** operator will thereafter be created on all the execution instances (refer to [Configuring execution instances](#configuring-execution-instances)).
+1. In the **Control 1** control instance, create one external account per execution instance, and enter the **mc1** operator in each external account. The **mc1** operator will thereafter be created on all the execution instances (refer to [Configure execution instances](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_1.png)
 
-1. In the **Control 2** control instance, create one external account per execution instance, and enter the **mc2** operator in each external account. The **mc2** operator will thereafter be created on all the execution instances (refer to [Configuring execution instances](#configuring-execution-instances)).
+1. In the **Control 2** control instance, create one external account per execution instance, and enter the **mc2** operator in each external account. The **mc2** operator will thereafter be created on all the execution instances (refer to [Configure execution instances](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_2.png)
 

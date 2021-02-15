@@ -16,14 +16,14 @@ Using the following process, the creation date of recipients in the database is 
 
 To carry out a **Creation date = max (Creation date)** type filter on the recipients, you must run a workflow to follow these steps:
 
-1. Retrieve database recipients using a basic query. For more on this step, refer to [Creating a query](../../workflow/using/query.md#creating-a-query).
+1. Retrieve database recipients using a basic query. For more on this step, refer to [Create a query](../../workflow/using/query.md#creating-a-query).
 1. Calculate the last known date a recipient was created using the result generated from the **max (Creation date)** aggregation function.
 1. Link each recipient to the aggregation function result in the same schema.
 1. Filter recipients using the aggregate via the edited schema.
 
 ![](assets/datamanagement_usecase_1.png)
 
-## Step 1: Calculating the aggregate result {#step-1--calculating-the-aggregate-result}
+## Step 1: Calculate the aggregate result {#step-1--calculating-the-aggregate-result}
 
 1. Create a query. Here, the goal is to calculate the last known creation date out of all of the recipients in the database. The query therefore does not contain a filter.
 1. Select **[!UICONTROL Add data]**.
@@ -38,7 +38,7 @@ To carry out a **Creation date = max (Creation date)** type filter on the recipi
 
    Leave the **[!UICONTROL Remove duplicate rows (DISTINCT)]** option checked.
 
-## Step 2: Linking the recipients and the aggregation function result {#step-2--linking-the-recipients-and-the-aggregation-function-result}
+## Step 2: Link the recipients and the aggregation function result {#step-2--linking-the-recipients-and-the-aggregation-function-result}
 
 To link the query dealing with recipients to the query carrying out the aggregation function calculation, you must use a schema edit activity.
 
@@ -53,7 +53,7 @@ To link the query dealing with recipients to the query carrying out the aggregat
 
 The aggregation result is therefore linked to every recipient.
 
-## Step 3: Filtering recipients using the aggregate. {#step-3--filtering-recipients-using-the-aggregate-}
+## Step 3: Filter recipients using the aggregate. {#step-3--filtering-recipients-using-the-aggregate-}
 
 Once the link has been established, the aggregate result and the recipients make up part of the same temporary schema. It is therefore possible to create a filter on the schema to compare the creation date of recipients and the last known creation date, represented by the aggregation function. This filter is carried out using a split activity.
 

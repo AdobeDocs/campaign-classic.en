@@ -20,13 +20,13 @@ To do this, .eml files corresponding to the sent emails are transferred to a rem
 
 * Email BCC capability is optional. Please check your license agreement.
 * For **hosted and hybrid architectures**, contact your account executive to activate it. The BCC email address of your choice must be provided to the Adobe team who will configure it for you.
-* For **on-premise installations**, follow the guidelines below to activate it - see the [Activating email BCC (on premise)](#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) sections.
+* For **on-premise installations**, follow the guidelines below to activate it - see the [Activate email BCC (on premise)](#activating-email-archiving--on-premise-) and [Configure the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) sections.
 * You can only use one BCC email address.
 * Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **[!UICONTROL Email BCC]** option. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
 * Only successfully sent emails are taken in account, bounces are not.
 * The email archiving system changed with Adobe Campaign 17.2 (build 8795). If you were already using email archiving, you must upgrade manually to the new email BCC system. For more on this, see the [Moving to the new Email BCC](#updated-email-archiving-system--bcc-) section.
 
-## Activating Email BCC (on premise) {#activating-email-archiving--on-premise-}
+## Activate Email BCC (on premise) {#activating-email-archiving--on-premise-}
 
 To activate BCC email archiving when Adobe Campaign is installed on premise, follow the steps below.
 
@@ -93,7 +93,7 @@ Once the local folder path is defined, add and edit the following elements as de
 
 Make sure you adjust these parameters according to the email sending throughput. For example, in a configuration where the MTA is sending 30,000 emails per hour, you can set the **pollDelay** parameter to 600, the **acquireLimit** parameter to 5000 and the **smtpNbConnection** parameter to 2. It means that using 2 SMTP connections, 5,000 emails will be sent to the BCC address every 10 minutes.
 
-## Configuring the BCC email address (on premise) {#configuring-the-bcc-email-address--on-premise-}
+## Configure the BCC email address (on premise) {#configuring-the-bcc-email-address--on-premise-}
 
 >[!IMPORTANT]
 >
@@ -116,7 +116,7 @@ In the **config- `<instance name>.xml`** file, use the following parameters to d
 >
 >Besides, the relay assigns a **[!UICONTROL Sent]** status to all emails, including those that are not sent. Therefore, all messages are archived.
 
-## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
+## Move to the new Email BCC {#updated-email-archiving-system--bcc-}
 
 >[!IMPORTANT]
 >

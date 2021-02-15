@@ -23,7 +23,7 @@ To find out how to insert and use personalization fields, refer to [About person
 >[!NOTE]
 >
 >* The sender's address will be used for replies by default.
->* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to the [Installation Guide](../../installation/using/deploying-an-instance.md).
+>* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to [this section](../../installation/using/deploying-an-instance.md).
 >* The sender's address is mandatory to allow an email to be sent (RFC standard).
 >* Adobe Campaign checks the syntax of email addresses entered.
 
@@ -59,11 +59,11 @@ You can also insert emoticons to your subject line with the **[!UICONTROL Insert
 
 The content of the message is defined in the lower section of the delivery configuration window.
 
-Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](#selecting-message-formats).
+Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Select message formats](#selecting-message-formats).
 
 * To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
-  If you are using the [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), refer to [Selecting a content template](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
+  If you are using the [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), refer to [Select a content template](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >
@@ -79,7 +79,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_18.png)
 
-  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](#adding-images).
+  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Add images](#adding-images).
 
   The last button in the toolbar lets you insert personalization fields.
 

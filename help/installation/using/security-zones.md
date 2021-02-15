@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: security-zones-configuration
 ---
 
-# Defining security zones {#defining-security-zones}
+# Define security zones {#defining-security-zones}
 
 ## About security zones {#about-security-zones}
 

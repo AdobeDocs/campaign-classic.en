@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: additional-configurations
 ---
 
-# Configuring Campaign server{#configuring-campaign-server}
+# Configure Campaign server{#configuring-campaign-server}
 
 Campaign Classic configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
@@ -41,7 +41,7 @@ See also [these pages](#related-topics)
 >For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP allowlist management or URL permissions).
 
 
-## Configuring Tomcat {#configuring-tomcat}
+## Configure Tomcat {#configuring-tomcat}
 
 ### Default port for Tomcat {#default-port-for-tomcat}
 
@@ -57,7 +57,7 @@ Then modify the port of the JSP relay pages. To do this, change the **serverConf
 
 ```
 
-### Mapping a folder in Tomcat {#mapping-a-folder-in-tomcat}
+### Map a folder in Tomcat {#mapping-a-folder-in-tomcat}
 
 To define customer specific settings, you can create a **user_contexts.xml** file in the **/tomcat-8/conf** folder, which also contains the **contexts.xml** file.
 
@@ -69,7 +69,7 @@ This file will contain the following type of information:
 
 If necessary, this operation can be reproduced on the server-side.
 
-## Personalizing delivery parameters {#personalizing-delivery-parameters}
+## Personalize delivery parameters {#personalizing-delivery-parameters}
 
 The delivery parameters are defined in the **serverConf.xml** configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
@@ -103,7 +103,7 @@ It is possible to control the population of child processes (maxSpareServers by 
 
 Also refer to [Email sending optimization](../../installation/using/email-deliverability.md#email-sending-optimization).
 
-### Managing outbound SMTP traffic with affinities {#managing-outbound-smtp-traffic-with-affinities}
+### Manage outbound SMTP traffic with affinities {#managing-outbound-smtp-traffic-with-affinities}
 
 >[!IMPORTANT]
 >
@@ -229,7 +229,7 @@ In this example, the **`<IP_addresses>`** value coincides with the list of IP ad
 >
 >Values shall be adapted according to your configuration and your network constraints, especially if specific configurations have been developed for your installation.
 
-## Restricting authorized external commands {#restricting-authorized-external-commands}
+## Restrict authorized external commands {#restricting-authorized-external-commands}
 
 >[!NOTE]
 >
@@ -278,7 +278,7 @@ This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign o
 >
 >You should not use a custom sudo. A standard sudo needs to be installed on the system.
 
-## Managing HTTP headers {#managing-http-headers}
+## Manage HTTP headers {#managing-http-headers}
 
 By default, all HTTP headers are not relayed. You can add specific headers in the replies sent by relay. To do this:
 
@@ -316,7 +316,7 @@ The **enableIf** property is optional (empty by default) and allows you to enabl
 
 To obtain the hostname of the computer, run the following command: **hostname -s**.
 
-## Managing public resources {#managing-public-resources}
+## Manage public resources {#managing-public-resources}
 
 Public resources are presented in [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
@@ -394,7 +394,7 @@ Each process configured in this file has a **processRestartTime** attribute. You
 >
 >Do not delete this attribute. All processes must be restarted every day.
 
-## Limiting uploadable files {#limiting-uploadable-files}
+## Limit uploadable files {#limiting-uploadable-files}
 
 A new attribute **uploadWhiteList** lets you restrict the file types available for upload on the Adobe Campaign server.
 
@@ -410,7 +410,7 @@ For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG
 >
 >In Internet Explorer, the complete file path must be verified by the regular expression.
 
-## Proxy connection configuration {#proxy-connection-configuration}
+## Configure poxy connection {#proxy-connection-configuration}
 
 You can connect the Campaign server to an external system through a proxy, using a **File Transfer** workflow activity for example. To achieve this, you need to configure the **proxyConfig** section of the **serverConf.xml** file through a specific command. All parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 

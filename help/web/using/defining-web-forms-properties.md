@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: web-forms
 ---
 
-# Defining web forms properties{#defining-web-forms-properties}
+# Define web forms properties{#defining-web-forms-properties}
 
 Web forms are fully configurable and personalizable to satisfy your requirements. The parameters must be entered in the properties window.
 
@@ -22,7 +22,7 @@ In the **[!UICONTROL General]** tab of the properties window, you can modify the
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-The form template is chosen during form creation. It cannot be changed later. For more on creating and managing form templates, refer to [Using a web form template](../../web/using/using-a-web-form-template.md).
+The form template is chosen during form creation. It cannot be changed later. For more on creating and managing form templates, refer to [Use a web form template](../../web/using/using-a-web-form-template.md).
 
 ## Form data storage {#form-data-storage}
 
@@ -30,7 +30,7 @@ The fields of Web forms are stored in the recipients table by default. You can c
 
 By default, answers are stored in the **Answer to a recipient form** table.
 
-## Setting up an error page {#setting-up-an-error-page}
+## Set up an error page {#setting-up-an-error-page}
 
 You can configure an error page: this page will be displayed in case of errors during form execution.
 
@@ -48,7 +48,7 @@ The content of the strings displayed is defined in the **[!UICONTROL Error page]
 
 The **[!UICONTROL Localization]** tab lets you select the design and display languages for the Web form.
 
-See [Translating a web form](../../web/using/translating-a-web-form.md).
+See [Translate a web form](../../web/using/translating-a-web-form.md).
 
 ## Form browsing and rendering {#form-browsing-and-rendering}
 
@@ -72,7 +72,7 @@ These elements are displayed at the bottom of each page. Their positions can be 
 
 The **[!UICONTROL Template]** field of the **[!UICONTROL Rendering]** tab lets you select a theme from those available.
 
-Themes are saved in the **[!UICONTROL Administration>Configuration>Form rendering]** node of the tree. See [Selecting the form rendering template](../../web/using/form-rendering.md#selecting-the-form-rendering-template)
+Themes are saved in the **[!UICONTROL Administration>Configuration>Form rendering]** node of the tree. See [Select the form rendering template](../../web/using/form-rendering.md#selecting-the-form-rendering-template)
 
 A sample rendering is displayed in the lower part of the properties window. The **[!UICONTROL Edit link]** icon lets you view the configuration for the selected theme.
 
@@ -80,13 +80,13 @@ A sample rendering is displayed in the lower part of the properties window. The 
 
 ## Texts in the form {#texts-in-the-form}
 
-The **[!UICONTROL Page]** tab lets you define the content of the form header and footer. See [Defining headers and footers](../../web/using/form-rendering.md#defining-headers-and-footers).
+The **[!UICONTROL Page]** tab lets you define the content of the form header and footer. See [Define headers and footers](../../web/using/form-rendering.md#defining-headers-and-footers).
 
-It also lets you manage translations. See [Translating a web form](../../web/using/translating-a-web-form.md).
+It also lets you manage translations. See [Translate a web form](../../web/using/translating-a-web-form.md).
 
 ## Accessibility of the form {#accessibility-of-the-form}
 
-A Web form is accessible to users if it is **[!UICONTROL Online]** and if the current date is within its validity period. The status of the form is modified during the publication stage (see [Publishing a form](../../web/using/publishing-a-web-form.md#publishing-a-form)). The status is displayed in the **Project** section of the **[!UICONTROL General]** tab of the properties window.
+A Web form is accessible to users if it is **[!UICONTROL Online]** and if the current date is within its validity period. The status of the form is modified during the publication stage (see [Publish a form](../../web/using/publishing-a-web-form.md#publishing-a-form)). The status is displayed in the **Project** section of the **[!UICONTROL General]** tab of the properties window.
 
 The validity period runs from the **[!UICONTROL Start]** date to the **[!UICONTROL End date]**. If no dates are specified in these fields, the form has permanent validity.
 

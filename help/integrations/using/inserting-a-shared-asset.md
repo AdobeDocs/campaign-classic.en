@@ -34,7 +34,7 @@ Assets shared from Adobe Experience Cloud can be used in your emails and landing
 
 1. In the selection window that opens, select an image, then confirm.
 
-   The available images either come from your Adobe Experience Cloud library, or your AEM Assets library, depending on how your Adobe Campaign instance is configured. Refer to the [Configuring access to Assets](../../integrations/using/configuring-access-to-assets.md) section.
+   The available images either come from your Adobe Experience Cloud library, or your AEM Assets library, depending on how your Adobe Campaign instance is configured. Refer to the [Configure access to Assets](../../integrations/using/configuring-access-to-assets.md) section.
 
    ![](assets/dam_shared_image_selection.png)
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Collecting data to analyze{#collecting-data-to-analyze}
+# Collect data to analyze{#collecting-data-to-analyze}
 
-The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Using the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
+The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Use the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
 
 This activity offers three different methods:
 
@@ -24,7 +24,7 @@ In all cases, data is collected via a **[!UICONTROL Query]** type activity.
 
 ![](assets/reporting_query_edit.png)
 
-This data selection mode is relevant when the data in the report needs to be collected or built using data in the database. In some cases, you can also select the data straight from the elements used in the report. For instance when inserting a chart, you can select the source data directly. For more on this, refer to [Using the context](../../reporting/using/using-the-context.md).
+This data selection mode is relevant when the data in the report needs to be collected or built using data in the database. In some cases, you can also select the data straight from the elements used in the report. For instance when inserting a chart, you can select the source data directly. For more on this, refer to [Use the context](../../reporting/using/using-the-context.md).
 
 ## Use the data from a schema {#using-the-data-from-a-schema}
 
@@ -68,7 +68,7 @@ The **[!UICONTROL Filter with the folder]** option lets you specify a folder and
 
 ![](assets/reporting_control_folder.png)
 
-### Limiting the amount of data collected {#limiting-the-amount-of-data-collected}
+### Limit the amount of data collected {#limiting-the-amount-of-data-collected}
 
 Configure the number of records to be extracted via the query using the result limiting options:
 

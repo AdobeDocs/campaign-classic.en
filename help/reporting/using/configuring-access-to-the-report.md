@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Configuring access to the report{#configuring-access-to-the-report}
+# Configure access to the report{#configuring-access-to-the-report}
 
 ## Report display context {#report-display-context}
 
@@ -54,7 +54,7 @@ The report can also be shared with specific operators or groups of operators add
 
 ![](assets/s_ncs_advuser_report_visibility_8.png)
 
-### Defining the filtering options {#defining-the-filtering-options}
+### Define the filtering options {#defining-the-filtering-options}
 
 The **[!UICONTROL Reports]** universe displays all available reports in the platform and for which the connected operator has an access right.
 
@@ -116,7 +116,7 @@ Specific settings enable you to control errors. The **_uuid** setting is found i
 
 To learn more about these settings, refer to the **Defning web form properties** section of the [Web forms](../../web/using/about-web-forms.md) chapter.
 
-## Publishing the report {#publishing-the-report}
+## Publish the report {#publishing-the-report}
 
 Publishing the report is mandatory in order to share them with other operators and display them in the list of available reports (also refer to [Report display context](#report-display-context)). This operation must be carried out again each time the report is changed.
 

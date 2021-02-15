@@ -16,7 +16,7 @@ You can use containers: these enable you to link several elements of a page and 
 
 You can configure the report layout at the root of the tree and overload it for each container. Pages are sorted into columns. Containers are also sorted into columns. Only the static and graphical items are sorted into cells.
 
-## Defining the options for each page {#defining-the-options-for-each-page}
+## Define the options for each page {#defining-the-options-for-each-page}
 
 You can use the options on each page of the report.
 
@@ -24,7 +24,7 @@ The **[!UICONTROL General]** tab lets you change the title of the page, as well 
 
 ![](assets/s_ncs_advuser_report_wizard_022.png)
 
-The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. For more on this, refer to [Adding a header and a footer](#adding-a-header-and-a-footer).
+The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. For more on this, refer to [Add a header and a footer](#adding-a-header-and-a-footer).
 
 The **[!UICONTROL Display settings]** options enable you to select the position of the control caption within a report page and to define the number of columns on the page. For more on page layout, refer to the **Item layout** section of [this section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
 

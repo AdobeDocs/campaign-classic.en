@@ -49,9 +49,9 @@ This type of configuration can handle a large number of recipients (500,000 to 1
 
 * Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section [Database access](../../installation/using/network-configuration.md#database-access).
 
-### Installing the application server {#installing-the-application-server}
+### Install the application server {#installing-the-application-server}
 
-Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to [Installing and configuring (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to [Install and configuring (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 Since the computer is not a tracking server, do not take the integration with the Web server into account.
 
@@ -62,7 +62,7 @@ In the following examples, the parameters of the instance are:
 * Language: English
 * Database: **campaign:demo@dbsrv**
 
-### Installing the two frontal servers {#installing-the-two-frontal-servers}
+### Install the two frontal servers {#installing-the-two-frontal-servers}
 
 The installation and configuration procedure is identical on both computers.
 

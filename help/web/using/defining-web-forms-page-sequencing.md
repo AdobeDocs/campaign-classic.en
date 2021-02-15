@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: web-forms
 ---
 
-# Defining web forms page sequencing{#defining-web-forms-page-sequencing}
+# Define web forms page sequencing{#defining-web-forms-page-sequencing}
 
 The form can contain one or more pages. It is built via a diagram which lets you sequence pages, testing, script execution, page jump and recording steps. Global diagram design mode is the same as for a Campaign workflow.
 
@@ -18,9 +18,9 @@ For each page, you can delete the **[!UICONTROL Next]** or **[!UICONTROL Previou
 
 ![](assets/s_ncs_admin_survey_no_next_page.png)
 
-You can replace these buttons with links. See [Inserting HTML content](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+You can replace these buttons with links. See [Insert HTML content](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
-## Inserting a jump {#inserting-a-jump}
+## Insert a jump {#inserting-a-jump}
 
 The **[!UICONTROL Jump]** object gives access to another page or another form when the user clicks **[!UICONTROL Next]**.
 
@@ -42,7 +42,7 @@ The destination can be:
 
   ![](assets/s_ncs_admin_survey_jump_comment.png)
 
-## Example: accessing another form according to a parameter of the URL {#example--accessing-another-form-according-to-a-parameter-of-the-url}
+## Example: access another form based on a URL parameter{#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
 In the following example, we want to configure a Web form which, when approved, will display another form designated by a parameter of the URL. To do this, apply the following steps:
 
@@ -50,7 +50,7 @@ In the following example, we want to configure a Web form which, when approved, 
 
    ![](assets/s_ncs_admin_survey_jump_sample1.png)
 
-1. In the form properties, add a parameter (**next**) stored in a local variable (**next**). Local variables are detailed in [Storing data in a local variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
+1. In the form properties, add a parameter (**next**) stored in a local variable (**next**). Local variables are detailed in [Store data in a local variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
 
    ![](assets/s_ncs_admin_survey_jump_sample2.png)
 
@@ -66,9 +66,9 @@ In the following example, we want to configure a Web form which, when approved, 
 
    When the user clicks the **[!UICONTROL Approve]** button, form **APP22** is displayed.
 
-## Inserting a link to another page of the form {#inserting-a-link-to-another-page-of-the-form}
+## Insert a link to another page of the form {#inserting-a-link-to-another-page-of-the-form}
 
-You can insert links to other pages of the form. To do this, add a **[!UICONTROL Link]** type static element to the page. For more on this, refer to [Inserting a link](../../web/using/static-elements-in-a-web-form.md#inserting-a-link).
+You can insert links to other pages of the form. To do this, add a **[!UICONTROL Link]** type static element to the page. For more on this, refer to [Insert a link](../../web/using/static-elements-in-a-web-form.md#inserting-a-link).
 
 ## Conditional page display {#conditional-page-display}
 
@@ -108,7 +108,7 @@ You can also personalize the page sequencing according to the initialization par
 
 The **[!UICONTROL Script]** object lets you enter a JavaScript script directly, for example to modify the value of a field, retrieve data from the database, or call an Adobe Campaign API.
 
-## Personalizing the end page {#personalizing-the-end-page}
+## Personalize the end page {#personalizing-the-end-page}
 
 You must place an end page at the end of the diagram. The end page is displayed when the user clicks the **[!UICONTROL Approve]** button in the Web form.
 

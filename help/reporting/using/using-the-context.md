@@ -10,11 +10,11 @@ topic-tags: creating-new-reports
 
 # Use the context{#using-the-context}
 
-When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Defining a direct filter on data](#defining-a-direct-filter-on-data)) or the report context (refer to [Using context data](#using-context-data)).
+When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Define a direct filter on data](#defining-a-direct-filter-on-data)) or the report context (refer to [Use context data](#using-context-data)).
 
-## Defining a direct filter on data {#defining-a-direct-filter-on-data}
+## Define a direct filter on data {#defining-a-direct-filter-on-data}
 
-### Filtering data {#filtering-data}
+### Filter data {#filtering-data}
 
 Using a **[!UICONTROL Query]** type activity isn't mandatory when building a report. Data can be filtered directly in the tables and charts that make up the report.
 
@@ -65,7 +65,7 @@ In the page that contains the table or the chart, the **[!UICONTROL Data]** tab 
 
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
-* The **[!UICONTROL New query]** option lets you build a query to collect data. For more on this, refer to [Defining a direct filter on data](#defining-a-direct-filter-on-data).
+* The **[!UICONTROL New query]** option lets you build a query to collect data. For more on this, refer to [Define a direct filter on data](#defining-a-direct-filter-on-data).
 * The **[!UICONTROL Context data]** option lets you use the input data: the context of the report coincides with the information contained in the inbound transition of the page that contains the chart or the table. This context may, for instance, contain data collected via a **[!UICONTROL Query]** activity placed before the **[!UICONTROL Page]** activity and for which you need to specify the table and the fields that the report concerns.
 
 For instance, in a query box, build the following query for the recipients:

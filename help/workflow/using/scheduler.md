@@ -18,7 +18,7 @@ The **[!UICONTROL Scheduler]** activity should be considered as a scheduled star
 
 * Do not schedule a workflow to run more than every 15 minutes as it may impede overall system performance and create blocks in the database.
 
-* Never use more than one **[!UICONTROL Scheduler]** activity per branch in a workflow. See [Using activities](../../workflow/using/workflow-best-practices.md#using-activities).
+* Never use more than one **[!UICONTROL Scheduler]** activity per branch in a workflow. See [Use activities](../../workflow/using/workflow-best-practices.md#using-activities).
 
 * Using a scheduler activity may lead to have several executions of a workflow running at the same time. For instance, you can have a scheduler triggering the workflow execution every hour, but sometimes the execution of the whole workflow takes more than an hour.
 
@@ -26,7 +26,7 @@ The **[!UICONTROL Scheduler]** activity should be considered as a scheduled star
 
 * Note that the transition can be activated several hours later if the workflow was executing a long-term task, such as an import, or if the wfserver module was stopped for a time. In this case, it may be necessary to restrict the execution of the task activated by the scheduler to a certain time range.
 
-## Configuring the Scheduler activity {#configuring-scheduler-activity}
+## Configure the Scheduler activity {#configuring-scheduler-activity}
 
 The scheduler defines the activation schedule of the transition. To configure it, double-click the graphical object, then click **[!UICONTROL Change...]** 
 

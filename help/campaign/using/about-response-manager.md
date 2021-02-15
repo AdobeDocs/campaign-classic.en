@@ -45,8 +45,8 @@ To define and create measuring hypotheses, apply the following process:
 
    or
 
-   Create one or more hypotheses on offers. Refer to [Creating a hypothesis on an offer](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-an-offer).
+   Create one or more hypotheses on offers. Refer to [Create a hypothesis on an offer](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-an-offer).
 
 1. Check hypothesis results. Refer to [Hypothesis tracking](../../campaign/using/hypothesis-tracking.md).
-1. Re-launch hypotheses if necessary. Refer to [Creating a hypothesis on the fly on a delivery](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery).
+1. Re-launch hypotheses if necessary. Refer to [Create a hypothesis on the fly on a delivery](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery).
 

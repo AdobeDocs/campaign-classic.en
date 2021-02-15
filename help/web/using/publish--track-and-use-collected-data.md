@@ -34,7 +34,7 @@ For each survey delivered, you can track the responses in the **[!UICONTROL Logs
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-Double-click a line to display the survey form as filled in by the respondent. You can browse the survey in full and access the answers in full. These can be exported in an external file. For more on this, refer to [Exporting answers](#exporting-answers).
+Double-click a line to display the survey form as filled in by the respondent. You can browse the survey in full and access the answers in full. These can be exported in an external file. For more on this, refer to [Export answers](#exporting-answers).
 
 The origin is indicated in the survey URL by adding the following characters:
 
@@ -70,7 +70,7 @@ Two other reports on Web surveys are available in the **[!UICONTROL Reports]** t
 
   ![](assets/s_ncs_admin_survey_report_2.png)
 
-## Exporting answers {#exporting-answers}
+## Export answers {#exporting-answers}
 
 Answers to a survey can be exported in an external file to be processed later. There are two ways of doing this:
 
@@ -154,7 +154,7 @@ Edit the split box to configure it:
 
 * Click **[!UICONTROL Finish]** then restart the workflow to approve targeting.
 
-## Standardizing data {#standardizing-data}
+## Standardize data {#standardizing-data}
 
 It's possible to set up standardization processes in Adobe Campaign for data collected using aliases. This lets you standardize the data stored in the database: to do this, define aliases in the itemized lists which contain the relevant information.
 

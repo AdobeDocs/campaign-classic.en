@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 ---
 
-# Defining data mapping {#defining-data-mapping}
+# Define data mapping {#defining-data-mapping}
 
 Adobe Campaign lets you define mapping on the data in an external table.
 

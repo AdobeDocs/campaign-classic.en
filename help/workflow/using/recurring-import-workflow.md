@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Setting up a recurring import workflow {#setting-up-a-recurring-import}
+# Set up a recurring import workflow {#setting-up-a-recurring-import}
 
 Using a workflow template is a best practice if you need to regularly import files with the same structure.
 

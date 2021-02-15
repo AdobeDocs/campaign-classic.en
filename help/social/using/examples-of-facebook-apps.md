@@ -14,13 +14,13 @@ When a user clicks the tab of a Facebook application, it is displayed in a space
 
 >[!NOTE]
 >
->It is also possible to integrate Adobe Campaign with a Facebook application developed by a partner. In this case, there is no need to use the Adobe Campaign web application to acquire Facebook profiles. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+>It is also possible to integrate Adobe Campaign with a Facebook application developed by a partner. In this case, there is no need to use the Adobe Campaign web application to acquire Facebook profiles. For more on this, refer to [Configure external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
 ![](assets/social_webapp_fb_000.png)
 
 >[!IMPORTANT]
 >
->Please comply with the configuration steps described in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
+>Please comply with the configuration steps described in [Create a Facebook application](../../social/using/creating-a-facebook-application.md).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ When a user clicks the tab of a Facebook application, it is displayed in a space
 
 The examples of Facebook type web applications detailed here are:
 
-* How to create a Facebook application in 7 steps. Refer to [Quick start: creating a Facebook application in 7 steps](#quick-start--creating-a-facebook-application-in-7-steps).
+* How to create a Facebook application in 7 steps. Refer to [Quick start: create a Facebook application in 7 steps](#quick-start--creating-a-facebook-application-in-7-steps).
 * How to forward settings to a Facebook application. Refer to [How to forward settings to a Facebook application?](#how-to-forward-settings-to-a-facebook-application-).
 * How to acquire fan data. Refer to [How to acquire fan data?](#how-to-acquire-fan-data-).
 
@@ -43,25 +43,25 @@ The following limitations are linked directly to Facebook:
 * You must build all your web applications in HTTPS.
 * A Facebook application displayed via a tab has a width of 810 pixels.
 
-## Quick start: creating a Facebook application in 7 steps {#quick-start--creating-a-facebook-application-in-7-steps}
+## Quick start: create a Facebook application in 7 steps {#quick-start--creating-a-facebook-application-in-7-steps}
 
 This example provides a step by step process of how to display an Adobe Campaign built application in Facebook. In this case, we want to create an application that lets you display the **Welcome** message when the user clicks the application tab (**App01**).
 
 To create this application, apply the following steps:
 
-1. Create an application on Facebook ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). For more on this, refer to: [Creating a Facebook application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
+1. Create an application on Facebook ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). For more on this, refer to: [Create a Facebook application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
 
    ![](assets/social_create_facebook_app_002.png)
 
-1. Create a **[!UICONTROL Facebook Connect]** type external account and enter the parameters of the Facebook application. For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+1. Create a **[!UICONTROL Facebook Connect]** type external account and enter the parameters of the Facebook application. For more on this, refer to: [Configure external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
    ![](assets/social_quick_start_2.png)
 
-1. Enter the **[!UICONTROL Terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. For more on this, refer to: [Entering the Terms of service and Privacy policy links](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links). 
+1. Enter the **[!UICONTROL Terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. For more on this, refer to: [Enter the Terms of service and Privacy policy links](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links). 
 
    ![](assets/social_quick_start_1.png)
 
-1. Create a Facebook type web application in Adobe Campaign. For more on this, refer to: [Creating a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application).
+1. Create a Facebook type web application in Adobe Campaign. For more on this, refer to: [Create a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application).
 
    ![](assets/social_webapp_005.png)
 
@@ -73,7 +73,7 @@ To create this application, apply the following steps:
 
    ![](assets/social_webapp_004.png)
 
-1. Configure your Facebook application so that it shows up as a tab on your Facebook page. For more on this, refer to: [Configuring Facebook tabs](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs).
+1. Configure your Facebook application so that it shows up as a tab on your Facebook page. For more on this, refer to: [Configure Facebook tabs](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs).
 
    ![](assets/social_quick_start_5.png)
 
@@ -87,7 +87,7 @@ Check that the tab of the **App01** application shows up on your Facebook page. 
 
 >[!IMPORTANT]
 >
->Comply with the configuration steps detailed in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
+>Comply with the configuration steps detailed in [Create a Facebook application](../../social/using/creating-a-facebook-application.md).
 
 In example 1, we personalized the display of the Facebook page according to the value in the **[!UICONTROL Fan of the page]** field. It is also possible to process the **[!UICONTROL Application settings]** field. This field lets you recover data contained in a link generated by Adobe Campaign, via Facebook.
 
@@ -119,7 +119,7 @@ To recreate this use case, we have created a web application made up of the foll
 
 >[!IMPORTANT]
 >
->Comply with the configuration steps detailed in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
+>Comply with the configuration steps detailed in [Create a Facebook application](../../social/using/creating-a-facebook-application.md).
 
 This example shows you how to get in touch with Facebook users and offer for them to share their profile information. Let's take the example of a company which wants to acquire prospects and organizes a competition on their Facebook page to attract them.
 
@@ -168,7 +168,7 @@ To sidestep the display error linked to Facebook, you also need to select **[!UI
 
 The **[!UICONTROL Access control]** activity lets you display the Facebook permission request page when the user enters the competition. If they agree to share their information, it is recovered during pre-loading. For more on this, refer to: [Pre-loading activity](#pre-loading-activity).
 
-If you previously entered the external account when creating the web application (refer to [Creating a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)) you don't need to edit the activity. If not, go to the **[!UICONTROL Application]** field and select the external account linked to the Facebook application. 
+If you previously entered the external account when creating the web application (refer to [Create a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)) you don't need to edit the activity. If not, go to the **[!UICONTROL Application]** field and select the external account linked to the Facebook application. 
 
 ![](assets/social_webapp_024.png)
 
@@ -290,9 +290,9 @@ The **[!UICONTROL Activities]** screen of a visitor's details page contains the 
 
   >[!NOTE]
   >
-  >In order for Adobe Campaign to collect a fan's check-ins, you need to click the **[!UICONTROL Subscribe]** button on the service configuration screen. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+  >In order for Adobe Campaign to collect a fan's check-ins, you need to click the **[!UICONTROL Subscribe]** button on the service configuration screen. For more on this, refer to [Configure external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
-## How to pre-load the fields of a form using Facebook profile data {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
+## How to pre-load the fields of a form using Facebook profile data {#how-to-pre-load-the-fields}
 
 The **[!UICONTROL Social Marketing]** application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates (**[!UICONTROL Page]** type activities) is detailed in [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
@@ -300,5 +300,5 @@ The **[!UICONTROL Social Marketing]** application also enables you to add a butt
 
 >[!NOTE]
 >
->Before you start using this function, you need to create a Facebook application and a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+>Before you start using this function, you need to create a Facebook application and a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [Configure external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 

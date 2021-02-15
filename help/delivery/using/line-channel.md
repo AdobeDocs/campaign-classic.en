@@ -102,7 +102,7 @@ A **Text message** LINE delivery is a message sent to recipients in text form.
 
 The configuration for this type of message is similar to the configuration of the **text** in an email. For more information, refer to this [page](../../delivery/using/defining-the-email-content.md#message-content).
 
-### Configuring an Image and link delivery {#configuring-an-image-and-link-delivery}
+### Configure an Image and link delivery {#configuring-an-image-and-link-delivery}
 
 An **Image and link** LINE delivery is a message sent to recipients in the form of an image that may contain one or multiple URLs.
 

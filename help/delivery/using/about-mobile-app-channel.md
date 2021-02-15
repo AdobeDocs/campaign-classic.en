@@ -48,7 +48,7 @@ You can define the application behavior for when the user activates the notifica
 
 The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [list of technical workflows](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign is compatible with both binary and HTTP/2 APNs. For more details on the configuration steps, refer to the [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
+Adobe Campaign is compatible with both binary and HTTP/2 APNs. For more details on the configuration steps, refer to the [Configure a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
 
 ## Data path {#data-path}
 

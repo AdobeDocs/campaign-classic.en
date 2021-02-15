@@ -18,7 +18,7 @@ When integrated into a targeting workflow, the **[!UICONTROL Local approval]** a
 >
 >To use this activity, you need to have purchased the Distributed Marketing module, which is a Campaign option. Please check your license agreement.
 
-For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Using the local approval activity](../../workflow/using/using-the-local-approval-activity.md).
+For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Use the local approval activity](../../workflow/using/using-the-local-approval-activity.md).
 
 Start by entering a label for the activity and the **[!UICONTROL Action to execute]** field:
 
@@ -44,7 +44,7 @@ The fields to be entered in case of a notification for target approval are:
 
 * **[!UICONTROL Distribution context]**: select the **[!UICONTROL Specified in the transition]** option if you are using a **[!UICONTROL Split]** type activity to limit the targeted population. In this case, the distribution template is entered in the split activity. If you are not limiting the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template in the **[!UICONTROL Data distribution]** field.
 
-  For more on creating a data distribution template, refer to [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
+  For more on creating a data distribution template, refer to [Limit the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Approval management]**
 
@@ -76,7 +76,7 @@ In case of a delivery feedback report, the following fields must be entered:
 * Select the **[!UICONTROL Specified in the transition]** option if the delivery was entered during a previous activity. Select **[!UICONTROL Explicit]** to specify the delivery in the local approval activity.
 * Select the delivery template and the object of the notification email. There is a default template: **[!UICONTROL Local approval notification]**.
 
-## Example: Approving a workflow delivery {#example--approving-a-workflow-delivery}
+## Example: Approve a workflow delivery {#example--approving-a-workflow-delivery}
 
 This example shows how to set up an approval process for a workflow delivery. For more information about creating delivery workflows, refer to the [Example: delivery workflow](../../workflow/using/delivery.md#example--delivery-workflow) section.
 

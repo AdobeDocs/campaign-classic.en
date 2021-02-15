@@ -20,16 +20,16 @@ When using the buttons in the toolbar, select the type of field you want to add.
 
 The following types of field are available:
 
-* Text/number input. See [Adding input fields](#adding-input-fields).
-* Drop-down list selection. See [Adding drop-down lists](#adding-drop-down-lists).
-* Multiple choice via checkboxes. See [Adding checkboxes](#adding-checkboxes).
-* Exclusive selection via radio buttons. See [Adding radio buttons](#adding-radio-buttons).
-* Vote in an option grid. See [Adding grids](#adding-grids). 
-* Numbers and dates. See [Adding dates and numbers](#adding-dates-and-numbers).
+* Text/number input. See [Add input fields](#adding-input-fields).
+* Drop-down list selection. See [Add drop-down lists](#adding-drop-down-lists).
+* Multiple choice via checkboxes. See [Add checkboxes](#adding-checkboxes).
+* Exclusive selection via radio buttons. See [Add radio buttons](#adding-radio-buttons).
+* Vote in an option grid. See [Add grids](#adding-grids). 
+* Numbers and dates. See [Add dates and numbers](#adding-dates-and-numbers).
 * Subscription/unsubscription to an information service. See [Subscription checkboxes](#subscription-checkboxes).
-* Captcha validation. See [Inserting a captcha](#inserting-a-captcha).
-* Download button. [Uploading a file](#uploading-a-file).
-* Hidden constant. See [Inserting a hidden constant](#inserting-a-hidden-constant).
+* Captcha validation. See [Insert a captcha](#inserting-a-captcha).
+* Download button. [Upload a file](#uploading-a-file).
+* Hidden constant. See [Insert a hidden constant](#inserting-a-hidden-constant).
 
 Please specify the response storage mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
@@ -67,9 +67,9 @@ Five different types of text fields can be inserted into a form page:
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **Number**: lets the user enter a number on one line. for more on this, refer to [Adding numbers](#adding-numbers).
+* **Number**: lets the user enter a number on one line. for more on this, refer to [Add numbers](#adding-numbers).
 
-  When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to [Defining control settings](../../web/using/form-rendering.md#defining-control-settings).
+  When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to [Define control settings](../../web/using/form-rendering.md#defining-control-settings).
 
 * **Password**: lets the user enter text on a single line. During text entry, the characters are replaced by periods:
 
@@ -115,7 +115,7 @@ The answer storage mode can be altered via the **[!UICONTROL Edit storage...]** 
 >
 >Storage modes are detailed in [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields)
 
-The **[!UICONTROL Advanced]** tab lets you define display parameters for the field (position of labels, alignment, etc.). See [Defining web forms layout](../../web/using/defining-web-forms-layout.md).
+The **[!UICONTROL Advanced]** tab lets you define display parameters for the field (position of labels, alignment, etc.). See [Define web forms layout](../../web/using/defining-web-forms-layout.md).
 
 ## Add drop-down lists {#adding-drop-down-lists}
 
@@ -201,7 +201,7 @@ To add a radio button to a form page, go to the **[!UICONTROL Selection controls
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-Radio buttons are configured in a similar way to checkboxes (see [Adding checkboxes](#adding-checkboxes)). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
+Radio buttons are configured in a similar way to checkboxes (see [Add checkboxes](#adding-checkboxes)). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
 ### Add a list of buttons {#add-a-list-of-buttons}
 
@@ -234,7 +234,7 @@ Only one option can be selected per grid line.
 
 >[!NOTE]
 >
->In our example, the label of the grid is hidden. To do this, go to the **[!UICONTROL Advanced]** tab, the **[!UICONTROL Label position]** display is defined as **[!UICONTROL Hidden]** . See [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
+>In our example, the label of the grid is hidden. To do this, go to the **[!UICONTROL Advanced]** tab, the **[!UICONTROL Label position]** display is defined as **[!UICONTROL Hidden]** . See [Define the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Add dates and numbers {#adding-dates-and-numbers}
 
@@ -260,7 +260,7 @@ Dates can be selected via a calendar or drop-down boxes. You can also enter them
 
 >[!NOTE]
 >
->By default, dates used in forms are entered via a calendar. For multilingual forms, please check that calendars are available in all the languages used. See [Translating a web form](../../web/using/translating-a-web-form.md).
+>By default, dates used in forms are entered via a calendar. For multilingual forms, please check that calendars are available in all the languages used. See [Translate a web form](../../web/using/translating-a-web-form.md).
 
 However in some cases, (for entering dates of birth, for instance) it may be easier to use drop-down lists. 
 
@@ -320,7 +320,7 @@ The user subscribes to the service by checking the relevant option.
 
 Examples of subscriptions and referrals are available in [this section](../../web/using/about-surveys.md).
 
-## Inserting a captcha {#inserting-a-captcha}
+## Insert a captcha {#inserting-a-captcha}
 
 The purpose of **captcha** tests is to prevent fraudulent use of your Web forms.
 
@@ -356,7 +356,7 @@ You can create an error message to display. To do that, use the **[!UICONTROL Pe
 >
 >Captchas are always 8 characters long. You cannot modify this value.
 
-## Uploading a file {#uploading-a-file}
+## Upload a file {#uploading-a-file}
 
 You can add an upload field to a page. This functionality can be useful for intranet file sharing, for instance. 
 
@@ -376,7 +376,7 @@ You can store the link to these files in a local variable or in a database field
 >* These implementations require the assistance of the Adobe Campaign Consulting team.
 >
 
-## Inserting a hidden constant {#inserting-a-hidden-constant}
+## Insert a hidden constant {#inserting-a-hidden-constant}
 
 When the user validates one of the pages of the form, you can set a specific value to a field of his profile or to a variable. 
 

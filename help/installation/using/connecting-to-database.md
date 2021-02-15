@@ -45,7 +45,7 @@ You can directly define a connection to an external database from workflow activ
 
 >[!CAUTION]
 >
->This type of configuration is not recommended but may be used periodically to collect data. Nevertheless, you should create an external account, as presented in the [Creating a shared connection](#creating-a-shared-connection) section.
+>This type of configuration is not recommended but may be used periodically to collect data. Nevertheless, you should create an external account, as presented in the [Create a shared connection](#creating-a-shared-connection) section.
 
 For example, in the query activity, the steps for creating a periodic connection to an external database are as follows:
 

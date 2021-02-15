@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Defining a conditional content{#defining-a-conditional-content}
+# Define a conditional content{#defining-a-conditional-content}
 
 You can condition the display of specific report items or pages.
 
-To make specific items conditional, adapt their visibility settings. For more on this, refer to [Conditioning item display](#conditioning-item-display).
+To make specific items conditional, adapt their visibility settings. For more on this, refer to [Condition item display](#conditioning-item-display).
 
-To make the display of one or more pages conditional, use a **[!UICONTROL Test]** type activity. For more on this, refer to [Conditioning page display](#conditioning-page-display).
+To make the display of one or more pages conditional, use a **[!UICONTROL Test]** type activity. For more on this, refer to [Condition page display](#conditioning-page-display).
 
-## Conditioning item display {#conditioning-item-display}
+## Condition item display {#conditioning-item-display}
 
 To make the display of part of a report conditional, you need to define its visibility conditions: if these aren't met, the items will not be displayed.
 
@@ -28,7 +28,7 @@ In the following example, the display condition depends on the language:
 
 ![](assets/reporting_display_condition.png)
 
-## Conditioning page display {#conditioning-page-display}
+## Condition page display {#conditioning-page-display}
 
 In the chart of a report, the **[!UICONTROL Test]** activity lets you change the sequence of pages depending on one or more conditions.
 

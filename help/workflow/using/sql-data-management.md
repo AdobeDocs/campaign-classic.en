@@ -20,7 +20,7 @@ Before configuring the activity, make sure the following prerequisites are fulfi
 * The Outbound schema must exist in the database and be linked to an FDA database. [Learn more](../../configuration/using/about-schema-reference.md).
 * The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. [Learn more](../../platform/using/access-management.md#named-rights).
 
-## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}
+## Configure the SQL Data Management activity {#configuring-the-sql-data-management-activity}
 
 1. Specify the activity **[!UICONTROL Label]**.
 1. Select the **[!UICONTROL External account]** to use, then select the **[!UICONTROL Outbound schema]** linked to this external account.

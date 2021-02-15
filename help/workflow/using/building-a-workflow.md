@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: -general-operation
 ---
 
-# Building a workflow {#building-a-workflow}
+# Build a workflow {#building-a-workflow}
 
 This section details the key principles and best practices to build a workflow in Campaign.
 
-* Create a workflow, see [Creating a new workflow](#creating-a-new-workflow)
-* Design the workflow diagram, see [Adding and linking activities](#adding-and-linking-activities)
-* Access parameters and properties of activities, see [Configuring activities](#configuring-activities)
+* Create a workflow, see [Create a new workflow](#creating-a-new-workflow)
+* Design the workflow diagram, see [Add and link activities](#adding-and-linking-activities)
+* Access parameters and properties of activities, see [Configure activities](#configuring-activities)
 * Design targeting workflows, see [Targeting workflows](#targeting-workflows)
 * Use workflows to execute a campaign, see [Campaign workflows](#campaign-workflows)
 * Access and create technical workflows, see [Technical workflows](#technical-workflows)
@@ -38,7 +38,7 @@ Enter a label and click **[!UICONTROL Save]**.
 >
 >When you modify the internal name of a workflow activity or the workflow itself, make sure that you save the workflow before closing it so that the new internal name is correctly taken into account.
 
-## Add and linking activities {#adding-and-linking-activities}
+## Add and link activities {#adding-and-linking-activities}
 
 You must now define the various activities and link them together in the diagram. At this stage of the configuration, we can see the diagram label and the workflow status (Editing in progress). The lower section of the window is used for editing the diagram only. It contains a toolbar, a palette of activities (on the left) and the diagram itself (on the right).
 
@@ -99,9 +99,9 @@ You can change the display and layout of the chart using the following elements:
 
 * **Image management**
 
-  You can customize the background image of the diagram as well as those related to the various activities. Refer to [Managing activity images](../../workflow/using/managing-activity-images.md).
+  You can customize the background image of the diagram as well as those related to the various activities. Refer to [Manage activity images](../../workflow/using/managing-activity-images.md).
 
-## Configuring activities {#configuring-activities}
+## Configure activities {#configuring-activities}
 
 Double-click an activity to configure it or right-click and select **[!UICONTROL Open...]**.
 
@@ -137,9 +137,9 @@ Targeting workflows within the framework of a campaign are stored with all campa
 
 Steps to create a targeting workflow are detailed in these sections:
 
-1. **Identify** data in the database -  See [Creating queries](../../workflow/using/targeting-data.md#creating-queries)
-1. **Prepare** data to meet delivery needs - See [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
-1. **Use** data to perform updates or within a delivery - See [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
+1. **Identify** data in the database -  See [Create queries](../../workflow/using/targeting-data.md#creating-queries)
+1. **Prepare** data to meet delivery needs - See [Enrich and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
+1. **Use** data to perform updates or within a delivery - See [Update the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
 
 The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data)
 

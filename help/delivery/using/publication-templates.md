@@ -80,7 +80,7 @@ The following publication options are available:
 
   >[!NOTE]
   >
-  >For more on content generation, refer to [Creating a content instance](../../delivery/using/using-a-content-template.md#creating-a-content-instance).
+  >For more on content generation, refer to [Create a content instance](../../delivery/using/using-a-content-template.md#creating-a-content-instance).
 
 ### Delivery {#delivery}
 

@@ -525,7 +525,7 @@ To implement **registerDeviceStatus** delegate, follow these steps:
 
 ## Variables {#variables}
 
-The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
+The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configure a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 
 * **In Android**:
 

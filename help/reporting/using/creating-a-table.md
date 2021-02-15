@@ -20,7 +20,7 @@ A **[!UICONTROL List with group]** type table lets you group data in the table a
 
 >[!CAUTION]
 >
->The **[!UICONTROL Page]** activity containing the table must be preceded by a **[!UICONTROL Query]** or **[!UICONTROL Script]** activity to collect the data to be analyzed in the report. For more on these activities, refer to [Collecting data to analyze](../../reporting/using/collecting-data-to-analyze.md) and [Script activity](../../reporting/using/advanced-functionalities.md#script-activity).
+>The **[!UICONTROL Page]** activity containing the table must be preceded by a **[!UICONTROL Query]** or **[!UICONTROL Script]** activity to collect the data to be analyzed in the report. For more on these activities, refer to [Collect data to analyze](../../reporting/using/collecting-data-to-analyze.md) and [Script activity](../../reporting/using/advanced-functionalities.md#script-activity).
 
 ### Operating principle {#operating-principle}
 
@@ -38,7 +38,7 @@ A full implementation example is provided here: [Use case: Create a report with 
 
 Please note the following steps to create a 'List with group' type table:
 
-1. Go to the report chart and place a **[!UICONTROL Query]** activity. Refer to [Collecting data to analyze](../../reporting/using/collecting-data-to-analyze.md). 
+1. Go to the report chart and place a **[!UICONTROL Query]** activity. Refer to [Collect data to analyze](../../reporting/using/collecting-data-to-analyze.md). 
 1. Fill in the source table and select the fields of the table which the statistics will concern. 
 1. Place a **[!UICONTROL Page]** activity in the chart. For more on this, refer to [Static elements](../../reporting/using/creating-a-new-report.md#static-elements). 
 1. Insert a **[!UICONTROL List with group]** type table into the page. 
@@ -47,7 +47,7 @@ Please note the following steps to create a 'List with group' type table:
    This step is mandatory if you want to recover the fields in the source table later and insert them into the cells of the table.
 
 1. Creating the table and its content.
-1. Display the finalized report in the **[!UICONTROL Preview]** tab. You can then publish the report and export it into a different format if necessary. For more on this, refer to [Exporting a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
+1. Display the finalized report in the **[!UICONTROL Preview]** tab. You can then publish the report and export it into a different format if necessary. For more on this, refer to [Export a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 ### Add lines and columns {#adding-lines-and-columns}
 
@@ -87,7 +87,7 @@ The width of the columns can be modified via the **[!UICONTROL Column format]** 
 
 ![](assets/s_advuser_ergo_listgroup_007.png)
 
-### Defining cell content {#defining-cell-content}
+### Define cell content {#defining-cell-content}
 
 To edit a cell of the table and define its content and format, go to the cell and use the right-click menu.
 
@@ -111,7 +111,7 @@ Use the **[!UICONTROL Expression]** menu entry to select the values to display.
 
   ![](assets/s_advuser_ergo_listgroup_008.png)
 
-### Defining cell format {#defining-cell-format}
+### Define cell format {#defining-cell-format}
 
 ![](assets/s_advuser_ergo_listgroup_017.png)
 
@@ -119,7 +119,7 @@ To define the cell format, the **[!UICONTROL Cell format...]** menu lets you acc
 
 These options enable you to personalize the final rendering of the report and make it easier to read information.
 
-Use the **[!UICONTROL Carriage return]** field when exporting data to Excel: select the **[!UICONTROL Yes]** value to force the carriage return. This value will be kept when exporting. For more on this, refer to [Exporting a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
+Use the **[!UICONTROL Carriage return]** field when exporting data to Excel: select the **[!UICONTROL Yes]** value to force the carriage return. This value will be kept when exporting. For more on this, refer to [Export a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 The **[!UICONTROL Cell format]** window lets you access the following tab:
 
@@ -439,7 +439,7 @@ We want to add a second query and a second page to display the detail of a deliv
 
    Your page is now configured.
 
-### Step 6 - Viewing the report {#step-6---viewing-the-report}
+### Step 6 - View the report {#step-6---viewing-the-report}
 
 To view the result of this configuration, click the **[!UICONTROL Preview]** tab and select the **[!UICONTROL Global]** option.
 

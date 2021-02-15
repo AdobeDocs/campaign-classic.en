@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Sending a birthday email{#sending-a-birthday-email}
+# Send a birthday email{#sending-a-birthday-email}
 
 ## Introduction {#introduction}
 
@@ -20,20 +20,20 @@ To set up this use case, we created the following targeting workflow:
 
 This (daily run) workflow selects all recipients that have their birthday on the current date.
 
-![](assets/do-not-localize/how-to-video.png) This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html) video.
+![](assets/do-not-localize/how-to-video.png) This use case can also be found in the form of a video. For more on this, refer to the [Create a workflow](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html) video.
 
-To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
+To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Build the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
 
 Then follow these steps:
 
-## Scheduling the sending {#configuring-the-scheduler}
+## Schedule the sending {#configuring-the-scheduler}
 
 1. First, add a **Scheduler** to trigger sending the delivery every day. In the example below, the delivery is created every day at 6am.
 
    ![](assets/recur_delivery2.png)
 
 
-## Identifying recipients whose birthday it is {#identifying-recipients-whose-birthday-it-is}
+## Identify recipients whose birthday it is {#identifying-recipients-whose-birthday-it-is}
 
 After configuring the **[!UICONTROL Scheduler]** activity so that the workflow starts every day, identify all of the recipients whose date of birth equals the current date.
 
@@ -91,7 +91,7 @@ To do this, apply the following steps:
 
 Link the result of the **[!UICONTROL Query]** activity to an **[!UICONTROL Email delivery]** activity to send an email to the list of all of your recipients on their birthday.
 
-## Including recipients born on February 29th (optional) {#including-recipients-born-on-february-29th--optional-}
+## Include recipients born on February 29th (optional) {#including-recipients-born-on-february-29th--optional-}
 
 If you want to include all recipients who were born on February 29th, this use case presents how to plan sending a recurring email to a list of recipients for their birthday - whether it is a leap year or not.
 
@@ -107,7 +107,7 @@ To set up this use case, we created the following targeting workflow:
 
 If the current year **is not a leap year** and the workflow is run on March 1st, we need to select all recipients that would have had their birthday yesterday (February 29th) and add them to the recipients list. In any other case no additional action is required.
 
-### Step 1: Selecting the recipients {#step-1--selecting-the-recipients}
+### Step 1: Select the recipients {#step-1--selecting-the-recipients}
 
 After configuring the **[!UICONTROL Scheduler]** activity so that the workflow starts every day, identify all of the recipients whose anniversary is the current day.
 
@@ -117,7 +117,7 @@ After configuring the **[!UICONTROL Scheduler]** activity so that the workflow s
 
 ![](assets/birthday-workflow_usecase_2.png)
 
-Selecting recipients whose birthday corresponds to the current date is presented in the [Identifying recipients whose birthday it is](#identifying-recipients-whose-birthday-it-is) section.
+Selecting recipients whose birthday corresponds to the current date is presented in the [Identify recipients whose birthday it is](#identifying-recipients-whose-birthday-it-is) section.
 
 ### Step 2: Select whether or not it is a leap year {#step-2--select-whether-or-not-it-is-a-leap-year}
 
@@ -199,6 +199,6 @@ Add a **Recurring delivery** activity based on the birthday email template that 
 >
 >For the workflows to execute, the technical workflows relating to the Campaign package must be started. For more on this, refer to the [List of technical workflows](../../workflow/using/about-technical-workflows.md) section.
 >
->If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) section.
+>If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choose the processes to be approved](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) section.
 
 ![](assets/birthday-workflow_usecase_1.png)

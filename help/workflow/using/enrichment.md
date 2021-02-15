@@ -46,14 +46,14 @@ There are four types of links:
 Use cases detailing the operating of Enrichment activities in their context are also available in these sections:
 
 * [Email enrichment with custom date fields](../../workflow/using/email-enrichment-with-custom-date-fields.md).
-* [Enriching data](../../workflow/using/enriching-data.md)
-* [Creating a summary list](../../workflow/using/creating-a-summary-list.md)
+* [Enrich data](../../workflow/using/enriching-data.md)
+* [Create a summary list](../../workflow/using/creating-a-summary-list.md)
 
 ## Add information {#adding-information}
 
 Use the **[!UICONTROL Enrichment]** activity to add columns to a work table: this activity can be used as a complement to a query activity.
 
-The configuration of additional columns is detailed in [Adding data](../../workflow/using/query.md#adding-data).
+The configuration of additional columns is detailed in [Add data](../../workflow/using/query.md#adding-data).
 
 The **[!UICONTROL Primary set]** field lets you select the inbound transition: the data of this activity's worktable will be enriched.
 
@@ -83,7 +83,7 @@ You can see that the data related to profile ages has been added:
 
 The matching schema has also been enriched.
 
-## Managing additional data {#managing-additional-data}
+## Manage additional data {#managing-additional-data}
 
 Deselect the **[!UICONTROL Keep all additional data from the main set]** option if you do not want to keep the previously defined additional data. In this case, only the additional columns that were selected in the enrichment activity will be added to the outgoing work table. The additional information added to the activities upstream will not be saved.
 
@@ -142,7 +142,7 @@ You can use one or more reconciliation criteria.
 
 If several join conditions are specified, they must ALL be verified so that the data can be linked together.
 
-## Inserting an offer proposition {#inserting-an-offer-proposition}
+## Insert an offer proposition {#inserting-an-offer-proposition}
 
 The enrichment activity lets you add offers or links to offers for delivery recipients.
 
@@ -177,7 +177,7 @@ After configuring your query (refer to this [section](../../workflow/using/query
 
 To specify offer propositions, you can also choose to reference a link to an offer. For more on this, refer to the following section [Referencing a link to an offer](#referencing-a-link-to-an-offer).
 
-## Referencing a link to an offer {#referencing-a-link-to-an-offer}
+## Reference a link to an offer {#referencing-a-link-to-an-offer}
 
 You can also reference a link to an offer in an enrichment activity.
 
@@ -199,7 +199,7 @@ To do this:
    >
    >The number of propositions available for the preview depends on the configuration carried out in the delivery.
 
-## Storing offer rankings and weights {#storing-offer-rankings-and-weights}
+## Store offer rankings and weights {#storing-offer-rankings-and-weights}
 
 By default, when an **enrichment** activity is used to deliver offers, their rankings and their weights are not stored in the proposition table.
 

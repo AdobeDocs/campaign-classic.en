@@ -56,7 +56,7 @@ yum install java-1.8.0-openjdk
 
 In Linux, OpenSSL must be installed. The versions supported by Adobe Campaign are **OpenSSL 1.0.1** and **OpenSSL 0.9.8**. Sub-versions 0.9.8g to 0.9.8o are accepted.
 
-## Exporting reports {#exporting-reports}
+## Export reports {#exporting-reports}
 
 Adobe Campaign lets you export platform reports in Microsoft Excel and Adobe PDF format. For the Microsoft Excel format, Adobe Campaign uses **LibreOffice**. For the Adobe PDF format, Adobe Campaign uses the **PhantomJS** converter. PhantomJs is included in the factory package and LibreOffice must be installed on the machine(s) which the Adobe Campaign application server is executed on (**nlserver web** process).
 
@@ -74,4 +74,4 @@ The minimum supported version is: **3.4**
 
 SpamAssassin requires a HTTP internet access (tcp/80).
 
-Installation and configuration stages for SpamAssassin are presented in [Configuring SpamAssassin](../../installation/using/configuring-spamassassin.md).
+Installation and configuration stages for SpamAssassin are presented in [Configure SpamAssassin](../../installation/using/configuring-spamassassin.md).

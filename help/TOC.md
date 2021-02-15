@@ -110,10 +110,10 @@ type: Documentation
        + [Track and monitor](delivery/using/track-and-monitor.md)                    
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
        + [Get started with deliveries](delivery/using/steps-about-delivery-creation-steps.md)
-       + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
-       + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
-       + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
-       + [Sending the delivery](delivery/using/steps-sending-the-delivery.md)
+       + [Create and identify the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
+       + [Define the target population](delivery/using/steps-defining-the-target-population.md)
+       + [Validate the delivery](delivery/using/steps-validating-the-delivery.md)
+       + [Send the delivery](delivery/using/steps-sending-the-delivery.md)
   + Send emails {#sending-emails}
        + [About email channel](delivery/using/about-email-channel.md)
        + [Create an email delivery](delivery/using/creating-an-email-delivery.md)
@@ -127,9 +127,9 @@ type: Documentation
        + [Attach files](delivery/using/attaching-files.md)
   + Send messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
-       + [LINE channel](delivery/using/line-channel.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
        + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
+       + [LINE channel](delivery/using/line-channel.md)
   + Send push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrate Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -212,7 +212,7 @@ type: Documentation
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
-       + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
+       + [Use case: create content management](delivery/using/use-case--creating-content-management.md)
        + [Data schemas](delivery/using/data-schemas.md)
        + [Input forms](delivery/using/input-forms.md)
        + [Formatting](delivery/using/formatting.md)
@@ -631,8 +631,8 @@ type: Documentation
        + [Install the client console](installation/using/installing-the-client-console.md)
        + Connect with an Adobe ID {#connecting-via-an-adobe-id}
           + [About [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
-          + [Configuring [!DNL IMS]](integrations/using/configuring-ims.md)
-          + [Implementing [!DNL IMS]](integrations/using/implementing-ims.md)
+          + [Configure [!DNL IMS]](integrations/using/configuring-ims.md)
+          + [Implement [!DNL IMS]](integrations/using/implementing-ims.md)
           + [IMS troubleshooting](integrations/using/ims-troubleshooting.md)
        + [Connect through LDAP](installation/using/connecting-through-ldap.md)
   + Connect Campaign to external systems {#accessing-external-systems}

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: -general-operation
 ---
 
-# Defining approvals {#defining-approvals}
+# Define approvals {#defining-approvals}
 
 Approvals enable operators to make decisions governing a workflow or to confirm its continued execution.
 
@@ -30,7 +30,7 @@ An operator can respond in one of two ways: validating using the Web page linked
 >
 >Once the response is saved it may not be modified.
 
-## Sending emails {#sending-emails}
+## Send emails {#sending-emails}
 
 It is possible to receive an approval message containing a link to a Web page via which it is possible to respond. For the targeted operator to receive an approval email, the operator email address must be complete. If this is not the case, the operator must use the console to respond
 
@@ -99,7 +99,7 @@ Multiple approval is a mechanism enabling all approval operators to respond. A t
 
 Multiple approval is useful for vote or survey mechanisms. You can count answers and process their result after a given period by adding a deadline.
 
-## Required rights {#required-rights}
+## Required permissions {#required-rights}
 
 The operators in a group must at least have the following rights in order to be able to respond to an approval request:
 

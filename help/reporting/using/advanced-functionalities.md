@@ -22,7 +22,7 @@ As a technical user, in addition to [general properties](../../reporting/using/p
 
 * Add variables to be used in the context of the report. [Learn more](#adding-variables)
 
-## Working with scripts {#adding-a-script}
+## Work with scripts {#adding-a-script}
 
 ### Reference external scripts {#external-script}
 
@@ -44,7 +44,7 @@ For normal execution on the client side, the referenced scripts must be written 
 
 When [designing your report](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), use the **[!UICONTROL Script]** activity to process data and easily create complex queries that don't enable SQL language. You can directly enter your query in the script window.
 
-The **[!UICONTROL Texts]** tab enables you to define text strings. They may then be used with the following syntax: **$(Identifier)**. For more on using texts, refer to [Adding a header and a footer](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+The **[!UICONTROL Texts]** tab enables you to define text strings. They may then be used with the following syntax: **$(Identifier)**. For more on using texts, refer to [Add a header and a footer](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 >[!CAUTION]
 >
@@ -109,6 +109,6 @@ In the video example below, you will learn how to  add a "_type" parameter to cr
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://helpx.adobe.com/campaign/classic/how-to/add-url-parameter-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/business-practitioners/explevel/intermediate/applaunch/how-to-4/collection.ccx.js&ref=helpx.adobe.com)
 
 
-## Calling up another report {#calling-up-another-report}
+## Call another report {#calling-up-another-report}
 
 A **Jump** activity is like a transition without an arrow: it lets you go from one activity to another or access another report.

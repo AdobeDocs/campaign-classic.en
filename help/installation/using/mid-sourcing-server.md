@@ -30,9 +30,9 @@ Installing a mid-sourcing server follows the same process as installing a server
 
 The following procedure details a configuration using a single mid-sourcing server. It is also possible to use multiple servers. Likewise it is also possible to send certain messages (such as workflow notifications, for example) from an internal configuration.
 
-### Installing and configuring the application server for mid-sourcing deployment {#installing-and-configuring-the-application-server-for-mid-sourcing-deployment}
+### Install and configure the application server for mid-sourcing deployment {#installing-and-configuring-the-application-server-for-mid-sourcing-deployment}
 
-The installation procedure is identical to that of standalone instance. Refer to [Installing and configuring (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+The installation procedure is identical to that of standalone instance. Refer to [Install and configure (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 However, you must apply the following:
 
@@ -54,7 +54,7 @@ However, you must apply the following:
   </serverconf>
   ```
 
-  For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+  For more on this, refer to [Enable processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 * Steps **6**, **9** and **10** aren't necessary.
 * During steps **12** and **13**, you need to indicate the 8080 port in the connection URL (since the console communicates with Tomcat directly, not via the Web server). The URL becomes [http://console.campaign.net:8080](http://console.campaign.net). During step **13**, select the **[!UICONTROL Issue towards Mid-sourcing]** package as well as those to install.
@@ -65,7 +65,7 @@ However, you must apply the following:
   >
   >The default routing of technical deliveries is automatically replaced with email routing via Mid-sourcing.
 
-### Installing and configuring the mid-sourcing server {#installing-and-configuring-the-mid-sourcing-server}
+### Install and configuring the mid-sourcing server {#installing-and-configuring-the-mid-sourcing-server}
 
 From the client console, locate the **Email routing using mid-sourcing** mid-sourcing account (in the **/Administration/External accounts/** folder). Populate the **URL of server**, **account**, **password** and **Mirror page URL** settings with the information provided by the server provider hosting the mid-sourcing server. Test the connection.
 
@@ -73,7 +73,7 @@ From the client console, locate the **Email routing using mid-sourcing** mid-sou
 >
 >The **mid-sourcingEmitter** option creates two **Mid-sourcing** workflows. It is a process that runs by default every 1 hour and 20 minutes and collects delivery information on the mid-sourcing server.
 
-## Deploying a mid-sourcing server {#deploying-a-mid-sourcing-server}
+## Deploy a mid-sourcing server {#deploying-a-mid-sourcing-server}
 
 1. Installing the application server:
 
@@ -91,7 +91,7 @@ From the client console, locate the **Email routing using mid-sourcing** mid-sou
 
    The **Mid-sourcing platform** option creates the default folders for storing the deliveries submitted and the default operator performing the submissions.
 
-## Multiplexing the mid-sourcing server {#multiplexing-the-mid-sourcing-server}
+## Mid-sourcing server multiplexing{#multiplexing-the-mid-sourcing-server}
 
 >[!CAUTION]
 >
@@ -136,9 +136,9 @@ The '@name' attribute must respect the following rules:
 
 You must stop and then restart the server in order for the modification to be taken into account.
 
-## Configuring tracking on a mid-sourcing server {#configuring-tracking-on-a-mid-sourcing-server}
+## Configure tracking on a mid-sourcing server {#configuring-tracking-on-a-mid-sourcing-server}
 
-**Configuring the mid-sourcing server**
+**Configure the mid-sourcing server**
 
 1. Go to 'operators' and select the operator **[!UICONTROL mid]**.
 1. In the **[!UICONTROL Frontal servers]** tab, enter the tracking server connection parameters.
@@ -154,7 +154,7 @@ You must stop and then restart the server in order for the modification to be ta
 
    If you choose the **[!UICONTROL Tracking server(s)]** option, the images will be copied on the mid-sourcing server.
 
-**Configuring the customer platform**
+**Configure the customer platform**
 
 1. Go to the external mid-sourcing routing account.
 1. In the **[!UICONTROL Mid-Sourcing]** tab, specify the mid-sourcing server connection parameters.

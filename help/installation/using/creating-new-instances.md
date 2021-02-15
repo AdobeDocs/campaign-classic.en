@@ -20,5 +20,5 @@ To do this, log on to an existing database and apply the following steps:
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
-   Specify the parameters of the new instance. For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
+   Specify the parameters of the new instance. For more on this, refer to [Create an instance and log on](../../installation/using/creating-an-instance-and-logging-on.md).
 

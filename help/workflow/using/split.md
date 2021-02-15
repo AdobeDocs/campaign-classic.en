@@ -14,7 +14,7 @@ A **Split**-type activity lets you split a target into several subsets. The targ
 
 This activity does not trigger a union of inbound populations. If several transitions land in one split activity, we recommend inserting a **[!UICONTROL Union]** activity in front of it.
 
-For an example of the split activity being used, refer to [Creating subsets using the Split activity](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
+For an example of the split activity being used, refer to [Create subsets using the Split activity](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
 
 An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](../../workflow/using/cross-channel-delivery-workflow.md).
 
@@ -39,7 +39,7 @@ To create a subset:
 
 1. You can specify the maximum number of records to be extracted from the target to create the subset. To do this, check the **[!UICONTROL Limit the selected records]** option and click the **[!UICONTROL Edit...]** link.
 
-   A wizard lets you choose the selection mode for records of this subset. The steps can be found in [Limiting the number of subset records](#limiting-the-number-of-subset-records).
+   A wizard lets you choose the selection mode for records of this subset. The steps can be found in [Limit the number of subset records](#limiting-the-number-of-subset-records).
 
    ![](assets/s_user_segmentation_partage4.png)
 
@@ -59,7 +59,7 @@ To create a subset:
 
    If it is completed, the segment code of each subset is automatically stored in an additional column. This column will be accessible in the personalization fields at delivery level.
 
-## Limiting the number of subset records {#limiting-the-number-of-subset-records}
+## Limit the number of subset records {#limiting-the-number-of-subset-records}
 
 If you do not wish to use the entire population contained in a subset, you can limit the number of records it will contain.
 
@@ -90,13 +90,13 @@ If you do not wish to use the entire population contained in a subset, you can l
     
     * **[!UICONTROL Size (as a % of the segment)]**: a percentage of records relating only to the subsets and not to the initial population.
     * **[!UICONTROL Maximum size]**: a maximum number of records.
-    * **[!UICONTROL By data grouping]**: you can set a limit on the number of records depending on the values in a specified field of the inbound population. For more on this subject, refer to [Limiting the number of subset records by data grouping](#limiting-the-number-of-subset-records-by-data-grouping).
-    * **[!UICONTROL By data grouping (in %)]**: you can set a limit on the number of records depending on the values in a specified field of the inbound population using a percentage. For more on this subject, refer to [Limiting the number of subset records by data grouping](#limiting-the-number-of-subset-records-by-data-grouping).
-    * **[!UICONTROL By data distribution]**: If your grouping fields have too many values or if you want to avoid entering the values again for each new split activity, Adobe Campaign lets you configure a **[!UICONTROL By data distribution]** limitation (optional Distributed Marketing module). For more on this, refer to [Limiting the number of subset records per data distribution](#limiting-the-number-of-subset-records-per-data-distribution).
+    * **[!UICONTROL By data grouping]**: you can set a limit on the number of records depending on the values in a specified field of the inbound population. For more on this subject, refer to [Limit the number of subset records by data grouping](#limiting-the-number-of-subset-records-by-data-grouping).
+    * **[!UICONTROL By data grouping (in %)]**: you can set a limit on the number of records depending on the values in a specified field of the inbound population using a percentage. For more on this subject, refer to [Limit the number of subset records by data grouping](#limiting-the-number-of-subset-records-by-data-grouping).
+    * **[!UICONTROL By data distribution]**: If your grouping fields have too many values or if you want to avoid entering the values again for each new split activity, Adobe Campaign lets you configure a **[!UICONTROL By data distribution]** limitation (optional Distributed Marketing module). For more on this, refer to [Limit the number of subset records per data distribution](#limiting-the-number-of-subset-records-per-data-distribution).
 
 1. Click **[!UICONTROL Finish]** to approve the record selection criteria. The defined configuration is then displayed in the middle window of the editor.
 
-## Limiting the number of subset records by data grouping {#limiting-the-number-of-subset-records-by-data-grouping}
+## Limit the number of subset records by data grouping {#limiting-the-number-of-subset-records-by-data-grouping}
 
 You can limit the number of records by data grouping. This limit can be carried out using a fixed value or a percentage.
 
@@ -116,11 +116,11 @@ For instance, if you select the **[!UICONTROL Language]** field as a group field
 
 1. Click **[!UICONTROL Finish]** to approve the limitation and return to editing the split activity.
 
-## Limiting the number of subset records per data distribution {#limiting-the-number-of-subset-records-per-data-distribution}
+## Limit the number of subset records per data distribution {#limiting-the-number-of-subset-records-per-data-distribution}
 
-If your grouping fields contain too large a number of values or if you want to avoid resetting values for every new split activity, Adobe Campaign lets you create a limitation per data distribution. When selecting data limitation values (for more on this subject see the [Creating subsets](#creating-subsets) section), select the **[!UICONTROL By data distribution]** option and select a template from the drop-down menu. Creating a data distribution template is demonstrated below.
+If your grouping fields contain too large a number of values or if you want to avoid resetting values for every new split activity, Adobe Campaign lets you create a limitation per data distribution. When selecting data limitation values (for more on this subject see the [Create subsets](#creating-subsets) section), select the **[!UICONTROL By data distribution]** option and select a template from the drop-down menu. Creating a data distribution template is demonstrated below.
 
-For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Using the local approval activity](../../workflow/using/using-the-local-approval-activity.md).
+For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Use the local approval activity](../../workflow/using/using-the-local-approval-activity.md).
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 

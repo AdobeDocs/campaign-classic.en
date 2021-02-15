@@ -114,7 +114,7 @@ The steps for installing the first server are:
     
       ![](assets/install_create_new_connexion.png)
 
-      For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
+      For more on this, refer to [Create an instance and log on](../../installation/using/creating-an-instance-and-logging-on.md).
 
       or
     
@@ -124,7 +124,7 @@ The steps for installing the first server are:
       nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
       ```    
     
-      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
+      For more on this, refer to [Create an instance](../../installation/using/command-lines.md#creating-an-instance).
 
 1. Edit the **config-demo.xml** file (created via the previous command and located next to the **config-default.xml** file), check that the **mta** (delivery), **wfserver** (workflow), **inMail** (rebound mails) and **stat** (statistics) processes are enabled, then configure the address of the **app** statistics server:
 

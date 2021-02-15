@@ -361,7 +361,7 @@ This example involves the following steps:
 
 1. You may then use this content template in your deliveries.
 
-   For more on this, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
+   For more on this, refer to [Use a content template](../../delivery/using/using-a-content-template.md).
 
 ## XSL Stylesheets {#xsl-stylesheets}
 

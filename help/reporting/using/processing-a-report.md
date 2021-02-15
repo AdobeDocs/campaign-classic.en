@@ -10,13 +10,13 @@ topic-tags: analyzing-populations
 
 # Use an analysis report{#processing-a-report}
 
-## Saving an analysis report {#saving-an-analysis-report}
+## Save an analysis report {#saving-an-analysis-report}
 
 If you have the appropriate rights, you can save an analysis report created from a template or export it in Excel, PDF, or OpenOffice format.
 
 To save your report, click **[!UICONTROL Save]** and give your report a label.
 
-Select **[!UICONTROL Also save data]** if you wish to create a history of your report and see the values of the report at the time of saving. For more on this, refer to [Archiving analysis reports](#archiving-analysis-reports).
+Select **[!UICONTROL Also save data]** if you wish to create a history of your report and see the values of the report at the time of saving. For more on this, refer to [Archive analysis reports](#archiving-analysis-reports).
 
 The **[!UICONTROL Share this report]** option allows other operators to access the report.
 
@@ -26,7 +26,7 @@ Once it has been saved, this report can be re-used to generate other analysis re
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-To make changes to this report, edit the **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** node of the Adobe Campaign tree (or the first 'Reports' type folder for which the operator has editing rights). For more on this, refer to [Configuring the layout of a descriptive analysis report](#configuring-the-layout-of-a-descriptive-analysis-report).
+To make changes to this report, edit the **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** node of the Adobe Campaign tree (or the first 'Reports' type folder for which the operator has editing rights). For more on this, refer to [Configure the layout of a descriptive analysis report](#configuring-the-layout-of-a-descriptive-analysis-report).
 
 ## Analysis report additional settings {#analysis-report-additional-settings}
 
@@ -36,7 +36,7 @@ Once a descriptive analysis report has been saved, you can edit its properties a
 
 These options are the same as standard reports and are detailed in [this page](../../reporting/using/properties-of-the-report.md).
 
-## Configuring the layout of a descriptive analysis report {#configuring-the-layout-of-a-descriptive-analysis-report}
+## Configure the layout of a descriptive analysis report {#configuring-the-layout-of-a-descriptive-analysis-report}
 
 You can personalize the display and layout of your data in the charts and tables of the descriptive analysis. All options are accessed via the Adobe Campaign tree, in the **[!UICONTROL Edit]** tab of each report.
 
@@ -110,7 +110,7 @@ The following options are available:
 
   ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
-## Exporting an analysis report {#exporting-an-analysis-report}
+## Export an analysis report {#exporting-an-analysis-report}
 
 To export data from an analysis report, click the drop-down list and select the desired output format.
 
@@ -118,11 +118,11 @@ To export data from an analysis report, click the drop-down list and select the 
 
 For more on this, refer to [this page](../../reporting/using/actions-on-reports.md).
 
-## Re-using existing reports and analyses {#re-using-existing-reports-and-analyses}
+## Re-use existing reports and analyses {#re-using-existing-reports-and-analyses}
 
 You can create descriptive analysis reports on data using existing reports already stored in Adobe Campaign. This mode is possible when analyses have been saved or when reports have been created and configured to be accessed via the descriptive analysis wizard.
 
-To find out how to save descriptive analyses, refer to [Saving an analysis report](#saving-an-analysis-report).
+To find out how to save descriptive analyses, refer to [Save an analysis report](#saving-an-analysis-report).
 
 To create descriptive analysis reports, the descriptive analysis wizard must be executed via a workflow transition or via the **[!UICONTROL Tools > Descriptive analysis]** menu.
 
@@ -131,7 +131,7 @@ To create descriptive analysis reports, the descriptive analysis wizard must be 
 
    ![](assets/s_ncs_user_report_wizard_01.png)
 
-## Archiving analysis reports {#archiving-analysis-reports}
+## Archive analysis reports {#archiving-analysis-reports}
 
 When you create a descriptive analysis based on an existing analysis, you can create archives to store data and compare report results.
 

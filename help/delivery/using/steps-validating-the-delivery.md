@@ -105,7 +105,7 @@ Currently, this option is only available when the following conditions are met:
 * You cannot target a population coming from an external file. For a single delivery, click the **[!UICONTROL To]** link from the **[!UICONTROL Email parameters]** and check that the **[!UICONTROL Defined in the database]** option is selected. For a delivery used in a workflow, check that the recipients are **[!UICONTROL Specified by the inbound event(s)]** in the **[!UICONTROL Delivery]** tab.
 * You must be using a PostgreSQL database.
 
-### Configuring the analysis priority {#analysis-priority-}
+### Configure the analysis priority {#analysis-priority-}
 
 When the delivery is part of a campaign, the **[!UICONTROL Advanced]** tab offers an additional option. This lets you organize the processing order for deliveries in the same campaign.
 
