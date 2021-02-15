@@ -23,24 +23,6 @@ _10 February 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Email BCC with Enhanced MTA</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>TBD
-</p>
-<p>xx
-</p>
-<p>For more information refer to the <a href="../../installation/using/email-archiving.md#email-bcc-with-enhanced-mta">detailed documentation</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
-
-<table> 
-<thead>
-<tr> 
 <th> <strong>Email Feedback Service (EFS)</strong><br /> </th> 
 </tr> 
 </thead> 
@@ -55,6 +37,8 @@ _10 February 2021_
 <li>EFS solves the problem of delays with synchronous soft bounces reporting.
 </li>
 </ul>
+</p>
+<p>If you’re interested in participating in this private beta, fill out this <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u">form</a> and we’ll get back to you.
 </p>
 <p>For more information refer to the <a href="../../delivery/using/sending-with-enhanced-mta.md#efs">detailed documentation</a>.</p>
 </td> 
