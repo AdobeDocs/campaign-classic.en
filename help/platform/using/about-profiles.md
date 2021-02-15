@@ -48,7 +48,7 @@ The **[!UICONTROL Profiles and targets]** link lets you display recipients store
 
 It also gives you access to:
 
-* lists; see [Creating and managing lists](../../platform/using/creating-and-managing-lists.md),
+* lists; see [Create and manage lists](../../platform/using/creating-and-managing-lists.md),
 * subscription services; refer to [this page](../../delivery/using/managing-subscriptions.md),
 * web applications; refer to [this page](../../web/using/about-web-applications.md),
 * imports and exports (jobs); refer to [Generic imports and exports](../../platform/using/about-generic-imports-exports.md),
@@ -61,20 +61,20 @@ For more advanced profile manipulations, you need to edit the Adobe Campaign tre
 By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view, as well as:
 
 * sort and filter the profiles of the database; see [Filtering options](../../platform/using/filtering-options.md),
-* move, copy or delete profiles from the database; see [Managing profiles](../../platform/using/managing-profiles.md),
-* update profiles; see [Updating data](../../platform/using/updating-data.md),
-* export recipients; see [Exporting and importing profiles](../../platform/using/exporting-and-importing-profiles.md),
-* create recipient groups; see [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
+* move, copy or delete profiles from the database; see [Manage profiles](../../platform/using/managing-profiles.md),
+* update profiles; see [Update data](../../platform/using/updating-data.md),
+* export recipients; see [Export and import profiles](../../platform/using/exporting-and-importing-profiles.md),
+* create recipient groups; see [Create and manage lists](../../platform/using/creating-and-managing-lists.md).
 
 To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon. 
 
 ![](assets/d_ncs_user_interface01.png)
 
-The general layout of the Adobe Campaign explorer is presented in [Using Adobe Campaign explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+The general layout of the Adobe Campaign explorer is presented in [Use Adobe Campaign explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 
 >[!NOTE]
 >
->You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [Using Adobe Campaign explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).  
+>You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [Use Adobe Campaign explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).  
 >
 >You can also define recipient views. For further information about this functionality, refer to [Folders and views](../../platform/using/access-management.md#folders-and-views).
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 ---
 
-# Creating offer categories{#creating-offer-categories}
+# Create offer categories{#creating-offer-categories}
 
 The creation of offer categories can only take place in the **[!UICONTROL Design]** environment. They are deployed automatically in the **[!UICONTROL Live]** environment (i.e. made available) when the created/modified offer(s) they contain are approved. By default, the **[!UICONTROL Design]** environment contains a category to receive all offers. Sub-categories can be created to add hierarchy to the catalog offers.
 

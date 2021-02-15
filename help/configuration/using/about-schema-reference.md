@@ -12,7 +12,7 @@ topic-tags: schema-reference
 
 This chapter describes how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database.
 
-For a better understanding of Campaign built-in tables and their interaction, refer to the [Campaign Classic data model](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
+For a better understanding of Campaign built-in tables and their interaction, refer to the [Campaign data model](about-data-model.md).
 
 The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a **schema**.
 

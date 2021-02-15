@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: configuration
 ---
 
-# Configuring publishing on Twitter{#configuring-publishing-on-twitter}
+# Configure publishing on Twitter{#configuring-publishing-on-twitter}
 
 In order for Adobe Campaign to be able to send tweets to your Twitter accounts, you need to delegate write access to Adobe Campaign for these accounts. To do this, apply the following configuration steps:
 
@@ -25,9 +25,9 @@ Start by creating one or more Twitter accounts to send your tweets to.
 
 To create a Twitter account, go to [https://twitter.com](https://twitter.com).
 
-## Creating a test account on Twitter {#creating-a-test-account-on-twitter}
+## Create a test account on Twitter {#creating-a-test-account-on-twitter}
 
-We also recommend creating a private Twitter account which can be used for sending tweet proofs (for more on this, refer to [Sending the proof](../../social/using/publishing-on-twitter.md#sending-the-proof)):
+We also recommend creating a private Twitter account which can be used for sending tweet proofs (for more on this, refer to [Send the proof](../../social/using/publishing-on-twitter.md#sending-the-proof)):
 
 * Create a new Twitter account.
 * Click the menu in the top right-hand corner and select **[!UICONTROL Settings]**.
@@ -36,7 +36,7 @@ We also recommend creating a private Twitter account which can be used for sendi
 
 ![](assets/social_twitter_test_page.png)
 
-## Creating an application on Twitter {#creating-an-application-on-twitter}
+## Create an application on Twitter {#creating-an-application-on-twitter}
 
 In order for Adobe Campaign to be able to send tweets to your Twitter accounts, you need to create one Twitter application per Twitter account. To do this, apply the following steps:
 
@@ -52,7 +52,7 @@ In order for Adobe Campaign to be able to send tweets to your Twitter accounts, 
 
    ![](assets/social_create_twitter_app_002.png)
 
-## Delegating write access to Adobe Campaign {#delegating-write-access-to-adobe-campaign}
+## Delegate write access to Adobe Campaign {#delegating-write-access-to-adobe-campaign}
 
 For each Twitter application, you need to create a different **[!UICONTROL Twitter]** type service which will include the application settings.
 
@@ -72,7 +72,7 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default. When the box is checked, the Twitter account synchronization workflow (refer to [Synchronizing Twitter accounts](#synchronizing-twitter-accounts)) recovers the list of Twitter followers so that you may send them direct messages (refer to [Sending direct messages to subscribers](../../social/using/publishing-on-twitter.md#sending-direct-messages-to-subscribers)). If you do not want to recover the list of followers, uncheck this box.
+   >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default. When the box is checked, the Twitter account synchronization workflow (refer to [Synchronize Twitter accounts](#synchronizing-twitter-accounts)) recovers the list of Twitter followers so that you may send them direct messages (refer to [Send direct messages to subscribers](../../social/using/publishing-on-twitter.md#sending-direct-messages-to-subscribers)). If you do not want to recover the list of followers, uncheck this box.
 
 1. Enter the label and internal name of the service.
 
@@ -108,13 +108,13 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 >
 >You must create one **[!UICONTROL Twitter]** type service per Twitter application.
 
-The **[!UICONTROL Twitter account Synchronization]** workflow synchronizes Twitter accounts in Adobe Campaign. For more on this, refer to [Synchronizing Facebook pages](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages).
+The **[!UICONTROL Twitter account Synchronization]** workflow synchronizes Twitter accounts in Adobe Campaign. For more on this, refer to [Synchronize Facebook pages](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages).
 
-## Synchronizing Twitter accounts {#synchronizing-twitter-accounts}
+## Synchronize Twitter accounts {#synchronizing-twitter-accounts}
 
 >[!IMPORTANT]
 >
->In order for the workflow to recover the list of Twitter subscribers, the **[!UICONTROL Twitter account synchronization]** box must be checked in the editing section of the service linked to the account. For more on this, refer to [Delegating write access to Adobe Campaign](#delegating-write-access-to-adobe-campaign).
+>In order for the workflow to recover the list of Twitter subscribers, the **[!UICONTROL Twitter account synchronization]** box must be checked in the editing section of the service linked to the account. For more on this, refer to [Delegate write access to Adobe Campaign](#delegating-write-access-to-adobe-campaign).
 
 The **[!UICONTROL Twitter account synchronization]** workflow, which is accessed via the **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** node, lets you synchronize Twitter accounts configured previously with Adobe Campaign. By default, this workflow is triggered every Thursday at 7:30AM.
 
@@ -122,4 +122,4 @@ The **[!UICONTROL Twitter account synchronization]** workflow, which is accessed
 >
 >It is possible to start the workflow at any time by running anticipated task processing. You can also edit the scheduler to change the workflow triggering frequency. For more on the scheduler, refer to [this section](../../workflow/using/scheduler.md).
 
-You may now send tweets to your Twitter accounts and direct messages to your followers. For more on this, refer to: [Publishing on Twitter](../../social/using/publishing-on-twitter.md).
+You may now send tweets to your Twitter accounts and direct messages to your followers. For more on this, refer to: [Publish on Twitter](../../social/using/publishing-on-twitter.md).

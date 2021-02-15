@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 ---
 
-# Creating and identifying the delivery {#create-and-identify-the-delivery}
+# Create and identify the delivery {#create-and-identify-the-delivery}
 
-## Creating the delivery {#creating-the-delivery}
+## Create the delivery {#creating-the-delivery}
 
 You can create a delivery via the overview or via the **[!UICONTROL Create > Delivery]** menu.
 
@@ -27,7 +27,7 @@ A default template is provided for each channel you have installed: direct mail,
 
 You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, refer to [this section](../../delivery/using/about-templates.md).
 
-## Identifying the delivery {#identifying-the-delivery}
+## Identify the delivery {#identifying-the-delivery}
 
 You need to complete parameters to identify the delivery. To do this:
 
@@ -44,8 +44,8 @@ You need to complete parameters to identify the delivery. To do this:
 
 The delivery content is ready to be configured. Delivery content definition is specific to each channel. For more on this, refer to the dedicated section:
 
-* [Defining the email content](../../delivery/using/defining-the-email-content.md)
-* [Defining the SMS content](../../delivery/using/sms-channel.md#defining-the-sms-content)
-* [Defining the direct mail content](../../delivery/using/defining-the-direct-mail-content.md)
+* [Define the email content](../../delivery/using/defining-the-email-content.md)
+* [Define the SMS content](../../delivery/using/sms-channel.md#defining-the-sms-content)
+* [Define the direct mail content](../../delivery/using/defining-the-direct-mail-content.md)
 * [Push notifications](../../delivery/using/about-mobile-app-channel.md)
 

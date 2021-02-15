@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 ---
 
-# Understanding delivery failures{#understanding-delivery-failures}
+# Understand delivery failures{#understanding-delivery-failures}
 
 ## About delivery failures {#about-delivery-failures}
 
@@ -183,9 +183,9 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 >
 >For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
 
-For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. See [Define validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [Configure retries](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
@@ -206,7 +206,15 @@ A message can fail immediately (synchronous error), or later on, after it has be
 
 ## Bounce mail management {#bounce-mail-management}
 
-The Adobe Campaign platform lets you manage email delivery failures via the bounce mail functionality. When an email cannot be delivered to a recipient, the remote messaging server automatically returns an error message (bounce mail) to a technical inbox designed for this purpose. Error messages are collected by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules
+The Adobe Campaign platform lets you manage email delivery failures via the bounce mail functionality.
+
+When an email cannot be delivered to a recipient, the remote messaging server automatically returns an error message (bounce mail) to a technical inbox designed for this purpose.
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, error messages are collected by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), most of the email management rules are no longer used. For more on this, see [this section](#email-management-rules).
 
 ### Bounce mail qualification {#bounce-mail-qualification}
 
@@ -226,17 +234,17 @@ This list is available via the **[!UICONTROL Administration > Campaign Managemen
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-* The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. If this column is not displayed, click the **[!UICONTROL Configure list]** button at the right bottom of the list to select it.
+The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. If this column is not displayed, click the **[!UICONTROL Configure list]** button at the right bottom of the list to select it.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-  Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
 
-  This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
+This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
   
-  >[!NOTE]
-  >
-  >The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+>[!NOTE]
+>
+>The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
 
 Bounce mails can have the following qualification status:
 

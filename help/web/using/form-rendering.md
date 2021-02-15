@@ -10,7 +10,7 @@ topic-tags: web-forms
 
 # Form rendering{#form-rendering}
 
-## Selecting the form rendering template {#selecting-the-form-rendering-template}
+## Select the form rendering template {#selecting-the-form-rendering-template}
 
 The form settings enable you to select the template used to generate the pages. To access them, click the **[!UICONTROL Settings]** button in the form detail toolbar, and select the **[!UICONTROL Rendering]** tab. There are a number of templates (style sheets) available by default.
 
@@ -50,11 +50,11 @@ The **[!UICONTROL Position]** fields let you define the position of elements in 
 >[!NOTE]
 >
 >Rendering templates are stored in the **[!UICONTROL Administration > Configuration > Form rendering]** node.  
->For more on this, refer to [Customizing form rendering](#customizing-form-rendering)
+>For more on this, refer to [Customize form rendering](#customizing-form-rendering)
 
-## Customizing form rendering {#customizing-form-rendering}
+## Customize form rendering {#customizing-form-rendering}
 
-### Changing the layout of elements {#changing-the-layout-of-elements}
+### Change the layout of elements {#changing-the-layout-of-elements}
 
 You can overload the style sheet for each element of the form (input fields, images, radio buttons, etc.).
 
@@ -64,9 +64,9 @@ To do this, use the **[!UICONTROL Advanced]** tab.
 
 It enables you to define the following properties:
 
-* **[!UICONTROL Label position]**: see [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
+* **[!UICONTROL Label position]**: see [Define the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
 * **[!UICONTROL Label format]**: Word wrap or No word wrap,
-* **[!UICONTROL Number of cells]** : see [Positioning the fields on the page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
+* **[!UICONTROL Number of cells]** : see [Position the fields on the page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
 * **[!UICONTROL Horizontal alignment]** (Left, Right, Centered) and **[!UICONTROL Vertical alignment]** (High, Low, Middle),
 * **[!UICONTROL Width]** of the zone: this can be expressed as a percentage or in ems, points, or pixels (default value),
 * Maximum **[!UICONTROL Length]**: Maximum number of characters allowed (for Text, Number and Password type controls),
@@ -75,7 +75,7 @@ It enables you to define the following properties:
 
   ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
-### Defining headers and footers {#defining-headers-and-footers}
+### Define headers and footers {#defining-headers-and-footers}
 
 Fields are sequenced in a tree structure whose root has the same name as the page. Select it to modify the name.
 
@@ -83,7 +83,7 @@ The title of the window must be entered in the **[!UICONTROL Page]** tab of the 
 
 ![](assets/s_ncs_admin_survey_titles_config.png)
 
-### Adding elements to HTML header {#adding-elements-to-html-header}
+### Add elements to HTML header {#adding-elements-to-html-header}
 
 You can enter additional elements to be inserted into the HTML header of a form page. To do this, enter the elements in the **[!UICONTROL Header]** tab of the relevant page.
 
@@ -91,11 +91,11 @@ This lets you reference an icon that will be displayed in the page's title bar, 
 
 ![](assets/webform_header_page_tab.png)
 
-## Defining control settings {#defining-control-settings}
+## Define control settings {#defining-control-settings}
 
-When the user fills in the form, a check is automatically carried out on certain fields depending on their format or configuration. This lets you make certain fields mandatory (refer to [Defining mandatory fields](#defining-mandatory-fields)) or check the format of the data entered (refer to [Checking data format](#checking-data-format)). Checks are carried out during page approval (by clicking a link or button which enables an output transition).
+When the user fills in the form, a check is automatically carried out on certain fields depending on their format or configuration. This lets you make certain fields mandatory (refer to [Define mandatory fields](#defining-mandatory-fields)) or check the format of the data entered (refer to [Check data format](#checking-data-format)). Checks are carried out during page approval (by clicking a link or button which enables an output transition).
 
-### Defining mandatory fields {#defining-mandatory-fields}
+### Define mandatory fields {#defining-mandatory-fields}
 
 To make certain fields mandatory, select this option when creating the field.
 
@@ -113,7 +113,7 @@ If the user approves this page without having entered the field, the following m
 
 ![](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
-### Checking data format {#checking-data-format}
+### Check data format {#checking-data-format}
 
 For form checks whose values are stored in an existing field of the database, the rules for the storage field will be applied.
 
@@ -125,7 +125,7 @@ For example, if you create a **[!UICONTROL Number]** check to store the client n
 
 The user must enter an integer in the form field.
 
-## Defining fields conditional display {#defining-fields-conditional-display}
+## Define fields conditional display {#defining-fields-conditional-display}
 
 You can configure the display of fields on the page to be displayed based on the values chosen by the user. This can apply to one field or a group of fields (when they are grouped in a container).
 
@@ -145,15 +145,15 @@ In the field selection window, you can choose from the following data:
 
 * The **[!UICONTROL Recipients]** sub-tree contains the input fields inserted into the form and stored in the database.
 
-  For more on this, refer to [Storing data in the database](../../web/using/web-forms-answers.md#storing-data-in-the-database). 
+  For more on this, refer to [Store data in the database](../../web/using/web-forms-answers.md#storing-data-in-the-database). 
 
-* The **[!UICONTROL Variables]** sub-tree contains the available variables for this form. For more on this, refer to [Storing data in a local variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
+* The **[!UICONTROL Variables]** sub-tree contains the available variables for this form. For more on this, refer to [Store data in a local variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
 
-For more on this, refer to the use case available here: [Displaying different options depending on the selected values](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+For more on this, refer to the use case available here: [Display different options depending on the selected values](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
 You can also condition the display of form pages using the **[!UICONTROL Test]** object. For more on this, refer to this [page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 
-## Importing elements from an existing form {#importing-elements-from-an-existing-form}
+## Import elements from an existing form {#importing-elements-from-an-existing-form}
 
 It's possible to import fields or containers from other Web forms. This lets you create a library of re-usable blocks which will be inserted into forms, such as the address block, the newsletter subscription area, etc.
 

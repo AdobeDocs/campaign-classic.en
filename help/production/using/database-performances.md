@@ -39,9 +39,9 @@ Please make sure the database cleanup task is operational. To do this, view the 
 
 Make sure database maintenance is correctly scheduled and executed. To do this, please contact your database administrator to learn more about:
 
-* their maintenance schedule,
-* previously executed maintenance plans,
-* view the script logs.
+* Their maintenance schedule
+* Previously executed maintenance plans
+* Viewing the script logs
 
 For more on this, refer to [this section](../../production/using/recommendations.md).
 
@@ -49,13 +49,13 @@ For more on this, refer to [this section](../../production/using/recommendations
 >
 >If you are using a mid-sourcing configuration, it is essential for databases to be maintained on a regular basis. When analyzing a delivery on the marketing platform, the marketing instance sends information to the mid-sourcing instance. If the process is slowed down, the marketing instance will be impacted.
 
-**Managing work tables**
+**Manage work tables**
 
 Please check the number and size of work tables. When they exceed a certain size, database performance is affected. These tables are created by workflows and deliveries. They remain in the database while workflows and deliveries are active. To limit the size of work tables, you can carry out the following operations:
 
-* stop or delete deliveries with the following statuses: **[!UICONTROL Failed]** , **[!UICONTROL In progress]** , **[!UICONTROL Ready for delivery]** , or **[!UICONTROL Paused]** . 
-* stop or delete workflows which are paused due to an error,
-* stop all workflows used for tests which do not contain an **[!UICONTROL End]** activity and whose status therefore remains **[!UICONTROL Paused]** .
+* Stop or delete deliveries with the following statuses: **[!UICONTROL Failed]**, **[!UICONTROL In progress]**, **[!UICONTROL Ready for delivery]**, or **[!UICONTROL Paused]**.
+* Stop or delete workflows which are paused due to an error.
+* Stop all workflows used for tests which do not contain an **[!UICONTROL End]** activity and whose status therefore remains **[!UICONTROL Paused]**.
 
 >[!IMPORTANT]
 >
@@ -65,14 +65,13 @@ Please check the number and size of work tables. When they exceed a certain size
 
 Depending on Adobe Campaign installation settings, two tools can be used for platform monitoring:
 
-* the instance production page. For more on this, refer to [Manual monitoring](../../production/using/monitoring-processes.md#manual-monitoring). 
-* the netreport script. For more on this, refer to [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
+* The instance production page. For more on this, refer to [Manual monitoring](../../production/using/monitoring-processes.md#manual-monitoring). 
+* The *netreport* script. For more on this, refer to [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
 ## Specifics {#specifics}
 
 It may become necessary to run a real-time diagnosis to identify the cause of the issue. Start by checking the process and platform log files, then monitor database activity while recreating the issue. Pay particular attention to the following:
 
-* the maintenance execution plan,
-* SQL queries being executed,
-* whether or not external processes are running at the same time (cleansing, imports, aggregate calculation, etc.).
-
+* The maintenance execution plan
+* SQL queries being executed
+* Whether or not external processes are running at the same time (cleansing, imports, aggregate calculation, etc.).

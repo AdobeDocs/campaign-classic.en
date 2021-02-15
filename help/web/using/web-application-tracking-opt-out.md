@@ -18,7 +18,7 @@ If an end-user opts-out of behavioral tracking via cookies or web beacons, then 
 >
 >When scripting always follow the guidelines described in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#dev).
 
-## Configuring the banner {#configuring-the-banner-}
+## Configure the banner {#configuring-the-banner-}
 
 To be displayed within Web applications or Landing pages, the banner needs to be configured.
 
@@ -28,7 +28,7 @@ Adobe Campaign is delivered with a sample banner that you must adapt to your nee
 >
 >To create your own banner, you must personalize the out-of-the-box banner.
 
-To activate the banner, you have to configure the Web application properties. Refer to the [Designing a web application](../../web/using/designing-a-web-application.md) section.
+To activate the banner, you have to configure the Web application properties. Refer to [Design a web application](../../web/using/designing-a-web-application.md).
 
 If the Web tracking is activated, you can either have:
 
@@ -62,7 +62,7 @@ You must replace the **Please insert your message here** with the block containi
 
 The banner is delivered with a specific CSS. However, you can overwrite the styles when creating and configuring a webpage. Refer to [this page](../../web/using/content-editor-interface.md).
 
-## Setting the opt-out cookie using API {#setting-the-opt-out-cookie-using-api}
+## Set the opt-out cookie using API {#setting-the-opt-out-cookie-using-api}
 
 Adobe Campaign is delivered with APIs that allows you to manage the cookie value and to retrieve user preferences.
 

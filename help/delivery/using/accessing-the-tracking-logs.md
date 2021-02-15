@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tracking-messages
 ---
 
-# Accessing the tracking logs{#accessing-the-tracking-logs}
+# Access tracking logs{#accessing-the-tracking-logs}
 
 When the delivery has been sent and tracking activated, the **[!UICONTROL Tracking]** technical workflow is in charge of retrieving the tracking data. It is executed hourly by default.
 

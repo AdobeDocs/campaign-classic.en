@@ -10,7 +10,7 @@ topic-tags: editing-schemas
 
 # Examples of schemas edition{#examples-of-schemas-edition}
 
-## Extending a table {#extending-a-table}
+## Extend a table {#extending-a-table}
 
 To extend the **nms:recipient** schema recipient table, apply the following procedure:
 
@@ -330,8 +330,8 @@ The user interface will not display a link but a field. When the user picks that
 
 ## Related topics
 
-* [Working with enumerations](../../platform/using/managing-enumerations.md)
+* [Work with enumerations](../../platform/using/managing-enumerations.md)
 
 * [Get Started with Campaign schemas](../../configuration/using/about-schema-edition.md)
 
-* [Updating the database structure](../../configuration/using/updating-the-database-structure.md)
+* [Update the database structure](../../configuration/using/updating-the-database-structure.md)

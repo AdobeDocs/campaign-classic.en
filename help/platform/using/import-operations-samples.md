@@ -97,7 +97,7 @@ To import new recipient profiles stored in a text file into the Adobe Campaign d
 
 We want to update existing records in the database and create new ones from a text file. Here is an example of the procedure:
 
-1. Choosing a template
+1. Choose a template
 
    Repeat the steps described in example 2 above.
 
@@ -109,7 +109,7 @@ We want to update existing records in the database and create new ones from a te
 
    ![](assets/s_ncs_user_import_example02_02.png)
 
-1. Associating fields
+1. Associate fields
 
    Apply the procedure in example 2 above.
 
@@ -121,7 +121,7 @@ We want to update existing records in the database and create new ones from a te
     
       ![](assets/s_ncs_user_import_example04_02.png)
 
-1. Launching the import
+1. Start the import
 
     * Click **[!UICONTROL Start]**.
 
@@ -149,7 +149,7 @@ In this example, you can see that certain fields in your text file have a value,
 
 Apply the following steps:
 
-1. Choosing a template
+1. Choose a template
 
    Apply the procedure in example 2 above.
 
@@ -157,7 +157,7 @@ Apply the following steps:
 
    Select the file that you want to import.
 
-1. Associating fields
+1. Associate fields
 
    Apply the procedure in example 2 above.
 
@@ -174,7 +174,7 @@ Apply the following steps:
     
       ![](assets/s_ncs_user_import_example04_03.png)
 
-1. Launching the import
+1. Start the import
 
    Click **[!UICONTROL Start]**.
 
@@ -198,7 +198,7 @@ In this example, you will see that certain fields in your text file have an empt
 
   ![](assets/s_ncs_user_import_example06_07.png)
 
-1. Choosing a template
+1. Choose a template
 
    Apply the procedure in example 2 above.
 
@@ -208,7 +208,7 @@ In this example, you will see that certain fields in your text file have an empt
 
    In the preview of the first lines of the file, you can see that the file contains empty fields and updates for certain records.
 
-1. Associating fields
+1. Associate fields
 
    Apply the procedure in example 2 above.
 
@@ -222,7 +222,7 @@ In this example, you will see that certain fields in your text file have an empt
     
       ![](assets/s_ncs_user_import_example04_04.png)
 
-1. Launching the import
+1. Start the import
 
     * Click **[!UICONTROL Start]**. 
     * Look in the recipient table to check that the records have been modified by the operation.

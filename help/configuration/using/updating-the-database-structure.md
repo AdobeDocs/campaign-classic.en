@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Updating the database structure
-description: Updating the database structure
+title: Update the database structure
+description: Learn how to update the database structure
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 ---
 
-# Updating the database structure{#updating-the-database-structure}
+# Update the database structure{#updating-the-database-structure}
 
 To apply the modifications made to the schemas, launch the database update wizard. This wizard is accessible via **[!UICONTROL Tools > Advanced > Update database structure]** . It checks whether the physical structure of the database matches its logical description and executes the SQL update scripts.
 

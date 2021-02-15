@@ -10,16 +10,16 @@ topic-tags: general-operation
 
 # Implementation steps{#implementation-steps}
 
-## Configuring Interaction {#configuring-interaction}
+## Configure the Interaction module {#configuring-interaction}
 
 >[!NOTE]
 >
 >The following steps should be performed by an **Administrator** profile and only in design environments.
 
 1. Creating user profiles. For more on this, refer to [Operator profiles](../../interaction/using/operator-profiles.md).
-1. Creating an offer environment by targeting dimension. For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
-1. Creating typology rules for each environment. For more on this, refer to [Creating and referencing an offer presentation rule](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule).
-1. Creating offer spaces for each environment and configuring rendering functions. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+1. Creating an offer environment by targeting dimension. For more on this, refer to [Create an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+1. Creating typology rules for each environment. For more on this, refer to [Create and reference an offer presentation rule](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule).
+1. Creating offer spaces for each environment and configuring rendering functions. For more on this, refer to [Create offer spaces](../../interaction/using/creating-offer-spaces.md).
 
    >[!NOTE]
    >
@@ -33,17 +33,17 @@ topic-tags: general-operation
    >
    >When a space is created on the inbound Web channel, a configuration is also necessary on the site on which the offer will be displayed.
 
-## Managing the offer catalog {#managing-the-offer-catalog-}
+## Manage the offer catalog {#managing-the-offer-catalog-}
 
 >[!NOTE]
 >
 >The following steps should be carried out by an **Offer manager**.
 
-1. Creating offer categories in design environments. For more on this, refer to [Creating offer categories](../../interaction/using/creating-offer-categories.md).
-1. Creating offers in design environments. For more on this, refer to [Creating an offer](../../interaction/using/creating-an-offer.md).
-1. Approving and publishing offers on one or several spaces in order to make them available on live environments for the delivery manager. For more on this, refer to [Approving and activating an offer](../../interaction/using/approving-and-activating-an-offer.md).
+1. Creating offer categories in design environments. For more on this, refer to [Create offer categories](../../interaction/using/creating-offer-categories.md).
+1. Creating offers in design environments. For more on this, refer to [Create an offer](../../interaction/using/creating-an-offer.md).
+1. Approving and publishing offers on one or several spaces in order to make them available on live environments for the delivery manager. For more on this, refer to [Approve and activate an offer](../../interaction/using/approving-and-activating-an-offer.md).
 
-## Using the offer catalog {#using-the-offer-catalog-}
+## Use the offer catalog {#using-the-offer-catalog-}
 
 >[!NOTE]
 >

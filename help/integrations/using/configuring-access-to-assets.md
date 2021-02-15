@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: asset-sharing
 ---
 
-# Configuring access to Assets{#configuring-access-to-assets}
+# Configure access to Assets{#configuring-access-to-assets}
 
 This section details the necessary configuration steps in Adobe Campaign to use the integration functionalities with Assets core service or Adobe Experience Manager assets library.
 
@@ -23,7 +23,7 @@ This section details the necessary configuration steps in Adobe Campaign to use 
 >
 >If the two packages (**[!UICONTROL AEM Integration]** and **[!UICONTROL Integration with the Adobe Experience Cloud]** ) are installed, only the assets available in the Adobe Experience Cloud library can be used. To also access the assets in your AEM Assets library, you must synchronize AEM Assets and Adobe Experience Cloud. The assets in AEM Assets will then also be available in the Adobe Experience Cloud library. For more information on synchronizing AEM Assets and Adobe Experience Cloud, refer to the [detailed documentation](https://docs.adobe.com/docs/en/aod/overview/collaborating/aem-assets-aod-sync.html).
 
-## Integrating with Experience Cloud Assets {#integrating-with-experience-cloud-assets}
+## Integrate with Experience Cloud Assets {#integrating-with-experience-cloud-assets}
 
 In order to use the integration between Adobe Campaign and Experience Cloud Assets, you must have:
 
@@ -39,7 +39,7 @@ To enable the connection between Adobe Campaign and Adobe Experience Cloud, conf
 >
 >The functionalities linked to this integration are only available for users connected with their Adobe ID via IMS.
 
-## Integrating with AEM Assets {#integrating-with-aem-assets}
+## Integrate with Adobe Experience Manager Assets {#integrating-with-aem-assets}
 
 To integrate AEM Assets with Adobe Campaign, you must first configure the integration between Adobe Experience Manager and Adobe Campaign. This configuration mainly requires:
 

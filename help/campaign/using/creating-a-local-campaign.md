@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: distributed-marketing
 ---
 
-# Creating a local campaign{#creating-a-local-campaign}
+# Create a local campaign{#creating-a-local-campaign}
 
 A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. Its aim is to meet a local communication need using a campaign template that was set up and configured by the central entity. The main stages for implementing a local operation are as follows:
 
@@ -24,7 +24,7 @@ A local campaign is an instance created from a template referenced in the list o
 1. Ordering the campaign.
 1. Executing campaigns.
 
-## Creating a local campaign template {#creating-a-local-campaign-template}
+## Create a local campaign template {#creating-a-local-campaign-template}
 
 To create a campaign package, you must first create the **campaign template** via the **[!UICONTROL Resources > Templates]** node.
 
@@ -60,7 +60,7 @@ There are four types of web interfaces available:
 
   ![](assets/mkt_distr_8.png)
 
-  The form offered is specified in a web application that must be selected in a drop-down list from the **[!UICONTROL web Interface]** field in the template's **[!UICONTROL Advanced campaign settings...]** link. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+  The form offered is specified in a web application that must be selected in a drop-down list from the **[!UICONTROL web Interface]** field in the template's **[!UICONTROL Advanced campaign settings...]** link. Refer to [Create a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
   >[!NOTE]
   >
@@ -152,7 +152,7 @@ Save your campaign template. You can now use it from the **Campaign packages** v
 >
 >Campaign templates and their general configuration are detailed in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-## Creating the campaign package {#creating-the-campaign-package}
+## Create the campaign package {#creating-the-campaign-package}
 
 For the campaign template to become available to local entities, it needs to be added to the list. To do this, the central agency needs to create a new package.
 
@@ -213,7 +213,7 @@ From the **[!UICONTROL General]** tab, the central entity can:
 
 When a campaign becomes available or when the registration deadline is reached, a message is sent to the operators of the local notification group. For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
 
-## Ordering a campaign {#ordering-a-campaign}
+## Order a campaign {#ordering-a-campaign}
 
 Campaign packages become accessible to local entities once they are approved and their implementation period has started. Local entities receive an email letting them know that a new campaign package is available (as soon as its availability date is reached).
 
@@ -263,7 +263,7 @@ To order a campaign:
 
    For more on this, refer to the [Approval process](#approval-process) section.
 
-1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** universe. The campaign can then be used. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** universe. The campaign can then be used. For more on this, refer to [Access campaigns](../../campaign/using/accessing-campaigns.md).
 
    The **[!UICONTROL Start targeting with order approval]** option lets the local entity run the campaign as soon as the order has been approved.
 
@@ -293,7 +293,7 @@ When a campaign is ordered by a local entity, its reviewers are notified by emai
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Approving via the Adobe Campaign console {#approving-via-the-adobe-campaign-console}
+#### Approve via the client console {#approving-via-the-adobe-campaign-console}
 
 The order may also be approved via the console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]**.
 
@@ -303,15 +303,15 @@ The order may also be approved via the console, in the campaign order overview. 
 >
 >The campaign can still be edited and reconfigured up until the campaign availability date. Local entities can also reject the campaign by clicking the **[!UICONTROL Cancel]** button.
 
-#### Creating a campaign {#creating-a-campaign}
+#### Create a campaign {#creating-a-campaign}
 
 Once a campaign order is approved, it may be configured and executed by the local entity. 
 
 ![](assets/mkg_dist_mutual_op_created.png)
 
-For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+For more on this, refer to [Access campaigns](../../campaign/using/accessing-campaigns.md).
 
-### Rejecting an approval {#rejecting-an-approval}
+### Reject an approval {#rejecting-an-approval}
 
 The operator in charge of approval can reject an order or campaign package. 
 
@@ -337,7 +337,7 @@ For each local entity, reviewers are selected for campaign order approval and ca
 >
 >For this selection to be possible, order approval must not yet be effective.
 
-### Canceling an order {#canceling-an-order}
+### Cancel an order {#canceling-an-order}
 
 The central agency can cancel an order using the **[!UICONTROL Delete]** button, located on the order dashboard.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-emails
 ---
 
-# Sending emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
+# Send emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
 
 ## Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 
@@ -42,9 +42,9 @@ Therefore, you must:
 >* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
 >* For Softbank, refer to [this page](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)
 
-## Testing the email content {#testing-the-email-content}
+## Test the email content {#testing-the-email-content}
 
-### Previewing the message {#previewing-the-message}
+### Preview the message {#previewing-the-message}
 
 Adobe Campaign allows you to check that your message format is adapted to be sent to a Japanese mobile.
 
@@ -58,7 +58,7 @@ In the **[!UICONTROL Preview]** tab of the content editing window, clicking **[!
 
   ![](assets/deco-mail_06.png)
 
-### Running typology rule {#running-typology-rule}
+### Run typology rule {#running-typology-rule}
 
 In addition to the previewing diagnosis, a second check is carried out when sending a proof or a delivery: a specific typology rule, **[!UICONTROL Deco-mail check]**, is started during the analysis.
 
@@ -68,7 +68,7 @@ In addition to the previewing diagnosis, a second check is carried out when send
 
 This typology rule allows you to make sure that the delivery respects the [format constraints](#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
 
-### Sending proofs {#sending-proofs}
+### Send proofs {#sending-proofs}
 
 You can send proofs to test your delivery. When you send the proof, if you are using substitution addresses, please enter addresses that correspond to the email format of the profile used.
 
@@ -76,14 +76,14 @@ For example, you can replace a profile's address by test@softbank.ne.jp if the e
 
 ![](assets/deco-mail_05.png)
 
-## Sending messages {#sending-messages}
+## Send messages {#sending-messages}
 
 To send an email to recipients with Japanese email formats with Campaign, two options are possible:
 
 * Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](#designing-a-specific-delivery-for-japanese-formats).
 * Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](#designing-a-delivery-for-all-formats).
 
-### Designing a specific delivery for Japanese formats {#designing-a-specific-delivery-for-japanese-formats}
+### Design a specific delivery for Japanese formats {#designing-a-specific-delivery-for-japanese-formats}
 
 You can create a workflow that contains two deliveries: one to be read on a Japanese mobile and another for recipients with a standard email format.
 
@@ -93,7 +93,7 @@ To do this, use the **[!UICONTROL Split]** activity in your workflow and define 
 
 ![](assets/deco-mail_07.png)
 
-### Designing a delivery for all formats {#designing-a-delivery-for-all-formats}
+### Design a delivery for all formats {#designing-a-delivery-for-all-formats}
 
 When Adobe Campaign dynamically manages the formats according to the domain (profiles with email formats defined as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]** ), you can send the same delivery to all of your recipients.
 

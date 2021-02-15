@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 ---
 
-# Performing a build upgrade{#performing-a-build-upgrade}
+# How to perform a build upgrade{#performing-a-build-upgrade}
 
 This section will provide you with an in-depth walkthrough on the upgrade process and the steps to identify and resolve conflicts.
 
@@ -38,7 +38,7 @@ The build upgrade process requires the following resources:
 * an Adobe Campaign administrator - your administrator knows the server's configuration including but not limited to: security, folder layout, reporting, and import\export requirements. Please do not perform a build upgrade without your administrator.
 * an Adobe Campaign operator (marketing user) - a successful upgrade relies upon the user's ability to perform their daily tasks successfully. For this reason, always include at least one of your daily operators in your testing of the upgraded servers.
 
-### Planning
+### Plan the build upgrade
 
 Here are the key points on how to plan a build upgrade:
 
@@ -155,7 +155,7 @@ In order to replace all files with the new version, it is required that all inst
 
 1. Check the Windows Task Manager to confirm that all processes have stopped.
 
-### Upgrade the Adobe Campaign Server Application
+### Upgrade Campaign server application
 
 1. Run the **Setup.exe** file. If you need to download this file, access [the Download center](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
 

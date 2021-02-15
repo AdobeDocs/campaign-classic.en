@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: content-management
 ---
 
-# Enriching content{#enriching-content}
+# Enrich content{#enriching-content}
 
 Aggregators let you enrich the content with external data. This data comes from generic queries or linked tables.
 
@@ -32,7 +32,7 @@ Example of return from a query on the recipient schema (**nms:recipient**):
 
 The **`<collection-recipient>`** element represents the input element of the document resulting from a query. The data retrieved is returned under this element; in our example, a recipient list.
 
-### Adding a query {#adding-a-query}
+### Add a query {#adding-a-query}
 
 The query parameters are edited using a wizard.
 

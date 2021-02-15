@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
+# Configure Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
 >[!CAUTION]
 >
@@ -79,9 +79,9 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_7.png)
 
->[!NOTE]
+>[!CAUTION]
 >
->Adobe I/O certificate will expire after 12 months. You need to generate a new key pair very year.
+>Adobe I/O certificate will expire after 12 months. You need to generate a new key pair every year.
 
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 

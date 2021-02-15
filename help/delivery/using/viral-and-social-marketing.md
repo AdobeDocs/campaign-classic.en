@@ -22,7 +22,7 @@ This lets delivery recipients or website visitors share information with their n
 >
 >In order for added links to function properly, the matching mirror page must be available. To do this, include the link to the mirror page in the delivery.
 
-## Social networks: sharing a link {#social-networks--sharing-a-link}
+## Social networks: share a link {#social-networks--sharing-a-link}
 
 To enable delivery recipients to share the content of messages with members of their network, you need to include the matching personalization block.
 
@@ -48,9 +48,7 @@ When the recipient clicks the icon of one of the social networks displayed, they
 
 A viral service allows referral-type actions to be carried out: these actions enable you to forward a message to a friend. The profile of the referee(s) is stored temporarily in the database (in a dedicated table). Forwarded messages include a link for the referee to subscribe: if they do, they will be added to the Adobe Campaign database.
 
-Message forwarding is based on the same principles as social network links.
-
-Apply the following stages:
+Message forwarding is based on the same principles as social network links. To implement it, follow these steps:
 
 1. Add the **[!UICONTROL Social network sharing links]** personalization block into the body of the original message.
 1. The message recipient can click the **[!UICONTROL Email]** icon to send this message to one or more friends. 

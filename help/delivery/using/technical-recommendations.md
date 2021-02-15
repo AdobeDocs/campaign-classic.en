@@ -62,6 +62,10 @@ It is worth noting that records made at the level of the DNS servers can take up
 
 ### DKIM {#dkim}
 
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
+
 DKIM (DomainKeys Identified Mail) authentication is a successor to SPF and uses public-key cryptography that allows the receiving email server to verify that a message was in fact sent by the person or entity it claims it was sent by, and whether or not the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the "From" or "Sender" header. To insure the security level of the DKIM, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers.
 
 DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Internet Mail authentication principles and is used to check the authenticity of the sender domain and guarantee the integrity of the message.
@@ -79,10 +83,6 @@ Using DKIM requires some prerequisites:
 >* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the [Domain management rules](../../delivery/using/understanding-delivery-failures.md#domain-management). If not, follow the same configuration steps (private/public key) as for DomainKeys.
 >* It is not necessary to enable both DomainKeys and DKIM for the same domain as DKIM is an improved version of DomainKeys.
 >* The following domains currently validate DKIM: AOL, Gmail.
-
->[!IMPORTANT]
->
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
 
 ### DMARC {#dmarc}
 
@@ -200,13 +200,13 @@ You can implement the **List-Unsubscribe** by:
 * directly adding the command line in the delivery template - see [this section](#adding-a-command-line-in-a-delivery-template),
 * or, creating a typology rule - see [this section](#creating-a-typology-rule).
 
-### Adding a command line in a delivery template {#adding-a-command-line-in-a-delivery-template}
+### Add a command line in a delivery template {#adding-a-command-line-in-a-delivery-template}
 
 The command line must be added in the additional section of the email's SMTP header.
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
-### Creating a typology rule {#creating-a-typology-rule}
+### Create a typology rule {#creating-a-typology-rule}
 
 The rule must contain the script that generates the command line and it must be included in the email header.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: adobe-target
 ---
 
-# Inserting Target dynamic content {#inserting-a-dynamic-image}
+# Insert Target dynamic content {#inserting-a-dynamic-image}
 
 In this guide, we will present how to integrate a dynamic offer from Target into an email in Adobe Campaign.
 
@@ -24,13 +24,13 @@ In this email, we want one of the images to vary dynamically according to the fo
 
 For this to work, we need to perform the following steps both in Adobe Campaign and Target:
 
-1. [Inserting the dynamic offer in an email](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
-1. [Creating redirect offers](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
-1. [Creating audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
-1. [Creating an Experience Targeting Activity](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
-1. [Previewing and sending the email](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
+1. [Insert the dynamic offer in an email](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
+1. [Create redirect offers](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
+1. [Create audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
+1. [Create an Experience Targeting Activity](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [Preview and send the email](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-## Inserting the dynamic offer in an email {#inserting-dynamic-offer}
+## Insert the dynamic offer in an email {#inserting-dynamic-offer}
 
 In Adobe Campaign, once you're done defining the target and content of your email, you can insert a dynamic image from Target.
 
@@ -46,7 +46,7 @@ In Adobe Campaign, there are two ways to insert a dynamic image from Target into
 
    ![](assets/target_12.png)
 
-### Defining the image parameters {#defining-image-parameters}
+### Define the image parameters {#defining-image-parameters}
 
 * The **[!UICONTROL Default image]**'s URL: The image that will be displayed when none of the conditions are fulfilled. You can also select an image from your Assets library.
 * The **[!UICONTROL Target location]**: Enter a name for your dynamic offer's location. You will have to select this location in your Target activity.
@@ -57,7 +57,7 @@ If you use Enterprise permissions in your settings in Adobe Target, add the corr
 
 ![](assets/target_13.png)
 
-## Creating redirect offers {#create-redirect-offers}
+## Create redirect offers {#create-redirect-offers}
 
 In Target, you can create different versions of your offer. Depending on each user experience, a redirect offer can be created and you can specify the image that will be displayed.
 
@@ -75,7 +75,7 @@ In our case, we need two redirect offers, the third one (the default one) is to 
 
 1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [page](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html).
 
-## Creating audiences {#audiences-target}
+## Create audiences {#audiences-target}
 
 In Target, you need to create the two audiences into which the people who visit your offer will be categorized for the different contents to be delivered. For each audience, add a rule to define who will be able to see the offer.
 
@@ -91,11 +91,11 @@ In Target, you need to create the two audiences into which the people who visit 
 
 1. Follow the same procedure for the remaining audiences.
 
-## Creating an Experience Targeting Activity {#creating-targeting-activity}
+## Create an Experience Targeting Activity {#creating-targeting-activity}
 
 In Target, we need to create an Experience Targeting activity, define the different experiences, and associate them with the corresponding offers.
 
-### Defining the audience {#defining-the-audience}
+### Define the audience {#defining-the-audience}
 
 1. To create an Experience Targeting activity, from the **[!UICONTROL Activities]** tab, click **[!UICONTROL Create Activity]** then **[!UICONTROL Experience Targeting]**.
 
@@ -113,7 +113,7 @@ In Target, we need to create an Experience Targeting activity, define the differ
 
 1. Create another experience by clicking **[!UICONTROL Add Experience Targeting]**.
 
-### Defining the location and content {#defining-location-content}
+### Define the location and content {#defining-location-content}
 
 Add a content for each audience:
 
@@ -131,7 +131,7 @@ Add a content for each audience:
 
 1. Follow the same steps for the second experience.
 
-### Defining the activity {#defining-activity}
+### Define the activity {#defining-activity}
 
 The **[!UICONTROL Target]** window summarizes your activity. If necessary, you can add other experiences.
 
@@ -143,7 +143,7 @@ The **[!UICONTROL Reporting Settings]** section lets you select an action and ed
 
    ![](assets/target_experience_2.png)
 
-## Previewing and sending the email in Campaign Classic {#preview-send-email}
+## Preview and sending the email in Campaign Classic {#preview-send-email}
 
 In Adobe Campaign, you can now preview your email and test its rendering on different recipients. You will notice that the image changes according to the different experiences created. To learn more on email creation, refer to this [page](../../delivery/using/defining-the-email-content.md).
 

@@ -17,6 +17,6 @@ If you upgrade from Adobe Campaign v6 to v7, we recommend the following guidelin
 
 For more information on migration procedures and best practices, refer to:
 
-* [Performing a build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
+* [How to perform a build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
 * [Migration overview](../../migration/using/about-migration.md)
 

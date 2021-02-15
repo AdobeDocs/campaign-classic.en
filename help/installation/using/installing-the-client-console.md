@@ -86,7 +86,7 @@ To log on to an existing instance, follow the steps below:
 
 **Related topics**
 
-* [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
+* [Create an instance and log on](../../installation/using/creating-an-instance-and-logging-on.md).
 * [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) 
 
 ## Tutorial video

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: message-templates
 ---
 
-# Template unpublication{#template-unpublication}
+# Unpublish a template{#template-unpublication}
 
 Once a message template is published on the execution instances, it can be unpublished. For more on the template publication process, see [this section](../../message-center/using/template-publication.md).
 

@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Importing and exporting data using workflows {#import-export-workflows}
+# Import and export data using workflows {#import-export-workflows}
 
-## Collecting data {#collecting-data-workflows}
+## Collect data {#collecting-data-workflows}
 
 Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
 
-### Using data from a list: Read list {#using-data-from-a-list--read-list}
+### Use data from a list: Read list {#using-data-from-a-list--read-list}
 
 The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
 
@@ -22,7 +22,7 @@ This list may have been directly created in Adobe Campaign or imported by the **
 
 For more on using the read list activity in a workflow, refer to [this page](../../workflow/using/read-list.md).
 
-### Loading data from a file {#loading-data-from-a-file}
+### Load data from a file {#loading-data-from-a-file}
 
 The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
 
@@ -40,7 +40,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this page](../../workflow/using/how-to-use-workflow-data.md).
 
-## Exporting data {#exporting-data-via-a-workflow}
+## Export data {#exporting-data-via-a-workflow}
 
 Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 

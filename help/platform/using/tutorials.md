@@ -14,7 +14,7 @@ topic-tags: starting-with-adobe-campaign
 
 Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 
-* [Editing email content with Adobe Experience Manager](https://helpx.adobe.com/campaign/kb/acc-aem.html): learn about the basics to get started with the integration between Adobe Campaign and Experience Manager.
+* [Edit email content with Adobe Experience Manager](https://helpx.adobe.com/campaign/kb/acc-aem.html): learn about the basics to get started with the integration between Adobe Campaign and Experience Manager.
 * [Privacy management](https://helpx.adobe.com/campaign/kb/acc-privacy.html): discover what Adobe Campaign Classic provides to help you with your Privacy compliance when using our service.
 * [Integrating dynamic content in an email](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html): discover the basics to get started with the integration between Campaign Classic and Target Standard.
 * [Managing deliverability](../../delivery/using/deliverability-key-points.md): learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Classic to optimize sending your deliveries.
@@ -24,10 +24,10 @@ Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 
 Learn more about Adobe Campaign by checking the following use cases and examples:
 
-* [Creating a filter on the email format of subscribers](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers): learn how to create a filter to sort newsletter subscriptions based on recipient email format.
+* [Create a filter on the email format of subscribers](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers): learn how to create a filter to sort newsletter subscriptions based on recipient email format.
 * [Create a subscription form with double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in): learn how to send a subscription confirmation request to create a double opt-in to make sure that the recipient subscribed intentionally.
-* [Creating an email delivery](../../web/using/use-case--creating-an-email-delivery.md): learn how to create an email delivery using the Digital Content Editor.
-* [Creating overviews](../../web/using/use-cases--creating-overviews.md): create overview-type Web applications to display all the Web applications in your database.
+* [Create an email delivery](../../web/using/use-case--creating-an-email-delivery.md): learn how to create an email delivery using the Digital Content Editor.
+* [Create overviews](../../web/using/use-cases--creating-overviews.md): create overview-type Web applications to display all the Web applications in your database.
 * [Workflow use cases](../../workflow/using/about-workflow-use-cases.md): discover through these use cases different ways to use workflows.
 
 ## Self-help {#how-to-videos}

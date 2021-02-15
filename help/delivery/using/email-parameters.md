@@ -18,18 +18,13 @@ Adobe Campaign enables you to store emails on an external system through BCC by 
 
 Once the option activated, an exact copy of all sent messages will be kept for this delivery.
 
-For more information on Email BCC configuration and best practices, refer to [this section](../../installation/using/email-archiving.md).
+For more information on Email BCC configuration and best practices, refer to [this section](../../installation/using/email-bcc.md).
 
 >[!NOTE]
 >
 >Email BCC is an optional capability. Please check your license agreement and contact your account executive to activate it.
 
 When creating a new delivery or delivery template, Email BCC is not enabled by default. You need to enable it manually at the email delivery or delivery template level.
-
-<!--
->[!IMPORTANT]
->
->If you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), you can request to use Email BCC with Enhanced MTA for improved efficiency and less latency. In that case, all sent emails are automatically sent to the BCC address. You cannot enable it at the delivery or delivery template level, thus the steps below do not apply. For more on this, see [this section](../../installation/using/email-archiving.md).-->
 
 To enable Email BCC for an email delivery template, follow the steps below:
 
@@ -45,7 +40,7 @@ To enable Email BCC for an email delivery template, follow the steps below:
 >
 >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
 
-## Selecting message formats {#selecting-message-formats}
+## Select message formats {#selecting-message-formats}
 
 You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
@@ -73,7 +68,7 @@ Select the format of the email in the lower section of the window:
 >
 >For more on defining the email content, see [this section](../../delivery/using/defining-the-email-content.md).
 
-## Generating the mirror page {#generating-mirror-page}
+## Generate the mirror page {#generating-mirror-page}
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email.
 
@@ -83,7 +78,7 @@ In the delivery properties, the **[!UICONTROL Mode]** field of the **[!UICONTROL
 
 ![](assets/s_ncs_user_wizard_miror_page_mode.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >An HTML content must have been defined for the delivery for the mirror page to be created.
 
@@ -94,18 +89,6 @@ In addition to the default mode, the following options are also available:
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Click the **[!UICONTROL Display the mirror page for this message...]** link.
 
   ![](assets/s_ncs_user_wizard_miror_page_link.png)
-
-## Managing bounce emails {#managing-bounce-emails}
-
-The **[!UICONTROL SMTP]** tab of the delivery parameters lets you configure the management of bounce mails.
-
-![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
-
-By default, bounced emails are received in the default error box of the platform, but you can define a specific error address for a delivery.
-
-You can also define a specific address from this screen in order to investigate the reasons for bounce mails when these could not be automatically qualified by the application. For each of these fields, the **Add personalized fields** icon lets you add personalization parameters.
-
-For more on bounce mail management, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 ## Character encoding {#character-encoding}
 
@@ -119,7 +102,19 @@ To do this, select the **[!UICONTROL Force the encoding used for messages]** opt
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
-## Adding SMTP headers {#adding-smtp-headers}
+## Manage bounce emails {#managing-bounce-emails}
+
+The **[!UICONTROL SMTP]** tab of the delivery parameters lets you configure the management of bounce mails.
+
+By default, bounced emails are received in the default error box of the platform, but you can define a specific error address for a delivery.
+
+You can also define a specific address from this screen in order to investigate the reasons for bounce mails when these could not be automatically qualified by the application. For each of these fields, the **Add personalized fields** icon lets you add personalization parameters.
+
+![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
+
+For more on bounce mail management, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+
+## Add SMTP headers {#adding-smtp-headers}
 
 It is possible to add SMTP headers to your deliveries. To do this, use the relevant section of the **[!UICONTROL SMTP]** tab in the delivery.
 
@@ -127,7 +122,7 @@ The script entered in this window must reference one header per line in the foll
 
 Values are encoded automatically if necessary.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adding a script for inserting additional SMTP headers is reserved for advanced users.
 >

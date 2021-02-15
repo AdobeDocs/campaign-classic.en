@@ -56,13 +56,13 @@ Adobe Campaign can operate with two levels of log:
 
 Here is an example specific to the Web module. The other modules operate as indicated above.
 
-Before sending this command, check that no job in progress will be affected.
+Before sending this command, check that no job in progress will be affected:
 
 ```
 nlserver pdump -who
 ```
 
-Next, shut down and restart the module in **TraceFilter** mode.
+Next, shut down and restart the module in **TraceFilter** mode:
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default

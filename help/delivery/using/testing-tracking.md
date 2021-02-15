@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tracking-messages
 ---
 
-# Testing tracking{#testing-tracking}
+# Test tracking{#testing-tracking}
 
 You can test tracking on mirror pages, email logs and links. To do this:
 

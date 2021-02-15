@@ -28,7 +28,7 @@ Start by creating a Facebook account and several pages: these will be used for s
 
   ![](assets/social_diagram_fb_external_account.png)
 
-## Creating a test Facebook page {#creating-a-test-facebook-page}
+## Create a test Facebook page {#creating-a-test-facebook-page}
 
 We recommend creating a private Facebook page for delivering publication proofs (for more on this, refer to [Sending the proof](../../social/using/publishing-on-facebook.md#sending-the-proof).
 
@@ -40,7 +40,7 @@ We recommend creating a private Facebook page for delivering publication proofs 
 
 ![](assets/social_facebook_test_page.png)
 
-## Creating a Facebook application {#creating-a-facebook-application}
+## Create a Facebook application {#creating-a-facebook-application}
 
 In order for Adobe Campaign to be able to publish on the walls of your pages, you need to create a Facebook application. To do this, apply the following steps:
 

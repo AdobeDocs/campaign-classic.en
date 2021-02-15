@@ -10,7 +10,7 @@ topic-tags: production-procedures
 
 # Configuration{#configuration}
 
-## Changing the syslogd listening port {#changing-the-syslogd-listening-port}
+## Change the syslogd listening port {#changing-the-syslogd-listening-port}
 
 By default, the **syslogd** listening port is 666 (udp). You can alter it using an environment variable if necessary.
 
@@ -32,7 +32,7 @@ You need to create the **TRACE_ADDR** environment variable with the **localhost*
 >
 >We recommend running some tests to make sure your platform is working after you create this environment variable.
 
-## Configuring security zones {#configuring-security-zones}
+## Configure security zones {#configuring-security-zones}
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Technical zone configuration is carried out in the configuration file of the Adobe Campaign server. The linking of an operator to a security zone has to be defined in the console ( **[!UICONTROL Administration > Access management > Operators]** node).
 

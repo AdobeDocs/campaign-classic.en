@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-case
 ---
 
-# Use case: Sending transactional emails with attachments{#transactional-email-with-attachments}
+# Use case: Send transactional emails with attachments{#transactional-email-with-attachments}
 
 The purpose of this use case is to add email attachments on the fly to outbound dispatches.
 

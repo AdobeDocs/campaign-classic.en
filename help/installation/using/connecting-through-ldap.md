@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: additional-configurations
 ---
 
-# Connecting through LDAP{#connecting-through-ldap}
+# Connect through LDAP{#connecting-through-ldap}
 
-## Configuring Campaign and LDAP {#configuring-campaign-and-ldap}
+## Configure Campaign and LDAP {#configuring-campaign-and-ldap}
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ The window lets you configure the identification of Adobe Campaign users via the
 
       No encryption (for use in test phases only).
 
-* Select the user authentication mode: **[!UICONTROL Automatically compute the unique user identifier]** (see step [Distinguished Name calculation](#distinguished-name-calculation)) or **[!UICONTROL Search the unique user identifier in the directory]** (see step [Searching for identifiers](#searching-for-identifiers)).
+* Select the user authentication mode: **[!UICONTROL Automatically compute the unique user identifier]** (see step [Distinguished Name calculation](#distinguished-name-calculation)) or **[!UICONTROL Search the unique user identifier in the directory]** (see step [Search for identifiers](#searching-for-identifiers)).
 
 ## Compatibility {#compatibility}
 
@@ -107,7 +107,7 @@ If you wish to compute the Distinguished Name (DN) identifiers, the next step of
 
   If you populate these two fields, Adobe Campaign will connect to the LDAP server with its own login and password. If they are empty, Adobe Campaign will connect to the server anonymously.
 
-## Searching for identifiers {#searching-for-identifiers}
+## Search for identifiers {#searching-for-identifiers}
 
 If you choose to search for an identifier, the deployment wizard lets you configure the search.
 
@@ -132,7 +132,7 @@ If you choose to search for an identifier, the deployment wizard lets you config
 
 * The **[!UICONTROL Filter]** field enables you to specify an element to refine the scope of the search.
 
-## Configuring LDAP authorizations {#configuring-ldap-authorizations}
+## Configure LDAP authorizations {#configuring-ldap-authorizations}
 
 This window is displayed when you select the **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** option.
 

@@ -8,9 +8,7 @@ content-type: reference
 topic-tags: distributed-marketing
 ---
 
-# About distributed marketing{#about-distributed-marketing}
-
-## Introduction {#introduction}
+# Get started with distributed marketing{#about-distributed-marketing}
 
 Adobe Campaign offers a **Distributed Marketing** application for implementing cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the **[!UICONTROL list of campaign packages]**, where centrally created campaign templates and instances are offered to local entities.
 
@@ -57,7 +55,7 @@ A local campaign is an instance created from a template referenced in the list o
 
 The local entity's degree of autonomy depends on the implementation used.
 
-Refer to [Creating a local campaign](../../campaign/using/creating-a-local-campaign.md).
+Refer to [Create a local campaign](../../campaign/using/creating-a-local-campaign.md).
 
 ### Collaborative campaign {#collaborative-campaign}
 
@@ -68,9 +66,9 @@ A collaborative campaign is a campaign whose **execution schedule is defined** b
 * **[!UICONTROL Collaborative campaign (by target approval)]**: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs web access.
 * **[!UICONTROL Collaborative campaign (simple)]**: this mode ensures compatibility with the specific execution processes of previous versions.
 
-Refer to [Creating a collaborative campaign](../../campaign/using/creating-a-collaborative-campaign.md).
+Refer to [Create a collaborative campaign](../../campaign/using/creating-a-collaborative-campaign.md).
 
-### Ordering campaign packages {#ordering-campaign-packages}
+### Order campaign packages {#ordering-campaign-packages}
 
 If a local entity registers for a campaign this is made into an order which regroups all information relative to the campaign localization.
 

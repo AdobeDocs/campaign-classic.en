@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-environments
 ---
 
-# Creating predefined filters{#creating-predefined-filters}
+# Create predefined filters{#creating-predefined-filters}
 
  Predefined filters let you create eligibility rules for the target population that can easily be re-used during offer creation. They are specific to each environment and take the offer parameters into account.
 

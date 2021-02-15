@@ -20,7 +20,7 @@ Adobe Campaign lets you perform mass personalized deliveries of SMS messages. Th
 
 The sections below provide information that is specific to the SMS channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-## Setting up SMS channel {#setting-up-sms-channel}
+## Set up SMS channel {#setting-up-sms-channel}
 
 To send to a mobile phone, you need:
 
@@ -30,10 +30,10 @@ To send to a mobile phone, you need:
 
 1. A delivery template in which this external account is referenced.
 
-### Creating an SMPP external account {#creating-an-smpp-external-account}
+### Create an SMPP external account {#creating-an-smpp-external-account}
 
 To send a SMS to a mobile phone, you first need to create your SMPP external account.
-For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+For more information on SMS protocol and settings, refer to [this page](sms-protocol.md).
 
 To do this, follow the steps below:
 
@@ -348,9 +348,9 @@ To avoid this, apply one of the following solutions, depending on the provider y
 
    ![](assets/extended_smpp_system-type.png)
 
-The steps for setting up an external account using the Extended generic SMPP connector are detailed in the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.
+The steps for setting up an external account using the Extended generic SMPP connector are detailed in the [Create an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.
 
-### Changing the delivery template {#changing-the-delivery-template}
+### Change the delivery template {#changing-the-delivery-template}
 
 Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [About templates](../../delivery/using/about-templates.md) section.
 
@@ -380,9 +380,9 @@ In the example below, we create a template to deliver messages via the SMPP acco
 
 You now have an external account and a delivery template that let you deliver via SMS.
 
-## Creating a SMS delivery {#creating-a-sms-delivery}
+## Create a SMS delivery {#creating-a-sms-delivery}
 
-### Selecting the delivery channel {#selecting-the-delivery-channel}
+### Select the delivery channel {#selecting-the-delivery-channel}
 
 To create a new SMS delivery, follow the steps below:
 
@@ -391,14 +391,14 @@ To create a new SMS delivery, follow the steps below:
 >Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 1. Create a new delivery, for example from the Delivery dashboard.
-1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. For more on this, refer to the [Changing the delivery template](#changing-the-delivery-template) section.
+1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. For more on this, refer to the [Change the delivery template](#changing-the-delivery-template) section.
 
    ![](assets/s_user_mobile_wizard.png)
 
 1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
 
-## Defining the SMS content {#defining-the-sms-content}
+## Define the SMS content {#defining-the-sms-content}
 
 To create the content of the SMS, follow the steps below:
 
@@ -430,7 +430,7 @@ To create the content of the SMS, follow the steps below:
 
 1. If you use the NetSize connector or an SMPP connector, you can personalize the name of the delivery sender. For more on this, refer to the [Advanced parameters](#advanced-parameters) section.
 
-## Selecting the target population {#selecting-the-target-population}
+## Select the target population {#selecting-the-target-population}
 
 The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/steps-defining-the-target-population.md).
 
@@ -438,14 +438,14 @@ For more on the use of personalization fields, refer to [About personalization](
 
 For more on the inclusion of a seed list, refer to [About seed addresses](../../delivery/using/about-seed-addresses.md).
 
-## Sending SMS messages {#sending-sms-messages}
+## Send SMS messages {#sending-sms-messages}
 
 To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
-* [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)
+* [Validate the delivery](../../delivery/using/steps-validating-the-delivery.md)
+* [Send the delivery](../../delivery/using/steps-sending-the-delivery.md)
 
 ### Advanced parameters {#advanced-parameters}
 
@@ -467,27 +467,27 @@ The following options are available:
 * **Priority**: level of importance assigned to a message. **[!UICONTROL Normal]** priority is selected by default. Ask your service provider about the cost of SMS sent with **[!UICONTROL High]** priority.
 * **Type of application**: choose the application you wish to assign to your SMS delivery. The **[!UICONTROL Direct Marketing]** option is selected by default and is the most common one used.
 
-**Parameters specific to the NetSize connector**
+**NetSize connector specific parameters**
 
 ![](assets/s_user_mobile_sms_adv_netsize.png)
 
 * **Use several SMS for a single message**: this lets you send a message over 160 characters long via several SMS messages.
 
-**Parameters specific to an SMPP connector**
+**SMPP connector specific parameters**
 
 ![](assets/s_user_mobile_sms_adv_smpp.png)
 
 * **Maximum number of SMS per message**: this option lets you set the number of SMS to use to send a message. If the number is set to 0, you can use an SMS to deliver your message. If the number of SMS is set to 1 or 2 for instance, and the message exceeds this threshold, it will not be sent.
 
-## Monitoring and tracking SMS deliveries {#monitoring-and-tracking-sms-deliveries}
+## Monitor and track SMS deliveries {#monitoring-and-tracking-sms-deliveries}
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
-* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Monitor a delivery](../../delivery/using/about-delivery-monitoring.md)
+* [Understand delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [About message tracking](../../delivery/using/about-message-tracking.md)
 
-## Processing inbound messages {#processing-inbound-messages}
+## Process inbound messages {#processing-inbound-messages}
 
 The **nlserver sms** module queries the SMS router at regular intervals. This allows Adobe Campaign to track the progress of deliveries and handle the status reports and recipient unsubscription requests.
 
@@ -530,7 +530,7 @@ The InSMS schema contains information relevant to incoming SMS. A description of
 * **operatorCode**: operator network code.
 * **linkedSmsId**: Adobe Campaign identifier (broadlogId) linked to outgoing SMS, where this SMS is the response.
 
-## Managing automatic replies (American regulation) {#managing-automatic-replies--american-regulation-}
+## Manage automatic replies (American regulation) {#managing-automatic-replies--american-regulation-}
 
 When subscribers reply to an SMS message that was sent to them via Adobe Campaign, and they use a keyword such as STOP, HELP, or YES, it is necessary, in the US market, to configure messages that are automatically returned.
 
@@ -540,7 +540,7 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!IMPORTANT]
 >
->The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Creating an SMPP external account](#creating-an-smpp-external-account) section.
+>The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Create an SMPP external account](#creating-an-smpp-external-account) section.
 >
 >It makes up part of the certification process carried out by American operators for marketing campaigns in the US. These replies to subscriber SMS messages containing the keyword must be sent back to the subscriber immediately after receiving a message from them.
 

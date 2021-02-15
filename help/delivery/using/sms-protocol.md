@@ -7,17 +7,14 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 ---
+
 # SMS connector protocol and settings {#sms-connector-protocol}
 
 >[!NOTE]
 >
->The **SMS connector protocol and settings** for Adobe Campaign Standard can be found in this [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html#administrating).
->
->Through this document, all references to details about the protocol, field names and values refer to the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>In this page, all references to details about the protocol, field names and values are based on the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 ## Overview {#overview}
-
-SMS might be limited to sending short text messages with no formatting but its simplicity makes it a valuable communication channel.
 
 There are two main ways to send an SMS:
 
@@ -25,13 +22,13 @@ There are two main ways to send an SMS:
 * Send it from the internet, the way Adobe Campaign send messages. For that, you need a SMS service provider that connects the internet to the mobile network.
 Adobe Campaign uses the SMPP protocol to send SMS to a service provider.
 
-This document will walk you through the connection set up between Adobe Campaign and a SMPP provider.
+This section will walk you through the connection set up between Adobe Campaign and a SMPP provider.
 
 SMPP providers can sometimes deviate from the official specification but the SMS connector in Adobe Campaign provides many options to adapt its behavior for it to be compatible with most providers.
 
 >[!IMPORTANT]
 >
->Setting up a connection to a new provider may require some technical skills, knowledge of TCP, binary, hexadecimal representation and text encodings. It will also require active cooperation with the provider.
+>Setting up a connection to a new provider requires technical skills, knowledge of TCP, binary, hexadecimal representation and text encodings. It will also require active cooperation with the provider.
 
 ### SMS types {#sms-types}
 
@@ -476,7 +473,7 @@ Specifying short code is helpful for two features:
 
 * The preview will display the short code if no source number is provided. It will reflect the real behavior on the mobile phone.
 
-* The blocklist setting of the auto reply feature only sends to quarantine the user for a specific short code.
+* The denylist setting of the auto reply feature only sends to quarantine the user for a specific short code.
 
 #### Source TON/NPI, Destination TON/NPI {#ton-npi}
 
@@ -707,7 +704,7 @@ This setting only allows adding one TLV option per message.
 >
 >In Adobe Campaign Classic and in an hybrid architecture, applying auto-reply for the extended SMPP connector requires to add write access for the mid operator on the **External account** folder.
 
-This feature allows to quickly reply text to MO and handle per-short code sending to block list.
+This feature allows to quickly reply text to MO and handle per-short code sending to denylist.
 
 The **Keyword** and **Short code** columns define conditions to trigger the auto reply. If both fields match, the MO is sent and the additional action is triggered. To specify a wildcard, you should leave the field empty. Keyword matches against the first alphanumeric word in the MO text, ignoring punctuation and leading spaces. It means that the **Keyword** field cannot contain spaces and must be a single word.
 

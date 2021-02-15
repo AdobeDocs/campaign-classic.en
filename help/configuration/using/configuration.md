@@ -2,13 +2,13 @@
 solution: Campaign Classic
 product: campaign
 title: Configure Campaign Navtree
-description: Configuration
+description: Learn how to configure the navtree
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 ---
 
-# Configuration{#configuration}
+# Configure the navtree{#configuration}
 
 The types of folders used by the navigation list are described in an XML document that obeys the grammar of the **xtk:navtree** schema.
 

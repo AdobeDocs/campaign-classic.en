@@ -55,7 +55,7 @@ The rights assigned to the delivery manager are/enable them to carry out the fol
   >
   >The delivery manager can only approve an offer if he has been defined as a reviewer during the offer configuration.
 
-## Recap of rights according to operator {#recap-of-rights-according-to-operator}
+## Overview of operator's permissions {#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 

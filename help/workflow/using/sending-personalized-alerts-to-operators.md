@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Sending personalized alerts to operators{#sending-personalized-alerts-to-operators}
+# Send personalized alerts to operators{#sending-personalized-alerts-to-operators}
 
 In this example, we want to send an alert to an operator that will contain the name of profiles who opened a newsletter but did not click the link it contains.
 
@@ -23,7 +23,7 @@ The process is to build a workflow as below:
 
 ![](assets/uc_operator_1.png)
 
-## Saving the population to the instance variable {#saving-the-population-to-the-instance-variable}
+## Save the population to the instance variable {#saving-the-population-to-the-instance-variable}
 
 Add the code below into the **[!UICONTROL JavaScript code]** activity.
 
@@ -70,7 +70,7 @@ var.recCount>0
 
 ![](assets/uc_operator_7.png)
 
-## Setting up the alert {#setting-up-the-alert}
+## Set up the alert {#setting-up-the-alert}
 
 Now that the population has been added into the instance variable with the desired fields, you can add these information into the **[!UICONTROL Alert]** activity.
 

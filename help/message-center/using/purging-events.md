@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: instance-configuration
 ---
 
-# Purging events{#purging-events}
+# Purge events{#purging-events}
 
 You can use the [deployment wizard](../../production/using/database-cleanup-workflow.md#deployment-wizard) to configure how long the data is to be stored in the database.
 

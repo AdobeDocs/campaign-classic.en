@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-html-content
 ---
 
-# Creating a landing page{#creating-a-landing-page}
+# Create a landing page{#creating-a-landing-page}
 
 ## About landing pages creation {#about-landing-pages-creation}
 
@@ -18,7 +18,7 @@ Before you start configuring the Landing Page in Adobe Campaign, make sure you h
 
 The main aim of this use case is to make the Landing Page form fields correspond with the internal fields in Adobe Campaign using the functions in the DCE.
 
-## Creating the landing page {#creating-the-landing-page}
+## Create the landing page {#creating-the-landing-page}
 
 To create a new Landing Page type Web application, use the following steps:
 
@@ -123,7 +123,7 @@ You can make a field mandatory: for example, click the **[!UICONTROL Email]** fi
 
 ![](assets/dce_uc1_fieldmandatory.png)
 
-### Creating a link to the next page {#creating-a-link-to-the-next-page}
+### Create a link to the next page {#creating-a-link-to-the-next-page}
 
 This step is mandatory because it will allow the Web application to determine the sequence of the next steps: Saving the collected data in the database then displaying the next page (**Thank you** page).
 

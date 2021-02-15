@@ -76,7 +76,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>File-based email archiving<br></td>
-   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a></p></td>
+   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-bcc.md">Learn more</a></p></td>
   </tr> 
    <tr> 
    <td>Lead management</td>

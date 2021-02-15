@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: editing-html-content
 ---
 
-# Editing content{#editing-content}
+# Edit content{#editing-content}
 
-## Defining a visibility condition {#defining-a-visibility-condition}
+## Define a visibility condition {#defining-a-visibility-condition}
 
 You can specify a visibility condition on a web page element: this element will only be visible if the condition is respected.
 
@@ -30,7 +30,7 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 >
 >Non-visible dynamic blocks, such as drop-down menus, cannot be edited.
 
-## Adding a border and background {#adding-a-border-and-background}
+## Add a border and background {#adding-a-border-and-background}
 
 You can add a **border** to a selected block. The borders are defined using three options: style, size and color.
 
@@ -40,9 +40,9 @@ You can also define a **background color** by selecting a color from the color c
 
 ![](assets/dce_popup_background.png)
 
-## Editing forms {#editing-forms}
+## Edit forms {#editing-forms}
 
-### Changing the data properties for a form {#changing-the-data-properties-for-a-form}
+### Change the data properties for a form {#changing-the-data-properties-for-a-form}
 
 You can link database fields with input zone, radio button or checkbox type blocks.
 
@@ -74,7 +74,7 @@ To do this:
 
   ![](assets/dce_sidebar_completeoptionradio.png)
 
-### Modifying form fields {#modifying-form-fields}
+### Modify form fields {#modifying-form-fields}
 
 Form fields such as radio buttons, input zones, drop-down lists, etc. can be modified from their toolbars.
 
@@ -86,7 +86,7 @@ This means you can:
 
   ![](assets/dce_toolbar_formblock_edition.png)
 
-## Adding an action to a button {#adding-an-action-to-a-button}
+## Add an action to a button {#adding-an-action-to-a-button}
 
 When the user clicks a button, you can define an associated action. To do this, select the action to be carried out from the drop-down list.
 
@@ -104,7 +104,7 @@ The actions available are as follows:
 
 You can modify the label linked to the button in the corresponding field.
 
-## Adding a link {#adding-a-link}
+## Add a link {#adding-a-link}
 
 You can insert a link into any page element: image, word, group of words, block of text, etc.
 
@@ -158,7 +158,7 @@ The **Link that defines an action** option lets you configure an action when cli
 
 >[!NOTE]
 >
->Available actions are detailed in the [Adding an action to a button](#adding-an-action-to-a-button) section.
+>Available actions are detailed in the [Add an action to a button](#adding-an-action-to-a-button) section.
 
 ### Delete a link {#delete-a-link}
 
@@ -171,7 +171,7 @@ When a link has been inserted, the tool bar offers two new icons: **Edit link** 
 >
 >If the link is deleted, the content is still kept.
 
-## Changing font attributes {#changing-font-attributes}
+## Change font attributes {#changing-font-attributes}
 
 When you select a text element, you can modify font attributes (style, format).
 
@@ -196,7 +196,7 @@ The available options are as follows:
 >
 >* **Duplicate** icon: duplicates the block as well as all the styles related to the block.
 
-## Managing images and animations {#managing-images-and-animations}
+## Manage images and animations {#managing-images-and-animations}
 
 The Digital Content Editor lets you work on **any type of image** compatible with browsers.
 
@@ -204,7 +204,7 @@ The Digital Content Editor lets you work on **any type of image** compatible wit
 >
 >You must not call up external files in a **script** tag of the HTML page. These files will not be imported onto the Adobe Campaign server.
 
-### Adding / Deleting / Duplicating an image {#adding---deleting---duplicating-an-image}
+### Add, delete or duplicate an image {#adding---deleting---duplicating-an-image}
 
 To insert an image, select an Image type block and click the **Image** icon.
 
@@ -222,7 +222,7 @@ The **Duplicate** icon duplicates the ![]() tag and its content.
 >
 >When you duplicate an image, the identifiers related to the new image are deleted.
 
-### Editing image properties {#editing-image-properties}
+### Edit image properties {#editing-image-properties}
 
 When you select a block containing an image, you access the following properties:
 
@@ -231,9 +231,9 @@ When you select a block containing an image, you access the following properties
 
   ![](assets/dce_popup_imgsize.png)
 
-## Adding personalization content {#adding-personalization-content}
+## Add personalization content {#adding-personalization-content}
 
-### Inserting a personalization field {#inserting-a-personalization-field}
+### Insert a personalization field {#inserting-a-personalization-field}
 
 The **Personalization field** option for the insert icon lets you add a database field into the content, such as the recipient's name. This option is only available for text type blocks.
 
@@ -243,9 +243,9 @@ By default, the fields offered are from the **[!UICONTROL Recipient]** table. Wh
 
 The field name appears in the editor, highlighted in yellow. It will be replaced by the profile of the targeted recipient when the personalization is generated (for example, when previewing a landing page).
 
-An example is presented in the [Inserting a personalization field](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) section.
+An example is presented in the [Insert a personalization field](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) section.
 
-### Inserting a personalization block {#inserting-a-personalization-block}
+### Insert a personalization block {#inserting-a-personalization-block}
 
 The **Personalization block** option lets you insert dynamic and personalized blocks into the content. For example, you can add a logo or a greeting message. It is not available for Text type blocks.
 

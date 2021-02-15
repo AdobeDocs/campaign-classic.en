@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: migration-overview
 ---
 
-# Migrating to Campaign Classic{#about-migration}
+# Migrate to Campaign Classic{#about-migration}
 
 This document details the prerequisites to a migration, the steps for a migration to Adobe Campaign Classic (v7), the additional, necessary and optional settings depending on your configuration.
 

@@ -20,7 +20,7 @@ Detailed information is available [here](../../production/using/monitoring-proce
 
 ![](assets/monitoring_tab.png)
 
-## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
+## Monitoring processes {#monitoring-campaign-classic-processes}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Monitor your instance</a></p></td>

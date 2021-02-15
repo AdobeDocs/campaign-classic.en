@@ -18,7 +18,7 @@ In a targeting workflow (outbound channel), you can use the target data during a
 
 ## Additional data configuration {#additional-data-configuration}
 
-You must extend the **nms:interaction** schema linked to the environment and declare the list of additional fields that will be used during a call to the Interaction engine. When creating the eligibility rule or personalizing an offer, these fields will become accessible from the **Interaction** node (refer to [Using additional data](#using-additional-data)).
+You must extend the **nms:interaction** schema linked to the environment and declare the list of additional fields that will be used during a call to the Interaction engine. When creating the eligibility rule or personalizing an offer, these fields will become accessible from the **Interaction** node (refer to [Use additional data](#using-additional-data)).
 
 For the inbound channel, you must add the call data fields into the **Interaction** node.
 
@@ -69,7 +69,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 You must create a targeting workflow loading additional data in the work table by respecting the same xml structure and same internal names as in the **nms:interaction** schema. Refer to: [Additional data configuration](#additional-data-configuration).
 
-## Using additional data {#using-additional-data}
+## Use additional data {#using-additional-data}
 
 ### Eligibility rules {#eligibility-rules}
 

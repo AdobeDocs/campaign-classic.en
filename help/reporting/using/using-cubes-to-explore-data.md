@@ -8,27 +8,27 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 ---
 
-# Using cubes to explore data{#using-cubes-to-explore-data}
+# Use cubes to explore data{#using-cubes-to-explore-data}
 
 Marketing Analytics makes it easier to create reports and to identify and select data from the database via cubes. This enables you to:
 
-* Create reports based on cubes. The process is detailed here: [Exploring the data in a report](#exploring-the-data-in-a-report).
-* Collect the data in the database and group it into lists, for instance to identify and build targets and deliveries. For more on this, refer to [Building a target population](#building-a-target-population).
-* Insert a pivot table into a report, reference an existing cube in it. For more on this, refer to [Inserting a pivot table into a report](#inserting-a-pivot-table-into-a-report).
+* Create reports based on cubes. The process is detailed here: [Explore the data in a report](#exploring-the-data-in-a-report).
+* Collect the data in the database and group it into lists, for instance to identify and build targets and deliveries. For more on this, refer to [Build a target population](#building-a-target-population).
+* Insert a pivot table into a report, reference an existing cube in it. For more on this, refer to [Insert a pivot table into a report](#inserting-a-pivot-table-into-a-report).
 
 >[!NOTE]
 >
 >Marketing Analytics is necessary to create or modify cubes. For more on this, refer to [About cubes](../../reporting/using/about-cubes.md).
 
-## Exploring the data in a report {#exploring-the-data-in-a-report}
+## Explore the data in a report {#exploring-the-data-in-a-report}
 
-### Step 1 - Creating a report based on a cube {#step-1---creating-a-report-based-on-a-cube}
+### Step 1 - Create a report based on a cube {#step-1---creating-a-report-based-on-a-cube}
 
 To create a report based on a cube, click the **[!UICONTROL Create]** button in the **[!UICONTROL Reports]** universe and select the cube you want to use.
 
-The process is detailed here: [Creating a report based on a cube](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
+The process is detailed here: [Create a report based on a cube](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
-### Step 2 - Selecting lines and columns {#step-2---selecting-lines-and-columns}
+### Step 2 - Select lines and columns {#step-2---selecting-lines-and-columns}
 
 The default display shows the first two dimensions of the cube (age and city, in this case).
 
@@ -47,7 +47,7 @@ The **[!UICONTROL Add]** buttons on each axis enable you to add dimensions.
 
    The parameters depend on the data type of the selected dimension.
 
-   For instance, for dates, several levels can be available. For more on this, refer to [Displaying measures](../../reporting/using/concepts-and-methodology.md#displaying-measures).
+   For instance, for dates, several levels can be available. For more on this, refer to [Display measures](../../reporting/using/concepts-and-methodology.md#displaying-measures).
 
    The following options are offered in this case:
 
@@ -67,7 +67,7 @@ The **[!UICONTROL Add]** buttons on each axis enable you to add dimensions.
 
    ![](assets/s_advuser_cube_in_report_04c.png)
 
-### Step 3 - Configuring the measures to display {#step-3---configuring-the-measures-to-display}
+### Step 3 - Configure the measures to display {#step-3---configuring-the-measures-to-display}
 
 Once the lines and columns are in place, indicate the measures you want to display as well as their display mode.
 
@@ -89,7 +89,7 @@ By default, only one measure is displayed. To add or configure measures:
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 
-   You can then choose whether or not to display measure labels. For more on this, refer to [Configuring the display](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
+   You can then choose whether or not to display measure labels. For more on this, refer to [Configure the display](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
 1. It's possible to build new measures using existing ones. To do this, click **[!UICONTROL Create a measure]** and configure it.
 
@@ -113,7 +113,7 @@ By default, only one measure is displayed. To add or configure measures:
 
    Then click **[!UICONTROL Edit the dynamic measure]** to access the settings menu.
 
-## Building a target population {#building-a-target-population}
+## Build a target population {#building-a-target-population}
 
 Reports build using cubes enable you to collect data from the table and save it in a list.
 
@@ -149,7 +149,7 @@ To group a population into a list, apply the following steps:
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 
-## Inserting a pivot table into a report {#inserting-a-pivot-table-into-a-report}
+## Insert a pivot table into a report {#inserting-a-pivot-table-into-a-report}
 
 To create a table and explore the data in a cube, apply the following steps:
 
@@ -161,5 +161,5 @@ To create a table and explore the data in a cube, apply the following steps:
 
    ![](assets/s_advuser_cube_in_report_02.png)
 
-   This lets you build the report to be displayed. For more on this, refer to [Step 2 - Selecting lines and columns](#step-2---selecting-lines-and-columns).
+   This lets you build the report to be displayed. For more on this, refer to [Step 2 - Select lines and columns](#step-2---selecting-lines-and-columns).
 

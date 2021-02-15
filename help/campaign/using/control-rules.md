@@ -25,7 +25,7 @@ A set of out-of-the-box rules lets you carry out usual checks. These checks (sho
 * **[!UICONTROL Wave scheduling check]** (email): checks that the last wave of deliveries is scheduled to start before the end of the validity period, if the delivery is broken down into several waves.
 * **[!UICONTROL Unsubscription link approval]** (email): checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
 
-## Creating a control rule {#creating-a-control-rule}
+## Create a control rule {#creating-a-control-rule}
 
 It is possible to create new control rules to suit your needs. To do this, create a **[!UICONTROL Control]** typology rule and enter the control formula in SQL in the **[!UICONTROL Code]** tab.
 

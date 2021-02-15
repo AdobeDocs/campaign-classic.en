@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Accessing the list of deliveries
+title: Access the list of deliveries
 description: Learn how to access the list of created deliveries.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 ---
 
-# Accessing the list of deliveries {#list-of-deliveries}
+# Access the list of deliveries {#list-of-deliveries}
 
 You can access deliveries from the delivery list, via the **[!UICONTROL Campaign Management > Deliveries]** node of the tree.
 

@@ -53,7 +53,7 @@ Below are listed a few best practices regarding the proposition table.
 
 This section contains more detailed advice on managing offers and using the Interaction module in Adobe Campaign Classic.
 
-### Using multiple offer spaces in an email delivery {#multiple-offer-spaces}
+### Use multiple offer spaces in an email delivery {#multiple-offer-spaces}
 
 When including offers in deliveries, the offers are generally selected upstream in the Campaign workflow via an Enrichment activity (or another similar activity).
 
@@ -79,7 +79,7 @@ When you include multiple offer spaces in a single email delivery and if some of
 
 Consequently, to avoid any issue, it is recommended that all offer spaces have an HTML rendering function defined, even if your offer space only requires HTML content.
 
-### Setting the rank in the proposition log table {#rank-proposition-log-table}
+### Set up the rank in the proposition log table {#rank-proposition-log-table}
 
 Offer spaces have the ability to store data in the proposition table when propositions are generated or accepted:
 
@@ -101,7 +101,7 @@ Additional fields can be added, such as a @rank field:
 
 Because there is a field in the proposition table named @rank, the value in the workflow temp table will be copied.
 
-For more on storing additional fields in the proposition table, see [Integrating an offer via a workflow](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights).
+For more on storing additional fields in the proposition table, see [Integrate an offer via a workflow](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights).
 
 For outbound offers with Interaction, this is useful when several offers are selected and you want to record in which order they will be displayed in an email.
 
@@ -113,7 +113,7 @@ When using Interaction and manually selecting offers, the user can combine both 
 
 ![](assets/Interaction-best-practices-manual-offer-combined.png)
 
-### Extending the nms:offer schema {#extending-nms-offer-schema}
+### Extend the nms:offer schema {#extending-nms-offer-schema}
 
 When extending the nms:offer schema, make sure you follow the out-of-the-box structure already set-up:
 * Define any new field for content storage under `<element name="view">`.

@@ -169,7 +169,7 @@ Indexes obey the following rules:
   </srcSchema>
   ```
 
-## Management of keys {#management-of-keys}
+## Key management {#management-of-keys}
 
 A table must have at least one key for identifying a record in the table.
 

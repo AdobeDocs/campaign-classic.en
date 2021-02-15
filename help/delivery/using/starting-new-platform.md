@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deliverability-management
 ---
 
-# Starting a new platform {#starting-new-platform}
+# Start a new platform {#starting-new-platform}
 
 Maintaining your domain and IP address reputation is essential when setting up a new platform.
 
@@ -26,11 +26,11 @@ Below are listed the main principles to be followed when starting up a new platf
     * If you have a list of invalid addresses, it is in your best interests to import it into the quarantine table (available through the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** menu) before sending for the first times.
     * If, all the same, you wish to requalify the invalid addresses, it is by far preferable to do this once the reputation of the platform is established and bit by bit in order to "dilute" the use of bad addresses over time.
 
-    For more on this, see [Optimizing your delivery through quarantines](../../delivery/using/understanding-quarantine-management.md#optimizing-your-delivery-through-quarantines).
+    For more on this, see [Optimize your delivery through quarantines](../../delivery/using/understanding-quarantine-management.md#optimizing-your-delivery-through-quarantines).
 * **Limit the throughput rate** by limiting the number of mtachilds. For more on adjusting such technical setting, contact your Adobe Campaign administrator.
-* **Progressively increase the volumes sent** to avoid being marked as spam. Do not target the whole database from the very start, but rather add an extra fraction of the list each time you send. This should enable you to increase the volume at each step while reducing the overall rate of invalid addresses. To ensure smooth development of the start-up phase, you can use waves. For more on this, see [Sending using multiple waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
+* **Progressively increase the volumes sent** to avoid being marked as spam. Do not target the whole database from the very start, but rather add an extra fraction of the list each time you send. This should enable you to increase the volume at each step while reducing the overall rate of invalid addresses. To ensure smooth development of the start-up phase, you can use waves. For more on this, see [Send using multiple waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 * **Send regularly**. To a certain extent it is better to send small shots regularly rather than large campaigns sporadically.
-* **Pay close attention to the delivery reports**. High error indicators can mean a technical setting is badly configured. For more on this, see [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md).
+* **Pay close attention to the delivery reports**. High error indicators can mean a technical setting is badly configured. For more on this, see [Monitor a delivery](../../delivery/using/about-delivery-monitoring.md).
 
 **Related topics**:
 * [Increase your email reputation with IP warming](https://helpx.adobe.com/campaign/kb/increase-email-rep-ip-warming.html)

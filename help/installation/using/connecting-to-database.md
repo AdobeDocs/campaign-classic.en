@@ -18,7 +18,7 @@ To enable a connection to the external database, you must indicate the connectio
 >
 >To avoid any malfunction, operators who access remote shared data must be working from separate spaces.
 
-## Creating a shared connection {#creating-a-shared-connection}
+## Create a shared connection {#creating-a-shared-connection}
 
 To enable a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign.
 
@@ -39,13 +39,13 @@ To enable a connection to a shared external database, as long as this connection
 
 You can define specific work tablespaces for the tables and for the index in the **[!UICONTROL Parameters]** tab.
 
-## Creating a temporary connection {#creating-a-temporary-connection}
+## Create a temporary connection {#creating-a-temporary-connection}
 
 You can directly define a connection to an external database from workflow activities. In this case, it will be on a local external database, reserved to be used within a current workflow: it will not be saved on the external accounts. This type of punctual connection can be created on different activities of the workflow, particularly the **[!UICONTROL Query]**, the **[!UICONTROL Data loading (RDBMS)]**, the **[!UICONTROL Enrichment]** activity or the **[!UICONTROL Split]** activity.
 
 >[!CAUTION]
 >
->This type of configuration is not recommended but may be used periodically to collect data. Nevertheless, you should create an external account, as presented in the [Creating a shared connection](#creating-a-shared-connection) section.
+>This type of configuration is not recommended but may be used periodically to collect data. Nevertheless, you should create an external account, as presented in the [Create a shared connection](#creating-a-shared-connection) section.
 
 For example, in the query activity, the steps for creating a periodic connection to an external database are as follows:
 

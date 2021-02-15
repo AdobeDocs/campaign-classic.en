@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-schemas
 ---
 
-# New field wizard{#new-field-wizard}
+# Add a new field{#new-field-wizard}
 
 A wizard accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: message-templates
 ---
 
-# Template publication{#template-publication}
+# Publish a template {#template-publication}
 
 When the message template created on the control instance is complete, you can publish it. This process will also publish it on all execution instances.
 

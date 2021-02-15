@@ -16,9 +16,9 @@ Binning enables you to simplify data display by grouping values according to cri
 
 Overall, three types of binning are available:
 
-1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Defining each bin](#defining-each-bin).
-1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](#dynamically-managing-bins).
-1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Creating value ranges](#creating-value-ranges).
+1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Define each bin](#defining-each-bin).
+1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically manage bins](#dynamically-managing-bins).
+1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Create value ranges](#creating-value-ranges).
 
 To enable binning, check the appropriate box when creating the dimension.
 
@@ -28,7 +28,7 @@ You can either create bins manually or link them to an existing enumeration.
 
 Adobe Campaign also provides an assistant for automatic binning: values can be broken down into N groups, or grouped according to the most frequent values in the database.
 
-### Defining each bin {#defining-each-bin}
+### Define each bin {#defining-each-bin}
 
 To create each bin individually, select the **[!UICONTROL Define each bin]** option and use the table to create the various bins.
 
@@ -48,7 +48,7 @@ In the example below, all email domains that start with **yahoo** (yahoo.fr, yah
 
 ![](assets/s_advuser_cube_class_03b.png)
 
-### Dynamically managing bins {#dynamically-managing-bins}
+### Manage bins dynamically {#dynamically-managing-bins}
 
 Values can be managed dynamically via enumerations. This means that only the values contained in the enumeration will be displayed. When the enumeration values change, the content of the Cube is adapted automatically.
 
@@ -61,7 +61,7 @@ To create this type of value binning, apply the following steps:
 
    Whenever the enumeration values are updated, the matching bins are adapted automatically.
 
-### Creating value ranges {#creating-value-ranges}
+### Create value ranges {#creating-value-ranges}
 
 You can group the values into ranges based on a desired interval.
 
@@ -71,7 +71,7 @@ To define ranges manually, click the **[!UICONTROL Add]** button and select **[!
 
 Then specify the lower and upper limits and click **[!UICONTROL Ok]** to confirm.
 
-### Generating bins automatically {#generating-bins-automatically}
+### Generate bins automatically {#generating-bins-automatically}
 
 It's also possible to generate bins automatically. To do this, click the **[!UICONTROL Generate bins...]** link.
 
@@ -115,7 +115,7 @@ The **[!UICONTROL Domains]** enumeration is used to generate built-in reports th
 
 You can create other enumerations reserved for binning and use them in other Cubes: all alias values will be regrouped in the bins specified in the first enumeration tab.
 
-## Calculating and using aggregates {#calculating-and-using-aggregates}
+## Calculate and using aggregates {#calculating-and-using-aggregates}
 
 The largest data volumes can be calculated in aggregates.
 
@@ -151,11 +151,11 @@ To create a new aggregate, apply the following steps:
     
       ![](assets/s_advuser_cube_agregate_05.png)
 
-## Defining measures {#defining-measures}
+## Define measures {#defining-measures}
 
 The types of measures are defined in the **[!UICONTROL Measures]** tab of the cube. You can calculate sums, averages, deviations, etc.
 
-You can create as many measures as necessary: then select the measure that you want to show or hide in the table. For more on this, refer to [Displaying measures](#displaying-measures).
+You can create as many measures as necessary: then select the measure that you want to show or hide in the table. For more on this, refer to [Display measures](#displaying-measures).
 
 To define a new measure, apply the following steps:
 
@@ -175,13 +175,13 @@ To define a new measure, apply the following steps:
 
 1. Enter the label of the measure and add a description, then click **[!UICONTROL Finish]** to create it.
 
-## Displaying measures {#displaying-measures}
+## Display measures {#displaying-measures}
 
 You can configure the display of measures in the table depending on your needs:
 
 * the display sequence of measures (refer to [Display sequence](#display-sequence)),
-* the information to show/hide in the report (refer to [Configuring the display](#configuring-the-display)) 
-* which measures to display: percentage, total, number of decimals, etc. (refer to [Changing the type of measure displayed](#changing-the-type-of-measure-displayed)).
+* the information to show/hide in the report (refer to [Configure the display](#configuring-the-display)) 
+* which measures to display: percentage, total, number of decimals, etc. (refer to [Change the type of measure displayed](#changing-the-type-of-measure-displayed)).
 
 ### Display sequence {#display-sequence}
 
@@ -191,7 +191,7 @@ Move the lines around to change the display sequence. In the following example, 
 
 ![](assets/s_advuser_cube_in_report_config_04.png)
 
-### Configuring the display {#configuring-the-display}
+### Configure the display {#configuring-the-display}
 
 The configuration of measures, lines and columns can be carried out individually for each measure or overall. A specific icon lets you access the display mode selection window.
 
@@ -205,13 +205,13 @@ The color options let you highlight important values for easy reading.
 
 ![](assets/s_advuser_cube_in_report_config_06.png)
 
-### Changing the type of measure displayed {#changing-the-type-of-measure-displayed}
+### Change the type of measure displayed {#changing-the-type-of-measure-displayed}
 
 Within each measure, you can define the unit and formatting to be applied.
 
 ![](assets/s_advuser_cube_in_report_config_07.png)
 
-## Sharing a report {#sharing-a-report}
+## Share a report {#sharing-a-report}
 
 Once the report is configured, you can save it and share it with other operators.
 
@@ -225,7 +225,7 @@ To confirm these changes, you need to save the report.
 
 ![](assets/cube_share_confirm.png)
 
-## Creating filters {#creating-filters}
+## Create filters {#creating-filters}
 
 It is possible to create filters for viewing a section of the data.
 

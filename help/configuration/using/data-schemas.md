@@ -10,13 +10,11 @@ topic-tags: editing-schemas
 
 # Data schemas{#data-schemas}
 
-## Principles {#principles}
-
 To edit, create and configure the schemas, click the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign client console.
 
 >[!NOTE]
 >
->Out-of-the-box data schemas can only be deleted by an administrator of your Adobe Campaign Classic console.
+>Built-in data schemas can only be deleted by an administrator of your Adobe Campaign Classic console.
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
@@ -36,9 +34,9 @@ The preview automatically generates the extended schema:
 >
 >When the source schema is saved, generation of the extended schema is automatically launched.
 
-If you need to check the complete structure of a schema, you can use the preview tab. If the schema has been extended, you will then be able to visualize all its extensions. As a complement, the Documentation tab displays all the schema attributes and elements, and their properties (SQL Field, type/length, label, description). The Documentation tab only applies to generated schemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
+If you need to check the complete structure of a schema, you can use the preview tab. If the schema has been extended, you will then be able to visualize all its extensions. As a complement, the Documentation tab displays all the schema attributes and elements, and their properties (SQL Field, type/length, label, description). The Documentation tab only applies to generated schemas. For more on this, refer to the [Regenerate schemas](../../configuration/using/regenerating-schemas.md) section.
 
-## Example: creating a contract table {#example--creating-a-contract-table}
+## Example: create a contract table {#example--creating-a-contract-table}
 
 In the following example, we want to create a new table for **contracts** in the database model of the Adobe Campaign database. This table lets you store first and last names and email addresses of holders and co-holders, for each contract.
 
@@ -113,5 +111,5 @@ To do this, you need to create the schema of the table and update the database s
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [Updating the database structure](../../configuration/using/updating-the-database-structure.md).
+1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [Update the database structure](../../configuration/using/updating-the-database-structure.md).
 

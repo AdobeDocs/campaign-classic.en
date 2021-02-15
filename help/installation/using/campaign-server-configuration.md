@@ -12,7 +12,7 @@ topic-tags: initial-configuration
 
 The following sections details mandatory server configurations which will guarantee the efficient operating of Adobe Campaign for most set-ups.
 
-Additional configurations are offered in [Configuring Campaign server](../../installation/using/configuring-campaign-server.md).
+Additional configurations are offered in [Configure Campaign server](../../installation/using/configuring-campaign-server.md).
 
 >[!NOTE]
 >

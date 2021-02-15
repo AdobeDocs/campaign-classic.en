@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: asset-sharing
 ---
 
-# Sharing assets with Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
+# Share assets with Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
 
 Experience Cloud Assets provide a single, centralized repository of marketing-ready assets that you can share across solutions. An asset is a digital document, image, video, or audio file.
 
@@ -21,7 +21,7 @@ When editing an email delivery or a landing page in Adobe Campaign, you can plac
 
 The different available libraries are detailed in [this document](https://docs.adobe.com/content/help/en/core-services/interface/assets/experience-cloud-assets.html).
 
-Consult the [Configuring access to Assets](../../integrations/using/configuring-access-to-assets.md) section to find out more about the specifics linked to each library.
+Consult the [Configure access to Assets](../../integrations/using/configuring-access-to-assets.md) section to find out more about the specifics linked to each library.
 
 >[!NOTE]
 >

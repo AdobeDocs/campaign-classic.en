@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: appendices
 ---
 
-# The server configuration file{#the-server-configuration-file}
+# Campaign server configuration file{#the-server-configuration-file}
 
 The overall configuration of Adobe Campaign is defined in the **serverConf.xml** file, located in the **conf** directory of the installation directory. This section lists all the different nodes and parameters of the **serverConf.xml** file.
 
 >[!NOTE]
 >
->Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
+>Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section.
 
 The first parameters are inside the **shared** node. These are related to the instance. They are potentially used by all the nlserver commands (nlserver web, nlserver wfserver, etc.). The other sections are related to a specific nlserver sub-command.
 
@@ -1007,7 +1007,7 @@ Here are the different parameters of the **xtkJobs** node. This is the configura
 
 Here are the different parameters of the **archiving** node. This is the configuration of the executed archiving operations in the background.
 
-For additional information, refer to [Activating email archiving (on premise)](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-).
+For additional information, refer to [Activating email BCC (on premise)](../../installation/using/email-bcc.md#activating-email-archiving--on-premise-).
 
 <table> 
  <thead> 
@@ -1300,7 +1300,7 @@ In the **inMail > msgDump** node, configure the following parameters. This is th
 
 Here are the different parameters of the **interactiond** node. This is the configuration of the write daemon for inbound Interaction events.
 
-For additional information, refer to [Interaction - Data buffer](../../installation/using/interaction---data-buffer.md).
+For additional information, refer to [Interaction - Data buffer](../../installation/using/configuring-campaign-server.md#interaction-data-buffer).
 
 <table> 
  <thead> 
@@ -2118,7 +2118,7 @@ Here are the different parameters of the **repair** node. This is the configurat
 
 Here are the different parameters of the **securityZone** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+For additional information, refer to [Define security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 <table> 
  <thead> 
@@ -2216,7 +2216,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **securityZone > subNetwork** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+For additional information, refer to [Define security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 <table> 
  <thead> 
@@ -3314,7 +3314,7 @@ For additional information, refer to [Redundant tracking](../../installation/usi
 
 Here are the different parameters of the **web > spamCheck** node. This is the configuration the Email anti-spam scoring evaluation parameters.
 
-For additional information, refer to [Configuring SpamAssassin](../../installation/using/configuring-spamassassin.md).
+For additional information, refer to [Configure SpamAssassin](../../installation/using/configuring-spamassassin.md).
 
 <table> 
  <thead> 

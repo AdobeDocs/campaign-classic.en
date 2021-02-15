@@ -53,7 +53,7 @@ For more on Adobe Campaign and LDAP integration, refer to [this page](../../inst
 
 Users can also directly connect to Adobe Campaign using their Adobe ID. For more on this, refer to this [page](../../integrations/using/about-adobe-id.md).
 
-### Creating an operator {#creating-an-operator}
+### Create an operator {#creating-an-operator}
 
 To create a new operator and grant permissions, follow the steps below:
 
@@ -207,7 +207,7 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
 Operator groups are created via the **[!UICONTROL Administration > Access management > Operator groups]** node in the tree.
 
-### Creating a new operator group {#creating-a-new-operator-group}
+### Create a new operator group {#creating-a-new-operator-group}
 
 To create a new operator group, apply the following steps:
 
@@ -423,7 +423,7 @@ To distinguish views from folders, the name of each view is displayed in a diffe
 
 ![](assets/s_ncs_user_view_name_color.png)
 
-### Adding folders and creating views {#adding-folders-and-creating-views}
+### Add folders and creating views {#adding-folders-and-creating-views}
 
 In the example below, we will create new folders to display specific data:
 

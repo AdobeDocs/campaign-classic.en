@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Using the Deduplication activity's Merge functionality {#deduplication-merge}
+# Use the Deduplication activity's Merge functionality {#deduplication-merge}
 
 ## About this use case {#about-this-use-case}
 
@@ -32,8 +32,7 @@ The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows 
 
 With the Deduplication activity's **[!UICONTROL Merge]** fonctionality, you can configure a set of rules for the deduplication to define a group of fields to merge into a single resulting data record. For example, with a set of duplicate records, you can choose to keep the oldest phone number or most recent name.
 
-## Activating the Merge functionality {#activating-merge}
-
+## Activate the Merge functionality {#activating-merge}
 
 To enable the merge functionality, you first need to configure the **[!UICONTROL Deduplication]** activity. To do this, follow these steps:
 
@@ -49,7 +48,7 @@ To enable the merge functionality, you first need to configure the **[!UICONTROL
 
 1. The **[!UICONTROL Merge]** tab is added to the **[!UICONTROL Deduplication]** configuration screen. We will use this tab to specify the data to merge when performing deduplication.
 
-## Configuring the fields to merge {#configuring-rules}
+## Configure the fields to merge {#configuring-rules}
 
 Here are the rules we want to use to merge the data into a single record:
 

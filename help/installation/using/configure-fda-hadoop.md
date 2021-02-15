@@ -15,7 +15,7 @@ Use Campaign **Federated Data Access** (FDA) option to process information store
 1. Configure [Hadoop database](#configuring-hadoop) 
 1. Configure the Hadoop [external account](#hadoop-external) in Campaign
 
-## Configuring Hadoop 3.0 {#configuring-hadoop}
+## Configure Hadoop 3.0 {#configuring-hadoop}
 
 Connecting to a Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
 
@@ -75,7 +75,7 @@ The connector also supports the following Hive options:
 |  fileFormat |  PARQUET |  Default file format for work tables. |
 
 
-## Configuring Hadoop 2.1 {#configure-access-hadoop-2}
+## Configure Hadoop 2.1 {#configure-access-hadoop-2}
 
 If you need to connect to Hadoop 2.1, follow the steps decribed below for [Windows](#for-windows) or [Linux](#for-linux).
 

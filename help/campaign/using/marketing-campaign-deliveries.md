@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 ---
 
-# Marketing campaign deliveries {#marketing-campaign-deliveries}
+# Send marketing campaign deliveries {#marketing-campaign-deliveries}
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.
 
@@ -16,7 +16,7 @@ When created from a campaign, deliveries will be linked to this campaign and con
 
 ![](assets/do-not-localize/how-to-video.png)[ Discover this feature in video](#create-email-video)
 
-## Creating deliveries {#creating-deliveries}
+## Create deliveries {#creating-deliveries}
 
 To create a delivery linked to a campaign, click the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
 
@@ -24,12 +24,12 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. [Learn more](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-## Selecting the target population {#selecting-the-target-population}
+## Selecte the target population {#selecting-the-target-population}
 
 For each delivery, you can define:
 
-* The audience - Learn more in [Building the audience in a workflow](#building-the-main-target-in-a-workflow) and [Selecting the target population](#selecting-the-target-population).
-* A control group - Learn more in [Defining a control group](#defining-a-control-group).
+* The audience - Learn more in [Build the audience in a workflow](#building-the-main-target-in-a-workflow) and [Select the target population](#selecting-the-target-population).
+* A control group - Learn more in [Define a control group](#defining-a-control-group).
 * Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).
 
 Some of this information can be inherited from the [template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
@@ -50,7 +50,7 @@ You can import a population into a list, then target this list in deliveries.
 
 ![](assets/s_user_target_group_next.png)
 
-### Building the audience in a workflow {#building-the-main-target-in-a-workflow}
+### Build the audience in a workflow {#building-the-main-target-in-a-workflow}
 
 The main target of a delivery can also be defined in the targeting workflow: this graphical environment lets you build a target using queries, tests and operators: union, deduplication, sharing, etc. [Learn more](../../workflow/using/architecture.md).
 
@@ -86,7 +86,7 @@ The targeting workflow execution and formatting functions are accessible via the
 
 >[!NOTE]
 >
->The activities available to build the diagram as well as all display and layout features are detailed in the [Automating with workflows](../../workflow/using/architecture.md) guide.
+>The activities available to build the diagram as well as all display and layout features are detailed in the [Automate with workflows](../../workflow/using/architecture.md) guide.
 
 You can create several targeting workflows for a single campaign. To add a workflow:
 
@@ -179,13 +179,13 @@ The toolbar icons let you take action concerning the execution of the targeting 
 
   ![](assets/s_user_segmentation_stop_unconditional.png)
 
-### Defining a control group {#defining-a-control-group}
+### Define a control group {#defining-a-control-group}
 
 A control group is a population which will not receive the delivery; it is used to track post-delivery behavior and campaign impact by making a comparison with the behavior of target population, which has received the delivery.
 
 The control group can be extracted from the main target and/or come from a specific group or query.
 
-#### Activating the control group for a campaign {#activating-the-control-group-for-a-campaign}
+#### Activate the control group for a campaign {#activating-the-control-group-for-a-campaign}
 
 You can define a control group at campaign level, in which case the control group will be applied to each delivery of the campaign concerned.
 
@@ -199,9 +199,9 @@ You can define a control group at campaign level, in which case the control grou
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
+The configuration procedure is presented in [Extract the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Add a control group](#adding-a-population).
 
-#### Activating the control group for a delivery {#activating-the-control-group-for-a-delivery}
+#### Activate the control group for a delivery {#activating-the-control-group-for-a-delivery}
 
 You can define a control group at delivery level, in which case the control group will be applied to each delivery of the campaign concerned.
 
@@ -218,9 +218,9 @@ By default, the control group configuration defined at the campaign level applie
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]**.
 1. Click **[!UICONTROL Edit...]** to configure the control group.
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
+The configuration procedure is presented in [Extract the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Add a control group](#adding-a-population).
 
-#### Extracting the control group from the main target {#extracting-the-control-group-from-the-main-target}
+#### Extract the control group from the main target {#extracting-the-control-group-from-the-main-target}
 
 You can extract recipients from the main target of the delivery. In this case, recipients will be taken from the target of delivery actions affected by this configuration. This extraction can be random or can be the result of sorting the recipients. 
 
@@ -237,7 +237,7 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 
 This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/architecture.md) for more information.
 
-### Adding a control group {#adding-a-population}
+### Add a control group {#adding-a-population}
 
 You can define a new population to be used as a control group. This population can come from a group of recipients or you can create it via a specific query.
 
@@ -247,11 +247,11 @@ You can define a new population to be used as a control group. This population c
 >
 >Adobe Campaign query editor is presented in [this section](../../workflow/using/query.md).
 
-## Starting a delivery {#starting-a-delivery}
+## Start a delivery {#starting-a-delivery}
 
-Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
+Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For email or mobile channel deliveries, see [Start an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Start an offline delivery](#starting-an-offline-delivery).
 
-### Starting an online delivery {#starting-an-online-delivery}
+### Start an online delivery {#starting-an-online-delivery}
 
 Once all approval requests have been granted, the delivery status changes to **[!UICONTROL Pending confirmation]** and can be started by an operator. Where appropriate, the Adobe Campaign operator (or group of operators) appointed as reviewer to start the delivery is notified that a delivery is ready to be started.
 
@@ -269,7 +269,7 @@ The information also appears on the campaign dashboard. The **[!UICONTROL Confir
 
 A confirmation message lets you secure this action.
 
-### Starting an offline delivery {#starting-an-offline-delivery}
+### Start an offline delivery {#starting-an-offline-delivery}
 
 Once all approvals have been granted, the delivery status changes to **[!UICONTROL Pending extraction]**. The extraction files are created via a special workflow which, in a default configuration, starts automatically when a direct mail delivery is pending extraction. When a process is in progress, it is displayed in the dashboard and can be edited via its link.
 
@@ -281,7 +281,7 @@ Once all approvals have been granted, the delivery status changes to **[!UICONTR
 
 Once the extraction workflow has been successfully executed, the extraction file must be approved (provided that extraction file approval was selected in the delivery settings).
 
-For more on this, refer to [Approving an extraction file](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
+For more on this, refer to [Approve an extraction file](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
 **Step 2 - Approval of the message to the service provider**
 
@@ -332,21 +332,21 @@ The file extraction launches two operations: budget calculation and stock calcul
 >
 >For further information about cost calculations and stock management, see [Providers, stocks and budgets](../../campaign/using/providers--stocks-and-budgets.md).
 
-## Managing associated documents {#managing-associated-documents}
+## Manage associated documents {#managing-associated-documents}
 
-You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](#adding-documents).
+You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Add documents](#adding-documents).
 
 >[!IMPORTANT]
 >
 >This mode is reserved for small documents.
 
-In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associate and structure resources linked via a delivery outline](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
->If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
+>If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Manage marketing resources](../../campaign/using/managing-marketing-resources.md).
 
-### Adding documents {#adding-documents}
+### Add documents {#adding-documents}
 
 Documents can be associated at the campaign level (contextual documents) or the program level (general documents).
 
@@ -373,7 +373,7 @@ In the dashboard, documents associated with the campaign are grouped in the **[!
 
 They can also be edited and modified from this view.
 
-### Associating and structuring resources linked via a delivery outline {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+### Associate and structure resources linked via a delivery outline {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
@@ -385,7 +385,7 @@ These elements are grouped in delivery outlines, and a particular delivery outli
 
 For a campaign, delivery outlines let you structure external elements to be associated with the delivery according to certain criteria: related branch, promotional offer granted, invitation to a local event, etc.
 
-#### Creating an outline {#creating-an-outline}
+#### Create an outline {#creating-an-outline}
 
 To create an outline, click the **[!UICONTROL Delivery outlines]** sub-tab in the **[!UICONTROL Edit > Documents]** tab of the concerned campaign.
 
@@ -421,9 +421,9 @@ An outline can contain items and personalization fields, resources and offers:
 
   >[!NOTE]
   >
-  >For more on marketing resources, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
+  >For more on marketing resources, refer to [Manage marketing resources](../../campaign/using/managing-marketing-resources.md).
 
-#### Selecting an outline {#selecting-an-outline}
+#### Select an outline {#selecting-an-outline}
 
 For each delivery, you can select the outline to associate from the section reserved for the extraction outline, as in the following example:
 
@@ -445,11 +445,11 @@ In the following example, the label, estimated cost, and description of the outl
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-The export model must be associated with the service provider selected for the delivery concerned. See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+The export model must be associated with the service provider selected for the delivery concerned. See [Create service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 >[!NOTE]
 >
->For more on exports, refer to the [Getting Started](../../platform/using/get-started-data-import-export.md) section.
+>For more on exports, refer to the [Get Started](../../platform/using/get-started-data-import-export.md) section.
 
 #### Tutorial video {#create-email-video}
 

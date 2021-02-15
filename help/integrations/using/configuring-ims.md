@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 ---
 
-# Configuring IMS{#configuring-ims}
+# Configure Adobe IMS{#configuring-ims}
 
 >[!IMPORTANT]
 >
@@ -23,19 +23,19 @@ To use the integration with the IMS:
 
 >[!NOTE]
 >
->Make sure that your users are linked to the Adobe Experience Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](#configuring-the-external-account).
+>Make sure that your users are linked to the Adobe Experience Cloud groups that will be synced with Adobe Campaign. Refer to [Configure the external account](#configuring-the-external-account).
 
-## Updating the console {#updating-the-console}
+## Update Campaign client console {#updating-the-console}
 
 To use this functionality, it is imperative that you install the latest version of the console.
 
-## Installing the package {#installing-the-package}
+## Install the package {#installing-the-package}
 
 You must install the **[!UICONTROL Integration with the Adobe Experience Cloud]** package. Installing an integration package is the same as installing a standard package, which is detailed in [this page](../../installation/using/installing-campaign-standard-packages.md). 
 
 ![](assets/ims_6.png)
 
-## Configuring the external account {#configuring-the-external-account}
+## Configure the external account {#configuring-the-external-account}
 
 Configure the **Adobe Experience Cloud** external account in **[!UICONTROL Administration > Platform > External accounts]**.
 

@@ -12,7 +12,7 @@ topic-tags: simulating-offers
 
 The **Simulation** module lets you test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
 
-Simulation takes into account the contexts and eligibility rules previously applied to offers (refer to [Offer catalog overview](../../interaction/using/offer-catalog-overview.md)), as well as their presentation rules (refer to [Managing offer presentation](../../interaction/using/managing-offer-presentation.md)). This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.
+Simulation takes into account the contexts and eligibility rules previously applied to offers (refer to [Offer catalog overview](../../interaction/using/offer-catalog-overview.md)), as well as their presentation rules (refer to [Manage offer presentation](../../interaction/using/managing-offer-presentation.md)). This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.
 
 To learn how to simulate an offer, read the steps below.
 
@@ -45,7 +45,7 @@ To run a simulation of your offers, apply the following steps:
 
 1. Add reporting axes to enhance the **[!UICONTROL Offer distribution by rank]** report (optional).
 
-   For more on this, refer to [Adding reporting axes](../../interaction/using/simulation-scope.md#adding-reporting-axes).
+   For more on this, refer to [Add reporting axes](../../interaction/using/simulation-scope.md#adding-reporting-axes).
 
    ![](assets/offer_simulation_005.png)
 

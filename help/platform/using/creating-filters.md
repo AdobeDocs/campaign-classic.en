@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: filtering-data
 ---
 
-# Creating filters{#creating-filters}
+# Create filters{#creating-filters}
 
 ## Introduction {#introduction}
 
@@ -36,7 +36,7 @@ The following filter types are available in Adobe Campaign:
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
 -->
-  You can change the default filter of a list. For more on this, refer to [Altering the default filter](#altering-the-default-filter).
+  You can change the default filter of a list. For more on this, refer to [Alter the default filter](#altering-the-default-filter).
 
 * Simple filters
 
@@ -46,15 +46,15 @@ The following filter types are available in Adobe Campaign:
 
   ![](assets/filters_recipient_simple_filter.png)
 
-  Simple filters are detailed in [Creating a simple filter](#creating-a-simple-filter).
+  Simple filters are detailed in [Create a simple filter](#creating-a-simple-filter).
 
 * Advanced filters
 
   **Advanced filters** are created using a query or a combination of queries on the data.
 
-  For more on creating an advanced filter, refer to [Creating an advanced filter](#creating-an-advanced-filter).
+  For more on creating an advanced filter, refer to [Create an advanced filter](#creating-an-advanced-filter).
 
-  You can use functions to define the content of the filter. For more on this, refer to [Creating an advanced filter with functions](#creating-an-advanced-filter-with-functions).
+  You can use functions to define the content of the filter. For more on this, refer to [Create an advanced filter with functions](#creating-an-advanced-filter-with-functions).
 
   >[!NOTE]
   >
@@ -64,9 +64,9 @@ The following filter types are available in Adobe Campaign:
 
   An **application filter** is an advanced filter that has been saved, to use and share its configuration with the other operators.
 
-  The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Saving a filter](#saving-a-filter).
+  The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Save a filter](#saving-a-filter).
 
-## Altering the default filter {#altering-the-default-filter}
+## Alter the default filter {#altering-the-default-filter}
 
 To change the default filter for a recipient list, click the **[!UICONTROL Profiles and Targets > Pre-defined filters]** node of the tree.
 
@@ -87,9 +87,9 @@ Apply the following steps:
 
    >[!NOTE]
    >
-   >The filter definition window is detailed in [Creating an advanced filter](#creating-an-advanced-filter) and [Saving a filter](#saving-a-filter).
+   >The filter definition window is detailed in [Create an advanced filter](#creating-an-advanced-filter) and [Save a filter](#saving-a-filter).
 
-## Creating a simple filter {#creating-a-simple-filter}
+## Create a simple filter {#creating-a-simple-filter}
 
 To create a **simple filter**, apply the following steps:
 
@@ -123,7 +123,7 @@ If the field on which you want to filter the data is not displayed in the form o
 
    ![](assets/s_ncs_user_delete_filter.png)
 
-## Creating an advanced filter {#creating-an-advanced-filter}
+## Create an advanced filter {#creating-an-advanced-filter}
 
 To create an **advanced filter**, apply the following steps:
 
@@ -163,9 +163,9 @@ To cancel this filter, click the **[!UICONTROL Remove this filter]** icon to the
 
 ![](assets/s_ncs_user_filter_adv_remove.png)
 
-You can save an advanced filter to keep it for future use. For further information about this type of filter, see [Saving a filter](#saving-a-filter).
+You can save an advanced filter to keep it for future use. For further information about this type of filter, see [Save a filter](#saving-a-filter).
 
-### Creating an advanced filter with functions {#creating-an-advanced-filter-with-functions}
+### Create an advanced filter with functions {#creating-an-advanced-filter-with-functions}
 
 Advanced filters can use functions; **filters with functions** are created via an expression editor that lets you create formulas using the database data and advanced functions. To create a filter with functions, repeat advanced filter creation steps 1, 2 and 3, then proceed as follows:
 
@@ -178,7 +178,7 @@ Advanced filters can use functions; **filters with functions** are created via a
 
     * **[!UICONTROL Field only]** to select a field. This is the default mode. 
     * **[!UICONTROL Aggregate]** to select the aggregate formula to be used (counts, sum, average, maximum, minimum).
-    * **[!UICONTROL User filter]** to select one of the existing user filters. User filters are detailed in [Saving a filter](#saving-a-filter).
+    * **[!UICONTROL User filter]** to select one of the existing user filters. User filters are detailed in [Save a filter](#saving-a-filter).
     * **[!UICONTROL Expression]** to access the expressions editor.
 
       The expression editor lets you define an advanced filter. It looks like this:
@@ -191,7 +191,7 @@ Advanced filters can use functions; **filters with functions** are created via a
       >
       >For an example of filter creation based on an expression, refer to [Identifying recipients whose birthday it is](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
 
-## Saving a filter {#saving-a-filter}
+## Save a filter {#saving-a-filter}
 
 Filters are specific to each operator and are re-initialized each time the operator clears the cache of their client console.
 
@@ -215,9 +215,9 @@ You can combine filters by clicking the **[!UICONTROL Filters]** button and usin
 
 ![](assets/s_ncs_user_filter_combination.png)
 
-## Filtering recipients {#filtering-recipients}
+## Filter recipients {#filtering-recipients}
 
-Predefined filters (see [Saving a filter](#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. You can edit filters from the **[!UICONTROL Profiles and Targets > Predefined filters]** node of the tree. The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
+Predefined filters (see [Save a filter](#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. You can edit filters from the **[!UICONTROL Profiles and Targets > Predefined filters]** node of the tree. The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
 
 Select a filter to display its definition and to access a preview of the filtered data.
 

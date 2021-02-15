@@ -8,20 +8,20 @@ content-type: reference
 topic-tags: delivering-an-offer
 ---
 
-# Integrating an offer via the wizard{#integrating-an-offer-via-the-wizard}
+# Integrate an offer via the wizard{#integrating-an-offer-via-the-wizard}
 
 When creating a delivery, there are two possible methods for integrating offers:
 
 * Calling the offer engine in the body of a delivery.
 * Referencing offers via a campaign's delivery outlines. This method is generally used for paper campaigns.
 
-## Delivering with a call to the offer engine {#delivering-with-a-call-to-the-offer-engine}
+## Deliver with a call to the offer engine {#delivering-with-a-call-to-the-offer-engine}
 
 To present an offer during a marketing campaign, simply create a classic delivery action based on the chosen channel. The offer engine is called up when the delivery content is defined, by clicking the **[!UICONTROL Offers]** icon available in the toolbar.
 
 ![](assets/offer_delivery_009.png)
 
-For more on deliveries and marketing campaigns, refer to [Delivery](../../delivery/using/about-direct-mail-channel.md) and [Campaign](../../campaign/using/setting-up-marketing-campaigns.md).
+For more on deliveries and marketing campaigns, refer to [this page](../../delivery/using/about-direct-mail-channel.md) and [this section](../../campaign/using/setting-up-marketing-campaigns.md).
 
 ### Main steps for inserting an offer into a delivery {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -70,7 +70,7 @@ To insert offer propositions into a delivery, apply the following steps:
 * **[!UICONTROL Exclude non-eligible recipients]** : This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers. The number of eligible propositions may be lower than the requested number of propositions. If this box is checked, recipients who don't have enough propositions will be excluded from the delivery. If you don't select this option, these recipients will not be excluded but they won't have the requested number of propositions.
 * **[!UICONTROL Do not display anything if no offer is selected]** : this option lets you choose how the message will be processed in case one of the propositions does not exist. When this box is checked, the representation of the missing proposition is not displayed and no content will appear in the message for this proposition. If the box isn't checked, the message itself is cancelled during sending and recipients will no longer receive any messages.
 
-### Inserting an offer proposition into a delivery {#inserting-an-offer-proposition-into-a-delivery}
+### Insert an offer proposition into a delivery {#inserting-an-offer-proposition-into-a-delivery}
 
 The representation of offers to be presented is inserted into the body of the delivery via the merge fields. The number of propositions is defined in the parameters of the offer engine call.
 
@@ -78,11 +78,11 @@ The delivery can be personalized using the offer's fields or, in the case of an 
 
 ![](assets/offer_delivery_011.png)
 
-## Delivering with delivery outlines {#delivering-with-delivery-outlines}
+## Deliver with delivery outlines {#delivering-with-delivery-outlines}
 
 You can also present offers in a delivery using delivery outlines.
 
-For more information on delivery outlines, refer to the [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
+For more information on delivery outlines, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
 
 1. Create a new campaign or access an existing campaign.
 1. Access the delivery outlines via the campaign's **[!UICONTROL Edit]** > **[!UICONTROL Documents]** tab.
@@ -103,7 +103,7 @@ For more information on delivery outlines, refer to the [Campaign - MRM](../../c
 
    ![](assets/int_compo_offre3.png)
 
-1. Add the propositions into the delivery body using the personalization fields (for more on this, refer to the [Inserting an offer proposition into a delivery](#inserting-an-offer-proposition-into-a-delivery) section), or in the case of a direct mail delivery, by editing the extraction file format.
+1. Add the propositions into the delivery body using the personalization fields (for more on this, refer to the [Insert an offer proposition into a delivery](#inserting-an-offer-proposition-into-a-delivery) section), or in the case of a direct mail delivery, by editing the extraction file format.
 
    Propositions will be selected from the offers referenced in the delivery outline.
 

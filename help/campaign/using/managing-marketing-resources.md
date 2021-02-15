@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 ---
 
-# Managing marketing resources{#managing-marketing-resources}
+# Manage marketing resources{#managing-marketing-resources}
 
 Adobe Campaign lets you manage and track the marketing resources involved in the campaign life cycle. These marketing resources can be a brochure, a visual aid, or any other communication medium involving several operators.
 
 For each marketing resource managed via Adobe Campaign, you can track its status and history at any time and view the current version.
 
-## Adding a marketing resource {#adding-a-marketing-resource}
+## Add a marketing resource {#adding-a-marketing-resource}
 
 Marketing resources are accessed via the Campaigns universe.
 
@@ -123,7 +123,7 @@ The **[!UICONTROL Tracking]** tab enables all operators to track the various sta
 >
 >In addition to the reviewer specified for each marketing resource, operators with administrator rights and the resource manager are authorized to approve a marketing resource.
 
-### Publishing a resource {#publishing-a-resource}
+### Publish a resource {#publishing-a-resource}
 
 When approved, the marketing resource must be published. The publication process must be subject to specific implementation according to company requirements. This means that resources can be published on an extranet or any other server, specific information can be sent to an external service provider, etc.
 
@@ -146,9 +146,9 @@ The workflow will be executed:
 
 If a workflow isn't started immediately (if the workflow is stopped for instance), the status of the resource changes to **[!UICONTROL Pending publication]**. Once the workflow is started, the status of the resource changes to **[!UICONTROL Published]**. This status does not take into account possible errors in the publishing process. Check the status of your workflow to make sure it has executed properly.
 
-## Linking a resource to a campaign {#linking-a-resource-to-a-campaign}
+## Link a resource to a campaign {#linking-a-resource-to-a-campaign}
 
-### Referencing a marketing resource {#referencing-a-marketing-resource}
+### Reference a marketing resource {#referencing-a-marketing-resource}
 
 Marketing resources can be associated with campaigns, provided that this feature was selected in the campaign template.
 
@@ -170,7 +170,7 @@ The **[!UICONTROL Details]** button lets you edit and view it.
 
 The resources added are displayed in the dashboard. They can also be edited there.
 
-### Adding a marketing resource to a delivery outline {#adding-a-marketing-resource-to-a-delivery-outline}
+### Add a marketing resource to a delivery outline {#adding-a-marketing-resource-to-a-delivery-outline}
 
 Marketing resources can be associated with deliveries via delivery outlines.
 
@@ -178,7 +178,7 @@ Marketing resources can be associated with deliveries via delivery outlines.
 
 >[!NOTE]
 >
->For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+>For more information on delivery outlines, refer to [Associate and structure resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Stock management {#stock-management}
 

@@ -114,7 +114,7 @@ The steps for installing the first server are:
     
       ![](assets/install_create_new_connexion.png)
 
-      For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
+      For more on this, refer to [Create an instance and log on](../../installation/using/creating-an-instance-and-logging-on.md).
 
       or
     
@@ -124,7 +124,7 @@ The steps for installing the first server are:
       nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
       ```    
     
-      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
+      For more on this, refer to [Create an instance](../../installation/using/command-lines.md#creating-an-instance).
 
 1. Edit the **config-demo.xml** file (created via the previous command and located next to the **config-default.xml** file), check that the **mta** (delivery), **wfserver** (workflow), **inMail** (rebound mails) and **stat** (statistics) processes are enabled, then configure the address of the **app** statistics server:
 
@@ -162,7 +162,7 @@ The steps for installing the first server are:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Linux: [Client console availability for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#client-console-availability-for-linux)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
@@ -195,7 +195,7 @@ The steps for installing the first server are:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Linux: [Client console availability for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#client-console-availability-for-linux)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 ### Installing and configuring the application server 2 {#installing-and-configuring-the-application-server-2}

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Using the local approval activity{#using-the-local-approval-activity}
+# Use the local approval activity{#using-the-local-approval-activity}
 
 The **[!UICONTROL Local approval]** activity integrated into a targeting workflow lets you set up a recipient approval process before the delivery is sent.
 

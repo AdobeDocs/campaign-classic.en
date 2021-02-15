@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: adobe-experience-manager
 ---
 
-# Configuring pipeline {#configuring-pipeline}
+# Configure Experience Cloud pipeline {#configuring-pipeline}
 
 Authentication parameters such as the customer ID, the private key, and the authentication endpoint are configured in the instance configuration files.
 The list of triggers to be processed is configured in an option in JSON format.
@@ -38,13 +38,13 @@ Authentication is required since pipeline is hosted in the Adobe Experience Clou
 It uses a pair of public and private keys. This process has the same function as a user/password but is more secure.
 Authentication is supported for the Marketing Cloud via Adobe I/O Project.
 
-## Step 1: Creating/updating Adobe I/O Project {#creating-adobe-io-project}
+## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
 
 For Hosted customers, you can create a customer care ticket to enable your organization with Adobe I/O Technical Account Tokens for the Triggers integration.
 
-For On Premise customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe I/O credential.
+For On Premise customers, refer to the [Configure Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe I/O credential.
 
-## Step 2: Configuring NmsPipeline_Config pipeline option {#configuring-nmspipeline}
+## Step 2: Configure NmsPipeline_Config pipeline option {#configuring-nmspipeline}
 
 Once the authentication is set, pipeline will retrieve the events. It will only process triggers that are configured in Adobe Campaign. The trigger must have been generated from Adobe Analytics and pushed to the pipeline which will only process triggers that are configured in Adobe Campaign.
 The option can also be configured with a wildcard in order to catch all triggers regardless of the name.

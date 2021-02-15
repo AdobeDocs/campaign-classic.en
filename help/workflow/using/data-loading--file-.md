@@ -30,7 +30,7 @@ You can define a pre-process to be executed during file import, for example so a
 
 For more on this, refer to this section: [Unzippping or decrypting a file before processing](../../platform/using/unzip-decrypt.md).
 
-## Defining the file format {#defining-the-file-format}
+## Define the file format {#defining-the-file-format}
 
 When you load a file, the column format is automatically detected with the default parameters for each data type. You can modify these default parameters in order to specify the particular processes to apply to your data, particularly when there is an error or an empty value.
 
@@ -73,7 +73,7 @@ The column formatting allows you to define the value processing of each column:
 * **[!UICONTROL Default value]**: specifies the default value according to the error processing chosen.
 * **[!UICONTROL Mapping]**: this field is only available in the column detail configuration (accessed via a double-click or via the options on the right of the column list). This transforms certain values when they are imported. For example, you can transform "three" into "3".
 
-## Example: Collecting data and loading it in the database {#example--collecting-data-and-loading-it-in-the-database}
+## Example: Collect data and loading it in the database {#example--collecting-data-and-loading-it-in-the-database}
 
 The following example lets you collect a file on the server every day, load its content and update the data in the database depending on the information it contains. The file to be collected contains information on clients who may have made purchases (for more or less than 3,000 Euro), asked for a refund on a purchase or visited the shop without purchasing anything. Depending on this information, various processes will be applied to their profile in the database.
 

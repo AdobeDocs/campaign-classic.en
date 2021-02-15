@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: online-surveys
 ---
 
-# Configuring surveys{#configuring-surveys}
+# Configure surveys{#configuring-surveys}
 
 ## Survey properties {#survey-properties}
 

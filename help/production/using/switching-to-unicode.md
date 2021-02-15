@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 ---
 
-# Switching to Unicode{#switching-to-unicode}
+# How to switch to Unicode{#switching-to-unicode}
 
 For an existing **prod** instance in Linux/PostgreSQL, the steps for switching to unicode are as follows:
 
