@@ -116,4 +116,5 @@ XTK-170024 The temporary 'temp:deliveryEmail-all' schema is not defined in the c
 ```
 The maximum number of connections has been reached (50) by connections pool 'nms:extAccount:acsDefaultRelayAccount XXX'. The server is overloaded. Please try again later.
 ```
+
 * Fixed an error with SMS when connection issues occurred between the server and provider. The connection would then be automatically disabled by the MTA child. Adobe Campaign Classic would not try to connect to this failing connection as long as a new child had not been started.
