@@ -20,7 +20,7 @@ In the following example, we will create overview-type Web applications to displ
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
 
-## Creating a single-page Web application {#creating-a-single-page-web-application}
+## Create a single-page Web application {#creating-a-single-page-web-application}
 
 1. Create a single **[!UICONTROL Page]** Web application and disable outbound transitions and transitions to the next page.
 
@@ -46,7 +46,7 @@ In the following example, we will create overview-type Web applications to displ
 
    ![](assets/s_ncs_configuration_webapp_preview.png)
 
-## Adding a filter on a folder {#adding-a-filter-on-a-folder}
+## Add a filter on a folder {#adding-a-filter-on-a-folder}
 
 In an overview, you can choose to access data depending on its location in the Adobe Campaign tree. This is a filter on a folder. Apply the following process to add it to your overview.
 
@@ -75,7 +75,7 @@ In an overview, you can choose to access data depending on its location in the A
    >
    >At this stage, the Web application is not within its application context, the filter can therefore not be tested on the folder.
 
-## Adding a button to configure a new Web application {#adding-a-button-to-configure-a-new-web-application}
+## Add a button to configure a new Web application {#adding-a-button-to-configure-a-new-web-application}
 
 1. Place your cursor on the **[!UICONTROL Page]** element and add a link (**[!UICONTROL Static elements > Link]**).
 1. Modify the link label since it will appear on the button in the overview.
@@ -101,7 +101,7 @@ In an overview, you can choose to access data depending on its location in the A
 
    ![](assets/s_ncs_configuration_webapp_link.png)
 
-## Adding detail to a list {#adding-detail-to-a-list}
+## Add detail to a list {#adding-detail-to-a-list}
 
 When you configure a list in your overview, you can choose to display additional details for each entry on your list.
 
@@ -172,7 +172,7 @@ These two elements will be grouped in the same container in order to be graphica
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 
-### Creating a filter using a link editor {#creating-a-filter-using-a-link-editor}
+### Create a filter using a link editor {#creating-a-filter-using-a-link-editor}
 
 1. Place your cursor on the container created during the previous stage and insert a link editor via the **[!UICONTROL Advanced controls]** menu.
 1. In the storage window which opens automatically, select the **[!UICONTROL Variables]** option, then click the **[!UICONTROL Edit variables]** link and create an XML variable for filtering data.
@@ -200,7 +200,7 @@ These two elements will be grouped in the same container in order to be graphica
 >
 >The Web application user must be an identified operator with the appropriate Adobe Campaign rights to access the information. This type of configuration will not work for anonymous Web applications.
 
-### Creating a refresh link {#creating-a-refresh-link}
+### Create a refresh link {#creating-a-refresh-link}
 
 1. Place the cursor on the container and insert a **[!UICONTROL Link]** via the **[!UICONTROL Static elements]** menu.
 1. Modify the label.

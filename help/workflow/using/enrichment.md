@@ -49,7 +49,7 @@ Use cases detailing the operating of Enrichment activities in their context are 
 * [Enriching data](../../workflow/using/enriching-data.md)
 * [Creating a summary list](../../workflow/using/creating-a-summary-list.md)
 
-## Adding information {#adding-information}
+## Add information {#adding-information}
 
 Use the **[!UICONTROL Enrichment]** activity to add columns to a work table: this activity can be used as a complement to a query activity.
 
@@ -93,7 +93,7 @@ The data and the schema at the enrichment stage output will be as follows:
 
 ![](assets/enrichment_content_after_without_additional.png)
 
-## Creating a link {#creating-a-link}
+## Create a link {#creating-a-link}
 
 You can use the enrichment activity to create a link between the working data and the Adobe Campaign database: this will be a local link to the workflow between the inbound data.
 

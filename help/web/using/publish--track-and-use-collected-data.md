@@ -106,7 +106,7 @@ Answers to a survey can be exported in an external file to be processed later. T
    >
    >Data exports and the stages of their configuration are detailed in [this section](../../platform/using/about-generic-imports-exports.md).
 
-## Using the collected data {#using-the-collected-data}
+## Use the collected data {#using-the-collected-data}
 
 The information collected via online surveys can be recovered within the framework of a targeting workflow. To do this, use the **[!UICONTROL Survey responses]** box.
 

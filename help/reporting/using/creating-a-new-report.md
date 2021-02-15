@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Creating a new report{#creating-a-new-report}
+# Create a new report{#creating-a-new-report}
 
 To create a report, apply the following steps:
 
@@ -82,7 +82,7 @@ However, you can place several branches. Only one of them will be executed:
 
 ![](assets/reporting_graph_sample_ok.png)
 
-## Creating a page {#creating-a-page}
+## Create a page {#creating-a-page}
 
 Content is configured via the activities placed in the chart. For more on this, refer to [Modelizing the chart](#modelizing-the-chart).
 

@@ -76,7 +76,7 @@ To choose which connector you want to use, follow these steps:
 
 1. Create your Android application. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app).
 
-## Creating Android mobile application {#creating-android-app}
+## Create Android mobile application {#creating-android-app}
 
 After creating your service, you now need to create your Android application:
 

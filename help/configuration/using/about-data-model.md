@@ -38,7 +38,7 @@ Delivery logs and tracking logs are deleted after a certain period, which is spe
 
 Finally, part of the data model consists in technical data used for the applicative process, including operators and user rights (**NmsGroup**), folders (**XtkFolder**).
 
-## Using the default Recipient table {#default-recipient-table}
+## Use the default Recipient table {#default-recipient-table}
 
 The out-of-the-box Recipient table in Adobe Campaign provides a good starting point for building your data model. It has a number of predefined fields and table links that can be easily extended. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric data model.
 

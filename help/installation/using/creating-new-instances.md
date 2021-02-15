@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: appendices
 ---
 
-# Creating new instances{#creating-new-instances}
+# Create new instances{#creating-new-instances}
 
 Once Adobe Campaign is installed and the instance created, you can add a new instance from the console. This creation mode lets you create tracking instances without accessing the console.
 

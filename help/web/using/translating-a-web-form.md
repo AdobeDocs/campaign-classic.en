@@ -459,7 +459,7 @@ To add a language, apply the following steps:
 >
 >Don't delete the out-of-the-box system strings.
 
-### Adding a translation language {#adding-a-translation-language}
+### Add a translation language {#adding-a-translation-language}
 
 To translate Web applications into languages other than the default ones (refer to [Changing forms display language](#changing-forms-display-language)), you will need to add a new translation language.
 

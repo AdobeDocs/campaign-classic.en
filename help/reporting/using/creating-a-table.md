@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Creating a table{#creating-a-table}
+# Create a table{#creating-a-table}
 
 You can add a table to a report to display data. This can be a pivot table created based on cube measurements, a list with group, or a table containing a breakdown of values. 
 
 ![](assets/s_advuser_report_page_activity_05.png)
 
-## Creating a list with group {#creating-a-list-with-group}
+## Create a list with group {#creating-a-list-with-group}
 
 A **[!UICONTROL List with group]** type table lets you group data in the table and produce statistics on it. For instance, you can create totals and sub-totals for the data. Each group has its own header, detail and footer line.
 
@@ -49,7 +49,7 @@ Please note the following steps to create a 'List with group' type table:
 1. Creating the table and its content.
 1. Display the finalized report in the **[!UICONTROL Preview]** tab. You can then publish the report and export it into a different format if necessary. For more on this, refer to [Exporting a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
-### Adding lines and columns {#adding-lines-and-columns}
+### Add lines and columns {#adding-lines-and-columns}
 
 By default, a **[!UICONTROL List with group]** type table includes a header, a detail line, and a footer line.
 
@@ -451,7 +451,7 @@ If you click the link of one of these deliveries, it shows the chart showing the
 
 ![](assets/s_advuser_report_listgroup_022.png)
 
-## Creating a breakdown or pivot table {#creating-a-breakdown-or-pivot-table}
+## Create a breakdown or pivot table {#creating-a-breakdown-or-pivot-table}
 
 This type of table lets you display statistics calculated on the data in the database.
 

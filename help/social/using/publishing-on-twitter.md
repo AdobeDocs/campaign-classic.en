@@ -21,7 +21,7 @@ The following limitations are constraints which are inherent to Twitter.
 * The message may not exceed 140 characters.
 * HTML format isn't supported.
 
-### Creating the delivery {#creating-the-delivery}
+### Create the delivery {#creating-the-delivery}
 
 Create a new delivery based on the **[!UICONTROL Tweet (twitter)]** delivery template.
 
@@ -145,7 +145,7 @@ The following limitations are constraints which are inherent to Twitter.
 * HTML is not supported.
 * You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in several waves. Deliveries in waves are configured like email deliveries. For more on this, refer to [this section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 
-### Creating the delivery {#creating-the-delivery-}
+### Create the delivery {#creating-the-delivery-}
 
 Create a new delivery based on the **[!UICONTROL Tweet (Direct Message)]** delivery template.
 

@@ -191,7 +191,7 @@ Combine the results with a **[!UICONTROL Union]** activity.
 
 Link the results of the two **[!UICONTROL Test]** activity branches to an **[!UICONTROL Email delivery]** activity to send an email to the list of all of your recipients on their birthday, even to those born on February 29th during a non-leap year.
 
-## Creating a recurring delivery {#creating-a-recurring-delivery-in-a-targeting-workflow}
+## Create a recurring delivery {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
 Add a **Recurring delivery** activity based on the birthday email template that you want to send.
 

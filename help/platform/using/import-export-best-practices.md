@@ -13,7 +13,7 @@ topic-tags: workflow-general-operation
 
 Being cautious and following the few simple rules detailed below will help a lot in ensuring data consistency within the database and in avoiding common errors during database update or data exports.
 
-## Using workflow templates {#using-import-templates}
+## Use workflow templates {#using-import-templates}
 
 Most workflows aimed at importing data should contain the following activities: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 

@@ -19,7 +19,7 @@ The following limitations are inherent to Facebook.
 * Messages may not exceed 1,000 characters.
 * HTML is not supported.
 
-## Creating the delivery {#creating-the-delivery}
+## Create the delivery {#creating-the-delivery}
 
 Create a new delivery using the **[!UICONTROL Publish to a brand page]** delivery template.
 

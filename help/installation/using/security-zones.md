@@ -16,7 +16,7 @@ Each operator needs to be linked to a zone to log on to an instance and the oper
 
 Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](#linking-a-security-zone-to-an-operator).
 
-## Creating security zones {#creating-security-zones}
+## Create security zones {#creating-security-zones}
 
 A zone is defined by:
 

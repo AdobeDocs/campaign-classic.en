@@ -104,7 +104,7 @@ Next, define the page sequencing when one or other of the conditions is true, fo
 
 You can also personalize the page sequencing according to the initialization parameters of the Web form or according to the values stored in the database. See [Form URL parameters](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
-## Adding scripts {#adding-scripts}
+## Add scripts {#adding-scripts}
 
 The **[!UICONTROL Script]** object lets you enter a JavaScript script directly, for example to modify the value of a field, retrieve data from the database, or call an Adobe Campaign API.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 ---
 
-# Using cubes to explore data{#using-cubes-to-explore-data}
+# Use cubes to explore data{#using-cubes-to-explore-data}
 
 Marketing Analytics makes it easier to create reports and to identify and select data from the database via cubes. This enables you to:
 

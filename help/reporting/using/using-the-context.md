@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Using the context{#using-the-context}
+# Use the context{#using-the-context}
 
 When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Defining a direct filter on data](#defining-a-direct-filter-on-data)) or the report context (refer to [Using context data](#using-context-data)).
 
@@ -57,7 +57,7 @@ Only recipients that meet the filtering criteria will appear in the report.
 
 ![](assets/s_ncs_advuser_report_display_04.png)
 
-## Using context data {#using-context-data}
+## Use context data {#using-context-data}
 
 To represent data in the form of a **[!UICONTROL table]** or a **[!UICONTROL chart]**, the data can come from the report context.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: analyzing-populations
 ---
 
-# Using the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
+# Use the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
 
 To create a descriptive analysis report, use the dedicated wizard. Configuration depends on the data to be analyzed and on the desired rendering.
 

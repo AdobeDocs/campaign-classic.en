@@ -51,7 +51,7 @@ From a technical point of view, there are two ways of storing **Date+time** type
 >
 >Please be aware that this modification can result into data consistency and synchronization issues. 
 
-### Creating a new instance {#creating-a-new-instance}
+### Create a new instance {#creating-a-new-instance}
 
 In order for several international users to work on the same instance, you need to configure time zones when creating the instance to manage time-lags between countries. During instance creation, select the date and time management mode in the **[!UICONTROL Time zone]** section of the database configuration stage.
 

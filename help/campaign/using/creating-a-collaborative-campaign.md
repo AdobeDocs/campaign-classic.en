@@ -12,7 +12,7 @@ topic-tags: distributed-marketing
 
 The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](../../campaign/using/about-distributed-marketing.md#collaborative-campaign).
 
-## Creating a collaborative campaign {#creating-a-collaborative-campaign}
+## Create a collaborative campaign {#creating-a-collaborative-campaign}
 
 To configure a collaborative campaign, click the **[!UICONTROL Campaign management > Campaigns]** node, then the **[!UICONTROL New]** icon.
 

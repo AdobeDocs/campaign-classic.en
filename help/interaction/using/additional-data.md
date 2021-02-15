@@ -69,7 +69,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 You must create a targeting workflow loading additional data in the work table by respecting the same xml structure and same internal names as in the **nms:interaction** schema. Refer to: [Additional data configuration](#additional-data-configuration).
 
-## Using additional data {#using-additional-data}
+## Use additional data {#using-additional-data}
 
 ### Eligibility rules {#eligibility-rules}
 

@@ -25,7 +25,7 @@ Start by creating one or more Twitter accounts to send your tweets to.
 
 To create a Twitter account, go to [https://twitter.com](https://twitter.com).
 
-## Creating a test account on Twitter {#creating-a-test-account-on-twitter}
+## Create a test account on Twitter {#creating-a-test-account-on-twitter}
 
 We also recommend creating a private Twitter account which can be used for sending tweet proofs (for more on this, refer to [Sending the proof](../../social/using/publishing-on-twitter.md#sending-the-proof)):
 
@@ -36,7 +36,7 @@ We also recommend creating a private Twitter account which can be used for sendi
 
 ![](assets/social_twitter_test_page.png)
 
-## Creating an application on Twitter {#creating-an-application-on-twitter}
+## Create an application on Twitter {#creating-an-application-on-twitter}
 
 In order for Adobe Campaign to be able to send tweets to your Twitter accounts, you need to create one Twitter application per Twitter account. To do this, apply the following steps:
 

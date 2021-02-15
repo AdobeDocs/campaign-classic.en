@@ -139,7 +139,7 @@ The following parameters are available by default:
   >
   >When the form is displayed via a URL with the **_uuid** parameter, the value of the **[!UICONTROL origin]** parameter is forced to **Adobe Campaign**.
 
-## Adding parameters {#adding-parameters}
+## Add parameters {#adding-parameters}
 
 Parameters can be added via the **[!UICONTROL Parameters...]** tab in the Properties window of the form. They can be made mandatory, as shown below: 
 

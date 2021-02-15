@@ -26,7 +26,7 @@ In all cases, data is collected via a **[!UICONTROL Query]** type activity.
 
 This data selection mode is relevant when the data in the report needs to be collected or built using data in the database. In some cases, you can also select the data straight from the elements used in the report. For instance when inserting a chart, you can select the source data directly. For more on this, refer to [Using the context](../../reporting/using/using-the-context.md).
 
-## Using the data from a schema {#using-the-data-from-a-schema}
+## Use the data from a schema {#using-the-data-from-a-schema}
 
 To use data linked to a database schema, select the appropriate option in the query editor and configure the query to be applied.
 
@@ -34,7 +34,7 @@ The following example lets you collect the number of recipients for each country
 
 ![](assets/reporting_query_from_schema.png)
 
-## Using an imported list {#using-an-imported-list}
+## Use an imported list {#using-an-imported-list}
 
 To create a report, you can use data from a list of imported data.
 
@@ -44,7 +44,7 @@ To do this, select the **[!UICONTROL Use an imported list]** option in the query
 
 Click the **[!UICONTROL Edit query...]** link to define the data to collect among the elements in this list for building the report.
 
-## Using a cube {#using-a-cube}
+## Use a cube {#using-a-cube}
 
 It's possible to select a Cube for defining the query.
 

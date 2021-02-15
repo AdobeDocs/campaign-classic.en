@@ -10,7 +10,7 @@ topic-tags: web-forms
 
 # Defining web forms layout{#defining-web-forms-layout}
 
-## Creating containers {#creating-containers}
+## Create containers {#creating-containers}
 
 Containers let you combine the fields of a page and configure their layout; to organize the elements in the page.
 

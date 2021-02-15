@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Creating a chart{#creating-a-chart}
+# Create a chart{#creating-a-chart}
 
 The data in the database can also be collected and displayed in a chart. Adobe Campaign provides a set of graphical representations. Their configuration is detailed below.
 

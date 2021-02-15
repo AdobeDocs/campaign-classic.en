@@ -61,7 +61,7 @@ To create this type of value binning, apply the following steps:
 
    Whenever the enumeration values are updated, the matching bins are adapted automatically.
 
-### Creating value ranges {#creating-value-ranges}
+### Create value ranges {#creating-value-ranges}
 
 You can group the values into ranges based on a desired interval.
 
@@ -225,7 +225,7 @@ To confirm these changes, you need to save the report.
 
 ![](assets/cube_share_confirm.png)
 
-## Creating filters {#creating-filters}
+## Create filters {#creating-filters}
 
 It is possible to create filters for viewing a section of the data.
 

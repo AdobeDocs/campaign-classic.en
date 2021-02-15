@@ -34,7 +34,7 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
    ![](assets/messagecenter_create_custo_001.png)
 
-   <!--## Creating several seed addresses {#creating-several-seed-addresses}-->
+   <!--## Create several seed addresses {#creating-several-seed-addresses}-->
 1. Click the **[!UICONTROL Add other seed addresses]** link, then click the **[!UICONTROL Add]** button.
 
    ![](assets/messagecenter_create_seedaddr_004.png)

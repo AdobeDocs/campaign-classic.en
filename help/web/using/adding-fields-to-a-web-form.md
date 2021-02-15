@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: web-forms
 ---
 
-# Adding fields to a web form{#adding-fields-to-a-web-form}
+# Add fields to a web form{#adding-fields-to-a-web-form}
 
 In a Web form, fields enable users to enter information and select options. Web forms can offer input fields, selection fields, static and advanced content (captchas, subscriptions, etc.).
 
@@ -53,7 +53,7 @@ Click **[!UICONTROL Finish]** to insert the selected field into the page.
 
 ![](assets/s_ncs_admin_webform_wz_insert_field.png)
 
-## Adding input fields {#adding-input-fields}
+## Add input fields {#adding-input-fields}
 
 To add an input field, click the **[!UICONTROL Input control]** button and choose the type of field you want to add.
 
@@ -117,7 +117,7 @@ The answer storage mode can be altered via the **[!UICONTROL Edit storage...]** 
 
 The **[!UICONTROL Advanced]** tab lets you define display parameters for the field (position of labels, alignment, etc.). See [Defining web forms layout](../../web/using/defining-web-forms-layout.md).
 
-## Adding drop-down lists {#adding-drop-down-lists}
+## Add drop-down lists {#adding-drop-down-lists}
 
 You can insert a drop-down list into a survey page. This lets the user select a value from those on offer in a drop-down menu.
 
@@ -149,7 +149,7 @@ Next, click the **[!UICONTROL Load]** link to retrieve the values:
 >
 >Repeat this operation whenever the list is updated to refresh the values on offer.
 
-## Adding checkboxes {#adding-checkboxes}
+## Add checkboxes {#adding-checkboxes}
 
 In order for the user to select an option, you need to use a checkbox. 
 
@@ -183,7 +183,7 @@ If the "Maintenance required" box is checked, the **[!UICONTROL Comment]** colum
 
 ![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
-## Adding radio buttons {#adding-radio-buttons}
+## Add radio buttons {#adding-radio-buttons}
 
 Radio buttons let you offer the user a series of exclusive options to choose from. These are different values for the same field. 
 
@@ -216,7 +216,7 @@ Add as many radio buttons as there are labels. The advantage of this feature is 
 >Web forms don't authorize the selection of several values. Multiple selection may only be activated for **Survey** type forms. For more on this, refer to [this section](../../web/using/about-surveys.md).  
 >It is possible, however, to insert a **[!UICONTROL Multiple choice]** type field into a Web application; but without authorizing the selection of several values: the options offered can be selected using radio buttons.
 
-## Adding grids {#adding-grids}
+## Add grids {#adding-grids}
 
 Grids are used to design voting pages in Web applications. This lets you offer lists of radio buttons for answering survey or assessment type Web forms, as shown below:
 
@@ -236,11 +236,11 @@ Only one option can be selected per grid line.
 >
 >In our example, the label of the grid is hidden. To do this, go to the **[!UICONTROL Advanced]** tab, the **[!UICONTROL Label position]** display is defined as **[!UICONTROL Hidden]** . See [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
 
-## Adding dates and numbers {#adding-dates-and-numbers}
+## Add dates and numbers {#adding-dates-and-numbers}
 
 The content of the form fields can be formatted to match the data stored in the database or to satisfy a particular requirement. You can create suitable fields for the entry of numbers and dates.
 
-### Adding dates {#adding-dates}
+### Add dates {#adding-dates}
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
@@ -274,7 +274,7 @@ You can then set limits to the values offered in the list.
 
 ![](assets/s_ncs_admin_survey_date_first_last_y.png)
 
-### Adding numbers {#adding-numbers}
+### Add numbers {#adding-numbers}
 
 You can create suitable fields for the entry of numbers.
 

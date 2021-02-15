@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: configuration
 ---
 
-# Creating a Facebook application{#creating-a-facebook-application}
+# Create a Facebook application{#creating-a-facebook-application}
 
 Thanks to web applications, Social Marketing lets you display personalized content in your Facebook applications, making it easier to acquire prospects via this social network. For more examples of Facebook type web applications, refer to [Examples of Facebook apps](../../social/using/examples-of-facebook-apps.md).
 
@@ -98,7 +98,7 @@ The configuration stages are as follows:
 
    ![](assets/social_fb_terms_of_services.png)
 
-## Creating a Facebook type web application {#creating-a-facebook-type-web-application}
+## Create a Facebook type web application {#creating-a-facebook-type-web-application}
 
 The Adobe Campaign Facebook application lets you display personalized content in your Facebook application. For each Facebook application, you need to create a web application in Adobe Campaign. To create a Facebook web application, proceed as follows:
 

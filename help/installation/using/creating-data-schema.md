@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 ---
 
-# Creating the data schema {#creating-the-data-schema}
+# Create the data schema {#creating-the-data-schema}
 
 To create a schema on an external database:
 

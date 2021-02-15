@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 ---
 
-# Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
+# Create a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
 
 To create a **[!UICONTROL List]** type list based on the new recipient table, you need to create a targeting workflow which will generate the list. 
 

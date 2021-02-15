@@ -30,7 +30,7 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 >
 >Non-visible dynamic blocks, such as drop-down menus, cannot be edited.
 
-## Adding a border and background {#adding-a-border-and-background}
+## Add a border and background {#adding-a-border-and-background}
 
 You can add a **border** to a selected block. The borders are defined using three options: style, size and color.
 
@@ -86,7 +86,7 @@ This means you can:
 
   ![](assets/dce_toolbar_formblock_edition.png)
 
-## Adding an action to a button {#adding-an-action-to-a-button}
+## Add an action to a button {#adding-an-action-to-a-button}
 
 When the user clicks a button, you can define an associated action. To do this, select the action to be carried out from the drop-down list.
 
@@ -104,7 +104,7 @@ The actions available are as follows:
 
 You can modify the label linked to the button in the corresponding field.
 
-## Adding a link {#adding-a-link}
+## Add a link {#adding-a-link}
 
 You can insert a link into any page element: image, word, group of words, block of text, etc.
 
@@ -204,7 +204,7 @@ The Digital Content Editor lets you work on **any type of image** compatible wit
 >
 >You must not call up external files in a **script** tag of the HTML page. These files will not be imported onto the Adobe Campaign server.
 
-### Adding / Deleting / Duplicating an image {#adding---deleting---duplicating-an-image}
+### Add / Deleting / Duplicating an image {#adding---deleting---duplicating-an-image}
 
 To insert an image, select an Image type block and click the **Image** icon.
 
@@ -231,7 +231,7 @@ When you select a block containing an image, you access the following properties
 
   ![](assets/dce_popup_imgsize.png)
 
-## Adding personalization content {#adding-personalization-content}
+## Add personalization content {#adding-personalization-content}
 
 ### Inserting a personalization field {#inserting-a-personalization-field}
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Creating a summary list{#creating-a-summary-list}
+# Create a summary list{#creating-a-summary-list}
 
 This use case details the creation of a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.
 

@@ -257,7 +257,7 @@ Link to a table and collection element:
 >* Change the order of the output columns using the arrows.
 >* The **[!UICONTROL Distribution of values]** serves as a way to view the distribution of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
 
-## Creating calculated fields {#creating-calculated-fields}
+## Create calculated fields {#creating-calculated-fields}
 
 If necessary, add a column during data formatting. A calculated field adds a column to the data preview section. Click **[!UICONTROL Add a calculated field]**.
 

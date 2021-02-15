@@ -24,7 +24,7 @@ A local campaign is an instance created from a template referenced in the list o
 1. Ordering the campaign.
 1. Executing campaigns.
 
-## Creating a local campaign template {#creating-a-local-campaign-template}
+## Create a local campaign template {#creating-a-local-campaign-template}
 
 To create a campaign package, you must first create the **campaign template** via the **[!UICONTROL Resources > Templates]** node.
 

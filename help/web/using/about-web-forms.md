@@ -75,7 +75,7 @@ The following sections detail how to define content and layout for form screens:
 >* To make sure page display and information storage occur in the appropriate sequence, enable debug mode in the Web form. To do this, go to the **[!UICONTROL Preview]** sub-tab and check the **[!UICONTROL Enable debug mode]** box: all collected information and possible execution errors will be displayed at the bottom of each page.
 >
 
-### Using the icons in the toolbar {#using-the-icons-in-the-toolbar}
+### Use the icons in the toolbar {#using-the-icons-in-the-toolbar}
 
 You can also use the icons in the toolbar or a right-click to insert an input zone. 
 

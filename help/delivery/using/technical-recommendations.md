@@ -200,13 +200,13 @@ You can implement the **List-Unsubscribe** by:
 * directly adding the command line in the delivery template - see [this section](#adding-a-command-line-in-a-delivery-template),
 * or, creating a typology rule - see [this section](#creating-a-typology-rule).
 
-### Adding a command line in a delivery template {#adding-a-command-line-in-a-delivery-template}
+### Add a command line in a delivery template {#adding-a-command-line-in-a-delivery-template}
 
 The command line must be added in the additional section of the email's SMTP header.
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
-### Creating a typology rule {#creating-a-typology-rule}
+### Create a typology rule {#creating-a-typology-rule}
 
 The rule must contain the script that generates the command line and it must be included in the email header.
 

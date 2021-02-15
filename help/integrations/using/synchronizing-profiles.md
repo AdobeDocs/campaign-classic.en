@@ -80,7 +80,7 @@ For further information and full instructions regarding Campaign Standard workfl
     * Drag **[!UICONTROL Profiles]** to the workspace. Use the field pull-down menu to choose **[!UICONTROL Is external resource]** to find profiles that were replicated from Campaign v7.
     * Drag other query parameters to further target the replicated profiles.
 
-## Creating a delivery {#creating-a-delivery}
+## Create a delivery {#creating-a-delivery}
 
 >[!NOTE]
 >

@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Using the Deduplication activity's Merge functionality {#deduplication-merge}
+# Use the Deduplication activity's Merge functionality {#deduplication-merge}
 
 ## About this use case {#about-this-use-case}
 

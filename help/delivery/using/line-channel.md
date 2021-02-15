@@ -69,7 +69,7 @@ Finally, to create an external account on Adobe Campaign:
 >
 >You must verify that the **[!UICONTROL LINE access token update (updateLineAccessToken)]** and **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]** workflows have started. From the explorer, click **[!UICONTROL Administration > Production > Technical workflows > LINE workflows]** to check the status of the workflows.
 
-## Creating the delivery {#creating-the-delivery}
+## Create the delivery {#creating-the-delivery}
 
 To create a **LINE** delivery you have to follow these steps:
 

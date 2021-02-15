@@ -423,7 +423,7 @@ To distinguish views from folders, the name of each view is displayed in a diffe
 
 ![](assets/s_ncs_user_view_name_color.png)
 
-### Adding folders and creating views {#adding-folders-and-creating-views}
+### Add folders and creating views {#adding-folders-and-creating-views}
 
 In the example below, we will create new folders to display specific data:
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 ---
 
-# Creating indicators{#creating-indicators}
+# Create indicators{#creating-indicators}
 
 To make a cube functional, you need to identify the relevant dimensions and measures and create them in the cube.
 
@@ -108,7 +108,7 @@ To do this, apply the following steps:
 
 1. Save the cube.
 
-## Creating a report based on a cube {#creating-a-report-based-on-a-cube}
+## Create a report based on a cube {#creating-a-report-based-on-a-cube}
 
 Once the cube is configured, it can be used as a template for creating a new report.
 

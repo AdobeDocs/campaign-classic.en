@@ -83,7 +83,7 @@ The title of the window must be entered in the **[!UICONTROL Page]** tab of the 
 
 ![](assets/s_ncs_admin_survey_titles_config.png)
 
-### Adding elements to HTML header {#adding-elements-to-html-header}
+### Add elements to HTML header {#adding-elements-to-html-header}
 
 You can enter additional elements to be inserted into the HTML header of a form page. To do this, enter the elements in the **[!UICONTROL Header]** tab of the relevant page.
 

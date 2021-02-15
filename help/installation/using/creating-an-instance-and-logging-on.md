@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: initial-configuration
 ---
 
-# Creating an instance and logging on{#creating-an-instance-and-logging-on}
+# Create an instance and logging on{#creating-an-instance-and-logging-on}
 
 To create a new instance and Adobe Campaign database, apply the following process:
 

@@ -30,7 +30,7 @@ The **[!UICONTROL Display settings]** options enable you to select the position 
 
 Select the various options in the **[!UICONTROL Browse]** section to authorize browsing from one report page to another. If the **[!UICONTROL Disable next page]** or the **[!UICONTROL Disable previous page]** option is selected, the **[!UICONTROL Next]** and **[!UICONTROL Previous]** buttons disappear from the report page.
 
-## Adding a header and a footer {#adding-a-header-and-a-footer}
+## Add a header and a footer {#adding-a-header-and-a-footer}
 
 The report properties window also lets you define the layout elements, such as: the title of the window, the HTML content of the headers and footers.
 

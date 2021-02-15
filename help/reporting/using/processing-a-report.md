@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: analyzing-populations
 ---
 
-# Using an analysis report{#processing-a-report}
+# Use an analysis report{#processing-a-report}
 
 ## Saving an analysis report {#saving-an-analysis-report}
 

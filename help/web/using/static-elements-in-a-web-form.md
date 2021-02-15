@@ -182,7 +182,7 @@ This produces the following result:
 
 ![](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
-### Using text variables {#using-text-variables}
+### Use text variables {#using-text-variables}
 
 The **[!UICONTROL Text]** tab lets you create variable fields which can be used in the HTML between the <%= and %> characters with the following syntax: **$(IDENTIFIER)**.
 

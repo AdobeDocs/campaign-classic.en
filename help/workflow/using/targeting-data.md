@@ -10,7 +10,7 @@ topic-tags: -general-operation
 
 # Targeting data{#targeting-data}
 
-## Creating queries {#creating-queries}
+## Create queries {#creating-queries}
 
 ### Selecting data {#selecting-data}
 
@@ -64,7 +64,7 @@ During the data reconciliation phases (**[!UICONTROL Union]**, **[!UICONTROL Int
 
 ![](assets/select-column-and-join.png)
 
-### Creating subsets {#creating-subsets}
+### Create subsets {#creating-subsets}
 
 The **[!UICONTROL Split]** activity lets you create subsets on criteria defined via extraction queries. For each subset, when you edit a filter condition on the population, you will then access the standard query activity which lets you define the target segmentation conditions.
 
@@ -132,7 +132,7 @@ Data reconciliation is carried out either via an identifier, changing axis, or a
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
-### Creating subsets using the Split activity {#creating-subsets-using-the-split-activity}
+### Create subsets using the Split activity {#creating-subsets-using-the-split-activity}
 
 The **[!UICONTROL Split]** activity is a standard activity which lets you create as many sets as necessary via one or several filtering dimensions, as well as generating either one output transition per subset or a unique transition.
 
@@ -204,7 +204,7 @@ For example, you can place a single delivery activity and personalize the delive
 
 Subsets can also be created using the **[!UICONTROL Cells]** activity. For more on this, refer to the [Cells](../../workflow/using/cells.md) section.
 
-### Using targeted data {#using-targeted-data}
+### Use targeted data {#using-targeted-data}
 
 Once the data has been identified and prepared, it can be used in the following contexts:
 

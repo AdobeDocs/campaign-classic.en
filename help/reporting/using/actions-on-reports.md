@@ -85,7 +85,7 @@ For a better result, edit the Internet Explorer printing options and select **[!
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
-## Creating report archives {#creating-report-archives}
+## Create report archives {#creating-report-archives}
 
 Archiving a report lets you create a view of the report at various periods, for instance to show the statistics for a given period of time.
 

@@ -10,7 +10,7 @@ topic-tags: online-surveys
 
 # Designing a survey{#building-a-survey}
 
-## Creating a new survey {#creating-a-new-survey}
+## Create a new survey {#creating-a-new-survey}
 
 This chapter details the designing of a **Survey** type form using Adobe Campaign, as well as the available options and configurations. Adobe Campaign lets you make this survey available to users and collect and archive answers in the database.
 
@@ -26,7 +26,7 @@ The pages of the form are created using a special editor that lets you define an
 >
 >For more on how to define content and create screen layouts for a Web form, refer to [this section](../../web/using/about-web-forms.md).
 
-## Adding fields {#adding-fields}
+## Add fields {#adding-fields}
 
 The fields in a form enable users to enter information and select options. For each page in the form, they are created via the first button in the toolbar using the **[!UICONTROL Add using the wizard]** menu. 
 
@@ -86,7 +86,7 @@ In addition, the storage location for this input field must be a **[!UICONTROL M
 >* This functionality is only available for **Survey** type forms. 
 >* This option isn't compatible with random question display. For more on this, refer to [Adding questions](#adding-questions).
 
-### Adding questions {#adding-questions}
+### Add questions {#adding-questions}
 
 There are two types of containers: standard and question. Standard containers are used to configure page layout and conditional display in a page. They are detailed in [this section](../../web/using/about-web-forms.md).
 

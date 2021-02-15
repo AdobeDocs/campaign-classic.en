@@ -20,7 +20,7 @@ This section details the key principles and best practices to build a workflow i
 * Access and create technical workflows, see [Technical workflows](#technical-workflows)
 * Use templates to create workflows, see [Workflow templates](#workflow-templates)
 
-## Creating a new workflow {#creating-a-new-workflow}
+## Create a new workflow {#creating-a-new-workflow}
 
 From the **[!UICONTROL Explorer]**, access a workflow folder. By default, you can use **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 
@@ -38,7 +38,7 @@ Enter a label and click **[!UICONTROL Save]**.
 >
 >When you modify the internal name of a workflow activity or the workflow itself, make sure that you save the workflow before closing it so that the new internal name is correctly taken into account.
 
-## Adding and linking activities {#adding-and-linking-activities}
+## Add and linking activities {#adding-and-linking-activities}
 
 You must now define the various activities and link them together in the diagram. At this stage of the configuration, we can see the diagram label and the workflow status (Editing in progress). The lower section of the window is used for editing the diagram only. It contains a toolbar, a palette of activities (on the left) and the diagram itself (on the right).
 

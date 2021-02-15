@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Using aggregates{#using-aggregates}
+# Use aggregates{#using-aggregates}
 
 This use case details how to automatically identify the last recipients added to the database.
 

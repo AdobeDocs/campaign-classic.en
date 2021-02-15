@@ -49,7 +49,7 @@ Once the file is selected, it is immediately uploaded onto the server to be avai
 
   ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
-## Creating a calculated attachment {#creating-a-calculated-attachment}
+## Create a calculated attachment {#creating-a-calculated-attachment}
 
 When you create a calculated attachment, the name of the attachment can be computed during analysis or delivery of each message and can depend on the recipient. It can also be personalized and converted to PDF.
 

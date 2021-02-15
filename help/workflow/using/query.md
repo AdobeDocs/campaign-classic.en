@@ -10,7 +10,7 @@ topic-tags: targeting-activities
 
 # Query{#query}
 
-## Creating a query {#creating-a-query}
+## Create a query {#creating-a-query}
 
 A query lets you select a target according to criteria. You can associate a segment code to the query result and insert additional data into it.
 For more information on query samples, refer to this [this section](../../workflow/using/querying-recipient-table.md).
@@ -55,7 +55,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
    ![](assets/s_user_segmentation_query_advanced.png)
 
-## Adding data {#adding-data}
+## Add data {#adding-data}
 
 The additional columns let you collect additional information on the targeted population, e.g. contract numbers, subscriptions to newsletters or origin. This data can be stored in the Adobe Campaign database or in an external database.
 

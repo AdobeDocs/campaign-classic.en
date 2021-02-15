@@ -40,7 +40,7 @@ To do this:
 
 For normal execution on the client side, the referenced scripts must be written in JavaScript and need to be compatible with common browsers. For more on this, refer to [this section](../../web/using/web-forms-answers.md).
 
-### Adding a Script activity {#script-activity}
+### Add a Script activity {#script-activity}
 
 When [designing your report](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), use the **[!UICONTROL Script]** activity to process data and easily create complex queries that don't enable SQL language. You can directly enter your query in the script window.
 
@@ -58,7 +58,7 @@ if( ctx.@_historyId.toString().length == 0 )
 
 Otherwise, only current data will be displayed.
 
-## Adding a URL parameter {#defining-additional-settings}
+## Add a URL parameter {#defining-additional-settings}
 
 The **[!UICONTROL Parameters]** tab of the [report properties](../../reporting/using/properties-of-the-report.md) lets you define additional settings for the report: these settings will be passed into the URL during the call up.
 
@@ -92,7 +92,7 @@ The **[!UICONTROL Response HTTP headers]** allows you to prevent clickjacking wh
 
 ![](assets/s_ncs_advuser_report_properties_09c.png)
 
-## Adding variables {#adding-variables}
+## Add variables {#adding-variables}
 
 The **[!UICONTROL Variables]** tab contains the list of variables configured in the report. These variables are exposed in the context of the report and can be used in calculations.
 

@@ -70,7 +70,7 @@ To define the category of a report, select it via the **[!UICONTROL Display]** t
 
 You can enter a new category here, and add it to the list of available categories. The matching enumeration is updated automatically.
 
-## Creating a link to a report {#creating-a-link-to-a-report-}
+## Create a link to a report {#creating-a-link-to-a-report-}
 
 It's possible to make a report accessible via a specific node of the tree, such as a list, a recipient, a delivery, etc. To do this, simply create a link to the concerned report and specify the entity where you want to make it available.
 

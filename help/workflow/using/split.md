@@ -22,7 +22,7 @@ An example showing how to use an instance variable in a Split activity is availa
 
 To configure this activity, define the subset content and label in the **[!UICONTROL Subsets]** tab, then choose the target dimension in the **[!UICONTROL General]** tab.
 
-## Creating subsets {#creating-subsets}
+## Create subsets {#creating-subsets}
 
 To create a subset:
 
