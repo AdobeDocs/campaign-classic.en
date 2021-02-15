@@ -78,7 +78,7 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_7.png)
 
->[!NOTE]
+>[!CAUTION]
 >
 >Adobe I/O certificate will expire after 12 months. You need to generate a new key pair every year.
 
