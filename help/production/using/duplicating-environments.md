@@ -8,11 +8,9 @@ content-type: reference
 topic-tags: data-processing
 ---
 
-# Duplicating environments{#duplicating-environments}
+# Duplicate environments{#duplicating-environments}
 
 ## Introduction {#introduction}
-
-### Overview {#overview}
 
 >[!IMPORTANT]
 >
@@ -42,7 +40,7 @@ To do this, apply the following steps:
    >One environment can contain several instances. Each Adobe Campaign instance is subjected to a license contract. Check your license agreement to see how many environments you can have.   
    >The procedure below lets you transfer an environment without impacting the number of environments and instances you have installed.
 
-### Before you start {#before-you-start}
+## Before you start {#before-you-start}
 
 >[!IMPORTANT]
 >

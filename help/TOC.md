@@ -713,9 +713,9 @@ type: Documentation
           + [Failure to connect](production/using/failure-to-connect.md)
           + [Connection thresholds](production/using/connection-thresholds.md)
        + Technical troubleshooting {#technical-troubleshooting-toc}
-          + [Stack trace in Linux](production/using/stack-trace-in-linux.md)
+          + [Stack trace](production/using/stack-trace-in-linux.md)
           + [JSP behavior](production/using/jsp-behavior.md)
-          + [Locating Tomcat version](production/using/locate-tomcat-version.md)
+          + [Tomcat version](production/using/locate-tomcat-version.md)
 + Developers guide {#configuring-campaign-classic}
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)

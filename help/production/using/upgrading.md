@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 ---
 
-# Upgrading to a new build (on-premise){#upgrading}
+# How to upgrade to a new build (on-premise){#upgrading}
 
 Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 
@@ -90,7 +90,7 @@ This will enable you to carry out the following operations:
 >
 >This operation should be performed only once, and only on an (**nlserver web**) application server.
 
-Then check whether the synchronization has generated errors or warnings. For more on this, refer to [Resolving upgrade conflicts](#resolving-upgrade-conflicts).
+Then check whether the synchronization has generated errors or warnings. For more on this, refer to [Resolve upgrade conflicts](#resolving-upgrade-conflicts).
 
 ### Restart services {#restart-services}
 
@@ -150,7 +150,7 @@ The file is **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](#resolving-upgrade-conflicts).
+>Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolve upgrade conflicts](#resolving-upgrade-conflicts).
 
 ### Reboot the web server {#reboot-the-web-server}
 
@@ -175,7 +175,7 @@ Then restart Apache:
 /etc/init.d/apache start
 ```
 
-## Resolving upgrade conflicts {#resolving-upgrade-conflicts}
+## Resolve upgrade conflicts {#resolving-upgrade-conflicts}
 
 During resource synchronization, the **postupgrade** command enables you to detect whether synchronization has generated errors or warnings.
 
@@ -199,7 +199,7 @@ There are two ways of viewing the synchronization result:
 
 * The **postupgrade_`<server version number>_<time of postupgrade>`.log** log file contains the synchronization result. It is available by default in the following directory: **`<installation directory>/var/<instance/postupgrade`**. Errors and warnings are indicated by the error and warning attributes.
 
-### Resolving conflicts {#resolving-conflicts}
+### Resolve conflicts {#resolving-conflicts}
 
 To resolve conflicts, apply the following process:
 
@@ -267,5 +267,5 @@ The next time client consoles are connected, a window will inform users about th
 
 >[!NOTE]
 >
->Make sure the Apache user has the appropriate read rights for this installation file and refer to the [installation guide](../../installation/using/general-architecture.md) for more information.
+>Make sure the Apache user has the appropriate read rights for this installation file and refer to [this section](../../installation/using/general-architecture.md) for more information.
 
