@@ -778,7 +778,7 @@ type: Documentation
        + [Target mapping](configuration/using/target-mapping.md)
        + [Configure the interface](configuration/using/configuring-the-interface.md)
        + [Seed addresses](configuration/using/seed-addresses.md)
-       + [Create filters](configuration/using/creating-filters.md)
+       + [Create predefined filters](configuration/using/creating-predefined-filters.md)
        + [Create a profile list with a workflow](configuration/using/creating-a-profile-list-with-a-workflow.md)
        + [Manage workflows](configuration/using/managing-workflows.md)
        + [Manage reports](configuration/using/managing-reports.md)
