@@ -144,6 +144,28 @@ Consequently, you should wait until the end of the validity period to see the fi
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
+
+### Delivery throughput
+
+The Campaign Delivery throughput graph will no longer display the throughput to your email recipients. That graph will now show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
+
+For more on the delivery throughput, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
+
+### Validity period
+
+The validity period setting in your Campaign deliveries will be used by the Enhanced MTA only if set to **3.5 days or less**. If you define a value higher than 3.5 days in Campaign, it will not be taken into account.
+
+For example, if the validity period is set to the default value of 5 days in Campaign, soft-bouncing messages will go into the Enhanced MTA retry queue and be retried for only up to 3.5 days from when that message reached the Enhanced MTA. In that case, the value set in Campaign will not be used.
+
+Once a message has been in the Enhanced MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the delivery logs.
+
+For more on the validity period, see [this section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+
+### DKIM-signing
+
+DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the Domain management table as part of the Enhanced MTA upgrade.
+For more on DKIM, see [this section](../../delivery/using/technical-recommendations.md#dkim).
+
 ### Email Feedback Service (beta) {#email-feedback-service}
 
 With the Email Feedback Service (EFS) capability, the status of each email is accurately reported, because feedback is captured directly from the Enhanced MTA (Message Transfer Agent).
@@ -178,35 +200,25 @@ When soft-bouncing messages get reported back from the Enhanced MTA, their log 
 >
 >For more on retries after a delivery temporary failure, see [this section](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-#### Changes introduced by EFS {#changes-introduced-by-efs}
 
-The table below shows the changes in KPIs and sending logs statuses introduced by the EFS capability.
+The tables below shows the changes in KPIs and sending logs statuses introduced by the EFS capability.
 
-| Step in the<br>sending process | KPI summary<br>WITHOUT EFS | Sending logs status<br>WITHOUT EFS | KPI summary<br>WITH EFS | Sending logs status<br>WITH EFS |
-|--- |--- |--- | --- | --- |
-| Message is successfully relayed from Campaign to the Enhanced MTA | **[!UICONTROL Success]** percentage starts out at 100%| Sent | **[!UICONTROL Success]** percentage is not displayed (starts out at 0%) | Taken into account by the service provider |
-| Hard-bouncing messages get reported back from the Enhanced MTA | **[!UICONTROL Success]** percentage is decreased accordingly | Failed | No change in **[!UICONTROL Success]** percentage | Failed |
-| Soft-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Sent | No change in **[!UICONTROL Success]** percentage | Taken into account by the service provider |
+**With Email Feedback Service**
+
+| Step in the sending process  | KPI summary | Sending logs status |
+|--- |--- |--- |
+| Message is successfully relayed from Campaign to the Enhanced MTA | **[!UICONTROL Success]** percentage is not displayed (starts out at 0%) | Taken into account by the service provider |
+| Hard-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Failed |
+| Soft-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Taken into account by the service provider |
+| Soft-bouncing messages retries are successful | **[!UICONTROL Success]** percentage is increased accordingly | Sent |
+| Soft-bouncing messages retries fail |  No change in **[!UICONTROL Success]** percentage  | Failed |
+
+**Without Email Feedback Service**
+
+| Step in thesending process | KPI summary | Sending logs status | 
+|--- |--- |--- |
+| Message is successfully relayed from Campaign to the Enhanced MTA | **[!UICONTROL Success]** percentage starts out at 100%| Sent |
+| Hard-bouncing messages get reported back from the Enhanced MTA | **[!UICONTROL Success]** percentage is decreased accordingly | Failed |
+| Soft-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Sent |
 | Soft-bouncing messages retries are successful | No change in **[!UICONTROL Success]** percentage | Sent | **[!UICONTROL Success]** percentage is increased accordingly | Sent |
-| Soft-bouncing messages retries fail | **[!UICONTROL Success]** percentage is decreased accordingly | Failed |  No change in **[!UICONTROL Success]** percentage  | Failed |
-
-### Delivery throughput
-
-The Campaign Delivery throughput graph will no longer display the throughput to your email recipients. That graph will now show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
-
-For more on the delivery throughput, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
-
-### Validity period
-
-The validity period setting in your Campaign deliveries will be used by the Enhanced MTA only if set to **3.5 days or less**. If you define a value higher than 3.5 days in Campaign, it will not be taken into account.
-
-For example, if the validity period is set to the default value of 5 days in Campaign, soft-bouncing messages will go into the Enhanced MTA retry queue and be retried for only up to 3.5 days from when that message reached the Enhanced MTA. In that case, the value set in Campaign will not be used.
-
-Once a message has been in the Enhanced MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the delivery logs.
-
-For more on the validity period, see [this section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
-
-### DKIM-signing
-
-DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the Domain management table as part of the Enhanced MTA upgrade.
-For more on DKIM, see [this section](../../delivery/using/technical-recommendations.md#dkim).
+| Soft-bouncing messages retries fail | **[!UICONTROL Success]** percentage is decreased accordingly | Failed |
