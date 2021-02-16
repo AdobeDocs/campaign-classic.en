@@ -38,9 +38,9 @@ _XX February 2021_
 </li>
 </ul>
 </p>
+<p>For more information refer to the <a href="../../delivery/using/sending-with-enhanced-mta.md#efs">detailed documentation</a>.</p>
 <p>If you’re interested in participating in this private beta, fill out this <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u">form</a> and we’ll get back to you.
 </p>
-<p>For more information refer to the <a href="../../delivery/using/sending-with-enhanced-mta.md#efs">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -48,8 +48,15 @@ _XX February 2021_
 
 **Security enhancements**
 
-* The console authentication mechanism has been improved to optimize security.
-* Security has been improved when generating captchas and in the validation functionality.
+* The console authentication mechanism has been improved to optimize security. (NEO-26944)
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-28532)
+
+**Compatibility updates**
+
+The following systems are now supported with Campaign:
+
+* Debian 10
+* Salesforce API version 49 is now supported when using Salesforce CRM external account.
 
 **Deprecated features**
 
@@ -64,10 +71,9 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 
 **Other changes**
 
-* Heatmap has been improved to avoid timeouts when running workflows with numerous activities. (NEO-27423).
+* Workflow Heatmap has been improved to avoid timeouts when running workflows with multiple activities. (NEO-27423).
 * Fixed an issue which could allow an offer to be presented even if its end date was passed. Campaign Classic now takes into account the end date's whole timestamp rather that the date only. (NEO-27590)
 * The Google+ link has been removed from the **Social network sharing links** personalization block.
-* Salesforce API version 49 is now supported when using Salesforce CRM external account.
 * Fixed an issue after the implementation of a bug fix in the last release. A check was added on the hostname when connecting using SSL/TLS which led SMS deliveries to fail. Hostname verification has been disabled for most protocols such as POP3, SMS and HTTP with proxy and the certificate check for the SMS external account has been improved with three values (NEO-29581). [Learn more](../../delivery/using/sms-protocol.md#skip-tls)
 
 **Patches**
