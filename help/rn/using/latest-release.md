@@ -66,7 +66,6 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 
 **Improvements**
 
-* The support of Hadoop 3.0 has been optimized.
 * Transfer speed has been improved for large tracking logs by using compression.
 
 **Other changes**
