@@ -196,6 +196,7 @@ type: Documentation
        + [Personalizing URL tracking](delivery/using/personalizing-url-tracking.md)
        + [Accessing the tracking logs](delivery/using/accessing-the-tracking-logs.md)
        + [Testing tracking](delivery/using/testing-tracking.md)
+       + [Tracking troubleshooting](delivery/using/tracking-troubleshooting.md)
   + Deliverability management {#deliverability-management}
        + [About deliverability](delivery/using/about-deliverability.md)
        + [Key points to check](delivery/using/deliverability-key-points.md)
