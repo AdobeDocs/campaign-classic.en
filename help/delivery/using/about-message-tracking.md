@@ -100,9 +100,7 @@ The different tables give you the list of indicators used in the different repor
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-The following troubleshooting tips will help you solve the most common issues happening when using tracking in Adobe Campaign Classic.
-
-For a more advanced troubleshooting, refer to [this section](../../delivery/using/tracking-troubleshooting.md)
+The following troubleshooting tips will help you solve the most common issues happening when using tracking in Adobe Campaign Classic. For a more advanced troubleshooting, refer to [this section](../../delivery/using/tracking-troubleshooting.md).
 
 * Check that the trackinglogd process is running
 
