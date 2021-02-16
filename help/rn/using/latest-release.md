@@ -16,7 +16,7 @@ For Campaign Classic Gold Standard version (latest GA build), [refer to this pag
 
 ## ![](assets/do-not-localize/blue_2.png) Release 21.1.1 - Build xxxx {#release-21-1-1-build-xxxx}
 
-_10 February 2021_
+_XX February 2021_
 
 **What's new?**
 
@@ -50,12 +50,6 @@ _10 February 2021_
 
 * The console authentication mechanism has been improved to optimize security.
 * Security has been improved when generating captchas and in the validation functionality.
-
-**Compatibility updates**
-
-The following systems are now supported with Campaign:
-
-* Debian 10
 
 **Deprecated features**
 
