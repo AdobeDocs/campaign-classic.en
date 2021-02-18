@@ -151,6 +151,6 @@ To be accessible from the outside, the images used in emails and public resource
 
 Adobe recommends previewing your message to check its personalization and how your recipients will see your delivery. 
 
-* In the delivery wozard, the **[!UICONTROL Preview]** sub-tab lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](../../delivery/using/defining-the-email-content.md#message-content)
+* In the delivery wizard, the **[!UICONTROL Preview]** sub-tab lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](../../delivery/using/defining-the-email-content.md#message-content)
 
 *  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](../../delivery/using/spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)
