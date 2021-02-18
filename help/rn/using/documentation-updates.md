@@ -34,6 +34,10 @@ A new section has been added with detailed information on how to perform A/B tes
 
 The Adobe Campaign Enhanced MTA section has moved [here](../../delivery/using/sending-with-enhanced-mta.md).
 
+A new page has been added to provide an overview of tracking capabilities in [!DNL Campaign Classic]. [Read more](../../delivery/using/about-message-tracking.md)
+
+A troubleshooting section has been added to help you solve common issues related to tracking. [Read more](../../delivery/using/tracking-troubleshooting.md)
+
 The **Sending an email** section has been reorganized and clarified with new subsections. [Read more](../../delivery/using/sending-messages.md)
 
 ## January 2021 {#jan-2021}

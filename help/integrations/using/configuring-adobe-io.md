@@ -26,7 +26,6 @@ Before starting this implementation, please check you have:
 
 * a valid **Organization identifier**: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO). [Learn more](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
 * a **Developer access** to your Organization.  If you need to request the System Administrator privileges of the IMS Org, follow the procedure detailed [in this page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) to provide this access for the all Product Profiles.
->
 
 ## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
 
@@ -78,9 +77,9 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_7.png)
 
->[!NOTE]
+>[!CAUTION]
 >
->Adobe I/O certificate will expire after 12 months. You need to generate a new key pair very year.
+>Adobe I/O certificate will expire after 12 months. You need to generate a new key pair every year.
 
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 
