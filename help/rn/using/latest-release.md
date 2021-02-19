@@ -38,9 +38,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 
 **Improvements**
 
-Email Feedback Service (EFS)
-
-Email Feedback Service (EFS) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.
+**Email Feedback Service (EFS)** is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.
 
 * All categories of feedback are now captured for complete and precise reporting.
 * Calculation of the Delivered indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.
