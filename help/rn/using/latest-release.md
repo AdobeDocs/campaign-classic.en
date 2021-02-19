@@ -18,34 +18,6 @@ For Campaign Classic Gold Standard version (latest GA build), [refer to this pag
 
 _22 February 2021_
 
-**What's new?**
-
-<table> 
-<thead>
-<tr> 
-<th> <strong>Email Feedback Service (EFS)</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>Email Feedback Service (EFS) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.
-<ul>
-<li>All categories of feedback are now captured for complete and precise reporting.
-</li>
-<li>Calculation of the Delivered indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.
-</li>
-<li>EFS solves the problem of delays with synchronous soft bounces reporting.
-</li>
-</ul>
-</p>
-<p>For more information refer to the <a href="../../delivery/using/sending-with-enhanced-mta.md#efs">detailed documentation</a>.</p>
-<p>If you’re interested in participating in this private beta, fill out this <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u">form</a> and we’ll get back to you.
-</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
-
 **Security enhancements**
 
 * The console authentication mechanism has been improved to optimize security. (NEO-26944)
@@ -66,10 +38,20 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 
 **Improvements**
 
-* Transfer speed has been improved for large tracking logs by using compression.
+Email Feedback Service (EFS)
+
+Email Feedback Service (EFS) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.
+
+* All categories of feedback are now captured for complete and precise reporting.
+* Calculation of the Delivered indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.
+* EFS solves the problem of delays with synchronous soft bounces reporting.
+
+For more information refer to the [detailed documentation](../../delivery/using/sending-with-enhanced-mta.md#efs).
+If you’re interested in participating in this private beta, fill out this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) and we’ll get back to you.
 
 **Other changes**
 
+* Transfer speed has been improved for large tracking logs by using compression.
 * Workflow Heatmap has been improved to avoid timeouts when running workflows with multiple activities. (NEO-27423).
 * Fixed an issue which could allow an offer to be presented even if its end date was passed. Campaign Classic now takes into account the end date's whole timestamp rather that the date only. (NEO-27590)
 * The Google+ link has been removed from the **Social network sharing links** personalization block.
