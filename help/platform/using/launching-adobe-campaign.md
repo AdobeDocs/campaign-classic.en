@@ -99,5 +99,5 @@ Learn more about Gold Standard [in this article](https://helpx.adobe.com/campaig
 **Related topics**:
 
 * [Adobe Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
-* [Adobe Software Distribution](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
+* [Adobe Campaign Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
