@@ -193,9 +193,10 @@ type: Documentation
   + Track messages {#tracking-messages}
        + [About message tracking](delivery/using/about-message-tracking.md)
        + [How to configure tracked links](delivery/using/how-to-configure-tracked-links.md)
-       + [Personalize URL tracking](delivery/using/personalizing-url-tracking.md)
-       + [Access tracking logs](delivery/using/accessing-the-tracking-logs.md)
-       + [Test tracking](delivery/using/testing-tracking.md)
+       + [Personalizing URL tracking](delivery/using/personalizing-url-tracking.md)
+       + [Accessing the tracking logs](delivery/using/accessing-the-tracking-logs.md)
+       + [Testing tracking](delivery/using/testing-tracking.md)
+       + [Tracking troubleshooting](delivery/using/tracking-troubleshooting.md)
   + Deliverability management {#deliverability-management}
        + [About deliverability](delivery/using/about-deliverability.md)
        + [Key points to check](delivery/using/deliverability-key-points.md)
