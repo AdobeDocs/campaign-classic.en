@@ -23,6 +23,7 @@ type: Documentation
      + [Gold Standard Release Notes](rn/using/gold-standard.md)
      + [Gold Standard Compatibility Matrix](rn/using/compatibility-matrix-gs.md)
   + Previous Releases {#previous-releases}
+    + [Release 20.3](rn/using/release--20-3.md)
     + [Release 20.2](rn/using/release--20-2.md)
     + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
