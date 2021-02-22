@@ -77,7 +77,7 @@ Before starting the build upgrade, on-premise customers need to perform the foll
 
 1. Get the latest version of your [server configuration file](../../installation/using/the-server-configuration-file.md).
 
-1. Download the latest build. [Learn more about the Download center](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
+1. [Download the latest build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [Learn more](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
 
 You also need to know all the [useful command lines](../../installation/using/command-lines.md) before starting a build upgrade:
 
@@ -157,7 +157,7 @@ In order to replace all files with the new version, it is required that all inst
 
 ### Upgrade the Adobe Campaign Server Application
 
-1. Run the **Setup.exe** file. If you need to download this file, access [the Download center](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
+1. Run the **Setup.exe** file. If you need to download this file, access [the Download center](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
 1. Select the installation mode: **Update** or **Repair**.
 
@@ -360,8 +360,8 @@ There are different types of merges:
 #### Where to find the code?
 
 1. Built-in code is stored in XML files in the datakit folder. Find the XML file that matches the conflicting object. Example: installationDirectory\datakit\nms\fra\form\recipient.xml
-1. Retrieve the original version: via the [Download center](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) or another non-upgraded installation of the product.
-1. Retrieve the new version: via the [Download center](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) or the customer's installed files.
+1. Retrieve the original version: via the [Download center](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) or another non-upgraded installation of the product.
+1. Retrieve the new version: via the [Download center](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) or the customer's installed files.
 1. Retrieve the custom version: retrieve the object's source code from within the Campaign client.
 
 ### How to make a diff?

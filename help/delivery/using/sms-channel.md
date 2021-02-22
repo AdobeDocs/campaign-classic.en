@@ -26,7 +26,7 @@ To send to a mobile phone, you need:
 
 1. An external account specifying a connector and type of message.
 
-   Note that following connectors will be deprecated as of release 20.2: NetSize, Generic SMPP (SMPP version 3.4 supporting binary mode), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 and iOS. Deprecated capabilities are still available, but they will not be further enhanced, nor supported. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
+   Note that following connectors will be deprecated as of release 20.2: Generic SMPP (SMPP version 3.4 supporting binary mode), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 and iOS. Deprecated capabilities are still available, but they will not be further enhanced, nor supported. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
 
 1. A delivery template in which this external account is referenced.
 

@@ -5,7 +5,6 @@ title: Creating an Experience Manager newsletter
 description: Creating an Experience Manager newsletter
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}

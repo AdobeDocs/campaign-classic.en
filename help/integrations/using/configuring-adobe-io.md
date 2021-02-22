@@ -5,7 +5,6 @@ title: Configuring Adobe I/O for Adobe Experience Cloud Triggers
 description: Learn how to configure Adobe I/O for Adobe Experience Cloud Triggers
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 index: y
 internal: n
 snippet: y

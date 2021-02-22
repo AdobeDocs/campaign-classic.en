@@ -121,7 +121,7 @@ A list of personalization blocks is available by default to help you personalize
   >This block can be used in deliveries targeting visitors only.
 
 * **[!UICONTROL Registration confirmation]** : inserts a link enabling to confirm subscription.
-* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content with the email client, Facebook, Twitter, Google + and LinkedIn (see [Viral marketing: forward to a friend](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content with the email client, Facebook, Twitter, and LinkedIn (see [Viral marketing: forward to a friend](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. These blocks must be inserted in the source code of the delivery, in the **[!UICONTROL ...]** section, into **`<style>...</style>`** tags.
 * **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an Interaction offer to **[!UICONTROL Accepted]** (see [this section](../../interaction/using/offer-analysis-report.md)).
 

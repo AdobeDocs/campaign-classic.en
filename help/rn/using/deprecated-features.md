@@ -38,6 +38,14 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Feature</strong></td>
    <td><strong>Replacement</strong></td>
   </tr>
+    <tr>
+  <td>Technical Deliverability Monitoring Report<br></td>
+   <td><p>Starting Campaign 21.1 release, the Technical Deliverability Monitoring Report is deprecated.</p>
+   <p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p> 
+   <p>Adobe recommends you to engage with the Deliverability Team to define the best tools to monitor your instance deliverability performances.</p>
+  <p><em>Target removal date: End of 2021</em></p>
+  </td>
+ </tr>
   <tr>
   <td>CRM connectors<br></td>
    <td><p>Starting Campaign 20.3 release, the following CRM connectors are deprecated with Campaign:</p>
@@ -76,7 +84,6 @@ Customers are advised to review if they make use of the feature/capability in th
   <td>SMS connectors<br></td>
   <td><p> Starting Campaign 20.2 release, the following SMS connectors are deprecated.<p>
    <ul>
-   <li>NetSize</li>
    <li>Generic SMPP (SMPP version 3.4 supporting binary mode)</li>
    <li>Sybase365 (SAP SMS 365)</li>
    <li>CLX Communications</li>

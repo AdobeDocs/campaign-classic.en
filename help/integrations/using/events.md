@@ -5,7 +5,6 @@ title: Configuring events
 description: Learn how to configure events for custom implementation
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Configuring events for custom implementation {#events}

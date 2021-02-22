@@ -5,7 +5,6 @@ title: Configuring the integration
 description: Configuring the integration
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Pipeline option NmsPipeline_Config {#nmspipeline_config}
