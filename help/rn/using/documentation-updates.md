@@ -16,7 +16,7 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## February 2021 {#release-21.1}
 
-**Documentation updates coming with the release**
+**Documentation updates coming with the 21.1 release**
 
 The new **Email Feedback Service** capability (private beta) is documented [here](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
 
@@ -26,7 +26,7 @@ In the list of delivery statuses, the description for **Taken into account by th
 
 The keyboard shortcuts available on the new logon screen to connect to Adobe Campaign are now documented. [Read more](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
-## February 2021 {#feb-2021}
+**Other updates**
 
 A new section has been added with detailed information on how to perform A/B testing using workflows. [Read more](../../delivery/using/get-started-a-b-testing.md)
 
