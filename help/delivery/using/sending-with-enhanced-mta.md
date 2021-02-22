@@ -126,25 +126,6 @@ The bounce qualifications in the Campaign **[!UICONTROL Delivery log qualificati
 
 For more on bounce qualification, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### Delivery success reporting
-
-In the **[!UICONTROL Summary]** view of an email delivery [dashboard](../../delivery/using/delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
-
-Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
-
-When hard-bouncing messages get reported back from the Enhanced MTA, their status changes from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
-
-When soft-bouncing messages get reported back from the Enhanced MTA, they still show as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is not yet updated. Soft-bouncing messages are then [retried](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) throughout the delivery validity period:
-
-* If a retry is successful before the end of the validity period, the message status remains as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage remains unchanged.
-
-* Otherwise, the status changes to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
-
-Consequently, you should wait until the end of the validity period to see the final **[!UICONTROL Success]** percentage, and the final number of actually **[!UICONTROL Sent]** and **[!UICONTROL Failed]** messages.
-
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
-
-
 ### Delivery throughput
 
 The Campaign Delivery throughput graph will no longer display the throughput to your email recipients. That graph will now show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
@@ -165,6 +146,24 @@ For more on the validity period, see [this section](../../delivery/using/steps-s
 
 DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the Domain management table as part of the Enhanced MTA upgrade.
 For more on DKIM, see [this section](../../delivery/using/technical-recommendations.md#dkim).
+
+### Delivery success reporting
+
+In the **[!UICONTROL Summary]** view of an email delivery [dashboard](../../delivery/using/delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
+
+Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
+
+When hard-bouncing messages get reported back from the Enhanced MTA, their status changes from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
+
+When soft-bouncing messages get reported back from the Enhanced MTA, they still show as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is not yet updated. Soft-bouncing messages are then [retried](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) throughout the delivery validity period:
+
+* If a retry is successful before the end of the validity period, the message status remains as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage remains unchanged.
+
+* Otherwise, the status changes to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
+
+Consequently, you should wait until the end of the validity period to see the final **[!UICONTROL Success]** percentage, and the final number of actually **[!UICONTROL Sent]** and **[!UICONTROL Failed]** messages.
+
+<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
 ### Email Feedback Service (beta) {#email-feedback-service}
 
@@ -201,7 +200,7 @@ When soft-bouncing messages get reported back from the Enhanced MTA, their log 
 >For more on retries after a delivery temporary failure, see [this section](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 
-The tables below shows the changes in KPIs and sending logs statuses introduced by the EFS capability.
+The tables below show the changes in KPIs and sending logs statuses introduced by the EFS capability.
 
 **With Email Feedback Service**
 
@@ -215,7 +214,7 @@ The tables below shows the changes in KPIs and sending logs statuses introduced 
 
 **Without Email Feedback Service**
 
-| Step in thesending process | KPI summary | Sending logs status | 
+| Step in the sending process | KPI summary | Sending logs status | 
 |--- |--- |--- |
 | Message is successfully relayed from Campaign to the Enhanced MTA | **[!UICONTROL Success]** percentage starts out at 100%| Sent |
 | Hard-bouncing messages get reported back from the Enhanced MTA | **[!UICONTROL Success]** percentage is decreased accordingly | Failed |

@@ -16,11 +16,9 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## February 2021 {#release-21.1}
 
-**New capabilities included in 21.1 release**
+**Documentation updates coming with the release**
 
-Email Feedback Service - [Read more](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)
-
-**Other documentation updates coming with the release**
+The new **Email Feedback Service** capability (private beta) is documented [here](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
 
 The **Server configuration file** section has been updated with the configuration parameters needed for Campaign to connect to another service using IMS. [Read more](../../installation/using/the-server-configuration-file.md#ims)
 
