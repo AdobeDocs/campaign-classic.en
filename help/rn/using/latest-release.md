@@ -14,7 +14,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 For Campaign Classic Gold Standard version (latest GA build), [refer to this page](../../rn/using/gold-standard.md).
 
-## ![](assets/do-not-localize/blue_2.png) Release 21.1.1 - Build xxxx {#release-21-1-1-build-xxxx}
+## ![](assets/do-not-localize/blue_2.png) Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 
 _22 February 2021_
 
@@ -27,7 +27,6 @@ _22 February 2021_
 
 The following systems are now supported with Campaign:
 
-* Debian 10
 * Salesforce API version 49 is now supported when using Salesforce CRM external account.
 
 **Deprecated features**
