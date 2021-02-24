@@ -20,3 +20,5 @@ Once the script is created to select the A/B test winner, you can define the par
    ![](assets/ab_test_final_delivery.png)
 
 By preparing the delivery specified in the transition (defined via the **[!UICONTROL Javascript Code]** activity), you will be then able to approve it and to start the sending, as described in the next step.
+
+You can now start the workflow (see [Step 7: Start the workflow](../../delivery/using/a-b-testing-uc-start-workflow.md)).

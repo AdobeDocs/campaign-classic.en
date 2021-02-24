@@ -24,3 +24,5 @@ We now want to create two delivery templates. Each template will be referenced i
 1. Repeat this process to create a template for delivery B.
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
+
+You can now configure the deliveries in the workflow (see [Step 4: Configure the deliveries in the workflow](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)).
