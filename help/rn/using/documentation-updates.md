@@ -56,6 +56,8 @@ The troubleshooting section of the **Monitoring** guide has been reorganized and
 
 A new **Importing and exporting data** section is available with new pages related to workflows, data compression, encryption, and import best practices. [Read more](../../platform/using/get-started-data-import-export.md)
 
+Information has been added on how to add links in emails that can be personalized and that support tracking. [Read more](../../delivery/using/tracking-personalized-links.md).
+
 ## December 2020 {#dec-2020}
 
 The **Delivery monitoring** section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
