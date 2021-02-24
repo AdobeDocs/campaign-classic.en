@@ -22,9 +22,7 @@ In that case, the page is downloaded during the analysis, before the tracking de
 
 ## Recommended Pattern
 
-After processing `<%@` instructions, the URL to be tracked has the following syntax:
-
-`<a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">`
+After processing `<%@` instructions, the URL to be tracked has the following syntax: `<a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">`
 
 >[!IMPORTANT]
 >
@@ -38,5 +36,6 @@ The `<a href="http://<%=myURL%>">` syntax is not secure and not recommended beca
 * Escaping of the URL is problematic, some characters in the URL can cause problems.
 * You cannot have a parameter named ID conflicting with parameter in the redirection URL.
 * Interest of tracking is then limited to statistics on the delivery, as Adobe Campaign indifferently tracks all possible values of "myURL".
-Refer to this page to learn more.
+
+Refer to [this page](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy) to learn more.
 

@@ -14,10 +14,10 @@ The links in email content that contain personalization need specific syntax to 
 
 Using JavaScript in email content (HTML or Text) allows you to generate and send dynamic content to the recipients, with two limitations:
 
-* The script cannot access the database directly (SQL function and API functions are not available)
-* Adobe Campaign must be able to detect URLs so that links can be tracked (purpose of this document)
+* The script cannot access the database directly (SQL function and API functions are not available),
+* Adobe Campaign must be able to detect URLs so that links can be tracked (purpose of this document).
 
-For tracking detection, Adobe Campaign embeds Tidy to parse the HTML source and detect the pattern. It lists all the URLs of the content so that they can be tracked individually. Adobe Campaign uses Tidy again to replace the URL (`http://myurl.com`) with a URL pointing to the Adobe Campaign redirection server.
+For tracking detection, Adobe Campaign embeds [Tidy](http://www.html-tidy.org/) to parse the HTML source and detect the pattern. It lists all the URLs of the content so that they can be tracked individually. Adobe Campaign uses Tidy again to replace the URL (`http://myurl.com`) with a URL pointing to the Adobe Campaign redirection server.
 
 For example, in the initial content: `http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>` is replaced for one particular recipient with: `http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`
 

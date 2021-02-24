@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tracking-messages
 ---
 
-# Pre-processing instructions
+# Pre-processing instructions {#pre-processing-instructions}
 
 The <%@ instructions instructions are not JavaScript, this syntax is specific to Adobe Campaign.
 
@@ -16,12 +16,13 @@ They only apply in the context of delivery content. It is the only way to script
 
 There are three types of instructions:
 
-* "include": mainly to factorize some cod in options, personalization blocks, external files, or pages
-* "value": to give access to fields of the delivery, delivery variables and custom objects loaded in the delivery
-* "foreach": to loop an array loaded as a custom object.
+* "**include**": mainly to factorize some cod in options, personalization blocks, external files, or pages
+* "**value**": to give access to fields of the delivery, delivery variables and custom objects loaded in the delivery
+* "**foreach**": to loop an array loaded as a custom object.
+
 They can be tested directly from the delivery wizard. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
-## <%@ include
+## <%@ include {#<%@-include}
 
 The following examples are among the most commonly used:
 
@@ -35,7 +36,7 @@ The following examples are among the most commonly used:
 
 Use the personalization button in the delivery wizard to get the correct syntax.
 
-## <%@ value
+## <%@ value {#<%@-value}
 
 This instruction gives access to parameters of the delivery that are constant for all recipients.
 
@@ -53,15 +54,18 @@ Object can be:
 
 * *"delivery": for the current delivery (see details and restrictions in the subsection below).
 * "provider": for the current delivery provider/routing (nms:externalAccount).
-* An extra script object: if an object is loaded in the context through: Properties > Personalization > Add objects in the execution context.
-* Item of the foreach loop: see Foreach section below.
+* An extra script object: if an object is loaded in the context through: **Properties** > **Personalization** > **Add objects in the execution context**.
+* Item of the foreach loop: see [Foreach](#<%@-foreach) section below.
 
-### "delivery" object
+### "delivery" object {#delivery-object}
 
 For email personalization, the delivery object is accessible in two ways:
 
-* In JavaScript. For example: `<%= delivery.myField %>`. In the JavaScript object delivery custom fields are not supported. They work in the preview, but not in the MTA because the MTA can only access the out-of-the-box delivery schema.
-* Through `<%@ value object="delivery"` pre-processing
+* In JavaScript. For example: `<%= delivery.myField %>`.
+
+  In the JavaScript object delivery custom fields are not supported. They work in the preview, but not in the MTA because the MTA can only access the out-of-the-box delivery schema.
+
+* Through `<%@ value object="delivery"` pre-processing.
 
 For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, there is another limitation for deliveries sent via mid-sourcing. The custom field @myCustomField must be added to the nms:delivery schema on both marketing and mid-sourcing platforms.
 
@@ -71,7 +75,7 @@ For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, the
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### <%@ value in a Javascript section
+### <%@ value in a Javascript section {#<%@-value-in-javascript}
 
 To allow using <%@ value in script sections, two special objects are replaced with <% and %>:
 
@@ -80,10 +84,12 @@ To allow using <%@ value in script sections, two special objects are replaced wi
 
 For example:
 
-`<%@ value object='startScript' %> var iMode = <%@ value object="delivery" xpath="@deliveryMode" %> if(iMode == 1) { ... } else { ... }`
-`<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.`
+```
+<%@ value object='startScript' %> var iMode = <%@ value object="delivery" xpath="@deliveryMode" %> if(iMode == 1) { ... } else { ... }`
+`<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
+```
 
-## <%@ foreach
+## <%@ foreach {#<%@-foreach}
 
 This instruction allows iteration on an array of objects loaded in the delivery to track individual links related to the objects.
 
