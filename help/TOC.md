@@ -196,7 +196,7 @@ type: Documentation
        + [How to configure tracked links](delivery/using/how-to-configure-tracked-links.md)
        + Tracking personalized links {#tracking-personalized-links}
           + [Get started with personalized links tracking](delivery/using/tracking-personalized-links.md)
-          + [Detecting tracking URLs](delivery/using/detectig-tracking-urls.md)
+          + [Detecting tracking URLs](delivery/using/detecting-tracking-urls.md)
           + [Pre-processing instructions for tracking](delivery/using/pre-processing-instructions.md)
        + [Configuring URL tracking options](delivery/using/personalizing-url-tracking.md)
        + [Accessing the tracking logs](delivery/using/accessing-the-tracking-logs.md)

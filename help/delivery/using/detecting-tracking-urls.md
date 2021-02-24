@@ -10,7 +10,7 @@ topic-tags: tracking-messages
 
 # Detecting tracking URLs
 
-### Example of non-detection
+## Example of non-detection
 
 `<%= getURL("http://mynewsletter.com") %>` works and sends the actual content of the web page via email to the recipients. But none of the links are tracked. The reason for this is that the MTA executes `"<%=getURL(..."` for each email before sending. It can be different for each recipient, so Adobe Campaign cannot know the URLs for tracking and assign them a tag ID.
 
@@ -20,7 +20,7 @@ When the page to download is the same for all recipients, the best practice is t
 
 In that case, the page is downloaded during the analysis, before the tracking detection. It allows Adobe Campaign to discover the links, assign a tag ID, and track them.
 
-### Recommended Pattern
+## Recommended Pattern
 
 After processing `<%@` instructions, the URL to be tracked has the following syntax:
 
@@ -30,7 +30,7 @@ After processing `<%@` instructions, the URL to be tracked has the following syn
 >
 >All other patterns are not supported by Adobe and should be avoided to prevent potential security gaps.
 
-### Warnings on http://<%=myURL%> pattern
+## Warnings on http://<%=myURL%> pattern
 
 The `<a href="http://<%=myURL%>">` syntax is not secure and not recommended because:
 

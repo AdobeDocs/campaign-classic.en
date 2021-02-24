@@ -21,7 +21,7 @@ There are three types of instructions:
 * "foreach": to loop an array loaded as a custom object.
 They can be tested directly from the delivery wizard. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
-### <%@ include
+## <%@ include
 
 The following examples are among the most commonly used:
 
@@ -35,7 +35,7 @@ The following examples are among the most commonly used:
 
 Use the personalization button in the delivery wizard to get the correct syntax.
 
-### <%@ value
+## <%@ value
 
 This instruction gives access to parameters of the delivery that are constant for all recipients.
 
@@ -56,7 +56,7 @@ Object can be:
 * An extra script object: if an object is loaded in the context through: Properties > Personalization > Add objects in the execution context.
 * Item of the foreach loop: see Foreach section below.
 
-**"DELIVERY" OBJECT**
+### "delivery" object
 
 For email personalization, the delivery object is accessible in two ways:
 
@@ -71,7 +71,7 @@ For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, the
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-**<%@ VALUE IN A JAVASCRIPT SECTION**
+### <%@ value in a Javascript section
 
 To allow using <%@ value in script sections, two special objects are replaced with <% and %>:
 
@@ -83,7 +83,7 @@ For example:
 `<%@ value object='startScript' %> var iMode = <%@ value object="delivery" xpath="@deliveryMode" %> if(iMode == 1) { ... } else { ... }`
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.`
 
-### <%@ foreach
+## <%@ foreach
 
 This instruction allows iteration on an array of objects loaded in the delivery to track individual links related to the objects.
 
