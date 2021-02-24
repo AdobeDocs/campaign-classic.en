@@ -89,9 +89,19 @@ To add the project credentials in Adobe Campaign, run the following command as '
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
->[!NOTE]
->
->You should encode the private key in base64 UTF-8 format. Remember to remove the new line from the key before encoding it, except for the private key. The private key needs to be the same that was used to create the integration. To test the base64 encoding of the private key, you can use [this website](https://www.base64encode.org/).
+The private key should be encoded in base64 UTF-8 format. To do so:
+
+1. Use the private key generated in the [Step 1: Create/update Adobe I/O Project section](#creating-adobe-io-project). The private key needs to be the same as the one used to create the integration.
+
+1. Using this [this website](https://www.base64encode.org/), copy paste your private key to the corresponding field. 
+
+    >[!NOTE]
+    >
+    >An extra line can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
+
+1. Click **[!UICONTROL Encode]**.
+
+1. Use your newly generated private key encoded in base64 UTF-8 format to run the command detailed above.
 
 ## Step 3: Update pipelined tag {#update-pipelined-tag}
 

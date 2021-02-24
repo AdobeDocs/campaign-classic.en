@@ -12,11 +12,14 @@ topic-tags: tracking-messages
 
 For each delivery, you can track the reception of messages and the activation of the links inserted in the message content. This lets you track the behavior of recipients following the delivery actions which they were targeted by.
 
+Tracking applies to messages, but web tracking lets you monitor how recipients browse a website (pages visited, purchases). The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
+
 >[!NOTE]
 >
->Tracking applies to messages, but web tracking lets you monitor how recipients browse a website (pages visited, purchases).
->
->The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
+>The links in email content that contain personalization need specific syntax to be tracked. For more on how to add links in emails that can be personalized and that support tracking, refer to [this section](../../delivery/using/tracking-personalized-links.md).
+
+
+
 
 Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
 

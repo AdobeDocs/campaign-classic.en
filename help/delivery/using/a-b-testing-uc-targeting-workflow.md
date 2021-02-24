@@ -27,3 +27,5 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 1. Use the mouse to drag and drop activities into the workflow diagram, including a **[!UICONTROL Query]** (**[!UICONTROL Target]** tab), a **[!UICONTROL Split]** (**[!UICONTROL Target]** tab), two **[!UICONTROL Email deliveries]** (**[!UICONTROL Deliveries]** tab), a **[!UICONTROL Wait]** activity (**[!UICONTROL Flow Control]** tab), a **[!UICONTROL JavaScript code]** activity (**[!UICONTROL Actions]** tab), and a **[!UICONTROL Delivery]** activity (**[!UICONTROL Actions]** tab).
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
+
+You can now configure the population samples (see [Step 2: Configure population samples](../../delivery/using/a-b-testing-uc-population-samples.md)).

@@ -44,3 +44,5 @@ The next step is to configure the deliveries. They are destined for the three po
 1. Link the **[!UICONTROL Wait]** activity to the **[!UICONTROL JavaScript code]** activity.
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
+
+You can now create the script (see [Step 5: Create the script](../../delivery/using/a-b-testing-uc-script.md)).
