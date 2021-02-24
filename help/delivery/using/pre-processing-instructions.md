@@ -52,7 +52,7 @@ Where:
 
 Object can be:
 
-* *"delivery": for the current delivery (see details and restrictions in the subsection below).
+* "delivery": for the current delivery (see details and restrictions in the subsection below).
 * "provider": for the current delivery provider/routing (nms:externalAccount).
 * An extra script object: if an object is loaded in the context through: **Properties** > **Personalization** > **Add objects in the execution context**.
 * Item of the foreach loop: see [Foreach](#<%@-foreach) section below.
