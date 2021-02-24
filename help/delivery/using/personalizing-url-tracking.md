@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Personalizing URL tracking
-description: Personalizing URL tracking
+title: Configuring URL tracking options
+description: Configuring URL tracking options
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 ---
 
-# Personalizing URL tracking{#personalizing-url-tracking}
+# Configuring URL tracking options{#personalizing-url-tracking}
 
 Advanced message tracking settings are accessible via the **[!UICONTROL Tracking & Images]** icon in the toolbar of the delivery wizard.
 
