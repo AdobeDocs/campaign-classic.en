@@ -16,8 +16,6 @@ More precisely, email deliverability refers to the set of characteristics that d
 
 For a deeper dive on what deliverability is and to learn more on key deliverability terms, concepts, and approaches, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
-Adobe Campaign offers a certain number of tools to track the deliverability performance of your platform. This section also highlights the main principles you should have in mind when managing and optimizing deliverability.
-
 ## How to improve deliverability {#deliverability-key-points}
 
 Deliverability problems are usually linked to measures of protection against spam implemented by internet service providers and mail server administrators.
@@ -47,22 +45,23 @@ With Adobe Campaign, the deliverability rate depends on numerous factors, partic
 
 ## Campaign deliverability tools {#deliverability-tools}
 
-Adobe Campaign provides a number of tools designed to ensure optimal deliverability.
+<!--Adobe Campaign provides a number of tools designed to ensure optimal deliverability.-->
+Adobe Campaign provides a number of tools to track and improve the deliverability performance of your platform. This page also highlights the main principles you should have in mind to optimize deliverability when using Campaign.
 
 ### Carefully build your message
 
 When configuring, designing and testing your message, make sure you follow the best practices mentioned in the sections listed below. Leveraging all the features provided by Adobe Campaign will help you improve deliverability.
 
-* [Delivery best practices](../../sending/using/delivery-best-practices.md)
-* [Controlling email content](../../sending/using/control-email-content.md)
-* [Previewing messages](../../sending/using/previewing-messages.md)
-* [Sending proofs](../../sending/using/sending-proofs.md)
+* [Delivery best practices](../../delivery/using/delivery-best-practices.md)
+* [Controlling email content](../../delivery/using/control-message-content.md)
+* [Inbox rendering](../../delivery/using/inbox-rendering.md)
+* [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
 
 ### Verify consent through double opt-in {#double-opt-in}
 
 To avoid sending messages to invalid addresses, limit improper communications and improve sender reputation, Adobe recommends implementing a double opt-in mechanism. This enables you to ensure that your recipients subscribed intentionally.
 
-For more on this, see [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+For more on this, see [Create a subscription form with double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 For more on best practices when collecting data from your customers, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
 
@@ -84,14 +83,13 @@ For more on this, refer to the following sections:
 
 Use the features offered by Adobe Campaign to monitor your deliverability.
 
-Adobe Campaign allows you to check how your deliveries are performing through a set of built-in real-time indicators. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->You can also build fully customizable and real-time reports for improved insight on your deliveries.
+Adobe Campaign allows you to check how your deliveries are performing through a set of built-in real-time indicators and reports for improved insight on your deliveries.
 
 For more on this, refer to the following sections:
 
-* [Monitoring deliverability](../../sending/using/monitor-deliverability.md)
-    <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
-* [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
+* [Monitoring deliverability](../../delivery/using/monitoring-deliverability.md)
+* [About delivery monitoring](../../../../delivery/using/about-delivery-monitoring.md)
+* [About Campaign built-in reports](../../reporting/using/about-campaign-built-in-reports.md)
 
 <!--TO REMOVE
 ## Background {#background}
