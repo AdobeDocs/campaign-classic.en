@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sending-emails
 ---
 
-# Confirming email delivery {#confirming-email-delivery}
+# Main steps to send an email {#confirming-email-delivery}
 
-Once your email has been created and configured, you can send it to the main target. This section presents the main steps to confirm the delivery of an email.
+Once your email has been created and configured, you can send it to the main target. This section presents the main steps to check and confirm the delivery of an email.
 
 1. Make sure you configured all the settings that are specific to email delivery. For more on this, see [Email parameters](../../delivery/using/email-parameters.md).
 1. When the email is ready, before sending it to the main target, it is recommended to detect any potential errors by sending proofs. For more on this, see [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
