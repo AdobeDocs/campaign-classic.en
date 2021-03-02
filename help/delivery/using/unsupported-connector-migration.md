@@ -63,96 +63,115 @@ In the **[!UICONTROL Connection Settings]** tab:
 
 ### From the Generic SMPP connector {#from-generic-smpp-connector}
 
-From your Generic SMPP connector, you can transpose to your newly created Extended SMPP account:
-
-In the Connection Settings tab:
+From your **[!UICONTROL Generic SMPP]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
 ![](assets/smpp_generic_2.png)
 
-Account
-Password
-Server
-Port
-System Type
-In the SMPP Channel Settings tab:
+In the **[!UICONTROL Connection Settings]** tab:
 
-Source number
-Source NPI
-Destination NPI
-Source TON
-Destination TON
-In the Mapping of Encoding tab:
+* **[!UICONTROL Account]**
+* **[!UICONTROL Password]**
+* **[!UICONTROL Server]**
+* **[!UICONTROL Port]**
+* **[!UICONTROL System Type]**
 
-Outbound SMS coding
-In the SMSC specifities tab:
+In the **[!UICONTROL SMPP Channel Settings]** tab:
 
-Coding when sending corresponds to ID Format in MT acknowledgement
-Coding when receiving corresponds to ID Format in the SR
+* **[!UICONTROL Source number]**
+* **[!UICONTROL Source NPI]**
+* **[!UICONTROL Destination NPI]**
+* **[!UICONTROL Source TON]**
+* **[!UICONTROL Destination TON]**
+
+In the **[!UICONTROL Mapping of Encoding]** tab:
+
+* **[!UICONTROL Outbound SMS coding]**
+
+In the **[!UICONTROL SMSC specificities]** tab:
+
+* **[!UICONTROL Coding when sending]** corresponds to **[!UICONTROL ID Format in MT acknowledgement]**
+* **[!UICONTROL Coding when receiving]** corresponds to **[!UICONTROL ID Format in the SR]**
 
 ### From the Sybase365 connector {#from-sybase}
 
-From your Sybase365 connector, you can transpose to your newly created Extended SMPP account:
+From your **[!UICONTROL Sybase365]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-In the Connection Settings tab:
-Account
-Password
-Server
-Port
-System Type
-From CLX connector
-clx
-From your CLX connector, you can transpose to your newly created Extended SMPP account:
-In the Connection Settings tab:
+![](assets/smpp_3.png)
 
-Account
-Password
-Server
-Port
-System Type
-In the SMPP Channel Settings tab:
+In the **[!UICONTROL Connection Settings]** tab:
 
-Source number
-In the SMSC specifities tab:
+* **[!UICONTROL Account]**
+* **[!UICONTROL Password]**
+* **[!UICONTROL Server]**
+* **[!UICONTROL Port]**
+* **[!UICONTROL System Type]**
 
-Coding when sending corresponds to ID Format in MT acknowledgement
-Coding when receiving corresponds to ID Format in the SR
+### From CLX connector {#from-clx}
+
+From your **[!UICONTROL CLX]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
+
+![](assets/smpp_4.png)
+
+In the **[!UICONTROL Connection Settings]** tab:
+
+* **[!UICONTROL Account]**
+* **[!UICONTROL Password]**
+* **[!UICONTROL Server]**
+* **[!UICONTROL Port]**
+* **[!UICONTROL System Type]**
+
+In the **[!UICONTROL SMPP Channel Settings]** tab:
+
+* **[!UICONTROL Source number]**
+
+In the **[!UICONTROL SMSC specificities]** tab:
+
+* **[!UICONTROL Coding when sending]** corresponds to **[!UICONTROL ID Format in MT acknowledgement]**
+* **[!UICONTROL Coding when receiving]** corresponds to **[!UICONTROL ID Format in the SR]**
 
 ### From the Tele2 connector {#from-tele2}
 
-From your Tele2 connector, you can transpose to your newly created Extended SMPP account:
-In the Connection Settings tab:
+From your **[!UICONTROL Tele2]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-Account
-Password
-Server
-Port
-System Type
-In the SMPP Channel Settings tab:
+![](assets/smpp_6.png)
 
-Source number
-Source NPI
-Destination NPI
-Source TON
-Destination TON
-In the Mapping of Encoding tab:
+In the **[!UICONTROL Connection Settings]** tab:
 
-Outbound SMS coding
+* **[!UICONTROL Account]**
+* **[!UICONTROL Password]**
+* **[!UICONTROL Server]**
+* **[!UICONTROL Port]**
+* **[!UICONTROL System Type]**
+
+In the **[!UICONTROL SMPP Channel Settings]** tab:
+
+* **[!UICONTROL Source number]**
+* **[!UICONTROL Source NPI]**
+* **[!UICONTROL Destination NPI]**
+* **[!UICONTROL Source TON]**
+
+In the **[!UICONTROL Mapping of Encoding]** tab:
+
+* **[!UICONTROL Outbound SMS coding]**
 
 ### From the O2 connector {#from-O2}
 
-From your O2 connector, you can transpose to your newly created Extended SMPP account:
+From your **[!UICONTROL O2]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-In the Connection Settings tab:
+![](assets/smpp_5.png)
 
-Account
-Password
-Server
-Port
-System Type
-In the SMPP Channel Settings tab:
+In the **[!UICONTROL Connection Settings]** tab:
 
-Source number
-Source NPI
-Destination NPI
-Source TON
-Destination TON
+* **[!UICONTROL Account]**
+* **[!UICONTROL Password]**
+* **[!UICONTROL Server]**
+* **[!UICONTROL Port]**
+* **[!UICONTROL System Type]**
+
+In the **[!UICONTROL SMPP Channel Settings]** tab:
+
+* **[!UICONTROL Source number]**
+* **[!UICONTROL Source NPI]**
+* **[!UICONTROL Destination NPI]**
+* **[!UICONTROL Source TON]**
+* **[!UICONTROL Destination TON]**
