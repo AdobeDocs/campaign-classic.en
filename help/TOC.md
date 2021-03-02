@@ -120,8 +120,8 @@ type: Documentation
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
        + [Defining interactive content](delivery/using/defining-interactive-content.md)
-       + Sending an email {#sending-an-email}
-            + [Confirming email delivery](delivery/using/sending-messages.md)
+       + Sending the email delivery {#sending-an-email}
+            + [Main steps to send an email](delivery/using/sending-messages.md)
             + [Email parameters](delivery/using/email-parameters.md)
             + [Sending with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
             + [Sending on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
