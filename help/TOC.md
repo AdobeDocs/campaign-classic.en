@@ -131,6 +131,7 @@ type: Documentation
        + [LINE channel](delivery/using/line-channel.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
        + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
+       + [Migrate unsupported SMS connector to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
