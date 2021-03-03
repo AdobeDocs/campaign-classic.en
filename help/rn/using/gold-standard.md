@@ -20,6 +20,19 @@ For more information on Campaign Gold Standard program, refer [to this article](
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
 
+_March 2, 2021_
+
+The build 9032&#64;10c2709 includes the following fix:
+
+* Fixed a regression preventing usage of some component of the console, such as date picker and images management in delivery (NEO-31453, NEO-31454)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
+>[!NOTE]
+>
+> You can download the new console in [the Download center](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html), and propose the update to the latest version to all Campaign client console users by copying the console executable file on a specific folder of the Campaign Marketing server. [Learn more](../../installation/using/client-console-availability-for-windows.md).
+>
+
 _December 22, 2020_
 
 >[!CAUTION]
