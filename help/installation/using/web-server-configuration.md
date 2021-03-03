@@ -46,8 +46,8 @@ Remove the **TRACE** method:
 
 Remove the banner:
 
- * On Apache, edit /etc/apache2/conf.d/security:
-
+* On Apache, edit /etc/apache2/conf.d/security:
+    
     * ServerSignature **Off**
     * ServerTokens **Prod**
 

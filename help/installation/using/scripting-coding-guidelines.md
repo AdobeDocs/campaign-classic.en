@@ -79,7 +79,7 @@ In addition to the folder-based security model, you can use named rights to limi
 
 * You can add some system filters (sysFilter) to prevent reading/writing to your data (see [this page](../../configuration/using/filtering-schemas.md)).
 
-    ````
+    ```
     <sysFilter name="writeAccess">    
         <condition enabledIf="hasNamedRight('myNewRole')=false" expr="FALSE"/>  
     </sysFilter>
@@ -123,7 +123,7 @@ The general way to add a captcha in the DCE is to create a personalization block
 
     Here is an example of a **Campaign captcha**:
 
-    ```
+    ```javascript
     <%
     var captchaID = CaptchaIDGen();
     %>
@@ -176,13 +176,13 @@ The general way to add a captcha in the DCE is to create a personalization block
 
 >[!IMPORTANT]
 >
->For reCAPTCHA integration, you have to add client-side JavaScript in the HTML (in <head>...</head>):
+>For reCAPTCHA integration, you have to add client-side JavaScript in the HTML (in `<head>...</head>`):
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 
 ### Campaign captcha
 
-```
+```javascript
 var captchaID = request.getParameter("captchaID");
 var captchaValue = request.getParameter("captchaValue");
   
@@ -202,7 +202,7 @@ Line 6: you can put any kind of error message.
 
 Please refer to the [official documentation](https://developers.google.com/recaptcha/docs/verify).
 
-```
+```javascript
 ctx.vars.captchaValid = false
 var gReCaptchaResponse = request.getParameter("g-recaptcha-response");
   
