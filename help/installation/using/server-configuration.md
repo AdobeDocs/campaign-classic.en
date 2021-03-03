@@ -118,11 +118,11 @@ Existing customers coming from a migration can use the warning mode for a while.
 
 ## Command restriction (server-side)
 
-Several commands are blacklisted and cannot be executed using the execCommand function. An extra-security is provided by a dedicated Unix user to execute external commands. For hosted installations, this restriction is automatically applied. For on-premise installations, you can manually set up this restriction by following the instructions from [this page](../../installation/using/configuring-campaign-server#restricting-authorized-external-commands). In addition, **[!UICONTROL Script]** and **[!UICONTROL External task]** workflow activities are not available (newly installed instances).
+Several commands are blacklisted and cannot be executed using the execCommand function. An extra-security is provided by a dedicated Unix user to execute external commands. For hosted installations, this restriction is automatically applied. For on-premise installations, you can manually set up this restriction by following the instructions from [this page](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). In addition, **[!UICONTROL Script]** and **[!UICONTROL External task]** workflow activities are not available (newly installed instances).
 
 ## Other configurations
 
-You can add extra HTTP headers for all pages (for more information, refer to [this page](../../installation/using/configuring-campaign-server#restricting-authorized-external-commands)):
+You can add extra HTTP headers for all pages (for more information, refer to [this page](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)):
 
 * You can add some additional headers such as HSTS, X-FRAME-OPTIONS, CSP...
 * You have to test them in a test environment before applying them in production. 
