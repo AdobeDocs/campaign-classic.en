@@ -167,7 +167,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Salesforce connector API</td>
 <td>
-<p>API version 37</p>
+<p>API version 49</p>
 </td>
 </tr>
 <tr>

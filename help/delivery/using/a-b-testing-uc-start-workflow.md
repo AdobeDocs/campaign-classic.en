@@ -23,3 +23,5 @@ topic-tags: a-b-testing
    In this case, template B was chosen.
 
 1. Once the content of the third delivery is determined, approve the target and the content.
+
+You can now analyze the result (see [Step 8: Analyze the result](../../delivery/using/a-b-testing-uc-analyzing.md)).

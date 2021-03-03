@@ -26,10 +26,6 @@ To configure this connector, follow these steps:
 1. Select the **[!UICONTROL iOS routing]** external account.
 1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field with the following URL: ```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
 
-   >[!NOTE]
-   >
-   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
-
    ![](assets/nmac_connectors.png)
 
 1. Click **[!UICONTROL Save]**.

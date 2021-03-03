@@ -162,3 +162,5 @@ The example above lets you select the content of a delivery based on the rate of
 * Number of pages visited following the reception of a message: `[indicators/@totalWebPage]`,
 * Lowest unsubscription rate: `[indicators/@optOutRatio]`,
 * Transaction amount: `[indicators/@amount]`.
+
+You can now define the final delivery (see [Step 6: Define the final delivery](../../delivery/using/a-b-testing-uc-final-delivery.md)).

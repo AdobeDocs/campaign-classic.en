@@ -14,7 +14,23 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
-## February 2021 {#feb-2021}
+## March 2021 {#march-2021}
+
+Information has been added in the **[!UICONTROL Advanced JavaScript]** activity section on how to use the task.setCompleted() method to terminate the task and prevent future recalls. [Read more](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+
+## February 2021 {#release-21.1}
+
+**Documentation updates coming with the 21.1 release**
+
+The new **Email Feedback Service** capability (private beta) is documented [here](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
+
+The **Server configuration file** section has been updated with the configuration parameters needed for Campaign to connect to another service using IMS. [Read more](../../installation/using/the-server-configuration-file.md#ims)
+
+In the list of delivery statuses, the description for **Taken into account by the service provider** has been updated: this status is now also used for email deliveries sent using the [Email Feedback Service](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [Read more](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+
+The keyboard shortcuts available on the new logon screen to connect to Adobe Campaign are now documented. [Read more](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
+
+**Other updates**
 
 A new section has been added with detailed information on how to perform A/B testing using workflows. [Read more](../../delivery/using/get-started-a-b-testing.md)
 
@@ -25,6 +41,8 @@ A new page has been added to provide an overview of tracking capabilities in [!D
 A troubleshooting section has been added to help you solve common issues related to tracking. [Read more](../../delivery/using/tracking-troubleshooting.md)
 
 The **Sending an email** section has been reorganized and clarified with new subsections. [Read more](../../delivery/using/sending-messages.md)
+
+Information has been added on how to add links in emails that can be personalized and that support tracking. [Read more](../../delivery/using/tracking-personalized-links.md).
 
 ## January 2021 {#jan-2021}
 
@@ -93,7 +111,7 @@ The Compatibility matrix has been updated. [Read more](../../rn/using/compatibil
 The Deprecated and removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
 
 Release notes and Compatibility matrix for Gold Standard release are now available in a dedicated section.
-[Read more](../../rn/using/gold-standard.md#gs-10).
+[Read more](../../rn/using/gold-standard.md#gs-11).
 
 Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
 

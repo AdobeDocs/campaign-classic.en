@@ -62,7 +62,7 @@ For more details on the different delivery failures you can encounter, and how t
   </tr> 
   <tr> 
    <td> Taken into account by the service provider<br /> </td> 
-   <td> The SMS service provider received the delivery.<br /> </td> 
+   <td> The SMS service provider received the delivery.<br /> For hosted or hybrid installations, if you have upgraded to the <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>, the message was successfully relayed from Campaign to the Enhanced MTA.</td> 
   </tr> 
   <tr> 
    <td> Received on mobile<br /> </td> 
@@ -122,7 +122,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
     
     In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* When too many campaigns running, the delivery status remains in ‘Pending’ status.
+* When too many campaigns are running, the delivery status remains in ‘Pending’ status.
 
     The limit of simultaneous campaigns is defined in the **[!UICONTROL NmsOperation_LimitConcurrency]** option. Default value is 10.
     

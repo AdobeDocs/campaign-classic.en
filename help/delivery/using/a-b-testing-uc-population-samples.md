@@ -73,3 +73,5 @@ This activity lets you create several populations: the one that receives deliver
     * Change the label to specify that this population includes neither A nor B, and click **[!UICONTROL OK]** to close the activity.
     
       ![](assets/use_case_abtesting_createrecipients_013.png)
+
+You can now create the two delivery templates (see [Step 3: Create two delivery templates](../../delivery/using/a-b-testing-uc-delivery-templates.md)).

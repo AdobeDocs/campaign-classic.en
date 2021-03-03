@@ -5,7 +5,6 @@ title: Campaign and Experience Cloud pipeline integration
 description: Learn how to select events to process
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Select events to process {#nmspipeline_config}

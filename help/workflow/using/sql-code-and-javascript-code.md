@@ -52,3 +52,12 @@ To ignore this limit, you need to set the value to **0**.
 * **[!UICONTROL Next calls]**: The second zone of the editor contains the script to execute during the next calls.
 * **[!UICONTROL Transitions]**: You can define several activity output transitions.
 * **[!UICONTROL Schedule]**: The **[!UICONTROL Schedule]** tab lets you schedule when to trigger the activity.
+
+Advanced JavaScript is a persistent task and is periodically recalled if it has not been marked as completed. To terminate the task and prevent future recalls, you must use the **task.setCompleted()** method in the **[!UICONTROL Next calls]** section:
+
+```
+task.postEvent(task.transitionByName("ok")); // to transition to Ok branch
+task.setCompleted();
+
+return 0;
+```

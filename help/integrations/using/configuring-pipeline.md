@@ -5,7 +5,6 @@ title: Configuring the pipeline
 description: Learn how to configure the pipeline
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Configure Experience Cloud pipeline {#configuring-pipeline}

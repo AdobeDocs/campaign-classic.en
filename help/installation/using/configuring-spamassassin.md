@@ -41,7 +41,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
 
 ### Install SpamAssassin {#installing-spamassassin}
 
-1. Connect to the [Software distribution portal](https://experience.adobe.com/downloads) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+1. Connect to the [Software distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 1. Download the **Neolane Spam Assassin (Windows Installation) (2.0)** file (neolane_spamassassin.2.0.zip).
 1. Copy this file onto the Adobe Campaign server then unzip it.
 

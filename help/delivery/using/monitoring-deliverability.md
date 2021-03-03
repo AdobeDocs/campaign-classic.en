@@ -18,14 +18,12 @@ Use the features offered by Adobe Campaign to monitor your platform's deliverabi
 
 The Deliverability package gives you access to:
 
-* Technical tracking report for day-to-day deliverability performance (technical monitoring). This report, available on demand, enables you to receive a daily report by email at a specified address. For more on this, contact the Adobe Customer Care team.
 * The [Inbox rendering report](../../delivery/using/inbox-rendering.md) which enables you to preview your messages on major email clients in order to scan content and reputation.
 * Overview of message quality (inbox, spam).
 
 You can also use the following tools:
 
 * The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
-* The **[!UICONTROL Technical deliverability monitoring]** report includes a number of deliverability quality indicators for your platform. For more on this, see [this section](#technical-deliverability-monitoring).
 * Each delivery generates a broadcast statistics report for the different Internet service providers (ISPs). It shows some data quality and reputation metrics that may impact your deliverability, including the following numbers:
     * **[!UICONTROL Hard bounces]** indicate data quality. This number should be less than 2%.
     * **[!UICONTROL Soft bounces]** indicate reputation. This number should not be higher than 10% for any given ISP.
@@ -61,28 +59,6 @@ Signal Spam is a French service which offers anonymized feedback loop reporting 
 [250ok](https://250ok.com/) is a complementary monitoring solution to the Adobe deliverability internal tools which provides IP and domain denylists, and reputation indicators.
 
 The information provided is real-time, which allows for a pro-active assistance.
-
-## Technical Deliverability Monitoring Report {#technical-deliverability-monitoring}
-
-The **Technical Deliverability Monitoring** report includes a number of deliverability quality indicators for your platform. You can receive this daily report by email. To request it, open a specific [Support Case](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and specify:
-
-* the name of the instance
-* the email addresses to send the report to
-
-This reports contains the following indicators:
-
-* **[!UICONTROL Reverse DNS]** : Adobe Campaign checks whether a reverse DNS is given for an IP address and that this correctly points back to the IP.
-
-* **[!UICONTROL SPF]** (Sender Policy Framework): An authentication mechanism that enables ISPs and mailbox providers to check whether the email sender is authorized on the sending domain.
-    
-* **[!UICONTROL DomainKeys]** : A service developed by Yahoo and intended to certify the identity of an email sender.
-
-* **[!UICONTROL IP and RBL domain]** (Real-time Blackhole List): A list of IP addresses and domains that have been flagged by denylist organizations for poor sending reputation. These lists are maintained by dedicated organizations such as Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign currently processes checks against RBLs that have a significant deliverability impact. These RBLs reflect sending reputation, and may be referenced by ISPs before accepting to receive your emails.
-
-* **[!UICONTROL SNDS]** (Smart Network Data Services): A [Windows Live Hotmail anti-spam service](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail is the only ISP that provides this type of information. Benchmark scores are a green filter result, a complaint rate of less than 0.1%, and zero spam traps.
-
-These indicators are updated daily at 9 AM.
-
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 

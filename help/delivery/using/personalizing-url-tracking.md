@@ -1,20 +1,20 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Personalizing URL tracking
-description: Personalizing URL tracking
+title: Configuring URL tracking options
+description: Configuring URL tracking options
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 ---
 
-# Personalize URL tracking{#personalizing-url-tracking}
+# Configuring URL tracking options{#personalizing-url-tracking}
 
 Advanced message tracking settings are accessible via the **[!UICONTROL Tracking & Images]** icon in the toolbar of the delivery wizard.
 
 >[!NOTE]
 >
->The management of images in emails is also configured in this window. See [Add images](../../delivery/using/defining-the-email-content.md#adding-images).
+>The management of images in emails is also configured in this window. See [Adding images](../../delivery/using/defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

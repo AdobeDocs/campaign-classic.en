@@ -42,7 +42,6 @@ Customers are advised to review if they make use of the feature/capability in th
   <td>SMS connectors<br></td>
   <td><p> Starting Campaign 20.2 release, the following SMS connectors are deprecated.<p>
    <ul>
-   <li>NetSize</li>
    <li>Generic SMPP (SMPP version 3.4 supporting binary mode)</li>
    <li>Sybase365 (SAP SMS 365)</li>
    <li>CLX Communications</li>

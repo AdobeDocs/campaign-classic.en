@@ -5,7 +5,6 @@ title: About Adobe Experience Manager
 description: About Adobe Experience Manager
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # About Adobe Experience Manager{#about-adobe-experience-manager}

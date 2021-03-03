@@ -401,7 +401,7 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 
 * **[!UICONTROL API version]**
 
-  Version of the API between **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** or **[!UICONTROL Version 15]**.
+  Version of the API between **[!UICONTROL Version 49]**, **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** or **[!UICONTROL Version 15]**.
 
 For this external account, you need to configure you Salesforce CRM with the configuration wizard.
 

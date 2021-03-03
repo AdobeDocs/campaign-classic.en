@@ -40,7 +40,7 @@ _22 December 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
-_September 11, 2020_
+_11 September 2020_
 
 * Fixed a regression causing delivery preparation to be blocked due to a single erroneous function on delivery part leading to memory overload. (NEO-27346)
 * Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
@@ -53,7 +53,7 @@ _September 11, 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
-_July 22, 2020_
+_22 July 2020_
 
 * Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
 * Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
@@ -78,7 +78,7 @@ _July 22, 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
-_June 8, 2020_
+_8 June 2020_
 
 **What's new?**
 

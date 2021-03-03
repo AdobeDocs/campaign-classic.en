@@ -5,7 +5,6 @@ title: Pipeline moniroting
 description: Monitor pipeline integration
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Pipeline monitoring {#pipeline-monitoring}

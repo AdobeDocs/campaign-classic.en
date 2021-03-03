@@ -50,7 +50,7 @@ Tracking options can be configured by activating or deactivating tracked URLs. [
 
 **Tracked link personalization**
 
-Campaign Classic tracking capabilities allow you to add links in emails that can be personalized and that support tracking. [Learn more](https://helpx.adobe.com/campaign/kb/tracking-personnalized-links.html) 
+Campaign Classic tracking capabilities allow you to add links in emails that can be personalized and that support tracking. [Learn more](../../delivery/using/tracking-personalized-links.md) 
 
 **Tracking logs**
 

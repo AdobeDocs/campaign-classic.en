@@ -5,7 +5,6 @@ title: Pipeline troubleshooting
 description: Troubleshoot the pipeline integration
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 ---
 
 # Pipeline troubleshooting {#pipeline-troubleshooting}
