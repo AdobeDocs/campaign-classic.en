@@ -24,13 +24,13 @@ _March 2, 2021_
 
 The build 9032&#64;10c2709 includes the following fix:
 
-* Fixed a regression preventing usage of some component of the console, such as date picker and images management in delivery (NEO-31453, NEO-31454)
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
 
 **Console upgrade only is mandatory. No server upgrade is required.** 
 
 >[!NOTE]
 >
-> You can download the new console in [the Download center](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html), and propose the update to the latest version to all Campaign client console users by copying the console executable file on a specific folder of the Campaign Marketing server. [Learn more](../../installation/using/client-console-availability-for-windows.md).
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
 >
 
 _December 22, 2020_
