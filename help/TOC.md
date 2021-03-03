@@ -662,6 +662,13 @@ type: Documentation
        + [Connecting to the database](installation/using/connecting-to-database.md)
        + [Creating the data schema](installation/using/creating-data-schema.md)
        + [Defining data mapping](installation/using/defining-data-mapping.md)
+  + Security and privacy checklist {#security-privacy}
+       + [Privacy](installation/using/privacy.md)
+       + [Access Management](installation/using/access-management.md)
+       + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)
+       + [Network, database and SSL/TLS](installation/using/network-database.md)
+       + [Server configuration](installation/using/server-configuration.md)
+       + [Web-server configuration](installation/using/web-server-configuration.md)
   + Appendices {#appendices}
        + [Server configuration file](installation/using/the-server-configuration-file.md)
        + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
