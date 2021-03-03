@@ -12,20 +12,20 @@ topic-tags: campaign-release-notes, latest-release-notes
 
 ## ![](assets/do-not-localize/blue_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
-_11 January 2021_
+_January 11, 2021_
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 * Fixed a regression issue related to the broadlog generation process that could cause the MTA process to crash.
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
-_27 October 2020_
+_October 27, 2020_
 
 >[!CAUTION]
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 31, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloug Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
 
 **What's new?**
 

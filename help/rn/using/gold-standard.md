@@ -20,13 +20,13 @@ For more information on Campaign Gold Standard program, refer [to this article](
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
 
-_22 December 2020_
+_December 22, 2020_
 
 >[!CAUTION]
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 31, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloug Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
 >
 >Learn more in the [Gold Standard 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
 
@@ -44,7 +44,7 @@ The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 10 release{#gs-10}
 
-_7 July 2020_
+_July 7, 2020_
 
 The build 9032&#64;efd8a94 includes the following fix:
 
@@ -72,7 +72,7 @@ The following fixes are related to the tracking link security mechanism (learn m
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 8 release{#gs-8}
 
-_29 April 2020_
+_April 29, 2020_
 
 The build 9032&#64;3a9dc9c includes the following fixes:
 
@@ -97,7 +97,7 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 6 release{#gs-6}
 
-_9 March 2020_
+_March 9, 2020_
 
 The build 9032&#64;19f73c5 includes the following fix:
 
@@ -105,7 +105,7 @@ The build 9032&#64;19f73c5 includes the following fix:
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 5 release{#gs-5}
 
-_17 December 2019_
+_December 17, 2019_
 
 The build 9032&#64;d6b8062 includes the following fix:
 
@@ -113,7 +113,7 @@ The build 9032&#64;d6b8062 includes the following fix:
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 4 release{#gs-4}
 
-_11 December 2019_
+_December 11, 2019_
 
 The build 9032&#64;bc4a935 includes the following fix:
 
@@ -121,7 +121,7 @@ The build 9032&#64;bc4a935 includes the following fix:
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 3 release{#gs-3}
 
-_20 November 2019_
+_November 20, 2019_
 
 The build 9032&#64;3468c7b includes the following fixes:
 
@@ -131,7 +131,7 @@ The build 9032&#64;3468c7b includes the following fixes:
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 2 release{#gs-2}
 
-_19 September 2019_
+_September 19, 2019_
 
 The build 9032&#64;cee805c includes the following fixes:
 
@@ -140,7 +140,7 @@ The build 9032&#64;cee805c includes the following fixes:
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-_13 August 2019_
+_August 13, 2019_
 
 The initial 19.1.4 build includes the following fixes:
 
