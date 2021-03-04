@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: acs-connector
 ---
 
-# Synchronize web applications{#synchronizing-web-applications}
+# Synchronizing web applications{#synchronizing-web-applications}
 
 In this use case, we will send a communication, using Campaign Standard, that includes a link to a Campaign v7 web application. When the recipient clicks on the link in the email, the web application displays a form containing several fields preloaded with the recipient's data as well as a subscription link to a newsletter. The recipient can update his data as well as subscribe to the service. His profile will be updated in Campaign v7 and the information will be replicated in Campaign Standard.
 
@@ -18,11 +18,11 @@ If you have many services and web applications in Campaign v7, you might choose 
 
 To achieve this, you need:
 
-* Recipients stored in Campaign v7 database and synchronized with Campaign Standard. Refer to the [Synchronize profiles](../../integrations/using/synchronizing-profiles.md) section.
+* Recipients stored in Campaign v7 database and synchronized with Campaign Standard. Refer to the [Synchronizing profiles](../../integrations/using/synchronizing-profiles.md) section.
 * a service and a web application created and published in Campaign v7.
 * the web application must contain a **[!UICONTROL Pre-loading]** activity using the **[!UICONTROL Adobe Campaign encryption]** identification method.
 
-## Create the web application and service {#creating-the-web-application-and-service}
+## Creating the web application and service {#creating-the-web-application-and-service}
 
 In Campaign v7, you can create web applications that allow recipients to subscribe to a service. The web application and service are designed and stored in Campaign v7 and you can update this service via a Campaign Standard communication. To learn more on web applications in Campaign v7, refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
 
@@ -51,7 +51,7 @@ In Campaign v7, the following objects have been created:
 
    ![](assets/acs_connect_lp_6.png)
 
-## Replicate the data {#replicating-the-data}
+## Replicating the data {#replicating-the-data}
 
 In order to replicate the needed data between Campaign v7 and Campaign Standard, several replication workflow templates are available. The **[!UICONTROL Profiles replication]** workflow automatically replicates all the Campaign v7 recipients to Campaign Standard. See [Technical and replication workflows](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). The **[!UICONTROL Landing pages replication]** workflow enables the replication of the web applications we want to use in Campaign Standard.
 
@@ -75,7 +75,7 @@ To check that the data has been replicated correctly, follow these steps in Camp
 
    ![](assets/acs_connect_lp_10.png)
 
-## Design and send the email {#designing-and-sending-the-email}
+## Designing and sending the email {#designing-and-sending-the-email}
 
 In this part, we'll see how to include a link, in a Campaign Standard email, to the landing page replicated from a Campaign v7 web application.
 
@@ -99,7 +99,7 @@ The steps to create, design and send the email are the same as for a classic ema
 
    ![](assets/acs_connect_lp_15.png)
 
-## Retrieve the updated information {#retrieving-the-updated-information}
+## Retrieving the updated information {#retrieving-the-updated-information}
 
 When the recipient updates his data from via the web application, Adobe Campaign v7 synchronously retrieves the updated information. It is then replicated from Campaign v7 to Campaign Standard.
 

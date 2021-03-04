@@ -31,7 +31,7 @@ Specific actions can be performed when having troubles with deliveries:
 
 [Delivery performance issues](../../delivery/using/delivery-performances.md)
 
-## Work with logs {#working-with-logs}
+## Working with logs {#working-with-logs}
 
 Here are a few tips to help improving your experience with logs:
 
@@ -56,6 +56,6 @@ In case you encounter connection issues, here a some ways you can fix them:
 
 Go to the sections below to read about more specific issues:
 
-* [Stack trace](../../production/using/stack-trace-in-linux.md)
+* [Stack trace in Linux](../../production/using/stack-trace-in-linux.md)
 * [JSP behavior](../../production/using/jsp-behavior.md)
-* [Tomcat version](../../production/using/locate-tomcat-version.md)
+* [Locating Tomcat version](../../production/using/locate-tomcat-version.md)

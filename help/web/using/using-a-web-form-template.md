@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: web-forms
 ---
 
-# Use a web form template{#using-a-web-form-template}
+# Using a web form template{#using-a-web-form-template}
 
 Form templates are re-usable configurations which let you create new forms. By default, form templates are stored with Web application templates in the **[!UICONTROL Resources > Templates > Web application templates]** node.
 

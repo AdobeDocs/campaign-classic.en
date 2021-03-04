@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Create a new report{#creating-a-new-report}
+# Creating a new report{#creating-a-new-report}
 
 To create a report, apply the following steps:
 
@@ -32,7 +32,7 @@ To create a report, apply the following steps:
 
 1. Save this report.
 
-## Modelize the chart {#modelizing-the-chart}
+## Modelizing the chart {#modelizing-the-chart}
 
 After saving your report, this should be displayed. You can now build the chart of your report.
 
@@ -54,7 +54,7 @@ To build a report, depending on its nature and context, you need to identify the
 
 1. Add one or more **[!UICONTROL Query]** activities to collect data that is useful for building the report. Data can be collected either directly via a query on a schema of the database, or via an imported list or an existing Cube.
 
-   For more on this, refer to [Collect data to analyze](../../reporting/using/collecting-data-to-analyze.md).
+   For more on this, refer to [Collecting data to analyze](../../reporting/using/collecting-data-to-analyze.md).
 
    This data will be displayed (or not) in the report depending on page configuration.
 
@@ -64,7 +64,7 @@ To build a report, depending on its nature and context, you need to identify the
 
 1. Use a **[!UICONTROL Test]** activity to define the conditions for displaying or accessing data.
 
-   For more on this, refer to [Condition page display](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display).
+   For more on this, refer to [Conditioning page display](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display).
 
 1. If necessary, add personalized scripts via the **[!UICONTROL Script]** activity, for instance to calculate the name of a report, to filter the display of the result within a specific context, etc.
 
@@ -82,9 +82,9 @@ However, you can place several branches. Only one of them will be executed:
 
 ![](assets/reporting_graph_sample_ok.png)
 
-## Create a page {#creating-a-page}
+## Creating a page {#creating-a-page}
 
-Content is configured via the activities placed in the chart. For more on this, refer to [Modelize the chart](#modelizing-the-chart).
+Content is configured via the activities placed in the chart. For more on this, refer to [Modelizing the chart](#modelizing-the-chart).
 
 To configure an activity, double-click its icon.
 
@@ -102,7 +102,7 @@ You can also right-click the node where you want to add the component and select
 
 >[!CAUTION]
 >
->If the report is destined to be exported in Excel format, we recommend not using complex HTML formatting. For more on this, refer to [Export a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
+>If the report is destined to be exported in Excel format, we recommend not using complex HTML formatting. For more on this, refer to [Exporting a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 A **[!UICONTROL Page]** can include the following elements:
 
@@ -126,7 +126,7 @@ Static elements enable you to display information in the report, such as graphic
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
-### Filter information in a report {#filtering-information-in-a-report}
+### Filtering information in a report {#filtering-information-in-a-report}
 
 Input and selection controls enable you to filter the information displayed in the report. For more on implementing this type of filtering, refer to [Filtering options in the queries](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries).
 

@@ -49,8 +49,8 @@ These operations are performed within workflows, by applying pre-processing stag
 
 For more on this, refer to these sections:
 
-* [Unzip or decrypt a file](../../platform/using/unzip-decrypt.md)
-* [Zip or encrypt a file](../../platform/using/zip-encrypt.md)
+* [Unzipping or decrypting a file](../../platform/using/unzip-decrypt.md)
+* [Zipping or encrypting a file](../../platform/using/zip-encrypt.md)
 
 ## Best practices and troubleshooting {#best-practices-troubleshooting}
 

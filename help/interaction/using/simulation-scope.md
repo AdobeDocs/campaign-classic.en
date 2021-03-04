@@ -10,7 +10,7 @@ topic-tags: simulating-offers
 
 # Simulation scope{#simulation-scope}
 
-## Define the scope {#definition-of-the-scope}
+## Definition of the scope {#definition-of-the-scope}
 
 Open the **[!UICONTROL Scope]** tab to choose your settings.
 
@@ -37,7 +37,7 @@ You can also choose to carry out the simulation on all the offers or only those 
 >
 >You must specify a contact date. This lets the interaction engine sort the offers in the selected environment or category. If no date is configured, the simulation will raise an error.
 
-## Add reporting axes {#adding-reporting-axes}
+## Adding reporting axes {#adding-reporting-axes}
 
 You can enhance the simulation analysis by adding reporting axes on the target or the offers themselves via the **[!UICONTROL Calculations]** tab.
 

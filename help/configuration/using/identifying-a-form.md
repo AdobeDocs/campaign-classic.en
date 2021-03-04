@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: input-forms
 ---
 
-# Identify a form{#identifying-a-form}
+# Identifying a form{#identifying-a-form}
 
 An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console.
 

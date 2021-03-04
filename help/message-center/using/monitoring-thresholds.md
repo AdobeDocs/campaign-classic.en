@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: instance-configuration
 ---
 
-# Monitor thresholds{#monitoring-thresholds}
+# Monitoring thresholds{#monitoring-thresholds}
 
 You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [About transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)). To do this, open the deployment wizard of the execution instance, go to the **[!UICONTROL Message Center]** page and use the arrows to change the thresholds.
 

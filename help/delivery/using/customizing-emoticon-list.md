@@ -1,20 +1,20 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Customize the emoticon list
+title: Customizing the emoticon list
 description: Learn how to customize the emoticon list when using Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 ---
 
-# Customize the emoticon list {#customize-emoticons}
+# Customizing the emoticon list {#customize-emoticons}
 
 The emoticon list displayed in the pop-up is ruled by an enumeration which allows you to display values in a list to restrict the choices that the user has for a given field.
 The emoticon list order can be customized, you can also add other emoticons to your list.
 Emoticons are available for email and push for more on this refer to this [page](../../delivery/using/defining-the-email-content.md#inserting-emoticons).
 
-## Add a new emoticon {#add-new-emoticon}
+## Adding a new emoticon {#add-new-emoticon}
 
 >[!CAUTION]
 >

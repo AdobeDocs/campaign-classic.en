@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configure A/B testing
+title: Configuring A/B testing
 description: Learn how to configure A/B testing in Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 ---
 
-# Configure A/B testing {#configuring-a-b-testing}
+# Configuring A/B testing {#configuring-a-b-testing}
 
 This section details how to build a workflow to perform A/B testing. 
 

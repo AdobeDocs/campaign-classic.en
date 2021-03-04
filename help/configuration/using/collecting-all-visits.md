@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Collect all visits
-description: Collect all visits
+title: Collecting all visits
+description: Collecting all visits
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 ---
 
-# Collect all visits{#collecting-all-visits}
+# Collecting all visits{#collecting-all-visits}
 
 The web tracking module supplied by Adobe Campaign lets you collect the visits to certain pages of the site performed by a recipient in the context of site tracking following a click in a message.
 
@@ -35,7 +35,7 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="true"
 trackingPassword=""
 ```
 
-## Configure a default matching campaign {#configuring-a-default-matching-campaign}
+## Configuring a default matching campaign {#configuring-a-default-matching-campaign}
 
 To view tracking information via your client console, you must:
 

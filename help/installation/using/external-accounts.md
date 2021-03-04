@@ -29,7 +29,7 @@ You can set up the following types of external accounts:
 * [Microsoft Dynamics CRM external account](#microsoft-dynamics-crm-external-account)
 * [Salesforce CRM external account](#salesforce-crm-external-account)
 
-## Create an external account {#creating-an-external-account}
+## Creating an external account {#creating-an-external-account}
 
 To create a new external account, follow the steps below. Detailed settings depend on the type of external account.
 

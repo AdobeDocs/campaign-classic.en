@@ -35,7 +35,7 @@ The action fields for each tool are as follows:
     1. recovers and analyzes segments,
     1. triggers a re-marketing campaign.
 
-## Set up the integration {#setting-up-the-integration}
+## Setting up the integration {#setting-up-the-integration}
 
 To set up the Data connector, you must connect to your Adobe Campaign instance and perform the following operations:
 
@@ -222,7 +222,7 @@ They are available in the Adobe Campaign tree, under the **[!UICONTROL Administr
     * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
     * **[!UICONTROL Contact date]** (scheduling/@contactDate)
 
-## Track deliveries in Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
+## Tracking deliveries in Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 
 In order for the Adobe Experience Cloud to be able to track activity on the sites once the delivery is sent by Adobe Campaign, you need to reference the matching connector in the delivery properties. To do this, apply the following steps:
 
@@ -237,7 +237,7 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
 
 1. You can now send your delivery and access your report for it in Adobe Analytics.
 
-## Create a re-marketing campaign {#creating-a-re-marketing-campaign}
+## Creating a re-marketing campaign {#creating-a-re-marketing-campaign}
 
 To prepare your re-marketing campaign, simply create delivery templates to be used for re-marketing type campaigns. Then configure your re-marketing campaign and link it to a segment. Each segment must have a different re-marketing campaign.
 

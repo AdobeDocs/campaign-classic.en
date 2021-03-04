@@ -8,18 +8,18 @@ content-type: reference
 topic-tags: subscriptions-and-referrals
 ---
 
-# Manage subscriptions{#managing-subscriptions}
+# Managing subscriptions{#managing-subscriptions}
 
 ## About information services {#about-information-services}
 
-You can set up information services to send messages to your subscribers.An information service supposes:
+An information service comprises:
 
 * Registration and subscription (opt-in),
 * Deregistration, voluntary unsubscription (opt out) or automatic unsubscription (limited-time service, for example as a trial offer),
 * Subscription and unsubscription confirmation mechanisms (simple mechanisms with confirmation, double opt in, etc.),
 * Tracking of subscriber history.
 
-As a built-in feature, these services include specific statistical reports: subscriber tracking, loyalty level, unsubscription trends, etc.
+As a standard feature, these services include specific statistical reports: subscriber tracking, loyalty level, unsubscription trends, etc.
 
 For emails, the mandatory unsubscription links are generated automatically, and the entire opt in/opt out process us fully automated, with history tracking to guarantee full compliance with the regulations in force.
 
@@ -33,7 +33,7 @@ There are three service subscription/unsubscription modes:
 >
 >A sample to create a subscription form with double opt-in is detailed in [this section](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
 
-## Create an information service {#creating-an-information-service}
+## Creating an information service {#creating-an-information-service}
 
 You can create and manage subscriptions to information services with associated confirmation messages or automatic deliveries to subscribers.
 
@@ -55,7 +55,7 @@ To edit an existing service, click its name. To create a service, click the **[!
 * You can send **confirmation messages** for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the **[!UICONTROL Subscription]** and **[!UICONTROL Unsubscription]** fields. These templates must be configured with a **[!UICONTROL Subscription]** type target mapping, without a defined target. See section [About email channel](../../delivery/using/about-email-channel.md).
 * By default, subscriptions are unlimited. You can deselect the **[!UICONTROL Unlimited]** option to define a validity duration for the service. The duration can be specified in days (**[!UICONTROL d]** ) or months (**[!UICONTROL m]** ).
 
-Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service (**[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history (**[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Add and delete subscribers](#adding-and-deleting-subscribers). 
+Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service (**[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history (**[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Adding and deleting subscribers](#adding-and-deleting-subscribers). 
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -67,19 +67,19 @@ You can modify the subscription properties for a recipient.
 
 On the dashboard, click the **[!UICONTROL Reports]** tab to track subscriptions: changes in subscription levels, total number of subscribers, etc. You can archive reports and look at histories from this tab.
 
-## Add and delete subscribers {#adding-and-deleting-subscribers}
+## Adding and deleting subscribers {#adding-and-deleting-subscribers}
 
 From the **[!UICONTROL Subscriptions]** tab of an information service click **[!UICONTROL Add]** to add subscribers. You can also right-click the list of subscribers and select **[!UICONTROL Add]**. Select the folder in which the profiles to be subscribed are stored, and then select the profiles to subscribe and click **[!UICONTROL OK]** to validate.
 
 To delete subscribers, select them and click **[!UICONTROL Delete]**. You can also right-click the subscriber list and select **[!UICONTROL Delete]**.
 
-In both cases, you can send a confirmation message to the users concerned if a delivery template for unsubscriptions has been attached to the service (see [Create an information service](#creating-an-information-service)). A warning lets you validate or not validate this delivery:
+In both cases, you can send a confirmation message to the users concerned if a delivery template for unsubscriptions has been attached to the service (see [Creating an information service](#creating-an-information-service)). A warning lets you validate or not validate this delivery:
 
 ![](assets/s_ncs_user_services_update.png)
 
 See [Subscription and unsubscription mechanisms](#subscription-and-unsubscription-mechanisms).
 
-## Send messages to the subscribers of a service {#delivering-to-the-subscribers-of-a-service}
+## Delivering to the subscribers of a service {#delivering-to-the-subscribers-of-a-service}
 
 To deliver to the subscribers of an information service, you can target the subscribers to the information service concerned, as in the following example:
 
@@ -112,7 +112,7 @@ You can set up subscription and unsubscription mechanisms to automate the proces
 
 ![](assets/s_ncs_user_subscribe_confirmation.png)
 
-### Subscribe a recipient to a service {#subscribing-a-recipient-to-a-service}
+### Subscribing a recipient to a service {#subscribing-a-recipient-to-a-service}
 
 To register recipients for an information service, you can:
 
@@ -135,7 +135,7 @@ To register recipients for an information service, you can:
 
   Workflows and how to use them is detailed in [this section](../../workflow/using/about-workflows.md).
 
-### Unsubscribe a recipient from a service {#unsubscribing-a-recipient-from-a-service}
+### Unsubscribing a recipient from a service {#unsubscribing-a-recipient-from-a-service}
 
 #### Manual unsubscribing {#manual-unsubscribing}
 

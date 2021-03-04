@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Privacy and Consent Frequently Asked Questions
-description: Learn more about Privacy and Consent FAQs
+title: Privacy and Consent
+description: Learn more about Privacy and Consent
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign

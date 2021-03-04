@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Pipeline troubleshooting
-description: Troubleshoot the pipeline integration
+title: Configuring the integration
+description: Configuring the integration
 audience: integrations
 content-type: reference
 ---

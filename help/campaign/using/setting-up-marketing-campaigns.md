@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 ---
 
-# Set up marketing campaigns{#setting-up-marketing-campaigns}
+# Setting up marketing campaigns{#setting-up-marketing-campaigns}
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 
@@ -18,15 +18,15 @@ To create a marketing campaign:
 
 1. Create a campaign: discover campaigns and their characteristics: label, type, start and end dates, budget, associated resources, manager(s) and participants.
 
-   See [Create a campaign](#creating-a-campaign).
+   See [Creating a campaign](#creating-a-campaign).
 
 1. Define target population(s): create a workflow with targeting queries.
 
-   See [Select the target population](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
+   See [Selecting the target population](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
 
 1. Create deliveries: select channel(s) and define the content to be sent.
 
-   See [Create deliveries](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
+   See [Creating deliveries](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
 
 1. Approve deliveries.
 
@@ -38,11 +38,11 @@ To create a marketing campaign:
 
 1. Plan campaigns and associated costs.
 
-   See [Create service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+   See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-When these steps have been completed, you can start the deliveries (see [Start a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Manage associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
+When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
 
-## Create plan and program hierarchy {#creating-plan-and-program-hierarchy}
+## Creating plan and program hierarchy {#creating-plan-and-program-hierarchy}
 
 To configure your folder hierarchy for marketing plans and programs:
 
@@ -62,9 +62,9 @@ To configure your folder hierarchy for marketing plans and programs:
 1. Right-click the newly created plan and select **Create a new 'Program' folder**. 
 1. Repeat the above steps to rename your new program folder and its internal name.
 
-## Create a campaign {#creating-a-campaign}
+## Creating a campaign {#creating-a-campaign}
 
-### Add a campaign {#adding-a-campaign}
+### Adding a campaign {#adding-a-campaign}
 
 You can create a campaign via the list of campaigns. To display this view, select the **[!UICONTROL Campaigns]** menu in the **[!UICONTROL Campaigns]** dashboard.
 
@@ -92,7 +92,7 @@ Click **[!UICONTROL OK]** to create the campaign. It is added to the program sch
 
 ![](assets/s_ncs_user_program_planning_filter.png)
 
-### Edit and configure a campaign {#editing-and-configuring-a-campaign}
+### Editing and configuring a campaign {#editing-and-configuring-a-campaign}
 
 You can then edit the campaign you have just created and define its parameters.
 
@@ -108,11 +108,11 @@ A recurring campaign is a campaign based on a specific template, whose workflows
 
 A periodic campaign is a campaign created automatically according to the execution schedule of its template.
 
-### Create a recurring campaign {#creating-a-recurring-campaign}
+### Creating a recurring campaign {#creating-a-recurring-campaign}
 
 Recurring campaigns are created from a specific template defining the workflow template to be executed and the execution schedule.
 
-#### Creat a template for recurring campaigns {#creating-the-campaign-template}
+#### Creating a template for recurring campaigns {#creating-the-campaign-template}
 
 1. Create a **[!UICONTROL Recurring]** campaign template.
 
@@ -186,11 +186,11 @@ To create the recurring campaign and execute its workflows according to the sche
    >The start date of the schedule line associated with the workflow is available from a variable of the workflow with the following syntax:   
    >`$date(instance/vars/@startPlanningDate)`
 
-### Create a periodic campaign {#creating-a-periodic-campaign}
+### Creating a periodic campaign {#creating-a-periodic-campaign}
 
 A periodic campaign is a campaign based on a specific template that lets you create campaign instances based on an execution schedule. Campaign instances are created automatically based on a periodic campaign template, depending on the frequency defined in the template schedule.
 
-#### Create the campaign template {#creating-the-campaign-template-1}
+#### Creating the campaign template {#creating-the-campaign-template-1}
 
 1. Create a **[!UICONTROL Periodic]** campaign template, preferably by duplicating an existing campaign template.
 

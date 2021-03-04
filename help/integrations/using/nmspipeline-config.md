@@ -1,13 +1,13 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign and Experience Cloud pipeline integration
-description: Learn how to select events to process
+title: Configuring the integration
+description: Configuring the integration
 audience: integrations
 content-type: reference
 ---
 
-# Select events to process {#nmspipeline_config}
+# Pipeline option NmsPipeline_Config {#nmspipeline_config}
 
 Once the authentication works, [!DNL pipelined] can retrieve the events and process them. It only processes triggers that are configured in Adobe Campaign, ignoring the others. The trigger must have been generated from Analytics and pushed to the pipeline beforehand.
 The option can also be configured with a wildcard to catch all triggers regardless of name.

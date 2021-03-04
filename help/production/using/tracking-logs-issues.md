@@ -14,7 +14,7 @@ There can be multiple reasons for tracking logs not being forwarded. We recommen
 
 * **Does the **Tracking** workflow have errors?**
 
-  Refer to [Monitore technical workflows](../../workflow/using/monitoring-technical-workflows.md).
+  Refer to [Monitoring technical workflows](../../workflow/using/monitoring-technical-workflows.md).
 
   ![](assets/tracking_scheduled_task.png)
 

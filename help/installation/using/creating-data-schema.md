@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating the data schema
-description: Learn how to create the data schema
+title: Accessing an external database
+description: Accessing an external database
 audience: platform
 content-type: reference
 topic-tags: connectors
 ---
 
-# Create the data schema {#creating-the-data-schema}
+# Creating the data schema {#creating-the-data-schema}
 
 To create a schema on an external database:
 

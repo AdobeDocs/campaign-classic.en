@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Define the email content in Adobe Campaign Classic
+title: Defining the email content in Adobe Campaign Classic
 description: Learn how to define the email content when using Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 ---
 
-# Define the email content {#defining-the-email-content}
+# Defining the email content {#defining-the-email-content}
 
 ## Sender {#sender}
 
@@ -23,7 +23,7 @@ To find out how to insert and use personalization fields, refer to [About person
 >[!NOTE]
 >
 >* The sender's address will be used for replies by default.
->* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to [this section](../../installation/using/deploying-an-instance.md).
+>* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to the [Installation Guide](../../installation/using/deploying-an-instance.md).
 >* The sender's address is mandatory to allow an email to be sent (RFC standard).
 >* Adobe Campaign checks the syntax of email addresses entered.
 
@@ -59,11 +59,11 @@ You can also insert emoticons to your subject line with the **[!UICONTROL Insert
 
 The content of the message is defined in the lower section of the delivery configuration window.
 
-Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Select message formats](#selecting-message-formats).
+Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](#selecting-message-formats).
 
 * To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
-  If you are using the [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), refer to [Select a content template](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
+  If you are using the [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), refer to [Selecting a content template](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >
@@ -79,7 +79,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_18.png)
 
-  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Add images](#adding-images).
+  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](#adding-images).
 
   The last button in the toolbar lets you insert personalization fields.
 
@@ -127,13 +127,13 @@ Select the format of the email in the lower section of the window:
 
   The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.-->
 
-## Define interactive content {#amp-for-email-format}
+## Defining interactive content {#amp-for-email-format}
 
 Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
 For more on this, see [this section](../../delivery/using/defining-interactive-content.md).
 
-## Use content management {#using-content-management}
+## Using content management {#using-content-management}
 
 You can define the content of the delivery using the content management forms, directly in the delivery wizard. To do this, you must reference the publication template of the content management to be used, in the **[!UICONTROL Advanced]** tab of the delivery properties.
 
@@ -147,7 +147,7 @@ An additional tab lets you enter content that will automatically be integrated a
 >
 >For further information about content management in Adobe Campaign, refer to [this section](../../delivery/using/about-content-management.md).
 
-## Insert emoticons {#inserting-emoticons}
+## Inserting emoticons {#inserting-emoticons}
 
 You can insert emoticons to your email content.
 
@@ -160,7 +160,7 @@ You can insert emoticons to your email content.
 
 To customize the emoticon list, refer to this [page](../../delivery/using/customizing-emoticon-list.md).
 
-## Add images {#adding-images}
+## Adding images {#adding-images}
 
 HTML format email deliveries can contain images. From the delivery wizard, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon.
 
@@ -205,7 +205,7 @@ When you open HTML content with included images in the delivery wizard, a messag
 >
 >The image access paths are modified during manual uploading or when sending messages.
 
-### Send a message with images {#sending-a-message-with-images}
+### Sending a message with images {#sending-a-message-with-images}
 
 >[!NOTE]
 >
@@ -253,7 +253,7 @@ If you select **[!UICONTROL Include the images in the email]**, you can choose w
 >
 >If local images are included in the message, you must confirm changes to the message source code.
 
-## Insert a barcode in an email{#inserting-a-barcode-in-an-email}
+## Inserting a barcode in an email{#inserting-a-barcode-in-an-email}
 
 The barcode generation module lets you create several types of barcodes that comply with many common standards, including 2D barcodes.
 

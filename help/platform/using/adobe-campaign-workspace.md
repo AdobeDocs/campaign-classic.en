@@ -10,7 +10,7 @@ topic-tags: starting-with-adobe-campaign
 
 # Adobe Campaign workspace{#adobe-campaign-workspace}
 
-## Explore Adobe Campaign interface {#about-adobe-campaign-interface}
+## Exploring Adobe Campaign interface {#about-adobe-campaign-interface}
 
 Once you are connected to the database, you will access the Adobe Campaign home page, which is a dashboard: it is made up of links and shortcuts which let you access capabilities, depending on your installation as well as general platform configurations.
 
@@ -64,7 +64,7 @@ For more information on how to create an instance, refer to this [page](../../in
 
 ## Navigation basics {#navigation-basics}
 
-### Browse pages {#browsing-pages}
+### Browsing pages {#browsing-pages}
 
 The various functionalities of the platform are broken down into core capabilities: use the links that you see in the top section of the interface to access them. 
 
@@ -78,7 +78,7 @@ The lists are available via the **[!UICONTROL Lists]** link in the left-hand sec
 
 ![](assets/recipient_list_overview.png)
 
-### Use tabs {#using-tabs}
+### Using tabs {#using-tabs}
 
 * When you click a core capability or a link, the relevant page replaces the current page. To go back to the previous page, click the **[!UICONTROL Back]** button on the toolbar. To return to the home page, click the **[!UICONTROL Home]** button. 
 
@@ -88,7 +88,7 @@ The lists are available via the **[!UICONTROL Lists]** link in the left-hand sec
 
   ![](assets/d_ncs_user_interface_tabs.png)
 
-### Create an element {#creating-an-element}
+### Creating an element {#creating-an-element}
 
 Each core capability section lets you browse among the available elements. To do this, use the shortcuts in the **[!UICONTROL Browsing]** section. The **[!UICONTROL Other choices]** link lets you access all other pages, regardless of environment.
 
@@ -98,7 +98,7 @@ For example, on the delivery page, use the **[!UICONTROL Create]** button to cre
 
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
-## Use Adobe Campaign explorer {#using-adobe-campaign-explorer}
+## Using Adobe Campaign explorer {#using-adobe-campaign-explorer}
 
 ### About Adobe Campaign explorer {#about-adobe-campaign-explorer}
 
@@ -126,17 +126,17 @@ In the **[!UICONTROL Explorer]** workspace, if some parts of the **[!UICONTROL D
 
 ![](assets/s_ncs_user_resolution.png)
 
-### Browse lists {#browsing-lists}
+### Browsing lists {#browsing-lists}
 
 To browse a list, you can use **the scroll bars** (horizontal and vertical) to scroll through it without changing the record selection, **the mouse wheel**, or **the arrow keys**.
 
 >[!NOTE]
 >
->Configuration and personalization of list content are presented in [Configure lists](#configuring-lists).  
+>Configuration and personalization of list content are presented in [Configuring lists](#configuring-lists).  
 >
 >You can also sort and filter data. See [Filtering options](../../platform/using/filtering-options.md).
 
-### Count records {#counting-records}
+### Counting records {#counting-records}
 
 By default, Adobe Campaign loads the first 200 records of a list. This means that the display does not necessarily show all the records of the table you are viewing. You can run a count of the number of records in the list and load more records.
 
@@ -146,7 +146,7 @@ In the lower right-hand part of the list screen, a **[!UICONTROL counter]** show
 
 If a "**?**" appears instead of the number on the right, click the counter to launch the calculation.
 
-### Load more records {#loading-more-records}
+### Loading more records {#loading-more-records}
 
 To load (and therefore display) additional records (200 lines by default) click **[!UICONTROL Continue loading]**.
 
@@ -168,7 +168,7 @@ In the list configuration window, click "Advanced parameters" (bottom left) and 
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-## Configure lists {#configuring-lists}
+## Configuring lists {#configuring-lists}
 
 ### Add columns {#add-columns}
 
@@ -199,9 +199,9 @@ Another way to add columns, for example if you want to display data which is not
    >
    >The labels are displayed by table and then in alphabetical order.
    >
-   >Use the **Search** field to run a search in the available fields. For further information, see [Sort a list](#sorting-a-list).
+   >Use the **Search** field to run a search in the available fields. For further information, see [Sorting a list](#sorting-a-list).
    >
-   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Configure lists](#configuring-lists).  
+   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Configuring lists](#configuring-lists).  
    >
    >You can also sort and filter data. See [Filtering options](../../platform/using/filtering-options.md).
 
@@ -250,7 +250,7 @@ To switch from one display mode to the other, click **[!UICONTROL Display sub-le
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
-### Save a list configuration {#saving-a-list-configuration}
+### Saving a list configuration {#saving-a-list-configuration}
 
 The list configurations are defined locally at the workstation level. When the local cache is cleared, local configurations are disabled.
 
@@ -280,7 +280,7 @@ Click **[!UICONTROL Save]** in the folder properties window. The list display is
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-## Export a list {#exporting-a-list}
+## Exporting a list {#exporting-a-list}
 
 To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
 
@@ -290,7 +290,7 @@ The use of the import and export functions is explained in [Generic imports and 
 >
 >Elements from a list must not be exported using the Copy/Paste function.
 
-## Sort a list {#sorting-a-list}
+## Sorting a list {#sorting-a-list}
 
 Lists can contain a large amount of data. You can sort these data or apply simple or advanced filters. Sorting lets you display data in ascending or descending order. Filters let you define and combine criteria to display selected data only.
 
@@ -315,13 +315,13 @@ You can also configure sorting or combine sort criteria. To do this, follow the 
 
 1. Click **[!UICONTROL Ok]** to confirm this configuration and display the result in the list.
 
-### Search elements {#running-a-search}
+### Searching elements {#running-a-search}
 
 You can run a search of the available fields in an editor using the **[!UICONTROL Search]** field located above the list of fields. Press **Enter** on the keyboard or browse the list. The fields that match your search will have bold labels.
 
 >[!NOTE]
 >
->You can create filters to display only some of the data in a list. See [Create filters](../../platform/using/creating-filters.md).
+>You can create filters to display only some of the data in a list. See [Creating filters](../../platform/using/creating-filters.md).
 
 ## Formats and units {#formats-and-units}
 
@@ -370,7 +370,7 @@ If you click **[!UICONTROL Yes]**, this value will be available in the combo box
 
 >[!NOTE]
 >
->Enumerations (also known as 'itemized lists') are managed by the administrator via the **[!UICONTROL Administration > Platform > Enumerations]** section. For more on this, refer to [Manage enumerations](../../platform/using/managing-enumerations.md).
+>Enumerations (also known as 'itemized lists') are managed by the administrator via the **[!UICONTROL Administration > Platform > Enumerations]** section. For more on this, refer to [Managing enumerations](../../platform/using/managing-enumerations.md).
 
 ### Default units {#default-units}
 

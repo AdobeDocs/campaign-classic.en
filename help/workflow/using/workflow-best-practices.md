@@ -117,7 +117,7 @@ Regularly check the **[!UICONTROL Monitoring]** universe to view the overall sta
 
 The Workflow HeatMap enables the Adobe Campaign platform administrators to monitor the load on the instance and plan workflows accordingly. For more on this, refer to [Workflow monitoring](../../workflow/using/heatmap.md).
 
-## Use activities {#using-activities}
+## Using activities {#using-activities}
 
 >[!CAUTION]
 >

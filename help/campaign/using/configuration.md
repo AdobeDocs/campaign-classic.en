@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Response Management Configuration
-description: Learn how to configure Campaign Response Manager
+title: Configuration
+description: Configuration
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -16,7 +16,7 @@ This lets you understand how to adapt the standard data model to the specific na
 
 The measurement hypothesis is launched by the operation process workflow ( **[!UICONTROL operationMgt]** ). Each hypothesis represents a separate process executed asynchronously with an execution status (Being edited, Pending, Finished, Failed, etc.) and controlled by a scheduler that manages priority constraints, restriction of the number of simultaneous processes, the low activity page and automatic execution with frequency.
 
-## Configure schemas {#configuring-schemas}
+## Configuring schemas {#configuring-schemas}
 
 >[!CAUTION]
 >
@@ -93,7 +93,7 @@ name="remaMatchRcp" namespace="cus">
 </srcSchema>
 ```
 
-### Response management with a custom recipient table {#response-management-with-a-personalized-recipient-table}
+### Response management with a personalized recipient table {#response-management-with-a-personalized-recipient-table}
 
 In this example, we will integrate a purchase table in our response management module using a table of individuals other than the recipient table available in Adobe Campaign.
 
@@ -137,7 +137,7 @@ In this example, we will integrate a purchase table in our response management m
      </container> 
   ```
 
-## Add indicators {#managing-indicators}
+## Managing indicators {#managing-indicators}
 
 The Response Manager module comes with a list of predefined indicators. However, you can add other personalized measurement indicators.
 

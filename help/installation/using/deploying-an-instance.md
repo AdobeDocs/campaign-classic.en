@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: initial-configuration
 ---
 
-# Deploy an instance{#deploying-an-instance}
+# Deploying an instance{#deploying-an-instance}
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Configuration options for quarantines are as follows:
 * **[!UICONTROL Duration between two significant errors]** : enter a value ("1d" by default: 1 day) to define the time the application waits before incrementing the error counter in case of failure,
 * **[!UICONTROL Maximum number of errors before quarantine]** : once this value is reached, the email address is quarantined (by default "5": the address will be quarantined on the sixth error). This means that the contact will be automatically excluded from subsequent deliveries.
 
-## Manage bounced emails {#managing-bounced-emails}
+## Managing bounced emails {#managing-bounced-emails}
 
 Bounce mail is extremely important to qualify delivery errors. These errors are categorized in the NP@I once the rules have determined their cause.
 
@@ -174,9 +174,9 @@ When you activate tracking on an instance, the URLs in the deliveries are change
 
 * Once the URLs are configured, you need to enable tracking. To do this, the instance must be registered on the tracking server(s).
 
-  For more on this, refer to [Save tracking](#saving-tracking).
+  For more on this, refer to [Saving tracking](#saving-tracking).
 
-### Configure the tracking server {#tracking-server}
+### Tracking server {#tracking-server}
 
 ![](assets/s_ncs_install_deployment_wiz_08.png)
 
@@ -199,7 +199,7 @@ With Mid-sourcing architecture, you can externalize tracking management. To do t
 
    ![](assets/s_ncs_install_deployment_wiz_18.png)
 
-### Register on the tracking server{#saving-tracking}
+### Saving tracking {#saving-tracking}
 
 Once the URLs are populated, you must register the tracking server.
 
@@ -320,7 +320,7 @@ Use this page to populate the server URLs to:
 
 Adobe Campaign lets you differentiate these three URLs to spread the load over multiple platforms.
 
-## Manage public resources {#managing-public-resources}
+## Managing public resources {#managing-public-resources}
 
 >[!IMPORTANT]
 >
@@ -418,7 +418,7 @@ In the event of publication on an Adobe Campaign server without a manual publica
 >
 >It's possible to change the public resource storage directory. For more on this, refer to [Managing public resources](#managing-public-resources).
 
-### Synchronize public resources {#synchronizing-public-resources}
+### Synchronizing public resources {#synchronizing-public-resources}
 
 This functionality allows you to **synchronize public resources** on multiple spare-servers.
 
@@ -480,7 +480,7 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false"
  </relay>
 ```
 
-## Purge data {#purging-data}
+## Purging data {#purging-data}
 
 The last stage of the deployment wizard lets you configure the automatic purging of obsolete data. The values are expressed in days.
 

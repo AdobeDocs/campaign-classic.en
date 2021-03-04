@@ -7,7 +7,7 @@ audience: integrations
 content-type: reference
 ---
 
-# Configure events for custom implementation {#events}
+# Configuring events for custom implementation {#events}
 
 Parts of this configuration is a custom development and requires the following:
 
@@ -17,7 +17,7 @@ Parts of this configuration is a custom development and requires the following:
 
 Since editing the Javascript code requires technical skills, please do not attempt it without the proper understanding.
 
-## Process events in JavaScript {#events-javascript}
+## Processing events in JavaScript {#events-javascript}
 
 ### JavaScript file {#file-js}
 
@@ -114,14 +114,14 @@ The **consumer** parameter of the pipeline option identifies the calling instanc
 
 Currently, there is no way to have different queues for separate environments such as 'staging' or 'dev'.
 
-### Monitor {#logging-error-handling}
+### Logging and error handling {#logging-error-handling}
 
 Logs such as logInfo() are directed to the [!DNL pipelined] log. Errors such as logError() are written to the [!DNL pipelined] log and cause the event to be put into a retry queue. In this case, you should check the pipelined log.
 Messages in error are retried several times in the duration set in the [!DNL pipelined] options.
 
 For debugging and monitoring purposes, the full trigger data is written into the trigger table in the "data" field in XML format. Alternatively, a logInfo() containing the trigger data serves the same purpose.
 
-### Parse the data {#data-parsing}
+### Parsing the data {#data-parsing}
 
 This sample Javascript code parses the eVar01 in the enrichments.
 
@@ -145,7 +145,7 @@ function processPipelineMessage(xmlTrigger)
 Be cautious when parsing to avoid errors.
 Since this code is used for all triggers, most data is not required. Therefore, it can be left empty when not present.
 
-### Store the trigger {#storing-triggers-js}
+### Storing the trigger {#storing-triggers-js}
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ The context of this Javascript is limited. Not all functions of the API are avai
 
 To enable faster processing, several threads of this script are executed at the same time. The code must be thread safe.
 
-## Store the events {#store-events}
+## Storing the events {#store-events}
 
 >[!NOTE]
 >
@@ -206,17 +206,17 @@ Here is a sample schema code for this table:
 | lastModified    | Datetime  | Last Modified | The last time the event was modified in Adobe. |
 | timeGMT | Datetime  | Timestamp | The time when the event was generated in Analytics. |
 
-### Display events {#display-events}
+### Displaying the events {#display-events}
 
 The events can be displayed with a simple form based on the events schema.
 
 >[!NOTE]
 >
->The Pipeline Event node is not built-in and needs to be added, as well as the related form needs to be created in Campaign. These operations are restricted to expert users only. For more on this, refer to these sections: [Navigation hierarchy](../../configuration/using/about-navigation-hierarchy.md) and [Edit forms](../../configuration/using/editing-forms.md).
+>The Pipeline Event node is not built-in and needs to be added, as well as the related form needs to be created in Campaign. These operations are restricted to expert users only. For more on this, refer to these sections: [Navigation hierarchy](../../configuration/using/about-navigation-hierarchy.md) and [Editing forms](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 
-## Process events {#processing-the-events}
+## Processing the events {#processing-the-events}
 
 ### Reconciliation workflow {#reconciliation-workflow}
 

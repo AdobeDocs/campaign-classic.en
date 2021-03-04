@@ -16,7 +16,7 @@ You can use this integrated Tomcat server to serve HTTP requests.
 
 In this case:
 
-* the default listening port is 8080. To change it, refer to [Configure Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* the default listening port is 8080. To change it, refer to [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
 * The client consoles then connect using a URL such as [https:// `<computer>`:8080](https://myserver.adobe.com:8080).
 
 However, for security and administration reasons, we recommend using a dedicated Web server as the main entry point for HTTP traffic when the computer that is running Adobe Campaign is exposed on the Internet and you wish to open access to the console outside of your network.
@@ -29,7 +29,7 @@ Likewise, you must use a Web server when you wish to use the tracking functional
 >
 >If you do not use the tracking functionality, you can perform a standard installation of Apache or IIS with a redirection to Campaign. The tracking Web server extension module is not required.
 
-## Configure the IIS Web server {#configuring-the-iis-web-server}
+## Configuring the IIS Web server {#configuring-the-iis-web-server}
 
 The configuration procedure for an IIS Web server is mostly graphical. It involves using a Web site (already created or pending creation) to access the resources of the Adobe Campaign server: Java (.jsp) files, stylesheets (.css, .xsl), images (.png), the ISAPI DLL for redirection, etc.
 
@@ -82,7 +82,7 @@ Apply the following configuration steps:
 
    If the tree is not displayed, restart the IIS.
 
-### Manage permissions {#managing-rights}
+### Managing rights {#managing-rights}
 
 You must next configure the security settings for the ISAPI DLL and for the resources in the Adobe Campaign installation directory.
 
@@ -96,7 +96,7 @@ To do this, apply the following steps:
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 
-### Start the Web server and testing the configuration {#launching-the-web-server-and-testing-the-configuration}
+### Launching the Web server and testing the configuration {#launching-the-web-server-and-testing-the-configuration}
 
 You must now test whether the configuration is correct.
 
@@ -139,7 +139,7 @@ To do this, apply the following steps:
 
 ## Additional configurations {#additional-configurations}
 
-### Change the upload file size limit {#changing-the-upload-file-size-limit}
+### Changing the upload file size limit {#changing-the-upload-file-size-limit}
 
 When configuring the IIS Web server, a limit of approximately 28 MB is automatically for set files that are uploaded to the server.
 
@@ -157,9 +157,9 @@ In this case, you must increase this limit:
 
 >[!NOTE]
 >
->For more information on this IIS option, refer to the "How To" section of [IIS documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits).
+>For more information on this IIS option, refer to the "How To" section of the [official documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits).
 
-### Configure http error message display {#configuring-http-error-message-display}
+### Configuring http error message display {#configuring-http-error-message-display}
 
 If you use a 6.1 version IIS server, generated error messages may be difficult to read due to an undesired HTML code being displayed in the message.
 

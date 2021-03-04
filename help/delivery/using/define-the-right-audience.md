@@ -2,7 +2,6 @@
 solution: Campaign Classic
 product: campaign
 title: Define the right audience
-description: Delivery best practices
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
@@ -60,7 +59,7 @@ Deduplicating addresses protects your sending reputation and ensures good quaran
 **Related topics:**
 
 * [Deduplication activity](../../workflow/using/deduplication.md).
-* [Use case: Use the Deduplication activity's merge functionality](../../workflow/using/deduplication-merge.md)
+* [Use case: Using the Deduplication activity's merge functionality](../../workflow/using/deduplication-merge.md)
 
 ## Index email addresses {#index-addresses}
 

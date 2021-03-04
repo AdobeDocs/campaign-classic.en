@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-direct-mail
 ---
 
-# Create a direct mail delivery{#creating-a-direct-mail-delivery}
+# Creating a direct mail delivery{#creating-a-direct-mail-delivery}
 
 To create a new direct mail delivery, follow the steps below:
 

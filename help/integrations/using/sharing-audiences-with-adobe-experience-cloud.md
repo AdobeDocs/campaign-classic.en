@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: audience-sharing
 ---
 
-# Share audiences with Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}
+# Sharing audiences with Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}
 
 >[!CAUTION]
 >

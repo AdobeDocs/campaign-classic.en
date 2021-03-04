@@ -113,4 +113,3 @@ The following troubleshooting tips will help you solve the most common issues ha
 * Check that the Tracking technical workflow has been running recently.
 
     You can locate the Tracking technical workflow in the folders Administration > Production > Technical workflows.
-

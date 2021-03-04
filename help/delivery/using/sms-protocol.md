@@ -7,14 +7,17 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 ---
-
 # SMS connector protocol and settings {#sms-connector-protocol}
 
 >[!NOTE]
 >
->In this page, all references to details about the protocol, field names and values are based on the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>The **SMS connector protocol and settings** for Adobe Campaign Standard can be found in this [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html#administrating).
+>
+>Through this document, all references to details about the protocol, field names and values refer to the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 ## Overview {#overview}
+
+SMS might be limited to sending short text messages with no formatting but its simplicity makes it a valuable communication channel.
 
 There are two main ways to send an SMS:
 
@@ -22,13 +25,13 @@ There are two main ways to send an SMS:
 * Send it from the internet, the way Adobe Campaign send messages. For that, you need a SMS service provider that connects the internet to the mobile network.
 Adobe Campaign uses the SMPP protocol to send SMS to a service provider.
 
-This section will walk you through the connection set up between Adobe Campaign and a SMPP provider.
+This document will walk you through the connection set up between Adobe Campaign and a SMPP provider.
 
 SMPP providers can sometimes deviate from the official specification but the SMS connector in Adobe Campaign provides many options to adapt its behavior for it to be compatible with most providers.
 
 >[!IMPORTANT]
 >
->Setting up a connection to a new provider requires technical skills, knowledge of TCP, binary, hexadecimal representation and text encodings. It will also require active cooperation with the provider.
+>Setting up a connection to a new provider may require some technical skills, knowledge of TCP, binary, hexadecimal representation and text encodings. It will also require active cooperation with the provider.
 
 ### SMS types {#sms-types}
 

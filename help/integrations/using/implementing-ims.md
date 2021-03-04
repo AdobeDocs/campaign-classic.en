@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 ---
 
-# Enable/Disable Adobe IMS{#implementing-ims}
+# Implementing IMS{#implementing-ims}
 
-## Enable the IMS connection {#enabling-the-ims-connection}
+## Enabling the IMS connection {#enabling-the-ims-connection}
 
 1. To enable connecting via the IMS, check **[!UICONTROL Connect with an Adobe ID]** in the console's connections window.
 
@@ -20,7 +20,7 @@ topic-tags: connecting-via-an-adobe-id
 
    ![](assets/ims_2.png)
 
-## Disable the IMS connection {#disabling-the-ims-connection}
+## Disabling the IMS connection {#disabling-the-ims-connection}
 
 To disable connecting via the Adobe ID, disconnect, click **[!UICONTROL File > Connections]** and uncheck **[!UICONTROL Connect with an Adobe ID]**. 
 

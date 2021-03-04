@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: profile-management
 ---
 
-# Update data{#updating-data}
+# Updating data{#updating-data}
 
 The data linked to a recipient's profile can be updated manually or automatically.
 
-## Set up an automatic update {#setting-up-an-automatic-update}
+## Setting up an automatic update {#setting-up-an-automatic-update}
 
 An automatic update can be configured via a workflow. For more on this, refer to [this section](../../workflow/using/update-data.md).
 
-## Perform a mass update {#performing-a-mass-update}
+## Performing a mass update {#performing-a-mass-update}
 
 To perform manual updates, right-click the selected recipient(s) to use the **[!UICONTROL Actions]** shortcut menu, or use the **[!UICONTROL Actions]** icon.
 
@@ -72,7 +72,7 @@ Click **[!UICONTROL Compute]** to display the result of your choice.
 
 Check the **[!UICONTROL Result]** columns of both sections of the window, and click **[!UICONTROL Finish]** to run the merge.
 
-## Export data {#exporting-data}
+## Exporting data {#exporting-data}
 
 The content of a list can be exported. To configure and run the export:
 
@@ -87,7 +87,7 @@ The content of a list can be exported. To configure and run the export:
 
    For more on how to configure the export wizard, refer to [this section](../../platform/using/executing-export-jobs.md).
 
-## Subscribe to a service {#subscribing-to-a-service}
+## Subscribing to a service {#subscribing-to-a-service}
 
 In most cases, recipients subscribe to a newsletter through a dedicated landing page, as explained in [this section](../../delivery/using/managing-subscriptions.md). However, the profiles of filtered recipients can be subscribed to a service (Newsletter or Viral service) manually. To do this:
 

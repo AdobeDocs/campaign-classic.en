@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configure population samples
+title: Configuring population samples
 description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 ---
 
-# Configure population samples {#step-2--configuring-population-samples}
+# Configuring population samples {#step-2--configuring-population-samples}
 
-## Configure the Query activity {#configuring-the-query-activity}
+## Configuring the Query activity {#configuring-the-query-activity}
 
 * Double-click the **[!UICONTROL Query]** activity.
 
@@ -24,7 +24,7 @@ topic-tags: a-b-testing
 
   ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## Configure the Split activity {#configuring-the-split-activity}
+## Configuring the Split activity {#configuring-the-split-activity}
 
 This activity lets you create several populations: the one that receives delivery A, the one that receives delivery B, and the remaining population. Using random selection lets you target just part of the population of each delivery.
 

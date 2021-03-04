@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: param element
-description: param element in Campaign schemas
+title: Elements and attributes
+description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference

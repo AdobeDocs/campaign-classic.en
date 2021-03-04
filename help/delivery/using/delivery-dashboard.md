@@ -27,10 +27,10 @@ Here are the information you can monitor using the several tabs that are availab
 
 **Related topics:**
 
-* [Understand delivery failures](../../delivery/using/understanding-delivery-failures.md)
-* [Understand quarantine management](../../delivery/using/understanding-quarantine-management.md)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md)
 * [Delivery best practices](../../delivery/using/delivery-best-practices.md)
-* [Manage deliverability](../../delivery/using/about-deliverability.md)
+* [Managing deliverability](../../delivery/using/about-deliverability.md)
 
 ## Delivery summary {#delivery-summary}
 

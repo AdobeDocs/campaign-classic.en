@@ -10,7 +10,7 @@ topic-tags: introduction
 
 # Transactional messaging architecture{#transactional-messaging-architecture}
 
-## Install and configure instances {#about-execution-and-control-instances}
+## About execution and control instances {#about-execution-and-control-instances}
 
 In Adobe Campaign, transactional messaging capabilities (also known as Message Center) were designed to support scalability and provide a 24/7 service. It is made up of several instances:
 
@@ -23,7 +23,7 @@ Execution instances receive events, link them to transactional message templates
 
 ![](assets/messagecenter_diagram.png)
 
-## Support several control instances {#supporting-several-control-instances}
+## Supporting several control instances {#supporting-several-control-instances}
 
 >[!IMPORTANT]
 >
@@ -35,9 +35,9 @@ It is possible to share an execution cluster among several control instances. Fo
 
 >[!NOTE]
 >
->For more on the necessary configuration, refer to [Use several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
+>For more on the necessary configuration, refer to [Using several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
 
-## Install packages {#installing-instances}
+## Installing instances {#installing-instances}
 
 There are several precautions to take when installing the Transactional message packages. Adobe recommends you to work in a test environment before putting into production. You also need to have a compatible Adobe Campaign license. For more information, please contact your Adobe account executive.
 
@@ -45,7 +45,7 @@ There are several precautions to take when installing the Transactional message 
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
-If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Add a delivery channel](#adding-a-delivery-channel).
+If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Adding a delivery channel](#adding-a-delivery-channel).
 
 * To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** module.
 
@@ -55,7 +55,7 @@ If you need to use several channels, you must install and configure related pack
 
   ![](assets/messagecenter_install_executioninstance_001.png)
 
-## Add a delivery channel {#adding-a-delivery-channel}
+## Adding a delivery channel {#adding-a-delivery-channel}
 
 Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package.
 
@@ -68,14 +68,10 @@ However, if you have started a transactional messaging project on the email chan
 >This procedure only applies to customers using a Windows NLServer installed on the same machine as they are working on.
 
 1. Install the channel you need, for example the **Mobile channel**, using the package import wizard (**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
-1. Perform a file import (**[!UICONTROL Tools > Advanced > Import package... > File]**), and select: **`\datakit\nms\[Your language]\package\messageCenter.xml`**.
+1. Perform a file import (**[!UICONTROL Tools > Advanced > Import package... > File]**), and select the **datakitnms**`[Your language]`**packagemessageCenter.xml** file.
 1. In the **[!UICONTROL XML content of the data to import]**, keep only the delivery template that corresponds to the added channel. For example, if you have added the **Mobile channel**, keep only the **entities** element that corresponds to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). If you have added the **Mobile App Channel**, keep only the **iOS transactional message** (iosTriggerMessage) and the **Android transactional message** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
-
->[!CAUTION]
->
->The Message Center delivery templates for LINE will not be available if the Message Center packages are installed before LINE
 
 <!--## Transactional messages and inbound Interaction {#transactional-messages-and-inbound-interaction}
 

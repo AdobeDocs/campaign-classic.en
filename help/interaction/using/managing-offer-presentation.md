@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 ---
 
-# Manage offer presentation{#managing-offer-presentation}
+# Managing offer presentation{#managing-offer-presentation}
 
 ## Presentation rules overview {#presentation-rules-overview}
 
 Interaction lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Interaction, are typology rules. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment
 
-## Create and reference an offer presentation rule {#creating-and-referencing-an-offer-presentation-rule}
+## Creating and referencing an offer presentation rule {#creating-and-referencing-an-offer-presentation-rule}
 
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** node. 
 1. Create a typology rule and choose the **[!UICONTROL Offer presentation]** type.
@@ -64,7 +64,7 @@ The **[!UICONTROL Targeting dimension]** coincides with the table of recipients 
 
 >[!NOTE]
 >
->You can also use non-standard tables. If you want to use a specific targeting dimension, you will need to create tables as well as a dedicated environment using the target mapping. For more on this, refer to [Create an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>You can also use non-standard tables. If you want to use a specific targeting dimension, you will need to create tables as well as a dedicated environment using the target mapping. For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 ### Period {#period}
 
@@ -87,17 +87,17 @@ Use the arrows to change the number of offer propositions.
 
 ![](assets/offer_typology_011.png)
 
-## Define propositions and recipients {#defining-propositions-and-recipients}
+## Defining propositions and recipients {#defining-propositions-and-recipients}
 
 The **[!UICONTROL Propositions to count]** section lets you specify both the recipients and the propositions which will lead to the exclusion of the offers defined in the **[!UICONTROL General]** tab if they appear a certain number of times in the propositions history.
 
-### Filter propositions {#filtering-propositions}
+### Filtering propositions {#filtering-propositions}
 
 You can select filtering criteria to exclude propositions based on the channel, the offers concerned or the status of previously assigned propositions. 
 
 ![](assets/offer_typology_014.png)
 
-These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Create a query on propositions](#creating-a-query-on-propositions) section.
+These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Creating a query on propositions](#creating-a-query-on-propositions) section.
 
 * **Filter on the channel**
 
@@ -137,13 +137,13 @@ These criteria represent the most frequent applications of presentation rules. T
 
   **[!UICONTROL Rejected propositions]** : lets you exclude previously presented offers which have been rejected.
 
-### Define recipients {#defining-recipients}
+### Defining recipients {#defining-recipients}
 
 To specify the recipients, click the **[!UICONTROL Edit the query from the targeting dimension...]** link and select the recipients concerned by the rule.
 
 ![](assets/offer_typology_012.png)
 
-### Create a query on propositions {#creating-a-query-on-propositions}
+### Creating a query on propositions {#creating-a-query-on-propositions}
 
 To specify the propositions to be counted via a query, click the **[!UICONTROL Limit propositions...]** link and specify the criteria to be taken into account.
 

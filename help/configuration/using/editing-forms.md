@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: input-forms
 ---
 
-# Edit forms{#editing-forms}
+# Editing forms{#editing-forms}
 
 The input form creation and configuration screen is accessible from the **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Input forms]** folder of the Adobe Campaign client console:
 

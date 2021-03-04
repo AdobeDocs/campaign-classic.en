@@ -132,5 +132,5 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 **Related topics:**
 
 * [Delivery logs and history](#delivery-logs-and-history)
-* [Understand delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)

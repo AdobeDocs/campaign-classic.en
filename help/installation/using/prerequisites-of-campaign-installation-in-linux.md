@@ -10,21 +10,6 @@ topic-tags: installing-campaign-in-linux-
 
 # Prerequisites of Campaign installation in Linux{#prerequisites-of-campaign-installation-in-linux}
 
-## Implementation steps {#implementation-steps}
-
-Adobe Campaign installations for Linux must be carried out in the following sequence: server installation followed by instance configuration.
-
-The installation process is described in this chapter. The installation steps are as follows:
-
-* **Step 1**: Install the application server, refer to [Install packages with Linux](../../installation/using/installing-packages-with-linux.md).
-* **Step 2**: Integrate with a Web server (optional, depending on the components deployed).
-* **Step 3**: Once the installation steps are complete, you need to configure the instances, the database and the server. For more on this, refer to [About initial configuration](../../installation/using/about-initial-configuration.md).
-
-## Client console availability for Linux{#client-console-availability-for-linux}
-
-For Adobe Campaign users to be able to log on to the instance you have created and configured, they need to use the client console. For more on this, refer to [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
-
-
 ## Software prerequisites {#software-prerequisites}
 
 This section details the preliminary configurations steps required before installing Adobe Campaign.
@@ -37,7 +22,7 @@ As a reminder, the following components need to be installed and correctly confi
 * Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Libraries, refer to [Libraries](#libraries),
 * Database access layers, refer to [Database access layers](#database-access-layers),
-* LibreOffice, refer to [Install LibreOffice for Debian](#installing-libreoffice-for-debian) and [Install LibreOffice for CentOS](#installing-libreoffice-for-centos),
+* LibreOffice, refer to [Installing LibreOffice for Debian](#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](#installing-libreoffice-for-centos),
 * Fonts, refer to [Fonts for MTA statistics](#fonts-for-mta-statistics) and [Fonts for Japanese instances](#fonts-for-japanese-instances).
 
 >[!NOTE]
@@ -216,3 +201,13 @@ If you notice on the client console that there are unexpected time lags (one or 
 
 The library version supported is **libdb2.so**.
 
+## Implementation steps {#implementation-steps}
+
+Adobe Campaign installations for Linux must be carried out in the following sequence: server installation followed by instance configuration.
+
+The installation process is described in this chapter. The installation steps are as follows:
+
+* Step 1: Installing the application server, refer to [Installing packages with Linux](../../installation/using/installing-packages-with-linux.md).
+* Step 2: Integrating with a Web server (optional, depending on the components deployed).
+
+Once the installation steps are complete, you need to configure the instances, the database and the server. For more on this, refer to [About initial configuration](../../installation/using/about-initial-configuration.md).

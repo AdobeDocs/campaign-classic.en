@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: initial-configuration
 ---
 
-# Install Campaign Classic built-in packages{#installing-campaign-standard-packages}
+# Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
 
 ## About built-in packages {#campaign-standard-packages}
 
@@ -38,7 +38,7 @@ To install a built-in package:
 
 The packages are now installed.
 
-## List of out-of-the-box Packages {#list-of-standard-packages}
+### List of out-of-the-box Packages {#list-of-standard-packages}
 
 The following table lists all Campaign built-in packages. 
 
@@ -230,12 +230,22 @@ The following table lists all Campaign built-in packages.
  </tbody> 
 </table>
 
-## Message Center package {#message-center-package}
+### Message Center package {#message-center-package}
 
-You must install delivery channels (Email, Mobile channel, Mobile App channel, etc.) **before** installing Transactional messaging (Message center package). If you have started an email-only Message Center project, and need to add a new channel afterwards, you must follow the steps outlined in [this section](../../message-center/using/transactional-messaging-architecture.md#adding-a-delivery-channel).
+You must install delivery channels (Email, Mobile channel, Mobile App channel, etc.) before installing Transactional messaging (Message center package). If you have started an email-only Message Center project, and need to add a new channel afterwards, you must follow these steps:
+
+1. Install the new channel, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
+1. Import the file ( **[!UICONTROL Tools > Advanced > Import package > File]**), and select:
+
+   ```
+   \datakit\nms\[Your language]\package\messageCenter.xml
+   ```
+
+1. In the **[!UICONTROL XML data content to import]**, keep only the Message Center delivery template corresponding to the related channel. For example, if you have added the **Mobile channel**, keep only the **entities** element corresponding to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) template. If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
+
+   ![](assets/messagecenter_install_channel.png)
 
 >[!CAUTION]
 >
 >The Message Center delivery templates for LINE will not be available if the Message Center packages are installed before LINE
-
 

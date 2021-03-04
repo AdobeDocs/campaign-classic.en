@@ -10,13 +10,13 @@ topic-tags: analyzing-populations
 
 # Use cases{#use-cases}
 
-## Analyze a population {#analyzing-a-population}
+## Analyzing a population {#analyzing-a-population}
 
 The following example lets you explore the population targeted by a set of newsletters by using the descriptive analysis wizard.
 
 Implementation steps are detailed below, while an exhaustive list of options and descriptions are available in the other sections of this chapter.
 
-### Identify the population to analyze {#identifying-the-population-to-analyze}
+### Identifying the population to analyze {#identifying-the-population-to-analyze}
 
 In this example, we want to explore the target population of the deliveries included in the **Newsletters** folder.
 
@@ -24,15 +24,15 @@ To do this, select the concerned deliveries, then right-click and select **[!UIC
 
 ![](assets/reporting_quick_start_1.png)
 
-### Select a type of analysis {#selecting-a-type-of-analysis}
+### Selecting a type of analysis {#selecting-a-type-of-analysis}
 
-In the first step of the assistant, you can select the descriptive analysis template to use. By default, Adobe Campaign offers two templates: **[!UICONTROL Qualitative distribution]** and **[!UICONTROL Quantitative distribution]**. For more on this refer to the [Configure the qualitative distribution template](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template) section. The various renderings are presented in the [About descriptive analysis](../../reporting/using/about-descriptive-analysis.md) section.
+In the first step of the assistant, you can select the descriptive analysis template to use. By default, Adobe Campaign offers two templates: **[!UICONTROL Qualitative distribution]** and **[!UICONTROL Quantitative distribution]**. For more on this refer to the [Configuring the qualitative distribution template](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template) section. The various renderings are presented in the [About descriptive analysis](../../reporting/using/about-descriptive-analysis.md) section.
 
 For this example, select the **[!UICONTROL Qualitative distribution]** template and choose a display with a chart and table (array). Give the report a name ("Descriptive analysis") and click **[!UICONTROL Next]**.
 
 ![](assets/reporting_descriptive_quickstart_step_1.png)
 
-### Select the variables to display {#selecting-the-variables-to-display}
+### Selecting the variables to display {#selecting-the-variables-to-display}
 
 The next step lets you select the data to display in the table.
 
@@ -52,7 +52,7 @@ Once the lines and columns have been defined, you can change, move or delete the
 
 ![](assets/reporting_descriptive_quickstart_step_2b.png)
 
-### Define the display format {#defining-the-display-format}
+### Defining the display format {#defining-the-display-format}
 
 The next step of the wizard lets you select the type of chart you want to generate.
 
@@ -62,7 +62,7 @@ In this case, choose the histogram.
 
 Possible configurations of the different graphics are detailed in the [Analysis report chart options](../../reporting/using/processing-a-report.md#analysis-report-chart-options) section.
 
-### Configure the statistic to calculate {#configuring-the-statistic-to-calculate}
+### Configuring the statistic to calculate {#configuring-the-statistic-to-calculate}
 
 Then specify the calculations to be applied to the collected data. By default, the descriptive analysis wizard carries out a simple count of the values.
 
@@ -72,7 +72,7 @@ This window lets you define the list of statistics to be calculated.
 
 To create a new statistic, click the **[!UICONTROL Add]** button. For more on this, refer to [Statistics calculation](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).
 
-### View and using the report {#viewing-and-using-the-report}
+### Viewing and using the report {#viewing-and-using-the-report}
 
 The last step of the wizard displays the table and the chart.
 
@@ -167,7 +167,7 @@ You can store, export or print data using the tool bar above the table. For more
 
    ![](assets/s_ncs_user_report_wizard_013.png)
 
-## Analyze a transition target in a workflow {#analyzing-a-transition-target-in-a-workflow}
+## Analyzing a transition target in a workflow {#analyzing-a-transition-target-in-a-workflow}
 
 **Target**: to generate reports on the population of a targeting workflow
 
@@ -177,7 +177,7 @@ You can store, export or print data using the tool bar above the table. For more
 
    ![](assets/s_ncs_user_report_wizard_from_transision.png)
 
-1. At this point you can either select the **[!UICONTROL Existing analyses and reports]** option and use reports created previously (refer to [Re-use existing reports and analyses](../../reporting/using/processing-a-report.md#re-using-existing-reports-and-analyses)), or create a new descriptive analysis. To do this, leave the **[!UICONTROL New descriptive analysis from a template]** option selected by default.
+1. At this point you can either select the **[!UICONTROL Existing analyses and reports]** option and use reports created previously (refer to [Re-using existing reports and analyses](../../reporting/using/processing-a-report.md#re-using-existing-reports-and-analyses)), or create a new descriptive analysis. To do this, leave the **[!UICONTROL New descriptive analysis from a template]** option selected by default.
 
    The rest of the configuration is the same as for all descriptive analyses.
 
@@ -202,7 +202,7 @@ The analysis of a population in a workflow requires the population to still be p
 >The **[!UICONTROL Keep the result of interim populations between two executions]** option must only be used in development phases, but never for an environment in production.   
 >The interim populations are automatically purged once their retention deadline has been reached. This deadline is specified in the workflow properties **[!UICONTROL Execution]** tab.
 
-## Analyze recipient tracking logs {#analyzing-recipient-tracking-logs}
+## Analyzing recipient tracking logs {#analyzing-recipient-tracking-logs}
 
 The descriptive analysis wizard can generate reports on other work tables. This means that you can analyze delivery logs by creating a dedicated report.
 
@@ -264,7 +264,7 @@ To do this, apply the following steps:
 
    ![](assets/reporting_descriptive_sample_tracking_9.png)
 
-## Analyze delivery exclusion logs {#analyzing-delivery-exclusion-logs}
+## Analyzing delivery exclusion logs {#analyzing-delivery-exclusion-logs}
 
 If the analysis concerns a delivery, you can analyze the excluded population. To do this, select the deliveries to be analyzed and right-click to access the **[!UICONTROL Action > Explore exclusions]** menu.
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 ---
 
-# Publish on Twitter{#publishing-on-twitter}
+# Publishing on Twitter{#publishing-on-twitter}
 
-## Publish on your Twitter accounts {#publishing-on-your-twitter-accounts}
+## Publishing on your Twitter accounts {#publishing-on-your-twitter-accounts}
 
 Once configuration is complete, Social Marketing lets you send tweets to your Twitter accounts.
 
@@ -21,13 +21,13 @@ The following limitations are constraints which are inherent to Twitter.
 * The message may not exceed 140 characters.
 * HTML format isn't supported.
 
-### Create the delivery {#creating-the-delivery}
+### Creating the delivery {#creating-the-delivery}
 
 Create a new delivery based on the **[!UICONTROL Tweet (twitter)]** delivery template.
 
 ![](assets/social_twitter_delivery_001.png)
 
-### Select the main target {#selecting-the-main-target}
+### Selecting the main target {#selecting-the-main-target}
 
 Select the account(s) which you want to send tweets to.
 
@@ -47,9 +47,9 @@ Select the account(s) which you want to send tweets to.
 
    ![](assets/social_twitter_delivery_011.png)
 
-### Select the target of the proof {#selecting-the-target-of-the-proof}
+### Selecting the target of the proof {#selecting-the-target-of-the-proof}
 
-The **[!UICONTROL Target of the proofs]** tab lets you define the Twitter account to use for test deliveries before the final delivery. We therefore recommend that you create a private Twitter account dedicated to sending proofs. For more on how to create a private Twitter account, refer to [Create a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are the same as for selecting the main target. Refer to [Create a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
+The **[!UICONTROL Target of the proofs]** tab lets you define the Twitter account to use for test deliveries before the final delivery. We therefore recommend that you create a private Twitter account dedicated to sending proofs. For more on how to create a private Twitter account, refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are the same as for selecting the main target. Refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
 
 ![](assets/social_twitter_delivery_004.png)
 
@@ -57,13 +57,13 @@ The **[!UICONTROL Target of the proofs]** tab lets you define the Twitter accoun
 >
 >If you are using the same Twitter test account for all your deliveries, you can save the proof target in the **[!UICONTROL Tweet]** delivery template, accessed via the **[!UICONTROL Resources > Templates > Delivery templates]** node. The proof target will then be entered by default for each new delivery.
 
-### Define the message content {#defining-the-message-content}
+### Defining the message content {#defining-the-message-content}
 
 Type the content of your tweet in the **[!UICONTROL Content]** tab.
 
 ![](assets/social_twitter_delivery_005.png)
 
-### View the preview {#viewing-the-preview}
+### Viewing the preview {#viewing-the-preview}
 
 The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
@@ -76,9 +76,9 @@ The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
 >[!NOTE]
 >
->The preview may differ slightly from the final tweet. We highly recommend sending a proof before final delivery to view an exact rendering of the tweet. Refer to [Send the proof](#sending-the-proof).
+>The preview may differ slightly from the final tweet. We highly recommend sending a proof before final delivery to view an exact rendering of the tweet. Refer to [Sending the proof](#sending-the-proof).
 
-### Configure tracking {#configuring-tracking}
+### Configuring tracking {#configuring-tracking}
 
 Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
 
@@ -92,13 +92,13 @@ Tracking configuration is the same as for an email delivery. For more on this, r
 >
 >We can't tell the difference between robots who analyze tweets and users who are actually clicking.
 
-### Send the proof {#sending-the-proof}
+### Sending the proof {#sending-the-proof}
 
-We highly recommend sending a proof of your publication before the final delivery to get an exact rendering of the publication on a private Twitter test page. For more on creating a private Twitter account, refer to [Create a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are detailed in [Select the target of the proof](#selecting-the-target-of-the-proof).
+We highly recommend sending a proof of your publication before the final delivery to get an exact rendering of the publication on a private Twitter test page. For more on creating a private Twitter account, refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are detailed in [Selecting the target of the proof](#selecting-the-target-of-the-proof).
 
 Proof delivery is identical to email deliveries. Refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### Send the message {#sending-the-message}
+### Sending the message {#sending-the-message}
 
 1. Once the content is approved, click the **[!UICONTROL Send]** button.
 1. Select **[!UICONTROL Deliver as soon as possible]** and click the **[!UICONTROL Analyze]** button.
@@ -114,17 +114,17 @@ Proof delivery is identical to email deliveries. Refer to [this section](../../d
 
 ![](assets/social_facebook_delivery_016.png)
 
-## Send direct messages to subscribers {#sending-direct-messages-to-subscribers}
+## Sending direct messages to subscribers {#sending-direct-messages-to-subscribers}
 
 ### Operating principle {#operating-principle}
 
-The **[!UICONTROL Synchronize Twitter accounts]** workflow (refer to [Synchronize Twitter accounts](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recovers the list of Twitter subscribers so that you can send them direct messages. The recovered followers are stored in a specific table: the visitors table. To display the list of Twitter followers, go to the **[!UICONTROL Profiles and Targets > Visitors]** node.
+The **[!UICONTROL Synchronize Twitter accounts]** workflow (refer to [Synchronizing Twitter accounts](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recovers the list of Twitter subscribers so that you can send them direct messages. The recovered followers are stored in a specific table: the visitors table. To display the list of Twitter followers, go to the **[!UICONTROL Profiles and Targets > Visitors]** node.
 
 ![](assets/social_twitter_visitors_001.png)
 
 >[!IMPORTANT]
 >
->In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. For more on this, refer to: [Delegate write access to Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
+>In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. For more on this, refer to: [Delegating write access to Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
 
 For each follower, Adobe Campaign recovers the following information:
 
@@ -145,13 +145,13 @@ The following limitations are constraints which are inherent to Twitter.
 * HTML is not supported.
 * You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in several waves. Deliveries in waves are configured like email deliveries. For more on this, refer to [this section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 
-### Create the delivery {#creating-the-delivery-}
+### Creating the delivery {#creating-the-delivery-}
 
 Create a new delivery based on the **[!UICONTROL Tweet (Direct Message)]** delivery template.
 
 ![](assets/social_twitter_delivery_010.png)
 
-### Select the main target {#selecting-the-main-target-1}
+### Selecting the main target {#selecting-the-main-target-1}
 
 Select the followers whom you want to send your direct message to.
 
@@ -177,9 +177,9 @@ Select the followers whom you want to send your direct message to.
     
       ![](assets/social_twitter_delivery_018.png)
 
-### Select the target of the proof {#selecting-the-target-of-the-proof-1}
+### Selecting the target of the proof {#selecting-the-target-of-the-proof-1}
 
-The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. The selection process is the same as for the main target. Refer to [Select the main target](#selecting-the-main-target).
+The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. The selection process is the same as for the main target. Refer to [Selecting the main target](#selecting-the-main-target).
 
 ![](assets/social_twitter_delivery_020.png)
 
@@ -187,7 +187,7 @@ The **[!UICONTROL Target of the proofs]** tab lets you select the follower who w
 >
 >If you want to send all your direct message proofs to the same Twitter follower, you can save the proof target in the **[!UICONTROL Tweet (Direct Message)]** delivery template, accessed via the **[!UICONTROL Resources > Templates > Delivery templates]** node. The proof target will then be entered by default for each new delivery.
 
-### Define message content {#defining-message-content-}
+### Defining message content {#defining-message-content-}
 
 Enter the content of the tweet in the **[!UICONTROL Content]** tab.
 
@@ -197,4 +197,4 @@ Personalization fields can be used the same way as for email deliveries, for ins
 
 ![](assets/social_twitter_delivery_021.png)
 
-The following steps are the same as for sending a tweet to a Twitter account. Refer to [Publish on your Twitter accounts](#publishing-on-your-twitter-accounts).
+The following steps are the same as for sending a tweet to a Twitter account. Refer to [Publishing on your Twitter accounts](#publishing-on-your-twitter-accounts).

@@ -10,7 +10,7 @@ topic-tags: migration-overview
 
 # Migration method{#migration-method}
 
-## Modernize your environment {#modernizing-your-environment}
+## Modernizing your environment {#modernizing-your-environment}
 
 Performing a migration can be a chance to update your environment (database engines, operating systems). Adobe Campaign strongly recommends upgrading your production environments to the most recent versions.
 
@@ -26,16 +26,16 @@ In v6.02, the "multi timezone" mode was only available for PostgreSQL database e
 
 ## Key migration steps {#key-migration-steps}
 
-The general procedure for migrating to Adobe Campaign v7 is detailed in [this section](../../migration/using/before-starting-migration.md) section.
+The general procedure for migrating to Adobe Campaign v7 is detailed in the [Before starting migration](../../migration/using/before-starting-migration.md) section.
 
-Implementation steps for the migration to Adobe Campaign v7 are detailed in [this section](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) section.
+Implementation steps for the migration to Adobe Campaign v7 are detailed in the [Prerequisites for migration to Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) section.
 
-The required configurations depend on your existing configurations and the initial version of the platform. These are outlined in [this section](../../migration/using/general-configurations.md) section.
+The required configurations depend on your existing configurations and the initial version of the platform. These are outlined in the [General configurations](../../migration/using/general-configurations.md) section.
 
 ## Specific configurations {#specific-configurations}
 
 The changes brought about by Adobe Campaign v7 may also mean that you have to adapt certain specific configurations developed in the earlier versions. Therefore, it may be necessary to perform an audit on all your configurations before the migration: contact Adobe Campaign for any assistance.
 
-For example, particular attention should be paid to specific settings for Web applications, schema extensions with SQLdata or out-of-the-box schema cloning. For more information, refer to [this section](../../migration/using/configuring-your-platform.md) section.
+For example, particular attention should be paid to specific settings for Web applications, schema extensions with SQLdata or out-of-the-box schema cloning. For more information, refer to the [Configuring your platform](../../migration/using/configuring-your-platform.md) section.
 
 Similarly, in order to respond to the heightened security within Adobe Campaign, some internal mechanisms have been modified: you must adapt these corresponding configurations.

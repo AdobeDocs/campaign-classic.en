@@ -10,7 +10,7 @@ topic-tags: filtering-data
 
 # Use case{#use-case}
 
-## Create a filter on the email format of subscribers {#creating-a-filter-on-the-email-format-of-subscribers}
+## Creating a filter on the email format of subscribers {#creating-a-filter-on-the-email-format-of-subscribers}
 
 This use case will show you how to create a filter to sort newsletter subscriptions based on recipient email format.
 
@@ -37,7 +37,7 @@ Apply the following steps:
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   You can access these fields to define filter conditions in the body of the filter editor. An application filter is defined in exactly the same way as an advanced filter. See [Create an advanced filter](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   You can access these fields to define filter conditions in the body of the filter editor. An application filter is defined in exactly the same way as an advanced filter. See [Creating an advanced filter](../../platform/using/creating-filters.md#creating-an-advanced-filter).
 
 1. Create a new filter on subscriptions to display only subscriptions with an undefined email format:
 

@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Configure Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
+# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
 >[!CAUTION]
 >

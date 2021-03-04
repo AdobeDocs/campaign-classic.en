@@ -16,7 +16,7 @@ You can use this integrated Tomcat server to serve HTTP requests.
 
 In this case:
 
-* the default listening port is 8080. To change it, refer to [Configure Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* the default listening port is 8080. To change it, refer to [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
 * The client consoles then connect using a URL such as:
 
   ```
@@ -33,7 +33,7 @@ Likewise, you must use a Web server when you wish to use the tracking functional
 >
 >If you do not use the tracking functionality, you can perform a standard installation of Apache or IIS with a redirection to Campaign. The tracking Web server extension module is not required.
 
-## Configure the Apache Web server with Debian {#configuring-the-apache-web-server-with-debian}
+## Configuring the Apache Web server with Debian {#configuring-the-apache-web-server-with-debian}
 
 This process applies if you have installed Apache under a distribution based on APT.
 
@@ -100,7 +100,7 @@ Apply the following steps:
     invoke-rc.d apache2 restart
     ```
 
-## Configure Apache web server in RHEL {#configuring-apache-web-server-in-rhel}
+## Configuring Apache web server in RHEL {#configuring-apache-web-server-in-rhel}
 
 This procedure applies if you have installed and secured Apache under a RPM (RHEL, CentOS and Suse) based package.
 
@@ -189,7 +189,7 @@ Apply the following steps:
     systemctl start nlserver
     ```
 
-## Launch the Web server and testing the configuration{#launching-the-web-server-and-testing-the-configuration}
+## Launching the Web server and testing the configuration{#launching-the-web-server-and-testing-the-configuration}
 
 You can now test the configuration by starting Apache. The Adobe Campaign module should now display its banner on the console (two banners on certain operating systems):
 

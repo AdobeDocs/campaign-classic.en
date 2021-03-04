@@ -10,7 +10,7 @@ topic-tags: distributed-marketing
 
 # Examples{#examples}
 
-## Create a local campaign (by form) {#creating-a-local-campaign--by-form-}
+## Creating a local campaign (by form) {#creating-a-local-campaign--by-form-}
 
 The **By form** type web interface involves using a **web application**. Depending on its configuration, this web application can contain any type of defined personalized elements. For example, you can suggest links to evaluate the target, the budget, the content, etc. via dedicated APIs.
 
@@ -66,7 +66,7 @@ In this example, the following APIs are used:
   var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
   ```
 
-## Create a collaborative campaign (by target approval) {#creating-a-collaborative-campaign--by-target-approval-}
+## Creating a collaborative campaign (by target approval) {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### Introduction {#introduction}
 
@@ -111,7 +111,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 ### Central entity side {#central-entity-side}
 
-#### Create a data distribution activity {#creating-a-data-distribution-activity}
+#### Creating a data distribution activity {#creating-a-data-distribution-activity}
 
 1. To set up a collaborative campaign (by target approval) you must first create a **[!UICONTROL Data distribution activity]**. Click the **[!UICONTROL New]** icon in the **[!UICONTROL Resources > Campaign management > Data distribution]** node.
 
@@ -135,7 +135,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 1. Save your new data distribution.
 
-#### Create a collaborative campaign {#creating-a-collaborative-campaign}
+#### Creating a collaborative campaign {#creating-a-collaborative-campaign}
 
 1. From the **[!UICONTROL Campaign management > Campaign]** node, create a new **[!UICONTROL collaborative campaign (by target approval)]**.
 1. In the **[!UICONTROL Targeting and workflows]** tab, create a workflow for your campaign. This must contain a **Split** activity in which the **[!UICONTROL Record count limitation]** is defined by the **[!UICONTROL Data distribution]** activity.
@@ -152,7 +152,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 1. Save your record.
 
-#### Publish the campaign {#publishing-the-campaign}
+#### Publishing the campaign {#publishing-the-campaign}
 
 You can now add a **campaign package** from the **Campaigns** universe.
 
@@ -171,7 +171,7 @@ You can now add a **campaign package** from the **Campaigns** universe.
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## Create a collaborative campaign (by form) {#creating-a-collaborative-campaign--by-form-}
+## Creating a collaborative campaign (by form) {#creating-a-collaborative-campaign--by-form-}
 
 ### Introduction {#introduction-1}
 
@@ -225,11 +225,11 @@ The steps are as follows:
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. In the campaign's **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to configure it as a local campaign. Refer to [Create a local campaign (by form)](#creating-a-local-campaign--by-form-).
+1. In the campaign's **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to configure it as a local campaign. Refer to [Creating a local campaign (by form)](#creating-a-local-campaign--by-form-).
 
    ![](assets/mkg_dist_use_case_form_2.png)
 
-1. Configure the campaign workflow and the web form. Refer to [Create a local campaign (by form)](#creating-a-local-campaign--by-form-).
+1. Configure the campaign workflow and the web form. Refer to [Creating a local campaign (by form)](#creating-a-local-campaign--by-form-).
 1. Create your campaign package by specifying the execution schedule and the local entities involved.
 
    ![](assets/mkg_dist_use_case_form_3.png)

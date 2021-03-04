@@ -30,9 +30,9 @@ The following use cases detail the possible options for integrating offers via J
 
 ## HTML mode {#html-mode}
 
-### Present an anonymous offer {#presenting-an-anonymous-offer}
+### Presenting an anonymous offer {#presenting-an-anonymous-offer}
 
-1. **Prepare the interaction engine**
+1. **Preparing the interaction engine**
 
    Open the Adobe Campaign interface and prepare an anonymous environment.
 
@@ -93,9 +93,9 @@ The following use cases detail the possible options for integrating offers via J
    </div>
    ```
 
-### Present an identified offer {#presenting-an-identified-offer}
+### Presenting an identified offer {#presenting-an-identified-offer}
 
-To present an offer to an identified contact, the process is similar as the one detailed here: [Present an anonymous offer](#presenting-an-anonymous-offer). In the content of the web page, you need to add the following script that will identify the contact during the call to the engine:
+To present an offer to an identified contact, the process is similar as the one detailed here: [Presenting an anonymous offer](#presenting-an-anonymous-offer). In the content of the web page, you need to add the following script that will identify the contact during the call to the engine:
 
 ```
 <script type="text/javascript">
@@ -119,7 +119,7 @@ To present an offer to an identified contact, the process is similar as the one 
    </script>
    ```
 
-### Use an HTML rendering function {#using-an-html-rendering-function}
+### Using an HTML rendering function {#using-an-html-rendering-function}
 
 To generate the HTML offer representation automatically, you can use a rendering function.
 
@@ -133,7 +133,7 @@ To generate the HTML offer representation automatically, you can use a rendering
 
 ## XML mode {#xml-mode}
 
-### Present an offer {#presenting-an-offer}
+### Presenting an offer {#presenting-an-offer}
 
 Interaction lets you return an XML node to the HTML page which calls up the offer engine. This XML node can be processed by functions to be developed on the customer side.
 
@@ -168,13 +168,13 @@ The returned XML node looks like this:
 
 The following use case details the configurations to carry out in Adobe Campaign to enable XML mode then show the result of the call to the engine in the HTML page.
 
-1. **Create an environment and an offer space**
+1. **Creating an environment and an offer space**
 
    For more on creating an environment, refer to [Live/Design environments](../../interaction/using/live-design-environments.md).
 
-   For more on creating an offer space, refer to [Create offer spaces](../../interaction/using/creating-offer-spaces.md). 
+   For more on creating an offer space, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md). 
 
-1. **Extend the offer schema to add new fields**
+1. **Extending the offer schema to add new fields**
 
    This schema will define the following fields: Title number 2 and price.
 
@@ -213,7 +213,7 @@ The following use case details the configurations to carry out in Adobe Campaign
    >
    >You can extend the offer schema to add new fields both in batch and unitary mode, and in any format (text, HTML, and XML).
 
-1. **Extend the offer formula to edit new fields and modify an existing field**
+1. **Extending the offer formula to edit new fields and modify an existing field**
 
    Edit the **Offer (nsm)** input form.
 
@@ -263,9 +263,9 @@ The following use case details the configurations to carry out in Adobe Campaign
 
    The **[!UICONTROL Title 2]** and **[!UICONTROL Price]** fields have been added and the **[!UICONTROL Destination URL]** field is no longer displayed.
 
-1. **Create an offer**
+1. **Creating an offer**
 
-   For more on creating offers, refer to [Create an offer](../../interaction/using/creating-an-offer.md).
+   For more on creating offers, refer to [Creating an offer](../../interaction/using/creating-an-offer.md).
 
    In the following use case, the offer is entered as follows:
 
@@ -302,7 +302,7 @@ The following use case details the configurations to carry out in Adobe Campaign
    </propositions>
    ```
 
-### Use a rendering function {#using-a-rendering-function-}
+### Using a rendering function {#using-a-rendering-function-}
 
 It's possible to use an XML rendering function to create an offer presentation. This function will modify the XML node that is returned to the HTML page during the call to the engine.
 

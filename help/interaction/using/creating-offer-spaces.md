@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: managing-environments
 ---
 
-# Create offer spaces{#creating-offer-spaces}
+# Creating offer spaces{#creating-offer-spaces}
 
 Offer space creation may only be carried out by a **technical administrator** with access to the offer space sub-folder. Offer spaces can only be created in the design environment, and are automatically duplicated into the live environment during offer approval.
 
 The content of the catalog offers is configured in the offer spaces. By default, the content can include the following fields: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** and **[!UICONTROL Text content]**. The field sequence is configured in the offer space.
 
-Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the [Present an identified offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) section.
+Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the [Presenting an identified offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) section.
 
 The HTML or XML rendering is created via a rendering function. The sequence of the fields defined in the rendering function must be identical to the sequence configured in the content.
 
@@ -89,7 +89,7 @@ These values aren't applied by default: they have to be configured.
 >
 >The status of an offer proposition will automatically be changed to "Presented" if the offer is linked to a delivery with the "Sent" status.
 
-### Configure the status when the proposition is created {#configuring-the-status-when-the-proposition-is-created}
+### Configuring the status when the proposition is created {#configuring-the-status-when-the-proposition-is-created}
 
 When an offer proposition is created by the interaction engine its status is changed, whether it is an inbound or an outbound interaction. The choice between these two values depends on the way the offer spaces were configured in the **[!UICONTROL Design]** environment
 
@@ -102,7 +102,7 @@ To do this, use the following process:
 
    ![](assets/offer_update_status_001.png)
 
-### Configure the status when the proposition is accepted {#configuring-the-status-when-the-proposition-is-accepted}
+### Configuring the status when the proposition is accepted {#configuring-the-status-when-the-proposition-is-accepted}
 
 Once an offer proposition has been accepted, you can use one of the values provided by default to configure the proposition's new status. The update is effective when a recipient clicks on a link in the offer, which calls up the Interaction engine.
 

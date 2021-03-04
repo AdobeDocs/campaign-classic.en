@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-schemas
 ---
 
-# Regenerate schemas{#regenerating-schemas}
+# Regenerating schemas{#regenerating-schemas}
 
 When you modify a schema and save the modifications, extended schema is automatically generated. Nevertheless, you may need to regenerate schemas manually to apply modifications. To do this:
 

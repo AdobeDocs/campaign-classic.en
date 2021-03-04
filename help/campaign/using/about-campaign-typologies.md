@@ -22,12 +22,12 @@ Campaign Optimization is the Adobe Campaign module which lets you control, filte
 
 With Adobe Campaign you can design and apply four types of typology rules:
 
-* **Filtering** rules which let you exclude part of the target based on criteria. For more on this, refer to [Filter rules](../../campaign/using/filtering-rules.md).
+* **Filtering** rules which let you exclude part of the target based on criteria. For more on this, refer to [Filtering rules](../../campaign/using/filtering-rules.md).
 * **Pressure** rules which let you control marketing fatigue. For more on this, refer to [Pressure rules](../../campaign/using/pressure-rules.md).
-* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. For more on this, refer to [Control capacity](../../campaign/using/consistency-rules.md#controlling-capacity).
+* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. For more on this, refer to [Controlling capacity](../../campaign/using/consistency-rules.md#controlling-capacity).
 * **Control** rules which let you check the validity of messages before they are sent. For more on this, refer to [Control rules](../../campaign/using/control-rules.md).
 
-Once they have been created, typology rules are grouped in campaign typologies which are referenced in deliveries. See [Apply typologies](#applying-typologies).
+Once they have been created, typology rules are grouped in campaign typologies which are referenced in deliveries. See [Applying typologies](#applying-typologies).
 
 ## Typologies {#typologies}
 
@@ -37,7 +37,7 @@ The **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules t
 
 ![](assets/campaign_opt_rules_tab.png)
 
-## Apply typologies {#applying-typologies}
+## Applying typologies {#applying-typologies}
 
 Steps to create and apply a typology to your deliveries are listed below:
 
@@ -79,4 +79,4 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 
 * [About campaign typologies](../../campaign/using/pressure-rules.md)
 
-* [Manage marketing fatigue with pressure rules](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+* [Managing marketing fatigue with pressure rules](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)

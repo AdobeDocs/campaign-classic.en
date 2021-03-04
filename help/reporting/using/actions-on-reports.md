@@ -18,7 +18,7 @@ The toolbar lets you export, print, archive or display the report in a web brows
 
 ![](assets/s_ncs_advuser_report_wizard_04.png)
 
-## Export a report {#exporting-a-report}
+## Exporting a report {#exporting-a-report}
 
 Select the format you want to export your report into from the drop-down list. (.xls, .pdf or .ods).
 
@@ -34,7 +34,7 @@ Change the settings of **[!UICONTROL Paper]** and **[!UICONTROL Margins]** to su
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
-### Export to Microsoft Excel {#exporting-into-microsoft-excel}
+### Exporting into Microsoft Excel {#exporting-into-microsoft-excel}
 
 For **[!UICONTROL List with group]** type reports destined to be exported into Excel, the following recommendations and limitations apply:
 
@@ -49,7 +49,7 @@ For **[!UICONTROL List with group]** type reports destined to be exported into E
 * The reports do not have to use specific formatting defined at the cell level. It is preferable to use **[!UICONTROL Form rendering]** to define the format of the cells in the table. The **[!UICONTROL Form rendering]** can be accessed via **[!UICONTROL Administration > Configuration > Form rendering]**.
 * We do not recommend inserting HTML content.
 * If a report contains several table, chart, etc. type elements, they will be exported one under the other.
-* You can force the carriage return in cells: this configuration will be kept in Excel. For more on this, refer to this [Define cell format](../../reporting/using/creating-a-table.md#defining-cell-format).
+* You can force the carriage return in cells: this configuration will be kept in Excel. For more on this, refer to this [Defining cell format](../../reporting/using/creating-a-table.md#defining-cell-format).
 
 ### Postpone the export {#postpone-the-export}
 
@@ -85,7 +85,7 @@ For a better result, edit the Internet Explorer printing options and select **[!
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
-## Create report archives {#creating-report-archives}
+## Creating report archives {#creating-report-archives}
 
 Archiving a report lets you create a view of the report at various periods, for instance to show the statistics for a given period of time.
 

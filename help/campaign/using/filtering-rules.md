@@ -10,11 +10,11 @@ topic-tags: campaign-optimization
 
 # Filtering rules{#filtering-rules}
 
-**Filtering** rules let you define the messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.
+Filtering rules let you define the messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.
 
-Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated **Filtering** typology. For more on this, refer to [Create and use a filtering typology](#creating-and-using-a-filtering-typology).
+Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated **Filtering** typology. For more on this, refer to [Creating and using a filtering typology](#creating-and-using-a-filtering-typology).
 
-## Create a filtering rule {#creating-a-filtering-rule}
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 For example, you can filter your newsletter subscribers to prevent communications from being sent to recipients who are underage.
 
@@ -40,7 +40,7 @@ When this rule is used in a delivery, underage subscribers are excluded automati
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## Condition a filtering rule {#conditioning-a-filtering-rule}
+## Conditioning a filtering rule {#conditioning-a-filtering-rule}
 
 You can restrict the application field of the filtering rule based on the linked delivery or delivery outline.
 
@@ -54,7 +54,7 @@ In this case, even if the rule is linked to all deliveries, it will only be appl
 >
 >Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. For more on this, refer to [this section](../../workflow/using/delivery-outline.md).
 
-## Create and use a filtering typology {#creating-and-using-a-filtering-typology}
+## Creating and using a filtering typology {#creating-and-using-a-filtering-typology}
 
 You can create **[!UICONTROL Filtering]** typologies: they only contain filtering rules. 
 

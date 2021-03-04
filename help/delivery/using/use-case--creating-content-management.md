@@ -8,18 +8,18 @@ content-type: reference
 topic-tags: content-management
 ---
 
-# Use case: create content management{#use-case-creating-content-management}
+# Use case: creating content management{#use-case-creating-content-management}
 
 To create content management in Adobe Campaign, the following steps are necessary:
 
-* [Step 1 - Analyze the content to be produced](#step-1---analyzing-the-content-to-be-produced),
-* [Step 2 - Create the data schema](#step-2---creating-the-data-schema),
-* [Step 3 - Create the input form](#step-3---creating-the-input-form),
-* [Step 4 - Create the construction template](#step-4---creating-the-construction-template),
-* [Step 5 - Create the publication template](#step-5---creating-the-publication-template),
-* [Step 6 - Create contents](#step-6---creating-contents).
+* [Step 1 - Analyzing the content to be produced](#step-1---analyzing-the-content-to-be-produced),
+* [Step 2 - Creating the data schema](#step-2---creating-the-data-schema),
+* [Step 3 - Creating the input form](#step-3---creating-the-input-form),
+* [Step 4 - Creating the construction template](#step-4---creating-the-construction-template),
+* [Step 5 - Creating the publication template](#step-5---creating-the-publication-template),
+* [Step 6 - Creating contents](#step-6---creating-contents).
 
-## Step 1 - Analyze the content to be produced {#step-1---analyzing-the-content-to-be-produced}
+## Step 1 - Analyzing the content to be produced {#step-1---analyzing-the-content-to-be-produced}
 
 Before you start, you need to carry out a precise analysis of the content to be produced: identify the elements to display, study the constraints linked to them, define a type for each element, etc. You also need to differentiate static elements and variable ones.
 
@@ -45,7 +45,7 @@ The various elements of this newsletter are put together based on the rules defi
 
 These elements are created via a dedicated schema which specifies the following elements for each content: name, label, type, size, as well as any other information relevant to its processing in Adobe Campaign.
 
-## Step 2 - Create the data schema {#step-2---creating-the-data-schema}
+## Step 2 - Creating the data schema {#step-2---creating-the-data-schema}
 
 A data schema is an XML document associated with content. It describes the XML structure of the data in this content.
 
@@ -77,7 +77,7 @@ To create a data schema, apply the following steps:
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   For more on this, refer to [Edit schemas](../../delivery/using/data-schemas.md#editing-schemas).
+   For more on this, refer to [Editing schemas](../../delivery/using/data-schemas.md#editing-schemas).
 
    For each element referenced in the content, you need to select a matching type.
 
@@ -155,7 +155,7 @@ To create a data schema, apply the following steps:
 
 1. Click **[!UICONTROL Save]** to create the data schema.
 
-## Step 3 - Create the input form {#step-3---creating-the-input-form}
+## Step 3 - Creating the input form {#step-3---creating-the-input-form}
 
 The input form lets you edit a content instance via an input interface from the Adobe Campaign client console.
 
@@ -207,7 +207,7 @@ To create an input form for content management, apply the following steps:
 
 1. Click **[!UICONTROL Save]** to create the input form.
 
-## Step 4 - Create the construction template {#step-4---creating-the-construction-template}
+## Step 4 - Creating the construction template {#step-4---creating-the-construction-template}
 
 The XSLT language lets you transform an XML document into another output document. This transformation is described in XML in a document called a stylesheet.
 
@@ -342,7 +342,7 @@ To use a JavaScript template in Adobe Campaign, apply the following steps:
 
    ![](assets/contentmgt_jscode_perso_sample.png)
 
-## Step 5 - Create the publication template {#step-5---creating-the-publication-template}
+## Step 5 - Creating the publication template {#step-5---creating-the-publication-template}
 
 The next step involves creating a content publication template to link up the schema, the form, and the content construction template. This publication template can have several output formats.
 
@@ -374,9 +374,9 @@ You may now create content based on this publication template.
 
 >[!NOTE]
 >
->For more on creating contents, refer to [Use a content template](../../delivery/using/using-a-content-template.md).
+>For more on creating contents, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
 
-### Create content in the delivery wizard {#creating-content-in-the-delivery-wizard}
+### Creating content in the delivery wizard {#creating-content-in-the-delivery-wizard}
 
 To create content directly in the deliveries, apply the following steps:
 

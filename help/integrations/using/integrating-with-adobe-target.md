@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: adobe-target
 ---
 
-# Integrate with Adobe Target{#integrating-with-adobe-target}
+# Integrating with Adobe Target{#integrating-with-adobe-target}
 
 Integration between Adobe Campaign and Adobe Target (Classic and Standard) within Adobe Experience Cloud allows you to include an offer from Adobe Target in an Adobe Campaign email delivery.
 

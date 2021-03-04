@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-emails
 ---
 
-# Attach files{#attaching-files}
+# Attaching files{#attaching-files}
 
 ## About email attachments {#about-email-attachments}
 
@@ -27,7 +27,7 @@ There are two possible cases:
 >
 >This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](../../delivery/using/about-templates.md).
 
-## Attach a local file {#attaching-a-local-file}
+## Attaching a local file {#attaching-a-local-file}
 
 To attach a local file to a delivery, follow the steps below.
 
@@ -49,7 +49,7 @@ Once the file is selected, it is immediately uploaded onto the server to be avai
 
   ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
-## Create a calculated attachment {#creating-a-calculated-attachment}
+## Creating a calculated attachment {#creating-a-calculated-attachment}
 
 When you create a calculated attachment, the name of the attachment can be computed during analysis or delivery of each message and can depend on the recipient. It can also be personalized and converted to PDF.
 
@@ -85,7 +85,7 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
 The file is then available on the server to be attached to the different deliveries created from this template.
 
-### Attach a personalized message {#attach-a-personalized-message}
+### Attaching a personalized message {#attach-a-personalized-message}
 
 The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a file with personalization fields, such as the last name and first name of the intended recipient.
 
@@ -97,7 +97,7 @@ For this type of attachment, apply the following configuration steps:
 
    >[!NOTE]
    >
-   >The source file must be created in LibreOffice.
+   >The source file must be created in LibreOffice. The instance must be configured in keeping with the prerequisites detailed in [this section](../../installation/using/before-starting.md).
 
 1. Specify the label if necessary.
 1. Select **[!UICONTROL Upload file on the server]**, and then click **[!UICONTROL Update on server]** to start the transfer.
@@ -115,7 +115,7 @@ For this type of attachment, apply the following configuration steps:
 >
 >To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
-### Attach a calculated file {#attach-a-calculated-file}
+### Attaching a calculated file {#attach-a-calculated-file}
 
 You can calculate the attachment name during the delivery preparation. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
 

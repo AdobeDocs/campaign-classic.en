@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: migration-procedure
 ---
 
-# Test the migration{#testing-the-migration}
+# Testing the migration{#testing-the-migration}
 
 ## General procedure {#general-procedure}
 
@@ -170,6 +170,6 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 >
 >We strongly recommend using absolute folder paths and keeping the folder tree structure. For example: backupFolder\nms\srcSchema\billing.xml.
 
-### Resume the migration {#resuming-migration}
+### Resuming migration {#resuming-migration}
 
 If you restart the postupgrade after a migration failure, it resumes from the same place it was stopped.

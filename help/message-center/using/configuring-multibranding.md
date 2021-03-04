@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: instance-configuration
 ---
 
-# Configure multibranding{#configuring-multibranding}
+# Configuring multibranding{#configuring-multibranding}
 
 This section describes one solution to configure tracking and mirror page URLs per brand, for transactional messages in Adobe Campaign.
 
@@ -37,7 +37,7 @@ To configure multibranding, you need to configure both execution instances and c
 
    >[!NOTE]
    >
-   >Extending an existing schema is presented in the [Extend a schema](../../configuration/using/extending-a-schema.md) section.
+   >Extending an existing schema is presented in the [Extending a schema](../../configuration/using/extending-a-schema.md) section.
 
 1. Modify the nms:extAccount form:
 

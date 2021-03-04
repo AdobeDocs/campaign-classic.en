@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Frequently Asked Questions
+title: Common questions
 description: Adobe Campaign Classic FAQ
 audience: platform
 content-type: reference

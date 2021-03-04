@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Insert a barcode in an email
+title: Inserting a barcode in an email
 description: Inserting a barcode in an email
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 ---
 
-# Insert a barcode in an email{#inserting-a-barcode-in-an-email}
+# Inserting a barcode in an email{#inserting-a-barcode-in-an-email}
 
 The barcode generation module lets you create several types of barcodes that comply with many common standards, including 2D barcodes.
 

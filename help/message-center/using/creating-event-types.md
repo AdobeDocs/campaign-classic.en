@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: instance-configuration
 ---
 
-# Create event types{#creating-event-types}
+# Creating event types{#creating-event-types}
 
 Event types destined to be processed by Adobe Campaign must be created in the control instance. This can be done via the **[!UICONTROL Administration > Platform > Enumerations]** folder of the tree. Each event type matches a value in the **[!UICONTROL eventType]** enumeration. This can be an order confirmation, password or order delivery change, etc. 
 

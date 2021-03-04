@@ -12,7 +12,7 @@ topic-tags: appendices
 
 The following command lines require the ability to access the application server. For deployments hosted by Adobe, these commands can only be executed by Adobe.
 
-## Create an instance {#creating-an-instance}
+## Creating an instance {#creating-an-instance}
 
 Instance creation can be executed using command lines, with the syntax:
 

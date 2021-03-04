@@ -28,7 +28,7 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 >
 >The rules that govern whether an element is spam or not are managed via SpamAssassin and can be edited by an administrator with privileges.
 
-## Use SpamAssassin {#using-spamassassin}
+## Using SpamAssassin {#using-spamassassin}
 
 Once you have created your email delivery and defined its content, follow the steps below to evaluate the risks.
 

@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Web tracking tag definition
-description: Web tracking tag definition
+title: "Web tracking tag: definition"
+description: "Web tracking tag: definition"
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 ---
 
-# Web tracking tag definition{#web-tracking-tag-definition}
+# Web tracking tag: definition{#web-tracking-tag-definition}
 
 A web tracking tag is simply a URL constructed with the appropriate parameters, sent to the redirection server via an HTTP query.
 

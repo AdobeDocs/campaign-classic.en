@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: adobe-target
 ---
 
-# Configure the integration with Adobe Target{#configuring-the-integration-with-adobe-target}
+# Configuring the integration with Adobe Target{#configuring-the-integration-with-adobe-target}
 
 ## Prerequisites {#prerequisites}
 
@@ -17,7 +17,7 @@ In order to use the integration between Adobe Campaign and Adobe Target, you mus
 * Adobe Experience Cloud and Adobe Target organizations
 * An Adobe Target rawbox specified to establish the connection with Adobe Campaign
 
-## Configure Adobe Campaign {#configuring-adobe-campaign}
+## Configuring Adobe Campaign {#configuring-adobe-campaign}
 
 To configure Adobe Campaign:
 

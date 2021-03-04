@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Delivery troubleshooting
+title: Troubleshooting
 description: Learn more about delivery performances and how to troubleshoot issues related to delivery monitoring.
 audience: delivery
 content-type: reference

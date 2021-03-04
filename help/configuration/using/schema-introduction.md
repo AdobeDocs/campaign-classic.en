@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Schema reference
-description: Campaign Schemas
+title: Elements and attributes
+description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference

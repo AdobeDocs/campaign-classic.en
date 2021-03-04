@@ -23,7 +23,7 @@ The full list of Adobe solutions and core services which can be integrated with 
 >Most of these integrations require to implement Adobe Identity Management System (IMS), to log in via an Adobe ID. [Learn more in this page](../../integrations/using/about-adobe-id.md).
 >
 
-## Link your solutions {#working-with-experience-cloud-solutions}
+## Linking your solutions {#working-with-experience-cloud-solutions}
 
 Multiple solutions can be linked to Adobe Experience Cloud. The **organization** is the customer entity that enables an administrator to configure groups and users, and to control single sign-on (SSO) in Adobe Experience Cloud. The organization acts like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations.
 

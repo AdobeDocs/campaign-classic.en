@@ -160,7 +160,7 @@ Here is our example schema with its **Compute string**:
 </srcSchema>
 ```
 
-## Edit schemas {#editing-schemas}
+## Editing schemas {#editing-schemas}
 
 The edit field lets you input the XML content of the source schema:
 

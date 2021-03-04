@@ -76,7 +76,7 @@ This means that, if the user selects a commercial vehicle, the form offers the f
 
 ![](assets/s_ncs_admin_survey_no_storage_condb.png)
 
-## Use collected information {#using-collected-information}
+## Using collected information {#using-collected-information}
 
 For each form, the answers provided can be re-used in the fields or the labels. The following syntaxes must be used:
 

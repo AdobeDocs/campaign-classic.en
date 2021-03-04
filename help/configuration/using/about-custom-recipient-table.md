@@ -59,7 +59,7 @@ Using an external recipient table has the following limitations:
 
   >[!NOTE]
   >
-  >You can still create recipient lists using workflows. For more on this, refer to [Create a profile list with a workflow](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
+  >You can still create recipient lists using workflows. For more on this, refer to [Creating a profile list with a workflow](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
 
 We also recommend checking the default values used in the different out-of-the-box configurations: depending on the functionalities used, several adaptations must be carried out.
 

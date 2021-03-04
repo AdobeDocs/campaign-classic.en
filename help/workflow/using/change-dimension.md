@@ -50,7 +50,7 @@ To configure the change dimension activity, apply the following steps:
 
       >[!NOTE]
       >
-      >For information on creating and managing additional columns, refer to [Add data](../../workflow/using/query.md#adding-data).
+      >For information on creating and managing additional columns, refer to [Adding data](../../workflow/using/query.md#adding-data).
 
     * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient's **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]**.
     

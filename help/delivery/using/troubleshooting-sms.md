@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: SMS connector troubleshootinh
-description: Learn more on the SMS connector and how to troubleshoot it.
+title: SMS connector protocol and settings
+description: Learn more on the SMS connector and how to configure it.
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: initial-configuration
 ---
 
-# Create and configuring the database{#creating-and-configuring-the-database}
+# Creating and configuring the database{#creating-and-configuring-the-database}
 
 When you create a database, Adobe Campaign provides two different options:
 

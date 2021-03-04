@@ -2,7 +2,6 @@
 solution: Campaign Classic
 product: campaign
 title: Track and monitor messages
-description: Delivery best practices
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
@@ -12,7 +11,7 @@ topic-tags: deliveries-best-practices
 
 You clicked the Send button? Let's see what happens. Once the delivery is sent, Adobe Campaign enables you to keep track of the sent messages and discover how your recipients react to your delivery. This will help you improve future sending and optimize your next campaigns.
 
-## Monitor deliveries {#monitoring-deliveries}
+## Monitoring deliveries {#monitoring-deliveries}
 
 To control your campaigns, you must ensure that the message has indeed been delivered to your recipients.
 
@@ -37,7 +36,7 @@ To better know the behavior of your recipients, you can track how they react to 
 
 **Tip**: Message tracking is enabled by default. To configure URLs, select the Display URLs option in the lower section of the delivery wizard. For each URL of the message, you can choose whether to activate tracking.
 
-For more on this, refer to the [Configure tracking](../../delivery/using/how-to-configure-tracked-links.md) section and the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) description. 
+For more on this, refer to the [Configuring tracking](../../delivery/using/how-to-configure-tracked-links.md) section and the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) description. 
 
 ## Delivery performances {#delivery-performances}
 

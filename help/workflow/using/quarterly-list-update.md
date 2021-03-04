@@ -17,7 +17,7 @@ As these campaigns are launched at the beginning of every season in order to off
 ![](assets/incremental_query_example.png)
 
 1. Add an incremental query as well as a list update activity into a new workflow.
-1. Configure the **[!UICONTROL Incremental query]** tab of the activity as specified in [Create a query](../../workflow/using/query.md#creating-a-query).
+1. Configure the **[!UICONTROL Incremental query]** tab of the activity as specified in [Creating a query](../../workflow/using/query.md#creating-a-query).
 1. Select the **[!UICONTROL Scheduling & History]** tab and then specify a 270-day history. A recipient that has already been targeted will no longer be targeted for a period of 270 days, or roughly 9 months.
 
    Then click the **[!UICONTROL Change...]** button.

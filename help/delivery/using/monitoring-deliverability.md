@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deliverability-management
 ---
 
-# Monitor deliverability{#monitoring-deliverability}
+# Monitoring deliverability{#monitoring-deliverability}
 
 Below you will find details on the different monitoring tools provided by Adobe Campaign as well as some additional guidelines on deliverability monitoring.
 

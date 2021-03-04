@@ -52,7 +52,7 @@ To create the corresponding schema, apply the following stages:
 </srcSchema>
 ```
 
-## Access an external database {#accessing-an-external-database}
+## Accessing an external database {#accessing-an-external-database}
 
 The **Federated Data Access - FDA** option give you access to the data stored in an external database.
 

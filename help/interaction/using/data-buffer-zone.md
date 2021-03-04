@@ -10,7 +10,7 @@ topic-tags: advanced-parameters
 
 # Data buffer zone{#data-buffer-zone}
 
-You can configure a data buffer zone to increase inbound Interaction performance by desynchronizing offer proposition calculations. This configuration is to be carried out in the instance's own configuration file (config-Instance.xml). For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#interaction-data-buffer).
+You can configure a data buffer zone to increase inbound Interaction performance by desynchronizing offer proposition calculations. This configuration is to be carried out in the instance's own configuration file (config-Instance.xml). For more on this, refer to [this section](../../installation/using/interaction---data-buffer.md).
 
 >[!NOTE]
 >

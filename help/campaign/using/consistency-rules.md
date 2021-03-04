@@ -10,13 +10,13 @@ topic-tags: campaign-optimization
 
 # Consistency rules{#consistency-rules}
 
-## Get started with consistency rules {#about-consistency-rules}
+## About consistency rules {#about-consistency-rules}
 
 Adobe Campaign guarantees consistent communications thanks to a set of rules contained in campaign typologies. Their aim is to control the deliveries sent to recipients, such as volume, nature, relevance, etc.
 
-**Capacity** rules, for example can avoid overloading the platform concerned by the delivery of messages. As an example, special offers which contain a download link must not be sent to too many people at once, to avoid saturating the server; phone campaigns must not exceed the processing capacity of call centers, etc. For more on this, refer to [Control capacity](#controlling-capacity).
+**Capacity** rules, for example can avoid overloading the platform concerned by the delivery of messages. As an example, special offers which contain a download link must not be sent to too many people at once, to avoid saturating the server; phone campaigns must not exceed the processing capacity of call centers, etc. For more on this, refer to [Controlling capacity](#controlling-capacity).
 
-## Control capacity {#controlling-capacity}
+## Controlling capacity {#controlling-capacity}
 
 Before delivering messages, you need to make sure your organization has the capacity to process the delivery (physical infrastructure), the responses which the delivery may generate (inbound messages), and the number of calls to be made to contact subscribers (call center processing capacity), for example.
 
@@ -48,11 +48,11 @@ To design a new capacity rule, follow the steps below:
 
    For more on this, refer to [this section](#monitoring-consumption).
 
-## Define the maximum load {#defining-the-maximum-load}
+## Defining the maximum load {#defining-the-maximum-load}
 
-To define the maximum load, you need to define availability lines. To do this, two options are available: you can manually create one or more availability lines (refer to [Add availability lines one by one](#adding-availability-lines-one-by-one)) or create availability ranges. The frequency of these time periods can be automated (refer to [Add a set of availability lines](#add-a-set-of-availability-lines)).
+To define the maximum load, you need to define availability lines. To do this, two options are available: you can manually create one or more availability lines (refer to [Adding availability lines one by one](#adding-availability-lines-one-by-one)) or create availability ranges. The frequency of these time periods can be automated (refer to [Add a set of availability lines](#add-a-set-of-availability-lines)).
 
-### Add availability lines one by one {#adding-availability-lines-one-by-one}
+### Adding availability lines one by one {#adding-availability-lines-one-by-one}
 
 To create an availability line, click the **[!UICONTROL Add]** button and select **[!UICONTROL Add an availability line]**. Enter the availability period and the available load.
 
@@ -106,7 +106,7 @@ The number of messages to be processed is broken down evenly over the defined av
 
 ![](assets/campaign_opt_create_capacity_06.png)
 
-## Monitor consumption {#monitoring-consumption}
+## Monitoring consumption {#monitoring-consumption}
 
 By default, capacity rules are for indication purposes only. Select the **[!UICONTROL Exclude messages in excess of capacity from the target]** option to prevent the defined load from being exceeded. In this case, excess messages will be automatically excluded from the deliveries using this typology rule.
 

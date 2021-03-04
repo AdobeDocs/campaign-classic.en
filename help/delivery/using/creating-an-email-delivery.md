@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-emails
 ---
 
-# Create an email delivery{#creating-an-email-delivery}
+# Creating an email delivery{#creating-an-email-delivery}
 
 To create a new email delivery, follow the steps below:
 

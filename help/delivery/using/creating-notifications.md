@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-push-notifications
 ---
 
-# Create notifications{#creating-notifications}
+# Creating notifications{#creating-notifications}
 
 This section details the elements specific to the delivery of iOS and Android notifications. Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
@@ -16,7 +16,7 @@ Start by creating a new delivery.
 
 ![](assets/nmac_delivery_1.png)
 
-## Send notifications on iOS {#sending-notifications-on-ios}
+## Sending notifications on iOS {#sending-notifications-on-ios}
 
 1. Select the **[!UICONTROL Deliver on iOS]** delivery template.
 
@@ -48,7 +48,7 @@ Start by creating a new delivery.
 
 1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear on the notification. It will only appear in the list of notifications available from the notification center. This field allows you to define the value of the **title** parameter of the iOS notification payload.
 
-1. If you use the HTTP/2 connector, you can add a subtitle (value of the **subtitle** parameter of the iOS notification payload). Refer to the [Configure the mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
+1. If you use the HTTP/2 connector, you can add a subtitle (value of the **subtitle** parameter of the iOS notification payload). Refer to the [Configuring the mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
 
 1. Then enter the **[!UICONTROL Message]** and the **[!UICONTROL Value of the badge]** based on the chosen notification type. 
 
@@ -58,20 +58,20 @@ Start by creating a new delivery.
    >
    >**[!UICONTROL Badge]** and **[!UICONTROL Alert and badge]** type notifications enable you to modify the value of the badge (the number above the mobile application logo). To refresh the badge, you just have to enter 0 as the value. If the field is empty, the badge value will not change.
 
-1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [customize the emoticon list](../../delivery/using/customizing-emoticon-list.md)
+1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [customizing the emoticon list](../../delivery/using/customizing-emoticon-list.md)
 
 1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload). If your iOS application manages localizable strings (**Localizable.strings**), enter the corresponding key into this field. If your application does not manage localizable text, enter the label that you want to see appear on the action button. For more information on localizable strings, consult the [Apple documentation](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
 1. In the **[!UICONTROL Play a sound]** field, select the sound to be played by the mobile terminal when the notification is received.
 
    >[!NOTE]
    >
-   >Sounds must be included in the application and defined when the service is created. Refer to [Configure iOS external account](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
+   >Sounds must be included in the application and defined when the service is created. Refer to [Configuring iOS external account](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configure a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
@@ -88,10 +88,10 @@ To send a proof and to send the final delivery, use the same process as email de
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Monitor a delivery](../../delivery/using/about-delivery-monitoring.md)
-* [Understand delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 
-## Send notifications on Android {#sending-notifications-on-android}
+## Sending notifications on Android {#sending-notifications-on-android}
 
 1. Start by selecting the **[!UICONTROL Deliver on Android (android)]** delivery template.
 
@@ -109,13 +109,13 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
    ![](assets/nmac_delivery_android_4.png)
 
-1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [customize the emoticon list](../../delivery/using/defining-interactive-content.md)
+1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [customizing the emoticon list](../../delivery/using/defining-interactive-content.md)
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configure a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
@@ -125,11 +125,11 @@ To send a proof and to send the final delivery, use the same process as email de
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validate the delivery](../../delivery/using/steps-validating-the-delivery.md)
-* [Send the delivery](../../delivery/using/steps-sending-the-delivery.md)
+* [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
+* [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Monitor a delivery](../../delivery/using/about-delivery-monitoring.md)
-* [Understand delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)

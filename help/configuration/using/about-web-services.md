@@ -10,6 +10,8 @@ topic-tags: api
 
 # About web services{#about-web-services}
 
+## Definition of Adobe Campaign APIs {#definition-of-adobe-campaign-apis}
+
 The Adobe Campaign application server was designed for openness and easy integration with increasingly diverse and complex company information systems.
 
 Adobe Campaign APIs are used in JavaScript within the application and in SOAP outside of it. They make up a library of generic functions that can be enriched. For further information, refer to [Implementing SOAP methods](../../configuration/using/implementing-soap-methods.md).
@@ -19,7 +21,15 @@ Adobe Campaign APIs are used in JavaScript within the application and in SOAP ou
 >The number of authorized Engine Calls per day varies upon your license contract. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).   
 >A list of all the APIs including their full description is available in [this dedicated documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-## Use Adobe Campaign APIs {#using-adobe-campaign-apis}
+## Prerequisites {#prerequisites}
+
+Before using the Adobe Campaign APIs, you need to be familliar with the following topics:
+
+* Javascript
+* SOAP protocol
+* Adobe Campaign datamodel
+
+## Using Adobe Campaign APIs {#using-adobe-campaign-apis}
 
 Adobe Campaign uses two types of APIs:
 
@@ -27,14 +37,6 @@ Adobe Campaign uses two types of APIs:
 * Business specific APIs that let you act on each object: deliveries, workflows, subscriptions, etc. Refer to [Business oriented APIs](../../configuration/using/business-oriented-apis.md).
 
 In order to develop APIs and interact with Adobe Campaign, you need to be familiar with your datamodel. Adobe Campaign lets you generate a complete description of the base. Refer to [Description of the model](../../configuration/using/data-oriented-apis.md#description-of-the-model).
-
->[!NOTE]
->
->Before using the Adobe Campaign APIs, you need to be familliar with the following topics:
->
-> * Javascript
-> * SOAP protocol
-> * Adobe Campaign datamodel
 
 ## SOAP calls {#soap-calls}
 

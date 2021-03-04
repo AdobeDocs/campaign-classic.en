@@ -151,7 +151,7 @@ Examples:
   <%= recipient.@lastName %>
   ```
 
-### Include a JavaScript template {#including-a-javascript-template}
+### Including a JavaScript template {#including-a-javascript-template}
 
 You can constitute a library of functions or variables for later use. To do this, import the JavaScript template with the **eval** function. This lets you enrich contexts with additional functions declared in other JavaScript templates.
 
@@ -161,7 +161,7 @@ You can constitute a library of functions or variables for later use. To do this
 <% eval(xtk.javascript.get("cus:common.js").data);  %>
 ```
 
-### Edit a JavaScript template {#editing-a-javascript-template}
+### Editing a JavaScript template {#editing-a-javascript-template}
 
 The edit zone lets you populate the content of the JavaScript template:
 
@@ -361,7 +361,7 @@ This example involves the following steps:
 
 1. You may then use this content template in your deliveries.
 
-   For more on this, refer to [Use a content template](../../delivery/using/using-a-content-template.md).
+   For more on this, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
 
 ## XSL Stylesheets {#xsl-stylesheets}
 
@@ -369,7 +369,7 @@ XSLT language lets you change an XML document into an output document. Depending
 
 This transformation is in turn detailed in XML in a document known as the stylesheet.
 
-### Identify a stylesheet {#identifying-a-stylesheet}
+### Identifying a stylesheet {#identifying-a-stylesheet}
 
 A stylesheet is identified by its name and namespace, just like schemas and forms. It is, however, recommended that you add the **.xsl** extension to the name of the stylesheet.
 
@@ -447,7 +447,7 @@ In our example, an HTML page is generated from the "cus:book" schema by displayi
 >
 >For more information on the XSLT language, refer to an XSLT reference document.
 
-### Display HTML/XML {#displaying-html-xml}
+### Displaying HTML/XML {#displaying-html-xml}
 
 To display an **html** field, use the **disable-output-escaping="yes"** option from the **`<xsl:value-of>`** directive. This lets you avoid replacing characters with their XML entity (for example < with &lt;).
 
@@ -473,7 +473,7 @@ Examples:
   <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
   ```
 
-### Includ stylesheets {#including-stylesheets}
+### Including stylesheets {#including-stylesheets}
 
 It is possible to build up a library of templates or variables to be shared among several stylesheets. The "longMonth" **template**, presented above, is a typical example of the advantage of locating a template remotely in a stylesheet so that it can be reused later.
 
@@ -494,7 +494,7 @@ The **`<xsl:include>`** directive indicates the name of the stylesheet to be inc
 >
 >The name of the namespace must not be entered in the reference of the stylesheet to include. As a standard, this stylesheet is created with the user namespace.
 
-### Edit a stylesheet {#editing-a-stylesheet}
+### Editing a stylesheet {#editing-a-stylesheet}
 
 The edit zone lets you populate the content of the stylesheet:
 
@@ -535,7 +535,7 @@ Example of how to use the image placement option and its use with an image:
 >
 >We recommend declaring a variable containing the reference of the server where the images are stored ("resPath" in our example).
 
-### Use public resources {#using-public-resources}
+### Using public resources {#using-public-resources}
 
 You can also use **[!UICONTROL Public resources]** to declare images and upload them onto the server depending on the instance settings entered in the deployment wizard.
 

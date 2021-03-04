@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configure shared audiences integration in Adobe Campaign
+title: Configuring shared audiences integration in Adobe Campaign
 description: Learn how to configure shared audiences integration
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 ---
 
-# Configure shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
+# Configuring shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
-Once you have s[ubmitted a provisioning request](submitting-request-to-adobe.md), Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
+Once you have submitted this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
 1. [Step 1: Configure or check the external accounts in Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 1. [Step 2: Configure the Data Source](#step-2--configure-the-data-source)

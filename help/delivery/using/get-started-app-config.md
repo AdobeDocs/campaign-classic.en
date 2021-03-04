@@ -24,7 +24,7 @@ To send push notifications in Adobe Campaign, you need to:
 >
 >Go to the **[!UICONTROL Subscriptions]** tab of the service to view the list of subscribers to the service, i.e. all people who have installed the application on their mobile and agreed to receive notifications.
 
-## Install the package {#installing-package-ios}
+## Installing the package {#installing-package-ios}
 
 ![](assets/do-not-localize/how-to-video.png) [Learn how to install the mobile app package in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
 

@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: db index element
-description: Campaign db index element
+title: Elements and attributes
+description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference

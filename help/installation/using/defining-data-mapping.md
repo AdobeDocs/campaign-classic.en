@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Defining data mapping
-description: Learn how to define data mapping
+title: Accessing an external database
+description: Accessing an external database
 audience: platform
 content-type: reference
 topic-tags: connectors
 ---
 
-# Define data mapping {#defining-data-mapping}
+# Defining data mapping {#defining-data-mapping}
 
 Adobe Campaign lets you define mapping on the data in an external table.
 

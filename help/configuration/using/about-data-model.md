@@ -38,7 +38,7 @@ Delivery logs and tracking logs are deleted after a certain period, which is spe
 
 Finally, part of the data model consists in technical data used for the applicative process, including operators and user rights (**NmsGroup**), folders (**XtkFolder**).
 
-## Use the default Recipient table {#default-recipient-table}
+## Using the default Recipient table {#default-recipient-table}
 
 The out-of-the-box Recipient table in Adobe Campaign provides a good starting point for building your data model. It has a number of predefined fields and table links that can be easily extended. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric data model.
 
@@ -57,7 +57,7 @@ However, it is possible to extend the Recipient table, but not to reduce the num
 
 Also, as the Recipient table is part of the product, both the table and its associated form evolve as the product changes. Therefore extra maintenance is needed to check that any extensions are still valid upon upgrade.
 
-## Extend the data model {#extending-data-model}
+## Extending the data model {#extending-data-model}
 
 When starting with Adobe Campaign, you need to assess the default data model to check which table is the best suited to store your marketing data.
 
@@ -74,9 +74,9 @@ For more on configuring extension schemas to extend the conceptual data model, s
 >
 >Extending the data model is reserved for advanced users.
 
-## Use a custom recipient table {#custom-recipient-table}
+## Using a custom recipient table {#custom-recipient-table}
 
-When designing your Adobe Campaign data model, you can use the [built-in Recipient table](#default-recipient-table), or decide to create a [custom recipient table](../../configuration/using/about-custom-recipient-table.md) table to store you marketing profiles.
+When designing your Adobe Campaign data model, you can use the [out-of-the-box Recipient table](#default-recipient-table), or decide to create a [custom recipient table](../../configuration/using/about-custom-recipient-table.md) table to store you marketing profiles.
 
 Indeed, if your data model does not fit the recipient-centric structure, you can set up other tables as the targeting dimension within Adobe Campaign. For example, this can be relevant when you need to target households, accounts (like mobile phones) and companies/sites rather than simply recipients.
 

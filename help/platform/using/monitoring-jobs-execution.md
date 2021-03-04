@@ -8,14 +8,14 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Monitor jobs execution {#monitoring-job-execution}
+# Monitoring jobs execution {#monitoring-job-execution}
 
 You can track the execution of your import and export jobs directly from the list of import/export jobs.
 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * The **[!UICONTROL Journal]** tab lets you look at log messages concerning execution.
-* The **[!UICONTROL Rejects]** tab contains the rejected records. See [this section](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
+* The **[!UICONTROL Rejects]** tab contains the rejected records. See [Behavior in the event of an error](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
 
 In the **[!UICONTROL General]** tab, the **[!UICONTROL Status]** field indicates the current status of a job.
 

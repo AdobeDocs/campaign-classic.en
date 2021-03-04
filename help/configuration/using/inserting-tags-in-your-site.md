@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: setting-up-web-tracking
 ---
 
-# Insert tags in your site{#inserting-tags-in-your-site}
+# Inserting tags in your site{#inserting-tags-in-your-site}
 
 ## Simple method {#simple-method}
 

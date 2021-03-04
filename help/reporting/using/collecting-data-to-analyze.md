@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Collect data to analyze{#collecting-data-to-analyze}
+# Collecting data to analyze{#collecting-data-to-analyze}
 
-The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Use the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
+The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Using the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
 
 This activity offers three different methods:
 
@@ -24,9 +24,9 @@ In all cases, data is collected via a **[!UICONTROL Query]** type activity.
 
 ![](assets/reporting_query_edit.png)
 
-This data selection mode is relevant when the data in the report needs to be collected or built using data in the database. In some cases, you can also select the data straight from the elements used in the report. For instance when inserting a chart, you can select the source data directly. For more on this, refer to [Use the context](../../reporting/using/using-the-context.md).
+This data selection mode is relevant when the data in the report needs to be collected or built using data in the database. In some cases, you can also select the data straight from the elements used in the report. For instance when inserting a chart, you can select the source data directly. For more on this, refer to [Using the context](../../reporting/using/using-the-context.md).
 
-## Use the data from a schema {#using-the-data-from-a-schema}
+## Using the data from a schema {#using-the-data-from-a-schema}
 
 To use data linked to a database schema, select the appropriate option in the query editor and configure the query to be applied.
 
@@ -34,7 +34,7 @@ The following example lets you collect the number of recipients for each country
 
 ![](assets/reporting_query_from_schema.png)
 
-## Use an imported list {#using-an-imported-list}
+## Using an imported list {#using-an-imported-list}
 
 To create a report, you can use data from a list of imported data.
 
@@ -44,7 +44,7 @@ To do this, select the **[!UICONTROL Use an imported list]** option in the query
 
 Click the **[!UICONTROL Edit query...]** link to define the data to collect among the elements in this list for building the report.
 
-## Use a cube {#using-a-cube}
+## Using a cube {#using-a-cube}
 
 It's possible to select a Cube for defining the query.
 
@@ -68,7 +68,7 @@ The **[!UICONTROL Filter with the folder]** option lets you specify a folder and
 
 ![](assets/reporting_control_folder.png)
 
-### Limit the amount of data collected {#limiting-the-amount-of-data-collected}
+### Limiting the amount of data collected {#limiting-the-amount-of-data-collected}
 
 Configure the number of records to be extracted via the query using the result limiting options:
 

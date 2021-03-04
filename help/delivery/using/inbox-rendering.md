@@ -24,14 +24,14 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 >
 >Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-## Activate Inbox rendering {#activating-inbox-rendering}
+## Activating Inbox rendering {#activating-inbox-rendering}
 
 For hosted and hybrid clients, Inbox rendering is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
 
 For on-premise installations, follow the steps below to configure Inbox rendering.
 
-1. Install the **[!UICONTROL Inbox rendering (IR)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Install Campaign built-in packages](../../installation/using/installing-campaign-standard-packages.md).
-1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. For more on this, see [Create an external account](../../installation/using/external-accounts.md#creating-an-external-account).
+1. Install the **[!UICONTROL Inbox rendering (IR)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
+1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. For more on this, see [Creating an external account](../../installation/using/external-accounts.md#creating-an-external-account).
 1. Set the external account parameters as follows:
     * **[!UICONTROL Label]**: Deliverability server info
     * **[!UICONTROL Internal name]**: deliverabilityInstance
@@ -85,7 +85,7 @@ The number of remaining available tokens is displayed in the **[!UICONTROL Gener
 
 Typically, the Inbox rendering feature is used to test the HTML framework of a newly designed email. Each rendering requires approximately up to 70 tokens (depending on the number of environments generally tested on). However, in some cases you may require multiple inbox rendering reports to fully test your delivery. It could therefore take more tokens to complete several checks.
 
-## Access the inbox rendering report {#accessing-the-inbox-rendering-report}
+## Accessing the inbox rendering report {#accessing-the-inbox-rendering-report}
 
 Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.
 

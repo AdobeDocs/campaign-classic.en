@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Analyze results
-description: Learn how to analyze A/B testing results
+title: Analyzing the result
+description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 ---
 
-# Analyze results {#step-8--analyzing-the-result}
+# Analyzing the result {#step-8--analyzing-the-result}
 
 Once the test deliveries have been sent, you can check which recipient(s) they have been sent to and whether or not they were opened.
 

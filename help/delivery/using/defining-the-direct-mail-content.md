@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-direct-mail
 ---
 
-# Define the direct mail content{#defining-the-direct-mail-content}
+# Defining the direct mail content{#defining-the-direct-mail-content}
 
 ## Extraction file {#extraction-file}
 
@@ -30,4 +30,4 @@ It is possible to insert a personalized URL into the extraction file. For more o
 
 >[!NOTE]
 >
->This wizard includes the steps of the export wizard detailed in the [Get Started](../../platform/using/executing-export-jobs.md) section.
+>This wizard includes the steps of the export wizard detailed in the [Getting Started](../../platform/using/executing-export-jobs.md) section.

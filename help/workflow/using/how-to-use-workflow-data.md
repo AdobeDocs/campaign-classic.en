@@ -10,7 +10,7 @@ topic-tags: -general-operation
 
 # How to use workflow data{#how-to-use-workflow-data}
 
-## Update the database {#updating-the-database}
+## Updating the database {#updating-the-database}
 
 All collected data can be used to update the database, or in deliveries. For example, you can enrich message content personalization possibilities (include the number of contracts in the message, specify the average shopping cart over the last year, etc.) or detail population targeting (send a message to contract co-holders, target the 1,000 best subscribers to online services, etc.). This data can also be exported or archived in a list.
 
@@ -30,17 +30,17 @@ The data of the Adobe Campaign database and the existing lists can be updated us
 
   For more on this, refer to [Update data](../../workflow/using/update-data.md).
 
-### Manage subscriptions/unsubscriptions {#subscription-unsubscription-management}
+### Subscription/unsubscription management {#subscription-unsubscription-management}
 
 To find out about subscribing and unsubscribing recipients to an information service via a workflow, refer to [Subscription Services](../../workflow/using/subscription-services.md).
 
-## Send via a workflow {#sending-via-a-workflow}
+## Sending via a workflow {#sending-via-a-workflow}
 
 ### Delivery activity {#delivery-activity}
 
 The delivery activity is detailed in [Delivery](../../workflow/using/delivery.md).
 
-### Enrich targeting deliveries {#enriching-and-targeting-deliveries}
+### Enriching and targeting deliveries {#enriching-and-targeting-deliveries}
 
 Deliveries can process data from workflows in order to customize content or within the framework of target population selection.
 

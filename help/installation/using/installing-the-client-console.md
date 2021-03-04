@@ -40,7 +40,8 @@ To download and in install the Adobe Campaign client console, follow the steps b
 
 >[!NOTE]
 >
->On Windows, you can launch the **nlclient.exe** file directly from the `[INSTALL]/bin` directory on a Windows server, where `[INSTALL]` is the access path for the Adobe Campaign installation folder.  
+>You can propose the update to the latest version to all Campaign client console users by copying the console executable file on a specific folder of the Campaign Marketing server. [Learn more](../../installation/using/client-console-availability-for-windows.md).
+>
 
 ## Create the connection{#create-the-connection}
 
@@ -86,7 +87,7 @@ To log on to an existing instance, follow the steps below:
 
 **Related topics**
 
-* [Create an instance and log on](../../installation/using/creating-an-instance-and-logging-on.md).
+* [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 * [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) 
 
 ## Tutorial video

@@ -12,9 +12,9 @@ topic-tags: unitary-interactions
 
 ![](assets/do-not-localize/how-to-video.png) Watch this [video](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) to get an overview of how offers are delivered to identified and anonymous targets.
 
-## Target and store an environment for anonymous interactions {#targeting-and-storing-an-environment-for-anonymous-interactions}
+## Targeting and storing an environment for anonymous interactions {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
-By default, Interaction comes with a pre-configured environment to target the recipient table (identified offers). If you wish to target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environment. For more on this, see [Create an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+By default, Interaction comes with a pre-configured environment to target the recipient table (identified offers). If you wish to target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environment. For more on this, see [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 When you create an anonymous environment via the mapping creation wizard, the **[!UICONTROL Environment dedicated to incoming anonymous interactions]** box is automatically checked in the environment's **[!UICONTROL General]** tab.
 
@@ -32,7 +32,7 @@ The **[!UICONTROL Visitor folder]** field appears. It is automatically completed
 
 Just like outbound interactions, inbound interactions are organized in an offer catalog which is made up of categories and offers.
 
-To create categories and spaces, apply the same process as for identified visitors (refer to [Create offer categories](../../interaction/using/creating-offer-categories.md) and [Create an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment)).
+To create categories and spaces, apply the same process as for identified visitors (refer to [Creating offer categories](../../interaction/using/creating-offer-categories.md) and [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment)).
 
 ## Anonymous visitors {#anonymous-visitors}
 
@@ -44,7 +44,7 @@ To run this analysis, for the offer space, check the **[!UICONTROL Implicitly id
 
 ![](assets/identification_anonymous_visitors.png)
 
-## Process unidentified anonymous visitors {#processing-unidentified-anonymous-visitors}
+## Processing unidentified anonymous visitors {#processing-unidentified-anonymous-visitors}
 
 After analysis, if an anonymous visitor is not identified, you can store their data in a given space. This will allow you to suggest offers specifically aimed at this type of visitor, matching the specified typology rules.
 

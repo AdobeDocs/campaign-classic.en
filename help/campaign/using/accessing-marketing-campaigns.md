@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: about-marketing-campaigns
 ---
 
-# Access marketing campaigns{#accessing-marketing-campaigns}
+# Accessing marketing campaigns{#accessing-marketing-campaigns}
 
 Adobe Campaign lets you create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center.
 
@@ -57,11 +57,11 @@ You can also use the **[!UICONTROL Search]** field to filter the displayed items
 
 The icons linked to each item let you view its status: finished, in progress, being edited, etc.
 
-### Browse programs and campaigns {#browsing-in-a-marketing-program}
+### Browsing in a marketing program {#browsing-in-a-marketing-program}
 
 Campaign allows you to manage a set of programs made up of various marketing campaigns. Each campaign contains deliveries and the associated processes and resources.
 
-#### Browse a program {#browsing-a-program}
+#### Browsing a program {#browsing-a-program}
 
 When editing a program, use the tabs described below to browse and configure it.
 
@@ -75,7 +75,7 @@ When editing a program, use the tabs described below to browse and configure it.
 
   ![](assets/s_ncs_user_interface_campaign05.png)
 
-#### Browse campaigns {#browsing-campaigns}
+#### Browsing campaigns {#browsing-campaigns}
 
 Campaigns can be accessed via the campaign calendar, the **[!UICONTROL Schedule]** tab of the program, or the list of campaigns.
 
@@ -92,7 +92,7 @@ Campaigns can be accessed via the campaign calendar, the **[!UICONTROL Schedule]
 
    ![](assets/campaign_edit_from_list.png)
 
-### Control a campaign {#controlling-a-campaign}
+### Controlling a campaign {#controlling-a-campaign}
 
 #### Dashboard {#dashboard}
 
@@ -132,21 +132,21 @@ The **[!UICONTROL Reports]** link lets you access the campaign reports.
 >
 >Reports are detailed in [this section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
-## Configure reusable templates {#configuration}
+#### Configuration {#configuration}
 
 Campaigns are created via campaign templates. You can configure reusable templates for which some options are selected and other settings are already saved. For each campaign, the following functionality is offered:
 
-* Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See [Manage associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents). 
-* Defining costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. See [Define cost categories](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
+* Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents). 
+* Defining costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. See [Defining cost categories](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
 * Defining objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.
-* Managing seed addresses (for more on this, refer to [this section](../../delivery/using/about-seed-addresses.md)) and control groups (refer to [Define a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
-* Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See [Check and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+* Managing seed addresses (for more on this, refer to [this section](../../delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
+* Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
 >To access the campaign configurations and make changes to them, click the **[!UICONTROL Advanced campaign parameters...]** link in the **[!UICONTROL Edit]** tab. For more information on setting parameters at the campaign level so deliveries inherit values automatically, see [our Technote](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
 
-## Access the web interface {#using-the-web-interface-}
+## Using the web interface {#using-the-web-interface-}
 
 You can access the Adobe Campaign console screens via an internet browser to view all campaigns and deliveries as well as reports and information on the profiles in your database. This access does not enable record creation. Depending on operator rights, you may view and/or act on the data in the database. For example, you can approve campaign contents and targeting, re-start or stop a delivery, etc.
 
@@ -159,4 +159,4 @@ Approvals (of a target or a delivery content, for instance) can be carried out v
 
 ![](assets/campaign_web_interface_validation.png)
 
-You can also use the link contained in the notification messages. For more on this, refer to [this section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+You can also use the link contained in the notification messages. For more on this, refer to [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).

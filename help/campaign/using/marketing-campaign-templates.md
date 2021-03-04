@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 ---
 
-# Use marketing campaign templates {#campaign-templates}
+# Marketing Campaign templates {#campaign-templates}
 
 Campaign templates are centralized in the **[!UICONTROL Resources > Templates > Campaign templates]** node. A default template is supplied as standard. It lets you create a new campaign using all the available modules (Documents, Tasks, Seed addresses, etc.), but the modules offered depend on your rights and the configuration of your Adobe Campaign platform.
 
-## Creat or duplicate a campaign template {#creating-or-duplicating-a-campaign-template}
+## Creating or duplicating a campaign template {#creating-or-duplicating-a-campaign-template}
 
 To create a new template, carry out the following steps:
 
@@ -46,7 +46,7 @@ The various tabs and sub-tabs of the campaign template allow you to access its s
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
-## Configure a campaign template {#configuring-a-campaign-template}
+## Configuring a campaign template {#configuring-a-campaign-template}
 
 Campaigns are based on models that share a set of predefined parameters.
 
@@ -163,7 +163,7 @@ When you create a campaign template, you need to enter the following information
 
   >[!NOTE]
   >
-  >For more information on enumerations, refer to the [Get Started](../../platform/using/managing-enumerations.md) section.
+  >For more information on enumerations, refer to the [Getting Started](../../platform/using/managing-enumerations.md) section.
 
 * Select the **type of campaign**: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed here: [Recurring and periodic campaigns](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Specify the duration of the campaign, i.e. the number of days over which the campaign will take place. When creating a campaign based on this template, the campaign start and end dates will be populated automatically.

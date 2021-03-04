@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Additional configurations
-description: Installation additional configurations
+title: Hosted model
+description: Hosted model
 audience: installation
 content-type: reference
-topic-tags: installation-configuration
+topic-tags: hybrid-and-hosted-models
 ---
 
-# Additional configurations{#add-settings}
+# Hosted model{#hosted-model}
 
 As a hosted customer, most of the installation and configuration steps are performed by Adobe. You can access the following sections to customize your implementation:
 

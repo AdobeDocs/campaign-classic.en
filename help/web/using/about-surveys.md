@@ -45,9 +45,9 @@ In Adobe Campaign, Web applications in general let you access the following func
 
 The optional survey creation module (**Survey**) offers the following additional functionalities:
 
-* Dynamic extension of the database: creation of answers which aren't part of the initial data model. For more on this, refer to [Store collected answers](../../web/using/managing-answers.md#storing-collected-answers).
+* Dynamic extension of the database: creation of answers which aren't part of the initial data model. For more on this, refer to [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
 * Score management. For more on this, refer to [Score management](../../web/using/managing-answers.md#score-management).
-* Random displaying of questions. For more on this, refer to [Add questions](../../web/using/building-a-survey.md#adding-questions).
+* Random displaying of questions. For more on this, refer to [Adding questions](../../web/using/building-a-survey.md#adding-questions).
 * Real time tracking of answers. For more on this, refer to [Response tracking](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
 * Generating dedicated reports. For more on this, refer to [Reports on surveys](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 

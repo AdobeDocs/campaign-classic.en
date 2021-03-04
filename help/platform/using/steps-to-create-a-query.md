@@ -73,7 +73,7 @@ The filters offered depend on the table which the query concerns.
 
 Once you select the **[!UICONTROL Filtering conditions]** you will access the **[!UICONTROL Target elements]** section: this lets you define how to filter the data to collect.
 
-* To create a new filter, select the fields, operators and values required for creating the formula to be verified in order for data to be selected. It's possible to combine several conditions (for more on this, refer to [Define filter conditions](../../platform/using/defining-filter-conditions.md)).
+* To create a new filter, select the fields, operators and values required for creating the formula to be verified in order for data to be selected. It's possible to combine several conditions (for more on this, refer to [Defining filter conditions](../../platform/using/defining-filter-conditions.md)).
 * To use previously saved filters, open the drop-down list by clicking the **[!UICONTROL Add]** button, click **[!UICONTROL Predefined filter]** and select the one you want.
 
   ![](assets/query_editor_15.png)
@@ -106,7 +106,7 @@ Once you have configured the restriction filters, you will access the **[!UICONT
 
 >[!NOTE]
 >
->For more information on the types of calculated fields, refer to [Create calculated fields](../../platform/using/defining-filter-conditions.md#creating-calculated-fields).
+>For more information on the types of calculated fields, refer to [Creating calculated fields](../../platform/using/defining-filter-conditions.md#creating-calculated-fields).
 
 Unchecked columns will not be shown in the data preview window.
 

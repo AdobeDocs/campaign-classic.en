@@ -16,7 +16,7 @@ The purpose of this data is to test your messages before their final delivery. T
 
 ![](assets/messagecenter_create_custo_006.png)
 
-This information enables you to personalize message content using personalization tags (for more on this, refer to [Create message content](../../message-center/using/creating-message-content.md)).
+This information enables you to personalize message content using personalization tags (for more on this, refer to [Creating message content](../../message-center/using/creating-message-content.md)).
 
 1. In the message template, click the **[!UICONTROL Seed addresses]** tab.
 1. In the event content, enter the test information in XML format.

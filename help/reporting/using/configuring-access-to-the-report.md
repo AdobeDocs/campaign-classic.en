@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Configure access to the report{#configuring-access-to-the-report}
+# Configuring access to the report{#configuring-access-to-the-report}
 
 ## Report display context {#report-display-context}
 
@@ -54,7 +54,7 @@ The report can also be shared with specific operators or groups of operators add
 
 ![](assets/s_ncs_advuser_report_visibility_8.png)
 
-### Define the filtering options {#defining-the-filtering-options}
+### Defining the filtering options {#defining-the-filtering-options}
 
 The **[!UICONTROL Reports]** universe displays all available reports in the platform and for which the connected operator has an access right.
 
@@ -70,7 +70,7 @@ To define the category of a report, select it via the **[!UICONTROL Display]** t
 
 You can enter a new category here, and add it to the list of available categories. The matching enumeration is updated automatically.
 
-## Create a link to a report {#creating-a-link-to-a-report-}
+## Creating a link to a report {#creating-a-link-to-a-report-}
 
 It's possible to make a report accessible via a specific node of the tree, such as a list, a recipient, a delivery, etc. To do this, simply create a link to the concerned report and specify the entity where you want to make it available.
 
@@ -116,7 +116,7 @@ Specific settings enable you to control errors. The **_uuid** setting is found i
 
 To learn more about these settings, refer to the **Defning web form properties** section of the [Web forms](../../web/using/about-web-forms.md) chapter.
 
-## Publish the report {#publishing-the-report}
+## Publishing the report {#publishing-the-report}
 
 Publishing the report is mandatory in order to share them with other operators and display them in the list of available reports (also refer to [Report display context](#report-display-context)). This operation must be carried out again each time the report is changed.
 

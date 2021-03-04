@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-direct-mail
 ---
 
-# Validate direct mail{#validating}
+# Validating{#validating}
 
 Global concepts when validating a delivery are presented in [this section](../../delivery/using/steps-validating-the-delivery.md).
 
@@ -16,7 +16,7 @@ The output file of a direct mail delivery is generated during the delivery analy
 
 >[!NOTE]
 >
->The analysis phase is detailed in [Analyze the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+>The analysis phase is detailed in [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 During the analysis phase, the file is generated but information concerning recipients (i.e. delivery logs) is not updated. You can therefore cancel this job without running any risks.
 

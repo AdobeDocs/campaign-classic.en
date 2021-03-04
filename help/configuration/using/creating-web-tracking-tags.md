@@ -8,14 +8,14 @@ content-type: reference
 topic-tags: setting-up-web-tracking
 ---
 
-# Create web tracking tags{#creating-web-tracking-tags}
+# Creating web tracking tags{#creating-web-tracking-tags}
 
 Each page of the site that you wish to track must be referenced in your Adobe Campaign platform. This referencing can be performed in two ways:
 
 1. Manual definition of URLs to be tracked,
 1. On-the-fly creation of URLs to be tracked.
 
-## Define the URLs to be tracked in the application {#defining-the-urls-to-be-tracked-in-the-application}
+## Defining the URLs to be tracked in the application {#defining-the-urls-to-be-tracked-in-the-application}
 
 This method lets you manually define the pages to be tracked and then generate an example of the associated web tracking tag. This operation is defined in the **[!UICONTROL Campaign execution>Resources>Web tracking tags]** node of the client console.
 

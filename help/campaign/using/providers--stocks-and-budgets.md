@@ -12,7 +12,7 @@ topic-tags: orchestrate-campaigns
 
 Adobe Campaign lets you define service providers who will be involved in the jobs carried out within the campaigns. Information concerning the service providers and the related cost structures are defined by the Adobe Campaign administrator from the main view. The service provider is referenced from the delivery, and its cost structures allow the calculation of costs associated with this delivery as well as the management of the stock concerned.
 
-## Create service providers and their cost structures {#creating-service-providers-and-their-cost-structures}
+## Creating service providers and their cost structures {#creating-service-providers-and-their-cost-structures}
 
 Each service provider is saved in a file with contact details, service templates, and related jobs.
 
@@ -22,23 +22,23 @@ The jobs carried out during deliveries are performed by service providers, parti
 
 1. Creation of a service provider in Adobe Campaign
 
-   See [Add a service provider](#adding-a-service-provider).
+   See [Adding a service provider](#adding-a-service-provider).
 
-1. Define cost categories and structures of associated service templates
+1. Defining cost categories and structures of associated service templates
 
-   See [Define cost categories](#defining-cost-categories) and [Define the cost structure](#defining-the-cost-structure).
+   See [Defining cost categories](#defining-cost-categories) and [Defining the cost structure](#defining-the-cost-structure).
 
-1. Configure processes
+1. Configuration of processes
 
-   See [Configure processes associated with a service](#configuring-processes-associated-with-a-service).
+   See [Configuring processes associated with a service](#configuring-processes-associated-with-a-service).
 
-1. Reference the service provider at the campaign level
+1. Referencing the service provider at the campaign level
 
-   See [Associate a service with a campaign](#associating-a-service-with-a-campaign).
+   See [Associating a service with a campaign](#associating-a-service-with-a-campaign).
 
-### Create a service provider and its cost categories {#creating-a-service-provider-and-its-cost-categories}
+### Creating a service provider and its cost categories {#creating-a-service-provider-and-its-cost-categories}
 
-#### Add a service provider {#adding-a-service-provider}
+#### Adding a service provider {#adding-a-service-provider}
 
 You can create as many service providers as necessary for your deliveries. The procedure for adding a service provider is as follows:
 
@@ -49,13 +49,13 @@ You can create as many service providers as necessary for your deliveries. The p
 
 1. Click the **[!UICONTROL Save]** button to add the service provider to the list.
 
-#### Define cost categories {#defining-cost-categories}
+#### Defining cost categories {#defining-cost-categories}
 
 You must associate service templates with each service provider. In these templates, you must first identify the cost categories and if necessary the stock concerned. You must then create the cost calculation rules for each category, via the cost structures.
 
 >[!NOTE]
 >
->For more on this, refer to [Define the cost structure](#defining-the-cost-structure).
+>For more on this, refer to [Defining the cost structure](#defining-the-cost-structure).
 
 A cost category is an entity containing a set of costs eligible for a type of delivery (email, direct mail, etc.) or for a task. Cost categories are grouped in the templates of services associated with the service providers. Each service provider can reference one or more service templates.
 
@@ -86,7 +86,7 @@ To create a service template and define its content, apply the following steps:
 
    ![](assets/s_ncs_user_supplier_default_cost.png)
 
-### Define the cost structure {#defining-the-cost-structure}
+### Defining the cost structure {#defining-the-cost-structure}
 
 For each type of cost, a cost structure specifies the calculation rules to be applied.
 
@@ -132,7 +132,7 @@ Finally, you can configure a cost calculation according to the total number of m
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_04.png)
 
-### Configure processes associated with a service {#configuring-processes-associated-with-a-service}
+### Configuring processes associated with a service {#configuring-processes-associated-with-a-service}
 
 You can associate information on the processes associated with the service via the **[!UICONTROL Processes]** tab.
 
@@ -150,7 +150,7 @@ To do this, click the **[!UICONTROL Processes]** tab to configure the sending of
 
 * The **[!UICONTROL Post-processing]** section lets you select the workflow to launch after the delivery has been approved. If a workflow template is entered, a workflow instance will automatically be created and then launched as soon as approval takes effect. This workflow can send the extraction file to an external service provider for processing, for example.
 
-### Associate a service with a campaign {#associating-a-service-with-a-campaign}
+### Associating a service with a campaign {#associating-a-service-with-a-campaign}
 
 Services are associated with campaigns via deliveries or tasks. Service providers are linked to delivery templates to offer their services in the deliveries created via this template.
 
@@ -183,15 +183,15 @@ The procedure for setting up stock and order management in Adobe Campaign, and a
 
 1. Stock creation and referencing of associated service providers
 
-   See [Create a stock](#creating-a-stock).
+   See [Creating a stock](#creating-a-stock).
 
 1. Adding stock lines
 
-   See [Add stock lines](#adding-stock-lines).
+   See [Adding stock lines](#adding-stock-lines).
 
 1. Notifying operators in the event of an alert
 
-   See [Alert operators](#alerting-operators).
+   See [Alerting operators](#alerting-operators).
 
 1. Orders and supply.
 
@@ -203,7 +203,7 @@ Adobe Campaign can alert a group of operators if stock has run out or reached a 
 
 ![](assets/s_ncs_user_stocks_view.png)
 
-#### Create a stock {#creating-a-stock}
+#### Creating a stock {#creating-a-stock}
 
 Apply the following steps to create a new stock:
 
@@ -214,9 +214,9 @@ Apply the following steps to create a new stock:
 
    >[!NOTE]
    >
-   >For more on this, refer to [Create service providers and their cost structures](#creating-service-providers-and-their-cost-structures).
+   >For more on this, refer to [Creating service providers and their cost structures](#creating-service-providers-and-their-cost-structures).
 
-#### Add stock lines {#adding-stock-lines}
+#### Adding stock lines {#adding-stock-lines}
 
 A stock comprises various stock lines. A stock line contains an initial quantity of resources which will be consumed by deliveries. Each stock line indicates the quantity consumed, the quantity in stock, and the quantity ordered.
 
@@ -236,7 +236,7 @@ Click the **[!UICONTROL Create]** button to define the stock parameters.
 
 * Indicate the threshold from which operators should be alerted to order stock in the **[!UICONTROL Alert level]** field. When the alert level if reached, a warning message is displayed in the approval window of deliveries using this stock.
 
-#### Associate a stock with cost categories {#associating-a-stock-with-cost-categories}
+#### Associating a stock with cost categories {#associating-a-stock-with-cost-categories}
 
 For a given service provider, in a service, a stock line can be referenced by one of the cost categories, as follows:
 
@@ -244,7 +244,7 @@ For a given service provider, in a service, a stock line can be referenced by on
 
 ### Stock tracking {#stock-tracking}
 
-#### Alert operators {#alerting-operators}
+#### Alerting operators {#alerting-operators}
 
 An alert is displayed when a stock referenced in a delivery is insufficient. For example, the following alert will be displayed when an extraction file is approved:
 
@@ -270,7 +270,7 @@ The **[!UICONTROL Consumptions]** tab contains the volume consumed per campaign.
 
 ![](assets/s_ncs_user_stocks_edit_from_board_consumed.png)
 
-## Calculate budgets {#calculating-budgets}
+## Calculating budgets {#calculating-budgets}
 
 ### Principle {#principle}
 
@@ -280,9 +280,9 @@ The delivery costs for a campaign are consolidated at the campaign level and the
 
 ### Implementation {#implementation}
 
-In a campaign, when you select the budget you must enter the initial amount. The calculated costs will be updated automatically according to the commitment level of the amounts entered (expenses made, expected, reserved, committed). See [Calculate amounts](../../campaign/using/controlling-costs.md#calculating-amounts).
+In a campaign, when you select the budget you must enter the initial amount. The calculated costs will be updated automatically according to the commitment level of the amounts entered (expenses made, expected, reserved, committed). See [Calculating amounts](../../campaign/using/controlling-costs.md#calculating-amounts).
 
 >[!NOTE]
 >
->The procedure for creating budgets is presented in [Create a budget](../../campaign/using/controlling-costs.md#creating-a-budget).
+>The procedure for creating budgets is presented in [Creating a budget](../../campaign/using/controlling-costs.md#creating-a-budget).
 

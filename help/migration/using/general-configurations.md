@@ -276,7 +276,7 @@ allowSQLInjection="false"
 
 Below you will find comparative examples between the old and new syntax.
 
-**Filter by sub-queries**
+**Filtering by sub-queries**
 
 * Former syntax:
 
@@ -480,7 +480,7 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
 $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 ```
 
-## Interaction module {#interaction}
+## Interaction {#interaction}
 
 ### Prerequisites {#prerequisites}
 
@@ -608,11 +608,11 @@ Here is the procedure to follow after having moved the offer content if you only
 
 ## Reports {#reports}
 
-### Built-in reports {#standard-reports}
+### Standard reports {#standard-reports}
 
 All standard reports currently use rendering engine v6.x. If you had added JavaScript into these reports, certain elements may no longer work. Indeed, the old version of JavaScript is not compatible with the v6.x rendering engine. You must therefore check the JavaScript code and later adapt it. You should test every report, particularly the exporting function.
 
-### Customized reports {#personalized-reports}
+### Personalized reports {#personalized-reports}
 
 <!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 

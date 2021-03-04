@@ -10,7 +10,7 @@ topic-tags: introduction
 
 # Event description{#event-description}
 
-## Transactional messaging data model {#about-transactional-messaging-datamodel}
+## About the transactional messaging data model {#about-transactional-messaging-datamodel}
 
 Transactional messaging relies on the Adobe Campaign data model, and uses two additional separate tables. These [tables](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** and **NmsBatchEvent**, contain the same fields and let you manage real time events on the one hand and batch events on the other.
 

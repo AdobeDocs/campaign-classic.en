@@ -26,6 +26,6 @@ Interaction lets you create and manage a catalog of offers, and configure the el
 
 | Useful pages | Additional resources |
 |---|---|
-| [Interaction implementation steps](../../interaction/using/implementation-steps.md) | [Test offer distribution](../../interaction/using/about-offers-simulation.md) |
-| [Live/Design environments](../../interaction/using/live-design-environments.md) | [Add an offer in an email](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
-| [Create offer spaces](../../interaction/using/creating-offer-spaces.md) |  [Use case: add an offer in a website](../../interaction/using/offers-on-an-inbound-channel.md)  |
+| [Interaction implementation steps](../../interaction/using/implementation-steps.md) | [Testing offer distribution](../../interaction/using/about-offers-simulation.md) |
+| [Live/Design environments](../../interaction/using/live-design-environments.md) | [Adding an offer in an email](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [Creating offer spaces](../../interaction/using/creating-offer-spaces.md) |  [Use case: add an offer in a website](../../interaction/using/offers-on-an-inbound-channel.md)  |

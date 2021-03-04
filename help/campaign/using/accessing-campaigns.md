@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: distributed-marketing
 ---
 
-# Access campaigns{#accessing-campaigns}
+# Accessing campaigns{#accessing-campaigns}
 
 Once a campaign has been ordered, the order has been approved, and the availability date reached, it can be executed.
 
 Depending on the campaign type and the options selected, the campaign is executed locally or centrally.
 
-## Access the campaign {#accessing-the-campaign}
+## Accessing the campaign {#accessing-the-campaign}
 
 Once the order is approved and the availability date reached, the campaign is created locally and can be used. Local operators are notified of its availability.
 

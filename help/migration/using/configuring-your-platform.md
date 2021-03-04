@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: migration-procedure
 ---
 
-# Adapt your configuration{#configuring-your-platform}
+# Configuring your platform{#configuring-your-platform}
 
 Certain major changes in Adobe Campaign v7 require a configuration to ensure its effective operation. These parameters may be necessary before or after migrating. The concerned changes and their configuration mode are presented in this section.
 

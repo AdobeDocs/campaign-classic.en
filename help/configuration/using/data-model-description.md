@@ -5,7 +5,7 @@ title: Adobe Campaign Classic data model description
 description: This document describes the Adobe Campaign Classic data model.
 audience: configuration
 content-type: reference
-topic-tags: datamodel
+topic-tags: schema-reference
 ---
 
 # Campaign data model description{#data-model-description}
@@ -20,7 +20,7 @@ To access the description of each table, go to **[!UICONTROL Admin > Configurati
 >
 >The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
 
-## Overview of the main tables {#description-main-tables}
+## Description of the main tables {#description-main-tables}
 
 Adobe Campaign relies on a relational database containing tables that are linked together.
 
@@ -100,7 +100,7 @@ The tree is managed by the iParentId and iChildCount fields. The sFullName field
 
 ## Delivery and tracking {#delivery-and-tracking}
 
-This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitor deliveries](../../delivery/using/about-delivery-monitoring.md). For more on tracking, see [Track messages](../../delivery/using/about-message-tracking.md).
+This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/about-delivery-monitoring.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 
@@ -108,7 +108,7 @@ This set of tables is linked to the **Delivery** module, which allows to monitor
 
 ## Campaign management {#campaign-management}
 
-This set of tables is linked to the **Marketing campaigns** module, which allows to define, optimize, execute and analyze communications and marketing campaigns. For more on this, see [this section](../../campaign/using/designing-marketing-campaigns.md).
+This set of tables is linked to the **Marketing campaigns** module, which allows to define, optimize, execute and analyze communications and marketing campaigns. For more on this, see [About marketing campaigns](../../campaign/using/designing-marketing-campaigns.md).
 
 ![](assets/data-model_campaign.png)
 
@@ -124,7 +124,7 @@ This set of tables is linked to the **Marketing campaigns** module, which allows
 
 ## Communication consistency {#communication-consistency}
 
-This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. For more on this, see [this section](../../campaign/using/about-campaign-typologies.md).
+This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. For more on this, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
 
 ![](assets/data-model_typology.png)
 
@@ -136,7 +136,7 @@ This set of tables is linked to the **Campaign Optimization** module, which allo
 
 ## Response management {#response-management}
 
-This set of tables is linked to the **Response Manager** module, which allows to measure the success and profitability of marketing campaigns or offer propositions for all communication channels. For more on this, see [this section](../../campaign/using/about-response-manager.md).
+This set of tables is linked to the **Response Manager** module, which allows to measure the success and profitability of marketing campaigns or offer propositions for all communication channels. For more on this, see [About response manager](../../campaign/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 
@@ -196,7 +196,7 @@ It contains a record representing an individual's reaction to a given hypothesis
 
 ## Simulation and delivery {#simulation-and-delivery}
 
-This set of tables is linked to the **Simulation** module, which allows to test the distribution of offers belonging to a category or an environment before sending your proposition to recipients. [Learn more](../../interaction/using/about-offers-simulation.md).
+This set of tables is linked to the **Simulation** module, which allows to test the distribution of offers belonging to a category or an environment before sending your proposition to recipients. For more on this, see [About offers simulation](../../interaction/using/about-offers-simulation.md).
 
 ![](assets/data-model_simulation.png)
 
@@ -206,7 +206,7 @@ This set of tables is linked to the **Simulation** module, which allows to test 
 
 ## Interaction Module {#interaction-module}
 
-This set of tables is linked to the **Interaction** module, which allows to respond in real time during an interaction with a given contact by making them a single or several adapted offers. [Learn more](../../interaction/using/interaction-and-offer-management.md).
+This set of tables is linked to the **Interaction** module, which allows to respond in real time during an interaction with a given contact by making them a single or several adapted offers. For more on this, see [Interaction and offer management](../../interaction/using/interaction-and-offer-management.md).
 
 * **NmsOffer**: This table matches the **nms:offer** schema. It contains the definition of each marketing offer.
 * **NmsPropositionRcp**: This table matches the **nms:propositionRcp** schema. It contains the cross-channel log of marketing propositions sent to each individual. The record is created when a proposition is prepared or effectively made to an individual.
@@ -218,7 +218,7 @@ This set of tables is linked to the **Interaction** module, which allows to resp
 
 ## Message Center Module {#message-center-module}
 
-The following set of tables is linked to the **Transactional messaging** (Message Center) module, which allows to manage individual and unique communications sent to a user and generated from events triggered from information systems. [Learn more](../../message-center/using/about-transactional-messaging.md).
+The following set of tables is linked to the **Transactional messaging** (Message Center) module, which allows to manage individual and unique communications sent to a user and generated from events triggered from information systems. For more on this, see [About transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
 ### NmsRtEvent {#NmsRtEvent}
 
@@ -244,7 +244,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## NMAC Module {#nmac-module}
 
-This set of tables is linked to the **Mobile App Channel**, which allows to send personalized notifications to iOS and Android terminals via apps. [Learn more](../../delivery/using/about-mobile-app-channel.md).
+This set of tables is linked to the **Mobile App Channel**, which allows to send personalized notifications to iOS and Android terminals via apps. For more on this, see [About mobile app channel](../../delivery/using/about-mobile-app-channel.md).
 
 * **NmsMobileApp**: This table matches the **nms:mobileApp** schema. It contains the mobile applications defined in Adobe Campaign.
 * **NmsAppSubscription**: This table matches the **nms:appSubscription** schema. It contains the subscribers information regarding one or more applications.
@@ -255,7 +255,7 @@ This set of tables is linked to the **Mobile App Channel**, which allows to send
 
 ## Social Marketing Module {#social-marketing-module}
 
-This set of tables is linked to the **Managing social networks** module, which allows to interact with customers and prospects via Facebook and Twitter. [Learn more](../../social/using/about-social-marketing.md).
+This set of tables is linked to the **Managing social networks** module, which allows to interact with customers and prospects via Facebook and Twitter. For more on this, see [About social marketing](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 

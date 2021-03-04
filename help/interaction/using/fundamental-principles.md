@@ -10,7 +10,7 @@ topic-tags: general-operation
 
 # Fundamental principles{#fundamental-principles}
 
-## Deploy environments {#deploying-environments}
+## Deploying environments {#deploying-environments}
 
 There are two environments for each targeting dimension used when managing offers:
 

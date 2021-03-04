@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: event-processing
 ---
 
-# Route towards a template{#routing-towards-a-template}
+# Routing towards a template{#routing-towards-a-template}
 
 Once the message template is published on the execution instance(s), two templates to be linked to a real time or a batch event are automatically generated. The routing step consists of linking an event to the appropriate message template. Linking is based on the event type specified in the properties of the event itself and those of the template.
 

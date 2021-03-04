@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign general architecture
+title: General architecture
 description: General architecture
 audience: production
 content-type: reference

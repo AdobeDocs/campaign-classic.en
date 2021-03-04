@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Create a filter {#creating-a-filter}
+# Creating a filter {#creating-a-filter}
 
 The filters available in Adobe Campaign are defined via filtering conditions which are created using the same operating mode as queries.
 

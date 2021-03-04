@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 ---
 
-# Approve and activate an offer{#approving-and-activating-an-offer}
+# Approving and activating an offer{#approving-and-activating-an-offer}
 
 Once the offer content is complete, you need to approve it for it to be duplicated into the live environment and delivered. Approval concerns the offer content and its eligibility.
 
@@ -16,7 +16,7 @@ The banner on the offer dashboard tells you whether the offer needs to go throug
 
 ![](assets/offer_validate_001.png)
 
-## Approve offer content {#approving-offer-content}
+## Approving offer content {#approving-offer-content}
 
 Approving offer content means selecting the representation(s) that you want to make available in the live environment.
 
@@ -46,7 +46,7 @@ To approve the offer content, apply the following steps:
    >
    >The **[!UICONTROL Content approved]** mention does not mean that all the offer representations have been enabled and approved. It indicates that the content approval process has been achieved, whether all offers have been enabled/approved or not.
 
-## Approve offer eligibility {#approving-offer-eligibility}
+## Approving offer eligibility {#approving-offer-eligibility}
 
 Approving offer eligibility means accepting or rejecting offer weights and the eligibility rules also configured in the offer or inherited from the rules created in the parent category.
 
@@ -98,7 +98,7 @@ Once the approval has been launched, it can be re-launched. To do this, follow t
 
 ![](assets/offer_validate_013.png)
 
-## Publish the offer {#publishing-the-offer}
+## Publishing the offer {#publishing-the-offer}
 
 Once the content and eligibility of an offer have both been approved, the offer is published by a workflow that automatically runs for each offer whose approval cycle has finished. The **[!UICONTROL Offer notification]** workflow also runs every hour in order to synchronize (if necessary) the spaces and categories contained in the offer catalog from the design environment to the live environment.
 
@@ -110,7 +110,7 @@ To display the offer that is available in the live environment, click the offer 
 
 ![](assets/offer_golive_002.png)
 
-## Disable an offer {#disabling-an-offer}
+## Disabling an offer {#disabling-an-offer}
 
 Once the offer is approved, you can disable it.
 

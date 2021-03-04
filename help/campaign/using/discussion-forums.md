@@ -14,13 +14,13 @@ Adobe Campaign operators can use discussion forums to share information. The fol
 
 Operators can subscribe to a forum to receive a notification email each time a message is posted.
 
-## Access a forum {#accessing-a-forum}
+## Accessing a forum {#accessing-a-forum}
 
 To visit the forum of a campaign, an operator, etc., go to its dashboard and click the **[!UICONTROL Forum]** link in the top right-hand corner. This link also gives you the total number of messages in the forum.
 
 ![](assets/mrm_forum_access_link.png)
 
-## Use a forum {#using-a-forum}
+## Using a forum {#using-a-forum}
 
 Messages and their responses are shown in chronological order (from newest to oldest).
 
@@ -42,7 +42,7 @@ To post a message to an existing discussion, open the message that you want to a
 
 When you reply to a message, the person who posted the original message will receive a notification.
 
-**Write a message**
+**Writing a message**
 
 In the **[!UICONTROL Discussion forum]** box:
 
@@ -61,7 +61,7 @@ In the **[!UICONTROL Discussion forum]** box:
 >
 >Once a message has been posted to the forum, it can no longer be changed or deleted.
 
-## Post to the personal forum of an operator {#posting-to-the-personal-forum-of-an-operator}
+## Posting to the personal forum of an operator {#posting-to-the-personal-forum-of-an-operator}
 
 You can post a message to the forum of an operator if, for instance, your message doesn't concern a specific campaign but you still want to keep track of the conversation in Adobe Campaign. Personal forums are public and all operators will see your message. The operator receives a message each time someone posts to their personal forum.
 
@@ -70,7 +70,7 @@ To access an operator's forum:
 * If you have the necessary rights to access the **[!UICONTROL Administration > Access management > Operators]** node of the explorer, open the dashboard of the desired operator and click the **[!UICONTROL Forum]** link in the top right-hand corner.
 * If not, find the name of the operator in Adobe Campaign (via a message posted to the forum by this operator, a task being assigned to him) and click on it to access their dashboard. You can also ask your administrator to create a view of the operator folder.
 
-## Subscribe to a forum {#subscribing-to-a-forum}
+## Subscribing to a forum {#subscribing-to-a-forum}
 
 Subscribing to a forum lets you follow discussions. You will receive an email notification each time a message is posted to the forum. This email will contain the message body and any attachments. To answer a message, click in the email body, then log in to the Adobe Campaign web interface. When you subscribe to a forum, this information is visible to all.
 
@@ -94,7 +94,7 @@ Subscribing to a forum lets you follow discussions. You will receive an email no
 
   ![](assets/mrm_forum_subscribers.png)
 
-## Check notification delivery {#checking-notification-delivery}
+## Checking notification delivery {#checking-notification-delivery}
 
 If operators subscribed to a forum aren't receiving notifications as expected:
 

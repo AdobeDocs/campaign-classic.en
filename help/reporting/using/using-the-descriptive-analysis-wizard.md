@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: analyzing-populations
 ---
 
-# Use the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
+# Using the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
 
 To create a descriptive analysis report, use the dedicated wizard. Configuration depends on the data to be analyzed and on the desired rendering.
 
-## Analyze data in the database {#analyzing-data-in-the-database}
+## Analyzing data in the database {#analyzing-data-in-the-database}
 
 The descriptive analysis wizard can be launched via the **[!UICONTROL Tools > Descriptive analysis]** menu: in this case, the analysis concerns recipients by default (**nms:recipient**). It applies to all the data in the Adobe Campaign database.
 
@@ -28,7 +28,7 @@ If you want to produce statistics on part of the data, you can define a filter: 
 
 The analysis will only concern database recipients aged 16 and over and living in London.
 
-## Analyze a set of data {#analyzing-a-set-of-data}
+## Analyzing a set of data {#analyzing-a-set-of-data}
 
 You can use the descriptive analysis wizard via a different context: a list, a workflow transition, one or more deliveries, a selection of recipients, etc.
 
@@ -44,19 +44,19 @@ Open the descriptive analysis wizard by selecting items and right-clicking. Only
 
   For an example of the descriptive analysis of recipients, refer to: [Qualitative data analysis](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
-* In the context of a **workflow**, place the cursor on a transition that points towards the recipients table, right-click and select **[!UICONTROL Analyze target]**. For more on this, refer to the example in [Analyze a transition target in a workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
+* In the context of a **workflow**, place the cursor on a transition that points towards the recipients table, right-click and select **[!UICONTROL Analyze target]**. For more on this, refer to the example in [Analyzing a transition target in a workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
 * For **lists**, select one or more lists and apply the same process as for recipients.
 * In the context of a **delivery**, select the deliveries whose target you want to analyze, right-click and select **[!UICONTROL Actions > Explore the target]**, as shown below:
 
   ![](assets/reporting_descriptive_from_deliveries.png)
 
-  Examples of descriptive analyses for deliveries are provided here: [Analyze a population](../../reporting/using/use-cases.md#analyzing-a-population) and here: [Analyze recipient tracking logs](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+  Examples of descriptive analyses for deliveries are provided here: [Analyzing a population](../../reporting/using/use-cases.md#analyzing-a-population) and here: [Analyzing recipient tracking logs](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
-## Configure the qualitative distribution template {#configuring-the-qualitative-distribution-template}
+## Configuring the qualitative distribution template {#configuring-the-qualitative-distribution-template}
 
 The **[!UICONTROL Qualitative distribution]** template lets you create statistics on all types of data (e.g. company name, email domain).
 
-Configuration options available for a report created via the **[!UICONTROL Qualitative distribution]** template are detailed in [Display data in the table](#displaying-data-in-the-table). A full example is detailed in [Analyze a population](../../reporting/using/use-cases.md#analyzing-a-population).
+Configuration options available for a report created via the **[!UICONTROL Qualitative distribution]** template are detailed in [Displaying data in the table](#displaying-data-in-the-table). A full example is detailed in [Analyzing a population](../../reporting/using/use-cases.md#analyzing-a-population).
 
 When you use the descriptive analysis wizard to analyze your data, the available options depend on the chosen settings. These are detailed below.
 
@@ -101,7 +101,7 @@ The options will differ depending on the content of the field:
 
   ![](assets/reporting_descriptive_initialize_modulo_result.png)
 
-### Display data in the table {#displaying-data-in-the-table}
+### Displaying data in the table {#displaying-data-in-the-table}
 
 Use the toolbar to personalize the display of variables in the table: delete a column, display data in lines rather than columns, move a column to the left or right, view or alter value calculation.
 
@@ -111,7 +111,7 @@ The upper section of the window lets you select the display settings.
 
 You can display or hide the name of the statistics and the sub-totals and choose the orientation of the statistics. For more on this, refer to [Analysis report display settings](../../reporting/using/processing-a-report.md#analysis-report-display-settings).
 
-### Display data in the chart {#displaying-data-in-the-chart}
+### Displaying data in the chart {#displaying-data-in-the-chart}
 
 In the first step of the descriptive analysis wizard, you can choose to display the data in chart form only, without a table. In this case, variable selection must be done when configuring the graphic. You must first select the number of variables to display and select the fields from the relevant database. 
 
@@ -175,7 +175,7 @@ The following operations are possible:
     
        ![](assets/report_compute_data_sample4.png)
 
-### Display the report {#displaying-the-report}
+### Displaying the report {#displaying-the-report}
 
 The last step of the wizard lets you display the report, i.e. the table or the chart as they have been configured.
 
@@ -191,7 +191,7 @@ When the report includes a chart, the labels of the legend let you filter the di
 
 ![](assets/report_display_data_in_graph.png)
 
-## Configure the quantitative distribution template {#configuring-the-quantitative-distribution-template}
+## Configuring the quantitative distribution template {#configuring-the-quantitative-distribution-template}
 
 To generate a descriptive analysis yourself, select the **New descriptive analysis from a template** option if it isn't set by default.
 
@@ -227,5 +227,5 @@ The following operations are possible:
 
   ![](assets/reporting_descriptive_view_report.png)
 
-  To make changes to the report, refer to [Process a report](../../reporting/using/processing-a-report.md).
+  To make changes to the report, refer to [Processing a report](../../reporting/using/processing-a-report.md).
 

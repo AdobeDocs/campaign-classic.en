@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Template unpublication
-description: Learn how to unpublish a message template
+title: Template publication
+description: Template publication
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 ---
 
-# Unpublish a template{#template-unpublication}
+# Template unpublication{#template-unpublication}
 
 Once a message template is published on the execution instances, it can be unpublished. For more on the template publication process, see [this section](../../message-center/using/template-publication.md).
 

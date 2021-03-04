@@ -14,13 +14,13 @@ topic-tags: campaign-release-notes, latest-release-notes
 
 ## ![](assets/do-not-localize/green_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
-_22 December 2020_
+_December 22, 2020_
 
 >[!CAUTION]
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 31, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloug Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
 
 
 **Improvements**
@@ -40,7 +40,7 @@ _22 December 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
-_11 September 2020_
+_September 11, 2020_
 
 * Fixed a regression causing delivery preparation to be blocked due to a single erroneous function on delivery part leading to memory overload. (NEO-27346)
 * Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
@@ -53,7 +53,7 @@ _11 September 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
-_22 July 2020_
+_July 22, 2020_
 
 * Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
 * Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
@@ -78,7 +78,7 @@ _22 July 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
-_8 June 2020_
+_June 8, 2020_
 
 **What's new?**
 

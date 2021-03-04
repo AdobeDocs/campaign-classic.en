@@ -201,7 +201,7 @@ These messages will be delivered as quickly as possible.
 
    ![](assets/s_ncs_traffic_shaping.png)
 
-### Configure MX management {#configuring-mx-management}
+### Configuring MX management {#configuring-mx-management}
 
 The rules to be complied with for MX are defined in the **[!UICONTROL MX management]** document of the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** node of the tree.
 
@@ -222,7 +222,7 @@ To reload the configuration without restarting the statistics server, use the fo
 >
 >This command line is preferred to **nlserver restart**. It prevents statistics collected before the restart being lost and avoids peaks in use which can go against quotas defined in the MX rules.
 
-### Configure MX rules {#configuring-mx-rules}
+### Configuring MX rules {#configuring-mx-rules}
 
 The **[!UICONTROL MX management]** document lists all domains that are linked to an MX rule.
 
@@ -295,7 +295,7 @@ Configuration example:
 
 ![](assets/s_ncs_install_mx_mgt_rule_details.png)
 
-### Manage email formats {#managing-email-formats}
+### Managing email formats {#managing-email-formats}
 
 You can define the format of sent messages, so that the content displayed automatically adapts according to the domain of each recipient's address.
 

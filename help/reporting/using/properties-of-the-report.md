@@ -30,7 +30,7 @@ In the **[!UICONTROL General]** tab of the report properties, you can edit the s
 
 * The **Access control** parameters. These settings are described below.
 
-## Control access to the report {#report-accessibility}
+## Controlling access to the report {#report-accessibility}
 
 A report can be accessed in the Adobe Campaign console or with a web browser. In this case, it can be necessary to configure the report access control as shown below.
 
@@ -45,7 +45,7 @@ Possible options are:
 * **[!UICONTROL Access control]**: this option enables Adobe Campaign operators to access it once they are logged on.
 * **[!UICONTROL Specific account]**: this option lets you execute the report with the rights of the operator selected in the **[!UICONTROL Operator]** field.
 
-## Manage report localization {#managing-report-localization}
+## Managing report localization {#managing-report-localization}
 
 You can configure the languages which you want the report to be translated into. To do this, click the **[!UICONTROL Localization]** tab.
 
@@ -59,7 +59,7 @@ The editing language is the language which you write in. When you add a language
 >
 >For more on web page localization in Campaign, refer to [this section](../../web/using/translating-a-web-form.md).
 
-## Personalize HTML rendering {#personalizing-html-rendering}
+## Personalizing HTML rendering {#personalizing-html-rendering}
 
 In the **[!UICONTROL Rendering]** tab, you can personalize the data display mode for the page. You can select:
 
@@ -70,10 +70,10 @@ In the **[!UICONTROL Rendering]** tab, you can personalize the data display mode
 
 ![](assets/s_ncs_advuser_report_properties_08.png)
 
-## Personalize the error page {#personalizing-the-error-page}
+## Personalizing the error page {#personalizing-the-error-page}
 
 The **[!UICONTROL Error page]** tab lets you configure the message that will come up in case of an error in the report display.
 
-You can define texts and link them to specific identifiers to manage report localization. For more on this, refer to [Add a header and a footer](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+You can define texts and link them to specific identifiers to manage report localization. For more on this, refer to [Adding a header and a footer](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 ![](assets/s_ncs_advuser_report_properties_11.png)

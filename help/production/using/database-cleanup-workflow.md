@@ -10,7 +10,7 @@ topic-tags: data-processing
 
 # Database cleanup workflow{#database-cleanup-workflow}
 
-## What is the database cleanup workflow {#introduction}
+## Introduction {#introduction}
 
 The **[!UICONTROL Database cleanup]** workflow accessible via the **[!UICONTROL Administration > Production > Technical workflows]** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention.
 

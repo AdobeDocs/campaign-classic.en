@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Create a profile list with a workflow
+title: Creating a profile list with a workflow
 description: Learn how to create a profile list in a workflow
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 ---
 
-# Create a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
+# Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
 
 To create a **[!UICONTROL List]** type list based on the new recipient table, you need to create a targeting workflow which will generate the list. 
 

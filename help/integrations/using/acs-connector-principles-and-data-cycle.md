@@ -80,7 +80,7 @@ ACS Connector synchronizes quarantines between Campaign v7 and Campaign Standard
 
 For example, a profile that has been replicated from Campaign v7 to Campaign Standard includes an email address. If the email address is quarantined by Campaign Standard, the data is passed to Campaign v7 during the next synchronization. For more information on quarantines, see [Quarantine management](../../delivery/using/understanding-quarantine-management.md) and [Campaign Standard Quarantines](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
-### Use replicated profiles {#using-replicated-profiles}
+### Using replicated profiles {#using-replicated-profiles}
 
 Replicated profiles can be used by Campaign Standard and Campaign v7 for targeting workflows in marketing campaigns.
 
@@ -115,7 +115,7 @@ The **basic implementation** allows you to replicate recipients (out-of-the-box 
 
 The **advanced implementation** will allow you to perform more complex use cases, for example if you have additional recipient fields or custom recipient tables (transaction table for example). See [Advanced implementation](#advanced-implementation).
 
-### Install the package {#installing-the-package}
+### Installing the package {#installing-the-package}
 
 To use the feature, the **[!UICONTROL ACS Connector]** package needs to be installed. This is always performed by the Adobe technical administrator or consultant.
 
@@ -288,7 +288,7 @@ The advanced implementation will add custom replication workflows, depending on 
 * Transactional replication
 * etc.
 
-**Replicate extended fields on recipients**
+**Replicating extended fields on recipients**
 
 With the basic implementation, the out-of-the-box recipient fields are replicated. If you want to replicate custom fields that you added to the recipient schema, you need to identify them.
 
@@ -306,7 +306,7 @@ With the basic implementation, the out-of-the-box recipient fields are replicate
 
    ![](assets/acs_connect_implementation_9.png)
 
-**Replicate custom profile tables**
+**Replicating custom profile tables**
 
 With the basic implementation, the out-of-the-box recipient table is replicated. If you added custom recipient tables, here is how you identify them.
 

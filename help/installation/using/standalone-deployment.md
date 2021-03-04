@@ -113,7 +113,7 @@ Apply the following steps:
     
       ![](assets/install_create_new_connexion.png)
 
-      For more on this, refer to [Create an instance and log on](../../installation/using/creating-an-instance-and-logging-on.md).
+      For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 
       or
     
@@ -123,7 +123,7 @@ Apply the following steps:
       nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
       ```    
     
-      For more on this, refer to [Create an instance](../../installation/using/command-lines.md#creating-an-instance).
+      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
 
 1. Edit the **config-demo.xml** file (created in the previous step next to **config-default.xml**) and make sure the **mta** (delivery), **wfserver** (workflow), **inMail** (bounce mails) and **stat** (statistics) processes are enabled. Then configure the address of the statistics server:
 
@@ -161,7 +161,7 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#client-console-availability-for-linux)
+    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 1. Follow the Web server integration procedure (IIS, Apache) described in the following sections:
@@ -211,12 +211,12 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#client-console-availability-for-linux)
+    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 1. Start the Adobe Campaign client console (from the previous download page or launched directly on the server for a Windows installation), set the server connection URL to https://console.campaign.net and connect using the **internal** login.
 
-   Refer to [Create an instance and log on](../../installation/using/creating-an-instance-and-logging-on.md) and [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   Refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md) and [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
    The database creation wizard appears when you log in for the first time:
 
@@ -224,13 +224,13 @@ Apply the following steps:
 
    Follow the steps in the wizard and create the database associated with the connection instance.
 
-   For more on this, refer to [Create and configure the database](../../installation/using/creating-and-configuring-the-database.md).
+   For more on this, refer to [Creating and configuring the database](../../installation/using/creating-and-configuring-the-database.md).
 
    Once the database is created, log off.
 
 1. Log back on to the client console using the **admin** login without a password and start the deployment wizard ( **[!UICONTROL Tools > Advanced]** menu) to finish configuring the instance.
 
-   For more on this, refer to [Deploy an instance](../../installation/using/deploying-an-instance.md).
+   For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 
    The main parameters to set are the following:
 

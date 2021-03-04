@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 ---
 
-# Understand quarantine management{#understanding-quarantine-management}
+# Understanding quarantine management{#understanding-quarantine-management}
 
 ## About quarantines {#about-quarantines}
 
@@ -18,9 +18,9 @@ Adobe Campaign manages a list of quarantined addresses. Recipients whose address
 >
 >This section applies to online channels: email, SMS, push notification.
 
-### Optimize your delivery through quarantines {#optimizing-your-delivery-through-quarantines}
+### Optimizing your delivery through quarantines {#optimizing-your-delivery-through-quarantines}
 
-The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identify quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
+The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
 Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
 
@@ -38,15 +38,15 @@ Being on the **denylist**, on the other hand, will result in the profile no long
 >
 >When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. The profile phone number is sent to quarantine, so that the user continues receiving email messages.
 
-## Identify quarantined addresses {#identifying-quarantined-addresses}
+## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
 Quarantined addresses can be listed for a specific delivery or for the entire platform.
 
-### Identify quarantined addresses for a delivery {#identifying-quarantined-addresses-for-a-delivery}
+### Identifying quarantined addresses for a delivery {#identifying-quarantined-addresses-for-a-delivery}
 
 Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard (see [Delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)).
 
-### Identify quarantined addresses for the entire platform {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifying quarantined addresses for the entire platform {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Administrators can list the addresses in quarantine for the entire platform from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
 
@@ -66,7 +66,7 @@ The following information is available for each address:
 >
 >End of Year 2: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
-### Identify quarantined addresses in delivery reports {#identifying-quarantined-addresses-in-delivery-reports}
+### Identifying quarantined addresses in delivery reports {#identifying-quarantined-addresses-in-delivery-reports}
 
 The following reports provide information about the addresses in quarantine:
 
@@ -80,13 +80,13 @@ The following reports provide information about the addresses in quarantine:
 
 You can look up this information for all deliveries of the platform (**[!UICONTROL Home page > Reports]**) or for a specific delivery. You can also create customized reports and select the information to be displayed.
 
-### Identify quarantined addresses for a recipient {#identifying-quarantined-addresses-for-a-recipient}
+### Identifying quarantined addresses for a recipient {#identifying-quarantined-addresses-for-a-recipient}
 
 You can look up the status of the email address of any recipient. To do this, select the recipient profile and click the **[!UICONTROL Deliveries]** tab. For all deliveries to that recipient, you can find out whether the address failed, was quarantined during analysis, etc. For each folder, you can display only the recipients whose email address is in quarantine. To do this, use the **[!UICONTROL Quarantined email address]** application filter.
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### Remove a quarantined address {#removing-a-quarantined-address}
+### Removing a quarantined address {#removing-a-quarantined-address}
 
 If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the **[!UICONTROL Database cleanup]** workflow.
 

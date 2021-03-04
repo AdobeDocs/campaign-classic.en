@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: web-forms
 ---
 
-# Define web forms layout{#defining-web-forms-layout}
+# Defining web forms layout{#defining-web-forms-layout}
 
-## Create containers {#creating-containers}
+## Creating containers {#creating-containers}
 
 Containers let you combine the fields of a page and configure their layout; to organize the elements in the page.
 
@@ -30,7 +30,7 @@ In the above example, the rendering will be as follows:
 
 ![](assets/s_ncs_admin_survey_containers_std_ex.png)
 
-## Position the fields on the page {#positioning-the-fields-on-the-page}
+## Positioning the fields on the page {#positioning-the-fields-on-the-page}
 
 The layout of the Web form is defined page by page in each container and can be overloaded if needed.
 
@@ -66,7 +66,7 @@ The title and the list occupy one cell each (and therefore an entire line of the
 
 ![](assets/s_ncs_admin_survey_container_ex2.png)
 
-## Define the position of labels {#defining-the-position-of-labels}
+## Defining the position of labels {#defining-the-position-of-labels}
 
 You can define the alignment of fields and labels in the form.
 

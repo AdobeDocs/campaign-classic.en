@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-html-content
 ---
 
-# Use case: create an email delivery{#use-case-creating-an-email-delivery}
+# Use case: creating an email delivery{#use-case-creating-an-email-delivery}
 
 In this use case, you will learn steps to design an email delivery using Adobe Campaign Digital Content Editor (DCE).
 
@@ -25,19 +25,19 @@ Our final goal is to create a delivery with a personalized template which contai
 >
 >In the delivery **[!UICONTROL Properties]**, make sure that the **[!UICONTROL Content editing mode]** (in the **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]**. To ensure the editor's optimal operation, refer to the [Content editing best practices](../../web/using/content-editing-best-practices.md).
 
-## Step 1 - Create a delivery {#step-1---creating-a-delivery}
+## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
 
 To create a new delivery, place your cursor in the **Campaigns** tab and click **Deliveries**. Next click the **Create** button above the list of existing deliveries. For more on creating deliveries, refer to [this page](../../delivery/using/about-email-channel.md).
 
 ![](assets/delivery_step_1.png)
 
-## Step 2 - Select a template {#step-2---selecting-a-template}
+## Step 2 - Selecting a template {#step-2---selecting-a-template}
 
 Select a delivery template, then name your delivery. This name will only be visible to users of the Adobe Campaign console and not by your recipients, however this heading will be displayed in your list of deliveries. Click **[!UICONTROL Continue]**.
 
 ![](assets/dce_delivery_model.png)
 
-## Step 3 - Select a content {#step-3---selecting-a-content}
+## Step 3 - Selecting a content {#step-3---selecting-a-content}
 
 The Digital Content Editor comes with various out-of-the-box templates with varying structures (columns, text areas, etc.).
 
@@ -55,7 +55,7 @@ You can save this content as a template for future use. Once a personalized cont
 >
 >If you are using the **Adobe Campaign web interface**, you must import a .zip file containing the HTML content and related images.
 
-## Step 4 - Design the message {#step-4---designing-the-message}
+## Step 4 - Designing the message {#step-4---designing-the-message}
 
 * Display the first and second names of your recipients
 
@@ -65,7 +65,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Insert a link into an image
 
-  To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]**. For more on this, refer to [Add a link](../../web/using/editing-content.md#adding-a-link).
+  To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]**. For more on this, refer to [Adding a link](../../web/using/editing-content.md#adding-a-link).
 
   ![](assets/dce_externalpage.png)
 
@@ -75,7 +75,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Insert a link into text
 
-  To integrate an external link into the text in your delivery, select some text or a block of text then click on the first icon in the pop-up toolbar. Click **[!UICONTROL Link to an external URL]**, enter the link address into the **[!UICONTROL URL]** field. For more on this, refer to [Add a link](../../web/using/editing-content.md#adding-a-link).
+  To integrate an external link into the text in your delivery, select some text or a block of text then click on the first icon in the pop-up toolbar. Click **[!UICONTROL Link to an external URL]**, enter the link address into the **[!UICONTROL URL]** field. For more on this, refer to [Adding a link](../../web/using/editing-content.md#adding-a-link).
 
   The link can be changed at any time using the section to the right of the window.
 
@@ -109,6 +109,6 @@ You can save this content as a template for future use. Once a personalized cont
   >
   >This step requires you to save at least one Web application beforehand. These can be found in the **[!UICONTROL Campaigns > Web applications]** tab of your console.
 
-## Step 5 - Save the delivery {#step-5---saving-the-delivery}
+## Step 5 - Saving the delivery {#step-5---saving-the-delivery}
 
 Once the content is integrated, save the delivery by clicking **Save**. It will now be displayed in your list of deliveries, found in the **[!UICONTROL Campaigns > Deliveries]** tab.

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: acs-connector
 ---
 
-# ACS Connector troubleshooting{#troubleshooting-the-acs-connector}
+# Troubleshooting the ACS Connector{#troubleshooting-the-acs-connector}
 
 Depending on your implementation, you can face several common issues.
 

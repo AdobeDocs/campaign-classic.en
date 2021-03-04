@@ -49,9 +49,9 @@ This type of configuration can handle a large number of recipients (500,000 to 1
 
 * Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section [Database access](../../installation/using/network-configuration.md#database-access).
 
-### Install the application server {#installing-the-application-server}
+### Installing the application server {#installing-the-application-server}
 
-Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to [Install and configuring (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to [Installing and configuring (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 Since the computer is not a tracking server, do not take the integration with the Web server into account.
 
@@ -62,7 +62,7 @@ In the following examples, the parameters of the instance are:
 * Language: English
 * Database: **campaign:demo@dbsrv**
 
-### Install the two frontal servers {#installing-the-two-frontal-servers}
+### Installing the two frontal servers {#installing-the-two-frontal-servers}
 
 The installation and configuration procedure is identical on both computers.
 
@@ -83,7 +83,7 @@ The steps are as follows:
     
       ![](assets/install_create_new_connexion.png)
 
-      For more on this, refer to [Create an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
+      For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 
       or
     
@@ -93,7 +93,7 @@ The steps are as follows:
       nlserver config -addinstance:demo/tracking.campaign.net*
       ```    
     
-      For more on this, refer to [Create an instance](../../installation/using/command-lines.md#creating-an-instance).
+      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
 
    The name of the instance is the same as that of the application server.
 
@@ -111,7 +111,7 @@ The steps are as follows:
 
 1. In the **config-default.xml** and **config-demo.xml** files, enable the **web**, **trackinglogd** and **mta** modules.
 
-   For more on this, refer to [Enable processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and populate:
 
@@ -152,13 +152,13 @@ The steps are as follows:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Launch the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-    * For Windows: [Launch the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+    * For Linux: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+    * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Start the Adobe Campaign server.
 1. In the Adobe Campaign console, connect using the **admin** login without a password and launch the deployment wizard.
 
-   For more on this, refer to [Deploy an instance](../../installation/using/deploying-an-instance.md).
+   For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 
    Configuration is identical to a standalone instance apart from the configuration of the tracking module.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Monitor workflow execution {#monitoring-workflow-execution}
+# Monitoring workflow execution {#monitoring-workflow-execution}
 
 This section presents information on how to monitor your workflows' execution.
 
@@ -18,7 +18,7 @@ Additionnally, administrators of the instance can use the **Audit trail** to che
 
 Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
 
-## Display progress {#displaying-progress}
+## Displaying progress {#displaying-progress}
 
 You can monitor execution by displaying progress using the appropriate icon on the toolbar.
 
@@ -30,7 +30,7 @@ When this option is selected, executed activities are shown in blue, pending act
 
 ![](assets/s_user_segmentation_results.png)
 
-## Display logs {#displaying-logs}
+## Displaying logs {#displaying-logs}
 
 The log contains the history or audit trail of the workflow. It registers all user actions, all operations performed and errors encountered. You can:
 
@@ -88,7 +88,7 @@ The log shows the chronological list of execution messages related to targeting 
 
        The log is shown in a separate window.
 
-## Purge logs {#purging-the-logs}
+## Purging the logs {#purging-the-logs}
 
 Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]**. The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](../../workflow/using/starting-a-workflow.md) section.
 
@@ -102,7 +102,7 @@ It is also possible to create links between various work dimensions and to defin
 
 The worktables of the workflow are deleted automatically when the workflow passivates. If you wish to keep a work table, save it in a list via the **[!UICONTROL List update]** activity (refer to [List update](../../workflow/using/list-update.md)).
 
-## Manage errors {#managing-errors}
+## Managing errors {#managing-errors}
 
 When an error occurs, the workflow is paused and the activity being executed when the error occurred flashes red. In the workflow overview (**[!UICONTROL Monitoring]** universe > **[!UICONTROL Workflows]** link) you can display workflows with errors only, as shown below.
 
@@ -138,7 +138,7 @@ In this case, the error task is aborted. This mode is particularly suited to wor
 
 For more on workflows' execution troubleshooting, refer to the [dedicated section](../../production/using/workflow-execution.md).
 
-## Process errors {#processing-errors}
+## Processing errors {#processing-errors}
 
 Concerning activities, the **[!UICONTROL Process errors]** option displays a specific transition which will be enabled if an error is generated. In this case, the workflow does not go into error mode and execution continues.
 
@@ -174,7 +174,7 @@ Click the link on a workflow with errors in order to open it and view its log.
 
 ![](assets/wf-monitoring_edit-task-wf.png)
 
-## Prevent simultaneous multiple executions {#preventing-simultaneous-multiple-executions}
+## Preventing simultaneous multiple executions {#preventing-simultaneous-multiple-executions}
 
 A single workflow can have several executions running at the same time. In some cases you should prevent this from happening.
 
@@ -223,7 +223,7 @@ Note that:
   logInfo("Workflow already running, parallel execution not allowed.");
   ```
 
-A use case is presented in this section: [Coordinate data updates](../../workflow/using/coordinating-data-updates.md).
+A use case is presented in this section: [Coordinating data updates](../../workflow/using/coordinating-data-updates.md).
 
 ## Database maintenance {#database-maintenance}
 
@@ -233,7 +233,7 @@ The **Database cleanup** workflow accessible via the **Administration > Producti
 
 You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this [section](../../production/using/application-objects.md) and this [page](#purging-the-logs).
 
-## Handle of paused workflows {#handling-of-paused-workflows}
+## Handling of paused workflows {#handling-of-paused-workflows}
 
 By default, if a workflow is paused, its working tables are never purged. From build 8880, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:
 
@@ -245,7 +245,7 @@ These periods can be configured via the NmsServer_PausedWorkflowPeriod option.
 
 Workflow supervisors are notified. The creator and last user who modified the workflow are notified as well. Administrators don't receive the notifications.
 
-## Filter workflows according to their status {#filtering-workflows-status}
+## Filtering workflows according to their status {#filtering-workflows-status}
 
 Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
 
@@ -254,7 +254,7 @@ The following views are available:
 * **[!UICONTROL Running]**: lists all running workflows.
 * **[!UICONTROL Paused]**: lists all paused workflows.
 * **[!UICONTROL Failed]**: lists all failed workflows.
-* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Install Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md)).
+* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 
@@ -276,5 +276,5 @@ Additionally to these views, you can set up filters folders that will allow you 
 
 For more information, refer to these sections:
 
-* [Create advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
-* [Save filters](../../platform/using/creating-filters.md#saving-a-filter)
+* [Creating advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
+* [Saving filters](../../platform/using/creating-filters.md#saving-a-filter)

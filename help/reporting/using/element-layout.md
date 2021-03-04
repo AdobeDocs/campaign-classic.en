@@ -16,7 +16,7 @@ You can use containers: these enable you to link several elements of a page and 
 
 You can configure the report layout at the root of the tree and overload it for each container. Pages are sorted into columns. Containers are also sorted into columns. Only the static and graphical items are sorted into cells.
 
-## Define the options for each page {#defining-the-options-for-each-page}
+## Defining the options for each page {#defining-the-options-for-each-page}
 
 You can use the options on each page of the report.
 
@@ -24,13 +24,13 @@ The **[!UICONTROL General]** tab lets you change the title of the page, as well 
 
 ![](assets/s_ncs_advuser_report_wizard_022.png)
 
-The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. For more on this, refer to [Add a header and a footer](#adding-a-header-and-a-footer).
+The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. For more on this, refer to [Adding a header and a footer](#adding-a-header-and-a-footer).
 
 The **[!UICONTROL Display settings]** options enable you to select the position of the control caption within a report page and to define the number of columns on the page. For more on page layout, refer to the **Item layout** section of [this section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
 
 Select the various options in the **[!UICONTROL Browse]** section to authorize browsing from one report page to another. If the **[!UICONTROL Disable next page]** or the **[!UICONTROL Disable previous page]** option is selected, the **[!UICONTROL Next]** and **[!UICONTROL Previous]** buttons disappear from the report page.
 
-## Add a header and a footer {#adding-a-header-and-a-footer}
+## Adding a header and a footer {#adding-a-header-and-a-footer}
 
 The report properties window also lets you define the layout elements, such as: the title of the window, the HTML content of the headers and footers.
 

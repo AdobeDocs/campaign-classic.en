@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: additional-configurations
 ---
 
-# Configure SpamAssassin{#configuring-spamassassin}
+# Configuring SpamAssassin{#configuring-spamassassin}
 
 >[!NOTE]
 >
@@ -32,14 +32,14 @@ Using SpamAssassin in Adobe Campaign provides an indication on the possible beha
 
 Deploying SpamAssassin and its modules in Perl requires Adobe Campaign application servers equipped with internet access via a HTTP connection (TCP/80 flow).
 
-## Install on a Windows machine {#installing-on-a-windows-machine}
+## Installing on a Windows machine {#installing-on-a-windows-machine}
 
 To install and configure SpamAssassin on Windows to enable integration with Adobe Campaign, apply the following steps:
 
 1. Install SpamAssassin
 1. Integrate SpamAssassin into Adobe Campaign
 
-### Install SpamAssassin {#installing-spamassassin}
+### Installing SpamAssassin {#installing-spamassassin}
 
 1. Connect to the [Software distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 1. Download the **Neolane Spam Assassin (Windows Installation) (2.0)** file (neolane_spamassassin.2.0.zip).
@@ -90,7 +90,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
     
        The content of this test email triggers a 1,000 point score by SpamAssassin. This means it has been detected as undesirable and that the installation was successful and is fully functional.
 
-### Integrate SpamAssassin into Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
+### Integrating SpamAssassin into Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
 
 1. Edit the **`[INSTALL]/conf/serverConf.xml`** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 1. Change the value of the **spamCheck** elements' **command** attribute in the **Web** node. To do this, run the following command:
@@ -129,7 +129,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
    sa-update --no-gpg
    ```
 
-## Install on a Linux machine {#installing-on-a-linux-machine}
+## Installing on a Linux machine {#installing-on-a-linux-machine}
 
 ### Installation steps in Debian {#installation-steps-in-debian}
 
@@ -160,7 +160,7 @@ cpan XML::Writer
 cpan Mail::SpamAssassin
 ```
 
-### Update filter rules {#updating-filter-rules}
+### Updating filter rules {#updating-filter-rules}
 
 Filter rules can be updated automatically using the **sa-update** tool. Refer to the official SpamAssassin website [http://spamassassin.apache.org/](http://spamassassin.apache.org/) for more information.
 

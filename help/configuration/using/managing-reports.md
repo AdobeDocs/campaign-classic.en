@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 ---
 
-# Manage reports{#managing-reports}
+# Managing reports{#managing-reports}
 
 Reports based on a schema that is specific to the default Adobe Campaign recipients (nm:recipient or schema linked) must be re-developed in order to take into account the data from the custom table and its tables linked via the target mapping (see the [Target mapping](../../configuration/using/target-mapping.md) section).
 

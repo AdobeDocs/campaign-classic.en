@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: setting-up-web-tracking
 ---
 
-# Web tracking mplementation steps{#setup-stages}
+# Setup stages{#setup-stages}
 
 The basic principle is the insertion of web tracking tags in certain pages of your website.
 

@@ -44,7 +44,7 @@ Audit Trail consists of three components:
 
   For more information on options, refer to this [page](../../installation/using/configuring-campaign-options.md).
 
-## Access Audit trail {#accessing-audit-trail}
+## Accessing Audit trail {#accessing-audit-trail}
 
 To access your instance's **[!UICONTROL Audit trail]** :
 

@@ -492,7 +492,7 @@ The installation procedure is as follows:
 1. Update the **netconf.xml** configuration file.
 1. Update the **netreport.bat** (Windows) or **netreport.sh** (Linux) file.
 
-### Configure the netconf.xml file {#configuring-the-netconf-xml-file}
+### Configuring the netconf.xml file {#configuring-the-netconf-xml-file}
 
 The XML configuration file contains the following elements:
 
@@ -609,15 +609,15 @@ In any case, certain nodes can be overloaded in the sub-elements (e.g., the node
 
 In the **ncs**, **redir** and **http** sub-elements, you can add the **isSecure** attribute (optional) to choose whether or not to use the https protocol ('true' or 'false' values). If this attribute is not provided, the http protocol is used.
 
-### Configure the netreport.bat or netreport.sh file {#configuring-the-netreport-bat-or-netreport-sh--file}
+### Configuring the netreport.bat or netreport.sh file {#configuring-the-netreport-bat-or-netreport-sh--file}
 
 To configure it, edit this file and indicate which directory the JRE or JDK is installed in.
 
-### Launch monitoring {#launching-monitoring}
+### Launching monitoring {#launching-monitoring}
 
 To launch monitoring, execute the **netreport.bat** or **netreport.sh** file at regular intervals via a script. A report is sent after the first execution, and then only in the event of a change of status.
 
-### Test monitoring {#testing-monitoring}
+### Testing monitoring {#testing-monitoring}
 
 To test the monitoring, execute the **netreport.bat** or **netreport.sh** file.
 

@@ -8,19 +8,19 @@ content-type: reference
 topic-tags: web-applications
 ---
 
-# Use cases: create overviews{#use-cases-creating-overviews}
+# Use cases: creating overviews{#use-cases-creating-overviews}
 
 In the following example, we will create overview-type Web applications to display all the Web applications in your database. Configure the following elements:
 
-* a filter on the folder (refer to [Add a filter on a folder](#adding-a-filter-on-a-folder)),
-* a button for creating a new Web application (refer to [Add a button to configure a new Web application](#adding-a-button-to-configure-a-new-web-application)),
-* detail display for each entry in the list (refer to [Add detail to a list](#adding-detail-to-a-list)),
-* one filter per link editing tool (refer to [Create a filter using a link editor](#creating-a-filter-using-a-link-editor)), 
-* a refresh link (refer to [Create a refresh link](#creating-a-refresh-link)).
+* a filter on the folder (refer to [Adding a filter on a folder](#adding-a-filter-on-a-folder)),
+* a button for creating a new Web application (refer to [Adding a button to configure a new Web application](#adding-a-button-to-configure-a-new-web-application)),
+* detail display for each entry in the list (refer to [Adding detail to a list](#adding-detail-to-a-list)),
+* one filter per link editing tool (refer to [Creating a filter using a link editor](#creating-a-filter-using-a-link-editor)), 
+* a refresh link (refer to [Creating a refresh link](#creating-a-refresh-link)).
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
 
-## Create a single-page Web application {#creating-a-single-page-web-application}
+## Creating a single-page Web application {#creating-a-single-page-web-application}
 
 1. Create a single **[!UICONTROL Page]** Web application and disable outbound transitions and transitions to the next page.
 
@@ -46,7 +46,7 @@ In the following example, we will create overview-type Web applications to displ
 
    ![](assets/s_ncs_configuration_webapp_preview.png)
 
-## Add a filter on a folder {#adding-a-filter-on-a-folder}
+## Adding a filter on a folder {#adding-a-filter-on-a-folder}
 
 In an overview, you can choose to access data depending on its location in the Adobe Campaign tree. This is a filter on a folder. Apply the following process to add it to your overview.
 
@@ -75,7 +75,7 @@ In an overview, you can choose to access data depending on its location in the A
    >
    >At this stage, the Web application is not within its application context, the filter can therefore not be tested on the folder.
 
-## Add a button to configure a new Web application {#adding-a-button-to-configure-a-new-web-application}
+## Adding a button to configure a new Web application {#adding-a-button-to-configure-a-new-web-application}
 
 1. Place your cursor on the **[!UICONTROL Page]** element and add a link (**[!UICONTROL Static elements > Link]**).
 1. Modify the link label since it will appear on the button in the overview.
@@ -101,7 +101,7 @@ In an overview, you can choose to access data depending on its location in the A
 
    ![](assets/s_ncs_configuration_webapp_link.png)
 
-## Add detail to a list {#adding-detail-to-a-list}
+## Adding detail to a list {#adding-detail-to-a-list}
 
 When you configure a list in your overview, you can choose to display additional details for each entry on your list.
 
@@ -153,7 +153,7 @@ When you configure a list in your overview, you can choose to display additional
 >
 >JavaScript libraries take five minutes to refresh on the server. You can restart the server to avoid waiting for this delay.
 
-## Filter and update the list {#filtering-and-updating-the-list}
+## Filtering and updating the list {#filtering-and-updating-the-list}
 
 In this section, you will create a filter for displaying the overview of Web applications created by a specific operator. This filter is created with a link editor. Once you have selected an operator, refresh the list to apply your filter; this requires creating a refresh link.
 
@@ -172,7 +172,7 @@ These two elements will be grouped in the same container in order to be graphica
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 
-### Create a filter using a link editor {#creating-a-filter-using-a-link-editor}
+### Creating a filter using a link editor {#creating-a-filter-using-a-link-editor}
 
 1. Place your cursor on the container created during the previous stage and insert a link editor via the **[!UICONTROL Advanced controls]** menu.
 1. In the storage window which opens automatically, select the **[!UICONTROL Variables]** option, then click the **[!UICONTROL Edit variables]** link and create an XML variable for filtering data.
@@ -200,7 +200,7 @@ These two elements will be grouped in the same container in order to be graphica
 >
 >The Web application user must be an identified operator with the appropriate Adobe Campaign rights to access the information. This type of configuration will not work for anonymous Web applications.
 
-### Create a refresh link {#creating-a-refresh-link}
+### Creating a refresh link {#creating-a-refresh-link}
 
 1. Place the cursor on the container and insert a **[!UICONTROL Link]** via the **[!UICONTROL Static elements]** menu.
 1. Modify the label.

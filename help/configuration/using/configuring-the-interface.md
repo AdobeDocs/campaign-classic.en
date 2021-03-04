@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configure Campaign interface
-description: Configure Campaign interface
+title: Configuring the interface
+description: Configuring the interface
 audience: configuration
 content-type: reference
-topic-tags: configure-campaign-interface
+topic-tags: use-a-custom-recipient-table
 ---
 
-# Configure the interface{#configuring-the-interface}
+# Configuring the interface{#configuring-the-interface}
 
 To view and dialog with the new recipient table in the Adobe Campaign interface, apply the following steps:
 
@@ -22,7 +22,7 @@ Adobe Campaign uses a "Nms_DefaultRcpSchema" global variable to dialog with the 
 1. Change the value of the **Nms_DefaultRcpSchema** variable with the name of the schema which matches the external recipient table (in this case: cus:individual).
 1. Save changes.
 
-## Create a new form {#creating-a-new-form-}
+## Creating a new form {#creating-a-new-form-}
 
 Creating a new form will enable you to view and edit the data of the external recipient table.
 
@@ -57,7 +57,7 @@ Creating a new form will enable you to view and edit the data of the external re
 
 1. Save the creation.
 
-## Create a new type of folder in the navigation hierarchy {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
+## Creating a new type of folder in the navigation hierarchy {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
 1. Go to the **[!UICONTROL Administration>Configuration>Navigation hierarchies]** node.
 1. Create a new **xtk:navtree** type **navtree** document.

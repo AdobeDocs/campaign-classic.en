@@ -105,6 +105,6 @@ In addition to this, Adobe Campaign recommends the following improvements:
 
   For more on cleanup and data retention, refer to [this section](../../configuration/using/data-model-best-practices.md#data-retention).
 
-### Export reports {#exporting-reports}
+### Exporting reports {#exporting-reports}
 
 Recommendations specific to exporting reports are detailed in [this section](../../reporting/using/actions-on-reports.md#exporting-a-report).

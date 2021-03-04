@@ -12,9 +12,9 @@ topic-tags: targeting-activities
 
 These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
 
-* **Query**: lets you run a query. Refer to [Create a query](../../workflow/using/query.md#creating-a-query).
+* **Query**: lets you run a query. Refer to [Creating a query](../../workflow/using/query.md#creating-a-query).
 * **Incremental query**: lets you perform a query and plan its execution. Refer to the [Incremental query](../../workflow/using/incremental-query.md) section.
-* **Read list**: lets you use data contained in a list. Refer to the [Use data from a list: Read list](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) section.
+* **Read list**: lets you use data contained in a list. Refer to the [Using data from a list: Read list](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) section.
 * **Union**: lets you group the result of several activities into a single target. Refer to the [Union](../../workflow/using/union.md) section.
 * **Intersection**: lets you extract only the population with the same inbound activity results. Refer to the [Intersection](../../workflow/using/intersection.md) section.
 * **Exclusion**: lets you create a target based on a main target from which one or more other targets are extracted. Refer to the [Intersection](../../workflow/using/intersection.md) section.

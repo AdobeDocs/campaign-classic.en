@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 ---
 
-# Configure the integration{#configuring-the-integration}
+# Configuring the integration{#configuring-the-integration}
 
-## Configure Adobe Campaign {#configuring-in-adobe-campaign}
+## Configuring in Adobe Campaign {#configuring-in-adobe-campaign}
 
 To use these two solutions together, you must configure them to connect to one another.
 
@@ -45,7 +45,7 @@ You need to configure a security zone for this operator to connect to Adobe Camp
 
 >[!CAUTION]
 >
->We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the Installation [guide](../../installation/using/security-zones.md).
+>We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the Installation [guide](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 If your Campaign instance is hosted by Adobe, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. If you are using Campaign on-premise, follow the steps below:
 
@@ -104,7 +104,7 @@ To check if the **[!UICONTROL AEMResourceTypeFilter]** option is configured:
 
    ![](assets/aem_config_5.png)
 
-## Configure Adobe Experience Manager {#configuring-in-adobe-experience-manager}
+## Configuring in Adobe Experience Manager {#configuring-in-adobe-experience-manager}
 
 Follow the steps below to start the configuration in Adobe Experience Manager:
 

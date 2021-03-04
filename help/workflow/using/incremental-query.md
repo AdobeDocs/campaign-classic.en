@@ -19,7 +19,7 @@ The query is defined in the same way as for standard queries, but its execution 
 **Related topics:**
 
 * [Use case: Quarterly list update using an incremental query](../../workflow/using/quarterly-list-update.md)
-* [Create a query](../../workflow/using/query.md#creating-a-query)
+* [Creating a query](../../workflow/using/query.md#creating-a-query)
 
 >[!CAUTION]
 >
