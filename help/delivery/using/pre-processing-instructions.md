@@ -22,7 +22,7 @@ There are three types of instructions:
 
 They can be tested directly from the delivery wizard. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
-## <%@ include {#<%@-include}
+## <%@ include {#include}
 
 The following examples are among the most commonly used:
 
