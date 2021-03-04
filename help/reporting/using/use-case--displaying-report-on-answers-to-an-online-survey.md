@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 ---
 
-# Use case: displaying report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}
+# Use case: display a report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 Answers to Adobe Campaign surveys can be collected and analyzed using dedicated reports.
 

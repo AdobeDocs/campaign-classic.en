@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-cases
 ---
 
-# Supervising workflows{#supervising-workflows}
+# Use case: supervise your workflows{#supervising-workflows}
 
 This use case details the creation of a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors".
 

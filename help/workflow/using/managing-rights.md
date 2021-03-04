@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Managing rights
-description: Managing rights
+title: Manage workflow permissions
+description: Learn how to manage workflow permissions
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
 ---
 
-# Managing rights{#managing-rights}
+# Manage workflow permissions{#managing-rights}
 
 If they are not Administrators, Adobe Campaign operators need access rights for creating, executing or modifying workflows.
 
