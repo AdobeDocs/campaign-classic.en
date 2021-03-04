@@ -18,10 +18,10 @@ type: Documentation
 + [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
-  + [Latest Release](rn/using/latest-release.md)
+  + [Latest release](rn/using/latest-release.md)
   + Gold Standard release {#gs-release}
-     + [Gold Standard Release Notes](rn/using/gold-standard.md)
-     + [Gold Standard Compatibility Matrix](rn/using/compatibility-matrix-gs.md)
+     + [Gold Standard release notes](rn/using/gold-standard.md)
+     + [Gold Standard compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}
     + [Release 20.3](rn/using/release--20-3.md)
     + [Release 20.2](rn/using/release--20-2.md)
@@ -131,8 +131,7 @@ type: Documentation
        + [SMS channel](delivery/using/sms-channel.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
        + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
-  + Send LINE messages{#sending-line-messages}
-         + [LINE channel](delivery/using/line-channel.md)
+  + [Send LINE messages](delivery/using/line-channel.md)
   + Send push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrate Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -622,33 +621,33 @@ type: Documentation
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
   + Campaign on Windows {#installing-campaign-in-windows-}
        + [Before installing Campaign on Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
-       + [Installing the server](installation/using/installing-the-server.md)
-       + [Integration into a Web server for Windows](installation/using/integration-into-a-web-server-for-windows.md)
+       + [Install the server](installation/using/installing-the-server.md)
+       + [Integrate into a Web server (Windows)](installation/using/integration-into-a-web-server-for-windows.md)
        + [Client console availability for Windows](installation/using/client-console-availability-for-windows.md)
-       + [Installing the client console](installation/using/installing-the-client-console.md)
+       + [Install the client console](installation/using/installing-the-client-console.md)
   + Campaign on Linux  {#installing-campaign-in-linux-}
        + [Before installing Campaign on Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
-       + [Installing packages with Linux](installation/using/installing-packages-with-linux.md)
-       + [Integration into a Web server for Linux](installation/using/integration-into-a-web-server-for-linux.md)
+       + [Install packages](installation/using/installing-packages-with-linux.md)
+       + [Integrate into a Web server (Linux)](installation/using/integration-into-a-web-server-for-linux.md)
        + [Client console availability for Linux](installation/using/client-console-availability-for-linux.md)
   + Initial configuration {#initial-configuration}
        + [About initial configuration](installation/using/about-initial-configuration.md)
-       + [Creating an instance and logging on](installation/using/creating-an-instance-and-logging-on.md)
-       + [Creating and configuring the database](installation/using/creating-and-configuring-the-database.md)
+       + [Create an instance and log on](installation/using/creating-an-instance-and-logging-on.md)
+       + [Create and configure the database](installation/using/creating-and-configuring-the-database.md)
        + [Campaign server configuration](installation/using/campaign-server-configuration.md)
-       + [Deploying an instance](installation/using/deploying-an-instance.md)
-       + [Installing Campaign Classic built-in packages](installation/using/installing-campaign-standard-packages.md)
+       + [Deploy an instance](installation/using/deploying-an-instance.md)
+       + [Install Campaign Classic built-in packages](installation/using/installing-campaign-standard-packages.md)
   + Additional configurations {#additional-configurations}
-       + [Configuring Campaign server](installation/using/configuring-campaign-server.md)
-       + [Connecting through LDAP](installation/using/connecting-through-ldap.md)
+       + [Configure Campaign server](installation/using/configuring-campaign-server.md)
+       + [Connect through LDAP](installation/using/connecting-through-ldap.md)
        + [Technical email configurations](installation/using/email-deliverability.md)
        + [Email archiving](installation/using/email-archiving.md)
        + [Time zone management](installation/using/time-zone-management.md)
-       + [Configuring SpamAssassin](installation/using/configuring-spamassassin.md)
+       + [Configure SpamAssassin](installation/using/configuring-spamassassin.md)
        + [Mid-sourcing server](installation/using/mid-sourcing-server.md)
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
-       + [Configuring external accounts](installation/using/external-accounts.md)
-  + Accessing an external database {#accessing-external-database}
+       + [Configure external accounts](installation/using/external-accounts.md)
+  + Access an external database {#accessing-external-database}
        + [Get started with FDA](installation/using/about-fda.md)
        + Configuration guidelines {#config-databases}
           + [Configuration steps](installation/using/configure-fda.md)
@@ -661,16 +660,16 @@ type: Documentation
           + [Configure Teradata](installation/using/configure-fda-teradata.md)
           + [Configure SAP HANA](installation/using/configure-fda-sap-hana.md)
        + [Remote access rights](installation/using/remote-database-access-rights.md)
-       + [Connecting to the database](installation/using/connecting-to-database.md)
-       + [Creating the data schema](installation/using/creating-data-schema.md)
-       + [Defining data mapping](installation/using/defining-data-mapping.md)
+       + [Connect to the database](installation/using/connecting-to-database.md)
+       + [Create the data schema](installation/using/creating-data-schema.md)
+       + [Define data mapping](installation/using/defining-data-mapping.md)
   + Appendices {#appendices}
        + [Server configuration file](installation/using/the-server-configuration-file.md)
        + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
        + [Command lines](installation/using/command-lines.md)
-       + [Creating new instances](installation/using/creating-new-instances.md)
+       + [Create new instances](installation/using/creating-new-instances.md)
        + [List of Campaign options](installation/using/configuring-campaign-options.md)
-       + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
+       + [Uninstall Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring guide {#monitoring-campaign-classic}
   + Introduction {#introduction}
        + [Foreword](production/using/foreword.md)
@@ -682,7 +681,7 @@ type: Documentation
        + [Administration](production/using/administration.md)
        + [Configuration](production/using/configuration.md)
        + [Log files](production/using/log-files.md)
-       + [Monitoring processes](production/using/monitoring-processes.md)
+       + [Monitor processes](production/using/monitoring-processes.md)
        + [Usual commands](production/using/usual-commands.md)
        + [Audit trail](production/using/audit-trail.md)
   + Data processing {#data-processing}
@@ -690,11 +689,11 @@ type: Documentation
        + [Restoration](production/using/restoration.md)
        + [Duplicating environments](production/using/duplicating-environments.md)
        + [Database cleanup workflow](production/using/database-cleanup-workflow.md)
-  + Updating Adobe Campaign {#updating-adobe-campaign}
+  + Update Adobe Campaign {#updating-adobe-campaign}
        + [Introduction](production/using/introduction.md)
-       + [Performing a build upgrade](production/using/build-upgrade.md)
-       + [Upgrading procedure (on-premise)](production/using/upgrading.md)
-       + [Switching to Unicode](production/using/switching-to-unicode.md)
+       + [Perform a build upgrade](production/using/build-upgrade.md)
+       + [Upgrade procedure (on-premise)](production/using/upgrading.md)
+       + [Switch to Unicode](production/using/switching-to-unicode.md)
        + [Migration procedures](production/using/migration-procedures.md)
   + Database maintenance {#database-maintenance}
        + [Recommendations](production/using/recommendations.md)
