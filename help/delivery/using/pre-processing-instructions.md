@@ -36,7 +36,7 @@ The following examples are among the most commonly used:
 
 Use the personalization button in the delivery wizard to get the correct syntax.
 
-## <%@ value {#<%@-value}
+## <%@ value {#value}
 
 This instruction gives access to parameters of the delivery that are constant for all recipients.
 
@@ -75,7 +75,7 @@ For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, the
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### <%@ value in a Javascript section {#<%@-value-in-javascript}
+### <%@ value in a Javascript section {#value-in-javascript}
 
 To allow using <%@ value in script sections, two special objects are replaced with <% and %>:
 
