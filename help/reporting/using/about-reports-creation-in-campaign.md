@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# About reports creation in Campaign{#about-reports-creation-in-campaign}
+# Key steps to create a report{#about-reports-creation-in-campaign}
 
 To produce statistics on the data in your Campaign database, you can create reports and adapt their content and layout based on your needs. These reports can be shared with other operators.
 

@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Introduction
-description: Introduction
+title: About transactional message templates
+description: Get started with transactional message templates
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 ---
 
-# Introduction{#introduction}
+# About transactional message templates{#introduction}
 
 To make sure each event can be changed into a personalized message, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target.
 

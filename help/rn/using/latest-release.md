@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: latest-release-notes
 ---
 
-# Latest Release{#latest-release}
+# Latest release{#latest-release}
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release Candidate version**.
 
