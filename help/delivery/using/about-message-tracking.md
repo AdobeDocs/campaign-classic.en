@@ -34,7 +34,7 @@ To configure tracking, your instance must be declared and registered with the tr
 
 **Saving tracking**
 
-Once tracking is configured and your URLs populated, the tracking server must be registered. [Learn more](../../installation/using/deploying-an-instance.md#tracking-configuration#saving-tracking)
+Once tracking is configured and your URLs populated, the tracking server must be registered. [Learn more](../../installation/using/deploying-an-instance.md#saving-tracking)
 
 ## Message tracking {#message-tracking}
 
