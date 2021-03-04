@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: web-applications
 ---
 
-# Use cases: creating overviews{#use-cases-creating-overviews}
+# Use cases: create overview pages{#use-cases-creating-overviews}
 
 In the following example, we will create overview-type Web applications to display all the Web applications in your database. Configure the following elements:
 
