@@ -53,20 +53,6 @@ Here are some additional guidelines on deliverability monitoring:
 * Check that the number of errors and new [quarantines](../../delivery/using/understanding-quarantine-management.md) are consistent with other deliveries.
 * Carefully consult the [delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
 
-## Signal Spam {#signal-spam}
-
-[Signal Spam](https://www.signal-spam.fr/) is a French service which offers anonymized feedback loop reporting for French ISPs (Orange, SFR).
-
-* This service allows you to follow the reputation of the French ISPs and track customers' activity evolution.
-
-* Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
-
-## 250ok {#deliverability-250ok}
-
-[250ok](https://250ok.com/) is a complementary monitoring solution to the Adobe deliverability internal tools which provides IP and domain denylists, and reputation indicators.
-
-The information provided is real-time, which allows for a pro-active assistance.
-
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
 Each delivery will generate a broadcast statistics report when you open a delivery in the “Deliveries List”, which includes some reputation metrics that may impact your deliverability.-->
