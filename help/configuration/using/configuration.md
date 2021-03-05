@@ -291,7 +291,7 @@ For a linked folder, the **folderLink** attribute on the **`<nodemodel>`** eleme
 Example of declaration of a linked folder in the data schema:
 
 ```
-<element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
+<element default="DefaultFolder('nmsFolder', [@_folder-id])" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="define" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
 The configuration of the **`<nodemodel>`** on the link of the folder named "folder" is as follows:

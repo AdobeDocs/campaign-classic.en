@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: web-applications
 ---
 
-# Creating a new web application{#creating-a-new-web-application}
+# Create a new web application{#creating-a-new-web-application}
 
 Web application types are selected during creation.
 

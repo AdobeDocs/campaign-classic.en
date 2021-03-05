@@ -12,13 +12,13 @@ topic-tags: latest-release-notes
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
-_16 December 2020_
+_December 16, 2020_
 
 >[!CAUTION]
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 31, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloug Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
 
 
 **Improvements**
@@ -47,7 +47,7 @@ On Linux, the nlserver service startup now uses a systemd unit instead of the /e
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
-_15 September 2020_
+_September 15, 2020_
 
 **Improvements**
 
@@ -81,7 +81,7 @@ _15 September 2020_
 >
 >This build is for on-premise installations only. For hybrid deployments, hosted instances will keep running the 9032 build. Do not upgrade your marketing instance to the 9035 build as it is not compatible with 9032.
 
-_3 October 2019_
+_October 3, 2019_
 
 **Improvements**
 
@@ -93,7 +93,7 @@ _3 October 2019_
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
-_13 August 2019_
+_August 13, 2019_
 
 **Improvements**
 
@@ -115,7 +115,7 @@ _13 August 2019_
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
-_21 June 2019_
+_June 21, 2019_
 
 **Security enhancements**
 
@@ -131,7 +131,7 @@ _21 June 2019_
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
 
-_30 May 2019_
+_May 30, 2019_
 
 **What's new?**
 

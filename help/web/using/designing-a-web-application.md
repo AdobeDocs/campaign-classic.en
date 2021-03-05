@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: web-applications
 ---
 
-# Designing a web application{#designing-a-web-application}
+# Design a web application{#designing-a-web-application}
 
 Web applications are created and managed according to the same principle as [online surveys](../../web/using/about-surveys.md).
 

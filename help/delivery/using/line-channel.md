@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 ---
 
-# LINE channel{#line-channel}
+# Create LINE deliveries{#line-channel}
 
 LINE is an application for free instant messaging, voice and video calls, available on all smartphones (iPhone, Android, Windows Phone, Blackberry, Nokia) and on PC. Adobe Campaign allows you to send LINE messages.
 
