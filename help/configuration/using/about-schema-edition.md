@@ -16,7 +16,7 @@ Adobe Campaign employs Data Schemas to:
 * Define links between the different data objects within the Campaign application.
 * Define and describe the individual fields included in each object.
 
-For a better understanding of Campaign built-in tables and their interaction, refer to the [Campaign Classic data model](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
+For a better understanding of Campaign built-in tables and their interaction, refer to [this section](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
 
 ## Extending or creating schemas {#extending-or-creating-schemas}
 
