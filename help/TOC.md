@@ -232,10 +232,12 @@ type: Documentation
        + [Design marketing campaigns](campaign/using/designing-marketing-campaigns.md)
        + [Access marketing campaigns](campaign/using/accessing-marketing-campaigns.md)
   + Orchestrate campaigns {#orchestrate-campaigns}
-       + [Set up marketing campaigns](campaign/using/setting-up-marketing-campaigns.md)
-       + [Marketing campaign templates](campaign/using/marketing-campaign-templates.md)
-       + [Marketing campaign deliveries](campaign/using/marketing-campaign-deliveries.md)
-       + [Marketing campaign approval](campaign/using/marketing-campaign-approval.md)
+       + [Get started with marketing campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Create and configure templates](campaign/using/marketing-campaign-templates.md)
+       + [Add deliveries](campaign/using/marketing-campaign-deliveries.md)
+       + [Select the audience](campaign/using/marketing-campaign-target.md)
+       + [Manage documents and assets](campaign/using/marketing-campaign-assets.md)
+       + [Set up and manage approvals](campaign/using/marketing-campaign-approval.md)
        + [Monitor your campaigns](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
   + Tasks, resources and budgets {#tasks--resources-and-budgets}

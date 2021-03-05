@@ -198,8 +198,8 @@ For example, if you included a product list in your email, when editing the pric
 
 ## Tutorial video {#amp-email-video}
 
-The video below explains how to activate AMP in Adobe Campaign Classic and showcases the usage.
+The video below explains how to activate AMP in Adobe Campaign and showcases the usage.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
