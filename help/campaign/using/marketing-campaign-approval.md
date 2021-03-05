@@ -12,26 +12,26 @@ topic-tags: orchestrate-campaigns
 
 Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof.
 
-Notification messages are sent to the Adobe Campaign operators who are designated reviewers to inform them of an approval request. You need to check that the reviewers have the **appropriate permissions** for approving. Also check that their security zone is correctly defined. [Learn more](#selecting-reviewers).
+Notification messages are sent to the Adobe Campaign operators who are designated reviewers to inform them of an approval request. Check that the reviewers have the **appropriate permissions** for approving, and that their security zone is correctly defined. [Learn more](#selecting-reviewers).
 
 The approval procedure is presented in [this section](#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
->Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.  
+>Only the delivery owner can start a delivery. For another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.  
 >[Learn more](#selecting-reviewers).
 
 ## Operating principle {#operating-principle-}
 
-For example, the standard message for budget approval will be as follows:
+For example, the standard message for budget approval is as follows:
 
 ![](assets/s_user_validation_link_in_mail.png)
 
-The reviewer operators can then choose whether or not to approve the budget.
+The reviewer operators can then choose to approve the budget or not.
 
 ![](assets/s_user_validation_page_confirm.png)
 
-Once the operator validates his choice, approval or rejection of the job is forwarded to the delivery dashboard. 
+Once the operator validates, approval or rejection of the job is forwarded to the delivery dashboard. 
 
 ![](assets/s_user_validation_link_in_op_board.png)
 
@@ -53,7 +53,7 @@ In the following example, the delivery content will not require approvals:
 
 ## Select reviewers {#selecting-reviewers}
 
-For each type of approval, the operators or operator groups in charge of approval are selected from the drop-down list in the delivery. Additional operators can be added using the **[!UICONTROL Edit...]** link. This window also lets you edit the approval deadline. 
+For each type of approval, the operators or operator groups in charge of approval are selected from the drop-down list in the delivery. More operators can be added using the **[!UICONTROL Edit...]** link. This window also lets you edit the approval deadline. 
 
 ![](assets/s_user_validation_add_operator.png)
 
@@ -82,7 +82,7 @@ Check the information to be approved, choose whether to accept or reject approva
 
 ### Approval via notification messages {#approval-via-notification-messages}
 
-Click the link available in the notification message (see [Notifications](#notifications)). You will be asked to log in, as shown below:
+Click the link available in the notification message (see [Notifications](#notifications)). You need to log in, as shown below:
 
 ![](assets/s_user_validation__log_in.png)
 
@@ -176,7 +176,7 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 >[!NOTE]
 >
->To select the processes that will be subject to approval, modify the campaign template. For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>To select the processes which require an approval, modify the campaign template. For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 >
 
 ![](assets/s_ncs_user_edit_del_to_validate.png)
@@ -225,11 +225,11 @@ For each delivery in the campaign, you can approve the following processes:
 
 ### Select processes approve {#choosing-the-processes-to-be-approved}
 
-The approval phases are defined with the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators who will be responsible for these approvals. For more on campaign templates, refer to [this section](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+The approval phases are defined with the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators responsible for these approvals. For more on campaign templates, refer to [this section](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 >[!NOTE]
 >
->The approval configuration for the campaign or campaign template will be applied to all future deliveries linked to this campaign. Any configuration changes will not be applied to previous deliveries.
+>The approval configuration for the campaign (or campaign template) applies to all future deliveries linked to this campaign. Any configuration changes will not be applied to previous deliveries.
 
 This information can be overridden for each campaign and each delivery.
 
@@ -243,7 +243,7 @@ To select a list of operators, click the **[!UICONTROL Edit...]** link to the ri
 
 >[!NOTE]
 >
->* If a list of reviewers is defined, a job is approved as soon as one reviewer has accepted it. The relevant approval link is then no longer offered in the dashboard. When the sending of notifications is enabled, if another reviewer clicks the approval link in the notification message, they are notified that another operator has already approved the job.
+>* If a list of reviewers is defined, a job is approved when one reviewer has accepted it. The relevant approval link is then no longer offered in the dashboard. When the sending of notifications is enabled, if another reviewer clicks the approval link in the notification message, they are notified that another operator has already approved the job.
 >* You can define an approval schedule for the campaign in the lower section of the reviewer editing window. By default, reviewers have three days starting from the submission date to approve a process. It's possible to configure a reminder which is automatically sent to the operators concerned before the approval deadline.
 >* You can add reminders from this section.
 >
@@ -262,9 +262,9 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 
 >[!CAUTION]
 >
->To approve a content, a Proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. For more on creating a proof and its lifecycle, refer to the [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) section.
+>To approve a content, a proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. Learn how to create a proof in [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 >
->The content approval functionalities detailed below are designed to be added to the proof delivery.
+>The content approval functionalities detailed below relate to the proof delivery.
 
 It is possible to configure a content approval cycle. To do this, select the **[!UICONTROL Enable content approval]** option in the approval settings window. The main steps of the content approval cycle are:
 
@@ -276,7 +276,7 @@ It is possible to configure a content approval cycle. To do this, select the **[
    >
    >If the **[!UICONTROL Enable the sending of proofs]** option (for email deliveries) or **[!UICONTROL Enable the sending and approval of proofs]** (for direct mail deliveries) options were selected in the approval settings window, proofs will be sent automatically.
 
-1. A notification email is sent to the person responsible for content, who can choose whether or not to approve it:
+1. A notification email is sent to the person responsible for content, who can choose whether to approve it or not:
 
     * via the notification email:
     
@@ -296,7 +296,7 @@ It is possible to configure a content approval cycle. To do this, select the **[
       
       ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
-1. A notification email is sent to the person responsible for the campaign informing them of whether or not the content has been approved.
+1. A notification email is sent to the person responsible for the campaign informing them of whether the content has been approved or not.
 
    >[!NOTE]
    >

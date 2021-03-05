@@ -111,13 +111,13 @@ The file extraction launches two operations: budget calculation and stock calcul
 
 ## Managing associated documents {#managing-associated-documents}
 
-You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). Learn howto link documents with a campaign [in this section](../../campaign/using/marketing-campaign-assets.md#adding-documents).
+You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). Learn how to link documents with a campaign [in this section](../../campaign/using/marketing-campaign-assets.md).
 
 >[!IMPORTANT]
 >
 >This mode is reserved for small documents.
 
-In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline]([in this section](../../campaign/using/marketing-campaign-assets.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. [Learn more](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
