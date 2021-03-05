@@ -51,10 +51,6 @@ type: Documentation
           + [Reports](platform/using/faq-reporting.md)
           + [Development](platform/using/faq-developers.md)
        + [Tutorials](platform/using/tutorials.md)
-  + Privacy {#privacy}
-       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
-       + [Privacy management](platform/using/privacy-management.md)
-       + [Privacy requests](platform/using/privacy-requests.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
        + [Edit a profile](platform/using/editing-a-profile.md)
@@ -90,6 +86,10 @@ type: Documentation
        + [Define filter conditions](platform/using/defining-filter-conditions.md)
   + Permissions {#permissions}
        + [Access management](platform/using/access-management.md)
+  + Privacy {#privacy}
+       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
+       + [Privacy management](platform/using/privacy-management.md)
+       + [Privacy requests](platform/using/privacy-requests.md)
   + Data packages and enumerations {#administration-basics}
        + [Data packages](platform/using/working-with-data-packages.md)
        + [Enumerations](platform/using/managing-enumerations.md)
