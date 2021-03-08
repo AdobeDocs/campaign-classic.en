@@ -614,7 +614,7 @@ All standard reports currently use rendering engine v6.x. If you had added JavaS
 
 ### Personalized reports {#personalized-reports}
 
-<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
+<!--If you want to have the blue banner from v7 (allowing you access to the tabs), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
 -->
@@ -629,7 +629,7 @@ There are two web application families:
 
 ### Identified web applications {#identified-web-applications}
 
-Just as for reports (see [Reports](#reports)), if you had added JavaScript, you must check and adapt if necessary. If you wish to benefit from the v7 blue banner (containing the universes), you must republish the web application. If your JavaScript code is working, you can select the v6.x rendering engine. If this is not the case, you can use the v6.0 rendering engine while you adapt your code, then use the v6.x rendering engine.
+Just as for reports ([learn more](#reports)), if you had added JavaScript, you must check and adapt if necessary. If you wish to benefit from the v7 blue banner (containing the blue tabs), you must republish the web application. If your JavaScript code is working, you can select the v6.x rendering engine. If this is not the case, you can use the v6.0 rendering engine while you adapt your code, then use the v6.x rendering engine.
 
 >[!NOTE]
 >

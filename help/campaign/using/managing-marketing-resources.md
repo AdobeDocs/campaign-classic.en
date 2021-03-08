@@ -16,7 +16,7 @@ For each marketing resource managed via Adobe Campaign, you can track its status
 
 ## Adding a marketing resource {#adding-a-marketing-resource}
 
-Marketing resources are accessed via the Campaigns universe.
+Marketing resources are accessed via the **[!UICONTROL Campaigns]** tab.
 
 To add a resource, click the **[!UICONTROL Create]** button.
 

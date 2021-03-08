@@ -16,6 +16,10 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## March 2021 {#march-2021}
 
+The [permission management chapter](../../platform/using/access-management.md) has been improved and split into sections, including details about [Operators](../../platform/using/access-management-operators.md) , [Groups of operators](../../platform/using/access-management-groups.md) , [Named rights](../../platform/using/access-management-named-rights.md)  and [Folder management](../../platform/using/access-management-folders.md) .
+
+Learn how to create and manage your campaigns through these new pages: [Create and configure campaign templates](../../campaign/using/marketing-campaign-templates.md), [Marketing campaign deliveries](../../campaign/using/marketing-campaign-deliveries.md), [Select the audience of your campaigns](../../campaign/using/marketing-campaign-target.md),[Manage associated documents](../../campaign/using/marketing-campaign-assets.md) and [Set up and manage the approval process](../../campaign/using/marketing-campaign-approvals.md).
+
 Information has been added in the **[!UICONTROL Advanced JavaScript]** activity section on how to use the task.setCompleted() method to terminate the task and prevent future recalls. [Read more](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
 ## February 2021 {#release-21.1}

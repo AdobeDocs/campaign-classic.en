@@ -10,7 +10,7 @@ topic-tags: reports
 
 # Message Center service level{#message-center-service-level}
 
-This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details. This report, aimed at technical administrators, can also be accessed via the **[!UICONTROL Monitoring]** universe in the control instance.
+This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details. This report, aimed at technical administrators, can also be accessed via the **[!UICONTROL Monitoring]** tab in the control instance.
 
 ![](assets/mc_reports_1.png)
 

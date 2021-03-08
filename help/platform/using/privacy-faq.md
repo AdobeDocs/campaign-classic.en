@@ -67,7 +67,7 @@ In those instances where consent will be needed for certain marketing activities
 
 There may even be instances where certain consents need to be refreshed to be able to continue using data going forward.
 
-Rather than thinking of these enhanced consent requirements as a risk to the marketable universe, marketers could embrace them as a true indicator of brand engagement and loyalty, as well as customer satisfaction and trust.
+Marketers should embrace these enhanced consent requirements as a true indicator of brand engagement and loyalty, as well as customer satisfaction and trust.
 
 ## Manage consent {#manage-consent}
 

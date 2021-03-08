@@ -57,7 +57,7 @@ In our database, there is a category of travel offers to Africa. The eligibility
 
 ## Perform an offer simulation {#perform-an-offer-simulation}
 
-1. In the **[!UICONTROL Profiles and Targets]** universe, click the **[!UICONTROL Simulations]** link, then click the **[!UICONTROL Create]** button.
+1. In the **[!UICONTROL Profiles and Targets]** tab, click the **[!UICONTROL Simulations]** link, then click the **[!UICONTROL Create]** button.
 
    ![](assets/offer_simulation_001.png)
 
