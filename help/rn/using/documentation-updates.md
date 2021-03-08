@@ -280,7 +280,7 @@ A use case has been added on how to integrate a dynamic offer from Adobe Target 
 
 A new section detailing the different languages available in Adobe Campaign is now available. [Read more](../../platform/using/adobe-campaign-workspace.md#languages)
 
-Access management guidelines have been updated with more information on Named rights. [Read more](../../platform/using/access-management.md#named-rights)
+Access management guidelines have been updated with more information on Named rights. [Read more](../../platform/using/access-management-named-rights.md)
 
 ## February 2020 {#february-2020}
 
@@ -398,7 +398,7 @@ A warning has been added to the [Multiplexing the mid-sourcing server](../../ins
 
 A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../delivery/using/sending-messages.md#character-encoding)
 
-The Access management section has been updated with the **Privacy Data right**. [Read more](../../platform/using/access-management.md#named-rights)
+The Access management section has been updated with the **Privacy Data right**. [Read more](../../platform/using/access-management-named-rights.md)
 
 Information was added to specify that personalization fields content cannot exceed 1024 characters. [Read more](../../delivery/using/personalization-fields.md)
 
