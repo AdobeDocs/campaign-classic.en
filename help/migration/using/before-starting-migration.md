@@ -70,5 +70,5 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->The **internal** password must be identical for all the tracking servers. For more information, refer to the [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier) and [About permissions](../../platform/using/access-management.md#about-permissions) sections.
+>The **internal** password must be identical for all the tracking servers. For more information, refer to the [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier) and [Permissions](../../platform/using/access-management.md) sections.
 

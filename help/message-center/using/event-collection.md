@@ -21,4 +21,4 @@ Once they are collected, events are broken down - by technical workflows - betwe
 
 >[!NOTE]
 >
->On the execution instances, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views, as this could lead to [access right](../../platform/using/access-management.md#about-permissions) issues. For more on setting a folder as a view, see [About views](../../platform/using/access-management.md#about-views).
+>On the execution instances, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views, as this could lead to access right issues. For more on setting a folder as a view, refer to [this section](../../platform/using/access-management-folders.md).
