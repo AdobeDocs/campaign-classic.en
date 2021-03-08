@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 ---
 
-# Monitoring marketing campaigns {#monitoring-marketing-campaigns}
+# Monitor marketing campaigns {#monitoring-marketing-campaigns}
 
-## Tracking a campaign {#tracking-a-campaign}
+## Track a campaign {#tracking-a-campaign}
 
 For each campaign, the **[!UICONTROL Tracking]** tab lets you view all jobs and their statuses. The following information is accessible via this sub-tab:
 
@@ -22,7 +22,7 @@ For each campaign, the **[!UICONTROL Tracking]** tab lets you view all jobs and 
 
   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* The **[!UICONTROL Tasks]** sub-tab groups all tasks linked to the campaign. This view lets you edit them or delete them. Tasks are available with the MRM application. They are detailed in [Creating and managing tasks](../../campaign/using/creating-and-managing-tasks.md).
+* The **[!UICONTROL Tasks]** sub-tab groups all tasks linked to the campaign. This view lets you edit them or delete them. Tasks are available with the MRM application. They are detailed in [this section](../../campaign/using/creating-and-managing-tasks.md).
 
   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
@@ -42,10 +42,10 @@ To check the status of a delivery, edit it and view its dashboard and tabs.
 
 >[!NOTE]
 >
->Information concerning delivery details is available in the [Sending Messages](../../delivery/using/about-message-tracking.md) section.
+>Information concerning delivery details is available in [this section](../../delivery/using/about-message-tracking.md) section.
 
 ## Execution tracking {#execution-tracking}
 
 You can look up the status of deliveries by clicking the **[!UICONTROL Deliveries]**, which is accessible via the Adobe Campaign home page. See [Delivery tracking](#delivery-tracking).
 
-Information concerning the processes executed in a campaign are collected in the **[!UICONTROL Edit > Audit]** tab of the campaign. There, you can view the list of deliveries in the campaign. See [Tracking a campaign](#tracking-a-campaign).
+Information concerning the processes executed in a campaign are collected in the **[!UICONTROL Edit > Audit]** tab of the campaign. There, you can view the list of deliveries in the campaign. [Learn more](#tracking-a-campaign).

@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic data model description
-description: This document describes the Adobe Campaign Classic data model.
+description: This document describes the Adobe Campaign data model.
 audience: configuration
 content-type: reference
 topic-tags: schema-reference

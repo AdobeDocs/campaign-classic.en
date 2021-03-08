@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-schemas
 ---
 
-# Restricting PII view{#restricting-pii-view}
+# Restrict PI view{#restricting-pii-view}
 
 ## Overview {#overview}
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: online-surveys
 ---
 
-# Use case: creating a Refer A Friend form{#use-case-creating-a-refer-a-friend-form}
+# Use case: create a referral form{#use-case-creating-a-refer-a-friend-form}
 
 In this example, we want to offer a competition to the recipients in the database. The Web form will have a section for entering answers and another to refer a friend by entering their email address.
 

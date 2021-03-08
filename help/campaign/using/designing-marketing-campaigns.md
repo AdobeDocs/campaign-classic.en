@@ -1,22 +1,22 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Designing marketing campaigns
+title: Design and execute marketing campaigns
 description: Define, optimize, execute and analyse marketing campaigns.
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 ---
 
-# Designing marketing campaigns{#designing-marketing-campaigns}
+# Design and execute marketing campaigns{#designing-marketing-campaigns}
 
-Adobe Campaign lets you define, optimize, execute and analyze communications and marketing campaigns. Adobe Campaign acts like a unified order and execution center for marketing strategies. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md) and [Setting up marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
+Adobe Campaign lets you define, optimize, execute and analyze communications and marketing campaigns. Adobe Campaign acts like a unified order and execution center for marketing strategies. For more on this, refer to [Access campaigns](../../campaign/using/accessing-campaigns.md) and [Create marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
 
 In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. The Marketing Resource Management lets you optimize and regulate the management of internal and external processes, resources and marketing campaigns, as well as third party relations (agencies, printers, etc.). For more on this, refer to [this section](../../campaign/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
->For more on the Adobe Campaign core functionalities, refer to the [Getting Started](../../platform/using/about-adobe-campaign-classic.md) section.  
+>For more on the Adobe Campaign core functionalities, refer t [this section](../../platform/using/about-adobe-campaign-classic.md) section.  
 >Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Discover marketing campaigns keys concepts in video](#video)
@@ -55,7 +55,7 @@ The following concepts need to be known in the context of Campaign:
 
   A delivery outline is a structured description of a delivery. Every delivery can refer to a delivery outline which contains, for example, the related offers, documents to be attached, or a link to stores. An offer can be referenced in the delivery according to the delivery outline selected.
 
-  For more on this, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+  For more on this, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Tutorial {#video}
 

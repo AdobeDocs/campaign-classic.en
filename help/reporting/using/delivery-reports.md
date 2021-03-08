@@ -12,7 +12,7 @@ topic-tags: accessing-built-in-reports
 
 You can track the execution of deliveries via various reports accessible from the delivery overview. To display reports, apply the following procedure:
 
-1. Go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Delivery]** link to display the list of deliveries.
+1. Go to the **[!UICONTROL Campaigns]** tab and click the **[!UICONTROL Delivery]** link to display the list of deliveries.
 1. Click the name of the delivery you want to display to show its details. 
 
    ![](assets/s_ncs_user_detailled_report.png)

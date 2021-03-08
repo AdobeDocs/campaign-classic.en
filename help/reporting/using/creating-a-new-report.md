@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: creating-new-reports
 ---
 
-# Creating a new report{#creating-a-new-report}
+# Create a new report{#creating-a-new-report}
 
 To create a report, apply the following steps:
 

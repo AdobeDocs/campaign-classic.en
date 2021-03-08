@@ -32,7 +32,7 @@ In the **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign sett
 
 Select the **By form** web interface. This type of interface lets you create personalization fields that will be used by local entities when ordering a campaign. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
-Save your campaign. You can now use it from the **Campaign packages** view in the **Campaign** universe, by clicking the **[!UICONTROL Create]** button.
+Save your campaign. You can now use it from the **Campaign packages** view in the **Campaign** tab, by clicking the **[!UICONTROL Create]** button.
 
 The **[!UICONTROL Campaign Package]** view allows you to use local campaign templates (out-of-the-box or duplicated), as well as reference campaigns for collaborative campaigns, with the aim of creating campaigns for your different organizational entities.
 

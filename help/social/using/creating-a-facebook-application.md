@@ -102,7 +102,7 @@ The configuration stages are as follows:
 
 The Adobe Campaign Facebook application lets you display personalized content in your Facebook application. For each Facebook application, you need to create a web application in Adobe Campaign. To create a Facebook web application, proceed as follows:
 
-1. Go to the **[!UICONTROL Social networks]** universe, click the **[!UICONTROL Applications]** link, then the **[!UICONTROL Create]** button.
+1. Go to the **[!UICONTROL Social networks]** tab, click the **[!UICONTROL Applications]** link, then the **[!UICONTROL Create]** button.
 
    ![](assets/social_webapp_001.png)
 

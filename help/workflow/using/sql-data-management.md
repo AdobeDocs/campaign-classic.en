@@ -18,7 +18,7 @@ Before configuring the activity, make sure the following prerequisites are fulfi
 
 * The activity is available for remote data sources only. The **[!UICONTROL FDA]** (Federated Data Access) package must therefore be installed on your instance. [Learn more](../../installation/using/about-fda.md).
 * The Outbound schema must exist in the database and be linked to an FDA database. [Learn more](../../configuration/using/about-schema-reference.md).
-* The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. [Learn more](../../platform/using/access-management.md#named-rights).
+* The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. [Learn more](../../platform/using/access-management-named-rights.md).
 
 ## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}
 
