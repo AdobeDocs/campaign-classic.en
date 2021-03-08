@@ -22,7 +22,7 @@ To add a template, refer to [Global options](../../web/using/content-editor-inte
 
 After configuring a delivery, you can save it as a template in order to re-use it for future deliveries.
 
-In the **Campaigns** universe, open the chosen delivery. Click on the **Save as template** button, name the template and then save.
+In the **Campaigns** tab, open the chosen delivery. Click on the **Save as template** button, name the template and then save.
 
 ![](assets/dce_save_model.png)
 

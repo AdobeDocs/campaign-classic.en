@@ -37,7 +37,7 @@ There are three service subscription/unsubscription modes:
 
 You can create and manage subscriptions to information services with associated confirmation messages or automatic deliveries to subscribers.
 
-To access the information services map, go to the **[!UICONTROL Profiles and Targets]** universe and click the **[!UICONTROL Services and Subscriptions]** link. 
+To access the information services map, open the **[!UICONTROL Profiles and Targets]** tab and click the **[!UICONTROL Services and Subscriptions]** link. 
 
 ![](assets/s_ncs_user_services_new.png)
 

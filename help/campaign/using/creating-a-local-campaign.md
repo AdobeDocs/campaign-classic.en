@@ -144,7 +144,7 @@ Locate your delivery's HTML. For example, in **[!UICONTROL Delivery > Current or
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
-Save your campaign template. You can now use it from the **Campaign packages** view in the **Campaigns** universe, by clicking the **[!UICONTROL Create]** button.
+Save your campaign template. You can now use it from the **[!UICONTROL Campaign packages]** view in the **[!UICONTROL Campaigns]** tab, by clicking the **[!UICONTROL Create]** button.
 
 ![](assets/mkt_distr_9.png)
 
@@ -263,7 +263,7 @@ To order a campaign:
 
    For more on this, refer to the [Approval process](#approval-process) section.
 
-1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** universe. The campaign can then be used. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** tab. The campaign can then be used. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
 
    The **[!UICONTROL Start targeting with order approval]** option lets the local entity run the campaign as soon as the order has been approved.
 
@@ -273,7 +273,7 @@ To order a campaign:
 
 To confirm a campaign order, the central entity must approve it.
 
-The **[!UICONTROL Campaign orders]** overview, accessed via the **Campaigns** universe lets you view the status of campaign orders and approve them.
+The **[!UICONTROL Campaign orders]** overview, accessed via the **Campaigns** tab lets you view the status of campaign orders and approve them.
 
 >[!NOTE]
 >

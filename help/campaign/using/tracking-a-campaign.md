@@ -21,7 +21,7 @@ This lets them:
 
 ## Filter packages {#filter-packages}
 
-From the **[!UICONTROL Campaigns universe]**, you can display the list of **[!UICONTROL Campaign packages]** which regroups all existing Distributed Marketing campaigns. You can filter this list so that it displays only campaigns that are either published, late, pending approval, etc. To do this, click the links in the upper section of this view, or use the **[!UICONTROL Filter list]** link and select the campaign package status to display.
+From the **[!UICONTROL Campaigns]** tab, you can display the list of **[!UICONTROL Campaign packages]** which regroups all existing Distributed Marketing campaigns. You can filter this list so that it displays only campaigns that are either published, late, pending approval, etc. To do this, click the links in the upper section of this view, or use the **[!UICONTROL Filter list]** link and select the campaign package status to display.
 
 ![](assets/mkg_dist_catalog_filter.png)
 
