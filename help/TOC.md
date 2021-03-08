@@ -37,7 +37,9 @@ type: Documentation
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
        + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
-       + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
+     + Adobe Campaign workspace{#campaign-workspace}
+       + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
+       + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
        + Frequently Asked Questions {#faq}
           + [Top questions](platform/using/common-questions.md)
           + [Global concepts](platform/using/faq-key-concepts.md)
@@ -786,9 +788,8 @@ type: Documentation
        + [SOAP methods in JavaScript](configuration/using/soap-methods-in-javascript.md)
        + [Adding additional SQL functions](configuration/using/adding-additional-sql-functions.md)
   + Navigation hierarchy {#navigation-hierarchy}
-       + [About navigation hierarchy](configuration/using/about-navigation-hierarchy.md)
-       + [Configuration](configuration/using/configuration.md)
-       + [Edition](configuration/using/edition.md)
+       + [Configure the Explorer hierarchy](configuration/using/configuration.md)
+       + [Edit the Explorer hierarchy](configuration/using/edition.md)
   + Use a custom recipient table {#use-a-custom-recipient-table}
        + [About custom recipient table](configuration/using/about-custom-recipient-table.md)
        + [Schema characteristics](configuration/using/schema-characteristics.md)

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: navigation-hierarchy
 ---
 
-# Configuration{#configuration}
+# Configure Campaign Explorer navigation hierarchy{#configuration}
 
 The types of folders used by the navigation list are described in an XML document that obeys the grammar of the **xtk:navtree** schema.
 
