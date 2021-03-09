@@ -41,7 +41,7 @@ To install SSL Certificates on these subdomains, the process involves requesting
 | High Assurance Certificate | High Assurance Certificates are issued by the CA after verifying ownership of the domain name and valid business registration. |
 | Intermediate CA | A Certificate Authority of Intermediate Certificates included in a Chain Certificate. |
 | Intermediate Certificate | A Certificate Authority issues certificates in the form of a tree structure. The Root Certificate is the top-most certificate of the tree. Any certificate between your Certificate and the Root Certificate is called a chain or Intermediate Certificate. |
-| Low Assurance Certificate	| A Low Assurance Certificate, also referred as Domain Validated Certificate, includes only the domain name in the certificate (and not the business/organization name). |
+| Low Assurance Certificate | A Low Assurance Certificate, also referred as Domain Validated Certificate, includes only the domain name in the certificate (and not the business/organization name). |
 | PEM (Privacy Enhanced Mail) | A certificate with a .pem extension which contains ASCII (Base64) data. Such certificates start with a " - - - - - BEGIN CERTIFICATE - - - - -" line. |
 | Root Certificate | A Certificate Authority issues certificates in the form of a tree structure. The Root Certificate is the top-most certificate of the tree. |
 | SAN (Subject Alternative Name) | The Subject Alternative Names are additional host names (sites, IP addresses, common names, etc.) that should be signed as part of a single SSL Certificate. |
@@ -93,11 +93,11 @@ You will need to provide the following information :
 | Common Name [CN] | t.subdomain.customer.com | This can be any of the relevant domains, but usually the tracking domain. |
 | Instance URL | mycompany.campaign.adobe.com | Provide the Adobe instance URL. | 
 | Subject Alternative Name [SAN] | t.subdomain.customer.com</br>m.subdomain.customer.com</br>res.subdomain.customer.com | Make sure to include tracking subdomain as a SAN. |
-| State (or Province Name) [ST]	| London | If applicable. The value must be a full name, not abbreviated. |
-| Organizational Unit Name [OU]	| IT | e.g. section. |
+| State (or Province Name) [ST] | London | If applicable. The value must be a full name, not abbreviated. |
+| Organizational Unit Name [OU] | IT | e.g. section. |
 | Country [C] | GB | This must be a two-letter code. Access the full country list [here](https://www.ssl.com/csrs/country_codes/).</br>*Note: For United Kingdom, use GB (not UK).* |
 | Environment URL | https://client-mid-prod1.campaign.adobe.com |
-| Client Name | My Company Ltd.	|
+| Client Name | My Company Ltd. |
 | City/Locality Name [L] | London |
 | Organization Name [O] | ACME |
 
