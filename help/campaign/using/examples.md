@@ -154,7 +154,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 #### Publishing the campaign {#publishing-the-campaign}
 
-You can now add a **campaign package** from the **Campaigns** universe.
+You can now add a **campaign package** from the **[!UICONTROL Campaigns]** tab.
 
 1. Choose your **[!UICONTROL Reference campaign]**. In the **[!UICONTROL Edit]** tab of your package, you can select the **[!UICONTROL Approval mode]** to use for your campaign:
 

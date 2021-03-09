@@ -104,7 +104,7 @@ The worktables of the workflow are deleted automatically when the workflow passi
 
 ## Managing errors {#managing-errors}
 
-When an error occurs, the workflow is paused and the activity being executed when the error occurred flashes red. In the workflow overview (**[!UICONTROL Monitoring]** universe > **[!UICONTROL Workflows]** link) you can display workflows with errors only, as shown below.
+When an error occurs, the workflow is paused and the activity being executed when the error occurred flashes red. In the workflow overview, under the **[!UICONTROL Monitoring]** tab  -  **[!UICONTROL Workflows]** link, you can display workflows with errors only, as shown below.
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
@@ -162,7 +162,7 @@ If possible, we recommend completely restarting the workflow after having carrie
 
 The **[!UICONTROL Instance supervision]** page lets you view the Adobe Campaign server activity and display the list of workflows and deliveries with errors.
 
-To access this page, go to the **[!UICONTROL Monitoring]** universe and click the **[!UICONTROL General view]** link.
+To access this page, go to the **[!UICONTROL Monitoring]** tab and click the **[!UICONTROL General view]** link.
 
 ![](assets/wf-monitoring_from-homepage.png)
 
@@ -264,7 +264,7 @@ To do this:
 
 1. Right-click on the folder where you want to add the view.
 1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, select the view that you want to add.
-1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to [this section](../../platform/using/access-management.md#adding-folders-and-creating-views).
+1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to [this section](../../platform/using/access-management-folders.md).
 
 Additionally to these views, you can set up filters folders that will allow you to filter the list of workflows according to their execution status. To do this:
 

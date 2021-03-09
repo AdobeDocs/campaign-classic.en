@@ -18,7 +18,7 @@ Tasks can be created, viewed, and monitored from the list of tasks or the campai
 
 Tasks are attached to campaign and can have dependencies, i.e. associated tasks. Each task has a status, priority, estimated load, and related costs.
 
-All the tasks are grouped in a list accessible via the **Campaigns** universe. For more on this, refer to [Accessing tasks](#accessing-tasks).
+All the tasks are grouped in a list accessible via the **Campaigns** tab. For more on this, refer to [Accessing tasks](#accessing-tasks).
 
 They can be displayed in the schedule of the program to which they belong.
 
@@ -28,7 +28,7 @@ They can be displayed in the schedule of the program to which they belong.
 
 ### Displaying tasks {#displaying-tasks}
 
-The tasks are displayed in the task list accessible via the **[!UICONTROL Campaigns]** universe.
+The tasks are displayed in the task list accessible via the **[!UICONTROL Campaigns]** tab.
 
 ![](assets/s_ncs_user_task_edit_view.png)
 
@@ -50,7 +50,7 @@ Click on a task to edit it.
 
 ## Creating a new task {#creating-a-new-task}
 
-To create a task, click the **[!UICONTROL Tasks]** link in the Campaigns universe and select **[!UICONTROL Create]**.
+To create a task, click the **[!UICONTROL Tasks]** link in the **[!UICONTROL Campaigns]** tab and select **[!UICONTROL Create]**.
 
 ![](assets/s_ncs_user_task_create_new.png)
 

@@ -22,7 +22,7 @@ To learn how to simulate an offer, read the steps below.
 
 To run a simulation of your offers, apply the following steps:
 
-1. In the **[!UICONTROL Profiles and Targets]** universe, click the **[!UICONTROL Simulations]** link, then click the **[!UICONTROL Create]** button.
+1. In the **[!UICONTROL Profiles and Targets]** tab, click the **[!UICONTROL Simulations]** link, then click the **[!UICONTROL Create]** button.
 
    ![](assets/offer_simulation_001.png)
 

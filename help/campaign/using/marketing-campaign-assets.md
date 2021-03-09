@@ -91,7 +91,7 @@ An outline can contain items and personalization fields, resources and offers:
 
   ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* The resources are marketing resources generated in the marketing resource dashboard accessed via the **[!UICONTROL Resources]** link of the **[!UICONTROL Campaigns]** universe.
+* The resources are marketing resources generated in the marketing resource dashboard accessed via the **[!UICONTROL Resources]** link of the **[!UICONTROL Campaigns]** tab.
 
   ![](assets/s_ncs_user_mkg_resource_ovv.png)
 

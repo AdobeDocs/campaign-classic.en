@@ -20,11 +20,11 @@ Once you connect to Adobe Campaign, you will see the home page.
 
 ![](assets/campaign_global_view.png)
 
-Click the links in the navigation bar to access the various universes.
+Click the links in the navigation bar to access the various capabilities.
 
-Campaign elements are found in the **[!UICONTROL Campaigns]** universe: here you can see an overview of the marketing programs and campaigns as well as their sub-sets. A marketing program is made up of campaigns, which are made up of deliveries, tasks, linked resources, etc. In the context of marketing campaign management using Campaign, the information concerning deliveries, budgets, reviewers and linked documents are found in the campaigns.
+Campaign elements are found in the **[!UICONTROL Campaigns]** tab: here you can see an overview of the marketing programs and campaigns as well as their sub-sets. A marketing program is made up of campaigns, which are made up of deliveries, tasks, linked resources, etc. In the context of marketing campaign management using Campaign, the information concerning deliveries, budgets, reviewers and linked documents are found in the campaigns.
 
-The navigation block of the **[!UICONTROL Campaigns]** universe offers various entries, depending on modules installed on the instance. As an example, you can access:
+The **[!UICONTROL Browsing]** block of the **[!UICONTROL Campaigns]** tab offers various entries, depending on modules installed on the instance. As an example, you can access:
 
 * **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](#campaign-calendar).
 * **Campaigns**: access to the campaigns contained in all marketing programs.
@@ -39,7 +39,7 @@ The navigation block of the **[!UICONTROL Campaigns]** universe offers various e
 
 ### Campaign calendar {#campaign-calendar}
 
-Each campaign belongs to a program which in turn belongs to a plan. Plans, programs and campaigns are accessed via the **[!UICONTROL Campaign calendar]** menu in the **Campaigns** universe.
+Each campaign belongs to a program which in turn belongs to a plan. Plans, programs and campaigns are accessed via the **[!UICONTROL Campaign calendar]** menu in the **Campaigns** tab.
 
 To edit a plan, program, campaign or delivery, click its name in the calendar and then click **[!UICONTROL Open...]**. It is then displayed in a new tab, as shown below:
 
@@ -88,7 +88,7 @@ Campaigns can be accessed via the campaign calendar, the **[!UICONTROL Schedule]
    ![](assets/campaign_op_edit.png)
 
 1. Via the **[!UICONTROL Schedule]** tab of the program, the edit mode is the same as via the campaign calendar.
-1. Via the **[!UICONTROL Campaigns]** link of the **[!UICONTROL Campaigns]** universe, click the name of the campaign you want to edit.
+1. Via the **[!UICONTROL Campaigns]** link of the **[!UICONTROL Campaigns]** tab, click the name of the campaign you want to edit.
 
    ![](assets/campaign_edit_from_list.png)
 

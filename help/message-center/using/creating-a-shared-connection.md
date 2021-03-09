@@ -128,11 +128,11 @@ In the tree of all the execution instances, create one folder per operator (**Fo
 
 In order to use several control instances, this configuration has to be performed on ALL execution instances.
 
-1. Create one folder per operator in the **[!UICONTROL Administration > Production > Message Center]** node: **Folder 1** and **Folder 2**. For more on creating folders and views, refer to [Platform](../../platform/using/access-management.md#folders-and-views).
+1. Create one folder per operator in the **[!UICONTROL Administration > Production > Message Center]** node: **Folder 1** and **Folder 2**. For more on creating folders and views, refer to [this page](../../platform/using/access-management-folders.md).
 
    ![](assets/messagecenter_multi_control_3.png)
 
-1. Create the **mc1** and **mc2** operators by duplicating the Message Center operator provided by default (**mc**). For more on creating operators, refer to [this section](../../platform/using/access-management.md#operators).
+1. Create the **mc1** and **mc2** operators by duplicating the Message Center operator provided by default (**mc**). For more on creating operators, refer to [this section](../../platform/using/access-management-operators.md).
 
    ![](assets/messagecenter_multi_control_4.png)
 
