@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Access management
-description: xxxx
+description: Learn more about access management best practices.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-

@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Server configuration
-description: xxxx
+description: Learn more about server configuration best practices.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -23,38 +23,34 @@ topic-tags: prerequisites-and-recommendations-
 
 To learn how to use the Security Zones Self Service UI to manage entries in the VPN Security Zone configuration, refer to [this technote](https://helpx.adobe.com/campaign/kb/configuring-security-zones-self-service.html).
 
-Make sure that your reverse proxy in not allowed in subNetwork. If it is the case, **all** traffic will be detected as coming from this local IP, so will be trusted.
+* Make sure that your reverse proxy in not allowed in subNetwork. If it is the case, **all** traffic will be detected as coming from this local IP, so will be trusted.
 
-Minimize the use of **sessionTokenOnly="true"**:
+* Minimize the use of sessionTokenOnly="true":
 
->[!IMPORTANT]
->
->If this attribute is set to true, the operator can be exposed to a **CRSF attack**.
+  * Warning: If this attribute is set to true, the operator can be exposed to a **CRSF attack**.
+  * In addition, the sessionToken cookie is not set with an httpOnly flag, so some client-side javascript code can read it.
+  * However Message Center on multiple execution cells needs sessionTokenOnly: create a new security zone with sessionTokenOnly set to "true" and add **only the needed IP(s)** in this zone.
 
-* In addition, the sessionToken cookie is not set with an httpOnly flag, so some client-side javascript code can read it.
-* However Message Center on multiple execution cells needs sessionTokenOnly: create a new security zone with sessionTokenOnly set to "true" and add **only the needed IP(s)** in this zone.
+* When possible, set all allowHTTP, showErrors to be false (not for localhost) and check them.
 
-When possible, set all allowHTTP, showErrors to be false (not for localhost) and **check them.**
+  * allowHTTP = "false": forces operators to use HTTPS
+  * showErrors = "false": hides technical errors (including SQL ones). It prevents displaying too much information, but reduces the capability for the marketer to solve mistakes (without asking for more information from an administrator)
 
-* allowHTTP = "false": forces operators to use HTTPS
-* showErrors = "false": hides technical errors (including SQL ones). It prevents displaying too much information, but reduces the capability for the marketer to solve mistakes (without asking for more information from an administrator)
+* Set allowDebug to true only on IPs used by marketing users/administrators who need to create (in fact preview) surveys, webApps and reports. This flag allows these IPs to get relay rules displayed and to debug them.
 
-Set allowDebug to **true** only on IPs used by marketing users/administrators who need to create (in fact preview) surveys, webApps and reports. This flag allows these IPs to get relay rules displayed and to debug them.
+* Never set allowEmptyPassword, allowUserPassword, allowSQLInjection to true. These attributes are only here to allow a smooth migration from v5 and v6.0:
 
-**Never set allowEmptyPassword, allowUserPassword, allowSQLInjection to true**. These attributes are only here to allow a smooth migration from v5 and v6.0:
+  * **allowEmptyPassword** lets operators have an empty password. If this is the case for you, notify all your operators to ask them to set a password with a deadline. Once this deadline has passed, change this attribute to false.
 
-* **allowEmptyPassword** lets operators have an empty password. If this is the case for you, notify all your operators to ask them to set a password with a deadline. Once this deadline has passed, change this attribute to false.
+  * **allowUserPassword** lets operators send their credentials as parameters (so they will be logged by apache/IIS/proxy). This feature was used in the past to simplify API usage. You can check in your cookbook (or in the specification) whether some third-party applications use this. If so, you have to notify them to change the way they use our API and as soon as possible remove this feature.
 
-* **allowUserPassword** lets operators send their credentials as parameters (so they will be logged by apache/IIS/proxy). This feature was used in the past to simplify API usage. You can check in your cookbook (or in the specification) whether some third-party applications use this. If so, you have to notify them to change the way they use our API and as soon as possible remove this feature.
+  * **allowSQLInjection** lets the user perform SQL injections by using an old syntax. As soon as possible carry out the corrections described in [this page](../../migration/using/general-configurations.md) to be able to set this attribute to false. You can use /nl/jsp/ping.jsp?zones=true to check your security zone configuration. This page displays the active status of security measures (computed with these security flags) for the current IP.
 
-* **allowSQLInjection** lets the user perform SQL injections by using an old syntax. As soon as possible carry out the corrections described in [this page](../../migration/using/general-configurations.md) to be able to set this attribute to false.
-You can use /nl/jsp/ping.jsp?zones=true to check your security zone configuration. This page displays the active status of security measures (computed with these security flags) for the current IP.
+* HttpOnly cookie/useSecurityToken: refer to **sessionTokenOnly** flag.
 
-HttpOnly cookie/useSecurityToken: refer to **sessionTokenOnly** flag.
+* Minimize IPs added to the allow list: Out of the box, in security zones, we have added the 3 ranges for private networks. It is unlikely that you will use all of these IP addresses. So keep only the ones that you need.
 
-Minimize IPs added to the allow list: Out of the box, in security zones, we have added the 3 ranges for private networks. It is unlikely that you will use all of these IP addresses. So keep only the ones that you need.
-
-Update webApp/internal operator to be only accessible in localhost.
+* Update webApp/internal operator to be only accessible in localhost.
 
 ## File upload protection
 

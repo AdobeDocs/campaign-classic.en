@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Network, database and SSL/TLS
-description: xxxx
+description: Learn more about network, database, and SSL/TLS configuration best practices.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -23,7 +23,7 @@ When it's possible, use a secure channel: POP3S instead POP3 (or POP3 over TLS).
 
 It is imperative that you follow your database engine security.
 
-SSL/TLS Configuration:
+### SSL/TLS Configuratio*
 
 To check the certificate, you can use openssl. To check active ciphers, you can use nmap:
 
