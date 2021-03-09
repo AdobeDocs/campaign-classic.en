@@ -35,7 +35,7 @@ Access management is an important part of security hardening. Here are some of t
 * Check that each operator has the appropriate access rights
 * Avoid using the admin operator and avoid having too many operators in the admin group
 
-[Read more]()
+[Read more](../../installation/using/access-management.md)
 
 ## Scripting and coding guidelines
 
@@ -49,7 +49,7 @@ When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always fo
 
 * **Adding captchas in web applications**: learn how to add captchas in your public landing pages and subscription pages.
 
-[Read more](../../installation/using/access-management.md)
+[Read more](../../installation/using/scripting-coding-guidelines.md)
 
 ## Network, database and SSL/TLS
 
