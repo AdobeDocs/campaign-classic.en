@@ -39,7 +39,7 @@ To install SSL Certificates on these subdomains, the process involves requesting
 | DER (Distinguished Encoding Rules) |  A certificate extension type. The .der extension is used for binary DER encoded certificates. These files may also support the .cer or .crt extension. |
 | EV (Extended Validation) Certificate | An EV Certificate is a new type of Certificate that is designed to prevent phishing attacks. It requires extended validation of your business and of the person ordering the Certificate. |
 | High Assurance Certificate | High Assurance Certificates are issued by the CA after verifying ownership of the domain name and valid business registration. |
-| Intermediate CA | A Certificate Authority of Intermediate Certificates included in a Chain Certificate.
+| Intermediate CA | A Certificate Authority of Intermediate Certificates included in a Chain Certificate. |
 | Intermediate Certificate | A Certificate Authority issues certificates in the form of a tree structure. The Root Certificate is the top-most certificate of the tree. Any certificate between your Certificate and the Root Certificate is called a chain or Intermediate Certificate. |
 | Low Assurance Certificate	| A Low Assurance Certificate, also referred as Domain Validated Certificate, includes only the domain name in the certificate (and not the business/organization name). |
 | PEM (Privacy Enhanced Mail) | A certificate with a .pem extension which contains ASCII (Base64) data. Such certificates start with a " - - - - - BEGIN CERTIFICATE - - - - -" line. |

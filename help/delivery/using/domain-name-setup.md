@@ -93,7 +93,7 @@ Complete the table below, first line is only an example.
 >[!NOTE]
 >
 >* The purpose of the “Reply-To Address” field is when you want the recipient to reply to a different address than the “From Address”.  While not a required field, Adobe strongly recommends that the “Reply-To Address” be valid and linked to a monitored mailbox.  This mailbox must be hosted by the customer.  It could be a support mailbox, e.g.  customercare@customer.com, where emails are read and responded to.
->* If no “Reply-To Address” is chosen by the customer, then the default address is always <tenant>-<type>-<env>@<subdomain>.
+>* If no “Reply-To Address” is chosen by the customer, then the default address is always `<tenant>-<type>-<env>@<subdomain>`.
 >* When the “Reply-To Address” is set up this way, replies will be sent to an unmonitored mailbox.
 >* When sending emails from Adobe Campaign, the “From Address” mailbox is not monitored and marketing users cannot access this mailbox. Adobe Campaign also does not offer the ability to Auto-Reply or Auto-Forward emails received in this mailbox.
 >* The Campaign From/Sender address and Error address cannot be “abuse” or “postmaster”.
