@@ -166,6 +166,7 @@ Parameters established by Adobe are only valid from the time that the delegation
 These delegations will be accepted provided that the CLIENT chooses the associated domain names that are dedicated to deliveries via the Adobe Campaign tool, and that the delegation prerequisites detailed in the relevant document are correctly implemented.
 
 ## Discontinuation of services
+
 At any moment, the CLIENT will be able to make a written demand to no longer benefit from the delegation services and to take on the necessary DNS configurations themselves.
 
 If this should happen, Adobe will provide the CLIENT with an estimate detailing the number of service days necessary to return back to non-domain-delegation mode.
