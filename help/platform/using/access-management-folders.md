@@ -10,7 +10,7 @@ topic-tags: administration-basics
 
 # Manage access to folders{#folder-access-management}
 
-Each folder of the tree has read, write, and delete access rights attached to it. To access a file, an operator or group of operators must at least have read access to it.
+Each folder of the Explorer navigation tree has read, write, and delete access rights attached to it. To access a file, an operator or group of operators must at least have read access to it.
 
 ## Permissions on a folder
 
@@ -64,7 +64,7 @@ Folders are nodes in Adobe Campaign tree. These nodes are created by right-click
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-You can grant permissions to these folders as on all the other folders of the tree. See [Folder access management](#folder-access-management).
+You can customize the Explorer navigation tree. Learn configuration steps and best practices [in this section](adobe-campaign-workspace.md).
 
 ### About views {#about-views}
 
