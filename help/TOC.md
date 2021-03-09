@@ -212,8 +212,8 @@ type: Documentation
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
-       + [Domain name setup](/help/additional-resources/domain-name-setup.md)
-       + [CSR and SSL certificate request process](/help/additional-resources/csr-ssl-certificate-request.md)
+       + [Domain name setup](delivery/using/domain-name-setup.md)
+       + [CSR and SSL certificate request process](delivery/using/csr-ssl-certificate-request.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)

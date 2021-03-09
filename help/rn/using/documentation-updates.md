@@ -456,7 +456,7 @@ A section has been added describing the installation and configuration steps for
 
 A section has been added describing the Campaign server uninstallation steps. [Read more](../../installation/using/uninstalling-campaign.md)
 
-The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
+The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
 The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
 
