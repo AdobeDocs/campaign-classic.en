@@ -21,7 +21,7 @@ To present an offer during a marketing campaign, simply create a classic deliver
 
 ![](assets/offer_delivery_009.png)
 
-For more on deliveries and marketing campaigns, refer to [Delivery](../../delivery/using/about-direct-mail-channel.md) and [Campaign](../../campaign/using/setting-up-marketing-campaigns.md).
+Learn more about direct mail deliveries [in this section](../../delivery/using/about-direct-mail-channel.md). Learn more about marketing campaigns [in this section](../../campaign/using/setting-up-marketing-campaigns.md).
 
 ### Main steps for inserting an offer into a delivery {#main-steps-for-inserting-an-offer-into-a-delivery}
 

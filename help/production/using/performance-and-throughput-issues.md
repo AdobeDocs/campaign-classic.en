@@ -60,4 +60,4 @@ Here are is a list of best practices and articles related to deliverability:
 
 >[!NOTE]
 >
->See also [Deliverability key points](../../delivery/using/deliverability-key-points.md) section.
+>See also the [Deliverability](../../delivery/using/about-deliverability.md) section. For a deeper dive on deliverability, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
