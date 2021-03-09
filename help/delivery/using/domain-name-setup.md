@@ -21,6 +21,7 @@ With Adobe, digital marketing can truly become the contextual engine that powers
 Creating a sub-domain for email campaigns allows brands to isolate varying types of traffic (marketing vs. corporate for example) into specific IP pools and with specific domains, which will speed the [IP warming process](../../help/additional-resources/increase-reputation-with-ip-warming.md) and improve deliverability overall. If you share a domain and it gets blocked or added to the block list it could impact your corporate mail delivery, but reputation issues or blocks on a domain specific to your email marketing communications will impact just that flow of email.  Using your main domain as the sender or ‘From’ address for multiple mail streams could also break email authentication, causing your messages to be blocked or placed in the spam folder. 
 
 ### Delegation
+
 Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, if a customer is handling the zone "example.com", he can delegate the sub-zone "marketing.example.com" to Adobe Campaign.
 
 This means that Adobe Campaign’s DNS servers will have full authority on only that zone and not the top-level domain. Adobe Campaign’s DNS servers will provide authoritative answers to queries on domain names in that zone, such as "t.marketing.example.com" itself but not “www.example.com”.
@@ -43,7 +44,7 @@ In order to provide a cloud-based managed service, Adobe strongly encourages cli
 
 | Record Type | Purpose | Examples Record/Content |
 |--- |--- |--- |
-| MX | Specify mail servers for incoming messages | <i>email.example.com</i></br><i>10 inbound.email.example.com</i>
+| MX | Specify mail servers for incoming messages | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Sender Policy Framework | <i>email.example.com</i></br>"v=spf1 redirect=__spf.campaign.adobe.com" |
 | DKIM (TXT) | DomainKeys Identified Mail | <i>client._domainkey.email.example.com</i></br>"v=DKIM1; k=rsa;" "DKIMPUBLICKEY HERE" |
 | DMARC (TXT) | Domain-based Message Authentication | Reporting & Conformance | _dmarc.email.example.com</br>“v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” |
@@ -87,7 +88,7 @@ Complete the table below, first line is only an example.
 | Subdomain | From address | From name | Reply-to address |
 |--- |--- |--- |--- |
 | emails.customer.com | news@emails.customer.com | Customer | customercare@customer.com |
-|  </br>|  |  |  |
+|  </br> | </br> | </br> | </br> |
 
 >[!NOTE]
 >
@@ -103,14 +104,16 @@ The subdomain(s) chosen to be used for the Adobe Campaign platform must be deleg
 
 | Delegated subdomain | DNS Instructions |
 |--- |--- |
-<subdomain>
-| <subdomain> NS a.ns.campaign.adobe.com. | <subdomain> NS b.ns.campaign.adobe.com. | <subdomain> NS c.ns.campaign.adobe.com. | <subdomain> NS d.ns.campaign.adobe.com.
+| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com. </br> `<subdomain>` NS b.ns.campaign.adobe.com. </br> `<subdomain>` NS c.ns.campaign.adobe.com. </br> `<subdomain>` NS d.ns.campaign.adobe.com. |
 
 Tracking, Mirror pages, Resources
 Once the email sending subdomain(s) is/are properly delegated to Adobe Campaign, the Adobe TechOps team will create two or more lower-level domains to manage tracking and mirror pages independently.
 
 | Type | Domain |
-| Mirror pages | m.<subdomain> | Tracking | t.<subdomain> | Resources | res.<subdomain> |
+|--- |--- |
+| Mirror pages | m.`<subdomain>` |
+|Tracking | t.`<subdomain>` |
+|Resources | res.`<subdomain>` |
 
 ## Cloud deployment (optional)
 
