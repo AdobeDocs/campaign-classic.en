@@ -12,7 +12,7 @@ hidefromtoc: yes
 
 # CSR and SSL Certificate request process
 
-Once you have delegated a domain to Adobe for sending email (see [Domain name setup](../../help/additional-resources/domain-name-setup.md)), Adobe will create and use certain subdomains for specific functions.
+Once you have delegated a domain to Adobe for sending email (see [Domain name setup](../../delivery/using/domain-name-setup.md)), Adobe will create and use certain subdomains for specific functions.
 
 For example, if you have delegated email.example.com to Adobe for sending emails, Adobe will create subdomains such as the following:
 * *t.email.example.com* - for tracking links
@@ -179,11 +179,11 @@ Navigate to the following URLs in your browser (replace email.customer.com with 
 
 A successful result will give environment information, and the address bar in the URL will indicate that the connection is secure. For example, you can see the following message in Google Chrome:
 
-![](../../help/assets/ssl-google-successful-result.png)
+![](assets/ssl-google-successful-result.png)
 
 If the SSL Certificate is not installed properly, you will see the following warning:
 
-![](../../help/assets/ssl-google-unsuccessful-result.png)
+![](assets/ssl-google-unsuccessful-result.png)
 
 ### Step 7 - Check the Certificate validity period
 

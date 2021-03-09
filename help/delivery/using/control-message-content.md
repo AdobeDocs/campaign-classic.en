@@ -24,7 +24,7 @@ For additional tips to optimize deliverability when designing content, see the [
 
 >[!NOTE]
 >
->For more information on editing email content, see [Defining the email content](../../designing/using/designing-content-in-adobe-campaign.md) and [Build personalized content](../../delivery/using/design-and-personalize.md).
+>For more information on editing email content, see [Defining the email content](../../delivery/using/defining-the-email-content.md) and [Build personalized content](../../delivery/using/design-and-personalize.md).
 
 ## Sender address {#sender-address}
 

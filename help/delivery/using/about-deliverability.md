@@ -88,7 +88,7 @@ Adobe Campaign allows you to check how your deliveries are performing through a 
 For more on this, refer to the following sections:
 
 * [Monitoring deliverability](../../delivery/using/monitoring-deliverability.md)
-* [About delivery monitoring](../../../../delivery/using/about-delivery-monitoring.md)
+* [About delivery monitoring](../../delivery/using/about-delivery-monitoring.md)
 * [About Campaign built-in reports](../../reporting/using/about-campaign-built-in-reports.md)
 
 <!--TO REMOVE
