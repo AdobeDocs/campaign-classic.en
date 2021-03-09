@@ -16,7 +16,7 @@ Core functionalities include targeting, definition and personalization of messag
 
 >[!NOTE]
 >
->Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. For more information, consult the [Deliverability getting started](../../delivery/using/deliverability-key-points.md) and [Deliverability management](../../delivery/using/about-deliverability.md).
+>Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. Learn more in [this section](../../delivery/using/about-deliverability.md).
 
 Delivery sending can be automated by preparing a delivery and/or sending it in the process of a workflow. For more on delivery-type activities in workflows, refer to [this section](../../workflow/using/about-action-activities.md).
 
