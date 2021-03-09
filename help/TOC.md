@@ -33,6 +33,7 @@ type: Documentation
     + [Release 18.4](rn/using/release--18-4.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
+  + [Technotes](technotes/technote.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
