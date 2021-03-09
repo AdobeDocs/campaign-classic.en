@@ -10,13 +10,6 @@ topic-tags: prerequisites-and-recommendations-
 
 # Privacy {#privacy}
 
-Privacy configuration and hardening is a key element of security optimization. Read out this section to learn more on privacy best practices:
-
-* Protect your customer PII by using HTTPS instead of HTTP
-* Use PII view restriction to protect privacy and prevent data from being misused.
-* Make sure that encrypted passwords are restricted.
-* Protect the pages that might contain personal information such as mirror pages, web applications, etc.
-
 ## Privacy Requests
 
 Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR and CCPA.

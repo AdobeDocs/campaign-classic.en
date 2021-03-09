@@ -10,7 +10,7 @@ topic-tags: prerequisites-and-recommendations-
 
 # Web-server configuration {#web-server-configuration}
 
-You will find below some of the main best practices related to web-server Apache/IIS) configuration.
+You will find below some of the main best practices related to web-server (Apache/IIS) configuration.
 
 Change default error pages.
 

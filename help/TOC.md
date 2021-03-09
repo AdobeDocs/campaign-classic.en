@@ -666,6 +666,7 @@ type: Documentation
        + [Create the data schema](installation/using/creating-data-schema.md)
        + [Define data mapping](installation/using/defining-data-mapping.md)
   + Security and privacy checklist {#security-privacy}
+       + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
        + [Privacy](installation/using/privacy.md)
        + [Access Management](installation/using/access-management.md)
        + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)

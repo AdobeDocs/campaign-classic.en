@@ -10,19 +10,6 @@ topic-tags: prerequisites-and-recommendations-
 
 # Server configuration {#server-configuration}
 
-Configuration has to be performed on all servers. The configuration files are of the type **serverConf.xml** and **`config-<instance>.xml`**. Here are the key elements that need to be verified:
-
-* **Security zones**: Configure security zones so that they directly take into account the IP addresses of clients of a proxy.
-
-* **File upload protection**: limit the types of files that can be uploaded to the Adobe Campaign server using a new uploadAllowList attribute. This can be used in the server configuration file.
-
-* **Relay**: fine tune the relay configuration by deactivating the relay rules for unused modules/applications.
-
-* **Outgoing connection protection** and **Command restriction** (server-side)
-
-* You can also add extra HTTP headers, activate checkIPConsistent, enableTLS, sessionTimeOutSec, etc.
-Refer to the [Campaign server configuration documentation](../../installation/using/configuring-campaign-server.md) and the [Server configuration file description](../../installation/using/the-server-configuration-file.md) for more information.
-
 ## Configuring security zones
 
 >[!IMPORTANT]
