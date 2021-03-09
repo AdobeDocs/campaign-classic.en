@@ -53,10 +53,6 @@ type: Documentation
           + [Reports](platform/using/faq-reporting.md)
           + [Development](platform/using/faq-developers.md)
        + [Tutorials](platform/using/tutorials.md)
-  + Privacy {#privacy}
-       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
-       + [Privacy management](platform/using/privacy-management.md)
-       + [Privacy requests](platform/using/privacy-requests.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
        + [Edit a profile](platform/using/editing-a-profile.md)
@@ -672,6 +668,14 @@ type: Documentation
        + [Connect to the database](installation/using/connecting-to-database.md)
        + [Create the data schema](installation/using/creating-data-schema.md)
        + [Define data mapping](installation/using/defining-data-mapping.md)
+  + Security and privacy checklist {#security-privacy}
+       + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
+       + [Privacy](installation/using/privacy.md)
+       + [Access Management](installation/using/access-management.md)
+       + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)
+       + [Network, database and SSL/TLS](installation/using/network-database.md)
+       + [Server configuration](installation/using/server-configuration.md)
+       + [Web-server configuration](installation/using/web-server-configuration.md)
   + Appendices {#appendices}
        + [Server configuration file](installation/using/the-server-configuration-file.md)
        + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
