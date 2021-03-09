@@ -2,10 +2,10 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign workspace
-description: Adobe Campaign workspace
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+description: Learn how to use and customize Campaign workspace
+feature: Overview
+role: Data Engineer
+level: Beginner
 ---
 
 # Adobe Campaign workspace{#adobe-campaign-workspace}
