@@ -44,7 +44,8 @@ The new build is compatible with at least Campaign Classic 17.9 release, but to 
 
 * As an on-premise customer, you are requested to upgrade marketing and mid-sourcing instances to a new build. 
 
-[!CAUTION]
+>[!CAUTION]
+>
 >If you cannot upgrade for now, **you must contact Adobe Customer Care team to apply manualy a security fix on your instances**.
 >
 
