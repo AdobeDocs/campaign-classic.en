@@ -62,7 +62,7 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 
   ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign**: go to the **[!UICONTROL Profiles and targets]** universe, click the **[!UICONTROL Services and Subscriptions]** link and click the **[!UICONTROL Create]** button.
+* **Adobe Campaign**: go to the **[!UICONTROL Profiles and targets]** tab, click the **[!UICONTROL Services and Subscriptions]** link and click the **[!UICONTROL Create]** button.
 
   ![](assets/social_twitter_service_007.png)
 

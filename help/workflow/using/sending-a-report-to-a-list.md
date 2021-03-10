@@ -22,7 +22,7 @@ The main implementation steps for this use case are:
 
 ## Step 1: Creating the recipient list {#step-1--creating-the-recipient-list}
 
-Go to the **[!UICONTROL Profiles and targets]** universe, click the **[!UICONTROL Lists]** link, then the **[!UICONTROL Create]** button. Select **[!UICONTROL New list]** and create a new recipient list for the report to be sent to.
+Go to the **[!UICONTROL Profiles and targets]** tab, click the **[!UICONTROL Lists]** link, then the **[!UICONTROL Create]** button. Select **[!UICONTROL New list]** and create a new recipient list for the report to be sent to.
 
 ![](assets/use_case_report_1.png)
 

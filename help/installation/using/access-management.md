@@ -2,21 +2,13 @@
 solution: Campaign Classic
 product: campaign
 title: Access management
-description: xxxx
+description: Learn more about access management best practices.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 ---
 
 # Access management {#access-management}
-
-Access management is an important part of security hardening. Here are some of the main best practices:
-
-* Create enough security groups
-* Check that each operator has the appropriate access rights
-* Avoid using the admin operator and avoid having too many operators in the admin group
-
-Refer to [this page](../../platform/using/access-management.md).
 
 ## Webapp operator
 

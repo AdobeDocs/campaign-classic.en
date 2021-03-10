@@ -2,21 +2,13 @@
 solution: Campaign Classic
 product: campaign
 title: Scripting and coding guidelines
-description: xxxx
+description: Learn more about the guidelines to follow when developing in Adobe Campaign (workflows, Javascript, JSSP, etc.).
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 ---
 
 # Scripting and coding guidelines {#scripting-coding-guidelines}
-
-When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always follow these guidelines:
-
-* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
-
-* **Securing the data model**: use named rights to limit operator actions, add system filters (sysFilter)
-
-* **Adding captchas in web applications**: learn how to add captchas in your public landing pages and subscription pages.
 
 ## Scripting
 
@@ -146,13 +138,13 @@ The general way to add a captcha in the DCE is to create a personalization block
     * Line 4 allows you to change captcha gray box size (width/height) and the length of generated word (minWordSize/maxWordSize).
     * Before using Google reCAPTCHA, you must register on Google and create a new reCAPTCHA site.
 
-    `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
+        `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
 
     You should be able to disable the validation button, but as we don't have any standard button/link, it's better to do it in the HTML itself. To learn how to do it, refer to [this page](https://developers.google.com/recaptcha/).
 
 ### Updating your web application
 
-1. Access the the properties of your web application to add a boolean variable named **captchaValid**.
+1. Access the properties of your web application to add a boolean variable named **captchaValid**.
 
     ![](assets/scripting-captcha.png)
 
@@ -168,7 +160,7 @@ The general way to add a captcha in the DCE is to create a personalization block
 
 1. Edit the **[!UICONTROL Script]** activity. The content will depend on the chosen captcha engine. 
 
-1. Finally, you can add your personalized block in the page: refer to the documentation. 
+1. Finally, you can add your personalized block in the page: refer to [this page](../../web/using/editing-content.md). 
 
     ![](assets/scripting-captcha4.png)
 

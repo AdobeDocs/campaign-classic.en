@@ -76,7 +76,7 @@ If a local entity registers for a campaign this is made into an order which regr
 
 ## Workspace {#workspace}
 
-The list of campaign packages can be accessed from the **Campaigns** universe: click the **[!UICONTROL Campaign packages]** link.
+The list of campaign packages can be accessed from the **Campaigns** tab: click the **[!UICONTROL Campaign packages]** link.
 
 ![](assets/mkg_dist_home_local_op.png)
 

@@ -82,7 +82,7 @@ Cubes are stored in the **[!UICONTROL Administration > Configuration > Cubes]** 
 
 The main contexts of use for cubes are as follows:
 
-* Data exports can be carried out directly in a report, designed in the **[!UICONTROL Reports]** universe of the Adobe Campaign platform.
+* Data exports can be carried out directly in a report, designed in the **[!UICONTROL Reports]** tab of the Adobe Campaign platform.
 
   To do this, create a new report and select the cube you want to use.
 

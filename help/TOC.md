@@ -33,23 +33,26 @@ type: Documentation
     + [Release 18.4](rn/using/release--18-4.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
+  + [Technotes](technotes/technote.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
        + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
-       + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
-       + Frequently Asked Questions {#faq}
-          + [Top questions](platform/using/common-questions.md)
-          + [Global concepts](platform/using/faq-key-concepts.md)
-          + [Build upgrade](platform/using/faq-build-upgrade.md)
-          + [Privacy](platform/using/privacy-faq.md)
-          + [Audiences](platform/using/faq-audiences.md)
-          + [Design messages](platform/using/faq-designing.md)
-          + [Send messages](platform/using/faq-messages.md)
-          + [Workflows](platform/using/faq-workflows.md)
-          + [Configuration](platform/using/faq-campaign-config.md)
-          + [Reports](platform/using/faq-reporting.md)
-          + [Development](platform/using/faq-developers.md)
+     + Adobe Campaign workspace{#campaign-workspace}
+       + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
+       + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
+     + Frequently Asked Questions {#faq}
+       + [Top questions](platform/using/common-questions.md)
+       + [Global concepts](platform/using/faq-key-concepts.md)
+       + [Build upgrade](platform/using/faq-build-upgrade.md)
+       + [Privacy](platform/using/privacy-faq.md)
+       + [Audiences](platform/using/faq-audiences.md)
+       + [Design messages](platform/using/faq-designing.md)
+       + [Send messages](platform/using/faq-messages.md)
+       + [Workflows](platform/using/faq-workflows.md)
+       + [Configuration](platform/using/faq-campaign-config.md)
+       + [Reports](platform/using/faq-reporting.md)
+       + [Development](platform/using/faq-developers.md)
        + [Tutorials](platform/using/tutorials.md)
   + Privacy {#privacy}
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
@@ -89,7 +92,11 @@ type: Documentation
        + [Steps to create a query](platform/using/steps-to-create-a-query.md)
        + [Define filter conditions](platform/using/defining-filter-conditions.md)
   + Permissions {#permissions}
-       + [Access management](platform/using/access-management.md)
+       + [Get started with permissions](platform/using/access-management.md)
+       + [Create and manage operators](platform/using/access-management-operators.md)
+       + [Create and manage groups](platform/using/access-management-groups.md)
+       + [Use named rights to set up permissions](platform/using/access-management-named-rights.md)
+       + [Manage access to folders](platform/using/access-management-folders.md)
   + Data packages and enumerations {#administration-basics}
        + [Data packages](platform/using/working-with-data-packages.md)
        + [Enumerations](platform/using/managing-enumerations.md)
@@ -131,6 +138,7 @@ type: Documentation
        + [SMS channel](delivery/using/sms-channel.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
        + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
+       + [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
   + [Send LINE messages](delivery/using/line-channel.md)
   + Send push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
@@ -664,6 +672,7 @@ type: Documentation
        + [Create the data schema](installation/using/creating-data-schema.md)
        + [Define data mapping](installation/using/defining-data-mapping.md)
   + Security and privacy checklist {#security-privacy}
+       + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
        + [Privacy](installation/using/privacy.md)
        + [Access Management](installation/using/access-management.md)
        + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)
@@ -786,9 +795,8 @@ type: Documentation
        + [SOAP methods in JavaScript](configuration/using/soap-methods-in-javascript.md)
        + [Adding additional SQL functions](configuration/using/adding-additional-sql-functions.md)
   + Navigation hierarchy {#navigation-hierarchy}
-       + [About navigation hierarchy](configuration/using/about-navigation-hierarchy.md)
-       + [Configuration](configuration/using/configuration.md)
-       + [Edition](configuration/using/edition.md)
+       + [Configure the Explorer hierarchy](configuration/using/configuration.md)
+       + [Edit the Explorer hierarchy](configuration/using/edition.md)
   + Use a custom recipient table {#use-a-custom-recipient-table}
        + [About custom recipient table](configuration/using/about-custom-recipient-table.md)
        + [Schema characteristics](configuration/using/schema-characteristics.md)

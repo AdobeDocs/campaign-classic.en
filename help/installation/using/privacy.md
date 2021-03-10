@@ -2,20 +2,13 @@
 solution: Campaign Classic
 product: campaign
 title: Privacy
-description: xxxx
+description: Learn more about the best practices to follow regarding privacy.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 ---
 
 # Privacy {#privacy}
-
-Privacy configuration and hardening is a key element of security optimization. Read out this section to learn more on privacy best practices:
-
-* Protect your customer PII by using HTTPS instead of HTTP
-* Use PII view restriction to protect privacy and prevent data from being misused.
-* Make sure that encrypted passwords are restricted.
-* Protect the pages that might contain personal information such as mirror pages, web applications, etc.
 
 ## Privacy Requests
 
@@ -46,7 +39,6 @@ Example:
 1. Run the workflow and check if there are result.
 
 1. If so, open the output transition to view the list of URLs.
-Query on Dynamic URLs
 
 <img src="assets/privacy-query-dynamic-url.png">
 
@@ -66,17 +58,15 @@ To activate this new mechanism, on-premise customers need to follow these steps 
 1. Restart the **nlserver** service.
 1. On the tracking server, restart the web server (apache2 on Debian, httpd on CentOS/RedHat, IIS on Windows).
 
->[!IMPORTANT]
->
->Customers running on Build 19.1.4 (9032@3a9dc9c) can experience issues with push notification deliveries using tracking link, or deliveries using anchor tags. If so, Adobe recommends to disable the new signature mechanism for tracking links. 
->
->Hosted and hybrid customers must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have this mechanism disabled.
->
->On-premise customers can follow the step below :
->
->1. In the server configuration file (serverConf.xml), change **signEmailLinks** to **false**.
->1. Restart the **nlserver** service.
->1. On the tracking server, restart the web server (apache2 on Debian; httpd on CentOS/RedHat; IIS on Windows).
+Customers running on Build 19.1.4 (9032@3a9dc9c) can experience issues with push notification deliveries using tracking link, or deliveries using anchor tags. If so, Adobe recommends to disable the new signature mechanism for tracking links:
+
+**Hosted and hybrid customers** must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have this mechanism disabled.
+
+**On-premise customers** can follow the step below :
+
+1. In the server configuration file (serverConf.xml), change **signEmailLinks** to **false**.
+1. Restart the **nlserver** service.
+1. On the tracking server, restart the web server (apache2 on Debian, httpd on CentOS/RedHat, IIS on Windows).
 
 ## Data restriction
 
@@ -159,6 +149,7 @@ The goal of this procedure is to prevent these pages from being indexed, thus av
 * [https://developers.google.com/search/reference/robots_meta_tag](https://developers.google.com/search/reference/robots_meta_tag)
 * [https://www.google.com/webmasters/tools/robots-testing-tool](https://www.google.com/webmasters/tools/robots-testing-tool
 )
+
 To protect your pages, follow these steps:
 
 1. Add a robots.txt file at the root of your web server (Apache or IIS). Here is the content of the file:

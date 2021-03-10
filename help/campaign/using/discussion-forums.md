@@ -88,7 +88,7 @@ Subscribing to a forum lets you follow discussions. You will receive an email no
 
   ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-  For more on personal dashboards, refer to the [this section](../../platform/using/access-management.md#operators).
+  For more on personal dashboards, refer to the [this section](../../platform/using/access-management-operators.md).
 
 * To see who is subscribed to a forum, click the **[!UICONTROL List of subscribers to this discussion forum]** link above the list of messages.
 

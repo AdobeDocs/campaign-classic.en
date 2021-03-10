@@ -18,7 +18,7 @@ They must also be mapped to the named rights that coincide with the actions perf
 
 For more on managing operators and permissions, refer to this [section](../../platform/using/access-management.md).
 
-## Operator groups {#operator-groups}
+## Operator groups {#operator-groups-wf}
 
 The following operator groups are associated to the workflow:
 

@@ -22,7 +22,7 @@ Access to the report can be limited to a specific context or offer space, for in
 
 * **[!UICONTROL Single selection]** : the report is only accessible when a specific entity is selected. 
 * **[!UICONTROL Multiple selection]** : the report is accessed when several entities are selected.
-* **[!UICONTROL Global]** : the report is accessed via the list of available reports in the Reports universe.
+* **[!UICONTROL Global]** : the report is accessed via the list of available reports in the **[!UICONTROL Reports]** tab.
 
 ### Display sequence {#display-sequence}
 
@@ -56,7 +56,7 @@ The report can also be shared with specific operators or groups of operators add
 
 ### Defining the filtering options {#defining-the-filtering-options}
 
-The **[!UICONTROL Reports]** universe displays all available reports in the platform and for which the connected operator has an access right.
+The **[!UICONTROL Reports]** tab displays all available reports in the platform and for which the connected operator has an access right.
 
 By default, they are sorted by relevance, but you can apply other types of filters: alphabetical, by age, etc.
 

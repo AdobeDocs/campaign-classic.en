@@ -16,7 +16,7 @@ Additional ways of monitoring the different Campaign processes are presented in 
 
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}
 
-The instance monitoring dashboard can be accessed via the **[!UICONTROL Monitoring]** universe.
+The instance monitoring dashboard can be accessed via the **[!UICONTROL Monitoring]** tab.
 
 ![](assets/monitoring_technical_workflows1.png)
 

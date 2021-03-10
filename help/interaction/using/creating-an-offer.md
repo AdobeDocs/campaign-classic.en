@@ -14,7 +14,7 @@ topic-tags: managing-an-offer-catalog
 
 To create an offer, apply the following steps:
 
-1. Go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Offers]** link.
+1. Go to the **[!UICONTROL Campaigns]** tab and click the **[!UICONTROL Offers]** link.
 
    ![](assets/offer_create_001.png)
 

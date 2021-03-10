@@ -8,7 +8,11 @@ content-type: reference
 topic-tags: navigation-hierarchy
 ---
 
-# Configuration{#configuration}
+# Configure Campaign Explorer navigation tree{#configuration}
+
+As an expert user, you can add folders in the explorer tree and customize it. 
+
+Learn more about Campaign explorer and navigation hierarchy [in this section](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy).
 
 The types of folders used by the navigation list are described in an XML document that obeys the grammar of the **xtk:navtree** schema.
 
