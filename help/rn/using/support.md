@@ -27,6 +27,7 @@ Get support using our FAQs, best practices, online resources and support portal.
 <img src="../../platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
 ### Frequently Asked Questions
+
 How to upgrade to a new build? how to monitor workflow execution? what is the database cleanup workflow?... [Read out top 10 questions](../../platform/using/common-questions.md).
 
 ### Topics Q&A
@@ -132,6 +133,6 @@ Creating a case allows you to contact the Adobe Customer Support Team about any 
 
 To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with [Adobe Customer Support](https://adminconsole.adobe.com/overview).
 
-To log an issue or start a chat session in that new system, connect to [Adobe Admin Console]().
+To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
