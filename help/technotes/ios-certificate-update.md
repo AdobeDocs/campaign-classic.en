@@ -11,7 +11,7 @@ hidefromtoc: yes
 
 On March 29 2021, an Apple Push Notification service (APNs) infrastructure update will impact Adobe Campaign Classic iOS channel. An OS configuration change is **mandatory** to avoid iOS push channel outage.
  
-Learn more [in this page](https://developer.apple.com/news/?id=7gx0a2lp).
+Learn more about APNs changes [in this page](https://developer.apple.com/news/?id=7gx0a2lp).
 
 As a hosted customer, no action is needed: Adobe has already incorporated the new root certificate to your environment.
 
