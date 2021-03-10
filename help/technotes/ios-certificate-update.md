@@ -19,7 +19,7 @@ As an on-premise/hybrid customer, you need to update your configuration to ensur
 
 To incorporate the new certificate, follow the steps below:
 
-1. Download the **AAACertificateServices 5/12/2020** root certificate [in this page](https://support.sectigo.com/Com_KnowledgeDetailPage?Id=kA03l00000117cL).
+1. Download the **AAACertificateServices 5/12/2020** root certificate [from this page](https://support.sectigo.com/Com_KnowledgeDetailPage?Id=kA03l00000117cL).
 
 1. Add it to the OS Trust Store.
 
