@@ -31,8 +31,8 @@ For each delivery, a dedicated dashboard is available. It allows you to monitor 
 
 Several guidelines should be followed in order to ensure your deliveries perform well. Common issues you may encounter when sending deliveries are also available to help you send deliveries efficiently.
 
-* [Delivery performances and best practices](../../delivery/using/list-of-deliveries.md)
-* [Delivery sending troubleshooting](../../delivery/using/delivery-dashboard.md)
+* [Delivery performances and best practices](../../delivery/using/delivery-performances.md)
+* [Delivery sending troubleshooting](../../delivery/using/delivery-troubleshooting.md)
 
 <img src="assets/do-not-localize/icon_failure.svg" width="60px">
 
