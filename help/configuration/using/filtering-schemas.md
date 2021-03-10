@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-schemas
 ---
 
-# Filtering schemas{#filtering-schemas}
+# Filter schemas{#filtering-schemas}
 
 ## System filters {#system-filters}
 
@@ -58,7 +58,7 @@ These filters are entered at the main **element** level of the schemas and, as s
 >
 >If no filter is specified, all operators will have read and write permissions to the schema.
 
-## Protecting built-in schemas {#protecting-built-in-schemas}
+## Protect built-in schemas {#protecting-built-in-schemas}
 
 By default, built-in schemas are only accessible with WRITE permissions for operators with ADMINISTRATION rights:
 
@@ -97,7 +97,7 @@ By default, built-in schemas are only accessible with WRITE permissions for oper
 >
 >READ and WRITE permissions for the **xtk:sessionInfo** schema are only accessible by the internal account of an Adobe Campaign instance.
 
-## Modifying system filters of built-in schemas {#modifying-system-filters-of-built-in-schemas}
+## Modify system filters of built-in schemas {#modifying-system-filters-of-built-in-schemas}
 
 You can still modify the system filters of the out-of-the-box schemas which are by default protected due to compatibility issues with older versions.
 

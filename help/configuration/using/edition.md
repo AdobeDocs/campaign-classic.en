@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: navigation-hierarchy
 ---
 
-# Edition{#edition}
+# Edit Campaign Explorer navigation tree{#edition}
 
 The screen for creating and configuring the navigation hierarchy configuration documents is accessible via the **[!UICONTROL Administration > Configuration > Navigation hierarchies]** node:
 

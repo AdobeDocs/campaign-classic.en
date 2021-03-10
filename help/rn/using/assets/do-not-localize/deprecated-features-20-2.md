@@ -50,7 +50,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <li>iOS</li>
    </ul>
   <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivery/using/sms-channel.md">Learn more</a></p> 
-  <p>Learn how to migrate legacy connectors in <a href="https://helpx.adobe.com/campaign/kb/sms-connector.html">this technote</a>.</p>
+  <p>Learn how to migrate legacy connectors in <a href="../../delivery/using/unsupported-connector-migration.md">this technote</a>.</p>
   <p><em>Target removal date: 2021</em></p>
   </td> 
  </tr>

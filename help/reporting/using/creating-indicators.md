@@ -114,7 +114,7 @@ Once the cube is configured, it can be used as a template for creating a new rep
 
 To do this:
 
-1. Click the **[!UICONTROL Create]** button of the **[!UICONTROL Reports]** universe and select the cube you have just created.
+1. Click the **[!UICONTROL Create]** button of the **[!UICONTROL Reports]** tab and select the cube you have just created.
 
    ![](assets/s_advuser_cube_wz_14.png)
 

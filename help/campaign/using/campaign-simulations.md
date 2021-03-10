@@ -30,7 +30,7 @@ Simulation lets you monitor and compare the impact of deliveries.
 
 To create a simulation, apply the following steps:
 
-1. Go to the **[!UICONTROL Campaigns]** universe, click the **[!UICONTROL More]** link within the **[!UICONTROL Create]** section and select the **[!UICONTROL Simulation]** option.
+1. Open the **[!UICONTROL Campaigns]** tab, click the **[!UICONTROL More]** link within the **[!UICONTROL Create]** section and select the **[!UICONTROL Simulation]** option.
 
    ![](assets/simu_campaign_opti_01.png)
 
