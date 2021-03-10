@@ -15,11 +15,11 @@ Campaign users need to upgrade to one of the latest versions below:
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.3.3 release. [Learn more](../rn/using/release--20.3.md)
-* Campaign 20.2.4 release. [Learn more](../rn/using/release--20.2.md)
-* Campaign 20.1.4 release. [Learn more](../rn/using/release--20.1.md)
-* Campaign 19.2.4 release. [Learn more](../rn/using/release--19.2.md)
-* Campaign 19.1.8 release. [Learn more](../rn/using/release--19.1.md)
+* Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
+* Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
+* Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
+* Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
 These builds ensure the continuity of certain Campaign services: Experience Cloud Triggers integration, APNs authentication and the new connection protocol which impacts Adobe Identity Management Service (IMS) authentication mechanism.  
 
