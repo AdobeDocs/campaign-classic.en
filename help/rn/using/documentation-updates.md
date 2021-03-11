@@ -257,7 +257,7 @@ The Monitoring deliverability section has been moved and improved. [Read more](.
 
 The Deliverability troubleshooting section has been moved and improved. [Read more](../../delivery/using/deliverability-faq.md)
 
-Deliverability guidelines when starting a new platform section has been enhanced. [Read more](../../delivery/using/starting-new-platform.md)
+Deliverability guidelines when starting a new platform have been enhanced. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
 
 The Sending transactional emails with attachments section has been moved and updated. [Read more](../../message-center/using/transactional-email-with-attachments.md)
 
