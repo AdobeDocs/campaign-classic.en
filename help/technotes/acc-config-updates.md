@@ -72,13 +72,17 @@ As an on-premise/hybrid customer, you need to upgrade to one of the newer versio
 
 ## Integration with Experience Cloud Triggers
 
-The legacy oAuth authentication service has reached end-of-life, it will be retired on June 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411). 
+The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on June 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411). 
 
 **Are you impacted?**
 
 If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O**. 
 
 **How to update?**
+
+Once the instances are upgraded to a newer version, all customers need to follow the [procedure move to the new authentication mode](../integrations/using/configuring-adobe-io.md). This requires to generate the new Adobe I/O token and use it in the implementation.    
+
+In addition, for hybrid environments, customers need to ensure that pipeline is configured on mid-sourcing instance. [Learn more](../integrations/using/configuring-pipeline.md).
 
 [Learn how to migrate to Adobe I/O](../integrations/using/configuring-adobe-io.md). 
 
@@ -112,4 +116,4 @@ As a hosted customer, no action is needed: Adobe has already incorporated the ne
 
 As an on-premise/hybrid customer, you need to update your configuration to ensure a seamless transition **before March 29 2021**.
 
-[Learn how to incorporate the new certificate](ios-certificate-update.md)
+[Learn how to incorporate the new certificate](ios-certificate-update.md).
