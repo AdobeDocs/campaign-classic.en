@@ -8,7 +8,11 @@ content-type: reference
 topic-tags: navigation-hierarchy
 ---
 
-# Configuration{#configuration}
+# Configure Campaign Explorer navigation tree{#configuration}
+
+As an expert user, you can add folders in the explorer tree and customize it. 
+
+Learn more about Campaign explorer and navigation hierarchy [in this section](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy).
 
 The types of folders used by the navigation list are described in an XML document that obeys the grammar of the **xtk:navtree** schema.
 
@@ -291,7 +295,7 @@ For a linked folder, the **folderLink** attribute on the **`<nodemodel>`** eleme
 Example of declaration of a linked folder in the data schema:
 
 ```
-<element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
+<element default="DefaultFolder('nmsFolder', [@_folder-id])" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="define" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
 The configuration of the **`<nodemodel>`** on the link of the folder named "folder" is as follows:

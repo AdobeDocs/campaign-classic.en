@@ -22,7 +22,7 @@ There are three types of instructions:
 
 They can be tested directly from the delivery wizard. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
-## <%@ include {#<%@-include}
+## <%@ include {#include}
 
 The following examples are among the most commonly used:
 
@@ -36,7 +36,7 @@ The following examples are among the most commonly used:
 
 Use the personalization button in the delivery wizard to get the correct syntax.
 
-## <%@ value {#<%@-value}
+## <%@ value {#value}
 
 This instruction gives access to parameters of the delivery that are constant for all recipients.
 
@@ -55,7 +55,7 @@ Object can be:
 * "delivery": for the current delivery (see details and restrictions in the subsection below).
 * "provider": for the current delivery provider/routing (nms:externalAccount).
 * An extra script object: if an object is loaded in the context through: **Properties** > **Personalization** > **Add objects in the execution context**.
-* Item of the foreach loop: see [Foreach](#<%@-foreach) section below.
+* Item of the foreach loop: see [Foreach](#foreach) section below.
 
 ### "delivery" object {#delivery-object}
 
@@ -75,7 +75,7 @@ For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, the
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### <%@ value in a Javascript section {#<%@-value-in-javascript}
+### <%@ value in a Javascript section {#value-in-javascript}
 
 To allow using <%@ value in script sections, two special objects are replaced with <% and %>:
 
@@ -89,7 +89,7 @@ For example:
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## <%@ foreach {#<%@-foreach}
+## <%@ foreach {#foreach}
 
 This instruction allows iteration on an array of objects loaded in the delivery to track individual links related to the objects.
 

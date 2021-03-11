@@ -199,7 +199,7 @@ The procedure for setting up stock and order management in Adobe Campaign, and a
 
 ### Stock management {#stock-management}
 
-Adobe Campaign can alert a group of operators if stock has run out or reached a minimum threshold. Stock levels are accessible via the **[!UICONTROL Stocks]** link of the **[!UICONTROL Campaigns]** universe via the **[!UICONTROL Other choices]** link of the navigation area. 
+Adobe Campaign can alert a group of operators if stock has run out or reached a minimum threshold. Stock levels are accessible via the **[!UICONTROL Stocks]** link of the **[!UICONTROL Campaigns]** tab via the **[!UICONTROL Other choices]** link of the navigation area. 
 
 ![](assets/s_ncs_user_stocks_view.png)
 

@@ -284,7 +284,7 @@ The next step of the import wizard lets you select or create the folder in which
 
        >[!NOTE]
        >
-       >The default folder for an operator is the first folder for which the operator has write access. See [Folder access management](../../platform/using/access-management.md#folder-access-management).
+       >The default folder for an operator is the first folder for which the operator has write access. Learn more in [Folder access management](../../platform/using/access-management-folders.md).
 
        To select the import folder, click the arrow to the right of the **[!UICONTROL Folder]** field and select the folder concerned. You can also use the **[!UICONTROL Select link]** icon to display the tree in a new window or create a new folder. 
     

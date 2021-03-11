@@ -12,7 +12,7 @@ topic-tags: latest-release-notes
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
-_23 December 2020_
+_December 23, 2020_
 
 >[!CAUTION]
 >
@@ -26,7 +26,7 @@ _23 December 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
-_7 February 2020_
+_February 7, 2020_
 
 **Improvements**
 
@@ -35,7 +35,7 @@ _7 February 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-_2 December 2019_
+_December 2, 2019_
 
 **What's new?**
 

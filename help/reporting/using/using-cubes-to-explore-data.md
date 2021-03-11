@@ -24,7 +24,7 @@ Marketing Analytics makes it easier to create reports and to identify and select
 
 ### Step 1 - Creating a report based on a cube {#step-1---creating-a-report-based-on-a-cube}
 
-To create a report based on a cube, click the **[!UICONTROL Create]** button in the **[!UICONTROL Reports]** universe and select the cube you want to use.
+To create a report based on a cube, click the **[!UICONTROL Create]** button in the **[!UICONTROL Reports]** tab and select the cube you want to use.
 
 The process is detailed here: [Creating a report based on a cube](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
@@ -145,7 +145,7 @@ To group a population into a list, apply the following steps:
 
    You can either save the content of the cart or empty it.
 
-   The relevant list is accessed via the **[!UICONTROL Profiles and targets]** universe.
+   The relevant list is accessed via the **[!UICONTROL Profiles and targets]** tab.
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 

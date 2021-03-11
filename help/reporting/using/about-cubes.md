@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 ---
 
-# About cubes{#about-cubes}
+# Get started with cubes{#about-cubes}
 
 Exploration of data in the database is offered via the **Marketing Analytics** module. It enables you to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. In addition to this, Marketing Analytics enables you to create reports and build target populations. Once these are identified, they are stored in lists that can be used in Adobe Campaign (targeting, segmentation, etc.).
 
@@ -82,7 +82,7 @@ Cubes are stored in the **[!UICONTROL Administration > Configuration > Cubes]** 
 
 The main contexts of use for cubes are as follows:
 
-* Data exports can be carried out directly in a report, designed in the **[!UICONTROL Reports]** universe of the Adobe Campaign platform.
+* Data exports can be carried out directly in a report, designed in the **[!UICONTROL Reports]** tab of the Adobe Campaign platform.
 
   To do this, create a new report and select the cube you want to use.
 

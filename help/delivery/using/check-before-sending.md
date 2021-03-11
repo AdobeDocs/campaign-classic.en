@@ -57,7 +57,7 @@ As a final step, maximize your chances and leverage the power of Adobe Campaign 
 
 ### Go through a validation process
 
-You can define a full validation process, involving Adobe Campaign operators and groups, to validate both the target and the message content. This will ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof. Depending on their permissions, users will be notified, receive proofs and be able to validate or reject the message. Learn more [in this section](../../campaign/using/marketing-campaign-approval.md#approval-process).
+You can define a full validation process, involving Adobe Campaign operators and groups, to validate both the target and the message content. This will ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof. Depending on their permissions, users will be notified, receive proofs and be able to validate or reject the message. Learn more [in this section](../../campaign/using/marketing-campaign-approval.md).
 
 ### Use waves
 

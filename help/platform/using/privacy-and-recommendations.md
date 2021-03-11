@@ -18,7 +18,7 @@ Adobe Campaign is a powerful tool for collecting and processing extremely large 
 
 * Refrain from sending unsolicited email, push notifications and SMS messages ("spam"). Adobe strongly believes in the principles of permission marketing in fostering customer lifetime value and loyalty, and therefore strictly forbids the use of Adobe Campaign in sending unsolicited messages.
 
-Take the time to go through the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) to learn the key elements to check regarding security and privacy.
+Take the time to go through the [Security and Privacy checklist](../../installation/using/get-started-security-privacy.md) to learn the key elements to check regarding security and privacy.
 
 ### Privacy regulations {#privacy-regulations}
 

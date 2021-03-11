@@ -12,7 +12,7 @@ topic-tags: schema-reference
 
 This document outlines key recommendations while designing your Adobe Campaign data model.
 
-For a better understanding of Campaign built-in tables and their interaction, refer to the [Campaign Classic data model](../../configuration/using/about-data-model.md) section.
+For a better understanding of Campaign built-in tables and their interaction, refer to [this section](../../configuration/using/about-data-model.md) section.
 
 Read out [this documentation](../../configuration/using/about-schema-reference.md) to get started with Campaign schemas. Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this document](../../configuration/using/about-schema-edition.md).
 
@@ -141,7 +141,7 @@ Therefore, a customer sending 6 billion emails annually with a retention period 
 
 When a custom table is being created in Adobe Campaign with a primary key as an autoPK, a custom dedicated sequence should systematically be associated with that table.
 
-By default, a custom sequence will have values ranging from +1,000 to +2.1BB. Technically, it is possible  to get a full range of 4BB by enabling negative ids. This should be used with care and one id will be lost when crossing from negative to positive numbers: the record 0 is typically ignored by Adobe Campaign Classic in generated SQL queries.
+By default, a custom sequence will have values ranging from +1,000 to +2.1BB. Technically, it is possible  to get a full range of 4BB by enabling negative ids. This should be used with care and one id will be lost when crossing from negative to positive numbers: the record 0 is typically ignored by Adobe Campaign in generated SQL queries.
 
 **Related topics:**
 * For more on the **Sequence auto-generation** feature, see [this document](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).

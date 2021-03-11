@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: latest-release-notes
 ---
 
-# Latest Release{#latest-release}
+# Latest release{#latest-release}
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release Candidate version**.
 
@@ -16,7 +16,7 @@ For Campaign Classic Gold Standard version (latest GA build), [refer to this pag
 
 ## ![](assets/do-not-localize/blue_2.png) Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 
-_22 February 2021_
+_February 22, 2021_
 
 **Security enhancements**
 

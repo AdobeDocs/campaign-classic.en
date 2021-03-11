@@ -1,5 +1,6 @@
 ---
 cloud: experience-cloud
+description: Campaign Classic Documentation
 solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/campaign/classic.html
 solution-image: assets/campaign-icon-24.png

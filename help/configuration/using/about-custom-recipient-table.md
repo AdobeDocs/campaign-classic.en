@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 ---
 
-# About custom recipient table{#about-custom-recipient-table}
+# Use a custom recipient table{#about-custom-recipient-table}
 
 This section details the principles for using a non-standard recipient table.
 
