@@ -23,7 +23,7 @@ _October 27, 2020_
 
 >[!CAUTION]
 >
-> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 31, 2021**.
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 > * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
 
@@ -96,7 +96,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 **Improvements**
 
 * Several improvements have been made to the **Client console**:
-   * The connection protocol has been updated to follow the new IMS authentication mechanism. Server and client console upgrade is mandatory to be able to connect after March 31, 2021.
+   * The connection protocol has been updated to follow the new IMS authentication mechanism. Server and client console upgrade is mandatory to be able to connect after June 30, 2021.
    * To prevent incompatibility with some internet security GPO rules restrictions, the Campaign client console logon screen has been replaced by a built-in standard Windows form. 
    * Fixed an issue when copy/pasting activities in a workflow using 64-bits Client console. (NEO-27635) 
    * In the **About** menu, information has been added to distinguish 64 and 32 bits consoles. 
