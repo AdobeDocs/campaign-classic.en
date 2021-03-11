@@ -36,7 +36,7 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
 Read out a set of specific Q&A by topics:
 
 * [Key concepts](platform/using/faq-key-concepts.md)
-* [Campaign settings](platform/using/aq-campaign-config.md)
+* [Campaign settings](platform/using/faq-campaign-config.md)
 * [Reporting](platform/using/faq-reporting.md)
 * [Build upgrade](platform/using/faq-build-upgrade.md)
 * [Testing, sending and tracking messages](platform/using/faq-messages.md)
@@ -49,7 +49,7 @@ Read out a set of specific Q&A by topics:
 * [Performance and throughput issues](production/using/performance-and-throughput-issues.md)
 * [Delivery performances](delivery/using/delivery-performances.md)
 * [Optimize workflow performances](workflow/using/workflow-best-practices.md)
-* [Workflow execution troubleshooting](workflow/using/workflow-execution.md)
+* [Workflow execution troubleshooting](workflow/using/monitoring-workflow-execution.md)
 * [SFTP server usage](platform/using/sftp-server-usage.md)
 * [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
 
@@ -59,7 +59,7 @@ Read out a set of specific Q&A by topics:
 * [Technical workflow monitoring](workflow/using/monitoring-technical-workflows.md)
 * [Understand tracking management](delivery/using/about-message-tracking.md)
 * [Discover monitoring tools](production/using/monitoring-guidelines.md)
-* [Import data with workflows](workflow/using/importing-data.md)
+* [Import data with workflows](platform/using/import-export-workflows.md)
 * [Send messages in multiple waves ](delivery/using/steps-sending-the-delivery.md)
 * [Design email content](delivery/using/defining-the-email-content.md)
 * [Delivery best practices](delivery/using/delivery-best-practices.md)
@@ -67,14 +67,14 @@ Read out a set of specific Q&A by topics:
 ### How-to
 
 * [Upgrade to the latest build](production/using/build-upgrade.md)
-* [Build upgrade FAQ](hplatform/using/faq-build-upgrade.md)
-* [Monitor a delivery](delivery/using/monitoring-a-delivery.md)
+* [Build upgrade FAQ](platform/using/faq-build-upgrade.md)
+* [Monitor a delivery](delivery/using/about-delivery-monitoring.md)
 * [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
 * [Security and privacy checklist](installation/using/get-started-security-privacy.md)
 * [Privacy and consent management](platform/using/privacy-management.md)
 * [Design a query](platform/using/steps-to-create-a-query.md)
-* [Query samples](workflow/using/querying-recipient-table.html)
-* [Build a workflow](workflow/using/building-a-workflow.html)
+* [Query samples](workflow/using/querying-recipient-table.md)
+* [Build a workflow](workflow/using/building-a-workflow.md)
 
 ## Campaign Control Panel {#control-panel}
 
