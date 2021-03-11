@@ -31,16 +31,17 @@ As an on-premise/hybrid customer, you need to upgrade to one of the version list
 
 Latest Campaign versions come with a security fix which reinforce protection against Server Side Request Forgery (SSRF) issues. Learn more [in this page](https://helpx.adobe.com/security/products/campaign/apsb21-04.html).
 
-### Are you impacted?
+**Are you impacted?**
 
 If your environment is on a lower build than Campaign 21.1, you are impacted.
 
-## How to update?
+**How to update?**
 
 You need to upgrade to one of the newer builds listed above.
 
 * As an hybrid customer, Adobe will upgrade the mid-sourcing instance to the new version and you are highly recommended to upgrade their marketing instance too.
-The new build is compatible with at least Campaign Classic 17.9 release, but to prevent any security gap, Adobe strongly recommends to upgrade all instances to a new build.  
+
+    The new build is compatible with at least Campaign Classic 17.9 release, but to prevent any security gap, Adobe strongly recommends to upgrade all instances to a new build.  
 
 * As an on-premise customer, you are requested to upgrade marketing and mid-sourcing instances to a new build. 
 
@@ -57,13 +58,13 @@ Latest Gold Standard 11 build fixes a regression which prevented the usage of so
 
 ## Connect to Campaign through IMS
 
-Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions starting March 31 2021. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). Campaign Console has been updated to ensure compatibility with IMS.
+Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions starting June 30 2021. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). Campaign Console has been updated to ensure compatibility with IMS.
 
-### Are you impacted?
+**Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed above is mandatory for both Campaign server and client console to be able to connect to Campaign after **March 31, 2021**.
+If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed above is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 
-### How to update?
+**How to update?**
 
 As a hosted customer, no action is needed: Adobe has already upgraded your instance(s) to a newer version.
 
@@ -71,13 +72,13 @@ As an on-premise/hybrid customer, you need to upgrade to one of the newer versio
 
 ## Integration with Experience Cloud Triggers
 
-The legacy oAuth authentication service has reached end-of-life, it will be retired on April 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411). 
+The legacy oAuth authentication service has reached end-of-life, it will be retired on June 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411). 
 
-### Are you impacted?
+**Are you impacted?**
 
 If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O**. 
 
-### How to update?
+**How to update?**
 
 [Learn how to migrate to Adobe I/O](../integrations/using/configuring-adobe-io.md). 
 
@@ -85,11 +86,11 @@ If you are using an older version of Triggers integration through oAuth authenti
 
 The Apple Push Notification service (APNs) will no longer support the legacy binary protocol as of March 31, 2021. [Read more](https://developer.apple.com/news/?id=c88acm2b).
 
-### Are your impacted?
+**Are your impacted?**
 
 If your instances are running on an older version than Campaign 21.1, and send push notifications with the legacy Apple binary protocol, you need to update to the HTTP/2-based APNs provider API. 
 
-### How to update?
+**How to update?**
 
 As a hosted customer, no action is needed: Adobe has already updated your instance(s) to the HTTP/2-based API.
 
@@ -101,11 +102,11 @@ On March 29 2021, an Apple Push Notification service (APNs) infrastructure updat
 
 Learn more about APNs changes [in this page](https://developer.apple.com/news/?id=7gx0a2lp).
 
-### Are you impacted?
+**Are you impacted?**
 
 If you are using Campaign to send push notifications on iOS devices, you are impacted.
 
-### How to update?
+**How to update?**
 
 As a hosted customer, no action is needed: Adobe has already incorporated the new root certificate to your environment.
 
