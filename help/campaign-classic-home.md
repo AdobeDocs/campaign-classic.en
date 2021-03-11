@@ -14,7 +14,7 @@ topic: Premium
 
 * **[Update your APNs certificate](technotes/ios-certificate-update.md)**<br/> On March 29 2021, an APNs update will impact Campaign iOS channel. You need to update your configuration to avoid iOS push channel outage.
 
-* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **March 31, 2021**.
+* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**.
 
 * **[Secure your Campaign instances](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> Update to the latest builds to secure your Campaign platform.
 
