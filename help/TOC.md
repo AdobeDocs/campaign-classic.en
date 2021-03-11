@@ -213,15 +213,12 @@ type: Documentation
        + [Tracking troubleshooting](delivery/using/tracking-troubleshooting.md)
   + Deliverability management {#deliverability-management}
        + [What is deliverability](delivery/using/about-deliverability.md)
-       + [Starting a new platform](delivery/using/starting-new-platform.md)
        + [Control message content](delivery/using/control-message-content.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
-       + [Domain name setup](delivery/using/domain-name-setup.md)
-       + [CSR and SSL certificate request process](delivery/using/csr-ssl-certificate-request.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
