@@ -93,13 +93,11 @@ The private key should be encoded in base64 UTF-8 format. To do so:
 
 1. Use the private key generated in the [Step 1: Create/update Adobe I/O Project section](#creating-adobe-io-project). The private key needs to be the same as the one used to create the integration.
 
-1. Using this [this website](https://www.base64encode.org/), copy paste your private key to the corresponding field. 
+1. Encode the private key using the following command: ```base64 ./private.key```.
 
     >[!NOTE]
     >
-    >An extra line can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
-
-1. Click **[!UICONTROL Encode]**.
+    >Extra lines can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
 
 1. Use your newly generated private key encoded in base64 UTF-8 format to run the command detailed above.
 
