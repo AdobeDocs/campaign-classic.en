@@ -62,13 +62,19 @@ Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions
 
 **Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed above is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
+If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed above is mandatory. These release come with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 
 **How to update?**
 
 As a hosted customer, no action is needed: Adobe has already upgraded your instance(s) to a newer version.
 
-As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new Client Console and ensure a seamless transition **before March 31, 2021**.
+As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new Client Console and ensure a seamless transition **before June 30, 2021**.
+
+Once all instances are upgraded, the client console needs to be upgraded to this version as well.
+
+* Learn how to access [Adobe Software Distribution](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+
+* [Learn how to install Campaign Client console](../installation/using/installing-the-client-console.md).
 
 ## Integration with Experience Cloud Triggers
 
