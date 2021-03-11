@@ -45,7 +45,7 @@ Here are is a list of articles related to application configuration best practic
 
 * MTA and MTAChild processes and memory: the **mta** module distributes messages to its **mtachild** child modules. Each **mtachild** prepares messages before requesting an authorization from the statistics server, and sending them. Refer to this [page](../../installation/using/email-deliverability.md) for more information.
 * TLS configuration: enabling TLS globally is not recommended because it can reduce throughput. Instead, per-domain TLS settings, managed by deliverability team, should be tuned depending on the needs. Refer to this [page](../../installation/using/email-deliverability.md#mx-configuration) for more information. 
-* DKIM: to insure the security level of the DKIM, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers. Refer to this [page](../../delivery/using/technical-recommendations.md#dkim) and this [technote](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+* DKIM: to insure the security level of the DKIM, 1024b is the best practice recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers. Refer to [this page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 
 ## Deliverability issues {#deliverability-issues}
 

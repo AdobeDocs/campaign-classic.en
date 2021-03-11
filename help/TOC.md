@@ -216,7 +216,6 @@ type: Documentation
   + Deliverability management {#deliverability-management}
        + [What is deliverability](delivery/using/about-deliverability.md)
        + [Control message content](delivery/using/control-message-content.md)
-       + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
