@@ -1684,6 +1684,8 @@ In the **cache** node, configure the following parameters. This is the local fil
 
 In the **mta > relay** node, configure the following parameters. This is the configuration of the mail server for the message delivery.
 
+The list will be handled in the same way as a list of MX returned by a MX DNS query, usually the first MX is used as long as it is available, then the next one is used, and so on.
+
 For additional information, refer to [SMTP relay](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
 <table> 
