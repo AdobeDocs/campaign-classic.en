@@ -27,6 +27,10 @@ As a hosted customer, Adobe will inform you of required build upgrades at regula
 
 As an on-premise/hybrid customer, you need to upgrade to one of the version listed above. In addition, a few manual tasks must to be performed to make sure your environment is safe and ready for upcoming changes from Adobe or third-party systems.
 
+>[!NOTE]
+>
+>For any question about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
 ## Security updates
 
 Latest Campaign versions come with a security fix which reinforce protection against Server Side Request Forgery (SSRF) issues. Learn more [in this page](https://helpx.adobe.com/security/products/campaign/apsb21-04.html).
