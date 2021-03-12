@@ -9,9 +9,9 @@ hidefromtoc: yes
 
 # Adobe Campaign configuration updates - March 2021 {#acc-config-updates}
 
-You need to keep your infrastructure and settings updated with latest builds and product fixes. These fixes are mandatory to ensure service continuity and security. 
+You must keep your infrastructure and settings updated with latest builds and product fixes. These fixes are mandatory to ensure service continuity and security. 
 
-Campaign users need to upgrade to one of the latest versions below:
+Campaign users must upgrade to one of the latest versions below:
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
@@ -25,7 +25,11 @@ These builds ensure the continuity of certain Campaign services: Experience Clou
 
 As a hosted customer, Adobe will inform you of required build upgrades at regular intervals. You need to upgrade in accordance with the recommendations to ensure compliance.
 
-As an on-premise/hybrid customer, you need to upgrade to one of the version listed above. In addition, a few manual tasks must to be performed to make sure your environment is safe and ready for upcoming changes from Adobe or third-party systems.
+As an on-premise/hybrid customer, you must upgrade to one of the versions listed above. In addition, a few manual tasks must be performed to make sure that your environment is safe and ready for upcoming changes from Adobe or third-party systems.
+
+>[!NOTE]
+>
+>For any question about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Security updates
 
@@ -39,15 +43,15 @@ If your environment is on a lower build than Campaign 21.1, you are impacted.
 
 You need to upgrade to one of the newer builds listed above.
 
-* As an hybrid customer, Adobe will upgrade the mid-sourcing instance to the new version and you are highly recommended to upgrade their marketing instance too.
+* As a hybrid customer, Adobe will upgrade the mid-sourcing instance to the new version and you are highly recommended to upgrade their marketing instance too.
 
-    The new build is compatible with at least Campaign Classic 17.9 release, but to prevent any security gap, Adobe strongly recommends to upgrade all instances to a new build.  
+    The new build is compatible with at least Campaign Classic 17.9 release, but to prevent any security gap, Adobe strongly recommends upgrading all instances to a new build.  
 
 * As an on-premise customer, you are requested to upgrade marketing and mid-sourcing instances to a newer build. 
 
 >[!CAUTION]
 >
->If you cannot upgrade for now, **you must contact Adobe Customer Care team to apply manualy a security fix on your instances**.
+>If you cannot upgrade for now, **you must contact Adobe Customer Care team to apply manually a security fix on your instances**.
 >
 
 ## Campaign Client Console update
@@ -62,7 +66,7 @@ Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions
 
 **Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed above is mandatory. These release come with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
+If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed above is mandatory. These releases come with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 
 **How to update?**
 

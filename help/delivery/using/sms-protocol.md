@@ -711,7 +711,7 @@ This setting only allows adding one TLV option per message.
 
 >[!IMPORTANT]
 >
->In Adobe Campaign Classic and in an hybrid architecture, applying auto-reply for the extended SMPP connector requires to add write access for the mid operator on the **External account** folder.
+>In Adobe Campaign Classic and in a hybrid architecture, applying auto-reply for the extended SMPP connector requires to add write access for the mid operator on the **External account** folder.
 
 This feature allows to quickly reply text to MO and handle per-short code sending to denylist.
 
