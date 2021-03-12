@@ -23,9 +23,9 @@ Campaign users need to upgrade to one of the latest versions below:
 
 These builds ensure the continuity of certain Campaign services: Experience Cloud Triggers integration, APNs authentication and the new connection protocol which impacts Adobe Identity Management Service (IMS) authentication mechanism.  
 
-As a hosted customer, no action is needed: Adobe owns the build upgrade and configuration updates for you. 
+As a hosted customer, Adobe will inform you of required build upgrades at regular intervals. You need to upgrade in accordance with the recommendations to ensure compliance.
 
-As an on-premise/hybrid customer, you need to upgrade to one of the version listed above. In addition, you need to perform a few manual tasks to make sure your environment is safe and ready for upcoming changes from Adobe or third-party systems.
+As an on-premise/hybrid customer, you need to upgrade to one of the version listed above. In addition, a few manual tasks must to be performed to make sure your environment is safe and ready for upcoming changes from Adobe or third-party systems.
 
 ## Security updates
 
