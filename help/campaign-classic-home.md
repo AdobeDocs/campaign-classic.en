@@ -12,7 +12,9 @@ topic: Premium
 
 ## What's New
 
-* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **March 31, 2021**.
+* **[Update your APNs certificate](technotes/ios-certificate-update.md)**<br/> On March 29 2021, an APNs update will impact Campaign iOS channel. You need to update your configuration to avoid iOS push channel outage.
+
+* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**.
 
 * **[Secure your Campaign instances](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> Update to the latest builds to secure your Campaign platform.
 
@@ -79,7 +81,6 @@ topic: Premium
 | [Release notes](/help/rn/using/latest-release.md) | [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [How-to videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
 | [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Get started with Campaign](platform/using/about-adobe-campaign-classic.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [Deprecated features](rn/using/deprecated-features.md) | [Security & privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Monitoring guidelines](production/using/monitoring-guidelines.md) |

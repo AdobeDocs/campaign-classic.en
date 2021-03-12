@@ -28,7 +28,7 @@ The **last GA builds** are: [Gold Standard 11 release](../../rn/using/gold-stand
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest version with new capabilities.
 
-The **last RC build** is [Campaign Classic 20.3 release](../../rn/using/latest-release.md)
+The **last RC build** is [Campaign Classic 21.1 release](../../rn/using/latest-release.md)
 
 ![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. Existing implementations must be upgraded.
 
