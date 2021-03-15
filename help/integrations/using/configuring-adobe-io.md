@@ -16,7 +16,7 @@ snippet: y
 >
 >If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode will be retired on April 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
->Note that during this move to Adobe I/O, some incoming triggers may be lost.
+>Note that during this move to [!DNL Adobe I/O], some incoming triggers may be lost.
 
 ## Prerequisites {#adobe-io-prerequisites}
 
@@ -29,7 +29,7 @@ Before starting this implementation, please check you have:
 
 ## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
 
-1. Access Adobe I/O and log in with the System Administrator right for the IMS Organization.
+1. Access [!DNL Adobe I/O] and log in with the System Administrator right for the IMS Organization.
 
     >[!NOTE]
     >
@@ -65,7 +65,9 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_5.png)
 
-1. Choose the product profile called **Analytics-<&nbsp;Org Name&nbsp;>** and click **[!UICONTROL Save configured API]**.
+1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. Then, click **[!UICONTROL Save configured API]**. 
+    
+    For more information on [!DNL Analytics] **[!UICONTROL Product Profiles]**, refer to [Adobe Analytics documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
 
     ![](assets/do-not-localize/adobe_io_6.png)
 
