@@ -59,9 +59,11 @@ Before starting this implementation, please check you have:
 
 1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a public and private key pair.
 
+    The keys will then be automatically downloaded with a default expiry date of 365 days. Once expired, you will need to create a new key pair and update the integration in the configuration file. Using the Option 2, you can choose to manually create and upload your **[!UICONTROL Public key]** with a longer expiry date.
+
     ![](assets/do-not-localize/adobe_io_4.png)
 
-1. Upload your public key and click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL Next]**.
 
     ![](assets/do-not-localize/adobe_io_5.png)
 
@@ -71,7 +73,8 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_6.png)
 
-1. From your project, select **[!UICONTROL Service Account (JWT)]** and copy the following information:
+1. From your project, select **[!UICONTROL Adobe Analytics]** and copy the following information under **[!UICONTROL Service Account (JWT)]**:
+
     * **[!UICONTROL Client ID]**
     * **[!UICONTROL Client Secret]**
     * **[!UICONTROL Technical account ID]**
