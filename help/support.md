@@ -9,7 +9,7 @@ topic-tags: latest-release-notes
 hidefromtoc: yes
 ---
 
-# Help & support options for Campaign Classic {#hel-psupport-options}
+# Help & support options for Campaign Classic {#help-support-options}
 
 Need Support for Campaign Classic? You are at the right place!
 
