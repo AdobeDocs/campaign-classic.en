@@ -17,8 +17,8 @@ They only apply in the context of delivery content. It is the only way to script
 There are three types of instructions:
 
 * **[!DNL include]**: mainly to factorize some code in options, personalization blocks, external files, or pages. [Learn more](#include)
-* **[!DNL value]**: to give access to fields of the delivery, delivery variables and custom objects loaded in the delivery. [Learn more](#value)
-* **[!DNL foreach]**: to loop an array loaded as a custom object. [Learn more](#foreach)
+* "**[!DNL value]**": to give access to fields of the delivery, delivery variables and custom objects loaded in the delivery. [Learn more](#value)
+* "**[!DNL foreach]**": to loop an array loaded as a custom object. [Learn more](#foreach)
 
 They can be tested directly from the delivery wizard. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
@@ -68,8 +68,8 @@ Where:
 
 * **[!DNL object]**: name of the object (example: delivery, provider, and so on).
   Object can be:
-  * **[!DNL delivery]**: for the current delivery (see details and restrictions in the subsection below).
-  * **[!DNL provider]**: for the current delivery provider/routing (nms:externalAccount).
+  * "delivery": for the current delivery (see details and restrictions in the subsection below).
+  * "provider": for the current delivery provider/routing (nms:externalAccount).
   * An extra script object: if an object is loaded in the context through: **Properties** > **Personalization** > **Add objects in the execution context**.
   * Item of the foreach loop: see [Foreach](#foreach) section below.
 * **[!DNL xpath]**: xpath of the field.
@@ -94,28 +94,20 @@ For email personalization, the delivery object is accessible in two ways:
   ```
 
 
-**Caution**
-
-If you are using the following the instruction for deliveries sent via mid-sourcing, the custom field **@myCustomField** must be added to the nms:delivery schema on both marketing and mid-sourcing platforms:
-
-```
-<%@ value object="delivery" xpath="@myCustomField" %>
-```
-
-For delivery parameters/variables, use the following syntax (using the delivery object):
-
-```
-<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>
-```
+>[!NOTE]
+>
+>* For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, there is another limitation for deliveries sent via mid-sourcing. The custom field @myCustomField must be added to the nms:delivery schema on both marketing and mid-sourcing platforms.
+>
+>* For delivery parameters/variables, use the following syntax (using the delivery object):
+>
+>`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
 ### [!DNL value] in a Javascript section {#value-in-javascript}
 
 To allow using <%@ value in Javascript sections, two special objects are replaced with <% and %>:
 
-```
-<%@ value object='startScript' %>
-<%@ value object='endScript' %>
-```
+* `<%@ value object='startScript' %>`
+* `<%@ value object='endScript' %>`
 
 For example:
 
