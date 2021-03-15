@@ -16,9 +16,9 @@ They only apply in the context of delivery content. It is the only way to script
 
 There are three types of instructions:
 
-* "**include**": mainly to factorize some code in options, personalization blocks, external files, or pages
-* "**value**": to give access to fields of the delivery, delivery variables and custom objects loaded in the delivery
-* "**foreach**": to loop an array loaded as a custom object.
+* **[!DNL include]**: mainly to factorize some code in options, personalization blocks, external files, or pages. [Learn more](#include)
+* "**[!DNL value]**": to give access to fields of the delivery, delivery variables and custom objects loaded in the delivery. [Learn more](#value)
+* "**[!DNL foreach]**": to loop an array loaded as a custom object. [Learn more](#foreach)
 
 They can be tested directly from the delivery wizard. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
@@ -26,13 +26,34 @@ They can be tested directly from the delivery wizard. They apply in the content 
 
 The following examples are among the most commonly used:
 
-* Including the mirror page link: `<%@ include view="MirrorPage" %>`
-* Mirror page URL: "View as a `<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`
-* Out-of-the-box unsubscription url: `<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
+* Including the mirror page link: 
+
+  ```
+  <%@ include view="MirrorPage" %>
+  ```
+  
+* Mirror page URL: 
+  
+  ```
+  View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
+  ```
+  
+* Out-of-the-box unsubscription url:
+
+  ```
+  <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
+  ```
+
 * Other examples:
-  * `<%@ include file='http://www.google.com' %>`
-  * `<%@ include file='file:///X:/france/service/test.html' %>`
-  * `<%@ include option='NmsServer_URL' %>`
+
+  ```
+  <%@ include file='http://www.google.com' %>`
+
+  <%@ include file='file:///X:/france/service/test.html' %>
+  
+  <%@ include option='NmsServer_URL' %>
+  
+  ```
 
 Use the personalization button in the delivery wizard to get the correct syntax.
 
