@@ -10,13 +10,8 @@ topic-tags: latest-release-notes
 
 # Gold Standard releases{#gold-standard}
 
-Gold Standard is Campaign Classic Long-Term support release. As a hosted Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On-premise and Hybrid customers can also benefit from Gold Standard releases.
+This page lists Gold Standard releases. Learn more about Campaign Gold Standard [in this page](gs-overview.md).
 
-If you migrate from an old build, we recommend that you upgrade to this version first.
-
-This page lists Gold Standard releases.
-
-For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
 
