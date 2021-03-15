@@ -37,7 +37,7 @@ Latest Campaign versions come with a security fix which reinforce protection aga
 
 **Are you impacted?**
 
-If your environment is on a lower build than Campaign 21.1, you are impacted.
+If your environment is on a lower build than Campaign 19.1.8, 19.2.4, 20.1.4, 20.2.4, 20.3.3 or Gold Standard 11, you are impacted.
 
 **How to update?**
 
@@ -86,7 +86,7 @@ The legacy oAuth authentication service has reached end-of-life. Triggers integr
 
 **Are you impacted?**
 
-If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O**. 
+If your environment is on a lower build than Campaign 19.1.8, 20.2.4, Gold Standard 11, then you are using an older version of Triggers integration through oAuth authentication: **you need to move to Adobe I/O**. 
 
 **How to update?**
 
