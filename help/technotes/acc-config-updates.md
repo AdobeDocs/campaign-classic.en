@@ -135,7 +135,7 @@ As an on-premise/hybrid customer, you need to update your configuration to ensur
 
 ## Useful links
 
-* [Upgrade your environment](../../production/using/build-upgrade.md)
-* [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
+* [Upgrade your environment](../production/using/build-upgrade.md)
+* [Build upgrade FAQ](../platform/using/faq-build-upgrade.md)
 * [Download Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Make the new Client Console available to users](../installation/using/client-console-availability-for-windows.md)
