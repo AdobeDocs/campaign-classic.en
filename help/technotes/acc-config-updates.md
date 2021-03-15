@@ -56,22 +56,21 @@ You need to upgrade to one of the newer builds listed above.
 
 ## Campaign Client Console update
 
-Latest Gold Standard 11 build fixes a regression which prevented the usage of some components of the console, such as the date picker and images management in deliveries. Console upgrade is mandatory.
+Latest Gold Standard 11 build fixes a regression which prevented the usage of some components of the Clien Console, such as the date picker and images management in deliveries. Console upgrade is mandatory.
 
 [Learn more](../rn/using/gold-standard.md).
 
-
 >[!NOTE]
 >
->Updates for other versions will be available soon.
+>The new Client Console for other versions will be available soon.
 
 ## Connect to Campaign through IMS
 
-Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions starting June 30 2021. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). Campaign Console has been updated to ensure compatibility with IMS.
+Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions starting **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). Campaign Client Console has been updated to ensure compatibility with Adobe IMS.
 
 **Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed above is mandatory. These releases come with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
+If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed above is mandatory. These releases come with a new connection protocol: upgrade is mandatory for both Campaign server and Client Console to be able to connect to Campaign after **June 30, 2021**.
 
 **How to update?**
 
@@ -79,11 +78,11 @@ As a hosted customer, no action is needed: Adobe has already upgraded your insta
 
 As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new Client Console and ensure a seamless transition **before June 30, 2021**.
 
-Once all instances are upgraded, the client console needs to be upgraded to this version as well.
+Once all instances are upgraded, the Client Console needs to be upgraded to this version as well.
 
 * Learn how to access [Adobe Software Distribution](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
-* [Learn how to install Campaign Client console](../installation/using/installing-the-client-console.md).
+* [Learn how to install Campaign Client Console](../installation/using/installing-the-client-console.md).
 
 ## Integration with Experience Cloud Triggers
 
@@ -103,7 +102,7 @@ In addition, for hybrid environments, customers need to ensure that pipeline is 
 
 ## HTTP/2-based APNs provider API
 
-The Apple Push Notification service (APNs) will no longer support the legacy binary protocol as of March 31, 2021. [Read more](https://developer.apple.com/news/?id=c88acm2b).
+The Apple Push Notification service (APNs) will no longer support the legacy binary protocol as of **March 31, 2021**. [Read more](https://developer.apple.com/news/?id=c88acm2b).
 
 **Are your impacted?**
 
@@ -132,3 +131,11 @@ As a hosted customer, no action is needed: Adobe has already incorporated the ne
 As an on-premise/hybrid customer, you need to update your configuration to ensure a seamless transition **before March 29 2021**.
 
 [Learn how to incorporate the new certificate](ios-certificate-update.md).
+
+
+## Useful links
+
+* [Upgrade your environment](../production/using/build-upgrade.md)
+* [Build upgrade FAQ](../platform/using/faq-build-upgrade.md)
+* [Download Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Make the new Client Console available to users](../installation/using/client-console-availability-for-windows.md)
