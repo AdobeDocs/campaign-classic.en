@@ -30,6 +30,7 @@ The following examples are among the most commonly used:
 
   ```
   <%@ include view="MirrorPage" %>
+  
   ```
   
 * Mirror page URL: 
@@ -47,15 +48,12 @@ The following examples are among the most commonly used:
 * Other examples:
 
   ```
-  <%@ include file='http://www.google.com' %>`
-
+  <%@ include file='http://www.google.com' %>
   <%@ include file='file:///X:/france/service/test.html' %>
-  
   <%@ include option='NmsServer_URL' %>
-  
   ```
 
-Use the personalization button in the delivery wizard to get the correct syntax.
+  Use the personalization button in the delivery wizard to get the correct syntax.
 
 ## [!DNL value] {#value}
 
@@ -63,7 +61,9 @@ This instruction gives access to parameters of the delivery that are constant fo
 
 Syntax:
 
-`<%@ value object="myObject" xpath="@myField" index="1" %>`
+```
+<%@ value object="myObject" xpath="@myField" index="1" %>
+```
 
 Where:
 
@@ -80,17 +80,26 @@ Where:
 
 For email personalization, the delivery object is accessible in two ways:
 
-* In JavaScript. For example: `<%= delivery.myField %>`.
+* Using JavaScript:
+
+  ```
+  <%= delivery.myField %>`.
+  ```
 
   In the JavaScript object delivery custom fields are not supported. They work in the preview, but not in the MTA because the MTA can only access the out-of-the-box delivery schema.
 
-* Through `<%@ value object="delivery"` pre-processing.
+* Using a pre-processing:
 
-For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, there is another limitation for deliveries sent via mid-sourcing. The custom field @myCustomField must be added to the nms:delivery schema on both marketing and mid-sourcing platforms.
+  ```
+  <%@ value object="delivery"
+  ```
+
 
 >[!NOTE]
 >
->For delivery parameters/variables, use the following syntax (using the delivery object):
+>* For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, there is another limitation for deliveries sent via mid-sourcing. The custom field @myCustomField must be added to the nms:delivery schema on both marketing and mid-sourcing platforms.
+>
+>* For delivery parameters/variables, use the following syntax (using the delivery object):
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
@@ -114,14 +123,16 @@ This instruction allows iteration on an array of objects loaded in the delivery 
 
 Syntax:
 
-`<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>`
+```
+<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
+```
 
 Where:
 
-* "object": name of the object to start from, typically an extra script object, but it can be a delivery.
-* "xpath" (optional): xpath of the collection to loop on. Default is ".", meaning that object is the array to loop on.
-* "index" (optional): if xpath is not "." and object is an array itself, item index of object (starts at 0).
-* "item" (optional): name of a new object accessible with <%@ value inside the foreach loop. Default with the link name in the schema.
+* **[!DNL object]**: name of the object to start from, typically an extra script object, but it can be a delivery.
+* **[!DNL xpath]** (optional): xpath of the collection to loop on. Default is ".", meaning that object is the array to loop on.
+* **[!DNL index]** (optional): if xpath is not "." and object is an array itself, item index of object (starts at 0).
+* **[!DNL item]** (optional): name of a new object accessible with <%@ value inside the foreach loop. Default with the link name in the schema.
 
 Example:
 
