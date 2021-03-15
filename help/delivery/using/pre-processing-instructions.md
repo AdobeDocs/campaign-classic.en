@@ -29,16 +29,15 @@ The following examples are among the most commonly used:
 * Including the mirror page link: 
 
   ```
-  <%@ include view="MirrorPage" %>
-  
+  <%@ include view="MirrorPage" %>  
   ```
-  
+
 * Mirror page URL: 
-  
+
   ```
   View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
   ```
-  
+
 * Out-of-the-box unsubscription url:
 
   ```
