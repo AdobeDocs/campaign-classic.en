@@ -37,7 +37,7 @@ Latest Campaign versions come with a security fix which reinforce protection aga
 
 **Are you impacted?**
 
-If your environment is on a lower build than Campaign 21.1, you are impacted.
+If your environment is on a lower build than Campaign 19.1.8, 19.2.4, 20.1.4, 20.2.4, 20.3.3 or Gold Standard 11, you are impacted.
 
 **How to update?**
 
@@ -59,6 +59,11 @@ You need to upgrade to one of the newer builds listed above.
 Latest Gold Standard 11 build fixes a regression which prevented the usage of some components of the console, such as the date picker and images management in deliveries. Console upgrade is mandatory.
 
 [Learn more](../rn/using/gold-standard.md).
+
+
+>[!NOTE]
+>
+>Updates for other versions will be available soon.
 
 ## Connect to Campaign through IMS
 
@@ -86,7 +91,7 @@ The legacy oAuth authentication service has reached end-of-life. Triggers integr
 
 **Are you impacted?**
 
-If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O**. 
+If your environment is on a lower build than Campaign 19.1.8, 20.2.4, Gold Standard 11, then you are using an older version of Triggers integration through oAuth authentication: **you need to move to Adobe I/O**. 
 
 **How to update?**
 
