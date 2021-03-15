@@ -10,19 +10,19 @@ topic-tags: tracking-messages
 
 # Pre-processing instructions {#pre-processing-instructions}
 
-The <%@ instructions instructions are not JavaScript, this syntax is specific to Adobe Campaign.
+You can use a specific syntax in the delivery content to add instructions and script the URL of the tracked email. The <%@ instructions are not JavaScript: this syntax is specific to Adobe Campaign.
 
 They only apply in the context of delivery content. It is the only way to script the URL of an email and still have it tracked (besides URL parameters). They can be seen as an automatic copy/paste applied during the delivery analysis before detecting the links to track.
 
 There are three types of instructions:
 
-* "**include**": mainly to factorize some cod in options, personalization blocks, external files, or pages
+* "**include**": mainly to factorize some code in options, personalization blocks, external files, or pages
 * "**value**": to give access to fields of the delivery, delivery variables and custom objects loaded in the delivery
 * "**foreach**": to loop an array loaded as a custom object.
 
 They can be tested directly from the delivery wizard. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
-## <%@ include {#include}
+## [!DNL include] {#include}
 
 The following examples are among the most commonly used:
 
@@ -36,7 +36,7 @@ The following examples are among the most commonly used:
 
 Use the personalization button in the delivery wizard to get the correct syntax.
 
-## <%@ value {#value}
+## [!DNL value] {#value}
 
 This instruction gives access to parameters of the delivery that are constant for all recipients.
 
@@ -46,18 +46,16 @@ Syntax:
 
 Where:
 
-* "object": name of the object (example: delivery, provider, and so on).
-* "xpath": xpath of the field.
-* "index" (optional): if "object" is an array (for extra script objects), item index in the array (Starts at 0).
+* **[!DNL object]**: name of the object (example: delivery, provider, and so on).
+  Object can be:
+  * "delivery": for the current delivery (see details and restrictions in the subsection below).
+  * "provider": for the current delivery provider/routing (nms:externalAccount).
+  * An extra script object: if an object is loaded in the context through: **Properties** > **Personalization** > **Add objects in the execution context**.
+  * Item of the foreach loop: see [Foreach](#foreach) section below.
+* **[!DNL xpath]**: xpath of the field.
+* **[!DNL index]** (optional): if **[!DNL object]** is an array (for extra script objects), item index in the array (Starts at 0).
 
-Object can be:
-
-* "delivery": for the current delivery (see details and restrictions in the subsection below).
-* "provider": for the current delivery provider/routing (nms:externalAccount).
-* An extra script object: if an object is loaded in the context through: **Properties** > **Personalization** > **Add objects in the execution context**.
-* Item of the foreach loop: see [Foreach](#foreach) section below.
-
-### "delivery" object {#delivery-object}
+### [!DNL delivery] object {#delivery-object}
 
 For email personalization, the delivery object is accessible in two ways:
 
@@ -75,9 +73,9 @@ For the `<%@ value object="delivery" xpath="@myCustomField" %>` instruction, the
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### <%@ value in a Javascript section {#value-in-javascript}
+### [!DNL value] in a Javascript section {#value-in-javascript}
 
-To allow using <%@ value in script sections, two special objects are replaced with <% and %>:
+To allow using <%@ value in Javascript sections, two special objects are replaced with <% and %>:
 
 * `<%@ value object='startScript' %>`
 * `<%@ value object='endScript' %>`
@@ -89,7 +87,7 @@ For example:
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## <%@ foreach {#foreach}
+## [!DNL foreach] {#foreach}
 
 This instruction allows iteration on an array of objects loaded in the delivery to track individual links related to the objects.
 
