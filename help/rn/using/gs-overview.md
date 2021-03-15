@@ -40,7 +40,7 @@ We are committed to making sure you have the relevant project and contact inform
 <tr>
   <td>
     <a href="platform/using/common-questions.md">
-      <img alt="FAQ" src="assets/do-not-localize/security.svg"/>
+      <img alt="FAQ" src="assets/do-not-localize/security.png"/>
     </a>
     <div>
       <a href="platform/using/common-questions.md">
@@ -56,7 +56,7 @@ We are committed to making sure you have the relevant project and contact inform
   </td>
    <td>
     <a href="production/using/build-upgrade.md">
-      <img alt="Build Upgrade" src="assets/do-not-localize/support.svg" />
+      <img alt="Build Upgrade" src="assets/do-not-localize/support.png" />
     </a>
     <div>
       <a href="production/using/build-upgrade.md">
@@ -76,7 +76,7 @@ We are committed to making sure you have the relevant project and contact inform
 <tr>
   <td>
     <a href="platform/using/common-questions.md">
-      <img alt="FAQ" src="assets/do-not-localize/maintenance.svg"/>
+      <img alt="FAQ" src="assets/do-not-localize/maintenance.png"/>
     </a>
     <div>
       <a href="platform/using/common-questions.md">
@@ -91,7 +91,7 @@ We are committed to making sure you have the relevant project and contact inform
   </td>
    <td>
     <a href="production/using/build-upgrade.md">
-      <img alt="Build Upgrade" src="assets/do-not-localize/upgrades.svg" />
+      <img alt="Build Upgrade" src="assets/do-not-localize/upgrades.png" />
     </a>
     <div>
       <a href="production/using/build-upgrade.md">
