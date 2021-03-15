@@ -60,6 +60,11 @@ Latest Gold Standard 11 build fixes a regression which prevented the usage of so
 
 [Learn more](../rn/using/gold-standard.md).
 
+
+>[!NOTE]
+>
+>Updates for other versions will be available soon.
+
 ## Connect to Campaign through IMS
 
 Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions starting June 30 2021. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). Campaign Console has been updated to ensure compatibility with IMS.
