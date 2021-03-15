@@ -12,7 +12,6 @@ topic-tags: latest-release-notes
 
 This page lists Gold Standard releases. Learn more about Campaign Gold Standard [in this page](gs-overview.md).
 
-
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
 
 _March 2, 2021_

@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 ---
 
-# Gold Standard upgrade {#gs-overviews}
+# Gold Standard releases {#gs-overviews}
 
 ## What is Gold Standard?
 
@@ -35,7 +35,6 @@ We have organized a team of dedicated Customer Care Reps, Product Managers, Engi
 We are committed to making sure you have the relevant project and contact information.
 
 ## Benefits
-
 
 <tr>
   <td>
@@ -96,4 +95,4 @@ We are committed to making sure you have the relevant project and contact inform
 
 * [Gold Standard release notes](gold-standard.md)
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
-* [Gold Standard release notes](compatibility-matrix-gs.md)
+* [Gold Standard compatibility matrix](compatibility-matrix-gs.md)
