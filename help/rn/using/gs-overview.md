@@ -39,13 +39,9 @@ We are committed to making sure you have the relevant project and contact inform
 
 <tr>
   <td>
-    <a href="platform/using/common-questions.md">
-      <img alt="FAQ" src="assets/do-not-localize/security.png"/>
-    </a>
+      <img alt="Security" src="assets/do-not-localize/security.png"/>
     <div>
-      <a href="platform/using/common-questions.md">
     <strong>Improved Security</strong>
-    </a>
     </div>
     <ul>
     <li>A combination of technologies used to power Adobe Campaign Classic work together to deliver value.</li>
@@ -56,13 +52,9 @@ We are committed to making sure you have the relevant project and contact inform
   </td>
   
    <td>
-    <a href="production/using/build-upgrade.md">
-      <img alt="Build Upgrade" src="assets/do-not-localize/support.png" />
-    </a>
+      <img alt="Support" src="assets/do-not-localize/support.png" />
     <div>
-      <a href="production/using/build-upgrade.md">
     <strong>Improved support</strong>
-    </a>
     </div>
     <ul>
     <li>Most of your issues are actually resolved with upgrades and can be avoided.</li>
@@ -74,13 +66,9 @@ We are committed to making sure you have the relevant project and contact inform
 
 <tr>
   <td>
-    <a href="platform/using/common-questions.md">
-      <img alt="FAQ" src="assets/do-not-localize/maintenance.png"/>
-    </a>
+      <img alt="Maintenance" src="assets/do-not-localize/maintenance.png"/>
     <div>
-      <a href="platform/using/common-questions.md">
     <strong>Enhanced maintenance and stability</strong>
-    </a>
     </div>
     <ul>
     <li>Over time, the Adobe Campaign team identifies ways to improve the stability and performance of the product, as well as fix known issues.</li>
@@ -90,11 +78,8 @@ We are committed to making sure you have the relevant project and contact inform
   </td>
 
    <td>
-    <a href="production/using/build-upgrade.md">
       <img alt="Build Upgrade" src="assets/do-not-localize/upgrades.png" />
-    </a>
     <div>
-      <a href="production/using/build-upgrade.md">
     <strong>Easier upgrades</strong>
     </a>
     </div>
