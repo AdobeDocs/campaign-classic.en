@@ -98,7 +98,15 @@ The legacy oAuth authentication service has reached end-of-life. Triggers integr
 
 **Are you impacted?**
 
-If your instances are running on an **older version than Campaign 19.1.8, 20.2.4, Gold Standard 11**, then you are using an older version of Triggers integration through oAuth authentication: **you need to move to Adobe I/O**. 
+If your instances are running on an **older version than Campaign 19.1.8, 20.2.4, Gold Standard 11**, then you are using an older version of Triggers integration through oAuth authentication: **you need to upgrade to a newer version and move to Adobe I/O**. 
+
+Upgrade to one of the new versions listed below is mandatory:
+
+* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
+* Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
+* Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
+* Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
+* Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
 **How to update?**
 
