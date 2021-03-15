@@ -10,7 +10,7 @@ topic-tags: campaign-release-notes, latest-release-notes
 
 # Release 20.3{#release-20-3}
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
+## ![](assets/do-not-localize/red_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
 _January 11, 2021_
 

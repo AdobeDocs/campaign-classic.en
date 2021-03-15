@@ -16,7 +16,7 @@ Adobe Campaign offers a set of tools to help you with your Privacy Compliance fo
 
 Refer to [this page](../../platform/using/privacy-management.md) for general information on what Privacy Management is and the implementation steps in Adobe Campaign. You will also find best practices and an overview of the user process and personas.  
 
-## URL Personalization
+## URL Personalization {#url-personalization}
 
 When adding personalized links to your content, always avoid having any personalization in the hostname part of the URL to avoid potential security gaps. The following examples should never be used in all URL attributes <`a href="">` or `<img src="">`:
 
@@ -50,7 +50,7 @@ To improve security, a new signature mechanism for tracking links in emails has 
 >
 >When a malformed signed URL is clicked, it will return the following error: "Requested URL '… ' was not found."
 
-In addition, hosted and hybrid customers on Build 19.1.4 (9032@3a9dc9c and 9032@800be2e) and on Campaign 20.2 can use an enhancement to disable URLs generated from previous builds. This option is disabled by default. You can reach out to [Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to enable this feature.
+In addition, starting Campaign 20.2 and Gold Standard release, hosted and hybrid customers can use an enhancement to disable URLs generated from previous builds. This option is disabled by default. You can reach out to [Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to enable this feature.
 
 To activate this new mechanism, on-premise customers need to follow these steps on all Campaign servers:
 
@@ -58,7 +58,7 @@ To activate this new mechanism, on-premise customers need to follow these steps 
 1. Restart the **nlserver** service.
 1. On the tracking server, restart the web server (apache2 on Debian, httpd on CentOS/RedHat, IIS on Windows).
 
-Customers running on Build 19.1.4 (9032@3a9dc9c) can experience issues with push notification deliveries using tracking link, or deliveries using anchor tags. If so, Adobe recommends to disable the new signature mechanism for tracking links:
+Customers running on Gold Standard 19.1.4 can experience issues with push notification deliveries using tracking link, or deliveries using anchor tags. If so, Adobe recommends to disable the new signature mechanism for tracking links:
 
 **Hosted and hybrid customers** must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have this mechanism disabled.
 
