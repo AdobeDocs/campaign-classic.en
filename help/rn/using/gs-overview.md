@@ -36,7 +36,7 @@ We are committed to making sure you have the relevant project and contact inform
 
 ## Benefits
 
-<table>
+
 <tr>
   <td>
     <a href="platform/using/common-questions.md">
@@ -54,6 +54,7 @@ We are committed to making sure you have the relevant project and contact inform
     <li>Security risks are omnipresent & cannot be ignored: every upgrade for Campaign Classic improves security.</li>
     </ul>
   </td>
+  
    <td>
     <a href="production/using/build-upgrade.md">
       <img alt="Build Upgrade" src="assets/do-not-localize/support.png" />
@@ -70,9 +71,7 @@ We are committed to making sure you have the relevant project and contact inform
     </ul>
   </td>
 </tr>
-</table>
 
-<table>
 <tr>
   <td>
     <a href="platform/using/common-questions.md">
@@ -89,6 +88,7 @@ We are committed to making sure you have the relevant project and contact inform
     <li>Improvements across the technology stack powering Campaign Classic will be felt across both marketing and IT teams of your organization.</li>
     </ul>
   </td>
+
    <td>
     <a href="production/using/build-upgrade.md">
       <img alt="Build Upgrade" src="assets/do-not-localize/upgrades.png" />
