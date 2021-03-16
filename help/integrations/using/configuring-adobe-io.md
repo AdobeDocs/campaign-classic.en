@@ -14,9 +14,9 @@ snippet: y
 
 >[!CAUTION]
 >
->If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode will be retired on April 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode will be retired on **April 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 >
->Note that during this move to Adobe I/O, some incoming triggers may be lost.
+>Note that during this move to [!DNL Adobe I/O], some incoming triggers may be lost.
 
 ## Prerequisites {#adobe-io-prerequisites}
 
@@ -29,7 +29,7 @@ Before starting this implementation, please check you have:
 
 ## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
 
-1. Access Adobe I/O and log in with the System Administrator right for the IMS Organization.
+1. Access [!DNL Adobe I/O] and log in with the System Administrator right for the IMS Organization.
 
     >[!NOTE]
     >
@@ -59,17 +59,22 @@ Before starting this implementation, please check you have:
 
 1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a public and private key pair.
 
+    The keys will then be automatically downloaded with a default expiry date of 365 days. Once expired, you will need to create a new key pair and update the integration in the configuration file. Using the Option 2, you can choose to manually create and upload your **[!UICONTROL Public key]** with a longer expiry date.
+
     ![](assets/do-not-localize/adobe_io_4.png)
 
-1. Upload your public key and click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL Next]**.
 
     ![](assets/do-not-localize/adobe_io_5.png)
 
-1. Choose the product profile called **Analytics-<&nbsp;Org Name&nbsp;>** and click **[!UICONTROL Save configured API]**.
+1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. Then, click **[!UICONTROL Save configured API]**. 
+    
+    For more information on [!DNL Analytics] **[!UICONTROL Product Profiles]**, refer to [Adobe Analytics documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
 
     ![](assets/do-not-localize/adobe_io_6.png)
 
-1. From your project, select **[!UICONTROL Service Account (JWT)]** and copy the following information:
+1. From your project, select **[!UICONTROL Adobe Analytics]** and copy the following information under **[!UICONTROL Service Account (JWT)]**:
+
     * **[!UICONTROL Client ID]**
     * **[!UICONTROL Client Secret]**
     * **[!UICONTROL Technical account ID]**
@@ -89,9 +94,17 @@ To add the project credentials in Adobe Campaign, run the following command as '
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
->[!NOTE]
->
->You should encode the private key in base64 UTF-8 format. Remember to remove the new line from the key before encoding it, except for the private key. The private key needs to be the same that was used to create the integration. To test the base64 encoding of the private key, you can use [this website](https://www.base64encode.org/).
+The private key should be encoded in base64 UTF-8 format. To do so:
+
+1. Use the private key generated in the [Step 1: Create/update Adobe I/O Project section](#creating-adobe-io-project). The private key needs to be the same as the one used to create the integration.
+
+1. Encode the private key using the following command: ```base64 ./private.key```.
+
+    >[!NOTE]
+    >
+    >Extra lines can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
+
+1. Use your newly generated private key encoded in base64 UTF-8 format to run the command detailed above.
 
 ## Step 3: Update pipelined tag {#update-pipelined-tag}
 

@@ -109,6 +109,7 @@ type: Documentation
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
+  + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}

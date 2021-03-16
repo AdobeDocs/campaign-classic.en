@@ -55,7 +55,7 @@ As a hosted Gold Standard user, you will automatically benefit from the Gold Sta
 
 ## Support and other useful links{#support}
 
-* [Help and Support](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* [Help and Support](https://helpx.adobe.com/campaign/kb/ac-support.html)
 * [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * [Latest documentation updates](../../rn/using/documentation-updates.md)
 * [Deprecated and removed features](../../rn/using/deprecated-features.md)
