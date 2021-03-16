@@ -409,5 +409,5 @@ Here are the steps to perform a complex merge:
 
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign Classic Release Notes](../../rn/using/rn-overview.md)
-* [Help and Support options for Campaign Classic](../../support.md)
+* [Help and Support options for Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
 * [Gold Standard program](https://helpx.adobe.com/campaign/kb/gold-standard.html)
