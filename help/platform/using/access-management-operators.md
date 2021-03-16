@@ -26,7 +26,7 @@ For more on Adobe Campaign and LDAP integration, refer to [this page](../../inst
 
 >[!IMPORTANT]
 >
->Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+>Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to [this page](../../installation/using/security-zones.md).
 
 Users can also directly connect to Adobe Campaign using their Adobe ID. For more on this, refer to this [page](../../integrations/using/about-adobe-id.md).
 
@@ -99,7 +99,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
   >Even if his account is disabled, the operator can still receive alerts or notifications from Campaign. To stop sending Campaign notifications to this operator, Adobe recommends you to remove the email address from his profile.
 
 * The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) or through APIs: access to the Adobe Campaign client console is no longer available.
-* It's possible to link a safety zone to the operator. For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+* It's possible to link a safety zone to the operator. For more on this, refer to [this page](../../installation/using/security-zones.md).
 * You can also define a trusted IP mask using the appropriate link.
 
   The operator will be able to connect to Adobe Campaign without entering their password if their IP address is in this list.

@@ -18,7 +18,7 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 
 The permissions apply to operator profiles or operator groups.
 
-They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more about security zones in [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more about security zones in [this page](../../installation/using/security-zones.md).
 
 There are two types of permissions you can grant to a user:
 

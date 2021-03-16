@@ -34,7 +34,7 @@ The database cleanup workflow deletes obsolete data to avoid exponential growth 
 
 ## 3. How can I configure security zones? {#how-can-i-configure-security-zones-}
 
-The Security Zones self-service interface can be used to manage entries in the VPN Security Zone configuration of an Adobe Campaign Classic deployment. Read out [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones) to learn about security zones in Campaign.
+The Security Zones self-service interface can be used to manage entries in the VPN Security Zone configuration of an Adobe Campaign Classic deployment. Read out [this section](../../installation/using/security-zones.md) to learn about security zones in Campaign.
 
 [Click here to learn more](https://helpx.adobe.com/campaign/kb/configuring-security-zones-self-service.html) about Security Zone self-service UI.
 
