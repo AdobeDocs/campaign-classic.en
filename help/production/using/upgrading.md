@@ -108,7 +108,7 @@ On a Linux environment, follow the steps below to update Adobe Campaign to a new
 * [Perform the update](#perform-an-update),
 * [Reboot the web server](#reboot-the-web-server).
 
-To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability-for-linux.md).
+[Learn more about Client Console availability](../../installation/using/client-console-availability-for-windows.md).
 
 >[!NOTE]
 >

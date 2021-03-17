@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 ---
 
-# Prerequisites of Campaign installation in Linux{#prerequisites-of-campaign-installation-in-linux}
+# Prerequisites to install Campaign on Linux{#prerequisites-of-campaign-installation-in-linux}
 
 ## Software prerequisites {#software-prerequisites}
 
