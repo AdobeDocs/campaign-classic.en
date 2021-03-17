@@ -625,7 +625,7 @@ type: Documentation
        + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)
        + [Network, database and SSL/TLS](installation/using/network-database.md)
        + [Server security settings](installation/using/server-configuration.md)
-       + [Web-server security settings](installation/using/web-server-configuration.md)
+       + [Web server security settings](installation/using/web-server-configuration.md)
   + Install Campaign (on-premise){#install-campaign-on-prem}
      + On-premise deployment guidelines {#deployment-guidelines}
        + [Database server](installation/using/database.md)
