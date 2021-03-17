@@ -627,21 +627,20 @@ type: Documentation
        + [Server security settings](installation/using/server-configuration.md)
        + [Web server security settings](installation/using/web-server-configuration.md)
   + Install Campaign (on-premise){#install-campaign-on-prem}
-     + On-premise deployment guidelines {#deployment-guidelines}
+     + Deployment guidelines {#deployment-guidelines}
        + [Database server](installation/using/database.md)
        + [Application server](installation/using/application-server.md)
        + [Messaging server](installation/using/messaging-server.md)
        + [Network configuration](installation/using/network-configuration.md)
      + Campaign on Windows {#installing-campaign-in-windows-}
-       + [Before installing Campaign on Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+       + [Get started](installation/using/prerequisites-of-campaign-installation-in-windows.md)
        + [Install the server](installation/using/installing-the-server.md)
        + [Integrate into a Web server (Windows)](installation/using/integration-into-a-web-server-for-windows.md)
        + [Client console availability for Windows](installation/using/client-console-availability-for-windows.md)
-     + Campaign on Linux  {#installing-campaign-in-linux-}
-       + [Before installing Campaign on Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+     + Campaign on Linux {#installing-campaign-in-linux-}
+       + [Prerequisites](installation/using/prerequisites-of-campaign-installation-in-linux.md)
        + [Install packages](installation/using/installing-packages-with-linux.md)
-       + [Integrate into a Web server (Linux)](installation/using/integration-into-a-web-server-for-linux.md)
-       + [Client console availability for Linux](installation/using/client-console-availability-for-linux.md)
+       + [Integrate into a web server](installation/using/integration-into-a-web-server-for-linux.md)
      + [Time zone management](installation/using/time-zone-management.md)
      + [Install a mid-sourcing server](installation/using/mid-sourcing-server.md)
   + Deploy Campaign (on-premise) {#initial-configuration}
