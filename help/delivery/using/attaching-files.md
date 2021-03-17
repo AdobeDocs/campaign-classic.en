@@ -94,11 +94,6 @@ The option **[!UICONTROL The file content is personalized and converted into PDF
 For this type of attachment, apply the following configuration steps:
 
 1. Select the file to upload.
-
-   >[!NOTE]
-   >
-   >The source file must be created in LibreOffice. The instance must be configured in keeping with the prerequisites detailed in [this section](../../installation/using/before-starting.md).
-
 1. Specify the label if necessary.
 1. Select **[!UICONTROL Upload file on the server]**, and then click **[!UICONTROL Update on server]** to start the transfer.
 1. You can display a preview. To do this, select a recipient.

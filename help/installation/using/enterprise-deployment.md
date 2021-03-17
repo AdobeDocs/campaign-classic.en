@@ -158,12 +158,7 @@ The steps for installing the first server are:
 
    For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
-1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder.
-
-   For more on this, refer to the following sections:
-
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
-    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
+1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder. [Learn more](../../installation/using/client-console-availability-for-windows.md).
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
 
@@ -187,16 +182,11 @@ The steps for installing the first server are:
 
 1. Test the **nlserver web** module using the URL: [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
-   This URL enables you to access the download page for the client setup program.
+   This URL enables you to access the download page for the client setup program. [Learn more](../../installation/using/client-console-availability-for-windows.md).
 
    Enter the **internal** login and associated password when you reach the access control page.
 
    ![](assets/s_ncs_install_access_client.png)
-
-   For more on this, refer to the following sections:
-
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
-    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 ### Installing and configuring the application server 2 {#installing-and-configuring-the-application-server-2}
 
