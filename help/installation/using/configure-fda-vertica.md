@@ -76,13 +76,13 @@ To configure [!DNL Vertica] on CentOS, follow the steps below:
 
 1. In Adobe Campaign, you can then configure your [!DNL Vertica] external account. For more on how to configure your external account, refer to [this section](#vertica-external).
 
-## Snowflake on Windows {#snowflake-windows}
+## Vertica on Windows {#vertica-windows}
 
 1. Download the [ODBC driver for Windows](https://www.vertica.com/download/vertica/client-drivers/). To install the driver for Windows, you will need to enable .NET Framework 3.5 or the installation wizard will try to automatically enable and download it.
 
-1. Configure the ODBC driver. For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
+1. Configure the ODBC driver in Windows. For more on this, refer to [this page](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)
 
-1. In Adobe Campaign, you can then configure your [!DNL Vertica] external account. For more on how to configure your external account, refer to [this section](#snowflake-external).
+1. In Adobe Campaign, you can then configure your [!DNL Vertica] external account. For more on how to configure your external account, refer to [this section](#vertical-external).
 
 ## Vertica on Debian {#vertica-debian}
 
@@ -138,7 +138,7 @@ To configure [!DNL Vertica] on CentOS, follow the steps below:
 
 1. In Adobe Campaign, you can then configure your [!DNL Vertica] external account. For more on how to configure your external account, refer to [this section](#vertica-external).
 
-## Vertica external account {vertica-external}
+## Vertica external account {#vertica-external}
 
 You need to create a [!DNL Vertica] external account to connect your Campaign instance to your [!DNL Vertica] external database.
 
@@ -160,8 +160,4 @@ You need to create a [!DNL Vertica] external account to connect your Campaign in
 
     * **[!UICONTROL Database]**: Name of the database
 
-    ![](assets/snowflake.png)
-
-1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy functions]** button to create functions.
-
-    ![](assets/snowflake_2.png)
+    ![](assets/vertica.png)
