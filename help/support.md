@@ -32,7 +32,7 @@ Get support using our FAQs, best practices, online resources and support portal.
 How to upgrade to a new build? how to monitor workflow execution? what is the database cleanup workflow?... [Read out top 10 questions](platform/using/common-questions.md).
 
 <table>
-    <tr><td>Topics Q&A</td><td>Common issues</td><td>Best practices</td><td>How-to</td></tr>
+    <tr><td><strong>Topics Q&A</strong></td><td><strong>Common issues</strong></td><td><strong>Best practices</strong></td><td><strong>How-to</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
