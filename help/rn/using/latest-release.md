@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Latest Release
 description: Latest Campaign Classic Release Notes
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Latest release{#latest-release}

@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Get started with upgrades
 description: Learn more about Campaign Classic upgrades
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get started with upgrades{#rn-overview}

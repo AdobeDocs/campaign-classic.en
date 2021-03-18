@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Release 20.2
 description: Release 20.2
-audience: rns
-content-type: reference
-topic-tags: campaign-release-notes, latest-release-notes
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Release 20.2{#release-20-2}

@@ -1,11 +1,11 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard release
-description: Campaign Classic Gold Standard Release notes
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Gold Standard release notes
+description: Release notes for Campaign Classic Gold Standard
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Gold Standard releases{#gold-standard}

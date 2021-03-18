@@ -2,10 +2,10 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic Documentation Updates
-description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic
-audience: rns
-content-type: reference
-topic-tags: latest-documentation-updates
+description: This page lists all the new features and updates in Adobe Campaign Classic documentation
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Documentation Updates{#documentation-updates}

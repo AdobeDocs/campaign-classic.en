@@ -1,11 +1,11 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard Compatibility matrix
+title: Compatibility matrix for Campaign Gold Standard
 description: Campaign Classic Compatibility matrix for Gold Standard release
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Gold Standard Compatibility matrix{#compatibility-matrix-gs}

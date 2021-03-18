@@ -4,7 +4,7 @@ product: campaign
 title: Gold Standard upgrade
 description: Learn what is Campaign Classic Gold Standard 
 feature: Overview
-role: Data Engineer
+role: Business Practitioner
 level: Beginner
 ---
 
