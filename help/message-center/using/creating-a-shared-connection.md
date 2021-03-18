@@ -83,7 +83,7 @@ To create an execution instance type external account, apply the following steps
 
 In order for the control instance to be able to connect to the execution instance without having to give a password, simply enter the IP address of the control instance in the **Message Center** access rights section. However, empty passwords are forbidden by default.
 
-To use an empty password, go to the execution instances and define a security zone limited to the IP address of the information system that delivers the events. This security zone must allow empty passwords and accept `<identifier> / <password>` type connections. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+To use an empty password, go to the execution instances and define a security zone limited to the IP address of the information system that delivers the events. This security zone must allow empty passwords and accept `<identifier> / <password>` type connections. For more on this, refer to [this section](../../installation/using/security-zones.md).
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ In order to use several control instances, this configuration has to be performe
 
    >[!NOTE]
    >
-   >**mc1** and **mc2** operators must have **[!UICONTROL Message Center execution]** rights and they cannot have access to the Adobe Campaign client console. An operator must always be linked with a security zone. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+   >**mc1** and **mc2** operators must have **[!UICONTROL Message Center execution]** rights and they cannot have access to the Adobe Campaign client console. An operator must always be linked with a security zone. For more on this, refer to [this section](../../installation/using/security-zones.md).
 
 1. For each operator, check the **[!UICONTROL Restrict to information found in sub-folders of]** box, and select the relevant folder (**Folder 1** for the **mc1** operator and **Folder 2** for the **mc2** operator).
 
