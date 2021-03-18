@@ -20,7 +20,7 @@ Gold Standard is Campaign Classic Long-Term support release. As a hosted Gold St
 
 ## Why does my organization need this upgrade?
 
-As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, as well as updating the current build and/or version, you will be notified directly in [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, as well as updating the current build and/or version, you will be notified directly in by Adobe.
 
 As an on-premise or hybrid customer running on an older version, Adobe encourages you to move to the latest Gold Standard.
 
@@ -56,7 +56,7 @@ We are committed to making sure you have the relevant project and contact inform
     <strong>Improved support</strong>
     </div>
     <ul>
-    <li>Most of your issues are actually resolved with upgrades and can be avoided.</li>
+    <li>Most of the critical issues are actually resolved with upgrades and can be avoided.</li>
     <li>Regular upgrades help reduce faced challenges and increase efficiency by eliminating these challenges.</li>
     <li>Customer Care volume will be reduced, allowing for speedier resolutions and more attention to your issues that are not related to upgrades.</li>
     </ul>
