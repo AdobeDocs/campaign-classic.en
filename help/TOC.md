@@ -646,7 +646,7 @@ type: Documentation
      + [Time zone management](installation/using/time-zone-management.md)
      + [Install a mid-sourcing server](installation/using/mid-sourcing-server.md)
   + Deploy Campaign (on-premise) {#initial-configuration}
-       + [About initial configuration](installation/using/about-initial-configuration.md)
+       + [Key steps](installation/using/about-initial-configuration.md)
        + [Create an instance and log on](installation/using/creating-an-instance-and-logging-on.md)
        + [Create and configure the database](installation/using/creating-and-configuring-the-database.md)
        + [Configure Campaign server](installation/using/campaign-server-configuration.md)
