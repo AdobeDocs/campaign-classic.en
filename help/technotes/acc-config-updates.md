@@ -65,11 +65,11 @@ Latest Gold Standard 11 build fixes a regression which prevented the usage of so
 
 Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions starting **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). 
 
-Campaign Client Console has been updated to ensure compatibility with Adobe IMS in the following Campaign versions:
+Campaign Client Console has been updated to ensure compatibility with Adobe IMS.
 
 **Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed below is mandatory:
+If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), upgrade to one of the new versions listed below is mandatory:
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
