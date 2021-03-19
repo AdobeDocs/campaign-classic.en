@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 ---
 
-# Gold Standard releases{#gold-standard}
+# Gold Standard release notes{#gold-standard}
 
 This page lists Gold Standard releases. Learn more about Campaign Gold Standard [in this page](gs-overview.md).
 
