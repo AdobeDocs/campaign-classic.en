@@ -10,7 +10,7 @@ topic-tags: prerequisites-and-recommendations-
 
 # Get started with security and privacy {#get-started-security-privacy}
 
-This section will introduce you to the key elements to check regarding security and privacy.
+This section will introduce you to the key elements to check regarding security and privacy. Some configurations can only be performed by on-premise customers.
 
 ## Privacy
 
@@ -45,9 +45,9 @@ When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always fo
 
 * **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
 
-* **Securing the data model**: use named rights to limit operator actions, add system filters (sysFilter)
+* **Secure the data model**: use named rights to limit operator actions, add system filters (sysFilter)
 
-* **Adding captchas in web applications**: learn how to add captchas in your public landing pages and subscription pages.
+* **Add captchas in web applications**: learn how to add captchas in your public landing pages and subscription pages.
 
 [Read more](../../installation/using/scripting-coding-guidelines.md)
 
@@ -85,9 +85,9 @@ Configuration has to be performed on all servers. The configuration files are of
 
 Several best practices should be followed when configuring your web-server (Apache/IIS):
 
-* Disable old SSL version and ciphers:
-* Remove the TRACE method:
-* Remove the banner:
-* Limit query size to prevent important files from being uploaded:
+* Disable old SSL version and ciphers
+* Remove the TRACE method
+* Remove the banner
+* Limit query size to prevent important files from being uploaded
 
 [Read more](../../installation/using/web-server-configuration.md)

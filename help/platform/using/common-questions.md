@@ -16,7 +16,7 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 * [Browse self-help options](../../platform/using/tutorials.md#how-to-videos)
 * [Read out get started and use cases section](../../platform/using/tutorials.md#step-by-step-guides)
 * Cannot find the answer? [Ask the Expert](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* Need support? [Consult Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* Need support? [Consult Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html)
 
 ## 1. How can I upgrade Campaign to the latest version? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -34,7 +34,7 @@ The database cleanup workflow deletes obsolete data to avoid exponential growth 
 
 ## 3. How can I configure security zones? {#how-can-i-configure-security-zones-}
 
-The Security Zones self-service interface can be used to manage entries in the VPN Security Zone configuration of an Adobe Campaign Classic deployment. Read out [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones) to learn about security zones in Campaign.
+The Security Zones self-service interface can be used to manage entries in the VPN Security Zone configuration of an Adobe Campaign Classic deployment. Read out [this section](../../installation/using/security-zones.md) to learn about security zones in Campaign.
 
 [Click here to learn more](https://helpx.adobe.com/campaign/kb/configuring-security-zones-self-service.html) about Security Zone self-service UI.
 
