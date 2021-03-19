@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Latest Release
 description: Latest Campaign Classic Release Notes
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Latest release{#latest-release}
@@ -75,7 +75,7 @@ If you’re interested in participating in this private beta, fill out this [for
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
 ``` 
 
-* Fixed an issue that prevented new deliveries with target data personalization from being sent.
+* Fixed an issue that prevented new deliveries with target data personalization from being sent (NEO-30323).
 * Fixed an issue where several crashes occurred in the marketing instance causing core files.
 * Fixed an issue which led the **Tracking** workflow to fail with the following error (NEO-25206):
 

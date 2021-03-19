@@ -1,11 +1,11 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Release 19.1
-description: Release 19.1
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Campaign 19.1 release notes
+description: Release notes for Campaign 19.1
+feature: 
+role: 
+level: 
 ---
 
 # Release 19.1{#release-19-1}
@@ -18,7 +18,7 @@ _December 16, 2020_
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 
 
 **Improvements**

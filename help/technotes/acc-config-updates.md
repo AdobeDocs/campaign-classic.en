@@ -18,6 +18,7 @@ As an on-premise/hybrid customer, for security reasons, you must upgrade to one 
 >[!NOTE]
 >
 >For any question about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
 
 ## Security updates
 
@@ -94,7 +95,7 @@ Once all instances are upgraded, the Client Console needs to be upgraded to this
 
 ## Integration with Experience Cloud Triggers
 
-The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAuth authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **April 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
+The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **November 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
 
 **Are you impacted?**
 

@@ -20,6 +20,7 @@ type: Documentation
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
   + Gold Standard release {#gs-release}
+     + [What is Gold Standard](rn/using/gs-overview.md)
      + [Gold Standard release notes](rn/using/gold-standard.md)
      + [Gold Standard compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}

@@ -1,11 +1,11 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Compatibility matrix
+title: Compatibility matrix for Campaign Classic
 description: Campaign Classic Compatibility matrix
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Compatibility matrix{#compatibility-matrix}
