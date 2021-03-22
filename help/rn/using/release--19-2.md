@@ -12,7 +12,7 @@ level:
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
-_March 16, 2021_
+_March 22, 2021_
 
 * Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
 
