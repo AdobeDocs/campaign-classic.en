@@ -18,6 +18,7 @@ As an on-premise/hybrid customer, for security reasons, you must upgrade to one 
 >[!NOTE]
 >
 >For any question about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
 
 ## Security updates
 
@@ -39,7 +40,7 @@ If your environment is on a lower build than the ones listed below, you are impa
 
 You need to upgrade to one of the newer builds listed above.
 
-* As a hybrid customer, Adobe will upgrade the mid-sourcing instance to the new version and you are highly recommended to upgrade their marketing instance too.
+* As a hybrid customer, Adobe will upgrade the marketing instance to the new version and you are highly recommended to upgrade their marketing instance too.
 
     The new build is compatible with at least Campaign Classic 17.9 release, but to prevent any security gap, Adobe strongly recommends upgrading all instances to a new build.  
 
@@ -64,11 +65,11 @@ Latest Gold Standard 11 build fixes a regression which prevented the usage of so
 
 Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions starting **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). 
 
-Campaign Client Console has been updated to ensure compatibility with Adobe IMS in the following Campaign versions:
+Campaign Client Console has been updated to ensure compatibility with Adobe IMS.
 
 **Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed below is mandatory:
+If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), upgrade to one of the new versions listed below is mandatory:
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
@@ -94,7 +95,7 @@ Once all instances are upgraded, the Client Console needs to be upgraded to this
 
 ## Integration with Experience Cloud Triggers
 
-The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **April 30, 2021**. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411). 
+The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **November 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
 
 **Are you impacted?**
 

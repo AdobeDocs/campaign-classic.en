@@ -21,9 +21,9 @@ When it's possible, use a secure channel: POP3S instead POP3 (or POP3 over TLS).
 
 ## Database
 
-It is imperative that you follow your database engine security.
+You must apply your database engine security best practices.
 
-### SSL/TLS Configuratio*
+## SSL/TLS Configuration
 
 To check the certificate, you can use openssl. To check active ciphers, you can use nmap:
 

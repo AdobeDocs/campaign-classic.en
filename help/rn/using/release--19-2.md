@@ -2,10 +2,10 @@
 solution: Campaign Classic
 product: campaign
 title: Release 19.2
-description: Release 19.2
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+description: Release notes for Campaign 19.2
+feature:
+role: 
+level:
 ---
 
 # Release 19.2{#release-19-2}

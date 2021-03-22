@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Get started with upgrades
 description: Learn more about Campaign Classic upgrades
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get started with upgrades{#rn-overview}
@@ -48,14 +48,14 @@ As an on-premise user, you can perform the upgrade. To do this, you need to [dow
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-As a hosted Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA Gold Standard build](../../rn/using/gold-standard.md#gs-11) without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+As a hosted Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA Gold Standard build](../../rn/using/gold-standard.md#gs-11) without any action. [Learn more](../../rn/using/gs-overview.md).
 
 >[!NOTE]
 >Compatibility matrix for Gold Standard is available in the [GA Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
 
 ## Support and other useful links{#support}
 
-* [Help and Support](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* [Help and Support](https://helpx.adobe.com/campaign/kb/ac-support.html)
 * [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * [Latest documentation updates](../../rn/using/documentation-updates.md)
 * [Deprecated and removed features](../../rn/using/deprecated-features.md)

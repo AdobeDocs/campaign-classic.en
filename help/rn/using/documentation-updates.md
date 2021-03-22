@@ -2,10 +2,10 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic Documentation Updates
-description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic
-audience: rns
-content-type: reference
-topic-tags: latest-documentation-updates
+description: This page lists all the new features and updates in Adobe Campaign Classic documentation
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Documentation Updates{#documentation-updates}
@@ -15,6 +15,8 @@ This page lists all the new features and documentation updates per month and Cam
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
 ## March 2021 {#march-2021}
+
+A new page has been added with guidelines and references to get support about Campaign Classic. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html)
 
 A new section has been added with best practices and checks to perform regarding security and privacy. [Read more](../../installation/using/get-started-security-privacy.md)
 

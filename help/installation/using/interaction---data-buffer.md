@@ -10,9 +10,7 @@ topic-tags: additional-configurations
 
 # Interaction - Data buffer{#interaction-data-buffer}
 
->[!NOTE]
->
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
+You can configure a data buffer zone to increase inbound Interaction performance by desynchronizing offer proposition calculations. This configuration is to be carried out in the instance's own configuration file (config-Instance.xml). 
 
 In Adobe Campaign, a **data buffer zone** has been introduced in the Interaction module. This allows you to **increase performance** of inbound Interaction by desynchronizing stock and offer calculations.
 
@@ -20,12 +18,19 @@ It only concerns inbound Interaction, whether by a call (with or without call da
 
 To avoid a queue when writing proposals related to a recipient, a ne w process generates a **data buffer zone** that allows proposals to be **written asynchronously**. This data buffer zone is periodically read and emptied. The default period is in the space of about one second.Proposal writing is therefore grouped.
 
+>[!NOTE]
+>
+>This parameter is essential if you use Interaction with a distributed architecture.
+
 Data buffer zone **configuration** can be done in the instance's configuration file (config-Instance.xml).
 
->[!NOTE]
+>[!CAUTION]
+>
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
 >
 >Any changes made to the configuration requires a restart of the web server (Apache:IIS) and the Adobe Campaign processes.  
 >After configuring the data buffer zone, please ensure that an adapted hardware configuration is available. (amount of memory present).
+
 
 After configuring the data buffer zone, please ensure that an adapted hardware configuration is available. (amount of memory present).
 

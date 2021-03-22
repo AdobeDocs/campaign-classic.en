@@ -12,7 +12,7 @@ topic-tags: appendices
 
 The following command lines require the ability to access the application server. For deployments hosted by Adobe, these commands can only be executed by Adobe.
 
-## Creating an instance {#creating-an-instance}
+## Create an instance {#creating-an-instance}
 
 Instance creation can be executed using command lines, with the syntax:
 
@@ -24,7 +24,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 The command **nlserver config -addinstance:instance1/demo&#42;/eng** enables you to create an instance called **instance1** in English with the DNS mask demo&#42;.
 
-## Declaring a database {#declaring-a-database}
+## Declare a database {#declaring-a-database}
 
 You can associate an existing database with an instance from the command line by using the following syntax:
 

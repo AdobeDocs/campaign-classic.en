@@ -21,8 +21,6 @@ topic-tags: prerequisites-and-recommendations-
 >
 >To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
-To learn how to use the Security Zones Self Service UI to manage entries in the VPN Security Zone configuration, refer to [this technote](https://helpx.adobe.com/campaign/kb/configuring-security-zones-self-service.html).
-
 * Make sure that your reverse proxy in not allowed in subNetwork. If it is the case, **all** traffic will be detected as coming from this local IP, so will be trusted.
 
 * Minimize the use of sessionTokenOnly="true":
@@ -118,6 +116,6 @@ Adobe Campaign lets you set a plain password in the `<dbcnx .../>` element. Do n
 
 By default, Adobe Campaign does not stick a session to a specific IP, but you can active it to prevent the session from being stolen. To do it, in the [serverConf.xml file](../../installation/using/the-server-configuration-file.md), set the checkIPConsistent attribute to **true** in the `<authentication>` node.
 
-By default, Adobe Campaign's MTA does not use a secured connection to send content to the SMTP server. You have to enable this feature (may reduce delivery speed). To do this, set enableTLS to tr**ue in the `<smtp ...>` node.
+By default, Adobe Campaign's MTA does not use a secured connection to send content to the SMTP server. You have to enable this feature (may reduce delivery speed). To do this, set **enableTLS** to **true** in the `<smtp ...>` node.
 
 You can reduce the lifetime of a session in the authentication node (sessionTimeOutSec attribute).

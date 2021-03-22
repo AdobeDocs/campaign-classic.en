@@ -2,12 +2,10 @@
 solution: Campaign Classic
 product: campaign
 title: Campaign Classic deprecated and removed features
-description: This page lists deprecated and removed features of Adobe Campaign Classic
-audience: rn
-content-type: reference
-topic-tags: campaign-classic-deprecated-features
-internal: n
-snippet: y
+description: This page lists deprecated and removed features in Adobe Campaign Classic
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Deprecated and removed features {#deprecated-and-removed-features}

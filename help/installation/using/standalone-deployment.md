@@ -157,12 +157,7 @@ Apply the following steps:
 
    For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
-1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder.
-
-   For more on this, refer to the following sections:
-
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
-    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
+1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder. [Learn more](../../installation/using/client-console-availability-for-windows.md).
 
 1. Follow the Web server integration procedure (IIS, Apache) described in the following sections:
 
@@ -205,14 +200,9 @@ Apply the following steps:
 
    This URL enables you to access the download page for the client setup program.
 
-   Enter the **internal** login and associated password when you reach the access control page.
+   Enter the **internal** login and associated password when you reach the access control page. [Learn more](../../installation/using/client-console-availability-for-windows.md).
 
    ![](assets/s_ncs_install_access_client.png)
-
-   For more on this, refer to the following sections:
-
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
-    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 1. Start the Adobe Campaign client console (from the previous download page or launched directly on the server for a Windows installation), set the server connection URL to https://console.campaign.net and connect using the **internal** login.
 

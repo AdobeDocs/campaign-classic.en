@@ -102,7 +102,7 @@ After running **postupgrade**, the following elements must be taken into account
 
 * Security zones.
 
-  Before starting the server, you must configure the security zones. For more information, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones) and the [Security](../../migration/using/general-configurations.md#security) section.
+  Before starting the server, you must configure the security zones. For more information, refer to [this section](../../installation/using/security-zones.md) and the [Security](../../migration/using/general-configurations.md#security) section.
 
 * Schemas
 

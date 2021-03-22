@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 ---
 
-# Capability matrix {#capability-matrix-per-model}
+# Capability matrix per model{#capability-matrix-per-model}
 
 Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their use can depend on the type of deployment of your installation. This article shares some details about the main differences for certain features between fully hosted (Managed Services) and on-premise deployments.
 
