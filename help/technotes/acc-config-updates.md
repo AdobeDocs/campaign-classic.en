@@ -42,7 +42,7 @@ Learn how to check your version [in this section](../platform/using/launching-ad
 
 You need to upgrade to one of the newer builds listed above.
 
-* As a hybrid customer, Adobe will upgrade the marketing instance to the new version and you are highly recommended to upgrade their marketing instance too.
+* As a hybrid customer, Adobe will upgrade the mid-sourcing instance to the new version and you are highly recommended to upgrade your marketing instance too.
 
     The new build is compatible with at least Campaign Classic 17.9 release, but to prevent any security gap, Adobe strongly recommends upgrading all instances to a new build.  
 
