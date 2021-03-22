@@ -19,10 +19,10 @@ type: Documentation
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
-  + Gold Standard release {#gs-release}
-     + [What is Gold Standard](rn/using/gs-overview.md)
-     + [Gold Standard release notes](rn/using/gold-standard.md)
-     + [Gold Standard compatibility matrix](rn/using/compatibility-matrix-gs.md)
+  + [!DNL Gold Standard] release {#gs-release}
+     + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
+     + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
+     + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}
     + [Release 20.3](rn/using/release--20-3.md)
     + [Release 20.2](rn/using/release--20-2.md)

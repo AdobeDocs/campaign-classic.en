@@ -110,7 +110,7 @@ _August 13, 2019_
 
 >[!NOTE]
 >
->19.1.4 Gold Standard releases are listed in this [page](../../rn/using/gold-standard.md).
+>19.1.4 [!DNL Gold Standard] releases are listed in this [page](../../rn/using/gold-standard.md).
 
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}

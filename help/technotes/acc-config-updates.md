@@ -28,7 +28,7 @@ Latest Campaign versions come with a security fix which reinforce protection aga
 
 If your environment is on a lower build than the ones listed below, you are impacted:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
+* [!DNL Gold Standard] 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
 * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
@@ -53,7 +53,7 @@ You need to upgrade to one of the newer builds listed above.
 
 ## Campaign Client Console update
 
-Latest Gold Standard 11 build fixes a regression which prevented the usage of some components of the Clien Console, such as the date picker and images management in deliveries. Console upgrade is mandatory.
+Latest [!DNL Gold Standard] 11 build fixes a regression which prevented the usage of some components of the Clien Console, such as the date picker and images management in deliveries. Console upgrade is mandatory.
 
 [Learn more](../rn/using/gold-standard.md).
 
@@ -71,7 +71,7 @@ Campaign Client Console has been updated to ensure compatibility with Adobe IMS.
 
 If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), upgrade to one of the new versions listed below is mandatory:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
+* [!DNL Gold Standard] 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
 * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
@@ -99,11 +99,11 @@ The legacy oAuth authentication service has reached end-of-life. Triggers integr
 
 **Are you impacted?**
 
-If your instances are running on an **older version than Campaign 19.1.8, 20.2.4, Gold Standard 11**, then you are using an older version of Triggers integration through oAuth authentication: **you need to upgrade to a newer version and move to Adobe I/O**. 
+If your instances are running on an **older version than Campaign 19.1.8, 20.2.4, [!DNL Gold Standard] 11**, then you are using an older version of Triggers integration through oAuth authentication: **you need to upgrade to a newer version and move to Adobe I/O**. 
 
 Upgrade to one of the new versions listed below is mandatory:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
+* [!DNL Gold Standard] 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
 * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)

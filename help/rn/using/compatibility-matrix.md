@@ -12,7 +12,7 @@ level: Beginner
 
 This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
-If you are a Gold Standard user, refer to the [Gold Standard Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
+If you are a [!DNL Gold Standard] user, refer to the [[!DNL Gold Standard] Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
 
 ## Important notes{#important-notes}
 

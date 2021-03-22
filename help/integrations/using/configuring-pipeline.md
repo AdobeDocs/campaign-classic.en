@@ -21,7 +21,7 @@ The triggers are used for targeting by a campaign workflow that sends emails. Th
 
 Before starting this configuration, please check you are using:
 
-* Adobe Campaign 20.3, 20.2.4, 19.1.8 or Gold Standard 11 minimum
+* Adobe Campaign 20.3, 20.2.4, 19.1.8 or [!DNL Gold Standard] 11 minimum
 * Adobe Analytics Standard version
 
 You will also need:
