@@ -36,6 +36,8 @@ If your environment is on a lower build than the ones listed below, you are impa
 * Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
+Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
 **How to update?**
 
 You need to upgrade to one of the newer builds listed above.
@@ -53,13 +55,12 @@ You need to upgrade to one of the newer builds listed above.
 
 ## Campaign Client Console update
 
-Latest [!DNL Gold Standard] 11 build fixes a regression which prevented the usage of some components of the Clien Console, such as the date picker and images management in deliveries. Console upgrade is mandatory.
+The following versions fix a regression which prevented the usage of some components of the Client Console, such as the date picker and images management in deliveries. **Console upgrade** is mandatory. 
 
-[Learn more](../rn/using/gold-standard.md).
-
->[!NOTE]
->
->The new Client Console for other versions will be available soon.
+* Latest Gold Standard 11 build 9032&#64;10c2709. [Learn more](../rn/using/gold-standard.md)
+* Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
+* Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
+* Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
 ## Adobe Identity Management System (IMS) update
 
@@ -80,6 +81,8 @@ If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
 These releases come with a new connection protocol: upgrade is mandatory for both Campaign server and Client Console to be able to connect to Campaign after **June 30, 2021**.
+
+Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
@@ -109,6 +112,8 @@ Upgrade to one of the new versions listed below is mandatory:
 * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
+Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
 **How to update?**
 
 Once the instances are upgraded to a newer version, all customers need to follow the [procedure move to the new authentication mode](../integrations/using/configuring-adobe-io.md). This requires to generate the new Adobe I/O token and use it in the implementation.    
@@ -126,6 +131,8 @@ The Apple Push Notification service (APNs) will no longer support the legacy bin
 **Are your impacted?**
 
 If your instances are running on an **older version than Campaign 21.1,** and send push notifications with the legacy Apple binary protocol, you need to update to the HTTP/2-based APNs provider API. 
+
+Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
@@ -150,7 +157,6 @@ As a hosted customer, no action is needed: Adobe has already incorporated the ne
 As an on-premise/hybrid customer, you need to update your configuration to ensure a seamless transition **before March 29 2021**.
 
 [Learn how to incorporate the new certificate](ios-certificate-update.md).
-
 
 ## Useful links
 
