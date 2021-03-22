@@ -19,9 +19,10 @@ type: Documentation
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
-  + Gold Standard release {#gs-release}
-     + [Gold Standard release notes](rn/using/gold-standard.md)
-     + [Gold Standard compatibility matrix](rn/using/compatibility-matrix-gs.md)
+  + [!DNL Gold Standard] release {#gs-release}
+     + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
+     + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
+     + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}
     + [Release 20.3](rn/using/release--20-3.md)
     + [Release 20.2](rn/using/release--20-2.md)
@@ -645,7 +646,7 @@ type: Documentation
      + [Time zone management](installation/using/time-zone-management.md)
      + [Install a mid-sourcing server](installation/using/mid-sourcing-server.md)
   + Deploy Campaign (on-premise) {#initial-configuration}
-       + [About initial configuration](installation/using/about-initial-configuration.md)
+       + [Key steps](installation/using/about-initial-configuration.md)
        + [Create an instance and log on](installation/using/creating-an-instance-and-logging-on.md)
        + [Create and configure the database](installation/using/creating-and-configuring-the-database.md)
        + [Configure Campaign server](installation/using/campaign-server-configuration.md)

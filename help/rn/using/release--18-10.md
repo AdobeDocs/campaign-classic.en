@@ -1,11 +1,11 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Release 18.10
-description: Release 18.10
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Campaign 18.10 release notes
+description: Release notes for Campaign 18.10
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Release 18.10{#release-18-10}

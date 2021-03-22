@@ -1,24 +1,18 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard release
-description: Campaign Classic Gold Standard Release notes
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: [!DNL Gold Standard] release notes
+description: Release notes for Campaign Classic [!DNL Gold Standard]
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
-# Gold Standard releases{#gold-standard}
+# [!DNL Gold Standard] release notes{#gold-standard}
 
-Gold Standard is Campaign Classic Long-Term support release. As a hosted Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On-premise and Hybrid customers can also benefit from Gold Standard releases.
+This page lists [!DNL Gold Standard] releases. Learn more about Campaign [!DNL Gold Standard] [in this page](gs-overview.md).
 
-If you migrate from an old build, we recommend that you upgrade to this version first.
-
-This page lists Gold Standard releases.
-
-For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
-
-## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
+## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 release{#gs-11}
 
 _March 2, 2021_
 
@@ -39,9 +33,9 @@ _December 22, 2020_
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 >
->Learn more in the [Gold Standard 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
+>Learn more in the [[!DNL Gold Standard] 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
 
 The build 9032&#64;d3b452f includes the following improvements and fixes:
 
@@ -55,7 +49,7 @@ The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 * Fixed an issue that could cause workflows to fail when running an **Enrichment** activity. (NEO-17338)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 10 release{#gs-10}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 release{#gs-10}
 
 _July 7, 2020_
 
@@ -67,7 +61,7 @@ Fixed an issue which prevented tracking from working when the signature feature 
 >
 >We recommend that you upgrade the client console with the one available in this release. Refer to [this page](../../installation/using/installing-the-client-console.md)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 9 release{#gs-9}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9 release{#gs-9}
 
 _22 June 2020_
 
@@ -83,7 +77,7 @@ The following fixes are related to the tracking link security mechanism (learn m
 * Fixed an issue with the anti-phishing service. (NEO-25283)
 * Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 8 release{#gs-8}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8 release{#gs-8}
 
 _April 29, 2020_
 
@@ -108,7 +102,7 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 6 release{#gs-6}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6 release{#gs-6}
 
 _March 9, 2020_
 
@@ -116,7 +110,7 @@ The build 9032&#64;19f73c5 includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 5 release{#gs-5}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5 release{#gs-5}
 
 _December 17, 2019_
 
@@ -124,7 +118,7 @@ The build 9032&#64;d6b8062 includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 4 release{#gs-4}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4 release{#gs-4}
 
 _December 11, 2019_
 
@@ -132,7 +126,7 @@ The build 9032&#64;bc4a935 includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 3 release{#gs-3}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3 release{#gs-3}
 
 _November 20, 2019_
 
@@ -142,7 +136,7 @@ The build 9032&#64;3468c7b includes the following fixes:
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
 * Fixed an issue that could block or make the web server crash.
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 2 release{#gs-2}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2 release{#gs-2}
 
 _September 19, 2019_
 

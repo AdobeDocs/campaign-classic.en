@@ -2,10 +2,10 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic Documentation Updates
-description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic
-audience: rns
-content-type: reference
-topic-tags: latest-documentation-updates
+description: This page lists all the new features and updates in Adobe Campaign Classic documentation
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Documentation Updates{#documentation-updates}
@@ -123,7 +123,7 @@ The Compatibility matrix has been updated. [Read more](../../rn/using/compatibil
 
 The Deprecated and removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
 
-Release notes and Compatibility matrix for Gold Standard release are now available in a dedicated section.
+Release notes and Compatibility matrix for [!DNL Gold Standard] release are now available in a dedicated section.
 [Read more](../../rn/using/gold-standard.md#gs-11).
 
 Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
@@ -199,7 +199,7 @@ The **[!UICONTROL AND-join]** activity section has been enriched with additional
 
 A use case on how to automatically update a list using an incremental query has been added to the workflow use cases. [Read more](../../workflow/using/about-workflow-use-cases.md)
 
-The [Release Notes](../../rn/using/latest-release.md) have been reorganized: an [overview page](../../rn/using/latest-release.md) has been added with information on build statuses, upgrade process, recommendations and important links. A dedicated page for [Gold Standard releases](../../rn/using/gold-standard.md) has also been added and the [Compatibility matrix](../../rn/using/compatibility-matrix.md) has been integrated.
+The [Release Notes](../../rn/using/latest-release.md) have been reorganized: an [overview page](../../rn/using/latest-release.md) has been added with information on build statuses, upgrade process, recommendations and important links. A dedicated page for [[!DNL Gold Standard] releases](../../rn/using/gold-standard.md) has also been added and the [Compatibility matrix](../../rn/using/compatibility-matrix.md) has been integrated.
 
 A new section has been added with guidelines related to Campaign Classic monitoring. [Read more](../../production/using/monitoring-guidelines.md)
 

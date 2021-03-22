@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Get started with upgrades
 description: Learn more about Campaign Classic upgrades
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get started with upgrades{#rn-overview}
@@ -22,7 +22,7 @@ A status is associated to each build. You'll find below the list of statuses and
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 
-The **last GA builds** are: [Gold Standard 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 20.2.4 release](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
+The **last GA builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 20.2.4 release](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
@@ -46,12 +46,12 @@ As a hosted customer (Managed Service or Hybrid), you need to reach out to the C
 
 As an on-premise user, you can perform the upgrade. To do this, you need to [download the latest stable build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](../../production/using/build-upgrade.md), and consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
 
-### Gold Standard{#upgrade-for-gold-standard-users}
+### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-As a hosted Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA Gold Standard build](../../rn/using/gold-standard.md#gs-11) without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+As a hosted [!DNL Gold Standard] user, you will automatically benefit from the [!DNL Gold Standard] upgrade with the [latest GA [!DNL Gold Standard] build](../../rn/using/gold-standard.md#gs-11) without any action. [Learn more](../../rn/using/gs-overview.md).
 
 >[!NOTE]
->Compatibility matrix for Gold Standard is available in the [GA Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
+>Compatibility matrix for [!DNL Gold Standard] is available in the [GA Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
 
 ## Support and other useful links{#support}
 

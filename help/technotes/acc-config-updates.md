@@ -18,6 +18,7 @@ As an on-premise/hybrid customer, for security reasons, you must upgrade to one 
 >[!NOTE]
 >
 >For any question about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
 
 ## Security updates
 
@@ -27,7 +28,7 @@ Latest Campaign versions come with a security fix which reinforce protection aga
 
 If your environment is on a lower build than the ones listed below, you are impacted:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
+* [!DNL Gold Standard] 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
 * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
@@ -39,7 +40,7 @@ If your environment is on a lower build than the ones listed below, you are impa
 
 You need to upgrade to one of the newer builds listed above.
 
-* As a hybrid customer, Adobe will upgrade the mid-sourcing instance to the new version and you are highly recommended to upgrade their marketing instance too.
+* As a hybrid customer, Adobe will upgrade the marketing instance to the new version and you are highly recommended to upgrade their marketing instance too.
 
     The new build is compatible with at least Campaign Classic 17.9 release, but to prevent any security gap, Adobe strongly recommends upgrading all instances to a new build.  
 
@@ -52,7 +53,7 @@ You need to upgrade to one of the newer builds listed above.
 
 ## Campaign Client Console update
 
-Latest Gold Standard 11 build fixes a regression which prevented the usage of some components of the Clien Console, such as the date picker and images management in deliveries. Console upgrade is mandatory.
+Latest [!DNL Gold Standard] 11 build fixes a regression which prevented the usage of some components of the Clien Console, such as the date picker and images management in deliveries. Console upgrade is mandatory.
 
 [Learn more](../rn/using/gold-standard.md).
 
@@ -64,13 +65,13 @@ Latest Gold Standard 11 build fixes a regression which prevented the usage of so
 
 Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions starting **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). 
 
-Campaign Client Console has been updated to ensure compatibility with Adobe IMS in the following Campaign versions:
+Campaign Client Console has been updated to ensure compatibility with Adobe IMS.
 
 **Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Service (IMS), upgrade to one of the new versions listed below is mandatory:
+If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), upgrade to one of the new versions listed below is mandatory:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
+* [!DNL Gold Standard] 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
 * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
@@ -94,15 +95,15 @@ Once all instances are upgraded, the Client Console needs to be upgraded to this
 
 ## Integration with Experience Cloud Triggers
 
-The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAuth authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **April 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
+The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **November 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
 
 **Are you impacted?**
 
-If your instances are running on an **older version than Campaign 19.1.8, 20.2.4, Gold Standard 11**, then you are using an older version of Triggers integration through oAuth authentication: **you need to upgrade to a newer version and move to Adobe I/O**. 
+If your instances are running on an **older version than Campaign 19.1.8, 20.2.4, [!DNL Gold Standard] 11**, then you are using an older version of Triggers integration through oAuth authentication: **you need to upgrade to a newer version and move to Adobe I/O**. 
 
 Upgrade to one of the new versions listed below is mandatory:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
+* [!DNL Gold Standard] 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
 * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
