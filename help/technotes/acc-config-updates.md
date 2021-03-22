@@ -53,13 +53,13 @@ You need to upgrade to one of the newer builds listed above.
 
 ## Campaign Client Console update
 
-Latest Gold Standard 11 build fixes a regression which prevented the usage of some components of the Clien Console, such as the date picker and images management in deliveries. Console upgrade is mandatory. 
+Latest Gold Standard 11 build fixes a regression which prevented the usage of some components of the Client Console, such as the date picker and images management in deliveries. Console upgrade is mandatory. 
 
 [Learn more](../rn/using/gold-standard.md).
 
 >[!NOTE]
 >
->This fix is also in the latest [19.1.8](../rn/using/release--19-1.md#release-19-1-8-build-9039), [19.2.4](../rn/using/release--19-2.md#release-19-2-4-build-9082) and [20.1.4](../rn/using/release--20-1.md#release-20-1-4-build-9126). The new Client Console for other versions will be available soon.
+>This fix is also available in the latest [19.1.8](../rn/using/release--19-1.md#release-19-1-8-build-9039), [19.2.4](../rn/using/release--19-2.md#release-19-2-4-build-9082) and [20.1.4](../rn/using/release--20-1.md#release-20-1-4-build-9126). 
 
 ## Adobe Identity Management System (IMS) update
 
