@@ -22,9 +22,9 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 
 >[!IMPORTANT]
 >
->If you are connecting to Campaign through Adobe Identity Service (IMS), you need to upgrade to the latest build to be able to connect to Campaign after **June 30, 2021**. This upgrade is mandatory for both Campaign server and client console. Depending on your current version, you must upgrade to one of the following release: 
+>If you are connecting to Campaign through Adobe Identity Service (IMS), you need to upgrade to the latest build to be able to connect to Campaign after **June 30, 2021**. This upgrade is mandatory for both Campaign server and client console. Depending on your current version, you must upgrade to one of the following releases: 
 >
-> * [Campaign Gold Standard 11](../../rn/using/gold-standard.md)
+> * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 20.3.3](../../rn/using/latest-release.md) 
 > * [Campaign 20.2.4](../../rn/using/release--20-2.md) 
 > * [Campaign 20.1.4](../../rn/using/release--20-1.md)
@@ -32,7 +32,7 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 > * [Campaign 19.1.8](../../rn/using/release--19-1.md)
 >
 
-## Related topics
+## More resources
 
 | Useful pages | Additional resources |
 |---|---|

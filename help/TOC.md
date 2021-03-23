@@ -19,10 +19,10 @@ type: Documentation
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
-  + Gold Standard release {#gs-release}
-     + [What is Gold Standard](rn/using/gs-overview.md)
-     + [Gold Standard release notes](rn/using/gold-standard.md)
-     + [Gold Standard compatibility matrix](rn/using/compatibility-matrix-gs.md)
+  + [!DNL Gold Standard] release {#gs-release}
+     + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
+     + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
+     + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}
     + [Release 20.3](rn/using/release--20-3.md)
     + [Release 20.2](rn/using/release--20-2.md)
@@ -216,17 +216,11 @@ type: Documentation
        + [Test tracking](delivery/using/testing-tracking.md)
        + [Tracking troubleshooting](delivery/using/tracking-troubleshooting.md)
   + Deliverability management {#deliverability-management}
-       + [About deliverability](delivery/using/about-deliverability.md)
-       + [Key points to check](delivery/using/deliverability-key-points.md)
-       + [Starting a new platform](delivery/using/starting-new-platform.md)
+       + [What is deliverability](delivery/using/about-deliverability.md)
        + [Control message content](delivery/using/control-message-content.md)
-       + [Improve your reputation](delivery/using/improve-reputation.md)
-       + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
-       + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
-       + [Denylist databases](delivery/using/block-list-databases.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
