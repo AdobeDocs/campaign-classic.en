@@ -10,72 +10,67 @@ topic-tags: sending-messages-on-mobiles
 
 # Create LINE deliveries{#line-channel}
 
-LINE is an application for free instant messaging, voice and video calls, available on all smartphones (iPhone, Android, Windows Phone, Blackberry, Nokia) and on PC. Adobe Campaign allows you to send LINE messages.
+>[!NOTE]
+>
+> [!DNL LINE] is only available for on-premise or managed services installations.
 
-LINE is only available for on-premise or managed services installations.
+[!DNL LINE] is an application for free instant messaging, voice and video calls, available on every mobile OS and on PC.
 
-LINE can also be combined with the transactional message module to send real time messages on the LINE app installed in consumer mobile devices. For more on this, refer to this [page](../../message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line).
+[!DNL LINE] can also be combined with the transactional message module to send real time messages on the [!DNL LINE] app installed in consumer mobile devices. For more on this, refer to this [page](../../message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line).
 
 ![](assets/line_message.png)
 
-The sections below provide information that is specific to the LINE channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+The steps for using the [!DNL LINE] channel are:
 
-The steps for using the LINE channel are:
+1. [Set up LINE channel](#setting-up-line-channel)
+1. [Create a delivery](#creating-the-delivery)
+1. [Configure the content type](#defining-the-content)
+1. [Monitoring the delivery (tracking, quarantining, reports, etc.)](#accessing-reports)
 
-1. Creating a delivery
-1. Configuring the message content
-1. Selecting the target population
-1. Sending the messages
-1. Monitoring the delivery (tracking, quarantining, reports, etc.).
+## Set up LINE channel {#setting-up-line-channel}
 
-## Setting up LINE channel {#setting-up-line-channel}
+Before creating a [!DNL LINE] account and external account, you first need to install the LINE package on your instance. For more information on this, consult the [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) section in the Installation guide.
 
-### Creating a LINE account and an external account {#creating-a-line-account-and-an-external-account-}
+You must first create a [!DNL LINE] account, so that you can then link it to Adobe Campaign. Then, you can send [!DNL LINE] messages to the users that have added your [!DNL LINE] account in their mobile application. External accounts and [!DNL LINE] account can only be managed by the functional administrator of the platform.
 
->[!NOTE]
->
->Before creating a LINE account and external account, you first need to install the LINE package on your instance. For more information on this, consult the [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) section in the Installation guide.
+To create and configure a [!DNL LINE] account, see [https://developers.line.me/](https://developers.line.me/).
 
-You must first create a LINE account, so that you can then link it to Adobe Campaign. Then, you can send LINE messages to the users that have added your LINE account in their mobile application. External accounts and LINE account can only be managed by the functional administrator of the platform.
-
-To create and configure a LINE account, see [https://developers.line.me/](https://developers.line.me/).
-
-To create and configure a LINE service, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
+To create and configure a [!DNL LINE] service, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
 
 ![](assets/line_service.png)
 
 Finally, to create an external account on Adobe Campaign:
 
-1. In the **Administration** > **Platform** tree structure, click the **External Accounts** tab.
-1. Then click the **New** icon.
+1. In the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** tree structure, click the **[!UICONTROL External Accounts]** tab.
+1. Then click the **[!UICONTROL New]** icon.
 
    ![](assets/line_config.png)
 
-1. Complete the **Label** and **Internal name** fields.
-1. In the **[!UICONTROL Type]** field, select Routing and in the **Channel** field, select LINE.
-1. Click **[!UICONTROL Save]** to create your LINE external account.
-1. A **LINE** personalization field then appears under the **General** icon, fill the following fields:
+1. Complete the **[!UICONTROL Label]** and **[!UICONTROL Internal name]** fields.
+1. In the **[!UICONTROL Type]** field, select Routing and in the **[!UICONTROL Channel]** field, select LINE.
+1. Click **[!UICONTROL Save]** to create your [!DNL LINE] external account.
+1. A **[!UICONTROL LINE]** personalization field then appears under the **[!UICONTROL General]** icon, fill the following fields:
 
    ![](assets/line_config_2.png)
 
-    * **Channel Alias**: is provided via your LINE account in the **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]** tab.
-    * **Channel ID**: is provided via your LINE account in the **Channels** > **Basic Information panel** tab.
-    * **Channel secret key**: is provided via your LINE account in the **Channels** > **Basic Information panel** tab.
-    * **Access token**: is provided via your LINE account in the developer portal or by clicking the **[!UICONTROL Get access token]** button.
-    * **Access token expiration date**: allows you to specify the expiration date of the Access token.
-    * **LINE subscription service**: allows you to specify the services to which the users will be subscribed.
+    * **[!UICONTROL Channel Alias]**: is provided via your [!DNL LINE] account in the **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]** tab.
+    * **[!UICONTROL Channel ID]**: is provided via your [!DNL LINE] account in the **[!UICONTROL Channels]** > **[!UICONTROL Basic Information panel]** tab.
+    * **[!UICONTROL Channel secret key]**: is provided via your [!DNL LINE] account in the **[!UICONTROL Channels]** > **[!UICONTROL Basic Information panel]** tab.
+    * **[!UICONTROL Access token]**: is provided via your [!DNL LINE] account in the developer portal or by clicking the **[!UICONTROL Get access token]** button.
+    * **[!UICONTROL Access token expiration date]**: allows you to specify the expiration date of the Access token.
+    * **[!UICONTROL LINE subscription service]**: allows you to specify the services to which the users will be subscribed.
 
 >[!NOTE]
 >
->You must verify that the **[!UICONTROL LINE access token update (updateLineAccessToken)]** and **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]** workflows have started. From the explorer, click **[!UICONTROL Administration > Production > Technical workflows > LINE workflows]** to check the status of the workflows.
+>You must verify that the **[!UICONTROL LINE access token update (updateLineAccessToken)]** and **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]** workflows have started. From the explorer, click **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL LINE workflows]** to check the status of the workflows.
 
-## Creating the delivery {#creating-the-delivery}
-
-To create a **LINE** delivery you have to follow these steps:
+## Create LINE delivery {#creating-the-delivery}
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>When sending a LINE delivery to a new recipient for the first time, you must add the official LINE message regarding the terms of use and consent into the delivery. The official message is available at the following link: [https://terms.line.me/OA_privacy/](https://terms.line.me/OA_privacy/sp?lang=fr).
+
+To create a [!DNL LINE] delivery you have to follow these steps:
 
 1. From the **[!UICONTROL Campaigns]** tab, select **[!UICONTROL Deliveries]** then click the **[!UICONTROL Create]** button. 
 1. In the window that appears, select **[!UICONTROL LINE V2 delivery]** delivery template.
@@ -85,9 +80,19 @@ To create a **LINE** delivery you have to follow these steps:
 1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Click **[!UICONTROL Continue]** to create your delivery.
 
-## Defining the content {#defining-the-content}
+1. In the delivery editor, select **[!UICONTROL To]** to target the recipients of your [!DNL LINE] delivery Targeting is carried out on **[!UICONTROL Visitors (nms:visitor)]**.
+   
+   For more information, refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md). 
+   
+1. Click **[!UICONTROL Add]** to add one or multiple message and select the **[!UICONTROL Content type]**. For more information on the different **[!UICONTROL Content type]** available, refer to [Defining the content type](#defining-the-content).
 
-To define the content of a LINE delivery, you first have to add message type to your delivery. Each LINE delivery can contain up to 5 messages.
+1. When your delivery is created and configured correctly, you can send it to the target defined earlier. For more information on sending a delivery, refer to [Sending messages](../../delivery/using/sending-messages.md).
+
+1. After sending your message, access your report to measure the effectiveness of your delivery. For more information on [!DNL LINE] reports, refer to [Accessing reports](accessing-reports.md).
+
+## Define the content type {#defining-the-content}
+
+To define the content of a [!DNL LINE] delivery, you first have to add message type to your delivery. Each [!DNL LINE] delivery can contain up to 5 messages.
 
 You can choose between two message types:
 
@@ -96,7 +101,7 @@ You can choose between two message types:
 
 ### Configuring a Text message delivery {#configuring-a-text-message-delivery}
 
-A **Text message** LINE delivery is a message sent to recipients in text form. 
+A **[!UICONTROL Text message]** [!DNL LINE] delivery is a message sent to recipients in text form. 
 
 ![](assets/line_message_02.png)
 
@@ -104,7 +109,7 @@ The configuration for this type of message is similar to the configuration of th
 
 ### Configuring an Image and link delivery {#configuring-an-image-and-link-delivery}
 
-An **Image and link** LINE delivery is a message sent to recipients in the form of an image that may contain one or multiple URLs.
+An **[!UICONTROL Image and link]** [!DNL LINE] delivery is a message sent to recipients in the form of an image that may contain one or multiple URLs.
 
 You can use:
 
@@ -144,33 +149,21 @@ You can use:
 
 >[!NOTE]
 >
->The <%@ include option='NmsServer_URL' %>/webApp/APP3?id=<%=escapeUrl(cryptString(visitor.id))%> syntax allows you to include a link to a web app in a LINE message.
-
-### Recommendations {#recommendations}
-
-* When you send a LINE delivery to a new recipient for the first time, you must add the official LINE message regarding the terms of use and consent into the delivery. The official message is available at the following link: [https://terms.line.me/OA_privacy/](https://terms.line.me/OA_privacy/sp?lang=fr).
-
-## Selecting the target population {#selecting-the-target-population}
-
-Selecting recipients of a LINE delivery is similar to defining email delivery recipients. For more information, refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md).
-
-Targeting is carried out on **visitors**.
-
-## Sending messages {#sending-messages}
-
-When your delivery is created and configured correctly, you can send it to the target defined earlier.
-
-Sending LINE deliveries is similar to sending an email delivery. For more information on sending a delivery, refer to [Sending messages](../../delivery/using/sending-messages.md).
+>The `<%@ include option='NmsServer_URL' %>/webApp/APP3?id=<%=escapeUrl(cryptString(visitor.id))%>` syntax allows you to include a link to a web app in a LINE message.
 
 ## Accessing reports {#accessing-reports}
 
-You can view reports on the LINE service by clicking **[!UICONTROL Profiles and Targets > Services and Subscriptions > LINE]** in the explorer. Then click the **[!UICONTROL Reports]** icon in the LINE service.
+1. After sending your delivery, click **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the **[!UICONTROL Explorer]** tab to view reports on your [!DNL LINE] delivery. 
+   
+   >[!NOTE]
+   >
+   >The tracking reports indicate the click-through rate. LINE does not take the open rate into account.
 
-![](assets/line_reports.png)
+   ![](assets/line_reports_01.png)
 
-To view reports on LINE deliveries, click **[!UICONTROL Campaign Management > Deliveries]** then select the delivery you want. The tracking reports indicate the click-through rate. LINE does not take the open rate into account.
+1. To access reports on your [!DNL LINE] service, select **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE]** from the **[!UICONTROL Explorer]**. Then click the **[!UICONTROL Reports]** icon in the LINE service.
 
-![](assets/line_reports_01.png)
+   ![](assets/line_reports.png)
 
 ## Example: create and send a personalized LINE message {#example--create-and-send-a-personalized-line-message}
 
@@ -194,7 +187,7 @@ In this example, we are going to create and configure a text message and an imag
 
    ![](assets/line_usecase_03.png)
 
-1. Place your cursor in the place where you want to insert the personalized text and click the drop-down icon then select **[!UICONTROL Visitor > First name]**.
+1. Place your cursor in the place where you want to insert the personalized text and click the drop-down icon then select **[!UICONTROL Visitor]** > **[!UICONTROL First name]**.
 
    ![](assets/line_usecase_05.png)
 
@@ -214,3 +207,4 @@ In this example, we are going to create and configure a text message and an imag
    The delivery is sent to the target.
 
    ![](assets/line_usecase_06.png)
+
