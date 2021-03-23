@@ -123,7 +123,7 @@ Learn how to manage your Campaign Classic instances settings in the Control Pane
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-The new ticketing system has been launched though [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
+The new ticketing system has been launched through [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 
 ### Ask the experts!
 
