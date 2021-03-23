@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 ---
 
-# Prerequisites of Campaign installation in Windows{#prerequisites-of-campaign-installation-in-windows}
+# Get started with installing Campaign on Windows {#prerequisites-of-campaign-installation-in-windows}
 
 The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 

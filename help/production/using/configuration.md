@@ -38,4 +38,4 @@ Each operator needs to be linked to a zone to log on to an instance and the oper
 
 >[!NOTE]
 >
->For more on configuring security zones, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+>For more on configuring security zones, refer to [this section](../../installation/using/security-zones.md).

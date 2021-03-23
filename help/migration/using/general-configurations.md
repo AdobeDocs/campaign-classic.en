@@ -85,7 +85,7 @@ Adobe Campaign v7 involves the concept of **security zones**. Each user must be 
 
 **After the postupgrade** (before the server restart), you must configure the security zones.
 
-Security zone configuration is found in [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+Security zone configuration is found in [this section](../../installation/using/security-zones.md).
 
 ### User passwords {#user-passwords}
 

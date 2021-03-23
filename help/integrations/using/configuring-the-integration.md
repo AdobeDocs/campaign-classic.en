@@ -45,7 +45,7 @@ You need to configure a security zone for this operator to connect to Adobe Camp
 
 >[!CAUTION]
 >
->We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the Installation [guide](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+>We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the Installation [guide](../../installation/using/security-zones.md).
 
 If your Campaign instance is hosted by Adobe, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. If you are using Campaign on-premise, follow the steps below:
 

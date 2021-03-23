@@ -110,7 +110,7 @@ To update Adobe Campaign in a new version when a new build is delivered, the pro
 * [Perform an update](#perform-an-update),
 * [Reboot the web server](#reboot-the-web-server).
 
-To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability-for-linux.md).
+[Learn more about Client Console availability](../../installation/using/client-console-availability-for-windows.md).
 
 >[!NOTE]
 >

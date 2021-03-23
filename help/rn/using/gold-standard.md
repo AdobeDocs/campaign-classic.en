@@ -1,22 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard release
-description: Campaign Classic Gold Standard Release notes
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Gold Standard release notes
+description: Release notes for Campaign Classic Gold Standard
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
-# Gold Standard releases{#gold-standard}
+# Gold Standard release notes{#gold-standard}
 
-Gold Standard is Campaign Classic Long-Term support release. As a hosted Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On-premise and Hybrid customers can also benefit from Gold Standard releases.
-
-If you migrate from an old build, we recommend that you upgrade to this version first.
-
-This page lists Gold Standard releases.
-
-For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+This page lists Gold Standard releases. Learn more about Campaign Gold Standard [in this page](gs-overview.md).
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
 
@@ -39,7 +33,7 @@ _December 22, 2020_
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 >
 >Learn more in the [Gold Standard 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
 

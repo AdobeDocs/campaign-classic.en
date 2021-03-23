@@ -228,7 +228,7 @@ Examples of condition syntax:
 
 * **visibleIf="@email='peter.martinezATneeolane.net'"**: tests equality on string-type data. The comparison value must be in quotes.
 * **visibleIf="@gender >= 1 and @gender != 2"**: condition on a numeric value.
-* **visibleIf="@boolean1==true or @boolean2==false"**: test on Boolean fields.
+* **visibleIf="@boolean1=true or @boolean2=false"**: test on Boolean fields.
 
 #### Enabling container {#enabling-container}
 
@@ -549,9 +549,9 @@ The execution of an input form initializes an XML document containing the data o
 
 ### Updating the context {#updating-the-context}
 
-To modify the context of the form, use the **`<set expr="<value>" xpath="<field>"/>`** tag, where **`<field>`** is the destination field, and **`<value>`** is the update expression or value.
+To modify the context of the form, use the `<set expr="<value>" xpath="<field>"/>` tag, where `<field>` is the destination field, and `<value>` is the update expression or value.
 
-Examples of use of the **`<set>`** tag:
+Examples of use of the `<set>` tag:
 
 * **`<set expr="'Test'" xpath="/tmp/@test" />`**: positions the 'Test' value at temporary location /tmp/@test1
 * **`<set expr="'Test'" xpath="@lastName" />`**: updates the entity on the "lastName" attribute with the 'Test' value

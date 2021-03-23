@@ -2,15 +2,25 @@
 solution: Campaign Classic
 product: campaign
 title: Release 19.2
-description: Release 19.2
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+description: Release notes for Campaign 19.2
+feature:
+role: 
+level:
 ---
 
 # Release 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
+
+_March 22, 2021_
+
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
 
 _December 23, 2020_
 

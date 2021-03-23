@@ -14,7 +14,7 @@ The overall configuration of Adobe Campaign is defined in the **serverConf.xml**
 
 >[!NOTE]
 >
->Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
+>Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosting-models.md).
 
 The first parameters are inside the **shared** node. These are related to the instance. They are potentially used by all the nlserver commands (nlserver web, nlserver wfserver, etc.). The other sections are related to a specific nlserver sub-command.
 
@@ -1684,6 +1684,8 @@ In the **cache** node, configure the following parameters. This is the local fil
 
 In the **mta > relay** node, configure the following parameters. This is the configuration of the mail server for the message delivery.
 
+The list will be handled in the same way as a list of MX returned by a MX DNS query, usually the first MX is used as long as it is available, then the next one is used, and so on.
+
 For additional information, refer to [SMTP relay](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
 <table> 
@@ -2184,7 +2186,7 @@ Here are the different parameters of the **repair** node. This is the configurat
 
 Here are the different parameters of the **securityZone** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+For additional information, refer to [Defining security zones](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2282,7 +2284,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **securityZone > subNetwork** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+For additional information, refer to [Defining security zones](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 

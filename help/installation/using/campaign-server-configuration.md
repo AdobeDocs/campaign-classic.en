@@ -59,9 +59,9 @@ You can configure the storage directory (**var** directory) of Adobe Campaign da
 
 * In Linux, go to the **customer.sh** file and indicate: **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-  For more on this, refer to [Personalizing parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+  For more on this, refer to [Personalize parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
-## Enabling processes {#enabling-processes}
+## Enable processes {#enabling-processes}
 
 Adobe Campaign processes on the server are enabled (and disabled) via the **config-default.xml** and **`config-<instance>.xml`** files.
 
@@ -115,6 +115,6 @@ The delivery parameters must be configured in the **serverConf.xml** folder.
   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
   ```
 
-The other delivery parameters available in this file are presented in [Personalizing delivery parameters](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+The other delivery parameters available in this file are presented in [Personalize delivery parameters](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
 Also refer to [Email deliverability](../../installation/using/email-deliverability.md).
