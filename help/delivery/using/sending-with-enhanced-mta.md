@@ -145,7 +145,7 @@ For more on the validity period, see [this section](../../delivery/using/steps-s
 ### DKIM-signing
 
 DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the Domain management table as part of the Enhanced MTA upgrade.
-For more on DKIM, see [this section](../../delivery/using/technical-recommendations.md#dkim).
+For more on DKIM, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 
 ### Delivery success reporting
 

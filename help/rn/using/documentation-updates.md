@@ -160,7 +160,7 @@ A note has been added regarding the use of additional data with seed addresses i
 
 Learn best practices related to delivery design and sending with Campaign in a dedicated section. [Read more](../../delivery/using/delivery-best-practices.md)
 
-The Deliverability best practices landing page has been improved to facilitate access to sub-sections. [Read more](../../delivery/using/deliverability-key-points.md)
+The Deliverability best practices landing page has been improved to facilitate access to sub-sections. [Read more](../../delivery/using/about-deliverability.md)
 
 How-to videos are now available on the following topics:
 
@@ -259,7 +259,7 @@ The Monitoring deliverability section has been moved and improved. [Read more](.
 
 The Deliverability troubleshooting section has been moved and improved. [Read more](../../delivery/using/deliverability-faq.md)
 
-Deliverability guidelines when starting a new platform section has been enhanced. [Read more](../../delivery/using/starting-new-platform.md)
+Deliverability guidelines when starting a new platform have been enhanced. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
 
 The Sending transactional emails with attachments section has been moved and updated. [Read more](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -469,7 +469,7 @@ A section has been added describing the installation and configuration steps for
 
 A section has been added describing the Campaign server uninstallation steps. [Read more](../../installation/using/uninstalling-campaign.md)
 
-The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/deliverability-key-points.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
+The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
 The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
 
