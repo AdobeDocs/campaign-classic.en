@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 ---
 
-# Launching Adobe Campaign{#launching-adobe-campaign}
+# Launch Adobe Campaign{#launching-adobe-campaign}
 
 Campaign Client console is a rich client which enables you to connect to your Campaign application server(s). Learn how to download and configure the client console in [this page](../../installation/using/installing-the-client-console.md).
 
-## Starting Adobe Campaign {#starting-adobe-campaign}
+## Start Adobe Campaign {#starting-adobe-campaign}
 
 You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.
 
@@ -20,7 +20,7 @@ The client console connection window lets you select or configure existing datab
 
 ![](assets/acc-logon.png)
 
-## Connecting to Adobe Campaign {#connecting-to-adobe-campaign}
+## Connect to Adobe Campaign {#connecting-to-adobe-campaign}
 
 You can connect to Adobe Campaign using your Adobe ID. For more on this, refer to [this page](../../integrations/using/about-adobe-id.md).
 
@@ -43,7 +43,7 @@ Some keyboard shortcuts are available on the **[!UICONTROL Sign in screen]**:
 * To launch connection, you can also press the **Enter** key.
 * You can use the **Escape** key to reset the **[!UICONTROL Login]** and **[!UICONTROL Password]** fields to the last successful connection values.
 
-## Setting up connections {#setting-up-connections}
+## Set up connections {#setting-up-connections}
 
 You can access the server connection settings via the link above the input zone.
 
@@ -67,7 +67,7 @@ The identifiers and passwords of operators with access to the software and their
 
 This functionality is detailed in the [Access management](../../platform/using/access-management.md) section.
 
-## Disconnecting from Adobe Campaign {#disconnecting-from-adobe-campaign}
+## Disconnect from Adobe Campaign {#disconnecting-from-adobe-campaign}
 
 To disconnect from Adobe Campaign, use the first icon in the icon bar.
 
@@ -77,7 +77,7 @@ To disconnect from Adobe Campaign, use the first icon in the icon bar.
 >
 >You can also close the application without logging off first.
 
-## Getting your Adobe Campaign version {#getting-your-campaign-version}
+## Get your Adobe Campaign version {#getting-your-campaign-version}
 
 The **[!UICONTROL Help > About...]** menu lets you access the following information:
 
