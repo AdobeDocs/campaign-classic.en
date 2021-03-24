@@ -8,9 +8,7 @@ content-type: reference
 topic-tags: administration-basics
 ---
 
-# Managing enumerations{#managing-enumerations}
-
-## About enumerations {#about-enumerations}
+# Manage enumerations{#managing-enumerations}
 
 An enumeration (also known as 'itemized list') is a list of values suggested by the system to populate certain fields. Enumerations let you standardize the values of these fields, and help with data input or use within queries.
 
@@ -39,7 +37,7 @@ The values for this type of field are defined and overall administration of thes
 
 * If the **[!UICONTROL Closed]** option is selected, users will not be able to create new values, but merely choose from the values available.
 
-## Standardizing data {#standardizing-data}
+## Standardize data {#standardizing-data}
 
 ### About alias cleansing {#about-alias-cleansing}
 
@@ -65,7 +63,7 @@ The option **[!UICONTROL Alias cleansing]** makes it possible to use aliases for
 
 ![](assets/s_ncs_user_itemized_list_alias_option.png)
 
-#### Creating an alias {#creating-an-alias}
+#### Create an alias {#creating-an-alias}
 
 To create an alias, click **[!UICONTROL Add]**.
 
@@ -83,7 +81,7 @@ Check parameters before confirming this operation.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-Thus, when a user enters the value **NEILSEN** in a "company" field (in the Adobe Campaign console or in a form), it will automatically be replaced by the value **NIELSEN Ltd**. Value replacement is performed by the **Alias cleansing** workflow. Refer to [Running data cleansing](#running-data-cleansing).
+Thus, when a user enters the value **NEILSEN** in a "company" field (in the Adobe Campaign console or in a form), it will automatically be replaced by the value **NIELSEN Ltd**. Value replacement is performed by the **Alias cleansing** workflow. Refer to [Run data cleansing](#running-data-cleansing).
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -105,15 +103,15 @@ Once execution is complete, the alias is added to the list of aliases.
 
 ![](assets/s_ncs_user_itemized_list_alias_detail2.png)
 
-#### Retrieving alias hits {#retrieving-alias-hits}
+#### Retrieve alias hits {#retrieving-alias-hits}
 
 The values entered by the users can be converted into aliases. In effect, when the user enters a value that is not included in the itemized list, the value is stored in the **[!UICONTROL Alias]** tab.
 
-The **Alias cleansing** technical workflow recovers these values every night to update itemized list. Refer to [Running data cleansing](#running-data-cleansing)
+The **Alias cleansing** technical workflow recovers these values every night to update itemized list. Refer to [Run data cleansing](#running-data-cleansing)
 
-If necessary, the **[!UICONTROL Hits]** column can display the number of times this value was entered. Calculating this value can be both time and memory consuming. For more on this, refer to [Calculating entry occurrences](#calculating-entry-occurrences).
+If necessary, the **[!UICONTROL Hits]** column can display the number of times this value was entered. Calculating this value can be both time and memory consuming. For more on this, refer to [Calculate entry occurrences](#calculating-entry-occurrences).
 
-### Running data cleansing {#running-data-cleansing}
+### Run data cleansing {#running-data-cleansing}
 
 Data cleansing is performed by the **[!UICONTROL Alias cleansing]** technical workflow. The configurations defined for enumerations are applied during execution. Refer to [Alias cleansing workflow](#alias-cleansing-workflow).
 
@@ -127,7 +125,7 @@ The **[!UICONTROL Advanced parameters...]** link lets you set the date starting 
 
 Click the **[!UICONTROL Start]** button to run data cleansing.
 
-#### Calculating entry occurrences {#calculating-entry-occurrences}
+#### Calculate entry occurrences {#calculating-entry-occurrences}
 
 The **[!UICONTROL Alias]** sub-tab of an itemized list can display the number of occurrences of an alias among all the values entered. This information is an estimate and will be displayed in the **[!UICONTROL Hits]** column.
 

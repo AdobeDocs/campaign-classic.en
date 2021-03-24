@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: profile-management
 ---
 
-# Managing profiles{#managing-profiles}
+# Manage profiles{#managing-profiles}
 
 ## Recipient tree {#recipient-tree}
 
@@ -22,15 +22,15 @@ Each node coincides with a folder. The data from each folder must be considered 
 >
 >To display the list of all recipients in the database, you must create a view. Learn more in [Folders and views](../../platform/using/access-management-folders.md).
 
-## Moving recipients {#moving-recipients}
+## Move recipients {#moving-recipients}
 
 You can select one or more recipients, drag them from the recipient list, and drop them in the desired folder. A warning message asks you to confirm this action.
 
-## Copying a recipient {#copying-a-recipient}
+## Copy a recipient {#copying-a-recipient}
 
 You can copy a recipient in the same folder by right-clicking the desired recipient and selecting **[!UICONTROL Copy]**.
 
-## Deleting recipients {#deleting-recipients}
+## Delete recipients {#deleting-recipients}
 
 To delete recipients, move them to a specific folder and then purge the content of this folder. It is **strongly recommended not to use** the **[!UICONTROL Delete]** option in this case.
 

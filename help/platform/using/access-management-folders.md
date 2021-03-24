@@ -12,50 +12,6 @@ level: Beginner
 
 Each folder of the Explorer navigation tree has read, write, and delete access rights attached to it. To access a file, an operator or group of operators must at least have read access to it.
 
-## Permissions on a folder
-
-### Edit permissions on a folder {#edit-permissions-on-a-folder}
-
-To edit permissions on a specific folder of the tree, follow the steps below:
-
-1. Right-click on the folder and select **[!UICONTROL Properties...]**.
-
-   ![](assets/s_ncs_user_folder_properties.png)
-
-1. Click the **[!UICONTROL Security]** tab to view authorizations on this folder.
-
-   ![](assets/s_ncs_user_folder_properties_security.png)
-
-### Modify permissions {#modify-permissions}
-
-To modify permissions, you can:
-
-* **Replace a group or an operator**. To do this, click one of the groups (or operators) with rights to the folder, and select a new group (or a new operator) from the drop-down list:
-
-  ![](assets/s_ncs_user_folder_properties_security02.png)
-
-* **Authorize a group or an operator**. To do this, click the **[!UICONTROL Add]** button and select the group or operator to which you want to assign authorizations for this folder.
-* **Forbid a group or an operator**. To do this, click **[!UICONTROL Delete]** and select the group or operator from which you want to remove authorization for this folder.
-* **Select the rights assigned to a group or an operator**. To do this, click the group or operator concerned, then select the access rights you want to grant and deselect the others.
-
-  ![](assets/s_ncs_user_folder_properties_security03.png)
-
-### Propagate permissions {#propagate-permissions}
-
-You can propagate authorizations and access rights. To do this, select the **[!UICONTROL Propagate]** option in the folder properties.
-
-The authorizations defined in this window will then be applied to all the sub-folders of the current node. You can then overload these authorizations for each of the sub-folders.
-
->[!NOTE]
->
->Clearing this option for a folder does not automatically clear it for the sub-folders. You must clear it explicitly for each of the sub-folders.
-
-### Grant access to all operators {#grant-access-to-all-operators}
-
-In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** option is selected, all operators will have access to this data, regardless of their rights. If this option is cleared, you must explicitly add the operator (or their group) to the list of authorizations in order for them to have access.
-
-![](assets/s_ncs_user_folder_properties_security03b.png)
-
 ## Folders and views {#folders-and-views}
 
 ### What is a folder {#about-folders}
@@ -114,3 +70,49 @@ The following deliveries will be displayed in the view:
 >[!NOTE]
 >
 >When managing [transactional messaging](../../message-center/using/about-transactional-messaging.md) events, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views on the execution instances, as this could lead to access right issues. For more on event collection, see [this section](../../message-center/using/event-collection.md).
+
+
+
+## Permissions on a folder
+
+### Edit permissions on a folder {#edit-permissions-on-a-folder}
+
+To edit permissions on a specific folder of the tree, follow the steps below:
+
+1. Right-click on the folder and select **[!UICONTROL Properties...]**.
+
+   ![](assets/s_ncs_user_folder_properties.png)
+
+1. Click the **[!UICONTROL Security]** tab to view authorizations on this folder.
+
+   ![](assets/s_ncs_user_folder_properties_security.png)
+
+### Modify permissions {#modify-permissions}
+
+To modify permissions, you can:
+
+* **Replace a group or an operator**. To do this, click one of the groups (or operators) with rights to the folder, and select a new group (or a new operator) from the drop-down list:
+
+  ![](assets/s_ncs_user_folder_properties_security02.png)
+
+* **Authorize a group or an operator**. To do this, click the **[!UICONTROL Add]** button and select the group or operator to which you want to assign authorizations for this folder.
+* **Forbid a group or an operator**. To do this, click **[!UICONTROL Delete]** and select the group or operator from which you want to remove authorization for this folder.
+* **Select the rights assigned to a group or an operator**. To do this, click the group or operator concerned, then select the access rights you want to grant and deselect the others.
+
+  ![](assets/s_ncs_user_folder_properties_security03.png)
+
+### Propagate permissions {#propagate-permissions}
+
+You can propagate authorizations and access rights. To do this, select the **[!UICONTROL Propagate]** option in the folder properties.
+
+The authorizations defined in this window will then be applied to all the sub-folders of the current node. You can then overload these authorizations for each of the sub-folders.
+
+>[!NOTE]
+>
+>Clearing this option for a folder does not automatically clear it for the sub-folders. You must clear it explicitly for each of the sub-folders.
+
+### Grant access to all operators {#grant-access-to-all-operators}
+
+In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** option is selected, all operators will have access to this data, regardless of their rights. If this option is cleared, you must explicitly add the operator (or their group) to the list of authorizations in order for them to have access.
+
+![](assets/s_ncs_user_folder_properties_security03b.png)

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: profile-management
 ---
 
-# Importing and exporting profiles{#exporting-and-importing-profiles}
+# Import and export profiles{#exporting-and-importing-profiles}
 
 You can [use workflows](#use-workflows) to import or export recipients profiles into Adobe Campaign database, or set up [generic imports or export jobs](#create-jobs).
 
