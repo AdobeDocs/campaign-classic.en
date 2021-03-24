@@ -49,7 +49,9 @@ The Control Panel allows you to manage several settings of your instance: manage
 
 >[!NOTE]
 >
->Please note that the Control Panel is accessible to Admin users only, and available for all customers using Adobe Managed Services.
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) build. Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=en#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 ### Monitoring workflows {#monitoring-workflows}
 

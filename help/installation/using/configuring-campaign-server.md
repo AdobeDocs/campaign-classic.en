@@ -12,11 +12,15 @@ topic-tags: additional-configurations
 
 The section below details server-side configurations that can be performed to match your needs and your environment specificities.
 
->[!IMPORTANT]
+These configurations must be performed by administrators and for **On-premise** hosting models only.
+
+For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP allowlist management or URL permissions).
+
+>[!NOTE]
 >
->These configurations must be performed by administrators and for **On-premise** hosting models only.
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 >
->For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP allowlist management or URL permissions).
+>Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) build. Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=en#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 For more information, refer to these sections:
 
