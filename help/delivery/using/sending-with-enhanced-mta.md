@@ -91,7 +91,7 @@ For customers using Adobe Campaign transactional messaging functionality, any AP
 
 ### Enhanced MTA headers
 
-The latest Campaign Classic instances include code that adds the required Enhanced MTA headers to every message. If you are using Adobe Campaign 19.1 (build 9032) or above and if this is not the case, you must add the "useMomentum=true" parameter to your marketing instance configuration (in the [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) file).
+The latest Campaign Classic instances include code that adds the required Enhanced MTA headers to every message. If you are using Adobe Campaign 19.1 (build 9032) or above and if this is not the case, you must add the "useMomentum=true" parameter to your instance configuration (in the [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) file) on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance).
 
 However, if you are using an older instance that does not include this code, a new typology rule named **[!UICONTROL Typology Rule for Enhanced MTAs]** must be added to all the existing typologies in your Campaign instance.
 This rule is added by a **[!UICONTROL Typology]** package installed as part of the upgrade to the Enhanced MTA.
