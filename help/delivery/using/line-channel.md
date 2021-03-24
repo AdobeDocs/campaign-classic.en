@@ -96,10 +96,15 @@ To define the content of a [!DNL LINE] delivery, you first have to add message t
 
 You can choose between two message types:
 
-* Text message
-* Image and link
+* [Text message](#configuring-a-text-message-delivery)
+* [Image and link](#configuring-an-image-and-link-delivery)
+* [Video message](#configuring-a-video-message-delivery)
 
 ### Configuring a Text message delivery {#configuring-a-text-message-delivery}
+
+>[!NOTE]
+>
+>The `<%@ include option='NmsServer_URL' %>/webApp/APP3?id=<%=escapeUrl(cryptString(visitor.id))%>` syntax allows you to include a link to a web app in a LINE message.
 
 A **[!UICONTROL Text message]** [!DNL LINE] delivery is a message sent to recipients in text form. 
 
@@ -113,19 +118,19 @@ An **[!UICONTROL Image and link]** [!DNL LINE] delivery is a message sent to rec
 
 You can use:
 
-* a **Personalized image**,
+* a **[!UICONTROL Personalized image]**,
 
   >[!NOTE]
   >
-  >You can use the **%SIZE%** variable: this variable allows you to optimize the image display according to the screen size of the recipient's mobile device.
+  >You can use the **%SIZE%** variable to optimize the image display according to the screen size of the recipient's mobile device.
 
   ![](assets/line_message_04.png)
 
-* an **Image URL**,
+* an **[!UICONTROL Image URL]** per device screen size,
 
   ![](assets/line_message_03.png)
 
-  The image URLs allow you to use different image resolutions to optimize delivery visibility on mobile devices. Only images with same height and width are supported.
+  The **[!UICONTROL Define images per device screen size]** option allows you to use different image resolutions to optimize delivery visibility on mobile devices. Only images with same height and width are supported.
 
   Images can be defined according to the screen size:
 
@@ -135,7 +140,7 @@ You can use:
   * 300px
   * 240px
 
-  >[!NOTE]
+  >[!CAUTION]
   >
   >The 1040x1040 px size is mandatory for every LINE image with link.
 
@@ -143,25 +148,40 @@ You can use:
 
 * and **[!UICONTROL Links]**.
 
+  The **[!UICONTROL Links]** section allows you to choose between different layouts that will divide your image in multiple clickable regions. You can then assign each of them a dedicated **[!UICONTROL Link URL]**.
+
   ![](assets/line_message_05.png)
 
-  The **[!UICONTROL Links]** section allows you to choose between different layouts that will divide your image in multiple clickable regions. You can then assign each of them a dedicated link.
+### Configuring a Video message delivery {#configuring-a-video-message-delivery}
 
->[!NOTE]
->
->The `<%@ include option='NmsServer_URL' %>/webApp/APP3?id=<%=escapeUrl(cryptString(visitor.id))%>` syntax allows you to include a link to a web app in a LINE message.
+A **[!UICONTROL Video message]** [!DNL LINE] delivery is a message sent to recipients in the form of a video that can contain an URL.
+
+  ![](assets/line_message_06.png)
+
+**[!UICONTROL Preview Image URL]**
+URL of preview image (Max character limit: 1000)
+HTTPS over TLS 1.2 or later
+JPEG or PNG
+Max file size: 1 MB
+
+**[!UICONTROL Video Image URL]**
+URL of video file (Max character limit: 1000)
+HTTPS over TLS 1.2 or later
+mp4 format
+Max file size: 200 MB
+A very wide or tall video may be cropped when played in some environments.
 
 ## Accessing reports {#accessing-reports}
 
-1. After sending your delivery, click **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the **[!UICONTROL Explorer]** tab to view reports on your [!DNL LINE] delivery. 
+After sending your delivery, you can view your [!DNL LINE] reports via the menu **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the **[!UICONTROL Explorer]**.
    
    >[!NOTE]
    >
    >The tracking reports indicate the click-through rate. LINE does not take the open rate into account.
 
    ![](assets/line_reports_01.png)
-
-1. To access reports on your [!DNL LINE] service, select **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE]** from the **[!UICONTROL Explorer]**. Then click the **[!UICONTROL Reports]** icon in the LINE service.
+ 
+For LINE service reports, access the menu **[!UICONTROL Profiles and Targets > Services and Subscriptions > LINE]** from the **[!UICONTROL Explorer]** tab. Then click the **[!UICONTROL Reports]** icon in the [!DNL LINE] service.
 
    ![](assets/line_reports.png)
 
