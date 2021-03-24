@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Manage access to Campaign folders
 description: Learn how to grant access to Campaign folders and create views
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Application Settings
+role: Business Practitioner, Administrator
+level: Beginner
 ---
 
 # Manage access to folders{#folder-access-management}
@@ -58,7 +58,7 @@ In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** opti
 
 ## Folders and views {#folders-and-views}
 
-### About folders {#about-folders}
+### What is a folder {#about-folders}
 
 Folders are nodes in Adobe Campaign tree. These nodes are created by right-clicking the tree, via the **[!UICONTROL Add new folder]** menu. By default, the first menu enables you to add the folder corresponding to the current context.
 
@@ -66,7 +66,7 @@ Folders are nodes in Adobe Campaign tree. These nodes are created by right-click
 
 You can customize the Explorer navigation tree. Learn configuration steps and best practices [in this section](adobe-campaign-workspace.md).
 
-### About views {#about-views}
+### What is a view {#about-views}
 
 In addition, you can create views in order to restrain access to data and organize the content of the tree to suit your requirements. You can then assign rights to the views.
 
@@ -84,7 +84,7 @@ To distinguish views from folders, the name of each view is displayed in a diffe
 
 ![](assets/s_ncs_user_view_name_color.png)
 
-### Adding folders and creating views {#adding-folders-and-creating-views}
+### Add folders and create views {#adding-folders-and-creating-views}
 
 In the example below, we will create new folders to display specific data:
 

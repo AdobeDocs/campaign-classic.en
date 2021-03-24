@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Get started with permissions
 description: Learn how to grant access to Campaign capabilities
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Access Management
+role: Business Practitioner, Administrator
+level: Beginner
 ---
 
 # Get started with permissions{#access-management}

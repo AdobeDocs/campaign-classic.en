@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Use named rights to set up permissions
 description: Learn how to use named rights to set up permissions
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Access Management
+role: Business Practitioner, Administrator
+level: Beginner
 ---
 
 # Use named rights to set up permissions{#named-rights}

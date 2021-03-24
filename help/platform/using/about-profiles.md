@@ -3,16 +3,18 @@ solution: Campaign Classic
 product: campaign
 title: About profiles
 description: About profiles
-audience: platform
-content-type: reference
-topic-tags: profile-management
+feature: Profiles, Audiences
+role: Business Practitioner, Data Architect
+level: Beginner
 ---
 
-# About profiles{#about-profiles}
+# Get started with profiles{#about-profiles}
 
-Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PI data in a consolidated view to analyze and take action.
+Profiles are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PI data in a consolidated view to analyze and take action.
 
-In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
+“**Profile**” means a record of information (e.g.: a record in the nmsRecipient table or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead.
+
+In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
 ![](assets/do-not-localize/how-to-video.png) [Understand the concept of profiles in video](#create-profiles-video)
 
@@ -48,11 +50,11 @@ The **[!UICONTROL Profiles and targets]** link lets you display recipients store
 
 It also gives you access to:
 
-* lists; see [Creating and managing lists](../../platform/using/creating-and-managing-lists.md),
-* subscription services; refer to [this page](../../delivery/using/managing-subscriptions.md),
-* web applications; refer to [this page](../../web/using/about-web-applications.md),
-* imports and exports (jobs); refer to [Generic imports and exports](../../platform/using/about-generic-imports-exports.md),
-* targeting workflows; refer to [this page](../../workflow/using/building-a-workflow.md#implementation-steps-).
+* lists - [Learn more](../../platform/using/creating-and-managing-lists.md)
+* subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
+* web applications - [Learn more](../../web/using/about-web-applications.md)
+* imports and exports (jobs) - [Learn more](../../platform/using/about-generic-imports-exports.md)
+* targeting workflows - [Learn more](../../workflow/using/building-a-workflow.md#implementation-steps-)
 
 The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.
 
@@ -60,23 +62,23 @@ For more advanced profile manipulations, you need to edit the Adobe Campaign tre
 
 By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view, as well as:
 
-* sort and filter the profiles of the database; see [Filtering options](../../platform/using/filtering-options.md),
-* move, copy or delete profiles from the database; see [Managing profiles](../../platform/using/managing-profiles.md),
-* update profiles; see [Updating data](../../platform/using/updating-data.md),
-* export recipients; see [Exporting and importing profiles](../../platform/using/exporting-and-importing-profiles.md),
-* create recipient groups; see [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
+* sort and filter the profiles of the database - [Learn more](../../platform/using/filtering-options.md)
+* move, copy or delete profiles from the database - [Learn more](../../platform/using/managing-profiles.md),
+* update profiles - [Learn more](../../platform/using/updating-data.md)
+* export recipients - [Learn more](../../platform/using/exporting-and-importing-profiles.md)
+* create recipient groups - [Learn more](../../platform/using/creating-and-managing-lists.md)
 
 To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon. 
 
 ![](assets/d_ncs_user_interface01.png)
 
-The general layout of the Adobe Campaign explorer is presented in [Using Adobe Campaign explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+The general layout of the Adobe Campaign explorer is presented in [this section](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 
 >[!NOTE]
 >
->You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [Using Adobe Campaign explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).  
+>You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this section](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).  
 >
->You can also define recipient views. For further information about this functionality, refer to [Folders and views](../../platform/using/access-management-folders.md).
+>You can also define recipient views. For further information about this functionality, refer to [this section](../../platform/using/access-management-folders.md).
 
 ## Active profiles {#active-profiles}
 
@@ -87,8 +89,6 @@ Active profiles are the profiles that are counted for billing purposes.
 >If you are hosted on AWS and using Campaign Classic from build 8931, you can also monitor the number of active profiles used on your instances directly from the Control Panel. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >Note that Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
-
-“**Profile**” means a record of information (e.g.: a record in the nmsRecipient table or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead.
 
 Billing only concerns profiles that are **active**. A profile is considered active if the profile has been targeted or communicated with in the past 12 months via any channel.
 
