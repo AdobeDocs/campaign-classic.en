@@ -12,7 +12,31 @@ level: Beginner
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/green_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
+## ![](assets/do-not-localize/green_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
+
+_March XX, 2020_
+
+**Improvements**
+
+* Fixed an issue which caused running workflows to be stopped by the daily wfserver restart. (NEO-30047)
+* Fixed an issue which prevented the Broadcast statistics, Tracking indicators and Statistics of the sharing activities from displaying on Japanese instances. (NEO-28080)
+* An improvement has been made to prevent crashes on invalid soap calls. This could cause the instance to stop working when trying to run specific complex queries. (NEO-28796)
+* Fixed an issue which could cause the Billing workflow to fail when using a custom target mapping. (NEO-28146)
+* Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates. (NEO-23487)
+* Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
+* Fixed an issue when making an HTTPS connection request with the port number explicitly defined in the host name, the call failed with a certificate error. (NEO-29146)
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
+* Fixed an issue which occurred when creating and saving a delivery within the Targeting & Workflow tab of a campaign: the preview would fail with the following error. (NEO-29440)
+
+```
+XTK-170024 The temporary 'temp:deliveryEmail-all' schema is not defined in the current context
+```
+
+
+
+
+
+## ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
 _December 22, 2020_
 
@@ -21,7 +45,6 @@ _December 22, 2020_
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 > * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
-
 
 **Improvements**
 
