@@ -42,14 +42,12 @@ To create and configure a [!DNL LINE] service, see [Managing subscriptions](../.
 Finally, to create an external account on Adobe Campaign:
 
 1. In the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** tree structure, click the **[!UICONTROL External Accounts]** tab.
-1. Then click the **[!UICONTROL New]** icon.
+
+1. Select the built-in **[!UICONTROL LINE V2 routing]** external account.
 
    ![](assets/line_config.png)
 
-1. Complete the **[!UICONTROL Label]** and **[!UICONTROL Internal name]** fields.
-1. In the **[!UICONTROL Type]** field, select Routing and in the **[!UICONTROL Channel]** field, select LINE.
-1. Click **[!UICONTROL Save]** to create your [!DNL LINE] external account.
-1. A **[!UICONTROL LINE]** personalization field then appears under the **[!UICONTROL General]** icon, fill the following fields:
+1. Click the **[!UICONTROL LINE]** tab from your external account to start configuring your external account. Fill the following fields:
 
    ![](assets/line_config_2.png)
 
@@ -60,9 +58,11 @@ Finally, to create an external account on Adobe Campaign:
     * **[!UICONTROL Access token expiration date]**: allows you to specify the expiration date of the Access token.
     * **[!UICONTROL LINE subscription service]**: allows you to specify the services to which the users will be subscribed.
 
->[!NOTE]
->
->You must verify that the **[!UICONTROL LINE access token update (updateLineAccessToken)]** and **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]** workflows have started. From the explorer, click **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL LINE workflows]** to check the status of the workflows.
+1. Once your configuration is done, click **[!UICONTROL Save]**.
+
+1. From the **[!UICONTROL Explorer]**, select **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL LINE workflows]** to check if the **[!UICONTROL LINE V2 access token update (updateLineAccessToken)]** and **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]** workflows have started.
+
+The [!DNL LINE] is now configured in Adobe Campaign, you can start creating and sending LINE deliveries to subscribers.
 
 ## Create LINE delivery {#creating-the-delivery}
 
@@ -110,7 +110,7 @@ A **[!UICONTROL Text message]** [!DNL LINE] delivery is a message sent to recipi
 
 ![](assets/line_message_02.png)
 
-The configuration for this type of message is similar to the configuration of the **text** in an email. For more information, refer to this [page](../../delivery/using/defining-the-email-content.md#message-content).
+The configuration for this type of message is similar to the configuration of the **[!UICONTROL Text]** in an email. For more information, refer to this [page](../../delivery/using/defining-the-email-content.md#message-content).
 
 ### Configuring an Image and link delivery {#configuring-an-image-and-link-delivery}
 
@@ -156,20 +156,13 @@ You can use:
 
 A **[!UICONTROL Video message]** [!DNL LINE] delivery is a message sent to recipients in the form of a video that can contain an URL.
 
+The **[!UICONTROL Preview Image URL]** field allows you to add the URL of a preview image with a character limit of 1000. JPEG and PNG are supported with a file size limit of 1 MB.
+
+The **[!UICONTROL Video Image URL]** field to add the URL of your video file with a character limit of 1000. Only mp4 format is supported with a file size limit of 200 MB.
+
+Note that wide or tall videos may be cropped when played on some devices.
+
   ![](assets/line_message_06.png)
-
-**[!UICONTROL Preview Image URL]**
-URL of preview image (Max character limit: 1000)
-HTTPS over TLS 1.2 or later
-JPEG or PNG
-Max file size: 1 MB
-
-**[!UICONTROL Video Image URL]**
-URL of video file (Max character limit: 1000)
-HTTPS over TLS 1.2 or later
-mp4 format
-Max file size: 200 MB
-A very wide or tall video may be cropped when played in some environments.
 
 ## Accessing reports {#accessing-reports}
 
@@ -181,7 +174,7 @@ After sending your delivery, you can view your [!DNL LINE] reports via the menu 
 
    ![](assets/line_reports_01.png)
  
-For LINE service reports, access the menu **[!UICONTROL Profiles and Targets > Services and Subscriptions > LINE]** from the **[!UICONTROL Explorer]** tab. Then click the **[!UICONTROL Reports]** icon in the [!DNL LINE] service.
+For LINE service reports, access the menu **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE-V2]** from the **[!UICONTROL Explorer]** tab. Then click the **[!UICONTROL Reports]** icon in the [!DNL LINE] service.
 
    ![](assets/line_reports.png)
 
