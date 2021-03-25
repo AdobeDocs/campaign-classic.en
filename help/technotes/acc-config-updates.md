@@ -126,19 +126,6 @@ In addition, for hybrid environments, customers need to ensure that pipeline is 
 
 ## APNs updates {#acc-apns-updates}
 
-### Geotrust Global CA certificate
-
-The GeoTrust Global CA certificate must be present as server SSL certificate in the Java Keytrust.
-
-```
-wget --no-check-certificate -c https://www.geotrust.com/resources/root_certificates/certificates/GeoTrust_Global_CA.pem 
-openssl x509 -in GeoTrust_Global_CA.pem -inform pem -out GeoTrust_Global_CA.der -outform der
-keytool -v -printcert -file GeoTrust_Global_CA.der
-keytool -importcert -alias startssl -keystore /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/cacerts -storepass changeit -file GeoTrust_Global_CA.der
-```
-
-Starting **March 28, 2021** the root certificate needed is the AAA.
-
 ### HTTP/2-based APNs provider API
 
 The Apple Push Notification service (APNs) will no longer support the legacy binary protocol as of **March 31, 2021**. [Read more](https://developer.apple.com/news/?id=c88acm2b).
@@ -172,6 +159,19 @@ As a hosted customer, no action is needed: Adobe has already incorporated the ne
 As an on-premise/hybrid customer, you need to update your configuration to ensure a seamless transition **before March 29 2021**.
 
 [Learn how to incorporate the new certificate](ios-certificate-update.md).
+
+#### Geotrust Global CA certificate
+
+The GeoTrust Global CA certificate must be present as server SSL certificate in the Java Keytrust.
+
+```
+wget --no-check-certificate -c https://www.geotrust.com/resources/root_certificates/certificates/GeoTrust_Global_CA.pem 
+openssl x509 -in GeoTrust_Global_CA.pem -inform pem -out GeoTrust_Global_CA.der -outform der
+keytool -v -printcert -file GeoTrust_Global_CA.der
+keytool -importcert -alias startssl -keystore /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/cacerts -storepass changeit -file GeoTrust_Global_CA.der
+```
+
+Starting **March 29, 2021** the root certificate needed is the AAA.
 
 ## Useful links
 
