@@ -28,3 +28,16 @@ To incorporate the new certificate, follow the steps below:
     ```
     nlserver restart web
     ```
+
+## Geotrust Global CA certificate
+
+The GeoTrust Global CA certificate must be present as server SSL certificate in the Java Keytrust.
+
+```
+wget --no-check-certificate -c https://www.geotrust.com/resources/root_certificates/certificates/GeoTrust_Global_CA.pem 
+openssl x509 -in GeoTrust_Global_CA.pem -inform pem -out GeoTrust_Global_CA.der -outform der
+keytool -v -printcert -file GeoTrust_Global_CA.der
+keytool -importcert -alias startssl -keystore /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/cacerts -storepass changeit -file GeoTrust_Global_CA.der
+```
+
+Starting **March 29, 2021** the root certificate needed is the AAA.
