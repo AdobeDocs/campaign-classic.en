@@ -22,7 +22,7 @@ For security reasons, you must now upgrade to one of the versions listed below. 
 >For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 >
 
-## Security updates
+## Security updates {#acc-security-updates}
 
 The latest Campaign versions come with a security fix which reinforces protection against Server Side Request Forgery (SSRF) issues. Learn more [in this page](https://helpx.adobe.com/security/products/campaign/apsb21-04.html).
 
@@ -55,7 +55,7 @@ You need to upgrade to one of the newer builds listed above.
 >If you cannot upgrade within the recommended timeframe, **you should contact Adobe Customer Care team to apply a short-term manual security fix on your instances**.
 >
 
-## Campaign Classic Client Console update 
+## Campaign Classic Client Console update  {#acc-cc-updates}
 
 The **now available** console versions below should be installed to resolve a recently identified regression. This regression prevented the use of some components of the Client Console, such as the date picker and images management in deliveries. **Console upgrade** is mandatory. 
 
@@ -98,7 +98,7 @@ Once all instances are upgraded, the Client Console needs to be upgraded to this
 
 * [Learn how to install Campaign Client Console](../installation/using/installing-the-client-console.md).
 
-## Integration with Experience Cloud Triggers
+## Integration with Experience Cloud Triggers {#acc-triggers-updates}
 
 The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **November 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
 
@@ -124,7 +124,20 @@ In addition, for hybrid environments, customers need to ensure that pipeline is 
 
 [Learn how to migrate to Adobe I/O](../integrations/using/configuring-adobe-io.md). 
 
-## APNs updates
+## APNs updates {#acc-apns-updates}
+
+### Geotrust Global CA certificate
+
+The GeoTrust Global CA certificate must be present as server SSL certificate in the Java Keytrust.
+
+```
+wget --no-check-certificate -c https://www.geotrust.com/resources/root_certificates/certificates/GeoTrust_Global_CA.pem 
+openssl x509 -in GeoTrust_Global_CA.pem -inform pem -out GeoTrust_Global_CA.der -outform der
+keytool -v -printcert -file GeoTrust_Global_CA.der
+keytool -importcert -alias startssl -keystore /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/cacerts -storepass changeit -file GeoTrust_Global_CA.der
+```
+
+Starting **March 28, 2021** the root certificate needed is the AAA.
 
 ### HTTP/2-based APNs provider API
 
