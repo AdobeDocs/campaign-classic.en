@@ -12,7 +12,7 @@ topic-tags: sending-messages-on-mobiles
 
 >[!NOTE]
 >
-> [!DNL LINE] is only available for on-premise or managed services installations.
+>[!DNL LINE] is only available for on-premise or managed services installations.
 
 [!DNL LINE] is an application for free instant messaging, voice and video calls, available on every mobile OS and on PC.
 
@@ -68,27 +68,51 @@ The [!DNL LINE] is now configured in Adobe Campaign, you can start creating and 
 
 >[!NOTE]
 >
->When sending a LINE delivery to a new recipient for the first time, you must add the official LINE message regarding the terms of use and consent into the delivery. The official message is available at the following link: [https://terms.line.me/OA_privacy/](https://terms.line.me/OA_privacy/sp?lang=fr).
+>When sending a [!DNL LINE] delivery to a new recipient for the first time, you must add the official LINE message regarding the terms of use and consent into the delivery. The official message is available at the [following link](https://terms.line.me/OA_privacy/sp?lang=fr).
 
 To create a [!DNL LINE] delivery you have to follow these steps:
 
 1. From the **[!UICONTROL Campaigns]** tab, select **[!UICONTROL Deliveries]** then click the **[!UICONTROL Create]** button. 
-1. In the window that appears, select **[!UICONTROL LINE V2 delivery]** delivery template.
+
+   ![](assets/line_message_07.png)
+
+1. Select **[!UICONTROL LINE V2 delivery]** delivery template.
 
    ![](assets/line_message_01.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identify your delivery with a **[!UICONTROL Label]**, **[!UICONTROL Delivery code]**, and  **[!UICONTROL Description]**. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery). 
+   
 1. Click **[!UICONTROL Continue]** to create your delivery.
 
-1. In the delivery editor, select **[!UICONTROL To]** to target the recipients of your [!DNL LINE] delivery Targeting is carried out on **[!UICONTROL Visitors (nms:visitor)]**.
+1. In the delivery editor, select **[!UICONTROL To]** to target the recipients of your [!DNL LINE] delivery. Targeting is carried out on **[!UICONTROL Visitor subscriptions (nms:visitorSub)]**.
    
    For more information, refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md). 
+
+   ![](assets/line_message_08.png)
+
+1. Click **[!UICONTROL Add]** to select your **[!UICONTROL Delivery target population]**.
+
+   ![](assets/line_message_09.png)
+
+1. Choose if you want to target [!DNL LINE] subscribers directly or if you want to target users depending on their [!DNL LINE] subscription and click **[!UICONTROL Next]**. In this example, we selected **[!UICONTROL By LINE V2 subscription]**.
+
+1. Select **[!UICONTROL Line-V2]** in the **[!UICONTROL Folder]** drop-down then your [!DNL LINE] service. Click **[!UICONTROL Finish]** then **[!UICONTROL Ok]** to start personalizing your delivery.
+
+   ![](assets/line_message_10.png)
+
+1. From your delivery editor, click **[!UICONTROL Add]** to add one or multiple message and select the **[!UICONTROL Content type]**. 
+
+   For more information on the different **[!UICONTROL Content type]** available, refer to [Defining the content type](#defining-the-content).
+
+   ![](assets/line_message_11.png)
+
+1. When your delivery is created and configured correctly, you can send it to the target defined earlier. 
    
-1. Click **[!UICONTROL Add]** to add one or multiple message and select the **[!UICONTROL Content type]**. For more information on the different **[!UICONTROL Content type]** available, refer to [Defining the content type](#defining-the-content).
+   For more information on sending a delivery, refer to [Sending messages](../../delivery/using/sending-messages.md).
 
-1. When your delivery is created and configured correctly, you can send it to the target defined earlier. For more information on sending a delivery, refer to [Sending messages](../../delivery/using/sending-messages.md).
-
-1. After sending your message, access your report to measure the effectiveness of your delivery. For more information on [!DNL LINE] reports, refer to [Accessing reports](accessing-reports.md).
+1. After sending your message, access your report to measure the effectiveness of your delivery. 
+   
+   For more information on [!DNL LINE] reports, refer to [Accessing reports](accessing-reports.md).
 
 ## Define the content type {#defining-the-content}
 
@@ -172,11 +196,11 @@ After sending your delivery, you can view your [!DNL LINE] reports via the menu 
    >
    >The tracking reports indicate the click-through rate. LINE does not take the open rate into account.
 
-   ![](assets/line_reports_01.png)
+![](assets/line_reports_01.png)
  
 For LINE service reports, access the menu **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE-V2]** from the **[!UICONTROL Explorer]** tab. Then click the **[!UICONTROL Reports]** icon in the [!DNL LINE] service.
 
-   ![](assets/line_reports.png)
+![](assets/line_reports.png)
 
 ## Example: create and send a personalized LINE message {#example--create-and-send-a-personalized-line-message}
 
@@ -192,25 +216,28 @@ In this example, we are going to create and configure a text message and an imag
 
 1. In the configuration window of your delivery, select your target population.
 
+   For more information, refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md). 
+
    ![](assets/line_usecase_02.png)
 
-1. Click **[!UICONTROL Add]** to create your message and select the **[!UICONTROL Message type]**.
+1. Click **[!UICONTROL Add]** to create your message and select the **[!UICONTROL Content type]**.
 
-   Here, we first want to create a text message.
+   Here, we first want to create a **[!UICONTROL Text message]**.
 
    ![](assets/line_usecase_03.png)
 
-1. Place your cursor in the place where you want to insert the personalized text and click the drop-down icon then select **[!UICONTROL Visitor]** > **[!UICONTROL First name]**.
+1. Place your cursor where you want to insert the personalized text and click the drop-down icon then select **[!UICONTROL Visitor]** > **[!UICONTROL First name]**.
 
    ![](assets/line_usecase_05.png)
 
 1. Follow the same procedure to add an image, selecting **[!UICONTROL Image and links]** in the **[!UICONTROL Message type]** drop-down.
 
-   Add your image URL.
+   Add your **[!UICONTROL Image URL]**.
 
    ![](assets/line_usecase_07.png)
 
 1. In the **[!UICONTROL Links]** section, select the layout that will divide your image in multiple clickable regions.
+
 1. Assign an URL to each region of your image.
 
    ![](assets/line_usecase_08.png)
