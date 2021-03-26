@@ -25,7 +25,7 @@ The process to install or update the client console differs slightly depending o
 Please review the details below to understand what needs to be done for your implementation.
 
 
-# Adobe Hosted Implementations {#hosted-customers}
+## Adobe Hosted Implementations {#hosted-customers}
 
 To install or update your client console(s):
 
@@ -37,11 +37,11 @@ To install or update your client console(s):
 
 
 
-# Hybrid & Fully On-Premise Implementations {#hybrid-onprem-customers}
+## Hybrid & Fully On-Premise Implementations {#hybrid-onprem-customers}
 
 For Adobe Campaign users to be able to log on to the instance you have created and configured, they need to use the client console.
 
-## Making the console available to users {#make-console-available}
+### Making the console available to users {#make-console-available}
  
 When the computer used to start an Adobe Campaign application server (nlserver web) receives user connections from the client console, you can configure it to make the setup program for the Adobe Campaign rich client available via an HTML interface. Whenever a new version of the client console is available, users are invited to download it when launching their client console.
 
@@ -75,14 +75,14 @@ If **[!UICONTROL No longer ask this question]**  has been selected, you can rese
 >
 >If you are applying an updated console to an existing implementation, the users will automatically recieve a prompt to update their client console. If you are implementing Campaign for the first time, users will need to download the console. Please see below for details on both options
 
-## Update the console - current implementation{#update-the-client-console}
+### Update the console - current implementation{#update-the-client-console}
 
 Once the console is available in the Campaign server folder, users will be prompted to download the latest client console version in a pop-up window. 
    
    **Users will require admin access to complete the update. If the users do not have admin rights, a system administrator will need to deploy to all client consoles**
 
 
-## Download the console - new implementation{#download-the-client-console}
+### Download the console - new implementation{#download-the-client-console}
 
 Users should now download and install the console by following the steps below:
 
@@ -100,7 +100,7 @@ Users should now download and install the console by following the steps below:
 1. Download and save the client setup file.
 1. Execute the downloaded file on a computer on Windows: The installation starts up. The default installation path of the client console is **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX Client**, where 'X' is '6' or '7', according to your Adobe Campaign version.
 
-## Create the connection - first time users only{#create-the-connection}
+### Create the connection - first time users only{#create-the-connection}
 
 Once the client console is installed, follow the steps below to create the connection to the application server:
 
@@ -128,7 +128,7 @@ You can add as many connections as needed to connect to your test, stage and pro
 >
 >The **[!UICONTROL Add]** button lets you create **[!UICONTROL folders]** to organize all your connections. Simply drag and drop each connection into a folder.
 
-## Log on to Adobe Campaign 
+### Log on to Adobe Campaign 
 
 To log on to an existing instance, follow the steps below:
 
