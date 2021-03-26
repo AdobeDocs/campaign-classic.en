@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 ---
 
-# Installing the Campaign client console{#installing-the-client-console}
+# Installing & Updating the Campaign client console{#installing-the-client-console}
 
    
 Campaign Client Console is a rich client which enables you to connect to your Campaign application server(s).
@@ -21,8 +21,8 @@ Before starting, you need to check Campaign [Compatibility matrix](https://helpx
 
 ![](assets/do-not-localize/how-to-video.png) Discover how to install and setup the Adobe Campaign Client in [video](#video)
 
-The process to install or update the client console differs slightly depending on your implementation of Adobe Campaign Classic. 
-Please review the details below to understand what needs to be done for your implementation.
+The process to install or update the client console differs depending on your implementation of Adobe Campaign Classic. 
+Please review the details below to understand what is required for your implementation.
 
 
 ## Adobe Hosted Implementations {#hosted-customers}
@@ -75,7 +75,7 @@ If **[!UICONTROL No longer ask this question]**  has been selected, you can rese
 >
 >If you are applying an updated console to an existing implementation, the users will automatically recieve a prompt to update their client console. If you are implementing Campaign for the first time, users will need to download the console. Please see below for details on both options
 
-### Update the console - current implementation{#update-the-client-console}
+### Update the console - existing implementation{#update-the-client-console}
 
 Once the console is available in the Campaign server folder, users will be prompted to download the latest client console version in a pop-up window. 
    
