@@ -28,6 +28,7 @@ You can set up the following types of external accounts:
 * [Amazon Simple Storage Service (S3) external account](#amazon-simple-storage-service--s3--external-account)
 * [Microsoft Dynamics CRM external account](#microsoft-dynamics-crm-external-account)
 * [Salesforce CRM external account](#salesforce-crm-external-account)
+* [Azure Blob storage external account](#azure-blob-external-account)
 
 ## Creating an external account {#creating-an-external-account}
 
@@ -406,3 +407,23 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 For this external account, you need to configure you Salesforce CRM with the configuration wizard.
 
 For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md).
+
+## Azure Blob storage external account (#azure-blob-external-account)
+
+The **Azure Blob storage** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. For more on this, refer to this [section](../../workflow/using/file-transfer.md).
+
+![](assets/ext_account_23.png)
+
+To configure the **[!UICONTROL Azure external account]** to work with Adobe Campaign, you need to provide the following details:
+
+* **[!UICONTROL Server]**
+
+  URL of your Azure Blob storage server.
+
+* **[!UICONTROL Encryption]**
+
+  Type of chosen encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
+
+* **[!UICONTROL Access key]**
+
+  To know where to find your **[!UICONTROL Access key]**, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
