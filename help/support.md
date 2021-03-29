@@ -3,9 +3,6 @@ solution: Campaign Classic
 product: campaign
 title: Help & support options for Campaign Classic 
 description: Need Support for Campaign Classic? You are at the right place!
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
 hidefromtoc: yes
 ---
 
