@@ -30,7 +30,7 @@ topic: Premium
 
 ## Top pages
 
-<table>
+<table style="table-layout:fixed">
 <tr>
   <td>
     <a href="platform/using/common-questions.md">
