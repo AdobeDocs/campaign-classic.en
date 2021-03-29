@@ -139,7 +139,10 @@ type: Documentation
             + [Send on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
        + [Attach files](delivery/using/attaching-files.md)
   + Send SMS {#sending-messages-on-mobiles}
-       + [SMS channel](delivery/using/sms-channel.md)
+       + [Get started with SMS](delivery/using/sms-channel.md)
+       + [Configure SMS channel](delivery/using/sms-set-up.md)
+       + [Create a SMS](delivery/using/sms-create.md)
+       + [Send and track SMS](delivery/using/sms-send.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
        + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
        + [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
