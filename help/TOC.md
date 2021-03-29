@@ -148,7 +148,7 @@ type: Documentation
        + [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
   + [Send LINE messages](delivery/using/line-channel.md)
   + Send push notifications {#sending-push-notifications}
-       + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
+       + [Get started with mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrate Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
        + Configure the mobile application{#configure-the-mobile-app}
             + [Get started with the app configuration](delivery/using/get-started-app-config.md)
