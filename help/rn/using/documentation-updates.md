@@ -16,6 +16,8 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## March 2021 {#march-2021}
 
+The [Get started with SMS section](../../delivery/using/sms-channel.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../delivery/using/sms-set-up.md), [create a SMS](../../delivery/using/sms-create.md), [send and track SMS](../../delivery/using/sms-send.md) in dedicated sections.
+
 The "Help & support options" page for Campaign Classic has been integrated into the core documentation. [Read more](../../support.md)
 
 A new section has been added with best practices and checks to perform regarding security and privacy. [Read more](../../installation/using/get-started-security-privacy.md)
