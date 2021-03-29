@@ -16,7 +16,7 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## March 2021 {#march-2021}
 
-A new page has been added with guidelines and references to get support about Campaign Classic. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html)
+A new page has been added with guidelines and references to get support about Campaign Classic. [Learn more](../../support.md)
 
 A new section has been added with best practices and checks to perform regarding security and privacy. [Read more](../../installation/using/get-started-security-privacy.md)
 
