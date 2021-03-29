@@ -81,7 +81,7 @@ To do this, follow the steps below:
 
    For more on this, refer to [this section](#automatic-reply).
 
-## About character transliteration {#about-character-transliteration}
+## SMS character transliteration {#about-character-transliteration}
 
 Character transliteration can be set up in a SMPP mobile delivery external account, under the **[!UICONTROL Mobile]** tab.
 
