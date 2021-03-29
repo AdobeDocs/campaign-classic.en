@@ -90,6 +90,12 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
 The Control Panel helps you increase efficiency in your work as a product admin of Campaign Classic, by allowing you to manage settings and track usages for each of your instances.
 [Click here](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html) for more information.
 
+>[!NOTE]
+>
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) build or the [latest GA build (21.1)](rn/using/latest-release.md). Learn how to check your version in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=en#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+
 ### How to access Control Panel?
 
 The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. [Click here](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/accessing-control-panel.html) for more information.
