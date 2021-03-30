@@ -21,7 +21,7 @@ A mail exchanger record (MX record) is a type of resource record in the Domain N
 
 ### How does an MX server work?
 
-When you send an email, the software server will establish a connection with the recipient domain server. The communication between the two servers uses SMTP language and a domain can have more than one MX server. The connection to this domain will start from the highest priority (smallest figure) and other servers are called <<back-up>> servers. The connection protocol must be respected.
+When you send an email, the software server will establish a connection with the recipient domain server. The communication between the two servers uses SMTP language and a domain can have more than one MX server. The connection to this domain will start from the highest priority (smallest figure) and other servers are called "back-up" servers. The connection protocol must be respected.
 
 ### How does an MX server work with Adobe Campaign?
 
