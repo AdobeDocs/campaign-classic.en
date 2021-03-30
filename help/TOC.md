@@ -650,6 +650,7 @@ type: Documentation
        + [Campaign server settings](installation/using/configuring-campaign-server.md)
        + [Define security zones](installation/using/security-zones.md)
        + [Technical email configurations](installation/using/email-deliverability.md)
+       + [Using MX servers with Campaign](installation/using/using-mx-servers.md)
        + [Configure email BCC](installation/using/email-archiving.md)
        + [Configure SpamAssassin](installation/using/configuring-spamassassin.md)
   + Connect to Campaign{#connect-to-campaign}
