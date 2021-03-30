@@ -15,9 +15,9 @@ hidefromtoc: yes
 
 In case of an outage of an ISP,  emails sent through Campaign cannot be successfully delivered to their recipient: these emails will be wrongly marked as bounces. 
 
-In December 2020, a global issue at Gmail resulted in some email messages sent to valid Gmail email addresses being incorrectly hard bounced as invalid email addresses by Gmail servers with the bounce response, “550-5.1.1 The email account that you tried to reach does not exist.” 
+In December 2020, a global issue at Gmail resulted in some email messages sent to valid Gmail email addresses being incorrectly hard bounced as invalid email addresses by Gmail servers with the bounce following response: *“550-5.1.1 The email account that you tried to reach does not exist.”*
 
-Google has stated that the Gmail outages and disruptions that caused this issue started on December 14th at 6:55AM and ended at 6:09PM EST on December 15th (see this [page](https://www.google.com/appsstatus#hl=en&v=status)). Our data analysis also showed a very short spike in Gmail bounces at 2:06AM EST on December 16th, with the majority occurring on December 15th between 2:00 pm EST and 6:30 pm EST. 
+Google has stated that the Gmail outages and disruptions that caused this issue started on December 14th at 6:55AM and ended at 6:09PM EST on December 15th. Our data analysis also showed a very short spike in Gmail bounces at 2:06AM EST on December 16th, with the majority occurring on December 15th between 2:00 pm EST and 6:30 pm EST. You can check the Google Workspace Status Dashboard on [this page](https://www.google.com/appsstatus#hl=en&v=status).
 
 Per standard bounce handling logic, Adobe Campaign automatically added these recipients to the Quarantine list with a ‘Status’ setting of ‘Quarantine’. To correct this, you need to update your Quarantine table in Campaign by finding and removing these recipients, or changing their ‘Status’ to ‘Valid’ so that the nightly clean-up workflow will remove them. 
 
