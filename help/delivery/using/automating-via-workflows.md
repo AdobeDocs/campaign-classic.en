@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: content-management
 ---
 
-# Automating via workflows{#automating-via-workflows}
+# Automate with workflows{#automating-via-workflows}
 
 ## Content management activity {#content-management-activity}
 
@@ -71,7 +71,7 @@ The **Generate an output transition** option lets you add an output transition t
 
 ## Examples {#examples}
 
-### Automating content creation and delivery {#automating-content-creation-and-delivery}
+### Automate content creation and delivery {#automating-content-creation-and-delivery}
 
 The following example automates the creation and delivery of a content block.
 
@@ -154,7 +154,7 @@ The delivery content is populated via the incoming event.
 
 The last step to completing the activity is to prepare and then launch the delivery.
 
-### Creating content and publishing it later {#creating-content-and-publishing-it-later}
+### Create content for later publishing {#creating-content-and-publishing-it-later}
 
 This example creates a content block and launches file publication after a specific time delay.
 
@@ -186,7 +186,7 @@ The **JavaScript Code** activity retrieves the full name of each generated file.
 
 ![](assets/d_ncs_content_workflow9.png)
 
-### Creating the delivery and its content {#creating-the-delivery-and-its-content}
+### Create the delivery and its content {#creating-the-delivery-and-its-content}
 
 This example uses the same concept as the first example, only it creates the delivery action in the first step.
 
@@ -208,11 +208,11 @@ The delivery content is populated via the incoming event.
 
 The final action of the activity is to prepare and launch the delivery.
 
-### Importing content from FTP {#importing-content-from-ftp}
+### Import content from FTP {#importing-content-from-ftp}
 
 If your delivery content is available in an HTML file located on FTP or SFTP servers, you can easily load this content into Adobe Campaign deliveries. Refer to [this example](../../workflow/using/loading-delivery-content.md).
 
-### Importing content from Amazon Simple Storage Service (S3) connector {#importing-content-from-amazon-simple-storage-service--s3--connector}
+### Import content from Amazon Simple Storage Service (S3) connector {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
 If your delivery content is located on Amazon Simple Storage Service (S3) buckets, you can easily load this content into Adobe Campaign deliveries. Refer to [this example](../../workflow/using/loading-delivery-content.md).
 

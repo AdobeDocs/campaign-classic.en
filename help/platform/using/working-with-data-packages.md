@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration-basics
 ---
 
-# Working with data packages{#working-with-data-packages}
+# Work with data packages{#working-with-data-packages}
 
 ## About data packages {#about-data-packages}
 
@@ -76,19 +76,19 @@ The **`operation`** attribute with the value "none" defines a reconciliation lin
 
 A data package can be constructed manually from any text editor. Simply ensure that the structure of the XML document complies with the "xtk:navtree" data schema. The Adobe Campaign console has a data package export and import module.
 
-## Exporting packages {#exporting-packages}
+## Export packages {#exporting-packages}
 
 ### About package export {#about-package-export}
 
 Packages can be exported in three different ways:
 
-* The **[!UICONTROL Package Export Wizard]** enables you to export a set of objects in a single package. For more on this refer to [Exporting a set of objects in a package](#exporting-a-set-of-objects-in-a-package)
+* The **[!UICONTROL Package Export Wizard]** enables you to export a set of objects in a single package. For more on this refer to [Export a set of objects in a package](#exporting-a-set-of-objects-in-a-package)
 * A **single object** can be exported in a package directly by right-clicking on it and selecting **[!UICONTROL Actions > Export in a package]**.
-* **Package definitions** let you create a package structure in which you add objects that will be exported later on in a package. For more on this, refer to [Managing package definitions](#managing-package-definitions)
+* **Package definitions** let you create a package structure in which you add objects that will be exported later on in a package. For more on this, refer to [Manage package definitions](#managing-package-definitions)
 
 Once a package exported, you will be able to import it and all the added entities into another Campaign instance.
 
-### Exporting a set of objects in a package {#exporting-a-set-of-objects-in-a-package}
+### Export a set of objects in a package {#exporting-a-set-of-objects-in-a-package}
 
 The package export wizard is accessible via the **[!UICONTROL Tools > Advanced > Export package...]** menu of the Adobe Campaign client console.
 
@@ -134,7 +134,7 @@ For the three types of packages, the wizard offers the following steps:
 
    ![](assets/ncs_datapackage_export7.png)
 
-### Managing dependencies {#managing-dependencies}
+### Manage dependencies {#managing-dependencies}
 
 The export mechanism enables Adobe Campaign to track the links between the various exported elements.
 
@@ -147,7 +147,7 @@ This mechanism is defined by two rules:
 >
 >Integrity types linked to schema elements are defined in [this section](../../configuration/using/database-mapping.md#links--relation-between-tables).
 
-#### Exporting a campaign {#exporting-a-campaign}
+#### Export a campaign {#exporting-a-campaign}
 
 Here is an example on how to export a campaign. The marketing campaign to be exported contains a task (label: "MyTask") and a workflow (label: "CampaignWorkflow") in a "MyWorkflow" folder (node: Administration / Production / Technical workflows / Campaign processes / MyWorkflow).
 
@@ -216,20 +216,18 @@ Finally, the **@pkgStatus** attribute enables you to define the export rules for
 >
 >The **preCreate** value is only admitted for link type events. It authorizes you to create or point towards an entity not yet loaded in the exported package.
 
-## Managing package definitions {#managing-package-definitions}
-
-### About package definitions {#about-package-definitions}
+## Manage package definitions {#managing-package-definitions}
 
 Package definitions let you create a package structure in which you add entities that will be exported later on in a single package. You will then be able to import this package and all the added entities into another Campaign instance.
 
 **Related topics:**
 
-* [Creating a package definition](#creating-a-package-definition)
-* [Adding entities to a package definition](#adding-entities-to-a-package-definition)
-* [Configuring package definitions generation](#configuring-package-definitions-generation)
-* [Exporting packages from a package definition](#exporting-packages-from-a-package-definition)
+* [Create a package definition](#creating-a-package-definition)
+* [Add entities to a package definition](#adding-entities-to-a-package-definition)
+* [Configure package definitions generation](#configuring-package-definitions-generation)
+* [Export packages from a package definition](#exporting-packages-from-a-package-definition)
 
-### Creating a package definition {#creating-a-package-definition}
+### Create a package definition {#creating-a-package-definition}
 
 Package definitions can be accessed from the **[!UICONTROL Administration > Configuration > Package management > Package definitions]** menu.
 
@@ -241,13 +239,13 @@ You can then add entities to the package definition, and export it to an XML fil
 
 **Related topics:**
 
-* [Adding entities to a package definition](#adding-entities-to-a-package-definition)
-* [Configuring package definitions generation](#configuring-package-definitions-generation)
-* [Exporting packages from a package definition](#exporting-packages-from-a-package-definition)
+* [Add entities to a package definition](#adding-entities-to-a-package-definition)
+* [Configure package definitions generation](#configuring-package-definitions-generation)
+* [Export packages from a package definition](#exporting-packages-from-a-package-definition)
 
-### Adding entities to a package definition {#adding-entities-to-a-package-definition}
+### Add entities to a package definition {#adding-entities-to-a-package-definition}
 
-In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in the [Exporting a set of objects in a package](#exporting-a-set-of-objects-in-a-package) section.
+In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in the [this section](#exporting-a-set-of-objects-in-a-package) section.
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -261,11 +259,11 @@ Entities can be added to a package definition directly from their location in th
 
    ![](assets/packagedefinition_packageselection.png)
 
-1. The entity is added to the package definition, it will be exported with the package (see [Exporting packages from a package definition](#exporting-packages-from-a-package-definition)).
+1. The entity is added to the package definition, it will be exported with the package (see [this section](#exporting-packages-from-a-package-definition)).
 
    ![](assets/packagedefinition_entityadded.png)
 
-### Configuring package definitions generation {#configuring-package-definitions-generation}
+### Configure package definitions generation {#configuring-package-definitions-generation}
 
 Package generation can be configured from the package definition **[!UICONTROL Content]** tab. To do this, click the **[!UICONTROL Generation parameters]** link.
 
@@ -285,7 +283,7 @@ Package generation can be configured from the package definition **[!UICONTROL C
   >
   >In that case, selecting the **[!UICONTROL Include default values]** option would prevent versions merging, as all attributes from the former instance would be exported with the package.
 
-### Exporting packages from a package definition {#exporting-packages-from-a-package-definition}
+### Export packages from a package definition {#exporting-packages-from-a-package-definition}
 
 To export a package from a package definition, follow the steps below:
 
@@ -295,9 +293,7 @@ To export a package from a package definition, follow the steps below:
 
    ![](assets/packagedefinition_packageexport.png)
 
-## Importing packages {#importing-packages}
-
-### About package import {#about-package-import}
+## Import packages {#importing-packages}
 
 The package import wizard is accessible via the main menu **[!UICONTROL Tools > Advanced > Package import...]** of the Adobe Campaign client console.
 
@@ -305,7 +301,7 @@ You can import a package from an export performed earlier, e.g. from another Ado
 
 ![](assets/ncs_datapackage_import.png)
 
-### Installing a package from a file {#installing-a-package-from-a-file}
+### Install a package from a file {#installing-a-package-from-a-file}
 
 To import an existing data package, select the XML file and click **[!UICONTROL Open]**.
 
@@ -317,7 +313,7 @@ Click **[!UICONTROL Next]** and **[!UICONTROL Start]** to launch the import.
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### Installing a built-in package {#installing-a-standard-package}
+### Install a built-in package {#installing-a-standard-package}
 
 Standard packages are built-in packages, installed when the Adobe Campaign is configured. Depending on your permissions and your deployment model, you can import new standard packages if you acquire new options or add-ons, or if you upgrade to a new offer.
 

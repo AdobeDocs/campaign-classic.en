@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: profile-management
 ---
 
-# Editing a profile{#editing-a-profile}
+# Edit a profile{#editing-a-profile}
 
 To view information related to a profile, click on their name in the profiles list.
 
@@ -60,7 +60,7 @@ This screen displays the group(s) to which the selected profile belongs. Click *
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-For more on this, refer to [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
+For more on this, refer to [Create and manage lists](../../platform/using/creating-and-managing-lists.md).
 
 ## Subscriptions tab {#subscriptions-tab}
 

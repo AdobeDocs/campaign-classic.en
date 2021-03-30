@@ -24,7 +24,7 @@ topic: Premium
 
 * **[Move to HTTP/2-based APNs provider API](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/> Learn how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API
 
-* **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/> Access FAQs, best practices, help resources, and request for help
+* **[Get Support](support.md)**<br/> Access FAQs, best practices, help resources, and request for help
 
 [More updates](/help/rn/using/documentation-updates.md)
 

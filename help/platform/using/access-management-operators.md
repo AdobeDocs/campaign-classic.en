@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Get started with Campaign operators
 description: Learn how to create and manage campaign users
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Access Management
+role: Business Practitioner, Administrator
+level: Beginner
 ---
 
 # Create and manage operators {#operators}

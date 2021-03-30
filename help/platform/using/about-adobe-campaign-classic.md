@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: About Adobe Campaign Classic
 description: Discover key capabilities, user interface and global guidelines.
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-emails
 ---
 
-# Attaching files{#attaching-files}
+# Attach files to an email{#attaching-files}
 
 ## About email attachments {#about-email-attachments}
 
@@ -27,7 +27,7 @@ There are two possible cases:
 >
 >This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](../../delivery/using/about-templates.md).
 
-## Attaching a local file {#attaching-a-local-file}
+## Attach a local file {#attaching-a-local-file}
 
 To attach a local file to a delivery, follow the steps below.
 
@@ -110,7 +110,7 @@ For this type of attachment, apply the following configuration steps:
 >
 >To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
-### Attaching a calculated file {#attach-a-calculated-file}
+### Attach a calculated file {#attach-a-calculated-file}
 
 You can calculate the attachment name during the delivery preparation. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
 
@@ -133,7 +133,7 @@ You can calculate the attachment name during the delivery preparation. To do thi
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
-### Attaching a personalized file {#attach-a-personalized-file}
+### Attach a personalized file {#attach-a-personalized-file}
 
 When selecting the attachment, you can choose the option **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. You can then map recipient personalization data with the name of the file to send.
 

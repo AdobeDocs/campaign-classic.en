@@ -12,14 +12,16 @@ topic-tags: prerequisites-and-recommendations-
 
 ## Configuring security zones
 
->[!IMPORTANT]
->
->From build 8977 onwards, the Security Zones Self Service User Interface is not available anymore.
->
->* If you are hosted on AWS, adding IP to the allow list must be performed in Control Panel. For more information, refer to the [dedicated documentation](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
->* If you are not hosted on AWS, reach out to Adobe support team to add IP to the allow list.
->
->To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+From build 8977 onwards, the Security Zones Self Service User Interface is not available anymore. If you are not hosted on AWS, reach out to Adobe support team to add IP to the allow list. Otherwise, adding IP to the allow list must be performed in [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html). 
+
+To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+
+  >[!NOTE]
+  > 
+  >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+  >
+  >Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
 
 * Make sure that your reverse proxy in not allowed in subNetwork. If it is the case, **all** traffic will be detected as coming from this local IP, so will be trusted.
 

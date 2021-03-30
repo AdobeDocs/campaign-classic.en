@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: Creating and managing lists
 description: Learn how to create and manage lists
-audience: platform
-content-type: reference
-topic-tags: profile-management
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 ---
 
-# Creating and managing lists{#creating-and-managing-lists}
+# Create and manage lists{#creating-and-managing-lists}
 
-## About lists in Adobe Campaign {#about-lists-in-adobe-campaign}
+## What is a list? {#about-lists-in-adobe-campaign}
 
 A list is a static set of profiles that can be targeted in delivery actions or updated during import operations or during workflow execution. For example, a population extracted from the database via a query can supply a list.
 
@@ -30,7 +30,7 @@ Two types of lists are available in Adobe Campaign:
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#create-list-video)
 
-## Creating a profile list from a group {#creating-a-profile-list-from-a-group}
+## Create a profile list from a group {#creating-a-profile-list-from-a-group}
 
 **[!UICONTROL Group]** type lists created via the **[!UICONTROL Profiles and targets]** link must be based on the default Adobe Campaign profile table (nms:recipient).
 
@@ -62,9 +62,9 @@ You can create new profiles directly from the 'add profiles' window by clicking 
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-The profile list can be configured just like other lists. See [Configuring lists](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+The profile list can be configured just like other lists. See [this section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
-## Linking data to a list {#linking-data-to-a-list}
+## Link data to a list {#linking-data-to-a-list}
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ You can also edit the list via the Adobe Campaign home page: click the **[!UICON
 
 ![](assets/s_ncs_user_add_selection_to_group_5.png)
 
-## Removing a profile from a list {#removing-a-profile-from-a-list}
+## Remove a profile from a list {#removing-a-profile-from-a-list}
 
 To remove a profile from a list, you can:
 
@@ -111,7 +111,7 @@ To remove a profile from a list, you can:
 
   ![](assets/recipient_remove_a_list.png)
 
-## Deleting a list of profiles {#deleting-a-list-of-profiles}
+## Delete a list of profiles {#deleting-a-list-of-profiles}
 
 You can delete one or more lists from the group list in the Adobe Campaign tree. To do this, edit the tree via the **[!UICONTROL Advanced > Explorer]** link in the Adobe Campaign home page. Select the group(s) concerned and right-click. Select **[!UICONTROL Delete]**. A warning message asks you to confirm the deletion.
 
@@ -129,7 +129,7 @@ Learn how to create an audience by configuring a list of recipients from the Exp
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-### How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
+### How use a workflow to create a list of recipients {#create-list-in-a-wf-video}
 
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
