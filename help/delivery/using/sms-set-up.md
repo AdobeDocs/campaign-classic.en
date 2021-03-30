@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 ---
 
-# Set up SMS channel {#setting-up-sms-channel}
+# Configure SMS channel {#setting-up-sms-channel}
 
 To send to a mobile phone, you need:
 
@@ -279,7 +279,7 @@ CR: Carriage Return
 
 ^ { } `[ ~ ]` | €
 
-## About text encodings {#about-text-encodings}
+## Text encodings {#about-text-encodings}
 
 When sending an SMS message, Adobe Campaign can use one or several text encodings. Each encoding has its own specific character set and determines the number of characters that fit into an SMS message.
 

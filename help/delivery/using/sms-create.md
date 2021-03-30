@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 ---
 
-# Create and send a SMS delivery {#creating-a-sms-delivery}
+# Create a SMS delivery {#creating-a-sms-delivery}
 
 ## Select the delivery channel {#selecting-the-delivery-channel}
 
