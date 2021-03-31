@@ -21,7 +21,7 @@ _March XX, 2020_
 * Fixed an issue which caused running workflows to be stopped by the daily wfserver restart. (NEO-30047)
 * Fixed an issue which prevented the Broadcast statistics, Tracking indicators and Statistics of the sharing activities from displaying on Japanese instances. (NEO-28080)
 * An improvement has been made to prevent crashes on invalid soap calls. This could cause the instance to stop working when trying to run specific complex queries. (NEO-28796)
-* Fixed an issue which could cause the Billing workflow to fail when using a custom target mapping. (NEO-28146)
+* Fixed an issue which could cause the Billing workflow to fail when using a custom target mapping. The primary key of the custom schema is stored in the ‘sourceId’ column which only allowed integer values. It now allows integer as well as string values.  (NEO-28146)
 * Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates. (NEO-23487)
 * Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
 * Fixed an issue when making an HTTPS connection request with the port number explicitly defined in the host name, the call failed with a certificate error. (NEO-29146)
