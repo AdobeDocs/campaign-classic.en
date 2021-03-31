@@ -19,8 +19,8 @@ _March 31, 2020_
 **Improvements**
 
 * An improvement has been made to prevent crashes on invalid soap calls. This could cause the instance to stop working when trying to run specific complex queries. (NEO-28796, NEO-30553)
-* ?????? - deja en 20.2.4 -  Fixed an issue when making an HTTPS connection request with the port number explicitly defined in the host name, the call failed with a certificate error. (NEO-29146, NEO-29581)
-* Fixed an issue which prevented signed tracking links from working if the email client switched from lower to upper case. (NEO-28414, NEO-29615)
+* Fixed a regression which prevented SMS deliveries with TLS from being sent due to the hostname verification. (NEO-29581)
+* Fixed an issue which prevented signed tracking links from working on some email clients. (NEO-28414, NEO-29615)
 * Fixed a tracking id sequence when using webApp tracking tags which could cause conflicts with duplicate IDs. (NEO-27931)
 * Fixed an issue which caused running workflows to be stopped by the daily wfserver restart. (NEO-30047)
 * Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates. (NEO-32389, NEO-23487)
@@ -31,17 +31,6 @@ _March 31, 2020_
 * ????? EFS feature 21.1 only - Fixed an issue with EFS which could cause the instance to become unavailable due to message processing overconsuming memory. (NEO-29883)
 * ???? - Pas mis en 21.1 -  Fixed a regression issue causing memory corruption in external thread management and impacting performance.
 * Fixed an issue which could cause the Billing workflow to fail when using a custom target mapping. The primary key of the custom schema is stored in the ‘sourceId’ column which only allowed integer values. It now allows integer as well as string values. (NEO-25914, NEO-28146)
-
-???? Pas dans le wiki:
-
-* Fixed an issue which prevented the Broadcast statistics, Tracking indicators and Statistics of the sharing activities from displaying on Japanese instances. (NEO-28080)
-* Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
-* Fixed an issue when making an HTTPS connection request with the port number explicitly defined in the host name, the call failed with a certificate error. (NEO-29146)
-* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
-
-```
-XTK-170024 The temporary 'temp:deliveryEmail-all' schema is not defined in the current context
-```
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
