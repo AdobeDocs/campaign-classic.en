@@ -31,12 +31,6 @@ _March 31, 2020_
 * Fixed an issue which could cause the Billing workflow to fail when using a custom target mapping. The primary key of the custom schema is stored in the ‘sourceId’ column which only allowed integer values. It now allows integer as well as string values. (NEO-25914, NEO-28146)
 * Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453)
 
-**Console upgrade only is mandatory. No server upgrade is required.** 
-
->[!NOTE]
->
-> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
-
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
 _December 22, 2020_
