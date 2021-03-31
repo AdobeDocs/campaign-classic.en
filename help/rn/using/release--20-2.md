@@ -14,12 +14,12 @@ level: Beginner
 
 ## ![](assets/do-not-localize/green_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
-_March XX, 2020_
+_March 31, 2020_
 
 **Improvements**
 
 * An improvement has been made to prevent crashes on invalid soap calls. This could cause the instance to stop working when trying to run specific complex queries. (NEO-28796, NEO-30553)
-* ?????? Fixed an issue when making an HTTPS connection request with the port number explicitly defined in the host name, the call failed with a certificate error. (NEO-29146, NEO-29581)
+* ?????? - deja en 20.2.4 -  Fixed an issue when making an HTTPS connection request with the port number explicitly defined in the host name, the call failed with a certificate error. (NEO-29146, NEO-29581)
 * Fixed an issue which prevented signed tracking links from working if the email client switched from lower to upper case. (NEO-28414, NEO-29615)
 * Fixed a tracking id sequence when using webApp tracking tags which could cause conflicts with duplicate IDs. (NEO-27931)
 * Fixed an issue which caused running workflows to be stopped by the daily wfserver restart. (NEO-30047)
@@ -28,9 +28,20 @@ _March XX, 2020_
 * Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453)
 * Fixed an issue which occurred when creating and saving a delivery within the **Targeting & Workflow** tab of a campaign: the preview would fail with the following error. (NEO-29440)
 * Fixed an issue with Tomcat 8.5 sending invalid answers which caused errors in Transactional Messaging logs. (NEO-30858)
-* ????? Fixed an issue with EFS which could cause the instance to become unavailable due to message processing overconsuming memory. (NEO-29883)
-* Pas mis en 21.1 Fixed a regression issue causing memory corruption in external thread management and impacting performance.
+* ????? EFS feature 21.1 only - Fixed an issue with EFS which could cause the instance to become unavailable due to message processing overconsuming memory. (NEO-29883)
+* ???? - Pas mis en 21.1 -  Fixed a regression issue causing memory corruption in external thread management and impacting performance.
 * Fixed an issue which could cause the Billing workflow to fail when using a custom target mapping. The primary key of the custom schema is stored in the ‘sourceId’ column which only allowed integer values. It now allows integer as well as string values. (NEO-25914, NEO-28146)
+
+???? Pas dans le wiki:
+
+* Fixed an issue which prevented the Broadcast statistics, Tracking indicators and Statistics of the sharing activities from displaying on Japanese instances. (NEO-28080)
+* Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
+* Fixed an issue when making an HTTPS connection request with the port number explicitly defined in the host name, the call failed with a certificate error. (NEO-29146)
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
+
+```
+XTK-170024 The temporary 'temp:deliveryEmail-all' schema is not defined in the current context
+```
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
