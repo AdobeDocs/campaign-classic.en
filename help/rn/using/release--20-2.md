@@ -25,12 +25,17 @@ _March 31, 2020_
 * Fixed an issue which caused running workflows to be stopped by the daily wfserver restart. (NEO-30047)
 * Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates. (NEO-32389, NEO-23487)
 * Fixed an issue causing the console to crash when closing a delivery dialog on a delivery created with from a template. (NEO-31547)
-* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453)
 * Fixed an issue which occurred when creating and saving a delivery within the **Targeting & Workflow** tab of a campaign: the preview would fail with the following error. (NEO-29440)
 * Fixed an issue with Tomcat 8.5 sending invalid answers which caused errors in Transactional Messaging logs. (NEO-30858)
-* ????? EFS feature 21.1 only - Fixed an issue with EFS which could cause the instance to become unavailable due to message processing overconsuming memory. (NEO-29883)
-* ???? - Pas mis en 21.1 -  Fixed a regression issue causing memory corruption in external thread management and impacting performance.
+* Fixed a regression issue causing memory corruption in external thread management and impacting performance.
 * Fixed an issue which could cause the Billing workflow to fail when using a custom target mapping. The primary key of the custom schema is stored in the ‘sourceId’ column which only allowed integer values. It now allows integer as well as string values. (NEO-25914, NEO-28146)
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
