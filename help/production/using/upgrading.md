@@ -10,23 +10,21 @@ topic-tags: updating-adobe-campaign
 
 # Upgrading to a new build (on-premise){#upgrading}
 
-Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
+Before starting the upgrading process, determine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 
 >[!IMPORTANT]
 >
->We strongly recommend making a database backup on each instance before updating. For more information, refer to [Backup](../../production/using/backup.md).   
->To perform an upgrade, make sur you have the ability and permissions to access instances and logs.
-
->[!NOTE]
+>* Adobe strongly recommends making a database backup on each instance before updating. For more information, refer to [this section](../../production/using/backup.md).   
+>* To perform an upgrade, make sure you have the ability and permissions to access instances and logs.
+>* Read out [this section](../../installation/using/general-architecture.md) and the [build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) chapter before starting.
 >
->Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) getting started.
 
 ## Windows {#in-windows}
 
-To update Adobe Campaign in a new version when delivering a new build, the following procedure should be applied in Windows:
+On a Windows environment, follow the steps below to update Adobe Campaign to a new build:
 
 * [Shut down services](#shut-down-services),
-* [Upgrade the Adobe Campaign server application](#upgrade-the-adobe-campaign-server-application),
+* [Upgrade the application server](#upgrade-the-adobe-campaign-server-application),
 * [Synchronize resources](#synchronize-resources),
 * [Restart services](#restart-services).
 
@@ -82,9 +80,9 @@ Use the following command line:
 
 This will enable you to carry out the following operations:
 
-* Synchronize resources,
-* update schemas,
-* update the database.
+* Synchronize resources
+* Update schemas
+* update the database
 
 >[!NOTE]
 >
@@ -104,17 +102,17 @@ The services to be restarted are:
 
 ## Linux {#in-linux}
 
-To update Adobe Campaign in a new version when a new build is delivered, the procedure for Linux is as follows:
+On a Linux environment, follow the steps below to update Adobe Campaign to a new build:
 
-* [Obtain updated packages](#obtain-updated-packages),
-* [Perform an update](#perform-an-update),
+* [Download the updated packages](#obtain-updated-packages),
+* [Perform the update](#perform-an-update),
 * [Reboot the web server](#reboot-the-web-server).
 
 [Learn more about Client Console availability](../../installation/using/client-console-availability-for-windows.md).
 
 >[!NOTE]
 >
->From build 8757, the third party library is no longer needed.
+>From build 8757, the third-party library is no longer needed.
 
 ### Obtain updated packages {#obtain-updated-packages}
 
@@ -132,7 +130,7 @@ The file is **nlserver6-v7-XXX.rpm**
   $rpm -Uvh nlserver6-v7-XXXX.rpm
   ```
 
-  where XXX is the version of the file.
+  Where XXX is the version of the file.
 
   The rpm file has dependencies on packages that you can find on CentOS/Red Hat distributions. If you don't want to use some of these dependencies, you may have to use the "nodeps" option of rpm:
 
@@ -150,7 +148,7 @@ The file is **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](#resolving-upgrade-conflicts).
+>Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolve upgrade conflicts](#resolving-upgrade-conflicts).
 
 ### Reboot the web server {#reboot-the-web-server}
 
@@ -175,7 +173,7 @@ Then restart Apache:
 /etc/init.d/apache start
 ```
 
-## Resolving upgrade conflicts {#resolving-upgrade-conflicts}
+## Resolve upgrade conflicts {#resolving-upgrade-conflicts}
 
 During resource synchronization, the **postupgrade** command enables you to detect whether synchronization has generated errors or warnings.
 
@@ -199,7 +197,7 @@ There are two ways of viewing the synchronization result:
 
 * The **postupgrade_`<server version number>_<time of postupgrade>`.log** log file contains the synchronization result. It is available by default in the following directory: **`<installation directory>/var/<instance/postupgrade`**. Errors and warnings are indicated by the error and warning attributes.
 
-### Resolving conflicts {#resolving-conflicts}
+### Resolve conflicts {#resolving-conflicts}
 
 To resolve conflicts, apply the following process:
 
@@ -231,7 +229,7 @@ If you chose to resolve the conflict manually, proceed as follows:
 
 ### Best practices {#best-practices}
 
-An update failure may be linked to the database configuration. Make sure that the configurations carried out by the technical administrator and the database administrator are compatible.
+An update failure may be linked to the database configuration. Make sure the configurations carried out by the technical administrator and the database administrator are compatible.
 
 For example, a unicode database must not only authorize storage of LATIN1 data, etc.
 
@@ -239,11 +237,7 @@ For example, a unicode database must not only authorize storage of LATIN1 data, 
 
 ### Windows {#in-windows-1}
 
-On the machine where the (**nlserver web**) Adobe Campaign application server is installed, download and copy the file
-
-**setup-client-6.XXXX.exe**
-
-in **[path of the application]**datakitnlengjsp
+On the machine where the Adobe Campaign application server is installed (**nlserver web**), download and copy the file  **setup-client-6.XXXX.exe** i n **[path of the application]/datakit/nl/eng/jsp**.
 
 The next time client consoles are connected, a window will inform users about the availability of an update and offer them the possibility of downloading and installing it.
 
@@ -253,11 +247,7 @@ The next time client consoles are connected, a window will inform users about th
 
 ### Linux {#in-linux-1}
 
-On the machine where the Adobe Campaign application server (**nlserver web**) is installed, retrieve the following package:
-
-**setup-client-6.XXXX.exe**
-
-and copy it, saving as **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
+On the machine where the Adobe Campaign application server (**nlserver web**) is installed, retrieve the  **setup-client-6.XXXX.exe** package and copy it, saving as **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 
 ```
  cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp

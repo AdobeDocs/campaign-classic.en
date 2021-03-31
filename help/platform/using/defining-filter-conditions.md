@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: creating-queries
 ---
 
-# Defining filter conditions{#defining-filter-conditions}
+# Define filter conditions{#defining-filter-conditions}
 
-## Choosing the operator {#choosing-the-operator}
+## Choose the operator {#choosing-the-operator}
 
 Within filtering conditions, you need to link two values together using an operator.
 
@@ -110,7 +110,7 @@ Below is a list of the operators available:
  </tbody> 
 </table>
 
-## Using AND, OR, EXCEPT {#using-and--or--except}
+## Use AND, OR, EXCEPT {#using-and--or--except}
 
 For queries using several filtering conditions, you need to define links between the conditions. There are three possible links:
 
@@ -139,7 +139,7 @@ This example shows a filter which lets you display: recipients who either speak 
 
 ![](assets/query_editor_nveau_31.png)
 
-## Prioritizing conditions {#prioritizing-conditions}
+## Prioritize conditions {#prioritizing-conditions}
 
 This section explains how to prioritize conditions thanks to the blue arrows in the toolbar.
 
@@ -158,7 +158,7 @@ Place your cursor on the **[!UICONTROL Gender (@gender) equal to Male]** filteri
 
 The **[!UICONTROL Gender (@gender) equal to Male]** condition has been taken out of its parenthesis. It has moved to the same level as the "City equal to London" condition. These conditions are linked together (**[!UICONTROL And]**).
 
-## Selecting data to extract {#selecting-data-to-extract}
+## Select data to extract {#selecting-data-to-extract}
 
 The available fields vary from one table to another. All fields are stored in a main node known as the **[!UICONTROL Main element]**. In the following example, the available fields are in the recipient table. Fields are always displayed alphabetically.
 
@@ -252,12 +252,12 @@ Link to a table and collection element:
 
 >[!NOTE]
 >
->* Use the **[!UICONTROL Add]** button (above the side icon bar) to add an output column in which we wish to edit the expression. For more on editing an expression, refer to [Building expressions](#building-expressions).
+>* Use the **[!UICONTROL Add]** button (above the side icon bar) to add an output column in which we wish to edit the expression. For more on editing an expression, refer to [this section](#building-expressions).
 >* Delete an output column by clicking the red 'x' (**Delete**).
 >* Change the order of the output columns using the arrows.
 >* The **[!UICONTROL Distribution of values]** serves as a way to view the distribution of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
 
-## Creating calculated fields {#creating-calculated-fields}
+## Create calculated fields {#creating-calculated-fields}
 
 If necessary, add a column during data formatting. A calculated field adds a column to the data preview section. Click **[!UICONTROL Add a calculated field]**.
 
@@ -298,7 +298,7 @@ To remove this calculated field, click the **[!UICONTROL Remove the calculated f
 
 ![](assets/query_editor_nveau_58.png)
 
-## Building expressions {#building-expressions}
+## Build expressions {#building-expressions}
 
 The expression editing tool lets you calculate aggregates, generate function, or edit a formula using an expression.
 

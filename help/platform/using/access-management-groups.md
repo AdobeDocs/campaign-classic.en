@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Create and manage operator groups
 description: Learn how to grant access to operator groups
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Access Management
+role: Business Practitioner, Administrator
+level: Beginner
 ---
 
 # Create and manage operator groups {#operator-groups}
@@ -93,6 +93,3 @@ The default operator groups are:
 
     * **[!UICONTROL INSERT FOLDERS]**: Right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),
     * **[!UICONTROL EDIT FOLDERS]**: Right to alter folder properties such as internal name, label, associated image, sub folder order, etc.
-
-
-

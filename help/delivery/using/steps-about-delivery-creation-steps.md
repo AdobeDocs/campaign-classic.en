@@ -17,7 +17,7 @@ The key steps when creating a delivery are as follows:
 1. **Define the delivery content**. The delivery content definition is specific to each channel. For more on this, refer to the dedicated section:
 
     * [Email channel](../../delivery/using/defining-the-email-content.md)
-    * [SMS channel](../../delivery/using/sms-channel.md#defining-the-sms-content)
+    * [SMS channel](../../delivery/using/sms-create.md#defining-the-sms-content)
     * [Direct mail channel](../../delivery/using/defining-the-direct-mail-content.md)
     * [Mobile application channel](../../delivery/using/about-mobile-app-channel.md)
 

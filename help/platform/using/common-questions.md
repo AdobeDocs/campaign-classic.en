@@ -16,13 +16,13 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 * [Browse self-help options](../../platform/using/tutorials.md#how-to-videos)
 * [Read out get started and use cases section](../../platform/using/tutorials.md#step-by-step-guides)
 * Cannot find the answer? [Ask the Expert](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* Need support? [Consult Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html)
+* Need support? [Consult Campaign Help and Support options](../../support.md)
 
 ## 1. How can I upgrade Campaign to the latest version? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
 Adobe Campaign Classic, specifically, uses a range of technology to deliver value. This combination of technologies requires you to upgrade your Campaign Classic instance(s) on a regular basis, to ensure the most up-to-date versions are being used to deliver superior security, stability, and performance.
 
-If you are using Adobe Managed Services, you can benefit from Campaign Gold Standard upgrade. For more on this refer to [this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+If you are using Adobe Managed Services, you can benefit from Campaign [!DNL Gold Standard] upgrade. For more on this refer to [this article](../../rn/using/gs-overview.md).
 
 [Read out this section](../../production/using/build-upgrade.md) to learn how to update your environment and read [Common questions](../../platform/using/faq-build-upgrade.md) on this specific topic.
 

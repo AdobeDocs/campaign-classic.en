@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Analytics Data Connector
 description: Adobe Analytics Data Connector
-audience: platform
-content-type: reference
-topic-tags: connectors
+feature: Overview
+role: Business Practitioner, Administrator
+level: Beginner
 ---
 
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector}

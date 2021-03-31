@@ -1,28 +1,28 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard upgrade
-description: Learn what is Campaign Classic Gold Standard 
+title: [!DNL Gold Standard] upgrade
+description: Learn what is Campaign Classic [!DNL Gold Standard] 
 feature: Overview
 role: Business Practitioner
 level: Beginner
 ---
 
-# Gold Standard releases {#gs-overviews}
+# [!DNL Gold Standard] releases {#gs-overviews}
 
-## What is Gold Standard?
+## What is [!DNL Gold Standard]?
 
 Adobe and Adobe Campaign is committed to providing you with the best experience and value through our software solution(s). The organization is committed to ensuring that you have access to the most current versions of related technology that our solutions leverage to perform its tasks.
 
 Adobe Campaign Classic, specifically, uses a range of technology to deliver value. This combination of technologies requires you to upgrade your Campaign Classic instance(s) on a regular basis, to ensure the most up-to-date versions are being used to deliver superior security, stability, and performance.
 
-Gold Standard is Campaign Classic Long-Term support release. As a hosted Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On-premise and Hybrid customers can also benefit from Gold Standard releases. If you migrate from an old build, we recommend that you upgrade to this version first.
+[!DNL Gold Standard] is Campaign Classic Long-Term support release. As a hosted [!DNL Gold Standard] user, you automatically benefit from the [!DNL Gold Standard] upgrade with the latest stable version without any action. On-premise and Hybrid customers can also benefit from [!DNL Gold Standard] releases. If you migrate from an old build, we recommend that you upgrade to this version first.
 
 ## Why does my organization need this upgrade?
 
 As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, as well as updating the current build and/or version, you will be notified directly in by Adobe.
 
-As an on-premise or hybrid customer running on an older version, Adobe encourages you to move to the latest Gold Standard.
+As an on-premise or hybrid customer running on an older version, Adobe encourages you to move to the latest [!DNL Gold Standard].
 
 This will ensure that your account is secure from vulnerabilities, as well as leveraging updated performance technology. This upgrade will also position your account for easier, regular upgrades going forward that will require less manual work and intervention.
 
@@ -93,6 +93,6 @@ We are committed to making sure you have the relevant project and contact inform
 
 ## Additional Resources
 
-* [Gold Standard release notes](gold-standard.md)
+* [[!DNL Gold Standard] release notes](gold-standard.md)
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
-* [Gold Standard compatibility matrix](compatibility-matrix-gs.md)
+* [[!DNL Gold Standard] compatibility matrix](compatibility-matrix-gs.md)

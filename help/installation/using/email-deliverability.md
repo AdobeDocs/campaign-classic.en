@@ -18,9 +18,9 @@ The following section provides an overview of the configuration required for con
 >
 >Some configurations can only be performed by Adobe for deployments hosted by Adobe, for example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
 
-For more on the concepts and best practices related to deliverability, refer to this [section](../../delivery/using/about-deliverability.md).
+For more on the concepts and best practices related to deliverability with Adobe Campaign, refer to this [section](../../delivery/using/about-deliverability.md).
 
-All technical recommendations concerning the efficient sending and receiving of emails by an Adobe Campaign platform are available in this [section](../../delivery/using/technical-recommendations.md).
+For a deeper dive on what deliverability is, including all technical recommendations concerning the efficient sending and receiving of emails by an Adobe platform, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## Operating principle {#operating-principle}
 

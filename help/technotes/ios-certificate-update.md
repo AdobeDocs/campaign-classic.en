@@ -21,10 +21,11 @@ To incorporate the new certificate, follow the steps below:
 
 1. Download the **AAACertificateServices 5/12/2020** root certificate [from this page](https://support.sectigo.com/Com_KnowledgeDetailPage?Id=kA03l00000117cL).
 
-1. Add it to the OS Trust Store.
+1. Check the AAA certificate is present in both your OS and JAVA trustores. If not, add it.
 
 1. Restart Adobe Campaign Web Service:
 
     ```
     nlserver restart web
     ```
+

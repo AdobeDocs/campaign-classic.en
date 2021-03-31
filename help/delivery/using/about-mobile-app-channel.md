@@ -8,17 +8,15 @@ content-type: reference
 topic-tags: sending-push-notifications
 ---
 
-# About mobile app channel{#about-mobile-app-channel}
+# Get started with mobile app channel{#about-mobile-app-channel}
+
+The **Mobile App Channel** lets you use the Adobe Campaign platform to send personalized push notifications to iOS and Android terminals via apps. 
 
 >[!CAUTION]
 >
 >This document details the process for integrating your mobile application with the Adobe Campaign platform. It does not provide information on how to create the mobile application or how to configure it for managing notifications. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
 
-The sections below provide information that is specific to the mobile app channel.
-
-For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
-
-The **Mobile App Channel** lets you use the Adobe Campaign platform to send personalized notifications to iOS and Android terminals via apps. Two delivery channels are available:
+Two delivery channels are available:
 
 * An iOS channel that enables you to send notifications to Apple mobile devices.
 
@@ -31,6 +29,7 @@ The **Mobile App Channel** lets you use the Adobe Campaign platform to send pers
 Corresponding to those two channels there are two delivery activities in the campaign workflows:
 
 ![](assets/nmac_intro_3.png)
+
 
 >[!NOTE]
 >
@@ -48,7 +47,9 @@ You can define the application behavior for when the user activates the notifica
 
 The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [list of technical workflows](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign is compatible with HTTP/2 APNs. For more details on the configuration steps, refer to the [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
+Adobe Campaign is compatible with HTTP/2 APNs. For more details on the configuration steps, refer to the [this section](../../delivery/using/configuring-the-mobile-application.md) section.
+
+For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Data path {#data-path}
 

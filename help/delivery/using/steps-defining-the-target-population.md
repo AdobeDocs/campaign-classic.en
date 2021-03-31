@@ -12,12 +12,12 @@ topic-tags: about-deliveries-and-channels
 
 ## About target populations {#about-target-populations}
 
-For each delivery, you can define several types of target populations. The section below provides more information on how to select:
+For each delivery, you can define several types of target populations:
 
-* The main recipients of the delivery. [Read more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* The recipients of proof messages, in order to set up a validation cycle. [Read more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-
-Additionally, if the delivery is included in a marketing campaign, you can also define [seed addresses](../../delivery/using/about-seed-addresses.md), and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+* **Main audience**: profiles who will receive messages. [Learn more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* **Proof**: recipients of proof messages, involved in the validation cycle. [Learn more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **Seed addresses**: recipients who are out of the delivery target but will receive the delivery (in the context of a marketing campaign only). [Learn more](../../delivery/using/about-seed-addresses.md)
+* **Control groups**: population which will not receive the delivery, used to track behavior and campaign impact (in the context of a marketing campaign only). [Learn more](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
 ## Selecting the main recipients of the delivery {#selecting-the-main-target}
 
