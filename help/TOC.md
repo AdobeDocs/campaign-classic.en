@@ -668,6 +668,7 @@ type: Documentation
        + [Configure external accounts](installation/using/external-accounts.md)
        + Configure Federated Data Access{#configure-fda}
           + [Get started with Federated Data Access](installation/using/about-fda.md)
+          + [Best practices and limitations](installation/using/fda-best-practices.md)
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
             + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
