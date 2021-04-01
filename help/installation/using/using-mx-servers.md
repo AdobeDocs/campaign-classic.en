@@ -27,9 +27,9 @@ When you send an email, the software server will establish a connection with the
 
 In the connection protocol, rules have to be respected to prevent spamming and monopolizing servers. The most important are the following: 
 
-* Maximum number of connections allowed: When this number is respected, IPs are not on the block list and emails are not refused due to extra connections. 
-* Maximum number of messages: During the connection, the number of messages allowed to be sent must be defined. If this number is not defined, the server will send as many as possible. This results in being identified as a spammer and being added to the block list by the ISP.
-* Messages per hour: In order to match with your e-reputation, Adobe Campaign will control the number of emails your IPs are able to send per hour. This system will protect you against email refusal or/and block list.
+* **Maximum number of connections allowed**: When this number is respected, IPs are not on the block list and emails are not refused due to extra connections. 
+* **Maximum number of messages**: During the connection, the number of messages allowed to be sent must be defined. If this number is not defined, the server will send as many as possible. This results in being identified as a spammer and being added to the block list by the ISP.
+* **Messages per hour**: In order to match with your e-reputation, Adobe Campaign will control the number of emails your IPs are able to send per hour. This system will protect you against email refusal or/and block list.
 
 ## Inbounce emails
 
@@ -47,15 +47,15 @@ For example, an email address has a feedback « 550 User Unknown » sent by an I
 
 Adobe Campaign manages this process with a match between an error type and a reason: 
 
-* User Unknown: Address which is syntactically correct but does not exist. This error is categorized as a hard bounce and pushed into quarantine within the first error. 
-* Mailbox full: Mailbox which has reached maximum capacity. This error may also indicate that the user is not using this mailbox any more. This error is categorized as a soft bounce and pushed into quarantine within the third error and removed from the quarantine after a period of 30 days. 
-* Inactive User: The mailbox has been deactivated by the ISP due to an inactive user in the last 6 months. This error is categorized as a soft bounce and pushed into quarantine within the third error. 
-* Invalid domain: The domain in the email address does not exist. This error is categorized as a soft bounce and pushed into quarantine within the third error. 
-* Refused: The ISP refused to deliver the email to its users. This error is categorized as a soft bounce and not pushed into quarantine as the error is not linked to the email address but IP or/an domain reputation.
+* **[!UICONTROL User Unknown]**: Address which is syntactically correct but does not exist. This error is categorized as a hard bounce and pushed into quarantine within the first error. 
+* **[!UICONTROL Mailbox full]**: Mailbox which has reached maximum capacity. This error may also indicate that the user is not using this mailbox any more. This error is categorized as a soft bounce and pushed into quarantine within the third error and removed from the quarantine after a period of 30 days. 
+* **[!UICONTROL Inactive User]**: The mailbox has been deactivated by the ISP due to an inactive user in the last 6 months. This error is categorized as a soft bounce and pushed into quarantine within the third error. 
+* **[!UICONTROL Invalid domain]**: The domain in the email address does not exist. This error is categorized as a soft bounce and pushed into quarantine within the third error. 
+* **[!UICONTROL Refused]**: The ISP refused to deliver the email to its users. This error is categorized as a soft bounce and not pushed into quarantine as the error is not linked to the email address but IP or/an domain reputation.
 
 >[!NOTE]
 >
->To learn more about Delivery failures in Adobe Campaign Classic, refer to this page.
+>To learn more about delivery failure types and reasons in Adobe Campaign, refer to this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 ## The Deliverability Instance
 
@@ -64,6 +64,8 @@ A daily update of the MX rules and inbounces rules are managed by a specific wor
 This daily update is running for all clients who wish to keep their instance up to date through a transparency process.
 
 The MX rules has 6 different levels of throughput which are mainly used during the ramp-up process:
+
+![](assets/mx-rules-throughput.png)
 
 The Custom mode is for advanced clients who wish to set their own MX rules. When the Custom mode is activated, the client will not be updated by the Deliverability Instance as the synchronization will be turned off.
 
@@ -77,6 +79,7 @@ The Custom mode is for advanced clients who wish to set their own MX rules. When
 * Unreachable(soft bounce): 421 4.16.55 [TS01] Messages from x.x.x.x temporarily deferred due to excessive user complaints
 
 **Related topics:**
-* Configure Email Deliverabilty
-* MX Rules - Technical Recommendations
-* Understand Delivery Failures
+* [MX configuration](../../installation/using/email-deliverability.md#mx-configuration)
+* [Technical email configuration](../../installation/using/email-deliverability.md)
+* [Understand Delivery Failures](../../delivery/using/understanding-delivery-failures.md)
+* [Campaign Classic - Technical Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/acc-technical-recommendations.html)
