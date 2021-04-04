@@ -6,8 +6,8 @@ description: Examples
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 ---
-
 # Examples{#examples}
 
 ## Creating a local campaign (by form) {#creating-a-local-campaign--by-form-}
@@ -245,4 +245,3 @@ The steps are as follows:
 1. Approve the package to publish it.
 
    ![](assets/mkg_dist_use_case_form_6.png)
-

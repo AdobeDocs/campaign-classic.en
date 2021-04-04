@@ -6,8 +6,8 @@ description: Defining the target population
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
+exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 ---
-
 # Defining the target population {#defining-the-target-population}
 
 ## About target populations {#about-target-populations}

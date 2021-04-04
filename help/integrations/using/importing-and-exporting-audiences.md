@@ -6,8 +6,8 @@ description: Importing and exporting audiences
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
+exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 ---
-
 # Importing and exporting audiences{#importing-and-exporting-audiences}
 
 ## Importing an audience {#importing-an-audience}
@@ -75,4 +75,3 @@ Synchronization between Adobe Campaign and People core service takes 24-36 hours
 >[!NOTE]
 >
 >In order to be reconciled, the records must have an Adobe Experience Cloud ID ('visitor ID' or 'declared ID'). The records that do not have an Adobe Experience Cloud ID are ignored when exporting and importing audiences.
-

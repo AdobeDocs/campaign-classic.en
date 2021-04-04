@@ -6,8 +6,8 @@ description: About activities
 audience: workflow
 content-type: reference
 topic-tags: introduction
+exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
 ---
-
 # About activities{#about-activities}
 
 This section describes all of the available activities. According to the node or the context in which the workflow is created/edited, the activities available may vary. For example, the workflows created in a campaign have channel-specific delivery activities.

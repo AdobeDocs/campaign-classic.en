@@ -6,8 +6,8 @@ description: Administration
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 ---
-
 # Administration{#administration}
 
 Automatic startup of the Adobe Campaign modules (**web**, **mta**, **wfserver**, etc.) is provided by the **nlserver** server.
@@ -97,4 +97,3 @@ Here is a list of the usual administration commands accessible in Linux (as **Ad
   >[!NOTE]
   >
   >Some configuration changes are not taken into account dynamically; Adobe Campaign must be shut down and then restarted.
-

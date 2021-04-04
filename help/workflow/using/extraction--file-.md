@@ -6,8 +6,8 @@ description: Learn more about the Data extraction (file) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
 ---
-
 # Data extraction (file){#extraction-file}
 
 You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
@@ -59,4 +59,3 @@ The following is a list of available aggregate functions:
 * **[!UICONTROL Minimum value]** to calculate the minimum values of a field (numerical or otherwise),
 * **[!UICONTROL Maximum value]** to calculate the maximum values of a field (numerical or otherwise),
 * **[!UICONTROL Average]** to calculate the average of the values of a numerical field.
-

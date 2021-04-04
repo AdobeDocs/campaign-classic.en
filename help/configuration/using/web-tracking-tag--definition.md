@@ -6,8 +6,8 @@ description: "Web tracking tag: definition"
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
+exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 ---
-
 # Web tracking tag: definition{#web-tracking-tag-definition}
 
 A web tracking tag is simply a URL constructed with the appropriate parameters, sent to the redirection server via an HTTP query.
@@ -126,4 +126,3 @@ The following methods are possible:
 
 * Inserting the URL in the **"src"** attribute of an HTML **`<img>`** tag incorporated in the web page you wish to track.
 * Direct call to the redirection server when the web page you wish to track is generated.
-

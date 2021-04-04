@@ -6,8 +6,8 @@ description: AND-join
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
 ---
-
 # AND-join{#and-join}
 
 A join triggers its outbound transition only when all inbound transitions are activated, i.e. when all prior activities are finished. This allows you to make sure that certain activities have finished before continuing to execute the workflow.

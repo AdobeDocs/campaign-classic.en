@@ -6,8 +6,8 @@ description: Learn more about the guidelines to follow when developing in Adobe 
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 ---
-
 # Scripting and coding guidelines {#scripting-coding-guidelines}
 
 ## Scripting

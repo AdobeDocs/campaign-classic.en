@@ -6,8 +6,8 @@ description: About cubes
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
+exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 ---
-
 # Get started with cubes{#about-cubes}
 
 Exploration of data in the database is offered via the **Marketing Analytics** module. It enables you to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. In addition to this, Marketing Analytics enables you to create reports and build target populations. Once these are identified, they are stored in lists that can be used in Adobe Campaign (targeting, segmentation, etc.).
@@ -103,4 +103,3 @@ The main contexts of use for cubes are as follows:
   ![](assets/s_advuser_cube_in_report.png)
 
   For more on this, refer to [Exploring the data in a report](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
-

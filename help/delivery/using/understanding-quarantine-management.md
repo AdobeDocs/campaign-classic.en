@@ -6,8 +6,8 @@ description: Understanding quarantine management
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 ---
-
 # Understanding quarantine management{#understanding-quarantine-management}
 
 ## About quarantines {#about-quarantines}

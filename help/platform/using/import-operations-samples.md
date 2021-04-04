@@ -6,8 +6,8 @@ description: Learn more about generic imports you can perform using import jobs.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 ---
-
 # Generic import samples {#import-operations-samples}
 
 ## Import from a list of recipients {#example--import-from-a-list-of-recipients}

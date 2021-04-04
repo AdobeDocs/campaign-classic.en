@@ -6,8 +6,8 @@ description: Learn what is Campaign Classic [!DNL Gold Standard]
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: c36a78f6-3332-465d-92f5-48f70b8bdddd
 ---
-
 # [!DNL Gold Standard] releases {#gs-overviews}
 
 ## What is [!DNL Gold Standard]?

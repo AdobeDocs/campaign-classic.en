@@ -6,8 +6,8 @@ description: Email deliverability
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 ---
-
 # Technical email configurations{#email-deliverability}
 
 ## Overview {#overview}

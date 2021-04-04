@@ -6,8 +6,8 @@ description: Interaction - Data buffer
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 ---
-
 # Interaction - Data buffer{#interaction-data-buffer}
 
 You can configure a data buffer zone to increase inbound Interaction performance by desynchronizing offer proposition calculations. This configuration is to be carried out in the instance's own configuration file (config-Instance.xml). 
@@ -60,4 +60,3 @@ Argument details:
  runLevel: Priority at start Default: 10 
  targetKeySize: Max. number of characters stored in the shared memory for identifying individuals Default: 16 
 ```
-

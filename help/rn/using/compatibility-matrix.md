@@ -6,8 +6,8 @@ description: Campaign Classic Compatibility matrix
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 ---
-
 # Compatibility matrix{#compatibility-matrix}
 
 This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Products and versions that are not part of this list are not compatible with Adobe Campaign.

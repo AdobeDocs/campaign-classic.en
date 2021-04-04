@@ -6,8 +6,8 @@ description: Learn how to query delivery information
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 ---
-
 # Querying delivery information {#querying-delivery-information}
 
 ## Number of clicks for a specific delivery {#number-of-clicks-for-a-specific-delivery}

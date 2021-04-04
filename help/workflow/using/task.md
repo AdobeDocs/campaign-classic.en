@@ -6,8 +6,8 @@ description: Learn more about the Task workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
 ---
-
 # Task{#task}
 
 In a campaign workflow, the **[!UICONTROL Task]** activity lets you specify two scenarios: the first if the task is completed and a second if the task is not completed (if it is manually marked as incomplete or if it expires).

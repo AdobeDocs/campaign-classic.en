@@ -6,8 +6,8 @@ description: Creating filters
 audience: platform
 content-type: reference
 topic-tags: filtering-data
+exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 ---
-
 # Create filters{#creating-filters}
 
 When you navigate in the Adobe Campaign tree (from the **[!UICONTROL Explorer]** menu in the home page), the data contained in the database is displayed in lists. These lists can be configured to display only the data required by the operator. Actions can then be launched on the filtered data. Filter configuration lets you select data from a list **[!UICONTROL dynamically]**. If the data is modified, the filtered data is updated.
@@ -370,4 +370,3 @@ Click the **[!UICONTROL Settings]** tab to access the following options:
   This option is enabled for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters offered in the delivery wizard that cannot be overloaded.
 
   ![](assets/s_ncs_user_filter_advanced_param.png)
-

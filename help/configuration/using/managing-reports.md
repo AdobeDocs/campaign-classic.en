@@ -6,8 +6,8 @@ description: Managing reports
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 ---
-
 # Managing reports{#managing-reports}
 
 Reports based on a schema that is specific to the default Adobe Campaign recipients (nm:recipient or schema linked) must be re-developed in order to take into account the data from the custom table and its tables linked via the target mapping (see the [Target mapping](../../configuration/using/target-mapping.md) section).
@@ -25,4 +25,3 @@ The following reports are concerned:
 * **[!UICONTROL Offer analysis]** (offerAnalysis): offer analysis per date and channel.
 * **[!UICONTROL Reactivity rate]** (mobileAppDistribution): reactivity rate for the latest deliveries.
 * **[!UICONTROL Breakdown of subscriptions]** (mobileAppDistribution): breakdown of active subscriptions per mobile application.
-

@@ -6,8 +6,8 @@ description: "Use case: creating a Refer A Friend form"
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 ---
-
 # Use case: create a referral form{#use-case-creating-a-refer-a-friend-form}
 
 In this example, we want to offer a competition to the recipients in the database. The Web form will have a section for entering answers and another to refer a friend by entering their email address.
@@ -120,4 +120,3 @@ To configure and create the referral block, apply the following steps:
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    Their profile contains the information entered by their referrer. It is stored based on the configurations entered in the form script. If they decide to subscribe to the newsletter, they will be saved in the recipient table.
-

@@ -6,8 +6,8 @@ description: Create deliveries to send personalized messages on different channe
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
+exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 ---
-
 # Communication channels{#communication-channels}
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). These messages are designed and sent though deliveries, and can be personalized for each recipient.

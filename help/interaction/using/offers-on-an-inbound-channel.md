@@ -6,8 +6,8 @@ description: Offers on an inbound channel
 audience: interaction
 content-type: reference
 topic-tags: case-study
+exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 ---
-
 # Offers on an inbound channel{#offers-on-an-inbound-channel}
 
 ## Presenting an offer to an anonymous visitor {#presenting-an-offer-to-an-anonymous-visitor}
@@ -398,4 +398,4 @@ When you open the web page; the script lets you call up the Interaction engine t
 
 In this example, the engine recognizes the identified environment (**EnvNeobankIdnRecip**). It identifies the offer space (**OSWebBestOfferIdentified**) and the **Best Offer** category (**CatBestOffer**) for the first and second offer spaces on the web page, as well as the (**OSWebPartnerIdentified**) offer space and the **Partner** category (**CatPartner**) for the third offer space on the site.
 
-If the engine can't identify the recipient, it switches to the anonymous offer spaces referenced in the identified offer spaces and towards the anonymous categories (**CatPartner** and **CatPartnerAnonym**) as specified in the script. 
+If the engine can't identify the recipient, it switches to the anonymous offer spaces referenced in the identified offer spaces and towards the anonymous categories (**CatPartner** and **CatPartnerAnonym**) as specified in the script.

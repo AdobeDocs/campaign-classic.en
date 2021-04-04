@@ -6,8 +6,8 @@ description: About services and subscriptions
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
+exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 ---
-
 # About services and subscriptions{#about-services-and-subscriptions}
 
 Adobe Campaign enables you to create and administer information services such as newsletters and to manage the subscriptions to these services. Several services can be defined in parallel, for example: specialist newsletters for certain product categories, themes or areas of a web site, subscriptions to various types of alert messages and real-time notifications. Refer to [Manage subscriptions](../../delivery/using/managing-subscriptions.md).

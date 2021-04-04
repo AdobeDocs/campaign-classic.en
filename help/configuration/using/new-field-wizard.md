@@ -6,8 +6,8 @@ description: New field wizard
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---
-
 # New field wizard{#new-field-wizard}
 
 A wizard accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
@@ -43,4 +43,3 @@ An extension file, called "cus:recipient" in our example, is automatically creat
 >[!NOTE]
 >
 >By default, the added fields are declared with the property **user** (with the value "true"). This lets you display and edit the field in the input form of the extended schema using a "treeEdit"-type control (refer to Input Form).
-

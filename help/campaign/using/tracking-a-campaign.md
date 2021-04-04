@@ -6,8 +6,8 @@ description: Tracking a campaign
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 ---
-
 # Tracking a campaign{#tracking-a-campaign}
 
 Central entity operators can track campaign orders in the list of campaign packages.
@@ -97,4 +97,3 @@ Campaign packages which have already been published can be reinitialized, modifi
 >[!NOTE]
 >
 >You can also reinitialize canceled campaign packages.
-

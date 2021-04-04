@@ -6,8 +6,8 @@ description: Accessing an external database
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
 ---
-
 # Defining data mapping {#defining-data-mapping}
 
 Adobe Campaign lets you define mapping on the data in an external table.

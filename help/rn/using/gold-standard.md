@@ -6,8 +6,8 @@ description: Release notes for Campaign Classic [!DNL Gold Standard]
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 ---
-
 # [!DNL Gold Standard] release notes{#gold-standard}
 
 This page lists [!DNL Gold Standard] releases. Learn more about Campaign [!DNL Gold Standard] [in this page](gs-overview.md).

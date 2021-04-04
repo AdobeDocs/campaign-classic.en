@@ -6,8 +6,8 @@ description: Template publication
 audience: message-center
 content-type: reference
 topic-tags: message-templates
+exl-id: 1e09381d-af20-4309-8769-47f0d5e8dd64
 ---
-
 # Template unpublication{#template-unpublication}
 
 Once a message template is published on the execution instances, it can be unpublished. For more on the template publication process, see [this section](../../message-center/using/template-publication.md).

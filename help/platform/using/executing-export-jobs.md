@@ -6,8 +6,8 @@ description: Learn how to configure and execute export jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 ---
-
 # Configure export jobs {#executing-export-jobs}
 
 The export jobs allow you to access and extract data from the database: contacts, clients, lists, segments, etc.

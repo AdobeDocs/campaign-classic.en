@@ -6,8 +6,8 @@ description: Steps to create a query
 audience: platform
 content-type: reference
 topic-tags: creating-queries
+exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 ---
-
 # Steps to create a query{#steps-to-create-a-query}
 
 The steps for building a query in Adobe Campaign are as follows:
@@ -131,4 +131,3 @@ In this example, data is sorted in ascending order based on recipient age.
 >[!NOTE]
 >
 >By default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**.
-

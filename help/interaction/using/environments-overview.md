@@ -6,8 +6,8 @@ description: Environments overview
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
+exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
 ---
-
 # Environments overview{#environments-overview}
 
 This chapter details how to manage offer environments in Interaction.

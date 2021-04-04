@@ -6,8 +6,8 @@ description: This section details the installation and configuration of a mid-so
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 ---
-
 # Mid-sourcing server{#mid-sourcing-server}
 
 This section details the installation and configuration of a mid-sourcing server, as well as the deployment of an instance which enables third parties to send messages in **mid-sourcing** mode.
@@ -173,4 +173,3 @@ You must stop and then restart the server in order for the modification to be ta
 If the delivery of messages is to be managed by several mid-sourcing servers, select the option **[!UICONTROL Routing with alternating mid-sourcing accounts]** and specify the different servers.
 
 ![](assets/s_ncs_install_midsourcing_tracking04.png)
-

@@ -6,8 +6,8 @@ description: Synchronizing profiles
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
+exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 ---
-
 # Synchronizing profiles{#synchronizing-profiles}
 
 ACS Connector replicates data from Campaign v7 to Campaign Standard. The data received from Campaign v7 can be used in Campaign Standard to create deliveries. You can see how profiles are synchronized by performing the operations listed below.
@@ -170,4 +170,3 @@ Follow the instructions in [Creating a workflow](#creating-a-workflow) and [Crea
 1. Go to Campaign Standard and open the profile details for the recipient. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]**. To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_23.png)
-

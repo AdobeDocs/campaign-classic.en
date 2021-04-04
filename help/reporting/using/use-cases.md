@@ -6,8 +6,8 @@ description: Use cases
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
+exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 ---
-
 # Use cases{#use-cases}
 
 ## Analyzing a population {#analyzing-a-population}
@@ -279,4 +279,3 @@ For example, you could display the domains of all excluded addresses and sort th
 This would generate the following type of report:
 
 ![](assets/reporting_descriptive_exclusion_result.png)
-

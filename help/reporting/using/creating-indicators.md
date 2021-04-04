@@ -6,8 +6,8 @@ description: Creating indicators
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
+exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 ---
-
 # Creating indicators{#creating-indicators}
 
 To make a cube functional, you need to identify the relevant dimensions and measures and create them in the cube.
@@ -129,4 +129,3 @@ To do this:
    To do this, use the appropriate icons.
 
    ![](assets/s_advuser_cube_wz_16.png)
-

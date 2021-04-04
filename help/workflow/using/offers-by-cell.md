@@ -6,8 +6,8 @@ description: Offers by cell
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
 ---
-
 # Offers by cell{#offers-by-cell}
 
 The **[!UICONTROL Offers by cell]** activity lets you distribute the inbound population (from a query for example) into several segments and to specify an offer to present for each of these segments.
@@ -26,4 +26,3 @@ To do this:
       ![](assets/int_offer_per_cell1.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
-

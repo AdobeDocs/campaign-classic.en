@@ -6,8 +6,8 @@ description: Learn more about Campaign Classic upgrades
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
-
 # Get started with upgrades{#rn-overview}
 
 Adobe Campaign is regularly updated. On the average two or three minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only. 

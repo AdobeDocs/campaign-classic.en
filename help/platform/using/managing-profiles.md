@@ -6,8 +6,8 @@ description: Managing profiles
 audience: platform
 content-type: reference
 topic-tags: profile-management
+exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 ---
-
 # Manage profiles{#managing-profiles}
 
 ## Recipient tree {#recipient-tree}
@@ -41,4 +41,3 @@ To purge a folder, use the **[!UICONTROL Actions > Purge folder]** menu, accesse
 Click **[!UICONTROL Start]** to launch the operation. The middle section of the window displays the progress status, as shown below:
 
 ![](assets/s_ncs_user_purge_folder_start.png)
-

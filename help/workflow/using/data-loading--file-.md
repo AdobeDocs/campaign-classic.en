@@ -6,8 +6,8 @@ description: Learn more about the Data loading (file) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 ---
-
 # Data loading (file){#data-loading-file}
 
 ## Use {#use}
@@ -125,4 +125,3 @@ The following example lets you collect a file on the server every day, load its 
 1. Then specify the processes to be carried out for each type of population. In our example, we are going to **[!UICONTROL Update the data]** in the database. To do this, place an **[!UICONTROL Update data]** activity at the end of each outbound transition from the split activity.
 
    The **[!UICONTROL Update data]** activity is detailed in the [Update data](../../workflow/using/update-data.md) section.
-

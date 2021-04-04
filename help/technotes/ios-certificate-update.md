@@ -5,8 +5,8 @@ title: Technote
 description: Technote
 hide: no
 hidefromtoc: yes
+exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 ---
-
 # Apple Push Notification service server certificate update {#apns-certificate-update}
 
 On March 29 2021, an Apple Push Notification service (APNs) infrastructure update will impact Adobe Campaign Classic iOS channel. An OS configuration change is **mandatory** to avoid iOS push channel outage.
@@ -28,4 +28,3 @@ To incorporate the new certificate, follow the steps below:
     ```
     nlserver restart web
     ```
-

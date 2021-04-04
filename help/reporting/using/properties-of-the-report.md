@@ -6,8 +6,8 @@ description: Learn more about the report properties settings
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 ---
-
 # Properties of the report{#properties-of-the-report}
 
 You can fully personalize and configure your report to suit your needs. To do this, edit its properties. Report properties are accessed via the **[!UICONTROL Properties]** button above the activity sequence chart.

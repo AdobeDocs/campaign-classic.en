@@ -6,8 +6,8 @@ description: Learn more about network, database, and SSL/TLS configuration best 
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 ---
-
 # Network, database and SSL/TLS {#network-database}
 
 ## Network configuration

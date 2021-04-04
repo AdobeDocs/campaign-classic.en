@@ -6,8 +6,8 @@ description: Learn more about Campaign deployment wizard
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 ---
-
 # Deploying an instance{#deploying-an-instance}
 
 >[!NOTE]

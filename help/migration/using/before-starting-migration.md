@@ -6,8 +6,8 @@ description: Before starting migration
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
+exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 ---
-
 # Before starting migration{#before-starting-migration}
 
 >[!NOTE]
@@ -71,4 +71,3 @@ nlserver config -internalpassword
 >[!IMPORTANT]
 >
 >The **internal** password must be identical for all the tracking servers. For more information, refer to the [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier) and [Permissions](../../platform/using/access-management.md) sections.
-

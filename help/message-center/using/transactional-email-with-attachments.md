@@ -6,8 +6,8 @@ description: Learn how to send transactional emails with individual and/or perso
 audience: message-center
 content-type: reference
 topic-tags: use-case
+exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
 ---
-
 # Use case: Sending transactional emails with attachments{#transactional-email-with-attachments}
 
 The purpose of this use case is to add email attachments on the fly to outbound dispatches.

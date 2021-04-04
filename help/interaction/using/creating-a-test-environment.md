@@ -6,8 +6,8 @@ description: Creating a test environment
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
+exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
 ---
-
 # Creating a test environment{#creating-a-test-environment}
 
 To create a test environment (sandbox mode), apply the following steps:
@@ -29,4 +29,3 @@ To create a test environment (sandbox mode), apply the following steps:
 1. Once your tests have finished and you wish to use the environment in production, duplicate the offers and spaces in your design environment. (Right-click > **[!UICONTROL Actions]** > **[!UICONTROL Deploy]** ).
 
    ![](assets/migration_interaction_5.png)
-

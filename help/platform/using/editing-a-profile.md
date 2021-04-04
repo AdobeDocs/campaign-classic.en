@@ -6,8 +6,8 @@ description: Editing a profile
 audience: platform
 content-type: reference
 topic-tags: profile-management
+exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 ---
-
 # Edit a profile{#editing-a-profile}
 
 To view information related to a profile, click on their name in the profiles list.
@@ -91,4 +91,3 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 >[!NOTE]
 >
 >For more on tracking functionality, please refer to [this page](../../delivery/using/delivery-dashboard.md).
-

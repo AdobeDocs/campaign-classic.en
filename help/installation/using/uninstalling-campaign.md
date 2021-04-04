@@ -6,8 +6,8 @@ description: Learn how to uninstall Campaign
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
 ---
-
 # Uninstalling Campaign{#uninstalling-campaign}
 
 >[!CAUTION]

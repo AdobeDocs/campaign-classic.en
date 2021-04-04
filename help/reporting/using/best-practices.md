@@ -6,8 +6,8 @@ description: Campaign reporting best practices
 audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
+exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 ---
-
 # Reporting best practices{#best-practices-reporting}
 
 ## Analyzing needs{#analyzing-needs}

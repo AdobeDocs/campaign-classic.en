@@ -6,8 +6,8 @@ description: Updating data
 audience: platform
 content-type: reference
 topic-tags: profile-management
+exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 ---
-
 # Update data{#updating-data}
 
 The data linked to a recipient's profile can be updated manually or automatically.
@@ -120,4 +120,3 @@ To check on the process, go to the **[!UICONTROL Subscriptions]** tab on the pro
 >[!NOTE]
 >
 >For more on creating and configuring information services, refer to [this page](../../delivery/using/managing-subscriptions.md).
-

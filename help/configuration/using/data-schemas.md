@@ -6,8 +6,8 @@ description: Data schemas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 ---
-
 # Data schemas{#data-schemas}
 
 ## Principles {#principles}
@@ -114,4 +114,3 @@ To do this, you need to create the schema of the table and update the database s
    ![](assets/s_ncs_configuration_structure.png)
 
 1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [Updating the database structure](../../configuration/using/updating-the-database-structure.md).
-

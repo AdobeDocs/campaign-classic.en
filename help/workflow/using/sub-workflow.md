@@ -6,8 +6,8 @@ description: Learn more about the Sub-workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 ---
-
 # Sub-workflow{#sub-workflow}
 
 The **[!UICONTROL Sub-workflow]** activity lets you trigger the execution of another workflow and recover the result. This activity lets you use complex workflows while using a simplified interface.

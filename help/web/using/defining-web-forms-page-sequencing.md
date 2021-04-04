@@ -6,8 +6,8 @@ description: Defining web forms page sequencing
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 ---
-
 # Defining web forms page sequencing{#defining-web-forms-page-sequencing}
 
 The form can contain one or more pages. It is built via a diagram which lets you sequence pages, testing, script execution, page jump and recording steps. Global diagram design mode is the same as for a Campaign workflow.
@@ -118,4 +118,3 @@ To personalize this page, double-click **[!UICONTROL End]** and enter the conten
 
 * You can copy and paste existing HTML content. To do this, click **[!UICONTROL Display source code]** and insert the HTML code.
 * You can use an external URL; to do this, select the corresponding option and enter the URL of the page to be displayed.
-

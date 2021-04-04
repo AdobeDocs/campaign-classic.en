@@ -6,8 +6,8 @@ description: Processing a report
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
+exl-id: d133efec-33e1-4711-a90f-e40385059386
 ---
-
 # Using an analysis report{#processing-a-report}
 
 ## Saving an analysis report {#saving-an-analysis-report}
@@ -145,4 +145,3 @@ To create a history, apply the following steps:
 1. Use the archive access button to show previous analyses.
 
    ![](assets/reporting_descriptive_historize_access.png)
-

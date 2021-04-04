@@ -6,8 +6,8 @@ description: Discover guidelines and best practices to monitor Campaign instance
 audience: production
 content-type: reference
 topic-tags: introduction
+exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 ---
-
 # Monitoring guidelines {#monitoring-guidelines}
 
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}

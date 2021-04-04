@@ -6,8 +6,8 @@ description: Using the context
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 ---
-
 # Using the context{#using-the-context}
 
 When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Defining a direct filter on data](#defining-a-direct-filter-on-data)) or the report context (refer to [Using context data](#using-context-data)).
@@ -81,4 +81,3 @@ The data location is inferred automatically. If necessary, you can force the dat
 When you select the data which the statistics will concern, the available fields coincide with the data specified in the query.
 
 ![](assets/s_ncs_advuser_report_datasource_1.png)
-

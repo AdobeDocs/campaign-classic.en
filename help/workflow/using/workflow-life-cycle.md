@@ -6,8 +6,8 @@ description: Learn more about the life cycle of a workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
+exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 ---
-
 # Workflow life cycle {#workflow-life-cycle}
 
 The workflow cycle has three main steps.

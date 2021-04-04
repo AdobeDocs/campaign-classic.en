@@ -6,8 +6,8 @@ description: Learn technical steps to upgrade to a new build
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
+exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 ---
-
 # Upgrading to a new build (on-premise){#upgrading}
 
 Before starting the upgrading process, determine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
@@ -258,4 +258,3 @@ The next time client consoles are connected, a window will inform users about th
 >[!NOTE]
 >
 >Make sure the Apache user has the appropriate read rights for this installation file and refer to the [installation guide](../../installation/using/general-architecture.md) for more information.
-

@@ -6,8 +6,8 @@ description: ACS Connector principles and data cycle
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
+exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 ---
-
 # ACS Connector principles and data cycle{#acs-connector-principles-and-data-cycle}
 
 ## Introduction {#introduction}
@@ -320,4 +320,3 @@ With the basic implementation, the out-of-the-box recipient table is replicated.
 
 1. If your rights management is folder-based, go to **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]**, and define a security group for the folders linked to your custom tables. See [Rights conversion](#rights-conversion).
 1. Use the **[!UICONTROL New replication]** workflow (not the template, but the workflow instance itself) to include the custom table and the fields to replicate. See [Technical and replication workflows](#technical-and-replication-workflows).
-

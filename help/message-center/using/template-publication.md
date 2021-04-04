@@ -6,8 +6,8 @@ description: Transactional message template publication
 audience: message-center
 content-type: reference
 topic-tags: message-templates
+exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 ---
-
 # Template publication{#template-publication}
 
 When the message template created on the control instance is complete, you can publish it. This process will also publish it on all execution instances.

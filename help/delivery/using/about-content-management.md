@@ -6,8 +6,8 @@ description: About content management
 audience: delivery
 content-type: reference
 topic-tags: content-management
+exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 ---
-
 # About content management{#about-content-management}
 
 Adobe Campaign Content Manager module is a specific Campaign Classic [standard package](../../installation/using/installing-campaign-standard-packages.md) that you can install to create recurrent newsletters or website. It can help you to create, validate, and publish your messages.
@@ -38,4 +38,3 @@ This mode of content creation does however involve a few constraints; including 
 
 * Restricted freedom concerning the final document design,
 * The analysis of requirements must be rigorous so that end users will not be inconvenienced by a missing function.
-

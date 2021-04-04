@@ -4,8 +4,8 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic product documentation
 topic: Premium
+exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 ---
-
 # Help Center {#campaign-classic-documentation}
 
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) 

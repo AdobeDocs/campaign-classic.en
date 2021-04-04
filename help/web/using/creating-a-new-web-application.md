@@ -6,8 +6,8 @@ description: Creating a new web application
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 ---
-
 # Create a new web application{#creating-a-new-web-application}
 
 Web application types are selected during creation.

@@ -6,8 +6,8 @@ description: Learn how to use the local approval activity
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 ---
-
 # Using the local approval activity{#using-the-local-approval-activity}
 
 The **[!UICONTROL Local approval]** activity integrated into a targeting workflow lets you set up a recipient approval process before the delivery is sent.
@@ -212,4 +212,3 @@ This tab shows the following information:
 The **[!UICONTROL Targeted]** tab of the approval log displays the list of targeted recipients and their approval status. You can change this status if necessary. 
 
 ![](assets/local_validation_admin_6.png)
-

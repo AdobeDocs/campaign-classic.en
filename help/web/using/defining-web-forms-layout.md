@@ -6,8 +6,8 @@ description: Defining web forms layout
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 ---
-
 # Defining web forms layout{#defining-web-forms-layout}
 
 ## Creating containers {#creating-containers}
@@ -84,4 +84,3 @@ The following alignments are supported:
 * Left/Right: the label is positioned to the right or to the left of the field,
 * Above/Below: the label is positioned above or below the field,
 * Hidden: the label is not displayed.
-

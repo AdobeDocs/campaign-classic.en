@@ -6,8 +6,8 @@ description: About templates
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
+exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 ---
-
 # About templates{#about-templates}
 
 A delivery configuration can be saved in a delivery template in order to be re-used. The template may contain a complete or partial configuration of the delivery.

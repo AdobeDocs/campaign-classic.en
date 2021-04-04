@@ -6,8 +6,8 @@ description: Release notes for Campaign 20.3
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
 ---
-
 # Release 20.3{#release-20-3}
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
@@ -160,4 +160,4 @@ On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
 * Fixed an issue that made unwanted URLs visible in the delivered emails after importing HTML templates containing tracking links. (NEO-25909)
 * Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
 * Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
-* Fixed an issue in the enrichment activity where non-admin users defined instance variables. (NEO-25653) 
+* Fixed an issue in the enrichment activity where non-admin users defined instance variables. (NEO-25653)

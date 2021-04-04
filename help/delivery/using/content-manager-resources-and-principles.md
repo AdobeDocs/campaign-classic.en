@@ -6,8 +6,8 @@ description: Content manager resources and principles
 audience: delivery
 content-type: reference
 topic-tags: content-management
+exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
 ---
-
 # Content manager resources and principles{#content-manager-resources-and-principles}
 
 You need to define a publication template, which contains transformation templates for each content.

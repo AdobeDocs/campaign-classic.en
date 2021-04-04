@@ -6,8 +6,8 @@ description: Offers on an outbound channel
 audience: interaction
 content-type: reference
 topic-tags: case-study
+exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 ---
-
 # Offers on an outbound channel{#offers-on-an-outbound-channel}
 
 ## Email offer delivery {#email-offer-delivery}
@@ -119,4 +119,3 @@ In our database, there is a category of travel offers to Africa. The eligibility
 1. To save the simulation data, use the history or export functions available in the report. 
 
    ![](assets/offer_simulation_example_013.png)
-

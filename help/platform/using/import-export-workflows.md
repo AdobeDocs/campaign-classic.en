@@ -6,8 +6,8 @@ description: Learn how to import and export data using workflows in Campaign Cla
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
 ---
-
 # Import and export data using workflows {#import-export-workflows}
 
 ## Collecting data {#collecting-data-workflows}

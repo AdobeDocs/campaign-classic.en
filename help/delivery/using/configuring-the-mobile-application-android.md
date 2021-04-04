@@ -9,8 +9,8 @@ topic-tags: sending-push-notifications
 index: y
 internal: n
 snippet: y
+exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 ---
-
 # Configuration steps for Android
 
 Once the package is installed, you can define your Android app settings in Adobe Campaign Classic.

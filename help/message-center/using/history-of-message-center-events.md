@@ -6,8 +6,8 @@ description: History of Message Center events
 audience: message-center
 content-type: reference
 topic-tags: reports
+exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 ---
-
 # History of Message Center events{#history-of-message-center-events}
 
 The **[!UICONTROL History of Message Center events]** report provides you with an overview of the Message Center activity, i.e. the number of events processed and delivered as transactional messages.

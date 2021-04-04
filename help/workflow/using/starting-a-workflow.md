@@ -6,8 +6,8 @@ description: Learn how to start a workflow and discover workflows actions toolba
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
+exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 ---
-
 # Starting a workflow {#starting-a-workflow}
 
 A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](../../workflow/using/scheduler.md)) or activity scheduling.

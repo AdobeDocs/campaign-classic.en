@@ -6,8 +6,8 @@ description: About custom recipient table
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 ---
-
 # Use a custom recipient table{#about-custom-recipient-table}
 
 This section details the principles for using a non-standard recipient table.
@@ -70,4 +70,3 @@ For example:
 * The standard **[!UICONTROL Unsubscription link]** personalization block must be adapted.
 * The target mapping of the standard delivery templates must be modified.
 * V4 forms are not compatible for use with an external recipients table: you must use web applications.
-
