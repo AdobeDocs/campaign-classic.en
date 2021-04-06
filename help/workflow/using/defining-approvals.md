@@ -6,8 +6,8 @@ description: Approvals enable operators to make decisions governing a workflow o
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
+exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 ---
-
 # Defining approvals {#defining-approvals}
 
 Approvals enable operators to make decisions governing a workflow or to confirm its continued execution.

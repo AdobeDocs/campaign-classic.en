@@ -6,8 +6,8 @@ description: Creating a shared connection
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
+exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 ---
-
 # Creating a shared connection{#creating-a-shared-connection}
 
 >[!IMPORTANT]
@@ -147,4 +147,3 @@ In order to use several control instances, this configuration has to be performe
 1. Give each operator read and write permissions for their folder. To do this, right-click the folder and select **[!UICONTROL Properties]** . Then select the **[!UICONTROL Security]** tab and add the relevant operator (**mc1** for **Folder 1** and **mc2** for **Folder 2**). Make sure that the **[!UICONTROL Read/Write data]** boxes are checked.
 
    ![](assets/messagecenter_multi_control_6.png)
-

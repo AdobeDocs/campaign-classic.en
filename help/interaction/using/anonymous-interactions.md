@@ -6,8 +6,8 @@ description: Anonymous interactions
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
+exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
 ---
-
 # Anonymous interactions{#anonymous-interactions}
 
 ![](assets/do-not-localize/how-to-video.png) Watch this [video](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) to get an overview of how offers are delivered to identified and anonymous targets.
@@ -53,4 +53,3 @@ If there is no element that allows you to identify a contact, or if you do not w
 To do this, check the **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**, then specify the environment dedicated to these unidentified visitors in the **[!UICONTROL Linked anonymous space]** when specifying an offer space.
 
 ![](assets/anonymous_to_anonymous_environment.png)
-

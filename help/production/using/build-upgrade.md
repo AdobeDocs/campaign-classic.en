@@ -6,8 +6,8 @@ description: Learn key steps to upgrade to a new build
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
+exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 ---
-
 # Performing a build upgrade{#performing-a-build-upgrade}
 
 This section will provide you with an in-depth walkthrough on the upgrade process and the steps to identify and resolve conflicts.
@@ -409,5 +409,5 @@ Here are the steps to perform a complex merge:
 
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign Classic Release Notes](../../rn/using/rn-overview.md)
-* [Help and Support options for Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
+* [Help and Support options for Campaign Classic](../../support.md)
 * [[!DNL Gold Standard] program](../../rn/using/gs-overview.md)

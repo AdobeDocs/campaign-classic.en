@@ -6,8 +6,8 @@ description: Learn more about Campaign Classic delivery monitoring capabilities.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 ---
-
 # Get started with delivery monitoring {#about-delivery-monitoring}
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers.

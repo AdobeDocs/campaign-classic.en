@@ -6,8 +6,8 @@ description: Hypothesis tracking
 audience: campaign
 content-type: reference
 topic-tags: response-manager
+exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 ---
-
 # Hypothesis tracking{#hypothesis-tracking}
 
 The result of hypothesis calculations is available at various levels of the Adobe Campaign platform: indicators calculated by hypotheses and the target populations reactions are visible via the actual hypothesis, as well as in the hypotheses reports available via campaigns and deliveries.

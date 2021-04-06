@@ -6,8 +6,8 @@ description: Learn how to manage workflow permissions
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
 ---
-
 # Manage workflow permissions{#managing-rights}
 
 If they are not Administrators, Adobe Campaign operators need access rights for creating, executing or modifying workflows.

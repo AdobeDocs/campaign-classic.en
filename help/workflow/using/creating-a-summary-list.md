@@ -6,8 +6,8 @@ description: Creating a summary list
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 ---
-
 # Creating a summary list{#creating-a-summary-list}
 
 This use case details the creation of a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.
@@ -181,4 +181,3 @@ Once the workflow is executed, the list will include:
 * a "Zip Code Reference" column entered for all stores contained in the store reference schema.
 
 ![](assets/uc2_enrich_listfinal.png)
-

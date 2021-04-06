@@ -6,8 +6,8 @@ description: Get started with schema edition
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 ---
-
 # About schema edition{#about-schema-edition}
 
 Adobe Campaign employs Data Schemas to:
@@ -218,4 +218,3 @@ For more on this, refer to the [Updating the database structure](../../configura
 >[!NOTE]
 >
 >When modifications do not impact the database structure, you just need to regenerate schemas. To do this, select the schema(s) to update, right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]** . For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
-

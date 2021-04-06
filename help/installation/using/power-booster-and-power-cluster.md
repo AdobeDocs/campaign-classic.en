@@ -6,8 +6,8 @@ description: Power Booster and Power Cluster
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 ---
-
 # Power Booster and Power Cluster{#power-booster-and-power-cluster}
 
 ## Overview {#overview}
@@ -80,4 +80,3 @@ The Power Booster and Power Cluster options can be used by the following applica
 * An execution instance must be dedicated to a service. You cannot install a package for a service which you haven't subscribed to. For instance, if you subscribe to the **Power Booster** option for the **Message Center** service, you may only install the **[!UICONTROL Execution of transactional messages]** package on the dedicated execution instance. Please check your license agreement.
 * Since dedicated instances (or clusters) are Adobe Campaign instances, recommendations are the same as for a main instance. For more on this, refer to [this document](../../production/using/foreword.md).
 * To properly configure the instance from a database/hardware components point of view, please contact Adobe Campaign Professional Services.
-

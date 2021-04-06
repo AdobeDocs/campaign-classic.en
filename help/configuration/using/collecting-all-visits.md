@@ -6,8 +6,8 @@ description: Collecting all visits
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
+exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 ---
-
 # Collecting all visits{#collecting-all-visits}
 
 The web tracking module supplied by Adobe Campaign lets you collect the visits to certain pages of the site performed by a recipient in the context of site tracking following a click in a message.
@@ -42,4 +42,4 @@ To view tracking information via your client console, you must:
 * Create a **dummy delivery** (the delivery mapping must be identical to the mapping of the target schema),
 * Enter the **internal name** of this delivery in the **NmsTracking_WebTrackingDelivery** option.
 
-All site tracking information not directly subsequent to a click in an e-mail can be viewed in the dummy delivery created. 
+All site tracking information not directly subsequent to a click in an e-mail can be viewed in the dummy delivery created.

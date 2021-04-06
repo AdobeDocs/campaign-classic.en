@@ -6,8 +6,8 @@ description: Campaign server configuration
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 ---
-
 # Campaign server configuration{#campaign-server-configuration}
 
 The following sections details mandatory server configurations which will guarantee the efficient operating of Adobe Campaign for most set-ups.

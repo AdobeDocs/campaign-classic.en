@@ -6,8 +6,8 @@ description: Presentation rules
 audience: interaction
 content-type: reference
 topic-tags: case-study
+exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
 ---
-
 # Presentation rules{#presentation-rules}
 
 ## Creating a presentation rule {#creating-a-presentation-rule}

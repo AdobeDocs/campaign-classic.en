@@ -6,8 +6,8 @@ description: Standalone deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 ---
-
 # Standalone deployment{#standalone-deployment}
 
 This configuration includes all components on the same computer:
@@ -237,4 +237,3 @@ Apply the following steps:
     * Access from: Provide the two URLs for reports, Web forms and mirror pages.
     
       ![](assets/d_ncs_install_web_url.png)
-

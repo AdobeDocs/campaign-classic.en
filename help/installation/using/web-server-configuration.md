@@ -6,8 +6,8 @@ description: Learn more about web-server configuration main best practices.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 ---
-
 # Web-server configuration {#web-server-configuration}
 
 You will find below some of the main best practices related to web-server (Apache/IIS) configuration.

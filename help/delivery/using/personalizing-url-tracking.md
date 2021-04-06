@@ -6,8 +6,8 @@ description: Configuring URL tracking options
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 ---
-
 # Configuring URL tracking options{#personalizing-url-tracking}
 
 Advanced message tracking settings are accessible via the **[!UICONTROL Tracking & Images]** icon in the toolbar of the delivery wizard.

@@ -6,8 +6,8 @@ description: Technical workflows
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
+exl-id: 771b08df-69f8-4a35-8c78-99edf0a66c69
 ---
-
 # Technical workflows{#technical-workflows}
 
 You must ensure that the technical workflows on the control instance and the different execution instances have indeed been created and started before deploying any transactional message templates.

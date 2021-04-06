@@ -5,8 +5,8 @@ title: Campaign delivery best practices
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
+exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
 ---
-
 # Delivery best practices {#delivery-best-practices}
 
 Learn best practices related to delivery design and sending with Adobe Campaign. Use the links below to navigate topics and find guidance.

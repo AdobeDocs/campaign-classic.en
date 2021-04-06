@@ -6,8 +6,8 @@ description: Learn how to configure access to Oracle in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 ---
-
 # Configure access to Oracle {#configure-access-to-oracle}
 
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Oracle.
@@ -92,4 +92,3 @@ The [!DNL Oracle] external account allows you to connect your Campaign instance 
     * **[!UICONTROL Time zone]**: Server time zone
 
     ![](assets/oracle_config.png)
-

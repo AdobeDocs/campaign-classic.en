@@ -5,8 +5,8 @@ title: Configuring the pipeline
 description: Learn how to configure the pipeline
 audience: integrations
 content-type: reference
+exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 ---
-
 # Configuring pipeline {#configuring-pipeline}
 
 Authentication parameters such as the customer ID, the private key, and the authentication endpoint are configured in the instance configuration files.

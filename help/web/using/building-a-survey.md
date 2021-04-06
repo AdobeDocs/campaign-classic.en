@@ -6,8 +6,8 @@ description: Designing a survey
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 ---
-
 # Designing a survey{#building-a-survey}
 
 ## Creating a new survey {#creating-a-new-survey}
@@ -129,4 +129,3 @@ When the page is refreshed, the questions displayed are not the same.
 >[!CAUTION]
 >
 >When you display a question randomly (**[!UICONTROL Display randomly]** option checked on the page), be careful not to use multiple choice questions for which one or more selections are mandatory.
-

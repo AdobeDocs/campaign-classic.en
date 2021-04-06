@@ -6,8 +6,8 @@ description: Learn more about the Deduplication workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 ---
-
 # Deduplication{#deduplication}
 
 Deduplication deletes duplicates from the results of inbound activities. Deduplication can be performed on the email address, telephone number, or another field.

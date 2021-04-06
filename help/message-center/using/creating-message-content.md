@@ -6,8 +6,8 @@ description: Creating message content
 audience: message-center
 content-type: reference
 topic-tags: message-templates
+exl-id: 0528c856-5dc2-4b8c-a389-f615a9052a9e
 ---
-
 # Creating message content{#creating-message-content}
 
 The definition of the transactional message content is the same as for regular deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to the chapter on [Email delivery](../../delivery/using/about-email-channel.md).
@@ -37,4 +37,3 @@ To insert personalization tags into the body of an email message, apply the foll
 1. Fill in the tag using the following syntax: **element name**.@**attribute name** as shown below.
 
    ![](assets/messagecenter_create_custo_003.png)
-

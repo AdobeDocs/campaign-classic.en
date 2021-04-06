@@ -6,8 +6,8 @@ description: Learn how to use workflow data
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
+exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 ---
-
 # How to use workflow data{#how-to-use-workflow-data}
 
 ## Updating the database {#updating-the-database}

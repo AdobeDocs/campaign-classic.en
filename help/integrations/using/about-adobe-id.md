@@ -6,8 +6,8 @@ description: Learn more about Adobe IMS integration
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
+exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 ---
-
 # About Adobe ID{#about-adobe-id}
 
 Adobe Identity Management System (IMS) helps admins create and manage user's access to applications and services. For more information on the different types of Adobe IDs, refer to [this page](https://helpx.adobe.com/enterprise/using/identity.html).

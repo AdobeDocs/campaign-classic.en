@@ -6,8 +6,8 @@ description: Learn more about the Delivery-type workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
 ---
-
 # Delivery{#delivery}
 
 A **Delivery**-type activity lets you create a delivery action. It can be constructed using input elements.
@@ -162,4 +162,3 @@ The transition associated with the complement has the same parameters.
 >[!NOTE]
 >
 >There are no output parameters when the **[!UICONTROL Do not recover target]** option is selected.
-

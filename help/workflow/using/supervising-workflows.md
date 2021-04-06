@@ -6,8 +6,8 @@ description: Learn how to supervise Campaign workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 ---
-
 # Use case: supervise your workflows{#supervising-workflows}
 
 This use case details the creation of a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors".
@@ -174,4 +174,3 @@ Double-click the **Delivery** activity and select the following options:
 Once this monitoring workflow is launched, it sends the following summary to the recipient:
 
 ![](assets/uc_monitoring_workflow_mailfinal.png)
-

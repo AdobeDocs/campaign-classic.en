@@ -6,8 +6,8 @@ description: Implementing SOAP methods
 audience: configuration
 content-type: reference
 topic-tags: api
+exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 ---
-
 # Implementing SOAP methods{#implementing-soap-methods}
 
 ## Introduction {#introduction}
@@ -112,4 +112,3 @@ function nms_recipient_getKey(self)
    return [self.@firstName, self.@lastName]
  }
 ```
-

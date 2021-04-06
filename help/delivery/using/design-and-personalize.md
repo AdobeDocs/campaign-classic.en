@@ -5,8 +5,8 @@ title: Build personalized content
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
+exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 ---
-
 # Build personalized content {#build-personalized-content}
 
 When designing your message content, try to avoid common issues that could prevent you from executing your delivery. Most of the time, possible errors are related to [personalization](../../delivery/using/about-personalization.md), [formatting](../../delivery/using/defining-the-email-content.md#message-content) and [images](../../delivery/using/defining-the-email-content.md#adding-images).
@@ -89,7 +89,7 @@ Make sure to test any changes before the final sending
 By default, the number of characters in an SMS meets the GSM (Global System for Mobile Communications) standards. SMS messages using GSM encoding are limited to 160 characters, or 153 characters per SMS for messages sent in multiple parts.
 
 Transliteration consists of replacing one character of an SMS by another when that character is not taken into account by the GSM standard. Note that inserting personalization fields into the content of your SMS message may introduce characters that are not taken into account by the GSM encoding. You can authorize character transliteration by checking the corresponding box in the SMPP channel settings tab of the corresponding **[!UICONTROL External account]**. 
-Learn more [in this section](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+Learn more [in this section](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 **Tips**:
 
@@ -97,7 +97,7 @@ Learn more [in this section](../../delivery/using/sms-channel.md#creating-an-smp
 
 * However, if your SMS messages contain a lot of characters that are not taken into account by the GSM standard, enable transliteration to limit the costs of sending your messages.
 
-Learn more [in this section](../../delivery/using/sms-channel.md#about-character-transliteration).
+Learn more [in this section](../../delivery/using/sms-set-up.md#about-character-transliteration).
 
 ## Work on formatting {#formatting}
 

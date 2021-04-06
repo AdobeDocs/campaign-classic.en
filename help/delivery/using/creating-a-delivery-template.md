@@ -6,8 +6,8 @@ description: Creating a delivery template
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
+exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 ---
-
 # Creating a delivery template{#creating-a-delivery-template}
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)

@@ -6,8 +6,8 @@ description: Learn more about Campaign Classic upgrades
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
-
 # Get started with upgrades{#rn-overview}
 
 Adobe Campaign is regularly updated. On the average two or three minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only. 
@@ -55,7 +55,7 @@ As a hosted [!DNL Gold Standard] user, you will automatically benefit from the [
 
 ## Support and other useful links{#support}
 
-* [Help and Support](https://helpx.adobe.com/campaign/kb/ac-support.html)
+* [Help and Support](../../support.md)
 * [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * [Latest documentation updates](../../rn/using/documentation-updates.md)
 * [Deprecated and removed features](../../rn/using/deprecated-features.md)

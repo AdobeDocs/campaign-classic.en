@@ -139,13 +139,16 @@ type: Documentation
             + [Send on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
        + [Attach files](delivery/using/attaching-files.md)
   + Send SMS {#sending-messages-on-mobiles}
-       + [SMS channel](delivery/using/sms-channel.md)
+       + [Get started with SMS](delivery/using/sms-channel.md)
+       + [Configure SMS channel](delivery/using/sms-set-up.md)
+       + [Create a SMS](delivery/using/sms-create.md)
+       + [Send and track SMS](delivery/using/sms-send.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
        + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
        + [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
   + [Send LINE messages](delivery/using/line-channel.md)
   + Send push notifications {#sending-push-notifications}
-       + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
+       + [Get started with mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrate Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
        + Configure the mobile application{#configure-the-mobile-app}
             + [Get started with the app configuration](delivery/using/get-started-app-config.md)

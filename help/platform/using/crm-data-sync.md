@@ -6,9 +6,9 @@ description: Manage data between Campaign and your CRM
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 ---
-
-# Data synchronization between Campaign and the CRM {#data-synchronization}
+# Synchronize data between Campaign and the CRM {#data-synchronization}
 
 Data synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity: [CRM connector](../../workflow/using/crm-connector.md).
 
@@ -37,7 +37,7 @@ Select the external account that matches the CRM that you want to configure sync
 
 The configuration of this activity depends on the process to be carried out. Various configurations are detailed below.
 
-## Importing from the CRM {#importing-from-the-crm}
+## Import from the CRM {#importing-from-the-crm}
 
 To import data via the CRM in Adobe Campaign, you need to create the following type of workflow:
 
@@ -75,9 +75,9 @@ For an import activity, the **[!UICONTROL CRM Connector]** activity configuratio
 
    For more on this, refer to [Variable management](#variable-management).
 
-### Variable management {#variable-management}
+### Manage variables {#variable-management}
 
-Enabling the **[!UICONTROL Automatic index]** option lets you collect only objects modified since the last import.
+Enable the **[!UICONTROL Automatic index]** option to collect only objects modified since the last import.
 
 ![](assets/crm_task_import_option.png)
 
@@ -108,7 +108,7 @@ Activating the **[!UICONTROL Automatic index]** option generates three variables
   >
   >These dates are shown in the following format: **yyyy/MM/dd hh:mm:ss**.
 
-### Filtering data {#filtering-data}
+### Filter data {#filtering-data}
 
 To ensure efficient operation with the various CRMs, filters need to be created using the following rules:
 
@@ -219,7 +219,7 @@ Rejects are collected with their error code and the related message, this means 
 
 The **[!UICONTROL Reject]** output transition lets you access the output schema that contains the specific columns relevant to error messages and codes. For Salesforce.com, this column is **errorSymbol** (error symbol, different from the error code), **errorMessage** (description of the error context).
 
-## Importing objects deleted in the CRM {#importing-objects-deleted-in-the-crm}
+## Import objects deleted in the CRM {#importing-objects-deleted-in-the-crm}
 
 To enable the setting up of an extensive data synchronization process, you can import objects deleted in the CRM into Adobe Campaign.
 
@@ -235,7 +235,7 @@ To do this, apply the following steps:
    >
    >The element deletion period must coincide with the limitations specific to the CRM. This means that for Salesforce.com, for instance, elements deleted over 30 days ago cannot be recovered.
 
-## Deleting objects in the CRM {#deleting-objects-in-the-crm}
+## Delete objects in the CRM {#deleting-objects-in-the-crm}
 
 To delete objects on the CRM side, you need to specify the primary key of the remote elements to be deleted.
 

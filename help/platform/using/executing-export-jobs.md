@@ -6,9 +6,9 @@ description: Learn how to configure and execute export jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 ---
-
-# Configuring export jobs {#executing-export-jobs}
+# Configure export jobs {#executing-export-jobs}
 
 The export jobs allow you to access and extract data from the database: contacts, clients, lists, segments, etc.
 
@@ -16,9 +16,9 @@ For example, it can be useful to use campaign tracking data (tracking history, e
 
 The export wizard lets you configure an export, define its options and launch execution. It is a series of screens whose content depends on the type of export (simple or multiple) and the operator's rights.
 
-The export wizard displays after creating a new export job (see [Creating  import and export jobs](../../platform/using/creating-import-export-jobs.md).
+The export wizard displays after creating a new export job (see [Create import and export jobs](../../platform/using/creating-import-export-jobs.md).
 
-## Step 1 - Choosing the export template {#step-1---choosing-the-export-template}
+## Step 1 - Choose the export template {#step-1---choosing-the-export-template}
 
 When launching the export wizard, you first have to select a template. As an example, to configure the export of recipients who recently registered, follow the steps below:
 
@@ -56,7 +56,7 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
 
   You must enter the date of the last modification. It can be retrieved from a field or calculated.
 
-## Step 3 - Defining the output format {#step-3---defining-the-output-format}
+## Step 3 - Define the output format {#step-3---defining-the-output-format}
 
 Select an output format for the export file. The following formats can be used: text, fixed-column text, CSV, and XML.
 
@@ -78,7 +78,7 @@ Select the fields to export. To do this:
 
 1. Click the **[!UICONTROL Add]** button to call on functions. For more on this, refer to [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
-## Step 5 - Sorting columns {#step-5---sorting-columns}
+## Step 5 - Sort columns {#step-5---sorting-columns}
 
 Select the sorting order of the columns.
 
@@ -118,10 +118,10 @@ Click **[!UICONTROL Start the preview of the data]** for a preview of the export
 
 Click the tabs at the bottom of the wizard to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.
 
-## Step 9 - Launching the export {#step-9---launching-the-export}
+## Step 9 - Launch the export {#step-9---launching-the-export}
 
 Click **[!UICONTROL Start]** to launch data export.
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-You can then monitor the execution of the import job (see [Monitoring jobs execution](../../platform/using/monitoring-jobs-execution.md).
+You can then monitor the execution of the import job (see [Monitor jobs execution](../../platform/using/monitoring-jobs-execution.md).

@@ -3,12 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Help & support options for Campaign Classic 
 description: Need Support for Campaign Classic? You are at the right place!
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
 hidefromtoc: yes
+exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 ---
-
 # Help & support options for Campaign Classic {#help-support-options}
 
 Need Support for Campaign Classic? You are at the right place!
@@ -90,8 +87,14 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
 
 ### What is Control Panel?
 
-The Control Panel helps you increase efficiency in your work as a product admin of Campaign Classic, by allowing you to manage settings and track usages for each of your instances.
+Campaign Control Panel helps you increase efficiency in your work as a product admin of Campaign Classic, by allowing you to manage settings and track usages for each of your instances.
 [Click here](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html) for more information.
+
+>[!NOTE]
+>
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](rn/using/gs-overview.md) build or the [latest GA build (21.1)](rn/using/latest-release.md). Learn how to check your version in [this section](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 ### How to access Control Panel?
 

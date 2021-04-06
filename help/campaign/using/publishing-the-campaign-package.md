@@ -6,8 +6,8 @@ description: Publishing the campaign package
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 ---
-
 # Publishing the campaign package{#publishing-the-campaign-package}
 
 Central entity operators publish campaigns they wish to offer to local entities in the **[!UICONTROL list of campaign packages]**.

@@ -6,8 +6,8 @@ description: Managing seed addresses in transactional messages
 audience: message-center
 content-type: reference
 topic-tags: message-templates
+exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 ---
-
 # Managing seed addresses in transactional messages{#managing-seed-addresses-in-transactional-messages}
 
 A seed address lets you display a preview of your message, send a proof, and test message personalization before email or SMS delivery. Seed addresses are linked to the delivery and cannot be used for other deliveries.

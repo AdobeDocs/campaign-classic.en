@@ -6,8 +6,8 @@ description: Learn how to create a profile list in a workflow
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 ---
-
 # Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
 
 To create a **[!UICONTROL List]** type list based on the new recipient table, you need to create a targeting workflow which will generate the list. 
@@ -39,5 +39,3 @@ To create a targeting workflow and update recipients in a custom recipient table
    The dashboard specifies the schema which the list is based on, as shown below:
 
    ![](assets/mapping_list_view.png)
-
-

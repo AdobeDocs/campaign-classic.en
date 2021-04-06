@@ -6,8 +6,8 @@ description: Offer analysis report
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
+exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
 ---
-
 # Offer analysis report{#offer-analysis-report}
 
 The **[!UICONTROL Offer analysis]** report provides you with an overview of the number of accepted or rejected propositions.
@@ -33,4 +33,3 @@ Statistics are sorted based on three criteria:
 Data can be filtered based on the various criteria available in the upper section of the report. Once you have selected the desired criteria, click the **[!UICONTROL Refresh]** link to apply them to the report. 
 
 ![](assets/offer_report_criteria.png)
-

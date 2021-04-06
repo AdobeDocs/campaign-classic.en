@@ -6,8 +6,8 @@ description: Common questions related to Campaign build upgrades
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 ---
-
 # Build Upgrade FAQ {#build-upgrade-faq}
 
 Adobe Campaign is regularly updated. If you are familiar with our published [Release Notes](../../rn/using/rn-overview.md), you are probably aware of the fact that on the average 2/3 minor versions packed with new features, improvements and fixes are released every year. In addition, we periodically release builds with cumulative fixes only. This regular cadence of updates aims at getting the latest and greatest in your hands, keeping your environment fully secure and obviously improving your experience with our product.
@@ -161,7 +161,7 @@ Yes. The server is shutdown during an upgrade to ensure that the data integrity 
 
 If you face issues after a build upgrade, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Customer Care schedules the build dates and opens build upgrade related tickets.
 
-Learn more in [Help and Support options for Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
+Learn more in [Help and Support options for Campaign Classic](../../support.md)
 
 ## Build upgrade checklist {#check-list}
 
@@ -201,5 +201,5 @@ all content is displayed and present.
 
 * [Performing a build upgrade](../../production/using/build-upgrade.md)
 * [Campaign Classic Release Notes](../../rn/using/rn-overview.md)
-* [Help and Support options for Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
+* [Help and Support options for Campaign Classic](../../support.md)
 * [[!DNL Gold Standard] program](../../rn/using/gs-overview.md)

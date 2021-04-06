@@ -6,8 +6,8 @@ description: Anonymous tracking
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
+exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 ---
-
 # Anonymous tracking{#anonymous-tracking}
 
 Adobe Campaign lets you link collected Web tracking information to a recipient when they browse your site anonymously. When a user browses the tagged pages of your website this browsing information is collected, so that once they click in an email sent by Adobe Campaign, they are identified and the information is automatically linked to them.
@@ -27,4 +27,3 @@ To enable anonymous Web tracking on your instance, the following elements must b
 * Web forms and surveys must be published and executed on the tracking server. The matching option must be selected in the deployment wizard.
 
   ![](assets/webtracking_publication_set_for_webapps.png)
-

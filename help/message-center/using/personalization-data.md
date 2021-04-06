@@ -6,8 +6,8 @@ description: Personalization data
 audience: message-center
 content-type: reference
 topic-tags: message-templates
+exl-id: 587d48aa-43ae-41c5-a0e3-6805a0e9b6a4
 ---
-
 # Personalization data{#personalization-data}
 
 It is possible to use data in the message template to test transactional message personalization. This functionality is used to generate a preview or send a proof. If you install the **Deliverability** module, this data allows you to display a rendering of the messages for various internet access providers (**Inbox rendering**: for more on this, refer to [this section](../../delivery/using/inbox-rendering.md)).

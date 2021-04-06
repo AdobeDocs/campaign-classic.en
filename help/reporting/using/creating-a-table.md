@@ -6,8 +6,8 @@ description: Creating a table
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 ---
-
 # Creating a table{#creating-a-table}
 
 You can add a table to a report to display data. This can be a pivot table created based on cube measurements, a list with group, or a table containing a breakdown of values. 

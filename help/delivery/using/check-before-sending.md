@@ -5,8 +5,8 @@ title: Check before sending
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
+exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 ---
-
 # Perform all checks before sending {#perform-all-checks}
 
 Once your message is ready, make sure its content is displayed correctly, on all devices, and does not contain any errors such as wrong personalization or broken links.

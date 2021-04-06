@@ -6,8 +6,8 @@ description: Learn how to configure Campaign options
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 ---
-
 # List of Campaign Classic options{#configuring-campaign-options}
 
 The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options.
@@ -1035,4 +1035,3 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
  </tbody> 
 </table>
-

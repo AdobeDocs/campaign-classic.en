@@ -6,8 +6,8 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
+exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 ---
-
 # compute-string element {#compute-string--element}
 
 ## Content model {#content-model-1}

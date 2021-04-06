@@ -6,8 +6,8 @@ description: Database recommendations
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
 ---
-
 # Database{#database}
 
 The database server can run on any given operating system regardless of the operating system used by the application server or servers, as long as there is network connectivity between them.

@@ -6,8 +6,8 @@ description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 ---
-
 # About this use case {#about-use-case}
 
 In this use case, we are going to compare two email delivery contents via a targeting workflow. The message and the text are identical in both deliveries: only the layout changes.

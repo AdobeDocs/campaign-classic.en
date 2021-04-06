@@ -6,8 +6,8 @@ description: This page lists all the new features and updates in Adobe Campaign 
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 ---
-
 # Documentation Updates{#documentation-updates}
 
 This page lists all the new features and documentation updates per month and Campaign release.
@@ -16,7 +16,9 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## March 2021 {#march-2021}
 
-A new page has been added with guidelines and references to get support about Campaign Classic. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html)
+The [Get started with SMS section](../../delivery/using/sms-channel.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../delivery/using/sms-set-up.md), [create a SMS](../../delivery/using/sms-create.md), [send and track SMS](../../delivery/using/sms-send.md) in dedicated sections.
+
+The "Help & support options" page for Campaign Classic has been integrated into the core documentation. [Read more](../../support.md)
 
 A new section has been added with best practices and checks to perform regarding security and privacy. [Read more](../../installation/using/get-started-security-privacy.md)
 
@@ -433,7 +435,7 @@ A new page of best practices for Adobe Analytics Data Connector has been added. 
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../delivery/using/delivery-best-practices.md)
 
-A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-channel.md#automatic-reply)
+A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-set-up.md#automatic-reply)
 
 Information was added in the Scheduler activity documentation on how to prevent simultaneous executions of a workflow. [Read more](../../workflow/using/scheduler.md)
 

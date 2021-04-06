@@ -6,8 +6,8 @@ description: Enriching content
 audience: delivery
 content-type: reference
 topic-tags: content-management
+exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 ---
-
 # Enriching content{#enriching-content}
 
 Aggregators let you enrich the content with external data. This data comes from generic queries or linked tables.
@@ -256,4 +256,3 @@ The result obtained after script execution:
 The content of the JavaScript code is added via the **[!UICONTROL Administration > Configuration > Content management > JavaScript Codes]** folder and must be populated in the publication template for each transformation.
 
 ![](assets/d_ncs_content_link5.png)
-

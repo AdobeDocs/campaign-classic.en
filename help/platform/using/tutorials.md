@@ -6,8 +6,8 @@ description: Tutorials
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
 ---
-
 # Tutorials{#tutorials}
 
 ## Step-by-step guides {#step-by-step-guides}

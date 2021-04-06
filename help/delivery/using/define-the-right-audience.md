@@ -5,8 +5,8 @@ title: Define the right audience
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
+exl-id: c0533148-b027-4158-9b95-8d2df769e963
 ---
-
 # Define the right audience {#define-the-right-audience}
 
 Targeted population is key: build your lists carefully, test your emails on popular email clients and mobile devices, and ensure that your email lists are up-to-date (with no unknown or obsolete addresses). You can also send proofs that help set up a complete validation cycle.

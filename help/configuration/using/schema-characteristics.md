@@ -6,8 +6,8 @@ description: Schema characteristics
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 ---
-
 # Schema characteristics{#schema-characteristics}
 
 The characteristics of a schema that references an existing table are as follows:
@@ -81,4 +81,3 @@ An index is implicitly declared for each key and link declaration of the source 
   <keyfield xpath="@customerId"/>
 </key>
 ```
-

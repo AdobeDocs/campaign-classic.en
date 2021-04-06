@@ -6,8 +6,8 @@ description: Switching to Unicode
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
+exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
 ---
-
 # Switching to Unicode{#switching-to-unicode}
 
 For an existing **prod** instance in Linux/PostgreSQL, the steps for switching to unicode are as follows:
@@ -92,4 +92,3 @@ For an existing **prod** instance in Linux/PostgreSQL, the steps for switching t
 
     * check that the data is displayed correctly, in particular the accentuated characters: 
     * launch a delivery and check that the tracking retrieval works.
-

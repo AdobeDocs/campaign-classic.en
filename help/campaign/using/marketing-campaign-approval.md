@@ -6,8 +6,8 @@ description: Learn how to manage approvals of marketing campaigns
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 ---
-
 # Set up and manage the approval process {#approving-marketing-campaigns}
 
 Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof.

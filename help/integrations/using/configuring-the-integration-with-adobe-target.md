@@ -6,8 +6,8 @@ description: Configuring the integration with Adobe Target
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
+exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 ---
-
 # Configuring the integration with Adobe Target{#configuring-the-integration-with-adobe-target}
 
 ## Prerequisites {#prerequisites}
@@ -29,4 +29,3 @@ To configure Adobe Campaign:
     * **[!UICONTROL TNT_TenantName]** : Adobe Target Organization name. This value corresponds to the name of the Adobe Target **[!UICONTROL Client]**.
 
    ![](assets/tar_options.png)
-

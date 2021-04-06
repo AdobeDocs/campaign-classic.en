@@ -6,8 +6,8 @@ description: Learn more about cross-channel deliveries
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 ---
-
 # Cross-channel deliveries{#cross-channel-deliveries}
 
 Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of campaign workflow activities.

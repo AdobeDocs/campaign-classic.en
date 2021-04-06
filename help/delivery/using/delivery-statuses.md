@@ -6,8 +6,8 @@ description: Learn more about the statuses available on your delivery dashboard.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 ---
-
 # Delivery statuses {#delivery-statuses}
 
 <!--ajouter intro 

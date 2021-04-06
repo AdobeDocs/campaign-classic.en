@@ -6,8 +6,8 @@ description: Web tracking mode
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
+exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 ---
-
 # Web tracking mode{#web-tracking-mode}
 
 Adobe Campaign lets you select a web tracking mode which defines the way in which tracking logs are processed in the application.

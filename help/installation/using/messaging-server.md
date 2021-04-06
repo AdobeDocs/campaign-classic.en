@@ -6,8 +6,8 @@ description: Messaging server
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
 ---
-
 # Messaging server{#messaging-server}
 
  Adobe Campaign handles outbound email natively, however a traditional email server is required to receive incoming messages linked to returned email (from mailer daemons). The mailboxes configured on this server will be automatically processed by the application.

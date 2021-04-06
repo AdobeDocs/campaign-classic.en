@@ -6,9 +6,9 @@ description: Learn how to create import and export templates in Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
 ---
-
-# Creating import and export templates {#creating-import-export-templates}
+# Create import and export templates {#creating-import-export-templates}
 
 Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
 
@@ -24,5 +24,5 @@ You can duplicate existing templates to create your own templates, or create a n
 
 The process to configure a template is then the same than the one presented in these sections: 
 
-* [Configuring an import job](../../platform/using/executing-import-jobs.md)
-* [Configuring an export job](../../platform/using/executing-export-jobs.md)
+* [Configure an import job](../../platform/using/executing-import-jobs.md)
+* [Configure an export job](../../platform/using/executing-export-jobs.md)

@@ -4,8 +4,8 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic product documentation
 topic: Premium
+exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 ---
-
 # Help Center {#campaign-classic-documentation}
 
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) 
@@ -24,7 +24,7 @@ topic: Premium
 
 * **[Move to HTTP/2-based APNs provider API](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/> Learn how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API
 
-* **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/> Access FAQs, best practices, help resources, and request for help
+* **[Get Support](support.md)**<br/> Access FAQs, best practices, help resources, and request for help
 
 [More updates](/help/rn/using/documentation-updates.md)
 

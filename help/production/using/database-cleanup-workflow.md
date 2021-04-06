@@ -6,8 +6,8 @@ description: Learn how obsolete data is automatically cleaned up
 audience: production
 content-type: reference
 topic-tags: data-processing
+exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 ---
-
 # Database cleanup workflow{#database-cleanup-workflow}
 
 ## Introduction {#introduction}

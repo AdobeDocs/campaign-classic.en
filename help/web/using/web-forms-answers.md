@@ -6,8 +6,8 @@ description: Web forms answers
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 ---
-
 # Web forms answers{#web-forms-answers}
 
 ## Response storage fields {#response-storage-fields}
@@ -135,4 +135,3 @@ You can select a search folder for reconciliation and the creation folder for ne
 >Possible operations are: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.  
 >The default folder of the operator is the first folder for which the operator has write-permission.   
 >Refer to [this section](../../platform/using/access-management.md).
-

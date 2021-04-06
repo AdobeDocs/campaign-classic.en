@@ -6,8 +6,8 @@ description: Learn more about the Inbound SMS workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
+exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 ---
-
 # Inbound SMS{#inbound-sms}
 
 The **Inbound SMS** activity lets you download and process text messages from an external account.

@@ -6,8 +6,8 @@ description: Publication templates
 audience: delivery
 content-type: reference
 topic-tags: content-management
+exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 ---
-
 # Publication templates{#publication-templates}
 
 ## About publication templates {#about-publication-templates}
@@ -174,4 +174,4 @@ The **[!UICONTROL Multi-file generation]** option must be active on the chapter 
 
 ![](assets/d_ncs_content_chunk2.png)
 
-The **[!UICONTROL Location]** field is not used in the generation of multiple files, but you must still populate this field to avoid an error when publishing. 
+The **[!UICONTROL Location]** field is not used in the generation of multiple files, but you must still populate this field to avoid an error when publishing.
