@@ -6,8 +6,8 @@ description: Learn how to set up email spam detection with SpamAssassin
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
+exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 ---
-
 # SpamAssassin{#spamassassin}
 
 ## About SpamAssassin {#about-spamassassin}

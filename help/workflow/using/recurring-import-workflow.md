@@ -6,8 +6,8 @@ description: Learn how to configure a workflow template for recurring imports.
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 ---
-
 # Setting up a recurring import workflow {#setting-up-a-recurring-import}
 
 Using a workflow template is a best practice if you need to regularly import files with the same structure.

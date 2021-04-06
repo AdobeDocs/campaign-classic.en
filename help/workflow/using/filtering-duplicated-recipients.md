@@ -6,8 +6,8 @@ description: Learn how to filter duplicated recipients
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
 ---
-
 # Filtering duplicated recipients {#filtering-duplicated-recipients}
 
 In this example, we want to filter recipients who appear twice or more in a delivery in order to recover duplicated profiles.

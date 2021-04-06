@@ -6,8 +6,8 @@ description: Database performances
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 ---
-
 # Database performance{#database-performances}
 
 Most performance issues are linked to database maintenance. Here are four main leads to help you find the cause of slow performance:

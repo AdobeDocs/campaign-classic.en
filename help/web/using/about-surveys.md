@@ -6,8 +6,8 @@ description: Get started with Campaign surveys
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 ---
-
 # Get started with surveys{#about-surveys}
 
 Adobe Campaign includes a graphical module to define and publish Web applications. This is used to create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post web pages where users can look up or enter information.
@@ -77,4 +77,3 @@ Surveys are stored in the **[!UICONTROL Resources > Online > Web Applications]**
 >[!NOTE]
 >
 >Configuration information is available in [this section](../../web/using/about-web-forms.md).
-

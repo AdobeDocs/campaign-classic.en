@@ -6,8 +6,8 @@ description: "Use cases: creating overviews"
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 ---
-
 # Use cases: create overview pages{#use-cases-creating-overviews}
 
 In the following example, we will create overview-type Web applications to display all the Web applications in your database. Configure the following elements:
@@ -217,4 +217,3 @@ These two elements will be grouped in the same container in order to be graphica
 The Web application is now configured. You can click the **[!UICONTROL Preview]** tab to preview it.
 
 ![](assets/s_ncs_configuration_webapp_result.png)
-

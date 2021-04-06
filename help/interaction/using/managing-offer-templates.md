@@ -6,8 +6,8 @@ description: Managing offer templates
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
+exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
 ---
-
 # Managing offer templates{#managing-offer-templates}
 
 Offer templates are delivered out-of-box in Adobe Campaign. You may use them after creating your offers, duplicating them or adapting their configuration to your needs. You can also create your own templates. Template offers are stored in the folder **Resources** > **Templates** > **Offer templates**.
@@ -37,4 +37,3 @@ To duplicate an offer template (out-of-the-box or not), take the following steps
 This template will now be offered when creating an offer.
 
 ![](assets/offer_modelcreated_001.png)
-

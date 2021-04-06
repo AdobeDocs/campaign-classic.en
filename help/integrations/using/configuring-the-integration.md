@@ -5,8 +5,8 @@ title: Configuring Adobe Experience Manager integration
 description: Learn how to configure Campaign-AEM integration
 audience: integrations
 content-type: reference
+exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 ---
-
 # Configuring the integration{#configuring-the-integration}
 
 ## Configuring in Adobe Campaign {#configuring-in-adobe-campaign}
@@ -123,4 +123,3 @@ Follow the steps below to start the configuration in Adobe Experience Manager:
 1. Configure the **Externalizer service**.
 
    To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html).
-

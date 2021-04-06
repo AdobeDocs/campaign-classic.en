@@ -6,8 +6,8 @@ description: Learn how to write links in emails that can be personalized and sup
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 ---
-
 # Get started with personalized links tracking {#tracking-personalized-links}
 
 The links in email content that contain personalization need specific syntax to be tracked. 

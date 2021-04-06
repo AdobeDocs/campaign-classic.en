@@ -6,8 +6,8 @@ description: Data oriented APIs
 audience: configuration
 content-type: reference
 topic-tags: api
+exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 ---
-
 # Data oriented APIs{#data-oriented-apis}
 
 Data oriented APIs let you address the entire datamodel.
@@ -689,4 +689,3 @@ By default, all the collection elements must be populated in order to update the
     </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>
   ```
-

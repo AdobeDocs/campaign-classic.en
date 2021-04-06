@@ -6,8 +6,8 @@ description: Applying rules
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 ---
-
 # Applying rules{#applying-rules}
 
 ## Applying a typology to a delivery {#applying-a-typology-to-a-delivery}
@@ -139,4 +139,3 @@ The **[!UICONTROL Distributed Marketing]** tab lets you define the re-mapping of
 >
 >In typologies and typology rules, the **[!UICONTROL Distributed Marketing]** tab is added if your license includes this option: please check you license agreement.  
 >For more information on Distributed Marketing, refer to [About distributed marketing](../../campaign/using/about-distributed-marketing.md).
-

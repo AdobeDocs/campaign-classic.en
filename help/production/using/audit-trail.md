@@ -6,8 +6,8 @@ description: Audit trail
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 ---
-
 # Audit trail{#audit-trail}
 
 In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the complete history of changes made within your instance.
@@ -100,4 +100,3 @@ To do so:
    ![](assets/audit_trail_6.png)
 
 1. Click **[!UICONTROL Save]** .
-

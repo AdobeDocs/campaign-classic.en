@@ -6,8 +6,8 @@ description: Adobe Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 ---
-
 # Common questions{#common-questions}
 
 Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also:
@@ -68,4 +68,3 @@ A subdomain is a division of your domain that can be used to isolate your brands
 Adobe takes account of the Domain Name System (DNS) for email delivery, which allows the client to keep their brand image by using a DNS alias with its domain names, and Adobe to autonomously implement all the technical best practices that allow it to optimize deliverability during emailing.
 
 [Click here to learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
-

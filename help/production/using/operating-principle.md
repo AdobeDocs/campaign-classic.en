@@ -6,8 +6,8 @@ description: Operating principle
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 ---
-
 # Operating principle{#operating-principle}
 
 Technically, the Adobe Campaign platform is based on several modules.
@@ -120,4 +120,3 @@ Usage: nlserver [-verbose:<verbose mode>] [-?|h|H] [-version] [-noconsole]
 -setactivationkey : sets the activation key
 
 ```
-

@@ -6,8 +6,8 @@ description: Accessing an external database (FDA)
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f
 ---
-
 # Accessing an external database (FDA){#accessing-an-external-database-fda}
 
 Adobe Campaign provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data.

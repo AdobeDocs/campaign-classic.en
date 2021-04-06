@@ -6,8 +6,8 @@ description: Attaching files
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 ---
-
 # Attach files to an email{#attaching-files}
 
 ## About email attachments {#about-email-attachments}

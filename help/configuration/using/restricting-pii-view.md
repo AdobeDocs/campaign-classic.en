@@ -6,8 +6,8 @@ description: Restricting PII view
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 ---
-
 # Restrict PI view{#restricting-pii-view}
 
 ## Overview {#overview}
@@ -85,4 +85,3 @@ Below is a sample of log table extension to implement this:
 >[!NOTE]
 >
 >This restriction applies to non technical users: a technical user, with related permissions, will be able to retrieve data. This method is therefore not 100% secure.
-

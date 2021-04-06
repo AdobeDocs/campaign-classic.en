@@ -6,8 +6,8 @@ description: Publishing on Facebook walls
 audience: social
 content-type: reference
 topic-tags: configuration
+exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
 ---
-
 # Publishing on Facebook walls{#publishing-on-facebook-walls}
 
 In order for Adobe Campaign to be able to send publications to Facebook walls, you need to delegate the write access for these pages to Adobe Campaign. This involves the following configuration steps:
@@ -146,4 +146,4 @@ Once synchronization is complete, the collected pages appear in the service fold
 
 ![](assets/social_facebook_service_002.png)
 
-You may now publish on the walls of your Facebook pages directly via Adobe Campaign. For more on this, refer to [Publishing on Facebook](#publishing-on-facebook-walls). 
+You may now publish on the walls of your Facebook pages directly via Adobe Campaign. For more on this, refer to [Publishing on Facebook](#publishing-on-facebook-walls).

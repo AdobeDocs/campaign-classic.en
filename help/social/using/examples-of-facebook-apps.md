@@ -6,8 +6,8 @@ description: Examples of Facebook apps
 audience: social
 content-type: reference
 topic-tags: annexes
+exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
 ---
-
 # Examples of Facebook apps{#examples-of-facebook-apps}
 
 When a user clicks the tab of a Facebook application, it is displayed in a space which is 810 pixels wide. Adobe Campaign uses a Facebook type web application to let you define and personalize the content displayed in the Facebook application, therefore making it easier to acquire profiles.
@@ -301,4 +301,3 @@ The **[!UICONTROL Social Marketing]** application also enables you to add a butt
 >[!NOTE]
 >
 >Before you start using this function, you need to create a Facebook application and a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-

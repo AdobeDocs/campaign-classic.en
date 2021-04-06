@@ -6,8 +6,8 @@ description: Designing a web application
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 ---
-
 # Design a web application{#designing-a-web-application}
 
 Web applications are created and managed according to the same principle as [online surveys](../../web/using/about-surveys.md).
@@ -65,4 +65,4 @@ Edit form Web applications for an extranet are characterized by:
 
   Whereas "Overview"-type Web applications all have a single page, edit forms can offer a sequence of pages based on specific criteria (tests, selections, profile of connected operator, etc.).
 
-The operation of this type of Web application is similar to **Surveys**, but without history management or field archiving. Users usually access it via a login page where they must identify themselves. 
+The operation of this type of Web application is similar to **Surveys**, but without history management or field archiving. Users usually access it via a login page where they must identify themselves.

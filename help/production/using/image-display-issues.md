@@ -6,8 +6,8 @@ description: Image display issues
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e
 ---
-
 # Image display issues{#image-display-issues}
 
 If you face image display issues in a sent message, reasons may be linked to bad location:

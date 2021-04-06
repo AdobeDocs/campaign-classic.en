@@ -6,8 +6,8 @@ description: Release 20.2
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 ---
-
 # Release 20.2{#release-20-2}
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).

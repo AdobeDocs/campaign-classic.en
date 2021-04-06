@@ -6,8 +6,8 @@ description: Learn how to install the client console
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 ---
-
 # Installing & Updating the Campaign client console{#installing-the-client-console}
 
    

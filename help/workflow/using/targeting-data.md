@@ -6,8 +6,8 @@ description: Learn more about Targeting data in a workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
+exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 ---
-
 # Targeting data{#targeting-data}
 
 ## Creating queries {#creating-queries}
@@ -249,4 +249,3 @@ The identified and collected data can be enriched, aggregated and manipulated to
 * The **[!UICONTROL Enrichment]** activity lets you momentarily add columns to a schema, as well as add information to certain elements. It is detailed in the [Enrichment](../../workflow/using/enrichment.md) section of the repository of activities.
 * The **[!UICONTROL Edit schema]** activity lets you modify the structure of a schema. It is detailed in the [Edit schema](../../workflow/using/edit-schema.md) section of the repository of activities.
 * The **[!UICONTROL Change dimension]** activity lets you change the targeting dimension during the target construction cycle. It is detailed in the [Change dimension](../../workflow/using/change-dimension.md) section.
-

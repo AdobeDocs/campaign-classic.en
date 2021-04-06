@@ -6,8 +6,8 @@ description: Sending a proof
 audience: message-center
 content-type: reference
 topic-tags: message-templates
+exl-id: 4022578a-1ba0-460f-813c-7dc547febc7f
 ---
-
 # Sending a proof{#sending-a-proof}
 
 You can test message delivery by sending a proof to a previously created seed address.
@@ -32,4 +32,3 @@ To send the proof:
 Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
 
 ![](assets/messagecenter_send_proof_003.png)
-

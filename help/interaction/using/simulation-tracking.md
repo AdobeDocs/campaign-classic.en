@@ -6,8 +6,8 @@ description: Simulation tracking
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
+exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
 ---
-
 # Simulation tracking{#simulation-tracking}
 
 Once the simulation is finished, you can analyze its result via the **[!UICONTROL Results]** tab which is added to the simulation window and the **[!UICONTROL Breakdown of offers by rank]** report, available via in the simulation dashboard.
@@ -25,4 +25,3 @@ A pivot table provides a quick view of offer breakdowns per ranking. Like all re
 For more on this, refer to [this section](../../reporting/using/actions-on-reports.md).
 
 ![](assets/offer_simulation_013.png)
-

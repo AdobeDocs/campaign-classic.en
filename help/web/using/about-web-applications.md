@@ -6,8 +6,8 @@ description: Create and share dynamic Web applications, landing pages and survey
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 ---
-
 # Get started with web applications{#about-web-applications}
 
 Adobe Campaign lets you create and publish dynamic and interactive Web applications with data from the database and content adapted to the rights of the connected user. 
@@ -95,4 +95,3 @@ The creation wizard lets you select the options you want to enable, as shown bel
 >[!CAUTION]
 >
 >The available applications depend on your options and modules. Please check your license agreement.
-

@@ -6,8 +6,8 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
+exl-id: a0069688-fd05-42e9-91dd-adc10bea3461
 ---
-
 # sysfilter element {#sysfilter--element}
 
 ## Content model {#content-model-15}

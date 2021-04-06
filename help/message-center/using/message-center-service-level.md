@@ -6,8 +6,8 @@ description: Message Center service level
 audience: message-center
 content-type: reference
 topic-tags: reports
+exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 ---
-
 # Message Center service level{#message-center-service-level}
 
 This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details. This report, aimed at technical administrators, can also be accessed via the **[!UICONTROL Monitoring]** tab in the control instance.
@@ -26,4 +26,3 @@ In this report, you can choose to display the overall statistics or those relati
 >[!NOTE]
 >
 >The warning (orange) and alert (red) indicator thresholds can be configured in the deployment wizard. Refer to [Monitoring thresholds](../../message-center/using/monitoring-thresholds.md).
-

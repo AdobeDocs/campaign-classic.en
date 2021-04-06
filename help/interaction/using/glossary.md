@@ -6,8 +6,8 @@ description: Glossary
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
+exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 ---
-
 # Glossary{#glossary}
 
 Below is the definition of the main Interaction elements.
@@ -71,4 +71,3 @@ Below is the definition of the main Interaction elements.
 * **Predefined filters**: predefined filtering rules can take into account offer parameters (for example, an offer code). They can be reused after offers have been created.
 * **Offer representation**: information used by the channel to display the offer. Offer representation may be constructed from the rendering function of the space on which the offer is represented or entered directly into the interface (for example, in the HTML block). An offer may be represented by space.
 * **Changeover process**: an activated process in an identified environment, responsible for directing the call to an anonymous environment if the contact has not been explicitly and/or implicitly identified.
-

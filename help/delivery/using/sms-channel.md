@@ -6,8 +6,8 @@ description: Get started with SMS channel
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
+exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 ---
-
 # Get started with SMS channel{#sms-channel}
 
 
@@ -36,4 +36,3 @@ For global information on how to create a delivery, refer to [this section](../.
 >Adobe Campaign also lets you submit notifications on mobile terminals, via its **Adobe Campaign Mobile App Channel (NMAC)** option. 
 > 
 >For more on this, refer to the [Get started with mobile app channel](../../delivery/using/about-mobile-app-channel.md) section.
-

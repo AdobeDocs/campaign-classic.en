@@ -6,8 +6,8 @@ description: Tracking a web application
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 ---
-
 # Track visits on a web application{#tracking-a-web-application}
 
 Adobe Campaign allows you to track and measure visits on Web application pages by inserting tracking tags. This functionality can be used for all Web application types (forms, online surveys, Web pages created using DCE, etc.).
@@ -67,4 +67,3 @@ When using the Web interface, tracking tags must be inserted from the page prope
 The **[!UICONTROL Display blocks]** icon lets you view the number of tracking tags defined for the page.
 
 ![](assets/trackers_4.png)
-

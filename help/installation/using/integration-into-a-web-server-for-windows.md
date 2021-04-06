@@ -6,8 +6,8 @@ description: Integration into a Web server for Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 ---
-
 # Integration into a Web server for Windows{#integration-into-a-web-server-for-windows}
 
 Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP (and SOAP).
@@ -171,4 +171,3 @@ To fix this and display the error correctly, apply the following configuration:
 1. Select the **PassThrough** value at the **existingResponse** line.
 
 ![](assets/ins_iis_httperrors.png)
-

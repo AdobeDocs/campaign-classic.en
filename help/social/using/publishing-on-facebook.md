@@ -6,8 +6,8 @@ description: Publishing on Facebook
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
+exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
 ---
-
 # Publishing on Facebook{#publishing-on-facebook}
 
 Once configuration is complete, Social Marketing lets you post publications on the walls of your Facebook pages.
@@ -215,4 +215,3 @@ Proof delivery is identical to email deliveries. Refer to [this section](../../d
 1. Click **[!UICONTROL Confirm delivery]**, then click **[!UICONTROL Yes]**.
 
    ![](assets/social_facebook_delivery_016.png)
-

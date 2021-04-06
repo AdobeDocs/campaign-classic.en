@@ -6,8 +6,8 @@ description: Learn how to zip or crypt a file in Campaign Classic before process
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 ---
-
 # Zip or encrypt a file {#zipping-or-encrypting-a-file}
 
 Adobe Campaign lets you export zipped or encrypted files. When defining an export through a **[!UICONTROL Data extraction (file)]** activity, you can define a post-processing to zip or to encrypt the file.

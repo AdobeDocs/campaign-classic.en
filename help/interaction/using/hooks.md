@@ -6,8 +6,8 @@ description: Hooks
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
+exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 ---
-
 # Hooks{#hooks}
 
 Hooks in Interaction let you modify the **standard engine behavior**.
@@ -142,4 +142,3 @@ var product = getUrl("https://EXTERNAL_SYSTEM?offerCode=" + encodeURIComponent(x
 if( product )
   return [{offer_id: parseInt(String(xmlOffer.@id)), weight: dWeight, productId: product}];
 ```
-

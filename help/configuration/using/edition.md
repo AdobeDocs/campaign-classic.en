@@ -6,8 +6,8 @@ description: Edition
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
+exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 ---
-
 # Edit Campaign Explorer navigation tree{#edition}
 
 The screen for creating and configuring the navigation hierarchy configuration documents is accessible via the **[!UICONTROL Administration > Configuration > Navigation hierarchies]** node:
@@ -27,4 +27,3 @@ The edit field provides the content of the XML document:
 The preview automatically generates the merged document containing the complete configuration:
 
 ![](assets/d_ncs_integration_navigation_preview.png)
-

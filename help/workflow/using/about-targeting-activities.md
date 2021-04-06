@@ -6,8 +6,8 @@ description: About targeting activities
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 ---
-
 # About targeting activities{#about-targeting-activities}
 
 These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
@@ -32,4 +32,3 @@ These activities let you build one or more targets by defining sets and splittin
 * **List update**: records the result of inbound activities in a list. Refer to the [List update](../../workflow/using/list-update.md) section.
 * **Update data**: lets you massively update the data in the database. Refer to the [Update data](../../workflow/using/update-data.md) section.
 * **CRM connector**: lets you configure the synchronization between Adobe Campaign and a CRM. Refer to the [CRM Connector](../../workflow/using/crm-connector.md) section.
-

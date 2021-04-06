@@ -6,8 +6,8 @@ description: Configuring surveys
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 ---
-
 # Configuring surveys{#configuring-surveys}
 
 ## Survey properties {#survey-properties}

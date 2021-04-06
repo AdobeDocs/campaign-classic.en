@@ -6,8 +6,8 @@ description: Learn how to send a report to a list with a workflow
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 ---
-
 # Sending a report to a list{#sending-a-report-to-a-list}
 
 This use case details how to generate a monthly out-of-the-box **[!UICONTROL Tracking indicators]** report in PDF format and how to send it to a list of recipients.
@@ -123,4 +123,3 @@ The following workflow was created for this use case. It has three activities:
     * Un-check **[!UICONTROL Generate an outbound transition]** and **[!UICONTROL Process errors]**.
 
    ![](assets/use_case_report_11.png)
-

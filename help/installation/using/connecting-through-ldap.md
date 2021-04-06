@@ -6,8 +6,8 @@ description: Learn how to use LDAP to login to Campaign
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 ---
-
 # Connecting through LDAP{#connecting-through-ldap}
 
 ## Configuring Campaign and LDAP {#configuring-campaign-and-ldap}
@@ -183,4 +183,3 @@ This section provides a few simple use cases to help you achieve the most approp
    Groups are never created on the fly, whether by Adobe Campaign or by LDAP. They need to be created individually, both in Adobe Campaign and in the LDAP directory.
 
    The names of groups in the LDAP directory need to coincide with the names of Adobe Campaign groups. Their association mask is defined in the last configuration stage of the deployment wizard: Adobe Campaign_(.&#42;), for instance.
-

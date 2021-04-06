@@ -6,8 +6,8 @@ description: Specific configurations in v5.11
 audience: migration
 content-type: reference
 topic-tags: configuration
+exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
 ---
-
 # Specific configurations in v5.11{#specific-configurations-in-v5-11}
 
 This section details the additional configuration required when migrating from v5.11. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
@@ -156,4 +156,3 @@ The obsolete folders to be deleted after the migration are as follows:
 | nmsResourcesModels | Templates | Campaign installed |
 | nmsRootPlan | Campaign management | Campaign installed |
 | nmsOperator | Marketing operators | MRM installed |
-

@@ -6,8 +6,8 @@ description: Defining filter conditions
 audience: platform
 content-type: reference
 topic-tags: creating-queries
+exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 ---
-
 # Define filter conditions{#defining-filter-conditions}
 
 ## Choose the operator {#choosing-the-operator}

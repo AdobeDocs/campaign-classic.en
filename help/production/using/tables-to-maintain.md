@@ -6,8 +6,8 @@ description: Tables to maintain
 audience: production
 content-type: reference
 topic-tags: database-maintenance
+exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 ---
-
 # Tables to maintain{#tables-to-maintain}
 
 The list of tables to maintain depends on your version of Adobe Campaign, how you use it and on the datamodel configuration.

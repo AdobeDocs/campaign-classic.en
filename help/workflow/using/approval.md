@@ -6,8 +6,8 @@ description: Approval
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 ---
-
 # Approval{#approval}
 
 An **Approval** task requires the participation of an operator. The operator is assigned a task and can respond by email, using the Web page linked in the email message, or via the console.
@@ -69,4 +69,3 @@ An approval example is shown in [Defining approvals](../../workflow/using/defini
 * **[!UICONTROL responseOperator]**
 
   Identifier of the operator who responded. This field is a numerical value, but a **[!UICONTROL String]** field.
-

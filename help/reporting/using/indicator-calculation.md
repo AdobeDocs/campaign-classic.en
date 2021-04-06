@@ -6,8 +6,8 @@ description: Indicator calculation
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
+exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 ---
-
 # Indicator calculation {#indicator-calculation}
 
 ## User activities {#user-activities-1}

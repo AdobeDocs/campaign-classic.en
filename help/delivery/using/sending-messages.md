@@ -6,8 +6,8 @@ description: Learn how to confirm the delivery of an email and discover the spec
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
 ---
-
 # Main steps to send an email {#confirming-email-delivery}
 
 Once your email has been created and configured, you can send it to the main target. This section presents the main steps to check and confirm the delivery of an email.

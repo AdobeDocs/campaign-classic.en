@@ -6,8 +6,8 @@ description: Using a web form template
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
 ---
-
 # Use a web form template{#using-a-web-form-template}
 
 Form templates are re-usable configurations which let you create new forms. By default, form templates are stored with Web application templates in the **[!UICONTROL Resources > Templates > Web application templates]** node.

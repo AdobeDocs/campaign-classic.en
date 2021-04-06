@@ -6,8 +6,8 @@ description: Advanced capabilities
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 ---
-
 # Advanced capabilities{#advanced-functionalities}
 
 As a technical user, in addition to [general properties](../../reporting/using/properties-of-the-report.md), you can leverage advanced capabilities to configure your reports, such as:

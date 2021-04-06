@@ -6,8 +6,8 @@ description: Learn more about marketing campaign deliveries
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 ---
-
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.

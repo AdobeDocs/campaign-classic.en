@@ -6,8 +6,8 @@ description: Lost password
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 ---
-
 # Lost password{#lost-password}
 
 You can change or recover a lost password.

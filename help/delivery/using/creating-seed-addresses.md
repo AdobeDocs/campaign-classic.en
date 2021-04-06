@@ -6,8 +6,8 @@ description: Learn how to create and use seed addresses
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
+exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 ---
-
 # Creating seed addresses{#creating-seed-addresses}
 
 Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign hierarchy **[!UICONTROL Resources > Campaign management > Seed addresses]**.

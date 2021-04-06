@@ -6,8 +6,8 @@ description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 ---
-
 # Creating the script {#step-5--creating-the-script}
 
 The choice of the delivery content destined for the remaining population is calculated by a script. This script recovers the information concerning the delivery with the highest rate of opens and copies the content into the final delivery.

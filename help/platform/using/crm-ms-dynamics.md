@@ -6,8 +6,8 @@ description: Connect Campaign and Microsoft Dynamics
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 ---
-
 # Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
    
 In this page, you will  learn how to connect Campaign Classic to **Microsoft Dynamics CRM 365**.

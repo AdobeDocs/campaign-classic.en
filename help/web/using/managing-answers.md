@@ -6,8 +6,8 @@ description: Managing answers
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 ---
-
 # Managing answers{#managing-answers}
 
 ## Storing collected answers {#storing-collected-answers}
@@ -158,4 +158,3 @@ Scores can be used in tests or scripts.
   ![](assets/s_ncs_admin_survey_score_exd.png)
 
   ![](assets/s_ncs_admin_survey_score_exg.png)
-

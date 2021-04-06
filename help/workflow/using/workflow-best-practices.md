@@ -6,8 +6,8 @@ description: Learn Campaign Workflow best practices
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
+exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 ---
-
 # Workflow best practices{#workflow-best-practices}
 
 ## Execution and performance {#execution-and-performance}

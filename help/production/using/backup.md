@@ -6,8 +6,8 @@ description: Backup
 audience: production
 content-type: reference
 topic-tags: data-processing
+exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
 ---
-
 # Backup{#backup}
 
 Backing up is essential in order to avoid losing data in the event of a problem (whether physical or system-related) on a machine.
@@ -53,4 +53,4 @@ The directories to be backed up are therefore:
 
 The database contains all of the information displayed in the Adobe Campaign rich client console, as well as all the line-of-business data.
 
-Your hosting company, and their database administrators in particular, are responsible for this operation. 
+Your hosting company, and their database administrators in particular, are responsible for this operation.

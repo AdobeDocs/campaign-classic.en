@@ -6,8 +6,8 @@ description: Learn deliverability best practices
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
+exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 ---
-
 # What is deliverability{#about-deliverability}
 
 Deliverability allows you to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam. [Learn why deliverability matters](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters). 

@@ -6,8 +6,8 @@ description: Learn how to create SMS with Campaign
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
+exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 ---
-
 # Create a SMS delivery {#creating-a-sms-delivery}
 
 ## Select the delivery channel {#selecting-the-delivery-channel}
@@ -65,4 +65,3 @@ The detailed process when selecting the target population of a delivery is prese
 For more on the use of personalization fields, refer to [this section](../../delivery/using/about-personalization.md).
 
 For more on the inclusion of a seed list, refer to [this page](../../delivery/using/about-seed-addresses.md).
-

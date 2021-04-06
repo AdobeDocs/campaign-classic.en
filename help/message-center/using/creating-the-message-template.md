@@ -6,8 +6,8 @@ description: Creating the message template
 audience: message-center
 content-type: reference
 topic-tags: message-templates
+exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 ---
-
 # Creating the message template{#creating-the-message-template}
 
 1. Go to the **[!UICONTROL Message Center >Transactional message templates]** folder in the Adobe Campaign tree.
@@ -33,4 +33,3 @@ topic-tags: message-templates
 1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
 
    ![](assets/messagecenter_create_model_004.png)
-

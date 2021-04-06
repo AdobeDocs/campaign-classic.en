@@ -6,8 +6,8 @@ description: Installing the server
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 ---
-
 # Installing the server{#installing-the-server}
 
 ## Executing the installation program {#executing-the-installation-program}
@@ -157,4 +157,3 @@ Add the following environment variable:
 ```
 OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
 ```
-

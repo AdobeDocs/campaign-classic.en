@@ -6,8 +6,8 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
+exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
 ---
-
 # Schema reference {#schema-reference}
 
 When editing a schema, an approval system based on the source schema (xtk:srcSchema) is available. Some errors can also be spotted when updating the database using the "Database structure update..." wizard.

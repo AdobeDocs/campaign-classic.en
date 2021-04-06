@@ -6,8 +6,8 @@ description: Learn more about parameters for web tracking
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
+exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 ---
-
 # Additional parameters{#additional-parameters}
 
 ## Definition of parameters {#definition-of-parameters}
@@ -107,4 +107,3 @@ adobe@selma:~$ systemctl start apache2
 >[!NOTE]
 >
 >For Linux, if you increase the size of the **webTrackingParamSize** or **maxSharedLogs** parameters, you may need to increase the size of the shared memory (SHM).
-

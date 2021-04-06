@@ -6,8 +6,8 @@ description: Learn more about the Scheduler workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 ---
-
 # Scheduler {#scheduler}
 
 The **Scheduler** is a persistent task that activates its transition at the times specified by its schedule.

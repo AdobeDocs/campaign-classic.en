@@ -6,8 +6,8 @@ description: Providers, stocks and budgets
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 ---
-
 # Providers, stocks and budgets{#providers-stocks-and-budgets}
 
 Adobe Campaign lets you define service providers who will be involved in the jobs carried out within the campaigns. Information concerning the service providers and the related cost structures are defined by the Adobe Campaign administrator from the main view. The service provider is referenced from the delivery, and its cost structures allow the calculation of costs associated with this delivery as well as the management of the stock concerned.
@@ -285,4 +285,3 @@ In a campaign, when you select the budget you must enter the initial amount. The
 >[!NOTE]
 >
 >The procedure for creating budgets is presented in [Creating a budget](../../campaign/using/controlling-costs.md#creating-a-budget).
-

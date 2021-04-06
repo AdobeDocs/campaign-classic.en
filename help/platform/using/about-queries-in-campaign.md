@@ -6,8 +6,8 @@ description: About queries in Campaign
 feature: Query Editor
 role: Business Practitioner, Data Architect
 level: Beginner
+exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 ---
-
 # Get started with queries{#about-queries-in-campaign}
 
 The Adobe Campaign query tool can be found on multiple levels of the software: to create a target population, segment customers, extract and filter tracking logs, build filters, etc.

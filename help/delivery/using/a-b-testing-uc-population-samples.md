@@ -6,8 +6,8 @@ description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 ---
-
 # Configuring population samples {#step-2--configuring-population-samples}
 
 ## Configuring the Query activity {#configuring-the-query-activity}

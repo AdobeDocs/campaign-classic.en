@@ -6,8 +6,8 @@ description: Learn how to configure access to Netezza in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
 ---
-
 # Configure access to Netezza {#configure-access-to-netezza}
 
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Netezza.

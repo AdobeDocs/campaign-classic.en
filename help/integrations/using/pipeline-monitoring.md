@@ -5,8 +5,8 @@ title: Configuring the integration
 description: Configuring the integration
 audience: integrations
 content-type: reference
+exl-id: 84399496-33fd-4936-85e7-32de8503740f
 ---
-
 # Pipeline monitoring {#pipeline-monitoring}
 
 The [!DNL pipelined] status web service gives information on the status of the [!DNL pipelined] process.
