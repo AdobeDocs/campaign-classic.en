@@ -6,8 +6,8 @@ description: Learn how to perform aggregate computing in queries
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 ---
-
 # Performing aggregate computing {#performing-aggregate-computing}
 
 In this example, we want to count the number of recipients living in London, according to gender.

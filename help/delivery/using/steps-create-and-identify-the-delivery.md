@@ -6,8 +6,8 @@ description: Creating and identifying the delivery
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
+exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 ---
-
 # Creating and identifying the delivery {#create-and-identify-the-delivery}
 
 ## Creating the delivery {#creating-the-delivery}
@@ -48,4 +48,3 @@ The delivery content is ready to be configured. Delivery content definition is s
 * [Defining the SMS content](../../delivery/using/sms-create.md#defining-the-sms-content)
 * [Defining the direct mail content](../../delivery/using/defining-the-direct-mail-content.md)
 * [Push notifications](../../delivery/using/about-mobile-app-channel.md)
-

@@ -6,8 +6,8 @@ description: About connectors
 feature: Overview
 role: Business Practitioner, Data Architect
 level: Beginner
+exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
 ---
-
 # Get started with connectors{#about-connectors}
 
 Adobe Campaign provides several connectors that allow you to communicate with external applications, connect to database engines, and integrate with Adobe Analytics to share data.
@@ -27,4 +27,3 @@ You can also integrate Campaign with multiple other systems, such as:
 >[!NOTE]
 >
 >The availability of these modules and their use can depend on the type of deployment of your installation. Refer to [Campaign on-premise - hosted capabilities matrix](../../installation/using/capability-matrix.md).
-

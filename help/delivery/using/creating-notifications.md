@@ -6,8 +6,8 @@ description: Learn how to create push notifications
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
+exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
-
 # Creating notifications{#creating-notifications}
 
 This section details the elements specific to the delivery of iOS and Android notifications. Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).

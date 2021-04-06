@@ -6,8 +6,8 @@ description: Integrating an offer via a workflow
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
+exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 ---
-
 # Integrating an offer via a workflow{#integrating-an-offer-via-a-workflow}
 
 Outside of the delivery activity itself, several workflow activities allow you to define the way offers are presented:
@@ -167,4 +167,3 @@ To do this, use the following process:
       ![](assets/int_offer_per_cell1.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
-

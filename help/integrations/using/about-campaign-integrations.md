@@ -6,8 +6,8 @@ description: Use other Adobe solutions and combine their different capabilities 
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
+exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 ---
-
 # Get started with Adobe Campaign integrations {#about-campaign-integrations}
 
 Adobe Experience Cloud is a comprehensive set of best-in-class, integrated solutions built on a common data platform with a common set of powerful core services.
@@ -89,4 +89,3 @@ The following table provides access to available Experience Cloud integration do
   </tr> 
  </tbody> 
 </table>
-

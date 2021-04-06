@@ -6,8 +6,8 @@ description: Actions on reports
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 ---
-
 # Actions on reports{#actions-on-reports}
 
 When you are viewing a report, the toolbar lets you carry out a certain number of actions. These are detailed below.
@@ -104,4 +104,3 @@ The archive dates are displayed under the show/hide icon. Click the archive to v
 It's possible to delete a report archive. To do this, go to the Adobe Campaign node where your reports are stored. Click the **[!UICONTROL Archives]** tab, select the one you want to delete and click **[!UICONTROL Delete]**.
 
 ![](assets/s_ncs_advuser_report_history_01.png)
-

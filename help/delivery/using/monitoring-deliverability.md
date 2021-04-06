@@ -6,8 +6,8 @@ description: Learn about tools and guidelines on deliverability monitoring in Ad
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
+exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 ---
-
 # Monitoring deliverability{#monitoring-deliverability}
 
 Below you will find details on the different monitoring tools provided by Adobe Campaign, as well as some additional guidelines on leveraging the features offered by Adobe Campaign to monitor your platform's deliverability.

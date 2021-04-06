@@ -6,8 +6,8 @@ description: Release notes for Campaign 18.10
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
 ---
-
 # Release 18.10{#release-18-10}
 
 ## Release 18.10.6 - Build 8985{#release-18-10-6-build-8985}
@@ -233,4 +233,3 @@ These index changes may lead to an increase of the time required to perform the 
 * Fixed an Oracle error that occurred when a new delivery composition was saved after selecting an element of a specific schema **based on a SQL view**. (NEO-11682) 
 * Fixed an issue which led to generated reject files containing false positives when processing a zip file containing a .csv via a load file activity using the Decompression option.
 * xtkjoblog is now purged by the cleanup.
-

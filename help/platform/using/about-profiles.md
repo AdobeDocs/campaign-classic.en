@@ -6,8 +6,8 @@ description: About profiles
 feature: Profiles, Audiences
 role: Business Practitioner, Data Architect
 level: Beginner
+exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 ---
-
 # Get started with profiles{#about-profiles}
 
 Profiles are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PI data in a consolidated view to analyze and take action.

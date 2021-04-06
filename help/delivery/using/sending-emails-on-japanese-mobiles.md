@@ -6,8 +6,8 @@ description: Learn how to configure, design and send emails that will be read on
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: 44634227-2340-49c4-b330-740c739ea551
 ---
-
 # Sending emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
 
 ## Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}

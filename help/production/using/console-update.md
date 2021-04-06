@@ -6,8 +6,8 @@ description: Console update
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 3a127bbe-9abb-4b5b-bd7e-e1ea550929ba
 ---
-
 # Console update{#console-update}
 
 If you selected the **[!UICONTROL Do not request console update]** option and you wish to reactivate the update request, apply the following procedure:
@@ -20,4 +20,3 @@ If you selected the **[!UICONTROL Do not request console update]** option and yo
 1. Delete the **[!UICONTROL confAdvisedUpgrade]** entry and close the Registry editor.
 
    ![](assets/ncs_console_update_2.png)
-

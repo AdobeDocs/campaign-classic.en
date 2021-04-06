@@ -6,8 +6,8 @@ description: Learn more about the Subscription Services workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
 ---
-
 # Subscription Services{#subscription-services}
 
 A **Subscription services**-type activity lets you create or delete a subscription to an information service for the population specified in the transition.

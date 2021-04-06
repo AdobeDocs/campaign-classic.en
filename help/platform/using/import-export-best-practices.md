@@ -6,9 +6,8 @@ description: Learn more about the best practices to follow when importing or exp
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-
+exl-id: 03d35202-d221-4136-aad4-00704aabb356
 ---
-
 # Import and export best practices {#import-export-best-practices}
 
 Being cautious and following the few simple rules detailed below will help a lot in ensuring data consistency within the database and in avoiding common errors during database update or data exports.

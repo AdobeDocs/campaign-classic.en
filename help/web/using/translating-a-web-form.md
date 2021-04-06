@@ -6,8 +6,8 @@ description: Translating a web form
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 72959141-ca18-4512-80c7-239efd31f711
 ---
-
 # Translating a web form{#translating-a-web-form}
 
 It's possible to localize a Web application into several languages.
@@ -470,4 +470,3 @@ To translate Web applications into languages other than the default ones (refer 
 1. Click the **[!UICONTROL Add]** button, then enter the **[!UICONTROL Internal name]**, **[!UICONTROL Label]** and identifier of the image (flag). To add a new image, please contact your administrator.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
-

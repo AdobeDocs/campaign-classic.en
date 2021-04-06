@@ -6,8 +6,8 @@ description: Performance and throughput issues
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
 ---
-
 # Performance and throughput issues{#performance-and-throughput-issues}
 
 First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes.

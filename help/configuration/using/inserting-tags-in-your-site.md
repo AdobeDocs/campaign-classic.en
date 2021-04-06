@@ -6,8 +6,8 @@ description: Inserting tags in your site
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
+exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
 ---
-
 # Inserting tags in your site{#inserting-tags-in-your-site}
 
 ## Simple method {#simple-method}
@@ -178,4 +178,3 @@ The URL you construct must obey the syntax rules defined in [Web tracking tag: d
   }
   [...]
 ```
-

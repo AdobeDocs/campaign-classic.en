@@ -6,8 +6,8 @@ description: Learn more about the Delivery outline workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 ---
-
 # Delivery outline{#delivery-outline}
 
 The **delivery outline** lets you use an outline in a campaign workflow. The outline must have been created in the campaign beforehand.
@@ -41,4 +41,3 @@ The **delivery outline** activity, available in the campaign workflows, lets you
    The preview takes into account the number of offers specified in the delivery. When executing a workflow, it is the number specified in the delivery outline that is taken into account.
 
    ![](assets/int_compo_offre_wf1.png)
-

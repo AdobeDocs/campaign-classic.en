@@ -6,8 +6,8 @@ description: About inbound channels
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
+exl-id: 33247728-b865-4dfd-814f-2900965a7187
 ---
-
 # About inbound channels{#about-inbound-channels}
 
 Offers can be presented on various offer spaces using an inbound or outbound channel. This chapter details some specific features for inbound channels.

@@ -6,8 +6,8 @@ description: Learn how to install Campaign built-in packages
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 ---
-
 # Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
 
 ## About built-in packages {#campaign-standard-packages}
@@ -248,4 +248,3 @@ You must install delivery channels (Email, Mobile channel, Mobile App channel, e
 >[!CAUTION]
 >
 >The Message Center delivery templates for LINE will not be available if the Message Center packages are installed before LINE
-

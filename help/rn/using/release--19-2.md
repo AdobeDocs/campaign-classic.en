@@ -6,8 +6,8 @@ description: Release notes for Campaign 19.2
 feature:
 role: 
 level:
+exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 ---
-
 # Release 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
@@ -176,5 +176,3 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed an issue when accessing to Predictive models. (NEO-19713)
 * Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
 * Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
-
-

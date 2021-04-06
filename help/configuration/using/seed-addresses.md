@@ -6,8 +6,8 @@ description: Seed addresses
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 ---
-
 # Seed addresses{#seed-addresses}
 
 If the recipient table is a custom table, additional configurations are required. The **[!UICONTROL nms:seedMember]** schema must be extended. An additional tab is added to the seed addresses for defining the adequate fields, as shown below:

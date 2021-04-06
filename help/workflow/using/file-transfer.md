@@ -6,8 +6,8 @@ description: Learn more about the File transfer workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
+exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 ---
-
 # File transfer{#file-transfer}
 
 The **File transfer** activity lets you receive or send files, test for file presence, or list files on a server. The protocol used is either Amazon Simple Storage Service (S3), FTP or SFTP.

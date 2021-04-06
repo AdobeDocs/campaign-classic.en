@@ -6,8 +6,8 @@ description: Learn more about offer catalog in Campaign
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
+exl-id: 464a6548-1b91-4e09-b620-3b820ef69653
 ---
-
 # Offer catalog overview{#offer-catalog-overview}
 
 An offer catalog is always either made up of categories that then have sub-categories or of offers directly.

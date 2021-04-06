@@ -7,8 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: yes
+exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 ---
-
 # Migrate unsupported SMS connector to the Extended Generic SMPP connector{#unsupported-connector-migration}
 
 As of release 20.2, legacy connectors are deprecated. This document will help you migrate connectors that are still running on the old system to the recommended SMPP connector.

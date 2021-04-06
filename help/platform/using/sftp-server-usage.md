@@ -6,8 +6,8 @@ description: Learn more on SFTP server best practices and troubleshooting.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 ---
-
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
 
 ## SFTP server global recommendations {#global-recommendations}

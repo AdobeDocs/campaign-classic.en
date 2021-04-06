@@ -6,8 +6,8 @@ description: Validating the delivery
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
+exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
-
 # Validate the delivery {#validating-the-delivery}
 
 When a delivery has been created and configured, you must validate it before sending it to the main target.

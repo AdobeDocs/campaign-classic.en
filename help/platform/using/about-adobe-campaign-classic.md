@@ -6,8 +6,8 @@ description: Discover key capabilities, user interface and global guidelines.
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 ---
-
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}
 
 To deliver a high degree of customer engagement and great experiences, brands must create consistent customer journeys at all touchpoints. Marketers can now efficiently design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment and drive loyalty.

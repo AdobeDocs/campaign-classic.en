@@ -6,8 +6,8 @@ description: Get started with CRM Connectors in Campaign
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 ---
-
 # CRM Connectors{#crm-connectors}
 
 ## Get started with CRM connectors {#about-crm-connectors}

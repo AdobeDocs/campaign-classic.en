@@ -6,8 +6,8 @@ description: Integration via SOAP (server side)
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
+exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
 ---
-
 # Integration via SOAP (server-side){#integration-via-soap-server-side}
 
 The SOAP web services provided for offer management are different from those usually used in Adobe Campaign. They can be accessed via the interaction URL described in the previous section and let you present or update offers for a given contact.

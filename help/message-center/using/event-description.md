@@ -6,8 +6,8 @@ description: Learn more about transactional messaging event
 audience: message-center
 content-type: reference
 topic-tags: introduction
+exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 ---
-
 # Event description{#event-description}
 
 ## About the transactional messaging data model {#about-transactional-messaging-datamodel}
@@ -222,4 +222,3 @@ However, if the event fails to be processed, the method returns an error message
       </SOAP-ENV:Body>
    </SOAP-ENV:Envelope>
    ```
-

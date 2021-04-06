@@ -6,8 +6,8 @@ description: Log files
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 ---
-
 # Log files{#log-files}
 
 The log files are organized as follows:

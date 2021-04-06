@@ -6,8 +6,8 @@ description: Loading (SOAP)
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 ---
-
 # Loading (SOAP){#loading-soap}
 
 >[!CAUTION]
@@ -47,4 +47,3 @@ Operation is as follows:
       The code of this tab will be called in a loop by Adobe Campaign until a null XML object is returned.
     
     * **[!UICONTROL Finalization]**: closes connection and/or frees other resources created during processing.
-

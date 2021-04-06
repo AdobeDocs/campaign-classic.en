@@ -6,8 +6,8 @@ description: Creating a local campaign
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 ---
-
 # Creating a local campaign{#creating-a-local-campaign}
 
 A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. Its aim is to meet a local communication need using a campaign template that was set up and configured by the central entity. The main stages for implementing a local operation are as follows:

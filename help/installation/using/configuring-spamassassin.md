@@ -6,8 +6,8 @@ description: Configuring SpamAssassin
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 ---
-
 # Configuring SpamAssassin{#configuring-spamassassin}
 
 >[!NOTE]
@@ -187,4 +187,3 @@ To improve performances in Linux, edit the **/etc/spamassassin/local.cf** file a
 ```
 dns_available no
 ```
-

@@ -6,8 +6,8 @@ description: Learn how to perform queries using a many-to-many relationship
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 ---
-
 # Querying using a many-to-many relationship {#querying-using-a-many-to-many-relationship}
 
 In this example, we want to recover recipients not contacted during the last 7 days. This query concerns all deliveries.

@@ -6,8 +6,8 @@ description: Specific configurations in v6.02
 audience: migration
 content-type: reference
 topic-tags: configuration
+exl-id: 7e8f8488-f3ef-4b64-9981-335d67caf372
 ---
-
 # Specific configurations in v6.02{#specific-configurations-in-v6-02}
 
 The following section details the additional configuration required when migrating from v6.02. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.

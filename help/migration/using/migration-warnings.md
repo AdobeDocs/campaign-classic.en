@@ -6,8 +6,8 @@ description: Migration warnings
 audience: migration
 content-type: reference
 topic-tags: migration-overview
+exl-id: 46b46fc9-c7c9-4c74-b5f3-7935d5368520
 ---
-
 # Migration warnings{#migration-warnings}
 
 * The migration process is reserved for expert users. You must be assisted by at least a database expert, a system administrator and an application developer from Adobe Campaign.
@@ -20,4 +20,3 @@ topic-tags: migration-overview
 >[!NOTE]
 >
 >You must also consult the [Before starting migration](../../migration/using/before-starting-migration.md) section.
-

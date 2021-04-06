@@ -6,8 +6,8 @@ description: Learn more about Campaign Workflow properties
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 ---
-
 # Workflow properties{#workflow-properties}
 
 ## Execution tab {#execution-tab}
@@ -76,4 +76,3 @@ This section is only displayed in campaign workflows.
   The **[!UICONTROL Notification to a workflow supervisor]** default template includes a link for accessing the Adobe Campaign console via the Web so that the recipient can work on the issue once they are logged on.
 
   To create a personalized template, go to **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.
-

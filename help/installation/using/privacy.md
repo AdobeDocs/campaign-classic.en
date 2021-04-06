@@ -6,8 +6,8 @@ description: Learn more about the best practices to follow regarding privacy.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---
-
 # Privacy {#privacy}
 
 ## Privacy Requests

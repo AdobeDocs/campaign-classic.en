@@ -6,8 +6,8 @@ description: Get started with web forms in Campaign
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 ---
-
 # Get started with web forms{#about-web-forms}
 
 Adobe Campaign integrates a graphical module for defining and publishing Web forms to create pages containing input and selection fields, and which may include data in the database. This lets you design and post Web pages which users can access to view or enter information.
@@ -88,4 +88,3 @@ In this case, start by selecting the type of field to add and the answer storage
 Click **[!UICONTROL Ok]** to approve the selection. 
 
 ![](assets/s_ncs_admin_webform_confirm_storage.png)
-

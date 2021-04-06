@@ -6,8 +6,8 @@ description: Creating and managing tasks
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 ---
-
 # Creating and managing tasks{#creating-and-managing-tasks}
 
 ## About tasks {#about-tasks}
@@ -501,4 +501,3 @@ Below are the stages of a complete task life cycle for which the person in charg
    >[!NOTE]
    >
    >Once a task is finished, its life cycle can be reinitialized by the person in charge of it. To do this, open the task and click the **[!UICONTROL Reset task to execute it again...]** link at the bottom of the dashboard.
-

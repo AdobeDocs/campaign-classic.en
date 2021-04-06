@@ -6,8 +6,8 @@ description: Learn how to create and manage lists
 feature: Profiles
 role: Business Practitioner
 level: Beginner
+exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 ---
-
 # Create and manage lists{#creating-and-managing-lists}
 
 ## What is a list? {#about-lists-in-adobe-campaign}

@@ -6,8 +6,8 @@ description: Viral and social marketing
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
+exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
 ---
-
 # Viral and social marketing{#viral-and-social-marketing}
 
 ## About viral marketing {#about-viral-marketing}
@@ -94,4 +94,3 @@ Sharing and access to shared information is tracked. This information collected 
 * in a dedicated **[!UICONTROL Sharing to social networks]** report:
 
   ![](assets/s_ncs_user_viral_report.png)
-

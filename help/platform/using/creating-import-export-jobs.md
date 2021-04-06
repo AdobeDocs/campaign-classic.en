@@ -6,8 +6,8 @@ description: Learn how to create import and export jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
 ---
-
 # Create import and export jobs {#creating-import-export-jobs}
 
 Once templates have been configured, import and export operations can be launched in several contexts in Adobe Campaign.

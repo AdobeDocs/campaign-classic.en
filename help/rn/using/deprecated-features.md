@@ -6,8 +6,8 @@ description: This page lists deprecated and removed features in Adobe Campaign C
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 ---
-
 # Deprecated and removed features {#deprecated-and-removed-features}
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility. As Adobe Campaign Classic works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only. Versions which are no longer compatible with Adobe Campaign Classic are listed below and in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).

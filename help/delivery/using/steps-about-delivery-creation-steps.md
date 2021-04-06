@@ -6,8 +6,8 @@ description: Discover the main delivery creation steps in Adobe Campaign Classic
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
+exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 ---
-
 # About deliveries creation steps {#about-delivery-creation}
 
 The key steps when creating a delivery are as follows:

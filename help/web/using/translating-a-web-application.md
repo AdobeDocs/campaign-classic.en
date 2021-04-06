@@ -6,8 +6,8 @@ description: Translating a web application
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 ---
-
 # Translating a web application{#translating-a-web-application}
 
 You can translate Web application pages created with the Adobe Campaign Digital content editor (DCE).
@@ -54,4 +54,3 @@ To flag the strings to be translated:
 1. Translate and approve the strings.
 
    You can then preview the translations by selecting the desired language from the **[!UICONTROL Preview]** tab in the Web application.
-

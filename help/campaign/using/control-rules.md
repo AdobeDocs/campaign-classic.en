@@ -6,8 +6,8 @@ description: Control rules
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 ---
-
 # Control rules{#control-rules}
 
 ## Analysis and arbitration control rules {#analysis-and-arbitration-control-rules}
@@ -66,4 +66,3 @@ Apply the following steps:
    At the end of the analysis, the **[!UICONTROL Confirm delivery]** button will not be available.
 
    ![](assets/campaign_opt_create_control_06.png)
-

@@ -6,8 +6,8 @@ description: Learn more about the Recurring delivery workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 ---
-
 # Recurring delivery{#recurring-delivery}
 
 A **[!UICONTROL Recurring delivery]** activity lets you configure a delivery template occurrence that is specific to a campaign.
@@ -46,4 +46,3 @@ This video explains how to configure a recurring delivery and a scheduler activi
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
-

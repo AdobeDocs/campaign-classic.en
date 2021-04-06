@@ -6,8 +6,8 @@ description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
 ---
-
 # Message design FAQ {#design-messages-faq}
 
 Discover key steps to design omni-channel messages with Adobe Campaign.

@@ -6,8 +6,8 @@ description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 ---
-
 # Configuring the deliveries in the workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
 The next step is to configure the deliveries. They are destined for the three populations created during the previous stage: [Step 2: Configuring population samples](#step-2--configuring-population-samples). The first two deliveries enable you to send different contents to population A and B. The third delivery is destined for the population that received neither A nor B. Its content will be calculated by a script and will be identical to either A or B, depending on which one scored the highest open rate. We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.

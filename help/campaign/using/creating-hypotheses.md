@@ -6,8 +6,8 @@ description: Learn how to create hypotheses in Campaign Response Manager
 audience: campaign
 content-type: reference
 topic-tags: response-manager
+exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
 ---
-
 # Create hypotheses{#creating-hypotheses}
 
 There are various possibilities for creating/linking hypotheses to a campaign offer or delivery:
@@ -174,4 +174,3 @@ In this example, we want to create a hypothesis linked to a delivery. This hypot
 1. In the Adobe Campaign tree, go to the **[!UICONTROL Campaign management > Measurement hypotheses]** node to check the indicators calculated by the hypothesis.
 
    ![](assets/response_hypothesis_delivery_example_010.png)
-

@@ -6,8 +6,8 @@ description: Time zone management
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 ---
-
 # Time zone management{#time-zone-management}
 
 ## Operating principle {#operating-principle}
@@ -92,4 +92,3 @@ Example of possible values:
 * America/New_York, etc.
 
   These values are taken from the tz (Olson) database. For more information, refer to [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
-

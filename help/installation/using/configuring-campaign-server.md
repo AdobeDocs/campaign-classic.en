@@ -6,8 +6,8 @@ description: Configuring Campaign server
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 ---
-
 # Configuring Campaign server{#configuring-campaign-server}
 
 The section below details server-side configurations that can be performed to match your needs and your environment specificities.
@@ -675,4 +675,4 @@ If you use the same proxy for several connection types, only the proxyHTTP will 
 
 If you have internal connections that should go through the proxy, add them in the override parameter.
 
-If you want to tempararily disable the proxy connection, set the enabled parameter to "false" or "0". 
+If you want to tempararily disable the proxy connection, set the enabled parameter to "false" or "0".

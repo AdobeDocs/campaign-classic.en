@@ -6,8 +6,8 @@ description: Monitor your Campaign workflows with Workflow HeatMap
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 ---
-
 # Workflow HeatMap {#workflow-heatmap}
 
 Adobe Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is available to the instance Administrators only.

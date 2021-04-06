@@ -6,8 +6,8 @@ description: Enterprise deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 ---
-
 # Enterprise deployment{#enterprise-deployment}
 
 This is the most complete configuration. It builds on the standard configuration for greater security and availability:
@@ -283,4 +283,3 @@ The steps are as follows:
     * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
 
 1. Start the Adobe Campaign server.
-

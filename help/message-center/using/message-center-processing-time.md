@@ -6,8 +6,8 @@ description: Message Center processing time
 audience: message-center
 content-type: reference
 topic-tags: reports
+exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 ---
-
 # Message Center processing time{#message-center-processing-time}
 
 This report displays the main indicators related to the real time queue. This report, aimed at technical administrators, can also be accessed via the **[!UICONTROL Monitoring]** tab in the control instance.
@@ -26,4 +26,3 @@ Just like for the **[!UICONTROL Message Center service level]** report, you can 
 >[!NOTE]
 >
 >The warning (orange) and alert (red) indicator thresholds can be configured in Adobe Campaign deployment wizard. Refer to [Monitoring thresholds](../../message-center/using/monitoring-thresholds.md).
-

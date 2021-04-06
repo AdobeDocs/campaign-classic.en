@@ -6,8 +6,8 @@ description: Use case
 audience: platform
 content-type: reference
 topic-tags: filtering-data
+exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 ---
-
 # Use case{#use-case}
 
 ## Create a filter on the email format of subscribers {#creating-a-filter-on-the-email-format-of-subscribers}
@@ -51,4 +51,3 @@ Apply the following steps:
    The name of the current filter is displayed above the list. To cancel the filter, click the **[!UICONTROL Delete this filter]** icon.
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)
-

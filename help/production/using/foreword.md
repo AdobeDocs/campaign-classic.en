@@ -6,8 +6,8 @@ description: Foreword
 audience: production
 content-type: reference
 topic-tags: introduction
+exl-id: c9e92fec-383e-46ba-bce1-183ac8f637de
 ---
-
 # Foreword{#foreword}
 
 This document details the production procedures for Adobe Campaign: configuration, monitoring, upgrading process, data processing, database maintenance procedure and recommendations. A troubleshooting section is available at the end of this document.

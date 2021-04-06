@@ -6,8 +6,8 @@ description: About seed addresses
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
+exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 ---
-
 # About seed addresses{#about-seed-addresses}
 
 Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.

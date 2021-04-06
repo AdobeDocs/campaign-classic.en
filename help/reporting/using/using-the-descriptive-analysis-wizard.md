@@ -6,8 +6,8 @@ description: Using the descriptive analysis wizard
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
+exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 ---
-
 # Using the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
 
 To create a descriptive analysis report, use the dedicated wizard. Configuration depends on the data to be analyzed and on the desired rendering.
@@ -228,4 +228,3 @@ The following operations are possible:
   ![](assets/reporting_descriptive_view_report.png)
 
   To make changes to the report, refer to [Processing a report](../../reporting/using/processing-a-report.md).
-

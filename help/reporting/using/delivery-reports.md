@@ -6,8 +6,8 @@ description: Delivery reports
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
+exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 ---
-
 # Delivery reports {#delivery-reports}
 
 You can track the execution of deliveries via various reports accessible from the delivery overview. To display reports, apply the following procedure:

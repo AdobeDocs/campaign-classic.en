@@ -6,8 +6,8 @@ description: Email archiving
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 ---
-
 # Email BCC {#email-archiving}
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
@@ -140,4 +140,3 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 
 * **Emails per connection**: BCC email archiving operates by opening a connection and trying to send all emails through that connection. Adobe recommends checking with your internal technical contact the number of emails that are accepted on a given connection. Increasing this number can have a great impact on BCC throughput.
 * **BCC sending IPs**: currently, BCC emails are not sent through the normal MTA proxies. Instead, a direct connection is open from the MTA server to the destination email server. This means that you may need to add additional IPs to the allowlist on your network, depending on your email server configuration.
-

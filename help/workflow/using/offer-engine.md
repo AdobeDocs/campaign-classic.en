@@ -6,8 +6,8 @@ description: Offer engine
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
 ---
-
 # Offer engine{#offer-engine}
 
 The **[!UICONTROL Offer engine]** activity lets you define a call to the offer engine prior to a delivery.
@@ -28,4 +28,3 @@ After configuring your query (refer to this [section](../../workflow/using/query
    ![](assets/int_offerengine_activity1.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
-

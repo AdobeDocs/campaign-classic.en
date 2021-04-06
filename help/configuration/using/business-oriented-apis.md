@@ -6,8 +6,8 @@ description: Business oriented APIs
 audience: configuration
 content-type: reference
 topic-tags: api
+exl-id: e6638870-3141-4f12-b904-db436127c0d1
 ---
-
 # Business oriented APIs{#business-oriented-apis}
 
 Business API are specific to each type of object. They have an effect on:
@@ -238,4 +238,3 @@ If you do not have a delivery template, you can use the following sample:
   </targets> 
 </delivery> 
 ```
-

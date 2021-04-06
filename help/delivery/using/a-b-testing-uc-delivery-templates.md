@@ -6,8 +6,8 @@ description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 ---
-
 # Creating the delivery templates {#step-3--creating-two-delivery-templates}
 
 We now want to create two delivery templates. Each template will be referenced in an **[!UICONTROL Email delivery]** activity linked to the **[!UICONTROL Split]** activity. For more on this, refer to this [section](../../delivery/using/about-templates.md).

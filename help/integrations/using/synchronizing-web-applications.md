@@ -6,8 +6,8 @@ description: Synchronizing web applications
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
+exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 ---
-
 # Synchronizing web applications{#synchronizing-web-applications}
 
 In this use case, we will send a communication, using Campaign Standard, that includes a link to a Campaign v7 web application. When the recipient clicks on the link in the email, the web application displays a form containing several fields preloaded with the recipient's data as well as a subscription link to a newsletter. The recipient can update his data as well as subscribe to the service. His profile will be updated in Campaign v7 and the information will be replicated in Campaign Standard.
@@ -127,4 +127,3 @@ When the recipient updates his data from via the web application, Adobe Campaign
 1. Click on the **[!UICONTROL Subscriptions]** tab. The newsletter service now appears.
 
    ![](assets/acs_connect_lp_21.png)
-

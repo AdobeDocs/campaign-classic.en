@@ -6,8 +6,8 @@ description: Learn more about server configuration best practices.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 ---
-
 # Server configuration {#server-configuration}
 
 ## Configuring security zones

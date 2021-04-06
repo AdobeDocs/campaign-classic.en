@@ -6,8 +6,8 @@ description: Purging events
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
+exl-id: 275a333b-70cc-4549-ac52-ac8ce54c2805
 ---
-
 # Purging events{#purging-events}
 
 You can use the [deployment wizard](../../production/using/database-cleanup-workflow.md#deployment-wizard) to configure how long the data is to be stored in the database.

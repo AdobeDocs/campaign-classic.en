@@ -6,8 +6,8 @@ description: Learn how to configure access to Sybase IQ in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
 ---
-
 # Configure access to Sybase IQ {#configure-access-to-sybase-iq}
 
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Sybase IQ.
@@ -83,4 +83,3 @@ The Sybase IQ external account allows you to connect your Campaign instance to y
 >[!NOTE]
 >
 >For Windows, you must install the Sybase IQ client on the Adobe Campaign server and create an ODBC connection. Make sure you create a system data source when the Adobe Campaign server (nlserver) is running as a service in Windows.
-
