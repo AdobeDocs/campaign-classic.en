@@ -108,6 +108,7 @@ type: Documentation
        + CRM Connectors{#crm-connectors}
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+          + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
   + [Help & support options](support.md)
@@ -206,6 +207,7 @@ type: Documentation
        + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
        + [Delivery statuses](delivery/using/delivery-statuses.md)
        + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
+       + [Update bounce qualification after an ISP outage](delivery/using/update-bounce-qualification.md)
        + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
   + Track messages {#tracking-messages}
        + [About message tracking](delivery/using/about-message-tracking.md)
@@ -653,6 +655,7 @@ type: Documentation
        + [Campaign server settings](installation/using/configuring-campaign-server.md)
        + [Define security zones](installation/using/security-zones.md)
        + [Technical email configurations](installation/using/email-deliverability.md)
+       + [Using MX servers with Campaign](installation/using/using-mx-servers.md)
        + [Configure email BCC](installation/using/email-archiving.md)
        + [Configure SpamAssassin](installation/using/configuring-spamassassin.md)
   + Connect to Campaign{#connect-to-campaign}
@@ -667,6 +670,7 @@ type: Documentation
        + [Configure external accounts](installation/using/external-accounts.md)
        + Configure Federated Data Access{#configure-fda}
           + [Get started with Federated Data Access](installation/using/about-fda.md)
+          + [Best practices and limitations](installation/using/fda-best-practices.md)
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
             + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
