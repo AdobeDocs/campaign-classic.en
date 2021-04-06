@@ -256,7 +256,7 @@ Bounce mails can have the following qualification status:
 
 >[!NOTE]
 >
->In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. For more on this, see [this page](../../installation/using/update-bounce-qualification.md).
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. For more on this, see [this page](../../delivery/using/update-bounce-qualification.md).
 
 ### Email management rules {#email-management-rules}
 
