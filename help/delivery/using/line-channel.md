@@ -35,11 +35,24 @@ You must first create a [!DNL LINE] account, so that you can then link it to Ado
 
 To create and configure a [!DNL LINE] account, see [https://developers.line.me/](https://developers.line.me/).
 
-To create and configure a [!DNL LINE] service, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
+### Create and configure LINE service {#configure-line-service}
+
+To create your LINE service: 
+
+1. Fromm the **[!UICONTROL Profiles and Targets]** tab, select Services and Subscriptions and click the **[!UICONTROL Services and Subscriptions]** link. 
+
+![](assets/s_ncs_user_services_new.png)
+
+To edit an existing service, click its name. To create a service, click the **[!UICONTROL Create]** button located above the list.
+
+
+For more information on subscriptions and services, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
 
 ![](assets/line_service.png)
 
-Finally, to create an external account on Adobe Campaign:
+### Configure LINE external account {#configure-line-external}
+
+After creating your [!DNL LINE] service, you need to configure the [!DNL LINE] external account on Adobe Campaign:
 
 1. In the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** tree structure, click the **[!UICONTROL External Accounts]** tab.
 
