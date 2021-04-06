@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Using MX servers with Campaign
-description: Learn how MX Servers work with Adobe Campaign Classic.
+description: Learn how MX servers work with Adobe Campaign Classic.
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,7 +11,7 @@ hidefromtoc: yes
 
 # Using MX servers with Campaign {#using-mx-servers}
 
-Learn how MX Servers work with Adobe Campaign Classic.
+Learn how MX servers work with Adobe Campaign Classic.
 
 ## MX servers {#mx-servers}
 
@@ -27,21 +27,21 @@ When you send an email, the software server will establish a connection with the
 
 In the connection protocol, rules have to be respected to prevent spamming and monopolizing servers. The most important are the following: 
 
-* **Maximum number of connections allowed**: When this number is respected, IPs are not on the block list and emails are not refused due to extra connections. 
-* **Maximum number of messages**: During the connection, the number of messages allowed to be sent must be defined. If this number is not defined, the server will send as many as possible. This results in being identified as a spammer and being added to the block list by the ISP.
-* **Messages per hour**: In order to match with your e-reputation, Adobe Campaign will control the number of emails your IPs are able to send per hour. This system will protect you against email refusal or/and block list.
+* **Maximum number of connections allowed**: When this number is respected, IPs are not on the denylist and emails are not refused due to extra connections. 
+* **Maximum number of messages**: During the connection, the number of messages allowed to be sent must be defined. If this number is not defined, the server will send as many as possible. This results in being identified as a spammer and being added to the denylist by the ISP.
+* **Messages per hour**: In order to match with your e-reputation, Adobe Campaign will control the number of emails your IPs are able to send per hour. This system will protect you against email refusal or/and denylist.
 
 ## Inbounce emails
 
-### What is an Inbounce Email?
+### What is an Inbounce email?
 
 It is the process used by Adobe Campaign to process errors during server communications.
 
-### How does an Inbounce Email work?
+### How does an Inbounce email work?
 
 The error address will process bounces sent back by ISPs. The process will analyze different SMTP error codes and apply the right action according to the RegEx standard.
 
-For example, an email address has a feedback « 550 User Unknown » sent by an ISP. This error code is processed by the Adobe Campaign error address (returnpath address). This error is then compared to the RegEx standard and the right rule will be apply. The email is considered a Hardbounce (matching the type) and then User Unknown (matching the reason) and pushed in quarantine after the first loop into the system.
+For example, an email address has a feedback "550 User Unknown" sent by an ISP. This error code is processed by the Adobe Campaign error address (returnpath address). This error is then compared to the RegEx standard and the right rule will be apply. The email is considered a *Hard bounce* (matching the type) and then *User Unknown* (matching the reason) and pushed in quarantine after the first loop into the system.
 
 ### How is Adobe Campaign managing it?
 
@@ -55,9 +55,9 @@ Adobe Campaign manages this process with a match between an error type and a rea
 
 >[!NOTE]
 >
->To learn more about delivery failure types and reasons in Adobe Campaign, refer to this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>To learn more about delivery failure types and reasons, refer to this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-## The Deliverability Instance
+## Deliverability instance
 
 A daily update of the MX rules and inbounces rules are managed by a specific workfow in the client instance which is connected to the Deliverability instance owner of these rules.
 
@@ -67,16 +67,16 @@ The MX rules has 6 different levels of throughput which are mainly used during t
 
 ![](assets/mx-rules-throughput.png)
 
-The Custom mode is for advanced clients who wish to set their own MX rules. When the Custom mode is activated, the client will not be updated by the Deliverability Instance as the synchronization will be turned off.
+The Custom mode is for advanced clients who wish to set their own MX rules. When the Custom mode is activated, the client will not be updated by the Deliverability instance as the synchronization will be turned off.
 
 ## Bounce examples
 
-* User unknown (hard bounce): 550 5.1.1 ... User is unknown {mx003}
-* Mailbox full (soft bounce): 550 5.2.2 user quota exceeded
-* Inactive Mailbox(soft bounce): 550 5.7.1 : Recipient address rejected: Inactive MailBox, not poped for more than 6 months
-* Domain invalid (soft bounce): DNS query failed for 'ourdan.com‘
-* Refused(soft bounce): Inbound e-mail bounce (rule 'Feedback_loop_Hotmail' has matched this bounce)
-* Unreachable(soft bounce): 421 4.16.55 [TS01] Messages from x.x.x.x temporarily deferred due to excessive user complaints
+* **User unknown** (hard bounce): 550 5.1.1 ... User is unknown {mx003}
+* **Mailbox full** (soft bounce): 550 5.2.2 User quota exceeded
+* **Inactive Mailbox** (soft bounce): 550 5.7.1 : Recipient address rejected: Inactive MailBox, not poped for more than 6 months
+* **Domain invalid** (soft bounce): DNS query failed for 'ourdan.com'
+* **Refused** (soft bounce): Inbound email bounce (rule 'Feedback_loop_Hotmail' has matched this bounce)
+* **Unreachable** (soft bounce): 421 4.16.55 [TS01] Messages from x.x.x.x temporarily deferred due to excessive user complaints
 
 **Related topics:**
 * [MX configuration](../../installation/using/email-deliverability.md#mx-configuration)
