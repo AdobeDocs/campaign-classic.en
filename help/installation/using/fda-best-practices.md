@@ -6,8 +6,8 @@ description: Learn best practices and limitations when working with an external 
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 ---
-
 # Best practices and limitations 
 
 ## Create temporary schemas {#create-temporary-schemas}
@@ -53,4 +53,3 @@ Avoid the operations that need to use both the Adobe Campaign and the external d
 If you want to carry out personalization in your deliveries using data from the external database, collect the data to use in a workflow to make it available in a temporary table. Then use the data from the temporary table to personalize your delivery.
 
 The FDA option is subject to the limitations of the external database system that you use.
-

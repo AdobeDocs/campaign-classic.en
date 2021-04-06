@@ -7,8 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: yes
+exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 ---
-
 # Update bounce qualification after an ISP outage {#update-bounce-qualification.md}
 
 ## Context
@@ -56,4 +56,3 @@ Once you have the list of affected recipients, you can either set them to a stat
 **Related topics:**
 * [Understand Delivery Failures](../../delivery/using/understanding-delivery-failures.md)
 * [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
-

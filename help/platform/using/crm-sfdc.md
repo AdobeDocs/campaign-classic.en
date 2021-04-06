@@ -6,8 +6,8 @@ description: Connect Campaign and Salesforce.com
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 ---
-
 # Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
    
 In this page, you will learn how to connect Campaign Classic to **Salesforce**.
@@ -84,4 +84,3 @@ To synchronize data between Adobe Campaign data and SFDC, you need to create a w
 ![](assets/crm_connectors_sfdc_wf.png)
 
 Learn more about data synchronization [in this page](../../platform/using/crm-data-sync.md).
-

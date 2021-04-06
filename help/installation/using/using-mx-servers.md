@@ -7,8 +7,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: yes
+exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 ---
-
 # Using MX servers with Campaign {#using-mx-servers}
 
 Learn how MX servers work with Adobe Campaign Classic.
