@@ -130,7 +130,7 @@ To create a [!DNL LINE] delivery you have to follow these steps:
 
 1. After sending your message, access your report to measure the effectiveness of your delivery. 
    
-   For more information on [!DNL LINE] reports, refer to [Access reports](accessing-reports.md).
+   For more information on [!DNL LINE] reports, refer to [Access reports](#accessing-reports).
 
 ## Define the content type {#defining-the-content}
 
