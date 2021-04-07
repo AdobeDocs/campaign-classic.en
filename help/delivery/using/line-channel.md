@@ -33,22 +33,27 @@ Before creating a [!DNL LINE] account and external account, you first need to in
 
 You must first create a [!DNL LINE] account, so that you can then link it to Adobe Campaign. Then, you can send [!DNL LINE] messages to the users that have added your [!DNL LINE] account in their mobile application. External accounts and [!DNL LINE] account can only be managed by the functional administrator of the platform.
 
-To create and configure a [!DNL LINE] account, see [https://developers.line.me/](https://developers.line.me/).
+To create and configure a [!DNL LINE] account, see [LINE developers documentation](https://developers.line.me/).
 
 ### Create and configure LINE service {#configure-line-service}
 
-To create your LINE service: 
+To create your [!DNL LINE] service: 
 
-1. Fromm the **[!UICONTROL Profiles and Targets]** tab, select Services and Subscriptions and click the **[!UICONTROL Services and Subscriptions]** link. 
+1. From the Adobe Campaign Classic homepage, select the **[!UICONTROL Profiles and Targets]** tab.
 
-![](assets/s_ncs_user_services_new.png)
+1. In the left-hand menu, select **[!UICONTROL Services and Subscriptions]** and click **[!UICONTROL Create]**.
 
-To edit an existing service, click its name. To create a service, click the **[!UICONTROL Create]** button located above the list.
+   ![](assets/line_service_1.png)
 
+1. Add a **[!UICONTROL Label]** and **[!UICONTROL Internal name]** to your new service.
+
+1. Select **[!UICONTROL LINE]** from the **[!UICONTROL Type]** drop-down.
+
+   ![](assets/line_service_2.png)
+
+1. Click **[!UICONTROL Save]**.
 
 For more information on subscriptions and services, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
-
-![](assets/line_service.png)
 
 ### Configure LINE external account {#configure-line-external}
 
@@ -81,7 +86,7 @@ The [!DNL LINE] is now configured in Adobe Campaign, you can start creating and 
 
 >[!NOTE]
 >
->When sending a [!DNL LINE] delivery to a new recipient for the first time, you must add the official LINE message regarding the terms of use and consent into the delivery. The official message is available at the [following link](https://terms.line.me/OA_privacy/sp?lang=fr).
+>When sending a [!DNL LINE] delivery to a new recipient for the first time, you must add the official LINE message regarding the terms of use and consent into the delivery. The official message is available at the [following link](https://terms.line.me/OA_privacy/).
 
 To create a [!DNL LINE] delivery you have to follow these steps:
 
@@ -115,17 +120,17 @@ To create a [!DNL LINE] delivery you have to follow these steps:
 
 1. From your delivery editor, click **[!UICONTROL Add]** to add one or multiple message and select the **[!UICONTROL Content type]**. 
 
-   For more information on the different **[!UICONTROL Content type]** available, refer to [Defining the content type](#defining-the-content).
+   For more information on the different **[!UICONTROL Content type]** available, refer to [Define the content type](#defining-the-content).
 
    ![](assets/line_message_11.png)
 
 1. When your delivery is created and configured correctly, you can send it to the target defined earlier. 
    
-   For more information on sending a delivery, refer to [Sending messages](../../delivery/using/sending-messages.md).
+   For more information on sending a delivery, refer to [Send messages](../../delivery/using/sending-messages.md).
 
 1. After sending your message, access your report to measure the effectiveness of your delivery. 
    
-   For more information on [!DNL LINE] reports, refer to [Accessing reports](accessing-reports.md).
+   For more information on [!DNL LINE] reports, refer to [Access reports](accessing-reports.md).
 
 ## Define the content type {#defining-the-content}
 
@@ -195,7 +200,7 @@ A **[!UICONTROL Video message]** [!DNL LINE] delivery is a message sent to recip
 
 The **[!UICONTROL Preview Image URL]** field allows you to add the URL of a preview image with a character limit of 1000. JPEG and PNG are supported with a file size limit of 1 MB.
 
-The **[!UICONTROL Video Image URL]** field to add the URL of your video file with a character limit of 1000. Only mp4 format is supported with a file size limit of 200 MB.
+The **[!UICONTROL Video Image URL]** field allows you to add the URL of your video file with a character limit of 1000. Only mp4 format is supported with a file size limit of 200 MB.
 
 Note that wide or tall videos may be cropped when played on some devices.
 
@@ -207,11 +212,11 @@ After sending your delivery, you can view your [!DNL LINE] reports via the menu 
    
    >[!NOTE]
    >
-   >The tracking reports indicate the click-through rate. LINE does not take the open rate into account.
+   >The tracking reports indicate the click-through rate. [!DNL LINE] does not take the open rate into account.
 
 ![](assets/line_reports_01.png)
  
-For LINE service reports, access the menu **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE-V2]** from the **[!UICONTROL Explorer]** tab. Then click the **[!UICONTROL Reports]** icon in the [!DNL LINE] service.
+For [!DNL LINE] service reports, access the menu **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE-V2]** from the **[!UICONTROL Explorer]** tab. Then click the **[!UICONTROL Reports]** icon in the [!DNL LINE] service.
 
 ![](assets/line_reports.png)
 
@@ -219,7 +224,7 @@ For LINE service reports, access the menu **[!UICONTROL Profiles and Targets]** 
 
 In this example, we are going to create and configure a text message and an image containing data that will be personalized according to the recipient.
 
-1. Create your LINE delivery by clicking the **[!UICONTROL Create]** button from the **[!UICONTROL Campaign]** tab.
+1. Create your [!DNL LINE] delivery by clicking the **[!UICONTROL Create]** button from the **[!UICONTROL Campaign]** tab.
 
    ![](assets/line_usecase.png)
 
