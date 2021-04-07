@@ -6,8 +6,8 @@ description: About distributed marketing
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: c166409b-e040-491e-840a-a41310935d75
 ---
-
 # About distributed marketing{#about-distributed-marketing}
 
 ## Introduction {#introduction}
@@ -158,4 +158,3 @@ These steps must be carried out for each campaign.
 1. Evaluate the target, the budget, etc.
 1. Preview campaign content.
 1. Order the campaign.
-

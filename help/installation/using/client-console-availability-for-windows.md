@@ -6,8 +6,8 @@ description: Client console availability for Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
 ---
-
 # Client console availability for Windows{#client-console-availability-for-windows}
 
 For Adobe Campaign users to be able to log on to the instance you have created and configured, they need to use the client console.
@@ -51,4 +51,3 @@ In case the option was selected, you can reset this prompt. Only system administ
    ```
 
 1. Delete the **confAdvisedUpgrade** entry and close Registry Editor.
-

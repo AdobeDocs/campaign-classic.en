@@ -6,8 +6,8 @@ description: Concepts and methodology
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
+exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 ---
-
 # Best practices for cubes{#concepts-and-methodology}
 
 ## Data binning {#data-binning}
@@ -266,4 +266,3 @@ To select a line, column or cell, left-click on it. To deselect, click again.
 The filter is applied automatically and added to the filter zone above the report.
 
 ![](assets/neolap_create_filter_display.png)
-

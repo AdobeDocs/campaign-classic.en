@@ -6,8 +6,8 @@ description: Approving and activating an offer
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
+exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 ---
-
 # Approving and activating an offer{#approving-and-activating-an-offer}
 
 Once the offer content is complete, you need to approve it for it to be duplicated into the live environment and delivered. Approval concerns the offer content and its eligibility.
@@ -123,4 +123,3 @@ You can also directly disable a category by going to the **[!UICONTROL Eligibili
 >When an offer is deleted in a design environment, it is automatically deactivated in the linked online environment. After a proposition retention period, the deactivated offers are deleted from the online environment.
 
 ![](assets/offer_preview_deactivate.png)
-

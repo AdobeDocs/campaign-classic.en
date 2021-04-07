@@ -6,8 +6,8 @@ description: Implementation steps
 audience: interaction
 content-type: reference
 topic-tags: general-operation
+exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
 ---
-
 # Implementation steps{#implementation-steps}
 
 ## Configuring Interaction {#configuring-interaction}
@@ -51,4 +51,3 @@ topic-tags: general-operation
 
 1. Creating a campaign.
 1. Referencing an offer in a campaign or a campaign delivery. For more on this, refer to [About outbound channels](../../interaction/using/about-outbound-channels.md).
-

@@ -6,8 +6,8 @@ description: Intersection
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---
-
 # Intersection{#intersection}
 
 An **Intersection**-type activity creates a target from the intersection of the targets received.

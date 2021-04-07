@@ -6,9 +6,9 @@ description: Learn how to zip or crypt a file in Campaign Classic before process
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 ---
-
-# Zipping or encrypting a file {#zipping-or-encrypting-a-file}
+# Zip or encrypt a file {#zipping-or-encrypting-a-file}
 
 Adobe Campaign lets you export zipped or encrypted files. When defining an export through a **[!UICONTROL Data extraction (file)]** activity, you can define a post-processing to zip or to encrypt the file.
 
@@ -18,7 +18,9 @@ To be able to do so:
 
     >[!NOTE]
     >
-    >Control Panel is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
+    >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+    >
+    >Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 1. If your installation of Adobe Campaign is hosted by Adobe, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have the necessary utilities installed on the server.
 1. If your installation of Adobe Campaign is on premise, install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
@@ -27,10 +29,10 @@ You can then use commands or code in the **[!UICONTROL Script]** tab of the acti
 
 **Related topics:**
 
-* [Unzipping or decrypting a file before processing](../../platform/using/unzip-decrypt.md)
+* [Unzip or decrypt a file before processing](../../platform/using/unzip-decrypt.md)
 * [Data extraction (file) activity](../../workflow/using/extraction--file-.md).
 
-## Use case: Encrypting and exporting data using a key installed on Control Panel {#use-case-gpg-encrypt}
+## Use case: Encrypt and export data using a key installed on Control Panel {#use-case-gpg-encrypt}
 
 In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
 

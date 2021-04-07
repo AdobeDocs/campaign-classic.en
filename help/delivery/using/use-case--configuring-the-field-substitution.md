@@ -6,8 +6,8 @@ description: "Use case: configuring the field substitution"
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
+exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 ---
-
 # Use case: configuring the field substitution{#use-case-configuring-the-field-substitution}
 
 Random field substitution lets you attribute a value from the recipient list to the seed addresses that are empty when the user uses this value in a delivery (example: name, city, etc.).

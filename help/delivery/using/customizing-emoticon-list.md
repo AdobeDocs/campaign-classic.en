@@ -6,8 +6,8 @@ description: Learn how to customize the emoticon list when using Adobe Campaign 
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 ---
-
 # Customizing the emoticon list {#customize-emoticons}
 
 The emoticon list displayed in the pop-up is ruled by an enumeration which allows you to display values in a list to restrict the choices that the user has for a given field.

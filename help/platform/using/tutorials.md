@@ -6,8 +6,8 @@ description: Tutorials
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
 ---
-
 # Tutorials{#tutorials}
 
 ## Step-by-step guides {#step-by-step-guides}
@@ -17,7 +17,7 @@ Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 * [Editing email content with Adobe Experience Manager](https://helpx.adobe.com/campaign/kb/acc-aem.html): learn about the basics to get started with the integration between Adobe Campaign and Experience Manager.
 * [Privacy management](https://helpx.adobe.com/campaign/kb/acc-privacy.html): discover what Adobe Campaign Classic provides to help you with your Privacy compliance when using our service.
 * [Integrating dynamic content in an email](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html): discover the basics to get started with the integration between Campaign Classic and Target Standard.
-* [Managing deliverability](../../delivery/using/deliverability-key-points.md): learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Classic to optimize sending your deliveries.
+* [Managing deliverability](../../delivery/using/about-deliverability.md): learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Classic to optimize sending your deliveries.
 * [Delivery best practices](../../delivery/using/delivery-best-practices.md): learn about the best practices related to delivery design and sending with Adobe Campaign Classic.
 * [Performing a build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html): this guide presents you the key steps and best practices to perform a build upgrade with Campaign Classic.
 * [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html): discover key elements to check regarding security configuration and hardening for on-premise deployment

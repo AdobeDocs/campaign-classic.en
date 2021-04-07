@@ -6,8 +6,8 @@ description: About web tracking
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
+exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
 ---
-
 # About web tracking{#about-web-tracking}
 
 In addition to standard tracking that shows the behavior of an internet user clicking on a link in an e-mail message, the Adobe Campaign platform lets you collect information on how internet users browse your website. This data collection is performed by the web tracking module.
@@ -26,4 +26,3 @@ The redirection server collects the following data in this way:
 The following diagram shows the stages of the dialog between the client and the various servers.
 
 ![](assets/d_ncs_integration_webtracking_structure1.png)
-

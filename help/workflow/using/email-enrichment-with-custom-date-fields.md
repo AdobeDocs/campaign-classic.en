@@ -6,8 +6,8 @@ description: Learn how to enrich emails with custom date fields
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
 ---
-
 # Email enrichment with custom date fields{#email-enrichment-with-custom-date-fields}
 
 In this example, we want to send an email with custom data fields to recipients who will celebrate their birthdays this month. The email will include a coupon valid one week before and after their birthdays.

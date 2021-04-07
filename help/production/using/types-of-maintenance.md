@@ -6,8 +6,8 @@ description: Types of maintenance
 audience: production
 content-type: reference
 topic-tags: database-maintenance
+exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 ---
-
 # Types of maintenance{#types-of-maintenance}
 
 ## Application maintenance {#application-maintenance}
@@ -76,4 +76,3 @@ Several strategies are available:
   </tr> 
  </tbody> 
 </table>
-

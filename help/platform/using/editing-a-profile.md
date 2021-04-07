@@ -6,9 +6,9 @@ description: Editing a profile
 audience: platform
 content-type: reference
 topic-tags: profile-management
+exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 ---
-
-# Editing a profile{#editing-a-profile}
+# Edit a profile{#editing-a-profile}
 
 To view information related to a profile, click on their name in the profiles list.
 
@@ -60,7 +60,7 @@ This screen displays the group(s) to which the selected profile belongs. Click *
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-For more on this, refer to [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
+For more on this, refer to [Create and manage lists](../../platform/using/creating-and-managing-lists.md).
 
 ## Subscriptions tab {#subscriptions-tab}
 
@@ -91,4 +91,3 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 >[!NOTE]
 >
 >For more on tracking functionality, please refer to [this page](../../delivery/using/delivery-dashboard.md).
-

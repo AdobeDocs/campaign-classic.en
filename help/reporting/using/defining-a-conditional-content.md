@@ -6,8 +6,8 @@ description: Defining a conditional content
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
 ---
-
 # Defining a conditional content{#defining-a-conditional-content}
 
 You can condition the display of specific report items or pages.

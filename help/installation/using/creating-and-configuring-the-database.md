@@ -6,8 +6,8 @@ description: Creating and configuring the database
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 ---
-
 # Creating and configuring the database{#creating-and-configuring-the-database}
 
 When you create a database, Adobe Campaign provides two different options:
@@ -238,4 +238,3 @@ Example of a Microsoft SQL Server configuration on the base61 database linked to
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
-

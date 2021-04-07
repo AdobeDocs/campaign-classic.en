@@ -6,8 +6,8 @@ description: Creating offer spaces
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
+exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
 ---
-
 # Creating offer spaces{#creating-offer-spaces}
 
 Offer space creation may only be carried out by a **technical administrator** with access to the offer space sub-folder. Offer spaces can only be created in the design environment, and are automatically duplicated into the live environment during offer approval.

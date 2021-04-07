@@ -3,11 +3,11 @@ solution: Campaign Classic
 product: campaign
 title: Get started with permissions
 description: Learn how to grant access to Campaign capabilities
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Access Management
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 ---
-
 # Get started with permissions{#access-management}
 
 Adobe Campaign lets you define and manage the rights assigned to the various operators. These are a set of rights and restrictions that authorize or deny:

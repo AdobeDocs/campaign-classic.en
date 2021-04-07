@@ -6,8 +6,8 @@ description: Learn key steps to create a new report
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 ---
-
 # Create a new report{#creating-a-new-report}
 
 To create a report, apply the following steps:

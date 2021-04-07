@@ -6,8 +6,8 @@ description: Learn more about the best practices to follow regarding privacy.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---
-
 # Privacy {#privacy}
 
 ## Privacy Requests
@@ -50,7 +50,7 @@ To improve security, a new signature mechanism for tracking links in emails has 
 >
 >When a malformed signed URL is clicked, it will return the following error: "Requested URL '… ' was not found."
 
-In addition, starting Campaign 20.2 and Gold Standard release, hosted and hybrid customers can use an enhancement to disable URLs generated from previous builds. This option is disabled by default. You can reach out to [Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to enable this feature.
+In addition, starting Campaign 20.2 and [!DNL Gold Standard] release, hosted and hybrid customers can use an enhancement to disable URLs generated from previous builds. This option is disabled by default. You can reach out to [Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to enable this feature.
 
 To activate this new mechanism, on-premise customers need to follow these steps on all Campaign servers:
 
@@ -58,7 +58,7 @@ To activate this new mechanism, on-premise customers need to follow these steps 
 1. Restart the **nlserver** service.
 1. On the tracking server, restart the web server (apache2 on Debian, httpd on CentOS/RedHat, IIS on Windows).
 
-Customers running on Gold Standard 19.1.4 can experience issues with push notification deliveries using tracking link, or deliveries using anchor tags. If so, Adobe recommends to disable the new signature mechanism for tracking links:
+Customers running on [!DNL Gold Standard] 19.1.4 can experience issues with push notification deliveries using tracking link, or deliveries using anchor tags. If so, Adobe recommends to disable the new signature mechanism for tracking links:
 
 **Hosted and hybrid customers** must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have this mechanism disabled.
 

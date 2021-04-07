@@ -6,8 +6,8 @@ description: Loading delivery content
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 ---
-
 # Loading delivery content{#loading-delivery-content}
 
 If your delivery content is available in an HTML file located on Amazon S3, FTP or SFTP servers, you can easily load this content into Adobe Campaign deliveries.

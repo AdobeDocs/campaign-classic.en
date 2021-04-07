@@ -3,11 +3,11 @@ solution: Campaign Classic
 product: campaign
 title: Get started with Campaign operators
 description: Learn how to create and manage campaign users
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Access Management
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 ---
-
 # Create and manage operators {#operators}
 
 ## Get started with Campaign operators  {#about-operators}

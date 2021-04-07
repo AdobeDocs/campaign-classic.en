@@ -6,8 +6,8 @@ description: Managing activity images
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 ---
-
 # Managing activity images{#managing-activity-images}
 
 The images used in the diagrams of the various workflows can be changed. However they must comply with certain constraints. Here are the implementation stages:
@@ -41,4 +41,3 @@ The images used in the diagrams of the various workflows can be changed. However
 >The images saved in the **[!UICONTROL Administration > Configuration > Images]** node of the tree are available for selection. 
 >  
 >Images must be in PNG format, with 48x48 pixels, 16 million colors, and a transparent background.
-

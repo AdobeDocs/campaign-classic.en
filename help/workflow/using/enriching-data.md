@@ -6,8 +6,8 @@ description: Learn more about the Enrichment workflow activity
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 ---
-
 # Enriching data{#enriching-data}
 
 ## About enriching data {#about-enriching-data}
@@ -118,4 +118,3 @@ To sort the recipients based on their scores, a **[!UICONTROL Split]** activity 
 1. Add a **[!UICONTROL Delivery]** type activity for each subset, using a different delivery template for each.
 
    ![](assets/uc1_enrich_20.png)
-

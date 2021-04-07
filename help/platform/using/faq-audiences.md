@@ -6,8 +6,8 @@ description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
 ---
-
 # Profiles and Audiences FAQ {#audiences-faq}
 
 Learn how to target a population and manage audiences within Adobe Campaign.

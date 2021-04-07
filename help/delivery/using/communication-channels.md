@@ -6,8 +6,8 @@ description: Create deliveries to send personalized messages on different channe
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
+exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 ---
-
 # Communication channels{#communication-channels}
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). These messages are designed and sent though deliveries, and can be personalized for each recipient.
@@ -16,7 +16,7 @@ Core functionalities include targeting, definition and personalization of messag
 
 >[!NOTE]
 >
->Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. For more information, consult the [Deliverability getting started](../../delivery/using/deliverability-key-points.md) and [Deliverability management](../../delivery/using/about-deliverability.md).
+>Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. Learn more in [this section](../../delivery/using/about-deliverability.md).
 
 Delivery sending can be automated by preparing a delivery and/or sending it in the process of a workflow. For more on delivery-type activities in workflows, refer to [this section](../../workflow/using/about-action-activities.md).
 

@@ -6,8 +6,8 @@ description: Learn how to configure access to Snowflake in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 ---
-
 # Configure access to Snowflake {#configure-access-to-snowflake}
 
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Snowflake].

@@ -6,8 +6,8 @@ description: Stack trace in Linux
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
 ---
-
 # Stack trace in Linux{#stack-trace-in-linux}
 
 A **stack trace** represents a trace contained in a **core** type file. This file is generated in the event of a machine error. It can identify the origin of the error.
@@ -58,4 +58,3 @@ For example:
 ```
 gdb nlserver.1823 <coreFile>
 ```
-

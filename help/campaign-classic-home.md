@@ -4,8 +4,8 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic product documentation
 topic: Premium
+exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 ---
-
 # Help Center {#campaign-classic-documentation}
 
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) 
@@ -16,7 +16,7 @@ topic: Premium
 
 * **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**.
 
-* **[Secure your Campaign instances](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> Update to the latest builds to secure your Campaign platform.
+* **[Secure your Campaign instances](technotes/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform.
 
 * **[Remove incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
 
@@ -24,13 +24,13 @@ topic: Premium
 
 * **[Move to HTTP/2-based APNs provider API](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/> Learn how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API
 
-* **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/> Access FAQs, best practices, help resources, and request for help
+* **[Get Support](support.md)**<br/> Access FAQs, best practices, help resources, and request for help
 
 [More updates](/help/rn/using/documentation-updates.md)
 
 ## Top pages
 
-<table>
+<table style="table-layout:fixed">
 <tr>
   <td>
     <a href="platform/using/common-questions.md">
@@ -81,6 +81,6 @@ topic: Premium
 | [Release notes](/help/rn/using/latest-release.md) | [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [How-to videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
 | [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
+| [[!DNL Gold Standard] upgrade](rn/using/gs-overview.md) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [Deprecated features](rn/using/deprecated-features.md) | [Security & privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Monitoring guidelines](production/using/monitoring-guidelines.md) |

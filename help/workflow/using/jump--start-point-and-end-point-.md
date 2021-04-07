@@ -6,8 +6,8 @@ description: Jump (start point and end point)
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 ---
-
 # Jump (start point and end point){#jump-start-point-and-end-point}
 
  **[!UICONTROL Jump]** -type graphical objects are used to improve the readability of a complex diagram, particularly one with crossing transitions.

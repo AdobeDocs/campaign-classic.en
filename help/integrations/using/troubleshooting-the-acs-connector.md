@@ -6,8 +6,8 @@ description: Troubleshooting the ACS Connector
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
+exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 ---
-
 # Troubleshooting the ACS Connector{#troubleshooting-the-acs-connector}
 
 Depending on your implementation, you can face several common issues.
@@ -105,4 +105,3 @@ Depending on your implementation, you can face several common issues.
 * **I cannot edit a profile, an audience or a landing page in Campaign Standard. What does it mean?**
 
   Resources synchronized from Campaign v7 are in read-only mode in Campaign Standard, to ensure data consistency. If you need to edit one of these elements, you can do it in Campaign v7 and then replicate the change in Campaign Standard.
-

@@ -6,8 +6,8 @@ description: Form rendering
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 723a6c47-5323-4914-a014-58be493852cc
 ---
-
 # Form rendering{#form-rendering}
 
 ## Selecting the form rendering template {#selecting-the-form-rendering-template}
@@ -174,4 +174,3 @@ To import an element into a form, apply the following steps:
 1. Click **[!UICONTROL Ok]** to confirm insertion.
 
    ![](assets/s_ncs_admin_survey_import_block_rendering.png)
-

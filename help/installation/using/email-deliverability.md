@@ -1,13 +1,13 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Email deliverability
-description: Email deliverability
+title: Technical email configuration
+description: Learn how to configure Campaign to control the output of your instances when delivering emails.
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 ---
-
 # Technical email configurations{#email-deliverability}
 
 ## Overview {#overview}
@@ -18,9 +18,9 @@ The following section provides an overview of the configuration required for con
 >
 >Some configurations can only be performed by Adobe for deployments hosted by Adobe, for example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
 
-For more on the concepts and best practices related to deliverability, refer to this [section](../../delivery/using/about-deliverability.md).
+For more on the concepts and best practices related to deliverability with Adobe Campaign, refer to this [section](../../delivery/using/about-deliverability.md).
 
-All technical recommendations concerning the efficient sending and receiving of emails by an Adobe Campaign platform are available in this [section](../../delivery/using/technical-recommendations.md).
+For a deeper dive on what deliverability is, including all technical recommendations concerning the efficient sending and receiving of emails by an Adobe platform, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## Operating principle {#operating-principle}
 
@@ -128,9 +128,11 @@ By default, the statistics server listens on port 7777. This port can be modifie
 >
 >For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 
-The sections below only apply to on-premise installations and hosted/hybrid installations using the legacy Campaign MTA.
-
 ### About MX rules {#about-mx-rules}
+
+>[!NOTE]
+>
+>This section and the sections below only apply to on-premise installations and hosted/hybrid installations using the legacy Campaign MTA.
 
 MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
 
@@ -294,6 +296,10 @@ The following parameters available for each rule are:
 Configuration example:
 
 ![](assets/s_ncs_install_mx_mgt_rule_details.png)
+
+>[!NOTE]
+>
+>For more on using MX servers with Adobe Campaign, see [this section](../../installation/using/using-mx-servers.md).
 
 ### Managing email formats {#managing-email-formats}
 

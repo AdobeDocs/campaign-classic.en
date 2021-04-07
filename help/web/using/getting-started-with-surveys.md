@@ -6,8 +6,8 @@ description: Create your first survey with Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 ---
-
 # Key steps to create a survey{#getting-started-with-surveys}
 
 Here is a quick overview of the main steps to create a simple survey, using the following template:
@@ -145,4 +145,3 @@ You can then monitor user responses via reports and logs. See [Response tracking
 >The public URL includes the internal name of the survey. When the internal name is modified, the URL is updated automatically: all links to the survey must also be updated.
 >
 >If deliveries containing the link to the form have already been sent, this link will no longer work.
-

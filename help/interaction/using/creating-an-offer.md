@@ -6,8 +6,8 @@ description: Creating an offer
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
+exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 ---
-
 # Creating an offer{#creating-an-offer}
 
 ## Creating the offer {#creating-the-offer}
@@ -179,4 +179,3 @@ Hypotheses carried out on an offer proposition are referenced in their **[!UICON
 Creating hypotheses is detailed in [this page](../../campaign/using/about-response-manager.md).
 
 ![](assets/offer_hypothesis_001.png)
-

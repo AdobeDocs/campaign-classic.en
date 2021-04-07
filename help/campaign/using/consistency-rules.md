@@ -6,8 +6,8 @@ description: Consistency rules
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 ---
-
 # Consistency rules{#consistency-rules}
 
 ## About consistency rules {#about-consistency-rules}

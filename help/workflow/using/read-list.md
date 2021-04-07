@@ -6,8 +6,8 @@ description: Learn more about the Read list workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 ---
-
 # Read list{#read-list}
 
 Data processed in a workflow can come from lists whereby the data has been prepared or structured beforehand (after a previous segmentation or file upload).
@@ -63,4 +63,3 @@ The profiles contained in the **New Contacts** folder must be targeted by a deli
    ![](assets/s_advuser_list_read_sample_4.png)
 
 1. Then select the field corresponding to the email address in the two sets (Source and Destination). The columns will then be linked and the recipients whose email address is in the list of imported addresses will be excluded from the target.
-

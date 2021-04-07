@@ -6,8 +6,8 @@ description: Operator profiles
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
+exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 ---
-
 # Operator profiles{#operator-profiles}
 
 There are two types of operators who use Interaction: offer managers and delivery managers. They each have specific rights that only give them access to some parts of the tree and the platform.
@@ -176,4 +176,3 @@ The rights assigned to the delivery manager are/enable them to carry out the fol
   </tr> 
  </tbody> 
 </table>
-

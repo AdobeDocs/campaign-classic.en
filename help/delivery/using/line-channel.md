@@ -6,8 +6,8 @@ description: LINE channel
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
+exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 ---
-
 # Create LINE deliveries{#line-channel}
 
 >[!NOTE]

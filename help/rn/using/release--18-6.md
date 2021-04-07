@@ -9,8 +9,8 @@ topic-tags: latest-release-notes
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
 ---
-
 # Release 18.6{#release-18-6}
 
 ## Release 18.6.2 - Build 8949{#release-18-6-3-build-8949}

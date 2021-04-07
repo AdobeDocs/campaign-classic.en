@@ -6,8 +6,8 @@ description: Configuring multibranding
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
+exl-id: aa2e7ef7-fe69-41c8-9c90-bfb1533031a5
 ---
-
 # Configuring multibranding{#configuring-multibranding}
 
 This section describes one solution to configure tracking and mirror page URLs per brand, for transactional messages in Adobe Campaign.
@@ -74,4 +74,3 @@ On the control instance, you need to link delivery templates and external accoun
 1. Create one external account per brand with the same internal name as defined in step 1.
 1. Create one default delivery template per brand.
 1. In the delivery template's **[!UICONTROL Properties]** , set the routing to the external account of the brand.
-

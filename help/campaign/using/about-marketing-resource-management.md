@@ -6,8 +6,8 @@ description: About marketing resource management
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 ---
-
 # About marketing resource management{#about-marketing-resource-management}
 
 ## Introduction {#introduction}
@@ -53,4 +53,3 @@ Additionally, plans and programs in Adobe Campaign offer extra functionalities:
 * Task management. For more on this, refer to [Creating and managing tasks](../../campaign/using/creating-and-managing-tasks.md)
 
 * Marketing resource management. For more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md)
-

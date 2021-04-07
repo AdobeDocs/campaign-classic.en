@@ -6,8 +6,8 @@ description: Discussion forums
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 ---
-
 # Discussion forums{#discussion-forums}
 
 Adobe Campaign operators can use discussion forums to share information. The following elements each have their own forum: plans, programs, campaigns, resources, simulations, stocks. Each operator also has a personal forum. All discussions are public, even on personal forums.
@@ -106,4 +106,3 @@ If operators subscribed to a forum aren't receiving notifications as expected:
     * In the explorer, go to **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, then click **[!UICONTROL Discussion forum notifications]**.
 
   In the **[!UICONTROL Discussion forum notifications]** box, the delivery logs are found in the **[!UICONTROL Edit > Delivery]** tab. You can also view the **[!UICONTROL Tracking > Log]** and the **[!UICONTROL Exclusion causes]** tabs.
-

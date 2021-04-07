@@ -6,8 +6,8 @@ description: Schema structure
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
+exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 ---
-
 # Schema structure{#schema-structure}
 
 The basic structure of an `<srcschema>` is as follows:
@@ -530,4 +530,3 @@ Result of the computed string for a recipient: **Doe John (john.doe@aol.com)**
 >[!NOTE]
 >
 >If the schema does not contain a Compute string, a Compute string is populated by default with the values of the primary key of the schema.
-

@@ -6,8 +6,8 @@ description: Learn how to configure security zones
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 ---
-
 # Define security zones {#defining-security-zones}
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.

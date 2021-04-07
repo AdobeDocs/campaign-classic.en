@@ -6,8 +6,8 @@ description: Learn how to work with Campaign Classic data model
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
+exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 ---
-
 # Data model best practices{#data-model-best-practices}
 
 This document outlines key recommendations while designing your Adobe Campaign data model.

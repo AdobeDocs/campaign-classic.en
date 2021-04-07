@@ -6,11 +6,21 @@ description: Release notes for Campaign 19.2
 feature:
 role: 
 level:
+exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 ---
-
 # Release 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
+
+_March 22, 2021_
+
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
 
 _December 23, 2020_
 
@@ -166,5 +176,3 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed an issue when accessing to Predictive models. (NEO-19713)
 * Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
 * Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
-
-

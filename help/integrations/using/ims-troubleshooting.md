@@ -6,8 +6,8 @@ description: IMS troubleshooting
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
+exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 ---
-
 # IMS troubleshooting{#ims-troubleshooting}
 
 The following troubleshooting tips will help **on-premise** customers solve the most common problems happening when using the IMS integration. For **hosted** customers, please contact Adobe.
@@ -75,4 +75,3 @@ Restart the server if any changes are made to the above settings in the Campaign
 * The user is unable to access the Adobe ID login page:
 
   Refer to the previous steps to check the scope configuration.
-

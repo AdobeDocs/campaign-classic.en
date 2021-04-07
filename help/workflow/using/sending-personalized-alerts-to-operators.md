@@ -6,8 +6,8 @@ description: Learn how to send personalized alerts to operators
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 ---
-
 # Sending personalized alerts to operators{#sending-personalized-alerts-to-operators}
 
 In this example, we want to send an alert to an operator that will contain the name of profiles who opened a newsletter but did not click the link it contains.
@@ -93,4 +93,3 @@ for each (var item in items){
 >You can add as many fields as desired, as long as they have been inserted into the JavaScript code.
 
 ![](assets/uc_operator_8.png)
-

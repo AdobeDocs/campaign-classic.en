@@ -6,8 +6,8 @@ description: Form structure
 audience: configuration
 content-type: reference
 topic-tags: input-forms
+exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 ---
-
 # Form structure{#form-structure}
 
 The description of a form is a structured XML document that observes the grammar of the form schema **xtk:form**.
@@ -665,4 +665,3 @@ The **exprIn** attribute contains the location of the data to be passed as a par
   </soapCall>
 </leave>
 ```
-

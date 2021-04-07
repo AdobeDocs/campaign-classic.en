@@ -6,8 +6,8 @@ description: RDBMS Specific recommendations
 audience: production
 content-type: reference
 topic-tags: database-maintenance
+exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 ---
-
 # RDBMS Specific recommendations{#rdbms-specific-recommendations}
 
 To help you set up maintenance plans, this section lists some recommendations/best practices adapted to the various RDBMS engines that Adobe Campaign supports. However, these are only recommendations. It is up to you to adapt them to your needs, in keeping with your internal procedure and constraints. Your database administrator has the responsability of building and executing these plans.

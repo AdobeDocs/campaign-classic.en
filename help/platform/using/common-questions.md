@@ -6,8 +6,8 @@ description: Adobe Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 ---
-
 # Common questions{#common-questions}
 
 Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also:
@@ -16,13 +16,13 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 * [Browse self-help options](../../platform/using/tutorials.md#how-to-videos)
 * [Read out get started and use cases section](../../platform/using/tutorials.md#step-by-step-guides)
 * Cannot find the answer? [Ask the Expert](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* Need support? [Consult Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html)
+* Need support? [Consult Campaign Help and Support options](../../support.md)
 
 ## 1. How can I upgrade Campaign to the latest version? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
 Adobe Campaign Classic, specifically, uses a range of technology to deliver value. This combination of technologies requires you to upgrade your Campaign Classic instance(s) on a regular basis, to ensure the most up-to-date versions are being used to deliver superior security, stability, and performance.
 
-If you are using Adobe Managed Services, you can benefit from Campaign Gold Standard upgrade. For more on this refer to [this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+If you are using Adobe Managed Services, you can benefit from Campaign [!DNL Gold Standard] upgrade. For more on this refer to [this article](../../rn/using/gs-overview.md).
 
 [Read out this section](../../production/using/build-upgrade.md) to learn how to update your environment and read [Common questions](../../platform/using/faq-build-upgrade.md) on this specific topic.
 
@@ -68,4 +68,3 @@ A subdomain is a division of your domain that can be used to isolate your brands
 Adobe takes account of the Domain Name System (DNS) for email delivery, which allows the client to keep their brand image by using a DNS alias with its domain names, and Adobe to autonomously implement all the technical best practices that allow it to optimize deliverability during emailing.
 
 [Click here to learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
-

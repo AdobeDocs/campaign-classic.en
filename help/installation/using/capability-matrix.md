@@ -6,8 +6,8 @@ description: Learn main differences between hosted and on-premise deployments
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
+exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 ---
-
 # Capability matrix per model{#capability-matrix-per-model}
 
 Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their use can depend on the type of deployment of your installation. This article shares some details about the main differences for certain features between fully hosted (Managed Services) and on-premise deployments.
@@ -49,5 +49,5 @@ Adobe Campaign provides the **Federated Data Access** (FDA) option in order to p
 * [Release notes](../../rn/using/latest-release.md)
 * [Campaign Classic upgrades](../../rn/using/rn-overview.md)
 * [Deprecated and removed features](../../rn/using/deprecated-features.md)
-* [Gold Standard releases](../../rn/using/gold-standard.md)
-* [Gold Standard program](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+* [[!DNL Gold Standard] releases](../../rn/using/gold-standard.md)
+* [[!DNL Gold Standard] program](../../rn/using/gs-overview.md)

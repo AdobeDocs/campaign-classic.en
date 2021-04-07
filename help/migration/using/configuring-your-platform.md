@@ -6,8 +6,8 @@ description: Configuring your platform
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
+exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 ---
-
 # Configuring your platform{#configuring-your-platform}
 
 Certain major changes in Adobe Campaign v7 require a configuration to ensure its effective operation. These parameters may be necessary before or after migrating. The concerned changes and their configuration mode are presented in this section.
@@ -123,4 +123,3 @@ After running **postupgrade**, the following elements must be taken into account
 * Interaction
 
   If you use **Interaction**, you must adjust any parameters after the migration. For more on this, refer to the [Interaction](../../migration/using/general-configurations.md#interaction) section.
-

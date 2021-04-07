@@ -6,8 +6,8 @@ description: Alert
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
 ---
-
 # Alert{#alert}
 
 An **Alert** activity sends a message to a group of operators. It operates the same way as an approval activity, but no response is expected in this case.

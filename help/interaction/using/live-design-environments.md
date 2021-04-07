@@ -6,8 +6,8 @@ description: Live/Design environments
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
+exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
 ---
-
 # Live/Design environments{#live-design-environments}
 
 ## Operating principle {#operating-principle}
@@ -60,4 +60,3 @@ By default, Interaction comes with a pre-configured environment to target the re
 >[!NOTE]
 >
 >For more information on anonymous interactions on an inbound channel, refer to [Anonymous interactions](../../interaction/using/anonymous-interactions.md).
-

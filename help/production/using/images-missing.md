@@ -6,8 +6,8 @@ description: Images missing
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
 ---
-
 # Images missing{#images-missing}
 
 In the 17.9 release, several files (icons in particular) have been moved.

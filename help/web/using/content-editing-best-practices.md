@@ -6,8 +6,8 @@ description: Content editing best practices
 audience: web
 content-type: reference
 topic-tags: editing-html-content
+exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 ---
-
 # Content editing best practices{#content-editing-best-practices}
 
 To ensure the editor's optimal operation, we recommend observing the following guidelines:
@@ -89,4 +89,3 @@ The upper section of the editor displays messages related to the status of the c
 * There are n fields or personalization blocks to configure.
 * The delivery content is ready, please run the analysis again to apply any changes.
 * The delivery is ready to be sent.
-

@@ -6,8 +6,8 @@ description: Delivery execution
 audience: message-center
 content-type: reference
 topic-tags: event-processing
+exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 ---
-
 # Delivery execution{#delivery-execution}
 
 ## Transactional message sending {#transactional-message-send}

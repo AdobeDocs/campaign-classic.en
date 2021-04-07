@@ -6,8 +6,8 @@ description: Sharing audiences with Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
+exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
 ---
-
 # Sharing audiences with Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}
 
 >[!CAUTION]
@@ -29,3 +29,9 @@ This integration supports two types of Adobe Experience Cloud IDs:
 
 * **Visitor ID**: this type of identifier reconciliates Adobe Experience Cloud visitors with Adobe Campaign recipients.
 * **Declared ID**: this type of identifier reconciliates all types of data with elements from the Adobe Campaign database. It is represented in Adobe Campaign as a predefined reconciliation key.
+
+    >[!NOTE]
+    >
+    > Declared ID data source can now also be used with People core service integration.
+    >
+    >If you are using the People core service integration and want to add the Audience Manager integration, you will need the help of an Adobe Audience Manager consultant’s to avoid losing all of the ID syncs collected when transitioning to using this Declared ID data source in an Adobe Audience Manager context.

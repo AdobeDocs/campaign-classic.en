@@ -6,17 +6,21 @@ description: Configuring Campaign server
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 ---
-
 # Configuring Campaign server{#configuring-campaign-server}
 
 The section below details server-side configurations that can be performed to match your needs and your environment specificities.
 
->[!IMPORTANT]
+These configurations must be performed by administrators and for **On-premise** hosting models only.
+
+For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP allowlist management or URL permissions).
+
+>[!NOTE]
 >
->These configurations must be performed by administrators and for **On-premise** hosting models only.
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 >
->For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP allowlist management or URL permissions).
+>Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 For more information, refer to these sections:
 
@@ -342,6 +346,12 @@ They way you can manage URL permissions depends on your hosting model:
 * **Hybrid** or **On-premise**: add the URLs to allow into the **serverConf.xml file**. Detailed information is available in the section below.
 * **Hosted**: add the URLs to allow via the **Control Panel**. For more information, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html).
 
+   >[!NOTE]
+   >
+   >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >
+   >Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build. Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+
 With **Hybrid** and **On-premise** hosting models, the administrator needs to reference a new **urlPermission** in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 Three connection protection modes exist:
@@ -665,4 +675,4 @@ If you use the same proxy for several connection types, only the proxyHTTP will 
 
 If you have internal connections that should go through the proxy, add them in the override parameter.
 
-If you want to tempararily disable the proxy connection, set the enabled parameter to "false" or "0". 
+If you want to tempararily disable the proxy connection, set the enabled parameter to "false" or "0".

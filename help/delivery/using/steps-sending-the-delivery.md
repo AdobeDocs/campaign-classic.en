@@ -6,8 +6,8 @@ description: Configuring and sending the delivery
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
+exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 ---
-
 # Configuring and sending the delivery {#configuring-and-sending-the-delivery}
 
 >[!NOTE]

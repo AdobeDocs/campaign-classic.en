@@ -6,8 +6,8 @@ description: Standard deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 ---
-
 # Standard deployment{#standard-deployment}
 
 For this configuration, three computers are required:
@@ -171,4 +171,3 @@ The steps are as follows:
    >[!NOTE]
    >
    >We use the existing instance of the two tracking servers created previously and use the **internal** login.
-

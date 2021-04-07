@@ -6,8 +6,8 @@ description: Additional data
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
+exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 ---
-
 # Additional data{#additional-data}
 
 During a call to the Interaction engine, you can transfer contextual additional information. This data can come from the target data stored in the work table of a workflow (outbound channel) or the call data sent by the website during the call (inbound channel). You can use this additional data in the eligibility rules, in offer personalization, and you can also store it in a proposition table.
@@ -116,4 +116,3 @@ In the **[!UICONTROL Storage path]** column, select the storage field in the pro
 You can retrieve call data when the proposition is generated or when it is accepted (when the person clicks on the offer).
 
 ![](assets/ita_calldata_storage.png)
-

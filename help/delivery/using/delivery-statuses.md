@@ -6,8 +6,8 @@ description: Learn more about the statuses available on your delivery dashboard.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 ---
-
 # Delivery statuses {#delivery-statuses}
 
 <!--ajouter intro 
@@ -80,7 +80,7 @@ For more details on the different delivery failures you can encounter, and how t
  </tbody> 
 </table>
 
-To learn how to optimize the deliverability of your Adobe Campaign emails, refer to Adobe Campaign [Deliverability best practices guide](../../delivery/using/deliverability-key-points.md)  and to [this page](../../delivery/using/about-deliverability.md).
+To learn how to optimize the deliverability of your Adobe Campaign emails, refer to [this section](../../delivery/using/about-deliverability.md). For a deeper dive on deliverability, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## Pending status {#pending-status}
 

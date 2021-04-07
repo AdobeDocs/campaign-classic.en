@@ -6,8 +6,8 @@ description: Simulation scope
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
+exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 ---
-
 # Simulation scope{#simulation-scope}
 
 ## Definition of the scope {#definition-of-the-scope}
@@ -44,4 +44,3 @@ You can enhance the simulation analysis by adding reporting axes on the target o
 To do this, click the **[!UICONTROL Add]** button and choose the appropriate fields. Axes will be used for calculating the simulation and are displayed in the analysis report. For more on this, refer to [Simulation tracking](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)
-

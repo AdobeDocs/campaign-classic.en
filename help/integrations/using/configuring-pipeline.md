@@ -5,8 +5,8 @@ title: Configuring the pipeline
 description: Learn how to configure the pipeline
 audience: integrations
 content-type: reference
+exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 ---
-
 # Configuring pipeline {#configuring-pipeline}
 
 Authentication parameters such as the customer ID, the private key, and the authentication endpoint are configured in the instance configuration files.
@@ -21,7 +21,7 @@ The triggers are used for targeting by a campaign workflow that sends emails. Th
 
 Before starting this configuration, please check you are using:
 
-* Adobe Campaign 20.3, 20.2.4, 19.1.8 or Gold Standard 11 minimum
+* Adobe Campaign 20.3, 20.2.4, 19.1.8 or [!DNL Gold Standard] 11 minimum
 * Adobe Analytics Standard version
 
 You will also need:

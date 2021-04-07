@@ -6,8 +6,8 @@ description: Learn more about the Test workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
 ---
-
 # Test{#test}
 
 A **Test** type activity activates the first transition that satisfies the condition associated with it. If no condition is satisfied and if the **[!UICONTROL Use the default fork]** option is activated, the default transition will be activated.

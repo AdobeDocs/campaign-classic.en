@@ -6,8 +6,8 @@ description: Content editor interface
 audience: web
 content-type: reference
 topic-tags: editing-html-content
+exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 ---
-
 # Content editor interface{#content-editor-interface}
 
 ## Editing window {#editing-window}
@@ -80,4 +80,3 @@ The toolbar is a **pop-up element** of the DCE interface that presents different
 >[!CAUTION]
 >
 >Certain toolbar functions let you format the HTML content. However, if the page contains a CSS style sheet, the **instructions** from the style sheet may prove to take **priority** over the instructions specified with the toolbar.
-

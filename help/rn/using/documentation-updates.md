@@ -6,8 +6,8 @@ description: This page lists all the new features and updates in Adobe Campaign 
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 ---
-
 # Documentation Updates{#documentation-updates}
 
 This page lists all the new features and documentation updates per month and Campaign release.
@@ -16,7 +16,9 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## March 2021 {#march-2021}
 
-A new page has been added with guidelines and references to get support about Campaign Classic. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html)
+The [Get started with SMS section](../../delivery/using/sms-channel.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../delivery/using/sms-set-up.md), [create a SMS](../../delivery/using/sms-create.md), [send and track SMS](../../delivery/using/sms-send.md) in dedicated sections.
+
+The "Help & support options" page for Campaign Classic has been integrated into the core documentation. [Read more](../../support.md)
 
 A new section has been added with best practices and checks to perform regarding security and privacy. [Read more](../../installation/using/get-started-security-privacy.md)
 
@@ -30,6 +32,8 @@ Learn how to create and manage your campaigns through these new pages:
 * [Set up and manage the approval process](../../campaign/using/marketing-campaign-approval.md)
 
 Information has been added in the **[!UICONTROL Advanced JavaScript]** activity section on how to use the task.setCompleted() method to terminate the task and prevent future recalls. [Read more](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+
+The [Deliverability](../../delivery/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## February 2021 {#release-21.1}
 
@@ -123,7 +127,7 @@ The Compatibility matrix has been updated. [Read more](../../rn/using/compatibil
 
 The Deprecated and removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
 
-Release notes and Compatibility matrix for Gold Standard release are now available in a dedicated section.
+Release notes and Compatibility matrix for [!DNL Gold Standard] release are now available in a dedicated section.
 [Read more](../../rn/using/gold-standard.md#gs-11).
 
 Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
@@ -160,7 +164,7 @@ A note has been added regarding the use of additional data with seed addresses i
 
 Learn best practices related to delivery design and sending with Campaign in a dedicated section. [Read more](../../delivery/using/delivery-best-practices.md)
 
-The Deliverability best practices landing page has been improved to facilitate access to sub-sections. [Read more](../../delivery/using/deliverability-key-points.md)
+The Deliverability best practices landing page has been improved to facilitate access to sub-sections. [Read more](../../delivery/using/about-deliverability.md)
 
 How-to videos are now available on the following topics:
 
@@ -199,7 +203,7 @@ The **[!UICONTROL AND-join]** activity section has been enriched with additional
 
 A use case on how to automatically update a list using an incremental query has been added to the workflow use cases. [Read more](../../workflow/using/about-workflow-use-cases.md)
 
-The [Release Notes](../../rn/using/latest-release.md) have been reorganized: an [overview page](../../rn/using/latest-release.md) has been added with information on build statuses, upgrade process, recommendations and important links. A dedicated page for [Gold Standard releases](../../rn/using/gold-standard.md) has also been added and the [Compatibility matrix](../../rn/using/compatibility-matrix.md) has been integrated.
+The [Release Notes](../../rn/using/latest-release.md) have been reorganized: an [overview page](../../rn/using/latest-release.md) has been added with information on build statuses, upgrade process, recommendations and important links. A dedicated page for [[!DNL Gold Standard] releases](../../rn/using/gold-standard.md) has also been added and the [Compatibility matrix](../../rn/using/compatibility-matrix.md) has been integrated.
 
 A new section has been added with guidelines related to Campaign Classic monitoring. [Read more](../../production/using/monitoring-guidelines.md)
 
@@ -259,7 +263,7 @@ The Monitoring deliverability section has been moved and improved. [Read more](.
 
 The Deliverability troubleshooting section has been moved and improved. [Read more](../../delivery/using/deliverability-faq.md)
 
-Deliverability guidelines when starting a new platform section has been enhanced. [Read more](../../delivery/using/starting-new-platform.md)
+Deliverability guidelines when starting a new platform have been enhanced. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
 
 The Sending transactional emails with attachments section has been moved and updated. [Read more](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -431,7 +435,7 @@ A new page of best practices for Adobe Analytics Data Connector has been added. 
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../delivery/using/delivery-best-practices.md)
 
-A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-channel.md#automatic-reply)
+A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-set-up.md#automatic-reply)
 
 Information was added in the Scheduler activity documentation on how to prevent simultaneous executions of a workflow. [Read more](../../workflow/using/scheduler.md)
 
@@ -469,7 +473,7 @@ A section has been added describing the installation and configuration steps for
 
 A section has been added describing the Campaign server uninstallation steps. [Read more](../../installation/using/uninstalling-campaign.md)
 
-The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/deliverability-key-points.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
+The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
 The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
 

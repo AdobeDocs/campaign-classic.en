@@ -6,11 +6,11 @@ description: Use case
 audience: platform
 content-type: reference
 topic-tags: filtering-data
+exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 ---
-
 # Use case{#use-case}
 
-## Creating a filter on the email format of subscribers {#creating-a-filter-on-the-email-format-of-subscribers}
+## Create a filter on the email format of subscribers {#creating-a-filter-on-the-email-format-of-subscribers}
 
 This use case will show you how to create a filter to sort newsletter subscriptions based on recipient email format.
 
@@ -37,7 +37,7 @@ Apply the following steps:
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   You can access these fields to define filter conditions in the body of the filter editor. An application filter is defined in exactly the same way as an advanced filter. See [Creating an advanced filter](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   You can access these fields to define filter conditions in the body of the filter editor. An application filter is defined in exactly the same way as an advanced filter. See [Create an advanced filter](../../platform/using/creating-filters.md#creating-an-advanced-filter).
 
 1. Create a new filter on subscriptions to display only subscriptions with an undefined email format:
 
@@ -51,4 +51,3 @@ Apply the following steps:
    The name of the current filter is displayed above the list. To cancel the filter, click the **[!UICONTROL Delete this filter]** icon.
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)
-

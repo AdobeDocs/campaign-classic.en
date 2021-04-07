@@ -7,8 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: yes
+exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 ---
-
 # Migrate unsupported SMS connector to the Extended Generic SMPP connector{#unsupported-connector-migration}
 
 As of release 20.2, legacy connectors are deprecated. This document will help you migrate connectors that are still running on the old system to the recommended SMPP connector.
@@ -40,7 +40,7 @@ Old SMS connectors are using the Java SMS connector that overloads the web proce
 >
 >Even if you can transpose the parameters, configuring the **[!UICONTROL Extended Generic SMPP]** connector requires you to talk with your provider who will give you the information needed to fill in the rest of the parameters. For more on this, refer to this [page](../../delivery/using/sms-protocol.md).
 
-First, you will need to create a new **[!UICONTROL Extended Generic SMPP]** external account and then you might be able to transpose some of the parameters. You can find the detailed steps in this [page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+First, you will need to create a new **[!UICONTROL Extended Generic SMPP]** external account and then you might be able to transpose some of the parameters. You can find the detailed steps in this [page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 You now need to fill in the parameters from the **[!UICONTROL Mobile]** tab of your newly created **[!UICONTROL Extended Generic SMPP]** external account depending on your previous connector.
 

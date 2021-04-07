@@ -6,13 +6,16 @@ description: Latest Campaign Classic Release Notes
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 ---
-
 # Latest release{#latest-release}
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release Candidate version**.
 
-For Campaign Classic Gold Standard version (latest GA build), [refer to this page](../../rn/using/gold-standard.md).
+>[!NOTE]
+>
+>Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 20.2.5 release](../../rn/using/release--20-2.md).
+>
 
 ## ![](assets/do-not-localize/blue_2.png) Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 

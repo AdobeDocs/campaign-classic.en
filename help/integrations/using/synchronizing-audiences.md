@@ -6,8 +6,8 @@ description: Synchronizing audiences
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
+exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 ---
-
 # Synchronizing audiences{#synchronizing-audiences}
 
 You can build a sophisticated list by using the Campaign v7 advanced features and share this list as an audience directly and in real time with Campaign Standard (including additional data) in a seamless way. Your Campaign Standard user can then consume the audience in Adobe Campaign Standard.
@@ -144,4 +144,3 @@ Once the delivery and its content are ready, send the delivery, as described wit
       Quarantines are automatically synchronized back to Campaign v7. This allows to take non-deliverable information into account for the next targeting performed in Campaign v7.
 
       You can find more information about quarantine management in Campaign Standard in [this section](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
-

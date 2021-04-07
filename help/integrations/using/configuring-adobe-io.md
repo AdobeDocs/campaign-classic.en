@@ -8,8 +8,8 @@ content-type: reference
 index: y
 internal: n
 snippet: y
+exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 ---
-
 # Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
 >[!CAUTION]
@@ -20,7 +20,7 @@ snippet: y
 
 ## Prerequisites {#adobe-io-prerequisites}
 
-This integration only applies starting **Campaign Classic 20.3, 20.2.4, 19.1.8 and Gold Standard 11 releases**.
+This integration only applies starting **Campaign Classic 20.3, 20.2.4, 19.1.8 and [!DNL Gold Standard] 11 releases**.
 
 Before starting this implementation, please check you have:
 

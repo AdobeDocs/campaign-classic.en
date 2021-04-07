@@ -6,8 +6,8 @@ description: Using cubes to explore data
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
+exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 ---
-
 # Using cubes to explore data{#using-cubes-to-explore-data}
 
 Marketing Analytics makes it easier to create reports and to identify and select data from the database via cubes. This enables you to:
@@ -162,4 +162,3 @@ To create a table and explore the data in a cube, apply the following steps:
    ![](assets/s_advuser_cube_in_report_02.png)
 
    This lets you build the report to be displayed. For more on this, refer to [Step 2 - Selecting lines and columns](#step-2---selecting-lines-and-columns).
-

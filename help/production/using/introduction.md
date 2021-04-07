@@ -6,8 +6,8 @@ description: Introduction
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
+exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
 ---
-
 # Introduction{#introduction}
 
 This section presents the procedure to be applied to upgrade Adobe Campaign, client side and server side, and describes the switching to Unicode of an existing instance.
@@ -43,4 +43,3 @@ If the new version involves an alteration of the database structure, we recommen
 1. Application server (nlserver web),
 1. Redirection server (webmdl),
 1. Delivery server (nlserver mta).
-

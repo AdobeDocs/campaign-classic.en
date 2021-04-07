@@ -6,8 +6,8 @@ description: Adding fields to a web form
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 ---
-
 # Adding fields to a web form{#adding-fields-to-a-web-form}
 
 In a Web form, fields enable users to enter information and select options. Web forms can offer input fields, selection fields, static and advanced content (captchas, subscriptions, etc.).
@@ -387,4 +387,3 @@ To do this, place a **constant** in the page and specify the value and the stora
 In the following example, the **origin** field of the recipient profile is filled in automatically whenever a user approves this page. The constant is not displayed on the page.
 
 ![](assets/s_ncs_admin_survey_constante.png)
-

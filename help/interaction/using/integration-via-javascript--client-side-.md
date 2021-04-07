@@ -6,8 +6,8 @@ description: Integration via JavaScript (client side)
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
+exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 ---
-
 # Integration via JavaScript (client side){#integration-via-javascript-client-side}
 
 To call the Interaction engine in a web page, insert a call to a JavaScript code directly into the page. This call returns the offer content in a targeted 
@@ -320,4 +320,3 @@ It's possible to use an XML rendering function to create an offer presentation. 
    ```
 
 ![](assets/interaction_xmlmode_001.png)
-
