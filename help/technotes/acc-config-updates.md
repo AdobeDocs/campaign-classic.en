@@ -111,7 +111,7 @@ Upgrade to one of the new versions listed below is mandatory:
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
-* Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
 Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
@@ -140,7 +140,7 @@ Learn how to check your version [in this section](../platform/using/launching-ad
 
 As a hosted customer, If you have upgraded to the new build,  Adobe has already updated your instance(s) to the HTTP/2-based API.
 
-As an on-premise/hosted customer, you need to update your configuration. [Learn how to migrate to HTTP/2](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+As an on-premise/hybrid customer, you need to update your configuration. [Learn how to migrate to HTTP/2](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ### APNs root certificate updates
 

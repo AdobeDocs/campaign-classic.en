@@ -26,7 +26,7 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 >
 > * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 20.3.3](../../rn/using/latest-release.md) 
-> * [Campaign 20.2.4](../../rn/using/release--20-2.md) 
+> * [Campaign 20.2.5](../../rn/using/release--20-2.md) 
 > * [Campaign 20.1.4](../../rn/using/release--20-1.md)
 > * [Campaign 19.2.4](../../rn/using/release--19-2.md) 
 > * [Campaign 19.1.8](../../rn/using/release--19-1.md)
