@@ -136,7 +136,7 @@ To create a [!DNL LINE] delivery you have to follow these steps:
 
 To define the content of a [!DNL LINE] delivery, you first have to add message type to your delivery. Each [!DNL LINE] delivery can contain up to 5 messages.
 
-You can choose between two message types:
+You can choose between three message types:
 
 * [Text message](#configuring-a-text-message-delivery)
 * [Image and link](#configuring-an-image-and-link-delivery)
