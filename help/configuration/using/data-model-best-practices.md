@@ -244,7 +244,7 @@ By default, Adobe Campaign delivery and tracking logs have a retention duration 
 * If you want to keep logs longer, this decision should be taken carefully depending on the database size and the volume of messages sent. As a reminder, Adobe Campaign sequence is a 32-bit integer.
 * It is recommended not to have more than 1 billion records at a time in these tables (about 50% of the 2.14 billion ids available) to limit risks of consuming all the available ids. This will require for some customers to lower the retention duration below 180 days.
 
-Learn more about data retention in [Campaign Privacy and Securuty guidelines](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
+Learn more about data retention in [Campaign Privacy and Security guidelines](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
 
 Learn more about Campaign Data base cleanup workflow [in this section](../../production/using/database-cleanup-workflow.md).
 
