@@ -72,11 +72,11 @@ To access advanced functionalities and configurations, you need to click the **[
 
 ![](assets/d_ncs_user_interface01.png)
 
-The general layout of the Adobe Campaign explorer is presented in [this section](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+The general layout of the Adobe Campaign explorer is presented in [this page](../../platform/using/adobe-campaign-explorer.md).
 
 >[!NOTE]
 >
->You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this section](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).  
+>You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this page](../../platform/using/adobe-campaign-ui-lists.md).  
 >
 >You can also define recipient views. For further information about this functionality, refer to [this section](../../platform/using/access-management-folders.md).
 
