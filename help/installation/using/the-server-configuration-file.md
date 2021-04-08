@@ -2186,7 +2186,7 @@ Here are the different parameters of the **repair** node. This is the configurat
 
 Here are the different parameters of the **securityZone** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/security-zones.md).
+For additional information, refer to [Define security zones](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2284,7 +2284,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **securityZone > subNetwork** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/security-zones.md).
+For additional information, refer to [Define security zones](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 

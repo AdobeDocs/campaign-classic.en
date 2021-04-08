@@ -8,11 +8,21 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 ---
+
 # Define security zones {#defining-security-zones}
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
 
-Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](#linking-a-security-zone-to-an-operator).
+Operators are linked to a security zone from its profile in the console, accessible in the **[!UICONTROL Administration > Access management > Operators]** node. [Learn more](#linking-a-security-zone-to-an-operator).
+
+>[!NOTE]
+>
+>This procedure is restricted to **on-premise** deployments. 
+>
+>As a **hosted** customer, if you can access [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html), you can use the Security Zone self service interface. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+>
+>Other **hybrid/hosted** customers need to contact Adobe to set up Security Zones for their instance.
+>
 
 ## Create security zones {#creating-security-zones}
 
