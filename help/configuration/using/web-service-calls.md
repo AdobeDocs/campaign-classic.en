@@ -188,7 +188,7 @@ The `<service>` part describes the "XtkQueryDef" service with its URI on the URL
 
 ## Connectivity {#connectivity}
 
-Adobe Campaign has increased security for authentication mechanisms by introducing security zones (refer to the **Defining security zones** chapter in [this section](../../installation/using/security-zones.md)) as well as session management settings.
+Adobe Campaign has increased security for authentication mechanisms by introducing [security zones](../../installation/using/security-zones.md) and session management settings.
 
 There are two authentication modes available:
 
