@@ -13,7 +13,7 @@ exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
 
-Operators are linked to a security zone from its profile in the console, accessible in the **[!UICONTROL Administration > Access management > Operators** node. [Learn more](#linking-a-security-zone-to-an-operator).
+Operators are linked to a security zone from its profile in the console, accessible in the **[!UICONTROL Administration > Access management > Operators]** node. [Learn more](#linking-a-security-zone-to-an-operator).
 
 >[!NOTE]
 >
