@@ -10,11 +10,9 @@ exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 ---
 # Release 20.2{#release-20-2}
 
-![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
-
 ## ![](assets/do-not-localize/green_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
-_March 31, 2020_
+_March 31, 2021_
 
 **Improvements**
 
@@ -55,6 +53,8 @@ _December 22, 2020_
 * Fixed an issue in POSIX thread management which generated large core dump files on the marketing instance. (NEO-28117, NEO-29281)
 * Fixed issues which could cause the web process to crash when preparing deliveries or with recurring delivery preview. (NEO-27790, NEO-27517)
 * Fixed an issue which caused deliveries or proof sending to fail when triggered by a non-admin operator. (NEO-28597)
+
+![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
