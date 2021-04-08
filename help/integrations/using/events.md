@@ -212,7 +212,7 @@ The events can be displayed with a simple form based on the events schema.
 
 >[!NOTE]
 >
->The Pipeline Event node is not built-in and needs to be added, as well as the related form needs to be created in Campaign. These operations are restricted to expert users only. For more on this, refer to these sections: [Navigation hierarchy](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy). and [Editing forms](../../configuration/using/editing-forms.md).
+>The Pipeline Event node is not built-in and needs to be added, as well as the related form needs to be created in Campaign. These operations are restricted to expert users only. For more on this, refer to these sections: [Navigation hierarchy](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). and [Editing forms](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

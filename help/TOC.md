@@ -43,6 +43,7 @@ type: Documentation
        + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
      + Adobe Campaign workspace{#campaign-workspace}
        + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
+       + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
        + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
      + Frequently Asked Questions {#faq}
        + [Top questions](platform/using/common-questions.md)

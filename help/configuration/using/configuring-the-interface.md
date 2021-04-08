@@ -65,7 +65,7 @@ Creating a new form will enable you to view and edit the data of the external re
 
    >[!NOTE]
    >
-   >For more on **navtree** type files, refer to [this page](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy).
+   >For more on **navtree** type files, refer to [this page](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
    In the current example, the **navtree** file must be based on the **cus:individual** schema and therefore have the following form:
 
