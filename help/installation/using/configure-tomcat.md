@@ -14,6 +14,11 @@ Adobe Campaign uses an **embedded web servlet called Apache Tomcat** to process 
 
 Learn more about Tomcat in Campaign and how to locate your Tomcat version in [this page](../../production/using/locate-tomcat-version.md).
 
+>[!NOTE]
+>
+>This procedure is restricted to **on-premise** deployments. 
+>
+
 ## Default port for Apache Tomcat {#default-port-for-tomcat}
 
 When the 8080 listening port of the Tomcat server is already busy with another application required for your configuration, you need to replace the 8080 port with a free one (8090 for instance). To change it, edit the **server.xml** file saved in the **/tomcat-8/conf** directory of the Adobe Campaign installation folder.
