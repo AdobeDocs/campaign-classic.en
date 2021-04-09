@@ -21,7 +21,7 @@ Check with operational users what kind of files they upload to the server using 
 * ETL (txt, csv, tab, ...)
 * etc.
 
-Add all of them in serverConf/shared/datastore/@uploadAllowlist (valid java regular expression). Learn more in [this page](../../installation/using/configuring-campaign-server.md#limiting-uploadable-files).
+Add all of them in serverConf/shared/datastore/@uploadAllowlist (valid java regular expression). Learn more in [this page](../../installation/using/file-res-management.md).
 
 Adobe Campaign does not restrict the file size. But you can do it by configuring IIS/Apache. Learn more in [this section](../../installation/using/web-server-configuration.md).
 

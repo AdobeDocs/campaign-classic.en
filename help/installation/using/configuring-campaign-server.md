@@ -31,9 +31,6 @@ Campaign Classic configuration files are stored in the **conf** folder of the Ad
 * **serverConf.xml**: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. The different nodes and parameters and listed in this [section](../../installation/using/the-server-configuration-file.md).
 * **config-`<instance>`.xml** (where **instance** is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.
 
-General server configuration guidelines are detailed in [Campaign server configuration](../../installation/using/configuring-campaign-server.md).
-
-
 ## Configuration scope
 
 Configure or adapt Campaign server depending on your needs and configuration. You can:
@@ -43,12 +40,12 @@ Configure or adapt Campaign server depending on your needs and configuration. Yo
 * Configure [URL Permissions](url-permissions.md)
 * Define [Security Zones](security-zones.md)
 * Configure [Tomcat settings](configure-tomcat.md)
-* Customize [Delivery parameters](#delivery-settings)
+* Customize [Delivery parameters](configure-delivery-settings.md)
 * Define [Dynamic page security and relays](#dynamic-page-security-and-relays)
 * Restrict the list of [Allowed external commands](#restricting-authorized-external-commands)
 * Set up [Redundant tracking](#redundant-tracking)
 * Manage [High availability and workflow affinities](#high-availability-workflows-and-affinities)
-* Configure file management - [Learn more](#file-and-resmanagement)
+* Configure file management - [Learn more](file-res-management.md)
    * Limit upload files format
    * Enable access to public resources
    * Configure Proxy connection
@@ -132,88 +129,6 @@ You can configure the storage directory (**var** directory) of Adobe Campaign da
 * In Linux, go to the **customer.sh** file and indicate: **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
   For more on this, refer to [Personalize parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
-
-## Configure delivery settings {#delivery-settings}
-
-The delivery parameters must be configured in the **serverConf.xml** folder.
-
-* **DNS configuration**: specify the delivery domain and the IP addresses (or host) of the DNS servers used to respond to MX-type DNS queries made by the MTA module from the **`<dnsconfig>`** onwards.
-
-  >[!NOTE]
-  >
-  >The **nameServers** parameter is essential for an installation in Windows. For an installation in Linux, it must be left empty.
-
-  ```
-  <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
-  ```
-
-You can also carry out the following configurations depending on your needs and settings: configure a [SMTP relay](#smtp-relay), adapt the number of [MTA child processes](#mta-child-processes), [Manage outbound SMTP traffic](#managing-outbound-smtp-traffic-with-affinities).
-
-### SMTP relay {#smtp-relay}
-
-The MTA module acts as a native mail transfer agent for SMTP broadcast (port 25).
-
-It is, however, possible to replace it by a relay server if your security policy requires it. In that case, the global throughput will be the relay one (provided that the relay server throughput is inferior to the Adobe Campaign one).
-
-In this case, these parameters are set by configuring the SMTP server in the **`<relay>`** section. You must specify the IP address (or host) of the SMTP server used to transfer mail and its associated port (25 by default).
-
-```
-<relay address="192.0.0.3" port="25"/>
-```
-
->[!IMPORTANT]
->
->This operating mode implies serious limitations on deliveries, as it can greatly reduce the throughput because of the relay server intrinsic performances (latency, bandwith...). Moreover, the capacity to qualify synchronous delivery errors (detected by analyzing SMTP traffic) will be limited, and the sending will not be possible if the relay server is not available.
-
-### MTA child processes {#mta-child-processes}
-
-It is possible to control the number of child processes (maxSpareServers by default 2) in order to optimize broadcast performance according to the CPU power of the servers and the available network resources. This configuration is to be made in the **`<master>`** section of MTA configuration on each individual computer.
-
-```
-<master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
-```
-
-Also refer to [Email sending optimization](../../installation/using/email-deliverability.md#email-sending-optimization).
-
-### Manage outbound SMTP traffic with affinities {#managing-outbound-smtp-traffic-with-affinities}
-
->[!IMPORTANT]
->
->The affinity configuration needs to be consistent from one server to another. We recommend that you contact Adobe for affinity configuration, as configuration changes should be replicated on all application servers running the MTA.
-
-You can improve outbound SMTP traffic through affinities with IP addresses.
-
-To do this, apply the following steps:
-
-1. Enter the affinities in the **`<ipaffinity>`** section of the **serverConf.xml** file.
-
-   One affinity can have several different names: to separate them, use the **;** character.
-
-   Example:
-
-   ```
-    IPAffinity name="mid.Server;WWserver;local.Server">
-             <IP address="XX.XXX.XX.XX" heloHost="myserver.us.campaign.net" publicId="123" excludeDomains="neo.*" weight="5"/
-   ```
-
-   To view the relevant parameters, refer to the **serverConf.xml** file.
-
-1. To enable affinity selection in the drop-down lists, you need to add the affinity name(s) in the **IPAffinity** enumeration.
-
-   ![](assets/ipaffinity_enum.png)
-
-   >[!NOTE]
-   >
-   >Enumerations are detailed in [this document](../../platform/using/managing-enumerations.md).
-
-   You can then select the affinity to be used, as shown below for typologies:
-
-   ![](assets/ipaffinity_typology.png)
-
-   >[!NOTE]
-   >
-   >You can also refer to [Delivery server configuration](../../installation/using/email-deliverability.md#delivery-server-configuration).
-
 
 
 ## Dynamic page security and relays {#dynamic-page-security-and-relays}
@@ -352,118 +267,7 @@ The **enableIf** property is optional (empty by default) and allows you to enabl
 
 To obtain the hostname of the computer, run the following command: **hostname -s**.
 
-## File and resource management{#file-and-resmanagement}
 
-### Limit upload file format {#limiting-uploadable-files}
-
-Use the **uploadWhiteList** attribute to restrict the file types available for upload on the Adobe Campaign server.
-
-This attribute is available within the **dataStore** element of the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
-
-The default value of this attribute is **.+** and lets you upload any file type.
-
-To limit the possible formats, replace the attribute value by a valid java regular expression. You can enter several values by separating them by a comma.
-
-For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG and JPG formats on the server. No other formats will be accepted.
-
->[!NOTE]
->
->In Internet Explorer, the complete file path must be verified by the regular expression.
-
-You can also prevent important files from being uploaded by configuring the Web Server. [Learn more](web-server-configuration.md)
-
-### Proxy connection configuration {#proxy-connection-configuration}
-
-You can connect the Campaign server to an external system through a proxy, using a **File Transfer** workflow activity for example. To achieve this, you need to configure the **proxyConfig** section of the **serverConf.xml** file through a specific command. All parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
-
-The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. Please note that starting 20.2 Campaign release, the HTTP and HTTPS protocol parameters are **no longer available**. Those parameters are still mentioned below as they remain available in previous builds - including 9032.
-
->[!CAUTION]
->
->Only the basic authentication mode is supported. NTLM authentication is not supported.
->
->SOCKS proxies are not supported.
->
-
-You can use the following command:
-
-```
-nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]
-```
-
-protocol parameters can be ‘http’, ‘https’ or ‘ftp’.
-
-If you are setting FTP on the same port as HTTP/HTTPS traffic, you can use the following:
-
-```
-nlserver config -setproxy:http/198.51.100.0:8080/user
-```
-
-The ‘http’ and ‘https’ options are only used when the protocol parameter is ‘ftp’ and indicate if the tunneling on the specified port will be performed over HTTPS or over HTTP.  
-
-If you use a different ports for FTP/SFTP and HTTP/HTTPS traffic over proxy server, you should set the ‘ftp’ protocol parameter.  
-
-
-For example:
-
-```
-nlserver config -setproxy:ftp/198.51.100.0:8080/user:’http’
-```
-
-Then enter the password.
-
-HTTP connections are defined in the proxyHTTP parameter:
-
-```
-<proxyConfig enabled=“1” override=“localhost*” useSingleProxy=“0”>
-<proxyHTTP address=“198.51.100.0" login=“user” password=“*******” port=“8080”/>
-</proxyConfig>
-```
-
-HTTPS connections are defined in the proxyHTTPS parameter:
-
-```
-<proxyConfig enabled=“1" override=“localhost*” useSingleProxy=“0">
-<proxyHTTPS address=“198.51.100.0” login=“user” password=“******” port=“8080"/>
-</proxyConfig>
-```
-
-FTP/FTPS connections are defined in the proxyFTP parameter:
-
-```
-<proxyConfig enabled=“1" override=“localhost*” useSingleProxy=“0">
-<proxyFTP address=“198.51.100.0” login=“user” password=“******” port=“5555" https=”true”/>
-</proxyConfig>
-```
-
-If you use the same proxy for several connection types, only the proxyHTTP will be defined with useSingleProxy set to "1" or "true".
-
-If you have internal connections that should go through the proxy, add them in the override parameter.
-
-If you want to tempararily disable the proxy connection, set the enabled parameter to "false" or "0".
-
-### Manage public resources {#managing-public-resources}
-
-To be publicly available, the images used in emails and public resources linked to campaigns must be present on an externally accessible server. They can then be available to external recipients or operators. [Learn more](../../installation/using/deploying-an-instance.md#managing-public-resources).
-
-Public resources are stored in the **/var/res/instance** directory of the Adobe Campaign installation directory.
-
-The matching URL is: **http://server/res/instance** where **instance** is the name of the tracking instance.
-
-You can specify another directory by adding a node to the **conf-`<instance>`.xml** file to configure storage on the server. This means adding the following lines:
-
-```
-<serverconf>
-  <shared>
-    <dataStore hosts="media*" lang="fra">
-      <virtualDir name="images" path="/var/www/images"/>
-     <virtualDir name="publicFileRes" path="$(XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)/"/>
-    </dataStore>
-  </shared>
-</serverconf>
-```
-
-In this case, the new URL for the public resources given in the upper part of the window of the deployment wizard should point to this folder.
 
 ## High availability workflows and affinities {#high-availability-workflows-and-affinities}
 
