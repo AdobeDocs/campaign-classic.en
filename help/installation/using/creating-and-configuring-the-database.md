@@ -21,7 +21,7 @@ The configuration steps are detailed hereafter.
 >
 >Names of databases, users and schemas must not start with a number or include special characters.
 >
->Only the **internal** identifier can carry out these operations. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>Only the **internal** identifier can carry out these operations. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 ## Case 1: Creating/recycling a database {#case-1--creating-recycling-a-database}
 

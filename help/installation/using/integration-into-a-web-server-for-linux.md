@@ -16,7 +16,7 @@ You can use this integrated Tomcat server to serve HTTP requests.
 
 In this case:
 
-* the default listening port is 8080. To change it, refer to [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* the default listening port is 8080. To change it, refer to [this section](configure-tomcat.md).
 * The client consoles then connect using a URL such as:
 
   ```
