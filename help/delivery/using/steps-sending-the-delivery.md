@@ -34,7 +34,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
   >[!NOTE]
   >
-  >Using this option is not advised when installing using mid-sourcing as to not call mta. For more on configuring an SMTP server, refer [to this section](../../installation/using/configuring-campaign-server.md#delivery-settings).
+  >Using this option is not advised when installing using mid-sourcing as to not call mta. For more on configuring an SMTP server, refer [to this section](../../installation/using/configure-delivery-settings.md).
 
 * **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [this section](../../delivery/using/sending-messages.md#archiving-emails).
 

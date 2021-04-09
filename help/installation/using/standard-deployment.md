@@ -125,7 +125,7 @@ The steps are as follows:
       >
       >The **nameServers** parameter is only used in Windows.
 
-      For more on this, refer to [Delivery settings](configuring-campaign-server.md#delivery-settings).
+      For more on this, refer to [Delivery settings](configure-delivery-settings.md).
     
     * the redundant tracking servers in the redirection parameters:
 
@@ -134,7 +134,7 @@ The steps are as follows:
       <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
       ```    
     
-      For more on this, refer to [Redundant tracking](../../installation/using/configuring-campaign-server.md#redundant-tracking).
+      For more on this, refer to [Redundant tracking](configuring-campaign-server.md#redundant-tracking).
 
 1. Start the website and test the redirection from the URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
