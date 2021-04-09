@@ -23,14 +23,14 @@ With Adobe Experience Platform, you can share data between Campaign Classic and 
 For a more detailed overview of Adobe Real-time Customer Data Platform, Destinations and Sources, refer to these pages:
 
 * [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
-* [Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)
-* [Sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)
+* [Sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ## Connect Campaign Classic with Adobe Experience Platform
 
 To be able to share data between Adobe Experience Platform and Campaign Classic, you first need to connect Adobe Campaign as a **Destination**, and connect your AWS S3 or Azure blob storage location as a **Source** in Adobe experience Platform.
 
-Once the connectors have been configured, you can set up a data import or export into Campaign Standard using workflows.
+Once the connectors have been configured, you can set up a data import or export into Campaign Classic using workflows.
 
 ![](assets/rtcdp-schema.png) 
 
