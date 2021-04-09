@@ -11,7 +11,7 @@ content-type: reference
 
 ## About Sources and Destinations
 
-With Adobe Experience Platform, you can share data between Campaign Classic and Adobe Real-time Customer Data Platform (RTCDP). This allows you to target Adobe Experience Platform segments in your Campaign workflows, then send back to Adobe Real-time Customer Data Platform data related to these segments like sends, opens, and clicks.
+With Adobe Experience Platform, you can share data between Campaign Classic and Adobe Real-time Customer Data Platform (RTCDP). This allows you to target Adobe Experience Platform audiences in your Campaign workflows, then send back to Adobe Real-time Customer Data Platform data related to these audiences like sends, opens, and clicks.
 
 * With **Destinations**, ingest audiences from Adobe Experience Platform into Campaign Classic. This allows you to activate your known and unknown data for your marketing campaigns.
 * With **Sources**, export Campaign Classic data (e.g. sends, opens, clicks) into Adobe Experience Platform. This allows you to centralize data you collect from disparate sources into one single place, and use the insights gained from it to do more.
