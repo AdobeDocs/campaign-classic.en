@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Get started with Sources and Destinations
 description: Learn more about Adobe Experience Platform Sources and Destinations.
-audience: integration
+audience: integrations
 content-type: reference
 ---
 
@@ -36,5 +36,5 @@ Once the connectors have been configured, you can set up a data import or export
 
 For more details on how to setup these import and export processes, refer to these sections:
 
-* [Ingest Adobe Experience Platform segments into Campaign](../../integration/using/ingest-aep-data.md)
-* [Export data from Campaign to Adobe Experience Platform](../../integration/using/export-campaign-data.md)
+* [Ingest Adobe Experience Platform segments into Campaign](../../integrations/using/ingest-aep-data.md)
+* [Export data from Campaign to Adobe Experience Platform](../../integrations/using/export-campaign-data.md)

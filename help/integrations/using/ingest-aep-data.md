@@ -3,11 +3,8 @@ solution: Campaign Classic
 product: campaign
 title: Ingest Adobe Experience Platform segments into Campaign
 description: Learn how to ingest Adobe Experience Platform audiences into Campaign Classic.
-audience: integrating
+audience: integrations
 content-type: reference
-feature: Triggers
-role: Data Architect
-level: Intermediate
 ---
 
 # Ingest Adobe Experience Platform segments into Campaign {#destinations}
@@ -39,10 +36,3 @@ You can then build your workflow according to your needs (update the database us
 As an example, the workflow below downloads the file from your storage location on a daily basis, then updates Campaign database with the segment data.
 
    ![](assets/rtcdp-workflow.png)
-
-Examples of data management workflows are available in the [workflows use cases](../../automating/using/about-workflow-use-cases.md#management) section.
-
-Related topics:
-
-* [Data management activities](../../automating/using/about-data-management-activities.md)
-* [About data import and export](../../automating/using/about-data-import-and-export.md)

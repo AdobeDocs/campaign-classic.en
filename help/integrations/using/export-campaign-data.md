@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Export data from Campaign to Adobe Experience Platform
 description: Learn how to export data from Campaign Classic to Adobe Experience Platform.
-audience: integration
+audience: integrations
 content-type: reference
 ---
 
@@ -27,7 +27,7 @@ To do this, add and configure:
 
    ![](assets/rtcdp-extract-file.png)
 
-* A **[!UICONTROL Transfer file]** activity to transfer the CSV file to your storage location. For more on how to configure this activity, refer to [this section](../../automating/using/transfer-file.md).
+* A **[!UICONTROL Transfer file]** activity to transfer the CSV file to your storage location. For more on how to configure this activity, refer to [this section](../../automation/using/transfer-file.md).
 
    ![](assets/rtcdp-transfer-file.png)
 
@@ -35,12 +35,12 @@ As an example, the workflow below extracts logs on a regular basis into a CSV fi
 
    ![](assets/aep-export.png)
 
-Examples of data management workflows are available in the [workflows use cases](../../automating/using/about-workflow-use-cases.md#management) section.
+Examples of data management workflows are available in the [workflows use cases](../../automation/using/about-workflow-use-cases.md#management) section.
 
 Related topics:
 
-* [Data management activities](../../automating/using/about-data-management-activities.md)
-* [About data import and export](../../automating/using/about-data-import-and-export.md)
+* [Data management activities](../../automation/using/about-data-management-activities.md)
+* [About data import and export](../../automation/using/about-data-import-and-export.md)
 
 
 ## Connect your storage location as a Source
