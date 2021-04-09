@@ -97,7 +97,7 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->The **internal** password must be identical for all the tracking servers. For more information, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier) and [this section](../../platform/using/access-management.md).
+>The **internal** password must be identical for all the tracking servers. For more information, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier) and [this section](../../platform/using/access-management.md).
 
 ### New features in v7 {#new-features-in-v7}
 
@@ -468,7 +468,7 @@ If you choose to manually resolve the conflict, proceed as follows:
 
 ## Tomcat {#tomcat}
 
-The integrated Tomcat server in Adobe Campaign v7 has changed version (Tomcat 7). Its installation folder (tomcat-6) has therefore also changed (tomcat 7). After the postupgrade, make sure to check that the paths do link to the updated folder (in the **[!UICONTROL serverConf.xml]** file):
+The integrated Tomcat server in Adobe Campaign v7 has changed version. Its installation folder (tomcat-6) has therefore also changed (tomcat 7). After the postupgrade, make sure to check that the paths do link to the updated folder (in the **[!UICONTROL serverConf.xml]** file):
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 

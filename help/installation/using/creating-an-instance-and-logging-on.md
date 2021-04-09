@@ -18,7 +18,7 @@ To create a new instance and Adobe Campaign database, apply the following proces
 
 >[!NOTE]
 >
->Only the **internal** identifier can carry out these operations. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>Only the **internal** identifier can carry out these operations. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 When the Adobe Campaign console is started up, you access a login page.
 

@@ -110,8 +110,7 @@ Upgrade to one of the new versions listed below is mandatory:
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
-* Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
 Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
@@ -128,7 +127,7 @@ In addition, for hybrid environments, customers need to ensure that pipeline is 
 
 ### HTTP/2-based APNs provider API
 
-The Apple Push Notification service (APNs) will no longer support the legacy binary protocol as of **March 31, 2021**. [Read more](https://developer.apple.com/news/?id=c88acm2b).
+Since **March 31, 2021**, the Apple Push Notification service (APNs) no longer supports the legacy binary protocol. [Read more](https://developer.apple.com/news/?id=c88acm2b).
 
 **Are your impacted?**
 
@@ -140,11 +139,11 @@ Learn how to check your version [in this section](../platform/using/launching-ad
 
 As a hosted customer, If you have upgraded to the new build,  Adobe has already updated your instance(s) to the HTTP/2-based API.
 
-As an on-premise/hosted customer, you need to update your configuration. [Learn how to migrate to HTTP/2](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+As an on-premise/hybrid customer, you need to update your configuration. [Learn how to migrate to HTTP/2](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ### APNs root certificate updates
 
-On March 29 2021, an Apple Push Notification service (APNs) infrastructure update will impact Adobe Campaign Classic iOS channel. An OS configuration change is **mandatory** to avoid iOS push channel outage.
+On March 29 2021, an Apple Push Notification service (APNs) infrastructure update impacted Adobe Campaign Classic iOS channel. An OS configuration change is **mandatory** to avoid iOS push channel outage.
 
 Learn more about APNs changes [in this page](https://developer.apple.com/news/?id=7gx0a2lp).
 

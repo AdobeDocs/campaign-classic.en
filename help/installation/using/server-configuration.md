@@ -1,60 +1,18 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Server configuration
-description: Learn more about server configuration best practices.
+title: Server security configuration
+description: Learn more about server configuration best practices
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 ---
-# Server configuration {#server-configuration}
-
-## Configuring security zones
-
-From build 8977 onwards, the Security Zones Self Service User Interface is not available anymore. If you are not hosted on AWS, reach out to Adobe support team to add IP to the allow list. Otherwise, adding IP to the allow list must be performed in [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html). 
-
-To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
-
-  >[!NOTE]
-  > 
-  >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
-  >
-  >Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
-
-
-* Make sure that your reverse proxy in not allowed in subNetwork. If it is the case, **all** traffic will be detected as coming from this local IP, so will be trusted.
-
-* Minimize the use of sessionTokenOnly="true":
-
-  * Warning: If this attribute is set to true, the operator can be exposed to a **CRSF attack**.
-  * In addition, the sessionToken cookie is not set with an httpOnly flag, so some client-side javascript code can read it.
-  * However Message Center on multiple execution cells needs sessionTokenOnly: create a new security zone with sessionTokenOnly set to "true" and add **only the needed IP(s)** in this zone.
-
-* When possible, set all allowHTTP, showErrors to be false (not for localhost) and check them.
-
-  * allowHTTP = "false": forces operators to use HTTPS
-  * showErrors = "false": hides technical errors (including SQL ones). It prevents displaying too much information, but reduces the capability for the marketer to solve mistakes (without asking for more information from an administrator)
-
-* Set allowDebug to true only on IPs used by marketing users/administrators who need to create (in fact preview) surveys, webApps and reports. This flag allows these IPs to get relay rules displayed and to debug them.
-
-* Never set allowEmptyPassword, allowUserPassword, allowSQLInjection to true. These attributes are only here to allow a smooth migration from v5 and v6.0:
-
-  * **allowEmptyPassword** lets operators have an empty password. If this is the case for you, notify all your operators to ask them to set a password with a deadline. Once this deadline has passed, change this attribute to false.
-
-  * **allowUserPassword** lets operators send their credentials as parameters (so they will be logged by apache/IIS/proxy). This feature was used in the past to simplify API usage. You can check in your cookbook (or in the specification) whether some third-party applications use this. If so, you have to notify them to change the way they use our API and as soon as possible remove this feature.
-
-  * **allowSQLInjection** lets the user perform SQL injections by using an old syntax. As soon as possible carry out the corrections described in [this page](../../migration/using/general-configurations.md) to be able to set this attribute to false. You can use /nl/jsp/ping.jsp?zones=true to check your security zone configuration. This page displays the active status of security measures (computed with these security flags) for the current IP.
-
-* HttpOnly cookie/useSecurityToken: refer to **sessionTokenOnly** flag.
-
-* Minimize IPs added to the allow list: Out of the box, in security zones, we have added the 3 ranges for private networks. It is unlikely that you will use all of these IP addresses. So keep only the ones that you need.
-
-* Update webApp/internal operator to be only accessible in localhost.
+# Server security settings {#server-configuration}
 
 ## File upload protection
 
-Check with operational users what kind of files they upload to the server using nlclient/web interface. As a reminder, business needs can be:
+Check with operational users what kind of files they upload to the server using Campaign Client Console or web interface. As a reminder, business needs can be:
 
 * images (jpg, gif, png, ...)
 * content (zip, html, css, ...)
@@ -63,7 +21,7 @@ Check with operational users what kind of files they upload to the server using 
 * ETL (txt, csv, tab, ...)
 * etc.
 
-Add all of them in serverConf/shared/datastore/@uploadAllowlist (valid java regular expression). Learn more in [this page](../../installation/using/configuring-campaign-server.md#limiting-uploadable-files).
+Add all of them in serverConf/shared/datastore/@uploadAllowlist (valid java regular expression). Learn more in [this page](../../installation/using/file-res-management.md).
 
 Adobe Campaign does not restrict the file size. But you can do it by configuring IIS/Apache. Learn more in [this section](../../installation/using/web-server-configuration.md).
 
