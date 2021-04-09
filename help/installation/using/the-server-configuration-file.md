@@ -2851,13 +2851,13 @@ For additional information, refer to this [section](../../installation/using/con
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcat listening control port: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> Tomcat listening control port: refer to <a href="../../installation/using/configure-tomcat.md" target="_blank">Configure Tomcat</a>.<br /> </td> 
    <td> Short<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTP listening port: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> Tomcat HTTP listening port: refer to <a href=".../../installation/using/configure-tomcat.md" target="_blank">Configure Tomcat</a>.<br /> </td> 
    <td> Short<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -3142,7 +3142,7 @@ For additional information, refer to [Dynamic page security and relays](../../in
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> URL of the target page: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> URL of the target page: refer to <a href="../../installation/using/configure-tomcat.md" target="_blank">Configure Tomcat</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> <br /> </td> 
   </tr> 

@@ -101,7 +101,7 @@ The steps are as follows:
 
 1. Change the **internal** to the same as the application server.
 
-   For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 1. Link the database to the instance:
 
@@ -111,7 +111,7 @@ The steps are as follows:
 
 1. In the **config-default.xml** and **config-demo.xml** files, enable the **web**, **trackinglogd** and **mta** modules.
 
-   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and populate:
 
@@ -125,7 +125,7 @@ The steps are as follows:
       >
       >The **nameServers** parameter is only used in Windows.
 
-      For more on this, refer to [Delivery settings](../../installation/using/campaign-server-configuration.md#delivery-settings).
+      For more on this, refer to [Delivery settings](configuring-campaign-server.md#delivery-settings).
     
     * the redundant tracking servers in the redirection parameters:
 

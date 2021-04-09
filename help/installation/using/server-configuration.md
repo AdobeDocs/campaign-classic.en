@@ -1,18 +1,18 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Server configuration
-description: Learn more about server configuration best practices.
+title: Server security configuration
+description: Learn more about server configuration best practices
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 ---
-# Server configuration {#server-configuration}
+# Server security settings {#server-configuration}
 
 ## File upload protection
 
-Check with operational users what kind of files they upload to the server using nlclient/web interface. As a reminder, business needs can be:
+Check with operational users what kind of files they upload to the server using Campaign Client Console or web interface. As a reminder, business needs can be:
 
 * images (jpg, gif, png, ...)
 * content (zip, html, css, ...)

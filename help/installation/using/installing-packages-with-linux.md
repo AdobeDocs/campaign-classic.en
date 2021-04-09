@@ -352,4 +352,4 @@ The following information is then displayed:
 
 The Adobe Campaign server defines a technical login called **internal** that has all rights on all instances. Just after installation the login does not have a password. It is mandatory to define one.
 
-See section [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+Learn more in [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).

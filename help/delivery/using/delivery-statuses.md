@@ -120,7 +120,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 
 * The delivery may be using an affinity not configured on the sending server.
     
-    In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+    In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#delivery-settings).
 
 * When too many campaigns are running, the delivery status remains in ‘Pending’ status.
 

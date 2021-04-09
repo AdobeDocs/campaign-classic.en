@@ -504,7 +504,6 @@ type: Documentation
        + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
        + [Manage permissions](workflow/using/managing-rights.md)
        + [Manage activity images](workflow/using/managing-activity-images.md)
-       + [Manage propensity](workflow/using/managing-propensity.md)
        + [Manage time zones](workflow/using/managing-time-zones.md)
        + [Technical workflows](workflow/using/about-technical-workflows.md)
 + Manage Offers {#managing-offers}
@@ -620,7 +619,7 @@ type: Documentation
        + [Enterprise deployment](installation/using/enterprise-deployment.md)
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
-  + Security and privacy checklist {#security-privacy}
+  + Security and privacy settings {#security-privacy}
        + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
        + [Personalization and privacy](installation/using/privacy.md)
        + [Secure access management](installation/using/access-management.md)
@@ -649,12 +648,13 @@ type: Documentation
        + [Key steps](installation/using/about-initial-configuration.md)
        + [Create an instance and log on](installation/using/creating-an-instance-and-logging-on.md)
        + [Create and configure the database](installation/using/creating-and-configuring-the-database.md)
-       + [Configure Campaign server](installation/using/campaign-server-configuration.md)
        + [Deploy an instance](installation/using/deploying-an-instance.md)
        + [Install built-in packages](installation/using/installing-campaign-standard-packages.md)
   + Configure Campaign {#additional-configurations}
-       + [Campaign server settings](installation/using/configuring-campaign-server.md)
+       + [Campaign server configuration](installation/using/configuring-campaign-server.md)
        + [Define security zones](installation/using/security-zones.md)
+       + [Set URL permissions](installation/using/url-permissions.md)
+       + [Configure Tomcat](installation/using/configure-tomcat.md)
        + [Technical email configurations](installation/using/email-deliverability.md)
        + [Using MX servers with Campaign](installation/using/using-mx-servers.md)
        + [Configure email BCC](installation/using/email-archiving.md)
