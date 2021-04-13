@@ -389,6 +389,10 @@ type: Documentation
        + [Configure events for custom implementation](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
+  + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
+       + [Get started with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+       + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
+       + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automate with workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
