@@ -6,6 +6,7 @@ description: Learn how to configure file and resource management in Campaign
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 ---
 # File and resource management{#file-and-resmanagement}
 

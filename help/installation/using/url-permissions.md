@@ -6,9 +6,8 @@ description: Learn how to configure URL permissions
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814,6fe8da3b-57b9-4a69-8602-a03993630b27
 ---
-
 # Configure URL permissions (on-premise){#url-permissions}
 
 The default list of URLs that can be called by JavaScript codes (workflows, etc.) by your Campaign Classic instances is limited. These are URLs that allow your instances to function properly.
