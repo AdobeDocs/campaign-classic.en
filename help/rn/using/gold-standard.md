@@ -14,6 +14,14 @@ This page lists [!DNL Gold Standard] releases. Learn more about Campaign [!DNL G
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 release{#gs-11}
 
+_April 14, 2021_
+
+The build 9032&#64;d030c36 includes the following fix:
+
+* Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
 _March 2, 2021_
 
 The build 9032&#64;10c2709 includes the following fix:
