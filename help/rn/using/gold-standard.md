@@ -33,7 +33,6 @@ The build 9032&#64;10c2709 includes the following fix:
 >[!NOTE]
 >
 > Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
->
 
 _December 22, 2020_
 
