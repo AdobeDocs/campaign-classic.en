@@ -16,7 +16,7 @@ _April 15, 2021_
 
 * Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
 
-**Console upgrade only is mandatory. No server upgrade is required.** 
+**Console upgrade only is mandatory. No server upgrade is required.**
 
 >[!NOTE]
 >
