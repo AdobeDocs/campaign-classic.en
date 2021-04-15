@@ -6,8 +6,8 @@ description: Installing packages with Linux
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
+exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 ---
-
 # Installing packages with Linux{#installing-packages-with-linux}
 
 For a Linux 32 bit platform, install Adobe Campaign 32 bit. For a Linux 64 bit platform, install Adobe Campaign 64 bit.
@@ -352,4 +352,4 @@ The following information is then displayed:
 
 The Adobe Campaign server defines a technical login called **internal** that has all rights on all instances. Just after installation the login does not have a password. It is mandatory to define one.
 
-See section [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+Learn more in [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).

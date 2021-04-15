@@ -6,8 +6,8 @@ description: Reports on deliveries
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
+exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 ---
-
 # About reports on deliveries{#reports-on-deliveries}
 
 Adobe Campaign offers several types of reports, accessible via the customer console or an internet browser.

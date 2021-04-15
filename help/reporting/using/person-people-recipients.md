@@ -6,8 +6,8 @@ description: Reports on deliveries
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
+exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 ---
-
 # Person/people and recipients {#person-people-and-recipients}
 
 This sample will help you understanding the difference between a person/a people and a recipient in Adobe Campaign. We will send a delivery to several people to highlight the difference between people and recipients while detailing the calculation method for the following indicators:

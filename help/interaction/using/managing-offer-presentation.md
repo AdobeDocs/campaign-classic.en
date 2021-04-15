@@ -6,8 +6,8 @@ description: Managing offer presentation
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
+exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 ---
-
 # Managing offer presentation{#managing-offer-presentation}
 
 ## Presentation rules overview {#presentation-rules-overview}
@@ -150,4 +150,3 @@ To specify the propositions to be counted via a query, click the **[!UICONTROL L
 In the following example, the propositions to be counted after two presentations are the ones in the **Special offers** category, for the **Call center** space, with a weight below **20**.
 
 ![](assets/offer_typology_013.png)
-

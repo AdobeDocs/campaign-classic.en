@@ -3,12 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Help & support options for Campaign Classic 
 description: Need Support for Campaign Classic? You are at the right place!
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
 hidefromtoc: yes
+exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 ---
-
 # Help & support options for Campaign Classic {#help-support-options}
 
 Need Support for Campaign Classic? You are at the right place!
@@ -31,50 +28,58 @@ Get support using our FAQs, best practices, online resources and support portal.
 
 How to upgrade to a new build? how to monitor workflow execution? what is the database cleanup workflow?... [Read out top 10 questions](platform/using/common-questions.md).
 
-### Topics Q&A
-
-Read out a set of specific Q&A by topics:
-
-* [Key concepts](platform/using/faq-key-concepts.md)
-* [Campaign settings](platform/using/faq-campaign-config.md)
-* [Reporting](platform/using/faq-reporting.md)
-* [Build upgrade](platform/using/faq-build-upgrade.md)
-* [Testing, sending and tracking messages](platform/using/faq-messages.md)
-* [Workflows](platform/using/faq-workflows.md)
-* [Developers](platform/using/faq-developers.md)
-* [Deliverability](delivery/using/monitoring-deliverability.md)
-
-### Common issues
-
-* [Performance and throughput issues](production/using/performance-and-throughput-issues.md)
-* [Delivery performances](delivery/using/delivery-performances.md)
-* [Optimize workflow performances](workflow/using/workflow-best-practices.md)
-* [Workflow execution troubleshooting](workflow/using/monitoring-workflow-execution.md)
-* [SFTP server usage](platform/using/sftp-server-usage.md)
-* [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
-
-### Best practices
-
-* [Workflows best practices](workflow/using/workflow-best-practices.md)
-* [Technical workflow monitoring](workflow/using/monitoring-technical-workflows.md)
-* [Understand tracking management](delivery/using/about-message-tracking.md)
-* [Discover monitoring tools](production/using/monitoring-guidelines.md)
-* [Import data with workflows](platform/using/import-export-workflows.md)
-* [Send messages in multiple waves ](delivery/using/steps-sending-the-delivery.md)
-* [Design email content](delivery/using/defining-the-email-content.md)
-* [Delivery best practices](delivery/using/delivery-best-practices.md)
-
-### How-to
-
-* [Upgrade to the latest build](production/using/build-upgrade.md)
-* [Build upgrade FAQ](platform/using/faq-build-upgrade.md)
-* [Monitor a delivery](delivery/using/about-delivery-monitoring.md)
-* [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
-* [Security and privacy checklist](installation/using/get-started-security-privacy.md)
-* [Privacy and consent management](platform/using/privacy-management.md)
-* [Design a query](platform/using/steps-to-create-a-query.md)
-* [Query samples](workflow/using/querying-recipient-table.md)
-* [Build a workflow](workflow/using/building-a-workflow.md)
+<table>
+    <tr><td><strong>Topics Q&A</strong></td><td><strong>Common issues</strong></td><td><strong>Best practices</strong></td><td><strong>How-to</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="platform/using/faq-key-concepts.md">Key concepts</a></li>
+        <li><a href="platform/using/faq-campaign-config.md">Campaign settings</a></li>
+        <li><a href="platform/using/faq-reporting.md">Reporting</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">Build upgrade</a></li>
+        <li><a href="platform/using/faq-messages.md">Testing, sending and tracking messages</a></li>
+        <li><a href="platform/using/faq-workflows.md">Workflows</a></li>
+        <li><a href="platform/using/faq-developers.md">Developers</a></li>
+        <li><a href="delivery/using/monitoring-deliverability.md">Deliverability</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="production/using/performance-and-throughput-issues.md">Performance and throughput issues</a></li>
+        <li><a href="delivery/using/delivery-performances.md">Delivery performances</a></li>
+        <li><a href="workflow/using/workflow-best-practices.md">Optimize workflow performances</a></li>
+        <li><a href="workflow/using/monitoring-workflow-execution.md">Workflow execution troubleshooting</a></li>
+        <li><a href="platform/using/sftp-server-usage.md">SFTP server usage</a></li>
+        <li><a href="delivery/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="workflow/using/workflow-best-practices.md">Workflows best practices</a></li>
+        <li><a href="workflow/using/monitoring-technical-workflows.md">Technical workflow monitoring</a></li>
+        <li><a href="delivery/using/about-message-tracking.md">Understand tracking management</a></li>
+        <li><a href="production/using/monitoring-guidelines.md">Discover monitoring tools</a></li>
+        <li><a href="platform/using/import-export-workflows.md">Import data with workflows</a></li>
+        <li><a href="delivery/using/steps-sending-the-delivery.md">Send messages in multiple waves</a></li>
+        <li><a href="delivery/using/defining-the-email-content.md">Design email content</a></li>
+        <li><a href="delivery/using/delivery-best-practices.md">Delivery best practices</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="production/using/build-upgrade.md">Upgrade to the latest build</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">Build upgrade FAQ</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">Monitor a delivery</a></li>
+        <li><a href="delivery/using/understanding-quarantine-management.md">Understand quarantine management</a></li>
+        <li><a href="installation/using/get-started-security-privacy.md">Security and privacy checklist</a></li>
+        <li><a href="platform/using/privacy-management.md">Privacy and consent management</a></li>
+        <li><a href="platform/using/steps-to-create-a-query.md">Design a query</a></li>
+        <li><a href="workflow/using/querying-recipient-table.md">Query samples</a></li>
+        <li><a href="workflow/using/building-a-workflow.md">Build a workflow</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Campaign Control Panel {#control-panel}
 
@@ -82,8 +87,14 @@ Read out a set of specific Q&A by topics:
 
 ### What is Control Panel?
 
-The Control Panel helps you increase efficiency in your work as a product admin of Campaign Classic, by allowing you to manage settings and track usages for each of your instances.
+Campaign Control Panel helps you increase efficiency in your work as a product admin of Campaign Classic, by allowing you to manage settings and track usages for each of your instances.
 [Click here](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html) for more information.
+
+>[!NOTE]
+>
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](rn/using/gs-overview.md) build or the [latest GA build (21.1)](rn/using/latest-release.md). Learn how to check your version in [this section](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 ### How to access Control Panel?
 
@@ -115,7 +126,7 @@ Learn how to manage your Campaign Classic instances settings in the Control Pane
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-The new ticketing system has been launched though [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
+The new ticketing system has been launched through [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 
 ### Ask the experts!
 
@@ -123,17 +134,11 @@ Join Campaign Classic Community: search for answers in existing question or ask 
 
 ### Access Campaign Download Center
 
-As of June 2020, the Experience Cloud solution Software Distribution replaces the legacy Neolane Download Center and provides a more efficient experience to find and download your software, packages and tools. 
-
-[Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
+As of June 2020, the Experience Cloud solution Software Distribution replaces the legacy Neolane Download Center and provides a more efficient experience to find and download your software, packages and tools. [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
 Learn more about the new Download Center [in this page](https://docs.adobe.com/content/heexperience-cloud/software-distribution/home.html).
 
 ### Create a ticket or start a chat
 
-Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products.
+Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
 
-To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with [Adobe Customer Support](https://adminconsole.adobe.com/overview).
-
-To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview).
-
-Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview). Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).

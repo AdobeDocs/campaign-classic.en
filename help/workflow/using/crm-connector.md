@@ -6,8 +6,8 @@ description: Learn more about the CRM Connector and configure data synchronizati
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
 ---
-
 # CRM Connector{#crm-connector}
 
 The **CRM connector** activity lets you configure the data synchronization between Adobe Campaign and a CRM system.

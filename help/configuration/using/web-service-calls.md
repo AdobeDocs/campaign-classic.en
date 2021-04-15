@@ -6,8 +6,8 @@ description: Web service calls
 audience: configuration
 content-type: reference
 topic-tags: api
+exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 ---
-
 # Web service calls{#web-service-calls}
 
 ## General information {#general-information}
@@ -188,7 +188,7 @@ The `<service>` part describes the "XtkQueryDef" service with its URI on the URL
 
 ## Connectivity {#connectivity}
 
-Adobe Campaign has increased security for authentication mechanisms by introducing security zones (refer to the **Defining security zones** chapter in [this section](../../installation/using/security-zones.md)) as well as session management settings.
+Adobe Campaign has increased security for authentication mechanisms by introducing [security zones](../../installation/using/security-zones.md) and session management settings.
 
 There are two authentication modes available:
 

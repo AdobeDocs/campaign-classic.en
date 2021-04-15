@@ -6,8 +6,8 @@ description: Migrating in Windows for Adobe Campaign 7
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
+exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 ---
-
 # Migrating in Windows for Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}
 
 ## General procedure {#general-procedure}
@@ -390,4 +390,3 @@ Before you delete and cleanse the Adobe Campaign v6 installation, you must apply
    ![](assets/migration_wizard_2.png)
 
 1. Re-start the server.
-

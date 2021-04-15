@@ -6,8 +6,8 @@ description: Connection thresholds
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 ---
-
 # Connection thresholds{#connection-thresholds}
 
 For heavily loaded servers, the connection threshold might be exceeded. In any event, it is useful to find out why.
@@ -51,4 +51,3 @@ There are three different thresholds:
               <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
             </dataSource>
       ```
-

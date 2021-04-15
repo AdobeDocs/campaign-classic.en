@@ -6,8 +6,8 @@ description: Learn how to rollback to the previous version
 audience: migration
 content-type: reference
 topic-tags: rollback
+exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
 ---
-
 # Rollback to the previous version{#about-rollback}
 
 After a migration, in case of issues, you might need to rollback to the previous version of Campaign.

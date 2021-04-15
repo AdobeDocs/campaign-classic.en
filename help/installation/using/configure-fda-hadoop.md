@@ -6,8 +6,8 @@ description: Learn how to configure access to Hadoop in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 ---
-
 # Configure access to Hadoop {#configure-access-to-hadoop}
 
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Hadoop.
@@ -182,4 +182,3 @@ If you need to connect to Hadoop 2.1, follow the steps decribed below for [Windo
    ```
 
 1. Create the Hadoop external account, as detailed in [this section](#hadoop-external).
-

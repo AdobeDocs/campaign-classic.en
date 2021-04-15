@@ -6,8 +6,8 @@ description: Standard deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 ---
-
 # Standard deployment{#standard-deployment}
 
 For this configuration, three computers are required:
@@ -101,7 +101,7 @@ The steps are as follows:
 
 1. Change the **internal** to the same as the application server.
 
-   For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 1. Link the database to the instance:
 
@@ -111,7 +111,7 @@ The steps are as follows:
 
 1. In the **config-default.xml** and **config-demo.xml** files, enable the **web**, **trackinglogd** and **mta** modules.
 
-   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and populate:
 
@@ -125,7 +125,7 @@ The steps are as follows:
       >
       >The **nameServers** parameter is only used in Windows.
 
-      For more on this, refer to [Delivery settings](../../installation/using/campaign-server-configuration.md#delivery-settings).
+      For more on this, refer to [Delivery settings](configure-delivery-settings.md).
     
     * the redundant tracking servers in the redirection parameters:
 
@@ -134,7 +134,7 @@ The steps are as follows:
       <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
       ```    
     
-      For more on this, refer to [Redundant tracking](../../installation/using/configuring-campaign-server.md#redundant-tracking).
+      For more on this, refer to [Redundant tracking](configuring-campaign-server.md#redundant-tracking).
 
 1. Start the website and test the redirection from the URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
@@ -171,4 +171,3 @@ The steps are as follows:
    >[!NOTE]
    >
    >We use the existing instance of the two tracking servers created previously and use the **internal** login.
-

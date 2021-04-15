@@ -6,8 +6,8 @@ description: Integrating an offer via the wizard
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
+exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 ---
-
 # Integrating an offer via the wizard{#integrating-an-offer-via-the-wizard}
 
 When creating a delivery, there are two possible methods for integrating offers:
@@ -110,4 +110,3 @@ For more information on delivery outlines, refer to the [Campaign - MRM](../../c
    >[!NOTE]
    >
    >Information regarding the offer rankings and weights is only saved in the proposition table if the offers are generated directly in the delivery.
-

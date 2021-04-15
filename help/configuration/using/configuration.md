@@ -6,13 +6,13 @@ description: Configuration
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
+exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 ---
-
 # Configure Campaign Explorer navigation tree{#configuration}
 
 As an expert user, you can add folders in the explorer tree and customize it. 
 
-Learn more about Campaign explorer and navigation hierarchy [in this section](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy).
+Learn more about Campaign explorer and navigation hierarchy [in this section](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
 The types of folders used by the navigation list are described in an XML document that obeys the grammar of the **xtk:navtree** schema.
 
@@ -306,4 +306,3 @@ The configuration of the **`<nodemodel>`** on the link of the folder named "fold
 ...
 </nodeModel>
 ```
-

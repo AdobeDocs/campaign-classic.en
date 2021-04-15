@@ -6,8 +6,8 @@ description: Structure of a data schema
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
 ---
-
 # Structure of a data schema{#structure-of-a-data-schema}
 
 The structure of a data schema is shown in the form of a tree structure. To view it graphically in the Adobe Campaign client console, select the targeted schema and click the **[!UICONTROL Structure]** sub-tab.

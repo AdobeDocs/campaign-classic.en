@@ -6,8 +6,8 @@ description: Learn more on SFTP server best practices and troubleshooting.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 ---
-
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
 
 ## SFTP server global recommendations {#global-recommendations}
@@ -36,9 +36,11 @@ To avoid such problems, Adobe recommends following the best practices below.
 
 >[!NOTE]
 >
->If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/sftp-storage-management.html).  
+>If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/sftp-storage-management.html). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 >
->To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id) .
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Note that your instance must be upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 * The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).
 

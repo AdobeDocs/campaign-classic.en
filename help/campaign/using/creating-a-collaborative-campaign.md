@@ -6,8 +6,8 @@ description: Creating a collaborative campaign
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 ---
-
 # Creating a collaborative campaign{#creating-a-collaborative-campaign-intro}
 
 The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](../../campaign/using/about-distributed-marketing.md#collaborative-campaign).

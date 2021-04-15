@@ -6,8 +6,8 @@ description: Temporary files
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
 ---
-
 # Temporary files{#temporary-files}
 
 Error messages such as the following may display (particularly in delivery logs) when the system is put into production:

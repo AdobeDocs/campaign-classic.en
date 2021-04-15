@@ -6,8 +6,8 @@ description: Hypothesis templates
 audience: campaign
 content-type: reference
 topic-tags: response-manager
+exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 ---
-
 # Hypothesis templates{#hypothesis-templates}
 
 ## Creating a hypothesis model {#creating-a-hypothesis-model}
@@ -228,4 +228,3 @@ In this example, we are going to create a hypothesis template on a direct mail t
    The template created thus enables you to run hypotheses on the products or articles in the purchase table.
 
 1. Click **[!UICONTROL Save]** to record your template.
-

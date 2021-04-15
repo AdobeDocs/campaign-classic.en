@@ -6,8 +6,8 @@ description: About flow control activities
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 ---
-
 # About flow control activities{#about-flow-control-activities}
 
 The following activities are database activities: Their main task is to coordinate the other activities.
@@ -25,4 +25,3 @@ The following activities are database activities: Their main task is to coordina
 * **Approval**: lets you send an email to an operator or a group of operators and wait for approval to continue with the execution. Refer to the [Approval](../../workflow/using/approval.md) section.
 * **Alert**: lets you send a warning to an operator or group of operators. Refer to the [Alert](../../workflow/using/alert.md) section.
 * **Task**: lets you configure task execution. Refer to the [Task](../../workflow/using/task.md) section.
-

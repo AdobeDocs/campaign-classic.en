@@ -6,8 +6,8 @@ description: Learn how to browse and configure lists
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 ---
-
 # Manage and customize lists{#manage-and-customize-lists}
 
 You can access the lists of records in Campaign database using the Explorer. You can filter these lists, run searches, add information, filter and sort data.

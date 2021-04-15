@@ -6,14 +6,14 @@ description: Learn more on the SMS connector and how to configure it.
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
+exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 ---
 # SMS connector protocol and settings {#sms-connector-protocol}
 
 >[!NOTE]
 >
->The **SMS connector protocol and settings** for Adobe Campaign Standard can be found in this [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html#administrating).
->
 >Through this document, all references to details about the protocol, field names and values refer to the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>
 
 ## Overview {#overview}
 

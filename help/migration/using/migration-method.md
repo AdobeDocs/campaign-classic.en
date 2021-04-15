@@ -6,8 +6,8 @@ description: Migration method
 audience: migration
 content-type: reference
 topic-tags: migration-overview
+exl-id: dd4d068b-f414-448f-8d9a-eedf44e7b6e6
 ---
-
 # Migration method{#migration-method}
 
 ## Modernizing your environment {#modernizing-your-environment}

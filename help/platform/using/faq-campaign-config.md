@@ -6,8 +6,8 @@ description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 ---
-
 # Campaign Settings FAQ {#settings-faq}
 
 Learn key configurations to set up your Campaign instance to fit with your needs.
@@ -34,9 +34,9 @@ As an expert user, you can configure tracking capabilities on your Campaign inst
 
 ## How to configure email deliverability? {#how-to-configure-email-deliverability-}
 
-In addition to the [Deliverability configuration](../../delivery/using/about-deliverability.md#configuration) section, read out the deliverability technical recommendations to understand how to configure your instance in order to maximize Campaign delivering capabilities.
+In addition to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), read out the deliverability technical recommendations to understand how to configure your instance in order to maximize Campaign delivering capabilities.
 
-[Click here to learn more](../../delivery/using/technical-recommendations.md).
+[Click here to learn more](../../delivery/using/about-deliverability.md).
 
 ## How can I implement content approval? {#how-can-i-implement-content-approval-}
 

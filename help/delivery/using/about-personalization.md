@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: About personalization
-description: About personalization
+title: Get started with personalization
+description: Learn how to personalize messages and use conditional content in Campaign
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
+exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 ---
-
-# About personalization{#about-personalization}
+# Get started with personalization{#about-personalization}
 
 Messages delivered by Adobe Campaign can be personalized in several different ways, concerning the content or the appearance of messages. These ways can be combined according to criteria taken particularly from the recipient profiles. For email deliveries, you can define the elements and personalization conditions of a delivery directly in JavaScript from the **[!UICONTROL Source]** tab of the message. In general, Adobe Campaign allows you to:
 

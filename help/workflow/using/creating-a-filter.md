@@ -6,8 +6,8 @@ description: Learn how to create a filter when performing queries
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 ---
-
 # Creating a filter {#creating-a-filter}
 
 The filters available in Adobe Campaign are defined via filtering conditions which are created using the same operating mode as queries.

@@ -6,8 +6,8 @@ description: Creating a delivery from a template
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
+exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 ---
-
 # Creating a delivery from a template{#creating-a-delivery-from-a-template}
 
 ## Linking the template to a delivery {#linking-the-template-to-a-delivery}

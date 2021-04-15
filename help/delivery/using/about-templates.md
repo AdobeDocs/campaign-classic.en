@@ -6,8 +6,8 @@ description: About templates
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
+exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 ---
-
 # About templates{#about-templates}
 
 A delivery configuration can be saved in a delivery template in order to be re-used. The template may contain a complete or partial configuration of the delivery.
@@ -28,4 +28,4 @@ There are two types of template:
 
 >[!NOTE]
 >
->The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. For more on this, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md) and [About services and subscriptions](../../delivery/using/about-services-and-subscriptions.md).
+>The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. For more on this, refer to [Select a target mapping](../../delivery/using/selecting-a-target-mapping.md) and [About services and subscriptions](../../delivery/using/about-services-and-subscriptions.md).

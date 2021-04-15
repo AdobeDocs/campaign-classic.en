@@ -6,8 +6,8 @@ description: SOAP methods in JavaScript
 audience: configuration
 content-type: reference
 topic-tags: api
+exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 ---
-
 # SOAP methods in JavaScript{#soap-methods-in-javascript}
 
 This is the JavaScript executed on the Adobe Campaign server.
@@ -99,4 +99,3 @@ for each (var w in res.workflow)
   ```
   xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
   ```
-

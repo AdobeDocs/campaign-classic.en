@@ -6,8 +6,8 @@ description: Learn how to install and configure Campaign Classic.
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
+exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 ---
-
 # General architecture{#general-architecture}
 
 The typical Adobe Campaign solution deployment consists of the following components:

@@ -6,8 +6,8 @@ description: Discover production troubleshooting procedures relating to Adobe Ca
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 ---
-
 # Production troubleshooting{#troubleshooting}
 
 This section contains troubleshooting procedures relating to Adobe Campaign general production issues, such as delivery and workflow execution, monitoring, database maintenance, connection, etc.
@@ -58,4 +58,4 @@ Go to the sections below to read about more specific issues:
 
 * [Stack trace in Linux](../../production/using/stack-trace-in-linux.md)
 * [JSP behavior](../../production/using/jsp-behavior.md)
-* [Locating Tomcat version](../../production/using/locate-tomcat-version.md)
+* [Locate Tomcat version](../../production/using/locate-tomcat-version.md)

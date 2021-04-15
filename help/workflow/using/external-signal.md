@@ -6,8 +6,8 @@ description: Learn more about the External signal workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
+exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
 ---
-
 # External signal{#external-signal}
 
 The **External signal** activity lets you trigger execution of a set of tasks in a workflow to a schedule.
@@ -27,4 +27,3 @@ The **Delay** field lets you specify an expiration delay in the units of your ch
 Each line represents a type of expiration and coincides with a transition.
 
 ![](assets/external_sign_diag.png)
-

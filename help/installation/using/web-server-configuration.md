@@ -6,8 +6,8 @@ description: Learn more about web-server configuration main best practices.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 ---
-
 # Web-server configuration {#web-server-configuration}
 
 You will find below some of the main best practices related to web-server (Apache/IIS) configuration.
@@ -52,14 +52,14 @@ You will find below some of the main best practices related to web-server (Apach
     * ServerSignature **Off**
     * ServerTokens **Prod**
 
-    **On IIS** (see the [documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), perform the following configuration:
+    **On IIS**, perform the following configuration:
 
     * Install **URLScan**.
     * Edit the **Urlscan.ini** file to have **RemoveServerHeader=1**
 
 * Limit query size to prevent important files from being uploaded:
 
-    **On Apache** (see the [documentation](http://httpd.apache.org/docs/2.2/mod/core.html#limitrequestbody)), add the **LimitRequestBody** directive (size in bytes) in / directory.
+    **On Apache**, add the **LimitRequestBody** directive (size in bytes) in / directory.
 
     ```
     <Directory />

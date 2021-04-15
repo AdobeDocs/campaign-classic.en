@@ -6,8 +6,8 @@ description: About descriptive analysis
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
+exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 ---
-
 # About descriptive analysis{#about-descriptive-analysis}
 
 In order to produce statistics on the data in the database, create descriptive analysis reports using the dedicated wizard and adapt their content and presentation to suit your needs.
@@ -39,4 +39,3 @@ Descriptive analysis wizards aren't as powerful as Adobe Campaign reports but th
 >[!CAUTION]
 >
 >A descriptive analysis does not enable you to explore large data volumes.
-

@@ -6,8 +6,8 @@ description: Usual commands
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 ---
-
 # Usual commands{#usual-commands}
 
 This section lists the usual commands in Adobe Campaign.
@@ -148,7 +148,7 @@ To change the **internal** password: **nlserver config -internalpassword**
 
 >[!IMPORTANT]
 >
->To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 >[!NOTE]
 >

@@ -6,8 +6,8 @@ description: Advanced parameters
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 ---
-
 # Advanced parameters{#advanced-parameters}
 
 The properties screen of an activity has an **[!UICONTROL Advanced]** tab that lets you define a behavior in case of errors, the execution period for the activity; and lets you enter an initialization script. There are two versions of this tab:
@@ -42,7 +42,10 @@ These options are generally selected in the cart by right-clicking the activity.
 
 ## Affinity {#affinity}
 
-This field lets you force the execution of an activity on a specific machine. For more on this, refer to: [Managing propensity](../../workflow/using/managing-propensity.md).
+You can choose to force the execution of a workflow or workflow activity on a specific machine. To do this, you must define one or more propensities at the level of the workflow or the concerned activity.
+
+High availability workflow configuration is detailed in this [section](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+
 
 ## Max. execution period {#max--execution-period}
 

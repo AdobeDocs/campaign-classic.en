@@ -6,8 +6,8 @@ description: Integration into a Web server for Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 ---
-
 # Integration into a Web server for Windows{#integration-into-a-web-server-for-windows}
 
 Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP (and SOAP).
@@ -16,7 +16,7 @@ You can use this integrated Tomcat server to serve HTTP requests.
 
 In this case:
 
-* the default listening port is 8080. To change it, refer to [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* the default listening port is 8080. To change it, refer to [this section](../../installation/using/configure-tomcat.md).
 * The client consoles then connect using a URL such as [https:// `<computer>`:8080](https://myserver.adobe.com:8080).
 
 However, for security and administration reasons, we recommend using a dedicated Web server as the main entry point for HTTP traffic when the computer that is running Adobe Campaign is exposed on the Internet and you wish to open access to the console outside of your network.
@@ -171,4 +171,3 @@ To fix this and display the error correctly, apply the following configuration:
 1. Select the **PassThrough** value at the **existingResponse** line.
 
 ![](assets/ins_iis_httperrors.png)
-

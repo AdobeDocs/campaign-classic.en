@@ -6,8 +6,8 @@ description: Learn more about Privacy management
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 ---
-
 # Privacy management {#privacy-management}
 
 Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).

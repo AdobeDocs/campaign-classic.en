@@ -1,13 +1,13 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Microsoft Dynamics CRM Connector
+title: Campaign - Microsoft Dynamics CRM Connector
 description: Connect Campaign and Microsoft Dynamics
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 ---
-
 # Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
    
 In this page, you will  learn how to connect Campaign Classic to **Microsoft Dynamics CRM 365**.
@@ -19,12 +19,6 @@ Possible deployments are:
 * for an **On-premise** deployment, apply Office 365 key steps.
 
 Data synchronization is carried out via a dedicated workflow activity. [Learn more](../../platform/using/crm-data-sync.md).
-
-
->[!NOTE]
->
-> CRM systems version compatible with Campaign are listed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#CRMconnectors).
->
 
 ## Implementation steps{#microsoft-dynamics-implementation-steps}
 

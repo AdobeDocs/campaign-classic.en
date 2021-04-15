@@ -6,8 +6,8 @@ description: Learn more about Privacy and Consent
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 ---
-
 # Privacy FAQ {#privacy-faq}
 
 Here are some of the Frequently Asked Questions about Privacy and Consent when using Adobe Campaign.

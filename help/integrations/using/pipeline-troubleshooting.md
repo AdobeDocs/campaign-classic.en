@@ -5,8 +5,8 @@ title: Configuring the integration
 description: Configuring the integration
 audience: integrations
 content-type: reference
+exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 ---
-
 # Pipeline troubleshooting {#pipeline-troubleshooting}
 
 **Pipelined fails with error "No task corresponds to the mask pipelined@<&nbsp;instance&nbsp;>"**
@@ -14,7 +14,7 @@ content-type: reference
 Your version of Adobe Campaign Classic does not support the pipeline.
 
 1. Check if the [!DNL pipelined] element is present in the config file. If not, it means it's not supported.
-1. Upgrade to Campaign 20.3 or Gold Standard 11.
+1. Upgrade to Campaign 20.3 or [!DNL Gold Standard] 11.
 
 **Pipelined fails with '' aurait dû commencer par `[` ou `{` (iRc=16384)"**
 

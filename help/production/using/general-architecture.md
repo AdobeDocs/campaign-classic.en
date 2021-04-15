@@ -6,8 +6,8 @@ description: General architecture
 audience: production
 content-type: reference
 topic-tags: introduction
+exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
 ---
-
 # General architecture{#general-architecture}
 
 ## Minimum architecture {#minimum-architecture}
@@ -49,4 +49,3 @@ The distribution of modules over several machines provides great flexibility of 
 |  8005/tcp (local)  | Adobe Campaign: web module  | YES  |
 |  8080/tcp  | Adobe Campaign: web module (tomcat)  | YES  |
 |  7777  | Statistics server (stat server)  | YES  |
-

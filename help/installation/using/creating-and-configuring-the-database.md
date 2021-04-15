@@ -6,8 +6,8 @@ description: Creating and configuring the database
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 ---
-
 # Creating and configuring the database{#creating-and-configuring-the-database}
 
 When you create a database, Adobe Campaign provides two different options:
@@ -21,7 +21,7 @@ The configuration steps are detailed hereafter.
 >
 >Names of databases, users and schemas must not start with a number or include special characters.
 >
->Only the **internal** identifier can carry out these operations. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>Only the **internal** identifier can carry out these operations. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 ## Case 1: Creating/recycling a database {#case-1--creating-recycling-a-database}
 
@@ -238,4 +238,3 @@ Example of a Microsoft SQL Server configuration on the base61 database linked to
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
-

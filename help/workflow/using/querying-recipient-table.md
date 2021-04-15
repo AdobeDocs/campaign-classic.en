@@ -6,8 +6,8 @@ description: Learn how to query the recipient table
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 ---
-
 # Querying the recipient table {#querying-recipient-table}
 
 In this example, we want to recover the names and emails of recipients whose email domain is "orange.co.uk" and who don't live in London.

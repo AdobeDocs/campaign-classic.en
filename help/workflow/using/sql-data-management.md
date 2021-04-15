@@ -6,8 +6,8 @@ description: Learn more about SQL Data Management workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 ---
-
 # SQL Data Management{#sql-data-management}
 
 The **SQL Data Management** activity lets you write your own SQL scripts to create and populate work tables.
@@ -106,4 +106,3 @@ AS SELECT i1.sFirstName, i1.sLastName, i2.sEmail
 FROM <%= task.incomingTransitionByName('input1').tableName %> i1
 JOIN <%= task.incomingTransitionByName('input2').tableName %> i2 ON (i1.id = i2.id)
 ```
-

@@ -6,8 +6,8 @@ description: Testing tracking
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 ---
-
 # Testing tracking{#testing-tracking}
 
 You can test tracking on mirror pages, email logs and links. To do this:
@@ -32,4 +32,3 @@ You can test tracking on mirror pages, email logs and links. To do this:
    To check the email log tracking, look for the values **Open** and **[!UICONTROL Email click]** in the **Type** column.
 
    If the open logs do not appear, go to the delivery and access its **Properties** to make sure that both **Activate tracking** and **[!UICONTROL Opens tracking]** options are checked.
-

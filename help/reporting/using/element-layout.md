@@ -6,8 +6,8 @@ description: Element layout
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 ---
-
 # Element layout{#element-layout}
 
 In addition to the various charts detailed here: [Chart types and variants](../../reporting/using/creating-a-chart.md#chart-types-and-variants), you can adapt the display and add elements to the report page(s).

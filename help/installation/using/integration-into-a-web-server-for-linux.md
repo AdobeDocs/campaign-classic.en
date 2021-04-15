@@ -6,8 +6,8 @@ description: Learn how to integrate Campaign into a Web server (Linux)
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
+exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
 ---
-
 # Integration into a Web server for Linux{#integration-into-a-web-server-for-linux}
 
 Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP (and SOAP).
@@ -16,7 +16,7 @@ You can use this integrated Tomcat server to serve HTTP requests.
 
 In this case:
 
-* the default listening port is 8080. To change it, refer to [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* the default listening port is 8080. To change it, refer to [this section](configure-tomcat.md).
 * The client consoles then connect using a URL such as:
 
   ```

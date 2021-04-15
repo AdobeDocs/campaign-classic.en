@@ -6,8 +6,8 @@ description: Filtering schemas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 ---
-
 # Filter schemas{#filtering-schemas}
 
 ## System filters {#system-filters}
@@ -108,4 +108,3 @@ You can still modify the system filters of the out-of-the-box schemas which are 
 1. Create an extension for the concerned schema or open an existing extension.
 1. Add a child element **`<sysfilter name="<filter name>" _operation="delete"/>`** in the main element to delete application of the filter under the same in the origin schema.
 1. If you like, you can add a new filter, as detailed in [System filters](#system-filters).
-

@@ -6,8 +6,8 @@ description: Fundamental principles
 audience: interaction
 content-type: reference
 topic-tags: general-operation
+exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
 ---
-
 # Fundamental principles{#fundamental-principles}
 
 ## Deploying environments {#deploying-environments}
@@ -35,4 +35,3 @@ These two types of interactions can be carried out either in unitary mode (offer
 As soon as an offer can or must be presented (according to the configurations carried out), the offer engine plays the intermediary role: it automatically calculates the best possible offer for a contact among those available by combining data received about the contact and the different rules that can be applied as specified in the application.
 
 ![](assets/architecture_interaction2.png)
-

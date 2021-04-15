@@ -6,8 +6,8 @@ description: Learn more about delivery performances and how to troubleshoot issu
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 ---
-
 # Delivery sending troubleshooting {#delivery-troubleshooting}
 
 This section lists common issues you may encounter when sending deliveries, and how to troubleshoot them.
@@ -30,7 +30,7 @@ After clicking the **[!UICONTROL Send]** button, your delivery seems to take lon
 
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 
-    * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](../../delivery/using/deliverability-faq.md) . To learn more about MX rules, refer to [this page](../../delivery/using/technical-recommendations.md#mx-rules).
+    * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](../../delivery/using/deliverability-faq.md). To learn more about MX rules, refer to [this section](../../installation/using/email-deliverability.md#about-mx-rules).
 
     * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential denylist.
 

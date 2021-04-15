@@ -6,8 +6,8 @@ description: Configuring the interface
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 ---
-
 # Configuring the interface{#configuring-the-interface}
 
 To view and dialog with the new recipient table in the Adobe Campaign interface, apply the following steps:
@@ -65,7 +65,7 @@ Creating a new form will enable you to view and edit the data of the external re
 
    >[!NOTE]
    >
-   >For more on **navtree** type files, refer to [this page](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy).
+   >For more on **navtree** type files, refer to [this page](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
    In the current example, the **navtree** file must be based on the **cus:individual** schema and therefore have the following form:
 
@@ -88,4 +88,3 @@ Creating a new form will enable you to view and edit the data of the external re
    ```
 
 1. Save the creation.
-

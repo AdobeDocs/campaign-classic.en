@@ -6,8 +6,8 @@ description: Learn how to create a target mapping
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: 38333669-5598-4811-a121-b677c1413f56
 ---
-
 # Target mapping{#target-mapping}
 
 Target mapping creation is necessary in two cases:

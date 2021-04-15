@@ -6,8 +6,8 @@ description: About response manager
 audience: campaign
 content-type: reference
 topic-tags: response-manager
+exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 ---
-
 # About response manager{#about-response-manager}
 
 ## Objectives {#objectives}
@@ -51,4 +51,3 @@ To define and create measuring hypotheses, apply the following process:
 
 1. Check hypothesis results. Refer to [Hypothesis tracking](../../campaign/using/hypothesis-tracking.md).
 1. Re-launch hypotheses if necessary. Refer to [Creating a hypothesis on the fly on a delivery](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery).
-

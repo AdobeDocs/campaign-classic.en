@@ -6,8 +6,8 @@ description: Creating an instance and logging on
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 ---
-
 # Creating an instance and logging on{#creating-an-instance-and-logging-on}
 
 To create a new instance and Adobe Campaign database, apply the following process:
@@ -18,7 +18,7 @@ To create a new instance and Adobe Campaign database, apply the following proces
 
 >[!NOTE]
 >
->Only the **internal** identifier can carry out these operations. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>Only the **internal** identifier can carry out these operations. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 When the Adobe Campaign console is started up, you access a login page.
 
@@ -75,4 +75,3 @@ To create a new instance, follow the steps below:
    >[!NOTE]
    >
    >The instance can be created from the command line. For more on this, refer to [Command lines](../../installation/using/command-lines.md).
-

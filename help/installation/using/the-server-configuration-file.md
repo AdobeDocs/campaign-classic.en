@@ -6,8 +6,8 @@ description: The server configuration file
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 ---
-
 # The server configuration file{#the-server-configuration-file}
 
 The overall configuration of Adobe Campaign is defined in the **serverConf.xml** file, located in the **conf** directory of the installation directory. This section lists all the different nodes and parameters of the **serverConf.xml** file.
@@ -194,7 +194,7 @@ Here are the different parameters of the **dataStore** node. This is where the s
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> Authorized files to be downloaded separated by ','. The string must be a valid, regular java expression. See <a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">Limiting uploadable files</a>.<br /> </td> 
+   <td> Authorized files to be downloaded separated by ','. The string must be a valid, regular java expression. See <a href="file-res-management.md" target="_blank">Limiting uploadable files</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -418,7 +418,7 @@ In the **dataStore > dataSource > pool** node, configure the parameters of assoc
 
 Here are the different parameters of the **dataStore > virtualDir** node. This is the configuration of the virtual directory to real directory mapping.
 
-For additional information, refer to [Managing public resources](../../installation/using/configuring-campaign-server.md#managing-public-resources).
+For additional information, refer to [Managing public resources](file-res-management.md).
 
 <table> 
  <thead> 
@@ -860,7 +860,7 @@ Here are the different parameters of the **ooconv** node. This is the configurat
 
 Here are the different parameters of the **proxyConfig** node. This is the configuration of proxy parameters.
 
-For additional information, refer to [Proxy connection configuration](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+For additional information, refer to [Proxy connection configuration](file-res-management.md).
 
 <table> 
  <thead> 
@@ -897,7 +897,7 @@ For additional information, refer to [Proxy connection configuration](../../inst
 
 In the **proxyConfig > HTTP Proxy / Secure proxy** node, configure the following parameters.
 
-For additional information, refer to [Proxy connection configuration](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+For additional information, refer to [Proxy connection configuration](file-res-management.md).
 
 <table> 
  <thead> 
@@ -2186,7 +2186,7 @@ Here are the different parameters of the **repair** node. This is the configurat
 
 Here are the different parameters of the **securityZone** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/security-zones.md).
+For additional information, refer to [Define security zones](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2284,7 +2284,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **securityZone > subNetwork** node.
 
-For additional information, refer to [Defining security zones](../../installation/using/security-zones.md).
+For additional information, refer to [Define security zones](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2807,7 +2807,7 @@ Here are the different parameters of the **trackinglogd** node. This is the conf
 
 Here are the different parameters of the **web** node. This is the configuration of the Web Module.
 
-For additional information, refer to this [section](../../installation/using/configuring-campaign-server.md#default-port-for-tomcat).
+For additional information, refer to this [section](configuring-campaign-server.md#default-port-for-tomcat).
 
 <table> 
  <thead> 
@@ -2851,13 +2851,13 @@ For additional information, refer to this [section](../../installation/using/con
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcat listening control port: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> Tomcat listening control port: refer to <a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>.<br /> </td> 
    <td> Short<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTP listening port: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> Tomcat HTTP listening port: refer to <a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>.<br /> </td> 
    <td> Short<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -3142,7 +3142,7 @@ For additional information, refer to [Dynamic page security and relays](../../in
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> URL of the target page: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> URL of the target page: refer to <a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3479,4 +3479,3 @@ For additional information, refer to [High availability workflows and affinities
   </tr> 
  </tbody> 
 </table>
-

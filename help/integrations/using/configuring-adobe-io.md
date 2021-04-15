@@ -8,19 +8,19 @@ content-type: reference
 index: y
 internal: n
 snippet: y
+exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 ---
-
 # Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
 >[!CAUTION]
 >
->If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode will be retired on **April 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+>If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode with Campaign with Campaign will be retired on November 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
 >Note that during this move to [!DNL Adobe I/O], some incoming triggers may be lost.
 
 ## Prerequisites {#adobe-io-prerequisites}
 
-This integration only applies starting **Campaign Classic 20.3, 20.2.4, 19.1.8 and Gold Standard 11 releases**.
+This integration only applies starting **Campaign Classic 20.3, 20.2.4, 19.1.8 and [!DNL Gold Standard] 11 releases**.
 
 Before starting this implementation, please check you have:
 
@@ -67,9 +67,9 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_5.png)
 
-1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. Then, click **[!UICONTROL Save configured API]**. 
+1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. No permission is required for this **[!UICONTROL Product profile]**. For more information on [!DNL Analytics] **[!UICONTROL Product Profiles]**, refer to [Adobe Analytics documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
     
-    For more information on [!DNL Analytics] **[!UICONTROL Product Profiles]**, refer to [Adobe Analytics documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
+    Then, click **[!UICONTROL Save configured API]**. 
 
     ![](assets/do-not-localize/adobe_io_6.png)
 

@@ -6,8 +6,8 @@ description: Creating an email delivery use case
 audience: web
 content-type: reference
 topic-tags: editing-html-content
+exl-id: e2679f12-459b-466d-9c82-60a28363b104
 ---
-
 # Use case: creating an email delivery{#use-case-creating-an-email-delivery}
 
 In this use case, you will learn steps to design an email delivery using Adobe Campaign Digital Content Editor (DCE).

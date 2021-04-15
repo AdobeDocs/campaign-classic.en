@@ -19,9 +19,10 @@ type: Documentation
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
-  + Gold Standard release {#gs-release}
-     + [Gold Standard release notes](rn/using/gold-standard.md)
-     + [Gold Standard compatibility matrix](rn/using/compatibility-matrix-gs.md)
+  + [!DNL Gold Standard] release {#gs-release}
+     + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
+     + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
+     + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}
     + [Release 20.3](rn/using/release--20-3.md)
     + [Release 20.2](rn/using/release--20-2.md)
@@ -42,6 +43,7 @@ type: Documentation
        + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
      + Adobe Campaign workspace{#campaign-workspace}
        + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
+       + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
        + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
      + Frequently Asked Questions {#faq}
        + [Top questions](platform/using/common-questions.md)
@@ -107,6 +109,7 @@ type: Documentation
        + CRM Connectors{#crm-connectors}
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+          + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
   + [Help & support options](support.md)
@@ -138,13 +141,16 @@ type: Documentation
             + [Send on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
        + [Attach files](delivery/using/attaching-files.md)
   + Send SMS {#sending-messages-on-mobiles}
-       + [SMS channel](delivery/using/sms-channel.md)
+       + [Get started with SMS](delivery/using/sms-channel.md)
+       + [Configure SMS channel](delivery/using/sms-set-up.md)
+       + [Create a SMS](delivery/using/sms-create.md)
+       + [Send and track SMS](delivery/using/sms-send.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
        + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
        + [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
   + [Send LINE messages](delivery/using/line-channel.md)
   + Send push notifications {#sending-push-notifications}
-       + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
+       + [Get started with mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrate Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
        + Configure the mobile application{#configure-the-mobile-app}
             + [Get started with the app configuration](delivery/using/get-started-app-config.md)
@@ -202,6 +208,7 @@ type: Documentation
        + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
        + [Delivery statuses](delivery/using/delivery-statuses.md)
        + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
+       + [Update bounce qualification after an ISP outage](delivery/using/update-bounce-qualification.md)
        + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
   + Track messages {#tracking-messages}
        + [About message tracking](delivery/using/about-message-tracking.md)
@@ -215,17 +222,11 @@ type: Documentation
        + [Test tracking](delivery/using/testing-tracking.md)
        + [Tracking troubleshooting](delivery/using/tracking-troubleshooting.md)
   + Deliverability management {#deliverability-management}
-       + [About deliverability](delivery/using/about-deliverability.md)
-       + [Key points to check](delivery/using/deliverability-key-points.md)
-       + [Starting a new platform](delivery/using/starting-new-platform.md)
+       + [What is deliverability](delivery/using/about-deliverability.md)
        + [Control message content](delivery/using/control-message-content.md)
-       + [Improve your reputation](delivery/using/improve-reputation.md)
-       + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
-       + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
-       + [Denylist databases](delivery/using/block-list-databases.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
@@ -388,6 +389,10 @@ type: Documentation
        + [Configure events for custom implementation](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
+  + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
+       + [Get started with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+       + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
+       + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automate with workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
@@ -503,7 +508,6 @@ type: Documentation
        + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
        + [Manage permissions](workflow/using/managing-rights.md)
        + [Manage activity images](workflow/using/managing-activity-images.md)
-       + [Manage propensity](workflow/using/managing-propensity.md)
        + [Manage time zones](workflow/using/managing-time-zones.md)
        + [Technical workflows](workflow/using/about-technical-workflows.md)
 + Manage Offers {#managing-offers}
@@ -619,7 +623,7 @@ type: Documentation
        + [Enterprise deployment](installation/using/enterprise-deployment.md)
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
-  + Security and privacy checklist {#security-privacy}
+  + Security and privacy settings {#security-privacy}
        + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
        + [Personalization and privacy](installation/using/privacy.md)
        + [Secure access management](installation/using/access-management.md)
@@ -645,16 +649,20 @@ type: Documentation
      + [Time zone management](installation/using/time-zone-management.md)
      + [Install a mid-sourcing server](installation/using/mid-sourcing-server.md)
   + Deploy Campaign (on-premise) {#initial-configuration}
-       + [About initial configuration](installation/using/about-initial-configuration.md)
+       + [Key steps](installation/using/about-initial-configuration.md)
        + [Create an instance and log on](installation/using/creating-an-instance-and-logging-on.md)
        + [Create and configure the database](installation/using/creating-and-configuring-the-database.md)
-       + [Configure Campaign server](installation/using/campaign-server-configuration.md)
        + [Deploy an instance](installation/using/deploying-an-instance.md)
        + [Install built-in packages](installation/using/installing-campaign-standard-packages.md)
   + Configure Campaign {#additional-configurations}
-       + [Campaign server settings](installation/using/configuring-campaign-server.md)
+       + [Campaign server configuration](installation/using/configuring-campaign-server.md)
        + [Define security zones](installation/using/security-zones.md)
+       + [Set URL permissions](installation/using/url-permissions.md)
+       + [Files and resources](installation/using/file-res-management.md)
+       + [Configure Tomcat](installation/using/configure-tomcat.md)
+       + [Configure delivery settings](installation/using/configure-delivery-settings.md)
        + [Technical email configurations](installation/using/email-deliverability.md)
+       + [Using MX servers with Campaign](installation/using/using-mx-servers.md)
        + [Configure email BCC](installation/using/email-archiving.md)
        + [Configure SpamAssassin](installation/using/configuring-spamassassin.md)
   + Connect to Campaign{#connect-to-campaign}
@@ -669,6 +677,7 @@ type: Documentation
        + [Configure external accounts](installation/using/external-accounts.md)
        + Configure Federated Data Access{#configure-fda}
           + [Get started with Federated Data Access](installation/using/about-fda.md)
+          + [Best practices and limitations](installation/using/fda-best-practices.md)
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
             + [Configure Vertica](installation/using/configure-fda-vertica.md)

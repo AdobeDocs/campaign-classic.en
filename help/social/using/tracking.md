@@ -6,8 +6,8 @@ description: Tracking
 audience: social
 content-type: reference
 topic-tags: annexes
+exl-id: 83883ba3-e4dc-428c-a377-1986cfd1fe55
 ---
-
 # Tracking{#tracking}
 
 Social Marketing provides reports which enable you to measure the reactivity rate of Facebook and Twitter deliveries and to analyze the acquisition of Facebook profiles. The following reports are available:
@@ -23,4 +23,3 @@ Social Marketing provides reports which enable you to measure the reactivity rat
 * The **[!UICONTROL Fan acquisition]** report, available via the **[!UICONTROL Dashboard]** tab of a Facebook service.
 
   ![](assets/social_report_1.png)
-

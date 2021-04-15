@@ -6,8 +6,8 @@ description: Defining web forms properties
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 ---
-
 # Defining web forms properties{#defining-web-forms-properties}
 
 Web forms are fully configurable and personalizable to satisfy your requirements. The parameters must be entered in the properties window.
@@ -168,4 +168,3 @@ To configure this form, create a test box and place it at the start of the diagr
 The test box lets you configure the page sequencing conditions:
 
 ![](assets/s_ncs_admin_survey_test_box.png)
-

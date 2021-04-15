@@ -6,8 +6,8 @@ description: Learn how to extend Campaign data model, edit schemas, use APIs, an
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
+exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 ---
-
 # Get started with Campaign data model{#about-data-model}
 
 The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction. Main tables and concepts are listed in this page.

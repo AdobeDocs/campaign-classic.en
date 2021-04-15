@@ -6,8 +6,8 @@ description: Configuring access to the report
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 ---
-
 # Configuring access to the report{#configuring-access-to-the-report}
 
 ## Report display context {#report-display-context}
@@ -129,4 +129,3 @@ Publishing the report is mandatory in order to share them with other operators a
    ![](assets/s_ncs_advuser_report_publish_02.png)
 
 1. Click the **[!UICONTROL Enlarge]** icon to open the report in a web browser.
-

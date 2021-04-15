@@ -6,20 +6,30 @@ description: Learn how to configure security zones
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 ---
 
-# Define security zones {#defining-security-zones}
+# Define security zones (on-premise){#defining-security-zones}
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
 
-Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](#linking-a-security-zone-to-an-operator).
+Operators are linked to a security zone from its profile in the console, accessible in the **[!UICONTROL Administration > Access management > Operators]** node. [Learn more](#linking-a-security-zone-to-an-operator).
+
+>[!NOTE]
+>
+>This procedure is restricted to **on-premise** deployments. 
+>
+>As a **hosted** customer, if you can access [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html), you can use the Security Zone self service interface. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+>
+>Other **hybrid/hosted** customers need to reach out to Adobe support team to add IP to the allow list.
+>
 
 ## Create security zones {#creating-security-zones}
 
 A zone is defined by:
 
 * one or more ranges of IP addresses (IPv4 and IPv6)
-* a technical name linked to each range of IP addresses
+* a technical name associated to each range of IP addresses
 
 Security zones are interlocked, which means that defining a new zone within another zone reduces the number of operators who can log on to it while increasing the rights assigned to each operator.
 
@@ -203,3 +213,36 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
    ![](assets/zone_operator_selection.png)
 
 1. Click **[!UICONTROL OK]** and save the modifications to apply these changes.
+
+
+
+## Recommendations
+
+* Make sure that your reverse proxy in not allowed in subNetwork. If it is the case, **all** traffic will be detected as coming from this local IP, so will be trusted.
+
+* Minimize the use of sessionTokenOnly="true":
+
+  * Warning: If this attribute is set to true, the operator can be exposed to a **CRSF attack**.
+  * In addition, the sessionToken cookie is not set with an httpOnly flag, so some client-side javascript code can read it.
+  * However Message Center on multiple execution cells needs sessionTokenOnly: create a new security zone with sessionTokenOnly set to "true" and add **only the needed IP(s)** in this zone.
+
+* When possible, set all allowHTTP, showErrors to be false (not for localhost) and check them.
+
+  * allowHTTP = "false": forces operators to use HTTPS
+  * showErrors = "false": hides technical errors (including SQL ones). It prevents displaying too much information, but reduces the capability for the marketer to solve mistakes (without asking for more information from an administrator)
+
+* Set allowDebug to true only on IPs used by marketing users/administrators who need to create (in fact preview) surveys, webApps and reports. This flag allows these IPs to get relay rules displayed and to debug them.
+
+* Never set allowEmptyPassword, allowUserPassword, allowSQLInjection to true. These attributes are only here to allow a smooth migration from v5 and v6.0:
+
+  * **allowEmptyPassword** lets operators have an empty password. If this is the case for you, notify all your operators to ask them to set a password with a deadline. Once this deadline has passed, change this attribute to false.
+
+  * **allowUserPassword** lets operators send their credentials as parameters (so they will be logged by apache/IIS/proxy). This feature was used in the past to simplify API usage. You can check in your cookbook (or in the specification) whether some third-party applications use this. If so, you have to notify them to change the way they use our API and as soon as possible remove this feature.
+
+  * **allowSQLInjection** lets the user perform SQL injections by using an old syntax. As soon as possible carry out the corrections described in [this page](../../migration/using/general-configurations.md) to be able to set this attribute to false. You can use /nl/jsp/ping.jsp?zones=true to check your security zone configuration. This page displays the active status of security measures (computed with these security flags) for the current IP.
+
+* HttpOnly cookie/useSecurityToken: refer to **sessionTokenOnly** flag.
+
+* Minimize IPs added to the allow list: Out of the box, in security zones, we have added the 3 ranges for private networks. It is unlikely that you will use all of these IP addresses. So keep only the ones that you need.
+
+* Update webApp/internal operator to be only accessible in localhost.

@@ -1,13 +1,13 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Release 20.3
-description: Release 20.3
-audience: rns
-content-type: reference
-topic-tags: campaign-release-notes, latest-release-notes
+title: Campaign 20.3 release notes
+description: Release notes for Campaign 20.3
+feature: Overview
+role: Business Practitioner
+level: Beginner
+exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
 ---
-
 # Release 20.3{#release-20-3}
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
@@ -25,7 +25,7 @@ _October 27, 2020_
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 
 **What's new?**
 
@@ -160,4 +160,4 @@ On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
 * Fixed an issue that made unwanted URLs visible in the delivered emails after importing HTML templates containing tracking links. (NEO-25909)
 * Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
 * Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
-* Fixed an issue in the enrichment activity where non-admin users defined instance variables. (NEO-25653) 
+* Fixed an issue in the enrichment activity where non-admin users defined instance variables. (NEO-25653)

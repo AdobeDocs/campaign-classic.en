@@ -1,13 +1,13 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Release 18.10
-description: Release 18.10
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Campaign 18.10 release notes
+description: Release notes for Campaign 18.10
+feature: Overview
+role: Business Practitioner
+level: Beginner
+exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
 ---
-
 # Release 18.10{#release-18-10}
 
 ## Release 18.10.6 - Build 8985{#release-18-10-6-build-8985}
@@ -141,7 +141,7 @@ topic-tags: latest-release-notes
 
 * Campaign Classic APIs are now available in a [dedicated page](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html). If you were using the jsapi.chm file, you should now refer to the new online version.
 * PostgreSQL 10, Debian 9 and Teradata 16.20 are now supported. Refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
-* When creating an SFTP connection, you can now use proxy authentication. For more information, refer to the [detailed documentation](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868)
+* When creating an SFTP connection, you can now use proxy authentication. For more information, refer to the [detailed documentation](../../installation/using/file-res-management.md) (NEO-9868)
 * The **Date calculation formula** option is now available in the delivery properties when creating a single delivery using the direct mail delivery template. (NEO-9792)
 * The domain name management has been improved for cookie tracking and web applications. See the 'Technical evolutions' section below for more information. 
 * The import of Adobe Marketing Cloud shared assets in a delivery or landing page has been improved in terms of security and performance.
@@ -233,4 +233,3 @@ These index changes may lead to an increase of the time required to perform the 
 * Fixed an Oracle error that occurred when a new delivery composition was saved after selecting an element of a specific schema **based on a SQL view**. (NEO-11682) 
 * Fixed an issue which led to generated reject files containing false positives when processing a zip file containing a .csv via a load file activity using the Decompression option.
 * xtkjoblog is now purged by the cleanup.
-

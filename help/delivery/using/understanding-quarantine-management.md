@@ -6,8 +6,8 @@ description: Understanding quarantine management
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 ---
-
 # Understanding quarantine management{#understanding-quarantine-management}
 
 ## About quarantines {#about-quarantines}
@@ -120,7 +120,7 @@ Adobe Campaign manages quarantine according to the delivery failure type and the
 * **Hard error**: the corresponding email address is immediately sent to quarantine.
 * **Soft error**: soft errors do not send immediately an address to quarantine, but they increment an error counter. For more on this, see [Soft error management](#soft-error-management).
 
-If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)), the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine.
+If a user qualifies an email as a spam ([feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)), the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine.
 
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. Quarantine in Adobe Campaign is case sensitive. Make sure to import email addresses in lower case, so that they are not retargeted later on.
 
@@ -525,7 +525,7 @@ The quarantine mechanism for SMS messages is globally the same as the general pr
 
 **For the Extended generic SMPP connector**
 
-When using the SMPP protocol to send SMS messages, the error management is handled differently. For more information on the Extended generic SMPP connector, refer to [this page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+When using the SMPP protocol to send SMS messages, the error management is handled differently. For more information on the Extended generic SMPP connector, refer to [this page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 The SMPP connector retrieves data from the SR (Status Report) message that is returned using regular expressions (regexes) to filter its content. This data is then matched against the information found in the **[!UICONTROL Delivery log qualification]** table (available via the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** menu).
 
@@ -544,13 +544,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * All error messages begin with **SR** to distinguish SMS error codes from email error codes.
-* The second part (**Generic** in this example) of the error message refers to the name of the SMSC implementation such as defined in the **[!UICONTROL SMSC implementation name]** field of the SMS external account. See [this page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+* The second part (**Generic** in this example) of the error message refers to the name of the SMSC implementation such as defined in the **[!UICONTROL SMSC implementation name]** field of the SMS external account. See [this page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
   Because the same error code may have a different meaning for each provider, this field allows you to know which provider generated the error code. You can then find the error in the relevant provider's documentation.
 
 * The third part (**DELIVRD** in this example) of the error message corresponds to the status code retrieved from the SR using the status extraction regex defined in the SMS external account.
 
-  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
   ![](assets/tech_quarant_error_regex.png)
 
@@ -558,7 +558,7 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * The fourth part (**000** in this example) of the error message corresponds to the error code extracted from the SR using the error code extraction regex defined in the SMS external account.
 
-  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
   By default, the regex extracts the **err:** field as defined by the **Appendix B** section of the **SMPP 3.4 specification**.
 

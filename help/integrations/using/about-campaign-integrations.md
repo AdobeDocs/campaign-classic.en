@@ -6,8 +6,8 @@ description: Use other Adobe solutions and combine their different capabilities 
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
+exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 ---
-
 # Get started with Adobe Campaign integrations {#about-campaign-integrations}
 
 Adobe Experience Cloud is a comprehensive set of best-in-class, integrated solutions built on a common data platform with a common set of powerful core services.
@@ -53,7 +53,7 @@ The following table provides access to available Experience Cloud integration do
  <tbody> 
   <tr> 
    <td> <strong>Adobe Real-time Customer Data Platform (RTCDP)</strong><br /> </td> 
-   <td> The integration between Adobe Campaign and Adobe Real-time Customer Data Platform (RTCDP) allows you to share segments data and import audiences to Adobe Campaign.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">Learn more</a> about Campaign - Adobe Real-time Customer Data Platform integration.</p><br /> </td> 
+   <td> The integration between Adobe Campaign and Adobe Real-time Customer Data Platform (RTCDP) allows you to share segments data and import audiences to Adobe Campaign.<br /> <p><a href="../../integrations/using/get-started-sources-destinations.md">Learn more</a> about Campaign - Adobe Real-time Customer Data Platform integration.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management System (IMS) - Adobe ID</strong><br /> </td> 
@@ -89,4 +89,3 @@ The following table provides access to available Experience Cloud integration do
   </tr> 
  </tbody> 
 </table>
-

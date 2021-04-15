@@ -6,8 +6,8 @@ description: Inserting a shared asset
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
+exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
 ---
-
 # Inserting a shared asset{#inserting-a-shared-asset}
 
 Assets shared from Adobe Experience Cloud can be used in your emails and landing pages as follows:
@@ -41,4 +41,3 @@ Assets shared from Adobe Experience Cloud can be used in your emails and landing
 >[!NOTE]
 >
 >If you use the integration with Adobe Target, you can use a shared image as a default image. Refer to [this page](../../integrations/using/integrating-with-adobe-target.md).
-

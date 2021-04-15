@@ -6,8 +6,8 @@ description: Enterprise deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 ---
-
 # Enterprise deployment{#enterprise-deployment}
 
 This is the most complete configuration. It builds on the standard configuration for greater security and availability:
@@ -106,7 +106,7 @@ The steps for installing the first server are:
    nlserver config -internalpassword
    ```
 
-   For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 1. Create the **demo** instance with the DNS masks for tracking (in this case, **tracking.campaign.net**) and access to client consoles (in this case, **console.campaign.net**). There are two ways of doing this:
 
@@ -144,7 +144,7 @@ The steps for installing the first server are:
    </serverconf>
    ```
 
-   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and specify the delivery domain, then specify the IP (or host) addresses of the DNS servers used by the MTA module to answer MX type DNS queries.
 
@@ -156,7 +156,7 @@ The steps for installing the first server are:
    >
    >The **nameServers** parameters is only used in Windows.
 
-   For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
+   For more on this, refer to [Campaign server configuration](../../installation/using/configuring-campaign-server.md).
 
 1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder. [Learn more](../../installation/using/client-console-availability-for-windows.md).
 
@@ -222,7 +222,7 @@ Apply the following steps:
    </serverconf>
    ```
 
-   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and populate the DNS configuration of the MTA module:
 
@@ -234,7 +234,7 @@ Apply the following steps:
    >
    >The **nameServers** parameter is only used in Windows.
 
-   For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
+   For more on this, refer to [Campaign server configuration](../../installation/using/configuring-campaign-server.md).
 
 1. Start the Adobe Campaign servers.
 
@@ -283,4 +283,3 @@ The steps are as follows:
     * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
 
 1. Start the Adobe Campaign server.
-

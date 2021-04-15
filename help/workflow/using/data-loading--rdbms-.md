@@ -6,8 +6,8 @@ description: Learn more about Data loading (RDBMS) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
 ---
-
 # Data loading (RDBMS){#data-loading-rdbms}
 
 The **[!UICONTROL Data loading (RDBMS)]** activity lets you access this external database directly and to collect only the data required for targeting.
@@ -31,4 +31,3 @@ Operation is as follows:
 1. You can define a filter on this data. To do this, click the **[!UICONTROL Edit query....]** link.
 
    The data collected like this can be used throughout the workflow's life cycle.
-

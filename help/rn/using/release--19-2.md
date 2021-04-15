@@ -2,15 +2,25 @@
 solution: Campaign Classic
 product: campaign
 title: Release 19.2
-description: Release 19.2
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+description: Release notes for Campaign 19.2
+feature:
+role: 
+level:
+exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 ---
-
 # Release 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
+
+_March 22, 2021_
+
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
 
 _December 23, 2020_
 
@@ -119,7 +129,7 @@ _December 2, 2019_
     * The **XtkCleanup_NoStats** option has been enhanced for PostgreSQL to better control the behavior of the storage optimization step of the database cleanup workflow. [Read more](../../production/using/database-cleanup-workflow.md#statistics-update)
 * An account lockout mechanism has been added to the **logon()** API. It prevents any further login attempts after a certain number of consecutive failed login attempts within a specified timeframe.
 * A new **Maximum personalization run time** option in the delivery properties allows you to define a time-out period for the personalization run time, in order to prevent the personalization phase from running for too long. [Read more](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* The **ftp protocol** option has been added to allow you to use a proxy configuration for SFTP connections. [Read more](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
+* The **ftp protocol** option has been added to allow you to use a proxy configuration for SFTP connections. [Read more](../../installation/using/file-res-management.md)
 * New support of proxy access to an SFTP external server for on-premise environments.
 * A specific guardrail has been added to prevent installation of packages which are not compatible with the Campaign instance. [Read more](../../installation/using/installing-campaign-standard-packages.md)
 
@@ -166,5 +176,3 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed an issue when accessing to Predictive models. (NEO-19713)
 * Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
 * Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
-
-

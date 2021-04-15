@@ -6,8 +6,8 @@ description: Template management
 audience: web
 content-type: reference
 topic-tags: editing-html-content
+exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
 ---
-
 # Template management{#template-management}
 
 The Digital Content Editor offers **standard templates** for Web applications and deliveries.

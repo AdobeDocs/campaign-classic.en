@@ -6,8 +6,8 @@ description: Managing time zones
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 ---
-
 # Managing time zones{#managing-time-zones}
 
 Adobe Campaign lets you manage time-lags between various countries concerned by the same instance. The applied configuration is configured during instance creation.

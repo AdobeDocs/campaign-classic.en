@@ -6,8 +6,8 @@ description: Implementing IMS
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
+exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
 ---
-
 # Implementing IMS{#implementing-ims}
 
 ## Enabling the IMS connection {#enabling-the-ims-connection}
@@ -25,4 +25,3 @@ topic-tags: connecting-via-an-adobe-id
 To disable connecting via the Adobe ID, disconnect, click **[!UICONTROL File > Connections]** and uncheck **[!UICONTROL Connect with an Adobe ID]**. 
 
 ![](assets/ims_4.png)
-

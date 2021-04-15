@@ -1,13 +1,13 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Release 18.4
-description: Release 18.4
-audience: rn
-content-type: reference
-topic-tags: latest-release-notes
+title: Campaign 18.4 release notes
+description: Release notes for Campaign 18.4
+feature: 
+role:
+level:
+exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
 ---
-
 # Release 18.4{#release-18-4}
 
 ## Release 18.4.5 - Build 8937{#release-18-4-5-build-8937}
@@ -137,7 +137,7 @@ topic-tags: latest-release-notes
 * The ability for administrators to set or reset the password of any operator has been restored. To do this, right-click on an operator, select **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** and set the operator's new password. We recommend that operators change their password when they first reconnect. For more information, refer to the [detailed documentation](../../production/using/lost-password.md).
 * To support the new multitenancy feature in Adobe Target, a new “at_property” parameter can now be added to URLs when configuring options and external accounts for the integration with Target. The value to use for this parameter can be found in Adobe Target and will be used by Campaign when performing calls to Target. For more information, refer to the [detailed documentation](../../integrations/using/inserting-a-dynamic-image.md).
 * You can now specify a default landing page to open when clicking on an image served by Adobe Target. Previously, clicking that image was leading to the default image set when creating the email instead. For more information, refer to the [detailed documentation](../../integrations/using/inserting-a-dynamic-image.md).
-* Added **Enable SMPP traces** checkbox in the external account to force traces output. For more information, refer to the [detailed documentation](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+* Added **Enable SMPP traces** checkbox in the external account to force traces output. For more information, refer to the [detailed documentation](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 **Technical evolutions**
 

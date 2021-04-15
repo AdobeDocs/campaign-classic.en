@@ -6,8 +6,8 @@ description: "Use cases: web forms"
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 ---
-
 # Use cases: web forms{#use-cases-web-forms}
 
 ## Create a subscription form with double opt-in {#create-a-subscription--form-with-double-opt-in}
@@ -211,4 +211,3 @@ The right-hand column's conditional display is configured in the containers:
 * Conditional visibility of fields for a commercial vehicle:
 
   ![](assets/s_ncs_admin_survey_condition_config3.png)
-

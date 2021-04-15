@@ -6,8 +6,8 @@ description: Identifying a form
 audience: configuration
 content-type: reference
 topic-tags: input-forms
+exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 ---
-
 # Identifying a form{#identifying-a-form}
 
 An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console.

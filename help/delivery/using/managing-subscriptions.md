@@ -6,8 +6,8 @@ description: Managing subscriptions
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
+exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 ---
-
 # Managing subscriptions{#managing-subscriptions}
 
 ## About information services {#about-information-services}

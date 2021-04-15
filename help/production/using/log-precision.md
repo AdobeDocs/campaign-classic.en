@@ -6,8 +6,8 @@ description: Log precision
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
 ---
-
 # Log precision{#log-precision}
 
 You can apply this process to all Adobe Campaign modules to increase log precision.

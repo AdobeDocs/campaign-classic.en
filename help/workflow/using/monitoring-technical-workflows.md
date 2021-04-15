@@ -6,8 +6,8 @@ description: Monitoring technical workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 ---
-
 # Monitoring technical workflows {#monitoring-technical-workflows}
 
 Technical workflows need to be monitored, and actions need to be taken when they fail.

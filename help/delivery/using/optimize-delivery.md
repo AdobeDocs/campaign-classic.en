@@ -5,8 +5,8 @@ title: Optimize message delivery
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
+exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 ---
-
 # Optimize delivery {#optimize-delivery}
 
 Before even starting creating deliveries, you can take several actions to secure and optimize the sending process upstream.
@@ -43,7 +43,7 @@ To reach your recipients' inbox without bouncing or being marked as spam, you ne
 
     * When checking your email for deliverability, you want to focus on four main categories: data quality, message and content, sending infrastructure, and reputation. For a deeper dive on this topic, refer to [this section](../../delivery/using/about-deliverability.md).
 
-* Apply the recommendations detailed [in this document](../../delivery/using/deliverability-key-points.md).
+* Apply the recommendations detailed [in this document](../../delivery/using/about-deliverability.md).
 
 * Contact your Adobe representative for assistance.
 

@@ -6,8 +6,8 @@ description: Learn how to connect via an Adobe ID
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
+exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 ---
-
 # Configuring IMS{#configuring-ims}
 
 >[!IMPORTANT]
@@ -59,4 +59,3 @@ Enter the following information:
   >The association mask is essential for the connection via the Adobe ID to work correctly.
 
 * Adobe Experience Cloud connection information, particularly the name of the Adobe Experience Cloud Tenant.
-

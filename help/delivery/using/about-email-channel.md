@@ -6,8 +6,8 @@ description: This section provides general information specific to the email cha
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 ---
-
 # About email channel{#about-email-channel}
 
 Adobe Campaign lets you mass deliver personalized electronic messages to a target population.

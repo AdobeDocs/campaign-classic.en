@@ -1,16 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Release 19.1
-description: Release 19.1
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Campaign 19.1 release notes
+description: Release notes for Campaign 19.1
+feature: 
+role: 
+level:
+exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 ---
-
 # Release 19.1{#release-19-1}
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
+
+_March 22, 2021_
+
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
 
 _December 16, 2020_
 
@@ -18,7 +28,7 @@ _December 16, 2020_
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode will be retired on **April 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 
 
 **Improvements**
@@ -110,7 +120,7 @@ _August 13, 2019_
 
 >[!NOTE]
 >
->19.1.4 Gold Standard releases are listed in this [page](../../rn/using/gold-standard.md).
+>19.1.4 [!DNL Gold Standard] releases are listed in this [page](../../rn/using/gold-standard.md).
 
 
 ## ![](assets/do-not-localize/red_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
