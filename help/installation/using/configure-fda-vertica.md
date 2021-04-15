@@ -90,9 +90,9 @@ To configure [!DNL Vertica] on CentOS, follow the steps below:
 
 1. You then need to install unixODBC with the following command:
 
-     ```
+    ```
     apt-get install unixODBC
-     ```
+    ```
 
 1. If you have previously installed the [!DNL Vertica] Server, an ODBC driver will already be installed. In this case, update the drive as follows:
 
