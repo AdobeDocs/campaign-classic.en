@@ -10,17 +10,15 @@ hidefromtoc: yes
 
 Following recent changes, tracked URLs can fail when URL signature is active. Some mailboxes are more impacted as some companies have specific security tools which impact links and alter the URL signature mechanism.
 
-As a consequence, Adobe recommends that you disable the new signature mechanism for tracking links. This procedure will fix old tracking links except the ones received with a double escaping.
+As a consequence, Adobe recommends that you disable the signature mechanism for tracking links. This procedure will fix old tracking links except the ones received with a double escaping.
 
 Note that unsubscription links will fail with the same frequency than the other links, the frequency is variable from host to host but little less than 1%.
 
 **Are you impacted?**
 
-Signature mechanism has been introduced in [Campaign Gold Standard 8](../rn/using/gold-standard.md#gs8) - April 2020, and 
+To improve security, the signature mechanism for tracking links in emails has been introduced in [Campaign Gold Standard 8](../rn/using/gold-standard.md#gs8) - April 2020 - and is enabled by default for all customers starting Build 19.1.4 (9032@3a9dc9c) and Campaign 20.2.
 
-To improve security, the new signature mechanism for tracking links in emails has been introduced in [Campaign Gold Standard 8](../rn/using/gold-standard.md#gs8), Build 19.1.4 (9032@3a9dc9c), and is available starting Build 19.1.4 (9032@3a9dc9c) and Campaign 20.2. This option is enabled by default for all customers.
-
-If your environment is on a lower build than the ones listed below, you are impacted:
+If your environment is running on one of the versions listed below, you are impacted:
 
 * Gold Standard 7 to 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 and 21.1.2 releases. [Learn more](../rn/using/latest-release.md)
