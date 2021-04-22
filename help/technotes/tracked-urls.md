@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Technote
 description: Technote
-hide: no
+hide: yes
 hidefromtoc: yes
 ---
 # Tracked URLs signature issue {#tracked-urls}
@@ -18,7 +18,7 @@ Note that unsubscription links can fail as any other links, the frequency is var
 
 To improve security, the signature mechanism for tracking links in emails has been introduced in [Campaign Gold Standard 8](../rn/using/gold-standard.md#gs8) - April 2020 - and is enabled by default for all customers starting Build 19.1.4 (9032@3a9dc9c) and Campaign 20.2.
 
-If your environment is running on one of the versions listed below, you are impacted:
+If your environment is running on one of the versions listed below, you can be impacted:
 
 * Gold Standard 7 to 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 and 21.1.2 releases. [Learn more](../rn/using/latest-release.md)
