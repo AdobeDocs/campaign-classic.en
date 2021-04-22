@@ -46,7 +46,7 @@ Learn how to check your version [in this section](../platform/using/launching-ad
 
 >[!NOTE]
 >
->The **config-`<instance>`.xml** file overrides the **serverConf.xml** settings. If the  if the **signEmailLinks** is present in the  **config-`<instance>`.xml** (where **instance** is the name of the instance), it must also be turned to **false**.
+>The **config-`<instance>`.xml** file overrides the **serverConf.xml** settings. If the  if the **signEmailLinks** is present in the  **config-`<instance>`.xml** (where **instance** is the name of your instance), it must also be turned to **false**.
 >
 
 **What is the impact?**
