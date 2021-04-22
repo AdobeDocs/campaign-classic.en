@@ -6,13 +6,13 @@ description: Technote
 hide: no
 hidefromtoc: yes
 ---
-# Tracked URLs signature issue in Campaign {#tracked-urls}
+# Tracked URLs signature issue {#tracked-urls}
 
-Following recent changes, tracked URLs can fail when URL signature is active. Some mailboxes are more impacted as some companies have specific security tools which impact links and alter the URL signature mechanism.
+Following recent changes, tracked URLs can fail when URL signature is active in Campaign. Some mailboxes can be more impacted than others, as some companies have specific security tools which can impact links and alter the URL signature mechanism.
 
 As a consequence, Adobe recommends that you disable the signature mechanism for tracking links. This procedure will fix old tracking links except the ones received with a double escaping.
 
-Note that unsubscription links will fail with the same frequency than the other links, the frequency is variable from host to host but little less than 1%.
+Note that unsubscription links can fail as any other links, the frequency is variable from host to host but is less than 1%.
 
 **Are you impacted?**
 
