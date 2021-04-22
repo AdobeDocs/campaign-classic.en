@@ -32,9 +32,11 @@ Learn how to check your version [in this section](../platform/using/launching-ad
 
 **How to update?**
 
-**Hosted and hybrid customers** must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have this mechanism disabled.
+As a **hosted customer**, Adobe will be working with you to update your configuration shortly.
 
-**On-premise customers** can follow the step below :
+As an **on-premise/hybrid customer**, you need to update your configuration.
+
+Follow the step below:
 
 1. In the [server configuration file](../installation/using/the-server-configuration-file.md) (serverConf.xml), change **signEmailLinks** to **false**.
 1. Restart the **nlserver** service.
@@ -54,3 +56,8 @@ Learn how to check your version [in this section](../platform/using/launching-ad
 The maintenance requires a maximum of 25 minutes downtime and during this period all the deliveries, tracking links and API calls will not work.
 
 Once the update is done, all links will work as expected.
+
+>[!NOTE]
+>
+>For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
