@@ -10,7 +10,7 @@ hidefromtoc: yes
 
 Following recent changes, tracked URLs can fail when URL signature is active in Campaign. Some mailboxes can be more impacted than others, as some companies have specific security tools which can impact links and alter the URL signature mechanism.
 
-As a consequence, Adobe recommends that you disable the signature mechanism for tracking links. This procedure will fix old tracking links except the ones received with a double escaping.
+As a consequence, Adobe recommends that you disable the signature mechanism for tracking links. This procedure fixes old tracking links except the ones received with a double escaping.
 
 Note that unsubscription links can fail as any other links, the frequency is variable from host to host but is less than 1%.
 
@@ -20,13 +20,13 @@ To improve security, the signature mechanism for tracking links in emails has be
 
 If your environment is running on one of the versions listed below, you can be impacted:
 
-* Gold Standard 7 to 11. [Learn more](../rn/using/gold-standard.md)
-* Campaign 21.1.1 and 21.1.2 releases. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.3.1 to 20.3.3 releases. [Learn more](../rn/using/release--20-3.md)
-* Campaign 20.2.1 to 20.2.3 releases. [Learn more](../rn/using/release--20-2.md)
-* Campaign 20.1.1 to 21.1.3 releases. [Learn more](../rn/using/release--20-1.md)
-* Campaign 19.2.2 to 19.2.3 releases. [Learn more](../rn/using/release--19-2.md)
-* Campaign 19.1.5 to 19.1.7 releases. [Learn more](../rn/using/release--19-1.md)
+* Gold Standard 7 - 11. [Learn more](../rn/using/gold-standard.md)
+* Campaign 21.1.1 - 21.1.2 releases. [Learn more](../rn/using/latest-release.md)
+* Campaign 20.3.1 - 20.3.3 releases. [Learn more](../rn/using/release--20-3.md)
+* Campaign 20.2.1 - 20.2.3 releases. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.1.1 - 21.1.3 releases. [Learn more](../rn/using/release--20-1.md)
+* Campaign 19.2.2 - 19.2.3 releases. [Learn more](../rn/using/release--19-2.md)
+* Campaign 19.1.5 - 19.1.7 releases. [Learn more](../rn/using/release--19-1.md)
 
 Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -48,14 +48,14 @@ Follow the step below:
 
 >[!NOTE]
 >
->The **config-`<instance>`.xml** file overrides the **serverConf.xml** settings. If the  if the **signEmailLinks** is present in the  **config-`<instance>`.xml** (where **instance** is the name of your instance), it must also be turned to **false**.
+>The **config-`<instance>`.xml** file overrides the **serverConf.xml** settings. If the **signEmailLinks** is present in the  **config-`<instance>`.xml** (where **instance** is the name of your instance), it must also be turned to **false**.
 >
 
 **What is the impact?**
 
-The maintenance requires a maximum of 25 minutes downtime and during this period all the deliveries, tracking links and API calls will not work.
+The maintenance requires a maximum of 25-minutes downtime and during this period all the deliveries, tracking links and API calls will not work.
 
-Once the update is done, all links will work as expected.
+Once the update is done, all links work as expected.
 
 >[!NOTE]
 >
