@@ -112,6 +112,32 @@ After configuring the external account, the following components will be created
   * Genesis Remarketing - Product Purchases
   * Genesis Remarketing - Cart Abandonment
 
+1. Click the **[!UICONTROL Enrich the formula...]** link to change the URL calculation formula to specify the Web analytics tool integration information (campaign IDs) and the domains of the sites whose activity must be tracked.
+1. Specify the domain name(s) of the sites.
+
+   ![](assets/webanalytics_tracking_001.png)
+
+1. Click **[!UICONTROL Next]** and make sure the domain names have been saved.
+
+   ![](assets/webanalytics_tracking_002.png)
+
+1. If necessary, you must overload the calculation formula. To do this, check the box and edit the formula directly in the window.
+
+   ![](assets/webanalytics_tracking_003.png)
+
+   >[!IMPORTANT]
+   >
+   >This configuration mode is reserved for expert users: any error in this formula may result in email deliveries being stopped.
+
+1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
+
+    * **[!UICONTROL Lifespan]**: lets you specify the delay (in days_ after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
+    * **[!UICONTROL Persistence]**: lets you the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.
+
+>[!NOTE]
+>
+>If you are using several audience measuring tools, you can select **[!UICONTROL Other]** in the **[!UICONTROL Partners]** drop-down list when creating the external account. You may only reference one external account in the delivery properties: you will therefore need to adapt the formula of tracked URLs by adding the parameters expected by the Adobe and all other measuring tools used.
+
 ### Technical workflows of web analytics processes {#technical-workflows-of-web-analytics-processes}
 
 Data exchange between Adobe Campaign and Adobe Analytics is handled by four technical workflows which run as a background task.
