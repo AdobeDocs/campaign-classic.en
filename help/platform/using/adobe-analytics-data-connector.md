@@ -35,21 +35,59 @@ The action fields for each tool are as follows:
 
 ## Setting up the integration {#setting-up-the-integration}
 
+To set up the Data connector, you must connect to your Adobe Campaign instance and perform the following operations:
+
+1. [Create your Report suite in Adobe Analytics](#report-suite-analytics)
+1. [Configure your external account in Adobe Campaign Classic](#external-account-classic)
+
 ### Create your Report suite in Adobe Analytics {#report-suite-analytics}
 
 To set up the Adobe Analytics/Adobe Campaign Classic integration, you must connect to your Adobe Campaign instance and perform the following operations:
 
 In Adobe Analytics:
 
+1. From [!DNL Adobe Analytics], select the **[!UICONTROL Admin tab]** then click **[!UICONTROL All admin]**.
+
+   ![](assets/analytics_connnector_1.png)
+
+1. Click **[!UICONTROL Report suites]**.
+
+   ![](assets/analytics_connnector_2.png)
+
+1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
+
+   ![](assets/analytics_connnector_3.png)
+
 1. Create a new **[!UICONTROL Report suite]**. 
 
    For the detailed procedure on Report suite creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
 
-1. From your **[!UICONTROL Report suite]**, create two **[!UICONTROL Conversion variables]**: one for the Delivery name and one for the BroadlogID. 
+   ![](assets/analytics_connnector_3.png)
+
+1. Select a template. Then, configure your new report suite with the following information:
+   * **[!UICONTROLReport Suite ID]**
+   * **[!UICONTROLSite Title]**
+   * **[!UICONTROLTime Zone]**
+   * **[!UICONTROLGo Live Date]**
+   * **[!UICONTROL Estimated Page Views Per Day]**
+
+   ![](assets/analytics_connnector_4.png)
+
+1. When configured, click **[!UICONTROL Create report suite]**.
+
+1. Select your configured **[!UICONTROL Report suite]**. From the  **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Conversion variables]**.
+
+   ![](assets/analytics_connnector_5.png)
+
+1. By clicking **[!UICONTROL Add new]**, create two **[!UICONTROL Conversion variables]**: one for the Delivery name and one for the BroadlogID.
+   Specify the identifiers required for measuring the impact of the email campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID. You should also specify the indicators for events to be collected.
+   Make sure that your **[!UICONTROL Events]** are of Numeric type, otherwise they will not appear in the drop-down menu.
 
    To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=en#admin-tools).
 
-1. Then, configure the following **[!UICONTROL Success events]**:
+1. From the  **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Success events]**. 
+
+1. Click **[!UICONTROL Add new]** to configure the following **[!UICONTROL Success events]**:
 
    * **[!UICONTROL Clicked]**
    * **[!UICONTROL Opened]**
@@ -67,6 +105,10 @@ In Adobe Analytics:
 When your report suite is configured, you will need to configure the **[!UICONTROL External accounts]** in Adobe Campaign Classic.
 
 ### Configure your external account in Adobe Campaign Classic {#external-account-classic}
+
+Why are the existing evars/events/reportsuite present in analytics not visible in campaign?
+Integration relies on data on Technical Account Token for day to day operation. If there is missing permission to a dimension/metric/report suite from the product profile associated with Technical Account User, APIs that we use will simply falter for those requests.
+If we are reading for details of an analytics component (like metrics/dimensions/segments/report suites), the API will not return these components in the result ( which may look like something got deleted on the analytics side or is not present ). For some write ops, Analytics API will reject those requests and error out. The solution is to update the product profile in Analytics User Context of Technical User Token with the newly created/missing components by adding these components in adminconsole.adobe.io
 
 1. Install the **[!UICONTROL Web Analytics connectors]** package in Adobe Campaign.
 
