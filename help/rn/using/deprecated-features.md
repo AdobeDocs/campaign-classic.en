@@ -37,6 +37,13 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Replacement</strong></td>
   </tr>
     <tr>
+  <td>Adobe Analytics Data Connector<br></td>
+   <td><p>Starting Campaign 21.1 release, the Adobe Analytics Data Connector is deprecated.</p>
+   <p>If you are using this connector, you need to adapt your implementation accordingly. <a href="../../platform/using/adobe-analytics-connector.md">Learn more</a></p>
+  <p><em>Target removal date: 2022</em></p>
+  </td>
+ </tr>
+    <tr>
   <td>Technical Deliverability Monitoring Report<br></td>
    <td><p>Starting Campaign 21.1 release, the Technical Deliverability Monitoring Report is deprecated.</p>
    <p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p> 
