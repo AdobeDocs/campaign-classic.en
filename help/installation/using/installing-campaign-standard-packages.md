@@ -184,7 +184,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Web Analytics connectors<br /> </td> 
-   <td> Allows Adobe Campaign and Adobe Analytics to interact through the Web Analytics connectors package. Not compatible with Transactional messaging (Message center package). <a href="../../platform/using/adobe-analytics-data-connector.md">Learn More</a><br /> </td> 
+   <td> Allows Adobe Campaign and Adobe Analytics to interact through the Web Analytics connectors package. Not compatible with Transactional messaging (Message center package). <a href="../../platform/using/adobe-analytics-connector.md">Learn More</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
