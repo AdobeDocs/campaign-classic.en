@@ -61,7 +61,9 @@ In Adobe Analytics:
 
    ![](assets/analytics_connnector_3.png)
 
-1. Select a template. Then, configure your new report suite with the following information:
+1. Select a template. 
+
+1. Configure your new report suite with the following information:
 
    * **[!UICONTROL Report Suite ID]**
    * **[!UICONTROL Site Title]**
@@ -77,14 +79,18 @@ In Adobe Analytics:
 
 After creating your **[!UICONTROL Report suite]**, you need to configure your **[!UICONTROL Conversion variables]** and **[!UICONTROL Success events]** as follows:
 
-1. Select your previously configured **[!UICONTROL Report suite]**. From the **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Conversion variables]**.
+1. Select your previously configured **[!UICONTROL Report suite]**. 
 
-   To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=en#admin-tools).
+1. From the **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Conversion variables]**.
+
+
 
    ![](assets/analytics_connnector_5.png)
 
 1. Click **[!UICONTROL Add new]** to create the identifiers required for measuring the impact of the email campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID.
 
+   To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=en#admin-tools).
+   
    ![](assets/analytics_connnector_6.png)
 
 1. Click **[!UICONTROL Save]** when done.
