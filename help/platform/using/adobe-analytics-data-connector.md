@@ -38,6 +38,7 @@ The action fields for each tool are as follows:
 To set up the Data connector, you must connect to your Adobe Campaign instance and perform the following operations:
 
 1. [Create your Report suite in Adobe Analytics](#report-suite-analytics)
+1. [Configure your Conversion variables and Success events](#configure-conversion-success)
 1. [Configure your external account in Adobe Campaign Classic](#external-account-classic)
 
 ### Create your Report suite in Adobe Analytics {#report-suite-analytics}
@@ -56,36 +57,41 @@ In Adobe Analytics:
 
 1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
 
-   ![](assets/analytics_connnector_3.png)
-
-1. Create a new **[!UICONTROL Report suite]**. 
-
-   For the detailed procedure on Report suite creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
+   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
 
    ![](assets/analytics_connnector_3.png)
 
 1. Select a template. Then, configure your new report suite with the following information:
-   * **[!UICONTROLReport Suite ID]**
-   * **[!UICONTROLSite Title]**
-   * **[!UICONTROLTime Zone]**
-   * **[!UICONTROLGo Live Date]**
+
+   * **[!UICONTROL Report Suite ID]**
+   * **[!UICONTROL Site Title]**
+   * **[!UICONTROL Time Zone]**
+   * **[!UICONTROL Go Live Date]**
    * **[!UICONTROL Estimated Page Views Per Day]**
 
    ![](assets/analytics_connnector_4.png)
 
 1. When configured, click **[!UICONTROL Create report suite]**.
 
-1. Select your configured **[!UICONTROL Report suite]**. From the  **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Conversion variables]**.
+### Configure your Conversion variables and Success events {#configure-conversion-success}
 
-   ![](assets/analytics_connnector_5.png)
+After creating your **[!UICONTROL Report suite]**, you need to configure your **[!UICONTROL Conversion variables]** and **[!UICONTROL Success events]** as follows:
 
-1. By clicking **[!UICONTROL Add new]**, create two **[!UICONTROL Conversion variables]**: one for the Delivery name and one for the BroadlogID.
-   Specify the identifiers required for measuring the impact of the email campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID. You should also specify the indicators for events to be collected.
-   Make sure that your **[!UICONTROL Events]** are of Numeric type, otherwise they will not appear in the drop-down menu.
+1. Select your previously configured **[!UICONTROL Report suite]**. From the **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Conversion variables]**.
 
    To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=en#admin-tools).
 
-1. From the  **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Success events]**. 
+   ![](assets/analytics_connnector_5.png)
+
+1. Click **[!UICONTROL Add new]** to create the identifiers required for measuring the impact of the email campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID.
+
+   ![](assets/analytics_connnector_6.png)
+
+1. Click **[!UICONTROL Save]** when done.
+
+1. Then, to create your **[!UICONTROL Success events]**, select **[!UICONTROL Conversion]** >  **[!UICONTROL Success events]** from the  **[!UICONTROL Edit settings]** button.
+
+   ![](assets/analytics_connnector_7.png)
 
 1. Click **[!UICONTROL Add new]** to configure the following **[!UICONTROL Success events]**:
 
@@ -102,23 +108,31 @@ In Adobe Analytics:
 
    To learn how to configure **[!UICONTROL Success events]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=en#admin-tools)
 
+   ![](assets/analytics_connnector_8.png)
+
+1. Click **[!UICONTROL Save]** when done.
+
 When your report suite is configured, you will need to configure the **[!UICONTROL External accounts]** in Adobe Campaign Classic.
 
 ### Configure your external account in Adobe Campaign Classic {#external-account-classic}
+
+>[!IMPORTANT]
+>
+> For this integration to work, you need to install the **[!UICONTROL Web Analytics connectors]** package in Adobe Campaign. 
+>
+>For more information on package installation, refer to this [page](../../installation/using/installing-campaign-standard-packages.md).
 
 Why are the existing evars/events/reportsuite present in analytics not visible in campaign?
 Integration relies on data on Technical Account Token for day to day operation. If there is missing permission to a dimension/metric/report suite from the product profile associated with Technical Account User, APIs that we use will simply falter for those requests.
 If we are reading for details of an analytics component (like metrics/dimensions/segments/report suites), the API will not return these components in the result ( which may look like something got deleted on the analytics side or is not present ). For some write ops, Analytics API will reject those requests and error out. The solution is to update the product profile in Analytics User Context of Technical User Token with the newly created/missing components by adding these components in adminconsole.adobe.io
 
-1. Install the **[!UICONTROL Web Analytics connectors]** package in Adobe Campaign.
+1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign tree and click **[!UICONTROL New]**.
 
-1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign tree.
+   ![](assets/analytics_connnector_9.png)
 
-1. Click **[!UICONTROL New]** above the list of external accounts.
+1. Use the drop-down list to select the **[!UICONTROL Web Analytics]** type and **[!UICONTROL Adobe Analytics]** from the **[!UICONTROL Integration]** drop-down.
 
-1. Use the drop-down list to select the **[!UICONTROL Web Analytics]** type.
-
-1. Select **[!UICONTROL Adobe Analytics]** from the **[!UICONTROL Integration]** drop-down.
+   ![](assets/analytics_connnector_10.png)
 
 1. Click **[!UICONTROL Configure]** next to the **[!UICONTROL Integration]** drop-down.
 
@@ -131,49 +145,35 @@ If we are reading for details of an analytics component (like metrics/dimensions
 
 1. From the **[!UICONTROL eVars]** category, map the two **[!UICONTROL Conversion variables]** configured in [!DNL Adobe Analytics].
 
+   ![](assets/analytics_connnector_11.png)
+
 1. From the **[!UICONTROL Events]** category, map the ten **[!UICONTROL Success events]** configured in [!DNL Adobe Analytics].
 
-1. Click **[!UICONTROL Submit]** when done. 
+1. Click **[!UICONTROL Submit]** when done. Once the sync between Adobe Analytics and Adobe Campaign is done, you can close the window.
 
-1. Settings can be viewed clicking **[!UICONTROL Data Settings]** from your **[!UICONTROL External account]**.
+1. Settings can be viewed from the **[!UICONTROL Data Settings]** tab from the **[!UICONTROL Configure Analytics integration]** window
 
-1. If needed, you can add or remove segments from the **[!UICONTROL Update Segments]** Tab.
+   If needed, you can add or remove segments from the **[!UICONTROL Update Segments]** Tab.
 
-After configuring the external account, the following components will be created on Adobe Analytics side:
+   ![](assets/analytics_connnector_12.png)
 
-* Nine built-in Classifications:
-  * Delivery Tool 
-  * Channel 
-  * Delivery Label 
-  * Operation Nature 
-  * Operation Label
-  * Custom Tag 1 
-  * Custom Tag 2 
-  * Custom Tag 3
-  * Contact Date
-* A Data Source
-* Calculated Metrics (aemInstance)
-* Three Segments:
-  * Genesis Remarketing - Product Views
-  * Genesis Remarketing - Product Purchases
-  * Genesis Remarketing - Cart Abandonment
+1. From your **[!UICONTROL External account]**, click the **[!UICONTROL Enrich the formula...]** link to change the URL calculation formula to specify the Web analytics tool integration information (campaign IDs) and the domains of the sites whose activity must be tracked.
 
-1. Click the **[!UICONTROL Enrich the formula...]** link to change the URL calculation formula to specify the Web analytics tool integration information (campaign IDs) and the domains of the sites whose activity must be tracked.
+   ![](assets/analytics_connnector_13.png)
+
 1. Specify the domain name(s) of the sites.
 
-   ![](assets/webanalytics_tracking_001.png)
+   ![](assets/analytics_connnector_14.png)
 
 1. Click **[!UICONTROL Next]** and make sure the domain names have been saved.
 
-   ![](assets/webanalytics_tracking_002.png)
+   ![](assets/analytics_connnector_15.png)
 
 1. If necessary, you must overload the calculation formula. To do this, check the box and edit the formula directly in the window.
 
-   ![](assets/webanalytics_tracking_003.png)
-
    >[!IMPORTANT]
    >
-   >This configuration mode is reserved for expert users: any error in this formula may result in email deliveries being stopped.
+   >This configuration mode is reserved for expert users: any error in this formula may result in stopped email deliveries.
 
 1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
 
@@ -193,7 +193,7 @@ They are available in the Adobe Campaign tree, under the **[!UICONTROL Administr
 ![](assets/webanalytics_workflows.png)
 
 * **[!UICONTROL Recovering of web events]**: once an hour, this workflow downloads segments about the behavior of users on a given site, includes them in the Adobe Campaign database and starts the re-marketing workflow.
-* **[!UICONTROL Event purge]**: this workflow enables you to delete all events from the database depending on the period configured in the **[!UICONTROL Lifespan]** field. For more on this, refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign).
+* **[!UICONTROL Event purge]**: this workflow enables you to delete all events from the database depending on the period configured in the **[!UICONTROL Lifespan]** field. For more on this, refer to [Configure your external account in Adobe Campaign Classic](#external-account-classic).
 * **[!UICONTROL Identification of converted contacts]**: directory of the visitors who made a purchase following a re-marketing campaign. The data collected by this workflow is accessible in the **[!UICONTROL Re-marketing efficiency]** report, refer to this [page](#creating-a-re-marketing-campaign).
 * **[!UICONTROL Sending of indicators and campaign attributes]**: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics Connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
 
@@ -236,7 +236,7 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Open the delivery properties.
-1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign).
+1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Configure your external account in Adobe Campaign Classic](#external-account-classic).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
