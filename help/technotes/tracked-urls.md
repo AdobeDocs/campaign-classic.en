@@ -20,13 +20,13 @@ To improve security, the signature mechanism for tracking links in emails has be
 
 If your environment is running on one of the versions listed below, you can be impacted:
 
-* Gold Standard 7 to 11. [Learn more](../rn/using/gold-standard.md)
-* Campaign 21.1.1 to 21.1.2 releases. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.3.1 to 20.3.3 releases. [Learn more](../rn/using/release--20-3.md)
-* Campaign 20.2.1 to 20.2.3 releases. [Learn more](../rn/using/release--20-2.md)
-* Campaign 20.1.1 to 21.1.3 releases. [Learn more](../rn/using/release--20-1.md)
-* Campaign 19.2.2 to 19.2.3 releases. [Learn more](../rn/using/release--19-2.md)
-* Campaign 19.1.5 to 19.1.7 releases. [Learn more](../rn/using/release--19-1.md)
+* Gold Standard 8 to 11. [Learn more](../rn/using/gold-standard.md#gs-8)
+* Campaign 21.1.1 (build 9277) to 21.1.2 (build 9282) releases. [Learn more](../rn/using/latest-release.md)
+* Campaign 20.3.1 (build 9228) to 20.3.3 (build 9234) releases. [Learn more](../rn/using/release--20-3.md)
+* Campaign 20.2.1 (build 9178) to 20.2.3 (build 9182) releases. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.1.1 (build 9122) to 21.1.3 (build 9124) releases. [Learn more](../rn/using/release--20-1.md)
+* Campaign 19.2.2 (build 9080) to 19.2.3 (build 9081) releases. [Learn more](../rn/using/release--19-2.md)
+* Campaign 19.1.5 (build 9033) to 19.1.7 (build 9036) releases. [Learn more](../rn/using/release--19-1.md)
 
 Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
