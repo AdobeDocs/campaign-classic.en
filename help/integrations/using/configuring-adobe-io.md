@@ -67,9 +67,9 @@ Before starting this implementation, please check you have:
 
     ![](assets/do-not-localize/adobe_io_5.png)
 
-1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. Then, click **[!UICONTROL Save configured API]**. 
+1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. No permission is required for this **[!UICONTROL Product profile]**. For more information on [!DNL Analytics] **[!UICONTROL Product Profiles]**, refer to [Adobe Analytics documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
     
-    For more information on [!DNL Analytics] **[!UICONTROL Product Profiles]**, refer to [Adobe Analytics documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
+    Then, click **[!UICONTROL Save configured API]**. 
 
     ![](assets/do-not-localize/adobe_io_6.png)
 

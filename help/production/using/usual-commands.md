@@ -148,7 +148,7 @@ To change the **internal** password: **nlserver config -internalpassword**
 
 >[!IMPORTANT]
 >
->To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 >[!NOTE]
 >

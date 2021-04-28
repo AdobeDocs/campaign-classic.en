@@ -37,12 +37,14 @@ type: Documentation
   + [Technotes](technotes/technote.md)
   + [iOS certificate update](technotes/ios-certificate-update.md)
   + [Campaign configuration updates](technotes/acc-config-updates.md)
+  + [Tracked URLs update](technotes/tracked-urls.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
        + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
      + Adobe Campaign workspace{#campaign-workspace}
        + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
+       + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
        + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
      + Frequently Asked Questions {#faq}
        + [Top questions](platform/using/common-questions.md)
@@ -388,6 +390,10 @@ type: Documentation
        + [Configure events for custom implementation](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
+  + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
+       + [Get started with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+       + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
+       + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automate with workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
@@ -503,7 +509,6 @@ type: Documentation
        + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
        + [Manage permissions](workflow/using/managing-rights.md)
        + [Manage activity images](workflow/using/managing-activity-images.md)
-       + [Manage propensity](workflow/using/managing-propensity.md)
        + [Manage time zones](workflow/using/managing-time-zones.md)
        + [Technical workflows](workflow/using/about-technical-workflows.md)
 + Manage Offers {#managing-offers}
@@ -619,7 +624,7 @@ type: Documentation
        + [Enterprise deployment](installation/using/enterprise-deployment.md)
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
-  + Security and privacy checklist {#security-privacy}
+  + Security and privacy settings {#security-privacy}
        + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
        + [Personalization and privacy](installation/using/privacy.md)
        + [Secure access management](installation/using/access-management.md)
@@ -648,12 +653,15 @@ type: Documentation
        + [Key steps](installation/using/about-initial-configuration.md)
        + [Create an instance and log on](installation/using/creating-an-instance-and-logging-on.md)
        + [Create and configure the database](installation/using/creating-and-configuring-the-database.md)
-       + [Configure Campaign server](installation/using/campaign-server-configuration.md)
        + [Deploy an instance](installation/using/deploying-an-instance.md)
        + [Install built-in packages](installation/using/installing-campaign-standard-packages.md)
   + Configure Campaign {#additional-configurations}
-       + [Campaign server settings](installation/using/configuring-campaign-server.md)
+       + [Campaign server configuration](installation/using/configuring-campaign-server.md)
        + [Define security zones](installation/using/security-zones.md)
+       + [Set URL permissions](installation/using/url-permissions.md)
+       + [Files and resources](installation/using/file-res-management.md)
+       + [Configure Tomcat](installation/using/configure-tomcat.md)
+       + [Configure delivery settings](installation/using/configure-delivery-settings.md)
        + [Technical email configurations](installation/using/email-deliverability.md)
        + [Using MX servers with Campaign](installation/using/using-mx-servers.md)
        + [Configure email BCC](installation/using/email-archiving.md)

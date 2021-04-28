@@ -135,7 +135,7 @@ Technical resources are available in Campaign Classic documentation. We recommen
 
 *On-premise & hybrid hosting models only*
 
-* [Mandatory server configurations](../../installation/using/campaign-server-configuration.md)
+* [Server configurations](../../installation/using/configuring-campaign-server.md)
 * [Serverconf.xml file configuration](../../installation/using/the-server-configuration-file.md)
 * [Server configuration for deliverability](../../installation/using/email-deliverability.md)
 * [Command lines to create an instance and declare a database](../../installation/using/command-lines.md)

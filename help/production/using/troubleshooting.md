@@ -58,4 +58,4 @@ Go to the sections below to read about more specific issues:
 
 * [Stack trace in Linux](../../production/using/stack-trace-in-linux.md)
 * [JSP behavior](../../production/using/jsp-behavior.md)
-* [Locating Tomcat version](../../production/using/locate-tomcat-version.md)
+* [Locate Tomcat version](../../production/using/locate-tomcat-version.md)

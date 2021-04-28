@@ -10,11 +10,19 @@ exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 ---
 # Release 20.2{#release-20-2}
 
-![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
-
 ## ![](assets/do-not-localize/green_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
-_March 31, 2020_
+_April 15, 2021_
+
+* Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+
+**Console upgrade only is mandatory. No server upgrade is required.**
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
+
+_March 31, 2021_
 
 **Improvements**
 
@@ -32,6 +40,17 @@ _March 31, 2020_
 * Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453)
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
+
+_April 15, 2021_
+
+* Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
 
 _December 22, 2020_
 
@@ -55,6 +74,8 @@ _December 22, 2020_
 * Fixed an issue in POSIX thread management which generated large core dump files on the marketing instance. (NEO-28117, NEO-29281)
 * Fixed issues which could cause the web process to crash when preparing deliveries or with recurring delivery preview. (NEO-27790, NEO-27517)
 * Fixed an issue which caused deliveries or proof sending to fail when triggered by a non-admin operator. (NEO-28597)
+
+![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
@@ -191,7 +212,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * Certificates for iOS mobile applications with the iOS HTTP2 connector are now validated before sending push notifications, thus preventing deliveries from failing because of expired certificates. 
 
-* The management of HTTP proxy connections has been improved. [Learn more](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+* The management of HTTP proxy connections has been improved. [Learn more](../../installation/using/file-res-management.md).
 
 * New option in **[!UICONTROL Javascript Code]** and **[!UICONTROL Advanced Javascript Code]** workflow activities to stop execution after a limit. Default value is 1 hour. [Learn more](../../workflow/using/sql-code-and-javascript-code.md#javascript-code).
 
