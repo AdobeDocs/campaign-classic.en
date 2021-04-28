@@ -43,9 +43,7 @@ To set up the Data connector, you must connect to your Adobe Campaign instance a
 
 ### Create your Report suite in Adobe Analytics {#report-suite-analytics}
 
-To set up the Adobe Analytics/Adobe Campaign Classic integration, you must connect to your Adobe Campaign instance and perform the following operations:
-
-In Adobe Analytics:
+To set up the Adobe Analytics/Adobe Campaign Classic integration, you must connect to your [!DNL Adobe Analytics] instance and perform the following operations:
 
 1. From [!DNL Adobe Analytics], select the **[!UICONTROL Admin tab]** then click **[!UICONTROL All admin]**.
 
@@ -82,8 +80,6 @@ After creating your **[!UICONTROL Report suite]**, you need to configure your **
 1. Select your previously configured **[!UICONTROL Report suite]**. 
 
 1. From the **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Conversion variables]**.
-
-
 
    ![](assets/analytics_connnector_5.png)
 
@@ -128,9 +124,11 @@ When your report suite is configured, you will need to configure the **[!UICONTR
 >
 >For more information on package installation, refer to this [page](../../installation/using/installing-campaign-standard-packages.md).
 
-Why are the existing evars/events/reportsuite present in analytics not visible in campaign?
-Integration relies on data on Technical Account Token for day to day operation. If there is missing permission to a dimension/metric/report suite from the product profile associated with Technical Account User, APIs that we use will simply falter for those requests.
-If we are reading for details of an analytics component (like metrics/dimensions/segments/report suites), the API will not return these components in the result ( which may look like something got deleted on the analytics side or is not present ). For some write ops, Analytics API will reject those requests and error out. The solution is to update the product profile in Analytics User Context of Technical User Token with the newly created/missing components by adding these components in adminconsole.adobe.io
+You now need to configure your **[!UICONTROL Web Analytics]** external account in Adobe Campaign to enable the sync between the two solutions.
+
+Note that if one of your **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** or **[!UICONTROL Success events]** is not visible when configuring your external account, this means that you are missing a permission for this newly created component in your assigned **[!UICONTROL Product profile]**.
+
+For more information on this, refer to the [Product profiles for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en#product-profile-admins) page.
 
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign tree and click **[!UICONTROL New]**.
 
