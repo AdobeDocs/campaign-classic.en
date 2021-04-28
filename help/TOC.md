@@ -37,6 +37,7 @@ type: Documentation
   + [Technotes](technotes/technote.md)
   + [iOS certificate update](technotes/ios-certificate-update.md)
   + [Campaign configuration updates](technotes/acc-config-updates.md)
+  + [Tracked URLs update](technotes/tracked-urls.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)

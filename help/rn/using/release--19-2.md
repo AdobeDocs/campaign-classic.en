@@ -12,6 +12,16 @@ exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
+_April 15, 2021_
+
+* Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+
+**Console upgrade only is mandatory. No server upgrade is required.**
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
+
 _March 22, 2021_
 
 * Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)

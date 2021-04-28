@@ -16,7 +16,14 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 >
 >Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 20.2.5 release](../../rn/using/release--20-2.md).
 
-## ![](assets/do-not-localize/blue_2.png) Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
+## ![](assets/do-not-localize/blue_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+
+_April 15, 2021_
+
+* Password management has been improved to optimize security.
+* Fixed an issue that could cause MTA crashes.
+
+## ![](assets/do-not-localize/red_2.png) Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 
 _February 22, 2021_
 

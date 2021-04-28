@@ -12,6 +12,16 @@ exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 
 ## ![](assets/do-not-localize/green_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
+_April 15, 2021_
+
+* Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+
+**Console upgrade only is mandatory. No server upgrade is required.**
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
+
 _March 31, 2021_
 
 **Improvements**
@@ -30,6 +40,17 @@ _March 31, 2021_
 * Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453)
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
+
+_April 15, 2021_
+
+* Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+* Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453, NEO-31454)
+
+**Console upgrade only is mandatory. No server upgrade is required.** 
+
+>[!NOTE]
+>
+> Connect to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) to download the new version. Learn how to propose the console update to all end users [in this page](../../installation/using/client-console-availability-for-windows.md).
 
 _December 22, 2020_
 
