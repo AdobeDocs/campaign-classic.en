@@ -46,7 +46,7 @@ Based on the timeframe of the incident, below are the recommended guidelines for
 * For Campaign instances with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
 
     * **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
-    * **Email domain (@domain)** equal to icloud.com” OR Email domain (@domain) equal to me.com” OR Email domain (@domain) equal to mac.com”
+    * **Email domain (@domain)** equal to icloud.com OR **Email domain (@domain)** equal to me.com OR **Email domain (@domain)** equal to mac.com
     * **Update status (@lastModified)** on or after 4/26/2021 07:00:00 AM   
     * **Update status (@lastModified)** on or before 4/26/2021 01:00:00 PM
 
