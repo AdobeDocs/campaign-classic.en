@@ -9,21 +9,15 @@ topic-tags: monitoring-deliveries
 hidefromtoc: yes
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 ---
-# Update bounce qualification after an ISP outage {#update-bounce-qualification.md}
+# Update incorrect hard bounces after Apple outage {#update-bounce-qualification.md}
 
 ## Context
 
-In case of an outage of an ISP, emails sent through Campaign cannot be successfully delivered to their recipient: these emails will be wrongly marked as bounces.
-
-On April 26 2021, a global issue at Apple resulted in some email messages sent to valid Apple email addresses being incorrectly hard bounced as invalid email addresses by Apple servers with the bounce following response: 
-
-
-```
-“550 5.1.1 <email address>: user lookup success but no user record found.”
-
-```
+On April 26 2021, a global issue at Apple resulted in some email messages sent to valid Apple email addresses being incorrectly hard bounced as invalid email addresses by Apple servers with the bounce following response:  "550 5.1.1 <email address>: user lookup success but no user record found."
 
 This issue occurred on 4/26 and lasted 7AM - 1PM EST.
+
+In case of an outage of an ISP, emails sent through Campaign cannot be successfully delivered to their recipient: these emails will be wrongly marked as bounces.
 
 >[!NOTE]
 >
