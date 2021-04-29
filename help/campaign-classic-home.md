@@ -11,7 +11,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
-* **[Remove incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Apple outage
+* **[Remove incorrect hard bounces](delivery/using/update-bounce-qualification.md)**<br/> Learn how to update incorrect hard bounces after Apple outage
 
 * **[Update your APNs certificate](technotes/ios-certificate-update.md)**<br/> On March 29 2021, an APNs update impacted Campaign iOS channel. You need to update your configuration to avoid iOS push channel outage.
 
