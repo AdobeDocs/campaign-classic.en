@@ -13,7 +13,7 @@ exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 
 ## Context
 
-On April 26 2021, a global issue at Apple resulted in some email messages sent to valid Apple email addresses being incorrectly hard bounced as invalid email addresses by Apple servers with the bounce following response:  "550 5.1.1 <email address>: user lookup success but no user record found."
+On April 26 2021, a global issue at Apple resulted in some email messages sent to valid Apple email addresses being incorrectly hard bounced as invalid email addresses by Apple servers with the bounce following response:  "550 5.1.1 'email address': user lookup success but no user record found."
 
 This issue occurred on 4/26 and lasted 7AM - 1PM EST.
 
