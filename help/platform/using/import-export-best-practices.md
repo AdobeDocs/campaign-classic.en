@@ -1,5 +1,5 @@
 ---
-solution: Campaign Standard
+solution: Campaign Classic
 product: campaign
 title: Import and export best practices
 description: Learn more about the best practices to follow when importing or exporting data.

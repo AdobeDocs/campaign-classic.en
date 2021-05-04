@@ -23,7 +23,7 @@ If your environment is running on one of the versions listed below, you can be i
 * Gold Standard 8 to 11. [Learn more](../rn/using/gold-standard.md#gs-8)
 * Campaign 21.1.1 (build 9277) to 21.1.2 (build 9282) releases. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.1 (build 9228) to 20.3.3 (build 9234) releases. [Learn more](../rn/using/release--20-3.md)
-* Campaign 20.2.1 (build 9178) to 20.2.3 (build 9182) releases. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.2.1 (build 9178) to 20.2.4 (build 9187) releases. [Learn more](../rn/using/release--20-2.md)
 * Campaign 20.1.1 (build 9122) to 21.1.3 (build 9124) releases. [Learn more](../rn/using/release--20-1.md)
 * Campaign 19.2.2 (build 9080) to 19.2.3 (build 9081) releases. [Learn more](../rn/using/release--19-2.md)
 * Campaign 19.1.5 (build 9033) to 19.1.7 (build 9036) releases. [Learn more](../rn/using/release--19-1.md)

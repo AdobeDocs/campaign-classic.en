@@ -254,7 +254,7 @@ The following views are available:
 * **[!UICONTROL Running]**: lists all running workflows.
 * **[!UICONTROL Paused]**: lists all paused workflows.
 * **[!UICONTROL Failed]**: lists all failed workflows.
-* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md)).
+* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Installing Campaign built-in packages](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 
