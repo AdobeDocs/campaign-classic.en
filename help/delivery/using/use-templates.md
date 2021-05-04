@@ -19,7 +19,7 @@ A [delivery template](../../delivery/using/creating-a-delivery-template.md) enab
 
 When you manage several brands in Adobe Campaign, Adobe recommends having one sub-domain per brand. For example, a bank can have several sub-domains corresponding to each of its regional agencies. If a bank owns the bluebank.com domain, its sub-domains can be @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Having one delivery template per sub-domain enables you to always use the right pre-configured parameters for each of your brand, which avoids errors and saves you time.
 
-**Tip**:  To avoid configuration errors in Campaign Standard, we recommend that you duplicate a native template and alter its properties rather than create a new template.
+**Tip**:  To avoid configuration errors, we recommend that you duplicate a native template and alter its properties rather than create a new template.
 
 ## Configure addresses
 

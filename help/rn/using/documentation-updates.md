@@ -429,7 +429,7 @@ The Delivery Best Practices getting started guide has been updated. [Read more](
 
 ## October 2019 {#october-2019}
 
-The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+The list of error messages for Campaign has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
@@ -489,7 +489,7 @@ Added more information on SOAP authentication methods for transactional messagin
 
 The Apache configuration steps have been updated. [Read more](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-A new page has been added including the list of endpoints for Campaign Standard and Classic. [Read more](../../installation/using/campaign-network-endpoints.md)
+A new page has been added including the list of endpoints for Classic. [Read more](../../installation/using/campaign-network-endpoints.md)
 
 The Data package best practices article has been updated. [Read more](../../configuration/using/data-model-best-practices.md)
 
