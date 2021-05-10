@@ -24,7 +24,7 @@ This document provides common use cases and best practices to learn how to archi
 
 ## Data model architecture {#data-model-architecture}
 
-Adobe Campaign Standard is a powerful cross-channel campaign management system that can help you align your online and offline strategies to create personalized customer experiences.
+Adobe Campaign is a powerful cross-channel campaign management system that can help you align your online and offline strategies to create personalized customer experiences.
 
 ### Customer-centric approach {#customer-centric-approach}
 
