@@ -126,7 +126,7 @@ When your report suite is configured, you will need to configure the **[!UICONTR
 
 You now need to configure your **[!UICONTROL Web Analytics]** external account in Adobe Campaign to enable the sync between the two solutions.
 
-Note that if one of your **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** or **[!UICONTROL Success events]** is not visible when configuring your external account, this means that you are missing a permission for this newly created component in your assigned **[!UICONTROL Product profile]**.
+Note that if one of your **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** or **[!UICONTROL Success events]** is not visible when configuring your external account, this means that you are missing a permission for this newly created component in the **[!UICONTROL Product profile]** associated to the user. 
 
 For more information on this, refer to the [Product profiles for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en#product-profile-admins) page.
 
@@ -153,13 +153,17 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
 1. From the **[!UICONTROL Events]** category, map the ten **[!UICONTROL Success events]** configured in [!DNL Adobe Analytics].
 
-1. Click **[!UICONTROL Submit]** when done. Once the sync between Adobe Analytics and Adobe Campaign is done, you can close the window.
+1. Click **[!UICONTROL Submit]** when done. Adobe Campaign will create a **[!UICONTROL Data source]**, **[!UICONTROL Calculated metrics]**, **[!UICONTROL Remarketing segments]** and **[!UICONTROL Classifications]** in the mapped Analytics **[!UICONTROL Report Suite]**.
 
-1. Settings can be viewed from the **[!UICONTROL Data Settings]** tab from the **[!UICONTROL Configure Analytics integration]** window
+   Once this sync between [!DNL Adobe Analytics] and Adobe Campaign is done, you can close the window.
 
-   If needed, you can add or remove segments from the **[!UICONTROL Update Segments]** Tab.
+1. Settings can be viewed from the **[!UICONTROL Data Settings]** tab from the **[!UICONTROL Configure Analytics integration]** window. 
+
+   Using the **[!UICONTROL Sync]** button, [!DNL Adobe Campaign] will sync the name changes done in [!DNL Adobe Analytics]. If the component is deleted in [!DNL Adobe Analytics], the component will be strikethrough in [!DNL Adobe Campaign] or displayed with a **not found** message.
 
    ![](assets/analytics_connnector_12.png)
+
+1. If needed, you can add or remove segments from the **[!UICONTROL Update Segments]** Tab.
 
 1. From your **[!UICONTROL External account]**, click the **[!UICONTROL Enrich the formula...]** link to change the URL calculation formula to specify the Web analytics tool integration information (campaign IDs) and the domains of the sites whose activity must be tracked.
 
@@ -173,7 +177,7 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
    ![](assets/analytics_connnector_15.png)
 
-1. If necessary, you must overload the calculation formula. To do this, check the box and edit the formula directly in the window.
+1. If necessary, you can overload the calculation formula. To do this, check the box and edit the formula directly in the window.
 
    >[!IMPORTANT]
    >
@@ -189,6 +193,10 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 >If you are using several audience measuring tools, you can select **[!UICONTROL Other]** in the **[!UICONTROL Partners]** drop-down list when creating the external account. You may only reference one external account in the delivery properties: you will therefore need to adapt the formula of tracked URLs by adding the parameters expected by the Adobe and all other measuring tools used.
 
 ### Technical workflows of web analytics processes {#technical-workflows-of-web-analytics-processes}
+
+>[!IMPORTANT]
+>
+> Only the **[!UICONTROL Sending of indicators and campaign attributes (webAnalyticsSendMetrics workflow)]** technical workflow is enabled on Adobe Campaign instances configured with FDA.
 
 Data exchange between Adobe Campaign and Adobe Analytics is handled by four technical workflows which run as a background task.
 
