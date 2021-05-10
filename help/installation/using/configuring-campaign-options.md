@@ -620,11 +620,11 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the data of the Adobe Campaign standard tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
+   <td> Name of the tablespace intended to contain the data of the Adobe Campaign ootb tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign standard tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
+   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign ootb tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 

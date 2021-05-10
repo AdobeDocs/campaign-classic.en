@@ -108,7 +108,7 @@ In the example below, the delivery is created from the Home page. For detailed i
 
       ![](assets/deliv_coup_11.png)
 
-      The coupon is inserted into the message as code rather than the name you assigned. The code is used within the Campaign standard data model.
+      The coupon is inserted into the message as code rather than the name you assigned. The code is used within the Campaign ootb data model.
 
    ![](assets/deliv_coup_12.png)
 
