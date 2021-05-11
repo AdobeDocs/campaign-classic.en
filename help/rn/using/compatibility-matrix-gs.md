@@ -295,14 +295,6 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tbody>
 <tr>
 <td>
-<p>Microsoft Edge</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>Microsoft Internet Explorer</p>
 </td>
 <td>

@@ -293,18 +293,10 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tbody>
 </table>
 
-### Browsers 
+### Browser
 
 <table>
 <tbody>
-<tr>
-<td>
-<p>Microsoft Edge</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-</tr>
 <tr>
 <td>
 <p>Microsoft Internet Explorer</p>
