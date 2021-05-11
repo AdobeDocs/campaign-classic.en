@@ -270,7 +270,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Client Console {#ClientConsoleoperatingsystems}
 
-The following operating systems and browsers are required to use Campaign Client Console.
+:warning: The following operating systems and browsers are required to use Campaign Client Console.
 
 ### Operating systems
 
@@ -281,8 +281,6 @@ The following operating systems and browsers are required to use Campaign Client
 <td>
 <p>2016</p>
 <p>2012</p>
-</td>
-<td>
 </td>
 </tr>
 <tr>
