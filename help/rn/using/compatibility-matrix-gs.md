@@ -266,7 +266,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 
 ## Client Console {#ClientConsoleoperatingsystems}
 
-:warning: The following operating systems and browsers are required to use Campaign Client Console.
+:warning: The following operating systems and browser are required to use Campaign Client Console.
 
 ### Operating systems
 
@@ -289,7 +289,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-### Browsers 
+### Browser 
 
 <table>
 <tbody>
