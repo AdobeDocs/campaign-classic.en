@@ -682,6 +682,7 @@ type: Documentation
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
             + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
+            + [Configure Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configure Hadoop](installation/using/configure-fda-hadoop.md)
             + [Configure Oracle](installation/using/configure-fda-oracle.md)
