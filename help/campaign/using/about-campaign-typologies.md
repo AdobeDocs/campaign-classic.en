@@ -10,6 +10,12 @@ exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 ---
 # About campaign typologies{#about-campaign-typologies}
 
+<!--
+>[!AVAILABILITY]
+>
+>:warning: This capability is not available in Campaign v8. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
+-->
+
 Campaign Optimization is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#typologies-video)
