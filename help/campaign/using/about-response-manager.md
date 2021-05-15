@@ -8,13 +8,11 @@ content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 ---
-# About response manager{#about-response-manager}
+# Get started with Campaign Response Manager{#about-response-manager}
 
-## Objectives {#objectives}
+Adobe Campaign offers a Response Management add-on that lets you measure the success and profitability of marketing campaigns or offer propositions across communication channels: email, mobile, direct mail, etc.
 
-Adobe Campaign offers a response management application (Response Manager) that lets you measure the success and profitability of marketing campaigns or offer propositions for all communication channels (email, mobile, telephone, direct mail, fax, agency, etc.).
-
-## Hypothesis concept {#hypothesis-concept}
+## Hypothesis {#hypothesis-concept}
 
 Hypotheses can be configured over a given period from the contact date to deduce the behavior of those targeted after receiving a delivery. These hypotheses are based on a **transaction** table that saves purchases and details of these purchases.
 
@@ -34,7 +32,7 @@ You can also calculate all the reactions for the entire household of the recipie
 
 Each hypothesis is linked to a single transaction table. One delivery or offer can be linked to multiple hypotheses.
 
-## Method {#method}
+## Implementation steps {#method}
 
 Before you start using Response Manager, refer to [Configuration](../../campaign/using/configuration.md) and carry out the necessary configurations.
 
