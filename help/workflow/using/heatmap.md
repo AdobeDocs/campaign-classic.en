@@ -109,7 +109,7 @@ In the example below, between 8am and 8:05am, three workflows are running (no ma
 
 There are two main cases where the Campaign Workflow HeatMap can be useful.
 
-### Reducing the number of concurrent workflows {#reducing-the-number-of-concurrent-workflows}
+### Reduce the number of concurrent workflows {#reducing-the-number-of-concurrent-workflows}
 
 As a Campaign administrator, the Workflow HeatMap can help you to understand the load on the instance and plan existing or new workflows at appropriate times.
 
