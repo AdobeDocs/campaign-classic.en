@@ -6,7 +6,6 @@ description: Monitor your workflows with Workflow HeatMap
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-debugging: testing ugp-4522
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 ---
 # Workflow HeatMap {#workflow-heatmap}
