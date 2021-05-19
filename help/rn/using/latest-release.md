@@ -135,7 +135,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Fixed an issue which prevented you from sending a delivery with a group of proofs due to a specific joining mechanism that failed the delivery personalization. (NEO-14391)
 * Fixed an issue which failed to send an alert with the alert activity if a query and an enrichment activity targeted the delivery table. (NEO-25157)
 
-## ![](assets/do-not-localize/blue_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+## ![](assets/do-not-localize/red_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
 
 _April 15, 2021_
 
