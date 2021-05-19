@@ -106,7 +106,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 
 **Other changes**
 
-* The openssl third-party for Windows has been udpated to version 1.1.1h.
+* The openssl third-party for Windows has been updated to version 1.1.1h.
 * In the Debian package description, nlserver has been changed to Adobe Campaign Classic server. 
 
 **Patches**
@@ -116,7 +116,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Fixed an error which caused the editing tool bar to disappear when designing a web application.
 * Fixed an error which displayed the text version of an email with Adobe Campaign Classic headers when adding a link to an email. (NEO-29211
 * When using FDA over HTTPs connection, the **Mid-sourcing (delivery logs)** (defaultMidSourcingLog) workflow was stuck in the timeframe set by the **NmsMidSourcing_LogsPeriodHour** option. This would prevent records from being updated with data that occurred after this set timeframe. (NEO-30833)
-* Fixed an issue which occurred after executing the message center synchronization workflow. Everytime a delivery objects folder was moved to a custom folder, the workflow would move the deliveries back to the generic **Transactional message history** folder. (NEO-27445)
+* Fixed an issue which occurred after executing the message center synchronization workflow. Every time a delivery objects folder was moved to a custom folder, the workflow would move the deliveries back to the generic **Transactional message history** folder. (NEO-27445)
 * Fixed an issue which displayed an error message when trying to display the **Broadcast statistics**, **Tracking indicators**, and **Statistics of the sharing activities** reports. 
 * The **Oracle On Demand** workflow activity has been removed from the interface following Oracle CRM connector deprecation.
 * Fixed an issue which stopped the execution of processing workflows after the daily restart of the workflow server (wfserver) module. (NEO-30047)
@@ -126,14 +126,14 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Fixed an issue which could keep transactional messages in **Waiting** state when performing SOAP calls containing a header. (NEO-28737)
 * Fixed an issue that occurred when using the Teradata FDA connector: all the temporary tables were created on only one node of the cluster, which could end up consuming the whole spool space and make Teradata crash. The temporary tables are now generated on many nodes. (NEO-28230)
 * Fixed an issue when using web applications which led tracking tags to generate incorrect primary keys into the **nms:trackingURL** schema. (NEO-27931)
-* Compatility to ODBC 3.x has been enhanced to ensure error message accuracy.
+* Compatibility to ODBC 3.x has been enhanced to ensure error message accuracy.
 * Fixed an issue which could lead to console crashes when custom content templates were used in email deliveries. (NEO-31547)
 * Fixed an issue that prevented Tomcat from sending valid responses due to a slow connection or large response size.
 * Fixed an issue which could occur when reading UUID from a PostgreSQL database.
 * Fixed an issue which could lead to performance issues when searching on proposition data linked to offers. (NEO-27554)
 * Fixed an issue which lead to the Web process not responding when the IMS service was activated but not responding.
 * Fixed an issue which prevented you from sending a delivery with a group of proofs due to a specific joining mechanism that failed the delivery personalization. (NEO-14391)
-* Fixed an issue which failed to send an alert with the alert activity if a query and a enrichment activity targeted the delivery table. (NEO-25157)
+* Fixed an issue which failed to send an alert with the alert activity if a query and an enrichment activity targeted the delivery table. (NEO-25157)
 
 ## ![](assets/do-not-localize/blue_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
 
