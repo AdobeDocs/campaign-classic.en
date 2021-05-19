@@ -72,6 +72,7 @@ _May 28, 2021_
 </td> 
 </tr> 
 </tbody> 
+</table>
 
 **Security enhancements**
 
