@@ -46,7 +46,7 @@ _May 28, 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Vertiga FDA connector</strong><br /> </th> 
+<th> <strong>Vertica FDA connector</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -85,7 +85,7 @@ _May 28, 2021_
 
 The following systems are now supported with Campaign:
 * Google Big Query FDA connector
-* Vertiga FDA connector
+* Vertica FDA connector
 * PostgreSQL 13
 
 Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
