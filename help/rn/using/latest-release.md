@@ -78,7 +78,7 @@ _May 28, 2021_
 
 * Access to the **xtk:session#GetCnxInfo** API method returning the full database connection details is now restricted to admin users only. (NEO-27779)
 * The deprecated decryptString function has been replaced with decryptPassword in CRM related JavaScript files.
-* The tracking signature feature has been improved for a better compatibility with third-party email clients.
+* The tracking signature feature has been improved to reduce the risk of tracking redirection errors when third-party tools (email clients, internet browsers, safe link security tools) modify the tracked link.
 * Fixed an issue which could prevent tracked URLs from working when containing uppercase characters. Tracked URLs signing mechanism is now case sensitive. (NEO-28414)
 
 **Compatibility updates**
