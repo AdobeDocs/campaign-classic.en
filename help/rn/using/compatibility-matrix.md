@@ -268,19 +268,23 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tbody>
 </table>
 
-## Client Console operating systems{#ClientConsoleoperatingsystems}
+## Client Console {#ClientConsoleoperatingsystems}
+
+:warning: The following operating systems and browser are required to use Campaign Client Console.
+
+### Operating systems
 
 <table>
 <tbody>
 <tr>
-<td>Windows Server</td>
+<td>Microsoft Windows Server</td>
 <td>
 <p>2016</p>
 <p>2012</p>
 </td>
 </tr>
 <tr>
-<td>Windows</td>
+<td>Microsoft Windows</td>
 <td>
 <p>8</p>
 <p>10 (recommended for Japanese instances)</p>
@@ -288,6 +292,22 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tr>
 </tbody>
 </table>
+
+### Browser
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Mobile SDK{#MobileSDK}
 
@@ -312,9 +332,53 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Browsers{#Browsers}
 
-For the following browsers, the latest version is supported: Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+The following browsers are compatible with Campaign for Web Access.
 
-Internet Explorer 11 is supported.
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mozilla Firefox</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Google Chrome</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Safari</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## More like this{#Morelikethis}
 

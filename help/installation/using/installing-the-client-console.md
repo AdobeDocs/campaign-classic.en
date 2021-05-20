@@ -8,36 +8,36 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 ---
-# Installing & Updating the Campaign client console{#installing-the-client-console}
-
+# Install & Update the Campaign client console{#installing-the-client-console}
    
 Campaign Client Console is a rich client which enables you to connect to your Campaign application server(s).
 
-Before starting, you need to check Campaign [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html), get your Campaign server URL and user credentials.
+Before starting to install the Client Console, you need to:
 
->[!CAUTION]
->
->Campaign Client console and Campaign application server must run on the same product version. Adobe also recommends to use the same product build.
-
-![](assets/do-not-localize/how-to-video.png) Discover how to install and setup the Adobe Campaign Client in [video](#video)
+* Check your system and tools compatibility with Adobe Campaign in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
+* Get your Campaign server URL
+* Get your user credentials
 
 The process to install or update the client console differs depending on your implementation of Adobe Campaign Classic. 
 Please review the details below to understand what is required for your implementation.
 
+![](assets/do-not-localize/how-to-video.png) Discover how to install and setup the Adobe Campaign Client in [video](#video)
 
-## Adobe Hosted Implementations {#hosted-customers}
+>[!CAUTION]
+>
+>Campaign Client console and Campaign application server must run **on the same product version**. Adobe also highly recommends to use the **same product build**. Learn how to check your Campaign Client and Server versions in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
-To install or update your client console(s):
+## Adobe Hosted implementations {#hosted-customers}
+
+Ads a hosted customer, you have two options to install or update your client console(s):
 
 1. Adobe can deploy directly. Once the console is updated, users will be prompted to download the latest client console version in a pop-up window. 
 
 1. You can download to your client console(s) from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 
 
-   **Users will require admin access to complete the update. If the users do not have admin rights, a system administrator will need to deploy to all client consoles**
+   **Users will require Admin access to complete the update. If the users do not have admin rights, a system administrator will need to deploy to all client consoles**
 
-
-
-## Hybrid & Fully On-Premise Implementations {#hybrid-onprem-customers}
+## Hybrid & On-Premise implementations {#hybrid-onprem-customers}
 
 For Adobe Campaign users to be able to log on to the instance you have created and configured, they need to use the client console.
 
@@ -55,9 +55,10 @@ To do this, you must:
 
 1. Start Adobe Campaign server.
 
->[!CAUTION]
->
->  Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that all users are alerted when a new version of the console is available.  If this option is selected the user will not be informed of new available versions.
+
+### No longer ask this question option
+
+Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that all users are alerted when a new version of the console is available.  If this option is selected the user will not be informed of new available versions.
 
 If **[!UICONTROL No longer ask this question]**  has been selected, you can reset this prompt. Only system administrators comfortable with editing Windows Registry should make these changes:
 
@@ -75,14 +76,14 @@ If **[!UICONTROL No longer ask this question]**  has been selected, you can rese
 >
 >If you are applying an updated console to an existing implementation, the users will automatically recieve a prompt to update their client console. If you are implementing Campaign for the first time, users will need to download the console. Please see below for details on both options
 
-### Update the console - existing implementation{#update-the-client-console}
+### Update the console for existing implementation{#update-the-client-console}
 
 Once the console is available in the Campaign server folder, users will be prompted to download the latest client console version in a pop-up window. 
    
    **Users will require admin access to complete the update. If the users do not have admin rights, a system administrator will need to deploy to all client consoles**
 
 
-### Download the console - new implementation{#download-the-client-console}
+### Download the console for new implementation{#download-the-client-console}
 
 Users should now download and install the console by following the steps below:
 
@@ -141,7 +142,6 @@ To log on to an existing instance, follow the steps below:
 1. Click **[!UICONTROL Ok]**
 
 1. Enter your user login credentials and click **[!UICONTROL Log in]**
-
 
 
 **Related topics**

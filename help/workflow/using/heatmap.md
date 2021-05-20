@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Workflow HeatMap
-description: Monitor your Campaign workflows with Workflow HeatMap
+title: Campaign Workflow HeatMap
+description: Monitor your workflows with Workflow HeatMap
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,11 +10,11 @@ exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 ---
 # Workflow HeatMap {#workflow-heatmap}
 
-Adobe Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is available to the instance Administrators only.
+Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is only available to **Campaign Administrators**.
 
-Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
+Discover additional ways to monitor Campaign processes in [this page](../../production/using/monitoring-guidelines.md).
 
-## About the Workflow HeatMap {#about-the-workflow-heatmap}
+## Get started with the Workflow HeatMap {#about-the-workflow-heatmap}
 
 By providing a quick overview on the number of concurrent workflows, the Workflow HeatMap enables the Adobe Campaign platform administrators to monitor the load on the instance and plan workflows accordingly.
 
@@ -24,7 +24,7 @@ More precisely, it helps the platform administrators to:
 * Filter workflows by duration to see which workflows may encounter issues
 * Filter activities by duration to see which activities may encounter issues
 * Easily find individual workflows and all related activities (with their duration)
-* Search by workflow type ([technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows) or [campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows))
+* Filter by workflow type: [technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows) or [campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows)
 * Look for a specific workflow to analyze
 
 >[!NOTE]
@@ -33,13 +33,11 @@ More precisely, it helps the platform administrators to:
 
 Using the Workflow HeatMap requires to have a good understanding of the following concepts: [Workflows](../../workflow/using/about-workflows.md), [Activities](../../workflow/using/about-activities.md) and [Workflow Best Practices](../../workflow/using/workflow-best-practices.md).
 
-<!--The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.-->
-
-## Using the HeatMap {#using-the-heatmap}
+## Customize the Workflow HeatMap {#using-the-heatmap}
 
 >[!NOTE]
 >
->Only users with administration rights can access the Campaign Workflow HeatMap.
+>If no data is displayed in the Workflow HeatMap, click the **[!UICONTROL Load data]** button.
 
 1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
 
@@ -62,7 +60,7 @@ Using the Workflow HeatMap requires to have a good understanding of the followin
 
    ![](assets/wkf_monitoring_filters_duration.png)
 
-1. You can also choose a specific workflow from the **[!UICONTROL Workflows]** list.
+1. You can also choose a specific workflow from the **[!UICONTROL Workflows]** drop-down list.
 
    ![](assets/wkf_monitoring_filters_workflows.png)
 
@@ -77,11 +75,9 @@ Using the Workflow HeatMap requires to have a good understanding of the followin
 
 1. To search a specific workflow by name, you can also use the **[!UICONTROL Workflow name filter]** field.
 
-   ![](assets/wkf_monitoring_filters_name.png)
-
 1. If you edited some workflows in the time between, click the **[!UICONTROL Reload data]** button to refresh the data that are displayed in the grid.
 
-## Reading the HeatMap {#reading-the-heatmap}
+## Interpret the Workflow HeatMap {#reading-the-heatmap}
 
 The Campaign Workflow HeatMap is a grid naturally readable from upper left to bottom right, allowing to find the "hot zones" with a green to red color-coded range.
 
@@ -109,11 +105,11 @@ In the example below, between 8am and 8:05am, three workflows are running (no ma
 1. Click the workflow ID or name to directly open a workflow.
 1. To go back to the **[!UICONTROL Campaign Workflow HeatMap]** view, click the **[!UICONTROL Home]** button.
 
-## Use cases: using the HeatMap to take actions {#use-cases--using-the-heatmap-to-take-actions}
+## Use cases: use the HeatMap to take actions {#use-cases--using-the-heatmap-to-take-actions}
 
 There are two main cases where the Campaign Workflow HeatMap can be useful.
 
-### Reducing the number of concurrent workflows {#reducing-the-number-of-concurrent-workflows}
+### Reduce the number of concurrent workflows {#reducing-the-number-of-concurrent-workflows}
 
 As a Campaign administrator, the Workflow HeatMap can help you to understand the load on the instance and plan existing or new workflows at appropriate times.
 
@@ -128,7 +124,7 @@ As a Campaign administrator, the Workflow HeatMap can help you to understand the
     * If you encounter performance issues and if one or more red cells are displayed in the grid, consider changing several workflows' starting times. Ask the marketing users to move manually workflows from busy ("hot") periods to more available time slots. This should maintain a stable level of activity along the day.
     * To avoid peaks and prevent the instance from overload, look at the HeatMap before planning new workflows and choose the best time. Consider time slots corresponding to grey or green cells in the grid to start new workflows.
 
-### Finding long-running workflows that impact performance {#finding-long-running-workflows-that-impact-performance}
+### Find long-running workflows that impact performances {#finding-long-running-workflows-that-impact-performance}
 
 As a Campaign administrator, the Workflow HeatMap helps you to find the longest workflows which can slow down the activity.
 
@@ -144,7 +140,7 @@ As a Campaign administrator, the Workflow HeatMap helps you to find the longest 
     * Advise marketing users to split the longest workflows to reduce processing time.
     * Start a deeper analyze on specific workflows and specific activities (such as JavaScript, import, export, and so on) to isolate the issues and solve them more easily.
 
-## Example: Using the HeatMap to improve workflow planning {#example--using-the-heatmap-to-improve-workflow-planning}
+## Use the HeatMap to improve workflow planning {#example--using-the-heatmap-to-improve-workflow-planning}
 
 The example below shows how planning can be more efficient and how performance can be improved when using the Adobe Campaign Workflow HeatMap.
 

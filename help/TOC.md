@@ -1,7 +1,7 @@
 ---
 audience: end-user
 product: campaign
-title: Adobe Campaign Classic Guide
+title: Adobe Campaign Classic v7 Guide
 breadcrumb-title: Help Center
 product: campaign
 title: Campaign Classic Guide
@@ -12,7 +12,7 @@ sub-product: adobe campaign classic
 type: Documentation
 ---
 
-# Adobe Campaign Classic Guide {#using}
+# Adobe Campaign Classic v7 Guide {#using}
 
 + [Product documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)

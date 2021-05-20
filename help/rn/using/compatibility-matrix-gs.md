@@ -263,21 +263,25 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## Client Console operating systems{#ClientConsoleoperatingsystems-gs}
+
+## Client Console {#ClientConsoleoperatingsystems}
+
+:warning: The following operating systems and browser are required to use Campaign Client Console.
+
+### Operating systems
 
 <table>
 <tbody>
 <tr>
-<td>Windows Server</td>
+<td>Microsoft Windows Server</td>
 <td>
 <p>2016</p>
 <p>2012</p>
 </td>
 </tr>
 <tr>
-<td>Windows</td>
+<td>Microsoft Windows</td>
 <td>
-<p>Seven</p>
 <p>8</p>
 <p>10 (recommended for Japanese instances)</p>
 </td>
@@ -285,7 +289,22 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## Mobile SDK{#MobileSDK-gs}
+### Browser 
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Mobile SDK{#MobileSDK}
 
 <table>
 <tbody>
@@ -306,11 +325,54 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## Browsers{#Browsers-gs}
+## Browsers{#Browsers}
 
-For the following browsers, the latest version is supported: Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+The following browsers are compatible with Campaign for Web Access.
 
-Internet Explorer 11 is supported.
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mozilla Firefox</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Google Chrome</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Safari</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## More like this{#Morelikethis-gs}
 
