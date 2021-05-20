@@ -12,6 +12,11 @@ exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 
 Campaign Client console is a rich client which enables you to connect to your Campaign application server(s). Learn how to download and configure the client console in [this page](../../installation/using/installing-the-client-console.md).
 
+
+>[!CAUTION]
+>
+>Check your system and tools compatibility with Adobe Campaign Client Console in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
+
 ## Start Adobe Campaign {#starting-adobe-campaign}
 
 You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.

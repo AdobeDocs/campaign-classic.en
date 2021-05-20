@@ -1,16 +1,20 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: About distributed marketing
-description: About distributed marketing
+title: Campaign distributed marketing
+description: Get started with distributed marketing
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 ---
-# About distributed marketing{#about-distributed-marketing}
+# Get started with distributed marketing{#about-distributed-marketing}
 
-## Introduction {#introduction}
+<!--
+>[!AVAILABILITY]
+>
+>:warning: This capability is not available in Campaign v8. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
+-->
 
 Adobe Campaign offers a **Distributed Marketing** application for implementing cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the **[!UICONTROL list of campaign packages]**, where centrally created campaign templates and instances are offered to local entities.
 
@@ -22,57 +26,57 @@ The central entity provides campaigns that local entities may use. Campaigns are
 
 ## Terminology {#terminology}
 
-### Central entities {#central-entities}
+* **Central entities**
 
-Central entities are made up of marketing operators in charge of specifying communications and assisting local entities in executing their marketing campaign.
+   Central entities are made up of marketing operators in charge of specifying communications and assisting local entities in executing their marketing campaign.
 
-The distributed marketing module allows the central entity to:
+   The distributed marketing module allows the central entity to:
 
-* set up marketing campaign packages for local entities,
-* increase local entities' degree of autonomy regarding their choice in customer/prospect communication, targeting, content, etc.
-* manage and control costs, 
-* handle a network of agencies.
+   * set up marketing campaign packages for local entities,
+   * increase local entities' degree of autonomy regarding their choice in customer/prospect communication, targeting, content, etc.
+   * manage and control costs, 
+   * handle a network of agencies.
 
-### Local entities {#local-entities}
+* **Local entities**
 
-Local entities can be agencies, stores or groups of specific local operators (country or regional managers, brand managers, etc.).
+   Local entities can be agencies, stores or groups of specific local operators (country or regional managers, brand managers, etc.).
 
-Distributed Marketing allows local entities to have more autonomy while optimizing execution costs.
+   Distributed Marketing allows local entities to have more autonomy while optimizing execution costs.
 
-### Localization {#localization}
+* **Localization**
 
-Localization is the capacity for a local entity to modify the target and content of a campaign. The possible level of localization depends on the type of campaign and its implementation.
+   Localization is the capacity for a local entity to modify the target and content of a campaign. The possible level of localization depends on the type of campaign and its implementation.
 
-### List of campaign packages {#list-of-campaign-packages}
+* **List of campaign packages**
 
-The list of campaign packages contains the campaigns available to local entities.
+   The list of campaign packages contains the campaigns available to local entities.
 
-### Campaign package {#campaign-package}
+* **Campaign package**
 
-Template (or campaign instance) created by a central entity and made available to a set of local entities.
+   Template (or campaign instance) created by a central entity and made available to a set of local entities.
 
-### Local campaign {#local-campaign}
+* **Local campaign**
 
-A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. Its aim is to meet a local communication need using a campaign template that was set up and configured by the central entity.
+   A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. Its aim is to meet a local communication need using a campaign template that was set up and configured by the central entity.
 
-The local entity's degree of autonomy depends on the implementation used.
+   The local entity's degree of autonomy depends on the implementation used.
 
-Refer to [Creating a local campaign](../../campaign/using/creating-a-local-campaign.md).
+   Refer to [Creating a local campaign](../../campaign/using/creating-a-local-campaign.md).
 
-### Collaborative campaign {#collaborative-campaign}
+* **Collaborative campaign**
 
-A collaborative campaign is a campaign whose **execution schedule is defined** by the central entity, which the local entity may use. The content remains the same for each local entity but costs are shared. To take part, local entities subscribe to the collaborative campaign.
+   A collaborative campaign is a campaign whose **execution schedule is defined** by the central entity, which the local entity may use. The content remains the same for each local entity but costs are shared. To take part, local entities subscribe to the collaborative campaign.
 
-* **[!UICONTROL Collaborative campaign (by form)]**: recommended for campaigns involving up to 300 local entities. The local entity can enter predefined parameters for targeting and content personalization in a web form. The form can be an Adobe Campaign form or an external form (extranet client). A functional administrator can define and configure the form based on a form template defined by the integrator. To order the campaign, the local entity just needs web access.
-* **[!UICONTROL Collaborative campaign (by campaign)]**: recommended for campaigns aimed at dozens of local entities. This type of campaign creates child campaigns for each local entity. Once the **[!UICONTROL collaborative campaign (by campaign)]** is approved by the central entity, the campaign is made available to the local entity, who can modify it. Execution is automatically synched between parent and child campaigns. The local entity must have access to an instance to order a campaign and participate in it.
-* **[!UICONTROL Collaborative campaign (by target approval)]**: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs web access.
-* **[!UICONTROL Collaborative campaign (simple)]**: this mode ensures compatibility with the specific execution processes of previous versions.
+   * **[!UICONTROL Collaborative campaign (by form)]**: recommended for campaigns involving up to 300 local entities. The local entity can enter predefined parameters for targeting and content personalization in a web form. The form can be an Adobe Campaign form or an external form (extranet client). A functional administrator can define and configure the form based on a form template defined by the integrator. To order the campaign, the local entity just needs web access.
+   * **[!UICONTROL Collaborative campaign (by campaign)]**: recommended for campaigns aimed at dozens of local entities. This type of campaign creates child campaigns for each local entity. Once the **[!UICONTROL collaborative campaign (by campaign)]** is approved by the central entity, the campaign is made available to the local entity, who can modify it. Execution is automatically synched between parent and child campaigns. The local entity must have access to an instance to order a campaign and participate in it.
+   * **[!UICONTROL Collaborative campaign (by target approval)]**: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs web access.
+   * **[!UICONTROL Collaborative campaign (simple)]**: this mode ensures compatibility with the specific execution processes of previous versions.
 
-Refer to [Creating a collaborative campaign](../../campaign/using/creating-a-collaborative-campaign.md).
+   Refer to [Creating a collaborative campaign](../../campaign/using/creating-a-collaborative-campaign.md).
 
-### Ordering campaign packages {#ordering-campaign-packages}
+**Ordering campaign packages**
 
-If a local entity registers for a campaign this is made into an order which regroups all information relative to the campaign localization.
+   If a local entity registers for a campaign this is made into an order which regroups all information relative to the campaign localization.
 
 ## Workspace {#workspace}
 
@@ -122,7 +126,7 @@ Distributed Marketing campaigns are created and published by the central entity.
 
 The implementation procedure depends on the type of campaign package used and the local entity delegation levels.
 
-### Integrator side {#integrator-side}
+### Integrator tasks {#integrator-side}
 
 1. Create local entities.
 1. Link recipients with the operators that manage local entities.
@@ -141,7 +145,7 @@ The implementation procedure depends on the type of campaign package used and th
 
    For **collaborative campaigns (by target approval)**, create the table where the approvals for each local entity will be saved.
 
-### Functional administrator side {#functional-administrator-side}
+### Functional administrator tasks {#functional-administrator-side}
 
 These steps must be carried out when creating each campaign.
 
@@ -150,7 +154,7 @@ These steps must be carried out when creating each campaign.
 1. Configure the campaign with the localization fields and the form reference.
 1. Publish the campaign.
 
-### Local operator side {#local-operator-side}
+### Local operator tasks {#local-operator-side}
 
 These steps must be carried out for each campaign.
 

@@ -178,6 +178,7 @@ The solution is to:
     }
     <%@ value object='endScript' %>
     ```
+
 1. Display the article by calling the function.
 
     ```
