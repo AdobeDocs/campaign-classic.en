@@ -134,7 +134,7 @@ This kind of extra linefeed character in the tracking URL will lead to issue in 
 * Incorrect syntax
 
    ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe-Genesis
+   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
    var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
    if( $(urlstring).match(pattern) && delivery.FCP == false )
    {
@@ -145,7 +145,7 @@ This kind of extra linefeed character in the tracking URL will lead to issue in 
 * Correct syntax
 
    ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe-Genesis
+   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
    var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
    if( $(urlstring).match(pattern) && delivery.FCP == false )
    {
@@ -169,7 +169,7 @@ To understand where the extra linefeed is you can replace javascript expression 
 
    ```
    <%@ include option='NmsTracking_ClickFormula' %>
-   <% // Parameters expected by Adobe-Genesis
+   <% // Parameters expected by Adobe Analytics
    var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
    if( $(urlstring).match(pattern) && delivery.FCP == false )
    {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
@@ -180,7 +180,7 @@ To understand where the extra linefeed is you can replace javascript expression 
 * Correct syntax
 
    ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe-Genesis
+   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
    var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
    if( $(urlstring).match(pattern) && delivery.FCP == false )
    {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
