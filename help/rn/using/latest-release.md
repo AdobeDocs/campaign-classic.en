@@ -103,6 +103,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 
 * Extra checks have been added when saving a workflow to make sure that activity names are unique and that transitions are always followed by an activity.
 * The **Billing (billing)** technical workflow now includes the tasks originally performed by the **Number of active billing profiles** (billingActiveContactCount) workflow, which has been removed. The email report sent each month by the workflow will now provide information on the number of active profiles on the instance. [Read more](../../workflow/using/about-technical-workflows.md).
+* New **_keyOnMData** attribute has been added to be able to use a key for operations on memo data.
 
 **Other changes**
 
