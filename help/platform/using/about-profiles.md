@@ -96,7 +96,7 @@ The profiles that were excluded during delivery preparation (typology rules, qua
 >
 >Facebook and Twitter channels are not taken into account.
 
-You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/about-technical-workflows.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
+You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. The actual count is performed by the **[!UICONTROL Billing]** (**[!UICONTROL billing]**) [technical workflow](../../workflow/using/about-technical-workflows.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
 
 ## Tutorial video {#create-profiles-video}
 
