@@ -10,8 +10,8 @@ exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 ---
 # File transfer{#file-transfer}
 
-The **File transfer** activity lets you receive or send files, test for file presence, or list files on a server. The protocol used is either Amazon Simple Storage Service (S3), FTP or SFTP.
-With S3 or SFTP connection, you can also import segment data to Adobe Campaign with Adobe Real-time Customer Data platform. For more on this, refer to this [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+The **File transfer** activity lets you receive or send files, test for file presence, or list files on a server. The protocol used is either Azure Blob storage, Amazon Simple Storage Service (S3), FTP or SFTP.
+With Azure Blob storage, S3 or SFTP connection you can also import segment data to Adobe Campaign with Adobe Real-time Customer Data platform. For more on this, refer to this [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ The configuration depends on the action selected.
 
    ![](assets/file_transfert_edit.png)
 
-   Check **[!UICONTROL Use an external account]** to select an account from the S3, FTP or SFTP accounts configured in the **[!UICONTROL Administration > Platform > External accounts]** node of the tree. Then specify which directory on the server contains the file(s) to be downloaded.
+   Check **[!UICONTROL Use an external account]** to select an account from the Azure Blob storage, S3, FTP or SFTP accounts configured in the **[!UICONTROL Administration > Platform > External accounts]** node of the tree. Then specify which directory on the server contains the file(s) to be downloaded.
 
    ![](assets/file_transfert_edit_external.png)
 
@@ -82,7 +82,7 @@ The **[!UICONTROL Advanced parameters...]** link lets you access the following o
 
 * **[!UICONTROL Display the session logs]**
 
-  Allows you to recover the logs of the S3, FTP or SFTP transfer and to include them in the workflow logs.
+  Allows you to recover the logs of the Azure Blob storage, S3, FTP or SFTP transfer and to include them in the workflow logs.
 
 * **[!UICONTROL Disable passive mode]**
 
