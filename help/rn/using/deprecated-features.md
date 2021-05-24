@@ -52,60 +52,12 @@ Customers are advised to review if they make use of the feature/capability in th
   </td>
  </tr>
   <tr>
-  <td>CRM connectors<br></td>
-   <td><p>Starting Campaign 20.3 release, the following CRM connectors are deprecated with Campaign:</p>
-   <ul>
-   <li>Soap API - On-premise: 2007, 2015, 2016</li>
-   <li>Soap API - Online: 2015, 2016</li>
-   <li>Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1</li>
-   <li>Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1</li>
-   <li>Oracle On Demand API</li>
-   </ul>
-  <p><em>Target removal date: May 2021</em></p>
-  </td>
- </tr>
-  <tr>
-  <td>iOS legacy binary<br></td>
-  <td><p>Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated.<p>
-  <p> If you are using this connector, you need to adapt your implementation accordingly.
-  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html">Learn more</a></p>
-  <p><em>Target removal date: May 2021</em></p>
-  </td>
- </tr>
-   <tr>
-  <td>Demdex domain<br></td>
-  <td><p> Starting Campaign 20.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated.<p>
-  <p>If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
-  <p><em>Target removal date: May 2021</em></p>
-  </td>
-  <tr>
   <td>OAuth Authentication (OAuth and JWT)<br></td>
   <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. <p>
   <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-adobe-io.md">Learn more</a></p> 
   <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <p><em>Target removal date: Nov 2021</em></p>
   </td>
-  </tr>
-  <td>SMS connectors<br></td>
-  <td><p> Starting Campaign 20.2 release, the following SMS connectors are deprecated.<p>
-   <ul>
-   <li>Generic SMPP (SMPP version 3.4 supporting binary mode)</li>
-   <li>Sybase365 (SAP SMS 365)</li>
-   <li>CLX Communications</li>
-   <li>Tele2</li>
-   <li>O2</li>
-   <li>iOS</li>
-   </ul>
-  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivery/using/sms-channel.md">Learn more</a></p> 
-  <p>Learn how to migrate legacy connectors in <a href="../../delivery/using/unsupported-connector-migration.md">this technote</a>.</p>
-  <p><em>Target removal date: May 2021</em></p>
-  </td> 
- </tr>
-  <tr>  
-   <td>Fax channel<br></td>
-   <td><p>Starting Campaign 20.2 release, the Fax channel is deprecated.</p> 
-   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a> about Campaign channels.</p>
-   <p><em>Target removal date: May 2021</em></p></td>
   </tr>
  </tbody> 
 </table>
@@ -115,11 +67,20 @@ Customers are advised to review if they make use of the feature/capability in th
 This section lists features and capabilities that have been removed from Campaign Classic.
 
 <table> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><strong>Area - Feature</strong></td>
    <td><strong>Replacement</strong></td> 
-  </tr> 
+  </tr>
+  <tr>  
+   <td>Fax channel<br></td>
+   <td><p>Starting Campaign 21.1.3 release, the Fax channel is no longer available. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a></p>
+  <tr>
+  <td>Demdex domain<br></td>
+  <td><p> Starting Campaign 21.1.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is no longer available. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
+  </td>
+  </td>
+  </tr>
    <tr> 
    <td>Windows NT authentication<br></td>
    <td><p>Starting Campaign 20.3 release, Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">Learn more</a></p></td>
@@ -160,7 +121,7 @@ This section lists features and capabilities that have been removed from Campaig
    <tr> 
    <td>Mobile channel - LINE v1</td>
    <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../delivery/using/line-channel.md">Learn more</a></td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -188,7 +149,6 @@ Adobe Campaign Classic Client Console can no longer run on the following systems
 >[!NOTE]
 >Starting Campaign 20.1 release, Campaign Classic Client Console 32 bits is no longer compatible with Campaign latest versions. You need to use 64 bits Client Console.
 
-
 ### Operating systems {#o-s-eol}
 
 Starting 19.1 release, Adobe Campaign is no longer compatible with the following operating systems.
@@ -211,7 +171,7 @@ Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the fo
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following tools.
 
 * Java JDK 7. [Learn more](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5 / 4.3 / 5.x, except when embeded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Libre Office 3.5 / 4.3 / 5.x, except when embedded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### Database engines {#dbe-eol}
 
@@ -245,6 +205,11 @@ Campaign Classic is not compatible with the following servers in Federated Data 
 * AsterData 5.0. AsterData reached end of life. [Learn more](https://en.wikipedia.org/wiki/Aster_Data_Systems)
 * Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0. More recent versions of Sybase are supported through Federated Data Access (FDA). [Learn more](https://sites.google.com/site/dbatipsandtricks/time-tracker)
 * Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic will still support the listed versions of Hadoop via HiveSQL through Federated Data Access (FDA), but these versions are merged with: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) and HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
+* Soap API - On-premise: 2007, 2015, 2016
+* Soap API - Online: 2015, 2016
+* Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1
+* Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1
+* Oracle On Demand API<
 
 **RDBMS SERVER**
 
@@ -254,3 +219,14 @@ Adobe Campaign is not compatible with the following RDBMS Servers:
 * SQL Server 2005
 * MySQL 5.1
 * DB2 UDB 9.7
+
+### SMS connectors {#sms-eol}
+
+Adobe Campaign is not compatible with the following SMS connectors:
+
+* Generic SMPP (SMPP version 3.4 supporting binary mode)
+* Sybase365 (SAP SMS 365)
+* CLX Communications
+* Tele2
+* O2
+* iOS
