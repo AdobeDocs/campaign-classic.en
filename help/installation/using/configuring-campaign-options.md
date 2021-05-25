@@ -10,13 +10,15 @@ exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 ---
 # List of Campaign Classic options{#configuring-campaign-options}
 
-The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options.
+The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options. Some of them are built-in when installing Campaign, and others can be added manually when needed. Available options vary according to the packages installed with your instance.
 
->[!NOTE]
+
+>[!CAUTION]
 >
->Modifying or updating Adobe Campaign options can be performed by experts users only.
+>* Options not listed in this page are internal only and **must not be modified**.
+>
+>* Modifying or updating Adobe Campaign options can be performed by experts users only.
 
-Some of them are built-in when installing Campaign, and others can be added manually when needed. Available options vary according to the packages installed with your instance.
 
 ## Delivery {#delivery}
 
