@@ -327,7 +327,7 @@ Click on a PublicId identifier to view further detail.
 
 ## Billing report {#billing-report}
 
-The **[!UICONTROL Billing]** technical workflow sends the system activity report to the 'billing' operator by email. It is triggered by default the 25th of every month.
+The **[!UICONTROL Billing]** technical workflow sends the system activity report to the 'billing' operator by email. It is triggered by default the 25th of every month, and runs on the Marketing instance.
 
 The technical worklow can be found in a sub-folder of the following node: **Administration** > **Production** > **Technical workflows**.
 
