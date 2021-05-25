@@ -16,7 +16,127 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 >
 >Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 20.2.5 release](../../rn/using/release--20-2.md).
 
-## ![](assets/do-not-localize/blue_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+## ![](assets/do-not-localize/blue_2.png) Release 21.1.3 - Build XXXX {#release-21-1-3-build-XXXX}
+
+_May 28, 2021_
+
+**What's new?**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>LINE Channel enhancement</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>The following improvements have been added to LINE channel:
+</p>
+<ul> 
+<li><p>Support for LINE video message type</p></li>
+<li><p>Support for LINE Partner Registration API</p></li>
+<li><p>Support retry of message sending in the event of LINE server-side error or network timeout</p></li>
+</ul>
+<p>For more information refer to the <a href="../../delivery/using/line-channel.md">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Vertica FDA connector</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>You can now connect your Adobe Campaign Classic instance to your Vertica external database. This connection is managed through a new external account.</p>
+<p>For more information refer to the detailed documentation.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Google Big Query FDA connector</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>You can now connect your Adobe Campaign Classic instance to your Google Big Query external database. This connection is managed through a new external account.
+</p>
+<p>For more information refer to the detailed documentation.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Security enhancements**
+
+* Access to the **xtk:session#GetCnxInfo** API method returning the full database connection details is now restricted to admin users only. (NEO-27779)
+* The deprecated decryptString function has been replaced with decryptPassword in CRM related JavaScript files.
+* The tracking signature feature has been improved to reduce the risk of tracking redirection errors when third-party tools (email clients, internet browsers, safe link security tools) modify the tracked link.
+* Fixed an issue which could prevent tracked URLs from working when containing uppercase characters. Tracked URLs signing mechanism is now case sensitive. (NEO-28414)
+
+**Compatibility updates**
+
+The following systems are now supported with Campaign:
+* Google Big Query FDA connector
+* Vertica FDA connector
+* PostgreSQL 13
+
+Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
+
+**Deprecated features**
+
+* Starting Campaign 21.1 release, the Adobe Analytics Data Connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly with the new connector Adobe Analytics Connector. 
+For more information refer to the [detailed documentation](../../platform/using/adobe-analytics-connector.md).
+* Support for Debian 8 is now deprecated.
+* Following the deprecation of Oracle CRM in 20.3, the related external account has been removed from the interface.
+
+Learn more in the [Deprecated and removed features page](../../rn/using/deprecated-features.md).
+
+**Improvements**
+
+* Extra checks have been added when saving a workflow to make sure that activity names are unique and that transitions are always followed by an activity.
+* The **Billing (billing)** technical workflow now includes the tasks originally performed by the **Number of active billing profiles** (billingActiveContactCount) workflow, which has been removed. The email report sent each month by the workflow will now provide information on the number of active profiles on the instance. [Read more](../../workflow/using/about-technical-workflows.md).
+* New **_keyOnMData** attribute has been added to be able to use a key for operations on memo data.
+
+**Other changes**
+
+* The openssl third-party for Windows has been updated to version 1.1.1h.
+* In the Debian package description, nlserver has been changed to Adobe Campaign Classic server. 
+
+**Patches**
+
+* Fixed an issue when editing the session timeout to log out users after a specific amount of time where users remained logged in even after the set time.
+* Fixed an issue where deliveries were displayed as read-only but could still be edited in the deliveries properties.
+* Fixed an error which caused the editing tool bar to disappear when designing a web application.
+* Fixed an error which displayed the text version of an email with Adobe Campaign Classic headers when adding a link to an email. (NEO-29211
+* When using FDA over HTTPs connection, the **Mid-sourcing (delivery logs)** (defaultMidSourcingLog) workflow was stuck in the timeframe set by the **NmsMidSourcing_LogsPeriodHour** option. This would prevent records from being updated with data that occurred after this set timeframe. (NEO-30833)
+* Fixed an issue which occurred after executing the message center synchronization workflow. Every time a delivery objects folder was moved to a custom folder, the workflow would move the deliveries back to the generic **Transactional message history** folder. (NEO-27445)
+* Fixed an issue which displayed an error message when trying to display the **Broadcast statistics**, **Tracking indicators**, and **Statistics of the sharing activities** reports. 
+* The **Oracle On Demand** workflow activity has been removed from the interface following Oracle CRM connector deprecation.
+* Fixed an issue which stopped the execution of processing workflows after the daily restart of the workflow server (wfserver) module. (NEO-30047)
+* Fixed an issue that prevented the MX management document from being updated, which could negatively impact IP reputation. (NEO-29897)
+* Fixed issues that caused web process crashes when receiving a SOAP call. (NEO-28796) (NEO-29600)
+* Fixed an issue that caused the SAP HANA FDA index creation to fail. (NEO-29664)
+* Fixed an issue which could keep transactional messages in **Waiting** state when performing SOAP calls containing a header. (NEO-28737)
+* Fixed an issue that occurred when using the Teradata FDA connector: all the temporary tables were created on only one node of the cluster, which could end up consuming the whole spool space and make Teradata crash. The temporary tables are now generated on many nodes. (NEO-28230)
+* Fixed an issue when using web applications which led tracking tags to generate incorrect primary keys into the **nms:trackingURL** schema. (NEO-27931)
+* Compatibility to ODBC 3.x has been enhanced to ensure error message accuracy.
+* Fixed an issue which could lead to console crashes when custom content templates were used in email deliveries. (NEO-31547)
+* Fixed an issue that prevented Tomcat from sending valid responses due to a slow connection or large response size.
+* Fixed an issue which could occur when reading UUID from a PostgreSQL database.
+* Fixed an issue which could lead to performance issues when searching on proposition data linked to offers. (NEO-27554)
+* Fixed an issue which lead to the Web process not responding when the IMS service was activated but not responding.
+* Fixed an issue which prevented you from sending a delivery with a group of proofs due to a specific joining mechanism that failed the delivery personalization. (NEO-14391)
+* Fixed an issue which failed to send an alert with the alert activity if a query and an enrichment activity targeted the delivery table. (NEO-25157)
+
+## ![](assets/do-not-localize/red_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
 
 _April 15, 2021_
 
