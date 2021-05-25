@@ -14,9 +14,21 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## May 2021 {#may-2021}
+
+The Workflow Heatmap report documentation has been updated and improved. [Read more](../../workflow/using/heatmap.md)
+
+Campaign Client Console requirements have been updated in the Compatibility Matrix. [Read more](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
+
+Campaign Client Console installation for steps have been improved and clarified. [Read more](../../installation/using/installing-the-client-console.md)
+
+A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/tracked-urls.md)
+
 ## April 2021 {#april-2021}
 
 A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Classic and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrations/using/get-started-sources-destinations.md)
+
+A new technote has been created to learn how to update bounce qualification after an ISP outage. [Read more](../../delivery/using/update-bounce-qualification.md)
 
 ## March 2021 {#march-2021}
 
