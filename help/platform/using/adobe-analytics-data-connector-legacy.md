@@ -7,8 +7,13 @@ feature: Overview
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
+hidefromtoc: yes
 ---
-# Adobe Analytics Data Connector{#adobe-analytics-data-connector}
+# Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
+
+>[!IMPORTANT]
+>
+>Adobe Analytics Data Connector is now deprecated. Deprecated capabilities are still available, but they will not be further enhanced, nor supported. Learn more [in this page](../../rn/using/deprecated-features.md).
 
 ## About Data Connector integration {#about-data-connector-integration}
 

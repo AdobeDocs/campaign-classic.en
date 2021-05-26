@@ -12,6 +12,7 @@ exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 
 The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options. Some of them are built-in when installing Campaign, and others can be added manually when needed. Available options vary according to the packages installed with your instance.
 
+
 >[!CAUTION]
 >
 >* Options not listed in this page are internal only and **must not be modified**.
@@ -392,6 +393,14 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td> <span class="uicontrol">RestrictEditingOOTBSchema</span> <br /> </td> 
+   <td> (starting 21.1.3 release) If 1 is selected (default value), this option disables edition of build-in schemas.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
+   <td> (starting 21.1.3 release) If 1 is selected (default value), this option disables edition of build-in javascript codes.<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
    <td> (Install compatibility mode: build&gt;6000) When activated (value “1”), this option allows the use of old passwords stored in the database for the connexion to external accounts or to the instance.<br /> </td> 

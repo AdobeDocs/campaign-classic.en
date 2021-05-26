@@ -64,7 +64,7 @@ It also handles periodically executed technical workflows, including:
 
 * Tracking: Recovering and consolidating tracking logs. It enables you retrieve the logs from the redirection server and create the aggregate indicators used by the reporting module.
 * Cleanup: Database cleaning. Used to purge old records and avoid the database growing exponentially.
-* Billing: Automatic sending of an activity report for the platform (database size, number of marketing actions, etc.).
+* Billing: Automatic sending of an activity report for the platform (database size, number of marketing actions, number of active profiles etc.).
 
 **Delivery Server** (nlserver mta)
 

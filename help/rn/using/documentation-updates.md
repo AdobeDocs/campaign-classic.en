@@ -14,7 +14,7 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
-## May 2021 {#may-2021}
+## May 2021 (#may-2021)
 
 The Workflow Heatmap report documentation has been updated and improved. [Read more](../../workflow/using/heatmap.md)
 
@@ -23,6 +23,10 @@ Campaign Client Console requirements have been updated in the Compatibility Matr
 Campaign Client Console installation for steps have been improved and clarified. [Read more](../../installation/using/installing-the-client-console.md)
 
 A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/tracked-urls.md)
+
+**Documentation updates coming with the 21.1.3 release**
+
+The “Billing (billing)” technical workflow description now includes the tasks originally performed by the “Number of active billing profiles (billingActiveContactCount)”. [Read more](../../workflow/using/about-technical-workflows.md)
 
 ## April 2021 {#april-2021}
 
@@ -447,7 +451,7 @@ The GDPR getting started guide has been improved and enriched. It is now a priva
 
 A new troubleshooting page has been added for tracking in Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/classic-tracking-troubleshooting.html).
 
-A new page of best practices for Adobe Analytics Data Connector has been added. [Read more on Adobe Analytics Data Connector](../../platform/using/adobe-analytics-data-connector.md)
+A new page of best practices for Adobe Analytics Connector has been added. [Read more on Adobe Analytics Connector](../../platform/using/adobe-analytics-connector.md)
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../delivery/using/delivery-best-practices.md)
 
@@ -525,8 +529,8 @@ Added two new options to the list of Campaign options: XtkSecurity_Restrict_Edit
 Added information on the different external accounts available in Campaign Classic and how to configure them.
  [Read more](../../installation/using/external-accounts.md)
 
-Updated Analytics Data Connector section to reflect interface changes.
- [Read more](../../platform/using/adobe-analytics-data-connector.md)
+Updated Analytics Connector section to reflect interface changes.
+ [Read more](../../platform/using/adobe-analytics-connector.md)
 
 Added information on the Billing report.
  [Read more](../../production/using/monitoring-processes.md)

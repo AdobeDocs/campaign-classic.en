@@ -112,7 +112,8 @@ type: Documentation
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
-       + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
+       + [Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
+       + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
@@ -681,7 +682,9 @@ type: Documentation
           + [Best practices and limitations](installation/using/fda-best-practices.md)
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
+            + [Configure Vertica](installation/using/configure-fda-vertica.md)
             + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
+            + [Configure Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configure Hadoop](installation/using/configure-fda-hadoop.md)
             + [Configure Oracle](installation/using/configure-fda-oracle.md)
