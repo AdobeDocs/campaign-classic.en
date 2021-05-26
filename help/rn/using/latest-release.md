@@ -63,13 +63,13 @@ _May 28, 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Vertica FDA connector</strong><br /> </th> 
+<th> <strong>Vertica FDA connector</strong><br/> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td> <p>You can now connect your Adobe Campaign Classic instance to your Vertica external database. This connection is managed through a new external account.</p>
-<p>For more information refer to the detailed documentation.</p>
+<p>For more information refer to the <a href="../../installation/using/configure-fda-vertica.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -85,7 +85,7 @@ _May 28, 2021_
 <tr> 
 <td> <p>You can now connect your Adobe Campaign Classic instance to your Google Big Query external database. This connection is managed through a new external account.
 </p>
-<p>For more information refer to the detailed documentation.</p>
+<p>For more information refer to the <a href="../../installation/using/configure-fda-google-big-query.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
