@@ -682,6 +682,7 @@ type: Documentation
           + [Best practices and limitations](installation/using/fda-best-practices.md)
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
+            + [Configure Vertica](installation/using/configure-fda-vertica.md)
             + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
             + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configure Hadoop](installation/using/configure-fda-hadoop.md)
