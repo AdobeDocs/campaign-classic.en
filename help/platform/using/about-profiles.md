@@ -84,10 +84,6 @@ The general layout of the Adobe Campaign explorer is presented in [this page](..
 
 Active profiles are the profiles that are counted for billing purposes.
 
-Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
-
-If you are hosted on AWS, you can also monitor the number of active profiles used on your instances directly from the Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
-
 Billing only concerns profiles that are **active**. A profile is considered active if the profile has been targeted or communicated with in the past 12 months via any channel.
 
 The profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. A profile that has been targeted by several deliveries will only be counted once.
@@ -96,7 +92,13 @@ The profiles that were excluded during delivery preparation (typology rules, qua
 >
 >Facebook and Twitter channels are not taken into account.
 
-You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/about-technical-workflows.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
+From Campaign explorer, browse **[!UICONTROL Administration > Campaign Management > Customer metrics]** to have an overview of the number of active profiles. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [technical workflow](../../workflow/using/about-technical-workflows.md). This wokflow runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** folder. 
+
+Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
+
+>[!NOTE]
+>
+>You can also monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 
 ## Tutorial video {#create-profiles-video}
 

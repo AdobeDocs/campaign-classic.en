@@ -27,7 +27,7 @@ For more on how to monitor technical workflows, refer to the [dedicated section]
 |Technical workflow|Package|Description|
 |------|--------|-----------|
 |**Alias cleansing** (aliasCleansing)|Delivery|This workflow standardizes enumeration values. It is triggered every day at 3am by default.|
-|**Billing** (billing)|Delivery|This workflow sends the system activity report to the 'billing' operator by email. It is triggered the 25th of every month by default.|
+|**Billing** (billing)|Delivery|This workflow sends the system activity report to the 'billing' operator by email. It is triggered the 25th of every month on the Marketing instance.|
 |**Calculation of Twitter statistics** (statsTwitter)|Social networks (Social Marketing)|This workflow calculates statistics linked to retweets and visits on Twitter.|
 |**Campaign jobs** (operationMgt)|Marketing campaigns (Campaign)|This workflow manages the jobs for marketing campaigns (launches targeting, file extraction, etc.). It also creates workflows related to recurring and periodic campaigns.|
 |**Collect data for HeatMap service** (collectDataHeatMapService)|Installed by default|This workflow retrieves data required by the HeatMap service.|
