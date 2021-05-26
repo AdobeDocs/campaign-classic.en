@@ -21,7 +21,7 @@ This section details the necessary configuration steps in Adobe Campaign to use 
 
 >[!NOTE]
 >
->If the two packages (**[!UICONTROL AEM Integration]** and **[!UICONTROL Integration with the Adobe Experience Cloud]** ) are installed, only the assets available in the Adobe Experience Cloud library can be used. To also access the assets in your AEM Assets library, you must synchronize AEM Assets and Adobe Experience Cloud. The assets in AEM Assets will then also be available in the Adobe Experience Cloud library. For more information on synchronizing AEM Assets and Adobe Experience Cloud, refer to the [detailed documentation](https://docs.adobe.com/docs/en/aod/overview/collaborating/aem-assets-aod-sync.html).
+>If the two packages (**[!UICONTROL AEM Integration]** and **[!UICONTROL Integration with the Adobe Experience Cloud]** ) are installed, only the assets available in the Adobe Experience Cloud library can be used.
 
 ## Integrating with Experience Cloud Assets {#integrating-with-experience-cloud-assets}
 

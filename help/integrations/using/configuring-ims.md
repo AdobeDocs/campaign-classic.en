@@ -19,7 +19,7 @@ exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 To use the integration with the IMS:
 
 * You must have an Adobe Experience Cloud organization and IMS IDs (provided when you first connect to the Adobe Experience Cloud).
-* You have to add users in the Experience Cloud. For more on this, refer to [this page](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+* You have to add users in the Experience Cloud. For more on this, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Configure the **Adobe Experience Cloud** external account in **[!UICONTROL Admin
 
 Enter the following information:
 
-* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html).
+* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html).
 
   The **[!UICONTROL Callback server]** address must be specified in **https**. This field corresponds to the access URL of your Adobe Campaign instance.
 

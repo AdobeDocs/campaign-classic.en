@@ -77,7 +77,7 @@ Before starting the build upgrade, on-premise customers need to perform the foll
 
 1. Get the latest version of your [server configuration file](../../installation/using/the-server-configuration-file.md).
 
-1. [Download the latest build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [Learn more](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
+1. [Download the latest build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
 You also need to know all the [useful command lines](../../installation/using/command-lines.md) before starting a build upgrade:
 

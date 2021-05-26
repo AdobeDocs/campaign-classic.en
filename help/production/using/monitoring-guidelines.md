@@ -45,7 +45,7 @@ The Audit trail allows you to visualize the complete history of changes related 
 
 **Control Panel**
 
-The Control Panel allows you to manage several settings of your instance: manage URL permissions, check your instance details like your servers' build versions, etc. It also allows you to monitor the available space on the SFTP servers that are connected to your instance. [Click here](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) for more information.
+The Control Panel allows you to manage several settings of your instance: manage URL permissions, check your instance details like your servers' build versions, etc. It also allows you to monitor the available space on the SFTP servers that are connected to your instance. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) for more information.
 
 >[!NOTE]
 >

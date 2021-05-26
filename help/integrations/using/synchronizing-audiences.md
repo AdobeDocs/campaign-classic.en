@@ -132,15 +132,15 @@ By creating a delivery workflow in Campaign Standard, it is then possible to use
 
 ## Send and monitor your delivery {#send-and-monitor-your-delivery}
 
-Once the delivery and its content are ready, send the delivery, as described with more details in [this section](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
+Once the delivery and its content are ready, send the delivery:
 
 1. Execute the delivery workflow. This step prepares the email for sending.
 1. From the delivery dashboard, manually confirm that the delivery can be sent.
 1. Monitor the reports and logs of the delivery:
 
-    * **In Campaign Standard**: Access [reports](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) and [logs](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) related to the delivery as for any delivery.
+    * **In Campaign Standard**: Access [reports](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) and [logs](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) related to the delivery as for any delivery.
     * **in Campaign v7 and Campaign Standard**: Delivery IDs, email broad logs, and email tracking logs are synchronized to Campaign v7. You can then get à 360° view of your marketing campaigns from Campaign v7.
 
       Quarantines are automatically synchronized back to Campaign v7. This allows to take non-deliverable information into account for the next targeting performed in Campaign v7.
 
-      You can find more information about quarantine management in Campaign Standard in [this section](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+      You can find more information about quarantine management in Campaign Standard in [this section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en).

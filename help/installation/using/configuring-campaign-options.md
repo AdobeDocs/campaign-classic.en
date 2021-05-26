@@ -19,7 +19,6 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
 >
 >* Modifying or updating Adobe Campaign options can be performed by experts users only.
 
-
 ## Delivery {#delivery}
 
 <table> 

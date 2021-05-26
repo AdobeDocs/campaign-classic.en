@@ -12,9 +12,9 @@ sub-product: adobe campaign classic
 type: Documentation
 ---
 
-# Adobe Campaign Classic v7 Guide {#using}
+# Adobe Campaign Classic v7 documentation {#using}
 
-+ [Product documentation](campaign-classic-home.md)
++ [Campaign v7 documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)

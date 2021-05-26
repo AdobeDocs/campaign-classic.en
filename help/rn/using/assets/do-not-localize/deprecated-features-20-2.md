@@ -91,7 +91,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
   <tr> 
    <td>Web applications - Microsites</td>
-   <td>Starting Campaign 18.10 release, Microsites are no longer available. You can improve security by restricting access to only dedicated domains on Adobe Campaign configuration files, and use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a></td>
+   <td>Starting Campaign 18.10 release, Microsites are no longer available. You can improve security by restricting access to only dedicated domains on Adobe Campaign configuration files, and use personalized URLs in Campaign by using DNS aliases. <a href="https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html">Learn more</a></td>
   </tr> 
   <tr> 
    <td>Push Notifications - iOS Binary Connector</td>
