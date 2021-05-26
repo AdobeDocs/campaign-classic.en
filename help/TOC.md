@@ -1,18 +1,20 @@
 ---
-solution: Campaign Classic
+audience: end-user
 product: campaign
-sub-product: adobe campaign classic
-title: Adobe Campaign Classic v7 Help Center
-breadcrumb-title: Campaign Classic v7
+title: Adobe Campaign Classic v7 Guide
+breadcrumb-title: Help Center
+product: campaign
+title: Campaign Classic Guide
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
-audience: end-user
+solution: Campaign Classic
+sub-product: adobe campaign classic
 type: Documentation
 ---
 
-# Adobe Campaign Classic v7 documentation {#campaign-v7}
+# Adobe Campaign Classic v7 Guide {#using}
 
-+ [Campaign Classic v7 documentation](campaign-classic-home.md)
++ [Product documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
