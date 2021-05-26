@@ -29,10 +29,4 @@ Adobe Campaign is compatible with Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 an
 >
 >Adobe Campaign Classic templates are no longer available with Adobe Experience Manager 6.5.
 
-For more details, refer to the documentation provided for your version of Adobe Experience Manager:
-
-* [Click here for Adobe Experience Manager 6.1](https://docs.adobe.com/docs/en/aem/6-1/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
-* [Click here for Adobe Experience Manager 6.2](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
-* [Click here for Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/campaignonpremise.html)
-* [Click here for Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html)
-* [Click here for Adobe Experience Manager 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)
+For more details, refer to [Adobe Experience Manager documentation](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html)

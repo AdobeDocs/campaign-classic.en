@@ -83,6 +83,5 @@ Additional Campaign how-to videos are available [here](https://experienceleague.
 
 * [Apply automatic business rules to deliveries on any channel](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
-* [About campaign typologies](../../campaign/using/pressure-rules.md)
+* [Get started with typologies and fatigue management](../../campaign/using/pressure-rules.md)
 
-* [Managing marketing fatigue with pressure rules](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)

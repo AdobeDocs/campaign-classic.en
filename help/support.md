@@ -88,7 +88,7 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
 ### What is Control Panel?
 
 Campaign Control Panel helps you increase efficiency in your work as a product admin of Campaign Classic, by allowing you to manage settings and track usages for each of your instances.
-[Click here](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html) for more information.
+[Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) for more information.
 
 >[!NOTE]
 >
@@ -98,29 +98,30 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 ### How to access Control Panel?
 
-The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. [Click here](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/accessing-control-panel.html) for more information.
+The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html) for more information.
 
 ### Control Panel FAQ
 
-[Click here](https://docs.adobe.com/content/hecontrol-panel/using/faq.html) to access Campaign Control Panel FAQ.
+[Click here](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) to access Campaign Control Panel FAQ.
 
 ### SFTP management
 
-In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://docs.adobe.com/content/hecontrol-panel/using/sftp-management/about-sftp-management.html) for more information.
+In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) for more information.
 
 ### Subdomains and certificates
 
-You can monitor your subdomains and their certificates. Learn more:
-* [Subdomain branding](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [Set up a new subdomain](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [Monitor SSL certificates](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html)
+You can monitor your subdomains and their certificates. Learn more in these pages:
+* [Subdomain branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+* [Set up a new subdomain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* [Monitor SSL certificates](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
 ### Instance settings
 
-Learn how to manage your Campaign Classic instances settings in the Control Panel. Learn more:
-* [IP on the allow list](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/ip-whitelisting-instance-access.html)
-* [URL permissions](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/url-permissions.html)
-* [Instance details](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/instance-details.html)
+Learn how to manage your Campaign Classic instances settings in the Control Panel. Learn more in these pages:
+* [Add IPs on the allow list](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html) to access your Campaign instance(s)
+* [Manage URL permissions](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+* [Access instance details](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
+* [Manage GPG keys for data encryption](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
 ## Request for help {#support}
 
@@ -135,7 +136,7 @@ Join Campaign Classic Community: search for answers in existing question or ask 
 ### Access Campaign Download Center
 
 As of June 2020, the Experience Cloud solution Software Distribution replaces the legacy Neolane Download Center and provides a more efficient experience to find and download your software, packages and tools. [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
-Learn more about the new Download Center [in this page](https://docs.adobe.com/content/heexperience-cloud/software-distribution/home.html).
+Learn more about the new Download Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
 ### Create a ticket or start a chat
 

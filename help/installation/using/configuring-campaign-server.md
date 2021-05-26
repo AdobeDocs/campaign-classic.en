@@ -20,7 +20,7 @@ For **hosted** deployments, server-side settings can be configured by Adobe only
 
 For more information, refer to these sections:
 
-* [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+* [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 * [Hosting models](../../installation/using/hosting-models.md)
 * [Campaign Classic On-premise & Hosted capability matrix](../../installation/using/capability-matrix.md)
 

@@ -56,7 +56,7 @@ As a hosted [!DNL Gold Standard] user, you will automatically benefit from the [
 ## Support and other useful links{#support}
 
 * [Help and Support](../../support.md)
-* [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
+* [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 * [Latest documentation updates](../../rn/using/documentation-updates.md)
 * [Deprecated and removed features](../../rn/using/deprecated-features.md)
 

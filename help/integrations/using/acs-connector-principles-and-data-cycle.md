@@ -78,7 +78,7 @@ Replicating delivery IDs and email logs allows to access the history of deliveri
 
 ACS Connector synchronizes quarantines between Campaign v7 and Campaign Standard.
 
-For example, a profile that has been replicated from Campaign v7 to Campaign Standard includes an email address. If the email address is quarantined by Campaign Standard, the data is passed to Campaign v7 during the next synchronization. For more information on quarantines, see [Quarantine management](../../delivery/using/understanding-quarantine-management.md) and [Campaign Standard Quarantines](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+For example, a profile that has been replicated from Campaign v7 to Campaign Standard includes an email address. If the email address is quarantined by Campaign Standard, the data is passed to Campaign v7 during the next synchronization. For more information on quarantines, see [Quarantine management](../../delivery/using/understanding-quarantine-management.md) and [Campaign Standard Quarantines](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
 ### Using replicated profiles {#using-replicated-profiles}
 

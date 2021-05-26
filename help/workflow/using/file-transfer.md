@@ -11,7 +11,7 @@ exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 # File transfer{#file-transfer}
 
 The **File transfer** activity lets you receive or send files, test for file presence, or list files on a server. The protocol used is either Amazon Simple Storage Service (S3), FTP or SFTP.
-With S3 or SFTP connection, you can also import segment data to Adobe Campaign with Adobe Real-time Customer Data platform. For more on this, refer to this [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+With S3 or SFTP connection, you can also import segment data to Adobe Campaign with Adobe Real-time Customer Data platform. For more on this, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
 >[!NOTE]
 >

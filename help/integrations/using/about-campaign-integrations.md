@@ -12,7 +12,7 @@ exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 
 Adobe Experience Cloud is a comprehensive set of best-in-class, integrated solutions built on a common data platform with a common set of powerful core services.
 
-Learn about functional integrations available between Adobe Campaign and [Adobe Experience Cloud solutions](https://docs.adobe.com/content/help/en/core-services/interface/marketing-cloud-integrations.html) and [core services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html). You can then modernize your solution implementations and implement the Experience Cloud so that you can use features like customer attributes and audiences.
+Learn about functional integrations available between Adobe Campaign and [Adobe Experience Cloud solutions](https://experienceleague.adobe.com/docs/core-services/interface/marketing-cloud-integrations.html) and [core services](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html). You can then modernize your solution implementations and implement the Experience Cloud so that you can use features like customer attributes and audiences.
 
    ![](assets/ExCloud-solutions.png)
 
@@ -27,17 +27,17 @@ The full list of Adobe solutions and core services which can be integrated with 
 
 Multiple solutions can be linked to Adobe Experience Cloud. The **organization** is the customer entity that enables an administrator to configure groups and users, and to control single sign-on (SSO) in Adobe Experience Cloud. The organization acts like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations.
 
-Organization management and linking Adobe Experience Cloud accounts are detailed in the [Adobe Experience Cloud help portal](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Organization management and linking Adobe Experience Cloud accounts are detailed in the [Adobe Experience Cloud help portal](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
 
 ## Identity and cookie management {#id-and-cookies}
 
-When installing Adobe Campaign or integrating an existing installation with Adobe Experience Cloud, the [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) is enabled. This service replaces the permanent cookie used first and foremost by Adobe Campaign for its tracking functionalities.
+When installing Adobe Campaign or integrating an existing installation with Adobe Experience Cloud, the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) is enabled. This service replaces the permanent cookie used first and foremost by Adobe Campaign for its tracking functionalities.
 
 The Adobe Experience Cloud Identity Service (ID service) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
 A unique visitor ID will be assigned to recipients generating tracking logs. This ID will be saved in the **[!UICONTROL Requester UUID (@sourceID)]** field of the **[!UICONTROL nms:trackingLogRcp]** table. **The tracking data of recipients who existed before the visitor ID service was implemented will therefore no longer be usable**.
 
-The ID will then be recognized by the other Adobe Experience Cloud solutions with the same [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
+The ID will then be recognized by the other Adobe Experience Cloud solutions with the same CNAME. [Learn more](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html)
 
 ## Experience Cloud integrations {#experience-cloud-integrations}
 
