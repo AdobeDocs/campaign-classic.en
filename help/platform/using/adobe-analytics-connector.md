@@ -12,7 +12,7 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 
 ## About Adobe Analytics Connector integration {#about-analytics-connector-integration}
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Adobe Analytics Connector is not compatible with Transactional messaging (Message Center).
 
