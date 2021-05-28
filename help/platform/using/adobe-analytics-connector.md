@@ -194,10 +194,6 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
 ### Technical workflows of web analytics processes {#technical-workflows-of-web-analytics-processes}
 
->[!IMPORTANT]
->
-> Only the **[!UICONTROL Sending of indicators and campaign attributes (webAnalyticsSendMetrics workflow)]** technical workflow is enabled on Adobe Campaign instances configured with Full FDA.
-
 Data exchange between Adobe Campaign and Adobe Analytics is handled by four technical workflows which run as a background task.
 
 They are available in the Adobe Campaign tree, under the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** folder.
