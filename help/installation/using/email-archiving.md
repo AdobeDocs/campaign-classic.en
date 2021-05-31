@@ -140,3 +140,23 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 
 * **Emails per connection**: BCC email archiving operates by opening a connection and trying to send all emails through that connection. Adobe recommends checking with your internal technical contact the number of emails that are accepted on a given connection. Increasing this number can have a great impact on BCC throughput.
 * **BCC sending IPs**: currently, BCC emails are not sent through the normal MTA proxies. Instead, a direct connection is open from the MTA server to the destination email server. This means that you may need to add additional IPs to the allowlist on your network, depending on your email server configuration.
+
+## Email BCC with the Enhanced MTA {#email-bcc-with-enhanced-mta}
+
+For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA which is more reliable and efficient with low latency.
+
+To activate this feature, you must contact your account executive to communicate the BCC email address to be used for archiving.
+
+If you were already using BCC email archiving, you can provide the same address as you were using before or use a new one. If you keep the same, you still have to contact your account executive to set it up for you.
+
+With Email BCC with Enhanced MTA, all sent deliveries are sent to the BCC email address. This feature is not activated at the delivery level. There is no need to select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery.
+
+>[!IMPORTANT]
+>
+>Once this feature is enabled, all deliveries are sent to the BCC email address. If you were already using BCC and if you keep the same address, you could see a significant increase in the volumes sent to the BCC address. Make sure the BCC address has enough reception capacity to archive all the emails that are sent.
+
+**Limitations**:
+
+* Customer must have required MTA infrastructure capacity to receive100% of their email volume delivered to a single address.
+
+* Momentum BCCs before sending email to end user which results in BCC message being sent even though the original may have bounced.
