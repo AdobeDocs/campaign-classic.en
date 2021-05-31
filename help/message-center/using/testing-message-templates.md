@@ -14,7 +14,7 @@ exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 
 A seed address lets you display a preview of your message, send a proof, and test message personalization before email or SMS delivery. Seed addresses are linked to the delivery and cannot be used for other deliveries.
 
-## Creating seed addresses {#creating-a-seed-address}
+To create seed addresses in a transactional message, follow the steps below:
 
 1. In the transactional message template, click the **[!UICONTROL Seed addresses]** tab.
 
@@ -32,7 +32,7 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
-1. Insert test data (refer to [Personalization data](../../message-center/using/personalization-data.md)).
+1. Insert test data (refer to [Personalization data](#personalization-data)).
 
    ![](assets/messagecenter_create_custo_001.png)
 
@@ -46,9 +46,9 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
    ![](assets/messagecenter_create_seedaddr_008.png)
 
-Once the addresses are created, you can display their preview and personalization. Refer to [Transactional message preview](../../message-center/using/transactional-message-preview.md).
+Once the addresses are created, you can display their preview and personalization. Refer to [Transactional message preview](#transactional-message-preview).
 
-## Personalization data{#personalization-data}
+## Personalization data {#personalization-data}
 
 It is possible to use data in the message template to test transactional message personalization. This functionality is used to generate a preview or send a proof. If you install the **Deliverability** module, this data allows you to display a rendering of the messages for various internet access providers (**Inbox rendering**: for more on this, refer to [this section](../../delivery/using/inbox-rendering.md)).
 
@@ -56,7 +56,7 @@ The purpose of this data is to test your messages before their final delivery. T
 
 ![](assets/messagecenter_create_custo_006.png)
 
-This information enables you to personalize message content using personalization tags (for more on this, refer to [Creating message content](../../message-center/using/creating-message-content.md)).
+This information enables you to personalize message content using personalization tags (for more on this, refer to [Creating the message content](../../message-center/using/creating-the-message-template.md#creating-message-content)).
 
 1. In the message template, click the **[!UICONTROL Seed addresses]** tab.
 1. In the event content, enter the test information in XML format.
@@ -85,7 +85,7 @@ You can test message delivery by sending a proof to a previously created seed ad
 
 Sending a proof involves the same process as for a regular delivery (for more on this, refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)). However, to send a proof within Message Center you need to carry out the following operations beforehand:
 
-* Create one or more seed addresses (refer to [Managing seed addresses in transactional messages](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)) with test data (refer to [Personalization data](../../message-center/using/personalization-data.md)).
+* Create one or more seed addresses (refer to [Managing seed addresses in transactional messages](#managing-seed-addresses-in-transactional-messages)) with test data (refer to [Personalization data](#personalization-data)).
 * Create the message content (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
 
 To send the proof:

@@ -46,7 +46,7 @@ Using seed addresses, you can also display the rendering of the message for vari
    >
    >An event type should never be linked to more than one template.
 
-1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
+1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body (refer to [Creating the message content](#creating-message-content)).
 
    ![](assets/messagecenter_create_model_004.png)
 

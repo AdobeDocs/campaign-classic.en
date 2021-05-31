@@ -44,7 +44,7 @@ Once a template is published, if the corresponding event is triggered, the execu
 
 ## Template unpublication {#template-unpublication}
 
-Once a message template is published on the execution instances, it can be unpublished. For more on the template publication process, see [this section](../../message-center/using/template-publication.md).
+Once a message template is published on the execution instances, it can be unpublished. For more on the template publication process, see [this section](#template-publication).
 
 * Indeed, a published template can still be called if the corresponding event is triggered: if you are no longer using a message template, it is recommended to unpublish it. This is to avoid sending an unwanted transactional message by mistake.
 

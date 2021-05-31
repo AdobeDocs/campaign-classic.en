@@ -17,7 +17,7 @@ To use the transactional messaging capabilities, you need to configure the contr
 
 >[!IMPORTANT]
 >
->Schema extensions impacted the resources used by [Message Center technical workflows](../../message-center/using/technical-workflows.md) on either control or execution instances need to be duplicated on the other instances used by the Transactional messaging module.
+>Schema extensions impacted the resources used by [Message Center technical workflows](../../message-center/using/additional-configurations.md#technical-workflows) on either control or execution instances need to be duplicated on the other instances used by the Transactional messaging module.
 
 You also need to specify and connect the execution instance(s) to the control instance(s).
 
@@ -29,7 +29,7 @@ All the steps needed to configure and connect the control and execution instance
 
 ## Configuring the control instance {#control-instance}
 
-To connect the control instance and the execution instances, you first need to create and configure an **[!UICONTROL Execution instance]** type external account **on the control instance**. Therefore, once [published](../../message-center/using/template-publication.md), transactional message templates can be deployed to the execution instances.
+To connect the control instance and the execution instances, you first need to create and configure an **[!UICONTROL Execution instance]** type external account **on the control instance**. Therefore, once [published](../../message-center/using/publishing-message-templates.md#template-publication), transactional message templates can be deployed to the execution instances.
 
 If you are using several execution instances, you must create as many external accounts as there are execution instances.
 

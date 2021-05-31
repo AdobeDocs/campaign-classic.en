@@ -38,7 +38,8 @@ The list of system indicators enables you to display information concerning the 
 
 #### Windows {#in-windows}
 
-* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/monitoring-thresholds.md) for more information.
+* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/additional-configurations.md#monitoring-thresholds) for more information.
+
 * **[!UICONTROL Memory]** : information concerning the physical memory (RAM).
 
   **[!UICONTROL Current value]** : actual memory consumption.
@@ -95,7 +96,8 @@ The list of system indicators enables you to display information concerning the 
 
 ![](assets/production_system_indicators_linux_001.png)
 
-* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/monitoring-thresholds.md) for more information.
+* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/additional-configurations.md#monitoring-thresholds) for more information.
+
 * **[!UICONTROL Load average (1/5/15 minutes)]** : information concerning the load, i.e. the use rate of the processer by the processes running on the machine over the last minute, five minutes, or fifteen minutes
 
   **[!UICONTROL Current value]** : actual load of the machine.
