@@ -74,7 +74,7 @@ Once unpublication is complete:
 
 * Both message templates (applied to batch and real-time type events) are deleted from each execution instance.
 
-    They no longer appear in the **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** folder (see [this section](../../message-center/using/template-publication.md)).
+    They no longer appear in the **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** folder (see [this section](#template-publication)).
 
 * Once a template is unpublished, you can delete it from the control instance.
 

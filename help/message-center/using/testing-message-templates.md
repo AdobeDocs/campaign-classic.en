@@ -86,7 +86,7 @@ You can test message delivery by sending a proof to a previously created seed ad
 Sending a proof involves the same process as for a regular delivery (for more on this, refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)). However, to send a proof within Message Center you need to carry out the following operations beforehand:
 
 * Create one or more seed addresses (refer to [Managing seed addresses in transactional messages](#managing-seed-addresses-in-transactional-messages)) with test data (refer to [Personalization data](#personalization-data)).
-* Create the message content (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
+* Create the message content (refer to [Creating message content](../../message-center/using/creating-the-message-template.md#creating-message-content)).
 
 To send the proof:
 
