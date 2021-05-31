@@ -194,7 +194,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 **Improvements**
 
-* Transactional messaging has been improved for a better user experience. You can now unpublish a transactional message template, which deletes it from the execution instances. [Learn more](../../message-center/using/template-unpublication.md).
+* Transactional messaging has been improved for a better user experience. You can now unpublish a transactional message template, which deletes it from the execution instances. [Learn more](../../message-center/using/publishing-message-templates.md#template-unpublication).
 
 * New options are available to set limitations when sending emails that include images or attachments. These guardrails can avoid performance issues, which is particularly useful with transactional messaging. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
 

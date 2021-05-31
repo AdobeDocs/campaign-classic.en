@@ -2,28 +2,45 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic transactional messaging architecture
-description: This section describes the Adobe Campaign Classic transactional messaging architecture.
+description: This section describes the Adobe Campaign Classic transactional messaging architecture and the available channels to deliver transactional messages.
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 ---
-# Transactional messaging architecture{#transactional-messaging-architecture}
+# Transactional messaging architecture {#transactional-messaging-architecture}
 
-## About execution and control instances {#about-execution-and-control-instances}
+Transactional messaging relies on a specific architecture, which is made up of several instances:
 
-In Adobe Campaign, transactional messaging capabilities (also known as Message Center) were designed to support scalability and provide a 24/7 service. It is made up of several instances:
+* A **control instance**, on which the message templates are created.
 
-* a control instance, which the message templates are created in,
-* one or more execution instances which receive events and deliver messages.
-
-To use these capabilities, Adobe Campaign users log on to the control instance to create transactional message templates, generate the message preview using a seed list, display reports and monitor execution instances.
-
-Execution instances receive events, link them to transactional message templates, and send a personalized message to each recipient.
+* One or more **execution instances**, which receive events and deliver messages.
 
 ![](assets/messagecenter_diagram.png)
 
-## Supporting several control instances {#supporting-several-control-instances}
+| Control instance | Execution instance |
+|--- |--- |
+| Adobe Campaign users log on to the control instance to: <ul><li>Create transactional message templates</li><li>Generate the message preview using a seed list</li><li>Display reports</li><li>Monitor the execution instances</li></ul> | Execution instances are here to: <ul><li>Receive events</li><li>Link them to transactional message templates</li><li>Send a personalized message to each recipient</li></ul> |
+
+## Installing instances {#installing-instances}
+
+There are several precautions to take when installing the Transactional message packages. Adobe recommends you to work in a test environment before putting into production. You also need to have a compatible Adobe Campaign license. For more information, please contact your Adobe account executive.
+
+>[!IMPORTANT]
+>
+>The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
+
+If you need to use several channels, you must install and configure related packages before installing Transactional message packages. For more on this, see [Adding a delivery channel](#adding-a-delivery-channel).
+
+## Control instance {#control-instance}
+
+To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
+
+![](assets/messagecenter_install_controlinstance_001.png)
+
+The detailed steps to configure the control instance are presented in [this section](../../message-center/using/creating-a-shared-connection.md#control-instance).
+
+### Supporting several control instances {#supporting-several-control-instances}
 
 >[!IMPORTANT]
 >
@@ -37,29 +54,25 @@ It is possible to share an execution cluster among several control instances. Fo
 >
 >For more on the necessary configuration, refer to [Using several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
 
-## Installing instances {#installing-instances}
+## Execution instance {#execution-instance}
 
-There are several precautions to take when installing the Transactional message packages. Adobe recommends you to work in a test environment before putting into production. You also need to have a compatible Adobe Campaign license. For more information, please contact your Adobe account executive.
+To install an execution instance on your machine, select the **[!UICONTROL Transactional message execution]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
+
+![](assets/messagecenter_install_executioninstance_001.png)
+
+The detailed steps to configure an execution instance are presented in [this section](../../message-center/using/creating-a-shared-connection.md#execution-instance).
+
+## Available delivery channels
+
+The email channel is available by default. To deliver your transactional messages on multiple channels, you can add other channels (mobile channel, Mobile App channel, etc.).
 
 >[!IMPORTANT]
 >
->The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
+>Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package.
 
-If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Adding a delivery channel](#adding-a-delivery-channel).
+### Adding a delivery channel {#adding-a-delivery-channel}
 
-* To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** module.
-
-  ![](assets/messagecenter_install_controlinstance_001.png)
-
-* To install the execution instance on your machine, select the **[!UICONTROL Transactional message execution]** module.
-
-  ![](assets/messagecenter_install_executioninstance_001.png)
-
-## Adding a delivery channel {#adding-a-delivery-channel}
-
-Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package.
-
-Adobe recommends you always add the delivery channel package before installing the Transactional message package.
+Adobe recommends you **always add the delivery channel package before installing the Transactional message package**.
 
 However, if you have started a transactional messaging project on the email channel, then decide during the project to add a new channel, you can follow the steps below.
 
@@ -108,7 +121,7 @@ Create your delivery templates the way you would for an email campaign:
 
 You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
 
-## Transactional messaging and push notifications {#transactional-messaging-and-push-notifications}
+### Transactional push notifications {#transactional-messaging-and-push-notifications}
 
 When combined with Mobile App channel module, transactional messaging enables you to push transactional messages through notifications on mobile devices.
 
@@ -155,7 +168,7 @@ Here is an example of an event that contains this information:
 >
 >The creation of message templates remains the same.
 
-## Transactional messaging and LINE {#transactional-messaging-and-line}
+### Transactional messaging and LINE {#transactional-messaging-and-line}
 
 Combined with LINE Channel, transactional messages allow you to send real time messages on the LINE app installed in consumer mobile devices. This is used to send the Welcome message when a LINE user adds the brand's page.
 
@@ -226,4 +239,4 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
     * Click the **[!UICONTROL Create the archiving workflow]** button.
     * Click the **[!UICONTROL Create data synchronization workflow]** button to create the LINE data sync workflow.
 
-1. You can now start creating transactional messages. For more on this, refer to this [page](../../message-center/using/introduction.md).
+1. You can now start creating transactional messages. For more on this, refer to this [page](../../message-center/using/creating-the-message-template.md).

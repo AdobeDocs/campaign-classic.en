@@ -20,7 +20,7 @@ There are three possible insertion modes:
 
 1. Entering single seed addresses.
 
-   To do this, click the **[!UICONTROL Add]** button and define the content of the address fields. Repeat for each address. For more on this, refer to [this section](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address).
+   To do this, click the **[!UICONTROL Add]** button and define the content of the address fields. Repeat for each address.
 
 1. Importing address templates and adapt them to suit your needs.
 
