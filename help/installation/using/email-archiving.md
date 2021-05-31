@@ -160,3 +160,5 @@ With Email BCC with Enhanced MTA, all sent deliveries are sent to the BCC email 
 * Customer must have required MTA infrastructure capacity to receive100% of their email volume delivered to a single address.
 
 * Momentum BCCs before sending email to end user which results in BCC message being sent even though the original may have bounced.
+
+* There is no reporting available for the delivery status of the BCC emails sent.
