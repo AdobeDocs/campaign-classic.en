@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 ---
-# Delivery execution{#delivery-execution}
+# Delivery execution {#delivery-execution}
 
 ## Transactional message sending {#transactional-message-send}
 
@@ -32,7 +32,7 @@ By default, they are sorted into sub-folders by delivery month. This sort can be
 
 ## Transactional message monitoring {#transactional-message-monitoring}
 
-To monitor your transactional messages, check the delivery logs. Accessing the delivery logs is presented in [this section](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+To monitor your transactional messages, check the [delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
 The transactional deliveries sent from the execution instance are synchronized back to the control instance through a technical workflow (**[!UICONTROL Message Center execution instance]**) that runs every hour.
  
@@ -66,3 +66,17 @@ Let's take a [delivery template](../../message-center/using/introduction.md) lab
 To summarize, the deliveries weekly accumulate the events based on the latest event update, and not on the event creation date.
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
+
+## Event statuses {#event-statuses}
+
+The **Event history**, under **[!UICONTROL Message Center]** > **[!UICONTROL Event history]** , groups all the processed events into one single view. They can be categorized by event type or by **status**. These statuses are:
+
+* **Pending**: The event can be:
+
+    * An event which has just been collected and which has not yet been processed. The **[!UICONTROL Number of errors]** column shows the value 0. The email template has not yet been linked.
+    * An event processed but whose confirmation is erroneous. The **[!UICONTROL Number of errors]** column shows a value that is not 0. To know when this event will be processed again, consult the **[!UICONTROL Process requested on]** column.
+
+* **Pending delivery**: The event was processed and the delivery template is linked. The email is pending delivery and the classic delivery process is applied. For more information, you can open the [delivery](../../delivery/using/about-message-tracking.md).
+* **Sent**, **Ignored** and **Delivery error**: These delivery statuses are recovered via the **updateEventsStatus** workflow. For more information, you can open the relevant delivery.
+* **Event not covered**: The transactional messaging routing phase failed. For example, Adobe Campaign did not find the email which acts as a template for the event.
+* **Event expired**: The maximum number of send tries was reached. The event is considered null.
