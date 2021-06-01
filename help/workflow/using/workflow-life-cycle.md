@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Workflow life cycle
 description: Learn more about the life cycle of a workflow

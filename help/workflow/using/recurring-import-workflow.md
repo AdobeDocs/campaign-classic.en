@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Setting up a recurring import
 description: Learn how to configure a workflow template for recurring imports.

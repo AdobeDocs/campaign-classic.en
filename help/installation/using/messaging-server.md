@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Messaging server
 description: Messaging server

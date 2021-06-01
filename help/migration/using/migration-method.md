@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Migration method
 description: Migration method

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Coordinating data updates
 description: Coordinating data updates

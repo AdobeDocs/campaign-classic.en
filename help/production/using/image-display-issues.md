@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Image display issues
 description: Image display issues

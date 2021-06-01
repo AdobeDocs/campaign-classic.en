@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Importing and exporting data using workflows
 description: Learn how to import and export data using workflows in Campaign Classic.

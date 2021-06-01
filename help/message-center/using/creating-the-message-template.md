@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Design transactional message templates
 description: Learn how to create and design a transactional message template in Adobe Campaign Classic.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic Documentation Updates
 description: This page lists all the new features and updates in Adobe Campaign Classic documentation

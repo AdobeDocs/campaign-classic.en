@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Before starting migration
 description: Before starting migration

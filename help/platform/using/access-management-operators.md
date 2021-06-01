@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with Campaign operators
 description: Learn how to create and manage campaign users

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: The server configuration file
 description: The server configuration file

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Editing forms
 description: Editing forms

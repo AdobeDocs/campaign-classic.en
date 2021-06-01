@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About Adobe Campaign Classic
 description: Discover key capabilities, user interface and global guidelines.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Teradata
 description: Learn how to configure access to Teradata in FDA

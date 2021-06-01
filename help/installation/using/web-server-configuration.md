@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Web-server configuration
 description: Learn more about web-server configuration main best practices.

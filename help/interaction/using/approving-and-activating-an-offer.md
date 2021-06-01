@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Approving and activating an offer
 description: Approving and activating an offer

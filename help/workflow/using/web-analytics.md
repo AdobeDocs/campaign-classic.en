@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Web Analytics
 description: Learn more about the Web Analytics package

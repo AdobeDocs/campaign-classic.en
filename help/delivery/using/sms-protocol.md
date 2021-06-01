@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SMS connector protocol and settings
 description: Learn more on the SMS connector and how to configure it.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Generic import samples
 description: Learn more about generic imports you can perform using import jobs.

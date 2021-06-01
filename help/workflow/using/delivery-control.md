@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Delivery control
 description: Learn more about the Delivery control workflow activity

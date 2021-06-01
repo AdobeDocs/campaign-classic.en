@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Pre-processing instructions for tracked URLs
 description: Learn more about pre-processing instructions to use to script the URL of an email and still have it tracked.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Supervising workflows
 description: Learn how to supervise Campaign workflows

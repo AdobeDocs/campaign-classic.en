@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Unsupported SMS connector migration
 description: Migrate unsupported SMS connector to the Extended Generic SMPP connector

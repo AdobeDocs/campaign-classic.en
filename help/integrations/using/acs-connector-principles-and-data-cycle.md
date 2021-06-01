@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ACS Connector principles and data cycle
 description: ACS Connector principles and data cycle

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About descriptive analysis
 description: About descriptive analysis

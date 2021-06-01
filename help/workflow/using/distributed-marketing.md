@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Distributed Marketing
 description: Learn more about the Distributed Marketing package

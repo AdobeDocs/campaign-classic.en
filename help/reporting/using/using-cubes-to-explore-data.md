@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Using cubes to explore data
 description: Using cubes to explore data

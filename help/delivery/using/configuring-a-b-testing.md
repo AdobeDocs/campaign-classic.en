@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring A/B testing
 description: Learn how to configure A/B testing in Campaign Classic.

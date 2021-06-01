@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Managing marketing resources
 description: Managing marketing resources

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Client console availability for Windows
 description: Client console availability for Windows

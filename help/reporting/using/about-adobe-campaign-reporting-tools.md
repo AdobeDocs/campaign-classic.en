@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About Adobe Campaign reporting tools
 description: Analyze the success of your campaigns in build-in or customized reports.

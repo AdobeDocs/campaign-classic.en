@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Rollback to the previous version
 description: Learn how to rollback to the previous version

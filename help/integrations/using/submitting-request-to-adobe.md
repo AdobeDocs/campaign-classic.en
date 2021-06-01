@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Submitting request to Adobe
 description: Submitting request to Adobe

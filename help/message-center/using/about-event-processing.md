@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Event processing
 description: Learn how the transactional messaging events are processed in Adobe Campaign Classic.

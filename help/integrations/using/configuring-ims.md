@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring IMS
 description: Learn how to connect via an Adobe ID

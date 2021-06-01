@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating a filter
 description: Learn how to create a filter when performing queries

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Message Center service level
 description: Learn more on the Message Center service level report.

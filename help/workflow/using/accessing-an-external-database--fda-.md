@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Accessing an external database (FDA)
 description: Accessing an external database (FDA)

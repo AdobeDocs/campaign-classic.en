@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About custom recipient table
 description: About custom recipient table

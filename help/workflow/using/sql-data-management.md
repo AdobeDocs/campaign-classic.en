@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SQL Data Management
 description: Learn more about SQL Data Management workflow activity

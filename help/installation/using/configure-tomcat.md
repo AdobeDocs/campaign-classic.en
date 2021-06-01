@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign Tomcat configuration
 description: Campaign Tomcat configuration

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating a collaborative campaign
 description: Creating a collaborative campaign

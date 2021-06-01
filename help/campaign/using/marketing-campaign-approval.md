@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Approving Marketing Campaigns
 description: Learn how to manage approvals of marketing campaigns

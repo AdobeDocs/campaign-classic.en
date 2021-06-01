@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: "Use case: creating content management"
 description: "Use case: creating content management"

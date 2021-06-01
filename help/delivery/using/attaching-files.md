@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Attaching files
 description: Attaching files

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: New field wizard
 description: New field wizard

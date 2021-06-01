@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring Campaign options
 description: Learn how to configure Campaign options

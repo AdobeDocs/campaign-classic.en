@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About inbound channels
 description: About inbound channels

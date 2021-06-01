@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adding an Enumeration type calculated field
 description: Learn how to add an Enumeration type calculated field

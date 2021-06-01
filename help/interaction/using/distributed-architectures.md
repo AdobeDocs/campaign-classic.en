@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Distributed architectures
 description: Distributed architectures

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Examples of Facebook apps
 description: Examples of Facebook apps

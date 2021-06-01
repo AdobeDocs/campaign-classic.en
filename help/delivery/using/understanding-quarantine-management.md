@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Understanding quarantine management
 description: Understanding quarantine management

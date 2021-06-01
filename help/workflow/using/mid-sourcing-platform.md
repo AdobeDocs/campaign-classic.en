@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Mid-sourcing platform
 description: Mid-sourcing platform

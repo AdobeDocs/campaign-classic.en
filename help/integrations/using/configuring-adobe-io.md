@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring Adobe I/O for Adobe Experience Cloud Triggers
 description: Learn how to configure Adobe I/O for Adobe Experience Cloud Triggers

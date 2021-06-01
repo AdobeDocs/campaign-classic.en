@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About targeting activities
 description: About targeting activities

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Testing tracking
 description: Testing tracking

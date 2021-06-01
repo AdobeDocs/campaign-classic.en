@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Offer proposition history
 description: Offer proposition history

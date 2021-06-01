@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Operating principle
 description: Operating principle

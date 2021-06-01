@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Data model best practices
 description: Learn how to work with Campaign Classic data model

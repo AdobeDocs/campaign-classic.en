@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Use case
 description: Use case

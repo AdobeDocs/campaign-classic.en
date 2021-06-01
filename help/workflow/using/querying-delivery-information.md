@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Querying delivery information
 description: Learn how to query delivery information

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About Campaign built-in reports
 description: About Campaign built-in reports

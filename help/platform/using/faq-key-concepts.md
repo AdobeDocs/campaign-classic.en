@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Key concepts
 description: Campaign Classic FAQ

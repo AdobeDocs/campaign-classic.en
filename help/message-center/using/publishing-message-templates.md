@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Publish message templates 
 description: Learn about transactional message template publication and unpublication in Adobe Campaign Classic.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Data oriented APIs
 description: Data oriented APIs

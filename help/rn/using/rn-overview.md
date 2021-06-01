@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with upgrades
 description: Learn more about Campaign Classic upgrades

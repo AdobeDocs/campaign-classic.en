@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Query
 description: Learn more about the Query workflow activity

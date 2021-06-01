@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Interaction - Data buffer
 description: Interaction - Data buffer

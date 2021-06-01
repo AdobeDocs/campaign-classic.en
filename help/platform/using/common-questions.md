@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Common questions
 description: Adobe Campaign Classic FAQ

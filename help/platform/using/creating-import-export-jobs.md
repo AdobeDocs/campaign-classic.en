@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating import and export jobs
 description: Learn how to create import and export jobs in Campaign Classic.

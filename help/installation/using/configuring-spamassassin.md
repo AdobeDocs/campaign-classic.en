@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring SpamAssassin
 description: Configuring SpamAssassin

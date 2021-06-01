@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with personalization
 description: Learn how to personalize messages and use conditional content in Campaign

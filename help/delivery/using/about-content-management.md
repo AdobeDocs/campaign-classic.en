@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About content management
 description: About content management

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with permissions
 description: Learn how to grant access to Campaign capabilities

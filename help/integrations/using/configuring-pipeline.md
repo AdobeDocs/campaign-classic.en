@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring the pipeline
 description: Learn how to configure the pipeline

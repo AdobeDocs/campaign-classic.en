@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Ingest Adobe Experience Platform segments into Campaign
 description: Learn how to ingest Adobe Experience Platform audiences into Campaign Classic.

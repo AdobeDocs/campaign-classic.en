@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Inserting a dynamic image
 description: Inserting a dynamic image

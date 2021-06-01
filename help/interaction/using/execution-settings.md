@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Execution settings
 description: Execution settings

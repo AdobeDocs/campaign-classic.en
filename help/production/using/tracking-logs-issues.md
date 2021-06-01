@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Tracking logs issues
 description: Tracking logs issues
