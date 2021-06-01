@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SOAP methods in JavaScript
 description: SOAP methods in JavaScript

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Content editing best practices
 description: Content editing best practices

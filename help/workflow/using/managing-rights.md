@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Manage workflow permissions
 description: Learn how to manage workflow permissions

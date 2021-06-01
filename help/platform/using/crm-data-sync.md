@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: CRM Connectors data synchronization
 description: Manage data between Campaign and your CRM

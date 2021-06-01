@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Uninstalling Campaign
 description: Learn how to uninstall Campaign

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Recommending a category
 description: Recommending a category

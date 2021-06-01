@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with build upgrades
 description: Learn key steps to upgrade to a new build

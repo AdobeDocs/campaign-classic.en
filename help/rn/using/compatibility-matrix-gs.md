@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Compatibility matrix for Campaign [!DNL Gold Standard]
 description: Campaign Classic Compatibility matrix for [!DNL Gold Standard] release

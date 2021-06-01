@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sharing assets with Adobe Experience Cloud
 description: Sharing assets with Adobe Experience Cloud

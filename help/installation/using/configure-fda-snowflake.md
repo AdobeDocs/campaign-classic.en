@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Snowflake
 description: Learn how to configure access to Snowflake in FDA

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Specific configurations in v5.11
 description: Specific configurations in v5.11

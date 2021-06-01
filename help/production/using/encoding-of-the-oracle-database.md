@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Encoding of the Oracle database
 description: Encoding of the Oracle database

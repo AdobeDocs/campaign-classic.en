@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Release 19.2
 description: Release notes for Campaign 19.2

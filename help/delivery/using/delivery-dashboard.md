@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Delivery dashboard
 description: Learn more about how to use the delivery dashboard to monitor your deliveries.

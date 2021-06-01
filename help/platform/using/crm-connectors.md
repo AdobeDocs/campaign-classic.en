@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: CRM Connectors
 description: Get started with CRM Connectors in Campaign

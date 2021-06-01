@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Content editor interface
 description: Content editor interface

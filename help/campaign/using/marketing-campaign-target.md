@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Marketing campaign target audience
 description: Learn how to define the audience of your marketing campaigns

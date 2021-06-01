@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About initial configuration
 description: About initial configuration

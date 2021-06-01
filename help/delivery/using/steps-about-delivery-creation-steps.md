@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About deliveries creation steps in Adobe Campaign Classic
 description: Discover the main delivery creation steps in Adobe Campaign Classic.

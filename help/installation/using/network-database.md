@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Network, database and SSL/TLS
 description: Learn more about network, database, and SSL/TLS configuration best practices.

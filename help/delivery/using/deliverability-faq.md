@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Key points when managing deliverability in Adobe Campaign Classic
 description: What are the key points to check when managing deliverability in Adobe Campaign Classic?

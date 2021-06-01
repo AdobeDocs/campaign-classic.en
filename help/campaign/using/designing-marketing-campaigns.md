@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Design and execute marketing campaigns
 description: Define, optimize, execute and analyse marketing campaigns.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign Classic deprecated and removed features
 description: This page lists deprecated and removed features of Adobe Campaign Classic

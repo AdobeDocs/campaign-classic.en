@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Applying rules
 description: Applying rules

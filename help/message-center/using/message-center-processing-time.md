@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Message Center processing time
 description: Learn more on the Message Center processing time report.

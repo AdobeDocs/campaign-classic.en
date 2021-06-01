@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with transactional messaging
 description: Learn more on the Adobe Campaign Classic transactional messaging operating principle and key steps. 

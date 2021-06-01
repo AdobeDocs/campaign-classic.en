@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Exclusion
 description: Learn more about the Exclusion workflow activity

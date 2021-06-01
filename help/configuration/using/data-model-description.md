@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic data model description
 description: This document describes the Adobe Campaign data model.

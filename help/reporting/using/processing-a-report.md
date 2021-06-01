@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Processing a report
 description: Processing a report

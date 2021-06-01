@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Monitoring deliverability in Adobe Campaign Classic
 description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign Classic.

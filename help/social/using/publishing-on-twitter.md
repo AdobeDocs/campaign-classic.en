@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Publishing on Twitter
 description: Publishing on Twitter

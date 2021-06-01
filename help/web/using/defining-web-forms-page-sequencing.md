@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining web forms page sequencing
 description: Defining web forms page sequencing

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Send transactional emails with attachments
 description: Learn how to send transactional emails with individual and/or personalized attachments using Adobe Campaign Classic.

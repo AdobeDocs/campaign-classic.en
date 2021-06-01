@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: "Web tracking tag: definition"
 description: "Web tracking tag: definition"

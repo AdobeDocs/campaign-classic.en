@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Using the descriptive analysis wizard
 description: Using the descriptive analysis wizard

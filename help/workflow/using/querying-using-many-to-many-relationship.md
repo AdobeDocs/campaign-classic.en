@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Querying using a many-to-many relationship
 description: Learn how to perform queries using a many-to-many relationship

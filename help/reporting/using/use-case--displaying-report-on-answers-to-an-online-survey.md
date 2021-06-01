@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: "Use case: displaying report on answers to an online survey"
 description: "Use case: displaying report on answers to an online survey"

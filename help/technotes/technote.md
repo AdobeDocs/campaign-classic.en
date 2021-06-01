@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Technote
 description: Technote

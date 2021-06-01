@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Control of offer engine
 description: Control of offer engine

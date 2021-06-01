@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Extension example
 description: Extension example

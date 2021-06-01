@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Upgrading to a new build
 description: Learn technical steps to upgrade to a new build

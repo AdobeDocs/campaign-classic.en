@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Permissions for accessing an external database
 description: External database access permissions

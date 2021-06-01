@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About workflow use cases
 description: Learn more on use cases that you can perform using Campaign Classic workflows.

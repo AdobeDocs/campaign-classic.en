@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Publishing on Facebook walls
 description: Publishing on Facebook walls

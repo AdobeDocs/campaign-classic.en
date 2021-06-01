@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Loading (SOAP)
 description: Loading (SOAP)

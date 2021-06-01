@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure FDA connectors
 description: Learn configuration steps for FDA

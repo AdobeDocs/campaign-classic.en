@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Web application tracking opt-out
 description: Web application tracking opt-out

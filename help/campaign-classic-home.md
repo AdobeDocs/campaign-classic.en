@@ -1,6 +1,5 @@
 ---
 keywords: Campaign Classic;home;popular topics
-solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic v7 product documentation
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157

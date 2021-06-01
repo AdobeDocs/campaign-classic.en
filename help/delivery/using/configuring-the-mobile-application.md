@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring the iOS mobile application in Adobe Campaign
 description: Learn how to set up your mobile application for iOS

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining approvals
 description: Approvals enable operators to make decisions governing a workflow or to confirm its continued execution

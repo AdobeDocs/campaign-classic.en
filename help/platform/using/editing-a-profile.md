@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Editing a profile
 description: Editing a profile

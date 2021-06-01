@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Standard deployment
 description: Standard deployment

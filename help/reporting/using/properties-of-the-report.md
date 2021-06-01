@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Properties of the report
 description: Learn more about the report properties settings

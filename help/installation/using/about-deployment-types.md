@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About deployment types
 description: About deployment types

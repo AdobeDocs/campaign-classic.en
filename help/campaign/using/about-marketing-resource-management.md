@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About marketing resource management
 description: About marketing resource management

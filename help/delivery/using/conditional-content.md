@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Conditional content
 description: Conditional content

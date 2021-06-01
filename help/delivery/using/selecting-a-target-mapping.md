@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Selecting a target mapping
 description: Selecting a target mapping

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Extending a schema
 description: Learn how to extend a schema

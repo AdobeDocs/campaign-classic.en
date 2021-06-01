@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating an instance and logging on
 description: Creating an instance and logging on

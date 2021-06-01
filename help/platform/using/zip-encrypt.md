@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Zipping or encrypting a file
 description: Learn how to zip or crypt a file in Campaign Classic before processing.

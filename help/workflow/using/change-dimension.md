@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Change dimension
 description: Change dimension

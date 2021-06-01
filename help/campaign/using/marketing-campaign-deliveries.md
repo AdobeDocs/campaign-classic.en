@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Marketing campaign deliveries
 description: Learn more about marketing campaign deliveries

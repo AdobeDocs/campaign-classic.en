@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Designing a survey
 description: Designing a survey

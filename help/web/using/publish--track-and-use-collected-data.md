@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Publish, track and use collected data
 description: Publish, track and use collected data

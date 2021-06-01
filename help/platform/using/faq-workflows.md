@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Workflows FAQ
 description: Campaign Classic FAQ

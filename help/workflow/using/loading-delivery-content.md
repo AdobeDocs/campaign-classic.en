@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Loading delivery content
 description: Loading delivery content

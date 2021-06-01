@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Translating a web form
 description: Translating a web form

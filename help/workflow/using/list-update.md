@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: List update
 description: List update

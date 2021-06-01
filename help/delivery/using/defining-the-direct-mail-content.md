@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining the direct mail content
 description: Defining the direct mail content

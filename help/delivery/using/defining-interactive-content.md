@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining interactive content in Adobe Campaign Classic
 description: Learn how to define interactive and dynamic email content with AMP in Adobe Campaign Classic.

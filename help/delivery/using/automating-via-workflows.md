@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Automating via workflows
 description: Automating via workflows

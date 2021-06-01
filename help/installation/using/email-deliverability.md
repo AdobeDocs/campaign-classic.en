@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Technical email configuration
 description: Learn how to configure Campaign to control the output of your instances when delivering emails.

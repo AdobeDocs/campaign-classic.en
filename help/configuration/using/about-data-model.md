@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with Campaign Classic data model
 description: Learn how to extend Campaign data model, edit schemas, use APIs, and more

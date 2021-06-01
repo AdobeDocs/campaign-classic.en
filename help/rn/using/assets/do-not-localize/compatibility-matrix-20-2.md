@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Compatibility matrix
 description: Compatibility matrix

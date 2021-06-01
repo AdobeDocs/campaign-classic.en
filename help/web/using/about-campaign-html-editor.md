@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with Campaign HTML editor
 description: Get started with Campaign DCE

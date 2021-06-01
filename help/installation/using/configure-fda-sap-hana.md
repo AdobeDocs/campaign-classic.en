@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to SAP HANA
 description: Learn how to configure access to SAP HANA in FDA

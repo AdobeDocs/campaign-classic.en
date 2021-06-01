@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Edit schema
 description: Learn more about the Edit schema workflow activity

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Advanced parameters
 description: Advanced parameters

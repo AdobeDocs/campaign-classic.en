@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Examples of schemas edition
 description: Examples of schemas edition

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Delivery execution
 description: Learn more about transactional messages delivery execution and monitoring.

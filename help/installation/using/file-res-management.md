@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: File and resource management
 description: Learn how to configure file and resource management in Campaign
