@@ -582,8 +582,7 @@ type: Documentation
        + [History of Message Center events](message-center/using/history-of-message-center-events.md)
        + [Message Center service level](message-center/using/message-center-service-level.md)
        + [Message Center processing time](message-center/using/message-center-processing-time.md)
-  + Use case {#use-case}
-       + [Send transactional emails with attachments](message-center/using/transactional-email-with-attachments.md)
+  + [Use case](message-center/using/transactional-email-with-attachments.md)
 + Integrate with social media {#integrating-with-social-media}
   + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
