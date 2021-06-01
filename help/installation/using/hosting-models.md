@@ -24,7 +24,7 @@ Adobe Campaign can be deployed as a Managed Service: all components of Adobe Cam
 
 As a hosted customer, most of the installation and configuration steps are performed by Adobe. You can access the following sections to customize your implementation:
 
-* Configure tracking and mirror page URLs per brand. For transactional messages, refer [to this section](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
+* Configure tracking and mirror page URLs per brand. For transactional messages, refer [to this section](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Install the client console: refer [to this section](../../installation/using/installing-the-client-console.md).
 * Learn more on the deliverability tools and best practices by reading the [detailed documentation](../../delivery/using/about-deliverability.md).
 * Configure Campaign options: refer [to this section](../../installation/using/configuring-campaign-options.md).
@@ -55,7 +55,7 @@ When deployed as a hybrid model, the Adobe Campaign solution software resides on
 As a hybrid customer, most of the installation and configuration steps are performed by Adobe. You can access the following sections to customize your implementation:
 
 * Configure transactional messages: refer [to this section](../../message-center/using/transactional-messaging-architecture.md).
-* Configure tracking and mirror page URLs per brand. For transactional messages, refer [to this section](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
+* Configure tracking and mirror page URLs per brand. For transactional messages, refer [to this section](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Install the client console: refer [to this section](../../installation/using/installing-the-client-console.md).
 * Install built-in packages: refer [to this section](../../installation/using/installing-campaign-standard-packages.md).
 * Deliverability: configure [MX rules](../../installation/using/email-deliverability.md#mx-configuration) and [email formats](../../installation/using/email-deliverability.md#managing-email-formats). Learn more on the deliverability tools and best practices by reading the [detailed documentation](../../delivery/using/about-deliverability.md).

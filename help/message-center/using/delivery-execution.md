@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Delivery execution
-description: Delivery execution
+description: Learn more about transactional messages delivery execution and monitoring.
 audience: message-center
 content-type: reference
 topic-tags: event-processing
@@ -67,16 +67,4 @@ To summarize, the deliveries weekly accumulate the events based on the latest ev
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
 
-## Event statuses {#event-statuses}
-
-The **Event history**, under **[!UICONTROL Message Center]** > **[!UICONTROL Event history]** , groups all the processed events into one single view. They can be categorized by event type or by **status**. These statuses are:
-
-* **Pending**: The event can be:
-
-    * An event which has just been collected and which has not yet been processed. The **[!UICONTROL Number of errors]** column shows the value 0. The email template has not yet been linked.
-    * An event processed but whose confirmation is erroneous. The **[!UICONTROL Number of errors]** column shows a value that is not 0. To know when this event will be processed again, consult the **[!UICONTROL Process requested on]** column.
-
-* **Pending delivery**: The event was processed and the delivery template is linked. The email is pending delivery and the classic delivery process is applied. For more information, you can open the [delivery](../../delivery/using/about-message-tracking.md).
-* **Sent**, **Ignored** and **Delivery error**: These delivery statuses are recovered via the **updateEventsStatus** workflow. For more information, you can open the relevant delivery.
-* **Event not covered**: The transactional messaging routing phase failed. For example, Adobe Campaign did not find the email which acts as a template for the event.
-* **Event expired**: The maximum number of send tries was reached. The event is considered null.
+To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md).

@@ -1,16 +1,18 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creating event types
-description: Learn how to create event types that will match the transactional messages you want to send.
+title: Create event types
+description: Learn how to create event types that will match the transactional messages you want to send in Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
 ---
-# Creating event types {#creating-event-types}
+# Create event types {#creating-event-types}
 
-To make sure each event can be changed into a personalized message, you first need to create event types. When creating a message template, you will select the type of event that matches the message you want to send.
+To make sure each event can be changed into a personalized message, you first need to create **event types**.
+
+When [creating a message template](../../message-center/using/creating-the-message-template.md), you will select the type of event that matches the message you want to send.
 
 >[!IMPORTANT]
 >

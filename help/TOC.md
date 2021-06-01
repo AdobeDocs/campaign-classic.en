@@ -565,26 +565,26 @@ type: Documentation
        + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
 + Transactional Messaging {#transactional-messaging}
   + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
-  + Transactional messaging configuration {#transactional-messaging-configuration}
+  + Configure transactional messaging {#configure-transactional-messaging}
        + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
-       + [Configuring instances](message-center/using/creating-a-shared-connection.md)
+       + [Configure instances](message-center/using/configuring-instances.md)
        + [Additional configurations](message-center/using/additional-configurations.md)
   + Message templates {#message-templates}
-       + [Creating event types](message-center/using/creating-event-types.md)
-       + [Designing message templates](message-center/using/creating-the-message-template.md)
-       + [Testing message templates](message-center/using/testing-message-templates.md)
-       + [Publishing message templates](message-center/using/publishing-message-templates.md)
-  + Processing {#processing}
+       + [Create event types](message-center/using/creating-event-types.md)
+       + [Design message templates](message-center/using/creating-the-message-template.md)
+       + [Test message templates](message-center/using/testing-message-templates.md)
+       + [Publish message templates](message-center/using/publishing-message-templates.md)
+  + Transactional event processing {#processing}
        + [Event description](message-center/using/event-description.md)
        + [Event processing](message-center/using/about-event-processing.md)
        + [Delivery execution](message-center/using/delivery-execution.md)
   + Reports {#reports}
-       + [About transactional messaging reports](message-center/using/about-transactional-messaging-reports.md)
+       + [Access transactional messaging reports](message-center/using/about-transactional-messaging-reports.md)
        + [History of Message Center events](message-center/using/history-of-message-center-events.md)
        + [Message Center service level](message-center/using/message-center-service-level.md)
        + [Message Center processing time](message-center/using/message-center-processing-time.md)
   + Use case {#use-case}
-       + [Sending transactional emails with attachments](message-center/using/transactional-email-with-attachments.md)
+       + [Send transactional emails with attachments](message-center/using/transactional-email-with-attachments.md)
 + Integrate with social media {#integrating-with-social-media}
   + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Campaign Classic transactional messaging architecture
+title: Transactional messaging architecture
 description: This section describes the Adobe Campaign Classic transactional messaging architecture and the available channels to deliver transactional messages.
 audience: message-center
 content-type: reference
@@ -38,7 +38,7 @@ To install the control instance on your machine, select the **[!UICONTROL Transa
 
 ![](assets/messagecenter_install_controlinstance_001.png)
 
-The detailed steps to configure the control instance are presented in [this section](../../message-center/using/creating-a-shared-connection.md#control-instance).
+The detailed steps to configure the control instance are presented in [this section](../../message-center/using/configuring-instances.md#control-instance).
 
 ### Supporting several control instances {#supporting-several-control-instances}
 
@@ -52,7 +52,7 @@ It is possible to share an execution cluster among several control instances. Fo
 
 >[!NOTE]
 >
->For more on the necessary configuration, refer to [Using several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
+>For more on the necessary configuration, refer to [Using several control instances](../../message-center/using/configuring-instances.md#using-several-control-instances).
 
 ## Execution instance {#execution-instance}
 
@@ -60,7 +60,7 @@ To install an execution instance on your machine, select the **[!UICONTROL Trans
 
 ![](assets/messagecenter_install_executioninstance_001.png)
 
-The detailed steps to configure an execution instance are presented in [this section](../../message-center/using/creating-a-shared-connection.md#execution-instance).
+The detailed steps to configure an execution instance are presented in [this section](../../message-center/using/configuring-instances.md#execution-instance).
 
 ## Available delivery channels
 
