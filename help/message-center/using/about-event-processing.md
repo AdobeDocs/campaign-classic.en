@@ -17,6 +17,7 @@ This event contains data linked to the event, such as its [type](../../message-c
 Example of event data:
 
 ![](assets/messagecenter_events_request_001.png)
+
 ## Event processing steps {#event-processing}
 
 To process transactional messaging events, the following steps are applied on the execution instance(s):
