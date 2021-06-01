@@ -2,13 +2,13 @@
 solution: Campaign Classic
 product: campaign
 title: Delivery execution
-description: Delivery execution
+description: Learn more about transactional messages delivery execution and monitoring.
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 ---
-# Delivery execution{#delivery-execution}
+# Delivery execution {#delivery-execution}
 
 ## Transactional message sending {#transactional-message-send}
 
@@ -32,7 +32,7 @@ By default, they are sorted into sub-folders by delivery month. This sort can be
 
 ## Transactional message monitoring {#transactional-message-monitoring}
 
-To monitor your transactional messages, check the delivery logs. Accessing the delivery logs is presented in [this section](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+To monitor your transactional messages, check the [delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
 The transactional deliveries sent from the execution instance are synchronized back to the control instance through a technical workflow (**[!UICONTROL Message Center execution instance]**) that runs every hour.
  
@@ -66,3 +66,5 @@ Let's take a [delivery template](../../message-center/using/introduction.md) lab
 To summarize, the deliveries weekly accumulate the events based on the latest event update, and not on the event creation date.
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
+
+To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md).

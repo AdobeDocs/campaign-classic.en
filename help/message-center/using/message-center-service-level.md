@@ -2,19 +2,23 @@
 solution: Campaign Classic
 product: campaign
 title: Message Center service level
-description: Message Center service level
+description: Learn more on the Message Center service level report.
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 ---
-# Message Center service level{#message-center-service-level}
+# Message Center service level {#message-center-service-level}
 
-This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details. This report, aimed at technical administrators, can also be accessed via the **[!UICONTROL Monitoring]** tab in the control instance.
+This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details.
+
+This report, aimed at technical administrators, can also be accessed via the **[!UICONTROL Monitoring]** tab on the control instance.
 
 ![](assets/mc_reports_1.png)
 
-In this report, you can choose to display the overall statistics or those relative to a particular execution instance. You can also filter the data by channel and over a specific period. The indicators displayed in the **[!UICONTROL Indicators over the period]** section are calculated over the period selected:
+In this report, you can choose to display the overall statistics or those relative to a particular execution instance. You can also filter the data by channel and over a specific period.
+
+The indicators displayed in the **[!UICONTROL Indicators over the period]** section are calculated over the period selected:
 
 * **[!UICONTROL Incoming (throughput event/h)]** : average hourly number of events entered in the Message Center queue.
 * **[!UICONTROL Incoming (event vol)]** : number of events entered in the Message Center queue.
@@ -25,4 +29,4 @@ In this report, you can choose to display the overall statistics or those relati
 
 >[!NOTE]
 >
->The warning (orange) and alert (red) indicator thresholds can be configured in the deployment wizard. Refer to [Monitoring thresholds](../../message-center/using/monitoring-thresholds.md).
+>The warning (orange) and alert (red) indicator thresholds can be configured in the deployment wizard. Refer to [Monitoring thresholds](../../message-center/using/additional-configurations.md#monitoring-thresholds).

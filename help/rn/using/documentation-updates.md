@@ -107,7 +107,7 @@ A use case has been added on how to use the **[!UICONTROL Deduplication]** activ
 
 The complete description of SMS connector protocol and settings page is now available [here](../../delivery/using/sms-protocol.md).
 
-A note has been added to the **Transactional messaging** section to warn that the event folders must not be set as views on the execution instances, to avoid access right issues. [Read more](../../message-center/using/event-collection.md)
+A note has been added to the **Transactional messaging** section to warn that the event folders must not be set as views on the execution instances, to avoid access right issues. [Read more](../../message-center/using/about-event-processing.md#event-collection)
 
 ## November 2020 {#nov-2020}
 
@@ -253,7 +253,7 @@ Thailand and Brazil Privacy Laws - [Read more](https://helpx.adobe.com/campaign/
 
 **Other documentation updates coming with the release**
 
-The new option enabling to unpublish a transactional message template is documented in [this section](../../message-center/using/template-unpublication.md).
+The new option enabling to unpublish a transactional message template is documented in [this section](../../message-center/using/publishing-message-templates.md#template-unpublication).
 
 The new options allowing to set limitations when sending emails that include images downloaded from a personalized URL and attachments have been added to the list of Campaign Classic options. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -513,7 +513,7 @@ The Sub-workflow activity section has been enhanced with an example of usage. [R
 
 The [Campaign Classic On-premise & Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
 
-The Transactional Messaging documentation has been updated with a note regarding template publication. [Read more](../../message-center/using/template-publication.md)
+The Transactional Messaging documentation has been updated with a note regarding template publication. [Read more](../../message-center/using/publishing-message-templates.md#template-publication)
 
 The Unprocessed bounce mails section has been updated with more details on the Forwarding address and Address for errors fields. [Read more](../../installation/using/deploying-an-instance.md)
 
