@@ -1,20 +1,20 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Template publication
-description: Transactional message template publication
+title: Publish message templates 
+description: Learn about transactional message template publication and unpublication in Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 ---
-# Publishing template messages {#publishing-template-messages}
+# Publish message templates {#publishing-template-messages}
 
 ## Template publication {#template-publication}
 
-When the message template created on the control instance is complete, you can publish it. This process will also publish it on all execution instances.
+When the [message template](../../message-center/using/creating-the-message-template.md) created on the control instance is complete and once you have [tested](../../message-center/using/testing-message-templates.md) it, you can publish it. This process will also publish it on all execution instances.
 
-Publication lets you automatically create two message templates on the execution instances, which will allow you to send messages linked to real-time and batch events.
+Publication lets you automatically create **two message templates** on the execution instances, which will allow you to send messages linked to **real-time events** and **batch events**.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Once publication is complete, both message templates to be applied to batch and 
 
 ![](assets/messagecenter_deployed_model_001.png)
 
-Once a template is published, if the corresponding event is triggered, the execution instance will receive the event, link it to the transactional template and send the corresponding transactional message to each recipient.
+Once a template is published, if the corresponding event is triggered, the execution instance will receive the event, link it to the transactional template and send the corresponding transactional message to each recipient. For more on this, see [Event processing](../../message-center/using/about-event-processing.md).
 
 >[!NOTE]
 >

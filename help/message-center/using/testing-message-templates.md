@@ -1,14 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Managing seed addresses in transactional messages
-description: Managing seed addresses in transactional messages
+title: Test transactional message templatess
+description: Learn how to manage seed addresses in transactional messages in order to preview and test them in Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 ---
-# Testing message templatess {#testing-message-templates}
+# Test transactional message templates {#testing-message-templates}
+
+Once your [message template](../../message-center/using/creating-the-message-template.md) is ready, follow the steps below to preview and test it.
 
 ## Managing seed addresses in transactional messages {#managing-seed-addresses-in-transactional-messages}
 
@@ -50,18 +52,23 @@ Once the addresses are created, you can display their preview and personalizatio
 
 ## Personalization data {#personalization-data}
 
-It is possible to use data in the message template to test transactional message personalization. This functionality is used to generate a preview or send a proof. If you install the **Deliverability** module, this data allows you to display a rendering of the messages for various internet access providers (**Inbox rendering**: for more on this, refer to [this section](../../delivery/using/inbox-rendering.md)).
+It is possible to use data in the message template to test transactional message personalization. This functionality is used to generate a preview or send a proof. You can also display the rendering of the message for various internet access providers. For more on this, see [inbox rendering](../../delivery/using/inbox-rendering.md).
 
-The purpose of this data is to test your messages before their final delivery. These messages do not coincide with actual data to be processed by Message Center. However, the XML structure must be identical to that of the event stored in the execution instance, as shown below. 
+The purpose of this data is to test your messages before their final delivery. These messages do not coincide with actual data to be processed. However, the XML structure must be identical to that of the event stored in the execution instance, as shown below:
 
 ![](assets/messagecenter_create_custo_006.png)
 
-This information enables you to personalize message content using personalization tags (for more on this, refer to [Creating the message content](../../message-center/using/creating-the-message-template.md#creating-message-content)).
+This information enables you to personalize message content using personalization tags (for more on this, see [Creating the message content](../../message-center/using/creating-the-message-template.md#creating-message-content)).
 
-1. In the message template, click the **[!UICONTROL Seed addresses]** tab.
+1. Select the transactional message template.
+
+1. In the template, click the **[!UICONTROL Seed addresses]** tab.
+
 1. In the event content, enter the test information in XML format.
 
    ![](assets/messagecenter_create_custo_001.png)
+
+1. Click **[!UICONTROL Save]**.
 
 ## Transactional message preview {#transactional-message-preview}
 
@@ -79,14 +86,16 @@ Once you have created one or more seed addresses and the message body, you can p
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
+Using seed addresses, you can also display the rendering of the message for various internet access providers. For more on this, see [inbox rendering](../../delivery/using/inbox-rendering.md).
+
 ## Sending a proof {#sending-a-proof}
 
 You can test message delivery by sending a proof to a previously created seed address.
 
-Sending a proof involves the same process as for a regular delivery (for more on this, refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)). However, to send a proof within Message Center you need to carry out the following operations beforehand:
+Sending a proof involves the same process as for a [regular delivery](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). However, with transactional messaging, you need to carry out the following operations beforehand:
 
-* Create one or more seed addresses (refer to [Managing seed addresses in transactional messages](#managing-seed-addresses-in-transactional-messages)) with test data (refer to [Personalization data](#personalization-data)).
-* Create the message content (refer to [Creating message content](../../message-center/using/creating-the-message-template.md#creating-message-content)).
+* Create one or more [seed addresses](#managing-seed-addresses-in-transactional-messages) with [personalization data](#personalization-data).
+* [Create the message content](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
 To send the proof:
 
@@ -100,6 +109,8 @@ To send the proof:
 
    ![](assets/messagecenter_send_proof_002.png)
 
-Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
+Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab. For more details on this, see [Send a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ![](assets/messagecenter_send_proof_003.png)
+
+Your message template is now ready to be [published](../../message-center/using/publishing-message-templates.md).

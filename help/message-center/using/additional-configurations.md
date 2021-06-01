@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Additional configurations
-description: Learn how to set up additional configurations for Transactional messaging in 
+description: Learn how to set up additional configurations for Transactional messaging in Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration

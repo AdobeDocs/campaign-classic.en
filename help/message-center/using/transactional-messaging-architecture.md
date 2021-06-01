@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Campaign Classic transactional messaging architecture
+title: Transactional messaging architecture
 description: This section describes the Adobe Campaign Classic transactional messaging architecture and the available channels to deliver transactional messages.
 audience: message-center
 content-type: reference
