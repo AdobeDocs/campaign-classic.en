@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining the target population
 description: Defining the target population

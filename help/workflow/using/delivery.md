@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Delivery
 description: Learn more about the Delivery-type workflow activity

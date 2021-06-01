@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Marketing campaign documents and delivery outlines
 description: Learn more about marketing campaign documents and delivery outlines

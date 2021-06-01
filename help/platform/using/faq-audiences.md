@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Profiles and Audiences FAQ
 description: Campaign Classic FAQ

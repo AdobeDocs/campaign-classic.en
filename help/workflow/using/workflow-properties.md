@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Workflow properties
 description: Learn more about Campaign Workflow properties

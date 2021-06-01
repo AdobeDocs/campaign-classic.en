@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: How to configure tracked links
 description: How to configure tracked links

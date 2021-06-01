@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Monitoring technical workflows
 description: Monitoring technical workflows

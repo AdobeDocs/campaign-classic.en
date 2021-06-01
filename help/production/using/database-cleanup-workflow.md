@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Database cleanup workflow
 description: Learn how obsolete data is automatically cleaned up

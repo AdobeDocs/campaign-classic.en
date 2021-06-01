@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SpamAssassin
 description: Learn how to set up email spam detection with SpamAssassin

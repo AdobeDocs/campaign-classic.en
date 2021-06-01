@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Using MX servers with Campaign
 description: Learn how MX servers work with Adobe Campaign Classic.

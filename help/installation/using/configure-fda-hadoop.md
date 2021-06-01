@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Hadoop
 description: Learn how to configure access to Hadoop in FDA

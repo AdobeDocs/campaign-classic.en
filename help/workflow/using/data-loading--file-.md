@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Data loading (file)
 description: Learn more about the Data loading (file) workflow activity

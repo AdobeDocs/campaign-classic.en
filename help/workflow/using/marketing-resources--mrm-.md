@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Marketing Resources (MRM)
 description: Marketing Resources (MRM)

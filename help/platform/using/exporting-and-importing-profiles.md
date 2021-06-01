@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Exporting and importing profiles
 description: Exporting and importing profiles

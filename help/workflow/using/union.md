@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Union
 description: Learn more about the Union workflow activity

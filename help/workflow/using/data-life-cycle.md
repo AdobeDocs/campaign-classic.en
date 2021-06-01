@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Data life cycle
 description: Learn more about data life cycle in workflows

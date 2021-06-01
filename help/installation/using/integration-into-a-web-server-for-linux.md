@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Integration into a Web server for Linux
 description: Learn how to integrate Campaign into a Web server (Linux)

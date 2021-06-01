@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Viral and social marketing
 description: Viral and social marketing

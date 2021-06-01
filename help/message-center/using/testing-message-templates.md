@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Test transactional message templatess
 description: Learn how to manage seed addresses in transactional messages in order to preview and test them in Adobe Campaign Classic.

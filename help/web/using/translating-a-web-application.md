@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Translating a web application
 description: Translating a web application

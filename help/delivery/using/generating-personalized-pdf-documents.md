@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Generating personalized PDF documents
 description: Generating personalized PDF documents

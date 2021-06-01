@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Filtering duplicated recipients
 description: Learn how to filter duplicated recipients

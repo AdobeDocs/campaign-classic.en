@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Enriching data
 description: Learn more about the Enrichment workflow activity

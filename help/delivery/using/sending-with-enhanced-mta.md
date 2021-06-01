@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sending with the Enhanced MTA in Adobe Campaign Classic
 description: Learn about the scope and the specificities of sending emails with the Adobe Campaign Enhanced MTA.

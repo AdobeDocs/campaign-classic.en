@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating web tracking tags
 description: Creating web tracking tags

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Subscription Services
 description: Learn more about the Subscription Services workflow activity

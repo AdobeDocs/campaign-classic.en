@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: IMS troubleshooting
 description: IMS troubleshooting

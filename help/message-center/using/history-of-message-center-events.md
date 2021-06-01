@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: History of Message Center events
 description: Learn more on the History of Message Center events report.

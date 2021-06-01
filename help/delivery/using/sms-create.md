@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Create SMS with Campaign
 description: Learn how to create SMS with Campaign

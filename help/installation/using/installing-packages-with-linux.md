@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Installing packages with Linux
 description: Installing packages with Linux

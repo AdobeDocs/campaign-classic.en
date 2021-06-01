@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Starting workflows
 description: Starting workflows

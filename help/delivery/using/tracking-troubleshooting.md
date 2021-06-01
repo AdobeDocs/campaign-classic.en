@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Tracking troubleshooting
 description: This section provides common questions related to tracking configuration and implementation in Adobe Campaign Classic.

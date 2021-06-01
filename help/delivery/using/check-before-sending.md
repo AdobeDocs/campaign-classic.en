@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Check before sending
 audience: delivery

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: File collector
 description: Learn more about the File collector workflow activity

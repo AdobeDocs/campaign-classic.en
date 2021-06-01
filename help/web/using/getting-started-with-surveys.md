@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Key steps to create a survey
 description: Create your first survey with Campaign

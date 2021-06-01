@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating and managing tasks
 description: Creating and managing tasks

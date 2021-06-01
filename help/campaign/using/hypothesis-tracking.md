@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Hypothesis tracking
 description: Hypothesis tracking

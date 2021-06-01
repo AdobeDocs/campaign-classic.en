@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About generic imports and exports
 description: Learn more about generic imports and exports.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Updating data
 description: Updating data

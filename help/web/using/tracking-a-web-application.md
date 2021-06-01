@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Tracking a web application
 description: Tracking a web application

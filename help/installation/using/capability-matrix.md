@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign On-premise, Hybrid and Hosted capability matrix
 description: Learn main differences between hosted and on-premise deployments

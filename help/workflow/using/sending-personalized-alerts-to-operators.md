@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sending personalized alerts to operators
 description: Learn how to send personalized alerts to operators

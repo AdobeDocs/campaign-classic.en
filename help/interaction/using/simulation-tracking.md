@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Simulation tracking
 description: Simulation tracking

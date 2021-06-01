@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Update data
 description: Learn more about the Update data workflow activity

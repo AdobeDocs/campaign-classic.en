@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Best practices for reporting
 description: Campaign reporting best practices

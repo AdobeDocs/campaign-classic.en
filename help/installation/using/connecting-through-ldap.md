@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Connecting through LDAP
 description: Learn how to use LDAP to login to Campaign 

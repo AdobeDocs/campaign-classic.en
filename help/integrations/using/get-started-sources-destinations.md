@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with Sources and Destinations
 description: Learn more about Adobe Experience Platform Sources and Destinations.

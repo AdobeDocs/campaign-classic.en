@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Prerequisites for migration to Adobe Campaign 7
 description: Prerequisites for migration to Adobe Campaign 7

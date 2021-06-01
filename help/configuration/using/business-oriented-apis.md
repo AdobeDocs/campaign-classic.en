@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Business oriented APIs
 description: Business oriented APIs

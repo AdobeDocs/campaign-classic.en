@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Updating the database structure
 description: Updating the database structure

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Network configuration
 description: Learn system communication guidelines

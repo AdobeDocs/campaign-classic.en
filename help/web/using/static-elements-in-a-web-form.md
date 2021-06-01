@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Static elements in a web form
 description: Static elements in a web form

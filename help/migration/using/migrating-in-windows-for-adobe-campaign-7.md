@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Migrating in Windows for Adobe Campaign 7
 description: Migrating in Windows for Adobe Campaign 7

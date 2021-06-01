@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: List of reports
 description: List of reports

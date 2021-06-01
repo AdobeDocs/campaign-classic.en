@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Additional data
 description: Additional data

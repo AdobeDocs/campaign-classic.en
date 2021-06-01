@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Monitoring processes
 description: Learn how to monitor Campaign processes

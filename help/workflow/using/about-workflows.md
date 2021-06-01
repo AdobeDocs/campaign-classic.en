@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About workflows
 description: Automate processes with workflows, manage data and audiences, send messages, and more.

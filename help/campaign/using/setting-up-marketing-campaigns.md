@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Create marketing campaigns
 description: Learn how to create and execute marketing campaigns

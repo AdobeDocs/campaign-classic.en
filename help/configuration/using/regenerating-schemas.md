@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Regenerating schemas
 description: Regenerating schemas

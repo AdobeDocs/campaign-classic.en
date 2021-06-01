@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Data extraction (file)
 description: Learn more about the Data extraction (file) workflow activity

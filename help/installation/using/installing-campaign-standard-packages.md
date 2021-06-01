@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Installing Campaign Classic built-in packages
 description: Learn how to install Campaign built-in packages

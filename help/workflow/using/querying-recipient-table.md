@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Querying the recipient table
 description: Learn how to query the recipient table

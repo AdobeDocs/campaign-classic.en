@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Manage and customize lists
 description: Learn how to browse and configure lists

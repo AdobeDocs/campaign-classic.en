@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Log files
 description: Log files

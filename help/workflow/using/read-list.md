@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Read list
 description: Learn more about the Read list workflow activity

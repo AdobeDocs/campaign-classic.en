@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Test and Send FAQ
 description: Campaign Classic FAQ

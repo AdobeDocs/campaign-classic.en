@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Define the right audience
 audience: delivery

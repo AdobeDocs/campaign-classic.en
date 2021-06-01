@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Scripting and coding guidelines
 description: Learn more about the guidelines to follow when developing in Adobe Campaign (workflows, Javascript, JSSP, etc.).

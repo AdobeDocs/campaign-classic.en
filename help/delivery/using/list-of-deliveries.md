@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Accessing the list of deliveries
 description: Learn how to access the list of created deliveries.

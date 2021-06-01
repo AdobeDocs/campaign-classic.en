@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: How to use workflow data
 description: Learn how to use workflow data

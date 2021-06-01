@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Use Adobe Campaign Explorer
 description: Learn how to use Campaign Explorer
