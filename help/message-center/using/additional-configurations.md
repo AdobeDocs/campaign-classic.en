@@ -12,7 +12,7 @@ exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 
 ## Monitor thresholds {#monitoring-thresholds}
 
-You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [About transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)).
+You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [Access transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)).
 
 To do this, follow the steps below:
 
@@ -104,7 +104,7 @@ On the execution instance(s), follow the steps below:
 
    >[!NOTE]
    >
-   >Learn how to create an execution instance type external account in the [Control instance](../../message-center/using/configuring-instances.md#control-instance) section.
+   >Learn how to create an execution instance type external account in [this section](../../message-center/using/configuring-instances.md#control-instance).
 
 1. Extend the nms:extAccount schema to add the tracking URL:
 

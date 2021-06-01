@@ -52,13 +52,13 @@ Once the addresses are created, you can display their preview and personalizatio
 
 ## Personalization data {#personalization-data}
 
-It is possible to use data in the message template to test transactional message personalization. This functionality is used to generate a preview or send a proof. You can also display the rendering of the message for various internet access providers. For more on this, see [inbox rendering](../../delivery/using/inbox-rendering.md).
+It is possible to use data in the message template to test transactional message personalization. This functionality is used to generate a preview or send a proof. You can also display the rendering of the message for various internet access providers. For more on this, see [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
 The purpose of this data is to test your messages before their final delivery. These messages do not coincide with actual data to be processed. However, the XML structure must be identical to that of the event stored in the execution instance, as shown below:
 
 ![](assets/messagecenter_create_custo_006.png)
 
-This information enables you to personalize message content using personalization tags (for more on this, see [Creating the message content](../../message-center/using/creating-the-message-template.md#creating-message-content)).
+This information enables you to personalize message content using personalization tags (for more on this, see [Create the message content](../../message-center/using/creating-the-message-template.md#creating-message-content)).
 
 1. Select the transactional message template.
 
@@ -86,7 +86,7 @@ Once you have created one or more seed addresses and the message body, you can p
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
-Using seed addresses, you can also display the rendering of the message for various internet access providers. For more on this, see [inbox rendering](../../delivery/using/inbox-rendering.md).
+Using seed addresses, you can also display the rendering of the message for various internet access providers. For more on this, see [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
 ## Send a proof {#sending-a-proof}
 

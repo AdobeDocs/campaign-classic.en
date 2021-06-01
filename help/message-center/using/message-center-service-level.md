@@ -29,4 +29,4 @@ The indicators displayed in the **[!UICONTROL Indicators over the period]** sect
 
 >[!NOTE]
 >
->The warning (orange) and alert (red) indicator thresholds can be configured in the deployment wizard. Refer to [Monitoring thresholds](../../message-center/using/additional-configurations.md#monitoring-thresholds).
+>The warning (orange) and alert (red) indicator thresholds can be configured in the deployment wizard. Refer to [Monitor thresholds](../../message-center/using/additional-configurations.md#monitoring-thresholds).

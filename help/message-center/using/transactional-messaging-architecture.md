@@ -30,7 +30,7 @@ There are several precautions to take when installing the Transactional message 
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
-If you need to use several channels, you must install and configure related packages before installing Transactional message packages. For more on this, see [Adding a delivery channel](#adding-a-delivery-channel).
+If you need to use several channels, you must install and configure related packages before installing Transactional message packages. For more on this, see [Add a delivery channel](#adding-a-delivery-channel).
 
 ## Control instance {#control-instance}
 
@@ -52,7 +52,7 @@ It is possible to share an execution cluster among several control instances. Fo
 
 >[!NOTE]
 >
->For more on the necessary configuration, refer to [Using several control instances](../../message-center/using/configuring-instances.md#using-several-control-instances).
+>For more on the necessary configuration, refer to [Use several control instances](../../message-center/using/configuring-instances.md#using-several-control-instances).
 
 ## Execution instance {#execution-instance}
 
@@ -176,7 +176,7 @@ To use transactional message module with LINE, the following elements are needed
 
 * Install the **[!UICONTROL LINE Connect]** package on both instances.
 * Install the **[!UICONTROL Transactional message control]** package on your marketing instance, and the **[!UICONTROL Transactional message execution]** package on the execution instance.
-* Create a LINE **external account** and **service** on both instances with identical naming for them to be synchronized. For more information on how to create a LINE external account and service, refer to this [page](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-).
+* Create a LINE **external account** and **service** on both instances with identical naming for them to be synchronized. For more information on how to create a LINE external account and service, refer to [this section](../../delivery/using/line-channel.md#setting-up-line-channel).
 
 Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UICONTROL External account]** , you need to configure different external accounts on both instances:
 
@@ -239,4 +239,4 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
     * Click the **[!UICONTROL Create the archiving workflow]** button.
     * Click the **[!UICONTROL Create data synchronization workflow]** button to create the LINE data sync workflow.
 
-1. You can now start creating transactional messages. For more on this, refer to this [page](../../message-center/using/creating-the-message-template.md).
+1. You can now start [creating transactional messages](../../message-center/using/creating-the-message-template.md).
