@@ -143,7 +143,7 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 
 ## Email BCC with the Enhanced MTA {#email-bcc-with-enhanced-mta}
 
-For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA which is more reliable and efficient with low latency.
+For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA, which is more reliable and efficient - with low latency.
 
 To activate this feature, you must contact your account executive to communicate the BCC email address to be used for archiving.
 
@@ -157,7 +157,7 @@ With Email BCC with Enhanced MTA, all sent deliveries are sent to the BCC email 
 
 **Limitations**:
 
-* Customer must have required MTA infrastructure capacity to receive100% of their email volume delivered to a single address.
+* Customer must have required MTA infrastructure capacity to receive 100% of their email volume delivered to a single address.
 
 * Momentum BCCs before sending email to end user which results in BCC message being sent even though the original may have bounced.
 
