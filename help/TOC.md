@@ -566,7 +566,7 @@ type: Documentation
   + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
   + Transactional messaging configuration {#transactional-messaging-configuration}
        + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
-       + [Configuring instances](message-center/using/creating-a-shared-connection.md)
+       + [Configuring instances](message-center/using/configuring-instances.md)
        + [Additional configurations](message-center/using/additional-configurations.md)
   + Message templates {#message-templates}
        + [Creating event types](message-center/using/creating-event-types.md)

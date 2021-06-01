@@ -104,7 +104,7 @@ On the execution instance(s), follow the steps below:
 
    >[!NOTE]
    >
-   >Learn how to create an execution instance type external account in the [Control instance](../../message-center/using/creating-a-shared-connection.md#control-instance) section.
+   >Learn how to create an execution instance type external account in the [Control instance](../../message-center/using/configuring-instances.md#control-instance) section.
 
 1. Extend the nms:extAccount schema to add the tracking URL:
 
