@@ -18,7 +18,7 @@ To make sure each event can be changed into a personalized message, you need to 
 
 Transactional message templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target. For more on this, see [Testing transactional message templates](../../message-center/using/testing-message-templates.md).
 
-## Creating the message template {#creating-message-template}
+## Create the message template {#creating-message-template}
 
 1. Go to the **[!UICONTROL Message Center >Transactional message templates]** folder in the Adobe Campaign tree.
 
@@ -46,7 +46,7 @@ Transactional message templates contain the necessary information for personaliz
 
    ![](assets/messagecenter_create_model_004.png)
 
-## Creating the message content {#creating-message-content}
+## Create the message content {#creating-message-content}
 
 The definition of the transactional message content is the same as for regular deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to the chapter on [Email delivery](../../delivery/using/about-email-channel.md).
 

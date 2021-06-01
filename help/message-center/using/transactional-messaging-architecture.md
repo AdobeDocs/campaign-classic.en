@@ -22,7 +22,7 @@ Transactional messaging relies on a specific architecture, which is made up of s
 |--- |--- |
 | Adobe Campaign users log on to the control instance to: <ul><li>Create transactional message templates</li><li>Generate the message preview using a seed list</li><li>Display reports</li><li>Monitor the execution instances</li></ul> | Execution instances are here to: <ul><li>Receive events</li><li>Link them to transactional message templates</li><li>Send a personalized message to each recipient</li></ul> |
 
-## Installing instances {#installing-instances}
+## Install instances {#installing-instances}
 
 There are several precautions to take when installing the Transactional message packages. Adobe recommends you to work in a test environment before putting into production. You also need to have a compatible Adobe Campaign license. For more information, please contact your Adobe account executive.
 
@@ -40,7 +40,7 @@ To install the control instance on your machine, select the **[!UICONTROL Transa
 
 The detailed steps to configure the control instance are presented in [this section](../../message-center/using/configuring-instances.md#control-instance).
 
-### Supporting several control instances {#supporting-several-control-instances}
+### Support several control instances {#supporting-several-control-instances}
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ The email channel is available by default. To deliver your transactional message
 >
 >Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package.
 
-### Adding a delivery channel {#adding-a-delivery-channel}
+### Add a delivery channel {#adding-a-delivery-channel}
 
 Adobe recommends you **always add the delivery channel package before installing the Transactional message package**.
 

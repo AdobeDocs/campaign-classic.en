@@ -12,7 +12,7 @@ exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 
 Once your [message template](../../message-center/using/creating-the-message-template.md) is ready, follow the steps below to preview and test it.
 
-## Managing seed addresses in transactional messages {#managing-seed-addresses-in-transactional-messages}
+## Manage seed addresses in transactional messages {#managing-seed-addresses-in-transactional-messages}
 
 A seed address lets you display a preview of your message, send a proof, and test message personalization before email or SMS delivery. Seed addresses are linked to the delivery and cannot be used for other deliveries.
 
@@ -88,7 +88,7 @@ Once you have created one or more seed addresses and the message body, you can p
 
 Using seed addresses, you can also display the rendering of the message for various internet access providers. For more on this, see [inbox rendering](../../delivery/using/inbox-rendering.md).
 
-## Sending a proof {#sending-a-proof}
+## Send a proof {#sending-a-proof}
 
 You can test message delivery by sending a proof to a previously created seed address.
 

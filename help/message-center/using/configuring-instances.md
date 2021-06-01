@@ -27,7 +27,7 @@ All the steps needed to configure and connect the control and execution instance
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
-## Configuring the control instance {#control-instance}
+## Configure the control instance {#control-instance}
 
 To connect the control instance and the execution instances, you first need to create and configure an **[!UICONTROL Execution instance]** type external account **on the control instance**. Therefore, once [published](../../message-center/using/publishing-message-templates.md#template-publication), transactional message templates can be deployed to the execution instances.
 
@@ -37,7 +37,7 @@ If you are using several execution instances, you must create as many external a
 >
 >When execution instances are used by several control instances, data can be divided by folder and by operator. For more on this, refer to [Using several control instances](#using-several-control-instances).
 
-### Creating an external account
+### Create an external account
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ To create an **[!UICONTROL Execution instance]** type external account, apply th
 
    >[!NOTE]
    >
-   >To avoid entering a password each time you log on to the instance, you can specify the IP address of the control instance in the execution instance. For more on this, refer to [Configuring the execution instance(s)](#execution-instance).
+   >To avoid entering a password each time you log on to the instance, you can specify the IP address of the control instance in the execution instance. For more on this, refer to [Configure the execution instance(s)](#execution-instance).
 
 1. Specify the recovery method to be used by the execution instance. The data to recover is forwarded to the control instance by the execution instance, to add to transactional message and event archives.
 
@@ -94,7 +94,7 @@ To create an **[!UICONTROL Execution instance]** type external account, apply th
 
 When using several execution instances, repeat these steps to create as many external accounts as there are execution instances.
 
-### Identifying execution instances {#identifying-execution-instances}
+### Identify execution instances {#identifying-execution-instances}
 
 Each execution instance must be associated with a unique identifier to differentiate the history of each execution instance when viewing them on the control instance.
 
@@ -112,7 +112,7 @@ The identifier can also be **automatically** attributed. To do this, go to the *
 
 ![](assets/messagecenter_create_extaccount_006bis.png)
 
-## Configuring the execution instance(s) {#execution-instance}
+## Configure the execution instance(s) {#execution-instance}
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ To use an empty password, go to the execution instances and define a security zo
 
 When using several execution instances, repeat these steps for each execution instance.
 
-## Using several control instances {#using-several-control-instances}
+## Use several control instances {#using-several-control-instances}
 
 You can share an execution cluster with various control instances. This type of architecture requires the following configuration.
 
@@ -151,25 +151,25 @@ For example, imagine your company manages two brands, each with its own control 
 
 In the tree of all the execution instances, create one folder per operator (**Folder 1** and **Folder 2**), and restrict each operator's data access to their folder.
 
-### Configuring control instances {#configuring-control-instances}
+### Configure control instances {#configuring-control-instances}
 
 >[!NOTE]
 >
 >The steps below must be performed **on the control instances**.
 
-1. In the **Control 1** control instance, create one external account per execution instance, and enter the **mc1** operator in each external account. The **mc1** operator will thereafter be created on all the execution instances (refer to [Configuring execution instances](#configuring-execution-instances)).
+1. In the **Control 1** control instance, create one external account per execution instance, and enter the **mc1** operator in each external account. The **mc1** operator will thereafter be created on all the execution instances (refer to [Configure execution instances](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_1.png)
 
-1. In the **Control 2** control instance, create one external account per execution instance, and enter the **mc2** operator in each external account. The **mc2** operator will thereafter be created on all the execution instances (refer to [Configuring execution instances](#configuring-execution-instances)).
+1. In the **Control 2** control instance, create one external account per execution instance, and enter the **mc2** operator in each external account. The **mc2** operator will thereafter be created on all the execution instances (refer to [Configure execution instances](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_2.png)
 
    >[!NOTE]
    >
-   >For more on configuring a control instance, refer to [Control instance](#control-instance).
+   >For more on configuring a control instance, refer to [this section](#control-instance).
 
-### Configuring execution instances {#configuring-execution-instances}
+### Configure execution instances {#configuring-execution-instances}
 
 >[!NOTE]
 >

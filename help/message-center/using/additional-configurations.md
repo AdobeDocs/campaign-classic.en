@@ -10,7 +10,7 @@ exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 ---
 # Additional configurations {#mc-additional-configurations}
 
-## Monitoring thresholds {#monitoring-thresholds}
+## Monitor thresholds {#monitoring-thresholds}
 
 You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [About transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)).
 
@@ -28,7 +28,7 @@ To do this, follow the steps below:
 >
 >The number of events pending in queue is displayed in the [System indicators](../../production/using/monitoring-processes.md#system-indicators) section of the Adobe Campaign process monitoring page. For more information on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-## Purging events {#purging-events}
+## Purge events {#purging-events}
 
 You can use the [deployment wizard](../../production/using/database-cleanup-workflow.md#deployment-wizard) to configure how long the data is to be stored in the database.
 
@@ -84,7 +84,7 @@ On the execution instance(s), the technical workflows for transactional messagin
     * **[!UICONTROL Delivery failed]** : this status is copied from the delivery logs. It means that the delivery failed.
     * **[!UICONTROL Event not taken into account]** : the event could not be linked to a message template. The event will not be processed.
 
-## Configuring multibranding {#configuring-multibranding}
+## Configure multibranding {#configuring-multibranding}
 
 This section describes one solution to configure tracking and mirror page URLs per brand, for transactional messages in Adobe Campaign.
 
