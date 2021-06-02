@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Troubleshooting the ACS Connector
 description: Troubleshooting the ACS Connector

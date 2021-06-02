@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Time constraint
 description: Learn more about the Time constraint workflow activity

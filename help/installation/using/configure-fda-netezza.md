@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Netezza
 description: Learn how to configure access to Netezza in FDA

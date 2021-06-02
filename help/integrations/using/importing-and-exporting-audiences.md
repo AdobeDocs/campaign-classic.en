@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Importing and exporting audiences
 description: Importing and exporting audiences

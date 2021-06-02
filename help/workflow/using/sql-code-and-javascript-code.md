@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SQL code and JavaScript code
 description: Learn more about SQL and JavaScript codes workflow activities

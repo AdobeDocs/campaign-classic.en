@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About Adobe Experience Manager
 description: About Adobe Experience Manager

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sending a birthday email
 description: Learn how to send a birthday email with a workflow

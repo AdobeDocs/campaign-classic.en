@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Optimize message delivery
 audience: delivery

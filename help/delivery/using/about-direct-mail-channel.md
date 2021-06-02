@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About direct mail channel
 description: About direct mail channel

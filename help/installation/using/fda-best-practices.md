@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign FDA best practices and limitations
 description: Learn best practices and limitations when working with an external database (FDA)

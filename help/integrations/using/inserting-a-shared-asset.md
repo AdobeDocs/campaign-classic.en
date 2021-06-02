@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Inserting a shared asset
 description: Inserting a shared asset

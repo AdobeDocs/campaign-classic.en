@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Mid-sourcing deployment
 description: Mid-sourcing deployment

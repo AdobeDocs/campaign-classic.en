@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Oracle
 description: Learn how to configure access to Oracle in FDA

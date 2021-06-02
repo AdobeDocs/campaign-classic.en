@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating an Experience Manager newsletter
 description: Creating an Experience Manager newsletter

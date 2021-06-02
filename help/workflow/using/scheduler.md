@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Scheduler
 description: Learn more about the Scheduler workflow activity

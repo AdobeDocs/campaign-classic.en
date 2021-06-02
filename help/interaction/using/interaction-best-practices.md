@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic Interaction best practices
 description: This section presents the best practice approach to manage the Interaction module in Adobe Campaign Classic.

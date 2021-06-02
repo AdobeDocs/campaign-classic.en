@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Message Center (Execution)
 description: Message Center (Execution)

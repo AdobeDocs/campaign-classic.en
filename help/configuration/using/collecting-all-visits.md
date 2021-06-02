@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Collecting all visits
 description: Collecting all visits

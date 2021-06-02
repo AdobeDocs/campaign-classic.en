@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Starting a workflow
 description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu

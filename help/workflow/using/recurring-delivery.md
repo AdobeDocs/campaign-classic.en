@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Recurring delivery
 description: Learn more about the Recurring delivery workflow activity

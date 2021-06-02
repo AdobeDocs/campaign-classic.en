@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Monitoring workflow execution
 description: Monitoring workflow execution

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Controlling costs
 description: Controlling costs

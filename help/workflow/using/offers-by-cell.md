@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Offers by cell
 description: Offers by cell

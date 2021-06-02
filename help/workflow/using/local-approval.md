@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Local approval
 description: Local approval

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Inserting a barcode in an email
 description: Inserting a barcode in an email

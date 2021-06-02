@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SMS troubleshooting
 description: Learn more how to troubleshoot SMS channel

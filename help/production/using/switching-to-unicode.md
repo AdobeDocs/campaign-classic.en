@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Switching to Unicode
 description: Switching to Unicode

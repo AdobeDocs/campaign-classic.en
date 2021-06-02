@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Steps to create a query
 description: Steps to create a query

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Collecting data to analyze
 description: Collecting data to analyze

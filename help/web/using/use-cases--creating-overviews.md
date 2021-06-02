@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: "Use cases: creating overviews"
 description: "Use cases: creating overviews"

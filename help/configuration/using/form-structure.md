@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Form structure
 description: Form structure

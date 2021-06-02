@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating a targeting workflow
 description: Learn how to perform A/B testing through a dedicated use case.

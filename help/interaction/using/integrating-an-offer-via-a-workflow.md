@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Integrating an offer via a workflow
 description: Integrating an offer via a workflow

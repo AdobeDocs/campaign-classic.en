@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Event processing
 description: Learn how the transactional messaging events are processed in Adobe Campaign Classic.
@@ -17,6 +16,7 @@ This event contains data linked to the event, such as its [type](../../message-c
 Example of event data:
 
 ![](assets/messagecenter_events_request_001.png)
+
 ## Event processing steps {#event-processing}
 
 To process transactional messaging events, the following steps are applied on the execution instance(s):
@@ -79,7 +79,7 @@ The **Event history**, under **[!UICONTROL Message Center]** > **[!UICONTROL Eve
     * An event which has just been collected and which has not yet been processed. The **[!UICONTROL Number of errors]** column shows the value 0. The email template has not yet been linked.
     * An event processed but whose confirmation is erroneous. The **[!UICONTROL Number of errors]** column shows a value that is not 0. To know when this event will be processed again, consult the **[!UICONTROL Process requested on]** column.
 
-* **Pending delivery**: The event was processed and the delivery template is linked. The email is pending delivery and the classic delivery process is applied. For more information, you can open the [delivery](../../delivery/using/about-message-tracking.md).
+* **Pending delivery**: The event was processed and the delivery template is linked. The email is pending delivery and the classic delivery process is applied. For more information, you can open the delivery.
 * **Sent**, **Ignored** and **Delivery error**: These delivery statuses are recovered via the **updateEventsStatus** workflow. For more information, you can open the relevant delivery.
 * **Event not covered**: The transactional messaging routing phase failed. For example, Adobe Campaign did not find the email which acts as a template for the event.
 * **Event expired**: The maximum number of send tries was reached. The event is considered null.

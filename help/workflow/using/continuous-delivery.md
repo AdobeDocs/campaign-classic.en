@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Continuous delivery
 description: Continuous delivery

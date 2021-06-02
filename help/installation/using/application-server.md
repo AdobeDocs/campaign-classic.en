@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Application server
 description: Application server

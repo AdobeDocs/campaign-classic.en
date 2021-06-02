@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Build personalized content
 audience: delivery

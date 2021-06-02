@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating hypotheses
 description: Learn how to create hypotheses in Campaign Response Manager

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: File transfer
 description: Learn more about the File transfer workflow activity

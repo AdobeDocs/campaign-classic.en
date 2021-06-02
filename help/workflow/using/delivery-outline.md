@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Delivery outline
 description: Learn more about the Delivery outline workflow activity

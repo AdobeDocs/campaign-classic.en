@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Working with data packages
 description: Working with data packages

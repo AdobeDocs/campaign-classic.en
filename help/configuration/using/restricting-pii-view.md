@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Restricting PII view
 description: Restricting PII view

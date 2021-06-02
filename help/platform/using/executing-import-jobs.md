@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring import jobs
 description: Learn how to configure and execute import jobs in Campaign Classic.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: General architecture
 description: Learn how to install and configure Campaign Classic.

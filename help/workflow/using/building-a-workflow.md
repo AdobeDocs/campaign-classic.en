@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Building a workflow
 description: Learn how to build a workflow

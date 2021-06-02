@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Quarterly list update using an incremental query
 description: In this use case, an incremental query is used to automatically update a recipient list.

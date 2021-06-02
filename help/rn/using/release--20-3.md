@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign 20.3 release notes
 description: Release notes for Campaign 20.3

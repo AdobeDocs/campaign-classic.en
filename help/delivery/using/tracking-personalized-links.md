@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with personalized links tracking
 description: Learn how to write links in emails that can be personalized and support tracking in Campaign Classic.

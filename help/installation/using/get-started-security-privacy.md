@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with security and privacy
 description: Learn more about the key elements to check regarding security and privacy.

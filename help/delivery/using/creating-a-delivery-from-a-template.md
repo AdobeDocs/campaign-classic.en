@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating a delivery from a template
 description: Creating a delivery from a template

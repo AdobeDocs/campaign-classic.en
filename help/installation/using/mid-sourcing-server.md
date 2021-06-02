@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Installing a mid-sourcing server in Campaign
 description: This section details the installation and configuration of a mid-sourcing server in Campaign

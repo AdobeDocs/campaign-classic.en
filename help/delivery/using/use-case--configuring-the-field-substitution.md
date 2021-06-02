@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: "Use case: configuring the field substitution"
 description: "Use case: configuring the field substitution"

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Web forms answers
 description: Web forms answers

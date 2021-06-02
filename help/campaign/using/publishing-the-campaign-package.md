@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Publishing the campaign package
 description: Publishing the campaign package

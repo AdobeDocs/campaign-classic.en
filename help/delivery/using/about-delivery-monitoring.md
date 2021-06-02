@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with delivery monitoring
 description: Learn more about Campaign Classic delivery monitoring capabilities.

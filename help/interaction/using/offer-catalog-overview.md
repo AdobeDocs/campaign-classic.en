@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Offer catalog overview
 description: Learn more about offer catalog in Campaign

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Audit trail
 description: Audit trail

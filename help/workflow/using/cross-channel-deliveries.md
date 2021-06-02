@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Cross-channel deliveries
 description: Learn more about cross-channel deliveries

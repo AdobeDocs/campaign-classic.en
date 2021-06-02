@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Personalized coupons
 description: Personalized coupons

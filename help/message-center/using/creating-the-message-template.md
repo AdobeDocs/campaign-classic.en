@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Design transactional message templates
 description: Learn how to create and design a transactional message template in Adobe Campaign Classic.
@@ -14,9 +13,9 @@ To make sure each event can be changed into a personalized message, you need to 
 
 >[!IMPORTANT]
 >
->Event types need to be created beforehand. For more on this, refer to [Creating event types](../../message-center/using/creating-event-types.md).
+>Event types need to be created beforehand. For more on this, refer to [Create event types](../../message-center/using/creating-event-types.md).
 
-Transactional message templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target. For more on this, see [Testing transactional message templates](../../message-center/using/testing-message-templates.md).
+Transactional message templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target. For more on this, see [Test transactional message templates](../../message-center/using/testing-message-templates.md).
 
 ## Create the message template {#creating-message-template}
 
@@ -36,19 +35,19 @@ Transactional message templates contain the necessary information for personaliz
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Event types need to be created beforehand in the console. For more on this, refer to [Creating event types](../../message-center/using/creating-event-types.md).
+   Event types need to be created beforehand in the console. For more on this, refer to [Create event types](../../message-center/using/creating-event-types.md).
 
    >[!IMPORTANT]
    >
    >An event type cannot be linked to more than one template.
 
-1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body (refer to [Creating the message content](#creating-message-content)).
+1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body (refer to [Create the message content](#creating-message-content)).
 
    ![](assets/messagecenter_create_model_004.png)
 
 ## Create the message content {#creating-message-content}
 
-The definition of the transactional message content is the same as for regular deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to the chapter on [Email delivery](../../delivery/using/about-email-channel.md).
+The definition of the transactional message content is the same as for regular deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to the [Email delivery](../../delivery/using/about-email-channel.md) chapter.
 
 >[!IMPORTANT]
 >

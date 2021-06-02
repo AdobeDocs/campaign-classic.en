@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with web applications
 description: Create and share dynamic Web applications, landing pages and surveys

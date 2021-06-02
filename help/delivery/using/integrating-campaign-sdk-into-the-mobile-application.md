@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Integrate Campaign SDK
 description: Learn how to integrate Campaign SDK to your mobile app

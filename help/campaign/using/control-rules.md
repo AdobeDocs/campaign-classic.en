@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Control rules
 description: Control rules

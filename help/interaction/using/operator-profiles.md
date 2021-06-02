@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Operator profiles
 description: Operator profiles

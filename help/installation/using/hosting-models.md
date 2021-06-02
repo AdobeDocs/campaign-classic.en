@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Hosting models
 description: Discover Campaign hosting models

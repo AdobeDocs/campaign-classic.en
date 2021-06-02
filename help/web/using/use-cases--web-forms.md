@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: "Use cases: web forms"
 description: "Use cases: web forms"

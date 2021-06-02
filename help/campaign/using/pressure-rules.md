@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Pressure rules
 description: Pressure rules

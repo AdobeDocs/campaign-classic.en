@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Integration into a Web server for Windows
 description: Integration into a Web server for Windows

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring publishing on Twitter
 description: Configuring publishing on Twitter

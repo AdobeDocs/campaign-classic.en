@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About Campaign integrations
 description: Use other Adobe solutions and combine their different capabilities with Campaign.

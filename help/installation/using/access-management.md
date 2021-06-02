@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Access management
 description: Learn more about access management best practices.

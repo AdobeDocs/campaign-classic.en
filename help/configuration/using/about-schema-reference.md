@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About schema reference in Adobe Campaign Classic
 description: Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign Classic database.

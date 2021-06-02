@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Interaction and offer management
 description: Send the best offers to your contacts based on eligibility rules.

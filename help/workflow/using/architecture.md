@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Architecture
 description: Workflows are handled by a specific module, which can be started on multiple servers in order to share the processing load.

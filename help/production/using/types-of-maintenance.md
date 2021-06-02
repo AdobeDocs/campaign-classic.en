@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Types of maintenance
 description: Types of maintenance

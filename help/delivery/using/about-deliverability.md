@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About deliverability in Campaign
 description: Learn deliverability best practices

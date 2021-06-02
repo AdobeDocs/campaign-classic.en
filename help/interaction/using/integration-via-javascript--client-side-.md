@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Integration via JavaScript (client side)
 description: Integration via JavaScript (client side)

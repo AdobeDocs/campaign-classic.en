@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Workflow best practices
 description: Learn Campaign Workflow best practices

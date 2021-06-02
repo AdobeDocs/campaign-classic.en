@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating and identifying the delivery
 description: Creating and identifying the delivery

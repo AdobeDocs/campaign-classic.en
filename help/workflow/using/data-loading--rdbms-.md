@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Data loading (RDBMS)
 description: Learn more about Data loading (RDBMS) workflow activity

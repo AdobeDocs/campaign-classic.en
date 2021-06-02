@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Deduplication
 description: Learn more about the Deduplication workflow activity

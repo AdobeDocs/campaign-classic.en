@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Actions on reports
 description: Actions on reports

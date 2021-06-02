@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Event description
 description: Learn how transactional messaging events are managed in Adobe Campaign Classic using the SOAP methods.
