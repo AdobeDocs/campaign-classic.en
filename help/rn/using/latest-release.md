@@ -25,7 +25,7 @@ _May 28, 2021_
 <table>
 <thead>
 <tr>
-<th><strong> Adobe Campaign Classic integration</strong><br/></th>
+<th><strong>Journey Orchestration integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
