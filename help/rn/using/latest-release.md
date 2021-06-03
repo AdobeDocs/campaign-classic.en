@@ -33,7 +33,7 @@ _June 4, 2021_
 <td>
 <p>The integration between Journey Orchestration and Adobe Campaign Classic is now GA. It allows Journey Orchestration to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.</p>
 <p>The connection between the Journey Orchestration and Campaign Classic instances is setup by Adobe at provisioning time.</p>
-<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html">Journey Orchestration documentation</a>.</p>
+<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html">Journey Orchestration documentation</a>. A step-by-step use case is presented in this <a href="https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html">section</a></p>
 </td>
 </tr>
 </tbody>
