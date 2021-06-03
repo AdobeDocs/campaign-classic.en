@@ -26,6 +26,10 @@ For more information on Email BCC configuration and best practices, refer to [th
 
 When creating a new delivery or delivery template, Email BCC is not enabled by default. You need to enable it manually at the email delivery or delivery template level.
 
+>[!NOTE]
+>
+>If you are using Email BCC with Enhanced MTA, this option is automatically enabled for all deliveries.
+
 To enable Email BCC for an email delivery template, follow the steps below:
 
 1. Go to **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** or **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.

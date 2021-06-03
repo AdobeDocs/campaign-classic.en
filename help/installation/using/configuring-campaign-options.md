@@ -46,6 +46,10 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
    <td> List of schemas for which you want to use test addresses for Inbox Rendering. (element names are separated with commas) E.g.: custom_nms_recipient.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
+   <td> BCC email address to which the Enhanced MTA will send a raw copy of the sent emails. <br /> </td> 
+  </tr>
+  <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
    <td><p> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.</p><p> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".</p><p> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">this section</a>.</p> </td> 
    <tr> 
