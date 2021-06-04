@@ -150,6 +150,8 @@ Adobe Campaign Classic Client Console can no longer run on the following systems
 
 ### Operating systems {#o-s-eol}
 
+Starting 21.1.3 release, the support for Debian 8 is deprecated.
+
 Starting 19.1 release, Adobe Campaign is no longer compatible with the following operating systems.
 
 * CentOS 6 [Learn more](https://wiki.centos.org/Download)
