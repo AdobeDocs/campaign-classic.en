@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring export jobs
 description: Learn how to configure and execute export jobs in Campaign Classic.

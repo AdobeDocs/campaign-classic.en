@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Live/Design environments
 description: Live/Design environments

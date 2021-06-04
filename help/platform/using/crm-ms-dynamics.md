@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign - Microsoft Dynamics CRM Connector
 description: Connect Campaign and Microsoft Dynamics

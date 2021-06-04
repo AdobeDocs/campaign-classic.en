@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring URL tracking options
 description: Configuring URL tracking options

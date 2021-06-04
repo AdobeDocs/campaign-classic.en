@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Detecting tracking URLs
 description: Learn more about recommended pattern to track URLs

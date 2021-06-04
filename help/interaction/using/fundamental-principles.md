@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Fundamental principles
 description: Fundamental principles

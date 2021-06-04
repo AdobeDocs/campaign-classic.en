@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign distributed marketing
 description: Get started with distributed marketing

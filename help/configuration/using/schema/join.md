@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elements and attributes
 description: Elements and attributes

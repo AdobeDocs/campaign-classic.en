@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Message Center (Control)
 description: Message Center (Control)

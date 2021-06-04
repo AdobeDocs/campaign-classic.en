@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Analytics Data Connector
 description: Adobe Analytics Data Connector

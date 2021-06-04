@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining interactive content in Adobe Campaign Classic
 description: Learn how to define interactive and dynamic email content with AMP in Adobe Campaign Classic.
@@ -22,7 +21,7 @@ This feature is available through a dedicated package in Adobe Campaign. To use 
 
 >[!NOTE]
 >
-> For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contact your account executive.
+> For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/configuring-instances.md#execution-instance). Contact your account executive.
 
 ## About AMP for Email {#about-amp-for-email}
 

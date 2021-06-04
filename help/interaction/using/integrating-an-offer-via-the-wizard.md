@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Integrating an offer via the wizard
 description: Integrating an offer via the wizard

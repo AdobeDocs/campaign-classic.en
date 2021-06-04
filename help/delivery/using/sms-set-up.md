@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Set up Campaign SMS channel
 description: Learn how to configure the SMS channel in Campaign

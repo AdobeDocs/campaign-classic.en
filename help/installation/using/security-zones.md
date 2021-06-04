@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure security zones
 description: Learn how to configure security zones
@@ -91,7 +90,7 @@ All of the rights defining a zone are as follows:
 >
 >In a zone definition, each attribute with the **true** value reduces security.
 
-When using Message Center, if there are several execution instances, you need to create an additional security zone with the **sessionTokenOnly** attribute defined as **true**, wherein only the necessary IP addresses are to be added. For more on configuring instances, refer to [this document](../../message-center/using/creating-a-shared-connection.md).
+When using Message Center, if there are several execution instances, you need to create an additional security zone with the **sessionTokenOnly** attribute defined as **true**, wherein only the necessary IP addresses are to be added. For more on configuring instances, refer to [this document](../../message-center/using/configuring-instances.md).
 
 ## Best practices for security zones {#best-practices-for-security-zones}
 

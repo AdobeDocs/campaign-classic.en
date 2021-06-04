@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Start and end
 description: Learn more about Start and End workflow activities

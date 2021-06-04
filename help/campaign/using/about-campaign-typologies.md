@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About campaign typologies
 description: About campaign typologies

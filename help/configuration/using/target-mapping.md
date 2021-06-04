@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Target mapping
 description: Learn how to create a target mapping

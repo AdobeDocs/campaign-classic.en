@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Performing aggregate computing
 description: Learn how to perform aggregate computing in queries

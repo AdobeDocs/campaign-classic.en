@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sending with the Enhanced MTA in Adobe Campaign Classic
 description: Learn about the scope and the specificities of sending emails with the Adobe Campaign Enhanced MTA.
@@ -91,7 +90,7 @@ For customers using Adobe Campaign transactional messaging functionality, any AP
 
 ### Enhanced MTA headers
 
-The latest Campaign Classic instances include code that adds the required Enhanced MTA headers to every message. If you are using Adobe Campaign 19.1 (build 9032) or above and if this is not the case, you must request [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to add the "useMomentum=true" parameter to your execution instance configuration (in the [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) file), which may be your marketing instance, [mid-sourcing instance](../../installation/using/mid-sourcing-server.md), or [transactional messaging execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance), depending on your configuration.
+The latest Campaign Classic instances include code that adds the required Enhanced MTA headers to every message. If you are using Adobe Campaign 19.1 (build 9032) or above and if this is not the case, you must request [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to add the "useMomentum=true" parameter to your execution instance configuration (in the [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) file), which may be your marketing instance, [mid-sourcing instance](../../installation/using/mid-sourcing-server.md), or [transactional messaging execution instance](../../message-center/using/configuring-instances.md#execution-instance), depending on your configuration.
 
 However, if you are using an older instance that does not include this code, a new typology rule named **[!UICONTROL Typology Rule for Enhanced MTAs]** must be added to all the existing typologies in your Campaign instance.
 This rule is added by a **[!UICONTROL Typology]** package installed as part of the upgrade to the Enhanced MTA.

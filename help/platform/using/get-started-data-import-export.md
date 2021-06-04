@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with data import and export
 description: Learn more on data import and export in Campaign Classic.

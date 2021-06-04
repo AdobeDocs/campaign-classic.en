@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Export data from Campaign to Adobe Experience Platform
 description: Learn how to export data from Campaign Classic to Adobe Experience Platform.

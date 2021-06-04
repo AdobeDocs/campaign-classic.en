@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Synchronizing audiences
 description: Synchronizing audiences

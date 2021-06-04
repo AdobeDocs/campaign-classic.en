@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Production troubleshooting
 description: Discover production troubleshooting procedures relating to Adobe Campaign configuration, monitoring, upgrading process, data processing, and database maintenance procedure.

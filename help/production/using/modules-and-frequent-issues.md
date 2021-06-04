@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Modules and frequent issues
 description: Modules and frequent issues

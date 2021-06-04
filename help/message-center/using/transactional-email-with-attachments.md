@@ -1,20 +1,19 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: Adding attachments to transactional messages with Adobe Campaign Classic
-description: Learn how to send transactional emails with individual and/or personalized attachments using Adobe Campaign Classic
+title: Send transactional emails with attachments
+description: Learn how to send transactional emails with individual and/or personalized attachments using Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: use-case
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
 ---
-# Use case: Sending transactional emails with attachments{#transactional-email-with-attachments}
+# Use case: Send transactional emails with attachments {#transactional-email-with-attachments}
 
 The purpose of this use case is to add email attachments on the fly to outbound dispatches.
 
 ## Key steps {#key-steps}
 
-In this scenario, you will learn how to send transactional emails with individual and/or personalized attachments. The attachments will not be pre-uploaded on the Transactional Messaging server: instead they will be generated on the fly.
+In this scenario, you will learn how to send transactional emails with individual and/or personalized attachments. The attachments will not be pre-uploaded on the Transactional messaging server: instead they will be generated on the fly.
 
 When you capture customer interactions or details, you may need to send this information back to the customer at the end of the process, for example in a PDF file attached to an email.
 
@@ -40,9 +39,9 @@ In this scenario, the attachments are not pre-created, but added on the fly to t
 
 Before implementing this scenario, read carefully the guidelines below:
 
-* The Transactionnal Messaging instances should not be used to store, export, or upload files or data. They can only be used for event data and related information. They should not be considered as a file storage system.
-* Since there is no direct access to the Transactionnal Messaging instances or servers outside of Adobe, there is no standard way to push such files on these servers (no FTP access). 
-* It is not contractually correct to use the disk space on the Transactional Messaging instances to store files of any sort, not even for attachments.
+* The Transactional messaging instances should not be used to store, export, or upload files or data. They can only be used for event data and related information. They should not be considered as a file storage system.
+* Since there is no direct access to the Transactional messaging instances or servers outside of Adobe, there is no standard way to push such files on these servers (no FTP access). 
+* It is not contractually correct to use the disk space on the Transactional messaging instances to store files of any sort, not even for attachments.
 * You need to use another online disk system to host these files. You need an FTP access to this system and you must be able to write and delete files.
 
 >[!NOTE]

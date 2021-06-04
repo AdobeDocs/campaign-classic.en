@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Identifying a form
 description: Identifying a form

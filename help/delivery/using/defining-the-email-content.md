@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining the email content in Adobe Campaign Classic
 description: Learn how to define the email content when using Adobe Campaign Classic.

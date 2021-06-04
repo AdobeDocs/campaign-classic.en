@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Transfer to Mid-sourcing
 description: Learn more about Transfer to Mid-sourcing workflows

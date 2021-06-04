@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating and configuring the database
 description: Creating and configuring the database

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring shared audiences integration in Adobe Campaign
 description: Learn how to configure shared audiences integration

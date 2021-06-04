@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring and sending the delivery
 description: Configuring and sending the delivery

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating import and export templates
 description: Learn how to create import and export templates in Campaign Classic.

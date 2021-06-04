@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Template management
 description: Template management

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Prerequisites of Campaign installation in Linux
 description: Prerequisites of Campaign installation in Linux

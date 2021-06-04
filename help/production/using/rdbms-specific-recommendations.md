@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: RDBMS Specific recommendations
 description: RDBMS Specific recommendations

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SFTP server usage
 description: Learn more on SFTP server best practices and troubleshooting.

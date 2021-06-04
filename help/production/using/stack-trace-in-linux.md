@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Stack trace in Linux
 description: Stack trace in Linux

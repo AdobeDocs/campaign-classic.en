@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Discussion forums
 description: Discussion forums

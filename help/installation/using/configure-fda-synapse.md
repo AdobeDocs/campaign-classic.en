@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Synapse
 description: Learn how to configure access to Synapse in FDA

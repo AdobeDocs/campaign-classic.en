@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating seed addresses
 description: Learn how to create and use seed addresses

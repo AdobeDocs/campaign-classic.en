@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Monitoring marketing campaigns
 description: Monitoring marketing campaigns

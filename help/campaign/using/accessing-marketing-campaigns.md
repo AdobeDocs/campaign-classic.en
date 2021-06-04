@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Accessing marketing campaigns
 description: Accessing marketing campaigns

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Split
 description: Learn more about the Split workflow activity

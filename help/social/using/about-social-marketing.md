@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About social marketing
 description: Learn how to use Campaign to interact with customers via Facebook and Twitter.

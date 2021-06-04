@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Nlserver module
 description: Nlserver module

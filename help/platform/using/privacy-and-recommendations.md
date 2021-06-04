@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Privacy and Consent
 description: Learn more about Privacy and Consent

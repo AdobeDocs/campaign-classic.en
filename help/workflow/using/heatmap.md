@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign Workflow HeatMap
 description: Monitor your workflows with Workflow HeatMap

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating and managing lists
 description: Learn how to create and manage lists

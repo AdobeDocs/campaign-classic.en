@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: External accounts
 description: Learn how to create external accounts
@@ -106,7 +105,7 @@ If you have a broken-down architecture, you need to specify the execution instan
 
   Password of the account as defined in the operator folder.
 
-For more information on this configuration, refer to this [page](../../message-center/using/creating-a-shared-connection.md#control-instance).
+For more information on this configuration, refer to this [page](../../message-center/using/configuring-instances.md#control-instance).
 
 
 ## Access to External Systems External Accounts 

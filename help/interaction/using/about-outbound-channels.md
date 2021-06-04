@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About outbound channels
 description: About outbound channels

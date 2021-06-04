@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About queries in Campaign
 description: About queries in Campaign

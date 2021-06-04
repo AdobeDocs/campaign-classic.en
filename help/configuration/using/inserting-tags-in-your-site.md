@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Inserting tags in your site
 description: Inserting tags in your site

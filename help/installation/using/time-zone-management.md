@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Time zone management
 description: Time zone management

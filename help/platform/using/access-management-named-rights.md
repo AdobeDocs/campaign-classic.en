@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Use named rights to set up permissions
 description: Learn how to use named rights to set up permissions

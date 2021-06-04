@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Sybase IQ
 description: Learn how to configure access to Sybase IQ in FDA

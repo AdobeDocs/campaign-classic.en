@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Presentation rules
 description: Presentation rules

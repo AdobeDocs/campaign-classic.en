@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Testing the migration
 description: Testing the migration

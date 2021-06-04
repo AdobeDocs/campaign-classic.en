@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring the mobile application in Adobe Campaign 
 description: Learn how to start with the mobile application configuration

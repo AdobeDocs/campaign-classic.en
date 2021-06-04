@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Email enrichment with custom date fields
 description: Learn how to enrich emails with custom date fields

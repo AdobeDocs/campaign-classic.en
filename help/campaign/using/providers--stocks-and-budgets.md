@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Providers, stocks and budgets
 description: Providers, stocks and budgets

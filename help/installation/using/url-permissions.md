@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure URL permissions
 description: Learn how to configure URL permissions

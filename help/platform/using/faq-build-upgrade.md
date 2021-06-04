@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Build upgrade FAQ
 description: Common questions related to Campaign build upgrades

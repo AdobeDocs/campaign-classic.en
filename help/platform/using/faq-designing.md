@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Message design FAQ
 description: Campaign Classic FAQ

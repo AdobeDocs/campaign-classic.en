@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About deliverability in Adobe Campaign Classic
 description: Learn more about managing deliverability in Adobe Campaign Classic.

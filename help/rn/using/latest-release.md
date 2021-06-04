@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Latest Release
 description: Latest Campaign Classic Release Notes

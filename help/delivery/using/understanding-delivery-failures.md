@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Understanding delivery failures
 description: Learn how to understand delivery failures

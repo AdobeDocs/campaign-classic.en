@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Communication channels
 description: Create deliveries to send personalized messages on different channels.

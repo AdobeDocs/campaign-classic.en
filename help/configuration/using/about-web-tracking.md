@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About web tracking
 description: About web tracking

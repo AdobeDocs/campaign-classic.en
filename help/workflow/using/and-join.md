@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: AND-join
 description: AND-join

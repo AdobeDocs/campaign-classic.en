@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Content manager resources and principles
 description: Content manager resources and principles

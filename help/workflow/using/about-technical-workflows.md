@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Technical workflows
 description: Learn more about the technical workflows available with Campaign Classic packages.

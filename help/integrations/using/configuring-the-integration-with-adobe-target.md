@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring the integration with Adobe Target
 description: Configuring the integration with Adobe Target

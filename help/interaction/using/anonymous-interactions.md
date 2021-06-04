@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Anonymous interactions
 description: Anonymous interactions

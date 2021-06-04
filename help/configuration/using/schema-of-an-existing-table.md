@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Schema of an existing table
 description: Schema of an existing table
