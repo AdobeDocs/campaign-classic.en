@@ -17,6 +17,8 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## ![](assets/do-not-localize/blue_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
+_June 4, 2021_
+
 **What's new?**
 
 <table>
