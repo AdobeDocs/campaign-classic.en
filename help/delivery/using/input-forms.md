@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Input forms
 description: Input forms

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Implementing SOAP methods
 description: Implementing SOAP methods

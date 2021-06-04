@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating a summary list
 description: Creating a summary list

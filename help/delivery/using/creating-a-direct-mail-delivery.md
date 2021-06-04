@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating a direct mail delivery
 description: Creating a direct mail delivery

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: "Use case: creating a Refer A Friend form"
 description: "Use case: creating a Refer A Friend form"

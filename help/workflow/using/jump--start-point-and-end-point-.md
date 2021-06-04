@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Jump (start point and end point)
 description: Jump (start point and end point)

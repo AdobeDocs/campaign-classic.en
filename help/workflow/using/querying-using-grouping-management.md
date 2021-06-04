@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Querying using grouping management
 description: Learn how to perform queries using grouping management

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Track and monitor messages
 audience: delivery

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: General architecture
 description: General architecture

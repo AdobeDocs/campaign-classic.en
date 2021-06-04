@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Indicator calculation
 description: Indicator calculation

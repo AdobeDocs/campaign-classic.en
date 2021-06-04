@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Additional web tracking parameters
 description: Learn more about parameters for web tracking

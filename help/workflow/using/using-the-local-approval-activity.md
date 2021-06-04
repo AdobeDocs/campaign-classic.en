@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Using the local approval activity
 description: Learn how to use the local approval activity

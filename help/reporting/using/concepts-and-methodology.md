@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Concepts and methodology
 description: Concepts and methodology

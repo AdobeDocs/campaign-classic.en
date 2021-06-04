@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Filtering rules
 description: Filtering rules

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Images missing
 description: Images missing

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: External signal
 description: Learn more about the External signal workflow activity

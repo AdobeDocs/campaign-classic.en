@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with tracking
 description: Learn more the general guidelines for tracking in Adobe Campaign Classic.

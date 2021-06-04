@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Manage access to Campaign folders
 description: Learn how to grant access to Campaign folders and create views

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Campaign workspace
 description: Learn how to use and customize Campaign workspace

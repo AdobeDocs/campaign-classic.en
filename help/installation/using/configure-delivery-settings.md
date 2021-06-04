@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign Delivery settings configuration
 description: Learn how to configure Campaign Delivery settings

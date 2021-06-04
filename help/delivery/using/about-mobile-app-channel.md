@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About mobile app channel in Adobe Campaign Classic
 description: This section provides general information specific to the mobile app channel in Adobe Campaign Classic.

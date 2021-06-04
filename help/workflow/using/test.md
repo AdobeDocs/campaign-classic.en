@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Test
 description: Learn more about the Test workflow activity

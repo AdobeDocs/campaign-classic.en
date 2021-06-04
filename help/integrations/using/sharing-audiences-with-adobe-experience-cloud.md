@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sharing audiences with Adobe Experience Cloud
 description: Sharing audiences with Adobe Experience Cloud

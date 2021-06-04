@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Duplicating environments
 description: Duplicating environments

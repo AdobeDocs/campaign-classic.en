@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Email archiving
 description: Email archiving

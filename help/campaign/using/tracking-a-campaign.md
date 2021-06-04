@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Tracking a campaign
 description: Tracking a campaign

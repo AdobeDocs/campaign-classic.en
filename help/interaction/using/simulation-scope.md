@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Simulation scope
 description: Simulation scope

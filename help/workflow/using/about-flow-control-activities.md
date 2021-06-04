@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About flow control activities
 description: About flow control activities

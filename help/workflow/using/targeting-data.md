@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Targeting data
 description: Learn more about Targeting data in a workflow

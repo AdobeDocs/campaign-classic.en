@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Access transactional messaging reports
 description: Learn how to access Adobe Campaign Classic transactional messaging reports.

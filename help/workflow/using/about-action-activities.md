@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About action activities
 description: About action activities

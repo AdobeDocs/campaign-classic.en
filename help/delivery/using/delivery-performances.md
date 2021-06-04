@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Delivery performances best practices
 description: Learn more about delivery performances and best practices.

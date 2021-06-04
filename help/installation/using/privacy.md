@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Privacy
 description: Learn more about the best practices to follow regarding privacy.

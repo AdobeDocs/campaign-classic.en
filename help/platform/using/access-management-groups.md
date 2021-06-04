@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Create and manage operator groups
 description: Learn how to grant access to operator groups

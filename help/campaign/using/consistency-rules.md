@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Consistency rules
 description: Consistency rules

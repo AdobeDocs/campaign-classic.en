@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring the Android mobile application in Adobe Campaign
 description: Learn how to set up your mobile application for Android

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Use your Adobe ID in Campaign
 description: Learn more about Adobe IMS integration

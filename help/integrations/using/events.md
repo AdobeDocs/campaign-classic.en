@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring events
 description: Learn how to configure events for custom implementation

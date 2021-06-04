@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Inbound SMS
 description: Learn more about the Inbound SMS workflow activity

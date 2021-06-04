@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Delivery reports
 description: Delivery reports

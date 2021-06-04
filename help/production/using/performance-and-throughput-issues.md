@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Performance and throughput issues
 description: Performance and throughput issues

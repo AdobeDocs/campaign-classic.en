@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining filter conditions
 description: Defining filter conditions

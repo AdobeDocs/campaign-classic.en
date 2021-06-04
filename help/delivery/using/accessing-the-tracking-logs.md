@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Accessing the tracking logs
 description: Accessing the tracking logs

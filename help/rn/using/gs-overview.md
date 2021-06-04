@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: [!DNL Gold Standard] upgrade
 description: Learn what is Campaign Classic [!DNL Gold Standard] 

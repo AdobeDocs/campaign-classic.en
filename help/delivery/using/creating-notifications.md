@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating push notifications
 description: Learn how to create push notifications

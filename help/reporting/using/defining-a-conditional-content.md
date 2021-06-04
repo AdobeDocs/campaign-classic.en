@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Defining a conditional content
 description: Defining a conditional content

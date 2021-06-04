@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: "Use case: selecting seed addresses on criteria"
 description: "Use case: selecting seed addresses on criteria"

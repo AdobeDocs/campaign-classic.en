@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About schema edition
 description: Get started with schema edition

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Wait
 description: Learn more about the Wait workflow activity

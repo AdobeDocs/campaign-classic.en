@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Monitoring jobs execution
 description: Learn how to monitor import and export jobs execution.

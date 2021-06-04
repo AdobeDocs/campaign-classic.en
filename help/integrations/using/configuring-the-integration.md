@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring Adobe Experience Manager integration
 description: Learn how to configure Campaign-AEM integration

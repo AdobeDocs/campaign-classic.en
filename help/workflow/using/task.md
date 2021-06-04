@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Task
 description: Learn more about the Task workflow activity

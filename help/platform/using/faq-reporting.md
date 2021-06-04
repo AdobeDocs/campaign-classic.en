@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Reporting FAQ
 description: Campaign Classic FAQ

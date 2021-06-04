@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Email Deliverability
 description: Learn more about the Email Deliverability package

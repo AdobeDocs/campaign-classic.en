@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Social Marketing
 description: Learn more about Social Marketing technical workflows

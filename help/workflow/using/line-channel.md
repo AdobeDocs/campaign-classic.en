@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: LINE Channel
 description: LINE Channel

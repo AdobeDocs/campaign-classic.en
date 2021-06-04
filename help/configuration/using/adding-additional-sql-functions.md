@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adding additional SQL functions
 description: Adding additional SQL functions

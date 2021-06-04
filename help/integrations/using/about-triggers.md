@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About Adobe Experience Cloud Triggers
 description: Get started with Adobe Experience Cloud Triggers implementation

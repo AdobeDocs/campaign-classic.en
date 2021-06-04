@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Migrating in Linux for Adobe Campaign v7
 description: Migrating in Linux for Adobe Campaign v7

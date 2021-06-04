@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Create event types
 description: Learn how to create event types that will match the transactional messages you want to send in Adobe Campaign Classic.

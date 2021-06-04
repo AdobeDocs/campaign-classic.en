@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Using aggregates
 description: Learn how to use aggregates

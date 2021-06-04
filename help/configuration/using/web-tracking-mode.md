@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Web tracking mode
 description: Web tracking mode

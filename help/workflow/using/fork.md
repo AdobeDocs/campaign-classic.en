@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Fork
 description: Learn more about the Fork workflow activity

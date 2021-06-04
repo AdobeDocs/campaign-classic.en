@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Cross-channel delivery workflow
 description: Learn more about cross-channel delivery workflows

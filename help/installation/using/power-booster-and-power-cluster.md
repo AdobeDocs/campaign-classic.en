@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Power Booster and Power Cluster
 description: Power Booster and Power Cluster

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Server security configuration
 description: Learn more about server configuration best practices

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Using a content template
 description: Using a content template

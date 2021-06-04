@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Delivery statuses
 description: Learn more about the statuses available on your delivery dashboard.

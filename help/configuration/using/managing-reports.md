@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Managing reports
 description: Managing reports

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About reports creation in Campaign
 description: About reports creation in Campaign

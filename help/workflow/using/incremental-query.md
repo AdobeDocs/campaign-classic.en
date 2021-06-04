@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Incremental query
 description: Learn more about the Incremental query workflow activity

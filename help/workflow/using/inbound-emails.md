@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Inbound Emails
 description: Learn more about the Inbound Emails workflow activity

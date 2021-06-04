@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Inbox rendering technical workflow
 description: This section describes the technical workflow installed with the Inbox rendering package

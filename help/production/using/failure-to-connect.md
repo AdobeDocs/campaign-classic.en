@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Failure to connect
 description: Failure to connect

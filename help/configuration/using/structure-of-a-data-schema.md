@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Structure of a data schema
 description: Structure of a data schema

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Update aggregate
 description: Learmore about the Update aggregate workflow activity

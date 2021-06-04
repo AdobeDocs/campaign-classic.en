@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Privacy requests
 description: Learn how to manage Privacy requests

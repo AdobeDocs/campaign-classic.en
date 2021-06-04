@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sending a report to a list
 description: Learn how to send a report to a list with a workflow

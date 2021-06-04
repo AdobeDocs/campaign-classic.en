@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic Documentation Updates
 description: This page lists all the new features and updates in Adobe Campaign Classic documentation
@@ -14,7 +13,11 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
-## May 2021 (#may-2021)
+## June 2021 {#june-2021}
+
+The **Transactional Messaging** section has been reorganized an clarified with a new Get started section, including an [enhanced schema](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) for a better understanding of the process. [Read more](../../message-center/using/about-transactional-messaging.md)
+
+## May 2021 {#may-2021}
 
 The Workflow Heatmap report documentation has been updated and improved. [Read more](../../workflow/using/heatmap.md)
 

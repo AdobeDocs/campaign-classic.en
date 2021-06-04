@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About seed addresses
 description: About seed addresses

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sub-workflow
 description: Learn more about the Sub-workflow activity

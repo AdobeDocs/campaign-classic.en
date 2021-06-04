@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: External accounts
 description: Learn how to create external accounts

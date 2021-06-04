@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About email channel in Adobe Campaign Classic
 description: This section provides general information specific to the email channel in Adobe Campaign Classic.

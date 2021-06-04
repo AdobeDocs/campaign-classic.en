@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Unzipping or decrypting a file
 description: Learn how to unzip or decrypt a file in Campaign Classic before processing.

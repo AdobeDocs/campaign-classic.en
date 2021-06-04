@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuring email parameters in Adobe Campaign Classic
 description: Learn about options and settings that are specific to email delivery.

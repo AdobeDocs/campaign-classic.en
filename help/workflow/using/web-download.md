@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Web download
 description: Learn more about the Web download workflow activity

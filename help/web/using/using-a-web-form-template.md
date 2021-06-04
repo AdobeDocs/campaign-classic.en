@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Using a web form template
 description: Using a web form template

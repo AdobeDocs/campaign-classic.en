@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Cells
 description: Cells

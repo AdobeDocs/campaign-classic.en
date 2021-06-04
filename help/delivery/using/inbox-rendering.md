@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Inbox rendering in Campaign
 description: Learn how to capture email renderings and make them available in a dedicated report

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: JavaScript scripts and templates
 description: JavaScript scripts and templates

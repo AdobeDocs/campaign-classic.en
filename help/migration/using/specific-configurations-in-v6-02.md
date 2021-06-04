@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Specific configurations in v6.02
 description: Specific configurations in v6.02

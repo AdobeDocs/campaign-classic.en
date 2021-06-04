@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Customizing the emoticon list
 description: Learn how to customize the emoticon list when using Adobe Campaign Classic.

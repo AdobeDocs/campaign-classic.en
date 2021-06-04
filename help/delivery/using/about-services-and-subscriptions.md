@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: About services and subscriptions
 description: About services and subscriptions

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Integration via SOAP (server side)
 description: Integration via SOAP (server side)

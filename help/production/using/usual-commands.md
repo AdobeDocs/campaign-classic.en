@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Usual commands
 description: Usual commands

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creating a Facebook application
 description: Creating a Facebook application

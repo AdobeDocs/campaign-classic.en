@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign Settings FAQ
 description: Campaign Classic FAQ

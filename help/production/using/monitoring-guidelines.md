@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Monitoring guidelines
 description: Discover guidelines and best practices to monitor Campaign instance and processes.

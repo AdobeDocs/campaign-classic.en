@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Send, monitor and track SMS
 description: Learn how to send, monitor and track SMS in Campaign

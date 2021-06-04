@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with A/B testing
 description: Learn more about A/B testing in Campaign Classic.

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Migration procedures
 description: Migration procedures

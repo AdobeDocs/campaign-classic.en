@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Get started with web forms
 description: Get started with web forms in Campaign

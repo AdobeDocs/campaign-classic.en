@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adding fields to a web form
 description: Adding fields to a web form

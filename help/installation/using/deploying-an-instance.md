@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Deploying an instance
 description: Learn more about Campaign deployment wizard

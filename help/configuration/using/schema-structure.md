@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Schema structure
 description: Schema structure

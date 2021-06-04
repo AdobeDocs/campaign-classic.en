@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Personalization fields
 description: Personalization fields

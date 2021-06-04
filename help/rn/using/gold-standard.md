@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: [!DNL Gold Standard] release notes
 description: Release notes for Campaign Classic [!DNL Gold Standard]

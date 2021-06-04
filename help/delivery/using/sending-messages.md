@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sending an email with Adobe Campaign Classic
 description: Learn how to confirm the delivery of an email and discover the specificities of delivering email messages.

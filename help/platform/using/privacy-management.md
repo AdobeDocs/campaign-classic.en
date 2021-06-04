@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Privacy management
 description: Learn more about Privacy management

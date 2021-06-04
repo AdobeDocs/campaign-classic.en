@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Designing a web application
 description: Designing a web application
