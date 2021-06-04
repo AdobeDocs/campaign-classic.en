@@ -15,16 +15,14 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 >
 >Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 20.2.5 release](../../rn/using/release--20-2.md).
 
-## ![](assets/do-not-localize/blue_2.png) Release 21.1.3 - Build XXXX {#release-21-1-3-build-XXXX}
-
-_May 28, 2021_
+## ![](assets/do-not-localize/blue_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
 **What's new?**
 
 <table>
 <thead>
 <tr>
-<th><strong> Adobe Campaign Classic integration</strong><br/></th>
+<th><strong>Journey Orchestration integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -32,7 +30,7 @@ _May 28, 2021_
 <td>
 <p>The integration between Journey Orchestration and Adobe Campaign Classic is now GA. It allows Journey Orchestration to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.</p>
 <p>The connection between the Journey Orchestration and Campaign Classic instances is setup by Adobe at provisioning time.</p>
-<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html">Journey Orchestration documentation</a>.</p>
+<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html">Journey Orchestration documentation</a>. A step-by-step use case is presented in this <a href="https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html">section</a></p>
 </td>
 </tr>
 </tbody>
