@@ -8,6 +8,7 @@ role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: yes
+hide: yes
 ---
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
 
