@@ -28,7 +28,7 @@ Please review the details below to understand what is required for your implemen
 
 ## Adobe Hosted implementations {#hosted-customers}
 
-Ads a hosted customer, you have two options to install or update your client console(s):
+As a hosted customer, you have two options to install or update your client console(s):
 
 1. Adobe can deploy directly. Once the console is updated, users will be prompted to download the latest client console version in a pop-up window. 
 
