@@ -13,7 +13,7 @@ Adobe Campaign lets you import zipped or encrypted files. Before they can be rea
 
 To be able to do so:
 
-1. Use the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) to generate a public/private key pair.
+1. Use the [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) to generate a public/private key pair.
 
     >[!NOTE]
     >
@@ -48,7 +48,7 @@ In this use case, we will build a workflow in order to import data that has been
 
 The steps to perform this use case are as follows:
 
-1. Use the Control Panel to generate a key pair (public/private). Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Use the Control Panel to generate a key pair (public/private). Detailed steps are available in [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
     * The public key will be shared with the external system, which will use it to  encrypt the data to send to Campaign.
     * The private key will be used by Campaign Classic to decrypt the incoming encrypted data.
