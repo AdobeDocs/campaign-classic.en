@@ -6,8 +6,14 @@ feature: Overview
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
+hidefromtoc: yes
+hide: yes
 ---
-# Adobe Analytics Data Connector{#adobe-analytics-data-connector}
+# Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
+
+>[!IMPORTANT]
+>
+>Adobe Analytics Data Connector is now deprecated. Deprecated capabilities are still available, but they will not be further enhanced, nor supported. Learn more [in this page](../../rn/using/deprecated-features.md).
 
 ## About Data Connector integration {#about-data-connector-integration}
 
@@ -271,4 +277,4 @@ Adobe Campaign provides personalized delivery templates which you can use or dat
 
 The **[!UICONTROL Re-marketing efficiency]** report is accessed via the global reports page. It lets you view the number of contacts converted (i.e. having purchased something) in relation to the number of cart abandonments following the Adobe Campaign re-marketing campaign. The conversion rate is calculated per week, month or since the start of synchronization between Adobe Campaign and Web analytics tools.
 
-![](assets/webanalytics_reporting.png)
+![](assets/remarketing_reporting.png)

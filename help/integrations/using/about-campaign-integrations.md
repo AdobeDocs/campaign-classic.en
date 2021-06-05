@@ -83,8 +83,8 @@ The following table provides access to available Experience Cloud integration do
    <td> Integration between <strong>Triggers core service</strong> and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics.<br /> <p><a href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html">Learn more</a> about Adobe Campaign - Experience Cloud triggers integration.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Adobe Analytics - Data Connectors</strong><br /> </td> 
-   <td> <strong>Data connectors</strong> (previously known as Adobe Genesis) allows Adobe Campaign and Adobe Analytics interact through segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics - Data connector.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">Learn more</a> about Campaign - Data Connectors integration.</p><br /> </td> 
+   <td> <strong>Adobe Analytics Connector</strong><br /> </td> 
+   <td> <strong>Adobe Analytics Connector</strong> allows Adobe Campaign and Adobe Analytics interact through segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics.<br /> <p><a href="../../platform/using/adobe-analytics-connector.md">Learn more</a> about Campaign - Analytics Connectors integration.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>
