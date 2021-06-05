@@ -17,6 +17,18 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 The **Transactional Messaging** section has been reorganized an clarified with a new Get started section, including an [enhanced schema](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) for a better understanding of the process. [Read more](../../message-center/using/about-transactional-messaging.md)
 
+**Documentation updates coming with the 21.1.3 release**
+
+Integration with Adobe Journey Orchestration - [Learn more](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html). A step-by-step use case is presented in [this page](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)
+
+LINE channel enhancements - [Learn more](../../delivery/using/line-channel.md)
+
+New Vertica FDA connector - [Learn more](../../installation/using/configure-fda-vertica.md)
+
+New Google Big Query FDA connector - [Learn more](../../installation/using/configure-fda-google-big-query.md)
+
+The “Billing (billing)” technical workflow description now includes the tasks originally performed by the “Number of active billing profiles (billingActiveContactCount)”. [Read more](../../workflow/using/about-technical-workflows.md)
+
 ## May 2021 {#may-2021}
 
 The Workflow Heatmap report documentation has been updated and improved. [Read more](../../workflow/using/heatmap.md)
@@ -26,10 +38,6 @@ Campaign Client Console requirements have been updated in the Compatibility Matr
 Campaign Client Console installation for steps have been improved and clarified. [Read more](../../installation/using/installing-the-client-console.md)
 
 A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/tracked-urls.md)
-
-**Documentation updates coming with the 21.1.3 release**
-
-The “Billing (billing)” technical workflow description now includes the tasks originally performed by the “Number of active billing profiles (billingActiveContactCount)”. [Read more](../../workflow/using/about-technical-workflows.md)
 
 ## April 2021 {#april-2021}
 

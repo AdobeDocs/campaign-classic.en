@@ -10,17 +10,15 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
+* **[June Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements and fixes in the Release Notes
+
 * **[Remove incorrect hard bounces](delivery/using/update-bounce-qualification.md)**<br/> Learn how to update incorrect hard bounces after Apple outage
 
-* **[Update your APNs certificate](technotes/ios-certificate-update.md)**<br/> On March 29 2021, an APNs update impacted Campaign iOS channel. You need to update your configuration to avoid iOS push channel outage.
+* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**
 
-* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**.
-
-* **[Secure your Campaign instances](technotes/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform.
+* **[Secure your Campaign instances](technotes/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform
 
 * **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life. Learn how to migrate to Adobe I/O.
-
-* **[Move to HTTP/2-based APNs provider API](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/> Learn how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API
 
 * **[Get Support](support.md)**<br/> Access FAQs, best practices, help resources, and request for help
 
