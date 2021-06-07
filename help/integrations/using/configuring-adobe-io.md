@@ -94,7 +94,7 @@ procedure detailed [in this page](https://helpx.adobe.com/enterprise/admin-guide
 
 >[!NOTE]
 >
->This step is not required if your Client identifier was not empty.
+>This step is not required if your Client identifier was not empty in [Step 1: Create/update Adobe I/O Project](#creating-adobe-io-project).
 
 The private key should be encoded in base64 UTF-8 format. To do so:
 
@@ -106,19 +106,19 @@ The private key should be encoded in base64 UTF-8 format. To do so:
     >
     >Extra lines can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
 
-1. Copy the contents from the file `private.key.base64` and follow the command below:
+1. Copy the contents from the file `private.key.base64`.
+
+1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
 
     ```
     nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
     ```
 
-1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
-
 ## Step 3: Update pipelined tag {#update-pipelined-tag}
 
 >[!NOTE]
 >
->This step is not required if your Client identifier was not empty.
+>This step is not required if your Client identifier was not empty in [Step 1: Create/update Adobe I/O Project](#creating-adobe-io-project).
 
 To update [!DNL pipelined] tag, you need to update the authentication type to Adobe I/O project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
 
