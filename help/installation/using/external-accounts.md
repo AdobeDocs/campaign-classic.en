@@ -405,7 +405,7 @@ As you are setting up this new external account, you need to provide the followi
 
 To learn where to find the access key ID and secret access key, refer to Amazon Web services [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
 
-### Azure Blob Storage (#azure-blob-external-account)
+### Azure Blob Storage {#azure-blob-external-account}
 
 The **Azure Blob storage** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. For more on this, refer to this [section](../../workflow/using/file-transfer.md).
 
