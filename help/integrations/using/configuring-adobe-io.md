@@ -25,7 +25,7 @@ Before starting this implementation, please check you have:
 
 * a valid **Organization identifier**: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO). [Learn more](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
 * a **Developer access** to your Organization. The System administrator of the IMS Org needs to follow the **Add developers to a single product profile**
-procedure detailed [in this page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) to provide developer access for the `Analytics -{tenantID}` Product Profile of the Adobe Analytics Product associated with Triggers.
+procedure detailed [in this page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) to provide developer access for the `Analytics - {tenantID}` Product Profile of the Adobe Analytics Product associated with Triggers.
 
 ## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
 
