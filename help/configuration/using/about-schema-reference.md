@@ -68,18 +68,13 @@ A data schema is identified by its name and its namespace.
 
 A namespace lets you group a set of schemas by area of interest. For example, the **cus** namespace is used for customer-specific configuration (**customers**).
 
+The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: **cus:recipient**.
+
 >[!IMPORTANT]
 >
->As a standard, the name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
+>The name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
 >
 >Identifiers must not begin with numeric characters.
+>
+>The following namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application and must not be used: **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**.
 
-Certain namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application:
-
-* **xtk**: concerning platform system data,
-* **nl**: concerning the overall use of the application,
-* **nms**: concerning delivery (recipient, delivery, tracking, etc.),
-* **ncm**: concerning content management,
-* **temp**: reserved for temporary schemas.
-
-The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: **cus:recipient**.

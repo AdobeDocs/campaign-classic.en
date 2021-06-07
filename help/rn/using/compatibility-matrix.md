@@ -41,7 +41,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>
 <p>10 (64 bits)</p>
 <p>9 (64 bits)</p>
-<p>8 (64 bits)</p>
 </td>
 </tr>
 <tr>
@@ -132,6 +131,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
 <p>10.x</p>
@@ -183,6 +183,14 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <table>
 <tbody>
 <tr>
+<td>Vertica</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Google Big Query</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td>&nbsp;</td>
 </tr>
@@ -203,6 +211,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
 <p>10.x</p>

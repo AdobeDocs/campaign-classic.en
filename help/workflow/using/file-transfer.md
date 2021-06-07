@@ -30,7 +30,7 @@ The configuration depends on the action selected.
 
    ![](assets/file_transfert_edit.png)
 
-   Check **[!UICONTROL Use an external account]** to select an account from the S3, FTP or SFTP accounts configured in the **[!UICONTROL Administration > Platform > External accounts]** node of the tree. Then specify which directory on the server contains the file(s) to be downloaded.
+   Check **[!UICONTROL Use an external account]** to select an account from the Azure Blob storage, S3, FTP or SFTP accounts configured in the **[!UICONTROL Administration > Platform > External accounts]** node of the tree. Then specify which directory on the server contains the file(s) to be downloaded.
 
    ![](assets/file_transfert_edit_external.png)
 
@@ -81,7 +81,7 @@ The **[!UICONTROL Advanced parameters...]** link lets you access the following o
 
 * **[!UICONTROL Display the session logs]**
 
-  Allows you to recover the logs of the S3, FTP or SFTP transfer and to include them in the workflow logs.
+  Allows you to recover the logs of the Azure Blob storage, S3, FTP or SFTP transfer and to include them in the workflow logs.
 
 * **[!UICONTROL Disable passive mode]**
 
