@@ -92,7 +92,7 @@ Generally, a trigger can take 15-90 minutes to launch a marketing campaign. This
 1. Check the [!DNL pipelined] status page for the queue size. If the queue size is large, improve the performance of the JS.
 1. Since a delay seems to increase with volume, configure the triggers on Analytics using fewer messages.
 
-**Upgrading Stage Instances from legacy Authentication to Adobe IO authentication**
+**Upgrading stage instances from legacy authentication to Adobe IO authentication**
 
 Changing the integration authentication on your stage instance will not affect the configuration of your production instance. You can choose to upgrade your stage instance then update the authentication to Adobe IO and test your triggers on your stage instance. 
 
