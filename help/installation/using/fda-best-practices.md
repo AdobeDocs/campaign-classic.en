@@ -9,16 +9,6 @@ exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 ---
 # Best practices and limitations 
 
-## Create temporary schemas {#create-temporary-schemas}
-
-You can manage several accesses to Greenplum external database throuhgh FDA. A dedicated option lets you create a working schema directly when configuring the external account.
-
-![](assets/fda_work_table.png)
-
->[!NOTE]
->
->This option is only available with PostgreSQL Greenplum.
-
 ## Optimize email personalization with external data {#optimizing-email-personalization-with-external-data}
 
 You can pre-process message personalization in a dedicated workflow. To perform this, use the **[!UICONTROL Prepare the personalization data with a workflow]** option, available in the **[!UICONTROL Analysis]** tab of the delivery properties.
