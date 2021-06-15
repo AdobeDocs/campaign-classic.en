@@ -35,6 +35,10 @@ Depending on the external databases that you want to be able to access from Adob
 
 Follow the links below to learn more:
 
+* Connect Campaign and [Vertica](../../installation/using/configure-fda-vertica.md)
+
+* Connect Campaign and [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
+
 * Connect Campaign and [Azure Synapse](../../installation/using/configure-fda-synapse.md)
 
 * Connect Campaign and [Snowflake](../../installation/using/configure-fda-snowflake.md)

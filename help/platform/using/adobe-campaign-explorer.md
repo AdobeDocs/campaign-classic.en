@@ -66,7 +66,7 @@ For optimal navigation and usability, Adobe recommends using a minimum screen re
 
 >[!CAUTION]
 >
->Resolutions under 1600x900 pixels are supported by Adobe Campaign.
+>Resolutions under 1600x900 pixels are not supported by Adobe Campaign.
 
 In the **[!UICONTROL Explorer]** workspace, if some parts of the **[!UICONTROL Details]** zone appear to be truncated, expand it using the arrow on top of the zone or click the **[!UICONTROL Enlarge]** button.
 
