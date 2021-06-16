@@ -13,9 +13,18 @@ Once the package is installed, you can define your iOS app settings in Adobe Cam
 
 >[!NOTE]
 >
->To learn how to configure your app for Android and how to create a delivery for Android, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md).
+>To learn how to configure your app for Android and how to create a delivery for Android, refer to this [section](configuring-the-mobile-application-android.md).
 
-## Configuring iOS external account {#configuring-external-account-ios}
+Key steps are:
+
+1. [Configure the iOS external account](#configuring-external-account-ios)
+1. [Configure the iOS service](#configuring-ios-service)
+1. [Integrate the iOS mobile app in Campaign](#creating-ios-app)
+
+You will then be able to [create a push notification for iOS devices](create-notifications-ios.md).
+
+
+## Configure iOS external account {#configuring-external-account-ios}
 
 For iOS, the iOS HTTP/2 connector sends notifications to the HTTP/2 APNs.
 
@@ -31,7 +40,7 @@ To configure this connector, follow these steps:
 
 Your iOS connector is now configured. You can start creating your service.
 
-## Configuring iOS service {#configuring-ios-service}
+## Configure iOS service {#configuring-ios-service}
 
 >[!CAUTION]
 >
@@ -58,9 +67,9 @@ Your iOS connector is now configured. You can start creating your service.
 
 1. Create your iOS Development and Production applications. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app).
 
-## Creating iOS mobile application {#creating-ios-app}
+## Create iOS mobile app {#creating-ios-app}
 
-After creating your service, you now need to create your iOS application:
+After creating your service, create your iOS applicationin Campaign. Follow the steps below:
 
 1. From your newly created service, click the **[!UICONTROL Add]** button to select the application type.
 
@@ -112,40 +121,3 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 1. Click **[!UICONTROL Finish]**.
 
 Your iOS application is now ready to be used in Campaign Classic.
-
-## Creating an iOS rich notification {#creating-ios-delivery}
-
-With iOS 10 or higher, it is possible to generate rich notifications. Adobe Campaign can send notifications using variables that will allow the device to display a rich notification.
-
-You now need to create a new delivery and link it to the mobile application that you created.
-
-1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
-
-1. Click **[!UICONTROL New]**.
-
-    ![](assets/nmac_android_3.png)
-
-1. Select **[!UICONTROL Deliver on iOS (ios)]** in the **[!UICONTROL Delivery template]** drop-down. Add a **[!UICONTROL Label]** to your delivery.
-
-1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select our previously created service.
-
-    ![](assets/nmac_ios_9.png)
-
-1. In the **[!UICONTROL Target type]** window, select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** and click **[!UICONTROL Next]**.
-
-1. In the **[!UICONTROL Service]** drop-down, select your previously created service then the application you want to target and click **[!UICONTROL Finish]**.
-    The **[!UICONTROL Application variables]** are automatically added depending on what was added during the configuration steps.
-
-   ![](assets/nmac_ios_6.png)
-
-1. Edit your rich notification.
-
-   ![](assets/nmac_ios_7.png)
-
-1. Check the **[!UICONTROL Mutable content]** box in the edit notification window to allow the mobile application to download media content.
-
-1. Click **[!UICONTROL Save]** and send your delivery.
-
-The image and web page should be displayed in the push notification when received on the subscribers' mobile iOS devices.
-
-   ![](assets/nmac_ios_8.png)
