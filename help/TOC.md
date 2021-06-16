@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: Adobe Campaign Classic v7 Guide
-breadcrumb-title: Help Center
+breadcrumb-title: Campaign Classic v7 Documentation
 product: campaign
-title: Campaign Classic Guide
+title: Campaign Classic v7 Guide
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
+user-guide-description: With Adobe Campaign, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
 sub-product: adobe campaign classic
 type: Documentation
 ---
