@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 ---
-# Starting the workflow {#step-7--starting-the-workflow}
+# Start the workflow {#step-7--starting-the-workflow}
 
 1. Click **[!UICONTROL Start]** the workflow.
 
@@ -23,4 +23,4 @@ exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 
 1. Once the content of the third delivery is determined, approve the target and the content.
 
-You can now analyze the result (see [Step 8: Analyze the result](../../delivery/using/a-b-testing-uc-analyzing.md)).
+You can now analyze the result. [Learn more](a-b-testing-uc-analyzing.md).

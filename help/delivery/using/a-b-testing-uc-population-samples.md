@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 ---
-# Configuring population samples {#step-2--configuring-population-samples}
+# Configure population samples {#step-2--configuring-population-samples}
 
-## Configuring the Query activity {#configuring-the-query-activity}
+## Configure the Query activity {#configuring-the-query-activity}
 
 * Double-click the **[!UICONTROL Query]** activity.
 
@@ -23,7 +23,7 @@ exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 
   ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## Configuring the Split activity {#configuring-the-split-activity}
+## Configure the Split activity {#configuring-the-split-activity}
 
 This activity lets you create several populations: the one that receives delivery A, the one that receives delivery B, and the remaining population. Using random selection lets you target just part of the population of each delivery.
 
@@ -73,4 +73,4 @@ This activity lets you create several populations: the one that receives deliver
     
       ![](assets/use_case_abtesting_createrecipients_013.png)
 
-You can now create the two delivery templates (see [Step 3: Create two delivery templates](../../delivery/using/a-b-testing-uc-delivery-templates.md)).
+You can now create the two delivery templates. [Learn more](a-b-testing-uc-delivery-templates.md)).

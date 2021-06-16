@@ -9,7 +9,7 @@ exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 ---
 # About content management{#about-content-management}
 
-Adobe Campaign Content Manager module is a specific Campaign Classic [standard package](../../installation/using/installing-campaign-standard-packages.md) that you can install to create recurrent newsletters or website. It can help you to create, validate, and publish your messages.
+Adobe Campaign Content Manager module is a specific Campaign Classic [built-in package](../../installation/using/installing-campaign-standard-packages.md) that you can install to create recurrent newsletters or website. It can help you to create, validate, and publish your messages.
 
 >[!NOTE]
 >

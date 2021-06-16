@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 ---
-# Creating the script {#step-5--creating-the-script}
+# Create the script {#step-5--creating-the-script}
 
 The choice of the delivery content destined for the remaining population is calculated by a script. This script recovers the information concerning the delivery with the highest rate of opens and copies the content into the final delivery.
 
 ## Example of a script {#example-of-a-script}
 
-The following script can be used as is in the targeting workflow. For more on this, refer to [Implementation](#implementation).
+The following script can be used as is in the targeting workflow. For more on this, refer to [this section](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
@@ -59,7 +59,7 @@ The following script can be used as is in the targeting workflow. For more on th
    vars.deliveryId = delivery.id
 ```
 
-For a detailed explanation of the script, refer to [Details of the script](#details-of-the-script).
+For a detailed explanation of the script, refer to [this section](#details-of-the-script).
 
 ## Implementation {#implementation}
 
@@ -162,4 +162,4 @@ The example above lets you select the content of a delivery based on the rate of
 * Lowest unsubscription rate: `[indicators/@optOutRatio]`,
 * Transaction amount: `[indicators/@amount]`.
 
-You can now define the final delivery (see [Step 6: Define the final delivery](../../delivery/using/a-b-testing-uc-final-delivery.md)).
+You can now define the final delivery. [Learn more](a-b-testing-uc-final-delivery.md).
