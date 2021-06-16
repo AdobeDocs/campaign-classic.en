@@ -157,7 +157,9 @@ type: Documentation
             + [Get started with the app configuration](delivery/using/get-started-app-config.md)
             + [Configuration steps for iOS](delivery/using/configuring-the-mobile-application.md)
             + [Configuration steps for Android](delivery/using/configuring-the-mobile-application-android.md)
-       + [Create notifications](delivery/using/creating-notifications.md)
+       + Create a push notification{#create-a-push-msg}
+            + [Create a push message for iOS](delivery/using/create-notifications-ios.md)
+            + [Create a push message for Android](delivery/using/create-notifications-android.md)
        + [Troubleshooting](delivery/using/troubleshooting.md)
   + Send direct mail {#sending-direct-mail}
        + [About direct mail channel](delivery/using/about-direct-mail-channel.md)

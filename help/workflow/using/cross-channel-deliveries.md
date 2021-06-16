@@ -11,8 +11,6 @@ exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 
 Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of campaign workflow activities.
 
-They let you create a delivery that is specific to a particular channel. You can specify the template on which you want to base your delivery as well as its content, in the same way as with a a classic delivery wizard.
-
 The various channels available are:
 
 * [Email](../../delivery/using/about-email-channel.md)
@@ -20,12 +18,14 @@ The various channels available are:
 * [Mobile](../../delivery/using/sms-channel.md)
 * [Twitter](../../social/using/publishing-on-twitter.md)
 * [Facebook](../../social/using/publishing-on-facebook.md)
-* [iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios)
-* [Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)
+* [iOS](../../delivery/using/create-notifications-ios.md)
+* [Android](../../delivery/using/create-notifications-android.md)
+
+Select the template on which you want to base your delivery and define its content.
 
 You can specify a target for your delivery upstream of the workflow using the different targeting activities.
 
-For example, here we will create a workflow to send an email or an SMS for push notification subscribers then a push notification one week later. To do this:
+In the example below, we will create a workflow to send an email or an SMS for push notification subscribers then a push notification one week later. To do this:
 
 1. Create a campaign.
 1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **[!UICONTROL Query]** to your workflow.
@@ -33,7 +33,7 @@ For example, here we will create a workflow to send an email or an SMS for push 
 
    >[!NOTE]
    >
-   >For the push notifications, remember to use the **subscriber applications** target dimension.
+   >For the push notifications, use the **subscriber applications** target dimension.
 
    ![](assets/cross_channel_delivery_1.png)
 

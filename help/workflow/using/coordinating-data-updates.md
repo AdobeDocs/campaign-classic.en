@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 ---
-# Coordinating data updates{#coordinating-data-updates}
+# Coordinate data updates{#coordinating-data-updates}
 
 This use case details the creation of a workflow which lets you manage concomittent updates when using several executions of a workflow.
 
@@ -47,5 +47,5 @@ To build the workflow, follow the steps below:
 
 **Related topics:**
 
-* [Preventing simultaneous multiple executions](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [Prevent simultaneous multiple executions](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
 * [Update Data activity](../../workflow/using/update-data.md)
