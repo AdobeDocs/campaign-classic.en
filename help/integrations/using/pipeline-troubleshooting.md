@@ -34,7 +34,7 @@ The @authPrivateKey parameter of the instance config file is incorrect.
 
 1. Check that the authPrivateKey is set.
 1. Check that the authPrivateKey: starts with @, ends with =, and is about 4000 characters long.
-1. Look for the original key and check that it is: in RSA format, 4096 bits long, and starts with -----BEGIN RSA PRIVATE KEY-----.
+1. Look for the original key and check that it is: in RSA format, 4096 bits long, and starts with `-----BEGIN RSA PRIVATE KEY-----`.
 <br> If necessary, re-create the key and register it on Adobe Analytics.
 1. Check that the key was encoded within the same instance as [!DNL pipelined]. <br>If necessary, redo the encoding using the sample JavaScript or workflow.
 
@@ -45,6 +45,21 @@ The private key has an invalid format.
 1. Run the steps for key encryption on this page.
 1. Check that the key is encrypted on the same instance.
 1. Check that the authPrivateKey in the config file matches the generated key. <br>Make sure to use OpenSSL to generate the key pair. PuttyGen for example, does not generate the proper format.
+
+**Pipelined fails with "is no longer allowed to get access token"**
+
+The logs should be as follows:
+
+```
+2021-05-31T08:42:18.124Z        66462   66501   1       error   log     Listener: JWT Token is empty. (iRc=16384)
+2021-05-31T08:42:18.210Z        66462   66501   1       error   log     Unknown authentication mode: 'Bearer realm="Adobe Analytics"'. (iRc=-55)
+2021-05-31T08:42:18.210Z        66462   66501   1       error   log     BAS-010007 Function not implemented (iRc=-55)
+2021-05-31T08:42:48.582Z        66462   66501   1       warning log     Connection seems to have been lost. Attempting to reconnect.
+2021-05-31T08:43:09.156Z        66462   66501   1       error   log     INT-150012 The HTTP query returned a 'Forbidden' type error (403) (iRc=-53)
+2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
+```
+
+This error message means that the authentication is configured using the legacy Omniture base OAuth. Refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) documentation to upgrade your authentication.
 
 **No triggers are retrieved**
 
@@ -76,3 +91,9 @@ Generally, a trigger can take 15-90 minutes to launch a marketing campaign. This
 1. Look for errors in pipelined.log that can cause retries. Fix the errors, if applicable.
 1. Check the [!DNL pipelined] status page for the queue size. If the queue size is large, improve the performance of the JS.
 1. Since a delay seems to increase with volume, configure the triggers on Analytics using fewer messages.
+
+**Upgrading stage instances from legacy authentication to Adobe IO authentication**
+
+Changing the integration authentication on your stage instance will not affect the configuration of your production instance. You can choose to upgrade your stage instance then update the authentication to Adobe IO and test your triggers on your stage instance. 
+
+Your production instance will continue to use the legacy authentication and will be unaffected by this change.

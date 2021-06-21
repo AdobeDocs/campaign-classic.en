@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Configuring the deliveries
-description: Learn how to perform A/B testing through a dedicated use case.
+title: Configure deliveries
+description: Learn how to perform A/B testing through a dedicated use case
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 ---
-# Configuring the deliveries in the workflow {#step-4--configuring-the-deliveries-in-the-workflow}
+# Configure the deliveries in the workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
-The next step is to configure the deliveries. They are destined for the three populations created during the previous stage: [Step 2: Configuring population samples](#step-2--configuring-population-samples). The first two deliveries enable you to send different contents to population A and B. The third delivery is destined for the population that received neither A nor B. Its content will be calculated by a script and will be identical to either A or B, depending on which one scored the highest open rate. We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.
+Once [populations are created](a-b-testing-uc-population-samples.md), you can configure the deliveries. In this use case, the first two deliveries enable you to send different contents to population A and B. The third delivery is the fall-back delivery: it will be sent to the recipients who do not belong to A nor B. Its content will be calculated by a script and will be identical to either A or B, depending on which one scored the highest open rate. We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.
 
 1. Go to the **[!UICONTROL Split]** activity and link the transition destined for population A to one of the email deliveries already in the workflow.
 
@@ -44,4 +44,4 @@ The next step is to configure the deliveries. They are destined for the three po
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 
-You can now create the script (see [Step 5: Create the script](../../delivery/using/a-b-testing-uc-script.md)).
+You can now create the script. [Learn more](a-b-testing-uc-script.md).

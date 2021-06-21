@@ -172,6 +172,9 @@ External databases compatible with Campaign are listed in the [Compatibility mat
 
 External account configuration settings depend on the database engine. Learn more in the following sections:
 
+* Configure access to [Vertica](../../installation/using/configure-fda-vertica.md)
+* Configure access to [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Configure access to [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Configure access to [Azure Synapse](../../installation/using/configure-fda-synapse.md)
 * Configure access to [Hadoop](../../installation/using/configure-fda-hadoop.md)
 * Configure access to [Oracle](../../installation/using/configure-fda-oracle.md)
@@ -405,7 +408,7 @@ As you are setting up this new external account, you need to provide the followi
 
 To learn where to find the access key ID and secret access key, refer to Amazon Web services [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
 
-### Azure Blob Storage (#azure-blob-external-account)
+### Azure Blob Storage {#azure-blob-external-account}
 
 The **Azure Blob storage** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. For more on this, refer to this [section](../../workflow/using/file-transfer.md).
 

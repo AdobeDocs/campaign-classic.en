@@ -214,7 +214,8 @@ Campaign Classic is not compatible with the following servers in Federated Data 
 
 **RDBMS SERVER**
 
-Adobe Campaign is not compatible with the following RDBMS Servers:
+Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following RDBMS Servers:
+
 * Oracle 10GR2
 * PostgreSQL 9.0 to 9.3
 * SQL Server 2005

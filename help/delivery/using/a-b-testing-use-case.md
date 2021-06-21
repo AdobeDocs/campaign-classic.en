@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: About this use case
+title: AB testing use case
 description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
@@ -33,4 +33,4 @@ The main steps to perform this use case are:
 **Related topics:**
 
 * [Get started with A/B testing](../../delivery/using/get-started-a-b-testing.md)
-* [Configuring A/B testing](../../delivery/using/configuring-a-b-testing.md)
+* [Configure A/B testing](../../delivery/using/configuring-a-b-testing.md)
