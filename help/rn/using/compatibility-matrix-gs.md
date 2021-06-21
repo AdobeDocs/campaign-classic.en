@@ -170,6 +170,11 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <p>API version 15</p>
 </td>
 </tr>
+<tr><td>Oracle On Demand API</td>
+<td>
+<p>Web Services v1.0 API</p>
+</td>
+</tr>
 <tr>
 <td>Microsoft Dynamics</td>
 <td>

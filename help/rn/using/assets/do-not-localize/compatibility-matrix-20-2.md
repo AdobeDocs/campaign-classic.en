@@ -182,6 +182,11 @@ The following RDBMS drivers are supported:
 <p>API version 21</p>
 </td>
 </tr>
+<tr><td>Oracle On Demand API</td>
+<td>
+<p>Web Services v1.0 API</p>
+</td>
+</tr>
 <tr>
 <td>Microsoft Dynamics</td>
 <td>
