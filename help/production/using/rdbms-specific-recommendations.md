@@ -74,9 +74,9 @@ To help you set up maintenance plans, this section lists some recommendations an
 
 In PostgreSQL, you can use these typical keywords:
 
-1.	VACUUM (FULL, ANALYZE, VERBOSE) 
+*	VACUUM (FULL, ANALYZE, VERBOSE) 
 
-1.	REINDEX
+*	REINDEX
 
 To run the VACUUM operation, and analyze and time it, you can use this syntax:
 
