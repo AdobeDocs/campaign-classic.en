@@ -43,31 +43,31 @@ To help you set up maintenance plans, this section lists some recommendations an
       tablename,
       sum(size_mbytes) AS "sizeMB_all",
       (
-	      SELECT sum(size_mbytes)
-		   FROM uvspace
-		   AS uv2
-		   WHERE
+         SELECT sum(size_mbytes)
+         FROM uvspace
+         AS uv2
+         WHERE
             INDEXNAME IS NULL
             AND uv1.tablename = uv2.tablename
-   	) AS "sizeMB_data",
-	   (
-		   SELECT sum(size_mbytes)
-		   FROM uvspace 
-		   AS uv2 
-		   WHERE
+      ) AS "sizeMB_data",
+      (
+         SELECT sum(size_mbytes)
+         FROM uvspace 
+         AS uv2 
+         WHERE
             INDEXNAME IS NOT NULL
             AND uv1.tablename = uv2.tablename
-	   ) AS "sizeMB_index",
-	   (
-		   SELECT ROW_COUNT
-		   FROM uvspace
-   	   AS uv2
-   	   WHERE
+      ) AS "sizeMB_index",
+      (
+         SELECT ROW_COUNT
+         FROM uvspace
+         AS uv2
+         WHERE
             INDEXNAME IS NULL
             AND uv1.tablename = uv2.tablename
-   	) AS ROWS FROM uvspace AS uv1
-   	GROUP BY tablename
-   	ORDER BY 2 DESC
+      ) AS ROWS FROM uvspace AS uv1
+      GROUP BY tablename
+      ORDER BY 2 DESC
    ```
 
 ### Simple maintenance {#simple-maintenance}
