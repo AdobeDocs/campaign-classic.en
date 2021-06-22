@@ -98,19 +98,7 @@ A list of personalization blocks is available by default to help you personalize
 
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist).
-* **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. This block must be inserted in the source code of the delivery, into **`<script>...</script>`** tags.
-
-  In the example below, the function is used to replace the element "My header" by "My new header" with uppercase letters at each word:
-
-  ```
-  <h1 id="sample">My header</h1>
-  <script><%@ include view='toSmartCase'%>;
-  document.getElementById("sample").innerHTML = toSmartCase("My new header");
-  </script>
-  ```
-
-  ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
-
+<!-- * **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. This block must be inserted in the source code of the delivery, into **`<script>...</script>`** tags. -->
 * **[!UICONTROL Registration page URL]** : inserts a subscription URL (see [About services and subscriptions](../../delivery/using/about-services-and-subscriptions.md)).
 * **[!UICONTROL Registration link]** : inserts a subscription link. that has been defined when configuring the instance.
 * **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. The link has been defined when configuring the instance.
