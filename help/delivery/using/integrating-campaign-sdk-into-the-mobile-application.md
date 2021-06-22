@@ -5,6 +5,7 @@ description: Learn how to integrate Campaign SDK to your mobile app
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
+version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 ---
 # Integrating Campaign SDK with your app {#integrating-campaign-sdk-into-the-mobile-application}

@@ -329,7 +329,7 @@ In the **dataStore > dataSource > dbcnx** node, configure the connection setting
   </tr> 
   <tr> 
    <td> provider<br /> </td> 
-   <td> Type (enumeration). Possible values are 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase ASE, Sybase IQ)), 'Relay' (HTTP relay to remote database).<br /> </td> 
+   <td> Type (enumeration). Possible values are 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase ASE, Sybase IQ)), 'Relay' (HTTP relay to remote database).<br /> </td> 
    <td> String<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 

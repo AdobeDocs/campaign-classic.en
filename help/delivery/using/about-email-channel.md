@@ -14,15 +14,15 @@ Adobe Campaign lets you mass deliver personalized electronic messages to a targe
 Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
-* Learn more about the Adobe Campaign [Delivery best practices](../../delivery/using/delivery-best-practices.md).
-* Read about [Deliverability](../../delivery/using/about-deliverability.md) and [Managing deliverability](https://helpx.adobe.com/campaign/kb/acc-deliverability.html).
+* Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 
-* [Creating an email delivery](../../delivery/using/creating-an-email-delivery.md)
-* [Defining the target population](../../delivery/using/steps-defining-the-target-population.md)
-* [Defining the email content](../../delivery/using/defining-the-email-content.md)
-* [Sending the email](../../delivery/using/sending-messages.md)
-* [Monitoring the delivery](../../delivery/using/about-delivery-monitoring.md)
+* [Create an email delivery](../../delivery/using/creating-an-email-delivery.md)
+* [Define the target population](../../delivery/using/steps-defining-the-target-population.md)
+* [Define the email content](../../delivery/using/defining-the-email-content.md)
+* [Send the email](../../delivery/using/sending-messages.md)
+* [Monitor the delivery](../../delivery/using/about-delivery-monitoring.md)
 
-The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](steps-about-delivery-creation-steps.md).

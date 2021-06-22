@@ -1,5 +1,4 @@
 ---
-product: campaign
 title: CRM Connector
 description: Learn more about the CRM Connector and configure data synchronization
 audience: workflow

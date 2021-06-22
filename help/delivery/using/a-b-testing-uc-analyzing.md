@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 ---
-# Analyzing the result {#step-8--analyzing-the-result}
+# Analyze the result {#step-8--analyzing-the-result}
 
 Once the test deliveries have been sent, you can check which recipient(s) they have been sent to and whether or not they were opened.
 

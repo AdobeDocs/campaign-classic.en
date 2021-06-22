@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: Adobe Campaign Classic v7 Guide
-breadcrumb-title: Help Center
+breadcrumb-title: Campaign Classic v7 Documentation
 product: campaign
-title: Campaign Classic Guide
+title: Campaign Classic v7 Guide
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
+user-guide-description: With Adobe Campaign, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
 sub-product: adobe campaign classic
 type: Documentation
 ---
@@ -157,7 +157,9 @@ type: Documentation
             + [Get started with the app configuration](delivery/using/get-started-app-config.md)
             + [Configuration steps for iOS](delivery/using/configuring-the-mobile-application.md)
             + [Configuration steps for Android](delivery/using/configuring-the-mobile-application-android.md)
-       + [Create notifications](delivery/using/creating-notifications.md)
+       + Create a push notification{#create-a-push-msg}
+            + [Create a push message for iOS](delivery/using/create-notifications-ios.md)
+            + [Create a push message for Android](delivery/using/create-notifications-android.md)
        + [Troubleshooting](delivery/using/troubleshooting.md)
   + Send direct mail {#sending-direct-mail}
        + [About direct mail channel](delivery/using/about-direct-mail-channel.md)

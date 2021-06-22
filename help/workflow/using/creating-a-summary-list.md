@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 ---
-# Creating a summary list{#creating-a-summary-list}
+# Create a summary list{#creating-a-summary-list}
 
 This use case details the creation of a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.
 
@@ -31,7 +31,7 @@ To create a summary list, you need to follow these steps:
 1. Enriching the "Contacts" data with an aggregate calculation from the "Purchases" table
 1. Creating a summary list
 
-## Step 1: Loading the file and reconciling the imported data {#step-1--loading-the-file-and-reconciling-the-imported-data}
+## Step 1: Load the file and reconcile the imported data {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 The data to be loaded is "Purchase" related data with the following format:
 
@@ -53,7 +53,7 @@ This data is contained in a "Purchases.txt" text file.
 
    The **Data loading(file)** activity lets you enrich the work table of the workflow with the collected data.
 
-   For more on this activity, refer to [Loading data from a file](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
+   For more on this activity, refer to [Load data from a file](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
 1. Configure the **File collector** activity to collect text (&#42;.txt) type files from the selected directory.
 
@@ -104,7 +104,7 @@ The data in the work table of the workflow after this enrichment will be as foll
 
 ![](assets/uc2_enrich_population1.png)
 
-## Step 2: Writing enriched data to the 'Purchases' table {#step-2--writing-enriched-data-to-the--purchases--table}
+## Step 2: Write enriched data to the 'Purchases' table {#step-2--writing-enriched-data-to-the--purchases--table}
 
 This step details how to write the imported and enriched data to the "Purchases" table. To do this, we need to use an **Update data** activity.
 
@@ -128,7 +128,7 @@ In the **Update data** activity, the following configuration is needed:
 
 ![](assets/uc2_enrich_miseajour.png)
 
-## Step 3: Enriching 'Contact' data {#step-3--enriching--contact--data-}
+## Step 3: Enrich 'Contact' data {#step-3--enriching--contact--data-}
 
 The "Contacts" schema is physically linked to the "Purchases" schema. This means you can use another option of the "Enrichment" option: adding data linked to the filtering dimension.
 
@@ -164,7 +164,7 @@ To prepare the summary list, you need to add fields from the "Purchases" fields 
 
    ![](assets/uc2_enrich_enrich8.png)
 
-## Step 4: Creating and adding to a summary list {#step-4--creating-and-adding-to-a-summary-list}
+## Step 4: Create and add to a summary list {#step-4--creating-and-adding-to-a-summary-list}
 
 The last step involves writing all the enriched data to a list.
 
