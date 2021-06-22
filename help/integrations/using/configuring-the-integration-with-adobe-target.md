@@ -28,3 +28,7 @@ To configure Adobe Campaign:
     * **[!UICONTROL TNT_TenantName]** : Adobe Target Organization name. This value corresponds to the name of the Adobe Target **[!UICONTROL Client]**.
 
    ![](assets/tar_options.png)
+
+>[!CAUTION]
+>
+>For hybrid and hosted architectures, these options must be set on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/configuring-instances.md#execution-instance).
