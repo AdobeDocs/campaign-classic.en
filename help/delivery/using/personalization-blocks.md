@@ -98,6 +98,7 @@ A list of personalization blocks is available by default to help you personalize
 
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist).
+* **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
 * **[!UICONTROL Registration page URL]** : inserts a subscription URL (see [About services and subscriptions](../../delivery/using/about-services-and-subscriptions.md)).
 * **[!UICONTROL Registration link]** : inserts a subscription link. that has been defined when configuring the instance.
 * **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. The link has been defined when configuring the instance.
