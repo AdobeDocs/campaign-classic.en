@@ -36,6 +36,7 @@ To help you set up maintenance plans, this section lists some recommendations an
    ```
    SELECT * FROM uvSpace;
    ```
+
    Alternatively, you can run this query, for example, to see all index sizes collectively:
 
    ```
@@ -74,9 +75,8 @@ To help you set up maintenance plans, this section lists some recommendations an
 
 In PostgreSQL, you can use these typical keywords:
 
-*	VACUUM (FULL, ANALYZE, VERBOSE) 
-
-*	REINDEX
+* VACUUM (FULL, ANALYZE, VERBOSE)
+* REINDEX
 
 To run the VACUUM operation, and analyze and time it, you can use this syntax:
 
