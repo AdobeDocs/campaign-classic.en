@@ -23,7 +23,7 @@ This action creates a delivery template from the selected delivery. You must ent
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
-For more information on the configuration mode, refer to [Linking the template to a delivery](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
+For more information on the configuration mode, refer to [Linking the template to a delivery](creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
 
 ## Creating a new template {#creating-a-new-template}
 

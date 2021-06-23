@@ -39,7 +39,7 @@ Once you checked every account individually, there are 2 possible scenarios:
   * Some of the external accounts share the same login/password combination.
     The provider has no way to tell from which external account the `BIND PDU` is coming from, so they treat all connections from the multiple accounts as a single one. They might have routed MO and SR randomly over the two accounts, causing issues.
     If the provider supports multiple short codes for the same login/password combination, you will have to ask them where to put that short code in the `BIND PDU`. Note that this piece of information has to be put inside the `BIND PDU`, and not in `SUBMIT_SM`, since the `BIND PDU` is the only place that will allow routing MOs correctly.
-    See the [Information in each kind of PDU](../../delivery/using/sms-protocol.md#information-pdu) section above to know which field is available in the `BIND PDU`, usually you add the short code in `address_range`, but that requires special support from the provider. Contact them to know how they expect to route multiple short codes independently.
+    See the [Information in each kind of PDU](sms-protocol.md#information-pdu) section above to know which field is available in the `BIND PDU`, usually you add the short code in `address_range`, but that requires special support from the provider. Contact them to know how they expect to route multiple short codes independently.
     Adobe Campaign supports handling multiple short codes on the same external account.
 
 ## Issue with external account in general {#external-account-issues}
@@ -77,7 +77,7 @@ Once you checked every account individually, there are 2 possible scenarios:
 
 * Check **External account** settings. Ask the provider the value of the fields.
 
-* If the connection is successful but unstable, check the [Issue with unstable connections](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection) section.
+* If the connection is successful but unstable, check the [Issue with unstable connections](troubleshooting-sms.md#issues-unstable-connection) section.
 
 * If connection issues are difficult to diagnose, a network capture can provide information. Make sure that the network capture runs simultaneously while the problem appears for it can be analyzed efficiently. You should also note the exact time at which the problem appears.
 
@@ -109,9 +109,9 @@ How to fix connection stability problems:
 
 ## Issue when sending a MT (regular SMS sent to an end-user){#issue-MT}
 
-* Check that the connection is stable. An SMPP connection should stay up for at least 1 hour continuously except for transmitters on Adobe Campaign Classic. See the section [Issue with unstable connections](../../delivery/using/sms-protocol.md#issues-unstable-connection).
+* Check that the connection is stable. An SMPP connection should stay up for at least 1 hour continuously except for transmitters on Adobe Campaign Classic. See the section [Issue with unstable connections](sms-protocol.md#issues-unstable-connection).
 
-* If restarting the MTA makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section [Issue with unstable connections](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection).
+* If restarting the MTA makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section [Issue with unstable connections](troubleshooting-sms.md#issues-unstable-connection).
 
 * Check that the broad log is present and in the correct status with the correct dates. If it's not, this might be a delivery or delivery preparation issue.
 
@@ -133,7 +133,7 @@ Duplicates are often caused by retries. It's normal to have duplicates when retr
 
 * If you see duplicates sent exactly 60 seconds apart, it's probably a problem on the provider side, they don't send a `SUBMIT_SM_RESP` quickly enough.
 
-* If you see many `BIND/UNBIND`, you have an unstable connection. See the[Issue with unstable connections](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection) section for solutions before attempting to solve duplicate messages issues.
+* If you see many `BIND/UNBIND`, you have an unstable connection. See the[Issue with unstable connections](troubleshooting-sms.md#issues-unstable-connection) section for solutions before attempting to solve duplicate messages issues.
 
 Lowering the amount of duplicates when there is a retry:
 
@@ -153,7 +153,7 @@ If the `DELIVER_SM PDU` is not successfully acknowledged, then you should check 
 
 * Check that errors are properly provisioned in the `broadLogMsg` table.
 
-If the `DELIVER_SM PDU` has been acknowledged by the Adobe Campaign Classic extended SMPP connector but the broadLog is not updated properly, check the ID reconciliation process described in the section [Matching MT, SR and broadlog entries](../../delivery/using/sms-protocol.md#matching-mt).
+If the `DELIVER_SM PDU` has been acknowledged by the Adobe Campaign Classic extended SMPP connector but the broadLog is not updated properly, check the ID reconciliation process described in the section [Matching MT, SR and broadlog entries](sms-protocol.md#matching-mt).
 
 If you fixed everything but some invalid SR are still in the provider's buffers, you can skip them by using the "Invalid ID acknowledge count" option. This should be used with care and reset to 0 as quickly as possible after the buffers are clean.
 
@@ -173,7 +173,7 @@ If you fixed everything but some invalid SR are still in the provider's buffers,
 
 ## Issue during delivery preparation not excluding quarantined recipients (quarantined by the auto reply feature) {#issue-delivery-preparation}
 
-* Check that the phone number format is exactly the same in the quarantine table and in the delivery log. If it's not, refer to this [section](../../delivery/using/sms-protocol.md#automatic-reply) if you are having issues with the plus prefix of the international phone number format.
+* Check that the phone number format is exactly the same in the quarantine table and in the delivery log. If it's not, refer to this [section](sms-protocol.md#automatic-reply) if you are having issues with the plus prefix of the international phone number format.
 
 * Check short codes. Exclusions can happen if the short code of the recipient is either the same as defined in the external account or if it's empty (empty = any shortcode). If only one short code is used for the whole Adobe Campaign instance, it's easier to leave all **short code** fields empty.
 

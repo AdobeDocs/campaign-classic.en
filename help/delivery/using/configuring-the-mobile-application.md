@@ -65,7 +65,7 @@ Your iOS connector is now configured. You can start creating your service.
 
    ![](assets/nmac_service_2.png)
 
-1. Create your iOS Development and Production applications. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app).
+1. Create your iOS Development and Production applications. For more on this, refer to this [section](configuring-the-mobile-application.md#creating-ios-app).
 
 ## Create iOS mobile app {#creating-ios-app}
 
@@ -94,7 +94,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](integrating-campaign-sdk-into-the-mobile-application.md). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
 
     >[!NOTE]
     >

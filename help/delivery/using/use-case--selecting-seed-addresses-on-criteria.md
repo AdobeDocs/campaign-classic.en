@@ -24,7 +24,7 @@ To use the dynamic condition, you must have:
 
 ## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
 
-The steps for creating a delivery are detailed in the [Creating an email delivery](../../delivery/using/creating-an-email-delivery.md) section.
+The steps for creating a delivery are detailed in the [Creating an email delivery](creating-an-email-delivery.md) section.
 
 In this example, the delivery manager has created the newsletter and selected the recipients.
 

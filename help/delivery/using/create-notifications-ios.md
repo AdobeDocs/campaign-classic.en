@@ -9,7 +9,7 @@ exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
 # Create notifications for iOS{#create-notifications-ios}
 
-This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
 
 Start by creating a new delivery.
 
@@ -31,7 +31,7 @@ To create a push notification for iOS devices, follow the steps below:
    >
    >For more on the use of personalization fields, refer to [this section](about-personalization.md).
    >
-   >For more on the inclusion of a seed list, refer to [About seed addresses](../../delivery/using/about-seed-addresses.md).
+   >For more on the inclusion of a seed list, refer to [About seed addresses](about-seed-addresses.md).
 
 1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, select the service relevant to your mobile application (Neotrips, in this case), then select the iOS version of the application.
 
@@ -57,7 +57,7 @@ To create a push notification for iOS devices, follow the steps below:
    >
    >**[!UICONTROL Badge]** and **[!UICONTROL Alert and badge]** type notifications enable you to modify the value of the badge (the number above the mobile application logo). To refresh the badge, you just have to enter 0 as the value. If the field is empty, the badge value will not change.
 
-1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [this section](../../delivery/using/customizing-emoticon-list.md)
+1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification. To customize the emoticon list, refer to [this section](customizing-emoticon-list.md)
 
 1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload). If your iOS application manages localizable strings (**Localizable.strings**), enter the corresponding key into this field. If your application does not manage localizable text, enter the label that you want to see appear on the action button. For more information on localizable strings, consult the [Apple documentation](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
 1. In the **[!UICONTROL Play a sound]** field, select the sound to be played by the mobile terminal when the notification is received.
@@ -86,9 +86,9 @@ To send a proof and to send the final delivery, use the same process as email de
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
-* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Push notification quarantines](understanding-quarantine-management.md#push-notification-quarantines)
+* [Monitoring a delivery](about-delivery-monitoring.md)
+* [Understanding delivery failures](understanding-delivery-failures.md)
 
 
 ## Create an iOS rich notification {#creating-ios-delivery}

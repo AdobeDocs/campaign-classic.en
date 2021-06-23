@@ -37,9 +37,9 @@ Old SMS connectors are using the Java SMS connector that overloads the web proce
 
 >[!CAUTION]
 >
->Even if you can transpose the parameters, configuring the **[!UICONTROL Extended Generic SMPP]** connector requires you to talk with your provider who will give you the information needed to fill in the rest of the parameters. For more on this, refer to this [page](../../delivery/using/sms-protocol.md).
+>Even if you can transpose the parameters, configuring the **[!UICONTROL Extended Generic SMPP]** connector requires you to talk with your provider who will give you the information needed to fill in the rest of the parameters. For more on this, refer to this [page](sms-protocol.md).
 
-First, you will need to create a new **[!UICONTROL Extended Generic SMPP]** external account and then you might be able to transpose some of the parameters. You can find the detailed steps in this [page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+First, you will need to create a new **[!UICONTROL Extended Generic SMPP]** external account and then you might be able to transpose some of the parameters. You can find the detailed steps in this [page](sms-set-up.md#creating-an-smpp-external-account).
 
 You now need to fill in the parameters from the **[!UICONTROL Mobile]** tab of your newly created **[!UICONTROL Extended Generic SMPP]** external account depending on your previous connector.
 

@@ -21,7 +21,7 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 
 >[!NOTE]
 >
->Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+>Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activating Inbox rendering {#activating-inbox-rendering}
 
@@ -88,14 +88,14 @@ Typically, the Inbox rendering feature is used to test the HTML framework of a n
 
 Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.
 
-For more on creating, designing and targeting a delivery, refer to [this section](../../delivery/using/about-email-channel.md).
+For more on creating, designing and targeting a delivery, refer to [this section](about-email-channel.md).
 
 1. On the top bar of the delivery, click the **[!UICONTROL Inbox rendering]** button.
 1. Select **[!UICONTROL Analyze]** to start the capture process.
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](steps-validating-the-delivery.md#sending-a-proof).
 
 1. After being sent, the proof appears in the delivery list. Double-click it.
 

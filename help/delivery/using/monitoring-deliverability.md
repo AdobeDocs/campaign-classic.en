@@ -22,7 +22,7 @@ In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!U
 
 The Deliverability package gives you access to:
 
-* The [Inbox rendering report](../../delivery/using/inbox-rendering.md) which enables you to preview your messages on major email clients in order to scan content and reputation.
+* The [Inbox rendering report](inbox-rendering.md) which enables you to preview your messages on major email clients in order to scan content and reputation.
 * Overview of message quality (inbox, spam).
 
 ## Monitoring tools {#monitoring-tools}
@@ -35,22 +35,22 @@ You can also use the following tools:
     * **[!UICONTROL Soft bounces]** indicate reputation. This number should not be higher than 10% for any given ISP.
     
     For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
-* More generally, the [delivery dashboard](../../delivery/using/about-delivery-monitoring.md) gives you access to:
-    * the [delivery summary](../../delivery/using/delivery-dashboard.md#delivery-summary), which shows the detail of the sending and the number of messages to send, processed and sent with success;
-    * the [delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history), which show which target has been excluded and why;
-    * the [tracking logs](../../delivery/using/delivery-dashboard.md#tracking-logs), which show tracking information such as opens and clicks.
+* More generally, the [delivery dashboard](about-delivery-monitoring.md) gives you access to:
+    * the [delivery summary](delivery-dashboard.md#delivery-summary), which shows the detail of the sending and the number of messages to send, processed and sent with success;
+    * the [delivery logs and history](delivery-dashboard.md#delivery-logs-and-history), which show which target has been excluded and why;
+    * the [tracking logs](delivery-dashboard.md#tracking-logs), which show tracking information such as opens and clicks.
 
 ## Monitoring guidelines {#monitoring-guidelines}
 
 Here are some additional guidelines on deliverability monitoring:
 
 * Regularly check the [delivery throughput](../../reporting/using/global-reports.md#delivery-throughput) for the whole platform to verify whether it is consistent with the original set-up.
-* Check that [retries](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
-* Regularly verify that the [bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
-* Check each delivery throughput, accessible from the [delivery dashboard](../../delivery/using/delivery-dashboard.md), to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
-* When using [waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
-* Check that the number of errors and new [quarantines](../../delivery/using/understanding-quarantine-management.md) are consistent with other deliveries.
-* Carefully consult the [delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
+* Check that [retries](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
+* Regularly verify that the [bounce](understanding-delivery-failures.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
+* Check each delivery throughput, accessible from the [delivery dashboard](delivery-dashboard.md), to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
+* When using [waves](steps-sending-the-delivery.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
+* Check that the number of errors and new [quarantines](understanding-quarantine-management.md) are consistent with other deliveries.
+* Carefully consult the [delivery logs](delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 

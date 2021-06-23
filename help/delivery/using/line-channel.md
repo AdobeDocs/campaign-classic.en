@@ -52,7 +52,7 @@ To create your [!DNL LINE] service:
 
 1. Click **[!UICONTROL Save]**.
 
-For more information on subscriptions and services, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
+For more information on subscriptions and services, see [Managing subscriptions](managing-subscriptions.md).
 
 ### Configure LINE external account {#configure-line-external}
 
@@ -97,13 +97,13 @@ To create a [!DNL LINE] delivery you have to follow these steps:
 
    ![](assets/line_message_01.png)
 
-1. Identify your delivery with a **[!UICONTROL Label]**, **[!UICONTROL Delivery code]**, and  **[!UICONTROL Description]**. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery). 
+1. Identify your delivery with a **[!UICONTROL Label]**, **[!UICONTROL Delivery code]**, and  **[!UICONTROL Description]**. For more on this, refer to [this section](steps-create-and-identify-the-delivery.md#identifying-the-delivery). 
    
 1. Click **[!UICONTROL Continue]** to create your delivery.
 
 1. In the delivery editor, select **[!UICONTROL To]** to target the recipients of your [!DNL LINE] delivery. Targeting is carried out on **[!UICONTROL Visitor subscriptions (nms:visitorSub)]**.
    
-   For more information, refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md). 
+   For more information, refer to [Identifying target populations](steps-defining-the-target-population.md). 
 
    ![](assets/line_message_08.png)
 
@@ -125,7 +125,7 @@ To create a [!DNL LINE] delivery you have to follow these steps:
 
 1. When your delivery is created and configured correctly, you can send it to the target defined earlier. 
    
-   For more information on sending a delivery, refer to [Send messages](../../delivery/using/sending-messages.md).
+   For more information on sending a delivery, refer to [Send messages](sending-messages.md).
 
 1. After sending your message, access your report to measure the effectiveness of your delivery. 
    
@@ -151,7 +151,7 @@ A **[!UICONTROL Text message]** [!DNL LINE] delivery is a message sent to recipi
 
 ![](assets/line_message_02.png)
 
-The configuration for this type of message is similar to the configuration of the **[!UICONTROL Text]** in an email. For more information, refer to this [page](../../delivery/using/defining-the-email-content.md#message-content).
+The configuration for this type of message is similar to the configuration of the **[!UICONTROL Text]** in an email. For more information, refer to this [page](defining-the-email-content.md#message-content).
 
 ### Configuring an Image and link delivery {#configuring-an-image-and-link-delivery}
 
@@ -233,7 +233,7 @@ In this example, we are going to create and configure a text message and an imag
 
 1. In the configuration window of your delivery, select your target population.
 
-   For more information, refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md). 
+   For more information, refer to [Identifying target populations](steps-defining-the-target-population.md). 
 
    ![](assets/line_usecase_02.png)
 

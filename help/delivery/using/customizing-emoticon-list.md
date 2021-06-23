@@ -11,7 +11,7 @@ exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 
 The emoticon list displayed in the pop-up is ruled by an enumeration which allows you to display values in a list to restrict the choices that the user has for a given field.
 The emoticon list order can be customized, you can also add other emoticons to your list.
-Emoticons are available for email and push for more on this refer to this [page](../../delivery/using/defining-the-email-content.md#inserting-emoticons).
+Emoticons are available for email and push for more on this refer to this [page](defining-the-email-content.md#inserting-emoticons).
 
 ## Adding a new emoticon {#add-new-emoticon}
 
@@ -55,7 +55,7 @@ Emoticons are available for email and push for more on this refer to this [page]
 
 1. For your changes to be taken into account, disconnect then reconnect from Adobe Campaign Classic. If your new emoticon still doesn't appear in the **[!UICONTROL Insert emoticon]** pop-up window, you might need to clear your cache. For more on this, refer to this [section](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 
-1. Your new emoticon can now be found in your deliveries in the **[!UICONTROL Insert emoticon]** pop-up window in the 61st position as configured in the previous steps. For more information on how to use emoticons in your deliveries, refer to this [page](../../delivery/using/defining-the-email-content.md#inserting-emoticons).
+1. Your new emoticon can now be found in your deliveries in the **[!UICONTROL Insert emoticon]** pop-up window in the 61st position as configured in the previous steps. For more information on how to use emoticons in your deliveries, refer to this [page](defining-the-email-content.md#inserting-emoticons).
 
     ![](assets/emoticon_4.png)
 

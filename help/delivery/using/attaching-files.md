@@ -24,7 +24,7 @@ There are two possible cases:
 
 >[!NOTE]
 >
->This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](../../delivery/using/about-templates.md).
+>This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](about-templates.md).
 
 ## Attach a local file {#attaching-a-local-file}
 

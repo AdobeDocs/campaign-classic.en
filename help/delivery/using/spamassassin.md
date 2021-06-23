@@ -31,7 +31,7 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 
 Once you have created your email delivery and defined its content, follow the steps below to evaluate the risks.
 
-For more on creating and designing a delivery, refer to [this section](../../delivery/using/about-email-channel.md).
+For more on creating and designing a delivery, refer to [this section](about-email-channel.md).
 
 1. Go to the **[!UICONTROL Preview]** tab.
 1. Select a recipient to preview your delivery.

@@ -13,14 +13,14 @@ exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 
 For each delivery, you can define several types of target populations:
 
-* **Main audience**: profiles who will receive messages. [Learn more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* **Proof**: recipients of proof messages, involved in the validation cycle. [Learn more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-* **Seed addresses**: recipients who are out of the delivery target but will receive the delivery (in the context of a marketing campaign only). [Learn more](../../delivery/using/about-seed-addresses.md)
+* **Main audience**: profiles who will receive messages. [Learn more](steps-defining-the-target-population.md#selecting-the-main-target)
+* **Proof**: recipients of proof messages, involved in the validation cycle. [Learn more](steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **Seed addresses**: recipients who are out of the delivery target but will receive the delivery (in the context of a marketing campaign only). [Learn more](about-seed-addresses.md)
 * **Control groups**: population which will not receive the delivery, used to track behavior and campaign impact (in the context of a marketing campaign only). [Learn more](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
 ## Selecting the main recipients of the delivery {#selecting-the-main-target}
 
-In most cases, the main target is extracted from Adobe Campaign database (default mode). However, recipients can also be stored in an external file. Learn more in [this section](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+In most cases, the main target is extracted from Adobe Campaign database (default mode). However, recipients can also be stored in an external file. Learn more in [this section](steps-defining-the-target-population.md#selecting-external-recipients).
 
 To select the recipients of a delivery, follow the steps below:
 
@@ -31,7 +31,7 @@ To select the recipients of a delivery, follow the steps below:
 
 1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]**, based on **nms:recipient** schema.
 
-   Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md).
+   Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Selecting a target mapping](selecting-a-target-mapping.md).
 
 1. Click the **[!UICONTROL Add]** button to define restriction filters.
 
@@ -90,7 +90,7 @@ To do this:
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]**. For more on target mappings, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md)
+1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]**. For more on target mappings, refer to [Selecting a target mapping](selecting-a-target-mapping.md)
 
    You can also choose **[!UICONTROL Do not import the recipients into the database]**.
 
@@ -144,7 +144,7 @@ The following options are available:
 
   >[!NOTE]
   >
-  >For further information about quarantine management, refer to [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md).
+  >For further information about quarantine management, refer to [Understanding quarantine management](understanding-quarantine-management.md).
 
 * **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the content of the target exceeds the number of messages indicated, a random selection is applied to the target.
 
@@ -175,11 +175,11 @@ To select the target of the proofs, follow the steps below:
 
 When selecting the proof target, the **[!UICONTROL Definition of a specific proof target]** option lets you select the proof recipients from the profiles in the database.
 
-Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
+Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](steps-defining-the-target-population.md#selecting-the-main-target).
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
-For more on proof sending, refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+For more on proof sending, refer to [this section](steps-validating-the-delivery.md#sending-a-proof).
 
 ### Using address substitution in proof {#using-address-substitution-in-proof}
 
@@ -213,15 +213,15 @@ You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option
 
 >[!NOTE]
 >
->Seed addresses are presented in [About seed addresses](../../delivery/using/about-seed-addresses.md).
+>Seed addresses are presented in [About seed addresses](about-seed-addresses.md).
 
 You can combine the definition of a specific proof target and the use of seed addresses using the **[!UICONTROL Specific target and Seed addresses]** option. The related configurations are then defined in two separate sub-tabs.
 
 See also:
 
 * [Selecting the proof target](#selecting-the-proof-target)
-* [About seed addresses](../../delivery/using/about-seed-addresses.md)
-* [Use case: selecting seed addresses on criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+* [About seed addresses](about-seed-addresses.md)
+* [Use case: selecting seed addresses on criteria](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## Tutorial video {#seeds-and-proofs-video}
 
