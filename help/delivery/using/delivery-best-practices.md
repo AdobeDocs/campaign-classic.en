@@ -97,8 +97,8 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
 
 See also:
 
-* [Get started with Deliverability](../../delivery/using/about-deliverability.md)
+* [Get started with Deliverability](about-deliverability.md)
 
-* [Delivery creation steps](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [Delivery creation steps](steps-about-delivery-creation-steps.md)
 
 * [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html)

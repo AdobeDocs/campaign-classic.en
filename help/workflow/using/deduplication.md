@@ -13,7 +13,7 @@ Deduplication deletes duplicates from the results of inbound activities. Dedupli
 
 The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows from a data set. For example, the records below could be considered duplicate as they have the same email address and same mobile and/or home phone.
 
-Last modification date | First Name | Last Name | Email | Mobile Phone | Phone
+| Last modification date | First Name | Last Name | Email | Mobile Phone | Phone |
 -----|------------|-----------|-------|--------------|------
 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777
@@ -21,7 +21,7 @@ Last modification date | First Name | Last Name | Email | Mobile Phone | Phone
 
 The **[!UICONTROL Deduplication]** activity has the capability to keep an entire row as the unique record after duplicates were identified. For example, in the above use case, if the activity is configured to keep only the record with the oldest **[!UICONTROL Date]**, the result would be:
 
-Date | First Name | Last Name | Email | Mobile Phone | Phone
+| Date | First Name | Last Name | Email | Mobile Phone | Phone |
 -----|----------|------------|-------|--------------|------
 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
 
@@ -29,7 +29,7 @@ The master record selected will carry forward the data without any merging of fi
 
 Complement:
 
-Date | First Name | Last Name | Email | Mobile Phone | Phone
+| Date | First Name | Last Name | Email | Mobile Phone | Phone |
 -----|------------|-----------|-------|--------------|------
 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777
 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777

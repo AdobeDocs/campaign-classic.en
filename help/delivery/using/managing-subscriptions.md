@@ -48,10 +48,10 @@ To edit an existing service, click its name. To create a service, click the **[!
 
   >[!NOTE]
   >
-  >Facebook and Twitter subscriptions are detailed in [this section](../../social/using/about-social-marketing.md). Mobile application subscriptions are detailed in [About mobile app channel](../../delivery/using/about-mobile-app-channel.md).
+  >Facebook and Twitter subscriptions are detailed in [this section](../../social/using/about-social-marketing.md). Mobile application subscriptions are detailed in [About mobile app channel](about-mobile-app-channel.md).
 
 * For an Email type service, select the **Delivery mode**. The possible modes are: **[!UICONTROL Newsletter]** or **[!UICONTROL Viral]**.
-* You can send **confirmation messages** for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the **[!UICONTROL Subscription]** and **[!UICONTROL Unsubscription]** fields. These templates must be configured with a **[!UICONTROL Subscription]** type target mapping, without a defined target. See section [About email channel](../../delivery/using/about-email-channel.md).
+* You can send **confirmation messages** for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the **[!UICONTROL Subscription]** and **[!UICONTROL Unsubscription]** fields. These templates must be configured with a **[!UICONTROL Subscription]** type target mapping, without a defined target. See section [About email channel](about-email-channel.md).
 * By default, subscriptions are unlimited. You can deselect the **[!UICONTROL Unlimited]** option to define a validity duration for the service. The duration can be specified in days (**[!UICONTROL d]** ) or months (**[!UICONTROL m]** ).
 
 Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service (**[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history (**[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Adding and deleting subscribers](#adding-and-deleting-subscribers). 
@@ -140,9 +140,9 @@ To register recipients for an information service, you can:
 
 email deliveries must contain an unsubscription link, by law. Recipients can click this link to update their profile and be excluded from the targets of future deliveries.
 
-The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see [About personalization](../../delivery/using/about-personalization.md)). When the recipient clicks this link, the profile is added to the denylist (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
+The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see [About personalization](about-personalization.md)). When the recipient clicks this link, the profile is added to the denylist (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
 
-Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) or insert a personalized unsubscription link (see [Personalization blocks](../../delivery/using/personalization-blocks.md)).
+Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) or insert a personalized unsubscription link (see [Personalization blocks](personalization-blocks.md)).
 
 You can also unsubscribe a recipient manually from the recipient profile. To do this, click the **[!UICONTROL Subscriptions]** tab of the recipient concerned, select the information service(s) concerned, and click **[!UICONTROL Delete]**.
 

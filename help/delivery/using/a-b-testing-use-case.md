@@ -21,16 +21,16 @@ Moreover, the test detailed in this use case related to two deliveries only, but
 
 The main steps to perform this use case are:
 
-* [Step 1: Create a targeting workflow](../../delivery/using/a-b-testing-uc-targeting-workflow.md)
-* [Step 2: Configure population samples](../../delivery/using/a-b-testing-uc-population-samples.md)
-* [Step 3: Create two delivery templates](../../delivery/using/a-b-testing-uc-delivery-templates.md)
-* [Step 4: Configure the deliveries in the workflow](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)
-* [Step 5: Create the script](../../delivery/using/a-b-testing-uc-script.md)
-* [Step 6: Define the final delivery](../../delivery/using/a-b-testing-uc-final-delivery.md)
-* [Step 7: Start the workflow](../../delivery/using/a-b-testing-uc-start-workflow.md)
-* [Step 8: Analyze the result](../../delivery/using/a-b-testing-uc-analyzing.md)
+* [Step 1: Create a targeting workflow](a-b-testing-uc-targeting-workflow.md)
+* [Step 2: Configure population samples](a-b-testing-uc-population-samples.md)
+* [Step 3: Create two delivery templates](a-b-testing-uc-delivery-templates.md)
+* [Step 4: Configure the deliveries in the workflow](a-b-testing-uc-configuring-deliveries.md)
+* [Step 5: Create the script](a-b-testing-uc-script.md)
+* [Step 6: Define the final delivery](a-b-testing-uc-final-delivery.md)
+* [Step 7: Start the workflow](a-b-testing-uc-start-workflow.md)
+* [Step 8: Analyze the result](a-b-testing-uc-analyzing.md)
 
 **Related topics:**
 
-* [Get started with A/B testing](../../delivery/using/get-started-a-b-testing.md)
-* [Configure A/B testing](../../delivery/using/configuring-a-b-testing.md)
+* [Get started with A/B testing](get-started-a-b-testing.md)
+* [Configure A/B testing](configuring-a-b-testing.md)

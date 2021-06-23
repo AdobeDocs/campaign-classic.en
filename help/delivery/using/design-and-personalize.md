@@ -8,18 +8,18 @@ exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 ---
 # Build personalized content {#build-personalized-content}
 
-When designing your message content, try to avoid common issues that could prevent you from executing your delivery. Most of the time, possible errors are related to [personalization](../../delivery/using/about-personalization.md), [formatting](../../delivery/using/defining-the-email-content.md#message-content) and [images](../../delivery/using/defining-the-email-content.md#adding-images).
+When designing your message content, try to avoid common issues that could prevent you from executing your delivery. Most of the time, possible errors are related to [personalization](about-personalization.md), [formatting](defining-the-email-content.md#message-content) and [images](defining-the-email-content.md#adding-images).
 
 ## Optimize personalization {#optimize-personalization}
 
 To avoid common issues that could prevent you from executing your delivery and to improve your recipients' experience, Adobe Campaign enables you to personalize your messages.
 
 You can use recipients' data stored in the Adobe Campaign database, or collected through tracking, landing pages, subscriptions, etc.
-Personalization basics are presented in [this section](../../delivery/using/personalization-fields.md).
+Personalization basics are presented in [this section](personalization-fields.md).
 
 Make sure your message content is properly designed to avoid any errors, which are generally related to personalization.
 
-**Tips**: In personalization fields coming from external files provided by third-party vendors, external HTML content can be wrong. To avoid this, check syntax, use of tags, characters, etc. For example, an Adobe Campaign personalization tag always has the following form: <%=table.field%>. For more on this, see [this section](../../delivery/using/about-personalization.md).
+**Tips**: In personalization fields coming from external files provided by third-party vendors, external HTML content can be wrong. To avoid this, check syntax, use of tags, characters, etc. For example, an Adobe Campaign personalization tag always has the following form: <%=table.field%>. For more on this, see [this section](about-personalization.md).
 
 The incorrect use of parameters in personalization blocks can be an issue. For example, variables in JavaScript should be used as follows:
 
@@ -29,9 +29,9 @@ The incorrect use of parameters in personalization blocks can be an issue. For e
 
     %>
 
-For more on personalization blocks, refer to the [this section](../../delivery/using/personalization-blocks.md).
+For more on personalization blocks, refer to the [this section](personalization-blocks.md).
 
-You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used specially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in this [this section](../../delivery/using/personalization-fields.md#optimizing-personalization)
+You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used specially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in this [this section](personalization-fields.md#optimizing-personalization)
 
 ## Build optimized content {#optimize-content}
 
@@ -49,7 +49,7 @@ When building your emails, keep the general best practices below in mind.
 
 ### Subject line
 
-Work on the [subject line](../../delivery/using/defining-the-email-content.md#message-content) to improve open rates:
+Work on the [subject line](defining-the-email-content.md#message-content) to improve open rates:
 
 * Avoid subjects that are too long. Use 50 characters maximum
 
@@ -59,15 +59,15 @@ Work on the [subject line](../../delivery/using/defining-the-email-content.md#me
 
 ### Mirror page
 
-Always include a mirror page link. Preferred position is a the top of the email. [Learn more](../../delivery/using/sending-messages.md#generating-the-mirror-page) 
+Always include a mirror page link. Preferred position is a the top of the email. [Learn more](sending-messages.md#generating-the-mirror-page) 
 
 ### Unsubscription link
 
-The unsubscription link is essential. It must be visible and valid, and the form must be functional. By default, when the message is analyzed, a [typology rule](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) checks whether an opt-out link has been included and generates a warning if it is missing.
+The unsubscription link is essential. It must be visible and valid, and the form must be functional. By default, when the message is analyzed, a [typology rule](steps-validating-the-delivery.md#validation-process-with-typologies) checks whether an opt-out link has been included and generates a warning if it is missing.
 
 **Tip**: Because human error is always possible, check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line and that the No longer contact this recipient field is changed to Yes.
 
-Learn how to insert an opt-out link [in this section](../../delivery/using/personalization-blocks.md#personalization-blocks-example).
+Learn how to insert an opt-out link [in this section](personalization-blocks.md#personalization-blocks-example).
 
 ### Email size
 
@@ -88,7 +88,7 @@ Make sure to test any changes before the final sending
 By default, the number of characters in an SMS meets the GSM (Global System for Mobile Communications) standards. SMS messages using GSM encoding are limited to 160 characters, or 153 characters per SMS for messages sent in multiple parts.
 
 Transliteration consists of replacing one character of an SMS by another when that character is not taken into account by the GSM standard. Note that inserting personalization fields into the content of your SMS message may introduce characters that are not taken into account by the GSM encoding. You can authorize character transliteration by checking the corresponding box in the SMPP channel settings tab of the corresponding **[!UICONTROL External account]**. 
-Learn more [in this section](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+Learn more [in this section](sms-set-up.md#creating-an-smpp-external-account).
 
 **Tips**:
 
@@ -96,13 +96,13 @@ Learn more [in this section](../../delivery/using/sms-set-up.md#creating-an-smpp
 
 * However, if your SMS messages contain a lot of characters that are not taken into account by the GSM standard, enable transliteration to limit the costs of sending your messages.
 
-Learn more [in this section](../../delivery/using/sms-set-up.md#about-character-transliteration).
+Learn more [in this section](sms-set-up.md#about-character-transliteration).
 
 ## Work on formatting {#formatting}
 
 To avoid common formatting errors, check the following elements:
 
-* Correct **date formatting**: Adobe Campaign provides date formatting functions for the JavaScript templates and XSL stylesheets. [Learn more](../../delivery/using/formatting.md#date-display)
+* Correct **date formatting**: Adobe Campaign provides date formatting functions for the JavaScript templates and XSL stylesheets. [Learn more](formatting.md#date-display)
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
@@ -142,7 +142,7 @@ To be accessible from the outside, the images used in emails and public resource
 
 * You can check if the instance configuration enables public resource management. [Learn more](../../installation/using/deploying-an-instance.md#managing-public-resources)
     
-* From the delivery wizard, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon. [Learn more](../../delivery/using/defining-the-email-content.md#adding-images)
+* From the delivery wizard, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon. [Learn more](defining-the-email-content.md#adding-images)
 
 * If images are not displayed, check that the images are available on the server. To do this, click the Source tab from your delivery. Find your images and copy-paste each image's URL in a web browser. If the images are not displayed, contact your IT administrator or the third-party vendor providing your delivery content.
 
@@ -150,6 +150,6 @@ To be accessible from the outside, the images used in emails and public resource
 
 Adobe recommends previewing your message to check its personalization and how your recipients will see your delivery. 
 
-* In the delivery wizard, the **[!UICONTROL Preview]** sub-tab lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](../../delivery/using/defining-the-email-content.md#message-content)
+* In the delivery wizard, the **[!UICONTROL Preview]** sub-tab lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](defining-the-email-content.md#message-content)
 
-*  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](../../delivery/using/spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)
+*  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)

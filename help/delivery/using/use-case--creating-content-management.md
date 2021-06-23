@@ -52,7 +52,7 @@ A data schema is an XML document associated with content. It describes the XML s
 >
 >For more on creating and configuring data schemas in Adobe Campaign, please refer to [this section](../../configuration/using/about-schema-edition.md).
 >
->Configuration elements specific to content management are detailed in [Data schemas](../../delivery/using/data-schemas.md).
+>Configuration elements specific to content management are detailed in [Data schemas](data-schemas.md).
 
 To create a data schema, apply the following steps:
 
@@ -76,7 +76,7 @@ To create a data schema, apply the following steps:
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   For more on this, refer to [Editing schemas](../../delivery/using/data-schemas.md#editing-schemas).
+   For more on this, refer to [Editing schemas](data-schemas.md#editing-schemas).
 
    For each element referenced in the content, you need to select a matching type.
 
@@ -164,7 +164,7 @@ The description of a form is a structured XML document that observes the grammar
 >
 >For more on creating and configuring forms in Adobe Campaign, refer to [this section](../../configuration/using/identifying-a-form.md). 
 >
->Configuration elements specific to content management are detailed in [Input forms](../../delivery/using/input-forms.md).
+>Configuration elements specific to content management are detailed in [Input forms](input-forms.md).
 
 To create an input form for content management, apply the following steps:
 
@@ -214,7 +214,7 @@ In this example, we want to use a JavaScript template to define the data constru
 
 >[!NOTE]
 >
->Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](../../delivery/using/formatting.md).
+>Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](formatting.md).
 
 To use a JavaScript template in Adobe Campaign, apply the following steps:
 
@@ -225,7 +225,7 @@ To use a JavaScript template in Adobe Campaign, apply the following steps:
 1. Enter a template name and select the schema which you have created for content management.
 1. Import the set content which you want to display in the message.
 
-   Add the variable elements while respecting the syntax detailed in [JavaScript templates](../../delivery/using/formatting.md#javascript-templates).
+   Add the variable elements while respecting the syntax detailed in [JavaScript templates](formatting.md#javascript-templates).
 
    To display the content shown in our example, the JavaScript template must contain the following elements:
 
@@ -318,7 +318,7 @@ To use a JavaScript template in Adobe Campaign, apply the following steps:
    </html>
    ```
 
-   Calling up a function at the start of a template lets you set up a call to personalization data taken from the Adobe Campaign database (in this case: recipient.firstName and recipient.lastName), so that it can be interpreted when used in a delivery. For more on this, refer to [Including a JavaScript template](../../delivery/using/formatting.md#including-a-javascript-template).
+   Calling up a function at the start of a template lets you set up a call to personalization data taken from the Adobe Campaign database (in this case: recipient.firstName and recipient.lastName), so that it can be interpreted when used in a delivery. For more on this, refer to [Including a JavaScript template](formatting.md#including-a-javascript-template).
 
    In this example, the function will contain the following code:
 
@@ -347,7 +347,7 @@ The next step involves creating a content publication template to link up the sc
 
 >[!NOTE]
 >
->For more on content publication templates, refer to [Publication templates](../../delivery/using/publication-templates.md).
+>For more on content publication templates, refer to [Publication templates](publication-templates.md).
 
 In this example, the steps are as follows:
 
@@ -373,7 +373,7 @@ You may now create content based on this publication template.
 
 >[!NOTE]
 >
->For more on creating contents, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
+>For more on creating contents, refer to [Using a content template](using-a-content-template.md).
 
 ### Creating content in the delivery wizard {#creating-content-in-the-delivery-wizard}
 

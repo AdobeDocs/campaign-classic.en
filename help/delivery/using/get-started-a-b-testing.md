@@ -17,7 +17,7 @@ In the example below, the delivery target has been splitted into two groups, eac
 
 ![](assets/a-b-testing-schema.png)
 
-With Campaign Classic, A/B testing is implemented through workflows, where you specify the population to target as well as the groups that will receive each variant (see [Configuring a/b testing](../../delivery/using/configuring-a-b-testing.md)).
+With Campaign Classic, A/B testing is implemented through workflows, where you specify the population to target as well as the groups that will receive each variant (see [Configuring a/b testing](configuring-a-b-testing.md)).
 
 The main steps are:
 
@@ -31,4 +31,4 @@ The main steps are:
 
 >[!NOTE]
 >
->Workflows also allow you to automate your processes by automatically identifying the delivery variant that performed better, then sending it to the remaining population. For more on this, refer to this dedicated [use case](../../delivery/using/a-b-testing-use-case.md).
+>Workflows also allow you to automate your processes by automatically identifying the delivery variant that performed better, then sending it to the remaining population. For more on this, refer to this dedicated [use case](a-b-testing-use-case.md).

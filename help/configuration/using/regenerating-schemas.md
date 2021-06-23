@@ -21,6 +21,6 @@ You can then check the structure of the generated schema in the Previw and Docum
 >
 >If you need to force regeneration of all schema, for example to solve certain dependency problems in the reverse links, you can launch the following command from the Adobe Campaign application server:
 >
->**nlserver config -postupgrade -instance:`<instance_name>' -force**
+> `nlserver config -postupgrade -instance:`<instance_name>` -force`
 >
 >You must then restart the Adobe Campaign application server and disconnect/reconnect to the client console.

@@ -15,7 +15,7 @@ Tracking applies to messages, but web tracking lets you monitor how recipients b
 
 >[!NOTE]
 >
->The links in email content that contain personalization need specific syntax to be tracked. For more on how to add links in emails that can be personalized and that support tracking, refer to [this section](../../delivery/using/tracking-personalized-links.md).
+>The links in email content that contain personalization need specific syntax to be tracked. For more on how to add links in emails that can be personalized and that support tracking, refer to [this section](tracking-personalized-links.md).
 
 We strongly recommend that you enclose URLs in delimiters in the **[!UICONTROL Text content]** tab before applying the tracking formula. The URL delimiters that you enter in this tab are used by Adobe Campaign to identify URLs within character strings. You can use these pairs of delimiters:
 *	Parentheses ( )

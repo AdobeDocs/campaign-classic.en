@@ -15,7 +15,7 @@ Use Adobe Campaign to send personalized SMS messages.
 Before starting sending SMS:
 
 * Make sure recipient profiles contain at least a mobile phone in their profile.
-* Learn more about the Adobe Campaign [Delivery best practices](../../delivery/using/delivery-best-practices.md).
+* Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
 
 The key steps to send a SMS are as follows:
 
@@ -28,10 +28,10 @@ The key steps to send a SMS are as follows:
 
 In addition, you need to be familiar with SMS protocol and settings. Walk through the connection set up between Adobe Campaign and a SMPP provider in [this document](sms-protocol.md)
 
-For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+For global information on how to create a delivery, refer to [this section](steps-about-delivery-creation-steps.md).
 
 >[!NOTE]
 >
 >Adobe Campaign also lets you submit notifications on mobile terminals, via its **Adobe Campaign Mobile App Channel (NMAC)** option. 
 > 
->For more on this, refer to the [Get started with mobile app channel](../../delivery/using/about-mobile-app-channel.md) section.
+>For more on this, refer to the [Get started with mobile app channel](about-mobile-app-channel.md) section.

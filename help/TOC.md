@@ -34,6 +34,7 @@ type: Documentation
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
   + [Technotes](technotes/technote.md)
+  + [Adobe Analytics Connector FAQ](technotes/aa-connector-migration.md)
   + [iOS certificate update](technotes/ios-certificate-update.md)
   + [Campaign configuration updates](technotes/acc-config-updates.md)
   + [Tracked URLs update](technotes/tracked-urls.md)

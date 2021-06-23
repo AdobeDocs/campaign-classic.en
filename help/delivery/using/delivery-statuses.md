@@ -17,13 +17,13 @@ Once a delivery has been sent, the delivery dashboard displays a status that all
 
 ![](assets/delivery-status.png)
 
-For more details on the different delivery failures you can encounter, and how to solve them, refer to [this page](../../delivery/using/understanding-delivery-failures.md).
+For more details on the different delivery failures you can encounter, and how to solve them, refer to [this page](understanding-delivery-failures.md).
 
 **Related topics:**
 
-* [Delivery dashboard](../../delivery/using/delivery-dashboard.md)
-* [Delivery troubleshooting](../../delivery/using/delivery-troubleshooting.md)
-* [About deliverability](../../delivery/using/about-deliverability.md)
+* [Delivery dashboard](delivery-dashboard.md)
+* [Delivery troubleshooting](delivery-troubleshooting.md)
+* [About deliverability](about-deliverability.md)
 
 ## List of delivery statuses {#list-delivery-statuses}
 
@@ -45,7 +45,7 @@ For more details on the different delivery failures you can encounter, and how t
   </tr> 
   <tr> 
    <td> Failed<br /> </td> 
-   <td> The delivery could not reach the recipient because of an invalid address or a full inbox for example. It can also be linked to an issue with personalization blocks since they can generate errors when the schemas do not match the delivery mapping. See <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Understanding delivery failures</a><br /> </td> 
+   <td> The delivery could not reach the recipient because of an invalid address or a full inbox for example. It can also be linked to an issue with personalization blocks since they can generate errors when the schemas do not match the delivery mapping. See <a href="understanding-delivery-failures.md" target="_blank">Understanding delivery failures</a><br /> </td> 
   </tr>
   <tr> 
    <td> Pending<br /> </td> 
@@ -61,7 +61,7 @@ For more details on the different delivery failures you can encounter, and how t
   </tr> 
   <tr> 
    <td> Taken into account by the service provider<br /> </td> 
-   <td> The SMS service provider received the delivery.<br /> For hosted or hybrid installations, if you have upgraded to the <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>, the message was successfully relayed from Campaign to the Enhanced MTA.</td> 
+   <td> The SMS service provider received the delivery.<br /> For hosted or hybrid installations, if you have upgraded to the <a href="sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>, the message was successfully relayed from Campaign to the Enhanced MTA.</td> 
   </tr> 
   <tr> 
    <td> Received on mobile<br /> </td> 
@@ -79,13 +79,13 @@ For more details on the different delivery failures you can encounter, and how t
  </tbody> 
 </table>
 
-To learn how to optimize the deliverability of your Adobe Campaign emails, refer to [this section](../../delivery/using/about-deliverability.md). For a deeper dive on deliverability, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+To learn how to optimize the deliverability of your Adobe Campaign emails, refer to [this section](about-deliverability.md). For a deeper dive on deliverability, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## Pending status {#pending-status}
 
 After confirming your delivery, you can see that the status of your delivery is **[!UICONTROL Pending]**. This status means that the execution process is waiting on the availability of some resources.
 
-The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending) section.
+The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](steps-sending-the-delivery.md#scheduling-the-delivery-sending) section.
 
 If your delivery is not being sent and its status remains **[!UICONTROL Pending]**, it can be the result of:
 
@@ -131,5 +131,5 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 **Related topics:**
 
 * [Delivery logs and history](#delivery-logs-and-history)
-* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
-* [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [Understanding delivery failures](understanding-delivery-failures.md)
+* [Delivery failure types and reasons](understanding-delivery-failures.md#delivery-failure-types-and-reasons)

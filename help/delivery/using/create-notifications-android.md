@@ -9,7 +9,7 @@ exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
 # Create notifications for Android{#create-notificaations-android}
 
-Use Adobe Campaign to send push notifications on Android devices. Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Use Adobe Campaign to send push notifications on Android devices. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
 
 Start by creating a new delivery.
 
@@ -65,7 +65,7 @@ The image and web page should be displayed in the push notification when receive
 
    >[!NOTE]
    >
-   >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+   >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](configuring-the-mobile-application-android.md#android-service-httpv1).
 
 ![](assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
 

@@ -11,25 +11,25 @@ exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 
 This section lists common issues you may encounter when sending deliveries, and how to troubleshoot them.
 
-Additionally, make sure you follow the best practices and checklist detailed in [this page](../../delivery/using/delivery-performances.md) to ensure your deliveries perform well.
+Additionally, make sure you follow the best practices and checklist detailed in [this page](delivery-performances.md) to ensure your deliveries perform well.
 
 **Related topics:**
 
-* [Delivery statuses](../../delivery/using/delivery-statuses.md)
-* [Delivery dashboard](../../delivery/using/delivery-dashboard.md)
-* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Delivery statuses](delivery-statuses.md)
+* [Delivery dashboard](delivery-dashboard.md)
+* [Understanding delivery failures](understanding-delivery-failures.md)
 
 ## Slow deliveries {#slow-deliveries}
 
 After clicking the **[!UICONTROL Send]** button, your delivery seems to take longer than usual. This may be caused by different elements:
 
-* Some email providers might have added your IP addresses to a denylist. In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
+* Some email providers might have added your IP addresses to a denylist. In this case, check your broadlogs and consult [this section](about-deliverability.md).
 
-* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](../../delivery/using/delivery-best-practices.md) to learn about content guidelines.
+* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](delivery-best-practices.md) to learn about content guidelines.
 
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 
-    * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](../../delivery/using/deliverability-faq.md). To learn more about MX rules, refer to [this section](../../installation/using/email-deliverability.md#about-mx-rules).
+    * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](deliverability-faq.md). To learn more about MX rules, refer to [this section](../../installation/using/email-deliverability.md#about-mx-rules).
 
     * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential denylist.
 

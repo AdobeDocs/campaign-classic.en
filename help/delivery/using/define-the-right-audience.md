@@ -10,7 +10,7 @@ exl-id: c0533148-b027-4158-9b95-8d2df769e963
 
 Targeted population is key: build your lists carefully, test your emails on popular email clients and mobile devices, and ensure that your email lists are up-to-date (with no unknown or obsolete addresses). You can also send proofs that help set up a complete validation cycle.
 
-Learn more about target populations [in this section](../../delivery/using/steps-defining-the-target-population.md)
+Learn more about target populations [in this section](steps-defining-the-target-population.md)
 
 ## Target the right audience {#target-the-right-audience}
 
@@ -24,26 +24,26 @@ In Campaign Classic, by default, delivery templates target **Recipients**. Adobe
 
 For example, you can deliver to visitors whose profiles have been collected via social networks or to visitors who are subscribed to an information service.
 
-These mappings are presented [in this section](../../delivery/using/selecting-a-target-mapping.md).
+These mappings are presented [in this section](selecting-a-target-mapping.md).
 
 You can also create and use a customized target mapping. For more on this, refer to [this section](../../configuration/using/target-mapping.md).
 
 ## External recipients {#external-recipients}
 
-You can deliver to recipients who are stored in an external file rather than saved in the database. Learn more [in this section](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+You can deliver to recipients who are stored in an external file rather than saved in the database. Learn more [in this section](steps-defining-the-target-population.md#selecting-external-recipients).
 
 ## Send to your subscribers {#send-to-subscribers}
 
-To send messages to the subscribers of a newsletter, you can directly target the subscribers to the corresponding information service. Learn more [in this section](../../delivery/using/managing-subscriptions.md#delivering-to-the-subscribers-of-a-service).
+To send messages to the subscribers of a newsletter, you can directly target the subscribers to the corresponding information service. Learn more [in this section](managing-subscriptions.md#delivering-to-the-subscribers-of-a-service).
 
 
 ## Test recipients and seed addresses {#test-recipients-seed-addresses}
 
 To test your delivery, use proofs before sending to the main target.
 
-Make sure you select appropriate proof recipients, because they validate the form and the content of the message. The steps for defining the proof recipients are presented [in this section](../../delivery/using/steps-defining-the-target-population.md#selecting-the-proof-target).
+Make sure you select appropriate proof recipients, because they validate the form and the content of the message. The steps for defining the proof recipients are presented [in this section](steps-defining-the-target-population.md#selecting-the-proof-target).
 
-Seed addresses are used to target recipients who do not match the defined target criteria in order to test a delivery before sending to the main target. They are presented [in this section](../../delivery/using/about-seed-addresses.md).
+Seed addresses are used to target recipients who do not match the defined target criteria in order to test a delivery before sending to the main target. They are presented [in this section](about-seed-addresses.md).
 
 ## Deduplicate addresses {#deduplicate-addresses}
 

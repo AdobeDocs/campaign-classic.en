@@ -19,10 +19,10 @@ Before starting sending emails:
 
 The key steps to send an email are as follows:
 
-* [Create an email delivery](../../delivery/using/creating-an-email-delivery.md)
-* [Define the target population](../../delivery/using/steps-defining-the-target-population.md)
-* [Define the email content](../../delivery/using/defining-the-email-content.md)
-* [Send the email](../../delivery/using/sending-messages.md)
-* [Monitor the delivery](../../delivery/using/about-delivery-monitoring.md)
+* [Create an email delivery](creating-an-email-delivery.md)
+* [Define the target population](steps-defining-the-target-population.md)
+* [Define the email content](defining-the-email-content.md)
+* [Send the email](sending-messages.md)
+* [Monitor the delivery](about-delivery-monitoring.md)
 
 The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](steps-about-delivery-creation-steps.md).

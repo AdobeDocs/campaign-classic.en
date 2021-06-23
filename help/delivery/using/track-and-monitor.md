@@ -15,7 +15,7 @@ You clicked the **Send** button? Let's see what happens. Once the delivery is se
 To control your campaigns, you must ensure that the message has indeed been delivered to your recipients.
 
 From Campaign delivery dashboard, you can check the processed messages and delivery audit logs.
-You can also control the status of the messages in the delivery logs. [Learn more](../../delivery/using/about-delivery-monitoring.md).
+You can also control the status of the messages in the delivery logs. [Learn more](about-delivery-monitoring.md).
 
 What if the deliveries are not being sent and their status remains **Pending**?
 
@@ -35,7 +35,7 @@ To better know the behavior of your recipients, you can track how they react to 
 
 **Tip**: Message tracking is enabled by default. To configure URLs, select the Display URLs option in the lower section of the delivery wizard. For each URL of the message, you can choose whether to activate tracking.
 
-For more on this, refer to the [Configuring tracking](../../delivery/using/how-to-configure-tracked-links.md) section and the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) description. 
+For more on this, refer to the [Configuring tracking](how-to-configure-tracked-links.md) section and the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) description. 
 
 ## Delivery performances {#delivery-performances}
 
@@ -57,6 +57,6 @@ Specific actions can be performed when encountering issues with deliveries:
 
 * [Image display issues](../../production/using/image-display-issues.md)
 
-* [Delivery performance issues](../../delivery/using/delivery-performances.md)
+* [Delivery performance issues](delivery-performances.md)
 
 * [Temporary files issues](../../production/using/temporary-files.md) - *on-premise customers only*
