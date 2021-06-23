@@ -92,8 +92,8 @@ To configure these rules, follow these steps:
 
 After configuring these rules, the following data is received at the end of the **[!UICONTROL Deduplication]** activity.
 
-Modification date | First Name | Last Name | Email | Mobile Phone | Phone|
------|------------|-----------|-------|--------------|------|
+| Modification date | First Name | Last Name | Email | Mobile Phone | Phone |
+|-----|------------|-----------|-------|--------------|------|
 |5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777|
 |7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777|
 |10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888|
