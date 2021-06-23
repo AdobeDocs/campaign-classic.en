@@ -41,27 +41,35 @@ Example:
 
 <img src="assets/privacy-query-dynamic-url.png">
 
-### Signature mechanism
+### URL signature
 
-To improve security, a new signature mechanism for tracking links in emails has been introduced in Build 19.1.4 (9032@3a9dc9c), and is available in Build 19.1.4 (9032@3a9dc9c) and Campaign 20.2. This option is enabled by default for all customers.
+To improve security, a signature mechanism for tracking links in emails has been introduced. It is available in Build 19.1.4 (9032@3a9dc9c) and Campaign 20.2. This feature is enabled by default.
 
 >[!NOTE]
 >
->When a malformed signed URL is clicked, it will return the following error: "Requested URL '… ' was not found."
+>When a malformed signed URL is clicked, this error is returned: "Requested URL '…' was not found."
 
-In addition, starting Campaign 20.2 and [!DNL Gold Standard] release, hosted and hybrid customers can use an enhancement to disable URLs generated from previous builds. This option is disabled by default. You can reach out to [Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to enable this feature.
+In addition, since Campaign 20.2 and the [!DNL Gold Standard] release, you can use an enhancement to disable URLs generated in previous builds. This feature is disabled by default. You can reach out to [Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to enable this feature.
 
-To activate this new mechanism, on-premise customers need to follow these steps on all Campaign servers:
+If you are running [!DNL Gold Standard] 19.1.4, you may experience issues with push notification deliveries using tracking links, or deliveries using anchor tags. If so, we recommend that you disable URL signature.
+
+Whether you are running Campaign on premises or in a hybrid architecture, you must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have URL signature disabled.
+
+If you are running Campaign in a hybrid architecture, before you enable URL signature, ensure that the hosted mid-sourcing instance has been upgraded as follows:
+* Prior to the on-premises marketing instance
+* To the same version as the on-premises marketing instance or to a slightly higher version
+
+Otherwise, some of these issues may arise:
+* Before the mid-sourcing instance is upgraded, URLs are sent without signature through this instance.
+* After the mid-sourcing instance has been upgraded and URL signature has been enabled on both instances, the URLs that had previously been sent without signature are rejected. The reason is that a signature is requested by the tracking files that have been provided by the marketing instance.
+
+To disable URLs that have been generated in previous builds, follow these steps on all Campaign servers at the same time:
 
 1. In the server configuration file (serverConf.xml), change **blockRedirectForUnsignedTrackingLink** to **true**.
 1. Restart the **nlserver** service.
 1. On the tracking server, restart the web server (apache2 on Debian, httpd on CentOS/RedHat, IIS on Windows).
 
-Customers running on [!DNL Gold Standard] 19.1.4 can experience issues with push notification deliveries using tracking link, or deliveries using anchor tags. If so, Adobe recommends to disable the new signature mechanism for tracking links:
-
-**Hosted and hybrid customers** must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have this mechanism disabled.
-
-**On-premise customers** can follow the step below :
+To enable URL signature, follow these steps on all Campaign servers at the same time:
 
 1. In the server configuration file (serverConf.xml), change **signEmailLinks** to **false**.
 1. Restart the **nlserver** service.

@@ -83,4 +83,4 @@ The solution is to update the Poduct Profile in Analytics User Context of Techni
 * [Build upgrade FAQ](../platform/using/faq-build-upgrade.md)
 * [Download Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Make the new Client Console available to users](../installation/using/client-console-availability-for-windows.md)
-* [Install Campaign Client Console](../installation/using/installing-the-client-console.md).
+* [Install Campaign Client Console](../installation/using/installing-the-client-console.md)
