@@ -13,7 +13,7 @@ On June 30, 2021 changes will be made to [Adobe Identity Management System](http
 
 Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions from **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). 
 
-Adobe wants to preserve IMS functionality for all customers past June 30, 2021. IMS is part of the security framework which allows users to login to the Client Console, thus Adobe Campaign. To preserve this functionality, customers must update the Client Console on each users’ machine, and ensure Windows 8 or 10, with Internet Explorer 11 built-in, is installed on each users’ machine. All these are required for users to access Campaign Classic v7 after June 30, 2021. 
+Adobe wants to preserve IMS functionality for all customers past June 30, 2021. IMS is part of the security framework which allows users to login to the Client Console, thus Adobe Campaign. To preserve this functionality, customers must update the Client Console on each users’ machine, and ensure the latest update of your [Windows version](../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), with **Internet Explorer 11** built-in, is installed on each users’ machine. All these are required for users to access Campaign Classic v7 after June 30, 2021. 
 
 **Are you impacted?**
 
@@ -22,7 +22,6 @@ If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-
 Upgrade to one of the new versions listed below is mandatory:
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
-* Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
 * Campaign 20.3.3 release. [Learn more](../rn/using/release--20-3.md)
 * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
 * Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
@@ -77,7 +76,7 @@ The following warning message is visible to users if they need to update their C
 
 If you see such a warning, ensure that you install the latest updates of the operating system you are using. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
-After July 14, 2021, you will see the following message, and will no longer be able to connect to Adobe Campaign:
+**After June 30, 2021**, you will see the following message, and will no longer be able to connect to Adobe Campaign:
 
 ![](../integrations/using/assets/do-not-localize/errorUpdateReq.png)
 
