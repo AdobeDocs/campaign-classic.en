@@ -11,7 +11,7 @@ Starting Campaign Classic v7 21.1.3 release, the Adobe Analytics Data Connector 
 
 On August 1, 2021, Adobe Campaign Classic will be removed from the legacy Data Connectors UI, however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. On March 1, 2022, the integration will cease to collect and pass data to Adobe Analytics. 
 
-You must migrate to the new Adobe Analytics Connector integration on Adobe Exchange which replaces the Data Connectors Integration, as detailed in [this page](../platform/using/adobe-analytics-connector.md).
+You must migrate to the new Adobe Analytics Connector integration on Adobe Exchange which replaces the legacy Data Connectors Integration, as detailed in [this page](../platform/using/adobe-analytics-connector.md).
 
 
 >[!NOTE]
