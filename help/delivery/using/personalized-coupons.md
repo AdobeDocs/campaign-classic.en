@@ -67,7 +67,7 @@ Values for **[!UICONTROL status]**, **[!UICONTROL channel]**, and **[!UICONTROL 
 
 ## Inserting a coupon into an email delivery {#inserting-a-coupon-into-an-email-delivery}
 
-In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](../../delivery/using/about-email-channel.md). You can also add a coupon to a delivery in a workflow.
+In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](about-email-channel.md). You can also add a coupon to a delivery in a workflow.
 
 1. Go to **[!UICONTROL Campaigns]** and choose **[!UICONTROL Deliveries]**.
 1. Click **[!UICONTROL Create]**.

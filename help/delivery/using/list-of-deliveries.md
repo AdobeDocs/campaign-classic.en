@@ -25,5 +25,5 @@ By default, the list of deliveries contains the names and statuses of the delive
 
 **Related topics:**
 
-* [Delivery dashboard](../../delivery/using/delivery-dashboard.md)
-* [Delivery statuses](../../delivery/using/delivery-statuses.md)
+* [Delivery dashboard](delivery-dashboard.md)
+* [Delivery statuses](delivery-statuses.md)

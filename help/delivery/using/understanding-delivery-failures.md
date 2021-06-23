@@ -25,13 +25,13 @@ Messages can also be excluded during the delivery preparation if an address is q
 
 **Related topics:**
 
-* [Delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)
-* [Failed status](../../delivery/using/delivery-performances.md#failed-status)
+* [Delivery logs and history](delivery-dashboard.md#delivery-logs-and-history)
+* [Failed status](delivery-performances.md#failed-status)
 * [Delivery failure types and reasons](#delivery-failure-types-and-reasons)
 
 ## Delivery failure types and reasons {#delivery-failure-types-and-reasons}
 
-There are three types of error when a message fails. Each error type determines if an address is sent to quarantines. For more on this, refer to [Conditions for sending an address to quarantine](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
+There are three types of error when a message fails. Each error type determines if an address is sent to quarantines. For more on this, refer to [Conditions for sending an address to quarantine](understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
 * **Hard**: A "hard" error indicates an invalid address. This involves an error message that explicitly states that the address is invalid, such as: "Unknown user".
 * **Soft**: This might be a temporary error, or one that could not be categorized, such as: "Invalid domain" or "Mailbox full".
@@ -180,11 +180,11 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
 
-For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. See [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. See [Defining validity period](steps-sending-the-delivery.md#defining-validity-period).
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [Configuring retries](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [Configuring retries](steps-sending-the-delivery.md#configuring-retries)).
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
@@ -201,7 +201,7 @@ A message can fail immediately (synchronous error), or later on, after it has be
 
   >[!NOTE]
   >
-  >Complaint management is detailed in the [Deliverability management](../../delivery/using/about-deliverability.md) section.
+  >Complaint management is detailed in the [Deliverability management](about-deliverability.md) section.
 
 ## Bounce mail management {#bounce-mail-management}
 
@@ -213,13 +213,13 @@ For on-premise installations and hosted/hybrid installations using the legacy Ca
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), most of the email management rules are no longer used. For more on this, see [this section](#email-management-rules).
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), most of the email management rules are no longer used. For more on this, see [this section](#email-management-rules).
 
 ### Bounce mail qualification {#bounce-mail-qualification}
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md):
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md):
 >
 >* The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for **synchronous** delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
 >
@@ -255,13 +255,13 @@ Bounce mails can have the following qualification status:
 
 >[!NOTE]
 >
->In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. For more on this, see [this page](../../delivery/using/update-bounce-qualification.md).
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. For more on this, see [this page](update-bounce-qualification.md).
 
 ### Email management rules {#email-management-rules}
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), most of the email management rules are no longer used. For more details, see the sections below.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), most of the email management rules are no longer used. For more details, see the sections below.
 
 Mail rules are accessed via the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** node. Email management rules are shown in the lower part of the window.
 
@@ -282,7 +282,7 @@ The default rules are as follows.
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), and if your instance has **Webhooks/EFS** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), and if your instance has **Webhooks/EFS** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
   
@@ -298,7 +298,7 @@ For more on bounce mail qualification, see [this section](#bounce-mail-qualifica
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, the Adobe Campaign messaging server applies a single **Domain management** rule to all domains.
 
@@ -313,7 +313,7 @@ If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in 
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA:
 

@@ -15,8 +15,8 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validate the delivery](../../delivery/using/steps-validating-the-delivery.md)
-* [Send the delivery](../../delivery/using/steps-sending-the-delivery.md)
+* [Validate the delivery](steps-validating-the-delivery.md)
+* [Send the delivery](steps-sending-the-delivery.md)
 
 ## Advanced parameters {#advanced-parameters}
 
@@ -54,9 +54,9 @@ The following options are available:
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitor a delivery](../../delivery/using/about-delivery-monitoring.md)
-* [Understand delivery failures](../../delivery/using/understanding-delivery-failures.md)
-* [About message tracking](../../delivery/using/about-message-tracking.md)
+* [Monitor a delivery](about-delivery-monitoring.md)
+* [Understand delivery failures](understanding-delivery-failures.md)
+* [About message tracking](about-message-tracking.md)
 
 ## Process inbound messages {#processing-inbound-messages}
 
@@ -158,6 +158,6 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!IMPORTANT]
 >
->These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard. [Learn more](../../delivery/using/delivery-dashboard.md).
+>These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard. [Learn more](delivery-dashboard.md).
 >
 >These messages are not taken into account in the commercial pressure rules. [Learn more](../../campaign/using/pressure-rules.md).

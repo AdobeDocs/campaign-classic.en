@@ -23,7 +23,7 @@ For additional tips to optimize deliverability when designing content, see the [
 
 >[!NOTE]
 >
->For more information on editing email content, see [Defining the email content](../../delivery/using/defining-the-email-content.md) and [Build personalized content](../../delivery/using/design-and-personalize.md).
+>For more information on editing email content, see [Defining the email content](defining-the-email-content.md) and [Build personalized content](design-and-personalize.md).
 
 ## Sender address {#sender-address}
 
@@ -31,23 +31,23 @@ Certain ISPs check the validity of the sender address (**[!UICONTROL From]**) be
 
 You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > Deployment wizard...]**) or in the most frequently-used scenarios.
 
-For more on this, see [Defining the sender](../../delivery/using/defining-the-email-content.md).
+For more on this, see [Defining the sender](defining-the-email-content.md).
 
 ## Personalization {#personalization}
 
 To improve your recipients’ experience and make them open your email, Adobe Campaign enables you to personalize your messages.
 
-For more on using personalization fields in Adobe Campaign, see [this section](../../delivery/using/personalization-fields.md).
+For more on using personalization fields in Adobe Campaign, see [this section](personalization-fields.md).
 
-Some tips to optimize personalization when building your content are presented in [this section](../../delivery/using/design-and-personalize.md#optimize-personalization).
+Some tips to optimize personalization when building your content are presented in [this section](design-and-personalize.md#optimize-personalization).
 
 ## Opt-out link and form {#opt-out}
 
-By default, when the message is analyzed, a [typology rule](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) checks whether an opt-out link has been included and generates a warning if it is missing. You can change this rule so that an error is raised rather than a simple warning and stop a delivery from going out without this link.
+By default, when the message is analyzed, a [typology rule](steps-validating-the-delivery.md#validation-process-with-typologies) checks whether an opt-out link has been included and generates a warning if it is missing. You can change this rule so that an error is raised rather than a simple warning and stop a delivery from going out without this link.
 
 You must check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line and that validating this changes the value of the **[!UICONTROL No longer contact this recipient]** field to **[!UICONTROL Yes]**. You should make this check systematically because human error is always possible when entering the link or when changing the form.
 
-Learn how to insert an opt-out link [in this section](../../delivery/using/personalization-blocks.md#personalization-blocks-example).
+Learn how to insert an opt-out link [in this section](personalization-blocks.md#personalization-blocks-example).
 
 If a problem is detected concerning unsubscription after the delivery is started, it is still possible to perform an unsubscription manually (using the mass-update function, for example) for those recipients who click the opt-out link even if they were not able to confirm their choice.
 
@@ -61,7 +61,7 @@ Before sending your message, you can test your message responsiveness by checkin
 
 To allow this, Adobe Campaign captures the rendering and makes it available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received.
 
-For more on this, see [Inbox rendering](../../delivery/using/inbox-rendering.md).
+For more on this, see [Inbox rendering](inbox-rendering.md).
 
 ## SpamAssassin {#spamassassin}
 
@@ -69,4 +69,4 @@ Adobe Campaign can be configured to work with SpamAssassin. This makes it possib
 
 Before starting a delivery, the **[!UICONTROL Preview]** tab enables you to evaluate the risks. A warning message gives the result of the test.
 
-Learn more in this [section](../../delivery/using/spamassassin.md).
+Learn more in this [section](spamassassin.md).

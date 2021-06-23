@@ -19,11 +19,11 @@ Combining the XML document and the XSL or JavaScript Template stylesheets automa
 
 The following resources are required for content configuration:
 
-* Data schemas: description of the XML content structure. For more on this, refer to [Data schemas](../../delivery/using/data-schemas.md).
-* Data entry forms: construction of data entry screens. For more on this, refer to [Input forms](../../delivery/using/input-forms.md).
-* Images: images used in data entry forms. For more on this, refer to [Image management](../../delivery/using/formatting.md#image-management).
-* Stylesheets: formatting of output documents using XSLT language. For more on this, refer to [Formatting](../../delivery/using/formatting.md).
-* JavaScript templates: formatting of output documents using JavaScript language. For more on this, refer to [Publication templates](../../delivery/using/publication-templates.md).
-* JavaScript codes: JavaScript codes for data aggregation. For more on this, refer to [Aggregator](../../delivery/using/publication-templates.md#aggregator).
-* Publication templates: definition of publication templates. For more on this, refer to [Publication templates](../../delivery/using/publication-templates.md).
-* Content: content instances to be created and published. For more on this, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
+* Data schemas: description of the XML content structure. For more on this, refer to [Data schemas](data-schemas.md).
+* Data entry forms: construction of data entry screens. For more on this, refer to [Input forms](input-forms.md).
+* Images: images used in data entry forms. For more on this, refer to [Image management](formatting.md#image-management).
+* Stylesheets: formatting of output documents using XSLT language. For more on this, refer to [Formatting](formatting.md).
+* JavaScript templates: formatting of output documents using JavaScript language. For more on this, refer to [Publication templates](publication-templates.md).
+* JavaScript codes: JavaScript codes for data aggregation. For more on this, refer to [Aggregator](publication-templates.md#aggregator).
+* Publication templates: definition of publication templates. For more on this, refer to [Publication templates](publication-templates.md).
+* Content: content instances to be created and published. For more on this, refer to [Using a content template](using-a-content-template.md).

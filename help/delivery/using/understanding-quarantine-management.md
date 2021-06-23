@@ -23,7 +23,7 @@ The profiles whose email addresses or phone number are in quarantine are automat
 
 Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
 
-Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](../../delivery/using/delivery-best-practices.md) .
+Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md) .
 
 ### Quarantine vs denylist {#quarantine-vs-denylist}
 
@@ -43,7 +43,7 @@ Quarantined addresses can be listed for a specific delivery or for the entire pl
 
 ### Identifying quarantined addresses for a delivery {#identifying-quarantined-addresses-for-a-delivery}
 
-Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard (see [Delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)).
+Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard (see [Delivery logs and history](delivery-dashboard.md#delivery-logs-and-history)).
 
 ### Identifying quarantined addresses for the entire platform {#identifying-quarantined-addresses-for-the-entire-platform}
 
@@ -113,7 +113,7 @@ You can modify the number of errors and the period between two errors. To do thi
 
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign manages quarantine according to the delivery failure type and the reason assigned during error messages qualification (see [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)) and [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Adobe Campaign manages quarantine according to the delivery failure type and the reason assigned during error messages qualification (see [Bounce mail qualification](understanding-delivery-failures.md#bounce-mail-qualification)) and [Delivery failure types and reasons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **Ignored error**: ignored errors do not send an address to quarantine.
 * **Hard error**: the corresponding email address is immediately sent to quarantine.
@@ -131,7 +131,7 @@ As opposed to hard errors, soft errors do not send immediately an address to qua
 
 * When the error counter reaches the limit threshold, then the address goes into quarantine.
 * In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-* The error counter threshold can be modified. For more on this, refer to [Retries after a delivery temporary failure](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+* The error counter threshold can be modified. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
 
@@ -524,7 +524,7 @@ The quarantine mechanism for SMS messages is globally the same as the general pr
 
 **For the Extended generic SMPP connector**
 
-When using the SMPP protocol to send SMS messages, the error management is handled differently. For more information on the Extended generic SMPP connector, refer to [this page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+When using the SMPP protocol to send SMS messages, the error management is handled differently. For more information on the Extended generic SMPP connector, refer to [this page](sms-set-up.md#creating-an-smpp-external-account).
 
 The SMPP connector retrieves data from the SR (Status Report) message that is returned using regular expressions (regexes) to filter its content. This data is then matched against the information found in the **[!UICONTROL Delivery log qualification]** table (available via the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** menu).
 
@@ -532,7 +532,7 @@ Before a new type of error is qualified, the failure reason is always set to **R
 
 >[!NOTE]
 >
->The failure types and reasons for failure are the same as for emails. See [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>The failure types and reasons for failure are the same as for emails. See [Delivery failure types and reasons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
 >Ask your provider for a list of status and error codes in order to set proper failure types and reasons for failure in the Delivery log qualification table.
 
@@ -543,13 +543,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * All error messages begin with **SR** to distinguish SMS error codes from email error codes.
-* The second part (**Generic** in this example) of the error message refers to the name of the SMSC implementation such as defined in the **[!UICONTROL SMSC implementation name]** field of the SMS external account. See [this page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+* The second part (**Generic** in this example) of the error message refers to the name of the SMSC implementation such as defined in the **[!UICONTROL SMSC implementation name]** field of the SMS external account. See [this page](sms-set-up.md#creating-an-smpp-external-account).
 
   Because the same error code may have a different meaning for each provider, this field allows you to know which provider generated the error code. You can then find the error in the relevant provider's documentation.
 
 * The third part (**DELIVRD** in this example) of the error message corresponds to the status code retrieved from the SR using the status extraction regex defined in the SMS external account.
 
-  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](sms-set-up.md#creating-an-smpp-external-account).
 
   ![](assets/tech_quarant_error_regex.png)
 
@@ -557,10 +557,10 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * The fourth part (**000** in this example) of the error message corresponds to the error code extracted from the SR using the error code extraction regex defined in the SMS external account.
 
-  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](sms-set-up.md#creating-an-smpp-external-account).
 
   By default, the regex extracts the **err:** field as defined by the **Appendix B** section of the **SMPP 3.4 specification**.
 
-* Everything that comes after the pipe symbol (|) is only displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. This content is always replaced by **#MESSAGE#** after the message is normalized. This process avoids having multiple entries for similar errors and is the same as for emails. For more on this, see [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
+* Everything that comes after the pipe symbol (|) is only displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. This content is always replaced by **#MESSAGE#** after the message is normalized. This process avoids having multiple entries for similar errors and is the same as for emails. For more on this, see [Bounce mail qualification](understanding-delivery-failures.md#bounce-mail-qualification).
 
 The Extended generic SMPP connector applies a heuristic to find sensible default values: if the status begins with **DELIV**, it is considered a success because it matches the common statuses **DELIVRD** or **DELIVERED** used by most providers. Any other status leads to a hard failure.
