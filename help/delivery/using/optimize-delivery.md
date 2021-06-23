@@ -16,7 +16,7 @@ The following section outlines best practices and recommended procedures for the
 
 Several factors can directly impact server performance and slow the platform:
 
-* The number and type of personalization elements: personalization in emails pulls data out of the database for each recipient. If there are many personalization elements, that increases the amount of data needed to prepare the delivery.  Learn more about personalization in [this section](../../delivery/using/about-personalization.md)
+* The number and type of personalization elements: personalization in emails pulls data out of the database for each recipient. If there are many personalization elements, that increases the amount of data needed to prepare the delivery.  Learn more about personalization in [this section](about-personalization.md)
 
 * The server load: when the marketing server is handling many different tasks at the same time, it can slow down performance. The marketing server needs to coordinate all of the incoming and outgoing data for all of the deliveries to ensure that the data is correct and on time.
 
@@ -40,9 +40,9 @@ To reach your recipients' inbox without bouncing or being marked as spam, you ne
 
     * It refers to the factors of an email that determine its ability to be accepted by a recipient’s server. ISPs (Internet Service Providers) filter out emails that they identify as SPAM, or they block images from downloading. If they determine that a certain domain is sending too many emails, they will set a limit on the number of emails that they will accept from that sender.
 
-    * When checking your email for deliverability, you want to focus on four main categories: data quality, message and content, sending infrastructure, and reputation. For a deeper dive on this topic, refer to [this section](../../delivery/using/about-deliverability.md).
+    * When checking your email for deliverability, you want to focus on four main categories: data quality, message and content, sending infrastructure, and reputation. For a deeper dive on this topic, refer to [this section](about-deliverability.md).
 
-* Apply the recommendations detailed [in this document](../../delivery/using/about-deliverability.md).
+* Apply the recommendations detailed [in this document](about-deliverability.md).
 
 * Contact your Adobe representative for assistance.
 
@@ -58,7 +58,7 @@ When starting to send emails on a new platform, you may use a list of addresses 
 
 * The recipients whose addresses are quarantined are excluded by default during the delivery analysis: they are not targeted. This will speed up deliveries, as the error rate has a significant effect on delivery speed. An email address can be quarantined for example when the inbox is full or if the address does not exist. [Learn more](#identifying-quarantined-addresses-for-a-delivery)
 
-* Adobe Campaign manages erroneous addresses according to the type of error returned. For more on this, refer to [this section](../../delivery/using/understanding-quarantine-management.md).
+* Adobe Campaign manages erroneous addresses according to the type of error returned. For more on this, refer to [this section](understanding-quarantine-management.md).
 
 
 * Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.

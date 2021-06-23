@@ -65,13 +65,13 @@ Select the format of the email in the lower section of the window:
 
 >[!NOTE]
 >
->For more on defining the email content, see [this section](../../delivery/using/defining-the-email-content.md).
+>For more on defining the email content, see [this section](defining-the-email-content.md).
 
 ## Generating the mirror page {#generating-mirror-page}
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email.
 
-By default, the mirror page is generated if the link is inserted in the content of the mail. For more on personalization blocks insertion, refer to [Personalization blocks](../../delivery/using/personalization-blocks.md).
+By default, the mirror page is generated if the link is inserted in the content of the mail. For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).
 
 In the delivery properties, the **[!UICONTROL Mode]** field of the **[!UICONTROL Validity]** tab lets you modify the generation mode for this page.
 
@@ -111,7 +111,7 @@ You can also define a specific address from this screen in order to investigate 
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-For more on bounce mail management, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+For more on bounce mail management, see [this section](understanding-delivery-failures.md#bounce-mail-management).
 
 ## Adding SMTP headers {#adding-smtp-headers}
 

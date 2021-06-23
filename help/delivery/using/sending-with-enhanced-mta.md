@@ -123,7 +123,7 @@ The bounce qualifications in the Campaign **[!UICONTROL Delivery log qualificati
 >
 >The Enhanced MTA qualifies the SMTP bounce and sends that qualification back to Campaign in the form of a bounce code mapped to a Campaign bounce reason and qualification.
 
-For more on bounce qualification, see [this section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
+For more on bounce qualification, see [this section](understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Delivery throughput
 
@@ -139,7 +139,7 @@ For example, if the validity period is set to the default value of 5 days in Cam
 
 Once a message has been in the Enhanced MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the delivery logs.
 
-For more on the validity period, see [this section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+For more on the validity period, see [this section](steps-sending-the-delivery.md#defining-validity-period).
 
 ### DKIM-signing
 
@@ -148,13 +148,13 @@ For more on DKIM, see the [Adobe Deliverability Best Practice Guide](https://exp
 
 ### Delivery success reporting
 
-In the **[!UICONTROL Summary]** view of an email delivery [dashboard](../../delivery/using/delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
+In the **[!UICONTROL Summary]** view of an email delivery [dashboard](delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
 
-Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
+Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
 
 When hard-bouncing messages get reported back from the Enhanced MTA, their status changes from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
 
-When soft-bouncing messages get reported back from the Enhanced MTA, they still show as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is not yet updated. Soft-bouncing messages are then [retried](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) throughout the delivery validity period:
+When soft-bouncing messages get reported back from the Enhanced MTA, they still show as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is not yet updated. Soft-bouncing messages are then [retried](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) throughout the delivery validity period:
 
 * If a retry is successful before the end of the validity period, the message status remains as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage remains unchanged.
 
@@ -186,7 +186,7 @@ When the message is actually delivered to the targeted profiles and once this in
 
 When hard-bouncing messages get reported back from the Enhanced MTA, their log status changes from **[!UICONTROL Taken into account by the service provider]** to **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-When soft-bouncing messages get reported back from the Enhanced MTA, their log status remains unchanged (**[!UICONTROL Taken into account by the service provider]**): only the [error reason](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) is updated<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. The **[!UICONTROL Success]** percentage remains unchanged. Soft-bouncing messages are then retried throughout the delivery [validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period):
+When soft-bouncing messages get reported back from the Enhanced MTA, their log status remains unchanged (**[!UICONTROL Taken into account by the service provider]**): only the [error reason](understanding-delivery-failures.md#delivery-failure-types-and-reasons) is updated<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. The **[!UICONTROL Success]** percentage remains unchanged. Soft-bouncing messages are then retried throughout the delivery [validity period](steps-sending-the-delivery.md#defining-validity-period):
 
 * If a retry is successful before the end of the validity period, the message status changes to **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is increased accordingly.
 
@@ -194,9 +194,9 @@ When soft-bouncing messages get reported back from the Enhanced MTA, their log 
   
 >[!NOTE]
 >
->For more on hard and soft bounces, see [this section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>For more on hard and soft bounces, see [this section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->For more on retries after a delivery temporary failure, see [this section](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>For more on retries after a delivery temporary failure, see [this section](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 
 The tables below show the changes in KPIs and sending logs statuses introduced by the EFS capability.

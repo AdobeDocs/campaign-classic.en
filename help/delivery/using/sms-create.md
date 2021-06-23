@@ -15,14 +15,14 @@ To create a new SMS delivery, follow the steps below:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
 
 1. Create a new delivery, for example from the Delivery dashboard.
 1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. For more on this, refer to the [Change the delivery template](sms-set-up.md#changing-the-delivery-template) section.
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
 
 ## Define the SMS content {#defining-the-sms-content}
@@ -33,7 +33,7 @@ To create the content of the SMS, follow the steps below:
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
-   The use of personalization fields is presented in the [About personalization](../../delivery/using/about-personalization.md) section.
+   The use of personalization fields is presented in the [About personalization](about-personalization.md) section.
 
 1. Click **[!UICONTROL Preview]** at the bottom of the page to view the rendering of the message with its personalization. To launch the preview, select a recipient using the **[!UICONTROL Test personalization]** button in the toolbar. You can select a recipient from the defined targets or choose another recipient.
 
@@ -59,8 +59,8 @@ To create the content of the SMS, follow the steps below:
 
 ## Select the target population {#selecting-the-target-population}
 
-The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/steps-defining-the-target-population.md).
+The detailed process when selecting the target population of a delivery is presented in [this section](steps-defining-the-target-population.md).
 
-For more on the use of personalization fields, refer to [this section](../../delivery/using/about-personalization.md).
+For more on the use of personalization fields, refer to [this section](about-personalization.md).
 
-For more on the inclusion of a seed list, refer to [this page](../../delivery/using/about-seed-addresses.md).
+For more on the inclusion of a seed list, refer to [this page](about-seed-addresses.md).

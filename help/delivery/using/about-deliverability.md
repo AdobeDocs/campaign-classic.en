@@ -34,11 +34,11 @@ The deliverability rate is the number of messages that hit the recipients’ inb
 With Adobe Campaign, the deliverability rate depends on numerous factors, particularly:
 
 * Correct configuration of your instances: contact your Adobe representative for assistance.
-* Legitimate network configuration: see [this section](../../delivery/using/optimize-delivery.md#network-config) and [Domain setup and strategy](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* Legitimate network configuration: see [this section](optimize-delivery.md#network-config) and [Domain setup and strategy](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
 * Your IP address reputation: see [IP strategy](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
-* Quality of the addresses targeted: see [Quarantine management](../../delivery/using/optimize-delivery.md#quarantine-management).
+* Quality of the addresses targeted: see [Quarantine management](optimize-delivery.md#quarantine-management).
 * Low [complaints](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) and [hard bounce](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) rates.
-* Your message content: see [Controlling email content](../../delivery/using/control-message-content.md).
+* Your message content: see [Controlling email content](control-message-content.md).
 * Message authentication (SPF, DKIM, DMARC): see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 * Sender reputation: to learn how main ISPs evaluate a sender reputation, see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
@@ -51,10 +51,10 @@ Adobe Campaign provides several tools to track and improve the deliverability pe
 
 When configuring, designing, and testing your message, make sure you follow the best practices mentioned in the sections listed below. Leveraging all the features provided by Adobe Campaign helps you improve deliverability.
 
-* [Delivery best practices](../../delivery/using/delivery-best-practices.md)
-* [Controlling email content](../../delivery/using/control-message-content.md)
-* [Inbox rendering](../../delivery/using/inbox-rendering.md)
-* [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
+* [Delivery best practices](delivery-best-practices.md)
+* [Controlling email content](control-message-content.md)
+* [Inbox rendering](inbox-rendering.md)
+* [Sending a proof](steps-validating-the-delivery.md#sending-a-proof)
 
 ### Verify consent through double opt-in {#double-opt-in}
 
@@ -74,9 +74,9 @@ Some internet access providers automatically consider emails to be spam if the r
 
 For more on this, refer to the following sections:
 
-* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
-* [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md)
-* [Quarantine vs denylist](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [Understanding delivery failures](understanding-delivery-failures.md)
+* [Understanding quarantine management](understanding-quarantine-management.md)
+* [Quarantine vs denylist](understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### Use monitoring and reporting tools
 
@@ -86,8 +86,8 @@ Adobe Campaign allows you to check how your deliveries are performing through a 
 
 For more on this, refer to the following sections:
 
-* [Monitoring deliverability](../../delivery/using/monitoring-deliverability.md)
-* [About delivery monitoring](../../delivery/using/about-delivery-monitoring.md)
+* [Monitoring deliverability](monitoring-deliverability.md)
+* [About delivery monitoring](about-delivery-monitoring.md)
 * [About Campaign built-in reports](../../reporting/using/about-campaign-built-in-reports.md)
 
 <!--TO REMOVE

@@ -62,7 +62,7 @@ To do this, we need to insert the following personalization blocks:
 
 >[!NOTE]
 >
->For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+>For more on the mirror page generation, refer to [Generating the mirror page](sending-messages.md#generating-the-mirror-page).
 
 1. Create a new delivery or open an existing email type delivery.
 1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
@@ -94,12 +94,12 @@ A list of personalization blocks is available by default to help you personalize
 
   >[!NOTE]
   >
-  >For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+  >For more on the mirror page generation, refer to [Generating the mirror page](sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist).
 * **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
-* **[!UICONTROL Registration page URL]** : inserts a subscription URL (see [About services and subscriptions](../../delivery/using/about-services-and-subscriptions.md)).
+* **[!UICONTROL Registration page URL]** : inserts a subscription URL (see [About services and subscriptions](about-services-and-subscriptions.md)).
 * **[!UICONTROL Registration link]** : inserts a subscription link. that has been defined when configuring the instance.
 * **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. The link has been defined when configuring the instance.
 
@@ -108,7 +108,7 @@ A list of personalization blocks is available by default to help you personalize
   >This block can be used in deliveries targeting visitors only.
 
 * **[!UICONTROL Registration confirmation]** : inserts a link enabling to confirm subscription.
-* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content with the email client, Facebook, Twitter, and LinkedIn (see [Viral marketing: forward to a friend](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content with the email client, Facebook, Twitter, and LinkedIn (see [Viral marketing: forward to a friend](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. These blocks must be inserted in the source code of the delivery, in the **[!UICONTROL ...]** section, into **`<style>...</style>`** tags.
 * **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an Interaction offer to **[!UICONTROL Accepted]** (see [this section](../../interaction/using/offer-analysis-report.md)).
 

@@ -24,7 +24,7 @@ A default template is provided for each channel you have installed: direct mail,
 >
 >The channels offered in the list depend on your license agreement.
 
-You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, refer to [this section](../../delivery/using/about-templates.md).
+You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, refer to [this section](about-templates.md).
 
 ## Identifying the delivery {#identifying-the-delivery}
 
@@ -43,7 +43,7 @@ You need to complete parameters to identify the delivery. To do this:
 
 The delivery content is ready to be configured. Delivery content definition is specific to each channel. For more on this, refer to the dedicated section:
 
-* [Defining the email content](../../delivery/using/defining-the-email-content.md)
-* [Defining the SMS content](../../delivery/using/sms-create.md#defining-the-sms-content)
-* [Defining the direct mail content](../../delivery/using/defining-the-direct-mail-content.md)
-* [Push notifications](../../delivery/using/about-mobile-app-channel.md)
+* [Defining the email content](defining-the-email-content.md)
+* [Defining the SMS content](sms-create.md#defining-the-sms-content)
+* [Defining the direct mail content](defining-the-direct-mail-content.md)
+* [Push notifications](about-mobile-app-channel.md)

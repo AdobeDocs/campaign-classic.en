@@ -20,7 +20,7 @@ To send to a mobile phone, you need:
 ## Create an SMPP external account {#creating-an-smpp-external-account}
 
 To send a SMS to a mobile phone, you first need to create your SMPP external account.
-For more information on SMS protocol and settings, refer to this [page](../../delivery/using/sms-protocol.md).
+For more information on SMS protocol and settings, refer to this [page](sms-protocol.md).
 
 To do this, follow the steps below:
 
@@ -36,7 +36,7 @@ To do this, follow the steps below:
 
    >[!CAUTION]
    >
-   > As of release 20.2, legacy connectors are deprecated and not supported. We recommend using the **[!UICONTROL Extended generic SMPP]** connector. For more information on how to migrate to the recommended connector, refer to this [page](../../delivery/using/unsupported-connector-migration.md).
+   > As of release 20.2, legacy connectors are deprecated and not supported. We recommend using the **[!UICONTROL Extended generic SMPP]** connector. For more information on how to migrate to the recommended connector, refer to this [page](unsupported-connector-migration.md).
 
 1. The **[!UICONTROL Enable verbose SMPP traces in the log file]** option allows you to dump all SMPP traffic in log files. This option must be enabled to troubleshoot the connector and to compare with the traffic seen by the provider.
 
@@ -74,7 +74,7 @@ To do this, follow the steps below:
 
    However, given that certain providers require the use of the '+' prefix, it is advised that you check with your provider and they will suggest that you enable this option if necessary.
 
-   The **[!UICONTROL Enable TLS over SMPP]** checkbox allows you to encrypt SMPP traffic. For more on this, refer to this [page](../../delivery/using/sms-protocol.md).
+   The **[!UICONTROL Enable TLS over SMPP]** checkbox allows you to encrypt SMPP traffic. For more on this, refer to this [page](sms-protocol.md).
 
 1. If you are configuring an **[!UICONTROL Extended generic SMPP]** connector, you can set up automatic replies.
 
@@ -339,7 +339,7 @@ The steps for setting up an external account using the Extended generic SMPP con
 
 ## Change the delivery template {#changing-the-delivery-template}
 
-Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [About templates](../../delivery/using/about-templates.md) section.
+Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [About templates](about-templates.md) section.
 
 To deliver via SMS channel, you must create a template in which the channel connector is referenced.
 

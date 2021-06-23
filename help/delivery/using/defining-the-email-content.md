@@ -17,7 +17,7 @@ To define the name and address of the sender which will appear in the header of 
 
 This window lets you enter all the information required to create the email message headers. This information can be personalized. To do this, use the buttons to the right of the input fields to insert personalization fields.
 
-To find out how to insert and use personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md) section.
+To find out how to insert and use personalization fields, refer to [About personalization](about-personalization.md) section.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ For example, in the message above, the subject of the message is personalized fo
 
 >[!NOTE]
 >
->The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
+>The use of personalization fields is presented in [About personalization](about-personalization.md).
 
 You can also insert emoticons to your subject line with the **[!UICONTROL Insert emoticon]** pop-up window.
 
@@ -84,7 +84,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   >[!NOTE]
   >
-  >The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
+  >The use of personalization fields is presented in [About personalization](about-personalization.md).
 
   The tabs at the bottom of the page let you display the HTML code of the page being created and view the rendering of the message with its personalization. To launch this display, click **[!UICONTROL Preview]** and select a recipient using the **[!UICONTROL Test personalization]** button in the toolbar. You can select a recipient from the defined target(s) or choose another recipient.
 
@@ -130,7 +130,7 @@ Select the format of the email in the lower section of the window:
 
 Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
-For more on this, see [this section](../../delivery/using/defining-interactive-content.md).
+For more on this, see [this section](defining-interactive-content.md).
 
 ## Using content management {#using-content-management}
 
@@ -144,7 +144,7 @@ An additional tab lets you enter content that will automatically be integrated a
 
 >[!NOTE]
 >
->For further information about content management in Adobe Campaign, refer to [this section](../../delivery/using/about-content-management.md).
+>For further information about content management in Adobe Campaign, refer to [this section](about-content-management.md).
 
 ## Inserting emoticons {#inserting-emoticons}
 
@@ -157,7 +157,7 @@ You can insert emoticons to your email content.
 
 1. Click the **[!UICONTROL Close]** button when done.
 
-To customize the emoticon list, refer to this [page](../../delivery/using/customizing-emoticon-list.md).
+To customize the emoticon list, refer to this [page](customizing-emoticon-list.md).
 
 ## Adding images {#adding-images}
 
@@ -208,7 +208,7 @@ When you open HTML content with included images in the delivery wizard, a messag
 
 >[!NOTE]
 >
->To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](../../delivery/using/attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+>To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
 Here is a sample of a delivery with four images:
 

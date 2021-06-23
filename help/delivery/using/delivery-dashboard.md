@@ -26,10 +26,10 @@ Here are the information you can monitor using the several tabs that are availab
 
 **Related topics:**
 
-* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
-* [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md)
-* [Delivery best practices](../../delivery/using/delivery-best-practices.md)
-* [Managing deliverability](../../delivery/using/about-deliverability.md)
+* [Understanding delivery failures](understanding-delivery-failures.md)
+* [Understanding quarantine management](understanding-quarantine-management.md)
+* [Delivery best practices](delivery-best-practices.md)
+* [Managing deliverability](about-deliverability.md)
 
 ## Delivery summary {#delivery-summary}
 
@@ -47,7 +47,7 @@ The contents of this tab can be configured according to your requirements. For m
 
 The **[!UICONTROL Delivery]** tab gives a history of the occurrences in this delivery. It contains the delivery logs, i.e. the list of messages sent and their status and the associated messages.
 
-For a delivery, you can display (for example) only recipients with a failed delivery or an address in quarantine. To do this, click the **[!UICONTROL Filters]** button and select **[!UICONTROL By state]**. Then select the state in the drop-down list. Various statuses are listed in [this page](../../delivery/using/delivery-statuses.md).
+For a delivery, you can display (for example) only recipients with a failed delivery or an address in quarantine. To do this, click the **[!UICONTROL Filters]** button and select **[!UICONTROL By state]**. Then select the state in the drop-down list. Various statuses are listed in [this page](delivery-statuses.md).
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ For a delivery, you can display (for example) only recipients with a failed deli
 
 The **[!UICONTROL Display the mirror page for this message...]** link lets you view the mirror page for the contents of the delivery selected from the list in a new window.
 
-The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to [Generating the mirror page](sending-messages.md#generating-the-mirror-page).
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -69,7 +69,7 @@ The **[!UICONTROL Tracking]** tab lists the tracking history for this delivery. 
 >
 >If tracking is not enabled for a delivery, this tab is not displayed.
 
-Tracking configuration is performed at the appropriate stage in the delivery wizard. See [How to configure tracked links](../../delivery/using/how-to-configure-tracked-links.md).
+Tracking configuration is performed at the appropriate stage in the delivery wizard. See [How to configure tracked links](how-to-configure-tracked-links.md).
 
 **[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](../../reporting/using/delivery-reports.md).
 
@@ -81,7 +81,7 @@ The **[!UICONTROL Inbox rendering]** tab allows you to preview the message in th
 
 This way, you can make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
-For more on inbox rendering, refer to [this page](../../delivery/using/inbox-rendering.md)
+For more on inbox rendering, refer to [this page](inbox-rendering.md)
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -91,7 +91,7 @@ The **[!UICONTROL Audit]** tab contains the delivery log and all the messages co
 
 The **[!UICONTROL Refresh]** button lets you update the data. Use the **[!UICONTROL Filters]** button to define a filter on the data.
 
-Special icons enable you to identify errors or warnings. See [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Special icons enable you to identify errors or warnings. See [Analyzing the delivery](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have been sent.
 

@@ -13,7 +13,7 @@ Thanks to its tracking functionalities, Adobe Campaign enables you to tra track 
 
 This information is retrieved in the **[!UICONTROL Tracking]** tab of the profile of each recipient of the delivery. This tab presents all the URL links tracked and clicked by the recipient selected from the list. This is the accumulation of all URLs tracked in the deliveries that are still present in the delivery screen. The list can be configured and typically will contain: the URL clicked, the date and time of the click, and the document in which the URL was found. For more on this, refer to [this section](../../platform/using/editing-a-profile.md#tracking-tab).
 
-The **delivery dashboard** is also key to monitor your deliveries and eventual issues encountered during the sending of messages. For more on this refer to [this section](../../delivery/using/delivery-dashboard.md).
+The **delivery dashboard** is also key to monitor your deliveries and eventual issues encountered during the sending of messages. For more on this refer to [this section](delivery-dashboard.md).
 
 The following diagram shows the stages of the dialog between the user and the various servers.
 
@@ -41,23 +41,23 @@ Once tracking is configured and your URLs populated, the tracking server must be
 
 **Tracked links**
 
-You can track the reception of messages and the activation of the links inserted in the message content to better understand the behavior of recipients. [Learn more](../../delivery/using/how-to-configure-tracked-links.md)
+You can track the reception of messages and the activation of the links inserted in the message content to better understand the behavior of recipients. [Learn more](how-to-configure-tracked-links.md)
 
 **URL tracking**
 
-Tracking options can be configured by activating or deactivating tracked URLs. [Learn more](../../delivery/using/personalizing-url-tracking.md)
+Tracking options can be configured by activating or deactivating tracked URLs. [Learn more](personalizing-url-tracking.md)
 
 **Tracked link personalization**
 
-Campaign Classic tracking capabilities allow you to add links in emails that can be personalized and that support tracking. [Learn more](../../delivery/using/tracking-personalized-links.md) 
+Campaign Classic tracking capabilities allow you to add links in emails that can be personalized and that support tracking. [Learn more](tracking-personalized-links.md) 
 
 **Tracking logs**
 
-The Tracking technical workflow retrieves the tracking data once the delivery has been sent and tracking activated. This data can be found in the Tracking tab of your delivery. [Learn more](../../delivery/using/accessing-the-tracking-logs.md)
+The Tracking technical workflow retrieves the tracking data once the delivery has been sent and tracking activated. This data can be found in the Tracking tab of your delivery. [Learn more](accessing-the-tracking-logs.md)
 
 **Testing tracking**
 
-Before sending your messages with your tracking, you can test the tracking on your mirror page, email logs and links. [Learn more](../../delivery/using/testing-tracking.md)
+Before sending your messages with your tracking, you can test the tracking on your mirror page, email logs and links. [Learn more](testing-tracking.md)
 
 ## Web application tracking {#web-application-tracking}
 
@@ -99,7 +99,7 @@ The different tables give you the list of indicators used in the different repor
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-The following troubleshooting tips will help you solve the most common issues happening when using tracking in Adobe Campaign Classic. For a more advanced troubleshooting, refer to [this section](../../delivery/using/tracking-troubleshooting.md).
+The following troubleshooting tips will help you solve the most common issues happening when using tracking in Adobe Campaign Classic. For a more advanced troubleshooting, refer to [this section](tracking-troubleshooting.md).
 
 * Check that the trackinglogd process is running
 

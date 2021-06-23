@@ -13,7 +13,7 @@ You can find in this section a configuration sample based on a company which sel
 
 To send push notifications in Adobe Campaign, you need to:
 
-* Create a **[!UICONTROL Mobile application]** type information service for the Neotrips mobile application. Refer to [this section for iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-ios-service). and [this section for Android](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service).
+* Create a **[!UICONTROL Mobile application]** type information service for the Neotrips mobile application. Refer to [this section for iOS](configuring-the-mobile-application.md#configuring-ios-service). and [this section for Android](configuring-the-mobile-application-android.md#configuring-android-service).
 * Add the iOS and Android versions of the application to this service.
 * Create a delivery for [iOS](create-notifications-ios.md) and [Android](create-notifications-android.md).
 
@@ -58,6 +58,6 @@ Installation steps are:
 Once this step is done, you can configure your Android and iOS apps.
 Refer to these sections:
 
-* [Configuration steps for iOS](../../delivery/using/configuring-the-mobile-application.md)
+* [Configuration steps for iOS](configuring-the-mobile-application.md)
 
-* [Configuration steps for Android](../../delivery/using/configuring-the-mobile-application-android.md)
+* [Configuration steps for Android](configuring-the-mobile-application-android.md)

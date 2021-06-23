@@ -69,7 +69,7 @@ We create an email in which we will first insert the name of the recipient and t
 
 ## Optimizing personalization {#optimizing-personalization}
 
-You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties. For more on analyzing the delivery, see [this section](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties. For more on analyzing the delivery, see [this section](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
 
