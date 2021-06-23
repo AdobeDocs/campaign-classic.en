@@ -43,7 +43,7 @@ Example:
 
 ### URL signature
 
-To improve security, a signature mechanism for tracking links in emails has been introduced in Build 19.1.4 (9032@3a9dc9c), and is available in Build 19.1.4 (9032@3a9dc9c) and Campaign 20.2. This feature is enabled by default.
+To improve security, a signature mechanism for tracking links in emails has been introduced. It is available in Build 19.1.4 (9032@3a9dc9c) and Campaign 20.2. This feature is enabled by default.
 
 >[!NOTE]
 >
@@ -55,9 +55,13 @@ If you are running [!DNL Gold Standard] 19.1.4, you may experience issues with p
 
 Whether you are running Campaign on premises or in a hybrid architecture, you must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have URL signature disabled.
 
-If you are running Campaign in a hybrid architecture, before you enable URL signature, ensure that the hosted mid-sourcing instance is upgraded to the same version as the on-premises marketing instance or to a slightly higher version. Otherwise, these issues arise: 
--	Before the mid-sourcing instance is upgraded, URLs are sent without signature through this instance.
--	After the mid-sourcing instance has been upgraded and URL signature has been enabled on both instances, the URLs that had been previously sent without signature are rejected because the tracking files have been provided by the marketing instance.
+If you are running Campaign in a hybrid architecture, before you enable URL signature, ensure that the hosted mid-sourcing instance has been upgraded as follows:
+* Prior to the on-premises marketing instance
+* To the same version as the on-premises marketing instance or to a slightly higher version
+
+Otherwise, some of these issues may arise:
+* Before the mid-sourcing instance is upgraded, URLs are sent without signature through this instance.
+* After the mid-sourcing instance has been upgraded and URL signature has been enabled on both instances, the URLs that had previously been sent without signature are rejected. The reason is that a signature is requested by the tracking files that have been provided by the marketing instance.
 
 To disable URLs that have been generated in previous builds, follow these steps on all Campaign servers at the same time:
 
