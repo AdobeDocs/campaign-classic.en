@@ -115,7 +115,7 @@ By creating a delivery workflow in Campaign Standard, it is then possible to use
 
    This activity is used to retrieve the data of the selected audience. You can also apply an additional **[!UICONTROL Source Filtering]** if needed by using the according tab of this activity.
 
-1. Add an **[!UICONTROL Email delivery]** activity and configure it as any other [email delivery activity](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
+1. Add an **[!UICONTROL Email delivery]** activity and configure it as any other [email delivery activity](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
 1. Open the delivery content.
 1. Add a personalization field. From the popup, locate the **[!UICONTROL Additional data (targetData)]** node. This node contains the additional data of the audience that were computed in the initial targeting workflow. You can use them as any other personalization field.
 

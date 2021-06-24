@@ -486,7 +486,7 @@ The best practices for performance improvements of workflows and deliveries have
 
 **New capabilities included in 19.1 release**
 
-Control Panel - [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Control Panel - [Read more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Audit trail - [Read more](../../production/using/audit-trail.md)
 
@@ -593,4 +593,4 @@ The "Workflow monitoring" section has been updated with a note for builds betwee
 
 Added a use case on how to send an email with custom data fields using the Enrichment activity in a workflow. [Read more](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 
-Feature videos have been moved [here](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html).
+Feature videos have been moved [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

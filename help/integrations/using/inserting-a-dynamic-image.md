@@ -72,7 +72,7 @@ In our case, we need two redirect offers, the third one (the default one) is to 
 
    ![](assets/target_6.png)
 
-1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [page](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html).
+1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [page](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html).
 
 ## Creating audiences {#audiences-target}
 

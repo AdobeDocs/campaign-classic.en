@@ -62,7 +62,7 @@ The following steps detail the configuration of Data connector using a wizard.
 
 1. From the **[!UICONTROL Admin]** tab, select **[!UICONTROL Data Connectors]**.
    
-   You need to have the following Analytics tools permissions to access the **[!UICONTROL Data Connectors]** menu. For more on this, refer to this [page](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
+   You need to have the following Analytics tools permissions to access the **[!UICONTROL Data Connectors]** menu. For more on this, refer to this [page](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)
    * Integrations (Create)
    * Integrations (Update)
    * Integrations (Delete)

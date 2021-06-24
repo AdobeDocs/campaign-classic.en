@@ -54,7 +54,7 @@ Refer to [this document](https://helpx.adobe.com/campaign/kb/campaign-privacy-ov
 
 Read out [this section](../../platform/using/adobe-campaign-workspace.md) to learn more about Adobe Campaign workspace basics. 
 
-![](assets/do-not-localize/how-to-video.png) [Discover Campaign workspace in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [Discover Campaign workspace in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## How can I select the audience of my messages? {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -122,6 +122,6 @@ Adobe constantly evaluates capabilities in the product and over time plans to re
 
 ## Are there new documentation updates and help materials released? {#are-there-new-documentation-updates-and-help-materials-released-}
 
-Latest Campaign Classic documentation updates are listed [in this page](https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html).
+Latest Campaign Classic documentation updates are listed [in this page](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html).
 
 You can also refer to the latest technical notes listed [in this page](https://helpx.adobe.com/campaign/kb/article-list.html).

@@ -348,12 +348,12 @@ For the following browsers, the latest version is supported:
 
 ## Experience Cloud integrations{#ExperienceCloudintegrations}
 
-For integrations with Adobe solutions, refer to this [section](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
+For integrations with Adobe solutions, refer to this [section](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
 
 ## More like this{#Morelikethis}
 
-* [Campaign Classic Release notes](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
-* [Installation Guide](https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
+* [Campaign Classic Release notes](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)
+* [Installation Guide](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
 * [Deprecated features and systems](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 * [Build upgrade procedure](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
 * [Campaign Classic Compatibility matrix for 19.0 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html)

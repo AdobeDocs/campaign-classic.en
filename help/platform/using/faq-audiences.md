@@ -19,7 +19,7 @@ You can import recipients or create them manually using Campaign client console.
 
 Discover easy use cases to [import profiles](../../platform/using/import-operations-samples.md) in your database. 
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
 
 ## How can I define the target population of a marketing campaign? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
@@ -32,7 +32,7 @@ A list is a static set of recipients that can be targeted in delivery actions, u
 
 [Click here to learn more](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). 
 
-![](assets/do-not-localize/how-to-video.png) Discover this feature [in this video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html) and [in this other video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
+![](assets/do-not-localize/how-to-video.png) Discover this feature [in this video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html) and [in this other video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
 
 ## How can I deduplicate a population before sending a message? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
