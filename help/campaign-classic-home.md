@@ -14,9 +14,9 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 * **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
 
-* **[Remove incorrect hard bounces](delivery/using/update-bounce-qualification.md)**<br/> Learn how to update incorrect hard bounces after Apple outage
+* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](technotes/ims-updates.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**
 
-* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](integrations/using/about-adobe-id.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**
+* **[Remove incorrect hard bounces](delivery/using/update-bounce-qualification.md)**<br/> Learn how to update incorrect hard bounces after Apple outage
 
 * **[Secure your Campaign instances](technotes/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform
 
