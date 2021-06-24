@@ -149,7 +149,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 and SP2</p>
-<p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Learn more</a>.</p>
+<p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. [Learn more](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
 </td>
 </tr>
 </tbody>
