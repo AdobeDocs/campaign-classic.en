@@ -71,7 +71,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, Twitter,
 * [Workflow](../../workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
-* [Survey Manager](../../web/using/about-surveys.md) - create online surveys and polls,
+* [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
 * [Distributed Marketing](../../campaign/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
 * [Response Manager](../../campaign/using/about-response-manager.md) - manage customer response,

@@ -86,7 +86,7 @@ Five different types of text fields can be inserted into a form page:
   >
   >Multi-line text fields are specific fields that can contain carriage returns. Their storage space must be associated with a field mapped on an XML element, not an XML attribute. For more on the types of data in schemas, refer to the "Schema reference" chapter in [this section](../../configuration/using/about-schema-reference.md).
   >   
-  >If you are using the **Survey** module, you can store this type of field in an archived field which will automatically adapt to the format. For more on this, refer to [this section](../../web/using/about-surveys.md).
+  >If you are using the **Survey** module, you can store this type of field in an archived field which will automatically adapt to the format. For more on this, refer to [this section](../../surveys/using/about-surveys.md).
 
 * **Enriched multi-line text**: lets the user enter text with a layout which will be stored in HTML format.
 
@@ -212,7 +212,7 @@ Add as many radio buttons as there are labels. The advantage of this feature is 
 
 >[!NOTE]
 >
->Web forms don't authorize the selection of several values. Multiple selection may only be activated for **Survey** type forms. For more on this, refer to [this section](../../web/using/about-surveys.md).  
+>Web forms don't authorize the selection of several values. Multiple selection may only be activated for **Survey** type forms. For more on this, refer to [this section](../../surveys/using/about-surveys.md).  
 >It is possible, however, to insert a **[!UICONTROL Multiple choice]** type field into a Web application; but without authorizing the selection of several values: the options offered can be selected using radio buttons.
 
 ## Adding grids {#adding-grids}
@@ -317,7 +317,7 @@ The user subscribes to the service by checking the relevant option.
 >
 >If the user is already subscribed to an information service and the box linked to this service isn't checked when they approve the form, they will be unsubscribed.
 
-Examples of subscriptions and referrals are available in [this section](../../web/using/about-surveys.md).
+Examples of subscriptions and referrals are available in [this section](../../surveys/using/about-surveys.md).
 
 ## Inserting a captcha {#inserting-a-captcha}
 

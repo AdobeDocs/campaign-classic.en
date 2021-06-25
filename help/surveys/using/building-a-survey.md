@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Designing a survey
-description: Designing a survey
+title: Design a survey
+description: Learn key steps to design a survey
 audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 ---
-# Designing a survey{#building-a-survey}
+# Design a survey{#building-a-survey}
 
-## Creating a new survey {#creating-a-new-survey}
+## Create a new survey {#creating-a-new-survey}
 
 This chapter details the designing of a **Survey** type form using Adobe Campaign, as well as the available options and configurations. Adobe Campaign lets you make this survey available to users and collect and archive answers in the database.
 
@@ -19,13 +19,13 @@ Select the survey template (**[!UICONTROL newSurvey]** by default).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements (see [Adding questions](#adding-questions)).
+The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements. [Learn more](#adding-questions)).
 
 >[!NOTE]
 >
->For more on how to define content and create screen layouts for a Web form, refer to [this section](../../web/using/about-web-forms.md).
+>For more on how to define content and create screen layouts for a Web form, refer to [this document](../../web/using/about-web-forms.md).
 
-## Adding fields {#adding-fields}
+## Add fields {#adding-fields}
 
 The fields in a form enable users to enter information and select options. For each page in the form, they are created via the first button in the toolbar using the **[!UICONTROL Add using the wizard]** menu. 
 
@@ -39,14 +39,14 @@ The fields in a form enable users to enter information and select options. For e
 
 When you add a field to a survey you need to select its type. The following options are available:
 
-1. **[!UICONTROL Answer a question]**: this option lets you declare a new field (known as 'archived field') to store answers. In this case, all values collected are saved, even when a participant fills in the form more than once. This storage mode is only available in **Surveys**. Refer to [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
+1. **[!UICONTROL Answer a question]**: this option lets you declare a new field (known as 'archived field') to store answers. In this case, all values collected are saved, even when a participant fills in the form more than once. This storage mode is only available in **Surveys**. [Learn more](../../surveys/using/managing-answers.md#storing-collected-answers).
 1. **[!UICONTROL Edit a recipient]**: this option lets you select a field in the database. In this case, user answers will be stored in this field. For each participant, only the last value saved is kept, and added to the profile data.
 1. **[!UICONTROL Add a variable]**: this option lets you create a setup so that information is not stored in the database. Local variables can be declared upstream. You can also add them directly when creating the field.
 1. **[!UICONTROL Import an existing question]**: this option lets you import existing questions created in other surveys.
 
    >[!NOTE]
    >
-   >Storage modes and field imports are detailed in [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
+   >Storage modes and field imports are detailed in [this section](../../surveys/using/managing-answers.md#storing-collected-answers).
 
 The nature of the field to add (drop-down list, text field, checkboxes, etc.) adapts to the storage mode selected. You can change it using the **[!UICONTROL Type]** field of the **[!UICONTROL General]** tab, but make sure to remain consistent with the data type.
 
@@ -56,7 +56,7 @@ The various types of available fields are detailed in [this section](../../web/u
 
 ## Survey-specific elements {#survey-specific-elements}
 
-Online surveys are using Web applications capabilities. Specific features linked to survey fields are detailed below.
+Online surveys are based on Web applications capabilities. Survey-specific capabilities are detailed below.
 
 ### Multiple choice {#multiple-choice}
 
@@ -83,11 +83,11 @@ In addition, the storage location for this input field must be a **[!UICONTROL M
 >[!CAUTION]
 >
 >* This functionality is only available for **Survey** type forms. 
->* This option isn't compatible with random question display. For more on this, refer to [Adding questions](#adding-questions).
+>* This option isn't compatible with random question display. [Learn more](#adding-questions).
 
-### Adding questions {#adding-questions}
+### Add questions {#adding-questions}
 
-There are two types of containers: standard and question. Standard containers are used to configure page layout and conditional display in a page. They are detailed in [this section](../../web/using/about-web-forms.md).
+There are two types of containers: standard and question. Standard containers are used to configure page layout and conditional display in a page. [Learn more](../../web/using/about-web-forms.md).
 
 Use a **Question** container to add a question to the page and to insert the possible answers below in the hierarchy. User responses to questions placed in this type of container can be analyzed in reports.
 
@@ -101,7 +101,7 @@ The label of the question is entered in the label field. In this case, the style
 
 >[!NOTE]
 >
->Refer to [this section](../../web/using/about-web-forms.md) for more on using the HTML editor.
+>Refer to [this document](../../web/using/about-web-forms.md) for more on using the HTML editor.
 
 For example:
 

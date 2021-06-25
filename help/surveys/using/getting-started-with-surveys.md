@@ -9,33 +9,33 @@ exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 ---
 # Key steps to create a survey{#getting-started-with-surveys}
 
-Here is a quick overview of the main steps to create a simple survey, using the following template:
+Here is a quick overview of the main steps to create a simple survey, using the following built-in template:
 
 ![](assets/s_ncs_admin_survey_result.png)
 
 These steps are:
 
-1. [Step 1 - Creating a survey](#step-1---creating-a-survey),
-1. [Step 2 - Selecting the template](#step-2---selecting-the-template),
-1. [Step 3 - Building the survey](#step-3---building-the-survey),
-1. [Step 4 - Creating the page content](#step-4---creating-the-page-content),
-1. [Step 5 - Storing the survey data](#step-5---storing-the-survey-data-),
-1. [Step 6 - Publishing the pages](#step-6---publishing-the-pages),
-1. [Step 7 - Sharing your online survey](#step-7---sharing-your-online-survey).
+1. [Step 1 - Create a survey](#step-1---creating-a-survey),
+1. [Step 2 - Select the template](#step-2---selecting-the-template),
+1. [Step 3 - Build the survey](#step-3---building-the-survey),
+1. [Step 4 - Create the page content](#step-4---creating-the-page-content),
+1. [Step 5 - Store the survey data](#step-5---storing-the-survey-data-),
+1. [Step 6 - Publish the pages](#step-6---publishing-the-pages),
+1. [Step 7 - Share your online survey](#step-7---sharing-your-online-survey).
 
-## Step 1 - Creating a survey {#step-1---creating-a-survey}
+## Step 1 - Create a survey {#step-1---creating-a-survey}
 
 To create a new survey, go to the **[!UICONTROL Campaigns]** or **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Web Applications]** menu. Click the **[!UICONTROL Create]** button above the list of forms.
 
 ![](assets/s_ncs_admin_survey_create.png)
 
-## Step 2 - Selecting the template {#step-2---selecting-the-template}
+## Step 2 - Select the template {#step-2---selecting-the-template}
 
 Select a survey template, then give the survey a name. This name will not be seen by end users, but it allows the survey to be identified within Adobe Campaign. Click **[!UICONTROL Save]** to add the survey to the list of Web applications.
 
 ![](assets/s_ncs_admin_survey_wz_00.png)
 
-## Step 3 - Building the survey {#step-3---building-the-survey}
+## Step 3 - Build the survey {#step-3---building-the-survey}
 
 Surveys are built in a diagram where the following elements are positioned: the page(s) where the content will be created, the data preloading and saving steps, and the testing phases. Scripts and queries can also be inserted.
 
@@ -52,13 +52,13 @@ A survey must contain **at least** the following three components: a page, a sto
 
   ![](assets/s_ncs_admin_survey_end.png)
 
-## Step 4 - Creating the page content {#step-4---creating-the-page-content}
+## Step 4 - Create the page content {#step-4---creating-the-page-content}
 
 In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]** type page. This type of page is accessed via the advanced menu of the **[!UICONTROL Edit]** tab.
 
 ![](assets/s_ncs_admin_survey_pagev5.png)
 
-* Adding input fields
+* **Add input fields**
 
   To create the content of the page, you must edit it: to do this, double-click the **[!UICONTROL Page]** object. Click the first icon in the toolbar to open the field creation wizard. To create an entry field for the user name to be stored in the matching field of the recipient's profile, select **[!UICONTROL Edit a recipient]**.
 
@@ -78,7 +78,9 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
   Apply the same procedure to add a field for the user to enter an email address.
 
-* To create a question, right-click the last element in the tree, and select **[!UICONTROL Containers > Question]** , or click the **[!UICONTROL Containers]** icon and select **[!UICONTROL Question]**.
+* **Create a question**
+  
+  To create a question, right-click the last element in the tree, and select **[!UICONTROL Containers > Question]** , or click the **[!UICONTROL Containers]** icon and select **[!UICONTROL Question]**.
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
@@ -104,7 +106,7 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
   ![](assets/s_ncs_admin_survey_preview.png)
 
-## Step 5 - Storing the survey data {#step-5---storing-the-survey-data-}
+## Step 5 - Store the survey data {#step-5---storing-the-survey-data-}
 
 The storage box lets you save the user responses in the database. You must select a reconciliation key to identify the profiles already in the database.
 
@@ -116,7 +118,7 @@ In the example below, when saving (confirmation) takes place, if a profile is sa
 
 Click **[!UICONTROL OK]** to confirm, then click **[!UICONTROL Save]** to save the survey
 
-## Step 6 - Publishing the pages {#step-6---publishing-the-pages}
+## Step 6 - Publish the pages {#step-6---publishing-the-pages}
 
 For users to be able to access the HTML pages, the application must be made available. It must no longer be at the editing stage, but in production. To put a survey in production, you must publish it. To do this:
 
@@ -129,7 +131,7 @@ For users to be able to access the HTML pages, the application must be made avai
 
   ![](assets/survey_published.png)
 
-## Step 7 - Sharing your online survey {#step-7---sharing-your-online-survey}
+## Step 7 - Share your online survey {#step-7---sharing-your-online-survey}
 
 Once it is in production, the survey is accessible on the server and you can deliver it. The URL for accessing the survey is displayed on the dashboard. 
 
@@ -137,7 +139,7 @@ Once it is in production, the survey is accessible on the server and you can del
 
 To deliver the survey, you can send a message containing an access link to the target population, or place the survey access URL on a web page, for example.
 
-You can then monitor user responses via reports and logs. See [Response tracking](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
+You can then monitor user responses via reports and logs. See [Response tracking](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
 
 >[!CAUTION]
 >

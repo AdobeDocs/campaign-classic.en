@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Configuring surveys
-description: Configuring surveys
+title: Configure online surveys
+description: Learn how to configure online surveys
 audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 ---
-# Configuring surveys{#configuring-surveys}
+# Configure online surveys{#configuring-surveys}
 
 ## Survey properties {#survey-properties}
 
 Online surveys are fully configurable and customizable to satisfy your requirements. The parameters must be entered in the properties window.
 
-The available parameters are detailed in [this section](../../web/using/defining-web-forms-properties.md).
+The available parameters are detailed in [this document](../../web/using/defining-web-forms-properties.md).
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

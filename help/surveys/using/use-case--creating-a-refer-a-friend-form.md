@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: "Use case: creating a Refer A Friend form"
-description: "Use case: creating a Refer A Friend form"
+title: Create a Refer A Friend survey
+description: Learn steps to create a Refer A Friend form
 audience: web
 content-type: reference
 topic-tags: online-surveys

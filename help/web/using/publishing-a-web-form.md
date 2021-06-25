@@ -151,4 +151,4 @@ You can process the response logs provided in queries, for instance to target on
 
 >[!NOTE]
 >
->For a complete tracking of the responses provided, export the responses and view or create dedicated reports, use the optional **Survey** module. For more on this, refer to [this section](../../web/using/about-surveys.md).
+>For a complete tracking of the responses provided, export the responses and view or create dedicated reports, use the optional **Survey** module. For more on this, refer to [this section](../../surveys/using/about-surveys.md).
