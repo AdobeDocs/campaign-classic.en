@@ -22,7 +22,7 @@ We strongly recommend that you enclose URLs in delimiters in the **[!UICONTROL T
 * Brackets [ ]
 * Braces { }
 
-In this example, the URL https://www.adobe.com is followed by a semi-colon (;). The semi-colon may be interpreted by recipient email clients as a part of the URL. As a result, the link may be broken. To avoid this issue, you can enclose the URL in delimiters in one of these ways:
+In this example, the URL https://www.adobe.com is followed by a semicolon. The semicolon may be interpreted by recipient email clients as a part of the URL. As a result, the link may be broken. To avoid this issue, you can enclose the URL in delimiters in one of these ways:
 * (https://www.adobe.com);
 * [https://www.adobe.com];
 * {https://www.adobe.com};
