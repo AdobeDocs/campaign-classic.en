@@ -257,12 +257,6 @@ type: Documentation
        + [Set up and manage approvals](campaign/using/marketing-campaign-approval.md)
        + [Monitor your campaigns](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
-  + Tasks, resources and budgets {#tasks--resources-and-budgets}
-       + [About marketing resource management](campaign/using/about-marketing-resource-management.md)
-       + [Create and manage tasks](campaign/using/creating-and-managing-tasks.md)
-       + [Control costs](campaign/using/controlling-costs.md)
-       + [Manage marketing resources](campaign/using/managing-marketing-resources.md)
-       + [Discussion forums](campaign/using/discussion-forums.md)
   + Campaign optimization {#campaign-optimization}
        + [About campaign typologies](campaign/using/about-campaign-typologies.md)
        + [Pressure rules](campaign/using/pressure-rules.md)
@@ -271,20 +265,26 @@ type: Documentation
        + [Filtering rules](campaign/using/filtering-rules.md)
        + [Apply rules](campaign/using/applying-rules.md)
        + [Campaign simulations](campaign/using/campaign-simulations.md)
-  + Distributed marketing {#distributed-marketing}
-       + [About distributed marketing](campaign/using/about-distributed-marketing.md)
-       + [Create a local campaign](campaign/using/creating-a-local-campaign.md)
-       + [Create a collaborative campaign](campaign/using/creating-a-collaborative-campaign.md)
-       + [Publish the campaign package](campaign/using/publishing-the-campaign-package.md)
-       + [Access campaigns](campaign/using/accessing-campaigns.md)
-       + [Track a campaign](campaign/using/tracking-a-campaign.md)
-       + [Use cases](campaign/using/examples.md)
-  + Response manager {#response-manager}
-       + [Get started with response manager](campaign/using/about-response-manager.md)
-       + [Configuration](campaign/using/configuration.md)
-       + [Hypothesis templates](campaign/using/hypothesis-templates.md)
-       + [Create hypotheses](campaign/using/creating-hypotheses.md)
-       + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
++ Marketing Resource Management {#mrm}
+  + [About marketing resource management](mrm/using/about-marketing-resource-management.md)
+  + [Create and manage tasks](mrm/using/creating-and-managing-tasks.md)
+  + [Control costs](mrm/using/controlling-costs.md)
+  + [Manage marketing resources](mrm/using/managing-marketing-resources.md)
+  + [Discussion forums](mrm/using/discussion-forums.md)
++ Distributed marketing {#distributed-marketing}
+  + [About distributed marketing](campaign/using/about-distributed-marketing.md)
+  + [Create a local campaign](campaign/using/creating-a-local-campaign.md)
+  + [Create a collaborative campaign](campaign/using/creating-a-collaborative-campaign.md)
+  + [Publish the campaign package](campaign/using/publishing-the-campaign-package.md)
+  + [Access campaigns](campaign/using/accessing-campaigns.md)
+  + [Track a campaign](campaign/using/tracking-a-campaign.md)
+  + [Use cases](campaign/using/examples.md)
++ Response manager {#response-manager}
+  + [Get started with response manager](campaign/using/about-response-manager.md)
+  + [Configuration](campaign/using/configuration.md)
+  + [Hypothesis templates](campaign/using/hypothesis-templates.md)
+  + [Create hypotheses](campaign/using/creating-hypotheses.md)
+  + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
 + Design and share reports {#reporting}
   + Get started with reporting {#reporting-in-adobe-campaign}
        + [Reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
@@ -353,14 +353,14 @@ type: Documentation
        + [Define web forms properties](web/using/defining-web-forms-properties.md)
        + [Translate a web form](web/using/translating-a-web-form.md)
        + [Use cases: web forms](web/using/use-cases--web-forms.md)
-  + Online surveys {#online-surveys}
-       + [Get started with surveys](web/using/about-surveys.md)
-       + [Key steps to create a survey](web/using/getting-started-with-surveys.md)
-       + [Design a survey](web/using/building-a-survey.md)
-       + [Manage answers](web/using/managing-answers.md)
-       + [Publish, track and use collected data](web/using/publish--track-and-use-collected-data.md)
-       + [Configure surveys](web/using/configuring-surveys.md)
-       + [Use case: create a referral form](web/using/use-case--creating-a-refer-a-friend-form.md)
++ Create online surveys {#online-surveys}
+  + [Get started with surveys](web/using/about-surveys.md)
+  + [Key steps to create a survey](web/using/getting-started-with-surveys.md)
+  + [Design a survey](web/using/building-a-survey.md)
+  + [Manage answers](web/using/managing-answers.md)
+  + [Publish, track and use collected data](web/using/publish--track-and-use-collected-data.md)
+  + [Configure surveys](web/using/configuring-surveys.md)
+  + [Use case: create a referral form](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}

@@ -119,7 +119,7 @@ A campaign centralizes a set of deliveries. For each campaign, the schedule offe
 
 For each campaign, operators can exchange messages via a dedicated forum.
 
-For more on this, refer to [Discussion forums](../../campaign/using/discussion-forums.md).
+For more on this, refer to [Discussion forums](../../mrm/using/discussion-forums.md).
 
 #### Reports {#reports}
 

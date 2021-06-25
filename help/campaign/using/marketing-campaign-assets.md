@@ -19,7 +19,7 @@ In a campaign you can also refer to other items, such as promotional coupons, sp
 
 >[!NOTE]
 >
->If you are using Campaign Marketing Resource Management module, you can also manage a library of marketing resources that are available for several users for collaborative work. [Learn more](../../campaign/using/managing-marketing-resources.md).
+>If you are using Campaign Marketing Resource Management module, you can also manage a library of marketing resources that are available for several users for collaborative work. [Learn more](../../mrm/using/managing-marketing-resources.md).
 
 ## Add documents {#adding-documents}
 
@@ -96,7 +96,7 @@ An outline can contain items and personalization fields, resources and offers:
 
   >[!NOTE]
   >
-  >For more on marketing resources, refer to [this section](../../campaign/using/managing-marketing-resources.md).
+  >For more on marketing resources, refer to [this section](../../mrm/using/managing-marketing-resources.md).
 
 ### Select an outline {#selecting-an-outline}
 

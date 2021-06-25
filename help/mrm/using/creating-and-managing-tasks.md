@@ -7,9 +7,7 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 ---
-# Creating and managing tasks{#creating-and-managing-tasks}
-
-## About tasks {#about-tasks}
+# Create and manage tasks{#creating-and-managing-tasks}
 
 Adobe Campaign lets you create tasks and manage their complete life cycle directly within the application. Program and campaign implementation can be broken down into tasks which are assigned to Adobe Campaign operators or external service providers. This mode of operation lets you create an open collaboration environment that includes all program participants and external participants.
 
@@ -17,15 +15,15 @@ Tasks can be created, viewed, and monitored from the list of tasks or the campai
 
 Tasks are attached to campaign and can have dependencies, i.e. associated tasks. Each task has a status, priority, estimated load, and related costs.
 
-All the tasks are grouped in a list accessible via the **Campaigns** tab. For more on this, refer to [Accessing tasks](#accessing-tasks).
+All the tasks are grouped in a list accessible via the **Campaigns** tab. For more on this, refer to [Access tasks](#accessing-tasks).
 
 They can be displayed in the schedule of the program to which they belong.
 
 ![](assets/d_ncs_user_tasks_in_planning.png)
 
-## Accessing tasks {#accessing-tasks}
+## Access tasks {#accessing-tasks}
 
-### Displaying tasks {#displaying-tasks}
+### Display tasks {#displaying-tasks}
 
 The tasks are displayed in the task list accessible via the **[!UICONTROL Campaigns]** tab.
 
@@ -35,19 +33,19 @@ You can view all tasks of the connected operator there.
 
 For more on this, refer to [Execution status of a task](#execution-status-of-a-task) and [Progress status of a task](#progress-status-of-a-task).
 
-### Filtering tasks {#filtering-tasks}
+### Filter tasks {#filtering-tasks}
 
 When you display this view, it is automatically filtered in order to display only **[!UICONTROL operator tasks]**. You can also filter the tasks using the fields in the upper section of the window.
 
 ![](assets/s_ncs_user_task_filter_from_view.png)
 
-### Editing tasks {#editing-tasks}
+### Edit tasks {#editing-tasks}
 
 Click on a task to edit it.
 
 ![](assets/s_ncs_user_task_edit_from_view.png)
 
-## Creating a new task {#creating-a-new-task}
+## Create a new task {#creating-a-new-task}
 
 To create a task, click the **[!UICONTROL Tasks]** link in the **[!UICONTROL Campaigns]** tab and select **[!UICONTROL Create]**.
 
@@ -129,7 +127,7 @@ The person in charge of the task can assign themselves the task of approving it,
 
 ### Documents referenced {#documents-referenced}
 
-It's possible to add documents and marketing resources to a task (for more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md)). To do so, open the task and click the **[!UICONTROL Documents]** icon in the task toolbar.
+It's possible to add documents and marketing resources to a task (for more on this, refer to [Manage marketing resources](../../mrm/using/managing-marketing-resources.md)). To do so, open the task and click the **[!UICONTROL Documents]** icon in the task toolbar.
 
 Click **[!UICONTROL Add]** and select the document to be added to your task. Apply the same process for marketing resources. 
 
@@ -177,7 +175,7 @@ By default, the budget charged is the budget of the campaign to which the task i
 
 >[!NOTE]
 >
->For further information about expenses and budgets, see [Cost commitment, calculation and charging](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
+>For further information about expenses and budgets, see [Cost commitment, calculation and charging](../../mrm/using/controlling-costs.md#cost-commitment--calculation-and-charging).
 
 In this window, you can also define the objectives to be reached. Objectives are expressed in terms of forecast revenue for the task.
 
@@ -187,7 +185,7 @@ An external service provider can be involved in the management of a task.
 
 To do this, edit the task properties and select the service provider concerned. The cost categories associated with the service provider are automatically listed in the central section of the window.
 
-For more on this, refer to [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+For more on this, refer to [Create a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 Select the cost categories related to the execution of the task. To do this, select the type of cost and, if necessary, add an amount to surcharge.
 
@@ -195,7 +193,7 @@ Select the cost categories related to the execution of the task. To do this, sel
 
 >[!NOTE]
 >
->The method for managing budgets and costs is presented in [Controlling costs](../../campaign/using/controlling-costs.md).
+>The method for managing budgets and costs is presented in [Control costs](../../mrm/using/controlling-costs.md).
 
 When a service provider is selected, it is displayed in the task dashboard:
 
@@ -269,7 +267,7 @@ The following tasks can be scheduled:
 >[!NOTE]
 >
 >**[!UICONTROL Control task]** and **[!UICONTROL Grouping]** tasks can be created **only** via the campaign dashboard.  
->They are displayed in the task map of the operator to whom they are assigned. See [Accessing tasks](#accessing-tasks).
+>They are displayed in the task map of the operator to whom they are assigned. See [Access tasks](#accessing-tasks).
 
 ### Control tasks {#control-tasks}
 
@@ -306,7 +304,7 @@ The marketing resources creation task interacts with the resource linked to it. 
     * **Via the resource**: if you submit the resource for approval or approve it, these actions will not impact the task.
     * **Via the task**: if the **[!UICONTROL Publish the marketing resource]** option is checked in the task, the resource is approved and published automatically once the task is finished (see above). If the option isn't checked, the task and the resource won't interact: acting on one won't affect the other.
 
-#### Configuring a marketing resource creation task {#configuring-a-marketing-resource-creation-task}
+#### Configure a marketing resource creation task {#configuring-a-marketing-resource-creation-task}
 
 The person who reviews the task isn't necessary the same person who reviews the content defined in the resource. However, if the **[!UICONTROL Publish the marketing resource]** option is checked (see below), the task reviewer is authorized to approve the resource content, as finishing the task automatically approves the resource (or, if no reviewer is defined, the task manager).
 
@@ -323,7 +321,7 @@ The **[!UICONTROL Publish the resource]** button is made available and the resou
 
 ![](assets/mrm_resource_audit_tab.png)
 
-### Grouping task {#grouping-task}
+### Group task {#grouping-task}
 
 The **[!UICONTROL Grouping task]** type task lets you group several tasks and synchronize the management of their progress and their approval.
 
@@ -390,7 +388,7 @@ Each sub-task is a standard task linked to the main task.
 
 ![](assets/s_ncs_user_task_depends_on.png)
 
-#### Grouping tasks {#grouping-tasks}
+#### Group tasks {#grouping-tasks}
 
 Use the **[!UICONTROL Grouped to]** field to make the execution of a task depend on the execution of another task. 
 
@@ -442,7 +440,7 @@ For more on this, refer to [Accessing tasks](#accessing-tasks).
 
 Below are the stages of a complete task life cycle for which the person in charge has defined participants and reviewers.
 
-1. The person in charge creates the task and enters the various fields. For more on this, refer to [Creating a new task](#creating-a-new-task).
+1. The person in charge creates the task and enters the various fields. For more on this, refer to [Create a new task](#creating-a-new-task).
 
    When creating and editing a task **scheduled in the future** (as long as the task start date isn't reached), it's possible to send a notification to participants and managers to let them know that a new task has been scheduled. 
 

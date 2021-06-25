@@ -199,7 +199,7 @@ The **[!UICONTROL Rule]** tab gives a list of the typology rules to apply. Selec
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** type typologies are used within the framework of sales pressure management. For more on this, refer to [this section](../../campaign/using/about-marketing-resource-management.md).
+>**[!UICONTROL Arbitration]** type typologies are used within the framework of sales pressure management. For more on this, refer to [this section](../../mrm/using/about-marketing-resource-management.md).
 
 ## Change the approval mode {#changing-the-approval-mode}
 

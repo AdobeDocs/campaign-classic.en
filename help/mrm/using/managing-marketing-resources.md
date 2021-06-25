@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Managing marketing resources
-description: Managing marketing resources
+title: Manage marketing resources
+description: Learn how to manage marketing resources
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 ---
-# Managing marketing resources{#managing-marketing-resources}
+# Manage marketing resources{#managing-marketing-resources}
 
 Adobe Campaign lets you manage and track the marketing resources involved in the campaign life cycle. These marketing resources can be a brochure, a visual aid, or any other communication medium involving several operators.
 
@@ -90,7 +90,7 @@ If necessary, you can also unlock it manually from the dashboard.
 
 For each resource, the **[!UICONTROL Forum]** tab lets participants exchange information.
 
-[Discussion forums](../../campaign/using/discussion-forums.md) explains how discussion forums operate in Adobe Campaign.
+[Discussion forums](../../mrm/using/discussion-forums.md) explains how discussion forums operate in Adobe Campaign.
 
 ## Life cycle of a marketing resource {#life-cycle-of-a-marketing-resource}
 
@@ -141,7 +141,7 @@ In order for Adobe Campaign to publish, you need to create an adequate workflow 
 The workflow will be executed:
 
 * When the reviewer clicks the **[!UICONTROL Publish resource]** link (or, if no reviewer was defined, the person in charge of the resource).
-* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]**, as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](../../campaign/using/creating-and-managing-tasks.md#marketing-resource-creation-task))
+* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]**, as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](../../mrm/using/creating-and-managing-tasks.md#marketing-resource-creation-task))
 
 If a workflow isn't started immediately (if the workflow is stopped for instance), the status of the resource changes to **[!UICONTROL Pending publication]**. Once the workflow is started, the status of the resource changes to **[!UICONTROL Published]**. This status does not take into account possible errors in the publishing process. Check the status of your workflow to make sure it has executed properly.
 
