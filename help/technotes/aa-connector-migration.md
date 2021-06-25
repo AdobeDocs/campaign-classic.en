@@ -75,7 +75,7 @@ Integration relies on data on Technical Account Token for day to day operation. 
 
 If we are reading for details of an Analytics component (like metrics/dimensions/segments/report suites), the API will not return these components in the result (which may look like something got deleted on the Analytics side or is not present). Analytics API will reject those requests and error out. 
 
-The solution is to update the Poduct Profile in Analytics User Context of Technical User Token with the newly created/missing components by adding these components in adminconsole.adobe.io.
+The solution is to update the Poduct Profile in Analytics User Context of Technical User Token with the newly created/missing components by adding these components in [Adobe Admin Console](https://adminconsole.adobe.com/).
 
 ## Useful links
 

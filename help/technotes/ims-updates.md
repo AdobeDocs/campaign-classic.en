@@ -11,7 +11,7 @@ On June 30, 2021 changes will be made to [Adobe Identity Management System](http
 
 ## What changed?
 
-Adobe Identity Service (IMS) will stop supporting old Internet Explorer versions from **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). 
+Adobe Identity Management Service (IMS) will stop supporting old Internet Explorer versions from **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). 
 
 Adobe wants to preserve IMS functionality for all customers past June 30, 2021. IMS is part of the security framework which allows users to login to the Client Console, thus Adobe Campaign. 
 
@@ -80,7 +80,7 @@ If you see such a warning, ensure that you install the latest updates of the ope
 >For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 >
 
-## Usefull links
+## Useful links
 
 * [Upgrade your environment](../production/using/build-upgrade.md)
 * [Build upgrade FAQ](../platform/using/faq-build-upgrade.md)

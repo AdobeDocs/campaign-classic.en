@@ -279,8 +279,8 @@ The delivery costs for a campaign are consolidated at the campaign level and the
 
 ### Implementation {#implementation}
 
-In a campaign, when you select the budget you must enter the initial amount. The calculated costs will be updated automatically according to the commitment level of the amounts entered (expenses made, expected, reserved, committed). See [Calculating amounts](../../campaign/using/controlling-costs.md#calculating-amounts).
+In a campaign, when you select the budget you must enter the initial amount. The calculated costs will be updated automatically according to the commitment level of the amounts entered (expenses made, expected, reserved, committed). See [Calculating amounts](../../mrm/using/controlling-costs.md#calculating-amounts).
 
 >[!NOTE]
 >
->The procedure for creating budgets is presented in [Creating a budget](../../campaign/using/controlling-costs.md#creating-a-budget).
+>The procedure for creating budgets is presented in [Creating a budget](../../mrm/using/controlling-costs.md#creating-a-budget).

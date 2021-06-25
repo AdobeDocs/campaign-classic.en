@@ -13,7 +13,7 @@ In a campaign workflow, the **[!UICONTROL Task]** activity lets you specify two 
 
 ![](assets/mrm_task_in_workflow.png)
 
-How to configure and operate a task is detailed in this [section](../../campaign/using/creating-and-managing-tasks.md).
+How to configure and operate a task is detailed in this [section](../../mrm/using/creating-and-managing-tasks.md).
 
 ![](assets/wkf_task_activity.png)
 

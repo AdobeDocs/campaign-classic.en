@@ -62,7 +62,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Marketing resources (MRM)<br /> </td> 
-   <td> Controls marketing actions in a collaborative mode by providing management and tracking of the tasks, budgets and marketing resources. <a href="../../campaign/using/about-marketing-resource-management.md">Learn More</a> <br /> </td> 
+   <td> Controls marketing actions in a collaborative mode by providing management and tracking of the tasks, budgets and marketing resources. <a href="../../mrm/using/about-marketing-resource-management.md">Learn More</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
