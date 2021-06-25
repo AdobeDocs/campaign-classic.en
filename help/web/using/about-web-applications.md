@@ -36,24 +36,24 @@ Web applications in Adobe Campaign give access to the following capabilities:
 * Graphical page management interface, multiple-column page layout. For more on this, refer to this [page](../../web/using/designing-a-web-application.md).
 * Rendering personalization and field position. For more on this, refer to this [page](../../web/using/editing-content.md#adding-personalization-content).
 * Conditional display of survey fields according to answers. For more on this, refer to this [page](../../web/using/form-rendering.md#defining-fields-conditional-display).
-* Random display of questions. For more on this, refer to this [page](../../web/using/building-a-survey.md#adding-questions).
+* Random display of questions. For more on this, refer to this [page](../../surveys/using/building-a-survey.md#adding-questions).
 * Conditional page display. For more on this, refer to this [page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 * Information check before validation depending on the expected data type (number, e-mail address, date, etc.) and the mandatory fields. For more on this, refer to this [page](../../web/using/form-rendering.md#defining-control-settings).
 * E-mail invitations or notification. For more on this, refer to this [page](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
 * Personalization of error and end messages. For more on this, refer to this [page](../../web/using/defining-web-forms-properties.md#setting-up-an-error-page).
 * Use of images, videos, hypertext links, captcha, etc. For more on this, refer to this [page](../../web/using/editing-content.md).
-* Monitoring of responses in real time. For more on this, refer to this [page](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
+* Monitoring of responses in real time. For more on this, refer to this [page](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
 
 The optional **Survey** creation module offers the following additional functionalities:
 
-* Dynamic extension of the database: creation of responses not included in the initial data template. For more on this, refer to this [page](../../web/using/managing-answers.md#storing-collected-answers).
-* Generating dedicated reports. For more on this, refer to this [page](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+* Dynamic extension of the database: creation of responses not included in the initial data template. For more on this, refer to this [page](../../surveys/using/managing-answers.md#storing-collected-answers).
+* Generating dedicated reports. For more on this, refer to this [page](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 Compared to Web applications, surveys have a simplified graphical interface with a reduced number of editing controls.
 
 >[!NOTE]
 >
->Surveys are detailed in [this section](../../web/using/about-surveys.md).
+>Surveys are detailed in [this section](../../surveys/using/about-surveys.md).
 >
 >The overall functionalities of Web forms in Adobe Campaign are detailed in [this section](../../web/using/about-web-forms.md).
 

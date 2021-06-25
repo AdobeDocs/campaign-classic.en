@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Managing answers
-description: Managing answers
+title: Manage answers
+description: Learn how to manage survey answers
 audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 ---
-# Managing answers{#managing-answers}
+# Manage answers{#managing-answers}
 
-## Storing collected answers {#storing-collected-answers}
+## Store collected answers {#storing-collected-answers}
 
 In addition to the standard storage modes common to all Web forms in Adobe Campaign (database field and local variable), surveys enable the dynamic extension of the data model using archived fields.
 
@@ -17,7 +17,7 @@ In addition to the standard storage modes common to all Web forms in Adobe Campa
 >
 >This option is available for **Survey** type Web applications only. It is not offered for other types of Web forms.
 
-### Storing in an archived field {#storing-in-an-archived-field}
+### Store in an archived field {#storing-in-an-archived-field}
 
 It is easy to extend the data template by adding new storage spaces to save the responses provided in surveys. To do this, select the **[!UICONTROL Store answers to a question]** option when creating the input field. Click the **[!UICONTROL New field...]** link and give its properties:
 
@@ -93,11 +93,11 @@ For each form, the answers provided can be used in fields or labels. Use the fol
 
 ### Storage settings {#storage-settings}
 
-It is possible to archive answers to surveys in XML format. This lets you save a raw copy of the answers collected, which can be useful in case of excessive standardization of the data in an itemized list (for more on this, refer to [Standardizing data](../../web/using/publish--track-and-use-collected-data.md#standardizing-data)).
+You can archive answers to surveys in XML format. This lets you save a raw copy of the answers collected, which can be useful in case of excessive standardization of the data in an itemized list. [Learn more](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >
->Archiving raw responses greatly increases the storage space required. Use this option with care.
+>Archiving raw responses impacts the storage space required. Use this option with caution.
 
 To do this:
 
@@ -113,10 +113,6 @@ You can enable it by default for all surveys (this option is applied when the su
 ## Score management {#score-management}
 
 You can assign a score to the options offered in the pages of the form. Scores can only be linked to closed questions: checkbox, value from a drop-down list, subscription, etc.
-
->[!CAUTION]
->
->Score management is available for **Surveys** only.
 
 ![](assets/s_ncs_admin_survey_score_create.png)
 

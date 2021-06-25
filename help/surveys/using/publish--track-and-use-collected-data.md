@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Publish, track and use collected data
-description: Publish, track and use collected data
+description: Learn how to publish, track and use data collected in a survey
 audience: web
 content-type: reference
 topic-tags: online-surveys
@@ -17,7 +17,7 @@ Once the form has been created, configured and published, you can share the link
 
 ## Survey dashboard {#survey-dashboard}
 
-Each survey has its own dashboard which lets you view its status, description, public URL and availability schedule. It also lets you view the available reports. For more on this, refer to [Reports on surveys](#reports-on-surveys).
+Each survey has its own dashboard which lets you view its status, description, public URL and availability schedule. It also lets you view the available reports. [Learn more](#reports-on-surveys).
 
 The survey's public URL is shown on the dashboard:
 
@@ -155,6 +155,4 @@ Edit the split box to configure it:
 
 ## Standardizing data {#standardizing-data}
 
-It's possible to set up standardization processes in Adobe Campaign for data collected using aliases. This lets you standardize the data stored in the database: to do this, define aliases in the itemized lists which contain the relevant information.
-
-For more on this, refer to [this page](../../platform/using/managing-enumerations.md#about-enumerations).
+It's possible to set up standardization processes in Adobe Campaign for data collected using aliases. This lets you standardize the data stored in the database: to do this, define aliases in the itemized lists which contain the relevant information. [Learn more](../../platform/using/managing-enumerations.md#about-enumerations)

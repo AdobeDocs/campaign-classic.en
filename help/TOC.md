@@ -354,13 +354,13 @@ type: Documentation
        + [Translate a web form](web/using/translating-a-web-form.md)
        + [Use cases: web forms](web/using/use-cases--web-forms.md)
 + Create online surveys {#online-surveys}
-  + [Get started with surveys](web/using/about-surveys.md)
-  + [Key steps to create a survey](web/using/getting-started-with-surveys.md)
-  + [Design a survey](web/using/building-a-survey.md)
-  + [Manage answers](web/using/managing-answers.md)
-  + [Publish, track and use collected data](web/using/publish--track-and-use-collected-data.md)
-  + [Configure surveys](web/using/configuring-surveys.md)
-  + [Use case: create a referral form](web/using/use-case--creating-a-refer-a-friend-form.md)
+  + [Get started with surveys](surveys/using/about-surveys.md)
+  + [Key steps to create a survey](surveys/using/getting-started-with-surveys.md)
+  + [Design a survey](surveys/using/building-a-survey.md)
+  + [Manage answers](surveys/using/managing-answers.md)
+  + [Publish, track and use collected data](surveys/using/publish--track-and-use-collected-data.md)
+  + [Configure surveys](surveys/using/configuring-surveys.md)
+  + [Use case: create a referral form](surveys/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}

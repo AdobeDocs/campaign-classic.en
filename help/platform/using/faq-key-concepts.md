@@ -88,7 +88,7 @@ Learn how to use the Adobe Campaign to [send a personalized push notification](.
 
 ## How to design and share an online survey? {#how-to-design-and-share-an-online-survey-}
 
-Learn how to [create an online survey](../../web/using/getting-started-with-surveys.md), with key steps to design and publish it with Campaign Classic.
+Learn how to [create an online survey](../../surveys/using/getting-started-with-surveys.md), with key steps to design and publish it with Campaign Classic.
 
 ## How to create landing page? {#how-to-create-landing-page-}
 
