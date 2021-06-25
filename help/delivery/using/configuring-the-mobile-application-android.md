@@ -73,7 +73,7 @@ To choose which connector you want to use, follow these steps:
 
    ![](assets/nmac_service_2.png)
 
-1. Create your Android application. For more on this, refer to [this section](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app).
+1. Create your Android application. For more on this, refer to [this section](configuring-the-mobile-application-android.md#creating-android-app).
 
 ## Create the Android mobile application {#creating-android-app}
 
@@ -87,7 +87,7 @@ After creating your service, you now need to create your Android application:
 
    ![](assets/nmac_android.png)
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to [this section](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).
 
     >[!NOTE]
     >
@@ -105,8 +105,8 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 
 After creating service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
 
-* **HTTP v1** configuration is detailed in [this section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
-* **HTTP (legacy)** configuration is detailed in [this section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
+* **HTTP v1** configuration is detailed in [this section](configuring-the-mobile-application-android.md#android-service-httpv1).
+* **HTTP (legacy)** configuration is detailed in [this section](configuring-the-mobile-application-android.md#android-service-http).
 
 #### Configure HTTP v1 API{#android-service-httpv1}
 
@@ -182,4 +182,4 @@ You need to extend the **appsubscriptionRcp** to define new additional fields to
 
    >[!CAUTION]
    >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to [this section](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
+   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).

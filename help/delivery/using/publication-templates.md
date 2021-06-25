@@ -79,7 +79,7 @@ The following publication options are available:
 
   >[!NOTE]
   >
-  >For more on content generation, refer to [Creating a content instance](../../delivery/using/using-a-content-template.md#creating-a-content-instance).
+  >For more on content generation, refer to [Creating a content instance](using-a-content-template.md#creating-a-content-instance).
 
 ### Delivery {#delivery}
 
@@ -89,7 +89,7 @@ This tab lets you select a scenario in order to launch a delivery directly on th
 
 >[!NOTE]
 >
->For an example of delivery creation based on a content, refer to [Delivering a content instance](../../delivery/using/using-a-content-template.md#delivering-a-content-instance).
+>For an example of delivery creation based on a content, refer to [Delivering a content instance](using-a-content-template.md#delivering-a-content-instance).
 
 ### Aggregator {#aggregator}
 

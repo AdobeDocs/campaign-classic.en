@@ -69,7 +69,7 @@ You can export an audience from Adobe Campaign to Audience manager or People cor
 
 The audience is then exported. The save audience activity has two outbound transitions. The main transition contains the recipients that were successfully exported. The additional transition contains the recipients that could not have been mapped with a visitor ID or declared ID.
 
-Synchronization between Adobe Campaign and People core service takes 24-36 hours. After this period, you will be able to find your new audience in People core service and reuse it in other Adobe Experience Cloud solutions. For more information on using an Adobe Campaign shared audience in Adobe People core service, refer to this [documentation](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
+Synchronization between Adobe Campaign and People core service takes 24-36 hours. After this period, you will be able to find your new audience in People core service and reuse it in other Adobe Experience Cloud solutions. For more information on using an Adobe Campaign shared audience in Adobe People core service, refer to this [documentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
 
 >[!NOTE]
 >

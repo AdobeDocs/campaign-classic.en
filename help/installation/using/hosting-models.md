@@ -35,7 +35,7 @@ Adobe Campaign can be deployed on-premise: all components of Adobe Campaign, inc
 
 ![](assets/deployment_onpremise.png)
 
-As an on-premise customer, before starting deploying Campaign Classic, take care of the following prerequisites and recommentations:
+As an on-premise customer, before starting deploying Campaign Classic, take care of the following prerequisites and recommendations:
 
 * Read out the [Compatibility matrix](../../rn/using/compatibility-matrix.md) which lists all versions of the systems and components supported for Adobe Campaign.
 * Depending on your environment, read out the [prerequisites for Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) and [prerequisites for Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md).

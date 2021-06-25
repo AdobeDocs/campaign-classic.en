@@ -158,7 +158,7 @@ The information is available in the database for 90 days. Once the request is cl
 
 Here is an example of a Data Subject's data file:
 
-![](assets/privacy-access-file.png)
+![](assets/do-not-localize/privacy-access-file.png)
 
 Data Controllers can easily create a web application including the corresponding JSSP URL to make the Data Subject's data file available from a web page.
 
@@ -250,7 +250,7 @@ First of all, you need to perform the authentication via the API:
 
 1. Use the "Logon" method and pass in a username and password as parameters in the request. You will get a response containing a session token. Here is an example using SoapUI.
 
-    ![](assets/privacy-api.png)
+    ![](assets/do-not-localize/privacy-api.png)
 
 1. Use the returned Session Token as the authentication for all subsequence API calls. It expires after 24 hours.
 
@@ -262,7 +262,7 @@ Then invoke the Privacy API:
 
     Here is an example using the **[!UICONTROL CreateRequestByName]**. Note how we use the session token provided above as authentication. The response is the ID of the created request.
 
-    ![](assets/privacy-api-2.png)
+    ![](assets/do-not-localize/privacy-api-2.png)
 
     To help you perform the steps above, consider the following:
 

@@ -37,4 +37,4 @@ This action generates a delivery in the folder attached to the template. The nam
 
 >[!NOTE]
 >
->For further information about configuring a delivery, see [Defining the email content](../../delivery/using/defining-the-email-content.md).
+>For further information about configuring a delivery, see [Defining the email content](defining-the-email-content.md).

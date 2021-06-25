@@ -18,7 +18,7 @@ Before sending a delivery, you need to ensure that your recipients will receive 
 
 This step enables you to detect possible errors and fix them before delivering to your main target.
 
-The steps for validating a delivery are presented [in this section](../../delivery/using/steps-validating-the-delivery.md).
+The steps for validating a delivery are presented [in this section](steps-validating-the-delivery.md).
 
 ## Inbox rendering {#inbox-and-email-rendering}
 
@@ -30,13 +30,13 @@ Inbox rendering enables you to preview your messages on major email clients, sca
 
 * Inbox rendering capabilities are crucial to identifying whether your email campaigns successfully make it past the filters of major ISPs (Internet Service Providers) and webmail services. Such tools send a pre-flight copy of an email to a network of test inboxes, so you can see how the message will display, or render, across these services. They may also include reports and code correction options that help you quickly identify and make fixes that improve deliverability.
 
-Learn more [in this section](../../delivery/using/inbox-rendering.md).
+Learn more [in this section](inbox-rendering.md).
 
 ## Proof messages {#proof-messages}
 
 Sending proofs enables you to check the opt-out link, mirror page and any other links, validate the message, verify that images are displayed, detect possible errors, etc. You may also want to check your design and rendering on different devices.
 
-Learn more [in this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Learn more [in this section](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Set up A/B testing deliveries {#a-b-testing-deliveries}
 
@@ -48,7 +48,7 @@ If you have several contents for an email delivery, you can use A/B testing to f
 
 * Select the one with the highest success rate and send it to the rest of your target
 
-Learn more [in this section](../../delivery/using/get-started-a-b-testing.md).
+Learn more [in this section](get-started-a-b-testing.md).
 
 ## Make sure your message is delivered {#make-sure-your-message-is-delivered}
 
@@ -60,7 +60,7 @@ You can define a full validation process, involving Adobe Campaign operators and
 
 ### Use waves
 
-You can progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. Learn more [in this section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
+You can progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. Learn more [in this section](steps-sending-the-delivery.md#sending-using-multiple-waves).
 
 ### Prioritize messages
 

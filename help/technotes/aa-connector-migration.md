@@ -9,7 +9,9 @@ hidefromtoc: yes
 
 Starting Campaign Classic v7 21.1.3 release, the Adobe Analytics Data Connector is deprecated. [Learn more](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 
-On August 1, 2021, Adobe Campaign Classic will be removed from the legacy Data Connectors UI along with all other integrations; however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. On March 1, 2022, the integration will cease to collect and pass data to Adobe Analytics. You must migrate to the new integration on Adobe Exchange which replaces the Data Connectors Integration, as detailed in [this page](../platform/using/adobe-analytics-connector.md).
+On August 1, 2021, Adobe Campaign Classic will be removed from the legacy Data Connectors UI, however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. On March 1, 2022, the integration will cease to collect and pass data to Adobe Analytics. 
+
+You must migrate to the new Adobe Analytics Connector integration on Adobe Exchange which replaces the legacy Data Connectors Integration, as detailed in [this page](../platform/using/adobe-analytics-connector.md).
 
 
 >[!NOTE]
@@ -81,4 +83,4 @@ The solution is to update the Poduct Profile in Analytics User Context of Techni
 * [Build upgrade FAQ](../platform/using/faq-build-upgrade.md)
 * [Download Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Make the new Client Console available to users](../installation/using/client-console-availability-for-windows.md)
-* [Install Campaign Client Console](../installation/using/installing-the-client-console.md).
+* [Install Campaign Client Console](../installation/using/installing-the-client-console.md)

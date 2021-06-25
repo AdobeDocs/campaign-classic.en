@@ -15,18 +15,18 @@ Core functionalities include targeting, definition and personalization of messag
 
 >[!NOTE]
 >
->Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. Learn more in [this section](../../delivery/using/about-deliverability.md).
+>Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. Learn more in [this section](about-deliverability.md).
 
 Delivery sending can be automated by preparing a delivery and/or sending it in the process of a workflow. For more on delivery-type activities in workflows, refer to [this section](../../workflow/using/about-action-activities.md).
 
 Adobe Campaign offers the following delivery channels:
 
-1. **Email channel**: email deliveries let you send personalized emails to the target population. Refer to [About email channel](../../delivery/using/about-email-channel.md).
-1. **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population. Refer to [About direct mail channel](../../delivery/using/about-direct-mail-channel.md).
-1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](../../delivery/using/sms-channel.md).
-1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](../../delivery/using/about-mobile-app-channel.md) chapter.
+1. **Email channel**: email deliveries let you send personalized emails to the target population. Refer to [About email channel](about-email-channel.md).
+1. **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population. Refer to [About direct mail channel](about-direct-mail-channel.md).
+1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](sms-channel.md).
+1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](about-mobile-app-channel.md) chapter.
 
-   Other channels are described on [this page](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels).
+   Other channels are described on [this page](steps-about-delivery-creation-steps.md#other-channels).
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ External accounts are configured via the **[!UICONTROL Administration > Platform
 
 ## Email deliveries {#email-deliveries}
 
-The [Email channel](../../delivery/using/about-email-channel.md) is one of the core channels in Adobe Campaign, allowing you to schedule and send personalized emails to specific targets.
+The [Email channel](about-email-channel.md) is one of the core channels in Adobe Campaign, allowing you to schedule and send personalized emails to specific targets.
 
 You can send different types of emails:
 
@@ -51,13 +51,13 @@ You can send different types of emails:
 * Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](../../workflow/using/recurring-delivery.md).
 * Transactional emails: unitary emails that are triggered based on your customers' behavior. Refer to [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
-To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](../../delivery/using/delivery-best-practices.md).
+To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](delivery-best-practices.md).
 
 For more on the different types of deliveries, refer to [this section](#types-of-deliveries).
 
 ## Mobile deliveries {#mobile-deliveries}
 
-Adobe Campaign allows you to deliver [SMS](../../delivery/using/sms-channel.md) and [LINE](../../delivery/using/line-channel.md) messages on mobiles.
+Adobe Campaign allows you to deliver [SMS](sms-channel.md) and [LINE](line-channel.md) messages on mobiles.
 
 For SMS messages, you can create, modify, and personalize messages in text format only. You can also preview your SMS messages before they are sent.
 
@@ -70,17 +70,17 @@ To deliver SMS or LINE messages to a mobile phone you need:
 
 ## Push notifications {#push-notifications}
 
-Adobe Campaign allows you to send personalized and segmented [push notifications](../../delivery/using/about-mobile-app-channel.md) on iOS and Android mobile devices, through dedicated apps. Once configuration and integration steps have been performed, iOS and Android deliveries can be created and sent. You can also design rich notifications with images or videos.
+Adobe Campaign allows you to send personalized and segmented [push notifications](about-mobile-app-channel.md) on iOS and Android mobile devices, through dedicated apps. Once configuration and integration steps have been performed, iOS and Android deliveries can be created and sent. You can also design rich notifications with images or videos.
 
 ## Direct mail {#direct-mail}
 
-[Direct mail](../../delivery/using/about-direct-mail-channel.md) is an offline channel that allows you to personalize and generate the file required by direct mail providers. It gives you the possibility to mix online and offline channels in your customer journeys.
+[Direct mail](about-direct-mail-channel.md) is an offline channel that allows you to personalize and generate the file required by direct mail providers. It gives you the possibility to mix online and offline channels in your customer journeys.
 
 Online channels allow you to create your messages (email, SMS, mobile app delivery, etc.) and send them to your audience directly from Adobe Campaign. With offline channels, it is different. When you prepare a direct mail delivery, Adobe Campaign generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.
 
 ## Other channels {#other-channels}
 
-Adobe Campaign offers Telephone delivery template, which is used to create external deliveries. Using this channel implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](../../delivery/using/about-direct-mail-channel.md).
+Adobe Campaign offers Telephone delivery template, which is used to create external deliveries. Using this channel implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](about-direct-mail-channel.md).
 
 >[!NOTE]
 >

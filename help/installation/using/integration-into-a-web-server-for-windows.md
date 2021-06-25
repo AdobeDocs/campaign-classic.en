@@ -102,6 +102,9 @@ You must now test whether the configuration is correct.
 To do this, apply the following procedure:
 
 1. Restart the IIS server using the **iisreset** command line.
+
+1. Start the Adobe Campaign service, then ensure it is running.
+
 1. Test the tracking module by inserting the following URL into a Web browser:
 
    ```

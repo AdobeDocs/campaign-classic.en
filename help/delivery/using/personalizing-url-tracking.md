@@ -13,7 +13,7 @@ Advanced message tracking settings are accessible via the **[!UICONTROL Tracking
 
 >[!NOTE]
 >
->The management of images in emails is also configured in this window. See [Adding images](../../delivery/using/defining-the-email-content.md#adding-images).
+>The management of images in emails is also configured in this window. See [Adding images](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
@@ -31,7 +31,7 @@ You can configure the tracking options:
 
 The tracked URLs are listed in the central window in tree form.
 
-You can activate or deactivate tracking individually for each URL of the message. For more on this, refer to [this section](../../delivery/using/how-to-configure-tracked-links.md).
+You can activate or deactivate tracking individually for each URL of the message. For more on this, refer to [this section](how-to-configure-tracked-links.md).
 
 The **[!UICONTROL Advanced]** tab lets you personalize the calculation formulas of the tracked URLs and the opening URL.
 

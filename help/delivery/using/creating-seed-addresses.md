@@ -52,4 +52,4 @@ To define a template folder, apply the following process:
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   Addresses stored in this folder may now be used as address templates. You can import them into deliveries or campaigns and adapt them based on the specific needs of the concerned deliveries and campaigns (see [Adding seed addresses](../../delivery/using/adding-seed-addresses.md)).
+   Addresses stored in this folder may now be used as address templates. You can import them into deliveries or campaigns and adapt them based on the specific needs of the concerned deliveries and campaigns (see [Adding seed addresses](adding-seed-addresses.md)).

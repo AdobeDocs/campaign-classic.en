@@ -50,7 +50,7 @@ Both acknowledgements and SR can trigger errors, distinguishing between the two 
 
 An SMS carries more information than text. Here a list of what you can expect to find in an SMS:
 
-* The text, which is limited to 140 bytes, which means between 70 and 160 characters depending on the encoding. See [SMS text encoding](../../delivery/using/sms-protocol.md#sms-text-encoding) below for details and limitations.
+* The text, which is limited to 140 bytes, which means between 70 and 160 characters depending on the encoding. See [SMS text encoding](sms-protocol.md#sms-text-encoding) below for details and limitations.
 
 * A recipient address, sometimes called `ADC` or `MSISDN`. That's the number of the mobile that will receive the SMS.
 
@@ -170,7 +170,7 @@ Notable fields in a `SUBMIT_SM` PDU:
 
 * **registered_delivery**: tells whether a SR is requested or not. Adobe Campaign always sets this flag except for automatic replies. For multipart messages, the flag is only set for the first part. All versions have the same behavior.
 
-* **data_coding**: indicates the encoding used in the text field. See the [SMS text encoding](../../delivery/using/sms-protocol.md#sms-text-encoding) section for more information.
+* **data_coding**: indicates the encoding used in the text field. See the [SMS text encoding](sms-protocol.md#sms-text-encoding) section for more information.
 
 * **short_message**: the text of the message. If UDH is used, this also contains the UHD header.
 
@@ -202,7 +202,7 @@ Most fields have the same meaning as their `SUBMIT_SM` counterpart. Here is the 
 
 * **esm_class**: used to tell if the PDU is a MO or a SR.
 
-* **short_message**: text of the message. For SR, this contains data described in the Appendix B of the SMPP protocol specification. See [SR error management](../../delivery/using/sms-protocol.md#sr-error-management) for more details.
+* **short_message**: text of the message. For SR, this contains data described in the Appendix B of the SMPP protocol specification. See [SR error management](sms-protocol.md#sr-error-management) for more details.
 
 Adobe Campaign is able to read message ID in the `receipted_message_id` optional field with some configuration.
 
@@ -224,7 +224,7 @@ This PDU acknowledges that the connection is alive.
 
 ### Multipart SMS (long SMS) {#multipart}
 
-Multipart SMS, or long SMS, are SMS that are sent in multiple parts. Due to technical limitations in the mobile network protocol, a SMS cannot be larger than 140 bytes or it will need to be split. See the [SMS text encoding](../../delivery/using/sms-protocol.md#sms-text-encoding) section to learn more on the number of characters that can fit in a SMS.
+Multipart SMS, or long SMS, are SMS that are sent in multiple parts. Due to technical limitations in the mobile network protocol, a SMS cannot be larger than 140 bytes or it will need to be split. See the [SMS text encoding](sms-protocol.md#sms-text-encoding) section to learn more on the number of characters that can fit in a SMS.
 
 Each part of a long message is an individual SMS. These parts travel independently on the network and are assembled by the receiving mobile phone. To handle retries and connectivity problems, Adobe Campaign sends these parts in reverse order and requests a SR only on the first part of the message, the last sent. Since the mobile phone only displays a message when its first part is received, retries on additional parts won't produce duplicates on the mobile phone.
 
@@ -236,13 +236,13 @@ There are 2 ways to send long SMS:
 
 * **message_payload**: the way to send the whole long message in a single `SUBMIT_SM PDU`. The provider will have to split it, which means that it is impossible for Adobe Campaign to know exactly how many parts have been sent. Some providers require this mode, but we advise you to only use it if they do not support UDH.
 
-See the description of the `esm_class`, `short_message` and `message_payload` fields of the [SUBMIT_SM PDU](../../delivery/using/sms-protocol.md#information-pdu) for more details about the protocol and formats.
+See the description of the `esm_class`, `short_message` and `message_payload` fields of the [SUBMIT_SM PDU](sms-protocol.md#information-pdu) for more details about the protocol and formats.
 
 ### Throughput capping and windowing {#throughput-capping}
 
-Most providers require a throughput limit for each SMPP connection. This can be achieved by setting a number of SMS in the external account. Note that throughput throttling happens per connection, the total effective throughput is the limit per connection multiplied by the total number of connections. This is detailed in the [Simultaneous connections](../../delivery/using/sms-protocol.md#connection-settings) section.
+Most providers require a throughput limit for each SMPP connection. This can be achieved by setting a number of SMS in the external account. Note that throughput throttling happens per connection, the total effective throughput is the limit per connection multiplied by the total number of connections. This is detailed in the [Simultaneous connections](sms-protocol.md#connection-settings) section.
 
-To reach maximum possible throughput, you will need to fine tune the maximum sending window. The sending window is the number of `SUBMIT_SM PDU`s that can be sent without waiting for a `SUBMIT_SM_RESP`. See the [Sending window setting](../../delivery/using/sms-protocol.md#throughput-timeouts) section for more details.
+To reach maximum possible throughput, you will need to fine tune the maximum sending window. The sending window is the number of `SUBMIT_SM PDU`s that can be sent without waiting for a `SUBMIT_SM_RESP`. See the [Sending window setting](sms-protocol.md#throughput-timeouts) section for more details.
 
 ### SR and error management ("Appendix B") {#sr-error-management}
 
@@ -361,7 +361,7 @@ Each implementation of the SMPP protocol has many variations. To improve compati
 
 It is possible to set a limit to the number of MTA instances allowed to connect to the SMPP provider. When checked, you can specify how many MTAs can be used at most.
 
-This option allows finer control over the number of connections, see [Simultaneous connections](../../delivery/using/sms-protocol.md#connection-settings).
+This option allows finer control over the number of connections, see [Simultaneous connections](sms-protocol.md#connection-settings).
 
 If you set a value higher than the number of running MTAs, all MTAs will run as normal: this option is only a limit and cannot spawn additional MTAs.
 
@@ -371,7 +371,7 @@ If you need to precisely control the number of connections, e.g. provider requir
 
 #### SMSC implementation name {#smsc-implementation-name}
 
-Sets the name of the SMSC implementation. It should be set to the name of your provider. Contact the administrator or the deliverability team to know what to add in this field. The role of this field is described in the [SR error management](../../delivery/using/sms-protocol.md#sr-error-management) section.
+Sets the name of the SMSC implementation. It should be set to the name of your provider. Contact the administrator or the deliverability team to know what to add in this field. The role of this field is described in the [SR error management](sms-protocol.md#sr-error-management) section.
 
 #### Server {#server}
 
@@ -443,7 +443,7 @@ When this box is unchecked, text encoding will fail if it cannot encode the stri
 
 When this box is checked, text encoding will try to convert the string to an approximate version instead of failing. If some characters have no equivalent in the target encoding, text encoding will fail.
 
-See the [Define a specific mapping of encodings setting](../../delivery/using/sms-protocol.md#SMSC-specifics) for a more general explanation of the encoding process.
+See the [Define a specific mapping of encodings setting](sms-protocol.md#SMSC-specifics) for a more general explanation of the encoding process.
 
 #### Store incoming MO in the database {#incoming-mo-storing}
 
@@ -543,7 +543,7 @@ These settings are advanced settings which adapt the Adobe Campaign connector to
 
 **Define a specific mapping of encodings**
 
-See the [SMS text encoding](../../delivery/using/sms-protocol.md#sms-text-encoding) section for details on text encoding.
+See the [SMS text encoding](sms-protocol.md#sms-text-encoding) section for details on text encoding.
 
 This setting allows you to define a custom encoding mapping, different from the specification. You will be able to declare a list of encodings, along with their `data_coding` value.
 
@@ -570,7 +570,7 @@ If the message cannot be encoded in GSM, it will be encoded in UCS-2 and will se
 
 When unchecked, long SMS will be split by the MTA and sent in multiple `SUBMIT_SM PDU`s with UDH. The message will be recomposed by the mobile phone following UDH data.
 
-When checked, long SMS will be sent in one SUBMIT_SM PDU, putting the text in the message_payload optional field. See the [SMPP specification](../../delivery/using/sms-protocol.md#ACS-SMPP-connector) for details about this.
+When checked, long SMS will be sent in one SUBMIT_SM PDU, putting the text in the message_payload optional field. See the [SMPP specification](sms-protocol.md#ACS-SMPP-connector) for details about this.
 
 If this feature is enabled, Adobe Campaign will be unable to count SMS parts individually: all messages will be counted as sent in one part.
 
@@ -634,7 +634,7 @@ Setting this field to 1 makes the connector always respond "OK" even if the ID i
 
 #### Extraction regex of the ID in the SR {#regex-extraction}
 
-SR format is not strictly enforced by the SMPP protocol specification. It is only a recommendation described in [Appendix B](../../delivery/using/sms-protocol.md#sr-error-management) (page 167) of the specification. Some SMPP implementers format this field differently, so Adobe Campaign needs a way to extract the correct field.
+SR format is not strictly enforced by the SMPP protocol specification. It is only a recommendation described in [Appendix B](sms-protocol.md#sr-error-management) (page 167) of the specification. Some SMPP implementers format this field differently, so Adobe Campaign needs a way to extract the correct field.
 
 By default, it captures up to 10 alphanumeric characters after `id:`.
 
@@ -648,7 +648,7 @@ Not including enough context in the regex can introduce a small security flaw: t
 
 When messages with an unknown stat/err field combination are encountered, these regex are applied on the stat field to determine whether the SR was a success or an error. SR with stat values that don't match any of these regexes are ignored.
 
-By default, stat values that begin with `DELIV`, e.g. `DELIVRD` in the [Appendix B](../../delivery/using/sms-protocol.md#sr-error-management), will be considered as successfully delivered and all stat values that match errors, e.g. `REJECTED`, `UNDELIV`, are considered errors.
+By default, stat values that begin with `DELIV`, e.g. `DELIVRD` in the [Appendix B](sms-protocol.md#sr-error-management), will be considered as successfully delivered and all stat values that match errors, e.g. `REJECTED`, `UNDELIV`, are considered errors.
 
 #### ID format in MT acknowledgement {#id-format-mt}
 
@@ -843,7 +843,7 @@ This step is necessary when connecting to a provider that was not connected to A
 
 Check that `BIND_* PDUs` are correctly sent. The most important thing to check is that the provider always returns successful `BIND_*_RESP PDUs` (command_status = 0).
 
-Check that there aren't too many `BIND_* PDU`s. If there are too many of them, it might indicate that the connection is unstable. See the [Issues with unstable connections](../../delivery/using/sms-protocol.md#issues-unstable-connection) section for more information.
+Check that there aren't too many `BIND_* PDU`s. If there are too many of them, it might indicate that the connection is unstable. See the [Issues with unstable connections](sms-protocol.md#issues-unstable-connection) section for more information.
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 
