@@ -16,8 +16,8 @@ The various channels available are:
 * [Email](../../delivery/using/about-email-channel.md)
 * [Direct Mail](../../delivery/using/about-direct-mail-channel.md)
 * [Mobile](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/publishing-on-twitter.md)
-* [Facebook](../../social/using/publishing-on-facebook.md)
+* [Twitter](../../social/using/publishing-on-twitter.md) (Campaign Classic v7 only)
+* [Facebook](../../social/using/publishing-on-facebook.md) (Campaign Classic v7 only)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

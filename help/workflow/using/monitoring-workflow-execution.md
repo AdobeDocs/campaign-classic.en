@@ -13,9 +13,9 @@ This section presents information on how to monitor your workflows' execution.
 
 A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](supervising-workflows.md#supervising-workflows).
 
-Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to the [dedicated section](../../production/using/audit-trail.md).
+Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to [Campaign Classic v7 Production Guide](../../production/using/audit-trail.md).
 
-Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
+Additional ways of monitoring the different Campaign processes are presented in [Campaign Classic v7 Production Guide](../../production/using/monitoring-guidelines.md).
 
 ## Displaying progress {#displaying-progress}
 
@@ -135,7 +135,7 @@ In this case, the error task is aborted. This mode is particularly suited to wor
 >
 >You can apply this configuration individually for each activity. To do this, edit activity properties and select the error management mode in the **[!UICONTROL Advanced]** tab.
 
-For more on workflows' execution troubleshooting, refer to the [dedicated section](../../production/using/workflow-execution.md).
+For more on workflows' execution troubleshooting, refer to [Campaign Classic v7 Production Guide](../../production/using/workflow-execution.md).
 
 ## Processing errors {#processing-errors}
 
@@ -228,9 +228,9 @@ A use case is presented in this section: [Coordinating data updates](coordinatin
 
 Workflows use a lot of work tables that consume space and end up slowing down the entire platform if not maintained. For more about database maintenance, refer to this [section](../../production/using/tables-to-maintain.md) .
 
-The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to this [section](../../production/using/database-cleanup-workflow.md).
+The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to [Campaign Classic v7 Production Guide](../../production/using/database-cleanup-workflow.md).
 
-You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this [section](../../production/using/application-objects.md) and this [page](#purging-the-logs).
+You can also create specific technical workflows to purge unnecessary data consuming space. Refer to [Campaign Classic v7 Production Guide](../../production/using/application-objects.md) and this [section](#purging-the-logs).
 
 ## Handling of paused workflows {#handling-of-paused-workflows}
 
@@ -253,7 +253,7 @@ The following views are available:
 * **[!UICONTROL Running]**: lists all running workflows.
 * **[!UICONTROL Paused]**: lists all paused workflows.
 * **[!UICONTROL Failed]**: lists all failed workflows.
-* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Installing Campaign built-in packages](../../installation/using/installing-campaign-standard-packages.md)).
+* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only. Learn more in [Campaign Classic v7 Installation Guide](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 

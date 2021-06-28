@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Transfer to Mid-sourcing{#transfer-to-mid-sourcing}
 
-The workflows detailed below are installed with the **Transfer to Mid-Sourcing** module by default. For more on this module, refer to this [section](../../installation/using/mid-sourcing-deployment.md).
+The workflows detailed below are installed with the **Transfer to Mid-Sourcing** module by default. For more on this module, refer to [Campaign Classic v7 Installation Guide](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 

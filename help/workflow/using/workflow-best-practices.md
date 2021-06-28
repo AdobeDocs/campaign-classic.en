@@ -13,7 +13,7 @@ exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 
 Below are listed general guidelines about optimizing Campaign performance, including best practices to apply to your workflows. 
 
-Troubleshooting guidelines related to workflows execution are also available in [this section](../../production/using/workflow-execution.md).
+Troubleshooting guidelines related to workflows execution are also available in [Campaign Classic v7 Production Guide](../../production/using/workflow-execution.md).
 
 ### Logs {#logs}
 

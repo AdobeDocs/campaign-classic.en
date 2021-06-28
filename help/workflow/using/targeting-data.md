@@ -169,7 +169,11 @@ To configure it, you first need to select criteria:
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   For more on this, refer to this [section](../../installation/using/about-fda.md).
+   For more on this, depending on your Campaign version, refer to these sections:
+   
+    ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../installation/using/about-fda.md)
+
+    ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=en)
 
 Then, we need to add new subsets:
 

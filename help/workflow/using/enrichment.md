@@ -206,7 +206,7 @@ The **[!UICONTROL Offer engine]** activity does store this information by defaul
 
 However, you can store this information as follows:
 
-1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to this [section](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity.
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
