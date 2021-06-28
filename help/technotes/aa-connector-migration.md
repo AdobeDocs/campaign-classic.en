@@ -16,12 +16,12 @@ You must migrate to the new Adobe Analytics Connector integration on Adobe Excha
 
 >[!NOTE]
 >
->For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>For any questions about these changes, read the [FAQ](#faq-aa). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 >
 
 ## What changed?
 
-A new integration between Campaign Classic and Adobe Analytics is now available. Major changes are listed below.
+A new integration between Campaign Classic v7 and Adobe Analytics is now available. Major changes are listed below.
 
 * Integration between Adobe Campaign Classic and Adobe Analytics authentication has moved from user/password to Adobe Identity Management Service (IMS). As a consequence, you must implement Adobe IMS, and connect to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), before starting Analytics Connector implementation.
 
@@ -52,7 +52,7 @@ As an on-premise/hybrid customer, you need to upgrade to one of the newer versio
 Once all instances are upgraded, you will be able to [implement the new integration](../platform/using/adobe-analytics-connector.md) to Adobe Analytics Connector, and ensure a seamless transition.
 
 
-## FAQ
+## FAQ{#faq-aa}
 
 **How can I get logs?** 
 
@@ -65,17 +65,21 @@ As an on-premise user, you can implement the verbose mode as follows:
 * To enable verbose mode for the user interface: re-run the `web` process in verbose mode.
 * To enable verbose mode for the **webAnalytics** workflows: select the **Execute in the engine** option from the workflow properties, and re-run `wfserver` in verbose mode.
 
-**Integration Owner Not Admin**
+**What dies the 'Integration Owner Not Admin' error means?**
 
 Learn more about the Data Connectors "Integration Owner Not Admin" Error in [this page](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
 
-**Existing evars/events/reportsuite present in analytics not visible in Campaign**
+**Once migration to the new connector is done, what happens to old data and report suites?**
+
+After migration, a new connector (migrated from the old connector) will start pushing data to that same report suite and existing data will not be affected: it will be adding to the existing data.
+
+**Some existing evars/events/report suites present in Analytics are not visible in Campaign. What should I do?**
 
 Integration relies on data on Technical Account Token for day to day operation. If there is missing permission to a dimension/metric/report suite from the product profile associated with Technical Account User, APIs that we use will simply falter for those requests.
 
 If we are reading for details of an Analytics component (like metrics/dimensions/segments/report suites), the API will not return these components in the result (which may look like something got deleted on the Analytics side or is not present). Analytics API will reject those requests and error out. 
 
-The solution is to update the Poduct Profile in Analytics User Context of Technical User Token with the newly created/missing components by adding these components in [Adobe Admin Console](https://adminconsole.adobe.com/).
+The solution is to update the **Product Profile** in Analytics User Context of Technical User Token with the newly created/missing components by adding these components in [Adobe Admin Console](https://adminconsole.adobe.com/). For more guidance, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Useful links
 
