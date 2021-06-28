@@ -9,7 +9,11 @@ topic-tags: technical-workflows
 
 # Social Marketing{#social-marketing}
 
-The workflows detailed below are installed with the **Social Marketing** module by default. For more on this module, refer to this [section](../../social/using/starting-workflows.md).
+>[!AVAILABILITY]
+>
+>:warning: This capability is only available in Campaign Classic v7. [Learn more](../../social/using/about-social-marketing.md)
+
+The workflows detailed below are installed with the **Social Marketing** module by default.
 
 <table> 
  <tbody> 

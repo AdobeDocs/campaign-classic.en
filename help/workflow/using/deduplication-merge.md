@@ -20,7 +20,7 @@ exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 
 This use case describes how to use of the **[!UICONTROL Merge]** functionality in the **[!UICONTROL Deduplication]** activity.
 
-For more information on this fonctionality, refer to [this section](../../workflow/using/deduplication.md#merging-fields-into-single-record).
+For more information on this fonctionality, refer to [this section](deduplication.md#merging-fields-into-single-record).
 
 The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows from a data set. In this use case, the data shown below is duplicated based on the Email field. 
 

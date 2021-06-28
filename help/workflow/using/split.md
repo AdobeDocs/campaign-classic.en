@@ -13,11 +13,11 @@ A **Split**-type activity lets you split a target into several subsets. The targ
 
 This activity does not trigger a union of inbound populations. If several transitions land in one split activity, we recommend inserting a **[!UICONTROL Union]** activity in front of it.
 
-For an example of the split activity being used, refer to [Creating subsets using the Split activity](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
+For an example of the split activity being used, refer to [Creating subsets using the Split activity](targeting-data.md#creating-subsets-using-the-split-activity).
 
-An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](../../workflow/using/cross-channel-delivery-workflow.md).
+An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](cross-channel-delivery-workflow.md).
 
-An example showing how to use an instance variable in a Split activity is available in [this section](../../workflow/using/javascript-scripts-and-templates.md).
+An example showing how to use an instance variable in a Split activity is available in [this section](javascript-scripts-and-templates.md).
 
 To configure this activity, define the subset content and label in the **[!UICONTROL Subsets]** tab, then choose the target dimension in the **[!UICONTROL General]** tab.
 
@@ -119,7 +119,7 @@ For instance, if you select the **[!UICONTROL Language]** field as a group field
 
 If your grouping fields contain too large a number of values or if you want to avoid resetting values for every new split activity, Adobe Campaign lets you create a limitation per data distribution. When selecting data limitation values (for more on this subject see the [Creating subsets](#creating-subsets) section), select the **[!UICONTROL By data distribution]** option and select a template from the drop-down menu. Creating a data distribution template is demonstrated below.
 
-For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Using the local approval activity](../../workflow/using/using-the-local-approval-activity.md).
+For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Using the local approval activity](using-the-local-approval-activity.md).
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
@@ -144,11 +144,11 @@ The data distribution template lets you limit the number of records using a list
     * **[!UICONTROL Distribution field]**: select a field via the targeting dimension. For instance, if you select the **[!UICONTROL Email domain]** field, the list of recipients will be broken down by domain.
     * **[!UICONTROL Distribution type]**: select the way the limitation value of the target will be broken down in the **[!UICONTROL Distribution]** tab: **[!UICONTROL Percentage]** or **[!UICONTROL Set]**.
     * **[!UICONTROL Assignment type]**: select the data distribution assignment type. You can choose between assignment by group or operator or assignment by local entity. Assignment by local entity is used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
-    * **[!UICONTROL Approval storage]**: if you use a **[!UICONTROL Local approval]** activity in your targeting workflow (refer to [Local approval](../../workflow/using/local-approval.md)), enter the schema in which the approval results will be stored. You must specify one storage schema per targeting schema. If you use the **[!UICONTROL Recipients]** targeting schema, enter the default **[!UICONTROL Local approval of recipients]** storage schema.
+    * **[!UICONTROL Approval storage]**: if you use a **[!UICONTROL Local approval]** activity in your targeting workflow (refer to [Local approval](local-approval.md)), enter the schema in which the approval results will be stored. You must specify one storage schema per targeting schema. If you use the **[!UICONTROL Recipients]** targeting schema, enter the default **[!UICONTROL Local approval of recipients]** storage schema.
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Approvals storage]** field.
 
-1. If you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](../../workflow/using/local-approval.md)), enter the **[!UICONTROL Advanced settings]** for the distribution template:
+1. If you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](local-approval.md)), enter the **[!UICONTROL Advanced settings]** for the distribution template:
 
    ![](assets/local_validation_data_distribution_3.png)
 
@@ -184,7 +184,7 @@ The data distribution template lets you limit the number of records using a list
       This column is defined by the **[!UICONTROL Distribution type]** field within the **[!UICONTROL General]** tab.
     
     * **[!UICONTROL Label]**: enter the label linked to each value.
-    * **[!UICONTROL Group or operator]**: if you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](../../workflow/using/local-approval.md)), select the operator or group of operators assigned to each distribution value.
+    * **[!UICONTROL Group or operator]**: if you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](local-approval.md)), select the operator or group of operators assigned to each distribution value.
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Group or operator]** field.
 

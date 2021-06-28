@@ -35,7 +35,7 @@ In the following example, the list update activity follows a query which targets
 
 1. Add a **[!UICONTROL list update activity]** directly after a query then open it up to edit it.
 
-   For more on creating a query in a workflow, refer to [Query](../../workflow/using/query.md).
+   For more on creating a query in a workflow, refer to [Query](query.md).
 
 1. You may select a label for the activity.
 1. Select the **[!UICONTROL Create the list if necessary (Calculated name)]** option to show that the list will be created once the first workflow has been executed, then updated with the following executions.

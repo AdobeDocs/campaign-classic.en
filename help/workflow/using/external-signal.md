@@ -19,9 +19,9 @@ You can configure this activity in order to define events if no signal is receiv
 
 ![](assets/edit_signal.png)
 
-The configuration of expirations is detailed in [Expirations](../../workflow/using/defining-approvals.md).
+The configuration of expirations is detailed in [Expirations](defining-approvals.md).
 
-The **Delay** field lets you specify an expiration delay in the units of your choice. See [Wait](../../workflow/using/wait.md).
+The **Delay** field lets you specify an expiration delay in the units of your choice. See [Wait](wait.md).
 
 Each line represents a type of expiration and coincides with a transition.
 

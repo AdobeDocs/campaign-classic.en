@@ -15,7 +15,7 @@ An intersection lets you extract only the population that is common to all inbou
 
 ![](assets/s_user_segmentation_inter.png)
 
-For more on configuring and using the intersection activity, refer to [Extracting joint data (Intersection)](../../workflow/using/targeting-data.md#extracting-joint-data--intersection-).
+For more on configuring and using the intersection activity, refer to [Extracting joint data (Intersection)](targeting-data.md#extracting-joint-data--intersection-).
 
 Check the **[!UICONTROL Generate complement]** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity, as follows:
 

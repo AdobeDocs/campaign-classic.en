@@ -33,7 +33,7 @@ This section is only displayed in campaign workflows.
 
   If your installation includes several workflow servers, use this field to choose the machine which the workflow will be executed on. If the value defined in this field doesn't exist on any server, the workflow will remain pending.
 
-  Refer to this [section](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+  Refer to this [Campaign Classic v7 installation guide](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 * **[!UICONTROL History in days]**
 

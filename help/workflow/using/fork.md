@@ -26,4 +26,4 @@ To configure the  **[!UICONTROL Fork]** activity, open it define the number and 
 
 ![](assets/s_user_segmentation_fork.png)
 
-You can then configure each outbound transitions, then join them together using an [AND-join](../../workflow/using/and-join.md) activity, if needed. This way, the rest of the workflow will execute only once the **[!UICONTROL Fork]** activity's outbound transitions are finished.
+You can then configure each outbound transitions, then join them together using an [AND-join](and-join.md) activity, if needed. This way, the rest of the workflow will execute only once the **[!UICONTROL Fork]** activity's outbound transitions are finished.

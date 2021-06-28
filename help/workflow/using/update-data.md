@@ -110,7 +110,7 @@ Data for secondary records is associated with the main record if the defined rul
 
 ## Example: Update data following an enrichment {#example--update-data-following-an-enrichment}
 
-The [Step 2: Writing enriched data to the 'Purchases' table](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) section of the use case that details creating a recap list offers an example of a data update after an enrichment activity.
+The [Step 2: Writing enriched data to the 'Purchases' table](creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) section of the use case that details creating a recap list offers an example of a data update after an enrichment activity.
 
 ## Input parameters {#input-parameters}
 

@@ -82,7 +82,7 @@ The following example lets you collect a file on the server every day, load its 
 
    The **[!UICONTROL Directory]** tab contains information on the file(s) to be recovered. In our example, all files in text format whose names contain the word 'customers' and which are stored in the tmp/Adobe/Data/files directory of the server will be recovered.
 
-   Using the **[!UICONTROL File collector]** is detailed in the [File collector](../../workflow/using/file-collector.md) section.
+   Using the **[!UICONTROL File collector]** is detailed in the [File collector](file-collector.md) section.
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
@@ -94,7 +94,7 @@ The following example lets you collect a file on the server every day, load its 
 
    To do this, click the **[!UICONTROL Change...]** button located in the lower right-hand section of the editing tool and configure the schedule.
 
-   For more on this, refer to [Scheduler](../../workflow/using/scheduler.md).
+   For more on this, refer to [Scheduler](scheduler.md).
 
 1. Then configure the data loading (file) activity to indicate how the collected file(s) should be read. To do this, select a sample file with the same structure as the files to be loaded.
 
@@ -123,4 +123,4 @@ The following example lets you collect a file on the server every day, load its 
 
 1. Then specify the processes to be carried out for each type of population. In our example, we are going to **[!UICONTROL Update the data]** in the database. To do this, place an **[!UICONTROL Update data]** activity at the end of each outbound transition from the split activity.
 
-   The **[!UICONTROL Update data]** activity is detailed in the [Update data](../../workflow/using/update-data.md) section.
+   The **[!UICONTROL Update data]** activity is detailed in the [Update data](update-data.md) section.

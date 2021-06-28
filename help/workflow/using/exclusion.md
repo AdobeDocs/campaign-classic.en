@@ -17,7 +17,7 @@ To configure this activity, enter its label and select the main recipient set: t
 
 >[!NOTE]
 >
->For more on configuring and using the exclusion activity, refer to [Excluding a population (Exclusion)](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-).
+>For more on configuring and using the exclusion activity, refer to [Excluding a population (Exclusion)](targeting-data.md#excluding-a-population--exclusion-).
 
 Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. The complement will contain the main incoming population minus the outgoing population. An additional output transition will then be added to the activity, as follows:
 

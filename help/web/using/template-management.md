@@ -15,7 +15,7 @@ When creating a Landing Page type Web application, the user can choose one of th
 
 ![](assets/dce_popup_templatechoice.png)
 
-To add a template, refer to [Global options](../../web/using/content-editor-interface.md#global-options).
+To add a template, refer to [Global options](content-editor-interface.md#global-options).
 
 ## Saving a delivery as a template {#saving-a-delivery-as-a-template}
 

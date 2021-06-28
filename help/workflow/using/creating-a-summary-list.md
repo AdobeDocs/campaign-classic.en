@@ -86,7 +86,7 @@ Add the Enrichment activity and configure it as follows:
 
    ![](assets/uc2_enrich_enrich3.png)
 
-For more on the various types of links, refer to [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
+For more on the various types of links, refer to [Enriching and modifying data](targeting-data.md#enriching-and-modifying-data).
 
 In the following window, you need to create a join condition by selecting the source field (in the main set) and the target field (belonging to the "Stores" schema) to configure data reconciliation.
 

@@ -83,7 +83,7 @@ The following workflow was created for this use case. It has three activities:
 
    ![](assets/use_case_report_9.png)
 
-   For more on configuring the scheduler, refer to [Scheduler](../../workflow/using/scheduler.md).
+   For more on configuring the scheduler, refer to [Scheduler](scheduler.md).
 
 1. Then add a **[!UICONTROL JavaScript code]** type activity.
 

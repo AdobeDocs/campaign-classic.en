@@ -44,15 +44,15 @@ There are four types of links:
 
 Use cases detailing the operating of Enrichment activities in their context are also available in these sections:
 
-* [Email enrichment with custom date fields](../../workflow/using/email-enrichment-with-custom-date-fields.md).
-* [Enriching data](../../workflow/using/enriching-data.md)
-* [Creating a summary list](../../workflow/using/creating-a-summary-list.md)
+* [Email enrichment with custom date fields](email-enrichment-with-custom-date-fields.md).
+* [Enriching data](enriching-data.md)
+* [Creating a summary list](creating-a-summary-list.md)
 
 ## Adding information {#adding-information}
 
 Use the **[!UICONTROL Enrichment]** activity to add columns to a work table: this activity can be used as a complement to a query activity.
 
-The configuration of additional columns is detailed in [Adding data](../../workflow/using/query.md#adding-data).
+The configuration of additional columns is detailed in [Adding data](query.md#adding-data).
 
 The **[!UICONTROL Primary set]** field lets you select the inbound transition: the data of this activity's worktable will be enriched.
 
@@ -145,13 +145,13 @@ If several join conditions are specified, they must ALL be verified so that the 
 
 The enrichment activity lets you add offers or links to offers for delivery recipients.
 
-For more information on the enrichment activity, refer to this [section](../../workflow/using/enrichment.md).
+For more information on the enrichment activity, refer to this [section](enrichment.md).
 
 For example, you can enrich the data for a recipient query before a delivery.
 
 ![](assets/int_enrichment_offer1.png)
 
-After configuring your query (refer to this [section](../../workflow/using/query.md)):
+After configuring your query (refer to this [section](query.md)):
 
 1. Add and open an enrichment activity.
 1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]**.
@@ -170,7 +170,7 @@ After configuring your query (refer to this [section](../../workflow/using/query
     
       ![](assets/int_enrichment_offer4.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
+1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](cross-channel-deliveries.md).
 
    The number of propositions available for the preview depends on the configuration carried out in the enrichment activity rather than any possible configuration carried out directly in the delivery.
 
@@ -192,7 +192,7 @@ To do this:
 
    ![](assets/int_enrichment_link2.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
+1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](cross-channel-deliveries.md).
 
    >[!NOTE]
    >
@@ -206,7 +206,7 @@ The **[!UICONTROL Offer engine]** activity does store this information by defaul
 
 However, you can store this information as follows:
 
-1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to this [section](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity.
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
