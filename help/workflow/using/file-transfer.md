@@ -65,7 +65,7 @@ The configuration depends on the action selected.
 There are two possible options for all file transfer options:
 
 * The **[!UICONTROL Process missing file]** option adds a transition which is activated if no file is found in the specified directory.
-* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](monitoring-workflow-execution.md#processing-errors).
 
 The **[!UICONTROL Advanced parameters...]** link lets you access the following options:
 
@@ -87,7 +87,7 @@ The **[!UICONTROL Advanced parameters...]** link lets you access the following o
 
   Allows you to specify the connection port to be used for data transfer.
 
-The **[!UICONTROL File historization settings...]** link gives access to the options detailed in [Web download](../../workflow/using/web-download.md) (**[!UICONTROL File historization]** step).
+The **[!UICONTROL File historization settings...]** link gives access to the options detailed in [Web download](web-download.md) (**[!UICONTROL File historization]** step).
 
 ## Input parameters {#input-parameters}
 

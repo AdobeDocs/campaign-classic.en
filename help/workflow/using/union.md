@@ -15,7 +15,7 @@ A union groups the result of several inbound activities in a single target. The 
 
 >[!NOTE]
 >
->For more on configuring and using the union activity, refer to [Combining several targets (Union)](../../workflow/using/targeting-data.md#combining-several-targets--union-).
+>For more on configuring and using the union activity, refer to [Combining several targets (Union)](targeting-data.md#combining-several-targets--union-).
 
 ## Union example {#union-example}
 
@@ -29,7 +29,7 @@ In the following example, the results from two queries have been combined in ord
 
    Specify this final number by entering the maximum number of recipients and by selecting the query whose population will take priority.
 
-1. Approve the union activity then configure the list update activity (see [List update](../../workflow/using/list-update.md)). 
+1. Approve the union activity then configure the list update activity (see [List update](list-update.md)). 
 1. Start the workflow. The number of results is displayed and the list defined in the list update activity is created or updated. This list contains the set of recipients for both queries or, where applicable, the number defined at the previous step.
 
    ![](assets/union_example.png)

@@ -11,7 +11,7 @@ exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 
 Using a workflow template is a best practice if you need to regularly import files with the same structure.
 
-This example shows how to pre-set a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database. For more information about all possible settings for each activity, refer to this [section](../../workflow/using/about-activities.md).
+This example shows how to pre-set a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database. For more information about all possible settings for each activity, refer to this [section](about-activities.md).
 
 1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Add the following activities:

@@ -31,26 +31,26 @@ Technical workflows are available from **[!UICONTROL Administration]** > **[!UIC
 
 Depending on the technical workflow, follow the steps detailed below to ensure that everything is working as expected.
 
-To better understand what each technical workflow is supposed to do, refer to this [section](../../workflow/using/about-technical-workflows.md).
+To better understand what each technical workflow is supposed to do, refer to this [section](about-technical-workflows.md).
 
 For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../workflow/using/delivery.md).
+1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](delivery.md).
 1. Look at the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
 1. For more information, check this [page](../../production/using/database-cleanup-workflow.md).
 
 For **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
-Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this [section](../../workflow/using/delivery.md).
+Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this [section](delivery.md).
 
 For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
-1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../workflow/using/delivery.md).
+1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. For more on this, refer to this [page](delivery.md).
 1. Verify in the journal that rules are being updated regularly.
 
 For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
-1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. For more on this, refer to this [page](../../workflow/using/about-technical-workflows.md).
+1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. For more on this, refer to this [page](about-technical-workflows.md).
 1. Check that the workflows runs as scheduled and that the journal does not highlight recurrent errors.
 
 ## Workflow supervision {#workflow-supervision}

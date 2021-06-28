@@ -62,7 +62,7 @@ The first tab of the **Inbound Emails** activity lets you enter the parameters o
 
    To define a schedule for the activity, click the **[!UICONTROL Scheduling]** tab and check **[!UICONTROL Plan execution]**. Click the **[!UICONTROL Change]** button to configure the schedule.
 
-   Schedule configuration is the same as for the scheduling activity. Refer to [Scheduler](../../workflow/using/scheduler.md).
+   Schedule configuration is the same as for the scheduling activity. Refer to [Scheduler](scheduler.md).
 
 1. **[!UICONTROL Expiration]**
 
@@ -70,4 +70,4 @@ The first tab of the **Inbound Emails** activity lets you enter the parameters o
 
    ![](assets/email_rec_edit_3.png)
 
-   Configuration is the same as for the scheduling activity. Refer to [Expirations](../../workflow/using/defining-approvals.md).
+   Configuration is the same as for the scheduling activity. Refer to [Expirations](defining-approvals.md).

@@ -19,7 +19,7 @@ By default, technical workflows are available in a sub-folder of the following n
 >
 >Technical workflows related to the Message Center module are available by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
 
-For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-technical-workflows.md).
+For more on how to monitor technical workflows, refer to the [dedicated section](monitoring-technical-workflows.md).
 
 ## List of technical workflows {#list-technical-workflows}
 
@@ -55,7 +55,7 @@ For more on how to monitor technical workflows, refer to the [dedicated section]
 |**Mid-sourcing (delivery logs)** (defaultMidSourcingLog)|Transfer to Mid-sourcing|This workflow collects delivery logs on the mid-sourcing server. It is triggered every hour by default.|
 |**NMAC opt-out management** (mobileAppOptOutMgt)|Mobile App Channel|This workflow updates notification unsubscriptions on mobile devices. It is triggered every 6 hours between 1am and midnight. For more details, refer to [this section](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines).|
 |**Offer notification** (offerMgt)|Delivery|This workflow deploys approved offers onto the online environment, as well as every category contained in the offer catalog.|
-|**Paused workflows cleanup** (cleanupPausedWorkflows)|Delivery|This workflow analyzes paused workflows that have severity set to normal and triggers warnings and notifications when they have been paused for too long. After a month, paused technical workflows are stopped unconditionally. By default, it is triggered every Monday at 5 am. For more information, refer to [Handling of paused workflows](../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows).|
+|**Paused workflows cleanup** (cleanupPausedWorkflows)|Delivery|This workflow analyzes paused workflows that have severity set to normal and triggers warnings and notifications when they have been paused for too long. After a month, paused technical workflows are stopped unconditionally. By default, it is triggered every Monday at 5 am. For more information, refer to [Handling of paused workflows](monitoring-workflow-execution.md#handling-of-paused-workflows).|
 |**Privacy request cleanup** (cleanupPrivacyRequests)|Privacy Data Protection Regulation|This workflow erases the access request files that are older than 90 days.|
 |**Processing batch events** (batchEventsProcessing)|Transactional message execution (Message Center - Execution)|This workflow lets you put batch events into a queue before associating them with a message template.|
 |**Processing real time events** (rtEventsProcessing)|Transactional message execution (Message Center - Execution)|This workflow lets you put real-time events into a queue before associating them with a message template.|

@@ -25,7 +25,7 @@ To do this, select the relevant menu:
 
   ![](assets/wf-right-click-display.png)
 
-  For more on this, refer to [Worktables and workflow schema](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema).
+  For more on this, refer to [Worktables and workflow schema](monitoring-workflow-execution.md#worktables-and-workflow-schema).
 
 * Analyzing the target
 

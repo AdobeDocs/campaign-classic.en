@@ -17,8 +17,8 @@ The query is defined in the same way as for standard queries, but its execution 
 
 **Related topics:**
 
-* [Use case: Quarterly list update using an incremental query](../../workflow/using/quarterly-list-update.md)
-* [Creating a query](../../workflow/using/query.md#creating-a-query)
+* [Use case: Quarterly list update using an incremental query](quarterly-list-update.md)
+* [Creating a query](query.md#creating-a-query)
 
 >[!CAUTION]
 >

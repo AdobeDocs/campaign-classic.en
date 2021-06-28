@@ -9,7 +9,7 @@ exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 ---
 # Starting a workflow {#starting-a-workflow}
 
-A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](../../workflow/using/scheduler.md)) or activity scheduling.
+A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](scheduler.md)) or activity scheduling.
 
 Actions related to targeting workflow execution (launch, stop, pause, etc.) are **asynchronous** processes: the order is recorded and will be effective as soon as the server is available to apply it.
 
@@ -19,7 +19,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 >[!IMPORTANT]
 >
->Keep in mind that, when an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway, but instead placed in a queue in order to be processed by the [workflow module](../../workflow/using/architecture.md).
+>Keep in mind that, when an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway, but instead placed in a queue in order to be processed by the [workflow module](architecture.md).
 
 ## Actions toolbar {#actions-toolbar}
 
@@ -51,7 +51,7 @@ The toolbar buttons are detailed in this [section](../../campaign/using/marketin
 
 * **[!UICONTROL Purge history]**
 
-  This action lets you purge the workflow history. For more on this, refer to [Purging the logs](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+  This action lets you purge the workflow history. For more on this, refer to [Purging the logs](monitoring-workflow-execution.md#purging-the-logs).
 
 * **[!UICONTROL Start in simulation mode]**
 
@@ -85,7 +85,7 @@ The following options are available in the right-click menu:
 
 **[!UICONTROL Open]**: this option lets you access the activity properties.
 
-**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
+**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](monitoring-workflow-execution.md#displaying-logs).
 
 **[!UICONTROL Execute pending task(s) now:]** this action lets you start pending tasks as soon as possible.
 
@@ -95,7 +95,7 @@ The following options are available in the right-click menu:
 
 **[!UICONTROL Copy as bitmap:]** this option lets you take a screenshot of all activities.
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** these options are also available in the **[!UICONTROL Advanced]** tab of the activity properties. They are detailed in [Execution](../../workflow/using/advanced-parameters.md#execution).
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** these options are also available in the **[!UICONTROL Advanced]** tab of the activity properties. They are detailed in [Execution](advanced-parameters.md#execution).
 
 **[!UICONTROL Save / Cancel:]** lets you save or cancel the changes made to a workflow.
 

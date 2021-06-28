@@ -23,14 +23,14 @@ More precisely, it helps the platform administrators to:
 * Filter workflows by duration to see which workflows may encounter issues
 * Filter activities by duration to see which activities may encounter issues
 * Easily find individual workflows and all related activities (with their duration)
-* Filter by workflow type: [technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows) or [campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* Filter by workflow type: [technical workflows](building-a-workflow.md#technical-workflows) or [campaign workflows](building-a-workflow.md#campaign-workflows)
 * Look for a specific workflow to analyze
 
 >[!NOTE]
 >
->In addition to the **Workflow Heatmap**, you can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors. For more on this, refer to the [dedicated section](../../workflow/using/supervising-workflows.md).
+>In addition to the **Workflow Heatmap**, you can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors. For more on this, refer to the [dedicated section](supervising-workflows.md).
 
-Using the Workflow HeatMap requires to have a good understanding of the following concepts: [Workflows](../../workflow/using/about-workflows.md), [Activities](../../workflow/using/about-activities.md) and [Workflow Best Practices](../../workflow/using/workflow-best-practices.md).
+Using the Workflow HeatMap requires to have a good understanding of the following concepts: [Workflows](about-workflows.md), [Activities](about-activities.md) and [Workflow Best Practices](workflow-best-practices.md).
 
 ## Customize the Workflow HeatMap {#using-the-heatmap}
 
@@ -69,8 +69,8 @@ Using the Workflow HeatMap requires to have a good understanding of the followin
 
 1. You can also filter on the **[!UICONTROL Workflow type]** :
 
-    * **[!UICONTROL Technical]** : Only [out-of-the box-technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows) and [data management workflows](../../workflow/using/targeting-data.md#data-management) are displayed.
-    * **[!UICONTROL Marketing]** : Only workflows linked to a marketing campaign, known as [campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows), are displayed.
+    * **[!UICONTROL Technical]** : Only [out-of-the box-technical workflows](building-a-workflow.md#technical-workflows) and [data management workflows](targeting-data.md#data-management) are displayed.
+    * **[!UICONTROL Marketing]** : Only workflows linked to a marketing campaign, known as [campaign workflows](building-a-workflow.md#campaign-workflows), are displayed.
 
 1. To search a specific workflow by name, you can also use the **[!UICONTROL Workflow name filter]** field.
 

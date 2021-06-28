@@ -11,7 +11,7 @@ exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 
 This section presents information on how to monitor your workflows' execution.
 
-A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](../../workflow/using/supervising-workflows.md#supervising-workflows).
+A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](supervising-workflows.md#supervising-workflows).
 
 Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to the [dedicated section](../../production/using/audit-trail.md).
 
@@ -89,7 +89,7 @@ The log shows the chronological list of execution messages related to targeting 
 
 ## Purging the logs {#purging-the-logs}
 
-Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]**. The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](../../workflow/using/starting-a-workflow.md) section.
+Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]**. The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](starting-a-workflow.md) section.
 
 ![](assets/purge_historique.png)
 
@@ -99,7 +99,7 @@ The workflow conveys worktables that can be manipulated via certain activities. 
 
 It is also possible to create links between various work dimensions and to define dimension changes. For example, for each contract recorded in the database, address the main holder and use co-holder data in the additional information.
 
-The worktables of the workflow are deleted automatically when the workflow passivates. If you wish to keep a work table, save it in a list via the **[!UICONTROL List update]** activity (refer to [List update](../../workflow/using/list-update.md)).
+The worktables of the workflow are deleted automatically when the workflow passivates. If you wish to keep a work table, save it in a list via the **[!UICONTROL List update]** activity (refer to [List update](list-update.md)).
 
 ## Managing errors {#managing-errors}
 
@@ -222,7 +222,7 @@ Note that:
   logInfo("Workflow already running, parallel execution not allowed.");
   ```
 
-A use case is presented in this section: [Coordinating data updates](../../workflow/using/coordinating-data-updates.md).
+A use case is presented in this section: [Coordinating data updates](coordinating-data-updates.md).
 
 ## Database maintenance {#database-maintenance}
 
@@ -237,7 +237,7 @@ You can also create specific technical workflows to purge unnecessary data consu
 By default, if a workflow is paused, its working tables are never purged. From build 8880, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:
 
 * Workflows that have been paused since more than 7 days appear as a warning in the monitoring dashboard (and monitoring API) and a notification is sent to the supervisor group.
-* The same happens every week, when the **[!UICONTROL cleanupPausedWorkflows]** technical workflow is triggered. For more details on the workflow, refer to [this section](../../workflow/using/delivery.md).
+* The same happens every week, when the **[!UICONTROL cleanupPausedWorkflows]** technical workflow is triggered. For more details on the workflow, refer to [this section](delivery.md).
 * After 4 notifications (i.e. one month in paused state by default), the workflow is stopped unconditionnally. A log appears in the workflow after it has been stopped. The tables are purged at the next execution **[!UICONTROL cleanup]** workflow
 
 These periods can be configured via the NmsServer_PausedWorkflowPeriod option.

@@ -21,9 +21,9 @@ Workflows occur within various contexts and stages of the campaign management pr
 
 Adobe Campaign uses workflows to:
 
-* Carry out targeting campaigns. [Learn more](../../workflow/using/building-a-workflow.md#implementation-steps-)
-* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. [Learn more](../../workflow/using/building-a-workflow.md#campaign-workflows)
-* Perform technical processes: cleanup, collecting tracking information or provisional calculations. [Learn more](../../workflow/using/building-a-workflow.md#technical-workflows)
+* Carry out targeting campaigns. [Learn more](building-a-workflow.md#implementation-steps-)
+* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. [Learn more](building-a-workflow.md#campaign-workflows)
+* Perform technical processes: cleanup, collecting tracking information or provisional calculations. [Learn more](building-a-workflow.md#technical-workflows)
 
 A workflow can mean both a process definition (the workflow model, which is a representation of what is supposed to happen) and an instance of this process (a workflow instance, which is a representation of what is actually happening).
 
@@ -39,7 +39,7 @@ Each workflow contains:
 
   In a workflow diagram, a given activity can produce multiple tasks, in particular when there is a loop or recurrent (periodic) actions.
 
-  All workflow activities are listed in [this section](../../workflow/using/about-activities.md), including use cases and samples.
+  All workflow activities are listed in [this section](about-activities.md), including use cases and samples.
 
 * **[!UICONTROL Transitions]**
 
@@ -51,22 +51,22 @@ Each workflow contains:
   >
   >A workflow containing unterminated transitions can still be executed: a warning message will be generated and the workflow will pause once it reaches the transition but it will not generate an error. It is thus possible to start a workflow without it being finished and to add to it as you go along.
 
-  For more information about how to build a workflow, refer to [this section](../../workflow/using/building-a-workflow.md).
+  For more information about how to build a workflow, refer to [this section](building-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
   The worktable contains all the information carried by the transition. Each workflow uses several worktables. The data conveyed in these tables can be accelerated and used throughout the workflow's life cycle, as long as it is not purged. Indeed, unneeded tables are purged each time the workflow is passivated, and possibly during the execution of the largest workflows to avoid overloading the server.
 
-  Learn more on workflow data and tables in [this section](../../workflow/using/how-to-use-workflow-data.md).
+  Learn more on workflow data and tables in [this section](how-to-use-workflow-data.md).
 
 ## Key principles and best practices{#principles-workflows}
 
 Refer to these sections to find guidance and best practices to automate processes with workflows:
 
-* Learn more about workflow activities in [this page](../../workflow/using/how-to-use-workflow-data.md).
-* Learn how to build a workflow in [this section](../../workflow/using/building-a-workflow.md).
+* Learn more about workflow activities in [this page](how-to-use-workflow-data.md).
+* Learn how to build a workflow in [this section](building-a-workflow.md).
 * Discover how to use workflows to import data in Campaign in [this section](../../platform/using/import-export-workflows.md).
-* Workflow best practices are detailed in [this page](../../workflow/using/workflow-best-practices.md).
-* Find guidance about workflow execution in [this section](../../workflow/using/starting-a-workflow.md).
-* Learn how to monitor workflows in [this page](../../workflow/using/monitoring-workflow-execution.md).
-* Learn how to grant access to users to use workflows in [this page](../../workflow/using/managing-rights.md).
+* Workflow best practices are detailed in [this page](workflow-best-practices.md).
+* Find guidance about workflow execution in [this section](starting-a-workflow.md).
+* Learn how to monitor workflows in [this page](monitoring-workflow-execution.md).
+* Learn how to grant access to users to use workflows in [this page](managing-rights.md).

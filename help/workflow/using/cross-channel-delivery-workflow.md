@@ -9,7 +9,7 @@ exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 ---
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}
 
-This use case presents an example involving a cross-channel delivery workflow. The general concept of cross-channel deliveries is presented in [this section](../../workflow/using/cross-channel-deliveries.md).
+This use case presents an example involving a cross-channel delivery workflow. The general concept of cross-channel deliveries is presented in [this section](cross-channel-deliveries.md).
 
 The objective is to segment an audience from the recipients of your database into different groups with the aim of sending an email to a group and an SMS message to another group.
 
@@ -30,7 +30,7 @@ The main implementation steps for this use case are as follows:
 To define your target, create a query to identify the recipients.
 
 1. Create a campaign. For more on this, refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. For more on using this activity, refer to [this section](../../workflow/using/query.md).
+1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. For more on using this activity, refer to [this section](query.md).
 1. Define the recipients who will receive your deliveries. For example, select 'Gold' members as the target dimension.
 1. Add filtering conditions to your query. In this example, select recipients who have an email address and a mobile number.
 
@@ -63,7 +63,7 @@ To define your target, create a query to identify the recipients.
 
 Once your target is identified and your first delivery created, you need to segment the target into different populations using filtering conditions.
 
-1. Add a **Split** activity to the workflow and open it. For more on using this activity, refer to [this section](../../workflow/using/split.md).
+1. Add a **Split** activity to the workflow and open it. For more on using this activity, refer to [this section](split.md).
 1. Create three segments from the population computed upstream in the query.
 
    ![](assets/wkf_cross-channel_6.png)

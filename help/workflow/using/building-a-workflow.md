@@ -49,10 +49,10 @@ You must now define the various activities and link them together in the diagram
 
 Activities are grouped by category inside the different tabs of the palette. Available tabs and activities can vary depending on the workflow type (technical, targeting or campaign workflow).
 
-* The first tab contains targeting and data manipulation activities. These activities are detailed in [Targeting activities](../../workflow/using/about-targeting-activities.md).
-* The second tab contains the scheduling activities, which are mainly used for coordinating other activities. These activities are detailed in [Flow control activities](../../workflow/using/about-flow-control-activities.md).
-* The third tab contains tools and actions that can be used in the workflow. These activities are detailed in [Action activities](../../workflow/using/about-action-activities.md).
-* The fourth tab contains activities that depend on a given event, such as the receipt of an email or the arrival of a file on a server. These activities are detailed in [Event activities](../../workflow/using/about-event-activities.md).
+* The first tab contains targeting and data manipulation activities. These activities are detailed in [Targeting activities](about-targeting-activities.md).
+* The second tab contains the scheduling activities, which are mainly used for coordinating other activities. These activities are detailed in [Flow control activities](about-flow-control-activities.md).
+* The third tab contains tools and actions that can be used in the workflow. These activities are detailed in [Action activities](about-action-activities.md).
+* The fourth tab contains activities that depend on a given event, such as the receipt of an email or the arrival of a file on a server. These activities are detailed in [Event activities](about-event-activities.md).
 
 To create the diagram
 
@@ -98,7 +98,7 @@ You can change the display and layout of the chart using the following elements:
 
 * **Image management**
 
-  You can customize the background image of the diagram as well as those related to the various activities. Refer to [Managing activity images](../../workflow/using/managing-activity-images.md).
+  You can customize the background image of the diagram as well as those related to the various activities. Refer to [Managing activity images](managing-activity-images.md).
 
 ## Configuring activities {#configuring-activities}
 
@@ -106,7 +106,7 @@ Double-click an activity to configure it or right-click and select **[!UICONTROL
 
 >[!NOTE]
 >
->Campaign workflow activities are detailed in [this section](../../workflow/using/about-activities.md).
+>Campaign workflow activities are detailed in [this section](about-activities.md).
 
 The first tab contains the basic configuration. The **[!UICONTROL Advanced]** tab contains the additional parameters, which are used particularly for defining behavior when an error is encountered, specifying the execution duration for an activity, and for entering an initialization script.
 
@@ -118,13 +118,13 @@ For a better understanding of the activities and to improve workflow legibility,
 
 Targeting workflows enable you to build several delivery targets. You can create queries, define unions or exclusions based on specific criteria, add scheduling, thanks to workflow activities. The result of this targeting can be transferred automatically to a list which can serve as the target of delivery actions
 
-In addition to these activities, Data Management options let you manipulate data and access advanced functions to satisfy complex targeting issues. For more on this, refer to [Data Management](../../workflow/using/targeting-data.md#data-management).
+In addition to these activities, Data Management options let you manipulate data and access advanced functions to satisfy complex targeting issues. For more on this, refer to [Data Management](targeting-data.md#data-management).
 
 All these activities can be found in the first workflow tab.
 
 >[!NOTE]
 >
->Targeting activities are detailed in [this section](../../workflow/using/about-activities.md).
+>Targeting activities are detailed in [this section](about-activities.md).
 
 Targeting workflows can be created and edited via the **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** node of the Adobe Campaign tree or via the **[!UICONTROL Profiles and Targets > Targeting workflows]** menu of the home page.
 
@@ -136,11 +136,11 @@ Targeting workflows within the framework of a campaign are stored with all campa
 
 Steps to create a targeting workflow are detailed in these sections:
 
-1. **Identify** data in the database -  See [Creating queries](../../workflow/using/targeting-data.md#creating-queries)
-1. **Prepare** data to meet delivery needs - See [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
-1. **Use** data to perform updates or within a delivery - See [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
+1. **Identify** data in the database -  See [Creating queries](targeting-data.md#creating-queries)
+1. **Prepare** data to meet delivery needs - See [Enriching and modifying data](targeting-data.md#enriching-and-modifying-data)
+1. **Use** data to perform updates or within a delivery - See [Updating the database](how-to-use-workflow-data.md#updating-the-database)
 
-The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data)
+The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](data-life-cycle.md#target-data)
 
 ### Targeting and filtering dimensions {#targeting-and-filtering-dimensions}
 
@@ -188,7 +188,7 @@ The **[!UICONTROL Campaign process]** subfolder centralizes the workflows requir
 
 >[!NOTE]
 >
->The list of technical workflows installed with each module is available in a [dedicated section](../../workflow/using/about-technical-workflows.md).
+>The list of technical workflows installed with each module is available in a [dedicated section](about-technical-workflows.md).
 
 You can create other technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. However, this process is reserved for expert users.
 
