@@ -65,9 +65,9 @@ As an on-premise user, you can implement the verbose mode as follows:
 * To enable verbose mode for the user interface: re-run the `web` process in verbose mode.
 * To enable verbose mode for the **webAnalytics** workflows: select the **Execute in the engine** option from the workflow properties, and re-run `wfserver` in verbose mode.
 
-**What dies the 'Integration Owner Not Admin' error means?**
+**What does the 'Integration Owner Not Admin' error means?**
 
-Learn more about the Data Connectors "Integration Owner Not Admin" Error in [this page](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
+Learn more about the Data Connectors `Integration Owner Not Admin` Error in [this page](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
 
 **Once migration to the new connector is done, what happens to old data and report suites?**
 
