@@ -109,9 +109,9 @@ To save the information collected in the pages of a form, you need to place a st
 
 There are two ways of using this box:
 
-* If the Web form is accessed via a link sent in an email, and if the user accessing the application is already in the database, you can check the **[!UICONTROL Update the preloaded record]** option. For more on this, refer to [Delivering a form via email](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
+* If the Web form is accessed via a link sent in an email, and if the user accessing the application is already in the database, you can check the **[!UICONTROL Update the preloaded record]** option. For more on this, refer to [Delivering a form via email](publishing-a-web-form.md#delivering-a-form-via-email).
 
-  In this case, Adobe Campaign uses the encrypted primary key of the user profile, a unique identifier assigned to each profile by Adobe Campaign. You need to configure the information to preload via the preloading box. For more on this, refer to [Pre-loading the form data](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
+  In this case, Adobe Campaign uses the encrypted primary key of the user profile, a unique identifier assigned to each profile by Adobe Campaign. You need to configure the information to preload via the preloading box. For more on this, refer to [Pre-loading the form data](publishing-a-web-form.md#pre-loading-the-form-data).
 
   >[!CAUTION]
   >

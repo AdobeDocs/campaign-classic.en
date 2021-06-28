@@ -63,9 +63,9 @@ To do this, use the **[!UICONTROL Advanced]** tab.
 
 It enables you to define the following properties:
 
-* **[!UICONTROL Label position]**: see [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
+* **[!UICONTROL Label position]**: see [Defining the position of labels](defining-web-forms-layout.md#defining-the-position-of-labels),
 * **[!UICONTROL Label format]**: Word wrap or No word wrap,
-* **[!UICONTROL Number of cells]** : see [Positioning the fields on the page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
+* **[!UICONTROL Number of cells]** : see [Positioning the fields on the page](defining-web-forms-layout.md#positioning-the-fields-on-the-page),
 * **[!UICONTROL Horizontal alignment]** (Left, Right, Centered) and **[!UICONTROL Vertical alignment]** (High, Low, Middle),
 * **[!UICONTROL Width]** of the zone: this can be expressed as a percentage or in ems, points, or pixels (default value),
 * Maximum **[!UICONTROL Length]**: Maximum number of characters allowed (for Text, Number and Password type controls),
@@ -140,17 +140,17 @@ In the field selection window, you can choose from the following data:
 
 * The main tree contains the parameters of the form context. The default parameters are the Identifier (which matches the encrypted identifier of the recipient), Language and Origin.
 
-  For more on this, refer to this [page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+  For more on this, refer to this [page](defining-web-forms-properties.md#form-url-parameters).
 
 * The **[!UICONTROL Recipients]** sub-tree contains the input fields inserted into the form and stored in the database.
 
-  For more on this, refer to [Storing data in the database](../../web/using/web-forms-answers.md#storing-data-in-the-database). 
+  For more on this, refer to [Storing data in the database](web-forms-answers.md#storing-data-in-the-database). 
 
-* The **[!UICONTROL Variables]** sub-tree contains the available variables for this form. For more on this, refer to [Storing data in a local variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
+* The **[!UICONTROL Variables]** sub-tree contains the available variables for this form. For more on this, refer to [Storing data in a local variable](web-forms-answers.md#storing-data-in-a-local-variable).
 
-For more on this, refer to the use case available here: [Displaying different options depending on the selected values](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+For more on this, refer to the use case available here: [Displaying different options depending on the selected values](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
-You can also condition the display of form pages using the **[!UICONTROL Test]** object. For more on this, refer to this [page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
+You can also condition the display of form pages using the **[!UICONTROL Test]** object. For more on this, refer to this [page](defining-web-forms-page-sequencing.md#conditional-page-display).
 
 ## Importing elements from an existing form {#importing-elements-from-an-existing-form}
 

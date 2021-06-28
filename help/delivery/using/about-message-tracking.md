@@ -65,7 +65,7 @@ Before sending your messages with your tracking, you can test the tracking on yo
 
 **Tracking a web application**
 
-You can also track and measure visits on Web application pages with tracking tags. This functionality can be used for all Web application types such as forms and online surveys. [Learn more](../../web/using/tracking-a-web-application.md)
+You can also track and measure visits on Web application pages with tracking tags. This functionality can be used for all Web application types such as forms and landing pages. [Learn more](../../web/using/tracking-a-web-application.md)
 
 **Web application tracking opt-out**
 

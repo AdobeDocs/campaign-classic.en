@@ -22,7 +22,7 @@ Our final goal is to create a delivery with a personalized template which contai
 >
 >Before you start, you must have at least one **HTML template** configured to host the content of your future deliveries.
 >
->In the delivery **[!UICONTROL Properties]**, make sure that the **[!UICONTROL Content editing mode]** (in the **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]**. To ensure the editor's optimal operation, refer to the [Content editing best practices](../../web/using/content-editing-best-practices.md).
+>In the delivery **[!UICONTROL Properties]**, make sure that the **[!UICONTROL Content editing mode]** (in the **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]**. To ensure the editor's optimal operation, refer to the [Content editing best practices](content-editing-best-practices.md).
 
 ## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
 
@@ -48,7 +48,7 @@ You can also import an HTML content created outside of Adobe Campaign by selecti
 
 ![](assets/dce_select_from_file_template.png)
 
-You can save this content as a template for future use. Once a personalized content template is created, you can preview it from the list of templates. For more on this, refer to [Template management](../../web/using/template-management.md).
+You can save this content as a template for future use. Once a personalized content template is created, you can preview it from the list of templates. For more on this, refer to [Template management](template-management.md).
 
 >[!CAUTION]
 >
@@ -64,7 +64,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Insert a link into an image
 
-  To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]**. For more on this, refer to [Adding a link](../../web/using/editing-content.md#adding-a-link).
+  To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]**. For more on this, refer to [Adding a link](editing-content.md#adding-a-link).
 
   ![](assets/dce_externalpage.png)
 
@@ -74,7 +74,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Insert a link into text
 
-  To integrate an external link into the text in your delivery, select some text or a block of text then click on the first icon in the pop-up toolbar. Click **[!UICONTROL Link to an external URL]**, enter the link address into the **[!UICONTROL URL]** field. For more on this, refer to [Adding a link](../../web/using/editing-content.md#adding-a-link).
+  To integrate an external link into the text in your delivery, select some text or a block of text then click on the first icon in the pop-up toolbar. Click **[!UICONTROL Link to an external URL]**, enter the link address into the **[!UICONTROL URL]** field. For more on this, refer to [Adding a link](editing-content.md#adding-a-link).
 
   The link can be changed at any time using the section to the right of the window.
 
@@ -96,7 +96,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Integrate a link to a Web application
 
-  The Digital Content Editor lets you integrate links to Web applications from your Adobe Campaign console, such as a landing page or a form page. For more on this, refer to [Link to a Web application](../../web/using/editing-content.md#link-to-a-web-application).
+  The Digital Content Editor lets you integrate links to Web applications from your Adobe Campaign console, such as a landing page or a form page. For more on this, refer to [Link to a Web application](editing-content.md#link-to-a-web-application).
 
   Select a text field for your link to a Web application, then click the first icon. Choose **[!UICONTROL Link to a Web application]**, then select the desired application by clicking the icon at the end of the **Web Application** field.
 

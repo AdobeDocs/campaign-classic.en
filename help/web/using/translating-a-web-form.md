@@ -45,7 +45,7 @@ The **[!UICONTROL Translations]** tab lets you enter translations for the charac
 
 The first time you open this tab it won't contain any data. Click the **[!UICONTROL Collect the strings to translate]** link to update the strings in the Web application.
 
-Adobe Campaign collects labels of fields and strings defined in the **[!UICONTROL Texts]** tabs of all static elements: HTML blocks, Javascript, etc. Static elements are detailed in [Static elements in a web form](../../web/using/static-elements-in-a-web-form.md).
+Adobe Campaign collects labels of fields and strings defined in the **[!UICONTROL Texts]** tabs of all static elements: HTML blocks, Javascript, etc. Static elements are detailed in [Static elements in a web form](static-elements-in-a-web-form.md).
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 

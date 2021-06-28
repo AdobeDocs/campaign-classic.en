@@ -9,7 +9,7 @@ exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 ---
 # Track visits on a web application{#tracking-a-web-application}
 
-Adobe Campaign allows you to track and measure visits on Web application pages by inserting tracking tags. This functionality can be used for all Web application types (forms, online surveys, Web pages created using DCE, etc.).
+Adobe Campaign allows you to track and measure visits on Web application pages by inserting tracking tags. This functionality can be used for all Web application types (forms, Web pages, etc.).
 
 Thus, you can define several navigation paths and assess their success. The data recovered is then available in the reports of each application.
 
@@ -49,13 +49,11 @@ In order to identify the traffic source in a Web application, Adobe Campaign suc
 
 >[!NOTE]
 >
->Remember that anonymous tracking is only possible if the corresponding option has been activated in the deployment wizard.  
->
->For more on this, refer to the [Installation guide](../../installation/using/deploying-an-instance.md).
+>Anonymous tracking is only available if the option has been activated in the deployment wizard when installing Campaign. 
 
 ## Web applications designed with Digital Content Editor (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-When a Web application is created using the HTML content editor - **Digital Content Editor (DCE)** - tracking tags are inserted from the **[!UICONTROL Properties]** tab of the editor. For more information on the Digital Content Editor (DCE), refer to [this section](../../web/using/about-campaign-html-editor.md).
+When a Web application is created using the HTML content editor - **Digital Content Editor (DCE)** - tracking tags are inserted from the **[!UICONTROL Properties]** tab of the editor. For more information on the Digital Content Editor (DCE), refer to [this section](about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 

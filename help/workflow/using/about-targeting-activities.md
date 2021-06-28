@@ -20,7 +20,7 @@ These activities let you build one or more targets by defining sets and splittin
 * **Split**: lets you split a target into several subsets. Refer to the [Split](../../workflow/using/split.md) section.
 * **Cells**: provides a view of the various subsets in the form of data columns, and facilitates the manipulation of these subsets when there are many of them. For more on this, refer to the [Cells](../../workflow/using/cells.md) section.
 * **Offers by cell**: lets you link different offers to each subset of a population. Refer to the [Offers by cell](../../workflow/using/offers-by-cell.md) section.
-* **Survey answers**: lets you recover information collected during a survey. For more on this, refer to this [section](../../web/using/getting-started-with-surveys.md).
+* **Survey answers**: lets you recover information collected during a survey. For more on this, refer to this [section](../../surveys/using/getting-started-with-surveys.md).
 * **Delivery outline**: lets you add a delivery outline. Refer to the [Delivery outline](../../workflow/using/delivery-outline.md) section.
 * **Enrichment**: lets you add columns to a working table or workflow. Refer to the [Enrichment](../../workflow/using/enrichment.md) section.
 * **Edit schema**: lets you transform, standardize, and if necessary enrich data. For more on this, refer to the [Edit schema](../../workflow/using/edit-schema.md) section.

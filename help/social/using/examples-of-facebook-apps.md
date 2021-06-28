@@ -291,7 +291,7 @@ The **[!UICONTROL Activities]** screen of a visitor's details page contains the 
   >
   >In order for Adobe Campaign to collect a fan's check-ins, you need to click the **[!UICONTROL Subscribe]** button on the service configuration screen. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
-## How to pre-load the fields of a form using Facebook profile data {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
+## How to preload a form using Facebook profile data {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
 The **[!UICONTROL Social Marketing]** application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates (**[!UICONTROL Page]** type activities) is detailed in [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
@@ -300,3 +300,55 @@ The **[!UICONTROL Social Marketing]** application also enables you to add a butt
 >[!NOTE]
 >
 >Before you start using this function, you need to create a Facebook application and a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+
+**Preload the fields of the form with data taken from the Facebook profile**
+
+You create a web form and include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. Learn more about static elements in a web form in [this page](../../web/using/static-elements-in-a-web-form.md).
+
+When inserting a static element, the **[!UICONTROL Preload with Facebook]** option lets you insert a button into a form to preload fields using Facebook profile information. 
+
+![](assets/web_social_webapp_037.png)
+
+When a user clicks the **[!UICONTROL Fill in automatically]** button, the Facebook request for permission window opens.
+
+![](assets/web_social_webapp_029.png)
+
+>[!NOTE]
+>
+>You can change the list of extended rights when configuring the external account. If no extended rights are configured, Facebook forwards the basic profile information by default.  
+>To view the list of extended rights and their syntax, [refer to Facebook documentation](https://developers.facebook.com/docs/reference/api/permissions).
+
+If the user agrees to share their information, the fields of the form are preloaded.
+
+![](assets/web_social_webapp_030.png)
+
+For this use case, we have created a Web application made up of the following elements:
+
+* a page containing the form
+* a **[!UICONTROL Record]** activity
+* an **[!UICONTROL End]** activity
+
+![](assets/social_webapp_031.png)
+
+To add a preload button, apply the following steps:
+
+1. Create a form.
+
+   ![](assets/social_webapp_032.png)
+
+1. Go to the same level as the fields in the form and add a link.
+
+   ![](assets/social_webapp_033.png)
+
+1. Enter the label and select the **[!UICONTROL Button]** type. 
+
+   ![](assets/social_webapp_034.png)
+
+1. Go to the **[!UICONTROL Action]** field and select **[!UICONTROL Preload with Facebook]**.
+
+   ![](assets/social_webapp_035.png)
+
+1. Go to the **[!UICONTROL Application]** field and select the **[!UICONTROL Facebook Connect]** type external account created previously. For more on this, refer to [this page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+
+   ![](assets/social_webapp_036.png)
+

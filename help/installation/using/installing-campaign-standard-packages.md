@@ -62,7 +62,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Marketing resources (MRM)<br /> </td> 
-   <td> Controls marketing actions in a collaborative mode by providing management and tracking of the tasks, budgets and marketing resources. <a href="../../campaign/using/about-marketing-resource-management.md">Learn More</a> <br /> </td> 
+   <td> Controls marketing actions in a collaborative mode by providing management and tracking of the tasks, budgets and marketing resources. <a href="../../mrm/using/about-marketing-resource-management.md">Learn More</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Online surveys (Survey Manager)<br /> </td> 
-   <td> Creates and manages online forms to add or modify profile information, to subscribe, to unsubscribe or a competition entry form. Optional. <a href="../../web/using/about-surveys.md">Learn More</a> <br /> </td> 
+   <td> Creates and manages online forms to add or modify profile information, to subscribe, to unsubscribe or a competition entry form. Optional. <a href="../../surveys/using/about-surveys.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

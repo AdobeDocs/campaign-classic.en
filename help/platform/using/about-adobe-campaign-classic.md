@@ -47,7 +47,7 @@ Adobe Campaign lets you design and orchestrate targeted and personalized campaig
 
 ### Personalization and real-time interaction {#personalization-and-real-time-interaction}
 
-Attract your customers' attention and improve response rates thanks to the advanced personalization of message content and headers based on customer profiles and preferences. For more on message content management and personalization, refer to [this page](../../delivery/using/about-personalization.md). Collaborative management of content, notification and approval circuits are detailed in [this section](../../campaign/using/about-marketing-resource-management.md).
+Attract your customers' attention and improve response rates thanks to the advanced personalization of message content and headers based on customer profiles and preferences. For more on message content management and personalization, refer to [this page](../../delivery/using/about-personalization.md). Collaborative management of content, notification and approval circuits are detailed in [this section](../../mrm/using/about-marketing-resource-management.md).
 
 ### Analysis and reporting {#analysis-and-reporting}
 
@@ -65,13 +65,13 @@ The following capabilities are available. Depending on your license agreement, s
 
 * [Channels](../../delivery/using/steps-about-delivery-creation-steps.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
 * [Campaign](../../campaign/using/designing-marketing-campaigns.md) - orchestrate cross-channel campaigns,
-* [MRM](../../campaign/using/about-marketing-resource-management.md) - manage marketing resources and budgets,
+* [MRM](../../mrm/using/about-marketing-resource-management.md) - manage marketing resources and budgets,
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,
 * [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
 * [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, Twitter,
 * [Workflow](../../workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
-* [Survey Manager](../../web/using/about-surveys.md) - create online surveys and polls,
+* [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
 * [Distributed Marketing](../../campaign/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
 * [Response Manager](../../campaign/using/about-response-manager.md) - manage customer response,

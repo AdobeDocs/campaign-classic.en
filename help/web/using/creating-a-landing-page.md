@@ -41,7 +41,7 @@ You will then get the following sequencing:
 
 >[!NOTE]
 >
->For more on creating a Web application, refer to [this section](../../web/using/creating-a-new-web-application.md).
+>For more on creating a Web application, refer to [this section](creating-a-new-web-application.md).
 
 ## Step 1 - Selecting and loading templates {#step-1---selecting-and-loading-templates}
 
