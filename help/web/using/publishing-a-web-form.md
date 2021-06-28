@@ -33,7 +33,7 @@ The following identification methods are possible:
 
   ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-  Fields can be added to the form properties via the **[!UICONTROL Parameters]** tab (refer to [Adding parameters](../../web/using/defining-web-forms-properties.md#adding-parameters)). They are placed in the form URL or input zones.
+  Fields can be added to the form properties via the **[!UICONTROL Parameters]** tab (refer to [Adding parameters](defining-web-forms-properties.md#adding-parameters)). They are placed in the form URL or input zones.
 
   >[!CAUTION]
   >
@@ -75,7 +75,7 @@ There are three stages in the life cycle of a form:
 
 1. **Form Being edited**
 
-   This is the initial design phase. When a new form is created, it is in the editing phase. Access to the form, for testing purposes only, then requires the parameter **[!UICONTROL __uuid]** to be used in its URL. This URL is accessible in the **[!UICONTROL Preview]** sub-tab. See [Form URL parameters](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+   This is the initial design phase. When a new form is created, it is in the editing phase. Access to the form, for testing purposes only, then requires the parameter **[!UICONTROL __uuid]** to be used in its URL. This URL is accessible in the **[!UICONTROL Preview]** sub-tab. See [Form URL parameters](defining-web-forms-properties.md#form-url-parameters).
 
    >[!CAUTION]
    >
@@ -117,7 +117,7 @@ To be accessed by users, the form must be in production and started, i.e. within
 
 * Click the **[!UICONTROL Personalize the message displayed if the form is closed...]** link to define the error message to display if the user tries to access the form while it isn't valid.
 
-  See [Accessibility of the form](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form).
+  See [Accessibility of the form](defining-web-forms-properties.md#accessibility-of-the-form).
 
 ### Delivering a form via email {#delivering-a-form-via-email}
 
@@ -129,7 +129,7 @@ When you deliver an invitation via email, you can use the **[!UICONTROL Adobe Ca
 
 In this case, the reconciliation key for data storage must be the recipient's encrypted identifier. For more on this, refer to [Pre-loading the form data](#pre-loading-the-form-data).
 
-In this case, you need to check the **[!UICONTROL Update the preloaded record]** option in the record box. For more on this, refer to [Saving Web forms answers](../../web/using/web-forms-answers.md#saving-web-forms-answers).
+In this case, you need to check the **[!UICONTROL Update the preloaded record]** option in the record box. For more on this, refer to [Saving Web forms answers](web-forms-answers.md#saving-web-forms-answers).
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 

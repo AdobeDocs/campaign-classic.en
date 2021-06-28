@@ -40,7 +40,7 @@ To insert a database field, use the personalization button.
 
 >[!NOTE]
 >
->The strings entered in the HTML editor are only translated if they are defined in the **[!UICONTROL Texts]** sub-tab. Otherwise they will not be collected. For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
+>The strings entered in the HTML editor are only translated if they are defined in the **[!UICONTROL Texts]** sub-tab. Otherwise they will not be collected. For more on this, refer to [Translating a web form](translating-a-web-form.md).
 
 ### Inserting a link {#inserting-a-link}
 
@@ -79,7 +79,7 @@ You can define other actions for the link, so that the user can click the link t
 
   ![](assets/s_ncs_admin_survey_link_next.png)
 
-  You can hide the **[!UICONTROL Next]** and/or **[!UICONTROL Back]** buttons if they are to be replaced by a link. Refer to this [page](../../web/using/defining-web-forms-page-sequencing.md).
+  You can hide the **[!UICONTROL Next]** and/or **[!UICONTROL Back]** buttons if they are to be replaced by a link. Refer to this [page](defining-web-forms-page-sequencing.md).
 
   The link will replace the **[!UICONTROL Next]** button used by default.
 
@@ -101,7 +101,7 @@ You can define other actions for the link, so that the user can click the link t
 
   >[!NOTE]
   >
-  >For more on page sequencing in a Web form, refer to [Defining web forms page sequencing](../../web/using/defining-web-forms-page-sequencing.md).
+  >For more on page sequencing in a Web form, refer to [Defining web forms page sequencing](defining-web-forms-page-sequencing.md).
 
 * Preload the fields of the form with data taken from the Facebook profile
 
@@ -162,7 +162,7 @@ You can personalize the HTML content of a form page with data recorded in a prev
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-Use personalization fields to re-inject the user name and selected brand into the next page. The syntax to use depends on the information storage mode. For more on this, refer to [Using collected information](../../web/using/web-forms-answers.md#using-collected-information).
+Use personalization fields to re-inject the user name and selected brand into the next page. The syntax to use depends on the information storage mode. For more on this, refer to [Using collected information](web-forms-answers.md#using-collected-information).
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ This produces the following result:
 
 The **[!UICONTROL Text]** tab lets you create variable fields which can be used in the HTML between the <%= and %> characters with the following syntax: **$(IDENTIFIER)**.
 
-Use this method to easily have your strings localized. See [Translating a web form](../../web/using/translating-a-web-form.md)
+Use this method to easily have your strings localized. See [Translating a web form](translating-a-web-form.md)
 
 For example, you can create a **Contact** field that will enable you to display the "Date of last contact:" string to the HTML content. To do this, follow the steps below:
 
@@ -208,7 +208,7 @@ For example, you can create a **Contact** field that will enable you to display 
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-This operating mode lets you define the text of Web forms only once, and manage translations using the integrated translation tool. For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
+This operating mode lets you define the text of Web forms only once, and manage translations using the integrated translation tool. For more on this, refer to [Translating a web form](translating-a-web-form.md).
 
 ## Inserting images {#inserting-images}
 

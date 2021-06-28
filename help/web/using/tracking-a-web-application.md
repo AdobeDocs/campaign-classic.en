@@ -55,7 +55,7 @@ In order to identify the traffic source in a Web application, Adobe Campaign suc
 
 ## Web applications designed with Digital Content Editor (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-When a Web application is created using the HTML content editor - **Digital Content Editor (DCE)** - tracking tags are inserted from the **[!UICONTROL Properties]** tab of the editor. For more information on the Digital Content Editor (DCE), refer to [this section](../../web/using/about-campaign-html-editor.md).
+When a Web application is created using the HTML content editor - **Digital Content Editor (DCE)** - tracking tags are inserted from the **[!UICONTROL Properties]** tab of the editor. For more information on the Digital Content Editor (DCE), refer to [this section](about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 

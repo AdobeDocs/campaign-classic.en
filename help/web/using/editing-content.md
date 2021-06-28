@@ -242,7 +242,7 @@ By default, the fields offered are from the **[!UICONTROL Recipient]** table. Wh
 
 The field name appears in the editor, highlighted in yellow. It will be replaced by the profile of the targeted recipient when the personalization is generated (for example, when previewing a landing page).
 
-An example is presented in the [Inserting a personalization field](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) section.
+An example is presented in the [Inserting a personalization field](creating-a-landing-page.md#inserting-a-personalization-field) section.
 
 ### Inserting a personalization block {#inserting-a-personalization-block}
 

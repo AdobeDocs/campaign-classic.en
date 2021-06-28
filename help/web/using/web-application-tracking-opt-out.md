@@ -27,7 +27,7 @@ Adobe Campaign is delivered with a sample banner that you must adapt to your nee
 >
 >To create your own banner, you must personalize the out-of-the-box banner.
 
-To activate the banner, you have to configure the Web application properties. Refer to the [Designing a web application](../../web/using/designing-a-web-application.md) section.
+To activate the banner, you have to configure the Web application properties. Refer to the [Designing a web application](designing-a-web-application.md) section.
 
 If the Web tracking is activated, you can either have:
 
@@ -59,7 +59,7 @@ The default banner has the following structure:
 
 You must replace the **Please insert your message here** with the block containing your tracking information. This replacement should be executed in your new personalization block related to the Opt-out banner.
 
-The banner is delivered with a specific CSS. However, you can overwrite the styles when creating and configuring a webpage. Refer to [this page](../../web/using/content-editor-interface.md).
+The banner is delivered with a specific CSS. However, you can overwrite the styles when creating and configuring a webpage. Refer to [this page](content-editor-interface.md).
 
 ## Setting the opt-out cookie using API {#setting-the-opt-out-cookie-using-api}
 

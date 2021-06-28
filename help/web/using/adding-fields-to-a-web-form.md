@@ -30,7 +30,7 @@ The following types of field are available:
 * Download button. [Uploading a file](#uploading-a-file).
 * Hidden constant. See [Inserting a hidden constant](#inserting-a-hidden-constant).
 
-Please specify the response storage mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
+Please specify the response storage mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to [Response storage fields](web-forms-answers.md#response-storage-fields).
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Five different types of text fields can be inserted into a form page:
 
 * **Number**: lets the user enter a number on one line. for more on this, refer to [Adding numbers](#adding-numbers).
 
-  When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to [Defining control settings](../../web/using/form-rendering.md#defining-control-settings).
+  When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to [Defining control settings](form-rendering.md#defining-control-settings).
 
 * **Password**: lets the user enter text on a single line. During text entry, the characters are replaced by periods:
 
@@ -111,9 +111,9 @@ The answer storage mode can be altered via the **[!UICONTROL Edit storage...]** 
 
 >[!NOTE]
 >
->Storage modes are detailed in [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields)
+>Storage modes are detailed in [Response storage fields](web-forms-answers.md#response-storage-fields)
 
-The **[!UICONTROL Advanced]** tab lets you define display parameters for the field (position of labels, alignment, etc.). See [Defining web forms layout](../../web/using/defining-web-forms-layout.md).
+The **[!UICONTROL Advanced]** tab lets you define display parameters for the field (position of labels, alignment, etc.). See [Defining web forms layout](defining-web-forms-layout.md).
 
 ## Adding drop-down lists {#adding-drop-down-lists}
 
@@ -199,7 +199,7 @@ To add a radio button to a form page, go to the **[!UICONTROL Selection controls
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-Radio buttons are configured in a similar way to checkboxes (see [Adding checkboxes](#adding-checkboxes)). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
+Radio buttons are configured in a similar way to checkboxes (see [Adding checkboxes](#adding-checkboxes)). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See [Response storage fields](web-forms-answers.md#response-storage-fields).
 
 ### Add a list of buttons {#add-a-list-of-buttons}
 
@@ -232,7 +232,7 @@ Only one option can be selected per grid line.
 
 >[!NOTE]
 >
->In our example, the label of the grid is hidden. To do this, go to the **[!UICONTROL Advanced]** tab, the **[!UICONTROL Label position]** display is defined as **[!UICONTROL Hidden]** . See [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
+>In our example, the label of the grid is hidden. To do this, go to the **[!UICONTROL Advanced]** tab, the **[!UICONTROL Label position]** display is defined as **[!UICONTROL Hidden]** . See [Defining the position of labels](defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Adding dates and numbers {#adding-dates-and-numbers}
 
@@ -258,7 +258,7 @@ Dates can be selected via a calendar or drop-down boxes. You can also enter them
 
 >[!NOTE]
 >
->By default, dates used in forms are entered via a calendar. For multilingual forms, please check that calendars are available in all the languages used. See [Translating a web form](../../web/using/translating-a-web-form.md).
+>By default, dates used in forms are entered via a calendar. For multilingual forms, please check that calendars are available in all the languages used. See [Translating a web form](translating-a-web-form.md).
 
 However in some cases, (for entering dates of birth, for instance) it may be easier to use drop-down lists. 
 

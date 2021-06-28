@@ -23,15 +23,15 @@ This template determines the type of Web application. You can create:
 
 1. Web forms (+ profile modification)
 
-   Web forms enable you to offer Web pages with input or selection fields: the information entered by users can be stored in the Adobe Campaign database. For more on this, refer to [Web forms](../../web/using/about-web-forms.md).
+   Web forms enable you to offer Web pages with input or selection fields: the information entered by users can be stored in the Adobe Campaign database. For more on this, refer to [Web forms](about-web-forms.md).
 
 1. Web applications
 
-   Adobe Campaign lets you create Web applications to be exposed on a Web platform or an extranet for instance. This enables you to edit data and record information in Adobe Campaign. In this case, you can restrict their access to authenticated users (via access control) and set up data preloading based on various criteria. For more on this, refer to [this section](../../web/using/about-web-applications.md).
+   Adobe Campaign lets you create Web applications to be exposed on a Web platform or an extranet for instance. This enables you to edit data and record information in Adobe Campaign. In this case, you can restrict their access to authenticated users (via access control) and set up data preloading based on various criteria. For more on this, refer to [this section](about-web-applications.md).
 
 1. Landing pages
 
-   A landing page is an HTML page whose content is available on a Website and which enables users to enter information to be stored in the Adobe Campaign database profile. The content of this type of page is usually created by a specialized Web agency before being imported into Adobe Campaign for publication, management and follow-up. For more on this, refer to [this page](../../web/using/creating-a-landing-page.md).
+   A landing page is an HTML page whose content is available on a Website and which enables users to enter information to be stored in the Adobe Campaign database profile. The content of this type of page is usually created by a specialized Web agency before being imported into Adobe Campaign for publication, management and follow-up. For more on this, refer to [this page](creating-a-landing-page.md).
 
 1. Surveys
 
@@ -49,4 +49,4 @@ This template determines the type of Web application. You can create:
    >
    >**Social Marketing** is an optional Adobe Campaign module. Please check your license agreement.
 
-The page configuration mode as well as available configurations can be identical for several Web application types. For more on this, refer to [this section](../../web/using/about-web-forms.md).
+The page configuration mode as well as available configurations can be identical for several Web application types. For more on this, refer to [this section](about-web-forms.md).
