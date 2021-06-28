@@ -24,7 +24,7 @@ The following types of field are available:
   >
   >On the server side, the script can use the functions defined in [Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-## Inserting HTML content {#inserting-html-content}
+## Insert HTML content {#inserting-html-content}
 
 You can include HTML content in a form page: hypertext links, images, formatted paragraphs, videos, etc.
 
@@ -42,7 +42,7 @@ To insert a database field, use the personalization button.
 >
 >The strings entered in the HTML editor are only translated if they are defined in the **[!UICONTROL Texts]** sub-tab. Otherwise they will not be collected. For more on this, refer to [Translating a web form](translating-a-web-form.md).
 
-### Inserting a link {#inserting-a-link}
+### Insert a link {#inserting-a-link}
 
 Fill in the fields in the editing window as shown in the following example:
 
@@ -103,60 +103,7 @@ You can define other actions for the link, so that the user can click the link t
   >
   >For more on page sequencing in a Web form, refer to [Defining web forms page sequencing](defining-web-forms-page-sequencing.md).
 
-* Preload the fields of the form with data taken from the Facebook profile
-
-  >[!CAUTION]
-  >
-  >This function is only available if you have installed the **[!UICONTROL Social Marketing]** application. To use this option, you need to create a Facebook application along with a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [this page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-  The **[!UICONTROL Preload with Facebook]** option lets you insert a button into a form to preload fields using Facebook profile information. 
-
-  ![](assets/web_social_webapp_037.png)
-
-  When a user clicks the **[!UICONTROL Fill in automatically]** button, the Facebook request for permission window opens.
-
-  ![](assets/web_social_webapp_029.png)
-
-  >[!NOTE]
-  >
-  >It's possible to change the list of extended rights when configuring the external account. If you don't enter any extended rights, Facebook forwards the basic profile information by default.  
-  >To view the list of extended rights and their syntax, click here: [https://developers.facebook.com/docs/reference/api/permissions/](https://developers.facebook.com/docs/reference/api/permissions/)
-
-  If the user agrees to share their information, the fields of the form are preloaded.
-
-  ![](assets/web_social_webapp_030.png)
-
-For this use case, we have created a Web application made up of the following elements:
-
-* a page containing the form
-* a **[!UICONTROL Record]** activity
-* an **[!UICONTROL End]** activity
-
-![](assets/social_webapp_031.png)
-
-To add a preload button, apply the following steps:
-
-1. Create a form.
-
-   ![](assets/social_webapp_032.png)
-
-1. Go to the same level as the fields in the form and add a link.
-
-   ![](assets/social_webapp_033.png)
-
-1. Enter the label and select the **[!UICONTROL Button]** type. 
-
-   ![](assets/social_webapp_034.png)
-
-1. Go to the **[!UICONTROL Action]** field and select **[!UICONTROL Preload with Facebook]**.
-
-   ![](assets/social_webapp_035.png)
-
-1. Go to the **[!UICONTROL Application]** field and select the **[!UICONTROL Facebook Connect]** type external account created previously. For more on this, refer to [this page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-   ![](assets/social_webapp_036.png)
-
-### Personalizing HTML content {#personalizing-html-content}
+### Personalize HTML content {#personalizing-html-content}
 
 You can personalize the HTML content of a form page with data recorded in a previous page. For example, you can create a car insurance Web form whose first page lets you provide contact information and the brand of the car.
 
@@ -181,7 +128,7 @@ This produces the following result:
 
 ![](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
-### Using text variables {#using-text-variables}
+### Use text variables {#using-text-variables}
 
 The **[!UICONTROL Text]** tab lets you create variable fields which can be used in the HTML between the <%= and %> characters with the following syntax: **$(IDENTIFIER)**.
 
@@ -210,7 +157,7 @@ For example, you can create a **Contact** field that will enable you to display 
 
 This operating mode lets you define the text of Web forms only once, and manage translations using the integrated translation tool. For more on this, refer to [Translating a web form](translating-a-web-form.md).
 
-## Inserting images {#inserting-images}
+## Insert images {#inserting-images}
 
 For images to be included in forms, they must be saved on a server that is accessible from outside.
 

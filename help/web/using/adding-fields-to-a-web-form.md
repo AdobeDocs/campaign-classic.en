@@ -84,7 +84,7 @@ Five different types of text fields can be inserted into a form page:
 
   >[!CAUTION]
   >
-  >Multi-line text fields are specific fields that can contain carriage returns. Their storage space must be associated with a field mapped on an XML element, not an XML attribute. For more on the types of data in schemas, refer to the "Schema reference" chapter in [this section](../../configuration/using/about-schema-reference.md).
+  >Multi-line text fields are specific fields that can contain carriage returns. Their storage space must be associated with a field mapped on an XML element, not an XML attribute.
   >   
 
 * **Enriched multi-line text**: lets the user enter text with a layout which will be stored in HTML format.
