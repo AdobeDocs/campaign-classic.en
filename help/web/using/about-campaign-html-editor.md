@@ -15,7 +15,7 @@ With the Digital Content Editor, you can insert and format page elements, and ma
 
 >[!NOTE]
 >
->If you need to add server-side JavaScript code, use personalization blocks. [Learn more](personalization-blocks.md).
+>If you need to add server-side JavaScript code, use personalization blocks. [Learn more](../../delivery/using/personalization-blocks.md).
 
 >[!CAUTION]
 >
