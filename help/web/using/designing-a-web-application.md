@@ -9,19 +9,13 @@ exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 ---
 # Design a web application{#designing-a-web-application}
 
-Web applications are created and managed according to the same principle as [online surveys](../../surveys/using/about-surveys.md).
-
-However, the functional differences are as follows:
-
-* Web applications use no archived fields. Data can therefore be stored in database fields or local variables only.
-* There are no built-in reports on Web applications.
-* Additional fields are offered, mainly for creating tables and charts.
+Web applications are created and managed according to the same principle as [web forms](../../web/using/about-web-forms.md).
 
 >[!CAUTION]
 >
->It is highly recommended that the configurations applied be continually checked in order to detect any errors early in the Web application construction process. To check the rendering of a modification, save the application, then click the **[!UICONTROL Preview]** sub-tab.   
+>Use the **[!UICONTROL Preview]** sub-tab to check errors during web application design.
 >
->Until the Web application is published, the changes cannot be seen by the end user.
+>Until the Web application is published, changes are not exposed to end users.
 
 ## Inserting charts in a Web application {#inserting-charts-in-a-web-application}
 
@@ -64,4 +58,3 @@ Edit form Web applications for an extranet are characterized by:
 
   Whereas "Overview"-type Web applications all have a single page, edit forms can offer a sequence of pages based on specific criteria (tests, selections, profile of connected operator, etc.).
 
-The operation of this type of Web application is similar to **Surveys**, but without history management or field archiving. Users usually access it via a login page where they must identify themselves.

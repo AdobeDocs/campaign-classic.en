@@ -366,7 +366,7 @@ You can specify multiple URL masks by using a comma to separate each of them.
 
 ### Publication modes {#publication-modes}
 
-The lower section of the wizard enables you to select the publication options of public resources and images. These options are also available for Web forms and surveys.
+The lower section of the wizard enables you to select the publication options of public resources and images.
 
 The following publication modes are available:
 

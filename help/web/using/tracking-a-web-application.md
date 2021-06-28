@@ -9,7 +9,7 @@ exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 ---
 # Track visits on a web application{#tracking-a-web-application}
 
-Adobe Campaign allows you to track and measure visits on Web application pages by inserting tracking tags. This functionality can be used for all Web application types (forms, online surveys, Web pages created using DCE, etc.).
+Adobe Campaign allows you to track and measure visits on Web application pages by inserting tracking tags. This functionality can be used for all Web application types (forms, Web pages, etc.).
 
 Thus, you can define several navigation paths and assess their success. The data recovered is then available in the reports of each application.
 

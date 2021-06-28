@@ -23,6 +23,6 @@ To enable anonymous Web tracking on your instance, the following elements must b
 
   ![](assets/webtracking_anonymous_set.png)
 
-* Web forms and surveys must be published and executed on the tracking server. The matching option must be selected in the deployment wizard.
+* Web forms must be published and executed on the tracking server. The matching option must be selected in the deployment wizard.
 
   ![](assets/webtracking_publication_set_for_webapps.png)

@@ -37,13 +37,13 @@ Delivery logs and tracking logs are deleted after a certain period, which is spe
 
 Finally, part of the data model consists in technical data used for the applicative process, including operators and user rights (**NmsGroup**), folders (**XtkFolder**).
 
-## Using the default Recipient table {#default-recipient-table}
+## Using the built-in Recipient table {#default-recipient-table}
 
-The out-of-the-box Recipient table in Adobe Campaign provides a good starting point for building your data model. It has a number of predefined fields and table links that can be easily extended. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric data model.
+The built-in Recipient table in Adobe Campaign provides a good starting point for building your data model. It has a number of predefined fields and table links that can be easily extended. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric data model.
 
-The benefits of using the standard Recipient table are as follows:
+The benefits of using the built-in Recipient table are as follows:
 
-* Working out-of-the-box with functionalities such as subscriptions, seed lists, surveys, social, and so on.
+* Working built-in with functionalities such as subscriptions, seed lists, and more.
 * Providing a marketing database with a recipient-centric data model.
 * Faster implementation.
 * Easy maintainance by support and partners.
