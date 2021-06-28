@@ -28,7 +28,7 @@ The **[!UICONTROL Browsing]** block of the **[!UICONTROL Campaigns]** tab offers
 * **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](#campaign-calendar).
 * **Campaigns**: access to the campaigns contained in all marketing programs.
 * **Deliveries**: access to the deliveries linked to the campaigns.
-* **Web Applications**: access to web applications (forms, surveys, etc.).
+* **Web Applications**: access to web applications (forms, landing pages, etc.).
 
 >[!NOTE]
 >

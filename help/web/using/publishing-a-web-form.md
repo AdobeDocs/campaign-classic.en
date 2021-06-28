@@ -148,7 +148,3 @@ Select a recipient and click the **[!UICONTROL Detail...]** button to view the r
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 You can process the response logs provided in queries, for instance to target only non-respondents when sending reminders, or to offer specific communications to respondents only.
-
->[!NOTE]
->
->For a complete tracking of the responses provided, export the responses and view or create dedicated reports, use the optional **Survey** module. For more on this, refer to [this section](../../surveys/using/about-surveys.md).

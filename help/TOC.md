@@ -322,7 +322,6 @@ type: Documentation
        + [Create indicators](reporting/using/creating-indicators.md)
        + [Use cubes to explore data](reporting/using/using-cubes-to-explore-data.md)
        + [Concepts and methodology](reporting/using/concepts-and-methodology.md)
-       + [Use case: display report on answers to an online survey](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Design web content {#designing-content}
   + Web applications {#web-applications}
        + [Get started with web applications](web/using/about-web-applications.md)
@@ -361,6 +360,7 @@ type: Documentation
   + [Publish, track and use collected data](surveys/using/publish--track-and-use-collected-data.md)
   + [Configure surveys](surveys/using/configuring-surveys.md)
   + [Use case: create a referral form](surveys/using/use-case--creating-a-refer-a-friend-form.md)
+  + [Use case: display report on answers to an online survey](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}

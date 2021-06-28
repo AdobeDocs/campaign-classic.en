@@ -39,7 +39,7 @@ Learn how to [explore your data](../../reporting/using/using-cubes-to-explore-da
 
 ## Can I create a report from answers to an online survey? {#can-i-create-a-report-from-answers-to-an-online-survey-}
 
-Read out [this use case](../../reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md) to learn how to design a report to display answers to an online survey.
+Read out [this use case](../../surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md) to learn how to design a report to display answers to an online survey.
 
 ## How can I share access to my report in Campaign interface? {#how-can-i-share-access-to-my-report}
 
