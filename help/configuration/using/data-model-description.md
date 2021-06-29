@@ -135,7 +135,7 @@ This set of tables is linked to the **Campaign Optimization** module, which allo
 
 ## Response management {#response-management}
 
-This set of tables is linked to the **Response Manager** module, which allows to measure the success and profitability of marketing campaigns or offer propositions for all communication channels. For more on this, see [About response manager](../../campaign/using/about-response-manager.md).
+This set of tables is linked to the **Response Manager** module, which allows to measure the success and profitability of marketing campaigns or offer propositions for all communication channels. For more on this, see [About response manager](../../response/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 
