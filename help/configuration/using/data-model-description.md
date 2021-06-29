@@ -123,7 +123,7 @@ This set of tables is linked to the **Marketing campaigns** module, which allows
 
 ## Communication consistency {#communication-consistency}
 
-This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. For more on this, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
+This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. For more on this, see [About campaign typologies](../../campaign-opt/using/about-campaign-typologies.md).
 
 ![](assets/data-model_typology.png)
 

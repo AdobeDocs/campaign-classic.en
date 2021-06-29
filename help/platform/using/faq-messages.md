@@ -46,7 +46,7 @@ To detect possible errors in message configuration, Adobe highly recommend setti
 
 To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies.
 
-[Click here to learn more](../../campaign/using/about-campaign-typologies.md).
+[Click here to learn more](../../campaign-opt/using/about-campaign-typologies.md).
 
 ## Send your messages {#send-your-messages}
 

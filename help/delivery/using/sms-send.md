@@ -160,4 +160,4 @@ The sender name for this type of message is a short code usually used to send de
 >
 >These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard. [Learn more](delivery-dashboard.md).
 >
->These messages are not taken into account in the commercial pressure rules. [Learn more](../../campaign/using/pressure-rules.md).
+>These messages are not taken into account in the commercial pressure rules. [Learn more](../../campaign-opt/using/pressure-rules.md).
