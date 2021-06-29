@@ -173,7 +173,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Central/local Marketing (Distributed Marketing)<br /> </td> 
-   <td> Implements cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Optional. <a href="../../campaign/using/about-distributed-marketing.md">Learn More</a><br /> </td> 
+   <td> Implements cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Optional. <a href="../../distributed/using/about-distributed-marketing.md">Learn More</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 

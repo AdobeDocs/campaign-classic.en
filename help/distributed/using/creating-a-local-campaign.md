@@ -59,7 +59,7 @@ There are four types of web interfaces available:
 
   ![](assets/mkt_distr_8.png)
 
-  The form offered is specified in a web application that must be selected in a drop-down list from the **[!UICONTROL web Interface]** field in the template's **[!UICONTROL Advanced campaign settings...]** link. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+  The form offered is specified in a web application that must be selected in a drop-down list from the **[!UICONTROL web Interface]** field in the template's **[!UICONTROL Advanced campaign settings...]** link. Refer to [Creating a local campaign (by form)](examples.md#creating-a-local-campaign--by-form-).
 
   >[!NOTE]
   >
@@ -210,7 +210,7 @@ From the **[!UICONTROL General]** tab, the central entity can:
 
 ### Notifications {#notifications}
 
-When a campaign becomes available or when the registration deadline is reached, a message is sent to the operators of the local notification group. For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+When a campaign becomes available or when the registration deadline is reached, a message is sent to the operators of the local notification group. For more on this, refer to [Organizational entities](about-distributed-marketing.md#organizational-entities).
 
 ## Ordering a campaign {#ordering-a-campaign}
 
@@ -262,7 +262,7 @@ To order a campaign:
 
    For more on this, refer to the [Approval process](#approval-process) section.
 
-1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** tab. The campaign can then be used. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** tab. The campaign can then be used. For more on this, refer to [Accessing campaigns](accessing-campaigns.md).
 
    The **[!UICONTROL Start targeting with order approval]** option lets the local entity run the campaign as soon as the order has been approved.
 
@@ -308,7 +308,7 @@ Once a campaign order is approved, it may be configured and executed by the loca
 
 ![](assets/mkg_dist_mutual_op_created.png)
 
-For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+For more on this, refer to [Accessing campaigns](accessing-campaigns.md).
 
 ### Rejecting an approval {#rejecting-an-approval}
 
@@ -330,7 +330,7 @@ They can view the related comment in the campaign package's **[!UICONTROL Edit]*
 
 Every time an approval is required, reviewers are notified by email.
 
-For each local entity, reviewers are selected for campaign order approval and campaign approval. For more information on selecting local reviewers, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+For each local entity, reviewers are selected for campaign order approval and campaign approval. For more information on selecting local reviewers, refer to [Organizational entities](about-distributed-marketing.md#organizational-entities).
 
 >[!NOTE]
 >

@@ -29,7 +29,7 @@ A notification message is then sent to the reviewer to confirm the availability 
 
 >[!NOTE]
 >
->At the organizational entity level, you may also specify reviewers to approve orders. For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+>At the organizational entity level, you may also specify reviewers to approve orders. For more on this, refer to [Organizational entities](about-distributed-marketing.md#organizational-entities).
 
 ## Adding other reviewers {#adding-other-reviewers}
 
@@ -55,4 +55,4 @@ If no reviewer has been specified or if none of the notified operators have appr
 
 ![](assets/s_advuser_mkg_dist_valid_button.png)
 
-After approval, the campaign is published, added to the list and, as soon as its availability date is reached, local entities may use it. If the local entities were specified when creating the campaign, a message is sent to the operators in the notification group to let them know that the campaign is available. If no entity was specified beforehand, the campaign is available to all local entities, by default. For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+After approval, the campaign is published, added to the list and, as soon as its availability date is reached, local entities may use it. If the local entities were specified when creating the campaign, a message is sent to the operators in the notification group to let them know that the campaign is available. If no entity was specified beforehand, the campaign is available to all local entities, by default. For more on this, refer to [Organizational entities](about-distributed-marketing.md#organizational-entities).

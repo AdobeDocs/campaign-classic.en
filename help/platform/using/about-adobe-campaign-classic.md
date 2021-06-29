@@ -73,7 +73,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
 * [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
-* [Distributed Marketing](../../campaign/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
+* [Distributed Marketing](../../distributed/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
 * [Response Manager](../../campaign/using/about-response-manager.md) - manage customer response,
 * [Connectors](../../platform/using/about-connectors.md) - use connectors to communicate with external solutions and database engines,
 * [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,

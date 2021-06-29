@@ -39,7 +39,7 @@ To create a new operator and grant permissions, follow the steps below:
 
 1. Specify the **[!UICONTROL Identification parameters]** of the user: its login, password and name. The login and password will be used by the operator to log on to Adobe Campaign. Once the user is logged on, they can change their password via the **[!UICONTROL Tools > Change password]** menu. The email of the operator is essential as it enables the operator to receive notifications, for instance when processing approvals.
 
-   This section also enables you to link an operator to an organizational entity. For more on this, refer to the [this page](../../campaign/using/about-distributed-marketing.md).
+   This section also enables you to link an operator to an organizational entity. For more on this, refer to the [this page](../../distributed/using/about-distributed-marketing.md).
 
 1. Select the permissions granted to the operator in the **[!UICONTROL Operator access rights]** section.
 

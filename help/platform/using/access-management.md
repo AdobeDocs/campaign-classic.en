@@ -45,7 +45,7 @@ Learn how to grant access and set up permissions in these sections:
 See also:
 
 * [Manage permissions for workflows](../../workflow/using/managing-rights.md)
-* [Manage permissions for distributed marketing](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
+* [Manage permissions for distributed marketing](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
 * [Manage permissions for the interaction module](../../interaction/using/operator-profiles.md)
 * [Filter access to schemas](../../configuration/using/filtering-schemas.md)
 * [Restricting PI view](../../configuration/using/restricting-pii-view.md)

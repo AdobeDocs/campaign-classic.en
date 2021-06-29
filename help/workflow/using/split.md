@@ -143,7 +143,7 @@ The data distribution template lets you limit the number of records using a list
     * **[!UICONTROL Targeting dimension]**: enter the targeting dimension to which the data distribution will be applied, **[!UICONTROL Recipient]** for instance. This schema must always be compatible with the data used in the targeting workflow.
     * **[!UICONTROL Distribution field]**: select a field via the targeting dimension. For instance, if you select the **[!UICONTROL Email domain]** field, the list of recipients will be broken down by domain.
     * **[!UICONTROL Distribution type]**: select the way the limitation value of the target will be broken down in the **[!UICONTROL Distribution]** tab: **[!UICONTROL Percentage]** or **[!UICONTROL Set]**.
-    * **[!UICONTROL Assignment type]**: select the data distribution assignment type. You can choose between assignment by group or operator or assignment by local entity. Assignment by local entity is used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
+    * **[!UICONTROL Assignment type]**: select the data distribution assignment type. You can choose between assignment by group or operator or assignment by local entity. Assignment by local entity is used in **Distributed Marketing**. For more information, refer to this [section](../../distributed/using/about-distributed-marketing.md).
     * **[!UICONTROL Approval storage]**: if you use a **[!UICONTROL Local approval]** activity in your targeting workflow (refer to [Local approval](local-approval.md)), enter the schema in which the approval results will be stored. You must specify one storage schema per targeting schema. If you use the **[!UICONTROL Recipients]** targeting schema, enter the default **[!UICONTROL Local approval of recipients]** storage schema.
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Approvals storage]** field.
@@ -192,7 +192,7 @@ The data distribution template lets you limit the number of records using a list
       >
       >Make sure the operators have been assigned the appropriate rights.
 
-    * **[!UICONTROL Local entity]**: select the local entity assigned to each distribution value. Local entities are used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
+    * **[!UICONTROL Local entity]**: select the local entity assigned to each distribution value. Local entities are used in **Distributed Marketing**. For more information, refer to this [section](../../distributed/using/about-distributed-marketing.md).
 
 ## Filtering parameters {#filtering-parameters}
 

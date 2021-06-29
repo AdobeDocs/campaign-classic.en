@@ -9,7 +9,7 @@ exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 ---
 # Creating a collaborative campaign{#creating-a-collaborative-campaign-intro}
 
-The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](../../campaign/using/about-distributed-marketing.md#collaborative-campaign).
+The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](about-distributed-marketing.md#collaborative-campaign).
 
 ## Creating a collaborative campaign {#creating-a-collaborative-campaign}
 
@@ -29,7 +29,7 @@ To create a collaborative campaign (by form), the **[!UICONTROL Collaborative ca
 
 In the **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to access the **Distributed Marketing** tab.
 
-Select the **By form** web interface. This type of interface lets you create personalization fields that will be used by local entities when ordering a campaign. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+Select the **By form** web interface. This type of interface lets you create personalization fields that will be used by local entities when ordering a campaign. Refer to [Creating a local campaign (by form)](examples.md#creating-a-local-campaign--by-form-).
 
 Save your campaign. You can now use it from the **Campaign packages** view in the **Campaign** tab, by clicking the **[!UICONTROL Create]** button.
 
@@ -145,7 +145,7 @@ In automatic mode, the local entity is pre-subscribed for the campaign. It may c
 
 ### Notifications {#notifications}
 
-Configuration for notifications is identical to notifications for a local entity. Refer to [this section](../../campaign/using/creating-a-local-campaign.md#notifications).
+Configuration for notifications is identical to notifications for a local entity. Refer to [this section](creating-a-local-campaign.md#notifications).
 
 ## Ordering a campaign {#ordering-a-campaign}
 
@@ -163,8 +163,8 @@ After a local entity has completed their registration, central entities are noti
 
 ![](assets/mkg_dist_mutual_op_valid_command.png)
 
-For more on this, refer to the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+For more on this, refer to the [Approval process](creating-a-local-campaign.md#approval-process) section.
 
 ## Approving an order {#approving-an-order}
 
-The process for approving a collaborative campaign package order is the same as when doing so for a local campaign. Refer to [this section](../../campaign/using/creating-a-local-campaign.md#approving-an-order).
+The process for approving a collaborative campaign package order is the same as when doing so for a local campaign. Refer to [this section](creating-a-local-campaign.md#approving-an-order).
