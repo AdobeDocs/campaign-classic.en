@@ -280,11 +280,11 @@ type: Documentation
   + [Track a campaign](distributed/using/tracking-a-campaign.md)
   + [Use cases](distributed/using/examples.md)
 + Response manager {#response-manager}
-  + [Get started with response manager](campaign/using/about-response-manager.md)
-  + [Configuration](campaign/using/configuration.md)
-  + [Hypothesis templates](campaign/using/hypothesis-templates.md)
-  + [Create hypotheses](campaign/using/creating-hypotheses.md)
-  + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
+  + [Get started with response manager](response/using/about-response-manager.md)
+  + [Configuration](response/using/configuration.md)
+  + [Hypothesis templates](response/using/hypothesis-templates.md)
+  + [Create hypotheses](response/using/creating-hypotheses.md)
+  + [Hypothesis tracking](response/using/hypothesis-tracking.md)
 + Design and share reports {#reporting}
   + Get started with reporting {#reporting-in-adobe-campaign}
        + [Reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)

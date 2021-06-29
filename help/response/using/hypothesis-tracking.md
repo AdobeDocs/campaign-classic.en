@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Hypothesis tracking
-description: Hypothesis tracking
+title: Track hypothesis
+description: Learn how to track hypothesis in Campaign Response Manager
 audience: campaign
 content-type: reference
 topic-tags: response-manager

@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Configuration
-description: Configuration
+title: Configure Campaign Response Manager
+description: Learn how to configure Campaign Response Manager
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 ---
-# Configuration{#configuration}
+# Configure Campaign Response Manager{#configuration}
 
 This section is intended for persons responsible for configuring response management. It assumes a certain amount of knowledge about extending schemas, defining workflows, and SQL programming.
 
@@ -15,11 +15,11 @@ This lets you understand how to adapt the standard data model to the specific na
 
 The measurement hypothesis is launched by the operation process workflow ( **[!UICONTROL operationMgt]** ). Each hypothesis represents a separate process executed asynchronously with an execution status (Being edited, Pending, Finished, Failed, etc.) and controlled by a scheduler that manages priority constraints, restriction of the number of simultaneous processes, the low activity page and automatic execution with frequency.
 
-## Configuring schemas {#configuring-schemas}
+## Configure schemas {#configuring-schemas}
 
 >[!CAUTION]
 >
->Do not modify the standard schemas of the application, but rather use the schema extension mechanism. Otherwise, modified schemas will not be updated at the time of future upgrades of the application. This can lead to malfunctions while using Adobe Campaign.
+>Do not modify the built-in schemas of the application, but rather use the schema extension mechanism. Otherwise, modified schemas will not be updated at the time of future upgrades of the application. This can lead to malfunctions while using Adobe Campaign.
 
 Application integration is required before using the reaction module, in order to define the various tables (transactions, transaction details) to be measured as well as their relationship with deliveries, offers and individuals.
 
@@ -47,9 +47,9 @@ The following schema shows joins between the different tables once configuration
 
 ![](assets/response_data_model.png)
 
-### Response management with Adobe Campaign recipients {#response-management-with-adobe-campaign-recipients}
+### Response management and recipients {#response-management-with-adobe-campaign-recipients}
 
-In this example, we will integrate a table of purchases in our response management module using the Adobe Campaign recipient table ( **[!UICONTROL nms:recipient]** ).
+In this example, we will integrate a table of purchases in our response management module using the Adobe Campaign built-in recipient table **[!UICONTROL nms:recipient]**.
 
 The table of response logs on a **[!UICONTROL nms:remaMatchRcp]** recipient is extended to add a link to the purchase table schema. In the following example, the purchase table is called **demo:purchase**.
 
@@ -96,7 +96,7 @@ name="remaMatchRcp" namespace="cus">
 
 In this example, we will integrate a purchase table in our response management module using a table of individuals other than the recipient table available in Adobe Campaign.
 
-* Creating a new response log schema derived from the **[!UICONTROL nms:remaMatch]** schema.
+* Create a new response log schema derived from the **[!UICONTROL nms:remaMatch]** schema.
 
   Since the table of individuals is different from the table of Adobe Campaign recipients, it is necessary to create a new schema of the response logs based on the **[!UICONTROL nms:remaMatch]** schema. Then complete it with links towards the delivery logs and the purchase table.
 
@@ -119,7 +119,7 @@ In this example, we will integrate a purchase table in our response management m
   </srcSchema>
   ```
 
-* Modifying the hypothesis form in the **[!UICONTROL nms:remaHypothesis]** schema.
+* Modify the hypothesis form in the **[!UICONTROL nms:remaHypothesis]** schema.
 
   By default, the list of response logs is visible in the recipient logs. You must therefore modify the hypothesis form in order to view the new response logs created during the previous step.
 
@@ -136,7 +136,7 @@ In this example, we will integrate a purchase table in our response management m
      </container> 
   ```
 
-## Managing indicators {#managing-indicators}
+## Manage indicators {#managing-indicators}
 
 The Response Manager module comes with a list of predefined indicators. However, you can add other personalized measurement indicators.
 
