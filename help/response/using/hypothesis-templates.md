@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Hypothesis templates
-description: Hypothesis templates
+description: Learn how to create hypothesis templates in Campaign Response Manager
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -9,7 +9,7 @@ exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 ---
 # Hypothesis templates{#hypothesis-templates}
 
-## Creating a hypothesis model {#creating-a-hypothesis-model}
+## Create a hypothesis model {#creating-a-hypothesis-model}
 
 Configuring the hypothesis template lets you define the context for measuring reactions, whether for a delivery or for an offer. This is where the various measuring tables are referenced, including those for defining relations between individuals, hypotheses and the transaction table.
 
@@ -22,20 +22,20 @@ To create a hypothesis template, apply the following steps:
 1. Click **[!UICONTROL New]** or right-click in the list of templates and choose **[!UICONTROL New]** in the drop-down list.
 1. Enter the hypothesis label.
 1. Specify whether the template is destined for hypotheses on offers or deliveries via the **[!UICONTROL Hypothesis type]**.
-1. For **[!UICONTROL Delivery]** type templates, specify whether measurements should be carried out with or without a control group (for more on this, refer to [Properties of a hypothesis template](#properties-of-a-hypothesis-template)).
-1. For **[!UICONTROL Delivery]** type templates, you can choose a specific channel or decide to apply the template to all available channels in Adobe Campaign using the **[!UICONTROL Channel]** drop-down list (for more on this, refer to [Properties of a hypothesis template](#properties-of-a-hypothesis-template)).
+1. For **[!UICONTROL Delivery]** type templates, specify whether measurements should be carried out with or without a control group. [Learn more](#properties-of-a-hypothesis-template)
+1. For **[!UICONTROL Delivery]** type templates, you can choose a specific channel or decide to apply the template to all available channels in Adobe Campaign using the **[!UICONTROL Channel]** drop-down list. [Learn more](#properties-of-a-hypothesis-template)
 1. Select the **[!UICONTROL Execution folder]** in which you wish to create and automatically execute the hypotheses that will be created from this template.
-1. Choose the execution settings (for more on this, refer to [Hypothesis template execution settings](#hypothesis-template-execution-settings)).
-1. Specify the hypothesis calculation period (for more on this, refer to [Hypothesis template execution settings](#hypothesis-template-execution-settings)).
+1. Choose the execution settings. [Learn more](#hypothesis-template-execution-settings)
+1. Specify the hypothesis calculation period. [Learn more](#hypothesis-template-execution-settings)
 
    >[!CAUTION]
    >
    >This period is determined from the contact date.
 
-1. In the **[!UICONTROL Transactions]** tab, specify the tables and fields required for the hypothesis calculation (for more on this, refer to [Transactions](#transactions)).
+1. In the **[!UICONTROL Transactions]** tab, specify the tables and fields required for the hypothesis calculation. [Learn more](#transactions)
 1. If your template is configured for **[!UICONTROL Offer]** type hypotheses, you can enable the **[!UICONTROL Update offer proposition status]** option: in this case, select the status of the offer proposition you want to change.
-1. Specify the scope of the hypothesis application (for more on this, refer to [Hypothesis perimeter](#hypothesis-perimeter)).
-1. If necessary, use a script to complete filtering (for more on this, refer to [Hypothesis perimeter](#hypothesis-perimeter)).
+1. Specify the scope of the hypothesis application. [Learn more](#hypothesis-perimeter)
+1. If necessary, use a script to complete filtering. [Learn more](#hypothesis-perimeter)
 
 ### Properties of a hypothesis template {#properties-of-a-hypothesis-template}
 
@@ -55,9 +55,9 @@ The template's **[!UICONTROL General]** tab lets you specify the general templat
   >
   >If the template is configured to take a control group into account, but no group is defined in the delivery which the hypotheses concern, the results will be based on targeted recipients only.
 
-  For more on defining and configuring a control group, refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  For more on defining and configuring a control group, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
-* **[!UICONTROL Channel]**: you can choose a specific channel or make the hypothesis template available to all channels in the Adobe Campaign console by selecting **[!UICONTROL All channels]** in the drop-down list. If you configure the template for a specific channel, this lets you automatically filter deliveries per channel when creating the hypothesis (refer to [Creating hypotheses](../../campaign/using/creating-hypotheses.md)). 
+* **[!UICONTROL Channel]**: you can choose a specific channel or make the hypothesis template available to all channels in the Adobe Campaign console by selecting **[!UICONTROL All channels]** in the drop-down list. If you configure the template for a specific channel, this lets you automatically filter deliveries per channel when creating the hypothesis. [Learn more](creating-hypotheses.md)
 
   ![](assets/response_properties_001.png)
 
@@ -105,7 +105,7 @@ The template's **[!UICONTROL General]** tab also lets you specify the hypothesis
 
 ### Transactions {#transactions}
 
-This tab contains the various fields and tables which let you save the history of recipient reactions in terms of transactions. Refer to the [Configuration](../../configuration/using/about-schema-reference.md) guide for more information on the tables dedicated to response management.
+This tab contains the various fields and tables which let you save the history of recipient reactions in terms of transactions. Refer to this [section](../../configuration/using/about-schema-reference.md) for more information on the tables dedicated to response management.
 
 * **[!UICONTROL Schema (reaction log storage)]**: select the recipient reaction table. The out-of-the-box table in Adobe Campaign is **NmsRemaMatchRcp**.
 * **[!UICONTROL Transaction schema]**: choose the table that the hypotheses will concern, i.e. the transaction or the purchase table.
@@ -119,10 +119,10 @@ This tab contains the various fields and tables which let you save the history o
 
   ![](assets/response_measurement_001.png)
 
-  If the hypothesis is launched on the fly, it can be forced if would like to trigger it immediately. Otherwise, it is triggered automatically based on the configured end of calculation date, which is based on the hypothesis creation date (refer to [Creating a hypothesis on the fly on a delivery](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
+  If the hypothesis is launched on the fly, it can be forced if would like to trigger it immediately. Otherwise, it is triggered automatically based on the configured end of calculation date, which is based on the hypothesis creation date. [Learn more](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
 
-* **[!UICONTROL Transaction/Margin amount]**: these fields are optional and enable you to calculate turnover indicators automatically (refer to [Indicators](../../campaign/using/hypothesis-tracking.md#indicators)).
-* **[!UICONTROL Unit amount]**: lets you set an amount for calculating revenue (refer to [Indicators](../../campaign/using/hypothesis-tracking.md#indicators)). 
+* **[!UICONTROL Transaction/Margin amount]**: these fields are optional and enable you to calculate turnover indicators automatically. [Learn more](hypothesis-tracking.md#indicators)
+* **[!UICONTROL Unit amount]**: lets you set an amount for calculating revenue. [Learn more](hypothesis-tracking.md#indicators)
 
   ![](assets/response_transactions_001.png)
 
@@ -135,7 +135,7 @@ This tab contains the various fields and tables which let you save the history o
 
 Once you have defined the transaction table and the fields which the hypothesis will concern, you can refine the scope of your hypotheses by specifying the targeted transactions and deliveries using filters. You can also use a JavaScript script to explicitly point to a product referenced in the transaction table.
 
-* **Filtering on transactions**: in the **[!UICONTROL Scope]** tab, you can configure a filter on the hypothesis. To do this:
+* **Filter on transactions**: in the **[!UICONTROL Scope]** tab, you can configure a filter on the hypothesis. To do this:
 
     1. Click the **[!UICONTROL Edit query]** link.
     
@@ -173,7 +173,7 @@ Once you have defined the transaction table and the fields which the hypothesis 
 
   ![](assets/response_hypothesis_model_creation_011.png)
 
-## Example: creating a hypothesis template on a delivery {#example--creating-a-hypothesis-template-on-a-delivery}
+## Example: create a hypothesis template on a delivery {#example--creating-a-hypothesis-template-on-a-delivery}
 
 In this example, we are going to create a hypothesis template on a direct mail type delivery. The transaction table (**Purchases** in our example) which the hypotheses will be based on contains purchase lines linked to articles or products. We want to configure our model to create hypotheses on articles or products in the purchase table.
 
