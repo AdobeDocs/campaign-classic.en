@@ -38,7 +38,7 @@ To design a new capacity rule, follow the steps below:
    >
    >Availability lines are for information purpose only. If you need to exclude messages when the capacity limit is reached, refer to [this section](#exclude-messages-when-capacity-limit-reached).
 
-1. Associate this rule to a typology and then reference the typology into your delivery to apply this capacity rule. For more on this, refer to [this section](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery).
+1. Associate this rule to a typology and then reference the typology into your delivery to apply this capacity rule. For more on this, refer to [this section](applying-rules.md#applying-a-typology-to-a-delivery).
 1. You can monitor consumption from the rule **[!UICONTROL Consumptions]** and **[!UICONTROL Capacity]** tabs.
 
    When a rule is used in a delivery, the **[!UICONTROL Consumed]** and **[!UICONTROL Remaining]** columns provide information on the load, as shown below:

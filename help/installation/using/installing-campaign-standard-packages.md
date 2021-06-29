@@ -153,7 +153,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Campaign Optimization<br /> </td> 
-   <td> Controls, filters and monitors the sending of deliveries so that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. Optional. <a href="../../campaign/using/about-campaign-typologies.md">Learn More</a> <br /> </td> 
+   <td> Controls, filters and monitors the sending of deliveries so that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. Optional. <a href="../../campaign-opt/using/about-campaign-typologies.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

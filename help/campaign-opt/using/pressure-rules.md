@@ -45,8 +45,8 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    ![](assets/campaign_opt_create_a_rule_02.png)
 
-1. Change the execution order if needed. When multiple typology rules are applied as a **[!UICONTROL Typology]** set, the lower ordered rules are applied first. For more on this, refer to [Execution order](../../campaign/using/applying-rules.md#execution-order).
-1. In the **[!UICONTROL Calculation parameters]** section, define a frequency if you want to save targeting beyond the next daily re-arbitration execution. For more on this, refer to [Adjusting calculation frequency](../../campaign/using/applying-rules.md#adjusting-calculation-frequency).
+1. Change the execution order if needed. When multiple typology rules are applied as a **[!UICONTROL Typology]** set, the lower ordered rules are applied first. For more on this, refer to [Execution order](applying-rules.md#execution-order).
+1. In the **[!UICONTROL Calculation parameters]** section, define a frequency if you want to save targeting beyond the next daily re-arbitration execution. For more on this, refer to [Adjusting calculation frequency](applying-rules.md#adjusting-calculation-frequency).
 1. Click the **[!UICONTROL Pressure]** tab and choose the calendar period during which the typology rule applies.
 
    ![](assets/campaign_opt_create_a_rule_03.png)
@@ -84,7 +84,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    ![](assets/campaign_opt_create_a_rule_05.png)
 
-1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. For more on this, refer to [Applying typologies](../../campaign/using/about-campaign-typologies.md#applying-typologies).
+1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. For more on this, refer to [Applying typologies](about-campaign-typologies.md#applying-typologies).
 
 ## Defining thresholds and weights {#defining-thresholds-and-weights}
 
@@ -189,7 +189,7 @@ Finally, if no grouping is selected, only **newsletter no.4** will not be sent, 
 
 >[!NOTE]
 >
->When you change the definition of a typology rule, you can create a **Simulation** to control its impact on the deliveries it is applied to and monitor the impact which the deliveries have on each other. For more on this, refer to [Campaign simulations](../../campaign/using/campaign-simulations.md).
+>When you change the definition of a typology rule, you can create a **Simulation** to control its impact on the deliveries it is applied to and monitor the impact which the deliveries have on each other. For more on this, refer to [Campaign simulations](campaign-simulations.md).
 
 ## Exclusion after arbitration {#exclusion-after-arbitration}
 
@@ -318,7 +318,7 @@ First, configure the pressure rule.
 
    ![](assets/campaign_opt_pressure_example_5.png)
 
-   This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. For more on this, refer to [Adjusting calculation frequency](../../campaign/using/applying-rules.md#adjusting-calculation-frequency).
+   This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. For more on this, refer to [Adjusting calculation frequency](applying-rules.md#adjusting-calculation-frequency).
 
 1. In the **[!UICONTROL Pressure]** tab, select **[!UICONTROL 7d]** as the **[!UICONTROL Period considered]** and **[!UICONTROL Grouping per day]** as the **[!UICONTROL Period type]**.
 1. Select the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option to include the scheduled deliveries.

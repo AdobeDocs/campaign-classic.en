@@ -107,7 +107,7 @@ If you are a hybrid client, the Adobe Campaign team will provide you with instru
 >
 >Instructions provided by the Adobe Campaign team on how to install the **[!UICONTROL Typology]** package should be carefully followed. Otherwise you may encounter major issues with your IPs used to send emails.
 
-For more on typologies, see [this section](../../campaign/using/about-campaign-typologies.md).
+For more on typologies, see [this section](../../campaign-opt/using/about-campaign-typologies.md).
 
 ### New MX rules
 

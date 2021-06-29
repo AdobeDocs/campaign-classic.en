@@ -60,4 +60,4 @@ In the **[!UICONTROL Typology]** tab of the template's properties, change the de
 
 For example, to better control the outbound traffic, you can define which IP addresses can be used by defining one affinity per sub-domain and creating one typology per affinity. The affinities are defined in the instance's configuration file. Contact your Adobe Campaign administrator.
 
-For more on typologies, refer to [this section](../../campaign/using/about-campaign-typologies.md).
+For more on typologies, refer to [this section](../../campaign-opt/using/about-campaign-typologies.md).

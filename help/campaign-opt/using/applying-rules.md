@@ -46,7 +46,7 @@ Then use the query editor to define filtering conditions. In the following examp
 
 >[!NOTE]
 >
->For filtering rules, you can select the application condition of filtering criteria: they can depend on the delivery or the delivery outline. For more on this, refer to [Conditioning a filtering rule](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule).
+>For filtering rules, you can select the application condition of filtering criteria: they can depend on the delivery or the delivery outline. For more on this, refer to [Conditioning a filtering rule](filtering-rules.md#conditioning-a-filtering-rule).
 
 ## Adjusting calculation frequency {#adjusting-calculation-frequency}
 
