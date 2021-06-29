@@ -137,4 +137,4 @@ The **[!UICONTROL Distributed Marketing]** tab lets you define the re-mapping of
 >[!NOTE]
 >
 >In typologies and typology rules, the **[!UICONTROL Distributed Marketing]** tab is added if your license includes this option: please check you license agreement.  
->For more information on Distributed Marketing, refer to [About distributed marketing](../../campaign/using/about-distributed-marketing.md).
+>For more information on Distributed Marketing, refer to [About distributed marketing](../../distributed/using/about-distributed-marketing.md).

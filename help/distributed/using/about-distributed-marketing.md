@@ -9,12 +9,6 @@ exl-id: c166409b-e040-491e-840a-a41310935d75
 ---
 # Get started with distributed marketing{#about-distributed-marketing}
 
-<!--
->[!AVAILABILITY]
->
->:warning: This capability is not available in Campaign v8. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
--->
-
 Adobe Campaign offers a **Distributed Marketing** application for implementing cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the **[!UICONTROL list of campaign packages]**, where centrally created campaign templates and instances are offered to local entities.
 
 The central entity provides campaigns that local entities may use. Campaigns are materialized by packages representing either local or collaborative campaigns. To use a campaign, the local entity must order it and the order must be approved.
@@ -60,7 +54,7 @@ The central entity provides campaigns that local entities may use. Campaigns are
 
    The local entity's degree of autonomy depends on the implementation used.
 
-   Refer to [Creating a local campaign](../../campaign/using/creating-a-local-campaign.md).
+   Refer to [Creating a local campaign](creating-a-local-campaign.md).
 
 * **Collaborative campaign**
 
@@ -71,7 +65,7 @@ The central entity provides campaigns that local entities may use. Campaigns are
    * **[!UICONTROL Collaborative campaign (by target approval)]**: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs web access.
    * **[!UICONTROL Collaborative campaign (simple)]**: this mode ensures compatibility with the specific execution processes of previous versions.
 
-   Refer to [Creating a collaborative campaign](../../campaign/using/creating-a-collaborative-campaign.md).
+   Refer to [Creating a collaborative campaign](creating-a-collaborative-campaign.md).
 
 **Ordering campaign packages**
 
@@ -117,7 +111,7 @@ Each organizational entity contains identification information (label, internal 
 
 >[!NOTE]
 >
->The approval process is presented in the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+>The approval process is presented in the [Approval process](creating-a-local-campaign.md#approval-process) section.
 
 ## Implementation {#implementation}
 
