@@ -456,7 +456,7 @@ The Delivery Best Practices getting started guide has been updated. [Read more](
 
 ## October 2019 {#october-2019}
 
-The list of error messages for Campaign has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+The list of error messages for Campaign has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
@@ -510,7 +510,7 @@ The description of the pre-process workflow option has been updated to reflect p
 
 The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 
-The list of error messages has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+The list of error messages has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 Added more information on SOAP authentication methods for transactional messaging. [Read more](../../message-center/using/event-description.md)
 
