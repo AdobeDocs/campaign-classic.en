@@ -95,13 +95,4 @@ To check that it works correctly, use the following commands:
 
 With the iOS HTTP/2 connector, the MTA and web server must be able to contact the APNs on port 443.
 
-The following HTTP proxy modes are supported:
-
-* HTTP without authentication
-* HTTP basic authentication
-
-To activate the proxy mode, the following change must be done in the `serverconf.xml` file:
-
-```
-<nmac useHTTPProxy="true">
-```
+If you need to use the iOS HTTP/2 connector through a proxy, refer to this [page](../../installation/using/file-and-resmanagement.md#proxy-connection-configuration).

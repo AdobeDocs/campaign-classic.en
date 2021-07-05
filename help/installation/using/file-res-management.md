@@ -95,7 +95,20 @@ If you use the same proxy for several connection types, only the proxyHTTP will 
 
 If you have internal connections that should go through the proxy, add them in the override parameter.
 
-If you want to tempararily disable the proxy connection, set the enabled parameter to "false" or "0".
+If you want to temporarily disable the proxy connection, set the enabled parameter to "false" or "0".
+
+If you need to use the iOS HTTP/2 connector through a proxy, the following HTTP proxy modes are supported:
+
+* HTTP without authentication
+* HTTP basic authentication
+
+To activate the proxy mode, the following change must be done in the `serverconf.xml` file:
+
+```
+<nmac useHTTPProxy="true">
+```
+
+For more information on this iOS HTTP/2 connector, refer to this [page](../../delivery/using/about-mobile-app-channel.md).
 
 ## Manage public resources {#managing-public-resources}
 
