@@ -9,6 +9,10 @@ exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
 ---
 # Inserting a shared asset{#inserting-a-shared-asset}
 
+>[!CAUTION]
+>
+> Experience Cloud Assets is now decommissioned. For new implementation, you can no longer integrate Experience Cloud Assets with Adobe Campaign Classic.
+
 Assets shared from Adobe Experience Cloud can be used in your emails and landing pages as follows:
 
 1. Create a new email or a new landing page.
