@@ -84,13 +84,15 @@ To check that it works correctly, use the following commands:
 * For tests:
 
   ```
-  telnet gateway.sandbox.push.apple.com
+  api.development.push.apple.com:443
   ```
 
 * In production:
 
   ```
-  telnet gateway.push.apple.com
+  api.push.apple.com:443
   ```
 
-With the iOS HTTP/2 connector, the MTA, web server and workflow server must be able to contact the APNs on port 443.
+With the iOS HTTP/2 connector, the MTA and web server must be able to contact the APNs on port 443.
+
+If you need to use the iOS HTTP/2 connector through a proxy, refer to this [page](../../installation/using/file-res-management.md#proxy-connection-configuration).
