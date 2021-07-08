@@ -52,7 +52,7 @@ Apply the following steps:
 
 1. Create the file **nlsrv.load** in **/etc/apache2/mods-available** and insert the following content:
 
-   In Debian 8:
+   In Debian 8 and Debian 9:
 
    ```
    LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
@@ -89,15 +89,23 @@ Apply the following steps:
 1. Then add Adobe Campaign users to the Apache user group and vice versa using the following type of command:
 
     ```
-    usermod neolane -G www-data
-    usermod www-data -G neolane
+    usermod neolane -aG www-data
+    usermod www-data -aG neolane
     ```
 
 1. Restart Apache:
+    
+    ```
+    systemctl restart apache2
+    ```
+
+    or
 
     ```
     invoke-rc.d apache2 restart
     ```
+    
+
 
 ## Configuring Apache web server in RHEL {#configuring-apache-web-server-in-rhel}
 
