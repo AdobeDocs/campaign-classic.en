@@ -3,7 +3,7 @@ product: campaign
 title: About generic imports and exports
 description: Learn more about generic imports and exports.
 feature: Overview
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
 ---

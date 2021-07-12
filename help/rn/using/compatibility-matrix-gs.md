@@ -3,7 +3,7 @@ product: campaign
 title: Compatibility matrix for Campaign [!DNL Gold Standard]
 description: Campaign Classic Compatibility matrix for [!DNL Gold Standard] release
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 ---

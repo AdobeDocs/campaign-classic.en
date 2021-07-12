@@ -3,7 +3,7 @@ product: campaign
 title: About queries in Campaign
 description: About queries in Campaign
 feature: Query Editor
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 ---

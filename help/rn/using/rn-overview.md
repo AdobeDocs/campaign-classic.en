@@ -3,7 +3,7 @@ product: campaign
 title: Get started with upgrades
 description: Learn more about Campaign Classic upgrades
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---

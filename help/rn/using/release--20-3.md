@@ -3,7 +3,7 @@ product: campaign
 title: Campaign 20.3 release notes
 description: Release notes for Campaign 20.3
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
 ---

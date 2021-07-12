@@ -3,7 +3,7 @@ product: campaign
 title: Campaign 18.10 release notes
 description: Release notes for Campaign 18.10
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
 ---
