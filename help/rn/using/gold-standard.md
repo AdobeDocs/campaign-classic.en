@@ -21,6 +21,15 @@ The build 9032&#64;d030c36 includes the following fix:
 
 **Console upgrade only is mandatory. No server upgrade is required.** 
 
+>[!CAUTION]
+>
+> * If you are connecting to Campaign with your Adobe ID, through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
+> * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
+>
+>Learn more in the [[!DNL Gold Standard] 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)
+
+
 _March 2, 2021_
 
 The build 9032&#64;10c2709 includes the following fix:
@@ -35,6 +44,7 @@ The build 9032&#64;10c2709 includes the following fix:
 
 _December 22, 2020_
 
+<!--
 >[!CAUTION]
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
@@ -42,7 +52,7 @@ _December 22, 2020_
 > * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 >
 >Learn more in the [[!DNL Gold Standard] 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
-
+-->
 The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
