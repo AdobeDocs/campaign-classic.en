@@ -18,7 +18,7 @@ _April 14, 2021_
 The build 9032&#64;d030c36 includes the following fix:
 
 * Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
-* This console build is required to maintain [IMS access](../../technotes/ims-updates.md)
+* This console build is required to maintain [IMS access](../../technotes/ims-updates.md).
 
 **Console upgrade only is mandatory. No server upgrade is required.** 
 
