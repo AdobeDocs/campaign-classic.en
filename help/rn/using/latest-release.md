@@ -3,7 +3,7 @@ product: campaign
 title: Latest Release
 description: Latest Campaign Classic Release Notes
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 ---

@@ -3,7 +3,7 @@ product: campaign
 title: Release 20.2
 description: Release 20.2
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 ---

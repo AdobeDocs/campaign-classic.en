@@ -3,7 +3,7 @@ product: campaign
 title: Create and manage operator groups
 description: Learn how to grant access to operator groups
 feature: Access Management
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 ---

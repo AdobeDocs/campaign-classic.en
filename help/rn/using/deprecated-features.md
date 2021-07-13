@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Classic deprecated and removed features
 description: This page lists deprecated and removed features in Adobe Campaign Classic
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 ---
