@@ -18,17 +18,17 @@ _April 14, 2021_
 The build 9032&#64;d030c36 includes the following fix:
 
 * Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+* This console build is required to maintain [IMS access](../../technotes/ims-updates.md)
 
 **Console upgrade only is mandatory. No server upgrade is required.** 
 
 >[!CAUTION]
 >
-> * If you are connecting to Campaign with your Adobe ID, through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
+> * If you are connecting to Campaign with your Adobe ID, through Adobe Identity Management Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 > * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 >
 >Learn more in the [[!DNL Gold Standard] 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)
-
 
 _March 2, 2021_
 
