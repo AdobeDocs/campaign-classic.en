@@ -11,11 +11,7 @@ exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
    
 In this page, you will  learn how to connect Campaign Classic to **Microsoft Dynamics CRM 365**.
 
-Possible deployments are:
-
-* via **Web API** (recommended). Refer to [the section below](#microsoft-dynamics-implementation-step) to learn steps to set up the connection with Microsoft Dynamics.
-* with **Office 365**. Refer to [this video](#microsoft-dynamics-office-365) to learn key steps to set up this integration.
-* for an **On-premise** deployment, apply Office 365 key steps.
+Possible deployment is via **Web API** (recommended). Refer to [the section below](#microsoft-dynamics-implementation-step) to learn steps to set up the connection with Microsoft Dynamics.
 
 Data synchronization is carried out via a dedicated workflow activity. [Learn more](../../platform/using/crm-data-sync.md).
 
