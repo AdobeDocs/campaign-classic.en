@@ -123,13 +123,7 @@ To connect Microsoft Dynamics 365 and Campaign, you need to create and configure
 
 1. Navigate to **[!UICONTROL Administration > Platform > External accounts]**.
 
-1. Create a new external account, select the type **[!UICONTROL Microsoft Dynamics CRM]** and the **[!UICONTROL Enable]** option.
-
-1. Select the **[!UICONTROL Web API]**  deployment type: 
-
-   Adobe Campaign Classic supports the Dynamics 365 REST interface with OAuth protocol for authentication with a **[!UICONTROL Certificate]** or **[!UICONTROL Password Credentials]**.
-
-   Use the settings [defined previously](#get-client-id-microsoft) in Azure Directory to configure the external account. 
+1. Select the **[!UICONTROL Microsoft Dynamics CRM]** external account. Check the **[!UICONTROL Enabled]** option.
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 
@@ -137,7 +131,7 @@ To connect Microsoft Dynamics 365 and Campaign, you need to create and configure
    >
    >Microsoft Dynamics CRM External account configuration is detailed [in this section](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
 
-1. Click the **[!UICONTROL Microsoft CRM configuration wizard...]** link: Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.
+1. Click the **[!UICONTROL Microsoft CRM configuration wizard...]** link. Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
