@@ -119,6 +119,10 @@ The App user is the user that the application registered above will use. Any cha
 
 ## Configure Campaign {#configure-acc-for-microsoft}
 
+>[!NOTE]
+>
+>On-premise and Office 365 deployment types are now deprecated. [Learn more](https://docs.microsoft.com/en-us/power-platform/important-changes-coming#regional-discovery-service-is-deprecated).
+
 To connect Microsoft Dynamics 365 and Campaign, you need to create and configure a dedicated External Account in Campaign.
 
 1. Navigate to **[!UICONTROL Administration > Platform > External accounts]**.
@@ -156,13 +160,6 @@ To connect Microsoft Dynamics 365 and Campaign, you need to create and configure
    ![](assets/crm_connectors_msdynamics_06.png)
 
 Campaign and Microsoft Dynamics are now connected. You can set up data synchronization between the two systems. Learn more in the [Data synchronization](../../platform/using/crm-data-sync.md) section.
-
-## Configure Microsoft Dynamics CRM Office 365 integration{#microsoft-dynamics-office-365}
-
-Watch this video to learn how to integrate Dynamics 365 with Adobe Campaign Classic, in the context of an Office 365 deployment.
-
->[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
-
 
 ## Supported field data types {#ms-dyn-supported-types}
 

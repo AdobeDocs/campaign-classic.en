@@ -282,19 +282,19 @@ The **[!UICONTROL AEM (AEM instance)]** external account allows you to manage th
 
 For more on this, refer to this [section](../../integrations/using/about-adobe-experience-manager.md).
 
-
-
 ## CRM Connector External Accounts 
 
 ### Microsoft Dynamics CRM {#microsoft-dynamics-crm-external-account}
+
+>[!NOTE]
+>
+> **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types are now deprecated. [Learn more](../../rn/using/deprecated-features.md).
 
 The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.
 
 Learn more about Campaign - Microsoft Dynamics CRM connector in this [page](../../platform/using/crm-ms-dynamics.md).
 
->[!NOTE]
->
-> **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types are now deprecated. [Learn more](../../rn/using/deprecated-features.md).
+
 
 With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
 
