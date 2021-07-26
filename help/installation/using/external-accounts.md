@@ -294,8 +294,6 @@ The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to impor
 
 Learn more about Campaign - Microsoft Dynamics CRM connector in this [page](../../platform/using/crm-ms-dynamics.md).
 
-
-
 With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
 
 ![](assets/ext_account_14.png)
@@ -307,6 +305,8 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credent
 * **[!UICONTROL Server]**
 
   URL of your Microsoft CRM server.
+
+  To find your Microsoft CRM **[!UICONTROL Server URL]**, access your Microsoft Dynamics CRM account then click **Dynamics 365** and select your app. You can then find your **[!UICONTROL Server URL]** in the address bar of your browser, e.g. `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Client identifier]**
 
@@ -323,6 +323,8 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** a
 * **[!UICONTROL Server]**
 
   URL of your Microsoft CRM server.
+
+  To find your Microsoft CRM **[!UICONTROL Server URL]**, access your Microsoft Dynamics CRM account then click **Dynamics 365** and select your app. You can then find your **[!UICONTROL Server URL]** in the address bar of your browser, e.g. `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Private Key (Base64 encoded)]**
 

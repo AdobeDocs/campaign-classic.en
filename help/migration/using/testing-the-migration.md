@@ -150,7 +150,13 @@ The following expressions are searched for (case sensitive):
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Error<br /> </td> 
-   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. If you get overview-type web application error logs (migration from v6.02), refer to <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Web applications</a>.<br /> </td> 
+   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. If you get overview-type web application error logs (migration from v6.02), refer to <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configure Campaign</a>.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> crmDeploymentType="onpremise"<br /> </td> 
+   <td> PU-0007<br /> </td> 
+   <td> Error<br /> </td> 
+   <td> This type of deployment is no longer supported. Office 365 and On-premise Microsoft CRM connector deployment type have now been deprecated</a>. To change to Web API deployment, refer to <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web applications</a>.<br /> </td>
   </tr> 
  </tbody> 
 </table>

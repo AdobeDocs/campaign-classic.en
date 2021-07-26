@@ -75,16 +75,35 @@ The client secret is the key which is unique to the Client ID. To get the certif
    - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
    ```
 
+   >[!NOTE]
+   >
+   >You can change the number of days, here `-days 365`, in the code sample for a longer certificate validity period.
+
 1. Click on the **manifest** link to get the **certificate key identifier** and the **key ID**.
 
 ### Configure permissions {#config-permissions-microsoft}
 
-You need to configure the **Required Permissions** for the app that was created.
+**Step 1**: Configure the **Required Permissions** for the app that was created.
 
 1. Navigate to **Azure Active Directory > App Registrations** and select the Application which was created earlier.
 1. Click **Settings** on the top left.
 1. On **Required Permissions**, click **Add** and **Select an API > Dynamics CRM Online**.
-1. Then click **Select**, enable **Access Dynamics 365 as organization users** checkbox and click **Select**.
+1. Click **Select**, enable **Access Dynamics 365 as organization users** checkbox and click **Select**.
+1. Then, from your app, select the **Manifest** under the **Manage** menu.
+
+1. From the **Manifest** editor, set the `allowPublicClient` property from `null` to `true` and click **Save**.
+
+**Step 2**: Grant admin consent
+
+1. Navigate to **Azure Active Directory > Enterprise applications**.
+
+1. Select the application to which you want to grant tenant-wide admin consent.
+
+1. From the left pane menu, select **Permissions** under **Security**.
+
+1. Click **Grant admin consent**.
+
+For more information on this, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
 
 ### Create an App User {#create-app-user-microsoft}
 
@@ -129,11 +148,11 @@ To connect Microsoft Dynamics 365 and Campaign, you need to create and configure
 
 1. Select the **[!UICONTROL Microsoft Dynamics CRM]** external account. Check the **[!UICONTROL Enabled]** option.
 
-   ![](assets/crm-ms-dynamics-ext-account.png)
-
    >[!NOTE]
    >
-   >Microsoft Dynamics CRM External account configuration is detailed [in this section](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
+   >Microsoft Dynamics CRM External account configuration with each **[!UICONTROL CRM O-Auth type]** is detailed [in this section](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
+
+   ![](assets/crm-ms-dynamics-ext-account.png)
 
 1. Click the **[!UICONTROL Microsoft CRM configuration wizard...]** link. Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.
 
