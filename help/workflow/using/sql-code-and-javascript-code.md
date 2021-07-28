@@ -21,11 +21,14 @@ An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JS
 
 * **[!UICONTROL Processing errors]**
 
-  Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+  Refer to [Processing errors](monitoring-workflow-execution.md#processing-errors).
 
 ## JavaScript code and Advanced JavaScript code {#javascript-code}
 
-**[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md) section.
+**[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to these sections:
+
+* [JavaScript scripts and templates](javascript-scripts-and-templates.md)
+* [Examples of JavaScript code in workflows](javascript-in-workflows.md)
 
 ### Execution delay {#exec-delay}
 
@@ -41,7 +44,7 @@ To ignore this limit, you need to set the value to **0**.
 
 * **[!UICONTROL Script]**: The central area of the editor contains the script to be executed.
 
-* **[!UICONTROL Process errors]**: Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+* **[!UICONTROL Process errors]**: Refer to [Processing errors](monitoring-workflow-execution.md#processing-errors).
 
 ### Advanced JavaScript code {#adv-js-code-desc}
 
