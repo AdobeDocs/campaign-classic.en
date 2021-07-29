@@ -327,8 +327,8 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** a
   To find your Microsoft CRM **[!UICONTROL Server URL]**, access your Microsoft Dynamics CRM account then click **Dynamics 365** and select your app. You can then find your **[!UICONTROL Server URL]** in the address bar of your browser, e.g. `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Private Key (Base64 encoded)]**
-
-  Private key encoded to Base64
+  
+  Note that the Private key needs to be encoded to Base64.
 
 * **[!UICONTROL Custom Key identifier]**
 
