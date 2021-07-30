@@ -90,11 +90,6 @@ _June 5, 2021_
 </tbody> 
 </table>
 
-**Known issues**
-
-* An issue with the ACS Connector prevents you from loading a recipient list when using a **Read list** workflow activity using computed list names. (NEO-37175)
-* After upgrading to 21.1.3, an issue occurs when using the **Email delivery** workflow activity with external delivery mode, which could lead to deliveries failing. (NEO-37435)
-
 **Security enhancements**
 
 * Access to the **xtk:session#GetCnxInfo** API method returning the full database connection details is now restricted to admin users only. (NEO-27779)
