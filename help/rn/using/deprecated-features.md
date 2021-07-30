@@ -206,11 +206,6 @@ Campaign Classic is not compatible with the following servers in Federated Data 
 * AsterData 5.0. AsterData reached end of life. [Learn more](https://en.wikipedia.org/wiki/Aster_Data_Systems)
 * Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0. More recent versions of Sybase are supported through Federated Data Access (FDA). [Learn more](https://sites.google.com/site/dbatipsandtricks/time-tracker)
 * Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic will still support the listed versions of Hadoop via HiveSQL through Federated Data Access (FDA), but these versions are merged with: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) and HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
-* Soap API - On-premise: 2007, 2015, 2016
-* Soap API - Online: 2015, 2016
-* Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1
-* Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1
-* Oracle On Demand API
 
 **RDBMS SERVER**
 
