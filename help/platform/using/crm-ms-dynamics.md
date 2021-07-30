@@ -140,13 +140,15 @@ The App user is the user that the application registered above will use. Any cha
 
 >[!NOTE]
 >
->On-premise and Office 365 deployment types are now deprecated. [Learn more](https://docs.microsoft.com/en-us/power-platform/important-changes-coming#regional-discovery-service-is-deprecated).
+>On-premise and Office 365 deployment types are now deprecated. [Learn more](../../rn/using/deprecated-features.md#crm-connectors).
 
-To connect Microsoft Dynamics 365 and Campaign, you need to create and configure a dedicated External Account in Campaign.
+To connect Microsoft Dynamics 365 and Campaign, you need to create and configure a dedicated **[!UICONTROL External Account]** in Campaign.
 
 1. Navigate to **[!UICONTROL Administration > Platform > External accounts]**.
 
 1. Select the **[!UICONTROL Microsoft Dynamics CRM]** external account. Check the **[!UICONTROL Enabled]** option.
+
+1. Fill in the information required to connect Microsoft Dynamics 365 and Campaign.
 
    >[!NOTE]
    >

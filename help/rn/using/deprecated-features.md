@@ -232,3 +232,13 @@ Adobe Campaign is not compatible with the following SMS connectors:
 * Tele2
 * O2
 * iOS
+
+### CRM connectors {#crm-connectors}
+
+Starting Campaign 21.1 release, the following CRM connectors are deprecated with Campaign:
+
+* Soap API - On-premise: 2007, 2015, 2016
+* Soap API - Online: 2015, 2016
+* Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1
+* Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1
+* Oracle On Demand API
