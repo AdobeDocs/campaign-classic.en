@@ -330,6 +330,8 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** a
   
   Note that the Private key needs to be encoded to Base64.
 
+  To do so, you can use the help of a Base64 encoder or use the command line `base64 -w0 private.key` for Linux.
+
 * **[!UICONTROL Custom Key identifier]**
 
 * **[!UICONTROL Key ID]**
