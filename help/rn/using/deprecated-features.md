@@ -234,6 +234,6 @@ Starting Campaign 21.1 release, the following CRM connectors are no longer compa
 
 * Soap API - On-premise: 2007, 2015, 2016
 * Soap API - Online: 2015, 2016
-* Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1
-* Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1
+* Web API – Microsoft Dynamics CRM  2016
+* Web API – Microsoft Dynamics CRM 2016 Update 1
 * Oracle On Demand API
