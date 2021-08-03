@@ -172,7 +172,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Microsoft Dynamics connector</td>
 <td>
-<p>Web API: Dynamics 365 On-premise and Online</p>
+<p>Web API</p>
 </td>
 </tr>
 </tbody>
