@@ -41,7 +41,6 @@ In Campaign Classic:
 > When connecting Adobe Campaign with Microsoft Dynamics, you cannot:
 > * Install plug-ins which can change the CRM's behavior, and lead to compatibility issues with Adobe Campaign
 > * Select multiple enumerations
->  
 
 ## Configure Microsoft Dynamics CRM {#config-crm-microsoft}
 
@@ -79,7 +78,7 @@ The client secret is the key which is unique to the Client ID. To get the certif
    >
    >You can change the number of days, here `-days 365`, in the code sample for a longer certificate validity period.
 
-1. Click on the **manifest** link to get the **certificate key identifier** and the **key ID**.
+1. Click on the **Manifest** link to get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**.
 
 ### Configure permissions {#config-permissions-microsoft}
 
@@ -106,6 +105,10 @@ The client secret is the key which is unique to the Client ID. To get the certif
 For more information on this, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
 
 ### Create an App User {#create-app-user-microsoft}
+
+>[!NOTE]
+>
+> This step is optional with **[!UICONTROL Password credentials]** authentication.
 
 The App user is the user that the application registered above will use. Any changes made to Microsoft Dynamics using the App registered above will be done via this user.
 
