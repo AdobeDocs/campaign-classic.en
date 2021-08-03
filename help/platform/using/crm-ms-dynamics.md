@@ -78,6 +78,8 @@ The client secret is the key which is unique to the Client ID. To get the certif
    >
    >You can change the number of days, here `-days 365`, in the code sample for a longer certificate validity period.
 
+1. You will then need to encode it in base64. To do so, you can use the help of a Base64 encoder or use the command line `base64 -w0 private.key` for Linux.
+
 1. Click on the **Manifest** link to get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**.
 
 ### Configure permissions {#config-permissions-microsoft}
