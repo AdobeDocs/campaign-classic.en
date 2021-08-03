@@ -109,7 +109,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 **Deprecated features**
 
 * Starting Campaign 21.1 release, the Adobe Analytics Data Connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly with the new connector Adobe Analytics Connector. 
-For more information refer to the [detailed documentation](../../platform/using/adobe-analytics-connector.md).
+For more information refer to the [detailed documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-connector.html).
 * Support for Debian 8 is now deprecated.
 * Following the deprecation of Oracle CRM in 20.3, the related external account has been removed from the interface.
 

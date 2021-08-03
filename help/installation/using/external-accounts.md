@@ -282,19 +282,17 @@ The **[!UICONTROL AEM (AEM instance)]** external account allows you to manage th
 
 For more on this, refer to this [section](../../integrations/using/about-adobe-experience-manager.md).
 
-
-
 ## CRM Connector External Accounts 
 
 ### Microsoft Dynamics CRM {#microsoft-dynamics-crm-external-account}
 
-The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.
-
-Learn more about Campaign - Microsoft Dynamics CRM connector in this [page](../../platform/using/crm-ms-dynamics.md).
-
 >[!NOTE]
 >
 > **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types are now deprecated. [Learn more](../../rn/using/deprecated-features.md).
+
+The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.
+
+Learn more about Campaign - Microsoft Dynamics CRM connector in this [page](../../platform/using/crm-ms-dynamics.md).
 
 With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
 
@@ -308,13 +306,15 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credent
 
   URL of your Microsoft CRM server.
 
+  To find your Microsoft CRM **[!UICONTROL Server URL]**, access your Microsoft Dynamics CRM account then click **Dynamics 365** and select your app. You can then find your **[!UICONTROL Server URL]** in the address bar of your browser, e.g. `https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL Client identifier]**
 
   Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
 
 * **[!UICONTROL CRM version]**
 
-  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+  Choose **[!UICONTROL Dynamics CRM 365]** CRM version.
 
 With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** authentication, you need to provide the following details:
 
@@ -324,9 +324,13 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** a
 
   URL of your Microsoft CRM server.
 
-* **[!UICONTROL Private Key (Base64 encoded)]**
+  To find your Microsoft CRM **[!UICONTROL Server URL]**, access your Microsoft Dynamics CRM account then click **Dynamics 365** and select your app. You can then find your **[!UICONTROL Server URL]** in the address bar of your browser, e.g. `https://myserver.crm.dynamics.com/`.
 
-  Private key encoded to Base64
+* **[!UICONTROL Private Key (Base64 encoded)]**
+  
+  Note that the Private key needs to be encoded to Base64.
+
+  To do so, you can use the help of a Base64 encoder or use the command line `base64 -w0 private.key` for Linux.
 
 * **[!UICONTROL Custom Key identifier]**
 
