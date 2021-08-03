@@ -140,7 +140,7 @@ The App user is the user that the application registered above will use. Any cha
 
 >[!NOTE]
 >
->On-premise and Office 365 deployment types are now deprecated. [Learn more](../../rn/using/deprecated-features.md#crm-connectors).
+> Post the decommissioning of [RDS from Microsoft](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#microsoft-dynamics-crm-2011-endpoint), the On-premise and Office 365 types of CRM deployments are no longer compatible with Campaign. Adobe Campaign now only supports Web API deployment for the CRM version **Dynamic CRM 365**. [Learn more](../../rn/using/deprecated-features.md#crm-connectors).
 
 To connect Microsoft Dynamics 365 and Campaign, you need to create and configure a dedicated **[!UICONTROL External Account]** in Campaign.
 
