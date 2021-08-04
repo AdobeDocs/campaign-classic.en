@@ -3,7 +3,7 @@ product: campaign
 title: Compatibility matrix for Campaign Classic
 description: Campaign Classic Compatibility matrix
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 ---
@@ -172,7 +172,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Microsoft Dynamics connector</td>
 <td>
-<p>Web API: Dynamics 365 On-premise and Online</p>
+<p>Web API</p>
 </td>
 </tr>
 </tbody>

@@ -3,19 +3,19 @@ product: campaign
 title: Latest Release
 description: Latest Campaign Classic Release Notes
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 ---
 # Latest release{#latest-release}
 
-This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release Candidate version**.
+This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release**.
 
 >[!NOTE]
 >
->Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 20.2.5 release](../../rn/using/release--20-2.md).
+>Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330).
 
-## ![](assets/do-not-localize/blue_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+## ![](assets/do-not-localize/green_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
 _June 5, 2021_
 
@@ -109,7 +109,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 **Deprecated features**
 
 * Starting Campaign 21.1 release, the Adobe Analytics Data Connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly with the new connector Adobe Analytics Connector. 
-For more information refer to the [detailed documentation](../../platform/using/adobe-analytics-connector.md).
+For more information refer to the [detailed documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-connector.html).
 * Support for Debian 8 is now deprecated.
 * Following the deprecation of Oracle CRM in 20.3, the related external account has been removed from the interface.
 

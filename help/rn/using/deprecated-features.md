@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Classic deprecated and removed features
 description: This page lists deprecated and removed features in Adobe Campaign Classic
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 ---
@@ -234,6 +234,6 @@ Starting Campaign 21.1 release, the following CRM connectors are no longer compa
 
 * Soap API - On-premise: 2007, 2015, 2016
 * Soap API - Online: 2015, 2016
-* Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1
-* Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1
+* Web API – Microsoft Dynamics CRM  2016
+* Web API – Microsoft Dynamics CRM 2016 Update 1
 * Oracle On Demand API
