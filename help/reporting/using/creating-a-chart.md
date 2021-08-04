@@ -33,7 +33,7 @@ To create a chart in a report, apply the following steps:
     
       ![](assets/reporting_graph_add_filter.png)
 
-    * To used contextual data, select this option and click the **[!UICONTROL Advanced settings...]** link. Then select the data which the statistics will concern.
+    * To used contextual data, select **[!UICONTROL Context data]** from the **[!UICONTROL Source]** drop-down and click the **[!UICONTROL Advanced settings...]** link. Then select the data which the statistics will concern.
     
       ![](assets/reporting_graph_from_context.png)
 
@@ -110,32 +110,6 @@ If necessary, you can reverse the value display sequence. To do this, select the
 ### Conversion: funnel {#conversion--funnel}
 
 This type of chart lets you track the conversation rate of measured elements.
-
-### Progress: gauge {#progress--gauge}
-
-This type of chart lets you display the progress of a value compared to a defined objective. In the example below, the black dial shows the number of deliveries successfully sent (76) out of a goal of 100 deliveries. The gauge is divided into three ranges that correspond to specific statuses.
-
-![](assets/reporting_graph_type_gauge.png)
-
-These elements are defined when configuring the chart.
-
-![](assets/reporting_graph_type_gauge1.png)
-
-* The **[!UICONTROL Value]** field is represented by a black dial in the chart. It represents the element whose progress you would like to calculate. The value to be represented must have already been saved to be used.
-* The **[!UICONTROL Goal]** field represents the maximum value to achieve.
-* Using the **[!UICONTROL Other mark]** field you can add a second indicator to the chart.
-* The **[!UICONTROL Display range]** fields let you specify the values between which the report is calculated.
-* The **[!UICONTROL Value ranges]** field lets you attribute statuses (None, Bad, Acceptable, Good) to a set of values to better illustrate the progress.
-
-In the **[!UICONTROL Display settings]** section, the **[!UICONTROL Change appearance...]** lets you configure the way the chart is displayed.
-
-![](assets/reporting_graph_type_gauge2.png)
-
-The **[!UICONTROL Display the value below the gauge]** option lets you display the value progress below the chart.
-
-The **[!UICONTROL Aperture ratio]** field, which must be between 0 and 1, lets you edit the report's aperture in a more or less complete circle. In the example above, the value 0.50 corresponds to a semi-circle.
-
-The **[!UICONTROL Width]** field lets you edit the chart size.
 
 ## Interaction with the chart {#interaction-with-the-chart}
 
