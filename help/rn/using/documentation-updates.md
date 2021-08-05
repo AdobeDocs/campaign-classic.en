@@ -13,6 +13,11 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## July 2021 {#july-2021}
+
+[Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330) has moved to General Availability (GA).
+
+
 ## June 2021 {#june-2021}
 
 The **Transactional Messaging** section has been reorganized an clarified with a new Get started section, including an [enhanced schema](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) for a better understanding of the process. [Read more](../../message-center/using/about-transactional-messaging.md)

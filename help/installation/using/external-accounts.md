@@ -314,7 +314,7 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credent
 
 * **[!UICONTROL CRM version]**
 
-  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+  Choose **[!UICONTROL Dynamics CRM 365]** CRM version.
 
 With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** authentication, you need to provide the following details:
 
@@ -329,6 +329,8 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** a
 * **[!UICONTROL Private Key (Base64 encoded)]**
   
   Note that the Private key needs to be encoded to Base64.
+
+  To do so, you can use the help of a Base64 encoder or use the command line `base64 -w0 private.key` for Linux.
 
 * **[!UICONTROL Custom Key identifier]**
 
