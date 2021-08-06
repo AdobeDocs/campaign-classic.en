@@ -2,8 +2,6 @@
 product: campaign
 title: Migrate to the Adobe Analytics Connector
 description:  Campaign - Analytics Connector FAQ
-hide: yes
-hidefromtoc: yes
 ---
 # How to migrate to Adobe Analytics Connector {#acc-aa-faq}
 
