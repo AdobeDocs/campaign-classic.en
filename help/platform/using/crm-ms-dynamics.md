@@ -21,7 +21,7 @@ To connect Microsoft Dynamics 365 to work with Adobe Campaign via **Web API**, y
 
 In Microsoft Dynamics CRM:
 1. Get Microsoft Dynamics Client ID
-1. Generate Microsoft Dynamics Client Secret
+1. Generate Microsoft Dynamics Certificate key identifier and Key ID
 1. Configure permissions
 1. Create an App User
 1. Encode the private key
@@ -59,9 +59,9 @@ Once you save, you get an **Application ID** which is the Client Identifier for 
 
 Learn more in [this page](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
-### Generate Microsoft Dynamics Client Secret {#config-client-secret-microsoft}
+### Generate Microsoft Dynamics Certificate key identifier and Key ID {#config-certificate-key-id}
 
-The client secret is the key which is unique to the Client ID. To get the certificate key identifier, follow the steps below:
+To get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**, follow the steps below:
 
 1. Navigate to **Azure Active Directory > App Registrations** and select the Application which was created earlier.
 1. Click on **Certificates and Secret**.
@@ -81,6 +81,8 @@ The client secret is the key which is unique to the Client ID. To get the certif
 1. You will then need to encode it in base64. To do so, you can use the help of a Base64 encoder or use the command line `base64 -w0 private.key` for Linux.
 
 1. Click on the **Manifest** link to get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**.
+
+The **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)** will be needed later on to configure your Microsoft Dynamics CRM external account using the Certificate **[!UICONTROL CRM O-Auth type]**.
 
 ### Configure permissions {#config-permissions-microsoft}
 
@@ -186,6 +188,10 @@ To connect Microsoft Dynamics 365 and Campaign, you need to create and configure
    ![](assets/crm_connectors_msdynamics_06.png)
 
 Campaign and Microsoft Dynamics are now connected. You can set up data synchronization between the two systems. Learn more in the [Data synchronization](../../platform/using/crm-data-sync.md) section.
+
+>[!NOTE]
+>
+> You need to make sure to add to the allow list two URLs: the server URL and `login.microsoftonline.com` in the Server configuration.
 
 ## Supported field data types {#ms-dyn-supported-types}
 
