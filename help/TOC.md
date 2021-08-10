@@ -34,7 +34,6 @@ type: Documentation
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
   + [Technotes](technotes/technote.md)
-  + [Adobe Analytics Connector FAQ](technotes/aa-connector-migration.md)
   + [iOS certificate update](technotes/ios-certificate-update.md)
   + [Campaign configuration updates](technotes/acc-config-updates.md)
   + [Tracked URLs update](technotes/tracked-urls.md)
@@ -113,8 +112,10 @@ type: Documentation
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
-       + [Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
-       + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
+       + Adobe Analytics Connector{#analytics-connector}
+          + [Adobe Analytics Connector integration](platform/using/adobe-analytics-connector.md)
+          + [How to migrate to Adobe Analytics Connector](technotes/aa-connector-migration.md)
+          + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
