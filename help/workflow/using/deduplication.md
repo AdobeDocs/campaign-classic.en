@@ -25,7 +25,7 @@ The **[!UICONTROL Deduplication]** activity has the capability to keep an entire
 -----|----------|------------|-------|--------------|------
 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
 
-The master record selected will carry forward the data without any merging of field data with other relevant data in the duplicate rows.
+The selected main record will carry forward the data without any merging of field data with other relevant data in the duplicate rows.
 
 Complement:
 
