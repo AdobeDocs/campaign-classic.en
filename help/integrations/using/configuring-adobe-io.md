@@ -19,7 +19,7 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 
 ## Prerequisites {#adobe-io-prerequisites}
 
-This integration only applies starting **Campaign Classic 20.3, 20.2.4, 19.1.8 and [!DNL Gold Standard] 11 releases**.
+This integration only applies starting **Campaign Classic 20.3, 19.1.8 and [!DNL Gold Standard] 11 releases**.
 
 Before starting this implementation, please check you have:
 
