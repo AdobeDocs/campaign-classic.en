@@ -57,7 +57,7 @@ _December 22, 2020_
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.  [Learn more](../../technotes/ims-updates.md)
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **August 18, 2021** for hybrid and on-premise environments, and on **November 30, 2021** for hosted environments.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **August 18, 2021**. Hosted environments benefit from an extension until  **November 30, 2021**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to November 30, 2021. You must provide [the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
 
 **Improvements**
 
