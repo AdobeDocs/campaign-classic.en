@@ -97,7 +97,7 @@ Once all instances are upgraded, the Client Console needs to be upgraded to this
 
 ## Integration with Experience Cloud Triggers {#acc-triggers-updates}
 
-The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **November 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
+The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **August 18, 2021** for hybrid and on-premise environments, and on **November 30, 2021** for hosted environments. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
 
 **Are you impacted?**
 
