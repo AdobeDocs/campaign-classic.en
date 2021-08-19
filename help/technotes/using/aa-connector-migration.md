@@ -11,7 +11,7 @@ Starting Campaign Classic v7 21.1.3 release, the Adobe Analytics Data Connector 
 
 On August 1, 2021, Adobe Campaign Classic will be removed from the legacy Data Connectors UI, however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. On March 1, 2022, the integration will cease to collect and pass data to Adobe Analytics. 
 
-You must migrate to the new Adobe Analytics Connector integration on Adobe Exchange which replaces the legacy Data Connectors Integration, as detailed in [this page](../platform/using/adobe-analytics-connector.md).
+You must migrate to the new Adobe Analytics Connector integration on Adobe Exchange which replaces the legacy Data Connectors Integration, as detailed in [this page](../../platform/using/adobe-analytics-connector.md).
 
 
 >[!NOTE]
@@ -23,7 +23,7 @@ You must migrate to the new Adobe Analytics Connector integration on Adobe Excha
 
 A new integration between Campaign Classic v7 and Adobe Analytics is now available. Major changes are listed below.
 
-* Integration between Adobe Campaign Classic and Adobe Analytics authentication has moved from user/password to Adobe Identity Management Service (IMS). As a consequence, you must implement Adobe IMS, and connect to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), before starting Analytics Connector implementation.
+* Integration between Adobe Campaign Classic and Adobe Analytics authentication has moved from user/password to Adobe Identity Management Service (IMS). As a consequence, you must implement Adobe IMS, and connect to Campaign [via an Adobe ID](../../integrations/using/about-adobe-id.md), before starting Analytics Connector implementation.
 
 * The **Contact Date** Classification, which use to be of type date, has been deprecated by Adobe Analytics. For migrated integrations, it will still remain of the same type. For any **Contact Date** created by Campaign, the type will be **String**.
 
@@ -39,7 +39,7 @@ A new integration between Campaign Classic v7 and Adobe Analytics is now availab
 
 If you are using the existing Adobe Analytics Data Connector (previously known as Genesis integration), and the integration was implemented on a lower build than Campaign 21.1.3, you are impacted.
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## How to update?
 
@@ -49,7 +49,7 @@ As a hosted customer, Adobe will be working with you to upgrade your instance(s)
 
 As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new integration.
 
-Once all instances are upgraded, you will be able to [implement the new integration](../platform/using/adobe-analytics-connector.md) to Adobe Analytics Connector, and ensure a seamless transition.
+Once all instances are upgraded, you will be able to [implement the new integration](../../platform/using/adobe-analytics-connector.md) to Adobe Analytics Connector, and ensure a seamless transition.
 
 
 ## FAQ{#faq-aa}
@@ -83,8 +83,8 @@ The solution is to update the **Product Profile** in Analytics User Context of T
 
 ## Useful links
 
-* [Upgrade your environment](../production/using/build-upgrade.md)
-* [Build upgrade FAQ](../platform/using/faq-build-upgrade.md)
+* [Upgrade your environment](../../production/using/build-upgrade.md)
+* [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 * [Download Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
-* [Make the new Client Console available to users](../installation/using/client-console-availability-for-windows.md)
-* [Install Campaign Client Console](../installation/using/installing-the-client-console.md)
+* [Make the new Client Console available to users](../../installation/using/client-console-availability-for-windows.md)
+* [Install Campaign Client Console](../../installation/using/installing-the-client-console.md)

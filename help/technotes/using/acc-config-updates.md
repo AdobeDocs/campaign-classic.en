@@ -31,14 +31,14 @@ The latest Campaign versions come with a security fix which reinforces protectio
 
 If your environment is on a lower build than the ones listed below, you are impacted:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
-* Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
-* Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
-* Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
-* Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
+* Gold Standard 11. [Learn more](../../rn/using/gold-standard.md)
+* Campaign 21.1.1 release. [Learn more](../../rn/using/latest-release.md)
+* Campaign 20.2.4 release. [Learn more](../../rn/using/release--20-2.md)
+* Campaign 20.1.4 release. [Learn more](../../rn/using/release--20-1.md)
+* Campaign 19.2.4 release. [Learn more](../../rn/using/release--19-2.md)
+* Campaign 19.1.8 release. [Learn more](../../rn/using/release--19-1.md)
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
@@ -59,10 +59,10 @@ You need to upgrade to one of the newer builds listed above.
 
 The **now available** console versions below should be installed to resolve a recently identified regression. This regression prevented the use of some components of the Client Console, such as the date picker and images management in deliveries. **Console upgrade** is mandatory. 
 
-* Latest Gold Standard 11 build 9032&#64;10c2709. [Learn more](../rn/using/gold-standard.md)
-* Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
-* Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
-* Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
+* Latest Gold Standard 11 build 9032&#64;10c2709. [Learn more](../../rn/using/gold-standard.md)
+* Campaign 20.1.4 release. [Learn more](../../rn/using/release--20-1.md)
+* Campaign 19.2.4 release. [Learn more](../../rn/using/release--19-2.md)
+* Campaign 19.1.8 release. [Learn more](../../rn/using/release--19-1.md)
 
 ## Adobe Identity Management System (IMS) update
 
@@ -72,18 +72,18 @@ An upgrade of the Campaign Client Console is required to ensure compatibility wi
 
 **Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), upgrade to one of the new versions listed below is mandatory:
+If you are connecting to Campaign [via an Adobe ID](../../integrations/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), upgrade to one of the new versions listed below is mandatory:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
-* Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
-* Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
-* Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
-* Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
+* Gold Standard 11. [Learn more](../../rn/using/gold-standard.md)
+* Campaign 21.1.1 release. [Learn more](../../rn/using/latest-release.md)
+* Campaign 20.2.5 release. [Learn more](../../rn/using/release--20-2.md)
+* Campaign 20.1.4 release. [Learn more](../../rn/using/release--20-1.md)
+* Campaign 19.2.4 release. [Learn more](../../rn/using/release--19-2.md)
+* Campaign 19.1.8 release. [Learn more](../../rn/using/release--19-1.md)
 
 These releases come with a new connection protocol: upgrade is mandatory for both Campaign server and Client Console to be able to connect to Campaign after **June 30, 2021**.
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
@@ -95,11 +95,11 @@ Once all instances are upgraded, the Client Console needs to be upgraded to this
 
 * Learn how to access [Adobe Software Distribution](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
-* [Learn how to install Campaign Client Console](../installation/using/installing-the-client-console.md).
+* [Learn how to install Campaign Client Console](../../installation/using/installing-the-client-console.md).
 
 ## Integration with Experience Cloud Triggers {#acc-triggers-updates}
 
-The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **August 18, 2021**. Hosted environments benefit from an extension until  **November 30, 2021**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to November 30, 2021. You must provide [the AppID of the OAuth application](../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
+The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **August 18, 2021**. Hosted environments benefit from an extension until  **November 30, 2021**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to November 30, 2021. You must provide [the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
 
 **Are you impacted?**
 
@@ -107,20 +107,20 @@ If your instances are running on an **older version than Campaign 19.1.8, 20.2.4
 
 Upgrade to one of the new versions listed below is mandatory:
 
-* Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
-* Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
-* Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
+* Gold Standard 11. [Learn more](../../rn/using/gold-standard.md)
+* Campaign 21.1.1 release. [Learn more](../../rn/using/latest-release.md)
+* Campaign 20.2.5 release. [Learn more](../../rn/using/release--20-2.md)
+* Campaign 19.1.8 release. [Learn more](../../rn/using/release--19-1.md)
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
-Once the instances are upgraded to a newer version, all customers need to follow the [procedure move to the new authentication mode](../integrations/using/configuring-adobe-io.md). This requires you to generate the new Adobe I/O token and use it in the implementation.    
+Once the instances are upgraded to a newer version, all customers need to follow the [procedure move to the new authentication mode](../../integrations/using/configuring-adobe-io.md). This requires you to generate the new Adobe I/O token and use it in the implementation.    
 
-In addition, for hybrid environments, customers need to ensure that pipeline is configured on mid-sourcing instance. [Learn more](../integrations/using/configuring-pipeline.md).
+In addition, for hybrid environments, customers need to ensure that pipeline is configured on mid-sourcing instance. [Learn more](../../integrations/using/configuring-pipeline.md).
 
-[Learn how to migrate to Adobe I/O](../integrations/using/configuring-adobe-io.md). 
+[Learn how to migrate to Adobe I/O](../../integrations/using/configuring-adobe-io.md). 
 
 ## APNs updates {#acc-apns-updates}
 
@@ -132,7 +132,7 @@ Since **March 31, 2021**, the Apple Push Notification service (APNs) no longer s
 
 If your instances are running on an **older version than Campaign 21.1,** and you send push notifications with the legacy Apple binary protocol, you need to update to the HTTP/2-based APNs provider API. 
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
@@ -160,7 +160,7 @@ As an on-premise/hybrid customer, you need to update your configuration to ensur
 
 ## Useful links
 
-* [Upgrade your environment](../production/using/build-upgrade.md)
-* [Build upgrade FAQ](../platform/using/faq-build-upgrade.md)
+* [Upgrade your environment](../../production/using/build-upgrade.md)
+* [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 * [Download Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
-* [Make the new Client Console available to users](../installation/using/client-console-availability-for-windows.md)
+* [Make the new Client Console available to users](../../installation/using/client-console-availability-for-windows.md)
