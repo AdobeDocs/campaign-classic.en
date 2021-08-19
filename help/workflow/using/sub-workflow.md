@@ -9,6 +9,8 @@ exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 ---
 # Sub-workflow{#sub-workflow}
 
+![](../../assets/common.svg)
+
 The **[!UICONTROL Sub-workflow]** activity lets you trigger the execution of another workflow and recover the result. This activity lets you use complex workflows while using a simplified interface.
 
 You can call multiple sub-workflows in a single workflow. Sub-workflows are executed synchronously.

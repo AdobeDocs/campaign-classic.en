@@ -8,6 +8,8 @@ exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 ---
 # Configuring events for custom implementation {#events}
 
+![](../../assets/common.svg)
+
 Parts of this configuration is a custom development and requires the following:
 
 * Working knowledge of JSON, XML, and Javascript parsing in Adobe Campaign.

@@ -9,6 +9,8 @@ exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 ---
 # Update data{#update-data}
 
+![](../../assets/common.svg)
+
 An **Update data**-type activity performs a mass update of the fields in the database.
 
 ## Operation type {#operation-type}

@@ -9,6 +9,8 @@ exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 ---
 # Additional data{#additional-data}
 
+![](../../assets/v7-only.svg)
+
 During a call to the Interaction engine, you can transfer contextual additional information. This data can come from the target data stored in the work table of a workflow (outbound channel) or the call data sent by the website during the call (inbound channel). You can use this additional data in the eligibility rules, in offer personalization, and you can also store it in a proposition table.
 
 For the inbound channel, it may be useful to recover information such as the browser language of the people consulting the offer, or the name of the call center agent, for example. You can then use this call data in the eligibility rules to present an offer only to those people viewing the web page in French or English.

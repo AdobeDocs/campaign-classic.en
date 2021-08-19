@@ -9,6 +9,8 @@ exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 ---
 # Hypothesis templates{#hypothesis-templates}
 
+![](../../assets/v7-only.svg)
+
 ## Create a hypothesis model {#creating-a-hypothesis-model}
 
 Configuring the hypothesis template lets you define the context for measuring reactions, whether for a delivery or for an offer. This is where the various measuring tables are referenced, including those for defining relations between individuals, hypotheses and the transaction table.

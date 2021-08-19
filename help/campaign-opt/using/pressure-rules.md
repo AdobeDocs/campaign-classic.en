@@ -9,6 +9,8 @@ exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 ---
 # Pressure rules{#pressure-rules}
 
+![](../../assets/v7-only.svg)
+
 ## About marketing fatigue {#about-marketing-fatigue}
 
 Implementing sales pressure management enables you to avoid over-soliciting the population in the database, also known as marketing fatigue. To do this, you can define a maximum number of messages per recipient. It also lets you implement arbitration rules between campaigns, in order to send the best message to the targeted audience.

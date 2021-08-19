@@ -9,6 +9,8 @@ exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
 ---
 # keyfield element {#keyfield--element}
 
+![](../../assets/v7-only.svg)
+
 ## Content model {#content-model-9}
 
 keyfield:==EMPTY

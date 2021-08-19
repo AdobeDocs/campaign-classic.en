@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Interaction{#interaction}
 
+![](../../assets/common.svg)
+
 The workflows detailed below are installed with the **Offer engine (Interaction)** add-on by default. 
 
 For more on this, depending on your Campaign version, refer to these sections:

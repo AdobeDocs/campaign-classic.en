@@ -9,6 +9,8 @@ exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 ---
 # Using aggregates{#using-aggregates}
 
+![](../../assets/common.svg)
+
 This use case details how to automatically identify the last recipients added to the database.
 
 Using the following process, the creation date of recipients in the database is compared to the last known date on which a recipient was created using an aggregate. All recipients created on the same day will also be selected.

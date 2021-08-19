@@ -9,6 +9,8 @@ exl-id: a104d8ce-1c28-4da9-bcbf-c17adb1c85c1
 ---
 # Starting workflows{#starting-workflows}
 
+![](../../assets/v7-only.svg)
+
 The **[!UICONTROL Managing social networks]** workflows, which are accessed via the **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** node let you synchronize Adobe Campaign with Twitter and Facebook.
 
 The first time you use Social Marketing, these workflows are stopped by default. Start them by clicking the **[!UICONTROL Start]** button in the toolbar.

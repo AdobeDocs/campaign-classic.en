@@ -9,6 +9,8 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 ---
 # Latest release{#latest-release}
 
+![](../../assets/v7-only.svg)
+
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release**.
 
 >[!NOTE]

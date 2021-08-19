@@ -9,6 +9,8 @@ exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
 ---
 # Filtering options{#filtering-options}
 
+![](../../assets/common.svg)
+
 ## About filtering {#about-filtering}
 
 By default, Adobe Campaign displays all the data in the database for which the concerned operator has read rights.

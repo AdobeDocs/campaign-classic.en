@@ -9,6 +9,8 @@ exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 ---
 # Consistency rules{#consistency-rules}
 
+![](../../assets/v7-only.svg)
+
 ## About consistency rules {#about-consistency-rules}
 
 Adobe Campaign guarantees consistent communications thanks to a set of rules contained in campaign typologies. Their aim is to control the deliveries sent to recipients, such as volume, nature, relevance, etc.

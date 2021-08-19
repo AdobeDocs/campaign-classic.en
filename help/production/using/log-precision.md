@@ -9,6 +9,8 @@ exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
 ---
 # Log precision{#log-precision}
 
+![](../../assets/v7-only.svg)
+
 You can apply this process to all Adobe Campaign modules to increase log precision.
 
 It involves relaunching the processes with a higher level of logs.

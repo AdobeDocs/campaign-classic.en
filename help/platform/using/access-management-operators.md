@@ -9,6 +9,8 @@ exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 ---
 # Create and manage operators {#operators}
 
+![](../../assets/common.svg)
+
 ## Get started with Campaign operators  {#about-operators}
 
 An operator is an Adobe Campaign user who has permissions to log in and perform actions.

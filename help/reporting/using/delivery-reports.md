@@ -9,6 +9,8 @@ exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 ---
 # Delivery reports {#delivery-reports}
 
+![](../../assets/common.svg)
+
 You can track the execution of deliveries via various reports accessible from the delivery overview. To display reports, apply the following procedure:
 
 1. Go to the **[!UICONTROL Campaigns]** tab and click the **[!UICONTROL Delivery]** link to display the list of deliveries.

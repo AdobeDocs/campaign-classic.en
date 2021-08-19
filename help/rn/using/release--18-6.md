@@ -12,6 +12,8 @@ exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
 ---
 # Release 18.6{#release-18-6}
 
+![](../../assets/v7-only.svg)
+
 ## Release 18.6.2 - Build 8949{#release-18-6-3-build-8949}
 
 22 August 2018

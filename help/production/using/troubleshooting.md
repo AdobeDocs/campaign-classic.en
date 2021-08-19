@@ -9,6 +9,8 @@ exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 ---
 # Production troubleshooting{#troubleshooting}
 
+![](../../assets/v7-only.svg)
+
 This section contains troubleshooting procedures relating to Adobe Campaign general production issues, such as delivery and workflow execution, monitoring, database maintenance, connection, etc.
 
 ## Common and general issues {#common-and-general-issues}

@@ -9,6 +9,8 @@ exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 ---
 # Monitoring workflow execution {#monitoring-workflow-execution}
 
+![](../../assets/common.svg)
+
 This section presents information on how to monitor your workflows' execution.
 
 A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](supervising-workflows.md#supervising-workflows).

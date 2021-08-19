@@ -9,6 +9,8 @@ exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 ---
 # Create a summary list{#creating-a-summary-list}
 
+![](../../assets/common.svg)
+
 This use case details the creation of a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.
 
 ![](assets/uc2_enrich_overview.png)

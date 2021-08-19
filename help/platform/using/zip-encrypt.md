@@ -9,6 +9,8 @@ exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 ---
 # Zip or encrypt a file {#zipping-or-encrypting-a-file}
 
+![](../../assets/common.svg)
+
 Adobe Campaign lets you export zipped or encrypted files. When defining an export through a **[!UICONTROL Data extraction (file)]** activity, you can define a post-processing to zip or to encrypt the file.
 
 To be able to do so:

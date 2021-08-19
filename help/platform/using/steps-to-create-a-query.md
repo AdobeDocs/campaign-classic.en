@@ -9,6 +9,8 @@ exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 ---
 # Steps to create a query{#steps-to-create-a-query}
 
+![](../../assets/common.svg)
+
 The steps for building a query in Adobe Campaign are as follows:
 
 1. Select the work table. Refer to [Step 1 - Choose a table](#step-1---choose-a-table).

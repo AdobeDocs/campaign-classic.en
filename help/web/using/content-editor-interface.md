@@ -9,6 +9,8 @@ exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 ---
 # Content editor interface{#content-editor-interface}
 
+![](../../assets/common.svg)
+
 ## Editing window {#editing-window}
 
 The DCE editing window is broken down into three different sections. They let you view, modify and check the state of the content.

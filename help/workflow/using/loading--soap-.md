@@ -9,6 +9,8 @@ exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 ---
 # Loading (SOAP){#loading-soap}
 
+![](../../assets/common.svg)
+
 >[!CAUTION]
 >
 >The **Loading (SOAP)** activity is only available if you have the **FDA (Federated Data Access)** module installed. Please check your license agreement.

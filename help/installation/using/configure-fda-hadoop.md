@@ -9,6 +9,8 @@ exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 ---
 # Configure access to Hadoop {#configure-access-to-hadoop}
 
+![](../../assets/v7-only.svg)
+
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Hadoop.
 
 1. Configure [Hadoop database](#configuring-hadoop) 

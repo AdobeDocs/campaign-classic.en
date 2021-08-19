@@ -9,6 +9,8 @@ exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 ---
 # Integration into a Web server for Windows{#integration-into-a-web-server-for-windows}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP (and SOAP).
 
 You can use this integrated Tomcat server to serve HTTP requests.

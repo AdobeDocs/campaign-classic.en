@@ -9,6 +9,8 @@ exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 ---
 # Applying rules{#applying-rules}
 
+![](../../assets/v7-only.svg)
+
 ## Applying a typology to a delivery {#applying-a-typology-to-a-delivery}
 
 In order to apply the typology rules you created, you need to associate it to a typology and then reference this typology in your delivery. To do this:

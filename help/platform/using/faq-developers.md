@@ -9,6 +9,8 @@ exl-id: 20552812-5c58-4d48-9636-d5135197685d
 ---
 # Developers FAQ {#dev-faq}
 
+![](../../assets/common.svg)
+
 As an open solution, Adobe Campaign is ready for customization and advanced applications development.
 
 ## What is the Campaign data model? {#what-is-the-campaign-data-model}

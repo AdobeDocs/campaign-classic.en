@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Distributed Marketing{#distributed-marketing}
 
+![](../../assets/common.svg)
+
 The workflow detailed below is installed with the **Distributed Marketing** module by default. For more on this module, refer to this [section](../../distributed/using/about-distributed-marketing.md).
 
 <table> 

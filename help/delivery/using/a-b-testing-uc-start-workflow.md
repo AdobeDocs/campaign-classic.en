@@ -9,6 +9,8 @@ exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 ---
 # Start the workflow {#step-7--starting-the-workflow}
 
+![](../../assets/common.svg)
+
 1. Click **[!UICONTROL Start]** the workflow.
 
    ![](assets/use_case_abtesting_startwkfl_001.png)

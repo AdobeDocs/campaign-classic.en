@@ -9,6 +9,8 @@ exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
 ---
 # Creating offer categories{#creating-offer-categories}
 
+![](../../assets/v7-only.svg)
+
 The creation of offer categories can only take place in the **[!UICONTROL Design]** environment. They are deployed automatically in the **[!UICONTROL Live]** environment (i.e. made available) when the created/modified offer(s) they contain are approved. By default, the **[!UICONTROL Design]** environment contains a category to receive all offers. Sub-categories can be created to add hierarchy to the catalog offers.
 
 For each category, you can define eligibility dates, i.e. a period beyond which the offers contained in the category may no longer be presented to their target. If you want the offers from a specific category to be selected as a priority by the offer engine, to better expose a product for example, you can increase their weights for a given period by adding a multiplying weight to the category.

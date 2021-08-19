@@ -9,6 +9,8 @@ exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 ---
 # Starting a workflow {#starting-a-workflow}
 
+![](../../assets/common.svg)
+
 A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](scheduler.md)) or activity scheduling.
 
 Actions related to targeting workflow execution (launch, stop, pause, etc.) are **asynchronous** processes: the order is recorded and will be effective as soon as the server is available to apply it.

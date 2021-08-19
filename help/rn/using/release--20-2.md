@@ -9,6 +9,8 @@ exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 ---
 # Release 20.2{#release-20-2}
 
+![](../../assets/v7-only.svg)
+
 ## ![](assets/do-not-localize/limited_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
 _April 15, 2021_

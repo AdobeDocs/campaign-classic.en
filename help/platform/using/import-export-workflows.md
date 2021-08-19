@@ -9,6 +9,8 @@ exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
 ---
 # Import and export data using workflows {#import-export-workflows}
 
+![](../../assets/common.svg)
+
 ## Collecting data {#collecting-data-workflows}
 
 Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.

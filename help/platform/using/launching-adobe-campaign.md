@@ -9,6 +9,8 @@ exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 ---
 # Launch Adobe Campaign{#launching-adobe-campaign}
 
+![](../../assets/common.svg)
+
 Campaign Client console is a rich client which enables you to connect to your Campaign application server(s). Learn how to download and configure the client console in [this page](../../installation/using/installing-the-client-console.md).
 
 

@@ -9,6 +9,8 @@ exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
 ---
 # Publishing on Twitter{#publishing-on-twitter}
 
+![](../../assets/v7-only.svg)
+
 ## Publishing on your Twitter accounts {#publishing-on-your-twitter-accounts}
 
 Once configuration is complete, Social Marketing lets you send tweets to your Twitter accounts.

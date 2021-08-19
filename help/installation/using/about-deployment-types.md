@@ -9,6 +9,8 @@ exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
 ---
 # About deployment types{#about-deployment-types}
 
+![](../../assets/v7-only.svg)
+
 The modular design of Adobe Campaign enables a wide range of deployment configurations, from standalone setups (all components on one machine) to enterprise deployments with fully redundant and distributed architecture using multiple servers. All depends on the required level of performance and security.
 
 In case of a configuration on multiple computers, you don't have to use the same operating system throughout: for instance, you could use a redirection server on Linux + Apache with delivery servers on Windows.

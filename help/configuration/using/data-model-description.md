@@ -9,6 +9,8 @@ exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 ---
 # Campaign data model description{#data-model-description}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction.
 
 To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.

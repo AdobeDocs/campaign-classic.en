@@ -9,6 +9,8 @@ exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 ---
 # Additional parameters{#additional-parameters}
 
+![](../../assets/v7-only.svg)
+
 ## Definition of parameters {#definition-of-parameters}
 
 Your Adobe Campaign platform offers two TRANSACTION-type web-tracking parameters as a standard:

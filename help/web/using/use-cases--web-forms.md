@@ -9,6 +9,8 @@ exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 ---
 # Use cases: web forms{#use-cases-web-forms}
 
+![](../../assets/common.svg)
+
 ## Create a subscription form with double opt-in {#create-a-subscription--form-with-double-opt-in}
 
 When you offer information services, recipients need to subscribe to receive all linked communications. To avoid improper communications and make sure the recipient subscribed intentionally, we recommend sending a subscription confirmation request to create a double opt-in. The subscription will only be effective once the user clicks the link included in the confirmation message.

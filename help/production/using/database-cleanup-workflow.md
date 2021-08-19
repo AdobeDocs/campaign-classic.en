@@ -9,6 +9,8 @@ exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 ---
 # Database cleanup workflow{#database-cleanup-workflow}
 
+![](../../assets/v7-only.svg)
+
 ## Introduction {#introduction}
 
 The **[!UICONTROL Database cleanup]** workflow accessible via the **[!UICONTROL Administration > Production > Technical workflows]** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention.

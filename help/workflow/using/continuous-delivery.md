@@ -9,6 +9,8 @@ exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
 ---
 # Continuous delivery{#continuous-delivery}
 
+![](../../assets/common.svg)
+
 A **Continuous delivery** type action lets you add new recipients to an existing delivery. This delivery type avoids you having to create a new delivery each time: This mode is often more efficient, in particular for low-volume alerts or notifications sent out as and when needed.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#continuous-delivery-video)

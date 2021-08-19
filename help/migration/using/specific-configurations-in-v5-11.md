@@ -9,6 +9,8 @@ exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
 ---
 # Specific configurations in v5.11{#specific-configurations-in-v5-11}
 
+![](../../assets/v7-only.svg)
+
 This section details the additional configuration required when migrating from v5.11. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
 
 ## Web applications {#web-applications}

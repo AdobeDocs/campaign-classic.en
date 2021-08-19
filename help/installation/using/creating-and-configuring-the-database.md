@@ -9,6 +9,8 @@ exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 ---
 # Creating and configuring the database{#creating-and-configuring-the-database}
 
+![](../../assets/v7-only.svg)
+
 When you create a database, Adobe Campaign provides two different options:
 
 1. Creating or recycling a database: choose this options if you want to create a new database or re-use an existing one. Refer to [Case 1: Creating/recycling a database](#case-1--creating-recycling-a-database).

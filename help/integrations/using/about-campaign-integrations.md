@@ -9,6 +9,8 @@ exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 ---
 # Get started with Adobe Campaign integrations {#about-campaign-integrations}
 
+![](../../assets/common.svg)
+
 Adobe Experience Cloud is a comprehensive set of best-in-class, integrated solutions built on a common data platform with a common set of powerful core services.
 
 Learn about functional integrations available between Adobe Campaign and [Adobe Experience Cloud solutions](https://experienceleague.adobe.com/docs/core-services/interface/marketing-cloud-integrations.html) and [core services](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html). You can then modernize your solution implementations and implement the Experience Cloud so that you can use features like customer attributes and audiences.

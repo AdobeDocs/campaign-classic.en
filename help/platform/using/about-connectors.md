@@ -9,6 +9,8 @@ exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
 ---
 # Get started with connectors{#about-connectors}
 
+![](../../assets/common.svg)
+
 Adobe Campaign provides several connectors that allow you to communicate with external applications, connect to database engines, and integrate with Adobe Analytics to share data.
 
 Available connectors are listed below:

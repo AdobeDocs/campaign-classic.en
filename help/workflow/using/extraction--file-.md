@@ -9,6 +9,8 @@ exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
 ---
 # Data extraction (file){#extraction-file}
 
+![](../../assets/common.svg)
+
 You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
 
 >[!CAUTION]

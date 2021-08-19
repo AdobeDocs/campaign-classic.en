@@ -9,6 +9,8 @@ exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
 ---
 # About event activities{#about-event-activities}
 
+![](../../assets/common.svg)
+
 The main task of these activities consists of waiting for an event. It can be, for example, receipt of a file, an email, or a signal sent by the program.
 
 * File collector: monitors the arrival of one or more files in a directory and enables transition for each received file. Refer to [File collector](file-collector.md).

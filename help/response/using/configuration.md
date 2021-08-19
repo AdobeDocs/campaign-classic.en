@@ -9,6 +9,8 @@ exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 ---
 # Configure Campaign Response Manager{#configuration}
 
+![](../../assets/v7-only.svg)
+
 This section is intended for persons responsible for configuring response management. It assumes a certain amount of knowledge about extending schemas, defining workflows, and SQL programming.
 
 This lets you understand how to adapt the standard data model to the specific nature of a transaction table external to Adobe Campaign with the table of individuals. This table of individuals can coincide with the table of available individuals in Adobe Campaign or with a different table

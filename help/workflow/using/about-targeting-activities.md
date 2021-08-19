@@ -9,6 +9,8 @@ exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 ---
 # About targeting activities{#about-targeting-activities}
 
+![](../../assets/common.svg)
+
 These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
 
 * **Query**: lets you run a query. Refer to [Creating a query](query.md#creating-a-query).

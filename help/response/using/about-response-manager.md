@@ -9,6 +9,8 @@ exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 ---
 # Get started with Campaign Response Manager{#about-response-manager}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign offers a Response Management add-on that lets you measure the success and profitability of marketing campaigns or offer propositions across communication channels: email, mobile, direct mail, etc.
 
 ## Hypothesis {#hypothesis-concept}

@@ -9,6 +9,8 @@ exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 ---
 # About flow control activities{#about-flow-control-activities}
 
+![](../../assets/common.svg)
+
 The following activities are database activities: Their main task is to coordinate the other activities.
 
 * **Start and End**: allow you to show the start and end points of a workflow. Refer to [Start and end](start-and-end.md).

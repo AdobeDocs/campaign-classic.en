@@ -9,6 +9,8 @@ exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 ---
 # Web service calls{#web-service-calls}
 
+![](../../assets/v7-only.svg)
+
 ## General information {#general-information}
 
 All API methods are presented in the form of Web services. This enables you to manage all Adobe Campaign functions via SOAP calls, which are the native entry point of the Adobe Campaign application server. The Adobe Campaign console itself only uses SOAP calls.

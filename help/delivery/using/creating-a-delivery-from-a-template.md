@@ -9,6 +9,8 @@ exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 ---
 # Creating a delivery from a template{#creating-a-delivery-from-a-template}
 
+![](../../assets/common.svg)
+
 ## Linking the template to a delivery {#linking-the-template-to-a-delivery}
 
 To create a delivery based on an existing template, select the template from the list of available delivery templates.

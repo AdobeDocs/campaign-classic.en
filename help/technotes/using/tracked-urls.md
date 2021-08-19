@@ -7,6 +7,8 @@ hidefromtoc: yes
 ---
 # Tracked URLs signature issue {#tracked-urls}
 
+![](../../assets/v7-only.svg)
+
 Following recent changes, tracked URLs can fail when URL signature is active in Campaign. Some mailboxes can be more impacted than others, as some companies have specific security tools which can impact links and alter the URL signature mechanism.
 
 As a consequence, Adobe recommends that you disable the signature mechanism for tracking links. This procedure fixes old tracking links except the ones received with a double escaping.

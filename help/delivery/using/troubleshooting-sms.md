@@ -9,6 +9,8 @@ exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 ---
 # SMS Troubleshooting {#troubleshooting-sms}
 
+![](../../assets/common.svg)
+
 ## Conflict between different external accounts {#external-account-conflict}
 
 If the instance has multiple SMS external accounts, you must check that problems are not caused by a conflict between external accounts.

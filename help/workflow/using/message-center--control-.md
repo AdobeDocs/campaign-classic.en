@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Message Center (Control){#message-center-control}
 
+![](../../assets/common.svg)
+
 The workflow detailed below is scheduled to run every hour. It is installed with the **Message Center - Control** module by default. 
 
 

@@ -9,6 +9,8 @@ exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 ---
 # Create a new report{#creating-a-new-report}
 
+![](../../assets/common.svg)
+
 To create a report, apply the following steps:
 
 1. Open the Adobe Campaign Explorer and from the **[!UICONTROL Administration > Configuration]** node, then select the **[!UICONTROL Reports]** folder.

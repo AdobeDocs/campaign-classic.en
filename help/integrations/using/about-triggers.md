@@ -8,6 +8,8 @@ exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 ---
 # Get started with Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}
 
+![](../../assets/common.svg)
+
 [!DNL Triggers] is an integration between Adobe Campaign and Adobe Analytics using the pipeline. The pipeline retrieves users' actions or triggers from your website. A cart abandonment is an example of trigger. Triggers are processed in Adobe Campaign to send emails in near real time.
 
 >[!CAUTION]

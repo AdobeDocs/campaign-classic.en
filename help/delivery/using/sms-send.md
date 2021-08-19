@@ -9,6 +9,8 @@ exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 ---
 # Send, monitor and track SMS deliveries{#sms-properties}
 
+![](../../assets/common.svg)
+
 ## Send SMS messages {#sending-sms-messages}
 
 To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.

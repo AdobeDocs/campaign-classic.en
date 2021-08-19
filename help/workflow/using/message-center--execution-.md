@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Message Center (Execution){#message-center-execution}
 
+![](../../assets/common.svg)
+
 The workflows detailed below are installed with the **Message Center - Execution** add-on by default. 
 
 For more on this, depending on your Campaign version, refer to these sections:

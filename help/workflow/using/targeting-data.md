@@ -9,6 +9,8 @@ exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 ---
 # Targeting data{#targeting-data}
 
+![](../../assets/common.svg)
+
 ## Creating queries {#creating-queries}
 
 ### Selecting data {#selecting-data}

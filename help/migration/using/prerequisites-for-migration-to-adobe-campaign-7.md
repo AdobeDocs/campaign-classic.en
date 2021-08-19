@@ -9,6 +9,8 @@ exl-id: 747d8a2c-b13a-4852-a9b5-0d37b236a36f
 ---
 # Prerequisites for migration to Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
 
+![](../../assets/v7-only.svg)
+
 Before running any migration, consult the [Before starting migration](../../migration/using/before-starting-migration.md) and [Configuring your platform](../../migration/using/configuring-your-platform.md) sections.
 
 When migrating from v6.02 to Adobe Campaign v7, some files delivered beforehand are not delivered.

@@ -9,6 +9,8 @@ exl-id: d133efec-33e1-4711-a90f-e40385059386
 ---
 # Using an analysis report{#processing-a-report}
 
+![](../../assets/common.svg)
+
 ## Saving an analysis report {#saving-an-analysis-report}
 
 If you have the appropriate rights, you can save an analysis report created from a template or export it in Excel, PDF, or OpenOffice format.

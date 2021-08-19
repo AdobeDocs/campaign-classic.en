@@ -9,6 +9,8 @@ exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 ---
 # Control rules{#control-rules}
 
+![](../../assets/v7-only.svg)
+
 ## Analysis and arbitration control rules {#analysis-and-arbitration-control-rules}
 
 Control rules let you guarantee the validity and quality of messages prior to delivery: character display, SMS size, address format, etc.

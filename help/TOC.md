@@ -33,11 +33,11 @@ type: Documentation
     + [Release 18.4](rn/using/release--18-4.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
-  + [Technotes](technotes/technote.md)
-  + [iOS certificate update](technotes/ios-certificate-update.md)
-  + [Campaign configuration updates](technotes/acc-config-updates.md)
-  + [Tracked URLs update](technotes/tracked-urls.md)
-  + [IMS updates](technotes/ims-updates.md)
+  + [Technotes](technotes/using/technote.md)
+  + [iOS certificate update](technotes/using/ios-certificate-update.md)
+  + [Campaign configuration updates](technotes/using/acc-config-updates.md)
+  + [Tracked URLs update](technotes/using/tracked-urls.md)
+  + [IMS updates](technotes/using/ims-updates.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -114,7 +114,7 @@ type: Documentation
           + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
        + Adobe Analytics Connector{#analytics-connector}
           + [Adobe Analytics Connector integration](platform/using/adobe-analytics-connector.md)
-          + [How to migrate to Adobe Analytics Connector](technotes/aa-connector-migration.md)
+          + [How to migrate to Adobe Analytics Connector](technotes/using/aa-connector-migration.md)
           + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}

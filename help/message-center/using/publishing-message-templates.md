@@ -9,6 +9,8 @@ exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 ---
 # Publish message templates {#publishing-template-messages}
 
+![](../../assets/v7-only.svg)
+
 ## Template publication {#template-publication}
 
 When the [message template](../../message-center/using/creating-the-message-template.md) created on the control instance is complete and once you have [tested](../../message-center/using/testing-message-templates.md) it, you can publish it. This process will also publish it on all execution instances.

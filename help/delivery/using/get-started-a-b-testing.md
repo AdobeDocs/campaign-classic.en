@@ -9,6 +9,8 @@ exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
 ---
 # Get started with A/B testing {#get-started-a-b-testing}
 
+![](../../assets/common.svg)
+
 A/B testing allows you to compare multiple versions of a delivery against each other, in order to identify which one will have the biggest impact on the targeted population.
 
 To do this, you first need to define multiple variants of the delivery. Each variant is then sent to population samples in order to determine which one performs better depending on the criteria of your choice (opens, spam complaints, clicks on a specific link, ...). 

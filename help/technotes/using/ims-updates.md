@@ -6,6 +6,8 @@ hide: yes
 hidefromtoc: yes
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}
+
+![](../../assets/v7-only.svg)
  
 On June 30, 2021 changes will be made to [Adobe Identity Management System](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) login capabilities that could impact your ability to continue to use Adobe Campaign. Learn how to ensure you continue to use Adobe Campaign Classic v7 without interruption. 
 

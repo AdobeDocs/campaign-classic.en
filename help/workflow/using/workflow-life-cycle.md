@@ -9,6 +9,8 @@ exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 ---
 # Workflow life cycle {#workflow-life-cycle}
 
+![](../../assets/common.svg)
+
 The workflow cycle has three main steps.
 
 * **Being edited**

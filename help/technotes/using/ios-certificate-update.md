@@ -8,6 +8,8 @@ exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 ---
 # Apple Push Notification service server certificate update {#apns-certificate-update}
 
+![](../../assets/v7-only.svg)
+
 On March 29 2021, an Apple Push Notification service (APNs) infrastructure update will impact Adobe Campaign Classic iOS channel. An OS configuration change is **mandatory** to avoid iOS push channel outage.
  
 Learn more about APNs changes [in this page](https://developer.apple.com/news/?id=7gx0a2lp).

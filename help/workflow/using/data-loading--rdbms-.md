@@ -9,6 +9,8 @@ exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
 ---
 # Data loading (RDBMS){#data-loading-rdbms}
 
+![](../../assets/common.svg)
+
 The **[!UICONTROL Data loading (RDBMS)]** activity lets you access this external database directly and to collect only the data required for targeting.
 
 To improve performance, we recommend using the query activity (where the data of an external database can be used). For more on this, refer to [Accessing an external database (FDA)](accessing-an-external-database--fda-.md).

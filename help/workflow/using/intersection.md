@@ -9,6 +9,8 @@ exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---
 # Intersection{#intersection}
 
+![](../../assets/common.svg)
+
 An **Intersection**-type activity creates a target from the intersection of the targets received.
 
 An intersection lets you extract only the population that is common to all inbound activity results. The target is created with all results received: all prior activities must therefore be finished before the intersection can be executed. To configure this activity, you need to enter a label for it as well as the options concerning the result.

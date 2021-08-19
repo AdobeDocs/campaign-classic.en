@@ -9,6 +9,8 @@ exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
 ---
 # Quarterly list update using an incremental query {#quarterly-list-update}
 
+![](../../assets/common.svg)
+
 In the following example, an [incremental query](incremental-query.md) is used to automatically update a recipient list. These recipients are targeted as part of seasonal marketing campaigns.
 
 As these campaigns are launched at the beginning of every season in order to offer relevant sports activities, these lists are updated every quarter. However, a recipient here must only be targeted once every 9 months by this campaign. This allows you to space out the recipient's eligibility frequency and to offer activities for different seasons over the years.

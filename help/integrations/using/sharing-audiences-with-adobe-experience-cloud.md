@@ -9,6 +9,8 @@ exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
 ---
 # Sharing audiences with Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}
 
+![](../../assets/common.svg)
+
 >[!CAUTION]
 >
 >To share audiences with Adobe Experience Cloud solutions, you need to implement Adobe Identity Management System. [Learn more about IMS](../../integrations/using/about-adobe-id.md).

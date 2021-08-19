@@ -8,6 +8,8 @@ exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 ---
 # Adobe Campaign configuration updates - March 2021 {#acc-config-updates}
 
+![](../../assets/v7-only.svg)
+
 Infrastructure and settings should be regularly updated with the latest builds and product fixes. These fixes are necessary to ensure continuity of service and security. In addition, upgrades will be required to align with third-party changes.
 
 As a **Hosted or Managed Services customer**, Adobe will inform you of build upgrades at regular intervals. You will be required to upgrade in accordance with the recommendations to ensure compliance.

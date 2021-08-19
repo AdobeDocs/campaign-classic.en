@@ -9,6 +9,8 @@ exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
 ---
 # Union{#union}
 
+![](../../assets/common.svg)
+
 A union groups the result of several inbound activities in a single target. The target is created with all results received: all prior activities must therefore be finished for the union to be executed. 
 
 ![](assets/s_user_segmentation_union.png)

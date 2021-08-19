@@ -9,6 +9,8 @@ exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 ---
 # Data loading (file){#data-loading-file}
 
+![](../../assets/common.svg)
+
 ## Use {#use}
 
 The **[!UICONTROL Data loading (File)]** activity lets you directly access a source of external data and use it in Adobe Campaign. Indeed, all the data required for targeting operations isn't always found in the Adobe Campaign database: it can be made available in external files.

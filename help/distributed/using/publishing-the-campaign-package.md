@@ -9,6 +9,8 @@ exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 ---
 # Publishing the campaign package{#publishing-the-campaign-package}
 
+![](../../assets/v7-only.svg)
+
 Central entity operators publish campaigns they wish to offer to local entities in the **[!UICONTROL list of campaign packages]**.
 
 Before they can be published in the campaign package list, the campaign packages have to be approved by the central entity. To do this, you can specify a reviewer or group of reviewers via the **[!UICONTROL Approval parameters]** link in the campaign package.

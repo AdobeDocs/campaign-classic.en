@@ -9,6 +9,8 @@ exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 ---
 # Command lines{#command-lines}
 
+![](../../assets/v7-only.svg)
+
 The following command lines require the ability to access the application server. For deployments hosted by Adobe, these commands can only be executed by Adobe.
 
 ## Create an instance {#creating-an-instance}

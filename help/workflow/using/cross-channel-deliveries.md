@@ -9,6 +9,8 @@ exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 ---
 # Cross-channel deliveries{#cross-channel-deliveries}
 
+![](../../assets/common.svg)
+
 Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of campaign workflow activities.
 
 The various channels available are:

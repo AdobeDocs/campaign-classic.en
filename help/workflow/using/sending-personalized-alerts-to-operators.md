@@ -9,6 +9,8 @@ exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 ---
 # Sending personalized alerts to operators{#sending-personalized-alerts-to-operators}
 
+![](../../assets/common.svg)
+
 In this example, we want to send an alert to an operator that will contain the name of profiles who opened a newsletter but did not click the link it contains.
 
 The profiles' first and last name fields are linked to the **[!UICONTROL Recipients]** targeting dimension, whereas the **[!UICONTROL Alert]** activity is linked to the **[!UICONTROL Operator]** targeting dimension. As a result, there is no field available between the two targeting dimensions to perform a reconciliation and retrieve the first and last name fields, and display them in the Alert activity.

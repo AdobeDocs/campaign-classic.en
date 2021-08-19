@@ -9,6 +9,8 @@ exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 ---
 # Delivery sending troubleshooting {#delivery-troubleshooting}
 
+![](../../assets/common.svg)
+
 This section lists common issues you may encounter when sending deliveries, and how to troubleshoot them.
 
 Additionally, make sure you follow the best practices and checklist detailed in [this page](delivery-performances.md) to ensure your deliveries perform well.

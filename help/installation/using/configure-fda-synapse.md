@@ -9,6 +9,8 @@ exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 ---
 # Configure access to Azure Synapse {#configure-access-to-azure-synapse}
 
+![](../../assets/v7-only.svg)
+
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Microsoft Azure Synapse Analytics.
 
 1. Configure Azure Synapse on [CentOS](#azure-centos), [Windows](#azure-windows) or [Debian](#azure-debian)

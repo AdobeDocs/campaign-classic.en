@@ -9,6 +9,8 @@ exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 ---
 # Publishing a web form{#publishing-a-web-form}
 
+![](../../assets/common.svg)
+
 ## Pre-loading the form data {#pre-loading-the-form-data}
 
 If you wish to update the profiles stored in the database via a Web form, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database.

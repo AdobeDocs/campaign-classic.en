@@ -9,6 +9,8 @@ exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 ---
 # General architecture{#general-architecture}
 
+![](../../assets/v7-only.svg)
+
 The typical Adobe Campaign solution deployment consists of the following components:
 
 * **Personalized Client Environment**

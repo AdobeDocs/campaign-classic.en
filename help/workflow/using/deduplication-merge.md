@@ -16,6 +16,8 @@ exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 ---
 # Using the Deduplication activity's Merge functionality {#deduplication-merge}
 
+![](../../assets/common.svg)
+
 ## About this use case {#about-this-use-case}
 
 This use case describes how to use of the **[!UICONTROL Merge]** functionality in the **[!UICONTROL Deduplication]** activity.

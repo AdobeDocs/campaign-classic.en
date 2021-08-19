@@ -9,6 +9,8 @@ exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 ---
 # Design a web application{#designing-a-web-application}
 
+![](../../assets/common.svg)
+
 Web applications are created and managed according to the same principle as [web forms](about-web-forms.md).
 
 >[!CAUTION]

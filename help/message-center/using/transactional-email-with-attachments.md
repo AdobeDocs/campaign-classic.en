@@ -9,6 +9,8 @@ exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
 ---
 # Use case: Send transactional emails with attachments {#transactional-email-with-attachments}
 
+![](../../assets/v7-only.svg)
+
 The purpose of this use case is to add email attachments on the fly to outbound dispatches.
 
 ## Key steps {#key-steps}

@@ -9,6 +9,8 @@ exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 ---
 # Configure email BCC {#email-archiving}
 
+![](../../assets/v7-only.svg)
+
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
 However, Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated address, from where they can be processed and archived using an external system.

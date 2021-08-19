@@ -9,6 +9,8 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 ---
 # Deploying an instance{#deploying-an-instance}
 
+![](../../assets/v7-only.svg)
+
 >[!NOTE]
 >
 >Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).

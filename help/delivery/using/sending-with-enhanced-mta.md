@@ -9,6 +9,8 @@ exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 ---
 # Sending with the Enhanced MTA {#sending-with-enhanced-mta}
 
+![](../../assets/common.svg)
+
 The **Adobe Campaign Enhanced MTA** (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for improved deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
 
 It is implemented to improve scalability, increase delivery throughput and help send more emails faster. This is achieved with new adaptive delivery techniques that alter email sending settings in real-time based on feedback from Internet Service Providers.

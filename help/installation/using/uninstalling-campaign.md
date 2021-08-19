@@ -9,6 +9,8 @@ exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
 ---
 # Uninstalling Campaign{#uninstalling-campaign}
 
+![](../../assets/v7-only.svg)
+
 >[!CAUTION]
 >
 >These procedures will uninstall permanently Adobe Campaign. All data will be lost.

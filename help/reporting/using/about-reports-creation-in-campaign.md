@@ -9,6 +9,8 @@ exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 ---
 # Key steps to create a report{#about-reports-creation-in-campaign}
 
+![](../../assets/common.svg)
+
 To produce statistics on the data in your Campaign database, you can create reports and adapt their content and layout based on your needs. These reports can be shared with other operators.
 
 >[!NOTE]

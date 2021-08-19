@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Deliveries{#deliveries}
 
+![](../../assets/common.svg)
+
 The workflows detailed below are installed with the **Deliveries** module by default.
 
 <table> 

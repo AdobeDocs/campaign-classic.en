@@ -9,6 +9,8 @@ exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 ---
 # Configuring your platform{#configuring-your-platform}
 
+![](../../assets/v7-only.svg)
+
 Certain major changes in Adobe Campaign v7 require a configuration to ensure its effective operation. These parameters may be necessary before or after migrating. The concerned changes and their configuration mode are presented in this section.
 
 During migration, the **NmsRecipient** table is rebuilt from the schemas definition. Any change made to the SQL structure of this table outside of Adobe Campaign will be lost.

@@ -9,6 +9,8 @@ exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 ---
 # Use cases: create overview pages{#use-cases-creating-overviews}
 
+![](../../assets/common.svg)
+
 In the following example, we will create overview-type Web applications to display all the Web applications in your database. Configure the following elements:
 
 * a filter on the folder (refer to [Adding a filter on a folder](#adding-a-filter-on-a-folder)),

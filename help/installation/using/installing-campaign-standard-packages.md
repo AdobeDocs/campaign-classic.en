@@ -9,6 +9,8 @@ exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 ---
 # Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
 
+![](../../assets/v7-only.svg)
+
 ## About built-in packages {#campaign-standard-packages}
 
 Built-in packages contain a set of features that can be installed according to your needs and depending on your contract. The full list of Campaign built-in packages is available below.

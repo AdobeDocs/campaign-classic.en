@@ -9,6 +9,8 @@ exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
 ---
 # Offer engine{#offer-engine}
 
+![](../../assets/common.svg)
+
 The **[!UICONTROL Offer engine]** activity lets you define a call to the offer engine prior to a delivery.
 
 This activity works on the same principle as the enrichment activity with an engine call, by enriching the inbound population data with an offer calculated by the engine, before a delivery.

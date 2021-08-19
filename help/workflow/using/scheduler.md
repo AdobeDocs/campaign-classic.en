@@ -9,6 +9,8 @@ exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 ---
 # Scheduler {#scheduler}
 
+![](../../assets/common.svg)
+
 The **Scheduler** is a persistent task that activates its transition at the times specified by its schedule.
 
 The **[!UICONTROL Scheduler]** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. This activity must not have an inbound transition.

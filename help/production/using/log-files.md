@@ -9,6 +9,8 @@ exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 ---
 # Log files{#log-files}
 
+![](../../assets/v7-only.svg)
+
 The log files are organized as follows:
 
 ![](assets/d_ncs_directory.png)
