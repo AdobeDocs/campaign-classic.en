@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Campaign Classic Documentation Updates
 description: This page lists all the new features and updates in Adobe Campaign Classic documentation
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 ---
@@ -12,6 +12,11 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 This page lists all the new features and documentation updates per month and Campaign release.
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
+
+## July 2021 {#july-2021}
+
+[Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330) has moved to General Availability (GA).
+
 
 ## June 2021 {#june-2021}
 
@@ -456,7 +461,7 @@ The Delivery Best Practices getting started guide has been updated. [Read more](
 
 ## October 2019 {#october-2019}
 
-The list of error messages for Campaign has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+The list of error messages for Campaign has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
@@ -510,7 +515,7 @@ The description of the pre-process workflow option has been updated to reflect p
 
 The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 
-The list of error messages has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+The list of error messages has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 Added more information on SOAP authentication methods for transactional messaging. [Read more](../../message-center/using/event-description.md)
 

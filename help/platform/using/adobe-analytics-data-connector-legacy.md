@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Analytics Data Connector
 description: Adobe Analytics Data Connector
 feature: Overview
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: yes

@@ -3,7 +3,7 @@ product: campaign
 title: About Adobe Campaign Classic
 description: Discover key capabilities, user interface and global guidelines.
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 ---

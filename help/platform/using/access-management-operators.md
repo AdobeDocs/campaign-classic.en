@@ -3,7 +3,7 @@ product: campaign
 title: Get started with Campaign operators
 description: Learn how to create and manage campaign users
 feature: Access Management
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 ---

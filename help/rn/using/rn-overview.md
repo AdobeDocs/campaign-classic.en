@@ -3,7 +3,7 @@ product: campaign
 title: Get started with upgrades
 description: Learn more about Campaign Classic upgrades
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
@@ -21,7 +21,7 @@ A status is associated to each build. You'll find below the list of statuses and
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 
-The **last GA builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md) and [Campaign 20.2.5 release](../../rn/using/release--20-2.md)
+The **last GA builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md) and [Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330).
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 

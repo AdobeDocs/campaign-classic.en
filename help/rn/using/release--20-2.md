@@ -3,13 +3,13 @@ product: campaign
 title: Release 20.2
 description: Release 20.2
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 ---
 # Release 20.2{#release-20-2}
 
-## ![](assets/do-not-localize/green_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
+## ![](assets/do-not-localize/limited_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
 _April 15, 2021_
 
@@ -57,7 +57,7 @@ _December 22, 2020_
 >
 > * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**.  [Learn more](../../technotes/ims-updates.md)
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **August 18, 2021**. Hosted environments benefit from an extension until  **November 30, 2021**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to November 30, 2021. You must provide [the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
 
 **Improvements**
 

@@ -74,7 +74,7 @@ If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
 * Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
 * Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
@@ -97,7 +97,7 @@ Once all instances are upgraded, the Client Console needs to be upgraded to this
 
 ## Integration with Experience Cloud Triggers {#acc-triggers-updates}
 
-The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. It will be retired on **November 30, 2021**. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email). 
+The legacy oAuth authentication service has reached end-of-life. Triggers integration authentication, originally based on oAUTH authentication setup to access pipeline, has moved to Adobe I/O. Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **August 18, 2021**. Hosted environments benefit from an extension until  **November 30, 2021**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to November 30, 2021. You must provide [the AppID of the OAuth application](../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
 
 **Are you impacted?**
 
