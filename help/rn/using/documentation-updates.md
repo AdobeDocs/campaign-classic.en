@@ -44,7 +44,7 @@ Campaign Client Console requirements have been updated in the Compatibility Matr
 
 Campaign Client Console installation for steps have been improved and clarified. [Read more](../../installation/using/installing-the-client-console.md)
 
-A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/tracked-urls.md)
+A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/using/tracked-urls.md)
 
 ## April 2021 {#april-2021}
 

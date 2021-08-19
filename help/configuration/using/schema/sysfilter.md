@@ -9,7 +9,7 @@ exl-id: a0069688-fd05-42e9-91dd-adc10bea3461
 ---
 # sysfilter element {#sysfilter--element}
 
-![](../../assets/v7-only.svg)
+![](../../../assets/v7-only.svg)
 
 ## Content model {#content-model-15}
 

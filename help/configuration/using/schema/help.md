@@ -9,7 +9,7 @@ exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
 ---
 # help element {#help--element}
 
-![](../../assets/v7-only.svg)
+![](../../../assets/v7-only.svg)
 
 ## Content model {#content-model-6}
 

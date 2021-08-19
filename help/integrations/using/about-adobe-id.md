@@ -32,7 +32,7 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 > * [Campaign 19.2.4](../../rn/using/release--19-2.md) 
 > * [Campaign 19.1.8](../../rn/using/release--19-1.md)
 >
-> [!DNL :bulb:] [Learn more about IMS updates](../../technotes/ims-updates.md)
+> [!DNL :bulb:] [Learn more about IMS updates](../../technotes/using/ims-updates.md)
 >
 
 ## More resources

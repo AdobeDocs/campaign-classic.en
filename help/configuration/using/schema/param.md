@@ -9,7 +9,7 @@ exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 ---
 # param element {#param--element}
 
-![](../../assets/v7-only.svg)
+![](../../../assets/v7-only.svg)
 
 ## Content model {#content-model-12}
 
