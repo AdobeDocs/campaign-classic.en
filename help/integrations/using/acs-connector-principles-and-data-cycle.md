@@ -9,7 +9,7 @@ exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 ---
 # ACS Connector principles and data cycle{#acs-connector-principles-and-data-cycle}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 

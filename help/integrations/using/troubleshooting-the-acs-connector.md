@@ -9,7 +9,7 @@ exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 ---
 # Troubleshooting the ACS Connector{#troubleshooting-the-acs-connector}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Depending on your implementation, you can face several common issues.
 

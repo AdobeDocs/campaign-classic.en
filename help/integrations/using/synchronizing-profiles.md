@@ -9,7 +9,7 @@ exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 ---
 # Synchronizing profiles{#synchronizing-profiles}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ACS Connector replicates data from Campaign v7 to Campaign Standard. The data received from Campaign v7 can be used in Campaign Standard to create deliveries. You can see how profiles are synchronized by performing the operations listed below.
 
