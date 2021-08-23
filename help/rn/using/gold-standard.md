@@ -15,7 +15,7 @@ This page lists [!DNL Gold Standard] releases. Learn more about Campaign [!DNL G
 
 _August 27, 2021_
 
-The build 9032&#64;xxxxxx includes the following fix:
+The build 9032&#64;99a3894 includes the following fix:
 
 * The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded.
 * Fixed an issue with date pickers which could result in a console display error. (NEO-36345)
