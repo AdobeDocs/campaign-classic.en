@@ -44,7 +44,7 @@ _August 27, 2021_
 * Fixed an error when connecting to Microsoft CRM using web API. The error message has been removed since functionalities were not impacted.
 * Fixed a tracking log deduplication issue when the mid server was set as a relay between tracking and marketing servers. (NEO-36285)
 * Fixed a regression which prevented Vault from being used as a specific code store.
-* Fixed a regression which caused schema root node information from displaying.
+* Fixed a regression which prevented schema node information from displaying.
 
 ## ![](assets/do-not-localize/green_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
