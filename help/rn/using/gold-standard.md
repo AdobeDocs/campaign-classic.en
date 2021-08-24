@@ -21,7 +21,7 @@ The build 9032&#64;99a3894 includes the following fixes:
 * Fixed an issue with date pickers which could result in a console display error. (NEO-36345)
 
 
-## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 release{#gs-11}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 11 release{#gs-11}
 
 _April 14, 2021_
 

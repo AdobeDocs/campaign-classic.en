@@ -13,9 +13,9 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 >[!NOTE]
 >
->Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330).
+>Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 12 release](../../rn/using/gold-standard.md#gs-12) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9337).
 
-## ![](assets/do-not-localize/blue_2.png) Release 21.1.4 - Build 9337 {#release-21-1-4-build-9337}
+## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9337 {#release-21-1-4-build-9337}
 
 _August 27, 2021_
 
@@ -44,9 +44,8 @@ _August 27, 2021_
 * Fixed an error when connecting to Microsoft CRM using web API. The error message has been removed since functionalities were not impacted.
 * Fixed a tracking log deduplication issue when the mid server was set as a relay between tracking and marketing servers. (NEO-36285)
 * Fixed a regression which prevented Vault from being used as a specific code store.
-* Fixed a regression which prevented schema node information from displaying.
 
-## ![](assets/do-not-localize/green_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+## ![](assets/do-not-localize/red_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
 _June 5, 2021_
 
