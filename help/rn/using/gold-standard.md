@@ -18,7 +18,7 @@ _August 27, 2021_
 The build 9032&#64;99a3894 includes the following fixes:
 
 * The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded.
-* Fixed an issue with date pickers which could result in a console display error. (NEO-36345)
+* Fixed an issue with date pickers which could result in a console displaying blocker error message. (NEO-36345)
 
 
 ## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 11 release{#gs-11}

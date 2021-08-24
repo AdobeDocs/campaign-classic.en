@@ -21,7 +21,7 @@ _August 27, 2021_
 
 **Security enhancements**
 
-* Fixed a security issue to reinforce protection against Directory traversal attack attacks. (NEO-28547)
+* Fixed a security issue to reinforce protection against directory traversal attacks. (NEO-28547)
 
 **Improvements**
 
