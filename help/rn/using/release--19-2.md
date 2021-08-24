@@ -2,9 +2,6 @@
 product: campaign
 title: Release 19.2
 description: Release notes for Campaign 19.2
-feature:
-role: 
-level:
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 ---
 # Release 19.2{#release-19-2}
