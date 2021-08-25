@@ -30,7 +30,7 @@ _August 27, 2021_
 <td>
 <p>The new <b>Change Data Source</b> workflow activity allows you to change the data source of a workflow's working table. This provides enhanced flexibility in managing data across different data sources (FDA & local database).</p>
 <p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
-<p>For more information, refer to the <a href="../config/workflows.md#change-data-source-activity">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../../config/workflows.md#change-data-source-activity">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -42,14 +42,14 @@ _August 27, 2021_
 
 **Improvements**
 
-* Following its end of life, Flash has been removed from all related Campaign features and components, and replaced with HTML5. The **Gauge** type of chart has been removed. (NEO-30330)
-* When designing an email message in text format (**Text content** tab), you can now use delimiters to enclose URLs for tracked links. This improvement ensures that URLs are not broken.
+* Following its end of life, Flash has been removed from all related Campaign features and components, and replaced with HTML5. The **Gauge** type of chart has been removed. (NEO-30330) [Read more](../../reporting/using/creating-a-chart.md)
+* When designing an email message in text format (**Text content** tab), you can now use delimiters to enclose URLs for tracked links. This improvement ensures that URLs are not broken. [Read more](../../delivery/using/how-to-configure-tracked-links.md)
 * When installing the client console on Windows, the installer now checks if there is a parent registry node and creates one if it is missing. This prevents potential issues when launching the console. (NEO-34854)
 * The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded. 
 
 **Other changes**
 
-* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. 
+* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../delivery/using/how-to-configure-tracked-links.md)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
 * A guardrail has been added to only allow the billing workflow to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
