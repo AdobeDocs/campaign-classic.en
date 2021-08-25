@@ -72,12 +72,16 @@ This section lists features and capabilities that have been removed from Campaig
    <td><strong>Replacement</strong></td> 
   </tr>
   <tr>  
+   <td>Reporting<br></td>
+   <td><p>Following Adobe Flash Player EOL, the Gauge report and Chart rendering engine are no longer available. <a href="../../reporting/using/creating-a-new-report.md">Learn more</a></p>
+  </tr>
+  <tr>  
    <td>Fax channel<br></td>
    <td><p>Starting Campaign 21.1.3 release, the Fax channel is no longer available. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a></p>
+  </tr>
   <tr>
   <td>Demdex domain<br></td>
   <td><p> Starting Campaign 21.1.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is no longer available. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
-  </td>
   </td>
   </tr>
    <tr> 
