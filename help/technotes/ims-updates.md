@@ -33,7 +33,7 @@ If you already updgraded but using an old version of Microsoft Internet Explorer
 
     * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
     * Campaign 21.1.3 release. [Learn more](../rn/using/latest-release.md)
-    * Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
+    * Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
     * Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
     * Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
     * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
