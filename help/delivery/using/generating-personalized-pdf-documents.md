@@ -11,7 +11,7 @@ exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 
 ## About variable PDF documents {#about-variable-pdf-documents}
 
-Adobe Campaign lets you generate variable PDF documents (for email attachments, direct mail delivery) from LibreOffice or Microsoft Word documents.
+Adobe Campaign lets you generate variable PDF documents for email attachments from LibreOffice or Microsoft Word documents.
 
 The following extensions are supported: ".docx", ".doc", and ".odt".
 
