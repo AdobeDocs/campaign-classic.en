@@ -19,6 +19,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 _August 27, 2021_
 
+
 **Security enhancements**
 
 * Fixed a security issue to reinforce protection against directory traversal attacks. (NEO-28547)
@@ -32,8 +33,11 @@ _August 27, 2021_
 
 **Other changes**
 
-* Previously deprecated CRM connectors have been removed from the interface. 
+* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. 
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
+* A guardrail has been added to only allow the billing workflow to run on the marketing instance.
+* The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
+* Missing database indexes were added to the following schemas to prevent database update issues: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **Patches**
 
@@ -44,6 +48,7 @@ _August 27, 2021_
 * Fixed an error when connecting to Microsoft CRM using web API. The error message has been removed since functionalities were not impacted.
 * Fixed a tracking log deduplication issue when the mid server was set as a relay between tracking and marketing servers. (NEO-36285)
 * Fixed a regression which prevented Vault from being used as a specific code store.
+* Fixed an issue which prevented you from using variables in an **Enrichment** workflow activity when the incoming transition was from an FDA data source.
 
 ## ![](assets/do-not-localize/red_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
