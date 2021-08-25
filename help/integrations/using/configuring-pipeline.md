@@ -12,17 +12,13 @@ Authentication parameters such as the customer ID, the private key, and the auth
 The list of triggers to be processed is configured in an option in JSON format.
 The triggers are used for targeting by a campaign workflow that sends emails. The campaign is set up so that a customer that has both trigger events receives an email.
 
->[!CAUTION]
->
->In case of Hybrid deployment, ensure that pipeline is configured on a mid-instance.
-
 ## Prerequisites {#prerequisites}
 
 Before starting this configuration, please check you are using:
 
 * Minimum, one of the following Adobe Campaign builds:
   * 19.1.8.9039
-  * 19.1.4.9032.GS.11
+  * 19.1.4.9032 - Gold Standard 11
   * 20.2.4.9187
   * 20.3.1 
 * Adobe Analytics Standard version
