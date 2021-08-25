@@ -19,6 +19,23 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 _August 27, 2021_
 
+<table>
+<thead>
+<tr>
+<th><strong>New workflow activity: Change Data Source</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The new <b>Change Data Source</b> workflow activity allows you to change the data source of a workflow's working table. This provides enhanced flexibility in managing data across different data sources (FDA & local database).</p>
+<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
+<p>With Campaign v8, the main profiles table is stored on the cloud database directly. So querying on the Profiles table will create a working table on the cloud database as well. In certain cases, it can make sense to move the working table to another data source in order to perform specific operations.</p>
+<p>For more information, refer to the <a href="../config/workflows.md#change-data-source-activity">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 **Security enhancements**
 
