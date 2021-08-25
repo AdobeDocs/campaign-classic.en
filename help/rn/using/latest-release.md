@@ -43,7 +43,6 @@ _August 27, 2021_
 **Improvements**
 
 * Following its end of life, Flash has been removed from all related Campaign features and components, and replaced with HTML5. The **Gauge** type of chart has been removed. (NEO-30330) [Read more](../../reporting/using/creating-a-chart.md)
-* When designing an email message in text format (**Text content** tab), you can now use delimiters to enclose URLs for tracked links. This improvement ensures that URLs are not broken. [Read more](../../delivery/using/how-to-configure-tracked-links.md)
 * When installing the client console on Windows, the installer now checks if there is a parent registry node and creates one if it is missing. This prevents potential issues when launching the console. (NEO-34854)
 * The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded. 
 
@@ -65,6 +64,7 @@ _August 27, 2021_
 * Fixed a tracking log deduplication issue when the mid server was set as a relay between tracking and marketing servers. (NEO-36285)
 * Fixed a regression which prevented Vault from being used as a specific code store.
 * Fixed an issue which prevented you from using variables in an **Enrichment** workflow activity when the incoming transition was from an FDA data source.
+* Fixed an issue that could lead to broken URLs in email messages.
 
 ## ![](assets/do-not-localize/red_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
