@@ -71,7 +71,7 @@ To add an email attachment on the fly to a transactional message, follow the ste
 1. In the **[!UICONTROL Attachment definition]** screen, enter the SOAP attachment parameter:
 
     ```
-    <%= rtEvent.ctx.attachementUrl %>
+    <%= rtEvent.ctx.attachmentUrl %>
     ```
 
 1. When the message is processed, the system will get the file from the remote location (third-party server) and attach it to the individual message.
