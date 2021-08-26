@@ -9,13 +9,15 @@ exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 ---
 # Using aggregates{#using-aggregates}
 
+![](../../assets/common.svg)
+
 This use case details how to automatically identify the last recipients added to the database.
 
 Using the following process, the creation date of recipients in the database is compared to the last known date on which a recipient was created using an aggregate. All recipients created on the same day will also be selected.
 
 To carry out a **Creation date = max (Creation date)** type filter on the recipients, you must run a workflow to follow these steps:
 
-1. Retrieve database recipients using a basic query. For more on this step, refer to [Creating a query](../../workflow/using/query.md#creating-a-query).
+1. Retrieve database recipients using a basic query. For more on this step, refer to [Creating a query](query.md#creating-a-query).
 1. Calculate the last known date a recipient was created using the result generated from the **max (Creation date)** aggregation function.
 1. Link each recipient to the aggregation function result in the same schema.
 1. Filter recipients using the aggregate via the edited schema.

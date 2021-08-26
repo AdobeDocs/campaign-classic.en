@@ -9,6 +9,8 @@ exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
 ---
 # Sharing assets with Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
 
+![](../../assets/common.svg)
+
 Experience Cloud Assets provide a single, centralized repository of marketing-ready assets that you can share across solutions. An asset is a digital document, image, video, or audio file.
 
 Asset services include:

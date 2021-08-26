@@ -9,6 +9,8 @@ exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 ---
 # Message Center processing time {#message-center-processing-time}
 
+![](../../assets/v7-only.svg)
+
 This report displays the main indicators related to the real time queue.
 
 This report, aimed at technical administrators, can also be accessed via the **[!UICONTROL Monitoring]** tab on the control instance.

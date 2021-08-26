@@ -9,6 +9,8 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 ---
 # Documentation Updates{#documentation-updates}
 
+![](../../assets/v7-only.svg)
+
 This page lists all the new features and documentation updates per month and Campaign release.
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
@@ -42,7 +44,7 @@ Campaign Client Console requirements have been updated in the Compatibility Matr
 
 Campaign Client Console installation for steps have been improved and clarified. [Read more](../../installation/using/installing-the-client-console.md)
 
-A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/tracked-urls.md)
+A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/using/tracked-urls.md)
 
 ## April 2021 {#april-2021}
 
@@ -204,7 +206,7 @@ The Deliverability best practices landing page has been improved to facilitate a
 
 How-to videos are now available on the following topics:
 
-* [How to set up fatigue management using typology rules and predefined filters](../../campaign/using/about-campaign-typologies.md)
+* [How to set up fatigue management using typology rules and predefined filters](../../campaign-opt/using/about-campaign-typologies.md)
 
 * [How to create an email in a campaign](../../campaign/using/marketing-campaign-deliveries.md)
 

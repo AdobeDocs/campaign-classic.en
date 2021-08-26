@@ -9,6 +9,8 @@ exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 ---
 # About web services{#about-web-services}
 
+![](../../assets/v7-only.svg)
+
 ## Definition of Adobe Campaign APIs {#definition-of-adobe-campaign-apis}
 
 The Adobe Campaign application server was designed for openness and easy integration with increasingly diverse and complex company information systems.

@@ -9,6 +9,8 @@ exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 ---
 # Delivery execution {#delivery-execution}
 
+![](../../assets/v7-only.svg)
+
 ## Transactional message sending {#transactional-message-send}
 
 On the execution instance, once the enrichment stage is complete and a delivery template has been linked to the event, the delivery is sent.

@@ -9,6 +9,8 @@ exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 ---
 # Configuring shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
+![](../../assets/common.svg)
+
 Once you have submitted this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
 1. [Step 1: Configure or check the external accounts in Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)

@@ -9,6 +9,8 @@ exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---
 # New field wizard{#new-field-wizard}
 
+![](../../assets/v7-only.svg)
+
 A wizard accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
 
 Validating the wizard updates the extension schema of the table to be extended and launches the SQL script to modify the physical structure of the database.

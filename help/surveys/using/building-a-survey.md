@@ -9,6 +9,8 @@ exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 ---
 # Design a survey{#building-a-survey}
 
+![](../../assets/v7-only.svg)
+
 ## Create a new survey {#creating-a-new-survey}
 
 This chapter details the designing of a **Survey** type form using Adobe Campaign, as well as the available options and configurations. Adobe Campaign lets you make this survey available to users and collect and archive answers in the database.

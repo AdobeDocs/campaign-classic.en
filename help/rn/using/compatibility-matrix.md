@@ -9,7 +9,9 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 ---
 # Compatibility matrix{#compatibility-matrix}
 
-This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
+![](../../assets/v7-only.svg)
+
+This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic v7**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
 If you are a [!DNL Gold Standard] user, refer to the [[!DNL Gold Standard] Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
 

@@ -9,6 +9,8 @@ exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 ---
 # Defining the email content {#defining-the-email-content}
 
+![](../../assets/common.svg)
+
 ## Sender {#sender}
 
 To define the name and address of the sender which will appear in the header of messages sent, click the **[!UICONTROL From]** link.

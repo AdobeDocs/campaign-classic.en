@@ -9,6 +9,8 @@ exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
 ---
 # Environments overview{#environments-overview}
 
+![](../../assets/v7-only.svg)
+
 This chapter details how to manage offer environments in Interaction.
 
 Several different user profiles are involved in managing and using offers. The first step therefore involves ensuring that these profiles exist, and if not, creating them.

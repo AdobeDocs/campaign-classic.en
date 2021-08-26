@@ -9,6 +9,8 @@ exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
 ---
 # Update aggregate{#update-aggregate}
 
+![](../../assets/common.svg)
+
 Aggregates are defined at cube level for reporting purposes. A **[!UICONTROL Workflow]** tab is available when configuring an aggregate.
 
 For more information on cubes and using aggregates in Adobe Campaign, refer to the dedicated [section](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).

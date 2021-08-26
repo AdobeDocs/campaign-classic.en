@@ -9,6 +9,8 @@ exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 ---
 # Identifying a form{#identifying-a-form}
 
+![](../../assets/v7-only.svg)
+
 An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console.
 
 The form is identified by its name and namespace.

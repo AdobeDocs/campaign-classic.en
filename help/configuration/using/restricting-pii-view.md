@@ -9,6 +9,8 @@ exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 ---
 # Restrict PI view{#restricting-pii-view}
 
+![](../../assets/v7-only.svg)
+
 ## Overview {#overview}
 
 Some customers need marketing users to be able to access data records but do not want them to see Personally Identifiable Information (PII), such as first name, last name or email address. Adobe Campaign proposes a way to protect privacy and prevent data from being misused by regular campaign operators.

@@ -9,6 +9,8 @@ exl-id: bc23a444-a872-48fb-8bba-64b301541089
 ---
 # Define the final delivery {#step-6--defining-the-final-delivery}
 
+![](../../assets/common.svg)
+
 Once the script is created to select the A/B test winner, you can define the parameters of the final delivery.
 
 1. Connect the **[!UICONTROL JavaScript code]** activity to the remaining **[!UICONTROL Delivery]** activity.

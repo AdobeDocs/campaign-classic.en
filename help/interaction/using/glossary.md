@@ -9,6 +9,8 @@ exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 ---
 # Glossary{#glossary}
 
+![](../../assets/v7-only.svg)
+
 Below is the definition of the main Interaction elements.
 
 * **Environment**: set which includes an offer catalog and hooks (offer spaces). You need to create one environment by targeting dimension. There are two types of environments:

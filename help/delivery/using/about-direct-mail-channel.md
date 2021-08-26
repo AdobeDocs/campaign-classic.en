@@ -9,6 +9,8 @@ exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
 ---
 # About direct mail channel{#about-direct-mail-channel}
 
+![](../../assets/common.svg)
+
 Adobe Campaign lets you produce files to mass deliver personalized letters. The recipient profiles must contain at least their names and postal addresses.
 
 >[!NOTE]

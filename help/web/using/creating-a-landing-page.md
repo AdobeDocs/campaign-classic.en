@@ -9,6 +9,8 @@ exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 ---
 # Creating a landing page{#creating-a-landing-page}
 
+![](../../assets/common.svg)
+
 ## About landing pages creation {#about-landing-pages-creation}
 
 This use case shows the use of the Digital Editor to create a Landing Page from the Adobe Campaign console.

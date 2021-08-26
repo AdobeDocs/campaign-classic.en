@@ -9,11 +9,13 @@ exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 ---
 # Enriching data{#enriching-data}
 
+![](../../assets/common.svg)
+
 ## About enriching data {#about-enriching-data}
 
-This use case details possible uses of the **[!UICONTROL Enrichment]** activity in a targeting workflow. For more on using the **[!UICONTROL Enrichment]** activity, refer to: [Enrichment](../../workflow/using/enrichment.md).
+This use case details possible uses of the **[!UICONTROL Enrichment]** activity in a targeting workflow. For more on using the **[!UICONTROL Enrichment]** activity, refer to: [Enrichment](enrichment.md).
 
-A use case on how to enrich an email delivery with custom dates is also available in [this section](../../workflow/using/email-enrichment-with-custom-date-fields.md).
+A use case on how to enrich an email delivery with custom dates is also available in [this section](email-enrichment-with-custom-date-fields.md).
 
 The contacts in the marketing database are sent an invitation to take part in a competition via a web application. The results of the competition are recovered in the **[!UICONTROL Competition results]** table. This table is linked to the contact table (**[!UICONTROL Recipients]**). The **[!UICONTROL Competition results]** table contains the following fields:
 

@@ -9,6 +9,8 @@ exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 ---
 # Delivery dashboard {#delivery-dashboard}
 
+![](../../assets/common.svg)
+
 The **delivery dashboard** is key to monitor your deliveries and eventual issues encountered during the sending of messages.
 
 It allows you to retrieve information on a delivery and edit it if necessary. Note that tab contents may no longer be changed once the delivery has been sent.

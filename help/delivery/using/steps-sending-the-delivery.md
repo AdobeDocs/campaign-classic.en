@@ -9,6 +9,8 @@ exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 ---
 # Configuring and sending the delivery {#configuring-and-sending-the-delivery}
 
+![](../../assets/common.svg)
+
 >[!NOTE]
 >
 >Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field. For further information, refer to [this section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).

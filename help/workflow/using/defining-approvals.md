@@ -9,6 +9,8 @@ exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 ---
 # Defining approvals {#defining-approvals}
 
+![](../../assets/common.svg)
+
 Approvals enable operators to make decisions governing a workflow or to confirm its continued execution.
 
 A message is sent to a group of operators and the workflow waits for a response before resuming. The workflow is not stopped and other operations can take place. For example, there may be multiple simultaneous approvals pending.

@@ -9,6 +9,8 @@ exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 ---
 # About Campaign built-in reports{#about-campaign-built-in-reports}
 
+![](../../assets/common.svg)
+
 This chapter provides the list of Adobe Campaign built-in reports, their content and their context. The information below will enable you to avoid creating reports already available in the platform.
 
 >[!NOTE]

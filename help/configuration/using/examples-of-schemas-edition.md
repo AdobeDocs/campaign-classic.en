@@ -9,6 +9,8 @@ exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 ---
 # Examples of schemas edition{#examples-of-schemas-edition}
 
+![](../../assets/v7-only.svg)
+
 ## Extending a table {#extending-a-table}
 
 To extend the **nms:recipient** schema recipient table, apply the following procedure:

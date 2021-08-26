@@ -9,6 +9,8 @@ exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 ---
 # Create filters{#creating-filters}
 
+![](../../assets/common.svg)
+
 When you navigate in the Adobe Campaign tree (from the **[!UICONTROL Explorer]** menu in the home page), the data contained in the database is displayed in lists. These lists can be configured to display only the data required by the operator. Actions can then be launched on the filtered data. Filter configuration lets you select data from a list **[!UICONTROL dynamically]**. If the data is modified, the filtered data is updated.
 
 >[!NOTE]

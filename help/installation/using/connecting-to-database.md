@@ -9,6 +9,8 @@ exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
 ---
 # Connecting to the database {#connecting-to-the-database}
 
+![](../../assets/v7-only.svg)
+
 To enable a connection to the external database, you must indicate the connection parameters, i.e. the targeted data source and the name of the table with data requiring loading.
 
 >[!CAUTION]

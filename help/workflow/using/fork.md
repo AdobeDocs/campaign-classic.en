@@ -9,6 +9,8 @@ exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 ---
 # Fork{#fork}
 
+![](../../assets/common.svg)
+
 The **[!UICONTROL Fork]** activity allows you to create multiple outbound transitions, in order to carry out several activities independently within the same workflow.
 
 For example, you can use the activity after a query, in order to perform two actions in parallel:
@@ -26,4 +28,4 @@ To configure the  **[!UICONTROL Fork]** activity, open it define the number and 
 
 ![](assets/s_user_segmentation_fork.png)
 
-You can then configure each outbound transitions, then join them together using an [AND-join](../../workflow/using/and-join.md) activity, if needed. This way, the rest of the workflow will execute only once the **[!UICONTROL Fork]** activity's outbound transitions are finished.
+You can then configure each outbound transitions, then join them together using an [AND-join](and-join.md) activity, if needed. This way, the rest of the workflow will execute only once the **[!UICONTROL Fork]** activity's outbound transitions are finished.

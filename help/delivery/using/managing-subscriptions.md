@@ -9,6 +9,8 @@ exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 ---
 # Managing subscriptions{#managing-subscriptions}
 
+![](../../assets/common.svg)
+
 ## About information services {#about-information-services}
 
 An information service comprises:

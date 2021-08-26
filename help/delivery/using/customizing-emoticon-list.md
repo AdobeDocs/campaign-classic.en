@@ -9,6 +9,8 @@ exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 ---
 # Customizing the emoticon list {#customize-emoticons}
 
+![](../../assets/common.svg)
+
 The emoticon list displayed in the pop-up is ruled by an enumeration which allows you to display values in a list to restrict the choices that the user has for a given field.
 The emoticon list order can be customized, you can also add other emoticons to your list.
 Emoticons are available for email and push for more on this refer to this [page](defining-the-email-content.md#inserting-emoticons).

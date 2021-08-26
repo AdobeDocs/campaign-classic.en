@@ -9,6 +9,8 @@ exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 ---
 # Creating seed addresses{#creating-seed-addresses}
 
+![](../../assets/common.svg)
+
 Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign hierarchy **[!UICONTROL Resources > Campaign management > Seed addresses]**.
 
 You can create sub-folders in order to organize the seed addresses. To do this, right-click the **[!UICONTROL Seed addresses]** node and select **[!UICONTROL Create a new 'Seed addresses' folder]**. Name the sub-folder and then press **[!UICONTROL Enter]** to validate. You can now create or copy seed addresses to this sub-folder. For more on this, refer to [Defining addresses](#defining-addresses).

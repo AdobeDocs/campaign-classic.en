@@ -9,6 +9,8 @@ exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 ---
 # Using the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
 
+![](../../assets/common.svg)
+
 To create a descriptive analysis report, use the dedicated wizard. Configuration depends on the data to be analyzed and on the desired rendering.
 
 ## Analyzing data in the database {#analyzing-data-in-the-database}

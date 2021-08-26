@@ -9,6 +9,8 @@ exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 ---
 # Additional configurations {#mc-additional-configurations}
 
+![](../../assets/v7-only.svg)
+
 ## Monitor thresholds {#monitoring-thresholds}
 
 You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [Access transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)).

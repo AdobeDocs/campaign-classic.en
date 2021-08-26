@@ -9,6 +9,8 @@ exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 ---
 # Best practices for cubes{#concepts-and-methodology}
 
+![](../../assets/common.svg)
+
 ## Data binning {#data-binning}
 
 Binning enables you to simplify data display by grouping values according to criteria. Depending on the information available to you, you can define age groups, group email domains together, restrict to a value enumeration, explicitly restrict the data to display and group all other data in a dedicated line or column, etc.

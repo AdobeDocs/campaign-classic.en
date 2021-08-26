@@ -9,6 +9,8 @@ exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 ---
 # Distributed architectures{#distributed-architectures}
 
+![](../../assets/v7-only.svg)
+
 ## Principle {#principle}
 
 To be able to support scalability and provide 24/7 service on the inbound channel, you can use Interaction with a distributed architecture. This type of architecture is already used with Message Center and is made up of several instances:

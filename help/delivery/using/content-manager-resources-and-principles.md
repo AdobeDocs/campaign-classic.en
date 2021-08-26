@@ -9,6 +9,8 @@ exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
 ---
 # Content manager resources and principles{#content-manager-resources-and-principles}
 
+![](../../assets/common.svg)
+
 You need to define a publication template, which contains transformation templates for each content.
 
 A content block is structured in an XML document for data storage. An edit interface is used to input the content from the Adobe Campaign client console or via a web browser. The content can also be entered automatically via the capture of XML flow or data aggregated in a database.

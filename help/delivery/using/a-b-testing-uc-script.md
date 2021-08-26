@@ -9,6 +9,8 @@ exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 ---
 # Create the script {#step-5--creating-the-script}
 
+![](../../assets/common.svg)
+
 The choice of the delivery content destined for the remaining population is calculated by a script. This script recovers the information concerning the delivery with the highest rate of opens and copies the content into the final delivery.
 
 ## Example of a script {#example-of-a-script}

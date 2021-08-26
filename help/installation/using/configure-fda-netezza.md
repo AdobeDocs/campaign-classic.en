@@ -9,6 +9,8 @@ exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
 ---
 # Configure access to Netezza {#configure-access-to-netezza}
 
+![](../../assets/v7-only.svg)
+
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Netezza.
 
 1. Install and configure [Netezza drivers](#netezza-config)

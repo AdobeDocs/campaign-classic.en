@@ -9,6 +9,8 @@ exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
 ---
 # Configure access to Sybase IQ {#configure-access-to-sybase-iq}
 
+![](../../assets/v7-only.svg)
+
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Sybase IQ.
 
 1. Configure [Sybase IQ database](#configuring-sybase) 

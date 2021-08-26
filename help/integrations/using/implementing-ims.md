@@ -9,6 +9,8 @@ exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
 ---
 # Implementing IMS{#implementing-ims}
 
+![](../../assets/common.svg)
+
 ## Enabling the IMS connection {#enabling-the-ims-connection}
 
 1. To enable connecting via the IMS, check **[!UICONTROL Connect with an Adobe ID]** in the console's connections window.

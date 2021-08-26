@@ -9,6 +9,8 @@ exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
 ---
 # Exclusion{#exclusion}
 
+![](../../assets/common.svg)
+
 An **Exclusion**-type activity creates a target based on a main target from which one or more other targets are extracted.
 
 To configure this activity, enter its label and select the main recipient set: the population from the main set lets you construct the result. Profiles shared by the main set and at least one of the entry activities will be excluded.
@@ -17,7 +19,7 @@ To configure this activity, enter its label and select the main recipient set: t
 
 >[!NOTE]
 >
->For more on configuring and using the exclusion activity, refer to [Excluding a population (Exclusion)](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-).
+>For more on configuring and using the exclusion activity, refer to [Excluding a population (Exclusion)](targeting-data.md#excluding-a-population--exclusion-).
 
 Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. The complement will contain the main incoming population minus the outgoing population. An additional output transition will then be added to the activity, as follows:
 

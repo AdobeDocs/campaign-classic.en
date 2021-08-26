@@ -9,6 +9,8 @@ exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 ---
 # Approval{#approval}
 
+![](../../assets/common.svg)
+
 An **Approval** task requires the participation of an operator. The operator is assigned a task and can respond by email, using the Web page linked in the email message, or via the console.
 
 ## Task assignment {#task-assignment}
@@ -57,7 +59,7 @@ Click the **[!UICONTROL Advanced parameters...]** link to select the delivery te
 
 This template can be modified to personalize message layout, but it is preferable to make a copy. The targeting mechanism (external file, target mapping) must not be modified because it is required for notifications to operate correctly.
 
-An approval example is shown in [Defining approvals](../../workflow/using/defining-approvals.md).
+An approval example is shown in [Defining approvals](defining-approvals.md).
 
 ## Output parameters {#output-parameters}
 

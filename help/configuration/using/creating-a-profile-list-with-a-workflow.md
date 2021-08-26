@@ -9,6 +9,8 @@ exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 ---
 # Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
 
+![](../../assets/v7-only.svg)
+
 To create a **[!UICONTROL List]** type list based on the new recipient table, you need to create a targeting workflow which will generate the list. 
 
 For more information about lists in Campaign, refer to [this section](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).

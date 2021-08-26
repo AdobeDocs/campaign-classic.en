@@ -9,6 +9,8 @@ exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 ---
 # Creating a delivery template{#creating-a-delivery-template}
 
+![](../../assets/common.svg)
+
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
 
 ## Converting an existing delivery to a template {#converting-an-existing-delivery-to-a-template}

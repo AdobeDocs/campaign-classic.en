@@ -9,6 +9,8 @@ exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 ---
 # Adding fields to a web form{#adding-fields-to-a-web-form}
 
+![](../../assets/common.svg)
+
 In a Web form, fields enable users to enter information and select options. Web forms can offer input fields, selection fields, static and advanced content (captchas, subscriptions, etc.).
 
 When you use the wizard to add fields, the field type is detected automatically based on the selected field or storage variable. You can edit it using the **[!UICONTROL Type]** drop-down box in the **[!UICONTROL General]** tab. 

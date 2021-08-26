@@ -10,6 +10,8 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 ---
 # Adobe Analytics Connector{#adobe-analytics-connector}
 
+![](../../assets/common.svg)
+
 ## About Adobe Analytics Connector integration {#about-analytics-connector-integration}
 
 Adobe Analytics Connector allows Adobe Campaign and Adobe Analytics interact through the **[!UICONTROL Web Analytics connectors]** package. It forwards data to Adobe Campaign in the form of segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics.

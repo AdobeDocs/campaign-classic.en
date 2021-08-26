@@ -9,6 +9,8 @@ exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e
 ---
 # Image display issues{#image-display-issues}
 
+![](../../assets/v7-only.svg)
+
 If you face image display issues in a sent message, reasons may be linked to bad location:
 
 * Locations may not match, or images may not have been correctly pushed to duplicate tracking server: check your configuration.

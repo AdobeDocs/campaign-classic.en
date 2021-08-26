@@ -9,6 +9,8 @@ exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 ---
 # Defining the direct mail content{#defining-the-direct-mail-content}
 
+![](../../assets/common.svg)
+
 ## Extraction file {#extraction-file}
 
 The name of the file which contains the extracted data is defined in the **[!UICONTROL File]** field. The button to the right of the field lets you use personalization fields to create the file name.

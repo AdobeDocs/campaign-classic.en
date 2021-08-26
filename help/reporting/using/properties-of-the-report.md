@@ -9,6 +9,8 @@ exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 ---
 # Properties of the report{#properties-of-the-report}
 
+![](../../assets/common.svg)
+
 You can fully personalize and configure your report to suit your needs. To do this, edit its properties. Report properties are accessed via the **[!UICONTROL Properties]** button above the activity sequence chart.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)

@@ -9,6 +9,8 @@ exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
 ---
 # Examples of Facebook apps{#examples-of-facebook-apps}
 
+![](../../assets/v7-only.svg)
+
 When a user clicks the tab of a Facebook application, it is displayed in a space which is 810 pixels wide. Adobe Campaign uses a Facebook type web application to let you define and personalize the content displayed in the Facebook application, therefore making it easier to acquire profiles.
 
 >[!NOTE]

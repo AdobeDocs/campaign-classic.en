@@ -9,6 +9,8 @@ exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
 ---
 # Structure of a data schema{#structure-of-a-data-schema}
 
+![](../../assets/v7-only.svg)
+
 The structure of a data schema is shown in the form of a tree structure. To view it graphically in the Adobe Campaign client console, select the targeted schema and click the **[!UICONTROL Structure]** sub-tab.
 
 ![](assets/d_ncs_integration_schema_arbo.png)

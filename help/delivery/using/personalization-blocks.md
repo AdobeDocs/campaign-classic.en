@@ -9,6 +9,8 @@ exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 ---
 # Personalization blocks{#personalization-blocks}
 
+![](../../assets/common.svg)
+
 Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](#inserting-personalization-blocks).
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature [in video](#personalization-blocks-video)

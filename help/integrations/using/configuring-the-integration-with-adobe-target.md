@@ -9,6 +9,8 @@ exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 ---
 # Configuring the integration with Adobe Target{#configuring-the-integration-with-adobe-target}
 
+![](../../assets/common.svg)
+
 ## Prerequisites {#prerequisites}
 
 In order to use the integration between Adobe Campaign and Adobe Target, you must have:

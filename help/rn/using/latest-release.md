@@ -9,6 +9,8 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 ---
 # Latest release{#latest-release}
 
+![](../../assets/v7-only.svg)
+
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release**.
 
 >[!NOTE]
@@ -109,7 +111,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 **Deprecated features**
 
 * Starting Campaign 21.1 release, the Adobe Analytics Data Connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly with the new connector Adobe Analytics Connector. 
-For more information refer to the [detailed documentation](../../technotes/aa-connector-migration.md).
+For more information refer to the [detailed documentation](../../technotes/using/aa-connector-migration.md).
 * Support for Debian 8 is now deprecated.
 * Following the deprecation of Oracle CRM in 20.3, the related external account has been removed from the interface.
 

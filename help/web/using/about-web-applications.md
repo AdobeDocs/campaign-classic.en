@@ -9,6 +9,8 @@ exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 ---
 # Get started with web applications{#about-web-applications}
 
+![](../../assets/common.svg)
+
 Adobe Campaign lets you create and publish dynamic and interactive Web applications with data from the database and content adapted to the rights of the connected user. 
 
 You can create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post Web pages where users can look up or enter information.

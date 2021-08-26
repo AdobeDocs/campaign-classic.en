@@ -9,6 +9,8 @@ topic-tags: sending-emails
 
 # Inserting a barcode in an email{#inserting-a-barcode-in-an-email}
 
+![](../../assets/common.svg)
+
 The barcode generation module lets you create several types of barcodes that comply with many common standards, including 2D barcodes.
 
 It is possible to dynamically generate a barcode as a bitmap using a value defined using customer criteria. Personalized barcodes can be included in email campaigns. The recipient can print the message and show it to the issuing company for scanning (when checking out for example).

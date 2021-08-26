@@ -10,6 +10,8 @@ exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 
 # Get started with transactional messaging {#about-transactional-messaging}
 
+![](../../assets/v7-only.svg)
+
 ## Overview {#overview}
 
 **Transactional messaging** (Message Center) is a Campaign module designed for managing custom trigger notifications generated from events sent by an external information system.

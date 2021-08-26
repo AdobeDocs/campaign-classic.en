@@ -9,6 +9,8 @@ exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
 ---
 # About outbound channels{#about-outbound-channels}
 
+![](../../assets/v7-only.svg)
+
 Offers can be presented in various spaces using inbound or outbound channels. This chapter details outbound channels.
 
 ![](assets/do-not-localize/how-to-video.png) You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-outbound-channel-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) that details how to deliver an offer on an outbound channel.

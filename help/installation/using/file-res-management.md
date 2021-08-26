@@ -9,6 +9,8 @@ exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 ---
 # File and resource management{#file-and-resmanagement}
 
+![](../../assets/v7-only.svg)
+
 ## Limit upload file format {#limiting-uploadable-files}
 
 Use the **uploadWhiteList** attribute to restrict the file types available for upload on the Adobe Campaign server.

@@ -9,6 +9,8 @@ exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
 ---
 # Temporary files{#temporary-files}
 
+![](../../assets/v7-only.svg)
+
 Error messages such as the following may display (particularly in delivery logs) when the system is put into production:
 
 *Unable to rename file '/tmp/tmp0000.tmp' to /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml ;(errno=18, Invalid cross-device link) (iRc=-52)*

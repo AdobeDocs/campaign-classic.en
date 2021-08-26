@@ -9,6 +9,8 @@ exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 ---
 # Get started with personalized links tracking {#tracking-personalized-links}
 
+![](../../assets/common.svg)
+
 The links in email content that contain personalization need specific syntax to be tracked. 
 
 Using JavaScript in email content (HTML or Text) allows you to generate and send dynamic content to the recipients, with two limitations:

@@ -9,6 +9,8 @@ exl-id: dd4d068b-f414-448f-8d9a-eedf44e7b6e6
 ---
 # Migration method{#migration-method}
 
+![](../../assets/v7-only.svg)
+
 ## Modernizing your environment {#modernizing-your-environment}
 
 Performing a migration can be a chance to update your environment (database engines, operating systems). Adobe Campaign strongly recommends upgrading your production environments to the most recent versions.

@@ -9,6 +9,8 @@ exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
 ---
 # AND-join{#and-join}
 
+![](../../assets/common.svg)
+
 A join triggers its outbound transition only when all inbound transitions are activated, i.e. when all prior activities are finished. This allows you to make sure that certain activities have finished before continuing to execute the workflow.
 
 For example, you can use an AND-join activity in the context of content creation and delivery sending automation, to make sure that a delivery is started only once target querying and content updates steps are complete. A dedicated use case is available in [this section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)
@@ -25,4 +27,4 @@ The outbound transition can only contain one of the inbound transition populatio
 
 >[!CAUTION]
 >
->In the case of **AND-join** type activities, the event variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined. For more on this, refer to [this section](../../workflow/using/javascript-scripts-and-templates.md#event-variables).
+>In the case of **AND-join** type activities, the event variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined. For more on this, refer to [this section](javascript-scripts-and-templates.md#event-variables).

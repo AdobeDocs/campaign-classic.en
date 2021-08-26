@@ -9,6 +9,8 @@ exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 ---
 # Configure delivery settings {#delivery-settings}
 
+![](../../assets/v7-only.svg)
+
 The delivery parameters must be configured in the **serverConf.xml** folder.
 
 * **DNS configuration**: specify the delivery domain and the IP addresses (or host) of the DNS servers used to respond to MX-type DNS queries made by the MTA module from the **`<dnsconfig>`** onwards.

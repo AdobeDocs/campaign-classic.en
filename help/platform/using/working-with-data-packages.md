@@ -9,6 +9,8 @@ exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 ---
 # Work with data packages{#working-with-data-packages}
 
+![](../../assets/common.svg)
+
 ## About data packages {#about-data-packages}
 
 Adobe Campaign allows you to export or import the platform configuration and data through a package system. Packages can contain different kinds of configurations, elements, filtered or not.

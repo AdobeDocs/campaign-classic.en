@@ -9,6 +9,8 @@ exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 ---
 # Schema of an existing table{#schema-of-an-existing-table}
 
+![](../../assets/v7-only.svg)
+
 ## Overview {#overview}
 
 When the application needs to access the data of an existing table, an SQL view, or data from a remote database, create its schema in Adobe Campaign with the following data:

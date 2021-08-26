@@ -8,6 +8,8 @@ exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 ---
 # Configuring the integration{#configuring-the-integration}
 
+![](../../assets/common.svg)
+
 ## Configuring in Adobe Campaign {#configuring-in-adobe-campaign}
 
 To use these two solutions together, you must configure them to connect to one another.

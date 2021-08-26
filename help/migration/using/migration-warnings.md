@@ -9,6 +9,8 @@ exl-id: 46b46fc9-c7c9-4c74-b5f3-7935d5368520
 ---
 # Migration warnings{#migration-warnings}
 
+![](../../assets/v7-only.svg)
+
 * The migration process is reserved for expert users. You must be assisted by at least a database expert, a system administrator and an application developer from Adobe Campaign.
 * Before starting migration, check that the systems and system components that you use are in fact compatible with v7. Consult the [compatibility matrix](../../rn/using/compatibility-matrix.md).
 * If you use Adobe Campaign Cloud Messaging (previously mid-sourcing), contact Adobe Campaign before beginning the entire migration procedure.

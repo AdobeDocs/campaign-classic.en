@@ -9,6 +9,8 @@ exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
 ---
 # Setup stages{#setup-stages}
 
+![](../../assets/v7-only.svg)
+
 The basic principle is the insertion of web tracking tags in certain pages of your website.
 
 There are two types of tags:

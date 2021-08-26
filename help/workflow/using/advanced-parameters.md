@@ -9,6 +9,8 @@ exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 ---
 # Advanced parameters{#advanced-parameters}
 
+![](../../assets/common.svg)
+
 The properties screen of an activity has an **[!UICONTROL Advanced]** tab that lets you define a behavior in case of errors, the execution period for the activity; and lets you enter an initialization script. There are two versions of this tab:
 
 * a simplified version (for **[!UICONTROL Start]** and **[!UICONTROL End]** activities for instance)
@@ -27,7 +29,7 @@ This field contains the internal name of the activity.
 
 ## Image {#image}
 
-This field lets you change the image linked to an activity. For more on this, refer to: [Managing activity images](../../workflow/using/managing-activity-images.md).
+This field lets you change the image linked to an activity. For more on this, refer to: [Managing activity images](managing-activity-images.md).
 
 ## Execution {#execution}
 
@@ -59,7 +61,7 @@ This field lets you define the behavior to be applied for using asynchronous tas
 
 ## Time zone {#time-zone}
 
-This field lets you select the time zone of the activity. For more on this: [Managing time zones](../../workflow/using/managing-time-zones.md).
+This field lets you select the time zone of the activity. For more on this: [Managing time zones](managing-time-zones.md).
 
 ## In case of errors {#in-case-of-errors}
 
@@ -70,7 +72,7 @@ This field lets you define the action to be carried out when the activity has er
 
 ## Initialization script {#initialization-script}
 
-This field lets you initialize variables or modify activity properties. For more on this, refer to: [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md).
+This field lets you initialize variables or modify activity properties. For more on this, refer to: [JavaScript scripts and templates](javascript-scripts-and-templates.md).
 
 ## Comment {#comment}
 

@@ -9,6 +9,8 @@ exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
 ---
 # Message design FAQ {#design-messages-faq}
 
+![](../../assets/common.svg)
+
 Discover key steps to design omni-channel messages with Adobe Campaign.
 
 ## Are there specific guidelines when designing emails with Campaign? {#are-there-specific-guidelines-when-designing-emails-with-campaign-}

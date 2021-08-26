@@ -9,6 +9,8 @@ exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 ---
 # Controlling your message content{#control-message-content}
 
+![](../../assets/common.svg)
+
 To make sure that your emails reach your recipients and improve your email deliverability rate, they must respect a number of rules. Otherwise, the content of certain messages may be detected as spam. Adobe Campaign provides you with several tools to make your content comply with these rules.
 
 Follow the principles listed below when designing your message content:
