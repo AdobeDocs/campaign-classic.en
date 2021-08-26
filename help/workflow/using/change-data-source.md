@@ -7,6 +7,10 @@ topic-tags: targeting-activities
 ---
 # Change data source {#change-data-source}
 
+>[!NOTE]
+>
+> The **[!UICONTROL Change data source]** activity is only available with the **[!UICONTROL Access to external data (Federated Data Access)]** package. For more information on Adobe Campaign Classic built-in packages, refer to this [page](../../installation/using/installing-campaign-standard-packages.md).
+
 The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
 
 The **[!UICONTROL Working table]** allows Adobe Campaign Classic workflow to handle data and share data with the workflow activities.
