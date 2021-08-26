@@ -13,6 +13,7 @@ exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 _April 15, 2021_
 
 * Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+* Fixed a regression that could block the workflow data export to an FDA database (Teradate, Snowflake).
 
 **Console upgrade only is mandatory. No server upgrade is required.** 
 
