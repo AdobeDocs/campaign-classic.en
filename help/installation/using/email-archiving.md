@@ -142,7 +142,7 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 * **Emails per connection**: BCC email archiving operates by opening a connection and trying to send all emails through that connection. Adobe recommends checking with your internal technical contact the number of emails that are accepted on a given connection. Increasing this number can have a great impact on BCC throughput.
 * **BCC sending IPs**: currently, BCC emails are not sent through the normal MTA proxies. Instead, a direct connection is open from the MTA server to the destination email server. This means that you may need to add additional IPs to the allowlist on your network, depending on your email server configuration.
 
-## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
+<!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
 
 For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA, which is more reliable, efficient, and has lower latency.
 
@@ -168,4 +168,4 @@ Consequently, make sure:
 
 * Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
 
-* There is no reporting available on the delivery status of the emails sent to the BCC email address.
+* There is no reporting available on the delivery status of the emails sent to the BCC email address.-->
