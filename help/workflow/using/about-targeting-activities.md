@@ -31,3 +31,4 @@ These activities let you build one or more targets by defining sets and splittin
 * **List update**: records the result of inbound activities in a list. Refer to the [List update](../../workflow/using/list-update.md) section.
 * **Update data**: lets you massively update the data in the database. Refer to the [Update data](../../workflow/using/update-data.md) section.
 * **CRM connector**: lets you configure the synchronization between Adobe Campaign and a CRM. Refer to the [CRM Connector](../../workflow/using/crm-connector.md) section.
+* **[!UICONTROL Change data source]**: lets you change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database. Refer to the [CRM Connector](../../workflow/using/change-data-source.md) section.
