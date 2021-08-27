@@ -13,9 +13,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release**.
 
->[!NOTE]
->
->Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 12 release](../../rn/using/gold-standard.md#gs-12) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9340).
+Understand Campaign build statuses in [this page](rn-overview.md). 
 
 ## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9340 {#release-21-1-4-build-9340}
 
@@ -52,7 +50,7 @@ _August 27, 2021_
 
 * Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../delivery/using/how-to-configure-tracked-links.md)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
-* A guardrail has been added to only allow the billing workflow to run on the marketing instance.
+* A guardrail has been added to only allow the [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
 * Missing database indexes were added to the following schemas to prevent database update issues: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
