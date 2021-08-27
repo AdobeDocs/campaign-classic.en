@@ -50,7 +50,7 @@ _August 27, 2021_
 
 **Other changes**
 
-* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../delivery/using/how-to-configure-tracked-links.md)
+* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
 * A guardrail has been added to only allow the billing workflow to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
