@@ -162,3 +162,4 @@ On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
 * Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
 * Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
 * Fixed an issue in the enrichment activity where non-admin users defined instance variables. (NEO-25653)
+* Fixed a regression that could block the workflow data export to an FDA database (Teradata, Snowflake).

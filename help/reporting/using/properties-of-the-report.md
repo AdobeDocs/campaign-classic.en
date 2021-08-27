@@ -64,7 +64,6 @@ The editing language is the language which you write in. When you add a language
 
 In the **[!UICONTROL Rendering]** tab, you can personalize the data display mode for the page. You can select:
 
-* The chart rendering engine: by default, the rendering engine is HTML 5.
 * The navigation type in the report: via buttons or links.
 * The default position of labels for report elements. This position can be overloaded for each element.
 * The template or theme used for generating report pages.
