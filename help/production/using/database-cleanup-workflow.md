@@ -430,7 +430,7 @@ This task deletes obsolete records from the tracking and webtracking log tables.
 1. Mass-deletion is used to purge all tables in the list of previously recovered tables. The following query is used:
 
    ```
-   DELETE FROM XtkTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM XtkTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
+   DELETE FROM NmsTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM NmsTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
    ```
 
    where **$(tsDate)** is the current server date from which we subtract the period defined for the **NmsCleanup_TrackingLogPurgeDelay** option.
