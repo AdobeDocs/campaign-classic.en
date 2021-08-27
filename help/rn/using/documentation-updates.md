@@ -17,11 +17,7 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## August 2021{#aug-2021}
 
-**Documentation updates coming with the 21.1.4 release**
-
-New workflow activity: Change Data Source - [Learn more](../../workflow/using/change-data-source.md)
-
-**Other updates**
+Added new workflow activity: Change Data Source - [Learn more](../../workflow/using/change-data-source.md)
 
 Applicability badges have been added to the documentation pages: **Applies to v7** for Campaign Classic v7 capabilities only, and **Applies to v7 & v8** for common capabilities.
 

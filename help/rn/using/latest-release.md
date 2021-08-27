@@ -19,24 +19,7 @@ Understand Campaign build statuses in [this page](rn-overview.md).
 
 _August 27, 2021_
 
-<table>
-<thead>
-<tr>
-<th><strong>New workflow activity: Change Data Source</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The new <b>Change Data Source</b> workflow activity allows you to change the data source of a workflow's working table. This provides enhanced flexibility in managing data across different data sources (FDA & local database).</p>
-<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
-<p>For more information, refer to the <a href="../../workflow/using/change-data-source.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-**Security enhancements**
+**Security enhancement**
 
 * Fixed a security issue to reinforce protection against directory traversal attacks. (NEO-28547)
 
@@ -71,6 +54,24 @@ _August 27, 2021_
 _June 5, 2021_
 
 **What's new?**
+
+
+<table>
+<thead>
+<tr>
+<th><strong>New workflow activity: Change Data Source</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The new <b>Change Data Source</b> workflow activity allows you to change the data source of a workflow's working table. This provides enhanced flexibility in managing data across different data sources (FDA & local database).</p>
+<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
+<p>For more information, refer to the <a href="../../workflow/using/change-data-source.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
