@@ -13,6 +13,15 @@ exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 
 This page lists [!DNL Gold Standard] releases. Learn more about Campaign [!DNL Gold Standard] [in this page](gs-overview.md).
 
+## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 release{#gs-12}
+
+_August 27, 2021_
+
+The build 9032&#64;99a3894 includes the following fixes:
+
+* The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded.
+* Fixed an issue with date pickers which could result in a console displaying blocker error message. (NEO-36345)
+
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 release{#gs-11}
 
 _April 14, 2021_
