@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Control of offer engine{#control-of-offer-engine}
 
+![](../../assets/common.svg)
+
 The workflow detailed below is installed with the **Control of offer engine with execution instance** module by default.
 
 <table> 

@@ -9,6 +9,8 @@ exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 ---
 # Workflow properties{#workflow-properties}
 
+![](../../assets/common.svg)
+
 ## Execution tab {#execution-tab}
 
 The **[!UICONTROL Execution]** tab of the **[!UICONTROL Properties]** window in a workflow is broken down into 3 sections:
@@ -33,7 +35,7 @@ This section is only displayed in campaign workflows.
 
   If your installation includes several workflow servers, use this field to choose the machine which the workflow will be executed on. If the value defined in this field doesn't exist on any server, the workflow will remain pending.
 
-  Refer to this [section](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+  Refer to this [Campaign Classic v7 installation guide](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 * **[!UICONTROL History in days]**
 

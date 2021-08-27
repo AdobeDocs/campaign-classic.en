@@ -9,6 +9,8 @@ exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 ---
 # Database performance{#database-performances}
 
+![](../../assets/v7-only.svg)
+
 Most performance issues are linked to database maintenance. Here are four main leads to help you find the cause of slow performance:
 
 * Configuration

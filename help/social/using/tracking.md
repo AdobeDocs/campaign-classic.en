@@ -9,6 +9,8 @@ exl-id: 83883ba3-e4dc-428c-a377-1986cfd1fe55
 ---
 # Tracking{#tracking}
 
+![](../../assets/v7-only.svg)
+
 Social Marketing provides reports which enable you to measure the reactivity rate of Facebook and Twitter deliveries and to analyze the acquisition of Facebook profiles. The following reports are available:
 
 * The **[!UICONTROL Reactivity rate]** report, available via the **[!UICONTROL Summary]** tab of a Facebook or Twitter delivery.

@@ -9,13 +9,15 @@ exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---
 # Intersection{#intersection}
 
+![](../../assets/common.svg)
+
 An **Intersection**-type activity creates a target from the intersection of the targets received.
 
 An intersection lets you extract only the population that is common to all inbound activity results. The target is created with all results received: all prior activities must therefore be finished before the intersection can be executed. To configure this activity, you need to enter a label for it as well as the options concerning the result.
 
 ![](assets/s_user_segmentation_inter.png)
 
-For more on configuring and using the intersection activity, refer to [Extracting joint data (Intersection)](../../workflow/using/targeting-data.md#extracting-joint-data--intersection-).
+For more on configuring and using the intersection activity, refer to [Extracting joint data (Intersection)](targeting-data.md#extracting-joint-data--intersection-).
 
 Check the **[!UICONTROL Generate complement]** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity, as follows:
 

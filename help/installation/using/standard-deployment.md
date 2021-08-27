@@ -9,6 +9,8 @@ exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 ---
 # Standard deployment{#standard-deployment}
 
+![](../../assets/v7-only.svg)
+
 For this configuration, three computers are required:
 
 * An application server inside the LAN for the end users (preparing campaigns, reporting, etc.),

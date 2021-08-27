@@ -9,6 +9,8 @@ exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 ---
 # Campaign data model description{#data-model-description}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction.
 
 To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
@@ -123,7 +125,7 @@ This set of tables is linked to the **Marketing campaigns** module, which allows
 
 ## Communication consistency {#communication-consistency}
 
-This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. For more on this, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
+This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. For more on this, see [About campaign typologies](../../campaign-opt/using/about-campaign-typologies.md).
 
 ![](assets/data-model_typology.png)
 
@@ -135,7 +137,7 @@ This set of tables is linked to the **Campaign Optimization** module, which allo
 
 ## Response management {#response-management}
 
-This set of tables is linked to the **Response Manager** module, which allows to measure the success and profitability of marketing campaigns or offer propositions for all communication channels. For more on this, see [About response manager](../../campaign/using/about-response-manager.md).
+This set of tables is linked to the **Response Manager** module, which allows to measure the success and profitability of marketing campaigns or offer propositions for all communication channels. For more on this, see [About response manager](../../response/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 

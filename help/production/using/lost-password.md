@@ -9,6 +9,8 @@ exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 ---
 # Lost password{#lost-password}
 
+![](../../assets/v7-only.svg)
+
 You can change or recover a lost password.
 There are two possible scenarios:
 

@@ -9,6 +9,8 @@ exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 ---
 # Get started with mobile app channel{#about-mobile-app-channel}
 
+![](../../assets/common.svg)
+
 The **Mobile App Channel** lets you use the Adobe Campaign platform to send personalized push notifications to iOS and Android terminals via apps. 
 
 >[!CAUTION]

@@ -9,6 +9,8 @@ exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 ---
 # Application server{#application-server}
 
+![](../../assets/v7-only.svg)
+
 The required database access layers must be installed on the server and accessible from the Adobe Campaign account.
 
 ## Java Development Kit - JDK {#java-development-kit---jdk}

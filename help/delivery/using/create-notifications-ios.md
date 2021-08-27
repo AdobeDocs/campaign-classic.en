@@ -9,6 +9,8 @@ exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
 # Create notifications for iOS{#create-notifications-ios}
 
+![](../../assets/common.svg)
+
 This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
 
 Start by creating a new delivery.

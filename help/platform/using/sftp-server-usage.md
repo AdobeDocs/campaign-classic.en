@@ -9,6 +9,8 @@ exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 ---
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
 
+![](../../assets/common.svg)
+
 ## SFTP server global recommendations {#global-recommendations}
 
 When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. Make sure you follow the recommendations below when using SFTP servers.

@@ -8,6 +8,8 @@ exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 ---
 # Build personalized content {#build-personalized-content}
 
+![](../../assets/common.svg)
+
 When designing your message content, try to avoid common issues that could prevent you from executing your delivery. Most of the time, possible errors are related to [personalization](about-personalization.md), [formatting](defining-the-email-content.md#message-content) and [images](defining-the-email-content.md#adding-images).
 
 ## Optimize personalization {#optimize-personalization}

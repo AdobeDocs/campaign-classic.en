@@ -9,6 +9,8 @@ exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---
 # Privacy {#privacy}
 
+![](../../assets/v7-only.svg)
+
 ## Privacy Requests
 
 Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR and CCPA.

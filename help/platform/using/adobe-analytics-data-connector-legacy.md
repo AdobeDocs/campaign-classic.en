@@ -11,6 +11,8 @@ hide: yes
 ---
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
 
+![](../../assets/common.svg)
+
 >[!IMPORTANT]
 >
 >Adobe Analytics Data Connector is now deprecated. Deprecated capabilities are still available, but they will not be further enhanced, nor supported. Learn more [in this page](../../rn/using/deprecated-features.md).

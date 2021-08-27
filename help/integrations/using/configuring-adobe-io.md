@@ -11,6 +11,8 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 ---
 # Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
+![](../../assets/common.svg)
+
 >[!CAUTION]
 >
 >If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. 

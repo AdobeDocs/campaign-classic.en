@@ -9,6 +9,8 @@ exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 ---
 # SOAP methods in JavaScript{#soap-methods-in-javascript}
 
+![](../../assets/v7-only.svg)
+
 This is the JavaScript executed on the Adobe Campaign server.
 
 ## Static methods {#static-methods}

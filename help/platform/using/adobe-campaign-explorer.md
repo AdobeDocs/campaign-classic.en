@@ -9,6 +9,8 @@ exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e
 ---
 # Use Adobe Campaign explorer {#using-adobe-campaign-explorer}
 
+![](../../assets/common.svg)
+
 The Adobe Campaign explorer is accessible via the toolbar icon. It lets you access the Adobe Campaign all the Adobe Campaign capabilities, configuration screens and a more detailed view of some of the platform elements.
 
 The **[!UICONTROL Explorer]** workspace is divided into three zones:

@@ -8,6 +8,8 @@ exl-id: 6db8a653-b649-402c-8814-24826edadba7
 ---
 # Ingest Adobe Experience Platform segments into Campaign {#destinations}
 
+![](../../assets/common.svg)
+
 To ingest Adobe Experience Platform into Campaign and use them in your workflows, you first need to connect Adobe Campaign as an Adobe Experience Platform **Destination** and configure it with the segment to export.
 
 Once the Destination has been configured, data will be exported to your storage location, and you will need to build a dedicated workflow in Campaign Classic to ingest it.

@@ -9,6 +9,8 @@ exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
 ---
 # Messaging server{#messaging-server}
 
+![](../../assets/v7-only.svg)
+
  Adobe Campaign handles outbound email natively, however a traditional email server is required to receive incoming messages linked to returned email (from mailer daemons). The mailboxes configured on this server will be automatically processed by the application.
 
 All servers configured for POP3 access can be used to receive return mail if they preserve the SMTP "Message-ID" headers when picking up the mail. For example, implementations using Qmail, SendMail and Microsoft Exchange are currently in production. However, some installations of Lotus Notes/domino revealed an issue with the maintaining of "Message-Id" headers.

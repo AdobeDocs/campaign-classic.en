@@ -9,6 +9,8 @@ exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 ---
 # Understanding quarantine management{#understanding-quarantine-management}
 
+![](../../assets/common.svg)
+
 ## About quarantines {#about-quarantines}
 
 Adobe Campaign manages a list of quarantined addresses. Recipients whose address is quarantined are excluded by default during delivery analysis, and will not be targeted. An email address can be quarantined, for example, when the mailbox is full or if the address does not exist. In any case, the quarantine procedure complies with specific rules described below.

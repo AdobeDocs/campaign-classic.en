@@ -9,6 +9,8 @@ exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 ---
 # Data model best practices{#data-model-best-practices}
 
+![](../../assets/v7-only.svg)
+
 This document outlines key recommendations while designing your Adobe Campaign data model.
 
 For a better understanding of Campaign built-in tables and their interaction, refer to [this section](../../configuration/using/about-data-model.md) section.

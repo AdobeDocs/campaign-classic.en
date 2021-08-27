@@ -10,6 +10,8 @@ topic-tags: connectors
 
 # Configure access to Google BigQuery {#configure-fda-google-big-query}
 
+![](../../assets/v7-only.svg)
+
 Use Adobe Campaign Classic **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Google BigQuery].
 
 1. Configure [!DNL Google BigQuery] on [Windows](#google-windows) or [Linux](#google-linux)

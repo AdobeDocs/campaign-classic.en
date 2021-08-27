@@ -9,6 +9,8 @@ exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 ---
 # Approving and activating an offer{#approving-and-activating-an-offer}
 
+![](../../assets/v7-only.svg)
+
 Once the offer content is complete, you need to approve it for it to be duplicated into the live environment and delivered. Approval concerns the offer content and its eligibility.
 
 The banner on the offer dashboard tells you whether the offer needs to go through the approval cycle or not. 

@@ -9,6 +9,8 @@ exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
 ---
 # Client console availability for Windows{#client-console-availability-for-windows}
 
+![](../../assets/v7-only.svg)
+
 For Adobe Campaign users to be able to log on to the instance you have created and configured, they need to use the client console.
 
 ## Make the client console available

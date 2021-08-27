@@ -9,6 +9,8 @@ exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 ---
 # Submitting request to Adobe{#submitting-request-to-adobe}
 
+![](../../assets/common.svg)
+
 >[!NOTE]
 >
 >To be able to proceed further, make sure that IMS is enabled on your system. Consult the section about [IMS](../../integrations/using/about-adobe-id.md).

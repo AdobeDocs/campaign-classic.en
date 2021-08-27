@@ -9,6 +9,8 @@ exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 ---
 # Get started with Campaign data model{#about-data-model}
 
+![](../../assets/v7-only.svg)
+
 The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction. Main tables and concepts are listed in this page.
 
 ## Overview {#data-model-overview}

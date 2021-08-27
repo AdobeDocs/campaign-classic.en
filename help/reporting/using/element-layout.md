@@ -9,6 +9,8 @@ exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 ---
 # Element layout{#element-layout}
 
+![](../../assets/common.svg)
+
 In addition to the various charts detailed here: [Chart types and variants](../../reporting/using/creating-a-chart.md#chart-types-and-variants), you can adapt the display and add elements to the report page(s).
 
 You can use containers: these enable you to link several elements of a page and configure their layout in columns and/or cells. How to use them is detailed in [this section](../../web/using/defining-web-forms-layout.md#creating-containers).

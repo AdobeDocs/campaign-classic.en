@@ -9,6 +9,8 @@ exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 ---
 # Get started with queries{#about-queries-in-campaign}
 
+![](../../assets/common.svg)
+
 The Adobe Campaign query tool can be found on multiple levels of the software: to create a target population, segment customers, extract and filter tracking logs, build filters, etc.
 
 The Adobe Campaign query tool lets you query a database using a dedicated wizard: the generic query editor. It is accessed via the **[!UICONTROL Tools > Generic query editor...]** menu. It lets you extract information stored in a database and organize, group, sort, etc. For instance, the user can recover recipients who clicked more than 'n' times on the link of a newsletter over a given period. This tool lets you collect, sort and display results based on your needs.

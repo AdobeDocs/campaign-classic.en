@@ -9,6 +9,8 @@ exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 ---
 # Get started with security and privacy {#get-started-security-privacy}
 
+![](../../assets/v7-only.svg)
+
 This section will introduce you to the key elements to check regarding security and privacy. Some configurations can only be performed by on-premise customers.
 
 ## Privacy

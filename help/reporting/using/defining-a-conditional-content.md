@@ -9,6 +9,8 @@ exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
 ---
 # Defining a conditional content{#defining-a-conditional-content}
 
+![](../../assets/common.svg)
+
 You can condition the display of specific report items or pages.
 
 To make specific items conditional, adapt their visibility settings. For more on this, refer to [Conditioning item display](#conditioning-item-display).

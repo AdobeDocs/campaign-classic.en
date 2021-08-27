@@ -9,6 +9,8 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
 # Get started with upgrades{#rn-overview}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign is regularly updated. On the average two or three minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only. 
 
 This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.

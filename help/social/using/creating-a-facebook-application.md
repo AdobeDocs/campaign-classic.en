@@ -9,6 +9,8 @@ exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
 ---
 # Creating a Facebook application{#creating-a-facebook-application}
 
+![](../../assets/v7-only.svg)
+
 Thanks to web applications, Social Marketing lets you display personalized content in your Facebook applications, making it easier to acquire prospects via this social network. For more examples of Facebook type web applications, refer to [Examples of Facebook apps](../../social/using/examples-of-facebook-apps.md).
 
 >[!NOTE]

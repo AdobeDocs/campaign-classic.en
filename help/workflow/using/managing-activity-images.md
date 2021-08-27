@@ -9,6 +9,8 @@ exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 ---
 # Managing activity images{#managing-activity-images}
 
+![](../../assets/common.svg)
+
 The images used in the diagrams of the various workflows can be changed. However they must comply with certain constraints. Here are the implementation stages:
 
 * To change the background image, select the desired targeting workflow, then click the **[!UICONTROL Properties]** tab.

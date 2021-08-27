@@ -9,6 +9,8 @@ exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
 ---
 # About social marketing{#about-social-marketing}
 
+![](../../assets/v7-only.svg)
+
 The **Managing social networks** (Social Marketing) application designed for managing social networks lets you interact with customers and prospects via Facebook and Twitter.
 
 1. **Sending messages**

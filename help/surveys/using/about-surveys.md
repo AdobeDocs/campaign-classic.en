@@ -9,13 +9,15 @@ exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 ---
 # Get started with surveys{#about-surveys}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign includes a graphical module to define and publish Web applications. This is used to create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. Use this capability to design and post web pages in which users can look up or enter information.
 
 The optional **Survey** add-on lets you create a new type of Web application to create and manage online questionnaires, such as forms to add or modify profile information, to subscribe to or unsubscribe from an information service, or a competition entry form. Once answers have been collected, they are stored in the database or in local variables. The data model can be extended dynamically via the answers given to questionnaires. You can view the results in real time, filter the responses, and analyze them using dedicated charts.
 
 This chapter details how to create and manage **Surveys**, field and page management, storage modes and records.
 
-[!DNL :bulb:] Learn how to create your first survey in [this page](getting-started-with-surveys.md).
+Learn how to create your first survey in [this page](getting-started-with-surveys.md).
 
 >[!NOTE]
 >

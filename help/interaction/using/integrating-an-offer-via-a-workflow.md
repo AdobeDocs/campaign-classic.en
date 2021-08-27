@@ -9,6 +9,8 @@ exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 ---
 # Integrating an offer via a workflow{#integrating-an-offer-via-a-workflow}
 
+![](../../assets/v7-only.svg)
+
 Outside of the delivery activity itself, several workflow activities allow you to define the way offers are presented:
 
 * Delivery outline

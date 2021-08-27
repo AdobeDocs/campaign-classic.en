@@ -9,6 +9,8 @@ exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 ---
 # Filter schemas{#filtering-schemas}
 
+![](../../assets/v7-only.svg)
+
 ## System filters {#system-filters}
 
 You can filter schema access to specific users, depending on their permissions. System filters let you manage the read and write permissions of entities detailed in schemas, using **readAccess** and **writeAccess** parameters.

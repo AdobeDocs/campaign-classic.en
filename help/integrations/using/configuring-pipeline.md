@@ -8,6 +8,8 @@ exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 ---
 # Configuring pipeline {#configuring-pipeline}
 
+![](../../assets/common.svg)
+
 Authentication parameters such as the customer ID, the private key, and the authentication endpoint are configured in the instance configuration files.
 The list of triggers to be processed is configured in an option in JSON format.
 The triggers are used for targeting by a campaign workflow that sends emails. The campaign is set up so that a customer that has both trigger events receives an email.

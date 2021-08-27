@@ -9,6 +9,8 @@ exl-id: 6c1e061b-8636-4285-8d83-97474544d252
 ---
 # Updating the database structure{#updating-the-database-structure}
 
+![](../../assets/v7-only.svg)
+
 To apply the modifications made to the schemas, launch the database update wizard. This wizard is accessible via **[!UICONTROL Tools > Advanced > Update database structure]** . It checks whether the physical structure of the database matches its logical description and executes the SQL update scripts.
 
 ![](assets/d_ncs_integration_schema_update.png)

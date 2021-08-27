@@ -9,6 +9,8 @@ exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 ---
 # Get started with reporting {#about-adobe-campaign-reporting-tools}
 
+![](../../assets/common.svg)
+
 In addition to [built-in reports](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign lets you generate reports in various contexts and to meet different needs. Principles of use and implementation modes are detailed in this document.
 
 Adobe Campaign isn't a specialized reporting tool: reports created in Adobe Campaign mainly enable you to view aggregated data. Adobe Campaign reports, which are dedicated to analyzing and representing data, are not designed for database exports.

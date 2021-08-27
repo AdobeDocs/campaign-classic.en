@@ -9,6 +9,8 @@ exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 ---
 # Creating a direct mail delivery{#creating-a-direct-mail-delivery}
 
+![](../../assets/common.svg)
+
 To create a new direct mail delivery, follow the steps below:
 
 >[!NOTE]

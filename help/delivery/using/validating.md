@@ -9,6 +9,8 @@ exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
 ---
 # Validating{#validating}
 
+![](../../assets/common.svg)
+
 Global concepts when validating a delivery are presented in [this section](steps-validating-the-delivery.md).
 
 The output file of a direct mail delivery is generated during the delivery analysis. The file's content depends on the selected output columns (refer to [Extraction file](defining-the-direct-mail-content.md#extraction-file)).

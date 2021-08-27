@@ -9,6 +9,8 @@ exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
 ---
 # Content Management{#content-management}
 
+![](../../assets/common.svg)
+
 A **Content management** activity lets you create and manipulate a content and generate files based on this content. This content can then be delivered via a 'Delivery' activity.
 
 >[!CAUTION]

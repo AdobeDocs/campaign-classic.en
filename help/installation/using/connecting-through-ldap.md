@@ -9,6 +9,8 @@ exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 ---
 # Connecting through LDAP{#connecting-through-ldap}
 
+![](../../assets/v7-only.svg)
+
 ## Configuring Campaign and LDAP {#configuring-campaign-and-ldap}
 
 >[!NOTE]

@@ -9,6 +9,8 @@ exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 ---
 # Get started with cubes{#about-cubes}
 
+![](../../assets/common.svg)
+
 Exploration of data in the database is offered via the **Marketing Analytics** module. It enables you to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. In addition to this, Marketing Analytics enables you to create reports and build target populations. Once these are identified, they are stored in lists that can be used in Adobe Campaign (targeting, segmentation, etc.).
 
 Cubes are used for generating certain built-in reports, including delivery reports (delivery tracking, clicks, opens, etc.). Reports based on cubes may only be used as a standard for data volumes under 5 million fact lines.

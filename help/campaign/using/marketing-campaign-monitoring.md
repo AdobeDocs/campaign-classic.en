@@ -9,6 +9,8 @@ exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 ---
 # Monitor marketing campaigns {#monitoring-marketing-campaigns}
 
+![](../../assets/common.svg)
+
 ## Track a campaign {#tracking-a-campaign}
 
 For each campaign, the **[!UICONTROL Tracking]** tab lets you view all jobs and their statuses. The following information is accessible via this sub-tab:

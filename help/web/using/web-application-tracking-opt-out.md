@@ -9,6 +9,8 @@ exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 ---
 # Web application tracking opt-out{#web-application-tracking-opt-out}
 
+![](../../assets/common.svg)
+
 Adobe Campaign enables you to stop tracking web behaviors of end-users who opt-out of behavioral tracking via cookies or web beacons. The feature includes the ability to display a banner to present the end-user with that option; you may add these banners into web applications or landing pages.
 
 If an end-user opts-out of behavioral tracking via cookies or web beacons, then that information is transmitted to the Adobe Campaign tracking server with JavaScript APIs. Please note that some jurisdictions may require that Customer present end-users with an opt-in before an opt-out can be offered (or have other legal requirements), and it is Customer’s responsibility to comply with applicable laws.

@@ -9,6 +9,8 @@ exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 ---
 # Enterprise deployment{#enterprise-deployment}
 
+![](../../assets/v7-only.svg)
+
 This is the most complete configuration. It builds on the standard configuration for greater security and availability:
 
 * dedicated redirection servers behind a HTTP or TCP load balancer, for scalability and availability,

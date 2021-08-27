@@ -9,6 +9,8 @@ exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 ---
 # List of reports{#list-of-reports}
 
+![](../../assets/common.svg)
+
 ## Reports on deliveries {#reports-on-deliveries}
 
 The built-in reports provided by Adobe Campaign can be found in the table below.

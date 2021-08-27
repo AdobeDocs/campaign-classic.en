@@ -9,6 +9,8 @@ exl-id: 33247728-b865-4dfd-814f-2900965a7187
 ---
 # About inbound channels{#about-inbound-channels}
 
+![](../../assets/v7-only.svg)
+
 Offers can be presented on various offer spaces using an inbound or outbound channel. This chapter details some specific features for inbound channels.
 
 ![](assets/do-not-localize/how-to-video.png) You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) that details how to deliver an offer on an inbound channel.

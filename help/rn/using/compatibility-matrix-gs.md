@@ -9,6 +9,8 @@ exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 ---
 # [!DNL Gold Standard] Compatibility matrix{#compatibility-matrix-gs}
 
+![](../../assets/v7-only.svg)
+
 This document lists all systems and components supported for **Adobe Campaign Classic [!DNL Gold Standard]** 19.1 builds. Products and versions that are not part of this list are not compatible with this version of Adobe Campaign.
 
 ## Important notes{#important-notes-gs}

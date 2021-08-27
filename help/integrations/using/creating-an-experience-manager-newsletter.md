@@ -8,6 +8,8 @@ exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 ---
 # Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
 
+![](../../assets/common.svg)
+
 This integration can be used for example to create a newsletter in Adobe Experience Manager which will then be used in Adobe Campaign as part of an email campaign.
 
 For a more detailed example on how to use this integration, refer to this [step-by-step guide](https://helpx.adobe.com/campaign/kb/acc-aem.html).

@@ -9,6 +9,8 @@ exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 ---
 # Inbox rendering{#inbox-rendering}
 
+![](../../assets/common.svg)
+
 ## About inbox rendering {#about-inbox-rendering}
 
 Before hitting the **Send** button, make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.

@@ -9,6 +9,8 @@ exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 ---
 # attribute element {#attribute--element}
 
+![](../../../assets/v7-only.svg)
+
 ## Content model {#content-model}
 
 attribute:==help

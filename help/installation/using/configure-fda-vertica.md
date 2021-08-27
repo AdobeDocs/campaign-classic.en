@@ -10,6 +10,8 @@ topic-tags: connectors
 
 # Configure access to Vertica {#configure-fda-vertica}
 
+![](../../assets/v7-only.svg)
+
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Vertica].
 
 1. Configure [!DNL Vertica] on [CentOS](#vertica-centos), [Windows](#vertica-windows) or [Debian](#vertica-debian)

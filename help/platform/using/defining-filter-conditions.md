@@ -9,6 +9,8 @@ exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 ---
 # Define filter conditions{#defining-filter-conditions}
 
+![](../../assets/common.svg)
+
 ## Choose the operator {#choosing-the-operator}
 
 Within filtering conditions, you need to link two values together using an operator.

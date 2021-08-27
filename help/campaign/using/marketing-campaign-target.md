@@ -9,6 +9,8 @@ exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 ---
 # Select the audience of your campaigns {#marketing-campaign-deliveries}
 
+![](../../assets/common.svg)
+
 In a marketing campaign, for each delivery, you can define:
 
 * The audience - Learn more in [Building the audience in a workflow](#building-the-main-target-in-a-workflow) and [Selecting the target population](#selecting-the-target-population).

@@ -9,6 +9,8 @@ exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 ---
 # SQL Data Management{#sql-data-management}
 
+![](../../assets/common.svg)
+
 The **SQL Data Management** activity lets you write your own SQL scripts to create and populate work tables.
 
 ## Prerequisites {#prerequisites}
@@ -16,7 +18,14 @@ The **SQL Data Management** activity lets you write your own SQL scripts to crea
 Before configuring the activity, make sure the following prerequisites are fulfilled:
 
 * The activity is available for remote data sources only. The **[!UICONTROL FDA]** (Federated Data Access) package must therefore be installed on your instance. [Learn more](../../installation/using/about-fda.md).
-* The Outbound schema must exist in the database and be linked to an FDA database. [Learn more](../../configuration/using/about-schema-reference.md).
+
+     For more on this, depending on your Campaign version, refer to these sections:
+   
+    ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../installation/using/about-fda.md)
+
+    ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
+
+* The Outbound schema must exist in the database and be linked to an FDA database.
 * The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. [Learn more](../../platform/using/access-management-named-rights.md).
 
 ## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}

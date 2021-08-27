@@ -9,6 +9,8 @@ exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 ---
 # Get started with web forms{#about-web-forms}
 
+![](../../assets/common.svg)
+
 Adobe Campaign integrates a graphical module for defining and publishing Web forms to create pages containing input and selection fields, and which may include data in the database. This lets you design and post Web pages which users can access to view or enter information.
 
 This chapter details the creation and management of Web forms, how to manage fields and pages, as well as storage and saving modes.
