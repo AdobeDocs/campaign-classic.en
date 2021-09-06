@@ -15,9 +15,9 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 Understand Campaign build statuses in [this page](rn-overview.md). 
 
-## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9340 {#release-21-1-4-build-9340}
+## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
-_August 27, 2021_
+_September 7, 2021_
 
 **Security enhancement**
 
@@ -31,7 +31,7 @@ _August 27, 2021_
 
 **Other changes**
 
-* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../delivery/using/how-to-configure-tracked-links.md)
+* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
 * A guardrail has been added to only allow the [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.

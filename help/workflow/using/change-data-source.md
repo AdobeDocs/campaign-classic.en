@@ -29,11 +29,15 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
     For more information on the **[!UICONTROL Query]** activity, refer to this [page](../../workflow/using/query.md#creating-a-query).
 
-1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
+1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity.
+
+   ![](assets/change-data-source.png)
+
+1. Double-click your **[!UICONTROL Change data source]** activity to select **[!UICONTROL Default data source]**.
     
     The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
 
-   ![](assets/change-data-source.png)
+   ![](assets/change-data-source_2.png)
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
@@ -41,6 +45,8 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
     
-    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
+1. Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding **[!UICONTROL External database]** external account.
+
+   ![](assets/change-data-source_3.png)
 
 1. You can now start your workflow.
