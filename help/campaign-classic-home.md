@@ -10,7 +10,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
-* **[June Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements and fixes in the Release Notes
+* **[September Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements and fixes in the Release Notes
 
 * **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/using/apple-mail-privacy-faq.html)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
 

@@ -13,32 +13,13 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release**.
 
->[!NOTE]
->
->Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 12 release](../../rn/using/gold-standard.md#gs-12) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9342).
+Understand Campaign build statuses in [this page](rn-overview.md). 
 
 ## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
 _September 7, 2021_
 
-<table>
-<thead>
-<tr>
-<th><strong>New workflow activity: Change Data Source</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The new <b>Change Data Source</b> workflow activity allows you to change the data source of a workflow's working table. This provides enhanced flexibility in managing data across different data sources (FDA & local database).</p>
-<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
-<p>For more information, refer to the <a href="../../workflow/using/change-data-source.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-**Security enhancements**
+**Security enhancement**
 
 * Fixed a security issue to reinforce protection against directory traversal attacks. (NEO-28547)
 
@@ -52,7 +33,7 @@ _September 7, 2021_
 
 * Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
-* A guardrail has been added to only allow the billing workflow to run on the marketing instance.
+* A guardrail has been added to only allow the [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
 * Missing database indexes were added to the following schemas to prevent database update issues: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
@@ -73,6 +54,24 @@ _September 7, 2021_
 _June 5, 2021_
 
 **What's new?**
+
+
+<table>
+<thead>
+<tr>
+<th><strong>New workflow activity: Change Data Source</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The new <b>Change Data Source</b> workflow activity allows you to change the data source of a workflow's working table. This provides enhanced flexibility in managing data across different data sources (FDA & local database).</p>
+<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
+<p>For more information, refer to the <a href="../../workflow/using/change-data-source.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
