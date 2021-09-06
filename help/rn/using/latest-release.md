@@ -15,11 +15,11 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 >[!NOTE]
 >
->Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 12 release](../../rn/using/gold-standard.md#gs-12) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9341).
+>Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 12 release](../../rn/using/gold-standard.md#gs-12) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9342).
 
-## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9341 {#release-21-1-4-build-9341}
+## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
-_September 2, 2021_
+_September 7, 2021_
 
 <table>
 <thead>
