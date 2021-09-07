@@ -15,6 +15,19 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## August 2021{#aug-2021}
+
+Added new workflow activity: Change Data Source - [Learn more](../../workflow/using/change-data-source.md)
+
+Applicability badges have been added to the documentation pages: **Applies to v7** for Campaign Classic v7 capabilities only, and **Applies to v7 & v8** for common capabilities.
+
+Added a note about the integration between Campaign and AEM Assets which has been decomissonned starting Adobe Experience Manager 6.4. [Learn more](../../integrations/using/configuring-access-to-assets.md)
+
+Reports and web applications screenshots and parameters have been updated following Adobe Flash removal.
+
+The **Gauge** chart type has been removed.
+
+
 ## July 2021 {#july-2021}
 
 [Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330) has moved to General Availability (GA).

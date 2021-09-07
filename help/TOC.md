@@ -434,6 +434,7 @@ type: Documentation
        + [Subscription Services](workflow/using/subscription-services.md)
        + [Update data](workflow/using/update-data.md)
        + [CRM Connector](workflow/using/crm-connector.md)
+       + [Change data source](workflow/using/change-data-source.md)
   + Flow control activities {#flow-control-activities}
        + [About flow control activities](workflow/using/about-flow-control-activities.md)
        + [Start and end](workflow/using/start-and-end.md)
