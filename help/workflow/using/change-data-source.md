@@ -4,6 +4,7 @@ description: Learn more about the Change data source activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
+exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
 ---
 # Change data source {#change-data-source}
 
