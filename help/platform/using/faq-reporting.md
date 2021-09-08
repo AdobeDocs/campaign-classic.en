@@ -9,7 +9,7 @@ exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
 ---
 # Reporting FAQ {#reporting-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## How can I create new reports? {#how-can-i-create-new-reports-}
 

@@ -9,7 +9,7 @@ exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 ---
 # Key concepts {#key-concepts}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Learn key steps to start with Adobe Campaign.
 

@@ -9,7 +9,7 @@ exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
 ---
 # Profiles and Audiences FAQ {#audiences-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Learn how to target a population and manage audiences within Adobe Campaign.
 
