@@ -111,7 +111,7 @@ Usage: nlserver [-verbose:<verbose mode>] [-?|h|H] [-version] [-noconsole]
 -allinstances : updates the database over all configured instances
 -addinstance : adds a new instance.
 -setdblogin : sets the parameters for connection to the database of an instance. The DBMS can be 'oracle', 'postgresql', 'mssql' or 'odbc' (default=postgresql)
--monoinstance : initialises for a single instance ().
+-monoinstance : initializes for a single instance ().
 -addtrackinginstance : adds a new tracking instance.
 -trackingpassword : changes the tracking password of an instance
 -setproxy : sets the parameters for connection to a proxy server. The protocol can be 'http', 'https' or 'all'.

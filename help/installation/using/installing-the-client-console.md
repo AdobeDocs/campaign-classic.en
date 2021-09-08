@@ -75,7 +75,7 @@ If **[!UICONTROL No longer ask this question]**  has been selected, you can rese
 
 >[!NOTE]
 >
->If you are applying an updated console to an existing implementation, the users will automatically recieve a prompt to update their client console. If you are implementing Campaign for the first time, users will need to download the console. Please see below for details on both options
+>If you are applying an updated console to an existing implementation, the users will automatically receive a prompt to update their client console. If you are implementing Campaign for the first time, users will need to download the console. Please see below for details on both options
 
 ### Update the console for existing implementation{#update-the-client-console}
 

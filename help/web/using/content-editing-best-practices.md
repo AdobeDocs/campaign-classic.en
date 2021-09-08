@@ -45,7 +45,7 @@ The Digital Content Editor supports the HTML format: you can switch-over to **so
 The Digital Content Editor's import function works as follows with the following supported formats:
 
 * CSS: the images present in the .zip file are not imported. The references to these images in the CSS are not updated.
-* JS: the images present in the .zip file are not imported. The refences to these images in the JS are not updated.
+* JS: the images present in the .zip file are not imported. The references to these images in the JS are not updated.
 * Iframe: the linked pages are not imported.
 * Landing pages & Web apps: if a **form** tag is missing, a warning will appear. A `<form> </form>` must always be present in the message body.
 

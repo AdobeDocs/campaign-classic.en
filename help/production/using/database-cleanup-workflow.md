@@ -574,7 +574,7 @@ The following query is used:
 DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 ```
 
-where **$(tsDate)** is the current server date from which the period defined for the **XtkCleanup_AuditTrailPurgeDelay** option is substracted.
+where **$(tsDate)** is the current server date from which the period defined for the **XtkCleanup_AuditTrailPurgeDelay** option is subtracted.
 
 ### Cleanup of Nmsaddress {#cleanup-of-nmsaddress}
 

@@ -311,7 +311,7 @@ Here are a few best practices regarding the size of tables:
 
 * Design large tables with fewer fields and more numeric data.
 * Do not use large number type of column (ex: Int64) to store small numbers like boolean values.
-* Remove unsused columns from the table definition.
+* Remove unused columns from the table definition.
 * Do not keep historical or inactive data in your Adobe Campaign database (export and cleanup).
 
 Here is an example:

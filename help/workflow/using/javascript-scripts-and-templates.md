@@ -85,7 +85,7 @@ Certain event variables are modified or read by the various activities. These ar
 
 >[!NOTE]
 >
->Additional worklow use cases are available in [this section](about-workflow-use-cases.md).
+>Additional workflow use cases are available in [this section](about-workflow-use-cases.md).
 
 **Example 1**
 

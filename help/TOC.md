@@ -111,7 +111,7 @@ type: Documentation
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
-          + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
+          + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
        + Adobe Analytics Connector{#analytics-connector}
           + [Adobe Analytics Connector integration](platform/using/adobe-analytics-connector.md)
           + [How to migrate to Adobe Analytics Connector](technotes/using/aa-connector-migration.md)

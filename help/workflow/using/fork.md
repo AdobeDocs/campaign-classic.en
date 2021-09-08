@@ -22,7 +22,7 @@ You can also use the activity in the context of content creation and delivery se
 
 >[!IMPORTANT]
 >
->Outbound transitions added after a **[!UICONTROL Fork]** activity **will not** execute simultaneously. This behaviour can impact the workflow's performances. Use this activity if you need to execute several activities independentely, and eventually join them together before executing the rest of the worklow.
+>Outbound transitions added after a **[!UICONTROL Fork]** activity **will not** execute simultaneously. This behavior can affect the performance of the workflow. Use this activity if you need to execute several activities independently, and eventually join them together before executing the rest of the workflow.
 
 To configure the  **[!UICONTROL Fork]** activity, open it define the number and label of the outbound transitions.
 

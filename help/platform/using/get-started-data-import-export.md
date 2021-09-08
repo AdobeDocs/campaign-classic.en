@@ -57,6 +57,6 @@ For more on this, refer to these sections:
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
-Several [best practices](../../platform/using/import-export-best-practices.md) should be followed when performing import and export operations to ensure data consistency within the database and avoid commong error during update or export.
+You should follow several [best practices](../../platform/using/import-export-best-practices.md) when performing import and export operations to ensure data consistency within the database and avoid common errors during update or export operations.
 
 Additionally, recommendations and common issues related to SFTP servers usage are available in [this section](../../platform/using/sftp-server-usage.md).

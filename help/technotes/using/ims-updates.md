@@ -23,7 +23,7 @@ To preserve this functionality, customers must update the Client Console on each
 
 If you are connecting to Campaign [via an Adobe ID](../../integrations/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), and running an older version of Campaign than the ones listed below, you are impacted.
 
-If you already updgraded but using an old version of Microsoft Internet Explorer, you must upgrade to Internet Explorer 11.
+If you already upgraded but using an old version of Microsoft Internet Explorer, you must upgrade to Internet Explorer 11.
 
 ## How to update?
 

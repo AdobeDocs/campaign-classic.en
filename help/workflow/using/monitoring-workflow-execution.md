@@ -15,7 +15,7 @@ This section presents information on how to monitor your workflows' execution.
 
 A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](supervising-workflows.md#supervising-workflows).
 
-Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to [Campaign Classic v7 Production Guide](../../production/using/audit-trail.md).
+Additionally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to [Campaign Classic v7 Production Guide](../../production/using/audit-trail.md).
 
 Additional ways of monitoring the different Campaign processes are presented in [Campaign Classic v7 Production Guide](../../production/using/monitoring-guidelines.md).
 
@@ -236,11 +236,11 @@ You can also create specific technical workflows to purge unnecessary data consu
 
 ## Handling of paused workflows {#handling-of-paused-workflows}
 
-By default, if a workflow is paused, its working tables are never purged. From build 8880, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:
+By default, if a workflow is paused, its working tables are never purged. From build 8880, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behavior is triggered as follows:
 
 * Workflows that have been paused since more than 7 days appear as a warning in the monitoring dashboard (and monitoring API) and a notification is sent to the supervisor group.
 * The same happens every week, when the **[!UICONTROL cleanupPausedWorkflows]** technical workflow is triggered. For more details on the workflow, refer to [this section](delivery.md).
-* After 4 notifications (i.e. one month in paused state by default), the workflow is stopped unconditionnally. A log appears in the workflow after it has been stopped. The tables are purged at the next execution **[!UICONTROL cleanup]** workflow
+* After 4 notifications (i.e. one month in paused state by default), the workflow is stopped unconditionally. A log appears in the workflow after it has been stopped. The tables are purged at the next execution **[!UICONTROL cleanup]** workflow
 
 These periods can be configured via the NmsServer_PausedWorkflowPeriod option.
 

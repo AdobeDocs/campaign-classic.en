@@ -48,7 +48,7 @@ exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
 * Fixed an issue when using calculated fields in a **[!UICONTROL Survey answers]** workflow activity. (NEO-11382)
 * Tomcat has been updated to prevent vulnerabilities exploitation. (NEO-11503)
 * Fixed an error with LATIN1 encoding when using an FDA Connection to a PostgreSQL database. (NEO-11299)
-* Fixed an issue that occured when using the **[!UICONTROL Prepare the personalization data with a workflow]** delivery option. (NEO-11047)
+* Fixed an issue that occurred when using the **[!UICONTROL Prepare the personalization data with a workflow]** delivery option. (NEO-11047)
 * Fixed a postupgrade issue which prevented sending SMS from being sent when using an extended connector.
 * Improved package import/export (log and region were added in the interface).
 * Fixed an issue which displayed useless errors in the postupgrade log when a **[!UICONTROL Survey answers]** workflow activity was not fully configured.

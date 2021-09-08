@@ -61,7 +61,7 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
   * "smartCase": first letters upper case
   * "lowerCase": all lower case
   * "upperCase": all upper case
-  * "email": email adress
+  * "email": email address
   * "phone": telephone number
   * "identifier": identifier name
   * "resIdentifier": file name
@@ -113,11 +113,11 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
 * **ref (string)**: this attribute defines a reference to an `<attribute>` element shared by several schemas (definition factoring). The definition isn't copied into the current schema.
 * **required (boolean)**: if this attribute is activated (@required="true"), the field is highlighted in the interface. The label of the field will be red in forms.
 * **sql (boolean)**: if this attribute is activated (@sql="true"), it forces storage of the SQL attribute, even when the element which contains the attribute has the xml="true" property.
-* **sqlDefault (string)**: this attribute enables you to define the default value taken into account for updating the database if the @notNull attribute is activated. If this attribute is added after the attribute creation, the schema behaviour will not change even for the new records. To change the schema and update the value for new records, you need to delete and create again the attribute.
+* **sqlDefault (string)**: this attribute enables you to define the default value taken into account for updating the database if the @notNull attribute is activated. If this attribute is added after the attribute creation, the schema behavior will not change even for the new records. To change the schema and update the value for new records, you need to delete and create again the attribute.
 * **sqlname (string)**: of the field during table creation. If @sqlname isn't specified, the value of the "@name" attribute is used by default. When the schema is written in the database, prefixes are added automatically depending on the type of field.
 * **template (string)**: this attribute defines a reference to an `<attribute>` element shared by several schemas. The definition is automatically copied into the current schema.
 * **translatedDefault (string)**: if a "@default" attribute is found, the "@translatedDefault" will enable you to redefine an expression to match the one defined in @default, to be collected by the translation tool (internal use).
-* **translatedExpr (string)**: if an "@expr" attribute is present, the "@translatedExpr" attibute enables you to redefine an expression to match the one defined in @expr, to be collected by the translation tool (internal use).
+* **translatedExpr (string)**: if an "@expr" attribute is present, the "@translatedExpr" attribute enables you to redefine an expression to match the one defined in @expr, to be collected by the translation tool (internal use).
 * **type (MNTOKEN)**: field type.
 
   Field types are generic. Depending on the type of database installed, Adobe Campaign changes the defined type into a value specific to the database installed during structure update.

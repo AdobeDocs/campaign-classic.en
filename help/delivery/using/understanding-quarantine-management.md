@@ -260,7 +260,7 @@ During the delivery analysis, all the devices that are excluded from the target 
 
 **For Android V2**
 
-Android V2 quarantine mecanism uses the same process as Android V1, the same applies for the subscriptions and exclusions update. For more on this refer to the [Android V1](#android-quarantine) section.
+The Android V2 quarantine mechanism uses the same process as Android V1, the same applies to the subscriptions and exclusions update. For more on this refer to the [Android V1](#android-quarantine) section.
 
 <table> 
  <tbody> 

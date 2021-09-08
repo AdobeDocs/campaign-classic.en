@@ -251,7 +251,7 @@ The Privacy Management in Campaign Classic page has been updated with informatio
 
 The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-Information has been added on sub-workflows logs and behaviour in case of error. [Read more](../../workflow/using/sub-workflow.md)
+Information has been added on sub-workflows logs and behavior in case of error. [Read more](../../workflow/using/sub-workflow.md)
 
 Best practices have been added in the **[!UICONTROL Scheduler]** activity section. [Read more](../../workflow/using/scheduler.md)
 
@@ -361,7 +361,7 @@ Hadoop FDA Connector Enhancements - [Read more](../../installation/using/configu
 
 The [installation](../../installation/using/general-architecture.md), [production](../../production/using/foreword.md) and [configuration](../../configuration/using/additional-parameters.md) guides have been updated with the new systemd unit used by the nlserver service startup. You can still use /etc/init.d/nlserver6, but Adobe recommends that you now use the systemctl command for interacting with the nlserver service.
 
-The installation guide has been updated and synchronized with the latest version of the compatibity matrix. New supported systems have been added. Occurences to deprecated and unsupported systems have been removed. [Read more](../../installation/using/general-architecture.md)
+The installation guide has been updated and synchronized with the latest version of the compatibility matrix. New supported systems have been added. Occurrences of deprecated and unsupported systems have been removed. [Read more](../../installation/using/general-architecture.md)
 
 The Compatibility matrix has been updated with the Hadoop 3.0 and Snowflake FDA connectors. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
