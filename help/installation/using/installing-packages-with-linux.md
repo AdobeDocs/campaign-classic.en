@@ -277,7 +277,7 @@ When using Oracle with Adobe Campaign, you need to configure the Oracle client l
   ln -s libclntsh.so.10.1 libclntsh.so
   ```
 
-If you encounter a problem, make sure the packages listed in the [Oracle installation documentation](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) are correctly installed.
+If you encounter a problem, make sure the packages listed in the [Oracle installation documentation](https://docs.oracle.com/) are correctly installed.
 
 ## Installation checks {#installation-checks}
 

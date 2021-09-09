@@ -130,7 +130,7 @@ The new ticketing system has been launched through [Adobe Admin Console](https:/
 
 ### Ask the experts!
 
-Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.cadobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
 ### Access Campaign Download Center
 
