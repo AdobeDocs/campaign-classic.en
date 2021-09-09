@@ -15,6 +15,12 @@ This page lists [!DNL Gold Standard] releases. Learn more about Campaign [!DNL G
 
 ## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 release{#gs-12}
 
+_September 7, 2021_
+
+The build 9032&#64;554dbcd includes the following fix:
+
+* Fixed an issue which led to a 500 error when opening the link to a web application in a Line delivery with tracking enabled.
+
 _August 27, 2021_
 
 The build 9032&#64;99a3894 includes the following fixes:

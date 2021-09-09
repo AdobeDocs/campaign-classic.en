@@ -9,7 +9,7 @@ exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
 ---
 # Message design FAQ {#design-messages-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Discover key steps to design omni-channel messages with Adobe Campaign.
 

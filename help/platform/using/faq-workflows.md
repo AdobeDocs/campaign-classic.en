@@ -9,7 +9,7 @@ exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
 ---
 # Workflows FAQ {#workflows-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Learn how to orchestrate processes and tasks with Adobe Campaign workflows.
 
