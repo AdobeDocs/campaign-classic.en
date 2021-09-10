@@ -29,9 +29,9 @@ The **last GA builds** are: [[!DNL Gold Standard] 12 release](../../rn/using/gol
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest version with new capabilities.
 
-![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fixes. Update to a newer build is recommended.
+![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
 
-![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fixes. Existing implementations must be upgraded.
+![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
 
 ## Recommendations{#recommendations}
 
