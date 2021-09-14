@@ -34,13 +34,8 @@ Preserve your data and consolidate your current knowledge on devices. You can ba
 Archive your tracking logs beyond the retention period of Adobe Campaign:
 
 1. Check the duration of the retention period in your campaign instance.
-1. Double-check your active target mappings.
-
-   Determine whether you use custom profiles tables in addition to the out-of-the-box profiles table (`nmsRecipient`).
-
-1. Export your tracking logs from Adobe Campaign.
-
-   Include the logs that contain data about the user agent and the operating system.
+1. Double-check your active target mappings. Determine whether you use custom profiles tables in addition to the out-of-the-box profiles table (`nmsRecipient`).
+1. Export your tracking logs from Adobe Campaign. Include the logs that contain data about the user agent and the operating system.
 
 ### Assess the current trend in open rates
 
@@ -49,9 +44,7 @@ Using this assessment, you can identify potential anomalous gaps and their cause
 
 ### Reassess your campaign strategy and performance metrics
 
-Above all, we strongly recommend that you proactively reassess your campaign strategy and your campaign performance metrics.
-
-You can refocus on more reliable metrics, for example, click-throughs, product views, and purchases.
+Above all, we strongly recommend that you proactively reassess your campaign strategy and your campaign performance metrics. You can refocus on more reliable metrics, for example, click-throughs, product views, and purchases.
 
 We recommend that you explore currently available data and assess the correlation between open rates and other metrics. If these metrics are consistently correlated, then you can improve your triggers with a good level of confidence.
 
