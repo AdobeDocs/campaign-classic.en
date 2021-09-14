@@ -449,6 +449,7 @@ These examples show how you can use workflows to break down records by iOS devic
 
        * In one transition, the **[!UICONTROL Change dimension]** activity is used to find the recipients to whom the tracking log refers.
        * In the other transition, the **[!UICONTROL Split]** activity is used to split the selection by email application, browser, operating system, and device.
+
     1. An **[!UICONTROL End]** activity follows each transition after the **[!UICONTROL Split]** activity.
 
     This type of workflow is useful if you store recipients in a table other than the out-of-the-box recipients table.
