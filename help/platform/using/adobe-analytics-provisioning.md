@@ -32,19 +32,31 @@ Product Profile determines the level of access a user has on Analytics Component
 
 For more information on the Admin console, refer to the documentation.
 
-1. From the [Admin console](https://adminconsole.adobe.com/), select your Adobe Analytics **[!UICONTROL Product]** and click **[!UICONTROL New Profile]**.
+1. From the [Admin console](https://adminconsole.adobe.com/), select your Adobe Analytics **[!UICONTROL Product]**.
 
-1. Add a **[!UICONTROL Product profile name]** and click **[!UICONTROL Next]**.
+    ![](assets/do-not-localize/triggers_1.png)
+
+1. Click **[!UICONTROL New Profile]**.
+
+    ![](assets/do-not-localize/triggers_2.png)
+
+1. Add a **[!UICONTROL Product profile name]**, we suggest using the following syntax: `Analytics Classic`. Then, click **[!UICONTROL Next]**.
    
-   We suggest using the following syntax: Analytics Classic.
+   This **[!UICONTROL Product profile]** should be used exclusively for Analytics Connector to prevent mid-configuration errors.
 
 1. Open your newly created **[!UICONTROL Product profile]** and select the **[!UICONTROL Permissions]** tab.
 
+    ![](assets/do-not-localize/triggers_3.png)
+
 1. Configure the different capabilities clicking **[!UICONTROL Edit]** and select the permissions to assign to your **[!UICONTROL Product profile]** by clicking the plus (+) icon. 
+
+   For more information on how to manage permissions, refer to the [Admin console documentation](https://helpx.adobe.com/mt/enterprise/using/manage-permissions-and-roles.html).
 
 1. For the **[!UICONTROL Report Suites]** capability, add the **[!UICONTROL Report Suites]** you need to use later on.
       
       If you don't have any report suites, you can create it following [these steps](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html).
+
+    ![](assets/do-not-localize/triggers_4.png)
 
 1. For the **[!UICONTROL Metrics]** capability, add the **[!UICONTROL Metrics]** you will need to configure later on.
 
@@ -91,28 +103,44 @@ Steps
    
 1. Click **[!UICONTROL Create a new project]**.
 
+    ![](assets/do-not-localize/triggers_5.png)
+
 1. Click **[!UICONTROL Add to Project]** and select **[!UICONTROL API]**.
+
+    ![](assets/do-not-localize/triggers_6.png)
 
 1. Select [!DLN Adobe Analytics] and click **[!UICONTROL Next]**.
 
+    ![](assets/do-not-localize/triggers_7.png)
+
 1. Choose **[!UICONTROL Service Account (JWT)]** as authentication type and click **[!UICONTROL Next]**.
+
+    ![](assets/do-not-localize/triggers_8.png)
 
 1. Select the **[!UICONTROL Option 1: Generate a Key-Pair]** option and click **[!UICONTROL Generate a Key-Pair]**.
 
    The config.zip file will then be automatically downloaded.
 
+    ![](assets/do-not-localize/triggers_9.png)
+
 1. Click **[!UICONTROL Next]**. 
+
+    ![](assets/do-not-localize/triggers_10.png)
 
 1. Select the **[!UICONTROL Product profile]** created in the previous steps detailed in this [section](#analytics-product-profile).
 
 1. Then, click **[!UICONTROL Save Configured API]**.
 
-1. From your project, select [!DNL Adobe Analytics] and copy the following information under Service Account (JWT):
+    ![](assets/do-not-localize/triggers_11.png)
 
-   * Client ID
-   * Client Secret
-   * Technical account ID
-   * Organization ID
+1. From your project, select [!DNL Adobe Analytics] and copy the following information under **[!UICONTROL Service Account (JWT)]**:
+
+   * **[!UICONTROL Client ID]**
+   * **[!UICONTROL Client Secret]**
+   * **[!UICONTROL Technical account ID]**
+   * **[!UICONTROL Organization ID]**
+
+    ![](assets/do-not-localize/triggers_12.png)
 
 1. Paste these Service Account credentials to the nlserver using the following command: 
 
@@ -120,3 +148,4 @@ Steps
    nlserver config -instance:<instanceName> -setimsjwtauth::<ImsOrgId>/<ClientId>/<TechnicalAccountId>/<ClientSecret>/<$(base64 -w0 /path/to/private.key)>
    ```
 
+You can now start using the Analytics connector and track your customer behaviors.
