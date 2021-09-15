@@ -37,7 +37,7 @@ As an on-premise customer, you need to install a built-in package.
 
 Installation steps are:
 
-1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Import package]** in the Adobe Campaign client console.
+1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
 
    ![](assets/package_ios.png)
 
