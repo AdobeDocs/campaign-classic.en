@@ -34,8 +34,13 @@ Preserve your data and consolidate your current knowledge on devices. You can ba
 Archive your tracking logs beyond the retention period of Adobe Campaign:
 
 1. Check the duration of the retention period in your campaign instance.
-1. Double-check your active target mappings. Determine whether you use custom profiles tables in addition to the out-of-the-box profiles table (`nmsRecipient`).
-1. Export your tracking logs from Adobe Campaign. Include the logs that contain data about the user agent and the operating system.
+1. Double-check your active target mappings.
+
+   Determine whether you use custom profiles tables in addition to the out-of-the-box profiles table (`nmsRecipient`).
+
+1. Export your tracking logs from Adobe Campaign.
+
+   Include the logs that contain data about the user agent and the operating system.
 
 ### Assess the current trend in open rates
 
@@ -44,7 +49,9 @@ Using this assessment, you can identify potential anomalous gaps and their cause
 
 ### Reassess your campaign strategy and performance metrics
 
-Above all, we strongly recommend that you proactively reassess your campaign strategy and your campaign performance metrics. You can refocus on more reliable metrics, for example, click-throughs, product views, and purchases.
+Above all, we strongly recommend that you proactively reassess your campaign strategy and your campaign performance metrics.
+
+You can refocus on more reliable metrics, for example, click-throughs, product views, and purchases.
 
 We recommend that you explore currently available data and assess the correlation between open rates and other metrics. If these metrics are consistently correlated, then you can improve your triggers with a good level of confidence.
 
@@ -442,7 +449,6 @@ These examples show how you can use workflows to break down records by iOS devic
 
        * In one transition, the **[!UICONTROL Change dimension]** activity is used to find the recipients to whom the tracking log refers.
        * In the other transition, the **[!UICONTROL Split]** activity is used to split the selection by email application, browser, operating system, and device.
-
     1. An **[!UICONTROL End]** activity follows each transition after the **[!UICONTROL Split]** activity.
 
     This type of workflow is useful if you store recipients in a table other than the out-of-the-box recipients table.
