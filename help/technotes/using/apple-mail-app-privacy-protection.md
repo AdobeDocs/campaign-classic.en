@@ -410,7 +410,7 @@ You can use workflows to determine whether a recipient uses Apple's Mail app. Yo
 
 ![](assets/export-tracking-data-6.png)
 
-You can use these rules for various purposes:
+You can use these filters for various purposes:
 
 * Export and archive data to an external storage solution
 * Calculate the KPIs to be attached to profiles
