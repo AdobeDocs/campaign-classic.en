@@ -35,7 +35,6 @@ type: Documentation
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
   + [Technotes](technotes/using/technote.md)
   + [iOS certificate update](technotes/using/ios-certificate-update.md)
-  + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
   + [Campaign configuration updates](technotes/using/acc-config-updates.md)
   + [Tracked URLs update](technotes/using/tracked-urls.md)
   + [IMS updates](technotes/using/ims-updates.md)

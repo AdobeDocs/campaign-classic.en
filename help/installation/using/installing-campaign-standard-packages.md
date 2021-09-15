@@ -25,7 +25,7 @@ Built-in packages contain a set of features that can be installed according to y
 
 To install a built-in package:
 
-1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Import package]** in the Adobe Campaign client console.
+1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
 1. Select **[!UICONTROL Install a standard package]**.
 1. In the package list, check the packages you want to install.
    >[!NOTE]
