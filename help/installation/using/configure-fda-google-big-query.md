@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Google BigQuery
 description: Learn how to configure access to Google BigQuery in FDA
