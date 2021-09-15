@@ -23,15 +23,15 @@ A status is associated to each build. You'll find below the list of statuses and
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 
-The **last GA builds** are: [[!DNL Gold Standard] 12 release](../../rn/using/gold-standard.md) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9340).
+The **last GA builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9340).
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest version with new capabilities.
 
-The **last RC build** is [Campaign Classic 21.1 release](../../rn/using/latest-release.md)
+![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
 
-![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. Existing implementations must be upgraded.
+![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
 
 ## Recommendations{#recommendations}
 
