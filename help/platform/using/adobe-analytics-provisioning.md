@@ -11,26 +11,19 @@ level: Beginner
 
 ![](../../assets/common.svg)
 
-ACC supports both IMS User Login Configuration and IMS Technical Account Configuration.
+>[!NOTE]
+>
+> These steps are only required for Hybrid & On-Premise implementations.
 
-Which IMS config is used in the different scenario is mentioned in the following list -
+The integration between Adobe Campaign Classic and Adobe Analytics authentication supports Adobe Identity Management Service (IMS). You must implement Adobe IMS, and connect to Campaign [via an Adobe ID](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-via-an-adobe-id/about-adobe-id.html?lang=en), before starting Analytics Connector implementation.
 
-Configuring Integration from New UI
-If the user is IMS Logged-in with ACC Client Console. The configuration will be based on the user's bearer token.
-This means -
-If you want to include evar A in the campaign's configuration but your user does not have access to evar A. You will not be able to include it in the campaign's configuration because NLSERVER will use your credentials to authorize with analytics apis.
-If the user is logged in via ACC's built-in login/password. The configuration will be based on IMS Technical Account's bearer token.
-This means -
-In this case, the campaign will use the IMS Technical Account User's credentials to authorize with analytics and the access roles coming from this user will apply
-Analytics Configuration UI is designed to work on both the above IMS Credentials and by-design, it will use Logged-In User's IMS Credentials if present else fallback to IMS Technical User Credentials.
-Back-end workflows
-backend workflows will always use IMS Technical Account Configuration no matter user is IMS Logged-In or not.
+For this integration to work, you have to create an Adobe Analytics product profile which will be used exclusively for the Analytics connector. Then, you will need to create an Adobe I/O project.
 
 ## Create an Adobe Analytics Product profile {#analytics-product-profile}
 
 Product Profile determines the level of access a user has on Analytics Components. Do the steps mentioned below to configure a product profile for Adobe Analytics.
 
-For more information on the Admin console, refer to the documentation.
+For more information on the Admin console, refer to the [documentation](https://helpx.adobe.com/mt/enterprise/admin-guide.html).
 
 1. From the [Admin console](https://adminconsole.adobe.com/), select your Adobe Analytics **[!UICONTROL Product]**.
 
@@ -42,7 +35,7 @@ For more information on the Admin console, refer to the documentation.
 
 1. Add a **[!UICONTROL Product profile name]**, we suggest using the following syntax: `Analytics Classic`. Then, click **[!UICONTROL Next]**.
    
-   This **[!UICONTROL Product profile]** should be used exclusively for Analytics Connector to prevent mid-configuration errors.
+   This **[!UICONTROL Product profile]** should be used exclusively for the Analytics Connector to prevent mid-configuration errors.
 
 1. Open your newly created **[!UICONTROL Product profile]** and select the **[!UICONTROL Permissions]** tab.
 
@@ -54,7 +47,7 @@ For more information on the Admin console, refer to the documentation.
 
 1. For the **[!UICONTROL Report Suites]** capability, add the **[!UICONTROL Report Suites]** you need to use later on.
       
-      If you don't have any report suites, you can create it following [these steps](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html).
+      If you don't have any report suites, you can create it following [these steps](../../platform/using/adobe-analytics-connector.md#report-suite-analytics).
 
     ![](assets/do-not-localize/triggers_4.png)
 
@@ -89,16 +82,8 @@ Your Product profile is now configured. You then need to create the Adobe I/O pr
 
 ## Create Adobe I/O Project {#create-adobe-io}
 
-The new way of integrating with Analytics is through IMS Technical User Token since ACC is a single-tenant user-facing service. This is an IMS-based authentication and the ACC server-provided authentication details are of no relevance here. To onboard and configure the IMS Configuration for Technical Account. Please perform the following steps -
-
-Pre-requisite
- Make sure that the provisioning team must have System Administrator Privileges for the customer's IMS Org as reflected here.
-
-Make sure that you have already created and configured an analytics product profile. If you don't already have a product profile, please refer to the steps here to create and configure one.
-Product profile is assigned to Technical Account User so that Campaign has access to analytics components. Read more here about analytics product profile.
-Steps
-
-1. Access Adobe I/O and log in as System Administrator of the IMS Organization.
+1. Access Adobe I/O and log in as **System Administrator** of the IMS Organization.
+   
    For more information on Admin roles, refer to this [page](https://helpx.adobe.com/enterprise/using/admin-roles.html).
    
 1. Click **[!UICONTROL Create a new project]**.

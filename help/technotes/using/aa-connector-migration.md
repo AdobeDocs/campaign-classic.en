@@ -49,8 +49,7 @@ As a hosted customer, Adobe will be working with you to upgrade your instance(s)
 
 As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new integration.
 
-Once all instances are upgraded, you will be able to [implement the new integration](../../platform/using/adobe-analytics-connector.md) to Adobe Analytics Connector, and ensure a seamless transition.
-
+Once all instances are upgraded, you will be able to [implement the new integration](../../platform/using/adobe-analytics-connector-provisioning.md) to Adobe Analytics Connector, and ensure a seamless transition.
 
 ## FAQ{#faq-aa}
 
