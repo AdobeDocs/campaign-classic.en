@@ -127,7 +127,7 @@ This example shows a custom implementation in a single technical workflow.
 
 >[!IMPORTANT]
 >
->The package is provided only as example and is not supported by Adobe as a product feature.
+>The package is provided only as an example and is not supported by Adobe as a product feature.
 >
 >You might need to adapt the sample code to your campaign implementation.
 >
