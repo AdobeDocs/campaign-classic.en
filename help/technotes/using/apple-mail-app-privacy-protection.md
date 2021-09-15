@@ -309,7 +309,7 @@ The workflow comprises these detailed steps:
 
 Profile data is enriched with tracking data from actions such as email opens and click-throughs. Tracking also provides, through the user agent when this information is available, key information about the user's devices.
 
-In a nutshell, Adobe Campaign tracking data provides this information: 
+In a nutshell, Adobe Campaign tracking data provides this information:
 
 * The profile that is associated with the person who opened or clicked through a specific email message
 * The open date
@@ -319,7 +319,7 @@ In a nutshell, Adobe Campaign tracking data provides this information:
 
 #### Why should I preserve tracking data?
 
-We strongly recommend that you preserve this data, for multiple reasons: 
+We strongly recommend that you preserve this data, for multiple reasons:
 
 * This data is retained by Adobe Campaign for a limited period. The retention period varies, depending on the configuration of your instance.
 
@@ -360,7 +360,7 @@ You can enrich this data with useful information from linked schemas:
 
 | Schema | Content |
 | --- | --- |
-| nms: Recipient | Details that are related to profiles |
+| nms:Recipient | Details that are related to profiles |
 | nms:Delivery | Information about the message to which the user reacted |
 
 You can export the result to an external storage solution that is supported by Adobe Campaign:
@@ -396,7 +396,7 @@ This example shows how you can export tracking data from Adobe Campaign.
 
 ##### Advanced implementation: breakdown by iOS device
 
-You can use workflows to determine whether a recipient uses Apple's Mail app. You can split tracking logs by device. For example, you can use query filters to break down records by iOS device: 
+You can use workflows to determine whether a recipient uses Apple's Mail app. You can split tracking logs by device. For example, you can use query filters to break down records by iOS device:
 
 | Application | Operating system or device | Query filter |
 | --- | --- | --- |
