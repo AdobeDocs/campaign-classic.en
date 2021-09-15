@@ -114,9 +114,7 @@ This targeting criterion means that the type of the tracked URL must be set to *
 
 #### Example of implementation and sample package
 
-You can use this example of implementation to identify the workflows in which email opens are used as a targeting criterion and to send a notification to the campaign operator of your choice.
-
-You can use this implementation for these purposes:
+You can use this example of implementation to identify the workflows in which email opens are used as a targeting criterion and to send a notification to the campaign operator of your choice. You can use this implementation for these purposes:
 
 * You can measure the potential impact of switching from email opens to another KPI in your targeting workflows. If you do not use email opens, then no further action is required.
 * When you reassess your implementation, you can use this example to avoid skipping workflows.
