@@ -11,7 +11,7 @@ level: Beginner
 
 ![](../../assets/common.svg)
 
->[!NOTE]
+>[!IMPORTANT]
 >
 > These steps are only required for Hybrid & On-Premise implementations.
 
