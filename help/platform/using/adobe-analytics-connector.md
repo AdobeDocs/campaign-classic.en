@@ -41,10 +41,10 @@ The action fields for each tool are as follows:
 
 To set up the Data connector, you must connect to your Adobe Campaign instance and perform the following operations:
 
-1. [Create your Report suite in Adobe Analytics](#report-suite-analytics)
 1. [Configure your Conversion variables and Success events](#configure-conversion-success)
 1. [Configure your external account in Adobe Campaign Classic](#external-account-classic)
 
+<!--
 ### Create your Report suite in Adobe Analytics {#report-suite-analytics}
 
 To set up the Adobe Analytics/Adobe Campaign Classic integration, you must connect to your [!DNL Adobe Analytics] instance and perform the following operations:
@@ -76,12 +76,13 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
    ![](assets/analytics_connnector_4.png)
 
 1. When configured, click **[!UICONTROL Create report suite]**.
+-->
 
 ### Configure your Conversion variables and Success events {#configure-conversion-success}
 
-After creating your **[!UICONTROL Report suite]**, you need to configure your **[!UICONTROL Conversion variables]** and **[!UICONTROL Success events]** as follows:
+You need to configure your **[!UICONTROL Conversion variables]** and **[!UICONTROL Success events]** as follows:
 
-1. Select your previously configured **[!UICONTROL Report suite]**. 
+1. Select the **[!UICONTROL Report suite]** you want to link with Adobe Campaign. 
 
 1. From the **[!UICONTROL Edit settings]** button, select  **[!UICONTROL Conversion]** >  **[!UICONTROL Conversion variables]**.
 
@@ -112,8 +113,12 @@ After creating your **[!UICONTROL Report suite]**, you need to configure your **
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   To learn how to configure **[!UICONTROL Success events]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=en#admin-tools)
+   To learn how to configure **[!UICONTROL Success events]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=en#admin-tools).
 
+   >[!NOTE]
+   >
+   > Only **[!UICONTROL Success events]** of numeric type are supported.
+ 
    ![](assets/analytics_connnector_8.png)
 
 1. Click **[!UICONTROL Save]** when done.
@@ -144,7 +149,7 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
 1. Click **[!UICONTROL Configure]** next to the **[!UICONTROL Integration]** drop-down.
 
-1. From the **[!UICONTROL Configure Analytics integration]** window, map your external account with your previously created Report suite providing the following information:
+1. From the **[!UICONTROL Configure Analytics integration]** window, map your external account with your Report suite providing the following information:
 
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**

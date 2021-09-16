@@ -21,9 +21,11 @@ For this integration to work, you have to create an Adobe Analytics product prof
 
 ## Create an Adobe Analytics Product profile {#analytics-product-profile}
 
-Product Profile determines the level of access a user has on Analytics Components. Do the steps mentioned below to configure a product profile for Adobe Analytics.
+Product Profile determines the level of access a user has on Analytics Components.
 
-For more information on the Admin console, refer to the [documentation](https://helpx.adobe.com/mt/enterprise/admin-guide.html).
+If you already have an Analytics Product Profile, you should still create a new Adobe Analytics product profile used exclusively for the Analytics connector. This will ensure that your Product profile is set with the correct permissions for this integration. 
+
+For more information on Product profiles, refer to the [Admin console documentation](https://helpx.adobe.com/mt/enterprise/admin-guide.html).
 
 1. From the [Admin console](https://adminconsole.adobe.com/), select your Adobe Analytics **[!UICONTROL Product]**.
 
@@ -33,7 +35,7 @@ For more information on the Admin console, refer to the [documentation](https://
 
     ![](assets/do-not-localize/triggers_2.png)
 
-1. Add a **[!UICONTROL Product profile name]**, we suggest using the following syntax: `Analytics Classic`. Then, click **[!UICONTROL Next]**.
+1. Add a **[!UICONTROL Product profile name]**, we suggest using the following syntax: `Analytics Classic - <Company Name>` or `reserved_campaign_classic_<Company Name>`. Then, click **[!UICONTROL Next]**.
    
    This **[!UICONTROL Product profile]** should be used exclusively for the Analytics Connector to prevent mid-configuration errors.
 
@@ -51,16 +53,16 @@ For more information on the Admin console, refer to the [documentation](https://
 
     ![](assets/do-not-localize/triggers_4.png)
 
-1. For the **[!UICONTROL Metrics]** capability, add the **[!UICONTROL Metrics]** you will need to configure later on.
+1. For the **[!UICONTROL Metrics]** capability, add the **[!UICONTROL Metrics]** you will need to configure later on. 
+
+    If needed, you can switch on the Auto-include option which will add every permissions item into the included list and will automatically add new permission items.
+
+    ![](assets/do-not-localize/triggers_13.png)
 
 1. For the **[!UICONTROL Dimensions]** capability, add the **[!UICONTROL Dimensions]** you will need to configure later on.
 
 1. For the **[!UICONTROL Report Suite Tools]** capability, add the following permissions:
 
-   * **[!UICONTROL Data Warehouse]**
-   * **[!UICONTROL Site Catalyst]**
-   * **[!UICONTROL Report Suite Read]**
-   * **[!UICONTROL Report Suite Write]**
    * **[!UICONTROL Report suite Mgmt]**
    * **[!UICONTROL Conversion variables]**
    * **[!UICONTROL Success events]**
@@ -72,7 +74,6 @@ For more information on the Admin console, refer to the [documentation](https://
 
    * **[!UICONTROL Code Manager - Web services]**
    * **[!UICONTROL Logs - Web services]**
-   * **[!UICONTROL Permissions (Read and Write)]**
    * **[!UICONTROL Web services]**
    * **[!UICONTROL Web service access]**
    * **[!UICONTROL Calculated metric creation]**
