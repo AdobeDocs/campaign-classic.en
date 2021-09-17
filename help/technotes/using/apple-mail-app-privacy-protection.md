@@ -11,11 +11,11 @@ hidefromtoc: yes
 
 ## What changed?
 
-In 2021, Apple introduced new privacy protection capabilities for their native Mail app. This app now includes Apple's Mail Privacy Protection feature. Basically, senders cannot use tracking pixels anymore to collect information about recipients who have chosen to turn on Apple's Mail Privacy Protection feature. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html){target="_blank"}.
+In 2021, Apple introduced new privacy protection capabilities for their native Mail app. This app now includes Apple's Mail Privacy Protection feature. Basically, senders cannot use tracking pixels anymore to collect information about recipients who have chosen to turn on Apple's Mail Privacy Protection feature. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target="_blank"}.
 
 ## How are my campaigns affected?
 
-Adobe Campaign provides capability to use tracking pixels to track email opens. You can use this capability not only for targeting and campaigns, but also for metrics. For example, you can use email open rates to measure campaign effectiveness and user engagement. In short, segmentation, targeting, and metrics might be affected in your campaigns. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target="_blank"}.
+Adobe Campaign provides capability to use tracking pixels to track email opens. You can use this capability not only for targeting and campaigns, but also for metrics. For example, you can use email open rates to measure campaign effectiveness and user engagement. In short, segmentation, targeting, and metrics might be affected in your campaigns. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target="_blank"}.
 
 ## What actions should I take?
 
@@ -449,4 +449,4 @@ These examples show how you can use workflows to break down records by iOS devic
 
 ## Useful links
 
-[Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html){target="_blank"}
+[Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target="_blank"}
