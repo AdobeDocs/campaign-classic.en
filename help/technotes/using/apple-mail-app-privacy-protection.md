@@ -114,9 +114,7 @@ This targeting criterion means that the type of the tracked URL must be set to *
 
 #### Example of implementation and sample package
 
-You can use this example of implementation to identify the workflows in which email opens are used as a targeting criterion and to send a notification to the campaign operator of your choice.
-
-You can use this implementation for these purposes:
+You can use this example of implementation to identify the workflows in which email opens are used as a targeting criterion and to send a notification to the campaign operator of your choice. You can use this implementation for these purposes:
 
 * You can measure the potential impact of switching from email opens to another KPI in your targeting workflows. If you do not use email opens, then no further action is required.
 * When you reassess your implementation, you can use this example to avoid skipping workflows.
@@ -127,7 +125,7 @@ This example shows a custom implementation in a single technical workflow.
 
 >[!IMPORTANT]
 >
->The package is provided only as an example and is not supported by Adobe as a product feature.
+>The package is provided only as example and is not supported by Adobe as a product feature.
 >
 >You might need to adapt the sample code to your campaign implementation.
 >
@@ -309,7 +307,7 @@ The workflow comprises these detailed steps:
 
 Profile data is enriched with tracking data from actions such as email opens and click-throughs. Tracking also provides, through the user agent when this information is available, key information about the user's devices.
 
-In a nutshell, Adobe Campaign tracking data provides this information:
+In a nutshell, Adobe Campaign tracking data provides this information: 
 
 * The profile that is associated with the person who opened or clicked through a specific email message
 * The open date
@@ -319,7 +317,7 @@ In a nutshell, Adobe Campaign tracking data provides this information:
 
 #### Why should I preserve tracking data?
 
-We strongly recommend that you preserve this data, for multiple reasons:
+We strongly recommend that you preserve this data, for multiple reasons: 
 
 * This data is retained by Adobe Campaign for a limited period. The retention period varies, depending on the configuration of your instance.
 
@@ -396,7 +394,7 @@ This example shows how you can export tracking data from Adobe Campaign.
 
 ##### Advanced implementation: breakdown by iOS device
 
-You can use workflows to determine whether a recipient uses Apple's Mail app. You can split tracking logs by device. For example, you can use query filters to break down records by iOS device:
+You can use workflows to determine whether a recipient uses Apple's Mail app. You can split tracking logs by device. For example, you can use query filters to break down records by iOS device: 
 
 | Application | Operating system or device | Query filter |
 | --- | --- | --- |
@@ -410,7 +408,7 @@ You can use workflows to determine whether a recipient uses Apple's Mail app. Yo
 
 ![](assets/export-tracking-data-6.png)
 
-You can use these filters for various purposes:
+You can use these rules for various purposes:
 
 * Export and archive data to an external storage solution
 * Calculate the KPIs to be attached to profiles
@@ -442,6 +440,7 @@ These examples show how you can use workflows to break down records by iOS devic
 
        * In one transition, the **[!UICONTROL Change dimension]** activity is used to find the recipients to whom the tracking log refers.
        * In the other transition, the **[!UICONTROL Split]** activity is used to split the selection by email application, browser, operating system, and device.
+
     1. An **[!UICONTROL End]** activity follows each transition after the **[!UICONTROL Split]** activity.
 
     This type of workflow is useful if you store recipients in a table other than the out-of-the-box recipients table.
