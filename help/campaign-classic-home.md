@@ -20,7 +20,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 * **[Secure your Campaign instances](technotes/using/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform
 
-* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life. Learn how to migrate to Adobe I/O.
+* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life: you need to migrate to Adobe I/O.
 
 [More updates](/help/rn/using/documentation-updates.md)
 

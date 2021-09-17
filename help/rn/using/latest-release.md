@@ -49,7 +49,7 @@ _September 7, 2021_
 * Fixed an issue which prevented you from using variables in an **Enrichment** workflow activity when the incoming transition was from an FDA data source.
 * Fixed an issue that could lead to broken URLs in email messages.
 
-## ![](assets/do-not-localize/red_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+## ![](assets/do-not-localize/orange_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
 _June 5, 2021_
 
