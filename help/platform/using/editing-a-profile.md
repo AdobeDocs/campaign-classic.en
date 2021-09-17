@@ -9,6 +9,8 @@ exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 ---
 # Edit a profile{#editing-a-profile}
 
+![](../../assets/common.svg)
+
 To view information related to a profile, click on their name in the profiles list.
 
 The profile details come up in a new tab.

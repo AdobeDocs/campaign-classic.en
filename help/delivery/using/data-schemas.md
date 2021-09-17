@@ -9,6 +9,8 @@ exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 ---
 # Data schemas{#data-schemas}
 
+![](../../assets/common.svg)
+
 Below are some general principles concerning the use of data schemas in Adobe Campaign.
 
 For more on creating and configuring data schemas in Adobe Campaign, refer to [this section](../../configuration/using/about-schema-edition.md).

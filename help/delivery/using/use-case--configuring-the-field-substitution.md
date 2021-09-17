@@ -9,6 +9,8 @@ exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 ---
 # Use case: configuring the field substitution{#use-case-configuring-the-field-substitution}
 
+![](../../assets/common.svg)
+
 Random field substitution lets you attribute a value from the recipient list to the seed addresses that are empty when the user uses this value in a delivery (example: name, city, etc.).
 
 This substitution lets you save time when creating the delivery: instead of manually adding the desired value to the seed addresses, the substitution randomly recovers this value in the list of recipients targeted by the delivery and applies it to the seed addresses.

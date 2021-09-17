@@ -9,6 +9,8 @@ exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
 ---
 # Restoration{#restoration}
 
+![](../../assets/v7-only.svg)
+
 On a clean server, the restoration procedure is as follows:
 
 * on an installed and configured operating system (networks),

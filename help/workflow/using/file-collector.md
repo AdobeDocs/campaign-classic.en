@@ -9,6 +9,8 @@ exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 ---
 # File collector{#file-collector}
 
+![](../../assets/common.svg)
+
 The **File collector** monitors the arrival of one or more files in a directory and activates its transition for each file received. For each event, a **[!UICONTROL filename]** variable contains the full name of the file received. The collected files are moved to another directory for archiving purposes and to make sure they are only counted once.
 
 By default, the file collector is a persistent task that tests the presence of files at the times specified by the schedule.
@@ -17,7 +19,7 @@ The files must be on the server on which the wfserver module in charge of this w
 
 ## Properties {#properties}
 
-The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. The other tabs are detailed in [Inbound Emails](../../workflow/using/inbound-emails.md) (**[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs).
+The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. The other tabs are detailed in [Inbound Emails](inbound-emails.md) (**[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs).
 
 ![](assets/file_collect_edit.png)
 
@@ -61,7 +63,7 @@ The first tab of the **[!UICONTROL File collector]** activity lets you select th
 
 1. **Historization**
 
-   Refer to the **[!UICONTROL File historization]** step here: [Web download](../../workflow/using/web-download.md).
+   Refer to the **[!UICONTROL File historization]** step here: [Web download](web-download.md).
 
 The file processing order cannot be determined. To process a set of files sequentially, use the **[!UICONTROL Stop as soon as a file has been processed]** option and create a loop. In this case, the files will be processed in alphabetical order. The **[!UICONTROL Process file nonexistence]** option lets you finish the iteration.
 

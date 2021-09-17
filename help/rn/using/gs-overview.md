@@ -9,6 +9,8 @@ exl-id: c36a78f6-3332-465d-92f5-48f70b8bdddd
 ---
 # [!DNL Gold Standard] releases {#gs-overviews}
 
+![](../../assets/v7-only.svg)
+
 ## What is [!DNL Gold Standard]?
 
 Adobe and Adobe Campaign is committed to providing you with the best experience and value through our software solution(s). The organization is committed to ensuring that you have access to the most current versions of related technology that our solutions leverage to perform its tasks.

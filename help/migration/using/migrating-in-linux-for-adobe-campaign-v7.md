@@ -9,6 +9,8 @@ exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 ---
 # Migrating in Linux for Adobe Campaign v7{#migrating-in-linux-for-adobe-campaign-v}
 
+![](../../assets/v7-only.svg)
+
 ## General procedure {#general-procedure}
 
 Migration steps in Linux are as follows:

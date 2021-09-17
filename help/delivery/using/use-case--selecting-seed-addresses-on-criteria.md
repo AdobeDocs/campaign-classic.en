@@ -9,6 +9,8 @@ exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 ---
 # Use case: selecting seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}
 
+![](../../assets/common.svg)
+
 In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic condition...]** link lets you choose seed addresses based on specific selection criteria.
 
 In this use case, the site **My online library** would like to personalize its newsletters according to its clients' literary tastes.

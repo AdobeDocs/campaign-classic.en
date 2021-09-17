@@ -9,6 +9,8 @@ exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 ---
 # Message Center service level {#message-center-service-level}
 
+![](../../assets/v7-only.svg)
+
 This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details.
 
 This report, aimed at technical administrators, can also be accessed via the **[!UICONTROL Monitoring]** tab on the control instance.

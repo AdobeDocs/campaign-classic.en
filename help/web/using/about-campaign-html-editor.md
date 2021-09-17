@@ -9,6 +9,8 @@ exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 ---
 # Get started with Campaign HTML editor{#about-campaign-html-editor}
 
+![](../../assets/common.svg)
+
 The **Digital Content Editor (DCE)** is an HTML content editor that lets you easily create content and templates in HTML format within Adobe Campaign.
 
 With the Digital Content Editor, you can insert and format page elements, and map database fields with elements of an HTML page. This editor is available when creating a page for a web application, or when creating deliveries based on a DCE template.

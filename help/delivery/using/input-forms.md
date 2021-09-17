@@ -9,6 +9,8 @@ exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 ---
 # Input forms{#input-forms}
 
+![](../../assets/common.svg)
+
 Below are some general principles concerning the use of input forms in Adobe Campaign.
 
 Forms are detailed in [this section](../../configuration/using/identifying-a-form.md).

@@ -9,6 +9,8 @@ exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
 ---
 # Inserting tags in your site{#inserting-tags-in-your-site}
 
+![](../../assets/v7-only.svg)
+
 ## Simple method {#simple-method}
 
 This method consists of sending an HTTP call to the redirection server by inserting an **`<img>`** HTML tag in the HTML source code of the web page you wish to track.

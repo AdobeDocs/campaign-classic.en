@@ -9,6 +9,8 @@ exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 ---
 # Configuring SpamAssassin{#configuring-spamassassin}
 
+![](../../assets/v7-only.svg)
+
 >[!NOTE]
 >
 >Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).

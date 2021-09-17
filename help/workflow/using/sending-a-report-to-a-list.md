@@ -9,6 +9,8 @@ exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 ---
 # Sending a report to a list{#sending-a-report-to-a-list}
 
+![](../../assets/common.svg)
+
 This use case details how to generate a monthly out-of-the-box **[!UICONTROL Tracking indicators]** report in PDF format and how to send it to a list of recipients.
 
 ![](assets/use_case_report_intro.png)
@@ -83,7 +85,7 @@ The following workflow was created for this use case. It has three activities:
 
    ![](assets/use_case_report_9.png)
 
-   For more on configuring the scheduler, refer to [Scheduler](../../workflow/using/scheduler.md).
+   For more on configuring the scheduler, refer to [Scheduler](scheduler.md).
 
 1. Then add a **[!UICONTROL JavaScript code]** type activity.
 

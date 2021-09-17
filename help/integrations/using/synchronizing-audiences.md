@@ -9,6 +9,8 @@ exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 ---
 # Synchronizing audiences{#synchronizing-audiences}
 
+![](../../assets/v7-only.svg)
+
 You can build a sophisticated list by using the Campaign v7 advanced features and share this list as an audience directly and in real time with Campaign Standard (including additional data) in a seamless way. Your Campaign Standard user can then consume the audience in Adobe Campaign Standard.
 
 Complex targeting involving additional data that are not replicated in Campaign Standard can only be achieved using Campaign v7.

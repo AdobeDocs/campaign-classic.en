@@ -9,6 +9,8 @@ exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 ---
 # Collecting all visits{#collecting-all-visits}
 
+![](../../assets/v7-only.svg)
+
 The web tracking module supplied by Adobe Campaign lets you collect the visits to certain pages of the site performed by a recipient in the context of site tracking following a click in a message.
 
 You can, however, configure your platform so that it collects all visits to pages with a web tracking tag by a user known to the platform.

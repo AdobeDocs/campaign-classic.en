@@ -9,6 +9,8 @@ exl-id: f77ba178-0dfb-4a2e-b33b-971765d42298
 ---
 # Key steps to configure and deploy your instance{#about-initial-configuration}
 
+![](../../assets/v7-only.svg)
+
 Once the Adobe Campaign installation is complete, you need to configure it to make sure it operates efficiently with your constraints and technical architecture. The steps for configuring an Adobe Campaign instance are detailed in this chapter, in the following sequence:
 
 1. Create the instance and the related connection, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).

@@ -9,6 +9,8 @@ exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 ---
 # Editing content{#editing-content}
 
+![](../../assets/common.svg)
+
 ## Defining a visibility condition {#defining-a-visibility-condition}
 
 You can specify a visibility condition on a web page element: this element will only be visible if the condition is respected.

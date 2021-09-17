@@ -9,6 +9,8 @@ exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 ---
 # Create and configure campaign templates {#campaign-templates}
 
+![](../../assets/common.svg)
+
 All marketing campaigns are based on a template, which stores main characteristics and capabilities. Campaign templates are centralized in the **[!UICONTROL Resources > Templates > Campaign templates]** node. A default template is supplied as standard. It lets you create a new campaign using all the available modules (Documents, Tasks, Seed addresses, etc.), but the modules offered depend on your rights and the configuration of your Adobe Campaign platform.
 
 ![](assets/s_ncs_user_campaign_op_template_node.png)

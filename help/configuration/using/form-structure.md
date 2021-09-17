@@ -9,6 +9,8 @@ exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 ---
 # Form structure{#form-structure}
 
+![](../../assets/v7-only.svg)
+
 The description of a form is a structured XML document that observes the grammar of the form schema **xtk:form**.
 
 The XML document of the input form must contain the `<form>` root element with the  **name** and  **namespace** attributes to populate the form name and namespace.

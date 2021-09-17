@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Analytics connector
 description: Learn more about Adobe Analytics connector
@@ -9,6 +8,8 @@ level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 ---
 # Adobe Analytics Connector{#adobe-analytics-connector}
+
+![](../../assets/v7-only.svg)
 
 ## About Adobe Analytics Connector integration {#about-analytics-connector-integration}
 

@@ -9,6 +9,8 @@ exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 ---
 # Use case: create a referral form{#use-case-creating-a-refer-a-friend-form}
 
+![](../../assets/v7-only.svg)
+
 In this example, we want to offer a competition to the recipients in the database. The Web form will have a section for entering answers and another to refer a friend by entering their email address.
 
 ![](assets/s_ncs_admin_survey_viral_sample_0.png)

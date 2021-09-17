@@ -9,6 +9,8 @@ exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 ---
 # Cross-channel deliveries{#cross-channel-deliveries}
 
+![](../../assets/common.svg)
+
 Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of campaign workflow activities.
 
 The various channels available are:
@@ -16,8 +18,8 @@ The various channels available are:
 * [Email](../../delivery/using/about-email-channel.md)
 * [Direct Mail](../../delivery/using/about-direct-mail-channel.md)
 * [Mobile](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/publishing-on-twitter.md)
-* [Facebook](../../social/using/publishing-on-facebook.md)
+* [Twitter](../../social/using/publishing-on-twitter.md) (Campaign Classic v7 only)
+* [Facebook](../../social/using/publishing-on-facebook.md) (Campaign Classic v7 only)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

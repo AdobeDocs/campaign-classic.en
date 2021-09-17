@@ -9,6 +9,8 @@ exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 ---
 # Fork{#fork}
 
+![](../../assets/common.svg)
+
 You can use the **[!UICONTROL Fork]** activity to create multiple outbound transitions and to run several activities independently within the same workflow.
 
 >[!IMPORTANT]
@@ -68,9 +70,10 @@ The creation and the delivery of a content block is automated. A **[!UICONTROL F
 
 ![The fork activity follows a delivery activity and precedes a query activity and a content management activity, which are both joined through an AND-join activity.](../../delivery/using/assets/d_ncs_content_workflow10.png)
 
+You can then configure each outbound transitions, then join them together using an [AND-join](and-join.md) activity, if needed. This way, the rest of the workflow will execute only once the **[!UICONTROL Fork]** activity's outbound transitions are finished.
+
 ## Related topics
 
 * [AND-join activity](and-join.md)
 * [Use case: birthday email](sending-a-birthday-email.md)
 * [Use case: content creation and delivery](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)
-  

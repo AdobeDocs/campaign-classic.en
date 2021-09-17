@@ -9,6 +9,8 @@ exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 ---
 # Monitoring guidelines {#monitoring-guidelines}
 
+![](../../assets/v7-only.svg)
+
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}
 
 The **[!UICONTROL Monitoring]** tab, which is accessible from Campaign Classic homepage, is the main entry point to help you monitor your instance.
@@ -50,7 +52,7 @@ The Control Panel allows you to manage several settings of your instance: manage
 >
 >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 >
->Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+>Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1.3)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 ### Monitoring workflows {#monitoring-workflows}
 

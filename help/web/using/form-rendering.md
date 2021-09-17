@@ -9,6 +9,8 @@ exl-id: 723a6c47-5323-4914-a014-58be493852cc
 ---
 # Form rendering{#form-rendering}
 
+![](../../assets/common.svg)
+
 ## Selecting the form rendering template {#selecting-the-form-rendering-template}
 
 The form settings enable you to select the template used to generate the pages. To access them, click the **[!UICONTROL Settings]** button in the form detail toolbar, and select the **[!UICONTROL Rendering]** tab. There are a number of templates (style sheets) available by default.

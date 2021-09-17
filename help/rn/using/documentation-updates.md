@@ -9,9 +9,29 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 ---
 # Documentation Updates{#documentation-updates}
 
+![](../../assets/v7-only.svg)
+
 This page lists all the new features and documentation updates per month and Campaign release.
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
+
+## August 2021{#aug-2021}
+
+Added new workflow activity: Change Data Source - [Learn more](../../workflow/using/change-data-source.md)
+
+Applicability badges have been added to the documentation pages: **Applies to v7** for Campaign Classic v7 capabilities only, and **Applies to v7 & v8** for common capabilities.
+
+Added a note about the integration between Campaign and AEM Assets which has been decomissonned starting Adobe Experience Manager 6.4. [Learn more](../../integrations/using/configuring-access-to-assets.md)
+
+Reports and web applications screenshots and parameters have been updated following Adobe Flash removal.
+
+The **Gauge** chart type has been removed.
+
+
+## July 2021 {#july-2021}
+
+[Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330) has moved to General Availability (GA).
+
 
 ## June 2021 {#june-2021}
 
@@ -37,7 +57,7 @@ Campaign Client Console requirements have been updated in the Compatibility Matr
 
 Campaign Client Console installation for steps have been improved and clarified. [Read more](../../installation/using/installing-the-client-console.md)
 
-A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/tracked-urls.md)
+A new technote has been created about the Tracked URLs signature issue. [Read more](../../technotes/using/tracked-urls.md)
 
 ## April 2021 {#april-2021}
 
@@ -199,7 +219,7 @@ The Deliverability best practices landing page has been improved to facilitate a
 
 How-to videos are now available on the following topics:
 
-* [How to set up fatigue management using typology rules and predefined filters](../../campaign/using/about-campaign-typologies.md)
+* [How to set up fatigue management using typology rules and predefined filters](../../campaign-opt/using/about-campaign-typologies.md)
 
 * [How to create an email in a campaign](../../campaign/using/marketing-campaign-deliveries.md)
 

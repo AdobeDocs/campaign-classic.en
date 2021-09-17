@@ -9,6 +9,8 @@ exl-id: bad7fb4b-43d9-4033-ae0d-cf191d89114b
 ---
 # value element {#value--element}
 
+![](../../../assets/v7-only.svg)
+
 ## Content model {#content-model-16}
 
 value:==help

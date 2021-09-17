@@ -2,18 +2,18 @@
 product: campaign
 title: Campaign 19.1 release notes
 description: Release notes for Campaign 19.1
-feature: 
-role: 
-level:
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 ---
 # Release 19.1{#release-19-1}
+
+![](../../assets/v7-only.svg)
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
 _April 15, 2021_
 
 * Fixed a client console regression which caused persistent error messages on the IMS connection screen. (NEO-34821)
+* Fixed a regression that could block the workflow data export to an FDA database (Teradata, Snowflake).
 
 **Console upgrade only is mandatory. No server upgrade is required.** 
 
@@ -35,9 +35,9 @@ _December 16, 2020_
 
 >[!CAUTION]
 >
-> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/using/ims-updates.md)
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **September 2021**. Hosted environments benefit from an extension until  **Febuary 23, 2022**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to Febuary 2022. You must provide [the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
 
 
 **Improvements**

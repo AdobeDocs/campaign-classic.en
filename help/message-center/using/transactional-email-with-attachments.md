@@ -9,6 +9,8 @@ exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
 ---
 # Use case: Send transactional emails with attachments {#transactional-email-with-attachments}
 
+![](../../assets/v7-only.svg)
+
 The purpose of this use case is to add email attachments on the fly to outbound dispatches.
 
 ## Key steps {#key-steps}
@@ -69,7 +71,7 @@ To add an email attachment on the fly to a transactional message, follow the ste
 1. In the **[!UICONTROL Attachment definition]** screen, enter the SOAP attachment parameter:
 
     ```
-    <%= rtEvent.ctx.attachementUrl %>
+    <%= rtEvent.ctx.attachmentUrl %>
     ```
 
 1. When the message is processed, the system will get the file from the remote location (third-party server) and attach it to the individual message.

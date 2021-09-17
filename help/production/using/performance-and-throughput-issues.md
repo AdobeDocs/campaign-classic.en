@@ -9,6 +9,8 @@ exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
 ---
 # Performance and throughput issues{#performance-and-throughput-issues}
 
+![](../../assets/v7-only.svg)
+
 First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes.
 
 Refer to the [Release Notes](../../rn/using/latest-release.md) for more information on the content of each release.

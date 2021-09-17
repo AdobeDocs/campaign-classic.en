@@ -9,6 +9,8 @@ exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
 ---
 # Subscription Services{#subscription-services}
 
+![](../../assets/common.svg)
+
 A **Subscription services**-type activity lets you create or delete a subscription to an information service for the population specified in the transition.
 
 To configure it, edit the activity and enter its label, then select the action to be executed (Subscription or Unsubscription) and the service concerned, as in the following example:

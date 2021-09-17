@@ -9,6 +9,8 @@ exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 ---
 # Tables to maintain{#tables-to-maintain}
 
+![](../../assets/v7-only.svg)
+
 The list of tables to maintain depends on your version of Adobe Campaign, how you use it and on the datamodel configuration.
 
 The following list contains only the tables most subject to fragmentation. The impacts are as follows:

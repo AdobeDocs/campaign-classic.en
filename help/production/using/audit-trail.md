@@ -9,6 +9,8 @@ exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 ---
 # Audit trail{#audit-trail}
 
+![](../../assets/v7-only.svg)
+
 In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the complete history of changes made within your instance.
 
 **[!UICONTROL Audit trail]** captures, in real-time, a comprehensive list of actions and events occurring within your Adobe Campaign instance. It includes a self-serve way to access a history of data to help answer questions such as: what happened to your workflows, and who last updated them or what did your users do in the instance.

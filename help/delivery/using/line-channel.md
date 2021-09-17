@@ -9,6 +9,8 @@ exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 ---
 # Create LINE deliveries{#line-channel}
 
+![](../../assets/common.svg)
+
 >[!NOTE]
 >
 >[!DNL LINE] is only available for on-premise or managed services installations.

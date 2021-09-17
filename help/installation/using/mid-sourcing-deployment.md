@@ -9,6 +9,8 @@ exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 ---
 # Mid-sourcing deployment{#mid-sourcing-deployment}
 
+![](../../assets/v7-only.svg)
+
 This configuration is an optimal intermediate solution between a hosted (ASP) configuration and internalization. The outward-facing execution components are carried out on a "mid-sourcing" server hosted at Adobe Campaign.
 
 >[!NOTE]

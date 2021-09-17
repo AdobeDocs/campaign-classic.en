@@ -9,6 +9,8 @@ exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
 ---
 # Create import and export jobs {#creating-import-export-jobs}
 
+![](../../assets/common.svg)
+
 Once templates have been configured, import and export operations can be launched in several contexts in Adobe Campaign.
 
 * In the **[!UICONTROL Profiles and targets]** section of Adobe Campaign workspace, click the **[!UICONTROL Jobs]** link: this takes you to the list of existing imports and exports.

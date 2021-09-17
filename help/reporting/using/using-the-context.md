@@ -9,6 +9,8 @@ exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 ---
 # Using the context{#using-the-context}
 
+![](../../assets/common.svg)
+
 When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Defining a direct filter on data](#defining-a-direct-filter-on-data)) or the report context (refer to [Using context data](#using-context-data)).
 
 ## Defining a direct filter on data {#defining-a-direct-filter-on-data}

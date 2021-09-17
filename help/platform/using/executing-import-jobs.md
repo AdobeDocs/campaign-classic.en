@@ -9,6 +9,8 @@ exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 ---
 # Configure import jobs {#executing-import-jobs}
 
+![](../../assets/common.svg)
+
 Adobe Campaign lets you import data into the database from one or more files in text, CSV, TAB, or XML format. These files are associated with a table (main or linked), and each field of the source file(s) is associated with a field of the database.
 
 >[!NOTE]

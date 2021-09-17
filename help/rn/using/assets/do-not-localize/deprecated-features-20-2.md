@@ -11,6 +11,8 @@ snippet: y
 
 # Deprecated and removed features {#deprecated-and-removed-features}
 
+![](../../assets/v7-only.svg)
+
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility. As Adobe Campaign Classic works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only. Versions which are no longer compatible with Adobe Campaign Classic are listed below and in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 To communicate the impending removal/replacement of Campaign Classic capabilities, the following rules apply:

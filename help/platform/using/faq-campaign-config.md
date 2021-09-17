@@ -9,6 +9,8 @@ exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 ---
 # Campaign Settings FAQ {#settings-faq}
 
+![](../../assets/v7-only.svg)
+
 Learn key configurations to set up your Campaign instance to fit with your needs.
 
 ## Can I change the language of Campaign interface? {#can-i-change-the-language-of-campaign-interface-}

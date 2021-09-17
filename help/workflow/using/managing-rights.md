@@ -9,6 +9,8 @@ exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
 ---
 # Manage workflow permissions{#managing-rights}
 
+![](../../assets/common.svg)
+
 If they are not Administrators, Adobe Campaign operators need access rights for creating, executing or modifying workflows.
 
 Generally speaking, operators acting on workflows need to access the files containing the data used during the various activities (recipients, recipient list, subscriptions, deliveries, etc.), and possibly their sub-files.

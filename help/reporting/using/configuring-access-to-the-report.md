@@ -9,6 +9,8 @@ exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 ---
 # Configuring access to the report{#configuring-access-to-the-report}
 
+![](../../assets/common.svg)
+
 ## Report display context {#report-display-context}
 
 Define the display context of the report in the Adobe Campaign platform using the **[!UICONTROL Display]** tab. Access to a report depends on its selection type, display conditions and access authorizations.

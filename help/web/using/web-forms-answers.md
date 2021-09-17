@@ -9,6 +9,8 @@ exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 ---
 # Web forms answers{#web-forms-answers}
 
+![](../../assets/common.svg)
+
 ## Response storage fields {#response-storage-fields}
 
 Answers to forms can be saved in a field of the database or temporarily in a local variable. The storage mode for answers is chosen during field creation. It can be edited via the **[!UICONTROL Edit storage...]** link.

@@ -9,6 +9,8 @@ exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 ---
 # Get started with SMS channel{#sms-channel}
 
+![](../../assets/common.svg)
+
 
 Use Adobe Campaign to send personalized SMS messages.
 

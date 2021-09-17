@@ -9,6 +9,8 @@ exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
 ---
 # Tracking logs issues{#tracking-logs-issues}
 
+![](../../assets/v7-only.svg)
+
 There can be multiple reasons for tracking logs not being forwarded. We recommend that you check the following information:
 
 * **Does the **Tracking** workflow have errors?**

@@ -9,6 +9,8 @@ exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 ---
 # Use case: display a report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}
 
+![](../../assets/v7-only.svg)
+
 Answers to Adobe Campaign surveys can be collected and analyzed using dedicated reports.
 
 In the following example, we want to collect answers to an online survey and display them in a pivot table

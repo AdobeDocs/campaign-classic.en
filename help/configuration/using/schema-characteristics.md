@@ -9,6 +9,8 @@ exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 ---
 # Schema characteristics{#schema-characteristics}
 
+![](../../assets/v7-only.svg)
+
 The characteristics of a schema that references an existing table are as follows:
 
 * Adobe Campaign must not modify SQL objects relative to existing tables,

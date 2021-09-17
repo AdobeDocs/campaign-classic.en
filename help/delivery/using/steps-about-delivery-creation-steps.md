@@ -9,6 +9,8 @@ exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 ---
 # About deliveries creation steps {#about-delivery-creation}
 
+![](../../assets/common.svg)
+
 The key steps when creating a delivery are as follows:
 
 1. **Create and identify the delivery**. [Read more](steps-create-and-identify-the-delivery.md)

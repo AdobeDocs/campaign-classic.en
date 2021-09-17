@@ -9,6 +9,8 @@ exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 ---
 # Privacy FAQ {#privacy-faq}
 
+![](../../assets/common.svg)
+
 Here are some of the Frequently Asked Questions about Privacy and Consent when using Adobe Campaign.
 
 ## Key terms {#key-terms}

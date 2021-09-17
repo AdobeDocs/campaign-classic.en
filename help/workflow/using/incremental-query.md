@@ -9,6 +9,8 @@ exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 ---
 # Incremental query{#incremental-query}
 
+![](../../assets/common.svg)
+
 An incremental query lets you periodically select a target based on a criterion, while excluding the people already targeted for this criterion.
 
 The population already targeted is stored in the memory by workflow instance and by activity, i.e. two workflows started from the same template do not share the same log. On the other hand, two tasks based on the same incremental query for the same workflow instance will use the same log.
@@ -17,8 +19,8 @@ The query is defined in the same way as for standard queries, but its execution 
 
 **Related topics:**
 
-* [Use case: Quarterly list update using an incremental query](../../workflow/using/quarterly-list-update.md)
-* [Creating a query](../../workflow/using/query.md#creating-a-query)
+* [Use case: Quarterly list update using an incremental query](quarterly-list-update.md)
+* [Creating a query](query.md#creating-a-query)
 
 >[!CAUTION]
 >

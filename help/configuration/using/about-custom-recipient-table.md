@@ -9,6 +9,8 @@ exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 ---
 # Use a custom recipient table{#about-custom-recipient-table}
 
+![](../../assets/v7-only.svg)
+
 This section details the principles for using a non-standard recipient table.
 
 By default, Adobe Campaign offers a standard recipient table to which out-of-the-box functions and processes are linked. The standard recipient table has a number of predefined fields and tables that can be easily extended using an extension table.

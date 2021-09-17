@@ -9,6 +9,8 @@ exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 ---
 # Read list{#read-list}
 
+![](../../assets/common.svg)
+
 Data processed in a workflow can come from lists whereby the data has been prepared or structured beforehand (after a previous segmentation or file upload).
 
 The **[!UICONTROL Read list]** activity lets you copy the data from a list in the workflow worktable, like data from a query. It is then accessible throughout the workflow.

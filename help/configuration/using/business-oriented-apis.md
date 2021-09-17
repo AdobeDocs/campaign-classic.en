@@ -9,6 +9,8 @@ exl-id: e6638870-3141-4f12-b904-db436127c0d1
 ---
 # Business oriented APIs{#business-oriented-apis}
 
+![](../../assets/v7-only.svg)
+
 Business API are specific to each type of object. They have an effect on:
 
 * Deliveries:

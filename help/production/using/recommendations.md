@@ -9,6 +9,8 @@ exl-id: e458f6cb-f6d1-4688-9f6d-2a27a2f90829
 ---
 # Recommendations{#recommendations}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign is a highly transactional system (OLTP database). This means that the underlying database will be frequently updated, leading to a degradation of performance over time. To avoid this type of issue, regular database maintenance is necessary.
 
 >[!IMPORTANT]

@@ -9,6 +9,8 @@ exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 ---
 # Change dimension{#change-dimension}
 
+![](../../assets/common.svg)
+
 The change dimension activity lets you change the targeting dimension during the target construction cycle. Axis shifting depends on the data template and the input dimension. This lets you switch from the "contracts" dimension to the "clients" dimension, for example.
 
 You can also use this activity to define the additional columns of the new target.
@@ -49,7 +51,7 @@ To configure the change dimension activity, apply the following steps:
 
       >[!NOTE]
       >
-      >For information on creating and managing additional columns, refer to [Adding data](../../workflow/using/query.md#adding-data).
+      >For information on creating and managing additional columns, refer to [Adding data](query.md#adding-data).
 
     * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient's **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]**.
     

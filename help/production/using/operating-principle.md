@@ -9,6 +9,8 @@ exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 ---
 # Operating principle{#operating-principle}
 
+![](../../assets/v7-only.svg)
+
 Technically, the Adobe Campaign platform is based on several modules.
 
 There are many Adobe Campaign modules. Some operate continuously, while others are started up occasionally to perform administrative tasks (e.g. to configure the database connection) or to run a recurrent task (e.g. consolidating tracking information).

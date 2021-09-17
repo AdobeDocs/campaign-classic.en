@@ -9,6 +9,8 @@ exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
 ---
 # Create event types {#creating-event-types}
 
+![](../../assets/v7-only.svg)
+
 To make sure each event can be changed into a personalized message, you first need to create **event types**.
 
 When [creating a message template](../../message-center/using/creating-the-message-template.md), you will select the type of event that matches the message you want to send.

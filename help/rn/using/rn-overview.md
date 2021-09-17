@@ -9,6 +9,8 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
 # Get started with upgrades{#rn-overview}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign is regularly updated. On the average two or three minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only. 
 
 This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.
@@ -21,15 +23,15 @@ A status is associated to each build. You'll find below the list of statuses and
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 
-The **last GA builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md) and [Campaign 20.2.5 release](../../rn/using/release--20-2.md)
+The **last GA builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9340).
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest version with new capabilities.
 
-The **last RC build** is [Campaign Classic 21.1 release](../../rn/using/latest-release.md)
+![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
 
-![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. Existing implementations must be upgraded.
+![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
 
 ## Recommendations{#recommendations}
 
@@ -47,7 +49,7 @@ As an on-premise user, you can perform the upgrade. To do this, you need to [dow
 
 ### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-As a hosted [!DNL Gold Standard] user, you will automatically benefit from the [!DNL Gold Standard] upgrade with the [latest GA [!DNL Gold Standard] build](../../rn/using/gold-standard.md#gs-11) without any action. [Learn more](../../rn/using/gs-overview.md).
+As a hosted [!DNL Gold Standard] user, you will automatically benefit from the [!DNL Gold Standard] upgrade with the [latest GA [!DNL Gold Standard] build](../../rn/using/gold-standard.md#gs-12) without any action. [Learn more](../../rn/using/gs-overview.md).
 
 >[!NOTE]
 >Compatibility matrix for [!DNL Gold Standard] is available in the [GA Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).

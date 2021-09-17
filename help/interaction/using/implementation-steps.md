@@ -9,6 +9,8 @@ exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
 ---
 # Implementation steps{#implementation-steps}
 
+![](../../assets/v7-only.svg)
+
 ## Configuring Interaction {#configuring-interaction}
 
 >[!NOTE]

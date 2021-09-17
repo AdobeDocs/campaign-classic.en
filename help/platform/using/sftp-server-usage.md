@@ -9,6 +9,8 @@ exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 ---
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
 
+![](../../assets/common.svg)
+
 ## SFTP server global recommendations {#global-recommendations}
 
 When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. Make sure you follow the recommendations below when using SFTP servers.
@@ -39,7 +41,7 @@ To avoid such problems, Adobe recommends following the best practices below.
 >
 >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 >
->Note that your instance must be upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>Note that your instance must be upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1.3)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 * The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).
 

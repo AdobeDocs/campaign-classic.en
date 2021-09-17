@@ -8,6 +8,8 @@ exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 ---
 # Perform all checks before sending {#perform-all-checks}
 
+![](../../assets/common.svg)
+
 Once your message is ready, make sure its content is displayed correctly, on all devices, and does not contain any errors such as wrong personalization or broken links.
 
 Before sending your message, also ensure that the parameters and configuration are consistent with the delivery.
@@ -84,7 +86,7 @@ You can:
 
 * For each IPAffinity element, declare the IP addresses that can be used. [Learn more](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* In the [typology](../../campaign/using/about-campaign-typologies.md) of your choice, use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) which manages the said affinity. [Learn more](../../campaign/using/applying-rules.md#control-outgoing-smtp-traffic).
+* In the [typology](../../campaign-opt/using/about-campaign-typologies.md) of your choice, use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) which manages the said affinity. [Learn more](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic).
 
 * Once the email is sent, check the header to verify which IP address the delivery was sent from. Your email administrator should help you obtain the header information.
 
@@ -94,7 +96,7 @@ You can:
 
 ### Use typologies
 
-You can use typology rules to exclude part of the target based on specific criteria. This guarantees that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. For example, you can filter the recipients who are underage from the target of your newsletter. Learn more [in this example](../../campaign/using/filtering-rules.md).
+You can use typology rules to exclude part of the target based on specific criteria. This guarantees that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. For example, you can filter the recipients who are underage from the target of your newsletter. Learn more [in this example](../../campaign-opt/using/filtering-rules.md).
 
 ### Avoid attachments
 

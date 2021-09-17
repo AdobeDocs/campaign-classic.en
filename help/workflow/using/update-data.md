@@ -9,6 +9,8 @@ exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 ---
 # Update data{#update-data}
 
+![](../../assets/common.svg)
+
 An **Update data**-type activity performs a mass update of the fields in the database.
 
 ## Operation type {#operation-type}
@@ -110,7 +112,7 @@ Data for secondary records is associated with the main record if the defined rul
 
 ## Example: Update data following an enrichment {#example--update-data-following-an-enrichment}
 
-The [Step 2: Writing enriched data to the 'Purchases' table](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) section of the use case that details creating a recap list offers an example of a data update after an enrichment activity.
+The [Step 2: Writing enriched data to the 'Purchases' table](creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) section of the use case that details creating a recap list offers an example of a data update after an enrichment activity.
 
 ## Input parameters {#input-parameters}
 
