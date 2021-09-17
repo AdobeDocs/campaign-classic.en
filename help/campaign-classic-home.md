@@ -12,7 +12,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 * **[September Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements and fixes in the Release Notes
 
-* **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
+* **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)** and **[technote](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
 
 * **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](technotes/using/ims-updates.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**
 
@@ -20,7 +20,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 * **[Secure your Campaign instances](technotes/using/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform
 
-* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life: you need to migrate to Adobe I/O.
+* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life. Learn how to migrate to Adobe I/O.
 
 [More updates](/help/rn/using/documentation-updates.md)
 

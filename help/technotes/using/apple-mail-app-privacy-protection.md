@@ -358,7 +358,7 @@ You can enrich this data with useful information from linked schemas:
 
 | Schema | Content |
 | --- | --- |
-| nms: Recipient | Details that are related to profiles |
+| nms:Recipient | Details that are related to profiles |
 | nms:Delivery | Information about the message to which the user reacted |
 
 You can export the result to an external storage solution that is supported by Adobe Campaign:
