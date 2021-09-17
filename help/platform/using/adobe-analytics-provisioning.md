@@ -35,7 +35,7 @@ For more information on Product profiles, refer to the [Admin console documentat
 
     ![](assets/do-not-localize/triggers_2.png)
 
-1. Add a **[!UICONTROL Product profile name]**, we suggest using the following syntax: `Analytics Classic - <Company Name>` or `reserved_campaign_classic_<Company Name>`. Then, click **[!UICONTROL Next]**.
+1. Add a **[!UICONTROL Product profile name]**, we suggest using the following syntax: `reserved_campaign_classic_<Company Name>`. Then, click **[!UICONTROL Next]**.
    
    This **[!UICONTROL Product profile]** should be used exclusively for the Analytics Connector to prevent mid-configuration errors.
 
