@@ -71,7 +71,7 @@ The “consumer” parameter identifies the instance as one of these consumers. 
 ## How to configure the Pipeline option {#configure-pipeline-option}
 
 Add or edit Experience Cloud triggers under the "triggers" array; do not edit the rest.
-Make sure that the JSON is valid with the help of this this [website](https://jsonlint.com/).
+Make sure that the JSON is valid with the help of this [website](https://jsonlint.com/).
 
 * "name" is the trigger ID. A wildcard "*" catches all triggers.
 * "Consumer" is any unique string that uniquely identifies the nlserver instance. It can usually be the instance name itself. For multiple environments (dev/stage/prod), please ensure it is unique for each of them so that each instance gets a copy of the message.

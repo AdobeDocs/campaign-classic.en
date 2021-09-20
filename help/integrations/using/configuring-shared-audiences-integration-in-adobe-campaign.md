@@ -78,7 +78,7 @@ To configure the **[!UICONTROL Recipient - Visitor ID]** data source:
 
 For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.
 
-You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html).
 
 ## Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
