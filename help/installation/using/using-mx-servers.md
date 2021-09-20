@@ -83,4 +83,4 @@ The Custom mode is for advanced clients who wish to set their own MX rules. When
 * [MX configuration](../../installation/using/email-deliverability.md#mx-configuration)
 * [Technical email configuration](../../installation/using/email-deliverability.md)
 * [Understand Delivery Failures](../../delivery/using/understanding-delivery-failures.md)
-* [Campaign Classic - Technical Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/acc-technical-recommendations.html)
+* [Campaign Classic - Technical Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)

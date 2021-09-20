@@ -103,7 +103,7 @@ For more information on query banding, refer to these articles:
 
 decryptString
 
-The **decryptString** function is deprecated. Refer to the [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) article.
+The **decryptString** function is deprecated. Refer to the [Deprecated and Removed Features](deprecated-features.md) article.
 
 For new customers, this function is now only used to decrypt the recipient's crypted ID in landing pages. To decrypt passwords stored in an external account, use the new **decryptPassword** function.
 

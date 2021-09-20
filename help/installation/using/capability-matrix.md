@@ -29,7 +29,7 @@ The different hosting models are introduced [in this section](../../installation
 | Integrating with IMS (Adobe ID) | On-demand | On-demand | On-demand | [Learn more](../../integrations/using/about-adobe-id.md)                    |
 | Encrypting/Decrypting data for file transfers | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
 | Zipping/Unzipping files | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
-| Domain Name Delegation | On-demand | On-demand | Not available | [Learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html) |
+| Domain Name Delegation | On-demand | On-demand | Not available | [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) |
 | Installing SpamAssassin | On-demand | Available | Available | [Learn more](../../delivery/using/spamassassin.md) |
 | Accessing deliverability reports | Available | On-demand | Available | [Learn more](../../delivery/using/monitoring-deliverability.md)|
 | Configuring LDAP authentication | Not Available | Available | Available | [Learn more](../../installation/using/connecting-through-ldap.md) |

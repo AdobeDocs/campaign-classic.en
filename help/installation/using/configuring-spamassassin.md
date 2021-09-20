@@ -163,7 +163,7 @@ cpan Mail::SpamAssassin
 
 ### Updating filter rules {#updating-filter-rules}
 
-Filter rules can be updated automatically using the **sa-update** tool. Refer to the official SpamAssassin website [http://spamassassin.apache.org/](http://spamassassin.apache.org/) for more information.
+Filter rules can be updated automatically using the **sa-update** tool. Refer to the official SpamAssassin website [https://spamassassin.apache.org/](https://spamassassin.apache.org/) for more information.
 
 In Debian, updates take place automatically each day.
 

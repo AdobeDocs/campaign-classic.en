@@ -107,7 +107,7 @@ The pipeline service keeps track of the messages retrieved by each consumer. Usi
 To configure Pipeline option, you should follow these recommendations:
 
 * Add or edit triggers under **[!UICONTROL Triggers]**, you should not edit the rest.
-* Make sure the JSON is valid. You can use a JSON Validator, refer to this [website](http://jsonlint.com/) for example.
+* Make sure the JSON is valid. You can use a JSON Validator, refer to this [website](https://jsonlint.com/) for example.
 * "name" corresponds to the trigger ID. A wildcard "*" will catch all triggers.
 * "Consumer" corresponds to the name of the calling instance or application.
 * Pipelined also supports the "aliases" topic.

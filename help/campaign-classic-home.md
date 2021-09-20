@@ -22,7 +22,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 * **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life: you need to migrate to Adobe I/O.
 
-[More updates](/help/rn/using/documentation-updates.md)
+[More updates](rn/using/documentation-updates.md)
 
 ## Top pages
 
@@ -74,7 +74,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 | Useful pages | Resources for developers |
 |---|---|
-| [Release notes](/help/rn/using/latest-release.md) | [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
+| [Release notes](rn/using/latest-release.md) | [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [How-to videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
 | [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] upgrade](rn/using/gs-overview.md) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |

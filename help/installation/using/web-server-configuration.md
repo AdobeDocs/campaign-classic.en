@@ -70,9 +70,9 @@ You will find below some of the main best practices related to web-server (Apach
     </Directory>
     ```
 
-    **On IIS** (see the [documentation](http://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), set the **maxAllowedContentLength** (maximum allowed content length) in the content filtering options.
+    **On IIS** (see the [documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), set the **maxAllowedContentLength** (maximum allowed content length) in the content filtering options.
 
 Related topics:
 
-* [Adobe Marketing Cloud Compliance overview](https://marketing.adobe.com/resources/help/en_US/xref/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
+* [Adobe Marketing Cloud Compliance overview](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
 * [Adobe Campaign Security overview](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)

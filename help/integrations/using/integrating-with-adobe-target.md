@@ -15,7 +15,7 @@ Integration between Adobe Campaign and Adobe Target (Classic and Standard) withi
 
 The operating principle is as follows: when a recipient opens an email sent via Adobe Campaign, a call to Adobe Target allows you to display a dynamic version of the content. This dynamic version is computed depending on the rules specified beforehand when creating the email.
 
-Learn more about Adobe Campaign and Adobe Target integration with [this four tips and tricks](https://www.adobe.com/content/dam/www/us/en/marketing/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf).
+Learn more about Adobe Campaign and Adobe Target integration with [this four tips and tricks](https://business.adobe.com/content/dam/dx/us/en/products/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf).
 >[!NOTE]
 >
 >The integration only supports static images. The rest of the content cannot be personalized.
