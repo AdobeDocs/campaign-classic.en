@@ -845,3 +845,7 @@ type: Documentation
        + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
   + [Rollback procedure](migration/using/about-rollback.md)
++ Technotes {#technotes}
+  + Migration to Adobe Managed Services
+       + [Migration to Public Cloud](technotes/using/dc-migration.md)
+       + [FAQ](technotes/using/dc-migration-faq.md)
