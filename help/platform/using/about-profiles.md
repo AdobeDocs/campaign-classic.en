@@ -87,12 +87,6 @@ Active profiles are the profiles that are counted for billing purposes.
 
 Billing only concerns profiles that are **active**. A profile is considered active if the profile has been targeted or communicated with in the past 12 months via any channel.
 
-The count of active profiles depends on how exclusion management is stored:
-
-* If you use the out-of-the-box target mapping, then the profiles that are excluded during delivery preparation – according to typology rules and quarantines – are subsequently not counted as active profiles.
-
-* If you use a custom target mapping and have chosen to store exclusions in the same table as messages, then the profiles that are excluded during delivery preparation are subsequently counted as active. [Read more](../../configuration/using/target-mapping.md).
-
 A profile that has been targeted by several deliveries is counted only once.
 
 >[!NOTE]
