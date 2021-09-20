@@ -1,0 +1,225 @@
+﻿<?xml version='1.0'?>
+<package author="Administrator (admin)" buildDate="2021-09-03 14:41:08.993Z" buildNumber="9336"
+         buildVersion="8.1">
+  <entities schema="xtk:workflow">
+    <workflow form="xtk:workflow" internalName="wkfScanOpenCriteria" label="Scan workflow using Open Tracking in queries"
+              modelName="newWorkflow" scenario-cs="Notification of the workflow supervisor (notifySupervisor)"
+              schema="nms:recipient" showSQL="false" simulation="false">
+      <activities>
+        <end label="End 2" name="end2" x="1264" y="64"/>
+        <end label="End" name="end" x="1264" y="376"/>
+        <fork label="Fork" name="fork" x="328" y="88">
+          <transitions>
+            <transition name="transition1" target="andjoin2"/>
+            <transition name="transition2" target="andjoin"/>
+          </transitions>
+        </fork>
+        <andjoin label="AND-join" mainSet="fork" name="andjoin" x="712" y="88">
+          <transitions>
+            <transition name="transition" target="dedup"/>
+          </transitions>
+        </andjoin>
+        <andjoin label="AND-join 2" mainSet="query23" name="andjoin2" x="464" y="216">
+          <transitions>
+            <transition name="transition" target="js"/>
+          </transitions>
+        </andjoin>
+        <jumpin label="Jump (start point)" name="jumpin" x="1264" y="168"/>
+        <jumpout label="Jump (end point)" name="jumpout" x="712" y="376">
+          <transitions>
+            <transition name="transition" target="js3"/>
+          </transitions>
+        </jumpout>
+        <jstest label="Workflow using Open detected ?" name="jstest" x="984" y="88">
+          <transitions>
+            <test label="True" name="transition1" target="jumpin">
+              <condition>vars.recCount &gt;0</condition>
+            </test>
+            <default name="default" target="end2"/>
+          </transitions>
+        </jstest>
+        <js label="Search workflow that use predined filter on Open (and add it to the result)"
+            name="js" x="576" y="216">
+          <transitions>
+            <done name="done" target="andjoin"/>
+            <error name="error"/>
+          </transitions>
+          <script>const queryPredFilter = xtk.queryDef.create(
+  &lt;queryDef schema={vars.targetSchema} operation="select"&gt;
+     &lt;select&gt;
+       &lt;node alias="@id" expr="@id" /&gt;
+       &lt;node alias="@name" expr="@name"  /&gt;
+     &lt;/select&gt;
+     &lt;where/&gt;
+  &lt;/queryDef&gt;
+).ExecuteQuery()
+
+var qDef =
+  &lt;queryDef schema="xtk:workflow" operation="select"&gt;
+    &lt;select&gt;
+      &lt;node expr="@id"/&gt;
+      &lt;node expr="@internalName"/&gt;
+      &lt;node expr="@label"/&gt;
+    &lt;/select&gt;
+    &lt;where&gt;
+      &lt;condition boolOperator="OR" expr={"data like '%expr=[url/@type] = 2%'" }/&gt;
+    &lt;/where&gt;
+  &lt;/queryDef&gt;
+  
+for each (var filter in queryPredFilter) {        
+   
+   //logInfo (filter.@name); 
+   var condition;
+   condition =&lt;condition boolOperator="OR" expr={"data like '%" + filter.@name + "%'" }/&gt;
+   qDef.where.appendChild(condition);    
+ 
+}
+
+var queryWorkflowList = xtk.queryDef.create(qDef);
+var workflowList = queryWorkflowList.ExecuteQuery();
+
+var sWorkflowList = "";
+var iCount = 0
+for each (var workflow in workflowList) {        
+   
+   //logInfo ("Workflow ID: " + workflow.@id + " in " + instance.vars.mainTargetSchema); 
+   
+   iWorkflowId = workflow.@id;
+   iWorkflowName = workflow.@internaName;
+   iWorkflowLabel = workflow.@label;
+   
+    xtk.session.Write( 
+          &lt;{instance.vars.mainTargetSchema.split(':')[1]} 
+            _operation="insertOrUpdate"        
+            _key="@id"
+            xtkschema={instance.vars.mainTargetSchema}
+            id={iWorkflowId}
+            internaName={iWorkflowName}
+            label={iWorkflowLabel}
+          /&gt;
+    )
+ 
+}
+
+    
+
+//instance.vars.workflowList = sWorkflowList;
+//instance.vars.workflowList = 'WKFZZZZ';
+
+//logInfo ("SQL Clause: " + instance.vars.workflowList);</script>
+        </js>
+        <js label="Initialization" name="js2" x="216" y="88">
+          <transitions>
+            <done name="done" target="fork"/>
+            <error name="error"/>
+          </transitions>
+          <script>instance.vars.mainTargetSchema = vars.targetSchema;
+
+//logInfo(instance.vars.mainTargetSchema);</script>
+        </js>
+        <js label="Get  final list of workflows to add in the notification" name="js3"
+            x="832" y="376">
+          <transitions>
+            <done name="done" target="alert"/>
+            <error name="error"/>
+          </transitions>
+          <script>const queryWorkflow = xtk.queryDef.create(
+  &lt;queryDef schema={vars.targetSchema} operation="select"&gt;
+     &lt;select&gt;
+       &lt;node alias="@id" expr="@id" /&gt;
+       &lt;node alias="@internalName" expr="@internalName"  /&gt;
+       &lt;node alias="@label" expr="@label"  /&gt;
+     &lt;/select&gt;
+     &lt;where/&gt;
+  &lt;/queryDef&gt;
+).ExecuteQuery()
+
+var sWorkflowList = '&lt;table border="0" &gt;';
+
+sWorkflowList = sWorkflowList + "&lt;tr&gt;&lt;th&gt;Worklow Id&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Label&lt;/th&gt;&lt;/tr&gt;";
+
+for each (var workflow in queryWorkflow) {        
+
+   sWorkflowList = sWorkflowList + "&lt;tr&gt;" + 
+                    "&lt;td&gt;" + workflow.@id + "&lt;/td&gt;" + 
+                    "&lt;td&gt;" + workflow.@internalName + "&lt;/td&gt;" + 
+                    "&lt;td&gt;" + workflow.@label + "&lt;/td&gt;" + 
+                    "&lt;/tr&gt;";
+ 
+}
+
+sWorkflowList = sWorkflowList + "&lt;/table&gt;";
+
+instance.vars.workflowList = sWorkflowList;
+//logInfo (instance.vars.workflowList);</script>
+        </js>
+        <alert assigneeType="1" label="Alert - Workflow using Open in Queries" name="alert"
+               operator-cs="Administrator (admin)" scenario-cs="Send an alert to workflow task assignees (alertAssignee)"
+               title="Alert from Campaign instance &lt;%= getOption(&quot;NmsTracking_Instance&quot;) %&gt; - Workflow using Open in Queries"
+               x="984" y="376">
+          <transitions>
+            <done name="done" target="end"/>
+            <error name="error"/>
+          </transitions>
+          <message>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" ""&gt;&lt;HTML&gt;&lt;HEAD&gt; 
+&lt;/HEAD&gt; 
+&lt;BODY&gt;
+&lt;P&gt;Hello Campaign administrator, &lt;/P&gt;
+&lt;P&gt;We have detected a list of workflows that use Open as a targeting criteria in 
+queries&lt;/P&gt;
+&lt;P&gt;&lt;%= instance.vars.workflowList%&gt;&lt;/P&gt;
+&lt;P&gt;Take time to review it in the context of iOS 15 Mail Privacy Protection&lt;/P&gt;
+&lt;P&gt;Regards,&lt;/P&gt;
+&lt;P&gt;Campaign Monitoring Team&lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</message>
+          <operator _operation="none" name="admin" type="0"/>
+          <scenario _operation="none" internalName="alertAssignee"/>
+        </alert>
+        <query label="Workflow using queries on Open" name="query2" recipientLink=""
+               schema="xtk:workflow" x="72" y="88">
+          <transitions>
+            <result name="result" target="js2"/>
+          </transitions>
+          <select>
+            <node expr="@internalName" label="Internal name"/>
+            <node expr="@label" label="Label"/>
+          </select>
+          <where filterName="backGroundFilterFrm" filteringSchema="xtk:workflow">
+            <condition expr="data LIKE '%' + 'expr=&quot;[url/@type] = 2&quot;' + '%'"
+                       internalId="2950299973"/>
+          </where>
+          <humanCond>Query: XML memo contains 'expr="[url/@type] = 2"'</humanCond>
+        </query>
+        <query label="Predefined Filters using Open" name="query23" recipientLink=""
+               schema="xtk:queryFilter" x="72" y="224">
+          <transitions>
+            <result name="result" target="andjoin2"/>
+          </transitions>
+          <select>
+            <node expr="@name" label="Internal name"/>
+            <node expr="@id" label="Primary key"/>
+          </select>
+          <where filterName="backGroundFilterFrm">
+            <condition expr="data LIKE '%' + 'expr=&quot;[url/@type] = 2&quot;' + '%'"
+                       internalId="3467575400"/>
+          </where>
+          <humanCond>Query: XML memo contains 'expr="[url/@type] = 2"'</humanCond>
+        </query>
+        <dedup label="Deduplicate final list of workflows" name="dedup" schema="temp:query2"
+               x="832" y="88">
+          <transitions>
+            <result name="result" target="jstest"/>
+            <remainder name="remainder"/>
+          </transitions>
+          <groupExpr expr="@id" id="1484652816" label="Primary key"/>
+          <display>Deduplicate on field(s) 'Primary key' with method 'Choose for me'</display>
+        </dedup>
+      </activities>
+      <variables mainTargetSchema="temp:query2" workflowList="&lt;table border=&quot;0&quot; &gt;&lt;tr&gt;&lt;th&gt;Worklow Id&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Label&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;104329&lt;/td&gt;&lt;td&gt;WKF5&lt;/td&gt;&lt;td&gt;Scan workflow using Open Tracking in queries&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;103975&lt;/td&gt;&lt;td&gt;WKF50&lt;/td&gt;&lt;td&gt;Copy of Targeting in opens #2 - Use Predefined filter&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;102589&lt;/td&gt;&lt;td&gt;WKF49&lt;/td&gt;&lt;td&gt;Targeting in opens #2 - Use Predefined filter&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;87018&lt;/td&gt;&lt;td&gt;WKF136478&lt;/td&gt;&lt;td&gt;Opens on Apple Device V2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;86958&lt;/td&gt;&lt;td&gt;WKF70507&lt;/td&gt;&lt;td&gt;Opens on Apple devices V1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;48314&lt;/td&gt;&lt;td&gt;WKF1&lt;/td&gt;&lt;td&gt;Targeting on open #1 - Explicit query&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"/>
+      <scenario _operation="none" internalName="notifySupervisor"/>
+      <desc>Empty template to create a new workflow</desc>
+      <folder _operation="none" name="nmsTechnicalWorkflow"/>
+    </workflow>
+  </entities>
+</package>
