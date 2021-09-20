@@ -96,7 +96,9 @@ To do this, apply the following steps:
 
    Click **[!UICONTROL Define new additional fields]** to select the dimension you want to target in your delivery.
 
-   By default, exclusion management is stored in the same tables as messages. Check the **Generate a storage schema for tracking** box if you want to configure storage for the tracking linked to your target mapping.
+   By default, exclusion management is stored in the same table as messages.
+
+   Check the **Generate a storage schema for tracking** box if you want to configure storage for the tracking linked to your target mapping.
 
    ![](assets/mapping_diffusion_wizard_3.png)
    

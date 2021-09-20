@@ -87,13 +87,11 @@ Active profiles are the profiles that are counted for billing purposes.
 
 Billing only concerns profiles that are **active**. A profile is considered active if the profile has been targeted or communicated with in the past 12 months via any channel.
 
-The profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. A profile that has been targeted by several deliveries will only be counted once.
+A profile that has been targeted by several deliveries is counted only once.
 
 >[!NOTE]
 >
 >Facebook and Twitter channels are not taken into account.
-
-From Campaign explorer, browse **[!UICONTROL Administration > Campaign Management > Customer metrics]** to have an overview of the number of active profiles. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [technical workflow](../../workflow/using/about-technical-workflows.md). This wokflow runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** folder. 
 
 Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
 
