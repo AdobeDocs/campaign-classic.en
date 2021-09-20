@@ -96,7 +96,9 @@ To do this, apply the following steps:
 
    Click **[!UICONTROL Define new additional fields]** to select the dimension you want to target in your delivery.
 
-   By default, exclusion management is stored in the same tables as messages. Check the **Generate a storage schema for tracking** box if you want to configure storage for the tracking linked to your target mapping.
+   By default, for target mappings that you create, exclusion management is stored in the same table as messages. If you choose this storage option, then the profiles that are excluded during delivery preparation – according to typology rules and quarantines – are subsequently counted as active. [Read more](../../platform/using/about-profiles.md#active-profiles).
+
+   Check the **Generate a storage schema for tracking** box if you want to configure storage for the tracking linked to your target mapping.
 
    ![](assets/mapping_diffusion_wizard_3.png)
    
