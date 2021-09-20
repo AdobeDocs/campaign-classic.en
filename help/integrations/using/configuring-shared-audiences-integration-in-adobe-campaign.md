@@ -82,6 +82,6 @@ You need to make sure the Campaign Tracking Server is registered on the domain (
 
 ## Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
-In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) .
+In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.
