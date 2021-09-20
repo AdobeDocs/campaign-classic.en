@@ -4,7 +4,7 @@ title: Migrate to the Adobe Analytics Connector
 description: Campaign - Analytics Connector FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
 ---
-# How to migrate to Adobe Analytics Connector {#acc-aa-faq}
+# How to migrate existing Genesis integrations to Adobe Analytics Connector {#acc-aa-faq}
 
 ![](../../assets/v7-only.svg)
 

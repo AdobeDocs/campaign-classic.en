@@ -13,7 +13,7 @@ level: Beginner
 
 >[!IMPORTANT]
 >
-> These steps are only required for Hybrid & On-Premise implementations.
+> These steps are only required for Hybrid and On-Premise implementations.
 
 The integration between Adobe Campaign Classic and Adobe Analytics authentication supports Adobe Identity Management Service (IMS). You must implement Adobe IMS, and connect to Campaign [via an Adobe ID](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-via-an-adobe-id/about-adobe-id.html?lang=en), before starting Analytics Connector implementation.
 
@@ -21,7 +21,7 @@ For this integration to work, you have to create an Adobe Analytics product prof
 
 ## Create an Adobe Analytics Product profile {#analytics-product-profile}
 
-Product Profile determines the level of access a user has on Analytics Components.
+Product Profile determines the level of access a user has on your different Analytics Components.
 
 If you already have an Analytics Product Profile, you should still create a new Adobe Analytics product profile used exclusively for the Analytics connector. This will ensure that your Product profile is set with the correct permissions for this integration. 
 
