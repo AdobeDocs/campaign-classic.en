@@ -5,6 +5,7 @@ description: Learn more about Adobe Analytics connector
 feature: Overview
 role: User, Admin
 level: Beginner
+exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 ---
 # Adobe Analytics Connector{#adobe-analytics-connector}
 
