@@ -48,7 +48,7 @@ You need to upgrade to Campaign 21.1.3 (or more) **before March 1, 2022**.
 As a hosted customer, Adobe will be working with you to upgrade your instance(s) to the newer version. You will then be able to use [Adobe Analytics connector](../../platform/using/adobe-analytics-connector.md).
 
 As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new integration.
-Once all instances are upgraded, you will be able to [implement the new integration](../../platform/using/adobe-analytics-connector-provisioning.md) to Adobe Analytics Connector, and ensure a seamless transition.
+Once all instances are upgraded, you will be able to [implement the new integration](../../platform/using/adobe-analytics-provisioning.md) to Adobe Analytics Connector, and ensure a seamless transition.
 
 ## FAQ{#faq-aa}
 

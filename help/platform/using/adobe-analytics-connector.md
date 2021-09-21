@@ -41,7 +41,7 @@ The action fields for each tool are as follows:
 
 >[!IMPORTANT]
 >
-> For Hybrid and On-Premise implementations, make sure to follow the provisioning steps detailed in this [page](../../platform/using/adobe-analytics-connector-provisioning.md).
+> For Hybrid and On-Premise implementations, make sure to follow the provisioning steps detailed in this [page](../../platform/using/adobe-analytics-provisioning.md).
 
 To set up the Data connector, you must connect to your Adobe Campaign instance and perform the following operations:
 
@@ -127,7 +127,7 @@ You need to configure your **[!UICONTROL Conversion variables]** and **[!UICONTR
 
 1. Click **[!UICONTROL Save]** when done.
 
-After configuring your **[!UICONTROL Conversion variables]** and **[!UICONTROL Success events]**, make sure that the variables are included in the **[!UICONTROL Product Profile]** created for the Analytics Connector. For more on this, refer to  [Create an Adobe Analytics Product profile](../../platform/using/adobe-analytics-provisioning#analytics-product-profile).
+After configuring your **[!UICONTROL Conversion variables]** and **[!UICONTROL Success events]**, make sure that the variables are included in the **[!UICONTROL Product Profile]** created for the Analytics Connector. For more on this, refer to  [Create an Adobe Analytics Product profile](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile).
 
 You will then need to configure the **[!UICONTROL External accounts]** in Adobe Campaign Classic.
 
