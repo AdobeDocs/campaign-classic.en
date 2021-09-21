@@ -39,7 +39,7 @@ For more information on Product profiles, refer to the [Admin console documentat
 
 1. Add a **[!UICONTROL Product profile name]**, we suggest using the following syntax: `reserved_campaign_classic_<Company Name>`. Then, click **[!UICONTROL Next]**.
    
-   This **[!UICONTROL Product profile]** should be used exclusively for the Analytics Connector to prevent mid-configuration errors.
+   This **[!UICONTROL Product profile]** should be used exclusively for the Analytics Connector to prevent misconfiguration errors.
 
 1. Open your newly created **[!UICONTROL Product profile]** and select the **[!UICONTROL Permissions]** tab.
 
@@ -97,7 +97,7 @@ Your Product profile is now configured. You then need to create the Adobe I/O pr
 
     ![](assets/do-not-localize/triggers_6.png)
 
-1. Select [!DLN Adobe Analytics] and click **[!UICONTROL Next]**.
+1. Select [!DNL Adobe Analytics] and click **[!UICONTROL Next]**.
 
     ![](assets/do-not-localize/triggers_7.png)
 
