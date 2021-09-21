@@ -23,6 +23,7 @@ For any other question, you can reach out to [Adobe Customer Care](https://exper
 Global impacts on database and infrastructure are listed below.
 
 * **Is the database going to change? What is the version of the new database? What Operating System will be used?**
+
     Adobe reserves the right to choose and deploy the most suitable Database management engine to serve Adobe Campaign Service in optimal conditions.
     
     In addition, in order to preserve the best level of security, Adobe will not provide any detailed information related to infrastructure.
@@ -52,6 +53,7 @@ Global impacts on database and infrastructure are listed below.
 Global impacts on IPs, block list, sub-domains and URLs are listed below.
 
 * **How will IP on the allow list be handled? Will the customers need to add new IP addresses to the allow list for incoming traffic from Campaign?**
+
     The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses in the allow list in their system.
     
     [Click here](#config) for more details about IP on the allow list.
@@ -64,7 +66,7 @@ Global impacts on IPs, block list, sub-domains and URLs are listed below.
     
     The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses to the allow list in their system.
 
-[Click here](#config) for more details about IP on the allow list.
+    [Click here](#config) for more details about IP on the allow list.
 
 * **How will sub-domain delegation be handled?**
     
@@ -135,6 +137,7 @@ Global impacts on configuration, connectivity with other systems and products, A
     There will be IP adresses on the allow list that will be required in the external solution as Application servers IP will change. This information will be provided. Other parts of integration are IMS-based and should work as-is.
 
 * **What about customer that are not attached to Org ID for IMS integration?**
+
     Customers who don’t have IMS will be provided one: an IMS org ID will be attached to their instance.
 
 * **Are multi-branding configurations impacted by the migration?**
@@ -268,8 +271,6 @@ Global impacts during the migration are listed below.
     Adobe Customer Care team will handle ensuring that the customer and any third parties can access the new system by adding the new IPs to the allow list.
 
 ## Support and other useful links{#support}
-
-![](assets/do-not-translate/support.png) 
 
 * [Migration to Adobe Managed Services (Public Cloud)](dc-migration.md)
 * [Gold Standard Upgrade](../../rn/using/gs-overview.md)
