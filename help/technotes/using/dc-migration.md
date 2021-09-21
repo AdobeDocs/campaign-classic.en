@@ -5,7 +5,6 @@ description: Learn more about Campaign Classic Migration to Public Cloud
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: yes
 ---
 # Overview{#dc-ovv}
 

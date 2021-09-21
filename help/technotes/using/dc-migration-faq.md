@@ -5,7 +5,6 @@ description: Campaign Classic Migration to Public Cloud FAQ
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: yes
 ---
 # Migration to Public Cloud FAQ{#dc-faq}
 
