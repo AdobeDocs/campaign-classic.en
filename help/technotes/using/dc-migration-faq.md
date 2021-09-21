@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Migration to Public Cloud FAQ
+title: Migration to Adobe Managed Services (Public Cloud) FAQ
 description: Campaign Classic Migration to Public Cloud FAQ
 feature: Overview
 role: User
@@ -10,13 +10,15 @@ level: Beginner
 
 ![](../../assets/v7-only.svg)
 
-As part of the [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe decommissions the legacy Data Center. Campaign Classic instances must be transferred to Public Cloud (AWS). [Learn more about this initiative](dc-migration.md).
+As part of the [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe decommissions the legacy Data Center. Campaign Classic instances must be transferred to Public Cloud Amazon Web Services (AWS). [Learn more about this initiative](dc-migration.md).
 
 You will find below a set of common questions about this project, the impact on your Campaign environments, and other useful resources.
 
 For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 ## Infrastructure impacts
+
+![](assets/do-not-translate/database.png) 
 
 Global impacts on database and infrastructure are listed below.
 
@@ -45,6 +47,8 @@ In a further step, we will proceed to upgrade to the latest Campaign Classic GA 
 Extensive testing would be done before the production systems are migration. However in case of any issues, [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support) will remain the main point of contact. Adobe has set up a team of experts to provide advanced support, if needed.
 
 ## Deliverability impacts
+
+![](assets/do-not-translate/features.png) 
 
 Global impacts on IPs, block list, sub-domains and URLs are listed below.
 
@@ -101,6 +105,8 @@ The sub-domain(s) used for marketing communication will remain the same. However
 
 ## Configuration and connectivity impacts
 
+![](assets/do-not-translate/maintenance.png) 
+
 ### Note about IP on the allow list{#config}
 
 Migration to public Cloud will come with new IPs for Adobe Campaign application servers so that changing IP may then have impacts on connectivity between Adobe servers and your Information Systems.
@@ -112,7 +118,6 @@ Let’s consider the two cases :
 * Inbound traffic: All network activity that is initiated from your systems or any other third party to Adobe Campaign servers. Configuration will be handled by Adobe and then copied from legacy to public Cloud during migration. Then connectivity for inbound traffic will be preserved as is after the migration and no action is expected from Customer side 
 
 * Outbound traffic: All network activity that is initiated by Adobe Campaign servers to your Information System or any other third party (ex: SMS provider). Depending on security policies in place in your organization, IPs changing may require allow list operation from your Information System or any other third party
-
 
 ### Global impacts
 
@@ -161,6 +166,8 @@ It may change according to new servers location. However customer will be able t
 
 ## Security and permissions
 
+![](assets/do-not-translate/security.png) 
+
 With this migration to Public Cloud (AWS), customer environments will be kept up to date with all necessary security requirements. This includes :
 
 * Newest OS and security patches on a periodic bases
@@ -201,6 +208,8 @@ As we are keeping same DNS names, it should work as is after migration.
 
 
 ## Migration execution
+
+![](assets/do-not-translate/upgrades.png) 
 
 Global impacts during the migration are listed below.
 
@@ -259,7 +268,9 @@ Adobe Customer Care team will handle ensuring that the customer and any third pa
 
 ## Support and other useful links{#support}
 
-* [Migration to Adobe Managed Services (Public Cloud) FAQ](dc-migration-faq.md)
+![](assets/do-not-translate/support.png) 
+
+* [Migration to Adobe Managed Services (Public Cloud)](dc-migration.md)
 * [Gold Standard Upgrade](../../rn/using/gs-overview.md)
 * [Build Upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 
