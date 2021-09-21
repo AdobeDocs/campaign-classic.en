@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Migration to Public Cloud FAQ
+title: Migration to Adobe Managed Services (Public Cloud) FAQ
 description: Campaign Classic Migration to Public Cloud FAQ
 feature: Overview
 role: User
@@ -10,7 +10,7 @@ level: Beginner
 
 ![](../../assets/v7-only.svg)
 
-As part of the [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe decommissions the legacy Data Center. Campaign Classic instances must be transferred to Public Cloud (AWS). [Learn more about this initiative](dc-migration.md).
+As part of the [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe decommissions the legacy Data Center. Campaign Classic instances must be transferred to Public Cloud Amazon Web Services (AWS). [Learn more about this initiative](dc-migration.md).
 
 You will find below a set of common questions about this project, the impact on your Campaign environments, and other useful resources.
 
@@ -259,7 +259,7 @@ Adobe Customer Care team will handle ensuring that the customer and any third pa
 
 ## Support and other useful links{#support}
 
-* [Migration to Adobe Managed Services (Public Cloud) FAQ](dc-migration-faq.md)
+* [Migration to Adobe Managed Services (Public Cloud)](dc-migration.md)
 * [Gold Standard Upgrade](../../rn/using/gs-overview.md)
 * [Build Upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 
