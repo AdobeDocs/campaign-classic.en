@@ -13,7 +13,9 @@ level: Beginner
 
 >[!IMPORTANT]
 >
-> These steps are only required for Hybrid and On-Premise implementations.
+> These steps should only be carried out by Hybrid and On-Premise implementations.
+>
+>For Hosted implementations, please contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. 
 
 The integration between Adobe Campaign Classic and Adobe Analytics authentication supports Adobe Identity Management Service (IMS). You must implement Adobe IMS, and connect to Campaign [via an Adobe ID](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-via-an-adobe-id/about-adobe-id.html?lang=en), before starting Analytics Connector implementation.
 
