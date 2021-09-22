@@ -6,6 +6,7 @@ hidefromtoc: yes
 feature: Overview
 role: User
 level: Beginner
+exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 ---
 # Migration to Public Cloud FAQ{#dc-faq}
 
@@ -276,4 +277,3 @@ Global impacts during the migration are listed below.
 * [Migration to Adobe Managed Services (Public Cloud)](dc-migration.md)
 * [Gold Standard Upgrade](../../rn/using/gs-overview.md)
 * [Build Upgrade FAQ](../../platform/using/faq-build-upgrade.md)
-
