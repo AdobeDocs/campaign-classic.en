@@ -9,7 +9,7 @@ level: Beginner
 ---
 # Adobe Analytics Connector provisioning {#adobe-analytics-connector-provisioning}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 >[!IMPORTANT]
 >
