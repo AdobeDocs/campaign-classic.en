@@ -262,7 +262,7 @@ The Privacy and Consent section has been enhanced with more detailed information
 
 The Privacy Management in Campaign Classic page has been updated with information on the 'regulation' field which is now available when using the API allowing to setup automatic Privacy request process. [Read more](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](../../platform/using/privacy-and-recommendations.md)
 
 Information has been added on sub-workflows logs and behaviour in case of error. [Read more](../../workflow/using/sub-workflow.md)
 
@@ -514,9 +514,9 @@ Audit trail - [Read more](../../production/using/audit-trail.md)
 
 A new Build upgrade FAQ has been created. [Read more](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
-The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The [19.0 Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html) has been archived.
+The [Compatibility matrix](compatibility-matrix.md) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The 19.0 Compatibility matrix has been archived.
 
-The 'Deprecated and Removed Features in Campaign Classic' page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+The 'Deprecated and Removed Features in Campaign Classic' page has been updated. [Read more](deprecated-features.md)
 
 The description of the server configuration file has been added to the Installation guide. [Read more](../../installation/using/the-server-configuration-file.md)
 
@@ -573,7 +573,7 @@ The following technotes have been updated: [SMS connector protocol and settings]
 
 The Technical workflows section has been updated. [Read more](../../workflow/using/about-technical-workflows.md)
 
-The Campaign Domain Name Setup procedure has been improved and updated. [Read more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
+The Campaign Domain Name Setup procedure has been improved and updated.
 
 The Migration procedure for Android Apps from Google Cloud Messaging (GCM) to Firebase Cloud Messaging (FCM) has been updated. [Read more](https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html)
 

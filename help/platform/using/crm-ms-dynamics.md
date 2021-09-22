@@ -59,7 +59,7 @@ To get the Client ID, you need to register an App in Azure Active Directory. Cli
 
 Once you save, you get an **Application ID** which is the Client Identifier for Campaign.
 
-Learn more in [this page](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
+Learn more in [this page](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
 ### Generate Microsoft Dynamics Certificate key identifier and Key ID {#config-certificate-key-id}
 
@@ -108,7 +108,7 @@ The **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId
 
 1. Click **Grant admin consent**.
 
-For more information on this, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
+For more information on this, refer to [Azure documentation](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
 
 ### Create an App User {#create-app-user-microsoft}
 
@@ -149,7 +149,7 @@ The App user is the user that the application registered above will use. Any cha
 
 >[!NOTE]
 >
-> Post the decommissioning of [RDS from Microsoft](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#microsoft-dynamics-crm-2011-endpoint), the On-premise and Office 365 types of CRM deployments are no longer compatible with Campaign. Adobe Campaign now only supports Web API deployment for the CRM version **Dynamic CRM 365**. [Learn more](../../rn/using/deprecated-features.md#crm-connectors).
+> Post the decommissioning of [RDS from Microsoft](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint), the On-premise and Office 365 types of CRM deployments are no longer compatible with Campaign. Adobe Campaign now only supports Web API deployment for the CRM version **Dynamic CRM 365**. [Learn more](../../rn/using/deprecated-features.md#crm-connectors).
 
 To connect Microsoft Dynamics 365 and Campaign, you need to create and configure a dedicated **[!UICONTROL External Account]** in Campaign.
 

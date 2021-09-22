@@ -20,7 +20,7 @@ Using JavaScript in email content (HTML or Text) allows you to generate and send
 
 You can add specific pre-processing instructions to script the URL and track it. [Learn more](pre-processing-instructions.md)
 
-For tracking detection, Adobe Campaign embeds [Tidy](http://www.html-tidy.org/) to parse the HTML source and detect the pattern. It lists all the URLs of the content so that they can be tracked individually. Adobe Campaign uses Tidy again to replace the URL (`http://myurl.com`) with a URL pointing to the Adobe Campaign redirection server.
+For tracking detection, Adobe Campaign embeds [Tidy](https://www.html-tidy.org/) to parse the HTML source and detect the pattern. It lists all the URLs of the content so that they can be tracked individually. Adobe Campaign uses Tidy again to replace the URL (`http://myurl.com`) with a URL pointing to the Adobe Campaign redirection server.
 
 For example, in the initial content: `http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>` is replaced for one particular recipient with: `http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`
 

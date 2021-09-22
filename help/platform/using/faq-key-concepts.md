@@ -50,7 +50,7 @@ These are a set of rights and restrictions that authorize or deny to:
 
 Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR and CCPA.
 
-Refer to [this document](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html) to understand the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you with your GDPR compliance when using our service. Implementation steps for Campaign Classic are described in [this article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+Refer to [this document](privacy-and-recommendations.md) to understand the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you with your GDPR compliance when using our service. Implementation steps for Campaign Classic are described in [this article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 
 ## What are Campaign user interface concepts I should know? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
@@ -120,7 +120,7 @@ Learn how to [create a web form](../../web/using/about-web-forms.md): design, te
 
 Adobe constantly evaluates capabilities in the product and over time plans to replace capabilities with more powerful versions, or decides to re-implement selected parts to be better prepared for future expectations or extensions. As Campaign works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only.
 
-[Click here to learn more](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
+[Click here to learn more](../../rn/using/deprecated-features.md).
 
 ## Are there new documentation updates and help materials released? {#are-there-new-documentation-updates-and-help-materials-released-}
 
