@@ -2,6 +2,7 @@
 product: campaign
 title: Migration to Adobe Managed Services (Public Cloud) FAQ
 description: Campaign Classic Migration to Public Cloud FAQ
+hidefromtoc: yes
 feature: Overview
 role: User
 level: Beginner

@@ -2,6 +2,7 @@
 product: campaign
 title: Migration to Public Cloud
 description: Learn more about Campaign Classic Migration to Public Cloud
+hidefromtoc: yes
 feature: Overview
 role: User
 level: Beginner
