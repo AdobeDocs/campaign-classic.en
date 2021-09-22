@@ -9,6 +9,8 @@ exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
 ---
 # Creating offer spaces{#creating-offer-spaces}
 
+![](../../assets/v7-only.svg)
+
 Offer space creation may only be carried out by a **technical administrator** with access to the offer space sub-folder. Offer spaces can only be created in the design environment, and are automatically duplicated into the live environment during offer approval.
 
 The content of the catalog offers is configured in the offer spaces. By default, the content can include the following fields: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** and **[!UICONTROL Text content]**. The field sequence is configured in the offer space.

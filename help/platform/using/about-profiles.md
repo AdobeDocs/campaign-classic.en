@@ -9,6 +9,8 @@ exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 ---
 # Get started with profiles{#about-profiles}
 
+![](../../assets/common.svg)
+
 Profiles are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PI data in a consolidated view to analyze and take action.
 
 “**Profile**” means a record of information (e.g.: a record in the nmsRecipient table or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead.
@@ -85,13 +87,11 @@ Active profiles are the profiles that are counted for billing purposes.
 
 Billing only concerns profiles that are **active**. A profile is considered active if the profile has been targeted or communicated with in the past 12 months via any channel.
 
-The profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. A profile that has been targeted by several deliveries will only be counted once.
+A profile that has been targeted by several deliveries is counted only once.
 
 >[!NOTE]
 >
 >Facebook and Twitter channels are not taken into account.
-
-From Campaign explorer, browse **[!UICONTROL Administration > Campaign Management > Customer metrics]** to have an overview of the number of active profiles. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [technical workflow](../../workflow/using/about-technical-workflows.md). This wokflow runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** folder. 
 
 Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
 

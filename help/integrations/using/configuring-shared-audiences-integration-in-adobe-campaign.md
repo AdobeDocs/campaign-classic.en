@@ -9,6 +9,8 @@ exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 ---
 # Configuring shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
+![](../../assets/common.svg)
+
 Once you have submitted this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
 1. [Step 1: Configure or check the external accounts in Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
@@ -76,10 +78,10 @@ To configure the **[!UICONTROL Recipient - Visitor ID]** data source:
 
 For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.
 
-You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html).
 
 ## Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
-In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) .
+In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.

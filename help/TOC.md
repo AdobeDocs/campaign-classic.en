@@ -10,7 +10,6 @@ user-guide-description: With Adobe Campaign, you can use rich customer data to c
 sub-product: adobe campaign classic
 type: Documentation
 ---
-
 # Adobe Campaign Classic v7 documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
@@ -33,11 +32,12 @@ type: Documentation
     + [Release 18.4](rn/using/release--18-4.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
-  + [Technotes](technotes/technote.md)
-  + [iOS certificate update](technotes/ios-certificate-update.md)
-  + [Campaign configuration updates](technotes/acc-config-updates.md)
-  + [Tracked URLs update](technotes/tracked-urls.md)
-  + [IMS updates](technotes/ims-updates.md)
+  + [Technotes](technotes/using/technote.md)
+  + [iOS certificate update](technotes/using/ios-certificate-update.md)
+  + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
+  + [Campaign configuration updates](technotes/using/acc-config-updates.md)
+  + [Tracked URLs update](technotes/using/tracked-urls.md)
+  + [IMS updates](technotes/using/ims-updates.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -113,8 +113,9 @@ type: Documentation
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
        + Adobe Analytics Connector{#analytics-connector}
+          + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
           + [Adobe Analytics Connector integration](platform/using/adobe-analytics-connector.md)
-          + [How to migrate to Adobe Analytics Connector](technotes/aa-connector-migration.md)
+          + [How to migrate to Adobe Analytics Connector](technotes/using/aa-connector-migration.md)
           + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
@@ -259,13 +260,13 @@ type: Documentation
        + [Monitor your campaigns](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
   + Campaign optimization {#campaign-optimization}
-       + [About campaign typologies](campaign/using/about-campaign-typologies.md)
-       + [Pressure rules](campaign/using/pressure-rules.md)
-       + [Consistency rules](campaign/using/consistency-rules.md)
-       + [Control rules](campaign/using/control-rules.md)
-       + [Filtering rules](campaign/using/filtering-rules.md)
-       + [Apply rules](campaign/using/applying-rules.md)
-       + [Campaign simulations](campaign/using/campaign-simulations.md)
+       + [About campaign typologies](campaign-opt/using/about-campaign-typologies.md)
+       + [Pressure rules](campaign-opt/using/pressure-rules.md)
+       + [Consistency rules](campaign-opt/using/consistency-rules.md)
+       + [Control rules](campaign-opt/using/control-rules.md)
+       + [Filtering rules](campaign-opt/using/filtering-rules.md)
+       + [Apply rules](campaign-opt/using/applying-rules.md)
+       + [Campaign simulations](campaign-opt/using/campaign-simulations.md)
 + Marketing Resource Management {#mrm}
   + [About marketing resource management](mrm/using/about-marketing-resource-management.md)
   + [Create and manage tasks](mrm/using/creating-and-managing-tasks.md)
@@ -273,19 +274,19 @@ type: Documentation
   + [Manage marketing resources](mrm/using/managing-marketing-resources.md)
   + [Discussion forums](mrm/using/discussion-forums.md)
 + Distributed marketing {#distributed-marketing}
-  + [About distributed marketing](campaign/using/about-distributed-marketing.md)
-  + [Create a local campaign](campaign/using/creating-a-local-campaign.md)
-  + [Create a collaborative campaign](campaign/using/creating-a-collaborative-campaign.md)
-  + [Publish the campaign package](campaign/using/publishing-the-campaign-package.md)
-  + [Access campaigns](campaign/using/accessing-campaigns.md)
-  + [Track a campaign](campaign/using/tracking-a-campaign.md)
-  + [Use cases](campaign/using/examples.md)
+  + [About distributed marketing](distributed/using/about-distributed-marketing.md)
+  + [Create a local campaign](distributed/using/creating-a-local-campaign.md)
+  + [Create a collaborative campaign](distributed/using/creating-a-collaborative-campaign.md)
+  + [Publish the campaign package](distributed/using/publishing-the-campaign-package.md)
+  + [Access campaigns](distributed/using/accessing-campaigns.md)
+  + [Track a campaign](distributed/using/tracking-a-campaign.md)
+  + [Use cases](distributed/using/examples.md)
 + Response manager {#response-manager}
-  + [Get started with response manager](campaign/using/about-response-manager.md)
-  + [Configuration](campaign/using/configuration.md)
-  + [Hypothesis templates](campaign/using/hypothesis-templates.md)
-  + [Create hypotheses](campaign/using/creating-hypotheses.md)
-  + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
+  + [Get started with response manager](response/using/about-response-manager.md)
+  + [Configuration](response/using/configuration.md)
+  + [Hypothesis templates](response/using/hypothesis-templates.md)
+  + [Create hypotheses](response/using/creating-hypotheses.md)
+  + [Hypothesis tracking](response/using/hypothesis-tracking.md)
 + Design and share reports {#reporting}
   + Get started with reporting {#reporting-in-adobe-campaign}
        + [Reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
@@ -434,6 +435,7 @@ type: Documentation
        + [Subscription Services](workflow/using/subscription-services.md)
        + [Update data](workflow/using/update-data.md)
        + [CRM Connector](workflow/using/crm-connector.md)
+       + [Change data source](workflow/using/change-data-source.md)
   + Flow control activities {#flow-control-activities}
        + [About flow control activities](workflow/using/about-flow-control-activities.md)
        + [Start and end](workflow/using/start-and-end.md)
@@ -843,3 +845,7 @@ type: Documentation
        + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
   + [Rollback procedure](migration/using/about-rollback.md)
++ Technotes {#technotes}
+  + Migration to Adobe Managed Services{#dc-migration}
+       + [Migration to Public Cloud](technotes/using/dc-migration.md)
+       + [FAQ](technotes/using/dc-migration-faq.md)

@@ -9,6 +9,8 @@ exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 ---
 # Global reports {#global-reports}
 
+![](../../assets/common.svg)
+
 These reports concern the activity of the data in the entire database. To view the reports dashboard, go to the **[!UICONTROL Reports]** tab. 
 
 ![](assets/s_ncs_user_report_delivery_link.png)

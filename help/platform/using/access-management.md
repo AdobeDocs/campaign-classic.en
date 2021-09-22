@@ -9,6 +9,8 @@ exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 ---
 # Get started with permissions{#access-management}
 
+![](../../assets/common.svg)
+
 Adobe Campaign lets you define and manage the rights assigned to the various operators. These are a set of rights and restrictions that authorize or deny:
 
 * Access to certain functionalities (via the named rights),
@@ -45,7 +47,7 @@ Learn how to grant access and set up permissions in these sections:
 See also:
 
 * [Manage permissions for workflows](../../workflow/using/managing-rights.md)
-* [Manage permissions for distributed marketing](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
+* [Manage permissions for distributed marketing](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
 * [Manage permissions for the interaction module](../../interaction/using/operator-profiles.md)
 * [Filter access to schemas](../../configuration/using/filtering-schemas.md)
 * [Restricting PI view](../../configuration/using/restricting-pii-view.md)

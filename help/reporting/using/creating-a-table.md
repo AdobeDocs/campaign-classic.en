@@ -9,6 +9,8 @@ exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 ---
 # Creating a table{#creating-a-table}
 
+![](../../assets/common.svg)
+
 You can add a table to a report to display data. This can be a pivot table created based on cube measurements, a list with group, or a table containing a breakdown of values. 
 
 ![](assets/s_advuser_report_page_activity_05.png)

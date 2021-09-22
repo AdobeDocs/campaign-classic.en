@@ -8,6 +8,8 @@ exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 ---
 # About Adobe Experience Manager{#about-adobe-experience-manager}
 
+![](../../assets/common.svg)
+
 Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
 
 You can also directly insert assets from your AEM Assets library while editing an email or a landing page in Adobe Campaign. This functionality is detailed in the [Assets](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md) chapter.

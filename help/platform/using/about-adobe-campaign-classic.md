@@ -9,13 +9,17 @@ exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 ---
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}
 
+![](../../assets/v7-only.svg)
+
 To deliver a high degree of customer engagement and great experiences, brands must create consistent customer journeys at all touchpoints. Marketers can now efficiently design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment and drive loyalty.
 
 Adobe Campaign lets you coordinate the creation of conversational marketing campaigns. Adobe Campaign has innovative features to model, streamline, and automate marketing and customer communication processes.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Adobe Campaign Classic is available in v6.11 and v7. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). Screenshots reflect Campaign Classic v7 user interface.
+>* Help materials in this collection apply to Campaign Classic v7 in its [latest build](../../rn/using/latest-release.md). A specific badge is available when a section also applies also to Campaign v8.
+>
+>* Adobe Campaign v8 documentation is available [here](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](#video)
 
@@ -73,8 +77,8 @@ The following capabilities are available. Depending on your license agreement, s
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
 * [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
-* [Distributed Marketing](../../campaign/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
-* [Response Manager](../../campaign/using/about-response-manager.md) - manage customer response,
+* [Distributed Marketing](../../distributed/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
+* [Response Manager](../../response/using/about-response-manager.md) - manage customer response,
 * [Connectors](../../platform/using/about-connectors.md) - use connectors to communicate with external solutions and database engines,
 * [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,
 * [Reporting](../../reporting/using/about-adobe-campaign-reporting-tools.md) - access built-in reports, analyze data and design your own reports.

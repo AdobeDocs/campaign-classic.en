@@ -9,6 +9,8 @@ exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 ---
 # Monitoring guidelines {#monitoring-guidelines}
 
+![](../../assets/v7-only.svg)
+
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}
 
 The **[!UICONTROL Monitoring]** tab, which is accessible from Campaign Classic homepage, is the main entry point to help you monitor your instance.

@@ -8,6 +8,8 @@ topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 ---
 # Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
+
+![](../../assets/common.svg)
    
 In this page, you will  learn how to connect Campaign Classic to **Microsoft Dynamics CRM 365**.
 
@@ -21,7 +23,7 @@ To connect Microsoft Dynamics 365 to work with Adobe Campaign via **Web API**, y
 
 In Microsoft Dynamics CRM:
 1. Get Microsoft Dynamics Client ID
-1. Generate Microsoft Dynamics Client Secret
+1. Generate Microsoft Dynamics Certificate key identifier and Key ID
 1. Configure permissions
 1. Create an App User
 1. Encode the private key
@@ -57,11 +59,11 @@ To get the Client ID, you need to register an App in Azure Active Directory. Cli
 
 Once you save, you get an **Application ID** which is the Client Identifier for Campaign.
 
-Learn more in [this page](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
+Learn more in [this page](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
-### Generate Microsoft Dynamics Client Secret {#config-client-secret-microsoft}
+### Generate Microsoft Dynamics Certificate key identifier and Key ID {#config-certificate-key-id}
 
-The client secret is the key which is unique to the Client ID. To get the certificate key identifier, follow the steps below:
+To get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**, follow the steps below:
 
 1. Navigate to **Azure Active Directory > App Registrations** and select the Application which was created earlier.
 1. Click on **Certificates and Secret**.
@@ -81,6 +83,8 @@ The client secret is the key which is unique to the Client ID. To get the certif
 1. You will then need to encode it in base64. To do so, you can use the help of a Base64 encoder or use the command line `base64 -w0 private.key` for Linux.
 
 1. Click on the **Manifest** link to get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**.
+
+The **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)** will be needed later on to configure your Microsoft Dynamics CRM external account using the Certificate **[!UICONTROL CRM O-Auth type]**.
 
 ### Configure permissions {#config-permissions-microsoft}
 
@@ -104,7 +108,7 @@ The client secret is the key which is unique to the Client ID. To get the certif
 
 1. Click **Grant admin consent**.
 
-For more information on this, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
+For more information on this, refer to [Azure documentation](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
 
 ### Create an App User {#create-app-user-microsoft}
 
@@ -145,7 +149,7 @@ The App user is the user that the application registered above will use. Any cha
 
 >[!NOTE]
 >
-> Post the decommissioning of [RDS from Microsoft](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#microsoft-dynamics-crm-2011-endpoint), the On-premise and Office 365 types of CRM deployments are no longer compatible with Campaign. Adobe Campaign now only supports Web API deployment for the CRM version **Dynamic CRM 365**. [Learn more](../../rn/using/deprecated-features.md#crm-connectors).
+> Post the decommissioning of [RDS from Microsoft](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint), the On-premise and Office 365 types of CRM deployments are no longer compatible with Campaign. Adobe Campaign now only supports Web API deployment for the CRM version **Dynamic CRM 365**. [Learn more](../../rn/using/deprecated-features.md#crm-connectors).
 
 To connect Microsoft Dynamics 365 and Campaign, you need to create and configure a dedicated **[!UICONTROL External Account]** in Campaign.
 
@@ -186,6 +190,10 @@ To connect Microsoft Dynamics 365 and Campaign, you need to create and configure
    ![](assets/crm_connectors_msdynamics_06.png)
 
 Campaign and Microsoft Dynamics are now connected. You can set up data synchronization between the two systems. Learn more in the [Data synchronization](../../platform/using/crm-data-sync.md) section.
+
+>[!NOTE]
+>
+> You need to make sure to add to the allow list two URLs: the server URL and `login.microsoftonline.com` in the Server configuration.
 
 ## Supported field data types {#ms-dyn-supported-types}
 

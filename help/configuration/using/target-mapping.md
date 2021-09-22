@@ -9,6 +9,8 @@ exl-id: 38333669-5598-4811-a121-b677c1413f56
 ---
 # Target mapping{#target-mapping}
 
+![](../../assets/v7-only.svg)
+
 Target mapping creation is necessary in two cases:
 
 * if you use a recipient table other than the one provided by Adobe Campaign,
@@ -94,7 +96,9 @@ To do this, apply the following steps:
 
    Click **[!UICONTROL Define new additional fields]** to select the dimension you want to target in your delivery.
 
-   By default, exclusion management is stored in the same tables as messages. Check the **Generate a storage schema for tracking** box if you want to configure storage for the tracking linked to your target mapping.
+   By default, exclusion management is stored in the same table as messages.
+
+   Check the **Generate a storage schema for tracking** box if you want to configure storage for the tracking linked to your target mapping.
 
    ![](assets/mapping_diffusion_wizard_3.png)
    

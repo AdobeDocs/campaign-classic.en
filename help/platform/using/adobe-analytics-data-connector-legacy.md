@@ -11,6 +11,8 @@ hide: yes
 ---
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
 
+![](../../assets/common.svg)
+
 >[!IMPORTANT]
 >
 >Adobe Analytics Data Connector is now deprecated. Deprecated capabilities are still available, but they will not be further enhanced, nor supported. Learn more [in this page](../../rn/using/deprecated-features.md).
@@ -24,8 +26,6 @@ hide: yes
 Data Connector (previously known as Adobe Genesis) allows Adobe Campaign and Adobe Analytics interact through the **Web Analytics connectors** package. It forwards data to Adobe Campaign in the form of segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics - Data connector.
 
 Using Data connector, Adobe Campaign has a way of measuring internet audience (Web Analytics). Thanks to these integrations, Adobe Campaign can recover data on visitor behavior for one or more sites following a marketing campaign, and (after analysis) run re-marketing campaigns with a view to converting them into buyers. Conversely, the Web analytics tools enable Adobe Campaign to forward indicators and campaign attributes to their platforms.
-
-For more information on the implementation of the integration Adobe Analytics with Adobe Campaign, refer to this [documentation](https://helpx.adobe.com/marketing-cloud/how-to/analytics-ac.html).
 
 The action fields for each tool are as follows:
 

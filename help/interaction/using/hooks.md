@@ -9,6 +9,8 @@ exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 ---
 # Hooks{#hooks}
 
+![](../../assets/v7-only.svg)
+
 Hooks in Interaction let you modify the **standard engine behavior**.
 
 The **[!UICONTROL Target loading]** and **[!UICONTROL Proposition post-processing]** hooks are configured, in Adobe Campaign, in the offer space:

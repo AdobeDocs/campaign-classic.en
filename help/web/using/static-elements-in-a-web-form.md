@@ -9,6 +9,8 @@ exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 ---
 # Static elements in a web form{#static-elements-in-a-web-form}
 
+![](../../assets/common.svg)
+
 You can include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. These elements are created via the first button in the toolbar, by selecting **[!UICONTROL Static elements]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)

@@ -9,6 +9,8 @@ exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
 ---
 # Integration via SOAP (server-side){#integration-via-soap-server-side}
 
+![](../../assets/v7-only.svg)
+
 The SOAP web services provided for offer management are different from those usually used in Adobe Campaign. They can be accessed via the interaction URL described in the previous section and let you present or update offers for a given contact.
 
 ## Offer proposition {#offer-proposition}

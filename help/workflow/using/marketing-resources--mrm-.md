@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Marketing Resources (MRM){#marketing-resources-mrm}
 
+![](../../assets/common.svg)
+
 The workflows detailed below are installed with the **Marketing resources (MRM)** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
 
 <table> 

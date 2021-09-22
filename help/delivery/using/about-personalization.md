@@ -9,6 +9,8 @@ exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 ---
 # Get started with personalization{#about-personalization}
 
+![](../../assets/common.svg)
+
 Messages delivered by Adobe Campaign can be personalized in several different ways, concerning the content or the appearance of messages. These ways can be combined according to criteria taken particularly from the recipient profiles. For email deliveries, you can define the elements and personalization conditions of a delivery directly in JavaScript from the **[!UICONTROL Source]** tab of the message. In general, Adobe Campaign allows you to:
 
 * Personalize the message format. See [Message content](defining-the-email-content.md#message-content).

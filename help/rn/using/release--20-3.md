@@ -9,6 +9,8 @@ exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
 ---
 # Release 20.3{#release-20-3}
 
+![](../../assets/v7-only.svg)
+
 ## ![](assets/do-not-localize/red_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
 _January 11, 2021_
@@ -22,9 +24,9 @@ _October 27, 2020_
 
 >[!CAUTION]
 >
-> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/using/ims-updates.md)
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
+> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **September 2021**. Hosted environments benefit from an extension until  **Febuary 23, 2022**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to Febuary 2022. You must provide [the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
 
 **What's new?**
 
@@ -160,3 +162,4 @@ On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
 * Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
 * Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
 * Fixed an issue in the enrichment activity where non-admin users defined instance variables. (NEO-25653)
+* Fixed a regression that could block the workflow data export to an FDA database (Teradata, Snowflake).

@@ -9,6 +9,8 @@ exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 ---
 # Advanced capabilities{#advanced-functionalities}
 
+![](../../assets/common.svg)
+
 As a technical user, in addition to [general properties](../../reporting/using/properties-of-the-report.md), you can leverage advanced capabilities to configure your reports, such as:
 
 * Create complex queries to process data in a **Script** activity. [Learn more](#script-activity)

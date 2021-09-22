@@ -9,6 +9,8 @@ exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 ---
 # Workflow life cycle {#workflow-life-cycle}
 
+![](../../assets/common.svg)
+
 The workflow cycle has three main steps.
 
 * **Being edited**
@@ -35,4 +37,4 @@ The workflow is started and is waiting for an operator belonging to the group sp
 
 Operator management is detailed in this [section](../../platform/using/access-management.md).
 
-For more on how to monitor you workflows, refer to [this section](../../workflow/using/monitoring-workflow-execution.md).
+For more on how to monitor you workflows, refer to [this section](monitoring-workflow-execution.md).

@@ -9,6 +9,8 @@ exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 ---
 # Defining the target population {#defining-the-target-population}
 
+![](../../assets/common.svg)
+
 ## About target populations {#about-target-populations}
 
 For each delivery, you can define several types of target populations:

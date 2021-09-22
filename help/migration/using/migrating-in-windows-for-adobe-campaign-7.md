@@ -9,6 +9,8 @@ exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 ---
 # Migrating in Windows for Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}
 
+![](../../assets/v7-only.svg)
+
 ## General procedure {#general-procedure}
 
 For Windows, the migration steps are as follows:

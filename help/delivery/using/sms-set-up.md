@@ -9,6 +9,8 @@ exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 ---
 # Configure SMS channel {#setting-up-sms-channel}
 
+![](../../assets/common.svg)
+
 To send to a mobile phone, you need:
 
 1. An external account specifying a connector and type of message.

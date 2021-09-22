@@ -9,6 +9,8 @@ exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 ---
 # Managing privacy requests {#privacy-requests}
 
+![](../../assets/common.svg)
+
 For a general presentation on Privacy Management, refer to [this section](../../platform/using/privacy-management.md).
 
 This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regulations, see [this section](../../platform/using/privacy-management.md#privacy-management-regulations).

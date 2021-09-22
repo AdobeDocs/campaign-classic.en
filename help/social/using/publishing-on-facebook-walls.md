@@ -9,6 +9,8 @@ exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
 ---
 # Publishing on Facebook walls{#publishing-on-facebook-walls}
 
+![](../../assets/v7-only.svg)
+
 In order for Adobe Campaign to be able to send publications to Facebook walls, you need to delegate the write access for these pages to Adobe Campaign. This involves the following configuration steps:
 
 1. Create a Facebook account with one or more pages.

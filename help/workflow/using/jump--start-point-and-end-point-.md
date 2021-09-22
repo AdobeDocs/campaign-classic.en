@@ -9,6 +9,8 @@ exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 ---
 # Jump (start point and end point){#jump-start-point-and-end-point}
 
+![](../../assets/common.svg)
+
  **[!UICONTROL Jump]** -type graphical objects are used to improve the readability of a complex diagram, particularly one with crossing transitions.
 
 Jumps are transitions without arrows.
@@ -23,4 +25,4 @@ You can insert several start point and end point jumps in the same workflow. The
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-To improve the readability of the diagram, you can change the image associated with jumps to display the related number. See [Managing activity images](../../workflow/using/managing-activity-images.md).
+To improve the readability of the diagram, you can change the image associated with jumps to display the related number. See [Managing activity images](managing-activity-images.md).

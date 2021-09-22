@@ -10,19 +10,19 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
-* **[June Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements and fixes in the Release Notes
+* **[September Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements and fixes in the Release Notes
 
-* **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
+* **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** and **[technote](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
 
-* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](technotes/ims-updates.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**
+* **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](technotes/using/ims-updates.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**
 
 * **[Remove incorrect hard bounces](delivery/using/update-bounce-qualification.md)**<br/> Learn how to update incorrect hard bounces after Apple outage
 
-* **[Secure your Campaign instances](technotes/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform
+* **[Secure your Campaign instances](technotes/using/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform
 
-* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life. Learn how to migrate to Adobe I/O.
+* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life: you need to migrate to Adobe I/O.
 
-[More updates](/help/rn/using/documentation-updates.md)
+[More updates](rn/using/documentation-updates.md)
 
 ## Top pages
 
@@ -74,7 +74,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 | Useful pages | Resources for developers |
 |---|---|
-| [Release notes](/help/rn/using/latest-release.md) | [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
+| [Release notes](rn/using/latest-release.md) | [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [How-to videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
 | [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] upgrade](rn/using/gs-overview.md) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |

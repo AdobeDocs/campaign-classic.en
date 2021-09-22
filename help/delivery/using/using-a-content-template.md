@@ -9,6 +9,8 @@ exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 ---
 # Using a content template{#using-a-content-template}
 
+![](../../assets/common.svg)
+
 ## About content templates {#about-content-templates}
 
 Content templates can be referenced and used in deliveries directly. Refer to [Creating a delivery via content management](#creating-a-delivery-via-content-management)

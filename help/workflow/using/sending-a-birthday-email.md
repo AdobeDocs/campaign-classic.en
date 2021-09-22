@@ -9,6 +9,8 @@ exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 ---
 # Sending a birthday email{#sending-a-birthday-email}
 
+![](../../assets/common.svg)
+
 ## Introduction {#introduction}
 
 This use case presents how to plan sending a recurring email to a list of recipients on the day of their birthday.
@@ -196,7 +198,7 @@ Add a **Recurring delivery** activity based on the birthday email template that 
 
 >[!CAUTION]
 >
->For the workflows to execute, the technical workflows relating to the Campaign package must be started. For more on this, refer to the [List of technical workflows](../../workflow/using/about-technical-workflows.md) section.
+>For the workflows to execute, the technical workflows relating to the Campaign package must be started. For more on this, refer to the [List of technical workflows](about-technical-workflows.md) section.
 >
 >If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) section.
 

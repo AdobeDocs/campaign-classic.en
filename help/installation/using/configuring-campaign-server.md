@@ -9,6 +9,8 @@ exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 ---
 # Get started with Campaign server configuration{#gs-campaign-server-config}
 
+![](../../assets/v7-only.svg)
+
 This chapter details server-side configurations that can be performed to match your needs and your environment specificities.
 
 ## Restrictions

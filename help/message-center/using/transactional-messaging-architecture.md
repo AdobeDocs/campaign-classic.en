@@ -9,6 +9,8 @@ exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 ---
 # Transactional messaging architecture {#transactional-messaging-architecture}
 
+![](../../assets/v7-only.svg)
+
 Transactional messaging relies on a specific architecture, which is made up of several instances:
 
 * A **control instance**, on which the message templates are created.

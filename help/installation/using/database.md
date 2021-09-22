@@ -9,6 +9,8 @@ exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
 ---
 # Database{#database}
 
+![](../../assets/v7-only.svg)
+
 The database server can run on any given operating system regardless of the operating system used by the application server or servers, as long as there is network connectivity between them.
 
 The operating system of the database server is not important so long as connectivity with the different components of Adobe Campaign is available.

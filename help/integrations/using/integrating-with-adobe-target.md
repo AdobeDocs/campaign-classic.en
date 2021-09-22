@@ -9,11 +9,13 @@ exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 ---
 # Integrating with Adobe Target{#integrating-with-adobe-target}
 
+![](../../assets/v7-only.svg)
+
 Integration between Adobe Campaign and Adobe Target (Classic and Standard) within Adobe Experience Cloud allows you to include an offer from Adobe Target in an Adobe Campaign email delivery.
 
 The operating principle is as follows: when a recipient opens an email sent via Adobe Campaign, a call to Adobe Target allows you to display a dynamic version of the content. This dynamic version is computed depending on the rules specified beforehand when creating the email.
 
-Learn more about Adobe Campaign and Adobe Target integration with [this four tips and tricks](https://www.adobe.com/content/dam/www/us/en/marketing/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf).
+Learn more about Adobe Campaign and Adobe Target integration with [this four tips and tricks](https://business.adobe.com/content/dam/dx/us/en/products/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf).
 >[!NOTE]
 >
 >The integration only supports static images. The rest of the content cannot be personalized.

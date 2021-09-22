@@ -9,6 +9,8 @@ exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 ---
 # Inbound SMS{#inbound-sms}
 
+![](../../assets/common.svg)
+
 The **Inbound SMS** activity lets you download and process text messages from an external account.
 
 ## Properties {#properties}
@@ -25,4 +27,4 @@ The first tab of the **Inbound SMS** activity lets you enter the routing paramet
 
 1. **[!UICONTROL Expiration]**
 
-The **[!UICONTROL Script]**, **[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs are detailed in [Inbound Emails](../../workflow/using/inbound-emails.md).
+The **[!UICONTROL Script]**, **[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs are detailed in [Inbound Emails](inbound-emails.md).

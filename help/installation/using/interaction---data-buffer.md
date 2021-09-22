@@ -9,6 +9,8 @@ exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 ---
 # Interaction - Data buffer{#interaction-data-buffer}
 
+![](../../assets/v7-only.svg)
+
 You can configure a data buffer zone to increase inbound Interaction performance by desynchronizing offer proposition calculations. This configuration is to be carried out in the instance's own configuration file (config-Instance.xml). 
 
 In Adobe Campaign, a **data buffer zone** has been introduced in the Interaction module. This allows you to **increase performance** of inbound Interaction by desynchronizing stock and offer calculations.

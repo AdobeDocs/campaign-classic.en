@@ -9,6 +9,8 @@ exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
 ---
 # Template management{#template-management}
 
+![](../../assets/common.svg)
+
 The Digital Content Editor offers **standard templates** for Web applications and deliveries.
 
 When creating a Landing Page type Web application, the user can choose one of these templates. You may also import an HTML template created outside of Adobe Campaign.

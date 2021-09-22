@@ -9,6 +9,8 @@ exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 ---
 # Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
 
+![](../../assets/v7-only.svg)
+
 ## About built-in packages {#campaign-standard-packages}
 
 Built-in packages contain a set of features that can be installed according to your needs and depending on your contract. The full list of Campaign built-in packages is available below.
@@ -23,7 +25,7 @@ Built-in packages contain a set of features that can be installed according to y
 
 To install a built-in package:
 
-1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
+1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Import package]** in the Adobe Campaign client console.
 1. Select **[!UICONTROL Install a standard package]**.
 1. In the package list, check the packages you want to install.
    >[!NOTE]
@@ -143,7 +145,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Response Manager<br /> </td> 
-   <td> Measures the success and profitability of marketing campaigns or offer propositions for all communication channels.  Optional. <a href="../../campaign/using/about-response-manager.md">Learn More</a> <br /> </td> 
+   <td> Measures the success and profitability of marketing campaigns or offer propositions for all communication channels.  Optional. <a href="../../response/using/about-response-manager.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -153,7 +155,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Campaign Optimization<br /> </td> 
-   <td> Controls, filters and monitors the sending of deliveries so that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. Optional. <a href="../../campaign/using/about-campaign-typologies.md">Learn More</a> <br /> </td> 
+   <td> Controls, filters and monitors the sending of deliveries so that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. Optional. <a href="../../campaign-opt/using/about-campaign-typologies.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -173,7 +175,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Central/local Marketing (Distributed Marketing)<br /> </td> 
-   <td> Implements cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Optional. <a href="../../campaign/using/about-distributed-marketing.md">Learn More</a><br /> </td> 
+   <td> Implements cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Optional. <a href="../../distributed/using/about-distributed-marketing.md">Learn More</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 

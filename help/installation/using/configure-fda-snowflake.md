@@ -9,6 +9,8 @@ exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 ---
 # Configure access to Snowflake {#configure-access-to-snowflake}
 
+![](../../assets/v7-only.svg)
+
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Snowflake].
 
 1. Configure [!DNL Snowflake] on [CentOS](#snowflake-centos), [Windows](#snowflake-windows) or [Debian](#snowflake-debian)

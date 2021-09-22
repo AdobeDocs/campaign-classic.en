@@ -9,6 +9,8 @@ exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
 ---
 # Creating a test environment{#creating-a-test-environment}
 
+![](../../assets/v7-only.svg)
+
 To create a test environment (sandbox mode), apply the following steps:
 
 >[!IMPORTANT]

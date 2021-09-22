@@ -9,6 +9,8 @@ exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 ---
 # Defining web forms properties{#defining-web-forms-properties}
 
+![](../../assets/common.svg)
+
 Web forms are fully configurable and personalizable to satisfy your requirements. The parameters must be entered in the properties window.
 
 The properties window is accessible via the **[!UICONTROL Properties]** button in the toolbar of the Web form. This window lets you access a range of settings specific to the Web form. Some settings may stem from template configuration. 

@@ -9,6 +9,8 @@ exl-id: 3a127bbe-9abb-4b5b-bd7e-e1ea550929ba
 ---
 # Console update{#console-update}
 
+![](../../assets/v7-only.svg)
+
 If you selected the **[!UICONTROL Do not request console update]** option and you wish to reactivate the update request, apply the following procedure:
 
 1. Open the editor of the registry database using the **regedit** command in the Windows **[!UICONTROL Start > Execute]** menu.

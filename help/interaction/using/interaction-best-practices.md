@@ -9,6 +9,8 @@ exl-id: 98413cde-50c9-416c-8316-85837f724c27
 ---
 # Interaction best practices{#interaction-best-practices}
 
+![](../../assets/v7-only.svg)
+
 ## General recommendations {#general-recommendations}
 
 This section presents the best practice approach to manage the Interaction module in Adobe Campaign Classic, including eligibility rules, pre-defined filters, workflow activities and database options.

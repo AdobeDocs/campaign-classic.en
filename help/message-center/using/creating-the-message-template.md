@@ -9,6 +9,8 @@ exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 ---
 # Design transactional message templates {#creating-the-message-template}
 
+![](../../assets/v7-only.svg)
+
 To make sure each event can be changed into a personalized message, you need to create a message template to match each event type.
 
 >[!IMPORTANT]

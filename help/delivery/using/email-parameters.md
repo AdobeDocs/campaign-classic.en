@@ -9,6 +9,8 @@ exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 ---
 # Email parameters {#email-parameters}
 
+![](../../assets/common.svg)
+
 This section presents the options and parameters that are specific to email delivery.
 
 ## Email BCC {#email-bcc}
@@ -24,6 +26,10 @@ For more information on Email BCC configuration and best practices, refer to [th
 >Email BCC is an optional capability. Please check your license agreement and contact your account executive to activate it.
 
 When creating a new delivery or delivery template, Email BCC is not enabled by default. You need to enable it manually at the email delivery or delivery template level.
+
+>[!NOTE]
+>
+>If you are using Email BCC with Enhanced MTA, this option is automatically enabled for all deliveries.
 
 To enable Email BCC for an email delivery template, follow the steps below:
 

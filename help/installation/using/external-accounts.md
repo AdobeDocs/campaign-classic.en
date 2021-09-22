@@ -9,6 +9,8 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 ---
 # External accounts{#external-accounts}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems, you can create new external accounts.
 
 External accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.
@@ -86,7 +88,6 @@ The following channels can be configured:
 * [iOS channel](../../delivery/using/configuring-the-mobile-application.md)
 * [Android channel](../../delivery/using/configuring-the-mobile-application-android.md)
 
-
 ### Execution instance  {#execution-instance-external-account}
 
 If you have a broken-down architecture, you need to specify the execution instances linked to the control instance and connect them. Transactional message templates are deployed to the execution instance
@@ -106,7 +107,6 @@ If you have a broken-down architecture, you need to specify the execution instan
   Password of the account as defined in the operator folder.
 
 For more information on this configuration, refer to this [page](../../message-center/using/configuring-instances.md#control-instance).
-
 
 ## Access to External Systems External Accounts 
 

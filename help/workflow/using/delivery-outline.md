@@ -9,6 +9,8 @@ exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 ---
 # Delivery outline{#delivery-outline}
 
+![](../../assets/common.svg)
+
 The **delivery outline** lets you use an outline in a campaign workflow. The outline must have been created in the campaign beforehand.
 
 For more information on delivery outlines in Adobe Campaign, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).

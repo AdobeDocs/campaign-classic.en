@@ -9,6 +9,8 @@ exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 ---
 # Content editing best practices{#content-editing-best-practices}
 
+![](../../assets/common.svg)
+
 To ensure the editor's optimal operation, we recommend observing the following guidelines:
 
 * Before **importing an HTML page template** in Adobe Campaign, please make sure the template opens and displays correctly in the various browsers.

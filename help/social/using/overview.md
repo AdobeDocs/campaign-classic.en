@@ -9,6 +9,8 @@ exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
 ---
 # Overview{#overview}
 
+![](../../assets/v7-only.svg)
+
 Social Marketing lets you send deliveries to your various Facebook pages and Twitter accounts as opposed to recipient profiles. On Facebook, delivery content is displayed in the form of publications on page walls and will also appear in the news feed of all page fans. On Twitter, delivery content is displayed as tweets and will appear on the home page of account followers. You can also send direct messages to the account followers which you collect.
 
 >[!IMPORTANT]

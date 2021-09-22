@@ -9,6 +9,8 @@ exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
 ---
 # Offer analysis report{#offer-analysis-report}
 
+![](../../assets/v7-only.svg)
+
 The **[!UICONTROL Offer analysis]** report provides you with an overview of the number of accepted or rejected propositions.
 
 >[!NOTE]

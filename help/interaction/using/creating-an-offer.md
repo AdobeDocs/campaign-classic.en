@@ -9,6 +9,8 @@ exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 ---
 # Creating an offer{#creating-an-offer}
 
+![](../../assets/v7-only.svg)
+
 ## Creating the offer {#creating-the-offer}
 
 To create an offer, apply the following steps:
@@ -175,6 +177,6 @@ You can create hypotheses on your offer propositions. This lets you determine th
 
 Hypotheses carried out on an offer proposition are referenced in their **[!UICONTROL Measure]** tab.
 
-Creating hypotheses is detailed in [this page](../../campaign/using/about-response-manager.md).
+Creating hypotheses is detailed in [this page](../../response/using/about-response-manager.md).
 
 ![](assets/offer_hypothesis_001.png)

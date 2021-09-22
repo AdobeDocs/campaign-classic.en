@@ -9,6 +9,8 @@ exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 ---
 # Configure online surveys{#configuring-surveys}
 
+![](../../assets/v7-only.svg)
+
 ## Survey properties {#survey-properties}
 
 Online surveys are fully configurable and customizable to satisfy your requirements. The parameters must be entered in the properties window.

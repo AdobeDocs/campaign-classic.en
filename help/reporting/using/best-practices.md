@@ -9,6 +9,8 @@ exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 ---
 # Reporting best practices{#best-practices-reporting}
 
+![](../../assets/common.svg)
+
 ## Analyzing needs{#analyzing-needs}
 
 Using a reporting tool depends on the volume of data to manipulate, its complexity, and on the type of reporting to be set up.

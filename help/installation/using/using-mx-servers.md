@@ -10,6 +10,8 @@ exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 ---
 # Using MX servers with Campaign {#using-mx-servers}
 
+![](../../assets/v7-only.svg)
+
 Learn how MX servers work with Adobe Campaign Classic.
 
 ## MX servers {#mx-servers}
@@ -81,4 +83,4 @@ The Custom mode is for advanced clients who wish to set their own MX rules. When
 * [MX configuration](../../installation/using/email-deliverability.md#mx-configuration)
 * [Technical email configuration](../../installation/using/email-deliverability.md)
 * [Understand Delivery Failures](../../delivery/using/understanding-delivery-failures.md)
-* [Campaign Classic - Technical Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/acc-technical-recommendations.html)
+* [Campaign Classic - Technical Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)
