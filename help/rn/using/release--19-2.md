@@ -143,7 +143,7 @@ _December 2, 2019_
 
 _Deprecated systems_
 
-The following systems are now [deprecated](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) for Campaign Classic implementations:
+The following systems are now [deprecated](deprecated-features.md) for Campaign Classic implementations:
 * Apache 2.2 
 * Centos 6 
 

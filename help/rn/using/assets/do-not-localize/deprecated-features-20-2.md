@@ -171,7 +171,7 @@ Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the fo
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following tools.
 
-* Java JDK 7. [Learn more](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Java JDK 7. [Learn more](https://www.oracle.com/technetwork/java/javase/eol-135779.html)
 * Libre Office 3.5 / 4.3 / 5.x, except when embeded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### Database engines {#dbe-eol}
@@ -185,14 +185,14 @@ Refer to [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md)
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following FDA Servers.
 
 * PostgreSQL 9.3. [Learn more](https://www.postgresql.org/support/versioning)
-* MySQL 5.5. [Learn more](http://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5. [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* MySQL 5.5. [Learn more](https://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5. [Learn more](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Teradata 14 – 14.1. [Learn more](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic is not compatible with the following servers in Federated Data Access (FDA).
 
-* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
 * PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. More recent versions of PostgreSQL are supported through Federated Data Access (FDA). [Learn more](https://www.postgresql.org/support/versioning)
 * MSSQL 2000, 2005, 2008 R2. More recent versions of SQL Server are supported through Federated Data Access (FDA). [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1044)
 * MySQL 5.1. More recent versions of MySQL are supported through Federated Data Access (FDA). [Learn more](https://en.wikipedia.org/wiki/InfiniDB)
