@@ -5,7 +5,7 @@ description: Learn how to use Campaign Explorer
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
+exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 ---
 # Use Adobe Campaign explorer {#using-adobe-campaign-explorer}
 

@@ -9,7 +9,7 @@ exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 ---
 # Validate, send and track messages {#validate-send-track}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Testing and validation {#test-and-validate-before-sending}
 

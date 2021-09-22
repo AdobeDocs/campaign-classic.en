@@ -9,7 +9,7 @@ exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 ---
 # Key concepts {#key-concepts}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Learn key steps to start with Adobe Campaign.
 
@@ -120,7 +120,7 @@ Learn how to [create a web form](../../web/using/about-web-forms.md): design, te
 
 Adobe constantly evaluates capabilities in the product and over time plans to replace capabilities with more powerful versions, or decides to re-implement selected parts to be better prepared for future expectations or extensions. As Campaign works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only.
 
-[Click here to learn more]((../../rn/using/deprecated-features.md).
+[Click here to learn more](../../rn/using/deprecated-features.md).
 
 ## Are there new documentation updates and help materials released? {#are-there-new-documentation-updates-and-help-materials-released-}
 

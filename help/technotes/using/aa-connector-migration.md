@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Migrate to the Adobe Analytics Connector
-description:  Campaign - Analytics Connector FAQ
+description: Campaign - Analytics Connector FAQ
+exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
 ---
-# How to migrate to Adobe Analytics Connector {#acc-aa-faq}
+# How to migrate existing Genesis integrations to Adobe Analytics Connector {#acc-aa-faq}
 
 ![](../../assets/v7-only.svg)
 
@@ -44,12 +45,10 @@ Learn how to check your version [in this section](../../platform/using/launching
 
 You need to upgrade to Campaign 21.1.3 (or more) **before March 1, 2022**.
 
-As a hosted customer, Adobe will be working with you to upgrade your instance(s) to the newer version.
+As a hosted customer, Adobe will be working with you to upgrade your instance(s) to the newer version. You will then be able to use [Adobe Analytics connector](../../platform/using/adobe-analytics-connector.md).
 
 As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new integration.
-
-Once all instances are upgraded, you will be able to [implement the new integration](../../platform/using/adobe-analytics-connector.md) to Adobe Analytics Connector, and ensure a seamless transition.
-
+Once all instances are upgraded, you will be able to [implement the new integration](../../platform/using/adobe-analytics-provisioning.md) to Adobe Analytics Connector, and ensure a seamless transition.
 
 ## FAQ{#faq-aa}
 

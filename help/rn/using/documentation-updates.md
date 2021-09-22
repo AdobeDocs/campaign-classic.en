@@ -15,6 +15,19 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## August 2021{#aug-2021}
+
+Added new workflow activity: Change Data Source - [Learn more](../../workflow/using/change-data-source.md)
+
+Applicability badges have been added to the documentation pages: **Applies to v7** for Campaign Classic v7 capabilities only, and **Applies to v7 & v8** for common capabilities.
+
+Added a note about the integration between Campaign and AEM Assets which has been decomissonned starting Adobe Experience Manager 6.4. [Learn more](../../integrations/using/configuring-access-to-assets.md)
+
+Reports and web applications screenshots and parameters have been updated following Adobe Flash removal.
+
+The **Gauge** chart type has been removed.
+
+
 ## July 2021 {#july-2021}
 
 [Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330) has moved to General Availability (GA).
@@ -501,7 +514,7 @@ Audit trail - [Read more](../../production/using/audit-trail.md)
 
 A new Build upgrade FAQ has been created. [Read more](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
-The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The [19.0 Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html) has been archived.
+The [Compatibility matrix](compatibility-matrix.md) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The 19.0 Compatibility matrix has been archived.
 
 The 'Deprecated and Removed Features in Campaign Classic' page has been updated. [Read more](deprecated-features.md)
 
@@ -560,7 +573,7 @@ The following technotes have been updated: [SMS connector protocol and settings]
 
 The Technical workflows section has been updated. [Read more](../../workflow/using/about-technical-workflows.md)
 
-The Campaign Domain Name Setup procedure has been improved and updated. [Read more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
+The Campaign Domain Name Setup procedure has been improved and updated.
 
 The Migration procedure for Android Apps from Google Cloud Messaging (GCM) to Firebase Cloud Messaging (FCM) has been updated. [Read more](https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html)
 

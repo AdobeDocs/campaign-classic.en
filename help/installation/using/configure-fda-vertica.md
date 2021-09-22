@@ -1,13 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Vertica
 description: Learn how to configure access to Vertica in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
 ---
-
 # Configure access to Vertica {#configure-fda-vertica}
 
 ![](../../assets/v7-only.svg)

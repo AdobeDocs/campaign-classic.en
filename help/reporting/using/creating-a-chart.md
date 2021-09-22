@@ -35,7 +35,7 @@ To create a chart in a report, apply the following steps:
     
       ![](assets/reporting_graph_add_filter.png)
 
-    * To used contextual data, select this option and click the **[!UICONTROL Advanced settings...]** link. Then select the data which the statistics will concern.
+    * To used contextual data, select **[!UICONTROL Context data]** from the **[!UICONTROL Source]** drop-down and click the **[!UICONTROL Advanced settings...]** link. Then select the data which the statistics will concern.
     
       ![](assets/reporting_graph_from_context.png)
 

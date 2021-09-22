@@ -1,13 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configure access to Google BigQuery
 description: Learn how to configure access to Google BigQuery in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 ---
-
 # Configure access to Google BigQuery {#configure-fda-google-big-query}
 
 ![](../../assets/v7-only.svg)

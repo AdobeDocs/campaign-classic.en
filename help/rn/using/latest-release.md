@@ -13,15 +13,65 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release**.
 
->[!NOTE]
->
->Campaign **General Availability (GA) builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330).
+Understand Campaign build statuses in [this page](rn-overview.md). 
 
-## ![](assets/do-not-localize/green_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
+
+_September 7, 2021_
+
+**Security enhancement**
+
+* Fixed a security issue to reinforce protection against directory traversal attacks. (NEO-28547)
+
+**Improvements**
+
+* Following its end of life, Flash has been removed from all related Campaign features and components, and replaced with HTML5. The **Gauge** type of chart has been removed. (NEO-30330) [Read more](../../reporting/using/creating-a-chart.md)
+* When installing the client console on Windows, the installer now checks if there is a parent registry node and creates one if it is missing. This prevents potential issues when launching the console. (NEO-34854)
+* The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded. 
+
+**Other changes**
+
+* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
+* Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
+* A guardrail has been added to only allow the [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) to run on the marketing instance.
+* The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
+* Missing database indexes were added to the following schemas to prevent database update issues: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+
+**Patches**
+
+* Fixed an issue which prevented the Hot clicks report from working when offers were linked to the delivery. (NEO-26295)
+* Fixed an issue with the **Sub-worfklow** activity when its execution did not generate an output table. (NEO-36242)
+* Fixed various issues when exporting the **Descriptive analysis** report to PDF. (NEO-25847)
+* Fixed an issue which could lead to deliveries failing when using an external mail delivery. (NEO-37435)
+* Fixed an error when connecting to Microsoft CRM using web API. The error message has been removed since functionalities were not impacted.
+* Fixed a tracking log deduplication issue when the mid server was set as a relay between tracking and marketing servers. (NEO-36285)
+* Fixed a regression which prevented Vault from being used as a specific code store.
+* Fixed an issue which prevented you from using variables in an **Enrichment** workflow activity when the incoming transition was from an FDA data source.
+* Fixed an issue that could lead to broken URLs in email messages.
+
+## ![](assets/do-not-localize/orange_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
 _June 5, 2021_
 
 **What's new?**
+
+
+<table>
+<thead>
+<tr>
+<th><strong>New workflow activity: Change Data Source</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The new <b>Change Data Source</b> workflow activity allows you to change the data source of a workflow's working table. This provides enhanced flexibility in managing data across different data sources (FDA & local database).</p>
+<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
+<p>For more information, refer to the <a href="../../workflow/using/change-data-source.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
