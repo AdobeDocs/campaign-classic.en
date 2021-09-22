@@ -9,6 +9,8 @@ exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 ---
 # Communication channels{#communication-channels}
 
+![](../../assets/common.svg)
+
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). These messages are designed and sent though deliveries, and can be personalized for each recipient.
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery wizard. This access point leads to multiple capabilities covered by Adobe Campaign.

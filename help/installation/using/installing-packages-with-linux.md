@@ -9,6 +9,8 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 ---
 # Installing packages with Linux{#installing-packages-with-linux}
 
+![](../../assets/v7-only.svg)
+
 For a Linux 32 bit platform, install Adobe Campaign 32 bit. For a Linux 64 bit platform, install Adobe Campaign 64 bit.
 
 For each of these versions, Adobe Campaign comes with one package: **nlserver**. This package contains the binaries and configuration files for a given version.
@@ -275,7 +277,7 @@ When using Oracle with Adobe Campaign, you need to configure the Oracle client l
   ln -s libclntsh.so.10.1 libclntsh.so
   ```
 
-If you encounter a problem, make sure the packages listed in the [Oracle installation documentation](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) are correctly installed.
+If you encounter a problem, make sure the packages listed in the [Oracle installation documentation](https://docs.oracle.com/) are correctly installed.
 
 ## Installation checks {#installation-checks}
 

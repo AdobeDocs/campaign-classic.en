@@ -9,6 +9,8 @@ exl-id: 72959141-ca18-4512-80c7-239efd31f711
 ---
 # Translating a web form{#translating-a-web-form}
 
+![](../../assets/common.svg)
+
 It's possible to localize a Web application into several languages.
 
 You can carry out translations directly in the Adobe Campaign console (refer to [Managing translations in the editor](#managing-translations-in-the-editor)), or export and import strings to externalize translation (refer to [Externalizing translation](#externalizing-translation)).

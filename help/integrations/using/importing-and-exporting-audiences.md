@@ -9,6 +9,8 @@ exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 ---
 # Importing and exporting audiences{#importing-and-exporting-audiences}
 
+![](../../assets/common.svg)
+
 ## Importing an audience {#importing-an-audience}
 
 You can import audiences/segments from Audience manager or People core service into Adobe Campaign via the recipient lists.

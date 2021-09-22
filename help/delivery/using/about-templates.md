@@ -9,6 +9,8 @@ exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 ---
 # About templates{#about-templates}
 
+![](../../assets/common.svg)
+
 A delivery configuration can be saved in a delivery template in order to be re-used. The template may contain a complete or partial configuration of the delivery.
 
 The delivery template may be executed manually, as described in this chapter, or according to an event (launched at a set time, on arrival of a file at a server, etc.). Delivery templates can be configured via the **[!UICONTROL Resources > Templates > Delivery templates]** node in the tree.

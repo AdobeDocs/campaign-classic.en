@@ -9,6 +9,8 @@ exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 ---
 # Simulation scope{#simulation-scope}
 
+![](../../assets/v7-only.svg)
+
 ## Definition of the scope {#definition-of-the-scope}
 
 Open the **[!UICONTROL Scope]** tab to choose your settings.

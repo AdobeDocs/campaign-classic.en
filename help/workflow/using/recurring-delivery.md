@@ -9,6 +9,8 @@ exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 ---
 # Recurring delivery{#recurring-delivery}
 
+![](../../assets/common.svg)
+
 A **[!UICONTROL Recurring delivery]** activity lets you configure a delivery template occurrence that is specific to a campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#recurring-delivery-video)
@@ -25,7 +27,7 @@ To do this:
 
 The configuration process for this activity is similar to that of creating a delivery template in terms of the options available. For more on this, refer to this [section](../../delivery/using/about-templates.md).
 
-For an example of this activity being used, refer to this [section](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+For an example of this activity being used, refer to this [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## How to set up recurring delivery
 

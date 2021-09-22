@@ -9,6 +9,8 @@ exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 ---
 # Configuration principle{#configuration-principle}
 
+![](../../assets/v7-only.svg)
+
 The Adobe Campaign platform is based on the concept of instances, similar to that of virtual hosts used by Apache. This mode of operation lets you share a server by assigning several instances to it. Instances are completely separate from each other and operate with their own database and configuration file.
 
 For a given server, there are two elements that are common to all Adobe Campaign instances:

@@ -9,6 +9,8 @@ exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 ---
 # Unzip or decrypt a file {#unzipping-or-decrypting-a-file-before-processing}
 
+![](../../assets/common.svg)
+
 Adobe Campaign lets you import zipped or encrypted files. Before they can be read in a [Data loading (file)](../../workflow/using/data-loading--file-.md) activity, you can define a pre-processing to unzip or to decrypt the file.
 
 To be able to do so:
@@ -19,7 +21,7 @@ To be able to do so:
     >
     >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
     >
-    >Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+    >Note that your instance must be hosted on AWS and upgraded with the latest [Gold Standard](../../rn/using/gs-overview.md) build or the [latest GA build (21.1.3)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 1. If your installation of Adobe Campaign is hosted by Adobe, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have the necessary utilities installed on the server.
 1. If your installation of Adobe Campaign is on premise, install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.

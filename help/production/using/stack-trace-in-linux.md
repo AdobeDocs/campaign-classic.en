@@ -9,6 +9,8 @@ exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
 ---
 # Stack trace in Linux{#stack-trace-in-linux}
 
+![](../../assets/v7-only.svg)
+
 A **stack trace** represents a trace contained in a **core** type file. This file is generated in the event of a machine error. It can identify the origin of the error.
 
 >[!NOTE]

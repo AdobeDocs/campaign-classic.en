@@ -9,6 +9,8 @@ exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 ---
 # Connection thresholds{#connection-thresholds}
 
+![](../../assets/v7-only.svg)
+
 For heavily loaded servers, the connection threshold might be exceeded. In any event, it is useful to find out why.
 
 There are three different thresholds:

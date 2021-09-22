@@ -9,6 +9,8 @@ exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
 ---
 # About offers simulation{#about-offers-simulation}
 
+![](../../assets/v7-only.svg)
+
 The **Simulation** module lets you test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
 
 Simulation takes into account the contexts and eligibility rules previously applied to offers (refer to [Offer catalog overview](../../interaction/using/offer-catalog-overview.md)), as well as their presentation rules (refer to [Managing offer presentation](../../interaction/using/managing-offer-presentation.md)). This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.

@@ -9,6 +9,8 @@ exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 ---
 # Testing tracking{#testing-tracking}
 
+![](../../assets/common.svg)
+
 You can test tracking on mirror pages, email logs and links. To do this:
 
 1. Create a new email delivery that will be used for testing.

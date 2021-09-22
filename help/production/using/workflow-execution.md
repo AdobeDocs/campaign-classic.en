@@ -9,6 +9,8 @@ exl-id: b5aa5663-1902-4f50-9202-783e73a28838
 ---
 # Workflow execution{#workflow-execution}
 
+![](../../assets/v7-only.svg)
+
 The section below presents information on common issues related to workflows execution and how to troubleshoot them.
 
 For more information on workflows, refer to these sections:

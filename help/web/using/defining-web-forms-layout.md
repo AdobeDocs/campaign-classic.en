@@ -9,6 +9,8 @@ exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 ---
 # Defining web forms layout{#defining-web-forms-layout}
 
+![](../../assets/common.svg)
+
 ## Creating containers {#creating-containers}
 
 Containers let you combine the fields of a page and configure their layout; to organize the elements in the page.

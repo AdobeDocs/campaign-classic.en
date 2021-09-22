@@ -9,6 +9,8 @@ exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 ---
 # List update{#list-update}
 
+![](../../assets/common.svg)
+
 A **List update** activity stores the population specified in the transition in a list of recipients.
 
 ![](assets/s_user_segmentation_update_group.png)
@@ -35,7 +37,7 @@ In the following example, the list update activity follows a query which targets
 
 1. Add a **[!UICONTROL list update activity]** directly after a query then open it up to edit it.
 
-   For more on creating a query in a workflow, refer to [Query](../../workflow/using/query.md).
+   For more on creating a query in a workflow, refer to [Query](query.md).
 
 1. You may select a label for the activity.
 1. Select the **[!UICONTROL Create the list if necessary (Calculated name)]** option to show that the list will be created once the first workflow has been executed, then updated with the following executions.

@@ -9,6 +9,8 @@ exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
 # Validate the delivery {#validating-the-delivery}
 
+![](../../assets/common.svg)
+
 When a delivery has been created and configured, you must validate it before sending it to the main target.
 
 To do this:
@@ -187,7 +189,7 @@ You can view and edit the approval rules, their content, their order of executio
 
 You can create new rules and define new typologies from this node. These tasks are however reserved for expert users who know JavaScript.
 
-For more on typology rules, refer to [this page](../../campaign/using/about-campaign-typologies.md).
+For more on typology rules, refer to [this page](../../campaign-opt/using/about-campaign-typologies.md).
 
 To edit the current typology, click the **[!UICONTROL Edit link]** icon to the right of the **[!UICONTROL Typology]** field.
 

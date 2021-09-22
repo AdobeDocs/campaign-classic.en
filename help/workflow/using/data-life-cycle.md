@@ -9,6 +9,8 @@ exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 ---
 # Data life cycle {#data-life-cycle}
 
+![](../../assets/common.svg)
+
 ## Work table {#work-table}
 
 In workflows, data transported from one activity to another is stored in a temporary work table.
@@ -25,7 +27,7 @@ To do this, select the relevant menu:
 
   ![](assets/wf-right-click-display.png)
 
-  For more on this, refer to [Worktables and workflow schema](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema).
+  For more on this, refer to [Worktables and workflow schema](monitoring-workflow-execution.md#worktables-and-workflow-schema).
 
 * Analyzing the target
 

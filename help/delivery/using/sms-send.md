@@ -9,6 +9,8 @@ exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 ---
 # Send, monitor and track SMS deliveries{#sms-properties}
 
+![](../../assets/common.svg)
+
 ## Send SMS messages {#sending-sms-messages}
 
 To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
@@ -160,4 +162,4 @@ The sender name for this type of message is a short code usually used to send de
 >
 >These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard. [Learn more](delivery-dashboard.md).
 >
->These messages are not taken into account in the commercial pressure rules. [Learn more](../../campaign/using/pressure-rules.md).
+>These messages are not taken into account in the commercial pressure rules. [Learn more](../../campaign-opt/using/pressure-rules.md).

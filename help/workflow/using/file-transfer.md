@@ -9,6 +9,8 @@ exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 ---
 # File transfer{#file-transfer}
 
+![](../../assets/common.svg)
+
 The **File transfer** activity lets you receive or send files, test for file presence, or list files on a server. The protocol used is either Azure Blob Storage, Amazon Simple Storage Service (S3), FTP or SFTP.
 With S3, Azure Blob Storage or SFTP connection, you can also import segment data to Adobe Campaign with Adobe Real-time Customer Data platform. For more on this, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
@@ -65,7 +67,7 @@ The configuration depends on the action selected.
 There are two possible options for all file transfer options:
 
 * The **[!UICONTROL Process missing file]** option adds a transition which is activated if no file is found in the specified directory.
-* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](monitoring-workflow-execution.md#processing-errors).
 
 The **[!UICONTROL Advanced parameters...]** link lets you access the following options:
 
@@ -87,7 +89,7 @@ The **[!UICONTROL Advanced parameters...]** link lets you access the following o
 
   Allows you to specify the connection port to be used for data transfer.
 
-The **[!UICONTROL File historization settings...]** link gives access to the options detailed in [Web download](../../workflow/using/web-download.md) (**[!UICONTROL File historization]** step).
+The **[!UICONTROL File historization settings...]** link gives access to the options detailed in [Web download](web-download.md) (**[!UICONTROL File historization]** step).
 
 ## Input parameters {#input-parameters}
 

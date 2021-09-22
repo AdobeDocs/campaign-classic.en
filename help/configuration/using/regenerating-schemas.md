@@ -9,6 +9,8 @@ exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
 ---
 # Regenerating schemas{#regenerating-schemas}
 
+![](../../assets/v7-only.svg)
+
 When you modify a schema and save the modifications, extended schema is automatically generated. Nevertheless, you may need to regenerate schemas manually to apply modifications. To do this:
 
 1. Select the schema(s) you need to regenerate.

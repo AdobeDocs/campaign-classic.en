@@ -9,6 +9,8 @@ exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 ---
 # About email channel{#about-email-channel}
 
+![](../../assets/common.svg)
+
 Adobe Campaign lets you mass deliver personalized electronic messages to a target population.
 
 Before starting sending emails:

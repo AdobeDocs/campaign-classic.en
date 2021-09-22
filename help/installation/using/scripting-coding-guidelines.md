@@ -9,6 +9,8 @@ exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 ---
 # Scripting and coding guidelines {#scripting-coding-guidelines}
 
+![](../../assets/v7-only.svg)
+
 ## Scripting
 
 For more details, refer to [Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).

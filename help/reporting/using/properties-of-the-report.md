@@ -9,6 +9,8 @@ exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 ---
 # Properties of the report{#properties-of-the-report}
 
+![](../../assets/common.svg)
+
 You can fully personalize and configure your report to suit your needs. To do this, edit its properties. Report properties are accessed via the **[!UICONTROL Properties]** button above the activity sequence chart.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
@@ -62,7 +64,6 @@ The editing language is the language which you write in. When you add a language
 
 In the **[!UICONTROL Rendering]** tab, you can personalize the data display mode for the page. You can select:
 
-* The chart rendering engine: by default, the rendering engine is HTML 5.
 * The navigation type in the report: via buttons or links.
 * The default position of labels for report elements. This position can be overloaded for each element.
 * The template or theme used for generating report pages.

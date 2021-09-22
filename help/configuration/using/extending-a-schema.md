@@ -9,6 +9,8 @@ exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
 ---
 # Extending a schema{#extending-a-schema}
 
+![](../../assets/v7-only.svg)
+
 >[!IMPORTANT]
 >
 >Some built-in schemas must not be extended: mainly those for which the following settings are defined:   

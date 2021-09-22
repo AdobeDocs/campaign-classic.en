@@ -9,6 +9,8 @@ exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 ---
 # Manage enumerations{#managing-enumerations}
 
+![](../../assets/common.svg)
+
 An enumeration (also known as 'itemized list') is a list of values suggested by the system to populate certain fields. Enumerations let you standardize the values of these fields, and help with data input or use within queries.
 
 The list of values appears as a drop-down list from which you can select the value to be entered in the field. The drop-down list also enables predictive input, where the operator enters the first few letters, and the application fills in the rest.

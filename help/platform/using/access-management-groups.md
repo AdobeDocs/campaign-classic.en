@@ -9,6 +9,8 @@ exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 ---
 # Create and manage operator groups {#operator-groups}
 
+![](../../assets/common.svg)
+
 Operator groups are created via the **[!UICONTROL Administration > Access management > Operator groups]** node in the tree.
 
 ## Create a new operator group {#creating-a-new-operator-group}

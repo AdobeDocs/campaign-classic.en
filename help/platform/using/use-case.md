@@ -9,6 +9,8 @@ exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 ---
 # Use case{#use-case}
 
+![](../../assets/common.svg)
+
 ## Create a filter on the email format of subscribers {#creating-a-filter-on-the-email-format-of-subscribers}
 
 This use case will show you how to create a filter to sort newsletter subscriptions based on recipient email format.

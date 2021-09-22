@@ -9,6 +9,8 @@ exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 ---
 # Interaction and offer management{#interaction-and-offer-management}
 
+![](../../assets/v7-only.svg)
+
 Interaction lets you respond in real time during an interaction with a given contact (a customer or target) by making them a single or several adapted offers. For example, these can be simple communication messages, special offers on one or several products or a service.
 
 Offers are sent to contacts via an inbound (website or call center) or outbound (email delivery, direct mail or SMS within a marketing campaign) contact.

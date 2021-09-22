@@ -9,6 +9,8 @@ exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 ---
 # Performing a build upgrade{#performing-a-build-upgrade}
 
+![](../../assets/v7-only.svg)
+
 This section will provide you with an in-depth walkthrough on the upgrade process and the steps to identify and resolve conflicts.
 
 The build upgrade must be carried out with caution, its impacts must be fully considered beforehand and the procedure must be completed with a high level of discipline. To ensure a successful upgrade, ensure that only expert users perform the steps outlined below. In addition, we strongly recommend getting in touch with [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) before starting any upgrade.

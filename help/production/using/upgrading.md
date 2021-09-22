@@ -9,6 +9,8 @@ exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 ---
 # Upgrading to a new build (on-premise){#upgrading}
 
+![](../../assets/v7-only.svg)
+
 Before starting the upgrading process, determine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 
 >[!IMPORTANT]

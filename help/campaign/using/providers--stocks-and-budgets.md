@@ -9,6 +9,8 @@ exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 ---
 # Providers, stocks and budgets{#providers-stocks-and-budgets}
 
+![](../../assets/common.svg)
+
 Adobe Campaign lets you define service providers who will be involved in the jobs carried out within the campaigns. Information concerning the service providers and the related cost structures are defined by the Adobe Campaign administrator from the main view. The service provider is referenced from the delivery, and its cost structures allow the calculation of costs associated with this delivery as well as the management of the stock concerned.
 
 ## Creating service providers and their cost structures {#creating-service-providers-and-their-cost-structures}

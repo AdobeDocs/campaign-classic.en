@@ -9,6 +9,8 @@ exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
 ---
 # General architecture{#general-architecture}
 
+![](../../assets/v7-only.svg)
+
 ## Minimum architecture {#minimum-architecture}
 
 In a minimum configuration, Adobe Campaign operates with:

@@ -9,6 +9,8 @@ exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 ---
 # Create a new web application{#creating-a-new-web-application}
 
+![](../../assets/common.svg)
+
 Web application types are selected during creation.
 
 Go to the **Campaigns** tab and select the **[!UICONTROL Web Applications]** menu. Click the **[!UICONTROL Create]** button. Select the Web application template you want to use:

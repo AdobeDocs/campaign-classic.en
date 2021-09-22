@@ -9,6 +9,8 @@ exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 ---
 # Automate with workflows{#automating-via-workflows}
 
+![](../../assets/common.svg)
+
 ## Content management activity {#content-management-activity}
 
 Creating, editing, and publishing content can be automated using a workflow configured via the Adobe Campaign client interface.

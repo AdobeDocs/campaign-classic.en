@@ -9,6 +9,8 @@ exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 ---
 # Enriching content{#enriching-content}
 
+![](../../assets/common.svg)
+
 Aggregators let you enrich the content with external data. This data comes from generic queries or linked tables.
 
 ## Generic queries {#generic-queries}

@@ -9,6 +9,8 @@ exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
 ---
 # Release 20.1{#release-20-1}
 
+![](../../assets/v7-only.svg)
+
 ## ![](assets/do-not-localize/limited_2.png) Release 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
 _April 15, 2021_
@@ -35,7 +37,7 @@ _December 23, 2020_
 
 >[!CAUTION]
 >
-> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/using/ims-updates.md)
 >
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 

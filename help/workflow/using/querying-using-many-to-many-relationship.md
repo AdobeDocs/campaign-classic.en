@@ -9,6 +9,8 @@ exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 ---
 # Querying using a many-to-many relationship {#querying-using-a-many-to-many-relationship}
 
+![](../../assets/common.svg)
+
 In this example, we want to recover recipients not contacted during the last 7 days. This query concerns all deliveries.
 
 This example also shows how to configure a filter related to the choice of a collection element (or orange node). Collection elements are available in the **[!UICONTROL Field to select]** window.

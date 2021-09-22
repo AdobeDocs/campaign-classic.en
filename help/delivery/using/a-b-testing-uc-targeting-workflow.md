@@ -9,6 +9,8 @@ exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 ---
 # Create a targeting workflow {#step-1--creating-a-targeting-workflow}
 
+![](../../assets/common.svg)
+
 You need to create your workflow in the **[!UICONTROL Targeting and Workflows]** tab of a campaign. It is made up of a **[!UICONTROL Query]** activity, a **[!UICONTROL Split]** activity linked to two **[!UICONTROL Email delivery]** activities, a **[!UICONTROL Wait]** activity, a **[!UICONTROL JavaScript code]** activity, and a **[!UICONTROL Delivery]** activity.
 
 1. If you haven't already done so, create a campaign (for more on this, refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).

@@ -8,6 +8,8 @@ exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
 ---
 # CRM Connector{#crm-connector}
 
+![](../../assets/common.svg)
+
 The **CRM connector** activity lets you configure the data synchronization between Adobe Campaign and a CRM system.
 
 For more information on CRM connectors in Adobe Campaign, refer to this [section](../../platform/using/crm-connectors.md).

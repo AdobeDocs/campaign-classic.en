@@ -9,6 +9,8 @@ exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 ---
 # Privacy and Consent{#privacy-and-recommendations}
 
+![](../../assets/common.svg)
+
 ## General recommendations {#general-recommendations}
 
 Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information and sensitive data. This is why privacy needs to be managed carefully.
@@ -116,7 +118,7 @@ Adobe Campaign enables you to collect data, including personal and sensitive inf
 
 ## Privacy management {#privacy-management}
 
-Privacy management refer to all the processes and tools that can help you comply with Privacy regulations (GDPR, CCPA, etc.). Get an overview of what privacy management is on [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html).
+Privacy management refer to all the processes and tools that can help you comply with Privacy regulations (GDPR, CCPA, etc.). Get an overview of what privacy management is on [this page](privacy-and-recommendations.md).
 
 Adobe Campaign provides you with various sets of features dedicated to privacy management:
 * Consent management, data Retention and user Roles. See [this section](#consent).

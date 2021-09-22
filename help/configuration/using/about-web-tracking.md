@@ -9,6 +9,8 @@ exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
 ---
 # About web tracking{#about-web-tracking}
 
+![](../../assets/v7-only.svg)
+
 In addition to standard tracking that shows the behavior of an internet user clicking on a link in an e-mail message, the Adobe Campaign platform lets you collect information on how internet users browse your website. This data collection is performed by the web tracking module.
 
 When an internet user clicks a tracked link in an e-mail from a given delivery, the redirection server contacted deposits a session cookie containing the broadlog identifier (broadlogId) and the delivery identifier (deliveryId).

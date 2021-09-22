@@ -9,6 +9,8 @@ exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
 ---
 # Configuring publishing on Twitter{#configuring-publishing-on-twitter}
 
+![](../../assets/v7-only.svg)
+
 In order for Adobe Campaign to be able to send tweets to your Twitter accounts, you need to delegate write access to Adobe Campaign for these accounts. To do this, apply the following configuration steps:
 
 * Create a Twitter account.

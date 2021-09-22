@@ -9,6 +9,8 @@ exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 ---
 # Work with data packages{#working-with-data-packages}
 
+![](../../assets/common.svg)
+
 ## About data packages {#about-data-packages}
 
 Adobe Campaign allows you to export or import the platform configuration and data through a package system. Packages can contain different kinds of configurations, elements, filtered or not.
@@ -294,7 +296,7 @@ To export a package from a package definition, follow the steps below:
 
 ## Import packages {#importing-packages}
 
-The package import wizard is accessible via the main menu **[!UICONTROL Tools > Advanced > Package import...]** of the Adobe Campaign client console.
+The package import wizard is accessible via the main menu **[!UICONTROL Tools > Advanced > Import package]** of the Adobe Campaign client console.
 
 You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a [built-in package](../../installation/using/installing-campaign-standard-packages.md), depending on the terms of your license.
 

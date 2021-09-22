@@ -9,6 +9,8 @@ exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 ---
 # Capability matrix per model{#capability-matrix-per-model}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their use can depend on the type of deployment of your installation. This article shares some details about the main differences for certain features between fully hosted (Managed Services) and on-premise deployments.
 
 This page shows the main differences between hosted (Managed Services) and on-premise deployments. Hybrid deployments specificities depend on the elements hosted by Adobe and hosted in your premises.
@@ -27,7 +29,7 @@ The different hosting models are introduced [in this section](../../installation
 | Integrating with IMS (Adobe ID) | On-demand | On-demand | On-demand | [Learn more](../../integrations/using/about-adobe-id.md)                    |
 | Encrypting/Decrypting data for file transfers | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
 | Zipping/Unzipping files | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
-| Domain Name Delegation | On-demand | On-demand | Not available | [Learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html) |
+| Domain Name Delegation | On-demand | On-demand | Not available | [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) |
 | Installing SpamAssassin | On-demand | Available | Available | [Learn more](../../delivery/using/spamassassin.md) |
 | Accessing deliverability reports | Available | On-demand | Available | [Learn more](../../delivery/using/monitoring-deliverability.md)|
 | Configuring LDAP authentication | Not Available | Available | Available | [Learn more](../../installation/using/connecting-through-ldap.md) |

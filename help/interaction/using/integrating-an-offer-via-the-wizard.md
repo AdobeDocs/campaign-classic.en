@@ -9,6 +9,8 @@ exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 ---
 # Integrating an offer via the wizard{#integrating-an-offer-via-the-wizard}
 
+![](../../assets/v7-only.svg)
+
 When creating a delivery, there are two possible methods for integrating offers:
 
 * Calling the offer engine in the body of a delivery.

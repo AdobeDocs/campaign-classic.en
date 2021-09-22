@@ -12,6 +12,8 @@ exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
 ---
 # Release 18.6{#release-18-6}
 
+![](../../assets/v7-only.svg)
+
 ## Release 18.6.2 - Build 8949{#release-18-6-3-build-8949}
 
 22 August 2018
@@ -101,7 +103,7 @@ For more information on query banding, refer to these articles:
 
 decryptString
 
-The **decryptString** function is deprecated. Refer to the [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) article.
+The **decryptString** function is deprecated. Refer to the [Deprecated and Removed Features](deprecated-features.md) article.
 
 For new customers, this function is now only used to decrypt the recipient's crypted ID in landing pages. To decrypt passwords stored in an external account, use the new **decryptPassword** function.
 

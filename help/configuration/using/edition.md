@@ -9,6 +9,8 @@ exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 ---
 # Edit Campaign Explorer navigation tree{#edition}
 
+![](../../assets/v7-only.svg)
+
 The screen for creating and configuring the navigation hierarchy configuration documents is accessible via the **[!UICONTROL Administration > Configuration > Navigation hierarchies]** node:
 
 ![](assets/d_ncs_integration_navigation_arbo.png)

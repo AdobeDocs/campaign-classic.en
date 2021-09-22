@@ -8,6 +8,8 @@ exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 ---
 # Optimize delivery {#optimize-delivery}
 
+![](../../assets/common.svg)
+
 Before even starting creating deliveries, you can take several actions to secure and optimize the sending process upstream.
 
 The following section outlines best practices and recommended procedures for the optimal configuration of Adobe Campaign. Following these practices will minimize issues that you might face downstream.

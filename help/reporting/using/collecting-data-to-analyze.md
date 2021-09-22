@@ -9,6 +9,8 @@ exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 ---
 # Collecting data to analyze{#collecting-data-to-analyze}
 
+![](../../assets/common.svg)
+
 The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Using the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
 
 This activity offers three different methods:

@@ -9,7 +9,16 @@ topic-tags: technical-workflows
 
 # Interaction{#interaction}
 
-The workflows detailed below are installed with the **Offer engine (Interaction)** module by default. For more on this module, refer to this [section](../../interaction/using/interaction-and-offer-management.md).
+![](../../assets/common.svg)
+
+The workflows detailed below are installed with the **Offer engine (Interaction)** add-on by default. 
+
+For more on this, depending on your Campaign version, refer to these sections:
+  
+![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../interaction/using/interaction-and-offer-management.md)
+  
+![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
+
 
 <table> 
  <tbody> 

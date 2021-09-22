@@ -9,6 +9,8 @@ exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 ---
 # About reports on deliveries{#reports-on-deliveries}
 
+![](../../assets/common.svg)
+
 Adobe Campaign offers several types of reports, accessible via the customer console or an internet browser.
 
 The following types of report are available:

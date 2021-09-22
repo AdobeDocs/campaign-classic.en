@@ -9,6 +9,8 @@ exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 ---
 # Coordinate data updates{#coordinating-data-updates}
 
+![](../../assets/common.svg)
+
 This use case details the creation of a workflow which lets you manage concomitant updates when using several executions of a workflow.
 
 The aim is to check that the update process has ended before executing another update operation. To do this, we will set up an instance variable, and let the workflow test if the instance is running to decide whether or not to continue the execution of the workflow and perform the update.
@@ -47,5 +49,5 @@ To build the workflow, follow the steps below:
 
 **Related topics:**
 
-* [Prevent simultaneous multiple executions](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
-* [Update Data activity](../../workflow/using/update-data.md)
+* [Prevent simultaneous multiple executions](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [Update Data activity](update-data.md)

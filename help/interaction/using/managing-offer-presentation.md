@@ -9,6 +9,8 @@ exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 ---
 # Managing offer presentation{#managing-offer-presentation}
 
+![](../../assets/v7-only.svg)
+
 ## Presentation rules overview {#presentation-rules-overview}
 
 Interaction lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Interaction, are typology rules. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment

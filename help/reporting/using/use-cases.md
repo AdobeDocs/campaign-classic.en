@@ -9,6 +9,8 @@ exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 ---
 # Use cases{#use-cases}
 
+![](../../assets/common.svg)
+
 ## Analyzing a population {#analyzing-a-population}
 
 The following example lets you explore the population targeted by a set of newsletters by using the descriptive analysis wizard.

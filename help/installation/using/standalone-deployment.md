@@ -9,6 +9,8 @@ exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 ---
 # Standalone deployment{#standalone-deployment}
 
+![](../../assets/v7-only.svg)
+
 This configuration includes all components on the same computer:
 
 * application process (web),

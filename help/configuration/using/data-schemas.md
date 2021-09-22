@@ -9,6 +9,8 @@ exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 ---
 # Data schemas{#data-schemas}
 
+![](../../assets/v7-only.svg)
+
 ## Principles {#principles}
 
 To edit, create and configure the schemas, click the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign client console.

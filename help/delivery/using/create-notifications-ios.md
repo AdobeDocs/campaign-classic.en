@@ -5,9 +5,11 @@ description: Learn how to create push notifications for iOS
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
+exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 ---
 # Create notifications for iOS{#create-notifications-ios}
+
+![](../../assets/common.svg)
 
 This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
 

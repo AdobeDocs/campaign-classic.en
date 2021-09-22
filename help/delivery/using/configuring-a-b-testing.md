@@ -9,6 +9,8 @@ exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 ---
 # Configuring A/B testing {#configuring-a-b-testing}
 
+![](../../assets/common.svg)
+
 This section details how to build a workflow to perform A/B testing. 
 
 1. Create a new workflow then configure a [Query](../../workflow/using/query.md) activity to target the desired population.

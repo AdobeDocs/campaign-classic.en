@@ -9,6 +9,8 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 ---
 # Deprecated and removed features {#deprecated-and-removed-features}
 
+![](../../assets/v7-only.svg)
+
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility. As Adobe Campaign Classic works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only. Versions which are no longer compatible with Adobe Campaign Classic are listed below and in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 To communicate the impending removal/replacement of Campaign Classic capabilities, the following rules apply:
@@ -72,12 +74,16 @@ This section lists features and capabilities that have been removed from Campaig
    <td><strong>Replacement</strong></td> 
   </tr>
   <tr>  
+   <td>Reporting<br></td>
+   <td><p>Following Adobe Flash Player EOL, the Gauge report and Chart rendering engine are no longer available. <a href="../../reporting/using/creating-a-new-report.md">Learn more</a></p>
+  </tr>
+  <tr>  
    <td>Fax channel<br></td>
    <td><p>Starting Campaign 21.1.3 release, the Fax channel is no longer available. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a></p>
+  </tr>
   <tr>
   <td>Demdex domain<br></td>
   <td><p> Starting Campaign 21.1.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is no longer available. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
-  </td>
   </td>
   </tr>
    <tr> 
@@ -102,7 +108,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
   <tr> 
    <td>Web applications - Microsites</td>
-   <td>Starting Campaign 18.10 release, Microsites are no longer available. You can improve security by restricting access to only dedicated domains on Adobe Campaign configuration files, and use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a></td>
+   <td>Starting Campaign 18.10 release, Microsites are no longer available. You can improve security by restricting access to only dedicated domains on Adobe Campaign configuration files, and use personalized URLs in Campaign by using DNS aliases.</td>
   </tr> 
   <tr> 
    <td>Push Notifications - iOS Binary Connector</td>
@@ -171,7 +177,7 @@ Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the fo
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following tools.
 
-* Java JDK 7. [Learn more](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Java JDK 7. [Learn more](https://www.oracle.com/technetwork/java/javase/eol-135779.html)
 * Libre Office 3.5 / 4.3 / 5.x, except when embedded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### Database engines {#dbe-eol}
@@ -189,14 +195,14 @@ Starting 20.2 release, Adobe Campaign is no longer compatible with the following
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following FDA Servers:
 
 * PostgreSQL 9.3. [Learn more](https://www.postgresql.org/support/versioning)
-* MySQL 5.5. [Learn more](http://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5. [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* MySQL 5.5. [Learn more](https://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5. [Learn more](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Teradata 14 – 14.1. [Learn more](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic is not compatible with the following servers in Federated Data Access (FDA).
 
-* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
 * PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. More recent versions of PostgreSQL are supported through Federated Data Access (FDA). [Learn more](https://www.postgresql.org/support/versioning)
 * MSSQL 2000, 2005, 2008 R2. More recent versions of SQL Server are supported through Federated Data Access (FDA). [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1044)
 * MySQL 5.1. More recent versions of MySQL are supported through Federated Data Access (FDA). [Learn more](https://en.wikipedia.org/wiki/InfiniDB)
@@ -206,11 +212,6 @@ Campaign Classic is not compatible with the following servers in Federated Data 
 * AsterData 5.0. AsterData reached end of life. [Learn more](https://en.wikipedia.org/wiki/Aster_Data_Systems)
 * Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0. More recent versions of Sybase are supported through Federated Data Access (FDA). [Learn more](https://sites.google.com/site/dbatipsandtricks/time-tracker)
 * Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic will still support the listed versions of Hadoop via HiveSQL through Federated Data Access (FDA), but these versions are merged with: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) and HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
-* Soap API - On-premise: 2007, 2015, 2016
-* Soap API - Online: 2015, 2016
-* Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1
-* Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1
-* Oracle On Demand API<
 
 **RDBMS SERVER**
 
@@ -232,3 +233,13 @@ Adobe Campaign is not compatible with the following SMS connectors:
 * Tele2
 * O2
 * iOS
+
+### CRM connectors {#crm-connectors}
+
+Starting Campaign 21.1 release, the following CRM connectors are no longer compatible with Campaign:
+
+* Soap API - On-premise: 2007, 2015, 2016
+* Soap API - Online: 2015, 2016
+* Web API – Microsoft Dynamics CRM  2016
+* Web API – Microsoft Dynamics CRM 2016 Update 1
+* Oracle On Demand API

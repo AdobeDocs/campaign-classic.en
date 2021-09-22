@@ -9,6 +9,8 @@ exl-id: df494786-5950-4646-aa9c-4dde45845057
 ---
 # Access the tracking logs{#accessing-the-tracking-logs}
 
+![](../../assets/common.svg)
+
 When the delivery has been sent and tracking activated, the **[!UICONTROL Tracking]** technical workflow is in charge of retrieving the tracking data. It is executed hourly by default.
 
 This information appears in the **[!UICONTROL Tracking]** tab of the profile of recipients targeted by the delivery, as in the following example:

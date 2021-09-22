@@ -9,6 +9,8 @@ exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 ---
 # Use case: supervise your workflows{#supervising-workflows}
 
+![](../../assets/common.svg)
+
 This use case details the creation of a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors".
 
 Its purpose is to:
@@ -25,9 +27,9 @@ To monitor the status of a set of workflows, you need to follow these steps:
 
 >[!NOTE]
 >
->In addition to the workflow, Campaign **Workflow Heatmap** allows you to analyse in details the workflows that are currently running. For more on this, refer to the [dedicated section](../../workflow/using/heatmap.md).
+>In addition to the workflow, Campaign **Workflow Heatmap** allows you to analyse in details the workflows that are currently running. For more on this, refer to the [dedicated section](heatmap.md).
 >
->For more on how to **monitor your workflows' execution**, refer to [this section](../../workflow/using/monitoring-workflow-execution.md).
+>For more on how to **monitor your workflows' execution**, refer to [this section](monitoring-workflow-execution.md).
 
 ## Step 1: Creating the monitoring workflow {#step-1--creating-the-monitoring-workflow}
 

@@ -9,6 +9,8 @@ exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 ---
 # IMS troubleshooting{#ims-troubleshooting}
 
+![](../../assets/common.svg)
+
 The following troubleshooting tips will help **on-premise** customers solve the most common problems happening when using the IMS integration. For **hosted** customers, please contact Adobe.
 
 **External Account**

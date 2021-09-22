@@ -9,6 +9,8 @@ exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 ---
 # How to configure tracked links{#how-to-configure-tracked-links}
 
+![](../../assets/common.svg)
+
 For each delivery, you can track the reception of messages and the activation of the links inserted in the message content. This lets you track the behavior of recipients following the delivery actions which they were targeted by.
 
 Tracking applies to messages, but web tracking lets you monitor how recipients browse a website (pages visited, purchases). The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).

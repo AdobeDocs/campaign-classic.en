@@ -9,6 +9,8 @@ exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 ---
 # Web download{#web-download}
 
+![](../../assets/common.svg)
+
 The **Web download** activity launches the downloading of a file on an explicit URL, an external account, or an Adobe Campaign instance. The HTTP protocol is used. This can be a GET or POST download.
 
 ## Properties {#properties}
@@ -55,7 +57,7 @@ The **Web download** activity launches the downloading of a file on an explicit 
 
    ![](assets/download_web_edit_advanced.png)
 
-   The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+   The **[!UICONTROL Process errors]** option is detailed in [Processing errors](monitoring-workflow-execution.md#processing-errors).
 
 ## Output parameters {#output-parameters}
 

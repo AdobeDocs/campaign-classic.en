@@ -9,6 +9,8 @@ exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 ---
 # Before starting migration{#before-starting-migration}
 
+![](../../assets/v7-only.svg)
+
 >[!NOTE]
 >
 >In this document, commands linked to the database are given as an example. These may vary depending on their configuration. Contact your database administrator.

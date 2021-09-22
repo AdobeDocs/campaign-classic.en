@@ -9,6 +9,8 @@ exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 ---
 # SMS connector protocol and settings {#sms-connector-protocol}
 
+![](../../assets/common.svg)
+
 >[!NOTE]
 >
 >Through this document, all references to details about the protocol, field names and values refer to the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
