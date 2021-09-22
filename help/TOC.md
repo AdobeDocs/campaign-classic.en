@@ -10,7 +10,6 @@ user-guide-description: With Adobe Campaign, you can use rich customer data to c
 sub-product: adobe campaign classic
 type: Documentation
 ---
-
 # Adobe Campaign Classic v7 documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
@@ -846,3 +845,7 @@ type: Documentation
        + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
   + [Rollback procedure](migration/using/about-rollback.md)
++ Technotes {#technotes}
+  + Migration to Adobe Managed Services{#dc-migration}
+       + [Migration to Public Cloud](technotes/using/dc-migration.md)
+       + [FAQ](technotes/using/dc-migration-faq.md)
