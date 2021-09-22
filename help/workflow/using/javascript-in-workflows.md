@@ -8,6 +8,8 @@ topic-tags: advanced-management
 ---
 # Examples of JavaScript code in workflows{#javascript-in-workflows}
 
+![](../../assets/common.svg)
+
 These examples show how you can use JavaScript code in a workflow:
 
 * [Write to the database](#write-example)
