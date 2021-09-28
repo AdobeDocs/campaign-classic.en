@@ -87,7 +87,7 @@ To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the 
    dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-   If there are missing dependenciess, run the following command: 
+   If there are missing dependencies, run the following command: 
 
    ```
    apt-get install -f
@@ -134,7 +134,7 @@ chmod +x /usr/local/neolane/nl6/customer.sh
 
 ### Server encoding {#server-encoding}
 
-By default, the server is started in an iso8859-15 enviornment. Nevertheless, the server can be started in an UTF-8 environment.
+By default, the server is started in an iso8859-15 environment. Nevertheless, the server can be started in an UTF-8 environment.
 
    >[!CAUTION]
    >

@@ -43,7 +43,7 @@ The mono-instance log files are listed in the following table:
 |  wfserver.log  | Logs of the workflow server module  |
 |  runwf.log  | Workflow execution logs  |
 |  inMail.log  | Bounce mail module log  |
-|  logins.log  | Logs all login attempts to Adobe Campaign (sucess or not)  |
+|  logins.log  | Logs all login attempts to Adobe Campaign (success or not)  |
 
 >[!IMPORTANT]
 >

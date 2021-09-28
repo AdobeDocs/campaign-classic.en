@@ -113,7 +113,7 @@ Start by defining the Adobe Campaign database that will host the configuration.
 
 ### Start configuration {#start-configuration}
 
-By default, the **stat** module is started for each instance. When the instances are mutualized on the same machine, or when instances share the same IP address, a single statistics server is used: the others have to be disabled.
+By default, the **stat** module is started for each instance. When the instances are pooled on the same machine, or when instances share the same IP address, a single statistics server is used: the others have to be disabled.
 
 ### Definition of the server port {#definition-of-the-server-port}
 

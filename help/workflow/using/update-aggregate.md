@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Update aggregate
-description: Learmore about the Update aggregate workflow activity
+description: Learn more about the Update aggregate workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities

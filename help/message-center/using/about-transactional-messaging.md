@@ -62,7 +62,7 @@ The main steps when creating and managing personalized transactional messages in
 
 ### Steps to perform on the control instance
 
-On the **control instance**, you must peform the following actions:
+On the **control instance**, you must perform the following actions:
 
 1. [Create an event type](../../message-center/using/creating-event-types.md).
 1. [Create and design the message template](../../message-center/using/creating-the-message-template.md). You must link an event to your message during this step.

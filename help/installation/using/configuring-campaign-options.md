@@ -408,7 +408,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Install compatibility mode: build&gt;6000) When activated (value “1”), this option allows the use of old passwords stored in the database for the connexion to external accounts or to the instance.<br /> </td> 
+   <td> (Install compatibility mode: build&gt;6000) When activated (value “1”), this option allows the use of old passwords stored in the database for the connection to external accounts or to the instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -678,7 +678,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
-   <td> All customized schemas, created after this time, with autopk="true" and without the attribute "pkSequence" will get an auto-geneated sequence "auto_ 
+   <td> All customized schemas, created after this time, with autopk="true" and without the attribute "pkSequence" will get an auto-generated sequence "auto_ 
     &lt;schemanamespace> 
      &lt;schemaname>
        _seq. 
@@ -874,7 +874,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Pointer</span> <br /> </td> 
-   <td> The pointer keeps track of the last messsage events that were processed through their IDs and date.<br /> </td> 
+   <td> The pointer keeps track of the last message events that were processed through their IDs and date.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_SecureServerUrl</span> <br /> </td> 
