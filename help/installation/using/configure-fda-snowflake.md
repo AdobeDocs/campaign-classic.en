@@ -13,9 +13,8 @@ exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Snowflake].
 
-1. Configure [!DNL Snowflake] on [CentOS](#snowflake-centos), [Windows](#snowflake-windows) or [Debian](#snowflake-debian)
+1. Configure [!DNL Snowflake] on [Linux](#snowflake-linux).
 1. Configure the [!DNL Snowflake] [external account](#snowflake-external) in Campaign
-
 
 >[!NOTE]
 >
@@ -23,52 +22,47 @@ Use Campaign **Federated Data Access** (FDA) option to process information store
 
 ![](assets/snowflake_3.png)
 
-## Snowflake on CentOS {#snowflake-centos}
+## Snowflake on Linux {#snowflake-linux}
 
-To configure [!DNL Snowflake] on CentOS, follow the steps below:
+To configure [!DNL Snowflake] on Linux, follow the steps below:
 
-1. Download the ODBC drivers for [!DNL Snowflake]. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) to start downloading.
-1. You then need to install the ODBC drivers on CentOs with the following command:
+1. Before the ODBC installation, check that the following packages are installed on your Linux distribution: 
+
+    * For Red Hat/CentOS:
+
+        ```
+        yum update
+        yum upgrade
+        yum install -y grep sed tar wget perl curl
+        ```
+
+    * For Debian:
+
+        ```
+        apt-get update
+        apt-get upgrade
+        apt-get install -y grep sed tar wget perl curl
+        ```
+
+1. Run the following script as a root user to install the ODBC drivers:
 
     ```
-    rpm -Uvh unixodbc
-    rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
+    /usr/local/neolane/nl6/bin/fda-setup-scripts/
     ```
 
-1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+1. Access the directory where the script is located and run the following script:
 
     ```
-    /etc/init.d/nlserver6 stop
-    /etc/init.d/nlserver6 start
+    cd /usr/local/neolane/nl6/bin/fda-setup-scripts
+    ./snowflake_odbc-setup.sh
     ```
 
-1. In Campaign, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to [this section](#snowflake-external).
+1. After installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
 
-## Snowflake on Windows {#snowflake-windows}
-
-1. Download the [ODBC driver for Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Note that you need administrator-level privileges to install the driver. For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
-
-1. Configure the ODBC driver. For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
-
-1. In Campaign, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to [this section](#snowflake-external).
-
-## Snowflake on Debian {#snowflake-debian}
-
-1. Download the ODBC drivers for [!DNL Snowflake]. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) start downloading.
-
-1. You then need to install the ODBC drivers on Debian with the following command:
-
-     ```
-     apt-get install unixodbc
-     apt-get install snowflake-odbc-x.xx.x.x86_64.deb
-     ```
-
-1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
-
-     ```
-     systemctl stop nlserver.service
-     systemctl start nlserver.service
-     ```
+    ```
+    systemctl stop nlserver.service
+    systemctl start nlserver.service
+    ```
 
 1. In Campaign, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to [this section](#snowflake-external).
 
