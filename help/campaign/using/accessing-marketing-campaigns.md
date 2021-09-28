@@ -166,17 +166,6 @@ In addition to navigating across campaigns and viewing them, you can perform the
 
 This table summarizes the actions that you can take on campaigns from a browser:
 
-<!-- //Pour Campaign v8, ces pages qui figurent dans le tableau ci-dessous sont dispos dans ACC v7, mais pas dans Campaign v8, à la date du 11 août 2021 ://
-
-* Task
-* Marketing resource
-* Campaign package
-* Campaign order
-* Forums
-
-Seront-elles livrées en octobre 2021 pour la v8?
--->
-
 | Page | Action |
 | --- | --- |
 | List of campaigns, deliveries, offers, etc. | Delete a list item |
