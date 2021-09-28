@@ -17,6 +17,8 @@ The workflows detailed in this section are installed with the different Adobe Ca
 
 By default, technical workflows are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
+Note that technical workflows can only be started and modified by operators with Administration right. For more information on permissions, refer to this [section](../../platform/using/access-management-groups.md#default-groups).
+
 >[!NOTE]
 >
 >Technical workflows related to the Message Center module are available by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
