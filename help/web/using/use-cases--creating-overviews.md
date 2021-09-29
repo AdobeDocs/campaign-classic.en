@@ -169,7 +169,7 @@ These two elements will be grouped in the same container in order to be graphica
 
 1. Apply **dottedFilter**.
 
-   This style is referred to in the **[!UICONTROL Single-page Web applicatio]** n template selected previously.
+   This style is referred to in the **[!UICONTROL Single-page Web application]** template selected previously.
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 

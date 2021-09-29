@@ -335,7 +335,7 @@ To track your silent notification, follow the example below:
 >
 >Please note that this is exclusive to iOS.
 
-In iOS, the delegate protocol allows you to get the result of the **registerDevice** call and can be used to know if an error occured during registration.
+In iOS, the delegate protocol allows you to get the result of the **registerDevice** call and can be used to know if an error occurred during registration.
 
 The **registerDeviceStatus** prototype is:
 
@@ -343,7 +343,7 @@ The **registerDeviceStatus** prototype is:
 - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
 ```
 
-**Status** allows you to know if a registration succeeded or if an error occured.
+**Status** allows you to know if a registration succeeded or if an error occurred.
 
 **ErrorReason** provides you with more information on the errors that occurred. For more information on available errors and their descriptions, refer to the table below.
 

@@ -44,7 +44,7 @@ exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
 * Email archiving logs have been enhanced, which makes it easier and clearer to check which emails have been successfully delivered or have failed through BCC archiving. (NEO-10675)
 * Fixed an issue which led to the display of load balancer IPs instead of customer IPs in the tracking broadlogs. (NEO-11295)
 * Fixed an error with LATIN1 encoding when using an FDA Connection to a PostgreSQL database. (NEO-11299)
-* Fixed an issue that occured when using the **[!UICONTROL Prepare the personalization data with a workflow]** delivery option. (NEO-11047, NEO-11301)
+* Fixed an issue that occurred when using the **[!UICONTROL Prepare the personalization data with a workflow]** delivery option. (NEO-11047, NEO-11301)
 * Fixed a random issue causing the properties of a delivery to be wrongly overwritten. (NEO-11015)
 * Fixed an issue when using calculated fields in a **[!UICONTROL Survey answers]** workflow activity. (NEO-11382)
 * Fixed an issue when using data stored in XML in a **[!UICONTROL Survey answers]** workflow activity. (NEO-10816)
@@ -165,7 +165,7 @@ It would implicitly be handed as (before the 18.4 changes):
    </select>
    <orderBy>
       <node expr="@logDate"/>
-      <node expr="@id"/> <!-- implicitely added before 18.4, you can add it manually on your query, if you relied on this implicit order clauses --!>
+      <node expr="@id"/> <!-- implicitly added before 18.4, you can add it manually on your query, if you relied on this implicit order clauses --!>
    </orderBy>
 </queryDef>
 ```

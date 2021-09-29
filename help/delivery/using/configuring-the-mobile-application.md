@@ -71,7 +71,7 @@ Your iOS connector is now configured. You can start creating your service.
 
 ## Create iOS mobile app {#creating-ios-app}
 
-After creating your service, create your iOS applicationin Campaign. Follow the steps below:
+After creating your service, create your iOS application in Campaign. Follow the steps below:
 
 1. From your newly created service, click the **[!UICONTROL Add]** button to select the application type.
 

@@ -287,7 +287,7 @@ Here is an example of how you can invoke the API from a JS within Campaign Class
     ```
     loadLibrary("nms:gdpr.js");
     /**************************** 
-    This code calls an API to create new Privay request on the DB.
+    This code calls an API to create new Privacy request on the DB.
     It requires 4 parameters below.
     Feel free to change parameter values.
     ****************************/
@@ -312,7 +312,7 @@ Here is an example of how you can invoke the API from a JS within Campaign Class
     ```
     loadLibrary("nms:gdpr.js");
     /**************************** 
-    This code calls an API to create new Privay request on the DB.
+    This code calls an API to create new Privacy request on the DB.
     It requires 5 parameters below.
     Feel free to change parameter values.
     ****************************/
@@ -343,7 +343,7 @@ Here is an example of how you can invoke the API from a JS within Campaign Class
     ```
     loadLibrary("nms:gdpr.js");
     /**************************** 
-    This code calls an API to create new Privay request on the DB.
+    This code calls an API to create new Privacy request on the DB.
     It requires 5 parameters below.
     Feel free to change parameter values 
     ****************************/

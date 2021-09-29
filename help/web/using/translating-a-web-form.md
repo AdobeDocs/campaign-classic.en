@@ -340,7 +340,7 @@ The translation languages and dictionaries available by default are listed below
    <td> yes<br /> </td> 
   </tr> 
   <tr> 
-   <td> Portugese (Brazil) (pt_BR)<br /> </td> 
+   <td> Portuguese (Brazil) (pt_BR)<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

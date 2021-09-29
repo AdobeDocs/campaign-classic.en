@@ -90,7 +90,7 @@ For each URL of the message, you can choose whether or not to activate tracking,
 
 ### Where can I access delivery and tracking logs? {#where-can-i-access-delivery-and-tracking-logs-}
 
-Learn how to track your deliveries and understand the recipients' behaviour [from this page](../../delivery/using/delivery-dashboard.md).
+Learn how to track your deliveries and understand the recipients' behavior [from this page](../../delivery/using/delivery-dashboard.md).
 
 ### Where can I get delivery reports? {#where-can-i-get-delivery-reports-}
 

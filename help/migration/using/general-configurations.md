@@ -619,7 +619,7 @@ All standard reports currently use rendering engine v6.x. If you had added JavaS
 
 ![](assets/migration_reports_1.png)
 -->
-If you wish to benefit from the new report functionalities, you must republish reports. To do this, edit the report **[!UICONTROL Properties]**, click **[!UICONTROL Rendering]** and select the v.6.x rendering engine. In this case, check all of your scripts and change them if necessary. In regards to PDF export, if you had added specific script for Open Office, this will no longer work with the new PDF export engine (PhantomJS).
+If you wish to benefit from the new report functionalities, you must republish reports. In this case, check all of your scripts and change them if necessary. In regards to PDF export, if you had added specific script for Open Office, this will no longer work with the new PDF export engine (PhantomJS).
 
 ## Web applications {#web-applications}
 
@@ -630,11 +630,7 @@ There are two web application families:
 
 ### Identified web applications {#identified-web-applications}
 
-Just as for reports ([learn more](#reports)), if you had added JavaScript, you must check and adapt if necessary. If you wish to benefit from the v7 blue banner (containing the blue tabs), you must republish the web application. If your JavaScript code is working, you can select the v6.x rendering engine. If this is not the case, you can use the v6.0 rendering engine while you adapt your code, then use the v6.x rendering engine.
-
->[!NOTE]
->
->The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](#personalized-reports).
+Just as for reports ([learn more](#reports)), if you had added JavaScript, you must check and adapt if necessary. If you wish to benefit from the v7 blue banner (containing the blue tabs), you must republish the web application.
 
 Web application connection methods have changed in v7. If you encounter any connection problems in your identified web applications, you must temporarily activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. After the postupgrade, modify these option values:
 
@@ -664,11 +660,7 @@ sessionTokenOnly="false"
 
 ### Anonymous web applications {#anonymous-web-applications}
 
-If you encounter any problems, republish the web application. If the problem persists, you can select the v6.0 rendering engine. Si you had not added JavaScript, you can select the v6.x rendering engine and benefit from its new features.
-
->[!NOTE]
->
->The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](#personalized-reports).
+If you encounter any problems, republish the web application.
 
 ## Red-Hat {#red-hat}
 

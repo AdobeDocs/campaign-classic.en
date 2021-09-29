@@ -11,7 +11,7 @@ exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 
 ![](../../assets/common.svg)
 
-Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers.
+Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach out to your customers.
 
 In this section, you will learn more about the information you can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 

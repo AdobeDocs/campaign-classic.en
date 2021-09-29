@@ -59,7 +59,7 @@ If your Campaign instance is hosted by Adobe, contact [Adobe Customer Care](http
 
 The **[!UICONTROL AEM integration]** package created the external account for Adobe Experience Cloud. You need now to configure it to connect with your Adobe Experience Manager instance.
 
-To confugure the AEM external account, follow the steps below:
+To configure the AEM external account, follow the steps below:
 
 1. Click the **[!UICONTROL Explorer]** button.
 
