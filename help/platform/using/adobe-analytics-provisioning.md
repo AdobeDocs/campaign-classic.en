@@ -6,10 +6,11 @@ description: Learn more about Adobe Analytics connector provisioning
 feature: Overview
 role: User, Admin
 level: Beginner
+exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 ---
 # Adobe Analytics Connector provisioning {#adobe-analytics-connector-provisioning}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 >[!IMPORTANT]
 >
