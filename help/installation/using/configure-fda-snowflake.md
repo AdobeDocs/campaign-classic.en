@@ -84,7 +84,7 @@ You need to create a [!DNL Snowflake] external account to connect your Campaign 
 
     * **[!UICONTROL Account]**: Name of the user
 
-    * **[!UICONTROL Password]**: User account password
+    * **[!UICONTROL Password]**: User account password. You can also choose the **Keypair Authentication** which allow you to connect using your **[!UICONTROL Private key]**. For more on this, refer to the step 6.
 
     * **[!UICONTROL Database]**: Name of the database
 
@@ -93,6 +93,8 @@ You need to create a [!DNL Snowflake] external account to connect your Campaign 
 1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy functions]** button to create functions.
 
     ![](assets/snowflake_2.png)
+
+1. Click the **[!UICONTROL Keypair Auth]** tab to use your **[!UICONTROL Private key]** to authenticate. Copy paste your **[!UICONTROL Private key]** and click **[!UICONTROL Save]**.
 
 The connector supports the following options:
 
