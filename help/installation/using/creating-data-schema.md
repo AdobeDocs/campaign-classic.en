@@ -23,7 +23,7 @@ To create a schema on an external database:
 
 1. From the **[!UICONTROL Table name]** field, choose the table which contains the data to be collected. 
 
-    With Snowflake, you can select here your views if the database user has been granted the correct privileges. Note that when using views, Adobe Campaign will not be able to automatically create the XML schema, you will have to create it yourself. For more information on views, refer to [Snowflake documentation](https://docs.snowflake.com/en/user-guide/views-introduction.html).
+    With Snowflake, you can select here your views if the database user has been granted the correct privileges. Note that when using views, Adobe Campaign will not be able to automatically generate the XML schema, you will have to create it yourself. For more information on views, refer to [Snowflake documentation](https://docs.snowflake.com/en/user-guide/views-introduction.html).
 
 1. Click **[!UICONTROL OK]** to confirm. Adobe Campaign automatically detects the structure of the selected table and generates the logical schema. Please note that Adobe Campaign does not generate links.
 
