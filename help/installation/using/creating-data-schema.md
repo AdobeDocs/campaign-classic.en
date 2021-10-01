@@ -17,7 +17,13 @@ To create a schema on an external database:
 
     ![](assets/wf_new_schema_fda.png)
 
-1. Enter a name and a description for the schema and select the external account which will enable connection to the database. This enables access to the list of tables available in the external base. Choose the table which contains the data to be collected.
+1. Enter a **[!UICONTROL Namespace]** and  **[!UICONTROL Name]** for the schema and select the **[!UICONTROL External account]** which will enable connection to the database. This enables access to the list of tables available in the external base.
+
+    ![](assets/wf_new_schema_select_table_fda.png)
+
+1. From the **[!UICONTROL Table name]** field, choose the table which contains the data to be collected. 
+
+    With Snowflake, you can select here your views if the database user has been granted the correct privileges. Note that when using views, Adobe Campaign will not be able to automatically generate the XML schema, you will have to create it yourself. For more information on views, refer to [Snowflake documentation](https://docs.snowflake.com/en/user-guide/views-introduction.html).
 
     ![](assets/wf_new_schema_select_table_fda.png)
 
