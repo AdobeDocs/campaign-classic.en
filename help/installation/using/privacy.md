@@ -146,7 +146,7 @@ This restriction allows you to remove passwords fields but let the external acco
 
     >[!NOTE]
     >
-    >You can remplace `$(loginId) = 0 or $(login) = 'admin'` by `hasNamedRight('admin')` to let all users with admin right see these passwords.
+    >You can replace `$(loginId) = 0 or $(login) = 'admin'` with `hasNamedRight('admin')` to allow all users with admin rights to see these passwords.
 
 ## Protecting pages containing PII
 

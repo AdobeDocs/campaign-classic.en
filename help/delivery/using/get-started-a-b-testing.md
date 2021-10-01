@@ -29,7 +29,7 @@ The main steps are:
      For example, you can send one version of a delivery to a small portion of the targeted population, and another version to the remaining population. This allows you to test a new version of a delivery as opposed to the delivery that is usually sent to your customers. You can also divide the targeted population into 3 groups in order to send them  three different versions of a delivery.
 
 1. **Create multiple versions** of the delivery corresponding to each sub-set. The variant to test can be the subject, the message content, the sender name, etc.
-1. Start the workflow, then use the **delivery logs** to analyze the behaviour of the sub-sets with each variant.
+1. Start the workflow, then use the **delivery logs** to analyze the behavior of the sub-sets with each variant.
 
 >[!NOTE]
 >

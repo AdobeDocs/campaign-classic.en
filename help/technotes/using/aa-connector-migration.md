@@ -33,7 +33,7 @@ A new integration between Campaign Classic v7 and Adobe Analytics is now availab
 
 * Note that the `nlserver` process should be configured with the IMS Technical Account User for the new connector to work. This change must be done by Adobe. To have this implemented, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-* If you were Adobe Genesis APIs in customised workflows for pulling and pushing the data from Adobe Analytics, you now need to use the new Adobe Analytics 1.4/2.0 APIs. [Learn more](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
+* If you were Adobe Genesis APIs in customized workflows for pulling and pushing the data from Adobe Analytics, you now need to use the new Adobe Analytics 1.4/2.0 APIs. [Learn more](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
 
 ## Are you impacted?
 

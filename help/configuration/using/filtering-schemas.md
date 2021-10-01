@@ -38,7 +38,7 @@ These filters are entered at the main **element** level of the schemas and, as s
   </sysFilter>
   ```
 
-* Restrict READ and WRITE permissons:
+* Restrict READ and WRITE permissions:
 
   Here, the filter is used to disallow both READ and WRITE permissions on the schema for all operators. Only the **internal** account, represented by the expression "$(loginId)!=0", has these permissions.
 

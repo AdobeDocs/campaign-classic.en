@@ -171,8 +171,8 @@ Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the fo
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following tools.
 
-* Java JDK 7. [Learn more](https://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5 / 4.3 / 5.x, except when embeded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Java JDK 7. [Learn more](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Libre Office 3.5 / 4.3 / 5.x, except when embedded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### Database engines {#dbe-eol}
 

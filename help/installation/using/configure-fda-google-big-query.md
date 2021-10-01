@@ -63,7 +63,7 @@ Bulk Load utility allows faster transfer, which is achieved through Google Cloud
 
 1. Download Windows 64-bit (x86_64) archive from this [page](https://cloud.google.com/sdk/docs/downloads-versioned-archives) and extract it in the corresponding directory.
 
-1. Run the `google-cloud-sdk\install.sh` script. You need to acccept the setting of path variable. 
+1. Run the `google-cloud-sdk\install.sh` script. You need to accept the setting of path variable. 
 
 1. After the installation, check that the path variable `...\google-cloud-sdk\bin` is set. If not, add it manually.
 
