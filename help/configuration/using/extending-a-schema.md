@@ -51,7 +51,7 @@ There are two methods for extending an existing schema:
    </schema>
    ```
 
-   The **dependingSchemas** attribute on the root element of the schema references the dependences on the extension schemas.
+   The **dependingSchemas** attribute on the root element of the schema references the dependencies on the extension schemas.
 
    The **belongsTo** attribute on the field fills in the schema where it is declared.
 

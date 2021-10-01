@@ -39,7 +39,7 @@ exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
 
 **Improvements**
 
-* Fixed an issue with the computing process of tracking indicators for transactionnal messages. (NEO-12529, NEO-12581)
+* Fixed an issue with the computing process of tracking indicators for transactional messages. (NEO-12529, NEO-12581)
 * Fixed an issue with the HTTPRequest API which did not wait for all callbacks to finish. (NEO-12628)
 * Indexes were added in the coupon temporary tables to optimize delivery sending. (NEO-12437)
 * Fixed an issue when analyzing a message which targeted recipients for Japanese (.JP) domains. (NEO-12246)
@@ -85,7 +85,7 @@ exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
 * Fixed an ID exhaustion issue when using seed addresses in a delivery. (NEO-11842)
 * Fixed a client freeze issue which could occur when using complex workflows. (NEO-11847)
 * Fixed a display issue when using a distribution of values with a 1:N link. (NEO-11820)
-* Fixed an Oracle error in Worflow Heatmap.
+* Fixed an Oracle error in Workflow Heatmap.
 * Fixed a right issue when adding an offer proposition in an enrichment activity.
 * Fixed an SQL data management connection issue.
 * Fixed an issue with the generation of temporary workflow table names in case of negative IDs.

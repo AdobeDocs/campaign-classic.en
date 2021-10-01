@@ -56,7 +56,7 @@ Three connection protection modes exist:
 
 New clients will use the blocking mode. If they want to allow a new URL, they need to contact their administrator to add it to the allow list.
 
-Existing customers coming from a migration can use the warning mode for a while. Meanwhile they need to analyze the outbound trafic before authorizing the URLS.
+Existing customers coming from a migration can use the warning mode for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLS.
 
 ## Command restriction (server-side)
 

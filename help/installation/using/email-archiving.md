@@ -134,7 +134,7 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 ## Email BCC best practices {#best-practices}
 
 * **BCC address mailbox**: make sure it has enough reception capacity to archive all the emails that are sent by the MTA.
-* **MTA mutualization**: the BCC archiving feature works at the MTA level. It lets you duplicate every email sent by the MTA. As the MTA can be mutualized across several instances (dev, test, or prod for example) or even across several clients (in a mid-sourcing environment), setting up this feature impacts security:
+* **MTA pooling**: the BCC archiving feature works at the MTA level. It lets you duplicate every email sent by the MTA. As the MTA can be pooled across several instances (dev, test, or prod for example) or even across several clients (in a mid-sourcing environment), setting up this feature impacts security:
 
     * If you share an MTA with multiple clients and one of them has this option activated, this client will access all the emails of the other clients that share the same MTA. To avoid such a situation, use a different MTA for each client.
     * If you use the same MTA across multiple instances (development, test, prod) for a single client, the messages sent from all three instances will be duplicated by the dataLogPath option.

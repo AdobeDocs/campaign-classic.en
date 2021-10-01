@@ -71,7 +71,7 @@ There are four types of `<element>`  elements in Adobe Campaign:
   * "smartCase": first letters upper case
   * "lowerCase": all lower case 
   * "upperCase": all upper case
-  * "email": email adress
+  * "email": email address
   * "phone": telephone number
   * "identifier": identifier name
   * "resIdentifier": file name

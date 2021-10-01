@@ -78,12 +78,12 @@ The connector also supports the following Hive options:
 
 ## Configuring Hadoop 2.1 {#configure-access-hadoop-2}
 
-If you need to connect to Hadoop 2.1, follow the steps decribed below for [Windows](#for-windows) or [Linux](#for-linux).
+If you need to connect to Hadoop 2.1, follow the steps described below for [Windows](#for-windows) or [Linux](#for-linux).
 
 ### Hadoop 2.1 for Windows {#for-windows}
 
 1. Install ODBC and [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) drivers for Windows.
-1. Create the DSN (Data Source Name) by running the ODBC DataSource Adminstrator tool. A System DSN sample for Hive is provided for you to modify.
+1. Create the DSN (Data Source Name) by running the ODBC DataSource Administrator tool. A System DSN sample for Hive is provided for you to modify.
 
    ```
    Description: vorac (or any name you like)
