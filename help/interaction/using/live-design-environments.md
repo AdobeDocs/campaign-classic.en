@@ -54,7 +54,7 @@ By default, Interaction comes with a pre-configured environment to target the re
 
    This option lets you activate anonymous interaction specific functions, particularly when configuring environment offer spaces. You can also configure options that allow you to switch from an "identified" environment to an "anonymous" environment.
 
-   For example, you can link a recipient environment offer space (identified contact) with an offer space that matches a visitor environment (unidentified contact). In this way, different offers will be made available to the contact depending on whether s/he is identified or not. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   For example, you can link a recipient environment offer space (identified contact) with an offer space that matches a visitor environment (unidentified contact). In this way, different offers will be made available to the contact depending on whether this contact is identified or not. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_env_anonymous_003.png)
 

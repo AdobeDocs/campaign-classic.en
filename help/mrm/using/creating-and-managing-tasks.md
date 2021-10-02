@@ -241,7 +241,7 @@ To create a task linked directly to a program:
 
 ### Operator availability {#operator-availability}
 
-In the task dashboard, an icon next to the operator's name indicates that they are already working on another task or event during the period covered by the task. (Task which the operator is in charge of or involved in: he appears in the **[!UICONTROL Assigned to]** field or in the task **[!UICONTROL Resources]** box).
+In the task dashboard, an icon next to the operator's name indicates that they are already working on another task or event during the period covered by the task. Task which the operator is in charge of or involved in appears in the **[!UICONTROL Assigned to]** field or in the task **[!UICONTROL Resources]** box.
 
 ![](assets/mrm_task_alert_operator_busy.png)
 
