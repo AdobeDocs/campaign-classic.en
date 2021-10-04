@@ -193,7 +193,7 @@ Campaign and Microsoft Dynamics are now connected. You can set up data synchroni
 
 >[!NOTE]
 >
-> You need to make sure to add to the allow list two URLs: the server URL and `login.microsoftonline.com` in the Server configuration.
+> You need to make sure to add to the allowlist two URLs: the server URL and `login.microsoftonline.com` in the Server configuration.
 
 ## Supported field data types {#ms-dyn-supported-types}
 

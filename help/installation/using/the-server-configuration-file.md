@@ -698,7 +698,7 @@ Here are the different parameters of the **ims** node. This is the configuration
  </tbody> 
 </table>
 
-## javaScript {#javascript}
+## JavaScript {#javascript}
 
 Here are the different parameters of the **javaScript** node. This is the configuration of the JavaScript interpreter.
 

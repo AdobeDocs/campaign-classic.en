@@ -144,7 +144,7 @@ Currently you can experiment sending an AMP email in two steps:
 
 1. Adobe Campaign enables you to test delivering an AMP-powered dynamic email to selected email addresses appropriately configured, in order to verify its contents and behavior. See [Testing AMP email delivery for selected addresses](#testing-amp-delivery-for-selected-addresses).
 
-1. Once tested, you can send a delivery or a campaign as part of the AMP for Email program by registering with the relevant email provider(s) to have your sender domain added to the allow list. See [Delivering AMP emails by registering with an email provider](#delivering-amp-emails-by-registering).
+1. Once tested, you can send a delivery or a campaign as part of the AMP for Email program by registering with the relevant email provider(s) to have your sender domain added to the allowlist. See [Delivering AMP emails by registering with an email provider](#delivering-amp-emails-by-registering).
 
 ### Testing AMP email delivery for selected addresses {#testing-amp-delivery-for-selected-addresses}
 
@@ -168,7 +168,7 @@ To test sending an AMP email to a Mail.ru address, follow the steps from the [Ma
 
 ### Delivering AMP emails by registering with an email provider {#delivering-amp-emails-by-registering}
 
- You can experiment delivering dynamic emails by registering with the supported email providers in order to have your sender domain added to the allow list.
+ You can experiment delivering dynamic emails by registering with the supported email providers in order to have your sender domain added to the allowlist.
 
 >[!NOTE]
 >

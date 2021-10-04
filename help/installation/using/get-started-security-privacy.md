@@ -44,7 +44,7 @@ Access management is an important part of security hardening. Here are some of t
 
 When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always follow these guidelines:
 
-* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
+* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allowlist.
 
 * **Secure the data model**: use named rights to limit operator actions, add system filters (sysFilter)
 

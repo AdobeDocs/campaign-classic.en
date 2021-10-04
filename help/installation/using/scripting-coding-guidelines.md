@@ -44,7 +44,7 @@ If you script using workflow, web applications, jssp, follow these best practice
     cnx.dispose()
     ```
 
-To avoid SQL injections, SQL functions must be added to the allow list to be used in Adobe Campaign. Once they are added to the allow list, they become visible to your operators in the expression editor. Refer to [this page](../../configuration/using/adding-additional-sql-functions.md).
+To avoid SQL injections, SQL functions must be added to the allowlist to be used in Adobe Campaign. Once they are added to the allowlist, they become visible to your operators in the expression editor. Refer to [this page](../../configuration/using/adding-additional-sql-functions.md).
 
 >[!IMPORTANT]
 >
@@ -223,6 +223,6 @@ To use JSON.parse you have to include "shared/json2.js" in your webApp:
 
 ![](assets/scripting-captcha6.png)
 
-Since build 8797, in order to use the verification API URL, you have to add it to the allow list in the serverConf file by adding in urlPermission node:
+Since build 8797, in order to use the verification API URL, you have to add it to the allowlist in the serverConf file by adding in urlPermission node:
 
 `<url dnsSuffix="www.google.com" urlRegEx="https://www.google.com/recaptcha/api/siteverify"/>`

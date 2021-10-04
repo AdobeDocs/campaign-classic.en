@@ -53,21 +53,21 @@ Global impacts on database and infrastructure are listed below.
 
 Global impacts on IPs, block list, sub-domains and URLs are listed below.
 
-* **How will IP on the allow list be handled? Will the customers need to add new IP addresses to the allow list for incoming traffic from Campaign?**
+* **How will IP on the allowlist be handled? Will the customers need to add new IP addresses to the allowlist for incoming traffic from Campaign?**
 
-    The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses in the allow list in their system.
+    The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses in the allowlist in their system.
     
-    [Click here](#config) for more details about IP on the allow list.
+    [Click here](#config) for more details about IP on the allowlist.
 
-* **How will we handle port added to the allow list for SFTP/FTP access?**
+* **How will we handle port added to the allowlist for SFTP/FTP access?**
     
-    SFTP configuration (public keys + IP on the allow list) will be moved from legacy Data Center to Public Cloud (AWS) as well. No action expected from the customer.
+    SFTP configuration (public keys + IP on the allowlist) will be moved from legacy Data Center to Public Cloud (AWS) as well. No action expected from the customer.
 
 * **Are we changing IPs?**
     
-    The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses to the allow list in their system.
+    The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses to the allowlist in their system.
 
-    [Click here](#config) for more details about IP on the allow list.
+    [Click here](#config) for more details about IP on the allowlist.
 
 * **How will sub-domain delegation be handled?**
     
@@ -93,7 +93,7 @@ Global impacts on IPs, block list, sub-domains and URLs are listed below.
     
     When the migration is complete, the Campaign instance will have entirely different sending IPs. As a matter of ensuring a smooth transition, Adobe will implement a ramp-up of the new sending IPs by progressively switching traffic from the old to the new IPs.
 
-* **Are we moving over URL on the allow list?**
+* **Are we moving over URL on the allowlist?**
     
     Yes, this is stored in the server configuration file which will be copied from the source over to the new instance.
 
@@ -107,7 +107,7 @@ Global impacts on IPs, block list, sub-domains and URLs are listed below.
 
 ![](assets/do-not-translate/maintenance.png) 
 
-### Note about IP on the allow list{#config}
+### Note about IP on the allowlist{#config}
 
 Migration to public Cloud will come with new IPs for Adobe Campaign application servers so that changing IP may then have impacts on connectivity between Adobe servers and your Information Systems.
 
@@ -117,7 +117,7 @@ Let’s consider the two cases :
 
 * Inbound traffic: All network activity that is initiated from your systems or any other third party to Adobe Campaign servers. Configuration will be handled by Adobe and then copied from legacy to public Cloud during migration. Then connectivity for inbound traffic will be preserved as is after the migration and no action is expected from Customer side 
 
-* Outbound traffic: All network activity that is initiated by Adobe Campaign servers to your Information System or any other third party (ex: SMS provider). Depending on security policies in place in your organization, IPs changing may require allow list operation from your Information System or any other third party
+* Outbound traffic: All network activity that is initiated by Adobe Campaign servers to your Information System or any other third party (ex: SMS provider). Depending on security policies in place in your organization, IPs changing may require allowlist operation from your Information System or any other third party
 
 ### Global impacts
 
@@ -125,17 +125,17 @@ Global impacts on configuration, connectivity with other systems and products, A
 
 * **Will the migration impact connectivity to external accounts?**
     
-    Yes. Third-party integrations, SMS providers for example, should add new Adobe Campaign application servers IP addresses to the allow list.
+    Yes. Third-party integrations, SMS providers for example, should add new Adobe Campaign application servers IP addresses to the allowlist.
 
-* **Will the migration impact connectivity to Adobe Analytics using the Genesis connector? What about adding Campaign IP addresses to the allow list on the Adobe Analytics side?**
+* **Will the migration impact connectivity to Adobe Analytics using the Genesis connector? What about adding Campaign IP addresses to the allowlist on the Adobe Analytics side?**
     
     Adobe Campaign application servers IP addresses will change. This step will be handled by Adobe Customer Care post-migration. 
 
 * **Will the migration impact connectivity with other Adobe solutions (AEM, Target, etc.)?**
     
-    Integrations are a combination of IP addresses declared on the allow list and web service account configuration. This will be accounted for and owned by Adobe Customer Care.
+    Integrations are a combination of IP addresses declared on the allowlist and web service account configuration. This will be accounted for and owned by Adobe Customer Care.
     
-    There will be IP addresses on the allow list that will be required in the external solution as Application servers IP will change. This information will be provided. Other parts of integration are IMS-based and should work as-is.
+    There will be IP addresses on the allowlist that will be required in the external solution as Application servers IP will change. This information will be provided. Other parts of integration are IMS-based and should work as-is.
 
 * **What about customer that are not attached to Org ID for IMS integration?**
 
@@ -147,9 +147,9 @@ Global impacts on configuration, connectivity with other systems and products, A
 
 * **Is API connectivity impacted by the migration?**
     
-    The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses to the allow list in their system.
+    The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses to the allowlist in their system.
     
-    [Click here](#config) for more details about IP on allow list.
+    [Click here](#config) for more details about IP on allowlist.
 
 * **Will we ensure that all JavaScript memory configuration parameters are set correctly after the migration?**
     
@@ -192,17 +192,17 @@ Impacts on permissions, certificates and SFTP access are listed below.
 
 * **If SFTP connection could not be established then what is the workaround/plan to keep customer operational?**
     
-    The only connectivity issue that may arise is related to the allow list on customer side. Customer should add this test on non production environment to make sure it works before moving to prod.
+    The only connectivity issue that may arise is related to the allowlist on customer side. Customer should add this test on non production environment to make sure it works before moving to prod.
 
-* **Are there any data center specific allow list configurations that need to move over?**
+* **Are there any data center specific allowlist configurations that need to move over?**
     
-    No, there is no data center specific allow list configuration to manage.
+    No, there is no data center specific allowlist configuration to manage.
 
 * **Are we ensuring that custom scripts will be successfully executed in the new environment?**
 
     Customer implementation can use custom scripts (Perl/Shell/Python/Java Script) in workflows to manipulate files and folders for example. 
     
-    On the hosted instance, scripts are executed only through the javascript engine. These specific implementations can cause security gaps and postupgrade issues. They are not supported.
+    On the hosted instance, scripts are executed only through the JavaScript engine. These specific implementations can cause security gaps and postupgrade issues. They are not supported.
 
 * **With IMS integration, will it work as is in new instance or will any additional configuration update is needed?**
     
@@ -267,9 +267,9 @@ Global impacts during the migration are listed below.
     
     Depending on customer complexity Bake time of at least 1 week is required between Stage environment and Production environment migrations.
 
-* **Who will handle adding new IPs to the allow list?**
+* **Who will handle adding new IPs to the allowlist?**
     
-    Adobe Customer Care team will handle ensuring that the customer and any third parties can access the new system by adding the new IPs to the allow list.
+    Adobe Customer Care team will handle ensuring that the customer and any third parties can access the new system by adding the new IPs to the allowlist.
 
 ## Support and other useful links{#support}
 
