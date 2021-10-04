@@ -5,6 +5,7 @@ description: Learn how to configure URL permissions
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 ---
 # Configure URL permissions (on-premise){#url-permissions}
 
