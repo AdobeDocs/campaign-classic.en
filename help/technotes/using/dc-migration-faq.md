@@ -172,7 +172,7 @@ Global impacts on configuration, connectivity with other systems and products, A
 
 With this migration to Public Cloud (AWS), customer environments will be kept up to date with all necessary security requirements. This includes :
 
-* Newest OS and security patches on a periodic bases
+* Newest OS and security patches on a periodic basis
 * Isolation of infrastructure per customer
 * Managed security and audit reviews for supporting cloud infrastructure such as load balancers, network security rules and storage encryption.
 
