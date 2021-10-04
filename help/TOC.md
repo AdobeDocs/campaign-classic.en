@@ -849,6 +849,7 @@ type: Documentation
   + Emails and push notifications{#technotes-email}
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
        + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+       + [How to  update incorrect hard bounces](delivery/using/update-bounce-qualification.md)
        + [iOS certificate update](technotes/using/ios-certificate-update.md)
        + [Tracked URLs update](technotes/using/tracked-urls.md)
   + Migration to Adobe Managed Services{#dc-migration}

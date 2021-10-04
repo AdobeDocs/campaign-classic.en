@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Adobe Campaign Classic Documentation Updates
+title: Adobe Campaign Classic v7 Documentation Updates
 description: This page lists all the new features and updates in Adobe Campaign Classic documentation
 feature: Overview
 role: User
@@ -15,6 +15,22 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## October 2021{#oct-2021}
+
+Existing technotes have been grouped to the new **Technote** section.
+
+The **Hardware sizing recommendations** page has been updated and added to the **Technotes** section. [Read more](../../technotes/using/hardware-sizing.md)
+
+## September 2021{#sept-2021}
+
+**Documentation updates coming with the 21.1.4 release**
+
+The **Gauge** chart type has been removed.
+
+Reports and web applications screenshots and parameters have been updated following Adobe Flash removal.
+
+The [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) description has been updated with a new guardrail.
+
 ## August 2021{#aug-2021}
 
 Added new workflow activity: Change Data Source - [Learn more](../../workflow/using/change-data-source.md)
@@ -22,10 +38,6 @@ Added new workflow activity: Change Data Source - [Learn more](../../workflow/us
 Applicability badges have been added to the documentation pages: **Applies to v7** for Campaign Classic v7 capabilities only, and **Applies to v7 & v8** for common capabilities.
 
 Added a note about the integration between Campaign and AEM Assets which has been decomissonned starting Adobe Experience Manager 6.4. [Learn more](../../integrations/using/configuring-access-to-assets.md)
-
-Reports and web applications screenshots and parameters have been updated following Adobe Flash removal.
-
-The **Gauge** chart type has been removed.
 
 
 ## July 2021 {#july-2021}
