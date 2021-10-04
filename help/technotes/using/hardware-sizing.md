@@ -25,9 +25,9 @@ Software compatibility is detailed in the [Compatibility Matrix](../../rn/using/
 
 Deployment diagrams and hardware sizing recommendations are provided for three representative scenarios:
 
-1.	Moderate-Size – 5 millions active recipients in the system
-1.	Large-Size – 20 million active recipients in the system
-1.	Enterprise – 50 million active recipients, with transactional messaging
+1. Moderate-Size – 5 millions active recipients in the system
+1. Large-Size – 20 million active recipients in the system
+1. Enterprise – 50 million active recipients, with transactional messaging
 
 ### Assumptions
 
