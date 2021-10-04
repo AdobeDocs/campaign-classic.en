@@ -19,7 +19,7 @@ This substitution lets you save time when creating the delivery: instead of manu
 
 In this use case, the site **My online library** would like to send a discount to its clients, based on their favorite literary genre.
 
-The delivery manager has integrated a personalization field linked with favorite genre into his email. He would like to use some seed addresses. These seed addresses have the personalization field in their table but no value is saved there.
+The delivery manager has integrated a personalization field linked with favorite genre into his email. The aim is to use some seed addresses: these seed addresses have the personalization field in their table but no value is saved there.
 
 To use the random field substitution you must have:
 

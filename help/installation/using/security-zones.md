@@ -20,7 +20,7 @@ Operators are linked to a security zone from its profile in the console, accessi
 >
 >As a **hosted** customer, if you can access [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html), you can use the Security Zone self service interface. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
 >
->Other **hybrid/hosted** customers need to reach out to Adobe support team to add IP to the allow list.
+>Other **hybrid/hosted** customers need to reach out to Adobe support team to add IP to the allowlist.
 >
 
 ## Create security zones {#creating-security-zones}
@@ -222,7 +222,7 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
 * Minimize the use of sessionTokenOnly="true":
 
   * Warning: If this attribute is set to true, the operator can be exposed to a **CRSF attack**.
-  * In addition, the sessionToken cookie is not set with an httpOnly flag, so some client-side javascript code can read it.
+  * In addition, the sessionToken cookie is not set with an httpOnly flag, so some client-side JavaScript code can read it.
   * However Message Center on multiple execution cells needs sessionTokenOnly: create a new security zone with sessionTokenOnly set to "true" and add **only the needed IP(s)** in this zone.
 
 * When possible, set all allowHTTP, showErrors to be false (not for localhost) and check them.
@@ -242,6 +242,6 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
 
 * HttpOnly cookie/useSecurityToken: refer to **sessionTokenOnly** flag.
 
-* Minimize IPs added to the allow list: Out of the box, in security zones, we have added the 3 ranges for private networks. It is unlikely that you will use all of these IP addresses. So keep only the ones that you need.
+* Minimize IPs added to the allowlist: Out of the box, in security zones, we have added the 3 ranges for private networks. It is unlikely that you will use all of these IP addresses. So keep only the ones that you need.
 
 * Update webApp/internal operator to be only accessible in localhost.

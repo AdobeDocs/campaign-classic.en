@@ -105,7 +105,7 @@ The Control Panel is available directly from Adobe Experience Cloud. It is acces
 
 ### SFTP management
 
-In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) for more information.
+In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allowlist, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) for more information.
 
 ### Subdomains and certificates
 
@@ -117,7 +117,7 @@ You can monitor your subdomains and their certificates. Learn more in these page
 ### Instance settings
 
 Learn how to manage your Campaign Classic instances settings in the Control Panel. Learn more in these pages:
-* [Add IPs on the allow list](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html) to access your Campaign instance(s)
+* [Add IPs on the allowlist](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html) to access your Campaign instance(s)
 * [Manage URL permissions](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
 * [Access instance details](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
 * [Manage GPG keys for data encryption](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)

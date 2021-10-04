@@ -46,15 +46,15 @@ The rights assigned to the offer manager enable them to carry out the following 
 
    ![](assets/offer_operators_create_002.png)
 
-The rights assigned to the delivery manager are/enable them to carry out the following tasks:
+The rights assigned to the delivery managers enable them to carry out the following tasks:
 
 * Display **[!UICONTROL Live]** environments.
 * Display and modify offer categories.
-* Approve offers if s/he is specified as one of its reviewers.
+* Approve offers if this delivery manager is specified as one of its reviewers.
 
   >[!NOTE]
   >
-  >The delivery manager can only approve an offer if he has been defined as a reviewer during the offer configuration.
+  >Delivery managers can only approve an offer if they have been defined as a reviewer during the offer configuration.
 
 ## Recap of rights according to operator {#recap-of-rights-according-to-operator}
 

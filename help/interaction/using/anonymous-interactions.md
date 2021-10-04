@@ -39,7 +39,7 @@ To create categories and spaces, apply the same process as for identified visito
 
 Anonymous visitors may be submitted to a cookie identification process when they connect. This implicit recognition is based on the visitor's browser history.
 
-During this step, a comparison is made between the data recovered by the cookies and those in your database. In some cases, the visitor is recognized (he is then implicitly identified), in other cases, he is not recognized (and therefore remains anonymous).
+During this step, a comparison is made between the data recovered by the cookies and those in your database. In some cases, visitors are recognized (they arethen implicitly identified), in other cases, they are not recognized (and therefore remains anonymous).
 
 To run this analysis, for the offer space, check the **[!UICONTROL Implicitly identify the individual based on their browser history]** option.
 

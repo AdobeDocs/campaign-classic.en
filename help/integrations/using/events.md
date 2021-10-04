@@ -24,7 +24,7 @@ Since editing the Javascript code requires technical skills, please do not attem
 
 Pipeline uses a JavaScript function to process each message. This function is user-defined.
 
-It is configured in the **[!UICONTROL NmsPipeline_Config]** option under the "JSConnector" attribute. This javascript is called every time an event is received. It's run by the [!DNL pipelined] process.
+It is configured in the **[!UICONTROL NmsPipeline_Config]** option under the "JSConnector" attribute. This JavaScript is called every time an event is received. It's run by the [!DNL pipelined] process.
 
 The sample Javascript file is cus:triggers.js.
 
