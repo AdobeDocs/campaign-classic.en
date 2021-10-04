@@ -13,7 +13,7 @@ exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 
 As part of the [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe decommissions the legacy Data Center. Campaign Classic instances must be transferred to Public Cloud Amazon Web Services (AWS). [Learn more about this initiative](dc-migration.md).
 
-You will find below a set of common questions about this project, the impact on your Campaign environments, and other useful resources.
+Below is a set of common questions about this project, the impact on your Campaign environments, and other useful resources.
 
 For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
@@ -31,11 +31,11 @@ Global impacts on database and infrastructure are listed below.
 
 * **Is there a risk of data loss?**
     
-    The database will be dumped from the legacy datacenter and restored in Public Cloud (AWS). When restarted on the new data center, the application will resume from the exact state it was before shutdown. Users won’t see any difference, except that some scheduled tasks will have been delayed.
+    The database will be dumped from the legacy datacenter and restored in Public Cloud (AWS). When restarted on the new data center, the application will resume from the exact state it was before the migration. Users won’t see any difference, except that some scheduled tasks will have been delayed.
 
 * **Are there any differences in the size of the package between the Legacy data center and the Public Cloud?**
     
-    We are provisioning in Public Cloud (AWS) with new package definitions based on current database size, disk size etc. For example, if a customer has one Application server in legacy Data Centers, they can can two Application servers in Public Cloud (AWS) based on package definitions.
+    We are provisioning in Public Cloud (AWS) with new package definitions based on current database size, disk size etc. For example, if a customer has one Application server in legacy Data Centers, they can have two Application servers in Public Cloud (AWS) based on package definitions.
 
 * **Is the build number or Campaign version going to change?**
     
@@ -99,9 +99,9 @@ Global impacts on IPs, block list, sub-domains and URLs are listed below.
 
 * **What should be the impact with our delegated sub-domain we use to brand our communication?**
     
-    The sub-domain(s) used for marketing communication will remain the same. However, depending on the implementation, actions might will be needed on the client side: 
-    * In case of sub-domain delegation to Adobe (default), Adobe will take care of all changes and ensure a seamless transition.
-    * In case of CNAME setup (exception), the client will be requested to implement changes. Coordination with Adobe will be needed.
+    The sub-domain(s) used for marketing communication remains the same. However, depending on the implementation, actions are needed on the client side: 
+    * In case of sub-domain delegation to Adobe (default), Adobe takes care of all changes and ensure a seamless transition.
+    * In case of CNAME setup (exception), the client is requested to implement changes, in coordination with Adobe.
 
 ## Configuration and connectivity impacts
 
@@ -133,9 +133,9 @@ Global impacts on configuration, connectivity with other systems and products, A
 
 * **Will the migration impact connectivity with other Adobe solutions (AEM, Target, etc.)?**
     
-    Integrations are a combination of IP adresses declared on the allow list and web service account configuration. This will be accounted for and owned by Adobe Customer Care.
+    Integrations are a combination of IP addresses declared on the allow list and web service account configuration. This will be accounted for and owned by Adobe Customer Care.
     
-    There will be IP adresses on the allow list that will be required in the external solution as Application servers IP will change. This information will be provided. Other parts of integration are IMS-based and should work as-is.
+    There will be IP addresses on the allow list that will be required in the external solution as Application servers IP will change. This information will be provided. Other parts of integration are IMS-based and should work as-is.
 
 * **What about customer that are not attached to Org ID for IMS integration?**
 
@@ -217,7 +217,7 @@ Global impacts during the migration are listed below.
 
 * **Do we need to plan stopping Marketing activity during the migration?**  
 
-    Adobe recommends slowing down and ideally pausing all executions just before the application is shutdown on the legacy Data Center: deliveries and workflows. That will ease the restart on Cloud Server (AWS) as processes will have been given time to pause “gracefully” and save any in-progress execution state. 
+    Adobe recommends slowing down and ideally pausing all executions just before the application is shut down on the legacy Data Center: deliveries and workflows. That will ease the restart on Cloud Server (AWS) as processes will have been given time to pause “gracefully” and save any in-progress execution state. 
 
 * **Do we expect downtime of our Adobe Campaign service?**
 
@@ -259,11 +259,11 @@ Global impacts during the migration are listed below.
     
     Rollback plan is to switch DNS back and set source database back to read-write from read only. Eventually we will have automation for it.
 
-* **After the migration, do we keep an access to old instances?**
+* **After the migration, can we still access to old instances?**
     
     Once the application migration is complete, there is no plan for running any process again on the legacy Data Center. We expect that all data on the legacy Data Center can be erased, except for temporary backup purposes, until the scheduled backup processes have run on Public Cloud (AWS).
 
-* **How many time will be allowed for testing of each instance after migration to Public Cloud?**
+* **How much time will be allowed for testing of each instance after migration to Public Cloud?**
     
     Depending on customer complexity Bake time of at least 1 week is required between Stage environment and Production environment migrations.
 

@@ -10,6 +10,7 @@ user-guide-description: With Adobe Campaign, you can use rich customer data to c
 sub-product: adobe campaign classic
 type: Documentation
 ---
+
 # Adobe Campaign Classic v7 documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
@@ -840,9 +841,8 @@ type: Documentation
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes and recommendations {#technotes}
-       + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
+  + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
   + Upgrades and migration{#technote-migration}
-       + [Analytics connector EOL](technotes/using/aa-connector-migration.md)
        + [Technotes](technotes/using/technote.md)
        + [Campaign configuration updates](technotes/using/acc-config-updates.md)
        + [IMS updates](technotes/using/ims-updates.md)

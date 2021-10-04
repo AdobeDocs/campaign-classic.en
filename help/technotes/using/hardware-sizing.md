@@ -72,7 +72,7 @@ The general architecture is almost identical regardless of the volumes. The secu
 
 Estimated volume:
 
-| Channel                 | Comments          |
+| Channel                 | Volume          |
 | ----------------------- | ----------------- |
 | Active recipients       | 5 millions     |
 | Email                   | 4.2 million/month |
@@ -121,7 +121,7 @@ Also consider that due to the volume of information processed daily, the IOPS of
 
 Estimated volume:
 
-| Channel                 | Comments          |
+| Channel                 | Volume          |
 | ----------------------- | ----------------- |
 | Active recipients       | 20 millions     |
 | Email                   | 42 millions/month |
@@ -157,7 +157,7 @@ It is estimated that the disk space required on the database to store all Adobe 
 
 Estimated volume:
 
-| Channel                 | Comments          |
+| Channel                 | Volume          |
 | ----------------------- | ----------------- |
 | Active recipients       | 50 millions |
 | Email                   | 108 millions/month |
