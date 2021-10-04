@@ -64,7 +64,7 @@ It is also imperative that you follow your database engine security.
 
 >[!CAUTION]
 >
->Starting July 14, 2021 any client systems that do not support the TLS 1.2 protocol will lose access to all Adobe products and services. Ensure that all user and client systems are TLS 1.2 compliant before this date. [Learn more](https://helpx.adobe.com/in/x-productkb/multi/eol-tls-support.html)
+>Starting July 14, 2021 any client systems that do not support the TLS 1.2 protocol will lose access to all Adobe products and services. Ensure that all user and client systems are TLS 1.2 compliant before this date. [Learn more](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
 
 ## Server configuration
 
