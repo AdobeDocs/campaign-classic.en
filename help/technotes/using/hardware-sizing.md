@@ -9,25 +9,28 @@ description: Hardware sizing recommendations for Campaign Classic v7
 
 ## Overview
 
+>[!CAUTION]
+>
+>This guide is provided as a general example guide only. You must engage with your Adobe Campaign Customer Success Manager to measure the exact sizing of your deployment before starting your Campaign project. **Do not** acquire or deploy any infrastructure or hardware until this is done.
+
 This document provides general guidelines for Adobe Campaign Classic v7 deployment at your on-premise data center or virtualized cloud environment. This type of deployment, referred to as **hybrid** or **mid-sourcing**, places the Campaign marketing instance and marketing database under your operational control, while using Adobe Cloud Messaging services to send emails, SMS or SMPP messages, and collect email open, bounce, and click tracking data.
 
 The marketing instance is the portion of the Adobe Campaign architecture that drives all marketing activity, and stores all recipient data and analytic data returned by campaigns. The marketing instance is a set of on-premise servers running Adobe Campaign services, and a relational database.
 
-The information in this document do not apply if you are using a fully hosted Adobe Campaign instance (deployed in Adobe Cloud Services), nor do they apply to Adobe Campaign Standard.
+>[!CAUTION]
+>
+>The information in this document do not apply if you are using a fully hosted Adobe Campaign instance (deployed in Adobe Cloud Services).
 
 Software compatibility is detailed in the [Compatibility Matrix](../../rn/using/compatibility-matrix.md).
 
->[!CAUTION]
->
->This guide is provided as a general example guide only. You must engage with your Adobe Campaign Customer Success Manager to measure the exact sizing of your deployment before starting your Campaign project. **Do not** acquire or deploy any infrastructure or hardware until this is done.
 
 ### Scenarios
 
 Deployment diagrams and hardware sizing recommendations are provided for three representative scenarios:
 
-1. Moderate-Size – 5 millions active recipients in the system
-1. Large-Size – 20 million active recipients in the system
-1. Enterprise – 50 million active recipients, with transactional messaging
+1. [Moderate-Size](#scenario-1) – 5 millions active recipients in the system
+1. [Large-Size](#scenario-2) – 20 million active recipients in the system
+1. [Enterprise](#scenario-3) – 50 million active recipients, with transactional messaging
 
 ### Assumptions
 
