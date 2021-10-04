@@ -613,7 +613,7 @@ type: Documentation
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
   + Security and privacy settings {#security-privacy}
-       + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
+       + [Security and privacy checklist](installation/using/get-started-security-privacy.md)
        + [Personalization and privacy](installation/using/privacy.md)
        + [Secure access management](installation/using/access-management.md)
        + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)
