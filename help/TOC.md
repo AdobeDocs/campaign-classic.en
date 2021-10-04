@@ -10,6 +10,7 @@ user-guide-description: With Adobe Campaign, you can use rich customer data to c
 sub-product: adobe campaign classic
 type: Documentation
 ---
+
 # Adobe Campaign Classic v7 documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
@@ -32,12 +33,6 @@ type: Documentation
     + [Release 18.4](rn/using/release--18-4.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
-  + [Technotes](technotes/using/technote.md)
-  + [iOS certificate update](technotes/using/ios-certificate-update.md)
-  + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-  + [Campaign configuration updates](technotes/using/acc-config-updates.md)
-  + [Tracked URLs update](technotes/using/tracked-urls.md)
-  + [IMS updates](technotes/using/ims-updates.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -846,6 +841,16 @@ type: Documentation
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
+  + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
+  + Upgrades and migrations{#technote-migration}
+       + [Technotes](technotes/using/technote.md)
+       + [Campaign configuration updates](technotes/using/acc-config-updates.md)
+       + [IMS updates](technotes/using/ims-updates.md)
+  + Emails and push notifications{#technotes-email}
+       + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
+       + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+       + [iOS certificate update](technotes/using/ios-certificate-update.md)
+       + [Tracked URLs update](technotes/using/tracked-urls.md)
   + Migration to Adobe Managed Services{#dc-migration}
        + [Migration to Public Cloud](technotes/using/dc-migration.md)
        + [FAQ](technotes/using/dc-migration-faq.md)
