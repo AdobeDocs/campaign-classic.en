@@ -840,13 +840,13 @@ type: Documentation
        + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
   + [Rollback procedure](migration/using/about-rollback.md)
-+ Technotes and recommendations {#technotes}
++ Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
-  + Upgrades and migration{#technote-migration}
+  + Upgrades and migrations{#technote-migration}
        + [Technotes](technotes/using/technote.md)
        + [Campaign configuration updates](technotes/using/acc-config-updates.md)
        + [IMS updates](technotes/using/ims-updates.md)
-  + Email and push notifications{#technotes-email}
+  + Emails and push notifications{#technotes-email}
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
        + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
        + [iOS certificate update](technotes/using/ios-certificate-update.md)
