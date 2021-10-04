@@ -210,7 +210,6 @@ type: Documentation
        + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
        + [Delivery statuses](delivery/using/delivery-statuses.md)
        + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
-       + [Update bounce qualification after an ISP outage](delivery/using/update-bounce-qualification.md)
        + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
   + Track messages {#tracking-messages}
        + [About message tracking](delivery/using/about-message-tracking.md)
