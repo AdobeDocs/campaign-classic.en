@@ -115,10 +115,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## RDBMS servers{#RDBMSservers}
 
->[!NOTE]
->
->RDBMS driver must match with RDBMS server version.
-
 <table>
 <tbody>
 <tr>
@@ -131,7 +127,10 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </td>
 </tr>
 <tr>
-<td>PostgreSQL</td>
+<td>
+<p>PostgreSQL</p>
+<p>Default database server for Hosted environments</p>
+</td>
 <td>
 <p>13.x</p>
 <p>12.x</p>
@@ -159,7 +158,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 >[!NOTE]
 >
->PostgreSQL is the default database server for Hosted environments.
+>RDBMS driver must match with RDBMS server version.
 
 ## CRM connectors{#CRMconnectors}
 
@@ -309,7 +308,6 @@ The following operating systems and browser are **required** to use [Campaign Cl
 
 ### Browser
 
-[]
 <table>
 <tbody>
 <tr>
