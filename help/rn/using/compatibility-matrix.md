@@ -113,7 +113,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tbody>
 </table>
 
-## RDBMS servers{#RDBMSservers}
+## Relation Database Management Systems (RDBMS){#RDBMSservers}
 
 <table>
 <tbody>
@@ -127,10 +127,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </td>
 </tr>
 <tr>
-<td>
-<p>PostgreSQL</p>
-<p>Default database server for Hosted environments</p>
-</td>
+<td>PostgreSQL</td>
 <td>
 <p>13.x</p>
 <p>12.x</p>
@@ -139,7 +136,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p>Note: you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
+<p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
 <tr>
@@ -150,7 +147,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 and SP2</p>
-<p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. [Learn more](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
+<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. [Learn more](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +155,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 >[!NOTE]
 >
->RDBMS driver must match with RDBMS server version.
+>* RDBMS driver must match with RDBMS server version.
+>
+>* PostgreSQL is the RDBMS for Hosted environments.
 
 ## CRM connectors{#CRMconnectors}
 
