@@ -5,6 +5,7 @@ description: Learn how to configure security zones
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 ---
 # Define security zones (on-premise){#defining-security-zones}
 
