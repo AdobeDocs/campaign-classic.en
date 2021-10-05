@@ -5,7 +5,6 @@ description: Learn how to update bounce qualification after an ISP outage.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-hidefromtoc: yes
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 ---
 # Update incorrect hard bounces after Apple outage {#update-bounce-qualification.md}

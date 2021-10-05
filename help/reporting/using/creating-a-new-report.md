@@ -33,7 +33,7 @@ To create a report, apply the following steps:
 
 1. Save this report.
 
-## Modelizing the chart {#modelizing-the-chart}
+## Modeling the chart {#modelizing-the-chart}
 
 After saving your report, this should be displayed. You can now build the chart of your report.
 

@@ -42,7 +42,7 @@ Product Name;Product price;Store
 Computer;2000;London 3
 Tablet;600;Cambridge
 Computer;2000;London 5
-Comptuer;2000;London 8
+Computer;2000;London 8
 Tablet;600;Cambridge
 Phone;500;London 5
 ```

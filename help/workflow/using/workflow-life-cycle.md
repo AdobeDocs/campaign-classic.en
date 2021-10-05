@@ -25,7 +25,7 @@ The workflow cycle has three main steps.
 
   A workflow is 'Finished' when there are no longer any tasks in progress or when an operator has explicitly stopped the instance.
 
-For example, the **Start** and **Delivery** activities are outlined while the **Approval** activity flashes in the worfklow below.
+For example, the **Start** and **Delivery** activities are outlined while the **Approval** activity flashes in the workflow below.
 
 ![](assets/new-workflow-6.png)
 

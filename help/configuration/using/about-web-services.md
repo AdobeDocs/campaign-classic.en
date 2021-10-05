@@ -24,7 +24,7 @@ Adobe Campaign APIs are used in JavaScript within the application and in SOAP ou
 
 ## Prerequisites {#prerequisites}
 
-Before using the Adobe Campaign APIs, you need to be familliar with the following topics:
+Before using the Adobe Campaign APIs, you need to be familiar with the following topics:
 
 * Javascript
 * SOAP protocol
@@ -34,7 +34,7 @@ Before using the Adobe Campaign APIs, you need to be familliar with the followin
 
 Adobe Campaign uses two types of APIs:
 
-* Generic data acces APIs for querying the datamodel data. Refer to [Data oriented APIs](../../configuration/using/data-oriented-apis.md).
+* Generic data access APIs for querying the datamodel data. Refer to [Data oriented APIs](../../configuration/using/data-oriented-apis.md).
 * Business specific APIs that let you act on each object: deliveries, workflows, subscriptions, etc. Refer to [Business oriented APIs](../../configuration/using/business-oriented-apis.md).
 
 In order to develop APIs and interact with Adobe Campaign, you need to be familiar with your datamodel. Adobe Campaign lets you generate a complete description of the base. Refer to [Description of the model](../../configuration/using/data-oriented-apis.md#description-of-the-model).

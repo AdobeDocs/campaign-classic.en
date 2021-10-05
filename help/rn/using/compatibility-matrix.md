@@ -163,6 +163,8 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## CRM connectors{#CRMconnectors}
 
+Customer Relationship Management (CRM) systems compatible with Adobe Campaign are listed below. [Learn more](../../platform/using/crm-connectors.md) about Campaign CRM connectors.
+
 <table>
 <tbody>
 <tr>
@@ -181,6 +183,8 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </table>
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
+
+External databases compatible with Adobe Campaign [Federated Data Access module](../../installation/using/about-fda.md) are listed below.
 
 <table>
 <tbody>
@@ -280,7 +284,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Client Console {#ClientConsoleoperatingsystems}
 
-:warning: The following operating systems and browser are required to use Campaign Client Console.
+The following operating systems and browser are **required** to use [Campaign Client Console](../../installation/using/installing-the-client-console.md). 
 
 ### Operating systems
 
@@ -305,6 +309,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ### Browser
 
+[]
 <table>
 <tbody>
 <tr>
@@ -320,6 +325,8 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 
 ## Mobile SDK{#MobileSDK}
+
+You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md) on the operating systems listed below, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). 
 
 <table>
 <tbody>
@@ -342,7 +349,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Browsers{#Browsers}
 
-The following browsers are compatible with Campaign for Web Access.
+The following browsers are compatible with Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 <table>
 <tbody>
@@ -393,6 +400,7 @@ The following browsers are compatible with Campaign for Web Access.
 ## More like this{#Morelikethis}
 
 * [Campaign Classic Release notes](../../rn/using/latest-release.md)
-* [Installation Guide](../../installation/using/general-architecture.md)
+* [Campaign General Architecture](../../installation/using/general-architecture.md)
+* [Hardware sizing recommendations](../../technotes/using/hardware-sizing.md)
 * [Deprecated features and systems](../../rn/using/deprecated-features.md)
 * [Build upgrade procedure](../../production/using/build-upgrade.md)

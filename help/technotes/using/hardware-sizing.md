@@ -3,7 +3,7 @@ product: campaign
 title: Hardware sizing recommendations for Campaign Classic v7
 description: Hardware sizing recommendations for Campaign Classic v7
 ---
-# Hardware sizing recommendations for Campaign Classic v7 {#hardware-sizing-reco}
+# Hardware sizing recommendations{#hardware-sizing-reco}
 
 ![](../../assets/v7-only.svg)
 
@@ -11,9 +11,9 @@ description: Hardware sizing recommendations for Campaign Classic v7
 
 >[!CAUTION]
 >
->This guide is provided as a general example guide only. You must engage with your Adobe Campaign Customer Success Manager to measure the exact sizing of your deployment before starting your Campaign project. **Do not** acquire or deploy any infrastructure or hardware until this is done.
+>This article is provided as a general example guide only. You must engage with your Adobe Campaign Customer Success Manager to measure the exact sizing of your deployment before starting your Campaign project. **Do not** acquire or deploy any infrastructure or hardware until this is done.
 
-This document provides general guidelines for Adobe Campaign Classic v7 deployment at your on-premise data center or virtualized cloud environment. This type of deployment, referred to as **hybrid** or **mid-sourcing**, places the Campaign marketing instance and marketing database under your operational control, while using Adobe Cloud Messaging services to send emails, SMS or SMPP messages, and collect email open, bounce, and click tracking data.
+This document provides general recommendations for Adobe Campaign Classic v7 deployment at your on-premise data center or virtualized cloud environment. This type of deployment, referred to as **hybrid** or **mid-sourcing**, places the Campaign marketing instance and marketing database under your operational control, while using Adobe Cloud Messaging services to send emails, SMS or SMPP messages, and collect email open, bounce, and click tracking data.
 
 The marketing instance is the portion of the Adobe Campaign architecture that drives all marketing activity, and stores all recipient data and analytic data returned by campaigns. The marketing instance is a set of on-premise servers running Adobe Campaign services, and a relational database.
 
@@ -252,5 +252,6 @@ Adobe recommends performance testing for any virtualized deployment of Adobe Cam
 ## Related topics
 
 * [Campaign Monitoring Processes](../../production/using/monitoring-processes.md)
+* [Campaign general architecture](../../installation/using/general-architecture.md)
 * [Performances and throughput issues](../../production/using/performance-and-throughput-issues.md)
 * [Security and privacy checklist](../../installation/using/get-started-security-privacy.md)

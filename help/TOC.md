@@ -105,7 +105,7 @@ type: Documentation
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
-          + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
+          + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
        + Adobe Analytics Connector{#analytics-connector}
           + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
           + [Adobe Analytics Connector integration](platform/using/adobe-analytics-connector.md)
@@ -209,7 +209,6 @@ type: Documentation
        + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
        + [Delivery statuses](delivery/using/delivery-statuses.md)
        + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
-       + [Update bounce qualification after an ISP outage](delivery/using/update-bounce-qualification.md)
        + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
   + Track messages {#tracking-messages}
        + [About message tracking](delivery/using/about-message-tracking.md)
@@ -848,6 +847,7 @@ type: Documentation
   + Emails and push notifications{#technotes-email}
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
        + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+       + [How to  update incorrect hard bounces](delivery/using/update-bounce-qualification.md)
        + [iOS certificate update](technotes/using/ios-certificate-update.md)
        + [Tracked URLs update](technotes/using/tracked-urls.md)
   + Migration to Adobe Managed Services{#dc-migration}
