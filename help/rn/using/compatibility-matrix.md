@@ -308,6 +308,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 </table>
 
 ### Browser
+
 []
 <table>
 <tbody>
