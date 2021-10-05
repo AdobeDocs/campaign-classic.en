@@ -2,6 +2,7 @@
 product: campaign
 title: Hardware sizing recommendations for Campaign Classic v7
 description: Hardware sizing recommendations for Campaign Classic v7
+exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 ---
 # Hardware sizing recommendations{#hardware-sizing-reco}
 
