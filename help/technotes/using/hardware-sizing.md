@@ -252,5 +252,6 @@ Adobe recommends performance testing for any virtualized deployment of Adobe Cam
 ## Related topics
 
 * [Campaign Monitoring Processes](../../production/using/monitoring-processes.md)
+* [Campaign general architecture](../../installation/using/general-architecture.md)
 * [Performances and throughput issues](../../production/using/performance-and-throughput-issues.md)
 * [Security and privacy checklist](../../installation/using/get-started-security-privacy.md)

@@ -144,7 +144,9 @@ To confirm that the delivery was successful:
 
 >[!NOTE]
 >
->By default, the coupon management module uses an **nms:recipient** table. For instructions on how to use other tables, see [Editing schemas](../../configuration/using/data-schemas.md).
+>By default, the coupon management module uses an **nms:recipient** table. [Learn more](../../configuration/using/about-data-model.md#default-recipient-table).
+>
+>Learn how to use a custom recipient table [in this page](../../configuration/using/about-custom-recipient-table.md).
 
 ## Managing insufficient coupons {#managing-insufficient-coupons}
 
