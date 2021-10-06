@@ -150,7 +150,7 @@ The following configurations are necessary with CentOS:
    yum install libreoffice-headless libreoffice-writer libreoffice-calc
    ```
 
-1. Install the following fonts (optionnal but highly recommended for Japanese instances):
+1. Install the following fonts (optional but highly recommended for Japanese instances):
 
    ```
    yum install ipa-gothic-fonts ipa-mincho-fonts

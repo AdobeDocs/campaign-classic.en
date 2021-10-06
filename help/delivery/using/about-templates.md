@@ -25,7 +25,7 @@ There are two types of template:
 
 1. Predefined delivery templates
 
-   The Adobe Campaign administrator can create new delivery templates. They can be reused by operators (those with suitable access rights) or automatically by server processes. For example, you can configure an email delivery template, and when the user creates a delivery using this template, he simply needs to enter the text or HTML content and then deliver it; the other choices have already been defined by the administrator.
+   The Adobe Campaign administrator can create new delivery templates. They can be reused by operators (those with suitable access rights) or automatically by server processes. For example, you can configure an email delivery template, and when users creates a delivery using this template, they simply need to enter the text or HTML content and then deliver it; the other choices have already been defined by the administrator.
 
 >[!NOTE]
 >

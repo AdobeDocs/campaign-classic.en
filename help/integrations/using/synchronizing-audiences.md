@@ -92,7 +92,7 @@ Once the target population is defined, you can share it with ACS through a **[!U
 
 1. In the workflow created previously, add a **[!UICONTROL List update]** activity and specify the list you want to update or create.
 
-   Specify the folder in which you want to save the list in Campaign v7. Lists are subject to the folder mapping defined during the implementation, which can have an impact on their visilibity once shared in Campaign Standard. Refer to the [Rights conversion](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion) section.
+   Specify the folder in which you want to save the list in Campaign v7. Lists are subject to the folder mapping defined during the implementation, which can have an impact on their visibility once shared in Campaign Standard. Refer to the [Rights conversion](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion) section.
 
 1. Make sure the **[!UICONTROL Share with ACS]** option is checked. It is checked by default.
 

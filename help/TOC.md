@@ -5,11 +5,11 @@ title: Adobe Campaign Classic v7 Guide
 breadcrumb-title: Campaign Classic v7 Documentation
 product: campaign
 title: Campaign Classic v7 Guide
-breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: With Adobe Campaign, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
 sub-product: adobe campaign classic
 type: Documentation
 ---
+
 # Adobe Campaign Classic v7 documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
@@ -32,12 +32,6 @@ type: Documentation
     + [Release 18.4](rn/using/release--18-4.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
-  + [Technotes](technotes/using/technote.md)
-  + [iOS certificate update](technotes/using/ios-certificate-update.md)
-  + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-  + [Campaign configuration updates](technotes/using/acc-config-updates.md)
-  + [Tracked URLs update](technotes/using/tracked-urls.md)
-  + [IMS updates](technotes/using/ims-updates.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -111,7 +105,7 @@ type: Documentation
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
-          + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
+          + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
        + Adobe Analytics Connector{#analytics-connector}
           + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
           + [Adobe Analytics Connector integration](platform/using/adobe-analytics-connector.md)
@@ -215,7 +209,6 @@ type: Documentation
        + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
        + [Delivery statuses](delivery/using/delivery-statuses.md)
        + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
-       + [Update bounce qualification after an ISP outage](delivery/using/update-bounce-qualification.md)
        + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
   + Track messages {#tracking-messages}
        + [About message tracking](delivery/using/about-message-tracking.md)
@@ -619,7 +612,7 @@ type: Documentation
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
   + Security and privacy settings {#security-privacy}
-       + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
+       + [Security and privacy checklist](installation/using/get-started-security-privacy.md)
        + [Personalization and privacy](installation/using/privacy.md)
        + [Secure access management](installation/using/access-management.md)
        + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)
@@ -847,6 +840,17 @@ type: Documentation
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
+  + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
+  + Upgrades and migrations{#technote-migration}
+       + [Technotes](technotes/using/technote.md)
+       + [Campaign configuration updates](technotes/using/acc-config-updates.md)
+       + [IMS updates](technotes/using/ims-updates.md)
+  + Emails and push notifications{#technotes-email}
+       + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
+       + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+       + [How to  update incorrect hard bounces](delivery/using/update-bounce-qualification.md)
+       + [iOS certificate update](technotes/using/ios-certificate-update.md)
+       + [Tracked URLs update](technotes/using/tracked-urls.md)
   + Migration to Adobe Managed Services{#dc-migration}
        + [Migration to Public Cloud](technotes/using/dc-migration.md)
        + [FAQ](technotes/using/dc-migration-faq.md)

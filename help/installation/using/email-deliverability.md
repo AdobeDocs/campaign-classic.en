@@ -113,7 +113,7 @@ Start by defining the Adobe Campaign database that will host the configuration.
 
 ### Start configuration {#start-configuration}
 
-By default, the **stat** module is started for each instance. When the instances are mutualized on the same machine, or when instances share the same IP address, a single statistics server is used: the others have to be disabled.
+By default, the **stat** module is started for each instance. When the instances are pooled on the same machine, or when instances share the same IP address, a single statistics server is used: the others have to be disabled.
 
 ### Definition of the server port {#definition-of-the-server-port}
 
@@ -168,7 +168,7 @@ user:~ user$ host -t a mta5.am0.yahoodns.net
                 mta5.am0.yahoodns.net has address 98.138.112.35
 ```
 
-For this record, the user can contact 8 peer IP addresses. As he has 2 public IP address this gives him 8 * 2 = 16 combinations to reach the yahoo.com mail servers. Each of those combinations is called a path.
+For this record, the user can contact 8 peer IP addresses. As the user has 2 public IP address this gives him 8 * 2 = 16 combinations to reach the yahoo.com mail servers. Each of those combinations is called a path.
 
 The second MX record appears as:
 

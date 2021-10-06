@@ -99,7 +99,7 @@ The list of system indicators enables you to display information concerning the 
 
 * **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/additional-configurations.md#monitoring-thresholds) for more information.
 
-* **[!UICONTROL Load average (1/5/15 minutes)]** : information concerning the load, i.e. the use rate of the processer by the processes running on the machine over the last minute, five minutes, or fifteen minutes
+* **[!UICONTROL Load average (1/5/15 minutes)]** : information concerning the load, i.e. the use rate of the processor by the processes running on the machine over the last minute, five minutes, or fifteen minutes
 
   **[!UICONTROL Current value]** : actual load of the machine.
 
@@ -332,11 +332,11 @@ Click on a PublicId identifier to view further detail.
 
 The **[!UICONTROL Billing]** technical workflow sends the system activity report to the 'billing' operator by email. It is triggered by default the 25th of every month on the Marketing instance.
 
-The technical worklow can be found in a sub-folder of the following node: **Administration** > **Production** > **Technical workflows**.
+The technical workflow can be found in a sub-folder of the following node: **Administration** > **Production** > **Technical workflows**.
 
 ![](assets/billing.png)
 
-Once the worfklow is started every 25th of the month, your billing operator will receive the following report in his inbox.
+Once the workflow is started every 25th of the month, your billing operator will receive the following report in his inbox.
 
 ![](assets/billing_2.png)
 
@@ -599,7 +599,7 @@ This element configures the monitoring of a given server on the host, i.e.
 
 * **tcp**: checks if the server is up or down. You must enter a port number.
 * **http**: checks that the Web server exists (application server is operational).
-* **ncs**: checks the processes on the instance entered in the 'instance' attribute (workflow errors, memory usage, etc.). The **includead** (mandatory) attribute gives you the option of displaying dead processes ('true' or 'false' values). 
+* **ncs**: checks the processes on the instance entered in the 'instance' attribute (workflow errors, memory usage, etc.). The **included** (mandatory) attribute gives you the option to display dead processes ('true' or 'false' values). 
 * **redir**: checks the tracking.
 
 In most cases, only the **ncs** and **redir** sub-elements can be kept.

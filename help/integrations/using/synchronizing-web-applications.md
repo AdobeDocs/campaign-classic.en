@@ -48,7 +48,7 @@ In Campaign v7, the following objects have been created:
 
    ![](assets/acs_connect_lp_5.png)
 
-1. Go to **[!UICONTROL Profiles and Targets > Recipient]** and select a recipient. You can see that he has not subscribed to the service yet.
+1. Go to **[!UICONTROL Profiles and Targets > Recipient]** and select a recipient. You can see that this profile has not subscribed to the service yet.
 
    ![](assets/acs_connect_lp_6.png)
 
@@ -64,7 +64,7 @@ To check that the data has been replicated correctly, follow these steps in Camp
 
    ![](assets/acs_connect_lp_7.png)
 
-1. Search for your Campaign v7 recipient and check that he appears in Campaign Standard.
+1. Search for your Campaign v7 recipient and check that this recipient appears in Campaign Standard.
 
    ![](assets/acs_connect_lp_8.png)
 
@@ -96,7 +96,7 @@ The steps to create, design and send the email are the same as for a classic ema
 
    ![](assets/acs_connect_lp_14.png)
 
-1. He adds a telephone number and checks the newsletter subscription box.
+1. This recipient adds a telephone number and checks the newsletter subscription box.
 
    ![](assets/acs_connect_lp_15.png)
 
@@ -112,7 +112,7 @@ When the recipient updates his data from via the web application, Adobe Campaign
 
    ![](assets/acs_connect_lp_17.png)
 
-1. In the **[!UICONTROL Subscriptions]** tab, we can also see that he has subscribed to the newsletter service.
+1. In the **[!UICONTROL Subscriptions]** tab, we can also see that this recipient has subscribed to the newsletter service.
 
    ![](assets/acs_connect_lp_18.png)
 
