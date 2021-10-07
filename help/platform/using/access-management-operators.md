@@ -93,7 +93,7 @@ Use the **[!UICONTROL Access rights]** tab to update the groups and named rights
 
 The **[!UICONTROL Edit the access parameters...]** link lets you access the following options:
 
-* The **[!UICONTROL Disable account]** option lets you disable the operator's account: he will no longer access Adobe Campaign.
+* The **[!UICONTROL Disable account]** option lets you disable the operator's account: this user will no longer access Adobe Campaign.
 
   >[!NOTE]
   >
@@ -119,7 +119,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
 
   >[!IMPORTANT]
   >
-  >This is a very tight restriction, and it must be used with caution. An operator logged in with this type of rights can ONLY see the content of the specified folder, and has no access to any other node of the tree via the explorer. However, depending on the functionalities he has access to (for example: workflows), he can display data that is usually stored in nodes that he cannot see.
+  >This is a very tight restriction, and it must be used with caution. An operator logged in with this type of rights can ONLY see the content of the specified folder, and has no access to any other node of the tree via the explorer. However, depending on the functionalities this operator has access to (for example: workflows), the user can display data that is usually stored in nodes which are not accessible.
 
 ### Check settings {#check-settings}
 

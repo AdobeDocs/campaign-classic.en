@@ -377,7 +377,7 @@ The configuration and usage of Access and Delete requests are common to both GDP
 
 In addition to the [Consent management](../../platform/using/privacy-management.md#consent-management) tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information.
 
-A consumer decides, through your system, that he/she does not allow his/her personal information from being sold to a third-party. In Adobe Campaign, you will be able to store and track this information.
+Contacts can decide, through your system, that they do not allow their personal information from being sold to a third-party. In Adobe Campaign, you will be able to store and track this information.
 
 For this to work, you need to extend the Profiles table and add an **[!UICONTROL Opt-Out for CCPA]** field.
 

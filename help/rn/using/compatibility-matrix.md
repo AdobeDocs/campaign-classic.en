@@ -113,11 +113,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tbody>
 </table>
 
-## RDBMS servers{#RDBMSservers}
-
->[!NOTE]
->
->RDBMS driver must match with RDBMS server version.
+## Relation Database Management Systems (RDBMS){#RDBMSservers}
 
 <table>
 <tbody>
@@ -140,7 +136,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p>Note: you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
+<p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
 <tr>
@@ -151,7 +147,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 and SP2</p>
-<p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. [Learn more](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
+<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. [Learn more](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
 </td>
 </tr>
 </tbody>
@@ -159,9 +155,13 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 >[!NOTE]
 >
->PostgreSQL is the default database server for Hosted environments.
+>* RDBMS driver must match with RDBMS server version.
+>
+>* PostgreSQL is the RDBMS for Hosted environments.
 
 ## CRM connectors{#CRMconnectors}
+
+Customer Relationship Management (CRM) systems compatible with Adobe Campaign are listed below. [Learn more](../../platform/using/crm-connectors.md) about Campaign CRM connectors.
 
 <table>
 <tbody>
@@ -181,6 +181,8 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </table>
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
+
+External databases compatible with Adobe Campaign [Federated Data Access module](../../installation/using/about-fda.md) are listed below.
 
 <table>
 <tbody>
@@ -280,7 +282,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Client Console {#ClientConsoleoperatingsystems}
 
-:warning: The following operating systems and browser are required to use Campaign Client Console.
+The following operating systems and browser are **required** to use [Campaign Client Console](../../installation/using/installing-the-client-console.md). 
 
 ### Operating systems
 
@@ -321,6 +323,8 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Mobile SDK{#MobileSDK}
 
+You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md) on the operating systems listed below, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). 
+
 <table>
 <tbody>
 <tr>
@@ -342,7 +346,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Browsers{#Browsers}
 
-The following browsers are compatible with Campaign for Web Access.
+The following browsers are compatible with Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 <table>
 <tbody>
@@ -393,6 +397,7 @@ The following browsers are compatible with Campaign for Web Access.
 ## More like this{#Morelikethis}
 
 * [Campaign Classic Release notes](../../rn/using/latest-release.md)
-* [Installation Guide](../../installation/using/general-architecture.md)
+* [Campaign General Architecture](../../installation/using/general-architecture.md)
+* [Hardware sizing recommendations](../../technotes/using/hardware-sizing.md)
 * [Deprecated features and systems](../../rn/using/deprecated-features.md)
 * [Build upgrade procedure](../../production/using/build-upgrade.md)

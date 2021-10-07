@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Get started with security and privacy
+title: Security and privacy checklist
 description: Learn more about the key elements to check regarding security and privacy.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 ---
-# Get started with security and privacy {#get-started-security-privacy}
+# Security and privacy checklist{#get-started-security-privacy}
 
 ![](../../assets/v7-only.svg)
 
@@ -44,7 +44,7 @@ Access management is an important part of security hardening. Here are some of t
 
 When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always follow these guidelines:
 
-* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
+* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allowlist.
 
 * **Secure the data model**: use named rights to limit operator actions, add system filters (sysFilter)
 
@@ -61,6 +61,10 @@ A very important thing to check when deploying an on-premise type of architectur
 It is also imperative that you follow your database engine security.
 
 [Read more](../../installation/using/network-database.md)
+
+>[!CAUTION]
+>
+>Starting July 14, 2021 any client systems that do not support the TLS 1.2 protocol will lose access to all Adobe products and services. Ensure that all user and client systems are TLS 1.2 compliant before this date. [Learn more](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
 
 ## Server configuration
 

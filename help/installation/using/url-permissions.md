@@ -5,6 +5,7 @@ description: Learn how to configure URL permissions
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 ---
 # Configure URL permissions (on-premise){#url-permissions}
 
@@ -20,7 +21,7 @@ By default, instances are not allowed to connect to outside URLs. However, it is
 >
 >As a **hosted** customer, if you can access [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html), you can use the URL permissions self service interface. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
 >
->Other **hybrid/hosted** customers need to reach out to Adobe support team to add IP to the allow list.
+>Other **hybrid/hosted** customers need to reach out to Adobe support team to add IP to the allowlist.
 >
 
 For **Hybrid** and **On-premise** deployments, the administrator needs to reference a new **urlPermission** in the **serverConf.xml** file.

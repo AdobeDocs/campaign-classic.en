@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: Update your environment to connect to Adobe Campaign with IMS
+title: Technote - Update your environment to connect to Adobe Campaign with IMS
 description: Campaign - IMS updates
-hide: yes
-hidefromtoc: yes
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}
 
 ![](../../assets/v7-only.svg)
  
-On June 30, 2021 changes will be made to [Adobe Identity Management System](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) login capabilities that could impact your ability to continue to use Adobe Campaign. Learn how to ensure you continue to use Adobe Campaign Classic v7 without interruption. 
+On June 30, 2021 changes have beeb made to [Adobe Identity Management System](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) login capabilities that could impact your ability to continue to use Adobe Campaign. Learn how to ensure you continue to use Adobe Campaign Classic v7 without interruption. 
 
 ## What changed?
 
-Adobe Identity Management Service (IMS) will stop supporting old Internet Explorer versions from **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). 
+Adobe Identity Management Service (IMS) stopped supporting old Internet Explorer versions on **June 30, 2021**. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). 
 
 Adobe wants to preserve IMS functionality for all customers past June 30, 2021. IMS is part of the security framework which allows users to login to the Client Console, thus Adobe Campaign. 
 
@@ -74,7 +72,7 @@ The following warning message is visible to users if they need to update their C
 
 If you see such a warning, ensure that you install the latest updates of the operating system you are using. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
-**After June 30, 2021**, you will see the following message, and will no longer be able to connect to Adobe Campaign:
+If you did not update your Internet Explorer version, you see the following message, and can no longer connect to Adobe Campaign:
 
 ![](../../integrations/using/assets/do-not-localize/errorUpdateReq.png)
 

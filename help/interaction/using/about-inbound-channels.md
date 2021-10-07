@@ -17,7 +17,7 @@ Offers can be presented on various offer spaces using an inbound or outbound cha
 
 In order for an offer to be selected by the offer engine, it has to be approved and be available in a live environment For more on this, refer to [Approving and activating an offer](../../interaction/using/approving-and-activating-an-offer.md).
 
-When a contact is inbound, there are two possible outcomes. The first being that the user is not identified by the site he is browsing on, and the second being that he is identified. The offer engine presents different offers depending on whether or not the user is identified.
+When a contact is inbound, there are two possible outcomes: the user who is browsing pagescan be identified by the website or not. The offer engine presents different offers depending on whether or not the user is identified.
 
 Before being able to present offers on an inbound channel, you must configure the offer engine call where you would like the offers to be presented. In most cases for an inbound interaction, this is the Web page.
 

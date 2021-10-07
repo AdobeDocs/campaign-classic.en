@@ -126,7 +126,7 @@ Follow these steps when updating the NmsTracking_Pointer option:
 
 You can customize click tracking formula and specify a custom Adobe Analytics tracking formula.
 
-That kind of customization needs to be done with caution to avoid adding extra linefeed characters. All linefeed characters present outside of the javascript expression will be present in the final formula.
+That kind of customization needs to be done with caution to avoid adding extra linefeed characters. All linefeed characters present outside of the JavaScript expression will be present in the final formula.
 
 This kind of extra linefeed character in the tracking URL will lead to issue in some webMail (AOL, GMail, etc.).
 
@@ -153,7 +153,7 @@ This kind of extra linefeed character in the tracking URL will lead to issue in 
    %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
    ```
 
-To understand where the extra linefeed is you can replace javascript expression by a fixed string STRING.
+To understand where the extra linefeed is you can replace JavaScript expression by a fixed string STRING.
 
    ```
    // Incorrect
@@ -189,7 +189,7 @@ To understand where the extra linefeed is you can replace javascript expression 
    %>
    ```
 
-To understand where the extra linefeed is you can replace javascript expression by a fixed string STRING.
+To understand where the extra linefeed is you can replace JavaScript expression by a fixed string STRING.
 
 ```
 // Incorrect

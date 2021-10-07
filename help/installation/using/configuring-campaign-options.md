@@ -404,7 +404,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
-   <td> (starting 21.1.3 release) If 1 is selected (default value), this option disables edition of build-in javascript codes.<br /> </td> 
+   <td> (starting 21.1.3 release) If 1 is selected (default value), this option disables edition of build-in JavaScript codes.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
@@ -416,7 +416,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Allow_PrivilegeEscalation</span> <br /> </td> 
-   <td> If 1 is selected, this option to allow privilegeEscalation in javascript.<br /> </td> 
+   <td> If 1 is selected, this option to allow privilegeEscalation in JavaScript.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_ControlsOnFileDownload</span> <br /> </td> 

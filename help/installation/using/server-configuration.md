@@ -42,9 +42,9 @@ The default list of URLs that can be called by JavaScript codes (workflows, etc.
 
 Three connection protection modes exist:
 
-* **Blocking** : all URLs that do not belong to the allow list are blocked, with an error message. This is the default mode after a postupgrade.
-* **Permissive** : all URLs that do not belong to the allow list are allowed.
-* **Warning** : all URLs not on the allow list are allowed, but the JS interpreter emits a warning, so that the administrator can collect them. This mode adds JST-310027 warning messages.
+* **Blocking** : all URLs that do not belong to the allowlist are blocked, with an error message. This is the default mode after a postupgrade.
+* **Permissive** : all URLs that do not belong to the allowlist are allowed.
+* **Warning** : all URLs not on the allowlist are allowed, but the JS interpreter emits a warning, so that the administrator can collect them. This mode adds JST-310027 warning messages.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -54,7 +54,7 @@ Three connection protection modes exist:
 </urlPermission>
 ```
 
-New clients will use the blocking mode. If they want to allow a new URL, they need to contact their administrator to add it to the allow list.
+New clients will use the blocking mode. If they want to allow a new URL, they need to contact their administrator to add it to the allowlist.
 
 Existing customers coming from a migration can use the warning mode for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLS.
 
