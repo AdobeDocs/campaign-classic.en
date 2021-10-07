@@ -21,7 +21,12 @@ An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JS
 
     SQL scripts must be created and stored in the **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** menu.
 
-1. 
+1. Choose in which database the SQL script will be stored:
+
+    * Default data source: Working table is created in the same database as the source of the data we query on.
+    * Activte FDA external account 
+
+    ![](assets/sql_code.png)
 
 1. Add the SQL script. This script is a JST template and can therefore be configured according to the workflow context.
 
