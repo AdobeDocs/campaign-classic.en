@@ -76,27 +76,35 @@ You need to create a [!DNL Snowflake] external account to connect your Campaign 
 
 1. Select **[!UICONTROL External database]** as your external account's **[!UICONTROL Type]**.
 
-1. Configure the **[!UICONTROL Snowflake]** external account, you must specify:
+1. Under **[!UICONTROL Configuration]**, select [!DNL Snowflake] from the **[!UICONTROL Type]** drop-down.
 
-    * **[!UICONTROL Type]**: [!DNL Snowflake]
+    ![](assets/snowflake_5.png)
 
-    * **[!UICONTROL Server]**: URL of the [!DNL Snowflake] server
+1. Add your **[!UICONTROL Server]** URL and **[!UICONTROL Database]**.
 
-    * **[!UICONTROL Account]**: Name of the user
+1. Configure the **[!UICONTROL Snowflake]** external account authentication:
 
-    * **[!UICONTROL Password]**: User account password. You can also choose the **Keypair Authentication** which allow you to connect using your **[!UICONTROL Private key]**. For more on this, refer to the step 6.
+    * For Account/password authentication, you must specify:
 
-    * **[!UICONTROL Database]**: Name of the database
+        * **[!UICONTROL Account]**: Name of the user
 
-    ![](assets/snowflake.png)
+        * **[!UICONTROL Password]**: User account password.
+
+        ![](assets/snowflake.png)
+
+    * For Keypair authentication, click the **[!UICONTROL Keypair Auth]** tab to use your **[!UICONTROL Private key]** to authenticate and copy paste your **[!UICONTROL Private key]**.
+        
+        ![](assets/snowflake_4.png)
 
 1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy functions]** button to create functions.
 
+    >[!NOTE]
+    >
+    >For all functions to be available, you need to create the Adobe Campaign SQL functions in the remote database. For more information, refer to this [page](../../configuration/using/adding-additional-sql-functions.md).
+
     ![](assets/snowflake_2.png)
 
-1. Click the **[!UICONTROL Keypair Auth]** tab to use your **[!UICONTROL Private key]** to authenticate. Copy paste your **[!UICONTROL Private key]** and click **[!UICONTROL Save]**.
-
-    ![](assets/snowflake_4.png)
+1. Click **[!UICONTROL Save]** when your configuration is finished.
 
 The connector supports the following options:
 
