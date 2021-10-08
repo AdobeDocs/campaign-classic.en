@@ -44,13 +44,14 @@ To configure [!DNL Snowflake] on Linux, follow the steps below:
         apt-get install -y grep sed tar wget perl curl
         ```
 
-1. Run the following script as a root user to install the ODBC drivers:
+1. Before running the script, you can have access to more information with the `--help` option:
 
     ```
-    /usr/local/neolane/nl6/bin/fda-setup-scripts/
+    cd /usr/local/neolane/nl6/bin/fda-setup-scripts/
+    ./snowflake_odbc-setup.sh --help
     ```
 
-1. Access the directory where the script is located and run the following script:
+1. Access the directory where the script is located and run the following script as a root user:
 
     ```
     cd /usr/local/neolane/nl6/bin/fda-setup-scripts
