@@ -20,9 +20,11 @@ Understand Campaign build statuses in [this page](rn-overview.md).
 
 _October 8, 2021_
 
-**Security enhancement**
+**Patches**
 
-* 
+* Fixed an issue which could prevent offer propositions from being saved when using the **Interaction** module with the [Power Booster](../../installation/using/power-booster-and-power-cluster.md) option. (NEO-39263)
+
+* Fixed an error 'The ipaffinity xxx is not found on mid server xxx' which could happen when using more than one IP affinity on the mid-sourcing instance. (NEO-37514)
 
 
 ## ![](assets/do-not-localize/orange_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
