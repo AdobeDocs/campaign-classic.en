@@ -19,7 +19,7 @@ Use Adobe Campaign Classic **Federated Data Access** (FDA) option to process inf
 
 >[!NOTE]
 >
-> [!DNL Google BigQuery] connector is available for hybrid and on-premise deployments. For more on this, refer to [this page](../../installation/using/capability-matrix.md).
+> [!DNL Google BigQuery] connector is available for hosted, hybrid and on-premise deployments. For more on this, refer to [this page](../../installation/using/capability-matrix.md).
 
 ![](assets/snowflake_3.png)
 
