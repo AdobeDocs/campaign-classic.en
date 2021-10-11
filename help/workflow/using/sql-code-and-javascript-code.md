@@ -13,7 +13,7 @@ exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 
 ## SQL code {#sql-code}
 
-An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JST template.
+The **[!UICONTROL SQL code]** activity executes an SQL script.
 
 1. Specify the activity **[!UICONTROL Label]**.
 
@@ -23,18 +23,17 @@ An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JS
 
 1. Choose in which database the SQL script will be stored:
 
-    * Default data source: Working table is created in the same database as the source of the data we query on.
-    * Activte FDA external account 
+    * **[!UICONTROL Default data source]**: The working table will be stored in the default PostgreSQL database.
+    * **[!UICONTROL Active FDA external account]**: The working table will be stored in the Cloud database of the selected FDA external account.
 
     ![](assets/sql_code.png)
 
-1. Add the SQL script. This script is a JST template and can therefore be configured according to the workflow context.
+1. Type or copy-paste your SQL script in the dedicated area. This script is a JST template and can therefore be configured according to the workflow context.
+   Otherwise, 
 
    >[!CAUTION]
    >
    >It is the SQL script writer's responsibility to make sure that the SQL script is functional, and that its references (fields names, etc.) are in accordance with the Outbound schema.
-
-   Otherwise, type or copy-paste your SQL script in the dedicated area.
 
 1. Check the **[!UICONTROL Processing errors]** option to display a specific transition which will be enabled if an error is generated.
   
