@@ -15,6 +15,39 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 Understand Campaign build statuses in [this page](rn-overview.md). 
 
+## ![](assets/do-not-localize/blue_2.png) Release 21.1.5 - Build 9374 {#release-21-1-5-build-9374}
+
+_October 25, 2021_
+
+**Security enhancement**
+
+Several security improvements have been made to the FDA accounts:
+
+* ODBC drivers are now directly installed in Adobe Campaign Third Parties. Manual steps are no longer required to install the drivers.
+* The Snowflake external account now provides Keypair authentication. You can now use your Private key to authenticate.
+* The Azure Synapse external account now provides System-assigned managed identity authentication.
+* Google Big Query is now available for Hosted deployments.
+
+**Compatibility updates**
+
+The following systems are now supported: 
+
+* Windows 2019 
+* Debian 11
+
+The following previously deprecated systems have been removed from the interface: 
+
+* DB2 
+* Asterdata
+* GreenPlum
+
+Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
+
+**Improvements**
+
+* To optimize the throughput performance of the MTA, the error collection functionality is now processed asynchronously.
+* The **[!UICONTROL About]** dialog box no longer shows the server build date. The date that was displayed was the client build date.
+
 ## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
 _September 7, 2021_
