@@ -21,7 +21,7 @@ The **[!UICONTROL SQL code]** activity executes an SQL script.
 
     SQL scripts must be created and stored in the **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** menu.
 
-1. Choose in which database the SQL script will be run:
+1. Choose on which database the SQL script will be run:
 
     * **[!UICONTROL Default data source]**: The SQL script will be executed on the default PostgreSQL database.
     * **[!UICONTROL Active FDA external account]**: The SQL script will be executed on the Cloud database of the selected FDA external account.
