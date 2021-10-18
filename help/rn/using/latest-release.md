@@ -23,7 +23,7 @@ _October 25, 2021_
 
 Several security improvements have been made to the FDA accounts:
 
-* ODBC drivers are now directly installed in Adobe Campaign Third Parties. Manual steps are no longer required to install the drivers.
+* ODBC drivers are now directly installed with Adobe Campaign Third Parties. Manual steps are no longer required to install the drivers.
 * The Snowflake external account now provides Keypair authentication. You can now use your Private key to authenticate.
 * The Azure Synapse external account now provides System-assigned managed identity authentication.
 * Google Big Query is now available for Hosted deployments.
@@ -47,7 +47,14 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 
 * To optimize the throughput performance of the MTA, the error collection functionality is now processed asynchronously.
 * The **[!UICONTROL About]** dialog box no longer shows the server build date. The date that was displayed was the client build date.
-
+* The libexpat library has been updated.
+* Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
+    * The configuration of a workflow to import data from Microsoft CRM could fail.
+    * Data import from Microsoft CRM could fail or might not work if the filter condition contained lookup fields.
+    * During an import triggered by a workflow, the null values of string-type fields were saved as `Null` instead of empty values.
+    * The following error could be returned for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
+    * During an import from Microsoft Dynamics 365, the lookup fields data was not imported.
+ 
 ## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
 _September 7, 2021_
