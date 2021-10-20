@@ -55,7 +55,18 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
     * The following error could be returned for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
     * During an import from Microsoft Dynamics 365, the lookup fields data was not imported.
  
-## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
+## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
+
+_October 8, 2021_
+
+**Patches**
+
+* Fixed an issue which could prevent proper offer management when using the **Interaction** module with the [Power Booster](../../installation/using/power-booster-and-power-cluster.md) option. (NEO-39263)
+
+* Fixed an error 'The ipaffinity xxx is not found on mid server xxx' which could happen on delivery sending when using more than one IP affinity on a multi mid-sourcing instance. (NEO-37514)
+
+
+## ![](assets/do-not-localize/orange_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
 _September 7, 2021_
 

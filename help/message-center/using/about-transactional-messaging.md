@@ -28,7 +28,7 @@ Transactional messaging capabilities are designed to support scalability and pro
 
 >[!IMPORTANT]
 >
->Transactional messaging requires a specific licence. Please check your licence agreement.
+>Transactional messaging requires a specific license. Please check your license agreement.
 
 <!--Before starting with transactional messaging, make sure you read the corresponding [best practices and limitations]().-->
 
