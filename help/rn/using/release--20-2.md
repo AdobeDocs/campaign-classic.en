@@ -84,7 +84,7 @@ _September 11, 2020_
 
 * Fixed a regression causing delivery preparation to be blocked due to a single erroneous function on delivery part leading to memory overload. (NEO-27346)
 * Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
-* Fixed a regression on HTML template management leading to tracking URLs becoming visible due to a misintepretation of tabs. (NEO-25909)
+* Fixed a regression on HTML template management leading to tracking URLs becoming visible due to a misinterpretation of tabs. (NEO-25909)
 * Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
 * The cleanup workflow now purges expired lists by batches of 100 instead of one by one.
 * Fixed a regression which prevented you from modifying the internal name of an external account. (NEO-27323)
@@ -314,7 +314,7 @@ An example for Linux is available on this [page](../../configuration/using/addit
 * Fixed a regression causing the cleanup workflow to crash.
 * Fixed an issue that could occur when publishing a template on an execution instance.
 * Fixed an issue that could prevent the collectPrivacyRequests technical workflow from running. (NEO-20513, NEO-25169)
-* Fixed issues that could happen when trying to connect to Audience Manager after updrading to build 9080. (NEO-20511, NEO-25167)
+* Fixed issues that could happen when trying to connect to Audience Manager after upgrading to build 9080. (NEO-20511, NEO-25167)
 * Fixed issues that could occur when exporting reports in PDF or XLS format. (NEO-20982, NEO-23493, NEO-23348)
 * Fixed an issue that could display a delivery twice in the delivery list after it was sent.
 * Fixed an issue with delivery preparation that could occur when the routing configuration was set to send the delivery via mid-sourcing.

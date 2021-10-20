@@ -2,8 +2,6 @@
 product: campaign
 title: Mail Privacy Protection in Apple's Mail app
 description: Learn how your campaigns might be affected by Apple's Mail Privacy Protection feature
-hide: yes
-hidefromtoc: yes
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 ---
 # Mail Privacy Protection in Apple's Mail app

@@ -26,7 +26,7 @@ Several factors can directly impact server performance and slow the platform:
 
 * The workflow execution: monitoring your workflows is essential to avoid platform performance issues. Follow the guidelines listed [in this document](../../workflow/using/workflow-best-practices.md#execution-and-performance).
 
-* If you are eligible, you can leverage [Campaign Contol Panel capabilities](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) to monitor your platform, using [performance monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionalities.
+* If you are eligible, you can leverage [Campaign Control Panel capabilities](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) to monitor your platform, using [performance monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionalities.
 
 ## Checking network configuration {#network-config}
 

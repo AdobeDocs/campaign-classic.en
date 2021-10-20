@@ -321,7 +321,7 @@ In any table using this reference table, define a link and add the **displayAsFi
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
 ```
 
-The user interface will not display a link but a field. When the user picks that field, he can select a value from the reference table or use the auto-complete feature.
+The user interface will not display a link but a field. When users pick that field, they can select a value from the reference table or use the auto-complete feature.
 
 ![](assets/schema-edition-ex.png)
 

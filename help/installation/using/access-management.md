@@ -41,6 +41,6 @@ Adobe Campaign provides three high-level privileges through [named rights](../..
 
 * **PROGRAM EXECUTION** (createProcess): allows executing external programs (on the server)
 
-* **SQL**: allows running SQL scripts on the database (so it can bypass the security model). Note: if you need to perform complex computations (filtering, for example), you can ask your database administrator to create an SQL function and add them to the allow list. Learn more in [this page](../../installation/using/scripting-coding-guidelines.md).
+* **SQL**: allows running SQL scripts on the database (so it can bypass the security model). Note: if you need to perform complex computations (filtering, for example), you can ask your database administrator to create an SQL function and add them to the allowlist. Learn more in [this page](../../installation/using/scripting-coding-guidelines.md).
 
 * **Grant them to very few (and trusted) operators**

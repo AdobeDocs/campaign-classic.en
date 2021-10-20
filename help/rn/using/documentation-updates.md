@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Adobe Campaign Classic Documentation Updates
+title: Adobe Campaign Classic v7 Documentation Updates
 description: This page lists all the new features and updates in Adobe Campaign Classic documentation
 feature: Overview
 role: User
@@ -15,6 +15,22 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## October 2021{#oct-2021}
+
+Existing technotes have been grouped to the new **Technote** section.
+
+The **Hardware sizing recommendations** page has been updated and added to the **Technotes** section. [Read more](../../technotes/using/hardware-sizing.md)
+
+## September 2021{#sept-2021}
+
+**Documentation updates coming with the 21.1.4 release**
+
+The **Gauge** chart type has been removed.
+
+Reports and web applications screenshots and parameters have been updated following Adobe Flash removal.
+
+The [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) description has been updated with a new guardrail.
+
 ## August 2021{#aug-2021}
 
 Added new workflow activity: Change Data Source - [Learn more](../../workflow/using/change-data-source.md)
@@ -22,10 +38,6 @@ Added new workflow activity: Change Data Source - [Learn more](../../workflow/us
 Applicability badges have been added to the documentation pages: **Applies to v7** for Campaign Classic v7 capabilities only, and **Applies to v7 & v8** for common capabilities.
 
 Added a note about the integration between Campaign and AEM Assets which has been decomissonned starting Adobe Experience Manager 6.4. [Learn more](../../integrations/using/configuring-access-to-assets.md)
-
-Reports and web applications screenshots and parameters have been updated following Adobe Flash removal.
-
-The **Gauge** chart type has been removed.
 
 
 ## July 2021 {#july-2021}
@@ -264,7 +276,7 @@ The Privacy Management in Campaign Classic page has been updated with informatio
 
 The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](../../platform/using/privacy-and-recommendations.md)
 
-Information has been added on sub-workflows logs and behaviour in case of error. [Read more](../../workflow/using/sub-workflow.md)
+Information has been added on sub-workflows logs and behavior in case of error. [Read more](../../workflow/using/sub-workflow.md)
 
 Best practices have been added in the **[!UICONTROL Scheduler]** activity section. [Read more](../../workflow/using/scheduler.md)
 
@@ -374,7 +386,7 @@ Hadoop FDA Connector Enhancements - [Read more](../../installation/using/configu
 
 The [installation](../../installation/using/general-architecture.md), [production](../../production/using/foreword.md) and [configuration](../../configuration/using/additional-parameters.md) guides have been updated with the new systemd unit used by the nlserver service startup. You can still use /etc/init.d/nlserver6, but Adobe recommends that you now use the systemctl command for interacting with the nlserver service.
 
-The installation guide has been updated and synchronized with the latest version of the compatibity matrix. New supported systems have been added. Occurences to deprecated and unsupported systems have been removed. [Read more](../../installation/using/general-architecture.md)
+The installation guide has been updated and synchronized with the latest version of the compatibility matrix. New supported systems have been added. Occurrences of deprecated and unsupported systems have been removed. [Read more](../../installation/using/general-architecture.md)
 
 The Compatibility matrix has been updated with the Hadoop 3.0 and Snowflake FDA connectors. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 

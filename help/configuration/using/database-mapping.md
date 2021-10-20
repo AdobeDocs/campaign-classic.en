@@ -299,7 +299,7 @@ From ACC 18.10, **XtkNewId** is no more the default value for the sequence in th
 
 >[!NOTE]
 >
->A sequence referenced in an Adobe Campaign schema (**NmsTrackingLogId** for example) must be associated to a SQL function that returns the number of IDs in the parameters, separated by commas. This function must be called **GetNew**XXX**Ids**, where **XXX** is the name of the sequence (**GetNewNmsTrackingLogIds** for example). View the **postgres-nms.sql**, **mssql-nms.sql** or **oracle-nms.sql** files provided with the appliation in the **datakit/nms/eng/sql/** directory to recover the example of a 'NmsTrackingLogId' sequence creation for each database engine.
+>A sequence referenced in an Adobe Campaign schema (**NmsTrackingLogId** for example) must be associated with an SQL function that returns the number of IDs in the parameters, separated by commas. This function must be called **GetNew**XXX**Ids**, where **XXX** is the name of the sequence (**GetNewNmsTrackingLogIds** for example). View the **postgres-nms.sql**, **mssql-nms.sql** or **oracle-nms.sql** files provided with the application in the **datakit/nms/eng/sql/** directory to recover the example of a 'NmsTrackingLogId' sequence creation for each database engine.
 
 To declare a unique key, populate the **autopk** attribute (with value "true") on the main element of the data schema.
 
@@ -355,7 +355,7 @@ For join relations with a campaign table/database:
 
 * ![](assets/join_with_campaign11.png) : Cardinality 1-1. For example, between a recipient and a current order. A recipient can be related to only one occurrence of the current order table at a time. 
 * ![](assets/externaljoin11.png) : Cardinality 1-1, external join. For example, between a recipient and their country. A recipient can be related to only one occurrence of the table country. The content of the country table will not be saved. 
-* ![](assets/join_with_campaign1n.png) : Cardinality 1-N. For example, between a recipient and the subscriptions table. A recipient can be related to several occurences on the subscriptions table.
+* ![](assets/join_with_campaign1n.png) : Cardinality 1-N. For example, between a recipient and the subscriptions table. A recipient can be related to several occurrences on the subscriptions table.
 
 For join relations using Federated Database Access:
 

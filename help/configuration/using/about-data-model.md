@@ -48,7 +48,7 @@ The benefits of using the built-in Recipient table are as follows:
 * Working built-in with functionalities such as subscriptions, seed lists, and more.
 * Providing a marketing database with a recipient-centric data model.
 * Faster implementation.
-* Easy maintainance by support and partners.
+* Easy maintenance by support and partners.
 
 However, it is possible to extend the Recipient table, but not to reduce the number of fields or links in the table.
 

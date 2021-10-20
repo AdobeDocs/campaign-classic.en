@@ -33,7 +33,7 @@ Creating a new form will enable you to view and edit the data of the external re
 
 1. Go to the **Administration > Configuration > Input forms** node of the explorer.
 1. Create a new **xtk:form** type **form** file.
-1. Describe all the monitorings and fields which you need depending on your table template.
+1. Describe all the monitoring and fields that you need depending on your table template.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Creating a new form will enable you to view and edit the data of the external re
 
 1. Go to the **[!UICONTROL Administration>Configuration>Navigation hierarchies]** node.
 1. Create a new **xtk:navtree** type **navtree** document.
-1. Describe all the monitorings and fields which you need depending on your table template.
+1. Describe all the monitoring and fields that you need depending on your table template.
 
    >[!NOTE]
    >

@@ -38,7 +38,7 @@ This document presents the ACS Connector capabilities. The sections below provid
 
 >[!NOTE]
 >
->ACS Connector is included with Campaign v7 under licence agreement. To use ACS Connector, make certain that you can switch between Campaign v7 and Campaign Standard. If you are uncertain of your version and its included features, please contact your administrator.
+>ACS Connector is included with Campaign v7 under license agreement. To use ACS Connector, make certain that you can switch between Campaign v7 and Campaign Standard. If you are uncertain of your version and its included features, please contact your administrator.
 
 ## Process {#process}
 
@@ -143,7 +143,7 @@ The following replication workflows are available as "ready to be used" template
 * **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication): this incremental workflow replicates the chosen services to Campaign Standard. See the use case [Synchronizing web applications](../../integrations/using/synchronizing-web-applications.md).
 * **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication): this incremental workflow replicates the chosen web applications to Campaign Standard. The Campaign v7 web applications will appear as landing pages in Campaign Standard. See the use case [Synchronizing web applications](../../integrations/using/synchronizing-web-applications.md).
 * **[!UICONTROL `[ACS] New replication`]** (newReplication): this incremental workflow is an example that can be used to replicate a custom table. See [Advanced implementation](#advanced-implementation).
-* **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification): this incremental workflow replicates delivery messages from Campaign Standard to Campaign v7.
+* **[!UICONTROL `[ACS] Delivery-message replication`]** (newDlvMsgQualification): this incremental workflow replicates delivery messages from Campaign Standard to Campaign v7.
 * **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): this incremental workflow replicates delivery IDs, email broad logs and email tracking logs from Campaign Standard to Campaign v7. It only takes into account deliveries sent from Campaign Standard to profiles that are part of the nms:recipients table of Campaign v7.
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): this incremental workflow replicates delivery IDs, email broad logs and email tracking logs from Campaign Standard to Campaign v7. It only takes into account deliveries sent from Campaign Standard to profiles that are part of a specific table (to define, other than nms:recipients) of Campaign v7.
 

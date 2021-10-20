@@ -31,6 +31,6 @@ This section details how to build a workflow to perform A/B testing.
 
    ![](assets/ab-testing-delivery.png)
 
-You can now start the workflow. Once the deliveries have been sent, you will be able to track the behaviour of the three sub-sets in the delivery logs, in order to see which subject has been the most successfull.
+You can now start the workflow. Once the deliveries have been sent, you will be able to track the behavior of the three sub-sets in the delivery logs, in order to see which subject has been the most successful.
 
 Workflows also allow you to automate your processes by automatically identifying the delivery variant that performed better, then sending it to the remaining population. For more on this, refer to this dedicated [use case](a-b-testing-use-case.md).

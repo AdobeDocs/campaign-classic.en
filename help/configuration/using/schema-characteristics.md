@@ -19,7 +19,7 @@ The characteristics of a schema that references an existing table are as follows
 
 >[!IMPORTANT]
 >
->Do not delete fields in the standard recipient table, even if they are useless. This may cause behavioural errors in the Adobe Campaign database.
+>Do not delete fields in the standard recipient table, even if they are useless. This may cause behavioral errors in the Adobe Campaign database.
 
 ## The view attribute {#the-view-attribute}
 

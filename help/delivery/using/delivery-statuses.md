@@ -15,7 +15,7 @@ exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 
 ajouter screenshot -->
 
-Once a delivery has been sent, the delivery dashboard displays a status that allows you to monitor if the sending has been successfull. Possible statuses are detailed in the section below.
+Once a delivery has been sent, the delivery dashboard displays a status that allows you to monitor if the sending has been successful. Possible statuses are detailed in the section below.
 
 ![](assets/delivery-status.png)
 
@@ -91,7 +91,7 @@ The **[!UICONTROL Pending]** status can first mean that your delivery has been s
 
 If your delivery is not being sent and its status remains **[!UICONTROL Pending]**, it can be the result of:
 
-* The MTA (Message Transfert Agent), that runs modules and processes on the delivery server and that manages email sending, may have not been started, or need to be restarted.
+* The MTA (Message Transfer Agent), which runs modules and processes on the delivery server and which manages email sending, may have not been started, or may need to be restarted.
 
     To check this and to start the module if necessary, apply the following steps:
 

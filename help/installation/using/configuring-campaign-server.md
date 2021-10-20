@@ -226,7 +226,7 @@ sh
 
 In the **exec** node of the server configuration file, you need to reference the previously created file in the **blacklistFile** attribute.
 
-**For Linux only**: in the server configuration file, we recommand that you specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+**For Linux only**: in the server configuration file, we recommend that you specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
 >

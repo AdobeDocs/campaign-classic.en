@@ -44,7 +44,7 @@ To configure addresses in Campaign interface, follow the steps below:
 
 1. In the **[!UICONTROL From]** field, use a name that is easily identifiable by the recipients, such as your brand's name, to increase the opening rate of your deliveries. To further improve the recipient's experience, you can add a person's name, for example "Emma from Megastore".
 
-1. In the **[!UICONTROL Reply address text]** fiels, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
+1. In the **[!UICONTROL Reply address text]** fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
 
 ### Set up a control group
 

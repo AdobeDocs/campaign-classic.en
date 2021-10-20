@@ -43,7 +43,7 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
 
    >[!IMPORTANT]
    >
-   >When the URL of the link is used as a label, it is recommended to desactivate tracking to avoid risks of rejection due to phishing.
+   >When the URL of the link is used as a label, it is recommended to deactivate tracking to avoid risks of rejection due to phishing.
    >
    >For example, if the www.adobe.com URL is inserted into the message and tracking activated on it, the content of the hypertext link will be modified to https://nlt.adobe.net/r/?id=xxxxxx. This means that it could be considered as fraudulent by recipient message clients.
 
@@ -60,7 +60,7 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
    For each individual URL, you can set tracking mode to one of these values:
 
     * **[!UICONTROL Enabled]** : activates tracking on this URL. 
-    * **[!UICONTROL Not tracked]** : desactivates tracking on this URL.
+    * **[!UICONTROL Not tracked]** : deactivates tracking on this URL.
     * **[!UICONTROL Always enabled]** : always activates tracking of this URL. This information is saved so that the next time, if the URL appears again in a future message content, its tracking is automatically activated.
     * **[!UICONTROL Never tracked]** : never activates tracking of this URL. This information is saved so that the next time, if the URL appears again in a future message, its tracking be automatically deactivated.
     * **[!UICONTROL Opt-out]** : considers this URL as an opt-out or unsubscription URL.

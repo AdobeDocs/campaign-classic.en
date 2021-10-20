@@ -143,7 +143,7 @@ To create this example, apply the following steps:
 
 Your outbound transition will contain recipients who didn't open an email in the last 7 days.
 
-If, on the opposite, you want to filter recipients who opened at least one email your query should be as follows. Please note that, in this case, the **[!UICONTROL Filtering dimension]** shoud be set to **[!UICONTROL Tracking logs (Recipients)]**.
+If, on the opposite, you want to filter recipients who opened at least one email your query should be as follows. Please note that, in this case, the **[!UICONTROL Filtering dimension]** should be set to **[!UICONTROL Tracking logs (Recipients)]**.
 
 ![](assets/query_open_5.png)
 
@@ -173,7 +173,7 @@ The following example shows how to target profiles who have opened a delivery wi
 
    ![](assets/s_advuser_query_sample1.6.png)
 
-## Filtering recipients' behavior folllowing a delivery {#filtering-recipients--behavior-folllowing-a-delivery}
+## Filtering recipients' behavior following a delivery {#filtering-recipients--behavior-folllowing-a-delivery}
 
 In a workflow, the **[!UICONTROL Query]** and **[!UICONTROL Split]** boxes let you select a behavior following a previous delivery. This selection is carried out via the **[!UICONTROL Delivery recipient]** filter.
 
