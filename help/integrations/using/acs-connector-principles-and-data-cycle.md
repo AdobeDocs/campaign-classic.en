@@ -38,7 +38,7 @@ This document presents the ACS Connector capabilities. The sections below provid
 
 >[!NOTE]
 >
->ACS Connector is included with Campaign v7 under licence agreement. To use ACS Connector, make certain that you can switch between Campaign v7 and Campaign Standard. If you are uncertain of your version and its included features, please contact your administrator.
+>ACS Connector is included with Campaign v7 under license agreement. To use ACS Connector, make certain that you can switch between Campaign v7 and Campaign Standard. If you are uncertain of your version and its included features, please contact your administrator.
 
 ## Process {#process}
 
