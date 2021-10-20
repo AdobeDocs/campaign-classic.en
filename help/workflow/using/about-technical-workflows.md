@@ -13,7 +13,7 @@ exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 
 ## About technical workflows {#overview}
 
-The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your licence agreement. Built-in packages are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md).
+The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your license agreement. Built-in packages are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md).
 
 By default, technical workflows are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
