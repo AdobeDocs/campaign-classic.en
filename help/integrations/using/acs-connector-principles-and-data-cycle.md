@@ -309,7 +309,7 @@ With the basic implementation, the out-of-the-box recipient fields are replicate
 
 **Replicating custom profile tables**
 
-With the basic implementation, the out-of-the-box recipient table is replicated. If you added custom recipient tables, here is how you identify them.
+With the basic implementation, the built-in recipient table is replicated. If you added custom recipient tables, here is how you identify them.
 
 1. Under **[!UICONTROL Administration > ACS Connector > Data mapping]**, create a targeting mapping on your custom profile table.
 
