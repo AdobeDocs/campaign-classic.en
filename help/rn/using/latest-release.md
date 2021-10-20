@@ -24,7 +24,7 @@ _October 25, 2021_
 Several security improvements have been made to the FDA accounts:
 
 * ODBC drivers are now directly installed with Adobe Campaign Third Parties. Manual steps are no longer required to install the drivers.
-* The Snowflake external account now provides Keypair authentication. You can now use your Private key to authenticate.
+* The Snowflake external account now provides Keypair authentication. You can now use your private key to authenticate.
 * The Azure Synapse external account now provides System-assigned managed identity authentication.
 * Google Big Query is now available for Hosted deployments.
 
@@ -69,7 +69,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 * Fixed an issue which led to a bad request error when using xml-data fields with the Microsoft Dynamics CRM account if the referenced xml contained double quotes.
 * Fixed an error which occurred when using Lookup field data types with Microsoft Dynamics CRM in **Import** or **Export** workflow activities.
 * Fixed an issue which prevented Campaign templates from being deleted.
-* Fixed an issue which prevented the **Mirror Page** personalisation block to appear after importing an HTML file with the **Open** button from the HTML tab of the Email editor. (NEO-26639)
+* Fixed an issue which prevented the **Mirror Page** personalization block to appear after importing an HTML file with the **Open** button from the HTML tab of the Email editor. (NEO-26639)
 * Fixed an issue which prevented the **Hot Clicks** report from loading for deliveries since build 9182. (NEO-28900)
 * Fixed an error when using a previously created delivery template linked to a Web Analytics account in a new delivery where the Web Analytics configuration was missing. (NEO-28666)
 * Fixed an error that prevented delivery targeting seed addresses from being sent when using seed member properties in personalization fields.
@@ -80,7 +80,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 * Fixed an issue that could cause valid tables that contained list values to be deleted by the database cleanup workflow. (NEO-34911)
 * Fixed an issue that prevented users from selecting the **[!UICONTROL Country/Region]** link when previewing a profile. (NEO-35609	
 )
-* Fixed an issue that could cause the following error message to be inappropriately returned, although the issue had not occurred: "RDS-871002 RedShift: impossible to set an unicode encoding. Please check the version of the PostgreSQL libpq library." (NEO-36531)
+* Fixed an issue that could cause the following error message to be inappropriately returned, although the issue had not occurred: "RDS-871002 RedShift: impossible to set a unicode encoding. Please check the version of the PostgreSQL libpq library." (NEO-36531)
 * Fixed an issue that could cause errors when Content Manager was being installed on an existing instance.
 * Fixed an issue that could cause intermittent core dumps. (NEO-30549)
 * Fixed an issue that could prevent records of the deliveries statistics table (`nmsDeliveryLogStats`) from being purged from the mid-sourcing instance during database cleanup after the related deliveries had been deleted. (NEO-31034)
@@ -89,7 +89,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 * Fixed an issue that returned incorrect results when running the Amazon Redshift HoursDiff and MinutesDiff functions while trying to extract the time component. (NEO-31673)
 * Fixed an issue which could prevent users from login to the console due to a proxy configuration issue. (NEO-38388)
 * Fixed an issue with could lead the **Mid-sourcing (delivery logs)** workflow to fail. (NEO-39662)
-* Fixed a regression issue which prevented the **Purge folder** functionnality from working. (NEO-37459)
+* Fixed a regression issue which prevented the **Purge folder** functionality from working. (NEO-37459)
 * Fixed an error that prevented personalized tracking URLs from being redirected when the URL signature mechanism for tracking links was enabled.
 * Fixed an issue which could prevent the **Read list** workflow activity from working when the list was identified in the database with a negative ID. (NEO-39607)
  
