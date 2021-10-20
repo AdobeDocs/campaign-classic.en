@@ -47,14 +47,62 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 
 * To optimize the throughput performance of the MTA, the error collection functionality is now processed asynchronously.
 * The **[!UICONTROL About]** dialog box no longer shows the server build date. The date that was displayed was the client build date.
-* The libexpat library has been updated.
 * Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
     * The configuration of a workflow to import data from Microsoft CRM could fail.
     * Data import from Microsoft CRM could fail or might not work if the filter condition contained lookup fields.
     * During an import triggered by a workflow, the null values of string-type fields were saved as `Null` instead of empty values.
     * The following error could be returned for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
     * During an import from Microsoft Dynamics 365, the lookup fields data was not imported.
+
+**Other changes**
+
+* Starting 21.1.5, you can no longer upgrade from a build older than Gold Standard 9032. If you're in this case, you will need to upgrade to 9032 before upgrading to the newer build.
+* CRM datasources can now be used with the **Change data source** activity.
+* The user interface for the **Change Data source** activity has been improved for a better user experience.
+* A dedicated sequence is now used to generate the primary keys for the `nmsGroup` table, which is used to create statistical groups of recipients. Previously, the `xtknewId` sequence was used. (NEO-30832)
+* The **[!UICONTROL Encrypted identifier]** field has been added to the visitor schema (`nms:visitor`). This field is calculated and is to be used for web applications.
+* A new option has been added in the **Error management** properties of workflow activities: The **Abort on error** option will stop automatically the workflow. You will not be able to restart it afterwards. (NEO-29661)
+* Fixed an issue that caused the delivery analysis to fail when some IP affinities existed in some mid-sourcing containers but not in all of them. Now the IP affinities are all stored in the database, so that any container can access the affinities present in all the other containers. (NEO-37564)
+
+**Patches**
+
+* Fixed an issue which led to a bad request error when using xml-data fields with the Microsoft Dynamics CRM account if the referenced xml contained double quotes.
+* Fixed an error which occurred when using Lookup field data types with Microsoft Dynamics CRM in **Import** or **Export** workflow activities.
+* Fixed an issue which prevented Campaign templates from being deleted.
+* Fixed an issue which prevented the **Mirror Page** personalisation block to appear after importing an HTML file with the **Open** button from the HTML tab of the Email editor. (NEO-26639)
+* Fixed an issue which prevented the **Hot Clicks** report from loading for deliveries since build 9182. (NEO-28900)
+* Fixed an error when using a previously created delivery template linked to a Web Analytics account in a new delivery where the Web Analytics configuration was missing. (NEO-28666)
+* Fixed an error that prevented delivery targeting seed addresses from being sent when using seed member properties in personalization fields.
+* Fixed an error which replaced the & symbol in an URL with the character entity reference (`&amp;`) preventing users to access the URL linked to a QR code. (NEO-28621)
+* Fixed an issue that could prevent propositions from being saved in the offer propositions table. (NEO-39263)
+* Fixed an issue that caused network timeout issues to be incorrectly logged as script interruption issues instead of network errors. This issue occurred in the case of HTTP requests that were included in JavaScript activities. (NEO-38079)
+* Fixed an issue that could prevent you from previewing email deliveries that were attached to a workflow. (NEO-37840)
+* Fixed an issue that could cause valid tables that contained list values to be deleted by the database cleanup workflow. (NEO-34911)
+* Fixed an issue that prevented users from selecting the **[!UICONTROL Country/Region]** link when previewing a profile. (NEO-35609	
+)
+* Fixed an issue that could cause the following error message to be inappropriately returned, although the issue had not occurred: "RDS-871002 RedShift: impossible to set an unicode encoding. Please check the version of the PostgreSQL libpq library." (NEO-36531)
+* Fixed an issue that could cause errors when Content Manager was being installed on an existing instance.
+* Fixed an issue that could cause intermittent core dumps. (NEO-30549)
+* Fixed an issue that could prevent records of the deliveries statistics table (`nmsDeliveryLogStats`) from being purged from the mid-sourcing instance during database cleanup after the related deliveries had been deleted. (NEO-31034)
+* Fixed an issue that could cause the billing workflow to crash on several marketing instances.
+* Fixed an error that prevented the delivery logs from being updated correctly when sending with the Campaign MTA: email messages were still showing as failed even though they were properly delivered. (NEO-33449)
+* Fixed an issue that returned incorrect results when running the Amazon Redshift HoursDiff and MinutesDiff functions while trying to extract the time component. (NEO-31673)
+* Fixed an issue which could prevent users from login to the console due to a proxy configuration issue. (NEO-38388)
+* Fixed an issue with could lead the **Mid-sourcing (delivery logs)** workflow to fail. (NEO-39662)
+* Fixed a regression issue which prevented the **Purge folder** functionnality from working. (NEO-37459)
+* Fixed an error that prevented personalized tracking URLs from being redirected when the URL signature mechanism for tracking links was enabled.
+* Fixed an issue which could prevent the **Read list** workflow activity from working when the list was identified in the database with a negative ID. (NEO-39607)
  
+## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
+
+_October 8, 2021_
+
+**Patches**
+
+* Fixed an issue which could prevent proper offer management when using the **Interaction** module with the [Power Booster](../../installation/using/power-booster-and-power-cluster.md) option. (NEO-39263)
+
+* Fixed an error 'The ipaffinity xxx is not found on mid server xxx' which could happen on delivery sending when using more than one IP affinity on a multi mid-sourcing instance. (NEO-37514)
+
 ## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
 _September 7, 2021_
