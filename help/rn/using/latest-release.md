@@ -78,8 +78,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 * Fixed an issue that caused network timeout issues to be incorrectly logged as script interruption issues instead of network errors. This issue occurred in the case of HTTP requests that were included in JavaScript activities. (NEO-38079)
 * Fixed an issue that could prevent you from previewing email deliveries that were attached to a workflow. (NEO-37840)
 * Fixed an issue that could cause valid tables that contained list values to be deleted by the database cleanup workflow. (NEO-34911)
-* Fixed an issue that prevented users from selecting the **[!UICONTROL Country/Region]** link when previewing a profile. (NEO-35609	
-)
+* Fixed an issue that prevented users from selecting the **[!UICONTROL Country/Region]** link when previewing a profile. (NEO-35609)
 * Fixed an issue that could cause the following error message to be inappropriately returned, although the issue had not occurred: "RDS-871002 RedShift: impossible to set a unicode encoding. Please check the version of the PostgreSQL libpq library." (NEO-36531)
 * Fixed an issue that could cause errors when Content Manager was being installed on an existing instance.
 * Fixed an issue that could cause intermittent core dumps. (NEO-30549)
