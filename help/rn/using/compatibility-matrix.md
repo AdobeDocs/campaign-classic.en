@@ -220,8 +220,6 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
