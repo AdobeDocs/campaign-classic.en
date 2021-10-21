@@ -9,7 +9,7 @@ exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 ---
 # Pressure rules{#pressure-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## About marketing fatigue {#about-marketing-fatigue}
 
@@ -58,6 +58,9 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
    >[!NOTE]
    >
    >Scheduled deliveries are only taken into account if the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option is selected. For more on this, refer to [Setting the period](#setting-the-period).
+   >
+   >This option is not available in Campaign v8.
+   >
 
 1. Define the method for calculating the highest number of messages.
 
@@ -144,28 +147,30 @@ The grouping type lets you extend the **[!UICONTROL Period considered]** field t
 
 For example, a pressure rule which defines a threshold of 2 messages per week, with a grouping to each calendar month, will prevent the delivery of more than 2 messages within the same week AND within the same calendar month. Warning, if the period overlaps two months, the calculation threshold will take into account deliveries from these two calendar months and could therefore prevent all new deliveries during the second month.
 
->[!NOTE]
->
->By default, only deliveries already sent are taken into account when calculating the threshold. Check the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option if you also want to consider the deliveries scheduled for the concerned period. In this case, the considered period is doubled to enable the integration of future deliveries as well as previous ones.  
->To restrict the deliveries taken into account to a 2-week period, you can either:  
->
->* Enter **15d** in the **[!UICONTROL Concerned period]** field: deliveries sent up to two weeks before the date of the delivery which the rule is applied to will be taken into account in the calculation,
->
->  or
->
->* Enter **7d** in the **[!UICONTROL Period considered]** field AND check the **[!UICONTROL Take the deliveries into account in the provisional calendar]**  
->option: deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
->
->The period start date depends on how the database is configured.
+Note that by default, only deliveries already sent are taken into account when calculating the threshold. In Campaign Classic v7, check the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option if you also want to consider the deliveries scheduled for the concerned period. In this case, the considered period is doubled to enable the integration of future deliveries as well as previous ones.  
+
+To restrict the deliveries taken into account to a 2-week period, you can either:  
+
+1. Enter **15d** in the **[!UICONTROL Concerned period]** field: deliveries sent up to two weeks before the date of the delivery which the rule is applied to will be taken into account in the calculation,
+
+  or
+
+1. Enter **7d** in the **[!UICONTROL Period considered]** field AND check the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option: deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
+
+   >[!CAUTION]
+   >This method is not available in Campaign v8.
+   >
+ 
+The period start date depends on how the database is configured.
 
 For instance, if you apply a 15-day pressure rule without grouping to a delivery dated 12/11, deliveries will be taken into account between 11/27 and 12/12. If the pressure rule takes the deliveries in the provisional calendar into account, all deliveries scheduled between 11/27 and 12/27 will be taken into account. Finally, if you configure a grouping per calendar month in the rule, all deliveries in November and December will be taken into account for calculating the threshold (from 11/1 to 12/31).
 
->[!CAUTION]
->
->**Frequent cases** 
->To make sure that deliveries for the current calendar week are not taken into account, as well as not to risk also taking into account those from the previous week for the calculation threshold, specify the **[!UICONTROL Period considered]** at '0' and select 'Grouping per calendar week' as the **[!UICONTROL Period type]**. 
-> 
->When a period is higher than 0 (1 for example), the calculation threshold may take the previous day's deliveries into account. Therefore, if the previous day corresponds to the previous calendar week and the period type selected is 'Grouping per calendar week', all of the previous week will then be taken into account for the calculation threshold.
+
+**Frequent cases** 
+
+To make sure that deliveries for the current calendar week are not taken into account, as well as not to risk also taking into account those from the previous week for the calculation threshold, specify the **[!UICONTROL Period considered]** at '0' and select 'Grouping per calendar week' as the **[!UICONTROL Period type]**. 
+
+When a period is higher than 0 (1 for example), the calculation threshold may take the previous day's deliveries into account. Therefore, if the previous day corresponds to the previous calendar week and the period type selected is 'Grouping per calendar week', all of the previous week will then be taken into account for the calculation threshold.
 
 **Example:**
 
@@ -328,6 +333,10 @@ First, configure the pressure rule.
    ![](assets/campaign_opt_pressure_example_1.png)
 
    Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Setting the period](#setting-the-period).
+
+   >[!CAUTION]
+   >Scheduled deliveries cannot be taken into account in Campaign v8.
+   >
 
 1. In the **[!UICONTROL Typologies]** tab, link the rule to a campaign typology.
 1. Save your changes.
