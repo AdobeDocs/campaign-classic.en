@@ -25,6 +25,4 @@ exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
 * **SQL code and JavaScript code**: executes the SQL script or JavaScript specified in the activity. Refer to [SQL code and JavaScript code](sql-code-and-javascript-code.md).
 * **SQL Data Management**: lets you write your own SQL queries to create and populate work tables. Refer to [SQL Data Management](sql-data-management.md).
 * **nlserver module**: starts an nlserver module with its arguments. Refer to [Nlserver module](nlserver-module.md).
-* **Import and Export (v4 compatible)**: Import and export activities (v4 compatibility) let you import and export data using the template (import or export) specified in the activity.
-* **Microsoft CRM, Salesforce, Oracle CRM On Demand**: lets you connect Adobe Campaign specifically to one of the pre-configured CRMs. These activities are similar to the CRM connector presented in [this section](crm-connector.md), with more specific options. In particular, you can choose the type of campaign to carry out for the synchronization.
 * **Update aggregate**: lets you select the aggregate update mode (full or partial). Refer to [Update aggregate](update-aggregate.md).

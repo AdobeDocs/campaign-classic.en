@@ -38,7 +38,7 @@ This document presents the ACS Connector capabilities. The sections below provid
 
 >[!NOTE]
 >
->ACS Connector is included with Campaign v7 under licence agreement. To use ACS Connector, make certain that you can switch between Campaign v7 and Campaign Standard. If you are uncertain of your version and its included features, please contact your administrator.
+>ACS Connector is included with Campaign v7 under license agreement. To use ACS Connector, make certain that you can switch between Campaign v7 and Campaign Standard. If you are uncertain of your version and its included features, please contact your administrator.
 
 ## Process {#process}
 
@@ -309,7 +309,7 @@ With the basic implementation, the out-of-the-box recipient fields are replicate
 
 **Replicating custom profile tables**
 
-With the basic implementation, the out-of-the-box recipient table is replicated. If you added custom recipient tables, here is how you identify them.
+With the basic implementation, the built-in recipient table is replicated. If you added custom recipient tables, here is how you identify them.
 
 1. Under **[!UICONTROL Administration > ACS Connector > Data mapping]**, create a targeting mapping on your custom profile table.
 

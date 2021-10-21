@@ -33,7 +33,7 @@ Read out the [Tables and schemas getting started](../../configuration/using/abou
 
 ## How to use a custom recipient table? {#how-to-use-a-custom-recipient-table-}
 
-You can create and implement a non-standard recipient table in Campaign to send your messages.
+You can create and implement a non-built-in recipient table in Campaign to send your messages.
 
 [Click here to learn more](../../configuration/using/about-custom-recipient-table.md)
 

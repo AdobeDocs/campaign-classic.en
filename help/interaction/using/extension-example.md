@@ -9,7 +9,7 @@ exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
 ---
 # Extension example{#extension-example}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 In the case of an inbound contact (call center or web site), the most relevant offers are suggested to a given contact using a set of eligibility rules. To enrich the eligibility criteria of your offers, extend the **nms:interaction** schema.
 

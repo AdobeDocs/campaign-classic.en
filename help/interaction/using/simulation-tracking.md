@@ -9,7 +9,7 @@ exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
 ---
 # Simulation tracking{#simulation-tracking}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Once the simulation is finished, you can analyze its result via the **[!UICONTROL Results]** tab which is added to the simulation window and the **[!UICONTROL Breakdown of offers by rank]** report, available via in the simulation dashboard.
 
