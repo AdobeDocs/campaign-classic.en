@@ -9,7 +9,7 @@ exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 ---
 # Filtering rules{#filtering-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Filtering rules let you define the messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.
 

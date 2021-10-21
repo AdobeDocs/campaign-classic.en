@@ -9,7 +9,7 @@ exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 ---
 # Pressure rules{#pressure-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## About marketing fatigue {#about-marketing-fatigue}
 

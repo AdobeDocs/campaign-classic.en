@@ -9,7 +9,7 @@ exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 ---
 # Control rules{#control-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Analysis and arbitration control rules {#analysis-and-arbitration-control-rules}
 
