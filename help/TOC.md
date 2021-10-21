@@ -555,7 +555,7 @@ type: Documentation
        + [Additional data](interaction/using/additional-data.md)
        + [Extension example](interaction/using/extension-example.md)
        + [Create a test environment](interaction/using/creating-a-test-environment.md)
-       + [Hooks](interaction/using/hooks.md)
+       + [Modify the standard engine behavior](interaction/using/hooks.md)
        + [Distributed architectures](interaction/using/distributed-architectures.md)
        + [Data buffer configuration](installation/using/interaction---data-buffer.md)
   + Use case {#case-study}
