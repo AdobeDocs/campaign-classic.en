@@ -136,8 +136,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 <p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
