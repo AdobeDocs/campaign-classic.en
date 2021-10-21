@@ -41,6 +41,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Debian</td>
 <td>
+<p>11 (64 bits)</p>
 <p>10 (64 bits)</p>
 <p>9 (64 bits)</p>
 </td>
@@ -56,6 +57,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Windows Server</td>
 <td>
+<p>2019</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -134,8 +136,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 <p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
@@ -220,8 +220,6 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
