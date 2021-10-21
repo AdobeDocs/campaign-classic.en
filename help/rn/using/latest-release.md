@@ -45,7 +45,6 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 
 **Improvements**
 
-* To optimize the throughput performance of the MTA, the error collection functionality is now processed asynchronously.
 * The **[!UICONTROL About]** dialog box no longer shows the server build date. The date that was displayed was the client build date.
 * Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
     * The configuration of a workflow to import data from Microsoft CRM could fail.
@@ -91,6 +90,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 * Fixed a regression issue which prevented the **Purge folder** functionality from working. (NEO-37459)
 * Fixed an error that prevented personalized tracking URLs from being redirected when the URL signature mechanism for tracking links was enabled.
 * Fixed an issue which could prevent the **Read list** workflow activity from working when the list was identified in the database with a negative ID. (NEO-39607)
+* To optimize the throughput performance of the MTA, the error collection functionality is now processed asynchronously.
  
 ## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
 
