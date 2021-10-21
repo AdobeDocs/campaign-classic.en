@@ -28,6 +28,8 @@ Several security improvements have been made to the FDA accounts:
 * The Azure Synapse external account now provides System-assigned managed identity authentication.
 * Google Big Query is now available for Hosted deployments.
 
+[Read more](../../installation/using/configure-fda.md)
+
 **Compatibility updates**
 
 The following systems are now supported: 
@@ -45,7 +47,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 
 **Improvements**
 
-* The **[!UICONTROL About]** dialog box no longer shows the server build date. The date that was displayed was the client build date.
+* The **[!UICONTROL About]** dialog box no longer shows the server build date. The date that was displayed was the client build date. [Read more](../../platform/using/launching-adobe-campaign.md)
 * Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
     * The configuration of a workflow to import data from Microsoft CRM could fail.
     * Data import from Microsoft CRM could fail or might not work if the filter condition contained lookup fields.
@@ -56,7 +58,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 **Other changes**
 
 * Starting 21.1.5, you can no longer upgrade from a build older than Gold Standard 9032. If you're in this case, you will need to upgrade to 9032 before upgrading to the newer build.
-* CRM datasources can now be used with the **Change data source** activity.
+* CRM datasources can now be used with the **Change data source** activity. [Read more](../../workflow/using/sql-code-and-javascript-code.md)
 * The user interface for the **Change Data source** activity has been improved for a better user experience.
 * A dedicated sequence is now used to generate the primary keys for the `nmsGroup` table, which is used to create statistical groups of recipients. Previously, the `xtknewId` sequence was used. (NEO-30832)
 * The **[!UICONTROL Encrypted identifier]** field has been added to the visitor schema (`nms:visitor`). This field is calculated and is to be used for web applications.
