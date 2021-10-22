@@ -157,7 +157,7 @@ To restrict the deliveries taken into account to a 2-week period, you can either
 
 1. Enter **7d** in the **[!UICONTROL Period considered]** field AND check the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option: deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
 
-   >[!CAUTION]
+   >[!AVAILABILITY]
    >This method is not available in Campaign v8.
    >
  
@@ -334,7 +334,7 @@ First, configure the pressure rule.
 
    Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Setting the period](#setting-the-period).
 
-   >[!CAUTION]
+   >[!AVAILABILITY]
    >Scheduled deliveries cannot be taken into account in Campaign v8.
    >
 
