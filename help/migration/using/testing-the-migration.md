@@ -160,6 +160,12 @@ The following expressions are searched for (case sensitive):
    <td> Error<br /> </td> 
    <td> This type of deployment is no longer supported. Office 365 and On-premise Microsoft CRM connector deployment type have now been deprecated</a>. To change to Web API deployment, refer to <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web applications</a>.<br /> </td>
   </tr> 
+  <tr> 
+   <td> crmDeploymentType="v1 active"<br /> </td> 
+   <td> PU-0008<br /> </td> 
+   <td> Error<br /> </td> 
+   <td> Microsoft CRM, Salesforce, Oracle CRM On Demand action activities are no longer available. To configure the data synchronization between Adobe Campaign and a CRM system, you need to use the <a href="../../workflow/using/crm-connector.md" target="_blank">CRM connector</a> targeting activity.<br /> </td>
+  </tr> 
  </tbody> 
 </table>
 
