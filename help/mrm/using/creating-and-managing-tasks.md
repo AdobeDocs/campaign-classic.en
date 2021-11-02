@@ -97,7 +97,7 @@ They are selected using the **[!UICONTROL Resources]** icon in the task toolbar.
 
 Click **[!UICONTROL Ok]** and then input the usage rate: this represents the load assigned to the operator for the duration of task execution. This rate is an indication only and is expressed as a percentage.
 
-For example, for a task whose execution schedule is set at 10 days, an operator whose usage rate is 50% will be mobilized on this task for half of his working time for the 10 days.
+For example, for a task whose execution schedule is set at 10 days, an operator whose usage rate is 50% will be mobilized on this task for half of their working time for the 10 days.
 
 For each operator, you can enter a scheduled workload and an actual workload. These durations are also for information purposes only.
 
@@ -319,7 +319,7 @@ In the **[!UICONTROL Marketing resource]** field, define the resource you want t
 
 The **[!UICONTROL Publish the marketing resource]** option lets you automate resource publishing: once the task is **[!UICONTROL Finished]**, the status of the resource automatically switches to **[!UICONTROL Published]**, even if it was neither submitted for approval or approved, including if the reviewer who completes the task isn't the content reviewer defined in the resource.
 
-The **[!UICONTROL Publish the resource]** button is made available and the resource publishing reviewer receives a notification email to let him know that it is ready to be published. In the **[!UICONTROL Edit > Tracking]** tab, reviewing and publishing by the task reviewer become visible. If a resource post-processing workflow has been defined, it is executed now.
+The **[!UICONTROL Publish the resource]** button is made available and the resource publishing reviewer receives a notification email to let them know that it is ready to be published. In the **[!UICONTROL Edit > Tracking]** tab, reviewing and publishing by the task reviewer become visible. If a resource post-processing workflow has been defined, it is executed now.
 
 ![](assets/mrm_resource_audit_tab.png)
 
@@ -464,7 +464,7 @@ Below are the stages of a complete task life cycle for which the person in charg
 
    ![](assets/s_ncs_user_task_percentage_done_op.png)
 
-1. The reviewer receives a notification email telling him that the operator has completed the section assigned to them.
+1. The reviewer receives a notification email telling them that the operator has completed the section assigned to them.
 
    They can follow the progress on the task dashboard.
 

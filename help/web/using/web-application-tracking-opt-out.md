@@ -81,7 +81,7 @@ The available client-side APIs to customize the banner are:
 
   bannerDomElt {DOMElement} the root DOM element of the cookie banner that needs to be removed
 
-* **NL.ClientWebTracking.hasUserPrefs()**: Returns true if the user has chosen his preferences for Web tracking.
+* **NL.ClientWebTracking.hasUserPrefs()**: Returns true if the user has chosen their preferences for Web tracking.
 * **NL.ClientWebTracking.getUserPrefs()**: Returns the opt-out cookie value that defines the user's preferences.
 
 If you have to write a JSSP, Server-Side APIs are available:

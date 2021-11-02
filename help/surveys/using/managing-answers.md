@@ -39,7 +39,7 @@ To add a constraint, select it from the drop-down list. There are two types of c
 
 If this field is used in a list, the values of the enumeration can be retrieved automatically in the table of values using the **[!UICONTROL Initialize the list of values from the database]** link above the list of values.
 
-For example, you can create a drop-down list for the user to select his or her native language. The corresponding archived field can be associated with the **language** enumeration which contains a list of languages:
+For example, you can create a drop-down list for the user to select their native language. The corresponding archived field can be associated with the **language** enumeration which contains a list of languages:
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 

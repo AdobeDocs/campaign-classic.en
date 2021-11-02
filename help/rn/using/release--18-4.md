@@ -95,8 +95,8 @@ exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
    <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
    <td> <p>GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements going into effect on May 25, 2018. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.</p> <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests:</p> 
     <ul> 
-     <li> <p>Right to Access: allows the Data Subject to receive a copy of his/her personal data captured by Data Controllers, potentially including data stored in Adobe Campaign.</p> </li> 
-     <li> <p>Right to Delete: entitles the Data Subject to have his/her personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign.</p> </li> 
+     <li> <p>Right to Access: allows the Data Subject to receive a copy of their personal data captured by Data Controllers, potentially including data stored in Adobe Campaign.</p> </li> 
+     <li> <p>Right to Delete: entitles the Data Subject to have their personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign.</p> </li> 
     </ul> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 

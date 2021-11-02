@@ -17,7 +17,7 @@ In this use case, the site **My online library** would like to personalize its n
 
 In conjunction with the purchasing department, the user in charge of deliveries has created a newsletter for subscribers that have purchased police novels.
 
-To share the final result of their collaboration with them, the delivery manager decides to add his colleagues from the purchasing department to the delivery as seed addresses. Using a dynamic condition lets you save time on configuring and updating addresses.
+To share the final result of their collaboration with them, the delivery manager decides to add their colleagues from the purchasing department to the delivery as seed addresses. Using a dynamic condition lets you save time on configuring and updating addresses.
 
 To use the dynamic condition, you must have:
 

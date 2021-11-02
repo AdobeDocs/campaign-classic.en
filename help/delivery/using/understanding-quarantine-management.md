@@ -31,13 +31,13 @@ Moreover, quarantines help reducing SMS sending costs by excluding erroneous pho
 
 **Quarantine** applies only to an address, not the profile itself. It means that, if two profiles have the same email address, they will both be affected if the address is quarantined.
 
-Likewise, a profile whose email address is quarantined could update his profile and enter a new address, and could then be targeted by delivery actions again.
+Likewise, a profile whose email address is quarantined could update their profile and enter a new address, and could then be targeted by delivery actions again.
 
 Being on the **denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
 
 >[!NOTE]
 >
->When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. The profile phone number is sent to quarantine, so that the user continues receiving email messages.
+>When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, their profile is not added to the denylist like in the email opt-out process. The profile phone number is sent to quarantine, so that the user continues receiving email messages.
 
 ## Identifying quarantined addresses {#identifying-quarantined-addresses}
 

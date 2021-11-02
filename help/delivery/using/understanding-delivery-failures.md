@@ -292,7 +292,7 @@ When an email fails, the remote server returns a bounce message to the address s
 
 >[!NOTE]
 >
->The user can create his own rules. When importing a package and when updating data via the **Refresh for deliverability** workflow, the user-created rules are overwritten.
+>The user can create their own rules. When importing a package and when updating data via the **Refresh for deliverability** workflow, the user-created rules are overwritten.
 
 For more on bounce mail qualification, see [this section](#bounce-mail-qualification).
 
