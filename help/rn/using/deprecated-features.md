@@ -41,7 +41,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>Starting Campaign 21.1.3 release, the Adobe Analytics Data Connector is deprecated.</p>
    <p>If you are using this connector, you need to adapt your implementation accordingly. <a href="../../platform/using/adobe-analytics-connector.md">Learn more</a></p>
-  <p><em>Target removal date: March 1, 2022</em></p>
+  <p><em>Target removal date: August 2022</em></p>
   </td>
  </tr>
     <tr>
