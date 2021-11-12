@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Defining interactive content in Adobe Campaign Classic
+title: Define interactive content in Adobe Campaign Classic
 description: Learn how to define interactive and dynamic email content with AMP in Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 ---
-# Defining interactive content{#defining-interactive-content}
+# Define interactive content{#defining-interactive-content}
 
 ![](../../assets/common.svg)
 
@@ -55,7 +55,7 @@ To successfully test and send an AMP email with Adobe Campaign, follow the steps
 
 1. Send your email as you would usually do. See [Sending an AMP email](#sending-amp-email).
 
-## Building AMP email content in Adobe Campaign {#build-amp-email-content}
+## Build AMP email content in Adobe Campaign {#build-amp-email-content}
 
 To build an email using the AMP format, follow the steps below.
 
@@ -138,7 +138,7 @@ In particular, the following requirements must be met:
 
 You can also consult the [Tips and known limitations for Gmail](https://developers.google.com/gmail/ampemail/tips) and the [AMP best practices for Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/best-practices).
 
-## Targeting an AMP email {#targeting-amp-email}
+## Target an AMP email {#targeting-amp-email}
 
 Currently you can experiment sending an AMP email in two steps:
 
@@ -178,7 +178,7 @@ Once tested with a few addresses, you can send AMP emails to any Gmail or Outloo
 
 To send AMP emails to Mail.ru addresses, follow the requirements and steps listed in the [Mail.ru developer documentation](https://postmaster.mail.ru/amp/?lang=en#howto) (**If you are an Email sender** section).
 
-## Sending an AMP email {#sending-amp-email}
+## Send an AMP email {#sending-amp-email}
 
 Once your AMP content and fallback are ready, and once you defined a compatible target, you can send the email as you would normally do.
 

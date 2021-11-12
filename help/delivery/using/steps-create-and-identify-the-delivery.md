@@ -45,7 +45,7 @@ You need to complete parameters to identify the delivery. To do this:
 
 The delivery content is ready to be configured. Delivery content definition is specific to each channel. For more on this, refer to the dedicated section:
 
-* [Defining the email content](defining-the-email-content.md)
-* [Defining the SMS content](sms-create.md#defining-the-sms-content)
-* [Defining the direct mail content](defining-the-direct-mail-content.md)
+* [Define the email content](defining-the-email-content.md)
+* [Define the SMS content](sms-create.md#defining-the-sms-content)
+* [Define the direct mail content](defining-the-direct-mail-content.md)
 * [Push notifications](about-mobile-app-channel.md)

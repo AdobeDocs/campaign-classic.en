@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Inserting a barcode in an email
-description: Inserting a barcode in an email
+title: Insert a barcode in an email
+description: Insert a barcode in an email
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 ---
 
-# Inserting a barcode in an email{#inserting-a-barcode-in-an-email}
+# Insert a barcode in an email{#insert-a-barcode-in-an-email}
 
 ![](../../assets/common.svg)
 
