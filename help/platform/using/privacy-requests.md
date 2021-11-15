@@ -244,7 +244,7 @@ The **[!UICONTROL CreateRequestByName]** JS API is defined as follows.
 
 ### Invoking the API externally {#invoking-api-externally}
 
-Here is an example of how you can invoke the API externally (authentication via the API and details about the Privacy API specifically). For more information on the Privacy API, consult the [API documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/s-nms-privacyRequest.html). You can also consult the [Web service calls documentation](../../configuration/using/web-service-calls.md).
+Here is an example of how you can invoke the API externally (authentication via the API and details about the Privacy API specifically). For more information on the Privacy API, consult the [API documentation](https://experienceleague.adobe.com/developer/campaign-api/api/s-nms-privacyRequest.html). You can also consult the [Web service calls documentation](../../configuration/using/web-service-calls.md).
 
 First of all, you need to perform the authentication via the API:
 

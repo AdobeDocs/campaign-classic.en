@@ -162,8 +162,8 @@ type: Documentation
   + Send direct mail {#sending-direct-mail}
        + [About direct mail channel](delivery/using/about-direct-mail-channel.md)
        + [Create a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
-       + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
-       + [Validating](delivery/using/validating.md)
+       + [Define the direct mail content](delivery/using/defining-the-direct-mail-content.md)
+       + [Validate](delivery/using/validating.md)
   + Use delivery templates {#using-delivery-templates}
        + [About templates](delivery/using/about-templates.md)
        + [Create a delivery template](delivery/using/creating-a-delivery-template.md)
