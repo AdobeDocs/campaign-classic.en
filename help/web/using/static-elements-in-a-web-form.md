@@ -24,7 +24,7 @@ The following types of field are available:
 
   >[!NOTE]
   >
-  >On the server side, the script can use the functions defined in [Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+  >On the server side, the script can use the functions defined in [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
 
 ## Insert HTML content {#inserting-html-content}
 
