@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Integrating with Adobe Target
-description: Integrating with Adobe Target
+title: Work with Adobe Campaign and Adobe Target
+description: Learn how to integrate Adobe Campaign with Adobe Target
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 ---
-# Integrating with Adobe Target{#integrating-with-adobe-target}
+# Work with Campaign and Target{#integrating-with-adobe-target}
 
 ![](../../assets/common.svg)
 
