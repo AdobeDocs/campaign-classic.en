@@ -9,7 +9,7 @@ exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 ---
 # Consistency rules{#consistency-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## About consistency rules {#about-consistency-rules}
 

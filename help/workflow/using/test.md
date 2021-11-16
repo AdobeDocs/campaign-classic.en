@@ -17,7 +17,7 @@ A condition is a JavaScript expression that must be evaluated to 'true' or 'fals
 
 ![](assets/edit_test.png)
 
-For more information on all the additional JavaScript functions and SOAP methods of the applicative server accessible via workflow JavaScript, refer to [JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+For more information on all the additional JavaScript functions and SOAP methods of the applicative server accessible via workflow JavaScript, refer to [JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
 
 You can also insert variables directly from this editor. For more  information on how to work with variables, refer to [this section](javascript-scripts-and-templates.md#variables).
 
