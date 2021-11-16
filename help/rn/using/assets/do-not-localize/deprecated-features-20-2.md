@@ -84,7 +84,7 @@ This section lists features and capabilities that have been removed from Campaig
    </tr>
    <tr>
    <td>Campaign APIs documentation - jsapi.chm file</td>
-   <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
+   <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html">the new online version</a>.</td>
   </tr> 
   <tr> 
    <td>Campaign Orchestration - Predictive marketing</td>
@@ -101,7 +101,7 @@ This section lists features and capabilities that have been removed from Campaig
   <tr> 
    <td>decryptString API</td>
    <td><p>Starting Campaign 18.6 release, for security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
-   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p></td>
+   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p></td>
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>

@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Defining the email content in Adobe Campaign Classic
+title: Define the email content in Adobe Campaign Classic
 description: Learn how to define the email content when using Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 ---
-# Defining the email content {#defining-the-email-content}
+# Define the email content {#defining-the-email-content}
 
 ![](../../assets/common.svg)
 
@@ -105,7 +105,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
 
-## Defining interactive content {#amp-for-email-format}
+## Define interactive content {#amp-for-email-format}
 
 Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
@@ -229,7 +229,7 @@ If you select **[!UICONTROL Include the images in the email]**, you can choose w
 >
 >If local images are included in the message, you must confirm changes to the message source code.
 
-## Inserting a barcode in an email{#inserting-a-barcode-in-an-email}
+## Insert a personalized barcode{#insert-a-barcode}
 
 The barcode generation module lets you create several types of barcodes that comply with many common standards, including 2D barcodes.
 

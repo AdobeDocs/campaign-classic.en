@@ -9,11 +9,14 @@ exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 ---
 # Integrating with Adobe Target{#integrating-with-adobe-target}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
-Integration between Adobe Campaign and Adobe Target (Classic and Standard) within Adobe Experience Cloud allows you to include an offer from Adobe Target in an Adobe Campaign email delivery.
+Use Adobe Campaign with Adobe Target to optimize email content.
 
-The operating principle is as follows: when a recipient opens an email sent via Adobe Campaign, a call to Adobe Target allows you to display a dynamic version of the content. This dynamic version is computed depending on the rules specified beforehand when creating the email.
+To optimize your email content, you can create a redirect offer in Adobe Target, then use Adobe Campaign to manage the email offers. For example, you can display different offers for male and female recipients.
+
+The integration takes place when the email is opened. When the customer opens the email, a call is made to Target and a dynamic version of the content appears. The content consists of a static image supported by all browsers. Target tracks the reaction to the offer at the audience or session level and that data is available in Target reports. [Learn more in Adobe Target documentation](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
+ 
 
 >[!NOTE]
 >
@@ -24,7 +27,3 @@ Several types of data can be utilized by Adobe Target:
 * Data from the Adobe Campaign datamart
 * Segments linked to the visitor ID in Adobe Target, if the data used is not subject to legal limitations
 * Adobe Target data: user agent, IP address, geolocation data
-
->[!NOTE]
->
->You can also find information regarding integration between Adobe Campaign and Adobe Target on the [Adobe Target help pages](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
