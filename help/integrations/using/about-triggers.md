@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 ---
-# Get started with Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}
+# Work with Campaign and Experience Cloud Triggers{#about-adobe-experience-triggers}
 
 ![](../../assets/common.svg)
 

@@ -369,11 +369,11 @@ type: Documentation
        + [Configure access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
        + [Insert a shared asset](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-       + [About [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+       + [Work with [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
        + [Configure the integration](integrations/using/configuring-the-integration.md)
        + [Create an [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-       + [Integrate with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+       + [Work with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
        + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
        + [Insert a dynamic image](integrations/using/inserting-a-dynamic-image.md)
   + ACS Connector {#acs-connector}
@@ -383,14 +383,14 @@ type: Documentation
        + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
   + Adobe Experience Cloud Triggers {#experience-triggers}
-       + [Get started with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
        + [Configure pipeline](integrations/using/configuring-pipeline.md)
        + [Configure Adobe I/O for [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
        + [Configure events for custom implementation](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
   + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
-       + [Get started with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+       + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
        + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
        + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automate with workflows {#automating-with-workflows}
