@@ -10,7 +10,7 @@ exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
 
 Starting Campaign Classic v7 21.1.3 release, the Adobe Analytics Data Connector is deprecated. [Learn more](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 
-On August 1, 2021, Adobe Campaign Classic has been removed from the legacy Data Connectors UI, however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. After this date, the integration will cease to collect and pass data to Adobe Analytics. 
+On August 1, 2021, Adobe Campaign Classic has been removed from the legacy Data Connectors UI, however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until August 2022. After this date, the integration will cease to collect and pass data to Adobe Analytics. 
 
 You **must implement** the new Adobe Analytics Connector integration on Adobe Exchange which replaces the legacy Data Connectors Integration. To learn more about Adobe Analytics Connector, refer to [this page](../../platform/using/adobe-analytics-connector.md).
 
@@ -43,7 +43,7 @@ Learn how to check your version [in this section](../../platform/using/launching
 
 ## How to update?
 
-You need to upgrade to Campaign 21.1.3 (or more) **before March 1, 2022**.
+You need to upgrade to Campaign 21.1.3 (or more) **before August 2022**.
 
 As a hosted customer, Adobe will be working with you to upgrade your instance(s) to the newer version. You will then be able to use [Adobe Analytics connector](../../platform/using/adobe-analytics-connector.md).
 

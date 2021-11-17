@@ -59,4 +59,4 @@ The principle of data packages is to export a data configuration and integrate i
 
 ## Where can I find the list of Campaign Classic APIs? {#where-can-i-find-the-list-of-campaign-classic-apis}
 
-All Campaign APIs including their full description is available in this [dedicated documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+All Campaign APIs including their full description is available in this [dedicated documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).

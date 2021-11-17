@@ -22,6 +22,8 @@ Built-in packages contain a set of features that can be installed according to y
 >Installing a new package can impact all your platform: it must be tested and validated before final deployment.
 >
 >Once a package is installed, you cannot uninstall it.
+>
+>As a hosted or hybrid customer, contact Adobe to have a new built-in package deployed.
 
 To install a built-in package:
 

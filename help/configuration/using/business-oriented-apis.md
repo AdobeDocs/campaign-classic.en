@@ -34,7 +34,7 @@ This section details the use of the "Subscribe", "Unsubscribe" and "SubmitDelive
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.
+>[Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.
 
 ## Subscribe (nms:subscription) {#subscribe--nms-subscription-}
 

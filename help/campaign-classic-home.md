@@ -76,7 +76,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 |---|---|
 | [Release notes](rn/using/latest-release.md) | [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [How-to videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
-| [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
+| [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html) |
 | [[!DNL Gold Standard] upgrade](rn/using/gs-overview.md) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [Deprecated features](rn/using/deprecated-features.md) | [Security & privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Monitoring guidelines](production/using/monitoring-guidelines.md) |
