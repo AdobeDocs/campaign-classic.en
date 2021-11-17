@@ -46,7 +46,7 @@ To write to the database, you can use the static `Write` method on the `xtk:sess
 
    1. Call the `Write` method on the `xtk:session` schema.
       
-      > [!IMPORTANT]
+      >[!IMPORTANT]
       > If you use Adobe Campaign v8, we recommend that you use the staging mechanism with the **Ingestion** and **Data update/delete** APIs for the `Write` method in a Snowflake table. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
    1. Pass the XML code as an argument for the write request.
@@ -556,10 +556,11 @@ You can insert, update, and delete records. You can use the `Write` method on an
 
 * The `delete` operation
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 > If you use Adobe Campaign v8, we recommend that you use the staging mechanism with the **Ingestion** and **Data update/delete** APIs for the `Write` method in a Snowflake table. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
 #### Example 1: insert or update a record
+
 ```javascript
 xtk.session.Write(
 <recipient
