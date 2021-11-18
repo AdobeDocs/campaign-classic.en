@@ -47,6 +47,10 @@ You can create different types of input forms. The form type determines how user
 
   ![](assets/console_screen_form.png)
 
+* Wizard
+
+  This form comprises multiple floating screens that are ordered in a specific sequences. Users navigate from one screen to the next. [Read more](form-structure.md#wizards).
+
 * Iconbox
 
   This form comprises multiple pages. To navigate the form, users select icons at the left of the form.
@@ -58,10 +62,6 @@ You can create different types of input forms. The form type determines how user
   This form comprises multiple pages. To navigate the form, users select tabs at the top of the form.
 
   ![](assets/notebook_form_preview.png)
-
-* Wizard
-
-  This form comprises multiple floating screens that are ordered in a specific sequences. Users navigate from one screen to the next. [Read more](form-structure.md#wizards).
 
 * Vertical pane
 
@@ -396,20 +396,20 @@ This example shows a complex form:
 
 To modify a factory form, follow these steps:
 
-1. Extend the related data schema:
+1. Optionally, extend the related data schema:
 
    1. From the menu, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
    1. Select a data schema and extend it. For example, you can add fields. [Read more](extending-a-schema.md).
 
       >[!CAUTION]
-      > Do not modify the original data in a factory namespace, but rather extend it in a custom namespace. The reason is that, during software upgrades, all data in the factory namespaces are overwritten. For example, the data in the `xtk`, `ncm`, and `nms` factory namespaces are overwritten. The data in your custom namespaces is not modified.
+      > Do not modify the original data in a factory namespace, but, instead, extend it in a custom namespace. The reason is that, during software upgrades, all data in the factory namespaces are overwritten. For example, the data in the `xtk`, `ncm`, and `nms` factory namespaces are overwritten. The data in your custom namespaces is not modified.
 
 1. Modify the factory input form:
 
    1. From the menu, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
    1. Select an input form and modify it.
 
-    You can directly modify factory input forms. During software upgrades, your modifications in factory input forms are merged with the upgrades. If the automatic merge fails, you can resolve the conflicts.
+    You can extend factory data schemas, but you cannot extend factory input forms. We recommend that you modify factory input forms directly without recreating them. During software upgrades, your modifications in the factory input forms are merged with the upgrades. If the automatic merge fails, you can resolve the conflicts. [Read more](../../production/using/upgrading.md#resolving-conflicts).
 
     For example, if you extend a factory schema with an additional field, you can add this field to the related factory form.
 
