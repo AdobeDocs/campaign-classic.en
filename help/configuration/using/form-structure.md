@@ -177,10 +177,11 @@ A tab container formats data in pages that are accessible from tabs.
 
 The main container is defined by the **type="notebook"** attribute. Tabs are declared in the child containers, and the label of the tabs is populated from the **label** attribute.
 
+![](assets/d_ncs_integration_form_exemple7.png)
+
 >[!NOTE]
 >
 >A **style="down|up**(by default)**"** feature forces the vertical positioning of tab labels below or above the control. This feature is optional. 
->![](assets/d_ncs_integration_form_exemple7.png) 
 >`<container style="down" type="notebook">  … </container>`
 
 #### Icon list {#icon-list}

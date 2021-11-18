@@ -481,7 +481,7 @@ You can use JavaScript SOAP calls to validate form data from the Console. Use th
 
     In this example, a SOAP call is used to validate the `@valueToCheck` string:
 
-    ```js
+    ```xml
     <form name="recipient" (…)>
     (…)
       <leave>
