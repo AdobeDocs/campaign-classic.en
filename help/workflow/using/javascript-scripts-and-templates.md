@@ -16,7 +16,7 @@ Scripts make it possible to calculate values, exchange data between different ta
 Scripts are ubiquitous in a workflow diagram:
 
 * All activities have initialization scripts. An initialization script is executed when the activity is activated and can be used to initialize variables and to modify the properties.
-* The 'JavaScript code' activity is simply used to execute a script. 
+* The 'JavaScript code' activity is simply used to execute a script.
 * The 'Test' activity evaluates JavaScript expressions in order to activate the appropriate transition.
 * Most text fields are JavaScript templates: JavaScript expressions can be included between <%= and %>. These fields offer a button that opens a drop-down list to help you enter expressions.
 
@@ -190,3 +190,6 @@ Under certain conditions, you can modify a property of an activity at the time o
 Most properties of activities can be calculated dynamically, either using a JavaScript template or because the workflow properties explicitly allow the value to be calculated by a script.
 
 For other properties, however, you must use the initialization script. This script is evaluated before the task is executed. The **[!UICONTROL activity]** variable references the activity corresponding to the task. The properties of this activity can be modified and will affect this task only.
+
+**Related topics**
+[Examples of JavaScript code in workflows](javascript-in-workflows.md)

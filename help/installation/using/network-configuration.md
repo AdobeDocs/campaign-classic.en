@@ -31,7 +31,7 @@ For the delivery server (**nlserver mta**), the following ports must be open:
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
    <td> Anywhere<br /> </td> 
-   <td> SMTP traffic for e-mail broadcasting.<br /> </td> 
+   <td> SMTP traffic for email broadcasting.<br /> </td> 
   </tr> 
   <tr> 
    <td> 53/udp (domain)<br /> </td> 
@@ -169,7 +169,7 @@ The default ports are the following:
 
 ## External access {#external-access}
 
-In addition, certain components must be accessible from the public internet so that e-mail campaigns executed directly from Adobe Campaign can be viewed. This means that some ports need to be open for components.
+In addition, certain components must be accessible from the public internet so that email campaigns executed directly from Adobe Campaign can be viewed. This means that some ports need to be open for components.
 
 ### Redirection server {#redirection-server}
 
@@ -241,7 +241,7 @@ Integration between Adobe Campaign and Adobe Experience Manager requires opening
 
 ## Bandwidth {#bandwidth}
 
-Another key parameter of the network configuration to take into account. It is almost always outbound and much in demand during e-mail broadcasts. Here are a few examples of configurations based on our experience:
+Another key parameter of the network configuration to take into account. It is almost always outbound and much in demand during email broadcasts. Here are a few examples of configurations based on our experience:
 
 * 1 Mb/s for 10,000 emails per hour (average size of 30 Kb)
 * 8 to 10 Mb/s for 100,000 emails per hour (average size of 30 Kb)

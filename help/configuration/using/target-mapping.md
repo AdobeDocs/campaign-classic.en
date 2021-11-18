@@ -28,7 +28,7 @@ To do this, apply the following steps:
 
    For further information, refer to [Schema reference (xtk:srcSchema)](../../configuration/using/about-schema-reference.md).
 
-   In our example, we will create a customer schema, a very simple table containing the following fields: ID, first name, last name, email address, mobile phone number. The aim is to be able to send e-mail or SMS alerts to the individuals stored in this table.
+   In our example, we will create a customer schema, a very simple table containing the following fields: ID, first name, last name, email address, mobile phone number. The aim is to be able to send email or SMS alerts to the individuals stored in this table.
 
    Example schema (cus:individual)
 

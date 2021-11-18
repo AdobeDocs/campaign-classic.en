@@ -506,6 +506,7 @@ type: Documentation
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)
        + [JavaScript scripts and templates](workflow/using/javascript-scripts-and-templates.md)
+       + [Examples of JavaScript code in workflows](workflow/using/javascript-in-workflows.md)
        + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
        + [Manage permissions](workflow/using/managing-rights.md)
        + [Manage activity images](workflow/using/managing-activity-images.md)
