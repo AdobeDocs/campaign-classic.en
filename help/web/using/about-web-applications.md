@@ -40,8 +40,8 @@ Web applications in Adobe Campaign give access to the following capabilities:
 * Conditional display of survey fields according to answers. For more on this, refer to this [page](form-rendering.md#defining-fields-conditional-display).
 * Random display of questions. For more on this, refer to this [page](../../surveys/using/building-a-survey.md#adding-questions).
 * Conditional page display. For more on this, refer to this [page](defining-web-forms-page-sequencing.md#conditional-page-display).
-* Information check before validation depending on the expected data type (number, e-mail address, date, etc.) and the mandatory fields. For more on this, refer to this [page](form-rendering.md#defining-control-settings).
-* E-mail invitations or notification. For more on this, refer to this [page](publishing-a-web-form.md#delivering-a-form-via-email).
+* Information check before validation depending on the expected data type (number, email address, date, etc.) and the mandatory fields. For more on this, refer to this [page](form-rendering.md#defining-control-settings).
+* Email invitations or notification. For more on this, refer to this [page](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personalization of error and end messages. For more on this, refer to this [page](defining-web-forms-properties.md#setting-up-an-error-page).
 * Use of images, videos, hypertext links, captcha, etc. For more on this, refer to this [page](editing-content.md).
 * Monitoring of responses in real time. For more on this, refer to this [page](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).

@@ -32,7 +32,7 @@ By default, a form is associated with the data schema with the same name and nam
   </enumeration>
 
   <element name="recipient">
-    <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+    <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
     <attribute name="birthDate" type="datetime" label="Date"/>
     <attribute name="gender" type="byte" label="Gender" enum="gender"/>
   </element>
@@ -58,7 +58,7 @@ The edit control automatically adapts to the corresponding data type and uses th
 >[!NOTE]
 >
 >You can overload the label defined in its data schema by adding the **label** attribute to the `<input>` element:  
->`<input label="E-mail address" xpath="@name" />`
+>`<input label="Email address" xpath="@name" />`
 
 By default, each field is displayed on a single line and occupies all available space depending on the type of data.
 
@@ -120,7 +120,7 @@ A **`<static>`** element can be used to format the input form:
   <input xpath="@gender"/>
   <input xpath="@birthDate"/>
   <input xpath="@email" colspan="2"/>
-  <static type="help" label="General information about recipient with date of birth, gender, and e-mail address." colspan="2"/>
+  <static type="help" label="General information about recipient with date of birth, gender, and email address." colspan="2"/>
 </form>
 ```
 

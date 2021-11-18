@@ -54,7 +54,7 @@ You can modify and update a marketing resource and, if necessary, inform other A
 
 >[!NOTE]
 >
->The **[!UICONTROL History]** tab contains the download and update log for the resource. The **[!UICONTROL Details]** button lets you view the selected version:
+>The **[!UICONTROL History]** tab contains the download and update log for the resource. The **[!UICONTROL Details]** button lets you view the selected version.
 
 ### Locking/unlocking a resource {#locking-unlocking-a-resource}
 

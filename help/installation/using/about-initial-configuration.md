@@ -18,6 +18,6 @@ Once the Adobe Campaign installation is complete, you need to configure it to ma
 1. Configure the Adobe Campaign server, refer to [Campaign server configuration](../../installation/using/configuring-campaign-server.md).
 1. Deploy the instance, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 
-Configuring the instance implies enabling processes (web, mta, wfserver, etc.) to be started on the server and configuring modules for sending e-mail, for tracking, etc. For each instance, Adobe Campaign processes are activated on the server. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#enabling-processes).
+Configuring the instance implies enabling processes (web, mta, wfserver, etc.) to be started on the server and configuring modules for sending email, for tracking, etc. For each instance, Adobe Campaign processes are activated on the server. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 Additional configurations can be required for each instance (depending on the modules used, your architecture and your needs) to optimize Adobe Campaign operation.

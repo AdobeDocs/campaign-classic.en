@@ -117,13 +117,13 @@ There are two ways of using this box:
 
   >[!CAUTION]
   >
-  >This option overrides the user data, including the e-mail address if there is a field in which to enter it. It cannot be used to create new profiles, and requires the use of a pre-loading box in the form.
+  >This option overrides the user data, including the email address if there is a field in which to enter it. It cannot be used to create new profiles, and requires the use of a pre-loading box in the form.
 
 * To enrich the data of recipients in the database, edit the storage box and select the reconciliation key. For internal use (typically an intranet system) or for a form used to create new profiles for instance, you can select the reconciliation field(s). The box offers all fields of the database used in the various pages of the Web application:
 
   ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
-By default, the data is imported into the database by an **[!UICONTROL Update or insertion]** operation: if it exists in the database, the element is updated (for example, the selected newsletter or the e-mail address entered). If it does not exist, the information is added.
+By default, the data is imported into the database by an **[!UICONTROL Update or insertion]** operation: if it exists in the database, the element is updated (for example, the selected newsletter or the email address entered). If it does not exist, the information is added.
 
 You can, however, change this behavior. To do this, select the root of the element and select the operation to be performed from the drop-down list:
 

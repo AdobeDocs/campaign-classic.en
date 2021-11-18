@@ -66,7 +66,7 @@ This call does not return any data, except errors.
 
 ### Examples {#examples}
 
-Subscription with recipient reconciliation key on the e-mail address: the input XML document must reference the email address and the definition of the key on this field.
+Subscription with recipient reconciliation key on the email address: the input XML document must reference the email address and the definition of the key on this field.
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
