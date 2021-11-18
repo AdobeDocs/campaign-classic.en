@@ -47,6 +47,12 @@ You can create different types of input forms. The form type determines how user
 
   ![](assets/console_screen_form.png)
 
+* Content Management
+
+  Use this form type for content management. See this [use case](../../delivery/using/use-case--creating-content-management.md).
+
+  ![](../../delivery/using/assets/d_ncs_content_form13.png)
+
 * Wizard
 
   This form comprises multiple floating screens that are ordered in a specific sequences. Users navigate from one screen to the next. [Read more](form-structure.md#wizards).
