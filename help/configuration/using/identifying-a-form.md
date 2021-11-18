@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Identifying a form
-description: Identifying a form
+title: Identify a form
+description: Identify a form
 audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 ---
-# Identifying a form{#identifying-a-form}
+# Identify a form{#identifying-a-form}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console.
 
