@@ -71,6 +71,10 @@ Before creating Privacy requests, you need to define the namespace you will use.
 
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
+>[!NOTE]
+>
+>For optimal performance, it is recommended to use out-of-the-box namespaces.
+
 ## Creating a Privacy request {#create-privacy-request-ui}
 
 The **Adobe Campaign interface** allows you to create your Privacy requests and track their evolution. To create a new Privacy request, follow these instructions:
