@@ -602,6 +602,7 @@ The **`<check expr="<condition>" />`** tag combined with the **`<error>`** tag p
   </check>
 </leave>
 ```
+
 <!-- changer exemple par un exemple plus parlant. cf. vidéo validation 02:27. noter aussi l'attribut required dans l'exemple de la vidéo. -->
 
 ## Wizards {#wizards}
