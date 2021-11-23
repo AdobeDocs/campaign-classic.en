@@ -19,9 +19,9 @@ Forms are detailed in [this section](../../configuration/using/identifying-a-for
 
 The XML document of an input form must contain the **`<form>`** root element with the **name** and **namespace** attributes to populate the form name and its namespace, respectively.
 
-```
+```xml
 <form name="form_name" namespace="name_space">
-...
+…
 </form>
 ```
 
@@ -33,7 +33,7 @@ To illustrate the structure of an input form, we describe an interface based on 
 
 This is the corresponding input form:
 
-```
+```xml
 <form name="book" namespace="cus" type="contentForm">
   <input xpath="@name"/>
   <input xpath="@date"/>
@@ -83,7 +83,7 @@ This control displays an editable column list with a toolbar containing Add and 
 
 ![](assets/d_ncs_content_form4.png)
 
-```
+```xml
 <input xpath="chapter" type="list">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -102,7 +102,7 @@ By default, the toolbar buttons are aligned vertically. They can also be aligned
 
 ![](assets/d_ncs_content_form5.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -127,7 +127,7 @@ Edit forms within lists are used in the following cases:
 
 ![](assets/d_ncs_content_form7.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter" zoom="true" zoomOnAdd="true">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -154,7 +154,7 @@ This list presents the editing of collection elements in the form of tabs.
 
 ![](assets/d_ncs_content_form6.png)
 
-```
+```xml
 <container toolbarCaption="List of chapters" type="notebooklist" xpath="chapter" xpath-label="@name">
   <container colcount="2">
     <input xpath="@name"/>
@@ -191,3 +191,5 @@ The editing zone lets you enter the XML content of the input form:
 The **[!UICONTROL Preview]** tab lets you view the input form:
 
 ![](assets/d_ncs_content_form13.png)
+
+Read more about [editing forms](../../configuration/using/editing-forms.md) and [form structure](../../configuration/using/form-structure.md).

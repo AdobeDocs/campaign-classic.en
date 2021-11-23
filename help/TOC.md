@@ -786,8 +786,8 @@ type: Documentation
        + [Regenerating schemas](configuration/using/regenerating-schemas.md)
        + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)
   + Input forms {#input-forms}
-       + [Identifying a form](configuration/using/identifying-a-form.md)
-       + [Editing forms](configuration/using/editing-forms.md)
+       + [Identify a form](configuration/using/identifying-a-form.md)
+       + [Edit forms](configuration/using/editing-forms.md)
        + [Form structure](configuration/using/form-structure.md)
   + API {#api}
        + [About web services](configuration/using/about-web-services.md)
