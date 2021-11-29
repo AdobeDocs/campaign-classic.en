@@ -86,7 +86,7 @@ The following types of deliveries are available:
 * a **[!UICONTROL Status with a YouTube link]** 
 * a **[!UICONTROL Photo album]**
 
-### Publishing a status {#publishing-a-status}
+### Publish a status {#publishing-a-status}
 
 A status type delivery can only contain text, as in the example below:
 
