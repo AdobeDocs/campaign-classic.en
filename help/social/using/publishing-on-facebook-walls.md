@@ -139,7 +139,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
 
 The **[!UICONTROL Synchronization of Facebook pages]** workflow synchronizes all pages administered by the Facebook account, to let you post on their wall directly via Adobe Campaign. [Learn more](#synchronizing-facebook-pages).
 
-## Synchronizing Facebook pages {#synchronizing-facebook-pages}
+## Synchronize Facebook pages {#synchronizing-facebook-pages}
 
 The **[!UICONTROL Synchronization of Facebook pages]** workflow, which is accessed via the **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** node, lets you synchronize (in Adobe Campaign) the pages of the Facebook account configured previously. By default, this workflow is configured to run once a day or whenever an administrator clicks the **[!UICONTROL Request an authorization from the application]** link in the service configuration screen. [Learn more](#delegating-write-access-to-adobe-campaign).
 
