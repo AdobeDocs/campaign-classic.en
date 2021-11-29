@@ -5,6 +5,7 @@ description: These examples show how you can use JavaScript code in a workflow
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 ---
 # Examples of JavaScript code in workflows{#javascript-in-workflows}
 
