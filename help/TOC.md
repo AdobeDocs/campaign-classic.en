@@ -592,7 +592,7 @@ type: Documentation
        + [Create a Facebook application](social/using/creating-a-facebook-application.md)
        + [Configure publishing on Twitter](social/using/configuring-publishing-on-twitter.md)
   + Publish on social media {#publishing-on-facebook-twitter}
-       + [Overview](social/using/overview.md)
+       + [Get started with social media](social/using/overview.md)
        + [Publish on Facebook](social/using/publishing-on-facebook.md)
        + [Publish on Twitter](social/using/publishing-on-twitter.md)
   + Annexes {#annexes}

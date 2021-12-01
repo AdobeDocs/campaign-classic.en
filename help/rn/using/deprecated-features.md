@@ -37,6 +37,13 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Feature</strong></td>
    <td><strong>Replacement</strong></td>
   </tr>
+  <tr>
+  <td>CentOs 8.x (64 bits)<br></td>
+   <td><p>CentOS Linux 8 will reach End Of Life (EOL) on December 31st, 2021. <a href="https://www.centos.org/centos-linux-eol/">Learn more</a></p>
+   <p>If you are using this operating system, you need to adapt your implementation accordingly. CentOS 7.x (64 bits) and RHEL 8.x/7.x (64 bits) are still supported.</p>
+  <p><em>Target removal date: December 31st, 2021.</em></p>
+  </td>
+ </tr>
     <tr>
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>Starting Campaign 21.1.3 release, the Adobe Analytics Data Connector is deprecated.</p>
