@@ -2,8 +2,6 @@
 product: campaign
 title: Campaign Classic 2019 releases
 description: Learn more about Campaign Classic 2019 releases
-hide: yes
-hidefromtoc: yes
 ---
 
 # 2019 releases{#release-2019}

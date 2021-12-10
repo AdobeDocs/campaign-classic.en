@@ -2,8 +2,6 @@
 product: campaign
 title: Campaign Classic 2018 releases
 description: Learn more about Campaign Classic 2018 releases
-hide: yes
-hidefromtoc: yes
 ---
 # 2018 releases{#release-2018}
 

@@ -5,8 +5,6 @@ description: Learn more about Campaign Classic 2020 releases
 feature: Overview
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 ---
 # 2020 releases{#release-2020}
 
