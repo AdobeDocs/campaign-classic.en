@@ -22,7 +22,7 @@ type: Documentation
      + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
      + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}
-    + [Overview](rn/using/previous-releases-overview.md)
+    + [Previous releases overview](rn/using/previous-releases-overview.md)
     + [7.1 - 2021](rn/using/release--2021.md)
     + [2020](rn/using/release--2020.md)
     + [2019](rn/using/release--2019.md)
