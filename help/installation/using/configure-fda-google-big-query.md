@@ -117,14 +117,7 @@ To configure [!DNL Google BigQuery] on Linux, follow the steps below:
         apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
         ```
 
-1. Before running the script, you can have access to more information with the `--help` option:
-
-    ```
-    cd /usr/local/neolane/nl6/bin/fda-setup-scripts
-    ./bigquery_odbc-setup.sh --help
-    ```
-
-1. Access the directory where the script is located and run the following script as a root user:
+1. Access the directory where the script is located and run the following script:
 
     ```
     cd /usr/local/neolane/nl6/bin/fda-setup-scripts
@@ -192,3 +185,14 @@ You need to create a [!DNL Google BigQuery] external account to connect your Ado
     * **[!UICONTROL Dataset]**: Name of your **[!UICONTROL Dataset]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/bigquery/docs/datasets-intro).
 
     ![](assets/google-big-query.png)
+
+The connector supports the following options:
+
+| Option   |  Value | Description |
+|:-:|:-:|:-:|
+|  ProxyType | string | Type of proxy used to connect to BigQuery through ODBC and SDK connectors. </br>HTTP (default), http_no_tunnel, socks4 and socks5 are currently supported. |
+|  ProxyHost | string | Hostname or IP address where the proxy can be reached. |
+| ProxyPort | number  | Port number the proxy is running on, e.g. 8080 |
+| ProxyUid | string |  Username used for the authenticated proxy |
+| ProxyPwd | string | ProxyUid password |
+| bqpath | string | Note that this is applicable for bulk-load tool only (Cloud SDK). </br> To avoid using PATH variable or if the google-cloud-sdk directory has to be moved to another location, you can specify with this option the exact path to the cloud sdk bin directory on the server. |
