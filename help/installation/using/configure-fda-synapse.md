@@ -184,6 +184,7 @@ To configure Azure Synapse on Debian:
    >
    >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allowlist. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
+
 ## Azure Synapse external account {#azure-external}
 
 The [!DNL Azure Synapse] external account allows you to connect your Campaign instance to your Azure Synapse external database.
@@ -198,32 +199,14 @@ To create your [!DNL Azure Synapse] external account follow the steps below:
 
     ![](assets/azure_1.png)
 
-1. Under **[!UICONTROL Configuration]**, select **[!UICONTROL Azure Synapse Analytics]** from the **[!UICONTROL Type]** drop-down.
+1. Configure the [!DNL Azure Synapse] external account, you must specify:
 
-    ![](assets/azure_2.png)
+     * **[!UICONTROL Type]**: Azure Synapse Analytics
 
-1. Configure the [!DNL Azure Synapse] external account:
+    * **[!UICONTROL Server]**: URL of the Azure Synapse server
 
-    * For standard authentication, you must specify:
+    * **[!UICONTROL Account]**: Name of the user
 
-        * **[!UICONTROL Server]**: URL of the Azure Synapse server
+    * **[!UICONTROL Password]**: User account password
 
-        * **[!UICONTROL Account]**: Name of the user
-
-        * **[!UICONTROL Password]**: User account password
-
-        * **[!UICONTROL Database]**: Name of the database
-
-        ![](assets/azure_3.png)
-
-    * For System-assigned managed identity authentication, you must specify:
-
-        * **[!UICONTROL Server]**: URL of the Azure Synapse server
-
-        * **[!UICONTROL Database]**: Name of the database
-
-        * **[!UICONTROL Options]**: Add the following syntax `Authentication=ActiveDirectoryMsi`
-
-        ![](assets/azure_4.png)
-
-1. Click **[!UICONTROL Save]**.
+    * **[!UICONTROL Database]**: Name of the database
