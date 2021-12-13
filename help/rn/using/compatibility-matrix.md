@@ -34,8 +34,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr> 
 <td>CentOs</td>
 <td>
-<p>8.x (64 bits)</p>
+<p>8.x (64 bits) </br><strong>Important:</strong> CentOS Linux 8 will reach End Of Life (EOL) on December 31st, 2021. For more information, refer to the <a href=../../rn/using/deprecated-features.md>Deprecated features</a> page.</p>
 <p>7.x (64 bits)</p>
+<p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
@@ -147,7 +148,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 and SP2</p>
-<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. [Learn more](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
+<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href=../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers>Learn more</a>.</p>
 </td>
 </tr>
 </tbody>

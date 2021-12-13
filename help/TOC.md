@@ -162,8 +162,8 @@ type: Documentation
   + Send direct mail {#sending-direct-mail}
        + [About direct mail channel](delivery/using/about-direct-mail-channel.md)
        + [Create a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
-       + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
-       + [Validating](delivery/using/validating.md)
+       + [Define the direct mail content](delivery/using/defining-the-direct-mail-content.md)
+       + [Validate](delivery/using/validating.md)
   + Use delivery templates {#using-delivery-templates}
        + [About templates](delivery/using/about-templates.md)
        + [Create a delivery template](delivery/using/creating-a-delivery-template.md)
@@ -369,11 +369,11 @@ type: Documentation
        + [Configure access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
        + [Insert a shared asset](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-       + [About [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+       + [Work with [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
        + [Configure the integration](integrations/using/configuring-the-integration.md)
        + [Create an [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-       + [Integrate with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+       + [Work with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
        + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
        + [Insert a dynamic image](integrations/using/inserting-a-dynamic-image.md)
   + ACS Connector {#acs-connector}
@@ -383,14 +383,14 @@ type: Documentation
        + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
   + Adobe Experience Cloud Triggers {#experience-triggers}
-       + [Get started with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
        + [Configure pipeline](integrations/using/configuring-pipeline.md)
        + [Configure Adobe I/O for [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
        + [Configure events for custom implementation](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
   + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
-       + [Get started with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+       + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
        + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
        + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automate with workflows {#automating-with-workflows}
@@ -506,6 +506,7 @@ type: Documentation
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)
        + [JavaScript scripts and templates](workflow/using/javascript-scripts-and-templates.md)
+       + [Examples of JavaScript code in workflows](workflow/using/javascript-in-workflows.md)
        + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
        + [Manage permissions](workflow/using/managing-rights.md)
        + [Manage activity images](workflow/using/managing-activity-images.md)
@@ -591,7 +592,7 @@ type: Documentation
        + [Create a Facebook application](social/using/creating-a-facebook-application.md)
        + [Configure publishing on Twitter](social/using/configuring-publishing-on-twitter.md)
   + Publish on social media {#publishing-on-facebook-twitter}
-       + [Overview](social/using/overview.md)
+       + [Get started with social media](social/using/overview.md)
        + [Publish on Facebook](social/using/publishing-on-facebook.md)
        + [Publish on Twitter](social/using/publishing-on-twitter.md)
   + Annexes {#annexes}
@@ -785,8 +786,8 @@ type: Documentation
        + [Regenerating schemas](configuration/using/regenerating-schemas.md)
        + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)
   + Input forms {#input-forms}
-       + [Identifying a form](configuration/using/identifying-a-form.md)
-       + [Editing forms](configuration/using/editing-forms.md)
+       + [Identify a form](configuration/using/identifying-a-form.md)
+       + [Edit forms](configuration/using/editing-forms.md)
        + [Form structure](configuration/using/form-structure.md)
   + API {#api}
        + [About web services](configuration/using/about-web-services.md)

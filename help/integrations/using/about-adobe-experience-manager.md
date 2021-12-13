@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 ---
-# About Adobe Experience Manager{#about-adobe-experience-manager}
+# Work with Campaign and Experience Manager{#about-adobe-experience-manager}
 
 ![](../../assets/common.svg)
 

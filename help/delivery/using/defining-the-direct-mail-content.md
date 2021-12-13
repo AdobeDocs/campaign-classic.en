@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Defining the direct mail content
-description: Defining the direct mail content
+title: Define the direct mail content
+description: Define the direct mail content
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 ---
-# Defining the direct mail content{#defining-the-direct-mail-content}
+# Define the direct mail content{#defining-the-direct-mail-content}
 
 ![](../../assets/common.svg)
 

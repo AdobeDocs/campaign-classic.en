@@ -45,7 +45,7 @@ Apply the following steps:
    ![](assets/s_ncs_user_filter_parameters.png)
 
 1. Click **[!UICONTROL Save]** to add a filter to the pre-defined filters for this type of list.
-1. You can now use this filter in the **[!UICONTROL Subscriptions]** tab of the recipient profile; you can access the "Unknown e-mail format" filter by clicking the **[!UICONTROL Filters]** button.
+1. You can now use this filter in the **[!UICONTROL Subscriptions]** tab of the recipient profile; you can access the "Unknown email format" filter by clicking the **[!UICONTROL Filters]** button.
 
    ![](assets/s_ncs_user_filter_on_events.png)
 

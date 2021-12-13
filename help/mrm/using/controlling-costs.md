@@ -331,7 +331,7 @@ When approval is activated, a special link lets you approve the budget from the 
 
 ![](assets/s_user_cost_mgmt_sample_19.png)
 
-You can then click the link to grant or reject approval, or use the link in the notification e-mail if notification has been activated for this campaign.
+You can then click the link to grant or reject approval, or use the link in the notification email if notification has been activated for this campaign.
 
 When the budget has been approved and the delivery finished, the costs are automatically uploaded via a special technical workflow.
 

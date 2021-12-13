@@ -41,7 +41,7 @@ In addition to the [Adobe Deliverability Best Practice Guide](https://experience
 
 ## How can I implement content approval? {#how-can-i-implement-content-approval-}
 
-Campaign lets you set up approval processes for the main steps of the marketing campaign, in collaborative mode. For each campaign you can approve the delivery target, contents and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection.
+Campaign lets you set up approval processes for the main steps of the marketing campaign, in collaborative mode. For each campaign you can approve the delivery target, contents and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the console or via a Web connection.
 
 [Click here to learn more](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) and discover steps to implement your delivery content approval in Campaign.
 

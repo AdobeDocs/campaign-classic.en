@@ -63,7 +63,7 @@ For more on this, refer to [Approving an extraction file](../../campaign/using/m
 
 **Step 2 - Approval of the message to the service provider**
 
-* Once the extraction file is approved, you can generate the proof of the router notification e-mail. This e-mail message is constructed based on a delivery template. It must be approved.
+* Once the extraction file is approved, you can generate the proof of the router notification email. This email message is constructed based on a delivery template. It must be approved.
 
   >[!NOTE]
   >

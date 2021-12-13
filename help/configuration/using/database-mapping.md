@@ -22,7 +22,7 @@ The SQL mapping of our example schema gives the following XML document:
   </enumeration>  
 
   <element name="recipient" sqltable="CusRecipient">    
-    <attribute desc="Recipient e-mail address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+    <attribute desc="Recipient email address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
     <attribute default="GetDate()" label="Date of creation" name="created" sqlname="tsCreated" type="datetime"/>    
     <attribute enum="gender" label="Gender" name="gender" sqlname="iGender" type="byte"/>    
     <element label="Location" name="location">      
@@ -55,7 +55,7 @@ The SQL naming rules are as follows:
   The field name is entered via the **sqlname** attribute for each typed **`<attribute>`** and **`<element>`**:
 
   ```
-  <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
+  <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
   ```
 
 >[!NOTE]
@@ -133,7 +133,7 @@ Indexes obey the following rules:
 
 **Example**:
 
-* Adding an index to the e-mail address and city:
+* Adding an index to the email address and city:
 
   ```
   <srcSchema name="recipient" namespace="cus">
@@ -143,7 +143,7 @@ Indexes obey the following rules:
         <keyfield xpath="location/@city"/> 
       </dbindex>
   
-      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
       <element name="location" label="Location">
         <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
       </element>
@@ -165,7 +165,7 @@ Indexes obey the following rules:
       </dbindex>
   
       <attribute name="id" type="long" label="Identifier"/>
-      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
     </element>
   </srcSchema>
   ```
@@ -200,7 +200,7 @@ Keys obey the following rules:
 
 **Example**:
 
-* Adding a key to the e-mail address and city:
+* Adding a key to the email address and city:
 
   ```
   <srcSchema name="recipient" namespace="cus">
@@ -210,7 +210,7 @@ Keys obey the following rules:
         <keyfield xpath="location/@city"/> 
       </key>
   
-      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
       <element name="location" label="Location">
         <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
       </element>
@@ -233,7 +233,7 @@ Keys obey the following rules:
       <keyfield xpath="location/@city"/>    
      </key>    
   
-     <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+     <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
      <element label="Location" name="location">      
        <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
      </element>  
@@ -255,7 +255,7 @@ Keys obey the following rules:
       </key>
   
       <attribute name="id" type="long" label="Identifier"/>
-      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
     </element>
   </srcSchema>
   ```
@@ -278,7 +278,7 @@ Keys obey the following rules:
       </key>    
   
       <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-      <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
+      <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
     </element>
   </schema>
   ```
@@ -469,7 +469,7 @@ A reverse link to the "cus:recipient" table was added with the following paramet
 
 ### Example 2 {#example-2}
 
-In this example, we will declare a link towards the "nms:address" schema table. The join is an outer join and is populated explicitly with the recipient's e-mail address and the "@address" field of the linked table ("nms:address").
+In this example, we will declare a link towards the "nms:address" schema table. The join is an outer join and is populated explicitly with the recipient's email address and the "@address" field of the linked table ("nms:address").
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -537,7 +537,7 @@ The schema generated:
       <keyfield xpath="@company-id"/>    
     </key>
 
-    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>
+    <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>
     <element label="Company" name="company" revLink="recipient" target="sfa:company" type="link">      
       <join xpath-dst="@id" xpath-src="@company-id"/>    
     </element>    

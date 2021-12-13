@@ -158,7 +158,9 @@ The following expressions are searched for (case sensitive):
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
    <td> Error<br /> </td> 
-   <td> This type of deployment is no longer supported. Office 365 and On-premise Microsoft CRM connector deployment type have now been deprecated</a>. To change to Web API deployment, refer to <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web applications</a>.<br /> </td>
+   <td> This type of deployment is no longer supported. Office 365 and On-premise Microsoft CRM connector deployment type have now been deprecated. 
+   </br>If you are using one of these deprecated deployment types in an external account, this external account should be deleted and you should then run the <b>postupgrade</b> command. 
+   </br>To change to Web API deployment, refer to <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web applications</a>.<br /> </td>
   </tr> 
   <tr> 
    <td> crmDeploymentType="v1 active"<br /> </td> 

@@ -142,7 +142,7 @@ The **XPath** syntax is used to locate data based on the input schema. For furth
 
 #### Example with the 'get' operation {#example-with-the--get--operation}
 
-Retrieves the last name and first name of a recipient ("nms:recipient" schema) with a filter on the e-mail.
+Retrieves the last name and first name of a recipient ("nms:recipient" schema) with a filter on the email.
 
 ```
 <queryDef schema="nms:recipient" operation="get">
@@ -162,7 +162,7 @@ Retrieves the last name and first name of a recipient ("nms:recipient" schema) w
 
 #### Example with the 'select' operation {#example-with-the--select--operation}
 
-Returns the list of recipients filtered on a folder and the e-mail domain with a sort in descending order on date of birth.
+Returns the list of recipients filtered on a folder and the email domain with a sort in descending order on date of birth.
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -209,7 +209,7 @@ To count the number of records on a query:
 
 ```
 <queryDef schema="nms:recipient" operation="count"">
-  <!-- condition on the folder and domain of the e-mail -->
+  <!-- condition on the folder and domain of the email -->
   <where>  
     <condition expr="[@folder-id] = 1234" and @domain like 'Adobe%'"/>
   </where>
@@ -222,7 +222,7 @@ To count the number of records on a query:
 
 #### Data grouping {#data-grouping}
 
-To retrieve e-mail addresses referenced more than once:
+To retrieve email addresses referenced more than once:
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -231,7 +231,7 @@ To retrieve e-mail addresses referenced more than once:
     <node expr="count(@email)"/>
   </select>
 
-  <!-- e-mail grouping clause -->
+  <!-- email grouping clause -->
   <groupby>
     <node expr="@email"/>
   </groupby>
@@ -352,7 +352,7 @@ This syntax simplifies the query when more than two data are used in the conditi
 
   The filtering ( `<orderby>`  ) and restriction (  `<where>`  ) elements can be added to the collection element.
 
-  In this example, for each recipient the query returns the e-mail and list of information services to which the recipient subscribes:
+  In this example, for each recipient the query returns the email and list of information services to which the recipient subscribes:
 
   ```
   <queryDef schema="nms:recipient" operation="select">
@@ -561,7 +561,7 @@ It is possible to force the type of operation by populating the **_operation** a
 
 ### Example with the 'Write' method {#example-with-the--write--method}
 
-Updating or inserting a recipient (implicit "insertOrUpdate" operation) with e-mail address, date of birth and town:
+Updating or inserting a recipient (implicit "insertOrUpdate" operation) with email address, date of birth and town:
 
 ```
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">
@@ -608,7 +608,7 @@ Associating the folder with a recipient based on its internal name (@name).
 
 The "_key" and "_operation" attributes can be entered on a linked element. The behavior on this element is the same as on the main element of the input schema.
 
-The definition of the key of the main entity ("nms:recipient") consists of a field from a linked table (element `<folder>`  schema "xtk:folder") and the e-mail.
+The definition of the key of the main entity ("nms:recipient") consists of a field from a linked table (element `<folder>`  schema "xtk:folder") and the email.
 
 >[!NOTE]
 >

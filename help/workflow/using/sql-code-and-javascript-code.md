@@ -41,7 +41,10 @@ The **[!UICONTROL SQL code]** activity executes an SQL script.
 
 ## JavaScript code and Advanced JavaScript code {#javascript-code}
 
-**[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the [JavaScript scripts and templates](javascript-scripts-and-templates.md) section.
+**[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to these sections:
+
+* [JavaScript scripts and templates](javascript-scripts-and-templates.md)
+* [Examples of JavaScript code in workflows](javascript-in-workflows.md)
 
 ### Execution delay {#exec-delay}
 

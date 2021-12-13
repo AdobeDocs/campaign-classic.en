@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Defining interactive content in Adobe Campaign Classic
+title: Define interactive content in Adobe Campaign Classic
 description: Learn how to define interactive and dynamic email content with AMP in Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 ---
-# Defining interactive content{#defining-interactive-content}
+# Define interactive content{#defining-interactive-content}
 
 ![](../../assets/common.svg)
 
@@ -15,25 +15,25 @@ Adobe Campaign enables you to use the new interactive [AMP for Email](https://am
 
 With AMP for Email, you can:
 * Test delivering AMP emails to specific addresses appropriately configured.
-* Deliver AMP emails to Gmail, Outlook or Mail.ru addresses after registering with the corresponding providers.
+* Deliver AMP emails to Gmail, Outlook, or Mail.ru addresses after registering with the corresponding providers.
 
-For more on testing and sending AMP emails, see [Targeting an AMP email](#targeting-amp-email).
+For more on testing and sending AMP emails, see [this section](#targeting-amp-email).
 
-This feature is available through a dedicated package in Adobe Campaign. To use it, this package must be installed. Once done, restart the server for the package to be taken into account.
+This feature is available through a dedicated package in Adobe Campaign. Depending on your permissions and your deployment model,you can install this package or reach out to Adobe to install it for you.
 
 >[!NOTE]
 >
-> For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/configuring-instances.md#execution-instance). 
+> For hybrid and hosted architectures, the package must be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/configuring-instances.md#execution-instance). 
 
 
 ## About AMP for Email {#about-amp-for-email}
 
-The **AMP for Email** new format enables to include AMP components inside messages to enhance the email experience with rich and actionable content. With modern app functionality directly available within emails, recipients can interact dynamically with content in the message itself.
+Use the **AMP for Email** new format to include AMP components in your messages and improve the email experience with a rich and actionable content. With modern app functionality directly available within emails, recipients can interact dynamically with content in the message itself.
 
 For example:
 * Emails written with AMP can contain interactive elements such as image carousels.
 * Content stays up-to-date in the message.
-* Recipients can take action like responding to a form without leaving their inbox.
+* Recipients can respond to a form without leaving their inbox.
 
 AMP for Email is compatible with existing emails. The AMP version of the message is embedded into the email as a new MIME part, in addition to the HTML and/or plain text, ensuring compatibility across all email clients.
 
@@ -51,11 +51,11 @@ To successfully test and send an AMP email with Adobe Campaign, follow the steps
 
     >[!NOTE]
     >
-    >Currently you can only deliver AMP emails to [specific email addresses](#testing-amp-delivery-for-selected-addresses) (for testing purpose) or after [registrating](#delivering-amp-emails-by-registering) with the supported email clients.
+    >Currently you can only deliver AMP emails to [specific email addresses](#testing-amp-delivery-for-selected-addresses) (for testing purpose) or after [registration](#delivering-amp-emails-by-registering) with the supported email clients.
 
 1. Send your email as you would usually do. See [Sending an AMP email](#sending-amp-email).
 
-## Building AMP email content in Adobe Campaign {#build-amp-email-content}
+## Build AMP email content in Adobe Campaign {#build-amp-email-content}
 
 To build an email using the AMP format, follow the steps below.
 
@@ -67,7 +67,7 @@ To build an email using the AMP format, follow the steps below.
 
     >[!NOTE]
     >
-    >A specific AMP template contains an example of the main capacities you can use: product listing, carousel, double opt-in, survey and advanced server request.
+    >A specific AMP template contains an example of the main capacities you can use: product listing, carousel, double opt-in, survey, and advanced server request.
 
 1. Click the **[!UICONTROL AMP content]** tab.
 
@@ -79,7 +79,7 @@ To build an email using the AMP format, follow the steps below.
     >
     >For more on building your first AMP email, see the [AMP developer documentation](https://amp.dev/documentation/guides-and-tutorials/start/create_email/?format=email).
 
-    For example,  you can use the product list component from the AMP template and maintain a list of products from a third-party system, or even inside Adobe Campaign. Whenever you adjust a price or another element, it will be automatically reflected when the recipient opens again the email from their mailbox.
+    For example,  you can use the product list component from the AMP template and maintain a list of products from a third-party system, or even inside Adobe Campaign. Whenever you adjust a price or another element, it is automatically reflected when recipients open the email from their mailbox.
 
 1. Personalize your AMP content as needed, as you would usually do with HTML format in Adobe Campaign, with personalization fields and personalization blocks.
 
@@ -93,17 +93,17 @@ To build an email using the AMP format, follow the steps below.
 
     ![](assets/amp_validator.png)
 
-    Any errors will be flagged inline.
+    Errors are flagged inline.
 
     >[!NOTE]
     >
-    >The Adobe Campaign AMP editor is not designed for content validation. Use an external website such as the [AMP web-based validator](https://validator.ampproject.org) to check your content is correct.
+    >The Adobe Campaign AMP editor is not designed for content validation. Use an external website such as the [AMP web-based validator](https://validator.ampproject.org) to check that your content is correct.
 
 1. Make amendments as needed until the AMP content passes validation.
 
     ![](assets/amp_validator_pass.png)
 
-1. Copy-paste your validated content into [AMP Playground](https://playground.amp.dev) or a similar website to preview your content.
+1. To preview your content, copy-paste your validated content into [AMP Playground](https://playground.amp.dev) or a similar website.
 
     >[!NOTE]
     >
@@ -127,18 +127,18 @@ To build an email using the AMP format, follow the steps below.
 
 When building your AMP content in Adobe Campaign, you must comply with the conditions for a dynamic email to be delivered, which are specific to your recipients' email providers.
 
-Currently three email providers support testing this format: Gmail, Outlook and Mail.ru.
+Currently three email providers support testing this format: Gmail, Outlook, and Mail.ru.
 
-All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the corresponding [Gmail](https://developers.google.com/gmail/ampemail?), [Outlook ](https://docs.microsoft.com/en-gb/outlook/amphtml/) and [Mail.ru](https://postmaster.mail.ru/amp) developer documentations.
+All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the corresponding [Gmail](https://developers.google.com/gmail/ampemail?), [Outlook ](https://docs.microsoft.com/en-gb/outlook/amphtml/), and [Mail.ru](https://postmaster.mail.ru/amp) developer documentations.
 
 In particular, the following requirements must be met:
-* Follow the AMP security requirements specific to [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements) and [Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto).
+* Follow the AMP security requirements specific to [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements), and [Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto).
 * The AMP MIME part must contain a [valid AMP document](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email).
 * The AMP MIME part must be smaller than 100KB.
 
 You can also consult the [Tips and known limitations for Gmail](https://developers.google.com/gmail/ampemail/tips) and the [AMP best practices for Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/best-practices).
 
-## Targeting an AMP email {#targeting-amp-email}
+## Target an AMP email {#targeting-amp-email}
 
 Currently you can experiment sending an AMP email in two steps:
 
@@ -152,7 +152,7 @@ You can test sending dynamic messages from Adobe Campaign to selected email addr
 
 >[!NOTE]
 >
->Currently only Gmail, Outlook and Mail.ru support testing the AMP format.
+>Currently only Gmail, Outlook, and Mail.ru support testing the AMP format.
 
 For Gmail and Outlook, you must first add the sender address(es) you are using to the allowlist to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
 
@@ -178,11 +178,11 @@ Once tested with a few addresses, you can send AMP emails to any Gmail or Outloo
 
 To send AMP emails to Mail.ru addresses, follow the requirements and steps listed in the [Mail.ru developer documentation](https://postmaster.mail.ru/amp/?lang=en#howto) (**If you are an Email sender** section).
 
-## Sending an AMP email {#sending-amp-email}
+## Send an AMP email {#sending-amp-email}
 
 Once your AMP content and fallback are ready, and once you defined a compatible target, you can send the email as you would normally do.
 
-Currently only Gmail, Outlook and Mail.ru support the AMP format, under certain conditions. You can target addresses from other email providers, but they will receive the HTML or plain text version of your email.
+Currently only Gmail, Outlook, and Mail.ru support the AMP format, under certain conditions. You can target addresses from other email providers, but they will receive the HTML or plain text version of your email.
 
 >[!IMPORTANT]
 >
