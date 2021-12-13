@@ -34,10 +34,10 @@ If you already upgraded but using an old version of Microsoft Internet Explorer,
 
     * Gold Standard 11. [Learn more](../../rn/using/gold-standard.md)
     * Campaign 21.1.3 release. [Learn more](../../rn/using/latest-release.md)
-    * Campaign 20.2.5 release. [Learn more](../../rn/using/release--20-2.md)
-    * Campaign 20.1.4 release. [Learn more](../../rn/using/release--20-1.md)
-    * Campaign 19.2.4 release. [Learn more](../../rn/using/release--19-2.md)
-    * Campaign 19.1.8 release. [Learn more](../../rn/using/release--19-1.md)
+    * Campaign 20.2.5 release. [Learn more](../../rn/using/release--2020.md#release-20-2-5-build-9188)
+    * Campaign 20.1.4 release. [Learn more](../../rn/using/release--2020.md#release-20-1-4-build-9126)
+    * Campaign 19.2.4 release. [Learn more](../../rn/using/release--2019.md#release-19-2-4-build-9082) 
+    * Campaign 19.1.8 release. [Learn more](../../rn/using/release--2019.md#release-19-1-8-build-9039)
 
     These releases come with a new connection protocol. Upgrade is mandatory for both Campaign server and Client Console: once all instances are upgraded, the Client Console needs to be upgraded to this version as well to be able to connect to Campaign after **June 30, 2021**.
 
