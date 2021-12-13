@@ -13,17 +13,31 @@ exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 
 ## SQL code {#sql-code}
 
-An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JST template.
+The **[!UICONTROL SQL code]** activity executes an SQL script.
 
-   ![](assets/sql_code.png)
+1. Specify the activity **[!UICONTROL Label]**.
 
-* **[!UICONTROL Script]**
+1. If you want to load an existing SQL code, select the **[!UICONTROL The SQL script is contained in an entity stored in the database]** option. 
 
-  The central area of the editor contains the script to be executed. This script is a JST template and can therefore be configured according to the workflow context.
+    SQL scripts must be created and stored in the **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** menu.
 
-* **[!UICONTROL Processing errors]**
+1. Choose on which database the SQL script will run:
 
-  Refer to [Processing errors](monitoring-workflow-execution.md#processing-errors).
+    * **[!UICONTROL Default data source]**: The SQL script will be executed on the default PostgreSQL database.
+    * **[!UICONTROL Active FDA external account]**: The SQL script will be executed on the Cloud database of the selected FDA external account.
+
+    ![](assets/sql_code.png)
+
+1. Type or copy-paste your SQL script in the dedicated area.
+   Otherwise, 
+
+   >[!CAUTION]
+   >
+   >It is the SQL script writer's responsibility to make sure that the SQL script is functional, and that its references (fields names, etc.) are in accordance with the Outbound schema.
+
+1. Check the **[!UICONTROL Processing errors]** option to display a specific transition which will be enabled if an error is generated.
+  
+    Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 ## JavaScript code and Advanced JavaScript code {#javascript-code}
 

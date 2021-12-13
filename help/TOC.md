@@ -841,6 +841,7 @@ type: Documentation
        + [Technotes](technotes/using/technote.md)
        + [Campaign configuration updates](technotes/using/acc-config-updates.md)
        + [IMS updates](technotes/using/ims-updates.md)
+       + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
   + Emails and push notifications{#technotes-email}
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
        + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
