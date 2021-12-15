@@ -317,7 +317,7 @@ To change the type of an existing form to `iconbox`, follow these steps:
 
      Alternatively, remove the `type="frame"` attribute from the existing `<container>` elements.
 
-### Create a `notebook` form
+### Create a notebook form
 
 Use the `notebook` form type to show tabs at the top of the form, which take users to different pages.
 
