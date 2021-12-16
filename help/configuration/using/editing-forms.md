@@ -401,6 +401,3 @@ This example shows a complex form:
 
 ## Modify a factory input form {#modify-factory-form}
 
-To modify a factory form, follow these steps:
-
-
