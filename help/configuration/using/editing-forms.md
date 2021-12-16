@@ -356,6 +356,23 @@ To change the type of an existing form to `notebook`, follow these steps:
 
    Alternatively, remove the `type="frame"` attribute from the existing `<container>` elements.
 
+## Nest forms {#nest-forms}
+
+You can nest forms within other forms. For example, you can nest notebook forms within iconbox forms.
+
+The level of nesting controls navigation. Users can drill down to subforms. 
+
+To nest a form within another form, insert a `<container>` element and set the `type` attribute to the form type. For the top-level form, you can set the form type in an outer container or in the `<form>` element.
+
+### Example
+
+This example shows a complex form:
+
+* The top-level form is an iconbox form. This form comprises two containers labelled **General** and **Details**.
+
+  As a result, the outer form shows the **General** and **Details** pages at the top level. To access these pages, users click the icons at the left of the form.
+
+* The subform is an notebook form that is nested within the **General** container. The subform comprises two containers that are labelled **Name** and **Contact**.
 
 
 
