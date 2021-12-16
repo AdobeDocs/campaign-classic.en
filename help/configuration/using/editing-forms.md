@@ -398,3 +398,150 @@ This example shows a complex form:
   As a result, the **General** page of the outer form shows the **Name** and **Contact** tabs.
 
 ![](assets/nested_forms_preview.png)
+
+To nest a form within another form, insert a `<container>` element and set the `type` attribute to the form type. For the top-level form, you can set the form type in an outer container or in the `<form>` element.
+
+### Example
+
+This example shows a complex form:
+
+* The top-level form is an iconbox form. This form comprises two containers labelled **General** and **Details**.
+
+  As a result, the outer form shows the **General** and **Details** pages at the top level. To access these pages, users click the icons at the left of the form.
+
+* The subform is an notebook form that is nested within the **General** container. The subform comprises two containers that are labelled **Name** and **Contact**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+  As a result, the **General** page of the outer form shows the **Name** and **Contact** tabs.
+
+![](assets/nested_forms_preview.png)
+
+
+
+## Modify a factory input form {#modify-factory-form}
+
+To modify a factory form, follow these steps:
+
+1. Modify the factory input form:
+
+   1. From the menu, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
+   1. Select an input form and modify it.
+
+    You can extend factory data schemas, but you cannot extend factory input forms. We recommend that you modify factory input forms directly without recreating them. During software upgrades, your modifications in the factory input forms are merged with the upgrades. If the automatic merge fails, you can resolve the conflicts. [Read more](../../production/using/upgrading.md#resolving-conflicts).
+
+    For example, if you extend a factory schema with an additional field, you can add this field to the related factory form.
+
+## Validate forms {#validate-forms}
+
+You can include validation controls in forms.
+
+### Grant read-only access to fields
+
+To grant read-only access to a field, use the `readOnly="true"` attribute. For example, you might want to show the primary key of a record, but with read-only access. [Read more](form-structure.md#non-editable-fields).
+
+In this example, the primary key (`iRecipientId`) of the `nms:recipient` schema is displayed in read-only access:
+
+```xml
+<value xpath="@iRecipientId" readOnly="true"/>
+```
+
+### Check mandatory fields 
+
+You can check mandatory information:
+
+* Use the `required="true"` attribute for the required fields.
+* Use the `<leave>` node to check these fields and show error messages.
+
+In this example, the email address is required, and an error message is displayed if the user has not provided this information:
+
+```xml
+<input xpath="@email" required="true"/>
+<leave>
+  <check expr="@email!=''">
+    <error>The email address is required.</error>
+  </check>
+</leave>
+```
+
+Read more about [expression fields](form-structure.md#expression-field) and [form context](form-structure.md#context-of-forms).
+
+### Validate values
+
+You can use JavaScript SOAP calls to validate form data from the Console. Use these calls for complex validation, for example, to check a value against a list of authorized values. [Read more](form-structure.md#soap-methods).
+
+1. Create a validation function in a JS file.
+
+   Example:
+
+    ```js
+    function nms_recipient_checkValue(value)
+    {
+      logInfo("checking value " + value)
+      if (…)
+      {
+        logError("Value " + value + " is not valid")
+      }
+      return 1
+    }
+    ```
+
+    In this example, the function is named `checkValue`. This function is used to check the `recipient` data type in the `nms` namespace. The value that is being checked is logged. If the value is not valid, then an error message is logged. If the value is valid, then the value 1 is returned.
+
+    You can use the returned value to modify the form.
+
+1. In the form, add the `<soapCall>` element to the `<leave>` element.
+
+    In this example, a SOAP call is used to validate the `@valueToCheck` string:
+
+    ```xml
+    <form name="recipient" (…)>
+    (…)
+      <leave>
+        <soapCall name="checkValue" service="nms:recipient">
+          <param exprIn="@valueToCheck" type="string"/>
+        </soapCall>
+      </leave>
+    </form>
+    ```
+
+   In this example, the `checkValue` method and the `nms:recipient` service are used:
+
+   * The service is the namespace and the data type.
+   * The method is the function name. The name is case-sensitive.
+      
+    The call is performed synchronously.
+
+    All exceptions are displayed. If you use the `<leave>` element, then users cannot save the form until the entered information is validated.
+
+This example shows how you can make service calls from within forms:
+
+```xml
+<enter>
+  <soapCall name="client" service="c4:ybClient">
+    <param exprIn="@id" type="string"/>
+    <param type="boolean" xpathOut="/tmp/@count"/>
+  </soapCall>
+</enter>
+```
+
+In this example, the input is an ID, which is a primary key. When users fill the form for this ID, a SOAP call is made with this ID as the input parameter. The output is a boolean that is written to this field: `/tmp/@count`. You can use this boolean inside the form. Read more about [form context](form-structure.md#context-of-forms).
