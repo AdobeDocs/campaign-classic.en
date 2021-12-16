@@ -408,6 +408,7 @@ To modify a factory form, follow these steps:
    1. From the menu, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
    1. Select a data schema and extend it. For example, you can add fields. [Read more](extending-a-schema.md).
 
+      >[!CAUTION]
+      > Do not modify the original data in a factory namespace, but, instead, extend it in a custom namespace. The reason is that, during software upgrades, all data in the factory namespaces are overwritten. For example, the data in the xtk, ncm, and nms factory namespaces are overwritten. The data in your custom namespaces is not modified.
 
-
-
+  1. Modify the factory input form:
