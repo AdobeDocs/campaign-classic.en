@@ -398,3 +398,24 @@ This example shows a complex form:
   As a result, the **General** page of the outer form shows the **Name** and **Contact** tabs.
 
 ![](assets/nested_forms_preview.png)
+
+## Modify a factory input form {#modify-factory-form}
+
+To modify a factory form, follow these steps:
+
+1. Optionally, extend the related data schema:
+
+   1. From the menu, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
+   1. Select a data schema and extend it. For example, you can add fields. [Read more](extending-a-schema.md).
+
+      >[!CAUTION]
+      > Do not modify the original data in a factory namespace, but, instead, extend it in a custom namespace. The reason is that, during software upgrades, all data in the factory namespaces are overwritten. For example, the data in the `xtk`, `ncm`, and `nms` factory namespaces are overwritten. The data in your custom namespaces is not modified.
+
+1. Modify the factory input form:
+
+   1. From the menu, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
+   1. Select an input form and modify it.
+
+    You can extend factory data schemas, but you cannot extend factory input forms. We recommend that you modify factory input forms directly without recreating them. During software upgrades, your modifications in the factory input forms are merged with the upgrades. If the automatic merge fails, you can resolve the conflicts. [Read more](../../production/using/upgrading.md#resolving-conflicts).
+
+    For example, if you extend a factory schema with an additional field, you can add this field to the related factory form.
