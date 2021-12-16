@@ -77,3 +77,91 @@ You can create different types of input forms. The form type determines how user
 
   This form shows a list of items.
 
+## Containers
+
+In forms, you can use containers for various purposes:
+
+* Organize content within forms
+* Define access to input fields
+* Nest forms within other forms
+
+[Read more](form-structure.md#containers).
+
+### Organize content
+
+Use containers to organize content within forms:
+
+* You can group fields into sections.
+* You can add pages to multipage forms.
+
+To insert a container, use the `<container>` element. [Read more](form-structure.md#containers).
+
+#### Group fields
+
+Use containers to group input fields into organized sections.
+
+To insert a section into a form, use this element: `<container type="frame">`. Optionally, to add a section title, use the `label` attribute.
+
+Syntax: `<container type="frame" label="`*section_title*`"> […] </container>`
+
+  In this example, a container defines the **Creation** section, which comprises the **[!UICONTROL Created by]** and **[!UICONTROL Name]** input fields:
+
+```xml
+<form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
+      name="coupon" namespace="nms" type="default" xtkschema="xtk:form">
+  <input xpath="@code"/>
+  <input xpath="@type"/>
+  <container label="Creation" type="frame">
+    <input xpath="createdBy"/>
+    <input xpath="createdBy/@name"/>
+  </container>
+</form>
+```
+
+![](assets/console_screen_form.png)
+
+#### Add pages to multipage forms
+
+For multipage forms, use a container to create a form page.
+
+This example shows containers for the **General** and **Details** pages of a form:
+
+```xml
+<container img="ncm:book.png" label="General">
+[…]
+</container>
+<container img="ncm:detail.png" label="Details">
+[…]
+</container>
+```
+
+### Define access to fields
+
+Use containers to define what is visible and to define access to fields. You can turn on or off groups of fields.
+
+### Nest forms
+
+Use containers to nest forms within other forms. [Read more](#add-pages-to-multipage-forms).
+
+## References to images
+
+To find images, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]** from the menu.
+
+To associate an image with an element in the form, for example, an icon, you can add a reference to an image. Use the `img` attribute, for example, in the `<container>` element.
+
+Syntax: `img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
+
+This example shows references to the `book.png` and `detail.png` images from the `ncm` namespace:
+
+```xml
+<container img="ncm:book.png" label="General">
+[…]
+</container>
+<container img="ncm:detail.png" label="Details">
+[…]
+</container>
+```
+
+These images are used for icons that users click to navigate a multipage form:
+
+![](assets/nested_forms_preview.png)
