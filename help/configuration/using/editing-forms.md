@@ -165,3 +165,236 @@ This example shows references to the `book.png` and `detail.png` images from the
 These images are used for icons that users click to navigate a multipage form:
 
 ![](assets/nested_forms_preview.png)
+
+
+## Create a simple form {#create-simple-form}
+
+To create a form, follow these steps:
+
+1. From the menu, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
+1. Click the **[!UICONTROL New]** button at the top right of the list.
+
+    ![](assets/input-form-create-1.png)
+
+1. Specify the form properties:
+
+   * Specify the form name and the namespace.
+      
+      The form name and the namespace can match the related data schema.  This example shows a form for the `cus:order` data schema:
+
+      ```xml
+      <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
+        […]
+      </form>
+      ```
+
+     Alternatively, you can explicitly specify the data schema in the `entity-schema` attribute.
+    
+     ```xml
+     <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
+       […]
+     </form>
+     ```
+
+   * Specify the label to be displayed on the form.
+   * Optionally, specify the form type. If you do not specify a form type, the console screen type is used by default.
+
+      ![](assets/input-form-create-2.png)
+
+       If you are designing a multipage form, you can omit the form type in the `<form>` element and specify the type in a container.
+
+1. Click **[!UICONTROL Save]**.
+
+1. Insert the form elements.
+   
+   For example, to insert an input field, use the `<input>` element. Set the `xpath` attribute to the field reference as an XPath expression. [Read more](schema-structure.md#referencing-with-xpath).
+
+   This example shows input fields based on the `nms:recipient` schema.
+
+   ```xml
+   <input xpath="@firstName"/>
+   <input xpath="@lastName"/>
+   ```
+
+1. If the form is based on a specific schema type, you can look up the fields for this schema:
+
+   1. Click **[!UICONTROL Insert]** > **[!UICONTROL Document fields]**.
+
+      ![](assets/input-form-create-4.png)
+
+   1. Select the field and click **[!UICONTROL OK]**.
+    
+      ![](assets/input-form-create-5.png)
+
+1. Optionally, specify the field editor.
+
+   A default field editor is associated with each data type:
+   * For a date-type field, the form shows an input calendar.
+   * For an enumeration-type field, the form shows a selection list.
+
+   You can use these field editor types:
+  
+   | Field editor | Form attribute |
+   | --- | --- |
+   | Radio button | `type="radiobutton"` |
+   | Checkbox | `type="checkbox"` |
+   | Edit tree | `type="tree"` |
+
+    Read more about [memory list controls](form-structure.md#memory-list-controls).
+
+1. Optionally, define access to the fields:
+
+   | Element | Attribute | Description |
+   | --- | --- | --- |
+   | `<input>` | `read-only:"true"` | Provides read-only access to a field |
+   | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | Conditionally displays a group of fields |
+   | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | Conditionally enables a group of fields |
+
+   Example:
+   
+   ```xml
+   <container type="enabledGroup" enabledIf="@gender=1">
+     […]
+   </container>
+   <container type="enabledGroup" enabledIf="@gender=2">
+     […]
+   </container>
+   ```
+
+1. Optionally, use containers to group fields into sections.
+
+   ```xml
+   <container type="frame" label="Name">
+      <input xpath="@firstName"/>
+      <input xpath="@lastName"/>
+   </container>
+   <container type="frame" label="Contact details">
+      <input xpath="@email"/>
+      <input xpath="@phone"/>
+   </container>
+   ```
+
+   ![](assets/input-form-create-3.png)
+
+## Create a multipage form {#create-multipage-form}
+
+You can create multipage forms. You can also nest forms within other forms.
+
+### Create an `iconbox` form
+
+Use the `iconbox` form type to show icons at the left of the form, which take users to different pages in the form.
+
+![](assets/iconbox_form_preview.png)
+
+To change the type of an existing form to `iconbox`, follow these steps:
+
+1. Change the `type` attribute of the `<form>` element to `iconbox`: 
+   
+   ```xml
+   <form […] type="iconbox">
+   ```
+
+1. Set a container for each form page:
+
+   1. Add a `<container>` element as a child of the `<form>` element.
+   1. To define a label and an image for the icon, use the `label` and `img` attributes.
+
+      ```xml
+      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
+          <container img="xtk:properties.png" label="General">
+              <input xpath="@label"/>
+              <input xpath="@name"/>
+              […]
+          </container>
+          <container img="nms:msgfolder.png" label="Details">
+              <input xpath="@address"/>
+              […]
+          </container>
+          <container img="nms:supplier.png" label="Services">
+              […]
+          </container>
+      </form>
+      ```
+
+     Alternatively, remove the `type="frame"` attribute from the existing `<container>` elements.
+
+### Create a notebook form
+
+Use the `notebook` form type to show tabs at the top of the form, which take users to different pages.
+
+![](assets/notebook_form_preview.png)
+
+To change the type of an existing form to `notebook`, follow these steps:
+
+1. Change the `type` attribute of the `<form>` element to `notebook`:
+
+   ```xml
+   <form […] type="notebook">
+   ```
+
+1. Add a container for each form page:
+
+    1. Add a `<container>` element as a child of the `<form>` element.
+    1. To define the label and the image for the icon, use the `label` and `img` attributes.
+
+    ```xml
+      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
+          <container label="General">
+              <input xpath="@label"/>
+              <input xpath="@name"/>
+              […]
+          </container>
+          <container label="Details">
+              <input xpath="@address"/>
+              […]
+          </container>
+          <container label="Services">
+              […]
+          </container>
+      </form>
+    ```
+
+   Alternatively, remove the `type="frame"` attribute from the existing `<container>` elements.
+
+### Nest forms {#nest-forms}
+
+You can nest forms within other forms. For example, you can nest notebook forms within iconbox forms.
+
+The level of nesting controls navigation. Users can drill down to subforms. 
+
+To nest a form within another form, insert a `<container>` element and set the `type` attribute to the form type. For the top-level form, you can set the form type in an outer container or in the `<form>` element.
+
+### Example
+
+This example shows a complex form:
+
+* The top-level form is an iconbox form. This form comprises two containers labelled **General** and **Details**.
+
+  As a result, the outer form shows the **General** and **Details** pages at the top level. To access these pages, users click the icons at the left of the form.
+
+* The subform is an notebook form that is nested within the **General** container. The subform comprises two containers that are labelled **Name** and **Contact**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+  As a result, the **General** page of the outer form shows the **Name** and **Contact** tabs.
+
+![](assets/nested_forms_preview.png)
