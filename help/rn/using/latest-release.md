@@ -22,10 +22,11 @@ _October 8, 2021_
 
 **Patches**
 
+* Improved the billing workflow fix available in build 9342 which required a manual restart of the workflow for the fix to be applied. Now the postupgrade automatically restarts the workflow.
+
 * Fixed an issue which could prevent proper offer management when using the **Interaction** module with the [Power Booster](../../installation/using/power-booster-and-power-cluster.md) option. (NEO-39263)
 
 * Fixed an error 'The ipaffinity xxx is not found on mid server xxx' which could happen on delivery sending when using more than one IP affinity on a multi mid-sourcing instance. (NEO-37514)
-
 
 ## ![](assets/do-not-localize/orange_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
@@ -43,9 +44,9 @@ _September 7, 2021_
 
 **Other changes**
 
+* Fixed a regression introduced in 21.1.3 with the billing workflow new guardrail. The billing workflow was executed on wrong instances and crashed trying to send the billing report which wasn't generated. You need to manually restart the workflow for the fix to be applied.
 * Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
-* A guardrail has been added to only allow the [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
 * Missing database indexes were added to the following schemas to prevent database update issues: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
@@ -187,6 +188,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 
 **Other changes**
 
+* A guardrail has been added to only allow the [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) to run on the marketing instance.
 * The openssl third-party for Windows has been updated to version 1.1.1h.
 * In the Debian package description, nlserver has been changed to Adobe Campaign Classic server. 
 
