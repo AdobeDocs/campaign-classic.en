@@ -22,7 +22,7 @@ _October 8, 2021_
 
 **Patches**
 
-* Improved the billing workflow fix in build 9342 which required a manual restart of the workflow for the fix to be applied. Now the postupgrade automatically restarts the workflow.
+* Improved the billing workflow fix available in build 9342 which required a manual restart of the workflow for the fix to be applied. Now the postupgrade automatically restarts the workflow.
 
 * Fixed an issue which could prevent proper offer management when using the **Interaction** module with the [Power Booster](../../installation/using/power-booster-and-power-cluster.md) option. (NEO-39263)
 
