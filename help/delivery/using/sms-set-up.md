@@ -19,6 +19,10 @@ To send to a mobile phone, you need:
 
 1. A delivery template in which this external account is referenced.
 
+>[!NOTE]
+>
+> For SMS deliveries, typology should be using a specific SMS affinity created in **one** dedicated application server container. [Learn more](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
+
 ## Create an SMPP external account {#creating-an-smpp-external-account}
 
 To send a SMS to a mobile phone, you first need to create your SMPP external account.
