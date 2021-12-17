@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 ---
-# Latest release: Campaign Classic v7.1{#latest-release}
+# Latest release{#latest-release}
 
 ![](../../assets/v7-only.svg)
 
