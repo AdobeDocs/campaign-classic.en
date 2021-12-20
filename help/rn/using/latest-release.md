@@ -31,6 +31,7 @@ Several security improvements have been made to FDA accounts:
     * Fixed an issue, during an import triggered by a workflow, which caused the null values of string-type fields to be saved as Null instead of empty values.
     * Fixed an issue which led to the following error for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
     * Fixed an issue, during an import from Microsoft Dynamics 365, which prevented the lookup fields data from being imported.
+* Added support to enable connections to a proxy server for Google BigQuery FDA connector. Required proxy options can be set through the Options field in the external account configuration. [Read more](../../installation/using/configure-fda-google-big-query.md#in-case-of-errors#google-external)
 
 **Other changes**
 
