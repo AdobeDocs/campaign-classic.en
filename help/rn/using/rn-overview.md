@@ -11,19 +11,17 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign is regularly updated. On the average two or three minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only. 
+Adobe Campaign is regularly updated. One or two minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only. 
 
 This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.
 
-This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. It will also ensure that you get a better support experience as identifying, reproducing and fixing an issue on a recent build is usually much faster. Also, many issues you may encounter have already been fixed in most recent builds.
+This is the reason why we believe it is critical that you **run the most recent version** of Adobe Campaign. It will also ensure that you get a better support experience as identifying, reproducing and fixing an issue on a recent build is usually much faster. Also, many issues you may encounter have already been fixed in most recent builds.
 
 ## Release statuses{#rn-statuses}
 
-A status is associated to each build. You'll find below the list of statuses and how to interpret them.
+Every new build comes with a status which is materialized by a color. 
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
-
-The **last GA builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 21.1.4 release](../../rn/using/latest-release.md#release-21-1-4-build-9340).
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
@@ -35,9 +33,9 @@ The **last GA builds** are: [[!DNL Gold Standard] 11 release](../../rn/using/gol
 
 ## Recommendations{#recommendations}
 
-To ensure a stable configuration, we recommend that you install the same stable build on all servers that are running on the same client configuration.
+To ensure a stable configuration, we recommend that you install **the same stable build** on all servers that are running on the same client configuration.
 
-In addition, the client console should be on the same build as the server instance.
+In addition, the client console must be on the same build as the server instance.
 
 To keep your implementation up-to-date, make sure to read out the [Deprecated and removed features](../../rn/using/deprecated-features.md) and [Compatibility matrix](../../rn/using/compatibility-matrix.md) pages with each new release.
 
@@ -56,6 +54,7 @@ As a hosted [!DNL Gold Standard] user, you will automatically benefit from the [
 
 ## Support and other useful links{#support}
 
+* [Find your Campaign version](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [Help and Support](../../support.md)
 * [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 * [Latest documentation updates](../../rn/using/documentation-updates.md)

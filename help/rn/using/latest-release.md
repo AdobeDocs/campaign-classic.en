@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Latest Release
-description: Latest Campaign Classic Release Notes
+description: Latest Campaign Classic v7 Release Notes
 feature: Overview
 role: User
 level: Beginner
@@ -11,12 +11,15 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 ![](../../assets/v7-only.svg)
 
-This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release**.
+This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-Understand Campaign build statuses in [this page](rn-overview.md). 
+## Release 7.1 (21.1)
 
+>[!CAUTION]
+>Campaign **[!UICONTROL Help > About...]** menu lets you check your [version and build number](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). However please note that for all the builds between 9277 and 9343 listed in this page, the version number is set to 7.0 instead of 7.1.
+> 
 
-## ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
+### ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
 
 _October 8, 2021_
 
@@ -28,7 +31,7 @@ _October 8, 2021_
 
 * Fixed an error 'The ipaffinity xxx is not found on mid server xxx' which could happen on delivery sending when using more than one IP affinity on a multi mid-sourcing instance. (NEO-37514)
 
-## ![](assets/do-not-localize/orange_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
+### ![](assets/do-not-localize/orange_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
 _September 7, 2021_
 
@@ -62,7 +65,7 @@ _September 7, 2021_
 * Fixed an issue which prevented you from using variables in an **Enrichment** workflow activity when the incoming transition was from an FDA data source.
 * Fixed an issue that could lead to broken URLs in email messages.
 
-## ![](assets/do-not-localize/orange_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+### ![](assets/do-not-localize/orange_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
 _June 5, 2021_
 
@@ -173,18 +176,18 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 
 **Deprecated features**
 
-* Starting Campaign 21.1 release, the Adobe Analytics Data Connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly with the new connector Adobe Analytics Connector. 
-For more information refer to the [detailed documentation](../../technotes/using/aa-connector-migration.md).
-* Support for Debian 8 is now deprecated.
-* Following the deprecation of Oracle CRM in 20.3, the related external account has been removed from the interface.
+* ODBC drivers are now directly installed with Adobe Campaign Third Parties. Manual steps are no longer required to install the drivers.
+* Google Big Query is now available for Hosted deployments.
 
-Learn more in the [Deprecated and removed features page](../../rn/using/deprecated-features.md).
+[Read more](../../installation/using/configure-fda.md)
 
 **Improvements**
 
-* Extra checks have been added when saving a workflow to make sure that activity names are unique and that transitions are always followed by an activity.
-* The **Billing (billing)** technical workflow now includes the tasks originally performed by the **Number of active billing profiles** (billingActiveContactCount) workflow, which has been removed. The email report sent each month by the workflow will now provide information on the number of active profiles on the instance. [Read more](../../workflow/using/about-technical-workflows.md).
-* New **_keyOnMData** attribute has been added to be able to use a key for operations on memo data.
+* Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
+    * Fixed an issue which could cause data import from Microsoft CRM to fail or not work if the filter condition contained lookup fields.
+    * Fixed an issue, during an import triggered by a workflow, which caused the null values of string-type fields to be saved as Null instead of empty values.
+    * Fixed an issue which led to the following error for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
+    * Fixed an issue, during an import from Microsoft Dynamics 365, which prevented the lookup fields data from being imported.
 
 **Other changes**
 
@@ -218,14 +221,14 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Fixed an issue which prevented you from sending a delivery with a group of proofs due to a specific joining mechanism that failed the delivery personalization. (NEO-14391)
 * Fixed an issue which failed to send an alert with the alert activity if a query and an enrichment activity targeted the delivery table. (NEO-25157)
 
-## ![](assets/do-not-localize/red_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+### ![](assets/do-not-localize/red_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
 
 _April 15, 2021_
 
 * Password management has been improved to optimize security.
 * Fixed an issue that could cause MTA crashes.
 
-## ![](assets/do-not-localize/red_2.png) Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
+### ![](assets/do-not-localize/red_2.png) Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 
 _February 22, 2021_
 
