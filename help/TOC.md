@@ -17,19 +17,14 @@ type: Documentation
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
-  + [!DNL Gold Standard] release {#gs-release}
-     + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
-     + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
-     + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}
-    + [Release 20.3](rn/using/release--20-3.md)
-    + [Release 20.2](rn/using/release--20-2.md)
-    + [Release 20.1](rn/using/release--20-1.md)
-    + [Release 19.2](rn/using/release--19-2.md)
-    + [Release 19.1](rn/using/release--19-1.md)
-    + [Release 18.10](rn/using/release--18-10.md)
-    + [Release 18.6](rn/using/release--18-6.md)
-    + [Release 18.4](rn/using/release--18-4.md)
+    + [!DNL Gold Standard] release {#gs-release}
+       + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
+       + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
+       + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
+    + [2020](rn/using/release--2020.md)
+    + [2019](rn/using/release--2019.md)
+    + [2018](rn/using/release--2018.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
 + Get started {#getting-started}
@@ -556,7 +551,7 @@ type: Documentation
        + [Additional data](interaction/using/additional-data.md)
        + [Extension example](interaction/using/extension-example.md)
        + [Create a test environment](interaction/using/creating-a-test-environment.md)
-       + [Hooks](interaction/using/hooks.md)
+       + [Modify the standard engine behavior](interaction/using/hooks.md)
        + [Distributed architectures](interaction/using/distributed-architectures.md)
        + [Data buffer configuration](installation/using/interaction---data-buffer.md)
   + Use case {#case-study}
@@ -845,6 +840,7 @@ type: Documentation
        + [Technotes](technotes/using/technote.md)
        + [Campaign configuration updates](technotes/using/acc-config-updates.md)
        + [IMS updates](technotes/using/ims-updates.md)
+       + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
   + Emails and push notifications{#technotes-email}
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
        + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
