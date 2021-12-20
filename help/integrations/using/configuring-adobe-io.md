@@ -18,7 +18,7 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 >If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. 
 >Note that during this move to [!DNL Adobe I/O], some incoming triggers may be lost.
 >
->Legacy oAuth authentication mode with Campaign will be retired on **October 20, 2021**. Hosted environments benefit from an extension until  **Febuary 23, 2022**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to Febuary 2022. You must [provide the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
+>Legacy oAuth authentication mode with Campaign has been retired on **October 20, 2021**. Hosted environments benefit from an extension until  **Febuary 23, 2022**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to Febuary 2022. You must [provide the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) to Adobe.
 
 ## Prerequisites {#adobe-io-prerequisites}
 
