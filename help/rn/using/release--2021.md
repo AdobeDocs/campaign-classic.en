@@ -5,8 +5,6 @@ description: Learn more about Campaign Classic 2021 releases
 feature: Overview
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 ---
 # 2021 releases{#release-2021}
 
