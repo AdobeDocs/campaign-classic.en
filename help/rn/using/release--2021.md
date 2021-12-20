@@ -11,7 +11,7 @@ level: Beginner
 ## Release 7.1 (21.1)
 
 >[!CAUTION]
->Campaign **[!UICONTROL Help > About...]** menu lets you check your [version and build number](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). However please note that for all the builds between 9277 and 9343 listed in this page, the version number is set to 7.0 instead of 7.1.
+>Campaign **[!UICONTROL Help > About...]** menu lets you check your [version and build number](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). However note that for all the builds between 9277 and 9343 listed in this page, the version number shows 7.0 instead of 7.1.
 > 
 
 ### ![](assets/do-not-localize/green_2.png) Release 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
