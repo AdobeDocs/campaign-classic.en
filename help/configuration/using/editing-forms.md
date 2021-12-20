@@ -166,6 +166,7 @@ These images are used for icons that users click to navigate a multipage form:
 
 ![](assets/nested_forms_preview.png)
 
+
 ## Create a simple form {#create-simple-form}
 
 To create a form, follow these steps:
@@ -317,7 +318,7 @@ To change the type of an existing form to `iconbox`, follow these steps:
 
      Alternatively, remove the `type="frame"` attribute from the existing `<container>` elements.
 
-### Create a `notebook` form
+### Create a notebook form
 
 Use the `notebook` form type to show tabs at the top of the form, which take users to different pages.
 
@@ -355,7 +356,7 @@ To change the type of an existing form to `notebook`, follow these steps:
 
    Alternatively, remove the `type="frame"` attribute from the existing `<container>` elements.
 
-### Nest forms {#nest-forms}
+### Nest forms
 
 You can nest forms within other forms. For example, you can nest notebook forms within iconbox forms.
 
@@ -398,17 +399,48 @@ This example shows a complex form:
 
 ![](assets/nested_forms_preview.png)
 
+To nest a form within another form, insert a `<container>` element and set the `type` attribute to the form type. For the top-level form, you can set the form type in an outer container or in the `<form>` element.
+
+### Example
+
+This example shows a complex form:
+
+* The top-level form is an iconbox form. This form comprises two containers labelled **General** and **Details**.
+
+  As a result, the outer form shows the **General** and **Details** pages at the top level. To access these pages, users click the icons at the left of the form.
+
+* The subform is an notebook form that is nested within the **General** container. The subform comprises two containers that are labelled **Name** and **Contact**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+  As a result, the **General** page of the outer form shows the **Name** and **Contact** tabs.
+
+![](assets/nested_forms_preview.png)
+
+
+
 ## Modify a factory input form {#modify-factory-form}
 
 To modify a factory form, follow these steps:
-
-1. Optionally, extend the related data schema:
-
-   1. From the menu, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
-   1. Select a data schema and extend it. For example, you can add fields. [Read more](extending-a-schema.md).
-
-      >[!CAUTION]
-      > Do not modify the original data in a factory namespace, but, instead, extend it in a custom namespace. The reason is that, during software upgrades, all data in the factory namespaces are overwritten. For example, the data in the `xtk`, `ncm`, and `nms` factory namespaces are overwritten. The data in your custom namespaces is not modified.
 
 1. Modify the factory input form:
 
