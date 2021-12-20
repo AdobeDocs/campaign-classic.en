@@ -8,6 +8,7 @@ level: Beginner
 hide: yes
 hidefromtoc: yes
 ---
+# 2021 releases{#release-2021}
 
 ## Release 7.1 (21.1)
 
