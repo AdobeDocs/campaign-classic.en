@@ -10,14 +10,17 @@ level: Beginner
 
 ![](../../assets/v7-only.svg)
 
-## ![](assets/do-not-localize/red_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
+
+## Release 20.3{#release-20-3}
+
+### ![](assets/do-not-localize/red_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
 _January 11, 2021_
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 * Fixed a regression issue related to the broadlog generation process that could cause the MTA process to crash.
 
-## ![](assets/do-not-localize/red_2.png) Release 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
+### ![](assets/do-not-localize/red_2.png) Release 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
 _October 27, 2020_
 
@@ -163,7 +166,9 @@ On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
 * Fixed an issue in the enrichment activity where non-admin users defined instance variables. (NEO-25653)
 * Fixed a regression that could block the workflow data export to an FDA database (Teradata, Snowflake).
 
-## ![](assets/do-not-localize/limited_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
+## Release 20.2{#release-20-2}
+
+### ![](assets/do-not-localize/limited_2.png) Release 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
 _April 15, 2021_
 
@@ -192,7 +197,7 @@ _March 31, 2021_
 * Fixed an issue which could cause the Billing workflow to fail when using a custom target mapping. The primary key of the custom schema is stored in the ‘sourceId’ column which only allowed integer values. It now allows integer as well as string values. (NEO-25914, NEO-28146)
 * Fixed a regression preventing the usage of some components of the console, such as the date picker and images management in deliveries. (NEO-31453)
 
-## ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
+### ![](assets/do-not-localize/red_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
 _April 15, 2021_
 
@@ -230,7 +235,7 @@ _December 22, 2020_
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/red_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
+### ![](assets/do-not-localize/red_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
 _September 11, 2020_
 
@@ -243,7 +248,7 @@ _September 11, 2020_
 * Fixing a regression during postupgrade causing an incorrect start of nlserver (error logs).
 * The update management for shared memory has been improved. The additional steps required in 20.2 are not needed anymore. 
 
-## ![](assets/do-not-localize/red_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
+### ![](assets/do-not-localize/red_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
 _July 22, 2020_
 
@@ -268,7 +273,7 @@ _July 22, 2020_
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/red_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
+### ![](assets/do-not-localize/red_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
 _June 8, 2020_
 
@@ -475,7 +480,10 @@ An example for Linux is available on this [page](../../configuration/using/addit
 * Fixed an issue when creating a mid-sourcing external account where the NmsMidSourcing_LastBroadLog_&lt;InternalName&gt; option was missing.
 * Fixed a regression issue on database connection causing the web server to constantly restart due to a database encoding problem. This could lead to overconsumption. (NEO-23264)
 
-## ![](assets/do-not-localize/limited_2.png) Release 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
+
+## Release 20.1{#release-20-1}
+
+### ![](assets/do-not-localize/limited_2.png) Release 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
 _April 15, 2021_
 
@@ -508,19 +516,19 @@ _December 23, 2020_
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
-## ![](assets/do-not-localize/red_2.png) Release 20.1.3 - Build 9124{#release-20-1-3-build-9124}
+### ![](assets/do-not-localize/red_2.png) Release 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
 _May 6, 2020_
 
 * Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
 
-## ![](assets/do-not-localize/red_2.png) Release 20.1.2 - Build 9123{#release-20-1-2-build-9123}
+### ![](assets/do-not-localize/red_2.png) Release 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
 _March 13, 2020_
 
 * Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
 
-## ![](assets/do-not-localize/red_2.png) Release 20.1 - Build 9122{#release-20-1-build-9122}
+### ![](assets/do-not-localize/red_2.png) Release 20.1 - Build 9122{#release-20-1-build-9122}
 
 _February 17, 2020_
 

@@ -8,7 +8,9 @@ description: Learn more about Campaign Classic 2019 releases
 
 ![](../../assets/v7-only.svg)
 
-## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
+## Release 19.2{#release-19-2}
+
+### ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
 _April 15, 2021_
 
@@ -42,7 +44,7 @@ _December 23, 2020_
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
-## ![](assets/do-not-localize/red_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
+### ![](assets/do-not-localize/red_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
 _February 7, 2020_
 
@@ -51,7 +53,8 @@ _February 7, 2020_
 * Fixed a regression issue due to the implementation of SSL certification which caused the user connection to fail on Windows server. (NEO-20629)
 * Fixed an issue which displayed an incorrect version tag number in the **About** menu.
 
-## ![](assets/do-not-localize/red_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
+
+### ![](assets/do-not-localize/red_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 2, 2019_
 
@@ -185,7 +188,10 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
 * Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
 
-## ![](assets/do-not-localize/limited_2.png) Release 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
+
+## Release 19.1{#release-19-1}
+
+### ![](assets/do-not-localize/limited_2.png) Release 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
 _April 15, 2021_
 
@@ -241,7 +247,8 @@ Tomcat has been updated from version 7 (7.0.103) to version 8 (8.5.57). The `tom
 
 On Linux, the nlserver service startup now uses a systemd unit instead of the /etc/init.d/nlserver6 script. The migration to the new startup scheme is performed automatically when you install the 19.1.8 package. The /etc/init.d/nlserver6 is still provided but for interacting with the nlserver service (start, restart, stop, etc.), we recommend that you use the systemctl command directly.
 
-## ![](assets/do-not-localize/red_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
+
+### ![](assets/do-not-localize/red_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
 _September 15, 2020_
 
@@ -271,7 +278,8 @@ _September 15, 2020_
 * Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
 * Fixed a regression which led to an incorrect timezone being picked when setting time in a **Scheduler** workflow activity.
 
-## ![](assets/do-not-localize/red_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
+
+### ![](assets/do-not-localize/red_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -287,7 +295,7 @@ _October 3, 2019_
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
 * Fixed an issue which prevented the full use of the SQL Data Management activity (the "SQL Data Management" named right was missing).
 
-## ![](assets/do-not-localize/red_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
+### ![](assets/do-not-localize/red_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 _August 13, 2019_
 
@@ -302,14 +310,15 @@ _August 13, 2019_
 * Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
 * Fixed a regression leading to an incorrect time zone being picked when setting the time in a Scheduler workflow activity.
 
-## ![](assets/do-not-localize/green_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
+### ![](assets/do-not-localize/green_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
+
 
 >[!NOTE]
 >
 >19.1.4 [!DNL Gold Standard] releases are listed in this [page](../../rn/using/gold-standard.md).
 
 
-## ![](assets/do-not-localize/red_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
+### ![](assets/do-not-localize/red_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
 _June 21, 2019_
 
@@ -325,7 +334,8 @@ _June 21, 2019_
 * We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
 * Improved permissions to execute the security zone package when using internal account.
 
-## ![](assets/do-not-localize/red_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
+
+### ![](assets/do-not-localize/red_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
 
 _May 30, 2019_
 

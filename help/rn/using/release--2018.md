@@ -7,7 +7,9 @@ description: Learn more about Campaign Classic 2018 releases
 
 ![](../../assets/v7-only.svg)
 
-## Release 18.10.6 - Build 8985{#release-18-10-6-build-8985}
+## Release 18.10
+
+### Release 18.10.6 - Build 8985{#release-18-10-6-build-8985}
 
 12 July 2019
 
@@ -19,7 +21,7 @@ description: Learn more about Campaign Classic 2018 releases
 * Improved permissions to execute the security zone package when using internal account.
 * Fixed an issue which could cause errors in the mtachild logs. (NEO-8978)
 
-## Release 18.10.5 - Build 8984{#release-18-10-5-build-8984}
+### Release 18.10.5 - Build 8984{#release-18-10-5-build-8984}
 
 23 April 2019
 
@@ -29,7 +31,7 @@ description: Learn more about Campaign Classic 2018 releases
 * Removed the 10,000 record limit in Workflow Heatmap to fix a missing data issue. (NEO-12329)
 * Fixed an issue when using the "Keep all additional data from the main set" option in an enrichment workflow activity. (NEO-13291)
 
-## Release 18.10.4 - Build 8983{#release-18-10-4-build-8983}
+### Release 18.10.4 - Build 8983{#release-18-10-4-build-8983}
 
 15 April 2019
 
@@ -42,7 +44,7 @@ description: Learn more about Campaign Classic 2018 releases
 * In the Analytics integration, the retrieval of AAM segment data with % character is now allowed. (NEO-12025)
 * Fixed a Tomcat crash issue when sending push notifications using HTTP2. (NEO-12701)
 
-## Release 18.10.3 - Build 8981{#release-18-10-3-build-8981}
+### Release 18.10.3 - Build 8981{#release-18-10-3-build-8981}
 
 29 January 2019
 
@@ -66,7 +68,7 @@ description: Learn more about Campaign Classic 2018 releases
 * Fixed a character escaping issue when sending push notifications on a mobile application. 
 * Fixed an issue which prevented from switching from FDA to SOAP synchronization method in a Mid-Sourcing external account.
 
-## Release 18.10.2 - Build 8978{#release-18-10-2-build-8978}
+### Release 18.10.2 - Build 8978{#release-18-10-2-build-8978}
 
 6 December 2018
 
@@ -88,7 +90,7 @@ description: Learn more about Campaign Classic 2018 releases
 * Fixed an issue with the calculation of workflow durations in Workflow HeatMap.
 
 
-## Release 18.10 - Build 8977{#release-18-10-build-8977}
+### Release 18.10.1 - Build 8977{#release-18-10-build-8977}
 
 5 Nov 2018
 
@@ -231,7 +233,9 @@ These index changes may lead to an increase of the time required to perform the 
 * Fixed an issue which led to generated reject files containing false positives when processing a zip file containing a .csv via a load file activity using the Decompression option.
 * xtkjoblog is now purged by the cleanup.
 
-## Release 18.6.2 - Build 8949{#release-18-6-3-build-8949}
+## Release 18.6
+
+### Release 18.6.2 - Build 8949{#release-18-6-3-build-8949}
 
 22 August 2018
 
@@ -287,7 +291,7 @@ For more information on query banding, refer to these articles:
 * [https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw) 
 * [https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ)
 
-## Release 18.6 - Build 8947{#release-18-6-build-8947}
+### Release 18.6.1 - Build 8947{#release-18-6-build-8947}
 
 25 June 2018
 
@@ -340,7 +344,9 @@ For existing customers, file APIs can no longer access the **conf** folder of Ad
 
 * Fixed an issue that could affect SMS transactional message performance. (NEO-9812)
 
-## Release 18.4.5 - Build 8937{#release-18-4-5-build-8937}
+## Release 18.4
+
+### Release 18.4.5 - Build 8937{#release-18-4-5-build-8937}
 
 21 November 2018
 
@@ -367,7 +373,8 @@ For existing customers, file APIs can no longer access the **conf** folder of Ad
 * Improved shared memory available time during children dead processing (MTA).
 * Fixed a potential deadlock in Apache (tracking).
 
-## Release 18.4.4 - Build 8936{#release-18-4-4-build-8936}
+
+### Release 18.4.4 - Build 8936{#release-18-4-4-build-8936}
 
 1 August 2018
 
@@ -384,7 +391,7 @@ For existing customers, file APIs can no longer access the **conf** folder of Ad
 * Fixed an issue which displayed useless errors in the postupgrade log when a **[!UICONTROL Survey answers]** workflow activity was not fully configured.
 * FDA Teradata: fixed an issue with auto-incremented fields and indexes in SQL tables.
 
-## Release 18.4.3 - Build 8935{#release-18-4-3-build-8935}
+### Release 18.4.3 - Build 8935{#release-18-4-3-build-8935}
 
 22 June 2018
 
@@ -398,7 +405,7 @@ For existing customers, file APIs can no longer access the **conf** folder of Ad
 * Fixed an issue when syncing offer spaces from the marketing instance to the interaction instance. (NEO-11162)
 * Improved the management of long name indexes during postupgrade
 
-## Release 18.4.2 - Build 8932{#release-18-4-2-build-8932}
+### Release 18.4.2 - Build 8932{#release-18-4-2-build-8932}
 
 22 May 2018
 
@@ -409,7 +416,7 @@ For existing customers, file APIs can no longer access the **conf** folder of Ad
 * Fixed a performance issue which could occur with the inMail process when using a bounce mail server. (NEO-10641)
 * Fixed a database upgrade issue which could occur when upgrading more than 1000 schemas.
 
-## Release 18.4 - Build 8931{#release-18-4-build-8931}
+### Release 18.4.1 - Build 8931{#release-18-4-build-8931}
 
 24 Apr 2018
 
