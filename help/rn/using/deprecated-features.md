@@ -48,7 +48,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>Starting Campaign 21.1.3 release, the Adobe Analytics Data Connector is deprecated.</p>
    <p>If you are using this connector, you need to adapt your implementation accordingly. <a href="../../platform/using/adobe-analytics-connector.md">Learn more</a></p>
-  <p><em>Target removal date: August 2022</em></p>
+  <p><em>Target removal date: August 17, 2022</em></p>
   </td>
  </tr>
     <tr>
@@ -56,7 +56,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><p>Starting Campaign 21.1 release, the Technical Deliverability Monitoring Report is deprecated.</p>
    <p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p> 
    <p>Adobe recommends you to engage with the Deliverability Team to define the best tools to monitor your instance deliverability performances.</p>
-  <p><em>Target removal date: End of 2021</em></p>
+  <p><em>Target removal date: Early 2022</em></p>
   </td>
  </tr>
   <tr>
@@ -64,7 +64,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. <p>
   <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-adobe-io.md">Learn more</a></p> 
   <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
-  <p><em>Target removal date: Nov 2021</em></p>
+  <p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until Febuary 23, 2022. </em></p>
   </td>
   </tr>
  </tbody> 
@@ -173,7 +173,7 @@ Starting 21.1.3 release, the support for Debian 8 is deprecated.
 
 Starting 19.1 release, Adobe Campaign is no longer compatible with the following operating systems.
 
-* CentOS 6 [Learn more](https://wiki.centos.org/Download)
+* CentOS 6. [Learn more](https://wiki.centos.org/Download)
 * Debian 7. [Learn more](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [Learn more](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1163)
