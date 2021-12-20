@@ -11,7 +11,7 @@ exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 
 ![](../../assets/v7-only.svg)
 
-In this use case, we will send a communication, using Campaign Standard, that includes a link to a Campaign v7 web application. When the recipient clicks on the link in the email, the web application displays a form containing several fields preloaded with the recipient's data as well as a subscription link to a newsletter. The recipient can update their data as well as subscribe to the service. Their profile will be updated in Campaign v7 and the information will be replicated in Campaign Standard.
+In this use case, we will send a communication, using Campaign Standard, that includes a link to a Campaign v7 web application. When the recipient clicks on the link in the email, the web application displays a form containing several fields preloaded with the recipient's data as well as a subscription link to a newsletter. The recipient can update his data as well as subscribe to the service. His profile will be updated in Campaign v7 and the information will be replicated in Campaign Standard.
 
 If you have many services and web applications in Campaign v7, you might choose not to recreate them all in Campaign Standard. ACS Connector allows you to use all your existing Campaign v7 web applications and services and link them to a delivery sent by Campaign Standard.
 
@@ -102,7 +102,7 @@ The steps to create, design and send the email are the same as for a classic ema
 
 ## Retrieving the updated information {#retrieving-the-updated-information}
 
-When the recipient updates their data from via the web application, Adobe Campaign v7 synchronously retrieves the updated information. It is then replicated from Campaign v7 to Campaign Standard.
+When the recipient updates his data from via the web application, Adobe Campaign v7 synchronously retrieves the updated information. It is then replicated from Campaign v7 to Campaign Standard.
 
 1. In Campaign v7, go to **[!UICONTROL Profiles and Target > Services and subscriptions]** and open the **[!UICONTROL Newsletter]** service. You can see that the recipient now appears in the subscribers list.
 
