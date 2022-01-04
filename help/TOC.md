@@ -593,6 +593,7 @@ type: Documentation
   + Annexes {#annexes}
        + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
        + [Tracking](social/using/tracking.md)
++ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 + Installation and configuration guide {#installing-campaign-classic}
   + Architecture principles {#architecture-and-hosting-models}
        + [General architecture](installation/using/general-architecture.md)
