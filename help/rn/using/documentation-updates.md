@@ -15,6 +15,31 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## December 2021{#dec-2021}
+
+Campaign Classic v7 Relese Notes have been reorganized to simplify navigation. [Read more](rn-overview.md)
+
+Documentation about Form edition in Campaign has been updated and improved. [Read more](../../configuration/using/editing-forms.md)
+
+CentOs 8 has reached End-of-Life and is now deprecated with Adobe Campaign Classic. [Read more](deprecated-features.md)
+
+## November 2021{#nov-2021}
+
+Added a limitation about Incoming SMS (MO). [Read more](../../delivery/using/sms-protocol.md#multipart)
+
+Updated the migration process logs details for CRM connector deployment. [Read more](../../migration/using/testing-the-migration.md#verification-process)
+
+Added requirements about IMS permissions to implement Adobe Campaign-Adobe Analytics integration. [Read more](../../platform/using/adobe-analytics-provisioning.md)
+
+Updated Adobe Analytics Data Connector End-of-Life date from March 1, 2022 to August 17, 2022. [Read more](deprecated-features.md)
+
+Added a link to Adobe Experience Platform mobile SDK documentation to learn how to configure the Campaign extension in Adobe Launch. [Read more](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+
+Added a section about how to use JavaScript to calculate values, exchange data and to execute specific operations using SOAP calls.[Read more](../../workflow/using/javascript-scripts-and-templates.md) 
+
+Added samples of JavaScript codes implementation in workflows. [Read more](../../workflow/using/javascript-in-workflows.md)
+
+
 ## October 2021{#oct-2021}
 
 Existing technotes have been grouped to the new **Technote** section.
@@ -164,7 +189,7 @@ External account configuration has moved to [this section](../../installation/us
 
 Campaign Federated Data Access (FDA) documentation has been improved with details for each external database configuration, and moved to [this section](../../installation/using/about-fda.md).
 
-[Campaign 20.2.3 release](../../rn/using/release--20-2.md#release-20-2-3-build-9182) has moved to General Availability (GA).
+[Campaign 20.2.3 release](../../rn/using/release--2020.md#release-20-2-3-build-9182) has moved to General Availability (GA).
 
 The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
 
