@@ -90,7 +90,10 @@ You can change the display and layout of the chart using the following elements:
 
   ![](assets/s_user_segmentation_toolbar.png)
 
-  Icons related to tracking and launching an advanced targeting workflow are detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+  Icons related to progress and logs display are detailed in these sections:
+  
+    * [Displaying progress](../../workflow/using/monitoring-workflow-execution.md#displaying-progress)
+    * [Displaying logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
 
 * **Object alignment**
 

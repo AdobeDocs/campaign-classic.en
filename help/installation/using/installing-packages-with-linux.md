@@ -194,12 +194,11 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 
     * Debian
 
-      Default values for OOO_INSTALL_DIR, OOO_BASIS_INSTALL_DIR, OOO_URE_INSTALL_DIR are provided. You can override them in **customer.sh** if your layout of the LibreOffice installation is different:
+      Default values for OOO_INSTALL_DIR and OOO_BASIS_INSTALL_DIR are provided. You can override them in **customer.sh** if your layout of the LibreOffice installation is different:
 
       ```    
       export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
       export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-      export OOO_URE_INSTALL_DIR=/usr/lib/ure/share/
       ```
 
     * CentOs
@@ -209,7 +208,6 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
       ```    
       export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
       export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-      export OOO_URE_INSTALL_DIR=/usr/lib64/libreoffice/ure/share/
       ```
 
 * For Java Development Kit (JDK):
