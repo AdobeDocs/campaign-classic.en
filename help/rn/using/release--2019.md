@@ -2,8 +2,8 @@
 product: campaign
 title: Campaign Classic 2019 releases
 description: Learn more about Campaign Classic 2019 releases
+exl-id: 8a36a542-e095-4208-b624-e59845592863
 ---
-
 # 2019 releases{#release-2019}
 
 ![](../../assets/v7-only.svg)
