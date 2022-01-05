@@ -164,7 +164,11 @@ For an export, apply the following configuration to the **[!UICONTROL CRM Connec
    >
    >The export function of the **[!UICONTROL CRM Connector]** activity can insert or update fields on the CRM side. To enable field updates in the CRM, you need to specify the primary key of the remote table. If the key is missing, data will be inserted (instead of being updated).
 
-1. In the **[!UICONTROL Mapping]** section, specify the fields to be exported and their mapping in the CRM.
+1. Check **[!UICONTROL Export in Batches]** if you need faster exports.
+
+   ![](assets/crm_export_config_2.png)
+
+1. In the **[!UICONTROL Mapping]** section, click **[!UICONTROL New]** to specify the fields to be exported and their mapping in the CRM.
 
    ![](assets/crm_export_config.png)
 
