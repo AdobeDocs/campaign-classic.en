@@ -78,14 +78,7 @@ This section lists features and capabilities that have been removed from Campaig
  <tbody>
   <tr> 
    <td><strong>Area - Feature</strong></td>
-   <td><strong>Replacement</strong></td> 
-  </tr>
- <tr>  
-   <td>CRM connectors activities<br></td>
-   <td><p> Microsoft CRM, Salesforce, Oracle CRM On Demand action activities are no longer available.</p>
-   <p>To configure the data synchronization between Adobe Campaign and a CRM system, you can use the CRM connector activity.</p>
-   <p><a href="../../workflow/using/crm-connector.md">Learn more</a></p>
-  </tr>
+   <td><strong>Replacement</strong></td>
   <tr>  
    <td>Reporting<br></td>
    <td><p>Following Adobe Flash Player EOL, the Gauge report and Chart rendering engine are no longer available. <a href="../../reporting/using/creating-a-new-report.md">Learn more</a></p>
