@@ -169,6 +169,21 @@ The following systems are now supported with Campaign:
 
 Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
+**Deprecated features**
+
+* Starting Campaign 21.1 release, the Adobe Analytics Data Connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly with the new connector Adobe Analytics Connector. 
+For more information refer to the [detailed documentation](../../technotes/using/aa-connector-migration.md).
+* Support for Debian 8 is now deprecated.
+* Following the deprecation of Oracle CRM in 20.3, the related external account has been removed from the interface.
+
+Learn more in the [Deprecated and removed features page](../../rn/using/deprecated-features.md).
+
+**Improvements**
+
+* Extra checks have been added when saving a workflow to make sure that activity names are unique and that transitions are always followed by an activity.
+* The **Billing (billing)** technical workflow now includes the tasks originally performed by the **Number of active billing profiles** (billingActiveContactCount) workflow, which has been removed. The email report sent each month by the workflow will now provide information on the number of active profiles on the instance. [Read more](../../workflow/using/about-technical-workflows.md).
+* New **_keyOnMData** attribute has been added to be able to use a key for operations on memo data.
+
 **Other changes**
 
 * A guardrail has been added to only allow the [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) to run on the marketing instance.
