@@ -174,21 +174,6 @@ The following systems are now supported with Campaign:
 
 Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
-**Deprecated features**
-
-* ODBC drivers are now directly installed with Adobe Campaign Third Parties. Manual steps are no longer required to install the drivers.
-* Google Big Query is now available for Hosted deployments.
-
-[Read more](../../installation/using/configure-fda.md)
-
-**Improvements**
-
-* Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
-    * Fixed an issue which could cause data import from Microsoft CRM to fail or not work if the filter condition contained lookup fields.
-    * Fixed an issue, during an import triggered by a workflow, which caused the null values of string-type fields to be saved as Null instead of empty values.
-    * Fixed an issue which led to the following error for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
-    * Fixed an issue, during an import from Microsoft Dynamics 365, which prevented the lookup fields data from being imported.
-
 **Other changes**
 
 * A guardrail has been added to only allow the [billing technical workflow](../../production/using/monitoring-processes.md#billing-report) to run on the marketing instance.
