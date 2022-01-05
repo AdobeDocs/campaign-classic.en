@@ -82,7 +82,7 @@ LINE channel enhancements - [Learn more](../../delivery/using/line-channel.md)
 
 New Vertica FDA connector - [Learn more](../../installation/using/configure-fda-vertica.md)
 
-New Google Big Query FDA connector - [Learn more](../../installation/using/configure-fda-google-big-query.md)
+New Google BigQuery FDA connector - [Learn more](../../installation/using/configure-fda-google-big-query.md)
 
 The “Billing (billing)” technical workflow description now includes the tasks originally performed by the “Number of active billing profiles (billingActiveContactCount)”. [Read more](../../workflow/using/about-technical-workflows.md)
 

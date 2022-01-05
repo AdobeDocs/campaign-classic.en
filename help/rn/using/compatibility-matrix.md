@@ -203,7 +203,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <td>19.1.4 minimum</td>
 </tr>
 <tr>
-<td>Google Big Query</td>
+<td>Google BigQuery</td>
 <td>&nbsp;</td>
 <td>Managed Services, Hybrid & on-Premise</td>
 <td>21.1.5 minimum</td>

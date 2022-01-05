@@ -20,7 +20,6 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 Several security improvements have been made to FDA accounts:
 
 * ODBC drivers are now directly installed with Adobe Campaign Third Parties. Manual steps are no longer required to install the drivers.
-* Google Big Query is now available for Hosted deployments.
 * When configuring your external account, you can now login to your Snowflake account using Key pair authentication for enhanced authentication security.
 * When configuring your external account, you can now login to your Azure Synapse Analytics account using the System-assigned managed identity.
 
@@ -28,12 +27,19 @@ Several security improvements have been made to FDA accounts:
 
 **Improvements**
 
-* Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
+* Microsoft Dynamics Connector web API
+
+    Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
+
     * Fixed an issue which could cause data import from Microsoft CRM to fail or not work if the filter condition contained lookup fields.
     * Fixed an issue, during an import triggered by a workflow, which caused the null values of string-type fields to be saved as Null instead of empty values.
     * Fixed an issue which led to the following error for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
     * Fixed an issue, during an import from Microsoft Dynamics 365, which prevented the lookup fields data from being imported.
-* Added support to enable connections to a proxy server for Google BigQuery FDA connector. Required proxy options can be set through the Options field in the external account configuration. [Read more](../../installation/using/configure-fda-google-big-query.md#in-case-of-errors#google-external)
+
+* Google BigQuery FDA Connector
+
+    * Google BigQuery FDA Connector is now available for Hosted deployments. [Read more](../../installation/using/configure-fda-google-big-query.md)
+    * Added support to enable connections to a proxy server for Google BigQuery FDA connector. Required proxy options can be set through the Options field in the external account configuration. [Read more](../../installation/using/configure-fda-google-big-query.md#google-external)
 
 **Other changes**
 
