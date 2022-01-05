@@ -21,6 +21,8 @@ Several security improvements have been made to FDA accounts:
 
 * ODBC drivers are now directly installed with Adobe Campaign Third Parties. Manual steps are no longer required to install the drivers.
 * Google Big Query is now available for Hosted deployments.
+* When configuring your external account, you can now login to your Snowflake account using Key pair authentication for enhanced authentication security.
+* When configuring your external account, you can now login to your Azure Synapse Analytics account using the System-assigned managed identity.
 
 [Read more](../../installation/using/configure-fda.md)
 
