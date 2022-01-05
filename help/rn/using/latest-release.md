@@ -27,7 +27,7 @@ Several security improvements have been made to FDA accounts:
 
 **Improvements**
 
-* Microsoft Dynamics Connector web API
+* Microsoft Dynamics CRM 365 Connector
 
     Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
 
@@ -43,7 +43,7 @@ Several security improvements have been made to FDA accounts:
 
 **Other changes**
 
-* Following their deprecation, Microsoft CRM, Salesforce, Oracle CRM On Demand action activities have been removed from the interface.
+* Following their deprecation, Microsoft CRM, Salesforce, Oracle CRM On Demand action activities have been removed from the interface. To configure the data synchronization between Adobe Campaign and a CRM system, you can use the CRM connector activity. [Read more](../../workflow/using/crm-connector.md)
 * The **[!UICONTROL Encrypted identifier]** field has been added to the visitor schema (nms:visitor). This field is calculated and is to be used for web applications.
 * CRM datasources can now be used with the **Change data source** activity.
 * A new option has been added in the **Error management** properties of workflow activities: The **Abort on error** option will stop automatically the workflow. You will not be able to restart it afterwards. [Read more](../../workflow/using/advanced-parameters.md#in-case-of-errors)
