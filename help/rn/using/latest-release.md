@@ -32,10 +32,9 @@ Several security improvements have been made to FDA accounts:
 
     Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
 
-    * Fixed an issue which could cause data import from Microsoft CRM to fail or not work if the filter condition contained lookup fields.
     * Fixed an issue, during an import triggered by a workflow, which caused the null values of string-type fields to be saved as Null instead of empty values.
     * Fixed an issue which led to the following error for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
-    * Fixed an issue, during an import from Microsoft Dynamics 365, which prevented the lookup fields data from being imported.
+    * Fixed various issues when importing, from Microsoft Dynamics 365, data containing lookup fields.
 
 * Google BigQuery FDA Connector
 
@@ -45,7 +44,7 @@ Several security improvements have been made to FDA accounts:
 **Other changes**
 
 * Following their deprecation, Microsoft CRM, Salesforce, Oracle CRM On Demand action activities have been removed from the interface. To configure the data synchronization between Adobe Campaign and a CRM system, you can use the CRM connector activity. [Read more](../../workflow/using/crm-connector.md)
-* The **[!UICONTROL Encrypted identifier]** field has been added to the visitor schema (nms:visitor). This field is calculated and is to be used for web applications.
+* The **[!UICONTROL Encrypted identifier]** field has been added to the visitor schema (nms:visitor). This field is calculated and is to be used for web applications. This applies when the Line channel is configured on the mid-sourcing instance.
 * CRM datasources can now be used with the **Change data source** activity.
 * A new option has been added in the **Error management** properties of workflow activities: The **Abort on error** option will stop automatically the workflow. You will not be able to restart it afterwards (NEO-29661). [Read more](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * A dedicated sequence is now used to generate the primary keys for the nmsGroup table, which is used to create statistical groups of recipients. Previously, the xtknewId sequence was used. (NEO-30832)
