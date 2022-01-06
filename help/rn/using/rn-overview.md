@@ -71,7 +71,7 @@ We have organized a team of dedicated Customer Care Reps, Product Managers, Engi
 
 We are committed to making sure you have the relevant project and contact information.
 
-## Benefits
+### Benefits
 
 <tr>
   <td>
@@ -128,7 +128,7 @@ We are committed to making sure you have the relevant project and contact inform
 </tr>
 </table>
 
-## Support and other useful links{#support}
+## Additional resources{#support}
 
 * [Find your Campaign version](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [Help and Support](../../support.md)
