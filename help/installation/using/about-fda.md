@@ -19,7 +19,10 @@ The FDA option allows you to extend your data model in a third-party database. I
 
 In order to use this capability, prerequisites are listed below:
 
-* **Configuration**: except for Snowflake, you need an **on-premise** or **hybrid** hosting model to set up Federated Data Access. [Learn more](../../installation/using/hosting-models.md)
-* **External database version**: you need to have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA). 
+* **Configuration**: the list of compatible external database depend on your [hosting model](../../installation/using/hosting-models.md).
+* **External database version**: you need to have an external database that is compatible with the Adobe Campaign FDA module. 
+
+    The list of database systems and compatible versions per hosting model is detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA). 
+
 * **Permissions**: users must also have the [necessary permissions](../../installation/using/remote-database-access-rights.md) in Adobe Campaign and on the external database.
 

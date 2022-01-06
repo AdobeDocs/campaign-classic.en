@@ -183,55 +183,31 @@ Customer Relationship Management (CRM) systems compatible with Adobe Campaign ar
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-External databases compatible with Adobe Campaign [Federated Data Access module](../../installation/using/about-fda.md) are listed below.
+External databases compatible with Adobe Campaign [Federated Data Access module](../../installation/using/about-fda.md) are listed below. Compatibility depends on your hosting model.
+
+**Managed Services** (hosted), **Hybrid** and **On-premise** environments can connect Campaign with the following external database systems:
 
 <table>
 <tbody>
 <td><strong>Connector</strong></td>
-<td><strong>Version compatibility</strong></td>
-<td><strong>Hosting model compatibility</strong></td>
-<td><strong>Build compatibility</strong></td>
+<td><strong>Connector version</strong></td>
+<td><strong>Campaign version</strong></td>
 <tr>
 <tr>
 <td>Snowflake</td>
 <td>&nbsp;</td>
-<td>Managed Services, Hybrid & on-Premise</td>
-<td>21.1.5 minimum</td>
-</tr>
-<td>Vertica</td>
-<td>&nbsp;</td>
-<td>Hybrid & on-Premise only</td>
-<td>19.1.4 minimum</td>
+<td>7.2.1 minimum</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td>&nbsp;</td>
-<td>Managed Services, Hybrid & on-Premise</td>
-<td>21.1.5 minimum</td>
-</tr>
-<tr>
-<td>Microsoft Azure Synapse Analytics</td>
-<td>&nbsp;</td>
-<td>Hybrid & on-Premise</td>
-<td>19.1.4 minimum</td>
+<td>7.2.1 minimum</td>
 </tr>
 <tr>
 <td>Amazon Redshift</td>
 <td><p>&nbsp;</p>
-<td>Managed Services, Hybrid & on-Premise</td>
 <td>19.1.4 minimum</td>
 </td>
-</tr>
-<tr>
-<td>Oracle</td>
-<td>
-<p>19c</p>
-<p>18c</p>
-<p>12c</p>
-<p>11g</p>
-</td>
-<td>Hybrid & on-Premise only</td>
-<td>V6.11 minimum</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -244,8 +220,37 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
-<td>Managed Services, Hybrid & on-Premise</td>
 <td>19.1.4 minimum</td>
+</tr>
+</tbody>
+</table>
+
+In addition, **Hybrid** and **On-premise** environments can also connect Campaign with:
+
+<table>
+<tbody>
+<td><strong>Connector</strong></td>
+<td><strong>Connector version</strong></td>
+<td><strong>Campaign version</strong></td>
+<tr>
+<td>Vertica</td>
+<td>&nbsp;</td>
+<td>19.1.4 minimum</td>
+</tr>
+<tr>
+<td>Microsoft Azure Synapse Analytics</td>
+<td>&nbsp;</td>
+<td>19.1.4 minimum</td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>
+<p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g</p>
+</td>
+<td>v6.11 minimum</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
@@ -255,15 +260,13 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>2014</p>
 <p>2012 SP1 and SP2</p>
 </td>
-<td>Hybrid & on-Premise only</td>
-<td>V6.11 minimum</td>
+<td>v6.11 minimum</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
-<td>Hybrid & on-Premise only</td>
-<td>V6.11 minimum</td>
+<td>v6.11 minimum</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -273,16 +276,14 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>15.10</p>
 <p>15.0</p>
 </td>
-<td>Hybrid & on-Premise only</td>
-<td>V6.11 minimum</td>
+<td>v6.11 minimum</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
-<td>Hybrid & on-Premise only</td>
-<td>V6.11 minimum</td>
+<td>v6.11 minimum</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -290,16 +291,14 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>Hybrid & on-Premise only</td>
-<td>V6.11 minimum</td>
+<td>v6.11 minimum</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>version 1 SPS 12</p>
 </td>
-<td>Hybrid & on-Premise only</td>
-<td>V6.11 minimum</td>
+<td>v6.11 minimum</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -307,11 +306,13 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>Hybrid & on-Premise only</td>
-<td>V6.11 minimum</td>
+<td>v6.11 minimum</td>
 </tr>
 </tbody>
 </table>
+
+
+
 
 
 ## Client Console {#ClientConsoleoperatingsystems}
