@@ -11,9 +11,10 @@ exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 
 ![](../../assets/v7-only.svg)
 
+You can find in this page release notes and compatibility matrix for [!DNL Gold Standard] releases.
+
 ## [!DNL Gold Standard] Release Notes
 
-This section lists [!DNL Gold Standard] releases.
 
 ### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 release{#gs-12}
 
@@ -230,7 +231,7 @@ This section lists all systems and components supported for **Adobe Campaign Cla
 </tbody>
 </table>    
 
-## Web Servers{#WebServers-gs}
+### Web Servers{#WebServers-gs}
 
 <table>
 <tbody>
