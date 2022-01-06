@@ -13,7 +13,7 @@ exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 
 ## Context
 
-As a valued Adobe Campaign Classic customer, we are committed to providing you the best experience and value. Over the years, we have realized the value and reliability of hosting our customers in the cloud.  As part of our [Gold Standard Initiative](../../rn/using/gold-standard.md), we are moving all of our customers to Adobe Managed Services (Public Cloud on AWS) to provide better and more reliable services.
+As a valued Adobe Campaign Classic customer, we are committed to providing you the best experience and value. Over the years, we have realized the value and reliability of hosting our customers in the cloud.  As part of our [Yearly Upgrade Initiative](../../rn/using/rn-overview.md#yearly-upgrade), we are moving all of our customers to Adobe Managed Services (Public Cloud on AWS) to provide better and more reliable services.
 
 This program has three main goals: 
 
@@ -25,7 +25,7 @@ This program has three main goals:
 
 * **Build Upgrade** - When the Adobe Campaign Classic software is updated to the latest secure build number, yet stays in the same major/minor build Level. For example: Campaign v7 20.2.3 build 9182 to Campaign v7 21.2.5 build 9188. [Learn more](../../platform/using/faq-build-upgrade.md).
 * **MID/RT** - Messages execution servers hosted on Adobe Cloud (MID for batch campaigns and RT for Real time unitary messages)
-* **Gold Standard upgrade** - this program provides improved security, improved support, enhanced maintenance and stability. It also makes future upgrades easier and gives access to new capabilities in Campaign.  [Learn more](../../rn/using/gs-overview.md).
+* **Yearly Upgrade Program** - this program provides improved security, improved support, enhanced maintenance and stability. It also makes future upgrades easier and gives access to new capabilities in Campaign.  [Learn more](../../rn/using/rn-overview.md#yearly-upgrade).
 * **AWS** - Amazon Web Services (Amazon Public Cloud)
 * **SFTP** - Secured File Transfer Protocol. [Learn more](../../platform/using/sftp-server-usage.md).
 
@@ -53,7 +53,7 @@ This program has three main goals:
 
 * Improved Email capacity
 * Bigger Databases
-* Proofed Campaign version - Gold Standard
+* Proofed Campaign version
 
 **Bring a robust, reliable solution for Adobe Campaign Classic customers**
 
@@ -61,10 +61,10 @@ This program has three main goals:
 1. Higher email sending capacity. Instances hosted in the new data center will get the possibility to benefit from specialized infrastructure for email delivery. That could lead to higher email delivery speed or allow for using less sending IPs.
 1. Better hardware scalability. Increasing hardware resources can be done much faster. Technically, that would be in the order of magnitude of 1 hour instead of several days.
 
-**Gold Standard makes future upgrades easier**
+**Yearly upgrades makes future upgrades easier**
 
 1. The longer your organization waits to upgrade, the more complex your upgrade becomes and the potential to face vulnerabilities increases (especially when moving from an older version).
-1. With the Gold Standard Upgrade, your instance will be modernized and will be ready to receive more automated and regular updates with less manual intervention and less resources.
+1. With Campaign Yearly Upgrade (was Gold Standard initiative), your instance will be modernized and will be ready to receive more automated and regular updates with less manual intervention and less resources.
 
 ![](assets/GSMigrations.png)
 
@@ -78,7 +78,7 @@ A migration can be initiated by [opening a new Customer Care support ticket](htt
 
 ### Is this migration mandatory?
 
-This migration to the Cloud is **first step to the [Gold Standard certification](../../rn/using/gs-overview.md)** of your Adobe Campaign instances. This migration is mandatory if you are hosted in a Data Center that is not the Public Cloud (AWS).
+This migration to the Cloud is **first step to the [yearly upgrade program](../../rn/using/rn-overview.md#yearly-upgrade)** of your Adobe Campaign instances. This migration is mandatory if you are hosted in a Data Center that is not the Public Cloud (AWS).
 
 The Adobe Managed Services cloud is hosted on Amazon Web Services (AWS), a modern, secure, and optimized environment. [Learn more about AWS](https://aws.amazon.com/application-hosting/benefits/).
 
@@ -103,12 +103,6 @@ We have invested a huge effort in developing technologies that will make this mi
 
 Learn more in Campaign migration to [Public Cloud FAQ](dc-migration-faq.md).
 
-
-## Journey to Gold Standard certification
-
-We will assist you with validation steps in between each milestone.
-
-![](assets/GS-milestones.png)
 
 ## Migration path to Public Cloud
 
@@ -210,5 +204,5 @@ Normally, the domain used for sending email (part on the right of the @ sign in 
 ## Support and other useful links{#support}
 
 * [Migration to Adobe Managed Services (Public Cloud) FAQ](dc-migration-faq.md)
-* [Gold Standard Upgrade](../../rn/using/gs-overview.md)
+* [Campaign Yearly Upgrades](../../rn/using/rn-overview.md)
 * [Build Upgrade FAQ](../../platform/using/faq-build-upgrade.md)

@@ -18,10 +18,7 @@ type: Documentation
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
   + Previous releases {#previous-releases}
-    + [!DNL Gold Standard] release {#gs-release}
-       + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
-       + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
-       + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
+    + [[!DNL Gold Standard]](rn/using/gold-standard.md)
     + [2021](rn/using/release--2021.md)
     + [2020](rn/using/release--2020.md)
     + [2019](rn/using/release--2019.md)

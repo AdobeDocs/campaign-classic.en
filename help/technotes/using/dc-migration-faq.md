@@ -274,5 +274,5 @@ Global impacts during the migration are listed below.
 ## Support and other useful links{#support}
 
 * [Migration to Adobe Managed Services (Public Cloud)](dc-migration.md)
-* [Gold Standard Upgrade](../../rn/using/gs-overview.md)
+* [Campaign Yearly Upgrade](../../rn/using/rn-overview.md#yeary-upgrade)
 * [Build Upgrade FAQ](../../platform/using/faq-build-upgrade.md)

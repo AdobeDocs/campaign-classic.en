@@ -215,8 +215,8 @@ The Compatibility matrix has been updated. [Read more](../../rn/using/compatibil
 
 The Deprecated and removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
 
-Release notes and Compatibility matrix for [!DNL Gold Standard] release are now available in a dedicated section.
-[Read more](../../rn/using/gold-standard.md#gs-11).
+Release notes and Compatibility matrix for [!DNL Gold Standard] release are now available in a dedicated page.
+[Read more](../../rn/using/gold-standard.md).
 
 Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
 

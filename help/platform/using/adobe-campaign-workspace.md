@@ -29,7 +29,7 @@ From the central section of the home page, you can use links to access Campaign 
 
 ### Console and web access {#console-and-web-access}
 
-The Adobe Campaign platform is accessible via a console or via an internet browser. See the compatible browsers in the [compatibility matrix](../../rn/using/compatibility-matrix-gs.md#Browsers).
+The Adobe Campaign platform is accessible via a console or via an internet browser. See the compatible browsers in the [compatibility matrix](../../rn/using/compatibility-matrix.md#Browsers).
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns. For a given operator, a campaign will show up with the following options in the console:
 
