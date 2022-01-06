@@ -5,6 +5,7 @@ description: End of Life for TLS 1.0 and 1.1 support
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
 ---
 # End of Life for TLS 1.0 and 1.1 support{#eol-tls-support}
 
