@@ -189,8 +189,8 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 
 <table>
 <tbody>
-<td><strong>Connector</strong></td>
-<td><strong>Connector version</strong></td>
+<td><strong>Database system</strong></td>
+<td><strong>Database version</strong></td>
 <td><strong>Campaign version</strong></td>
 <tr>
 <tr>
@@ -229,8 +229,8 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 
 <table>
 <tbody>
-<td><strong>Connector</strong></td>
-<td><strong>Connector version</strong></td>
+<td><strong>Database system</strong></td>
+<td><strong>Database version</strong></td>
 <td><strong>Campaign version</strong></td>
 <tr>
 <td>Vertica</td>
