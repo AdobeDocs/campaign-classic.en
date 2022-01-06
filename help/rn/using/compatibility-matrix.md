@@ -183,7 +183,7 @@ Customer Relationship Management (CRM) systems compatible with Adobe Campaign ar
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-External databases compatible with Adobe Campaign [Federated Data Access module](../../installation/using/about-fda.md) are listed below. Compatibility depends on your hosting model.
+External databases compatible with Adobe Campaign [Federated Data Access module](../../installation/using/about-fda.md) are listed below. Compatibility depends on your [hosting model](../../installation/using/hosting-models.md).
 
 **Managed Services** (hosted), **Hybrid** and **On-premise** environments can connect Campaign with the following external database systems:
 
