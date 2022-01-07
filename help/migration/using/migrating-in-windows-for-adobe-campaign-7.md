@@ -14,7 +14,7 @@ exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 For a Microsoft Windows environment, the migration steps are as follows:
 
 1. Stop all services - [Learn more](#service-stop).
-1. Back up your database - [Learn more](#back-up-the-database-and-the-current-installation).
+1. Back up your database - [Learn more](#back-up-the-database).
 1. Migrate the platform - [Learn more](#deploying-adobe-campaign-v7).
 1. Migrate the redirection server (IIS) - [Learn more](#migrating-the-redirection-server--iis-).
 1. Re-start service - [Learn more](#re-starting-the-services).
@@ -75,11 +75,11 @@ First, stop all processes with access to the database on all machines concerned.
    taskkill /F /IM nlserver* /T
    ```
 
-## Back up the database and the current installation {#back-up-the-database-and-the-current-installation}
+## Back up your Campaign database {#back-up-the-database}
 
 The procedure depends on your Adobe Campaign previous version.
 
-### Migrating from Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
+### For Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
 
 1. Make a backup of the Adobe Campaign database.
 1. Make a backup of the **Neolane v5** directory using the following command:
@@ -119,7 +119,7 @@ The procedure depends on your Adobe Campaign previous version.
    </serverconf>
    ```
 
-### Migration from Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
+### For Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
 
 1. Make a backup of the Adobe Campaign database.
 1. Make a backup of the **Neolane v6** directory using the following command:
@@ -159,7 +159,7 @@ The procedure depends on your Adobe Campaign previous version.
    </serverconf>
    ```
 
-### Migration from Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}
+### For Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}
 
 1. Make a backup of the Adobe Campaign database.
 1. Make a backup of the **Adobe Campaign v6** directory using the following command:
@@ -259,7 +259,7 @@ To deploy Adobe Campaign, apply the following steps:
 >
 >Do not start Adobe Campaign services yet: some changes need to be made on IIS.
 
-## Migrate the redirection server (IIS) {#migrating-the-redirection-server--iis-}
+## Migrate the redirection server {#migrating-the-redirection-server--iis-}
 
 At this stage, the IIS server must be stopped. Refer to [Service stop](#service-stop).
 
@@ -323,9 +323,9 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](#service-
 
 ## Security zones {#security-zones}
 
-If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. For more information, refer to [Security](../../migration/using/general-configurations.md#security).
+If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. [Learn more](../../migration/using/general-configurations.md#security)
 
-## Re-starting the services {#re-starting-the-services}
+## Re-start services {#re-starting-the-services}
 
 Start IIS and Adobe Campaign services on each of the following servers:
 
@@ -333,7 +333,7 @@ Start IIS and Adobe Campaign services on each of the following servers:
 1. Mid-sourcing server.
 1. Marketing server.
 
-Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in [this page](../../migration/using/general-configurations.md).
 
 ## Delete the previous version {#deleting-and-cleansing-adobe-campaign-previous-version}
 
