@@ -7,41 +7,19 @@ content-type: reference
 topic-tags: migration-procedure
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 ---
-# Before starting migration{#before-starting-migration}
+# Prerequisites{#before-starting-migration}
 
 ![](../../assets/v7-only.svg)
 
+This page lists specific steps to perform before starting the migration process. You must also refer to [this page](about-migration.md) for more guidance.
+
 >[!NOTE]
 >
->In this document, commands linked to the database are given as an example. These may vary depending on their configuration. Contact your database administrator.
+>In this document, commands are given as samples. They can vary depending on your configuration.
 
-## Warnings {#warnings}
-
-* The migration process must be performed only by expert users. You must be assisted by at least a database expert, a system administrator and an application developer from Adobe Campaign.
-* Before starting migration, check that the systems and system components that you use are in fact compatible with v7. Consult the [compatibility matrix](../../rn/using/compatibility-matrix.md).
-* If you use Adobe Campaign Cloud Messaging (mid-sourcing), contact Adobe before beginning the entire migration procedure.
-* Before starting a migration process, you **must** back up your data.
-* The migration process may take several days to be completed.
-* Adobe Campaign v7 is stricter than the 5.11 and 6.02 versions in terms of in configuration. This is principally to avoid problems such as data corruption and to preserve data integrity in the database. Consequently, certain functions offered in v5.11 and v6.02 may no longer work in v7 and may therefore need to be adapted after migration. Before putting into production anything, we suggest you systematically test all configurations, particularly workflows which are necessary to using Adobe Campaign.
-
-### Installed version {#installed-version}
-
-Before migrating, you should install the latest build of the current version that you are using.
-
-Check the version on your server by going to the **[!UICONTROL Help> About]** menu on the client console using the **nlserver pdump** command.
-
-### Data backup {#data-backup}
-
-Before starting a migration process, you **must** back up your data.
-
-### Environment {#environment}
-
-* It is not possible to change your database engine type (DBMS). For instance, you cannot switch from a PostgreSQL engine to an Oracle engine. However, you can switch from an Oracle 8 engine to an Oracle 10 engine.
-* It is not possible to go from a non-Unicode database to a Unicode database.
-
-### Recommendation {#recommendation}
-
-As the migration procedure is sensitive, we strongly recommend reading this document thoroughly before starting the procedure.
+1. Check your Adobe Campaign version: before migrating, install the latest build of the current version that you are using.
+1. Back up your data.
+1. Check your environment: you cannot change your database engine system (DBMS). For instance, you cannot switch from a PostgreSQL engine to an Oracle engine. However, you can switch to the latest versiuon of your database engine. Note that it is not possible to go from a non-Unicode database to a Unicode database.
 
 ## Migration steps {#migration-steps}
 
@@ -69,6 +47,6 @@ In v7, **internal** and **admin** operator connection must be secured by a passw
 nlserver config -internalpassword
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >The **internal** password must be identical for all the tracking servers. For more information, refer to the [Internal identifier](../../installation/using/configuring-campaign-server.md#internal-identifier) and [Permissions](../../platform/using/access-management.md) sections.

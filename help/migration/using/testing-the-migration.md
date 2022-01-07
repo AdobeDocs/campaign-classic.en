@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 ---
-# Testing the migration{#testing-the-migration}
+# Migration tests{#testing-the-migration}
 
 ![](../../assets/v7-only.svg)
 
@@ -15,7 +15,7 @@ exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 
 Depending on your configuration, there are several ways of carrying out migration tests.
 
-You should have a test/development environment to carry out migration tests. Development environments are subject to license: check your license contract or contact Adobe Campaign's sales service.
+You should have a test/development environment to carry out migration tests. Adobe Campaign environments are subject to license: check your license contract or contact your Adobe representative.
 
 1. Stop all developments in progress and carry them over to the production environment.
 1. Make a backup of the development environment database.
@@ -33,18 +33,12 @@ You should have a test/development environment to carry out migration tests. Dev
 
 1. Make sure your backups are correct by trying to restore them. Make sure you can access your database, your tables, your data, etc.
 1. Test the migration procedure in the development environment.
-
-   The full procedures are detailed in the [Prerequisites for migration to Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) section.
-
 1. If the migration of the development environment is successful, you can migrate the production environment.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Due to changes made to the data structure, importing and exporting data packages is not possible between a v5 platform and a v7 platform.
 
->[!NOTE]
->
->The Adobe Campaign update command (**postupgrade**) lets you synchronize resources and update schemas and the database. This operation can only be carried out once and only on the application server. After synchronizing resources, the **postupgrade** command lets you detect whether the synchronization generates any errors or warnings.
 
 ## Migration tools {#migration-tools}
 
@@ -64,9 +58,10 @@ Various options let you measure the impact from a migration and identify the pot
 
 >[!NOTE]
 >
->You must use the **-instance:`<instanceame>`** option. We do not recommend using the **-allinstances** option.
+>* You must use the **-instance:`<instanceame>`** option. We do not recommend using the **-allinstances** option.
+>* The Adobe Campaign update command (**postupgrade**) lets you synchronize resources and update schemas and the database. This operation can only be carried out once and only on the application server. After synchronizing resources, the **postupgrade** command lets you detect whether the synchronization generates any errors or warnings.
 
-### -showCustomEntities and -showDeletedEntities options {#showcustomentities-and--showdeletedentities-options}
+### Non-standard or missing objects
 
 * The **-showCustomEntities** option displays the list of all non-standard objects:
 
@@ -104,7 +99,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 
 >[!NOTE]
 >
->Please ignore all warnings and errors which have the JST-310040 code.
+>You can ignore all warnings and errors with the JST-310040 code.
 
 The following expressions are searched for (case sensitive):
 
@@ -152,7 +147,7 @@ The following expressions are searched for (case sensitive):
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Error<br /> </td> 
-   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. If you get overview-type web application error logs (migration from v6.02), refer to <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configure Campaign</a>.<br /> </td> 
+   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. If you get overview-type web application error logs (migration from v6.02), refer to <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Configure Campaign</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
@@ -163,7 +158,7 @@ The following expressions are searched for (case sensitive):
    </br>To change to Web API deployment, refer to <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web applications</a>.<br /> </td>
   </tr> 
   <tr> 
-   <td> crmDeploymentType="v1 active"<br /> </td> 
+   <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> Error<br /> </td> 
    <td> Microsoft CRM, Salesforce, Oracle CRM On Demand action activities are no longer available. To configure the data synchronization between Adobe Campaign and a CRM system, you need to use the <a href="../../workflow/using/crm-connector.md" target="_blank">CRM connector</a> targeting activity.<br /> </td>
@@ -185,6 +180,6 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 >
 >We strongly recommend using absolute folder paths and keeping the folder tree structure. For example: backupFolder\nms\srcSchema\billing.xml.
 
-### Resuming migration {#resuming-migration}
+### Resume the migration {#resuming-migration}
 
 If you restart the postupgrade after a migration failure, it resumes from the same place it was stopped.
