@@ -204,7 +204,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>Amazon Redshift</td>
 <td><p>&nbsp;</p>
-<td>19.1.4 minimum</td>
+<td>v7.0 19.1.4 minimumm</td>
 </td>
 </tr>
 <tr>
@@ -218,7 +218,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
-<td>19.1.4 minimum</td>
+<td>v7.0 19.1.4 minimum</td>
 </tr>
 </tbody>
 </table>
@@ -233,12 +233,12 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <tr>
 <td>Vertica</td>
 <td>&nbsp;</td>
-<td>19.1.4 minimum</td>
+<td>v7.0 19.1.4 minimum</td>
 </tr>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td>&nbsp;</td>
-<td>19.1.4 minimum</td>
+<td>v7.0 19.1.4 minimum</td>
 </tr>
 <tr>
 <td>Oracle</td>
@@ -248,7 +248,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>12c</p>
 <p>11g</p>
 </td>
-<td>v6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
@@ -258,13 +258,13 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>2014</p>
 <p>2012 SP1 and SP2</p>
 </td>
-<td>v6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
-<td>v6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -274,14 +274,14 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>15.10</p>
 <p>15.0</p>
 </td>
-<td>v6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
-<td>v6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -289,14 +289,14 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>v6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>version 1 SPS 12</p>
 </td>
-<td>v6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -304,7 +304,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>v6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 </tbody>
 </table>

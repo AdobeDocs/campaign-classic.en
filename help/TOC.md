@@ -591,7 +591,6 @@ type: Documentation
   + Annexes {#annexes}
        + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
        + [Tracking](social/using/tracking.md)
-+ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 + Installation and configuration guide {#installing-campaign-classic}
   + Architecture principles {#architecture-and-hosting-models}
        + [General architecture](installation/using/general-architecture.md)
@@ -815,23 +814,15 @@ type: Documentation
        + [Collecting all visits](configuration/using/collecting-all-visits.md)
        + [Anonymous tracking](configuration/using/anonymous-tracking.md)
 + Migration guide {#migrating-to-a-new-version}
-  + Migration overview {#migration-overview}
-       + [About migration](migration/using/about-migration.md)
-       + [Migration method](migration/using/migration-method.md)
-       + [Migration warnings](migration/using/migration-warnings.md)
+  + [Migrate to Adobe Campaign v7](migration/using/about-migration.md)
   + Migration procedure {#migration-procedure}
-       + [Before starting migration](migration/using/before-starting-migration.md)
-       + [Testing the migration](migration/using/testing-the-migration.md)
-       + [Configuring your platform](migration/using/configuring-your-platform.md)
-  + Migrating to Adobe Campaign 7 {#migrating-to-adobe-campaign-7}
-       + [Prerequisites for migration to Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
-       + [Migrating in Windows for Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-       + [Migrating in Linux for Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-  + Configuration {#configuration}
-       + [General configurations](migration/using/general-configurations.md)
-       + [Specific configurations in v5.11](migration/using/specific-configurations-in-v5-11.md)
-       + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
-       + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
+       + [Prerequisites](migration/using/before-starting-migration.md)
+       + [About migration tests](migration/using/testing-the-migration.md)
+       + [Adapt your configuration](migration/using/configuring-your-platform.md)
+  + Start the migration {#migrating-to-adobe-campaign-7}
+       + [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+       + [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+       + [Configure your platform](migration/using/general-configurations.md)
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)

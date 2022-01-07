@@ -6,8 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
+hide: yes
+hidefromtoc: yes
 ---
-# Specific configurations in v5.11{#specific-configurations-in-v5-11}
+# Specific configurations from a v5.11 to v7{#specific-configurations-in-v5-11}
 
 ![](../../assets/v7-only.svg)
 
@@ -40,15 +42,9 @@ FROM XtkWorkflow
 WHERE mData LIKE '%nl5%';
 ```
 
-## User-friendliness {#user-friendliness}
-
-The Adobe Campaign v5.11 home page is no longer available.
-
-Although not recommended, there are certain solutions if you wish to keep specific interfaces from Adobe Campaign v5.11. For more information, please contact us.
-
 ## MySQL {#mysql}
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >MySQL is only supported in v7 as the main database engine when migrating from version 6.02 or 5.11 using this engine.
 
@@ -66,10 +62,10 @@ If modifications have been made to the database structure, during configuration 
 
 1. Before starting the migration, back up the database.
 1. Delete SQL changes.
-1. Perform the postupgrade according to the procedure detailed in the  [Prerequisites for migration to Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) section.
+1. Perform the postupgrade
     >[!NOTE]
     >
-    >It is imperative that you follow the migration steps presented in the [Prerequisites for migration to Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) section.
+    >You must follow the migration steps presented in [this section](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md).
 1. Reintegrate SQL changes.
 
 In this example, a **NmcTrackingLogMessages** view had been created and this has a **Timestamp** field named **tslog**. In this case, the migration procedure fails and the following error message appears:
