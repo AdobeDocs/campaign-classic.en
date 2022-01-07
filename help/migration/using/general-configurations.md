@@ -11,12 +11,12 @@ exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 
 ![](../../assets/v7-only.svg)
 
-This section details the configuration to be carried out in Adobe Campaign v7 if you're migrating from a v5.11 or a v6.02.
+This section details the configuration to be carried out in Adobe Campaign v7 when migrating from a v5.11 or a v6.02.
 
 In addition:
 
-* If you migrate from v5.11, you must also complete the configuration detailed in the [Specific configurations in v5.11](../../migration/using/specific-configurations-in-v5-11.md) section.
-* If you migrate from v6.02, you must also complete the configuration detailed in the [Specific configurations in v6.02](../../migration/using/specific-configurations-in-v6-02.md) section.
+* If you migrate from v5.11, you must also complete the configuration detailed in [this section](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
+* If you migrate from v6.02, you must also complete the configuration detailed  in [this section](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02).
 
 ## Time zones {#time-zones}
 
@@ -661,12 +661,3 @@ sessionTokenOnly="false"
 ### Anonymous web applications {#anonymous-web-applications}
 
 If you encounter any problems, republish the web application.
-
-## Red-Hat {#red-hat}
-
-If out-of-the-box schemas have been deleted in v6.02 or v5.11, you may no longer be able to edit your schemas after the postupgrade. If this happens, execute the command:
-
-```
-su - neolane
-nlserver config -postupgrade -instance:<instance name> -force
-```
