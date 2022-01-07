@@ -131,7 +131,7 @@ After running **postupgrade**, check and configure the following elements:
 
 This section details the additional configuration required when migrating from v5.11. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
 
-### Web applications {#web-applications}
+### Web applications {#web-applications-v5}
 
 The following warning will be displayed automatically during migration:
 
@@ -277,7 +277,7 @@ The obsolete folders to be deleted after the migration are as follows:
 
 The following section details the additional configuration required when migrating from v6.02. You should also configure the settings detailed in [this page](../../migration/using/general-configurations.md).
 
-### Web applications {#web-applications}
+### Web applications {#web-applications-v6}
 
 If you are migrating from v6.02, error logs regarding overview-type web applications may appear. Error message examples:
 
