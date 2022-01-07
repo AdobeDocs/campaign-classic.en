@@ -55,7 +55,7 @@ yum install java-1.8.0-openjdk
 
 ## OpenSSL {#openssl}
 
-In Linux, OpenSSL must be installed. The versions supported by Adobe Campaign are **OpenSSL 1.0.1** and **OpenSSL 0.9.8**. Sub-versions 0.9.8g to 0.9.8o are accepted.
+In Linux, OpenSSL must be installed. Adobe Campaign supports OpenSSL version 1.0.2 or higher.
 
 ## Exporting reports {#exporting-reports}
 

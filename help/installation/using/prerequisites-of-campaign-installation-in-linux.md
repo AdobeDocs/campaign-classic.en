@@ -40,7 +40,7 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
   If the command doesn't return anything (empty line), it means configuration is correct.
 
-* You must have **version 0.9.8** or **1.0** of OpenSSL.
+* You must have OpenSSL version **1.0.2** or higher.
 
   For RHEL 7/8 distributions, version 1.0 of OpenSSL is required.
 
