@@ -13,7 +13,7 @@ exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 
 Certain major changes in Adobe Campaign v7 require specific configuration. These configurations may be necessary before or after migrating. 
 
-Detailed configuration to be carried out in Adobe Campaign v7 when migrating from Campaign v5 or v6 is available in [this page](general-configuration.md).
+Detailed configuration to be carried out in Adobe Campaign v7 when migrating from Campaign v5 or v6 is available in [this page](general-configurations.md).
 
 
 During the migration, the **NmsRecipient** table is rebuilt from the schemas definition. Any change made to the SQL structure of this table outside of Adobe Campaign will be lost.
@@ -93,7 +93,7 @@ After running **postupgrade**, check and configure the following elements:
 
   Depending on the type of Web applications and their configuration, you must perform additional manipulations to ensure they work correctly. [Learn more](../../migration/using/general-configurations.md#web-applications)
 
-  If migrating from a v5.11 platform, additional configurations must be carried out. [Learn mor](../../migration/using/specific-configurations-in-v5-11.md#web-applications)
+  If migrating from a v5.11 platform, additional configurations must be carried out. [Learn more](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
 
 * Security zones
 
