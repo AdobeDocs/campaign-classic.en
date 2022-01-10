@@ -37,7 +37,6 @@ The available modules are detailed in the following table:
 |  billing  | Sending the system activity report to billing@neolane.net  |
 |  cleanup  | Cleansing the database: deletes obsolete data from the database and runs an update of the statistics used by the database engine optimizer.  |
 |  config  | Modifying server configuration  |
-|  copybase  | Copy of a database  |
 |  export  | Exporting to command line: lets you send to the command line an export model created in the Adobe Campaign client console  |
 |  fileconvert  | Converting a set size file  |
 |  import  | Importing to command line: lets you send to the command line an import model created in the Adobe Campaign client console.  |

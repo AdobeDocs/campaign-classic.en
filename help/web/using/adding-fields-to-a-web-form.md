@@ -376,7 +376,7 @@ You can store the link to these files in a local variable or in a database field
 
 ## Inserting a hidden constant {#inserting-a-hidden-constant}
 
-When the user validates one of the pages of the form, you can set a specific value to a field of his profile or to a variable. 
+When the user validates one of the pages of the form, you can set a specific value to a field of their profile or to a variable. 
 
 This field is not visible to the user, but can be used to enrich the data in the user profile.
 

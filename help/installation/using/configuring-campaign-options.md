@@ -690,7 +690,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
     <ul> 
      <li> <p> <span class="uicontrol">Data type:</span> Integer</p> </li> 
      <li> <p> <span class="uicontrol">Value (text)</span> : 1 </p> </li> 
-    </ul> This option should only be used if the out-of-the-box navigation tree has undergone too many changes.<br /> For more on this, refer to <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">this section</a>.<br /> </td> 
+    </ul> This option should only be used if the out-of-the-box navigation tree has undergone too many changes.<br /> For more on this, refer to <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 

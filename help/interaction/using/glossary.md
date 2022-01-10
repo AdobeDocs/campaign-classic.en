@@ -58,7 +58,7 @@ Below is the definition of the main Interaction elements.
 * **Unitary mode**: a single contact is processed at a time. This mode is generally used for inbound interactions and transactional messages.
 * **Identification mode**: refers to a contact's status.
 
-    * **[!UICONTROL explicit]** : the contact is identified following his login onto the channel interface.
+    * **[!UICONTROL explicit]** : the contact is identified following their login onto the channel interface.
     * **[!UICONTROL implicit]** : the contact has been identified by a cookie (permanent or session). It can be processed as an anonymous or identified contact.
     * **[!UICONTROL anonymous]** : the contact cannot be identified.
 

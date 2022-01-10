@@ -37,7 +37,7 @@ The rights assigned to the offer manager enable them to carry out the following 
 
   >[!NOTE]
   >
-  >The offer manager can only approve an offer in two certain cases. The first being if nobody in particular was specified as the reviewer, and the second being if the operator in charge of creating templates (with the right to assign reviewers) specified him/her as the reviewer in the offer template on which the offer was based.
+  >The offer manager can only approve an offer in two certain cases. The first being if nobody in particular was specified as the reviewer, and the second being if the operator in charge of creating templates (with the right to assign reviewers) specified them as the reviewer in the offer template on which the offer was based.
 
 ## Delivery manager {#delivery-manager}
 

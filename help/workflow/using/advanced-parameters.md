@@ -67,8 +67,9 @@ This field lets you select the time zone of the activity. For more on this: [Man
 
 This field lets you define the action to be carried out when the activity has errors. There are two possible options:
 
-* **[!UICONTROL Stop the process]**: the workflow is stopped automatically. Its status changes to **[!UICONTROL Failed]**. Once the problem is solved, re-start the workflow.
+* **[!UICONTROL Suspend the process]**: the workflow is stopped automatically. Its status changes to **[!UICONTROL Failed]**. Once the problem is solved, re-start the workflow.
 * **[!UICONTROL Ignore]**: this task and all the following tasks (in the same branch) aren't executed. This can be useful for recurring tasks. If the branch has a scheduler placed upstream, it will start as usual on the next execution date.
+* **[!UICONTROL Abort on error]**: the workflow is stopped automatically and cannot be restarted. Its status changes to **[!UICONTROL Failed]**. 
 
 ## Initialization script {#initialization-script}
 

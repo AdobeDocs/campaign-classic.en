@@ -63,7 +63,7 @@ The **[!UICONTROL Auto-load data referenced in the form]** option lets you autom
 
 The **[!UICONTROL Load additional data]** option lets you add information which is not used in the pages of the form, but will nonetheless be preloaded.
 
-You can, for example, preload the gender of the recipient and automatically direct him or her to the appropriate page via a test box.
+You can, for example, preload the gender of the recipient and automatically direct them to the appropriate page via a test box.
 
 ![](assets/s_ncs_admin_survey_preload_ex.png)
 

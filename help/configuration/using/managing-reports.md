@@ -9,7 +9,7 @@ exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 ---
 # Managing reports{#managing-reports}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Reports based on a schema that is specific to the default Adobe Campaign recipients (nm:recipient or schema linked) must be re-developed in order to take into account the data from the custom table and its tables linked via the target mapping (see the [Target mapping](../../configuration/using/target-mapping.md) section).
 

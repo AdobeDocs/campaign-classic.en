@@ -157,7 +157,7 @@ This case study is based on the following scenario:
 
    ![](assets/offer_inbound_fallback_example_051.png)
 
-1. The user, a Neobank customer, logs on with his credentials.
+1. The user, a Neobank customer, logs on with their credentials.
 
    ![](assets/offer_inbound_fallback_example_052.png)
 

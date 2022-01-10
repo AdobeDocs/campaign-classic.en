@@ -143,7 +143,7 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 * The **Right to Access** is the right for the Data Subject to obtain from the Data Controller confirmation as to whether or not personal data concerning them is being processed, where and why.
 
-* The **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase his/her personal data.
+* The **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase their personal data.
 
 The **Access** and **Delete** requests are presented in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
 

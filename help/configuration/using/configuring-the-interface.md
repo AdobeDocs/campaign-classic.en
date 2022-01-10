@@ -9,7 +9,7 @@ exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 ---
 # Configuring the interface{#configuring-the-interface}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 To view and dialog with the new recipient table in the Adobe Campaign interface, apply the following steps:
 
