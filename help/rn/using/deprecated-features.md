@@ -64,7 +64,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. <p>
   <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-adobe-io.md">Learn more</a></p> 
   <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
-  <p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until Febuary 23, 2022. </em></p>
+  <p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p>
   </td>
   </tr>
  </tbody> 

@@ -24,7 +24,7 @@ Several security improvements have been made to FDA accounts:
 * ODBC drivers are now directly installed with Adobe Campaign Third Parties. Manual steps are no longer required to install these drivers.
 * When configuring your FDA external account, you can now login to your Snowflake account using Key pair authentication for enhanced authentication security. [Read more](../../installation/using/configure-fda-snowflake.md)
 * When configuring your FDA external account, you can now login to your Azure Synapse Analytics account using the System-assigned managed identity. [Read more](../../installation/using/configure-fda-synapse.md#azure-external)
-
+* All references to the log4j library have been removed from Campaign to ensure optimal security.
 
 **Improvements**
 
@@ -49,6 +49,7 @@ Several security improvements have been made to FDA accounts:
 * A new option has been added in the **Error management** properties of workflow activities: The **Abort on error** option will stop automatically the workflow. You will not be able to restart it afterwards (NEO-29661). [Read more](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * A dedicated sequence is now used to generate the primary keys for the nmsGroup table, which is used to create statistical groups of recipients. Previously, the xtknewId sequence was used. (NEO-30832)
 * Added support for batch update operations using the CRM connector activity.
+* Improved performance for transactional messaging processing time. (NEO-40370)
 
 **Patches**
 
