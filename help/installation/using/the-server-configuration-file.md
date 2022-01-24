@@ -2965,7 +2965,6 @@ The **web > jsp > classpath** node contains the list of all class paths to use w
           $(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
-          $(XTK_INSTALL_DIR)/java/lib/log4j-1.2.11.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/annotations-api.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/catalina.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/websocket-api.jar
