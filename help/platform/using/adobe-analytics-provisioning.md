@@ -135,10 +135,21 @@ Your Product profile is now configured. You then need to create the Adobe I/O pr
 
     ![](assets/do-not-localize/triggers_12.png)
 
-1. Paste these Service Account credentials to the nlserver using the following command: 
+1. Use the private key generated in step 6. 
+    
+    If you already set up Triggers using these credentials, your private key must be the same for this connector configuration.
 
-   ```
-   nlserver config -instance:<instanceName> -setimsjwtauth::<ImsOrgId>/<ClientId>/<TechnicalAccountId>/<ClientSecret>/<$(base64 -w0 /path/to/private.key)>
-   ```
+1. Encode the private key using the following command: `base64 ./private.key > private.key.base64`. This will save the base64 content to a new file `private.key.base64`.
 
+    >[!NOTE]
+    >
+    >Extra lines can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
+
+1. Copy the contents from the file `private.key.base64`.
+
+1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
+
+    ```
+    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
+    ```
 You can now start using the Analytics connector and track your customer behaviors.
