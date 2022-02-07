@@ -15,7 +15,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 
 Every new build comes with a status which is materialized by a color. 
 
-![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
+![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production and recommended by Adobe. 
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
@@ -35,7 +35,7 @@ As a hosted customer, you automatically benefit from the upgrade with the latest
 
 ## Recommendations{#recommendations}
 
-To ensure a stable configuration, we recommend that you install **the same stable build** on all servers that are running on the same client configuration.
+To ensure a stable configuration, we recommend that you install **the same build** on all servers that are running on the same client configuration.
 
 In addition, the client console must be on the same build as the server instance.
 
@@ -45,7 +45,7 @@ To keep your implementation up-to-date, make sure to read out the [Deprecated an
 
 As a hosted customer (Managed Service or Hybrid), you need to reach out to the Customer Care team to have your environment upgraded.
 
-As an on-premise user, you can perform the upgrade. To do this, you need to [download the latest stable build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](../../production/using/build-upgrade.md), and consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
+As an on-premise user, you can perform the upgrade. To do this, you need to [download the latest stable build (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](../../production/using/build-upgrade.md), and consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
 
 ## Yearly upgrade {#yearly-upgrade}
 
@@ -53,13 +53,13 @@ Adobe and Adobe Campaign is committed to providing you with the best experience 
 
 Adobe Campaign Classic, specifically, uses a range of technology to deliver value. This combination of technologies requires you to upgrade your Campaign Classic instance(s) on a regular basis, to ensure the most up-to-date versions are being used to deliver superior security, stability, and performance.
 
-As a hosted user, you will automatically benefit from the upgrade with the latest stable build without any action. Learn more in the FAQs below.
+As a hosted user, you will automatically benefit from the upgrade with the latest GA build without any action. Learn more in the FAQs below.
 
 ### Why does my organization need this upgrade?
 
 As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, as well as updating the current build and/or version, you will be notified directly in by Adobe.
 
-As an on-premise or hybrid customer running on an older version, Adobe encourages you to move to the latest stable build.
+As an on-premise or hybrid customer running on an older version, Adobe encourages you to move to the latest stable build (GA).
 
 This will ensure that your account is secure from vulnerabilities, as well as leveraging updated performance technology. This upgrade will also position your account for easier, regular upgrades going forward that will require less manual work and intervention.
 
