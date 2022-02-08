@@ -15,7 +15,7 @@ Adobe Campaign manages a list of quarantined addresses. Recipients whose address
 >
 >This section applies to online channels: email, SMS, push notification.
 
-### Optimize your delivery through quarantines {#optimizing-your-delivery-through-quarantines}
+## Optimize your delivery through quarantine management {#optimizing-your-delivery-through-quarantines}
 
 The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identify quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
