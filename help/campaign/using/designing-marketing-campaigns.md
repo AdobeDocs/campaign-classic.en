@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Design and execute marketing campaigns
-description: Define, optimize, execute and analyse marketing campaigns.
-audience: campaign
-content-type: reference
-topic-tags: about-marketing-campaigns
+description: Define, optimize, execute and analyse marketing campaigns
+feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 ---
 # Design and execute marketing campaigns{#designing-marketing-campaigns}

@@ -2,9 +2,7 @@
 product: campaign
 title: Marketing campaign documents and delivery outlines
 description: Learn more about marketing campaign documents and delivery outlines
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 ---
 # Manage associated documents {#managing-associated-documents}
