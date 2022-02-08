@@ -1,17 +1,13 @@
 ---
 product: campaign
-title: Defining the target population
-description: Defining the target population
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+title: Define the target population
+description: Learn how to define the target population
+feature: Audiences
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 ---
-# Defining the target population {#defining-the-target-population}
+# Define the target population {#defining-the-target-population}
 
 ![](../../assets/common.svg)
-
-## About target populations {#about-target-populations}
 
 For each delivery, you can define several types of target populations:
 
@@ -20,7 +16,7 @@ For each delivery, you can define several types of target populations:
 * **Seed addresses**: recipients who are out of the delivery target but will receive the delivery (in the context of a marketing campaign only). [Learn more](about-seed-addresses.md)
 * **Control groups**: population which will not receive the delivery, used to track behavior and campaign impact (in the context of a marketing campaign only). [Learn more](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
-## Selecting the main recipients of the delivery {#selecting-the-main-target}
+## Select the main recipients of the delivery {#selecting-the-main-target}
 
 In most cases, the main target is extracted from Adobe Campaign database (default mode). However, recipients can also be stored in an external file. Learn more in [this section](steps-defining-the-target-population.md#selecting-external-recipients).
 
@@ -33,7 +29,7 @@ To select the recipients of a delivery, follow the steps below:
 
 1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]**, based on **nms:recipient** schema.
 
-   Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Selecting a target mapping](selecting-a-target-mapping.md).
+   Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Select a target mapping](selecting-a-target-mapping.md).
 
 1. Click the **[!UICONTROL Add]** button to define restriction filters.
 
@@ -81,7 +77,7 @@ To select the recipients of a delivery, follow the steps below:
 
    ![](assets/s_ncs_user_wizard_email02h.png)
 
-### Selecting external recipients {#selecting-external-recipients}
+### Select external recipients {#selecting-external-recipients}
 
 You can launch a delivery on recipients who are not saved in the database, but stored in an external file. For example, we will send here a delivery to recipients imported from a text file.
 
@@ -92,7 +88,7 @@ To do this:
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]**. For more on target mappings, refer to [Selecting a target mapping](selecting-a-target-mapping.md)
+1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]**. For more on target mappings, refer to [Select a target mapping](selecting-a-target-mapping.md)
 
    You can also choose **[!UICONTROL Do not import the recipients into the database]**.
 
@@ -106,7 +102,7 @@ To do this:
 >
 >When defining the content of the message for email delivery, do not include the link to the mirror page; it cannot be generated in this delivery mode.
 
-### Setting up exclusion settings {#customizing-exclusion-settings}
+### Define exclusion settings {#define-exclusion-settings}
 
 Address errors and quality ratings are supplied by the service provider (IAP). This information is automatically updated in the recipient profile following delivery actions and with files returned by service providers. It can be viewed in the profile on a read-only basis.
 
@@ -146,17 +142,17 @@ The following options are available:
 
   >[!NOTE]
   >
-  >For further information about quarantine management, refer to [Understanding quarantine management](understanding-quarantine-management.md).
+  >For further information about quarantine management, refer to [Understand quarantine management](understanding-quarantine-management.md).
 
 * **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the content of the target exceeds the number of messages indicated, a random selection is applied to the target.
 
-### Reducing the size of the target population {#reducing-the-size-of-the-target-population}
+### Reduce the size of the target population {#reducing-the-size-of-the-target-population}
 
 You can reduce the size of the target population. To do this, specify the number of recipients to be exported in the **[!UICONTROL Requested quantity]** field.
 
 ![](assets/s_ncs_user_edit_del_exe_tab.png)
 
-## Selecting the recipients of proof messages {#selecting-the-proof-target}
+## Select the recipients of proof messages {#selecting-the-proof-target}
 
 The proof is a special message that lets you test a delivery before sending it to the main target. Proof recipients are responsible for approving both the form and content of the message.
 
@@ -173,17 +169,17 @@ To select the target of the proofs, follow the steps below:
 >
 >Usually, the target for the proof can be added to the main target. To do this, select the appropriate option in the lower section of the **[!UICONTROL Main target]** tab.
 
-## Defining a specific proof target {#defining-a-specific-proof-target}
+## Define a specific proof target {#defining-a-specific-proof-target}
 
 When selecting the proof target, the **[!UICONTROL Definition of a specific proof target]** option lets you select the proof recipients from the profiles in the database.
 
-Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](steps-defining-the-target-population.md#selecting-the-main-target).
+Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Select the main target](steps-defining-the-target-population.md#selecting-the-main-target).
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
 For more on proof sending, refer to [this section](steps-validating-the-delivery.md#sending-a-proof).
 
-### Using address substitution in proof {#using-address-substitution-in-proof}
+### Use address substitution in proof {#using-address-substitution-in-proof}
 
 Instead of selecting dedicated recipients in the database, you can use the **[!UICONTROL Substitution of the address]** option.
 
@@ -207,7 +203,7 @@ Configuration is performed as follows:
 
    You can define as many substitution addresses as necessary.
 
-## Using seed addresses as proof {#using-seed-addresses-as-proof}
+## Use seed addresses as proof {#using-seed-addresses-as-proof}
 
 You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option lets you use or import a list of existing seed addresses.
 
@@ -221,9 +217,9 @@ You can combine the definition of a specific proof target and the use of seed ad
 
 See also:
 
-* [Selecting the proof target](#selecting-the-proof-target)
+* [Select the proof target](#selecting-the-proof-target)
 * [About seed addresses](about-seed-addresses.md)
-* [Use case: selecting seed addresses on criteria](use-case--selecting-seed-addresses-on-criteria.md)
+* [Use case: select seed addresses on criteria](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## Tutorial video {#seeds-and-proofs-video}
 

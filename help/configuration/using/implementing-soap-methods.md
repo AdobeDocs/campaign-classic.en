@@ -2,12 +2,9 @@
 product: campaign
 title: Implementing SOAP methods
 description: Implementing SOAP methods
-audience: configuration
-content-type: reference
-topic-tags: api
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 ---
-# Implementing SOAP methods{#implementing-soap-methods}
+# Implement SOAP methods{#implementing-soap-methods}
 
 ![](../../assets/v7-only.svg)
 
@@ -17,7 +14,7 @@ It is possible to create SOAP methods in JavaScript. This function simply enable
 
 These SOAP methods behave in the same way as those defined natively in the application. The same attributes are supported: static, key only and const.
 
-## Defining a method library {#defining-a-method-library}
+## Define a method library {#defining-a-method-library}
 
 Creating a method library involves two stages:
 

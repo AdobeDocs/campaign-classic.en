@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Creating filters
-description: Creating filters
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+title: Create filters
+description: Learn how to create filters for a custom table
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
 ---
-# Creating filters{#creating-filters}
+# Create filters{#creating-filters}
 
 ![](../../assets/common.svg)
 

@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Define interactive content in Adobe Campaign Classic
-description: Learn how to define interactive and dynamic email content with AMP in Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+description: Learn how to define interactive and dynamic email content with AMP in Adobe Campaign
+feature: Email Design, Dynamic Content
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 ---
 # Define interactive content{#defining-interactive-content}

@@ -2,23 +2,21 @@
 product: campaign
 title: Monitoring deliverability in Adobe Campaign Classic
 description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 ---
-# Monitoring deliverability{#monitoring-deliverability}
+# Monitor your deliverability{#monitoring-deliverability}
 
 ![](../../assets/common.svg)
 
 Below you will find details on the different monitoring tools provided by Adobe Campaign, as well as some additional guidelines on leveraging the features offered by Adobe Campaign to monitor your platform's deliverability.
 
-## Deliverability monitoring {#configuration}
+## About deliverability monitoring {#about-deliverability-monitoring}
 
 This feature is available through a dedicated package in Adobe Campaign. To use it, this package must be installed. Once done, restart the server for the package to be taken into account.
 * For hosted and hybrid clients, **Deliverability monitoring** is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
  
-* For on-premise installations, you must install the **[!UICONTROL Deliverability monitoring (Email Deliverability)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
+* For on-premise installations, you must install the **[!UICONTROL Deliverability monitoring (Email Deliverability)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Instal Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
  
 In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!UICONTROL Refresh for deliverability]** workflow. It is installed by default on all instances and lets you initialize the list of bounce mail qualification rules, the list of domains and the list of MXs. Once the **[!UICONTROL Deliverability monitoring (Email Deliverability)]** package is installed, this workflow runs nightly to regularly update the list of rules and enables you to actively manage platform deliverability.
 
@@ -53,7 +51,3 @@ Here are some additional guidelines on deliverability monitoring:
 * When using [waves](steps-sending-the-delivery.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new [quarantines](understanding-quarantine-management.md) are consistent with other deliveries.
 * Carefully consult the [delivery logs](delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
-
-<!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
-
-Each delivery will generate a broadcast statistics report when you open a delivery in the “Deliveries List”, which includes some reputation metrics that may impact your deliverability.-->

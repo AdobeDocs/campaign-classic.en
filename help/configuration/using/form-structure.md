@@ -2,9 +2,6 @@
 product: campaign
 title: Form structure
 description: Form structure
-audience: configuration
-content-type: reference
-topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 ---
 # Form structure{#form-structure}

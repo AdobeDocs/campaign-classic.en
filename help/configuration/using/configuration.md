@@ -2,9 +2,6 @@
 product: campaign
 title: Configuration
 description: Configuration
-audience: configuration
-content-type: reference
-topic-tags: navigation-hierarchy
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 ---
 # Configure Campaign Explorer navigation tree{#configuration}

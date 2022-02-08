@@ -1,10 +1,7 @@
 ---
 product: campaign
-title: Validating the delivery
-description: Validating the delivery
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+title: Validate the delivery
+description: Learn how to validate a delivery
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
 # Validate the delivery {#validating-the-delivery}
@@ -17,7 +14,7 @@ To do this:
 
 1. **Analyze the delivery**: this step lets you prepare the messages to deliver. [Learn more](#analyzing-the-delivery).
 
-   The rules applied during analysis are presented in [this section](#validation-process-with-typologies). The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
+   The rules applied during analysis are presented in [this section](#validation-process-with-typologies). The available validation modes are detailed in the [Change the approval mode](#changing-the-approval-mode) section.
 
 1. **Send proofs**: this step lets you control content, URLs, personalization, etc. Learn more in [Send a proof](steps-validating-the-delivery.md#sending-a-proof) and [Define a specific proof target](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 

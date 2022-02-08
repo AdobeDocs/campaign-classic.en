@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with Campaign Classic data model
 description: Learn how to extend Campaign data model, edit schemas, use APIs, and more
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+feature: Data Model
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 ---
 # Get started with Campaign data model{#about-data-model}

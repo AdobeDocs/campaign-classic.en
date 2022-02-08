@@ -1,17 +1,14 @@
 ---
 product: campaign
-title: Creating and identifying the delivery
-description: Creating and identifying the delivery
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+title: Create and identify the delivery
+description: Create and identify the delivery
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 ---
-# Creating and identifying the delivery {#create-and-identify-the-delivery}
+# Create and identify the delivery {#create-and-identify-the-delivery}
 
 ![](../../assets/common.svg)
 
-## Creating the delivery {#creating-the-delivery}
+## Create the delivery {#creating-the-delivery}
 
 You can create a delivery via the overview or via the **[!UICONTROL Create > Delivery]** menu.
 
@@ -28,7 +25,7 @@ A default template is provided for each channel you have installed: direct mail,
 
 You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, refer to [this section](about-templates.md).
 
-## Identifying the delivery {#identifying-the-delivery}
+## Identify the delivery {#identifying-the-delivery}
 
 You need to complete parameters to identify the delivery. To do this:
 

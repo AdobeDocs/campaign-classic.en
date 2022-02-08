@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Filtering rules
-description: Filtering rules
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+description: Learn how to use filtering rules
+feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 ---
 # Filtering rules{#filtering-rules}
@@ -15,7 +13,7 @@ Filtering rules let you define the messages to exclude based on criteria defined
 
 Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated **Filtering** typology. For more on this, refer to [Creating and using a filtering typology](#creating-and-using-a-filtering-typology).
 
-## Creating a filtering rule {#creating-a-filtering-rule}
+## Create a filtering rule {#creating-a-filtering-rule}
 
 For example, you can filter your newsletter subscribers to prevent communications from being sent to recipients who are underage.
 
@@ -41,7 +39,7 @@ When this rule is used in a delivery, underage subscribers are excluded automati
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## Conditioning a filtering rule {#conditioning-a-filtering-rule}
+## Condition a filtering rule {#conditioning-a-filtering-rule}
 
 You can restrict the application field of the filtering rule based on the linked delivery or delivery outline.
 
@@ -55,7 +53,7 @@ In this case, even if the rule is linked to all deliveries, it will only be appl
 >
 >Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. For more on this, refer to [this section](../../workflow/using/delivery-outline.md).
 
-## Creating and using a filtering typology {#creating-and-using-a-filtering-typology}
+## Create and use a filtering typology {#creating-and-using-a-filtering-typology}
 
 You can create **[!UICONTROL Filtering]** typologies: they only contain filtering rules. 
 

@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Creating the delivery templates
-description: Learn how to perform A/B testing through a dedicated use case.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+description: Learn how to perform A/B testing through a dedicated use case
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 ---
 # Create the delivery templates {#step-3--creating-two-delivery-templates}

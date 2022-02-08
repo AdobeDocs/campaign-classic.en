@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Data schemas
-description: Data schemas
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+description: Get started with Campaign data schemas
+feature: Schema Extension
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 ---
 # Data schemas{#data-schemas}
@@ -17,7 +15,7 @@ To edit, create and configure the schemas, click the **[!UICONTROL Administratio
 
 >[!NOTE]
 >
->Out-of-the-box data schemas can only be deleted by an administrator of your Adobe Campaign Classic console.
+>Built-in data schemas can only be deleted by an administrator of your Adobe Campaign Classic console.
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 

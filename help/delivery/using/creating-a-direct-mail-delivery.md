@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Creating a direct mail delivery
-description: Creating a direct mail delivery
-audience: delivery
-content-type: reference
-topic-tags: sending-direct-mail
+title: Create a direct mail delivery
+description: Learn how to create a direct mail delivery
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 ---
-# Creating a direct mail delivery{#creating-a-direct-mail-delivery}
+# Create a direct mail delivery{#creating-a-direct-mail-delivery}
 
 ![](../../assets/common.svg)
 

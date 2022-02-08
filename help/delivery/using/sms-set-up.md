@@ -1,10 +1,7 @@
 ---
 product: campaign
-title: Set up Campaign SMS channel
+title: Configure Campaign SMS channel
 description: Learn how to configure the SMS channel in Campaign
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 ---
 # Configure SMS channel {#setting-up-sms-channel}

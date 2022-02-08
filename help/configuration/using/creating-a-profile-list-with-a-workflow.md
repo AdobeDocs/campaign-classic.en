@@ -2,9 +2,7 @@
 product: campaign
 title: Creating a profile list with a workflow
 description: Learn how to create a profile list in a workflow
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Workflows
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 ---
 # Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}

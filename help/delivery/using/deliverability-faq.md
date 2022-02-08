@@ -2,9 +2,7 @@
 product: campaign
 title: Key points when managing deliverability in Adobe Campaign Classic
 description: What are the key points to check when managing deliverability in Adobe Campaign Classic?
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+feature: Deliverability
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 ---
 # Deliverability troubleshooting{#deliverability-faq}

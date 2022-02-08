@@ -2,9 +2,6 @@
 product: campaign
 title: Formatting
 description: Formatting
-audience: delivery
-content-type: reference
-topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 ---
 # Formatting{#formatting}

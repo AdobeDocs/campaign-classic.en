@@ -2,16 +2,13 @@
 product: campaign
 title: Applying rules
 description: Applying rules
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 ---
-# Applying rules{#applying-rules}
+# Apply typology rules{#applying-rules}
 
 ![](../../assets/common.svg)
 
-## Applying a typology to a delivery {#applying-a-typology-to-a-delivery}
+## Apply a typology to a delivery {#applying-a-typology-to-a-delivery}
 
 In order to apply the typology rules you created, you need to associate it to a typology and then reference this typology in your delivery. To do this:
 
@@ -34,7 +31,7 @@ In order to apply the typology rules you created, you need to associate it to a 
    >
    >The typology can be defined in the delivery template, to be applied automatically to all deliveries created using this template.
 
-## Defining application conditions {#defining-application-conditions}
+## Define application conditions {#defining-application-conditions}
 
 You can restrict the application field of a rule according to your needs (except for control rules).
 
@@ -50,7 +47,7 @@ Then use the query editor to define filtering conditions. In the following examp
 >
 >For filtering rules, you can select the application condition of filtering criteria: they can depend on the delivery or the delivery outline. For more on this, refer to [Conditioning a filtering rule](filtering-rules.md#conditioning-a-filtering-rule).
 
-## Adjusting calculation frequency {#adjusting-calculation-frequency}
+## Adjust calculation frequency {#adjusting-calculation-frequency}
 
 Arbitrations are re-executed automatically every night via the database cleansing workflow. However, values can be saved beyond this period.
 

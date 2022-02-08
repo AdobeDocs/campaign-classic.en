@@ -1,13 +1,11 @@
 ---
 product: campaign
 title: About deliverability in Adobe Campaign Classic
-description: Learn more about managing deliverability in Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+description: Learn more about managing deliverability in Adobe Campaign
+feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 ---
-# Controlling your message content{#control-message-content}
+# Control your message content{#control-message-content}
 
 ![](../../assets/common.svg)
 
@@ -25,7 +23,7 @@ For additional tips to optimize deliverability when designing content, see the [
 
 >[!NOTE]
 >
->For more information on editing email content, see [Defining the email content](defining-the-email-content.md) and [Build personalized content](design-and-personalize.md).
+>For more information on editing email content, see [Define the email content](defining-the-email-content.md) and [Build personalized content](design-and-personalize.md).
 
 ## Sender address {#sender-address}
 
@@ -33,7 +31,7 @@ Certain ISPs check the validity of the sender address (**[!UICONTROL From]**) be
 
 You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > Deployment wizard...]**) or in the most frequently-used scenarios.
 
-For more on this, see [Defining the sender](defining-the-email-content.md).
+For more on this, see [this page](defining-the-email-content.md).
 
 ## Personalization {#personalization}
 

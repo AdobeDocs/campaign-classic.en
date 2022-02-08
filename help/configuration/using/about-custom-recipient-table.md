@@ -2,9 +2,7 @@
 product: campaign
 title: About custom recipient table
 description: About custom recipient table
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Custom Resources
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 ---
 # Use a custom recipient table{#about-custom-recipient-table}

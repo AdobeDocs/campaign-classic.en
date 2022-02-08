@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Managing reports
-description: Managing reports
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+title: Manage reports
+description: Manage reports
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 ---
-# Managing reports{#managing-reports}
+# Manage reports{#managing-reports}
 
 ![](../../assets/common.svg)
 

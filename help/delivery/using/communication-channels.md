@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Communication channels
-description: Create deliveries to send personalized messages on different channels.
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+description: Create deliveries to send personalized messages on different channels
+feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 ---
 # Communication channels{#communication-channels}

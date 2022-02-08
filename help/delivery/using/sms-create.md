@@ -2,9 +2,7 @@
 product: campaign
 title: Create SMS with Campaign
 description: Learn how to create SMS with Campaign
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
+feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 ---
 # Create a SMS delivery {#creating-a-sms-delivery}

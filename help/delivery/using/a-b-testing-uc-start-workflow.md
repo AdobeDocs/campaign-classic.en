@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Starting the workflow
-description: Learn how to perform A/B testing through a dedicated use case.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+description: Learn how to perform A/B testing through a dedicated use case
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 ---
 # Start the workflow {#step-7--starting-the-workflow}

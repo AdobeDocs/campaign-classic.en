@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Selecting a target mapping
-description: Selecting a target mapping
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+title: Select a target mapping
+description: Learn how to target mapping
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 ---
-# Selecting a target mapping{#selecting-a-target-mapping}
+# Select a target mapping{#selecting-a-target-mapping}
 
 ![](../../assets/common.svg)
 
@@ -29,4 +26,4 @@ These mappings are as follows:
 
 >[!NOTE]
 >
->You can also create new target mappings. This operation is reserved for expert users. For more information, refer to the [Configuration guide](../../configuration/using/target-mapping.md).
+>You can also create new target mappings. This operation is reserved for expert users. For more information, refer to [this section](../../configuration/using/target-mapping.md).

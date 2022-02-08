@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Configuring URL tracking options
-description: Configuring URL tracking options
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+title: Configure URL tracking options
+description: Learn how to configure URL tracking options
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 ---
-# Configuring URL tracking options{#personalizing-url-tracking}
+# Configure URL tracking options{#personalizing-url-tracking}
 
 ![](../../assets/common.svg)
 
@@ -15,7 +12,7 @@ Advanced message tracking settings are accessible via the **[!UICONTROL Tracking
 
 >[!NOTE]
 >
->The management of images in emails is also configured in this window. See [Adding images](defining-the-email-content.md#adding-images).
+>The management of images in emails is also configured in this window. See [Add images](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

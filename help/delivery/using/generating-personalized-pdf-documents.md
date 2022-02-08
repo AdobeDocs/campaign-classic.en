@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Generating personalized PDF documents
-description: Generating personalized PDF documents
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+title: Generate personalized PDF documents
+description: Learn how to generate personalized PDF documents
+feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 ---
-# Generating personalized PDF documents{#generating-personalized-pdf-documents}
+# Generate personalized PDF documents{#generating-personalized-pdf-documents}
 
 ![](../../assets/common.svg)
 
@@ -19,7 +17,7 @@ The following extensions are supported: ".docx", ".doc", and ".odt".
 
 To personalize your documents, the same JavaScript functionalities as for email personalization are available.
 
-You need to activate the **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer to the [Attaching files](attaching-files.md) section.
+You need to activate the **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer to the [Attach files](attaching-files.md) section.
 
 Example of an invoice header personalization:
 
@@ -27,7 +25,7 @@ Example of an invoice header personalization:
 
 To generate dynamic tables or include images via a URL, you need to follow a specific process.
 
-## Generating dynamic tables {#generating-dynamic-tables}
+## Generate dynamic tables {#generating-dynamic-tables}
 
 The procedure for generating dynamic tables is as follows:
 
@@ -41,13 +39,13 @@ The procedure for generating dynamic tables is as follows:
 
   ![](assets/s_ncs_pdf_table.png)
 
-## Inserting external images {#inserting-external-images}
+## Insert external images {#inserting-external-images}
 
 The insertion of external images is useful if, for instance, you want to personalize a document with an image whose URL is entered in a field of the recipient.
 
 To do this, you need to configure a personalization block, then include a call to the personalization block in the attachment.
 
-**Example: inserting a personalized logo depending on the recipient's country**
+**Example: insert a personalized logo depending on the recipient's country**
 
 **Step 1: create the attachment:**
 

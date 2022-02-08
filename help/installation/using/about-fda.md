@@ -2,9 +2,7 @@
 product: campaign
 title: Accessing an external database
 description: Learn how to access and process data in an external database
-audience: platform
-content-type: reference
-topic-tags: connectors
+feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
 ---
 # Get Started with Federated Data Access {#about-federated-data-access}

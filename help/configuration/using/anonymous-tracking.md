@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Anonymous tracking
-description: Anonymous tracking
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
+description: Learn how to set up anonymous tracking
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 ---
 # Anonymous tracking{#anonymous-tracking}

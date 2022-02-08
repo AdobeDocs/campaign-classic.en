@@ -1,10 +1,7 @@
 ---
 product: campaign
-title: "Web tracking tag: definition"
-description: "Web tracking tag: definition"
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
+title: Define web tracking tag
+description: Define web tracking tag
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 ---
 # Web tracking tag: definition{#web-tracking-tag-definition}

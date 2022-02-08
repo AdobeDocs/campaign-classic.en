@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with SMS channel
 description: Get started with SMS channel
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
+feature: SMS
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 ---
 # Get started with SMS channel{#sms-channel}

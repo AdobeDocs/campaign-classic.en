@@ -2,9 +2,7 @@
 product: campaign
 title: Define the email content in Adobe Campaign Classic
 description: Learn how to define the email content when using Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 ---
 # Define the email content {#defining-the-email-content}

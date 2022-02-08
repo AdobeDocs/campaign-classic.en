@@ -1,10 +1,7 @@
 ---
 product: campaign
-title: Elements and attributes
-description: Elements and attributes
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+title: Schema elements and attributes
+description: method element
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
 ---
 # methods element {#methods--element}

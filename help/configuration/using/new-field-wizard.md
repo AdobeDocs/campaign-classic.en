@@ -2,9 +2,7 @@
 product: campaign
 title: New field wizard
 description: New field wizard
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: Schema Extension
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---
 # New field wizard{#new-field-wizard}

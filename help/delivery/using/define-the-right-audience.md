@@ -1,9 +1,8 @@
 ---
 product: campaign
 title: Define the right audience
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Learn best practices when selecting your audience
+feature: Audiences
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 ---
 # Define the right audience {#define-the-right-audience}

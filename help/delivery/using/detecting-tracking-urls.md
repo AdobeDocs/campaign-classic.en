@@ -2,12 +2,9 @@
 product: campaign
 title: Detecting tracking URLs
 description: Learn more about recommended pattern to track URLs
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
 exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
 ---
-# Detecting tracking URLs
+# Detect tracking URLs
 
 ## Example of non-detection
 

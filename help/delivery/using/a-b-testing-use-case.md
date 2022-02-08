@@ -2,12 +2,10 @@
 product: campaign
 title: AB testing use case
 description: Learn how to perform A/B testing through a dedicated use case.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+feature: A/B Testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 ---
-# About this use case {#about-use-case}
+# A/B Testing this use case {#ab-testing-use-case}
 
 ![](../../assets/common.svg)
 

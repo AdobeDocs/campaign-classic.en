@@ -2,9 +2,6 @@
 product: campaign
 title: Collecting all visits
 description: Collecting all visits
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 ---
 # Collecting all visits{#collecting-all-visits}
