@@ -53,7 +53,7 @@ To improve security, a signature mechanism for tracking links in emails has been
 
 In addition, since Campaign 20.2 and the [!DNL Gold Standard] release, you can use an enhancement to disable URLs generated in previous builds. This feature is disabled by default. You can reach out to [Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to enable this feature.
 
-If you are running [!DNL Gold Standard] 19.1.4, you may experience issues with push notification deliveries using tracking links, or deliveries using anchor tags. If so, we recommend that you disable URL signature.
+If you are running on 19.1.4 build, you may experience issues with push notification deliveries using tracking links, or deliveries using anchor tags. If so, we recommend that you disable URL signature.
 
 Whether you are running Campaign on premises or in a hybrid architecture, you must reach out to [Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to have URL signature disabled.
 

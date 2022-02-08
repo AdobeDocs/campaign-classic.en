@@ -10,9 +10,11 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
-* **[September Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements and fixes in the Release Notes
+* **[2022 Release Program](technotes/using/dc-migration.md)**<br/> Upgrade your environment and improve security, infrastructure, and performances
 
-* **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** and **[technote](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
+* **[January Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements and fixes in the Release Notes
+
+* **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** and **[technote](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Find guidance in response to Apple’s announcement regarding iOS 15
 
 * **[Connecting through IMS/Adobe ID? Upgrade to the latest builds](technotes/using/ims-updates.md)**<br/> If you are using IMS to connect to Campaign, you must to upgrade to be able to connect to Campaign after **June 30, 2021**
 
@@ -76,7 +78,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 |---|---|
 | [Release notes](rn/using/latest-release.md) | [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [How-to videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
-| [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [[!DNL Gold Standard] upgrade](rn/using/gs-overview.md) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
+| [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html) |
+| [Get started with upgrades](rn/using/rn-overview.md) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [Deprecated features](rn/using/deprecated-features.md) | [Security & privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Monitoring guidelines](production/using/monitoring-guidelines.md) |

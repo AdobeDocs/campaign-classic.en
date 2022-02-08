@@ -9,15 +9,13 @@ exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 ---
 # Use a custom recipient table{#about-custom-recipient-table}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
-This section details the principles for using a non-standard recipient table.
+This section details the principles for using a custom (or external) recipient table.
 
-By default, Adobe Campaign offers a standard recipient table to which out-of-the-box functions and processes are linked. The standard recipient table has a number of predefined fields and tables that can be easily extended using an extension table.
+By default, Adobe Campaign offers a built-in recipient table to which out-of-the-box functions and processes are linked. The built-in recipient table has a number of predefined fields and tables that can be easily extended using an extension table.
 
 If this extension method offers good flexibility to extend a table, it does not allow the number of fields or links in it to be reduced. Using a non-standard table, or 'external recipient table', allows for a greater flexibility but requires certain precautions when implementing it.
-
-## Precisions {#precisions}
 
 This functionality allows Adobe Campaign to process data from an external database: this data will be used as a set of profiles for deliveries. Implementing this process involves several precisions that may be relevant according to the client's needs. Such as:
 
@@ -25,14 +23,14 @@ This functionality allows Adobe Campaign to process data from an external databa
 * No changes in the processes operating on the existing database.
 * Using a profile database with a non-standard structure: possibility of delivering to profiles saved in various tables with various structures, using a single instance.
 * No changes or maintenance required when updating the Adobe Campaign database.
-* The standard recipient table is useless if you do not need most of the table fields or if the database template is not centered on the recipients.
-* In order to be efficient, a table with few fields is needed if you have a significant number of profiles. The standard recipient table has too many fields for this specific case.
+* The built-in recipient table is useless if you do not need most of the table fields or if the database template is not centered on the recipients.
+* In order to be efficient, a table with few fields is needed if you have a significant number of profiles. The built-in recipient table has too many fields for this specific case.
 
-This section describes the key points that let you map existing tables in Adobe Campaign and the configuration to apply to execute deliveries based on any table. Finally, it describes how to provide users with querying interfaces as practical as those available with the standard recipient table. To understand the material presented in this section, good knowledge of the principles of screen and schema design is required.
+This section describes the key points that let you map existing tables in Adobe Campaign and the configuration to apply to execute deliveries based on any table. Finally, it describes how to provide users with querying interfaces as practical as those available with the built-in recipient table. To understand the material presented in this section, good knowledge of the principles of screen and schema design is required.
 
 ## Recommendations and limitations {#recommendations-and-limitations}
 
-Using an external recipient table has the following limitations:
+Using a custom recipient table has the following limitations:
 
 * Adobe Campaign does not support multiple recipient schemas, know as targeting schemas, linked to the same broadlog and/or trackinglog schemas. This can otherwise lead to anomalies in data reconciliation afterwards.
  

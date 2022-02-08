@@ -22,7 +22,7 @@ Interaction operates with two types of offer environments:
 
 Each **[!UICONTROL Design]** environment is linked to a **[!UICONTROL Live]** environment. When an offer is complete, its content and eligibility rules are subjected to an approval cycle. Once this cycle is complete, the concerned offer is automatically deployed to the **[!UICONTROL Live]** environment. From this moment on, it will be available for delivery.
 
-By default, Interaction comes with a **[!UICONTROL Design]** environment and a **[!UICONTROL Live]** environment linked to it. Both environments are pre-configured to target the out-of-the-box recipient table.
+By default, Interaction comes with a **[!UICONTROL Design]** environment and a **[!UICONTROL Live]** environment linked to it. Both environments are pre-configured to target the built-in recipient table.
 
 >[!NOTE]
 >

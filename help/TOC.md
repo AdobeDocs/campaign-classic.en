@@ -17,19 +17,12 @@ type: Documentation
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
-  + [!DNL Gold Standard] release {#gs-release}
-     + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
-     + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
-     + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
   + Previous releases {#previous-releases}
-    + [Release 20.3](rn/using/release--20-3.md)
-    + [Release 20.2](rn/using/release--20-2.md)
-    + [Release 20.1](rn/using/release--20-1.md)
-    + [Release 19.2](rn/using/release--19-2.md)
-    + [Release 19.1](rn/using/release--19-1.md)
-    + [Release 18.10](rn/using/release--18-10.md)
-    + [Release 18.6](rn/using/release--18-6.md)
-    + [Release 18.4](rn/using/release--18-4.md)
+    + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+    + [2021](rn/using/release--2021.md)
+    + [2020](rn/using/release--2020.md)
+    + [2019](rn/using/release--2019.md)
+    + [2018](rn/using/release--2018.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
 + Get started {#getting-started}
@@ -162,8 +155,8 @@ type: Documentation
   + Send direct mail {#sending-direct-mail}
        + [About direct mail channel](delivery/using/about-direct-mail-channel.md)
        + [Create a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
-       + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
-       + [Validating](delivery/using/validating.md)
+       + [Define the direct mail content](delivery/using/defining-the-direct-mail-content.md)
+       + [Validate](delivery/using/validating.md)
   + Use delivery templates {#using-delivery-templates}
        + [About templates](delivery/using/about-templates.md)
        + [Create a delivery template](delivery/using/creating-a-delivery-template.md)
@@ -369,11 +362,11 @@ type: Documentation
        + [Configure access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
        + [Insert a shared asset](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-       + [About [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+       + [Work with [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
        + [Configure the integration](integrations/using/configuring-the-integration.md)
        + [Create an [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-       + [Integrate with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+       + [Work with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
        + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
        + [Insert a dynamic image](integrations/using/inserting-a-dynamic-image.md)
   + ACS Connector {#acs-connector}
@@ -383,14 +376,14 @@ type: Documentation
        + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
   + Adobe Experience Cloud Triggers {#experience-triggers}
-       + [Get started with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
        + [Configure pipeline](integrations/using/configuring-pipeline.md)
        + [Configure Adobe I/O for [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
        + [Configure events for custom implementation](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
   + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
-       + [Get started with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+       + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
        + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
        + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automate with workflows {#automating-with-workflows}
@@ -506,6 +499,7 @@ type: Documentation
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)
        + [JavaScript scripts and templates](workflow/using/javascript-scripts-and-templates.md)
+       + [Examples of JavaScript code in workflows](workflow/using/javascript-in-workflows.md)
        + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
        + [Manage permissions](workflow/using/managing-rights.md)
        + [Manage activity images](workflow/using/managing-activity-images.md)
@@ -555,7 +549,7 @@ type: Documentation
        + [Additional data](interaction/using/additional-data.md)
        + [Extension example](interaction/using/extension-example.md)
        + [Create a test environment](interaction/using/creating-a-test-environment.md)
-       + [Hooks](interaction/using/hooks.md)
+       + [Modify the standard engine behavior](interaction/using/hooks.md)
        + [Distributed architectures](interaction/using/distributed-architectures.md)
        + [Data buffer configuration](installation/using/interaction---data-buffer.md)
   + Use case {#case-study}
@@ -591,7 +585,7 @@ type: Documentation
        + [Create a Facebook application](social/using/creating-a-facebook-application.md)
        + [Configure publishing on Twitter](social/using/configuring-publishing-on-twitter.md)
   + Publish on social media {#publishing-on-facebook-twitter}
-       + [Overview](social/using/overview.md)
+       + [Get started with social media](social/using/overview.md)
        + [Publish on Facebook](social/using/publishing-on-facebook.md)
        + [Publish on Twitter](social/using/publishing-on-twitter.md)
   + Annexes {#annexes}
@@ -785,8 +779,8 @@ type: Documentation
        + [Regenerating schemas](configuration/using/regenerating-schemas.md)
        + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)
   + Input forms {#input-forms}
-       + [Identifying a form](configuration/using/identifying-a-form.md)
-       + [Editing forms](configuration/using/editing-forms.md)
+       + [Identify a form](configuration/using/identifying-a-form.md)
+       + [Edit forms](configuration/using/editing-forms.md)
        + [Form structure](configuration/using/form-structure.md)
   + API {#api}
        + [About web services](configuration/using/about-web-services.md)
@@ -820,23 +814,15 @@ type: Documentation
        + [Collecting all visits](configuration/using/collecting-all-visits.md)
        + [Anonymous tracking](configuration/using/anonymous-tracking.md)
 + Migration guide {#migrating-to-a-new-version}
-  + Migration overview {#migration-overview}
-       + [About migration](migration/using/about-migration.md)
-       + [Migration method](migration/using/migration-method.md)
-       + [Migration warnings](migration/using/migration-warnings.md)
+  + [Migrate to Adobe Campaign v7](migration/using/about-migration.md)
   + Migration procedure {#migration-procedure}
-       + [Before starting migration](migration/using/before-starting-migration.md)
-       + [Testing the migration](migration/using/testing-the-migration.md)
-       + [Configuring your platform](migration/using/configuring-your-platform.md)
-  + Migrating to Adobe Campaign 7 {#migrating-to-adobe-campaign-7}
-       + [Prerequisites for migration to Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
-       + [Migrating in Windows for Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-       + [Migrating in Linux for Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-  + Configuration {#configuration}
-       + [General configurations](migration/using/general-configurations.md)
-       + [Specific configurations in v5.11](migration/using/specific-configurations-in-v5-11.md)
-       + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
-       + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
+       + [Prerequisites](migration/using/before-starting-migration.md)
+       + [About migration tests](migration/using/testing-the-migration.md)
+       + [Adapt your configuration](migration/using/configuring-your-platform.md)
+  + Start the migration {#migrating-to-adobe-campaign-7}
+       + [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+       + [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+       + [Configure your platform](migration/using/general-configurations.md)
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
@@ -844,6 +830,7 @@ type: Documentation
        + [Technotes](technotes/using/technote.md)
        + [Campaign configuration updates](technotes/using/acc-config-updates.md)
        + [IMS updates](technotes/using/ims-updates.md)
+       + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
   + Emails and push notifications{#technotes-email}
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
        + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
@@ -853,3 +840,4 @@ type: Documentation
   + Migration to Adobe Managed Services{#dc-migration}
        + [Migration to Public Cloud](technotes/using/dc-migration.md)
        + [FAQ](technotes/using/dc-migration-faq.md)
++ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)

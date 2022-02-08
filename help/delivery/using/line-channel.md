@@ -11,10 +11,6 @@ exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 
 ![](../../assets/common.svg)
 
->[!NOTE]
->
->[!DNL LINE] is only available for on-premise or managed services installations.
-
 [!DNL LINE] is an application for free instant messaging, voice and video calls, available on every mobile OS and on PC.
 
 [!DNL LINE] can also be combined with the transactional message module to send real time messages on the [!DNL LINE] app installed in consumer mobile devices. For more on this, refer to this [page](../../message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line).
@@ -30,7 +26,7 @@ The steps for using the [!DNL LINE] channel are:
 
 ## Set up LINE channel {#setting-up-line-channel}
 
-Before creating a [!DNL LINE] account and external account, you first need to install the LINE package on your instance. For more information on this, consult the [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) section in the Installation guide.
+Before creating a [!DNL LINE] account and external account, you first need to install the LINE package on your instance. For more information on this, consult [this section](../../installation/using/installing-campaign-standard-packages.md#line-package).
 
 You must first create a [!DNL LINE] account, so that you can then link it to Adobe Campaign. Then, you can send [!DNL LINE] messages to the users that have added your [!DNL LINE] account in their mobile application. External accounts and [!DNL LINE] account can only be managed by the functional administrator of the platform.
 

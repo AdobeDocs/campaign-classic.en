@@ -480,7 +480,7 @@ Elements are designated by their name, and attributes are designated by the name
 
 * **@email**: selects the email,
 * **location/@city**: selects the "city" attribute under the **`<location>`** element
-* **../@email**: selects the e-mail address from the parent element of the current element
+* **../@email**: selects the email address from the parent element of the current element
 * **group`[1]/@label`**: selects the "label" attribute that is the child of the first **`<group>`** collection element
 * **group`[@label='test1']`**: selects the "label" attribute that is the child of the **`<group>`** element and contains the value "test1"
 
@@ -495,7 +495,7 @@ Elements are designated by their name, and attributes are designated by the name
 It is also possible to define complex expressions, such as the following arithmetic operations:
 
 * **@gender+1**: adds 1 to the content of the **gender** attribute,
-* **@email + '('+@created+')'**: constructs a string by taking the value of the e-mail address added to the creation date between parentheses (for the string type, put the constant in quotes).
+* **@email + '('+@created+')'**: constructs a string by taking the value of the email address added to the creation date between parentheses (for the string type, put the constant in quotes).
 
 High-level functions have been added to the expressions in order to enrich the potential of this language.
 
@@ -507,7 +507,7 @@ You can access the list of available functions via any expression editor in the 
 
 * **GetDate()**: returns the current date
 * **Year(@created)**: returns the year of the date contained in the "created" attribute.
-* **GetEmailDomain(@email)**: returns the domain of the e-mail address.
+* **GetEmailDomain(@email)**: returns the domain of the email address.
 
 ## Building a string via the compute string {#building-a-string-via-the-compute-string}
 

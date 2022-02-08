@@ -226,6 +226,10 @@ This PDU acknowledges that the connection is alive.
 
 ### Multipart SMS (long SMS) {#multipart}
 
+>[!IMPORTANT]
+>
+> Adobe Campaign only supports multipart SMS or long SMS for sending. UDH and `message_payload` are not supported for incoming SMS (MO), meaning that MO are limited to 160 characters.
+
 Multipart SMS, or long SMS, are SMS that are sent in multiple parts. Due to technical limitations in the mobile network protocol, a SMS cannot be larger than 140 bytes or it will need to be split. See the [SMS text encoding](sms-protocol.md#sms-text-encoding) section to learn more on the number of characters that can fit in a SMS.
 
 Each part of a long message is an individual SMS. These parts travel independently on the network and are assembled by the receiving mobile phone. To handle retries and connectivity problems, Adobe Campaign sends these parts in reverse order and requests a SR only on the first part of the message, the last sent. Since the mobile phone only displays a message when its first part is received, retries on additional parts won't produce duplicates on the mobile phone.

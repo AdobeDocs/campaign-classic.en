@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: About social marketing
-description: Learn how to use Campaign to interact with customers via Facebook and Twitter.
+description: Learn how to use Campaign to interact with customers via Facebook and Twitter
 audience: social
 content-type: reference
 topic-tags: introduction

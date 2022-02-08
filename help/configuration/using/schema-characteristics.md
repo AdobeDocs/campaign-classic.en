@@ -9,7 +9,7 @@ exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 ---
 # Schema characteristics{#schema-characteristics}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 The characteristics of a schema that references an existing table are as follows:
 
@@ -19,7 +19,7 @@ The characteristics of a schema that references an existing table are as follows
 
 >[!IMPORTANT]
 >
->Do not delete fields in the standard recipient table, even if they are useless. This may cause behavioral errors in the Adobe Campaign database.
+>Do not delete fields in the built-in recipient table, even if they are useless. This may cause behavioral errors in the Adobe Campaign database.
 
 ## The view attribute {#the-view-attribute}
 

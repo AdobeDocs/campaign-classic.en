@@ -13,7 +13,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 
 This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic v7**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
-If you are a [!DNL Gold Standard] user, refer to the [[!DNL Gold Standard] Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
+If you are a [!DNL Gold Standard] user, refer to the [[!DNL Gold Standard] Compatibility matrix](../../rn/using/gold-standard.md#compatibility-matrix-gs).
 
 ## Important notes{#important-notes}
 
@@ -34,8 +34,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr> 
 <td>CentOs</td>
 <td>
-<p>8.x (64 bits)</p>
+<p>8.x (64 bits) </br><strong>Important:</strong> CentOS Linux 8 will reach End Of Life (EOL) on December 31st, 2021. For more information, refer to the <a href=../../rn/using/deprecated-features.md>Deprecated features</a> page.</p>
 <p>7.x (64 bits)</p>
+<p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
@@ -101,7 +102,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Libre Office</td>
 <td>
-<p>6 (and previous versions if embedded in your system)</p>
+<p>7 (and previous versions if embedded in your system)</p>
 </td>
 </tr>
 <tr>
@@ -134,8 +135,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 <p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
@@ -147,7 +146,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 and SP2</p>
-<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. [Learn more](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
+<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href=../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers>Learn more</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -182,34 +181,30 @@ Customer Relationship Management (CRM) systems compatible with Adobe Campaign ar
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-External databases compatible with Adobe Campaign [Federated Data Access module](../../installation/using/about-fda.md) are listed below.
+External databases compatible with Adobe Campaign [Federated Data Access module](../../installation/using/about-fda.md) are listed below. Compatibility depends on your [hosting model](../../installation/using/hosting-models.md).
+
+**Managed Services** (hosted), **Hybrid** and **On-premise** environments can connect Campaign with the following external database systems:
 
 <table>
 <tbody>
+<td><strong>Database system</strong></td>
+<td><strong>Database version</strong></td>
+<td><strong>Campaign version</strong></td>
 <tr>
-<td>Vertica</td>
+<tr>
+<td>Snowflake</td>
 <td>&nbsp;</td>
+<td>7.2.1 minimum</td>
 </tr>
 <tr>
-<td>Google Big Query</td>
+<td>Google BigQuery</td>
 <td>&nbsp;</td>
-</tr>
-<tr>
-<td>Microsoft Azure Synapse Analytics</td>
-<td>&nbsp;</td>
+<td>7.2.1 minimum</td>
 </tr>
 <tr>
 <td>Amazon Redshift</td>
 <td><p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td>Oracle</td>
-<td>
-<p>19c</p>
-<p>18c</p>
-<p>12c</p>
-<p>11g</p>
+<td>v7.0 19.1.4 minimumm</td>
 </td>
 </tr>
 <tr>
@@ -223,6 +218,37 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
+<td>v7.0 19.1.4 minimum</td>
+</tr>
+</tbody>
+</table>
+
+In addition, **Hybrid** and **On-premise** environments can also connect Campaign with:
+
+<table>
+<tbody>
+<td><strong>Database system</strong></td>
+<td><strong>Database version</strong></td>
+<td><strong>Campaign version</strong></td>
+<tr>
+<td>Vertica</td>
+<td>&nbsp;</td>
+<td>v7.0 19.1.4 minimum</td>
+</tr>
+<tr>
+<td>Microsoft Azure Synapse Analytics</td>
+<td>&nbsp;</td>
+<td>v7.0 19.1.4 minimum</td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>
+<p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g</p>
+</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
@@ -232,11 +258,13 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>2014</p>
 <p>2012 SP1 and SP2</p>
 </td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -246,12 +274,14 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>15.10</p>
 <p>15.0</p>
 </td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -259,12 +289,14 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>version 1 SPS 12</p>
 </td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -272,13 +304,14 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-</tr>
-<tr>
-<td>Snowflake</td>
-<td>&nbsp;</td>
+<td>v7.0 minimum</td>
 </tr>
 </tbody>
 </table>
+
+
+
+
 
 ## Client Console {#ClientConsoleoperatingsystems}
 

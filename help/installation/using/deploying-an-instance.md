@@ -55,9 +55,9 @@ The lower section of the window enables you to select the options to be activate
 
 The following options are available:
 
-* **[!UICONTROL Email channel]** : to activate e-mail delivery. Refer to [Email channel parameters](#email-channel-parameters).
+* **[!UICONTROL Email channel]** : to activate email delivery. Refer to [Email channel parameters](#email-channel-parameters).
 * **[!UICONTROL Tracking]** : To enable tracking of the target population (opens and clicks). Refer to [Tracking configuration](#tracking-configuration).
-* **[!UICONTROL Managing bounced emails]** : To define the POP account used to pick up incoming e-mail. Refer to [Managing bounced emails](#managing-bounced-emails).
+* **[!UICONTROL Managing bounced emails]** : To define the POP account used to pick up incoming email. Refer to [Managing bounced emails](#managing-bounced-emails).
 * **[!UICONTROL LDAP integration]** : To configure user authentication via an LDAP directory. Refer to [Connecting through LDAP](../../installation/using/connecting-through-ldap.md).
 
 ## Email channel parameters {#email-channel-parameters}
@@ -74,8 +74,8 @@ Indicate the following parameters:
 
 * **[!UICONTROL Sender name]** : Name of the sender,
 * **[!UICONTROL Sender address]** : The address of the sender,
-* **[!UICONTROL Reply address text]** : The name, which is customizable, that will be used when the recipient clicks the **[!UICONTROL Reply]** button in their e-mail client software,
-* **[!UICONTROL Reply address]** : The email address to use when the recipient clicks the **[!UICONTROL Reply]** button in their e-mail client software,
+* **[!UICONTROL Reply address text]** : The name, which is customizable, that will be used when the recipient clicks the **[!UICONTROL Reply]** button in their email client software,
+* **[!UICONTROL Reply address]** : The email address to use when the recipient clicks the **[!UICONTROL Reply]** button in their email client software,
 * **[!UICONTROL Error address]** : Email address of messages with errors. This is the technical address used to handle bounce mail, including emails received by the Adobe Campaign server due to non-existent target addresses.
 
 In addition to this, you can specify the **masks** authorized for the sender address and the error address. If necessary, these masks can be separated using commas. This configuration is optional. When fields are entered, Adobe Campaign checks at the time of delivery (during analysis, if the address does not include any variables) that the addresses are valid. This operating mode ensure that no addresses are used that could trigger delivery issues. Delivery addresses must be configured on the delivery server.
@@ -317,7 +317,7 @@ Use this page to populate the server URLs to:
 1. Access the application server for resources not exposed on the web: forms, intranet, confirmation pages.
 1. Access the mirror pages of deliveries.
 
-   A mirror page is a dynamic page that displays the contents of the email. It is accessed via a link inserted into the message sent to the recipient and can contain personalized elements. The mirror page gives the recipient the possibility of reading the message in an internet browser instead of the e-mail software, regardless of the delivery format (text or HTML). However, mirror pages are only generated for a given delivery if the required HTML content has been defined.
+   A mirror page is a dynamic page that displays the contents of the email. It is accessed via a link inserted into the message sent to the recipient and can contain personalized elements. The mirror page gives the recipient the possibility of reading the message in an internet browser instead of the email software, regardless of the delivery format (text or HTML). However, mirror pages are only generated for a given delivery if the required HTML content has been defined.
 
 Adobe Campaign lets you differentiate these three URLs to spread the load over multiple platforms.
 
@@ -347,7 +347,7 @@ The first field enables you to specify the start of the URL used for the resourc
 
 In a delivery, you can use images stored in the public resource library or any other local image or image stored on a server.
 
-* For e-mail images, the **https://**server**/res/img** URL.
+* For email images, the **https://**server**/res/img** URL.
 
   This value can be overridden for each delivery.
 

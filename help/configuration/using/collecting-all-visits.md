@@ -43,4 +43,4 @@ To view tracking information via your client console, you must:
 * Create a **dummy delivery** (the delivery mapping must be identical to the mapping of the target schema),
 * Enter the **internal name** of this delivery in the **NmsTracking_WebTrackingDelivery** option.
 
-All site tracking information not directly subsequent to a click in an e-mail can be viewed in the dummy delivery created.
+All site tracking information not directly subsequent to a click in an email can be viewed in the dummy delivery created.

@@ -84,7 +84,7 @@ This section lists features and capabilities that have been removed from Campaig
    </tr>
    <tr>
    <td>Campaign APIs documentation - jsapi.chm file</td>
-   <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
+   <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html">the new online version</a>.</td>
   </tr> 
   <tr> 
    <td>Campaign Orchestration - Predictive marketing</td>
@@ -101,7 +101,7 @@ This section lists features and capabilities that have been removed from Campaig
   <tr> 
    <td>decryptString API</td>
    <td><p>Starting Campaign 18.6 release, for security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
-   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p></td>
+   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p></td>
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
@@ -200,7 +200,7 @@ Campaign Classic is not compatible with the following servers in Federated Data 
 * Teradata 13, 13.1. More recent versions of Teradata are supported through Federated Data Access (FDA). [Learn more](https://www.info.teradata.com/download.cfm?ItemID=1007255)
 * Netezza 6.02, 7.0. Netezza reached end of life. [Learn more](https://en.wikipedia.org/wiki/Netezza)
 * AsterData 5.0. AsterData reached end of life. [Learn more](https://en.wikipedia.org/wiki/Aster_Data_Systems)
-* Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0. More recent versions of Sybase are supported through Federated Data Access (FDA). [Learn more](https://sites.google.com/site/dbatipsandtricks/time-tracker)
+* Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0. More recent versions of Sybase are supported through Federated Data Access (FDA).
 * Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic will still support the listed versions of Hadoop via HiveSQL through Federated Data Access (FDA), but these versions are merged with: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) and HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
 
 **RDBMS SERVER**

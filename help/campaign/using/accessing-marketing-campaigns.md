@@ -3,8 +3,6 @@ product: campaign
 title: Accessing marketing campaigns
 description: Accessing marketing campaigns
 audience: campaign
-content-type: reference
-topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 ---
 # Accessing marketing campaigns{#accessing-marketing-campaigns}
@@ -155,6 +153,35 @@ You can access the Adobe Campaign console screens via an internet browser to vie
 1. Use the menus to access the overviews.
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
+
+In addition to navigating across campaigns and viewing them, you can perform these types of tasks:
+
+* Monitor activity on an instance
+* Take part in validation processes, for example, approve or reject a delivery content
+* Perform other quick actions, for example, pause a workflow
+* Access all the reporting features
+* Take part in forum discussions
+
+This table summarizes the actions that you can take on campaigns from a browser:
+
+| Page | Action |
+| --- | --- |
+| List of campaigns, deliveries, offers, etc. | Delete a list item |
+| Campaign | Cancel a campaign |
+| Delivery | Approve the delivery content and target<br/>Submit the delivery content<br/>Confirm a delivery<br/>Pause and stop a delivery |
+| Web application | Create a web application<br/>Edit the application content and properties<br/>Save the application content as a template<br/>Publish the application |
+| Offer | Approve the offer content and eligibility<br/>Disable an online offer |
+| Task | Finish a task<br/>Cancel a task |
+| Marketing resources | Approve a resource<br/>Lock and unlock a resource |
+| Campaign package | Submit a package for approval<br/>Approve or reject a package<br/>Cancel a package |
+| Campaign order | Create an order<br/>Accept or reject an order <!-- Je n'ai pas pu créer de campaign order pour vérifier cela. Peut-on accéder à ces fonctionnalités depuis l'accès web ? -->|
+| Stock | Delete a stock line |
+| Offer simulation | Start and stop a simulation |
+| Targeting workflow | Start, pause, and stop a workflow |
+| Report | Save the current data in the report history |
+| Forum | Add a discussion<br/>Reply to a message in a discussion<br/>Follow a discussion and unsubscribe from it |
+
+### Approvals
 
 Approvals (of a target or a delivery content, for instance) can be carried out via web access.
 

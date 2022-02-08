@@ -69,7 +69,7 @@ You can post a message to the forum of an operator if, for instance, your messag
 To access an operator's forum:
 
 * If you have the necessary rights to access the **[!UICONTROL Administration > Access management > Operators]** node of the explorer, open the dashboard of the desired operator and click the **[!UICONTROL Forum]** link in the top right-hand corner.
-* If not, find the name of the operator in Adobe Campaign (via a message posted to the forum by this operator, a task being assigned to him) and click on it to access their dashboard. You can also ask your administrator to create a view of the operator folder.
+* If not, find the name of the operator in Adobe Campaign (via a message posted to the forum by this operator, a task being assigned to them) and click on it to access their dashboard. You can also ask your administrator to create a view of the operator folder.
 
 ## Subscribe to a forum {#subscribing-to-a-forum}
 

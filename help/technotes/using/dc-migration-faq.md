@@ -11,7 +11,7 @@ exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 
 ![](../../assets/v7-only.svg)
 
-As part of the [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe decommissions the legacy Data Center. Campaign Classic instances must be transferred to Public Cloud Amazon Web Services (AWS). [Learn more about this initiative](dc-migration.md).
+Adobe decommissions the legacy Data Center: Campaign Classic instances must be transferred to Public Cloud Amazon Web Services (AWS). [Learn more about this initiative](dc-migration.md).
 
 Below is a set of common questions about this project, the impact on your Campaign environments, and other useful resources.
 
@@ -41,7 +41,7 @@ Global impacts on database and infrastructure are listed below.
     
     As a first step, we are going to keep same Campaign Classic build with migration.
     
-    In a further step, we will proceed to upgrade to the latest Campaign Classic GA build. For more on this, refer to the [Build Upgrade FAQ](../../platform/using/faq-build-upgrade.md) and [Campaign Gold Standard Release notes](../../rn/using/gold-standard.md).
+    In a further step, we will proceed to upgrade to the latest Campaign Classic GA build. For more on this, refer to [this page](../../rn/using/rn-overview.md).
 
 * **What is the plan for addressing any post migration issues?**
 
@@ -57,7 +57,7 @@ Global impacts on IPs, block list, sub-domains and URLs are listed below.
 
     The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses in the allowlist in their system.
     
-    [Click here](#config) for more details about IP on the allowlist.
+    [Learn more](#config) about IP on the allowlist.
 
 * **How will we handle port added to the allowlist for SFTP/FTP access?**
     
@@ -67,7 +67,7 @@ Global impacts on IPs, block list, sub-domains and URLs are listed below.
     
     The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses to the allowlist in their system.
 
-    [Click here](#config) for more details about IP on the allowlist.
+    [Learn more](#config) about IP on the allowlist.
 
 * **How will sub-domain delegation be handled?**
     
@@ -149,7 +149,7 @@ Global impacts on configuration, connectivity with other systems and products, A
     
     The IP address of the Adobe servers will change. So the customers may need to add those new IP addresses to the allowlist in their system.
     
-    [Click here](#config) for more details about IP on allowlist.
+    [Learn more](#config) about IP on allowlist.
 
 * **Will we ensure that all JavaScript memory configuration parameters are set correctly after the migration?**
     
@@ -163,7 +163,7 @@ Global impacts on configuration, connectivity with other systems and products, A
     
     It may change according to new servers location. However customer will be able to retain their current timezone.
     
-    [Click here](../../workflow/using/managing-time-zones.md) for more detail on timezone management in Adobe Campaign Classic v7.
+    [Learn more](../../workflow/using/managing-time-zones.md) about timezone management in Adobe Campaign Classic v7.
 
 
 ## Security and permissions
@@ -274,5 +274,5 @@ Global impacts during the migration are listed below.
 ## Support and other useful links{#support}
 
 * [Migration to Adobe Managed Services (Public Cloud)](dc-migration.md)
-* [Gold Standard Upgrade](../../rn/using/gs-overview.md)
+* [Campaign Yearly Upgrade](../../rn/using/rn-overview.md#yeary-upgrade)
 * [Build Upgrade FAQ](../../platform/using/faq-build-upgrade.md)

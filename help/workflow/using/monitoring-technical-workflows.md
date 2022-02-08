@@ -87,7 +87,7 @@ Setting workflows in folders named by recurrence and sorted by execution schedul
 
 Automation of monitoring reduces resources overhead and ensures that tasks are scheduled at the appropriate frequency.
 
-You can build a monitoring workflow to send an e-mail whenever certain tasks fail or when a critical table becomes too large.
+You can build a monitoring workflow to send an email whenever certain tasks fail or when a critical table becomes too large.
 
 You can create a view so that all workflows across a functional area or system wide can be monitored.
 

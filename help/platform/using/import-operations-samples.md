@@ -171,7 +171,7 @@ Apply the following steps:
     * Keep the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode so that existing records in the database will be modified with data from the text file.
     * Place the cursor on the **[!UICONTROL Last name (@lastName)]** node and select the **[!UICONTROL Update only if destination is empty]** option.
     * Repeat this operation for the **[!UICONTROL Company (@company)]** node.
-    * Assign a reconciliation key to the fields **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** and **[!UICONTROL First name]**.
+    * Assign a reconciliation key to the fields **[!UICONTROL Birth date]**, **[!UICONTROL Email]** and **[!UICONTROL First name]**.
     
       ![](assets/s_ncs_user_import_example04_03.png)
 
@@ -219,7 +219,7 @@ In this example, you will see that certain fields in your text file have an empt
     * Select the option **[!UICONTROL Reject entity]** for the **[!UICONTROL Management of doubles]** field.
     * Leave the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode for existing records in the database to be modified with data from the text file.
     * Place the cursor on the **[!UICONTROL Account number (@account)]** node and select the option **[!UICONTROL Take empty values into account]**.
-    * Select the fields **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** and **[!UICONTROL First name]** and assign a reconciliation key to them. 
+    * Select the fields **[!UICONTROL Birth date]**, **[!UICONTROL Email]** and **[!UICONTROL First name]** and assign a reconciliation key to them. 
     
       ![](assets/s_ncs_user_import_example04_04.png)
 

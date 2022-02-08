@@ -336,7 +336,7 @@ The technical workflow can be found in a sub-folder of the following node: **Adm
 
 ![](assets/billing.png)
 
-Once the workflow is started every 25th of the month, your billing operator will receive the following report in his inbox.
+Once the workflow is started every 25th of the month, your billing operator will receive the following report in their inbox.
 
 ![](assets/billing_2.png)
 

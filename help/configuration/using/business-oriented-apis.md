@@ -34,7 +34,7 @@ This section details the use of the "Subscribe", "Unsubscribe" and "SubmitDelive
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.
+>[Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.
 
 ## Subscribe (nms:subscription) {#subscribe--nms-subscription-}
 
@@ -66,7 +66,7 @@ This call does not return any data, except errors.
 
 ### Examples {#examples}
 
-Subscription with recipient reconciliation key on the e-mail address: the input XML document must reference the email address and the definition of the key on this field.
+Subscription with recipient reconciliation key on the email address: the input XML document must reference the email address and the definition of the key on this field.
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>

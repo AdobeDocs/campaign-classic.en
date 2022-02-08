@@ -77,7 +77,7 @@ For more on configuring extension schemas to extend the conceptual data model, s
 
 ## Using a custom recipient table {#custom-recipient-table}
 
-When designing your Adobe Campaign data model, you can use the [out-of-the-box Recipient table](#default-recipient-table), or decide to create a [custom recipient table](../../configuration/using/about-custom-recipient-table.md) table to store you marketing profiles.
+When designing your Adobe Campaign data model, you can use the [built-in recipient table](#default-recipient-table), or decide to create a [custom recipient table](../../configuration/using/about-custom-recipient-table.md) table to store you marketing profiles.
 
 Indeed, if your data model does not fit the recipient-centric structure, you can set up other tables as the targeting dimension within Adobe Campaign. For example, this can be relevant when you need to target households, accounts (like mobile phones) and companies/sites rather than simply recipients.
 
@@ -89,11 +89,11 @@ All the principles and steps needed when using a custom recipient table are deta
 
 The benefits of using a custom Recipient table are as follows:
 
-* **Flexible data model** - The out-of-the-box Recipient table is useless if you do not need most of the Recipient table fields, or if the data model is not recipient-centric.
+* **Flexible data model** - The built-in recipient table is useless if you do not need most of the Recipient table fields, or if the data model is not recipient-centric.
 
-* **Scalability** - Large volumes require a streamlined table with few fields for an efficient design. The out-of-the-box Recipient table would have too many useless fields, which could impact performance and lack efficiency.
+* **Scalability** - Large volumes require a streamlined table with few fields for an efficient design. The built-in recipient table would have too many useless fields, which could impact performance and lack efficiency.
 
-* **Data location** - If data resides on an external existing marketing database, it may require too much effort to use the out-of-the-box Recipient table. Creating a new one based on an existing structure is simpler.
+* **Data location** - If data resides on an external existing marketing database, it may require too much effort to use the built-in recipient table. Creating a new one based on an existing structure is simpler.
 
 * **Easy migration** - No maintenance is needed to check that all extensions are still valid upon upgrade.
 

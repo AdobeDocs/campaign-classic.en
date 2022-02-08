@@ -3,8 +3,6 @@ product: campaign
 title: Marketing campaign deliveries
 description: Learn more about marketing campaign deliveries
 audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 ---
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
@@ -63,7 +61,7 @@ For more on this, refer to [Approving an extraction file](../../campaign/using/m
 
 **Step 2 - Approval of the message to the service provider**
 
-* Once the extraction file is approved, you can generate the proof of the router notification e-mail. This e-mail message is constructed based on a delivery template. It must be approved.
+* Once the extraction file is approved, you can generate the proof of the router notification email. This email message is constructed based on a delivery template. It must be approved.
 
   >[!NOTE]
   >

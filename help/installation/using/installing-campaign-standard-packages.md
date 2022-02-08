@@ -22,6 +22,8 @@ Built-in packages contain a set of features that can be installed according to y
 >Installing a new package can impact all your platform: it must be tested and validated before final deployment.
 >
 >Once a package is installed, you cannot uninstall it.
+>
+>As a hosted or hybrid customer, contact Adobe to have a new built-in package deployed.
 
 To install a built-in package:
 
@@ -233,7 +235,7 @@ The following table lists all Campaign built-in packages.
 
 ### Message Center package {#message-center-package}
 
-You must install delivery channels (Email, Mobile channel, Mobile App channel, etc.) before installing Transactional messaging (Message center package). If you have started an email-only Message Center project, and need to add a new channel afterwards, you must follow these steps:
+You must install delivery channels (Email, Mobile channel, Mobile App channel, LINE, etc.) before installing Transactional messaging (Message center package). If you have started an email-only Message Center project, and need to add a new channel afterwards, you must follow these steps:
 
 1. Install the new channel, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
 1. Import the file ( **[!UICONTROL Tools > Advanced > Import package > File]**), and select:
@@ -246,6 +248,19 @@ You must install delivery channels (Email, Mobile channel, Mobile App channel, e
 
    ![](assets/messagecenter_install_channel.png)
 
+
+### [!DNL LINE] channel setup{#line-package}
+
+To set up the [!DNL LINE] channel, you must first install the [!DNL LINE] package.
+
+In the context of a mid-sourcing configuration, you need to:
+
+* Install the [!DNL LINE] package on both the Marketing and the MID instance
+
+* Setup the [!DNL LINE] external account on the mkt instance to point to the mid instance by changing the delivery mode. [Learn more](../../delivery/using/line-channel.md#configure-line-external)
+
+* Setup the [!DNL LINE] credentials in the external account on the MID instance. 
+
 >[!CAUTION]
 >
->The Message Center delivery templates for LINE will not be available if the Message Center packages are installed before LINE
+>The Message Center delivery templates for [!DNL LINE] channel will not be available if the Message Center packages are installed before [!DNL LINE].

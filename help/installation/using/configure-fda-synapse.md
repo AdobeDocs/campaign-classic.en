@@ -11,7 +11,7 @@ exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 
 ![](../../assets/v7-only.svg)
 
-Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Microsoft Azure Synapse Analytics.
+Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to **Microsoft Azure Synapse Analytics**.
 
 1. Configure Azure Synapse on [CentOS](#azure-centos), [Windows](#azure-windows) or [Debian](#azure-debian)
 1. Configure the Azure Synapse [external account](#azure-external) in Campaign
@@ -184,7 +184,6 @@ To configure Azure Synapse on Debian:
    >
    >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allowlist. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
-
 ## Azure Synapse external account {#azure-external}
 
 The [!DNL Azure Synapse] external account allows you to connect your Campaign instance to your Azure Synapse external database.
@@ -199,14 +198,32 @@ To create your [!DNL Azure Synapse] external account follow the steps below:
 
     ![](assets/azure_1.png)
 
-1. Configure the [!DNL Azure Synapse] external account, you must specify:
+1. Under **[!UICONTROL Configuration]**, select **[!UICONTROL Azure Synapse Analytics]** from the **[!UICONTROL Type]** drop-down.
 
-     * **[!UICONTROL Type]**: Azure Synapse Analytics
+    ![](assets/azure_2.png)
 
-    * **[!UICONTROL Server]**: URL of the Azure Synapse server
+1. Configure the [!DNL Azure Synapse] external account:
 
-    * **[!UICONTROL Account]**: Name of the user
+    * For standard authentication, you must specify:
 
-    * **[!UICONTROL Password]**: User account password
+        * **[!UICONTROL Server]**: URL of the Azure Synapse server
 
-    * **[!UICONTROL Database]**: Name of the database
+        * **[!UICONTROL Account]**: Name of the user
+
+        * **[!UICONTROL Password]**: User account password
+
+        * **[!UICONTROL Database]**: Name of the database
+
+        ![](assets/azure_3.png)
+
+    * For System-assigned managed identity authentication, you must specify:
+
+        * **[!UICONTROL Server]**: URL of the Azure Synapse server
+
+        * **[!UICONTROL Database]**: Name of the database
+
+        * **[!UICONTROL Options]**: Add the following syntax `Authentication=ActiveDirectoryMsi`
+
+        ![](assets/azure_4.png)
+
+1. Click **[!UICONTROL Save]**.

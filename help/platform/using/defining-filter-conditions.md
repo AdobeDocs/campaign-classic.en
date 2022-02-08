@@ -937,7 +937,7 @@ It lets you select fields in the database tables and add advanced functions to t
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> Extracts the domain from an e-mail address<br /> </td> 
+   <td> Extracts the domain from an email address<br /> </td> 
    <td> GetEmailDomain(&lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 

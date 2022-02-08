@@ -23,7 +23,7 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 
 Adobe Campaign Classic, specifically, uses a range of technology to deliver value. This combination of technologies requires you to upgrade your Campaign Classic instance(s) on a regular basis, to ensure the most up-to-date versions are being used to deliver superior security, stability, and performance.
 
-If you are using Adobe Managed Services, you can benefit from Campaign [!DNL Gold Standard] upgrade. For more on this refer to [this article](../../rn/using/gs-overview.md).
+As a hosted customer, you can benefit from Campaign yearly upgrade. For more on this refer to [this article](../../rn/using/rn-overview.md#yearly-upgrade).
 
 [Read out this section](../../production/using/build-upgrade.md) to learn how to update your environment and read [Common questions](../../platform/using/faq-build-upgrade.md) on this specific topic.
 

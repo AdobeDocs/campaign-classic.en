@@ -18,7 +18,11 @@ exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 >
 >For Hosted implementations, please contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. 
 
-The integration between Adobe Campaign Classic and Adobe Analytics authentication supports Adobe Identity Management Service (IMS). You must implement Adobe IMS, and connect to Campaign [via an Adobe ID](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-via-an-adobe-id/about-adobe-id.html?lang=en), before starting Analytics Connector implementation.
+The integration between Adobe Campaign Classic and Adobe Analytics authentication supports Adobe Identity Management Service (IMS):
+
+* If you are managing a migrated external account, you must implement Adobe IMS and connect to Adobe Campaign via an Adobe ID. The user logged in via Adobe ID IMS should be the owner of the **Data connector** account in Adobe Analytics and have a set of permissions for the **Product profile** mentioned below.
+
+* If you are implementing a new connector, implementing Adobe IMS is optional. Without an Adobe ID User, Adobe Campaign will use a technical user to sync with Adobe Analytics.
 
 For this integration to work, you have to create an Adobe Analytics product profile which will be used exclusively for the Analytics connector. Then, you will need to create an Adobe I/O project.
 
@@ -131,10 +135,21 @@ Your Product profile is now configured. You then need to create the Adobe I/O pr
 
     ![](assets/do-not-localize/triggers_12.png)
 
-1. Paste these Service Account credentials to the nlserver using the following command: 
+1. Use the private key generated in step 6. 
+    
+    If you already set up Triggers using these credentials, your private key must be the same for this connector configuration.
 
-   ```
-   nlserver config -instance:<instanceName> -setimsjwtauth::<ImsOrgId>/<ClientId>/<TechnicalAccountId>/<ClientSecret>/<$(base64 -w0 /path/to/private.key)>
-   ```
+1. Encode the private key using the following command: `base64 ./private.key > private.key.base64`. This will save the base64 content to a new file `private.key.base64`.
 
+    >[!NOTE]
+    >
+    >Extra lines can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
+
+1. Copy the contents from the file `private.key.base64`.
+
+1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
+
+    ```
+    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
+    ```
 You can now start using the Analytics connector and track your customer behaviors.

@@ -90,6 +90,8 @@ You can:
 
 * Once the email is sent, check the header to verify which IP address the delivery was sent from. Your email administrator should help you obtain the header information.
 
+* For SMS deliveries, make sure that the SMS channel has a dedicated affinity limited to **one** application server container. [Learn more](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
+
 >[!NOTE]
 >
 >Most of these steps can only be performed by an expert user.

@@ -66,11 +66,11 @@ To create a service template and define its content, apply the following steps:
 
    ![](assets/s_ncs_user_supplier_node_create_template.png)
 
-1. Create the cost categories for each type of process (delivery by direct mail/e-mail/etc. or task). To do this, click the **[!UICONTROL Cost categories]** tab and then the **[!UICONTROL Add]** button, and enter the parameters of each cost category.
+1. Create the cost categories for each type of process (delivery by direct mail/email/etc. or task). To do this, click the **[!UICONTROL Cost categories]** tab and then the **[!UICONTROL Add]** button, and enter the parameters of each cost category.
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-    * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** or **[!UICONTROL Task]**. 
+    * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** or **[!UICONTROL Task]**. 
     * Click the **[!UICONTROL Add]** button to define the types of cost associated with this category.
     * If necessary, associated a stock line with each type of cost so that the quantities used will be related automatically to the existing stocks.
 
@@ -145,7 +145,7 @@ To do this, click the **[!UICONTROL Processes]** tab to configure the sending of
 
   ![](assets/s_ncs_user_supplier_node_02a.png)
 
-* The **[!UICONTROL Notification e-mail]** section lets you specify the template to notify service providers after files have been sent. Select the template used to create the alert message and the group of recipients.
+* The **[!UICONTROL Notification email]** section lets you specify the template to notify service providers after files have been sent. Select the template used to create the alert message and the group of recipients.
 
   By default, delivery templates for notification messages are saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node, which is accessible from the general view.
 
@@ -155,11 +155,11 @@ To do this, click the **[!UICONTROL Processes]** tab to configure the sending of
 
 Services are associated with campaigns via deliveries or tasks. Service providers are linked to delivery templates to offer their services in the deliveries created via this template.
 
-When a service is selected, the cost categories corresponding to the type of delivery (direct mail, e-mail, etc.) are automatically indicated in the central table along with the processing options which have been defined.
+When a service is selected, the cost categories corresponding to the type of delivery (direct mail, email, etc.) are automatically indicated in the central table along with the processing options which have been defined.
 
 >[!NOTE]
 >
->If no cost category is displayed when a service is selected, it means that no cost category was defined for this type of process. For example, for an email delivery, if no **[!UICONTROL E-mail]** type cost category has been defined, no category will be displayed, and selecting the service will have no effect.
+>If no cost category is displayed when a service is selected, it means that no cost category was defined for this type of process. For example, for an email delivery, if no **[!UICONTROL Email]** type cost category has been defined, no category will be displayed, and selecting the service will have no effect.
 
 * For a direct mail delivery, you can select the service from the configuration window.
 

@@ -362,7 +362,7 @@ You can add an upload field to a page. This functionality can be useful for intr
 
 To insert an upload field to a form page, select the **[!UICONTROL Advanced controls > File...]** menu in the toolbar of the page editor.
 
-By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. You can use a script to change this behavior. This script can use the functions defined in [Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html), including those that concern file manipulation.
+By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. You can use a script to change this behavior. This script can use the functions defined in [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html), including those that concern file manipulation.
 
 You can store the link to these files in a local variable or in a database field. For example, you can extend the recipient schema to add a link to file-based resources.
 
@@ -376,7 +376,7 @@ You can store the link to these files in a local variable or in a database field
 
 ## Inserting a hidden constant {#inserting-a-hidden-constant}
 
-When the user validates one of the pages of the form, you can set a specific value to a field of his profile or to a variable. 
+When the user validates one of the pages of the form, you can set a specific value to a field of their profile or to a variable. 
 
 This field is not visible to the user, but can be used to enrich the data in the user profile.
 

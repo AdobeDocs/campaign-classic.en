@@ -37,11 +37,18 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Feature</strong></td>
    <td><strong>Replacement</strong></td>
   </tr>
+  <tr>
+  <td>CentOs 8.x (64 bits)<br></td>
+   <td><p>CentOS Linux 8 will reach End Of Life (EOL) on December 31st, 2021. <a href="https://www.centos.org/centos-linux-eol/">Learn more</a></p>
+   <p>If you are using this operating system, you need to adapt your implementation accordingly. CentOS 7.x (64 bits) and RHEL 8.x/7.x (64 bits) are still supported.</p>
+  <p><em>Target removal date: December 31st, 2021.</em></p>
+  </td>
+ </tr>
     <tr>
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>Starting Campaign 21.1.3 release, the Adobe Analytics Data Connector is deprecated.</p>
    <p>If you are using this connector, you need to adapt your implementation accordingly. <a href="../../platform/using/adobe-analytics-connector.md">Learn more</a></p>
-  <p><em>Target removal date: March 1, 2022</em></p>
+  <p><em>Target removal date: August 17, 2022</em></p>
   </td>
  </tr>
     <tr>
@@ -49,7 +56,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><p>Starting Campaign 21.1 release, the Technical Deliverability Monitoring Report is deprecated.</p>
    <p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p> 
    <p>Adobe recommends you to engage with the Deliverability Team to define the best tools to monitor your instance deliverability performances.</p>
-  <p><em>Target removal date: End of 2021</em></p>
+  <p><em>Target removal date: Early 2022</em></p>
   </td>
  </tr>
   <tr>
@@ -57,7 +64,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. <p>
   <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-adobe-io.md">Learn more</a></p> 
   <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
-  <p><em>Target removal date: Nov 2021</em></p>
+  <p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p>
   </td>
   </tr>
  </tbody> 
@@ -71,8 +78,7 @@ This section lists features and capabilities that have been removed from Campaig
  <tbody>
   <tr> 
    <td><strong>Area - Feature</strong></td>
-   <td><strong>Replacement</strong></td> 
-  </tr>
+   <td><strong>Replacement</strong></td>
   <tr>  
    <td>Reporting<br></td>
    <td><p>Following Adobe Flash Player EOL, the Gauge report and Chart rendering engine are no longer available. <a href="../../reporting/using/creating-a-new-report.md">Learn more</a></p>
@@ -100,7 +106,7 @@ This section lists features and capabilities that have been removed from Campaig
    </tr>
    <tr>
    <td>Campaign APIs documentation - jsapi.chm file</td>
-   <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
+   <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html">the new online version</a>.</td>
   </tr> 
   <tr> 
    <td>Campaign Orchestration - Predictive marketing</td>
@@ -117,7 +123,7 @@ This section lists features and capabilities that have been removed from Campaig
   <tr> 
    <td>decryptString API</td>
    <td><p>Starting Campaign 18.6 release, for security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
-   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p></td>
+   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p></td>
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
@@ -160,7 +166,7 @@ Starting 21.1.3 release, the support for Debian 8 is deprecated.
 
 Starting 19.1 release, Adobe Campaign is no longer compatible with the following operating systems.
 
-* CentOS 6 [Learn more](https://wiki.centos.org/Download)
+* CentOS 6. [Learn more](https://wiki.centos.org/Download)
 * Debian 7. [Learn more](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [Learn more](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1163)

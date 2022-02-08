@@ -33,7 +33,7 @@ Read out the [Tables and schemas getting started](../../configuration/using/abou
 
 ## How to use a custom recipient table? {#how-to-use-a-custom-recipient-table-}
 
-You can create and implement a non-standard recipient table in Campaign to send your messages.
+You can create and implement a non-built-in recipient table in Campaign to send your messages.
 
 [Click here to learn more](../../configuration/using/about-custom-recipient-table.md)
 
@@ -59,4 +59,4 @@ The principle of data packages is to export a data configuration and integrate i
 
 ## Where can I find the list of Campaign Classic APIs? {#where-can-i-find-the-list-of-campaign-classic-apis}
 
-All Campaign APIs including their full description is available in this [dedicated documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+All Campaign APIs including their full description is available in this [dedicated documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).

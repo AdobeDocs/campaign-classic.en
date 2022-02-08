@@ -43,7 +43,7 @@ For more details on the different delivery failures you can encounter, and how t
   </tr> 
   <tr> 
    <td> Ignored<br /> </td> 
-   <td> The delivery was not sent to the recipient because of an error with his address. It was either on denylist, quarantined, not provided or a duplicate. <br /> </td> 
+   <td> The delivery was not sent to the recipient because of an error with their address. It was either on denylist, quarantined, not provided or a duplicate. <br /> </td> 
   </tr> 
   <tr> 
    <td> Failed<br /> </td> 
