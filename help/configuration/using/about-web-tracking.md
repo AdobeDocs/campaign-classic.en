@@ -2,9 +2,6 @@
 product: campaign
 title: About web tracking
 description: About web tracking
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
 ---
 # About web tracking{#about-web-tracking}

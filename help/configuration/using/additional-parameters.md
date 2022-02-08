@@ -2,12 +2,9 @@
 product: campaign
 title: Additional web tracking parameters
 description: Learn more about parameters for web tracking
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 ---
-# Additional parameters{#additional-parameters}
+# Additional web tracking parameters{#additional-parameters}
 
 ![](../../assets/v7-only.svg)
 

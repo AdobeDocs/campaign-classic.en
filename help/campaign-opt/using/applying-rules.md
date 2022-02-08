@@ -2,9 +2,6 @@
 product: campaign
 title: Applying rules
 description: Applying rules
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 ---
 # Applying rules{#applying-rules}

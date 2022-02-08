@@ -2,9 +2,7 @@
 product: campaign
 title: Pressure rules
 description: Pressure rules
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+feature: Fatigue management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 ---
 # Pressure rules{#pressure-rules}
