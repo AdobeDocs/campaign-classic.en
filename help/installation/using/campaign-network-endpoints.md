@@ -2,9 +2,6 @@
 product: campaign
 title: Campaign network endpoints
 description: Campaign network endpoints
-audience: installation
-content-type: reference
-topic-tags: additional-configurations
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
 ---
 # Campaign network endpoints {#campaign-standard-network-endpoints}

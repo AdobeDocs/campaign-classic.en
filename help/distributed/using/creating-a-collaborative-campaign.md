@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Creating a collaborative campaign
-description: Creating a collaborative campaign
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Create a collaborative campaign
+description: Learn how to create a collaborative campaign
+feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 ---
-# Creating a collaborative campaign{#creating-a-collaborative-campaign-intro}
+# Create a collaborative campaign{#creating-a-collaborative-campaign-intro}
 
 ![](../../assets/v7-only.svg)
 
 The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](about-distributed-marketing.md#collaborative-campaign).
 
-## Creating a collaborative campaign {#creating-a-collaborative-campaign}
+## Create a collaborative campaign {#creating-a-collaborative-campaign}
 
 To configure a collaborative campaign, click the **[!UICONTROL Campaign management > Campaigns]** node, then the **[!UICONTROL New]** icon.
 
@@ -149,7 +147,7 @@ In automatic mode, the local entity is pre-subscribed for the campaign. It may c
 
 Configuration for notifications is identical to notifications for a local entity. Refer to [this section](creating-a-local-campaign.md#notifications).
 
-## Ordering a campaign {#ordering-a-campaign}
+## Order a campaign {#ordering-a-campaign}
 
 When a collaborative campaign is added to the list of campaign packages, the local entities belonging to the audience defined by the central entity are notified (the **collaborative campaigns (by target approval)** do not have a predefined audience). The message sent contains a link that lets you register for the campaign, as shown below:
 
@@ -167,6 +165,6 @@ After a local entity has completed their registration, central entities are noti
 
 For more on this, refer to the [Approval process](creating-a-local-campaign.md#approval-process) section.
 
-## Approving an order {#approving-an-order}
+## Approve an order {#approving-an-order}
 
 The process for approving a collaborative campaign package order is the same as when doing so for a local campaign. Refer to [this section](creating-a-local-campaign.md#approving-an-order).

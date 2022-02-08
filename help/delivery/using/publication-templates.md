@@ -2,9 +2,6 @@
 product: campaign
 title: Publication templates
 description: Publication templates
-audience: delivery
-content-type: reference
-topic-tags: content-management
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 ---
 # Publication templates{#publication-templates}
@@ -29,7 +26,7 @@ The identification key of a stylesheet is a string made up of the namespace and 
 >
 >In practice, it is recommended to use the same key for the schema, the form, and the publication template.
 
-## Creating and configuring the template {#creating-and-configuring-the-template}
+## Create and configure the template {#creating-and-configuring-the-template}
 
 Publication templates are stored by default in the **[!UICONTROL Administration > Configuration > Publication templates]** node. To create a new template, click the **[!UICONTROL New]** button above the list of templates.
 
@@ -81,7 +78,7 @@ The following publication options are available:
 
   >[!NOTE]
   >
-  >For more on content generation, refer to [Creating a content instance](using-a-content-template.md#creating-a-content-instance).
+  >For more on content generation, refer to [Create a content instance](using-a-content-template.md#creating-a-content-instance).
 
 ### Delivery {#delivery}
 
@@ -91,7 +88,7 @@ This tab lets you select a scenario in order to launch a delivery directly on th
 
 >[!NOTE]
 >
->For an example of delivery creation based on a content, refer to [Delivering a content instance](using-a-content-template.md#delivering-a-content-instance).
+>For an example of delivery creation based on a content, refer to [Deliver a content instance](using-a-content-template.md#delivering-a-content-instance).
 
 ### Aggregator {#aggregator}
 

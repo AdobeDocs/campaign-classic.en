@@ -2,12 +2,10 @@
 product: campaign
 title: Accessing campaigns
 description: Accessing campaigns
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+feature: Distributed Marketing
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
 ---
-# Accessing campaigns{#accessing-campaigns}
+# Access campaigns{#accessing-campaigns}
 
 ![](../../assets/v7-only.svg)
 
@@ -15,7 +13,7 @@ Once a campaign has been ordered, the order has been approved, and the availabil
 
 Depending on the campaign type and the options selected, the campaign is executed locally or centrally.
 
-## Accessing the campaign {#accessing-the-campaign}
+## Access the campaign {#accessing-the-campaign}
 
 Once the order is approved and the availability date reached, the campaign is created locally and can be used. Local operators are notified of its availability.
 

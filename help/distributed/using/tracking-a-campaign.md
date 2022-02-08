@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Tracking a campaign
-description: Tracking a campaign
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Track a campaign
+description: Learn how to track a campaign with Campaign Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 ---
-# Tracking a campaign{#tracking-a-campaign}
+# Track a campaign{#tracking-a-campaign}
 
 ![](../../assets/v7-only.svg)
 
@@ -18,7 +15,7 @@ This lets them:
 * [Filter packages](#filter-packages),
 * [Edit packages](#edit-packages),
 * [Cancel a package](#cancel-a-package),
-* [Reinitializing a package](#reinitializing-a-package).
+* [Reinitialize a package](#reinitializing-a-package).
 
 ## Filter packages {#filter-packages}
 
@@ -80,7 +77,7 @@ For **collaborative campaigns**, canceling a package triggers numerous actions:
 
 Canceled packages can still be accessed and reinitialized by the central entity (see below) if necessary. They will only be offered to local entities again once they have been approved and started. The package reinitialization process is shown below.
 
-## Reinitializing a package {#reinitializing-a-package}
+## Reinitialize a package {#reinitializing-a-package}
 
 Campaign packages which have already been published can be reinitialized, modified and made available to local entities.
 

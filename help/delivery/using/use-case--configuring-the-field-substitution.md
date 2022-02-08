@@ -2,12 +2,10 @@
 product: campaign
 title: "Use case: configuring the field substitution"
 description: "Use case: configuring the field substitution"
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 ---
-# Use case: configuring the field substitution{#use-case-configuring-the-field-substitution}
+# Use case: configure the field substitution{#use-case-configuring-the-field-substitution}
 
 ![](../../assets/common.svg)
 
@@ -26,15 +24,15 @@ To use the random field substitution you must have:
 * a delivery with one or several personalization fields,
 * seed addresses whose **data schema** is modified according to the personalization fields used in the delivery.
 
-## Creating a delivery {#step-1---creating-a-delivery}
+## Create a delivery {#step-1---creating-a-delivery}
 
-The steps for creating a delivery are detailed in the [Creating an email delivery](creating-an-email-delivery.md) section.
+The steps for creating a delivery are detailed in the [Create an email delivery](creating-an-email-delivery.md) section.
 
 In this example, the delivery manager has created the newsletter.
 
 ![](assets/dlv_seeds_usecase_24.png)
 
-## Editing the seed addresses data schema {#editing-the-seed-addresses-data-schema}
+## Edi the seed addresses data schema {#editing-the-seed-addresses-data-schema}
 
 The instructions on how to modify a data schema are detailed in the section.
 
@@ -47,7 +45,7 @@ In this example, the seed addresses data schema takes a value created from the r
 
 This enumeration lets the user specify the favorite literary genre of their clients.
 
-For this data schema modification to be viewable in the seed addresses **Input form**, you must update it. Refer to the [Updating the input form](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
+For this data schema modification to be viewable in the seed addresses **Input form**, you must update it. Refer to the [Update the input form](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
 
 ## Configuring personalization {#configuring-personalization}
 
@@ -57,7 +55,7 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure your delivery list and your seed addresses. Refer to [Identifying target populations](steps-defining-the-target-population.md).
+1. Configure your delivery list and your seed addresses. Refer to [Identify target populations](steps-defining-the-target-population.md).
 
    In this example, the user selects users whose **favorite literary genre** is Sci-Fi as the main target population.
 
@@ -69,7 +67,7 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    >[!NOTE]
    >
-   >For more information on the **[!UICONTROL Edit the dynamic condition...]** link, refer to [Use case: selecting seed addresses on criteria](use-case--selecting-seed-addresses-on-criteria.md).
+   >For more information on the **[!UICONTROL Edit the dynamic condition...]** link, refer to [Use case: select seed addresses on criteria](use-case--selecting-seed-addresses-on-criteria.md).
 
 1. Click the **[!UICONTROL Preview]** tab then select a seed address to test the personalization.
 

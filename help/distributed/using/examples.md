@@ -1,23 +1,21 @@
 ---
 product: campaign
-title: Examples
-description: Examples
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Distributed Marketing samples
+description: Distributed Marketing samples
+feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 ---
-# Examples{#examples}
+# Distributed Marketing samples{#distributed-marketing-samples}
 
 ![](../../assets/v7-only.svg)
 
-## Creating a local campaign (by form) {#creating-a-local-campaign--by-form-}
+## Create a local campaign (by form) {#creating-a-local-campaign--by-form-}
 
 The **By form** type web interface involves using a **web application**. Depending on its configuration, this web application can contain any type of defined personalized elements. For example, you can suggest links to evaluate the target, the budget, the content, etc. via dedicated APIs.
 
 >[!NOTE]
 >
->APIs are detailed in a dedicated document, access to which is dependent on your contract. Refer to [API](../../configuration/using/about-web-services.md).
+>APIs are detailed in a dedicated document. [Learn more](../../configuration/using/about-web-services.md).
 >
 >The Web application used in this example is not a Web app that comes out-of-the-box with Adobe Campaign. To use a form in a campaign, you must create the dedicated web application.
 
@@ -67,7 +65,7 @@ In this example, the following APIs are used:
   var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
   ```
 
-## Creating a collaborative campaign (by target approval) {#creating-a-collaborative-campaign--by-target-approval-}
+## Create a collaborative campaign (by target approval) {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### Introduction {#introduction}
 
@@ -112,7 +110,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 ### Central entity side {#central-entity-side}
 
-#### Creating a data distribution activity {#creating-a-data-distribution-activity}
+#### Create a data distribution activity {#creating-a-data-distribution-activity}
 
 1. To set up a collaborative campaign (by target approval) you must first create a **[!UICONTROL Data distribution activity]**. Click the **[!UICONTROL New]** icon in the **[!UICONTROL Resources > Campaign management > Data distribution]** node.
 
@@ -136,7 +134,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 1. Save your new data distribution.
 
-#### Creating a collaborative campaign {#creating-a-collaborative-campaign}
+#### Create a collaborative campaign {#creating-a-collaborative-campaign}
 
 1. From the **[!UICONTROL Campaign management > Campaign]** node, create a new **[!UICONTROL collaborative campaign (by target approval)]**.
 1. In the **[!UICONTROL Targeting and workflows]** tab, create a workflow for your campaign. This must contain a **Split** activity in which the **[!UICONTROL Record count limitation]** is defined by the **[!UICONTROL Data distribution]** activity.
@@ -153,7 +151,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 1. Save your record.
 
-#### Publishing the campaign {#publishing-the-campaign}
+#### Publish the campaign {#publishing-the-campaign}
 
 You can now add a **campaign package** from the **[!UICONTROL Campaigns]** tab.
 
@@ -172,7 +170,7 @@ You can now add a **campaign package** from the **[!UICONTROL Campaigns]** tab.
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## Creating a collaborative campaign (by form) {#creating-a-collaborative-campaign--by-form-}
+## Create a collaborative campaign (by form) {#creating-a-collaborative-campaign--by-form-}
 
 ### Introduction {#introduction-1}
 

@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Personalization fields
-description: Personalization fields
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+description: Learn how to use personalization fields
+feature: Personalization
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 ---
 # Personalization fields{#personalization-fields}

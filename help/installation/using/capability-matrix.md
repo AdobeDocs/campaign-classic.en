@@ -2,9 +2,6 @@
 product: campaign
 title: Campaign On-premise, Hybrid and Hosted capability matrix
 description: Learn main differences between hosted and on-premise deployments
-audience: installation
-content-type: reference
-topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 ---
 # Capability matrix per model{#capability-matrix-per-model}

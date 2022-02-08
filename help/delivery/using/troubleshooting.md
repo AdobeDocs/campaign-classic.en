@@ -2,9 +2,6 @@
 product: campaign
 title: Troubleshooting
 description: Troubleshooting
-audience: delivery
-content-type: reference
-topic-tags: sending-push-notifications
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
 ---
 # Troubleshooting{#troubleshooting}

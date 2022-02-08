@@ -1,26 +1,23 @@
 ---
 product: campaign
-title: "Use case: creating content management"
-description: "Use case: creating content management"
-audience: delivery
-content-type: reference
-topic-tags: content-management
+title: "Use case: create content management"
+description: "Use case: create content management"
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 ---
-# Use case: creating content management{#use-case-creating-content-management}
+# Use case: create content management{#use-case-creating-content-management}
 
 ![](../../assets/common.svg)
 
 To create content management in Adobe Campaign, the following steps are necessary:
 
-* [Step 1 - Analyzing the content to be produced](#step-1---analyzing-the-content-to-be-produced),
-* [Step 2 - Creating the data schema](#step-2---creating-the-data-schema),
-* [Step 3 - Creating the input form](#step-3---creating-the-input-form),
-* [Step 4 - Creating the construction template](#step-4---creating-the-construction-template),
-* [Step 5 - Creating the publication template](#step-5---creating-the-publication-template),
-* [Step 6 - Creating contents](#step-6---creating-contents).
+* [Step 1 - Analyze the content to be produced](#step-1---analyzing-the-content-to-be-produced),
+* [Step 2 - Create the data schema](#step-2---creating-the-data-schema),
+* [Step 3 - Create the input form](#step-3---creating-the-input-form),
+* [Step 4 - Create the construction template](#step-4---creating-the-construction-template),
+* [Step 5 - Create the publication template](#step-5---creating-the-publication-template),
+* [Step 6 - Create contents](#step-6---creating-contents).
 
-## Step 1 - Analyzing the content to be produced {#step-1---analyzing-the-content-to-be-produced}
+## Step 1 - Analyze the content to be produced {#step-1---analyzing-the-content-to-be-produced}
 
 Before you start, you need to carry out a precise analysis of the content to be produced: identify the elements to display, study the constraints linked to them, define a type for each element, etc. You also need to differentiate static elements and variable ones.
 
@@ -46,7 +43,7 @@ The various elements of this newsletter are put together based on the rules defi
 
 These elements are created via a dedicated schema which specifies the following elements for each content: name, label, type, size, as well as any other information relevant to its processing in Adobe Campaign.
 
-## Step 2 - Creating the data schema {#step-2---creating-the-data-schema}
+## Step 2 - Create the data schema {#step-2---creating-the-data-schema}
 
 A data schema is an XML document associated with content. It describes the XML structure of the data in this content.
 
@@ -156,7 +153,7 @@ To create a data schema, apply the following steps:
 
 1. Click **[!UICONTROL Save]** to create the data schema.
 
-## Step 3 - Creating the input form {#step-3---creating-the-input-form}
+## Step 3 - Create the input form {#step-3---creating-the-input-form}
 
 The input form lets you edit a content instance via an input interface from the Adobe Campaign client console.
 
@@ -208,7 +205,7 @@ To create an input form for content management, apply the following steps:
 
 1. Click **[!UICONTROL Save]** to create the input form.
 
-## Step 4 - Creating the construction template {#step-4---creating-the-construction-template}
+## Step 4 - Create the construction template {#step-4---creating-the-construction-template}
 
 The XSLT language lets you transform an XML document into another output document. This transformation is described in XML in a document called a stylesheet.
 
@@ -320,7 +317,7 @@ To use a JavaScript template in Adobe Campaign, apply the following steps:
    </html>
    ```
 
-   Calling up a function at the start of a template lets you set up a call to personalization data taken from the Adobe Campaign database (in this case: recipient.firstName and recipient.lastName), so that it can be interpreted when used in a delivery. For more on this, refer to [Including a JavaScript template](formatting.md#including-a-javascript-template).
+   Calling up a function at the start of a template lets you set up a call to personalization data taken from the Adobe Campaign database (in this case: recipient.firstName and recipient.lastName), so that it can be interpreted when used in a delivery. For more on this, refer to [Include a JavaScript template](formatting.md#including-a-javascript-template).
 
    In this example, the function will contain the following code:
 
@@ -343,7 +340,7 @@ To use a JavaScript template in Adobe Campaign, apply the following steps:
 
    ![](assets/contentmgt_jscode_perso_sample.png)
 
-## Step 5 - Creating the publication template {#step-5---creating-the-publication-template}
+## Step 5 - Create the publication template {#step-5---creating-the-publication-template}
 
 The next step involves creating a content publication template to link up the schema, the form, and the content construction template. This publication template can have several output formats.
 
@@ -369,15 +366,15 @@ In this example, the steps are as follows:
 
 1. Click **[!UICONTROL Save]** to create the publication template.
 
-## Step 6 - Creating contents {#step-6---creating-contents}
+## Step 6 - Create contents {#step-6---creating-contents}
 
 You may now create content based on this publication template.
 
 >[!NOTE]
 >
->For more on creating contents, refer to [Using a content template](using-a-content-template.md).
+>For more on creating contents, refer to [Use a content template](using-a-content-template.md).
 
-### Creating content in the delivery wizard {#creating-content-in-the-delivery-wizard}
+### Create content in the delivery wizard {#creating-content-in-the-delivery-wizard}
 
 To create content directly in the deliveries, apply the following steps:
 
