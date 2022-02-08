@@ -3,8 +3,6 @@ product: campaign
 title: Accessing marketing campaigns
 description: Accessing marketing campaigns
 audience: campaign
-content-type: reference
-topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 ---
 # Accessing marketing campaigns{#accessing-marketing-campaigns}

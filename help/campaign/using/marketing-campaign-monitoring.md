@@ -2,9 +2,7 @@
 product: campaign
 title: Monitoring marketing campaigns
 description: Monitoring marketing campaigns
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Campaigns, Monitoring
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 ---
 # Monitor marketing campaigns {#monitoring-marketing-campaigns}

@@ -102,7 +102,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Libre Office</td>
 <td>
-<p>6 (and previous versions if embedded in your system)</p>
+<p>7 (and previous versions if embedded in your system)</p>
 </td>
 </tr>
 <tr>

@@ -151,7 +151,7 @@ net stop nlserver6
 
 ## Installing LibreOffice {#installing-libreoffice}
 
-Download LibreOffice, for example from [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/) and follow the regular installation steps.
+Download LibreOffice and follow the regular installation steps.
 
 Add the following environment variable:
 

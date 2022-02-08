@@ -2,9 +2,7 @@
 product: campaign
 title: Marketing campaign target audience
 description: Learn how to define the audience of your marketing campaigns
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 ---
 # Select the audience of your campaigns {#marketing-campaign-deliveries}
