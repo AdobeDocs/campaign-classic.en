@@ -2,9 +2,6 @@
 product: campaign
 title: Target mapping
 description: Learn how to create a target mapping
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 ---
 # Target mapping{#target-mapping}
@@ -124,7 +121,3 @@ There are two ways of using the new schema as the target of a delivery:
 * Select mapping directly during target selection when creating a delivery, as shown below:
 
 ![](assets/mapping_selection_ciblage.png)
-
-**Related topic**
-
-* [Quickly respond to customer requests to access their data](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)

@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Web tracking mode
-description: Web tracking mode
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
+description: Learn how to select the web tracking mode
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 ---
 # Web tracking mode{#web-tracking-mode}

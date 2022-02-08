@@ -2,9 +2,6 @@
 product: campaign
 title: Identify a form
 description: Identify a form
-audience: configuration
-content-type: reference
-topic-tags: input-forms
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 ---
 # Identify a form{#identifying-a-form}

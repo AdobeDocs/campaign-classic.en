@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: LINE channel
-description: LINE channel
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
+title: Create LINE deliveries
+description: Learn how to create LINE messages
+feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 ---
 # Create LINE deliveries{#line-channel}

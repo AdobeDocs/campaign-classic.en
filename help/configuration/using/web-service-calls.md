@@ -2,9 +2,7 @@
 product: campaign
 title: Web service calls
 description: Web service calls
-audience: configuration
-content-type: reference
-topic-tags: api
+feature: API
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 ---
 # Web service calls{#web-service-calls}

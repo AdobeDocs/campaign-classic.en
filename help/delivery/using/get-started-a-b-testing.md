@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with A/B testing
 description: Learn more about A/B testing in Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+feature: A/B Testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
 ---
 # Get started with A/B testing {#get-started-a-b-testing}

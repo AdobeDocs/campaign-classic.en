@@ -2,9 +2,6 @@
 product: campaign
 title: SOAP methods in JavaScript
 description: SOAP methods in JavaScript
-audience: configuration
-content-type: reference
-topic-tags: api
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 ---
 # SOAP methods in JavaScript{#soap-methods-in-javascript}

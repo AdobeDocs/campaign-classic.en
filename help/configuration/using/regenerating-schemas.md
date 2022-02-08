@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Regenerating schemas
-description: Regenerating schemas
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+title: Regenerate schemas
+description: Learn how to regenerate Campaign schemas
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
 ---
-# Regenerating schemas{#regenerating-schemas}
+# Regenerate schemas{#regenerating-schemas}
 
 ![](../../assets/v7-only.svg)
 

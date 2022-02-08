@@ -2,9 +2,7 @@
 product: campaign
 title: Restricting PII view
 description: Restricting PII view
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: PI
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 ---
 # Restrict PI view{#restricting-pii-view}

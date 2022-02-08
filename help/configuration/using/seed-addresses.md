@@ -2,9 +2,7 @@
 product: campaign
 title: Seed addresses
 description: Seed addresses
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 ---
 # Seed addresses{#seed-addresses}
@@ -40,7 +38,7 @@ Definition of the recipients table extended schema:
 
 Apply the following steps:
 
-1. Create an extension of the **nms:seedMember** schema. For more on this, refer to [Extending a schema](../../configuration/using/extending-a-schema.md).
+1. Create an extension of the **nms:seedMember** schema. For more on this, refer to [this section](../../configuration/using/extending-a-schema.md).
 1. In this new extension, add a new element at the root of **[!UICONTROL seedMember]** with the following parameters:
 
    ```
@@ -81,7 +79,7 @@ Apply the following steps:
    >    
    >
 
-1. Modify the **[!UICONTROL seedMember]** form accordingly to define a new "Internal recipient" tab in the **[!UICONTROL Seed addresses]** window. For more on this, refer to [Form structure](../../configuration/using/form-structure.md).
+1. Modify the **[!UICONTROL seedMember]** form accordingly to define a new "Internal recipient" tab in the **[!UICONTROL Seed addresses]** window. For more on this, refer to [this page](../../configuration/using/form-structure.md).
 
    ```
    

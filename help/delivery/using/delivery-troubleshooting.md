@@ -1,10 +1,7 @@
 ---
 product: campaign
-title: Troubleshooting
-description: Learn more about delivery performances and how to troubleshoot issues related to delivery monitoring.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+title: Delivery sending troubleshooting
+description: Learn more about delivery performances and how to troubleshoot issues related to delivery monitoring
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 ---
 # Delivery sending troubleshooting {#delivery-troubleshooting}

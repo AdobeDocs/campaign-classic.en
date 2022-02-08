@@ -2,9 +2,6 @@
 product: campaign
 title: Configuring the iOS mobile application in Adobe Campaign
 description: Learn how to set up your mobile application for iOS
-audience: delivery
-content-type: reference
-topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 ---
 # Configuration steps for iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
