@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: Edition
-description: Edition
-audience: configuration
-content-type: reference
-topic-tags: navigation-hierarchy
+description: Editio
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 ---
+
 # Edit Campaign Explorer navigation tree{#edition}
 
 ![](../../assets/v7-only.svg)

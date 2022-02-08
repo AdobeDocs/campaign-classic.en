@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Configuring the interface
-description: Configuring the interface
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+title: Configure the interface
+description: Learn how to configure Campaign interface
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 ---
-# Configuring the interface{#configuring-the-interface}
+# Configure the interface{#configuring-the-interface}
 
 ![](../../assets/common.svg)
 
