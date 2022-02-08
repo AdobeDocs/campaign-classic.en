@@ -2,7 +2,7 @@
 product: campaign
 title: Marketing campaign deliveries
 description: Learn more about marketing campaign deliveries
-audience: campaign
+feature: Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 ---
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
@@ -15,7 +15,7 @@ When created from a campaign, deliveries will be linked to this campaign and con
 
 ![](assets/do-not-localize/how-to-video.png)[ Discover this feature in video](#create-email-video)
 
-## Creating deliveries {#creating-deliveries}
+## Create deliveries {#creating-deliveries}
 
 To create a delivery linked to a campaign, click the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
 
@@ -23,11 +23,11 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. [Learn more](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-## Starting a delivery {#starting-a-delivery}
+## Start a delivery {#starting-a-delivery}
 
 Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
 
-### Starting an online delivery {#starting-an-online-delivery}
+### Start an online delivery {#starting-an-online-delivery}
 
 Once all approval requests have been granted, the delivery status changes to **[!UICONTROL Pending confirmation]** and can be started by an operator. Where appropriate, the Adobe Campaign operator (or group of operators) appointed as reviewer to start the delivery is notified that a delivery is ready to be started.
 
@@ -45,7 +45,7 @@ The information also appears on the campaign dashboard. The **[!UICONTROL Confir
 
 A confirmation message lets you secure this action.
 
-### Starting an offline delivery {#starting-an-offline-delivery}
+### Start an offline delivery {#starting-an-offline-delivery}
 
 Once all approvals have been granted, the delivery status changes to **[!UICONTROL Pending extraction]**. The extraction files are created via a special workflow which, in a default configuration, starts automatically when a direct mail delivery is pending extraction. When a process is in progress, it is displayed in the dashboard and can be edited via its link.
 
@@ -57,7 +57,7 @@ Once all approvals have been granted, the delivery status changes to **[!UICONTR
 
 Once the extraction workflow has been successfully executed, the extraction file must be approved (provided that extraction file approval was selected in the delivery settings).
 
-For more on this, refer to [Approving an extraction file](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
+For more on this, refer to [Approve an extraction file](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
 **Step 2 - Approval of the message to the service provider**
 
@@ -108,7 +108,7 @@ The file extraction launches two operations: budget calculation and stock calcul
 >
 >For further information about cost calculations and stock management, see [Providers, stocks and budgets](../../campaign/using/providers--stocks-and-budgets.md).
 
-## Managing associated documents {#managing-associated-documents}
+## Manage associated documents {#managing-associated-documents}
 
 You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). Learn how to link documents with a campaign [in this section](../../campaign/using/marketing-campaign-assets.md).
 
@@ -120,9 +120,9 @@ In a campaign you can also refer to other items, such as promotional coupons, sp
 
 >[!NOTE]
 >
->If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Managing marketing resources](../../mrm/using/managing-marketing-resources.md).
+>If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Manage marketing resources](../../mrm/using/managing-marketing-resources.md).
 
-### Adding documents {#adding-documents}
+### Add documents {#adding-documents}
 
 Documents can be associated at the campaign level (contextual documents) or the program level (general documents).
 
@@ -149,7 +149,7 @@ In the dashboard, documents associated with the campaign are grouped in the **[!
 
 They can also be edited and modified from this view.
 
-### Associating and structuring resources linked via a delivery outline {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+### Associate and structure resources linked via a delivery outline {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ These elements are grouped in delivery outlines, and a particular delivery outli
 
 For a campaign, delivery outlines let you structure external elements to be associated with the delivery according to certain criteria: related branch, promotional offer granted, invitation to a local event, etc.
 
-#### Creating an outline {#creating-an-outline}
+#### Create an outline {#creating-an-outline}
 
 To create an outline, click the **[!UICONTROL Delivery outlines]** sub-tab in the **[!UICONTROL Edit > Documents]** tab of the concerned campaign.
 
@@ -199,7 +199,7 @@ An outline can contain items and personalization fields, resources and offers:
   >
   >For more on marketing resources, refer to [Managing marketing resources](../../mrm/using/managing-marketing-resources.md).
 
-#### Selecting an outline {#selecting-an-outline}
+#### Select an outline {#selecting-an-outline}
 
 For each delivery, you can select the outline to associate from the section reserved for the extraction outline, as in the following example:
 

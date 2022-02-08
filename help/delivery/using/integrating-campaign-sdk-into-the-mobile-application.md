@@ -2,7 +2,7 @@
 product: campaign
 title: Integrate Campaign SDK
 description: Learn how to integrate Campaign SDK to your mobile app
-feature: Mobile SDK integration, Push
+feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 ---
 # Integrate Campaign SDK with your app {#integrating-campaign-sdk-into-the-mobile-application}

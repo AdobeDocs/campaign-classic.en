@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Get started with delivery monitoring
-description: Learn more about Campaign Classic delivery monitoring capabilities.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: Learn more about Campaign Classic delivery monitoring capabilities
+feature: Monitoring
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 ---
 # Get started with delivery monitoring {#about-delivery-monitoring}

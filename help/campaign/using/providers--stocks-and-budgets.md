@@ -2,6 +2,7 @@
 product: campaign
 title: Providers, stocks and budgets
 description: Providers, stocks and budgets
+feature: Budget Management
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 ---
 # Providers, stocks and budgets{#providers-stocks-and-budgets}

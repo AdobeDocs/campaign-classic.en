@@ -2,7 +2,7 @@
 product: campaign
 title: Pressure rules
 description: Pressure rules
-feature: Fatigue management, Typology Rules
+feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 ---
 # Pressure rules{#pressure-rules}
@@ -89,7 +89,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
 1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. For more on this, refer to [Applying typologies](about-campaign-typologies.md#applying-typologies).
 
-## Defining thresholds and weights {#defining-thresholds-and-weights}
+## Define thresholds and weights {#defining-thresholds-and-weights}
 
 ### Maximum number of messages {#maximum-number-of-messages}
 
@@ -135,7 +135,7 @@ In the following example, we want to link the weight of newsletters on music to 
 
 1. Apply this rule to messages with the following topic: newsletters, special offers, etc. The weight of these deliveries, and therefore their level of priority, will depend on each recipients' propensity score.
 
-## Setting the period {#setting-the-period}
+## Set the period {#setting-the-period}
 
 Pressure rules are defined in **n**-day rolling periods.
 
@@ -214,7 +214,7 @@ If this number exceeds the threshold, the arbitration rules defined in the campa
 
 ## Use cases on pressure rules {#use-cases-on-pressure-rules}
 
-### Adapting the threshold based on criterion {#adapting-the-threshold-based-on-criterion}
+### Adapt the threshold based on criterion {#adapting-the-threshold-based-on-criterion}
 
 We want to create a typology rule to prevent the delivery of more than 4 messages per week to customers and 2 messages per week to prospects.
 
@@ -284,7 +284,7 @@ During delivery analysis, delivery recipients are excluded from the delivery if 
 
   ![](assets/campaign_opt_pressure_sample_1_10.png)
 
-### Calculating the delivery weight based on behavior {#calculating-the-delivery-weight-based-on-behavior}
+### Calculate the delivery weight based on behavior {#calculating-the-delivery-weight-based-on-behavior}
 
 You can define pressure rules based on recipient behavior: thus, the weight of a delivery can adapt to criteria which vary from one recipient to another. For instance, you can decide to send a message depending on whether or not a recipient visited your internet site, clicked in a specific section of the last newsletter, subscribed to an information service, or even based on answers to a survey, an online game, etc.
 
@@ -310,7 +310,7 @@ Apply the following configuration steps:
 1. Click **[!UICONTROL Finish]** to save this rule.
 1. Link the rule to a campaign typology and reference this typology in a delivery to approve it.
 
-### Sending only the highest-weighted messages {#sending-only-the-highest-weighted-messages}
+### Send only the highest-weighted messages {#sending-only-the-highest-weighted-messages}
 
 You want to send no more than 2 messages within the same week, with a limit of 2 messages per day, to each of your recipients, and you only want the messages with higher weights to be delivered.
 
@@ -318,19 +318,19 @@ To do this, you need to schedule several deliveries with different weights for t
 
 First, configure the pressure rule.
 
-1. Create a pressure rule. For more on this, refer to [Creating a pressure rule](#creating-a-pressure-rule).
+1. Create a pressure rule. For more on this, refer to [Create a pressure rule](#creating-a-pressure-rule).
 1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Re-apply the rule at the start of personalization]** option.
 
    ![](assets/campaign_opt_pressure_example_5.png)
 
-   This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. For more on this, refer to [Adjusting calculation frequency](applying-rules.md#adjusting-calculation-frequency).
+   This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. For more on this, refer to [Adjust calculation frequency](applying-rules.md#adjusting-calculation-frequency).
 
 1. In the **[!UICONTROL Pressure]** tab, select **[!UICONTROL 7d]** as the **[!UICONTROL Period considered]** and **[!UICONTROL Grouping per day]** as the **[!UICONTROL Period type]**.
 1. Select the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option to include the scheduled deliveries.
 
    ![](assets/campaign_opt_pressure_example_1.png)
 
-   Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Setting the period](#setting-the-period).
+   Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Set the period](#setting-the-period).
 
    >[!AVAILABILITY]
    >Scheduled deliveries cannot be taken into account in Campaign v8.
