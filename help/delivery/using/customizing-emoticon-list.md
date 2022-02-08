@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Customizing the emoticon list
-description: Learn how to customize the emoticon list when using Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+title: Customize the emoticon list
+description: Learn how to customize the emoticon list when using Adobe Campaign Classic
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 ---
-# Customizing the emoticon list {#customize-emoticons}
+# Customize the emoticon list {#customize-emoticons}
 
 ![](../../assets/common.svg)
 

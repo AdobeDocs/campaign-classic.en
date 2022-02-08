@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Delivery dashboard
-description: Learn more about how to use the delivery dashboard to monitor your deliveries.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: Learn more about how to use the delivery dashboard to monitor your deliveries
+feature: Monitoring
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 ---
 # Delivery dashboard {#delivery-dashboard}

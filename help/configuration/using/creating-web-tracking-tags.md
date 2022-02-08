@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Creating web tracking tags
-description: Creating web tracking tags
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
+title: Create web tracking tags
+description: Learn how to create web tracking tags
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
 ---
-# Creating web tracking tags{#creating-web-tracking-tags}
+# Create web tracking tags{#creating-web-tracking-tags}
 
 ![](../../assets/v7-only.svg)
 

@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Configuring and sending the delivery
-description: Configuring and sending the delivery
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+title: Configure and send the delivery
+description: Learn how to configure and send the delivery
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 ---
-# Configuring and sending the delivery {#configuring-and-sending-the-delivery}
+# Configure and send the delivery {#configuring-and-sending-the-delivery}
 
 ![](../../assets/common.svg)
 
@@ -29,7 +26,7 @@ Before sending the delivery, you can define the sending parameters in the delive
   >
   >When the delivery is duplicated, the parameter is reset.
 
-* **[!UICONTROL Send using multiple waves]**: For more on this, refer to [Sending using multiple waves](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: For more on this, refer to [Send using multiple waves](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: This option allows you to test sending a delivery via SMTP. The delivery is processed up to connection to the SMTP server but is not sent.
 
@@ -39,11 +36,11 @@ Before sending the delivery, you can define the sending parameters in the delive
 
 * **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [this section](sending-messages.md#archiving-emails).
 
-## Confirming delivery {#confirming-delivery}
+## Confirm delivery {#confirming-delivery}
 
 When the delivery is configured and ready to be sent, make sure you have run the delivery analysis.
 
-To do this, click **[!UICONTROL Send]**, select the desired action and click **[!UICONTROL Analyze]**. For more on this, see [Launching the analysis](steps-validating-the-delivery.md#analyzing-the-delivery).
+To do this, click **[!UICONTROL Send]**, select the desired action and click **[!UICONTROL Analyze]**. For more on this, see [Launch the analysis](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -53,11 +50,11 @@ You can then close the delivery wizard and track the execution of the delivery f
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitoring a delivery](about-delivery-monitoring.md)
-* [Understanding delivery failures](understanding-delivery-failures.md)
+* [Monitor a delivery](about-delivery-monitoring.md)
+* [Understand delivery failures](understanding-delivery-failures.md)
 * [About message tracking](about-message-tracking.md)
 
-## Scheduling the delivery sending {#scheduling-the-delivery-sending}
+## Schedule the delivery sending {#scheduling-the-delivery-sending}
 
 You can defer the delivery of messages in order to schedule the delivery or to manage sales pressure and avoid over-soliciting a population.
 
@@ -99,7 +96,7 @@ For instance, if you schedule a delivery to be executed automatically at 8 o'clo
 
 ![](assets/s_ncs_user_email_del_plan_calendar_timezone.png)
 
-## Sending using multiple waves {#sending-using-multiple-waves}
+## Send using multiple waves {#sending-using-multiple-waves}
 
 To balance the load, you can divide deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery.
 
@@ -162,7 +159,7 @@ The two examples below are the most common use cases for using multiple waves.
 
   ![](assets/s_ncs_user_wizard_waves_call_center.png)
 
-## Configuring retries {#configuring-retries}
+## Configure retries {#configuring-retries}
 
 Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
@@ -174,9 +171,9 @@ For on-premise installations and hosted/hybrid installations using the legacy Ca
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](#defining-validity-period)).
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. See [Define the validity period](#defining-validity-period).
 
-## Defining validity period {#defining-validity-period}
+## Define the validity period {#defining-validity-period}
 
 When the delivery has been launched, the messages (and any retries) can be sent until the delivery deadline. This is indicated in the delivery properties, via the **[!UICONTROL Validity]** tab.
 

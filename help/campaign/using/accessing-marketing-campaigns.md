@@ -1,8 +1,8 @@
 ---
 product: campaign
-title: Accessing marketing campaigns
-description: Accessing marketing campaigns
-audience: campaign
+title: Access marketing campaigns
+description: Access marketing campaigns
+feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 ---
 # Accessing marketing campaigns{#accessing-marketing-campaigns}

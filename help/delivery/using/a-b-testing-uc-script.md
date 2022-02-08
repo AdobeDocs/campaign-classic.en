@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Creating the script
-description: Learn how to perform A/B testing through a dedicated use case.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+description: Learn how to perform A/B testing through a dedicated use case
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 ---
 # Create the script {#step-5--creating-the-script}

@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Understanding delivery failures
+title: Understand delivery failures
 description: Learn how to understand delivery failures
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Monitoring
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 ---
-# Understanding delivery failures{#understanding-delivery-failures}
+# Understand delivery failures{#understanding-delivery-failures}
 
 ![](../../assets/common.svg)
 
@@ -186,7 +184,7 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. See [Defining validity period](steps-sending-the-delivery.md#defining-validity-period).
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [Configuring retries](steps-sending-the-delivery.md#configuring-retries)).
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template. See [Configure retries](steps-sending-the-delivery.md#configuring-retries).
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 

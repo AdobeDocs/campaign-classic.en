@@ -1,10 +1,7 @@
 ---
 product: campaign
-title: Elements and attributes
-description: Elements and attributes
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+title: Schema elements and attributes
+description: keyfield element
 exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
 ---
 # keyfield element {#keyfield--element}

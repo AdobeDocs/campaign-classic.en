@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Delivery statuses
-description: Learn more about the statuses available on your delivery dashboard.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: Learn more about the statuses available on your delivery dashboard
+feature: Monitoring
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 ---
 # Delivery statuses {#delivery-statuses}
@@ -25,7 +23,7 @@ For more details on the different delivery failures you can encounter, and how t
 
 * [Delivery dashboard](delivery-dashboard.md)
 * [Delivery troubleshooting](delivery-troubleshooting.md)
-* [About deliverability](about-deliverability.md)
+* [Get started with deliverability](about-deliverability.md)
 
 ## List of delivery statuses {#list-delivery-statuses}
 

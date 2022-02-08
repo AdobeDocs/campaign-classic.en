@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Configuring population samples
-description: Learn how to perform A/B testing through a dedicated use case.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+description: Learn how to perform A/B testing through a dedicated use case
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 ---
 # Configure population samples {#step-2--configuring-population-samples}

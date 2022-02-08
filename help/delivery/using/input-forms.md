@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Input forms
-description: Input forms
-audience: delivery
-content-type: reference
-topic-tags: content-management
+description: Learn how to use input forms in Campaign
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 ---
 # Input forms{#input-forms}

@@ -2,9 +2,6 @@
 product: campaign
 title: Filtering schemas
 description: Filtering schemas
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 ---
 # Filter schemas{#filtering-schemas}

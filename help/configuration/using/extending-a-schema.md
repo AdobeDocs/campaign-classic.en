@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Extending a schema
+title: Extend a schema
 description: Learn how to extend a schema
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
 ---
-# Extending a schema{#extending-a-schema}
+# Extend a schema{#extending-a-schema}
 
 ![](../../assets/v7-only.svg)
 
@@ -57,5 +55,5 @@ There are two methods for extending an existing schema:
 
 >[!IMPORTANT]
 >
->For the modifications to be taken into account, you need to regenerate schemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.   
->If the modifications impact the structure of the database, you need to run an update. For more on this, refer to the [Updating the database structure](../../configuration/using/updating-the-database-structure.md) section.
+>For the modifications to be taken into account, you need to regenerate schemas. For more on this, refer to [this page](../../configuration/using/regenerating-schemas.md).   
+>If the modifications impact the structure of the database, you need to run an update. For more on this, refer to [this page](../../configuration/using/updating-the-database-structure.md).

@@ -1,10 +1,7 @@
 ---
 product: campaign
-title: Configuring email parameters in Adobe Campaign Classic
-description: Learn about options and settings that are specific to email delivery.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+title: Email parameter
+description: Learn about options and settings that are specific to email delivery
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 ---
 # Email parameters {#email-parameters}

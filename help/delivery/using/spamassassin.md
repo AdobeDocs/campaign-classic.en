@@ -2,16 +2,11 @@
 product: campaign
 title: SpamAssassin
 description: Learn how to set up email spam detection with SpamAssassin
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 ---
 # SpamAssassin{#spamassassin}
 
 ![](../../assets/common.svg)
-
-## About SpamAssassin {#about-spamassassin}
 
 Adobe Campaign can be configured to work with [SpamAssassin](https://spamassassin.apache.org), a third-party service used for email spam filtering. This allows you to score emails to determine whether a message runs the risk of being considered as spam by the anti-spam tools used upon receipt.
 
@@ -29,7 +24,7 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 >
 >The rules that govern whether an element is spam or not are managed via SpamAssassin and can be edited by an administrator with privileges.
 
-## Using SpamAssassin {#using-spamassassin}
+## Use SpamAssassin in Campaign {#using-spamassassin}
 
 Once you have created your email delivery and defined its content, follow the steps below to evaluate the risks.
 

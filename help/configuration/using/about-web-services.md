@@ -2,9 +2,7 @@
 product: campaign
 title: About web services
 description: About web services
-audience: configuration
-content-type: reference
-topic-tags: api
+feature: API
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 ---
 # About web services{#about-web-services}

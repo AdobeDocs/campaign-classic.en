@@ -2,9 +2,7 @@
 product: campaign
 title: Delivery performances best practices
 description: Learn more about delivery performances and best practices.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Deliverability
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 ---
 # Delivery performances best practices {#delivery-performances}

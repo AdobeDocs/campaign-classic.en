@@ -2,9 +2,6 @@
 product: campaign
 title: Enriching content
 description: Enriching content
-audience: delivery
-content-type: reference
-topic-tags: content-management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 ---
 # Enriching content{#enriching-content}

@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Creating an email delivery
-description: Creating an email delivery
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+title: Create an email delivery
+description: Learn how to create an email delivery
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 ---
-# Creating an email delivery{#creating-an-email-delivery}
+# Create an email delivery{#creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 

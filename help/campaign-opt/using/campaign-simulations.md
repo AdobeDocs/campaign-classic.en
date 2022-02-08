@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Campaign simulations
-description: Campaign simulations
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+description: Get started with Campaign simulations
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 ---
 # Campaign simulations{#campaign-simulations}
@@ -25,9 +22,9 @@ Simulation lets you monitor and compare the impact of deliveries.
 
 ![](assets/simu_campaign_select_delivery_mode.png)
 
-## Setting up a simulation {#setting-up-a-simulation}
+## Set up a simulation {#setting-up-a-simulation}
 
-### Creating a simulation {#creating-a-simulation}
+### Create a simulation {#creating-a-simulation}
 
 To create a simulation, apply the following steps:
 
@@ -91,9 +88,9 @@ The **[!UICONTROL General]** tab of the simulation lets you enter execution sett
 * The **[!UICONTROL Priority]** is the level applied to the simulation to delay its triggering.
 * **[!UICONTROL Save SQL queries in the log]**. SQL logs let you diagnose a simulation if it ends with errors. They can also help you find out why a simulation is too slow. These messages will be visible after the simulation in the **[!UICONTROL SQL logs]** sub-tab of the **[!UICONTROL Audit]** tab.
 
-## Executing a simulation {#executing-a-simulation}
+## Execute a simulation {#executing-a-simulation}
 
-### Starting a simulation {#starting-a-simulation}
+### Start a simulation {#starting-a-simulation}
 
 Once the simulation scope is defined, you can execute it.
 
@@ -123,7 +120,7 @@ Once execution is complete, open the simulation and click the **[!UICONTROL Resu
 
    For an example of analysis table creation, refer to the end of [Exploring results](#exploring-results).
 
-### Viewing results {#viewing-results}
+### View results {#viewing-results}
 
 #### Audit {#audit}
 
@@ -131,7 +128,7 @@ The **[!UICONTROL Audit]** tab lets you monitor simulation execution. The **[!UI
 
 ![](assets/simu_campaign_opti_11.png)
 
-#### Exploring results {#exploring-results}
+#### Explore results {#exploring-results}
 
 The **[!UICONTROL Exploration of the exclusions]** sub-tab lets you analyze the data resulting from a simulation.
 
@@ -161,7 +158,7 @@ To access reports, click the **[!UICONTROL Reports]** link of the targeted simul
 
 You can also edit reports using the **[!UICONTROL Reports]** link accessible from the simulation dashboard.
 
-### Comparing simulations {#comparing-simulations-}
+### Compare simulations {#comparing-simulations-}
 
 Each time a simulation is executed, the result replaces any previous results: you cannot display and compare results from one execution to another.
 

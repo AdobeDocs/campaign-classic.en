@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Adobe Campaign Classic data model description
-description: This document describes the Adobe Campaign data model.
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+description: This document describes the Adobe Campaign data model
+feature: Data Model
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 ---
 # Campaign data model description{#data-model-description}
