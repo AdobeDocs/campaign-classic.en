@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: event-activities
 exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
 ---
-# About event activities{#about-event-activities}
+# Event activities in workflows{#about-event-activities}
 
 ![](../../assets/common.svg)
 

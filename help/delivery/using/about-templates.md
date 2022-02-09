@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: About templates
-description: About templates
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+description: Get started with delivery templates
+feature: Delivery Templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 ---
 # About templates{#about-templates}
@@ -29,4 +27,4 @@ There are two types of template:
 
 >[!NOTE]
 >
->The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. For more on this, refer to [Select a target mapping](selecting-a-target-mapping.md) and [About services and subscriptions](about-services-and-subscriptions.md).
+>The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. For more on this, refer to [Select a target mapping](selecting-a-target-mapping.md) and [Services and subscriptions](about-services-and-subscriptions.md).

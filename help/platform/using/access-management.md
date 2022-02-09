@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with permissions
 description: Learn how to grant access to Campaign capabilities
-feature: Access Management
-role: User, Admin
-level: Beginner
+feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 ---
 # Get started with permissions{#access-management}

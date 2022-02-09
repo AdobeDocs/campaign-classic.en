@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: About services and subscriptions
-description: About services and subscriptions
-audience: delivery
-content-type: reference
-topic-tags: subscriptions-and-referrals
+description: Get started with services and subscriptions in Adobe Campaign
+feature: Subscriptions
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 ---
 # About services and subscriptions{#about-services-and-subscriptions}

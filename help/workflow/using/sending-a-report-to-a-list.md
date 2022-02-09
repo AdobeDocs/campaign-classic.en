@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Sending a report to a list
+title: Send a report to a list
 description: Learn how to send a report to a list with a workflow
-audience: workflow
-content-type: reference
-topic-tags: use-cases
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 ---
-# Sending a report to a list{#sending-a-report-to-a-list}
+# Send a report to a list{#sending-a-report-to-a-list}
 
 ![](../../assets/common.svg)
 

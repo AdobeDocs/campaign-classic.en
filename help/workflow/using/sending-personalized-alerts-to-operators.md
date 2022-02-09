@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Sending personalized alerts to operators
+title: Send personalized alerts to operators
 description: Learn how to send personalized alerts to operators
-audience: workflow
-content-type: reference
-topic-tags: use-cases
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 ---
-# Sending personalized alerts to operators{#sending-personalized-alerts-to-operators}
+# Send personalized alerts to operators{#sending-personalized-alerts-to-operators}
 
 ![](../../assets/common.svg)
 

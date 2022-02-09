@@ -2,12 +2,10 @@
 product: campaign
 title: Querying the recipient table
 description: Learn how to query the recipient table
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 ---
-# Querying the recipient table {#querying-recipient-table}
+# Query the recipient table {#querying-recipient-table}
 
 ![](../../assets/common.svg)
 

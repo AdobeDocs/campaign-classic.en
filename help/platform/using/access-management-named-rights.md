@@ -2,7 +2,7 @@
 product: campaign
 title: Use named rights to set up permissions
 description: Learn how to use named rights to set up permissions
-feature: Access Management
+feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0

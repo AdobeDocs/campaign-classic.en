@@ -2,12 +2,10 @@
 product: campaign
 title: About targeting activities
 description: About targeting activities
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Data Management, Audiences
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 ---
-# About targeting activities{#about-targeting-activities}
+# Targeting activities in workflows{#about-targeting-activities}
 
 ![](../../assets/common.svg)
 

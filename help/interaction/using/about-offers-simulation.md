@@ -2,9 +2,6 @@
 product: campaign
 title: About offers simulation
 description: About offers simulation
-audience: interaction
-content-type: reference
-topic-tags: simulating-offers
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
 ---
 # About offers simulation{#about-offers-simulation}

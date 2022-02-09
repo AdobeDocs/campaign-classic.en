@@ -2,12 +2,10 @@
 product: campaign
 title: Querying using grouping management
 description: Learn how to perform queries using grouping management
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Query Editor
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 ---
-# Querying using grouping management {#querying-using-grouping-management}
+# Query using grouping management {#querying-using-grouping-management}
 
 ![](../../assets/common.svg)
 

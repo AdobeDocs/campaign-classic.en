@@ -1,9 +1,8 @@
 ---
 product: campaign
 title: Check before sending
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Once your message is ready, perform all checks before sending
+feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 ---
 # Perform all checks before sending {#perform-all-checks}
