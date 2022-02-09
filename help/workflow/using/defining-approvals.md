@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Defining approvals
+title: Define approvals
 description: Approvals enable operators to make decisions governing a workflow or to confirm its continued execution
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 ---
-# Defining approvals {#defining-approvals}
+# Define approvals {#defining-approvals}
 
 ![](../../assets/common.svg)
 
@@ -23,7 +21,7 @@ In operations, all stages that require approval are based on the same principle.
 
 ![](assets/validation-1-in-op.png)
 
-Approval examples can be found in this [section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+Approval examples can be found in [this section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 An operator can respond in one of two ways: validating using the Web page linked in the email message, or via the console.
 
@@ -31,7 +29,7 @@ An operator can respond in one of two ways: validating using the Web page linked
 >
 >Once the response is saved it may not be modified.
 
-## Sending emails {#sending-emails}
+## Approvals by email {#sending-emails}
 
 It is possible to receive an approval message containing a link to a Web page via which it is possible to respond. For the targeted operator to receive an approval email, the operator email address must be complete. If this is not the case, the operator must use the console to respond
 
@@ -41,7 +39,7 @@ Approval emails are sent continuously. The default delivery template is **[!UICO
 
 Deliveries created via this template are stored in the **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** folder.
 
-## Approval via the console {#approval-via-the-console}
+## Approvals via the console {#approval-via-the-console}
 
 In operations, elements to be approved are displayed on the campaign dashboard.
 

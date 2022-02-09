@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Accessing an external database
-description: Accessing an external database
-audience: platform
-content-type: reference
-topic-tags: connectors
+title: Define external data mapping
+description: Learn how to map data in an external database
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
 ---
-# Defining data mapping {#defining-data-mapping}
+# Define external data mapping {#defining-data-mapping}
 
 ![](../../assets/v7-only.svg)
 
