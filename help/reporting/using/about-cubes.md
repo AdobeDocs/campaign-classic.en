@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: About cubes
-description: About cubes
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: Get started with cubes
+description: Get started with cubes
+feature: Reporting
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 ---
 # Get started with cubes{#about-cubes}
@@ -23,57 +21,41 @@ Once they have been created and configured, cubes are used in report query boxes
 >
 >**Marketing Analytics** is an Adobe Campaign module. It needs to be installed on your instance so that you can use the capabilities described below.
 
-With Marketing Analytics module, Campaign enables you to:
+Use the Campaign Marketing Analytics module to:
 
-1. Create cubes in view of:
+1. Create cubes
 
-    * aggregating data and storing it in a work table to pre-calculate indicators based on user needs,
-    * reducing the volume of data involved in the various calculations used for reports and queries, thus significantly optimizing indicator calculation times,
-    * simplifying access to data, enabling users to manipulate data (whether it is pre-aggregated or not) depending on various dimensions.
+    * aggregate and store data in a work table to pre-calculate indicators based on user needs,
+    * reduce the volume of data involved in the various calculations used for reports and queries, thus significantly optimizing indicator calculation times,
+    * simplify access to data, enable users to manipulate data (whether it is pre-aggregated or not) depending on various dimensions.
 
-   For more on this, refer to [Creating indicators](../../reporting/using/creating-indicators.md).
+   For more on this, refer to [Create indicators](../../reporting/using/creating-indicators.md).
 
-1. Create pivot tables in view of:
+1. Create pivot tables
 
-    * exploring calculated data, configured measures,
-    * selecting the data to display as well as its display mode,
-    * personalizing the measures and indicators used,
-    * offering interactive analysis tools to users with a non-technical background.
+    * explore calculated data, configured measures,
+    * select the data to display as well as its display mode,
+    * personalize the measures and indicators used,
+    * offer interactive analysis tools to users with a non-technical background.
 
-   For more on this, refer to [Using cubes to explore data](../../reporting/using/using-cubes-to-explore-data.md).
+   For more on this, refer to [Use cubes to explore data](../../reporting/using/using-cubes-to-explore-data.md).
 
 1. Build a query using data calculated and aggregated in a Cube.
 1. Identify populations and reference them in lists.
 
 ## Terminology {#terminology}
 
-When working with cubes, the following concepts must be known:
+Specific terms when working with cubes are listed below.
 
-* Cube
+* **Cube** - A cube is a representation of multidimensional information: it provides end users with structures designed for interactive data analysis.
 
-  A cube is a representation of multidimensional information: it provides end users with structures designed for interactive data analysis.
+* **Fact table/schema** - The facts table (or fact schema) contains the raw or elementary data on which analyses will be based. These are mainly large volume tables (possibly with linked tables) with potentially long calculations. For example, a fact table can be: the broadlog table, the purchase table, etc.
 
-* Fact table/schema
+* **Dimension** - Dimensions let you segment data into groups: once they have been created, the dimensions serve as analysis axes. In most cases, for a given dimension, several levels will be defined. For example, for a temporal dimension, the levels will be months, days, hours, minutes, etc. This set of levels represents the dimension hierarchy and enables various levels of data analysis.
 
-  The facts table (or fact schema) contains the raw or elementary data on which analyses will be based. These are mainly large volume tables (possibly with linked tables) with potentially long calculations.
+* **Binning** - For some fields, you can define binning to group values and make it easier to read information. Binning is applied to levels. We recommend that you define binning when there is a possibility of many different values.
 
-  For example, a fact table can be: the broadlog table, the purchase table, etc.
-
-* Dimension
-
-  Dimensions let you segment data into groups: once they have been created, the dimensions serve as analysis axes. In most cases, for a given dimension, several levels will be defined. For example, for a temporal dimension, the levels will be months, days, hours, minutes, etc. This set of levels represents the dimension hierarchy and enables various levels of data analysis.
-
-* Binning
-
-  For some fields, you can define binning to group values and make it easier to read information. Binning is applied to levels
-
-  We recommend that you define binning when there is a possibility of many different values.
-
-* Measure
-
-  The most frequent measures are sum, average, maximum, minimum, standard deviation etc.
-
-  Measures can be calculated: for instance, the acceptance rate of an offer is the ratio of the number of times it was presented compared to the number of times it was accepted.
+* **Measure** - The most frequent measures are sum, average, maximum, minimum, standard deviation etc. Measures can be calculated: for instance, the acceptance rate of an offer is the ratio of the number of times it was presented compared to the number of times it was accepted.
 
 ## Cube workspace {#cube-workspace}
 
@@ -103,4 +85,4 @@ The main contexts of use for cubes are as follows:
 
   ![](assets/s_advuser_cube_in_report.png)
 
-  For more on this, refer to [Exploring the data in a report](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
+  For more on this, refer to [Explore the data in a report](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).

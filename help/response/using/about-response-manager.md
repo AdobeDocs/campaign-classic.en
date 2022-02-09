@@ -2,9 +2,6 @@
 product: campaign
 title: About response manager
 description: About response manager
-audience: campaign
-content-type: reference
-topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 ---
 # Get started with Campaign Response Manager{#about-response-manager}

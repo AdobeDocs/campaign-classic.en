@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Use cases
-description: Use cases
-audience: reporting
-content-type: reference
-topic-tags: analyzing-populations
+description: Reporting use cases
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 ---
 # Use cases{#use-cases}

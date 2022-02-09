@@ -1,10 +1,7 @@
 ---
 product: campaign
 title: Advanced capabilities
-description: Advanced capabilities
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+description: Learn more about advanced capabilities when working with reports
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 ---
 # Advanced capabilities{#advanced-functionalities}

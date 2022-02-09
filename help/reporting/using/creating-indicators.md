@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Creating indicators
-description: Creating indicators
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: Create indicators
+description: Create indicators
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 ---
-# Creating indicators{#creating-indicators}
+# Create indicators{#creating-indicators}
 
 ![](../../assets/common.svg)
 
@@ -15,16 +12,16 @@ To make a cube functional, you need to identify the relevant dimensions and meas
 
 To create a Cube, apply the following steps:
 
-1. Select the work table. Refer to [Selecting the work table](#selecting-the-work-table).
-1. Define dimensions. Refer to [Defining dimensions](#defining-dimensions).
-1. Define measures. Refer to [Building indicators](#building-indicators).
-1. Create aggregates (optional). Refer to [Calculating and using aggregates](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+1. Select the work table. Refer to [Select the work table](#selecting-the-work-table).
+1. Define dimensions. Refer to [Define dimensions](#defining-dimensions).
+1. Define measures. Refer to [Build indicators](#building-indicators).
+1. Create aggregates (optional). Refer to [Calculate and use aggregates](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 This example shows you how to quickly create a simple cube in a report to export its measures.
 
 The implementation steps are detailed below. Exhaustive options and descriptions are available in the other sections of this chapter.
 
-## Selecting the work table {#selecting-the-work-table}
+## Select the work table {#selecting-the-work-table}
 
 To create a cube, click the **[!UICONTROL New]** button above the list of cubes.
 
@@ -40,7 +37,7 @@ Click the **[!UICONTROL Filter the source data...]** link to apply the calculati
 
 ![](assets/s_advuser_cube_wz_03.png)
 
-## Defining dimensions {#defining-dimensions}
+## Define dimensions {#defining-dimensions}
 
 Dimensions coincide with analysis axes defined for each Cube based on their related fact schema. These are the dimensions explored in the analysis, such as time (year, month, date...), a classification of products or contracts (family, reference, etc.), a population segment (by city, age group, status, etc.).
 
@@ -86,7 +83,7 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
   For more on this, refer to [Dynamically managing bins](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
-## Building indicators {#building-indicators}
+## Build indicators {#building-indicators}
 
 Once the dimensions are defined, you need to specify a calculation mode for the values to be displayed in the cells. To do this, create the matching indicators in the **[!UICONTROL Measures]** tab: create as many measures as there are columns to display in the report which will use the cube.
 
@@ -99,7 +96,7 @@ To do this, apply the following steps:
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   The **[!UICONTROL Filter the measure data...]** link lets you select only women. For more on defining measures and the available options, refer to [Defining measures](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   The **[!UICONTROL Filter the measure data...]** link lets you select only women. For more on defining measures and the available options, refer to [Define measures](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -109,7 +106,7 @@ To do this, apply the following steps:
 
 1. Save the cube.
 
-## Creating a report based on a cube {#creating-a-report-based-on-a-cube}
+## Create a report based on a cube {#creating-a-report-based-on-a-cube}
 
 Once the cube is configured, it can be used as a template for creating a new report.
 
@@ -125,7 +122,7 @@ To do this:
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. You can switch the axes of the dimension, delete them, add new measures, etc. Possible operations are detailed here: [Using cubes to explore data](../../reporting/using/using-cubes-to-explore-data.md).
+1. You can switch the axes of the dimension, delete them, add new measures, etc. Possible operations are detailed in [this page](../../reporting/using/using-cubes-to-explore-data.md).
 
    To do this, use the appropriate icons.
 
