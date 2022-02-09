@@ -2,16 +2,14 @@
 product: campaign
 title: Best practices for reporting
 description: Campaign reporting best practices
-audience: reporting
-content-type: reference
-topic-tags: reporting-in-adobe-campaign
+feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 ---
 # Reporting best practices{#best-practices-reporting}
 
 ![](../../assets/common.svg)
 
-## Analyzing needs{#analyzing-needs}
+## Analyze your needs{#analyzing-needs}
 
 Using a reporting tool depends on the volume of data to manipulate, its complexity, and on the type of reporting to be set up.
 
@@ -56,7 +54,7 @@ To optimize the creation, use and durability of a report, you need to take a clo
 
    The issues linked to data volumes and updates need to be looked into carefully to avoid report display problems, especially in terms of time. We therefore recommend creating aggregates to pre-calculate some data outside of the report. Tables that contain the tracking and delivery logs can include millions of records: this means the data needs to be aggregated via a workflow to be used in a report.
 
-## Optimizing report creation{#optimizing-report-creation}
+## Optimize report design{#optimizing-report-creation}
 
 ### Data volume {#data-volume}
 
@@ -106,6 +104,6 @@ In addition to this, Adobe Campaign recommends the following improvements:
 
   For more on cleanup and data retention, refer to [this section](../../configuration/using/data-model-best-practices.md#data-retention).
 
-### Exporting reports {#exporting-reports}
+### Export your reports {#exporting-reports}
 
 Recommendations specific to exporting reports are detailed in [this section](../../reporting/using/actions-on-reports.md#exporting-a-report).

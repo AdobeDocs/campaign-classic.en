@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: About descriptive analysis
-description: About descriptive analysis
-audience: reporting
-content-type: reference
-topic-tags: analyzing-populations
+title: Get started with descriptive analysis
+description: Get started with descriptive analysis
+feature: Reporting
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 ---
-# About descriptive analysis{#about-descriptive-analysis}
+# Get started with descriptive analysis{#about-descriptive-analysis}
 
 ![](../../assets/common.svg)
 

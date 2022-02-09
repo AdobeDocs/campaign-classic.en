@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: "Use case: displaying report on answers to an online survey"
-description: "Use case: displaying report on answers to an online survey"
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: "Use case: display report on answers to an online survey"
+description: "Use case: display report on answers to an online survey"
+feature: Reporting, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 ---
 # Use case: display a report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}

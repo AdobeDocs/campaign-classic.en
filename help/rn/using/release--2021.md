@@ -210,7 +210,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Fixed an issue when using web applications which led tracking tags to generate incorrect primary keys into the **nms:trackingURL** schema. (NEO-27931)
 * Compatibility to ODBC 3.x has been enhanced to ensure error message accuracy.
 * Fixed an issue which could lead to console crashes when custom content templates were used in email deliveries. (NEO-31547)
-* Fixed an issue that prevented Tomcat from sending valid responses due to a slow connection or large response size.
+* Fixed an issue that prevented Tomcat from sending valid responses due to a slow connection or large response size. (NEO-30858)
 * Fixed an issue which could occur when reading UUID from a PostgreSQL database.
 * Fixed an issue which could lead to performance issues when searching on proposition data linked to offers. (NEO-27554)
 * Fixed an issue which lead to the Web process not responding when the IMS service was activated but not responding.
@@ -272,7 +272,7 @@ If you’re interested in participating in this private beta, fill out this [for
 * Fixed an issue that caused some characters in the source code to be altered when reopening a web application previously created and saved. (NEO-27597)
 * Fixed an issue that could occur when upgrading to a build including the new signature mechanism for tracking links (from Build 19.1.4 and Campaign 20.2): when several templates were associated to an event, upgrading could cause the wrong template to be selected when sending the transactional message. (NEO-28326)
 * Fixed an issue that caused the MTA to become unresponsive and unable to process deliveries unless restarted. (NEO-27455)
-* Fixed an issue on MSSQL database related to timestamp management during bulk load operations for a datetime type column.
+* Fixed an issue on MSSQL database related to time zone management during bulk load operations for a datetime type column. (NEO-27375)
 * Fixed a workflow query issue when using Redshift xtk functions. The SubDays, SubSeconds, SubMinutes and SubHours now accept both Redshift timestamp types (NEO-24962).
 * Fixed an issue which displayed a script error message when trying to preview a report with Anonymous access. (NEO-27081)
 * Fixed an issue which could reduce the memory usage on the server when performing delivery analysis.

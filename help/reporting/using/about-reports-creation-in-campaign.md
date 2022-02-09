@@ -2,6 +2,7 @@
 product: campaign
 title: Key steps to create a report
 description: Learn key steps to create a report
+feature: Reporting
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 ---
 # Key steps to create a report{#key-steps-to-create-a-report}

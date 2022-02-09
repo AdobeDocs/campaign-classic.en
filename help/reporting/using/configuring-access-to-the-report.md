@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Configuring access to the report
-description: Configuring access to the report
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: Configure access to the report
+description: Configure access to the report
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 ---
-# Configuring access to the report{#configuring-access-to-the-report}
+# Configure access to the report{#configuring-access-to-the-report}
 
 ![](../../assets/common.svg)
 
@@ -55,7 +52,7 @@ The report can also be shared with specific operators or groups of operators add
 
 ![](assets/s_ncs_advuser_report_visibility_8.png)
 
-### Defining the filtering options {#defining-the-filtering-options}
+### Define the filtering options {#defining-the-filtering-options}
 
 The **[!UICONTROL Reports]** tab displays all available reports in the platform and for which the connected operator has an access right.
 
@@ -71,7 +68,7 @@ To define the category of a report, select it via the **[!UICONTROL Display]** t
 
 You can enter a new category here, and add it to the list of available categories. The matching enumeration is updated automatically.
 
-## Creating a link to a report {#creating-a-link-to-a-report-}
+## Create a link to a report {#creating-a-link-to-a-report-}
 
 It's possible to make a report accessible via a specific node of the tree, such as a list, a recipient, a delivery, etc. To do this, simply create a link to the concerned report and specify the entity where you want to make it available.
 
@@ -117,7 +114,7 @@ Specific settings enable you to control errors. The **_uuid** setting is found i
 
 To learn more about these settings, refer to the **Defning web form properties** section of the [Web forms](../../web/using/about-web-forms.md) chapter.
 
-## Publishing the report {#publishing-the-report}
+## Publish the report {#publishing-the-report}
 
 Publishing the report is mandatory in order to share them with other operators and display them in the list of available reports (also refer to [Report display context](#report-display-context)). This operation must be carried out again each time the report is changed.
 
