@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: About seed addresses
-description: About seed addresses
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+description: Get started with seed addresses
+feature: Seed Address
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 ---
 # About seed addresses{#about-seed-addresses}

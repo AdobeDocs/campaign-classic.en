@@ -2,18 +2,16 @@
 product: campaign
 title: Targeting data
 description: Learn more about Targeting data in a workflow
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 ---
-# Targeting data{#targeting-data}
+# Target data{#targeting-data}
 
 ![](../../assets/common.svg)
 
-## Creating queries {#creating-queries}
+## Create queries {#creating-queries}
 
-### Selecting data {#selecting-data}
+### Select data {#selecting-data}
 
 A **[!UICONTROL Query]** activity lets you select basic data to build the target population. For more on this, refer to [Creating a query](query.md#creating-a-query).
 
@@ -21,7 +19,7 @@ You can also use the following activities to query and refine data from the data
 
 It is possible to collect additional data to be forwarded and processed throughout the workflow's life cycle. For more on this, refer to [Adding data](query.md#adding-data) and [Editing additional data](#editing-additional-data).
 
-### Editing additional data {#editing-additional-data}
+### Edit additional data {#editing-additional-data}
 
 Once additional data has been added, you can edit it or use it to refine the target defined in the query activity.
 
@@ -47,13 +45,13 @@ Collections are shown in the **[!UICONTROL Collections]** sub-tab. You can filte
 
 ![](assets/query_add_columns_collection.png)
 
-### Refining the target using additional data {#refining-the-target-using-additional-data}
+### Refine the target using additional data {#refining-the-target-using-additional-data}
 
 The additional data collected can enable you to refine data filtering in the database. To do this, click the **[!UICONTROL Refine the target using additional data...]** link: this lets you over-filter on the added data.
 
 ![](assets/wf_add_data_use_additional_data.png)
 
-### Homogenizing data {#homogenizing-data}
+### Homogenize data {#homogenizing-data}
 
 In **[!UICONTROL Union]** or **[!UICONTROL Intersection]** type activities, you can choose to keep only shared additional data to keep the data consistent. In this case, the temporary output worktable of this activity will contain only the additional data found in all inbound sets.
 
@@ -65,7 +63,7 @@ During the data reconciliation phases (**[!UICONTROL Union]**, **[!UICONTROL Int
 
 ![](assets/select-column-and-join.png)
 
-### Creating subsets {#creating-subsets}
+### Create subsets {#creating-subsets}
 
 The **[!UICONTROL Split]** activity lets you create subsets on criteria defined via extraction queries. For each subset, when you edit a filter condition on the population, you will then access the standard query activity which lets you define the target segmentation conditions.
 
@@ -73,9 +71,9 @@ You can split a target into several subsets using only additional data as filter
 
 For more on this, refer to [Creating subsets using the Split activity](#creating-subsets-using-the-split-activity).
 
-## Segmenting data {#segmenting-data}
+## Segment data {#segmenting-data}
 
-### Combining several targets (Union) {#combining-several-targets--union-}
+### Combine several targets (Union) {#combining-several-targets--union-}
 
 The union activity lets you combine the result of several activities within one transition. Sets do not necessarily have to be homogeneous.
 
@@ -113,7 +111,7 @@ The following data reconciliation options are available:
 
   ![](assets/join_limit_nb_priority.png)
 
-### Extracting joint data (Intersection) {#extracting-joint-data--intersection-}
+### Extract joint data (Intersection) {#extracting-joint-data--intersection-}
 
 ![](assets/traitements.png)
 
@@ -123,7 +121,7 @@ Furthermore, it is possible to keep only a selection of columns, or only the col
 
 The intersection activity is detailed in the [Intersection](intersection.md) section.
 
-### Excluding a population (Exclusion) {#excluding-a-population--exclusion-}
+### Exclude a population (Exclusion) {#excluding-a-population--exclusion-}
 
 The exclusion activity lets you exclude the elements of a target from a different target population. The output targeting dimension of this activity will be that of the main set.
 
@@ -133,7 +131,7 @@ Data reconciliation is carried out either via an identifier, changing axis, or a
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
-### Creating subsets using the Split activity {#creating-subsets-using-the-split-activity}
+### Create subsets using the Split activity {#creating-subsets-using-the-split-activity}
 
 The **[!UICONTROL Split]** activity is a standard activity which lets you create as many sets as necessary via one or several filtering dimensions, as well as generating either one output transition per subset or a unique transition.
 
@@ -209,7 +207,7 @@ For example, you can place a single delivery activity and personalize the delive
 
 Subsets can also be created using the **[!UICONTROL Cells]** activity. For more on this, refer to the [Cells](cells.md) section.
 
-### Using targeted data {#using-targeted-data}
+### Use targeted data {#using-targeted-data}
 
 Once the data has been identified and prepared, it can be used in the following contexts:
 
@@ -245,7 +243,7 @@ In order to implement these operations, Adobe Campaign offers:
 >  
 >For example, deleting a recipient via a workflow will not result in all of the recipient's delivery history being deleted. However, deleting a recipient directly in the 'Recipients' folder will indeed result in all data linked with this recipient being deleted.
 
-### Enriching and modifying data {#enriching-and-modifying-data}
+### Enrich and modify data {#enriching-and-modifying-data}
 
 In addition to the targeting dimension, the filtering dimension lets you specify the nature of the collected data. Refer to [Targeting and filtering dimensions](building-a-workflow.md#targeting-and-filtering-dimensions).
 

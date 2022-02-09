@@ -2,6 +2,7 @@
 product: campaign
 title: Validate the delivery
 description: Learn how to validate a delivery
+feature: Deliverability, Email Rendering, Proofs
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
 # Validate the delivery {#validating-the-delivery}

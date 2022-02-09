@@ -1,8 +1,8 @@
 ---
 product: campaign
 title: Build personalized content
-audience: delivery
-feature: Email Design
+description: Learn how to build personalized content in Adobe Campaign deliveries
+feature: Email Design, Personalization
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 ---
 # Build personalized content {#build-personalized-content}

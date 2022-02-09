@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with web forms
 description: Get started with web forms in Campaign
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Landing Pages
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 ---
 # Get started with web forms{#about-web-forms}

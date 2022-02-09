@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Interaction and offer management
-description: Send the best offers to your contacts based on eligibility rules.
-audience: interaction
-content-type: reference
-topic-tags: interaction-overview
+description: Learn how to send the best offers to your contacts based on eligibility rules
+feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 ---
 # Interaction and offer management{#interaction-and-offer-management}

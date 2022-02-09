@@ -2,9 +2,7 @@
 product: campaign
 title: Query
 description: Learn more about the Query workflow activity
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 ---
 # Query{#query}

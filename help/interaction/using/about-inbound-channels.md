@@ -2,9 +2,6 @@
 product: campaign
 title: About inbound channels
 description: About inbound channels
-audience: interaction
-content-type: reference
-topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
 ---
 # About inbound channels{#about-inbound-channels}

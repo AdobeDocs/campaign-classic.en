@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with transactional messaging
 description: Learn more on the Adobe Campaign Classic transactional messaging operating principle and key steps. 
-audience: message-center
-content-type: reference
-topic-tags: introduction
+feature: Transactional Messaging
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 ---
 

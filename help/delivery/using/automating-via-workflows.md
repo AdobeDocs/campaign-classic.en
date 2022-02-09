@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Automte via workflows
+title: Automate via workflows
 description: Learn how to automate Content Management via workflows
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 ---

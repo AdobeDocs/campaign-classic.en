@@ -2,9 +2,7 @@
 product: campaign
 title: CRM Connectors data synchronization
 description: Manage data between Campaign and your CRM
-audience: platform
-content-type: reference
-topic-tags: connectors
+feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 ---
 # Synchronize data between Campaign and the CRM {#data-synchronization}
