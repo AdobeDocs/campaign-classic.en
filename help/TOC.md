@@ -502,7 +502,7 @@ type: Documentation
        + [Examples of JavaScript code in workflows](workflow/using/javascript-in-workflows.md)
        + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
        + [Manage permissions](workflow/using/managing-rights.md)
-       + [Manage activity images](workflow/using/managing-activity-images.md)
+       + [Change activity images](workflow/using/managing-activity-images.md)
        + [Manage time zones](workflow/using/managing-time-zones.md)
        + [Technical workflows](workflow/using/about-technical-workflows.md)
 + Manage Offers {#managing-offers}

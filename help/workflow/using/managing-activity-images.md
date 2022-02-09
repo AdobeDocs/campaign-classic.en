@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Managing activity images
-description: Managing activity images
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+title: Change activity images
+description: Learn how to change the activity image
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 ---
-# Managing activity images{#managing-activity-images}
+# Change activity images{#change-activity-images}
 
 ![](../../assets/common.svg)
 
