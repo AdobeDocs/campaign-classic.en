@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: Installing Campaign Classic built-in packages
+title: Install Campaign Classic built-in packages
 description: Learn how to install Campaign built-in packages
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 ---
-# Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
+# Install Campaign Classic built-in packages{#installing-campaign-standard-packages}
 
 ![](../../assets/v7-only.svg)
 

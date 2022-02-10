@@ -1,17 +1,13 @@
 ---
 product: campaign
-title: ACS Connector principles and data cycle
+title: Get started with ACS Connector
 description: ACS Connector principles and data cycle
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 ---
-# ACS Connector principles and data cycle{#acs-connector-principles-and-data-cycle}
+# Get started with ACS Connector{#acs-connector-gs}
 
 ![](../../assets/v7-only.svg)
-
-## Introduction {#introduction}
 
 ACS Connector bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. Campaign v7 has advanced tools to manage the primary marketing database. The data replication from Campaign v7 allows Campaign Standard to leverage the rich data in a user-friendly environment.
 
@@ -31,9 +27,9 @@ This document presents the ACS Connector capabilities. The sections below provid
 
 * [Process](#process): Overview of ACS Connector and how data replication is managed.
 * [Implementation](#implementation): Overview of how to get started with ACS Connector as well as instructions on how to replicate basic and advanced data.
-* [Synchronizing profiles](../../integrations/using/synchronizing-profiles.md): Instructions on how to replicate profiles and how to create deliveries with them.
-* [Synchronizing audiences](../../integrations/using/synchronizing-audiences.md): Instructions on how to target a list of recipients in Campaign v7 and then replicate the list to Campaign Standard as an audience.
-* [Synchronizing web applications](../../integrations/using/synchronizing-web-applications.md): Instructions on how to link Campaign v7 web applications to Campaign Standard.
+* [Synchronize profiles](../../integrations/using/synchronizing-profiles.md): Instructions on how to replicate profiles and how to create deliveries with them.
+* [Synchronize audiences](../../integrations/using/synchronizing-audiences.md): Instructions on how to target a list of recipients in Campaign v7 and then replicate the list to Campaign Standard as an audience.
+* [Synchronize web applications](../../integrations/using/synchronizing-web-applications.md): Instructions on how to link Campaign v7 web applications to Campaign Standard.
 * [Troubleshooting the ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md): Review answers to common problems.
 
 >[!NOTE]
@@ -81,7 +77,7 @@ ACS Connector synchronizes quarantines between Campaign v7 and Campaign Standard
 
 For example, a profile that has been replicated from Campaign v7 to Campaign Standard includes an email address. If the email address is quarantined by Campaign Standard, the data is passed to Campaign v7 during the next synchronization. For more information on quarantines, see [Quarantine management](../../delivery/using/understanding-quarantine-management.md) and [Campaign Standard Quarantines](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
-### Using replicated profiles {#using-replicated-profiles}
+### Use replicated profiles {#using-replicated-profiles}
 
 Replicated profiles can be used by Campaign Standard and Campaign v7 for targeting workflows in marketing campaigns.
 
@@ -95,7 +91,7 @@ Replicated profiles are readily available for deliveries but have certain limita
 * **Profiles created in Campaign Standard**: ACS Connector replicates recipient data in one direction, from Campaign v7 to Campaign Standard. Therefore, profiles that originate in Campaign Standard do not replicate to Campaign v7.
 * **Basic recipient data for Campaign Standard**: ACS Connector replicates recipient data that is suitable for Campaign Standard. It includes recipients' names, addresses, email addresses, mobile phone numbers, home phone numbers, and other pertinent contact information. If additional recipient fields and custom targeting tables available in Campaign v7 are critical to your workflow, please speak to your consultant.
 * **Importing quarantined profiles**: Lists of profiles who do not want to be contacted can be imported into Campaign v7 or Campaign Standard as quarantined profiles. The status for the profiles is included in the quarantine synchronization between the applications and they will not be used in deliveries.
-* **Unsubscribe to a service in Campaign Standard**: The choice to unsubscribe to a delivery is not synchronized from Campaign Standard to Campaign v7. However, you can configure a Campaign Standard delivery to direct its unsubscription link to Campaign v7. The profile for a recipient who clicks the unsubscription link is updated in Campaign v7 and the data is replicated to Campaign Standard. See [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+* **Unsubscribe to a service in Campaign Standard**: The choice to unsubscribe to a delivery is not synchronized from Campaign Standard to Campaign v7. However, you can configure a Campaign Standard delivery to direct its unsubscription link to Campaign v7. The profile for a recipient who clicks the unsubscription link is updated in Campaign v7 and the data is replicated to Campaign Standard. See [Change the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 * Only email broadlogs and tracking logs are replicated from Campaign Standard to Campaign v7.
 
 ### Billing {#billing}
@@ -116,7 +112,7 @@ The **basic implementation** allows you to replicate recipients (out-of-the-box 
 
 The **advanced implementation** will allow you to perform more complex use cases, for example if you have additional recipient fields or custom recipient tables (transaction table for example). See [Advanced implementation](#advanced-implementation).
 
-### Installing the package {#installing-the-package}
+### Install the package {#installing-the-package}
 
 To use the feature, the **[!UICONTROL ACS Connector]** package needs to be installed. This is always performed by the Adobe technical administrator or consultant.
 

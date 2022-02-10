@@ -1,10 +1,8 @@
 ---
 product: campaign
 title: Audit trail
-description: Audit trail
-audience: production
-content-type: reference
-topic-tags: production-procedures
+description: Learn how to monitor your instance with Campaign Audit trail
+feature: Audit Trail, Monitoring
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 ---
 # Audit trail{#audit-trail}

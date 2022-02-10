@@ -370,7 +370,7 @@ type: Documentation
        + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
        + [Insert a dynamic image](integrations/using/inserting-a-dynamic-image.md)
   + ACS Connector {#acs-connector}
-       + [[!DNL ACS Connector] principles and data cycle](integrations/using/acs-connector-principles-and-data-cycle.md)
+       + [Get started with [!DNL ACS Connector]](integrations/using/acs-connector-principles-and-data-cycle.md)
        + [Synchronize profiles](integrations/using/synchronizing-profiles.md)
        + [Synchronize audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
