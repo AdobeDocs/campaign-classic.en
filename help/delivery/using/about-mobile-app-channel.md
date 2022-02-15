@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: About mobile app channel in Adobe Campaign Classic
-description: This section provides general information specific to the mobile app channel in Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: sending-push-notifications
+title: Get started with mobile app channel 
+description: Get started with mobile app channel in Adobe Campaign Classic
+feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 ---
 # Get started with mobile app channel{#about-mobile-app-channel}

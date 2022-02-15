@@ -2,9 +2,7 @@
 product: campaign
 title: Design transactional message templates
 description: Learn how to create and design a transactional message template in Adobe Campaign Classic.
-audience: message-center
-content-type: reference
-topic-tags: message-templates
+feature: Transactional Messaging
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 ---
 # Design transactional message templates {#creating-the-message-template}

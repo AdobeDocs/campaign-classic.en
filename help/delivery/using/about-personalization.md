@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with personalization
 description: Learn how to personalize messages and use conditional content in Campaign
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+feature: Personalization
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 ---
 # Get started with personalization{#about-personalization}

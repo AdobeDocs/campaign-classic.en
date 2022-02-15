@@ -2,9 +2,7 @@
 product: campaign
 title: Manage and customize lists
 description: Learn how to browse and configure lists
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 ---
 # Manage and customize lists{#manage-and-customize-lists}

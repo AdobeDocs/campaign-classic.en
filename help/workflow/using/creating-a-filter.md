@@ -2,9 +2,7 @@
 product: campaign
 title: Creating a filter
 description: Learn how to create a filter when performing queries
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Query Editor
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 ---
 # Create a filter {#creating-a-filter}

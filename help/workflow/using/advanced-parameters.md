@@ -2,9 +2,6 @@
 product: campaign
 title: Advanced parameters
 description: Advanced parameters
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 ---
 # Advanced parameters{#advanced-parameters}
@@ -29,7 +26,7 @@ This field contains the internal name of the activity.
 
 ## Image {#image}
 
-This field lets you change the image linked to an activity. For more on this, refer to: [Managing activity images](managing-activity-images.md).
+This field lets you change the image linked to an activity. For more on this, refer to [Change activity images](managing-activity-images.md).
 
 ## Execution {#execution}
 
@@ -61,7 +58,7 @@ This field lets you define the behavior to be applied for using asynchronous tas
 
 ## Time zone {#time-zone}
 
-This field lets you select the time zone of the activity. For more on this: [Managing time zones](managing-time-zones.md).
+This field lets you select the time zone of the activity. For more on this: [Manage time zones](managing-time-zones.md).
 
 ## In case of errors {#in-case-of-errors}
 

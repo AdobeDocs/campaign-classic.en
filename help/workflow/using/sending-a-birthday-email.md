@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Sending a birthday email
+title: Send a birthday email
 description: Learn how to send a birthday email with a workflow
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 ---
-# Sending a birthday email{#sending-a-birthday-email}
+# Send a birthday email{#sending-a-birthday-email}
 
 ![](../../assets/common.svg)
 

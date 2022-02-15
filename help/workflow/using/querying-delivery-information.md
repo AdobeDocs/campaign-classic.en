@@ -2,12 +2,10 @@
 product: campaign
 title: Querying delivery information
 description: Learn how to query delivery information
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Query Editor
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 ---
-# Querying delivery information {#querying-delivery-information}
+# Query delivery information {#querying-delivery-information}
 
 ![](../../assets/common.svg)
 

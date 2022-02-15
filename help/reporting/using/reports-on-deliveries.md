@@ -2,9 +2,6 @@
 product: campaign
 title: Reports on deliveries
 description: Reports on deliveries
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 ---
 # About reports on deliveries{#reports-on-deliveries}
@@ -21,7 +18,6 @@ The following types of report are available:
 
 You can access reports from the client console home page, the reports dashboard or the delivery list. The display mode of a report depends on its context. The list of main reports is available on the home page and lets you access delivery data quickly. This list can be changed to suit your needs. Refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md) for more information.
 
-## Using reports {#using-reports}
 
 A search field is available via the report dashboard for quick access to one of the reports on the list.
 

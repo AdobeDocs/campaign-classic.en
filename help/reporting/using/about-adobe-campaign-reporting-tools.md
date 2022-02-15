@@ -2,9 +2,7 @@
 product: campaign
 title: About Adobe Campaign reporting tools
 description: Analyze the success of your campaigns in build-in or customized reports.
-audience: reporting
-content-type: reference
-topic-tags: reporting-in-adobe-campaign
+feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 ---
 # Get started with reporting {#about-adobe-campaign-reporting-tools}

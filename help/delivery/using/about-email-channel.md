@@ -2,9 +2,7 @@
 product: campaign
 title: About email channel in Adobe Campaign Classic
 description: This section provides general information specific to the email channel in Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+feature: Email
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 ---
 # About email channel{#about-email-channel}

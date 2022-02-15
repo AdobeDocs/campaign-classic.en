@@ -2,9 +2,7 @@
 product: campaign
 title: About Campaign built-in reports
 description: About Campaign built-in reports
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
+feature: Reporting
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 ---
 # About Campaign built-in reports{#about-campaign-built-in-reports}

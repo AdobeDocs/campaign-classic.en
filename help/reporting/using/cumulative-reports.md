@@ -2,9 +2,6 @@
 product: campaign
 title: Cumulative reports
 description: Cumulative reports
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
 exl-id: e67748dd-fa50-4992-b85f-474389e876cf
 ---
 # Cumulative reports {#cumulative-reports}

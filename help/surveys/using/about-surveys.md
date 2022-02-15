@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with surveys
 description: Get started with Campaign surveys
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 ---
 # Get started with surveys{#about-surveys}

@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Using aggregates
+title: Use aggregates
 description: Learn how to use aggregates
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 ---
-# Using aggregates{#using-aggregates}
+# Use aggregates{#using-aggregates}
 
 ![](../../assets/common.svg)
 

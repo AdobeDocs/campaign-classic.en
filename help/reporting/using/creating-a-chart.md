@@ -1,13 +1,10 @@
 ---
 product: campaign
-title: Creating a chart
-description: Creating a chart
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: Create a chart
+description: Learn how to design a chart
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 ---
-# Creating a chart{#creating-a-chart}
+# Create a chart{#creating-a-chart}
 
 ![](../../assets/common.svg)
 
@@ -121,7 +118,7 @@ Possible interaction types and their configurations are detailed in [this sectio
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 
-## Calculating statistics {#calculating-statistics}
+## Compute statistics {#calculating-statistics}
 
 Charts let you display statistics on the collected data.
 

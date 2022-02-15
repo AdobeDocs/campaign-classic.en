@@ -2,12 +2,9 @@
 product: campaign
 title: Starting a workflow
 description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 ---
-# Starting a workflow {#starting-a-workflow}
+# Start a workflow {#starting-a-workflow}
 
 ![](../../assets/common.svg)
 

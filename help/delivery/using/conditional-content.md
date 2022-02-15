@@ -2,7 +2,7 @@
 product: campaign
 title: Conditional content
 description: Learn how to add conditional content
-feature: Personalization
+feature: Personalization, Multilingual Messages
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 ---
 # Conditional content{#conditional-content}

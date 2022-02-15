@@ -2,9 +2,7 @@
 product: campaign
 title: Delivery reports
 description: Delivery reports
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
+feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 ---
 # Delivery reports {#delivery-reports}

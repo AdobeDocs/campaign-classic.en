@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Building a workflow
+title: Build a workflow
 description: Learn how to build a workflow
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 ---
-# Building a workflow {#building-a-workflow}
+# Build a workflow {#building-a-workflow}
 
 ![](../../assets/common.svg)
 
@@ -21,7 +19,7 @@ This section details the key principles and best practices to build a workflow i
 * Access and create technical workflows, see [Technical workflows](#technical-workflows)
 * Use templates to create workflows, see [Workflow templates](#workflow-templates)
 
-## Creating a new workflow {#creating-a-new-workflow}
+## Create a new workflow {#creating-a-new-workflow}
 
 From the **[!UICONTROL Explorer]**, access a workflow folder. By default, you can use **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 
@@ -39,7 +37,7 @@ Enter a label and click **[!UICONTROL Save]**.
 >
 >When you modify the internal name of a workflow activity or the workflow itself, make sure that you save the workflow before closing it so that the new internal name is correctly taken into account.
 
-## Adding and linking activities {#adding-and-linking-activities}
+## Add and link activities {#adding-and-linking-activities}
 
 You must now define the various activities and link them together in the diagram. At this stage of the configuration, we can see the diagram label and the workflow status (Editing in progress). The lower section of the window is used for editing the diagram only. It contains a toolbar, a palette of activities (on the left) and the diagram itself (on the right).
 
@@ -76,11 +74,11 @@ To create the diagram
 
 >[!CAUTION]
 >
->You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](#duplicating-workflows).
+>You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicate workflows](#duplicating-workflows).
 
 You can change the display and layout of the chart using the following elements:
 
-* **Using the toolbar**
+* **Use the toolbar**
 
   The diagram editing toolbar gives you access to the layout and execution functions of the workflow.
 
@@ -103,9 +101,9 @@ You can change the display and layout of the chart using the following elements:
 
 * **Image management**
 
-  You can customize the background image of the diagram as well as those related to the various activities. Refer to [Managing activity images](managing-activity-images.md).
+  You can customize the background image of the diagram as well as those related to the various activities. Refer to [Change activity images](managing-activity-images.md).
 
-## Configuring activities {#configuring-activities}
+## Configure activities {#configuring-activities}
 
 Double-click an activity to configure it or right-click and select **[!UICONTROL Open...]**.
 
@@ -141,9 +139,9 @@ Targeting workflows within the framework of a campaign are stored with all campa
 
 Steps to create a targeting workflow are detailed in these sections:
 
-1. **Identify** data in the database -  See [Creating queries](targeting-data.md#creating-queries)
-1. **Prepare** data to meet delivery needs - See [Enriching and modifying data](targeting-data.md#enriching-and-modifying-data)
-1. **Use** data to perform updates or within a delivery - See [Updating the database](how-to-use-workflow-data.md#updating-the-database)
+1. **Identify** data in the database -  See [Create queries](targeting-data.md#creating-queries)
+1. **Prepare** data to meet delivery needs - See [Enrich and modify data](targeting-data.md#enriching-and-modifying-data)
+1. **Use** data to perform updates or within a delivery - See [Update the database](how-to-use-workflow-data.md#updating-the-database)
 
 The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](data-life-cycle.md#target-data)
 
@@ -213,7 +211,7 @@ In addition to the usual workflow properties, the template properties allow you 
 
 ![](assets/s_advuser_wf_template_properties.png)
 
-## Duplicating workflows {#duplicating-workflows}
+## Duplicate workflows {#duplicating-workflows}
 
 You can duplicate different types of workflows. Once duplicated, modifications of the workflow are not carried over to the copy of the workflow.
 
@@ -233,7 +231,7 @@ The duplicate feature is not directly available in the view of a campaign.
 
 Yet, you can create a view to display all the workflows on your instance. In this view, you can duplicate workflows using **Duplicate to**.
 
-**First, let's create a view:**
+**Create a view**
 
 1. In **Explorer**, go to the folder you need to create your view in.
 1. Right-click and go to **Add a new folder** > **Process**, select **Workflows**.
@@ -249,7 +247,7 @@ The new folder **Workflows** is created.
 
 The folder is now populated with all the workflows of your instance.
 
-**Duplicating a campaign workflow**
+**Duplicate a campaign workflow**
 
 1. Select a campaign workflow in the workflow view.
 1. Right-click **Duplicate to**.

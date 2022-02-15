@@ -2,7 +2,7 @@
 product: campaign
 title: Define the target population
 description: Learn how to define the target population
-feature: Audiences
+feature: Audiences, Proofs
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 ---
 # Define the target population {#defining-the-target-population}

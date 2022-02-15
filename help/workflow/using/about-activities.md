@@ -2,12 +2,10 @@
 product: campaign
 title: About activities
 description: About activities
-audience: workflow
-content-type: reference
-topic-tags: introduction
+feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
 ---
-# About activities{#about-activities}
+# Workflow activities{#wf-activities}
 
 ![](../../assets/common.svg)
 

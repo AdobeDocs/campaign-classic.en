@@ -2,9 +2,7 @@
 product: campaign
 title: Create a Refer A Friend survey
 description: Learn steps to create a Refer A Friend form
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 ---
 # Use case: create a referral form{#use-case-creating-a-refer-a-friend-form}

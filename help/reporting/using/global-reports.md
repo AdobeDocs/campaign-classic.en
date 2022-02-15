@@ -2,9 +2,7 @@
 product: campaign
 title: Global reports
 description: Global reports
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
+feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 ---
 # Global reports {#global-reports}
