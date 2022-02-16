@@ -75,7 +75,7 @@ The **[!UICONTROL Advanced parameters...]** link lets you access the following o
 
 * **[!UICONTROL Delete the source files after transfer]**
 
-  Erases the files on the remote server.
+  Erases the files on the remote server. If you leave this option unchecked, make sure you manually monitor the size of your archived content in the SFTP directory.
 
 * **[!UICONTROL Use SSL]**
 
