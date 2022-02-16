@@ -37,9 +37,8 @@ To better understand what each technical workflow is supposed to do, refer to th
 
 For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](delivery.md).
+1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../production/using/database-cleanup-workflow.md)..
 1. Look at the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
-1. For more information, check this [page](../../production/using/database-cleanup-workflow.md).
 
 For **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
@@ -47,7 +46,7 @@ Check that the Tracking workflow runs as scheduled (every hour by default), and 
 
 For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
-1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. For more on this, refer to this [page](delivery.md).
+1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day.
 1. Verify in the journal that rules are being updated regularly.
 
 For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
