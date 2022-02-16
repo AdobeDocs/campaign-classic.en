@@ -23,8 +23,6 @@ You **must implement** the new Adobe Analytics Connector integration on Adobe Ex
 
 A new integration between Campaign Classic v7 and Adobe Analytics is now available. Major changes are listed below.
 
-* Integration between Adobe Campaign Classic and Adobe Analytics authentication has moved from user/password to Adobe Identity Management Service (IMS). As a consequence, you must implement Adobe IMS, and connect to Campaign [via an Adobe ID](../../integrations/using/about-adobe-id.md), before starting Analytics Connector implementation.
-
 * The **Contact Date** Classification, which use to be of type date, has been deprecated by Adobe Analytics. For migrated integrations, it will still remain of the same type. For any **Contact Date** created by Campaign, the type will be **String**.
 
 * **Processing Rules** are created by Adobe Campaign as part of new integrations. Either **Processing Rules** should be created manually from Adobe Analytics or directly use Client-Side Javascript implementation. **Processing Rules** will remain intact for existing integrations.

@@ -29,6 +29,8 @@ The WSDL path for accessing both methods is:
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** to access the real-time type schema.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** to access the batch type schema.
 
+For more on generating a WSDL file, see [this section](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
+
 Both methods contain an **`<urn:sessiontoken>`** element for logging on to the transactional messaging module. We recommend using an identification method via trusted IP addresses. To retrieve the session token, perform a logon SOAP call, then a get token followed by a logoff. Use the same token for several RT calls. The examples included in this section are using the session token method which is the recommended one.
 
 In case you're using a loadbalanced server, you can use the User/Password authentication (at the level of the RT message). Example:

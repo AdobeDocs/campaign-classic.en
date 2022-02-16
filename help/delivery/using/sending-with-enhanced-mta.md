@@ -130,6 +130,10 @@ The Campaign Delivery throughput graph will no longer display the throughput to 
 
 For more on the delivery throughput, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
 
+>[!NOTE]
+>
+>With the [Email Feedback Service](#email-feedback-service) (EFS) capability (currently available as beta), the Campaign Delivery throughput graph is still showing the throughput to your email recipients.
+
 ### Validity period
 
 The validity period setting in your Campaign deliveries will be used by the Enhanced MTA only if set to **3.5 days or less**. If you define a value higher than 3.5 days in Campaign, it will not be taken into account.

@@ -17,7 +17,15 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2022
 
-### January
+### February 2022 {#february-2022}
+
+Updated the **File transfer** activity section with a reminder to manually monitor the size of the archived content in the SFTP directory in case the **Delete the source files after transfer** option is not selected. [Read more](../../workflow/using/file-transfer.md#properties)
+
+The Quarantine vs Denylist section has been clarified. [Read more](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+The sections on how to send an address to quarantine and how to remove addresses from the quarantine list have been updated. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+
+### January 2022 {#january-2022}
 
 **Documentation updates coming with the 7.2.1 release**
 

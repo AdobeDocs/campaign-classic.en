@@ -21,19 +21,25 @@ The profiles whose email addresses or phone number are in quarantine are automat
 
 Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
 
-Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md) .
+Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
+
+For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).
 
 ### Quarantine vs denylist {#quarantine-vs-denylist}
 
-**Quarantine** applies only to an address, not the profile itself. It means that, if two profiles have the same email address, they will both be affected if the address is quarantined.
+Quarantine and denylist do not apply to the same object:
 
-Likewise, a profile whose email address is quarantined could update their profile and enter a new address, and could then be targeted by delivery actions again.
+* **Quarantine** applies only to an **address** (or phone number, etc.), not to the profile itself. For example, a profile whose email address is quarantined can update their profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined.
 
-Being on the **denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
+  The quarantined addresses or phone numbers are displayed in the [exclusion logs](#identifying-quarantined-addresses-for-a-delivery) (for a delivery) or in the [quarantine list](#identifying-quarantined-addresses-for-the-entire-platform) (for the entire platform).
+
+* Being on the **denylist**, on the other hand, will result in the **profile** no longer being targeted by the delivery, such as after an unsubscription (opt-out), for a given channel. For example, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery.
+
+  You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile’s **[!UICONTROL General]** tab. See [this section](../../platform/using/editing-a-profile.md#general-tab).
 
 >[!NOTE]
 >
->When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, their profile is not added to the denylist like in the email opt-out process. The profile phone number is sent to quarantine, so that the user continues receiving email messages.
+>Quarantine includes a **[!UICONTROL Denylisted]** status, which applies when recipients report your message as spam or reply to an SMS message with a keyword such as “STOP”. In that case, the profile’s involved address or phone number is sent to quarantine with the **[!UICONTROL Denylisted]** status. For more on managing STOP SMS messages, refer to [this section](../../delivery/using/sms-send.md#processing-inbound-messages).
 
 ## Identify quarantined addresses {#identifying-quarantined-addresses}
 
@@ -85,9 +91,13 @@ You can look up the status of the email address of any recipient. To do this, se
 
 ### Remove a quarantined address {#removing-a-quarantined-address}
 
-If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the **[!UICONTROL Database cleanup]** workflow.
+If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the [Database cleanup](../../production/using/database-cleanup-workflow.md) workflow.
 
-To manually remove an address from the quarantine list:
+To manually remove an address from the quarantine list, perform one of the actions below.
+
+>[!IMPORTANT]
+>
+>Manually deleting an email address from quarantine means that you will start again delivering to this address. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Proceed with extra care when considering removing any address from quarantine. In case of any doubt, contact a deliverability expert.
 
 * You can change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
 
@@ -105,21 +115,27 @@ Their status then changes to **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
 >
->Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On denylist]** status will never be removed, even if they receive an email.
+>Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status will never be removed, even if they receive an email.
 
-You can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
+For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the maximum number of retries to be performed in case of **[!UICONTROL Erroneous]** status and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain.
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment wizard](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or [at the delivery level](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign manages quarantine according to the delivery failure type and the reason assigned during error messages qualification (see [Bounce mail qualification](understanding-delivery-failures.md#bounce-mail-qualification)) and [Delivery failure types and reasons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Adobe Campaign manages quarantine according to the delivery failure type and the reason assigned during error messages qualification (see [Bounce mail qualification](understanding-delivery-failures.md#bounce-mail-qualification) and [Delivery failure types and reasons](understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
 * **Ignored error**: ignored errors do not send an address to quarantine.
 * **Hard error**: the corresponding email address is immediately sent to quarantine.
 * **Soft error**: soft errors do not send immediately an address to quarantine, but they increment an error counter. For more on this, see [Soft error management](#soft-error-management).
 
-If a user qualifies an email as a spam ([feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)), the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine.
+If a user qualifies an email as a spam ([feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)), the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications.
 
-In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. Quarantine in Adobe Campaign is case sensitive. Make sure to import email addresses in lower case, so that they are not retargeted later on.
+>[!NOTE]
+>
+>Quarantine in Adobe Campaign is case sensitive. Make sure to import email addresses in lower case, so that they are not retargeted later on.
+
+In the list of quarantined addresses (see see [Identifying quarantined addresses for the entire platform](#identifying-quarantined-addresses-for-the-entire-platform)), the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine.
 
 ![](assets/tech_quarant_error_reasons.png)
 
@@ -127,11 +143,9 @@ In the list of quarantined addresses, the **[!UICONTROL Error reason]** field in
 
 As opposed to hard errors, soft errors do not send immediately an address to quarantine, but instead they increment an error counter.
 
-* When the error counter reaches the limit threshold, then the address goes into quarantine.
-* In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-* The error counter threshold can be modified. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Retries will be performed during the [delivery duration](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). When the error counter reaches the limit threshold, the address goes into quarantine. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
+The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the [Database cleanup](../../production/using/database-cleanup-workflow.md) workflow.
 
 ## Push notification quarantines {#push-notification-quarantines}
 
