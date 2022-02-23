@@ -14,7 +14,7 @@ exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 
 >[!CAUTION]
 >
->This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more
+>This capability is not available out of the box as part of the product. For this implementation, you first need to open a ticket with Adobe Support. You will then be able to follow the steps detailed in this [page](../../integrations/using/configuring-pipeline.md#prerequisites).
 
 [!DNL Triggers] run marketing actions within a short range of time following a user’s action. The typical response time is less than one hour.
 
