@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: [!DNL Gold Standard] releases
+title: "[!DNL Gold Standard] releases"
 description: Release notes and Compatibility matrix for Campaign Classic [!DNL Gold Standard]
 feature: Overview
 role: User
