@@ -13,6 +13,25 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
+## ![](assets/do-not-localize/green_2.png) Release 7.2.2 - Build XXXX {#release-7-2-2}
+
+_March 1, 2022_
+
+**Patches**
+
+* Fixed an issue, when configuring the **Web Analytics** external account, which caused the integration status to always show "Integration successful" event when errors occurred. (NEO-36672)
+* Fixed several postupgrade errors related to the sequence ID mechanism when having negative IDs. (NEO-43205, NEO-42846, NEO-42845)
+, NEO-43318, NEO-42845
+* Fixed an issue when using the **Web Analytics** external account with recurring and continuous deliveries, which caused data from the external account to be partially lost. (NEO-38548)
+* Fixed an issue which slowed down postupgrade when updating the NmsActiveContact table. (NEO-43206)
+* Fixed a postupgrade failure issue which occurred if out-of-the-box folders had been moved from the Administration node to any other location. (NEO-42875)
+* Fixed an issue when using an **Update data** workflow activity which could prevent the recipient schema from being updated with recipient data from a Google Cloud external database. (NEO-42343)
+* Fixed an issue during postupgrade related to the Adobe Analytics connector. (NEO-43318, NEO-38136)
+* Fixed an overwritten CUID by 'VALUE_TO_CHANGE' issue during postupgrade. (NEO-43267)
+* Fixed an issue which led to errors when synchronizing the mid-sourcing and marketing instances while on multi-mid configuration. (NEO-10432)
+* Fixed an issue which led to an error when refreshing the deliverability workflow when having more than 1000 broadlogs at the same time. (NEO-40276)
+* Fixed an issue which prevented the open ratio and click ratio delivery indicators from being updated automatically. (NEO-43253)
+
 ## ![](assets/do-not-localize/green_2.png) Release 7.2.1 - Build 9346 {#release-7-2-1}
 
 _January 10, 2022_
