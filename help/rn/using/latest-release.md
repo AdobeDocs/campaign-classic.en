@@ -21,7 +21,6 @@ _March 1, 2022_
 
 * Fixed an issue, when configuring the **Web Analytics** external account, which caused the integration status to always show "Integration successful" event when errors occurred. (NEO-36672)
 * Fixed several postupgrade errors related to the sequence ID mechanism when having negative IDs. (NEO-43205, NEO-42846, NEO-42845)
-, NEO-43318, NEO-42845
 * Fixed an issue when using the **Web Analytics** external account with recurring and continuous deliveries, which caused data from the external account to be partially lost. (NEO-38548)
 * Fixed an issue which slowed down postupgrade when updating the NmsActiveContact table. (NEO-43206)
 * Fixed a postupgrade failure issue which occurred if out-of-the-box folders had been moved from the Administration node to any other location. (NEO-42875)
