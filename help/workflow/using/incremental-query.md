@@ -2,9 +2,7 @@
 product: campaign
 title: Incremental query
 description: Learn more about the Incremental query workflow activity
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 ---
 # Incremental query{#incremental-query}

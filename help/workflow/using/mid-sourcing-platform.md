@@ -2,9 +2,7 @@
 product: campaign
 title: Mid-sourcing platform
 description: Mid-sourcing platform
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 ---
 
 # Mid-sourcing platform{#mid-sourcing-platform}

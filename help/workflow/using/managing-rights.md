@@ -2,9 +2,7 @@
 product: campaign
 title: Manage workflow permissions
 description: Learn how to manage workflow permissions
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+feature: Workflows
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
 ---
 # Manage workflow permissions{#managing-rights}

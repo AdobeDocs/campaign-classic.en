@@ -2,9 +2,7 @@
 product: campaign
 title: Architecture
 description: Workflows are handled by a specific module, which can be started on multiple servers in order to share the processing load.
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Workflows
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
 ---
 # Architecture {#architecture}

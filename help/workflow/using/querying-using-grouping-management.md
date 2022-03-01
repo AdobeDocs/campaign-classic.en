@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Querying using grouping management
+title: Query using grouping management
 description: Learn how to perform queries using grouping management
 feature: Query Editor
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e

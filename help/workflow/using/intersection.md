@@ -2,9 +2,7 @@
 product: campaign
 title: Intersection
 description: Intersection
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---
 # Intersection{#intersection}

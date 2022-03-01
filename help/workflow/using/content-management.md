@@ -2,9 +2,7 @@
 product: campaign
 title: Content Management
 description: Content Management
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows, Data Management
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
 ---
 # Content Management{#content-management}

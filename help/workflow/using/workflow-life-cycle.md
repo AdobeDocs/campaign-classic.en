@@ -2,9 +2,7 @@
 product: campaign
 title: Workflow life cycle
 description: Learn more about the life cycle of a workflow
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Workflows
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 ---
 # Workflow life cycle {#workflow-life-cycle}

@@ -2,9 +2,7 @@
 product: campaign
 title: AND-join
 description: AND-join
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
 ---
 # AND-join{#and-join}

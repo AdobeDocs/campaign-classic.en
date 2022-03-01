@@ -2,9 +2,7 @@
 product: campaign
 title: Jump (start point and end point)
 description: Jump (start point and end point)
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 ---
 # Jump (start point and end point){#jump-start-point-and-end-point}

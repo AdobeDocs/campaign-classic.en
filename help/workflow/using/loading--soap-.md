@@ -2,9 +2,7 @@
 product: campaign
 title: Loading (SOAP)
 description: Loading (SOAP)
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 ---
 # Loading (SOAP){#loading-soap}

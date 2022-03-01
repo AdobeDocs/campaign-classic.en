@@ -2,9 +2,7 @@
 product: campaign
 title: Transfer to Mid-sourcing
 description: Learn more about Transfer to Mid-sourcing workflows
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 ---
 
 # Transfer to Mid-sourcing{#transfer-to-mid-sourcing}

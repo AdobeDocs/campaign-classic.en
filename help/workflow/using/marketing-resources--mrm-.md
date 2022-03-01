@@ -2,9 +2,7 @@
 product: campaign
 title: Marketing Resources (MRM)
 description: Marketing Resources (MRM)
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows, Targeting Activity
 ---
 
 # Marketing Resources (MRM){#marketing-resources-mrm}

@@ -2,9 +2,7 @@
 product: campaign
 title: Enrichment
 description: Learn more about the Enrichment workflow activity
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 ---
 # Enrichment{#enrichment}

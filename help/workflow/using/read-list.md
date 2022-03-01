@@ -2,9 +2,7 @@
 product: campaign
 title: Read list
 description: Learn more about the Read list workflow activity
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 ---
 # Read list{#read-list}

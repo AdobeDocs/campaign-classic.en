@@ -2,9 +2,7 @@
 product: campaign
 title: Time constraint
 description: Learn more about the Time constraint workflow activity
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
 ---
 # Time constraint{#time-constraint}

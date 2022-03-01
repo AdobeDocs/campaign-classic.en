@@ -2,9 +2,7 @@
 product: campaign
 title: Message Center (Execution)
 description: Message Center (Execution)
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 ---
 
 # Message Center (Execution){#message-center-execution}

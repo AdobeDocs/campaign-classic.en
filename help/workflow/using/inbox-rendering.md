@@ -2,9 +2,7 @@
 product: campaign
 title: Inbox rendering technical workflow
 description: This section describes the technical workflow installed with the Inbox rendering package
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows, Inbox Rendering
 ---
 
 # Inbox rendering (IR){#inbox-rendering}

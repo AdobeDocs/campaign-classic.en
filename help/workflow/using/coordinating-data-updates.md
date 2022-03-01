@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: Coordinating data updates
-description: Coordinating data updates
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+title: Coordinate data updates
+description: Coordinate data updates
+feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 ---
 # Coordinate data updates{#coordinating-data-updates}

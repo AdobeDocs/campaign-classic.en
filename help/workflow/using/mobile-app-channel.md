@@ -2,9 +2,7 @@
 product: campaign
 title: Mobile App Channel
 description: Mobile App Channel
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 ---
 
 # Mobile App Channel{#mobile-app-channel}

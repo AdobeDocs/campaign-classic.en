@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Filtering duplicated recipients
+title: Filter duplicated recipients
 description: Learn how to filter duplicated recipients
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
 ---
-# Filtering duplicated recipients {#filtering-duplicated-recipients}
+# Filter duplicated recipients {#filtering-duplicated-recipients}
 
 ![](../../assets/common.svg)
 

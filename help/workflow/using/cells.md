@@ -2,9 +2,7 @@
 product: campaign
 title: Cells
 description: Cells
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity
 exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
 ---
 # Cells{#cells}

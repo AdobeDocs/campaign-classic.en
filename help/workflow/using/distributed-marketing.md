@@ -2,9 +2,7 @@
 product: campaign
 title: Distributed Marketing
 description: Learn more about the Distributed Marketing package
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows, Data Management, Distributed Marketing
 ---
 
 # Distributed Marketing{#distributed-marketing}

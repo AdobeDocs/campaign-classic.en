@@ -2,9 +2,7 @@
 product: campaign
 title: Privacy Data Protection Regulation workflows
 description: Learn more about the Privacy Data Protection Regulation workflows
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows, Privacy
 ---
 
 # Privacy Data Protection Regulation{#general-data-protection-regulation-gdpr}

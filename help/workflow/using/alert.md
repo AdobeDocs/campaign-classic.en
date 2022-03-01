@@ -2,9 +2,7 @@
 product: campaign
 title: Alert
 description: Alert
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
 ---
 # Alert{#alert}

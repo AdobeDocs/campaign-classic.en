@@ -2,9 +2,7 @@
 product: campaign
 title: Offer engine
 description: Offer engine
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Interaction
 exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
 ---
 # Offer engine{#offer-engine}
