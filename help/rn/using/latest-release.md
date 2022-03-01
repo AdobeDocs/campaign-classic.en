@@ -31,7 +31,7 @@ _March 1, 2022_
 * Fixed an issue which led to an error when refreshing the deliverability workflow when having more than 1000 broadlogs at the same time. (NEO-40276)
 * Fixed an issue which prevented the open ratio and click ratio delivery indicators from being updated automatically. (NEO-43253)
 
-## ![](assets/do-not-localize/orange_2.png) Release 7.2.1 - Build 9346 {#release-7-2-1}
+## ![](assets/do-not-localize/limited_2.png) Release 7.2.1 - Build 9346 {#release-7-2-1}
 
 _January 10, 2022_
 
