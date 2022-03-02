@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to the report
 description: Configure access to the report
+feature: Reporting
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 ---
 # Configure access to the report{#configuring-access-to-the-report}

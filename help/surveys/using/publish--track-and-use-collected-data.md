@@ -2,9 +2,7 @@
 product: campaign
 title: Publish, track and use collected data
 description: Learn how to publish, track and use data collected in a survey
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 ---
 # Publish, track and use collected data{#publish-track-and-use-collected-data}

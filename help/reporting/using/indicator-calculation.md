@@ -2,6 +2,7 @@
 product: campaign
 title: Indicator calculation
 description: Indicator calculation
+feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 ---
 # Indicator calculation {#indicator-calculation}

@@ -2,6 +2,7 @@
 product: campaign
 title: Collect data to analyze
 description: Collect data to analyze
+feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 ---
 # Collect data to analyze{#collecting-data-to-analyze}

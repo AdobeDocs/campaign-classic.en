@@ -2,9 +2,7 @@
 product: campaign
 title: Manage answers
 description: Learn how to manage survey answers
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 ---
 # Manage answers{#managing-answers}

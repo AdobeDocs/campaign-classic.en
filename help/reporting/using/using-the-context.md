@@ -2,6 +2,7 @@
 product: campaign
 title: Use the context in your reports
 description: Learn how to use the context in your reports
+feature: Reporting
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 ---
 # Use the context in your reports{#using-the-context}

@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Creating a local campaign
-description: Creating a local campaign
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Create a local campaign
+description: Create a local campaign
+feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 ---
-# Creating a local campaign{#creating-a-local-campaign}
+# Create a local campaign{#creating-a-local-campaign}
 
 ![](../../assets/v7-only.svg)
 

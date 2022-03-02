@@ -2,6 +2,7 @@
 product: campaign
 title: Person, people and recipients
 description: Person, people and recipients
+feature: Reporting
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 ---
 # Person/people and recipients {#person-people-and-recipients}

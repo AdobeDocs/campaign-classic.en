@@ -2,9 +2,7 @@
 product: campaign
 title: Design a survey
 description: Learn key steps to design a survey
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 ---
 # Design a survey{#building-a-survey}

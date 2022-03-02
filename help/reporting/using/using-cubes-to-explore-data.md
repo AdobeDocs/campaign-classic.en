@@ -2,6 +2,7 @@
 product: campaign
 title: Use cubes to explore data
 description: Use cubes to explore data
+feature: Reporting
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 ---
 # Use cubes to explore data{#using-cubes-to-explore-data}

@@ -2,6 +2,7 @@
 product: campaign
 title: Define a conditional content
 description: Define a conditional content
+feature: Reporting
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
 ---
 # Define a conditional content{#defining-a-conditional-content}

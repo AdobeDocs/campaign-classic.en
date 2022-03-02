@@ -2,9 +2,7 @@
 product: campaign
 title: Configure online surveys
 description: Learn how to configure online surveys
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 ---
 # Configure online surveys{#configuring-surveys}

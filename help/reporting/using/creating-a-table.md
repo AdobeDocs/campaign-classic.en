@@ -2,6 +2,7 @@
 product: campaign
 title: Create a table
 description: Create a table
+feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 ---
 # Create a table{#creating-a-table}

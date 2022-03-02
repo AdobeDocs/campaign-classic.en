@@ -2,6 +2,7 @@
 product: campaign
 title: Consistency rules
 description: Consistency rules
+feature: Typology Rules
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 ---
 # Consistency rules{#consistency-rules}

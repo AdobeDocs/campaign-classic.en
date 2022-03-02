@@ -2,6 +2,7 @@
 product: campaign
 title: Use the descriptive analysis wizard
 description: Use the descriptive analysis wizard
+feature: Reporting
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 ---
 # Use the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
