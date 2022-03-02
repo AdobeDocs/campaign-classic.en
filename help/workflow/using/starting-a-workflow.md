@@ -41,7 +41,9 @@ The toolbar buttons are detailed in this [section](../../campaign/using/marketin
 
   This action stops a workflow currently being executed. The status of the instance is set to **Finished**. Operations in progress are stopped, if possible. Imports and SQL queries are canceled immediately.
 
-  Stopping is an asynchronous process. The request is registered, then the workflow server or servers cancel operations in progress. Stopping a workflow instance can therefore take time, especially if the workflow is running on multiple servers, each one of which must take control to cancel the tasks in progress.
+  >[!IMPORTANT]
+  >
+  >Stopping a workflow is an asynchronous process: The request is registered, then the workflow server or servers cancel operations in progress. Stopping a workflow instance can therefore take time, especially if the workflow is running on multiple servers, each one of which must take control to cancel the tasks in progress. To avoid any issue, wait for the stop operation to be completed and do not perform multiple stop requests on the same workflow.
 
 * **[!UICONTROL Restart]**
 

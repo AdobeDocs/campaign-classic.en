@@ -25,6 +25,8 @@ The Quarantine vs Denylist section has been clarified. [Read more](../../deliver
 
 The sections on how to send an address to quarantine and how to remove addresses from the quarantine list have been updated. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
+Added a workflow best practice to recommend not to perform multiple stop requests on the same workflow. [Read more](../../workflow/using/workflow-best-practices.md)
+
 ### January 2022 {#january-2022}
 
 **Documentation updates coming with the 7.2.1 release**
