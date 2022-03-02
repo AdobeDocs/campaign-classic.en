@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: Designing a web application
-description: Designing a web application
-audience: web
-content-type: reference
-topic-tags: web-applications
+title: Design a web application
+description: Design a web application
+feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 ---
 # Design a web application{#designing-a-web-application}

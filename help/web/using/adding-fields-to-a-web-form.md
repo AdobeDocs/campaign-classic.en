@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Adding fields to a web form
-description: Adding fields to a web form
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Add fields to a web form
+description: Add fields to a web form
+feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 ---
-# Adding fields to a web form{#adding-fields-to-a-web-form}
+# Add fields to a web form{#adding-fields-to-a-web-form}
 
 ![](../../assets/common.svg)
 

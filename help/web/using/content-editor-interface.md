@@ -2,9 +2,7 @@
 product: campaign
 title: Content editor interface
 description: Content editor interface
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 ---
 # Content editor interface{#content-editor-interface}

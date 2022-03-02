@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Use case - creating an email delivery
-description: Creating an email delivery use case
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+title: Use case - create an email delivery
+description: Use case - create an email delivery
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 ---
-# Use case: creating an email delivery{#use-case-creating-an-email-delivery}
+# Use case: create an email delivery{#use-case-creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 

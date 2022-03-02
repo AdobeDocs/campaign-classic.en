@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Defining web forms layout
-description: Defining web forms layout
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Define web forms layout
+description: Define web forms layout
+feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 ---
-# Defining web forms layout{#defining-web-forms-layout}
+# Define web forms layout{#defining-web-forms-layout}
 
 ![](../../assets/common.svg)
 

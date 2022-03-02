@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Editing content
-description: Editing content
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+title: Edit content
+description: Edit content
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 ---
-# Editing content{#editing-content}
+# Edit content{#editing-content}
 
 ![](../../assets/common.svg)
 

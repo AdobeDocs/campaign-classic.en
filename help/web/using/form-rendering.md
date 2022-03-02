@@ -2,9 +2,7 @@
 product: campaign
 title: Form rendering
 description: Form rendering
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 ---
 # Form rendering{#form-rendering}

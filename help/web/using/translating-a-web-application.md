@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Translating a web application
-description: Translating a web application
-audience: web
-content-type: reference
-topic-tags: web-applications
+title: Translate a web application
+description: Translate a web application
+feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 ---
-# Translating a web application{#translating-a-web-application}
+# Translate a web application{#translating-a-web-application}
 
 ![](../../assets/common.svg)
 

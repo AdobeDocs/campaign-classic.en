@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: Using a web form template
-description: Using a web form template
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Use a web form template
+description: Use a web form template
+feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
 ---
 # Use a web form template{#using-a-web-form-template}
