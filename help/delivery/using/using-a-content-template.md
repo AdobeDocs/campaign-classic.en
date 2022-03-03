@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Using a content template
-description: Using a content template
-audience: delivery
-content-type: reference
-topic-tags: content-management
+title: Use a content template
+description: Use a content template
+feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 ---
-# Using a content template{#using-a-content-template}
+# Use a content template{#using-a-content-template}
 
 ![](../../assets/common.svg)
 

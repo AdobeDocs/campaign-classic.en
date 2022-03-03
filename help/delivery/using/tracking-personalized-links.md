@@ -2,9 +2,7 @@
 product: campaign
 title: Get started with personalized links tracking
 description: Learn how to write links in emails that can be personalized and support tracking in Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+feature: Personalization
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 ---
 # Get started with personalized links tracking {#tracking-personalized-links}

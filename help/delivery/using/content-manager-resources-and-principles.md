@@ -2,6 +2,7 @@
 product: campaign
 title: Content manager resources and principles
 description: Content manager resources and principle
+feature: Templates
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
 ---
 # Content manager resources and principles{#content-manager-resources-and-principles}

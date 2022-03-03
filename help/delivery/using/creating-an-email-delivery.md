@@ -2,6 +2,7 @@
 product: campaign
 title: Create an email delivery
 description: Learn how to create an email delivery
+feature: Email
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 ---
 # Create an email delivery{#creating-an-email-delivery}

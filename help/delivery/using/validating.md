@@ -2,9 +2,7 @@
 product: campaign
 title: Validating
 description: Validating
-audience: delivery
-content-type: reference
-topic-tags: sending-direct-mail
+feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
 ---
 # Validating{#validating}

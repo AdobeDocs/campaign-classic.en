@@ -2,6 +2,7 @@
 product: campaign
 title: Create a direct mail delivery
 description: Learn how to create a direct mail delivery
+feature: Direct Mail
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 ---
 # Create a direct mail delivery{#creating-a-direct-mail-delivery}

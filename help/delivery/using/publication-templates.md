@@ -2,6 +2,7 @@
 product: campaign
 title: Publication templates
 description: Publication templates
+feature: Templates
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 ---
 # Publication templates{#publication-templates}

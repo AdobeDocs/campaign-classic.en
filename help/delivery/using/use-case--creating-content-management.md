@@ -2,6 +2,7 @@
 product: campaign
 title: "Use case: create content management"
 description: "Use case: create content management"
+feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 ---
 # Use case: create content management{#use-case-creating-content-management}

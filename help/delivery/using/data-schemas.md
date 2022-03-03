@@ -2,6 +2,7 @@
 product: campaign
 title: Data schemas
 description: Data schemas
+feature: Data Model
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 ---
 # Data schemas{#data-schemas}

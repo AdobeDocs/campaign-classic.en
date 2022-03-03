@@ -1,10 +1,11 @@
 ---
 product: campaign
-title: Using an external recipient table
-description: Using an external recipient table
+title: Use an external recipient table
+description: Use an external recipient table
+feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
 ---
-# Using an external recipient table{#using-an-external-recipient-table}
+# Use an external recipient table{#using-an-external-recipient-table}
 
 ![](../../assets/common.svg)
 

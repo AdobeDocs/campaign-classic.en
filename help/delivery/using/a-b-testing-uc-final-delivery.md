@@ -1,7 +1,8 @@
 ---
 product: campaign
-title: Defining the final delivery
+title: Define the final delivery
 description: Learn how to perform A/B testing through a dedicated use case
+feature: A/B Testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
 ---
 # Define the final delivery {#step-6--defining-the-final-delivery}

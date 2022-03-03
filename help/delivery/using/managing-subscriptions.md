@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Managing subscriptions
-description: Managing subscriptions
+title: Manage subscriptions
+description: Manage subscriptions
 feature: Subscriptions
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 ---

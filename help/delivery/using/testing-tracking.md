@@ -2,6 +2,7 @@
 product: campaign
 title: Test message tracking
 description: Learn how to test message tracking
+feature: Monitoring
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 ---
 # Test message tracking{#testing-tracking}

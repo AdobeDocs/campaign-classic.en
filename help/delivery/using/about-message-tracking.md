@@ -2,6 +2,7 @@
 product: campaign
 title: Get started with tracking
 description: Learn more the general guidelines for tracking in Adobe Campaign Classic
+feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 ---
 # Get started with message tracking {#get-started-tracking}

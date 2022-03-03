@@ -2,6 +2,7 @@
 product: campaign
 title: Configure URL tracking options
 description: Learn how to configure URL tracking options
+feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 ---
 # Configure URL tracking options{#personalizing-url-tracking}

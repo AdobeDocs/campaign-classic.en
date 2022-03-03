@@ -2,6 +2,7 @@
 product: campaign
 title: Customize the emoticon list
 description: Learn how to customize the emoticon list when using Adobe Campaign Classic
+feature: Email, Push
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 ---
 # Customize the emoticon list {#customize-emoticons}
