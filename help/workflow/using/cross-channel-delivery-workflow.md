@@ -2,7 +2,7 @@
 product: campaign
 title: Cross-channel delivery workflow
 description: Learn more about cross-channel delivery workflows
-feature: Workflows, Channels activity
+feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 ---
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}
