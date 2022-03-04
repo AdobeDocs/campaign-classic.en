@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with web applications
 description: Create and share dynamic Web applications, landing pages and surveys
-feature: Landing Pages
+feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 ---
 # Get started with web applications{#about-web-applications}

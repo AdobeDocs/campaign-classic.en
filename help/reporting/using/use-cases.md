@@ -2,6 +2,7 @@
 product: campaign
 title: Use cases
 description: Reporting use cases
+feature: Reporting
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 ---
 # Use cases{#use-cases}

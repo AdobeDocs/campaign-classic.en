@@ -2,9 +2,7 @@
 product: campaign
 title: File collector
 description: Learn more about the File collector workflow activity
-audience: workflow
-content-type: reference
-topic-tags: event-activities
+feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 ---
 # File collector{#file-collector}

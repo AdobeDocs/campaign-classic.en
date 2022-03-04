@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Publishing a web form
-description: Publishing a web form
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Publish a web form
+description: Publish a web form
+feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 ---
-# Publishing a web form{#publishing-a-web-form}
+# Publish a web form{#publishing-a-web-form}
 
 ![](../../assets/common.svg)
 

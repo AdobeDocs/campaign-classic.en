@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: "Use cases: creating overviews"
-description: "Use cases: creating overviews"
-audience: web
-content-type: reference
-topic-tags: web-applications
+title: "Use cases: create overviews"
+description: "Use cases: create overviews"
+feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 ---
 # Use cases: create overview pages{#use-cases-creating-overviews}

@@ -2,9 +2,7 @@
 product: campaign
 title: Offers by cell
 description: Offers by cell
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity, Interaction
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
 ---
 # Offers by cell{#offers-by-cell}

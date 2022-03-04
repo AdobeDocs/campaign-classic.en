@@ -2,9 +2,7 @@
 product: campaign
 title: Recurring delivery
 description: Learn more about the Recurring delivery workflow activity
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 ---
 # Recurring delivery{#recurring-delivery}

@@ -2,6 +2,7 @@
 product: campaign
 title: Reports on deliveries
 description: Reports on deliveries
+feature: Reporting
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 ---
 # About reports on deliveries{#reports-on-deliveries}

@@ -2,9 +2,7 @@
 product: campaign
 title: Web forms answers
 description: Web forms answers
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 ---
 # Web forms answers{#web-forms-answers}

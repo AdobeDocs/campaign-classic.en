@@ -2,6 +2,7 @@
 product: campaign
 title: Accessing the list of deliveries
 description: Learn how to access the list of created deliveries
+feature: Monitoring
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
 ---
 # Accessing the list of deliveries {#list-of-deliveries}

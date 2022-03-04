@@ -1,7 +1,8 @@
 ---
 product: campaign
-title: Sending with the Enhanced MTA in Adobe Campaign Classic
+title: S with the Enhanced MTA in Adobe Campaign Classic
 description: Learn about the scope and the specificities of sending emails with the Adobe Campaign Enhanced MTA
+feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 ---
 # Sending with the Enhanced MTA {#sending-with-enhanced-mta}

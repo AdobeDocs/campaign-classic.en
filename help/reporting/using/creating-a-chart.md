@@ -2,6 +2,7 @@
 product: campaign
 title: Create a chart
 description: Learn how to design a chart
+feature: Reporting
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 ---
 # Create a chart{#creating-a-chart}

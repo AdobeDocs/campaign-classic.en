@@ -2,8 +2,7 @@
 product: campaign
 title: Control of offer engine
 description: Control of offer engine
-audience: workflow
-content-type: reference
+feature: Workflows, Offers
 topic-tags: technical-workflows
 ---
 

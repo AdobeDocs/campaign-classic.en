@@ -2,9 +2,7 @@
 product: campaign
 title: About direct mail channel
 description: About direct mail channel
-audience: delivery
-content-type: reference
-topic-tags: sending-direct-mail
+feature: Direct Mail
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
 ---
 # About direct mail channel{#about-direct-mail-channel}

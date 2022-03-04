@@ -2,8 +2,7 @@
 product: campaign
 title: Campaign
 description: Campaign
-audience: workflow
-content-type: reference
+feature: Workflows
 topic-tags: technical-workflows
 ---
 

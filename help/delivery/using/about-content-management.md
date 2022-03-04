@@ -2,6 +2,7 @@
 product: campaign
 title: About content management
 description: Get started with Campaign Content Manager module
+feature: Landing Pages, Email Design
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 ---
 # About content management{#about-content-management}

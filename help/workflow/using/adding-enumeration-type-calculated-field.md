@@ -1,13 +1,14 @@
 ---
 product: campaign
-title: Adding an Enumeration type calculated field
+title: Add an Enumeration type calculated field
 description: Learn how to add an Enumeration type calculated field
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 ---
-# Adding an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}
+# Add an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}
 
 ![](../../assets/common.svg)
 

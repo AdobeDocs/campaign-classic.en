@@ -2,9 +2,7 @@
 product: campaign
 title: Inbound Emails
 description: Learn more about the Inbound Emails workflow activity
-audience: workflow
-content-type: reference
-topic-tags: event-activities
+feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 ---
 # Inbound Emails{#inbound-emails}

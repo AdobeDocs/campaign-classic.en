@@ -2,6 +2,7 @@
 product: campaign
 title: Configure the Android mobile application in Adobe Campaign
 description: Learn how to set up your mobile application for Android
+feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 ---
 # Configuration steps for Android

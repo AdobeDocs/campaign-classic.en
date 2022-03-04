@@ -2,6 +2,7 @@
 product: campaign
 title: Insert a barcode in an email
 description: Insert a barcode in an email
+feature: Email Design
 ---
 
 # Insert a barcode in an email{#insert-a-barcode-in-an-email}

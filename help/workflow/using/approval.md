@@ -2,9 +2,7 @@
 product: campaign
 title: Approval
 description: Approval
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows, Approvals
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 ---
 # Approval{#approval}

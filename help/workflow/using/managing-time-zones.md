@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: Managing time zones
-description: Managing time zones
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+title: Manage time zones
+description: Manage time zones
+feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 ---
 # Managing time zones{#managing-time-zones}

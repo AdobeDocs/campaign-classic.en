@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Monitoring deliverability in Adobe Campaign Classic
+title: Monitor deliverability in Adobe Campaign Classic
 description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign Classic.
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456

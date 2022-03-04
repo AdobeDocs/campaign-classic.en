@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Querying the recipient table
+title: Query the recipient table
 description: Learn how to query the recipient table
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6

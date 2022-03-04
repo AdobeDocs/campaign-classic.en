@@ -2,9 +2,7 @@
 product: campaign
 title: List update
 description: List update
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 ---
 # List update{#list-update}

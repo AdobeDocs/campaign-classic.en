@@ -2,9 +2,7 @@
 product: campaign
 title: "Use cases: web forms"
 description: "Use cases: web forms"
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 ---
 # Use cases: web forms{#use-cases-web-forms}

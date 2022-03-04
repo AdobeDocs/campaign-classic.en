@@ -2,6 +2,7 @@
 product: campaign
 title: Configure deliveries
 description: Learn how to perform A/B testing through a dedicated use case
+feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 ---
 # Configure the deliveries in the workflow {#step-4--configuring-the-deliveries-in-the-workflow}

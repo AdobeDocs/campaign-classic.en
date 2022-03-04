@@ -1,8 +1,8 @@
 ---
 product: campaign
-title: Creating a summary list
-description: Creating a summary list
-feature: Workflows
+title: Create a summary list
+description: Create a summary list
+feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 ---
 # Create a summary list{#creating-a-summary-list}

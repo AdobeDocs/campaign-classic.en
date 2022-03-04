@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Campaign distributed marketing
+title: Get started with distributed marketing
 description: Get started with distributed marketing
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75

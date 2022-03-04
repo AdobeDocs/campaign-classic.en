@@ -2,9 +2,7 @@
 product: campaign
 title: Deliveries
 description: Learn more about default Deliveries workflows
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 ---
 
 # Deliveries{#deliveries}

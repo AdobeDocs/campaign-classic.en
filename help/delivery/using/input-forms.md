@@ -2,6 +2,7 @@
 product: campaign
 title: Input forms
 description: Learn how to use input forms in Campaign
+feature: Data Management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 ---
 # Input forms{#input-forms}

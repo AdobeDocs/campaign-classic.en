@@ -2,6 +2,7 @@
 product: campaign
 title: Change activity images
 description: Learn how to change the activity image
+feature: Workflows
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 ---
 # Change activity images{#change-activity-images}

@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Publishing the campaign package
-description: Publishing the campaign package
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Publish the campaign package
+description: Publish the campaign package
+feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 ---
-# Publishing the campaign package{#publishing-the-campaign-package}
+# Publish the campaign package{#publishing-the-campaign-package}
 
 ![](../../assets/v7-only.svg)
 

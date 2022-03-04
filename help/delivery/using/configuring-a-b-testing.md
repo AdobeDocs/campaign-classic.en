@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Configuring A/B testing
+title: Configure A/B testing
 description: Learn how to configure A/B testing in Campaign Classic.
 feature: A/B Testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 ---
-# Configuring A/B testing {#configuring-a-b-testing}
+# Configure A/B testing {#configuring-a-b-testing}
 
 ![](../../assets/common.svg)
 

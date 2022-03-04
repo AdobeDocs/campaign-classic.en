@@ -2,6 +2,7 @@
 product: campaign
 title: How to configure tracked links
 description: How to configure tracked links
+feature: Monitoring
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 ---
 # How to configure tracked links{#how-to-configure-tracked-links}

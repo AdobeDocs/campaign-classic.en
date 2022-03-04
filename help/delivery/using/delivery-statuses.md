@@ -2,7 +2,7 @@
 product: campaign
 title: Delivery statuses
 description: Learn more about the statuses available on your delivery dashboard
-feature: Monitoring
+feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 ---
 # Delivery statuses {#delivery-statuses}

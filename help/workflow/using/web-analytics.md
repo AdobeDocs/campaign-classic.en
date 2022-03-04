@@ -2,9 +2,7 @@
 product: campaign
 title: Web Analytics
 description: Learn more about the Web Analytics package
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows, Analytics Integration
 ---
 
 # Web Analytics{#web-analytics}

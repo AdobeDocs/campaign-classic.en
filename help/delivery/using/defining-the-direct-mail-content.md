@@ -2,6 +2,7 @@
 product: campaign
 title: Define the direct mail content
 description: Learn how to define the direct mail content
+feature: Direct Mail
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 ---
 # Define the direct mail content{#defining-the-direct-mail-content}

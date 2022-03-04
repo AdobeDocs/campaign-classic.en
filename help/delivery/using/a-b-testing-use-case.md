@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: AB testing use case
-description: Learn how to perform A/B testing through a dedicated use case.
+description: Learn how to perform A/B testing through a dedicated use case
 feature: A/B Testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 ---

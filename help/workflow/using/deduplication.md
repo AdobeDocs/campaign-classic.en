@@ -2,7 +2,7 @@
 product: campaign
 title: Deduplication
 description: Learn more about the Deduplication workflow activity
-feature: Workflows, Data Management
+feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 ---
 # Deduplication{#deduplication}

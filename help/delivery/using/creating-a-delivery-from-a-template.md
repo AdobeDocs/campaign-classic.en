@@ -2,6 +2,7 @@
 product: campaign
 title: Create a delivery from a template
 description: Learn how to create a delivery from a template
+feature: Delivery Templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 ---
 # Create a delivery from a template{#creating-a-delivery-from-a-template}

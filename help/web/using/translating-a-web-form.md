@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Translating a web form
-description: Translating a web form
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Translate a web form
+description: Translate a web form
+feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 ---
-# Translating a web form{#translating-a-web-form}
+# Translate a web form{#translating-a-web-form}
 
 ![](../../assets/common.svg)
 

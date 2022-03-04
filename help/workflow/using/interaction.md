@@ -2,9 +2,7 @@
 product: campaign
 title: Interaction
 description: Interaction
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows, Interaction
 ---
 
 # Interaction{#interaction}

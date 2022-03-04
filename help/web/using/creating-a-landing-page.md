@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Creating a landing page
-description: Creating a landing page
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+title: Create a landing page
+description: Create a landing page
+feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 ---
-# Creating a landing page{#creating-a-landing-page}
+# Create a landing page{#creating-a-landing-page}
 
 ![](../../assets/common.svg)
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Use an analysis report
 description: Use an analysis report
+feature: Reporting
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 ---
 # Use an analysis report{#processing-a-report}

@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: Tracking a web application
-description: Tracking a web application
-audience: web
-content-type: reference
-topic-tags: web-applications
+title: Track visits on a web application
+description: Track visits on a web application
+feature: Web Apps
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 ---
 # Track visits on a web application{#tracking-a-web-application}

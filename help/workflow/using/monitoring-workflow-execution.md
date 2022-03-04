@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Monitoring workflow execution
-description: Monitoring workflow execution
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+title: Monitor workflow execution
+description: Monitor workflow execution
+feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 ---
-# Monitoring workflow execution {#monitoring-workflow-execution}
+# Monitor workflow execution {#monitoring-workflow-execution}
 
 ![](../../assets/common.svg)
 

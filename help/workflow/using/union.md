@@ -2,9 +2,7 @@
 product: campaign
 title: Union
 description: Learn more about the Union workflow activity
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
 ---
 # Union{#union}

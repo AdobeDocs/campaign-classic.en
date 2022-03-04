@@ -2,6 +2,7 @@
 product: campaign
 title: Key steps to send an email
 description: Learn how to confirm the delivery of an email and discover the specificities of delivering email messages
+feature: Email
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
 ---
 # Key steps to send an email {#key-steps-to-send-an-email}

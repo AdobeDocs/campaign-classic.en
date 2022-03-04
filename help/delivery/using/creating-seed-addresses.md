@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Creating seed addresses
+title: Create seed addresses
 description: Learn how to create and use seed addresses
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a

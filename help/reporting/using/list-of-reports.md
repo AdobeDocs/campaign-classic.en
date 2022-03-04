@@ -2,6 +2,7 @@
 product: campaign
 title: List of reports
 description: List of reports
+feature: Reporting
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 ---
 # List of reports{#list-of-reports}

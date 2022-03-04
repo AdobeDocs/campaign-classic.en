@@ -2,9 +2,7 @@
 product: campaign
 title: Template management
 description: Template management
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
 ---
 # Template management{#template-management}

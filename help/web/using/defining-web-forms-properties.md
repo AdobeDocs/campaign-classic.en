@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: Defining web forms properties
-description: Defining web forms properties
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Define web forms properties
+description: Define web forms properties
+feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 ---
 # Defining web forms properties{#defining-web-forms-properties}

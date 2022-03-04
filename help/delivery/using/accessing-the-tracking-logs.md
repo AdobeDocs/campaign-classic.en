@@ -2,9 +2,7 @@
 product: campaign
 title: Accessing the tracking logs
 description: Accessing the tracking logs
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+feature: Monitoring
 exl-id: df494786-5950-4646-aa9c-4dde45845057
 ---
 # Access the tracking logs{#accessing-the-tracking-logs}

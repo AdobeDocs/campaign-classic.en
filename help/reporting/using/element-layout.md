@@ -2,6 +2,7 @@
 product: campaign
 title: Element layout
 description: Element layout
+feature: Reporting
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 ---
 # Element layout{#element-layout}

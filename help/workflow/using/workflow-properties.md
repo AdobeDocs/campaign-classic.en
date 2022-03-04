@@ -2,9 +2,7 @@
 product: campaign
 title: Workflow properties
 description: Learn more about Campaign Workflow properties
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+feature: Workflows
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 ---
 # Workflow properties{#workflow-properties}

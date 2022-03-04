@@ -2,6 +2,7 @@
 product: campaign
 title: Control rules
 description: Control rules
+feature: Typology Rules
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 ---
 # Control rules{#control-rules}

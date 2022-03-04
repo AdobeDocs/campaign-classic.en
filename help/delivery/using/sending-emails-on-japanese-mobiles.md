@@ -1,7 +1,8 @@
 ---
 product: campaign
-title: Sending emails on Japanese mobiles with Adobe Campaign Classic
+title: Send emails on Japanese mobiles with Adobe Campaign Classic
 description: Learn how to configure, design and send emails that will be read on a Japanese mobile
+feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 ---
 # Send emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}

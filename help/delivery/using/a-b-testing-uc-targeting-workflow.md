@@ -1,7 +1,8 @@
 ---
 product: campaign
-title: Creating a targeting workflow
-description: Learn how to perform A/B testing through a dedicated use case.
+title: Create a targeting workflow
+description: Learn how to perform A/B testing through a dedicated use case
+feature: A/B Testing
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 ---
 # Create a targeting workflow {#step-1--creating-a-targeting-workflow}

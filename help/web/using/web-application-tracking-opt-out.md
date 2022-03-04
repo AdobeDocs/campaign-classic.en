@@ -2,9 +2,7 @@
 product: campaign
 title: Web application tracking opt-out
 description: Web application tracking opt-out
-audience: web
-content-type: reference
-topic-tags: web-applications
+feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 ---
 # Web application tracking opt-out{#web-application-tracking-opt-out}

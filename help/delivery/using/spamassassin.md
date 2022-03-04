@@ -2,6 +2,7 @@
 product: campaign
 title: SpamAssassin
 description: Learn how to set up email spam detection with SpamAssassin
+feature: Email, Deliverability
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 ---
 # SpamAssassin{#spamassassin}

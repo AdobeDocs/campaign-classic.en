@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: "Use case: selecting seed addresses on criteria"
-description: "Use case: selecting seed addresses on criteria"
+title: "Use case: select seed addresses on criteria"
+description: "Use case: select seed addresses on criteria"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 ---

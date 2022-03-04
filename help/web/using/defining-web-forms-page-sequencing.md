@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Defining web forms page sequencing
-description: Defining web forms page sequencing
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Define web forms page sequencing
+description: Define web forms page sequencing
+feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 ---
-# Defining web forms page sequencing{#defining-web-forms-page-sequencing}
+# Define web forms page sequencing{#defining-web-forms-page-sequencing}
 
 ![](../../assets/common.svg)
 

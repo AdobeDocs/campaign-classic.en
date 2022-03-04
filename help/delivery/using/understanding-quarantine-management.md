@@ -1,8 +1,8 @@
 ---
 product: campaign
-title: Understanding quarantine management
-description: Understanding quarantine management
-feature: Monitoring
+title: Understand quarantine management
+description: Understand quarantine management
+feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 ---
 # Understand quarantine management{#understanding-quarantine-management}

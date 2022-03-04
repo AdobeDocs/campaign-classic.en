@@ -2,9 +2,7 @@
 product: campaign
 title: LINE Channel
 description: LINE Channel
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 ---
 
 # LINE Channel{#line-channel}

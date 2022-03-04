@@ -1,10 +1,8 @@
 ---
 product: campaign
-title: Adding seed addresses
-description: Adding seed addresses
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+title: Add seed addresses
+description: Add seed addresses
+feature: Seed Address
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
 ---
 # Add seed addresses{#adding-seed-addresses}

@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Enriching data
+title: Enrich data
 description: Learn more about the Enrichment workflow activity
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows, Enrichment Activity
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 ---
-# Enriching data{#enriching-data}
+# Enrich data{#enriching-data}
 
 ![](../../assets/common.svg)
 

@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Accessing an external database (FDA)
-description: Accessing an external database (FDA)
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+title: Access an external database (FDA)
+description: Access an external database (FDA)
+feature: Workflows, Data Management, Federated Data Access
 exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f
 ---
-# Accessing an external database (FDA){#accessing-an-external-database-fda}
+# Access an external database (FDA){#accessing-an-external-database-fda}
 
 ![](../../assets/common.svg)
 

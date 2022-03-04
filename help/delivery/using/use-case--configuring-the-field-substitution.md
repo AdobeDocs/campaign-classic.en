@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: "Use case: configuring the field substitution"
-description: "Use case: configuring the field substitution"
+title: "Use case: configure the field substitution"
+description: "Use case: configure the field substitution"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 ---

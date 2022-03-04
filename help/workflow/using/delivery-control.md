@@ -2,9 +2,7 @@
 product: campaign
 title: Delivery control
 description: Learn more about the Delivery control workflow activity
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 ---
 # Delivery control{#delivery-control}

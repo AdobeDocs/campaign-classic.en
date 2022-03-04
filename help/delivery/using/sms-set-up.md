@@ -2,6 +2,7 @@
 product: campaign
 title: Configure Campaign SMS channel
 description: Learn how to configure the SMS channel in Campaign
+feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 ---
 # Configure SMS channel {#setting-up-sms-channel}

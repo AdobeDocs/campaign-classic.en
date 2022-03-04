@@ -2,9 +2,7 @@
 product: campaign
 title: Start and end
 description: Learn more about Start and End workflow activities
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
 ---
 # Start and end{#start-and-end}

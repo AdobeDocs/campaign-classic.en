@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Loading delivery content
+title: Load delivery content
 description: Loading delivery content
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 ---
-# Loading delivery content{#loading-delivery-content}
+# Load delivery content{#loading-delivery-content}
 
 ![](../../assets/common.svg)
 

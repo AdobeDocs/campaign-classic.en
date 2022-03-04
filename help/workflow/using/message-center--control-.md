@@ -2,9 +2,7 @@
 product: campaign
 title: Message Center (Control)
 description: Message Center (Control)
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 ---
 
 # Message Center (Control){#message-center-control}

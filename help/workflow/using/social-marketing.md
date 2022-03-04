@@ -2,9 +2,7 @@
 product: campaign
 title: Social Marketing
 description: Learn more about Social Marketing technical workflows
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 ---
 
 # Social Marketing{#social-marketing}
