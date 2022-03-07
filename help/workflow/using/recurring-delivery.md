@@ -33,9 +33,12 @@ A **recurring delivery** will create a new delivery instance each time it execut
 
 ![Recurring Delivery](assets/delivery_recurring.jpg)
 
+If you want to stop a recurring delivery from running, you should completely cancel the campaign or stop the workflow executing it. Stopping the delivery from the Campaign dashboard will only stop the delivery occurence: other instances of the delivery will continue being created. 
+
 >[!NOTE]
 >
->It is not possible to send a proof from a **[!UICONTROL Recurring delivery]** type activity.   
+>It is not possible to send a proof from a **[!UICONTROL Recurring delivery]** type activity.
+> 
 >To directly create a delivery via a campaign workflow, use the channel specific activities that are preconfigured (e.g. **[!UICONTROL Email delivery]**).
 
 ## Tutorial video (#recurring-delivery-video)
