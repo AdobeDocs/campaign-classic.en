@@ -45,7 +45,7 @@ Several security improvements have been made to FDA accounts:
 
 **Compatibility updates**
 
-Adobe Campaign is now compatible with Windows Server 2019. Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md{#OperatingSystems).
+Adobe Campaign is now compatible with Windows Server 2019. Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
 **Improvements**
 
