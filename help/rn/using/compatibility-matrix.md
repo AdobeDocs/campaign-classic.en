@@ -57,6 +57,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Windows Server</td>
 <td>
+<p>2019 (starting 7.2.1 release)</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
