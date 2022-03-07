@@ -118,6 +118,7 @@ Learn more about cookies in [this section](../../platform/using/privacy-and-reco
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]**.
 * To improve robustness, selectAll queries with invalid nodes are now rejected. If you need to disable the check and get back to the previous behavior, you can set the XtkSecurity_Disable_QueryCheck to 0.
+* The negative ID range support has been added for the nmsBroadlogId sequence. This build adjusts the min_value of the nmsBroadlogId sequence to include the negative range. In case you have a strict use case which does not allow negative IDs, please revert the min_value of the sequence to 1.
 
 **Technical evolutions**
 

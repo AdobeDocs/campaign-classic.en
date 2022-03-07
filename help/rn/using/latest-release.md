@@ -43,6 +43,10 @@ Several security improvements have been made to FDA accounts:
 * When configuring your FDA external account, you can now login to your Azure Synapse Analytics account using the System-assigned managed identity. [Read more](../../installation/using/configure-fda-synapse.md#azure-external)
 * All references to the log4j library have been removed from Campaign to ensure optimal security.
 
+**Compatibility updates**
+
+Adobe Campaign is now compatible with Windows Server 2019. Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md#OperatingSystems).
+
 **Improvements**
 
 * Microsoft Dynamics CRM 365 Connector
