@@ -27,6 +27,8 @@ The sections on how to send an address to quarantine and how to remove addresses
 
 Added a workflow best practice to recommend not to perform multiple stop requests on the same workflow. [Read more](../../workflow/using/workflow-best-practices.md)
 
+Added information on how to stop a recurring delivery from running within a campaign. [Read more](../../workflow/using/recurring-delivery.md)
+
 ### January 2022 {#january-2022}
 
 **Documentation updates coming with the 7.2.1 release**
