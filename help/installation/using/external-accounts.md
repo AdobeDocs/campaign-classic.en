@@ -83,7 +83,6 @@ The following channels can be configured:
 * [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Direct mail](../../delivery/using/about-direct-mail-channel.md)
 * [Agency](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
 * [iOS channel](../../delivery/using/configuring-the-mobile-application.md)
 * [Android channel](../../delivery/using/configuring-the-mobile-application-android.md)

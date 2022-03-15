@@ -50,7 +50,7 @@ This example provides a step by step process of how to display an Adobe Campaign
 
 To create this application, apply the following steps:
 
-1. Create an application on Facebook ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). For more on this, refer to: [Creating a Facebook application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
+1. Create an application on Facebook ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). 
 
    ![](assets/social_create_facebook_app_002.png)
 

@@ -110,7 +110,7 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 >
 >You must create one **[!UICONTROL Twitter]** service per Twitter application.
 
-The **[!UICONTROL Twitter account Synchronization]** workflow synchronizes Twitter accounts in Adobe Campaign. For more on this, refer to [this page](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages).
+The **[!UICONTROL Twitter account Synchronization]** workflow synchronizes Twitter accounts in Adobe Campaign. 
 
 ## Synchronize Twitter accounts {#synchronizing-twitter-accounts}
 

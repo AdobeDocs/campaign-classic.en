@@ -104,9 +104,17 @@ aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 
 In Redhat, use the following command:
 
-```
-yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-```
+* For CentOS/RHEL 7:
+
+   ```
+   yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
+   ```
+
+* For RHEL 8:
+
+   ```
+   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+   ```
 
 ### Fonts for Japanese instances {#fonts-for-japanese-instances}
 
@@ -120,9 +128,17 @@ aptitude install fonts-ipafont
 
 In Red Hat, add the command:
 
-```
-yum install ipa-gothic-fonts ipa-mincho-fonts
-```
+* For RHEL 7:
+
+   ```
+   yum install ipa-gothic-fonts ipa-mincho-fonts
+   ```
+
+* For RHEL 8:
+
+   ```
+   dnf install vlgothic-fonts
+   ```
 
 ### Installing LibreOffice for Debian {#installing-libreoffice-for-debian}
 
@@ -144,16 +160,8 @@ For Debian, the following configurations are required:
 
 The following configurations are necessary with CentOS:
 
-1. Install the following standard packages:
-
    ```
    yum install libreoffice-headless libreoffice-writer libreoffice-calc
-   ```
-
-1. Install the following fonts (optional but highly recommended for Japanese instances):
-
-   ```
-   yum install ipa-gothic-fonts ipa-mincho-fonts
    ```
 
 ## Database access layers {#database-access-layers}

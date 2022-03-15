@@ -21,7 +21,7 @@ Using web applications, Campaign Social Marketing module lets you display person
 
 Configuration steps are:
 
-1. Create one or more Facebook applications. [Learn more](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)
+1. Create one or more Facebook applications.
 1. Enter the **[!UICONTROL terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. [Learn more](#entering-the-terms-of-service-and-privacy-policy-links)
 1. For each Facebook application, create a **[!UICONTROL Facebook Connect]** type external account. [Learn more](#configuring-external-accounts)
 1. For each Facebook application, create a Facebook type web application in Adobe Campaign. [Learn more](#creating-a-facebook-type-web-application)

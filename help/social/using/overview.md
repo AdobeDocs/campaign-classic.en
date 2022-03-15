@@ -7,16 +7,16 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
 ---
-# Get started with social media{#overview}
+# Get started with Twitter{#overview}
 
 ![](../../assets/v7-only.svg)
 
-Social Marketing lets you send deliveries to your various Facebook pages and Twitter accounts as opposed to recipient profiles. On Facebook, delivery content is displayed in the form of publications on page walls and will also appear in the news feed of all page fans. On Twitter, delivery content is displayed as tweets and will appear on the home page of account followers. You can also send direct messages to the account followers which you collect.
+Social Marketing lets you send deliveries to your various Twitter accounts as opposed to recipient profiles. On Twitter, delivery content is displayed as tweets and will appear on the home page of account followers. You can also send direct messages to the account followers which you collect.
 
 >[!CAUTION]
 >
->Adobe Campaign asks that you comply with the terms of service communicated by Facebook and Twitter regarding message delivery.
+>Adobe Campaign asks that you comply with the terms of service communicated by Twitter regarding message delivery.
 >
 >Before sending publications, you need to comply with the configuration steps described in [this section](../../social/using/starting-workflows.md).
 
-This section details the elements specific to a Facebook and Twitter delivery. All elements which are identical to email deliveries are detailed in [this section](../../delivery/using/about-email-channel.md).
+This section details the elements specific to a Twitter delivery. All elements which are identical to email deliveries are detailed in [this section](../../delivery/using/about-email-channel.md).

@@ -581,14 +581,12 @@ type: Documentation
   + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
        + [Start workflows](social/using/starting-workflows.md)
-       + [Publish on Facebook walls](social/using/publishing-on-facebook-walls.md)
        + [Create a Facebook application](social/using/creating-a-facebook-application.md)
        + [Configure publishing on Twitter](social/using/configuring-publishing-on-twitter.md)
-  + Publish on social media {#publishing-on-facebook-twitter}
-       + [Get started with social media](social/using/overview.md)
-       + [Publish on Facebook](social/using/publishing-on-facebook.md)
+  + Publish on Twitter {#publishing-on-facebook-twitter}
+       + [Get started with Twitter](social/using/overview.md)
        + [Publish on Twitter](social/using/publishing-on-twitter.md)
-  + Annexes {#annexes}
+  + Acquiring Facebook contacts {#annexes}
        + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
        + [Tracking](social/using/tracking.md)
 + Installation and configuration guide {#installing-campaign-classic}
