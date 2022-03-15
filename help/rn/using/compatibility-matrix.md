@@ -73,7 +73,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>10.0 on Windows Server 2016</p>
+<p>10.0 on Windows Server 2016 and 2019</p>
 <p>8.5 on Windows Server 2012 R2</p>
 <p>8.0 on Windows Server 2012 - Windows 8</p>
 </td>
@@ -325,6 +325,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
+<p>2019 (starting 7.2.1 release)</p>
 <p>2016</p>
 <p>2012</p>
 </td>
