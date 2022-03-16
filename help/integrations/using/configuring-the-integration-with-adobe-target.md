@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Configuring the integration with Adobe Target
-description: Configuring the integration with Adobe Target
+title: Configure the integration with Adobe Target
+description: Learn how to configure the integration with Adobe Target
 audience: integrations
 content-type: reference
 topic-tags: adobe-target

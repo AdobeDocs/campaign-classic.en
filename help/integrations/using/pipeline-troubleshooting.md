@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Configuring the integration
-description: Configuring the integration
+title: Pipeline troubleshooting 
+description: Pipeline troubleshooting 
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa

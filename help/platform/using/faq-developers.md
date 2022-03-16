@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Common questions
-description: Campaign Classic FAQ
+title: Developers FAQ
+description: Developers FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign

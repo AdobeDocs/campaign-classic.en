@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Privacy and Consent
-description: Learn more about Privacy and Consent
+title: Privacy and Consent FAQ
+description: Privacy and Consent FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign

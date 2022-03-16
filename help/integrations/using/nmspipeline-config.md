@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Configuring the integration
-description: Configuring the integration
+title: Pipeline option NmsPipeline_Config
+description: Pipeline option NmsPipeline_Config
 audience: integrations
 content-type: reference
 ---

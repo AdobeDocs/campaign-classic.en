@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Configuring the integration
-description: Configuring the integration
+title: Pipeline monitoring
+description: Pipeline monitoring
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Analytics connector
+title: Adobe Analytics connector provisioning
 description: Learn more about Adobe Analytics connector provisioning
 feature: Overview
 role: User, Admin
