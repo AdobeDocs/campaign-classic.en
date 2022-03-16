@@ -37,7 +37,7 @@ As a hosted customer, you automatically benefit from the upgrade with the latest
 
 To ensure a stable configuration, we recommend that you install **the same build** on all servers that are running on the same client configuration.
 
-In addition, the client console must be on the same build as the server instance.
+In addition, except mentioned otherwise in the Release Notes, the client console must be on **the same build** as the server instance.
 
 To keep your implementation up-to-date, make sure to read out the [Deprecated and removed features](../../rn/using/deprecated-features.md) and [Compatibility matrix](../../rn/using/compatibility-matrix.md) pages with each new release.
 
