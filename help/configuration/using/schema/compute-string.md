@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Elements and attributes
+title: Elements and attributes - compute-string element
 description: compute-string element
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 ---

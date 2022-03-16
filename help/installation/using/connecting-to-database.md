@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Accessing an external database
+title: Connect to an external database
 description: Learn how to connect to an external database
 audience: platform
 content-type: reference

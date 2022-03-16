@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Schema elements and attributes
+title: Schema elements and attributes - enumeration element
 description: enumeration element
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 ---

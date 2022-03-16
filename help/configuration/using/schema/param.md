@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Schema elements and attributes
+title: Schema elements and attributes -  param element
 description: param element
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 ---

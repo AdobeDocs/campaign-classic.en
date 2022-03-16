@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: General architecture
-description: Learn how to install and configure Campaign Classic.
+title: Campaign Classic general architecture
+description: Learn how to install and configure Campaign Classic
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models

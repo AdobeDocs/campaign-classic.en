@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Schema elements and attributes
+title: Schema elements and attributes - method element
 description: method element
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
 ---

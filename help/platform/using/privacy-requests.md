@@ -25,7 +25,7 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 
 Let's see how you can create Access and Delete requests, as well as how Adobe Campaign processes them.
 
-### Principles {#principles}
+### Principles {#privacy-principles}
 
 Adobe Campaign offers Data Controllers two possibilities for performing Privacy Access and Delete requests:
 

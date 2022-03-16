@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Schema elements and attributes
+title: Schema elements and attributes - condition element
 description: condition element
 exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
 ---

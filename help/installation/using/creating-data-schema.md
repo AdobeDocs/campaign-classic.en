@@ -1,10 +1,7 @@
 ---
 product: campaign
-title: Accessing an external database
-description: Accessing an external database
-audience: platform
-content-type: reference
-topic-tags: connectors
+title: Creating the data schema for FDA
+description: Learn how to create the data schema for FDA
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 ---
 # Creating the data schema {#creating-the-data-schema}

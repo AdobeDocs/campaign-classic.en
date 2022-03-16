@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Schema elements and attributes
+title: Schema elements and attributes - key element
 description: key element
 exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
 ---

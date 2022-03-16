@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Elements and attributes
+title: Elements and attributes - dbindex element
 description: dbindex element
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
 ---

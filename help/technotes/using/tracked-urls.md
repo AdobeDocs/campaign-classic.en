@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Technote
-description: Technote
+title: Tracked URLs signature issue 
+description: Tracked URLs signature issue 
 hide: yes
 hidefromtoc: yes
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074

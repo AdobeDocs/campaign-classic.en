@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Schema elements and attributes
+title: Schema elements and attributes - help element 
 description: help element
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
 ---

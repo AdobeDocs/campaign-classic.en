@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Elements and attributes
+title: Elements and attributes - srcschema element
 description: Elements and attributes
 audience: configuration
 content-type: reference
