@@ -22,7 +22,7 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 Added a detailed description for the **[!UICONTROL Test SMTP delivery]** option. [Read more](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-The Release Notes overview section has been updated to clarify Campaign Console upgrade guidelines. [Read more](../../rn/using/rn-overview.md)
+The Get Started with upgrades page has been updated to clarify Campaign Console upgrade guidelines. [Read more](../../rn/using/rn-overview.md)
 
 New Campaign v7.2.2 build is now available. [Read more](../../rn/using/latest-release.md)
 
