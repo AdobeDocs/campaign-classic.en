@@ -5,7 +5,7 @@ description: Learn how to create SMS with Campaign
 feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 ---
-# Create a SMS delivery {#creating-a-sms-delivery}
+# Create an SMS delivery {#creating-a-sms-delivery}
 
 ![](../../assets/common.svg)
 

@@ -63,7 +63,7 @@ Added batch update option in the CRM connector activity. [Read more](../../workf
 
 ### December 2021{#dec-2021}
 
-Campaign Classic v7 Relese Notes have been reorganized to simplify navigation. [Read more](rn-overview.md)
+Campaign Classic v7 Release Notes have been reorganized to simplify navigation. [Read more](rn-overview.md)
 
 Documentation about Form edition in Campaign has been updated and improved. [Read more](../../configuration/using/editing-forms.md)
 
@@ -118,7 +118,7 @@ Added a note about the integration between Campaign and AEM Assets which has bee
 
 ### June 2021 {#june-2021}
 
-The **Transactional Messaging** section has been reorganized an clarified with a new Get started section, including an [enhanced schema](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) for a better understanding of the process. [Read more](../../message-center/using/about-transactional-messaging.md)
+The **Transactional Messaging** section has been reorganized and clarified with a new Get started section, including an [enhanced schema](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) for a better understanding of the process. [Read more](../../message-center/using/about-transactional-messaging.md)
 
 **Documentation updates coming with the 21.1.3 release**
 
@@ -150,7 +150,7 @@ A new technote has been created to learn how to update bounce qualification afte
 
 ### March 2021 {#march-2021}
 
-The [Get started with SMS section](../../delivery/using/sms-channel.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../delivery/using/sms-set-up.md), [create a SMS](../../delivery/using/sms-create.md), [send and track SMS](../../delivery/using/sms-send.md) in dedicated sections.
+The [Get started with SMS section](../../delivery/using/sms-channel.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../delivery/using/sms-set-up.md), [create an SMS](../../delivery/using/sms-create.md), [send and track SMS](../../delivery/using/sms-send.md) in dedicated sections.
 
 The "Help & support options" page for Campaign Classic has been integrated into the core documentation. [Read more](../../support.md)
 
@@ -279,7 +279,7 @@ Documentation pages have been updated to reflect the Tomcat 8 update.
 
 Details have been added in the 'About' box description in the 'Getting your Adobe Campaign version' section. [Read more](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
-Guidelines to perform a build upgrade have been added to the 'Updating Adobe Campaign Classic' section. Read more [Read more](../../production/using/build-upgrade.md)
+Guidelines to perform a build upgrade have been added to the 'Updating Adobe Campaign Classic' section. [Read more](../../production/using/build-upgrade.md)
 
 FAQs about Campaign build upgrade have been added to Campaign common questions. Read more [Read more](../../platform/using/faq-build-upgrade.md)
 
@@ -338,7 +338,7 @@ New use cases have been referenced in the list of [workflow use cases](../../wor
 * Calling an instance variable in a query
 * Applying a split percentage on a population
 
-The **[!UICONTROL AND-join]** activity section has been enriched with additional information on its usage, as well as a note regarding the use of variables. [Read more](../../workflow/using/and-join.md)
+The **[!UICONTROL AND-join]** activity section has been enriched with additional information on its usage, and a note regarding the use of variables. [Read more](../../workflow/using/and-join.md)
 
 ### July 2020 {#july-2020}
 
@@ -606,7 +606,7 @@ Audit trail - [Read more](../../production/using/audit-trail.md)
 
 A new Build upgrade FAQ has been created. [Read more](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
-The [Compatibility matrix](compatibility-matrix.md) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The 19.0 Compatibility matrix has been archived.
+The [Compatibility matrix](compatibility-matrix.md) has been updated. The list of supported database systems has been updated, Android/iOS versions and related SDKs. The 19.0 Compatibility matrix has been archived.
 
 The 'Deprecated and Removed Features in Campaign Classic' page has been updated. [Read more](deprecated-features.md)
 
@@ -620,7 +620,7 @@ The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [delivera
 
 The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
 
-The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
+The Experience Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 
 The list of error messages has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
@@ -675,7 +675,7 @@ Information was added on Query Banding for the Teradata external account. [Read 
 
 ### January 2019{#release-doc-16-01-2019}
 
-The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
+The Experience Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 
 A note was added in the offer approval section to specify  that the "Content approved" mention indicates that the content approval process has been achieved, whether all offers have been enabled/approved or not. [Read more](../../interaction/using/offer-catalog-overview.md)
 

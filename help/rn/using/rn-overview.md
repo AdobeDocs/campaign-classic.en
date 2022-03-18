@@ -15,7 +15,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 
 Every new build comes with a status which is materialized by a color. 
 
-![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production and recommended by Adobe. 
+![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
@@ -29,13 +29,13 @@ Every new build comes with a status which is materialized by a color.
 
 Adobe Campaign is regularly updated. This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.
 
-This is the reason why we believe it is critical that you **run the most recent stable version** of Adobe Campaign. It will also ensure that you get a better support experience as identifying, reproducing and fixing an issue on a recent build is usually much faster. Also, many issues you may encounter have already been fixed in most recent builds.
+This is the reason why it is critical that you **run the most recent stable version** of Adobe Campaign. It also ensures that you get a better support experience as identifying, reproducing and fixing an issue on a recent build is usually much faster. Also, many issues you may encounter have already been fixed in most recent builds.
 
 As a hosted customer, you automatically benefit from the upgrade with the latest stable version without any action. Learn more in the [Yearly Upgrade section](#yearly-upgrade). If you migrate from an old build, Adobe recommends that you upgrade to this version first.
 
 ## Recommendations{#recommendations}
 
-To ensure a stable configuration, we recommend that you install **the same build** on all servers that are running on the same client configuration.
+To ensure a stable configuration, Adobe recommends that you install **the same build** on all servers that are running on the same client configuration.
 
 In addition, except mentioned otherwise in the Release Notes, the client console must be on **the same build** as the server instance.
 
@@ -43,33 +43,31 @@ To keep your implementation up-to-date, make sure to read out the [Deprecated an
 
 ## Process to upgrade{#process-upgrade}
 
-As a hosted customer (Managed Service or Hybrid), you need to reach out to the Customer Care team to have your environment upgraded.
+As a hosted customer (Managed Service or Hybrid), reach out to the Customer Care team to have your environment upgraded.
 
-As an on-premise user, you can perform the upgrade. To do this, you need to [download the latest stable build (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](../../production/using/build-upgrade.md), and consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
+As an on-premise user, you can perform the upgrade. To do this, [download the latest stable build (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](../../production/using/build-upgrade.md), and consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
 
 ## Yearly upgrade {#yearly-upgrade}
 
-Adobe and Adobe Campaign is committed to providing you with the best experience and value through our software solution(s). The organization is committed to ensuring that you have access to the most current versions of related technology that our solutions leverage to perform its tasks.
+Adobe is committed to providing you with the best experience and value through our software solutions. The organization is committed to ensuring that you have access to the most current versions of related technology that our solutions use to perform its tasks.
 
-Adobe Campaign Classic, specifically, uses a range of technology to deliver value. This combination of technologies requires you to upgrade your Campaign Classic instance(s) on a regular basis, to ensure the most up-to-date versions are being used to deliver superior security, stability, and performance.
+Adobe Campaign Classic, specifically, uses a range of technology to deliver value. This combination of technologies requires you to upgrade your Campaign Classic instance(s) regularly, to ensure the most up-to-date versions are being used to deliver superior security, stability, and performance.
 
-As a hosted user, you will automatically benefit from the upgrade with the latest GA build without any action. Learn more in the FAQs below.
+As a hosted user, you automatically benefit from the upgrade with the latest GA build without any action. Learn more in the FAQs below.
 
 ### Why does my organization need this upgrade?
 
-As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, as well as updating the current build and/or version, you will be notified directly in by Adobe.
+As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, and updating the current build and/or version, Adobe directly notifies you.
 
 As an on-premise or hybrid customer running on an older version, Adobe encourages you to move to the latest stable build (GA).
 
-This will ensure that your account is secure from vulnerabilities, as well as leveraging updated performance technology. This upgrade will also position your account for easier, regular upgrades going forward that will require less manual work and intervention.
+This ensures that your account is secure from vulnerabilities, as well as using updated performance technology. This upgrade also positions your account for easier, regular upgrades going forward that requires less manual work and intervention.
 
 ### What is the process and timeline for this upgrade?
 
-The Adobe team will lead and guide your organization through this journey.
+The Adobe team is here to lead and guide your organization through this journey.
 
-We have organized a team of dedicated Customer Care Reps, Product Managers, Engineers and TechOps Specialists, and Product Consultants to assist and ensure the experience is smooth.
-
-We are committed to making sure you have the relevant project and contact information.
+A team of dedicated Customer Care Reps, Product Managers, Engineers and TechOps Specialists, and Product Consultants is here to assist and ensure the experience is smooth.
 
 ### Benefits
 
@@ -95,7 +93,7 @@ We are committed to making sure you have the relevant project and contact inform
     <ul>
     <li>Most of the critical issues are actually resolved with upgrades and can be avoided.</li>
     <li>Regular upgrades help reduce faced challenges and increase efficiency by eliminating these challenges.</li>
-    <li>Customer Care volume will be reduced, allowing for speedier resolutions and more attention to your issues that are not related to upgrades.</li>
+    <li>Customer Care volume is reduced, allowing for speedier resolutions and more attention to your issues that are not related to upgrades.</li>
     </ul>
   </td>
 </tr>
@@ -109,7 +107,7 @@ We are committed to making sure you have the relevant project and contact inform
     <ul>
     <li>Over time, the Adobe Campaign team identifies ways to improve the stability and performance of the product, as well as fix known issues.</li>
     <li>Upgrading brings your instance up-to-date with these improvements and eliminates common challenges seen by organizations that are experiencing rapid growth and/or complexity within their Campaign Classic instances.</li>
-    <li>Improvements across the technology stack powering Campaign Classic will be felt across both marketing and IT teams of your organization.</li>
+    <li>Improvements across the technology stack powering Campaign Classic are felt across both marketing and IT teams of your organization.</li>
     </ul>
   </td>
 
@@ -120,9 +118,9 @@ We are committed to making sure you have the relevant project and contact inform
     </a>
     </div>
     <ul>
-    <li>Effort and complexity of upgrading your Campaign classic instance increases with the distance between 2 versions (v5 --> v7).</li>
+    <li>Effort and complexity of upgrading your Campaign Classic instance increases with the distance between 2 versions (v5 --> v7).</li>
     <li>The longer your organization waits, the more complex the upgrade (and the more vulnerabilities you are exposed to).</li>
-    <li>Regular updates will reduce downtime to upgrade and reduce the risk of regression.</li>
+    <li>Regular updates reduce downtime to upgrade and the risk of regression.</li>
     </ul>
   </td>
 </tr>
