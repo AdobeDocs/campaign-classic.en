@@ -27,13 +27,15 @@ Before sending the delivery, you can define the sending parameters in the delive
   >
   >When the delivery is duplicated, the parameter is reset.
 
-* **[!UICONTROL Send using multiple waves]**: For more on this, refer to [Send using multiple waves](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: Use this option to send your messages in waves, rather than to your whole audience. Configure the number of batches and their proportion. [Learn more](#sending-using-multiple-waves).
 
-* **[!UICONTROL Test SMTP delivery]**: This option allows you to test sending a delivery via SMTP. The delivery is processed up to connection to the SMTP server but is not sent.
+* **[!UICONTROL Test SMTP delivery]**: Use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
   >[!NOTE]
   >
-  >Using this option is not advised when installing using mid-sourcing as to not call mta. For more on configuring an SMTP server, refer [to this section](../../installation/using/configure-delivery-settings.md).
+  >* This option is not recommended in mid-sourcing. 
+  >
+  >* Learn more about SMTP server configuration, in [this section](../../installation/using/configure-delivery-settings.md).
 
 * **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [this section](sending-messages.md#archiving-emails).
 

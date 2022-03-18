@@ -25,7 +25,7 @@ Every new build comes with a status which is materialized by a color.
 
 ![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
 
-## Release cycle
+## Release cycle{#rn-cycle}
 
 Adobe Campaign is regularly updated. This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.
 

@@ -17,6 +17,16 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2022
 
+
+### March 2022 {#mar-2022}
+
+Added a detailed description for the **[!UICONTROL Test SMTP delivery]** option. [Read more](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+
+The Release Notes overview section has been updated to clarify Campaign Console upgrade guidelines. [Read more](../../rn/using/rn-overview.md)
+
+New Campaign v7.2.2 build is now available. [Read more](../../rn/using/latest-release.md)
+
+
 ### February 2022 {#february-2022}
 
 Updated the **File transfer** activity section with a reminder to manually monitor the size of the archived content in the SFTP directory in case the **Delete the source files after transfer** option is not selected. [Read more](../../workflow/using/file-transfer.md#properties)
