@@ -19,7 +19,7 @@ Potential problems or loss of functionality on web site originate from the user 
 
 ## Are you impacted?{#version-100-impact}
 
-Adobe recommends you to test your Campaign web applications, including web forms and surveys, and email mirror pages, to make sure they will still work fine with these new browser versions. 
+Adobe recommends you to test your Campaign web applications, including web forms and surveys, to make sure they will still work fine with these new browser versions. 
 
 This recommendation applies to all web applications, and especially if you have included JavaScript code. 
 
