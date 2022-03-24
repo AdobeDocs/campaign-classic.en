@@ -824,8 +824,9 @@ type: Documentation
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
-  + Upgrades and migrations{#technote-migration}
+  + Upgrades and compatibility{#technote-migration}
        + [Technotes](technotes/using/technote.md)
+       + [3-digit browser version impacts](technotes/using/3-digit-browsers.md)
        + [Campaign configuration updates](technotes/using/acc-config-updates.md)
        + [IMS updates](technotes/using/ims-updates.md)
        + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
