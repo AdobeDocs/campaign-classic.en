@@ -2,6 +2,8 @@
 product: campaign
 title: Campaign web components and version 100 in Chrome and Firefox browsers
 description: Campaign web components and version 100 in Chrome and Firefox browsers
+hide: yes
+hidefromtoc: yes
 ---
 # Campaign web components and version 100 in Chrome and Firefox browsers {#version-100}
 
