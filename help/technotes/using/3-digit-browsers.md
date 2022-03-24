@@ -11,7 +11,7 @@ Google, Mozilla are warning that Chrome and Firefox may break some websites due 
 
 Chrome v100 is set for release on **March 29, 2022**, and Firefox v100 on **May 3, 2022**.
 
-Note that Microsoft Edge released their version 100 earlier in March 2022.
+Microsoft released Edge v100 earlier in March 2022.
 
 The change in the version number from 2 to 3 digits may cause some problems when visiting websites that are not prepared for this change. Some web pages may stop displaying correctly in the these new browser versions.
 
