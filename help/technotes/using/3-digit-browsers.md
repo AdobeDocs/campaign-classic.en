@@ -46,7 +46,7 @@ To test your web pages with Mozilla Firefox 100, you can simulate the upcoming u
 
     ```
     Mozilla/5.0 (Windows NT 10.0; rv:100.0) Gecko/20100101 Firefox/100.0
-    ````
+    ```
 
 1. Click on the blue checkmark button to save the setting.
 1. Close and relaunch the browser.
