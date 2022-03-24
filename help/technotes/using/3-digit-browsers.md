@@ -7,7 +7,7 @@ hidefromtoc: yes
 ---
 # 3-digit browser version impacts on Campaign web components {#version-100}
 
-Google, Mozilla are warning that Chrome and Firefox may break some websites due to their upcoming 3-digit versions.
+Google and Mozilla are warning that Chrome and Firefox may break some websites due to their upcoming 3-digit versions.
 
 Chrome v100 is set for release on **March 29, 2022**, and Firefox v100 on **May 3, 2022**.
 
