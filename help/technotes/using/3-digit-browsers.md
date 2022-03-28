@@ -2,8 +2,6 @@
 product: campaign
 title: Campaign web components and version 100 in Chrome Firefox, and Edge browsers
 description: Campaign web components and version 100 in Chrome, Firefox, and Edge browsers
-hide: yes
-hidefromtoc: yes
 ---
 # 3-digit browser version impacts on Campaign web components {#version-100}
 
