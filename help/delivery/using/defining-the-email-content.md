@@ -58,7 +58,7 @@ You can also insert emoticons to your subject line with the **[!UICONTROL Insert
 
 The content of the message is defined in the lower section of the delivery configuration window.
 
-Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](#selecting-message-formats).
+Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](email-parameters.md#selecting-message-formats).
 
 * To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
