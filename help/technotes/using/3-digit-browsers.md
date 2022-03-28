@@ -25,7 +25,7 @@ Adobe recommends you to test your Campaign web applications, including web forms
 
 This recommendation applies to all web applications, and especially if you have included JavaScript code. 
 
-You must check both with all browsers, mobile and desktop.
+You must check with all browsers, mobile and desktop.
 
 ## How to test?{#version-100-test}
 
