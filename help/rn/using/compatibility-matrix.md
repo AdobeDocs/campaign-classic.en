@@ -135,7 +135,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>12.x</p>
 <p>11.x</p>
 <p>10.x</p>
-<p>9.6.x</p>
 <p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
@@ -215,9 +214,6 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>12.x</p>
 <p>11.x</p>
 <p>10.x</p>
-<p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 </td>
 <td>v7.0 19.1.4 minimum</td>
 </tr>

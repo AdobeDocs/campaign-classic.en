@@ -141,6 +141,11 @@ The following replication workflows are available as "ready to be used" template
 * **[!UICONTROL `[ACS] New replication`]** (newReplication): this incremental workflow is an example that can be used to replicate a custom table. See [Advanced implementation](#advanced-implementation).
 * **[!UICONTROL `[ACS] Delivery-message replication`]** (newDlvMsgQualification): this incremental workflow replicates delivery messages from Campaign Standard to Campaign v7.
 * **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): this incremental workflow replicates delivery IDs, email broad logs and email tracking logs from Campaign Standard to Campaign v7. It only takes into account deliveries sent from Campaign Standard to profiles that are part of the nms:recipients table of Campaign v7.
+
+    >[!NOTE]
+    >
+    > In case both Campaign Classic and Campaign Standard instances are used to send emails with tracked URLs, an issue with duplicate URL tagIds may occur during the synchronization. To prevent this from happening, update the **Update tracking URLs** (writerTrackingUrls) activity in the workflow and add the "ACS" prefix to the @tagId source expression.
+
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): this incremental workflow replicates delivery IDs, email broad logs and email tracking logs from Campaign Standard to Campaign v7. It only takes into account deliveries sent from Campaign Standard to profiles that are part of a specific table (to define, other than nms:recipients) of Campaign v7.
 
 ### Default recipient fields {#default-recipient-fields}

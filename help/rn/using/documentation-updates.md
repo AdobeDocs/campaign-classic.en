@@ -20,12 +20,13 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ### March 2022 {#mar-2022}
 
-Added a detailed description for the **[!UICONTROL Test SMTP delivery]** option. [Read more](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+* Added a detailed description for the **[!UICONTROL Test SMTP delivery]** option. [Read more](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-The Get Started with upgrades page has been updated to clarify Campaign Console upgrade guidelines. [Read more](../../rn/using/rn-overview.md)
+* The Get Started with upgrades page has been updated to clarify Campaign Console upgrade guidelines. [Read more](../../rn/using/rn-overview.md)
 
-New Campaign v7.2.2 build is now available. [Read more](../../rn/using/latest-release.md)
-
+* New Campaign v7.2.2 build is now available. [Read more](../../rn/using/latest-release.md)
+* Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)
+* Legacy PostgreSQL versions that have reached end of life have been added to the [Deprecated and removed features](../../rn/using/deprecated-features.md#dbe-eol) page.
 
 ### February 2022 {#february-2022}
 
