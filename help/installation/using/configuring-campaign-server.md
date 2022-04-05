@@ -17,7 +17,7 @@ This chapter details server-side configurations that can be performed to match y
 
 These procedures are restricted to **on-premise**/**hybrid** deployments and require Administration permissions. 
 
-For **hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within  [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html), such as IP allowlist management or URL permissions. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
+For **hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html), such as IP allowlist management or URL permissions. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
 
 For more information, refer to these sections:
 

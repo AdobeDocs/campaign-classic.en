@@ -43,6 +43,14 @@ This report contains information on the delivery throughput of the entire platfo
 
 You can configure the values displayed by changing the timescale: 1-hour view, 3-hour view, 24-hour view, etc. Click **[!UICONTROL Refresh]** to confirm your selection.
 
+>[!NOTE]
+>
+>If your instance is hosted on AWS, you can also monitor the number of deliveries sent per hour using the Campaign Classic [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+>
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Note that your instance must be upgraded with the latest [Gold Standard](../../rn/using/gold-standard.md) build or the [latest GA build (21.1.3)](../../rn/using/latest-release.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
 ## User activities {#user-activities}
 
 This report shows the breakdown of opens, clicks and transactions per half-hour, hour or day, in the form of a chart.
