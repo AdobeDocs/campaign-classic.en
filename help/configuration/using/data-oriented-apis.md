@@ -27,8 +27,6 @@ You must be familiar with the Adobe Campaign data model to be able to address th
 
 For a presentation of the data model, refer to the [Adobe Campaign Data model description](../../configuration/using/data-model-description.md).
 
-In order to generate its structure, refer to this article: [How to generate a Data Model or Data Dictionary](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
-
 ## Query and Writer {#query-and-writer}
 
 The following introduction schema details low level exchanges for reading (ExecuteQuery) and writing (Writer) between database and customer (web pages or Adobe Campaign client console).

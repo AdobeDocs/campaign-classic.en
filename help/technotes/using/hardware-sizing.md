@@ -246,7 +246,7 @@ All Campaign servers are good candidates for virtualization. Several issues must
     Any recommended RAID configuration must be maintained for database security, to ensure that loss of a storage device does not cause loss of data.
 
 * **I/O Performance**
-    The recommended IOPS rating for database storage must be respected. Cloud services like Amazon EC2 may not provide the required performance, and must be carefully evaluated. For example, Amazon EC2 provisioned SSD volumes are currently rated at 20,000 IOPS each. Learn more in [Amazon documentation](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html), so a 4-volume RAID configuration would be rated at 80,000 IOPS, which may not be sufficient.
+    The recommended IOPS rating for database storage must be respected. Cloud services like Amazon EC2 may not provide the required performance, and must be carefully evaluated. For example, Amazon EC2 provisioned SSD volumes are currently rated at 20,000 IOPS each. Learn more in [Amazon documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)), so a 4-volume RAID configuration would be rated at 80,000 IOPS, which may not be sufficient.
 
 Adobe recommends performance testing for any virtualized deployment of Adobe Campaign before putting the system into production.
 

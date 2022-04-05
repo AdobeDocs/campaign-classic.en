@@ -19,7 +19,7 @@ The conceptual data model of the Adobe Campaign database consists in a set of bu
 
 [Click here to learn more about Campaign datamodel](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
 
-Best practices are listed [in this article](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).
+Best practices are listed [in this article](../../configuration/using/data-model-best-practices.md).
 
 ## How to work with Campaign schemas? {#how-to-work-with-campaign-schemas-}
 

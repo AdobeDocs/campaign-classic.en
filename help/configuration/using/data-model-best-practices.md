@@ -142,9 +142,7 @@ When a custom table is being created in Adobe Campaign with a primary key as an 
 
 By default, a custom sequence will have values ranging from +1,000 to +2.1BB. Technically, it is possible  to get a full range of 4BB by enabling negative ids. This should be used with care and one id will be lost when crossing from negative to positive numbers: the record 0 is typically ignored by Adobe Campaign in generated SQL queries.
 
-**Related topics:**
-* For more on the **Sequence auto-generation** feature, see [this document](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
-* For more on sequences exhaustion, watch [this video](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+For more on sequences exhaustion, watch [this video](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Indexes {#indexes}
 
@@ -321,5 +319,3 @@ In this example:
 * The *Product* and *Store* tables are smaller: less than 10,000.
 * The product label and reference have been placed in the *Product* table.
 * The *Transaction Item* table only has a link to the *Product* table, which is numerical.
-
-<!--For more detailed best practices on how to optimize the database design for larger volumes, see [Campaign Classic Data model Best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).-->

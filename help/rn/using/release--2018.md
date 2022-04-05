@@ -116,7 +116,7 @@ exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
      <li> <p>Track silent notifications in iOS </p> </li> 
      <li> <p>Implement feedback on registration calls in iOS</p> </li> 
      <li> <p>Improve iOS delivery preparation speed</p> </li> 
-    </ul> <p>As a part of GCM depreciation by Google, Android V2 connector now allows connections only to the FCM server.</p><p>For more information, refer to the <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">detailed documentation</a>. The manual ugrade to FCM is detailed in this <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">article</a>. </p> </td> 
+    </ul> <p>As a part of GCM depreciation by Google, Android V2 connector now allows connections only to the FCM server.</p><p>For more information, refer to the <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> SQL Data Management activity<br /> </td> 
@@ -460,7 +460,7 @@ For existing customers, file APIs can no longer access the **conf** folder of Ad
 **Improvements**
 
 * **LINE channel - architecture enhancement**: As with all other channels in Adobe Campaign, the LINE channel is now supported across all deployment types: hosted, hybrid, and on-premise. 
-* **Sequence auto-generation**: The ID generation mechanism has been enhanced to increase the lifespan of Campaign instances with large volumes of objects. For more information, refer to this [technote](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
+* **Sequence auto-generation**: The ID generation mechanism has been enhanced to increase the lifespan of Campaign instances with large volumes of objects.
 
 **Other changes**
 

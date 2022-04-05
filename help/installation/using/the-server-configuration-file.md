@@ -702,7 +702,7 @@ Here are the different parameters of the **ims** node. This is the configuration
 
 Here are the different parameters of the **javaScript** node. This is the configuration of the JavaScript interpreter.
 
-For additional information, refer to the [Reporting documentation](../../reporting/using/actions-on-reports.md#memory-allocation) and this [technote](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
+For additional information, refer to the [Reporting documentation](../../reporting/using/actions-on-reports.md#memory-allocation).
 
 <table> 
  <thead> 

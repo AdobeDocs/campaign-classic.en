@@ -82,7 +82,7 @@ With:
 
 The WSDL file is generated from the URL:
 
-[https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef](https://my_serveur/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef)
+`https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef`
 
 A WSDL description starts by defining the types used to form messages, associated in "ports", connected to a protocol by "bindings" forming Web services.
 

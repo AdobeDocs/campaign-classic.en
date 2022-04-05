@@ -12,8 +12,6 @@ exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 
 This integration can be used for example to create a newsletter in Adobe Experience Manager which will then be used in Adobe Campaign as part of an email campaign.
 
-For a more detailed example on how to use this integration, refer to this [step-by-step guide](https://helpx.adobe.com/campaign/kb/acc-aem.html).
-
 **From Adobe Experience Manager:**
 
 1. From your AEM author instance, click the **Adobe Experience** logo in the upper left side of the page and select **[!UICONTROL Sites]**.

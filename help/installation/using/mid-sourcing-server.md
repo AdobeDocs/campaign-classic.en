@@ -58,7 +58,7 @@ However, you must apply the following:
   For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 * Steps **6**, **9** and **10** aren't necessary.
-* During steps **12** and **13**, you need to indicate the 8080 port in the connection URL (since the console communicates with Tomcat directly, not via the Web server). The URL becomes [http://console.campaign.net:8080](http://console.campaign.net). During step **13**, select the **[!UICONTROL Issue towards Mid-sourcing]** package as well as those to install.
+* During steps **12** and **13**, you need to indicate the 8080 port in the connection URL (since the console communicates with Tomcat directly, not via the Web server). The URL becomes `http://console.campaign.net:8080`. During step **13**, select the **[!UICONTROL Issue towards Mid-sourcing]** package as well as those to install.
 
   ![](assets/s_ncs_install_midsourcing02.png)
 

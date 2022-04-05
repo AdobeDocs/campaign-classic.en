@@ -90,7 +90,7 @@ Users should now download and install the console by following the steps below:
 
 1. Open a web browser and download the console from the following address:
 
-   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
+   `https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`.
 
 1. In the identification window, enter your login and password. 
 

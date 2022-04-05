@@ -15,7 +15,6 @@ exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
 
 Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 
-* [Editing email content with Adobe Experience Manager](https://helpx.adobe.com/campaign/kb/acc-aem.html): learn about the basics to get started with the integration between Adobe Campaign and Experience Manager.
 * [Privacy management](https://helpx.adobe.com/campaign/kb/acc-privacy.html): discover what Adobe Campaign Classic provides to help you with your Privacy compliance when using our service.
 * [Integrating dynamic content in an email](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html): discover the basics to get started with the integration between Campaign Classic and Target Standard.
 * [Managing deliverability](../../delivery/using/about-deliverability.md): learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Classic to optimize sending your deliveries.

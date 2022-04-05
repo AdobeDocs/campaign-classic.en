@@ -32,7 +32,7 @@ For example, if the **Product Context** does not appear, the default product con
 
 **[!UICONTROL IMS Server URL]**
 
-In the Campaign **Adobe Marketing Cloud** external account, check that the **[!UICONTROL IMS Server URL]** is either [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) or [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/). Make sure both stage and production instances point to the same IMS production end point.
+In the Campaign **Adobe Marketing Cloud** external account, check that the **[!UICONTROL IMS Server URL]** is either `adobeid-na1.services.adobe.com` or `ims-na1.adobelogin.com`. Make sure both stage and production instances point to the same IMS production end point.
 
 **Association Mask**
 

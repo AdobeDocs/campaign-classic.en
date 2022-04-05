@@ -74,7 +74,5 @@ Additional Campaign how-to videos are available [here](https://experienceleague.
 
 **Related topic**
 
-* [Apply automatic business rules to deliveries on any channel](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
-
 * [Get started with typologies and fatigue management](pressure-rules.md)
 

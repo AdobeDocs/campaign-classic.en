@@ -134,9 +134,9 @@ Learn how to check your version [in this section](../../platform/using/launching
 
 **How to update?**
 
-As a hosted customer, If you have upgraded to the new build,  Adobe has already updated your instance(s) to the HTTP/2-based API.
+As a hosted customer, If you have upgraded to the new build, Adobe has already updated your instance(s) to the HTTP/2-based API.
 
-As an on-premise/hybrid customer, you need to update your configuration. [Learn how to migrate to HTTP/2](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+As an on-premise/hybrid customer, you need to update your configuration.
 
 ### APNs root certificate updates
 

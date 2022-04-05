@@ -292,8 +292,6 @@ Campaign Reporting advanced capabilities section has been improved to detail how
 
 The reports properties page has been reorganized and enriched to facilitate configuration. [Read more](../../reporting/using/properties-of-the-report.md)
 
-A new technote has been created with details on how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API. [Read more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
-
 ### September 2020 {#september-2020}
 
 A note has been added to specify that Active profiles count is available for Marketing instances only. [Read more](../../platform/using/about-profiles.md#active-profiles)
@@ -662,13 +660,11 @@ Added information on the Billing report.
 Updated documentation on the Shared audiences integration.
  [Read more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-The following technotes have been updated: [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) and [Sequence auto generation](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+The following technote has been updated: [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 The Technical workflows section has been updated. [Read more](../../workflow/using/about-technical-workflows.md)
 
 The Campaign Domain Name Setup procedure has been improved and updated.
-
-The Migration procedure for Android Apps from Google Cloud Messaging (GCM) to Firebase Cloud Messaging (FCM) has been updated. [Read more](https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html)
 
 The Campaign Hardware Sizing Guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html)
 
