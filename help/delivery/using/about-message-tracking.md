@@ -9,7 +9,7 @@ exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 
 ![](../../assets/common.svg)
 
-Thanks to its tracking functionalities, Adobe Campaign enables you to tra track the messages sent and check the behavior of recipients: opening, clicks on links, unsubscription, etc.
+Thanks to its tracking functionalities, Adobe Campaign enables you to track the messages sent and check the behavior of recipients: opening, clicks on links, unsubscription, etc.
 
 This information is retrieved in the **[!UICONTROL Tracking]** tab of the profile of each recipient of the delivery. This tab presents all the URL links tracked and clicked by the recipient selected from the list. This is the accumulation of all URLs tracked in the deliveries that are still present in the delivery screen. The list can be configured and typically will contain: the URL clicked, the date and time of the click, and the document in which the URL was found. For more on this, refer to [this section](../../platform/using/editing-a-profile.md#tracking-tab).
 
