@@ -9,7 +9,7 @@ exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 ---
 # CRM Connectors{#crm-connectors}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Get started with CRM connectors {#about-crm-connectors}
 

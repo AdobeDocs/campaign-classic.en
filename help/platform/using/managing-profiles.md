@@ -9,7 +9,7 @@ exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 ---
 # Manage profiles{#managing-profiles}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Recipient tree {#recipient-tree}
 
