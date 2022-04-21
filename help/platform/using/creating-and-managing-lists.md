@@ -9,7 +9,7 @@ exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 ---
 # Create and manage lists{#creating-and-managing-lists}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## What is a list? {#about-lists-in-adobe-campaign}
 

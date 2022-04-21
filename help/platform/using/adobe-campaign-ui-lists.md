@@ -7,7 +7,7 @@ exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 ---
 # Manage and customize lists{#manage-and-customize-lists}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 You can access the lists of records in Campaign database using the Explorer. You can filter these lists, run searches, add information, filter and sort data.
 

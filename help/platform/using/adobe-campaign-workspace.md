@@ -9,7 +9,7 @@ exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 ---
 # Adobe Campaign workspace{#adobe-campaign-workspace}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Explore Adobe Campaign interface {#about-adobe-campaign-interface}
 
