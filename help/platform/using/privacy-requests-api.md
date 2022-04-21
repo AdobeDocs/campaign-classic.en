@@ -5,7 +5,7 @@ description: Learn how to setup an automatic Privacy request process
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-
+exl-id: a93bac61-f615-4178-bc12-0f056e48687d
 ---
 # Automatic Privacy request process {#automatic-privacy-request-api}
 

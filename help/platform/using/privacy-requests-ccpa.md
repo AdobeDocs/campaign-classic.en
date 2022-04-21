@@ -5,7 +5,7 @@ description: Learn about opt-out for the sale of personal data
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-
+exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
 ---
 # Opt-out for the Sale of Personal Information (CCPA) {#sale-of-personal-information-ccpa}
 

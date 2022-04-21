@@ -5,7 +5,7 @@ description: Learn how to create and manage Privacy requests
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-
+exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 ---
 # Create and manage Privacy requests {#privacy-request-ui}
 
