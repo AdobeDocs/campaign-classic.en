@@ -49,7 +49,11 @@ type: Documentation
   + Privacy {#privacy}
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Privacy management](platform/using/privacy-management.md)
-       + [Privacy requests](platform/using/privacy-requests.md)
+       + Privacy requests {#privacy-requests}
+          + [About Privacy requests](platform/using/privacy-requests.md)
+          + [Create and manage Privacy requests](platform/using/privacy-requests-ui.md)
+          + [Automatic Privacy request process](platform/using/privacy-requests-api.md)
+          + [Opt-out for the Sale of Personal Information](platform/using/privacy-requests-ccpa.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
        + [Edit a profile](platform/using/editing-a-profile.md)
