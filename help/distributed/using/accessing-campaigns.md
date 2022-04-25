@@ -7,7 +7,7 @@ exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
 ---
 # Access campaigns{#accessing-campaigns}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Once a campaign has been ordered, the order has been approved, and the availability date reached, it can be executed.
 

@@ -9,7 +9,7 @@ exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 ---
 # Hypothesis templates{#hypothesis-templates}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Create a hypothesis model {#creating-a-hypothesis-model}
 
