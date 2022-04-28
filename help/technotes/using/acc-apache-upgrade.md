@@ -4,6 +4,7 @@ title: Technote - Adobe Campaign - Apache version security update
 description: Adobe Campaign - Apache version security update
 hide: yes
 hidefromtoc: yes
+exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
 ---
 # Adobe Campaign - Apache version security update {#apache-update}
 
