@@ -137,9 +137,9 @@ Global impacts on configuration, connectivity with other systems and products, A
     
     There will be IP addresses on the allowlist that will be required in the external solution as Application servers IP will change. This information will be provided. Other parts of integration are IMS-based and should work as-is.
 
-* **What about customer that are not attached to Org ID for IMS integration?**
+* **What about customer that are not attached to Organization ID for IMS integration?**
 
-    Customers who don’t have IMS will be provided one: an IMS org ID will be attached to their instance.
+    Customers who don’t have IMS will be provided one: an organization ID will be attached to their instance.
 
 * **Are multi-branding configurations impacted by the migration?**
     

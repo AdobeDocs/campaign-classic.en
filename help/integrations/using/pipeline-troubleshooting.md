@@ -24,11 +24,11 @@ Set the JSON config in the option **NmsPipeline_Config**. See "routing option" i
 
 **Pipelined fails with "the subject must be a valid organization or client"**
 
-The Organization identifier configuration is not valid.
+The Organization ID configuration is not valid.
 
-1. Check that the IMSOrgId is set in the serverConf.xml.
-1. Look for an empty IMSOrgId in the instance config file that can override the default. If so, remove it.
-1. Check that the IMSOrgId matches that of the customer in the Experience Cloud.
+1. Check that the Organization ID (ImsOrgId) is set in the serverConf.xml.
+1. Check if an empty Organization ID in the instance configuration file could override the default one. If so, remove it.
+1. Check that the Organization ID is correct. To find your Organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}
 
 **Pipelined fails with "invalid key"**
 

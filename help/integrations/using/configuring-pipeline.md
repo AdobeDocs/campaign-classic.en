@@ -25,11 +25,11 @@ Before starting this configuration, please check you are using:
   * 20.3.1 
 * Adobe Analytics Standard version
 
-You will also need:
+You also need:
 
 * Adobe I/O project authentication
-* a valid IMSOrgID, the identifier of the Experience Cloud customer with Adobe Analytics added
-* a Developer access to the IMS Org
+* a valid Organization ID - To find your Organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}
+* a Developer access to your Organization
 * triggers configuration done in Adobe Analytics
 
 ## Authentication and configuration files {#authentication-configuration}
