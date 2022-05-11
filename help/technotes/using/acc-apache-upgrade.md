@@ -8,12 +8,8 @@ exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
 ---
 # Adobe Campaign - Apache version security update {#apache-update}
 
->[!NOTE]
->This article applies to:
-> * Campaign Classic v7 Managed Services customers
-> * Campaign v8 customers
-> * Campaign Standard customers
-
+>[!CAUTION]
+>This article applies to: Campaign Classic v7 Managed Services customers, Campaign v8 customers and Campaign Standard customers.
 
 Adobe Campaign works with 3rd party tools, and compatibility is updated on a regular basis, in order to implement supported versions only, and benefit from the latest fixes and improvements. 
 
