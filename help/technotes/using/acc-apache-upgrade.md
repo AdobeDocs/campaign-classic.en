@@ -50,7 +50,7 @@ Your non-production instance(s) will be upgraded by our teams first before we up
 
 * **What validations need to be run by the customers?** 
     
-    No specific testing is needed for this security upgrade. In case any issue is observed, please reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+    No specific testing is needed for this security upgrade. In case any issue is observed, please reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
 * **Can I request a change in Date/Time to the scheduled security upgrade slot?** 
