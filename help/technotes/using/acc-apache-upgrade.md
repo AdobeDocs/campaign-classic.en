@@ -32,7 +32,6 @@ Your non-production instance(s) will be upgraded by our teams first before we up
 
     The current Apache version is vulnerable and has a potential security threat. It is important for your Campaign instance(s) to be upgraded to the latest applicable Apache version to address the security risk. 
 
-
 * **Which customers are targeted for security upgrades?**
 
     All the customers using Campaign environments implemented on older Apache versions are upgraded to the latest applicable Apache version.
@@ -44,6 +43,10 @@ Your non-production instance(s) will be upgraded by our teams first before we up
 * **Are there any actions required by the customer for this security upgrade?** 
     
     No actions is required since the security upgrade will run automatically. 
+
+* **What is the impact on the running campaigns/workflows during the maintenance window?**
+
+    During the maintenance window, the workflow and mail services will both be stopped, and the scheduled activities will not be running. Any ongoing activities or running processes will be on halt during the downtime until the server restarts. Once the activity is completed and the server is restarted, all services will resume.
 
 * **What validations need to be run by the customers?** 
     
