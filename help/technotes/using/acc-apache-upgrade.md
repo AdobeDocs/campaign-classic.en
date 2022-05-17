@@ -9,7 +9,7 @@ exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
 # Adobe Campaign - Apache version security update {#apache-update}
 
 >[!CAUTION]
->This article applies to: Campaign Classic v7 Managed Services customers, Campaign v8 customers and Campaign Standard customers.
+>This article applies to: **Campaign Classic v7 Managed Services** customers, **Campaign v8** customers and **Campaign Standard** customers.
 
 Adobe Campaign works with 3rd party tools, and compatibility is updated on a regular basis, in order to implement supported versions only, and benefit from the latest fixes and improvements. 
 
@@ -19,7 +19,7 @@ The Adobe Campaign team will conduct the Apache version security upgrade activit
 
 This upgrade is expected to run automatically outside of your normal business hours for you to continue using the Campaign service without any disruption. 
 
-Your non-production instance(s) will be upgraded by our teams first before we upgrade your production instance(s). Since this is an automatic upgrade process owned by Adobe, there is no action required from your side. However, if you experience any issues, please contact [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).   
+Your non-production instance(s) will be upgraded by Adobe first, then your production instance(s) will be upgraded. Since this is an automatic upgrade process owned by Adobe, there is no action required from your side. However, if you experience any issues, please contact [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).   
 
 
 >[!NOTE]
