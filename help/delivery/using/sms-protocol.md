@@ -405,7 +405,7 @@ The Adobe Campaign Classic Extended SMPP connector can control the number of con
 
 For Adobe Campaign Classic, there can be a different number of receiver and transmitter connections:
 
-* **Transmitter connections = Number of MTA child connections * number of MTA child processes * number of MTAs (if auto-reply is set) + Number of MTA child connections**
+* **Transmitter connections = Number of MTA child connections * number of MTA child processes * number of MTAs </br> (if auto-reply is set) + Number of MTA child connections**
 
 As suggested above, the Adobe Campaign Classic SMS process opens more transmitter connections if auto-reply is enabled. These extra connections are used to send the automatic replies.
 
