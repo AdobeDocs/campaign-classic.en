@@ -7,7 +7,7 @@ exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 ---
 # Distributed Marketing samples{#distributed-marketing-samples}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Create a local campaign (by form) {#creating-a-local-campaign--by-form-}
 
