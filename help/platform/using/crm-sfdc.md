@@ -20,7 +20,7 @@ To configure CRM Connector for Salesforce, follow the steps below:
 1. Create a new external account via the **[!UICONTROL Administration > Platform > External accounts]** node of the Adobe Campaign tree.
 1. Select **[!UICONTROL Salesforce.com]**.
 1. Enter settings to enable connection.
-    
+
     ![](assets/ext_account_17.png)
 
     To configure the Salesforce CRM external account to work with Adobe Campaign, you need to provide the following details:

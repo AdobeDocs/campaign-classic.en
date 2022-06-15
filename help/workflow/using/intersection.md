@@ -7,6 +7,13 @@ exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---
 # Intersection{#intersection}
 
+>[!CONTEXTUALHELP]
+>id="ac_workflow_intersection"
+>title="Intersection activity"
+>abstract="An Intersection type activity creates a target from the intersection of the targets received. An intersection lets you extract only the population that is common to all inbound activity results."
+>additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
+
+
 ![](../../assets/common.svg)
 
 An **Intersection**-type activity creates a target from the intersection of the targets received.

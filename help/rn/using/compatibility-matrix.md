@@ -220,7 +220,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 </tbody>
 </table>
 
-In addition, **Hybrid** and **On-premise** environments can also connect Campaign with:
+In addition, **Hybrid** and **On-premise** environments can also connect Campaign with the following external database systems. These systems are **not compatible** with Campaign **Managed Services** (hosted) environments.
 
 <table>
 <tbody>
@@ -413,13 +413,7 @@ The following browsers are compatible with Campaign for [Web Access](../../campa
 <p>Latest version</p>
 </td>
 </tr>
-<tr>
-<td>
-<p>Microsoft Internet Explorer</p>
-</td>
-<td>
-<p>11</p>
-</td>
+
 </tr>
 </tbody>
 </table>

@@ -237,7 +237,7 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
 * **[!UICONTROL IMS organization ID]**
 
-  ID of your IMS organization. To find your organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) (**Where can I find my IMS organization ID?**).
+  ID of your organization. To find your organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
 
 * **[!UICONTROL Association mask]**
 

@@ -13,9 +13,7 @@ Web applications are created and managed according to the same principle as [web
 
 >[!CAUTION]
 >
->Use the **[!UICONTROL Preview]** sub-tab to check errors during web application design.
->
->Until the Web application is published, changes are not exposed to end users.
+>Use the **[!UICONTROL Preview]** sub-tab to check errors during web application design. Note that the profile test used to preview your web application needs to be in a folder with **[!UICONTROL Access rights]** for the **[!UICONTROL Web application agent]** operator. </br>Until the Web application is published, changes are not exposed to end users.
 
 ## Inserting charts in a Web application {#inserting-charts-in-a-web-application}
 

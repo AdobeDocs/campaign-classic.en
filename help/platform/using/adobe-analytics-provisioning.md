@@ -89,7 +89,7 @@ Your Product profile is now configured. You then need to create the Adobe I/O pr
 
 ## Create Adobe I/O Project {#create-adobe-io}
 
-1. Access Adobe I/O and log in as **System Administrator** of the IMS Organization.
+1. Access Adobe I/O and log in as **System Administrator** of your Organization.
    
    For more information on Admin roles, refer to this [page](https://helpx.adobe.com/enterprise/using/admin-roles.html).
    
@@ -151,4 +151,5 @@ Your Product profile is now configured. You then need to create the Adobe I/O pr
     ```
     nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
     ```
+
 You can now start using the Analytics connector and track your customer behaviors.
