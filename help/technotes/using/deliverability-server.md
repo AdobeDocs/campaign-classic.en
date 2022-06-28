@@ -25,7 +25,7 @@ This new server guarantees a high availability (99.9)​, and provides secure an
 
 ## Are you impacted?{#acc-deliverability-impacts}
 
-If you are using the existing Adobe Campaign deliverability server, and your environment was implemented on a lower build than Campaign 21.1.1, you are impacted. You need to upgrade to Campaign 21.1 (or more).
+If you are using the old Adobe Campaign deliverability server, and your environment was implemented on a lower build than Campaign 21.1.1, you are impacted. You need to upgrade to Campaign 21.1 (or more).
 
 Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
