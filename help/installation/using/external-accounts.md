@@ -161,6 +161,14 @@ The SFTP external account lets you configure and test access to a server outside
 
   Password used to connect to the SFTP server.
 
+To add SSH keys on Windows:
+
+1. Create the **HOME** environment variable with value set as the installation directory.
+
+2. Add your private key to the `/$HOME/.ssh/id_rsa` folder.
+
+3. Restart the Adobe Campaign services.
+
 ### External database (FDA) {#external-database-external-account}
 
 Use the **External database** type external account to connect to external an database. Learn more about Federated Data Access (FDA) option in [this section](../../installation/using/about-fda.md).

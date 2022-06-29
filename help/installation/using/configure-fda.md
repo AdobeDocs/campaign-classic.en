@@ -56,3 +56,10 @@ Follow the links below to learn more:
 * Connect Campaign and [Teradata](../../installation/using/configure-fda-teradata.md)
 
 * Connect Campaign and [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+
+* Connect Campaign and [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
+
+* Connect Campaign and [Microsoft SQL Server](../../installation/using/configure-fda-sql.md)
+
+* Connect Campaign and [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+

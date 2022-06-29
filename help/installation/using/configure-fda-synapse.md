@@ -227,3 +227,9 @@ To create your [!DNL Azure Synapse] external account follow the steps below:
         ![](assets/azure_4.png)
 
 1. Click **[!UICONTROL Save]**.
+
+The connector supports the following options:
+
+| Option   |  Description |
+|---|---|
+|  Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. </br>For more information, refer to [SQL doc](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Example connection strings n°8). |
