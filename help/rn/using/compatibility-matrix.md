@@ -42,6 +42,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Debian</td>
 <td>
+<p>11 (64 bits)</p>
 <p>10 (64 bits)</p>
 <p>9 (64 bits)</p>
 </td>
