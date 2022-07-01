@@ -673,6 +673,8 @@ type: Documentation
             + [Configure Sybase IQ](installation/using/configure-fda-sybase.md)
             + [Configure Teradata](installation/using/configure-fda-teradata.md)
             + [Configure SAP HANA](installation/using/configure-fda-sap-hana.md)
+            + [Configure Microsoft SQL Server](installation/using/configure-fda-sql.md)
+            + [Configure PostgreSQL](installation/using/configure-fda-postgresql.md)
           + [Remote access rights](installation/using/remote-database-access-rights.md)
           + [Connect to the database](installation/using/connecting-to-database.md)
           + [Create the data schema](installation/using/creating-data-schema.md)
@@ -684,6 +686,7 @@ type: Documentation
        + [Create new instances](installation/using/creating-new-instances.md)
        + [List of Campaign options](installation/using/configuring-campaign-options.md)
        + [Uninstall Campaign](installation/using/uninstalling-campaign.md)
+       + [Install new fonts](installation/using/install-fonts.md)
 + Monitoring guide {#monitoring-campaign-classic}
   + Introduction {#introduction}
        + [Foreword](production/using/foreword.md)

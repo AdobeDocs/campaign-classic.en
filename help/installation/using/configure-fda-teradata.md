@@ -91,6 +91,27 @@ The Teradata external account allows you to connect your Campaign instance to yo
 
     * **[!UICONTROL Timezone]**: Timezone set in Teradata. [Learn more](#timezone)
 
+The connector supports the following options:
+
+| Option   |  Description |
+|---|---|
+| TD_MAX_SESSIONS | Specifies the maximum number of logon sessions that the Teradata Parallel Transporter can acquire for an operator job. <br>For more on this, refer to [this page](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/ds2ref/p1naft0um1kn3vn1ubgkrjdf7c3a.html).|
+| TimeZoneName | Name of the server time zone. |
+| CharacterSet | Used to configure Teradata character set. <br>For more on this, refer to [this page](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001).|
+| IANAAppCodePage | ODBC application code page. <br>For more on this, refer to [this page](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page)|
+
+### Add additional ODBC external accounts {#add-external}
+
+>[!NOTE]
+>
+> This option is not available for builds older than the 7.3.1 version.
+
+The Teradata driver provides its own ODBC library but this library may not be compatible with other ODBC external accounts. 
+
+If you want to configure another external account that also uses ODBC, e.g. Snowflake, you will need to add an ODBCLib option set to the path of the default ODBC library (`/usr/lib/x86_64-linux-gnu/libodbc.so` on Debian and `/usr/lib64/libodbc.so` on RHEL/CentOS).
+
+![](assets/ext_account_24.png)
+
 ### Query banding
 
 When multiple Adobe Campaign users connect to the same FDA Teradata external account, the **[!UICONTROL Query banding]** tab allows you to set a query band, i.e. a set of key/value pairs, on a session.

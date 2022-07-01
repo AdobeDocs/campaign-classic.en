@@ -70,6 +70,34 @@ To configure the **[!UICONTROL Bounce mails (defaultPopAccount)]** external acco
 
   Type of chosen encryption between **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** or **[!UICONTROL POP3S]**.
 
+* **[!UICONTROL Function]**
+
+  Inbound email or SOAP router
+
+>[!IMPORTANT]
+>
+>Before configuring your POP3 external account using Microsoft OAuth 2.0, you first need to register your application in the Azure portal. For more on this, refer to [this page](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+
+To configure a POP3 external using **Microsoft OAuth 2.0**, check the **[!UICONTROL Microsoft OAuth 2.0]** option and fill in the following fields:
+
+* **[!UICONTROL Azure tenant]**
+
+  Azure ID (or Directory (tenant) ID) can be found in the **Essentials** drop-down of your application overview in the Azure portal.
+
+* **[!UICONTROL Azure Client ID]**
+
+  Client ID (or Application (client) ID) can be found in the **Essentials** drop-down of your application overview in the Azure portal.
+
+* **[!UICONTROL Azure Client secret]**
+
+  Client secret ID can be found in the **Client secrets** column from the **Certificates & secrets** menu of your application in the Azure portal.
+
+* **[!UICONTROL Azure Redirect URL]**
+
+  Redirect URL can be found in the **Authentication** menu of your application in the Azure portal. It should end with the following syntax `nl/jsp/oauth.jsp`, e.g. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+
+After entering your different credentials, you can click **[!UICONTROL Setup the connection]** to finish your external account configuration.
+
 ### Routing{#routing-external-account}
 
 The **[!UICONTROL Routing]** external account allows you to configure each channel available in Adobe Campaign depending on the packages installed.
@@ -160,6 +188,14 @@ The SFTP external account lets you configure and test access to a server outside
 * **[!UICONTROL Password]**
 
   Password used to connect to the SFTP server.
+
+To add SSH keys on Windows:
+
+1. Create the **HOME** environment variable with value set as the installation directory.
+
+2. Add your private key to the `/$HOME/.ssh/id_rsa` folder.
+
+3. Restart the Adobe Campaign services.
 
 ### External database (FDA) {#external-database-external-account}
 

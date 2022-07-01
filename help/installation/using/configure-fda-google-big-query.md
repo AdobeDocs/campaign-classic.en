@@ -188,11 +188,11 @@ You need to create a [!DNL Google BigQuery] external account to connect your Ado
 
 The connector supports the following options:
 
-| Option   |  Value | Description |
-|:-:|:-:|:-:|
-|  ProxyType | string | Type of proxy used to connect to BigQuery through ODBC and SDK connectors. </br>HTTP (default), http_no_tunnel, socks4 and socks5 are currently supported. |
-|  ProxyHost | string | Hostname or IP address where the proxy can be reached. |
-| ProxyPort | number  | Port number the proxy is running on, e.g. 8080 |
-| ProxyUid | string |  Username used for the authenticated proxy |
-| ProxyPwd | string | ProxyUid password |
-| bqpath | string | Note that this is applicable for bulk-load tool only (Cloud SDK). </br> To avoid using PATH variable or if the google-cloud-sdk directory has to be moved to another location, you can specify with this option the exact path to the cloud sdk bin directory on the server. |
+| Option   |  Description |
+|:-:|:-:|
+|  ProxyType | Type of proxy used to connect to BigQuery through ODBC and SDK connectors. </br>HTTP (default), http_no_tunnel, socks4 and socks5 are currently supported. |
+|  ProxyHost | Hostname or IP address where the proxy can be reached. |
+| ProxyPort | Port number the proxy is running on, e.g. 8080 |
+| ProxyUid | Username used for the authenticated proxy |
+| ProxyPwd | ProxyUid password |
+| bqpath | Note that this is applicable for bulk-load tool only (Cloud SDK). </br> To avoid using PATH variable or if the google-cloud-sdk directory has to be moved to another location, you can specify with this option the exact path to the cloud sdk bin directory on the server. |

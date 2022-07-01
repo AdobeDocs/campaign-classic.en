@@ -42,6 +42,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Debian</td>
 <td>
+<p>11 (64 bits)</p>
 <p>10 (64 bits)</p>
 <p>9 (64 bits)</p>
 </td>
@@ -259,9 +260,13 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </tr>
 <tr><td>MySQL</td>
 <td>
+<p>8</p>
 <p>5.7</p>
 </td>
-<td>v7.0 minimum</td>
+<td>
+<p>v7.3 minimum</p>
+<p>v7.0 minimum</p>
+</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -329,8 +334,9 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>8</p>
+<p>11 (starting Campaign v7.3)</p>
 <p>10 (recommended for Japanese instances)</p>
+<p>8</p>
 </td>
 </tr>
 </tbody>
@@ -361,15 +367,15 @@ You can use Campaign to [send push notifications](../../delivery/using/about-mob
 <tr>
 <td>Android</td>
 <td>
-<p>7.x, 8.x, 9.0</p>
-<p>with mobile SDK build 1.0.27.</p>
+<p>12 (starting Campaign v7.3), 9.0, 8.x, 7.x</p>
+<p>with mobile SDK build 1.1.1</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 14</p>
-<p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
+<p>iOS 9 - 15</p>
+<p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions. iOS 15 is supported starting Campaign v7.3</p>
 </td>
 </tr>
 </tbody>

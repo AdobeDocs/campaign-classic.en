@@ -16,7 +16,6 @@ Use Campaign **Federated Data Access** (FDA) option to process information store
 1. Configure [!DNL Vertica] on [CentOS](#vertica-centos), [Windows](#vertica-windows) or [Debian](#vertica-debian)
 1. Configure the [!DNL Vertica] [external account](#vertica-external) in Campaign
 
-
 >[!NOTE]
 >
 >[!DNL Vertica] connector is available for hybrid and on-premise deployments. For more on this, refer to [this page](../../installation/using/capability-matrix.md).
@@ -162,3 +161,10 @@ You need to create a [!DNL Vertica] external account to connect your Campaign in
     * **[!UICONTROL Database]**: Name of the database
 
     ![](assets/vertica.png)
+
+The connector supports the following options:
+
+| Option   |  Description |
+|---|---|
+|  TimeZoneName |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. |
+
