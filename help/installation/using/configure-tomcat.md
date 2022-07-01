@@ -50,8 +50,6 @@ If necessary, this operation can be reproduced on the server-side.
 
 For security reasons, we strongly recommend that you hide the Tomcat error report. Here are the steps.
 
-The steps are the following:
-
 1. Open the **server.xml** file located in the **/tomcat-8/conf** directory of the Adobe Campaign installation folder:  `/usr/local/neolane/nl6/tomcat-8/conf`
 1. Add the following element at the bottom after all existing context elements:
     ```
