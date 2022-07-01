@@ -686,6 +686,7 @@ type: Documentation
        + [Create new instances](installation/using/creating-new-instances.md)
        + [List of Campaign options](installation/using/configuring-campaign-options.md)
        + [Uninstall Campaign](installation/using/uninstalling-campaign.md)
+       + [Install new fonts](installation/using/install-fonts.md)
 + Monitoring guide {#monitoring-campaign-classic}
   + Introduction {#introduction}
        + [Foreword](production/using/foreword.md)
