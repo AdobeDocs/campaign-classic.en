@@ -13,6 +13,70 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
+## ![](assets/do-not-localize/limited_2.png) Release 7.3.1 - Build 9351 {#release-7-3-1}
+
+_July 1, 2022_
+
+**What's new?**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Time Sensitive notifications</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>With iOS 15, Apple added a notion of sensitive notification that gives control to the app developer to bypass Focus mode when a notification is considered as sensitive and then needs to reach the user in real-time.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Compatibility updates**
+
+* Adobe Campaign SDK now supports Android 12 and iOS 15 for Push Notifications.
+* Adobe Campaign is now compatible with MySQL 8.
+* Adobe Campaign is now compatible with Windows 11.
+* Adobe Campaign is now compatible with Debian 11.
+* Adobe Campaign is now compatible with Windows Server 2019
+
+**Improvements**
+
+* Following the end of life of Internet Explorer 11, the HTML rendering engine of the console is now using Edge Chromium.
+* The database connection management in Adobe Campaign has been improved to optimize stability.
+* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. 
+* Fixed various issues when using an enrichment workflow activity with external data. (NEO-38069)
+* The SAP Hana FDA connector has been updated to function with the latest SAP Hana database version (2.x).
+* The Teradata FDA connector has been updated to function with the latest Teradata version (17).
+* In 20.2, the support of token-based authentication for iOS deliveries was introduced for new deliveries and delivery templates. In 7.2, a patch was added to the postugrade to apply the token-based authentication support to a maximum of 10,000 previously created deliveries and delivery templates. In 7.3, the patch has been improved and the limit has been removed.
+
+**Patches**
+
+* Fixed an error from the previous build which prevented users from resizing the IMS login page.
+* Fixed an error which occurred when installing the content manager package on an existing instance.
+* Fixed an issue in the **Campaigns** menu where an "operation in progress" message was displayed continuously. 
+* With Adobe Analytics enabled, fixed an issue that removed BID (Broadlog ID) and CID (Campaign ID) from the URL when sending an email with a URL without saving the delivery.
+* Fixed an issue when uploading an image in the Public resources folder in an instance with Message Center specific configuration. The following error message would appear: "Unable to upload the images to the tracking servers".
+* Fixed an issue that caused the system to crash when regenerating configuration in case of bad configuration files.
+* Fixed an issue which could lead to delivery indicators not being updated correctly. (NEO-44827)
+* Fixed an issue which could lead to a postupgrade error when using complex queries. (NEO-43648)
+* Fixed an issue that could prevent webApps preview from working. (NEO-43242)
+* Fixed an issue that could lead delivery preparation to fail when using an external target mapping file in a workflow with a Data loading (file) activity. (NEO-43691)
+* Fixed an issue that could lead to crashes and required a complete restart of the instance. (NEO-44645)
+* Fixed an issue which could prevent Workflow Heatmap from loading any result. (NEO-43360)
+* Fixed an issue that could lead to connection issues when using the FDA external connector. (NEO-42722)
+* Fixed an issue with proofs when using address substitution and control group exclusion. (NEO-39695)
+* Fixed an issue which could lead to workflow failures due to a Snowflake connector issue. (NEO-46299)
+* Fixed an issue which could freeze the client console due to an invalid character in a personnalization block. (NEO-45761)
+* Fixed an issue that could lead to connection issues when creating an external account for Snowflake as an external database. (NEO-45744)
+* Fixed an issue that could lead to display table information protected by a visibleIf attribute. (NEO-37865)
+* Fixed an issue that could display the "$ is not defined" error message during the delivery analysis phase. (NEO-32940)
+* Fixed an issue that caused deliveries to be associated with a wrong eventType. (NEO-45743)
+* Fixed an issue that could lead to crashes due to intermittent core dumps (NEO-30549)
+* Fixed an issue that could lead to crashes when using erroneous HTML code in a delivery. (NEO-40385)
+* Fixed an issue that could prevent non admin users from accessing the **Analysis** tab in delivery properties. (NEO-34025)
+
 ## ![](assets/do-not-localize/green_2.png) Release 7.2.2 - Build 9349 {#release-7-2-2}
 
 _March 1, 2022_
@@ -34,7 +98,6 @@ _March 1, 2022_
 * Fixed an issue which led to errors when synchronizing the mid-sourcing and marketing instances on a multi-mid configuration. (NEO-10432)
 * Fixed an issue which led to an error when refreshing the deliverability workflow when having more than 1000 broadlogs at the same time. (NEO-40276)
 * Fixed an issue which prevented the open ratio and click ratio delivery indicators from being updated automatically. (NEO-43253)
-
 
 ## ![](assets/do-not-localize/limited_2.png) Release 7.2.1 - Build 9346 {#release-7-2-1}
 
