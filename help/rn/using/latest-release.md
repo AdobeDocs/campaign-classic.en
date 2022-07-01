@@ -13,7 +13,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-## ![](assets/do-not-localize/limited_2.png) Release 7.3.1 - Build 9351 {#release-7-3-1}
+## ![](assets/do-not-localize/limited_2.png) Release 7.3.1 - Build 9352 {#release-7-3-1}
 
 _July 1, 2022_
 
