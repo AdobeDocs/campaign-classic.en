@@ -28,6 +28,7 @@ _July 1, 2022_
 <tbody> 
 <tr> 
 <td> <p>With iOS 15, Apple added a notion of sensitive notification that gives control to the app developer to bypass Focus mode when a notification is considered as sensitive and then needs to reach the user in real-time.</p>
+<p>Learn how to create a sensitive notification in the <a href="../../delivery/using/create-notifications-ios.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -46,7 +47,7 @@ Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix
 
 * Following the end of life of Internet Explorer 11, the HTML rendering engine of the console is now using Edge Chromium.
 * The database connection management in Adobe Campaign has been improved to optimize stability.
-* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. 
+* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. [Read more](../../installation/using/external-accounts.md#bounce-mails-external-account)
 * Fixed various issues when using an enrichment workflow activity with external data. (NEO-38069)
 * The SAP Hana FDA connector has been updated to function with the latest SAP Hana database version (2.x).
 * The Teradata FDA connector has been updated to function with the latest Teradata version (17).
