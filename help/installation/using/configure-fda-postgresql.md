@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to PostgreSQL
 description: Learn how to configure access to PostgreSQL
+exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 ---
 # Configure access to PostgreSQL {#configure-fda-postgresql}
 

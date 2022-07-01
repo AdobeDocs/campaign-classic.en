@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to Microsoft SQL Server
 description: Learn how to configure access to Microsoft SQL Server
+exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
 ---
 # Configure access to Microsoft SQL Server {#configure-fda-sql}
 
@@ -107,4 +108,3 @@ The connector supports the following options:
 |  Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. <br> For more on this, refer to example 8 of [Microsoft documentation](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings).|
 |  Encrypt |  Specifies whether connections use the TLS encryption over the network. Possible values are **yes/mandatory (18.0 and later)**, **no/optional (18.0 and later)**, and **strict (18.0 and later)**. The default value is set to **yes** in version 18.0 and later and **no** in previous versions. <br>For more on this, refer to [Microsoft documentation](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
 |  TrustServerCertificate | Enables encryption using a self-signed server certificate, when used with **Encrypt**. <br>Accepted values: **yes** or **no** (default value, which means that the server certificate will be validated).|
-
