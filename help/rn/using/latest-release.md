@@ -41,6 +41,8 @@ _July 1, 2022_
 * Adobe Campaign is now compatible with Debian 11.
 * Adobe Campaign is now compatible with Windows Server 2019
 
+Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md#OperatingSystems).
+
 **Improvements**
 
 * Following the end of life of Internet Explorer 11, the HTML rendering engine of the console is now using Edge Chromium.
