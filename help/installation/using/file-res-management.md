@@ -23,10 +23,6 @@ To limit the possible formats, replace the attribute value by a valid java regul
 
 For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG and JPG formats on the server. No other formats will be accepted.
 
->[!NOTE]
->
->In Internet Explorer, the complete file path must be verified by the regular expression.
-
 You can also prevent important files from being uploaded by configuring the Web Server. [Learn more](web-server-configuration.md)
 
 ## Proxy connection configuration {#proxy-connection-configuration}

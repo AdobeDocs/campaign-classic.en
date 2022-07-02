@@ -82,7 +82,7 @@ Apply these steps for each page inserted in the Web application.
 
 >[!CAUTION]
 >
->**The DCE executes the JavaScript code for the loaded HTML page.** JavaScript errors in the HTML template which may appear in the Adobe Campaign interface. These errors are not related to the editor. To check that there are no errors in the imported files, it is recommended you test them in a browser (Internet Explorer / Firefox / Chrome) before importing the files into the DCE.
+>**The DCE executes the JavaScript code for the loaded HTML page.** JavaScript errors in the HTML template which may appear in the Adobe Campaign interface. These errors are not related to the editor. To check that there are no errors in the imported files, it is recommended you test them in a web browser before importing the files into the DCE.
 
 ## Step 2 - Configuring the content {#step-2---configuring-the-content}
 
