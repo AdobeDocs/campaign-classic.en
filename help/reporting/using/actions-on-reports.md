@@ -80,7 +80,7 @@ To find out more about the **nlserver** service, refer to [this section](../../p
 
 You can print your report: to do this, click the printer icon: this opens the dialog box.
 
-For a better result, edit the Internet Explorer printing options and select **[!UICONTROL Print background colors and images]**.
+For a better result, edit the Explorer printing options and select **[!UICONTROL Print background colors and images]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
