@@ -58,7 +58,7 @@ Adobe Campaign manages this process with a match between an error type and a rea
 >
 >To learn more about delivery failure types and reasons, refer to this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-## Deliverability instance
+## Deliverability instance {#deliveratbility-env}
 
 A daily update of the MX rules and inbounces rules are managed by a specific workfow in the client instance which is connected to the Deliverability instance owner of these rules.
 
