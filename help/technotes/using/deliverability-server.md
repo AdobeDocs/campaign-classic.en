@@ -14,7 +14,7 @@ As a Campaign Classic customer, you must implement the new deliverability server
 
 >[!NOTE]
 >
->For any questions about these changes, read the [FAQ](#faq-aa). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 >
 
 ## What changed?{#acc-deliverability-changes}
@@ -32,15 +32,13 @@ Learn how to check your version [in this section](../../platform/using/launching
 
 ## How to update?{#acc-deliverability-update}
 
-As a hosted customer, Adobe will be working with you to upgrade your instance(s) to the newer version.
+As a **hosted customer**, Adobe will be working with you to upgrade your instance(s) to the newer version, and create the project in Adobe Developer Console.
 
-As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new deliverability server
-.
-Once all instances are upgraded, you will be able to [implement the new integration](#implementation-steps) to Adobe deliverability server, and ensure a seamless transition.
+As an **on-premise/hybrid customer**, you need to upgrade to one of the newer versions to benefit from the new deliverability server. Once all instances are upgraded, you will be able to [implement the new integration](#implementation-steps) to Adobe deliverability server, and ensure a seamless transition.
 
 ## Implementation steps (hybrid and on-premise customers) {#implementation-steps}
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >These steps should only be carried out by Hybrid and On-premise implementations.
 >
@@ -52,29 +50,45 @@ As part of the new deliverability server integration, Campaign needs to communic
 
 ### Step 1: Create/update your Adobe Developer Project {#adobe-io-project}
 
+
+
 1. Access [Adobe Developer Console](https://developer.adobe.com/console/home) and log in with the Developer access of your Organization.
 
     >[!NOTE]
     >
     > Make sure you are logged into the correct Organization portal.
 
-1. Select **[!UICONTROL + Add to Project]** and choose **[!UICONTROL API]**.
-1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Campaign]**.
-1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.
-1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a public and private key pair.
+1. Select **[!UICONTROL Create new project]**.
+    ![](assets/New-Project.png) 
 
-    The keys will then be automatically downloaded with a default expiry date of 365 days. Once expired, you will need to create a new key pair and update the integration in the configuration file. Using the Option 2, you can choose to manually create and upload your **[!UICONTROL Public key]** with a longer expiry date.
 
     >[!CAUTION]
     >
-    >You should save the config.zip file when the download prompt comes up since you will not be able to download it again.
+    >If you are already using Adobe IO JWT authentication functionality for another integration, such as Analytics connector, or Adobe Triggers, then you must update your project by adding **Campaign API** to that project.
+1. Choose **[!UICONTROL Add API]**.
+    ![](assets/Add-API.png) 
+1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Campaign]**.
+    ![](assets/AC-API.png) 
+<!--1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.-->
+1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a public and private key pair.
+    ![](assets/Generate-a-key-pair.png) 
+
+    The keys will then be automatically downloaded with a default expiry date of 365 days. Once expired, you will need to create a new key pair and update the integration in the configuration file. Using the Option 2, you can choose to manually create and upload your **[!UICONTROL Public key]** with a longer expiry date.
+    ![](assets/New-key-pair.png) 
+
+    >[!CAUTION]
+    >
+    >You should save the `config.zip file when the download prompt comes up since you will not be able to download it again.
 
 1. Click **[!UICONTROL Next]**.
-1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. No permission is required for this **[!UICONTROL Product profile]**. For more information on [!DNL Analytics] **[!UICONTROL Product Profiles]**, refer to [this page](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. No permission is required for this **[!UICONTROL Product profile]**. For more information on **[!UICONTROL Product Profiles]**, refer to [this page](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+    ![](assets/Product-Profile-API.png) 
     
     Then, click **[!UICONTROL Save configured API]**. 
 
-1. From your project, select **[!UICONTROL Adobe Campaign]** and copy the following information under **[!UICONTROL Service Account (JWT)]**:
+1. From your project, select **[!UICONTROL Adobe Campaign]** and copy the following information under **[!UICONTROL Service Account (JWT)]**
+
+    ![](assets/Config-API.png) 
 
     * **[!UICONTROL Client ID]**
     * **[!UICONTROL Client Secret]**
@@ -113,7 +127,7 @@ Once the settings are done, you can check your instance configuration. Follow th
 
 1. Open the client console and log on to Adobe Campaign as an Administrator.
 1. Browse to **Administration > Platform > Options**.
-1. Check the `DmRendering_cuid` option value is filled. It should be filled on all your Campaign instances (MKT, MID, RT, EXEC). If not filled, you must fill the value. If no value is filled, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to get your CUID.
+1. Check the `DmRendering_cuid` option value is filled. It should be filled on all your Campaign instances (MKT, MID, RT, EXEC). If no value is filled, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to get your CUID.
 
 ### Step 4: Enable the new deliverability server
 
@@ -122,7 +136,6 @@ You can now enable the new deliverability server. To perform this:
 1. Open the client console and log on to Adobe Campaign as an Administrator.
 1. Browse to **Administration > Platform > Options**.
 1. Access the `NewDeliverabilityServer_FeatureFlag` option and set the value to `1`. This configuration should be performed on all your Campaign instances (MKT, MID, RT, EXEC).
-
 
 ### Step 5: Validate your configuration
 
@@ -133,15 +146,5 @@ To check the integration is successful, follow the steps below:
 1. Browse to **Administration > Production > Technical workflows**.
 1. Restart the **Update for deliverability** (deliverabilityUpdate) workflow. This should be performed on all your Campaign instances (MKT, MID, RT, EXEC). 
 1. Check logs: the workflow should execute without errors. 
-
-## FAQ{#faq-aa}
-
-Q:
-A:
-
-Q:
-A:
-
-
 
 For more guidance, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
