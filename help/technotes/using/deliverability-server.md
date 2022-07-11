@@ -73,6 +73,7 @@ Before starting the implementation, check your instance configuration.
     >[!CAUTION]
     >
     >If you are already using Adobe IO JWT authentication functionality for another integration, such as Analytics connector, or Adobe Triggers, then you must update your project by adding **Campaign API** to that project.
+    
 1. Choose **[!UICONTROL Add API]**.
     ![](assets/Add-API.png) 
 1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Campaign]**.
