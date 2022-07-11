@@ -10,7 +10,7 @@ exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 
 Starting Campaign Classic v7 21.1 release, Adobe Campaign proposes a new deliverability server which bring high availability and addresses security compliance issues. Campaign Classic now synchronizes the deliverability rules, broadlogs and suppression address from and to new deliverability server. 
 
-As a Campaign Classic customer, you must implement the new deliverability server
+As a Campaign Classic customer, you must implement the new deliverability server.
 
 >[!NOTE]
 >
@@ -22,7 +22,6 @@ As a Campaign Classic customer, you must implement the new deliverability server
 Adobe is decommissioning older data centers due to security compliance reasons. Adobe Campaign Classic clients need to migrate to the new deliverability service, hosted on Amazon Web Service (AWS).
 
 This new server guarantees a high availability (99.9)​, and provides secure and authenticated endpoints to enable campaign servers to fetch the required data: rather than connecting to the database for every request, the new deliverability server caches the data to serve the requests where possible. This mechanism improves the response time.​
-
 
 ## Are you impacted?{#acc-deliverability-impacts}
 
@@ -38,6 +37,9 @@ As an **on-premise/hybrid customer**, you need to upgrade to one of the newer ve
 
 ## Implementation steps (hybrid and on-premise customers) {#implementation-steps}
 
+As part of the new deliverability server integration, Campaign needs to communicate with Adobe Shared Services via an Identity Management Service (IMS) based authentication. The preferred way is to use the Adobe Developer based Gateway Token (also called Technical Account Token or Adobe IO JWT).
+
+
 >[!WARNING]
 >
 >These steps should only be carried out by Hybrid and On-premise implementations.
@@ -46,11 +48,18 @@ As an **on-premise/hybrid customer**, you need to upgrade to one of the newer ve
 
 ### Prerequisites{#prerequisites}
 
-As part of the new deliverability server integration, Campaign needs to communicate with Adobe Shared Services via an Identity Management Service (IMS) based authentication. The preferred way is to use the Adobe Developer based Gateway Token (Also called Technical Account Token or Adobe IO JWT).
+Before starting the implementation, check your instance configuration.
+
+1. Open Campaign client console and log on to Adobe Campaign as an Administrator.
+1. Browse to **Administration > Platform > Options**.
+1. Check the `DmRendering_cuid` option value is filled. 
+
+    * If the option is filled, you can start the implementation.
+    * If no value is filled, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to get your CUID.
+
+        This option must be filled on all your Campaign instances (MKT, MID, RT, EXEC) with the same value.
 
 ### Step 1: Create/update your Adobe Developer Project {#adobe-io-project}
-
-
 
 1. Access [Adobe Developer Console](https://developer.adobe.com/console/home) and log in with the Developer access of your Organization.
 
@@ -121,15 +130,7 @@ To do so:
 
 1. You must stop and then restart the server in order for the modification to be taken into account. You can also run a `config -reload` command.
 
-### Step 3: Check your configuration
-
-Once the settings are done, you can check your instance configuration. Follow the steps below:
-
-1. Open the client console and log on to Adobe Campaign as an Administrator.
-1. Browse to **Administration > Platform > Options**.
-1. Check the `DmRendering_cuid` option value is filled. It should be filled on all your Campaign instances (MKT, MID, RT, EXEC). If no value is filled, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to get your CUID.
-
-### Step 4: Enable the new deliverability server
+### Step 3: Enable the new deliverability server
 
 You can now enable the new deliverability server. To perform this:
 
@@ -137,7 +138,7 @@ You can now enable the new deliverability server. To perform this:
 1. Browse to **Administration > Platform > Options**.
 1. Access the `NewDeliverabilityServer_FeatureFlag` option and set the value to `1`. This configuration should be performed on all your Campaign instances (MKT, MID, RT, EXEC).
 
-### Step 5: Validate your configuration
+### Step 4: Validate your configuration
 
 To check the integration is successful, follow the steps below:
 
