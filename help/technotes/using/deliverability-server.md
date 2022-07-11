@@ -35,7 +35,7 @@ As a **hosted customer**, Adobe will be working with you to upgrade your instanc
 
 As an **on-premise/hybrid customer**, you need to upgrade to one of the newer versions to benefit from the new deliverability server. Once all instances are upgraded, you will be able to [implement the new integration](#implementation-steps) to Adobe deliverability server, and ensure a seamless transition.
 
-## Implementation steps (hybrid and on-premise customers) {#implementation-steps}
+## Implementation steps {#implementation-steps}
 
 As part of the new deliverability server integration, Campaign needs to communicate with Adobe Shared Services via an Identity Management Service (IMS) based authentication. The preferred way is to use the Adobe Developer based Gateway Token (also called Technical Account Token or Adobe IO JWT).
 
@@ -44,7 +44,6 @@ As part of the new deliverability server integration, Campaign needs to communic
 >
 >These steps should only be carried out by Hybrid and On-premise implementations.
 >
->For hosted implementations, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). 
 
 ### Prerequisites{#prerequisites}
 
