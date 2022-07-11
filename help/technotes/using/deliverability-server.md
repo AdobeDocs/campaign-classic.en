@@ -78,7 +78,7 @@ As part of the new deliverability server integration, Campaign needs to communic
 
     >[!CAUTION]
     >
-    >You should save the `config.zip file when the download prompt comes up since you will not be able to download it again.
+    >You should save the `config.zip` file when the download prompt comes up since you will not be able to download it again.
 
 1. Click **[!UICONTROL Next]**.
 1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. No permission is required for this **[!UICONTROL Product profile]**. For more information on **[!UICONTROL Product Profiles]**, refer to [this page](https://helpx.adobe.com/enterprise/using/manage-developers.html).
