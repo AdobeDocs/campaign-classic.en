@@ -10,7 +10,7 @@ exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 
 Starting Campaign Classic v7 21.1 release, Adobe Campaign proposes a new deliverability server which bring high availability and addresses security compliance issues. Campaign Classic now synchronizes the deliverability rules, broadlogs and suppression address from and to new deliverability server. 
 
-As a Campaign Classic customer, you must implement the new deliverability server.
+As a Campaign Classic customer, you must implement the new deliverability server **before August, 31 2022**.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ This new server guarantees a high availability (99.9)​, and provides secure an
 
 ## Are you impacted?{#acc-deliverability-impacts}
 
-If you are using the old Adobe Campaign deliverability server, and your environment was implemented on a lower build than Campaign 21.1.1, you are impacted. You need to upgrade to Campaign 21.1 (or more).
+If your environment was implemented on a lower build than Campaign 21.1.1, you are impacted. You need to upgrade to Campaign 21.1 (or more).
 
 Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
