@@ -10,11 +10,11 @@ exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 
 Starting Campaign Classic v7 21.1 release, Adobe Campaign proposes a new deliverability server which bring high availability and addresses security compliance issues. Campaign Classic now synchronizes the deliverability rules, broadlogs and suppression address from and to new deliverability server. 
 
-As a Campaign Classic customer, you must implement the new deliverability server.
+As a Campaign Classic customer, you must implement the new deliverability server **before August, 31 2022**.
 
 >[!NOTE]
 >
->For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>For any questions about these changes, refer to the [FAQ](#faq), or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 >
 
 ## What changed?{#acc-deliverability-changes}
@@ -25,7 +25,7 @@ This new server guarantees a high availability (99.9)​, and provides secure an
 
 ## Are you impacted?{#acc-deliverability-impacts}
 
-If you are using the old Adobe Campaign deliverability server, and your environment was implemented on a lower build than Campaign 21.1.1, you are impacted. You need to upgrade to Campaign 21.1 (or more).
+If your environment was implemented on a lower build than [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2), you are impacted. You need to upgrade to Campaign v7.2.1 (or more).
 
 Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -146,5 +146,22 @@ To check the integration is successful, follow the steps below:
 1. Browse to **Administration > Production > Technical workflows**.
 1. Restart the **Update for deliverability** (deliverabilityUpdate) workflow. This should be performed on all your Campaign instances (MKT, MID, RT, EXEC). 
 1. Check logs: the workflow should execute without errors. 
+
+
+## Frequently Asked Questions {#faq}
+
+### What happens if I do not upgrade my environment?
+
+Any Campaign instance not upgraded by August 31 will no longer be able to connect with the Campaign Deliverability server. As a consequence, the **Update for deliverability** (deliverabilityUpdate) workflow will fail. This workflow manages daily update of the MX rules and inbounces rules. 
+
+If you do not upgrade your environment, email settings will stop being synchronized (MX Management rules, Inbound Email rules, Domain Management rules, and bounce qualification rules). This could affect over time your deliverability. If a significant change is made on these rules, these will have to be applied manually from this point. 
+
+For MKT instances, only [Global Suppression List](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) is affected.
+
+### I cannot upgrade now. What is the guidance?
+
+If you cannot upgrade your instance before August 31, you must temporary disable the **Update for deliverability** (deliverabilityUpdate) workflow until the upgrade is complete so that it does not attempt to synchronize with the old deliverability server.
+
+
 
 For more guidance, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
