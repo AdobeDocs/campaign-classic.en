@@ -135,7 +135,7 @@ You can now enable the new deliverability server. To perform this:
 
 1. Open the client console and log on to Adobe Campaign as an Administrator.
 1. Browse to **Administration > Platform > Options**.
-1. Access the `NewDeliverabilityServer_FeatureFlag` option and set the value to `1`. This configuration should be performed on all your Campaign instances (MKT, MID, RT, EXEC).
+1. Access the `NewDeliverabilityServer_FeatureFlag` option and set the value to `1`. This configuration should be performed on all your Campaign instances (MKT, MID, RT, EXEC). As an hybrid customer, reach out to Adobe to have the option set on MID, RT and EXEC instances.
 
 ### Step 4: Validate your configuration
 
@@ -144,7 +144,7 @@ To check the integration is successful, follow the steps below:
 
 1. Open the client console and log on to Adobe Campaign.
 1. Browse to **Administration > Production > Technical workflows**.
-1. Restart the **Refresh for deliverability** (deliverabilityUpdate) workflow. This should be performed on all your Campaign instances (MKT, MID, RT, EXEC). 
+1. Restart the **Refresh for deliverability** (deliverabilityUpdate) workflow. This should be performed on all your Campaign instances (MKT, MID, RT, EXEC).  As an hybrid customer, reach out to Adobe to have the workflow restarted on MID, RT and EXEC instances.
 1. Check logs: the workflow should execute without errors. 
 
 
