@@ -34,7 +34,7 @@ The workflows detailed below are installed with the **Deliveries** module by def
    <td> This workflow standardizes enumeration values. It is triggered every day at 3am by default.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Update for deliverability</span> <br /> </td> 
+   <td> <span class="uicontrol">Refresh for deliverability</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
    <td> This workflow lets you create the list of bounce mail qualification rules, as well as the list of domains and MXs in the platform. This workflow only works if the HTTPS port is open. These lists are not updated unless the Deliverability module is installed.<br /> </td> 
   </tr> 

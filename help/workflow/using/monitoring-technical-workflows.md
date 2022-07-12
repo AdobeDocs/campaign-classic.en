@@ -42,9 +42,9 @@ For **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
 Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this [section](delivery.md).
 
-For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+For **[!UICONTROL Refresh for Deliverability (deliverabilityUpdate)]**:
 
-1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day.
+1. Check that the **[!UICONTROL Refresh for Deliverability]** workflow runs and finishes successfully every day.
 1. Verify in the journal that rules are being updated regularly.
 
 For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
