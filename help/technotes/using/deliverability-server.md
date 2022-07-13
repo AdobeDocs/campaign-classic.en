@@ -25,15 +25,13 @@ This new server guarantees a high availability (99.9)​, and provides secure an
 
 ## Are you impacted?{#acc-deliverability-impacts}
 
-If your environment was implemented on a lower build than [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2), you are impacted. You need to upgrade to Campaign v7.2.1 (or more).
-
-Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+All customers need to updgrade to [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) and implement their environment to benefit from the new deliverability server.
 
 ## How to update?{#acc-deliverability-update}
 
 As a **hosted customer**, Adobe will be working with you to upgrade your instance(s) to the newer version, and create the project in Adobe Developer Console.
 
-As an **on-premise/hybrid customer**, you need to upgrade to one of the newer versions to benefit from the new deliverability server. Once all instances are upgraded, you will be able to [implement the new integration](#implementation-steps) to Adobe deliverability server, and ensure a seamless transition.
+As an **on-premise/hybrid customer**, you need to upgrade to [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) to benefit from the new deliverability server. Once all instances are upgraded, you must [implement the new integration](#implementation-steps) to Adobe deliverability server, and ensure a seamless transition.
 
 ## Implementation steps {#implementation-steps}
 
@@ -42,7 +40,7 @@ As part of the new deliverability server integration, Campaign needs to communic
 
 >[!WARNING]
 >
->These steps should only be carried out by Hybrid and On-premise implementations.
+>These steps should only be carried out for Hybrid and On-premise implementations.
 >
 
 ### Prerequisites{#prerequisites}
