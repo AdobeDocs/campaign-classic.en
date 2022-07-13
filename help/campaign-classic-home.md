@@ -12,7 +12,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 * **[2022 Release Program](technotes/using/dc-migration.md)**<br/> Upgrade your environment and improve security, infrastructure, and performances
 
-* **[March Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements, and fixes in the Release Notes
+* **[July Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements, and fixes in the Release Notes
 
 * **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** and **[technote](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Find guidance in response to Apple’s announcement regarding iOS 15
 

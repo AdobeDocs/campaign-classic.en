@@ -357,6 +357,24 @@ The following operating systems and browser are **required** to use [Campaign Cl
 </tbody>
 </table>
 
+### Microsoft WebView2 runtime
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge WebView2 runtime
+</p>
+</td>
+<td>
+<p>Latest version</p>
+</td>
+<td>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download">Download from Microsoft Developer website</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Mobile SDK{#MobileSDK}
 

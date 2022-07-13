@@ -18,6 +18,7 @@ Before starting to install the Client Console, you need to:
 * Check your system and tools compatibility with Adobe Campaign in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 * Get your Campaign server URL
 * Get your user credentials
+* Have Microsft Edge Webview2 runtime installed on your system (from Campaign Classic 7.3 build version). [Learn more](#webview)
 
 The process to install or update the client console differs depending on your implementation of Adobe Campaign Classic. 
 Please review the details below to understand what is required for your implementation.
@@ -27,6 +28,12 @@ Please review the details below to understand what is required for your implemen
 >[!CAUTION]
 >
 >Campaign Client console and Campaign application server must run **on the same product version**. Adobe also highly recommends to use the **same product build**. Learn how to check your Campaign Client and Server versions in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
+## Microsoft Edge Webview2 runtime installation {#webview}
+
+From Campaign Classic 7.3 build version, installation of Microsoft Edge Webview 2 runtime is required for any console installation.
+
+Web View is installed by default as part of Windows 11 operating system. If it is not already present on your system, Campaign Classic Console Installer will prompt you to download it from [Microsoft Developer website](http://www.adobe.com/go/acc-ms-webview2-runtime-download). Note that the download link does not work on the Internet Explorer 11 browser as Microsoft has deprecated its support. Make sure you use a different browser to access the link.
 
 ## Adobe Hosted implementations {#hosted-customers}
 
@@ -144,6 +151,9 @@ To log on to an existing instance, follow the steps below:
 
 1. Enter your user login credentials and click **[!UICONTROL Log in]**
 
+>[!NOTE]
+>
+>For campaign classic 7.3 build versions, Adobe Campaign client console may ask for proxy credentials two times during proxy authentication. This is due to the fact that Microsoft Edge Webview2 does not save proxy credentials in the cache/password store unlike Internet Explorer.
 
 **Related topics**
 

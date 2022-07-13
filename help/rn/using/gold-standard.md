@@ -435,12 +435,11 @@ This section lists all systems and components supported for **Adobe Campaign Cla
 </tbody>
 </table>
 
-
 ### Client Console {#ClientConsoleoperatingsystems}
 
 :warning: The following operating systems and browser are required to use Campaign Client Console.
 
-### Operating systems
+#### Operating systems
 
 <table>
 <tbody>
