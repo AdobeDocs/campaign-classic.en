@@ -8,9 +8,9 @@ exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 ---
 # Campaign Deliverability Server {#acc-deliverability}
 
-Starting [v7.2.1 release](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign proposes a new deliverability server which bring high availability and addresses security compliance issues. Campaign Classic now synchronizes the deliverability rules, broadlogs and suppression address from and to new deliverability server. 
+Starting [v7.2.1 release](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign relies on a new deliverability server which bring high availability and addresses security compliance issues. Campaign Classic now synchronizes the deliverability rules, broadlogs and suppression address from and to new deliverability server. The old deliverability server will be decomissioned on August 31, 2022. 
 
-As a Campaign Classic customer, you must implement the new deliverability server **before August, 31 2022**.
+As a Campaign Classic customer, you must implement the new deliverability server **before August 31, 2022**.
 
 >[!NOTE]
 >
@@ -25,13 +25,13 @@ This new server guarantees a high availability (99.9)​, and provides secure an
 
 ## Are you impacted?{#acc-deliverability-impacts}
 
-All customers must updgrade to [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) and implement their environment to benefit from the new deliverability server.
+All customers must updgrade to [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (or more) and implement their environment to benefit from the new deliverability server.
 
 ## How to update?{#acc-deliverability-update}
 
 As a **hosted customer**, Adobe will be working with you to upgrade your instance(s) to the newer version, and create the project in Adobe Developer Console.
 
-As an **on-premise/hybrid customer**, you need to upgrade to [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) to benefit from the new deliverability server. Once all instances are upgraded, you must [implement the new integration](#implementation-steps) to Adobe deliverability server, and ensure a seamless transition.
+As an **on-premise/hybrid customer**, you need to upgrade to [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (or more) to benefit from the new deliverability server. Once all instances are upgraded, you must [implement the new integration](#implementation-steps) to Adobe deliverability server, and ensure a seamless transition.
 
 ## Implementation steps {#implementation-steps}
 
