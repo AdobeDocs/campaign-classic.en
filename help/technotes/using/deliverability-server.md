@@ -25,7 +25,7 @@ This new server guarantees a high availability (99.9)​, and provides secure an
 
 ## Are you impacted?{#acc-deliverability-impacts}
 
-All customers need to updgrade to [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) and implement their environment to benefit from the new deliverability server.
+All customers must updgrade to [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) and implement their environment to benefit from the new deliverability server.
 
 ## How to update?{#acc-deliverability-update}
 
