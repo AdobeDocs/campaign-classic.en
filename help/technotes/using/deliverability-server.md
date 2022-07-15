@@ -14,7 +14,7 @@ As a Campaign Classic customer, you must implement the new deliverability server
 
 >[!NOTE]
 >
->For more questions about these changes, refer to the [FAQ](#faq), or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>For more questions about these changes, refer to the [FAQ](#faq), or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
 >
 
 ## What changed?{#acc-deliverability-changes}
@@ -52,7 +52,7 @@ Before starting the implementation, check your instance configuration.
 1. Check the `DmRendering_cuid` option value is filled. 
 
     * If the option is filled, you can start the implementation.
-    * If no value is filled, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to get your CUID.
+    * If no value is filled, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} to get your CUID.
 
         This option must be filled on all your Campaign instances (MKT, MID, RT, EXEC) with the same value. As an hybrid customer, reach out to Adobe to have the option set on your MID, RT and EXEC instances.
 
@@ -87,7 +87,7 @@ Before starting the implementation, check your instance configuration.
     >You should save the `config.zip` file when the download prompt comes up since you will not be able to download it again.
 
 1. Click **[!UICONTROL Next]**.
-1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. No permission is required for this **[!UICONTROL Product profile]**. For more information on **[!UICONTROL Product Profiles]**, refer to [this page](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. No permission is required for this **[!UICONTROL Product profile]**. For more information on **[!UICONTROL Product Profiles]**, refer to [this page](https://helpx.adobe.com/enterprise/using/manage-developers.html){_blank}.
     ![](assets/Product-Profile-API.png) 
     
     Then, click **[!UICONTROL Save configured API]**. 
