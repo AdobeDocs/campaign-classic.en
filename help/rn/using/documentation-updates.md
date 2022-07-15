@@ -17,6 +17,9 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2022
 
+### July 2022 {#july-2022}
+
+* Features and improvements coming with July '22 release have been detailed in the documentation.
 
 ### March 2022 {#mar-2022}
 
