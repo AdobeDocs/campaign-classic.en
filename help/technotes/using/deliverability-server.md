@@ -14,7 +14,7 @@ As a Campaign Classic customer, you must implement the new deliverability server
 
 >[!NOTE]
 >
->For any questions about these changes, refer to the [FAQ](#faq), or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>For more questions about these changes, refer to the [FAQ](#faq), or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 >
 
 ## What changed?{#acc-deliverability-changes}
@@ -148,18 +148,17 @@ To check the integration is successful, follow the steps below:
 
 ## Frequently Asked Questions {#faq}
 
+### What is the timeline for the update? 
+
+The transition to the new deliverability server, allowing for the addition of these improved capabilities and reinforcing security, will begin on July '22 for hosted customers (Campaign Managed Services). All hosted customers will be updated by the end of August. 
+
+On-premise and hybrid customers must transition during the same timeframe.
+
 ### What happens if I do not upgrade my environment?
 
-Any Campaign instance not upgraded by August 31 will no longer be able to connect with the Campaign Deliverability server. As a consequence, the **Refresh for deliverability** (deliverabilityUpdate) workflow will fail. This workflow manages daily update of the MX rules and inbounces rules. 
+Any Campaign instance not upgraded by August 31 will no longer be able to connect with the Campaign Deliverability server. As a consequence, the **Refresh for deliverability** (deliverabilityUpdate) workflow will fail, and this will affect your deliverability. 
 
 If you do not upgrade your environment, email settings will stop being synchronized (MX Management rules, Inbound Email rules, Domain Management rules, and bounce qualification rules). This could affect over time your deliverability. If a significant change is made on these rules, these will have to be applied manually from this point. 
 
 For MKT instances, only [Global Suppression List](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) is affected.
 
-### I cannot upgrade now. What is the guidance?
-
-If you cannot upgrade your instance before August 31, you must temporary disable the **Refresh for deliverability** (deliverabilityUpdate) workflow until the upgrade is complete so that it does not attempt to synchronize with the old deliverability server.
-
-
-
-For more guidance, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
