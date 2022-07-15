@@ -9,9 +9,9 @@ exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 
 ![](../../assets/common.svg)
 
->[!NOTE]
->
->Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field. For further information, refer to [this section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+## Permissions{#delivery-permissions}
+
+Only the delivery owner can start a delivery. For other operators (or operator group) to be able to start a delivery, add them as reviewers in the **[!UICONTROL Delivery start:]** field. [Learn more](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ## Delivery additional parameters {#delivery-additiona-parameters}
 
@@ -19,31 +19,31 @@ Before sending the delivery, you can define the sending parameters in the delive
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Delivery priority]**: This option allows you to influence the sending order for your deliveries by stating their priority level (normal, high or low). This lets you prioritize the order for certain, more urgent deliveries over others.
+* **[!UICONTROL Delivery priority]**: use this option to change the sending order for your deliveries by setting their priority level: normal, high or low. 
 
-* **[!UICONTROL Message batch quantity]**: This option allows you to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
+* **[!UICONTROL Message batch quantity]**: use this option to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
 
   >[!IMPORTANT]
   >
-  >When the delivery is duplicated, the parameter is reset.
+  >When the delivery is created by duplicating an existing one, this parameter is reset.
 
-* **[!UICONTROL Send using multiple waves]**: Use this option to send your messages in waves, rather than to your whole audience. Configure the number of batches and their proportion. [Learn more](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: use this option to send your messages in batches rather than to your whole audience at once. [Learn more](#sending-using-multiple-waves).
 
-* **[!UICONTROL Test SMTP delivery]**: Use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+* **[!UICONTROL Test SMTP delivery]**: use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
   >[!NOTE]
   >
-  >* This option is not recommended in mid-sourcing. 
+  >* This option must not be set in mid-sourcing. 
   >
   >* Learn more about SMTP server configuration, in [this section](../../installation/using/configure-delivery-settings.md).
 
-* **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [this section](sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: use this option to store emails on an external system through BCC by simply adding a BCC email address to your message target. [Learn more](sending-messages.md#archiving-emails).
 
 ## Confirm delivery {#confirming-delivery}
 
-When the delivery is configured and ready to be sent, make sure you have run the delivery analysis.
+When the delivery is configured and ready to be sent, execute the delivery analysis.
 
-To do this, click **[!UICONTROL Send]**, select the desired action and click **[!UICONTROL Analyze]**. For more on this, see [Launch the analysis](steps-validating-the-delivery.md#analyzing-the-delivery).
+To do this, click **[!UICONTROL Send]**, select the desired action and click **[!UICONTROL Analyze]**. [Learn more](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -59,7 +59,7 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
 ## Schedule the delivery sending {#scheduling-the-delivery-sending}
 
-You can defer the delivery of messages in order to schedule the delivery or to manage sales pressure and avoid over-soliciting a population.
+You can defer the message sending by scheduling the delivery.
 
 1. Click the **[!UICONTROL Send]** button and select the **[!UICONTROL Postpone delivery]** option.
 
@@ -71,7 +71,7 @@ You can defer the delivery of messages in order to schedule the delivery or to m
 
 >[!IMPORTANT]
 >
->Once you have started the analysis, the contact date that you defined is fixed. If you modify this date, you will have to restart the analysis so that your modifications are taken into account.
+>Once you have started the analysis, the contact date that you defined is fixed. If you modify this date, you have to restart the analysis so that your modifications are taken into account.
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 

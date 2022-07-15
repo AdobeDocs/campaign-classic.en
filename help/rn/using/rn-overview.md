@@ -7,13 +7,15 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
-# Get started with upgrades{#rn-overview}
+# Release updates{#rn-overview}
 
 ![](../../assets/v7-only.svg)
 
+Adobe Campaign Classic periodically releases product updates which bring new capabilities, bug fixes, and improve performance, security, and usability. These updates are released as product builds. Detailed information about each new build is available in the [Release notes](latest-release.md).
+
 ## Release statuses{#rn-statuses}
 
-Every new build comes with a status which is materialized by a color. 
+Every new build comes with a status which is identified by a color in the [Release notes](latest-release.md). 
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
 
@@ -37,7 +39,7 @@ As a hosted customer, you automatically benefit from the upgrade with the latest
 
 To ensure a stable configuration, Adobe recommends that you install **the same build** on all servers that are running on the same client configuration.
 
-In addition, except mentioned otherwise in the Release Notes, the client console must be on **the same build** as the server instance.
+In addition, except mentioned otherwise in the [Release notes](latest-release.md), the client console must be on **the same build** as the server instance.
 
 To keep your implementation up-to-date, make sure to read out the [Deprecated and removed features](../../rn/using/deprecated-features.md) and [Compatibility matrix](../../rn/using/compatibility-matrix.md) pages with each new release.
 
@@ -45,7 +47,9 @@ To keep your implementation up-to-date, make sure to read out the [Deprecated an
 
 As a hosted customer (Managed Service or Hybrid), reach out to the Customer Care team to have your environment upgraded.
 
-As an on-premise user, you can perform the upgrade. To do this, [download the latest stable build (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](../../production/using/build-upgrade.md), and consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
+As an on-premise user, you can perform the upgrade. To do this, [download the latest stable build (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. 
+
+Learn more on the [upgrade process](../../production/using/build-upgrade.md), and in the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
 
 ## Yearly upgrade {#yearly-upgrade}
 
@@ -118,7 +122,7 @@ A team of dedicated Customer Care Reps, Product Managers, Engineers and TechOps 
     </a>
     </div>
     <ul>
-    <li>Effort and complexity of upgrading your Campaign Classic instance increases with the distance between 2 versions (v5 --> v7).</li>
+    <li>Effort and complexity of upgrading your Campaign Classic instance increases with the distance between 2 versions (v6 --> v7).</li>
     <li>The longer your organization waits, the more complex the upgrade (and the more vulnerabilities you are exposed to).</li>
     <li>Regular updates reduce downtime to upgrade and the risk of regression.</li>
     </ul>
