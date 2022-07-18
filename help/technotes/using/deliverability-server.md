@@ -54,7 +54,7 @@ Before starting the implementation, check your instance configuration.
     * If the option is filled, you can start the implementation.
     * If no value is filled, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} to get your CUID.
 
-        This option must be filled on all your Campaign instances (MKT, MID, RT, EXEC) with the same value. As an hybrid customer, reach out to Adobe to have the option set on your MID, RT and EXEC instances.
+    This option must be filled on all your Campaign instances (MKT, MID, RT, EXEC) with the correct value. As an hybrid customer, reach out to Adobe to have the option set on your MID, RT and EXEC instances.
 
 ### Step 1: Create/update your Adobe Developer Project {#adobe-io-project}
 
