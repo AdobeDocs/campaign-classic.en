@@ -4,7 +4,7 @@ title: Update to the new deliverability server
 description: Learn how to update to the new Campaign deliverability server
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 ---
-# Update to the New Deliverability Server {#acc-deliverability}
+# Update to the new deliverability server {#acc-deliverability}
 
 Starting [v7.2.1 release](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign relies on a new deliverability server which bring high availability and addresses security compliance issues. Campaign Classic now synchronizes the deliverability rules, broadlogs and suppression address from and to new deliverability server. The old deliverability server will be decomissioned on August 31, 2022. 
 

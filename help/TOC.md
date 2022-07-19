@@ -833,7 +833,7 @@ type: Documentation
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
   + Upgrades and compatibility{#technote-migration}
        + [Technotes](technotes/using/technote.md)
-       + [Update to the new Deliverabiity server](technotes/using/deliverability-server.md)
+       + [New deliverabiity server](technotes/using/deliverability-server.md)
        + [Apache Security Upgrade](technotes/using/acc-apache-upgrade.md)
        + [Campaign configuration updates](technotes/using/acc-config-updates.md)
        + [IMS updates](technotes/using/ims-updates.md)
