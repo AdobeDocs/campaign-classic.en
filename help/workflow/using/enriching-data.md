@@ -7,7 +7,7 @@ exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 ---
 # Enrich data{#enriching-data}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## About enriching data {#about-enriching-data}
 

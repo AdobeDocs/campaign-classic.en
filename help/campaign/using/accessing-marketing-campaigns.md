@@ -7,7 +7,7 @@ exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 ---
 # Accessing marketing campaigns{#accessing-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign lets you create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center.
 

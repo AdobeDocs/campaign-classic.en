@@ -7,7 +7,7 @@ feature: Workflows
 
 # Message Center (Control){#message-center-control}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflow detailed below is scheduled to run every hour. It is installed with the **Message Center - Control** module by default. 
 

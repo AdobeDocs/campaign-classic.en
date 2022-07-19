@@ -7,7 +7,7 @@ exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 ---
 # Delivery control{#delivery-control}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **Delivery control**-type action lets you start, pause, or stop a delivery.
 

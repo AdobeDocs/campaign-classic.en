@@ -7,7 +7,7 @@ feature: Workflows
 
 # Deliveries{#deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflows detailed below are installed with the **Deliveries** module by default.
 

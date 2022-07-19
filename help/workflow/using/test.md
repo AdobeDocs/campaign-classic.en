@@ -7,7 +7,7 @@ exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
 ---
 # Test{#test}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **Test** type activity activates the first transition that satisfies the condition associated with it. If no condition is satisfied and if the **[!UICONTROL Use the default fork]** option is activated, the default transition will be activated.
 

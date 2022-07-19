@@ -7,7 +7,7 @@ exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 ---
 # SQL Data Management{#sql-data-management}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The **SQL Data Management** activity lets you write your own SQL scripts to create and populate work tables.
 

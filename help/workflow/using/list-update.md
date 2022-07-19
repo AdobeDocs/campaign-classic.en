@@ -7,7 +7,7 @@ exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 ---
 # List update{#list-update}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **List update** activity stores the population specified in the transition in a list of recipients.
 

@@ -7,7 +7,7 @@ exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 ---
 # Target data{#targeting-data}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Create queries {#creating-queries}
 

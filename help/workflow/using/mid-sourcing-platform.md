@@ -7,7 +7,7 @@ feature: Workflows
 
 # Mid-sourcing platform{#mid-sourcing-platform}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflow detailed below is installed with the **Mid-Sourcing platform** module by default. For more on this module, refer to this [section](../../installation/using/mid-sourcing-deployment.md).
 

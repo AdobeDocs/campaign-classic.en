@@ -7,7 +7,7 @@ exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 ---
 # Publish the campaign package{#publishing-the-campaign-package}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Central entity operators publish campaigns they wish to offer to local entities in the **[!UICONTROL list of campaign packages]**.
 

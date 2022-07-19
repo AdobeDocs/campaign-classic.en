@@ -7,7 +7,7 @@ exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 ---
 # Data life cycle {#data-life-cycle}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Work table {#work-table}
 

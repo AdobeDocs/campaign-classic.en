@@ -7,7 +7,7 @@ feature: Workflows, Targeting Activity
 
 # Marketing Resources (MRM){#marketing-resources-mrm}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflows detailed below are installed with the **Marketing resources (MRM)** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
 

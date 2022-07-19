@@ -7,7 +7,7 @@ exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
 ---
 # Start and end{#start-and-end}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The **[!UICONTROL Start]** and **[!UICONTROL End]** activities allow you to graphically mark the start and end of a workflow. These activities have no functional impact and are therefore optional.
 

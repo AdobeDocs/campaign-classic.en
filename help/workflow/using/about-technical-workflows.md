@@ -7,7 +7,7 @@ exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 ---
 # Technical workflows{#about-technical-workflows}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## About technical workflows {#overview}
 

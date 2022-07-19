@@ -7,7 +7,7 @@ exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 ---
 # Recurring delivery{#recurring-delivery}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **[!UICONTROL Recurring delivery]** activity lets you configure a delivery template occurrence that is specific to a campaign.
 

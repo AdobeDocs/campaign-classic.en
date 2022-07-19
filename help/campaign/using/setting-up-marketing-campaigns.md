@@ -7,7 +7,7 @@ exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 ---
 # Get started with marketing campaigns{#setting-up-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 

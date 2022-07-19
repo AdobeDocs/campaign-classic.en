@@ -7,7 +7,7 @@ exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 ---
 # Workflow best practices{#workflow-best-practices}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Execution and performance {#execution-and-performance}
 

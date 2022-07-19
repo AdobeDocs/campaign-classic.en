@@ -7,7 +7,7 @@ feature: Workflows
 
 # Social Marketing{#social-marketing}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 >[!AVAILABILITY]
 >

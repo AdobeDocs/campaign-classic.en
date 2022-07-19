@@ -7,7 +7,7 @@ feature: Workflows, Analytics Integration
 
 # Web Analytics{#web-analytics}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflows detailed below are installed with the **Web Analytics connectors** module by default. For more on this module, refer to this [section](../../platform/using/adobe-analytics-connector.md).
 

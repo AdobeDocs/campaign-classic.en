@@ -7,7 +7,7 @@ exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 ---
 # Inbound SMS{#inbound-sms}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The **Inbound SMS** activity lets you download and process text messages from an external account.
 

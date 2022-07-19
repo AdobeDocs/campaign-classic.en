@@ -7,7 +7,7 @@ exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
 ---
 # Quarterly list update using an incremental query {#quarterly-list-update}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 In the following example, an [incremental query](incremental-query.md) is used to automatically update a recipient list. These recipients are targeted as part of seasonal marketing campaigns.
 

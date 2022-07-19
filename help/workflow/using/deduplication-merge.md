@@ -6,7 +6,7 @@ exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 ---
 # Use the Deduplication activity's Merge functionality {#deduplication-merge}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## About this use case {#about-this-use-case}
 

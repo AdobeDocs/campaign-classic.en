@@ -7,7 +7,7 @@ feature: Workflows, Inbox Rendering
 
 # Inbox rendering (IR){#inbox-rendering}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflow detailed below is installed with the **Inbox rendering (IR)** module by default. For more on Inbox rendering, refer to this [section](../../delivery/using/inbox-rendering.md).
 

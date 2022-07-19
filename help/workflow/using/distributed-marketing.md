@@ -7,7 +7,7 @@ feature: Workflows, Data Management, Distributed Marketing
 
 # Distributed Marketing{#distributed-marketing}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflow detailed below is installed with the **Distributed Marketing** module by default. For more on this module, refer to this [section](../../distributed/using/about-distributed-marketing.md).
 

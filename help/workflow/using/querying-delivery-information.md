@@ -7,7 +7,7 @@ exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 ---
 # Query delivery information {#querying-delivery-information}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Number of clicks for a specific delivery {#number-of-clicks-for-a-specific-delivery}
 

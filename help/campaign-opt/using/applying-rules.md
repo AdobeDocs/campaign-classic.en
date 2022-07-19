@@ -7,7 +7,7 @@ exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 ---
 # Apply typology rules{#applying-rules}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Apply a typology to a delivery {#applying-a-typology-to-a-delivery}
 

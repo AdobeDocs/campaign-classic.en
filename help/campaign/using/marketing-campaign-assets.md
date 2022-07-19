@@ -7,7 +7,7 @@ exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 ---
 # Manage associated documents {#managing-associated-documents}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 You can associate various documents with a campaign: reports, photos, web pages, diagrams, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc).
 

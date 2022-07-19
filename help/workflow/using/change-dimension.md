@@ -7,7 +7,7 @@ exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 ---
 # Change dimension{#change-dimension}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The change dimension activity lets you change the targeting dimension during the target construction cycle. Axis shifting depends on the data template and the input dimension. This lets you switch from the "contracts" dimension to the "clients" dimension, for example.
 

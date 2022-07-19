@@ -7,7 +7,7 @@ exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
 ---
 # Get started with workflows{#gs-workflows}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## About workflows{#about-workflows}
 

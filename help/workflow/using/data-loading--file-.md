@@ -7,7 +7,7 @@ exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 ---
 # Data loading (file){#data-loading-file}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Use {#use}
 

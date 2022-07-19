@@ -7,7 +7,7 @@ exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
 ---
 # Delivery{#delivery}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **Delivery**-type activity lets you create a delivery action. It can be constructed using input elements.
 

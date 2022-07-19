@@ -7,7 +7,7 @@ exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
 ---
 # Wait{#wait}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **Wait** activity activates its transition after a time delay of anywhere between a few seconds and several months. A wait task does not block the execution of other tasks; the workflow can execute tasks in parallel while this task is pending.
 

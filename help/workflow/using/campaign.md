@@ -8,7 +8,7 @@ topic-tags: technical-workflows
 
 # Campaign{#campaign}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflows detailed below are installed with the **Campaign** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
 

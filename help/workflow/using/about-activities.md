@@ -7,7 +7,7 @@ exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
 ---
 # Workflow activities{#wf-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 This section describes all of the available activities. According to the node or the context in which the workflow is created/edited, the activities available may vary. For example, the workflows created in a campaign have channel-specific delivery activities.
 

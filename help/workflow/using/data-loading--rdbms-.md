@@ -7,7 +7,7 @@ exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
 ---
 # Data loading (RDBMS){#data-loading-rdbms}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The **[!UICONTROL Data loading (RDBMS)]** activity lets you access this external database directly and to collect only the data required for targeting.
 

@@ -7,7 +7,7 @@ exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 ---
 # Send a birthday email{#sending-a-birthday-email}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 

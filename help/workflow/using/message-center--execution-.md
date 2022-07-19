@@ -7,7 +7,7 @@ feature: Workflows
 
 # Message Center (Execution){#message-center-execution}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflows detailed below are installed with the **Message Center - Execution** add-on by default. 
 

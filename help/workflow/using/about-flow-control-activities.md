@@ -7,7 +7,7 @@ exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 ---
 # Flow control activities in workflows{#about-flow-control-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The following activities are database activities: Their main task is to coordinate the other activities.
 

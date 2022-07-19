@@ -9,7 +9,7 @@ exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 ---
 # Configure Campaign Response Manager{#configuration}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 This section is intended for persons responsible for configuring response management. It assumes a certain amount of knowledge about extending schemas, defining workflows, and SQL programming.
 

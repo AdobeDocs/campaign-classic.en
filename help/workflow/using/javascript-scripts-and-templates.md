@@ -7,7 +7,7 @@ exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 ---
 # JavaScript scripts and templates{#javascript-scripts-and-templates}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Scripts make it possible to calculate values, exchange data between different tasks in the process and to execute specific operations using SOAP calls.
 

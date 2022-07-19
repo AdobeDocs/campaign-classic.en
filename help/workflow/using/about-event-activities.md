@@ -7,7 +7,7 @@ exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
 ---
 # Event activities in workflows{#about-event-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The main task of these activities consists of waiting for an event. It can be, for example, receipt of a file, an email, or a signal sent by the program.
 

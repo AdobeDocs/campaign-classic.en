@@ -7,7 +7,7 @@ exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 ---
 # Change activity images{#change-activity-images}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The images used in the diagrams of the various workflows can be changed. However they must comply with certain constraints. Here are the implementation stages:
 

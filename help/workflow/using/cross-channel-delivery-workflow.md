@@ -7,7 +7,7 @@ exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 ---
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 This use case presents an example involving a cross-channel delivery workflow. The general concept of cross-channel deliveries is presented in [this section](cross-channel-deliveries.md).
 

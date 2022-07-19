@@ -7,7 +7,7 @@ exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
 ---
 # Action activities in workflows{#about-action-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 * **Delivery**: lets you configure a delivery action. Refer to the [Delivery](delivery.md) section.
 * **Delivery control**: lets you start, pause or stop a delivery. Refer to the [Delivery control](delivery-control.md) section.

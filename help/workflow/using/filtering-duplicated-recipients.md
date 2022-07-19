@@ -7,7 +7,7 @@ exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
 ---
 # Filter duplicated recipients {#filtering-duplicated-recipients}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 In this example, we want to filter recipients who appear twice or more in a delivery in order to recover duplicated profiles.
 

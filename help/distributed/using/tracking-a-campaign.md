@@ -7,7 +7,7 @@ exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 ---
 # Track a campaign{#tracking-a-campaign}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Central entity operators can track campaign orders in the list of campaign packages.
 

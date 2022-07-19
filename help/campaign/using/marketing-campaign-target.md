@@ -7,7 +7,7 @@ exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 ---
 # Select the audience of your campaigns {#marketing-campaign-deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 In a marketing campaign, for each delivery, you can define:
 

@@ -7,7 +7,7 @@ feature: Workflows
 
 # Mobile App Channel{#mobile-app-channel}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflow detailed below is installed with the **Mobile App Channel** module by default. For more on this module, refer to this [section](../../delivery/using/about-mobile-app-channel.md).
 

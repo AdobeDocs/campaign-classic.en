@@ -7,7 +7,7 @@ exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 ---
 # Workflow use cases {#about-workflow-use-cases}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 In this section, you will find various use cases leveraging Campaign workflows capabilities.
 

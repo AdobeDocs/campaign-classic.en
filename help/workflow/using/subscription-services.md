@@ -7,7 +7,7 @@ exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
 ---
 # Subscription Services{#subscription-services}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **Subscription services**-type activity lets you create or delete a subscription to an information service for the population specified in the transition.
 

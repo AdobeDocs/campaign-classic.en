@@ -7,7 +7,7 @@ exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 ---
 # Coordinate data updates{#coordinating-data-updates}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 This use case details the creation of a workflow which lets you manage concomitant updates when using several executions of a workflow.
 

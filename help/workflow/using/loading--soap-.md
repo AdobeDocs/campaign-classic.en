@@ -7,7 +7,7 @@ exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 ---
 # Loading (SOAP){#loading-soap}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 >[!CAUTION]
 >

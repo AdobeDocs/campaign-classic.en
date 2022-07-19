@@ -7,7 +7,7 @@ feature: Workflows, Interaction
 
 # Interaction{#interaction}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The workflows detailed below are installed with the **Offer engine (Interaction)** add-on by default. 
 

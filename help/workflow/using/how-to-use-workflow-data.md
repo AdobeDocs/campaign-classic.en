@@ -7,7 +7,7 @@ exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 ---
 # How to use workflow data{#how-to-use-workflow-data}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Updating the database {#updating-the-database}
 

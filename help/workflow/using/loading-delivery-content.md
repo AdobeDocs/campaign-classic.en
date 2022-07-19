@@ -7,7 +7,7 @@ exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 ---
 # Load delivery content{#loading-delivery-content}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 If your delivery content is available in an HTML file located on Amazon S3, FTP or SFTP servers, you can easily load this content into Adobe Campaign deliveries.
 

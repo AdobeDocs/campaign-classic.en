@@ -7,7 +7,7 @@ exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 ---
 # Web download{#web-download}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 The **Web download** activity launches the downloading of a file on an explicit URL, an external account, or an Adobe Campaign instance. The HTTP protocol is used. This can be a GET or POST download.
 

@@ -7,7 +7,7 @@ exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 ---
 # Performing aggregate computing {#performing-aggregate-computing}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 In this example, we want to count the number of recipients living in London, according to gender.
 
