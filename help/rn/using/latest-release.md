@@ -55,12 +55,12 @@ Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix
 
 **Patches**
 
-* Fixed an error from the previous build which prevented users from resizing the IMS login page.
-* Fixed an error which occurred when installing the content manager package on an existing instance.
-* Fixed an issue in the **Campaigns** menu where an "operation in progress" message was displayed continuously. 
-* With Adobe Analytics enabled, fixed an issue that removed BID (Broadlog ID) and CID (Campaign ID) from the URL when sending an email with a URL without saving the delivery.
-* Fixed an issue when uploading an image in the Public resources folder in an instance with Message Center specific configuration. The following error message would appear: "Unable to upload the images to the tracking servers".
-* Fixed an issue that caused the system to crash when regenerating configuration in case of bad configuration files.
+* Fixed an error from the previous build which prevented users from resizing the IMS login page. (NEO-30085)
+* Fixed an error which occurred when installing the content manager package on an existing instance. (NEO-32349)
+* Fixed an issue in the **Campaigns** menu where an "operation in progress" message was displayed continuously. (NEO-44904)
+* With Adobe Analytics enabled, fixed an issue that removed BID (Broadlog ID) and CID (Campaign ID) from the URL when sending an email with a URL without saving the delivery. (NEO-38678)
+* Fixed an issue when uploading an image in the Public resources folder in an instance with Message Center specific configuration. The following error message would appear: "Unable to upload the images to the tracking servers". (NEO-38546, NEO-45572)
+* Fixed an issue that caused the system to crash when regenerating configuration in case of bad configuration files. (NEO-38752)
 * Fixed an issue which could lead to delivery indicators not being updated correctly. (NEO-44827)
 * Fixed an issue which could lead to a postupgrade error when using complex queries. (NEO-43648)
 * Fixed an issue that could prevent webApps preview from working. (NEO-43242)
