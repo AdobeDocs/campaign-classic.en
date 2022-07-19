@@ -19,17 +19,28 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ### July 2022 {#july-2022}
 
-* Features and improvements coming with July '22 release have been detailed in the documentation.
+Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)
+
+**Documentation updates coming with the 7.3.1 release**
+
+Updated Compatibility Matrix. [Read more](compatibility-matrix.md)
+
+Updated Release Notes section. [Read more](rn-overview.md)
+
+Time Sensitive notifications with iOS 15. [Read more](../../delivery/using/create-notifications-ios.md)
+
 
 ### March 2022 {#mar-2022}
 
-* Added a detailed description for the **[!UICONTROL Test SMTP delivery]** option. [Read more](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+Added a detailed description for the **[!UICONTROL Test SMTP delivery]** option. [Read more](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-* The Get Started with upgrades page has been updated to clarify Campaign Console upgrade guidelines. [Read more](../../rn/using/rn-overview.md)
+The Get Started with upgrades page has been updated to clarify Campaign Console upgrade guidelines. [Read more](../../rn/using/rn-overview.md)
 
-* New Campaign v7.2.2 build is now available. [Read more](../../rn/using/latest-release.md)
-* Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)
-* Legacy PostgreSQL versions that have reached end of life have been added to the [Deprecated and removed features](../../rn/using/deprecated-features.md#dbe-eol) page.
+New Campaign v7.2.2 build is now available. [Read more](../../rn/using/latest-release.md)
+
+Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)
+
+Legacy PostgreSQL versions that have reached end of life have been added to the [Deprecated and removed features](../../rn/using/deprecated-features.md#dbe-eol) page.
 
 ### February 2022 {#february-2022}
 

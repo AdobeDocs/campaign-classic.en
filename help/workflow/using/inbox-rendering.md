@@ -21,7 +21,7 @@ The workflow detailed below is installed with the **Inbox rendering (IR)** modul
   <tr> 
    <td> <strong>Update seed network for Inbox Rendering</strong><br /> </td> 
    <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
-   <td> This workflow updates email addresses used for Inbox rendering and only works if the HTTPS port is open for <strong>deliverability.neolane.net</strong>.<br /> </td> 
+   <td> This workflow updates email addresses used for Inbox rendering and only works if the HTTPS port is open for <strong>https://deliverability-app.neolane.net/deliverability</strong>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
