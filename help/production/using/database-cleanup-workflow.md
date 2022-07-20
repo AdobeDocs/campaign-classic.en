@@ -242,7 +242,7 @@ This task deletes the web resources (mirror pages) used by deliveries.
 1. First of all, the list of deliveries to be purged is recovered using the following query:
 
    ```sql
-   SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)"
+   SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)
    ```
 
    where `$(curDate)` is the current server date.
@@ -250,11 +250,11 @@ This task deletes the web resources (mirror pages) used by deliveries.
 1. The **NmsMirrorPageInfo** table is then purged, if necessary using the identifier of the previously recovered delivery. Mass-deletion is used to generate the following queries:
 
    ```sql
-   DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000)
+   DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000
    ```
 
    ```sql
-   DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000)
+   DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000
    ```
 
    where `$(dl)` is the identifier of the delivery.
@@ -299,7 +299,7 @@ This step lets you delete records for which all data wasn't processed during imp
 1. Mass-deletion is carried out on the **XtkReject** table with the following query:
 
    ```sql
-   DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l))
+   DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
    where `$(curDate)` is the current server date from which we subtract the period defined for the **NmsCleanup_RejectsPurgeDelay** option (refer to [Deployment wizard](#deployment-wizard)) and `$(l)` is the maximum number of records to be mass deleted.
