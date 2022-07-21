@@ -78,6 +78,7 @@ Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix
 * Fixed an issue that could lead to crashes due to intermittent core dumps (NEO-30549)
 * Fixed an issue that could lead to crashes when using erroneous HTML code in a delivery. (NEO-40385)
 * Fixed an issue that could prevent non admin users from accessing the **Analysis** tab in delivery properties. (NEO-34025)
+* Fixed an issue that could prevent an image from being uploaded in chunk mode from an external server during message preparation. (NEO-40307)
 
 ## ![](assets/do-not-localize/green_2.png) Release 7.2.2 - Build 9349 {#release-7-2-2}
 
