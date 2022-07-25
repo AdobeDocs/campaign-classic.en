@@ -342,21 +342,6 @@ The following operating systems and browser are **required** to use [Campaign Cl
 </tbody>
 </table>
 
-### Browser
-
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Internet Explorer</p>
-</td>
-<td>
-<p>11</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Microsoft WebView2 runtime
 
 <table>
