@@ -54,13 +54,13 @@ Before starting the implementation, check your instance configuration.
 
     This option must be filled on all your Campaign instances (MKT, MID, RT, EXEC) with the correct value. As an hybrid customer, reach out to Adobe to have the option set on your MID, RT and EXEC instances.
 
+>[!CAUTION]
+>
+>As an on-premise customer, if a firewall is implemented on your side, you must add this url `https://deliverability-service.adobe.io` to your allowlist. [Learn more](../../installation/using/url-permissions.md).
+
 ### Step 1: Create/update your Adobe Developer Project {#adobe-io-project}
 
-1. Access [Adobe Developer Console](https://developer.adobe.com/console/home) and log in with the Developer access of your Organization.
-
-    >[!NOTE]
-    >
-    > Make sure you are logged into the correct Organization portal.
+1. Access [Adobe Developer Console](https://developer.adobe.com/console/home) and log in with the Developer access of your Organization. Make sure you are logged into the correct Organization portal.
 
 1. Select **[!UICONTROL Create new project]**.
     ![](assets/New-Project.png) 
