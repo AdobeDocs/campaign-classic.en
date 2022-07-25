@@ -1040,8 +1040,6 @@ Here is the default configuration:
 <url dnsSuffix="api.twitter.com"                         urlRegEx="https://api.twitter.com/1.1.*"              />
 <url dnsSuffix="adobeid-na1.services.adobe.com"          urlRegEx="https://.*"                                    />
 <url dnsSuffix="adobeid-na1-stg1.services.adobe.com"     urlRegEx="https://.*"                                    />
-<url dnsSuffix="deliverability.neolane.net"              urlRegEx="https://deliverability.neolane.net/jssp/dm/renderingSeed.jssp" />
-<url dnsSuffix="deliverability.neolane.net"              urlRegEx="https://deliverability.neolane.net/nl/jsp/soaprouter.jsp" />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/nms/jsp/.*"              />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/nl/jsp/.*"               />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/xtk/jsp/.*"              />
