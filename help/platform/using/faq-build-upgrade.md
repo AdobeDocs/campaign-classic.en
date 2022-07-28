@@ -122,7 +122,7 @@ No. During build upgrade, workflow and mail services are both stopped. This mean
 
 ## Will my tracking links still work during the upgrade?
 
-Tracking links will work during the upgrade. New emails cannot be sent during the upgrade but tracking links included in already sent emails will be operational.  
+Tracking links on emails that have already been sent will not function during the upgrade because all servers are stopped. They will be operational again once the upgrade is finished and servers are restarted.
 
 ## Do I need to be available during the build upgrade process?
 
