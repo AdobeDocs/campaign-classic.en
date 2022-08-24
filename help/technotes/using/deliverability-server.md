@@ -54,9 +54,19 @@ Before starting the implementation, check your instance configuration.
 
     This option must be filled on all your Campaign instances (MKT, MID, RT, EXEC) with the correct value. As an hybrid customer, reach out to Adobe to have the option set on your MID, RT and EXEC instances.
 
+As an on-premise customer, you must also check a Campaign **[!UICONTROL Product profile]** is available for your Organization. To perform this, follow the steps below:
+
+1. As an Administrator, connect to [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
+1. Access the **Product and Services** section and check **Adobe Campaign** is listed.
+    If you cannot see **Adobe Campaign** contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} to get it added.
+1. Click **Adobe Campaign** and select your Organization.
+1. Check a **[!UICONTROL Product profile]** exists. If not, create it. No permission is required for this **[!UICONTROL Product profile]**. 
+
+
 >[!CAUTION]
 >
 >As an on-premise customer, if a firewall is implemented on your side, you must add this url `https://deliverability-service.adobe.io` to your allowlist. [Learn more](../../installation/using/url-permissions.md).
+
 
 ### Step 1: Create/update your Adobe Developer Project {#adobe-io-project}
 
@@ -119,7 +129,7 @@ To do so:
 1. Copy the contents from the file `private.key.base64`.
 1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
 
-    ```
+    ```sql
     nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
     ```
 

@@ -126,19 +126,19 @@ Learn how to manage your Campaign Classic instances settings in the Control Pane
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-The new ticketing system has been launched through [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
+The new ticketing system has been launched through [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 
 ### Ask the experts!
 
-Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Access Campaign Download Center
 
 As of June 2020, the Experience Cloud solution Software Distribution replaces the legacy Neolane Download Center and provides a more efficient experience to find and download your software, packages and tools. [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
-Learn more about the new Download Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
+Learn more about the new Download Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){_blank}.
 
 ### Create a ticket or start a chat
 
 Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
 
-To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview). Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html){_blank}.
