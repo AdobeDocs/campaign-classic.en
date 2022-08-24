@@ -47,7 +47,7 @@ Before starting the implementation, check your instance configuration.
 
 1. Open Campaign client console and log on to Adobe Campaign as an Administrator.
 1. Browse to **Administration > Platform > Options**.
-1. Check the `DmRendering_cuid` option value is filled. 
+1. Check that the `DmRendering_cuid` option value is filled. 
 
     * If the option is filled, you can start the implementation.
     * If no value is filled, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} to get your CUID.
@@ -60,7 +60,7 @@ As an on-premise customer, you must also check a Campaign **[!UICONTROL Product 
 1. Access the **Product and Services** section and check **Adobe Campaign** is listed.
     If you cannot see **Adobe Campaign** contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} to get it added.
 1. Click **Adobe Campaign** and select your Organization.
-1. Check a **[!UICONTROL Product profile]** exists. If not, create it. No permission is required for this **[!UICONTROL Product profile]**. 
+1. Check that a **[!UICONTROL Product profile]** exists. If not, create it. No permission is required for this **[!UICONTROL Product profile]**. 
 
 
 >[!CAUTION]
