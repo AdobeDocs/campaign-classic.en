@@ -74,12 +74,6 @@ This section lists features and capabilities that have been removed from Campaig
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>
   </tr>
-  <tr>
-  <td>CentOs 8.x (64 bits)<br></td>
-   <td><p>CentOS Linux 8 reached End Of Life (EOL) on December 31st, 2021. <a href="https://www.centos.org/centos-linux-eol/">Learn more</a></p>
-   <p>If you were using this operating system, adapt your implementation accordingly. CentOS 7.x (64 bits) and RHEL 8.x/7.x (64 bits) are still supported.</p>
-  </td>
- </tr>
    <td>Reporting<br></td>
    <td><p>Following Adobe Flash Player EOL, the Gauge report and Chart rendering engine are no longer available. <a href="../../reporting/using/creating-a-new-report.md">Learn more</a></p>
   </tr>
@@ -136,9 +130,9 @@ This section lists features and capabilities that have been removed from Campaig
  </tbody> 
 </table>
 
-## Deprecated compatibility {#deprecated-compatibility}
+<!--## Deprecated compatibility {#deprecated-compatibility}
 
-The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.
+The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.-->
 
 ## End of compatibility {#end-of-compatibility}
 
