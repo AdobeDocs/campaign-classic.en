@@ -54,7 +54,7 @@ Before starting the implementation, check your instance configuration.
 
     This option must be filled on all your Campaign instances (MKT, MID, RT, EXEC) with the correct value. As an hybrid customer, reach out to Adobe to have the option set on your MID, RT and EXEC instances.
 
-As an on-premise customer, you must also check a Campaign **[!UICONTROL Product profile]** is available for your Organization. To perform this, follow the steps below:
+As an on-premise customer, you must also check that a Campaign **[!UICONTROL Product profile]** is available for your Organization. To perform this, follow the steps below:
 
 1. As an Administrator, connect to [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Access the **Product and Services** section and check **Adobe Campaign** is listed.
@@ -145,7 +145,7 @@ You can now enable the new deliverability server. To perform this:
 
 ### Step 4: Validate your configuration
 
-To check the integration is successful, follow the steps below:
+To check that the integration is successful, follow the steps below:
 
 
 1. Open the client console and log on to Adobe Campaign.
