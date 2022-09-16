@@ -35,7 +35,6 @@ As an **on-premise/hybrid customer**, you need to upgrade to [Campaign v7.2.2](.
 
 As part of the new deliverability server integration, Campaign needs to communicate with Adobe Shared Services via an Identity Management Service (IMS) based authentication. The preferred way is to use the Adobe Developer based Gateway Token (also called Technical Account Token or Adobe IO JWT).
 
-
 >[!WARNING]
 >
 >These steps should only be carried out for Hybrid and On-premise implementations.
@@ -60,6 +59,11 @@ As an on-premise customer, you must also check that a Campaign **[!UICONTROL Pro
 1. Access the **Product and Services** section and check **Adobe Campaign** is listed.
     If you cannot see **Adobe Campaign** contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} to get it added.
 1. Click **Adobe Campaign** and select your Organization.
+
+    >[!CAUTION]
+    >
+    >If you have more than one organization, make sure to select the correct one. Learn more about Organizations [in this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+    
 1. Check that a **[!UICONTROL Product profile]** exists. If not, create it. No permission is required for this **[!UICONTROL Product profile]**. 
 
 
@@ -72,9 +76,12 @@ As an on-premise customer, you must also check that a Campaign **[!UICONTROL Pro
 
 1. Access [Adobe Developer Console](https://developer.adobe.com/console/home) and log in with the Developer access of your Organization. Make sure you are logged into the correct Organization portal.
 
+    >[!CAUTION]
+    >
+    >If you have more than one organization, make sure to select the correct one. Learn more about Organizations [in this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+    
 1. Select **[!UICONTROL Create new project]**.
     ![](assets/New-Project.png) 
-
 
     >[!CAUTION]
     >
@@ -147,12 +154,14 @@ You can now enable the new deliverability server. To perform this:
 
 To check that the integration is successful, follow the steps below:
 
-
 1. Open the client console and log on to Adobe Campaign.
 1. Browse to **Administration > Production > Technical workflows**.
 1. Restart the **Refresh for deliverability** (deliverabilityUpdate) workflow. This should be performed on all your Campaign instances (MKT, MID, RT, EXEC). As an hybrid customer, reach out to Adobe to have the workflow restarted on your MID, RT and EXEC instances.
 1. Check logs: the workflow should execute without errors. 
 
+>[!CAUTION]
+>
+>After the update, the **Update seed network for Inbox Rendering (updateRenderingSeeds)** workflow must be stopped, as it will no longer apply and will fail.
 
 ## Frequently Asked Questions {#faq}
 
@@ -169,4 +178,3 @@ Any Campaign instance not upgraded by August 31 will no longer be able to connec
 If you do not upgrade your environment, email settings will stop being synchronized (MX Management rules, Inbound Email rules, Domain Management rules, and bounce qualification rules). This could affect over time your deliverability. If a significant change is made on these rules, these will have to be applied manually from this point. 
 
 For MKT instances, only [Global Suppression List](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) is affected.
-
