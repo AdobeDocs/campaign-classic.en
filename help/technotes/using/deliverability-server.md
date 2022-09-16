@@ -58,7 +58,8 @@ As an on-premise customer, you must also check that a Campaign **[!UICONTROL Pro
 1. As an Administrator, connect to [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Access the **Product and Services** section and check **Adobe Campaign** is listed.
     If you cannot see **Adobe Campaign** contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} to get it added.
-1. Click **Adobe Campaign** and select your Organization. **Caution**: If you have more than one organization, make sure to select the correct one. Learn more about Organizations [in this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+1. Click **Adobe Campaign** and select your Organization. 
+    **Caution**: If you have more than one organization, make sure to select the correct one. Learn more about Organizations [in this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
     
 1. Check that a **[!UICONTROL Product profile]** exists. If not, create it. No permission is required for this **[!UICONTROL Product profile]**. 
 
