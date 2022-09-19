@@ -37,29 +37,15 @@ Depending on the external databases that you want to be able to access from Adob
 
 Follow the links below to learn more:
 
-* Connect Campaign and [Vertica Analytics](../../installation/using/configure-fda-vertica.md)
-
-* Connect Campaign and [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
-
 * Connect Campaign and [Azure Synapse](../../installation/using/configure-fda-synapse.md)
-
-* Connect Campaign and [Snowflake](../../installation/using/configure-fda-snowflake.md)
-
+* Connect Campaign and [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Connect Campaign and [Hadoop](../../installation/using/configure-fda-hadoop.md)
-
-* Connect Campaign and [Oracle](../../installation/using/configure-fda-oracle.md)
-
-* Connect Campaign and [Netezza](../../installation/using/configure-fda-netezza.md)
-
-* Connect Campaign and [Sybase IQ](../../installation/using/configure-fda-sybase.md)
-
-* Connect Campaign and [Teradata](../../installation/using/configure-fda-teradata.md)
-
-* Connect Campaign and [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-
-* Connect Campaign and [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
-
 * Connect Campaign and [Microsoft SQL Server](../../installation/using/configure-fda-sql.md)
-
+* Connect Campaign and [Netezza](../../installation/using/configure-fda-netezza.md)
+* Connect Campaign and [Oracle](../../installation/using/configure-fda-oracle.md)
+* Connect Campaign and [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
 * Connect Campaign and [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-
+* Connect Campaign and [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Connect Campaign and [Sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Connect Campaign and [Teradata](../../installation/using/configure-fda-teradata.md)
+* Connect Campaign and [Vertica Analytics](../../installation/using/configure-fda-vertica.md)
