@@ -207,7 +207,7 @@ External databases compatible with Campaign are listed in the [Compatibility mat
 
 External account configuration settings depend on the database engine. Learn more in the following sections:
 
-* Configure access to [Vertica](../../installation/using/configure-fda-vertica.md)
+* Configure access to [Vertica Analytics](../../installation/using/configure-fda-vertica.md)
 * Configure access to [Snowflake](../../installation/using/configure-fda-snowflake.md)
 * Configure access to [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Configure access to [Azure Synapse](../../installation/using/configure-fda-synapse.md)
