@@ -192,21 +192,15 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <td><strong>Database version</strong></td>
 <td><strong>Campaign version</strong></td>
 <tr>
-<tr>
-<td>Snowflake</td>
-<td>&nbsp;</td>
-<td>7.2.1 minimum</td>
+<td>Amazon Redshift</td>
+<td><p>&nbsp;</p>
+<td>v7.0 19.1.4 minimumm</td>
+</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td>&nbsp;</td>
 <td>7.2.1 minimum</td>
-</tr>
-<tr>
-<td>Amazon Redshift</td>
-<td><p>&nbsp;</p>
-<td>v7.0 19.1.4 minimumm</td>
-</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -216,6 +210,16 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>11.x</p>
 <p>10.x</p>
 </td>
+<td>v7.0 19.1.4 minimum</td>
+</tr>
+<tr>
+<td>Snowflake</td>
+<td>&nbsp;</td>
+<td>7.2.1 minimum</td>
+</tr>
+<tr>
+<td>Vertica Analytics</td>
+<td>&nbsp;</td>
 <td>v7.0 19.1.4 minimum</td>
 </tr>
 </tbody>
@@ -229,14 +233,26 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td><strong>Database version</strong></td>
 <td><strong>Campaign version</strong></td>
 <tr>
-<td>Vertica</td>
-<td>&nbsp;</td>
-<td>v7.0 19.1.4 minimum</td>
-</tr>
-<tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td>&nbsp;</td>
 <td>v7.0 19.1.4 minimum</td>
+</tr>
+<tr><td>MySQL</td>
+<td>
+<p>8</p>
+<p>5.7</p>
+</td>
+<td>
+<p>v7.3 minimum</p>
+<p>v7.0 minimum</p>
+</td>
+</tr>
+<tr>
+<td>Netezza</td>
+<td>
+<p>7.2</p>
+</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Oracle</td>
@@ -245,6 +261,13 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>18c</p>
 <p>12c</p>
 <p>11g</p>
+</td>
+<td>v7.0 minimum</td>
+</tr>
+<tr>
+<td>SAP HANA</td>
+<td>
+<p>version 1 SPS 12</p>
 </td>
 <td>v7.0 minimum</td>
 </tr>
@@ -258,33 +281,6 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </td>
 <td>v7.0 minimum</td>
 </tr>
-<tr><td>MySQL</td>
-<td>
-<p>8</p>
-<p>5.7</p>
-</td>
-<td>
-<p>v7.3 minimum</p>
-<p>v7.0 minimum</p>
-</td>
-</tr>
-<tr>
-<td>Teradata</td>
-<td>
-<p>16.20</p>
-<p>16</p>
-<p>15.10</p>
-<p>15.0</p>
-</td>
-<td>v7.0 minimum</td>
-</tr>
-<tr>
-<td>Netezza</td>
-<td>
-<p>7.2</p>
-</td>
-<td>v7.0 minimum</td>
-</tr>
 <tr>
 <td>Sybase</td>
 <td>
@@ -294,9 +290,12 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td>v7.0 minimum</td>
 </tr>
 <tr>
-<td>SAP HANA</td>
+<td>Teradata</td>
 <td>
-<p>version 1 SPS 12</p>
+<p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 <td>v7.0 minimum</td>
 </tr>
@@ -323,6 +322,15 @@ The following operating systems and browser are **required** to use [Campaign Cl
 
 <table>
 <tbody>
+</tr>
+<tr>
+<td>Microsoft Windows</td>
+<td>
+<p>11 (starting 7.3 release)</p>
+<p>10 (recommended for Japanese instances)</p>
+<p>8</p>
+</td>
+</tr>
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
@@ -330,15 +338,6 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <p>2016</p>
 <p>2012</p>
 </td>
-</tr>
-<tr>
-<td>Microsoft Windows</td>
-<td>
-<p>11 (starting Campaign v7.3)</p>
-<p>10 (recommended for Japanese instances)</p>
-<p>8</p>
-</td>
-</tr>
 </tbody>
 </table>
 

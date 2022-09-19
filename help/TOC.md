@@ -659,11 +659,11 @@ type: Documentation
   + Connect Campaign to external systems {#accessing-external-database}
        + [Configure external accounts](installation/using/external-accounts.md)
        + Configure Federated Data Access{#configure-fda}
-          + [Get started with Federated Data Access](installation/using/about-fda.md)
+          + [Get started with Federated Data Access](installation/using/about-Confda.md)
           + [Best practices and limitations](installation/using/fda-best-practices.md)
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
-            + [Configure Vertica](installation/using/configure-fda-vertica.md)
+            + [Configure Vertica Analytics](installation/using/configure-fda-vertica.md)
             + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
             + [Configure Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)

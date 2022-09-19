@@ -37,7 +37,7 @@ Depending on the external databases that you want to be able to access from Adob
 
 Follow the links below to learn more:
 
-* Connect Campaign and [Vertica](../../installation/using/configure-fda-vertica.md)
+* Connect Campaign and [Vertica Analytics](../../installation/using/configure-fda-vertica.md)
 
 * Connect Campaign and [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 

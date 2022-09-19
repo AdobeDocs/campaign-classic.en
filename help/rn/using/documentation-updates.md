@@ -141,7 +141,7 @@ Integration with Adobe Journey Orchestration - [Learn more](https://experiencele
 
 LINE channel enhancements - [Learn more](../../delivery/using/line-channel.md)
 
-New Vertica FDA connector - [Learn more](../../installation/using/configure-fda-vertica.md)
+New Vertica Analytics FDA connector - [Learn more](../../installation/using/configure-fda-vertica.md)
 
 New Google BigQuery FDA connector - [Learn more](../../installation/using/configure-fda-google-big-query.md)
 
