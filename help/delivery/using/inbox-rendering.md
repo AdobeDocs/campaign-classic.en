@@ -15,6 +15,10 @@ Before hitting the **Send** button, make sure that your message will be displaye
 
 To allow this, Adobe Campaign leverages the [Litmus](https://litmus.com/email-testing) web-based email testing solution to capture the renderings and make them available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications.
 
+>[!CAUTION]
+>Inbox rendering cannot be used with [recurring deliveries](communication-channels.md#recurring-delivery).
+>
+
 Litmus is a feature-rich email validation and previewing application. It allows email content creators to preview their message content in over 70 email renderers, such as the Gmail inbox or the Apple Mail client.
 
 The mobile, messaging and webmail clients available for **Inbox rendering** in Adobe Campaign are listed on the [Litmus website](https://litmus.com/email-testing) (click **View all email clients**).
