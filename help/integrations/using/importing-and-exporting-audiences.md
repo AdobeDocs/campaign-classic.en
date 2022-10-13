@@ -1,4 +1,4 @@
-x---
+---
 product: campaign
 title: Importing and exporting audiences
 description: Importing and exporting audiences
@@ -7,6 +7,7 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 ---
+
 # Importing and exporting audiences{#importing-and-exporting-audiences}
 
 ![](../../assets/common.svg)
