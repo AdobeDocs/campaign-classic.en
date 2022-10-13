@@ -8,7 +8,7 @@ exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
 ---
 # Work with Sources and Destinations {#rtcdp}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## About Sources and Destinations
 
