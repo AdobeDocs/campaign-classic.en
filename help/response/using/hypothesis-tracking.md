@@ -9,7 +9,7 @@ exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 ---
 # Hypothesis tracking{#hypothesis-tracking}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 The result of hypothesis calculations is available at various levels of the Adobe Campaign platform: indicators calculated by hypotheses and the target populations reactions are visible via the actual hypothesis, as well as in the hypotheses reports available via campaigns and deliveries.
 
