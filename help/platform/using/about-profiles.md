@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: About profiles
-description: About profiles
+title: Get started with profiles
+description: Work with profiles in Adobe Campaign
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
