@@ -9,7 +9,7 @@ hidefromtoc: yes
 ---
 # Adobe Campaign Glossary{#ac-glossary}
 
-Below is the definition of the key terms and concepts in Adobe Campaign
+Below is the definition of the key terms and concepts in Adobe Campaign, with links to related documentation. Click a term to display its definition.
 
 ## A - D{#sec-1}
 
@@ -22,7 +22,7 @@ Learn more about [A/B testing](../../delivery/using/get-started-a-b-testing.md).
 
 +++**Access management**
 
-Access management enables admins to assign access and permissions to users of Adobe Campaign. Permissions include the ability to view and/or use Adobe Campaign features, such as executing workflows, defining schemas, and managing audiences
+Access management enables admins to assign access and permissions to users of Adobe Campaign. Permissions include the ability to view and/or use Adobe Campaign features, such as executing workflows, defining schemas, and managing audiences.
 
 Learn more about [Access management](access-management.md).
 +++
