@@ -2,6 +2,7 @@
 product: campaign
 title: Campaign Classic 2018 releases
 description: Learn more about Campaign Classic 2018 releases
+hidefromtoc: yes
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
 ---
 # 2018 releases{#release-2018}
