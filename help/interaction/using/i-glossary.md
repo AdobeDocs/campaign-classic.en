@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Glossary
-description: Glossary
+title: Glossary for Campaign interation
+description: Glossary for Campaign interation
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 ---
-# Glossary{#glossary}
+# Glossary for Campaign interation{#i-glossary}
 
 ![](../../assets/v7-only.svg)
 

@@ -46,6 +46,7 @@ type: Documentation
        + [Reports](platform/using/faq-reporting.md)
        + [Development](platform/using/faq-developers.md)
        + [Tutorials](platform/using/tutorials.md)
+     + [Glossary](platform/using/ac-glossary.md)
   + Privacy {#privacy}
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Privacy management](platform/using/privacy-management.md)
@@ -512,7 +513,7 @@ type: Documentation
 + Manage Offers {#managing-offers}
   + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
-       + [Glossary](interaction/using/glossary.md)
+       + [Glossary](interaction/using/i-glossary.md)
        + [Interaction best practices](interaction/using/interaction-best-practices.md)
   + General operation {#general-operation}
        + [Implementation steps](interaction/using/implementation-steps.md)
