@@ -776,7 +776,7 @@ Learn more about [Primary key](../../configuration/using/schema/key.md).
 
 A profile is a record of information representing an end-customer, prospect, or lead. Each profile corresponds to a record in the nmsRecipient table or an external table containing cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel.
 
-Learn more about [Profiles](../../platforrm/using/about-profiles.md).
+Learn more about [Profiles](../../platform/using/about-profiles.md).
 +++
 
 +++**Program**
@@ -1012,7 +1012,7 @@ Learn more about [Typologies](../../campaign-opt/using/about-campaign-typologies
 
 *Context: Campaign Interaction, Transactional Messaging*
 
-In unitary mode are, a single contact is processed by the Offer engine at runtime. This mode is generally used for inbound interactions and transactional messages.
+In unitary mode, a single contact is processed by the Offer engine at runtime. This mode is generally used for inbound interactions and transactional messages.
 
 Learn more about [Unitary mode](../../interaction/using/about-inbound-channels.md).
 +++
