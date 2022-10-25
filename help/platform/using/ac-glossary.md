@@ -45,7 +45,7 @@ Learn more about [Workflow activities](../../workflow/using/about-activities.md)
 
 Profiles are considered active if they have been targeted or communicated with in the past 12 months via any channel. According to your contract, each of your Campaign instances is provisioned with a specific number of active profiles that are counted for billing purposes.
 
-Learn more about [Active profiles](about-profiles.md#active-profiles).
+Learn more about [Active profiles](../../platform/using/about-profiles.md#active-profiles).
 +++
 
 +++**Approval workflow activity**
@@ -753,7 +753,7 @@ Learn more about [Plans](../../campaign/using/setting-up-marketing-campaigns.md)
 
 Pre-defined filters are queries that have been saved for re-use. Use of pre-defined filters increases productivity (because they are only created once), help build consistency (because all marketers can use them) and lower the skills required of the marketer because they can use code or logic that they might not be able to create themselves. 
 
-Learn more about [Pre-defined filters](../../platforrm/using/creating-filters.md).
+Learn more about [Pre-defined filters](../../configuration/using/creating-filters.md).
 +++
 
 <!--
@@ -769,7 +769,7 @@ Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-
 
 The primary key is the unique identifier for each record in a database table. A table must have at least one key. As a rule, keys are declared after the main element of the schema and the indexes. Primary keys cannot be composite (include several fields).
 
-Learn more about [Primary key](../../configuration/using/key.md).
+Learn more about [Primary key](../../configuration/using/schema/key.md).
 +++
 
 +++**Profile**
@@ -894,7 +894,7 @@ Learn more about [Target Data](../../workflow/using/data-life-cycle.md#target-da
 
 This is the mapping of delivery channels to a specific data type. Adobe Campaign does not send to email addresses or phone numbers per se, but rather to data types. Target maps (sometimes called Delivery maps) define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
 
-Learn more about [Target Data](../../workflow/using/define-the-right-audience.md#target-mappings).
+Learn more about [Target Data](../../delivery/using/define-the-right-audience.md#target-mappings).
 +++
 
 +++**Targeting activities**
@@ -994,7 +994,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 Typology rules are business rules that are implemented as part of the analysis phase of the delivery. Typology rules are checks on the content of the delivery (Control rules) or the target of the delivery (Filtering rules) or other logic (Pressure rules) that enforce business requirements. Rules are granular elements that can be included in one or more Typologies.
 
-Learn more about [Typologies](../../campaign/using/about-campaign-typologies.md#typology-rules).
+Learn more about [Typologies](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 +++**Typology**
@@ -1003,7 +1003,7 @@ Learn more about [Typologies](../../campaign/using/about-campaign-typologies.md#
 
 A typology is a grouping of Typology Rules that are applied to the analysis phase of a delivery. A campaign typology can contain several typology rules, but a delivery can only reference one typology.
 
-Learn more about [Typologies](../../campaign/using/about-campaign-typologies.md#typologies).
+Learn more about [Typologies](../../campaign-opt/using/about-campaign-typologies.md#typologies).
 +++
 
 ## U - Z {#sec-6}
