@@ -94,6 +94,8 @@ Campaign is an interface to coordinate, define and execute marketing campaigns. 
 Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.md).
 +++
 
+<!--
+-----UNCLEAR-----
 +++**Changeover process**
 
 *Context: Campaign Interaction*
@@ -102,6 +104,7 @@ In the context of Campaign Interaction, the changeover process is an activated p
 
 Learn more about [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
+-->
 
 +++**Channel**
 
@@ -168,6 +171,8 @@ The Database cleanup workflow deletes obsolete data to avoid exponential growth 
 Learn more about [Database cleanup workflow](../../production/using/database-cleanup-workflow.md).
 +++
 
+<!--
+----UNCLEAR----
 +++**Dedicated server**
 
 *Context: Transactional Messaging*
@@ -176,6 +181,7 @@ Dedicated execution server(s) to leverage Transactional Messaging. A server can 
 
 Learn more about [Transactional Messaging](../../message-center/using/about-transactional-messaging.md).
 +++
+-->
 
 +++**Deliverability**
 
@@ -266,6 +272,7 @@ Learn more about [Domain delegation](https://experienceleague.adobe.com/docs/con
 ## E - H {#sec-2}
 
 <!--
+----DEPREACTED----
 +++**E4X**
 
 The version of Javascript that is used in Adobe Campaign Classic. Sometimes called ECMAScript, it is an extension of Javascript that allows the mixing of Javascript and XML primitives in the same code. Note that E4X is classified as a deprecated language. 
@@ -425,12 +432,15 @@ Refers to a Contact’s status. It can be explicit, implicit or anonymous.
 Learn more about [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
 
+<!--
+----UNCLEAR----
 +++**Image serving**
 
 The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
 
 Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
 +++
+-->
 
 +++**Inbound interaction**
 
@@ -489,6 +499,7 @@ Learn more about [MRM](../../mrm/using/about-marketing-resource-management.md).
 +++
 
 <!--
+----ACS?----
 +++**Localization**
 
 This template type is used to manage multilingual messages.  It is available for Email and SMS messages and useable in standalone mode, within a workflow or in a recurring delivery. In the multilingual feature templates, the language management is based on variants. Each variant represents one language.  This functionality is available only in Adobe Campaign Standard.  
@@ -753,10 +764,11 @@ Learn more about [Plans](../../campaign/using/setting-up-marketing-campaigns.md)
 
 Pre-defined filters are queries that have been saved for re-use. Use of pre-defined filters increases productivity (because they are only created once), help build consistency (because all marketers can use them) and lower the skills required of the marketer because they can use code or logic that they might not be able to create themselves. 
 
-Learn more about [Pre-defined filters](../../configuration/using/creating-filters.md).
+Learn more about [Pre-defined filters](../../platform/using/creating-filters.md#filtering-recipients).
 +++
 
 <!--
+----DEPREACTED----
 +++**Predictive Engagement Scoring**
 
 Predictive engagement scoring predicts the probability of a recipient engaging with a message and the probability of opting out (unsubscribing) within the next seven days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. The model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
@@ -795,6 +807,8 @@ Learn more about [Public resources](../../installation/using/deploying-an-instan
 
 +++**Push**
 
+*Context: Mobile App Channel*
+
 Push notifications are messages received by mobile applications. Push notifications are configured to work with Adobe Campaign by including the Experience Platform SDK code in the mobile application. For Push, two delivery channels are available: iOS and Android.
 
 Learn more about [Push](../../delivery/using/about-mobile-app-channel.md).
@@ -818,10 +832,13 @@ The rendering function is defined in an offer space. It is used to construct its
 Learn more about [Rendering function](../../interaction/using/creating-offer-spaces.md).
 +++
 
+<!--
+-----DID NOT FIND IN DOCS----
 +++**Retargeting campaigns**
 
 Campaigns that re-target the recipients of a previous delivery or deliveries.
 +++
+-->
 
 +++**Schema Extension**
 
@@ -832,14 +849,14 @@ Learn more about [Schema Extension](../../configuration/using/extending-a-schema
 
 +++**Schema**
 
-A schema is an XML document that defines a specific data type. Schemas are implemented as database tables in the product’s database.  Operators manipulate schemas in Campaign and the product translates their actions into the required SQL which is then executed against the database. Note that these terms (Schema/Table) are often used interchangeably by Operators, but they are different elements of the product architecture.
+A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table. Operators manipulate schemas in Campaign and the product translates their actions into the required SQL which is then executed against the database. 
 
 Learn more about [Schemas](../../configuration/using/about-schema-reference.md).
 +++
 
 +++**Seed addresses**
 
-Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.
+Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. 
 
 Learn more about [Seed addresses](../../delivery/using/about-seed-addresses.md).
 +++
@@ -864,12 +881,12 @@ Learn more about [Services](../../delivery/using/about-services-and-subscription
 
 In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. The Control panel allows you to perform actions to your SFTP servers such as Monitor storage capacity, Manage IP addresses allow listings, and manage public SSH keys.
 
-Learn more about [SFTP Management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en).
+Learn more about [SFTP Management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 +++
 
 +++**Subscription services activity**
 
-This workflow activity lets you create or delete a subscription to an information service for the population specified in the transition.
+The Subscription services workflow activity lets you create or delete a subscription to an information service for the population specified in the transition.
 
 Learn more about [Subscription services activity](../../workflow/using/subscription-services.md).
 +++
@@ -890,23 +907,23 @@ Target data is the data stored in the worktable (transition) of a workflow. This
 Learn more about [Target Data](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
-+++**Target Map**
++++**Target Mapping**
 
-This is the mapping of delivery channels to a specific data type. Adobe Campaign does not send to email addresses or phone numbers per se, but rather to data types. Target maps (sometimes called Delivery maps) define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
+Target Mapping is the mapping of delivery channels to a specific data type. Target mappings define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
 
-Learn more about [Target Data](../../delivery/using/define-the-right-audience.md#target-mappings).
+Learn more about [Target Mapping](../../delivery/using/selecting-a-target-mapping.md).
 +++
 
 +++**Targeting activities**
 
-These are workflow activities that are specific to targeting, manipulating population data and filtering activities. They let Operators build one or more targets by defining sets and splitting or combining these sets using intersection, union or exclusion operations. 
+Targeting activities are workflow activities that are specific to targeting, manipulating population data and filtering activities. They let Operators build one or more targets by defining sets and splitting or combining these sets using intersection, union or exclusion operations. 
 
 Learn more about [Targeting activities](../../workflow/using/about-targeting-activities.md).
 +++
 
 +++**Targeting dimension**
 
-The data type that is produced (returned) by a query or other workflow activities. Note that Adobe Campaign only returns the Primary Key of the respondent database rows, no matter what query was used to obtain them.  
+Targeting dimension is the data type that is produced (returned) by a query or other workflow activities. Note that Adobe Campaign only returns the Primary Key of the respondent database rows, no matter what query was used to obtain them.  
 
 Learn more about [Targeting dimension](../../workflow/using/targeting-data.md).
 +++
@@ -915,18 +932,13 @@ Learn more about [Targeting dimension](../../workflow/using/targeting-data.md).
 
 *Context: Marketing Resource Management (MRM)*
 
-The Task workflow activity incorporates human action into the logic of a workflow. You can specify two scenarios: the first if the task is completed and a second if the task is not completed (if it is manually marked as incomplete or if it expires).
-
- Typical use cases are for incorporating offline actions into a campaign, or for custom actions such as approvals.
-
-In a campaign workflow, the Task activity 
-
-
+The Task workflow activity incorporates human action into the logic of a workflow. You can specify two scenarios: the first if the task is completed and a second if the task is not completed. Typical use cases are for incorporating offline actions into a campaign, or for custom actions such as approvals.
 
 Learn more about [Task activity](../../workflow/using/task.md).
 +++
 
 <!--
+-----NOT USEFUL-----
 +++**Task**
 
 One iteration of the defined functionality of a workflow activity. Each execution of a task has a unique task identifier.   
@@ -941,6 +953,8 @@ A template is a design element used to create an object. It contains object sett
 +++
 
 <!--
+-----ACS -> SEEDS IN ACC-----
+
 +++**Test profiles**
 
 Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
@@ -950,6 +964,7 @@ Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 -->
 
 <!--
+-----NOT USEFUL?-----
 +++**Total database storage**
 
 The aggregate size of the production and non-production instance(s) database storage managed by Adobe. 
@@ -980,6 +995,7 @@ Learn more about [Triggered Campaigns](../../workflow/using/external-signal.md).
 +++
 
 <!--
+-----NOT USEFUL-----
 +++**Triggers**
 
 Signals that initiate execution of a workflow, delivery or other action. Typically an API call. 
@@ -994,7 +1010,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 Typology rules are business rules that are implemented as part of the analysis phase of the delivery. Typology rules are checks on the content of the delivery (Control rules) or the target of the delivery (Filtering rules) or other logic (Pressure rules) that enforce business requirements. Rules are granular elements that can be included in one or more Typologies.
 
-Learn more about [Typologies](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+Learn more about [Typology Rules](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 +++**Typology**
@@ -1018,6 +1034,7 @@ Learn more about [Unitary mode](../../interaction/using/about-inbound-channels.m
 +++
 
 <!--
+-----NO OCCURRENCE IN ACC, OLD v6 CONCEPT?----
 +++**Universes**
 
 Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
@@ -1028,7 +1045,7 @@ Learn more about [Universes](../../workflow/using/about-workflows.md).
 
 +++**Web applications**
 
-Web applications are dynamic and interactive application pages hosted by the Campaign instance. It contains data from the database and content adapted to the rights of the connected user. For example, you can create an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post web pages where users can look up or enter information.
+Web applications are dynamic and interactive application pages hosted by the Campaign instance. They contains data from the database and content adapted to the rights of the connected user. For example, you can create an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post web pages where users can look up or enter information.
 
 Learn more about [Web applications](../../web/using/about-web-applications.md).
 +++
@@ -1049,7 +1066,7 @@ Learn more about [Workflows](../../workflow/using/about-workflows.md).
 
 +++**Worktable**
 
-The worktable contains all the information carried by workflow transitions. Each workflow uses several worktables. The data conveyed in these tables can be accelerated and used throughout the workflow’s life cycle, as long as it is not purged. Indeed, unneeded tables are purged each time the workflow is passivated, and possibly during the execution of the largest workflows to avoid overloading the server.
+The worktable contains all the information carried by workflow transitions. Each workflow uses several worktables. The worktable holds the results of its originating activity and its content is used as the input to the next (connected) activity in the workflow.  Manipulation (extension, customization) of the worktable is one of the main skills of an Adobe Campaign operator.  
 
 Learn more about [Worktables](../../workflow/using/about-workflows.md).
 +++
