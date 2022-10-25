@@ -71,12 +71,15 @@ Audit trail captures, in real-time, a comprehensive list of actions and events o
 Learn more about [Audit trail](../../production/using/audit-trail.md).
 +++
 
+<!--
+----DUPLICATE WITH THE "CAMPAIGN" ENTRY?---
 +++**Automated campaigns**
 
 Campaigns that run on a schedule, such as for targeting recipients who have a birthday or an anniversary. Can also be used to execute look-ahead and look-back logic, such as who purchased yesterday or who has a payment due tomorrow.
 
 Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.md).
 +++
+-->
 
 +++**Batch mode**
 
@@ -95,7 +98,7 @@ Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.
 +++
 
 <!--
------UNCLEAR-----
+-----NOT USEFUL HERE?-----
 +++**Changeover process**
 
 *Context: Campaign Interaction*
@@ -187,7 +190,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 *Context: Email Deliverability*
 
-A metric that allows Operators to measure the success of a campaign in reaching their recipients’ inbox without bouncing or being marked as spam.
+Deliverability allows you to measure the success of your campaigns reaching your recipients’ inbox without bouncing, or being marked as spam. More precisely, email deliverability refers to the set of characteristics that determine a message’s ability to reach its destination, via a personal email address, within a short time, and with the expected quality in terms of content and format.
 
 Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 +++
@@ -213,7 +216,9 @@ Delivery logs contain information generated when sending of a message. These log
 Learn more about [Delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 +++
 
-+++**Delivery Fundamentals**
+<!--
+----STRANGE IN DOCS?----
++++**Delivery fundamentals**
 
 *Context: Email Deliverability*
 
@@ -221,6 +226,7 @@ Adobe Campaign Deliverability Fundamentals Consulting Service provides email del
 
 Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 +++
+-->
 
 +++**Delivery outline**
 
@@ -245,9 +251,9 @@ Descriptive Analysis is a context-sensitive reporting tool which can be used to 
 Learn more about [Descriptive Analysis](../../reporting/using/about-descriptive-analysis.md)
 +++
 
-+++**Distributed marketing**
++++**Distributed Marketing**
 
-*Context: Distributed marketing*
+*Context: Distributed Marketing*
 
 The Distributed Marketing add-on offers to Campaign operators a collaborative workspace for implementing campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the **list of Campaign packages**, where centrally created campaign templates and instances are offered to local entities.
 
@@ -304,15 +310,21 @@ Email BCC capability sends an exact copy in EML format of a corresponding delive
 Learn more about [Email BCC](../../delivery/using/email-parameters.md#email-bcc).
 +++
 
+<!--
+-----STRANGE FOR DOCS?----
 +++**Email volume commitment**
 
 The anticipated emails sent per year as set forth in the Sales Order. This is the total annual email volume commitment, including emails sent but not delivered due to delivery errors such as: non-delivery of a message including but not limited to email address errors, hard bounces, soft bounces, email filters of mail clients, and email blacklists. 
 +++
+-->
 
+<!--
+-----USEFUL FOR DOCS?----
 +++**Engine call**
 
 An engine call is a server call that starts real-time processing on server side for the extraction of data, such as data relating to surveys, WebApps, JSSP, APIs, mobile app registrations, etc. Engine calls must be licensed in packs of 5,000 Engine Calls per day.
 +++
+-->
 
 +++**Enrichment activity**
 
@@ -381,9 +393,9 @@ A folder is an Explorer view item that holds database records of a specific data
 Learn more about [Folders](../../platform/using/adobe-campaign-explorer.md).
 +++
 
-+++**Folder View**
++++**Folder view**
 
-The Folder View is a special Explorer folder type that is used to display all records of a selected data type, no matter what folder it belongs to. Folder views are used as an administrative tool to manage partitioned data or data that is distributed among many folders.
+The Folder view is a special Explorer folder type that is used to display all records of a selected data type, no matter what folder it belongs to. Folder views are used as an administrative tool to manage partitioned data or data that is distributed among many folders.
 
 Learn more about [Folder View](../../platform/using/adobe-campaign-explorer.md).
 +++
@@ -395,12 +407,15 @@ Forms define the interface representation for a specific schema type. Forms are 
 Learn more about [Forms](../../configuration/using/identifying-a-form.md).
 +++
 
+<!--
+-----USEFUL HERE?-----
 +++**Generated SQL query**
 
 The SQL code generated for the underlying database when an operator manipulates a schema. Schemas define the data types that are then implemented using database tables and columns. The SQL generated for schema manipulation (such as in a query) is based on the installed database type. Thus, the database can be swapped to a different type and the queries in Campaign remain unchanged. Adobe refers to this functionality as being database-agnostic.
 
 Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-query.md#step-6---preview-data).
 +++
+-->
 
 +++**Heatmap**
 
@@ -419,11 +434,12 @@ Learn more about [Hybrid deployment](../../installation/using/hosting-models.md#
 
 ## I - L {#sec-3}
 
+<!-- added more details but maybe still not clear/useful here? -->
 +++**Identification mode**
 
 *Context: Campaign Interaction*
 
-Refers to a Contact’s status. It can be explicit, implicit or anonymous. 
+The identification mode Refers to a Contact’s status. It can be explicit, implicit or anonymous. 
 
 * **explicit**: the contact is identified following their login onto the channel interface.
 * **implicit**: the contact has been identified by a cookie (permanent or session). It can be processed as an anonymous or identified contact.
@@ -433,7 +449,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 +++
 
 <!--
-----UNCLEAR----
+----NOT USEFUL HERE?----
 +++**Image serving**
 
 The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
@@ -458,7 +474,7 @@ Inbox rendering is the generation of email previews, which ensures the message w
 Learn more about [Inbox rendering](../../delivery/using/delivery-dashboard.md#delivery-rendering).
 +++
 
-+++**Instance Settings**
++++**Instance settings**
 
 Instance settings are configuration details of an Adobe Campaign instance. These settings are defined in the Deployment wizard (Tools>Advanced>Deployment Wizard) or in the server and/or instance configuration files.
 
@@ -466,7 +482,7 @@ Learn more about [Instance Settings](../../installation/using/about-initial-conf
 
 +++
 
-+++**Jobs (Import and export)**
++++**Jobs (import and export)**
 
 Jobs are managed by a wizard system that simplifies the import and export of data into and out of the product. Jobs use the templating system for simplicity and consistency and can be defined to execute on a schedule.
 
@@ -480,9 +496,9 @@ A list is a static dataset. Lists are audiences or segments that are imported in
 Learn more about [Lists](../../platform/using/creating-and-managing-lists.md).
 +++
 
-+++**Local Cache**
++++**Local cache**
 
-Information that is stored locally on the operator’s computer. Cached information is used by the console to reduce the required traffic to the server and improve performance. Periodic clearing of the local cache (on the File menu) updates the stored information and improves performance and stability.  
+The local cache is the information that is stored locally on the operator’s computer. Cached information is used by the console to reduce the required traffic to the server and improve performance. Periodic clearing of the local cache (on the File menu) updates the stored information and improves performance and stability.  
 
 Learn more about [Local Cache](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 +++
@@ -515,21 +531,21 @@ Learn more about [Named rights](../../platform/using/access-management-named-rig
 
 +++**Namespace**
 
-A partition that separates customer data types from Adobe Campaign’s native datatypes in the data model. Also used to facilitate the migration of definitions from one instance to another, such as moving a schema or template from the Development instance to the Production instance. 
+The namespace is a partition that separates customer data types from Adobe Campaign’s native datatypes in the data model. Also used to facilitate the migration of definitions from one instance to another, such as moving a schema or template from the Development instance to the Production instance. 
 
 Learn more about [Namespace](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
 
-+++**Navigation Bar**
++++**Navigation bar**
 
-The navigation element running across the top of the interface. The navigation bar regroups the various core capabilities of the platform. Click a navigation bar link to display the set of functionalities related to this capability. The list of core capabilities you can access depends on the packages and add-ons you have installed and on your access rights. The purpose of the Navigation bar is to simplify screen management and increase productivity.
+The navigation bar is the navigation element running across the top of the interface. The navigation bar regroups the various core capabilities of the platform. Click a navigation bar link to display the set of functionalities related to this capability. The list of core capabilities you can access depends on the packages and add-ons you have installed and on your access rights. The purpose of the Navigation bar is to simplify screen management and increase productivity.
 
 Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
 +++
 
-+++**Navigation Tree**
++++**Navigation tree**
 
-The main navigation in the Explorer view of Adobe Campaign. The navigation tree works like a file browser (e.g. Windows Explorer). Folders may contain sub-folders. Selecting a node displays the view corresponding to the node. The view displayed is a list associated with a schema and an input form to edit the selected line. You can customize the navigation tree and set permissions on folders.
+The navigation tree is the main navigation in the Explorer view of Adobe Campaign. The navigation tree works like a file browser (e.g. Windows Explorer). Folders may contain sub-folders. Selecting a node displays the view corresponding to the node. The view displayed is a list associated with a schema and an input form to edit the selected line. You can customize the navigation tree and set permissions on folders.
 
 Learn more about [Navigation Tree](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
 +++
@@ -547,16 +563,16 @@ Learn more about [Objectives](../../mrm/using/creating-and-managing-tasks.md#exp
 
 *Context: Campaign Interaction*
 
-Set of offers defined in Adobe Campaign that can be selected during an interaction. The catalog is organized hierarchically with each node corresponding to a category. 
+An offer catalog is a set of offers defined in Adobe Campaign that can be selected during an interaction. The catalog is organized hierarchically with each node corresponding to a category. 
 
 Learn more about [Offer Catalog](../../interaction/using/offer-catalog-overview.md).
 +++
 
-+++**Offer contact**
++++**Offer Contact**
 
 *Context: Campaign Interaction*
 
-A contact from an inbound interaction. During engine call processing, the contact is associated with a targeting dimension. Non-identified, anonymous contacts are attributed to the visitor targeting dimension. There are two types of contacts, identified and anonymous:
+An offer contact is a contact from an inbound interaction. During engine call processing, the contact is associated with a targeting dimension. Non-identified, anonymous contacts are attributed to the visitor targeting dimension. There are two types of contacts, identified and anonymous:
 
 * **Identified contact**: a contact that has voluntarily been identified on the channel. In outbound interactions, the contact is automatically identified.
 * **Anonymous contact**: a contact that has not voluntarily subscribed through the channel but can be implicitly identified through a cookie. This terminology is only used for incoming interactions.
@@ -577,7 +593,7 @@ Learn more about [Design environments](../../interaction/using/fundamental-princ
 
 *Context: Campaign Interaction*
 
-Selecting offers that will be shown on an environment (eligible offers). The arbitrage principle ranks offers by priority according to the criteria defined in the categories and offers. 
+The offer engine selects the offers that will be shown on an environment (eligible offers). The arbitrage principle ranks offers by priority according to the criteria defined in the categories and offers. 
 
 Learn more about [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -586,7 +602,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 *Context: Campaign Interaction*
 
-The process of deleting offers that are not eligible for selection. Executed prior to the offer engine arbitrage step. 
+The offer engine pruning is the process of deleting offers that are not eligible for selection. Executed prior to the offer engine arbitrage step. 
 
 Learn more about [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -595,7 +611,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 *Context: Campaign Interaction*
 
-The root folder which defines an offer catalog, its available spaces and the environment’s pre-defined filters. Operators need to create one environment for each targeting dimension. There are two types of Offer environments: Design and Live.
+The offer environment is the root folder which defines an offer catalog, its available spaces and the environment’s pre-defined filters. Operators need to create one environment for each targeting dimension. There are two types of Offer environments: Design and Live.
 
 Learn more about [Environments](../../interaction/using/fundamental-principles.md).
 +++
@@ -604,27 +620,27 @@ Learn more about [Environments](../../interaction/using/fundamental-principles.m
 
 *Context: Campaign Interaction*
 
-Environment linked to a Campaign **Design environment**. It contains read-only offers whose content and eligibility have been approved via the **Design environment**. They can be selected for presentation on a website or to be inserted in an outbound message. 
+The Offer Live environment is linked to a Campaign **Design environment**. It contains read-only offers whose content and eligibility have been approved via the **Design environment**. They can be selected for presentation on a website or to be inserted in an outbound message. 
 
 Learn more about [Live environments](../../interaction/using/fundamental-principles.md).
-+++
-
-+++**Offer preview**
-
-*Context: Campaign Interaction*
-
-Preview of the offer as it is displayed in its folder. It is accessible from the offer preview tab or from the contact profile. 
-
-Learn more about [Offer preview](../../interaction/using/creating-an-offer.md#previewing-the-offer).
 +++
 
 +++**Offer presentation rules**
 
 *Context: Campaign Interaction*
 
-Typology rules referenced in the offer environment, which let Operators exclude specific offers by taking the recipient’s proposition history into account. 
+Offer presentation rules are typology rules referenced in the offer environment, which let Operators exclude specific offers by taking the recipient’s proposition history into account. 
 
 Learn more about [Offer presentation rules](../../interaction/using/managing-offer-presentation.md#presentation-rules-overview).
++++
+
++++**Offer preview**
+
+*Context: Campaign Interaction*
+
+This is the preview of the offer as it is displayed in its folder. It is accessible from the offer preview tab or from the contact profile. 
+
+Learn more about [Offer preview](../../interaction/using/creating-an-offer.md#previewing-the-offer).
 +++
 
 +++**Offer proposition**
@@ -681,18 +697,18 @@ The offer weight is based on formulas which precisely define the relevance of an
 Learn more about [Offer weight](../../interaction/using/creating-an-offer.md#offer-weight).
 +++
 
-+++**Operator groups**
-
-Operator groups allow you to manage roles for Campaign operators. You define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles.
-
-Learn more about [Operator groups](../../platform/using/access-management-groups.md).
-+++
-
 +++**Operator**
 
 An operator is an Adobe Campaign user who has permissions to log in and perform actions. Operators are associated with operator groups and inherit the rights and privileges of these groups. You can also attribute named rights directly to operators.
 
 Learn more about [Operators](../../platform/using/access-management-operators.md).
++++
+
++++**Operator groups**
+
+Operator groups allow you to manage roles for Campaign operators. You define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles.
+
+Learn more about [Operator groups](../../platform/using/access-management-groups.md).
 +++
 
 +++**Options**
@@ -768,7 +784,7 @@ Learn more about [Pre-defined filters](../../platform/using/creating-filters.md#
 +++
 
 <!--
-----DEPREACTED----
+----DEPRECATED----
 +++**Predictive Engagement Scoring**
 
 Predictive engagement scoring predicts the probability of a recipient engaging with a message and the probability of opting out (unsubscribing) within the next seven days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. The model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
@@ -833,25 +849,25 @@ Learn more about [Rendering function](../../interaction/using/creating-offer-spa
 +++
 
 <!--
------DID NOT FIND IN DOCS----
+-----DID NOT FIND IN ACC DOCS, ACS?----
 +++**Retargeting campaigns**
 
 Campaigns that re-target the recipients of a previous delivery or deliveries.
 +++
 -->
 
-+++**Schema Extension**
-
-Schema Extension allows you to customize the out-of-the-box schemas to best suit your business use cases. For example, you can add the "Loyalty" field to the Recipient table. 
-
-Learn more about [Schema Extension](../../configuration/using/extending-a-schema.md).
-+++
-
 +++**Schema**
 
 A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table. Operators manipulate schemas in Campaign and the product translates their actions into the required SQL which is then executed against the database. 
 
 Learn more about [Schemas](../../configuration/using/about-schema-reference.md).
++++
+
++++**Schema extension**
+
+Schema extension allows you to customize the out-of-the-box schemas to best suit your business use cases. For example, you can add the "Loyalty" field to the Recipient table. 
+
+Learn more about [Schema Extension](../../configuration/using/extending-a-schema.md).
 +++
 
 +++**Seed addresses**
@@ -862,6 +878,7 @@ Learn more about [Seed addresses](../../delivery/using/about-seed-addresses.md).
 +++
 
 <!--
+-------ACS?-----
 +++**Send-time optimization**
 
 To improve the open rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible. Defining a sending time can be done at the delivery level or using a workflow.
@@ -900,16 +917,16 @@ Target approval is the process of having a separate Operator or group of Operato
 Learn more about [Target approval](../../workflow/using/local-approval.md).
 +++
 
-+++**Target Data**
++++**Target data**
 
 Target data is the data stored in the worktable (transition) of a workflow. This data is available inside the delivery for personalization of the delivery content or to define the logic of dynamic elements of the delivery.
 
 Learn more about [Target Data](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
-+++**Target Mapping**
++++**Target mapping**
 
-Target Mapping is the mapping of delivery channels to a specific data type. Target mappings define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
+Target mapping is the mapping of delivery channels to a specific data type. Target mappings define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
 
 Learn more about [Target Mapping](../../delivery/using/selecting-a-target-mapping.md).
 +++
@@ -938,7 +955,7 @@ Learn more about [Task activity](../../workflow/using/task.md).
 +++
 
 <!--
------NOT USEFUL-----
+-----NOT USEFUL, detail-----
 +++**Task**
 
 One iteration of the defined functionality of a workflow activity. Each execution of a task has a unique task identifier.   
@@ -954,7 +971,6 @@ A template is a design element used to create an object. It contains object sett
 
 <!--
 -----ACS -> SEEDS IN ACC-----
-
 +++**Test profiles**
 
 Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
@@ -964,7 +980,7 @@ Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 -->
 
 <!--
------NOT USEFUL?-----
+-----NOT FOR DOCS?-----
 +++**Total database storage**
 
 The aggregate size of the production and non-production instance(s) database storage managed by Adobe. 
@@ -987,6 +1003,7 @@ Transactional messaging is a Campaign module designed for managing custom trigge
 Learn more about [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 +++
 
+<!------- USEFUL HERE??----->
 +++**Triggered Campaigns**
 
 Triggered Campaigns are campaigns that are executed when an API request is received in a workflow. API calls are consumed by a Signal activity in the workflow that initiates the execution of the workflow. 
@@ -1004,22 +1021,22 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 +++
 -->
 
-+++**Typology rule**
-
-*Context: Campaign Optimization*
-
-Typology rules are business rules that are implemented as part of the analysis phase of the delivery. Typology rules are checks on the content of the delivery (Control rules) or the target of the delivery (Filtering rules) or other logic (Pressure rules) that enforce business requirements. Rules are granular elements that can be included in one or more Typologies.
-
-Learn more about [Typology Rules](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
-+++
-
 +++**Typology**
 
 *Context: Campaign Optimization*
 
-A typology is a grouping of Typology Rules that are applied to the analysis phase of a delivery. A campaign typology can contain several typology rules, but a delivery can only reference one typology.
+A typology is a grouping of typology rules that are applied to the analysis phase of a delivery. A campaign typology can contain several typology rules, but a delivery can only reference one typology.
 
 Learn more about [Typologies](../../campaign-opt/using/about-campaign-typologies.md#typologies).
++++
+
++++**Typology rule**
+
+*Context: Campaign Optimization*
+
+Typology rules are business rules that are implemented as part of the analysis phase of the delivery. Typology rules are checks on the content of the delivery (control rules) or the target of the delivery (filtering rules) or other logic (pressure rules) that enforce business requirements. Rules are granular elements that can be included in one or more typologies.
+
+Learn more about [Typology Rules](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 ## U - Z {#sec-6}
@@ -1050,18 +1067,18 @@ Web applications are dynamic and interactive application pages hosted by the Cam
 Learn more about [Web applications](../../web/using/about-web-applications.md).
 +++
 
-+++**Workflow Journal**
-
-The workflow journal is the step-by-step execution log of a workflow. It contains all the history or audit trail of the workflow. It is used for development, troubleshooting or debug purposes.  
-
-Learn more about [Workflow Journal](../../workflow/using/monitoring-workflow-execution.md).
-+++
-
 +++**Workflow**
 
 A workflow is a visual representation of the campaign execution flow. It allows you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
 
 Learn more about [Workflows](../../workflow/using/about-workflows.md).
++++
+
++++**Workflow Journal**
+
+The workflow journal is the step-by-step execution log of a workflow. It contains all the history or audit trail of the workflow. It is used for development, troubleshooting or debug purposes.  
+
+Learn more about [Workflow Journal](../../workflow/using/monitoring-workflow-execution.md).
 +++
 
 +++**Worktable**
