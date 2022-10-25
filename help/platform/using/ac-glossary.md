@@ -734,7 +734,7 @@ Learn more about [Performance Monitoring](../../production/using/monitoring-proc
 
 +++**Personalization blocks**
 
-Adobe Campaign offers built-in personalization blocks that you can insert in your deliveries. They are are dynamic, personalized and contain a specific rendering. For example, you can add a logo, a greeting message, or a link to a mirror page. Several personalization blocks are available by default. You can also define custom personalization blocks that will allow you to optimize your deliveriy personalization. The actual data is inserted into each generated message during the analysis phase of the delivery.  
+Adobe Campaign offers built-in personalization blocks that you can insert in your deliveries. They are dynamic, personalized and contain a specific rendering. For example, you can add a logo, a greeting message, or a link to a mirror page. Several personalization blocks are available by default. You can also define custom personalization blocks that will allow you to optimize your delivery personalization. The actual data is inserted into each generated message during the analysis phase of the delivery.  
 
 Learn more about [Personalization blocks](../../delivery/using/personalization-blocks.md).
 +++
@@ -773,7 +773,7 @@ Learn more about [Pre-defined filters](../../platform/using/creating-filters.md#
 
 Predictive engagement scoring predicts the probability of a recipient engaging with a message and the probability of opting out (unsubscribing) within the next seven days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. The model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
 
-Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-filters.md).
+Learn more about [Predictive Engagement Scoring](../../platform/using/creating-filters.md).
 +++
 -->
 
@@ -800,7 +800,7 @@ Learn more about [Programs](../../campaign/using/setting-up-marketing-campaigns.
 
 +++**Public resources**
 
-The Public resources folder, in Adobe Camaign, holds images hosted by the application server. Images in deliveries must be published to the application server (or to an image hosting server, if Campaign is so configured) to appear in deliveries, such as emails. 
+The Public resources folder, in Adobe Campaign, holds images hosted by the application server. Images in deliveries must be published to the application server (or to an image hosting server, if Campaign is so configured) to appear in deliveries, such as emails. 
 
 Learn more about [Public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
 +++
