@@ -670,6 +670,386 @@ The offer weight is based on formulas which precisely define the relevance of an
 Learn more about [Offer weight](../../interaction/using/creating-an-offer.md#offer-weight).
 +++
 
++++**Operator groups**
+
+Operator groups allow you to manage roles for Campaign operators. You define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles.
+
+Learn more about [Operator groups](../../platform/using/access-management-groups.md).
++++
+
++++**Operator**
+
+An operator is an Adobe Campaign user who has permissions to log in and perform actions. Operators are associated with operator groups and inherit the rights and privileges of these groups. You can also attribute named rights directly to operators.
+
+Learn more about [Operators](../../platform/using/access-management-operators.md).
++++
+
++++**Options**
+
+Options are Platform level variables which are used to define settings of the Campaign instance. Options can define timeframes (such as for database cleanup workflow) or other global definitions at the platform level. 
+
+Learn more about [Options](../../installation/using/configuring-campaign-options.md).
++++
+
++++**Outbound interaction**
+
+*Context: Campaign Interaction*
+
+An outbound interaction is a call to the interaction engine from a contact list (used for delivering emails, direct mail, etc.). The same rules and processes are applied to each contact. This type of interaction is generally processed in batch mode. 
+
+Learn more about [Outbound interaction](../../interaction/using/about-outbound-channels.md).
++++
+
++++**Package export/import**
+
+A package export is an operation which consists in generating an XML file that contains definitions of objects. Packages are used to migrate functionality and definitions from one instance to another. They are also used to add critical product definitions to backup and source control systems. 
+
+Learn more about [Package export/import](../../platform/using/working-with-data-packages.md).
++++
+
++++**Palette**
+
+The workflow palette displays the available activities that can be added to a workflow. This component is shown in a tabbed format with workflow activities grouped logically by their use. Activities available on the palette are determined by the add-ons that have been installed into the Campaign instance, and by the context displaying the workflow. 
+
+Learn more about [Palette](../../workflow/using/building-a-workflow.md#adding-and-linking-activities).
++++
+
++++**Performance Monitoring**
+
+Performance monitoring information is displayed on the Monitoring Tab. It shows metrics for the underlying system, such as memory and CPU usage, SMTP server statistics, server processes and other relevant information.
+
+Learn more about [Performance Monitoring](../../production/using/monitoring-processes.md).
++++
+
++++**Personalization blocks**
+
+Adobe Campaign offers built-in personalization blocks that you can insert in your deliveries. They are are dynamic, personalized and contain a specific rendering. For example, you can add a logo, a greeting message, or a link to a mirror page. Several personalization blocks are available by default. You can also define custom personalization blocks that will allow you to optimize your deliveriy personalization. The actual data is inserted into each generated message during the analysis phase of the delivery.  
+
+Learn more about [Personalization blocks](../../delivery/using/personalization-blocks.md).
++++
+
++++**Personalization field**
+
+A personalization field is a single data field reference used when personalizing a delivery for a specific recipient. The actual data value is inserted during the delivery analysis phase.
+
+Learn more about [Personalization fields](../../delivery/using/personalization-fields.md).
++++
+
++++**Personalization variables**
+
+Personalization variables are pieces of code in a delivery that can display different text to different recipients based on the recipient’s information. These fields can be implemented as either a personalization field or block.
+
+Learn more about [Personalization variables](../../delivery/using/about-personalization.md).
++++
+
++++**Plan**
+
+A plan is a folder type that is used to organize marketing activities on a calendar basis. Plan folders in the Explorer view define time-based units, such as a year, quarter, or month. Plan folders can be nested and can contain other Plan folders, program folders or Campaigns. 
+
+Learn more about [Plans](../../campaign/using/setting-up-marketing-campaigns.md).
++++
+
++++**Pre-defined filters**
+
+Pre-defined filters are queries that have been saved for re-use. Use of pre-defined filters increases productivity (because they are only created once), help build consistency (because all marketers can use them) and lower the skills required of the marketer because they can use code or logic that they might not be able to create themselves. 
+
+Learn more about [Pre-defined filters](../../platforrm/using/creating-filters.md).
++++
+
+<!--
++++**Predictive Engagement Scoring**
+
+Predictive engagement scoring predicts the probability of a recipient engaging with a message and the probability of opting out (unsubscribing) within the next seven days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. The model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
+
+Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-filters.md).
++++
+-->
+
++++**Primary key**
+
+The primary key is the unique identifier for each record in a database table. A table must have at least one key. As a rule, keys are declared after the main element of the schema and the indexes. Primary keys cannot be composite (include several fields).
+
+Learn more about [Primary key](../../configuration/using/key.md).
++++
+
++++**Profile**
+
+A profile is a record of information representing an end-customer, prospect, or lead. Each profile corresponds to a record in the nmsRecipient table or an external table containing cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel.
+
+Learn more about [Profiles](../../platforrm/using/about-profiles.md).
++++
+
++++**Program**
+
+Programs and sub-program folders organize marketing activities around a business objective, such as loyalty, acquisition or cross-sell. They can also represent fiscal periods or campaign tactics, such as events or newsletters. Each program contains campaigns linked to a calendar, which provides an overall view.
+
+Learn more about [Programs](../../campaign/using/setting-up-marketing-campaigns.md).
++++
+
++++**Public resources**
+
+The Public resources folder, in Adobe Camaign, holds images hosted by the application server. Images in deliveries must be published to the application server (or to an image hosting server, if Campaign is so configured) to appear in deliveries, such as emails. 
+
+Learn more about [Public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
++++
+
++++**Push**
+
+Push notifications are messages received by mobile applications. Push notifications are configured to work with Adobe Campaign by including the Experience Platform SDK code in the mobile application. For Push, two delivery channels are available: iOS and Android.
+
+Learn more about [Push](../../delivery/using/about-mobile-app-channel.md).
++++
+
 ## Q - T {#sec-5}
 
++++**Recipient**
+
+In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.) to your customers. Recipient data stored in the database enable you to filter the target and add personalization data. Typically, this is personal, contact, demographic and transactional information, but it could be any type of information that supports marketing and analytics.  
+
+Learn more about [Recipient](../../configuration/using/about-data-model.md).
++++
+
++++**Rendering function**
+
+*Context: Campaign Interaction*
+
+The rendering function is defined in an offer space. It is used to construct its offer representation based on the attributes defined in the offer. There are three different rendering function modes: HTML, XML and text.
+
+Learn more about [Rendering function](../../interaction/using/creating-offer-spaces.md).
++++
+
++++**Retargeting campaigns**
+
+Campaigns that re-target the recipients of a previous delivery or deliveries.
++++
+
++++**Schema Extension**
+
+Schema Extension allows you to customize the out-of-the-box schemas to best suit your business use cases. For example, you can add the "Loyalty" field to the Recipient table. 
+
+Learn more about [Schema Extension](../../configuration/using/extending-a-schema.md).
++++
+
++++**Schema**
+
+A schema is an XML document that defines a specific data type. Schemas are implemented as database tables in the product’s database.  Operators manipulate schemas in Campaign and the product translates their actions into the required SQL which is then executed against the database. Note that these terms (Schema/Table) are often used interchangeably by Operators, but they are different elements of the product architecture.
+
+Learn more about [Schemas](../../configuration/using/about-schema-reference.md).
++++
+
++++**Seed addresses**
+
+Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.
+
+Learn more about [Seed addresses](../../delivery/using/about-seed-addresses.md).
++++
+
+<!--
++++**Send-time optimization**
+
+To improve the open rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible. Defining a sending time can be done at the delivery level or using a workflow.
+
+Learn more about [Send-time optimization](../../delivery/using/about-seed-addresses.md:).
++++
+-->
+
++++**Service**
+
+Adobe Campaign allows you to create and administer information services such as newsletters or product updates and to manage the subscriptions to these services. Several services can be defined in parallel.
+
+Learn more about [Services](../../delivery/using/about-services-and-subscriptions.md).
++++
+
++++**SFTP Management**
+
+In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. The Control panel allows you to perform actions to your SFTP servers such as Monitor storage capacity, Manage IP addresses allow listings, and manage public SSH keys.
+
+Learn more about [SFTP Management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en).
++++
+
++++**Subscription services activity**
+
+This workflow activity lets you create or delete a subscription to an information service for the population specified in the transition.
+
+Learn more about [Subscription services activity](../../workflow/using/subscription-services.md).
++++
+
++++**Target approval**
+
+*Context: Campaign Distributed Marketing*
+
+Target approval is the process of having a separate Operator or group of Operators approve the final target of a delivery (after the analysis phase has generated the target) before the delivery can be sent. 
+
+Learn more about [Target approval](../../workflow/using/local-approval.md).
++++
+
++++**Target Data**
+
+Target data is the data stored in the worktable (transition) of a workflow. This data is available inside the delivery for personalization of the delivery content or to define the logic of dynamic elements of the delivery.
+
+Learn more about [Target Data](../../workflow/using/data-life-cycle.md#target-data).
++++
+
++++**Target Map**
+
+This is the mapping of delivery channels to a specific data type. Adobe Campaign does not send to email addresses or phone numbers per se, but rather to data types. Target maps (sometimes called Delivery maps) define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
+
+Learn more about [Target Data](../../workflow/using/define-the-right-audience.md#target-mappings).
++++
+
++++**Targeting activities**
+
+These are workflow activities that are specific to targeting, manipulating population data and filtering activities. They let Operators build one or more targets by defining sets and splitting or combining these sets using intersection, union or exclusion operations. 
+
+Learn more about [Targeting activities](../../workflow/using/about-targeting-activities.md).
++++
+
++++**Targeting dimension**
+
+The data type that is produced (returned) by a query or other workflow activities. Note that Adobe Campaign only returns the Primary Key of the respondent database rows, no matter what query was used to obtain them.  
+
+Learn more about [Targeting dimension](../../workflow/using/targeting-data.md).
++++
+
++++**Task activity**
+
+*Context: Marketing Resource Management (MRM)*
+
+The Task workflow activity incorporates human action into the logic of a workflow. You can specify two scenarios: the first if the task is completed and a second if the task is not completed (if it is manually marked as incomplete or if it expires).
+
+ Typical use cases are for incorporating offline actions into a campaign, or for custom actions such as approvals.
+
+In a campaign workflow, the Task activity 
+
+
+
+Learn more about [Task activity](../../workflow/using/task.md).
++++
+
+<!--
++++**Task**
+
+One iteration of the defined functionality of a workflow activity. Each execution of a task has a unique task identifier.   
+
+Learn more about [Tasks](../../workflow/using/about-workflows.md).
++++
+-->
+
++++**Template**
+
+A template is a design element used to create an object. It contains object settings and optionally the object's content. The templating system is used to create deliveries, campaigns, workflows and many other elements of Adobe Campaign. The available factory templates are defined by the packages installed. Templates can then be duplicated and customized as needed by Campaign Operators.
++++
+
+<!--
++++**Test profiles**
+
+Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
+
+Learn more about [Test profiles](../../workflow/using/about-workflows.md).
++++
+-->
+
+<!--
++++**Total database storage**
+
+The aggregate size of the production and non-production instance(s) database storage managed by Adobe. 
+
+Learn more about [Total database storage](../../workflow/using/about-workflows.md).
++++
+-->
+
++++**Tracking logs**
+
+The Tracking technical workflow retrieves the tracking data once the delivery has been sent and tracking activated. This data can be found in the Tracking tab of your delivery. You can find information for opens and clicks on an email or other interactions with a message received by the recipient.
+
+Learn more about [Tracking logs](../../delivery/using/accessing-the-tracking-logs.md).
++++
+
++++**Transactional messaging**
+
+Transactional messaging is a Campaign module designed for managing custom trigger notifications generated from events sent by an external information system. A transactional message is an individual and unique communication, sent in real-time by a provider such as a website. It is particularly expected, because it contains important information that the recipient wants to check or confirm.
+
+Learn more about [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
++++
+
++++**Triggered Campaigns**
+
+Triggered Campaigns are campaigns that are executed when an API request is received in a workflow. API calls are consumed by a Signal activity in the workflow that initiates the execution of the workflow. 
+
+Learn more about [Triggered Campaigns](../../workflow/using/external-signal.md).
++++
+
+<!--
++++**Triggers**
+
+Signals that initiate execution of a workflow, delivery or other action. Typically an API call. 
+
+Learn more about [Triggers](../../workflow/using/about-workflows.md).
++++
+-->
+
++++**Typology rule**
+
+*Context: Campaign Optimization*
+
+Typology rules are business rules that are implemented as part of the analysis phase of the delivery. Typology rules are checks on the content of the delivery (Control rules) or the target of the delivery (Filtering rules) or other logic (Pressure rules) that enforce business requirements. Rules are granular elements that can be included in one or more Typologies.
+
+Learn more about [Typologies](../../campaign/using/about-campaign-typologies.md#typology-rules).
++++
+
++++**Typology**
+
+*Context: Campaign Optimization*
+
+A typology is a grouping of Typology Rules that are applied to the analysis phase of a delivery. A campaign typology can contain several typology rules, but a delivery can only reference one typology.
+
+Learn more about [Typologies](../../campaign/using/about-campaign-typologies.md#typologies).
++++
+
 ## U - Z {#sec-6}
+
++++**Unitary mode**
+
+*Context: Campaign Interaction, Transactional Messaging*
+
+In unitary mode are, a single contact is processed by the Offer engine at runtime. This mode is generally used for inbound interactions and transactional messages.
+
+Learn more about [Unitary mode](../../interaction/using/about-inbound-channels.md).
++++
+
+<!--
++++**Universes**
+
+Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
+
+Learn more about [Universes](../../workflow/using/about-workflows.md).
++++
+-->
+
++++**Web applications**
+
+Web applications are dynamic and interactive application pages hosted by the Campaign instance. It contains data from the database and content adapted to the rights of the connected user. For example, you can create an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post web pages where users can look up or enter information.
+
+Learn more about [Web applications](../../web/using/about-web-applications.md).
++++
+
++++**Workflow Journal**
+
+The workflow journal is the step-by-step execution log of a workflow. It contains all the history or audit trail of the workflow. It is used for development, troubleshooting or debug purposes.  
+
+Learn more about [Workflow Journal](../../workflow/using/monitoring-workflow-execution.md).
++++
+
++++**Workflow**
+
+A workflow is a visual representation of the campaign execution flow. It allows you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
+
+Learn more about [Workflows](../../workflow/using/about-workflows.md).
++++
+
++++**Worktable**
+
+The worktable contains all the information carried by workflow transitions. Each workflow uses several worktables. The data conveyed in these tables can be accelerated and used throughout the workflow’s life cycle, as long as it is not purged. Indeed, unneeded tables are purged each time the workflow is passivated, and possibly during the execution of the largest workflows to avoid overloading the server.
+
+Learn more about [Worktables](../../workflow/using/about-workflows.md).
++++
