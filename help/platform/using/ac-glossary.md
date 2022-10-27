@@ -54,7 +54,7 @@ Learn more about [Active profiles](../../platform/using/about-profiles.md#active
 
 The Local Approval activity is a workflow activity which is used to set up a delivery approval process before the messages are sent.
 
-Learn more about the [Local Approval Activity](../../workflow/using/local-approval.md).
+Learn more about the [Local Approval activity](../../workflow/using/local-approval.md).
 +++
 
 +++**Audience**
@@ -134,14 +134,14 @@ Learn more about [Content approval](../../campaign/using/marketing-campaign-appr
 
 Use Control groups to measure the impact of your campaigns by excluding a portion of their audience. Operators can compare the behavior of the target population who did receive the message with the behavior of contacts who were not targeted. Based on the sending logs, Operators can also target a control group in future campaigns.
 
-Learn more about [Content approval](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+Learn more about [Content groups](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**Control Panel**
 
-The Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign, by allowing you to manage settings and track usages for each of your instances. Its intuitive interface lets you easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
+The Control Panel helps product admins of Adobe Campaign increase efficiency in their work, by allowing them to manage settings and track usages for each of their instances. Its intuitive interface lets them easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
 
-Learn more about [Content approval](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html).
+Learn more about [Content Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html).
 +++
 
 +++**Cubes**
@@ -160,11 +160,11 @@ Adobe Campaign comes with a pre-defined data model, where data types are defined
 Learn more about [Custom resources](../../configuration/using/about-schema-edition.md).
 +++
 
-+++**Data Model**
++++**Data model**
 
 Campaign data model is a set of schemas that define the data types and their relationships (links). The data model is an abstract definition that is physically implemented with a database that contains the actual data.
 
-Learn more about [Custom resources](../../configuration/using/about-data-model.md).
+Learn more about [Data model](../../configuration/using/about-data-model.md).
 +++
 
 +++**Database cleanup workflow**
@@ -237,11 +237,11 @@ A delivery outline is a structured set of elements (documents, stores, promotion
 Learn more about [Direct Mail](../../delivery/using/about-direct-mail-channel.md).
 +++
 
-+++**Deployment Wizard**
++++**Deployment wizard**
 
 The deployment wizard defines the parameters of the Campaign instance, such as the default namespace, database cleanup schedule, data retention periods, and other technical settings.
 
-Learn more about [Deployment Wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Learn more about [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
 +++
 
 +++**Descriptive Analysis**
@@ -255,16 +255,16 @@ Learn more about [Descriptive Analysis](../../reporting/using/about-descriptive-
 
 *Context: Distributed Marketing*
 
-The Distributed Marketing add-on offers to Campaign operators a collaborative workspace for implementing campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the **list of Campaign packages**, where centrally created campaign templates and instances are offered to local entities.
+The Distributed Marketing add-on offers to Campaign Operators a collaborative workspace for implementing campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the **list of Campaign packages**, where centrally created campaign templates and instances are offered to local entities.
 
-Learn more about [Distributed marketing](../../distributed/using/about-distributed-marketing.md)
+Learn more about [Distributed Marketing](../../distributed/using/about-distributed-marketing.md)
 +++
 
 +++**Distribution of values**
 
 The Distribution of values is a tool which shows the distribution of the values for a schema attribute that currently exist in the database. This helps you determine what values are available, their counts and percentages, and to avoid issues with capitalization and spelling of values when creating a query or expression.
 
-Learn more about [Distributed marketing](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+Learn more about [Distribution of values](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
 +++
 
 +++**Domain delegation**
@@ -476,9 +476,9 @@ Learn more about [Inbox rendering](../../delivery/using/delivery-dashboard.md#de
 
 +++**Instance settings**
 
-Instance settings are configuration details of an Adobe Campaign instance. These settings are defined in the Deployment wizard (Tools>Advanced>Deployment Wizard) or in the server and/or instance configuration files.
+Instance settings are configuration details of an Adobe Campaign instance. These settings are defined in the Deployment wizard (Tools>Advanced>Deployment wizard) or in the server and/or instance configuration files.
 
-Learn more about [Instance Settings](../../installation/using/about-initial-configuration.md).
+Learn more about [Instance settings](../../installation/using/about-initial-configuration.md).
 
 +++
 
@@ -486,7 +486,7 @@ Learn more about [Instance Settings](../../installation/using/about-initial-conf
 
 Jobs are managed by a wizard system that simplifies the import and export of data into and out of the product. Jobs use the templating system for simplicity and consistency and can be defined to execute on a schedule.
 
-Learn more about [Import and Export jobs](../../platform/using/get-started-data-import-export.md).
+Learn more about [import and export jobs](../../platform/using/get-started-data-import-export.md).
 +++
 
 +++**Lists**
@@ -536,12 +536,15 @@ The namespace is a partition that separates customer data types from Adobe Campa
 Learn more about [Namespace](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
 
+<!--
+----generic, not specific to campaign----
 +++**Navigation bar**
 
 The navigation bar is the navigation element running across the top of the interface. The navigation bar regroups the various core capabilities of the platform. Click a navigation bar link to display the set of functionalities related to this capability. The list of core capabilities you can access depends on the packages and add-ons you have installed and on your access rights. The purpose of the Navigation bar is to simplify screen management and increase productivity.
 
 Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
 +++
+-->
 
 +++**Navigation tree**
 
@@ -559,16 +562,16 @@ Within the campaign, program or plan, Operators can state a list of objectives. 
 Learn more about [Objectives](../../mrm/using/creating-and-managing-tasks.md#expenses-and-revenues).
 +++
 
-+++**Offer Catalog**
++++**Offer catalog**
 
 *Context: Campaign Interaction*
 
 An offer catalog is a set of offers defined in Adobe Campaign that can be selected during an interaction. The catalog is organized hierarchically with each node corresponding to a category. 
 
-Learn more about [Offer Catalog](../../interaction/using/offer-catalog-overview.md).
+Learn more about [Offer catalog](../../interaction/using/offer-catalog-overview.md).
 +++
 
-+++**Offer Contact**
++++**Offer contact**
 
 *Context: Campaign Interaction*
 
@@ -586,7 +589,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 The Offer **Design Environment** is the environment in which operators create offers, define typology rules, and select the schema that will be targeted by the offers. The table for storing generated offer propositions are also defined by the environment. By default, the Interaction add-on comes with a **Design** environment and a **Live** environment linked to it. Both environments are pre-configured to target the built-in recipient table.
 
-Learn more about [Design environments](../../interaction/using/fundamental-principles.md).
+Learn more about [Offer Design environments](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Offer engine arbitrage**
@@ -613,7 +616,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 The offer environment is the root folder which defines an offer catalog, its available spaces and the environment’s pre-defined filters. Operators need to create one environment for each targeting dimension. There are two types of Offer environments: Design and Live.
 
-Learn more about [Environments](../../interaction/using/fundamental-principles.md).
+Learn more about [Offer environments](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Offer Live environment**
@@ -622,7 +625,7 @@ Learn more about [Environments](../../interaction/using/fundamental-principles.m
 
 The Offer Live environment is linked to a Campaign **Design environment**. It contains read-only offers whose content and eligibility have been approved via the **Design environment**. They can be selected for presentation on a website or to be inserted in an outbound message. 
 
-Learn more about [Live environments](../../interaction/using/fundamental-principles.md).
+Learn more about [Offer Live environments](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Offer presentation rules**
@@ -656,7 +659,7 @@ Learn more about [Offer propositions](../../interaction/using/creating-offer-spa
 
 *Context: Campaign Interaction*
 
-An offer proposition is the result of the action which consists of presenting an offer to a contact in a given offer space, for example the banner on a website, an email or SMS content. This result is stored in the offer propositions table which defines the offer, the recipient and the timestamp, providing a record of all offers a recipient has received.
+An offer representation is information used by the channel to display the offer. Offer representation may be constructed from the rendering function of the space on which the offer is represented or entered directly into the interface (for example, in the HTML block). An offer may be represented by a space.  
 
 Learn more about [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -676,7 +679,7 @@ Learn more about [Offer simulations](../../interaction/using/about-offers-simula
 
 An offer space is a folder defining the location where the offer is exposed. Defining a space lets you specify the channel used, build the content of the offer, and specify the offers presented. The offer space is the interface between the channel and the offer engine. 
 
-Learn more about [Offer simulations](../../interaction/using/creating-offer-spaces.md).
+Learn more about [Offer space](../../interaction/using/creating-offer-spaces.md).
 +++
 
 +++**Offer themes**
@@ -741,11 +744,11 @@ The workflow palette displays the available activities that can be added to a wo
 Learn more about [Palette](../../workflow/using/building-a-workflow.md#adding-and-linking-activities).
 +++
 
-+++**Performance Monitoring**
++++**Performance monitoring**
 
 Performance monitoring information is displayed on the Monitoring Tab. It shows metrics for the underlying system, such as memory and CPU usage, SMTP server statistics, server processes and other relevant information.
 
-Learn more about [Performance Monitoring](../../production/using/monitoring-processes.md).
+Learn more about [Performance monitoring](../../production/using/monitoring-processes.md).
 +++
 
 +++**Personalization blocks**
@@ -867,7 +870,7 @@ Learn more about [Schemas](../../configuration/using/about-schema-reference.md).
 
 Schema extension allows you to customize the out-of-the-box schemas to best suit your business use cases. For example, you can add the "Loyalty" field to the Recipient table. 
 
-Learn more about [Schema Extension](../../configuration/using/extending-a-schema.md).
+Learn more about [Schema extension](../../configuration/using/extending-a-schema.md).
 +++
 
 +++**Seed addresses**
@@ -921,14 +924,14 @@ Learn more about [Target approval](../../workflow/using/local-approval.md).
 
 Target data is the data stored in the worktable (transition) of a workflow. This data is available inside the delivery for personalization of the delivery content or to define the logic of dynamic elements of the delivery.
 
-Learn more about [Target Data](../../workflow/using/data-life-cycle.md#target-data).
+Learn more about [Target data](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
 +++**Target mapping**
 
 Target mapping is the mapping of delivery channels to a specific data type. Target mappings define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
 
-Learn more about [Target Mapping](../../delivery/using/selecting-a-target-mapping.md).
+Learn more about [Target mapping](../../delivery/using/selecting-a-target-mapping.md).
 +++
 
 +++**Targeting activities**
@@ -1004,11 +1007,11 @@ Learn more about [Transactional messaging](../../message-center/using/about-tran
 +++
 
 <!------- USEFUL HERE??----->
-+++**Triggered Campaigns**
++++**Triggered campaigns**
 
-Triggered Campaigns are campaigns that are executed when an API request is received in a workflow. API calls are consumed by a Signal activity in the workflow that initiates the execution of the workflow. 
+Triggered campaigns are campaigns that are executed when an API request is received in a workflow. API calls are consumed by a Signal activity in the workflow that initiates the execution of the workflow. 
 
-Learn more about [Triggered Campaigns](../../workflow/using/external-signal.md).
+Learn more about [Triggered Ccmpaigns](../../workflow/using/external-signal.md).
 +++
 
 <!--
@@ -1036,7 +1039,7 @@ Learn more about [Typologies](../../campaign-opt/using/about-campaign-typologies
 
 Typology rules are business rules that are implemented as part of the analysis phase of the delivery. Typology rules are checks on the content of the delivery (control rules) or the target of the delivery (filtering rules) or other logic (pressure rules) that enforce business requirements. Rules are granular elements that can be included in one or more typologies.
 
-Learn more about [Typology Rules](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+Learn more about [Typology rules](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 ## U - Z {#sec-6}
