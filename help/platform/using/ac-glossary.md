@@ -4,8 +4,6 @@ title: Glossary for Adobe Campaign
 description: Glossary for Adobe Campaign
 role: User, Data Architect
 level: Beginner
-hide: yes
-hidefromtoc: yes
 ---
 # Adobe Campaign Glossary{#ac-glossary}
 
