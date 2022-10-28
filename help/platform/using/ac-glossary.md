@@ -134,14 +134,14 @@ Learn more about [Content approval](../../campaign/using/marketing-campaign-appr
 
 Use Control groups to measure the impact of your campaigns by excluding a portion of their audience. Operators can compare the behavior of the target population who did receive the message with the behavior of contacts who were not targeted. Based on the sending logs, Operators can also target a control group in future campaigns.
 
-Learn more about [Content groups](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+Learn more about [Control groups](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**Control Panel**
 
 The Control Panel helps product admins of Adobe Campaign increase efficiency in their work, by allowing them to manage settings and track usages for each of their instances. Its intuitive interface lets them easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
 
-Learn more about [Content Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html).
+Learn more about [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html).
 +++
 
 +++**Cubes**
@@ -278,12 +278,12 @@ Learn more about [Domain delegation](https://experienceleague.adobe.com/docs/con
 ## E - H {#sec-2}
 
 <!--
-----DEPREACTED----
+----DEPRECATED------>
 +++**E4X**
 
-The version of Javascript that is used in Adobe Campaign Classic. Sometimes called ECMAScript, it is an extension of Javascript that allows the mixing of Javascript and XML primitives in the same code. Note that E4X is classified as a deprecated language. 
+E4X is the version of Javascript that is used in Adobe Campaign Classic. Sometimes called ECMAScript, it is an extension of Javascript that allows the mixing of Javascript and XML primitives in the same code. Note that E4X is classified as a deprecated language. 
 +++
--->
+
 
 +++**Eligibility rules**
 
@@ -1054,14 +1054,14 @@ Learn more about [Unitary mode](../../interaction/using/about-inbound-channels.m
 +++
 
 <!--
------NO OCCURRENCE IN ACC, OLD v6 CONCEPT?----
+-----NO OCCURRENCE IN ACC, OLD v6 CONCEPT?
 +++**Universes**
 
 Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
 
 Learn more about [Universes](../../workflow/using/about-workflows.md).
 +++
--->
+------>
 
 +++**Web applications**
 
