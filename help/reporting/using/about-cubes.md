@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Get started with cubes
+title: About cubes
 description: Get started with cubes
 feature: Reporting
 hide: yes
