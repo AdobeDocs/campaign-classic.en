@@ -3,6 +3,8 @@ product: campaign
 title: Use cubes to explore data
 description: Use cubes to explore data
 feature: Reporting
+hide: yes
+hidefromtoc: yes
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 ---
 # Use cubes to explore data{#using-cubes-to-explore-data}
@@ -17,7 +19,7 @@ Marketing Analytics makes it easier to create reports and to identify and select
 
 >[!NOTE]
 >
->Marketing Analytics is necessary to create or modify cubes. For more on this, refer to [About cubes](../../reporting/using/about-cubes.md).
+>Marketing Analytics is necessary to create or modify cubes. For more on this, refer to [About cubes](../../reporting/using/ac-cubes.md).
 
 ## Explore the data in a report {#exploring-the-data-in-a-report}
 

@@ -310,6 +310,7 @@ type: Documentation
        + [Properties of the report](reporting/using/properties-of-the-report.md)
        + [Configure access to the report](reporting/using/configuring-access-to-the-report.md)
        + [Actions on reports](reporting/using/actions-on-reports.md)
+  + [Design reports with cubes](reporting/using/ac-cubes.md)
   + Design reports with cubes {#designing-reports-with-cubes}
        + [Get started with cubes](reporting/using/about-cubes.md)
        + [Create indicators](reporting/using/creating-indicators.md)

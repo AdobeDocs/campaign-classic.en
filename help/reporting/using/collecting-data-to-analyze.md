@@ -49,7 +49,7 @@ It's possible to select a Cube for defining the query.
 
 ![](assets/reporting_query_from_cube.png)
 
-Cubes enable you to extend the database's exploration and analysis capacities while making for easier configuration of reports and tables for end users: simply select an existing, fully configured Cube and use its calculations, measures and statistics. For more on creating cubes, refer to [this section](../../reporting/using/about-cubes.md).
+Cubes enable you to extend the database's exploration and analysis capacities while making for easier configuration of reports and tables for end users: simply select an existing, fully configured Cube and use its calculations, measures and statistics. For more on creating cubes, refer to [this section](../../reporting/using/ac-cubes.md).
 
 Click the **[!UICONTROL Edit query...]** link and select the indicators that you want to display or use in your report.
 

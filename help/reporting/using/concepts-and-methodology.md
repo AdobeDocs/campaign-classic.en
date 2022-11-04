@@ -3,6 +3,8 @@ product: campaign
 title: Best practices for cubes
 description: Best practices for cubes
 feature: Reporting
+hide: yes
+hidefromtoc: yes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 ---
 # Best practices for cubes{#concepts-and-methodology}
@@ -121,8 +123,6 @@ The largest data volumes can be calculated in aggregates.
 Aggregates are useful when manipulating large volumes of data. They are updated automatically based on settings defined in the dedicated workflow box, to integrate the data collect most recently into the indicators
 
 Aggregates are defined in the relevant tab of each cube.
-
-![](assets/s_advuser_cube_agregate_01.png)
 
 >[!NOTE]
 >

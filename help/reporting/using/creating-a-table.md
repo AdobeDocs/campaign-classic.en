@@ -456,4 +456,4 @@ This type of table lets you display statistics calculated on the data in the dat
 
 The configuration of these types of reports is similar to the one used for the descriptive analysis wizard. For more on this, refer to [this page](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
 
-For more on creating a pivot table, refer to [this section](../../reporting/using/using-cubes-to-explore-data.md).
+For more on creating a pivot table, refer to [this section](../../reporting/using/ac-cubes.md).

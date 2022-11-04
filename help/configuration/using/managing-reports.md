@@ -12,7 +12,7 @@ Reports based on a schema that is specific to the default Adobe Campaign recipie
 
 To create new reports, refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md).
 
-In some cases, you must also put new cubes that are specific to these tables into place. Cubes are detailed in [this section](../../reporting/using/about-cubes.md).
+In some cases, you must also put new cubes that are specific to these tables into place. Cubes are detailed in [this section](../../reporting/using/ac-cubes.md).
 
 The following reports are concerned:
 

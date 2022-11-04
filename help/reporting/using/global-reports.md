@@ -119,7 +119,7 @@ You can open up each line of the value table by clicking the [+] symbol. For eac
 
 >[!NOTE]
 >
->The domain names displayed in this report are defined at cube level. To change theses values, edit the **[!UICONTROL Delivery logs (broadlogrcp)]** cube. For more on this, refer to [this section](../../reporting/using/about-cubes.md). The **[!UICONTROL Others]** category includes domain names that don't belong to a specific class.
+>The domain names displayed in this report are defined at cube level. To change theses values, edit the **[!UICONTROL Delivery logs (broadlogrcp)]** cube. For more on this, refer to [this section](../../reporting/using/ac-cubes.md). The **[!UICONTROL Others]** category includes domain names that don't belong to a specific class.
 
 ## Browsers {#browsers}
 

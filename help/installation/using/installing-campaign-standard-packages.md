@@ -139,7 +139,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Marketing Analytics<br /> </td> 
-   <td> Enables you to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. Also, you can create reports and build target populations. Optional. <a href="../../reporting/using/about-cubes.md">Learn More</a><br /> </td> 
+   <td> Enables you to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. Also, you can create reports and build target populations. Optional. <a href="../../reporting/using/ac-cubes.md">Learn More</a><br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

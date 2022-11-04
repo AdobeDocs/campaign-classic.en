@@ -33,7 +33,7 @@ Adobe Campaign provides several reporting tools:
 
 1. **Analysis reports**: Marketing Analytics enables intuitive data exploration.
 
-   For more on this, refer to [this section](../../reporting/using/about-cubes.md).
+   For more on this, refer to [this section](../../reporting/using/ac-cubes.md).
 
 >[!CAUTION]
 >

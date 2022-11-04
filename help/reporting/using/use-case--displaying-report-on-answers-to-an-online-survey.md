@@ -59,7 +59,7 @@ To collect the answers to the survey, apply the following steps:
 
 ## Step 2 - Creating the cube, its measures and its indicators {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-You may then create the cube and configure its measures: they will be used to create the indicators that will be shown in the report. For more on creating and configuring cubes, refer to [About cubes](../../reporting/using/about-cubes.md).
+You may then create the cube and configure its measures: they will be used to create the indicators that will be shown in the report. For more on creating and configuring cubes, refer to [About cubes](../../reporting/using/ac-cubes.md).
 
 In this example, the cube is based on the data in the list fed by the workflow created previously.
 

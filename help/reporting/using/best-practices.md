@@ -23,13 +23,13 @@ To optimize the creation, use and durability of a report, you need to take a clo
 
    For instance, you can:
 
-    * Explore the data in the database and define measurements. Learn more [in this section](../../reporting/using/about-cubes.md)
+    * Explore the data in the database and define measurements. Learn more [in this section](../../reporting/using/ac-cubes.md)
     * Add indicators to an existing report. Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)
     * View the data in the database. Learn more [in this section](../../reporting/using/about-descriptive-analysis.md)
     * Create a new delivery report. Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)),
     * Export data from the Adobe Campaign database (via a workflow, refer to [this section](../../workflow/using/about-workflows.md)
     * Create a pivot table. Learn more [in this section](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
-    * Explore aggregated data. Learn more [in this section](../../reporting/using/about-cubes.md)
+    * Explore aggregated data. Learn more [in this section](../../reporting/using/ac-cubes.md)
     * Use a wizard to analyze data. Learn more [in this section](../../reporting/using/about-descriptive-analysis.md)
     * Analyze large volumes of data. Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)
 

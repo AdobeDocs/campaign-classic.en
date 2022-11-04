@@ -148,7 +148,7 @@ Learn more about [Control Panel](https://experienceleague.adobe.com/docs/control
 
 Cube is an Adobe Campaign intuitive data exploration tool which helps users create and share dynamic reports.
 
-Learn more about [Cubes](../../reporting/using/about-cubes.md).
+Learn more about [Cubes](../../reporting/using/ac-cubes.md).
 +++
 
 +++**Custom resources**

@@ -10,8 +10,13 @@ exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
 ![](../../assets/v7-only.svg)
 
 Aggregates are defined at cube level for reporting purposes. A **[!UICONTROL Workflow]** tab is available when configuring an aggregate.
+  
+Aggregates are useful when manipulating large volumes of data. They are updated automatically based on settings defined in the dedicated workflow box, to integrate the data collect most recently into the indicators
 
-For more information on cubes and using aggregates in Adobe Campaign, refer to the dedicated [section](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+Aggregates are defined in the relevant tab of each cube.
+
+![](assets/s_advuser_cube_agregate_01.png)
+
 
 The **[!UICONTROL Update aggregate]** activity lets you select the update mode to apply: full or partial.
 

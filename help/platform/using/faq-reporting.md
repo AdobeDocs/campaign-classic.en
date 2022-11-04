@@ -37,7 +37,7 @@ You can extend the database exploration and analysis capacities while making it 
 
 Once they have been created and configured, cubes are used in report query boxes and Web applications. They can be used and manipulated within pivot tables.
 
-Learn how to [explore your data](../../reporting/using/using-cubes-to-explore-data.md) with cubes.
+Learn how to [explore your data](../../reporting/using/ac-cubes.md) with cubes.
 
 ## Can I create a report from answers to an online survey? {#can-i-create-a-report-from-answers-to-an-online-survey-}
 
