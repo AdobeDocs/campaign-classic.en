@@ -311,11 +311,6 @@ type: Documentation
        + [Configure access to the report](reporting/using/configuring-access-to-the-report.md)
        + [Actions on reports](reporting/using/actions-on-reports.md)
   + [Design reports with cubes](reporting/using/ac-cubes.md)
-  + Design reports with cubes {#designing-reports-with-cubes}
-       + [Get started with cubes](reporting/using/about-cubes.md)
-       + [Create indicators](reporting/using/creating-indicators.md)
-       + [Use cubes to explore data](reporting/using/using-cubes-to-explore-data.md)
-       + [Concepts and methodology](reporting/using/concepts-and-methodology.md)
 + Design web content {#designing-content}
   + Web applications {#web-applications}
        + [Get started with web applications](web/using/about-web-applications.md)
