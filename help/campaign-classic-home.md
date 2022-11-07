@@ -14,8 +14,6 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 * **[July Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements, and fixes in the Release Notes
 
-* **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** and **[technote](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Find guidance in response to Apple’s announcement regarding iOS 15
-
 * **[Remove incorrect hard bounces](delivery/using/update-bounce-qualification.md)**<br/> Learn how to update incorrect hard bounces after Apple outage
 
 * **[Secure your Campaign instances](technotes/using/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform
