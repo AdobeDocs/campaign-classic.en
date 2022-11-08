@@ -4,6 +4,7 @@ title: Glossary for Adobe Campaign
 description: Glossary for Adobe Campaign
 role: User, Data Architect
 level: Beginner
+exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 ---
 # Adobe Campaign Glossary{#ac-glossary}
 
