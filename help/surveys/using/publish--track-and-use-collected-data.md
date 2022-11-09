@@ -7,7 +7,7 @@ exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 ---
 # Publish, track and use collected data{#publish-track-and-use-collected-data}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Once the form has been created, configured and published, you can share the link with your audience it and track the responses.
 

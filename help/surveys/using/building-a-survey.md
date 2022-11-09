@@ -7,7 +7,7 @@ exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 ---
 # Design a survey{#building-a-survey}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Create a new survey {#creating-a-new-survey}
 

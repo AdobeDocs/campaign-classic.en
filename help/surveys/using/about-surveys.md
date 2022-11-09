@@ -7,7 +7,7 @@ exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 ---
 # Get started with surveys{#about-surveys}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign includes a graphical module to define and publish Web applications. This is used to create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. Use this capability to design and post web pages in which users can look up or enter information.
 
