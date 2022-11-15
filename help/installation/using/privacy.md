@@ -71,7 +71,7 @@ To disable URLs that have been generated in previous builds, follow these steps 
 
 To enable URL signature, follow these steps on all Campaign servers at the same time:
 
-1. In the server configuration file (serverConf.xml), change **signEmailLinks** to **false**.
+1. In the server configuration file (serverConf.xml), change **signEmailLinks** to **true**.
 1. Restart the **nlserver** service.
 1. On the tracking server, restart the web server (apache2 on Debian, httpd on CentOS/RedHat, IIS on Windows).
 
