@@ -17,11 +17,6 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 _November 21, 2022_
 
-**Security enhancement**
-
-* To optimize security, the log4j library is now completely removed from the Campaign installation on Windows. (NEO-44851)
-* The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. (NEO-46656)
-
 **Compatibility updates**
 
 * Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for dashboards in the client console is now using Edge Chromium. (NEO-20741)
@@ -29,8 +24,8 @@ _November 21, 2022_
 **Improvements**
 
 * The Google BigQuery connector now fully supports boolean fields. (NEO-49181)
-* The **Merge selected lines** workflow option is available again. (NEO-48488)
 * You can now configure the IMS cookies validity duration in the `Configuration for the redirection service` section of the serverConf.xml file. This applies to the following cookies: `uuid230`, `nllastdelid` and `AMCV_` (NEO-42541)
+* The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. (NEO-46656)
 
 **Other changes**
 
@@ -38,9 +33,11 @@ _November 21, 2022_
 * To avoid errors, the **Collect data for Heatmap service workflow** (collectDataHeatMapService) is now stopped by default. (NEO-33959)
 * Various improvements were implemented to optimize CPU usage for the campaigns dashboard. (NEO-46417)
 * To prevent crashes, the loadLibraryDebug JS method has been removed. (NEO-46968)
+* The remaining references to the log4j library have been removed from the Campaign installation on Windows. (NEO-44851)
 
 **Patches**
 
+* Fixed an issue which prevented you from using the **Merge selected lines** workflow option. (NEO-48488)
 * Fixed an issue which prevented the **Success** delivery indicator from being updated correctly when using Adobe Campaign Enhanced MTA. (NEO-50462)
 * Fixed an issue when resetting content approval in an email delivery, which prevented you from reapproving. (NEO-44259)
 * Fixed an issue which could prevent the **Delivery approval** button from being displayed. (NEO-47547)
