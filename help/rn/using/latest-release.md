@@ -13,13 +13,13 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-## ![](assets/do-not-localize/limited_2.png) Release 7.3.2 - Build ???? {#release-7-3-2}
+## ![](assets/do-not-localize/limited_2.png) Release 7.3.2 - Build 9356 {#release-7-3-2}
 
 _November 21, 2022_
 
 **Security enhancement**
 
-* To optimize security, the log4j library is now removed from the Campaign installation on Windows. (NEO-44851)
+* To optimize security, the log4j library is now completely removed from the Campaign installation on Windows. (NEO-44851)
 * The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. (NEO-46656)
 
 **Compatibility updates**
@@ -45,7 +45,7 @@ _November 21, 2022_
 * Fixed an issue when resetting content approval in an email delivery, which prevented you from reapproving. (NEO-44259)
 * Fixed an issue which could prevent the **Delivery approval** button from being displayed. (NEO-47547)
 * Fixed a performance issue in the HTML tab of a delivery which could occur for large HTML code. (NEO-47440)
-* Fixed an issue which impacted the Delivery log status updates on the MID instance, when the FeatureFlag_GZIP_Compression option was enabled. (NEO-49183)
+* Fixed an issue which impacted the delivery log status updates on the MID instance, when the FeatureFlag_GZIP_Compression option was enabled. (NEO-49183)
 * Fixed an issue which prevented you from sending iOS mobile app notifications from an execution instance while using token-based authentication. (NEO-45961)
 * Fixed an issue with the **Refresh for deliverability** workflow (deliverabilityUpdate) which got stuck when having too many broadlogs to synchronize. (NEO-48287)
 * Fixed an events type issue which blocked the Message Center synchronization workflow (mcSynch).
@@ -60,7 +60,7 @@ _November 21, 2022_
 * Fixed an issue which led to the MTA process crashing when the engine's timezone was not set (specific to MSSQL). (NEO-46619)
 * Fixed an issue with HTML file import when image nodes (img) contained URLs with personalization fields. (NEO-48396)
 * Fixed an HTTP 500 error when trying to connect to an instance where the `limit` node was not configured in the serverConf.xml file.
-* Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as to_nclob with an Oracle unicode database where NChar was not enabled. (NEO-49361)
+* Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
 * Fixed an issue that led to an error when a user with read access rights on the nmsDeliveryMapping folder tried to run a campaign or workflow. (NEO-48230)
 * Fixed an issue which prevented the `JSPContext.sqlExecWithOneParam` function from working. (NEO-50066)
 * Fixed various redirection errors. (NEO-50030)
