@@ -335,6 +335,7 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](#service-
 
 If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. [Learn more](../../migration/using/general-configurations.md#security)
 -->
+
 ## Re-start services {#re-starting-the-services}
 
 Start IIS and Adobe Campaign services on each of the following servers:
