@@ -25,6 +25,10 @@ For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG
 
 You can also prevent important files from being uploaded by configuring the Web Server. [Learn more](web-server-configuration.md)
 
+>[!NOTE]
+>
+>The **uploadWhiteList** attribute restricts the file types available for upload on the Adobe Campaign server. However, when the publication mode is **Tracking server(s)** or **Other Adobe Campaign server(s)**, the **uploadWhitelist** attribute must also be updated on those servers.
+
 ## Proxy connection configuration {#proxy-connection-configuration}
 
 You can connect the Campaign server to an external system through a proxy, using a **File Transfer** workflow activity for example. To achieve this, you need to configure the **proxyConfig** section of the **serverConf.xml** file through a specific command. All parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
