@@ -664,7 +664,7 @@ Start Apache and Adobe Campaign services on each of the following servers:
 1. Mid-sourcing server.
 1. Marketing server.
 
-Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+Fully test the new installation, check that it does not regress and make sure that everything is working correctly.
 
 <!--
 

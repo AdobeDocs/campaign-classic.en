@@ -344,7 +344,7 @@ Start IIS and Adobe Campaign services on each of the following servers:
 1. Mid-sourcing server.
 1. Marketing server.
 
-Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in [this page](../../migration/using/general-configurations.md).
+Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works.
 
 ## Delete the previous version {#deleting-and-cleansing-adobe-campaign-previous-version}
 

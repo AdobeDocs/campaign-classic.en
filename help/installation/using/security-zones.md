@@ -244,14 +244,14 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
        ```
        <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
        ```
-       
+
 * Never set allowEmptyPassword, allowUserPassword, allowSQLInjection to true. These attributes are only here to allow a smooth migration from v5 and v6.0:
 
   * **allowEmptyPassword** lets operators have an empty password. If this is the case for you, notify all your operators to ask them to set a password with a deadline. Once this deadline has passed, change this attribute to false.
 
   * **allowUserPassword** lets operators send their credentials as parameters (so they will be logged by apache/IIS/proxy). This feature was used in the past to simplify API usage. You can check in your cookbook (or in the specification) whether some third-party applications use this. If so, you have to notify them to change the way they use our API and as soon as possible remove this feature.
 
-  * **allowSQLInjection** lets the user perform SQL injections by using an old syntax. As soon as possible carry out the corrections described in [this page](../../migration/using/general-configurations.md) to be able to set this attribute to false. You can use /nl/jsp/ping.jsp?zones=true to check your security zone configuration. This page displays the active status of security measures (computed with these security flags) for the current IP.
+  * **allowSQLInjection** lets the user perform SQL injections by using an old syntax. This attribute should be set to false. You can use /nl/jsp/ping.jsp?zones=true to check your security zone configuration. This page displays the active status of security measures (computed with these security flags) for the current IP.
 
 * HttpOnly cookie/useSecurityToken: refer to **sessionTokenOnly** flag.
 

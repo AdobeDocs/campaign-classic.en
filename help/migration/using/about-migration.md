@@ -11,7 +11,7 @@ exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 
 ![](../../assets/v7-only.svg)
 
-This document details the prerequisites to a migration, the steps for a migration to Adobe Campaign Classic v7. Steps and optional settings depend on your configuration. [Learn more](../../migration/using/general-configurations.md).
+This document details the prerequisites to a migration, the steps for a migration to Adobe Campaign Classic v7. Steps and optional settings depend on your configuration. 
 
 The migration process must be carried out with caution, its impacts must be fully considered beforehand and the procedure must be carried out rigorously. It must only be performed by an expert user. We strongly recommend getting in touch with [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) before starting any migration procedure.
 
