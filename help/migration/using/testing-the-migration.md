@@ -144,12 +144,6 @@ The following expressions are searched for (case sensitive):
    <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> SQLDATA<br /> </td> 
-   <td> PU-0006<br /> </td> 
-   <td> Error<br /> </td> 
-   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. If you get overview-type web application error logs (migration from v6.02), refer to <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Configure Campaign</a>.<br /> </td> 
-  </tr>
-  <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
    <td> Error<br /> </td> 

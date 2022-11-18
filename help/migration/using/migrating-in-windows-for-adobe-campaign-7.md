@@ -42,13 +42,13 @@ First, stop all processes with access to the database on all machines concerned.
    ```
    net stop nlserver6
    ```
-
+<!--
    If you are migrating from v5.11, run the following command:
 
    ```
    net stop nlserver5
    ```
-
+-->
 1. For each server, make sure Adobe Campaign services are properly stopped. Log in with administrator rights and run the following command:
 
    ```
@@ -77,8 +77,9 @@ First, stop all processes with access to the database on all machines concerned.
 
 ## Back up your Campaign database {#back-up-the-database}
 
-The procedure depends on your Adobe Campaign previous version.
+Here is the procedure to backup Adobe Campaign v6.1.
 
+<!--
 ### For Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
 
 1. Make a backup of the Adobe Campaign database.
@@ -118,7 +119,8 @@ The procedure depends on your Adobe Campaign previous version.
      <sms _autoStart="false"/>
    </serverconf>
    ```
-
+-->
+<!--
 ### For Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
 
 1. Make a backup of the Adobe Campaign database.
@@ -158,8 +160,7 @@ The procedure depends on your Adobe Campaign previous version.
      <sms _autoStart="false"/>
    </serverconf>
    ```
-
-### For Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}
+-->
 
 1. Make a backup of the Adobe Campaign database.
 1. Make a backup of the **Adobe Campaign v6** directory using the following command:
@@ -321,10 +322,11 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](#service-
       >
       >The following IIS configuration steps are detailed in [this section](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
+<!--
 ## Security zones {#security-zones}
 
 If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. [Learn more](../../migration/using/general-configurations.md#security)
-
+-->
 ## Re-start services {#re-starting-the-services}
 
 Start IIS and Adobe Campaign services on each of the following servers:
@@ -337,8 +339,8 @@ Before going on to the next step, run a full test of the new installation, make 
 
 ## Delete the previous version {#deleting-and-cleansing-adobe-campaign-previous-version}
 
-The procedure depends on your Adobe Campaign previous version.
-
+Here is the procedure to delete Adobe Campaign v6.1.
+<!--
 ### For Adobe Campaign v5 {#adobe-campaign-v5}
 
 Before you delete and cleanse the Adobe Campaign v5 installation, you must apply the following recommendations:
@@ -374,8 +376,7 @@ Before you delete and cleanse the Adobe Campaign v6.02 installation, you must ap
    ![](assets/migration_wizard_2.png)
 
 1. Re-start the server.
-
-### For Adobe Campaign v6.1 {#adobe-campaign-v6-1}
+-->
 
 Before you delete and cleanse the Adobe Campaign v6 installation, you must apply the following recommendations:
 

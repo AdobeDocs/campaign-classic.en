@@ -29,7 +29,7 @@ The migration must be tested on the test/stage environment beforehand to make su
 * If you use Adobe Campaign Cloud Messaging (mid-sourcing deployment), contact Adobe Customer Care before starting.
 * Before starting a migration process, you **must** back up your data.
 * The migration process may take several days to be completed.
-* Adobe Campaign v7 is a more secure version than the previous ones: this impacts configuration guidelines to avoid problems such as data corruption and to preserve data integrity in the database. As a consequence, certain functions offered in v5.11 and v6.02 may no longer be supported in v7 and need to be adapted after migration. As a customer, you are respoonsible for testing all configurations, including workflows.
+* Adobe Campaign v7 is a more secure version than the previous ones: this impacts configuration guidelines to avoid problems such as data corruption and to preserve data integrity in the database. As a customer, you are respoonsible for testing all configurations, including workflows.
 
 More prerequisites are available in [this page](../../migration/using/before-starting-migration.md).
 
