@@ -25,6 +25,7 @@ Here is the procedure to restore a v6.1 from a v7.
 1. Restart the Adobe Campaign v6.1 service.
 
 <!--
+	
 ## Restore to Campaign v6.02
 
 Here is the procedure to restore a v6.02 from a v7.

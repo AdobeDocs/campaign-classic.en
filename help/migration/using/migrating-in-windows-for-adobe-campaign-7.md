@@ -42,13 +42,17 @@ First, stop all processes with access to the database on all machines concerned.
    ```
    net stop nlserver6
    ```
+
 <!--
+
    If you are migrating from v5.11, run the following command:
 
    ```
    net stop nlserver5
    ```
+
 -->
+
 1. For each server, make sure Adobe Campaign services are properly stopped. Log in with administrator rights and run the following command:
 
    ```
@@ -80,6 +84,7 @@ First, stop all processes with access to the database on all machines concerned.
 Here is the procedure to backup Adobe Campaign v6.1.
 
 <!--
+
 ### For Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
 
 1. Make a backup of the Adobe Campaign database.
@@ -119,7 +124,9 @@ Here is the procedure to backup Adobe Campaign v6.1.
      <sms _autoStart="false"/>
    </serverconf>
    ```
+
 -->
+
 <!--
 ### For Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
 
@@ -160,6 +167,7 @@ Here is the procedure to backup Adobe Campaign v6.1.
      <sms _autoStart="false"/>
    </serverconf>
    ```
+
 -->
 
 1. Make a backup of the Adobe Campaign database.
@@ -340,7 +348,9 @@ Before going on to the next step, run a full test of the new installation, make 
 ## Delete the previous version {#deleting-and-cleansing-adobe-campaign-previous-version}
 
 Here is the procedure to delete Adobe Campaign v6.1.
+
 <!--
+
 ### For Adobe Campaign v5 {#adobe-campaign-v5}
 
 Before you delete and cleanse the Adobe Campaign v5 installation, you must apply the following recommendations:
@@ -376,6 +386,7 @@ Before you delete and cleanse the Adobe Campaign v6.02 installation, you must ap
    ![](assets/migration_wizard_2.png)
 
 1. Re-start the server.
+
 -->
 
 Before you delete and cleanse the Adobe Campaign v6 installation, you must apply the following recommendations:

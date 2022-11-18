@@ -30,9 +30,11 @@ Example of elements to check:
 When migrating to Adobe Campaign v7, the following elements must be configured. These elements must be addressed before starting the **postupgrade**.
 
 * Timezones
+
 <!--
   During a migration from a v5.11 platform, you must specify the timezone to use during the postupgrade.
 -->
+
   If you wish to use the "multi timezone" mode, refer to [this section](../../migration/using/general-configurations.md#time-zones).
 
   If you use Oracle as a database, check that the Oracle timezone files have properly been synched between the application server and the database server. [Learn more](../../migration/using/general-configurations.md#oracle)
@@ -50,16 +52,22 @@ When migrating to Adobe Campaign v7, the following elements must be configured. 
 * Passwords
 
   You must configure the **Admin** and **Internal** passwords. [Learn more](../../migration/using/before-starting-migration.md#user-passwords)
+
 <!--
 * Tree structure
 
   If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
+
 -->
+
 <!--
+
 * Interaction
 
   If you are migrating from Campaign v6.02 and using the  **Interaction** module, you must delete all 6.02 schema references that no longer exist in v7. [Learn more](../../migration/using/general-configurations.md#interaction)
+
 -->
+
 ## After the migration {#after-the-migration}
 
 After running **postupgrade**, check and configure the following elements:
@@ -93,26 +101,38 @@ After running **postupgrade**, check and configure the following elements:
   After the postupgrade, if you have any problems connecting to your identified Web applications, you must activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. To avoid any security issue, these two options must be reactivated after the problem is solved. [Learn more](../../migration/using/general-configurations.md#identified-web-applications)
 
   Depending on the type of Web applications and their configuration, you must perform additional manipulations to ensure they work correctly. [Learn more](../../migration/using/general-configurations.md#web-applications)
+
 <!--
   If migrating from a v5.11 platform, additional configurations must be carried out. [Learn more](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
+
 -->
+
 * Security zones
 
   Before starting the server, you must configure the security zones. [Learn more](../../installation/using/security-zones.md) and [see here](../../migration/using/general-configurations.md#security)
+
 <!--
+
 * Workflows
 
   If migrating from a v5.11 platform, you must check the workflows folder. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
+
 -->
+
 <!--
+
 * Tracking
 
   If migrating from a v5.11 platform, you must configure the tracking mode. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
+
 -->
+
 * Interaction
 
   If you use **Interaction**, you must adjust any parameters after the migration. [Learn more](../../migration/using/general-configurations.md#interaction)
+
 <!--
+
 * Dashboards
 
   If a client error appears, you have to either update your dashboards with the new Adobe Campaign v7 code, or manually copy the following files from the v6.02 instance to the v7 instance:
@@ -125,8 +145,11 @@ After running **postupgrade**, check and configure the following elements:
   /usr/local/neolane/nl6/deprecated/xtk/css/dropDownMenu.css
   /usr/local/neolane/nl6/deprecated/xtk/js/client/dropDownMenu.js  
   ```
+
 -->
+
 <!--
+
 ## Specific configurations from a v5.11 to v7{#specific-configurations-in-v5-11}
 
 ![](../../assets/v7-only.svg)
@@ -304,4 +327,5 @@ If you have modified these web applications and would like to continue using the
 After a Message Center control instance migration, you must republish the transactional message templates for them to work.
 
 In v7, the names of transactional message templates on execution instances have changed. They are currently prefixed by the operator name that corresponds to the control instance on which they are created, for example **control1_template1_rt** (where **control1** is the name of the operator). If you have a significant volume of templates, we recommend deleting old templates on control instances.
+
 -->

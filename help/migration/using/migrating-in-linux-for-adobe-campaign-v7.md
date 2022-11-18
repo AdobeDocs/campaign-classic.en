@@ -36,13 +36,16 @@ First, stop all processes with access to the database on all machines concerned.
    ```
    /etc/init.d/nlserver6 stop
    ```
+
 <!--
    If you are migrating from v5.11, run the following command:
 
    ```
    /etc/init.d/nlserver5 stop
    ```
+
 -->
+
 1. Make sure Adobe Campaign services are stopped on each server.
 
    ```
@@ -66,6 +69,7 @@ First, stop all processes with access to the database on all machines concerned.
 ## Back up your database {#back-up-the-database}
 
 <!--
+
 ### For Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
 
 1. Make a backup of the Adobe Campaign database. 
@@ -100,8 +104,11 @@ First, stop all processes with access to the database on all machines concerned.
      <sms _autoStart="false"/>
    </serverconf>
    ```
+
 -->
+
 <!--
+
 ### For Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
 
 1. Make a backup of the Adobe Campaign database. 
@@ -136,6 +143,7 @@ First, stop all processes with access to the database on all machines concerned.
      <sms _autoStart="false"/>
    </serverconf>
    ```
+
 -->
 
 1. Make a backup of the Adobe Campaign database.
@@ -153,6 +161,7 @@ First, stop all processes with access to the database on all machines concerned.
 ## Uninstall Adobe Campaign previous version packages {#uninstalling-adobe-campaign-previous-version-packages}
 
 <!--
+
 ### For v5 packages {#uninstalling-adobe-campaign-v5-packages}
 
 1. Log in as **root**.
@@ -190,6 +199,7 @@ First, stop all processes with access to the database on all machines concerned.
       ```    
       rprm -ev nlserver5 nlthirdparty5
       ```
+
 -->
 
 This section shows how to uninstall Adobe Campaign v6.1 packages.
@@ -233,7 +243,9 @@ This section shows how to uninstall Adobe Campaign v6.1 packages.
 ## Deploy Adobe Campaign v7 {#deploying-adobe-campaign-v7}
 
 Here is the procedure to deploy v7.
+
 <!--
+
 ### From Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5_11-1}
 
 Deploying Adobe Campaign involves two stages:
@@ -440,6 +452,7 @@ To deploy Adobe Campaign, apply the following steps:
    >[!NOTE]
    >
    >The "multi timezone" mode was only available in v6.02 for PostgreSQL database engines. It is now available no matter what version of database engine is being used. We strongly recommend upgrading your base to "multi timezone". For further information about timezone options, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
+
 -->
 
 Deploying Adobe Campaign involves two stages:
@@ -504,7 +517,9 @@ To deploy Adobe Campaign, apply the following steps:
    su - neolane
    nlserver config -postupgrade -instance:<instance name>
    ```
+
 <!--
+
 ## Migrate the redirection server (Apache) {#migrating-the-redirection-server--apache-}
 
 >[!NOTE]
@@ -562,16 +577,23 @@ At this stage, Apache needs to be stopped. Refer to: [Service stop](#service-sto
    ```
    vi /etc/apache2/mods-available/alias.conf
    ```
+
 -->
+
 <!--
+
 ## Security zones {#security-zones}
 
 If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. For more information, refer to [Security](../../migration/using/general-configurations.md#security).
+
 -->
+
 ## Re-start services {#re-starting-services}
 
 Here is the procedure to restart services.
+
 <!--
+
 ### For Adobe Campaign v5 {#migrating-from-adobe-campaign-v5_11-2}
 
 In the **config-`<instance name>`.xml** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
@@ -633,6 +655,7 @@ Start Apache and Adobe Campaign services on each of the following servers:
 1. Marketing server.
 
 Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+
 -->
 
 Start Apache and Adobe Campaign services on each of the following servers:
@@ -642,7 +665,9 @@ Start Apache and Adobe Campaign services on each of the following servers:
 1. Marketing server.
 
 Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+
 <!--
+
 ## Delete the Adobe Campaign previous version {#deleting-and-cleansing-adobe-campaign-v5}
 
 >[!NOTE]
@@ -662,4 +687,5 @@ rm -rf nl5.back
 ```
 
 Re-start the server.
+
 -->
