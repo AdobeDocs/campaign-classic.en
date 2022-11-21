@@ -107,7 +107,7 @@ The following options are available:
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the **[!UICONTROL Delivery duration of the messages]** will be used only if set to **3.5 days or less**. If you define a value higher than 3.5 days, it will not be taken into account.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL Delivery duration of the messages]** will be used only if set to **3.5 days or less**. If you define a value higher than 3.5 days, it will not be taken into account.
 
 ### Retry parameters {#retry-parameters}
 
@@ -115,7 +115,7 @@ The information on recoveries is provided in the **Recovery periods** and **Numb
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the Campaign retry parameters are no longer used. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the Campaign retry parameters are no longer used. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
 
 ### Quarantine parameters {#quarantine-parameters}
 
