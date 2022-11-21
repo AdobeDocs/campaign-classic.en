@@ -37,8 +37,8 @@ Learn more in the [Deprecated and removed features page](deprecated-features.md)
 
 **Other changes**
 
-* Web logs have been improved: logonEscalation warnings are now only displayed for users with admin privileges. (NEO-47167)
-* To avoid errors, the **Collect data for Heatmap service workflow** (collectDataHeatMapService) is now stopped by default. (NEO-33959)
+* Web logs have been improved: `logonEscalation` warnings are now only displayed for users with admin privileges. (NEO-47167)
+* To avoid errors, the **Collect data for Heatmap service** (collectDataHeatMapService) workflow is now stopped by default. (NEO-33959)
 * Various improvements were implemented to optimize CPU usage for the campaigns dashboard. (NEO-46417)
 * To prevent crashes, the loadLibraryDebug JS method has been removed. (NEO-46968)
 * The remaining references to the log4j library have been removed from the Campaign installation on Windows. (NEO-44851)
@@ -50,11 +50,11 @@ Learn more in the [Deprecated and removed features page](deprecated-features.md)
 * Fixed an issue when resetting content approval in an email delivery, which prevented you from reapproving. (NEO-44259)
 * Fixed an issue which could prevent the **Delivery approval** button from being displayed. (NEO-47547)
 * Fixed a performance issue in the HTML tab of a delivery which could occur for large HTML code. (NEO-47440)
-* Fixed an issue which impacted the delivery log status updates on the MID instance, when the FeatureFlag_GZIP_Compression option was enabled. (NEO-49183)
+* Fixed an issue which impacted the delivery log status updates on the MID instance, when the `FeatureFlag_GZIP_Compression` option was enabled. (NEO-49183)
 * Fixed an issue which prevented you from sending iOS mobile app notifications from an execution instance while using token-based authentication. (NEO-45961)
 * Fixed an issue with the **Refresh for deliverability** workflow (deliverabilityUpdate) which got stuck when having too many broadlogs to synchronize. (NEO-48287)
-* Fixed an events type issue which blocked the Message Center synchronization workflow (mcSynch).
-* Fixed an issue which could lead to an error when adding the **Recipients who have opened** indicator (estimatedRecipientOpen) in the additional data of a **Query** workflow activity. (NEO-46665)
+* Fixed an events type issue which blocked the **Message Center synchronization** (mcSynch) workflow.
+* Fixed an issue which could lead to an error when adding the **Recipients who have opened**  (estimatedRecipientOpen) indicator in the additional data of a **Query** workflow activity. (NEO-46665)
 * Fixed an issue with the **Billing** workflow which failed when having Message Center Control and Execution packages installed on the same instance. (NEO-47674)
 * Fixed an issue with the **Billing** workflow which failed when having tables with the primary key defined as a string instead of an integer. (NEO-46254)
 * Fixed an issue with heatmap filters when the workflow name was too long. (NEO-46301)
