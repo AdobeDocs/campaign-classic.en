@@ -23,7 +23,7 @@ Updated Release Notes section with 7.3.2 improvements and patches. [Read more](l
 
 Updated Compatibility Matrix with Teradata 17 support. [Read more](compatibility-matrix.md)
 
-The File and resource management section has been updated with additional information on the **uploadWhiteList** attribute. [Read more](installation/using/file-res-management.md)
+The File and resource management section has been updated with additional information on the **uploadWhiteList** attribute. [Read more](../../installation/using/file-res-management.md)
 
 The documentation on security zones has been updated withn additional information on the **allowDebug** attribute attribute. [Read more](../../installation/using/security-zones.md#recommendations)
 
