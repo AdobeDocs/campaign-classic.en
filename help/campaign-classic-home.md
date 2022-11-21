@@ -10,13 +10,11 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
+* **[November Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements, and fixes in the Release Notes
+
 * **[2022 Release Program](technotes/using/dc-migration.md)**<br/> Upgrade your environment and improve security, infrastructure, and performances
 
-* **[July Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements, and fixes in the Release Notes
-
-* **[Remove incorrect hard bounces](delivery/using/update-bounce-qualification.md)**<br/> Learn how to update incorrect hard bounces after Apple outage
-
-* **[Secure your Campaign instances](technotes/using/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform
+<!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
 
 * **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life: you must migrate to Adobe I/O
 

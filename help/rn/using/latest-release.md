@@ -13,7 +13,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-## ![](assets/do-not-localize/limited_2.png) Release 7.3.2 - Build 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/green_2.png) Release 7.3.2 - Build 9356 {#release-7-3-2}
 
 _November 21, 2022_
 
@@ -21,11 +21,22 @@ _November 21, 2022_
 
 * Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for dashboards in the client console is now using Edge Chromium. (NEO-20741)
 
+<!--
+**Deprecated features**
+
+* Social Marketing with Facebook is now deprecated. You can still use Twitter integration to post on social media, or work with Adobe to create a custom channel.
+
+* ACS Connector (prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
+
+Learn more in the [Deprecated and removed features page](deprecated-features.md).
+
+-->
+
 **Improvements**
 
 * The Google BigQuery connector now fully supports boolean fields. (NEO-49181)
 * You can now configure the IMS cookies validity duration in the `Configuration for the redirection service` section of the serverConf.xml file. This applies to the following cookies: `uuid230`, `nllastdelid` and `AMCV_` (NEO-42541)
-* The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. (NEO-46656)
+* The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. [Read more](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
 
 **Other changes**
 
@@ -62,7 +73,7 @@ _November 21, 2022_
 * Fixed an issue which prevented the `JSPContext.sqlExecWithOneParam` function from working. (NEO-50066)
 * Fixed various redirection errors. (NEO-50030)
 
-## ![](assets/do-not-localize/limited_2.png) Release 7.3.1 - Build 9352 {#release-7-3-1}
+## ![](assets/do-not-localize/orange_2.png) Release 7.3.1 - Build 9352 {#release-7-3-1}
 
 _July 1, 2022_
 

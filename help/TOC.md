@@ -821,7 +821,7 @@ type: Documentation
        + [Technotes](technotes/using/technote.md)
        + [New deliverabiity server](technotes/using/deliverability-server.md)
        + [Apache Security Upgrade](technotes/using/acc-apache-upgrade.md)
-       + [Campaign configuration updates](technotes/using/acc-config-updates.md)
+       + [2023 system upgrades](technotes/using/tech-stack-upgrade.md)
        + [IMS updates](technotes/using/ims-updates.md)
        + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
   + Emails and push notifications{#technotes-email}

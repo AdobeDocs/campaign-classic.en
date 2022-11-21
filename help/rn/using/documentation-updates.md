@@ -17,6 +17,19 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2022
 
+### November 2022 {#nov-2022}
+
+Updated Release Notes section with 7.3.2 improvements and patches. [Read more](latest-release.md)
+
+Updated Compatibility Matrix with Teradata 17 support. [Read more](compatibility-matrix.md)
+
+The File and resource management section has been updated with additional information on the **uploadWhiteList** attribute. [Read more](../../installation/using/file-res-management.md)
+
+The documentation on security zones has been updated withn additional information on the **allowDebug** attribute attribute. [Read more](../../installation/using/security-zones.md#recommendations)
+
+The migration guide has been updated. References to unsupported Adobe Campaign versions have been removed. [Read more](../../migration/using/about-migration.md)
+
+
 ### July 2022 {#july-2022}
 
 Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)
