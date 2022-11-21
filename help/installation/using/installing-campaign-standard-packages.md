@@ -223,8 +223,8 @@ The following table lists all Campaign built-in packages.
    <td> All </td> 
   </tr> 
   <tr> 
-   <td> ACS Connector<br /> </td> 
-   <td> Bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. Optional. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">Learn More</a> <br /> </td> 
+   <td> ACS Connector (deprecated)<br /> </td> 
+   <td> Bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. Optional.<br /> </td> 
    <td> Marketing </td> 
   </tr> 
  </tbody> 

@@ -3,6 +3,8 @@ product: campaign
 title: Synchronize audiences
 description: Learn how to synchronize audiences with ACS Connector
 feature: ACS Connector
+hide: yes
+hidefromtoc: yes
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 ---
 # Synchronize audiences{#synchronizing-audiences}

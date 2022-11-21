@@ -26,12 +26,14 @@ Access management enables admins to assign access and permissions to users of Ad
 Learn more about [Access management](access-management.md).
 +++
 
+<!--
 +++**ACS Connector**
 
 ACS Connector (Prime Offering) bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. Campaign v7 has advanced tools to manage the primary marketing database. The data replication from Campaign v7 allows Campaign Standard to leverage the rich data in a user-friendly environment. 
 
 Learn more about [ACS Connector](../../integrations/using/acs-connector-principles-and-data-cycle.md).
 +++
+-->
 
 +++**Activity**
 

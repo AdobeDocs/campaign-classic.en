@@ -21,22 +21,19 @@ _November 21, 2022_
 
 * Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for dashboards in the client console is now using Edge Chromium. (NEO-20741)
 
-<!--
-**Deprecated features**
-
-* Social Marketing with Facebook is now deprecated. You can still use Twitter integration to post on social media, or work with Adobe to create a custom channel.
-
-* ACS Connector (prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
-
-Learn more in the [Deprecated and removed features page](deprecated-features.md).
-
--->
-
 **Improvements**
 
 * The Google BigQuery connector now fully supports boolean fields. (NEO-49181)
 * You can now configure the IMS cookies validity duration in the `Configuration for the redirection service` section of the serverConf.xml file. This applies to the following cookies: `uuid230`, `nllastdelid` and `AMCV_` (NEO-42541)
 * The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. [Read more](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+
+**Deprecated features**
+
+* Social Marketing with Facebook is now deprecated. You can use Twitter integration to post on social media, or work with Adobe to create a custom channel.
+
+* ACS Connector (Prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
+
+Learn more in the [Deprecated and removed features page](deprecated-features.md).
 
 **Other changes**
 
