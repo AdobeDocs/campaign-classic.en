@@ -38,7 +38,7 @@ The Get Started with upgrades page has been updated to clarify Campaign Console 
 
 New Campaign v7.2.2 build is now available. [Read more](../../rn/using/latest-release.md)
 
-Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)
+<!--Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)-->
 
 Legacy PostgreSQL versions that have reached end of life have been added to the [Deprecated and removed features](../../rn/using/deprecated-features.md#dbe-eol) page.
 

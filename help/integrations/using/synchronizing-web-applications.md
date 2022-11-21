@@ -3,6 +3,8 @@ product: campaign
 title: Synchronize web applications
 description: Learn how to synchronize web applications with ACS Connector
 feature: ACS Connector
+hide: yes
+hidefromtoc: yes
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 ---
 # Synchronize web applications{#synchronizing-web-applications}
