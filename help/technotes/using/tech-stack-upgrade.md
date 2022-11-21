@@ -5,7 +5,7 @@ description: Adobe Campaign system upgrade
 hide: yes
 hidefromtoc: yes
 ---
-# Adobe Campaign 2023 system upgrade {#ac-system-upgrade}
+# Adobe Campaign 2023 environment upgrades {#ac-system-upgrade}
 
 Campaign infrastructure relies on third-party systems which must be regularly updated with the latest versions and fixes. These updates are mandatory to ensure continuity of service and secure Campaign environments from security risks. In addition, a Campaign upgrade is required to ensure compatibility with third-party system changes.
 
