@@ -292,6 +292,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <tr>
 <td>Teradata</td>
 <td>
+<p>17</p>
 <p>16.20</p>
 <p>16</p>
 <p>15.10</p>

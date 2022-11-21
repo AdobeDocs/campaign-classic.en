@@ -210,3 +210,4 @@ For Microsoft Dynamics 365 supported/unsupported attribute types are listed belo
 | Regarding                                                                         | No        |
 | PartyList                                                                         | No        |
 | ManagedProperty                                                                   | No        |
+| MultiSelect Option Set                                                            | No        |

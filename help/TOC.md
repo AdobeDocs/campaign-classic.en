@@ -824,7 +824,6 @@ type: Documentation
   + Start the migration {#migrating-to-adobe-campaign-7}
        + [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
        + [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-       + [Configure your platform](migration/using/general-configurations.md)
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
