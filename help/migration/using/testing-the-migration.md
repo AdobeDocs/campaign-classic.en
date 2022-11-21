@@ -117,7 +117,7 @@ The following expressions are searched for (case sensitive):
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> Warning<br /> </td> 
-   <td> This type of syntax is no longer supported in delivery personalization. Refer to <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. Otherwise, check that the value type is correct.<br /> </td> 
+   <td> This type of syntax is no longer supported in delivery personalization. <br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -129,7 +129,7 @@ The following expressions are searched for (case sensitive):
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> Warning<br /> </td> 
-   <td> This connection method must be no longer be used. Refer to <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Identified web applications</a>.<br /> </td> 
+   <td> This connection method must be no longer be used.<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
@@ -141,14 +141,8 @@ The following expressions are searched for (case sensitive):
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> Error<br /> </td> 
-   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+   <td> This type of error leads to a migration failure.<br /> </td> 
   </tr> 
-  <tr> 
-   <td> SQLDATA<br /> </td> 
-   <td> PU-0006<br /> </td> 
-   <td> Error<br /> </td> 
-   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. If you get overview-type web application error logs (migration from v6.02), refer to <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Configure Campaign</a>.<br /> </td> 
-  </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 

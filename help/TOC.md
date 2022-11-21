@@ -824,7 +824,6 @@ type: Documentation
   + Start the migration {#migrating-to-adobe-campaign-7}
        + [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
        + [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-       + [Configure your platform](migration/using/general-configurations.md)
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
@@ -837,7 +836,6 @@ type: Documentation
        + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
   + Emails and push notifications{#technotes-email}
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-       + [Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
        + [How to  update incorrect hard bounces](delivery/using/update-bounce-qualification.md)
        + [iOS certificate update](technotes/using/ios-certificate-update.md)
        + [Tracked URLs update](technotes/using/tracked-urls.md)

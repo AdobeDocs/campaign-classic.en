@@ -47,7 +47,7 @@ You need to install drivers for Teradata to have connection to Campaign implemen
       teradata=Installed
 
       [teradata]
-      Driver=/opt/teradata/client/15.10/lib64/tdata.so
+      Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
       APILevel=CORE
       ConnectFunctions=YYY
       DriverODBCVer=3.51
