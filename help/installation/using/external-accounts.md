@@ -111,7 +111,7 @@ The following channels can be configured:
 * [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Direct mail](../../delivery/using/about-direct-mail-channel.md)
 * [Agency](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Twitter](../../social/using/configuring-publishing-on-twitter.md)
+* [Twitter](../../social/using/about-social-marketing.md)
 * [iOS channel](../../delivery/using/configuring-the-mobile-application.md)
 * [Android channel](../../delivery/using/configuring-the-mobile-application-android.md)
 
@@ -219,29 +219,6 @@ External account configuration settings depend on the database engine. Learn mor
 * Configure access to [Sybase IQ](../../installation/using/configure-fda-sybase.md)
 * Configure access to [Teradata](../../installation/using/configure-fda-teradata.md)
 
-### Facebook connect {#facebook-connect-external-account}
-
-The **[!UICONTROL Facebook Connect]** external account lets you display personalized content in your Facebook applications, making it easier to acquire prospects via this social network.
-
-For each Facebook application, you need to create a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-![](assets/ext_account_12.png)
-
-* **[!UICONTROL Hosting mode]**
-
-  Hosting mode of the application between **[!UICONTROL hosted by a partner]** or **[!UICONTROL hosted by this instance]**.
-
-* **[!UICONTROL Application ID]**
-
-  App ID of your Facebook application.
-
-* **[!UICONTROL Application secret]**
-
-  App secret of your Facebook application.
-
-If you chose the hosted by this instance mode, the Secure Canvas URL needs to be paste into the **Facebook Web games (https)** field on Facebook
-
-To know where to locate these credentials, refer to this [page](https://developers.facebook.com/docs/facebook-login/access-tokens).
 
 ## Adobe Solution Integration External Accounts
 
