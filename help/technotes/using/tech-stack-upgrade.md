@@ -7,7 +7,7 @@ hidefromtoc: yes
 ---
 # Adobe Campaign 2023 system upgrade {#ac-system-upgrade}
 
-Campaign infrastructure relies on third-party systems which must be regularly updated with the system versions and fixes. These updates are mandatory to ensure continuity of service and secure Campaign environments from security risks. In addition, upgrades are required to align with third-party system changes.
+Campaign infrastructure relies on third-party systems which must be regularly updated with the latest versions and fixes. These updates are mandatory to ensure continuity of service and secure Campaign environments from security risks. In addition, a Campaign upgrade is required to ensure compatibility with third-party system changes.
 
 As a **Hosted or Managed Cloud Services customer**, Adobe informs you about these upgrades when they are needed. You will be required to upgrade your environments in accordance with the recommendations to ensure compliance.
 
@@ -17,7 +17,7 @@ For security reasons, you must [install the latest Campaign build](#ac-upgrade),
 
 >[!NOTE]
 >
->For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). See also the [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
 >
 
 ## Campaign build upgrade {#ac-upgrade}
@@ -56,12 +56,11 @@ If your database system for Campaign is PostgreSQL, to benefit from latest Postg
 * As a hosted or Managed Cloud Services customer, Adobe will contact you and upgrade your database system from PostgreSQL 11 to PostgreSQL 14.
 * As a hybrid customer, if your marketing database system is PostgreSQL, you must upgrade it to PostgreSQL 14.
 * As an on-premise customer, you are requested to upgrade your database system to PostgreSQL 14. 
-../integrations/using/configuring-adobe-io.md). 
 
 
 ## Useful links
 
 * [Upgrade your environment](../../production/using/build-upgrade.md)
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
-* [Download Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Download the latest Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Make the new Client Console available to users](../../installation/using/client-console-availability-for-windows.md)
