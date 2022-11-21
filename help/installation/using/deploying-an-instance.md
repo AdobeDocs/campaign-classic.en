@@ -72,10 +72,10 @@ These parameters can be overloaded in delivery templates, and individually for e
 
 Indicate the following parameters:
 
-* **[!UICONTROL Sender name]** : Name of the sender,
-* **[!UICONTROL Sender address]** : The address of the sender,
-* **[!UICONTROL Reply address text]** : The name, which is customizable, that will be used when the recipient clicks the **[!UICONTROL Reply]** button in their email client software,
-* **[!UICONTROL Reply address]** : The email address to use when the recipient clicks the **[!UICONTROL Reply]** button in their email client software,
+* **[!UICONTROL Sender name]** : Name of the sender
+* **[!UICONTROL Sender address]** : Address of the sender
+* **[!UICONTROL Reply address text]** : The name, which is customizable, that will be used when the recipient clicks the **[!UICONTROL Reply]** button in their email client software
+* **[!UICONTROL Reply address]** : The email address to use when the recipient clicks the **[!UICONTROL Reply]** button in their email client software
 * **[!UICONTROL Error address]** : Email address of messages with errors. This is the technical address used to handle bounce mail, including emails received by the Adobe Campaign server due to non-existent target addresses.
 
 In addition to this, you can specify the **masks** authorized for the sender address and the error address. If necessary, these masks can be separated using commas. This configuration is optional. When fields are entered, Adobe Campaign checks at the time of delivery (during analysis, if the address does not include any variables) that the addresses are valid. This operating mode ensure that no addresses are used that could trigger delivery issues. Delivery addresses must be configured on the delivery server.
@@ -100,14 +100,22 @@ This window enables you to define, for all email campaigns, the delivery and add
 
 The following options are available:
 
-* **[!UICONTROL Delivery duration of messages]** : Beyond this time, the delivery is stopped (by default, 5 days),
-* **[!UICONTROL Online resources validity duration]** : Time for which information from the recipient profile is kept in order to generate mirror pages,
-* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : When this option is selected, on denylist recipients will not be contacted,
+* **[!UICONTROL Delivery duration of messages]** : Beyond this time, the delivery is stopped (by default, 5 days).
+* **[!UICONTROL Online resources validity duration]** : Time for which information from the recipient profile is kept in order to generate mirror pages.
+* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : When this option is selected, on denylist recipients will not be contacted.
 * **[!UICONTROL Automatically ignore doubles]** : When this option is selected, delivery will not be made to duplicate addresses.
+
+>[!NOTE]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the **[!UICONTROL Delivery duration of the messages]** will be used only if set to **3.5 days or less**. If you define a value higher than 3.5 days, it will not be taken into account.
 
 ### Retry parameters {#retry-parameters}
 
 The information on recoveries is provided in the **Recovery periods** and **Number of recoveries** fields: when a recipient is unreachable, for instance if their inbox is full, by default the program will try contacting them 5 times, with a one-hour interval between each attempt (during the maximum delivery time). These values can be changed to suit your needs.
+
+>[!NOTE]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the Campaign retry parameters are no longer used. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
 
 ### Quarantine parameters {#quarantine-parameters}
 
