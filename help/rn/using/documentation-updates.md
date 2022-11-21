@@ -25,9 +25,9 @@ Updated Compatibility Matrix with Teradata 17 support. [Read more](compatibility
 
 The File and resource management section has been updated with additional information on the **uploadWhiteList** attribute. [Read more](installation/using/file-res-management.md)
 
-The documentation on security zones has been updated withn additional information on the **allowDebug** attribute attribute. [Read more](installation/using/security-zones.md#recommendations)
+The documentation on security zones has been updated withn additional information on the **allowDebug** attribute attribute. [Read more](../../installation/using/security-zones.md#recommendations)
 
-The migration guide has been updated. References to unsupported Adobe Campaign versions have been removed. [Read more](migration/using/about-migration.md)
+The migration guide has been updated. References to unsupported Adobe Campaign versions have been removed. [Read more](../../migration/using/about-migration.md)
 
 
 ### July 2022 {#july-2022}
