@@ -30,7 +30,6 @@ _November 21, 2022_
 **Deprecated features**
 
 * Social Marketing with Facebook is now deprecated. You can use Twitter integration to post on social media, or work with Adobe to create a custom channel.
-
 * ACS Connector (Prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
 
 Learn more in the [Deprecated and removed features page](deprecated-features.md).
