@@ -11,7 +11,7 @@ exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 
 ![](../../assets/v7-only.svg)
 
-This document details the prerequisites to a migration, the steps for a migration to Adobe Campaign Classic v7. Steps and optional settings depend on your configuration. [Learn more](../../migration/using/general-configurations.md).
+This document details the prerequisites to a migration, the steps for a migration to Adobe Campaign Classic v7. Steps and optional settings depend on your configuration. 
 
 The migration process must be carried out with caution, its impacts must be fully considered beforehand and the procedure must be carried out rigorously. It must only be performed by an expert user. We strongly recommend getting in touch with [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) before starting any migration procedure.
 
@@ -29,7 +29,7 @@ The migration must be tested on the test/stage environment beforehand to make su
 * If you use Adobe Campaign Cloud Messaging (mid-sourcing deployment), contact Adobe Customer Care before starting.
 * Before starting a migration process, you **must** back up your data.
 * The migration process may take several days to be completed.
-* Adobe Campaign v7 is a more secure version than the previous ones: this impacts configuration guidelines to avoid problems such as data corruption and to preserve data integrity in the database. As a consequence, certain functions offered in v5.11 and v6.02 may no longer be supported in v7 and need to be adapted after migration. As a customer, you are respoonsible for testing all configurations, including workflows.
+* Adobe Campaign v7 is a more secure version than the previous ones: this impacts configuration guidelines to avoid problems such as data corruption and to preserve data integrity in the database. As a customer, you are respoonsible for testing all configurations, including workflows.
 
 More prerequisites are available in [this page](../../migration/using/before-starting-migration.md).
 

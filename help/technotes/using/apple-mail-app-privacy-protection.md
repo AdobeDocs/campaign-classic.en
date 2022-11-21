@@ -10,7 +10,7 @@ exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 
 ## What changed?
 
-In 2021, Apple introduced new privacy protection capabilities for their native Mail app. This app now includes Apple's Mail Privacy Protection feature. Basically, senders cannot use tracking pixels anymore to collect information about recipients who have chosen to turn on Apple's Mail Privacy Protection feature. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target="_blank"}.
+In 2021, Apple introduced new privacy protection capabilities for their native Mail app. This app now includes Apple's Mail Privacy Protection feature. Basically, senders cannot use tracking pixels anymore to collect information about recipients who have chosen to turn on Apple's Mail Privacy Protection feature. 
 
 ## How are my campaigns affected?
 
