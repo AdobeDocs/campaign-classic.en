@@ -15,8 +15,6 @@ After a migration, in case of issues, you might need to rollback to the previous
 
 The rollback procedure depends on your initial version of Campaign.
 
-## Restore to Campaign v6.1
-
 Here is the procedure to restore a v6.1 from a v7.
 
 1. Recover the backup of the database and restore it.
@@ -26,6 +24,8 @@ Here is the procedure to restore a v6.1 from a v7.
 1. Re-start IIS.
 1. Restart the Adobe Campaign v6.1 service.
 
+<!--
+	
 ## Restore to Campaign v6.02
 
 Here is the procedure to restore a v6.02 from a v7.
@@ -47,3 +47,5 @@ Here is the procedure to restore a v5.11 from a v7.
 1. Stop the Adobe Campaign v7 service.
 1. Re-start IIS.
 1. Re-start the Adobe Campaign v5 service.
+
+-->

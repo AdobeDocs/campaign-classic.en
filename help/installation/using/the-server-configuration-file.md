@@ -3315,6 +3315,12 @@ For additional information, refer to this [section](../../installation/using/dep
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
+   <td> showSourceIP<br /> </td> 
+   <td> When set to false, the value of sourceIP in the response returned by r/test is an empty string. <br /> </td> 
+   <td> Boolean<br /> </td> 
+   <td> true<br /> </td> 
+  </tr> 
+  <tr> 
    <td> startRedirection<br /> </td> 
    <td> Start the redirection service.<br /> </td> 
    <td> Boolean<br /> </td> 
