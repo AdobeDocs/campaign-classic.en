@@ -33,7 +33,7 @@ Learn more in the [Deprecated and removed features page](deprecated-features.md)
 
 * The Google BigQuery connector now fully supports boolean fields. (NEO-49181)
 * You can now configure the IMS cookies validity duration in the `Configuration for the redirection service` section of the serverConf.xml file. This applies to the following cookies: `uuid230`, `nllastdelid` and `AMCV_` (NEO-42541)
-* The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. [Read more](installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+* The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. [Read more](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
 
 **Other changes**
 
