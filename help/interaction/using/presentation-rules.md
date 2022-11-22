@@ -9,7 +9,7 @@ exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
 ---
 # Presentation rules{#presentation-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Creating a presentation rule {#creating-a-presentation-rule}
 
