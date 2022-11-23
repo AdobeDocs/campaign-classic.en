@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Privacy
-description: Learn more about the best practices to follow regarding privacy
+title: Personalization and privacy
+description: Learn security best practices for privacy and personalization
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---
