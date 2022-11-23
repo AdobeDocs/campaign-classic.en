@@ -5,15 +5,10 @@ description: Learn more about the best practices to follow regarding privacy
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---
-# Privacy {#privacy}
+# Personalizationn and privacy {#privacy}
 
 ![](../../assets/v7-only.svg)
 
-## Privacy Requests
-
-Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR and CCPA.
-
-Refer to [this page](../../platform/using/privacy-management.md) for general information on what Privacy Management is and the implementation steps in Adobe Campaign. You will also find best practices and an overview of the user process and personas.  
 
 ## URL Personalization {#url-personalization}
 
@@ -181,3 +176,8 @@ To protect your pages, follow these steps:
     In addition to the **robots.txt** file, it is advised to add a **X-Robots-Tag** header. You can do it in Apache or IIS and in the **serverConf.xml** configuration file.
 
     For more information, refer to [this article](https://developers.google.com/search/reference/robots_meta_tag).
+
+
+## Privacy Requests
+
+Refer to [this page](../../platform/using/privacy-management.md) for general information on what Privacy Management is and the implementation steps in Adobe Campaign. You will also find best practices and an overview of the user process and personas.  
