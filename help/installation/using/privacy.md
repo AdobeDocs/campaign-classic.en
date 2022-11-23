@@ -5,7 +5,7 @@ description: Learn more about the best practices to follow regarding privacy
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---
-# Personalizationn and privacy {#privacy}
+# Personalization and privacy {#privacy}
 
 ![](../../assets/v7-only.svg)
 
