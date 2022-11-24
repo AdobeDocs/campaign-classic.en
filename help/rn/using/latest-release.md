@@ -19,7 +19,10 @@ _November 21, 2022_
 
 **Compatibility updates**
 
+* Adobe Campaign is now compatible with PostgreSQL 14.
 * Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for dashboards in the client console is now using Edge Chromium. (NEO-20741)
+
+Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md#RDBMSservers).
 
 **Improvements**
 
