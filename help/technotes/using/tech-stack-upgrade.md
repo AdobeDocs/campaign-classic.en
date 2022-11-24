@@ -25,7 +25,7 @@ For security reasons, you must [install the latest Campaign build](#ac-upgrade),
 
 **Are you impacted?**
 
-If you are impacted by the [operating system upgrade](#os-upgrade) and/or the [database system upgrade](#pg-upgrade) detailed below, you must upgrade your Campaign environments to the latest 7.3.2 version, which is compatible with these systems.
+If you are impacted by the [operating system upgrade](#os-upgrade) and/or the [database system upgrade](#pg-upgrade) detailed below, you must upgrade your Campaign environments to [the latest 7.3.2 version](../../rn/using/latest-release.m#release-7-3-2), which is compatible with these systems.
 
 **How to update?**
 
