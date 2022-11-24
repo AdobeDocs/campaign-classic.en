@@ -31,9 +31,9 @@ The Enhanced MTA implementation may impact some of the existing Campaign functio
 
 **What is the Enhanced MTA?**
 
-Adobe Campaign can now be upgraded to use a new MTA (Mail Transfer Agent) which runs SparkPost’s commercial email MTA called **Momentum**.
+Adobe Campaign can now be upgraded to use a new MTA (Mail Transfer Agent) which runs SparkPost's commercial email MTA called **Momentum**.
 
-Momentum represents innovative, high-performance MTA technology which includes smarter bounce handling and an automated deliverability optimization capability that helps senders achieve and maintain optimal inbox delivery rates. <!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
+Momentum represents innovative, high-performance MTA technology which includes smarter bounce handling and an automated deliverability optimization capability that helps senders achieve and maintain optimal inbox delivery rates. <!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
 
 **What are the benefits?**
 
@@ -53,7 +53,7 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 
 * If you are new to Adobe Campaign Classic, you are already using the Enhanced MTA.
 
-* For Adobe Campaign Classic existing customers, we’ve implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you’re not already using it, we’ll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
+* For Adobe Campaign Classic existing customers, we've implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you're not already using it, we'll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
 -->
 
 ### Upgrading to the enhanced MTA
@@ -111,7 +111,7 @@ For more on typologies, see [this section](../../campaign-opt/using/about-campai
 
 ### New MX rules
 
-The MX management delivery throughput rules are no longer used. The Enhanced MTA has its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+The MX management delivery throughput rules are no longer used. The Enhanced MTA has its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you're sending emails.
 
 For more on MX configuration, see [this section](../../installation/using/email-deliverability.md#mx-configuration).
 
@@ -134,6 +134,12 @@ For more on the delivery throughput, see [this section](../../reporting/using/gl
 >[!NOTE]
 >
 >With the [Email Feedback Service](#email-feedback-service) (EFS) capability (currently available as beta), the Campaign Delivery throughput graph is still showing the throughput to your email recipients.
+
+### Retries
+
+The retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
+
+For more on retries, see [this section](steps-sending-the-delivery.md#configuring-retries).
 
 ### Validity period
 
@@ -176,7 +182,7 @@ With the Email Feedback Service (EFS) capability, the status of each email is ac
 >
 >The Email Feedback Service is currently available as a beta capability.
 >
->If you’re interested in participating in this beta program, fill out [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) and we’ll get back to you.
+>If you're interested in participating in this beta program, fill out [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) and we'll get back to you.
 
 Once the delivery has started, there is no change in the **[!UICONTROL Success]** percentage when the message is successfully relayed from Campaign to the Enhanced MTA.
 

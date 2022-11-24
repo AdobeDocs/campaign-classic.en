@@ -9,7 +9,7 @@ exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 ---
 # Offers on an outbound channel{#offers-on-an-outbound-channel}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Email offer delivery {#email-offer-delivery}
 

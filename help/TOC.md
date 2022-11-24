@@ -580,16 +580,6 @@ type: Documentation
   + [Use case](message-center/using/transactional-email-with-attachments.md)
 + Integrate with social media {#integrating-with-social-media}
   + [About social marketing](social/using/about-social-marketing.md)
-  + Configuration {#configuration}
-       + [Start workflows](social/using/starting-workflows.md)
-       + [Create a Facebook application](social/using/creating-a-facebook-application.md)
-       + [Configure publishing on Twitter](social/using/configuring-publishing-on-twitter.md)
-  + Publish on Twitter {#publishing-on-facebook-twitter}
-       + [Get started with Twitter](social/using/overview.md)
-       + [Publish on Twitter](social/using/publishing-on-twitter.md)
-  + Acquiring Facebook contacts {#annexes}
-       + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
-       + [Tracking](social/using/tracking.md)
 + Installation and configuration guide {#installing-campaign-classic}
   + Architecture principles {#architecture-and-hosting-models}
        + [General architecture](installation/using/general-architecture.md)
@@ -824,7 +814,6 @@ type: Documentation
   + Start the migration {#migrating-to-adobe-campaign-7}
        + [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
        + [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-       + [Configure your platform](migration/using/general-configurations.md)
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)

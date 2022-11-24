@@ -13,9 +13,6 @@ exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 
 Certain major changes in Adobe Campaign v7 require specific configuration. These configurations may be necessary before or after migrating. 
 
-Detailed configuration to be carried out in Adobe Campaign v7 when migrating from Campaign v5 or v6 is available in [this page](general-configurations.md).
-
-
 During the migration, the **NmsRecipient** table is rebuilt from the schemas definition. Any change made to the SQL structure of this table outside of Adobe Campaign will be lost.
 
 Example of elements to check:
@@ -29,7 +26,9 @@ Example of elements to check:
 
 When migrating to Adobe Campaign v7, the following elements must be configured. These elements must be addressed before starting the **postupgrade**.
 
-* Timezones
+<!--
+
+  * Timezones
 
   During a migration from a v5.11 platform, you must specify the timezone to use during the postupgrade.
 
@@ -47,17 +46,26 @@ When migrating to Adobe Campaign v7, the following elements must be configured. 
 
   Similarly, a new syntax is introduced in Adobe Campaign v7 to replace the SQLData based syntax. If you use code elements with this syntax, you must adapt them. [Learn more](../../migration/using/general-configurations.md#sqldata)
 
+  -->
+
 * Passwords
 
   You must configure the **Admin** and **Internal** passwords. [Learn more](../../migration/using/before-starting-migration.md#user-passwords)
 
+<!--
 * Tree structure
 
   If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
 
+-->
+
+<!--
+
 * Interaction
 
   If you are migrating from Campaign v6.02 and using the  **Interaction** module, you must delete all 6.02 schema references that no longer exist in v7. [Learn more](../../migration/using/general-configurations.md#interaction)
+
+-->
 
 ## After the migration {#after-the-migration}
 
@@ -73,43 +81,56 @@ After running **postupgrade**, check and configure the following elements:
 
 * Syntax
 
-  If you encounter any errors related to the syntax, during the postupgrade, you must temporarily activate the **allowSQLInjection** option in the **serverConf.xml** file, as this gives you time to rewrite the code. Once the code is adapted, make sure to reactivate the security. [Learn more](../../migration/using/general-configurations.md#sqldata)
+  If you encounter any errors related to the syntax, during the postupgrade, you must temporarily activate the **allowSQLInjection** option in the **serverConf.xml** file, as this gives you time to rewrite the code. Once the code is adapted, make sure to reactivate the security.
 
 * Conflicts
 
-  The migration is performed through a postupgrade and conflicts may appear in reports, forms or web applications. These conflicts can be resolved from the console. [Learn more](../../migration/using/general-configurations.md#conflicts)
+  The migration is performed through a postupgrade and conflicts may appear in reports, forms or web applications. These conflicts can be resolved from the console.
 
 * Tomcat
 
-  If you customized the installation folder, make sure to check it is correctly updated after the migration. [Learn more](../../migration/using/general-configurations.md#tomcat)
+  If you customized the installation folder, make sure to check it is correctly updated after the migration. 
 
 * Reports
 
-  All out-of-the-box reports currently use the v6.x rendering engine. If you had added JavaScript code into the reports, some elements may be impacted. [Learn more](../../migration/using/general-configurations.md#reports)
+  All out-of-the-box reports currently use the v6.x rendering engine. If you had added JavaScript code into the reports, some elements may be impacted. 
 
 * Web Applications
 
-  After the postupgrade, if you have any problems connecting to your identified Web applications, you must activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. To avoid any security issue, these two options must be reactivated after the problem is solved. [Learn more](../../migration/using/general-configurations.md#identified-web-applications)
+  After the postupgrade, if you have any problems connecting to your identified Web applications, you must activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. To avoid any security issue, these two options must be reactivated after the problem is solved.
 
-  Depending on the type of Web applications and their configuration, you must perform additional manipulations to ensure they work correctly. [Learn more](../../migration/using/general-configurations.md#web-applications)
+  Depending on the type of Web applications and their configuration, you must perform additional manipulations to ensure they work correctly. 
 
+<!--
   If migrating from a v5.11 platform, additional configurations must be carried out. [Learn more](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
 
 * Security zones
 
   Before starting the server, you must configure the security zones. [Learn more](../../installation/using/security-zones.md) and [see here](../../migration/using/general-configurations.md#security)
 
+-->
+
+<!--
+
 * Workflows
 
   If migrating from a v5.11 platform, you must check the workflows folder. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
+
+-->
+
+<!--
 
 * Tracking
 
   If migrating from a v5.11 platform, you must configure the tracking mode. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
 
+-->
+
 * Interaction
 
-  If you use **Interaction**, you must adjust any parameters after the migration. [Learn more](../../migration/using/general-configurations.md#interaction)
+  If you use **Interaction**, you must adjust any parameters after the migration.
+
+<!--
 
 * Dashboards
 
@@ -124,6 +145,9 @@ After running **postupgrade**, check and configure the following elements:
   /usr/local/neolane/nl6/deprecated/xtk/js/client/dropDownMenu.js  
   ```
 
+-->
+
+<!--
 
 ## Specific configurations from a v5.11 to v7{#specific-configurations-in-v5-11}
 
@@ -302,3 +326,5 @@ If you have modified these web applications and would like to continue using the
 After a Message Center control instance migration, you must republish the transactional message templates for them to work.
 
 In v7, the names of transactional message templates on execution instances have changed. They are currently prefixed by the operator name that corresponds to the control instance on which they are created, for example **control1_template1_rt** (where **control1** is the name of the operator). If you have a significant volume of templates, we recommend deleting old templates on control instances.
+
+-->
