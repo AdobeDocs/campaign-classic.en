@@ -132,6 +132,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -205,6 +206,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
