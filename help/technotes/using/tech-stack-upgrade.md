@@ -38,7 +38,7 @@ If you are impacted by the [operating system upgrade](#os-upgrade) and/or the [d
 
 **Are you impacted?**
 
-If you are running Campaign on a Debian operating system, to benefit from latest Debian security updates, you need to move your Campaign infrastructure to **Debian 11**. Note that Debian 9 reached End Of Life on June 30, 2022, and no longer provides security fixes.
+If you are running Campaign on a Debian operating system, to benefit from latest Debian security updates, you need to move your Campaign infrastructure to **Debian 11**. Note that Debian 9 reached End Of Life on June 30, 2022, and no longer provides security fixes. Adobe provides security support for Debian 9 until June 30, 2023.
 
 **How to update?**
 
