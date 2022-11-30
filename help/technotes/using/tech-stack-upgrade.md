@@ -50,7 +50,7 @@ If you are running Campaign on a Debian operating system, to benefit from latest
 
 **Are you impacted?**
 
-If your database system for Campaign is PostgreSQL, to benefit from latest PostgreSQL innovations and security updates, you need to upgrade to **PostgreSQL 14**. Note that PostreSQL 11 will reach End Of Life on November 30, 2022.
+If your database system for Campaign is PostgreSQL, to benefit from latest PostgreSQL innovations and security updates, you need to upgrade to **PostgreSQL 14**. Note that PostreSQL 11 will reach End Of Life on November 9, 2023.
 
 **How to update?**
 
