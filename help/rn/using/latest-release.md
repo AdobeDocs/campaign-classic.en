@@ -19,7 +19,7 @@ _November 21, 2022_
 
 >[!CAUTION]
 >
->Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md)
+>Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md).
 
 **Compatibility updates**
 
