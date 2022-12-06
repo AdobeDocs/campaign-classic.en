@@ -17,6 +17,10 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 _November 21, 2022_
 
+>[!CAUTION]
+>
+>Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md)
+
 **Compatibility updates**
 
 * Adobe Campaign is now compatible with PostgreSQL 14.
