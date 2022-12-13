@@ -2,8 +2,6 @@
 product: campaign
 title: Technote - Adobe Campaign system upgrades
 description: Adobe Campaign system upgrade
-hide: yes
-hidefromtoc: yes
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 ---
 # Adobe Campaign 2023 environment upgrades {#ac-system-upgrade}
