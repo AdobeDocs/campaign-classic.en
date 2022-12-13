@@ -143,6 +143,7 @@ Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix
 * Fixed an issue that could lead to crashes when using erroneous HTML code in a delivery. (NEO-40385)
 * Fixed an issue that could prevent non admin users from accessing the **Analysis** tab in delivery properties. (NEO-34025)
 * Fixed an issue that could prevent an image from being uploaded in chunk mode from an external server during message preparation. (NEO-40307)
+* Fixed an issue which could lead the delivery to be sent to a larger number of recipients than expected. (NEO-45108)
 
 ## ![](assets/do-not-localize/green_2.png) Release 7.2.2 - Build 9349 {#release-7-2-2}
 
@@ -236,4 +237,3 @@ Adobe Campaign is now compatible with Windows Server 2019. Refer to the [Campaig
 * Fixed an issue that could prevent you from previewing email deliveries that were attached to a workflow. (NEO-37840)
 * Fixed an issue that could cause valid tables that contained list values to be deleted by the database cleanup workflow. (NEO-34911)
 * Fixed an issue that could cause the billing workflow to crash on marketing instances.
-* Fixed an issue which could lead the delivery to be sent to a larger number of recipients than expected. (NEO-45108)
