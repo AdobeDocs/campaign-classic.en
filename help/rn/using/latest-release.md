@@ -23,7 +23,8 @@ _November 21, 2022_
 
 **Compatibility updates**
 
-* Adobe Campaign is now compatible with PostgreSQL 14.
+* Adobe Campaign is now compatible with PostgreSQL 14. For more information, refer to this [technote](../../technotes/using/tech-stack-upgrade.md).
+
 * Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for dashboards in the client console is now using Edge Chromium. (NEO-20741)
 
 Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md#RDBMSservers).
@@ -102,7 +103,7 @@ _July 1, 2022_
 * Adobe Campaign SDK now supports Android 12 and iOS 15 for Push Notifications.
 * Adobe Campaign is now compatible with MySQL 8.
 * Adobe Campaign is now compatible with Windows 11.
-* Adobe Campaign is now compatible with Debian 11.
+* Adobe Campaign is now compatible with Debian 11. For more information, refer to this [technote](../../technotes/using/tech-stack-upgrade.md).
 
 Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
