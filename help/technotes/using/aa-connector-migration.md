@@ -14,10 +14,11 @@ On August 1, 2021, Adobe Campaign Classic has been removed from the legacy Data 
 
 You **must implement** the new Adobe Analytics Connector integration on Adobe Exchange which replaces the legacy Data Connectors Integration. To learn more about Adobe Analytics Connector, refer to [this page](../../platform/using/adobe-analytics-connector.md).
 
+For any questions about these changes, read the [FAQ](#faq-aa). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
 >[!NOTE]
 >
->For any questions about these changes, read the [FAQ](#faq-aa). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
->
+>If you are migrating from an existing Adobe Analytics Data Connector (previously known as Genesis integration) and using the New Classification Architecture in Adobe Analytics, you need build versions starting from 7.3.1 or 8.4.1 to be able to migrate to the new Adobe Analytics Connector.
 
 ## What changed?
 

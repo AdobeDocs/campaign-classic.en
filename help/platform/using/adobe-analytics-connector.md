@@ -13,7 +13,7 @@ exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 
 ## About Adobe Analytics Connector integration {#about-analytics-connector-integration}
 
-Adobe Analytics Connector allows Adobe Campaign and Adobe Analytics interact through the **[!UICONTROL Web Analytics connectors]** package. It forwards data to Adobe Campaign in the form of segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics.
+Adobe Analytics Connector allows Adobe Campaign and Adobe Analytics interact through the **[!UICONTROL Web Analytics connectors]** package. It forwards data to Adobe Campaign in the form of segments concerning user behavior following a campaign. Conversely, it sends indicators and attributes of campaigns delivered by Adobe Campaign to Adobe Analytics.
 
 >[!CAUTION]
 >
@@ -27,8 +27,8 @@ The action fields for each tool are as follows:
 
 * Web analytics' role:
 
-    1. marks the email campaigns launched with Adobe Campaign,
-    1. saves recipient behavior, on the site they browsed after clicking the campaign email, in the form of segments. Segments concern abandoned products (viewed but not added to the cart or purchased), purchases or cart abandonments.
+    1. marks the campaigns launched with Adobe Campaign,
+    1. saves recipient behavior, on the site they browsed after clicking the campaign, in the form of segments. Segments concern abandoned products (viewed but not added to the cart or purchased), purchases or cart abandonments.
 
 * Adobe Campaign's role:
 
@@ -91,7 +91,7 @@ You need to configure your **[!UICONTROL Conversion variables]** and **[!UICONTR
 
    ![](assets/analytics_connnector_5.png)
 
-1. Click **[!UICONTROL Add new]** to create the identifiers required for measuring the impact of the email campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID.
+1. Click **[!UICONTROL Add new]** to create the identifiers required for measuring the impact of the campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID.
 
    To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=en#admin-tools).
    
@@ -195,7 +195,7 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
    >[!IMPORTANT]
    >
-   >This configuration mode is reserved for expert users: any error in this formula may result in stopped email deliveries.
+   >This configuration mode is reserved for expert users: any error in this formula may result in stopped deliveries.
 
 1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
 
@@ -217,7 +217,7 @@ They are available in the Adobe Campaign tree, under the **[!UICONTROL Administr
 * **[!UICONTROL Recovering of web events]**: once an hour, this workflow downloads segments about the behavior of users on a given site, includes them in the Adobe Campaign database and starts the re-marketing workflow.
 * **[!UICONTROL Event purge]**: this workflow enables you to delete all events from the database depending on the period configured in the **[!UICONTROL Lifespan]** field. For more on this, refer to [Configure your external account in Adobe Campaign Classic](#external-account-classic).
 * **[!UICONTROL Identification of converted contacts]**: directory of the visitors who made a purchase following a re-marketing campaign. The data collected by this workflow is accessible in the **[!UICONTROL Re-marketing efficiency]** report, refer to this [page](#creating-a-re-marketing-campaign).
-* **[!UICONTROL Sending of indicators and campaign attributes]**: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics Connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
+* **[!UICONTROL Sending of indicators and campaign attributes]**: lets you send campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics Connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
 
   Please note that this workflow should not be restarted or else it will resend all the prior data which can skew Analytics results.
 
