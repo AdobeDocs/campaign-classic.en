@@ -27,6 +27,10 @@ For more information on the configuration mode, refer to [Linking the template t
 
 ## Creating a new template {#creating-a-new-template}
 
+>[!NOTE]
+>
+>To avoid configuration errors, Adobe recommends that you duplicate a native template and customize its settings rather than create a new template.
+
 To configure a delivery template, carry out the following steps:
 
 1. Open the Campaign Explorer.
@@ -34,7 +38,7 @@ To configure a delivery template, carry out the following steps:
 
    ![](assets/delivery_template_1.png)
 
-1. Click **New** in the toolbar to create a new delivery template.
+1. Click **New** in the toolbar to create a new delivery template, or **Duplicate** an existing template.
 
    ![](assets/delivery_template_2.png)
 
@@ -56,9 +60,6 @@ To configure a delivery template, carry out the following steps:
 
 1. Click **Save**. Your template is now ready to be used in a delivery.
 
->[!NOTE]
->
->To avoid configuration errors, we recommend that you duplicate a native template and alter its properties rather than create a new template.
 
 ## Tutorial videos {#delivery-template-video}
 
