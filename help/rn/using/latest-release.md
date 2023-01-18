@@ -17,9 +17,14 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 _November 21, 2022_
 
+>[!CAUTION]
+>
+>Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md).
+
 **Compatibility updates**
 
-* Adobe Campaign is now compatible with PostgreSQL 14.
+* Adobe Campaign is now compatible with PostgreSQL 14. For more information, refer to this [technote](../../technotes/using/tech-stack-upgrade.md).
+
 * Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for dashboards in the client console is now using Edge Chromium. (NEO-20741)
 
 Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md#RDBMSservers).
@@ -98,7 +103,7 @@ _July 1, 2022_
 * Adobe Campaign SDK now supports Android 12 and iOS 15 for Push Notifications.
 * Adobe Campaign is now compatible with MySQL 8.
 * Adobe Campaign is now compatible with Windows 11.
-* Adobe Campaign is now compatible with Debian 11.
+* Adobe Campaign is now compatible with Debian 11. For more information, refer to this [technote](../../technotes/using/tech-stack-upgrade.md).
 
 Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
@@ -138,6 +143,7 @@ Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix
 * Fixed an issue that could lead to crashes when using erroneous HTML code in a delivery. (NEO-40385)
 * Fixed an issue that could prevent non admin users from accessing the **Analysis** tab in delivery properties. (NEO-34025)
 * Fixed an issue that could prevent an image from being uploaded in chunk mode from an external server during message preparation. (NEO-40307)
+* Fixed an issue which could lead the delivery to be sent to a larger number of recipients than expected. (NEO-45108)
 
 ## ![](assets/do-not-localize/green_2.png) Release 7.2.2 - Build 9349 {#release-7-2-2}
 

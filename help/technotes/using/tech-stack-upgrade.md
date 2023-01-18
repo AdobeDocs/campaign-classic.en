@@ -2,8 +2,6 @@
 product: campaign
 title: Technote - Adobe Campaign system upgrades
 description: Adobe Campaign system upgrade
-hide: yes
-hidefromtoc: yes
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 ---
 # Adobe Campaign 2023 environment upgrades {#ac-system-upgrade}
@@ -12,7 +10,7 @@ Campaign infrastructure relies on third-party systems which must be regularly up
 
 As a **Hosted or Managed Cloud Services customer**, Adobe informs you about these upgrades when they are needed. You will be required to upgrade your environments in accordance with the recommendations to ensure compliance.
 
-As an **On-premise or Hybrid customer**, Adobe highly recommends you to upgrade your system and Campaign versions according to the same calendar. 
+As an **On-premise or Hybrid customer**, Adobe highly recommends that you to upgrade your system and Campaign versions according to the same calendar. 
 
 For security reasons, you must [install the latest Campaign build](#ac-upgrade), and then upgrade your [operating system](#os-upgrade) and/or your [Relation Database Management System (RDBMS)](#pg-upgrade).
 
@@ -38,7 +36,7 @@ If you are impacted by the [operating system upgrade](#os-upgrade) and/or the [d
 
 **Are you impacted?**
 
-If you are running Campaign on a Debian operating system, to benefit from latest Debian security updates, you need to move your Campaign infrastructure to **Debian 11**. Note that Debian 9 reached End Of Life on June 30, 2022, and no longer provides security fixes.
+If you are running Campaign on a Debian operating system, to benefit from latest Debian security updates, you need to move your Campaign infrastructure to **Debian 11**. Note that security support for Debian 9 will be available until June 30, 2023.
 
 **How to update?**
 
@@ -50,7 +48,7 @@ If you are running Campaign on a Debian operating system, to benefit from latest
 
 **Are you impacted?**
 
-If your database system for Campaign is PostgreSQL, to benefit from latest PostgreSQL innovations and security updates, you need to upgrade to **PostgreSQL 14**. Note that PostreSQL 11 will reach End Of Life on November 30, 2022.
+If your database system for Campaign is PostgreSQL, to benefit from latest PostgreSQL innovations and security updates, you need to upgrade to **PostgreSQL 14**. Note that PostgreSQL 11 will reach End Of Life on November 9, 2023.
 
 **How to update?**
 
