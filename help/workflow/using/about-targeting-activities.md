@@ -16,7 +16,7 @@ These activities let you build one or more targets by defining sets and splittin
 * **Read list**: lets you use data contained in a list. Refer to the [Using data from a list: Read list](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) section.
 * **Union**: lets you group the result of several activities into a single target. Refer to the [Union](union.md) section.
 * **Intersection**: lets you extract only the population with the same inbound activity results. Refer to the [Intersection](intersection.md) section.
-* **Exclusion**: lets you create a target based on a main target from which one or more other targets are extracted. Refer to the [Intersection](intersection.md) section.
+* **Exclusion**: lets you create a target based on a main target from which one or more other targets are extracted. Refer to the [Exclusion](exclusion.md) section.
 * **Split**: lets you split a target into several subsets. Refer to the [Split](split.md) section.
 * **Cells**: provides a view of the various subsets in the form of data columns, and facilitates the manipulation of these subsets when there are many of them. For more on this, refer to the [Cells](cells.md) section.
 * **Offers by cell**: lets you link different offers to each subset of a population. Refer to the [Offers by cell](offers-by-cell.md) section.
