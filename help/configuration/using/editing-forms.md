@@ -243,7 +243,7 @@ To create a form, follow these steps:
 
    | Element | Attribute | Description |
    | --- | --- | --- |
-   | `<input>` | `read-only:"true"` | Provides read-only access to a field |
+   | `<input>` | `read-only="true"` | Provides read-only access to a field |
    | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | Conditionally displays a group of fields |
    | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | Conditionally enables a group of fields |
 
