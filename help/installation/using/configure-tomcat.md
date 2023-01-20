@@ -52,7 +52,9 @@ For security reasons, we strongly recommend that you hide the Tomcat error repor
 
 1. Open the **server.xml** file located in the **/tomcat-8/conf** directory of the Adobe Campaign installation folder:  `/usr/local/neolane/nl6/tomcat-8/conf`
 1. Add the following element at the bottom after all existing context elements:
+
     ```
     <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false"/>
     ```
+    
 1. Restart the nlserver and Apache web servers.
