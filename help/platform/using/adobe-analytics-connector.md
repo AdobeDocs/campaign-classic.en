@@ -200,7 +200,7 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
 
     * **[!UICONTROL Lifespan]**: lets you specify the delay (in days_ after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
-    * **[!UICONTROL Persistence]**: lets you the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.
+    * **[!UICONTROL Persistence]**: lets you define the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.
 
 >[!NOTE]
 >
