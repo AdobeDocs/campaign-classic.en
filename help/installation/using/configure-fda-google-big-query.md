@@ -117,7 +117,14 @@ To configure [!DNL Google BigQuery] on Linux, follow the steps below:
         apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
         ```
 
-1. Access the directory where the script is located and run the following script:
+1. Before running the script, you can obtain more info by specifying --help argument:
+
+    ```
+    cd /usr/local/neolane/nl6/bin/fda-setup-scripts
+    ./bigquery_odbc-setup.sh --help
+    ```
+    
+1. Access the directory where the script is located and run the following script as root user:
 
     ```
     cd /usr/local/neolane/nl6/bin/fda-setup-scripts
