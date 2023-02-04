@@ -21,6 +21,10 @@ Global issues at Apple or Gmail for example can result in some email messages se
 
 Note that if deferral bounces with the message “452 requested action aborted: try again later” are being observed – these are automatically retried, and no actions are needed. They should improve as the ISP recovers full capacity.
 
+>[!NOTE]
+>
+>You can check the Apple System Status Dashboard on [this page](https://www.apple.com/support/systemstatus/).
+
 ## Symptoms{#update-bounce-symptoms}
 
 In case of an outage of an ISP, emails sent through Campaign cannot be successfully delivered to their recipient: these emails will be wrongly marked as bounces.
