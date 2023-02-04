@@ -29,7 +29,7 @@ Note that if deferral bounces with the message “452 requested action aborted: 
 >You can check the Google Workspace Status Dashboard on [this page](https://www.google.com/appsstatus#hl=en&v=status){_blank}.
 >
 
-## Symptoms{#update-bounce-symptoms}
+## Impact{#update-bounce-impact}
 
 In case of an outage of an ISP, emails sent through Campaign cannot be successfully delivered to their recipient: these emails will be wrongly marked as bounces.
 
