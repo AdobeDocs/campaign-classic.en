@@ -29,7 +29,7 @@ Note that if deferral bounces with the message “452 requested action aborted: 
 >You can check the Google Workspace Status Dashboard on [this page](https://www.google.com/appsstatus#hl=en&v=status){_blank}.
 >
 
-## Symptoms{#update-bounce-symptoms}
+## Impact{#update-bounce-impact}
 
 In case of an outage of an ISP, emails sent through Campaign cannot be successfully delivered to their recipient: these emails will be wrongly marked as bounces.
 
@@ -53,7 +53,9 @@ Based on the timeframe of the incident, and the ISP, below are the recommended g
 * For Campaign Classic v7 instances with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
 
     * **Error text (quarantine text)** contains “550-5.1.1” AND **Error text (quarantine text)** contains “support.ISP.com” 
-        “support.ISP.com” can be: “support.apple.com” or “support.google.com” for example
+        
+        where “support.ISP.com” can be: “support.apple.com” or “support.google.com” for example
+        
     * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
     * **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
 
