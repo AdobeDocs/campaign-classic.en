@@ -23,7 +23,10 @@ Note that if deferral bounces with the message “452 requested action aborted: 
 
 >[!NOTE]
 >
->You can check the Apple System Status Dashboard on [this page](https://www.apple.com/support/systemstatus/).
+>You can check the Apple System Status Dashboard on [this page](https://www.apple.com/support/systemstatus/){_blank}.
+>
+>You can check the Google Workspace Status Dashboard on [this page](https://www.google.com/appsstatus#hl=en&v=status){_blank}.
+>
 
 ## Symptoms{#update-bounce-symptoms}
 
