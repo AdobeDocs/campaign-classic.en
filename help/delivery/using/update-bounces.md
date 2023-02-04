@@ -3,6 +3,8 @@ product: campaign
 title: Update bounce qualification after an ISP outage
 description: Learn how to update bounce qualification after an ISP outage
 feature: Deliverability
+hide: yes
+hidefromtoc: yes
 ---
 # Update incorrect hard bounces after an ISP outage {#update-bounce-qualification}
 
