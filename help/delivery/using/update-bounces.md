@@ -3,7 +3,6 @@ product: campaign
 title: Update bounce qualification after an ISP outage
 description: Learn how to update bounce qualification after an ISP outage
 feature: Deliverability
-exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 ---
 # Update incorrect hard bounces after an ISP outage {#update-bounce-qualification}
 
