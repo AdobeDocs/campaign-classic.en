@@ -6,7 +6,7 @@ feature: Deliverability
 hide: yes
 hidefromtoc: yes
 ---
-# Update incorrect hard bounces after an ISP outage {#update-bounce-qualification}
+# Update incorrect hard bounces after an ISP outage {#update-bounces}
 
 ![](../../assets/common.svg)
 
