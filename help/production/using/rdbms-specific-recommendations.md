@@ -78,7 +78,6 @@ To help you set up maintenance plans, this section lists some recommendations an
 In PostgreSQL, you can use these typical keywords:
 
 * VACUUM (FULL, ANALYZE, VERBOSE)
-* REINDEX
 
 To run the VACUUM operation, and analyze and time it, you can use this syntax:
 
@@ -94,58 +93,46 @@ Here is a typical example of an SQL maintenance plan to be executed on a regular
 ```
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdelivery;
-REINDEX TABLE nmsdelivery;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverystat;
-REINDEX TABLE nmsdeliverystat;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflow;
-REINDEX TABLE xtkworkflow;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowevent;
-REINDEX TABLE xtkworkflowevent;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowjob;
-REINDEX TABLE xtkworkflowjob;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowlog;
-REINDEX TABLE xtkworkflowlog;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowtask;
-REINDEX TABLE xtkworkflowtask;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkjoblog;
-REINDEX TABLE xtkjoblog;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkjob;
-REINDEX TABLE xtkjob;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsaddress;
-REINDEX TABLE nmsaddress;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverypart;
-REINDEX TABLE nmsdeliverypart;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
-REINDEX TABLE nmsmirrorpageinfo;
 ```
 
 >[!NOTE]
 >
 >* Adobe recommends starting with smaller tables: this way, if the process fails on large tables (where the risk of failure is highest), at least part of the maintenance has been completed.
 >* Adobe recommends that you add the tables that are specific to your data model, which can be subject to significant updates. This can be the case for **NmsRecipient** if you have large daily data replication flows.
->* The VACUUM and REINDEX statements will lock the table, which pauses some processes while maintenance is carried out.
+>* The VACUUM statement will lock the table, which pauses some processes while maintenance is carried out.
 >* For very large tables (typically above 5 Gb), the VACUUM FULL statement can become quite inefficient and take a very long time. Adobe does not recommend using it for the **YyyNmsBroadLogXxx** table.
 >* This maintenance operation can be implemented by an Adobe Campaign workflow, using an **[!UICONTROL SQL]** activity. For more on this, refer to [this section](../../workflow/using/architecture.md). Make sure you schedule maintenance for a low activity time that does not collide with your backup window.
 >
