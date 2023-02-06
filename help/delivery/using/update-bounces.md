@@ -43,19 +43,19 @@ You need to run a query on your quarantine table to filter out all impacted reci
 
 Based on the timeframe of the incident, and the ISP, below are the recommended guidelines for this query.
 
-* For Campaign v8 and Campaign Classic v7 environments with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
+* For Campaign environments with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
 
     * **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
     * **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
     * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
     * **Update status (@lastModified)** on or before MM/DD/YYYY HH:MM:SS PM
 
-* For Campaign Classic v7 instances with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
+* For Campaign environments with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
 
     * **Error text (quarantine text)** contains “550-5.1.1” AND **Error text (quarantine text)** contains “support.ISP.com” 
         
         where “support.ISP.com” can be: “support.apple.com” or “support.google.com” for example
-        
+
     * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
     * **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
 

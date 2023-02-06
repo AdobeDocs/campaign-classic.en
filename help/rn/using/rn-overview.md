@@ -11,7 +11,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign Classic periodically releases product updates which bring new capabilities, bug fixes, and improve performance, security, and usability. These updates are released as product builds. Detailed information about each new build is available in the [Release notes](latest-release.md).
+Adobe Campaign Classic periodically releases product updates which bring new capabilities, bug fixes, and improve performance, security, and usability. These updates are released as **product builds**. Detailed information about each new build is available in the [Release notes](latest-release.md).
 
 ## Release statuses{#rn-statuses}
 
@@ -21,7 +21,7 @@ Every new build comes with a status which is identified by a color in the [Relea
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
-![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest version with new capabilities.
+![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest build with new capabilities.
 
 ![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
 
@@ -31,9 +31,9 @@ Every new build comes with a status which is identified by a color in the [Relea
 
 Adobe Campaign is regularly updated. This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.
 
-This is the reason why it is critical that you **run the most recent stable version** of Adobe Campaign. It also ensures that you get a better support experience as identifying, reproducing and fixing an issue on a recent build is usually much faster. Also, many issues you may encounter have already been fixed in most recent builds.
+This is the reason why it is critical that you **run the most recent stable build** of Adobe Campaign. It also ensures that you get a better support experience as identifying, reproducing and fixing an issue on a recent build is usually much faster. Also, many issues you may encounter have already been fixed in most recent builds.
 
-As a hosted customer, you automatically benefit from the upgrade with the latest stable version without any action. Learn more in the [Yearly Upgrade section](#yearly-upgrade). If you migrate from an old build, Adobe recommends that you upgrade to this version first.
+As a hosted customer, you automatically benefit from the upgrade with the latest stable build without any action. Learn more in the [Yearly Upgrade section](#yearly-upgrade). If you migrate from an old build, Adobe recommends that you upgrade to this build first.
 
 ## Recommendations{#recommendations}
 
@@ -63,7 +63,7 @@ As a hosted user, you automatically benefit from the upgrade with the latest GA 
 
 As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, and updating the current build and/or version, Adobe directly notifies you.
 
-As an on-premise or hybrid customer running on an older version, Adobe encourages you to move to the latest stable build (GA).
+As an on-premise or hybrid customer running on an older build, Adobe encourages you to move to the latest stable build (GA).
 
 This ensures that your account is secure from vulnerabilities, as well as using updated performance technology. This upgrade also positions your account for easier, regular upgrades going forward that requires less manual work and intervention.
 
