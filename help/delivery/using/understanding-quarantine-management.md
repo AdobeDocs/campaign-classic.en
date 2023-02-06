@@ -122,7 +122,9 @@ For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](s
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment wizard](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or [at the delivery level](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 
-## Remove a quarantined address {#removing-a-quarantined-address}
+## Remove an address from quarantine {#removing-a-quarantined-address}
+
+### Automatic updates {#unquarantine-auto}
 
 Addresses that match specific conditions are automatically deleted from the quarantine list by the [Database cleanup](../../production/using/database-cleanup-workflow.md) workflow. 
 
@@ -138,17 +140,21 @@ Their status then changes to **[!UICONTROL Valid]**.
 >
 >Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status are never removed, even if they receive an email.
 
+### Manual updates {#unquarantine-manual}
+
 You can also un-quarantine an address manually. To manually remove an address from the quarantine list, change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
 
 ![](assets/tech_quarant_error_status.png)
 
-You might need to perform bulk updates on the quarantine list, for example in case of an ISP outage during which emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient.
+### Bulk updates {#unquarantine-bulk}
 
-To perform this, create a workflow and add a query on your quarantine table to filter out all impacted recipients so they can be removed from the quarantine list, and included in future Campaign email deliveries. 
+You might need to perform bulk updates on the quarantine list, for example in case of an ISP outage. In such case, emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient. These addresses must be removed from the quarantine list.
+
+To perform this, create a workflow and add a **[!UICONTROL Query]** activity on your quarantine table to filter out all impacted recipients. Once identified, they can be removed from the quarantine list, and included in future Campaign email deliveries. 
 
 Below are the recommended guidelines for this query:
 
-* For Campaign v8 and Campaign Classic v7 environments with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
+* For Campaign Classic v7 environments with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
 
   * **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
   * **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
@@ -164,11 +170,11 @@ Below are the recommended guidelines for this query:
   * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
   * **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
 
-Once you have the list of affected recipients, add an **[!UICONTROL Update data]** activity to set their status to **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow,. You can also just delete them from the quarantine table.
+Once you have the list of affected recipients, add an **[!UICONTROL Update data]** activity to set their email address status to **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow. You can also just delete them from the quarantine table.
 
 ## Push notification quarantines {#push-notification-quarantines}
 
-The quarantine mechanism for push notifications is globally the same as the general process. See [About quarantines](#about-quarantines). However certain errors are managed differently for push notifications. For example, for certain soft errors, no retries are performed within the same delivery. The specificities for push notification are listed below. The retry mechanism (number of retries, frequency) is the same as for emails.
+The quarantine mechanism for push notifications is globally the same as the general process. However certain errors are managed differently for push notifications. For example, for certain soft errors, no retries are performed within the same delivery. The specificities for push notification are listed below. The retry mechanism (number of retries, frequency) is the same as for emails.
 
 The items put in quarantine are device tokens.
 

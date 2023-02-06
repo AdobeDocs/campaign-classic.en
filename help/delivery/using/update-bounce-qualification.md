@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Update bounce qualification after Gmail outage
-description: Learn how to update bounce qualification after an ISP outage
+title: Update bounce qualification after Apple 2021 outage
+description: Learn how to update bounce qualification after Apple 2021 outage
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 ---
