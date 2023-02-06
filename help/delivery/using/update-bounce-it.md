@@ -23,13 +23,13 @@ Learn more in the official communication [here](https://tecnologia.libero.it/avv
 
 ## Impact{#outage-impact}
 
-In case of an outage of an ISP, emails sent through Campaign cannot be successfully delivered to their recipient: these emails will be wrongly marked as bounces. This is not only impacting Adobe, but everyone trying to get email delivered to Italia Online.
+As in most of the cases when there’s an outage of an ISP, some emails sent through Campaign were wrongly marked as bounces. This was not only impacting Adobe, but everyone trying to get email delivered to Italia Online during the duration of the outage.
 
-Symptoms are:
+Symptoms were:
 
-* **Deferral bounces** with the message `452 requested action aborted: try again later` are being observed – these are automatically retried, and no actions are needed. They should improve as the ISP recovers full capacity.
+* **Deferral bounces** with the message `452 requested action aborted: try again later` – these were automatically retried, and no actions are needed.
 
-* **Hard bounces** with the message `550 <email address> recipient rejected` have been returned by the ISP on January 26th, between 8am – 2pm local time, to prevent senders to keep overloading their servers. As confirmed by the Italia Online Postmaster, these are not real hard bounces, so we recommend to un-quarantine all the email addresses that got excluded on January 26, 2023 due to that message. 
+* **Hard bounces** with the message `550 <email address> recipient rejected` have been returned by the ISP on January 26th, between 8am – 2pm local time, to prevent senders to keep overloading their servers. As confirmed by the Italia Online Postmaster, these are not real hard bounces, so we recommend to un-quarantine all the email addresses that got excluded on January 26, 2023 due to that message.
 
 ## Process to update{#outage-update}
 
