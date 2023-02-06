@@ -89,37 +89,6 @@ You can look up the status of the email address of any recipient. To do this, se
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### Remove a quarantined address {#removing-a-quarantined-address}
-
-If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the [Database cleanup](../../production/using/database-cleanup-workflow.md) workflow.
-
-To manually remove an address from the quarantine list, perform one of the actions below.
-
->[!IMPORTANT]
->
->Manually deleting an email address from quarantine means that you will start again delivering to this address. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Proceed with extra care when considering removing any address from quarantine. In case of any doubt, contact a deliverability expert.
-
-* You can change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
-
-  ![](assets/tech_quarant_error_status.png)
-
-* You can also change its status to **[!UICONTROL Allowlisted]**. In this case, the address remains on the quarantine list, but it will be systematically targeted, even if an error is encountered.
-
-The addresses are automatically removed from the quarantine list in the following cases:
-
-* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
-* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if the last soft bounce occurred more than 10 days ago. For more on soft error management, see [this section](#soft-error-management).
-* Addresses in a **[!UICONTROL With errors]** status that bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
-
-Their status then changes to **[!UICONTROL Valid]**.
-
->[!IMPORTANT]
->
->Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status will never be removed, even if they receive an email.
-
-For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the maximum number of retries to be performed in case of **[!UICONTROL Erroneous]** status and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain.
-
-For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment wizard](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or [at the delivery level](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 
@@ -146,6 +115,56 @@ As opposed to hard errors, soft errors do not send immediately an address to qua
 Retries will be performed during the [delivery duration](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). When the error counter reaches the limit threshold, the address goes into quarantine. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the [Database cleanup](../../production/using/database-cleanup-workflow.md) workflow.
+
+
+For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the maximum number of retries to be performed in case of **[!UICONTROL Erroneous]** status and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain.
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment wizard](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or [at the delivery level](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+
+
+## Remove a quarantined address {#removing-a-quarantined-address}
+
+Addresses that match specific conditions are automatically deleted from the quarantine list by the [Database cleanup](../../production/using/database-cleanup-workflow.md) workflow. 
+
+The addresses are automatically removed from the quarantine list in the following cases:
+
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if the last soft bounce occurred more than 10 days ago. For more on soft error management, see [this section](#soft-error-management).
+* Addresses in a **[!UICONTROL With errors]** status that bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
+
+Their status then changes to **[!UICONTROL Valid]**.
+
+>[!IMPORTANT]
+>
+>Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status are never removed, even if they receive an email.
+
+You can also un-quarantine an address manually. To manually remove an address from the quarantine list, change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
+
+![](assets/tech_quarant_error_status.png)
+
+You might need to perform bulk updates on the quarantine list, for example in case of an ISP outage during which emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient.
+
+To perform this, create a workflow and add a query on your quarantine table to filter out all impacted recipients so they can be removed from the quarantine list, and included in future Campaign email deliveries. 
+
+Below are the recommended guidelines for this query:
+
+* For Campaign v8 and Campaign Classic v7 environments with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
+
+  * **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
+  * **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
+  * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
+  * **Update status (@lastModified)** on or before MM/DD/YYYY HH:MM:SS PM
+
+* For Campaign Classic v7 instances with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
+
+  * **Error text (quarantine text)** contains “550-5.1.1” AND **Error text (quarantine text)** contains “support.ISP.com” 
+
+  where “support.ISP.com” can be: “support.apple.com” or “support.google.com” for example
+        
+  * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
+  * **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
+
+Once you have the list of affected recipients, add an **[!UICONTROL Update data]** activity to set their status to **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow,. You can also just delete them from the quarantine table.
 
 ## Push notification quarantines {#push-notification-quarantines}
 
