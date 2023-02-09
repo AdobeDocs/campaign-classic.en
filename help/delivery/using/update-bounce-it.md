@@ -5,6 +5,7 @@ description: Learn how to update bounce qualification after Italia Online outage
 feature: Deliverability
 hide: yes
 hidefromtoc: yes
+exl-id: 66f56801-49b2-4bf9-894b-6c91ce1d0ddd
 ---
 # Update incorrect hard bounces after Italia Online outage {#update-bounce-italia}
 

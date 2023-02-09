@@ -5,6 +5,7 @@ description: Learn how to update bounce qualification after an ISP outage
 feature: Deliverability
 hide: yes
 hidefromtoc: yes
+exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 ---
 # Update incorrect hard bounces after an ISP outage {#update-bounces}
 
