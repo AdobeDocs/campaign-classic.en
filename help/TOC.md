@@ -828,7 +828,6 @@ type: Documentation
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
        + [How to  update incorrect hard bounces](delivery/using/update-bounce-qualification.md)
        + [Update incorrect hard bounces after an ISP outage](delivery/using/update-bounces.md)
-       + [Update incorrect hard bounces after the Italia Online outage](delivery/using/update-bounce-it.md)
        + [iOS certificate update](technotes/using/ios-certificate-update.md)
        + [Tracked URLs update](technotes/using/tracked-urls.md)
   + Migration to Adobe Managed Services{#dc-migration}
