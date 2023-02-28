@@ -315,8 +315,6 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 
 
 
-
-
 ## Client Console {#ClientConsoleoperatingsystems}
 
 The following operating systems and browser are **required** to use [Campaign Client Console](../../installation/using/installing-the-client-console.md). 
@@ -330,7 +328,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <td>Microsoft Windows</td>
 <td>
 <p>11 (starting Campaign v7.3)</p>
-<p>10 (recommended for Japanese instances)</p>
+<p>10</p>
 <p>8</p>
 </td>
 </tr>
@@ -346,22 +344,10 @@ The following operating systems and browser are **required** to use [Campaign Cl
 
 ### Microsoft WebView2 runtime
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2 runtime
-</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download">Download from Microsoft Developer website</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+Microsoft Edge WebView2 runtime latest version is mandatory for Campaign client console. 
+
+Download Microsoft Edge WebView2 from [Microsoft Developer site](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
+
 
 ## Mobile SDK{#MobileSDK}
 
@@ -370,14 +356,14 @@ You can use Campaign to [send push notifications](../../delivery/using/about-mob
 <table>
 <tbody>
 <tr>
-<td>Android</td>
+<td>Google Android</td>
 <td>
 <p>12 (starting Campaign v7.3), 9.0, 8.x, 7.x</p>
 <p>with mobile SDK build 1.1.1</p>
 </td>
 </tr>
 <tr>
-<td>iOS</td>
+<td>Apple iOS</td>
 <td>
 <p>iOS 9 - 15</p>
 <p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions. iOS 15 is supported starting Campaign v7.3</p>
@@ -388,46 +374,13 @@ You can use Campaign to [send push notifications](../../delivery/using/about-mob
 
 ## Browsers{#Browsers}
 
-The following browsers are compatible with Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+The following browsers, in their latest version, are compatible with Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Mozilla Firefox</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Google Chrome</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Safari</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-</tr>
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+* Safari
 
-</tr>
-</tbody>
-</table>
 
 
 ## More like this{#Morelikethis}
