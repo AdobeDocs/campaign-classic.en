@@ -42,7 +42,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Debian</td>
 <td>
-<p>11 (starting Campaign 7.3)</p>
+<p>11 (starting Campaign v7.3)</p>
 <p>10</p>
 <p>9</p>
 </td>
@@ -58,7 +58,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2019 (starting 7.2 release)</p>
+<p>2019 (starting Campaign v7.2)</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -329,7 +329,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11 (starting 7.3 release)</p>
+<p>11 (starting Campaign v7.3)</p>
 <p>10 (recommended for Japanese instances)</p>
 <p>8</p>
 </td>
@@ -337,7 +337,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019 (starting 7.2.1 release)</p>
+<p>2019 (starting Campaign v7.2.1)</p>
 <p>2016</p>
 <p>2012</p>
 </td>
