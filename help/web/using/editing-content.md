@@ -213,9 +213,9 @@ Select an image file saved locally.
 
 ![](assets/dce_popup_imgupload.png)
 
-The **Delete** icon deletes the ![]() tag containing the image.
+The **Delete** icon deletes the `![]()` tag containing the image.
 
-The **Duplicate** icon duplicates the ![]() tag and its content.
+The **Duplicate** icon duplicates the `![]()` tag and its content.
 
 >[!CAUTION]
 >
