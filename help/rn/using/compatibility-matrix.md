@@ -34,9 +34,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr> 
 <td>CentOs</td>
 <td>
-<p>8.x (64 bits) </br><strong>Important:</strong> CentOS Linux 8 will reach End Of Life (EOL) on December 31st, 2021. For more information, refer to the <a href=../../rn/using/deprecated-features.md>Deprecated features</a> page.</p>
-<p>7.x (64 bits)</p>
+<p>7.x</p>
 <p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
+<p>8.x</br><strong>Important:</strong> CentOS Linux 8 will reach End Of Life (EOL) on December 31st, 2021. For more information, refer to the <a href=../../rn/using/deprecated-features.md>Deprecated features</a> page.</p>
 </td>
 </tr>
 <tr>
@@ -82,7 +82,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Apache</td>
 <td>
-<p>2.4 for RHEL7 - CentOS 7, Debian 8/9, Windows (64 bits)</p>
+<p>2.4 for RHEL7 - CentOS 7, Debian 8/9, Windows</p>
 </td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for OpenJDK.</p>
+<p>Campaign supports the Java Development Kit (JDK) developed by Oracle, and OpenJDK.</p>
 </td>
 </tr>
 <tr>
@@ -195,7 +195,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>Amazon Redshift</td>
 <td><p>&nbsp;</p>
-<td>v7.0 19.1.4 minimumm</td>
+<td>v7.0 19.1.4 minimum</td>
 </td>
 </tr>
 <tr>
