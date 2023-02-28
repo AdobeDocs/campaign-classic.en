@@ -42,23 +42,23 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Debian</td>
 <td>
-<p>11 (64 bits)</p>
-<p>10 (64 bits)</p>
-<p>9 (64 bits)</p>
+<p>11 (starting Campaign 7.3)</p>
+<p>10</p>
+<p>9</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
-<p>8.x (64 bits)</p>
-<p>7.x (64 bits)</p>
+<p>8.x</p>
+<p>7.x</p>
 <p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2019 (starting 7.2.1 release)</p>
+<p>2019 (starting 7.2 release)</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -132,7 +132,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>14.x</p>
+<p>14.x (starting Campaign v7.3.2)</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -148,7 +148,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 and SP2</p>
-<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href=https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html?lang=en#database-access-layers>Learn more</a>.</p>
+<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href=https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers>Learn more</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -201,7 +201,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>Google BigQuery</td>
 <td>&nbsp;</td>
-<td>7.2.1 minimum</td>
+<td>7.2 minimum</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -217,7 +217,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>Snowflake</td>
 <td>&nbsp;</td>
-<td>7.2.1 minimum</td>
+<td>7.2 minimum</td>
 </tr>
 <tr>
 <td>Vertica Analytics</td>
@@ -241,7 +241,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>8</p>
+<p>8 (starting Campaign v7.3)</p>
 <p>5.7</p>
 </td>
 <td>
