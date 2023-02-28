@@ -21,7 +21,7 @@ To learn more on the different Android and iOS versions supported, refer to the 
 
 >[!NOTE]
 >
->You can also use the Adobe Experience Platform mobile SDK by configuring the Adobe Campaign extension in Adobe Launch. [Learn more in Adobe Experience Platform documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target="_blank"}.
+>You can also use the Adobe Experience Platform mobile SDK by configuring the Adobe Campaign extension in Adobe Launch. [Learn more in Adobe Experience Platform documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 >
 >Learn how to configure and install the Adobe Experience Platform Mobile SDK [in this video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=en){target="_blank"}.
 

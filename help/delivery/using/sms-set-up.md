@@ -23,6 +23,10 @@ To send to a mobile phone, you need:
 
 ## Create an SMPP external account {#creating-an-smpp-external-account}
 
+>[!IMPORTANT]
+>
+>Using the same account and password for multiple external SMS accounts can result in conflicts and overlap between the accounts. Refer to the [SMS troubleshooting page](troubleshooting-sms.md#external-account-conflict).
+
 To send a SMS to a mobile phone, you first need to create your SMPP external account.
 For more information on SMS protocol and settings, refer to this [page](sms-protocol.md).
 
