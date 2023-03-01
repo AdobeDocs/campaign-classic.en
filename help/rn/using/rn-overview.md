@@ -61,7 +61,7 @@ As a hosted user, you automatically benefit from the upgrade with the latest GA 
 
 ### Why does my organization need this upgrade?
 
-As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, and upgrading your infrastructure to the current build (for example from v7.2.1 to v7.3.3) and/or version (from v7 to v8), Adobe directly notifies you.
+As a hosted customer, if your account has been identified as needing to upgrade one or more of the technologies related to Campaign Classic, and upgrading your infrastructure to the current build (for example from v7.2.1 to v7.3.3) and/or version (for example from v7 to v8), Adobe directly notifies you.
 
 As an on-premise or hybrid customer running on an older build, Adobe encourages you to move to the latest stable build (GA).
 
@@ -71,7 +71,7 @@ This ensures that your account is secure from vulnerabilities, as well as using 
 
 The Adobe team is here to lead and guide your organization through this journey.
 
-A team of dedicated Customer Care Reps, Product Managers, Engineers and TechOps Specialists, and Product Consultants is here to assist and ensure the experience is smooth.
+A team of dedicated Customer Care Representativess, Product Managers, Engineers and TechOps Specialists, and Product Consultants is here to assist and ensure the experience is smooth.
 
 ### Benefits
 
