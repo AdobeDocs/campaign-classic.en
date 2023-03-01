@@ -45,9 +45,9 @@ To keep your implementation up-to-date, make sure to read out the [Deprecated an
 
 ## Process to upgrade{#process-upgrade}
 
-As a hosted customer (Managed Service or Hybrid), reach out to the Customer Care team to have your environment upgraded.
+As a hosted, Managed Services or Hybrid customer, reach out to Adobe Customer Care to have your environment upgraded.
 
-As an on-premise user, you can perform the upgrade. To do this, [download the latest stable build (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. 
+As an on-premise customer, you can perform the upgrade. To do this, [download the latest stable build (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. 
 
 Learn more on the [upgrade process](../../production/using/build-upgrade.md), and in the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
 
