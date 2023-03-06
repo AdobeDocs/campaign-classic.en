@@ -241,7 +241,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>8 (starting Campaign v7.3)</p>
+<p>8</p>
 <p>5.7</p>
 </td>
 <td>
@@ -264,7 +264,12 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>12c</p>
 <p>11g</p>
 </td>
-<td>v7.0 minimum</td>
+<td>
+<p>v7.0 minimum</p>
+<p></p>
+<p></p>
+<p></p>
+</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
@@ -323,22 +328,32 @@ The following operating systems and browser are **required** to use [Campaign Cl
 
 <table>
 <tbody>
-</tr>
+<td><strong>System</strong></td>
+<td><strong>OS version</strong></td>
+<td><strong>Campaign version</strong></td>
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11 (starting Campaign v7.3)</p>
+<p>11</p>
 <p>10</p>
 <p>8</p>
 </td>
+<td>
+<p>v7.3 minimum</p>
+<p></p>
+<p></p>
 </tr>
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019 (starting Campaign v7.2.1)</p>
+<p>2019</p>
 <p>2016</p>
 <p>2012</p>
 </td>
+<td>
+<p>v7.2.1 minimum</p>
+<p></p>
+<p></p>
 </tbody>
 </table>
 
