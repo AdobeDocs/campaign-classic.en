@@ -262,7 +262,9 @@ The **[!UICONTROL SMTP sending statistics]** report lets you control server acti
 The list of indicators for this report is shown below the chart.
 
 1. Total number of messages sent.
-1. * Blue line: messages ready for sending which arrived in the Shaper, i.e. last stage before sending SMTP (coincides with the incoming data).
+1. Represents in/out messages:
+  
+   * Blue line: messages ready for sending which arrived in the Shaper, i.e. last stage before sending SMTP (coincides with the incoming data).
 
    * Green line: messages successfully sent (coincides with the outgoing data).
 
