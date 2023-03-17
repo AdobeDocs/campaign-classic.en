@@ -44,7 +44,7 @@ Your iOS connector is now configured. You can start creating your service.
 
 >[!CAUTION]
 >
->The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
+>The application must have been configured for Push actions BEFORE any integration to Adobe SDK.
 >
 >If this is not the case, please refer to [this page](https://developer.apple.com/documentation/usernotifications).
 
