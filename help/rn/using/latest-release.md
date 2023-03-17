@@ -13,13 +13,49 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-## ![](assets/do-not-localize/green_2.png) Release 7.3.2 - Build 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/green_2.png) Release 7.3.3 - Build 9359 {#release-7-3-3}
+
+>[!CAUTION]
+>
+> This release is only available for Managed Cloud Services users for now, and will be soon available for on-premise and hybrid deployments.
+>
+>Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md).
+
+>[!NOTE]
+>
+>This release is GA for Managed Cloud Services users only.
+
+_March 9, 2023_
+
+**Security enhancement**
+
+* To optimize security, Tomcat has been updated from version 8.5.81 to 8.5.85. (NEO-56936)
+
+**Improvements**
+
+* The Billing workflow has been improved to optimize performance. (NEO-47658)
+* The tracking workflow has been improved to optimize performance in case of high delivery size. (NEO-45064)
+* Tracking management has been improved to fix possible issues with dynamic parameters in URLs. Tracking management v3 now handles ajax type URLs (with parameters after a '#') and prevents third-party tools from modifying tracking URLs. To apply this change, you need to contact Adobe. (NEO-46535)
+
+<!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
+
+**Patches**
+
+* Fixed an issue which could prevent iOS proof push notifications from being sent from the control instance (Transactional Messaging context). (NEO-54713)
+* Fixed an issue which could prevent you from scrolling in the **Edit** tab of the Digital Content Editor (DCE). (NEO-54474)
+* Fixed an issue, when two enrichment activities were using the same name identifier in their linking, which led the second enrichment activity to use the links of the first one. (NEO-48851)
+
+## ![](assets/do-not-localize/green.png) Release 7.3.2 - Build 9356 {#release-7-3-2}
 
 _November 21, 2022_
 
 >[!CAUTION]
 >
 >Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md).
+
+>[!NOTE]
+>
+>This release is GA for on-premise and hybrid deployments only.
 
 **Compatibility updates**
 
