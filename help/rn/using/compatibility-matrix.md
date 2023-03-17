@@ -368,6 +368,9 @@ Download Microsoft Edge WebView2 from [Microsoft Developer site](http://www.adob
 
 You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md) on the operating systems listed below, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). 
 
+You can also use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. 
+
+
 <table>
 <tbody>
 <tr>
