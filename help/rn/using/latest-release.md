@@ -17,15 +17,9 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 >[!CAUTION]
 >
-> This release is only available for Managed Cloud Services users for now, and will be soon available for on-premise and hybrid deployments.
->
 >Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md).
 
->[!NOTE]
->
->This release is GA for Managed Cloud Services users only.
-
-_March 9, 2023_
+_March 20, 2023_
 
 **Security enhancement**
 
@@ -45,17 +39,13 @@ _March 9, 2023_
 * Fixed an issue which could prevent you from scrolling in the **Edit** tab of the Digital Content Editor (DCE). (NEO-54474)
 * Fixed an issue, when two enrichment activities were using the same name identifier in their linking, which led the second enrichment activity to use the links of the first one. (NEO-48851)
 
-## ![](assets/do-not-localize/green.png) Release 7.3.2 - Build 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/orange_2.png) Release 7.3.2 - Build 9356 {#release-7-3-2}
 
 _November 21, 2022_
 
 >[!CAUTION]
 >
 >Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md).
-
->[!NOTE]
->
->This release is GA for on-premise and hybrid deployments only.
 
 **Compatibility updates**
 
