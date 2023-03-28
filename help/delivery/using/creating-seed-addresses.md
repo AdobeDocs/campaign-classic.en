@@ -26,11 +26,11 @@ To create seed addresses, follow the steps below:
    >
    >The label of the address is automatically filled in with the last name and first name you defined.
    >
-   >It is not necessary to enter all fields of each tab when creating a seed address. Any missing personalization elements are entered randomly during delivery.
+   >You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis.
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
-1. In the **[!UICONTROL Seed fields]** tab, enter the values that will be inserted in the delivery logs during the analysis phase (in the **[!UICONTROL nms:broadLog]** table).
+1. In the **[!UICONTROL Address fields]** tab, enter the values that will be inserted in the delivery logs during the analysis phase (in the **[!UICONTROL nms:broadLog]** table).
 
 1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to.
 

@@ -370,7 +370,6 @@ You can use Campaign to [send push notifications](../../delivery/using/about-mob
 
 You can also use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. 
 
-
 <table>
 <tbody>
 <tr>
