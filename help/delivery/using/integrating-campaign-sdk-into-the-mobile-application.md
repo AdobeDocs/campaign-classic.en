@@ -136,6 +136,7 @@ The registration function enables you to:
       [nl registerDevice:tokenString:self.userKey:dic];
   }
   ```
+
 +++
 
 +++**Tracking function**
@@ -332,6 +333,7 @@ To track your silent notification, follow the example below:
         completionHandler(UIBackgroundFetchResultNoData);
 }
 ```
+
 +++
 
 +++**RegisterDeviceStatus delegate**
@@ -617,6 +619,7 @@ The media has to be downloaded at the notification service extension level.
     // Perform the download to local storage
 
 ```
+
 +++
 
 +++**Notification Content Extension**
@@ -672,4 +675,5 @@ At this level, you need to:
   @end
   
   ```
+
 +++
