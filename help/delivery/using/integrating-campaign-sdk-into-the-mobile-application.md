@@ -9,19 +9,16 @@ exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 
 ![](../../assets/v7-only.svg)
 
-
->[!NOTE]
+>[!CAUTION]
 >
->Adobe recommends to use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. [Learn more in Adobe Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-Campaign SDKs for iOS and Android are one of the components of the Mobile App Channel module. The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
+>Adobe strongly recommends to use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. [Learn more in Adobe Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 To get Campaign SDK (previously known as Neolane SDK), contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#MobileSDK).
 
 
-## Loading Campaign SDK {#loading-campaign-sdk}
++++Loading Campaign SDK
 
 * **In Android**: the **neolane_sdk-release.aar** file must be linked to the project.
 
@@ -48,6 +45,8 @@ To learn more on the different Android and iOS versions supported, refer to the 
   >[!NOTE]
   >
   >For version 1.0.25 of the SDK, the four architectures are available in the **Neolane_SDK.h** file.
+
++++
 
 ## Declaring integration settings {#declaring-integration-settings}
 
