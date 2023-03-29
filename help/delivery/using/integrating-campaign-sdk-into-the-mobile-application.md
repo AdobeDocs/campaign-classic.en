@@ -17,8 +17,9 @@ To get Campaign SDK (previously known as Neolane SDK), contact [Adobe Customer C
 
 To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#MobileSDK).
 
+You can find below the integration steps for Campaign SDK.
 
-+++Loading Campaign SDK
++++**Loading Campaign SDK**
 
 * **In Android**: the **neolane_sdk-release.aar** file must be linked to the project.
 
@@ -48,7 +49,7 @@ To learn more on the different Android and iOS versions supported, refer to the 
 
 +++
 
-## Declaring integration settings {#declaring-integration-settings}
++++**Declaring integration settings**
 
 To integrate Campaign SDK into the mobile application, the functional administrator must provide the following information to the developer:
 
@@ -78,7 +79,9 @@ To integrate Campaign SDK into the mobile application, the functional administra
   [nl setIntegrationKey:strIntegrationKey];
   ```
 
-## Registration function {#registration-function}
++++
+
++++**Registration function**
 
 The registration function enables you to:
 
@@ -133,8 +136,9 @@ The registration function enables you to:
       [nl registerDevice:tokenString:self.userKey:dic];
   }
   ```
++++
 
-## Tracking function {#tracking-function}
++++**Tracking function**
 
 * **In Android**:
 
@@ -287,7 +291,9 @@ The registration function enables you to:
   >
   >From version 7.0, once the **application:didReceiveRemoteNotification:fetchCompletionHandler** function is implemented, the operating system only calls this function. The **application:didReceiveRemoteNotification** function is therefore not called.
 
-## Silent notification tracking {#silent-notification-tracking}
++++
+
++++**Silent notification tracking**
 
 iOS lets you send silent notifications, a notification or data which will be directly sent to a mobile application without displaying it. Adobe Campaign allows you to track them.
 
@@ -326,8 +332,9 @@ To track your silent notification, follow the example below:
         completionHandler(UIBackgroundFetchResultNoData);
 }
 ```
++++
 
-### RegisterDeviceStatus delegate {#registerdevicestatus-delegate}
++++**RegisterDeviceStatus delegate**
 
 >[!NOTE]
 >
@@ -523,7 +530,9 @@ To implement **registerDeviceStatus** delegate, follow these steps:
    @end
    ```
 
-## Variables {#variables}
++++
+
++++**Variables**
 
 The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](configuring-the-mobile-application.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 
@@ -571,7 +580,9 @@ The variables let you define mobile application behavior after receiving a notif
 >
 >Adobe recommends choosing short variable names because notification size is limited to 4kB for iOS and Android.
 
-## Notification Service Extension {#notification-service-extension}
++++
+
++++**Notification Service Extension**
 
 **For iOS**
 
@@ -606,8 +617,9 @@ The media has to be downloaded at the notification service extension level.
     // Perform the download to local storage
 
 ```
++++
 
-## Notification Content Extension {#notification-content-extension}
++++**Notification Content Extension**
 
 **For iOS**
 
@@ -660,3 +672,4 @@ At this level, you need to:
   @end
   
   ```
++++
