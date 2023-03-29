@@ -9,19 +9,17 @@ exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 
 ![](../../assets/v7-only.svg)
 
-
->[!NOTE]
+>[!CAUTION]
 >
->Adobe recommends to use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. [Learn more in Adobe Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-Campaign SDKs for iOS and Android are one of the components of the Mobile App Channel module. The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
+>Adobe strongly recommends to use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. [Learn more in Adobe Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 To get Campaign SDK (previously known as Neolane SDK), contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#MobileSDK).
 
+You can find below the integration steps for Campaign SDK.
 
-## Loading Campaign SDK {#loading-campaign-sdk}
++++**Loading Campaign SDK**
 
 * **In Android**: the **neolane_sdk-release.aar** file must be linked to the project.
 
@@ -49,7 +47,9 @@ To learn more on the different Android and iOS versions supported, refer to the 
   >
   >For version 1.0.25 of the SDK, the four architectures are available in the **Neolane_SDK.h** file.
 
-## Declaring integration settings {#declaring-integration-settings}
++++
+
++++**Declaring integration settings**
 
 To integrate Campaign SDK into the mobile application, the functional administrator must provide the following information to the developer:
 
@@ -79,7 +79,9 @@ To integrate Campaign SDK into the mobile application, the functional administra
   [nl setIntegrationKey:strIntegrationKey];
   ```
 
-## Registration function {#registration-function}
++++
+
++++**Registration function**
 
 The registration function enables you to:
 
@@ -135,7 +137,9 @@ The registration function enables you to:
   }
   ```
 
-## Tracking function {#tracking-function}
++++
+
++++**Tracking function**
 
 * **In Android**:
 
@@ -288,7 +292,9 @@ The registration function enables you to:
   >
   >From version 7.0, once the **application:didReceiveRemoteNotification:fetchCompletionHandler** function is implemented, the operating system only calls this function. The **application:didReceiveRemoteNotification** function is therefore not called.
 
-## Silent notification tracking {#silent-notification-tracking}
++++
+
++++**Silent notification tracking**
 
 iOS lets you send silent notifications, a notification or data which will be directly sent to a mobile application without displaying it. Adobe Campaign allows you to track them.
 
@@ -328,7 +334,9 @@ To track your silent notification, follow the example below:
 }
 ```
 
-### RegisterDeviceStatus delegate {#registerdevicestatus-delegate}
++++
+
++++**RegisterDeviceStatus delegate**
 
 >[!NOTE]
 >
@@ -524,7 +532,9 @@ To implement **registerDeviceStatus** delegate, follow these steps:
    @end
    ```
 
-## Variables {#variables}
++++
+
++++**Variables**
 
 The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](configuring-the-mobile-application.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 
@@ -572,7 +582,9 @@ The variables let you define mobile application behavior after receiving a notif
 >
 >Adobe recommends choosing short variable names because notification size is limited to 4kB for iOS and Android.
 
-## Notification Service Extension {#notification-service-extension}
++++
+
++++**Notification Service Extension**
 
 **For iOS**
 
@@ -608,7 +620,9 @@ The media has to be downloaded at the notification service extension level.
 
 ```
 
-## Notification Content Extension {#notification-content-extension}
++++
+
++++**Notification Content Extension**
 
 **For iOS**
 
@@ -661,3 +675,5 @@ At this level, you need to:
   @end
   
   ```
+
++++
