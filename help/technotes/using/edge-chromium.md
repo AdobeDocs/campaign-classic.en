@@ -13,7 +13,7 @@ hidefromtoc: yes
 
 ## What changed?
 
-Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for Adobe Services (login page) in the client console is now using Microsoft Edge Chromium, starting Campaign Classic v7.3.
+Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for dashboards in the client console is using Edge Chromium, starting Campaign Classic v7.3.
 
 In addition to the installation of Microsoft Edge Webview 2 runtime, which is now [required for any client console installation](../../installation/using/installing-the-client-console.md#webview), Microsoft Edge Chromium must be enabled on your instance(s). 
 
