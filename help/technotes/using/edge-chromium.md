@@ -33,19 +33,19 @@ If your environment has been upgraded to Campaign Classic v7.3 (or later), you a
 
     1. Edit the Campaign server configuration file (`serverConf.xml`)
     1. In the `<web>` module, set `webView2Mode = "1"`
-    1. Reload the server configuration 
+    1. Run the following command to reload the server configuration:
 
         ```
         nlserver config -reload
         ```
 
-    1. Restart the web server
+    1. Run the following commande to restart the web server:
 
         ```
         nlserver restart web
         ```
 
-    1. If your environment runs on Apache, restart Apache
+    1. If your environment uses Apache as a web server, run the following command to restart Apache:
 
         ```
         /etc/init.d/apache2 restart
