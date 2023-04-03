@@ -43,13 +43,13 @@ If your environment has been upgraded to Campaign Classic v7.3 (or later), you a
 
         ```
         nlserver restart web
-        ````
+        ```
 
     1. If your environment runs on Apache, restart Apache
 
         ```
         /etc/init.d/apache2 restart
-        ````
+        ```
 
 
 >[!NOTE]
