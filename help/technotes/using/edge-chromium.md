@@ -23,7 +23,7 @@ If your environment has been upgraded to Campaign Classic v7.3 (or later), you a
 
 ## How to update?
 
-* As a **hosted** customer, Adobe already enabled Microsoft Edge Chromium on your instance(s). 
+* As a **hosted** customer, Adobe already enabled Microsoft Edge Chromium on your instance(s). No additional action is required.
 
 * As an **on-premise/hybrid** customer, you need to enable Microsoft Edge Chromium on your instance(s). 
     
