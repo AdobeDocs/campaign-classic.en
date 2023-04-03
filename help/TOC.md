@@ -819,6 +819,7 @@ type: Documentation
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
   + Upgrades and compatibility{#technote-migration}
        + [Technotes](technotes/using/technote.md)
+       + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       
        + [New deliverabiity server](technotes/using/deliverability-server.md)
        + [Apache Security Upgrade](technotes/using/acc-apache-upgrade.md)
        + [2023 system upgrades](technotes/using/tech-stack-upgrade.md)

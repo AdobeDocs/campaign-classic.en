@@ -8,7 +8,7 @@ exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 
 ![](../../assets/v7-only.svg)
  
-On June 30, 2021 changes have beeb made to [Adobe Identity Management System](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) login capabilities that could impact your ability to continue to use Adobe Campaign. Learn how to ensure you continue to use Adobe Campaign Classic v7 without interruption. 
+On June 30, 2021 changes have been made to [Adobe Identity Management System](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) login capabilities that could impact your ability to continue to use Adobe Campaign. Learn how to ensure you continue to use Adobe Campaign Classic v7 without interruption. 
 
 ## What changed?
 
