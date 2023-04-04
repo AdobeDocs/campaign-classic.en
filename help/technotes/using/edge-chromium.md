@@ -2,8 +2,6 @@
 product: campaign
 title: Technote - Enabling Microsoft Edge Chromium on your Campaign environment
 description: Campaign - Edge Chromium
-hide: yes
-hidefromtoc: yes
 ---
 
 # How to enable Microsoft Edge Chromium on your environment {#edge-conf}
