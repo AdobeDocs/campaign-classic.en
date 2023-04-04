@@ -39,7 +39,7 @@ If your environment has been upgraded to Campaign Classic v7.3 (or later), you a
         nlserver config -reload
         ```
 
-    1. Run the following commande to restart the web server:
+    1. Run the following command to restart the web server:
 
         ```
         nlserver restart web
