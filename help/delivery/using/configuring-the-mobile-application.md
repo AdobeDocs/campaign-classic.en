@@ -7,7 +7,7 @@ exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 ---
 # Configuration steps for iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Once the package is installed, you can define your iOS app settings in Adobe Campaign Classic.
 

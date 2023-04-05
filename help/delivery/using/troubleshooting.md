@@ -7,7 +7,7 @@ exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
 ---
 # Troubleshooting{#troubleshooting}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 If your mobile device is connected to Wi-Fi and you are not receiving notifications, check that the FCM/APNs ports are not being blocked by your firewall.
 
