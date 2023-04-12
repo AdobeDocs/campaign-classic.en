@@ -2,8 +2,8 @@
 product: campaign
 title: Technote - Enabling Microsoft Edge Chromium on your Campaign environment
 description: Campaign - Edge Chromium
+exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 ---
-
 # How to enable Microsoft Edge Chromium on your environment {#edge-conf}
 
 ![](../../assets/v7-only.svg)
@@ -60,4 +60,3 @@ If your environment has been upgraded to Campaign Classic v7.3 (or later), you a
 * [Upgrade your environment](../../production/using/build-upgrade.md)
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 * [Install Campaign Client Console](../../installation/using/installing-the-client-console.md)
-
