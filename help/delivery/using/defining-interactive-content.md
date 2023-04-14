@@ -9,11 +9,11 @@ exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 
 ![](../../assets/common.svg)
 
-Adobe Campaign enables you to use the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
+Adobe Campaign enables you to use the interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
 With AMP for Email, you can:
 * Test delivering AMP emails to specific addresses appropriately configured.
-* Deliver AMP emails to Gmail, Outlook, or Mail.ru addresses after registering with the corresponding providers.
+* Deliver AMP emails to Gmail or Mail.ru addresses after registering with the corresponding providers.
 
 For more on testing and sending AMP emails, see [this section](#targeting-amp-email).
 
@@ -125,16 +125,16 @@ To build an email using the AMP format, follow the steps below.
 
 When building your AMP content in Adobe Campaign, you must comply with the conditions for a dynamic email to be delivered, which are specific to your recipients' email providers.
 
-Currently three email providers support testing this format: Gmail, Outlook, and Mail.ru.
+Currently two email providers support testing this format: Gmail and Mail.ru.
 
-All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the corresponding [Gmail](https://developers.google.com/gmail/ampemail?), [Outlook ](https://docs.microsoft.com/en-gb/outlook/amphtml/), and [Mail.ru](https://postmaster.mail.ru/amp) developer documentations.
+All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the corresponding [Gmail](https://developers.google.com/gmail/ampemail?), and [Mail.ru](https://postmaster.mail.ru/amp) developer documentations.
 
 In particular, the following requirements must be met:
-* Follow the AMP security requirements specific to [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements), and [Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto).
+* Follow the AMP security requirements specific to [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), and [Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto).
 * The AMP MIME part must contain a [valid AMP document](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email).
 * The AMP MIME part must be smaller than 100KB.
 
-You can also consult the [Tips and known limitations for Gmail](https://developers.google.com/gmail/ampemail/tips) and the [AMP best practices for Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/best-practices).
+You can also consult the [Tips and known limitations for Gmail](https://developers.google.com/gmail/ampemail/tips) documentation.
 
 ## Target an AMP email {#targeting-amp-email}
 
@@ -150,15 +150,15 @@ You can test sending dynamic messages from Adobe Campaign to selected email addr
 
 >[!NOTE]
 >
->Currently only Gmail, Outlook, and Mail.ru support testing the AMP format.
+>Only Gmail and Mail.ru support testing the AMP format.
 
-For Gmail and Outlook, you must first add the sender address(es) you are using to the allowlist to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
+For Gmail, you must first add the sender address(es) you are using to the allowlist to deliver from Adobe Campaign for the Gmail accounts you are targeting.
 
 To do this:
 1. Make sure the option enabling dynamic email is checked for the relevant email provider(s).
 1. Copy the sender address displayed in the delivery's **[!UICONTROL From]** field and paste it into your email provider account settings' appropriate section.
 
-For further details, consult the [Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email) and [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#individual-mailbox-registration) developer documentations.
+For further details, consult the [Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email) developer documentation.
 
 ![](assets/amp_from_field.png)
 
@@ -170,9 +170,9 @@ To test sending an AMP email to a Mail.ru address, follow the steps from the [Ma
 
 >[!NOTE]
 >
->Currently only Gmail, Outlook and Mail.ru support the AMP format.
+>Only Gmail and Mail.ru support the AMP format.
 
-Once tested with a few addresses, you can send AMP emails to any Gmail or Outlook address. To do this, you must respectfully register with Google or Microsoft, and await their answer. Follow the steps presented in the [Gmail](https://developers.google.com/gmail/ampemail/register) and [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#global-registration) developer documentations. After successful registration, you become an authorized sender.
+Once tested with a few addresses, you can send AMP emails to any Gmail address. To do this, you must register with Google, and await their answer. Follow the steps presented in the [Gmail](https://developers.google.com/gmail/ampemail/register) developer documentation. After successful registration, you become an authorized sender.
 
 To send AMP emails to Mail.ru addresses, follow the requirements and steps listed in the [Mail.ru developer documentation](https://postmaster.mail.ru/amp/?lang=en#howto) (**If you are an Email sender** section).
 
@@ -180,7 +180,7 @@ To send AMP emails to Mail.ru addresses, follow the requirements and steps liste
 
 Once your AMP content and fallback are ready, and once you defined a compatible target, you can send the email as you would normally do.
 
-Currently only Gmail, Outlook, and Mail.ru support the AMP format, under certain conditions. You can target addresses from other email providers, but they will receive the HTML or plain text version of your email.
+Currently only Gmail and Mail.ru support the AMP format, under certain conditions. You can target addresses from other email providers, but they will receive the HTML or plain text version of your email.
 
 >[!IMPORTANT]
 >
