@@ -63,6 +63,9 @@ Before starting this implementation, please check you have:
 
     The keys will then be automatically downloaded with a default expiry date of 365 days. Once expired, you will need to create a new key pair and update the integration in the configuration file. Using the Option 2, you can choose to manually create and upload your **[!UICONTROL Public key]** with a longer expiry date.
 
+    For a step-by-step guide on how to replace expiring certificate key pairs, refer to [this page](https://developer.adobe.com/developer-console/docs/guides/email-alerts/cert-expiry/#a-step-by-step-guide-to-replacing-expiring-certificate-key-pairs).
+
+
     >[!CAUTION]
     >
     >You should save the config.zip file when the download prompt comes up since you will not be able to download it again.
