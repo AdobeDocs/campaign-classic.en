@@ -5,6 +5,8 @@ description: Learn how to adapt your configuration before and after a migration 
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
+hide: yes
+hidefromtoc: yes
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 ---
 # Adapt your configuration{#configuring-your-platform}

@@ -5,6 +5,8 @@ description: Learn how to migrate to Campaign Classic from a previous Campaign v
 audience: migration
 content-type: reference
 topic-tags: migration-overview
+hide: yes
+hidefromtoc: yes
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 ---
 # Get started with the migration{#about-migration}
