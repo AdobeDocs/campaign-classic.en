@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to Oracle
 description: Learn how to configure access to Oracle in FDA
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -9,7 +10,7 @@ exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 ---
 # Configure access to Oracle {#configure-access-to-oracle}
 
-![](../../assets/v7-only.svg)
+
 
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Oracle.
 

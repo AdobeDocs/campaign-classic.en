@@ -2,12 +2,13 @@
 product: campaign
 title: External signal
 description: Learn more about the External signal workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
 ---
 # External signal{#external-signal}
 
-![](../../assets/v7-only.svg)
+
 
 The **External signal** activity lets you trigger execution of a set of tasks in a workflow to a schedule.
 

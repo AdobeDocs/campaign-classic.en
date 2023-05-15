@@ -2,6 +2,7 @@
 product: campaign
 title: Get started with upgrades
 description: Learn more about Campaign Classic upgrades
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
 # Release updates{#rn-overview}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign Classic periodically releases product updates which bring new capabilities, bug fixes, and improve performance, security, and usability. These updates are released as **product builds**. Detailed information about each new build is available in the [Release notes](latest-release.md).
 

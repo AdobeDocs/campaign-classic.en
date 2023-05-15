@@ -2,6 +2,7 @@
 product: campaign
 title: Get Started marketing resource management
 description: Discover marketing resource management
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
@@ -9,7 +10,7 @@ exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 ---
 # Get started with Marketing Resource Management{#about-marketing-resource-management}
 
-![](../../assets/v7-only.svg)
+
 
 The **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. 
 

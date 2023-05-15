@@ -1,13 +1,12 @@
 ---
 product: campaign
 title: Examples of schemas edition
-description: Examples of schemas editio
+description: Examples of schemas edition
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 ---
 
 # Examples of schemas edition{#examples-of-schemas-edition}
-
-![](../../assets/v7-only.svg)
 
 ## Extend a table {#extending-a-table}
 

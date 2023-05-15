@@ -2,12 +2,13 @@
 product: campaign
 title: Cross-channel deliveries
 description: Learn more about cross-channel deliveries
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 ---
 # Cross-channel deliveries{#cross-channel-deliveries}
 
-![](../../assets/v7-only.svg)
+
 
 Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of campaign workflow activities.
 

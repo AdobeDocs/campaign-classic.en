@@ -2,6 +2,7 @@
 product: campaign
 title: Glossary for Campaign interation
 description: Glossary for Campaign interation
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
@@ -9,7 +10,7 @@ exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 ---
 # Glossary for Campaign interation{#i-glossary}
 
-![](../../assets/v7-only.svg)
+
 
 Below is the definition of the main Interaction elements.
 

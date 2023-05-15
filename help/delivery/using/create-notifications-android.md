@@ -2,12 +2,13 @@
 product: campaign
 title: Create a push notification for Android devices
 description: Learn how to create push notifications for Android
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
 # Create notifications for Android{#create-notificaations-android}
 
-![](../../assets/v7-only.svg)
+
 
 Use Adobe Campaign to send push notifications on Android devices. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
 

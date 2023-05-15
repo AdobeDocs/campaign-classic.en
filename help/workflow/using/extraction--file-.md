@@ -2,12 +2,13 @@
 product: campaign
 title: Data extraction (file)
 description: Learn more about the Data extraction (file) workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
 ---
 # Data extraction (file){#extraction-file}
 
-![](../../assets/v7-only.svg)
+
 
 You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
 

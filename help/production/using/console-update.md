@@ -2,6 +2,7 @@
 product: campaign
 title: Console update
 description: Console update
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: 3a127bbe-9abb-4b5b-bd7e-e1ea550929ba
 ---
 # Console update{#console-update}
 
-![](../../assets/v7-only.svg)
+
 
 If you selected the **[!UICONTROL Do not request console update]** option and you wish to reactivate the update request, apply the following procedure:
 

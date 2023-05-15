@@ -2,12 +2,13 @@
 product: campaign
 title: Use aggregates
 description: Learn how to use aggregates
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 ---
 # Use aggregates{#using-aggregates}
 
-![](../../assets/v7-only.svg)
+
 
 This use case details how to automatically identify the last recipients added to the database.
 

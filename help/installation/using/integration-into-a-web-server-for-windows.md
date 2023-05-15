@@ -2,6 +2,7 @@
 product: campaign
 title: Integration into a Web server for Windows
 description: Integration into a Web server for Windows
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -9,7 +10,7 @@ exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 ---
 # Integration into a Web server for Windows{#integration-into-a-web-server-for-windows}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP (and SOAP).
 

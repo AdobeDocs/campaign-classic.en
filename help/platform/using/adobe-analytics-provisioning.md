@@ -2,6 +2,7 @@
 product: campaign
 title: Adobe Analytics connector provisioning
 description: Learn more about Adobe Analytics connector provisioning
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User, Admin
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 ---
 # Adobe Analytics Connector provisioning {#adobe-analytics-connector-provisioning}
 
-![](../../assets/v7-only.svg)
+
 
 >[!IMPORTANT]
 >

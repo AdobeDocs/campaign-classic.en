@@ -2,12 +2,13 @@
 product: campaign
 title: File collector
 description: Learn more about the File collector workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 ---
 # File collector{#file-collector}
 
-![](../../assets/v7-only.svg)
+
 
 The **File collector** monitors the arrival of one or more files in a directory and activates its transition for each file received. For each event, a **[!UICONTROL filename]** variable contains the full name of the file received. The collected files are moved to another directory for archiving purposes and to make sure they are only counted once.
 

@@ -2,12 +2,13 @@
 product: campaign
 title: About flow control activities
 description: About flow control activities
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 ---
 # Flow control activities in workflows{#about-flow-control-activities}
 
-![](../../assets/v7-only.svg)
+
 
 The following activities are database activities: Their main task is to coordinate the other activities.
 

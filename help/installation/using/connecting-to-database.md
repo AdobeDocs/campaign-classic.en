@@ -2,6 +2,7 @@
 product: campaign
 title: Connect to an external database
 description: Learn how to connect to an external database
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -9,7 +10,7 @@ exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
 ---
 # Connecting to the database {#connecting-to-the-database}
 
-![](../../assets/v7-only.svg)
+
 
 To enable a connection to the external database, you must indicate the connection parameters, i.e. the targeted data source and the name of the table with data requiring loading.
 

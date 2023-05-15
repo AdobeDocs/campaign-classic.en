@@ -2,12 +2,13 @@
 product: campaign
 title: Message Center (Control)
 description: Message Center (Control)
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 
 # Message Center (Control){#message-center-control}
 
-![](../../assets/v7-only.svg)
+
 
 The workflow detailed below is scheduled to run every hour. It is installed with the **Message Center - Control** module by default. 
 

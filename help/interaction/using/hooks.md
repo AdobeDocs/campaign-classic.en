@@ -2,6 +2,7 @@
 product: campaign
 title: Hooks
 description: Hooks
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
@@ -9,7 +10,7 @@ exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 ---
 # Modify the standard engine behavior{#hooks}
 
-![](../../assets/v7-only.svg)
+
 
 Hooks in Interaction let you modify the **standard engine behavior**.
 

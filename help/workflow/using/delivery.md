@@ -2,12 +2,13 @@
 product: campaign
 title: Delivery
 description: Learn more about the Delivery-type workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
 ---
 # Delivery{#delivery}
 
-![](../../assets/v7-only.svg)
+
 
 A **Delivery**-type activity lets you create a delivery action. It can be constructed using input elements.
 

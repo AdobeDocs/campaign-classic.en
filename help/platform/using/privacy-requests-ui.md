@@ -2,6 +2,7 @@
 product: campaign
 title: Create Privacy requests
 description: Learn how to create and manage Privacy requests
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 ---
 # Create and manage Privacy requests {#privacy-request-ui}
 
-![](../../assets/v7-only.svg)
+
 
 This section describes how you can create Access and Delete requests, as well as how Adobe Campaign processes them.
 

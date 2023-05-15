@@ -2,11 +2,12 @@
 product: campaign
 title: Implementing SOAP methods
 description: Implementing SOAP methods
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 ---
 # Implement SOAP methods{#implementing-soap-methods}
 
-![](../../assets/v7-only.svg)
+
 
 ## Introduction {#introduction}
 

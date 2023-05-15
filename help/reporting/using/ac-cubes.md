@@ -2,12 +2,13 @@
 product: campaign
 title: Get started with cubes
 description: Get started with cubes
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Reporting
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 ---
 # Get started with cubes{#about-cubes}
 
-![](../../assets/v7-only.svg)
+
 
 Exploration of data in the database is offered via the **Marketing Analytics** module. It enables you to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. In addition to this, Marketing Analytics enables you to create reports and build target populations. Once these are identified, they are stored in lists that can be used in Adobe Campaign (targeting, segmentation, etc.).
 

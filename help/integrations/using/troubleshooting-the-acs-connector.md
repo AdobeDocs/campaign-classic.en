@@ -2,6 +2,7 @@
 product: campaign
 title: Troubleshoot the ACS Connector
 description: Troubleshoot the ACS Connector
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
@@ -11,7 +12,7 @@ exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 ---
 # Troubleshoot the ACS Connector{#troubleshooting-the-acs-connector}
 
-![](../../assets/v7-only.svg)
+
 
 Depending on your implementation, you can face several common issues.
 

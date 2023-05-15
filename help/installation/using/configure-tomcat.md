@@ -2,6 +2,7 @@
 product: campaign
 title: Campaign Tomcat configuration
 description: Campaign Tomcat configuration
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -9,7 +10,7 @@ exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 ---
 # Configure Apache Tomcat {#configuring-tomcat}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign uses an **embedded web servlet called Apache Tomcat** to process HTTP/HTTPS requests between the application and any external interface (including Client Console, tracked URL links, SOAP calls, and others). There is often an external web server (usually IIS or Apache) in front of this for any external-facing Adobe Campaign instances.
 

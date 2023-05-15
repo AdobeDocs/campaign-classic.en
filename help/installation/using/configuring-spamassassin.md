@@ -2,6 +2,7 @@
 product: campaign
 title: Configuring SpamAssassin
 description: Configuring SpamAssassin
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +10,7 @@ exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 ---
 # Configuring SpamAssassin{#configuring-spamassassin}
 
-![](../../assets/v7-only.svg)
+
 
 >[!NOTE]
 >

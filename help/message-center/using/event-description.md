@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Event description
-description: Learn how transactional messaging events are managed in Adobe Campaign Classic using the SOAP methods.
+description: Learn how transactional messaging events are managed in Adobe Campaign Classic using the SOAP methods
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: introduction
@@ -9,7 +10,7 @@ exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 ---
 # Event description {#event-description}
 
-![](../../assets/v7-only.svg)
+
 
 ## Transactional messaging data model {#about-transactional-messaging-datamodel}
 

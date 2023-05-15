@@ -2,6 +2,7 @@
 product: campaign
 title: Distributed architectures
 description: Distributed architectures
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
@@ -9,7 +10,7 @@ exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 ---
 # Distributed architectures{#distributed-architectures}
 
-![](../../assets/v7-only.svg)
+
 
 ## Principle {#principle}
 

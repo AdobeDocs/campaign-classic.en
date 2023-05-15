@@ -2,12 +2,13 @@
 product: campaign
 title: Message Center (Execution)
 description: Message Center (Execution)
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 
 # Message Center (Execution){#message-center-execution}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Message Center - Execution** add-on by default. 
 

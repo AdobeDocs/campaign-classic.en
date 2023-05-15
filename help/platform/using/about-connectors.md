@@ -2,6 +2,7 @@
 product: campaign
 title: About connectors
 description: About connectors
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User, Data Architect
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
 ---
 # Get started with connectors{#about-connectors}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign provides several connectors that allow you to communicate with external applications, connect to database engines, and integrate with Adobe Analytics to share data.
 

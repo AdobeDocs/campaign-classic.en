@@ -2,6 +2,7 @@
 product: campaign
 title: Uninstalling Campaign
 description: Learn how to uninstall Campaign
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -9,7 +10,7 @@ exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
 ---
 # Uninstalling Campaign{#uninstalling-campaign}
 
-![](../../assets/v7-only.svg)
+
 
 >[!CAUTION]
 >

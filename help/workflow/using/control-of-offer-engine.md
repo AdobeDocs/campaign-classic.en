@@ -2,13 +2,14 @@
 product: campaign
 title: Control of offer engine
 description: Control of offer engine
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Offers
 topic-tags: technical-workflows
 ---
 
 # Control of offer engine{#control-of-offer-engine}
 
-![](../../assets/v7-only.svg)
+
 
 The workflow detailed below is installed with the **Control of offer engine with execution instance** module by default.
 

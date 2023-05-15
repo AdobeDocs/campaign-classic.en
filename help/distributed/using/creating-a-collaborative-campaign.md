@@ -2,12 +2,13 @@
 product: campaign
 title: Create a collaborative campaign
 description: Learn how to create a collaborative campaign
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 ---
 # Create a collaborative campaign{#creating-a-collaborative-campaign-intro}
 
-![](../../assets/v7-only.svg)
+
 
 The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](about-distributed-marketing.md#collaborative-campaign).
 

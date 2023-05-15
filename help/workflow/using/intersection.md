@@ -2,6 +2,7 @@
 product: campaign
 title: Intersection
 description: Intersection
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---
@@ -14,7 +15,7 @@ exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 >additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
 
 
-![](../../assets/v7-only.svg)
+
 
 An **Intersection**-type activity creates a target from the intersection of the targets received.
 

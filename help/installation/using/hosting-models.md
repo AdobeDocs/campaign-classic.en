@@ -2,6 +2,7 @@
 product: campaign
 title: Hosting models
 description: Discover Campaign hosting models
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: Architect
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
 ---
 # Hosting models{#hosting-models}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign offers a choice of three hosting models, providing flexibility and freedom to choose the best model, or models to suit business needs.
 

@@ -2,12 +2,11 @@
 product: campaign
 title: Business oriented APIs
 description: Business oriented APIs
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 ---
 # Business oriented APIs{#business-oriented-apis}
-
-![](../../assets/v7-only.svg)
 
 Business API are specific to each type of object. They have an effect on:
 

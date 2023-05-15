@@ -2,12 +2,13 @@
 product: campaign
 title: Inbound Emails
 description: Learn more about the Inbound Emails workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 ---
 # Inbound Emails{#inbound-emails}
 
-![](../../assets/v7-only.svg)
+
 
 The **Inbound emails** activity lets you download and process email messages from a POP3 mail server.
 

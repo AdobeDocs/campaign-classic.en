@@ -2,6 +2,7 @@
 product: campaign
 title: Tracking logs issues
 description: Tracking logs issues
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
 ---
 # Tracking logs issues{#tracking-logs-issues}
 
-![](../../assets/v7-only.svg)
+
 
 There can be multiple reasons for tracking logs not being forwarded. We recommend that you check the following information:
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Distributed Marketing
 description: Learn more about the Distributed Marketing package
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management, Distributed Marketing
 ---
 
 # Distributed Marketing{#distributed-marketing}
 
-![](../../assets/v7-only.svg)
+
 
 The workflow detailed below is installed with the **Distributed Marketing** module by default. For more on this module, refer to this [section](../../distributed/using/about-distributed-marketing.md).
 

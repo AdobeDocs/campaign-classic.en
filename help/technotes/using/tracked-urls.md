@@ -2,13 +2,14 @@
 product: campaign
 title: Tracked URLs signature issue 
 description: Tracked URLs signature issue 
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: yes
 hidefromtoc: yes
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
 ---
 # Tracked URLs signature issue {#tracked-urls}
 
-![](../../assets/v7-only.svg)
+
 
 Following recent changes, tracked URLs can fail when URL signature is active in Campaign. Some mailboxes can be more impacted than others, as some companies have specific security tools which can impact links and alter the URL signature mechanism.
 

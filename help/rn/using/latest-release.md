@@ -2,6 +2,7 @@
 product: campaign
 title: Latest Release
 description: Latest Campaign Classic v7 Release Notes
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 ---
 # Latest release{#latest-release}
 
-![](../../assets/v7-only.svg)
+
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Failure to connect
 description: Failure to connect
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 ---
 # Failure to connect{#failure-to-connect}
 
-![](../../assets/v7-only.svg)
+
 
 The reasons for a connection problem can be multiple and depend on various contexts.
 

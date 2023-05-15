@@ -2,13 +2,14 @@
 product: campaign
 title: Campaign
 description: Campaign
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 topic-tags: technical-workflows
 ---
 
 # Campaign{#campaign}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Campaign** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
 

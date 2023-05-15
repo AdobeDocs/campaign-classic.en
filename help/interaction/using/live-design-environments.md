@@ -2,6 +2,7 @@
 product: campaign
 title: Live/Design environments
 description: Live/Design environments
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
@@ -9,7 +10,7 @@ exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
 ---
 # Live/Design environments{#live-design-environments}
 
-![](../../assets/v7-only.svg)
+
 
 ## Operating principle {#operating-principle}
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Deduplication
 description: Learn more about the Deduplication workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 ---
 # Deduplication{#deduplication}
 
-![](../../assets/v7-only.svg)
+
 
 Deduplication deletes duplicates from the results of inbound activities. Deduplication can be performed on the email address, telephone number, or another field.
 

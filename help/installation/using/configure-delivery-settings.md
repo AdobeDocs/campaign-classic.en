@@ -2,6 +2,7 @@
 product: campaign
 title: Campaign Delivery settings configuration
 description: Learn how to configure Campaign Delivery settings
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -9,7 +10,7 @@ exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 ---
 # Configure delivery settings {#delivery-settings}
 
-![](../../assets/v7-only.svg)
+
 
 The delivery parameters must be configured in the **serverConf.xml** folder.
 

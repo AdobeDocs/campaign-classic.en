@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: About Adobe Campaign Classic
-description: Discover key capabilities, user interface and global guidelines.
+description: Discover key capabilities, user interface and global guidelines
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 ---
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}
 
-![](../../assets/v7-only.svg)
+
 
 To deliver a high degree of customer engagement and great experiences, brands must create consistent customer journeys at all touchpoints. Marketers can now efficiently design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment and drive loyalty.
 

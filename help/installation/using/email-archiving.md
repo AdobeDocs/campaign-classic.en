@@ -2,6 +2,7 @@
 product: campaign
 title: Email archiving
 description: Email archiving
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +10,7 @@ exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 ---
 # Configure email BCC {#email-archiving}
 
-![](../../assets/v7-only.svg)
+
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Database performances
 description: Database performances
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 ---
 # Database performance{#database-performances}
 
-![](../../assets/v7-only.svg)
+
 
 Most performance issues are linked to database maintenance. Here are four main leads to help you find the cause of slow performance:
 

@@ -2,13 +2,14 @@
 product: campaign
 title: Technote - Adobe Campaign configuration updates
 description: Adobe Campaign configuration updates
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: yes
 hidefromtoc: yes
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 ---
 # Adobe Campaign configuration updates 2021 {#acc-config-updates}
 
-![](../../assets/v7-only.svg)
+
 
 Infrastructure and settings should be regularly updated with the latest builds and product fixes. These fixes are necessary to ensure continuity of service and security. In addition, upgrades will be required to align with third-party changes.
 

@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Locate Tomcat version in Adobe Campaign
-description: Learn how to find out the current version of embedded Tomcat web servlet used in an instance of Adobe Campaign.
+description: Learn how to find out the current version of embedded Tomcat web servlet used in an instance of Adobe Campaign
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 ---
 # Locate Tomcat version{#locate-tomcat-version}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign uses an **embedded web servlet called Apache Tomcat** to process HTTP/HTTPS requests between the application and any external interface (including Client Console, tracked URL links, SOAP calls, and others). There is often an external web server (usually IIS or Apache) in front of this for any external-facing Adobe Campaign instances.
 

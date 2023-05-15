@@ -2,6 +2,7 @@
 product: campaign
 title: Using advanced parameters
 description: Using advanced parameters
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
@@ -9,7 +10,7 @@ exl-id: 232e2bfc-f497-40ad-811e-118dbfcabbcf
 ---
 # Using advanced parameters{#using-advanced-parameters}
 
-![](../../assets/v7-only.svg)
+
 
 This chapter details the various possible advanced parameters in Interaction.
 

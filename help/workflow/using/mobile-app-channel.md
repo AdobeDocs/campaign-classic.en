@@ -2,12 +2,13 @@
 product: campaign
 title: Mobile App Channel
 description: Mobile App Channel
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 
 # Mobile App Channel{#mobile-app-channel}
 
-![](../../assets/v7-only.svg)
+
 
 The workflow detailed below is installed with the **Mobile App Channel** module by default. For more on this module, refer to this [section](../../delivery/using/about-mobile-app-channel.md).
 

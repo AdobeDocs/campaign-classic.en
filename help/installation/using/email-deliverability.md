@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Technical email configuration
-description: Learn how to configure Campaign to control the output of your instances when delivering emails.
+description: Learn how to configure Campaign to control the output of your instances when delivering emails
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +10,7 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 ---
 # Technical email configurations{#email-deliverability}
 
-![](../../assets/v7-only.svg)
+
 
 ## Overview {#overview}
 

@@ -2,11 +2,12 @@
 product: campaign
 title: Configure access to Microsoft SQL Server
 description: Learn how to configure access to Microsoft SQL Server
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
 ---
 # Configure access to Microsoft SQL Server {#configure-fda-sql}
 
-![](../../assets/v7-only.svg)
+
 
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external Microsoft SQL Server database. Follow the steps below to configure access to [!DNL Microsoft SQL Server].
 

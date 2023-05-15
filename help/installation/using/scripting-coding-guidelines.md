@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Scripting and coding guidelines
-description: Learn more about the guidelines to follow when developing in Adobe Campaign (workflows, Javascript, JSSP, etc.).
+description: Learn more about the guidelines to follow when developing in Adobe Campaign (workflows, Javascript, JSSP, etc.)
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -9,7 +10,7 @@ exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 ---
 # Scripting and coding guidelines {#scripting-coding-guidelines}
 
-![](../../assets/v7-only.svg)
+
 
 ## Scripting
 

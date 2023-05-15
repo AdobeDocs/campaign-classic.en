@@ -2,6 +2,7 @@
 product: campaign
 title: Server security configuration
 description: Learn more about server configuration best practices
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -9,7 +10,7 @@ exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 ---
 # Server security settings {#server-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 ## File upload protection
 

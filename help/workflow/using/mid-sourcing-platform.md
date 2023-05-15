@@ -2,12 +2,13 @@
 product: campaign
 title: Mid-sourcing platform
 description: Mid-sourcing platform
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 
 # Mid-sourcing platform{#mid-sourcing-platform}
 
-![](../../assets/v7-only.svg)
+
 
 The workflow detailed below is installed with the **Mid-Sourcing platform** module by default. For more on this module, refer to this [section](../../installation/using/mid-sourcing-deployment.md).
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Network configuration
 description: Learn system communication guidelines
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -9,7 +10,7 @@ exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 ---
 # Network configuration{#network-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 ## Communication between processes {#communication-between-processes}
 

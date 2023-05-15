@@ -2,6 +2,7 @@
 product: campaign
 title: Standard deployment
 description: Standard deployment
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -9,7 +10,7 @@ exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 ---
 # Standard deployment{#standard-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 For this configuration, three computers are required:
 

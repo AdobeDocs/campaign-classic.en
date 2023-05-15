@@ -2,12 +2,13 @@
 product: campaign
 title: Create a push notification for iOS devices
 description: Learn how to create push notifications for iOS
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 ---
 # Create notifications for iOS{#create-notifications-ios}
 
-![](../../assets/v7-only.svg)
+
 
 This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Web Analytics
 description: Learn more about the Web Analytics package
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Analytics Integration
 ---
 
 # Web Analytics{#web-analytics}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Web Analytics connectors** module by default. For more on this module, refer to this [section](../../platform/using/adobe-analytics-connector.md).
 

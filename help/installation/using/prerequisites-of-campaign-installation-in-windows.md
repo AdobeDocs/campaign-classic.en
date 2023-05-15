@@ -2,6 +2,7 @@
 product: campaign
 title: Prerequisites of Campaign installation in Windows
 description: Prerequisites of Campaign installation in Windows
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -9,7 +10,7 @@ exl-id: a7cf59cc-9260-4109-af4c-b2e2a9c999da
 ---
 # Get started with installing Campaign on Windows {#prerequisites-of-campaign-installation-in-windows}
 
-![](../../assets/v7-only.svg)
+
 
 The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 

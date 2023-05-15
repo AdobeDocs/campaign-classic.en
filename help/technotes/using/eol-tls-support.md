@@ -2,6 +2,7 @@
 product: campaign
 title: End of Life for TLS 1.0 and 1.1 support
 description: End of Life for TLS 1.0 and 1.1 support
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
@@ -9,7 +10,7 @@ exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
 ---
 # End of Life for TLS 1.0 and 1.1 support{#eol-tls-support}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe no longer supports user systems and client systems that are not compliant with the Transport Layer Security (TLS) 1.2 protocol. If you continue to use older versions of TLS, you could potentially lose access to all Adobe products and services.
 

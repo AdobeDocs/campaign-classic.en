@@ -2,6 +2,7 @@
 product: campaign
 title: Get started with build upgrades
 description: Learn key steps to upgrade to a new build
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 ---
 # Performing a build upgrade{#performing-a-build-upgrade}
 
-![](../../assets/v7-only.svg)
+
 
 This section will provide you with an in-depth walkthrough on the upgrade process and the steps to identify and resolve conflicts.
 

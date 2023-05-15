@@ -2,12 +2,13 @@
 product: campaign
 title: Recurring delivery
 description: Learn more about the Recurring delivery workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 ---
 # Recurring delivery{#recurring-delivery}
 
-![](../../assets/v7-only.svg)
+
 
 A **[!UICONTROL Recurring delivery]** activity lets you configure a delivery template occurrence that is specific to a campaign.
 

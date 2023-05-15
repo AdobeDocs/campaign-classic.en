@@ -2,12 +2,13 @@
 product: campaign
 title: Email Deliverability
 description: Learn more about the Email Deliverability package
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Deliverability
 ---
 
 # Deliverability monitoring (Email Deliverability){#email-deliverability}
 
-![](../../assets/v7-only.svg)
+
 
 The workflow detailed below is installed by default on all instances and lets you initialize the list of bounce mail qualification rules, the list of domains and the list of MXs. Once the **Deliverability monitoring (Email Deliverability)** package is installed, this workflow runs nightly. For more on Deliverability monitoring, refer to this [section](../../delivery/using/about-deliverability.md).
 

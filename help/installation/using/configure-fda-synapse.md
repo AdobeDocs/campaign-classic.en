@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to Synapse
 description: Learn how to configure access to Synapse in FDA
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -9,7 +10,7 @@ exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 ---
 # Configure access to Azure Synapse {#configure-access-to-azure-synapse}
 
-![](../../assets/v7-only.svg)
+
 
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to **Microsoft Azure Synapse Analytics**.
 

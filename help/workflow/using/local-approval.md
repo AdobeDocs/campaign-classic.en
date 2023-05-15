@@ -2,12 +2,13 @@
 product: campaign
 title: Local approval
 description: Local approval
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
 ---
 # Local approval{#local-approval}
 
-![](../../assets/v7-only.svg)
+
 
 When integrated into a targeting workflow, the **[!UICONTROL Local approval]** activity lets you set up a recipient approval process before the delivery is sent. 
 

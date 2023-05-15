@@ -2,6 +2,7 @@
 product: campaign
 title: Before starting migration
 description: Before starting migration
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
@@ -11,7 +12,7 @@ exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 ---
 # Prerequisites{#before-starting-migration}
 
-![](../../assets/v7-only.svg)
+
 
 This page lists specific steps to perform before starting the migration process. You must also refer to [this page](about-migration.md) for more guidance.
 

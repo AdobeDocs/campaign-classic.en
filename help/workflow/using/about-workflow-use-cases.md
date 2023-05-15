@@ -1,13 +1,14 @@
 ---
 product: campaign
 title: About workflow use cases
-description: Learn more on use cases that you can perform using Campaign Classic workflows.
+description: Learn more on use cases that you can perform using Campaign Classic workflows
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 ---
 # Workflow use cases {#about-workflow-use-cases}
 
-![](../../assets/v7-only.svg)
+
 
 In this section, you will find various use cases leveraging Campaign workflows capabilities.
 

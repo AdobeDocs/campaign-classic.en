@@ -2,6 +2,7 @@
 product: campaign
 title: Synchronize profiles
 description: Learn how to synchronize profiles with ACS Connector
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
 hide: yes
 hidefromtoc: yes
@@ -9,7 +10,7 @@ exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 ---
 # Synchronize profiles{#synchronizing-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 ACS Connector replicates data from Campaign v7 to Campaign Standard. The data received from Campaign v7 can be used in Campaign Standard to create deliveries. You can see how profiles are synchronized by performing the operations listed below.
 

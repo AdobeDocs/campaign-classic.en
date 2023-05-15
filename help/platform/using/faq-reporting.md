@@ -2,6 +2,7 @@
 product: campaign
 title: Reporting FAQ
 description: Campaign Classic FAQ
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
 ---
 # Reporting FAQ {#reporting-faq}
 
-![](../../assets/v7-only.svg)
+
 
 ## How can I create new reports? {#how-can-i-create-new-reports-}
 

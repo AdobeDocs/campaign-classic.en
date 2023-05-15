@@ -2,6 +2,7 @@
 product: campaign
 title: Creating an offer
 description: Creating an offer
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
@@ -9,7 +10,7 @@ exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 ---
 # Creating an offer{#creating-an-offer}
 
-![](../../assets/v7-only.svg)
+
 
 ## Creating the offer {#creating-the-offer}
 

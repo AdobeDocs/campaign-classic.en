@@ -2,6 +2,7 @@
 product: campaign
 title: Administration
 description: Administration
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -9,7 +10,7 @@ exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 ---
 # Administration{#administration}
 
-![](../../assets/v7-only.svg)
+
 
 Automatic startup of the Adobe Campaign modules (**web**, **mta**, **wfserver**, etc.) is provided by the **nlserver** server.
 

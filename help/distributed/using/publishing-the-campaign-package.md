@@ -2,12 +2,13 @@
 product: campaign
 title: Publish the campaign package
 description: Publish the campaign package
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 ---
 # Publish the campaign package{#publishing-the-campaign-package}
 
-![](../../assets/v7-only.svg)
+
 
 Central entity operators publish campaigns they wish to offer to local entities in the **[!UICONTROL list of campaign packages]**.
 

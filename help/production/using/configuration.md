@@ -2,11 +2,12 @@
 product: campaign
 title: Additional configuration
 description: Configuration
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 ---
 # Configuration{#configuration}
 
-![](../../assets/v7-only.svg)
+
 
 ## Changing the syslogd listening port {#changing-the-syslogd-listening-port}
 

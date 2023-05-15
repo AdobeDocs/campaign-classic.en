@@ -2,12 +2,13 @@
 product: campaign
 title: Update data
 description: Learn more about the Update data workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 ---
 # Update data{#update-data}
 
-![](../../assets/v7-only.svg)
+
 
 An **Update data**-type activity performs a mass update of the fields in the database.
 

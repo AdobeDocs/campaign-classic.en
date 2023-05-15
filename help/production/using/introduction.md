@@ -2,6 +2,7 @@
 product: campaign
 title: Introduction
 description: Introduction
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
 ---
 # Introduction{#introduction}
 
-![](../../assets/v7-only.svg)
+
 
 This section presents the procedure to be applied to upgrade Adobe Campaign, client side and server side, and describes the switching to Unicode of an existing instance.
 

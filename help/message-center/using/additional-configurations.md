@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Additional configurations
-description: Learn how to set up additional configurations for Transactional messaging in Adobe Campaign Classic.
+description: Learn how to set up additional configurations for Transactional messaging in Adobe Campaign Classic
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
@@ -9,7 +10,7 @@ exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 ---
 # Additional configurations {#mc-additional-configurations}
 
-![](../../assets/v7-only.svg)
+
 
 ## Monitor thresholds {#monitoring-thresholds}
 

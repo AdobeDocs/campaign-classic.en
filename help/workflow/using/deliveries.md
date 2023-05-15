@@ -2,12 +2,13 @@
 product: campaign
 title: Deliveries
 description: Learn more about default Deliveries workflows
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 
 # Deliveries{#deliveries}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Deliveries** module by default.
 

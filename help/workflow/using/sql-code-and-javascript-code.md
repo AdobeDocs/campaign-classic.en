@@ -2,12 +2,13 @@
 product: campaign
 title: SQL code and JavaScript code
 description: Learn more about SQL and JavaScript codes workflow activities
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 ---
 # SQL code and JavaScript code{#sql-code-and-javascript-code}
 
-![](../../assets/v7-only.svg)
+
 
 ## SQL code {#sql-code}
 

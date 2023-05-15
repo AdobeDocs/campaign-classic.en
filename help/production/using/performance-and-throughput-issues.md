@@ -2,6 +2,7 @@
 product: campaign
 title: Performance and throughput issues
 description: Performance and throughput issues
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
 ---
 # Performance and throughput issues{#performance-and-throughput-issues}
 
-![](../../assets/v7-only.svg)
+
 
 First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes.
 

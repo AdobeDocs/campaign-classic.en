@@ -2,6 +2,7 @@
 product: campaign
 title: Anonymous interactions
 description: Anonymous interactions
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
@@ -9,7 +10,7 @@ exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
 ---
 # Anonymous interactions{#anonymous-interactions}
 
-![](../../assets/v7-only.svg)
+
 
 ![](assets/do-not-localize/how-to-video.png) Watch this [video](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) to get an overview of how offers are delivered to identified and anonymous targets.
 

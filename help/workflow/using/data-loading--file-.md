@@ -2,12 +2,13 @@
 product: campaign
 title: Data loading (file)
 description: Learn more about the Data loading (file) workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 ---
 # Data loading (file){#data-loading-file}
 
-![](../../assets/v7-only.svg)
+
 
 ## Use {#use}
 

@@ -2,12 +2,13 @@
 product: campaign
 title: About workflow activities
 description: About activities
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
 ---
 # Workflow activities{#wf-activities}
 
-![](../../assets/v7-only.svg)
+
 
 This section describes all of the available activities. According to the node or the context in which the workflow is created/edited, the activities available may vary. For example, the workflows created in a campaign have channel-specific delivery activities.
 

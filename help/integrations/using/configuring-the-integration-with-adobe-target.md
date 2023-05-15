@@ -2,6 +2,7 @@
 product: campaign
 title: Configure the integration with Adobe Target
 description: Learn how to configure the integration with Adobe Target
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
@@ -9,7 +10,7 @@ exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 ---
 # Configure the integration with Adobe Target{#configuring-the-integration-with-adobe-target}
 
-![](../../assets/v7-only.svg)
+
 
 
 >[!CAUTION]

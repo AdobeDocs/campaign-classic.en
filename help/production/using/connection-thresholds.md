@@ -2,6 +2,7 @@
 product: campaign
 title: Connection thresholds
 description: Connection thresholds
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 ---
 # Connection thresholds{#connection-thresholds}
 
-![](../../assets/v7-only.svg)
+
 
 For heavily loaded servers, the connection threshold might be exceeded. In any event, it is useful to find out why.
 

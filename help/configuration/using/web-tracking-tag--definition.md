@@ -2,11 +2,12 @@
 product: campaign
 title: Define web tracking tag
 description: Define web tracking tag
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 ---
 # Web tracking tag: definition{#web-tracking-tag-definition}
 
-![](../../assets/v7-only.svg)
+
 
 A web tracking tag is simply a URL constructed with the appropriate parameters, sent to the redirection server via an HTTP query.
 

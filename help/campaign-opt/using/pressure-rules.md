@@ -2,12 +2,11 @@
 product: campaign
 title: Pressure rules
 description: Pressure rules
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 ---
 # Pressure rules{#pressure-rules}
-
-![](../../assets/v7-only.svg)
 
 ## About marketing fatigue {#about-marketing-fatigue}
 

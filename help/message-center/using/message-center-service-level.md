@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Message Center service level
-description: Learn more on the Message Center service level report.
+description: Learn more on the Message Center service level report
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
@@ -9,7 +10,7 @@ exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 ---
 # Message Center service level {#message-center-service-level}
 
-![](../../assets/v7-only.svg)
+
 
 This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details.
 

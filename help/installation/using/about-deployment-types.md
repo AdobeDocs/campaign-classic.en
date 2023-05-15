@@ -2,6 +2,7 @@
 product: campaign
 title: About deployment types
 description: About deployment types
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -9,7 +10,7 @@ exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
 ---
 # About deployment types{#about-deployment-types}
 
-![](../../assets/v7-only.svg)
+
 
 The modular design of Adobe Campaign enables a wide range of deployment configurations, from standalone setups (all components on one machine) to enterprise deployments with fully redundant and distributed architecture using multiple servers. All depends on the required level of performance and security.
 

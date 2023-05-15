@@ -2,12 +2,13 @@
 product: campaign
 title: Cells
 description: Cells
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
 ---
 # Cells{#cells}
 
-![](../../assets/v7-only.svg)
+
 
 The **[!UICONTROL Cells]** activity provides a view of the various subsets in the form of data columns. It facilitates subset manipulation and is also designed to encourage personalization possibilities.
 

@@ -2,6 +2,7 @@
 product: campaign
 title: About initial configuration
 description: About initial configuration
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -9,7 +10,7 @@ exl-id: f77ba178-0dfb-4a2e-b33b-971765d42298
 ---
 # Key steps to configure and deploy your instance{#about-initial-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 Once the Adobe Campaign installation is complete, you need to configure it to make sure it operates efficiently with your constraints and technical architecture. The steps for configuring an Adobe Campaign instance are detailed in this chapter, in the following sequence:
 

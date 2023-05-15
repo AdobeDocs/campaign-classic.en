@@ -2,6 +2,7 @@
 product: campaign
 title: Usual commands
 description: Usual commands
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -9,7 +10,7 @@ exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 ---
 # Usual commands{#usual-commands}
 
-![](../../assets/v7-only.svg)
+
 
 This section lists the usual commands in Adobe Campaign.
 

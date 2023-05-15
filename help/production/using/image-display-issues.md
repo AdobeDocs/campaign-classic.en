@@ -2,6 +2,7 @@
 product: campaign
 title: Image display issues
 description: Image display issues
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e
 ---
 # Image display issues{#image-display-issues}
 
-![](../../assets/v7-only.svg)
+
 
 If you face image display issues in a sent message, reasons may be linked to bad location:
 

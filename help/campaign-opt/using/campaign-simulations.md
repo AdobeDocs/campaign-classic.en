@@ -2,12 +2,11 @@
 product: campaign
 title: Campaign simulations
 description: Get started with Campaign simulations
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 ---
 # Campaign simulations{#campaign-simulations}
-
-![](../../assets/v7-only.svg)
 
 ## About simulations {#about-simulations}
 

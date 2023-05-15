@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Production troubleshooting
-description: Discover production troubleshooting procedures relating to Adobe Campaign configuration, monitoring, upgrading process, data processing, and database maintenance procedure.
+description: Discover production troubleshooting procedures relating to Adobe Campaign configuration, monitoring, upgrading process, data processing, and database maintenance procedure
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +10,7 @@ exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 ---
 # Production troubleshooting{#troubleshooting}
 
-![](../../assets/v7-only.svg)
+
 
 This section contains troubleshooting procedures relating to Adobe Campaign general production issues, such as delivery and workflow execution, monitoring, database maintenance, connection, etc.
 

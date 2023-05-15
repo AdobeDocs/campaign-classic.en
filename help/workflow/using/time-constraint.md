@@ -2,12 +2,13 @@
 product: campaign
 title: Time constraint
 description: Learn more about the Time constraint workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
 ---
 # Time constraint{#time-constraint}
 
-![](../../assets/v7-only.svg)
+
 
 A **Time constraint** activity lets you postpone the execution of a task or abandon it.
 

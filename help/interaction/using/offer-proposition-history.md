@@ -2,6 +2,7 @@
 product: campaign
 title: Offer proposition history
 description: Offer proposition history
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
@@ -9,7 +10,7 @@ exl-id: 480d49e7-0237-4c87-abe8-445b7bf91a30
 ---
 # Offer proposition history{#offer-proposition-history}
 
-![](../../assets/v7-only.svg)
+
 
 Once your offer propositions have been made, you can view the presentation history.
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Integrating an offer via a workflow
 description: Integrating an offer via a workflow
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
@@ -9,7 +10,7 @@ exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 ---
 # Integrating an offer via a workflow{#integrating-an-offer-via-a-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 Outside of the delivery activity itself, several workflow activities allow you to define the way offers are presented:
 

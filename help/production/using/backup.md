@@ -2,6 +2,7 @@
 product: campaign
 title: Backup
 description: Backup
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -9,7 +10,7 @@ exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
 ---
 # Backup{#backup}
 
-![](../../assets/v7-only.svg)
+
 
 Backing up is essential in order to avoid losing data in the event of a problem (whether physical or system-related) on a machine.
 

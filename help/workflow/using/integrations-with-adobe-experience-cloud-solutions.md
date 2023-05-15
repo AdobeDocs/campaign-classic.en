@@ -2,12 +2,13 @@
 product: campaign
 title: Integrations with Adobe Experience Cloud solutions workflows
 description: Learn more about Integrations with Adobe Experience Cloud solutions workflows
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 topic-tags: technical-workflows
 ---
 
 # Integrations with Adobe Experience Cloud solutions{#integrations-with-adobe-experience-cloud-solutions}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Integration with the Adobe Experience Cloud** module by default. For more on this module, refer to this [section](../../integrations/using/configuring-ims.md#installing-the-package).
 

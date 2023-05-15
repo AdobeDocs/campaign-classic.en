@@ -2,11 +2,10 @@
 product: campaign
 title: Anonymous tracking
 description: Learn how to set up anonymous tracking
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 ---
 # Anonymous tracking{#anonymous-tracking}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign lets you link collected Web tracking information to a recipient when they browse your site anonymously. When a user browses the tagged pages of your website this browsing information is collected, so that once they click in an email sent by Adobe Campaign, they are identified and the information is automatically linked to them.
 

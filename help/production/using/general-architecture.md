@@ -2,6 +2,7 @@
 product: campaign
 title: General architecture
 description: General architecture
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: introduction
@@ -9,7 +10,7 @@ exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
 ---
 # General architecture{#general-architecture}
 
-![](../../assets/v7-only.svg)
+
 
 ## Minimum architecture {#minimum-architecture}
 

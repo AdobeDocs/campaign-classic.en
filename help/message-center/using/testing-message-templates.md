@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Test transactional message templates
-description: Learn how to manage seed addresses in transactional messages in order to preview and test them in Adobe Campaign Classic.
+description: Learn how to manage seed addresses in transactional messages in order to preview and test them in Adobe Campaign Classic
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: message-templates
@@ -9,7 +10,7 @@ exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 ---
 # Test transactional message templates {#testing-message-templates}
 
-![](../../assets/v7-only.svg)
+
 
 Once your [message template](../../message-center/using/creating-the-message-template.md) is ready, follow the steps below to preview and test it.
 

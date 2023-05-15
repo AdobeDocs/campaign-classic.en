@@ -2,12 +2,13 @@
 product: campaign
 title: Inbound SMS
 description: Learn more about the Inbound SMS workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 ---
 # Inbound SMS{#inbound-sms}
 
-![](../../assets/v7-only.svg)
+
 
 The **Inbound SMS** activity lets you download and process text messages from an external account.
 

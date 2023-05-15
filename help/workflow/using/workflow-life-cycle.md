@@ -2,12 +2,13 @@
 product: campaign
 title: Workflow life cycle
 description: Learn more about the life cycle of a workflow
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 ---
 # Workflow life cycle {#workflow-life-cycle}
 
-![](../../assets/v7-only.svg)
+
 
 The workflow cycle has three main steps.
 

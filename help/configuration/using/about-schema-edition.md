@@ -2,12 +2,11 @@
 product: campaign
 title: About schema edition
 description: Get started with schema edition
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 ---
 # About schema edition{#about-schema-edition}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign employs Data Schemas to:
 

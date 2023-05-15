@@ -2,12 +2,13 @@
 product: campaign
 title: Task
 description: Learn more about the Task workflow activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
 ---
 # Task{#task}
 
-![](../../assets/v7-only.svg)
+
 
 >[!AVAILABILITY]
 >

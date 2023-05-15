@@ -2,6 +2,7 @@
 product: campaign
 title: Application objects
 description: Application objects
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -9,7 +10,7 @@ exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 ---
 # Application objects{#application-objects}
 
-![](../../assets/v7-only.svg)
+
 
 Built-in objects should be monitored and preventing them from growing too much is important.
 

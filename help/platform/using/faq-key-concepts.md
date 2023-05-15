@@ -2,6 +2,7 @@
 product: campaign
 title: Key concepts
 description: Campaign Classic FAQ
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 ---
 # Key concepts {#key-concepts}
 
-![](../../assets/v7-only.svg)
+
 
 Learn key steps to start with Adobe Campaign.
 

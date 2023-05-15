@@ -2,12 +2,13 @@
 product: campaign
 title: Audit trail
 description: Learn how to monitor your instance with Campaign Audit trail
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Audit Trail, Monitoring
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 ---
 # Audit trail{#audit-trail}
 
-![](../../assets/v7-only.svg)
+
 
 In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the complete history of changes made within your instance.
 

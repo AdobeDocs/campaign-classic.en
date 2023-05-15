@@ -2,6 +2,7 @@
 product: campaign
 title: Prerequisites of Campaign installation in Linux
 description: Prerequisites of Campaign installation in Linux
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
@@ -9,7 +10,7 @@ exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 ---
 # Prerequisites to install Campaign on Linux{#prerequisites-of-campaign-installation-in-linux}
 
-![](../../assets/v7-only.svg)
+
 
 ## Software prerequisites {#software-prerequisites}
 

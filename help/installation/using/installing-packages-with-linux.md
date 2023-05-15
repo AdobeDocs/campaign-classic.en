@@ -2,6 +2,7 @@
 product: campaign
 title: Installing packages with Linux
 description: Installing packages with Linux
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
@@ -9,7 +10,7 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 ---
 # Installing packages with Linux{#installing-packages-with-linux}
 
-![](../../assets/v7-only.svg)
+
 
 For a Linux 32 bit platform, install Adobe Campaign 32 bit. For a Linux 64 bit platform, install Adobe Campaign 64 bit.
 

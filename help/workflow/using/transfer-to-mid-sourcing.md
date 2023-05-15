@@ -2,12 +2,13 @@
 product: campaign
 title: Transfer to Mid-sourcing
 description: Learn more about Transfer to Mid-sourcing workflows
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 
 # Transfer to Mid-sourcing{#transfer-to-mid-sourcing}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Transfer to Mid-Sourcing** module by default. For more on this module, refer to [Campaign Classic v7 Installation Guide](../../installation/using/mid-sourcing-deployment.md).
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Creating a test environment
 description: Creating a test environment
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
@@ -9,7 +10,7 @@ exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
 ---
 # Creating a test environment{#creating-a-test-environment}
 
-![](../../assets/v7-only.svg)
+
 
 To create a test environment (sandbox mode), apply the following steps:
 

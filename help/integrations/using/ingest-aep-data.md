@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: Ingest Adobe Experience Platform segments into Campaign
-description: Learn how to ingest Adobe Experience Platform audiences into Campaign Classic.
+description: Learn how to ingest Adobe Experience Platform audiences into Campaign Classic
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
 ---
 # Ingest Adobe Experience Platform segments into Campaign {#destinations}
 
-![](../../assets/v7-only.svg)
+
 
 To ingest Adobe Experience Platform audiences into Campaign and use them in your workflows, you first need to connect Adobe Campaign as an Adobe Experience Platform **Destination** and configure it with the segment to export.
 

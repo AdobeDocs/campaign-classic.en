@@ -2,11 +2,12 @@
 product: campaign
 title: Install Campaign Classic built-in packages
 description: Learn how to install Campaign built-in packages
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 ---
 # Install Campaign Classic built-in packages{#installing-campaign-standard-packages}
 
-![](../../assets/v7-only.svg)
+
 
 ## About built-in packages {#campaign-standard-packages}
 

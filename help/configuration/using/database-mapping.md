@@ -2,11 +2,10 @@
 product: campaign
 title: Database mapping
 description: Database mapping
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 ---
 # Database mapping{#database-mapping}
-
-![](../../assets/v7-only.svg)
 
 The SQL mapping of our example schema gives the following XML document:
 

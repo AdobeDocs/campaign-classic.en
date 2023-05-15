@@ -2,6 +2,7 @@
 product: campaign
 title: Monitoring processes
 description: Learn how to monitor Campaign processes
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -9,7 +10,7 @@ exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
 ---
 # Monitoring processes{#monitoring-processes}
 
-![](../../assets/v7-only.svg)
+
 
 The application server and the redirection server (**tracking**) can be monitored manually or automatically.
 

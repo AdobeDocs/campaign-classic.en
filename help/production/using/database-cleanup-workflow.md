@@ -2,6 +2,7 @@
 product: campaign
 title: Database cleanup workflow
 description: Learn how obsolete data is automatically cleaned up
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -9,7 +10,7 @@ exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 ---
 # Database cleanup workflow{#database-cleanup-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 ## Introduction {#introduction}
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Use the local approval activity
 description: Learn how to use the local approval activity
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 ---
 # Use the local approval activity{#using-the-local-approval-activity}
 
-![](../../assets/v7-only.svg)
+
 
 The **[!UICONTROL Local approval]** activity integrated into a targeting workflow lets you set up a recipient approval process before the delivery is sent.
 

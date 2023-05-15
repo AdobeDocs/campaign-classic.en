@@ -2,6 +2,7 @@
 product: campaign
 title: Updating data
 description: Updating data
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: profile-management
@@ -9,7 +10,7 @@ exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 ---
 # Update data{#updating-data}
 
-![](../../assets/v7-only.svg)
+
 
 The data linked to a recipient's profile can be updated manually or automatically.
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Create a summary list
 description: Create a summary list
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 ---
 # Create a summary list{#creating-a-summary-list}
 
-![](../../assets/v7-only.svg)
+
 
 This use case details the creation of a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.
 

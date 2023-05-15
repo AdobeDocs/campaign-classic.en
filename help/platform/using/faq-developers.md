@@ -2,6 +2,7 @@
 product: campaign
 title: Developers FAQ
 description: Developers FAQ
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: 20552812-5c58-4d48-9636-d5135197685d
 ---
 # Developers FAQ {#dev-faq}
 
-![](../../assets/v7-only.svg)
+
 
 As an open solution, Adobe Campaign is ready for customization and advanced applications development.
 

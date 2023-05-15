@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Delivery execution
-description: Learn more about transactional messages delivery execution and monitoring.
+description: Learn more about transactional messages delivery execution and monitoring
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: event-processing
@@ -9,7 +10,7 @@ exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 ---
 # Delivery execution {#delivery-execution}
 
-![](../../assets/v7-only.svg)
+
 
 ## Transactional message sending {#transactional-message-send}
 

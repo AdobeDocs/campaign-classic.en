@@ -2,6 +2,7 @@
 product: campaign
 title: Configuring Campaign options
 description: Learn how to configure Campaign options
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -9,7 +10,7 @@ exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 ---
 # List of Campaign Classic options{#configuring-campaign-options}
 
-![](../../assets/v7-only.svg)
+
 
 The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options. Some of them are built-in when installing Campaign, and others can be added manually when needed. Available options vary according to the packages installed with your instance.
 
