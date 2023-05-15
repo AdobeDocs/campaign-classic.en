@@ -2,12 +2,11 @@
 product: campaign
 title: Data oriented APIs
 description: Data oriented APIs
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 ---
 # Data oriented APIs{#data-oriented-apis}
-
-![](../../assets/v7-only.svg)
 
 Data oriented APIs let you address the entire datamodel.
 

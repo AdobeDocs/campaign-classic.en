@@ -2,11 +2,10 @@
 product: campaign
 title: Inser web tracking tags in your site
 description: Learn how to insert web tracking tags in your site
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
 ---
 # Insert web tracking tags in your site{#inserting-tags-in-your-site}
-
-![](../../assets/v7-only.svg)
 
 ## Simple method {#simple-method}
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Marketing Resources (MRM)
 description: Marketing Resources (MRM)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 ---
 
 # Marketing Resources (MRM){#marketing-resources-mrm}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Marketing resources (MRM)** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
 

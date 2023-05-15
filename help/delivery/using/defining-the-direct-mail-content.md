@@ -2,12 +2,14 @@
 product: campaign
 title: Define the direct mail content
 description: Learn how to define the direct mail content
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Direct Mail
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 ---
 # Define the direct mail content{#defining-the-direct-mail-content}
 
-![](../../assets/common.svg)
+ 
 
 ## Extraction file {#extraction-file}
 

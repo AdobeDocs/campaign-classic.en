@@ -2,6 +2,7 @@
 product: campaign
 title: Interaction - Data buffer
 description: Interaction - Data buffer
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +10,7 @@ exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 ---
 # Interaction - Data buffer{#interaction-data-buffer}
 
-![](../../assets/v7-only.svg)
+
 
 You can configure a data buffer zone to increase inbound Interaction performance by desynchronizing offer proposition calculations. This configuration is to be carried out in the instance's own configuration file (config-Instance.xml). 
 

@@ -2,12 +2,14 @@
 product: campaign
 title: Key steps to create a survey
 description: Create your first survey with Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 ---
 # Key steps to create a survey{#getting-started-with-surveys}
 
-![](../../assets/common.svg)
+ 
 
 Here is a quick overview of the main steps to create a simple survey, using the following built-in template:
 

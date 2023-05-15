@@ -2,12 +2,13 @@
 product: campaign
 title: Split
 description: Learn more about the Split workflow activity
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 ---
 # Split{#split}
 
-![](../../assets/v7-only.svg)
+
 
 A **Split**-type activity lets you split a target into several subsets. The target is constructed with all the received results: all previous activities must thus have finished in order for this activity to be executed.
 

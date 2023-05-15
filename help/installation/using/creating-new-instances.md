@@ -2,6 +2,7 @@
 product: campaign
 title: Creating new instances
 description: Creating new instances
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -9,7 +10,7 @@ exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
 ---
 # Creating new instances{#creating-new-instances}
 
-![](../../assets/v7-only.svg)
+
 
 Once Adobe Campaign is installed and the instance created, you can add a new instance from the console. This creation mode lets you create tracking instances without accessing the console.
 

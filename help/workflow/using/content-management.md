@@ -2,12 +2,13 @@
 product: campaign
 title: Content Management
 description: Content Management
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
 ---
 # Content Management{#content-management}
 
-![](../../assets/v7-only.svg)
+
 
 A **Content management** activity lets you create and manipulate a content and generate files based on this content. This content can then be delivered via a 'Delivery' activity.
 

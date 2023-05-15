@@ -2,12 +2,14 @@
 product: campaign
 title: About templates
 description: Get started with delivery templates
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 ---
 # About templates{#about-templates}
 
-![](../../assets/common.svg)
+ 
 
 A delivery configuration can be saved in a delivery template in order to be re-used. The template may contain a complete or partial configuration of the delivery.
 

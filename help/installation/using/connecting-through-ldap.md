@@ -2,6 +2,7 @@
 product: campaign
 title: Connecting through LDAP
 description: Learn how to use LDAP to login to Campaign 
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +10,7 @@ exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 ---
 # Connecting through LDAP{#connecting-through-ldap}
 
-![](../../assets/v7-only.svg)
+
 
 ## Configuring Campaign and LDAP {#configuring-campaign-and-ldap}
 

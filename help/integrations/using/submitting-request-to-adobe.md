@@ -2,6 +2,8 @@
 product: campaign
 title: Submitting request to Adobe
 description: Submitting request to Adobe
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
@@ -9,7 +11,7 @@ exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 ---
 # Submitting request to Adobe{#submitting-request-to-adobe}
 
-![](../../assets/common.svg)
+ 
 
 >[!NOTE]
 >

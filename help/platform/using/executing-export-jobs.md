@@ -1,7 +1,9 @@
 ---
 product: campaign
 title: Configuring export jobs
-description: Learn how to configure and execute export jobs in Campaign Classic.
+description: Learn how to configure and execute export jobs in Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -9,7 +11,7 @@ exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 ---
 # Configure export jobs {#executing-export-jobs}
 
-![](../../assets/common.svg)
+ 
 
 The export jobs allow you to access and extract data from the database: contacts, clients, lists, segments, etc.
 

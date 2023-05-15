@@ -2,12 +2,13 @@
 product: campaign
 title: Privacy Data Protection Regulation workflows
 description: Learn more about the Privacy Data Protection Regulation workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Privacy
 ---
 
 # Privacy Data Protection Regulation{#general-data-protection-regulation-gdpr}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Privacy Data Protection Regulation** module by default. For more on this module, refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 

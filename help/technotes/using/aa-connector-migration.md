@@ -2,11 +2,12 @@
 product: campaign
 title: Migrate to the Adobe Analytics Connector
 description: Campaign - Analytics Connector FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
 ---
 # How to migrate existing Genesis integrations to Adobe Analytics Connector {#acc-aa-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Starting Campaign Classic v7 21.1.3 release, the Adobe Analytics Data Connector is deprecated. [Learn more](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 

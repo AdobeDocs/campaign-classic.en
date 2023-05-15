@@ -2,6 +2,7 @@
 product: campaign
 title: The server configuration file
 description: The server configuration file
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -9,7 +10,7 @@ exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 ---
 # The server configuration file{#the-server-configuration-file}
 
-![](../../assets/v7-only.svg)
+
 
 The overall configuration of Adobe Campaign is defined in the **serverConf.xml** file, located in the **conf** directory of the installation directory. This section lists all the different nodes and parameters of the **serverConf.xml** file.
 

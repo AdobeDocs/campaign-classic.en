@@ -2,6 +2,7 @@
 product: campaign
 title: Environments overview
 description: Environments overview
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
@@ -9,7 +10,7 @@ exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
 ---
 # Environments overview{#environments-overview}
 
-![](../../assets/v7-only.svg)
+
 
 This chapter details how to manage offer environments in Interaction.
 

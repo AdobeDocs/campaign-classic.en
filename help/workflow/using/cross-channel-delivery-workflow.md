@@ -2,12 +2,13 @@
 product: campaign
 title: Cross-channel delivery workflow
 description: Learn more about cross-channel delivery workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 ---
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 This use case presents an example involving a cross-channel delivery workflow. The general concept of cross-channel deliveries is presented in [this section](cross-channel-deliveries.md).
 

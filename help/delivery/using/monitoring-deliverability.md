@@ -1,13 +1,15 @@
 ---
 product: campaign
-title: Monitor deliverability in Adobe Campaign Classic
-description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign Classic.
+title: Monitor deliverability in Adobe Campaign
+description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 ---
 # Monitor your deliverability{#monitoring-deliverability}
 
-![](../../assets/common.svg)
+ 
 
 Below you will find details on the different monitoring tools provided by Adobe Campaign, as well as some additional guidelines on leveraging the features offered by Adobe Campaign to monitor your platform's deliverability.
 

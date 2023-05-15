@@ -1,7 +1,9 @@
 ---
 product: campaign
 title: Using MX servers with Campaign
-description: Learn how MX servers work with Adobe Campaign Classic.
+description: Learn how MX servers work with Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -10,7 +12,7 @@ exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 ---
 # Using MX servers with Campaign {#using-mx-servers}
 
-![](../../assets/v7-only.svg)
+
 
 Learn how MX servers work with Adobe Campaign Classic.
 

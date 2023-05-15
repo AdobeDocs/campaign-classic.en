@@ -2,12 +2,13 @@
 product: campaign
 title: Interaction and offer management
 description: Learn how to send the best offers to your contacts based on eligibility rules
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 ---
 # Interaction and offer management{#interaction-and-offer-management}
 
-![](../../assets/v7-only.svg)
+
 
 Interaction lets you respond in real time during an interaction with a given contact (a customer or target) by making them a single or several adapted offers. For example, these can be simple communication messages, special offers on one or several products or a service.
 

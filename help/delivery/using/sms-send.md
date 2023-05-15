@@ -2,12 +2,14 @@
 product: campaign
 title: Send, monitor and track SMS
 description: Learn how to send, monitor and track SMS in Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 ---
 # Send, monitor and track SMS deliveries{#sms-properties}
 
-![](../../assets/common.svg)
+ 
 
 ## Send SMS messages {#sending-sms-messages}
 

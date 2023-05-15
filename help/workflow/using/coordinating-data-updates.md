@@ -2,12 +2,13 @@
 product: campaign
 title: Coordinate data updates
 description: Coordinate data updates
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 ---
 # Coordinate data updates{#coordinating-data-updates}
 
-![](../../assets/v7-only.svg)
+
 
 This use case details the creation of a workflow which lets you manage concomitant updates when using several executions of a workflow.
 

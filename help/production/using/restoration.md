@@ -2,6 +2,8 @@
 product: campaign
 title: Restoration
 description: Restoration
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -9,7 +11,7 @@ exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
 ---
 # Restoration{#restoration}
 
-![](../../assets/v7-only.svg)
+
 
 On a clean server, the restoration procedure is as follows:
 

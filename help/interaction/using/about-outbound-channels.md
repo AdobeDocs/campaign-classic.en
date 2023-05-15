@@ -2,11 +2,12 @@
 product: campaign
 title: About outbound channels
 description: About outbound channels
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
 ---
 # About outbound channels{#about-outbound-channels}
 
-![](../../assets/v7-only.svg)
+
 
 Offers can be presented in various spaces using inbound or outbound channels. This chapter details outbound channels.
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Control costs
 description: Learn how to control costs
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
@@ -9,7 +10,7 @@ exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 ---
 # Control costs{#controlling-costs}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign lets you control scheduled, committed and invoiced marketing costs and to break them down by category using the Marketing Resource Management module.
 

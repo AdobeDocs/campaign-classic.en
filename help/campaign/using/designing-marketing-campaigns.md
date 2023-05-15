@@ -2,12 +2,12 @@
 product: campaign
 title: Design and execute marketing campaigns
 description: Define, optimize, execute and analyse marketing campaigns
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 ---
 # Design and execute marketing campaigns{#designing-marketing-campaigns}
 
-![](../../assets/v7-only.svg)
 
 Adobe Campaign lets you define, optimize, execute and analyze communications and marketing campaigns. Adobe Campaign acts like a unified order and execution center for marketing strategies. For more on this, refer to [Access campaigns](../../distributed/using/accessing-campaigns.md) and [Create marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
 

@@ -2,6 +2,8 @@
 product: campaign
 title: Upgrading to a new build
 description: Learn technical steps to upgrade to a new build
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -9,7 +11,7 @@ exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 ---
 # Upgrading to a new build (on-premise){#upgrading}
 
-![](../../assets/v7-only.svg)
+
 
 Before starting the upgrading process, determine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 

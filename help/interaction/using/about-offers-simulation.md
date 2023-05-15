@@ -6,7 +6,7 @@ exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
 ---
 # About offers simulation{#about-offers-simulation}
 
-![](../../assets/common.svg)
+ 
 
 The **Simulation** module lets you test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
 

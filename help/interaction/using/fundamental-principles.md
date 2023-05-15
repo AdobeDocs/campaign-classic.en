@@ -2,6 +2,7 @@
 product: campaign
 title: Fundamental principles
 description: Fundamental principles
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: general-operation
@@ -9,7 +10,7 @@ exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
 ---
 # Fundamental principles{#fundamental-principles}
 
-![](../../assets/v7-only.svg)
+
 
 ## Deploying environments {#deploying-environments}
 

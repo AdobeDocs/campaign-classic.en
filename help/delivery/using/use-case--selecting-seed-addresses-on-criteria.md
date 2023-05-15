@@ -2,12 +2,14 @@
 product: campaign
 title: "Use case: select seed addresses on criteria"
 description: "Use case: select seed addresses on criteria"
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 ---
 # Use case: select seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}
 
-![](../../assets/common.svg)
+ 
 
 In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic condition...]** link lets you choose seed addresses based on specific selection criteria.
 

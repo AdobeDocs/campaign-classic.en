@@ -2,6 +2,8 @@
 product: campaign
 title: Working with data packages
 description: Working with data packages
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
@@ -9,7 +11,7 @@ exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 ---
 # Work with data packages{#working-with-data-packages}
 
-![](../../assets/common.svg)
+ 
 
 ## About data packages {#about-data-packages}
 

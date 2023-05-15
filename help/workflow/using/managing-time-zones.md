@@ -2,12 +2,13 @@
 product: campaign
 title: Manage time zones
 description: Manage time zones
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 ---
 # Managing time zones{#managing-time-zones}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign lets you manage time-lags between various countries concerned by the same instance. The applied configuration is configured during instance creation.
 

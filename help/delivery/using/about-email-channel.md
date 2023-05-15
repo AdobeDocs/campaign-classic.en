@@ -1,13 +1,15 @@
 ---
 product: campaign
 title: About email channel in Adobe Campaign Classic
-description: This section provides general information specific to the email channel in Adobe Campaign Classic.
+description: This section provides general information specific to the email channel in Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 ---
 # About email channel{#about-email-channel}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign lets you mass deliver personalized electronic messages to a target population.
 

@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Create event types
-description: Learn how to create event types that will match the transactional messages you want to send in Adobe Campaign Classic.
+description: Learn how to create event types that will match the transactional messages you want to send in Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
@@ -9,7 +10,7 @@ exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
 ---
 # Create event types {#creating-event-types}
 
-![](../../assets/v7-only.svg)
+
 
 To make sure each event can be changed into a personalized message, you first need to create **event types**.
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Send a report to a list
 description: Learn how to send a report to a list with a workflow
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 ---
 # Send a report to a list{#sending-a-report-to-a-list}
 
-![](../../assets/v7-only.svg)
+
 
 This use case details how to generate a monthly out-of-the-box **[!UICONTROL Tracking indicators]** report in PDF format and how to send it to a list of recipients.
 

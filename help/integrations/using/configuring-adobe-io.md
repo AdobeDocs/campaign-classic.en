@@ -2,6 +2,7 @@
 product: campaign
 title: Configuring Adobe I/O for Adobe Experience Cloud Triggers
 description: Learn how to configure Adobe I/O for Adobe Experience Cloud Triggers
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 index: y
@@ -11,7 +12,7 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 ---
 # Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
-![](../../assets/v7-only.svg)
+
 
 >[!CAUTION]
 >

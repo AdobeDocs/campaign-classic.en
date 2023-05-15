@@ -2,6 +2,7 @@
 product: campaign
 title: Operator profiles
 description: Operator profiles
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
@@ -9,7 +10,7 @@ exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 ---
 # Operator profiles{#operator-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 There are two types of operators who use Interaction: offer managers and delivery managers. They each have specific rights that only give them access to some parts of the tree and the platform.
 

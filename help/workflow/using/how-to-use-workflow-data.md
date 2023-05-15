@@ -2,12 +2,13 @@
 product: campaign
 title: How to use workflow data
 description: Learn how to use workflow data
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 ---
 # How to use workflow data{#how-to-use-workflow-data}
 
-![](../../assets/v7-only.svg)
+
 
 ## Updating the database {#updating-the-database}
 

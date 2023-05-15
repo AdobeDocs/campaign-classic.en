@@ -2,12 +2,13 @@
 product: campaign
 title: Push Troubleshooting
 description: Push Troubleshooting
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
 ---
 # Troubleshooting{#troubleshooting}
 
-![](../../assets/v7-only.svg)
+
 
 If your mobile device is connected to Wi-Fi and you are not receiving notifications, check that the FCM/APNs ports are not being blocked by your firewall.
 

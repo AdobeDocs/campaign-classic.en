@@ -2,6 +2,7 @@
 product: campaign
 title: Power Booster and Power Cluster
 description: Power Booster and Power Cluster
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -9,7 +10,7 @@ exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 ---
 # Power Booster and Power Cluster{#power-booster-and-power-cluster}
 
-![](../../assets/v7-only.svg)
+
 
 ## Overview {#overview}
 

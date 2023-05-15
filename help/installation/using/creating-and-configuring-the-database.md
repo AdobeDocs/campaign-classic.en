@@ -2,6 +2,8 @@
 product: campaign
 title: Creating and configuring the database
 description: Creating and configuring the database
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -9,7 +11,7 @@ exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 ---
 # Creating and configuring the database{#creating-and-configuring-the-database}
 
-![](../../assets/v7-only.svg)
+
 
 When you create a database, Adobe Campaign provides two different options:
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Data life cycle
 description: Learn more about data life cycle in workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 ---
 # Data life cycle {#data-life-cycle}
 
-![](../../assets/v7-only.svg)
+
 
 ## Work table {#work-table}
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to Netezza
 description: Learn how to configure access to Netezza in FDA
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -9,7 +10,7 @@ exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
 ---
 # Configure access to Netezza {#configure-access-to-netezza}
 
-![](../../assets/v7-only.svg)
+
 
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Netezza.
 

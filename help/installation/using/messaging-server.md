@@ -2,6 +2,8 @@
 product: campaign
 title: Messaging server
 description: Messaging server
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -9,7 +11,7 @@ exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
 ---
 # Messaging server{#messaging-server}
 
-![](../../assets/v7-only.svg)
+
 
  Adobe Campaign handles outbound email natively, however a traditional email server is required to receive incoming messages linked to returned email (from mailer daemons). The mailboxes configured on this server will be automatically processed by the application.
 

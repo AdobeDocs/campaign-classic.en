@@ -2,6 +2,7 @@
 product: campaign
 title: Use Adobe Campaign Explorer
 description: Learn how to use Campaign Explorer
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 ---
 # Use Adobe Campaign explorer {#using-adobe-campaign-explorer}
 
-![](../../assets/v7-only.svg)
+
 
 The Adobe Campaign explorer is accessible via the toolbar icon. It lets you access the Adobe Campaign all the Adobe Campaign capabilities, configuration screens and a more detailed view of some of the platform elements.
 

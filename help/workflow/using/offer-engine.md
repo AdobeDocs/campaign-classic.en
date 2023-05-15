@@ -2,12 +2,13 @@
 product: campaign
 title: Offer engine
 description: Offer engine
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Interaction
 exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
 ---
 # Offer engine{#offer-engine}
 
-![](../../assets/v7-only.svg)
+
 
 The **[!UICONTROL Offer engine]** activity lets you define a call to the offer engine prior to a delivery.
 

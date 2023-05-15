@@ -2,6 +2,8 @@
 product: campaign
 title: Tables to maintain
 description: Tables to maintain
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -9,7 +11,7 @@ exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 ---
 # Tables to maintain{#tables-to-maintain}
 
-![](../../assets/v7-only.svg)
+
 
 The list of tables to maintain depends on your version of Adobe Campaign, how you use it and on the datamodel configuration.
 

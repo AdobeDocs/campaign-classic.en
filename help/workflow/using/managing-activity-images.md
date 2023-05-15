@@ -2,12 +2,13 @@
 product: campaign
 title: Change activity images
 description: Learn how to change the activity image
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 ---
 # Change activity images{#change-activity-images}
 
-![](../../assets/v7-only.svg)
+
 
 The images used in the diagrams of the various workflows can be changed. However they must comply with certain constraints. Here are the implementation stages:
 

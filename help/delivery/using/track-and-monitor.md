@@ -2,12 +2,14 @@
 product: campaign
 title: Track and monitor messages
 description: Learn how to track and monitor messages
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 ---
 # Track and monitor {#track-and-monitor}
 
-![](../../assets/common.svg)
+ 
 
 You clicked the **Send** button? Let's see what happens. Once the delivery is sent, Adobe Campaign enables you to keep track of the sent messages and discover how your recipients react to your delivery. This will help you improve future sending and optimize your next campaigns.
 

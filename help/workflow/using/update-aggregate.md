@@ -2,12 +2,13 @@
 product: campaign
 title: Update aggregate
 description: Learn more about the Update aggregate workflow activity
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
 ---
 # Update aggregate{#update-aggregate}
 
-![](../../assets/v7-only.svg)
+
 
 Aggregates are defined at cube level for reporting purposes. A **[!UICONTROL Workflow]** tab is available when configuring an aggregate.
   

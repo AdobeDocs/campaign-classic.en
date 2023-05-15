@@ -2,12 +2,11 @@
 product: campaign
 title: Filtering rules
 description: Learn how to use filtering rules
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 ---
 # Filtering rules{#filtering-rules}
-
-![](../../assets/v7-only.svg)
 
 Filtering rules let you define the messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.
 

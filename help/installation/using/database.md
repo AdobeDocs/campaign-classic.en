@@ -2,6 +2,8 @@
 product: campaign
 title: Campaign Classic Database recommendations
 description: Database recommendations
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -9,7 +11,7 @@ exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
 ---
 # Database{#database}
 
-![](../../assets/v7-only.svg)
+
 
 The database server can run on any given operating system regardless of the operating system used by the application server or servers, as long as there is network connectivity between them.
 

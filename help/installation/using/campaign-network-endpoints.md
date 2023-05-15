@@ -2,11 +2,12 @@
 product: campaign
 title: Campaign network endpoints
 description: Campaign network endpoints
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
 ---
 # Campaign network endpoints {#campaign-standard-network-endpoints}
 
-![](../../assets/v7-only.svg)
+
 
 Here are the different endpoints used in Campaign Classic.
 

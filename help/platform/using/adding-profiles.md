@@ -2,6 +2,7 @@
 product: campaign
 title: Adding profiles
 description: Adding profiles
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Profiles
 role: User
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
 ---
 # Add profiles{#adding-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 In most cases, profiles are [imported to Campaign through a workflow](../../platform/using/import-export-workflows.md). However, you can add one or more profiles directly from the interface, by clicking the **[!UICONTROL Create]** button. They will then be added to the database.
 

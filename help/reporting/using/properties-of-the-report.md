@@ -2,12 +2,14 @@
 product: campaign
 title: Properties of the report
 description: Learn more about the report properties settings
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 ---
 # Properties of the report{#properties-of-the-report}
 
-![](../../assets/common.svg)
+ 
 
 You can fully personalize and configure your report to suit your needs. To do this, edit its properties. Report properties are accessed via the **[!UICONTROL Properties]** button above the activity sequence chart.
 

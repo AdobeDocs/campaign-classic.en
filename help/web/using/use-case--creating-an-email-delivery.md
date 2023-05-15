@@ -2,12 +2,14 @@
 product: campaign
 title: Use case - create an email delivery
 description: Use case - create an email delivery
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 ---
 # Use case: create an email delivery{#use-case-creating-an-email-delivery}
 
-![](../../assets/common.svg)
+ 
 
 In this use case, you will learn steps to design an email delivery using Adobe Campaign Digital Content Editor (DCE).
 

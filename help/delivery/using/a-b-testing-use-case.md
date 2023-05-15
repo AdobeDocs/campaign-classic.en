@@ -2,12 +2,14 @@
 product: campaign
 title: AB testing use case
 description: Learn how to perform A/B testing through a dedicated use case
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 ---
 # A/B Testing this use case {#ab-testing-use-case}
 
-![](../../assets/common.svg)
+ 
 
 In this use case, we are going to compare two email delivery contents via a targeting workflow. The message and the text are identical in both deliveries: only the layout changes.
 

@@ -2,29 +2,29 @@
 product: campaign
 title: Access marketing campaigns
 description: Access marketing campaigns
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 ---
 # Accessing marketing campaigns{#accessing-marketing-campaigns}
 
-Adobe Campaign lets you create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center.
+Adobe Campaign lets you create, configure, execute, and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center.
 
 ## Workspace basics {#workspace-basics}
 
 ### Home page {#home-page}
 
-Once you connect to Adobe Campaign, you will see the home page.
+Once connected to Adobe Campaign, browse the various capabilities using links in the navigation bar.
+ 
 
 ![](assets/campaign_global_view.png)
 
-Click the links in the navigation bar to access the various capabilities.
 
-Campaign elements are found in the **[!UICONTROL Campaigns]** tab: here you can see an overview of the marketing programs and campaigns as well as their sub-sets. A marketing program is made up of campaigns, which are made up of deliveries, tasks, linked resources, etc. In the context of marketing campaign management using Campaign, the information concerning deliveries, budgets, reviewers and linked documents are found in the campaigns.
+Campaign elements are found in the **[!UICONTROL Campaigns]** tab: here you can see an overview of the marketing programs, campaigns, and their sub-sets. A marketing program is made up of campaigns, which are made up of deliveries, tasks, linked resources, etc. In the context of marketing campaign management using Campaign, the information concerning deliveries, budgets, reviewers, and linked documents are found in the campaigns.
 
 The **[!UICONTROL Browsing]** block of the **[!UICONTROL Campaigns]** tab offers various entries, depending on modules installed on the instance. As an example, you can access:
 
-* **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](#campaign-calendar).
+* **Campaign calendar**: calendar of plans, marketing programs, deliveries, and campaigns. Refer to [Campaign calendar](#campaign-calendar).
 * **Campaigns**: access to the campaigns contained in all marketing programs.
 * **Deliveries**: access to the deliveries linked to the campaigns.
 * **Web Applications**: access to web applications (forms, landing pages, etc.).
@@ -37,19 +37,19 @@ The **[!UICONTROL Browsing]** block of the **[!UICONTROL Campaigns]** tab offers
 
 ### Campaign calendar {#campaign-calendar}
 
-Each campaign belongs to a program which in turn belongs to a plan. Plans, programs and campaigns are accessed via the **[!UICONTROL Campaign calendar]** menu in the **Campaigns** tab.
+Each campaign belongs to a program which in turn belongs to a plan. Plans, programs, and campaigns are accessed via the **[!UICONTROL Campaign calendar]** menu in the **Campaigns** tab.
 
 To edit a plan, program, campaign or delivery, click its name in the calendar and then click **[!UICONTROL Open...]**. It is then displayed in a new tab, as shown below:
 
 ![](assets/d_ncs_user_interface_hierar.png)
 
-You can filter the information displayed in the campaign calendar. To do this, click the **[!UICONTROL Filter]** link and select the filtering criteria.
+You can filter the information displayed in the campaign calendar: click the **[!UICONTROL Filter]** link and select the filtering criteria.
 
 ![](assets/campaign_planning_filter.png)
 
 >[!NOTE]
 >
->When you filter on a date, all campaigns with a start date that is later than the specified date and/or with an end date earlier than the specified date are displayed. Dates need to be selected using the calendars to the right of each field.
+>When you filter on a date, all campaigns with a start date that is later than the specified date and/or with an end date earlier than the specified date are displayed. Select dates using the calendars to the right of each field.
 
 You can also use the **[!UICONTROL Search]** field to filter the displayed items.
 
@@ -63,7 +63,7 @@ Campaign allows you to manage a set of programs made up of various marketing cam
 
 When editing a program, use the tabs described below to browse and configure it.
 
-* The **Schedule** tab displays the calendar of programs for a month, week or day depending on which tab you click in the calendar header.
+* The **Schedule** tab displays the calendar of programs for a month, week, or day depending on which tab you click in the calendar header.
 
   If necessary, you can create a campaign, a program, or a task via this page.
 
@@ -110,7 +110,7 @@ With Adobe Campaign you can set up collaborative processes for the creation and 
 
 #### Schedule {#schedule}
 
-A campaign centralizes a set of deliveries. For each campaign, the schedule offers a global view of all components: this lets you display the tasks and deliveries and access them easily.
+A campaign centralizes a set of deliveries. For each campaign, the schedule offers a global view of all components: you can display the tasks and deliveries, and access them easily.
 
 ![](assets/campaign_planning_tab.png)
 
@@ -118,7 +118,7 @@ A campaign centralizes a set of deliveries. For each campaign, the schedule offe
 
 For each campaign, operators can exchange messages via a dedicated forum.
 
-For more on this, refer to [Discussion forums](../../mrm/using/discussion-forums.md).
+Learn more in [Discussion forums](../../mrm/using/discussion-forums.md).
 
 #### Reports {#reports}
 
@@ -134,11 +134,11 @@ The **[!UICONTROL Reports]** link lets you access the campaign reports.
 
 Campaigns are created via campaign templates. You can configure reusable templates for which some options are selected and other settings are already saved. For each campaign, the following functionality is offered:
 
-* Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents). 
-* Defining costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. See [Defining cost categories](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
+* Referencing of [documents and resources](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents): you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. 
+* Defining costs: for each campaign, Adobe Campaign lets you define [cost entries and cost calculation structures](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental.
 * Defining objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.
-* Managing seed addresses (for more on this, refer to [this section](../../delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
-* Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+* Managing [seed addresses](../../delivery/using/about-seed-addresses.md) and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+* Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. [Learn more](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)
 
 >[!NOTE]
 >

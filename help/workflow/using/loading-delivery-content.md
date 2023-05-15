@@ -2,12 +2,13 @@
 product: campaign
 title: Load delivery content
 description: Loading delivery content
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 ---
 # Load delivery content{#loading-delivery-content}
 
-![](../../assets/v7-only.svg)
+
 
 If your delivery content is available in an HTML file located on Amazon S3, FTP or SFTP servers, you can easily load this content into Adobe Campaign deliveries.
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Web forms answers
 description: Web forms answers
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 ---
 # Web forms answers{#web-forms-answers}
 
-![](../../assets/common.svg)
 
 ## Response storage fields {#response-storage-fields}
 

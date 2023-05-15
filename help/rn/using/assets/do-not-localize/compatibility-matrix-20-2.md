@@ -2,6 +2,7 @@
 product: campaign
 title: Compatibility matrix
 description: Compatibility matrix
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
@@ -9,7 +10,7 @@ topic-tags: latest-release-notes
 
 # Compatibility matrix{#compatibility-matrix}
 
-![](../../assets/v7-only.svg)
+
 
 This document lists all systems and components supported for the latest build of **Adobe Campaign Classic (v6.11 and v7)**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 

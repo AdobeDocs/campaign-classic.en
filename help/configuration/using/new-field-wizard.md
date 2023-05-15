@@ -2,12 +2,12 @@
 product: campaign
 title: New field wizard
 description: New field wizard
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---
 # New field wizard{#new-field-wizard}
 
-![](../../assets/v7-only.svg)
 
 A wizard accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
 

@@ -2,12 +2,13 @@
 product: campaign
 title: CRM Connectors data synchronization
 description: Manage data between Campaign and your CRM
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 ---
 # Synchronize data between Campaign and the CRM {#data-synchronization}
 
-![](../../assets/v7-only.svg)
+
 
 Data synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity: [CRM connector](../../workflow/using/crm-connector.md).
 

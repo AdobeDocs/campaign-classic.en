@@ -2,6 +2,7 @@
 product: campaign
 title: Campaign FDA best practices and limitations
 description: Learn best practices and limitations when working with an external database (FDA)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -9,7 +10,7 @@ exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 ---
 # Best practices and limitations 
 
-![](../../assets/v7-only.svg)
+
 
 ## Optimize email personalization with external data {#optimizing-email-personalization-with-external-data}
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Enterprise deployment
 description: Enterprise deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -9,7 +10,7 @@ exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 ---
 # Enterprise deployment{#enterprise-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 This is the most complete configuration. It builds on the standard configuration for greater security and availability:
 

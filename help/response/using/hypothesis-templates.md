@@ -2,6 +2,8 @@
 product: campaign
 title: Hypothesis templates
 description: Learn how to create hypothesis templates in Campaign Response Manager
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -9,7 +11,7 @@ exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 ---
 # Hypothesis templates{#hypothesis-templates}
 
-![](../../assets/common.svg)
+ 
 
 ## Create a hypothesis model {#creating-a-hypothesis-model}
 

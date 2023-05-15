@@ -2,12 +2,13 @@
 product: campaign
 title: Scheduler
 description: Learn more about the Scheduler workflow activity
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 ---
 # Scheduler {#scheduler}
 
-![](../../assets/v7-only.svg)
+
 
 The **Scheduler** is a persistent task that activates its transition at the times specified by its schedule.
 

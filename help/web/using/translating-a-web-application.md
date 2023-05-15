@@ -2,12 +2,14 @@
 product: campaign
 title: Translate a web application
 description: Translate a web application
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 ---
 # Translate a web application{#translating-a-web-application}
 
-![](../../assets/common.svg)
+ 
 
 You can translate Web application pages created with the Adobe Campaign Digital content editor (DCE).
 

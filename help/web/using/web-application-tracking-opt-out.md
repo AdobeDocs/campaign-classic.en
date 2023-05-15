@@ -2,12 +2,14 @@
 product: campaign
 title: Web application tracking opt-out
 description: Web application tracking opt-out
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 ---
 # Web application tracking opt-out{#web-application-tracking-opt-out}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign enables you to stop tracking web behaviors of end-users who opt-out of behavioral tracking via cookies or web beacons. The feature includes the ability to display a banner to present the end-user with that option; you may add these banners into web applications or landing pages.
 

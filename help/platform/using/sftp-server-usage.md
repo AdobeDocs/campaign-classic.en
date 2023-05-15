@@ -1,7 +1,9 @@
 ---
 product: campaign
 title: SFTP server usage
-description: Learn more on SFTP server best practices and troubleshooting.
+description: Learn more on SFTP server best practices and troubleshooting
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -9,7 +11,7 @@ exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 ---
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
 
-![](../../assets/common.svg)
+ 
 
 ## SFTP server global recommendations {#global-recommendations}
 

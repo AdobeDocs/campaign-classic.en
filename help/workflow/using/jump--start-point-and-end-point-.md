@@ -2,12 +2,13 @@
 product: campaign
 title: Jump (start point and end point)
 description: Jump (start point and end point)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 ---
 # Jump (start point and end point){#jump-start-point-and-end-point}
 
-![](../../assets/v7-only.svg)
+
 
  **[!UICONTROL Jump]** -type graphical objects are used to improve the readability of a complex diagram, particularly one with crossing transitions.
 

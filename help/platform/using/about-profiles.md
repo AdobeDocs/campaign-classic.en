@@ -2,6 +2,7 @@
 product: campaign
 title: Get started with profiles
 description: Work with profiles in Adobe Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 ---
 # Get started with profiles{#about-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 Profiles are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PI data in a consolidated view to analyze and take action.
 

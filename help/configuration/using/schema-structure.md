@@ -2,14 +2,13 @@
 product: campaign
 title: Schema structure
 description: Schema structure
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 ---
 # Schema structure{#schema-structure}
-
-![](../../assets/v7-only.svg)
 
 The basic structure of an `<srcschema>` is as follows:
 

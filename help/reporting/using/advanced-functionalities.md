@@ -2,12 +2,14 @@
 product: campaign
 title: Advanced capabilities
 description: Learn more about advanced capabilities when working with reports
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 ---
 # Advanced capabilities{#advanced-functionalities}
 
-![](../../assets/common.svg)
+ 
 
 As a technical user, in addition to [general properties](../../reporting/using/properties-of-the-report.md), you can leverage advanced capabilities to configure your reports, such as:
 

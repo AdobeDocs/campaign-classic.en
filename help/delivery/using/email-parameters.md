@@ -2,12 +2,14 @@
 product: campaign
 title: Email parameters
 description: Learn about options and settings that are specific to email delivery
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 ---
 # Email parameters {#email-parameters}
 
-![](../../assets/common.svg)
+ 
 
 This section presents the options and parameters that are specific to email delivery.
 

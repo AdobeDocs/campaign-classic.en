@@ -2,12 +2,13 @@
 product: campaign
 title: JavaScript scripts and templates
 description: JavaScript scripts and templates
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 ---
 # JavaScript scripts and templates{#javascript-scripts-and-templates}
 
-![](../../assets/v7-only.svg)
+
 
 Scripts make it possible to calculate values, exchange data between different tasks in the process and to execute specific operations using SOAP calls.
 

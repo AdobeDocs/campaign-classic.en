@@ -2,12 +2,14 @@
 product: campaign
 title: Create the script
 description: Learn how to perform A/B testing through a dedicated use case
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 ---
 # Create the script {#step-5--creating-the-script}
 
-![](../../assets/common.svg)
+ 
 
 The choice of the delivery content destined for the remaining population is calculated by a script. This script recovers the information concerning the delivery with the highest rate of opens and copies the content into the final delivery.
 

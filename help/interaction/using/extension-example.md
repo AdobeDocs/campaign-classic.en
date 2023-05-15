@@ -2,6 +2,8 @@
 product: campaign
 title: Extension example
 description: Extension example
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
@@ -9,7 +11,7 @@ exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
 ---
 # Extension example{#extension-example}
 
-![](../../assets/common.svg)
+ 
 
 In the case of an inbound contact (call center or web site), the most relevant offers are suggested to a given contact using a set of eligibility rules. To enrich the eligibility criteria of your offers, extend the **nms:interaction** schema.
 

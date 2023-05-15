@@ -2,12 +2,11 @@
 product: campaign
 title: About schema reference in Adobe Campaign Classic
 description: Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign Classic database
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
 ---
 # About schema reference{#about-schema-reference}
-
-![](../../assets/v7-only.svg)
 
 This chapter describes how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database.
 

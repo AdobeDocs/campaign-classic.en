@@ -2,13 +2,15 @@
 product: campaign
 title: Configuring the pipeline
 description: Learn how to configure the pipeline
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 ---
 # Configuring pipeline {#configuring-pipeline}
 
-![](../../assets/common.svg)
+ 
 
 Authentication parameters such as the customer ID, the private key, and the authentication endpoint are configured in the instance configuration files.
 The list of triggers to be processed is configured in an option in JSON format.

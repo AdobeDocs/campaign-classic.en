@@ -2,12 +2,11 @@
 product: campaign
 title: Monitoring marketing campaigns
 description: Monitoring marketing campaigns
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Monitoring
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 ---
 # Monitor marketing campaigns {#monitoring-marketing-campaigns}
-
-![](../../assets/v7-only.svg)
 
 ## Track a campaign {#tracking-a-campaign}
 

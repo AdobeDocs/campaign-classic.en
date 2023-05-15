@@ -2,6 +2,8 @@
 product: campaign
 title: Configure URL permissions
 description: Learn how to configure URL permissions
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +11,7 @@ exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 ---
 # Configure URL permissions (on-premise){#url-permissions}
 
-![](../../assets/v7-only.svg)
+
 
 The default list of URLs that can be called by JavaScript codes (workflows, etc.) by your Campaign Classic instances is limited. These are URLs that allow your instances to function properly.
 

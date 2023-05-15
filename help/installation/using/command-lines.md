@@ -2,6 +2,7 @@
 product: campaign
 title: Command lines
 description: Command lines
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -9,7 +10,7 @@ exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 ---
 # Command lines{#command-lines}
 
-![](../../assets/v7-only.svg)
+
 
 The following command lines require the ability to access the application server. For deployments hosted by Adobe, these commands can only be executed by Adobe.
 

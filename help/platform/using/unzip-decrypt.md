@@ -1,7 +1,9 @@
 ---
 product: campaign
 title: Unzipping or decrypting a file
-description: Learn how to unzip or decrypt a file in Campaign Classic before processing.
+description: Learn how to unzip or decrypt a file in Campaign before processing
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -9,7 +11,7 @@ exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 ---
 # Unzip or decrypt a file {#unzipping-or-decrypting-a-file-before-processing}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign lets you import zipped or encrypted files. Before they can be read in a [Data loading (file)](../../workflow/using/data-loading--file-.md) activity, you can define a pre-processing to unzip or to decrypt the file.
 

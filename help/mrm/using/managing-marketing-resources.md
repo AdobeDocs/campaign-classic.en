@@ -2,6 +2,7 @@
 product: campaign
 title: Manage marketing resources
 description: Learn how to manage marketing resources
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
@@ -9,7 +10,7 @@ exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 ---
 # Manage marketing resources{#managing-marketing-resources}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign lets you manage and track the marketing resources involved in the campaign life cycle. These marketing resources can be a brochure, a visual aid, or any other communication medium involving several operators.
 

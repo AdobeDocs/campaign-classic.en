@@ -2,6 +2,7 @@
 product: campaign
 title: Email archiving
 description: Email archiving
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +10,7 @@ exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 ---
 # Configure email BCC {#email-archiving}
 
-![](../../assets/v7-only.svg)
+
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
@@ -28,6 +29,9 @@ To do this, .eml files corresponding to the sent emails are transferred to a rem
 * The email archiving system changed with Adobe Campaign 17.2 (build 8795). If you were already using email archiving, you must upgrade manually to the new email BCC system. For more on this, see the [Moving to the new Email BCC](#updated-email-archiving-system--bcc-) section.
 
 ## Activating Email BCC (on premise) {#activating-email-archiving--on-premise-}
+
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
+
 
 To activate BCC email archiving when Adobe Campaign is installed on premise, follow the steps below.
 
@@ -96,6 +100,9 @@ Make sure you adjust these parameters according to the email sending throughput.
 
 ## Configuring the BCC email address (on premise) {#configuring-the-bcc-email-address--on-premise-}
 
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
+
+
 >[!IMPORTANT]
 >
 >For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
@@ -118,6 +125,10 @@ In the **config- `<instance name>.xml`** file, use the following parameters to d
 >Besides, the relay assigns a **[!UICONTROL Sent]** status to all emails, including those that are not sent. Therefore, all messages are archived.
 
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
+
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
+
+
 
 >[!IMPORTANT]
 >

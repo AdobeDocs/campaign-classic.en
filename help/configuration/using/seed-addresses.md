@@ -2,12 +2,14 @@
 product: campaign
 title: Seed addresses
 description: Seed addresses
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 ---
 # Seed addresses{#seed-addresses}
 
-![](../../assets/common.svg)
+ 
 
 If the recipient table is a custom table, additional configurations are required. The **[!UICONTROL nms:seedMember]** schema must be extended. An additional tab is added to the seed addresses for defining the adequate fields, as shown below:
 

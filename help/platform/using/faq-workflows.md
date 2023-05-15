@@ -2,6 +2,7 @@
 product: campaign
 title: Workflows FAQ
 description: Campaign Classic FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
 ---
 # Workflows FAQ {#workflows-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Learn how to orchestrate processes and tasks with Adobe Campaign workflows.
 

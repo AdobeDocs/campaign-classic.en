@@ -1,13 +1,14 @@
 ---
 product: campaign
 title: Monitoring guidelines
-description: Discover guidelines and best practices to monitor Campaign instance and processes.
+description: Discover guidelines and best practices to monitor Campaign instance and processes
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 ---
 # Monitoring guidelines {#monitoring-guidelines}
 
-![](../../assets/v7-only.svg)
+
 
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}
 

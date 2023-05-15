@@ -2,12 +2,13 @@
 product: campaign
 title: Change dimension
 description: Change dimension
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 ---
 # Change dimension{#change-dimension}
 
-![](../../assets/v7-only.svg)
+
 
 The change dimension activity lets you change the targeting dimension during the target construction cycle. Axis shifting depends on the data template and the input dimension. This lets you switch from the "contracts" dimension to the "clients" dimension, for example.
 

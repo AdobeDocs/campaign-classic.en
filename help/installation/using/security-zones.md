@@ -2,6 +2,8 @@
 product: campaign
 title: Configure security zones
 description: Learn how to configure security zones
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +11,7 @@ exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 ---
 # Define security zones (on-premise){#defining-security-zones}
 
-![](../../assets/v7-only.svg)
+
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
 

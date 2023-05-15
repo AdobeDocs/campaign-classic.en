@@ -2,12 +2,14 @@
 product: campaign
 title: Delivery sending troubleshooting
 description: Learn more about delivery performances and how to troubleshoot issues related to delivery monitoring
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 ---
 # Delivery sending troubleshooting {#delivery-troubleshooting}
 
-![](../../assets/common.svg)
+ 
 
 This section lists common issues you may encounter when sending deliveries, and how to troubleshoot them.
 

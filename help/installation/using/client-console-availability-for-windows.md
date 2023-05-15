@@ -2,6 +2,8 @@
 product: campaign
 title: Client console availability for Windows
 description: Client console availability for Windows
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -9,7 +11,7 @@ exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
 ---
 # Client console availability for Windows{#client-console-availability-for-windows}
 
-![](../../assets/v7-only.svg)
+
 
 For Adobe Campaign users to be able to log on to the instance you have created and configured, they need to use the client console.
 

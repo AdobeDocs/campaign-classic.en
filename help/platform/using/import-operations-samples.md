@@ -1,7 +1,9 @@
 ---
 product: campaign
 title: Generic import samples
-description: Learn more about generic imports you can perform using import jobs.
+description: Learn more about generic imports you can perform using import jobs
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -9,7 +11,7 @@ exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 ---
 # Generic import samples {#import-operations-samples}
 
-![](../../assets/common.svg)
+ 
 
 ## Import from a list of recipients {#example--import-from-a-list-of-recipients}
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Interaction
 description: Interaction
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Interaction
 ---
 
 # Interaction{#interaction}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **Offer engine (Interaction)** add-on by default. 
 

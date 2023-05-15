@@ -2,12 +2,11 @@
 product: campaign
 title: Marketing campaign templates
 description: Marketing campaign templates
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 ---
 # Create and configure campaign templates {#campaign-templates}
-
-![](../../assets/v7-only.svg)
 
 All marketing campaigns are based on a template, which stores main characteristics and capabilities. Campaign templates are centralized in the **[!UICONTROL Resources > Templates > Campaign templates]** node. A default template is supplied as standard. It lets you create a new campaign using all the available modules (Documents, Tasks, Seed addresses, etc.), but the modules offered depend on your rights and the configuration of your Adobe Campaign platform.
 

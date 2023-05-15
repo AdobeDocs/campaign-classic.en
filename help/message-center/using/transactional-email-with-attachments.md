@@ -2,12 +2,13 @@
 product: campaign
 title: Send transactional emails with attachments
 description: Learn how to send transactional emails with individual and/or personalized attachments using Adobe Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
 ---
 # Use case: Send transactional emails with attachments {#transactional-email-with-attachments}
 
-![](../../assets/v7-only.svg)
+
 
 The purpose of this use case is to add email attachments on the fly to outbound dispatches.
 

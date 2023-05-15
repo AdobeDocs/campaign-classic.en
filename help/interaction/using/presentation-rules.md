@@ -2,6 +2,8 @@
 product: campaign
 title: Presentation rules
 description: Presentation rules
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
@@ -9,7 +11,7 @@ exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
 ---
 # Presentation rules{#presentation-rules}
 
-![](../../assets/common.svg)
+ 
 
 ## Creating a presentation rule {#creating-a-presentation-rule}
 

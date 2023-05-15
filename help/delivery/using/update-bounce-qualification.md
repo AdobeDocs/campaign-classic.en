@@ -2,12 +2,14 @@
 product: campaign
 title: Update bounce qualification after Apple 2021 outage
 description: Learn how to update bounce qualification after Apple 2021 outage
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 ---
 # Update incorrect hard bounces after Apple outage {#update-bounce-qualification.md}
 
-![](../../assets/common.svg)
+ 
 
 ## Context
 

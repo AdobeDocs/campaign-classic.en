@@ -2,6 +2,7 @@
 product: campaign
 title: Creating and managing lists
 description: Learn how to create and manage lists
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Profiles
 role: User
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 ---
 # Create and manage lists{#creating-and-managing-lists}
 
-![](../../assets/v7-only.svg)
+
 
 ## What is a list? {#about-lists-in-adobe-campaign}
 

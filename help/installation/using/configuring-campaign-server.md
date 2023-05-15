@@ -2,6 +2,8 @@
 product: campaign
 title: Configuring Campaign server
 description: Configuring Campaign server
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +11,7 @@ exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 ---
 # Get started with Campaign server configuration{#gs-campaign-server-config}
 
-![](../../assets/v7-only.svg)
+
 
 This chapter details server-side configurations that can be performed to match your needs and your environment specificities.
 

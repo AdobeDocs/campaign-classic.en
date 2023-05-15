@@ -2,6 +2,7 @@
 product: campaign
 title: Launching Adobe Campaign
 description: Launching Adobe Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 ---
 # Launch Adobe Campaign{#launching-adobe-campaign}
 
-![](../../assets/v7-only.svg)
+
 
 Campaign Client console is a rich client which enables you to connect to your Campaign application server(s). Learn how to download and configure the client console in [this page](../../installation/using/installing-the-client-console.md).
 

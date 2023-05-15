@@ -2,12 +2,11 @@
 product: campaign
 title: Data model best practices
 description: Learn how to work with Campaign Classic data model
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 ---
 # Data model best practices{#data-model-best-practices}
-
-![](../../assets/v7-only.svg)
 
 This document outlines key recommendations while designing your Adobe Campaign data model.
 

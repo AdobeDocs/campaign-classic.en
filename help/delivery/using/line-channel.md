@@ -2,12 +2,14 @@
 product: campaign
 title: Create LINE deliveries
 description: Learn how to create LINE messages
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 ---
 # Create LINE deliveries{#line-channel}
 
-![](../../assets/common.svg)
+ 
 
 [!DNL LINE] is an application for free instant messaging, voice and video calls, available on every mobile OS and on PC.
 

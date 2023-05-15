@@ -2,6 +2,7 @@
 product: campaign
 title: Add an Enumeration type calculated field
 description: Learn how to add an Enumeration type calculated field
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +11,7 @@ exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 ---
 # Add an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}
 
-![](../../assets/v7-only.svg)
+
 
 Here we want to create a query with an **[!UICONTROL Enumerations]** type calculated field. This field will generate an additional column in the data preview window. This column will specify the numeric values returned as a result for each recipient (0, 1 and 2). A gender will be assigned to each value in the new column: "Male" for "1", "Female" for "2" or "Not indicated" if the value equals "0".
 

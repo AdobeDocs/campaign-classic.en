@@ -2,12 +2,13 @@
 product: campaign
 title: Configure the mobile application in Adobe Campaign 
 description: Learn how to start with the mobile application configuration
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 ---
 # Get started with the app configuration
 
-![](../../assets/v7-only.svg)
+
 
 You can find in this section a configuration sample based on a company which sells online holiday packages. Its mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS.
 

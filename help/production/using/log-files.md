@@ -2,6 +2,8 @@
 product: campaign
 title: Log files
 description: Log files
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -9,7 +11,7 @@ exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 ---
 # Log files{#log-files}
 
-![](../../assets/v7-only.svg)
+
 
 The log files are organized as follows:
 

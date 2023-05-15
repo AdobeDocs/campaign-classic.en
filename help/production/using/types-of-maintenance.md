@@ -2,6 +2,8 @@
 product: campaign
 title: Types of maintenance
 description: Types of maintenance
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -9,7 +11,7 @@ exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 ---
 # Types of maintenance{#types-of-maintenance}
 
-![](../../assets/v7-only.svg)
+
 
 ## Application maintenance {#application-maintenance}
 

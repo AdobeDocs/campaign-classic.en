@@ -2,6 +2,8 @@
 product: campaign
 title: Modules and frequent issues
 description: Modules and frequent issues
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +11,7 @@ exl-id: dbd50178-0a16-46ed-bfad-47beb3c2a420
 ---
 # Modules and frequent issues{#modules-and-frequent-issues}
 
-![](../../assets/v7-only.svg)
+
 
 Here is a list of modules impacted by frequent issues:
 

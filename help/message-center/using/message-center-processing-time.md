@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Message Center processing time
-description: Learn more on the Message Center processing time report.
+description: Learn more on the Message Center processing time report
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
@@ -9,7 +10,7 @@ exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 ---
 # Message Center processing time {#message-center-processing-time}
 
-![](../../assets/v7-only.svg)
+
 
 This report displays the main indicators related to the real time queue.
 

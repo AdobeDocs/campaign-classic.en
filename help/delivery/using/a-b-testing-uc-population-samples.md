@@ -2,12 +2,14 @@
 product: campaign
 title: Configure population samples
 description: Learn how to perform A/B testing through a dedicated use case
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 ---
 # Configure population samples {#step-2--configuring-population-samples}
 
-![](../../assets/common.svg)
+ 
 
 ## Configure the Query activity {#configuring-the-query-activity}
 

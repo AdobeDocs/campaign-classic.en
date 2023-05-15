@@ -2,12 +2,13 @@
 product: campaign
 title: Test
 description: Learn more about the Test workflow activity
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
 ---
 # Test{#test}
 
-![](../../assets/v7-only.svg)
+
 
 A **Test** type activity activates the first transition that satisfies the condition associated with it. If no condition is satisfied and if the **[!UICONTROL Use the default fork]** option is activated, the default transition will be activated.
 

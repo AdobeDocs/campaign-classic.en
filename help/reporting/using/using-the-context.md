@@ -2,12 +2,14 @@
 product: campaign
 title: Use the context in your reports
 description: Learn how to use the context in your reports
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 ---
 # Use the context in your reports{#using-the-context}
 
-![](../../assets/common.svg)
+ 
 
 When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Define a direct filter on data](#defining-a-direct-filter-on-data)) or the report context (refer to [Use context data](#using-context-data)).
 

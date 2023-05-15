@@ -2,12 +2,13 @@
 product: campaign
 title: Create a filter
 description: Learn how to create a filter when performing queries
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 ---
 # Create a filter {#creating-a-filter}
 
-![](../../assets/v7-only.svg)
+
 
 The filters available in Adobe Campaign are defined via filtering conditions which are created using the same operating mode as queries.
 

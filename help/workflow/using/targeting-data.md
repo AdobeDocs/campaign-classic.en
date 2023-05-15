@@ -2,12 +2,13 @@
 product: campaign
 title: Targeting data
 description: Learn more about Targeting data in a workflow
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 ---
 # Target data{#targeting-data}
 
-![](../../assets/v7-only.svg)
+
 
 ## Create queries {#creating-queries}
 

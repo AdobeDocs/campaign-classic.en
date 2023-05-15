@@ -2,12 +2,14 @@
 product: campaign
 title: Personalized coupons
 description: Learn how to create and insert personalized coupons
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 ---
 # Personalized coupons{#personalized-coupons}
 
-![](../../assets/common.svg)
+ 
 
 Adding coupons to your deliveries can give your recipients enhanced value for products and services. You can use the Campaign coupon module to create a set of coupons that you expect to add to upcoming marketing offers. When you are ready to create a delivery, assign the applicable coupons. Since coupons are valid for a select period, an assigned coupon is uniquely linked to its delivery message. Also, Campaign confirms that there are enough coupons for the number of messages before the delivery is sent.
 

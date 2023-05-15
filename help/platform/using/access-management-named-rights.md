@@ -2,6 +2,7 @@
 product: campaign
 title: Use named rights to set up permissions
 description: Learn how to use named rights to set up permissions
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 ---
 # Use named rights to set up permissions{#named-rights}
 
-![](../../assets/common.svg)
+ 
 
 By default, Adobe Campaign proposes a set of named rights that let you define the authorizations assigned to operators and groups of operators. These rights can be edited from the **[!UICONTROL Administration > Access management > Named rights]** node of the tree. 
 

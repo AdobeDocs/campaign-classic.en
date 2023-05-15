@@ -2,12 +2,13 @@
 product: campaign
 title: Start a workflow
 description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 ---
 # Start a workflow {#starting-a-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](scheduler.md)) or activity scheduling.
 

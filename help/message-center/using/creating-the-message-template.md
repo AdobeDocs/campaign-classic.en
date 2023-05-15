@@ -1,13 +1,14 @@
 ---
 product: campaign
 title: Design transactional message templates
-description: Learn how to create and design a transactional message template in Adobe Campaign Classic.
+description: Learn how to create and design a transactional message template in Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 ---
 # Design transactional message templates {#creating-the-message-template}
 
-![](../../assets/v7-only.svg)
+
 
 To make sure each event can be changed into a personalized message, you need to create a message template to match each event type.
 

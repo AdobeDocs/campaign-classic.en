@@ -9,7 +9,7 @@ exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 ---
 # Common questions{#common-questions}
 
-![](../../assets/common.svg)
+ 
 
 Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also:
 

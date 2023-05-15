@@ -2,6 +2,8 @@
 product: campaign
 title: Network configuration
 description: Learn system communication guidelines
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -9,7 +11,7 @@ exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 ---
 # Network configuration{#network-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 ## Communication between processes {#communication-between-processes}
 

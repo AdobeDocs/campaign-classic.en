@@ -2,6 +2,7 @@
 product: campaign
 title: Campaign Classic general architecture
 description: Learn how to install and configure Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
@@ -9,7 +10,7 @@ exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 ---
 # General architecture{#general-architecture}
 
-![](../../assets/v7-only.svg)
+
 
 The typical Adobe Campaign solution deployment consists of the following components:
 

@@ -2,6 +2,8 @@
 product: campaign
 title: Use case
 description: Use case
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
@@ -9,7 +11,7 @@ exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 ---
 # Use case{#use-case}
 
-![](../../assets/common.svg)
+ 
 
 ## Create a filter on the email format of subscribers {#creating-a-filter-on-the-email-format-of-subscribers}
 

@@ -2,12 +2,14 @@
 product: campaign
 title: About deliverability in Adobe Campaign Classic
 description: Learn more about managing deliverability in Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 ---
 # Control your message content{#control-message-content}
 
-![](../../assets/common.svg)
+ 
 
 To make sure that your emails reach your recipients and improve your email deliverability rate, they must respect a number of rules. Otherwise, the content of certain messages may be detected as spam. Adobe Campaign provides you with several tools to make your content comply with these rules.
 

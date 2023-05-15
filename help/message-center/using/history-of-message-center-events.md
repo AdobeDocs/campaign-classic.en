@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: History of Message Center events
-description: Learn more on the History of Message Center events report.
+description: Learn more on the History of Message Center events report
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
@@ -9,7 +10,7 @@ exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 ---
 # Message Center event history{#history-of-message-center-events}
 
-![](../../assets/v7-only.svg)
+
 
 The **[!UICONTROL History of Message Center events]** report provides you with an overview of the Message Center activity, i.e. the number of events processed and delivered as transactional messages.
 

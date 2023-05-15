@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Web-server configuration
-description: Learn more about web-server configuration main best practices.
+description: Learn more about web-server configuration main best practices
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -9,7 +10,7 @@ exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 ---
 # Web-server configuration {#web-server-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 You will find below some of the main best practices related to web-server (Apache/IIS) configuration.
 

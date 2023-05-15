@@ -2,12 +2,13 @@
 product: campaign
 title: About action activities
 description: About action activities
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
 ---
 # Action activities in workflows{#about-action-activities}
 
-![](../../assets/v7-only.svg)
+
 
 * **Delivery**: lets you configure a delivery action. Refer to the [Delivery](delivery.md) section.
 * **Delivery control**: lets you start, pause or stop a delivery. Refer to the [Delivery control](delivery-control.md) section.

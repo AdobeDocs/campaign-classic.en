@@ -2,6 +2,7 @@
 product: campaign
 title: Campaign Settings FAQ
 description: Campaign Classic FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 ---
 # Campaign Settings FAQ {#settings-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Learn key configurations to set up your Campaign instance to fit with your needs.
 

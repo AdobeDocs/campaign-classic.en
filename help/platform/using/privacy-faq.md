@@ -2,6 +2,8 @@
 product: campaign
 title: Privacy and Consent FAQ
 description: Privacy and Consent FAQ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +11,7 @@ exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 ---
 # Privacy FAQ {#privacy-faq}
 
-![](../../assets/common.svg)
+ 
 
 Here are some of the Frequently Asked Questions about Privacy and Consent when using Adobe Campaign.
 

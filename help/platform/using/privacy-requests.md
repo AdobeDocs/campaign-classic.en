@@ -2,6 +2,7 @@
 product: campaign
 title: Manage Privacy requests
 description: Learn about Privacy requests
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 ---
 # About Privacy requests {#privacy-requests}
 
-![](../../assets/v7-only.svg)
+
 
 For a general presentation on Privacy Management, refer to [this section](privacy-management.md).
 

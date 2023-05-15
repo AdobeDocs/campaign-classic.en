@@ -2,6 +2,8 @@
 product: campaign
 title: Temporary files
 description: Temporary files
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +11,7 @@ exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
 ---
 # Temporary files{#temporary-files}
 
-![](../../assets/v7-only.svg)
+
 
 Error messages such as the following may display (particularly in delivery logs) when the system is put into production:
 

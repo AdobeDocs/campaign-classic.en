@@ -1,13 +1,15 @@
 ---
 product: campaign
 title: Configure A/B testing
-description: Learn how to configure A/B testing in Campaign Classic.
+description: Learn how to configure A/B testing in Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 ---
 # Configure A/B testing {#configuring-a-b-testing}
 
-![](../../assets/common.svg)
+ 
 
 This section details how to build a workflow to perform A/B testing. 
 

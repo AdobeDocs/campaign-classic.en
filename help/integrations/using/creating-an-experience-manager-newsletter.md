@@ -2,13 +2,15 @@
 product: campaign
 title: Creating an Experience Manager newsletter
 description: Creating an Experience Manager newsletter
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 ---
 # Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
 
-![](../../assets/common.svg)
+ 
 
 This integration can be used for example to create a newsletter in Adobe Experience Manager which will then be used in Adobe Campaign as part of an email campaign.
 

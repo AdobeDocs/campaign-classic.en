@@ -2,11 +2,10 @@
 product: campaign
 title: About web tracking
 description: About web tracking
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
 ---
 # About web tracking{#about-web-tracking}
-
-![](../../assets/v7-only.svg)
 
 In addition to standard tracking that shows the behavior of an internet user clicking on a link in an email message, the Adobe Campaign platform lets you collect information on how internet users browse your website. This data collection is performed by the web tracking module.
 

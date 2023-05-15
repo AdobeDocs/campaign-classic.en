@@ -2,6 +2,7 @@
 product: campaign
 title: CRM Connectors
 description: Get started with CRM Connectors in Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -9,7 +10,7 @@ exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 ---
 # CRM Connectors{#crm-connectors}
 
-![](../../assets/v7-only.svg)
+
 
 ## Get started with CRM connectors {#about-crm-connectors}
 

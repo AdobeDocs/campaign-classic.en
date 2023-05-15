@@ -2,12 +2,14 @@
 product: campaign
 title: Configure Campaign SMS channel
 description: Learn how to configure the SMS channel in Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 ---
 # Configure SMS channel {#setting-up-sms-channel}
 
-![](../../assets/common.svg)
+ 
 
 To send to a mobile phone, you need:
 

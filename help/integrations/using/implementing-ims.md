@@ -2,6 +2,8 @@
 product: campaign
 title: Implementing IMS
 description: Implementing IMS
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -9,7 +11,7 @@ exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
 ---
 # Implementing IMS{#implementing-ims}
 
-![](../../assets/common.svg)
+ 
 
 ## Enabling the IMS connection {#enabling-the-ims-connection}
 

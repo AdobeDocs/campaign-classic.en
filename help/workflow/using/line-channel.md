@@ -2,12 +2,13 @@
 product: campaign
 title: LINE Channel
 description: LINE Channel
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 
 # LINE Channel{#line-channel}
 
-![](../../assets/v7-only.svg)
+
 
 The workflows detailed below are installed with the **LINE channel** module by default. For more on this module, refer to this [section](../../delivery/using/line-channel.md).
 

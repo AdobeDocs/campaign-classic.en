@@ -2,6 +2,7 @@
 product: campaign
 title: Installing the client console
 description: Learn how to install the client console
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -9,7 +10,7 @@ exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 ---
 # Install & Update the Campaign client console{#installing-the-client-console}
 
-![](../../assets/v7-only.svg)
+
    
 Campaign Client Console is a rich client which enables you to connect to your Campaign application server(s).
 

@@ -2,12 +2,14 @@
 product: campaign
 title: Formatting
 description: Formatting
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 ---
 # Formatting{#formatting}
 
-![](../../assets/common.svg)
+ 
 
 ## JavaScript templates {#javascript-templates}
 

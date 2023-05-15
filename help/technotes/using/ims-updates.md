@@ -2,11 +2,12 @@
 product: campaign
 title: Technote - Update your environment to connect to Adobe Campaign with IMS
 description: Campaign - IMS updates
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}
 
-![](../../assets/v7-only.svg)
+
  
 On June 30, 2021 changes have been made to [Adobe Identity Management System](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) login capabilities that could impact your ability to continue to use Adobe Campaign. Learn how to ensure you continue to use Adobe Campaign Classic v7 without interruption. 
 

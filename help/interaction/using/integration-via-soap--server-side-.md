@@ -2,6 +2,7 @@
 product: campaign
 title: Integration via SOAP (server side)
 description: Integration via SOAP (server side)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
@@ -9,7 +10,7 @@ exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
 ---
 # Integration via SOAP (server-side){#integration-via-soap-server-side}
 
-![](../../assets/v7-only.svg)
+
 
 The SOAP web services provided for offer management are different from those usually used in Adobe Campaign. They can be accessed via the interaction URL described in the previous section and let you present or update offers for a given contact.
 

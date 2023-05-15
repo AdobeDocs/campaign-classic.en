@@ -2,12 +2,14 @@
 product: campaign
 title: "Use cases: web forms"
 description: "Use cases: web forms"
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 ---
 # Use cases: web forms{#use-cases-web-forms}
 
-![](../../assets/common.svg)
+ 
 
 ## Create a subscription form with double opt-in {#create-a-subscription--form-with-double-opt-in}
 

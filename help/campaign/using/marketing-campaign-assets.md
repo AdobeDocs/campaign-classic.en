@@ -2,12 +2,11 @@
 product: campaign
 title: Marketing campaign documents and delivery outlines
 description: Learn more about marketing campaign documents and delivery outlines
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 ---
 # Manage associated documents {#managing-associated-documents}
-
-![](../../assets/v7-only.svg)
 
 You can associate various documents with a campaign: reports, photos, web pages, diagrams, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc).
 

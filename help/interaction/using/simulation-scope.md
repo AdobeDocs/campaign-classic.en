@@ -2,6 +2,8 @@
 product: campaign
 title: Simulation scope
 description: Simulation scope
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
@@ -9,7 +11,7 @@ exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 ---
 # Simulation scope{#simulation-scope}
 
-![](../../assets/common.svg)
+ 
 
 ## Definition of the scope {#definition-of-the-scope}
 

@@ -2,11 +2,10 @@
 product: campaign
 title: Schema reference
 description: Schema reference list
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
 ---
 # Schema reference {#schema-reference}
-
-![](../../assets/v7-only.svg)
 
 When editing a schema, an approval system based on the source schema (xtk:srcSchema) is available. Some errors can also be spotted when updating the database using the "Database structure update..." wizard.
 

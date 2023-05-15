@@ -2,6 +2,7 @@
 product: campaign
 title: Testing the migration
 description: Testing the migration
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
@@ -11,7 +12,7 @@ exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 ---
 # Migration tests{#testing-the-migration}
 
-![](../../assets/v7-only.svg)
+
 
 ## General procedure {#general-procedure}
 

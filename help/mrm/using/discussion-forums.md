@@ -2,6 +2,7 @@
 product: campaign
 title: Discussion forums
 description: Learn how to use Campaign discussion forums
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
@@ -9,7 +10,7 @@ exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 ---
 # Discussion forums{#discussion-forums}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign operators can use discussion forums to share information. The following elements each have their own forum: plans, programs, campaigns, resources, simulations, stocks. Each operator also has a personal forum. All discussions are public, even on personal forums.
 

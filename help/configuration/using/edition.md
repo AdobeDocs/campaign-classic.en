@@ -1,13 +1,12 @@
 ---
 product: campaign
-title: Edition
-description: Editio
+title: Edit Campaign Explorer navigation tree
+description: Edit Campaign Explorer navigation tree
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 ---
 
 # Edit Campaign Explorer navigation tree{#edition}
-
-![](../../assets/v7-only.svg)
 
 The screen for creating and configuring the navigation hierarchy configuration documents is accessible via the **[!UICONTROL Administration > Configuration > Navigation hierarchies]** node:
 

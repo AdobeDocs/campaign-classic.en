@@ -2,6 +2,7 @@
 product: campaign
 title: Migration to Adobe Managed Services (Public Cloud) FAQ
 description: Campaign Classic Migration to Public Cloud FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 ---
 # Migration to Public Cloud FAQ{#dc-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe decommissions the legacy Data Center: Campaign Classic instances must be transferred to Public Cloud Amazon Web Services (AWS). [Learn more about this initiative](dc-migration.md).
 

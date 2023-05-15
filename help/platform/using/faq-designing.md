@@ -2,6 +2,7 @@
 product: campaign
 title: Message design FAQ
 description: Campaign Classic FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
 ---
 # Message design FAQ {#design-messages-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Discover key steps to design omni-channel messages with Adobe Campaign.
 

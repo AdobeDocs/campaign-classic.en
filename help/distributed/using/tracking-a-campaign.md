@@ -2,12 +2,13 @@
 product: campaign
 title: Track a campaign
 description: Learn how to track a campaign with Campaign Distributed Marketing
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 ---
 # Track a campaign{#tracking-a-campaign}
 
-![](../../assets/v7-only.svg)
+
 
 Central entity operators can track campaign orders in the list of campaign packages.
 

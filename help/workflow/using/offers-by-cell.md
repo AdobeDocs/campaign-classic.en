@@ -2,12 +2,13 @@
 product: campaign
 title: Offers by cell
 description: Offers by cell
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity, Interaction
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
 ---
 # Offers by cell{#offers-by-cell}
 
-![](../../assets/v7-only.svg)
+
 
 The **[!UICONTROL Offers by cell]** activity lets you distribute the inbound population (from a query for example) into several segments and to specify an offer to present for each of these segments.
 

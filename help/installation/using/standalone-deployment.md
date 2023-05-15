@@ -2,6 +2,7 @@
 product: campaign
 title: Standalone deployment
 description: Standalone deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -9,7 +10,7 @@ exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 ---
 # Standalone deployment{#standalone-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 This configuration includes all components on the same computer:
 

@@ -2,6 +2,8 @@
 product: campaign
 title: Usual commands
 description: Usual commands
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -9,7 +11,7 @@ exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 ---
 # Usual commands{#usual-commands}
 
-![](../../assets/v7-only.svg)
+
 
 This section lists the usual commands in Adobe Campaign.
 

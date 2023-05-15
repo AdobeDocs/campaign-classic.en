@@ -2,12 +2,13 @@
 product: campaign
 title: Query the recipient table
 description: Learn how to query the recipient table
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 ---
 # Query the recipient table {#querying-recipient-table}
 
-![](../../assets/v7-only.svg)
+
 
 In this example, we want to recover the names and emails of recipients whose email domain is "orange.co.uk" and who don't live in London.
 

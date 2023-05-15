@@ -2,12 +2,13 @@
 product: campaign
 title: Approval
 description: Approval
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Approvals
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 ---
 # Approval{#approval}
 
-![](../../assets/v7-only.svg)
+
 
 An **Approval** task requires the participation of an operator. The operator is assigned a task and can respond by email, using the Web page linked in the email message, or via the console.
 

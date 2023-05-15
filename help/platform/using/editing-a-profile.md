@@ -2,6 +2,7 @@
 product: campaign
 title: Editing a profile
 description: Editing a profile
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: profile-management
@@ -9,7 +10,7 @@ exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 ---
 # Edit a profile{#editing-a-profile}
 
-![](../../assets/v7-only.svg)
+
 
 To view information related to a profile, click on their name in the profiles list.
 

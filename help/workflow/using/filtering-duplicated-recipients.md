@@ -2,12 +2,13 @@
 product: campaign
 title: Filter duplicated recipients
 description: Learn how to filter duplicated recipients
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
 ---
 # Filter duplicated recipients {#filtering-duplicated-recipients}
 
-![](../../assets/v7-only.svg)
+
 
 In this example, we want to filter recipients who appear twice or more in a delivery in order to recover duplicated profiles.
 

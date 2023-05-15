@@ -2,12 +2,14 @@
 product: campaign
 title: Attaching files
 description: Attaching files
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 ---
 # Attach files to an email{#attaching-files}
 
-![](../../assets/common.svg)
+ 
 
 ## About email attachments {#about-email-attachments}
 

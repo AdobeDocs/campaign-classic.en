@@ -2,14 +2,13 @@
 product: campaign
 title: Setup stages
 description: Setup stages
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
 ---
 # Setup stages{#setup-stages}
-
-![](../../assets/v7-only.svg)
 
 The basic principle is the insertion of web tracking tags in certain pages of your website.
 

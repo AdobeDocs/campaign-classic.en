@@ -2,12 +2,14 @@
 product: campaign
 title: Check before sending
 description: Once your message is ready, perform all checks before sending
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 ---
 # Perform all checks before sending {#perform-all-checks}
 
-![](../../assets/common.svg)
+ 
 
 Once your message is ready, make sure its content is displayed correctly, on all devices, and does not contain any errors such as wrong personalization or broken links.
 

@@ -2,6 +2,7 @@
 product: campaign
 title: Profiles and Audiences FAQ
 description: Campaign Classic FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +10,7 @@ exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
 ---
 # Profiles and Audiences FAQ {#audiences-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Learn how to target a population and manage audiences within Adobe Campaign.
 

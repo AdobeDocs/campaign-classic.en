@@ -2,6 +2,7 @@
 product: campaign
 title: Permissions for accessing an external database
 description: External database access permissions
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -9,7 +10,7 @@ exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
 ---
 # Remote database access rights {#remote-database-access-rights}
 
-![](../../assets/v7-only.svg)
+
 
 First, so that the user can carry out operations on an external database via FDA, the latter must have a specific named right in Adobe Campaign.
 

@@ -2,6 +2,8 @@
 product: campaign
 title: Stack trace in Linux
 description: Stack trace in Linux
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-on-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -9,7 +11,7 @@ exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
 ---
 # Stack trace in Linux{#stack-trace-in-linux}
 
-![](../../assets/v7-only.svg)
+
 
 A **stack trace** represents a trace contained in a **core** type file. This file is generated in the event of a machine error. It can identify the origin of the error.
 

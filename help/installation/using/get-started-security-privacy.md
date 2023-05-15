@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Security and privacy checklist
-description: Learn more about the key elements to check regarding security and privacy.
+description: Learn more about the key elements to check regarding security and privacy
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -9,7 +10,7 @@ exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 ---
 # Security and privacy checklist{#get-started-security-privacy}
 
-![](../../assets/v7-only.svg)
+
 
 This section will introduce you to the key elements to check regarding security and privacy. Some configurations can only be performed by on-premise customers.
 

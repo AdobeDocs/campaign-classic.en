@@ -2,12 +2,11 @@
 product: campaign
 title: Get started with Campaign Classic data model
 description: Learn how to extend Campaign data model, edit schemas, use APIs, and more
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 ---
 # Get started with Campaign data model{#about-data-model}
-
-![](../../assets/v7-only.svg)
 
 The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction. Main tables and concepts are listed in this page.
 

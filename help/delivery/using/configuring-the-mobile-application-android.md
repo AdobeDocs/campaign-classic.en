@@ -2,12 +2,13 @@
 product: campaign
 title: Configure the Android mobile application in Adobe Campaign
 description: Learn how to set up your mobile application for Android
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 ---
 # Configuration steps for Android
 
-![](../../assets/v7-only.svg)
+
 
 Once the package is installed, you can define your Android app settings in Adobe Campaign Classic.
 

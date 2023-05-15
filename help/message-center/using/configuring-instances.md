@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Configure instances
-description: Learn how to configure the Transactional messaging control and execution instances in Adobe Campaign Classic.
+description: Learn how to configure the Transactional messaging control and execution instances in Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
@@ -10,7 +11,7 @@ exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 
 # Configure instances {#creating-a-shared-connection}
 
-![](../../assets/v7-only.svg)
+
 
 To use the transactional messaging capabilities, you need to configure the control and execution instances. You can use either:
 * [One control instance](#control-instance) associated with one or several execution instances

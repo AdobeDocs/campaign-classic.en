@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to Google BigQuery
 description: Learn how to configure access to Google BigQuery in FDA
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -9,7 +10,7 @@ exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 ---
 # Configure access to Google BigQuery {#configure-fda-google-big-query}
 
-![](../../assets/v7-only.svg)
+
 
 Use Adobe Campaign Classic **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Google BigQuery].
 

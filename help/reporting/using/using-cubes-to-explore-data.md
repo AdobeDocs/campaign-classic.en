@@ -2,6 +2,8 @@
 product: campaign
 title: Use cubes to explore data
 description: Use cubes to explore data
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 hide: yes
 hidefromtoc: yes
@@ -9,7 +11,7 @@ exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 ---
 # Use cubes to explore data{#using-cubes-to-explore-data}
 
-![](../../assets/common.svg)
+ 
 
 Marketing Analytics makes it easier to create reports and to identify and select data from the database via cubes. This enables you to:
 

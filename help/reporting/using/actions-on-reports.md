@@ -2,12 +2,14 @@
 product: campaign
 title: Actions on reports
 description: Actions on reports
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 ---
 # Actions on reports{#actions-on-reports}
 
-![](../../assets/common.svg)
+ 
 
 When you are viewing a report, the toolbar lets you carry out a certain number of actions. These are detailed below.
 
