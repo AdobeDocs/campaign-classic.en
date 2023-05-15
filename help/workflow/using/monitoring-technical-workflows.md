@@ -2,7 +2,7 @@
 product: campaign
 title: Monitor technical workflows
 description: Monitor technical workflows
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 ---

@@ -2,7 +2,7 @@
 product: campaign
 title: Use aggregates
 description: Learn how to use aggregates
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 ---

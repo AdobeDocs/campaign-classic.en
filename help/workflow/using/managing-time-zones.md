@@ -2,7 +2,7 @@
 product: campaign
 title: Manage time zones
 description: Manage time zones
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 ---

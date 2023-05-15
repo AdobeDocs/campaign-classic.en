@@ -2,7 +2,7 @@
 product: campaign
 title: Creating the data schema for FDA
 description: Learn how to create the data schema for FDA
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 ---
 # Creating the data schema {#creating-the-data-schema}

@@ -2,7 +2,7 @@
 product: campaign
 title: Personalization and privacy
 description: Learn security best practices for privacy and personalization
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---

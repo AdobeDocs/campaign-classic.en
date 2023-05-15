@@ -2,7 +2,7 @@
 product: campaign
 title: Edit Campaign Explorer navigation tree
 description: Edit Campaign Explorer navigation tree
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 ---
 

@@ -2,7 +2,7 @@
 product: campaign
 title: Time constraint
 description: Learn more about the Time constraint workflow activity
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
 ---

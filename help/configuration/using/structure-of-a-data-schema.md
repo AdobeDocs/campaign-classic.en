@@ -2,7 +2,7 @@
 product: campaign
 title: Structure of a data schema
 description: Structure of a data schema
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas

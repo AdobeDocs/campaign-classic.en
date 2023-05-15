@@ -2,7 +2,7 @@
 product: campaign
 title: About social marketing
 description: Learn how to use Campaign to interact with customers via Twitter
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: social
 content-type: reference
 topic-tags: introduction

@@ -2,7 +2,7 @@
 product: campaign
 title: Manage marketing resources
 description: Learn how to manage marketing resources
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets

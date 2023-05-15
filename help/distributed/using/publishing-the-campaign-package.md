@@ -2,7 +2,7 @@
 product: campaign
 title: Publish the campaign package
 description: Publish the campaign package
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 ---

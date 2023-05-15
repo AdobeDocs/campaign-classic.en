@@ -2,7 +2,7 @@
 product: campaign
 title: Wait
 description: Learn more about the Wait workflow activity
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
 ---

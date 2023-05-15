@@ -2,7 +2,7 @@
 product: campaign
 title: List update
 description: List update
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 ---

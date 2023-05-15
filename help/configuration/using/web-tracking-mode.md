@@ -2,7 +2,7 @@
 product: campaign
 title: Web tracking mode
 description: Learn how to select the web tracking mode
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 ---
 # Web tracking mode{#web-tracking-mode}

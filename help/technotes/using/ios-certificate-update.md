@@ -2,7 +2,7 @@
 product: campaign
 title: Technote - Apple Push Notification service server certificate update
 description: Apple Push Notification service server certificate update
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 ---
 # Apple Push Notification service server certificate update {#apns-certificate-update}

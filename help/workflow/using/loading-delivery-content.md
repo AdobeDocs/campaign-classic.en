@@ -2,7 +2,7 @@
 product: campaign
 title: Load delivery content
 description: Loading delivery content
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 ---

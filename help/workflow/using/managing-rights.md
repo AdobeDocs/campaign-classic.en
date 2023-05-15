@@ -2,7 +2,7 @@
 product: campaign
 title: Manage workflow permissions
 description: Learn how to manage workflow permissions
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
 ---

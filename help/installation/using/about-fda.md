@@ -2,7 +2,7 @@
 product: campaign
 title: Get Started with Federated Data Access
 description: Learn how to access and process data in an external database
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
 ---

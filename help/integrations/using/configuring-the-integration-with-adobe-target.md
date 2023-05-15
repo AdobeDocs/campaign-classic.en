@@ -2,7 +2,7 @@
 product: campaign
 title: Configure the integration with Adobe Target
 description: Learn how to configure the integration with Adobe Target
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target

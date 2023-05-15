@@ -2,7 +2,7 @@
 product: campaign
 title: Technote - Adobe Campaign configuration updates
 description: Adobe Campaign configuration updates
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: yes
 hidefromtoc: yes
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4

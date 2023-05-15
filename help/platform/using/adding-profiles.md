@@ -2,7 +2,7 @@
 product: campaign
 title: Adding profiles
 description: Adding profiles
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Profiles
 role: User
 level: Beginner

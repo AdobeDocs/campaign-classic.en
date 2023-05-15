@@ -2,7 +2,7 @@
 product: campaign
 title: Locate Tomcat version in Adobe Campaign
 description: Learn how to find out the current version of embedded Tomcat web servlet used in an instance of Adobe Campaign
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting

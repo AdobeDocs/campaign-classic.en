@@ -2,7 +2,7 @@
 product: campaign
 title: Creating an offer
 description: Creating an offer
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog

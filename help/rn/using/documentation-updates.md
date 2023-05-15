@@ -2,7 +2,7 @@
 product: campaign
 title: Adobe Campaign Classic v7 Documentation Updates
 description: This page lists all the new features and updates in Adobe Campaign Classic documentation
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner

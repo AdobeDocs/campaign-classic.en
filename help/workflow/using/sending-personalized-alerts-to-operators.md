@@ -2,7 +2,7 @@
 product: campaign
 title: Send personalized alerts to operators
 description: Learn how to send personalized alerts to operators
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 ---

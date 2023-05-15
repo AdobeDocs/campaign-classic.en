@@ -2,7 +2,7 @@
 product: campaign
 title: Control rules
 description: Control rules
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Typology Rules
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 ---

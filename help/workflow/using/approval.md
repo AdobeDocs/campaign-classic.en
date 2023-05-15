@@ -2,7 +2,7 @@
 product: campaign
 title: Approval
 description: Approval
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Approvals
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 ---

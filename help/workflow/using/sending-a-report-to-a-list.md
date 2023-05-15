@@ -2,7 +2,7 @@
 product: campaign
 title: Send a report to a list
 description: Learn how to send a report to a list with a workflow
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 ---

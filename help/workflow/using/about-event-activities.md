@@ -2,7 +2,7 @@
 product: campaign
 title: About event activities
 description: About event activities
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
 ---

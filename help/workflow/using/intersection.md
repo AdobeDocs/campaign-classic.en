@@ -2,7 +2,7 @@
 product: campaign
 title: Intersection
 description: Intersection
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---

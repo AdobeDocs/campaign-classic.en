@@ -2,7 +2,7 @@
 product: campaign
 title: "[!DNL Gold Standard] releases"
 description: Release notes and Compatibility matrix for Campaign Classic [!DNL Gold Standard]
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner

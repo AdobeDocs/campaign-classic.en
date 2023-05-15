@@ -2,7 +2,7 @@
 product: campaign
 title: Campaign Classic general architecture
 description: Learn how to install and configure Campaign Classic
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models

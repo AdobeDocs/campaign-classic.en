@@ -2,7 +2,7 @@
 product: campaign
 title: Message Center processing time
 description: Learn more on the Message Center processing time report
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports

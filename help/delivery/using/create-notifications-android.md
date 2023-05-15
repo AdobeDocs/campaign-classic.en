@@ -2,7 +2,7 @@
 product: campaign
 title: Create a push notification for Android devices
 description: Learn how to create push notifications for Android
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---

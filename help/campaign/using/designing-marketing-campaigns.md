@@ -2,7 +2,7 @@
 product: campaign
 title: Design and execute marketing campaigns
 description: Define, optimize, execute and analyse marketing campaigns
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 ---

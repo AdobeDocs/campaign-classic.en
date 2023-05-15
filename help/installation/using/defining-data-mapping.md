@@ -2,7 +2,7 @@
 product: campaign
 title: Define external data mapping
 description: Learn how to map data in an external database
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
 ---
 # Define external data mapping {#defining-data-mapping}

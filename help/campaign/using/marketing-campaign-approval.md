@@ -2,7 +2,7 @@
 product: campaign
 title: Set up and manage the approval process
 description: Learn how to manage approvals of marketing campaigns
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 ---

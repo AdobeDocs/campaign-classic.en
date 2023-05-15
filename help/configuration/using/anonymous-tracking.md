@@ -2,7 +2,7 @@
 product: campaign
 title: Anonymous tracking
 description: Learn how to set up anonymous tracking
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 ---
 # Anonymous tracking{#anonymous-tracking}

@@ -2,7 +2,7 @@
 product: campaign
 title: Jump (start point and end point)
 description: Jump (start point and end point)
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 ---

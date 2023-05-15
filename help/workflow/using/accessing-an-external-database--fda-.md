@@ -2,7 +2,7 @@
 product: campaign
 title: Access an external database (FDA)
 description: Access an external database (FDA)
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management, Federated Data Access
 exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f
 ---

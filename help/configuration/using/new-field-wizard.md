@@ -2,7 +2,7 @@
 product: campaign
 title: New field wizard
 description: New field wizard
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---

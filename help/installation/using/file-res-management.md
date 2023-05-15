@@ -2,7 +2,7 @@
 product: campaign
 title: File and resource management
 description: Learn how to configure file and resource management in Campaign
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration

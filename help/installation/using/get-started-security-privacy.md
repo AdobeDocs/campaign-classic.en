@@ -2,7 +2,7 @@
 product: campaign
 title: Security and privacy checklist
 description: Learn more about the key elements to check regarding security and privacy
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-

@@ -2,7 +2,7 @@
 product: campaign
 title: Implementation steps
 description: Implementation steps for Campaign Interaction module
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
 ---

@@ -2,7 +2,7 @@
 product: campaign
 title: Supervising workflows
 description: Learn how to supervise Campaign workflows
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 ---

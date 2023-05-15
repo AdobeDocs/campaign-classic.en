@@ -2,7 +2,7 @@
 product: campaign
 title: Union
 description: Learn more about the Union workflow activity
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
 ---

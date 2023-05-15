@@ -2,7 +2,7 @@
 product: campaign
 title: Filtering schemas
 description: Filtering schemas
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 ---
 # Filter schemas{#filtering-schemas}

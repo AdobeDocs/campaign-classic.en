@@ -2,7 +2,7 @@
 product: campaign
 title: Data schemas
 description: Get started with Campaign data schemas
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 ---

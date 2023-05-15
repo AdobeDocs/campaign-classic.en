@@ -2,7 +2,7 @@
 product: campaign
 title: Offer engine
 description: Offer engine
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Interaction
 exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
 ---

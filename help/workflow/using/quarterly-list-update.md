@@ -2,7 +2,7 @@
 product: campaign
 title: Quarterly list update using an incremental query
 description: In this use case, an incremental query is used to automatically update a recipient list
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
 ---

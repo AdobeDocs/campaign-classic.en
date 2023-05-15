@@ -2,7 +2,7 @@
 product: campaign
 title: Adding additional SQL functions
 description: Learn how to define additional SQL functions
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 ---
 # Define additional SQL functions{#adding-additional-sql-functions}

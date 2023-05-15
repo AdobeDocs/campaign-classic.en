@@ -2,7 +2,7 @@
 product: campaign
 title: Workflow properties
 description: Learn more about Campaign Workflow properties
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 ---

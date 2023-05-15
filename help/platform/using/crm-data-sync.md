@@ -2,7 +2,7 @@
 product: campaign
 title: CRM Connectors data synchronization
 description: Manage data between Campaign and your CRM
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 ---

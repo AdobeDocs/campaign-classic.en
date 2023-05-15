@@ -2,7 +2,7 @@
 product: campaign
 title: Business oriented APIs
 description: Business oriented APIs
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 ---

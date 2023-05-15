@@ -2,7 +2,7 @@
 product: campaign
 title: Social Marketing
 description: Learn more about Social Marketing technical workflows
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 

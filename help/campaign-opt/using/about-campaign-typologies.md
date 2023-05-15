@@ -2,7 +2,7 @@
 product: campaign
 title: About campaign typologies
 description: About campaign typologies
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Typology Rules
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 ---

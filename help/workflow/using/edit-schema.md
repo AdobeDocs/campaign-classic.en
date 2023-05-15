@@ -2,7 +2,7 @@
 product: campaign
 title: Edit schema
 description: Learn more about the Edit schema workflow activity
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
 ---

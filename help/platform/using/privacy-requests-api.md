@@ -2,7 +2,7 @@
 product: campaign
 title: Automatic Privacy request process
 description: Learn how to setup an automatic Privacy request process
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign

@@ -2,7 +2,7 @@
 product: campaign
 title: Architecture
 description: Workflows are handled by a specific module, which can be started on multiple servers in order to share the processing load
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
 ---

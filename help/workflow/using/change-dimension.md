@@ -2,7 +2,7 @@
 product: campaign
 title: Change dimension
 description: Change dimension
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 ---

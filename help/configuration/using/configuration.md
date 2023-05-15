@@ -2,7 +2,7 @@
 product: campaign
 title: Configure Campaign Explorer navigation tree
 description: Learn how to configure Campaign Explorer navigation tree
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 ---
 # Configure Campaign Explorer navigation tree{#configuration}

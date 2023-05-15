@@ -2,7 +2,7 @@
 product: campaign
 title: Setup stages
 description: Setup stages
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking

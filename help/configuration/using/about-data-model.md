@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with Campaign Classic data model
 description: Learn how to extend Campaign data model, edit schemas, use APIs, and more
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 ---

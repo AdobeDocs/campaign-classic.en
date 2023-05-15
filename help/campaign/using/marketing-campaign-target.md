@@ -2,7 +2,7 @@
 product: campaign
 title: Marketing campaign target audience
 description: Learn how to define the audience of your marketing campaigns
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 ---

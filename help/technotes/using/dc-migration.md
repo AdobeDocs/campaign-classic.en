@@ -2,7 +2,7 @@
 product: campaign
 title: Migration to Public Cloud
 description: Learn more about Campaign Classic Migration to Public Cloud
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner

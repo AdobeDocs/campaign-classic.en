@@ -2,7 +2,7 @@
 product: campaign
 title: Configure instances
 description: Learn how to configure the Transactional messaging control and execution instances in Adobe Campaign Classic
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration

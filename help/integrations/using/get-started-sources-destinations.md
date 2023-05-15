@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with Sources and Destinations
 description: Learn more about Adobe Experience Platform Sources and Destinations
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51

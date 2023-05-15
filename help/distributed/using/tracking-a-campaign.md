@@ -2,7 +2,7 @@
 product: campaign
 title: Track a campaign
 description: Learn how to track a campaign with Campaign Distributed Marketing
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 ---

@@ -2,7 +2,7 @@
 product: campaign
 title: JavaScript scripts and templates
 description: JavaScript scripts and templates
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 ---

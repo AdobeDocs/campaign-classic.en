@@ -2,7 +2,7 @@
 product: campaign
 title: Synchronize profiles
 description: Learn how to synchronize profiles with ACS Connector
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
 hide: yes
 hidefromtoc: yes

@@ -2,7 +2,7 @@
 product: campaign
 title: Define approvals
 description: Approvals enable operators to make decisions governing a workflow or to confirm its continued execution
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 ---

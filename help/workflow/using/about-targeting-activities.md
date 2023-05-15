@@ -2,7 +2,7 @@
 product: campaign
 title: About targeting activities
 description: About targeting activities
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 ---

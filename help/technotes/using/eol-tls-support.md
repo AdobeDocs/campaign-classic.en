@@ -2,7 +2,7 @@
 product: campaign
 title: End of Life for TLS 1.0 and 1.1 support
 description: End of Life for TLS 1.0 and 1.1 support
-badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
