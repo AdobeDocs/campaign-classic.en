@@ -1,7 +1,9 @@
 ---
 product: campaign
 title: About generic imports and exports
-description: Learn more about generic imports and exports.
+description: Learn more about generic imports and exports
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Overview
 role: User, Data Architect
 level: Beginner
@@ -9,7 +11,7 @@ exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
 ---
 # Get started with import and export jobs {#about-generic-imports-exports}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign Classic provides generic imports and exports. They allow you, for example, to extract a list of customers or prospects who will then become part of a target population, or to supply your database with data from external files.
 

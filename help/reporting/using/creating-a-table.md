@@ -2,12 +2,14 @@
 product: campaign
 title: Create a table
 description: Create a table
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 ---
 # Create a table{#creating-a-table}
 
-![](../../assets/common.svg)
+ 
 
 You can add a table to a report to display data. This can be a pivot table created based on cube measurements, a list with group, or a table containing a breakdown of values. 
 

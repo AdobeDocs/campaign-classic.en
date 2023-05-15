@@ -2,6 +2,8 @@
 product: campaign
 title: Configuring IMS
 description: Learn how to connect via an Adobe ID
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -9,7 +11,7 @@ exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 ---
 # Configuring IMS{#configuring-ims}
 
-![](../../assets/common.svg)
+ 
 
 >[!IMPORTANT]
 >

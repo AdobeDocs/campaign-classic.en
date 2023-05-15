@@ -2,12 +2,14 @@
 product: campaign
 title: Create and identify the delivery
 description: Create and identify the delivery
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 ---
 # Create and identify the delivery {#create-and-identify-the-delivery}
 
-![](../../assets/common.svg)
+ 
 
 ## Create the delivery {#creating-the-delivery}
 

@@ -2,12 +2,14 @@
 product: campaign
 title: Form rendering
 description: Form rendering
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 ---
 # Form rendering{#form-rendering}
 
-![](../../assets/common.svg)
+ 
 
 ## Selecting the form rendering template {#selecting-the-form-rendering-template}
 

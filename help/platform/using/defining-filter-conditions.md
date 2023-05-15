@@ -2,6 +2,8 @@
 product: campaign
 title: Defining filter conditions
 description: Defining filter conditions
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries
@@ -9,7 +11,7 @@ exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 ---
 # Define filter conditions{#defining-filter-conditions}
 
-![](../../assets/common.svg)
+ 
 
 ## Choose the operator {#choosing-the-operator}
 

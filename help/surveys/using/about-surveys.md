@@ -2,12 +2,14 @@
 product: campaign
 title: Get started with surveys
 description: Get started with Campaign surveys
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 ---
 # Get started with surveys{#about-surveys}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign includes a graphical module to define and publish Web applications. This is used to create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. Use this capability to design and post web pages in which users can look up or enter information.
 

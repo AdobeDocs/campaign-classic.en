@@ -2,12 +2,14 @@
 product: campaign
 title: Generate personalized PDF documents
 description: Learn how to generate personalized PDF documents
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 ---
 # Generate personalized PDF documents{#generating-personalized-pdf-documents}
 
-![](../../assets/common.svg)
+ 
 
 ## About variable PDF documents {#about-variable-pdf-documents}
 

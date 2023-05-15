@@ -2,12 +2,14 @@
 product: campaign
 title: Configure and send the delivery
 description: Learn how to configure and send the delivery
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 ---
 # Configure and send the delivery {#configuring-and-sending-the-delivery}
 
-![](../../assets/common.svg)
+ 
 
 ## Permissions{#delivery-permissions}
 

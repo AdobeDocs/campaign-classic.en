@@ -2,6 +2,8 @@
 product: campaign
 title: Insert a dynamic image
 description: Insert a dynamic image
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
@@ -9,7 +11,7 @@ exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 ---
 # Insert Target dynamic content {#inserting-a-dynamic-image}
 
-![](../../assets/common.svg)
+ 
 
 In this page, learn how to integrate a dynamic offer from Adobe Target into an email in Adobe Campaign.
 

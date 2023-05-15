@@ -2,6 +2,8 @@
 product: campaign
 title: Configure Campaign Response Manager
 description: Learn how to configure Campaign Response Manager
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -9,7 +11,7 @@ exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 ---
 # Configure Campaign Response Manager{#configuration}
 
-![](../../assets/common.svg)
+ 
 
 This section is intended for persons responsible for configuring response management. It assumes a certain amount of knowledge about extending schemas, defining workflows, and SQL programming.
 

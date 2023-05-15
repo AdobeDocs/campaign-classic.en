@@ -2,12 +2,14 @@
 product: campaign
 title: Test message tracking
 description: Learn how to test message tracking
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 ---
 # Test message tracking{#testing-tracking}
 
-![](../../assets/common.svg)
+ 
 
 You can test tracking on mirror pages, email logs and links. To do this:
 

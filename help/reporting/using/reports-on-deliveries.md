@@ -2,12 +2,14 @@
 product: campaign
 title: Reports on deliveries
 description: Reports on deliveries
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 ---
 # About reports on deliveries{#reports-on-deliveries}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign offers several types of reports, accessible via the customer console or an internet browser.
 

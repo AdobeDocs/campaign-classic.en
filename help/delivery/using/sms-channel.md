@@ -2,12 +2,14 @@
 product: campaign
 title: Get started with SMS channel
 description: Get started with SMS channel
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 ---
 # Get started with SMS channel{#sms-channel}
 
-![](../../assets/common.svg)
+ 
 
 
 Use Adobe Campaign to send personalized SMS messages.

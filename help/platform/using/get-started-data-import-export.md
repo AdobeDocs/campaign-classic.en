@@ -1,7 +1,9 @@
 ---
 product: campaign
 title: Get started with data import and export
-description: Learn more on data import and export in Campaign Classic.
+description: Learn more on data import and export in Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -9,7 +11,7 @@ exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
 ---
 # Get started with data import and export {#get-started-data-import-export}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign Classic provides data management capabilities that allow you to import and export data. These operations can be performed using either workflows or generic imports and exports.
 

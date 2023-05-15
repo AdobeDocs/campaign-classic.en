@@ -2,12 +2,14 @@
 product: campaign
 title: Delivery statuses
 description: Learn more about the statuses available on your delivery dashboard
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 ---
 # Delivery statuses {#delivery-statuses}
 
-![](../../assets/common.svg)
+ 
 
 <!--ajouter intro 
 

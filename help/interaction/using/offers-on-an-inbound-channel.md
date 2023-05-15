@@ -2,6 +2,8 @@
 product: campaign
 title: Offers on an inbound channel
 description: Offers on an inbound channel
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
@@ -9,7 +11,7 @@ exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 ---
 # Offers on an inbound channel{#offers-on-an-inbound-channel}
 
-![](../../assets/common.svg)
+ 
 
 ## Presenting an offer to an anonymous visitor {#presenting-an-offer-to-an-anonymous-visitor}
 

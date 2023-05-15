@@ -2,12 +2,14 @@
 product: campaign
 title: Pre-processing instructions for tracked URLs
 description: Learn more about pre-processing instructions to use to script the URL of an email and still have it tracked
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 ---
 # Pre-processing instructions {#pre-processing-instructions}
 
-![](../../assets/common.svg)
+ 
 
 You can use a specific syntax in the delivery content to add instructions and script the URL of the tracked email. The <%@ instructions are not JavaScript: this syntax is specific to Adobe Campaign.
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Global reports
 description: Global reports
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 ---
 # Global reports {#global-reports}
 
-![](../../assets/common.svg)
+ 
 
 These reports concern the activity of the data in the entire database. To view the reports dashboard, go to the **[!UICONTROL Reports]** tab. 
 

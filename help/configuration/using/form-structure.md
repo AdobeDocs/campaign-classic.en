@@ -2,11 +2,13 @@
 product: campaign
 title: Form structure
 description: Form structure
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 ---
 # Form structure{#form-structure}
 
-![](../../assets/common.svg)
+ 
 
 The description of a form is a structured XML document that observes the grammar of the form schema **xtk:form**.
 

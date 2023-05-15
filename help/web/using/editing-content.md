@@ -2,12 +2,14 @@
 product: campaign
 title: Edit content
 description: Edit content
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 ---
 # Edit content{#editing-content}
 
-![](../../assets/common.svg)
+ 
 
 ## Defining a visibility condition {#defining-a-visibility-condition}
 

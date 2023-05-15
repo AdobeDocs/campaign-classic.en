@@ -2,12 +2,14 @@
 product: campaign
 title: Use the descriptive analysis wizard
 description: Use the descriptive analysis wizard
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 ---
 # Use the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
 
-![](../../assets/common.svg)
+ 
 
 To create a descriptive analysis report, use the dedicated wizard. Configuration depends on the data to be analyzed and on the desired rendering.
 

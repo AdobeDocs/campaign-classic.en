@@ -2,6 +2,8 @@
 product: campaign
 title: Filtering options
 description: Filtering options
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
@@ -9,7 +11,7 @@ exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
 ---
 # Filtering options{#filtering-options}
 
-![](../../assets/common.svg)
+ 
 
 ## About filtering {#about-filtering}
 

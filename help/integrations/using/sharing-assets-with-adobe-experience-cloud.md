@@ -2,6 +2,8 @@
 product: campaign
 title: Sharing assets with Adobe Experience Cloud
 description: Sharing assets with Adobe Experience Cloud
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
@@ -9,7 +11,7 @@ exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
 ---
 # Sharing assets with Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
 
-![](../../assets/common.svg)
+ 
 
 Experience Cloud Assets provide a single, centralized repository of marketing-ready assets that you can share across solutions. An asset is a digital document, image, video, or audio file.
 

@@ -1,7 +1,9 @@
 ---
 product: campaign
 title: Creating import and export jobs
-description: Learn how to create import and export jobs in Campaign Classic.
+description: Learn how to create import and export jobs in Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -9,7 +11,7 @@ exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
 ---
 # Create import and export jobs {#creating-import-export-jobs}
 
-![](../../assets/common.svg)
+ 
 
 Once templates have been configured, import and export operations can be launched in several contexts in Adobe Campaign.
 

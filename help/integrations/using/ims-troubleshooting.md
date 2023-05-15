@@ -2,6 +2,8 @@
 product: campaign
 title: IMS troubleshooting
 description: IMS troubleshooting
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -9,7 +11,7 @@ exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 ---
 # IMS troubleshooting{#ims-troubleshooting}
 
-![](../../assets/common.svg)
+ 
 
 The following troubleshooting tips will help **on-premise** customers solve the most common problems happening when using the IMS integration. For **hosted** customers, please contact Adobe.
 

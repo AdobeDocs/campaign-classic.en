@@ -2,13 +2,15 @@
 product: campaign
 title: Pipeline troubleshooting 
 description: Pipeline troubleshooting 
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 ---
 # Pipeline troubleshooting {#pipeline-troubleshooting}
 
-![](../../assets/common.svg)
+ 
 
 **Pipelined fails with error "No task corresponds to the mask pipelined@<&nbsp;instance&nbsp;>"**
 

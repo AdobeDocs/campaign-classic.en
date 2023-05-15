@@ -2,12 +2,14 @@
 product: campaign
 title: Content manager resources and principles
 description: Content manager resources and principle
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Templates
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
 ---
 # Content manager resources and principles{#content-manager-resources-and-principles}
 
-![](../../assets/common.svg)
+ 
 
 You need to define a publication template, which contains transformation templates for each content.
 

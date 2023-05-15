@@ -2,12 +2,14 @@
 product: campaign
 title: Define the right audience
 description: Learn best practices when selecting your audience
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 ---
 # Define the right audience {#define-the-right-audience}
 
-![](../../assets/common.svg)
+ 
 
 Targeted population is key: build your lists carefully, test your emails on popular email clients and mobile devices, and ensure that your email lists are up-to-date (with no unknown or obsolete addresses). You can also send proofs that help set up a complete validation cycle.
 

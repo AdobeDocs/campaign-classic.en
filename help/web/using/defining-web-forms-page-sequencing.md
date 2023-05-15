@@ -2,12 +2,14 @@
 product: campaign
 title: Define web forms page sequencing
 description: Define web forms page sequencing
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 ---
 # Define web forms page sequencing{#defining-web-forms-page-sequencing}
 
-![](../../assets/common.svg)
+ 
 
 The form can contain one or more pages. It is built via a diagram which lets you sequence pages, testing, script execution, page jump and recording steps. Global diagram design mode is the same as for a Campaign workflow.
 

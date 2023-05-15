@@ -2,12 +2,14 @@
 product: campaign
 title: Key steps to create a report
 description: Learn key steps to create a report
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 ---
 # Key steps to create a report{#key-steps-to-create-a-report}
 
-![](../../assets/common.svg)
+ 
 
 To produce statistics on the data in your Campaign database, you can create reports and adapt their content and layout based on your needs. These reports can be shared with other operators.
 

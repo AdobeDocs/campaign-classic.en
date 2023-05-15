@@ -2,12 +2,14 @@
 product: campaign
 title: Publish, track and use collected data
 description: Learn how to publish, track and use data collected in a survey
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 ---
 # Publish, track and use collected data{#publish-track-and-use-collected-data}
 
-![](../../assets/common.svg)
+ 
 
 Once the form has been created, configured and published, you can share the link with your audience it and track the responses.
 

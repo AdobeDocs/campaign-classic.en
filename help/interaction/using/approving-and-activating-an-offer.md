@@ -2,6 +2,8 @@
 product: campaign
 title: Approving and activating an offer
 description: Approving and activating an offer
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
@@ -9,7 +11,7 @@ exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 ---
 # Approving and activating an offer{#approving-and-activating-an-offer}
 
-![](../../assets/common.svg)
+ 
 
 Once the offer content is complete, you need to approve it for it to be duplicated into the live environment and delivered. Approval concerns the offer content and its eligibility.
 

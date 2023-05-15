@@ -9,7 +9,7 @@ exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 ---
 # Use a custom recipient table{#about-custom-recipient-table}
 
-![](../../assets/common.svg)
+ 
 
 This section details the principles for using a custom (or external) recipient table.
 

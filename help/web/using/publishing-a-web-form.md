@@ -2,12 +2,14 @@
 product: campaign
 title: Publish a web form
 description: Publish a web form
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 ---
 # Publish a web form{#publishing-a-web-form}
 
-![](../../assets/common.svg)
+ 
 
 ## Pre-loading the form data {#pre-loading-the-form-data}
 

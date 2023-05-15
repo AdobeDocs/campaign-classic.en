@@ -2,12 +2,13 @@
 product: campaign
 title: List of reports
 description: List of reports
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Reporting
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 ---
 # List of reports{#list-of-reports}
 
-![](../../assets/common.svg)
+ 
 
 ## Reports on deliveries {#reports-on-deliveries}
 

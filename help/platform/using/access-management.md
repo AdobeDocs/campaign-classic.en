@@ -2,12 +2,13 @@
 product: campaign
 title: Get started with permissions
 description: Learn how to grant access to Campaign capabilities
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 ---
 # Get started with permissions{#access-management}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign lets you define and manage the rights assigned to the various operators. These are a set of rights and restrictions that authorize or deny:
 

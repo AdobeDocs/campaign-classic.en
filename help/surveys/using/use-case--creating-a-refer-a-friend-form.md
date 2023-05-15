@@ -2,12 +2,14 @@
 product: campaign
 title: Create a Refer A Friend survey
 description: Learn steps to create a Refer A Friend form
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 ---
 # Use case: create a referral form{#use-case-creating-a-refer-a-friend-form}
 
-![](../../assets/common.svg)
+ 
 
 In this example, we want to offer a competition to the recipients in the database. The Web form will have a section for entering answers and another to refer a friend by entering their email address.
 

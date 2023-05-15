@@ -2,12 +2,14 @@
 product: campaign
 title: Personalization blocks
 description: Learn how to use personalization blocks
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 ---
 # Personalization blocks{#personalization-blocks}
 
-![](../../assets/common.svg)
+ 
 
 Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Insert personalization blocks](#inserting-personalization-blocks).
 

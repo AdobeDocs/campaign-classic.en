@@ -2,12 +2,14 @@
 product: campaign
 title: "Use case: configure the field substitution"
 description: "Use case: configure the field substitution"
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 ---
 # Use case: configure the field substitution{#use-case-configuring-the-field-substitution}
 
-![](../../assets/common.svg)
+ 
 
 Random field substitution lets you attribute a value from the recipient list to the seed addresses that are empty when the user uses this value in a delivery (example: name, city, etc.).
 

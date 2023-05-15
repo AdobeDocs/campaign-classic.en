@@ -2,12 +2,14 @@
 product: campaign
 title: Conditional content
 description: Learn how to add conditional content
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization, Multilingual Messages
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 ---
 # Conditional content{#conditional-content}
 
-![](../../assets/common.svg)
+ 
 
 By configuring conditional content fields, you can create dynamic personalization based on the recipient's profile for example. Text blocks and/or images are replaced when a particular condition is satisfied.
 

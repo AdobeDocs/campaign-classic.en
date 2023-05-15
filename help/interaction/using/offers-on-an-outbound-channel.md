@@ -2,6 +2,8 @@
 product: campaign
 title: Offers on an outbound channel
 description: Offers on an outbound channel
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
@@ -9,7 +11,7 @@ exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 ---
 # Offers on an outbound channel{#offers-on-an-outbound-channel}
 
-![](../../assets/common.svg)
+ 
 
 ## Email offer delivery {#email-offer-delivery}
 

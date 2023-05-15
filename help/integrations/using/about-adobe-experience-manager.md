@@ -2,13 +2,15 @@
 product: campaign
 title: About Adobe Experience Manager
 description: About Adobe Experience Manager
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 ---
 # Work with Campaign and Experience Manager{#about-adobe-experience-manager}
 
-![](../../assets/common.svg)
+ 
 
 Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
 

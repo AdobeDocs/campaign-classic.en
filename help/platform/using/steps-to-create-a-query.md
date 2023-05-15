@@ -2,6 +2,8 @@
 product: campaign
 title: Steps to create a query
 description: Steps to create a query
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries
@@ -9,7 +11,7 @@ exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 ---
 # Steps to create a query{#steps-to-create-a-query}
 
-![](../../assets/common.svg)
+ 
 
 The steps for building a query in Adobe Campaign are as follows:
 

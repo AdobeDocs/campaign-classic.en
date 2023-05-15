@@ -2,12 +2,14 @@
 product: campaign
 title: Add fields to a web form
 description: Add fields to a web form
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 ---
 # Add fields to a web form{#adding-fields-to-a-web-form}
 
-![](../../assets/common.svg)
+ 
 
 In a Web form, fields enable users to enter information and select options. Web forms can offer input fields, selection fields, static and advanced content (captchas, subscriptions, etc.).
 

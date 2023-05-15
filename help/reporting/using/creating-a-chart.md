@@ -2,12 +2,14 @@
 product: campaign
 title: Create a chart
 description: Learn how to design a chart
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 ---
 # Create a chart{#creating-a-chart}
 
-![](../../assets/common.svg)
+ 
 
 The data in the database can also be collected and displayed in a chart. Adobe Campaign provides a set of graphical representations. Their configuration is detailed below.
 

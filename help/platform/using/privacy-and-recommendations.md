@@ -2,6 +2,8 @@
 product: campaign
 title: Privacy and Consent
 description: Learn more about Privacy and Consent
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -9,7 +11,7 @@ exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 ---
 # Privacy and Consent{#privacy-and-recommendations}
 
-![](../../assets/common.svg)
+ 
 
 ## General recommendations {#general-recommendations}
 

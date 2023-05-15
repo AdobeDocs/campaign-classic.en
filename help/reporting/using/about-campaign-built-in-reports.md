@@ -2,12 +2,14 @@
 product: campaign
 title: About Campaign built-in reports
 description: About Campaign built-in reports
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 ---
 # About Campaign built-in reports{#about-campaign-built-in-reports}
 
-![](../../assets/common.svg)
+ 
 
 This chapter provides the list of Adobe Campaign built-in reports, their content and their context. The information below will enable you to avoid creating reports already available in the platform.
 

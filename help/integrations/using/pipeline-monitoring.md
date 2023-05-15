@@ -2,13 +2,15 @@
 product: campaign
 title: Pipeline monitoring
 description: Pipeline monitoring
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
 ---
 # Pipeline monitoring {#pipeline-monitoring}
 
-![](../../assets/common.svg)
+ 
 
 The [!DNL pipelined] status web service gives information on the status of the [!DNL pipelined] process.
 

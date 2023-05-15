@@ -2,12 +2,14 @@
 product: campaign
 title: S with the Enhanced MTA in Adobe Campaign Classic
 description: Learn about the scope and the specificities of sending emails with the Adobe Campaign Enhanced MTA
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 ---
 # Sending with the Enhanced MTA {#sending-with-enhanced-mta}
 
-![](../../assets/common.svg)
+ 
 
 The **Adobe Campaign Enhanced MTA** (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for improved deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
 

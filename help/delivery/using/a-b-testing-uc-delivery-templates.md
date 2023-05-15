@@ -2,12 +2,14 @@
 product: campaign
 title: Create the delivery templates
 description: Learn how to perform A/B testing through a dedicated use case
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 ---
 # Create the delivery templates {#step-3--creating-two-delivery-templates}
 
-![](../../assets/common.svg)
+ 
 
 We now want to create two delivery templates. Each template will be referenced in an **[!UICONTROL Email delivery]** activity linked to the **[!UICONTROL Split]** activity. For more on this, refer to [this section](about-templates.md).
 

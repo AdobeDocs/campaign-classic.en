@@ -2,13 +2,15 @@
 product: campaign
 title: Configuring events
 description: Learn how to configure events for custom implementation
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 ---
 # Configuring events for custom implementation {#events}
 
-![](../../assets/common.svg)
+ 
 
 Parts of this configuration is a custom development and requires the following:
 

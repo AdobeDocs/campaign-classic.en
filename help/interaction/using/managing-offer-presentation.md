@@ -2,6 +2,8 @@
 product: campaign
 title: Managing offer presentation
 description: Managing offer presentation
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
@@ -9,7 +11,7 @@ exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 ---
 # Managing offer presentation{#managing-offer-presentation}
 
-![](../../assets/common.svg)
+ 
 
 ## Presentation rules overview {#presentation-rules-overview}
 

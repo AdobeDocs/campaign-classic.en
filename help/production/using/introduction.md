@@ -16,7 +16,7 @@ This section presents the procedure to be applied to upgrade Adobe Campaign, cli
 
 >[!NOTE]
 >
->For hosted instances, you must coordinate with your Adobe Administrator.  
+>For hosted/managed services instances, you must coordinate with your Adobe Administrator.  
 >For on-premise instances, you can get assistance from Adobe Consultants.
 
 The upgrade must be applied to all servers where Adobe Campaign is installed. 

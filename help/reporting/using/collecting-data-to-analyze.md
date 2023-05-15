@@ -2,12 +2,13 @@
 product: campaign
 title: Collect data to analyze
 description: Collect data to analyze
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 ---
 # Collect data to analyze{#collecting-data-to-analyze}
 
-![](../../assets/common.svg)
+ 
 
 The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Using the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
 

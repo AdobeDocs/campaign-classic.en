@@ -2,12 +2,14 @@
 product: campaign
 title: Key steps to send an email
 description: Learn how to confirm the delivery of an email and discover the specificities of delivering email messages
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
 ---
 # Key steps to send an email {#key-steps-to-send-an-email}
 
-![](../../assets/common.svg)
+ 
 
 Once your email has been created and configured, you can send it to the main target. This section presents the main steps to check and confirm the delivery of an email.
 

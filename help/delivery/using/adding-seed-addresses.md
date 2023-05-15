@@ -2,12 +2,14 @@
 product: campaign
 title: Add seed addresses
 description: Add seed addresses
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
 ---
 # Add seed addresses{#adding-seed-addresses}
 
-![](../../assets/common.svg)
+ 
 
 ## Seed addresses in a delivery {#seed-addresses-in-a-delivery}
 

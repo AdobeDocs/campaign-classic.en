@@ -2,6 +2,7 @@
 product: campaign
 title: Manage access to Campaign folders
 description: Learn how to grant access to Campaign folders and create views
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 ---
 # Manage access to folders{#folder-access-management}
 
-![](../../assets/common.svg)
+ 
 
 Each folder of the Explorer navigation tree has read, write, and delete access rights attached to it. To access a file, an operator or group of operators must at least have read access to it.
 

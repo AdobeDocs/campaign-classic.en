@@ -2,12 +2,14 @@
 product: campaign
 title: Campaign delivery best practices
 description: Learn best practices when designing and sending a delivery
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
 ---
 # Delivery best practices {#delivery-best-practices}
 
-![](../../assets/common.svg)
+ 
 
 Learn best practices related to delivery design and sending with Adobe Campaign. Use the links below to navigate topics and find guidance.
 

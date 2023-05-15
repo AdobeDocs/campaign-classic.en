@@ -1,13 +1,15 @@
 ---
 product: campaign
 title: Define the email content in Adobe Campaign Classic
-description: Learn how to define the email content when using Adobe Campaign Classic.
+description: Learn how to define the email content when using Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 ---
 # Define the email content {#defining-the-email-content}
 
-![](../../assets/common.svg)
+ 
 
 ## Sender {#sender}
 

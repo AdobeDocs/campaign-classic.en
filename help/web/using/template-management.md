@@ -2,12 +2,14 @@
 product: campaign
 title: Template management
 description: Template management
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
 ---
 # Template management{#template-management}
 
-![](../../assets/common.svg)
+ 
 
 The Digital Content Editor offers **standard templates** for Web applications and deliveries.
 

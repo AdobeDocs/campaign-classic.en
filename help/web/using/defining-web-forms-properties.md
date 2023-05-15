@@ -2,12 +2,14 @@
 product: campaign
 title: Define web forms properties
 description: Define web forms properties
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 ---
 # Defining web forms properties{#defining-web-forms-properties}
 
-![](../../assets/common.svg)
+ 
 
 You can fully configure and personalize web forms to satisfy your requirements. The parameters must be entered in the properties window.
 

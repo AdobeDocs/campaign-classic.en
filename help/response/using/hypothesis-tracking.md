@@ -2,6 +2,8 @@
 product: campaign
 title: Track hypothesis
 description: Learn how to track hypothesis in Campaign Response Manager
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -9,7 +11,7 @@ exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 ---
 # Hypothesis tracking{#hypothesis-tracking}
 
-![](../../assets/common.svg)
+ 
 
 The result of hypothesis calculations is available at various levels of the Adobe Campaign platform: indicators calculated by hypotheses and the target populations reactions are visible via the actual hypothesis, as well as in the hypotheses reports available via campaigns and deliveries.
 

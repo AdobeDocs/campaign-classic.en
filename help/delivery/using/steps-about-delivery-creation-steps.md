@@ -1,13 +1,15 @@
 ---
 product: campaign
-title: About deliveries creation steps in Adobe Campaign Classic
-description: Discover the main delivery creation steps in Adobe Campaign Classic
+title: About deliveries creation steps in Adobe Campaign
+description: Discover the main delivery creation steps in Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 ---
 # About deliveries creation steps {#about-delivery-creation}
 
-![](../../assets/common.svg)
+ 
 
 The key steps when creating a delivery are as follows:
 

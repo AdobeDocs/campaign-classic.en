@@ -2,12 +2,14 @@
 product: campaign
 title: Person, people and recipients
 description: Person, people and recipients
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 ---
 # Person/people and recipients {#person-people-and-recipients}
 
-![](../../assets/common.svg)
+ 
 
 This sample will help you understanding the difference between a person/a people and a recipient in Adobe Campaign. We will send a delivery to several people to highlight the difference between people and recipients while detailing the calculation method for the following indicators:
 

@@ -2,6 +2,8 @@
 product: campaign
 title: Update bounce qualification after an ISP outage
 description: Learn how to update bounce qualification after an ISP outage
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 hide: yes
 hidefromtoc: yes
@@ -9,7 +11,7 @@ exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 ---
 # Update incorrect hard bounces after an ISP outage {#update-bounces}
 
-![](../../assets/common.svg)
+ 
 
 ## Context{#update-bounce-context}
 

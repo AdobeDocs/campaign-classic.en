@@ -2,6 +2,7 @@
 product: campaign
 title: Get started with Campaign operators
 description: Learn how to create and manage campaign users
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
@@ -9,7 +10,7 @@ exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 ---
 # Create and manage operators {#operators}
 
-![](../../assets/common.svg)
+ 
 
 ## Get started with Campaign operators  {#about-operators}
 

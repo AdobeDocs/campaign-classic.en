@@ -2,11 +2,13 @@
 product: campaign
 title: About response manager
 description: About response manager
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 ---
 # Get started with Campaign Response Manager{#about-response-manager}
 
-![](../../assets/common.svg)
+ 
 
 Adobe Campaign offers a Response Management add-on that lets you measure the success and profitability of marketing campaigns or offer propositions across communication channels: email, mobile, direct mail, etc.
 

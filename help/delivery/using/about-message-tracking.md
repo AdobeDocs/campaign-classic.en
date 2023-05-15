@@ -1,13 +1,15 @@
 ---
 product: campaign
 title: Get started with tracking
-description: Learn more the general guidelines for tracking in Adobe Campaign Classic
+description: Learn more the general guidelines for tracking in Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 ---
 # Get started with message tracking {#get-started-tracking}
 
-![](../../assets/common.svg)
+ 
 
 Thanks to its tracking functionalities, Adobe Campaign enables you to track the messages sent and check the behavior of recipients: opening, clicks on links, unsubscription, etc.
 

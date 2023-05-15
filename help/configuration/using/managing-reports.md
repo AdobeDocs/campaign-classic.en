@@ -2,11 +2,13 @@
 product: campaign
 title: Manage reports
 description: Manage reports
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 ---
 # Manage reports{#managing-reports}
 
-![](../../assets/common.svg)
+ 
 
 Reports based on a schema that is specific to the default Adobe Campaign recipients (nm:recipient or schema linked) must be re-developed in order to take into account the data from the custom table and its tables linked via the target mapping (see the [Target mapping](../../configuration/using/target-mapping.md) section).
 

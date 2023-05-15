@@ -2,6 +2,8 @@
 product: campaign
 title: Simulation tracking
 description: Simulation tracking
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
@@ -9,7 +11,7 @@ exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
 ---
 # Simulation tracking{#simulation-tracking}
 
-![](../../assets/common.svg)
+ 
 
 Once the simulation is finished, you can analyze its result via the **[!UICONTROL Results]** tab which is added to the simulation window and the **[!UICONTROL Breakdown of offers by rank]** report, available via in the simulation dashboard.
 

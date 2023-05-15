@@ -2,12 +2,14 @@
 product: campaign
 title: Create a delivery from a template
 description: Learn how to create a delivery from a template
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 ---
 # Create a delivery from a template{#creating-a-delivery-from-a-template}
 
-![](../../assets/common.svg)
+ 
 
 ## Link the template to a delivery {#linking-the-template-to-a-delivery}
 
