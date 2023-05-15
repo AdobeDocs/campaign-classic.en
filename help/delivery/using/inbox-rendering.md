@@ -31,6 +31,8 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 
 ## Activating Inbox rendering {#activating-inbox-rendering}
 
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
+
 For hosted and hybrid clients, Inbox rendering is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
 
 For on-premise installations, follow the steps below to configure Inbox rendering.
