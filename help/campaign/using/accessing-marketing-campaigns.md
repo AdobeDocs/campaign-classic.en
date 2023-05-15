@@ -2,12 +2,11 @@
 product: campaign
 title: Access marketing campaigns
 description: Access marketing campaigns
+badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 ---
 # Accessing marketing campaigns{#accessing-marketing-campaigns}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign lets you create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center.
 
