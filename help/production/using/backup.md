@@ -11,8 +11,6 @@ exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
 ---
 # Backup{#backup}
 
-
-
 Backing up is essential in order to avoid losing data in the event of a problem (whether physical or system-related) on a machine.
 
 Data is stored in two separate locations:
@@ -26,33 +24,29 @@ Most of the data is in the database. This represents 99% of the information to b
 
 Files are divided into several categories:
 
-* Configuration files, located in **nl6/conf**
+* Configuration files, stored in `nl6/conf`, enable you to reconfigure Adobe Campaign very quickly. 
 
-  These enable you to reconfigure Adobe Campaign very quickly. 
+* Redirection files, stored in  `nl6/var/`<instancename>`/redir`, are on the tracking (often called 'frontal') servers, and include all previous campaign redirections. They are still used by previous campaigns.
 
-* Redirection files ** nl6/var/`<instancename>`/redir**
-
-  These are on the tracking (often called 'frontal') servers, and include all previous campaign redirections. They are still used by previous campaigns.
-
-* Log files: **nl6/var/`<instancename>`/log**
-
-  These can be used to trace problems.
+* Log files, stored in `nl6/var/`<instancename>`/log`, can be used to trace problems.
 
 The directories to be backed up are therefore:
 
-* nl6/conf
+* `nl6/conf`
 
-* nl6/var/`<instanceName>`/redir (for each instance)
+* `nl6/var/`<instanceName>`/redir` (for each instance)
 
-* nl6/var/`<instanceName>`/log (optional)
+* `nl6/var/`<instanceName>`/log` (optional)
 
-* nl6/var/`<instanceName>`/relay (optional)  
+* `nl6/var/`<instanceName>`/relay` (optional)  
+
+
+## Database {#database}
 
 >[!IMPORTANT]
 >
->It is essential to back up the database.
+>It is imperative to back up the database.
 
-## Database {#database}
 
 The database contains all of the information displayed in the Adobe Campaign rich client console, as well as all the line-of-business data.
 
