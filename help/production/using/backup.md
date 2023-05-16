@@ -24,21 +24,21 @@ Most of the data is in the database. This represents 99% of the information to b
 
 Files are divided into several categories:
 
-* Configuration files, stored in `nl6/conf`, enable you to reconfigure Adobe Campaign very quickly. 
+* Configuration files, stored in **nl6/conf**, enable you to reconfigure Adobe Campaign very quickly. 
 
-* Redirection files, stored in  `nl6/var/`<instancename>`/redir`, are on the tracking (often called 'frontal') servers, and include all previous campaign redirections. They are still used by previous campaigns.
+* Redirection files, stored in  **nl6/var/`<instance-name>`/redir**, are on the tracking (often called 'frontal') servers, and include all previous campaign redirections. They are still used by previous campaigns.
 
-* Log files, stored in `nl6/var/`<instancename>`/log`, can be used to trace problems.
+* Log files, stored in **nl6/var/`<instance-name>`/log**, can be used to trace problems.
 
 The directories to be backed up are therefore:
 
-* `nl6/conf`
+* nl6/conf
 
-* `nl6/var/`<instanceName>`/redir` (for each instance)
+* nl6/var/`<instance-name>`/redir (for each instance)
 
-* `nl6/var/`<instanceName>`/log` (optional)
+* nl6/var/`<instance-name>`/log (optional)
 
-* `nl6/var/`<instanceName>`/relay` (optional)  
+* nl6/var/`<instance-name>`/relay (optional)  
 
 
 ## Database {#database}

@@ -87,9 +87,9 @@ You also need to know all the [useful command lines](../../installation/using/co
 * **nlserver pdump**: lists running processes
 * **nlserver pdump -who**: lists active client sessions
 * **nlserver monitor -missing**: lists missing properties
-* **nlserver start process@instanceName**: starts a process
-* **nlserver stop process@instanceName**: stops a process
-* **nlserver restart process@instanceName**: restarts a process
+* **nlserver start process@instance-name**: starts a process
+* **nlserver stop process@instance-name**: stops a process
+* **nlserver restart process@instance-name**: restarts a process
 * **nlserver shutdown**: stops all Campaign processes
 * **nlserver watchdog -svc**: starts the watchdog (UNIX only)
 
@@ -275,7 +275,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 If the warning concerns a conflict of resources, user attention is required to resolve it.
 
-The **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** file contains the synchronization result. It is available by default in the following directory: **installationDirectory/var/instanceName/postupgrade**. Errors and warnings are indicated by the error and warning attributes.
+The **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** file contains the synchronization result. It is available by default in the following directory: **installationDirectory/var/`<instance-name>`/postupgrade**. Errors and warnings are indicated by the error and warning attributes.
 
 ### Analyze conflicts
 

@@ -570,7 +570,7 @@ This element is used to populate the configuration of emails, i.e.
 This element lets you regroup several machines (hosts) into the same instance. The instance names appear in the first part of the monitoring email. You can click on the name of an instance to access detail regarding each machine.
 
 ```
-instance name="instanceName" recipientList="mail@mail.com,mail2@mail.com">
+instance name="instance-name" recipientList="mail@mail.com,mail2@mail.com">
                 <host name="devcamp.domain.com" ...>
                        ...
                 </host>

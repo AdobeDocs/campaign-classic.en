@@ -46,20 +46,20 @@ There can be several causes for this issue, follow the steps below to solve it:
    nlserver pdump
    HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of DD/MM/YYYY
    [...]
-   wfserver@<INSTANCENAME> (9340) - 11.3 Mb
+   wfserver@<instance-name> (9340) - 11.3 Mb
    [...]
    ```
 
     If the module is not running, contact Adobe Customer Care. If you have an on-premise installation, an admin user must restart the service using the command below.
 
    ```
-   nlserver start wfserver@<INSTANCENAME>
+   nlserver start wfserver@<instance-name>
    ```
 
    >[!NOTE]
    >
-   >Replace **`<instancename>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:
-   >`[path of application]nl6/conf/config-<instancename>.xml`
+   >Replace **`<instance-name>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:
+   >`[path of application]nl6/conf/config-<instance-name>.xml`
 
     For more on how to restart modules, refer to [this section](../../production/using/usual-commands.md#module-launch-commands).
 
@@ -89,7 +89,7 @@ To check this and to start the module if necessary, apply the following steps:
    nlserver pdump
    HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    [...]
-   wfserver@<INSTANCENAME> (9340) - 11.3 Mb
+   wfserver@<instance-name> (9340) - 11.3 Mb
    [...]
    ```
 
@@ -98,13 +98,13 @@ To check this and to start the module if necessary, apply the following steps:
 1. If the module is not running, contact Adobe Customer Care. If you have an on-premise installation, an admin must restart it using the command below.
 
    ```
-   nlserver start wfserver@<INSTANCENAME>
+   nlserver start wfserver@<instance-name>
    ```
 
    >[!NOTE]
    >
-   >Replace **`<instancename>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:
-   >`[path of application]nl6/conf/config-<instancename>.xml`
+   >Replace **`<instance-name>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:
+   >`[path of application]nl6/conf/config-<instance-name>.xml`
 
     For more on how to restart modules, refer to [this section](../../production/using/usual-commands.md#module-launch-commands).
 

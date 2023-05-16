@@ -50,13 +50,13 @@ Various options let you measure the impact from a migration and identify the pot
 * in the **config** command:
 
   ```
-  nlserver.exe config <option> -instance:<instanceName>
+  nlserver.exe config <option> -instance:<instance-name>
   ```
 
 * or at the postupgrade:
 
   ```
-  nlserver.exe config -postupgrade <option> -instance:<instanceName>
+  nlserver.exe config -postupgrade <option> -instance:<instance-name>
   ```
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Various options let you measure the impact from a migration and identify the pot
 * The **-showCustomEntities** option displays the list of all non-standard objects:
 
   ```
-  nlserver.exe config -showCustomEntities -instance:<instanceName>
+  nlserver.exe config -showCustomEntities -instance:<instance-name>
   ```
 
   Example of a sent message:
@@ -81,7 +81,7 @@ Various options let you measure the impact from a migration and identify the pot
 * The **-showDeletedEntities** option displays the list of all the standard objects that are missing in the database or the file system. For each missing object, the path is specified.
 
   ```
-  nlserver.exe config -showDeletedEntities -instance:<instanceName>
+  nlserver.exe config -showDeletedEntities -instance:<instance-name>
   ```
 
   Example of a sent message:
@@ -97,7 +97,7 @@ Integrated as standard in the postupgrade command, this process lets you display
 You can start the verification process on its own (without migration) using the command:
 
 ```
-nlserver.exe config -postupgrade -check -instance:<instanceName>
+nlserver.exe config -postupgrade -check -instance:<instance-name>
 ```
 
 >[!NOTE]
@@ -170,7 +170,7 @@ A database and schema coherence check is also carried out.
 This option lets you restore out-of-the-box objects if they had been modified. For each restored object, a backup of your changes is stored in the selected folder:
 
 ```
-nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>
+nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instance-name>
 ```
 
 >[!NOTE]

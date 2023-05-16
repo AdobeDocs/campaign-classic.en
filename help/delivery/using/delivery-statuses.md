@@ -105,19 +105,19 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
         nlserver pdump
         HH:MM:SS > Application server for Adobe Campaign Classic (X.Y.Z YY.R build nnnn@SHA1) of DD/MM/YYYY
         [...]
-        mta@<INSTANCENAME> (9268) - 23.0 Mb
+        mta@<instance-name> (9268) - 23.0 Mb
         [...]
         ```
 
     1. If the MTA is not listed, start it with the following command:
 
         ```
-        nlserver start mta@<INSTANCENAME>
+        nlserver start mta@<instance-name>
         ```
 
         >[!NOTE]
         >
-        >Replace `<INSTANCENAME>` with the name of your instance (production, development, etc.). The instance name is identified via the configuration files: `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
+        >Replace `<instance-name>` with the name of your instance (production, development, etc.). The instance name is identified via the configuration files: `[path of application]nl6/conf/config-<instance-name>.xml`
 
 * The delivery may be using an affinity not configured on the sending server.
     
