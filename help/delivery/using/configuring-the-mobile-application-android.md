@@ -52,7 +52,7 @@ To choose which connector you want to use, follow these steps:
 
 ## Configure an Android service {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [Learn how to configure an Android service in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=en#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
+![](assets/do-not-localize/how-to-video.png) [Learn how to configure an Android service in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
 1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
 
@@ -170,7 +170,7 @@ Below are the FCM payload names to further personalize your push notification:
 
 ## Extend the appsubscriptionRcp schema {#extend-subscription-schema}
 
-![](assets/do-not-localize/how-to-video.png) [Learn how to extend the appsubscriptionRcp schema in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=en#extending-the-app-subscription-schema-to-personalize-push-notifications)
+![](assets/do-not-localize/how-to-video.png) [Learn how to extend the appsubscriptionRcp schema in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html#extending-the-app-subscription-schema-to-personalize-push-notifications)
 
 You need to extend the **appsubscriptionRcp** to define new additional fields to store parameters from the app in Campaign database . These fields will be used for personalization for example. To do this:
 

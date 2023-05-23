@@ -3,7 +3,7 @@ product: campaign
 title: Upgrading to a new build
 description: Learn technical steps to upgrade to a new build
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -65,7 +65,7 @@ To run the upgrade file, apply the following steps:
 
 1. Run **setup.exe**.
 
-   To download this file, connect to the [Software distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+   To download this file, connect to the [Software distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
 1. Select the installation mode: choose **[!UICONTROL Update or repair]** 
 1. Click **[!UICONTROL Next]** .
@@ -119,7 +119,7 @@ On a Linux environment, follow the steps below to update Adobe Campaign to a new
 
 ### Obtain updated packages {#obtain-updated-packages}
 
-Start by recovering both updated packages of Adobe Campaign: connect to the [Software distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+Start by recovering both updated packages of Adobe Campaign: connect to the [Software distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
 The file is **nlserver6-v7-XXX.rpm**
 

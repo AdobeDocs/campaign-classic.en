@@ -145,4 +145,4 @@ Once the delivery and its content are ready, send the delivery:
 
       Quarantines are automatically synchronized back to Campaign v7. This allows to take non-deliverable information into account for the next targeting performed in Campaign v7.
 
-      You can find more information about quarantine management in Campaign Standard in [this section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en).
+      You can find more information about quarantine management in Campaign Standard in [this section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).

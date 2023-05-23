@@ -132,7 +132,7 @@ Currently two email providers support testing this format: Gmail and Mail.ru.
 All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the corresponding [Gmail](https://developers.google.com/gmail/ampemail?), and [Mail.ru](https://postmaster.mail.ru/amp) developer documentations.
 
 In particular, the following requirements must be met:
-* Follow the AMP security requirements specific to [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), and [Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto).
+* Follow the AMP security requirements specific to [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), and [Mail.ru](https://postmaster.mail.ru/amp/#howto).
 * The AMP MIME part must contain a [valid AMP document](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email).
 * The AMP MIME part must be smaller than 100KB.
 
@@ -164,7 +164,7 @@ For further details, consult the [Gmail](https://developers.google.com/gmail/amp
 
 ![](assets/amp_from_field.png)
 
-To test sending an AMP email to a Mail.ru address, follow the steps from the [Mail.ru developer documentation](https://postmaster.mail.ru/amp/?lang=en#howto) (**If you are a user** section).
+To test sending an AMP email to a Mail.ru address, follow the steps from the [Mail.ru developer documentation](https://postmaster.mail.ru/amp/#howto) (**If you are a user** section).
 
 ### Delivering AMP emails by registering with an email provider {#delivering-amp-emails-by-registering}
 
@@ -176,7 +176,7 @@ To test sending an AMP email to a Mail.ru address, follow the steps from the [Ma
 
 Once tested with a few addresses, you can send AMP emails to any Gmail address. To do this, you must register with Google, and await their answer. Follow the steps presented in the [Gmail](https://developers.google.com/gmail/ampemail/register) developer documentation. After successful registration, you become an authorized sender.
 
-To send AMP emails to Mail.ru addresses, follow the requirements and steps listed in the [Mail.ru developer documentation](https://postmaster.mail.ru/amp/?lang=en#howto) (**If you are an Email sender** section).
+To send AMP emails to Mail.ru addresses, follow the requirements and steps listed in the [Mail.ru developer documentation](https://postmaster.mail.ru/amp/#howto) (**If you are an Email sender** section).
 
 ## Send an AMP email {#sending-amp-email}
 

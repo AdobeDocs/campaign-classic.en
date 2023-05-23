@@ -46,4 +46,4 @@ Besides these short and detailed videos, you can find [training courses](https:/
 
 ### Experience League Courses
 
-You can also visit the [Recommended Courses](https://experienceleague.adobe.com/?lang=en#dashboard/learning) for Adobe Campaign Classic: courses are expertly curated collections of lessons that quickly help you gain skills and knowledge.
+You can also visit the [Recommended Courses](https://experienceleague.adobe.com/#dashboard/learning) for Adobe Campaign Classic: courses are expertly curated collections of lessons that quickly help you gain skills and knowledge.

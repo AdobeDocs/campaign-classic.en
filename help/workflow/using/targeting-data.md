@@ -174,7 +174,7 @@ To configure it, you first need to select criteria:
    
     ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../installation/using/about-fda.md)
 
-    ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=en)
+    ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
 
 Then, we need to add new subsets:
 

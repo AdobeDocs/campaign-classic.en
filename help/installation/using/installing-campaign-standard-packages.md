@@ -3,7 +3,7 @@ product: campaign
 title: Install Campaign Classic built-in packages
 description: Learn how to install Campaign built-in packages
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 ---
 # Install Campaign Classic built-in packages{#installing-campaign-standard-packages}

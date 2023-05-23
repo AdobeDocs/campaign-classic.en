@@ -158,7 +158,7 @@ Web forms are displayed in the default language specified in the **[!UICONTROL L
   ?lang=xx
   ```
 
-  if the language is the first or only parameter of the URL. For example: **https://myserver/webApp/APP34?lang=en**
+  if the language is the first or only parameter of the URL. For example: **https://myserver/webApp/APP34**
 
   ```
   &lang=xx

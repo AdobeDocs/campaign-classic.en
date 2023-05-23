@@ -17,7 +17,7 @@ Adobe Campaign lets you export zipped or encrypted files. When defining an expor
 
 To be able to do so:
 
-1. Install a GPG key pair for your instance using the [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data).
+1. Install a GPG key pair for your instance using the [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
     >[!NOTE]
     >
@@ -42,7 +42,7 @@ In this use case, we will build a workflow in order to encrypt and export data u
 
 The steps to perform this use case are as follows:
 
-1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data).
+1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
 1. In Campaign Classic, build a workflow to export the data and encrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 

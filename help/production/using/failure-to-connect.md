@@ -3,7 +3,7 @@ product: campaign
 title: Failure to connect
 description: Failure to connect
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -54,7 +54,7 @@ If you do not obtain this result, check in your Web server configuration that in
 </tr>
 <tr>
 <td>Check the general configuration of the security zones.</td>
-<td>For more on configuring security zones, refer to <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>this section.</a></td>
+<td>For more on configuring security zones, refer to <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#configuring-campaign-server"/>this section.</a></td>
 </tr>
 <tr>
 <td>The command nlserver pdump returns <b>No tasks</b></td>

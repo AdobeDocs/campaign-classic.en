@@ -87,5 +87,5 @@ If you did not update your Internet Explorer version, you see the following mess
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 * [Make the new Client Console available to users](../../installation/using/client-console-availability-for-windows.md)
 * [Install Campaign Client Console](../../installation/using/installing-the-client-console.md)
-* [Access Adobe Software Distribution](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)
+* [Access Adobe Software Distribution](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html)
 * [Download Campaign Classic build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)

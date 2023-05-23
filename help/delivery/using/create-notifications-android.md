@@ -68,7 +68,7 @@ The image and web page should be displayed in the push notification when receive
    >
    >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](configuring-the-mobile-application-android.md#android-service-httpv1).
 
-![](assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
+![](assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html#additional-resources)
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 

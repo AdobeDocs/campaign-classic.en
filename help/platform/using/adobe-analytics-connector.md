@@ -63,7 +63,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
 
-   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
+   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites).
 
    ![](assets/analytics_connnector_3.png)
 
@@ -94,7 +94,7 @@ You need to configure your **[!UICONTROL Conversion variables]** and **[!UICONTR
 
 1. Click **[!UICONTROL Add new]** to create the identifiers required for measuring the impact of the campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID.
 
-   To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=en#admin-tools).
+   To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools).
    
    ![](assets/analytics_connnector_6.png)
 
@@ -117,7 +117,7 @@ You need to configure your **[!UICONTROL Conversion variables]** and **[!UICONTR
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   To learn how to configure **[!UICONTROL Success events]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=en#admin-tools).
+   To learn how to configure **[!UICONTROL Success events]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools).
 
    >[!NOTE]
    >
@@ -143,7 +143,7 @@ You now need to configure your **[!UICONTROL Web Analytics]** external account i
 
 Note that if one of your **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** or **[!UICONTROL Success events]** is not visible when configuring your external account, this means that you are missing a permission for this newly created component in the **[!UICONTROL Product profile]** associated to the user. 
 
-For more information on this, refer to the [Product profiles for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en#product-profile-admins) page.
+For more information on this, refer to the [Product profiles for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins) page.
 
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign tree and click **[!UICONTROL New]**.
 
