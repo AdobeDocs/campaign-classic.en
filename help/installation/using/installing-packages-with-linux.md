@@ -37,10 +37,7 @@ To install Adobe Campaign onto an RPM (RHEL, CentOS and SUSE) operating system, 
 
 1. You must first obtain the Adobe Campaign package.
 
-   The file is named as below, where **XXXX** is the Adobe Campaign build number:
-
-    * **nlserver6-v7-XXXX-0.x86_64.rpm** for v7.
-    * **nlserver6-XXXX-0.x86_64.rpm** for v6.1.
+   The file is named as below, where **XXXX** is the Adobe Campaign build number: **nlserver6-v7-XXXX-0.x86_64.rpm**.
 
    >[!CAUTION]
    >
@@ -72,12 +69,7 @@ yum install bc.x86_64
 
 To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the following steps:
 
-1. You must first obtain the Adobe Campaign package.
-
-    * **nlserver6-v7-XXXX-linux-2.6-amd64.deb** for v7.
-    * **nlserver6-XXXX-linux-2.6-amd64.deb** for v6.1.
-
-   **XXXX** is the Adobe Campaign build number.
+1. You must first obtain the Adobe Campaign package: **nlserver6-v7-XXXX-linux-2.6-amd64.deb**, where **XXXX** is the build number.
 
    >[!CAUTION]
    >

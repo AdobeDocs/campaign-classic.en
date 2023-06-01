@@ -41,7 +41,7 @@ The function(s) to be added can be found in the **"package" file** in XML format
   namespace   = "nms"
   name        = "package-additional-funclist"
   label       = "Additional functions"
-  buildVersion= "6.1"
+  buildVersion= "7.1"
   buildNumber = "10000">
 
   <entities schema="xtk:funcList">

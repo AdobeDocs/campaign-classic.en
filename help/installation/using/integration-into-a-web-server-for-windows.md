@@ -165,15 +165,3 @@ In this case, you must increase this limit:
 >
 >For more information on this IIS option, refer to the "How To" section of the [official documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits).
 
-### Configuring http error message display {#configuring-http-error-message-display}
-
-If you use a 6.1 version IIS server, generated error messages may be difficult to read due to an undesired HTML code being displayed in the message.
-
-To fix this and display the error correctly, apply the following configuration:
-
-1. Open the IIS via the **[!UICONTROL Start > Control Panel > Administrative tools]** menu.
-1. In the **Connections** pane, select the site created for your Adobe Campaign installation, then double-click **Configuration editor** in the main pane.
-1. In the **Section** drop-down list, select **system.webServer** > **httpErrors**.
-1. Select the **PassThrough** value at the **existingResponse** line.
-
-![](assets/ins_iis_httperrors.png)

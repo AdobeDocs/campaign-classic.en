@@ -1612,12 +1612,12 @@ Here are the different parameters of the **mta** node. This is the configuration
    <td> Boolean<br /> </td> 
    <td> true <br /> </td> 
   </tr> 
-  <tr> 
+  <!--tr> 
    <td> statServerVersion<br /> </td> 
    <td> Protocol version used: communication protocol version (1 for a v5.11 and 6.0.2 server, 2 for a v6.1 server).<br /> </td> 
    <td> String<br /> </td> 
    <td> If undefined, the latest version is used. <br /> </td> 
-  </tr> 
+  </tr--> 
   <tr> 
    <td> useMomentum<br /> </td> 
    <td> If set to "true", your instance is using the <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>.<br /> </td> 

@@ -161,7 +161,7 @@ Package content:
 ```
 
 <?xml version='1.0'?>
-<package author="Administrator (admin)" buildNumber="7974" buildVersion="6.1" img=""
+<package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
 label="" name="" namespace="" vendor="">
  <desc></desc>
  <version buildDate="2013-01-09 10:30:18.954Z"/>

@@ -1054,16 +1054,6 @@ In unitary mode, a single contact is processed by the Offer engine at runtime. T
 Learn more about [Unitary mode](../../interaction/using/about-inbound-channels.md).
 +++
 
-<!--
------NO OCCURRENCE IN ACC, OLD v6 CONCEPT?
-+++**Universes**
-
-Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
-
-Learn more about [Universes](../../workflow/using/about-workflows.md).
-+++
------->
-
 +++**Web applications**
 
 Web applications are dynamic and interactive application pages hosted by the Campaign instance. They contains data from the database and content adapted to the rights of the connected user. For example, you can create an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post web pages where users can look up or enter information.

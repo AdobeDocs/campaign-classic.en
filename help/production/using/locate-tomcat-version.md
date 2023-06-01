@@ -35,8 +35,6 @@ To locate the version of embedded Tomcat in an instance of Adobe Campaign, follo
 
 1. Navigate to the *\tomcat-7\lib* subfolder within the Adobe Campaign installation folder (for example, *C:\Program Files\ [Installation_folder]* in Windows, or */usr/local/neolane/nl6* in Linux).
 
-    If you are running an older version of Adobe Campaign using Tomcat v6, use *\tomcat-6\lib*.
-
 1. Copy the file *catalina.jar* to an outside temporary folder (for example, your desktop) and rename the extension from .jar to .zip.
 
 1. Unzip the copied file. It will result in many subfolders and files.
@@ -59,4 +57,4 @@ Once you are able to establish the exact version of Tomcat used in a particular 
 >
 >The major version of the embedded Tomcat is only upgraded when the major version of Adobe Campaign changes (although older versions may no longer be officially supported, the information may be useful as some customers may still be running these versions).
 >
->For example, Adobe Campaign v6.02 will always use Tomcat v6.x.
+

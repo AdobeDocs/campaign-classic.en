@@ -48,15 +48,16 @@ Version upgrades on the other hand usually come with significant technical chang
 
 For instance, using the server information from the screenshot in the previous section:
 
-*  A build upgrade would involve moving from build 6880 to any build greater that 6880. For example, v6.1.1 build 8222 to v6.1.1 build 8666
+*  A build upgrade would involve moving from build 9342 to any build greater that 9342. For example, v7.1 build 9342 to v7.1 build 9342
 
-* A version upgrade would involve moving from version 6.0.2 to any version greater than 6.0.2.  For example: v6.0.1 build 2222 to v6.1.1 build 8666
+* A version upgrade would involve moving from version 6 to any more recent version.  For example:  v6.1.1 build 8666 to v7.1 build 9342.
 
 ## Should I backup my data prior to these updates?
 
 Adobe will take a backup of your system prior to any changes. However, if there is critical customization work that is in your non-production system (development or staging servers), it is HIGHLY RECOMMENDED you export that work as a package prior to any upgrade.
 
-![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+<!--
+![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 ## When will the upgrades take place?
 
@@ -91,7 +92,9 @@ The build upgrade process requires the following resources:
 
 ## How can I prepare for the build upgrade?
 
-In your development and staging systems, export any work that is critical and must be preserved. For more information please [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+In your development and staging systems, export any work that is critical and must be preserved. 
+
+<!--For more information please [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 Refresh your knowledge of the critical path workflows and deliveries developed in your run books (or by your consulting team/partner) by reviewing the documentation provided to your team at the end of your implementation.
 
@@ -99,7 +102,7 @@ Identify low volume or low traffic times that would be ideal for maintenance win
 
 Review our [build upgrade checklist below](#check-list) and your test plans and ensure that resources who can perform these tests are available within 24– 48 hrs. of the completion of an upgrade.
 
-For more information, [refer to this document](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html). 
+For more information, [refer to this section](../../production/using/build-upgrade.md). 
 
 ## Can build upgrades be performed at night or during business off-hours?
 

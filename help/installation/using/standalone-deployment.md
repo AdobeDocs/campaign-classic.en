@@ -159,7 +159,7 @@ Apply the following steps:
 
    For more on this, refer to [Campaign server configuration](../../installation/using/configuring-campaign-server.md).
 
-1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder. [Learn more](../../installation/using/client-console-availability-for-windows.md).
+1. Copy the client console setup program **setup-client-7.XXX.exe** to the **/datakit/nl/eng/jsp** folder. [Learn more](../../installation/using/client-console-availability-for-windows.md).
 
 1. Follow the Web server integration procedure (IIS, Apache) described in the following sections:
 

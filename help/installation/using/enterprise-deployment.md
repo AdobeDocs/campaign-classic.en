@@ -160,7 +160,7 @@ The steps for installing the first server are:
 
    For more on this, refer to [Campaign server configuration](../../installation/using/configuring-campaign-server.md).
 
-1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder. [Learn more](../../installation/using/client-console-availability-for-windows.md).
+1. Copy the client console setup program **setup-client-7.XX**, **YYYY.exe** to the **/datakit/nl/eng/jsp** folder. [Learn more](../../installation/using/client-console-availability-for-windows.md).
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
 

@@ -26,6 +26,4 @@ You must have the following elements:
 * An Adobe Experience Manager **publishing** instance.
 * An Adobe Campaign instance.
 
-Adobe Campaign is compatible with Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 and 6.5. The following sections present an overview of the integration.
-
 For more details, refer to [Adobe Experience Manager documentation](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html)

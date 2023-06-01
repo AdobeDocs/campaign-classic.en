@@ -58,7 +58,7 @@ To do this, you must:
 
 1. Select the package that contains the console installation program.
 
-     This file is called setup-client-7.X.XXXX.exe for v7 or setup-client-6.X.XXXX.exe for v6.1, where X is the sub-version of Adobe Campaign and XXXX is the build   number.
+     This file is called setup-client-7.X.XXXX.exe, where X is the sub-version of Adobe Campaign and XXXX is the build number.
 
 1. Copy and paste this package into the Adobe Campaign installation folder (on the marketing server for hybrid installations), under /datakit/nl/eng/jsp.
 

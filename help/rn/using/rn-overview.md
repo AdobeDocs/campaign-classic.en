@@ -123,7 +123,7 @@ A team of dedicated Customer Care Representativess, Product Managers, Engineers 
     </a>
     </div>
     <ul>
-    <li>Effort and complexity of upgrading your Campaign Classic instance increases with the distance between 2 versions (v6 --> v7).</li>
+    <li>Effort and complexity of upgrading your Campaign Classic instance increases with the distance between 2 versions.</li>
     <li>The longer your organization waits, the more complex the upgrade (and the more vulnerabilities you are exposed to).</li>
     <li>Regular updates reduce downtime to upgrade and the risk of regression.</li>
     </ul>
