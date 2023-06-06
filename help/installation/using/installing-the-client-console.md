@@ -34,7 +34,7 @@ Please review the details below to understand what is required for your implemen
 
 From Campaign Classic 7.3 build version, installation of Microsoft Edge Webview 2 runtime is required for any console installation.
 
-Web View is installed by default as part of Windows 11 operating system. If it is not already present on your system, Campaign Classic Console Installer will prompt you to download it from [Microsoft Developer website](http://www.adobe.com/go/acc-ms-webview2-runtime-download). Note that the download link does not work on the Internet Explorer 11 browser as Microsoft has deprecated its support. Make sure you use a different browser to access the link.
+Web View is installed by default as part of Windows 11 operating system. If it is not already present on your system, Campaign Classic Console Installer will prompt you to download it from [Microsoft Developer website](https://www.adobe.com/go/acc-ms-webview2-runtime-download). Note that the download link does not work on the Internet Explorer 11 browser as Microsoft has deprecated its support. Make sure you use a different browser to access the link.
 
 ## Adobe Hosted implementations {#hosted-customers}
 
@@ -126,7 +126,7 @@ Once the client console is installed, follow the steps below to create the conne
 
 1. Specify a connection to your Adobe Campaign application server via a URL. Use either a DNS or an alias of the machine, or your IP address.
 
-   For example, you can use the [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
+   For example, you can use the `https://<machine>.<domain>.com` type URL.
 
 1. If Adobe IMS is configured for your organization, check the option **[!UICONTROL Connect with an Adobe ID]** 
 

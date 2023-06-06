@@ -240,4 +240,4 @@ The following information is displayed:
 Connection closed by foreign host.
 ```
 
-You can also request the URL [`https://<computer>`](https://myserver.adobe.com/r/test) from a Web browser.
+You can also request the URL `https://myserver.adobe.com/r/test` from a Web browser.

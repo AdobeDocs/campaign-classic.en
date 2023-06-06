@@ -37,11 +37,8 @@ Therefore, you must:
 
 >[!NOTE]
 >
->Limitations specific to each operator are to be taken into account when creating your message. Refer to:  
->
->* For DoCoMo, refer to [this page](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)
->* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
->* For Softbank, refer to [this page](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)
+>Limitations specific to each operator must be taken into account when creating your message. Refer to their product documentation.
+
 
 ## Test the email content {#testing-the-email-content}
 

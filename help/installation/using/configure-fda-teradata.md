@@ -96,7 +96,7 @@ The connector supports the following options:
 
 | Option   |  Description |
 |---|---|
-| TD_MAX_SESSIONS | Specifies the maximum number of logon sessions that the Teradata Parallel Transporter can acquire for an operator job. <br>For more on this, refer to [this page](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/ds2ref/p1naft0um1kn3vn1ubgkrjdf7c3a.html).|
+| TD_MAX_SESSIONS | Specifies the maximum number of logon sessions that the Teradata Parallel Transporter can acquire for an operator job. |
 | TimeZoneName | Name of the server time zone. |
 | CharacterSet | Used to configure Teradata character set. <br>For more on this, refer to [this page](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001).|
 | IANAAppCodePage | ODBC application code page. <br>For more on this, refer to [this page](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page)|
@@ -221,7 +221,7 @@ To install sha2:
 
 ### UDF_UTF16TO8 installation {#UDF-UTF16TO8-installation}
 
-If you want to use udf_utf16to8 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from the **Teradata unicode tool kit** of this [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
+If you want to use udf_utf16to8 functions in your Adobe Campaign instance, install the user mode function on your Teradata database from the **Teradata unicode tool kit**.
 
 The sha1 of the downloaded file is as follows e58235f434f52c71316a577cb48e20b97d24f470.
 

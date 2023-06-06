@@ -172,8 +172,8 @@ Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the fo
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following tools.
 
-* Java JDK 7. [Learn more](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5 / 4.3 / 5.x, except when embedded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Java JDK 7. 
+* Libre Office 3.5 / 4.3 / 5.x, except when embedded in another tool.
 
 ### Database engines {#dbe-eol}
 
@@ -185,24 +185,24 @@ Refer to [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md)
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following FDA Servers.
 
-* PostgreSQL 9.3. [Learn more](https://www.postgresql.org/support/versioning)
-* MySQL 5.5. [Learn more](https://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5. [Learn more](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Teradata 14 – 14.1. [Learn more](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
+* PostgreSQL 9.3. 
+* MySQL 5.5. 
+* DB2 9.5. 
+* Teradata 14 – 14.1. 
 
 Campaign Classic is not compatible with the following servers in Federated Data Access (FDA).
 
-* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
-* PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. More recent versions of PostgreSQL are supported through Federated Data Access (FDA). [Learn more](https://www.postgresql.org/support/versioning)
-* MSSQL 2000, 2005, 2008 R2. More recent versions of SQL Server are supported through Federated Data Access (FDA). [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1044)
-* MySQL 5.1. More recent versions of MySQL are supported through Federated Data Access (FDA). [Learn more](https://en.wikipedia.org/wiki/InfiniDB)
-* InfiniDB reached end of life. [Learn more](https://www.mysql.com/support)
-* Teradata 13, 13.1. More recent versions of Teradata are supported through Federated Data Access (FDA). [Learn more](https://www.info.teradata.com/download.cfm?ItemID=1007255)
-* Netezza 6.02, 7.0. Netezza reached end of life. [Learn more](https://en.wikipedia.org/wiki/Netezza)
-* AsterData 5.0. AsterData reached end of life. [Learn more](https://en.wikipedia.org/wiki/Aster_Data_Systems)
-* Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0. More recent versions of Sybase are supported through Federated Data Access (FDA).
-* Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic will still support the listed versions of Hadoop via HiveSQL through Federated Data Access (FDA), but these versions are merged with: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) and HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
+* DB2 UDB 9.5, 9.7.
+* Oracle 9i, 10G R2. 
+* PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2.
+* MSSQL 2000, 2005, 2008 R2. 
+* MySQL 5.1. 
+* InfiniDB reached end of life. 
+* Teradata 13, 13.1. 
+* Netezza 6.02, 7.0. Netezza reached end of life.
+* AsterData 5.0. AsterData reached end of life.
+* Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0.
+* Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic still supports the listed versions of Hadoop via HiveSQL through Federated Data Access (FDA), but these versions are merged with: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) and HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
 
 **RDBMS SERVER**
 

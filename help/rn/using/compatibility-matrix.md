@@ -362,7 +362,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 
 Microsoft Edge WebView2 runtime latest version is mandatory for Campaign client console. 
 
-Download Microsoft Edge WebView2 from [Microsoft Developer site](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
+Download Microsoft Edge WebView2 from [Microsoft Developer site](https://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
 
 ## Mobile SDK{#MobileSDK}
