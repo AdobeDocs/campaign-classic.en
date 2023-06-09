@@ -100,6 +100,7 @@ To speed up the delivery preparation, you can check the **[!UICONTROL Prepare th
 When this option is enabled, the delivery preparation is performed directly within the database, which can significantly accelerate the analysis.
 
 Currently, this option is only available when the following conditions are met:
+
 * The delivery must be an email. The other channels are not supported for now.
 * You must not use mid-sourcing or external routing, only bulk delivery routing type. You can check the routing that is used in the **[!UICONTROL General]** tab of the **[!UICONTROL Delivery properties]**.
 * You cannot target a population coming from an external file. For a single delivery, click the **[!UICONTROL To]** link from the **[!UICONTROL Email parameters]** and check that the **[!UICONTROL Defined in the database]** option is selected. For a delivery used in a workflow, check that the recipients are **[!UICONTROL Specified by the inbound event(s)]** in the **[!UICONTROL Delivery]** tab.

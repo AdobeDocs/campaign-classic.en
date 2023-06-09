@@ -10,8 +10,6 @@ exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 ---
 # List of Campaign Classic options{#configuring-campaign-options}
 
-
-
 The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options. Some of them are built-in when installing Campaign, and others can be added manually when needed. Available options vary according to the packages installed with your instance.
 
 
@@ -140,11 +138,11 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddr</span> <br /> </td> 
-   <td> Default 'reply' email address at instance's level used for email delivery if left empty by user.<br /> </td> 
+   <td> Default 'reply-to' email address at instance's level used for email delivery if left empty by user.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> Common name of the customer. Used in some warning messages displayed to the recipients.<br /> "You are receiving this message because you have been in contact with ***** or an affiliated company. To no longer receive messages from *****".<br /> </td> 
+   <td> Common name of the customer. Used in some warning messages displayed to the recipients.<br /> "You are receiving this message because you have been in contact with `Organization` or an affiliated company. To no longer receive messages from `Organization`<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -152,7 +150,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
-   <td> Default 'reply' email label at instance's level used for email delivery if left empty by user.<br /> </td> 
+   <td> Default 'reply-to' email label at instance's level used for email delivery if left empty by user.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryCount</span> <br /> </td> 

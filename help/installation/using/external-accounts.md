@@ -107,7 +107,7 @@ The **[!UICONTROL Routing]** external account allows you to configure each chann
 
 The following channels can be configured:
 
-* [Email](../../installation/using/deploying-an-instance.md#email-channel-parameters)
+* [Email](#email-routing-external-account)
 * [Mobile (SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
 * [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Direct mail](../../delivery/using/about-direct-mail-channel.md)
@@ -116,9 +116,23 @@ The following channels can be configured:
 * [iOS channel](../../delivery/using/configuring-the-mobile-application.md)
 * [Android channel](../../delivery/using/configuring-the-mobile-application-android.md)
 
+### Email routing {#email-routing-external-account}
+
+The email routing external account is provided by default, adapted to your configuration. 
+
+As an on-premise customer, you can create new routing external accounts, or update parameters, as described below. This configuration is reserved to expert users and can impact your deliverability. For any question, contact Adobe customer care or your Adobe representative.
+
+*  You must can use a **Mid-sourcing**, **External** routing, or **Bulk** delivery routing type.
+
+* For **Bulk** and **Mid-sourcing** delivery modes, you can specify your branding parameters in the **Branding** tab. These parameters are used to override the [default parameters](../../installation/using/deploying-an-instance.md#email-channel-parameters) for **Mirror page URL** and **Error address** with settings specific to your brand.
+
+  ![](assets/ext-account-branding.png)
+
+* To configure a Mid-sourcing external account, refer to [this section](mid-sourcing-server.md)
+
 ### Execution instance  {#execution-instance-external-account}
 
-If you have a broken-down architecture, you need to specify the execution instances linked to the control instance and connect them. Transactional message templates are deployed to the execution instance
+If you have a broken-down architecture, you need to specify the execution instances linked to the control instance and connect them. Transactional message templates are deployed to the execution instance.
 
 ![](assets/ext_account_13.png)
 

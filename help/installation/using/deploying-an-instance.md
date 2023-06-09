@@ -11,15 +11,13 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 ---
 # Deploying an instance{#deploying-an-instance}
 
-
-
 >[!NOTE]
 >
 >Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
 
 ## Deployment wizard {#deployment-wizard}
 
-A graphical wizard, available in the Adobe Campaign client console, enables you to define the parameters of the instance to which you are going to connect.
+Adobe Campaign provides a graphical assistant, available in the Adobe Campaign client console, to define the parameters of the instance to which you are going to connect.
 
 To start the deployment wizard, select **Tools > Advanced > Deployment wizard**.
 
@@ -74,13 +72,36 @@ These parameters can be overloaded in delivery templates, and individually for e
 
 Indicate the following parameters:
 
-* **[!UICONTROL Sender name]** : Name of the sender
-* **[!UICONTROL Sender address]** : Address of the sender
-* **[!UICONTROL Reply address text]** : The name, which is customizable, that will be used when the recipient clicks the **[!UICONTROL Reply]** button in their email client software
-* **[!UICONTROL Reply address]** : The email address to use when the recipient clicks the **[!UICONTROL Reply]** button in their email client software
-* **[!UICONTROL Error address]** : Email address of messages with errors. This is the technical address used to handle bounce mail, including emails received by the Adobe Campaign server due to non-existent target addresses.
+* **[!UICONTROL Sender name]** : Enter the name of the sender.
+* **[!UICONTROL Sender address]** : Enter the email address of the sender.
+
+  >[!NOTE]
+  >
+  > When sending emails from Adobe Campaign, the **Sender Address** mailbox is not monitored and marketing users cannot access this mailbox. Adobe Campaign also does not offer the ability to Auto-Reply or Auto-Forward emails received in this mailbox.
+  
+* **[!UICONTROL Reply address text]** : Enter the name used when the recipient clicks the **[!UICONTROL Reply]** button.
+* **[!UICONTROL Reply address]** : Enter the email address to use when the recipient clicks the **[!UICONTROL Reply]** button in their email client software. 
+
+  >[!NOTE]
+  >
+  >The purpose of the **Reply Address** field is when you want the recipient to reply to a different address than the **Sender Address**.  This address must be a valid email address, and linked to a monitored mailbox.  This mailbox must be hosted by the customer.  It could be a support mailbox, for example, customer-care@customer.com, where emails are read and responded to.
+
+* **[!UICONTROL Error address]** : Enter the email address of messages with errors. This is the technical address used to handle bounce mail, including emails received by the Adobe Campaign server due to non-existent target addresses.
+
+  >[!NOTE]
+  >
+  > This address must be a valid email address, and linked to a monitored mailbox. This mailbox must be hosted by the customer. It could be a bounce mailbox, for example, errors@customer.com.
+
 
 In addition to this, you can specify the **masks** authorized for the sender address and the error address. If necessary, these masks can be separated using commas. This configuration is optional. When fields are entered, Adobe Campaign checks at the time of delivery (during analysis, if the address does not include any variables) that the addresses are valid. This operating mode ensure that no addresses are used that could trigger delivery issues. Delivery addresses must be configured on the delivery server.
+
+>[!NOTE]
+>
+>* These settings are saved in the Campaign platform options. [Learn more](../../installation/using/configuring-campaign-options.md).
+> 
+>* For multi-branding configurations, you can adapt the Error address and override this configuration from the Email routing external account. [Learn more](../../installation/using/external-accounts.md#email-routing-external-account).
+>
+
 
 ### Characters authorized in addresses {#characters-authorized-in-addresses}
 
@@ -330,6 +351,13 @@ Use this page to populate the server URLs to:
    A mirror page is a dynamic page that displays the contents of the email. It is accessed via a link inserted into the message sent to the recipient and can contain personalized elements. The mirror page gives the recipient the possibility of reading the message in an internet browser instead of the email software, regardless of the delivery format (text or HTML). However, mirror pages are only generated for a given delivery if the required HTML content has been defined.
 
 Adobe Campaign lets you differentiate these three URLs to spread the load over multiple platforms.
+
+
+>[!NOTE]
+>
+>* These settings are saved in the Campaign platform options. [Learn more](../../installation/using/configuring-campaign-options.md).
+>* For multi-branding configurations, you can adapt the Mirror page URL and override this configuration from the Email routing external account. [Learn more](../../installation/using/configuring-campaign-options.md).
+
 
 ## Managing public resources {#managing-public-resources}
 

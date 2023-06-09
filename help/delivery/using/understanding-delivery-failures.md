@@ -288,7 +288,7 @@ The default rules are as follows.
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
   
-When an email fails, the remote server returns a bounce message to the address specified in the platform parameters. Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three [error types](#delivery-failure-types-and-reasons).
+When an email fails, the remote server returns a bounce message to the address specified in the [platform parameters](../../installation/using/deploying-an-instance.md). Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three [error types](#delivery-failure-types-and-reasons).
 
 >[!NOTE]
 >

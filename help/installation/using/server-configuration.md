@@ -10,8 +10,6 @@ exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 ---
 # Server security settings {#server-configuration}
 
-
-
 ## File upload protection
 
 Check with operational users what kind of files they upload to the server using Campaign Client Console or web interface. As a reminder, business needs can be:
