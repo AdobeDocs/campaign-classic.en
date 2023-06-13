@@ -10,7 +10,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
-* **[November Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements, and fixes in the Release Notes
+* **[March Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements, and fixes in the Release Notes
 
 * **[2022 Release Program](technotes/using/dc-migration.md)**<br/> Upgrade your environment and improve security, infrastructure, and performances
 

@@ -9,7 +9,6 @@ exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 ---
 # Use case: select seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}
 
- 
 
 In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic condition...]** link lets you choose seed addresses based on specific selection criteria.
 
