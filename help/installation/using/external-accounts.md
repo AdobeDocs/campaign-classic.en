@@ -120,9 +120,9 @@ The following channels can be configured:
 
 The email routing external account is provided by default, adapted to your configuration. 
 
-As an on-premise customer, you can create new routing external accounts, or update parameters, as described below. This configuration is reserved to expert users and can impact your deliverability. For any question, contact Adobe customer care or your Adobe representative.
+As an on-premise/hybrid customer, you can create new routing external accounts, or update parameters, as described below. This configuration is reserved to expert users and can impact your deliverability. For any question, contact Adobe customer care or your Adobe representative.
 
-*  You must can use a **Mid-sourcing**, **External** routing, or **Bulk** delivery routing type.
+*  You can use a **Mid-sourcing**, **External** routing, or **Bulk** delivery routing type.
 
 * For **Bulk** and **Mid-sourcing** delivery modes, you can specify your branding parameters in the **Branding** tab. These parameters are used to override the [default parameters](../../installation/using/deploying-an-instance.md#email-channel-parameters) for **Mirror page URL** and **Error address** with settings specific to your brand.
 

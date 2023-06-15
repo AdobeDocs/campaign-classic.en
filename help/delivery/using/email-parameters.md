@@ -111,7 +111,7 @@ To do this, select the **[!UICONTROL Force the encoding used for messages]** opt
 
 The **[!UICONTROL SMTP]** tab of the delivery parameters lets you configure the management of bounce mails.
 
-By default, bounced emails are received in the default error box of the platform, but you can define a specific error address for a delivery.
+By default, bounced emails are received in the [default error box of the platform](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails), but you can define a specific error address for a delivery.
 
 You can also define a specific address from this screen in order to investigate the reasons for bounce mails when these could not be automatically qualified by the application. For each of these fields, the **Add personalized fields** icon lets you add personalization parameters.
 
