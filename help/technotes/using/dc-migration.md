@@ -71,8 +71,6 @@ This program has three main goals:
 
 ## About the migration
 
-The migration to Adobe Managed Services (Public Cloud) will happen in 2020/2021 for affected accounts. Adobe will lead and guide your organization through this journey.
-
 To get this effort started, accounts requiring this migration will receive an email communication from Adobe providing a timeline and access to documentation. This will be your notification that your account is scheduled to be migrated.
 
 A migration can be initiated by [opening a new Customer Care support ticket](https://experienceleague.adobe.com/?support-solution=Campaign#support). Use the subject line “Migrate to AWS”.

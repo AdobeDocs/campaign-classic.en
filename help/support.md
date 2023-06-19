@@ -134,8 +134,7 @@ Join Campaign Classic Community: search for answers in existing question or ask 
 
 ### Access Campaign Download Center
 
-As of June 2020, the Experience Cloud solution Software Distribution replaces the legacy Neolane Download Center and provides a more efficient experience to find and download your software, packages and tools. [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
-Learn more about the new Download Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){_blank}.
+As a Campaign Administrator, browse to [this page](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
 
 ### Create a ticket or start a chat
 
