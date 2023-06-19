@@ -143,7 +143,7 @@ HTML format email deliveries can contain images. From the delivery wizard, you c
 
 ### Guardrails {#img-guardrails}
 
-To avoid performance issue, images included in emails must not exceed 100 MB by default. This limit can be configured from the `NmsDelivery_MaxDownloadedImageSize` option.
+To avoid performance issues, images included in emails cannot exceed 100 MB. This limit, set by default, can be changed from the `NmsDelivery_MaxDownloadedImageSize` option. However, Adobe strongly recommends to avoid large images in your email deliveries.
 
 Learn more in [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).  
 
