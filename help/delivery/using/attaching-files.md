@@ -9,8 +9,6 @@ exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 ---
 # Attach files to an email{#attaching-files}
 
- 
-
 ## About email attachments {#about-email-attachments}
 
 You can attach one or more files to an email delivery.
@@ -27,6 +25,14 @@ There are two possible cases:
 >[!NOTE]
 >
 >This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](about-templates.md).
+
+## Guardrails {#attachments-guardrails}
+
+To avoid performance issue, images included in emails must not exceed 100 MB by default. This limit can be configured from the `NmsDelivery_MaxDownloadedImageSize` option.
+
+Adobe also recommends to limit the size and number of attached files. By default, you can only add one file as an attachment to an email. This threshold can be configured from the `NmsDelivery_MaxRecommendedAttachments` option. 
+
+Learn more in [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery). 
 
 ## Attach a local file {#attaching-a-local-file}
 
@@ -107,9 +113,7 @@ For this type of attachment, apply the following configuration steps:
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
->[!NOTE]
->
->To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+
 
 ### Attach a calculated file {#attach-a-calculated-file}
 

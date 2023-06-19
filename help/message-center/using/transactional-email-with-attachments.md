@@ -32,11 +32,13 @@ In this scenario, the attachments are not pre-created, but added on the fly to t
 * If the attachment is associated with a transaction (as in the example scenario described above), it may contain dynamic data that is generated during the customer process.
 * Attaching PDF files optimizes security as you can encrypt them and send them over HTTPS.
 
->[!NOTE]
->
->To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+## Recommendations and guardrails {#important-notes}
 
-## Recommendations {#important-notes}
+To avoid performance issue, images included in emails must not exceed 100 MB by default. This limit can be configured from the `NmsDelivery_MaxDownloadedImageSize` option.
+
+Adobe also recommends to limit the size and number of attached files. By default, you can only add one file as an attachment to an email. This threshold can be configured from the `NmsDelivery_MaxRecommendedAttachments` option. 
+
+Learn more in [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery). 
 
 Before implementing this scenario, read carefully the guidelines below:
 

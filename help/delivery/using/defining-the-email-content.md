@@ -9,8 +9,6 @@ exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 ---
 # Define the email content {#defining-the-email-content}
 
- 
-
 ## Sender {#sender}
 
 To define the name and address of the sender which will appear in the header of messages sent, click the **[!UICONTROL From]** link.
@@ -23,14 +21,14 @@ To find out how to insert and use personalization fields, refer to [About person
 
 >[!NOTE]
 >
->* The sender's address will be used for replies by default.
->* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to the [Installation Guide](../../installation/using/deploying-an-instance.md).
+>* The sender's address is used for replies by default.
+>* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. Learn more in [this section](../../installation/using/deploying-an-instance.md).
 >* The sender's address is mandatory to allow an email to be sent (RFC standard).
 >* Adobe Campaign checks the syntax of email addresses entered.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->In the context of the checks implemented by Internet Access Providers (ISPs) to combat unsolicited email (spam), Adobe recommends creating email accounts that correspond to the addresses specified for deliveries and replies. Check with your messaging system administrator.
+>To avoid deliverability issues, the email accounts that correspond to the addresses specified for deliveries and replies must exist and must be monitored. Check with your system administrator.
 
 ## Message subject {#message-subject}
 
@@ -111,7 +109,7 @@ Adobe Campaign enables you to try the new interactive [AMP for Email](https://am
 
 For more on this, see [this section](defining-interactive-content.md).
 
-## Using content management {#using-content-management}
+## Use content management {#using-content-management}
 
 You can define the content of the delivery using the content management forms, directly in the delivery wizard. To do this, you must reference the publication template of the content management to be used, in the **[!UICONTROL Advanced]** tab of the delivery properties.
 
@@ -125,7 +123,7 @@ An additional tab lets you enter content that will automatically be integrated a
 >
 >For further information about content management in Adobe Campaign, refer to [this section](about-content-management.md).
 
-## Inserting emoticons {#inserting-emoticons}
+## Insert emoticons {#inserting-emoticons}
 
 You can insert emoticons to your email content.
 
@@ -138,9 +136,18 @@ You can insert emoticons to your email content.
 
 To customize the emoticon list, refer to this [page](customizing-emoticon-list.md).
 
-## Adding images {#adding-images}
+## Add images {#adding-images}
 
 HTML format email deliveries can contain images. From the delivery wizard, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon.
+
+
+### Guardrails {#img-guardrails}
+
+To avoid performance issue, images included in emails must not exceed 100 MB by default. This limit can be configured from the `NmsDelivery_MaxDownloadedImageSize` option.
+
+Learn more in [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).  
+
+### Types of images {#img-types}
 
 Images can be:
 
@@ -151,9 +158,7 @@ Images can be:
 
 * An asset shared with Adobe Experience Cloud. Refer to [this section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
->[!IMPORTANT]
->
->To include images in the email messages using the delivery wizard, the Adobe Campaign instance must be configured to enable public resource management. This procedure can be performed from the deployment wizard. Refer to the [this section](../../installation/using/deploying-an-instance.md) for further information on configuration.
+### Insert and manage images {#manage-images}
 
 The delivery wizard lets you add local images, or images stored in the library, to the content of messages. To do this, click the **[!UICONTROL Image]** button in the HTML content toolbar.
 
@@ -181,13 +186,12 @@ When you open HTML content with included images in the delivery wizard, a messag
 
 >[!IMPORTANT]
 >
->* The image access paths are modified during manual uploading or when sending messages.
+> The image URLs are modified during manual uploading or when sending messages.
 > 
->* To avoid performance issues, if you include images downloaded on the fly from a personalized URL as [attachment](attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
-**Use case: send a message with images**
+### Use case: send a message with images {#uc-images}
 
-Here is a sample of a delivery with four images:
+Below is a sample of a delivery with four images:
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 
