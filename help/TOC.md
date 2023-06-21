@@ -18,9 +18,7 @@ type: Documentation
   + Previous releases {#previous-releases}
     + [[!DNL Gold Standard]](rn/using/gold-standard.md)
     + [2021](rn/using/release--2021.md)
-    + [2020](rn/using/release--2020.md)
-    + [2019](rn/using/release--2019.md)
-    + [2018](rn/using/release--2018.md)
+    + [2022](rn/using/release--2022.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
 + Get started {#getting-started}
