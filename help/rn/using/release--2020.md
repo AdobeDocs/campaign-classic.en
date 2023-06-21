@@ -7,6 +7,7 @@ feature: Overview
 role: User
 level: Beginner
 hidefromtoc: yes
+hide: yes
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
 ---
 # 2020 releases{#release-2020}

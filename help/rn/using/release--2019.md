@@ -4,6 +4,7 @@ title: Campaign Classic 2019 releases
 description: Learn more about Campaign Classic 2019 releases
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: yes
+hide: yes
 exl-id: 8a36a542-e095-4208-b624-e59845592863
 ---
 # 2019 releases{#release-2019}
