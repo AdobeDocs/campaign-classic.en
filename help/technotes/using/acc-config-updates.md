@@ -34,10 +34,10 @@ If your environment is on a lower build than the ones listed below, you are impa
 
 * Gold Standard 11. [Learn more](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../../rn/using/latest-release.md)
-* Campaign 20.2.5 release. [Learn more](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Campaign 20.1.4 release. [Learn more](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Campaign 19.2.4 release. [Learn more](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Campaign 19.1.8 release. [Learn more](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Campaign 20.2.5 release. 
+* Campaign 20.1.4 release. 
+* Campaign 19.2.4 release. 
+* Campaign 19.1.8 release. 
 
 Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -61,9 +61,9 @@ You need to upgrade to one of the newer builds listed above.
 The **now available** console versions below should be installed to resolve a recently identified regression. This regression prevented the use of some components of the Client Console, such as the date picker and images management in deliveries. **Console upgrade** is mandatory. 
 
 * Latest Gold Standard 11 build 9032&#64;10c2709. [Learn more](../../rn/using/gold-standard.md)
-* Campaign 20.1.4 release. [Learn more](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Campaign 19.2.4 release. [Learn more](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Campaign 19.1.8 release. [Learn more](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Campaign 20.1.4 release. 
+* Campaign 19.2.4 release. 
+* Campaign 19.1.8 release. 
 
 ## Adobe Identity Management System (IMS) update
 
@@ -77,10 +77,10 @@ If you are connecting to Campaign [via an Adobe ID](../../integrations/using/abo
 
 * Gold Standard 11. [Learn more](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../../rn/using/latest-release.md)
-* Campaign 20.2.5 release. [Learn more](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Campaign 20.1.4 release. [Learn more](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Campaign 19.2.4 release. [Learn more](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Campaign 19.1.8 release. [Learn more](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Campaign 20.2.5 release.
+* Campaign 20.1.4 release. 
+* Campaign 19.2.4 release. 
+* Campaign 19.1.8 release. 
 
 These releases come with a new connection protocol: upgrade is mandatory for both Campaign server and Client Console to be able to connect to Campaign after **June 30, 2021**.
 
@@ -110,8 +110,8 @@ Upgrade to one of the new versions listed below is mandatory:
 
 * Gold Standard 11. [Learn more](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../../rn/using/latest-release.md)
-* Campaign 20.2.5 release. [Learn more](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Campaign 19.1.8 release. [Learn more](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Campaign 20.2.5 release.
+* Campaign 19.1.8 release. 
 
 Learn how to check your version [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 

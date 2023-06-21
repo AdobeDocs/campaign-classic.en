@@ -284,7 +284,7 @@ External account configuration has moved to [this section](../../installation/us
 
 Campaign Federated Data Access (FDA) documentation has been improved with details for each external database configuration, and moved to [this section](../../installation/using/about-fda.md).
 
-[Campaign 20.2.3 release](../../rn/using/release--2020.md#release-20-2-3-build-9182) has moved to General Availability (GA).
+Campaign 20.2.3 release has moved to General Availability (GA).
 
 The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
 
