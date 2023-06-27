@@ -10,8 +10,6 @@ exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 ---
 # Install & Update the Campaign client console{#installing-the-client-console}
 
-
-   
 Campaign Client Console is a rich client which enables you to connect to your Campaign application server(s).
 
 Before starting to install the Client Console, you need to:
@@ -29,6 +27,10 @@ Please review the details below to understand what is required for your implemen
 >[!CAUTION]
 >
 >Campaign Client console and Campaign application server must run **on the same product version**. Adobe also highly recommends to use the **same product build**. Learn how to check your Campaign Client and Server versions in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>
+>Access to the installation folder in which the console is installed should be limited to the intended user only, ensuring that write permissions are restricted accordingly.
+
+
 
 ## Microsoft Edge Webview2 runtime installation {#webview}
 
