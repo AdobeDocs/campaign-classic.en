@@ -15,7 +15,9 @@ exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
 >Use the **[!UICONTROL Help > About...]** menu to check your Adobe Campaign [version and build number](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). However note that for all the builds between 9277 and 9343 listed in this page, the version number shows 7.0 instead of 7.1.
 > 
 
-### ![](assets/do-not-localize/limited_2.png) Release 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
+### Release 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _October 8, 2021_
 
@@ -27,7 +29,9 @@ _October 8, 2021_
 
 * Fixed an error 'The ipaffinity xxx is not found on mid server xxx' which could happen on delivery sending when using more than one IP affinity on a multi mid-sourcing instance. (NEO-37514)
 
-### ![](assets/do-not-localize/limited_2.png) Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
+### Release 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _September 7, 2021_
 
@@ -61,7 +65,9 @@ _September 7, 2021_
 * Fixed an issue which prevented you from using variables in an **Enrichment** workflow activity when the incoming transition was from an FDA data source.
 * Fixed an issue that could lead to broken URLs in email messages.
 
-### ![](assets/do-not-localize/limited_2.png) Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+### Release 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _June 5, 2021_
 
@@ -217,14 +223,18 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Fixed an issue which prevented you from sending a delivery with a group of proofs due to a specific joining mechanism that failed the delivery personalization. (NEO-14391)
 * Fixed an issue which failed to send an alert with the alert activity if a query and an enrichment activity targeted the delivery table. (NEO-25157)
 
-### ![](assets/do-not-localize/red_2.png) Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+### Release 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _April 15, 2021_
 
 * Password management has been improved to optimize security.
 * Fixed an issue that could cause MTA crashes.
 
-### ![](assets/do-not-localize/red_2.png) Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
+### Release 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _February 22, 2021_
 

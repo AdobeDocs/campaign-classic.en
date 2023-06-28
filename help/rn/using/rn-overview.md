@@ -18,6 +18,16 @@ Adobe Campaign Classic periodically releases product updates which bring new cap
 
 Every new build comes with a status which is identified by a color in the [Release notes](latest-release.md). 
 
+
+|Status|Description|
+|---|---|
+|[!BADGE General Availability]{type=Positive}|Latest stable build, validated in production, and recommended by Adobe.|
+|[!BADGE Limited Availability]{type=Neutral}|On-demand deployment only.|
+|[!BADGE Release Candidate]{type=Informative}|Latest build with new capabilities.|
+|[!BADGE No longer available]{type=Caution}|No deployment. No bug fix. Update to a newer build is recommended.|
+|[!BADGE Deprecated]{type=negative}|No deployment. No bug fix. Existing implementations must be upgraded.|
+
+<!--
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
@@ -27,6 +37,7 @@ Every new build comes with a status which is identified by a color in the [Relea
 ![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
 
 ![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
+-->
 
 ## Release cycle{#rn-cycle}
 

@@ -10,11 +10,11 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 ---
 # Latest release{#latest-release}
 
-
-
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-## ![](assets/do-not-localize/green_2.png) Release 7.3.3 - Build 9359 {#release-7-3-3}
+## Release 7.3.3 - Build 9359 {#release-7-3-3}
+
+[!BADGE General Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
 >[!CAUTION]
 >
@@ -40,7 +40,9 @@ _March 20, 2023_
 * Fixed an issue which could prevent you from scrolling in the **Edit** tab of the Digital Content Editor (DCE). (NEO-54474)
 * Fixed an issue, when two enrichment activities were using the same name identifier in their linking, which led the second enrichment activity to use the links of the first one. (NEO-48851)
 
-## ![](assets/do-not-localize/orange_2.png) Release 7.3.2 - Build 9356 {#release-7-3-2}
+## Release 7.3.2 - Build 9356 {#release-7-3-2}
+
+[!BADGE Limited Availability]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
 
 _November 21, 2022_
 

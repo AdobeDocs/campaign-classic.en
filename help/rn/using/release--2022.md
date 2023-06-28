@@ -8,7 +8,9 @@ level: Beginner
 ---
 # 2022 releases{#release-2022}
 
-## ![](assets/do-not-localize/orange_2.png) Release 7.3.1 - Build 9352 {#release-7-3-1}
+## Release 7.3.1 - Build 9352 {#release-7-3-1}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _July 1, 2022_
 
@@ -76,7 +78,9 @@ Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix
 * Fixed an issue that could prevent an image from being uploaded in chunk mode from an external server during message preparation. (NEO-40307)
 * Fixed an issue which could lead the delivery to be sent to a larger number of recipients than expected. (NEO-45108)
 
-## ![](assets/do-not-localize/green_2.png) Release 7.2.2 - Build 9349 {#release-7-2-2}
+## Release 7.2.2 - Build 9349 {#release-7-2-2}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _March 1, 2022_
 
@@ -98,7 +102,9 @@ _March 1, 2022_
 * Fixed an issue which led to an error when refreshing the deliverability workflow when having more than 1000 broadlogs at the same time. (NEO-40276)
 * Fixed an issue which prevented the open ratio and click ratio delivery indicators from being updated automatically. (NEO-43253)
 
-## ![](assets/do-not-localize/limited_2.png) Release 7.2.1 - Build 9346 {#release-7-2-1}
+## Release 7.2.1 - Build 9346 {#release-7-2-1}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _January 10, 2022_
 

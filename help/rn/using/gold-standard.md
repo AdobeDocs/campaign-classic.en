@@ -17,7 +17,9 @@ You can find in this page release notes and compatibility matrix for [!DNL Gold 
 ## [!DNL Gold Standard] Release Notes
 
 
-### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 release{#gs-12}
+### [!DNL Gold Standard] 12 release{#gs-12}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _September 7, 2021_
 
@@ -32,7 +34,9 @@ The build 9032&#64;99a3894 includes the following fixes:
 * The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded.
 * Fixed an issue with date pickers which could result in a console displaying blocker error message. (NEO-36345)
 
-### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 11 release{#gs-11}
+### [!DNL Gold Standard] 11 release{#gs-11}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _April 14, 2021_
 
@@ -77,7 +81,9 @@ The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 * Fixed an issue that could cause workflows to fail when running an **Enrichment** activity. (NEO-17338)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 release{#gs-10}
+### [!DNL Gold Standard] 10 release{#gs-10}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _July 7, 2020_
 
@@ -89,7 +95,9 @@ Fixed an issue which prevented tracking from working when the signature feature 
 >
 >We recommend that you upgrade the client console with the one available in this release. Refer to [this page](../../installation/using/installing-the-client-console.md)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9 release{#gs-9}
+### [!DNL Gold Standard] 9 release{#gs-9}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _22 June 2020_
 
@@ -105,7 +113,9 @@ The following fixes are related to the tracking link security mechanism (learn m
 * Fixed an issue with the anti-phishing service. (NEO-25283)
 * Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8 release{#gs-8}
+### [!DNL Gold Standard] 8 release{#gs-8}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _April 29, 2020_
 
@@ -130,7 +140,9 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6 release{#gs-6}
+### [!DNL Gold Standard] 6 release{#gs-6}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _March 9, 2020_
 
@@ -138,7 +150,9 @@ The build 9032&#64;19f73c5 includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5 release{#gs-5}
+### [!DNL Gold Standard] 5 release{#gs-5}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _December 17, 2019_
 
@@ -146,7 +160,9 @@ The build 9032&#64;d6b8062 includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4 release{#gs-4}
+### [!DNL Gold Standard] 4 release{#gs-4}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _December 11, 2019_
 
@@ -154,7 +170,9 @@ The build 9032&#64;bc4a935 includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3 release{#gs-3}
+### [!DNL Gold Standard] 3 release{#gs-3}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _November 20, 2019_
 
@@ -164,7 +182,9 @@ The build 9032&#64;3468c7b includes the following fixes:
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
 * Fixed an issue that could block or make the web server crash.
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2 release{#gs-2}
+### [!DNL Gold Standard] 2 release{#gs-2}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _September 19, 2019_
 
@@ -173,7 +193,9 @@ The build 9032&#64;cee805c includes the following fixes:
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
-### ![](assets/do-not-localize/red_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
+### Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _August 13, 2019_
 
