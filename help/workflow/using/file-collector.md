@@ -46,13 +46,13 @@ The first tab of the **[!UICONTROL File collector]** activity lets you select th
 
    The following two options are available:
 
-    * **[!UICONTROL Process file nonexistence]**
+    * **[!UICONTROL Process missing file]**
 
       This option initiates a special transition each time no file matching the filter is found in the specified directory.
 
       If the task is not scheduled, this transition will be activated once only. 
     
-    * **[!UICONTROL Processing errors]**
+    * **[!UICONTROL Process errors]**
 
       This option makes a special transition appear, to be activated if an error is generated. In this case, the workflow does not change to error status, and continues execution
 
