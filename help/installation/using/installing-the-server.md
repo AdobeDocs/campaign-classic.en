@@ -82,8 +82,6 @@ Once the installation test is complete, open a command prompt via the **[!UICONT
 nlserver web
 ```
 
-![](assets/s_ncs_install_cmd_nlserverweb.png)
-
 The files in the installation directory are used to configure the Adobe Campaign server modules.
 
 The following information is displayed:
