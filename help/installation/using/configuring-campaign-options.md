@@ -66,11 +66,11 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_LogsPerTransac</span> <br /> </td> 
-   <td> Number of BroadLogs that are created for a delivery at once.<br /> </td> 
+   <td> Minimal batch size (number of rows) for the insertion of broadLogs during a delivery preparation.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> Insertion (into table) of logs (broadLogs) per transactions : number of rows to process per batch.<br /> </td> 
+   <td> Batch duration threshold (number of milliseconds) under which the batch size for the insertion of broadLogs is doubled during a delivery preparation.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
