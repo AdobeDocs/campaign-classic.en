@@ -56,8 +56,6 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
    >
    >Scheduled deliveries are only taken into account if the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option is selected. For more on this, refer to [Setting the period](#setting-the-period).
    >
-   >This option is not available in Campaign v8.
-   >
 
 1. Define the method for calculating the highest number of messages.
 
@@ -153,10 +151,6 @@ To restrict the deliveries taken into account to a 2-week period, you can either
   or
 
 1. Enter **7d** in the **[!UICONTROL Period considered]** field AND check the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option: deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
-
-   >[!AVAILABILITY]
-   >This method is not available in Campaign v8.
-   >
  
 The period start date depends on how the database is configured.
 
@@ -330,10 +324,6 @@ First, configure the pressure rule.
    ![](assets/campaign_opt_pressure_example_1.png)
 
    Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Set the period](#setting-the-period).
-
-   >[!AVAILABILITY]
-   >Scheduled deliveries cannot be taken into account in Campaign v8.
-   >
 
 1. In the **[!UICONTROL Typologies]** tab, link the rule to a campaign typology.
 1. Save your changes.
