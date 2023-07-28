@@ -28,7 +28,7 @@ There are two possible cases:
 
 ## Guardrails {#attachments-guardrails}
 
-To avoid performance issues, images included in emails cannot exceed 100 MB. This limit, set by default, can be changed from the `NmsDelivery_MaxDownloadedImageSize` option. However, Adobe strongly recommends to avoid large images in your email deliveries.
+To avoid performance issues, images included in emails cannot exceed 100 KB. This limit, set by default, can be changed from the `NmsDelivery_MaxDownloadedImageSize` option. However, Adobe strongly recommends to avoid large images in your email deliveries.
 
 Adobe also recommends to limit the size and number of attached files. By default, you can only add one file as an attachment to an email. This threshold can be configured from the `NmsDelivery_MaxRecommendedAttachments` option. 
 

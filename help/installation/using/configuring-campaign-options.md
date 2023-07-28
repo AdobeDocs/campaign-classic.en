@@ -106,7 +106,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> Lets you define the maximum size (in bytes) allowed for an image downloaded from a personalized URL and attached to an email. The default value is 100,000 bytes. When sending a proof and downloading the image(s) to process the email, if the size of an image exceeds this value or if there is a downloading issue, an error will be displayed in the Delivery logs and the proof delivery will fail.<br /> </td> 
+   <td> Lets you define the maximum size (in bytes) allowed for an image downloaded from a personalized URL and attached to an email. The default value is 100,000 bytes (100 KB). When sending a proof and downloading the image(s) to process the email, if the size of an image exceeds this value or if there is a downloading issue, an error will be displayed in the Delivery logs and the proof delivery will fail.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
@@ -202,7 +202,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to “7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
+   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to "7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -407,7 +407,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Install compatibility mode: build&gt;6000) When activated (value “1”), this option allows the use of old passwords stored in the database for the connection to external accounts or to the instance.<br /> </td> 
+   <td> (Install compatibility mode: build&gt;6000) When activated (value "1"), this option allows the use of old passwords stored in the database for the connection to external accounts or to the instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
