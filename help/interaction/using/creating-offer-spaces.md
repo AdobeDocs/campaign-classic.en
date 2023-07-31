@@ -2,6 +2,7 @@
 product: campaign
 title: Creating offer spaces
 description: Creating offer spaces
+feature: Interaction, Offers
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference

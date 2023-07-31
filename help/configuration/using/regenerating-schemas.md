@@ -2,6 +2,7 @@
 product: campaign
 title: Regenerate schemas
 description: Learn how to regenerate Campaign schemas
+feature: Custom Resources
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
 ---

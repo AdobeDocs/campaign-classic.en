@@ -2,6 +2,7 @@
 product: campaign
 title: Technote - Adobe Campaign configuration updates
 description: Adobe Campaign configuration updates
+feature: Technote, Upgrade
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: yes
 hidefromtoc: yes

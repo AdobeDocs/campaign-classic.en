@@ -2,7 +2,7 @@
 product: campaign
 title: Campaign Classic 2021 releases
 description: Learn more about Campaign Classic 2021 releases
-feature: Overview
+feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d

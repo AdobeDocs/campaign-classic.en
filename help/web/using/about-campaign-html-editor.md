@@ -2,9 +2,9 @@
 product: campaign
 title: Get started with Campaign HTML editor
 description: Get started with Campaign DCE
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 ---
 # Get started with Campaign HTML editor{#about-campaign-html-editor}

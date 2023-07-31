@@ -2,6 +2,7 @@
 product: campaign
 title: Updating the database structure
 description: Updating the database structure
+feature: Configuration
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas

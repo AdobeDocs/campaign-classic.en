@@ -2,6 +2,7 @@
 product: campaign
 title: Additional configurations
 description: Learn how to set up additional configurations for Transactional messaging in Adobe Campaign Classic
+feature: Transactional Messaging, Message Center
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference

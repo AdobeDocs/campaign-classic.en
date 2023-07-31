@@ -3,7 +3,7 @@ product: campaign
 title: Filtering rules
 description: Learn how to use filtering rules
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Typology Rules
+feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 ---
 # Filtering rules{#filtering-rules}

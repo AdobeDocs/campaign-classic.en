@@ -3,7 +3,7 @@ product: campaign
 title: Consistency rules
 description: Consistency rules
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Typology Rules
+feature: Typology Rules, Campaigns
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 ---
 # Consistency rules{#consistency-rules}

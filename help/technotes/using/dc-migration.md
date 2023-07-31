@@ -3,7 +3,7 @@ product: campaign
 title: Migration to Public Cloud
 description: Learn more about Campaign Classic Migration to Public Cloud
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e

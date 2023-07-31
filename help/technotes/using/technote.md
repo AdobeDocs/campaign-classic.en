@@ -2,6 +2,7 @@
 product: campaign
 title: Technote
 description: Technote
+feature: Technote
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: yes
 hidefromtoc: yes

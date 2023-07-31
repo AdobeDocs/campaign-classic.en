@@ -2,6 +2,7 @@
 product: campaign
 title: About Configuration Guide
 description: About Configuration Guide
+feature: Configuration
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference

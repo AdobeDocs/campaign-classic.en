@@ -2,6 +2,7 @@
 product: campaign
 title: Permissions for accessing an external database
 description: External database access permissions
+feature: Installation, Instance Settings, Federated Data Access
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference

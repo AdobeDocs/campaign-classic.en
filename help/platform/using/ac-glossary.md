@@ -2,6 +2,7 @@
 product: campaign
 title: Glossary for Adobe Campaign
 description: Glossary for Adobe Campaign
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a

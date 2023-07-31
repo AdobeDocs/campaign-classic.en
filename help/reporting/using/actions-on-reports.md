@@ -2,9 +2,9 @@
 product: campaign
 title: Actions on reports
 description: Actions on reports
+feature: Reporting, Monitoring
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 ---
 # Actions on reports{#actions-on-reports}

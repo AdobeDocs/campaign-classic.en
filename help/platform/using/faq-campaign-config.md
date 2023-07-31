@@ -2,6 +2,7 @@
 product: campaign
 title: Campaign Settings FAQ
 description: Campaign Classic FAQ
+feature: Troubleshooting, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference

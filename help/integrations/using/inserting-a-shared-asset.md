@@ -2,6 +2,7 @@
 product: campaign
 title: Inserting a shared asset
 description: Inserting a shared asset
+feature: Asset Sharing
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing

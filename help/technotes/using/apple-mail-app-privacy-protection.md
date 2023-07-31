@@ -1,6 +1,7 @@
 ---
 product: campaign
 title: Mail Privacy Protection in Apple's Mail app
+feature: Technote, Privacy, Privacy Tools
 description: Learn how your campaigns might be affected by Apple's Mail Privacy Protection feature
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 ---

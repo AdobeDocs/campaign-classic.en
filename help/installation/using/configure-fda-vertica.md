@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to Vertica Analytics
 description: Learn how to configure access to Vertica Analytics in FDA
+feature: Installation, Federated Data Access
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference

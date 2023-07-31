@@ -2,6 +2,7 @@
 product: campaign
 title: General architecture
 description: General architecture
+feature: Monitoring, Architecture
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference

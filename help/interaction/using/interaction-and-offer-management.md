@@ -2,8 +2,8 @@
 product: campaign
 title: Interaction and offer management
 description: Learn how to send the best offers to your contacts based on eligibility rules
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 ---
 # Interaction and offer management{#interaction-and-offer-management}

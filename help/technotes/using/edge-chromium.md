@@ -3,6 +3,7 @@ product: campaign
 title: Technote - Enabling Microsoft Edge Chromium on your Campaign environment
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 description: Campaign - Edge Chromium
+feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 ---
 # How to enable Microsoft Edge Chromium on your environment {#edge-conf}

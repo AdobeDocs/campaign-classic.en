@@ -2,6 +2,7 @@
 product: campaign
 title: Additional web tracking parameters
 description: Learn more about parameters for web tracking
+feature: Configuration, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 ---

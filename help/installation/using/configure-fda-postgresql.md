@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to PostgreSQL
 description: Learn how to configure access to PostgreSQL
+feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 ---

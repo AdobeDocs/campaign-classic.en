@@ -2,6 +2,7 @@
 product: campaign
 title: Publish message templates 
 description: Learn about transactional message template publication and unpublication in Adobe Campaign Classic
+feature: Transactional Messaging, Message Center, Templates
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference

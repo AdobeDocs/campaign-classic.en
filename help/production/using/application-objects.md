@@ -2,6 +2,7 @@
 product: campaign
 title: Application objects
 description: Application objects
+feature: Monitoring
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference

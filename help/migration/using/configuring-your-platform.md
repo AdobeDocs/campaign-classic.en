@@ -2,6 +2,7 @@
 product: campaign
 title: Adapt your configuration
 description: Learn how to adapt your configuration before and after a migration to Campaign v7
+feature: Upgrade
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference

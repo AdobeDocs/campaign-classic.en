@@ -2,8 +2,8 @@
 product: campaign
 title: Access management
 description: Learn more about access management best practices
+feature: Installation, Access Management, Permissions
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 ---
 # Access management {#access-management}

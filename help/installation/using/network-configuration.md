@@ -2,6 +2,7 @@
 product: campaign
 title: Network configuration
 description: Learn system communication guidelines
+feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation

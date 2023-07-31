@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Analytics connector
 description: Learn more about Adobe Analytics connector
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff

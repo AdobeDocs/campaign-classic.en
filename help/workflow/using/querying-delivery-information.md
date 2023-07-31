@@ -3,7 +3,7 @@ product: campaign
 title: Querying delivery information
 description: Learn how to query delivery information
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor
+feature: Query Editor, Workflows
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 ---
 # Query delivery information {#querying-delivery-information}

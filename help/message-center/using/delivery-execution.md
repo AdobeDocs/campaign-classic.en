@@ -2,6 +2,7 @@
 product: campaign
 title: Delivery execution
 description: Learn more about transactional messages delivery execution and monitoring
+feature: Transactional Messaging, Message Center, Monitoring
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference

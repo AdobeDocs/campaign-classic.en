@@ -2,7 +2,7 @@
 product: campaign
 title: Create a new report
 description: Learn key steps to create a new report
-feature: Reporting
+feature: Reporting, Monitoring
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 ---
 # Create a new report{#creating-a-new-report}

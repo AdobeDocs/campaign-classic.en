@@ -2,6 +2,7 @@
 product: campaign
 title: Edit forms
 description: Edit forms
+feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e

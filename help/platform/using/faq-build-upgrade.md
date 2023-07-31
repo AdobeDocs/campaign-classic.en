@@ -2,6 +2,7 @@
 product: campaign
 title: Build upgrade FAQ
 description: Common questions related to Campaign build upgrades
+feature: Upgrade, Troubleshooting
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference

@@ -2,6 +2,7 @@
 product: campaign
 title: Transactional messaging architecture
 description: This section describes the Adobe Campaign Classic transactional messaging architecture and the available channels to deliver transactional messages
+feature: Transactional Messaging, Message Center, Architecture
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 ---

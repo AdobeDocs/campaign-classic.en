@@ -3,7 +3,7 @@ product: campaign
 title: Indicator calculation
 description: Indicator calculation
 badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Reporting
+feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 ---
 # Indicator calculation {#indicator-calculation}

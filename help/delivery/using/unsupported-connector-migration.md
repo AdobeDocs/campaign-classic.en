@@ -2,6 +2,7 @@
 product: campaign
 title: Unsupported SMS connector migration
 description: Migrate unsupported SMS connector to the Extended Generic SMPP connector
+feature: SMS, Upgrade
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: yes
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43

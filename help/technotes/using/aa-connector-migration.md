@@ -2,6 +2,7 @@
 product: campaign
 title: Migrate to the Adobe Analytics Connector
 description: Campaign - Analytics Connector FAQ
+feature: Technote, Analytics Integration
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
 ---

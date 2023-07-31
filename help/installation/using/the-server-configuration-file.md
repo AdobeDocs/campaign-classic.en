@@ -2,6 +2,7 @@
 product: campaign
 title: The server configuration file
 description: The server configuration file
+feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference

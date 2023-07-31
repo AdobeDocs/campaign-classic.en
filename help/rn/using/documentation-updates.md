@@ -2,8 +2,8 @@
 product: campaign
 title: Adobe Campaign Classic v7 Documentation Updates
 description: This page lists all the new features and updates in Adobe Campaign Classic documentation
+feature: Release Notes
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91

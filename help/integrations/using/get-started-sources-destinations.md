@@ -2,6 +2,7 @@
 product: campaign
 title: Get started with Sources and Destinations
 description: Learn more about Adobe Experience Platform Sources and Destinations
+feature: Platform Integration
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference

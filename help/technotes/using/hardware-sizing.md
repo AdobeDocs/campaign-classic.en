@@ -2,6 +2,7 @@
 product: campaign
 title: Hardware sizing recommendations for Campaign Classic v7
 description: Hardware sizing recommendations for Campaign Classic v7
+feature: Technote
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 ---

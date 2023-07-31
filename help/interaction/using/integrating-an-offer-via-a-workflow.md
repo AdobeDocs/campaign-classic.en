@@ -2,6 +2,7 @@
 product: campaign
 title: Integrating an offer via a workflow
 description: Integrating an offer via a workflow
+feature: Interaction, Offers, Workflows
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference

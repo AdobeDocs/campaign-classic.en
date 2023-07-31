@@ -3,7 +3,7 @@ product: campaign
 title: Migration to Adobe Managed Services (Public Cloud) FAQ
 description: Campaign Classic Migration to Public Cloud FAQ
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb

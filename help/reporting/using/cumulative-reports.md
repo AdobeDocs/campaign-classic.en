@@ -4,7 +4,7 @@ title: Cumulative reports
 description: Cumulative reports
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
 exl-id: e67748dd-fa50-4992-b85f-474389e876cf
 ---
 # Cumulative reports {#cumulative-reports}

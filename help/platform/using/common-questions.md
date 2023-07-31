@@ -2,6 +2,7 @@
 product: campaign
 title: Common questions
 description: Adobe Campaign Classic FAQ
+feature: Overview
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign

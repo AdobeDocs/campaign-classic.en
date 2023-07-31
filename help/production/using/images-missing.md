@@ -2,6 +2,7 @@
 product: campaign
 title: Images missing
 description: Images missing
+feature: Monitoring
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference

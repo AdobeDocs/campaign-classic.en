@@ -2,6 +2,7 @@
 product: campaign
 title: Configure access to Microsoft SQL Server
 description: Learn how to configure access to Microsoft SQL Server
+feature: Installation, Federated Data Access
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
 ---

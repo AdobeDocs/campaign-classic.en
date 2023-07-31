@@ -3,7 +3,7 @@ product: campaign
 title: Query using grouping management
 description: Learn how to perform queries using grouping management
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor
+feature: Query Editor, Workflows
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 ---
 # Query using grouping management {#querying-using-grouping-management}

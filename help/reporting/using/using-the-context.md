@@ -4,7 +4,7 @@ title: Use the context in your reports
 description: Learn how to use the context in your reports
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 ---
 # Use the context in your reports{#using-the-context}

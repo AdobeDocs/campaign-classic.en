@@ -2,6 +2,7 @@
 product: campaign
 title: Control costs
 description: Learn how to control costs
+feature: Resource Management
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference

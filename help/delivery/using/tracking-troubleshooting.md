@@ -4,7 +4,7 @@ title: Tracking troubleshooting
 description: This section provides common questions related to tracking configuration and implementation in Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Monitoring
+feature: Monitoring, Troubleshooting
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 ---
 # Tracking troubleshooting {#tracking-troubleshooting}

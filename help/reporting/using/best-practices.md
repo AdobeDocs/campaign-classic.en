@@ -2,8 +2,8 @@
 product: campaign
 title: Best practices for reporting
 description: Campaign reporting best practices
+feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 ---
 # Reporting best practices{#best-practices-reporting}

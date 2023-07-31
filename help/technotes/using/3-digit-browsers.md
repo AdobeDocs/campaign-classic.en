@@ -2,6 +2,7 @@
 product: campaign
 title: Campaign web components and version 100 in Chrome Firefox, and Edge browsers
 description: Campaign web components and version 100 in Chrome, Firefox, and Edge browsers
+feature: Technote
 exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
 ---
 # 3-digit browser version impacts on Campaign web components {#version-100}

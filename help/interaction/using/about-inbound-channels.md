@@ -2,6 +2,7 @@
 product: campaign
 title: About inbound channels
 description: About inbound channels
+feature: Interaction, Offers
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
 ---

@@ -2,8 +2,8 @@
 product: campaign
 title: Synchronize audiences
 description: Learn how to synchronize audiences with ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: yes
 hidefromtoc: yes
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42

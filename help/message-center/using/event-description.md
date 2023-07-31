@@ -2,6 +2,7 @@
 product: campaign
 title: Event description
 description: Learn how transactional messaging events are managed in Adobe Campaign Classic using the SOAP methods
+feature: Transactional Messaging, Message Center
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference

@@ -2,6 +2,7 @@
 product: campaign
 title: Schema of an existing table
 description: Schema of an existing table
+feature: Custom Resources
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 ---

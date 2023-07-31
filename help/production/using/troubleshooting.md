@@ -2,6 +2,7 @@
 product: campaign
 title: Production troubleshooting
 description: Discover production troubleshooting procedures relating to Adobe Campaign configuration, monitoring, upgrading process, data processing, and database maintenance procedure
+feature: Monitoring, Troubleshooting
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
