@@ -2,6 +2,7 @@
 product: campaign
 title: Elements and attributes - compute-string element
 description: compute-string element
+feature: Schema Extension
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 ---
 # compute-string element {#compute-string--element}

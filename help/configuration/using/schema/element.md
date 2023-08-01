@@ -2,6 +2,7 @@
 product: campaign
 title: Schema elements and attributes - element element
 description: element element
+feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 ---
 # element element {#element--element}

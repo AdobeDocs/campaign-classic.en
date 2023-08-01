@@ -2,6 +2,7 @@
 product: campaign
 title: Elements and attributes - dbindex element
 description: dbindex element
+feature: Schema Extension
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
 ---
 # dbindex element {#dbindex--element}

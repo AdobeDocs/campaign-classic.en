@@ -2,6 +2,7 @@
 product: campaign
 title: Elements and attributes - value element
 description: Elements and attributes
+feature: Schema Extension
 audience: configuration
 content-type: reference
 topic-tags: schema-reference

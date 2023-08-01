@@ -2,6 +2,7 @@
 product: campaign
 title: Schema elements and attributes - methods element
 description: method element
+feature: Schema Extension
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
 ---
 # methods element {#methods--element}
