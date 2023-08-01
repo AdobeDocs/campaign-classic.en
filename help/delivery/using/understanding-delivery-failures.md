@@ -182,7 +182,7 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. See [Defining validity period](steps-sending-the-delivery.md#defining-validity-period).
 
@@ -227,7 +227,7 @@ For on-premise installations and hosted/hybrid installations using the legacy Ca
 >
 >* **Asynchronous** bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, see [Email management rules](#email-management-rules).
 >
->* For instances using the Enhanced MTA **without Webhooks/EFS**, the **[!UICONTROL Inbound email]** rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
+>* For instances using the Enhanced MTA **without Webhooks**, the **[!UICONTROL Inbound email]** rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, when the delivery of an email fails, the Adobe Campaign delivery server receives an error message from the messaging server or the remote DNS server. The list of errors is made up of strings contained in the message returned by the remote server. Failure types and reasons are assigned to each error message.
 
@@ -284,7 +284,7 @@ The default rules are as follows.
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), and if your instance has **Webhooks/EFS** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), and if your instance has **Webhooks** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
   
@@ -315,7 +315,7 @@ If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in 
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you're sending emails.
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA:
 

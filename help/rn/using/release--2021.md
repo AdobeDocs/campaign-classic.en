@@ -263,9 +263,6 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Calculation of the Delivered indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.
 * EFS solves the problem of delays with synchronous soft bounces reporting.
 
-For more information refer to the [detailed documentation](../../delivery/using/sending-with-enhanced-mta.md#efs).
-If you’re interested in participating in this private beta, fill out this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) and we’ll get back to you.
-
 **Other changes**
 
 * Transfer speed has been improved for large tracking logs by using compression.
