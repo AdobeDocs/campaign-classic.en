@@ -84,32 +84,9 @@ No. Upgrading does not require switching to new IPs, so you can continue using y
 
 **Will upgrading to the Enhanced MTA impact any campaigns or deliveries currently in progress?**
 
-Any deliveries that were prepared before your instance was upgraded to use the Enhanced MTA will need to be re-prepared in order to properly use the new MTA.
-
 For customers using Adobe Campaign transactional messaging functionality, any API calls to trigger an email will be queued during the very short upgrade downtime and will be attempted upon completion of the upgrade.
 
 ## Enhanced MTA specificities {#enhanced-mta-impacts}
-
-### Enhanced MTA headers
-
-The latest Campaign Classic instances include code that adds the required Enhanced MTA headers to every message. If you are using Adobe Campaign 19.1 (build 9032) or above and if this is not the case, you must request [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to add the "useMomentum=true" parameter to your execution instance configuration (in the [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) file), which may be your marketing instance, [mid-sourcing instance](../../installation/using/mid-sourcing-server.md), or [transactional messaging execution instance](../../message-center/using/configuring-instances.md#execution-instance), depending on your configuration.
-
-However, if you are using an older instance that does not include this code, a new typology rule named **[!UICONTROL Typology Rule for Enhanced MTAs]** must be added to all the existing typologies in your Campaign instance.
-This rule is added by a **[!UICONTROL Typology]** package installed as part of the upgrade to the Enhanced MTA.
-
->[!IMPORTANT]
->
->If you see this typology rule in your typologies, do not delete or modify it in any way. Otherwise, your email deliveries could be adversely affected.
-
-This **[!UICONTROL Typology]** package needs to be installed on the Adobe Campaign marketing instance.
-
-If you are a hybrid client, the Adobe Campaign team will provide you with instructions on how to install the **[!UICONTROL Typology]** package on your marketing instance as part of the upgrade to the Enhanced MTA. Contact your account executive to get the full instructions.
-
->[!IMPORTANT]
->
->Instructions provided by the Adobe Campaign team on how to install the **[!UICONTROL Typology]** package should be carefully followed. Otherwise you may encounter major issues with your IPs used to send emails.
-
-For more on typologies, see [this section](../../campaign-opt/using/about-campaign-typologies.md).
 
 ### New MX rules
 
