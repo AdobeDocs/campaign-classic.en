@@ -18,6 +18,10 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2023
 
+### August 2023
+
+A limitation has been added to specify that you cannot use Adobe Campaign to uncompress zipped files larger than 4Gb. [Read more](../../platform/using/unzip-decrypt.md)
+
 ### April 2023
 
 Added a technote about how to enable Microsoft Edge Chromium on on-premise/hybrid environments. [Read more](../../technotes/using/edge-chromium.md)
