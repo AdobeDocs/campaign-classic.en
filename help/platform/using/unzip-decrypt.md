@@ -10,15 +10,18 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 ---
-# Unzip or decrypt a file {#unzipping-or-decrypting-a-file-before-processing}
 
- 
+# Unzip or decrypt a file {#unzipping-or-decrypting-a-file-before-processing}
 
 Adobe Campaign lets you import zipped or encrypted files. Before they can be read in a [Data loading (file)](../../workflow/using/data-loading--file-.md) activity, you can define a pre-processing to unzip or to decrypt the file.
 
+>[!IMPORTANT]
+>
+>You cannot uncompress zipped files larger than 4Gb.
+
 To be able to do so:
 
-1. Use the [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) to generate a public/private key pair.
+1. Use the [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) to generate a public/private key pair in order to allow file decryption.
 
     >[!NOTE]
     >
@@ -26,8 +29,9 @@ To be able to do so:
     >
     >Note that your instance must be hosted on AWS and upgraded with the [latest GA build](../../rn/using/rn-overview.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
-1. If your installation of Adobe Campaign is hosted by Adobe, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have the necessary utilities installed on the server.
-1. If your installation of Adobe Campaign is on premise, install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
+1. If your installation of Adobe Campaign is on premise, install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server. 
+
+    If your installation of Adobe Campaign is hosted by Adobe, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have the necessary utilities installed on the server.
 
 You can then use the desired pre-processing commands into your workflows:
 
