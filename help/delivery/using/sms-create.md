@@ -5,11 +5,10 @@ description: Learn how to create SMS with Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
+role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 ---
 # Create an SMS delivery {#creating-a-sms-delivery}
-
- 
 
 ## Select the delivery channel {#selecting-the-delivery-channel}
 

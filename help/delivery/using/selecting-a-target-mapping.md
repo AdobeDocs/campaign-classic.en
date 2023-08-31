@@ -5,11 +5,10 @@ description: Learn how to target mapping
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
+role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 ---
 # Select a target mapping{#selecting-a-target-mapping}
-
- 
 
 By default, delivery templates target **[!UICONTROL Recipients]**. Their target mapping therefore uses the fields of the **nms:recipient** table. Adobe Campaign offers other target mappings for your deliveries, to be used based on your needs. 
 

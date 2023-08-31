@@ -5,11 +5,10 @@ description: Learn how to optimize your messages delivery
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
+role: User
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 ---
 # Optimize delivery {#optimize-delivery}
-
- 
 
 Before even starting creating deliveries, you can take several actions to secure and optimize the sending process upstream.
 
@@ -41,7 +40,7 @@ To reach your recipients' inbox without bouncing or being marked as spam, you ne
 
 * What is deliverability?
 
-    * It refers to the factors of an email that determine its ability to be accepted by a recipient’s server. ISPs (Internet Service Providers) filter out emails that they identify as SPAM, or they block images from downloading. If they determine that a certain domain is sending too many emails, they will set a limit on the number of emails that they will accept from that sender.
+    * It refers to the factors of an email that determine its ability to be accepted by a recipient's server. ISPs (Internet Service Providers) filter out emails that they identify as SPAM, or they block images from downloading. If they determine that a certain domain is sending too many emails, they will set a limit on the number of emails that they will accept from that sender.
 
     * When checking your email for deliverability, you want to focus on four main categories: data quality, message and content, sending infrastructure, and reputation. For a deeper dive on this topic, refer to [this section](about-deliverability.md).
 

@@ -5,11 +5,10 @@ description: Learn how to use personalization fields
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
+role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 ---
 # Personalization fields{#personalization-fields}
-
- 
 
 Personalization fields are used for first-level personalization of the content of delivered messages. The fields you insert in a main content show the position where to insert the data from the selected data source.
 

@@ -5,11 +5,10 @@ description: Learn how to define the target population
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences, Proofs
+role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 ---
 # Define the target population {#defining-the-target-population}
-
- 
 
 For each delivery, you can define several types of target populations:
 

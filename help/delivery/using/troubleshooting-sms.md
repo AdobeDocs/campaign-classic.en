@@ -5,11 +5,10 @@ description: Learn more how to troubleshoot SMS channel
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS, Troubleshooting
+role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 ---
 # SMS Troubleshooting {#troubleshooting-sms}
-
- 
 
 ## Conflict between different external accounts {#external-account-conflict}
 
@@ -290,7 +289,7 @@ In the `config-instance.xml` file, set the following parameters:
 To check the number of open connections on a container, you can use this command:
 
 ```
-(for pid in $(ss -neopts  | sed -n ‘s/^.*:3600[ \t].*users:(([0-9A-Za-z”]*,pid=\([0-9]*\),.*$/\1/p’ | sort ); do  cat /proc/$pid/cmdline; echo  ” $pid” ;done;) | uniq --count
+(for pid in $(ss -neopts  | sed -n 's/^.*:3600[ \t].*users:(([0-9A-Za-z"]*,pid=\([0-9]*\),.*$/\1/p' | sort ); do  cat /proc/$pid/cmdline; echo  " $pid" ;done;) | uniq --count
 ```
 
 This will list the number of connections opened for a given port. Here we are using the port 3600.

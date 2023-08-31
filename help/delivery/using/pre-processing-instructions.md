@@ -5,11 +5,10 @@ description: Learn more about pre-processing instructions to use to script the U
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
+role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 ---
 # Pre-processing instructions {#pre-processing-instructions}
-
- 
 
 You can use a specific syntax in the delivery content to add instructions and script the URL of the tracked email. The <%@ instructions are not JavaScript: this syntax is specific to Adobe Campaign.
 

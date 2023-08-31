@@ -5,11 +5,10 @@ description: Learn how to use input forms in Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Management
+role: User, Developer
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 ---
 # Input forms{#input-forms}
-
- 
 
 Below are some general principles concerning the use of input forms in Adobe Campaign.
 

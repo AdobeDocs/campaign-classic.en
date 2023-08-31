@@ -5,15 +5,14 @@ description: Publication templates
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Templates
+role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 ---
 # Publication templates{#publication-templates}
 
- 
-
 ## About publication templates {#about-publication-templates}
 
-The publication template is the identity card of the content to be published. It references the resources used in the publication process, i.e.:
+The publication template references the resources used in the publication process, i.e.:
 
 * the data schema,
 * the input form,

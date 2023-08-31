@@ -9,8 +9,6 @@ exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 ---
 # Update incorrect hard bounces after Apple outage {#update-bounce-qualification.md}
 
- 
-
 ## Context
 
 On April 26 2021, a global issue at Apple resulted in some email messages sent to valid Apple email addresses being incorrectly hard bounced as invalid email addresses by Apple servers with the bounce following response:  "550 5.1.1 'email address': user lookup success but no user record found."
@@ -35,17 +33,17 @@ Based on the timeframe of the incident, below are the recommended guidelines for
 
 >[!IMPORTANT]
 >
->These dates/times are based on the Eastern Standard time zone (EST). Please adjust for your instance’s time zone.
+>These dates/times are based on the Eastern Standard time zone (EST). Please adjust for your instance's time zone.
 
 * For Campaign instances with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
 
-    * **Error text (quarantine text)** contains “user lookup success but no user record found” AND **Error text (quarantine text)** contains “support.apple.com”
+    * **Error text (quarantine text)** contains "user lookup success but no user record found" AND **Error text (quarantine text)** contains "support.apple.com"
     * **Update status (@lastModified)** on or after 4/26/2021 07:00:00 AM  
     * **Update status (@lastModified)** on or before 4/26/2021 01:00:00 PM
 
 * For Campaign instances with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
 
-    * **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
+    * **Error text (quarantine text)** contains "Momen_Code10_InvalidRecipient"
     * **Email domain (@domain)** equal to icloud.com OR **Email domain (@domain)** equal to me.com OR **Email domain (@domain)** equal to mac.com
     * **Update status (@lastModified)** on or after 4/26/2021 07:00:00 AM   
     * **Update status (@lastModified)** on or before 4/26/2021 01:00:00 PM

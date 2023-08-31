@@ -5,11 +5,10 @@ description: Learn how to understand delivery failures
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
+role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 ---
 # Understand delivery failures{#understanding-delivery-failures}
-
- 
 
 ## About delivery failures {#about-delivery-failures}
 

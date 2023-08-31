@@ -5,11 +5,10 @@ description: Learn how to validate a delivery
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
+role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
 # Validate the delivery {#validating-the-delivery}
-
- 
 
 When a delivery has been created and configured, you must validate it before sending it to the main target.
 

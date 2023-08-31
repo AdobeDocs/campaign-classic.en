@@ -5,11 +5,10 @@ description: Learn how to configure, design and send emails that will be read on
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Email Design
+role: User
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 ---
 # Send emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
-
- 
 
 ## Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 

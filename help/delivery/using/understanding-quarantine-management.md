@@ -5,11 +5,10 @@ description: Understand quarantine management
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
+role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 ---
 # Understand quarantine management{#understanding-quarantine-management}
-
- 
 
 Adobe Campaign manages a list of quarantined addresses. Recipients whose address is quarantined are excluded by default during delivery analysis, and will not be targeted. An email address can be quarantined, for example, when the mailbox is full or if the address does not exist. In any case, the quarantine procedure complies with specific rules described below.
 
@@ -37,11 +36,11 @@ Quarantine and denylist do not apply to the same object:
 
 * Being on the **denylist**, on the other hand, will result in the **profile** no longer being targeted by the delivery, such as after an unsubscription (opt-out), for a given channel. For example, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery.
 
-  You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile’s **[!UICONTROL General]** tab. See [this section](../../platform/using/editing-a-profile.md#general-tab).
+  You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. See [this section](../../platform/using/editing-a-profile.md#general-tab).
 
 >[!NOTE]
 >
->Quarantine includes a **[!UICONTROL Denylisted]** status, which applies when recipients report your message as spam or reply to an SMS message with a keyword such as “STOP”. In that case, the profile’s involved address or phone number is sent to quarantine with the **[!UICONTROL Denylisted]** status. For more on managing STOP SMS messages, refer to [this section](../../delivery/using/sms-send.md#processing-inbound-messages).
+>Quarantine includes a **[!UICONTROL Denylisted]** status, which applies when recipients report your message as spam or reply to an SMS message with a keyword such as "STOP". In that case, the profile's involved address or phone number is sent to quarantine with the **[!UICONTROL Denylisted]** status. For more on managing STOP SMS messages, refer to [this section](../../delivery/using/sms-send.md#processing-inbound-messages).
 
 ## Identify quarantined addresses {#identifying-quarantined-addresses}
 
@@ -158,16 +157,16 @@ Below are the recommended guidelines for this query:
 
 * For Campaign Classic v7 environments with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
 
-  * **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
+  * **Error text (quarantine text)** contains "Momen_Code10_InvalidRecipient"
   * **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
   * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
   * **Update status (@lastModified)** on or before MM/DD/YYYY HH:MM:SS PM
 
 * For Campaign Classic v7 instances with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
 
-  * **Error text (quarantine text)** contains “550-5.1.1” AND **Error text (quarantine text)** contains “support.ISP.com” 
+  * **Error text (quarantine text)** contains "550-5.1.1" AND **Error text (quarantine text)** contains "support.ISP.com" 
 
-  where “support.ISP.com” can be: “support.apple.com” or “support.google.com” for example
+  where "support.ISP.com" can be: "support.apple.com" or "support.google.com" for example
         
   * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
   * **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
