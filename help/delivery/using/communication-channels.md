@@ -5,11 +5,10 @@ description: Create deliveries to send personalized messages on different channe
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
+role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 ---
 # Communication channels{#communication-channels}
-
- 
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). These messages are designed and sent though deliveries, and can be personalized for each recipient.
 

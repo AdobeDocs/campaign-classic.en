@@ -5,11 +5,10 @@ description: Learn key points to check when managing deliverability in Adobe Cam
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Troubleshooting
+role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 ---
 # Deliverability troubleshooting{#deliverability-faq}
-
- 
 
 Are you experiencing a deliverability problem? You may find the solution here.
 

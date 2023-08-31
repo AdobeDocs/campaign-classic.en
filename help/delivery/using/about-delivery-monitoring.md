@@ -5,11 +5,10 @@ description: Learn more about Campaign Classic delivery monitoring capabilities
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
+role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 ---
 # Get started with delivery monitoring {#about-delivery-monitoring}
-
- 
 
 Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach out to your customers.
 

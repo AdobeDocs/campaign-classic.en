@@ -3,6 +3,7 @@ product: campaign
 title: Create web tracking tags
 description: Learn how to create web tracking tags
 feature: Application Settings
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
 ---

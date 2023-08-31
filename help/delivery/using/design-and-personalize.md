@@ -5,11 +5,10 @@ description: Learn how to build personalized content in Adobe Campaign deliverie
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design, Personalization
+role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 ---
 # Build personalized content {#build-personalized-content}
-
- 
 
 When designing your message content, try to avoid common issues that could prevent you from executing your delivery. Most of the time, possible errors are related to [personalization](about-personalization.md), [formatting](defining-the-email-content.md#message-content) and [images](defining-the-email-content.md#adding-images).
 
@@ -58,7 +57,7 @@ Work on the [subject line](defining-the-email-content.md#message-content) to imp
 
 * Avoid using repetitively words like "free" or "offer", that could be considered as spam
 
-* Avoid capital letters, and special characters like "!", "£", "€", "$"
+* Avoid capital letters, and special characters like "!", "£", "&euro;", "$"
 
 ### Mirror page
 

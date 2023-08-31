@@ -5,11 +5,11 @@ description: Learn more about A/B testing in Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
+role: User
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
 ---
 # Get started with A/B testing {#get-started-a-b-testing}
 
- 
 
 A/B testing allows you to compare multiple versions of a delivery against each other, in order to identify which one will have the biggest impact on the targeted population.
 

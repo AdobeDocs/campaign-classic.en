@@ -5,11 +5,10 @@ description: Learn how to create a direct mail delivery
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Direct Mail
+role: User
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 ---
 # Create a direct mail delivery{#creating-a-direct-mail-delivery}
-
- 
 
 To create a new direct mail delivery, follow the steps below:
 

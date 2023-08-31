@@ -5,11 +5,10 @@ description: This section provides general information specific to the email cha
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
+role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 ---
 # About email channel{#about-email-channel}
-
- 
 
 Adobe Campaign lets you mass deliver personalized electronic messages to a target population.
 

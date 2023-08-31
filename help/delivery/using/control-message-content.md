@@ -5,11 +5,11 @@ description: Learn more about managing deliverability in Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
+role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 ---
 # Control your message content{#control-message-content}
 
- 
 
 To make sure that your emails reach your recipients and improve your email deliverability rate, they must respect a number of rules. Otherwise, the content of certain messages may be detected as spam. Adobe Campaign provides you with several tools to make your content comply with these rules.
 
@@ -37,7 +37,7 @@ For more on this, see [this page](defining-the-email-content.md).
 
 ## Personalization {#personalization}
 
-To improve your recipients’ experience and make them open your email, Adobe Campaign enables you to personalize your messages.
+To improve your recipients' experience and make them open your email, Adobe Campaign enables you to personalize your messages.
 
 For more on using personalization fields in Adobe Campaign, see [this section](personalization-fields.md).
 

@@ -3,6 +3,7 @@ product: campaign
 title: Database mapping
 description: Database mapping
 feature: Configuration, Instance Settings
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 ---

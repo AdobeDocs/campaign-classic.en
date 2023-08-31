@@ -3,10 +3,8 @@ product: campaign
 title: Structure of a data schema
 description: Structure of a data schema
 feature: Custom Resources
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
 ---
 # Structure of a data schema{#structure-of-a-data-schema}

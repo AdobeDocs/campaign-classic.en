@@ -5,6 +5,7 @@ description: Learn more about the statuses available on your delivery dashboard
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
+role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 ---
 # Delivery statuses {#delivery-statuses}
@@ -123,7 +124,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
     
     In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configure-delivery-settings.md).
 
-* When too many campaigns are running, the delivery status remains in ‘Pending’ status.
+* When too many campaigns are running, the delivery status remains in 'Pending' status.
 
     The limit of simultaneous campaigns is defined in the **[!UICONTROL NmsOperation_LimitConcurrency]** option. Default value is 10.
     

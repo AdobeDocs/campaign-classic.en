@@ -5,6 +5,7 @@ description: Learn more the general guidelines for tracking in Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email
+role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 ---
 # Get started with message tracking {#get-started-tracking}
@@ -109,7 +110,7 @@ The following troubleshooting tips will help you solve the most common issues ha
     
     You can access it from the Homepage by selecting  the Monitoring tab in your instance. You can also execute the following command on the instance: `<user>@<instance>:~$ nlserver pdump`
 
-    If the trackinglogd process doesn’t appear in the list, launch it with the following command on the instance: `<user>@<instance>:~$ nlserver start trackinglogd`
+    If the trackinglogd process doesn't appear in the list, launch it with the following command on the instance: `<user>@<instance>:~$ nlserver start trackinglogd`
 
 * Check that the Tracking technical workflow has been running recently.
 

@@ -5,11 +5,10 @@ description: Learn how to create an email delivery
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
+role: User
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 ---
 # Create an email delivery{#creating-an-email-delivery}
-
- 
 
 To create a new email delivery, follow the steps below:
 

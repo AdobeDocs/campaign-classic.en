@@ -1,7 +1,8 @@
 ---
 product: campaign
 title: Control rules
-description: Control rules
+description: Learn how to work with control rules in Adobe Campaign
+role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Typology Rules, Campaigns
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331

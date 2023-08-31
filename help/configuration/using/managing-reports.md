@@ -3,6 +3,7 @@ product: campaign
 title: Manage reports
 description: Manage reports
 feature: Reporting, Configuration
+role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3

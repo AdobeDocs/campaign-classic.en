@@ -5,11 +5,10 @@ description: Learn how to perform A/B testing through a dedicated use case
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
+role: User
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 ---
-# Create a targeting workflow {#step-1--creating-a-targeting-workflow}
-
- 
+# AB testing: Create a targeting workflow {#step-1--creating-a-targeting-workflow}
 
 You need to create your workflow in the **[!UICONTROL Targeting and Workflows]** tab of a campaign. It is made up of a **[!UICONTROL Query]** activity, a **[!UICONTROL Split]** activity linked to two **[!UICONTROL Email delivery]** activities, a **[!UICONTROL Wait]** activity, a **[!UICONTROL JavaScript code]** activity, and a **[!UICONTROL Delivery]** activity.
 

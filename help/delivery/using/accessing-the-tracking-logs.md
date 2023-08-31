@@ -5,11 +5,10 @@ description: Accessing the tracking logs
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
+role: User
 exl-id: df494786-5950-4646-aa9c-4dde45845057
 ---
 # Access the tracking logs{#accessing-the-tracking-logs}
-
- 
 
 When the delivery has been sent and tracking activated, the **[!UICONTROL Tracking]** technical workflow is in charge of retrieving the tracking data. It is executed hourly by default.
 

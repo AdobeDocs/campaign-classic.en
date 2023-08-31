@@ -3,6 +3,7 @@ product: campaign
 title: SOAP methods in JavaScript
 feature: Configuration, Instance Settings
 description: SOAP methods in JavaScript
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 ---

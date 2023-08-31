@@ -5,6 +5,7 @@ description: Learn how to capture email renderings and make them available in a 
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
+role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 ---
 # Inbox rendering{#inbox-rendering}

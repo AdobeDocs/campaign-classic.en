@@ -5,11 +5,11 @@ description: Learn how to create a profile list in a workflow
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Workflows, Profiles
+role: User
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 ---
 # Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
 
- 
 
 To create a **[!UICONTROL List]** type list based on the new recipient table, you need to create a targeting workflow which will generate the list. 
 

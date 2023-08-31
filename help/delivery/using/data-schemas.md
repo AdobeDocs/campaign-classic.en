@@ -5,11 +5,10 @@ description: Learn how to use data schemas in Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Model
+role: User, Developer, Data Engineer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 ---
 # Use data schemas in Campaign{#data-schemas}
-
- 
 
 Below are some general principles concerning the use of data schemas in Adobe Campaign.
 

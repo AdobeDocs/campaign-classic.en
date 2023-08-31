@@ -5,11 +5,10 @@ description: Learn how to customize the emoticon list when using Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Push
+role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 ---
 # Customize the emoticon list {#customize-emoticons}
-
- 
 
 The emoticon list displayed in the pop-up is ruled by an enumeration which allows you to display values in a list to restrict the choices that the user has for a given field.
 The emoticon list order can be customized, you can also add other emoticons to your list.

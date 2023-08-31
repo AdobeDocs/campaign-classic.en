@@ -5,11 +5,10 @@ description: Enriching content
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Management
+role: User, Developer, Data Engineer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 ---
 # Enriching content{#enriching-content}
-
- 
 
 Aggregators let you enrich the content with external data. This data comes from generic queries or linked tables.
 

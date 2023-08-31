@@ -5,6 +5,7 @@ description: How to configure tracked links
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
+role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 ---
 # How to configure tracked links{#how-to-configure-tracked-links}

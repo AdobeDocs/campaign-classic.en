@@ -2,6 +2,7 @@
 product: campaign
 title: Apply typology rules
 description: Learn how to apply typology rules
+role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Typology Rules, Campaigns
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9

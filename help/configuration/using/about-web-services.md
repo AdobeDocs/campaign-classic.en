@@ -4,6 +4,7 @@ title: About web services
 description: About web services
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
+role: Data Engineer, Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 ---
 # About web services{#about-web-services}

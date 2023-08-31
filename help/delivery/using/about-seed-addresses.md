@@ -5,11 +5,10 @@ description: Get started with seed addresses
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
+role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 ---
 # About seed addresses{#about-seed-addresses}
-
- 
 
 Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.
 

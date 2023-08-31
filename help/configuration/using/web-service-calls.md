@@ -4,6 +4,7 @@ title: Web service calls
 description: Web service calls
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
+role: Data Engineer, Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 ---
 # Web service calls{#web-service-calls}

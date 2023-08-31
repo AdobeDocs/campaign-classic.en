@@ -5,11 +5,10 @@ description: Learn deliverability best practices
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
+role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 ---
 # What is deliverability{#about-deliverability}
-
- 
 
 Deliverability allows you to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam. [Learn why deliverability matters](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters). 
 
@@ -31,7 +30,7 @@ Deliverability problems are usually linked to measures of protection against spa
 
 ### Deliverability rate
 
-The deliverability rate is the number of messages that hit the recipients’ inboxes compared to the number of messages that were delivered. To improve deliverability, you may work on increasing this rate.
+The deliverability rate is the number of messages that hit the recipients' inboxes compared to the number of messages that were delivered. To improve deliverability, you may work on increasing this rate.
 
 With Adobe Campaign, the deliverability rate depends on numerous factors, particularly:
 

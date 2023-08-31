@@ -3,6 +3,7 @@ product: campaign
 title: Implementing SOAP methods
 description: Implementing SOAP methods
 feature: Configuration
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 ---

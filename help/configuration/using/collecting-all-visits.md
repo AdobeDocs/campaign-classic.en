@@ -3,6 +3,7 @@ product: campaign
 title: Collecting all visits
 description: Collecting all visits
 feature: Configuration, Instance Settings
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 ---

@@ -3,13 +3,12 @@ product: campaign
 title: Configure the interface
 description: Learn how to configure Campaign interface
 feature: Application Settings
+role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 ---
 # Configure the interface{#configuring-the-interface}
-
- 
 
 To view and dialog with the new recipient table in the Adobe Campaign interface, apply the following steps:
 
