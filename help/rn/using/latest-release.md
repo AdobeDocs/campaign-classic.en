@@ -22,7 +22,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 >
 > If you are using [Campaign - Microsoft Dynamics CRM Connector](../../platform/using/crm-connectors.md), you must upgrade both your marketing and your mid-sourcing servers with this new build.
 
-_September_ 7, 2023_
+_September 7, 2023_
 
 **Security enhancement**
 
@@ -83,7 +83,7 @@ Fixed an issue which could cause Japanese characters to be incorrectly displayed
 
 ## Release 7.3.3 - Build 9359 {#release-7-3-3}
 
-[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
+[!BADGE Limited Availability]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
 
 >[!CAUTION]
 >
@@ -111,7 +111,7 @@ _March 20, 2023_
 
 ## Release 7.3.2 - Build 9356 {#release-7-3-2}
 
-[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
+[!BADGE Limited Availability]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
 
 _November 21, 2022_
 
