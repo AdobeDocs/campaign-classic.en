@@ -96,3 +96,7 @@ Example of possible values:
 * America/New_York, etc.
 
   These values are taken from the tz (Olson) database. For more information, refer to [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+
+## Oracle database and server timezone
+
+For the main database, Campaign uses the server timezone to set the session timezone on the database connection. The "WdbcTimeZone" option has no impact. So the server timezone should match the timezone of the main database used by Campaign. If you cannot change the server timezone, the timezone used by Campaign can be overridden by setting the TZ environment variable in customer.sh.

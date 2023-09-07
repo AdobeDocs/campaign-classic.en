@@ -37,6 +37,7 @@ The first parameters are inside the **shared** node. These are related to the in
 * [proxyConfig](#proxyconfig)
 * [threadPool](#threadpool)
 * [urlPermission](#urlpermission)
+* [cusHeaders](#cusheaders)
 * [xtkJobs](#xtkjobs)
 
 **Other parameters**
@@ -991,6 +992,29 @@ For additional information, refer to [Outgoing connection protection](../../inst
   </tr> 
  </tbody> 
 </table>
+
+## cusHeaders {#cusheaders}
+
+This node allows you to add specific headers in requests performed when uploading a file from an external server. Content Delivery Networks (CND) can ask for a specific header in order to trust the requester. These headers can be used to improve the trust on Campaign requests, particulary when downloading personalized documents for each recipient at delivery execution step. A high number of resource download requests can be interpreted as a DDos attack. dnsPattern allows you to to set specific header names and values for different CDNs based on their domain name. 
+
+```
+  <!-- List of custom headers added to request. 
+         -->
+    <cusHeaders>
+
+    <!-- Pattern of DNS name or domain 
+         value :  dnsPattern: All or part of the URL's domain to verify, * is a wild card Default:  -->
+      <dnsPattern value="">
+
+    <!-- Header Name and Value 
+           headerName :  Header Name 
+           headerValue :  Header Value -->
+        <headerDef headerName="" headerValue=""/>
+
+      </dnsPattern>
+
+    </cusHeaders> 
+```
 
 ### url {#url}
 

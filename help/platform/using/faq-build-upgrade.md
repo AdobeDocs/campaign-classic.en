@@ -51,7 +51,7 @@ For instance, using the server information from the screenshot in the previous s
 
 *  A build upgrade would involve moving from build 9342 to any build greater that 9342. For example, v7.1 build 9342 to v7.1 build 9342
 
-* A version upgrade would involve moving from version 6 to any more recent version.  For example:  v6.1.1 build 8666 to v7.1 build 9342.
+* A version upgrade would involve moving from a previous major version to any more recent version. 
 
 ## Should I backup my data prior to these updates?
 

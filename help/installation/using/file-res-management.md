@@ -98,7 +98,7 @@ FTP/FTPS connections are defined in the proxyFTP parameter:
 
 If you use the same proxy for several connection types, only the proxyHTTP will be defined with useSingleProxy set to "1" or "true".
 
-If you have internal connections that should go through the proxy, add them in the override parameter.
+If you have internal connections that should not go through the proxy, add them in the override parameter.
 
 If you want to temporarily disable the proxy connection, set the enabled parameter to "false" or "0".
 

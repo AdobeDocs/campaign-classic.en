@@ -37,7 +37,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>
 <p>7.x</p>
 <p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
-<p>8.x</br><strong>Important:</strong> CentOS Linux 8 will reach End Of Life (EOL) on December 31st, 2021. For more information, refer to the <a href=../../rn/using/deprecated-features.md>Deprecated features</a> page.</p>
 </td>
 </tr>
 <tr>
@@ -45,7 +44,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>
 <p>11 (starting Campaign v7.3)</p>
 <p>10</p>
-<p>9</p>
 </td>
 </tr>
 <tr>
@@ -137,7 +135,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p>10.x</p>
 <p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
@@ -211,7 +208,6 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p>10.x</p>
 </td>
 <td>v7.0 19.1.4 minimum</td>
 </tr>
@@ -300,11 +296,8 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <tr>
 <td>Teradata</td>
 <td>
-<p>17</p>
-<p>16.20</p>
-<p>16</p>
-<p>15.10</p>
-<p>15.0</p>
+<p>17.x</p>
+<p>16.x (last version)</p>
 </td>
 <td>v7.0 minimum</td>
 </tr>

@@ -248,7 +248,7 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
        <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
        ```
 
-* Never set allowEmptyPassword, allowUserPassword, allowSQLInjection to true. These attributes are only here to allow a smooth migration from v5 and v6.0:
+* Never set allowEmptyPassword, allowUserPassword, allowSQLInjection to true. 
 
   * **allowEmptyPassword** lets operators have an empty password. If this is the case for you, notify all your operators to ask them to set a password with a deadline. Once this deadline has passed, change this attribute to false.
 

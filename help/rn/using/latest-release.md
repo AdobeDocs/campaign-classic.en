@@ -12,6 +12,75 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
+## Release 7.3.4 - Build 9364 {#release-7-3-4}
+
+[!BADGE General Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+
+>[!CAUTION]
+>
+>Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../../installation/using/installing-the-client-console.md).
+>
+> If you are using [Campaign - Microsoft Dynamics CRM Connector](../../platform/using/crm-connectors.md), you must upgrade both your marketing and your mid-sourcing servers with this new build.
+
+_September_ 7, 2023_
+
+**Security enhancement**
+
+* Security has been improved in IMS APIs. Client-sensitive information (i.e. access tokens) has been removed from URL parameters. These credentials are now sent in the post data or authorization header, ensuring a more secure communication process. (NEO-63045)
+* Security has been improved in web apps to prevent DDOS attacks. (NEO-50757)
+* Security has been enhanced to prevent PII data from being exposed in the web logs errors. (NEO-46827)
+* Security has been optimized to prevent the security token from being included in the Campaign home page URL. (NEO-38519)
+
+**Compatibility updates**
+
+* Tomcat has been updated to version 8.5.91
+* The libexpat library has been updated to 2.5.0 to improve security. (NEO-51023)
+
+**Improvements**
+
+* The MaxWorkingSetMb parameter in the server configuration file (serverConf.xml) has been modified to optimize memory allocation for deliveries. (NEO-49204)
+* The BigQuery external account has been enhanced with new options used to setup GCloud SDK. (NEO-63879) [Read more](../../installation/using/configure-fda-google-big-query.md#google-external)
+* A new `cusHeader` section has been added in the server configuration file (serverConf.xml). It allows you to add custom headers when uploading a file from an external server. (NEO-58339) [Read more](../../installation/using/the-server-configuration-file.md#cusheaders).
+* The tracking log management has been improved to avoid negative IDs for lastMsgId. It has been changed from int32 to int64. (NEO-52290)
+* The Mid-sourcing (delivery statistics) workflow has been added out-of-the-box. This new workflow synchronizes delivery statistic data (nms:deliveryStat) from the mid to the marketing instance. (NEO-36802)
+
+**Patches**
+
+* Fixed an issue which could occur when a service request was made prior to IMS login, if the service request call authentication was using a service token. (NEO-64903)
+* Fixed a regression issue which could lead to scrolling issues when using the Digital Content Editor. (NEO-64671, NEO-59256)
+* Fixed a regression issue when pasting content from Excel to the Digital Content Editor. (NEO-63287)
+* Fixed an issue which could prevent webapps from being correctly displayed in v5 compatibility mode. (NEO-63174)
+* Fixed an issue which prevented non-admin operators from sending webAnalytics deliveries. (NEO-62750)
+* Fixed an issue to prevent browsers from adding extra spaces when using conditional content in a delivery. (NEO-62132)
+* Fixed a regression issue which prevented the active contact calculation from correctly working in the Billing workflow when using target schemas associated with multiple log schemas. (NEO-61468)
+* Fixed an issue which could lead to an error and prevent you from scrolling when editing the content of a delivery. (NEO-61364)
+* Fixed an issue which caused a popup window to open when clicking on an image in the email content editor. (NEO-60752)
+* Fixed an issue which could lead to special characters in the HTML content of a delivery being incorrectly encoded in several browsers. (NEO-60081)
+* Fixed a synchronization issue which could occur when using the inSMS workflow activity. (NEO-59544)
+* Fixed an issue when using the Big Query connector with timestamp or datetime fields. (NEO-59502, NEO-49768)
+* Fixed an issue which prevented you from using cumulative delivery reports. (NEO-59211)
+* Fixed an issue which could lead to errors when sharing audiences with People Core Service. (NEO-58637)
+* Fixed an issue when displaying the mirror page of a delivery. (NEO-58325)
+* Fixed an issue which prevented the XtkLibrary.Right() xtk expression from working. (NEO-57870)
+* Fixed an issue which led the style attribute of the body tag to be changed when uploading an image in the Digital Content Editor. (NEO-57697)
+* Fixed an issue with special characters when performing batch exports with the CRM connector activity. (NEO-54300)
+* Fixed an issue which prevented bulk loading from working with "string" data types when using a Data loading activity and the Big Query connector. (NEO-53748)
+* Fixed a cache key issue which could lead to offer rendering issues. (NEO-51516, NEO-49995)
+* Fixed an issue which could lead to a validation error when sending a direct mail delivery using targetMapping with approvals. (NEO-50758)
+* Fixed a query management issue which could impact delivery performance. (NEO-49991)
+* Fixed an issue, when using external accounts in campaign workflow delivery activities, which could lead to external account configuration issues. (NEO-49959)
+* Fixed a performance issue when sending push notifications. (NEO-49953)
+Fixed an issue which could cause Japanese characters to be incorrectly displayed when exporting reports (NEO-49308).
+* Fixed an issue which caused the Tomcat error report to display too much error details. (NEO-49029)
+* Fixed an issue which could lead to a delivery error when using a large number of offers. (NEO-48807)
+* Fixed an issue which could prevent the **Update data** workflow activity from working correctly. (NEO-48140)
+* Fixed an issue which could prevent click tracking data from being synchronized for deliveries using an external account different than email.(NEO-47277)
+* Fixed an issue which could prevent real-time tracking logs from being synchronized on Message Center marketing instance. (NEO-42540)
+* Fixed an issue which prevented the workspace prefix from being displayed in the discovery window of a schema, for Snowflake database tables. (NEO-40297)
+* Fixed an issue which prevented `<img-amp>` tags from working in email content. (NEO-38685)
+* Fixed an issue which could cause the Message Center archiving workflow to fail when using an HTTP relay. (NEO-33783)
+* Fixed an issue which could cause font name and size erros in the email content editor. (NEO-61342)
+
 ## Release 7.3.3 - Build 9359 {#release-7-3-3}
 
 [!BADGE General Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
