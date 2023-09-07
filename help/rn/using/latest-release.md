@@ -83,7 +83,7 @@ Fixed an issue which could cause Japanese characters to be incorrectly displayed
 
 ## Release 7.3.3 - Build 9359 {#release-7-3-3}
 
-[!BADGE General Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 >[!CAUTION]
 >
@@ -111,7 +111,7 @@ _March 20, 2023_
 
 ## Release 7.3.2 - Build 9356 {#release-7-3-2}
 
-[!BADGE Limited Availability]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _November 21, 2022_
 
