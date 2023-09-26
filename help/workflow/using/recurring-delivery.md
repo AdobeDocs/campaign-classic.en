@@ -28,7 +28,7 @@ The configuration process for this activity is similar to that of creating a del
 
 For an example of this activity being used, refer to this [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-## How to set up recurring delivery
+## How to set up recurring delivery {#set-up-recurring-delivery}
 
 A **recurring delivery** will create a new delivery instance each time it executes. For example, if the workflow is scheduled to run once a week, that would result in 52 Deliveries after one year. This also means that the broad log and tracking logs will be separated by each delivery instance.
 
@@ -40,9 +40,9 @@ If you want to stop a recurring delivery from running, you should completely can
 >
 >It is not possible to send a proof from a **[!UICONTROL Recurring delivery]** type activity.
 > 
->To directly create a delivery via a campaign workflow, use the channel specific activities that are preconfigured (e.g. **[!UICONTROL Email delivery]**).
+>To directly create a delivery via a campaign workflow, use the channel specific activities that are preconfigured (e.g. **[!UICONTROL Recurring delivery]**).
 
-## Tutorial video (#recurring-delivery-video)
+## Tutorial video {#recurring-delivery-video}
 
 This video explains how to configure a recurring delivery and a scheduler activity.
 
