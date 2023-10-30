@@ -44,6 +44,10 @@ The general file formatting allows you to define the way in which the columns wi
 
 The column formatting allows you to define the value processing of each column:
 
+>[!NOTE]
+>
+>You can add as many columns as desired. The maximum length of values in each column is determined by the chose data type.
+
 * **[!UICONTROL Ignore column]**: does not process this column during data loading.
 * **[!UICONTROL Data type]**: specifies the type of data expected for each column.
 * **[!UICONTROL Allow NULLs]**: specifies how to manage empty values.
