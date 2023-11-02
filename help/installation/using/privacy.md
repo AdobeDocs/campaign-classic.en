@@ -8,9 +8,6 @@ exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---
 # Personalization and privacy {#privacy}
 
-
-
-
 ## URL Personalization {#url-personalization}
 
 When adding personalized links to your content, always avoid having any personalization in the hostname part of the URL to avoid potential security gaps. The following examples should never be used in all URL attributes <`a href="">` or `<img src="">`:
