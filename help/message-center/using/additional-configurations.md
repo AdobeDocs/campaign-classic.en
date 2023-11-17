@@ -87,6 +87,12 @@ On the execution instance(s), the technical workflows for transactional messagin
     * **[!UICONTROL Delivery failed]** : this status is copied from the delivery logs. It means that the delivery failed.
     * **[!UICONTROL Event not taken into account]** : the event could not be linked to a message template. The event will not be processed.
 
+### Archiving workflow schedule
+
+Avoid modifying the **archiving workflow** schedule that runs on the control instance. Otherwise some tracking data being pulled from the execution instance may be lost.
+
+If you do modify the archiving workflow schedule, you must also change the **tracking workflow** schedule on the execution instance to match the archiving workflow schedule on the control instance.
+
 ## Configure multibranding {#configuring-multibranding}
 
 This section describes one solution to configure tracking and mirror page URLs per brand, for transactional messages in Adobe Campaign.
