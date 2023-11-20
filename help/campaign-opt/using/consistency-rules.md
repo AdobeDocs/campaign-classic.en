@@ -95,7 +95,7 @@ Availability lines are for information purposes only. To exclude excess messages
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-The number of messages to be processed is broken down evenly over the defined availability range. This is particularly relevant for call centers since their maximum number of calls per days is limited. In the case of email deliveries, the **[!UICONTROL Do not limit instantaneous delivery capacity]** option lets you ignore this availability range and send your emails at the same time.
+The maximum number of messages that can be processed is broken down evenly over the defined availability range. This is particularly relevant for call centers since their maximum number of calls per days is limited. In the case of email deliveries, the **[!UICONTROL Do not limit instantaneous delivery capacity]** option lets you ignore this availability range and send your emails at the same time.
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
