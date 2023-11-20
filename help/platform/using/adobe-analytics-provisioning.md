@@ -10,8 +10,6 @@ exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 ---
 # Adobe Analytics Connector provisioning {#adobe-analytics-connector-provisioning}
 
-
-
 >[!IMPORTANT]
 >
 > These steps should only be carried out by Hybrid and On-Premise implementations.
@@ -25,6 +23,12 @@ The integration between Adobe Campaign Classic and Adobe Analytics authenticatio
 * If you are implementing a new connector, implementing Adobe IMS is optional. Without an Adobe ID User, Adobe Campaign will use a technical user to sync with Adobe Analytics.
 
 For this integration to work, you have to create an Adobe Analytics product profile which will be used exclusively for the Analytics connector. Then, you will need to create an Adobe I/O project.
+
+<!--
+>[!AVAILABILITY]
+>
+> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
+-->
 
 ## Create an Adobe Analytics Product profile {#analytics-product-profile}
 
@@ -62,11 +66,13 @@ For more information on Product profiles, refer to the [Admin console documentat
 
 1. For the **[!UICONTROL Metrics]** capability, add the **[!UICONTROL Metrics]** you will need to configure later on. 
 
-    If needed, you can switch on the Auto-include option which will add every permissions item into the included list and will automatically add new permission items.
+    If needed, you can switch on the Auto-include option which will add every permissions item into the included list and will automatically add new permission items. 
 
     ![](assets/do-not-localize/triggers_13.png)
 
-1. For the **[!UICONTROL Dimensions]** capability, add the **[!UICONTROL Dimensions]** you will need to configure later on.
+1. For the **[!UICONTROL Dimensions]** capability, add the **[!UICONTROL Dimensions]** needed for future configuration. 
+
+    Ensure the chosen Dimensions match those to be configured in the [External Account](adobe-analytics-connector.md#external-account-classic) and align with the corresponding eVars number from [Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success).
 
 1. For the **[!UICONTROL Report Suite Tools]** capability, add the following permissions:
 
