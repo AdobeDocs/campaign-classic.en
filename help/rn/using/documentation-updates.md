@@ -10,13 +10,15 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 ---
 # Documentation Updates{#documentation-updates}
 
-
-
 This page lists all the new features and documentation updates per month and Campaign release.
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
 ## 2023
+
+### November 2023
+
+JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
 
 ### August 2023
 
@@ -177,7 +179,7 @@ New Vertica Analytics FDA connector - [Learn more](../../installation/using/conf
 
 New Google BigQuery FDA connector - [Learn more](../../installation/using/configure-fda-google-big-query.md)
 
-The “Billing (billing)” technical workflow description now includes the tasks originally performed by the “Number of active billing profiles (billingActiveContactCount)”. [Read more](../../workflow/using/about-technical-workflows.md)
+The "Billing (billing)" technical workflow description now includes the tasks originally performed by the "Number of active billing profiles (billingActiveContactCount)". [Read more](../../workflow/using/about-technical-workflows.md)
 
 ## May 2021 {#may-2021}
 
@@ -396,7 +398,7 @@ The Privacy and Consent section has been enhanced with more detailed information
 
 The Privacy Management in Campaign Classic page has been updated with information on the 'regulation' field which is now available when using the API allowing to setup automatic Privacy request process. [Read more](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](../../platform/using/privacy-and-recommendations.md)
+The Privacy Management Overview page has been updated to include information on the Thailand's Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](../../platform/using/privacy-and-recommendations.md)
 
 Information has been added on sub-workflows logs and behavior in case of error. [Read more](../../workflow/using/sub-workflow.md)
 
