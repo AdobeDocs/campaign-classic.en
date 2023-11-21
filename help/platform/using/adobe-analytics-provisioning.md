@@ -24,11 +24,9 @@ The integration between Adobe Campaign Classic and Adobe Analytics authenticatio
 
 For this integration to work, you have to create an Adobe Analytics product profile which will be used exclusively for the Analytics connector. Then, you will need to create an Adobe I/O project.
 
-<!--
 >[!AVAILABILITY]
 >
 > JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
--->
 
 ## Create an Adobe Analytics Product profile {#analytics-product-profile}
 

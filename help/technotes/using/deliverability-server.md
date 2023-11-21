@@ -34,12 +34,15 @@ As an **on-premise/hybrid customer**, you need to upgrade to [Campaign v7.2.2](.
 
 ## Implementation steps {#implementation-steps}
 
-As part of the new deliverability server integration, Campaign needs to communicate with Adobe Shared Services via an Identity Management Service (IMS) based authentication. The preferred way is to use the Adobe Developer based Gateway Token (also called Technical Account Token or Adobe IO JWT).
-
 >[!WARNING]
 >
 >These steps should only be carried out for Hybrid and On-premise implementations.
+
+As part of the new deliverability server integration, Campaign needs to communicate with Adobe Shared Services via an Identity Management Service (IMS) based authentication. The preferred way is to use the Adobe Developer based Gateway Token (also called Technical Account Token or Adobe IO JWT).
+
+>[!AVAILABILITY]
 >
+> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
 
 ### Prerequisites{#prerequisites}
 

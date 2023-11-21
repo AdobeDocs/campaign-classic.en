@@ -13,8 +13,6 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 ---
 # Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
-
-
 >[!CAUTION]
 >
 >If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. 
@@ -33,11 +31,11 @@ Before starting this implementation, please check you have:
 
 ## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
 
-1. Access [!DNL Adobe I/O] and log in with the Developer access of your Organization.
+>[!AVAILABILITY]
+>
+> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
 
-    >[!NOTE]
-    >
-    > Make sure you are logged into the correct Organization portal.
+1. Access [!DNL Adobe I/O] and log in with the Developer access of your Organization. Make sure you are logged into the correct Organization portal.
 
 1. Extract existing integration Client identifier (Client ID) from the instance configuration file ims/authIMSTAClientId. Non-existing or empty attribute indicates Client identifier is not configured.
 
