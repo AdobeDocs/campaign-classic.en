@@ -9,8 +9,6 @@ exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 ---
 # Publish a web form{#publishing-a-web-form}
 
- 
-
 ## Pre-loading the form data {#pre-loading-the-form-data}
 
 If you wish to update the profiles stored in the database via a Web form, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database.
@@ -150,3 +148,26 @@ Select a recipient and click the **[!UICONTROL Detail...]** button to view the r
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 You can process the response logs provided in queries, for instance to target only non-respondents when sending reminders, or to offer specific communications to respondents only.
+
+## Web form statuses
+
+This section describes the different status of a web form and the consequences when exporting/importing a webApp package from an instance to another (main case is from stage to prod).
+
+The four essentials WebbApp state are:``
+* Being Edited (0)
+* Pending Publication (5)
+* Online (10)
+* Closed (20)
+
+'Pending publication' is almost the same as 'Online', at first load of the url webApp in a browser, the WebApp will goes automatically publish and his state will be 'Online'.
+
+When you Export in package a webApp, appstate is visible in the xml of the package. ( see appstate_in_package.png)
+
+* You want the webApp to be online as soon as possible:
+If the state of the webApp is 'Online' or 'Pending Publication', it goes to 'Pending Publication', so at first call the webApp will be 'Online'
+
+* If the webApp is on state 'Being Edited', you export the webApp in a package and Import it in another instance ( main case is from stage to prod ):
+
+  * This is not a new webApp but a modification on an existing webApp which is currently 'Online', the package is loaded in the instance but old version of the webApp remains 'Online' till the 'Publish' button on the webApp dashboard is pressed or using the Publication wizard.
+
+  * This is a new webApp on the instance where the package is imported, the webApp will be in 'Being Edited' state.
