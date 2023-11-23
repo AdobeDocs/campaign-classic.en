@@ -646,6 +646,7 @@ type: Documentation
           + [Best practices and limitations](installation/using/fda-best-practices.md)
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
+            + [Configure Amazon Redshift](installation/using/configure-fda-redshift.md)
             + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configure Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configure Hadoop](installation/using/configure-fda-hadoop.md)

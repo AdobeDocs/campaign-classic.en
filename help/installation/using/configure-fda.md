@@ -39,6 +39,7 @@ Depending on the external databases that you want to be able to access from Adob
 
 Follow the links below to learn more:
 
+* Connect Campaign and [Amazon Redshift](../../installation/using/configure-fda-redshift.md)
 * Connect Campaign and [Azure Synapse](../../installation/using/configure-fda-synapse.md)
 * Connect Campaign and [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Connect Campaign and [Hadoop](../../installation/using/configure-fda-hadoop.md)
