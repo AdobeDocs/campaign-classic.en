@@ -7,6 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
 ---
 # Configure access to Amazon Redshift {#configure-access-to-redshift}
 
