@@ -25,6 +25,10 @@ Once you have submitted this request, Adobe will proceed to the provisioning of 
 >
 >If you are using the demdex domain and following the syntax **ftp-out.demdex.com** for the import external account and **ftp-in.demdex.com** for the export external account, you need to adapt your implementation accordingly and move to Amazon Simple Storage Service (S3) connector to import or export data. For more information on how to configure your external accounts with Amazon S3, refer to this [section](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
 
+The following diagram details how this integration works. Here, AAM stands for Adobe Audience Manager and AC for Adobe Campaign.
+
+![](assets/aam_diagram.png){align="center"}
+
 ## Step 1: Configure or check the external accounts in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 First, we need to configure or check the external accounts in Adobe Campaign as follows:
@@ -81,10 +85,16 @@ To configure the **[!UICONTROL Recipient - Visitor ID]** data source:
 
 For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.
 
-You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html).
+To enable shared audiences to function with Visitor ID, the tracking server domain should be a sub-domain of the clicked URL or the main website.
+
+>[!IMPORTANT]
+>
+>You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html).
 
 ## Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
 In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+
+Sync customer identifiers with Declared ID using the `setCustomerID` function in the Experience Cloud ID service with the integration code: `AdobeCampaignID`. The `AdobeCampaignID` should match the value of the Reconcilation key set in the Recipient Data Source configured in [Step 2: Configure the Data Sources](#step-2--configure-the-data-sources).
 
 Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.
