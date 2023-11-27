@@ -78,6 +78,10 @@ To help you set up maintenance plans, this section lists some recommendations an
 
 ### Simple maintenance {#simple-maintenance}
 
+   >[!IMPORTANT]
+   >
+   >Adobe strongly suggests not to run VACUUM FULL on Campaign Adobe-hosted database setups.The maintenance suggested are a guide for ON-PREMISE installations only. For custom table implementations and schemas, use VACUUM FULL at your own risk as VACUUM - without monitoring - can exclusively lock tables causing stalled queries - and in some cases, lock up the entire database.
+
 In PostgreSQL, you can use these typical keywords:
 
 * VACUUM (FULL, ANALYZE, VERBOSE)
