@@ -255,12 +255,12 @@ This set of tables is linked to the **Mobile App Channel**, which allows to send
 
 ## Social Marketing Module {#social-marketing-module}
 
-This set of tables is linked to the **Managing social networks** module, which allows to interact with customers and prospects via Facebook and Twitter. For more on this, see [About social marketing](../../social/using/about-social-marketing.md).
+This set of tables is linked to the **Managing social networks** module, which allows to interact with customers and prospects via Facebook and X (formerly known as Twitter). For more on this, see [About social marketing](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
 * **NmsVisitor**: This table matches the **nms:visitor** schema. It contains information on visitors.
-* **NmsVisitorSub**: This table matches the **nms:visitorSub** schema. It enables you to link up a visitor to the services which they have subscribed to (Twitter or Facebook).
+* **NmsVisitorSub**: This table matches the **nms:visitorSub** schema. It enables you to link up a visitor to the services which they have subscribed to (X or Facebook).
 * **NmsFriendShipRel**: This table matches the **nms:friendshipRel** schema. It enables you to link up visitors with their friends within the context of the Facebook service.
 * **NmsVisitorInterestRel**: This table matches the **nms:visitorInterestRel** schema. It enables you to link up visitors and their interests.
 * **NmsInterest**: This table matches the **nms:interest** schema. It contains the list of interests for each visitor.

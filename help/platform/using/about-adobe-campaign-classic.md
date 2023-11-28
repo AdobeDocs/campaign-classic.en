@@ -71,7 +71,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [MRM](../../mrm/using/about-marketing-resource-management.md) - manage marketing resources and budgets,
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,
 * [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
-* [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, Twitter,
+* [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, X (formerly known as Twitter),
 * [Workflow](../../workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
 * [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,

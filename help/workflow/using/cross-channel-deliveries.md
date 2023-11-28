@@ -17,7 +17,7 @@ The various channels available are:
 * [Email](../../delivery/using/about-email-channel.md)
 * [Direct Mail](../../delivery/using/about-direct-mail-channel.md)
 * [Mobile](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/about-social-marketing.md)
+* [X (formerly known as Twitter)](../../social/using/about-social-marketing.md)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

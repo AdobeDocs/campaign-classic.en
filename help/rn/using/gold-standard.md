@@ -158,7 +158,7 @@ _December 17, 2019_
 
 The build 9032&#64;d6b8062 includes the following fix:
 
-* Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
+* Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, X - formerly known as Twitter). (NEO-19595)
 
 ### [!DNL Gold Standard] 4 release{#gs-4}
 

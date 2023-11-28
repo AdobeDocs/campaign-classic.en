@@ -9,11 +9,9 @@ exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
 ---
 # Viral and social marketing{#viral-and-social-marketing}
 
- 
-
 Adobe Campaign lets you set up tools to encourage viral marketing.
 
-This lets delivery recipients or website visitors share information with their network: from adding a link to their Facebook or Twitter profile to sending a message to a friend.
+This lets delivery recipients or website visitors share information with their network: from adding a link to their Facebook or X (formerly known as Twitter) profile to sending a message to a friend.
 
 ![](assets/s_ncs_user_viral_icons.png)
 

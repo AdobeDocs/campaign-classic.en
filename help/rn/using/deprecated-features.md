@@ -40,7 +40,7 @@ Customers are advised to review if they make use of the feature/capability in th
   </tr>
 <tr>
  <td>Social Marketing with Facebook</td>
- <td>Social Marketing with Facebook is now deprecated. You can use Twitter integration to post on social media, or work with Adobe to create a custom channel.
+ <td>Social Marketing with Facebook is now deprecated. You can use X (formerly known as Twitter) integration to post on social media, or work with Adobe to create a custom channel.
  <p></p>
   <p>Target removal date: End of 2023</p>
   </td>

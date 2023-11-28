@@ -45,11 +45,11 @@ To edit an existing service, click its name. To create a service, click the **[!
 
 ![](assets/s_ncs_user_services_add.png)
 
-* Enter the name of the service in the **[!UICONTROL Label]** field and select the delivery channel: email, mobile, Facebook, Twitter, or mobile applications.
+* Enter the name of the service in the **[!UICONTROL Label]** field and select the delivery channel: email, mobile, Facebook, X (formerly known as Twitter), or mobile applications.
 
   >[!NOTE]
   >
-  >Facebook and Twitter subscriptions are detailed in [this section](../../social/using/about-social-marketing.md). Mobile application subscriptions are detailed in [About mobile app channel](about-mobile-app-channel.md).
+  >Facebook and X subscriptions are detailed in [this section](../../social/using/about-social-marketing.md). Mobile application subscriptions are detailed in [About mobile app channel](about-mobile-app-channel.md).
 
 * For an Email type service, select the **Delivery mode**. The possible modes are: **[!UICONTROL Newsletter]** or **[!UICONTROL Viral]**.
 * You can send **confirmation messages** for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the **[!UICONTROL Subscription]** and **[!UICONTROL Unsubscription]** fields. These templates must be configured with a **[!UICONTROL Subscription]** type target mapping, without a defined target. See section [About email channel](about-email-channel.md).

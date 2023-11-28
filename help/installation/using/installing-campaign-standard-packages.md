@@ -92,7 +92,7 @@ The following table lists all Campaign built-in packages.
   </tr--> 
   <tr> 
    <td> Social networks (Social Marketing) <br /> </td> 
-   <td> Synchronizes Adobe Campaign with Twitter and Facebook. <a href="../../social/using/about-social-marketing.md">Learn More</a> <br /> </td> 
+   <td> Synchronizes Adobe Campaign with X (formerly known as Twitter) and Facebook. <a href="../../social/using/about-social-marketing.md">Learn More</a> <br /> </td> 
    <td> All</td> 
   </tr> 
   <tr> 

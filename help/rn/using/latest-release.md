@@ -135,7 +135,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 
 **Deprecated features**
 
-* Social Marketing with Facebook is now deprecated. You can use Twitter integration to post on social media, or work with Adobe to create a custom channel.
+* Social Marketing with Facebook is now deprecated. You can use X (formerly known as Twitter) integration to post on social media, or work with Adobe to create a custom channel.
 * ACS Connector (Prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
 
 Learn more in the [Deprecated and removed features page](deprecated-features.md).

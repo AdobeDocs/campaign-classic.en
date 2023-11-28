@@ -161,9 +161,9 @@ The table of values uses the following indicators:
 
 ### Sharing to social networks {#sharing-to-social-networks}
 
-Viral marketing lets delivery recipients share information with their contact network: they can add a link to their profile (Facebook, Twitter, etc.) or send a message to a friend. Each share and each access to shared information is tracked within the delivery. For more information on viral marketing, refer to [this section](../../delivery/using/viral-and-social-marketing.md).
+Viral marketing lets delivery recipients share information with their contact network: they can add a link to their profile (Facebook, X - formerly known as Twitter, etc.) or send a message to a friend. Each share and each access to shared information is tracked within the delivery. For more information on viral marketing, refer to [this section](../../delivery/using/viral-and-social-marketing.md).
 
-This report shows the breakdown of shared and opened messages per social network (Facebook, Twitter, etc.) and/or per email.
+This report shows the breakdown of shared and opened messages per social network (Facebook, X, etc.) and/or per email.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -196,7 +196,7 @@ This section includes two charts which represent the breakdown of sharing activi
 
 ## Statistics on sharing activities {#statistics-on-sharing-activities}
 
-This report shows the evolution of shares to social networks (Facebook, Twitter, email, etc.) in time.
+This report shows the evolution of shares to social networks (Facebook, X - formerly known as Twitter, email, etc.) in time.
 
 For more information on viral marketing, refer to [this section](../../delivery/using/viral-and-social-marketing.md).
 

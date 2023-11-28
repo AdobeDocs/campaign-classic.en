@@ -113,7 +113,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 +++**Channel**
 
-A channel is a medium through which a communication is sent. Built-in channels in Adobe Campaign are email, SMS, direct mail, Push notifications, LINE, and Twitter. Custom channels can be implemented for non-standard channel requirements. 
+A channel is a medium through which a communication is sent. Built-in channels in Adobe Campaign are email, SMS, direct mail, Push notifications, LINE, and X (formerly known as Twitter). Custom channels can be implemented for non-standard channel requirements. 
 
 Learn more about [Channels](../../delivery/using/communication-channels.md).
 +++
