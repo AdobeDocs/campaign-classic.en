@@ -11,7 +11,7 @@ exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 
 ## Pre-loading the form data {#pre-loading-the-form-data}
 
-If you wish to update the profiles stored in the database via a Web form, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database.
+If you wish to update the profiles stored in the database via a web form, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database.
 
 The following identification methods are possible:
 
@@ -71,9 +71,9 @@ Once the form has been created, configured and published, you can deliver it and
 
 ### Life cycle of a form {#life-cycle-of-a-form}
 
-There are three stages in the life cycle of a form:
+There are four stages in the life cycle of a form:
 
-1. **Form Being edited**
+1. **Being edited**
 
    This is the initial design phase. When a new form is created, it is in the editing phase. Access to the form, for testing purposes only, then requires the parameter **[!UICONTROL __uuid]** to be used in its URL. This URL is accessible in the **[!UICONTROL Preview]** sub-tab. See [Form URL parameters](defining-web-forms-properties.md#form-url-parameters).
 
@@ -81,17 +81,21 @@ There are three stages in the life cycle of a form:
    >
    >As long as the form is being edited, its access URL is a special URL.
 
-1. **Form Online**
+1. **Pending**
 
-   Once the design phase is complete, the form can be delivered. First, it needs to be published. For more on this, refer to [Publishing a form](#publishing-a-form).
+   Once the design phase is complete, the form can be delivered. First, it needs to be published. For more on this, refer to [Publishing a form](#publishing-a-form). Until it is live, it has the **[!UICONTROL Pending]** publication status.
 
-   The form will be **[!UICONTROL Live]** until it expires.
+   When a form has the **[!UICONTROL Pending]** status, at first load of the web form URL in a browser, the form is automatically published and gets the **[!UICONTROL Online]** status. <!--can you explain what is the first load of the web form URL? when does it happen?-->
+
+1. **Online**
+
+   Once published, the form will be live until it expires.
 
    >[!CAUTION]
    >
    >To be delivered, the URL of the survey must not contain the **[!UICONTROL __uuid]** parameter.
 
-1. **Form Unavailable**
+1. **Closed**
 
    Once the form is closed, the delivery phase is over and the form becomes unavailable: it is no longer accessible to users.
 
@@ -103,7 +107,7 @@ The publication status of a form is displayed in the list of forms.
 
 ### Publishing a form {#publishing-a-form}
 
-To change the state of a form, you need to publish it. To do this, click the **[!UICONTROL Publication]** button above the list of Web forms and select the state in the drop-down box.
+To change the state of a form, you need to publish it. To do this, click the **[!UICONTROL Publish]** button above the list of web applications and click the **[!UICONTROL Start]** button.
 
 ![](assets/webapp_publish_webform.png)
 
@@ -129,13 +133,13 @@ When you deliver an invitation via email, you can use the **[!UICONTROL Adobe Ca
 
 In this case, the reconciliation key for data storage must be the recipient's encrypted identifier. For more on this, refer to [Pre-loading the form data](#pre-loading-the-form-data).
 
-In this case, you need to check the **[!UICONTROL Update the preloaded record]** option in the record box. For more on this, refer to [Saving Web forms answers](web-forms-answers.md#saving-web-forms-answers).
+In this case, you need to check the **[!UICONTROL Update the preloaded record]** option in the record box. For more on this, refer to [Saving web forms answers](web-forms-answers.md#saving-web-forms-answers).
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### Log responses {#log-responses}
 
-Response tracking can be activated in a dedicated tab to monitor the impact of your Web form. To do this, click the **[!UICONTROL Advanced parameters...]** link in the form properties window and select the **[!UICONTROL Log responses]** option.
+Response tracking can be activated in a dedicated tab to monitor the impact of your web form. To do this, click the **[!UICONTROL Advanced parameters...]** link in the form properties window and select the **[!UICONTROL Log responses]** option.
 
 ![](assets/s_ncs_admin_survey_trace.png)
 
@@ -149,25 +153,24 @@ Select a recipient and click the **[!UICONTROL Detail...]** button to view the r
 
 You can process the response logs provided in queries, for instance to target only non-respondents when sending reminders, or to offer specific communications to respondents only.
 
-## Web form statuses
+### Importing web form packages
 
-This section describes the different status of a web form and the consequences when exporting/importing a webApp package from an instance to another (main case is from stage to prod).
+When exporting and importing a package including a web form from an instance to another instance, the web form status on the new instance can vary according to several conditions. They are listed below.
 
-The four essentials WebbApp state are:``
-* Being Edited (0)
-* Pending Publication (5)
-* Online (10)
-* Closed (20)
+When a form has the **[!UICONTROL Pending]** status, at first load of the web form URL in a browser, the form is automatically published and gets the **[!UICONTROL Online]** status. <!--can you explain what is the first load of the web form URL? when does it happen?--> <!--MOVE this sentence to "Life cycle of a form" section-->
 
-'Pending publication' is almost the same as 'Online', at first load of the url webApp in a browser, the WebApp will goes automatically publish and his state will be 'Online'.
+>[!NOTE]
+>
+>When you export a web form through a package, the form status is visible in the content of the resulting package. <!--how do you acess that?--> 
 
-When you Export in package a webApp, appstate is visible in the xml of the package. ( see appstate_in_package.png)
+* If the web form status was **Pending** or **Online** when exported from the first instance, the form gets the **Pending** status on the new instance, and becomes **Online** on first call of the web form URL. <!--whether is it an existing or new form? if existing, does the new Pending/Online version overwrites the existing version, Online or Being Edited?-->
 
-* You want the webApp to be online as soon as possible:
-If the state of the webApp is 'Online' or 'Pending Publication', it goes to 'Pending Publication', so at first call the webApp will be 'Online'
+* If the web form status was **Being Edited** when exported, there are two cases:
 
-* If the webApp is on state 'Being Edited', you export the webApp in a package and Import it in another instance ( main case is from stage to prod ):
+  * If the web form already exists on the new instance, this is a modification on an existing form. If the old version of the form was **Online**, it remains **Online** until the form is published again on the new instance.
 
-  * This is not a new webApp but a modification on an existing webApp which is currently 'Online', the package is loaded in the instance but old version of the webApp remains 'Online' till the 'Publish' button on the webApp dashboard is pressed or using the Publication wizard.
+  * If the web form is new on the instance where the package is imported, the web form gets the **Being Edited** status.
 
-  * This is a new webApp on the instance where the package is imported, the webApp will be in 'Being Edited' state.
+>[!NOTE]
+>
+>Learn more on the different statuses of a web form in [this section](#life-cycle-of-a-form).
