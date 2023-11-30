@@ -85,11 +85,11 @@ There are four stages in the life cycle of a form:
 
    Once the design phase is complete, the form can be delivered. First, it needs to be published. For more on this, refer to [Publishing a form](#publishing-a-form). Until it is live, it has the **[!UICONTROL Pending]** publication status.
 
-   When a form has the **[!UICONTROL Pending]** status, at first load of the web form URL in a browser, the form is automatically published and gets the **[!UICONTROL Online]** status. <!--can you explain what is the first load of the web form URL? when does it happen?-->
-
 1. **Online**
-
-   Once published, the form will be live until it expires.
+   
+    When a form has the **[!UICONTROL Pending]** status, on first load of the web form URL in a browser, the form is automatically published and gets the **[!UICONTROL Online]** status.
+    
+    Once published, the form will be live until it expires.
 
    >[!CAUTION]
    >
@@ -157,11 +157,11 @@ You can process the response logs provided in queries, for instance to target on
 
 When exporting and importing a package including a web form from an instance to another instance, the web form status on the new instance can vary according to several conditions. They are listed below.
 
-When a form has the **[!UICONTROL Pending]** status, at first load of the web form URL in a browser, the form is automatically published and gets the **[!UICONTROL Online]** status. <!--can you explain what is the first load of the web form URL? when does it happen?--> <!--MOVE this sentence to "Life cycle of a form" section-->
-
 >[!NOTE]
 >
->When you export a web form through a package, the form status is visible in the content of the resulting package. <!--how do you acess that?--> 
+>When you export a web form through a package, the form status is visible in the content of the resulting package.
+>
+>Learn more on the different statuses of a web form in [this section](#life-cycle-of-a-form).
 
 * If the web form status was **Pending** or **Online** when exported from the first instance, the form gets the **Pending** status on the new instance, and becomes **Online** on first call of the web form URL. <!--whether is it an existing or new form? if existing, does the new Pending/Online version overwrites the existing version, Online or Being Edited?-->
 
@@ -170,7 +170,3 @@ When a form has the **[!UICONTROL Pending]** status, at first load of the web fo
   * If the web form already exists on the new instance, this is a modification on an existing form. If the old version of the form was **Online**, it remains **Online** until the form is published again on the new instance.
 
   * If the web form is new on the instance where the package is imported, the web form gets the **Being Edited** status.
-
->[!NOTE]
->
->Learn more on the different statuses of a web form in [this section](#life-cycle-of-a-form).
