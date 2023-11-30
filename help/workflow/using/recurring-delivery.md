@@ -8,8 +8,6 @@ exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 ---
 # Recurring delivery{#recurring-delivery}
 
-
-
 A **[!UICONTROL Recurring delivery]** activity lets you configure a delivery template occurrence that is specific to a campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#recurring-delivery-video)
@@ -26,11 +24,15 @@ To do this:
 
 The configuration process for this activity is similar to that of creating a delivery template in terms of the options available. For more on this, refer to this [section](../../delivery/using/about-templates.md).
 
+>[!CAUTION]
+>
+>Recurring deliveries do not support sending proofs including [target data](../../workflow/using/data-life-cycle.md#target-data) personalization elements.
+
 For an example of this activity being used, refer to this [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## How to set up recurring delivery {#set-up-recurring-delivery}
 
-A **recurring delivery** will create a new delivery instance each time it executes. For example, if the workflow is scheduled to run once a week, that would result in 52 Deliveries after one year. This also means that the broad log and tracking logs will be separated by each delivery instance.
+A **recurring delivery** will create a new delivery instance each time it executes. For example, if the workflow is scheduled to run once a week, that would result in 52 deliveries after one year. This also means that the broad log and tracking logs will be separated by each delivery instance.
 
 ![Recurring Delivery](assets/delivery_recurring.jpg)
 
