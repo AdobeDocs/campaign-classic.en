@@ -99,7 +99,7 @@ There are four stages in the life cycle of a form:
 
    Once the form is closed, the delivery phase is over and the form becomes unavailable: it is no longer accessible to users.
 
-   The expiry date can be defined in the form properties window. For more on this, refer to [Making a form available online](#making-a-form-available-online)
+   The expiry date can be defined in the form properties window. For more on this, refer to [Making a form available online](#making-a-form-available-online).
 
 The publication status of a form is displayed in the list of forms.
 
