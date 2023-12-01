@@ -26,7 +26,7 @@ The configuration process for this activity is similar to that of creating a del
 
 >[!CAUTION]
 >
->Recurring deliveries do not support sending proofs including [target data](../../workflow/using/data-life-cycle.md#target-data) personalization elements.
+>Recurring deliveries do not support previewing content or sending proofs including [target data](../../workflow/using/data-life-cycle.md#target-data) personalization elements.
 
 For an example of this activity being used, refer to this [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 

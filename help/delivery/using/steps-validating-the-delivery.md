@@ -133,10 +133,6 @@ To send a proof, follow the steps below:
 
 1. Make sure the proof target has been configured as described in [Define a specific proof target](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
-   >[!CAUTION]
-   >
-   >[Recurring deliveries](../../workflow/using/recurring-delivery.md) do not support sending proofs including [target data](../../workflow/using/data-life-cycle.md#target-data) personalization elements.
-
 1. Click **[!UICONTROL Send a proof]** on the top bar of the delivery wizard.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
