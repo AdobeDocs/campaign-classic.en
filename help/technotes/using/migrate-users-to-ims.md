@@ -2,7 +2,6 @@
 title: Migrate Campaign operators to Adobe Identity Management System (IMS)
 description: Learn how to migrate Campaign operators to Adobe Identity Management System (IMS)
 badge-v7-host: label="hosted & managed services deployments only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to hosted and Campaign Managed Services deployments only"
-exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
 ---
 # Migrate Campaign operators to Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 

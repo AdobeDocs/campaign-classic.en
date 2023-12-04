@@ -4,7 +4,6 @@ description: Learn how to migrate Campaign technical operators to Technical acco
 badge-v7-host: label="hosted & managed services deployments only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to hosted and Campaign Managed Services deployments only"
 feature: Technote
 role: Admin
-exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
 ---
 # Migration of Campaign technical operators to Adobe Developer Console {#migrate-tech-users-to-ims}
 
