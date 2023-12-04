@@ -24,9 +24,12 @@ _December 5, 2023_
 
 * Adobe Identity Management System (IMS)
 
-    * With Campaign v7.3.5, the authentication process to Campaign v8 has been improved and secured. Technical operators must now use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in this technote.
-    * With Campaign v8, you will no longer be allowed to create operators from Campaign Client Console. If you are using the login/password native authentication, and plan to move to Adobe Campaign v8, you must migrate your operators to Adobe Identity Management System (IMS). Learn how to migrate your operators in this technote.
+    * With Campaign Classic v7.3.5, the authentication process to Campaign v8 has been improved and secured. Technical operators must now use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/using/ims-migration.md).
+    * With the next Adobe Campaign version, you will no longer be allowed to create operators from Campaign Client Console. If you are using the login/password native authentication, and plan to move to Adobe Campaign v8, you must migrate your operators to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this technote](../../technotes/using/migrate-users-to-ims.md).
 
+    >[!IMPORTANT]
+    > These changes apply to Campaign Managed Services and Hosted customers only.
+    
 * Third Parties
 
     This version comes with an upgraded Apache Tomcat version, which fixes Apache security vulnerabilities.
