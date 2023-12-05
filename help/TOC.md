@@ -814,6 +814,9 @@ type: Documentation
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
+  + Upgrade to IMS{#ims}
+    + [Migrate users to IMS](technotes/using/migrate-users-to-ims.md)
+    + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)
   + Upgrades and compatibility{#technote-migration}
        + [Technotes](technotes/using/technote.md)
        + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       
