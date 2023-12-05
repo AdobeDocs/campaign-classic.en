@@ -14,17 +14,24 @@ Get a glimpse of the newest enhancements in Adobe Campaign Classic v7 product an
 
 >[!BEGINTABS]
 
->[!TAB Update your Adobe Experience Cloud integration]
 
-The legacy oAuth authentication service has reached end-of-life: you must migrate to Adobe I/O
+>[!TAB December release is live!] 
 
-[![image](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
-
->[!TAB September release is live!] 
-
-Discover the security and compatibility updates, improvements and patches brought by this new version.
+Discover updates, improvements and patches coming with Campaign Classic v7.3.5.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
+
+>[!TAB Move to Adobe Identity Management Service]
+
+To reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS).
+
+[![image](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
+
+>[!TAB Update your Adobe Experience Cloud integration]
+
+The legacy oAuth authentication service has reached end-of-life: you must migrate to Adobe I/O.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
 
 >[!ENDTABS]
 
