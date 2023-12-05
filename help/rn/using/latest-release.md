@@ -27,8 +27,6 @@ _December 5, 2023_
   
 * In addition, as part of the effort to reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this technote](../../technotes/using/migrate-users-to-ims.md).
 
-* Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
-
 **Patches**
 
 * Fixed an issue when using data from a Google Big Query database and updating data in an Oracle database: all keys were set to `0` in the workflow temporary table. (NEO-65091)
