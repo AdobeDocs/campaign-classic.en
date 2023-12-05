@@ -27,12 +27,6 @@ To reinforce security and authentication process, Adobe Campaign highly recommen
 
 [![image](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
 
->[!TAB Update your Adobe Experience Cloud integration]
-
-The legacy oAuth authentication service has reached end-of-life: you must migrate to Adobe I/O.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
-
 >[!ENDTABS]
 
 ## Start with the basics
