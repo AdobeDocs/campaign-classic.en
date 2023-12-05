@@ -183,3 +183,6 @@ Learn more on the different statuses of a web form in [this section](#life-cycle
 
   * If the web form already exists on the new instance, this is a modification on an existing form. If the old version of the form was **[!UICONTROL Online]**, the old version remains online until the new version of the form is [published](#publishing-a-form) again on the new instance.
 
+///For RN:
+
+* Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
