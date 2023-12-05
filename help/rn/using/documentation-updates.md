@@ -16,9 +16,11 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2023
 
-### November 2023
+### December 2023
 
 JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
+
+Added FDA external account configuration for Amazon Redshift. [Read more](../../installation/using/configure-fda-redshift.md)
 
 ### August 2023
 
