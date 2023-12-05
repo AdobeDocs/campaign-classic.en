@@ -87,15 +87,13 @@ There are four stages in the life cycle of a form:
 
    >[!NOTE]
    >
-   >For technical web applications like 'deliveryValidation' and 'offerValidation', a form with the **[!UICONTROL Pending publication]** status is automatically [published](#publishing-a-form) and gets the **[!UICONTROL Online]** status.
+   >For technical web applications like 'deliveryValidation' and 'offerValidation'<!--check web app names-->, a form with the **[!UICONTROL Pending publication]** status is automatically [published](#publishing-a-form) and gets the **[!UICONTROL Online]** status.
 
 1. **Online**
 
     Once the design phase is complete, the form can be delivered.
     
     When a form has the **[!UICONTROL Being edited]** or **[!UICONTROL Pending publication]** status, it must be [published](#publishing-a-form) to be online and accesssible through the web form URL in a browser.
-    
-    <!--When a form has the **[!UICONTROL Pending]** status, on first load of the web form URL in a browser, the form is automatically published and gets the **[!UICONTROL Online]** status.-->
     
     Once published, the form will be live until it expires.
 
