@@ -6,7 +6,7 @@ description: Learn how to migrate Campaign operators to Adobe Identity Managemen
 
 As part of the effort to reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS). All operators should implement [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. 
 
-Note that in Campaign v8, connecting with user/password (aka native authentication) will no longer be allowed. Adobe recommends to perform this migration in Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.
+Note that in Campaign v8, connecting with user/password (aka native authentication) will no longer be allowed. **Adobe recommends to perform this migration in Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.**
 
 This article details the steps required to migrate a technical operator to technical account on Adobe Developer console.
 
@@ -40,7 +40,7 @@ Key steps for this migration are listed below:
 1. Work with Adobe to secure a date for Adobe to run automated migration for your non-technical users (operators) and product profiles. This step requires an hour window with no downtime to any of your instances.
 1. Your internal Campaign Administrator validates these changes, and provides sign-off. After this migration, you must no longer create any further operator authenticating with his login and password.
 
-You can now migrate your technical operator(s) to Adobe Developer Console as detailed in [this technote](ims-migration.md). This step is mandatory starting Campaign Classic v7.3.5 if you are using Campaign APIs.
+You can also migrate your technical operator(s) to Adobe Developer Console as detailed in [this technote](ims-migration.md). This step is highly recommended starting Campaign Classic v7.3.5 if you are using Campaign APIs.
 
 Once this migration is completed, confirm to your Adobe Transition Manager (for Managed Services users), or to Adobe Customer care (for Hosted customers). Adobe then marks the migration as complete, and blocks new native user creation and native user login. Your environment is then secured and standardized. 
 
@@ -54,6 +54,8 @@ Key steps for this migration are listed below:
 1. Create users and product profiles in Adobe Admin Console as detailed in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html){target="_blank"}.
 1. Enable the **Connect with Adobe ID** option for all operators.
 1. Implement Adobe IMS for your connection as detailed in [this page](../../integrations/using/implementing-ims.md).
+
+You can also migrate your technical operator(s) to Adobe Developer Console as detailed in [this technote](ims-migration.md). This step is highly recommended starting Campaign Classic v7.3.5 if you are using Campaign APIs.
 
 
 ## Frequently Asked Questions {#ims-migration-faq}
@@ -70,9 +72,11 @@ After your environments have been upgraded to Campaign Classic v7.3.5, you can i
 
 ### When is the migration complete? {#ims-migration-end}
 
-Once end-user migration and technical user migration to Adobe Identity Management System (IMS) is done, you must contact your Adobe Transition Manager so that Adobe can mark your migration as complete, and block user creation from the client console, and disable native user login.
+Once end-user migration and technical user migration to Adobe Identity Management System (IMS) is done, you must contact your Adobe Transition Manager so that Adobe can mark your migration as complete.
 
 ### How to create users after migration? {#ims-migration-native}
+
+Adobe recommends to create only IMS users after upgrading to Campaign Classic v7.3.5.
 
 As a Campaign Administrator, you can grant permissions to the users of your organization through Adobe Admin Console and Campaign Client Console. Users log on to Adobe Campaign with their Adobe ID. Learn how to set up permissions with IMS in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}. 
 
