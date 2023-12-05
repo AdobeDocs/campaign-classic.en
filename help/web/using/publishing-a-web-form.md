@@ -81,13 +81,21 @@ There are four stages in the life cycle of a form:
    >
    >As long as the form is being edited, its access URL is a special URL.
 
-1. **Pending**
+1. **Pending publication**
 
-   Once the design phase is complete, the form can be delivered. First, it needs to be published. For more on this, refer to [Publishing a form](#publishing-a-form). Until it is live, it has the **[!UICONTROL Pending]** publication status.
+   In some cases, a web form can have the **[!UICONTROL Pending publication]** status until it is live. [Learn more](#import-web-packages)
+
+   >[!NOTE]
+   >
+   >For technical web applications like 'deliveryValidation' and 'offerValidation', a form with the **[!UICONTROL Pending publication]** status is automatically [published](#publishing-a-form) and gets the **[!UICONTROL Online]** status.
 
 1. **Online**
-   
-    When a form has the **[!UICONTROL Pending]** status, on first load of the web form URL in a browser, the form is automatically published and gets the **[!UICONTROL Online]** status.
+
+    Once the design phase is complete, the form can be delivered.
+    
+    When a form has the **[!UICONTROL Being edited]** or **[!UICONTROL Pending publication]** status, it must be [published](#publishing-a-form) to be online and accesssible through the web form URL in a browser.
+    
+    <!--When a form has the **[!UICONTROL Pending]** status, on first load of the web form URL in a browser, the form is automatically published and gets the **[!UICONTROL Online]** status.-->
     
     Once published, the form will be live until it expires.
 
@@ -153,20 +161,27 @@ Select a recipient and click the **[!UICONTROL Detail...]** button to view the r
 
 You can process the response logs provided in queries, for instance to target only non-respondents when sending reminders, or to offer specific communications to respondents only.
 
-### Importing web form packages
+### Importing web form packages {#import-web-packages}
 
-When exporting and importing a package including a web form from an instance to another instance, the web form status on the new instance can vary according to several conditions. They are listed below.
+When exporting and importing a package including a web form from an instance to another instance (for example, from stage to production), the web form status on the new instance can vary according to several conditions. The different cases are listed below.
+
+Learn more on the different statuses of a web form in [this section](#life-cycle-of-a-form).
 
 >[!NOTE]
 >
 >When you export a web form through a package, the form status is visible in the content of the resulting package.
->
->Learn more on the different statuses of a web form in [this section](#life-cycle-of-a-form).
 
-* If the web form status was **Pending** or **Online** when exported from the first instance, the form gets the **Pending** status on the new instance, and becomes **Online** on first call of the web form URL. <!--whether is it an existing or new form? if existing, does the new Pending/Online version overwrites the existing version, Online or Being Edited?-->
+* If the web form status was **[!UICONTROL Pending publication]** or **[!UICONTROL Online]** when exported from the first instance:
+  
+  * The web form gets the **[!UICONTROL Pending publication]** status when imported on the new instance.
 
-* If the web form status was **Being Edited** when exported, there are two cases:
+  * If the web form already exists on the new instance, it is replaced with the new version of the form and takes the **[!UICONTROL Pending publication]** status, even if the old version of the form was **[!UICONTROL Online]**.
 
-  * If the web form already exists on the new instance, this is a modification on an existing form. If the old version of the form was **Online**, it remains **Online** until the form is published again on the new instance.
+  * In both cases, the form must be [published](#publishing-a-form) to become **[!UICONTROL Online]** on the new instance and accesssible through the web form URL in a browser.
 
-  * If the web form is new on the instance where the package is imported, the web form gets the **Being Edited** status.
+* If the web form status was **[!UICONTROL Being edited]** when exported:
+
+  * If the web form is new on the instance where the package is imported<!--can we skip specifying this? because if a web form already exists, the new version becomes Being edited and the old version is still Online until the new version is published - so both versions exists until the new is published?-->, the web form gets the **[!UICONTROL Being edited]** status.
+
+  * If the web form already exists on the new instance, this is a modification on an existing form. If the old version of the form was **[!UICONTROL Online]**, the old version remains online until the new version of the form is [published](#publishing-a-form) again on the new instance.
+
