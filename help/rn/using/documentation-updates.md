@@ -16,21 +16,21 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2023
 
-### December 2023
+### December 2023 {#dec-2023}
 
 JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
 
 Added FDA external account configuration for Amazon Redshift. [Read more](../../installation/using/configure-fda-redshift.md)
 
-### August 2023
+### August 2023 {#aug-2023}
 
 A limitation has been added to specify that you cannot use Adobe Campaign to uncompress zipped files larger than 4Gb. [Read more](../../platform/using/unzip-decrypt.md)
 
-### April 2023
+### April 2023 {#apr-2023}
 
 Added a technote about how to enable Microsoft Edge Chromium on on-premise/hybrid environments. [Read more](../../technotes/using/edge-chromium.md)
 
-### March 2023
+### March 2023 {#mar-2023}
 
 Updated Release Notes section with 7.3.3 improvements and patches. [Read more](latest-release.md)
 
