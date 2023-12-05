@@ -21,7 +21,7 @@ Discover updates, improvements and patches coming with Campaign Classic v7.3.5.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
->[!TAB Move to Adobe Identity Management Service]
+>[!TAB Move to Adobe Identity Management System]
 
 To reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS).
 
