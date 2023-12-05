@@ -1,11 +1,12 @@
 ---
 title: Migrate Campaign operators to Adobe Identity Management System (IMS)
 description: Learn how to migrate Campaign operators to Adobe Identity Management System (IMS)
-badge-v7-host: label="Hosted & Managed Services deployments only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to hosted and Campaign Managed Services deployments only"
 ---
 # Migrate Campaign operators to Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
-Starting Campaign Classic v7.3.5, the authentication process to Campaign is being improved. All operators will use [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} **only** to connect to Campaign. In Campaign v8, connecting with user/password (aka native authentication) will no longer be allowed. Adobe recommends to perform this migration in Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.
+As part of the effort to reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS). All operators should implement [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. 
+
+Note that in Campaign v8, connecting with user/password (aka native authentication) will no longer be allowed. Adobe recommends to perform this migration in Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.
 
 This article details the steps required to migrate a technical operator to technical account on Adobe Developer console.
 
@@ -15,41 +16,51 @@ With Campaign Classic, all regular users can already connect to the Adobe Campai
 
 In addition, as part of the effort to reinforce security and authentication process, Adobe Campaign client application now calls Campaign APIs directly using the IMS technical account token. Migration for technical operators is detailed in a dedicated article, available in [this page](ims-migration.md).
 
-This change is applicable starting Campaign v7.3.5, and will be **mandatory** starting Campaign v8.6. 
+This change is already applicable in Campaign Classic v7, and will be **mandatory** to move to Campaign v8. 
 
 ## Are you impacted?{#migrate-ims-impacts}
 
-As a Campaign Classic v7 hosted or managed services customer, this procedure applies to you.
+This procedure applies to all Campaign users which are not already connecting to Campaign with their Adobe ID.
 
 If operators in your organization are connecting to Campaign client console using their login/password (aka. native authentication), you are impacted, and should migrate these operator(s) to Adobe IMS as detailed below.
 
 Migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is a security imperative to make your environments secure and standardized, as most of the other Adobe Experience Cloud solutions and apps are already on IMS.
 
-## How to migrate?{#ims-migration-procedure}
+## How to migrate Hosted and Managed Services environments? {#ims-migration-procedure}
 
-### Prerequisites{#ims-migration-prerequisites}
+### Prerequisites {#ims-migration-prerequisites}
 
-Before starting the migration process, you must reach out to your Adobe Transition Manager so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
+Before starting the migration process, you must reach out to your Adobe Transition Manager (for Managed Services customers), or to Adobe Customer Care (for other hosted customers), so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
 
 ### Key steps {#ims-migration-steps}
 
 Key steps for this migration are listed below: 
 
-1. Adobe upgrades your environments to Campaign Classic v7.3.5.
-1. After the upgrade, you can still create new users with both methods, as native user or with IMS.
-1. Your internal Campaign Administrator must add unique emails to all native users on the Campaign client console, and confirm to your Adobe Transition Manager once this is done. This step is detailed in [this section](#ims-migration-id).
+1. Your internal Campaign Administrator must add unique emails to all native users on the Campaign client console, and confirm to your Adobe Transition Manager (or to Adobe Customer Care) once this is done. This step is detailed in [this section](#ims-migration-id).
 1. Work with Adobe to secure a date for Adobe to run automated migration for your non-technical users (operators) and product profiles. This step requires an hour window with no downtime to any of your instances.
 1. Your internal Campaign Administrator validates these changes, and provides sign-off. After this migration, you must no longer create any further operator authenticating with his login and password.
 
-You can now migrate your technical operator(s) to Adobe Developer Console as detailed in [this technote](ims-migration.md). This step is mandatory if you are using Campaign APIs.
+You can now migrate your technical operator(s) to Adobe Developer Console as detailed in [this technote](ims-migration.md). This step is mandatory starting Campaign Classic v7.3.5 if you are using Campaign APIs.
 
-Once this migration is completed, confirm to your Adobe Transition Manager: Adobe then marks the migration as complete, and blocks new native user creation and native user login. Your environment is then secured and standardized. 
+Once this migration is completed, confirm to your Adobe Transition Manager (for Managed Services users), or to Adobe Customer care (for Hosted customers). Adobe then marks the migration as complete, and blocks new native user creation and native user login. Your environment is then secured and standardized. 
+
+
+## How to migrate Hybrid and On-Premise environments? {#ims-migration-procedure-on-prem}
+
+Key steps for this migration are listed below: 
+
+1. Your internal Campaign Administrator must configure Adobe IMS as detailed in [this section](../../integrations/using/configuring-ims.md).
+1. Then add unique emails to all native users on the Campaign client console. This step is detailed in [this section](#ims-migration-id).
+1. Create users and product profiles in Adobe Admin Console as detailed in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html){target="_blank"}.
+1. Enable the **Connect with Adobe ID** option for all operators.
+1. Implement Adobe IMS for your connection as detailed in [this page](../../integrations/using/implementing-ims.md).
+
 
 ## Frequently Asked Questions {#ims-migration-faq}
 
 ### When can I start the migration? {#ims-migration-start}
 
-A prerequisite for the migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is to upgrade your environment to Campaign Classic v7.3.5.
+A recommendation for the migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is to upgrade your environment to Campaign Classic v7.3.5.
 
 You can start IMS migration on your stage environment, once it is upgraded to Campaign Classic v7.3.5, and accordingly plan for production environment.
 
@@ -57,16 +68,11 @@ You can start IMS migration on your stage environment, once it is upgraded to Ca
 
 After your environments have been upgraded to Campaign Classic v7.3.5, you can initiate your transition to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}. 
 
-New native user creation is still allowed until the IMS migration is complete. 
-
 ### When is the migration complete? {#ims-migration-end}
 
 Once end-user migration and technical user migration to Adobe Identity Management System (IMS) is done, you must contact your Adobe Transition Manager so that Adobe can mark your migration as complete, and block user creation from the client console, and disable native user login.
 
-
 ### How to create users after migration? {#ims-migration-native}
-
-Once full IMS migration is complete, Adobe will apply the restrictions which will block new native user creation. These restrictions are not applied until IMS migration is complete.
 
 As a Campaign Administrator, you can grant permissions to the users of your organization through Adobe Admin Console and Campaign Client Console. Users log on to Adobe Campaign with their Adobe ID. Learn how to set up permissions with IMS in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}. 
 
@@ -88,11 +94,9 @@ Learn how to connect to Campaign with your Adobe ID in [this section](../../inte
 
 ### Will there be a downtime during this migration? {#ims-migration-downtime}
 
-To finalize the migration (migrate users and product profiles), Adobe requires one hour window with no downtime to any of your instances (workflows, etc).
+For Hosted and Managed Services customers, to finalize the migration (migrate users and product profiles), Adobe requires one hour window with no downtime to any of your instances (workflows, etc).
 
 During this timeframe, all Campaign users need to log off, and log back with their Adobe ID once the migration to IMS is finalized.
-
-### What happens to users that are logged in during IMS user migration? {#ims-migration-log-off}
 
 Adobe strongly recommends all users should be logged off during the migration window.
 
@@ -101,8 +105,6 @@ Adobe strongly recommends all users should be logged off during the migration wi
 There are 2 aspects in this migration: end-users migration and technical users migration (used in APIs in your custom code).
 
 If all your users (Campaign operators) are on IMS you do not need to perform this migration. However, you still need to migrate Technical users you might have used in custom code. Learn more in [this page](ims-migration.md).
-
-Once this migration is done, you must contact your Adobe Transition Manager so that Adobe finalizes the migration.
 
 ## Useful links {#ims-useful-links}
 

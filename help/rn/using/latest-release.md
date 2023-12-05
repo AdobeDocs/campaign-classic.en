@@ -12,7 +12,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-## Release 7.3.5 - Build XXX {#release-7-3-5}
+## Release 7.3.5 - Build 9368 {#release-7-3-5}
 
 [!BADGE General Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
@@ -22,13 +22,10 @@ _December 5, 2023_
 
 **Security enhancements**
 
-* Adobe Identity Management System (IMS)
 
-    * With Campaign Classic v7.3.5, the authentication process has been improved and secured. Technical operators must now use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/using/ims-migration.md).
-    * With the next Adobe Campaign version, you will no longer be allowed to create operators from Campaign Client Console. If you are using the login/password native authentication, and plan to move to Adobe Campaign v8, you must migrate your operators to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this technote](../../technotes/using/migrate-users-to-ims.md).
-
-    >[!IMPORTANT]
-    > These changes apply to Campaign Managed Services and Hosted customers only.
+* With Campaign Classic v7.3.5, the authentication process has been improved and secured. Technical operators must now use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/using/ims-migration.md).
+  
+* In addition, as part of the effort to reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this technote](../../technotes/using/migrate-users-to-ims.md).
 
 
 **Patches**

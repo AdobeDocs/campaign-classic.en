@@ -1,25 +1,21 @@
 ---
 title: Migration of technical users to Adobe Developer console
 description: Learn how to migrate Campaign technical operators to Technical account on Adobe Developer console
-badge-v7-host: label="hosted & managed services deployments only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to hosted and Campaign Managed Services deployments only"
 feature: Technote
 role: Admin
 ---
 # Migration of Campaign technical operators to Adobe Developer Console {#migrate-tech-users-to-ims}
 
-As part of the effort to reinforce security and authentication process, starting with Campaign Classic v7.3.5, the authentication process to Campaign Classic is being improved. Technical operators can now use the [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+As part of the effort to reinforce security and authentication process, starting with Campaign Classic v7.3.5, the authentication process to Campaign Classic is being improved. Technical operators must now use the [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 A technical operator is a Campaign user profile which has been explicitly created for API integration. This article details the steps required to migrate a technical operator to a technical account via the Adobe Developer console.
 
 
 ## Are you impacted?{#ims-impacts}
 
-As a Campaign Classic v7 hosted or managed services customer, this procedure applies to you.
-
-If you are making API calls from a system external to Campaign into either their Campaign Marketing instance or the Real-Time Message Center instance, you must migrate the technical operator(s) to technical account(s) through the Adobe Developer Console as detailed below.
+If you are making API calls from a system external to Campaign into either your Campaign Marketing instance or the Real-Time Message Center instance, you must migrate the technical operator(s) to technical account(s) through the Adobe Developer Console as detailed below.
 
 This change is applicable starting Campaign Classic v7.3.5, and is **mandatory** to move to Adobe Campaign v8.
-
 
 ## Migration process {#ims-migration-procedure}
 
@@ -37,13 +33,25 @@ An overview of the steps are:
 
 <!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
-For API calls into the Message Center instance(s), a product profile should have been created during the upgrade to Campaign v7.3.5 or during provisioning of the instance. This product profile is named:
+* Campaign Hosted and Managed Services customers
 
-`campaign - <your campaign instance> - messagecenter`
+    For API calls into the Message Center instance(s), a product profile should have been created during the upgrade to Campaign v7.3.5 or during provisioning of the instance. This product profile is named:
 
-If you have already been using IMS based authentication for user access to Campaign then the product profiles needed for the API calls should already exist within the Admin Console. If you use a custom operator group within Campaign for the API calls to the Marketing instance, you must create that product profile within the Admin Console.
+    `campaign - <your campaign instance> - messagecenter`
 
-For other cases, you must reach out to your Adobe Transition Manager so that Adobe technical teams can migrate your existing Operator groups and Named rights to the Product Profiles within the Admin Console.
+    If you have already been using IMS based authentication for user access to Campaign then the product profiles needed for the API calls should already exist within the Admin Console. If you use a custom operator group within Campaign for the API calls to the Marketing instance, you must create that product profile within the Admin Console.
+
+    For other cases, you must reach out to your Adobe Transition Manager (for Managed Services users) or to Adobe Customer Care (for other Hosted users), so that Adobe technical teams can migrate your existing Operator groups and Named rights to the Product Profiles within the Admin Console.
+
+* Campaign On-Premise and Hybrid customers
+
+    For API calls into the Message Center instance(s), you must create a product profile named:
+
+    `campaign - <your campaign instance> - messagecenter`
+
+    If you have already been using IMS based authentication for user access to Campaign then the product profiles needed for the API calls should already exist within the Admin Console. If you use a custom operator group within Campaign for the API calls to the Marketing instance, you must create that product profile within the Admin Console.
+
+    You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}
 
 
 ### Step 1 - Create your Campaign Project within the Adobe Developer Console {#ims-migration-step-1}
