@@ -83,7 +83,7 @@ There are four stages in the life cycle of a form:
 
 1. **Pending publication**
 
-   In some cases, a web form can have the **[!UICONTROL Pending publication]** status until it is live. [Learn more](#import-web-packages)
+   In some cases (such as when [importing a form through a package](#import-web-packages)), a web form can have the **[!UICONTROL Pending publication]** status until it is live.
 
    >[!NOTE]
    >
