@@ -74,7 +74,7 @@ Once the local folder path is defined, add and edit the following elements as de
 
 ```
 <archiving autoStart="false" compressionFormat="0" compressBatchSize="10000"
-           archivingType="0" expirationDelay="2" purgeArchivesDelay="7"
+           archivingType="1" expirationDelay="2" purgeArchivesDelay="7"
            pollDelay="600" acquireLimit="5000" smtpNbConnection="2"/>
 ```
 
@@ -85,11 +85,12 @@ Once the local folder path is defined, add and edit the following elements as de
   **1**: compression (.zip format)
 
 * **compressBatchSize**: number of .eml files added to an archive (.zip file).
-* **archivingType**: archiving strategy to be used. The possible values are:
 
-  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
 
-  **1**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder and they are sent to the BCC email address over SMTP. Once the email copies are sent to the BCC address, the archive file name becomes **`<deliveryid>-<broadlogid>-sent-archived.eml`** and the file is moved to the **dataLogPath/archives** folder. The sent and BCC archived email file path is then **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+* **archivingType**: archiving strategy to be used. The only possible value is **1**. Raw copies of sent emails are saved in .eml format to the **dataLogPath** folder and they are sent to the BCC email address over SMTP. Once the email copies are sent to the BCC address, the archive file name becomes **`<deliveryid>-<broadlogid>-sent-archived.eml`** and the file is moved to the **dataLogPath/archives** folder. The sent and BCC archived email file path is then **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+
+  <!--
+  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->
 
 * **expirationDelay**: number of days .eml files are kept for archiving. After that delay, they are automatically moved to the **dataLogPath/archives** folder for compression. By default, .eml files expire after two days.
 * **purgeArchivesDelay**: number of days archives are kept in the **dataLogPath/`<archives>`** folder. After that period, they are permanently deleted. The purge begins when the MTA is started. By default, it is carried out every seven days.
@@ -125,11 +126,10 @@ In the **config- `<instance name>.xml`** file, use the following parameters to d
 >
 >Besides, the relay assigns a **[!UICONTROL Sent]** status to all emails, including those that are not sent. Therefore, all messages are archived.
 
+<!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
 [!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
-
-
 
 >[!IMPORTANT]
 >
@@ -142,6 +142,7 @@ To do this, make the following changes to the **`config-<instance>.xml`** file:
 1. Set the **archivingType** parameter to **1**.
 
 Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+-->
 
 ## Email BCC best practices {#best-practices}
 
