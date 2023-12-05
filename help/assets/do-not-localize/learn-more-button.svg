@@ -1,0 +1,5 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="94.079" height="32" viewBox="0 0 94.079 32">
+  <rect id="Placement_Area" data-name="Placement Area" width="94" height="32" fill="red" opacity="0"/>
+  <path id="Background" d="M13.2,0H80.875c7.292,0,13.2,7.163,13.2,16s-5.912,16-13.2,16H13.2C5.912,32,0,24.837,0,16S5.912,0,13.2,0Z" fill="#0265dc"/>
+  <text id="Text" transform="translate(11 20)" fill="#fff" font-size="14" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="0" y="0">Learn more</tspan></text>
+</svg>

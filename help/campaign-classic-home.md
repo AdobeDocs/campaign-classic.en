@@ -11,67 +11,92 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
-* **[September Release is live!](rn/using/latest-release.md)**<br/> Discover new capabilities, improvements, and fixes in the Release Notes
+Get a glimpse of the newest enhancements in Adobe Campaign Classic v7 product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](rn/using/latest-release.md).  Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](rn/using/documentation-updates.md).
 
-<!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
+>[!BEGINTABS]
 
-* **[Update your Adobe Experience Cloud integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life: you must migrate to Adobe I/O
+>[!TAB Update your Adobe Experience Cloud integration]
 
-[More updates](rn/using/documentation-updates.md)
+The legacy oAuth authentication service has reached end-of-life: you must migrate to Adobe I/O
 
-## Top pages
+[![image](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
+
+>[!TAB September release is live!] 
+
+Discover the security and compatibility updates, improvements and patches brought by this new version.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
+
+>[!ENDTABS]
+
+## Start with the basics
 
 <table style="table-layout:fixed">
-<tr>
-  <td>
-    <a href="platform/using/common-questions.md">
-      <img alt="FAQ" src="platform/using/assets/FAQ.png"/>
-    </a>
-    <div>
-      <a href="platform/using/common-questions.md">
-    <strong>Frequently Asked Questions</strong>
-    </a>
-    </div>
-    <p>
-    <em>Find answers to common questions when using Campaign Classic</em>
-    <p>
-  </td>
-   <td>
-    <a href="production/using/build-upgrade.md">
-      <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
-    </a>
-    <div>
-      <a href="production/using/build-upgrade.md">
-    <strong>Upgrade to the latest build</strong>
-    </a>
-    </div>
-    <p>
-    <em>Learn key steps and best practices to perform a build upgrade</em>
-    <p>
-  </td>
-  <td>
-    <a href="delivery/using/create-notifications-ios.md">
-       <img alt="Push notifications" src="platform/using/assets/push.png" />
-    </a>
-    <div>
-       <a href="delivery/using/create-notifications-ios.md">
-    <strong>Send push notifications</strong>
-    </a>
-    </div>
-    <p>
-    <em>Design and send personalized push notifications on mobiles</em>
-    <p>
-  </td>
-</tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/start-launch.png"></a></a>
+    <div><strong>Launch Adobe Campaign</strong><br/>Learn how to launch the Campaign Client console and connect to your Campaign application server(s).</div>
+    </td>
+    <td>
+    <a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
+    <div><strong>Add & manage profiles</strong><br/>Explore profile management in the Adobe Campaign v7 database with ease. Add profiles manually or through imports, refining customer data and customizing campaigns effortlessly.</div>
+    </td>
+    <td>
+    <a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <div><strong>Automate with workflows</strong><br/>Learn how to leverage workflow to design processes including segmentation, campaign execution, file processing, human participation, among others.
+    </div></td>
+    <td>
+    <a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
+    <div><strong>Create deliveries</strong><br/>Learn how to send messages across various channels such as email, SMS, push notifications etc.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
 
-## Additional Resources
+## Explore the documentation
 
-| Useful pages | Resources for developers |
-|---|---|
-| [Release notes](rn/using/latest-release.md) | [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
-| [How-to videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
-| [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html) |
-| [Get started with upgrades](rn/using/rn-overview.md) | [Tracking guide](delivery/using/about-message-tracking.md) |
-| [Deprecated features](rn/using/deprecated-features.md) | [Security & privacy checklist](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/get-started-security-privacy.html) |
-| [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Monitoring guidelines](production/using/monitoring-guidelines.md) |
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+    <br/>
+      <strong>Get started</strong><br/><a href="platform/using/adobe-campaign-workspace.md">User interface</a> - <a href="platform/using/ac-glossary.md">Glossary</a> - <a href="platform/using/launching-adobe-campaign.md">Connect to Campaign</a> - <a href="platform/using/get-started-data-import-export.md">Import & export data</a> - <a href="platform/using/access-management.md">Permissions</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
+      <strong>Customer's experience</strong><br/><a href="workflow/using/about-workflows.md">Automate with workflows</a> - <a href="campaign/using/setting-up-marketing-campaigns.md">Marketing campaign</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction & offer management</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Reporting</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-send.svg" width="35px">
+    <br/>
+      <strong>Send messages</strong><br/><a href="delivery/using/communication-channels.md">Communication channels</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Send proofs</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B testing</a> - <a href="delivery/using/about-message-tracking.md">Message tracking</a> - <a href="delivery/using/about-deliverability.md">Deliverability</a> - <a href="message-center/using/about-transactional-messaging.md">Transactional messaging</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
+      <br/>
+      <strong>Profiles & audiences</strong><br/><a href="platform/using/adding-profiles.md">Add profiles</a> - <a href="platform/using/creating-and-managing-lists.md">Create lists</a> - <a href="delivery/using/about-services-and-subscriptions.md">Services & subscriptions</a> - <a href="platform/using/privacy-management.md">Privacy & consent</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
+      <br/>
+      <strong>Architecture & configuration</strong><br/><a href="production/using/general-architecture.md">Architecture principles</a> - <a href="production/using/build-upgrade.md">Performing a build upgrade</a> - <a href="production/using/configuration.md">Configure Campaign</a> - <a href="installation/using/external-accounts.md">Connect to external systems</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-dev.svg" width="35px">
+      <br/>
+      <strong>Developer resources</strong><br/><a href="configuration/using/about-data-model.md">Data model description</a> - <a href="configuration/using/about-schema-reference.md">Schema structure</a> - <a href="configuration/using/editing-forms.md">Schema structure</a> - <a href="configuration/using/about-web-services.md">APIs</a> - <a href="configuration/using/about-custom-recipient-table.md">Custom recipient table</a>
+    </td>
+  </tr>
+</table> 
+
+## Additional resources
+
+[List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) - [Adobe Campaign Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Compatibility matrix](rn/using/compatibility-matrix.md) - [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html){target="_blank"} - [Control Panel for Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
