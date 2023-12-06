@@ -183,6 +183,11 @@ Learn more on the different statuses of a web form in [this section](#life-cycle
 
   * If the web form already exists on the new instance, this is a modification on an existing form. If the old version of the form was **[!UICONTROL Online]**, the old version remains online until the new version of the form is [published](#publishing-a-form) again on the new instance.
 
-///For RN:
+<!--For RN:
 
 * Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+
+Questions envoyées à Naim :
+1. Tu parles de web app techniques (comme 'deliveryValidation' et 'offerValidation'), mais où est-ce qu'on les trouve dans l'UI ? Je ne les vois pas avec les autres custom web forms.
+1. Je comprends que si un web form existe déjà et qu'on importe une nouvelle version de ce form avec le statut Being edited et que l'ancienne version est Online, on aura donc 2 versions de ce web form sur la nouvelle instance - la nouvelle en Being edited et l'ancienne Online (tant que la nouvelle version n'est pas publiée), c'est ça ? Concrètement est-ce qu'on voit les deux dans l'UI ? Et dès qu'on publie la nouvelle version, l'autre disparaît ?
+-->
