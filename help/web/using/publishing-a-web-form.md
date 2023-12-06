@@ -185,7 +185,7 @@ Learn more on the different statuses of a web form in [this section](#life-cycle
 
   >[!NOTE]
   >
-  >  You can check the new version of your web form using the **[!UICONTROL Preview]** tab.
+  >You can check the latest version of your web form using the **[!UICONTROL Preview]** tab.
 
 <!--For RN:
 
