@@ -6,6 +6,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Technote, Upgrade
 role: User
 level: Beginner
+solution: Campaign
+version: Classic v7
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 ---
 # Overview{#dc-ovv}
@@ -20,7 +22,7 @@ This program has three main goals:
 
 * Addressing identified security vulnerabilities by moving infrastructure to a secured and modern environment (AWS).
 * Eliminate potentially cumbersome scaling processes,  provide access to our [Enhanced MTAs](../../delivery/using//sending-with-enhanced-mta.md) and improve all maintenance service levels. 
-* Prepare your instance for the future of Adobe Campaign Classic, including more automated, regular upgrades that won’t require as many resources, nor as much time.
+* Prepare your instance for the future of Adobe Campaign Classic, including more automated, regular upgrades that won't require as many resources, nor as much time.
 
 ### Glossary
 
@@ -73,7 +75,7 @@ This program has three main goals:
 
 To get this effort started, accounts requiring this migration will receive an email communication from Adobe providing a timeline and access to documentation. This will be your notification that your account is scheduled to be migrated.
 
-A migration can be initiated by [opening a new Customer Care support ticket](https://experienceleague.adobe.com/?support-solution=Campaign#support). Use the subject line “Migrate to AWS”.
+A migration can be initiated by [opening a new Customer Care support ticket](https://experienceleague.adobe.com/?support-solution=Campaign#support). Use the subject line "Migrate to AWS".
 
 ### Is this migration mandatory?
 
@@ -115,7 +117,7 @@ Adobe handles most of the actions. We need you for validation and sign-off.
 
 **Database**
 
-The database will be dumped from the legacy data center and restored at Public Cloud (AWS). When restarted on the new data center, the application will resume from the exact state it was before shutdown. Users won’t see any difference, except that some scheduled tasks will have been delayed.
+The database will be dumped from the legacy data center and restored at Public Cloud (AWS). When restarted on the new data center, the application will resume from the exact state it was before shutdown. Users won't see any difference, except that some scheduled tasks will have been delayed.
 
 **Email sending IPs**
 
@@ -134,7 +136,7 @@ In general, that means that the client should check possible IP-restrictions set
 
 **Campaign Servers**
 
-Existing Campaign servers (containers actually) will be moved to Public Cloud (AWS) in a “lift-and-shift” approach. That is, no new server installation will be needed, but the entire server will be transferred to the new data center. The operation will require no more work than low-level technical reconfiguration.
+Existing Campaign servers (containers actually) will be moved to Public Cloud (AWS) in a "lift-and-shift" approach. That is, no new server installation will be needed, but the entire server will be transferred to the new data center. The operation will require no more work than low-level technical reconfiguration.
 
 **Server names**
 
@@ -151,7 +153,7 @@ That means the change will be transparent for users, and data integration implem
 
 **Email sending IPs**
 
-First, Adobe Deliverability will assess the platform’s deliverability status and recommend a plan for the switch to the new IPs.
+First, Adobe Deliverability will assess the platform's deliverability status and recommend a plan for the switch to the new IPs.
 
 Adobe will provision the same number of IPs on the new data center.
 
@@ -176,7 +178,7 @@ Suggestions:
 
 **Pause executions**
 
-We recommend slowing down and ideally pausing all executions just before the application is shutdown on the legacy data center: deliveries and workflows. That will ease the restart on Public Cloud (AWS) as processes will have been given time to pause “gracefully” and save any in-progress execution state.
+We recommend slowing down and ideally pausing all executions just before the application is shutdown on the legacy data center: deliveries and workflows. That will ease the restart on Public Cloud (AWS) as processes will have been given time to pause "gracefully" and save any in-progress execution state.
 
 **During the migration**
 
