@@ -87,7 +87,7 @@ There are four stages in the life cycle of a form:
 
    >[!NOTE]
    >
-   >For technical web applications like 'deliveryValidation' and 'offerValidation'<!--check web app names-->, a form with the **[!UICONTROL Pending publication]** status is automatically [published](#publishing-a-form) and gets the **[!UICONTROL Online]** status.
+   >For technical web applications (available through the **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Web applications]** menu), a form with the **[!UICONTROL Pending publication]** status is automatically [published](#publishing-a-form) and gets the **[!UICONTROL Online]** status.
 
 1. **Online**
 
@@ -175,13 +175,17 @@ Learn more on the different statuses of a web form in [this section](#life-cycle
 
   * If the web form already exists on the new instance, it is replaced with the new version of the form and takes the **[!UICONTROL Pending publication]** status, even if the old version of the form was **[!UICONTROL Online]**.
 
-  * In both cases, the form must be [published](#publishing-a-form) to become **[!UICONTROL Online]** on the new instance and accesssible through the web form URL in a browser.
+  * Whether the form existed or not, the form must be [published](#publishing-a-form) to become **[!UICONTROL Online]** on the new instance and accesssible through the web form URL in a browser.
 
 * If the web form status was **[!UICONTROL Being edited]** when exported:
 
-  * If the web form is new on the instance where the package is imported<!--can we skip specifying this? because if a web form already exists, the new version becomes Being edited and the old version is still Online until the new version is published - so both versions exists until the new is published?-->, the web form gets the **[!UICONTROL Being edited]** status.
+  * If the web form is new on the instance where the package is imported, the web form gets the **[!UICONTROL Being edited]** status.
 
   * If the web form already exists on the new instance, this is a modification on an existing form. If the old version of the form was **[!UICONTROL Online]**, the old version remains online until the new version of the form is [published](#publishing-a-form) again on the new instance.
+
+  >[!NOTE]
+  >
+  >  You can check the new version of your web form using the **[!UICONTROL Preview]** tab.
 
 <!--For RN:
 
