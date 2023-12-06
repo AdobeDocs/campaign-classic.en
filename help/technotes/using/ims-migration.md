@@ -3,6 +3,7 @@ title: Migration of technical users to Adobe Developer console
 description: Learn how to migrate Campaign technical operators to Technical account on Adobe Developer console
 feature: Technote
 role: Admin
+exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
 ---
 # Migration of Campaign technical operators to Adobe Developer Console {#migrate-tech-users-to-ims}
 
