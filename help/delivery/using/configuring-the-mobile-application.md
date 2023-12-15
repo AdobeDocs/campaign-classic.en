@@ -9,13 +9,7 @@ exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 ---
 # Configuration steps for iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-
-
 Once the package is installed, you can define your iOS app settings in Adobe Campaign Classic.
-
->[!NOTE]
->
->To learn how to configure your app for Android and how to create a delivery for Android, refer to this [section](configuring-the-mobile-application-android.md).
 
 Key steps are:
 
@@ -24,7 +18,6 @@ Key steps are:
 1. [Integrate the iOS mobile app in Campaign](#creating-ios-app)
 
 You will then be able to [create a push notification for iOS devices](create-notifications-ios.md).
-
 
 ## Configure iOS external account {#configuring-external-account-ios}
 

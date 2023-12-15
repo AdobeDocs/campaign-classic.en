@@ -6,8 +6,6 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Technote, Upgrade
 role: User
 level: Beginner
-solution: Campaign
-version: Classic v7
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 ---
 # Overview{#dc-ovv}

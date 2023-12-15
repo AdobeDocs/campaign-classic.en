@@ -23,8 +23,8 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 * **[!UICONTROL Notification message]**, handled automatically by the FCM SDK.
    <br> FCM automatically displays the message on your users' devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
 
-For more information on Firebase Cloud Messaging messages types, refer to [FCM documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages
-).
+For more information on Firebase Cloud Messaging messages types, refer to [FCM documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}.
+
 
 ## Create a data message {#creating-data-message}
 
@@ -63,11 +63,7 @@ The image and web page should be displayed in the push notification when receive
 
 ## Create a notification message {#creating-notification-message}
 
-   >[!NOTE]
-   >
-   >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](configuring-the-mobile-application-android.md#android-service-httpv1).
-
-![](assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html#additional-resources)
+![](assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html#additional-resources){target="_blank"}.
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
@@ -98,7 +94,7 @@ The image and web page should be displayed in the push notification when receive
    * **[!UICONTROL Tag]**: Set the identifier used to replace existing notifications in the notification drawer.
    * **[!UICONTROL Click action]**: Set the action associated with a user click on your notification.
 
-   For more on the **[!UICONTROL Notification options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
+   For more on the **[!UICONTROL Notification options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
    ![](assets/nmac_android_8.png)
 
@@ -111,7 +107,7 @@ The image and web page should be displayed in the push notification when receive
    * **[!UICONTROL Notification Priority]**: Set the priority levels of your notification to default, minimum, low or high. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
    * **[!UICONTROL Visibility]**: Set the visibility levels of your notification to public, private or secret. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
 
-   For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
+   For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
    ![](assets/nmac_android_9.png)
 

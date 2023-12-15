@@ -27,6 +27,14 @@ To reinforce security and authentication process, Adobe Campaign highly recommen
 
 [![image](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
 
+
+>[!TAB Push channel upcoming changes] 
+
+Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}
+
+
 >[!ENDTABS]
 
 ## Start with the basics
