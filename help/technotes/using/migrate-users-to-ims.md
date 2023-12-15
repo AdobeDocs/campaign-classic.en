@@ -1,6 +1,7 @@
 ---
 title: Migrate Campaign operators to Adobe Identity Management System (IMS)
 description: Learn how to migrate Campaign operators to Adobe Identity Management System (IMS)
+exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 ---
 # Migrate Campaign operators to Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
