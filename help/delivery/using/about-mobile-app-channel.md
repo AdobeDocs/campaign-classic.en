@@ -24,7 +24,7 @@ Two delivery channels are available:
 
     >[!IMPORTANT]
     >
-    >Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. Learn more in this [Adobe Campaign v8 technote](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+    >Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. Learn more in this [Adobe Campaign v8 technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
 
 Corresponding to those two channels there are two delivery activities in the campaign workflows. Two transactional message templates are also available for transactional messaging.
 

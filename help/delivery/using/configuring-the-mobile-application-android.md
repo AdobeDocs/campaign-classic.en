@@ -22,7 +22,7 @@ You will then be able to [create an Android rich notification](create-notificati
 
 >[!IMPORTANT]
 >
->Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. Learn more in this [Adobe Campaign v8 technote](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+>Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. Learn more in this [Adobe Campaign v8 technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
 
 
 ## Configure Android external account {#configuring-external-account-android}
@@ -103,7 +103,7 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 
 >[!IMPORTANT]
 >
->Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. As part of Google's continual effort to improve its services, the legacy FCM APIs will be discontinued on **June 20, 2024**. Learn more in this [Adobe Campaign v8 technote](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+>Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. As part of Google's continual effort to improve its services, the legacy FCM APIs will be discontinued on **June 20, 2024**. Learn more in this [Adobe Campaign v8 technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
 
 After creating service and a new mobile application, you need to configure your mobile application. The **HTTP (legacy)** API should not be selected as it has been deprecated by Google. 
 
