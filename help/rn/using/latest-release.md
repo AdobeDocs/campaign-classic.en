@@ -114,7 +114,7 @@ Fixed an issue which could cause Japanese characters to be incorrectly displayed
 
 >[!AVAILABILITY]
 >
->A specific Campaign v7.3.3.IMS patch upgrade is available for this version. It brings [Adobe Identity Management System (IMS) security updates coming with v7.3.5](#release-7-3-5-security) to existing v7.3.3 environments.
+>A specific Campaign v7.3.3.IMS patch upgrade is available for this version - if no other patch has been applied to your environment. It brings [Adobe Identity Management System (IMS) security updates coming with v7.3.5](#release-7-3-5-security) to existing v7.3.3 environments.
 
 
 _March 20, 2023_
@@ -150,7 +150,7 @@ _March 20, 2023_
 
 >[!AVAILABILITY]
 >
->A specific Campaign v7.3.2.IMS patch upgrade is available for this version. It brings [Adobe Identity Management System (IMS) security updates coming with v7.3.5](#release-7-3-5-security) to existing v7.3.3 environments.
+>A specific Campaign v7.3.2.IMS patch upgrade is available for this version - if no other patch has been applied to your environment. It brings [Adobe Identity Management System (IMS) security updates coming with v7.3.5](#release-7-3-5-security) to existing v7.3.3 environments.
 
 _November 21, 2022_
 
