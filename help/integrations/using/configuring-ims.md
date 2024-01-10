@@ -4,7 +4,7 @@ title: Configuring IMS
 description: Learn how to connect via an Adobe ID
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -12,15 +12,12 @@ exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 ---
 # Configuring IMS{#configuring-ims}
 
- 
-
 >[!IMPORTANT]
 >
->Adobe IMS implementation is strictly reserved to the Adobe technical administrators. Contact your Adobe executive to start the implementation process.
+>As a Campaign hosted or managed services user, your Adobe IMS implementation is owned by Adobe. Steps decribed below only apply to on-premise and hybrid customers.
+> Adobe IMS implementation must only be performed by Adobe technical administrators. Contact your Adobe representative to start the implementation process.
 
 ## Prerequisites {#prerequisites}
-
-To use the integration with the IMS:
 
 * You must have an Adobe Experience Cloud Organization name and ID. To find your Organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
 * You have to add users in the Experience Cloud. For more on this, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}.
@@ -31,7 +28,7 @@ To use the integration with the IMS:
 
 ## Updating the console {#updating-the-console}
 
-To use this functionality, it is imperative that you install the latest version of the console.
+To use this functionality, it is imperative that you install the latest version of the Client console.
 
 ## Installing the package {#installing-the-package}
 
@@ -43,23 +40,16 @@ You must install the built-in **[!UICONTROL Integration with the Adobe Experienc
 
 Configure the **Adobe Experience Cloud** external account in **[!UICONTROL Administration > Platform > External accounts]**.
 
->[!CAUTION]
->
->This configuration is reserved for the technical administrator.
-
 ![](assets/ims_5.png)
 
 Enter the following information:
 
-* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html).
+* Connection information for the IMS server used (ID and secret). This information is provided by Adobe Customer Care team. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html).
 
   The **[!UICONTROL Callback server]** address must be specified in **https**. This field corresponds to the access URL of your Adobe Campaign instance.
 
 * Organization ID: to find your organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
+
 * Association mask: this field allows you to define the syntax which will allow configuration names in Enterprise Dashboard to be synced with the groups in Adobe Campaign. If you use the syntax "Campaign - tenant_id - (.&#42;)", the security group created in Adobe Campaign will be linked to the configuration name "Campaign - tenant_id - internal_name" in Enterprise Dashboard.
 
-  >[!CAUTION]
-  >
-  >The association mask is essential for the connection via the Adobe ID to work correctly.
-
-* Adobe Experience Cloud connection information, particularly the name of the Adobe Experience Cloud Tenant.
+* Adobe Experience Cloud connection information, which is the name of the Adobe Experience Cloud Tenant.

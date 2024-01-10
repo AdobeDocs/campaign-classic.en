@@ -1,27 +1,26 @@
 ---
 product: campaign
-title: Use your Adobe ID in Campaign
-description: Learn more about Adobe IMS integration
+title: Use your Adobe ID to connect to Adobe Campaign
+description: Learn more about Adobe IMS implementation in Adobe Campaign
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 ---
-# About Adobe ID{#about-adobe-id}
+# About Adobe ID {#about-adobe-id}
 
 Adobe Identity Management System (IMS) helps admins create and manage user's access to applications and services. For more information on the different types of Adobe IDs, refer to [this page](https://helpx.adobe.com/enterprise/using/identity.html).
 
-Campaign users can connect to the Adobe Campaign console using their Adobe ID. This integration provides the following advantages:
+Campaign users can connect to the Adobe Campaign console using their Adobe ID, instead of the [native user/password authentication](../../platform/using/access-management-operators.md). This implementation provides the following advantages:
 
 * The same ID can be used for all Experience Cloud solutions.
-* The connection is memorized when using Adobe Campaign with different integrations.
-* Securer password management policy.
+* The connection is kept when using Adobe Campaign with different integrations.
+* Securer password management policy than native login/password.
 * Use of Federated ID accounts (external ID provider).
 
-
+<!--
 >[!IMPORTANT]
 >
 >If you are connecting to Campaign through Adobe Identity Service (IMS), you need to upgrade to the latest build to be able to connect to Campaign after **June 30, 2021**. This upgrade is mandatory for both Campaign server and client console. 
@@ -32,7 +31,7 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
 >
 >[Learn more about IMS updates](../../technotes/using/ims-updates.md)
-
+-->
 
 ## More resources
 

@@ -4,7 +4,7 @@ title: Implementing IMS
 description: Implementing IMS
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -12,20 +12,14 @@ exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
 ---
 # Implementing IMS{#implementing-ims}
 
- 
+Once [IMS configuration](configuring-ims.md) is done, you can enable the connection.
 
-## Enabling the IMS connection {#enabling-the-ims-connection}
+To enable the IMS authentication mode in Adobe Campaign, follow these steps:
 
-1. To enable connecting via the IMS, check **[!UICONTROL Connect with an Adobe ID]** in the console's connections window.
+1. Open the Client Console connection screen.
+1. Select the environment you need to enable the connection for.
+1. Check the **[!UICONTROL Connect with an Adobe ID]** option and save your changes.
 
    ![](assets/ims_1.png)
 
-1. Enter your Adobe ID and password. The Adobe Campaign Home screen will then appear.
-
-   ![](assets/ims_2.png)
-
-## Disabling the IMS connection {#disabling-the-ims-connection}
-
-To disable connecting via the Adobe ID, disconnect, click **[!UICONTROL File > Connections]** and uncheck **[!UICONTROL Connect with an Adobe ID]**. 
-
-![](assets/ims_4.png)
+1. When connecting to this environment, use your Adobe ID and password.
