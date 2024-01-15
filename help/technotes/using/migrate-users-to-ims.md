@@ -41,7 +41,7 @@ Before starting the migration process, you must reach out to your Adobe Transiti
 
 * Campaign v7.3.5 (recommended)
 * Campaign v7.3.3.IMS
-<!--* Campaign v7.3.2.IMS-->
+* Campaign v7.3.2.IMS
 
 These Campaign versions are detailed in the [Release Notes](../../rn/using/latest-release.md).
 
