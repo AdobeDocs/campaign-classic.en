@@ -14,6 +14,12 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## 2024
+
+### January 2024 {#jan-2024}
+
+Information has been added on how the default postalAddress field for Direct Mail is defined and why it is important to make sure that addresses are complete. [Read more](../../delivery/using/about-direct-mail-channel.md)
+
 ## 2023
 
 ### December 2023 {#dec-2023}
