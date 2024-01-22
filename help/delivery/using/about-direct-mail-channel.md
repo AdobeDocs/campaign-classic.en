@@ -15,7 +15,8 @@ Adobe Campaign lets you produce files to mass deliver personalized letters. The 
 
 >[!NOTE]
 >
->Postal addresses are calculated fields. An address can contain up to six lines by default: the first contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.  
->An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty.
+>Postal addresses are calculated fields. An address can contain up to six lines by default: the first contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city. The definition of the default calculated postalAddress field can be reviewed in the nms:recipient schema.
+>
+>An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty. Any recipients with incomplete addresses will be excluded from direct mail deliveries. 
 
 The sections below provide information that is specific to the direct mail channel. For global information on how to create and send a delivery, refer to [this section](steps-about-delivery-creation-steps.md).
