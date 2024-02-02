@@ -135,7 +135,9 @@ type: Documentation
        + [Attach files](delivery/using/attaching-files.md)
   + Send SMS {#sending-messages-on-mobiles}
        + [Get started with SMS](delivery/using/sms-channel.md)
-       + [Configure SMS channel](delivery/using/sms-set-up.md)
+       + Configure SMS channel {#sms-set-up}
+          + [Configure SMS on a standalone instance](delivery/using/sms-set-up.md)
+          + [Configure SMS on a mid-sourcing infrastructure](delivery/using/sms-set-up-mid.md)
        + [Create a SMS](delivery/using/sms-create.md)
        + [Send and track SMS](delivery/using/sms-send.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)

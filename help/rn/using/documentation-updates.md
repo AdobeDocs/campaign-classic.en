@@ -20,6 +20,8 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 Information has been added on how the default postalAddress field for Direct Mail is defined and why it is important to make sure that addresses are complete. [Read more](../../delivery/using/about-direct-mail-channel.md)
 
+Added a new page on how to configure the SMS channel in Campaign on a mid-sourcing infrastructure. [Read more](../../delivery/using/sms-set-up-mid.md)
+
 ## 2023
 
 ### December 2023 {#dec-2023}
