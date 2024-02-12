@@ -127,6 +127,24 @@ There are 2 aspects in this migration: end-users migration (plus product profile
 
 If all your users (Campaign operators) are on IMS, you will still need to contact your Adobe Representative/Customer Support to plan Product Profiles Migration. You will also need to migrate Technical users you might have used in custom code. Learn more in [this page](ims-migration.md).
 
+### How to view your Operators' authentication type?
+
+Learn how to view your Operators' authentication type in Campaign:
+
+1. From the **Explorer**, access **Administration** `>` **Access Management** `>` **Operators**.
+
+1. Right-click the header row and select the **Configure list** menu.
+
+    ![](assets/ims_2.png)
+
+1. Add **Account Disabled** and **Authentication Type** as **Output columns**.
+
+    ![](assets/ims_1.png)
+
+You can now see the list of your **Operators** and their **Authentication Type**.
+
+![](assets/ims_3.png)
+
 ## Useful links {#ims-useful-links}
 
 * [Migration of technical users to Adobe Developer console](ims-migration.md)
