@@ -14,7 +14,7 @@ The **[!UICONTROL Sub-workflow]** activity lets you trigger the execution of ano
 
 You can call multiple sub-workflows in a single workflow. Sub-workflows are executed synchronously.
 
-In the example below, a primary workflow is calling a sub-workflow using jumps. For more on jump-type graphical objects, see [this section](jump--start-point-and-end-point-.md).
+In the example below, a primary workflow is calling a sub-workflow using jumps. For more on jump-type graphical objects, see [this section](jump-start-point-and-end-point.md).
 
 1. Create a workflow that you will use as a sub-workflow in another workflow.
 1. Insert a **[!UICONTROL Jump (end point)]** activity with a priority of 1 at the beginning of the workflow. If you have multiple "end point" type jumps, Adobe Campaign will use the "end point" jump with the lowest number.

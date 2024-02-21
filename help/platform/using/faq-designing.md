@@ -35,7 +35,7 @@ Discover how to import an existing HTML to create and send an email in Adobe Cam
 
 ## How to use Campaign DCE to create an email content? {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Design an email with Campaign digital content editor](../../web/using/use-case--creating-an-email-delivery.md): learn how to use Campaign DCE to design an email through an example.
+[Design an email with Campaign digital content editor](../../web/using/use-case-creating-an-email-delivery.md): learn how to use Campaign DCE to design an email through an example.
 
 ## How can I create a subscription-based newsletter in Campaign? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 

@@ -141,7 +141,7 @@ Once it is in production, the survey is accessible on the server and you can del
 
 To deliver the survey, you can send a message containing an access link to the target population, or place the survey access URL on a web page, for example.
 
-You can then monitor user responses via reports and logs. See [Response tracking](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
+You can then monitor user responses via reports and logs. See [Response tracking](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
 
 >[!CAUTION]
 >

@@ -220,7 +220,7 @@ See also:
 
 * [Select the proof target](#selecting-the-proof-target)
 * [About seed addresses](about-seed-addresses.md)
-* [Use case: select seed addresses on criteria](use-case--selecting-seed-addresses-on-criteria.md)
+* [Use case: select seed addresses on criteria](use-case-selecting-seed-addresses-on-criteria.md)
 
 ## Tutorial video {#seeds-and-proofs-video}
 

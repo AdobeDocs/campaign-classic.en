@@ -136,7 +136,7 @@ The **[!UICONTROL Reports]** link lets you access the campaign reports.
 Campaigns are created via campaign templates. You can configure reusable templates for which some options are selected and other settings are already saved. For each campaign, the following functionality is offered:
 
 * Referencing of [documents and resources](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents): you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. 
-* Defining costs: for each campaign, Adobe Campaign lets you define [cost entries and cost calculation structures](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental.
+* Defining costs: for each campaign, Adobe Campaign lets you define [cost entries and cost calculation structures](../../campaign/using/providers-stocks-and-budgets.md#defining-cost-categories) which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental.
 * Defining objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.
 * Managing [seed addresses](../../delivery/using/about-seed-addresses.md) and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 * Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. [Learn more](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)

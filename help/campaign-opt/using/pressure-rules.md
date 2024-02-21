@@ -107,7 +107,7 @@ You can index the number of authorized messages according to the segment to whic
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-To define the threshold, you can use a dimension linked to the targeting dimension: for example, to include messages delivered to the recipient profiles stored in the visitors table (for more on the visitors table, refer to [this section](../../surveys/using/use-case--creating-a-refer-a-friend-form.md)) or to avoid sending more than one message per week to the same household, (which may refer to several email addresses) identified in a dimension linked to that of the recipients.
+To define the threshold, you can use a dimension linked to the targeting dimension: for example, to include messages delivered to the recipient profiles stored in the visitors table (for more on the visitors table, refer to [this section](../../surveys/using/use-case-creating-a-refer-a-friend-form.md)) or to avoid sending more than one message per week to the same household, (which may refer to several email addresses) identified in a dimension linked to that of the recipients.
 
 To do so, select the **[!UICONTROL Count messages on a linked dimension]** option, then select the visitor or the contact table.
 

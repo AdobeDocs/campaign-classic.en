@@ -192,7 +192,7 @@ Then, we need to add new subsets:
 
    >[!NOTE]
    >
-   >If you have acquired the **Federated Data Access** option, you can create subsets based on the information in an external base. To do this, select the schema of the external table in the **[!UICONTROL Targeting dimension]** field. For more on this, refer to [Accessing an external database (FDA)](accessing-an-external-database--fda-.md).
+   >If you have acquired the **Federated Data Access** option, you can create subsets based on the information in an external base. To do this, select the schema of the external table in the **[!UICONTROL Targeting dimension]** field. For more on this, refer to [Accessing an external database (FDA)](accessing-an-external-database-fda.md).
 
 Once subsets have been created, by default the split activity shows as many output transitions as there are subsets:
 
@@ -234,7 +234,7 @@ In Adobe Campaign, the Data Management combines a set of activities for solving 
 
 In order to implement these operations, Adobe Campaign offers:
 
-* Data collection activities: [File transfer](file-transfer.md), [Data loading (file)](data-loading--file-.md), [Data loading (RDBMS)](data-loading--rdbms-.md), [Update data](update-data.md). This first step of collecting data prepares the data to allow it to be processed in other activities. Several parameters need to be monitored in order to ensure that the workflow executes correctly and gives the expected results. For example, when you import data, the primary key (Pkey) for this data must be unique for each record.
+* Data collection activities: [File transfer](file-transfer.md), [Data loading (file)](data-loading-file.md), [Data loading (RDBMS)](data-loading-rdbms.md), [Update data](update-data.md). This first step of collecting data prepares the data to allow it to be processed in other activities. Several parameters need to be monitored in order to ensure that the workflow executes correctly and gives the expected results. For example, when you import data, the primary key (Pkey) for this data must be unique for each record.
 * Targeting activities having been enriched with Data Management options: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). This lets you configure a union or an intersection between data from several different targeting dimensions, as long as data reconciliation is possible.
 * Data transformation activities: [Enrichment](enrichment.md), [Change dimension](change-dimension.md).
 

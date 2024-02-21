@@ -189,7 +189,7 @@ An external service provider can be involved in the management of a task.
 
 To do this, edit the task properties and select the service provider concerned. The cost categories associated with the service provider are automatically listed in the central section of the window.
 
-For more on this, refer to [Create a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+For more on this, refer to [Create a service provider and its cost categories](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 Select the cost categories related to the execution of the task. To do this, select the type of cost and, if necessary, add an amount to surcharge.
 

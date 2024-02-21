@@ -47,7 +47,7 @@ In this example, the seed addresses data schema takes a value created from the r
 
 This enumeration lets the user specify the favorite literary genre of their clients.
 
-For this data schema modification to be viewable in the seed addresses **Input form**, you must update it. Refer to the [Update the input form](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
+For this data schema modification to be viewable in the seed addresses **Input form**, you must update it. Refer to the [Update the input form](use-case-selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
 
 ## Configuring personalization {#configuring-personalization}
 
@@ -69,7 +69,7 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    >[!NOTE]
    >
-   >For more information on the **[!UICONTROL Edit the dynamic condition...]** link, refer to [Use case: select seed addresses on criteria](use-case--selecting-seed-addresses-on-criteria.md).
+   >For more information on the **[!UICONTROL Edit the dynamic condition...]** link, refer to [Use case: select seed addresses on criteria](use-case-selecting-seed-addresses-on-criteria.md).
 
 1. Click the **[!UICONTROL Preview]** tab then select a seed address to test the personalization.
 
