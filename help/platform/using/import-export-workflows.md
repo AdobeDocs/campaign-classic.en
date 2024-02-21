@@ -30,7 +30,7 @@ For more on using the read list activity in a workflow, refer to [this page](../
 
 The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
 
-A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading--file-.md) section.
+A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading-file.md) section.
 
 Example of structured file to import:
 
@@ -48,4 +48,4 @@ Once data has been collected you can use it in your workflows, for example to en
 
 Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 
-Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction--file-.md).
+Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction-file.md).

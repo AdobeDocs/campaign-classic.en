@@ -17,7 +17,7 @@ Offer space creation may only be carried out by a **technical administrator** wi
 
 The content of the catalog offers is configured in the offer spaces. By default, the content can include the following fields: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** and **[!UICONTROL Text content]**. The field sequence is configured in the offer space.
 
-Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the [Presenting an identified offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) section.
+Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the [Presenting an identified offer](../../interaction/using/integration-via-javascript-client-side.md#presenting-an-identified-offer) section.
 
 The HTML or XML rendering is created via a rendering function. The sequence of the fields defined in the rendering function must be identical to the sequence configured in the content.
 

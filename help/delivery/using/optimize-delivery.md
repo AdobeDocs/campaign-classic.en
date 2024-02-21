@@ -71,4 +71,4 @@ When starting to send emails on a new platform, you may use a list of addresses 
 
 To avoid sending messages to invalid addresses, limit improper communications and improve sender reputation, Adobe recommends implementing a double opt-in mechanism for post-subscription confirmation. This helps ensure a recipient subscribed intentionally.
 
-Details for implementing this mechanism are outlined in [this section](../../web/using/use-cases--web-forms.md).
+Details for implementing this mechanism are outlined in [this section](../../web/using/use-cases-web-forms.md).

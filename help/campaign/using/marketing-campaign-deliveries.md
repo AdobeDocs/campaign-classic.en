@@ -106,7 +106,7 @@ The file extraction launches two operations: budget calculation and stock calcul
 
 >[!NOTE]
 >
->For further information about cost calculations and stock management, see [Providers, stocks and budgets](../../campaign/using/providers--stocks-and-budgets.md).
+>For further information about cost calculations and stock management, see [Providers, stocks and budgets](../../campaign/using/providers-stocks-and-budgets.md).
 
 ## Manage associated documents {#managing-associated-documents}
 
@@ -221,7 +221,7 @@ In the following example, the label, estimated cost, and description of the outl
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-The export model must be associated with the service provider selected for the delivery concerned. See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+The export model must be associated with the service provider selected for the delivery concerned. See [Creating service providers and their cost structures](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 >[!NOTE]
 >

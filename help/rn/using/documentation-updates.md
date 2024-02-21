@@ -676,7 +676,7 @@ A section has been added describing the Campaign server uninstallation steps. [R
 
 The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
-The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
+The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading-file.md)
 
 The Experience Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 

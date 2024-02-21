@@ -27,7 +27,7 @@ The layout will be applied automatically based on the selected settings. To view
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-For more on this, refer to the full implementation example: [Creating content in the delivery wizard](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
+For more on this, refer to the full implementation example: [Creating content in the delivery wizard](use-case-creating-content-management.md#creating-content-in-the-delivery-wizard).
 
 ## Creating a content instance {#creating-a-content-instance}
 

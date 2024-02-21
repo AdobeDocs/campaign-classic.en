@@ -31,7 +31,7 @@ There are three service subscription/unsubscription modes:
 
 >[!NOTE]
 >
->A sample to create a subscription form with double opt-in is detailed in [this section](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
+>A sample to create a subscription form with double opt-in is detailed in [this section](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 ## Creating an information service {#creating-an-information-service}
 

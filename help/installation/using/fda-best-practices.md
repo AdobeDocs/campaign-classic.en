@@ -29,7 +29,7 @@ In multiple Adobe Campaign workflow activities, you can use the data stored in a
 
 * **Create sub-sets** - The [Split](../../workflow/using/split.md) activity allows you to create sub-sets. You can use external data to define the filtering criteria to use. For more on this, refer to [this page](../../workflow/using/split.md).
 
-* **Load external database** - You can use the external data in the [Data loading](../../workflow/using/data-loading--rdbms-.md) (RDBMS) activity. Learn more in [this page](../../workflow/using/data-loading--rdbms-.md).
+* **Load external database** - You can use the external data in the [Data loading](../../workflow/using/data-loading-rdbms.md) (RDBMS) activity. Learn more in [this page](../../workflow/using/data-loading-rdbms.md).
 
 * **Adding information and links** - The [Enrichment](../../workflow/using/enrichment.md) activity lets you to add additional data to the worktable of the workflow, and links to an external table. In this context, it can use data from an external database. Learn more in [this page](../../workflow/using/enrichment.md).
 

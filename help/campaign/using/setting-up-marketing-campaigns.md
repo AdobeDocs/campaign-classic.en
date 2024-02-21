@@ -25,7 +25,7 @@ To create a marketing campaign:
 
 1. Monitor deliveries. [Learn more](../../campaign/using/marketing-campaign-monitoring.md).
 
-1. Plan campaigns and associated costs. [Learn more](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+1. Plan campaigns and associated costs. [Learn more](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 When these steps have been completed, you can start the deliveries (refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (refer to [this section](../../campaign/using/marketing-campaign-monitoring.md)).
 

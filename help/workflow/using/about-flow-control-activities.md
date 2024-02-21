@@ -20,7 +20,7 @@ The following activities are database activities: Their main task is to coordina
 * **Wait**: enables the outbound transition after a given time limit. Refer to [Wait](wait.md).
 * **Time constraint**: lets you pause a task for a set period. Refer to [Time constraint](time-constraint.md).
 * **Sub-workflow**: lets you execute another workflow. Refer to [Sub-workflow](sub-workflow.md).
-* **Jumps**: lets you implement transitions without links. Refer to [Jump (start point and end point)](jump--start-point-and-end-point-.md).
+* **Jumps**: lets you implement transitions without links. Refer to [Jump (start point and end point)](jump-start-point-and-end-point.md).
 * **External signal**: lets you enable the outbound transition after receiving an external signal. Refer to the [External signal](external-signal.md) section.
 * **Approval**: lets you send an email to an operator or a group of operators and wait for approval to continue with the execution. Refer to the [Approval](approval.md) section.
 * **Alert**: lets you send a warning to an operator or group of operators. Refer to the [Alert](alert.md) section.

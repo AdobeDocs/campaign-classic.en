@@ -95,7 +95,7 @@ For each form, the answers provided can be used in fields or labels. Use the fol
 
 ### Storage settings {#storage-settings}
 
-You can archive answers to surveys in XML format. This lets you save a raw copy of the answers collected, which can be useful in case of excessive standardization of the data in an itemized list. [Learn more](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
+You can archive answers to surveys in XML format. This lets you save a raw copy of the answers collected, which can be useful in case of excessive standardization of the data in an itemized list. [Learn more](../../surveys/using/publish-track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >

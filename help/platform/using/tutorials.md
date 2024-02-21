@@ -28,9 +28,9 @@ Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 Learn more about Adobe Campaign by checking the following use cases and examples:
 
 * [Creating a filter on the email format of subscribers](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers): learn how to create a filter to sort newsletter subscriptions based on recipient email format.
-* [Create a subscription form with double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in): learn how to send a subscription confirmation request to create a double opt-in to make sure that the recipient subscribed intentionally.
-* [Creating an email delivery](../../web/using/use-case--creating-an-email-delivery.md): learn how to create an email delivery using the Digital Content Editor.
-* [Creating overviews](../../web/using/use-cases--creating-overviews.md): create overview-type Web applications to display all the Web applications in your database.
+* [Create a subscription form with double opt-in](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in): learn how to send a subscription confirmation request to create a double opt-in to make sure that the recipient subscribed intentionally.
+* [Creating an email delivery](../../web/using/use-case-creating-an-email-delivery.md): learn how to create an email delivery using the Digital Content Editor.
+* [Creating overviews](../../web/using/use-cases-creating-overviews.md): create overview-type Web applications to display all the Web applications in your database.
 * [Workflow use cases](../../workflow/using/about-workflow-use-cases.md): discover through these use cases different ways to use workflows.
 
 ## Self-help {#how-to-videos}
