@@ -62,7 +62,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tbody>
 </table>    
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.
 
