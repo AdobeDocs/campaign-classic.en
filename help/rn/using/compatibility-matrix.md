@@ -35,9 +35,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr> 
 <td>CentOs</td>
 <td>
-<p>8.x (only for hybrid environments)</p>
 <p>7.x</p>
-<p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
@@ -52,7 +50,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>
 <p>8.x</p>
 <p>7.x</p>
-<p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
@@ -64,6 +61,10 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tr>
 </tbody>
 </table>    
+
+>[!NOTE]
+>
+>If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.
 
 ## Web Servers{#WebServers}
 
