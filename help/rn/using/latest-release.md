@@ -182,7 +182,7 @@ Learn more in the [Deprecated and removed features page](deprecated-features.md)
 
 ### Other changes  {#release-7-3-2-other}
 
-* Web logs have been improved: `logonEscalation` warnings are now only displayed for users with admin privileges. (NEO-47167)
+<!--* Web logs have been improved: `logonEscalation` warnings are now only displayed for users with admin privileges. (NEO-47167)-->
 * To avoid errors, the **Collect data for Heatmap service** (collectDataHeatMapService) workflow is now stopped by default. (NEO-33959)
 * Various improvements were implemented to optimize CPU usage for the campaigns dashboard. (NEO-46417)
 * To prevent crashes, the loadLibraryDebug JS method has been removed. (NEO-46968)
