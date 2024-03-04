@@ -734,8 +734,8 @@ type: Documentation
        + [About the data model](configuration/using/about-data-model.md)
        + [Data model description](configuration/using/data-model-description.md)
        + [Best practices](configuration/using/data-model-best-practices.md)
-  + Schema Reference {#schema-reference}
-       + [About schema reference](configuration/using/about-schema-reference.md)
+  + Work with schemas {#schema-reference}
+       + [Get started with schemas](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
        + [Database mapping](configuration/using/database-mapping.md)
        + Elements and attributes {#elements-attributes}

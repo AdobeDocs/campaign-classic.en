@@ -9,9 +9,9 @@ exl-id: 728b509f-2755-48df-8b12-449b7044e317
 ---
 # Database mapping{#database-mapping}
 
-The SQL mapping of our example schema gives the following XML document:
+The SQL mapping of the sample schema described [in this page](schema-structure.md) generates the following XML document:
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
   <enumeration basetype="byte" name="gender">    
     <value label="Not specified" name="unknown" value="0"/>    
@@ -32,27 +32,27 @@ The SQL mapping of our example schema gives the following XML document:
 
 ## Description {#description}
 
-The root element of the schema is no longer **`<srcschema>`**, but **`<schema>`**.
+The root element of the schema changed to **`<srcschema>`** to **`<schema>`**.
 
-This takes us to another type of document, which is generated automatically from the source schema, simply referred to as the schema. This schema will be used by the Adobe Campaign application.
+This other type of document is generated automatically from the source schema, and simply referred to as the schema.
 
 The SQL names are determined automatically based on element name and type.
 
 The SQL naming rules are as follows:
 
-* table: concatenation of the schema namespace and name
+* **table**: concatenation of the schema namespace and name
 
   In our example, the name of the table is entered via the main element of the schema in the **sqltable** attribute:
 
-  ```
+  ```sql
   <element name="recipient" sqltable="CusRecipient">
   ```
 
-* field: name of the element preceded by a prefix defined according to type ('i' for integer, 'd' for double, 's' for string, 'ts' for dates, etc.)
+* **field**: name of the element preceded by a prefix defined according to type: 'i' for integer, 'd' for double, 's' for string, 'ts' for dates, etc.
 
   The field name is entered via the **sqlname** attribute for each typed **`<attribute>`** and **`<element>`**:
 
-  ```
+  ```sql
   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
   ```
 
@@ -62,7 +62,7 @@ The SQL naming rules are as follows:
 
 The SQL script to create the table generated from the extended schema is as follows:
 
-```
+```sql
 CREATE TABLE CusRecipient(
   iGender NUMERIC(3) NOT NULL Default 0,   
   sCity VARCHAR(50),   
@@ -72,12 +72,12 @@ CREATE TABLE CusRecipient(
 
 The SQL field constraints are as follows:
 
-* no null values in numeric and date fields,
-* numeric fields are initialized to 0.
+* no null values in numeric and date fields
+* numeric fields are initialized to 0
 
 ## XML fields {#xml-fields}
 
-By default, any typed **`<attribute>`** and **`<element>`** element is mapped onto an SQL field of the data schema table. You can, however, reference this field in XML instead of SQL, which means that the data is stored in a memo field ("mData") of the table containing the values of all XML fields. The storage of these data is an XML document that observes the schema structure.
+By default, any  **`<attribute>`** and **`<element>`** -typed element is mapped onto an SQL field of the data schema table. You can, however, reference this field in XML instead of SQL, which means that the data is stored in a memo field ("mData") of the table containing the values of all XML fields. The storage of these data is an XML document that observes the schema structure.
 
 To populate a field in XML, you must add the **xml** attribute with the value "true" to the element concerned.
 
@@ -85,21 +85,19 @@ To populate a field in XML, you must add the **xml** attribute with the value "t
 
 * Multi-line comment field:
 
-  ```
+  ```sql
   <element name="comment" xml="true" type="memo" label="Comment"/>
   ```
 
 * Description of data in HTML format:
 
-  ```
+  ```sql
   <element name="description" xml="true" type="html" label="Description"/>
   ```
 
   The "html" type lets you store the HTML content in a CDATA tag and display a special HTML edit check in the Adobe Campaign client interface.
 
-The use of XML fields lets you add fields without needing to modify the physical structure of the database. Another advantage is that you use less resources (size allocated to SQL fields, limit on the number of fields per table, etc.).
-
-The main disadvantage is that it is impossible to index or filter an XML field.
+Use XML fields to add new fields without modifying the physical structure of the database. Another advantage is that you use less resources (size allocated to SQL fields, limit on the number of fields per table, etc.). However, note that you cannot index or filter an XML field.
 
 ## Indexed fields {#indexed-fields}
 
@@ -107,7 +105,7 @@ Indexes let you optimize the performance of the SQL queries used in the applicat
 
 An index is declared from the main element of the data schema.
 
-```
+```sql
 <dbindex name="name_of_index" unique="true/false">
   <keyfield xpath="xpath_of_field1"/>
   <keyfield xpath="xpath_of_field2"/>
@@ -117,23 +115,21 @@ An index is declared from the main element of the data schema.
 
 Indexes obey the following rules:
 
-* An index can reference one or more fields in the table.
-* An index can be unique (to avoid duplicates) in all of the fields if the **unique** attribute contains the value "true".
-* The SQL name of the index is determined from the SQL name of the table and the name of the index.
+* An index can reference one or more fields in the table
+* An index can be unique (to avoid duplicates) in all of the fields if the **unique** attribute contains the value "true"
+* The SQL name of the index is determined from the SQL name of the table and the name of the index
 
 >[!NOTE]
 >
->As a standard, indexes are the first elements declared from the main element of the schema.
-
->[!NOTE]
+>* As a standard, indexes are the first elements declared from the main element of the schema.
 >
->Indexes are created automatically during table mapping (standard or FDA).
+>* Indexes are created automatically during table mapping (standard or FDA).
 
 **Example**:
 
 * Adding an index to the email address and city:
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <dbindex name="email">
@@ -151,7 +147,7 @@ Indexes obey the following rules:
 
 * Adding a unique index to the "id" name field:
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <dbindex name="id" unique="true">
@@ -168,13 +164,13 @@ Indexes obey the following rules:
   </srcSchema>
   ```
 
-## Management of keys {#management-of-keys}
+## Key management {#management-of-keys}
 
 A table must have at least one key for identifying a record in the table.
 
 A key is declared from the main element of the data schema.
 
-```
+```sql
 <key name="name_of_key">
   <keyfield xpath="xpath_of_field1"/>
   <keyfield xpath="xpath_of_field2"/>
@@ -182,25 +178,23 @@ A key is declared from the main element of the data schema.
 </key>
 ```
 
-Keys obey the following rules:
+The following rules apply to keys:
 
-* A key can reference one or more fields in the table.
-* A key is known as 'primary' (or 'priority') when it is the first in the schema to be populated or if it contains the **internal** attribute with the value "true".
-* A unique index is declared implicitly for each key definition. The creation of an index on the key can be prevented by adding the **noDbIndex** attribute with the value "true".
-
->[!NOTE]
->
->As a standard, keys are the elements declared from the main element of the schema after indexes have been defined.
+* A key can reference one or more fields in the table
+* A key is known as 'primary' (or 'priority') when it is the first in the schema to be populated or if it contains the **internal** attribute with the value "true"
+* A unique index is declared implicitly for each key definition. The creation of an index on the key can be prevented by adding the **noDbIndex** attribute with the value "true"
 
 >[!NOTE]
 >
->Keys are created during table mapping (standard or FDA), Adobe Campaign finds unique indexes.
+>* As a standard, keys are the elements declared from the main element of the schema after indexes have been defined.
+>
+>* Keys are created during table mapping (standard or FDA), Adobe Campaign finds unique indexes.
 
 **Example**:
 
 * Adding a key to the email address and city:
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <key name="email">
@@ -218,7 +212,7 @@ Keys obey the following rules:
 
   The schema generated:
 
-  ```
+  ```sql
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
      <dbindex name="email" unique="true">      
@@ -241,7 +235,7 @@ Keys obey the following rules:
 
 * Adding a primary or internal key on the "id" name field:
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <key name="id" internal="true">
@@ -260,7 +254,7 @@ Keys obey the following rules:
 
   The schema generated:
 
-  ```
+  ```sql
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
       <key name="email">      
@@ -305,7 +299,7 @@ To declare a unique key, populate the **autopk** attribute (with value "true") o
 
 Declaring an incremental key in the source schema:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient" autopk="true">
   ...
@@ -315,7 +309,7 @@ Declaring an incremental key in the source schema:
 
 The schema generated:
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" autopk="true" pkSequence="XtkNewId" sqltable="CusRecipient"> 
     <dbindex name="id" unique="true">
@@ -364,7 +358,7 @@ For more information on FDA tables, refer to [Accessing an external database](..
 
 A link must be declared in the schema containing the foreign key of the table linked via the main element:
 
-```
+```sql
 <element name="name_of_link" type="link" target="key_of_destination_schema">
   <join xpath-dst="xpath_of_field1_destination_table" xpath-src="xpath_of_field1_source_table"/>
   <join xpath-dst="xpath_of_field2_destination_table" xpath-src="xpath_of_field2_source_table"/>
@@ -406,7 +400,7 @@ Links obey the following rules:
 
 1-N relation to the "cus:company" schema table:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     ...
@@ -417,7 +411,7 @@ Links obey the following rules:
 
 The schema generated:
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
     <dbindex name="companyId">      
@@ -438,7 +432,7 @@ The foreign key is added automatically in an element that uses the same characte
 
 Extended schema of the target ("cus:company"):
 
-```
+```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
   <element name="company" sqltable="CusCompany" autopk="true"> 
     <dbindex name="id" unique="true">     
@@ -469,7 +463,7 @@ A reverse link to the "cus:recipient" table was added with the following paramet
 
 In this example, we will declare a link towards the "nms:address" schema table. The join is an outer join and is populated explicitly with the recipient's email address and the "@address" field of the linked table ("nms:address").
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient"> 
     ...
@@ -484,7 +478,7 @@ In this example, we will declare a link towards the "nms:address" schema table. 
 
 1-1 relation to the "cus:extension" schema table:
 
-```
+```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
@@ -492,7 +486,7 @@ In this example, we will declare a link towards the "nms:address" schema table. 
 
 Link to a folder ("xtk:folder" schema):
 
-```
+```sql
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
@@ -502,7 +496,7 @@ The default value returns the identifier of the first eligible parameter type fi
 
 In this example, we wish to create a key on a link ("company" to "cus:company" schema) with the **xlink** attribute and a field of the ("email") table:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <key name="companyEmail"> 
@@ -518,7 +512,7 @@ In this example, we wish to create a key on a link ("company" to "cus:company" s
 
 The schema generated:
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
     <dbindex name="companyId">      

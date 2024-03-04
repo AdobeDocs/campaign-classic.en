@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Schema structure
+title: Understand schema structure in Adobe Campaign
 description: Schema structure
 feature: Custom Resources
 role: Data Engineer, Developer
@@ -10,11 +10,15 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 ---
-# Schema structure{#schema-structure}
+# Understand schema structure {#schema-structure}
 
-The basic structure of an `<srcschema>` is as follows:
+The basic structure of a schema is described below. 
 
-```
+## Data schemas  {#data-schema}
+
+For an `<srcschema>`, the structure is as follows:
+
+```sql
 
 <srcSchema>
     <enumeration>
@@ -59,7 +63,7 @@ The basic structure of an `<srcschema>` is as follows:
 
 The XML document of a data schema must contain the **`<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
 
-```
+```sql
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -67,7 +71,7 @@ The XML document of a data schema must contain the **`<srcschema>`** root elemen
 
 Let us use the following XML content to illustrate the structure of a data schema:
 
-```
+```sql
 <recipient email="John.doe@aol.com" created="2009/03/12" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -75,7 +79,7 @@ Let us use the following XML content to illustrate the structure of a data schem
 
 With its corresponding data schema:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -91,7 +95,7 @@ With its corresponding data schema:
 
 ## Description {#description}
 
-The point of entry of the schema is its main element. It is easy to identify because it has the same name as the schema, and it should be the child of the root element. The description of the content begins with this element.
+The entry point of the schema is its main element. It is easy to identify because it has the same name as the schema, and it should be the child of the root element. The description of the content begins with this element.
 
 In our example, the main element is represented by the following line:
 
@@ -99,11 +103,11 @@ In our example, the main element is represented by the following line:
 <element name="recipient">
 ```
 
-The elements **`<attribute>`** and **`<element>`** that follow the main element enable you to define the locations and names of the data items in the XML structure.
+The **`<attribute>`** and **`<element>`** elements which follow the main element are used to define the locations and names of the data items in the XML structure.
 
 In our sample schema, these are:
 
-```
+```sql
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -112,13 +116,13 @@ In our sample schema, these are:
 </element>
 ```
 
-The following rules must be adhered to:
+The following rules apply:
 
 * Each **`<element>`** and **`<attribute>`** must be identified by name via the **name** attribute.
 
   >[!IMPORTANT]
   >
-  >The name of the element should be concise, preferably in English, and include only authorized characters in accordance with XML naming rules.
+  >The name of the element should be concise, preferably in English, and include only characters allowed in XML naming rules.
 
 * Only **`<element>`** elements can contain **`<attribute>`** elements and **`<element>`** elements in the XML structure.
 * An **`<attribute>`** element must have a unique name within an **`<element>`**.
@@ -128,7 +132,7 @@ The following rules must be adhered to:
 
 The data type is entered via the **type** attribute in the **`<attribute>`** and **`<element>`** elements.
 
-A detailed list is available in the description of the [`<attribute>` element](../../configuration/using/schema/attribute.md) and the [`<element>` element](../../configuration/using/schema/element.md)).
+A detailed list is available in the description of the [`<attribute>` element](../../configuration/using/schema/attribute.md) and the [`<element>` element](../../configuration/using/schema/element.md).
 
 When this attribute is not populated, **string** is the default data type unless the element contains child elements. If it does, it is used only to structure the elements hierarchically (**`<location>`** element in our example).
 
@@ -149,11 +153,11 @@ The following data types are supported in schemas:
 
   >[!NOTE]
   >
-  >To contain a **uuid** field in engines other than Microsoft SQL Server, the "newuuid()" function must be added and completed with its default value.
+  >To contain a **uuid** field in RDBMS other than Microsoft SQL Server, `the newuuid()` function must be added and completed with its default value.
 
 Here is our example schema with the types entered:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -177,91 +181,76 @@ The table below lists the mappings for the types of data generated by Adobe Camp
    <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
-   <td> <strong>MS SQL</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> String<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2 (NVARCHAR2 if unicode)<br /> </td> 
-   <td> VARCHAR (NVARCHAR if unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> Boolean<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Byte<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Short<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(5)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Double<br /> </td> 
    <td> DOUBLE PRECISION<br /> </td> 
-   <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Long<br /> </td> 
    <td> INTEGER<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
-   <td> INT<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
    <td> NUMBER(20)<br /> </td> 
-   <td> BIGINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Date<br /> </td> 
    <td> DATE<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> DATETIME<br /> </td> 
   </tr> 
   <tr> 
    <td> Time<br /> </td> 
    <td> TIME<br /> </td> 
-   <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetime<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIME2<br /> </td> 
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
    <td> DOUBLE PRECISION<br /> </td> 
-   <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Memo<br /> </td> 
    <td> TEXT<br /> </td> 
    <td> CLOB (NCLOB if Unicode)<br /> </td> 
-   <td> TEXT (NTEXT if Unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
-   <td> IMAGE<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -280,18 +269,18 @@ The **`<elements>`** and **`<attributes>`** elements of the data schema can be e
 
   **Example**:
 
-  ```
+  ```sql
   <attribute name="email" type="string" length="80" label="Email"/>
   
   ```
 
-  The label can be seen from the Adobe Campaign client console input form:
+  The label is displayed in the Adobe Campaign client console input form:
 
   ![](assets/d_ncs_integration_schema_label.png)
 
 * The **desc** property lets you enter a long description.
 
-  The description can be seen from the input form in the status bar of the Adobe Campaign client console main window.
+  The description is displayed in the input form in the status bar of the Adobe Campaign client console main window.
 
   >[!NOTE]
   >
@@ -299,14 +288,14 @@ The **`<elements>`** and **`<attributes>`** elements of the data schema can be e
 
   **Example**:
 
-  ```
+  ```sql
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   
   ```
 
 ### Default values {#default-values}
 
-The **default** property lets you define an expression returning a default value on content creation.
+Use the **default** property to define an expression returning a default value on content creation.
 
 The value must be an expression compliant with XPath language. For more on this, refer to [Referencing with XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
@@ -319,9 +308,9 @@ The value must be an expression compliant with XPath language. For more on this,
 
   >[!NOTE]
   >
-  >In the Adobe Campaign client console, the **[!UICONTROL Administration>Counters]** node is used to manage counters.
+  >In the Adobe Campaign client console, browse to the **[!UICONTROL Administration > Counters]** folder of the Explorer to manage counters.
 
-To link a default value to a field, you can use the `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
+To link a default value to a field, you can use the `<default>`  or  `<sqldefault>`   field.
 
 `<default>` : allows you to pre-fill the field with a default value when creating entities. The value will not be a default SQL value. 
 
@@ -329,13 +318,13 @@ To link a default value to a field, you can use the `<default>  or  <sqldefault>
 
 ### Enumerations {#enumerations}
 
-#### Free enumeration {#free-enumeration}
+#### Open enumeration {#free-enumeration}
 
-The **userEnum** property lets you define a free enumeration to memorize and display the values entered via this field. The syntax is as follows:
+The **userEnum** property lets you define an open enumeration to store and display the values entered via this field. 
 
-**userEnum="name of enumeration"**
+The syntax is as follows:
 
-The name given to the enumeration can be chosen freely and shared with other fields.
+`userEnum="name of enumeration"`
 
 These values are shown in a drop-down list from the input form:
 
@@ -343,7 +332,7 @@ These values are shown in a drop-down list from the input form:
 
 >[!NOTE]
 >
->In the Adobe Campaign client console, the **[!UICONTROL Administration > Enumerations]** node is used to manage enumerations.
+>In the Adobe Campaign client console, browse to the **[!UICONTROL Administration > Enumerations]** folder of the Explorer to manage enumerations.
 
 #### Set enumeration {#set-enumeration}
 
@@ -357,7 +346,7 @@ Enumerations allow the user to select a value from a drop-down list instead of e
 
 Example of an enumeration declaration in the data schema:
 
-```
+```sql
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -370,33 +359,31 @@ An enumeration is declared outside the main element via the **`<enumeration>`** 
 
 The enumeration properties are as follows:
 
-* **baseType**: type of data associated with the values,
-* **label**: description of the enumeration,
-* **name**: name of the enumeration,
-* **default**: default value of the enumeration.
+* **baseType**: type of data associated with the values
+* **label**: description of the enumeration
+* **name**: name of the enumeration
+* **default**: default value of the enumeration
 
 The enumeration values are declared in the **`<value>`** element with the following attributes:
 
-* **name**: name of the value stored internally,
-* **label**: label displayed via the graphical interface.
+* **name**: name of the value stored internally
+* **label**: label displayed in the graphical interface
 
 #### dbenum enumeration {#dbenum-enumeration}
 
-* The **dbenum** property lets you define an enumeration whose properties are similar to those of the **enum** property.
+*The **dbenum** property lets you define an enumeration whose properties are similar to those of the **enum** property.
 
-  However, the **name** attribute does not store the value internally, it stores a code which lets you extend the concerned tables without modifying their schema.
+However, the **name** attribute does not store the value internally, it stores a code which lets you extend the concerned tables without modifying their schema.
 
-  The values are defined via the **[!UICONTROL Administration>Enumerations]** node.
+This enumeration is used for specifying the nature of campaigns, for example.
 
-  This enumeration is used for specifying the nature of campaigns, for example.
-
-  ![](assets/d_ncs_configuration_schema_dbenum.png)
+![](assets/d_ncs_configuration_schema_dbenum.png)
 
 ### Example {#example}
 
 Here is our example schema with the properties filled in:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -424,7 +411,7 @@ The **unbound** attribute with the value "true" lets you populate a collection e
 
 **Example**: definition of the **`<group>`** collection element in the schema.
 
-```
+```sql
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -433,7 +420,7 @@ The **unbound** attribute with the value "true" lets you populate a collection e
 
 With projection of the XML content:
 
-```
+```sql
 <group label="Group1"/>
 <group label="Group2"/>
 
@@ -477,8 +464,8 @@ You can access the list of available functions via any expression editor in the 
 **Example**:
 
 * **GetDate()**: returns the current date
-* **Year(@created)**: returns the year of the date contained in the "created" attribute.
-* **GetEmailDomain(@email)**: returns the domain of the email address.
+* **Year(@created)**: returns the year of the date contained in the "created" attribute
+* **GetEmailDomain(@email)**: returns the domain of the email address
 
 ## Building a string via the compute string {#building-a-string-via-the-compute-string}
 
@@ -488,7 +475,7 @@ The **Compute string** is defined via the **`<compute-string>`** element under t
 
 **Example**: compute string of the recipient table.
 
-```
+```sql
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>
