@@ -489,3 +489,14 @@ Result of the computed string for a recipient: **Doe John (john.doe@aol.com)**
 >[!NOTE]
 >
 >If the schema does not contain a Compute string, a Compute string is populated by default with the values of the primary key of the schema.
+
+
+## Learn more
+
+Browse the following links to learn more:
+
+* [Get started with schemas](about-schema-reference.md)
+* [Database mapping](database-mapping.md)
+* [Link management](database-links.md)
+* [Key management](database-keys.md)
+* [Campaign datamodel](about-data-model.md)

@@ -216,3 +216,13 @@ The schema generated:
 ```
 
 The definition of the "companyEmail" name key was extended with the foreign key of the "company" link. This key generates a unique index on both fields.
+
+## Learn more
+
+Browse the following links to learn more:
+
+* [Get started with schemas](about-schema-reference.md)
+* [Schema structure](schema-structure.md)
+* [Database mapping](database-mapping.md)
+* [Key management](database-keys.md)
+* [Campaign datamodel](about-data-model.md)

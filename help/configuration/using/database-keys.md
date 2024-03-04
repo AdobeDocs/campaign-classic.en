@@ -174,3 +174,13 @@ In addition to the definition of the key and its index, a numeric field called "
 >
 >A record with a primary key set to 0 is automatically inserted on creation of the table. This record is used to avoid outer joins, which are not effective on volume tables. By default, all foreign keys are initialized with value 0 so that a result can always be returned on the join when the data item is not populated.
 
+
+## Learn more
+
+Browse the following links to learn more:
+
+* [Get started with schemas](about-schema-reference.md)
+* [Schema structure](schema-structure.md)
+* [Database mapping](database-mapping.md)
+* [Link management](database-links.md)
+* [Campaign datamodel](about-data-model.md)
