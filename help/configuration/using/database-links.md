@@ -5,175 +5,19 @@ description: Database mapping
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-exl-id: 728b509f-2755-48df-8b12-449b7044e317
 ---
-# Database mapping{#database-mapping}
 
-The SQL mapping of the sample schema described [in this page](schema-structure.md) generates the following XML document:
-
-```sql
-<schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
-  <enumeration basetype="byte" name="gender">    
-    <value label="Not specified" name="unknown" value="0"/>    
-    <value label="Male" name="male" value="1"/>    
-    <value label="Female" name="female" value="2"/> 
-  </enumeration>  
-
-  <element name="recipient" sqltable="CusRecipient">    
-    <attribute desc="Recipient email address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-    <attribute default="GetDate()" label="Date of creation" name="created" sqlname="tsCreated" type="datetime"/>    
-    <attribute enum="gender" label="Gender" name="gender" sqlname="iGender" type="byte"/>    
-    <element label="Location" name="location">      
-      <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-    </element>  
-  </element>
-</schema>
-```
-
-The root element of the schema changed to **`<srcschema>`** to **`<schema>`**.
-
-This other type of document is generated automatically from the source schema, and simply referred to as the schema.
-
-The SQL names are determined automatically based on element name and type.
-
-The SQL naming rules are as follows:
-
-* **table**: concatenation of the schema namespace and name
-
-  In our example, the name of the table is entered via the main element of the schema in the **sqltable** attribute:
-
-  ```sql
-  <element name="recipient" sqltable="CusRecipient">
-  ```
-
-* **field**: name of the element preceded by a prefix defined according to type: 'i' for integer, 'd' for double, 's' for string, 'ts' for dates, etc.
-
-  The field name is entered via the **sqlname** attribute for each typed **`<attribute>`** and **`<element>`**:
-
-  ```sql
-  <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
-  ```
-
->[!NOTE]
->
->SQL names can be overloaded from the source schema. To do this, populate the "sqltable" or "sqlname" attributes on the element concerned.
-
-The SQL script to create the table generated from the extended schema is as follows:
-
-```sql
-CREATE TABLE CusRecipient(
-  iGender NUMERIC(3) NOT NULL Default 0,   
-  sCity VARCHAR(50),   
-  sEmail VARCHAR(80),
-  tsCreated TIMESTAMP Default NULL);
-```
-
-The SQL field constraints are as follows:
-
-* no null values in numeric and date fields
-* numeric fields are initialized to 0
-
-## XML fields {#xml-fields}
-
-By default, any  **`<attribute>`** and **`<element>`** -typed element is mapped onto an SQL field of the data schema table. You can, however, reference this field in XML instead of SQL, which means that the data is stored in a memo field ("mData") of the table containing the values of all XML fields. The storage of these data is an XML document that observes the schema structure.
-
-To populate a field in XML, you must add the **xml** attribute with the value "true" to the element concerned.
-
-**Example**: here are two examples of XML field use.
-
-* Multi-line comment field:
-
-  ```sql
-  <element name="comment" xml="true" type="memo" label="Comment"/>
-  ```
-
-* Description of data in HTML format:
-
-  ```sql
-  <element name="description" xml="true" type="html" label="Description"/>
-  ```
-
-  The "html" type lets you store the HTML content in a CDATA tag and display a special HTML edit check in the Adobe Campaign client interface.
-
-Use XML fields to add new fields without modifying the physical structure of the database. Another advantage is that you use less resources (size allocated to SQL fields, limit on the number of fields per table, etc.). However, note that you cannot index or filter an XML field.
-
-## Indexed fields {#indexed-fields}
-
-Indexes let you optimize the performance of the SQL queries used in the application.
-
-An index is declared from the main element of the data schema.
-
-```sql
-<dbindex name="name_of_index" unique="true/false">
-  <keyfield xpath="xpath_of_field1"/>
-  <keyfield xpath="xpath_of_field2"/>
-  ...
-</key>
-```
-
-Indexes obey the following rules:
-
-* An index can reference one or more fields in the table
-* An index can be unique (to avoid duplicates) in all of the fields if the **unique** attribute contains the value "true"
-* The SQL name of the index is determined from the SQL name of the table and the name of the index
-
->[!NOTE]
->
->* As a standard, indexes are the first elements declared from the main element of the schema.
->
->* Indexes are created automatically during table mapping (standard or FDA).
-
-**Example**:
-
-* Adding an index to the email address and city:
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <dbindex name="email">
-        <keyfield xpath="@email"/> 
-        <keyfield xpath="location/@city"/> 
-      </dbindex>
-  
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-      <element name="location" label="Location">
-        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-      </element>
-    </element>
-  </srcSchema>
-  ```
-
-* Adding a unique index to the "id" name field:
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <dbindex name="id" unique="true">
-        <keyfield xpath="@id"/> 
-      </dbindex>
-  
-      <dbindex name="email">
-        <keyfield xpath="@email"/> 
-      </dbindex>
-  
-      <attribute name="id" type="long" label="Identifier"/>
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-    </element>
-  </srcSchema>
-  ```
-
-
-## Link management {#links--relation-between-tables}
+# Link management {#links--relation-between-tables}
 
 A link describes the association between one table and another.
 
-The various types of associations (known as "cardinalities") are as follows:
+Types of associations, also known as cardinalities, are listed below.
 
 * Cardinality 1-1: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 * Cardinality 1-N: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
 * Cardinality N-N: one occurrence of the source table can have several corresponding occurrences of the target table, and vice-versa.
 
-In the interface, you can distinguish the different types of relations easily thanks to their icons.
+In the use interface, cardinalities are represented with a specific icon.
 
 For join relations with a campaign table/database:
 
@@ -181,7 +25,7 @@ For join relations with a campaign table/database:
 * ![](assets/externaljoin11.png) : Cardinality 1-1, external join. For example, between a recipient and their country. A recipient can be related to only one occurrence of the table country. The content of the country table will not be saved. 
 * ![](assets/join_with_campaign1n.png) : Cardinality 1-N. For example, between a recipient and the subscriptions table. A recipient can be related to several occurrences on the subscriptions table.
 
-For join relations using Federated Database Access:
+For join relations using Federated Database Access (FDA):
 
 * ![](assets/join_fda_11.png) : Cardinality 1-1
 * ![](assets/join_fda_1m.png) : Cardinality 1-N
@@ -202,20 +46,21 @@ Links obey the following rules:
 
 * The definition of a link is entered on a **link**-type **`<element>`** with the following attributes:
 
-    * **name**: name of link from the source table,
-    * **target**: name of target schema,
-    * **label**: label of link,
-    * **revLink** (optional): name of reverse link from the target schema (deduced automatically by default),
-    * **integrity** (optional): referential integrity of the occurrence of the source table to the occurrence of the target table. Possible values are as follows:
+    * **name**: name of link from the source table
+    * **target**: name of target schema
+    * **label**: label of link
+    * **revLink** (optional): name of reverse link from the target schema (deduced automatically by default)
+    * **integrity** (optional): referential integrity of the occurrence of the source table to the occurrence of the target table. 
+        Possible values are:
 
-        * **define**: it is possible to delete the source occurrence if it is no longer referenced by a target occurrence,
-        * **normal**: deleting the source occurrence initializes the keys of the link to the target occurrence (default mode), this type of integrity initializes all foreign keys,
-        * **own**: deleting the source occurrence leads to the deletion of the target occurrence,
-        * **owncopy**: the same as **own** (in case of deletion) or duplicates the occurrences (in case of duplication),
-        * **neutral**: does nothing.
+        * **define**: it is possible to delete the source occurrence if it is no longer referenced by a target occurrence
+        * **normal**: deleting the source occurrence initializes the keys of the link to the target occurrence (default mode), this type of integrity initializes all foreign keys
+        * **own**: deleting the source occurrence leads to the deletion of the target occurrence
+        * **owncopy**: the same as **own** (in case of deletion) or duplicates the occurrences (in case of duplication)
+        * **neutral**: no specific behavior
 
-    * **revIntegrity** (optional): integrity on the target schema (optional, "normal" by default),
-    * **revCardinality** (optional): with value "single" populates cardinality with type 1-1 (1-N by default).
+    * **revIntegrity** (optional): integrity on the target schema (optional, "normal" by default)
+    * **revCardinality** (optional): with value "single" populates cardinality with type 1-1 (1-N by default)
     * **externalJoin** (optional): forces the outer join
     * **revExternalJoin** (optional): forces the outer join on the reverse link
 
@@ -228,9 +73,9 @@ Links obey the following rules:
 >
 >As a standard, links are the elements declared at the end of the schema.
 
-### Example 1 {#example-1}
+## Example: reverse link {#example-1}
 
-1-N relation to the "cus:company" schema table:
+In the example below, we declare a 1-N relation to the "cus:company" schema table:
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -291,9 +136,9 @@ A reverse link to the "cus:recipient" table was added with the following paramet
 * **unbound**: the link is declared as a collection element for a 1-N cardinality (by default)
 * **integrity**: "define" by default (can be forced with the "revIntegrity" attribute in the link definition on the source schema).
 
-### Example 2 {#example-2}
+## Example: simple link {#example-2}
 
-In this example, we will declare a link towards the "nms:address" schema table. The join is an outer join and is populated explicitly with the recipient's email address and the "@address" field of the linked table ("nms:address").
+In this example, we declare a link towards the "nms:address" schema table. The join is an outer join and is populated explicitly with the recipient's email address and the "@address" field of the linked table ("nms:address").
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -306,17 +151,17 @@ In this example, we will declare a link towards the "nms:address" schema table. 
 </srcSchema>
 ```
 
-### Example 3 {#example-3}
+## Example: unique cardinality {#example-3}
 
-1-1 relation to the "cus:extension" schema table:
+In this example, we create a 1-1 relation to the "cus:extension" schema table:
 
 ```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Example 4 {#example-4}
+## Example: link to a folder {#example-4}
 
-Link to a folder ("xtk:folder" schema):
+In this example, we declare a link to a folder ("xtk:folder" schema):
 
 ```sql
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
@@ -324,9 +169,9 @@ Link to a folder ("xtk:folder" schema):
 
 The default value returns the identifier of the first eligible parameter type file entered in the "DefaultFolder('nmsFolder')" function.
 
-### Example 5 {#example-5}
+## Example: create a key on a link {#example-5}
 
-In this example, we wish to create a key on a link ("company" to "cus:company" schema) with the **xlink** attribute and a field of the ("email") table:
+In this example, we create a key on a link ("company" to "cus:company" schema) with the **xlink** attribute and a field of the ("email") table:
 
 ```sql
 <srcSchema name="recipient" namespace="cus">

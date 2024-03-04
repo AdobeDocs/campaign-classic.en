@@ -738,6 +738,8 @@ type: Documentation
        + [Get started with schemas](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
        + [Database mapping](configuration/using/database-mapping.md)
+       + [Key management](configuration/using/database-keys.md)
+       + [Link management](configuration/using/database-links.md)
        + Elements and attributes {#elements-attributes}
            + [Introduction](configuration/using/schema-introduction.md)
            + [Attribute](configuration/using/schema/attribute.md)
