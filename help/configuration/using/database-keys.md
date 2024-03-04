@@ -23,7 +23,6 @@ A key is declared from the main element of the data schema.
 
 A key is known as a 'primary key' when it is the first in the schema to be populated, or if it contains the `internal` attribute set to "true".
 
-
 The following rules apply to keys:
 
 * A key can reference one or more fields in the table
