@@ -12,8 +12,6 @@ exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 ---
 # Zip or encrypt a file {#zipping-or-encrypting-a-file}
 
- 
-
 Adobe Campaign lets you export zipped or encrypted files. When defining an export through a **[!UICONTROL Data extraction (file)]** activity, you can define a post-processing to zip or to encrypt the file.
 
 To be able to do so:
@@ -33,7 +31,7 @@ You can then use commands or code in the **[!UICONTROL Script]** tab of the acti
 **Related topics:**
 
 * [Unzip or decrypt a file before processing](../../platform/using/unzip-decrypt.md)
-* [Data extraction (file) activity](../../workflow/using/extraction--file-.md).
+* [Data extraction (file) activity](../../workflow/using/extraction-file.md).
 
 ## Use case: Encrypt and export data using a key installed on Control Panel {#use-case-gpg-encrypt}
 
@@ -56,7 +54,7 @@ The steps to perform this use case are as follows:
 
 1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. For more on this, refer to [this section](../../workflow/using/query.md).
 
-1. Open the **[!UICONTROL Data extraction (file)]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../workflow/using/extraction--file-.md).
+1. Open the **[!UICONTROL Data extraction (file)]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../workflow/using/extraction-file.md).
 
     ![](assets/gpg-data-extraction.png)
 

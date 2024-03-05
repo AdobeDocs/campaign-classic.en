@@ -189,7 +189,7 @@ You can associate a marketing resource with one or more stocks in order to manag
 
 >[!NOTE]
 >
->For more information on stock management in Adobe Campaign, refer to [Stock management](../../campaign/using/providers--stocks-and-budgets.md#stock-management).
+>For more information on stock management in Adobe Campaign, refer to [Stock management](../../campaign/using/providers-stocks-and-budgets.md#stock-management).
 
 To associate a marketing resource with a stock, edit the stock map and edit or create a stock. Add a stock line and select the corresponding marketing resource.
 

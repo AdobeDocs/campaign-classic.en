@@ -3,12 +3,12 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 Documentation
 product: campaign
 title: Campaign Classic v7 Guide
-user-guide-description: With Adobe Campaign, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
+user-guide-description: Product documentation for Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 ---
 
-# Adobe Campaign Classic v7 documentation {#using}
+# Adobe Campaign Classic v7 Documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
@@ -16,9 +16,9 @@ type: Documentation
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
   + Previous releases {#previous-releases}
+    + [2022](rn/using/release-2022.md)    
+    + [2021](rn/using/release-2021.md)
     + [[!DNL Gold Standard]](rn/using/gold-standard.md)
-    + [2021](rn/using/release--2021.md)
-    + [2022](rn/using/release--2022.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
 + Get started {#getting-started}
@@ -135,7 +135,9 @@ type: Documentation
        + [Attach files](delivery/using/attaching-files.md)
   + Send SMS {#sending-messages-on-mobiles}
        + [Get started with SMS](delivery/using/sms-channel.md)
-       + [Configure SMS channel](delivery/using/sms-set-up.md)
+       + Configure SMS channel {#sms-set-up}
+          + [Configure SMS on a standalone instance](delivery/using/sms-set-up.md)
+          + [Configure SMS on a mid-sourcing infrastructure](delivery/using/sms-set-up-mid.md)
        + [Create a SMS](delivery/using/sms-create.md)
        + [Send and track SMS](delivery/using/sms-send.md)
        + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
@@ -176,8 +178,8 @@ type: Documentation
        + [Create seed addresses](delivery/using/creating-seed-addresses.md)
        + [Add seed addresses](delivery/using/adding-seed-addresses.md)
        + [Use an external recipient table](delivery/using/using-an-external-recipient-table.md)
-       + [Use case: select seed addresses on criteria](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
-       + [Use case: configure the field substitution](delivery/using/use-case--configuring-the-field-substitution.md)
+       + [Use case: select seed addresses on criteria](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
+       + [Use case: configure the field substitution](delivery/using/use-case-configuring-the-field-substitution.md)
   + A/B testing {#a-b-testing}
        + [Get started with A/B testing](delivery/using/get-started-a-b-testing.md)
        + [Configure A/B testing](delivery/using/configuring-a-b-testing.md)
@@ -225,7 +227,7 @@ type: Documentation
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
-       + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
+       + [Use case: creating content management](delivery/using/use-case-creating-content-management.md)
        + [Data schemas](delivery/using/data-schemas.md)
        + [Input forms](delivery/using/input-forms.md)
        + [Formatting](delivery/using/formatting.md)
@@ -245,7 +247,7 @@ type: Documentation
        + [Manage documents and assets](campaign/using/marketing-campaign-assets.md)
        + [Set up and manage approvals](campaign/using/marketing-campaign-approval.md)
        + [Monitor your campaigns](campaign/using/marketing-campaign-monitoring.md)
-       + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
+       + [Providers, stocks and budgets](campaign/using/providers-stocks-and-budgets.md)
   + Campaign optimization {#campaign-optimization}
        + [About campaign typologies](campaign-opt/using/about-campaign-typologies.md)
        + [Pressure rules](campaign-opt/using/pressure-rules.md)
@@ -312,7 +314,7 @@ type: Documentation
        + [Get started with web applications](web/using/about-web-applications.md)
        + [Create a new web application](web/using/creating-a-new-web-application.md)
        + [Design a web application](web/using/designing-a-web-application.md)
-       + [Use cases: create overviews](web/using/use-cases--creating-overviews.md)
+       + [Use cases: create overviews](web/using/use-cases-creating-overviews.md)
        + [Translate a web application](web/using/translating-a-web-application.md)
        + [Track visits on a web application](web/using/tracking-a-web-application.md)
        + [Web application tracking opt-out](web/using/web-application-tracking-opt-out.md)
@@ -323,7 +325,7 @@ type: Documentation
        + [Edit content](web/using/editing-content.md)
        + [Content editing best practices](web/using/content-editing-best-practices.md)
        + [Create a landing page](web/using/creating-a-landing-page.md)
-       + [Use case: create an email delivery](web/using/use-case--creating-an-email-delivery.md)
+       + [Use case: create an email delivery](web/using/use-case-creating-an-email-delivery.md)
   + Web forms {#web-forms}
        + [Get started with web forms](web/using/about-web-forms.md)
        + [Use a web form template](web/using/using-a-web-form-template.md)
@@ -336,16 +338,16 @@ type: Documentation
        + [Publish a web form](web/using/publishing-a-web-form.md)
        + [Define web forms properties](web/using/defining-web-forms-properties.md)
        + [Translate a web form](web/using/translating-a-web-form.md)
-       + [Use cases: web forms](web/using/use-cases--web-forms.md)
+       + [Use cases: web forms](web/using/use-cases-web-forms.md)
 + Create online surveys {#online-surveys}
   + [Get started with surveys](surveys/using/about-surveys.md)
   + [Key steps to create a survey](surveys/using/getting-started-with-surveys.md)
   + [Design a survey](surveys/using/building-a-survey.md)
   + [Manage answers](surveys/using/managing-answers.md)
-  + [Publish, track and use collected data](surveys/using/publish--track-and-use-collected-data.md)
+  + [Publish, track and use collected data](surveys/using/publish-track-and-use-collected-data.md)
   + [Configure surveys](surveys/using/configuring-surveys.md)
-  + [Use case: create a referral form](surveys/using/use-case--creating-a-refer-a-friend-form.md)
-  + [Use case: display report on answers to an online survey](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+  + [Use case: create a referral form](surveys/using/use-case-creating-a-refer-a-friend-form.md)
+  + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}
@@ -429,7 +431,7 @@ type: Documentation
        + [Wait](workflow/using/wait.md)
        + [Time constraint](workflow/using/time-constraint.md)
        + [Sub-workflow](workflow/using/sub-workflow.md)
-       + [Jump (start point and end point)](workflow/using/jump--start-point-and-end-point-.md)
+       + [Jump (start point and end point)](workflow/using/jump-start-point-and-end-point.md)
        + [External signal](workflow/using/external-signal.md)
        + [Approval](workflow/using/approval.md)
        + [Alert](workflow/using/alert.md)
@@ -442,11 +444,11 @@ type: Documentation
        + [Recurring delivery](workflow/using/recurring-delivery.md)
        + [Cross-channel deliveries](workflow/using/cross-channel-deliveries.md)
        + [Local approval](workflow/using/local-approval.md)
-       + [Data loading (RDBMS)](workflow/using/data-loading--rdbms-.md)
-       + [Loading (SOAP)](workflow/using/loading--soap-.md)
-       + [Data loading (file)](workflow/using/data-loading--file-.md)
+       + [Data loading (RDBMS)](workflow/using/data-loading-rdbms.md)
+       + [Loading (SOAP)](workflow/using/loading-soap.md)
+       + [Data loading (file)](workflow/using/data-loading-file.md)
        + [Content Management](workflow/using/content-management.md)
-       + [Data extraction (file)](workflow/using/extraction--file-.md)
+       + [Data extraction (file)](workflow/using/extraction-file.md)
        + [SQL code and JavaScript code](workflow/using/sql-code-and-javascript-code.md)
        + [SQL Data Management](workflow/using/sql-data-management.md)
        + [Nlserver module](workflow/using/nlserver-module.md)
@@ -497,7 +499,7 @@ type: Documentation
        + [Advanced parameters](workflow/using/advanced-parameters.md)
        + [JavaScript scripts and templates](workflow/using/javascript-scripts-and-templates.md)
        + [Examples of JavaScript code in workflows](workflow/using/javascript-in-workflows.md)
-       + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
+       + [Access an external database](workflow/using/accessing-an-external-database-fda.md)
        + [Manage permissions](workflow/using/managing-rights.md)
        + [Change activity images](workflow/using/managing-activity-images.md)
        + [Manage time zones](workflow/using/managing-time-zones.md)
@@ -535,8 +537,8 @@ type: Documentation
        + [Integrate an offer via a workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
   + Unitary interactions {#unitary-interactions}
        + [About inbound channels](interaction/using/about-inbound-channels.md)
-       + [Integration via JavaScript (client side)](interaction/using/integration-via-javascript--client-side-.md)
-       + [Integration via SOAP (server side)](interaction/using/integration-via-soap--server-side-.md)
+       + [Integration via JavaScript (client side)](interaction/using/integration-via-javascript-client-side.md)
+       + [Integration via SOAP (server side)](interaction/using/integration-via-soap-server-side.md)
        + [Anonymous interactions](interaction/using/anonymous-interactions.md)
   + Track offers {#tracking-offers}
        + [Offer proposition history](interaction/using/offer-proposition-history.md)
@@ -548,7 +550,7 @@ type: Documentation
        + [Create a test environment](interaction/using/creating-a-test-environment.md)
        + [Modify the standard engine behavior](interaction/using/hooks.md)
        + [Distributed architectures](interaction/using/distributed-architectures.md)
-       + [Data buffer configuration](installation/using/interaction---data-buffer.md)
+       + [Data buffer configuration](installation/using/interaction-data-buffer.md)
   + Use case {#case-study}
        + [Presentation rules](interaction/using/presentation-rules.md)
        + [Offers on an inbound channel](interaction/using/offers-on-an-inbound-channel.md)
@@ -582,7 +584,7 @@ type: Documentation
        + Hosting models{#hosting-models-lp}
           + [Campaign hosting models](installation/using/hosting-models.md)
           + [Capability matrix](installation/using/capability-matrix.md)
-  + Deployment types {#deployment-types-}
+  + Deployment types {#deployment-types}
        + [About deployment types](installation/using/about-deployment-types.md)
        + [Standalone deployment](installation/using/standalone-deployment.md)
        + [Standard deployment](installation/using/standard-deployment.md)
@@ -603,12 +605,12 @@ type: Documentation
        + [Application server](installation/using/application-server.md)
        + [Messaging server](installation/using/messaging-server.md)
        + [Network configuration](installation/using/network-configuration.md)
-     + Campaign on Windows {#installing-campaign-in-windows-}
+     + Campaign on Windows {#installing-campaign-in-windows}
        + [Get started](installation/using/prerequisites-of-campaign-installation-in-windows.md)
        + [Install the server](installation/using/installing-the-server.md)
        + [Integrate into a Web server (Windows)](installation/using/integration-into-a-web-server-for-windows.md)
        + [Client console availability for Windows](installation/using/client-console-availability-for-windows.md)
-     + Campaign on Linux {#installing-campaign-in-linux-}
+     + Campaign on Linux {#installing-campaign-in-linux}
        + [Prerequisites](installation/using/prerequisites-of-campaign-installation-in-linux.md)
        + [Install packages](installation/using/installing-packages-with-linux.md)
        + [Integrate into a web server](installation/using/integration-into-a-web-server-for-linux.md)
@@ -646,6 +648,7 @@ type: Documentation
           + [Best practices and limitations](installation/using/fda-best-practices.md)
           + Configuration guidelines {#config-databases}
             + [Configuration steps](installation/using/configure-fda.md)
+            + [Configure Amazon Redshift](installation/using/configure-fda-redshift.md)
             + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configure Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configure Hadoop](installation/using/configure-fda-hadoop.md)
@@ -731,10 +734,12 @@ type: Documentation
        + [About the data model](configuration/using/about-data-model.md)
        + [Data model description](configuration/using/data-model-description.md)
        + [Best practices](configuration/using/data-model-best-practices.md)
-  + Schema Reference {#schema-reference}
-       + [About schema reference](configuration/using/about-schema-reference.md)
+  + Work with schemas {#schema-reference}
+       + [Get started with schemas](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
        + [Database mapping](configuration/using/database-mapping.md)
+       + [Key management](configuration/using/database-keys.md)
+       + [Link management](configuration/using/database-links.md)
        + Elements and attributes {#elements-attributes}
            + [Introduction](configuration/using/schema-introduction.md)
            + [Attribute](configuration/using/schema/attribute.md)
@@ -794,7 +799,7 @@ type: Documentation
   + Setting up web tracking {#setting-up-web-tracking}
        + [About web tracking](configuration/using/about-web-tracking.md)
        + [Web tracking mode](configuration/using/web-tracking-mode.md)
-       + [Web tracking tag: definition](configuration/using/web-tracking-tag--definition.md)
+       + [Web tracking tag: definition](configuration/using/web-tracking-tag-definition.md)
        + [Setup stages](configuration/using/setup-stages.md)
        + [Additional parameters](configuration/using/additional-parameters.md)
        + [Creating web tracking tags](configuration/using/creating-web-tracking-tags.md)
@@ -813,6 +818,9 @@ type: Documentation
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
+  + Upgrade to IMS{#ims}
+    + [Migrate users to IMS](technotes/using/migrate-users-to-ims.md)
+    + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)
   + Upgrades and compatibility{#technote-migration}
        + [Technotes](technotes/using/technote.md)
        + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       
@@ -831,3 +839,7 @@ type: Documentation
        + [Migration to Public Cloud](technotes/using/dc-migration.md)
        + [FAQ](technotes/using/dc-migration-faq.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+
+<!--
+With Adobe Campaign Classic v7, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
+-->

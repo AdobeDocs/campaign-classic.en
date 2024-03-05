@@ -277,7 +277,7 @@ This task deletes from the database, all work tables which match deliveries whos
 1. The list of tables with names beginning with **wkDlv_** is recovered first with the following query (postgresql):
 
    ```sql
-   SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
+   SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
 1. The tables used by workflows in progress are then excluded. To do this, the list of deliveries in progress is recovered using the following query:

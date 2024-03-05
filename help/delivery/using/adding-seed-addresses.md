@@ -32,7 +32,7 @@ There are three possible insertion modes:
 
    To do this, click the **[!UICONTROL Edit the dynamic condition...]** link, then enter the seed address selection parameters. For instance, you could include all the seed addresses contained in a specific folder, or seed addresses belonging to a specific department from your organization.
 
-   An example of this is presented in this section: [Use case: select seed addresses on criteria](use-case--selecting-seed-addresses-on-criteria.md).
+   An example of this is presented in this section: [Use case: select seed addresses on criteria](use-case-selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >

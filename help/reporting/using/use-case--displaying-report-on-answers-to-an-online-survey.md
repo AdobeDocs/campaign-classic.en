@@ -31,7 +31,7 @@ Before starting on this use case, you need to have access to a survey and a set 
 
 To collect the answers to the survey, apply the following steps:
 
-1. Create a workflow and place an **[!UICONTROL Answers to a survey]** activity. For more on using this activity, refer to [this section](../../surveys/using/publish--track-and-use-collected-data.md#using-the-collected-data).
+1. Create a workflow and place an **[!UICONTROL Answers to a survey]** activity. For more on using this activity, refer to [this section](../../surveys/using/publish-track-and-use-collected-data.md#using-the-collected-data).
 1. Edit the activity and select the survey whose answers you want to analyze.
 1. Enable the **[!UICONTROL Select all the answer data]** option to collect all the information.
 

@@ -31,7 +31,7 @@ To set up access to an external database with FDA, configuration steps are:
 1. Create the schema of the external database in Adobe Campaign. This allows you to identify the data structure of the external database. [Learn more](../../installation/using/creating-data-schema.md)
 1. If needed, create a new target mapping from the previously created schema. This is required if the recipients of your deliveries come from the external database. This implementation comes with limitations related to message personalization. [Learn more](../../installation/using/defining-data-mapping.md)
 
-Once the data schema is created, data can be processed in Adobe Campaign workflows. For more on this, refer to [this section](../../workflow/using/accessing-an-external-database--fda-.md).
+Once the data schema is created, data can be processed in Adobe Campaign workflows. For more on this, refer to [this section](../../workflow/using/accessing-an-external-database-fda.md).
 
 ## Database specific configuration {#fda-specific-configuration}
 
@@ -39,6 +39,7 @@ Depending on the external databases that you want to be able to access from Adob
 
 Follow the links below to learn more:
 
+* Connect Campaign and [Amazon Redshift](../../installation/using/configure-fda-redshift.md)
 * Connect Campaign and [Azure Synapse](../../installation/using/configure-fda-synapse.md)
 * Connect Campaign and [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Connect Campaign and [Hadoop](../../installation/using/configure-fda-hadoop.md)

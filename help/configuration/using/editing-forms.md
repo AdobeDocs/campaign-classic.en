@@ -48,7 +48,7 @@ You can create different types of input forms. The form type determines how user
 
 * Content Management
 
-  Use this form type for content management. See this [use case](../../delivery/using/use-case--creating-content-management.md).
+  Use this form type for content management. See this [use case](../../delivery/using/use-case-creating-content-management.md).
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 

@@ -19,7 +19,7 @@ To create a delivery, click **[!UICONTROL Create]** above the list of deliveries
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 
-A default template is provided for each channel you have installed: direct mail, email, fax, telephone, mobile channel (SMS), Facebook, Twitter, etc.
+A default template is provided for each channel you have installed: direct mail, email, fax, telephone, mobile channel (SMS), Facebook, X (formerly known as Twitter), etc.
 
 >[!NOTE]
 >

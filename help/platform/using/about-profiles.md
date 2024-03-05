@@ -92,7 +92,7 @@ A profile that has been targeted by several deliveries is counted only once.
 
 >[!NOTE]
 >
->Facebook and Twitter channels are not taken into account.
+>Facebook and X (formerly known as Twitter) channels are not taken into account.
 
 Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
 

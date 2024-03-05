@@ -12,10 +12,6 @@ exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 
 The **Mobile App Channel** lets you use the Adobe Campaign platform to send personalized push notifications to iOS and Android terminals via apps. 
 
->[!CAUTION]
->
->This document details the process for integrating your mobile application with the Adobe Campaign platform. It does not provide information on how to create the mobile application or how to configure it for managing notifications. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
-
 Two delivery channels are available:
 
 * An iOS channel that enables you to send notifications to Apple mobile devices.
@@ -26,14 +22,14 @@ Two delivery channels are available:
 
   ![](assets/nmac_intro_1.png)
 
-Corresponding to those two channels there are two delivery activities in the campaign workflows:
+    >[!IMPORTANT]
+    >
+    >Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. Learn more in this [Adobe Campaign v8 technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+
+Corresponding to those two channels there are two delivery activities in the campaign workflows. Two transactional message templates are also available for transactional messaging.
 
 ![](assets/nmac_intro_3.png)
 
-
->[!NOTE]
->
->Two transactional message templates are also available for transactional messaging.
 
 You can define the application behavior for when the user activates the notification to display the screen that matches the application context. For example:
 

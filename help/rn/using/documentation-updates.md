@@ -14,21 +14,31 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## 2024
+
+### January 2024 {#jan-2024}
+
+Information has been added on how the default postalAddress field for Direct Mail is defined and why it is important to make sure that addresses are complete. [Read more](../../delivery/using/about-direct-mail-channel.md)
+
+Added a new page on how to configure the SMS channel in Campaign on a mid-sourcing infrastructure. [Read more](../../delivery/using/sms-set-up-mid.md)
+
 ## 2023
 
-### November 2023
+### December 2023 {#dec-2023}
 
 JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
 
-### August 2023
+Added FDA external account configuration for Amazon Redshift. [Read more](../../installation/using/configure-fda-redshift.md)
+
+### August 2023 {#aug-2023}
 
 A limitation has been added to specify that you cannot use Adobe Campaign to uncompress zipped files larger than 4Gb. [Read more](../../platform/using/unzip-decrypt.md)
 
-### April 2023
+### April 2023 {#apr-2023}
 
 Added a technote about how to enable Microsoft Edge Chromium on on-premise/hybrid environments. [Read more](../../technotes/using/edge-chromium.md)
 
-### March 2023
+### March 2023 {#mar-2023}
 
 Updated Release Notes section with 7.3.3 improvements and patches. [Read more](latest-release.md)
 
@@ -666,7 +676,7 @@ A section has been added describing the Campaign server uninstallation steps. [R
 
 The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
-The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
+The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading-file.md)
 
 The Experience Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 

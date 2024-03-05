@@ -120,7 +120,7 @@ When your web pages are generated dynamically, you can add the web tracking tag 
 
 If you wish to control the information sent to the redirection server, the most reliable way is to perform the HTTP query synchronously yourself using a page generating language.
 
-The URL you construct must obey the syntax rules defined in [Web tracking tag: definition](../../configuration/using/web-tracking-tag--definition.md).
+The URL you construct must obey the syntax rules defined in [Web tracking tag: definition](../../configuration/using/web-tracking-tag-definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 

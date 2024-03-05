@@ -29,7 +29,7 @@ The following steps must be applied to implement budget management using MRM:
 
 1. Defining the cost calculation method
 
-   Cost structures are defined for the service providers. See [Create a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   Cost structures are defined for the service providers. See [Create a service provider and its cost categories](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 1. Defining campaign costs (deliveries/tasks)
 
@@ -164,7 +164,7 @@ According to the cost categories selected, the corresponding cost structures are
 
 >[!NOTE]
 >
->Cost categories and structures are presented in [Create a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+>Cost categories and structures are presented in [Create a service provider and its cost categories](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 ## Cost commitment, calculation and charging {#cost-commitment--calculation-and-charging}
 
@@ -227,7 +227,7 @@ We are going to create a campaign with:
 
 #### Step 2 - Configure the service provider and define the cost structures {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node. For more on this, refer to [Create a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+1. Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node. For more on this, refer to [Create a service provider and its cost categories](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
    For direct mail deliveries, create cost categories **[!UICONTROL Envelopes]** (types 114x229 and 162x229), **[!UICONTROL Postage]** and **[!UICONTROL Print]** (types A3 and A4). And then create the following cost structures:
 

@@ -92,7 +92,7 @@ The following table lists all Campaign built-in packages.
   </tr--> 
   <tr> 
    <td> Social networks (Social Marketing) <br /> </td> 
-   <td> Synchronizes Adobe Campaign with Twitter and Facebook. <a href="../../social/using/about-social-marketing.md">Learn More</a> <br /> </td> 
+   <td> Synchronizes Adobe Campaign with X (formerly known as Twitter) and Facebook. <a href="../../social/using/about-social-marketing.md">Learn More</a> <br /> </td> 
    <td> All</td> 
   </tr> 
   <tr> 
@@ -152,7 +152,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Access to external data (Federated Data Access)<br /> </td> 
-   <td> Provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases so that you can access external data without changing the structure of Adobe Campaign data.  Optional. <a href="../../workflow/using/accessing-an-external-database--fda-.md">Learn More</a> <br /> </td> 
+   <td> Provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases so that you can access external data without changing the structure of Adobe Campaign data.  Optional. <a href="../../workflow/using/accessing-an-external-database-fda.md">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
   <tr> 

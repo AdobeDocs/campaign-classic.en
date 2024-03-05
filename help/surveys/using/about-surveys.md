@@ -45,8 +45,8 @@ The optional survey creation module offers a user-friendly UI and the following 
 * Dynamic extension of the database: creation of answers which aren't part of the initial data model. [Learn more](../../surveys/using/managing-answers.md#storing-collected-answers).
 * Score management. [Learn more](../../surveys/using/managing-answers.md#score-management).
 * Random displaying of questions. [Learn more](../../surveys/using/building-a-survey.md#adding-questions).
-* Real time tracking of answers. [Learn more](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
-* Generating dedicated reports. [Learn more](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+* Real time tracking of answers. [Learn more](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
+* Generating dedicated reports. [Learn more](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys).
 
 
 ## Implementation steps {#surveys-implementation-steps}

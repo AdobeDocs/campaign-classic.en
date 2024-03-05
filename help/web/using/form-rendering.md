@@ -150,7 +150,7 @@ In the field selection window, you can choose from the following data:
 
 * The **[!UICONTROL Variables]** sub-tree contains the available variables for this form. For more on this, refer to [Storing data in a local variable](web-forms-answers.md#storing-data-in-a-local-variable).
 
-For more on this, refer to the use case available here: [Displaying different options depending on the selected values](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+For more on this, refer to the use case available here: [Displaying different options depending on the selected values](use-cases-web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
 You can also condition the display of form pages using the **[!UICONTROL Test]** object. For more on this, refer to this [page](defining-web-forms-page-sequencing.md#conditional-page-display).
 

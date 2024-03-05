@@ -113,7 +113,7 @@ The following channels can be configured:
 * [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Direct mail](../../delivery/using/about-direct-mail-channel.md)
 * [Agency](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Twitter](../../social/using/about-social-marketing.md)
+* [X (formerly known as Twitter)](../../social/using/about-social-marketing.md)
 * [iOS channel](../../delivery/using/configuring-the-mobile-application.md)
 * [Android channel](../../delivery/using/configuring-the-mobile-application-android.md)
 

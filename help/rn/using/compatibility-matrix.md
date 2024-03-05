@@ -36,7 +36,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>CentOs</td>
 <td>
 <p>7.x</p>
-<p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
@@ -51,7 +50,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>
 <p>8.x</p>
 <p>7.x</p>
-<p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
@@ -63,6 +61,10 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tr>
 </tbody>
 </table>    
+
+>[!IMPORTANT]
+>
+>If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.
 
 ## Web Servers{#WebServers}
 
@@ -142,7 +144,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 and SP2</p>
-<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href=https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers>Learn more</a>.</p>
+<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href=https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers>Learn more</a>.</p>
 </td>
 </tr>
 </tbody>

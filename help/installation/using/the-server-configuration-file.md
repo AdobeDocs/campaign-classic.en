@@ -1391,7 +1391,7 @@ In the **inMail > msgDump** node, configure the following parameters. This is th
 
 Here are the different parameters of the **interactiond** node. This is the configuration of the write daemon for inbound Interaction events.
 
-For additional information, refer to [Interaction - Data buffer](../../installation/using/interaction---data-buffer.md).
+For additional information, refer to [Interaction - Data buffer](../../installation/using/interaction-data-buffer.md).
 
 <table> 
  <thead> 

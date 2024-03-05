@@ -9,9 +9,11 @@ exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 ---
 # Publish a web form{#publishing-a-web-form}
 
+ 
+
 ## Pre-loading the form data {#pre-loading-the-form-data}
 
-If you wish to update the profiles stored in the database via a web form, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database.
+If you wish to update the profiles stored in the database via a Web form, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database.
 
 The following identification methods are possible:
 
@@ -71,7 +73,7 @@ Once the form has been created, configured and published, you can deliver it and
 
 ### Life cycle of a form {#life-cycle-of-a-form}
 
-There are four stages in the life cycle of a form:
+There are three stages in the life cycle of a form:
 
 1. **Being edited**
 
@@ -97,9 +99,11 @@ There are four stages in the life cycle of a form:
     
     Once published, the form will be live until it expires.
 
+   The form will be **[!UICONTROL Live]** until it expires.
+
    >[!CAUTION]
    >
-   >To be delivered, the URL of the survey must not contain the **[!UICONTROL __uuid]** parameter.
+   >To be delivered, the URL of the form must not contain the **[!UICONTROL __uuid]** parameter.
 
 1. **Closed**
 
@@ -113,7 +117,7 @@ The publication status of a form is displayed in the list of forms.
 
 ### Publishing a form {#publishing-a-form}
 
-To change the state of a form, you need to publish it. To do this, click the **[!UICONTROL Publish]** button above the list of web applications and click the **[!UICONTROL Start]** button.
+To change the state of a form, you need to publish it. To do this, click the **[!UICONTROL Publication]** button above the list of Web forms and select the state in the drop-down box.
 
 ![](assets/webapp_publish_webform.png)
 
@@ -139,13 +143,13 @@ When you deliver an invitation via email, you can use the **[!UICONTROL Adobe Ca
 
 In this case, the reconciliation key for data storage must be the recipient's encrypted identifier. For more on this, refer to [Pre-loading the form data](#pre-loading-the-form-data).
 
-In this case, you need to check the **[!UICONTROL Update the preloaded record]** option in the record box. For more on this, refer to [Saving web forms answers](web-forms-answers.md#saving-web-forms-answers).
+In this case, you need to check the **[!UICONTROL Update the preloaded record]** option in the record box. For more on this, refer to [Saving Web forms answers](web-forms-answers.md#saving-web-forms-answers).
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### Log responses {#log-responses}
 
-Response tracking can be activated in a dedicated tab to monitor the impact of your web form. To do this, click the **[!UICONTROL Advanced parameters...]** link in the form properties window and select the **[!UICONTROL Log responses]** option.
+Response tracking can be activated in a dedicated tab to monitor the impact of your Web form. To do this, click the **[!UICONTROL Advanced parameters...]** link in the form properties window and select the **[!UICONTROL Log responses]** option.
 
 ![](assets/s_ncs_admin_survey_trace.png)
 
@@ -188,10 +192,5 @@ Learn more on the different statuses of a web form in [this section](#life-cycle
   >You can check the latest version of your web form using the **[!UICONTROL Preview]** tab.
 
 <!--For RN:
-
 * Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
-
-Questions envoyées à Naim :
-1. Tu parles de web app techniques (comme 'deliveryValidation' et 'offerValidation'), mais où est-ce qu'on les trouve dans l'UI ? Je ne les vois pas avec les autres custom web forms.
-1. Je comprends que si un web form existe déjà et qu'on importe une nouvelle version de ce form avec le statut Being edited et que l'ancienne version est Online, on aura donc 2 versions de ce web form sur la nouvelle instance - la nouvelle en Being edited et l'ancienne Online (tant que la nouvelle version n'est pas publiée), c'est ça ? Concrètement est-ce qu'on voit les deux dans l'UI ? Et dès qu'on publie la nouvelle version, l'autre disparaît ?
 -->

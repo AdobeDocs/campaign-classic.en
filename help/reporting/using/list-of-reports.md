@@ -354,7 +354,7 @@ The following reports are also provided built-in. For more on this, refer to the
   </tr> 
   <tr> 
    <td> History of social prospect acquisitions (socialVisitorStatistics)<br /> </td> 
-   <td> History of Twitter and Facebook prospect acquisitions, depends on the Social marketing add-on.<br /> </td> 
+   <td> History of X (formerly known as Twitter) and Facebook prospect acquisitions, depends on the Social marketing add-on.<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 

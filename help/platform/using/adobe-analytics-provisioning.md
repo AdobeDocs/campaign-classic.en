@@ -3,6 +3,7 @@ product: campaign
 title: Adobe Analytics connector provisioning
 description: Learn more about Adobe Analytics connector provisioning
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
@@ -10,15 +11,19 @@ exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 ---
 # Adobe Analytics Connector provisioning {#adobe-analytics-connector-provisioning}
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 > These steps should only be carried out by Hybrid and On-Premise implementations.
 >
->For Hosted implementations, please contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. 
+>For Hosted and Campaign Managed Services implementations, please contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. 
 
 The integration between Adobe Campaign Classic and Adobe Analytics authentication supports Adobe Identity Management Service (IMS):
 
-* If you are managing a migrated external account, you must implement Adobe IMS and connect to Adobe Campaign via an Adobe ID. The user logged in via Adobe ID IMS should be the owner of the **Data connector** account in Adobe Analytics and have a set of permissions for the **Product profile** mentioned below.
+* If you are managing a migrated external account, you must implement Adobe IMS and connect to Adobe Campaign via an Adobe ID. 
+
+    Please note that the user logged in via Adobe ID IMS must be the owner of the **Data connector** account in Adobe Analytics and have permissions for the **Product profile** mentioned [below](#analytics-product-profile). 
+
+The problem was that the owner of the Data connector was a different user than the user who was logged into Campaign and trying out the integration with Analytics.
 
 * If you are implementing a new connector, implementing Adobe IMS is optional. Without an Adobe ID User, Adobe Campaign will use a technical user to sync with Adobe Analytics.
 

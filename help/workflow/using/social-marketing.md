@@ -41,12 +41,12 @@ The workflows detailed below are installed with the **Social Marketing** module 
   <tr> 
    <td> <span class="uicontrol">Calculation of Twitter statistics</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> This workflow calculates statistics linked to retweets and visits on Twitter.<br /> </td> 
+   <td> This workflow calculates statistics linked to retweets and visits on X (formerly known as Twitter).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Synchronizing Twitter pages</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> This workflow imports Twitter followers into Adobe Campaign every day at 7am.<br /> </td> 
+   <td> This workflow imports X followers into Adobe Campaign every day at 7am.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -285,7 +285,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Fixed an issue which could reduce the memory usage on the server when performing delivery analysis.
 * Fixed an issue which could prevent the instance from working when trying to run specific complex queries.
 * Fixed an issue which could prevent the **Synchronizing Twitter pages** technical workflow from running. (NEO-28634)
-* Fixed an issue which could display an error message related to the decryptPassword function when trying to publish on Twitter using the **Tweet (twitter)** delivery template. (NEO-28216)
+* Fixed an issue which could display an error message related to the decryptPassword function when trying to publish on X (formerly known as Twitter) using the **Tweet (twitter)** delivery template. (NEO-28216)
 * Fixed an issue which occurred when using a **Javascript** activity to make an HTTP request in a workflow. After defining the port number in the Host name, the call would fail with the following error (NEO-29146): 
 
 ```

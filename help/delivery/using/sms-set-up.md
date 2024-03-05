@@ -8,7 +8,7 @@ feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 ---
-# Configure SMS channel {#setting-up-sms-channel}
+# Configure SMS channel on a standalone instance {#setting-up-sms-channel}
 
 To send to a mobile phone, you need:
 
