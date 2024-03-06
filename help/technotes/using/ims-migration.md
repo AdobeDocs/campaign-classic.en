@@ -11,7 +11,6 @@ As part of the effort to reinforce security and authentication process, starting
 
 A technical operator is a Campaign user profile which has been explicitly created for API integration. This article details the steps required to migrate a technical operator to a technical account via the Adobe Developer console.
 
-
 ## Are you impacted?{#ims-impacts}
 
 If you are making API calls from a system external to Campaign into either your Campaign Marketing instance or the Real-Time Message Center instance, Adobe highly recommends you to migrate the technical operator(s) to technical account(s) through the Adobe Developer Console as detailed below.
@@ -47,7 +46,7 @@ These Campaign versions are detailed in the [Release Notes](../../rn/using/lates
 
 * Campaign Hosted and Managed Services customers
 
-    For API calls into the Message Center instance(s), a product profile should have been created during the upgrade to Campaign v7.3.5 (or other [IMS migration compatible version](#ims-versions-tech)), or during provisioning of the instance. This product profile is named:
+    For API calls into the Message Center instance(s), the product profile (mentioned below) should be created during the upgrade to Campaign v7.3.5 (or other [IMS migration compatible version](#ims-versions-tech)), or during provisioning of the instance. Note that f you do not see the product profile, please reach out to your Transition Manager or Customer Support to get the product profile created before starting the IMS migration. This product profile is named:
 
     `campaign - <your campaign instance> - messagecenter`
 
