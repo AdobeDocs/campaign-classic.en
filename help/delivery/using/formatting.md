@@ -561,7 +561,7 @@ In the form, the field for selecting the image will be added via the following s
 
 ## Date display {#date-display}
 
-In the XML input document, the dates are stored in internal XML format: **YYYY/MM/DD HH:MM:SS** (example 2018/10/01 12:23:30).
+In the XML input document, the dates are stored in internal XML format: **`YYYY/MM/DD HH:MM:SS`** (example `2018/10/01 12:23:30`).
 
 Adobe Campaign provides date formatting functions for the JavaScript templates and XSL stylesheets detailed below.
 

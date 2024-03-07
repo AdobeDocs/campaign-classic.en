@@ -112,7 +112,7 @@ nlserver config -internalpassword
 
 * Tracking no longer works if the password is empty. If this is the case, an error message will let you know and ask you to reconfigure it.
 * User passwords are no longer stored in the **xtk:sessionInfo** schema.
-* Administration permissions are now necessary to use the **xtk:builder:EvaluateJavaScript** and **xtk:builder:EvaluateJavaScriptTemplate** functions.
+* Administration permissions are now necessary to use the **`xtk:builder:EvaluateJavaScript`** and **`xtk:builder:EvaluateJavaScriptTemplate`** functions.
 
 Certain out-of-the-box schemas have been modified and are now by default only accessible with write access for operators with the **admin** permission:
 

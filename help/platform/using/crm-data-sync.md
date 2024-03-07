@@ -87,7 +87,7 @@ The date of the last synchronization is stored in an option specified in the con
 >
 >This note only applies to the generic **[!UICONTROL CRM Connector]** activity. For other CRM activities, the process is automatic.  
 >
->This option has to be manually created and populated under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. It must be a text option and its value needs to match the following format: **yyyy/MM/dd hh:mm:ss**. 
+>This option has to be manually created and populated under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. It must be a text option and its value needs to match the following format: **`yyyy/MM/dd hh:mm:ss`**. 
 > 
 >You need to manually update this option for any further import.
 
@@ -106,7 +106,7 @@ Activating the **[!UICONTROL Automatic index]** option generates three variables
 
   >[!NOTE]
   >
-  >These dates are shown in the following format: **yyyy/MM/dd hh:mm:ss**.
+  >These dates are shown in the following format: **`yyyy/MM/dd hh:mm:ss`**.
 
 ### Filter data {#filtering-data}
 

@@ -160,5 +160,5 @@ To change the **internal** password: **nlserver config -internalpassword**
 >* To get the list of parameters, use the **-?** parameter: **nlserver config -?**
 >* In the case of an Oracle database, you must not specify the account. The syntax will be as follows:
 >
->  nlserver config -setdblogin:Oracle:test6@dbserver
+>  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >

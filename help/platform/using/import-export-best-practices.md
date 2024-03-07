@@ -37,7 +37,7 @@ For example:
 * Separator: tab or semicolon
 * First line with headers
 * No string delimiter
-* Date format: YYYY/MM/DD HH:mm:SS
+* Date format: `YYYY/MM/DD HH:mm:SS`
 
 Example of file to import:
 
