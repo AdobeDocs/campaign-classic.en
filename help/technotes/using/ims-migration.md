@@ -48,7 +48,7 @@ These Campaign versions are detailed in the [Release Notes](../../rn/using/lates
 
     For API calls into the Message Center instance(s), the product profile (mentioned below) should be created during the upgrade to Campaign v7.3.5 (or other [IMS migration compatible version](#ims-versions-tech)), or during provisioning of the instance. Note that f you do not see the product profile, please reach out to your Transition Manager or Customer Support to get the product profile created before starting the IMS migration. This product profile is named:
 
-    `campaign - <your campaign instance> - messagecenter`
+    `campaign - <your campaign marketing instance> - messagecenter`
 
     If you have already been using IMS based authentication for user access to Campaign then the product profiles needed for the API calls should already exist within the Admin Console. If you use a custom operator group within Campaign for the API calls to the Marketing instance, you must create that product profile within the Admin Console.
 
@@ -110,9 +110,9 @@ When the API has been successfully connected, you can access the newly generated
 
 As described in the prerequisites section you must assign the appropriate product profiles to be used by the project. In this step, you must select the product profile or profiles to be used by the technical account being created. 
 
-If this technical account is used to make API calls to the Message Center instance, be sure to select the Adobe create product profile which ends with `messagecenter`. 
+If this technical account is used to make API calls to the Message Center instance, make sure to select the Adobe product profile, ending with messagecenter, for the Marketing Instance associated to the Message Center.
 
-For API calls to the Marketing instance(s) select the product profile corresponding to the instance and Operator Group.
+For API calls to the Marketing instance(s) select the product profile corresponding to the instance and Operator Group, for example `campaign - <your campaign marketing instance> - Admin`.
 
 Once the needed product profiles have been selected click on **Save configured API** at the bottom of the screen.
 
@@ -164,59 +164,61 @@ You must now update off of the API Integrations making calls into Adobe Campaign
 
 For details on API integration steps, please refer to the code samples below.
 
-* +++ SOAP Call
+>[!BEGINTABS]
 
-    ```
-    curl --location --request POST 'https://<instance_name>.campaign.adobe.com/nl/jsp/soaprouter.jsp' \
-    --header 'Content-Type: text/xml; charset=utf-8' \
-    --header 'SOAPAction: xtk:queryDef#ExecuteQuery' \
-    --header 'Authorization: Bearer eyJhw' \
-    --data-raw '<?xml version="1.0" encoding="utf-8"?>
-    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <ExecuteQuery xmlns="urn:xtk:queryDef">
-                <sessiontoken></sessiontoken>
-                <entity>
-                    <queryDef schema="nms:recipient" operation="select">
-                        <!-- fields to retrieve -->
-                            <select>
-                                <node expr="@lastName"/>
-                                <node expr="@email"/>
-                                <node expr="@firstName"/>
-                            </select>
-                            <!-- condition on email -->
-                            <!-- <where><condition expr="@email= '\''joh@com.com'\''"/>
-                        </where> -->
-                    </queryDef>
-                </entity>
-            </ExecuteQuery>
-        </soap:Body>
-    </soap:Envelope>
-    '
-    ```
+>[!TAB SOAP Call]
 
-  +++
+```
 
-* +++ SampleCode Java
+curl --location --request POST 'https://<instance_name>.campaign.adobe.com/nl/jsp/soaprouter.jsp' \
+--header 'Content-Type: text/xml; charset=utf-8' \
+--header 'SOAPAction: xtk:queryDef#ExecuteQuery' \
+--header 'Authorization: Bearer eyJhw' \
+--data-raw '<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ExecuteQuery xmlns="urn:xtk:queryDef">
+            <sessiontoken></sessiontoken>
+            <entity>
+                <queryDef schema="nms:recipient" operation="select">
+                    <!-- fields to retrieve -->
+                    <select>
+                        <node expr="@lastName"/>
+                        <node expr="@email"/>
+                        <node expr="@firstName"/>
+                    </select>
+                    <!-- condition on email -->
+                    <!-- <where><condition expr="@email= '\''joh@com.com'\''"/>
+                </where> -->
+                </queryDef>
+            </entity>
+        </ExecuteQuery>
+  </soap:Body>
+</soap:Envelope>
+'
 
-    ```
+```
 
-    import java.io.BufferedReader;
-    import java.io.InputStreamReader;
-    import java.io.IOException;
-    import com.google.gson.Gson;
-    import com.google.gson.JsonObject;
+>[!TAB  SampleCode Java]
+
+```javascript
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
  
-    import com.google.gson.JsonSyntaxException;
-    import org.apache.hc.client5.http.classic.methods.HttpPost;
-    import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
-    import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
-    import org.apache.hc.client5.http.impl.classic.HttpClients;
-    import org.apache.hc.core5.http.HttpEntity;
-    import org.apache.hc.core5.http.io.entity.StringEntity;
+import com.google.gson.JsonSyntaxException;
+import org.apache.hc.client5.http.classic.methods.HttpPost;
+import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
+import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
+import org.apache.hc.client5.http.impl.classic.HttpClients;
+import org.apache.hc.core5.http.HttpEntity;
+import org.apache.hc.core5.http.io.entity.StringEntity;
  
  
-    public class TAAccessToken {
+public class TAAccessToken {
     public static void main(String[] args) throws IOException {
         String accessToken = null;
         CloseableHttpClient httpClient = HttpClients.createDefault();
@@ -318,59 +320,59 @@ For details on API integration steps, please refer to the code samples below.
  
                 // Print the response
                 if (entity != null) {
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader        (entity.getContent()));
-                        String line;
-                        while ((line = bufferedReader.readLine()) != null) {
-                            System.out.println(line);
-                        }
+                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(entity.getContent()));
+                    String line;
+                    while ((line = bufferedReader.readLine()) != null) {
+                        System.out.println(line);
                     }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } finally {
-                    response.close();
                 }
+            } catch (IOException e) {
+                e.printStackTrace();
             } finally {
-                httpClientSoap.close();
+                response.close();
             }
+        } finally {
+            httpClientSoap.close();
         }
-    }
-
-    ```
-
-  +++
-
-* +++ SampleCodePython
-
-    ```
-
-    import requests
  
-    oauth_url = 'https://ims-na1.adobelogin.com/ims/token/v3'
-    data = {
-        'grant_type': 'client_credentials',
-        'scope': '<scopes>',
-        'client_id': '<client_id>',
-        'client_secret': '<client_secret>'
     }
+}
+
+```
+
+>[!TAB SampleCodePython]
+
+```python
+
+import requests
  
-    headers = {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Accept': 'application/json'
-    }
-    response = requests.post(oauth_url, data=data, headers=headers)
-    response = response.json()
-    access_token = response['access_token']
+oauth_url = 'https://ims-na1.adobelogin.com/ims/token/v3'
+data = {
+    'grant_type': 'client_credentials',
+    'scope': '<scopes>',
+    'client_id': '<client_id>',
+    'client_secret': '<client_secret>'
+}
  
-    url = 'https://<instance_name>.campaign.adobe.com/nl/jsp/soaprouter.jsp'
-    headers = {
-        'Content-Type': 'text/xml; charset=utf-8',
-        'SOAPAction': 'xtk:queryDef#ExecuteQuery',
-        'Authorization': 'Bearer '+access_token
-    }
-    xml_data = '''<?xml version="1.0" encoding="utf-8"?>
-    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-    <soap:Body>
-        <ExecuteQuery xmlns="urn:xtk:queryDef">
+headers = {
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Accept': 'application/json'
+}
+response = requests.post(oauth_url, data=data, headers=headers)
+response = response.json()
+access_token = response['access_token']
+ 
+ 
+url = 'https://<instance_name>.campaign.adobe.com/nl/jsp/soaprouter.jsp'
+headers = {
+    'Content-Type': 'text/xml; charset=utf-8',
+    'SOAPAction': 'xtk:queryDef#ExecuteQuery',
+    'Authorization': 'Bearer '+access_token
+}
+xml_data = '''<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ExecuteQuery xmlns="urn:xtk:queryDef">
             <sessiontoken></sessiontoken>
             <entity>
                 <queryDef schema="nms:recipient" operation="select">
@@ -386,14 +388,14 @@ For details on API integration steps, please refer to the code samples below.
                 </queryDef>
             </entity>
         </ExecuteQuery>
-    </soap:Body>
-    </soap:Envelope>
-    '''
-    response = requests.post(url, headers=headers, data=xml_data)
+  </soap:Body>
+</soap:Envelope>
+'''
+response = requests.post(url, headers=headers, data=xml_data)
 
-    ```
+```
 
-    +++
+>[!ENDTABS]
 
 For more information, refer to [Adobe Developer Console authentication documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
