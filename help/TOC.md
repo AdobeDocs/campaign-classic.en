@@ -11,7 +11,7 @@ type: Documentation
 # Adobe Campaign Classic v7 Documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
-+ Release Notes {#release-notes}
++ Release notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
   + Previous releases {#previous-releases}
