@@ -20,7 +20,7 @@ type: Documentation
     + [[!DNL Gold Standard] releases](rn/using/gold-standard.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
-  + [Latest documentation updates](rn/using/documentation-updates.md)
+  + [Documentation updates](rn/using/documentation-updates.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
