@@ -818,6 +818,7 @@ type: Documentation
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
+  + [Inbound SMS workflow activity for Mid-sourcing infrastructure](technotes/using/inbound-SMS.md)
   + Upgrade to IMS{#ims}
     + [Migrate users to IMS](technotes/using/migrate-users-to-ims.md)
     + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)

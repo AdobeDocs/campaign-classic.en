@@ -21,8 +21,8 @@ You will find below some of the main best practices related to web-server (Apach
 
    **On Apache**, edit /etc/apache2/mods-available/ssl.conf. Here is an example:
 
-    * SSLProtocol all -SSLv2 -SSLv3 -TLSv1
-    * SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1
+    * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
+    * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
     **On IIS** (see the [documentation](https://support.microsoft.com/en-us/kb/245030)), perform the following configuration:
 

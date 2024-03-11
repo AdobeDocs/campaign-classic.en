@@ -21,9 +21,9 @@ Global issues at Apple or Gmail for example can result in some email messages se
 
 * "550 5.1.1 'email address': user lookup success but no user record found."
 
-* “550 'email address' recipient rejected” 
+* "550 'email address' recipient rejected" 
 
-Note that if deferral bounces with the message “452 requested action aborted: try again later” are being observed – these are automatically retried, and no actions are needed. They should improve as the ISP recovers full capacity.
+Note that if deferral bounces with the message "452 requested action aborted: try again later" are being observed – these are automatically retried, and no actions are needed. They should improve as the ISP recovers full capacity.
 
 >[!NOTE]
 >
@@ -48,19 +48,19 @@ Based on the timeframe of the incident, and the ISP, below are the recommended g
 
 * For Campaign environments with Inbound Email rule information in the **[!UICONTROL Error text]** field of the quarantine list:
 
-    * **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
+    * **Error text (quarantine text)** contains "Momen_Code10_InvalidRecipient"
     * **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
-    * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
-    * **Update status (@lastModified)** on or before MM/DD/YYYY HH:MM:SS PM
+    * **Update status (@lastModified)** on or after `MM/DD/YYYY HH:MM:SS AM`
+    * **Update status (@lastModified)** on or before `MM/DD/YYYY HH:MM:SS PM`
 
 * For Campaign environments with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
 
-    * **Error text (quarantine text)** contains “550-5.1.1” AND **Error text (quarantine text)** contains “support.ISP.com” 
+    * **Error text (quarantine text)** contains "550-5.1.1" AND **Error text (quarantine text)** contains "support.ISP.com" 
         
-        where “support.ISP.com” can be: “support.apple.com” or “support.google.com” for example
+        where "support.ISP.com" can be: "support.apple.com" or "support.google.com" for example
 
-    * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
-    * **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
+    * **Update status (@lastModified)** on or after `MM/DD/YYYY HH:MM:SS AM`
+    * **Update status (@lastModified)** on or before  `MM/DD/YYYY HH:MM:SS PM`
 
 
 Once you have the list of affected recipients, you can either set them to a status of **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow, or just delete them from the table.

@@ -6,6 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 role: User, Developer, Admin
+exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
 ---
 # Configure SMS channel on a mid-sourcing infrastructure {#setting-up-sms-channel}
 
@@ -181,4 +182,3 @@ You now have an external account and a delivery template that let you deliver vi
 * [SMS character transliteration](sms-set-up.md#about-character-transliteration)
 * [Text encodings](sms-set-up.md#about-text-encodings)
 * [Automatic reply](sms-set-up.md#automatic-reply)
-

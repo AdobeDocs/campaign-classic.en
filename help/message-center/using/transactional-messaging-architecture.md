@@ -151,7 +151,7 @@ Here is an example of an event that contains this information:
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -216,7 +216,7 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
     * **[!UICONTROL Server]** : enter your campaign's server URL of the execution instance.
     * **[!UICONTROL Account]** : enter the account used to access your execution instance.
     * **[!UICONTROL Password]** : enter the password for the account used to access your execution instance.
-    * **[!UICONTROL Data Source]** : enter the following syntax **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
+    * **[!UICONTROL Data Source]** : enter the following syntax **`nms:extAccount:ID`** of your external database account in the execution instance.
 
 1. Create an **[!UICONTROL Execution instance]** external account in your **marketing** instance using the following configuration to create the data synchronization workflow:
 

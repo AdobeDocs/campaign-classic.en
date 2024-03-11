@@ -62,7 +62,7 @@ The application criteria available in the **[!UICONTROL General]** tab lets you 
 
 In the **[!UICONTROL Offer presentation]** tab, you must specify the same dimensions for the presentation rule as those configured in the environment.
 
-The **[!UICONTROL Targeting dimension]** coincides with the table of recipients (by default: nms:recipients) who will receive the offer propositions. The **[!UICONTROL Storage dimension]** coincides with the table which contains the proposition history linked to the targeting dimension (by default:nms:propositionRcp).
+The **[!UICONTROL Targeting dimension]** coincides with the table of recipients (by default: `nms:recipients`) who will receive the offer propositions. The **[!UICONTROL Storage dimension]** coincides with the table which contains the proposition history linked to the targeting dimension (by default: `nms:propositionRcp`).
 
 ![](assets/offer_typology_009.png)
 

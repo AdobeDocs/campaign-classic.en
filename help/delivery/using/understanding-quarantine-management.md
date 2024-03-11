@@ -159,8 +159,8 @@ Below are the recommended guidelines for this query:
 
   * **Error text (quarantine text)** contains "Momen_Code10_InvalidRecipient"
   * **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
-  * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
-  * **Update status (@lastModified)** on or before MM/DD/YYYY HH:MM:SS PM
+  * **Update status (@lastModified)** on or after `MM/DD/YYYY HH:MM:SS AM`
+  * **Update status (@lastModified)** on or before `MM/DD/YYYY HH:MM:SS PM`
 
 * For Campaign Classic v7 instances with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
 
@@ -168,8 +168,8 @@ Below are the recommended guidelines for this query:
 
   where "support.ISP.com" can be: "support.apple.com" or "support.google.com" for example
         
-  * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
-  * **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
+  * **Update status (@lastModified)** on or after `MM/DD/YYYY HH:MM:SS AM`
+  * **Update status (@lastModified)** on or before  `MM/DD/YYYY HH:MM:SS PM`
 
 Once you have the list of affected recipients, add an **[!UICONTROL Update data]** activity to set their email address status to **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow. You can also just delete them from the quarantine table.
 

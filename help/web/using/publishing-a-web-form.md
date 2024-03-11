@@ -75,7 +75,7 @@ Once the form has been created, configured and published, you can deliver it and
 
 There are three stages in the life cycle of a form:
 
-1. **Form Being edited**
+1. **Being edited**
 
    This is the initial design phase. When a new form is created, it is in the editing phase. Access to the form, for testing purposes only, then requires the parameter **[!UICONTROL __uuid]** to be used in its URL. This URL is accessible in the **[!UICONTROL Preview]** sub-tab. See [Form URL parameters](defining-web-forms-properties.md#form-url-parameters).
 
@@ -83,21 +83,33 @@ There are three stages in the life cycle of a form:
    >
    >As long as the form is being edited, its access URL is a special URL.
 
-1. **Form Online**
+1. **Pending publication**
 
-   Once the design phase is complete, the form can be delivered. First, it needs to be published. For more on this, refer to [Publishing a form](#publishing-a-form).
+   In some cases (such as when [importing a form through a package](#import-web-packages)), a web form can have the **[!UICONTROL Pending publication]** status until it is live.
+
+   >[!NOTE]
+   >
+   >For technical web applications (available through the **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Web applications]** menu), a form with the **[!UICONTROL Pending publication]** status is automatically [published](#publishing-a-form) and gets the **[!UICONTROL Online]** status.
+
+1. **Online**
+
+    Once the design phase is complete, the form can be delivered.
+    
+    When a form has the **[!UICONTROL Being edited]** or **[!UICONTROL Pending publication]** status, it must be [published](#publishing-a-form) to be online and accesssible through the web form URL in a browser.
+    
+    Once published, the form will be live until it expires.
 
    The form will be **[!UICONTROL Live]** until it expires.
 
    >[!CAUTION]
    >
-   >To be delivered, the URL of the survey must not contain the **[!UICONTROL __uuid]** parameter.
+   >To be delivered, the URL of the form must not contain the **[!UICONTROL __uuid]** parameter.
 
-1. **Form Unavailable**
+1. **Closed**
 
    Once the form is closed, the delivery phase is over and the form becomes unavailable: it is no longer accessible to users.
 
-   The expiry date can be defined in the form properties window. For more on this, refer to [Making a form available online](#making-a-form-available-online)
+   The expiry date can be defined in the form properties window. For more on this, refer to [Making a form available online](#making-a-form-available-online).
 
 The publication status of a form is displayed in the list of forms.
 
@@ -150,3 +162,35 @@ Select a recipient and click the **[!UICONTROL Detail...]** button to view the r
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 You can process the response logs provided in queries, for instance to target only non-respondents when sending reminders, or to offer specific communications to respondents only.
+
+### Importing web form packages {#import-web-packages}
+
+When exporting and importing a package including a web form from an instance to another instance (for example, from stage to production), the web form status on the new instance can vary according to several conditions. The different cases are listed below.
+
+Learn more on the different statuses of a web form in [this section](#life-cycle-of-a-form).
+
+>[!NOTE]
+>
+>When you export a web form through a package, the form status is visible in the content of the resulting package.
+
+* If the web form status was **[!UICONTROL Pending publication]** or **[!UICONTROL Online]** when exported from the first instance:
+  
+  * The web form gets the **[!UICONTROL Pending publication]** status when imported on the new instance.
+
+  * If the web form already exists on the new instance, it is replaced with the new version of the form and takes the **[!UICONTROL Pending publication]** status, even if the old version of the form was **[!UICONTROL Online]**.
+
+  * Whether the form existed or not, the form must be [published](#publishing-a-form) to become **[!UICONTROL Online]** on the new instance and accesssible through the web form URL in a browser.
+
+* If the web form status was **[!UICONTROL Being edited]** when exported:
+
+  * If the web form is new on the instance where the package is imported, the web form gets the **[!UICONTROL Being edited]** status.
+
+  * If the web form already exists on the new instance, this is a modification on an existing form. If the old version of the form was **[!UICONTROL Online]**, the old version remains online until the new version of the form is [published](#publishing-a-form) again on the new instance.
+
+  >[!NOTE]
+  >
+  >You can check the latest version of your web form using the **[!UICONTROL Preview]** tab.
+
+<!--For RN:
+* Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+-->

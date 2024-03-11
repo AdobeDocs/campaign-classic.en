@@ -292,7 +292,7 @@ The registration function enables you to:
 
   >[!NOTE]
   >
-  >From version 7.0, once the **application:didReceiveRemoteNotification:fetchCompletionHandler** function is implemented, the operating system only calls this function. The **application:didReceiveRemoteNotification** function is therefore not called.
+  >From version 7.0, once the **`application:didReceiveRemoteNotification:fetchCompletionHandler`** function is implemented, the operating system only calls this function. The **`application:didReceiveRemoteNotification`** function is therefore not called.
 
 +++
 

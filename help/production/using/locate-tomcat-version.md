@@ -46,11 +46,11 @@ To locate the version of embedded Tomcat in an instance of Adobe Campaign, follo
 
 As an example, the *ServerInfo.properties* file for Adobe Campaign will contain the following information, indicating Tomcat v8.5.X:
 
-*server.info=Apache Tomcat/8.5.X*
+*`server.info=Apache Tomcat/8.5.X`*
 
-*server.number=8.5.X.Y*
+*`server.number=8.5.X.Y`*
 
-*server.built=MM DD YYY HH:MM:SS*
+*`server.built=MM DD YYY HH:MM:SS`*
 
 Once you are able to establish the exact version of Tomcat used in a particular instance, it may help you in troubleshooting Tomcat-related issues.
 
