@@ -11,16 +11,16 @@ type: Documentation
 # Adobe Campaign Classic v7 Documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
-+ [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
   + Previous releases {#previous-releases}
-    + [2022](rn/using/release-2022.md)    
-    + [2021](rn/using/release-2021.md)
-    + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+    + [2022 releases](rn/using/release-2022.md)    
+    + [2021 releases](rn/using/release-2021.md)
+    + [[!DNL Gold Standard] releases](rn/using/gold-standard.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
+  + [Latest documentation updates](rn/using/documentation-updates.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
