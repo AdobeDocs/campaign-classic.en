@@ -17,7 +17,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 
 1. Add an extension to the `nms:inSMS` schema on your Marketing instance. The extension will add a new attribute to the `nms:inSMS` schema and keep track of the inSMS record primary key coming from the Mid-sourcing instance.
 
-    ```
+    ``` xml
 
     <element img="nms:miniatures/mini-sms.png" label="Incoming SMS"
            labelSingular="Incoming SMS" name="inSMS">
@@ -51,7 +51,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 
     Replace the below block. Note that this script may vary if you previously customized this code.
 
-    ```
+    ``` Javascript
 
     var lastSynchKey = getOption('SMS_MO_INDEX_WKF1105_inSmsUS_smsmidus');
  
@@ -67,6 +67,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
     ```
 
     With the following new custom script to update inSMS data based on a composite key, combining the primary key of the Mid-sourcing record and the external account ID of the Marketing SMS routing.
+
     Follow the prerequesites below:
 
     * Enter the real value for `<EXTERNAL_ACCOUNT_ID>`, e,g, `var iExtAccountId=72733155`.
@@ -110,7 +111,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 
     The script will reset the primary key pointer to 24 hours prior. The workflow will attempt to reprocess all inSMS data from the Mid-sourcing instance within the previous 24 hours and add any missing data to the Marketing instance.
 
-    ```
+    ``` Javascript
 
     // please enter real external account ID to replace <EXTERNAL_ACCOUNT_ID>
     // please enter real pointer option name to replace '<POINTER_OPTION_NAME>'
