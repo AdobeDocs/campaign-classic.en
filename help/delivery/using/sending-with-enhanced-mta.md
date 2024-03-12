@@ -103,6 +103,10 @@ The bounce qualifications in the Campaign **[!UICONTROL Delivery log qualificati
 
 For more on bounce qualification, see [this section](understanding-delivery-failures.md#bounce-mail-qualification).
 
+### Delivery
+
+A delivery cannot be stopped once it has been transferred to the Enhanced MTA - even though it is displayed with the **[!UICONTROL Stopped]** status in Campaign.
+
 ### Delivery throughput
 
 The Campaign Delivery throughput graph will no longer display the throughput to your email recipients. That graph will now show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
