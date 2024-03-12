@@ -67,11 +67,21 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
     ```
 
     With the following new custom script to update inSMS data based on a composite key, combining the primary key of the Mid-sourcing record and the external account ID of the Marketing SMS routing.
-    
-    ```
+    Follow the prerequesites below:
+
+    * Enter the real value for `<EXTERNAL_ACCOUNT_ID>`, e,g, `var iExtAccountId=72733155`.
+    * Make sure to keep the following elements in the custom script:
+        * `_operation="insertOrUpdate"`
+        * `_key="@midInSMSId,@extAccount-id"`
+        * `midInSMSId={smsMessage.id}`
+        * `inSms.@["extAccount-id"] = iExtAccountId;{}`
+
+    ``` Javascript
+
     // please enter real external account ID to replace <EXTERNAL ACCOUNT ID>
     var iExtAccountId=<EXTERNAL_ACCOUNT_ID>;
-    // make sure to keep the following elements in the custom script (the rest is optional and custom code can be added): _operation="insertOrUpdate", _key="@midInSMSId,@extAccount-id", midInSMSId={smsMessage.id}, inSms.@["extAccount-id"] = iExtAccountId;, var inSms = <inSMS xtkschema="nms:inSMS" _operation="insertOrUpdate"
+    
+    var inSms = <inSMS xtkschema="nms:inSMS" _operation="insertOrUpdate"
 
                 _key="@midInSMSId,@extAccount-id"
                 midInSMSId={smsMessage.id}
@@ -87,6 +97,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
                 operatorCode = {smsMessage.operatorCode}
                 linkedSmsId={smsMessage.linkedSmsId}
                 separator = {smsMessage.separator}/>
+
     inSms.@["extAccount-id"] = iExtAccountId;
   
     xtk.session.Write(inSms);
