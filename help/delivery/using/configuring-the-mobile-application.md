@@ -97,21 +97,24 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Select one of the out-of-the-box icons from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
 
-1. Select the **[!UICONTROL Authentication mode]**. Note that you can always change your authentication mode later on in the **[!UICONTROL Certificate]** tab of your mobile application.
+1. Select the **[!UICONTROL Authentication mode]**. 
+   
+   ![](assets/nmac_ios_5.png)
+
+   Two modes are available:
+
+   * (Recommended) **[!UICONTROL Token-based authentication]**: Fill in the APNs connection settings **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** and **[!UICONTROL Bundle Id]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key...]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+   
    * **[!UICONTROL Certificate-based authentication]**: Click **[!UICONTROL Enter the certificate...]**  then select your p12 key and enter the password that was provided by the mobile application developer.
-   * **[!UICONTROL Token-based authentication]**: Fill in the connection settings **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** and **[!UICONTROL Bundle ID]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns).
 
-   >[!NOTE]
-   >
-   > Adobe recommends using **[!UICONTROL Token-based authentication]** for your iOS configuration since this authentication mode is more secured and not bound to certificate expiration.
+    >[!NOTE]
+    >
+    > Adobe recommends using **[!UICONTROL Token-based authentication]** for your iOS configuration since P8 authentication keys are newer and more secure.
 
-   ![](assets/nmac_ios_4.png)
-
-1. You can click **[!UICONTROL Test the connection]** to be sure it is successful.
+1. Use the **[!UICONTROL Test the connection]** button to validate your configuration.
 
 1. Click **[!UICONTROL Next]** to start configuring the production application and follow the same steps as detailed above.
 
-   ![](assets/nmac_ios_5.png)
 
 1. Click **[!UICONTROL Finish]**.
 
