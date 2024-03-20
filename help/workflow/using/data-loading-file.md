@@ -22,11 +22,17 @@ The upper section of the configuration window for this activity lets you define 
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
+## Apply pre-processings stage {#pre-processing}
+
+You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. [Learn how to unzip or decrypt a file before processing](../../platform/using/unzip-decrypt.md).
+
+To do so, select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). 
 
    ![](assets/preprocessing-dataloading.png)
 
-For more on this, refer to this section: [Unzippping or decrypting a file before processing](../../platform/using/unzip-decrypt.md).
+>[!CAUTION]
+>
+>If you are working with an hybrid or on-premise deployment, pre-processing commands may not work out-of-the-box, as their default configuration uses 'zcat', which is not available on Windows. In that case, you need to adjust the **preProcessCommand** node in the server configuriation file (serverConf.xml) to suit your needs. [Learn how to configure pre-processing commands in the server configuration file](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 ## Defining the file format {#defining-the-file-format}
 
