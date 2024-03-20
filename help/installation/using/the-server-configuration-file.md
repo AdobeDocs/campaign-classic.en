@@ -11,8 +11,6 @@ exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 ---
 # The server configuration file{#the-server-configuration-file}
 
-
-
 The overall configuration of Adobe Campaign is defined in the **serverConf.xml** file, located in the **conf** directory of the installation directory. This section lists all the different nodes and parameters of the **serverConf.xml** file.
 
 >[!NOTE]

@@ -38,7 +38,7 @@ You can then use the desired pre-processing commands into your workflows:
 1. Add and configure a **[!UICONTROL File transfer]** activity in your workflow.
 1. Add a **[!UICONTROL Data loading (file)]** activity and define the file format.
 1. Check the **[!UICONTROL Pre-process the file]** option.
-1. Specify the pre-processing command you want to apply.
+1. Select the pre-processing command you want to apply.
 1. Add other activities to manage data coming from the file.
 1. Save and execute your workflow.
 
@@ -81,17 +81,15 @@ The steps to perform this use case are as follows:
 
 1. Open the **[!UICONTROL Data loading (file)]** activity, then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../workflow/using/data-loading-file.md).
 
-    Add a pre-processing stage to the activity, in order to decrypt the incoming data. To do this, select the **[!UICONTROL Pre-process the file]** option, then copy-paste this decryption command in the **[!UICONTROL Command]** field :
-
-    `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
+    Add a pre-processing stage to the activity, in order to decrypt the incoming data. To do this, select the **[!UICONTROL Pre-process the file]** option, then select **[!UICONTROL Decrypt]** from the **[!UICONTROL Command]** drop-down list:
 
      ![](assets/gpg_load.png)
 
-    >[!CAUTION]
+    >[!NOTE]
     >
-    >In this example, we are using the passphrase used by default by Control Panel, which is "passphrase".
+    >If changes are needed to the available commands, you can reach out to [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to adjust the preProcessCommand settings.
     >
-    >If you have already had GPG keys installed on your instance through a Customer Care request in the past, the passphrase may have been changed and be different form the one by default.
+    >If you are working with an hybrid deployment, you can configure these commands directly from the server configuration file (serverConf.xml). [Learn how to configure pre-processing commands in the server configuration file](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 1. Click **[!UICONTROL OK]** to confirm the activity configuration.
 
