@@ -22,7 +22,7 @@ The upper section of the configuration window for this activity lets you define 
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-## Apply pre-processings stage {#pre-processing}
+## Apply pre-processing stage {#pre-processing}
 
 You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. [Learn how to unzip or decrypt a file before processing](../../platform/using/unzip-decrypt.md).
 
