@@ -32,7 +32,7 @@ To do so, select the **[!UICONTROL Pre-process the file]** option and choose fro
 
 >[!CAUTION]
 >
->If you are working with an hybrid or on-premise deployment, pre-processing commands may not work out-of-the-box, as their default configuration uses 'zcat', which is not available on Windows. In that case, you need to adjust the **preProcessCommand** node in the server configuriation file (serverConf.xml) to suit your needs. [Learn how to configure pre-processing commands in the server configuration file](../../installation/using/the-server-configuration-file.md#preprocesscommand)
+>If you are working with an hybrid or on-premise deployment, pre-processing commands may not work out-of-the-box, as their default configuration uses 'zcat', which is not available on Windows. In that case, you need to adjust the **preProcessCommand** node in the server configuration file (serverConf.xml) to suit your needs. [Learn how to configure pre-processing commands in the server configuration file](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 ## Defining the file format {#defining-the-file-format}
 
