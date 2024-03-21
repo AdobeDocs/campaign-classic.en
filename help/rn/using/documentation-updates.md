@@ -16,6 +16,10 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2024
 
+### March 2024 {#mar-2024}
+
+Mobile app configuration section has been updated for iOS token-based connection to APNs. [Read more](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)
+
 ### January 2024 {#jan-2024}
 
 Information has been added on how the default postalAddress field for Direct Mail is defined and why it is important to make sure that addresses are complete. [Read more](../../delivery/using/about-direct-mail-channel.md)
