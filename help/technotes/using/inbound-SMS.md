@@ -1,9 +1,10 @@
 ---
 product: campaign
-title: Inbound SMS workflow activity for Mid-sourcing infrastructure 
-description: Inbound SMS workflow activity for Mid-sourcing infrastructure 
+title: Inbound SMS workflow activity for Mid-sourcing infrastructure
+description: Inbound SMS workflow activity for Mid-sourcing infrastructure
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
 ---
 # Inbound SMS workflow activity for Mid-sourcing infrastructure {#inbound-sms}
 
@@ -146,5 +147,3 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
     > * If there are multiple inSMS workflows per Mid-sourcing instance, data duplication may occur as the Mid-sourcing SMS ID remains constant while the external account IDs vary.
 
 1. Save and restart the workflow.
-
-
