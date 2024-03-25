@@ -288,7 +288,7 @@ The **[!UICONTROL Web Analytics]** external account allows you to forward data f
 
 ![](assets/ext_account_10.png)
 
-For this external account, the calculation formula for tracked URLs must be enriched and connection between the two solutions must be approved. For more on this, refer to this [page](../../platform/using/adobe-analytics-connector.md#external-account-classic).
+For this external account, the calculation formula for tracked URLs must be enriched and connection between the two solutions must be approved. For more on this, refer to this [page](../../platform/using/gs-aa.md).
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 

@@ -20,6 +20,11 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID, i
 * Securer password management policy than native login/password.
 * Use of Federated ID accounts (external ID provider).
 
+>[!IMPORTANT]
+>
+> Note that in Campaign v8, connecting with user/password (aka native authentication) is not allowed. **Adobe recommends to perform this migration in Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.**
+
+
 <!--
 >[!IMPORTANT]
 >

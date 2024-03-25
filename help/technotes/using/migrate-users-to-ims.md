@@ -7,9 +7,7 @@ exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 
 As part of the effort to reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS). All operators should implement [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign.
 
-Note that in Campaign v8, connecting with user/password (aka native authentication) will no longer be allowed. **Adobe recommends to perform this migration in Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.**
-
-
+Note that in Campaign v8, connecting with user/password (aka native authentication) is not allowed. **Adobe recommends to perform this migration in Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.**
 
 ## What changed?{#move-to-ims-changes}
 

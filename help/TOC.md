@@ -101,8 +101,9 @@ type: Documentation
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
        + Adobe Analytics Connector{#analytics-connector}
-          + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
+          + [Get started with Adobe Analytics Connector](platform/using/gs-aa.md)
           + [Adobe Analytics Connector integration](platform/using/adobe-analytics-connector.md)
+          + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
           + [How to migrate to Adobe Analytics Connector](technotes/using/aa-connector-migration.md)
           + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
   + [Help & support options](support.md)

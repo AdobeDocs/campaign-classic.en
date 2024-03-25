@@ -2,8 +2,7 @@
 product: campaign
 title: Adobe Analytics connector provisioning
 description: Learn more about Adobe Analytics connector provisioning
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to v7 on-premise and hybrid deployments only"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
@@ -63,7 +62,7 @@ For more information on Product profiles, refer to the [Admin console documentat
 
 1. For the **[!UICONTROL Report Suites]** capability, add the **[!UICONTROL Report Suites]** you need to use later on.
       
-      If you don't have any report suites, you can create it following [these steps](../../platform/using/adobe-analytics-connector.md#report-suite-analytics).
+      If you don't have any report suites, you can create it following [these steps](../../platform/using/gs-aa.md).
 
     ![](assets/do-not-localize/triggers_4.png)
 
@@ -75,7 +74,7 @@ For more information on Product profiles, refer to the [Admin console documentat
 
 1. For the **[!UICONTROL Dimensions]** capability, add the **[!UICONTROL Dimensions]** needed for future configuration. 
 
-    Ensure the chosen Dimensions match those to be configured in the [External Account](adobe-analytics-connector.md#external-account-classic) and align with the corresponding eVars number from [Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success).
+    Ensure the chosen Dimensions match those to be configured in the External Account and align with the corresponding eVars number from Adobe Analytics.
 
 1. For the **[!UICONTROL Report Suite Tools]** capability, add the following permissions:
 

@@ -6,6 +6,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
+hide: yes
+hidefromtoc: yes
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 ---
 # Adobe Analytics Connector{#adobe-analytics-connector}

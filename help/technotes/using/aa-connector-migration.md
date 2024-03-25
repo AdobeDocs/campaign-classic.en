@@ -3,7 +3,7 @@ product: campaign
 title: Migrate to the Adobe Analytics Connector
 description: Campaign - Analytics Connector FAQ
 feature: Technote, Analytics Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to v7 on-premise and hybrid deployments only"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
 ---
 # How to migrate existing Genesis integrations to Adobe Analytics Connector {#acc-aa-faq}
@@ -14,7 +14,7 @@ Starting Campaign Classic v7 21.1.3 release, the Adobe Analytics Data Connector 
 
 On August 1, 2021, Adobe Campaign Classic has been removed from the legacy Data Connectors UI, however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until August 17, 2022. After this date, the integration will cease to collect and pass data to Adobe Analytics. 
 
-You **must implement** the new Adobe Analytics Connector integration on Adobe Exchange which replaces the legacy Data Connectors Integration. To learn more about Adobe Analytics Connector, refer to [this page](../../platform/using/adobe-analytics-connector.md).
+You **must implement** the new Adobe Analytics Connector integration on Adobe Exchange which replaces the legacy Data Connectors Integration. To learn more about Adobe Analytics Connector, refer to [this page](../../platform/using/gs-aa.md).
 
 For any questions about these changes, read the [FAQ](#faq-aa). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
@@ -46,7 +46,7 @@ Learn how to check your version [in this section](../../platform/using/launching
 
 You need to upgrade to Campaign 21.1.3 (or more) **before August 17, 2022**.
 
-As a hosted customer, Adobe will be working with you to upgrade your instance(s) to the newer version. You will then be able to use [Adobe Analytics connector](../../platform/using/adobe-analytics-connector.md).
+As a hosted customer, Adobe will be working with you to upgrade your instance(s) to the newer version. You will then be able to use [Adobe Analytics connector](../../platform/using/gs-aa.md).
 
 As an on-premise/hybrid customer, you need to upgrade to one of the newer versions to benefit from the new integration.
 Once all instances are upgraded, you will be able to [implement the new integration](../../platform/using/adobe-analytics-provisioning.md) to Adobe Analytics Connector, and ensure a seamless transition.

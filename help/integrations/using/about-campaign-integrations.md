@@ -89,7 +89,7 @@ The following table provides access to available Experience Cloud integration do
   </tr> 
   <tr> 
    <td> <strong>Adobe Analytics Connector</strong><br /> </td> 
-   <td> <strong>Adobe Analytics Connector</strong> allows Adobe Campaign and Adobe Analytics interact through segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics.<br /> <p><a href="../../platform/using/adobe-analytics-connector.md">Learn more</a> about Campaign - Analytics Connectors integration.</p><br /> </td> 
+   <td> <strong>Adobe Analytics Connector</strong> allows Adobe Campaign and Adobe Analytics interact through segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics.<br /> <p><a href="../../platform/using/gs-aa.md">Learn more</a> about Campaign - Analytics Connectors integration.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>
