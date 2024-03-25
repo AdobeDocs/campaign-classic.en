@@ -23,8 +23,8 @@ type: Documentation
   + [Documentation updates](rn/using/documentation-updates.md)
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
-       + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-       + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
+     + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+     + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
      + Adobe Campaign workspace{#campaign-workspace}
        + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
        + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
@@ -102,13 +102,11 @@ type: Documentation
           + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
        + Adobe Analytics Connector{#analytics-connector}
           + [Get started with Adobe Analytics Connector](platform/using/gs-aa.md)
-          + [Adobe Analytics Connector integration](platform/using/adobe-analytics-connector.md)
           + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
           + [How to migrate to Adobe Analytics Connector](technotes/using/aa-connector-migration.md)
-          + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
-     + [Get started with messages](delivery/using/communication-channels.md)
+  + [Get started with messages](delivery/using/communication-channels.md)
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
        + [Get started with deliveries](delivery/using/steps-about-delivery-creation-steps.md)
        + [Create and identify a delivery](delivery/using/steps-create-and-identify-the-delivery.md)
