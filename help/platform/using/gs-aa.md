@@ -6,6 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
+exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
 ---
 # Work with Adobe Campaign and Adobe Analytics {#adobe-analytics-connector-gs}
 
@@ -28,4 +29,3 @@ Before starting working with the Adobe Campaign-Adobe Analytics connector, consi
 ## Configuration and usage {#adobe-analytics-connector-usage}
 
 Learn how to work with Adobe Campaign and Adobe Analytics in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.
-
