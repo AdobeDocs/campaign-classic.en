@@ -74,7 +74,7 @@ The default operator groups are:
 
 1. **[!UICONTROL Access to reports]**
 
-   This group is reserved for external operators, to access the delivery reports via a Web access.
+   This group is reserved for external operators, to enable the Report, Schedule and Forum icons in the Campaign Dashboard for a specific operator.
 
 1. **[!UICONTROL Workflow execution]**
 
