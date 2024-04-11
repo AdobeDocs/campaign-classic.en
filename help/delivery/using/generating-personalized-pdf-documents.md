@@ -2,7 +2,7 @@
 product: campaign
 title: Generate personalized PDF documents
 description: Learn how to generate personalized PDF documents
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3

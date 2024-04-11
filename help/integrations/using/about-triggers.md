@@ -3,7 +3,7 @@ product: campaign
 title: About Adobe Experience Cloud Triggers
 description: Get started with Adobe Experience Cloud Triggers implementation
 feature: Triggers
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1

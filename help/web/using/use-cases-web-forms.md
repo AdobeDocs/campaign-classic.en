@@ -2,7 +2,7 @@
 product: campaign
 title: "Use cases: web forms"
 description: "Use cases: web forms"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 ---

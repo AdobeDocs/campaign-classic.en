@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with SMS channel
 description: Get started with SMS channel
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 role: User
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958

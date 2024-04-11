@@ -3,7 +3,7 @@ product: campaign
 title: Monitoring jobs execution
 description: Learn how to monitor import and export jobs execution
 feature: Monitoring
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data

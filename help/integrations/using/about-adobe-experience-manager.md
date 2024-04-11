@@ -3,7 +3,7 @@ product: campaign
 title: About Adobe Experience Manager
 description: About Adobe Experience Manager
 feature: Experience Manager Integration
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e

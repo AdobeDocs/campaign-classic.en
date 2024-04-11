@@ -2,7 +2,7 @@
 product: campaign
 title: SMS connector protocol and settings
 description: Learn more on the SMS connector and how to configure it
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4

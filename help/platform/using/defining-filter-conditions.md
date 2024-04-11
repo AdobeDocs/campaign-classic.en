@@ -3,7 +3,7 @@ product: campaign
 title: Defining filter conditions
 description: Defining filter conditions
 feature: Query Editor
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries

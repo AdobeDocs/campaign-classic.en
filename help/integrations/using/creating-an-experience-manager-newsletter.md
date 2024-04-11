@@ -3,7 +3,7 @@ product: campaign
 title: Creating an Experience Manager newsletter
 description: Creating an Experience Manager newsletter
 feature: Experience Manager Integration
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c

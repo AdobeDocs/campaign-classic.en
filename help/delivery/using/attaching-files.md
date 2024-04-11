@@ -2,7 +2,7 @@
 product: campaign
 title: Attaching files
 description: Attaching files
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc

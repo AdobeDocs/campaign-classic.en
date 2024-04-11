@@ -3,7 +3,7 @@ product: campaign
 title: Sharing assets with Adobe Experience Cloud
 description: Sharing assets with Adobe Experience Cloud
 feature: Asset Sharing
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing

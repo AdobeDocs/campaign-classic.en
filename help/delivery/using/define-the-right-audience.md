@@ -2,7 +2,7 @@
 product: campaign
 title: Define the right audience
 description: Learn best practices when selecting your audience
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences
 role: User
 exl-id: c0533148-b027-4158-9b95-8d2df769e963

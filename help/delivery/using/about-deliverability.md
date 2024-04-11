@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with deliverability in Campaign
 description: Learn deliverability best practices
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe

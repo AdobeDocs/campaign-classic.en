@@ -2,7 +2,7 @@
 product: campaign
 title: Configure deliveries
 description: Learn how to perform A/B testing through a dedicated use case
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 ---

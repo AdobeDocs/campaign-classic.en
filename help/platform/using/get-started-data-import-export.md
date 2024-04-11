@@ -3,7 +3,7 @@ product: campaign
 title: Get started with data import and export
 description: Learn more on data import and export in Campaign
 feature: Data Management, Encryption
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data

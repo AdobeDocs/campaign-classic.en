@@ -4,7 +4,7 @@ title: Form structure
 description: Form structure
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 ---
 # Form structure{#form-structure}

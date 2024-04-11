@@ -2,7 +2,7 @@
 product: campaign
 title: "Use case: select seed addresses on criteria"
 description: "Use case: select seed addresses on criteria"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 ---

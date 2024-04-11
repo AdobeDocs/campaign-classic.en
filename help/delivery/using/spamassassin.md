@@ -2,7 +2,7 @@
 product: campaign
 title: SpamAssassin
 description: Learn how to set up email spam detection with SpamAssassin
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Deliverability
 role: User
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162

@@ -3,7 +3,7 @@ product: campaign
 title: Creating import and export templates
 description: Learn how to create import and export templates in Campaign
 feature: Templates
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data

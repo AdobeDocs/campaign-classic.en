@@ -2,7 +2,7 @@
 product: campaign
 title: Use cubes to explore data
 description: Use cubes to explore data
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 hide: yes
 hidefromtoc: yes

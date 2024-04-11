@@ -2,7 +2,7 @@
 product: campaign
 title: Check before sending
 description: Once your message is ready, perform all checks before sending
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69

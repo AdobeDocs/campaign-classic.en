@@ -2,7 +2,7 @@
 product: campaign
 title: Customize the emoticon list
 description: Learn how to customize the emoticon list when using Adobe Campaign 
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0

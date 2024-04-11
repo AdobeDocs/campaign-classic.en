@@ -2,7 +2,7 @@
 product: campaign
 title: Configure Campaign SMS channel on a mid-sourcing infrastructure
 description: Learn how to configure the SMS channel in Campaign on a mid-sourcing infrastructure
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 role: User, Developer, Admin
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb

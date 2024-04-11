@@ -2,7 +2,7 @@
 product: campaign
 title: Creating a profile list with a workflow
 description: Learn how to create a profile list in a workflow
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Workflows, Profiles
 role: User
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02

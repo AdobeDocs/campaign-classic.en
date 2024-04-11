@@ -2,7 +2,7 @@
 product: campaign
 title: Configure Campaign SMS channel
 description: Learn how to configure the SMS channel in Campaign
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8

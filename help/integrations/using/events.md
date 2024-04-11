@@ -3,7 +3,7 @@ product: campaign
 title: Configuring events
 description: Learn how to configure events for custom implementation
 feature: Triggers
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e

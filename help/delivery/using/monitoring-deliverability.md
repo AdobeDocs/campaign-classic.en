@@ -2,7 +2,7 @@
 product: campaign
 title: Monitor deliverability in Adobe Campaign
 description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456

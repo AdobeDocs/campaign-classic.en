@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with A/B testing
 description: Learn more about A/B testing in Campaign
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037

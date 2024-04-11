@@ -2,7 +2,7 @@
 product: campaign
 title: Inbox rendering in Campaign
 description: Learn how to capture email renderings and make them available in a dedicated report
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce

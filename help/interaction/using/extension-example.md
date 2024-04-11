@@ -3,7 +3,7 @@ product: campaign
 title: Extension example
 description: Extension example
 feature: Interaction, Offers
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters

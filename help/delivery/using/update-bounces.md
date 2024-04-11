@@ -2,7 +2,7 @@
 product: campaign
 title: Update bounce qualification after an ISP outage
 description: Learn how to update bounce qualification after an ISP outage
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 hide: yes
 hidefromtoc: yes

@@ -3,7 +3,7 @@ product: campaign
 title: Track hypothesis
 description: Learn how to track hypothesis in Campaign Response Manager
 feature: Campaigns, Monitoring, Reporting
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager

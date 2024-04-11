@@ -3,7 +3,7 @@ product: campaign
 title: Creating hypotheses
 description: Learn how to create hypotheses in Campaign Response Manager
 feature: Campaigns
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager

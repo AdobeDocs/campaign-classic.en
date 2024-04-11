@@ -3,7 +3,7 @@ product: campaign
 title: Pipeline monitoring
 description: Pipeline monitoring
 feature: Triggers
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f

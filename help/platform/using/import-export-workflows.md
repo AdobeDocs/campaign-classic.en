@@ -3,7 +3,7 @@ product: campaign
 title: Importing and exporting data using workflows
 description: Learn how to import and export data using workflows in Campaign
 feature: Data Management, Workflows
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data

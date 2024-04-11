@@ -2,7 +2,7 @@
 product: campaign
 title: SMS troubleshooting
 description: Learn more how to troubleshoot SMS channel
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a

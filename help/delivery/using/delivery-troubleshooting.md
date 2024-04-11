@@ -2,7 +2,7 @@
 product: campaign
 title: Delivery sending troubleshooting
 description: Learn more about delivery performances and how to troubleshoot issues related to delivery monitoring
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability, Troubleshooting
 role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf

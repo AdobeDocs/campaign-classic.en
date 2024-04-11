@@ -2,7 +2,7 @@
 product: campaign
 title: Accessing the tracking logs
 description: Accessing the tracking logs
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 role: User
 exl-id: df494786-5950-4646-aa9c-4dde45845057

@@ -3,7 +3,7 @@ product: campaign
 title: About response manager
 description: About response manager
 feature: Campaigns
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 ---
 # Get started with Campaign Response Manager{#about-response-manager}

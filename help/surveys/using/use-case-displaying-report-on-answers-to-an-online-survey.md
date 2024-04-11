@@ -2,7 +2,7 @@
 product: campaign
 title: "Use case: displaying report on answers to an online survey"
 description: "Use case: displaying report on answers to an online survey"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 ---

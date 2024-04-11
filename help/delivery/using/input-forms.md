@@ -2,7 +2,7 @@
 product: campaign
 title: Input forms
 description: Learn how to use input forms in Campaign
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Management
 role: User, Developer
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682

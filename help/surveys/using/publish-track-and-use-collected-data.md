@@ -2,7 +2,7 @@
 product: campaign
 title: Publish, track and use collected data
 description: Learn how to publish, track and use data collected in a survey
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 ---

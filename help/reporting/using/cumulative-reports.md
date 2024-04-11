@@ -2,7 +2,7 @@
 product: campaign
 title: Cumulative reports
 description: Cumulative reports
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: e67748dd-fa50-4992-b85f-474389e876cf
 ---

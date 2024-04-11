@@ -3,7 +3,7 @@ product: campaign
 title: Configuring the pipeline
 description: Learn how to configure the pipeline
 feature: Triggers
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
