@@ -3,7 +3,6 @@ product: campaign
 title: Pressure rules
 description: Learn how to work with pressure rules in Adobe Campaign
 role: User, Data Engineer
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 ---

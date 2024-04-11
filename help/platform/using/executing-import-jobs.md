@@ -3,7 +3,6 @@ product: campaign
 title: Configuring import jobs
 description: Learn how to configure and execute import jobs in Campaign
 feature: Overview
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference

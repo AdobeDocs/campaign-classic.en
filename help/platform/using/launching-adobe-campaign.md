@@ -3,7 +3,6 @@ product: campaign
 title: Launching Adobe Campaign
 description: Launching Adobe Campaign
 feature: Access Management, Permissions
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign

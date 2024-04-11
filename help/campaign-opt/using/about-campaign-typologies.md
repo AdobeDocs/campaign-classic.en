@@ -3,7 +3,6 @@ product: campaign
 title: About campaign typologies
 description: About campaign typologies
 role: User, Data Engineer
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Typology Rules, Campaigns
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 ---

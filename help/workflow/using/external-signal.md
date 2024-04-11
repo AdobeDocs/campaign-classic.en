@@ -2,7 +2,6 @@
 product: campaign
 title: External signal
 description: Learn more about the External signal workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
 ---

@@ -3,7 +3,6 @@ product: campaign
 title: Network, database and SSL/TLS
 description: Learn more about network, database, and SSL/TLS configuration best practices
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-

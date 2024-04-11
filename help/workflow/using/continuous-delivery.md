@@ -2,7 +2,6 @@
 product: campaign
 title: Continuous delivery
 description: Continuous delivery
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
 ---

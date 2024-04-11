@@ -3,7 +3,6 @@ product: campaign
 title: Seed addresses
 description: Seed addresses
 role: Data Engineer, Developer
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577

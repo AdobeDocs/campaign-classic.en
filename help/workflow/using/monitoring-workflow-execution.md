@@ -2,7 +2,6 @@
 product: campaign
 title: Monitor workflow execution
 description: Monitor workflow execution
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 ---

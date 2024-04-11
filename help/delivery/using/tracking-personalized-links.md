@@ -2,7 +2,6 @@
 product: campaign
 title: Get started with personalized links tracking
 description: Learn how to write links in emails that can be personalized and support tracking in Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 role: User

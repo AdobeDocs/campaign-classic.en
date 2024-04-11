@@ -1,7 +1,6 @@
 ---
 title: Use the Deduplication activity's Merge functionality
 description: Learn how to use the Deduplication activity's Merge functionality
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 ---

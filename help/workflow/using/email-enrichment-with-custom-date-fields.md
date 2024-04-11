@@ -2,7 +2,6 @@
 product: campaign
 title: Email enrichment with custom date fields
 description: Learn how to enrich emails with custom date fields
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
 ---

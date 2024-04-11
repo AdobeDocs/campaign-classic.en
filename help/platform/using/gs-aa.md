@@ -2,7 +2,6 @@
 product: campaign
 title: Work with Adobe Campaign and Adobe Analyticsr
 description: Work with Adobe Campaign and Adobe Analytics
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner

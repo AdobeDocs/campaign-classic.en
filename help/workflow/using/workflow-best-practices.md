@@ -2,7 +2,6 @@
 product: campaign
 title: Workflow best practices
 description: Learn Campaign Workflow best practices
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 ---

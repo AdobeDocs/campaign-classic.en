@@ -2,7 +2,6 @@
 product: campaign
 title: Push Troubleshooting
 description: Push Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push, Troubleshooting
 role: User
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763

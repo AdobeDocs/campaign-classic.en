@@ -2,7 +2,6 @@
 product: campaign
 title: Data extraction (file)
 description: Learn more about the Data extraction (file) workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
 ---

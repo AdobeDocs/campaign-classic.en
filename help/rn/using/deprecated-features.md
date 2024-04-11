@@ -3,7 +3,6 @@ product: campaign
 title: Campaign Classic deprecated and removed features
 description: This page lists deprecated and removed features in Adobe Campaign Classic
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645

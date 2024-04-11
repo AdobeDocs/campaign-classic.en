@@ -3,7 +3,6 @@ product: campaign
 title: Campaign On-premise, Hybrid and Hosted capability matrix
 description: Learn main differences between hosted and on-premise deployments
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 ---
 # Capability matrix per model{#capability-matrix-per-model}

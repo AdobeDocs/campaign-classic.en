@@ -4,7 +4,6 @@ title: Schema characteristics
 description: Schema characteristics
 feature: Custom Resources
 role: Data Engineer, Developer
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 ---

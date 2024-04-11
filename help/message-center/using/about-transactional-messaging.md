@@ -3,7 +3,6 @@ product: campaign
 title: Get started with transactional messaging
 description: Learn more on the Adobe Campaign Classic transactional messaging operating principle and key steps
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 ---
 

@@ -2,7 +2,6 @@
 product: campaign
 title: Pre-processing instructions for tracked URLs
 description: Learn more about pre-processing instructions to use to script the URL of an email and still have it tracked
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 role: User, Data Engineer, Developer

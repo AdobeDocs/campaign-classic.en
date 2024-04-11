@@ -2,7 +2,6 @@
 product: campaign
 title: Configure the mobile application in Adobe Campaign 
 description: Learn how to start with the mobile application configuration
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 role: User, Developer
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9

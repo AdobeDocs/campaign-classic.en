@@ -3,7 +3,6 @@ product: campaign
 title: Integrations with Adobe Experience Cloud solutions workflows
 description: Learn more about Integrations with Adobe Experience Cloud solutions workflows
 feature: Workflows, Audiences, People Core Service Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 topic-tags: technical-workflows
 ---
 

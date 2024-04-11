@@ -3,7 +3,6 @@ product: campaign
 title: Opt-out for the Sale of Personal Information
 description: Learn about opt-out for the sale of personal data
 feature: Privacy, Privacy Tools
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference

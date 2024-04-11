@@ -2,7 +2,6 @@
 product: campaign
 title: Set up a recurring import
 description: Learn how to configure a workflow template for recurring imports
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 ---

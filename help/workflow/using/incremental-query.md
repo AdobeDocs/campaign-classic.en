@@ -2,7 +2,6 @@
 product: campaign
 title: Incremental query
 description: Learn more about the Incremental query workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 ---

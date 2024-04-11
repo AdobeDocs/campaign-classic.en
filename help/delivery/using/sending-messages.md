@@ -2,7 +2,6 @@
 product: campaign
 title: Key steps to send an email
 description: Learn how to confirm the delivery of an email and discover the specificities of delivering email messages
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User

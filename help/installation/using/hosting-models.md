@@ -3,7 +3,6 @@ product: campaign
 title: Hosting models
 description: Discover Campaign hosting models
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427

@@ -4,7 +4,6 @@ title: Key management in data schemas
 description: Understand key management in data schemas
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
 ---
 # Key management in schemas {#management-of-keys}

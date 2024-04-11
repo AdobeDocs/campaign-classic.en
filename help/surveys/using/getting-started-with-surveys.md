@@ -2,7 +2,6 @@
 product: campaign
 title: Key steps to create a survey
 description: Create your first survey with Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f

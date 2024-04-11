@@ -3,7 +3,6 @@ product: campaign
 title: Configure access to Synapse
 description: Learn how to configure access to Synapse in FDA
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors

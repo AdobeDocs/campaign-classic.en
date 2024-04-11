@@ -2,7 +2,6 @@
 product: campaign
 title: Get started with distributed marketing
 description: Get started with distributed marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 ---

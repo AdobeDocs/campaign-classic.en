@@ -3,7 +3,6 @@ product: campaign
 title: Implementing IMS
 description: Implementing IMS
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: integrations
 content-type: reference

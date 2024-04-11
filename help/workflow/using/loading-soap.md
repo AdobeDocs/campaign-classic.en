@@ -2,7 +2,6 @@
 product: campaign
 title: Loading (SOAP)
 description: Loading (SOAP)
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 ---

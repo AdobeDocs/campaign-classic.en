@@ -2,7 +2,6 @@
 product: campaign
 title: Read list
 description: Learn more about the Read list workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 ---

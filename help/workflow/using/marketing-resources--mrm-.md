@@ -2,7 +2,6 @@
 product: campaign
 title: Marketing Resources (MRM)
 description: Marketing Resources (MRM)
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 ---
 

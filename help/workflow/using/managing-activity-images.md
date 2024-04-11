@@ -2,7 +2,6 @@
 product: campaign
 title: Change activity images
 description: Learn how to change the activity image
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 ---

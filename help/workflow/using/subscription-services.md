@@ -2,7 +2,6 @@
 product: campaign
 title: Subscription Services
 description: Learn more about the Subscription Services workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
 ---

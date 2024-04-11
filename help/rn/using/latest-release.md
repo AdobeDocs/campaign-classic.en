@@ -3,7 +3,6 @@ product: campaign
 title: Latest Release
 description: Latest Campaign Classic v7 Release Notes
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c

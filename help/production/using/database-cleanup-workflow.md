@@ -3,7 +3,6 @@ product: campaign
 title: Database cleanup workflow
 description: Learn how obsolete data is automatically cleaned up
 feature: Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: data-processing

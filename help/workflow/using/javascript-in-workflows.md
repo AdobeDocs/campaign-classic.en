@@ -2,7 +2,6 @@
 product: campaign
 title: Examples of JavaScript code in workflows
 description: These examples show how you can use JavaScript code in a workflow
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 ---

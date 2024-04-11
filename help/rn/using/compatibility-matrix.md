@@ -3,7 +3,6 @@ product: campaign
 title: Compatibility matrix for Campaign Classic
 description: Campaign Classic Compatibility matrix
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2

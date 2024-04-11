@@ -2,7 +2,6 @@
 product: campaign
 title: Campaign Workflow HeatMap
 description: Monitor your workflows with Workflow HeatMap
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Heatmap
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 ---

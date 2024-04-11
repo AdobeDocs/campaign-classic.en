@@ -2,7 +2,6 @@
 product: campaign
 title: Delivery statuses
 description: Learn more about the statuses available on your delivery dashboard
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 role: User

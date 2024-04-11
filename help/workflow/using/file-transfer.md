@@ -2,7 +2,6 @@
 product: campaign
 title: File transfer
 description: Learn more about the File transfer workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 ---

@@ -3,7 +3,6 @@ product: campaign
 title: Offer catalog overview
 description: Learn more about offer catalog in Campaign
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog

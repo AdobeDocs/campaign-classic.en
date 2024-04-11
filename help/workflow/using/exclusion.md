@@ -2,7 +2,6 @@
 product: campaign
 title: Exclusion
 description: Learn more about the Exclusion workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
 ---

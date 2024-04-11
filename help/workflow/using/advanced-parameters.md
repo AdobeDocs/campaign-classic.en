@@ -2,7 +2,6 @@
 product: campaign
 title: Advanced parameters
 description: Advanced parameters
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 ---

@@ -4,7 +4,6 @@ title: About custom recipient table
 description: About custom recipient table
 feature: Configuration, Custom Resources
 role: User, Data Engineer, Developer
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 ---

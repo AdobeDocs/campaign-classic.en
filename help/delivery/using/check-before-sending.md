@@ -2,7 +2,6 @@
 product: campaign
 title: Check before sending
 description: Once your message is ready, perform all checks before sending
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User

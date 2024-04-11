@@ -3,7 +3,6 @@ product: campaign
 title: Use your Adobe ID to connect to Adobe Campaign
 description: Learn more about Adobe IMS implementation in Adobe Campaign
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id

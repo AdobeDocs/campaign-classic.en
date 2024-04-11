@@ -2,7 +2,6 @@
 product: campaign
 title: Enrichment
 description: Learn more about the Enrichment workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 ---

@@ -2,7 +2,6 @@
 product: campaign
 title: Use a web form template
 description: Use a web form template
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8

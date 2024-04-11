@@ -3,7 +3,6 @@ product: campaign
 title: Audit trail
 description: Learn how to monitor your instance with Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 ---
 # Audit trail{#audit-trail}

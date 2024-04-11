@@ -2,7 +2,6 @@
 product: campaign
 title: Start a workflow
 description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 ---

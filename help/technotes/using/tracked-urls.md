@@ -3,7 +3,6 @@ product: campaign
 title: Tracked URLs signature issue 
 description: Tracked URLs signature issue 
 feature: Technote
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: yes
 hidefromtoc: yes
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074

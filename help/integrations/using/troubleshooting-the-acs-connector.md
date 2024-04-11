@@ -3,7 +3,6 @@ product: campaign
 title: Troubleshoot the ACS Connector
 description: Troubleshoot the ACS Connector
 feature: ACS Connector, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 topic-tags: acs-connector

@@ -3,7 +3,6 @@ product: campaign
 title: Interaction
 description: Interaction
 feature: Workflows, Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 ---
 
 # Interaction{#interaction}
