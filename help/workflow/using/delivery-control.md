@@ -2,7 +2,6 @@
 product: campaign
 title: Delivery control
 description: Learn more about the Delivery control workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 ---

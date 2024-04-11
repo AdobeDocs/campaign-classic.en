@@ -3,7 +3,6 @@ product: campaign
 title: Advanced capabilities
 description: Learn more about advanced capabilities when working with reports
 feature: Reporting, Monitoring
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 ---

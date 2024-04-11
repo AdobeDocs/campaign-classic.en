@@ -2,7 +2,6 @@
 product: campaign
 title: About Adobe Campaign Classic
 description: Discover key capabilities, user interface and global guidelines
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner

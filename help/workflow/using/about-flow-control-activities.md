@@ -2,7 +2,6 @@
 product: campaign
 title: About flow control activities
 description: About flow control activities
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 ---

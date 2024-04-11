@@ -3,7 +3,6 @@ product: campaign
 title: Marketing campaign documents and delivery outlines
 description: Learn more about marketing campaign documents and delivery outlines
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 ---

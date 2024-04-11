@@ -3,7 +3,6 @@ product: campaign
 title: Marketing campaign deliveries
 description: Learn more about marketing campaign deliveries
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 ---

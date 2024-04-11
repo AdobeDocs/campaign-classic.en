@@ -2,7 +2,6 @@
 product: campaign
 title: Configure URL tracking options
 description: Learn how to configure URL tracking options
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email Design, Personalization
 role: User

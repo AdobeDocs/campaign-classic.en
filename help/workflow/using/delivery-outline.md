@@ -2,7 +2,6 @@
 product: campaign
 title: Delivery outline
 description: Learn more about the Delivery outline workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 ---

@@ -2,7 +2,6 @@
 product: campaign
 title: Configure and send the delivery
 description: Learn how to configure and send the delivery
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 role: User

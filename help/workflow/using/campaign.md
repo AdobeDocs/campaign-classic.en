@@ -2,7 +2,6 @@
 product: campaign
 title: Campaign
 description: Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 topic-tags: technical-workflows
 ---

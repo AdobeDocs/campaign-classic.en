@@ -3,7 +3,6 @@ product: campaign
 title: Message Center service level
 description: Learn more on the Message Center service level report
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports

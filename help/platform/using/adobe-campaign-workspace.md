@@ -2,7 +2,6 @@
 product: campaign
 title: Adobe Campaign workspace
 description: Learn how to use and customize Campaign workspace
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: Data Engineer
 level: Beginner

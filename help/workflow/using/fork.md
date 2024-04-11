@@ -2,7 +2,6 @@
 product: campaign
 title: Fork
 description: Learn more about the Fork workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 ---

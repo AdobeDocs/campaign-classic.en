@@ -2,7 +2,6 @@
 product: campaign
 title: Add an Enumeration type calculated field
 description: Learn how to add an Enumeration type calculated field
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: workflow
 content-type: reference
 topic-tags: use-cases

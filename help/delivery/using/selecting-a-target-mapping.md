@@ -2,7 +2,6 @@
 product: campaign
 title: Select a target mapping
 description: Learn how to target mapping
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 role: User

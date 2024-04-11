@@ -3,7 +3,6 @@ product: campaign
 title: About deployment types
 description: About deployment types
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-

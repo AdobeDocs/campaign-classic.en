@@ -3,7 +3,6 @@ product: campaign
 title: Importing and exporting audiences
 description: Importing and exporting audiences
 feature: Audiences, People Core Service Integration
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference

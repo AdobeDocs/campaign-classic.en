@@ -2,7 +2,6 @@
 product: campaign
 title: Adobe Campaign Classic data model description
 description: This document describes the Adobe Campaign data model
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca

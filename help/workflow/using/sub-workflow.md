@@ -2,7 +2,6 @@
 product: campaign
 title: Sub-workflow
 description: Learn more about the Sub-workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 ---

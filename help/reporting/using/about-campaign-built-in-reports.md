@@ -3,7 +3,6 @@ product: campaign
 title: About Campaign built-in reports
 description: About Campaign built-in reports
 feature: Reporting, Monitoring
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 ---

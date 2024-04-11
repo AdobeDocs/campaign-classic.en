@@ -3,7 +3,6 @@ product: campaign
 title: Interaction - Data buffer
 description: Interaction - Data buffer
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations

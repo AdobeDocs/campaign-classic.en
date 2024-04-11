@@ -2,7 +2,6 @@
 product: campaign
 title: About action activities
 description: About action activities
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
 ---

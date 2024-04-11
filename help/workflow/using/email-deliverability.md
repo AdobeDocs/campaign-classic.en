@@ -2,7 +2,6 @@
 product: campaign
 title: Email Deliverability
 description: Learn more about the Email Deliverability package
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Deliverability
 ---
 

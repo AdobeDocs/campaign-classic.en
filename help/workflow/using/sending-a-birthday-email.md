@@ -2,7 +2,6 @@
 product: campaign
 title: Send a birthday email
 description: Learn how to send a birthday email with a workflow
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 ---

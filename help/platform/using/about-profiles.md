@@ -2,7 +2,6 @@
 product: campaign
 title: Get started with profiles
 description: Work with profiles in Adobe Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner

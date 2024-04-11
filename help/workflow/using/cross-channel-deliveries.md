@@ -2,7 +2,6 @@
 product: campaign
 title: Cross-channel deliveries
 description: Learn more about cross-channel deliveries
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 ---

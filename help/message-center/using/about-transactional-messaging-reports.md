@@ -3,7 +3,6 @@ product: campaign
 title: Access transactional messaging reports
 description: Learn how to access Adobe Campaign Classic transactional messaging reports
 feature: Transactional Messaging, Message Center, Reporting
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports

@@ -2,7 +2,6 @@
 product: campaign
 title: SQL Data Management
 description: Learn more about SQL Data Management workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 ---

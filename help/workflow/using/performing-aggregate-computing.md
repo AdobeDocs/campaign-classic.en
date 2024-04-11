@@ -2,7 +2,6 @@
 product: campaign
 title: Performing aggregate computing
 description: Learn how to perform aggregate computing in queries
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 ---

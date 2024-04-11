@@ -2,7 +2,6 @@
 product: campaign
 title: Restrict PI view
 description: Learn how to restrict PI view
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: PI
 role: Data Engineer, Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4

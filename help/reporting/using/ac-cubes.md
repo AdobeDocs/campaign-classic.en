@@ -3,7 +3,6 @@ product: campaign
 title: Get started with cubes
 description: Get started with cubes
 feature: Reporting, Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 ---
 # Get started with cubes{#about-cubes}

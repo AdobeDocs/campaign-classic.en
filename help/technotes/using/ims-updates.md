@@ -3,7 +3,6 @@ product: campaign
 title: Technote - Update your environment to connect to Adobe Campaign with IMS
 description: Campaign - IMS updates
 feature: Technote, Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}

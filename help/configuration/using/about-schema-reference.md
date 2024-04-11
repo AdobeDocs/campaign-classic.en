@@ -2,7 +2,6 @@
 product: campaign
 title: Get started with schemas in Adobe Campaign
 description: Learn how work with schemas and extend the conceptual data model of the Adobe Campaign database
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe

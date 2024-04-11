@@ -3,7 +3,6 @@ product: campaign
 title: Marketing campaign templates
 description: Marketing campaign templates
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 ---

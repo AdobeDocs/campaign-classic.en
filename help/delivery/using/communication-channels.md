@@ -2,7 +2,6 @@
 product: campaign
 title: Communication channels
 description: Create deliveries to send personalized messages on different channels
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User

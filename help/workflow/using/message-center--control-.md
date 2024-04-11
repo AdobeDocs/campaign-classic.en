@@ -2,7 +2,6 @@
 product: campaign
 title: Message Center (Control)
 description: Message Center (Control)
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 ---
 

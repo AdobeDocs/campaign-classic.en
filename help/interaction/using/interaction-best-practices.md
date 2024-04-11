@@ -3,7 +3,6 @@ product: campaign
 title: Adobe Campaign Classic Interaction best practices
 description: This section presents the best practice approach to manage the Interaction module in Adobe Campaign Classic
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview

@@ -2,7 +2,6 @@
 product: campaign
 title: Control of offer engine
 description: Control of offer engine
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Offers
 topic-tags: technical-workflows
 ---

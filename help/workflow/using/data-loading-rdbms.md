@@ -2,7 +2,6 @@
 product: campaign
 title: Data loading (RDBMS)
 description: Learn more about Data loading (RDBMS) workflow activity
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
 ---

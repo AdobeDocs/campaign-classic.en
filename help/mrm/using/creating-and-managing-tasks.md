@@ -3,7 +3,6 @@ product: campaign
 title: Creating and managing tasks
 description: Creating and managing tasks
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets

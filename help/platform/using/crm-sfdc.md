@@ -2,7 +2,6 @@
 product: campaign
 title: Campaign - Salesforce CRM Connector
 description: Learn how to connect Campaign and Salesforce
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 ---

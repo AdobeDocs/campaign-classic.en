@@ -2,7 +2,6 @@
 product: campaign
 title: Monitor deliverability in Adobe Campaign
 description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User, Admin

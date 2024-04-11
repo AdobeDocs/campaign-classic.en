@@ -2,7 +2,6 @@
 product: campaign
 title: Local approval
 description: Local approval
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
 ---

@@ -2,7 +2,6 @@
 product: campaign
 title: Get started with web applications
 description: Create and share dynamic Web applications, landing pages and surveys
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb

@@ -2,7 +2,6 @@
 product: campaign
 title: Web Analytics
 description: Learn more about the Web Analytics package
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Analytics Integration
 ---
 
