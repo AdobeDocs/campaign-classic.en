@@ -2,7 +2,7 @@
 product: campaign
 title: Define the final delivery
 description: Learn how to perform A/B testing through a dedicated use case
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: bc23a444-a872-48fb-8bba-64b301541089

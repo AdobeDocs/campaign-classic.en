@@ -4,7 +4,7 @@ title: Managing workflows
 description: Managing workflows
 feature: Workflows, Configuration
 role: Data Engineer, Developer
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
 ---
 # Managing workflows{#managing-workflows}

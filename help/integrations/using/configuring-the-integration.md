@@ -3,7 +3,7 @@ product: campaign
 title: Configure Adobe Experience Manager integration
 description: Learn how to configure Campaign-AEM integration
 feature: Experience Manager Integration
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f

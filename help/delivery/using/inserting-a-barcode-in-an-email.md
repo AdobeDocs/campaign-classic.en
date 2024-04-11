@@ -2,7 +2,7 @@
 product: campaign
 title: Insert a barcode in an email
 description: Insert a barcode in an email
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 role: User
 ---

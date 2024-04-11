@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with tracking
 description: Learn more the general guidelines for tracking in Adobe Campaign
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645

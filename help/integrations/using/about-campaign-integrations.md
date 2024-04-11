@@ -3,7 +3,7 @@ product: campaign
 title: About Campaign integrations
 description: Use other Adobe solutions and combine their different capabilities with Campaign
 feature: Overview
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations

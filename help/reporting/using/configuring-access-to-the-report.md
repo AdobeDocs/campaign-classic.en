@@ -3,7 +3,7 @@ product: campaign
 title: Configure access to the report
 description: Configure access to the report
 feature: Reporting, Monitoring
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 ---
 # Configure access to the report{#configuring-access-to-the-report}

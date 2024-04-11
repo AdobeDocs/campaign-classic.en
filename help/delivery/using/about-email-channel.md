@@ -2,7 +2,7 @@
 product: campaign
 title: About email channel in Adobe Campaign Classic
 description: This section provides general information specific to the email channel in Adobe Campaign
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d

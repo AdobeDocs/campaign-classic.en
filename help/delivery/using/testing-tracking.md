@@ -2,7 +2,7 @@
 product: campaign
 title: Test message tracking
 description: Learn how to test message tracking
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 role: User
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172

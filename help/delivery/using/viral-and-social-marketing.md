@@ -3,7 +3,7 @@ product: campaign
 title: Viral and social marketing
 description: Viral and social marketing
 feature: Social Marketing
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
 ---
 # Viral and social marketing{#viral-and-social-marketing}

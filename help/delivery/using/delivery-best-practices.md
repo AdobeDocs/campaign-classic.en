@@ -2,7 +2,7 @@
 product: campaign
 title: Campaign delivery best practices
 description: Learn best practices when designing and sending a delivery
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996

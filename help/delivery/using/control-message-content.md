@@ -2,7 +2,7 @@
 product: campaign
 title: About deliverability in Adobe Campaign Classic
 description: Learn more about managing deliverability in Adobe Campaign
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab

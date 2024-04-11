@@ -2,7 +2,7 @@
 product: campaign
 title: Analyze the result
 description: Learn how to perform A/B testing through a dedicated use case
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca

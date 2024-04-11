@@ -4,7 +4,7 @@ title: Configure the interface
 description: Learn how to configure Campaign interface
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 ---
 # Configure the interface{#configuring-the-interface}

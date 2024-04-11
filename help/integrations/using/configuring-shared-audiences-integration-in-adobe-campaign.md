@@ -3,7 +3,7 @@ product: campaign
 title: Configuring shared audiences integration in Adobe Campaign
 description: Learn how to configure shared audiences integration
 feature: Audiences, People Core Service Integration
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing

@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with surveys
 description: Get started with Campaign surveys
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 ---

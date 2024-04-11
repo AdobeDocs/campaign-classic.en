@@ -3,7 +3,7 @@ product: campaign
 title: Approving and activating an offer
 description: Approving and activating an offer
 feature: Interaction, Offers
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog

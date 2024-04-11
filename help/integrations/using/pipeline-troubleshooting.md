@@ -3,7 +3,7 @@ product: campaign
 title: Pipeline troubleshooting 
 description: Pipeline troubleshooting 
 feature: Triggers
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa

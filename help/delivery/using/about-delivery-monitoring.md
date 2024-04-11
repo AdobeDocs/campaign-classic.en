@@ -2,7 +2,7 @@
 product: campaign
 title: Get started with delivery monitoring
 description: Learn more about Campaign Classic delivery monitoring capabilities
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7

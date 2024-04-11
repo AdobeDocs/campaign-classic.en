@@ -3,7 +3,7 @@ product: campaign
 title: Insert a dynamic image
 description: Insert a dynamic image
 feature: Target Integration
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target

@@ -3,7 +3,7 @@ product: campaign
 title: Offers on an inbound channel
 description: Offers on an inbound channel
 feature: Interaction, Offers
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study

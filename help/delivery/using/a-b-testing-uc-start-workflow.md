@@ -2,7 +2,7 @@
 product: campaign
 title: Start the workflow
 description: Learn how to perform A/B testing through a dedicated use case
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324

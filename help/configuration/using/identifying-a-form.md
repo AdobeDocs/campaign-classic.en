@@ -4,7 +4,7 @@ title: Identify a form
 description: Identify a form
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 ---
 # Identify a form{#identifying-a-form}

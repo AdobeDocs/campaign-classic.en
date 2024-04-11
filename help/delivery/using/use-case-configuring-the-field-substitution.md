@@ -2,7 +2,7 @@
 product: campaign
 title: "Use case: configure the field substitution"
 description: "Use case: configure the field substitution"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 ---

@@ -4,7 +4,7 @@ title: Create the delivery templates
 description: Learn how to perform A/B testing through a dedicated use case
 role: User
 
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 ---

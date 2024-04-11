@@ -2,7 +2,7 @@
 product: campaign
 title: Create a Refer A Friend survey
 description: Learn steps to create a Refer A Friend form
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 ---

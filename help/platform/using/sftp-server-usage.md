@@ -3,7 +3,7 @@ product: campaign
 title: SFTP server usage
 description: Learn more on SFTP server best practices and troubleshooting
 feature: Troubleshooting
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data

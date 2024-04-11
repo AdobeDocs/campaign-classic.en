@@ -2,7 +2,7 @@
 product: campaign
 title: Define web forms page sequencing
 description: Define web forms page sequencing
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 ---

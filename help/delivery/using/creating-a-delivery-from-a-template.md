@@ -2,7 +2,7 @@
 product: campaign
 title: Create a delivery from a template
 description: Learn how to create a delivery from a template
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30

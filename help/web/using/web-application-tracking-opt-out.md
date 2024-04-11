@@ -2,7 +2,7 @@
 product: campaign
 title: Web application tracking opt-out
 description: Web application tracking opt-out
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 ---

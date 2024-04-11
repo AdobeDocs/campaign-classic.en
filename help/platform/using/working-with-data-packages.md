@@ -3,7 +3,7 @@ product: campaign
 title: Working with data packages
 description: Working with data packages
 feature: Data Management, Package Export/Import
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: administration-basics

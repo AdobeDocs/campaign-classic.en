@@ -3,7 +3,7 @@ product: campaign
 title: Import and export best practices
 description: Learn more about the best practices to follow when importing or exporting data
 feature: Data Management
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation

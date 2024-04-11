@@ -3,7 +3,7 @@ product: campaign
 title: About cubes
 description: Get started with cubes
 feature: Reporting, Monitoring
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 hide: yes
 hidefromtoc: yes
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6

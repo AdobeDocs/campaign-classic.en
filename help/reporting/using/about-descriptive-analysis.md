@@ -3,7 +3,7 @@ product: campaign
 title: Get started with descriptive analysis
 description: Get started with descriptive analysis
 feature: Reporting, Monitoring
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 ---
 # Get started with descriptive analysis{#about-descriptive-analysis}
