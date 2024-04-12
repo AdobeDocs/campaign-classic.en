@@ -3,7 +3,7 @@ product: campaign
 title: Migrate to the Adobe Analytics Connector
 description: Campaign - Analytics Connector FAQ
 feature: Technote, Analytics Integration
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to v7 on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to v7 on-premise and hybrid deployments only"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
 ---
 # How to migrate existing Genesis integrations to Adobe Analytics Connector {#acc-aa-faq}
