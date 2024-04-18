@@ -53,6 +53,10 @@ The **Web download** activity launches the downloading of a file on an explicit 
 
    The **[!UICONTROL Advanced parameters...]** link lets you specify the additional options shown below:
 
+    * **[!UICONTROL Follow redirections]**: File redirection lets you use overrides to direct data input or output to a device of a different type.
+    * **[!UICONTROL Add the HTTP headers to the file]**: In some cases, you may wish to add additional HTTP headers to a file. Most commonly, these headers will be used to provide additional information for troubleshooting purposes, for [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS), or to set specific caching directives.
+    * **[!UICONTROL Ignore the HTTP return code]**: HTTP return codes, also known as HTTP status codes, indicate the outcome of an HTTP request.
+
    ![](assets/download_web_edit_advanced.png)
 
    The **[!UICONTROL Process errors]** option is detailed in [Processing errors](monitoring-workflow-execution.md#processing-errors).
