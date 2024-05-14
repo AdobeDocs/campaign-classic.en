@@ -15,6 +15,14 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2024
 
+### April 2024 {#apr-2024}
+
+A caution note has been added about user creation with Adobe Identity Management System (IMS). [Read more](../../platform/using/access-management.md)
+
+Missing options for the Web Download workflow activity have been added. [Read more](../../workflow/using/web-download.md)
+
+A caution note has been added to the **Change Dimension** and **Change Data source** activities about their usage in a workflow. [Read more](../../workflow/using/change-data-source.md)
+
 ### March 2024 {#mar-2024}
 
 Mobile app configuration section has been updated for iOS token-based connection to APNs. [Read more](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)
