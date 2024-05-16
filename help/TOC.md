@@ -839,7 +839,3 @@ type: Documentation
        + [Migration to Public Cloud](technotes/using/dc-migration.md)
        + [FAQ](technotes/using/dc-migration-faq.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
-
-<!--
-With Adobe Campaign Classic v7, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
--->

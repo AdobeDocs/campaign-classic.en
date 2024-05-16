@@ -73,6 +73,7 @@ Key steps for this migration are listed below:
 You can also migrate your technical operator(s) to Adobe Developer Console as detailed in [this technote](ims-migration.md). 
 
 
+
 ## Frequently Asked Questions {#ims-migration-faq}
 
 ### When can I start the migration? {#ims-migration-start}
@@ -146,5 +147,5 @@ You can now see the list of your **Operators** and their **Authentication Type**
 ## Useful links {#ims-useful-links}
 
 * [Migration of technical users to Adobe Developer console](ims-migration.md)
-* [Adobe Campaign v8 release notes](../../rn/using/latest-release.md)
+* [Adobe Campaign Classic v7 release notes](../../rn/using/latest-release.md)
 * [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
