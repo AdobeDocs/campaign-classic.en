@@ -11,15 +11,17 @@ exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 
 Adding coupons to your deliveries can give your recipients enhanced value for products and services. You can use the Campaign coupon module to create a set of coupons that you expect to add to upcoming marketing offers. When you are ready to create a delivery, assign the applicable coupons. Since coupons are valid for a select period, an assigned coupon is uniquely linked to its delivery message. Also, Campaign confirms that there are enough coupons for the number of messages before the delivery is sent.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Coupon management is a package that must be installed. To confirm that you have Coupon management, check **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
->
->Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
+>Coupon management is not available in Campaign v8 in the context of an Enterprise (FFDA) deployment. Learn more in [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+
+Coupon management relies on a package which must be installed. To confirm that you have Coupon management, check **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
+
+Coupon data can be imported and exported using CSV and XML formats. [Learn more](../../platform/using/get-started-data-import-export.md).
 
 ## Create a coupon {#creating-a-coupon}
 
-The coupon module gives you two options when creating coupons:
+The Coupon Management module gives you two options when creating coupons:
 
 * **Anonymous**: A generic coupon for select recipients or lists of recipients.
 * **Individual**: A personalized coupon for select recipients.
