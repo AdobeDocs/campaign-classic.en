@@ -5,6 +5,7 @@ description: Learn more about Campaign Classic 2021 releases
 feature: Release Notes
 role: User
 level: Beginner
+hidefromtoc: yes
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
 ---
 # 2021 releases{#release-2021}
