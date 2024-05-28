@@ -154,9 +154,9 @@ The two examples below are the most common use cases for using multiple waves.
 
 * **Campaigns involving a call center**
 
-  When managing a telephone loyalty campaign, your organization has a limited capacity to process the number of calls to contact subscribers.
+  When managing a loyalty campaign by phone, your organization has a limited capacity to process the number of calls to contact subscribers.
 
-  Using waves, you can restrict the number of messages to 20 per day, which is the daily processing capacity of a call center.
+  Using waves, you can restrict the number of messages to 20 per day, for example, considering the daily processing capacity of a call center.
 
   To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the wave's size and **[!UICONTROL 1d]** in the **[!UICONTROL Period]** field.
 

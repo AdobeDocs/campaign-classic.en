@@ -32,7 +32,7 @@ You can find below the integration steps for Campaign SDK.
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
   ```
 
-  The following permission allows you to recover a telephone's unique ID:
+  The following permission allows you to recover a mobile's unique ID:
 
   ```
   <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
