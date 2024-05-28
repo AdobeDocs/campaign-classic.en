@@ -10,8 +10,6 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 ---
 # External accounts{#external-accounts}
 
-
-
 Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems, you can create new external accounts.
 
 External accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.
@@ -109,9 +107,9 @@ The following channels can be configured:
 
 * [Email](#email-routing-external-account)
 * [Mobile (SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
-* [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
+* [Phone](../../delivery/using/communication-channels.md#other-channels)
 * [Direct mail](../../delivery/using/about-direct-mail-channel.md)
-* [Agency](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
+* [Agency](../../delivery/using/communication-channels.md#other-channels)
 * [X (formerly known as Twitter)](../../social/using/about-social-marketing.md)
 * [iOS channel](../../delivery/using/configuring-the-mobile-application.md)
 * [Android channel](../../delivery/using/configuring-the-mobile-application-android.md)
