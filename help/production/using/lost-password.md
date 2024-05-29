@@ -65,7 +65,7 @@ To do this, apply the following procedure:
 
 1. Save changes and close the file.
 
-1. Stop the `nlserver` process
+1. Stop the `nlserver` process.
 
 1. Configure the new password. To do this, enter the following commands:
 
@@ -79,6 +79,6 @@ To do this, apply the following procedure:
     Confirmation 
     ```
 
-1. Start the `nlserver` process
+1. Start the `nlserver` process.
 
 1. You can now use your new password to connect in **Internal** mode.

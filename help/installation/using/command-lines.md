@@ -18,7 +18,7 @@ The following command lines require the ability to access the application server
 
 Instance creation can be executed using command lines, with the syntax:
 
-```
+```sql
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
@@ -30,7 +30,7 @@ The command **nlserver config -addinstance:instance1/demo&#42;/eng** enables you
 
 You can associate an existing database with an instance from the command line by using the following syntax:
 
-```
+```sql
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
@@ -43,6 +43,6 @@ The following values are possible for the **`[rdbms]`** parameter:
 
 The following command configures the **demo** instance with the SQL type server known as **base6**, linked to the **campaign** account and its **password** on the **dbsrv** server:
 
-```
+```sql
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo
 ```

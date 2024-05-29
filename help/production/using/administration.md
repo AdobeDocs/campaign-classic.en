@@ -11,8 +11,6 @@ exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 ---
 # Administration{#administration}
 
-
-
 Automatic startup of the Adobe Campaign modules (**web**, **mta**, **wfserver**, etc.) is provided by the **nlserver** server.
 
 Installing Adobe Campaign automatically configures the machine so that the **nlserver** service starts up during the boot sequence.

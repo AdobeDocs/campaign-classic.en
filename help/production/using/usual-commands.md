@@ -35,7 +35,7 @@ The parameter **`<command>`** corresponds to the module.
 
 You can add the parameter **-who** to list the connections in progress (database and application).
 
-```
+```sql
 nlserver pdump -who
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 web@default (9984) - 50.1 Mo
@@ -60,7 +60,7 @@ Another useful command is **nlserver monitor**. It lists the monitoring XML file
 
 You can add the parameter **-missing** to list the absent modules (error in modules, modules shut down, etc.)
 
-```
+```sql
 nlserver monitor -missing
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 inMail@test
@@ -75,11 +75,11 @@ This corresponds to the modules with automatic startup but which have not been l
 
 The syntax to launch modules will still have the following format:
 
-```
+```sql
 nlserver start <module>@<INSTANCE>
 ```
 
-```
+```sql
 nlserver stop <module>@<INSTANCE>
 ```
 
@@ -95,7 +95,7 @@ To stop Adobe Campaign services, use one of the following commands:
 
     * In Linux:
 
-      ```    
+      ```sql
       /etc/init.d/nlserver6 stop
       ```
 
@@ -105,13 +105,13 @@ To stop Adobe Campaign services, use one of the following commands:
 
     * In Windows:
 
-      ```    
+      ```sql
       net stop nlserver6
       ```
 
 * If not, then in the Adobe Campaign account:
 
-  ```
+  ```sql
   nlserver shutdown 
   ```
 
@@ -121,13 +121,13 @@ Similarly, in order to restart Adobe Campaign you can use one of the following c
 
 * If you have root or administrator access:
 
-    * In Linux: /etc/init.d/nlserver6 start
+    * In Linux: `/etc/init.d/nlserver6 start`
 
       >[!NOTE]
       >
       >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
 
-    * In Windows: net start nlserver6
+    * In Windows: `net start nlserver6`
 
 * Otherwise, in the Adobe Campaign account: **nlserver watchdog -svc -noconsole**
 
@@ -137,11 +137,11 @@ The **config** command lets you manage server configuration, including the recon
 
 Use the **config** command of the **nlserver** executable file with the **-setdblogin** parameter.
 
-```
+```sql
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>
 ```
 
-```
+```sql
 nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 ```
 

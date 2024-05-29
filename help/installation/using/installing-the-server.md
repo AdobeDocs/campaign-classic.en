@@ -11,8 +11,6 @@ exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 ---
 # Installing the server{#installing-the-server}
 
-
-
 ## Executing the installation program {#executing-the-installation-program}
 
 For a Windows 32 bit platform, install Adobe Campaign 32 bit. For a Windows 64 bit platform, install Adobe Campaign 64 bit.
@@ -64,13 +62,13 @@ The installation steps for the Adobe Campaign server are the following:
 
 You can test the initial installation using the following command:
 
-```
+```sql
 nlserver pdump
 ```
 
 If Adobe Campaign is not started, the response is:
 
-```
+```sql
 No task
 ```
 
@@ -78,7 +76,7 @@ No task
 
 Once the installation test is complete, open a command prompt via the **[!UICONTROL Start > Programs > Adobe Campaign]** menu and enter the following command:
 
-```
+```sql
 nlserver web
 ```
 
@@ -98,13 +96,13 @@ The following information is displayed:
 
 Press **Ctrl+C** to stop the process, then enter the following command:
 
-```
+```sql
 nlserver start web
 ```
 
 The following information is displayed:
 
-```
+```sql
 12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Start of the 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair') task in a new process 
 12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -116,13 +114,13 @@ The following information is displayed:
 
 To stop it, enter:
 
-```
+```sql
 nlserver stop web
 ```
 
 The following information is displayed:
 
-```
+```sql
 12:18:31 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:18:31 >   Stop requested for 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair', pid=29188, tid=-1224824320)...
 12:18:31 >   Stop requested (pid=29188)
@@ -139,13 +137,13 @@ Learn more in [this section](../../installation/using/configuring-campaign-serve
 
 To start the Adobe Campaign services, you can use the service manager or enter the following at the command line (with the appropriate rights):
 
-```
+```sql
 net start nlserver6
 ```
 
 If you need to stop the Adobe Campaign processes later on, use the command:
 
-```
+```sql
 net stop nlserver6
 ```
 
@@ -155,6 +153,6 @@ Download LibreOffice and follow the regular installation steps.
 
 Add the following environment variable:
 
-```
+```sql
 OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
 ```
