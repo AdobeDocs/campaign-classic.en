@@ -22,7 +22,12 @@ There are two possible scenarios:
 ## Password lost by a Campaign operator {#password-lost-by-campaign-operator}
 
 If an Adobe Campaign operator loses their password, you can change it.
-To do this, follow the steps below:
+
+>[!NOTE]
+>
+>This procedure only applies for operators connecting to Campaign with native authentication. For Adobe IMS authentication, refer to [this documentation](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"}.
+
+To reset a Campaign password, follow the steps below:
 
 1. Connect via an operator with administrator rights.
 1. Right-click an operator.
@@ -39,31 +44,32 @@ To do this, follow the steps below:
 >This section only applies to on-premise customers only.
 
 If the internal password is lost, you must reinitialize it.
+
 To do this, apply the following procedure:
 
 1. Edit the **/usr/local/neolane/nl6/conf/serverConf.xml** file.
 
 1. Go to the **internalPassword** line.
 
-    ```    
+    ```xml
     <!-- XTK authentication mode internalPassword : Password of internal account -->
     <xtk internalPassword="myPassword"/>
     ```
 
-1. Delete the string in quotes, in this case: **myPassword**
+1. Delete the string in quotes, in this case: `myPassword`. You get the following line:
 
-   You thus obtain the following line:
-
-    ```    
-    !-- XTK authentication mode internalPassword : Password of internal account -->
-    <xtk internalPassword=""/
+    ```xml
+    <!-- XTK authentication mode internalPassword : Password of internal account -->
+    <xtk internalPassword=""/>
     ```
 
 1. Save changes and close the file.
 
+1. Stop the `nlserver` process
+
 1. Configure the new password. To do this, enter the following commands:
 
-    ```    
+    ```javascript
     nlserver config -internalpassword
     HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
     Enter current password.
@@ -72,5 +78,7 @@ To do this, apply the following procedure:
     Password: 
     Confirmation 
     ```
+
+1. Start the `nlserver` process
 
 1. You can now use your new password to connect in **Internal** mode.
