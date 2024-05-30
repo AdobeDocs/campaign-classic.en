@@ -11,11 +11,11 @@ exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 ---
 # Privacy management {#privacy-management}
 
- 
 
 Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
-Here are the five main capabilities offered by Adobe Campaign to ensure GDPR and other privacy regulations readiness:
+Here are the five main capabilities offered by Adobe Campaign to ensure privacy regulations readiness:
+
 * **Right to Access**
 * **Right to Delete**
 * **Consent management**
@@ -34,12 +34,14 @@ It also contains information on important features to manage Privacy ([Consent, 
 
 Adobe Campaign's capabilities help you comply with the following regulations:
 
-* **GDPR** ([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements for EU's countries.
-* **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-* **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. 
-* **LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) will be effective early 2021 for all companies collecting or processing personal data in Brazil.
+* **GDPR** (General Data Protection Regulation) is the European Union's (EU) privacy law that harmonizes and modernizes data protection requirements for EU's countries.
+* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+* **PDPA** (Personal Data Protection Act) is the privacy law that harmonizes and modernizes data protection requirements for Thailand. 
+* **LGPD** (Lei Geral de Proteção de Dados) applies to all companies collecting or processing personal data in Brazil.
+* **CASL** (Canadian Anti-Spam Law) covers all messages sent into or out of Canada but does not include messages routed through Canada,  
+* **VCDPA** (Virginia Consumer Data Protection Act) and **CPA** (Colorado Privacy Act) apply to all companies that conduct business or target residents within those states.
 
-All of these regulations apply to Adobe Campaign customers who hold data for Data Subjects residing in the respective regions or countries mentioned above (EU, California, Thailand, Brazil).
+All of these regulations apply to Adobe Campaign customers who hold data for Data Subjects residing in the respective regions or countries mentioned above.
 
 <!--Several Privacy capabilities are available in Adobe Campaign, including consent management, data retention settings, and rights management. See [Consent, Retention and Roles](#consent-retention-roles). In addition to this, Adobe Campaign helps facilitate your readiness as Data Controller for certain Privacy requests. See [Right to Access and Right to be Forgotten](#right-access-forgotten).-->
 

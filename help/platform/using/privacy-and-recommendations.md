@@ -11,7 +11,6 @@ exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 ---
 # Privacy and Consent{#privacy-and-recommendations}
 
- 
 
 ## General recommendations {#general-recommendations}
 
@@ -25,18 +24,7 @@ Take the time to go through the [Security and Privacy checklist](../../installat
 
 ### Privacy regulations {#privacy-regulations}
 
-To correctly handle privacy and manage personal data, work within the legislations applicable to the region(s) where you operate. These regulations include:
-* [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (European General Data Protection Regulation)
-* [DPA](https://www.gov.uk/data-protection) (UK's implementation of GDPR)
-* [European Directive on privacy and electronic communications](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
-* [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (US law setting the rules and requirements for commercial email)
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=) (California Consumer Privacy Act)
-* [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thailand Personal Data Protection Act)
-* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) (Brazilian General Data Protection Law)
-
->[!NOTE]
->
->For more on how GDPR, CCPA, PDPA, and LGPD apply to Adobe Campaign, see [this page](../../platform/using/privacy-management.md#privacy-management-regulations).
+To correctly handle privacy and manage personal data, work within the legislations applicable to the region(s) where you operate. Adobe Campaign's capabilities help you comply with the regulations listed in [this page](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
