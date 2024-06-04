@@ -94,7 +94,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>Read more about JDK and Campaign in [this page](../../installation/using/application-server.md#java-development-kit---jdk).</p>
+<p>Read more about JDK and Campaign in <a href=../../installation/using/application-server.md#java-development-kit---jdk>this page</a>.</p>
 </td>
 </tr>
 <tr>
