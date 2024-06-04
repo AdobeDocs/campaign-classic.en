@@ -71,7 +71,7 @@ The following publication options are available:
 
   By default, the construction format of the file name uses the variables on the "@name" and "@date" fields:
 
-  ```
+  ```xml
   ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
   ```
 
@@ -111,7 +111,7 @@ The principle is to generate a main page listing the chapters, with the possibil
 
 The corresponding stylesheet ("cus:book.xsl") is as follows:
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -134,7 +134,7 @@ The corresponding stylesheet ("cus:book.xsl") is as follows:
 
 A second stylesheet ("cus:chapter.xsl") is required to generate the details of the chapters:
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -161,7 +161,7 @@ A second stylesheet ("cus:chapter.xsl") is required to generate the details of t
 
 The partitioning tag is populated at the beginning of the page to be included in the file to generate.
 
-```
+```xml
 <xsl:comment> #nl:output_replace($(path)/<xsl:value-of select="@id"/>.htm)</xsl:comment>
 ```
 

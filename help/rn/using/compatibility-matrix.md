@@ -94,7 +94,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>Read more about JDK and Campaign in <a href=../../installation/using/application-server.md#java-development-kit---jdk>this page</a>.</p>
+<p>Read more about JDK and Campaign in <a href="https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">this page</a>.</p>
 </td>
 </tr>
 <tr>
@@ -142,7 +142,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
-<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href=https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers>Learn more</a>.</p>
+<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers" target="_blank">Learn more</a>.</p>
 </td>
 </tr>
 </tbody>
