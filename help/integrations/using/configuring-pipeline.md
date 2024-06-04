@@ -1,54 +1,44 @@
 ---
 product: campaign
-title: Configuring the pipeline
-description: Learn how to configure the pipeline
+title: Configure the pipeline
+description: Learn how to configure the pipeline for Campaign - Triggers integration
 feature: Triggers
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 ---
-# Configuring pipeline {#configuring-pipeline}
-
- 
+# Configure the pipeline {#configuring-pipeline}
 
 Authentication parameters such as the customer ID, the private key, and the authentication endpoint are configured in the instance configuration files.
+
 The list of triggers to be processed is configured in an option in JSON format.
+
 The triggers are used for targeting by a campaign workflow that sends emails. The campaign is set up so that a customer that has both trigger events receives an email.
 
 ## Prerequisites {#prerequisites}
 
-Before starting this configuration, please check you are using:
+Before starting this configuration, please check you have:
 
-* Minimum, one of the following Adobe Campaign builds:
-  * 19.1.8.9039
-  * 19.1.4.9032 - Gold Standard 11
-  * 20.2.4.9187
-  * 20.3.1 
-* Adobe Analytics Standard version
-
-You also need:
-
-* Adobe I/O project authentication
-* a valid Organization ID - To find your Organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}
-* a Developer access to your Organization
-* triggers configuration done in Adobe Analytics
+* An Adobe Developer project
+* A valid Organization ID - To find your Organization ID, refer to [this page](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
+* A Developer access to your Organization
+* A valid triggers configuration in Adobe Analytics
 
 ## Authentication and configuration files {#authentication-configuration}
 
-Authentication is required since pipeline is hosted in the Adobe Experience Cloud.
-It uses a pair of public and private keys. This process has the same function as a user/password but is more secure.
-Authentication is supported for the Marketing Cloud via Adobe I/O Project.
+Authentication is required since pipeline is hosted in the Adobe Experience Cloud. It uses a pair of public and private keys. This process has the same function as a user/password but is more secure. Authentication is supported for the Marketing Cloud via Adobe Developer Project.
 
-## Step 1: Creating/updating Adobe I/O Project {#creating-adobe-io-project}
+## Step 1: Create/update your Adobe Developer Project {#creating-adobe-io-project}
 
-For Hosted customers, you can create a customer care ticket to enable your organization with Adobe I/O Technical Account Tokens for the Triggers integration.
+For Hosted customers, work with your Adobe representative / Customer Care to enable your organization with Adobe Developer Account Tokens for the Triggers integration.
 
-For On Premise customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe I/O credential.
+For On-premise/Hybrid customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe Developer credential.
 
-## Step 2: Configuring NmsPipeline_Config pipeline option {#configuring-nmspipeline}
+## Step 2: Configure the pipeline option {#configuring-nmspipeline}
 
 Once the authentication is set, pipeline will retrieve the events. It will only process triggers that are configured in Adobe Campaign. The trigger must have been generated from Adobe Analytics and pushed to the pipeline which will only process triggers that are configured in Adobe Campaign.
+
 The option can also be configured with a wildcard in order to catch all triggers regardless of the name.
 
 1. In Adobe Campaign, access the options menu under **[!UICONTROL Administration]** > **[!UICONTROL Platform]**  > **[!UICONTROL Options]** in the **[!UICONTROL Explorer]**.
@@ -57,7 +47,7 @@ The option can also be configured with a wildcard in order to catch all triggers
 
 1. In the **[!UICONTROL Value (long text)]** field, you can paste the following JSON code, which specifies two triggers. You need to make sure to remove comments.
 
-    ```
+    ```json
     {
     "topics": [ // list of "topics" that the pipelined is listening to.
        {
@@ -79,7 +69,7 @@ The option can also be configured with a wildcard in order to catch all triggers
 
 1. You can also choose to paste the following JSON code which catches all triggers.
 
-    ```
+    ```json
     {
     "topics": [
       {
@@ -96,7 +86,7 @@ The option can also be configured with a wildcard in order to catch all triggers
     }
     ```
 
-### The Consumer parameter {#consumer-parameter}
+### Set the Consumer parameter {#consumer-parameter}
 
 The pipeline works like a supplier and consumer model. Messages are consumed only for an individual consumer: each consumer gets its own copy of the messages.
 
@@ -108,18 +98,18 @@ The pipeline service keeps track of the messages retrieved by each consumer. Usi
 
 To configure Pipeline option, you should follow these recommendations:
 
-* Add or edit triggers under **[!UICONTROL Triggers]**, you should not edit the rest.
-* Make sure the JSON is valid. You can use a JSON Validator, refer to this [website](https://jsonlint.com/) for example.
-* "name" corresponds to the trigger ID. A wildcard "*" will catch all triggers.
-* "Consumer" corresponds to the name of the calling instance or application.
-* Pipelined also supports the "aliases" topic.
-* You should always restart pipelined after making changes.
+* Add or edit triggers under **[!UICONTROL Triggers]**.
+* Make sure the JSON is valid. 
+* The **Name** parameter corresponds to the trigger ID. A wildcard "*" will catch all triggers.
+* The **Consumer** parameter corresponds to the name of the calling instance or application.
+* the `pipelined`process also supports the "aliases" topic.
+* You should always restart `pipelined`process after making changes.
 
 ## Step 3: Optional configuration {#step-optional}
 
-You can change some internal parameters as per your load requirements but make sure to test them before putting them into production.
+You can change some internal parameters as per your load requirements but make sure to test them before applying them to your production environment.
 
-The list of optional parameters can be found below:
+The list of optional parameters is:
 
 |  Option | Description  |
 |:-:|:-:|
@@ -140,11 +130,11 @@ The list of optional parameters can be found below:
 
 ### Pipelined process auto-start {#pipelined-process-autostart}
 
-The pipelined process needs to be started automatically.
+The `pipelined` process needs to be started automatically.
 
-For this, set the <&nbsp;pipelined&nbsp;> element in the config file to autostart="true":
+For this, set the `<`pipelined`>` element in the config file to autostart="true":
 
-```
+```sql
  <pipelined autoStart="true" ... "/>
 ```
 
@@ -152,7 +142,7 @@ For this, set the <&nbsp;pipelined&nbsp;> element in the config file to autostar
 
 A restart is required for the changes to take effect:
 
-```
+```sql
 nlserver restart pipelined@instance
 ```
 
@@ -160,6 +150,6 @@ nlserver restart pipelined@instance
 
 To validate the pipeline setup for provisioning, follow the steps below:
 
-* Make sure the [!DNL pipelined] process is running.
-* Check the pipelined.log for pipeline connection logs.
+* Make sure the `pipelined` process is running.
+* Check the `pipelined.log` for pipeline connection logs.
 * Verify the connection and if pings are received. Hosted customers can use the Monitoring from the Client Console.

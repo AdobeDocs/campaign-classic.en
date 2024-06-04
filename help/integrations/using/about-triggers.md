@@ -14,9 +14,9 @@ exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 
 >[!CAUTION]
 >
->This capability is not available out of the box as part of the product. For this implementation, you first need to open a ticket with Adobe Support. You will then be able to follow the steps detailed in this [page](../../integrations/using/configuring-pipeline.md#prerequisites).
+>This capability is not available out of the box as part of the product. For this implementation, work with your Adobe representative / Customer Care. You will then be able to follow the steps detailed in this [page](../../integrations/using/configuring-pipeline.md#prerequisites).
 
-[!DNL Triggers] run marketing actions within a short range of time following a user’s action. The typical response time is less than one hour.
+[!DNL Triggers] run marketing actions within a short range of time following a user's action. The typical response time is less than one hour.
 
 It allows for more agile integrations since the configuration is minimal and a third party is not involved.
 It also supports high volumes of traffic without impacting the performance of marketing activities. As an example, the integration can process a million triggers per hour.
