@@ -26,28 +26,28 @@ The application has been approved for the Java Development Kit (JDK) developed b
 The supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 
-
 ### Recommendations
 
-Java Development Kit can be installed using the appropriate JDK version already used by other applications on the machine.
+When installing and upgrading your Java Development Kit, apply the following recommendations:
 
-When installing the JDK, the integration with the Web browsers is not required.  
+* Java Development Kit can be installed using the appropriate JDK version already used by other applications on the machine.
 
-On a machine which only executes delivery agents (**nlserver mta** process) or the workflow server (**nlserver wfserver** process), installing a JDK is not required.
+* When installing the JDK, the integration with the Web browsers is not required.  
 
+* On a machine which only executes delivery agents (**nlserver mta** process) or the workflow server (**nlserver wfserver** process), installing a JDK is not required.
 
->[!CAUTION]
->
-> To preserve platform operation performance and ensure compatibility with the installed version, you must disable automatic JDK update functions in Windows and Linux.
->
-> When upgrading your Java version, you first need to uninstall the previous version. Both versions of Java installed in the same machine can cause conflicts.
+* To preserve platform operation performance and ensure compatibility with the installed version, you must disable automatic JDK update functions in Windows and Linux.
+
+* When upgrading your Java version, you first need to uninstall the previous version. Both versions of Java installed in the same machine can cause conflicts.
+    
+    As an On-premise customer, you can check the `LD_LIBRARY_PATH` [environment variable](installing-packages-with-linux.md#environment-variables) is set to the latest version (for ex. java11). If it is set to a previous version (for ex. Java8), then it needs to be updated. For JDK 11, the path to locate JDK libraries is `/usr/lib/jvm/java-11-openjdk-amd64/lib`.
 
 
 ### Installation steps
 
 Java Development Kit is platform-specific: separate installers are needed for each operating system.
 
-To download Java JDK, connect to [Oracle website](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+To download JDK, connect to [Oracle website](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -67,6 +67,7 @@ For RHEL, use the following command:
 ```sql
 yum install java-1.8.0-openjdk
 ```
+
 
 ## OpenSSL {#openssl}
 
