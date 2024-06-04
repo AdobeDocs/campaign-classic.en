@@ -116,13 +116,17 @@ There is no cost to install the build upgrade for hosted Customers. If there are
 
 No. The server is shutdown during an upgrade to ensure that the data integrity is preserved while the product is upgraded. Once completed, it is restarted, and all services resume.    
 
+## Can I still use my Campaign instance during the upgrade process?
+
+No. Adobe recommends disabling any operations in the campaign during the maintenance period to avoid missing or losing any data. You must not create or deploy any campaign, queries, workflows, or deliveries during the upgrade.
+
 ## Will the emails continue to be sent from Message Center during the upgrade process?
 
 When the upgrade happens for Message Center (RT), it will not send emails from the instance. Note, any processes that are stopped when a Campaign system is shut down are automatically resumed when the system is re-started. This includes active or scheduled deliveries, tracking, and metrics calculations for previously sent deliveries.    
 
 ## Will the workflows continue to run and send the deliveries?
 
-No. During build upgrade, workflow and mail services are both stopped. This means workflows will not run and deliveries are not sent. They will resume once the system is restarted. However, Adobe strongly advises that all critical path workflows be checked after an upgrade to ensure that they’re running and healthy.
+No. During build upgrade, workflow and mail services are both stopped. This means workflows will not run and deliveries are not sent. They will resume once the system is restarted. However, Adobe strongly advises that all critical path workflows be checked after an upgrade to ensure that they're running and healthy.
 
 ## Will my tracking links still work during the upgrade?
 
