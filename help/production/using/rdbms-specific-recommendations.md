@@ -24,15 +24,14 @@ To help you set up maintenance plans, this section lists some recommendations an
    ```
    create or replace view uvSpace
     as
-    SELECT c1.relname AS tablename, c2.relname AS indexname, c2.relpages * 8 / 1024 AS size_mbytes, c2.relfilenode AS filename, 0 AS row_count
+    SELECT c1.relname AS tablename, c2.relname AS indexname, c2.relpages * 8  / 1024 AS size_mbytes, c2.relfilenode AS filename, cast(0 AS bigint) AS row_count
     FROM pg_class c1, pg_class c2, pg_index i
     WHERE c1.oid = i.indrelid AND i.indexrelid = c2.oid
-    UNION 
-    SELECT pg_class.relname AS tablename, NULL::"unknown" AS indexname, pg_class.relpages * 8 / 1024 AS size_mbytes, pg_class.relfilenode AS filename, cast(pg_class.reltuples as integer) AS row_count
+    UNION
+    SELECT pg_class.relname AS tablename, NULL::"unknown" AS indexname, pg_class.relpages * 8  /1024  AS size_mbytes, pg_class.relfilenode AS filename, cast(pg_class.reltuples as bigint) AS row_count
     FROM pg_class
     WHERE pg_class.relkind = 'r'::"char"
     ORDER BY 3 DESC, 1, 2 DESC;
-   
    ```
 
 1. You can run this query to spot large tables and indexes:
