@@ -37,16 +37,21 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Feature</strong></td>
    <td><strong>Details</strong></td>
   </tr>
+  <tr>
+ <td>Campaign (Neolane) legacy SDK</td>
+ <td><p>The Campaign (Neolane) SDK for mobile applications is now deprecated. Instead, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. <a href="https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/">Learn more</a></p>
+  <p>Target removal date: End of 2024 </p>
+  </td>
+</tr>
 <tr>
  <td>Social Marketing with Facebook</td>
- <td>Social Marketing with Facebook is now deprecated. You can use X (formerly known as Twitter) integration to post on social media, or work with Adobe to create a custom channel.
- <p></p>
+ <td><p>Social Marketing with Facebook is now deprecated. You can use X (formerly known as Twitter) integration to post on social media, or work with Adobe to create a custom channel.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
 <tr>
  <td>ACS Connector</td>
- <td>ACS Connector (Prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.<p></p>
+ <td><p>ACS Connector (Prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>

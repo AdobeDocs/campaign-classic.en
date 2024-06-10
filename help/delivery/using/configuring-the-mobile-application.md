@@ -88,7 +88,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
 
     >[!NOTE]
     >

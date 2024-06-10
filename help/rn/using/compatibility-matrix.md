@@ -345,10 +345,12 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
+<p>2022</p>
 <p>2019</p>
 <p>2016</p>
 </td>
 <td>
+<p>v7.4.1 minimum</p>
 <p>v7.2.1 minimum</p>
 <p></p>
 <p></p>
@@ -361,7 +363,7 @@ Microsoft Edge WebView2 runtime latest version is mandatory for Campaign client 
 
 Download Microsoft Edge WebView2 from [Microsoft Developer site](https://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
-
+<!-->
 ## Mobile SDK{#MobileSDK}
 
 You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md) on the operating systems listed below, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). 
@@ -386,6 +388,7 @@ You can also use the Adobe Experience Platform Mobile SDK by configuring the Ado
 </tr>
 </tbody>
 </table>
+-->
 
 ## Browsers{#Browsers}
 

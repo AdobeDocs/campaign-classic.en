@@ -6,6 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 hidefromtoc: yes
+hide: yes
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 ---
 # [!DNL Gold Standard] releases{#gold-standard}

@@ -149,8 +149,6 @@ Added requirements about IMS permissions to implement Adobe Campaign-Adobe Analy
 
 Updated Adobe Analytics Data Connector End-of-Life date from March 1, 2022 to August 17, 2022. [Read more](deprecated-features.md)
 
-Added a link to Adobe Experience Platform mobile SDK documentation to learn how to configure the Campaign extension in Adobe Launch. [Read more](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-
 Added a section about how to use JavaScript to calculate values, exchange data and to execute specific operations using SOAP calls.[Read more](../../workflow/using/javascript-scripts-and-templates.md) 
 
 Added samples of JavaScript codes implementation in workflows. [Read more](../../workflow/using/javascript-in-workflows.md)
