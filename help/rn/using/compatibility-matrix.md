@@ -27,7 +27,10 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 >
 >This matrix is regularly updated with new supported items being added and deprecated items being removed.
 
-## Operating Systems{#OperatingSystems}
+## Operating Systems {#OperatingSystems}
+
+As an on-premise / hybrid customer, you must install Adobe Campaign in one of the operating systems listed below. Learn more about Campaign Classic v7 installation steps in [this page](../../installation/using/application-server.md).
+
 
 <table> 
 <tbody> 
@@ -65,7 +68,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 >
 >If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.
 
-## Web Servers{#WebServers}
+## Web Servers {#WebServers}
+
+As an on-premise / hybrid customer, depending on your operating system, you must integrate Campaign into one of the web servers listed below. Learn more about Web servers configuration steps in [this page](../../installation/using/integration-into-a-web-server-for-windows.md) (for Windows) and [this page](../../installation/using/integration-into-a-web-server-for-linux.md) (for Linux) .
 
 <table>
 <tbody>
@@ -84,7 +89,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tbody>
 </table>
 
-## Tools{#Tools}
+## Tools {#Tools}
+
+As an on-premise / hybrid customer, you must install and configure the tools listed below. [Learn more](../../installation/using/application-server.md).
 
 <table>
 <tbody>
@@ -113,6 +120,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </table>
 
 ## Relation Database Management Systems (RDBMS){#RDBMSservers}
+
+As an on-premise / hybrid customer, you must install and configure one of the databases listed below. [Learn more](../../installation/using/database.md).
+
 
 <table>
 <tbody>
@@ -152,7 +162,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 >
 >* RDBMS driver must match with RDBMS server version.
 >
->* PostgreSQL is the RDBMS for Hosted environments.
+>* PostgreSQL is the RDBMS for Hosted/Managed Cloud Services environments.
 
 ## CRM connectors{#CRMconnectors}
 
@@ -388,7 +398,7 @@ The following browsers, in their latest version, are compatible with Campaign fo
 
 
 
-## More like this{#Morelikethis}
+## More like this {#Morelikethis}
 
 * [Campaign Classic Release notes](../../rn/using/latest-release.md)
 * [Campaign General Architecture](../../installation/using/general-architecture.md)
