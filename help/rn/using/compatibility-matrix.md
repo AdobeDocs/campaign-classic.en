@@ -363,7 +363,7 @@ Microsoft Edge WebView2 runtime latest version is mandatory for Campaign client 
 
 Download Microsoft Edge WebView2 from [Microsoft Developer site](https://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
-<!-->
+<!--
 ## Mobile SDK{#MobileSDK}
 
 You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md) on the operating systems listed below, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). 
