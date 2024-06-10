@@ -121,7 +121,7 @@ As an on-premise / hybrid customer, you must install and configure the tools lis
 
 ## Relation Database Management Systems (RDBMS){#RDBMSservers}
 
-As an on-premise / hybrid customer, you must install and configure one of the databases listed below. [Learn more](../../installation/using/database.md).
+As an on-premise / hybrid customer, you must install and configure one of the databases listed below. [Learn more](../../installation/using/creating-and-configuring-the-database.md).
 
 
 <table>
