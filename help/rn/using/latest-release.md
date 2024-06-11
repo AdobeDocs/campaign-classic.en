@@ -20,9 +20,9 @@ _June 18, 2024_
 
 ### Changes and improvements {#release-7-4-1-changes}
 
-* If you are using Adobe Identity Management Service (IMS) to connect to Adobe Campaign, you can now deactivate options which are specific to native authentication. 
+* If you are using Adobe Identity Management Service (IMS) to connect to Adobe Campaign, you can now deactivate options which are specific to native authentication. [Learn more](../../campaign-classic-home.md)
 
-* With the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth before January 27, 2025.
+* With the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth before January 27, 2025. [Learn more](../../campaign-classic-home.md)
 
 
 ### Compatibility updates {#release-7-4-1-compat}
