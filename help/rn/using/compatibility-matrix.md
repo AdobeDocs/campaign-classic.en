@@ -385,9 +385,9 @@ The Campaign SDK is [deprecated](deprecated-features.md) starting Campaign v7.4.
 <td>Google Android</td>
 <td>
 <p>7 - 14</p>
+<p>with mobile SDK build 1.1.1.</p>
 <p>Android 13 and 14 are supported starting Campaign v7.4.</p>
 <p>Android 12 is supported starting Campaign v7.3.</p>
-<p>with mobile SDK build 1.1.1.</p>
 </td>
 </tr>
 <tr>
