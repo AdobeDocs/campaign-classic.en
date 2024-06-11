@@ -10,7 +10,9 @@ exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 ---
 # Create and manage operator groups {#operator-groups}
 
- 
+>[!NOTE]
+>
+>These procedures only apply for operators connecting to Campaign with native authentication. For Adobe IMS authentication, refer to [this documentation](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
 Operator groups are created via the **[!UICONTROL Administration > Access management > Operator groups]** node in the tree.
 
