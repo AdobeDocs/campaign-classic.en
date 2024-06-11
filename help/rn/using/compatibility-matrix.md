@@ -50,7 +50,7 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 <tr>
 <td>RHEL</td>
 <td>
-<p>9.x</p>
+<p>9.x (starting Campaign v7.4)</p>
 <p>8.x</p>
 <p>7.x</p>
 </td>
