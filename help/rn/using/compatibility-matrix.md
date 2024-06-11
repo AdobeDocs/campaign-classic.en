@@ -58,6 +58,7 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 <tr>
 <td>Windows Server</td>
 <td>
+<p>2022 (starting Campaign v7.4)</p>
 <p>2019 (starting Campaign v7.2)</p>
 <p>2016</p>
 </td>
@@ -130,6 +131,7 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 <tr>
 <td>Oracle</td>
 <td>
+<p>23c (starting Campaign v7.4)</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
@@ -139,6 +141,8 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>16.x (starting Campaign v7.4)</p>
+<p>15.x (starting Campaign v7.4)</p>
 <p>14.x (starting Campaign v7.3.2)</p>
 <p>13.x</p>
 <p>12.x</p>
@@ -147,8 +151,9 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 </td>
 </tr>
 <tr>
-<td>SQL Server</td>
+<td>Microsoft SQL Server</td>
 <td>
+<p>2022 (starting Campaign v7.4)</p>
 <p>2019</p>
 <p>2017</p>
 <p>2016</p>
@@ -263,6 +268,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <tr>
 <td>Oracle</td>
 <td>
+<p>23c (starting Campaign v7.4)</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
@@ -284,6 +290,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </tr>
 <tr><td>SQL Server</td>
 <td>
+<p>2022 (starting Campaign v7.4)</p>
 <p>2019</p>
 <p>2017</p>
 <p>2016</p>
@@ -364,32 +371,36 @@ Microsoft Edge WebView2 runtime latest version is mandatory for Campaign client 
 
 Download Microsoft Edge WebView2 from [Microsoft Developer site](https://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
-<!--
+
 ## Mobile SDK{#MobileSDK}
 
-You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md) on the operating systems listed below, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). 
+You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md), via the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. 
 
-You can also use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. 
+The Campaign SDK is [deprecated](deprecated-features.md) starting Campaign v7.4. To ensure a smooth transition for existing implementation to the AEP Mobile SDK, you can still use it on the operating systems listed below<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->. 
+
 
 <table>
 <tbody>
 <tr>
 <td>Google Android</td>
 <td>
-<p>12 (starting Campaign v7.3), 9.0, 8.x, 7.x</p>
-<p>with mobile SDK build 1.1.1</p>
+<p>7 - 14</p>
+<p>Android 13 and 14 are supported starting Campaign v7.4.</p>
+<p>Android 12 is supported starting Campaign v7.3.</p>
+<p>with mobile SDK build 1.1.1.</p>
 </td>
 </tr>
 <tr>
 <td>Apple iOS</td>
 <td>
-<p>iOS 9 - 15</p>
-<p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions. iOS 15 is supported starting Campaign v7.3</p>
+<p>iOS 9 - 17</p>
+<p>with mobile SDK build 1.0.26.</p>
+<p>Apple iOS 15 is supported starting Campaign v7.3. </p>
+<p>Apple iOS 16 and 17 are supported starting Campaign v7.4.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ## Browsers{#Browsers}
 

@@ -27,11 +27,22 @@ _June 18, 2024_
 
 ### Compatibility updates {#release-7-4-1-compat}
 
-* Adobe Campaign Classic is now compatible with Microsoft Server 2022.
+The [compatibility matrix for Campaign Classic](compatibility-matrix.md) has been updated with changes coming with this new release, and listed below.
+
+* Adobe Campaign is now compatible with **Microsoft Server 2022** as an operating system.
+
+* Adobe Campaign is now compatible with **Microsoft SQL Server 2022**, **Oracle 23c**, **PostgreSQL 15 and 16** as a Relation Database Management Systems.
+
+* You can now connect in Federated Data Access (FDA) to ***Microsoft SQL Server 2022** and **Oracle 23c**.
+
 
 * The Campaign (Neolane) SDK for mobile applications is now deprecated. You must now transition to Adobe Experience Platform SDK. [Learn more](deprecated-features.md).
     
-    In the meantime, to ensure service continuity, Campaign v7.4 comes with a new Campaign SDK 1.0.27 for iOS,  compatible with the latest iOS Privacy Request requirements. Learn more in [Apple Developer documentation](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
+    In the meantime, to ensure service continuity, Campaign v7.4 comes with:
+    
+    * a new Campaign SDK 1.0.27 for iOS, compatible with iOS 16 and 17, and the latest [Apple iOS Privacy Request requirements](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
+    * a new Campaign SDK for Android 14.
+
 
 
 ### Patches {#release-7-4-1-patches}
