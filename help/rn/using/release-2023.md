@@ -24,6 +24,10 @@ _December 5, 2023_
 
 * Now, when a web form has the **Pending publication** status, it does not become automatically live. To prevent security issues, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 
+### Other enhancements {#release-7-3-5-other}
+
+Starting this release, tracking links on emails that have already been sent will still work during the upgrade. [Read more](../../platform/using/faq-build-upgrade.md)
+
 ### Patches {#release-7-3-5-patches}
 
 * Fixed an issue when using data from a Google Big Query database and updating data in an Oracle database: all keys were set to `0` in the workflow temporary table. (NEO-65091)
@@ -125,12 +129,12 @@ _March 20, 2023_
 * To optimize security, Tomcat has been updated from version 8.5.81 to 8.5.85. (NEO-56936)
 
 
-
 ### Improvements {#release-7-3-3-improvements}
 
 * The Billing workflow has been improved to optimize performance. (NEO-47658)
 * The tracking workflow has been improved to optimize performance in case of high delivery size. (NEO-45064)
 * Tracking management has been improved to fix possible issues with dynamic parameters in URLs. Tracking management v3 now handles ajax type URLs (with parameters after a '#') and prevents third-party tools from modifying tracking URLs. To apply this change, you need to contact Adobe. (NEO-46535)
+* Starting this release, tracking links on emails that have already been sent will still work during the upgrade. [Read more](../../platform/using/faq-build-upgrade.md)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
@@ -172,6 +176,8 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 * The Google BigQuery connector now fully supports boolean fields. (NEO-49181)
 * You can now configure the IMS cookies validity duration in the `Configuration for the redirection service` section of the serverConf.xml file. This applies to the following cookies: `uuid230`, `nllastdelid` and `AMCV_` (NEO-42541)
 * The IP can now be hidden in the "/r/test" request by setting `showSourceIP` to false in the redirection node of the serverConf.xml file. [Read more](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+* Starting this release, tracking links on emails that have already been sent will still work during the upgrade. [Read more](../../platform/using/faq-build-upgrade.md)
+
 
 ### Deprecated features  {#release-7-3-2-deprecated}
 
