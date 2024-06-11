@@ -823,6 +823,7 @@ type: Documentation
   + Upgrade to IMS{#ims}
     + [Migrate users to IMS](technotes/using/migrate-users-to-ims.md)
     + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)
+    + [Interface impact after IMS migration](technotes/using/impact-ims-migration.md)
   + Upgrades and compatibility{#technote-migration}
        + [Technotes](technotes/using/technote.md)
        + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       

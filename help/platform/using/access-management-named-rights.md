@@ -10,7 +10,9 @@ exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 ---
 # Use named rights to set up permissions{#named-rights}
 
- 
+>[!NOTE]
+>
+>This page only applies for operators connecting to Campaign with native authentication. For Adobe IMS authentication, refer to [this documentation](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html).
 
 By default, Adobe Campaign proposes a set of named rights that let you define the authorizations assigned to operators and groups of operators. These rights can be edited from the **[!UICONTROL Administration > Access management > Named rights]** node of the tree. 
 
