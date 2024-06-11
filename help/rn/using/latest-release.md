@@ -16,7 +16,14 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
 
-_June 19, 2024_
+_June 18, 2024_
+
+### Changes and improvements {#release-7-4-1-changes}
+
+* If you are using Adobe Identity Management Service (IMS) to connect to Adobe Campaign, you can now deactivate options which are specific to native authentication. 
+
+* With the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth before January 27, 2025.
+
 
 ### Compatibility updates {#release-7-4-1-compat}
 
@@ -27,6 +34,7 @@ _June 19, 2024_
     In the meantime, to ensure service continuity, Campaign v7.4 comes with a new Campaign SDK 1.0.27 for iOS,  compatible with the latest iOS Privacy Request requirements. Learn more in [Apple Developer documentation](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
 
 
-### Security enhancements {#release-7-4-1-security}
-
 ### Patches {#release-7-4-1-patches}
+
+NEO-74754, NEO-73174, NEO-72504, NEO-71534, NEO-71473, NEO-70195, NEO-69663, NEO-69651, NEO-67620, NEO-67235, NEO-66797, NEO-64680, NEO-63706, NEO-63657, NEO-62964, NEO-62575, NEO-58734, NEO-40531, NEO-36189, NEO-29592 
+
