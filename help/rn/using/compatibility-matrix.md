@@ -79,13 +79,13 @@ As an on-premise / hybrid customer, depending on your operating system, you must
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>10.0 on Windows Server 2016 and 2019</p>
+<p>10.0 on Windows Server</p>
 </td>
 </tr>
 <tr>
 <td>Apache</td>
 <td>
-<p>2.4 for RHEL7 - CentOS 7, Debian 8/9, Windows</p>
+<p>2.4</p>
 </td>
 </tr>
 </tbody>
