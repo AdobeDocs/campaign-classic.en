@@ -277,9 +277,9 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td>
 <p>v7.4</p>
 <p>v7.0</p>
-<p></p>
-<p></p>
-<p></p>
+<p> </p>
+<p> </p>
+<p> </p>
 </td>
 </tr>
 <tr>
