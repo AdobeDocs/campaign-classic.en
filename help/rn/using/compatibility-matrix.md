@@ -249,7 +249,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>Amazon Redshift</td>
 <td><p>&nbsp;</p>
-<td>v7.0 19.1.4 minimum</td>
+<td>v7.0 19.1.4</td>
 </td>
 </tr>
 <tr>
@@ -391,7 +391,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <p>10</p>
 </td>
 <td>
-<p>v7.3 minimum</p>
+<p>v7.3</p>
 <p></p>
 <p></p>
 </tr>
