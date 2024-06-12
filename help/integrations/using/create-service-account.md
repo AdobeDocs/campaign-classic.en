@@ -13,7 +13,7 @@ Server-to-Server authentication credentials allow your application's server to g
 
 The Service Account (JWT) credential is being deprecated by Adobe, Campaign integrations with Adobe solutions and apps must now rely on OAuth Server-to-Server credential.
 
-* If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025. In addition, the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024. A new Service Account (JWT) credential cannot be created or added to a project after this date.
+* If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025.
 
 * If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth. As the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024, you cannot create a new outbound integration relying on JWT after this date
 
@@ -52,7 +52,13 @@ The Service Account (JWT) credential is being deprecated by Adobe, Campaign inte
    * **[!UICONTROL Technical account ID]**
    * **[!UICONTROL Organization ID]**
 
-1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
+## Add Oauth project credentials in Adobe Campaign {#add-credentials}
+
+Follow the steps below to add your OAuth project credentials in Adobe Campaign:
+
+1. Login via SSH to each container where the Adobe Campaign instance is installed.
+
+1. Add your OAuth project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
 
     ```
     nlserver config -instance:<instance_name> -setimsoauth:ims-org-id/client-id/technical-account-id/client-secret
