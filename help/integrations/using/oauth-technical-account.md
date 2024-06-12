@@ -5,7 +5,7 @@ description: Learn more on how to create API account
 role: User, Admin
 level: Beginner
 ---
-# Oauth Server-to-Server technical account {#create-service-account}
+# Manage Oauth Server-to-Server technical account {#create-service-account}
 
 Server-to-Server authentication credentials allow your application's server to generate access tokens and make API calls on behalf of your application itself. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
 
@@ -13,11 +13,11 @@ Server-to-Server authentication credentials allow your application's server to g
 
 The Service Account (JWT) credential is being deprecated by Adobe, Campaign integrations with Adobe solutions and apps must now rely on OAuth Server-to-Server credential.
 
-* If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025.
+If you have implemented inbound or outbound integrations with Campaign, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025.
 
-* If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth. As the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024, you cannot create a new outbound integration relying on JWT after this date
+Once migration is done, you must associate your new credential to Campaign as explained in [this section](#add-credentials).
 
-## Create new Oauth service account for new integrations {#oauth-service}
+## Create new Oauth technical account for new integrations {#oauth-service}
 
 1. Access Adobe Developer console and log in as **System Administrator** of your Organization.
    

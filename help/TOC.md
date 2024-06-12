@@ -102,10 +102,6 @@ type: Documentation
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
-       + Adobe Analytics Connector{#analytics-connector}
-          + [Get started with Adobe Analytics Connector](platform/using/gs-aa.md)
-          + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
-          + [How to migrate to Adobe Analytics Connector](technotes/using/aa-connector-migration.md)
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
   + [Get started with messages](delivery/using/communication-channels.md)
@@ -351,6 +347,7 @@ type: Documentation
   + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [Manage Oauth Server-to-Server technical account](integrations/using/create-service-account.md)
   + Audience sharing {#audience-sharing}
        + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -386,6 +383,9 @@ type: Documentation
        + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
        + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
        + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
+  + Adobe Analytics Connector{#analytics-connector}
+          + [Get started with Adobe Analytics Connector](platform/using/gs-aa.md)
+          + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
 + Automate with workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)

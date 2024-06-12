@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Configuring Adobe I/O for Adobe Experience Cloud Triggers
-description: Learn how to configure Adobe I/O for Adobe Experience Cloud Triggers
+title: Configuring Developer Console for Adobe Experience Cloud Triggers
+description: Learn how to configure Developer Console Adobe Experience Cloud Triggers
 feature: Triggers
 audience: integrations
 content-type: reference
@@ -10,125 +10,47 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 ---
-# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
+# Configuring Developer Console for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
+<!--
 >[!CAUTION]
 >
 >If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. 
 >Note that during this move to [!DNL Adobe I/O], some incoming triggers may be lost.
 >
 >Legacy oAuth authentication mode with Campaign has been retired on **October 20, 2021**. Hosted environments benefit from an extension until **May 25, 2022**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to **May 2022**. You must [provide the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md#step-optional) to Adobe.
+-->
 
 ## Prerequisites {#adobe-io-prerequisites}
-
+<!--
 This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1.8 and Gold Standard 11 releases**.
-
+-->
 Before starting this implementation, please check you have:
 
 * a valid **Organization identifier**: the Organization ID is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO). [Learn more](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)
 * a **Developer access** to your Organization. The System administrator of the organization needs to follow the **Add developers to a single product profile** procedure detailed [in this page](https://helpx.adobe.com/enterprise/using/manage-developers.html) to provide developer access for the `Analytics - {tenantID}` Product Profile of the Adobe Analytics Product associated with Triggers.
 
-## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
+## Step 1: Create/update Oauth project {#creating-adobe-io-project}
 
 >[!AVAILABILITY]
 >
 > The Service Account (JWT) credential is being deprecated by Adobe, Campaign integrations with Adobe solutions and apps must now rely on OAuth Server-to-Server credential. </br>
 >
-> * If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025. In addition, the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024. A new Service Account (JWT) credential cannot be created or added to a project after this date. </br>
+> * If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025.</br>
 >
-> * If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth. As the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024, you cannot create a new outbound integration relying on JWT after this date
+> * If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth. 
 
-1. Access [!DNL Adobe I/O] and log in with the Developer access of your Organization. Make sure you are logged into the correct Organization portal.
+To proceed with configuring your Adobe Analytics connector, access the Adobe Developer console and create your OAuth Server-to-Server project.
 
-1. Extract existing integration Client identifier (Client ID) from the instance configuration file ims/authIMSTAClientId. Non-existing or empty attribute indicates Client identifier is not configured.
-
-    >[!NOTE]
-    >
-    >If your Client identifier is empty, you can directly **[!UICONTROL Create a New project]** in Adobe I/O.
-
-1. Identify the existing project using the extracted client identifier. Look for existing projects with the same Client identifier as the one extracted in previous step.
-
-    ![](assets/do-not-localize/adobe_io_8.png)
-
-1. Select **[!UICONTROL + Add to Project]** and choose **[!UICONTROL API]**.
-
-    ![](assets/do-not-localize/adobe_io_1.png)
-
-1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Analytics]**.
-
-    ![](assets/do-not-localize/adobe_io_2.png)
-
-1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.
-
-    ![](assets/do-not-localize/adobe_io_3.png)
-
-1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a public and private key pair.
-
-    The keys will then be automatically downloaded with a default expiry date of 365 days. Once expired, you will need to create a new key pair and update the integration in the configuration file. Using the Option 2, you can choose to manually create and upload your **[!UICONTROL Public key]** with a longer expiry date.
-
-    For a step-by-step guide on how to replace expiring certificate key pairs, refer to [this page](https://developer.adobe.com/developer-console/docs/guides/email-alerts/cert-expiry/#a-step-by-step-guide-to-replacing-expiring-certificate-key-pairs).
-
-
-    >[!CAUTION]
-    >
-    >You should save the config.zip file when the download prompt comes up since you will not be able to download it again.
-
-    ![](assets/do-not-localize/adobe_io_4.png)
-
-1. Click **[!UICONTROL Next]**.
-
-    ![](assets/do-not-localize/adobe_io_5.png)
-
-1. Choose any existing **[!UICONTROL Product profile]** or create a new one if needed. No permission is required for this **[!UICONTROL Product profile]**. For more information on [!DNL Analytics] **[!UICONTROL Product Profiles]**, refer to [Adobe Analytics documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
-    
-    Then, click **[!UICONTROL Save configured API]**. 
-
-    ![](assets/do-not-localize/adobe_io_6.png)
-
-1. From your project, select **[!UICONTROL Adobe Analytics]** and copy the following information under **[!UICONTROL Service Account (JWT)]**:
-
-    * **[!UICONTROL Client ID]**
-    * **[!UICONTROL Client Secret]**
-    * **[!UICONTROL Technical account ID]**
-    * **[!UICONTROL Organization ID]**
-
-    ![](assets/do-not-localize/adobe_io_7.png)
-
->[!CAUTION]
->
->Adobe I/O certificate will expire after 12 months. You need to generate a new key pair every year.
+Refer to [this page](oauth-technical-account.md#oauth-service) for the detailed documentation.
 
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 
->[!NOTE]
->
->This step is not required if your Client identifier was not empty in [Step 1: Create/update Adobe I/O Project](#creating-adobe-io-project).
-
-The private key should be encoded in base64 UTF-8 format. To do so:
-
-1. Use the private key generated in the [Step 1: Create/update Adobe I/O Project section](#creating-adobe-io-project). The private key needs to be the same as the one used to create the integration.
-
-1. Encode the private key using the following command: `base64 ./private.key > private.key.base64`. This will save the base64 content to a new file `private.key.base64`.
-
-    >[!NOTE]
-    >
-    >Extra lines can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
-
-1. Copy the contents from the file `private.key.base64`.
-
-1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
-
-    ```
-    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
-    ```
+Follow the steps detailed in [this page](oauth-technical-account.md#add-credentials) to add your OAuth project credentials in Adobe Campaign.
 
 ## Step 3: Update pipelined tag {#update-pipelined-tag}
 
->[!NOTE]
->
->This step is not required if your Client identifier was not empty in [Step 1: Create/update Adobe I/O Project](#creating-adobe-io-project).
-
-To update [!DNL pipelined] tag, you need to update the authentication type to Adobe I/O project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
+To update [!DNL pipelined] tag, you need to update the authentication type to the Developer console project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />
