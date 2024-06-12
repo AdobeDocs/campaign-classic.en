@@ -347,7 +347,7 @@ type: Documentation
   + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
-  + [Manage Oauth Server-to-Server technical account](integrations/using/create-service-account.md)
+  + [Manage Oauth Server-to-Server technical account](integrations/using/oauth-technical-account.md)
   + Audience sharing {#audience-sharing}
        + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -384,8 +384,8 @@ type: Documentation
        + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
        + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
   + Adobe Analytics Connector{#analytics-connector}
-          + [Get started with Adobe Analytics Connector](platform/using/gs-aa.md)
-          + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
+       + [Get started with Adobe Analytics Connector](platform/using/gs-aa.md)
+       + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
 + Automate with workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
