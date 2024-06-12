@@ -78,6 +78,32 @@ A sample rendering is displayed in the lower part of the properties window. The 
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
 
+## Logo in the form {#logo-in-the-form}
+
+You can change the logo used in the form by your own logo.
+
+In the **[!UICONTROL Rendering]** tab inside the **[!UICONTROL Properties]** of your web app, click on the glass icon of your template : 
+
+![](assets/logo_glass.png)
+
+In the new window, click on the **[!UICONTROL Page layout]** link :
+
+![](assets/logo_pagelayout.png)
+
+You will have the possibility to change the path of the logo image here : 
+
+![](assets/logo_path.png)
+
+The images available are under **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**. You can add your logo here.
+
+These images are placed in the back-end directory of the instance *datakit\nms\fra\img\activities* or *datakit\nms\eng\img\activities* (eng or fra, depending on the language of the instance).
+
+To have a new image available in this directory (and in Images), contact Adobe support to make changes to the backend directories.
+
+For on-premises instances, you can add images to the datakit yourself.
+
+The uploaded image doesn't have to be visible from the Campaign Client. The correct path is enough to use as a new logo.
+
 ## Texts in the form {#texts-in-the-form}
 
 The **[!UICONTROL Page]** tab lets you define the content of the form header and footer. See [Defining headers and footers](form-rendering.md#defining-headers-and-footers).
