@@ -242,7 +242,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <tbody>
 <td><strong>Database system</strong></td>
 <td><strong>Database version</strong></td>
-<td><strong>Campaign version</strong></td>
+<td><strong>Minimum Campaign version</strong></td>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td>&nbsp;</td>
@@ -338,7 +338,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <tbody>
 <td><strong>System</strong></td>
 <td><strong>OS version</strong></td>
-<td><strong>Campaign version</strong></td>
+<td><strong>Minium Campaign version</strong></td>
 <tr>
 <td>Microsoft Windows</td>
 <td>
