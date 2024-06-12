@@ -1,0 +1,61 @@
+---
+product: campaign
+title: Create API account
+description: Learn more on how to create API account
+role: User, Admin
+level: Beginner
+---
+# Oauth Server-to-Server technical account {#create-service-account}
+
+Server-to-Server authentication credentials allow your application's server to generate access tokens and make API calls on behalf of your application itself. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
+
+## Migrate existing integrations {#migrate-jwt}
+
+The Service Account (JWT) credential is being deprecated by Adobe, Campaign integrations with Adobe solutions and apps must now rely on OAuth Server-to-Server credential.
+
+* If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025. In addition, the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024. A new Service Account (JWT) credential cannot be created or added to a project after this date.
+
+* If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth. As the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024, you cannot create a new outbound integration relying on JWT after this date
+
+## Create new Oauth service account for new integrations {#oauth-service}
+
+1. Access Adobe Developer console and log in as **System Administrator** of your Organization.
+   
+   For more information on Admin roles, refer to this [page](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+   
+1. Click **[!UICONTROL Create a new project]**.
+
+    ![](assets/api-account-1.png)
+
+1. Click **[!UICONTROL Add to Project]** and select **[!UICONTROL API]**.
+
+    ![](assets/api-account-2.png)
+
+1. Select the product you want to integrate with Campaign and click **[!UICONTROL Next]**.
+
+1. Choose **[!UICONTROL OAuth Server-to-Server]** as authentication type and click **[!UICONTROL Next]**.
+
+    ![](assets/api-account-3.png)
+
+1. Select the **[!UICONTROL Product profile]** link to your project. 
+
+    You can create a new one if needed. [Learn more](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
+
+1. Then, click **[!UICONTROL Save Configured API]**.
+
+    ![](assets/api-account-4.png)
+
+1. From your project, under Credential select [!DNL OAuth Server-to-Server] and copy the following information:
+
+   * **[!UICONTROL Client ID]**
+   * **[!UICONTROL Client secret]**
+   * **[!UICONTROL Technical account ID]**
+   * **[!UICONTROL Organization ID]**
+
+1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
+
+    ```
+    nlserver config -instance:<instance_name> -setimsoauth:ims-org-id/client-id/technical-account-id/client-secret
+    ```
+
+

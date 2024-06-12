@@ -24,7 +24,7 @@ The administration of operators will be centralized in the Admin Console, and th
 
 After the migration, the following tasks will no longer be available:
 
-* Using the [Merge Selected lines option](../../platform/using/updating-data.md#merge-data) to merge two recipient profiles.
+* Using the [Merge Selected lines option](../../platform/using/updating-data.md#merge-data) to merge two operators.
 
 * Updating the following fields for your operators:
     * Name
