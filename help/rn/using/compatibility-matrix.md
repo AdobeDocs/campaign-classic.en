@@ -211,7 +211,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>Google BigQuery</td>
 <td>&nbsp;</td>
-<td>7.2 minimum</td>
+<td>7.2</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -221,17 +221,17 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <p>12.x</p>
 <p>11.x</p>
 </td>
-<td>v7.0 19.1.4 minimum</td>
+<td>v7.0 19.1.4</td>
 </tr>
 <tr>
 <td>Snowflake</td>
 <td>&nbsp;</td>
-<td>7.2 minimum</td>
+<td>7.2</td>
 </tr>
 <tr>
 <td>Vertica Analytics</td>
 <td>&nbsp;</td>
-<td>v7.0 19.1.4 minimum</td>
+<td>v7.0 19.1.4 </td>
 </tr>
 </tbody>
 </table>
@@ -246,7 +246,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td>&nbsp;</td>
-<td>v7.0 19.1.4 minimum</td>
+<td>v7.0 19.1.4</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
@@ -254,8 +254,8 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>5.7</p>
 </td>
 <td>
-<p>v7.3 minimum</p>
-<p>v7.0 minimum</p>
+<p>v7.3</p>
+<p>v7.0</p>
 </td>
 </tr>
 <tr>
@@ -263,19 +263,20 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td>
 <p>7.2</p>
 </td>
-<td>v7.0 minimum</td>
+<td>v7.0</td>
 </tr>
 <tr>
 <td>Oracle</td>
 <td>
-<p>23c (starting Campaign v7.4)</p>
+<p>23c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g</p>
 </td>
 <td>
-<p>v7.0 minimum</p>
+<p>v7.4</p>
+<p>v7.0</p>
 <p></p>
 <p></p>
 <p></p>
