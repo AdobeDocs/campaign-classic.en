@@ -31,9 +31,7 @@ The [compatibility matrix for Adobe Campaign](compatibility-matrix.md) has been 
 
 * Adobe Campaign is now compatible with **Microsoft Server 2022** and **RHEL 9** as operating systems.
 
-* Adobe Campaign is now compatible with **Microsoft SQL Server 2022**, **Oracle 23c**, **PostgreSQL 15 and 16** as a Relation Database Management Systems.
-
-* You can now connect in Federated Data Access (FDA) to **Microsoft SQL Server 2022** and **Oracle 23c**.
+* Adobe Campaign is now compatible with **Microsoft SQL Server 2022** and **Oracle 23c** as a Relation Database Management Systems, and in Federated Data Access (FDA).
 
 * The Campaign (Neolane) SDK for mobile applications is now deprecated. You must now transition to Adobe Experience Platform SDK. [Learn more](deprecated-features.md).
     
