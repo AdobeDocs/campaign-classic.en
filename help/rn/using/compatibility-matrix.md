@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 ---
-# Compatibility matrix{#compatibility-matrix}
+# Compatibility matrix {#compatibility-matrix}
 
 
 
@@ -15,7 +15,7 @@ This document lists all systems and components supported for [the latest build](
 
 If you are a [!DNL Gold Standard] user, refer to the [[!DNL Gold Standard] Compatibility matrix](../../rn/using/gold-standard.md#compatibility-matrix-gs).
 
-## Important notes{#important-notes}
+## Important notes {#important-notes}
 
 Unless mentioned otherwise, all minor releases are supported.
 
@@ -141,7 +141,7 @@ As an on-premise / hybrid customer, you must install and configure the tools lis
 </tbody>
 </table>
 
-## Relation Database Management Systems (RDBMS){#RDBMSservers}
+## Relation Database Management Systems (RDBMS) {#RDBMSservers}
 
 As an on-premise / hybrid customer, you must install and configure one of the databases listed below. [Learn more](../../installation/using/creating-and-configuring-the-database.md).
 
@@ -177,7 +177,6 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 <td>
 <p>v7.4</p>
@@ -196,7 +195,6 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
-<p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers" target="_blank">Learn more</a>.</p>
 </td>
 <td>
 <p>v7.4</p>
@@ -211,11 +209,16 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 
 >[!NOTE]
 >
->* RDBMS driver must match with RDBMS server version.
+>* The RDBMS driver must match with the RDBMS server version.
+>
+>* Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. [Learn more](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).
+>
+>* You can also use Amazon RDS for PostgreSQL with the versions specified above.
 >
 >* PostgreSQL is the RDBMS for Hosted/Managed Cloud Services environments.
 
-## CRM connectors{#CRMconnectors}
+
+## CRM connectors {#CRMconnectors}
 
 Customer Relationship Management (CRM) systems compatible with Adobe Campaign are listed below. [Learn more](../../platform/using/crm-connectors.md) about Campaign CRM connectors.
 
@@ -374,7 +377,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 
 
 
-## Client Console {#ClientConsoleoperatingsystems}
+## Client Console {#ClientOS}
 
 The following operating systems and browser are **required** to use [Campaign Client Console](../../installation/using/installing-the-client-console.md). 
 
@@ -410,14 +413,14 @@ The following operating systems and browser are **required** to use [Campaign Cl
 </tbody>
 </table>
 
-### Microsoft WebView2 runtime
+### Microsoft WebView2 runtime {#webview}
 
 Microsoft Edge WebView2 runtime latest version is mandatory for Campaign client console. 
 
 Download Microsoft Edge WebView2 from [Microsoft Developer site](https://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
 
-## Mobile SDK{#MobileSDK}
+## Mobile SDK {#MobileSDK}
 
 You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md), via the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. 
 
@@ -447,7 +450,7 @@ The Campaign SDK is [deprecated](deprecated-features.md) starting Campaign v7.4.
 </tbody>
 </table>
 
-## Browsers{#Browsers}
+## Browsers {#Browsers}
 
 The following browsers, in their latest version, are compatible with Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
@@ -458,10 +461,10 @@ The following browsers, in their latest version, are compatible with Campaign fo
 
 
 
-## More like this {#Morelikethis}
-
-* [Campaign Classic Release notes](../../rn/using/latest-release.md)
-* [Campaign General Architecture](../../installation/using/general-architecture.md)
-* [Hardware sizing recommendations](../../technotes/using/hardware-sizing.md)
-* [Deprecated features and systems](../../rn/using/deprecated-features.md)
-* [Build upgrade procedure](../../production/using/build-upgrade.md)
+>[!MORELIKETHIS]
+>
+>* [Campaign Classic Release notes](../../rn/using/latest-release.md)
+>* [Campaign General Architecture](../../installation/using/general-architecture.md)
+>* [Hardware sizing recommendations](../../technotes/using/hardware-sizing.md)
+>* [Deprecated features and systems](../../rn/using/deprecated-features.md)
+>* [Build upgrade procedure](../../production/using/build-upgrade.md)
