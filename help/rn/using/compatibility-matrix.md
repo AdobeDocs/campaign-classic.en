@@ -201,7 +201,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tbody>
 <td><strong>Database system</strong></td>
 <td><strong>Database version</strong></td>
-<td><strong>Campaign version</strong></td>
+<td><strong>Minimum Campaign version</strong></td>
 <tr>
 <td>Amazon Redshift</td>
 <td><p>&nbsp;</p>
@@ -211,7 +211,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>Google BigQuery</td>
 <td>&nbsp;</td>
-<td>7.2</td>
+<td>v7.2</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -261,7 +261,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <tr>
 <td>Netezza</td>
 <td>
-<p>7.2</p>
+<p>v7.2</p>
 </td>
 <td></td>
 </tr>
