@@ -71,7 +71,7 @@ This section lists features and capabilities that have been removed from Campaig
       <tr>
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>The Adobe Analytics Data Connector has been removed on August 17,2022. It had been deprecated with Campaign 21.1.3 release.</p>
-   <p>If you are using this connector, you need to adapt your implementation accordingly. <a href="../../platform/using/gs-aa.md">Learn more</a></p>
+   <p>If you are using this connector, you need to adapt your implementation accordingly. <a href="../../integrations/using/gs-aa.md">Learn more</a></p>
   </td>
  </tr>
     <tr>

@@ -66,7 +66,7 @@ For more information on Product profiles, refer to the [Admin console documentat
 
 1. For the **[!UICONTROL Report Suites]** capability, add the **[!UICONTROL Report Suites]** you need to use later on.
       
-      If you don't have any report suites, you can create it following [these steps](../../platform/using/gs-aa.md).
+      If you don't have any report suites, you can create it following [these steps](../../integrations/using/gs-aa.md).
 
     ![](assets/do-not-localize/triggers_4.png)
 

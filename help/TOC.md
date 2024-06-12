@@ -384,8 +384,8 @@ type: Documentation
        + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
        + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
   + Adobe Analytics Connector{#analytics-connector}
-       + [Get started with Adobe Analytics Connector](platform/using/gs-aa.md)
-       + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
+       + [Get started with Adobe Analytics Connector](integrations/using/gs-aa.md)
+       + [Adobe Analytics Connector provisioning](integrations/using/adobe-analytics-provisioning.md)
 + Automate with workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)

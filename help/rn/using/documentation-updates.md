@@ -145,7 +145,7 @@ Added a limitation about Incoming SMS (MO). [Read more](../../delivery/using/sms
 
 Updated the migration process logs details for CRM connector deployment. [Read more](../../migration/using/testing-the-migration.md#verification-process)
 
-Added requirements about IMS permissions to implement Adobe Campaign-Adobe Analytics integration. [Read more](../../platform/using/adobe-analytics-provisioning.md)
+Added requirements about IMS permissions to implement Adobe Campaign-Adobe Analytics integration. [Read more](../../integrations/using/adobe-analytics-provisioning.md)
 
 Updated Adobe Analytics Data Connector End-of-Life date from March 1, 2022 to August 17, 2022. [Read more](deprecated-features.md)
 

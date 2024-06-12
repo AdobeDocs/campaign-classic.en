@@ -9,7 +9,7 @@ feature: Workflows, Analytics Integration
 
 
 
-The workflows detailed below are installed with the **Web Analytics connectors** module by default. For more on this module, refer to this [section](../../platform/using/gs-aa.md).
+The workflows detailed below are installed with the **Web Analytics connectors** module by default. For more on this module, refer to this [section](../../integrations/using/gs-aa.md).
 
 <table> 
  <tbody> 
