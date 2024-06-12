@@ -68,7 +68,7 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 
 >[!IMPORTANT]
 >
->If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.
+>If you are using RHEL, you must be willing to disable [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.
 
 ## Web Servers {#WebServers}
 
