@@ -81,7 +81,7 @@ In Debian, add the command:
 aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 ```
 
-In Redhat, use the following command for RHEL:
+Use the following command for RHEL:
 
 ```
 dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
@@ -97,7 +97,7 @@ In Debian, add the command:
 aptitude install fonts-ipafont
 ```
 
-In Red Hat, for RHEL, add the following command:
+For RHEL, add the following command:
 
    ```
    dnf install epel-release # if required
