@@ -128,37 +128,62 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 
 <table>
 <tbody>
+<td><strong>Database system</strong></td>
+<td><strong>Database version</strong></td>
+<td><strong>Minimum Campaign version</strong></td>
 <tr>
 <td>Oracle</td>
 <td>
-<p>23c (starting Campaign v7.4)</p>
+<p>23c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g R2</p>
 </td>
+<td>
+<p>v7.4</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>16.x (starting Campaign v7.4)</p>
-<p>15.x (starting Campaign v7.4)</p>
-<p>14.x (starting Campaign v7.3.2)</p>
+<p>16.x</p>
+<p>15.x </p>
+<p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
 <p><strong>Note:</strong> you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
+<td>
+<p>v7.4</p>
+<p>v7.4</p>
+<p>v7.3.2</p>
+<p></p>
+<p></p>
+<p></p>
+</td>
 </tr>
 <tr>
 <td>Microsoft SQL Server</td>
 <td>
-<p>2022 (starting Campaign v7.4)</p>
+<p>2022</p>
 <p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
 <p><strong>Important:</strong> Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers" target="_blank">Learn more</a>.</p>
+</td>
+<td>
+<p>v7.4</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 </td>
 </tr>
 </tbody>
@@ -226,7 +251,7 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>Snowflake</td>
 <td>&nbsp;</td>
-<td>7.2</td>
+<td>v7.2</td>
 </tr>
 <tr>
 <td>Vertica Analytics</td>
