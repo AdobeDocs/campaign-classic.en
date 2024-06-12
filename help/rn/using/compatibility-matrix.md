@@ -246,7 +246,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td>&nbsp;</td>
-<td>v7.0 19.1.4</td>
+<td></td>
 </tr>
 <tr><td>MySQL</td>
 <td>
@@ -255,7 +255,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </td>
 <td>
 <p>v7.3</p>
-<p>v7.0</p>
+<p></p>
 </td>
 </tr>
 <tr>
@@ -263,7 +263,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td>
 <p>7.2</p>
 </td>
-<td>v7.0</td>
+<td></td>
 </tr>
 <tr>
 <td>Oracle</td>
@@ -276,10 +276,10 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </td>
 <td>
 <p>v7.4</p>
-<p>v7.0</p>
-<p>v7.0</p>
-<p>v7.0</p>
-<p>v7.0</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 </td>
 </tr>
 <tr>
@@ -287,7 +287,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td>
 <p>version 1 SPS 12</p>
 </td>
-<td>v7.0</td>
+<td></td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
@@ -298,7 +298,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>2014</p>
 <p>2012 SP1 and SP2</p>
 </td>
-<td>v7.0 minimum</td>
+<td></td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -306,7 +306,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>v7.0 minimum</td>
+<td></td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -314,7 +314,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>17.x</p>
 <p>16.x (last version)</p>
 </td>
-<td>v7.0 minimum</td>
+<td></td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -322,7 +322,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>v7.0 minimum</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -359,9 +359,8 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <p>2016</p>
 </td>
 <td>
-<p>v7.4.1 minimum</p>
-<p>v7.2.1 minimum</p>
-<p></p>
+<p>v7.4.1</p>
+<p>v7.2.1</p>
 <p></p>
 </tbody>
 </table>
