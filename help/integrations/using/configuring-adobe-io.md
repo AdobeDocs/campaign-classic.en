@@ -22,9 +22,11 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 -->
 
 ## Prerequisites {#adobe-io-prerequisites}
+
 <!--
 This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1.8 and Gold Standard 11 releases**.
 -->
+
 Before starting this implementation, please check you have:
 
 * a valid **Organization identifier**: the Organization ID is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO). [Learn more](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)
