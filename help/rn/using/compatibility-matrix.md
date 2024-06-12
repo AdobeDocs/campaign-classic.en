@@ -277,9 +277,9 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td>
 <p>v7.4</p>
 <p>v7.0</p>
-<p> </p>
-<p> </p>
-<p> </p>
+<p>v7.0</p>
+<p>v7.0</p>
+<p>v7.0</p>
 </td>
 </tr>
 <tr>
@@ -287,7 +287,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td>
 <p>version 1 SPS 12</p>
 </td>
-<td>v7.0 minimum</td>
+<td>v7.0</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
