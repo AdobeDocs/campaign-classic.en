@@ -1,23 +1,25 @@
 ---
 product: campaign
-title: Create API account
-description: Learn more on how to create API account
+title: Create and configure your Adobe technical account for APIs
+description: Learn more on how to create your Adobe API account
 role: User, Admin
 level: Beginner
 ---
-# Manage OAuth Server-to-Server technical account {#create-service-account}
+# Create your Adobe technical account {#create-service-account}
 
 Server-to-Server authentication credentials allow your application's server to generate access tokens and make API calls on behalf of your application itself. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
 
 ## Migrate existing integrations {#migrate-jwt}
 
-The Service Account (JWT) credential is being deprecated by Adobe, Campaign integrations with Adobe solutions and apps must now rely on OAuth Server-to-Server credential.
+The Service Account (JWT) credential is being deprecated by Adobe. Campaign integrations with Adobe solutions and apps must now rely on OAuth Server-to-Server credential.
 
-If you have implemented inbound or outbound integrations with Campaign, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025.
+If you have implemented inbound or outbound integrations with Campaign before June 2024, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**.
 
 Once migration is done, you must associate your new credential to Campaign as explained in [this section](#add-credentials).
 
 ## Create new OAuth technical account for new integrations {#oauth-service}
+
+To create your OAuth technical account for new integrations, follow these steps:
 
 1. Access Adobe Developer console and log in as **System Administrator** of your Organization.
    
@@ -63,5 +65,3 @@ Follow the steps below to add your OAuth project credentials in Adobe Campaign:
     ```
     nlserver config -instance:<instance_name> -setimsoauth:ims-org-id/client-id/technical-account-id/client-secret
     ```
-
-

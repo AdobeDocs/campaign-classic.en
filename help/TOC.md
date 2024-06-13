@@ -31,6 +31,7 @@ type: Documentation
        + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
        + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
        + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
+     + [Campaign connectors](platform/using/about-connectors.md)
      + Frequently Asked Questions {#faq}
        + [Top questions](platform/using/common-questions.md)
        + [Global concepts](platform/using/faq-key-concepts.md)
@@ -95,13 +96,11 @@ type: Documentation
   + Data packages and enumerations {#administration-basics}
        + [Data packages](platform/using/working-with-data-packages.md)
        + [Enumerations](platform/using/managing-enumerations.md)
-  + Connectors {#connectors}
-       + [About connectors](platform/using/about-connectors.md)
-       + CRM Connectors{#crm-connectors}
-          + [Get started with CRM Connectors](platform/using/crm-connectors.md)
-          + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-          + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
-          + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
+  + CRM connectors {#connectors}
+       + [Get started with CRM Connectors](platform/using/crm-connectors.md)
+       + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+       + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
+       + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
   + [Get started with messages](delivery/using/communication-channels.md)
@@ -346,8 +345,21 @@ type: Documentation
   + [Use case: create a referral form](surveys/using/use-case-creating-a-refer-a-friend-form.md)
   + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-  + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
-  + [Manage OAuth Server-to-Server technical account](integrations/using/oauth-technical-account.md)
+  + [Get started with Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [Create your Adobe technical account](integrations/using/oauth-technical-account.md)
+  + Adobe Experience Cloud Triggers {#experience-triggers}
+       + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Configure pipeline](integrations/using/configuring-pipeline.md)
+       + [Configure events for custom implementation](integrations/using/events.md)
+       + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
+       + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
+  + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
+       + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+       + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
+       + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
+  + Adobe Analytics Connector{#analytics-connector}
+       + [Get started with Adobe Analytics Connector](integrations/using/gs-aa.md)
+       + [Adobe Analytics Connector provisioning](integrations/using/adobe-analytics-provisioning.md)
   + Audience sharing {#audience-sharing}
        + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -372,19 +384,6 @@ type: Documentation
        + [Synchronize audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
-  + Adobe Experience Cloud Triggers {#experience-triggers}
-       + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
-       + [Configure pipeline](integrations/using/configuring-pipeline.md)
-       + [Configure events for custom implementation](integrations/using/events.md)
-       + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
-       + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
-  + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
-       + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
-       + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
-       + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
-  + Adobe Analytics Connector{#analytics-connector}
-       + [Get started with Adobe Analytics Connector](integrations/using/gs-aa.md)
-       + [Adobe Analytics Connector provisioning](integrations/using/adobe-analytics-provisioning.md)
 + Automate with workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
