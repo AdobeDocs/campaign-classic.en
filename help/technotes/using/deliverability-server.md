@@ -3,6 +3,8 @@ product: campaign
 title: Update to the new deliverability server
 description: Learn how to update to the new Campaign deliverability server
 feature: Technote, Deliverability
+hide: yes
+hidefromtoc: yes
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 ---
 # Update to the new deliverability server {#acc-deliverability}

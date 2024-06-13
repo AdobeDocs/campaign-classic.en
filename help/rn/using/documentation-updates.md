@@ -72,7 +72,7 @@ The migration guide has been updated. References to unsupported Adobe Campaign v
 
 ## July 2022 {#july-2022}
 
-Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)
+<!--Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)-->
 
 **Documentation updates coming with the 7.3.1 release**
 
