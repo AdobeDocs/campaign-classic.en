@@ -122,7 +122,7 @@ If the data you want to add is not in the targeting dimension, you can click on 
 
 ![](assets/persotab_addobjects.png){zoomable="yes"}
 
-You can select there the object schema you need, and you can add your Javascript code using those data, which will be executed during the analysis phase.
+You can select there the object schema that you need, then you can use those data inside your Javascript code, which will be executed during the delivery preparation.
 
 ![](assets/persotab_addobjects_articles.png){zoomable="yes"}
 
