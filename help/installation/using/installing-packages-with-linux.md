@@ -11,39 +11,33 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 ---
 # Installing packages with Linux{#installing-packages-with-linux}
 
-
-
-For a Linux 32 bit platform, install Adobe Campaign 32 bit. For a Linux 64 bit platform, install Adobe Campaign 64 bit.
-
-For each of these versions, Adobe Campaign comes with one package: **nlserver**. This package contains the binaries and configuration files for a given version.
+Adobe Campaign comes with the **nlserver** package which contains the binaries and configuration files for a given version.
 
 The installation commands enables you to:
 
 * Copy the files to **/usr/local/neolane**
 * Create an Adobe Campaign Linux account (and the associated group), which is created with **/usr/local/neolane** as its home directory
-* Create an automatic script **/etc/init.d/nlserver6** for use at startup, or create a systemd unit (starting 20.1).
+* Create an automatic script **/etc/init.d/nlserver6** for use at startup, or create a systemd unit
 
 >[!NOTE]
 >
 >The **neolane** system user must not have been created before the command was run. The **neolane** user is created automatically during installation.
 >
->The **home** directory linked to the **neolane** user is also created automatically in **[!UICONTROL /usr/local/neolane]**. Please make sure there is sufficient space on the **[!UICONTROL /usr/local]** disk (several GB).
+>The **home** directory linked to the **neolane** user is also created automatically in **[!UICONTROL /usr/local/neolane]**. Please make sure there is sufficient space on the **[!UICONTROL /usr/local]** disk.
 
 You can run the **ping `hostname`** command to make sure the server can reach itself.
 
 ## Distribution based on RPM packages {#distribution-based-on-rpm--packages}
 
-To install Adobe Campaign onto an RPM (RHEL, CentOS and SUSE) operating system, apply the following steps:
+To install Adobe Campaign onto an RPM (RHEL, CentOS and SUSE) operating system, follow these steps:
 
-1. You must first obtain the Adobe Campaign package.
-
-   The file is named as below, where **XXXX** is the Adobe Campaign build number: **nlserver6-v7-XXXX-0.x86_64.rpm**.
+1. Get the Adobe Campaign package. The name of the file is **nlserver6-v7-XXXX-0.x86_64.rpm**, where **XXXX** is the Adobe Campaign build number.
 
    >[!CAUTION]
    >
    >Make sure you use the correct file name for your version of Adobe Campaign in the command samples of this section.
 
-1. To install it, connect as **root** and execute the following command (where **XXXX** is the Adobe Campaign build number):
+1. To install it, connect as **root** and execute the following command, where **XXXX** is the Adobe Campaign build number:
 
    ```
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
@@ -55,7 +49,7 @@ To install Adobe Campaign onto an RPM (RHEL, CentOS and SUSE) operating system, 
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-The 'bc' command, necessary for executing the netreport (refer to [this section](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) for more information), is not available by default on all Linux distributions. To check whether the command is available, run the 'which bc' command. If not, you have to install it.
+The `bc` command, mandatory for executing the [netreport](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts), is not available by default on all Linux distributions. To check whether the command is available, run the `which bc` command. If not, you have to install it.
 
 With CentOS, you must install the bc.x86_64 package: connect as **root** and run the following command:
 
@@ -65,17 +59,15 @@ yum install bc.x86_64
 
 ## Distribution based on APT (Debian) {#distribution-based-on-apt--debian-}
 
-### In Debian 64 bits {#in-debian-64-bits}
+To install Adobe Campaign on a Debian 64 bit operating system, apply the following steps:
 
-To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the following steps:
-
-1. You must first obtain the Adobe Campaign package: **nlserver6-v7-XXXX-linux-2.6-amd64.deb**, where **XXXX** is the build number.
+1. Get the Adobe Campaign package. The name of the file is **nlserver6-v7-XXXX-linux-2.6-amd64.deb**, where **XXXX** is the Adobe Campaign build number.
 
    >[!CAUTION]
    >
    >Make sure you use the correct file name for your version of Adobe Campaign in the command samples of this section.
 
-1. To install it, connect as **root** and execute the following command (where **XXXX** is the Adobe Campaign build number):
+1. To install it, connect as **root** and execute the following command, where **XXXX** is the Adobe Campaign build number:
 
    ```
    dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
@@ -87,40 +79,31 @@ To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the 
    apt-get install -f
    ```
 
-**Debian 8/9 specifics**
 
-When installing Adobe Campaign on a Debian 8/9 operating system, consider the following:
+1. When installing Adobe Campaign on a Debian operating system, consider the following:
 
-* OpenSSL must be installed beforehand.
-* Install libicu52 (Debian 8) or libicu57 (Debian 9), libprotobuf9 (Debian8) and libc-ares2 with the following commands:
+  * OpenSSL must be installed beforehand.
+  * Install libicu and libc-aresYY, where XX is the version, with the following commands:
 
-  ```
-  aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
-  ```
+    ```
+    aptitude install libicuXX
+    ```
 
-  ```
-  aptitude install libc-ares2
-  ```
+    ```
+    aptitude install libc-aresXX
+    ```
 
-  ```
-  aptitude install libprotobuf9 (only Debian 8)
-  ```
-
-* Install JDK7 with the following command:
-
-  ```
-  aptitude install openjdk-7-jdk (Debian 8)
-  ```
-
-  ```
-  aptitude install openjdk-7-jdk (Debian 9)
-  ```
+    ```
+    aptitude install openjdk-XX-jdk
+    ```
 
 ## Personalizing parameters {#personalizing-parameters}
 
 Some parameters can be personalized via the **customer.sh** file
 
-If you are performing the installation for the first time, the **customer.sh** file might not yet exist on the server. Create it and make sure it has execution rights. If this is not the case, enter the following command:
+If you are performing the installation for the first time, the **customer.sh** file might not yet exist on the server. 
+
+Create it and make sure it has execution rights. If this is not the case, enter the following command:
 
 ```
 chmod +x /usr/local/neolane/nl6/customer.sh
@@ -130,11 +113,11 @@ chmod +x /usr/local/neolane/nl6/customer.sh
 
 By default, the server is started in an iso8859-15 environment. Nevertheless, the server can be started in an UTF-8 environment.
 
-   >[!CAUTION]
-   >
-   >This change impacts the interactions with the file system (files loaded via a workflow or a JavaScript script) and on the file encoding. We therefore recommend using the default environment.
+>[!CAUTION]
+>
+>This change impacts the interactions with the file system (files loaded via a workflow or a JavaScript script) and on the file encoding. We therefore recommend using the default environment.
 
-Nevertheless, for creating a **Japanese instance**, you must use a UTF-8 environment.
+To create a **Japanese instance**, you must use a UTF-8 environment.
 
 To enable the UTF-8 environment, use the following command:
 
@@ -160,7 +143,7 @@ and add the following line:
 export neolane_LANG=fra
 ```
 
-To ensure that system messages are correctly read, the consoles must be in a code page corresponding to the language (ISO-8859-1 or -15 for French).
+To ensure that system messages are correctly read, the client console must be in a code page corresponding to the language (ISO-8859-1 or -15 for French).
 
 ### Environment variables {#environment-variables}
 
@@ -206,15 +189,15 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 
 * For Java Development Kit (JDK):
 
-  By default, the configuration script of the Adobe Campaign environment (`~/nl6/env.sh`) searches for the JDK installation directory. Since this behavior is not 100% reliable, you need to specify which JDK needs to be used. To do this, you can force the **JDK_HOME** environment variable using the following command:
+  By default, the configuration script of the Adobe Campaign environment (`~/nl6/env.sh`) searches for the JDK installation directory. However, it is recommended to specify which JDK needs to be used. To do this, you can force the **JDK_HOME** environment variable using the following command:
 
   ```
-  export JDK_HOME=/usr/java/jdk1.6.0_07
+  export JDK_HOME=/usr/java/jdkX.Y.Z
   ```
 
   >[!NOTE]
   >
-  >This is an example. Make sure that the JDK version used matches the directory name.
+  >Make sure that the JDK version used matches the directory name.
 
   To test the JDK configuration, log in as the Adobe Campaign system user with the following command:
 
@@ -225,13 +208,6 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 You must restart the Adobe Campaign service in order for the changes to be taken into account.
 
 The commands are as follows:
-
-```
-/etc/init.d/nlserver6 stop
-/etc/init.d/nlserver6 start
-```
-
-Starting 20.1, we recommend using the following commands instead:
 
 ```
 systemctl stop nlserver
@@ -256,7 +232,7 @@ When using Oracle with Adobe Campaign, you need to configure the Oracle client l
 
 * Environment variables
 
-  Refer to [Environment variables](../../installation/using/installing-packages-with-linux.md#environment-variables).
+  Refer to [Environment variables](#environment-variables).
 
 * Configuration for Adobe Campaign
 
@@ -269,7 +245,7 @@ When using Oracle with Adobe Campaign, you need to configure the Oracle client l
   ln -s libclntsh.so.10.1 libclntsh.so
   ```
 
-If you encounter a problem, make sure the packages listed in the [Oracle installation documentation](https://docs.oracle.com/) are correctly installed.
+In case of an issue, make sure the packages listed in the Oracle installation documentation are correctly installed.
 
 ## Installation checks {#installation-checks}
 
