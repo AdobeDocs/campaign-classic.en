@@ -31,4 +31,26 @@ The [!DNL pipelined] process is always running on the Adobe Campaign marketing s
 
 The [!DNL pipelined] process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events.
 
-For more information on authentication, refer to this [page](../../integrations/using/configuring-adobe-io.md).
+## Prerequisites {#adobe-io-prerequisites}
+
+Before starting this implementation, please check you have:
+
+* a valid **Organization identifier**: the Organization ID is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO). [Learn more](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)
+* a **Developer access** to your Organization. The System administrator of the organization needs to follow the **Add developers to a single product profile** procedure detailed [in this page](https://helpx.adobe.com/enterprise/using/manage-developers.html) to provide developer access for the `Analytics - {tenantID}` Product Profile of the Adobe Analytics Product associated with Triggers.
+
+## Implementation steps {#implement}
+
+To implement Campaign and Experience Cloud Triggers, follow the steps below:
+
+1. Create an OAuth project. [Learn more](oauth-technical-account.md#oauth-service)
+
+1. Add your OAuth project credentials in Adobe Campaign. [Learn more](oauth-technical-account.md#add-credentials)
+
+1. Update the authentication type to the Developer console project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
+
+    ```
+    <pipelined ... authType="imsJwtToken"  ... />
+    ```
+
+    Then, run a `config -reload` and a restart of the [!DNL pipelined] for the changes to be taken into account.
+

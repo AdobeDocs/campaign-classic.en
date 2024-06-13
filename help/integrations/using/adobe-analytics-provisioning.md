@@ -34,7 +34,7 @@ For this integration to work, you have to create an Adobe Analytics product prof
 >
 > * If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025.</br>
 >
-> * If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth.
+> * If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to OAuth.
 
 ## Create an Adobe Analytics Product profile {#analytics-product-profile}
 
@@ -98,9 +98,9 @@ For more information on Product profiles, refer to the [Admin console documentat
    * **[!UICONTROL Calculated metric creation]**
    * **[!UICONTROL Segment creation]**
 
-Your Product profile is now configured. You then need to create the Oauth project.
+Your Product profile is now configured. You then need to create the OAuth project.
 
-## Create Oauth project {#create-adobe-io}
+## Create OAuth project {#create-adobe-io}
 
 To proceed with configuring your Adobe Analytics connector, access the Adobe Developer console and create your OAuth Server-to-Server project.
 

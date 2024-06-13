@@ -338,7 +338,7 @@ The Deprecated and removed features page has been updated. [Read more](../../rn/
 Release notes and Compatibility matrix for [!DNL Gold Standard] release are now available in a dedicated page.
 [Read more](../../rn/using/gold-standard.md).
 
-Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
+Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/about-triggers.md#implement)
 
 **Other updates**
 

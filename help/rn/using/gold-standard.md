@@ -52,7 +52,7 @@ The build 9032&#64;d030c36 includes the following fix:
 >
 > * If you are connecting to Campaign with your Adobe ID, through Adobe Identity Management Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/using/ims-updates.md)
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **September 2021**. Hosted environments benefit from an extension until  **February 23, 2022**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to february 2022. You must provide [the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md#step-optional) to Adobe.
+> * If you are using the Experience Cloud Triggers integration through OAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/about-triggers.md#implement). Legacy oAuth authentication mode with Campaign [has been retired](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) on **September 2021**. Hosted environments benefit from an extension until  **February 23, 2022**. As an on-premise or hybrid customer, contact Adobe Customer Care to extend support to february 2022. You must provide [the AppID of the OAuth application](../../integrations/using/configuring-pipeline.md#step-optional) to Adobe.
 >
 >Learn more in the [[!DNL Gold Standard] section](../../rn/using/gold-standard.md)
 
@@ -74,7 +74,7 @@ The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 
-* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-triggers.md#implement)
 
 * Following the [end of support for iOS APNs legacy binary protocol](https://developer.apple.com/news/?id=c88acm2b), all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
 

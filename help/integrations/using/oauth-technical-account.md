@@ -5,7 +5,7 @@ description: Learn more on how to create API account
 role: User, Admin
 level: Beginner
 ---
-# Manage Oauth Server-to-Server technical account {#create-service-account}
+# Manage OAuth Server-to-Server technical account {#create-service-account}
 
 Server-to-Server authentication credentials allow your application's server to generate access tokens and make API calls on behalf of your application itself. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
 
@@ -17,7 +17,7 @@ If you have implemented inbound or outbound integrations with Campaign, you must
 
 Once migration is done, you must associate your new credential to Campaign as explained in [this section](#add-credentials).
 
-## Create new Oauth technical account for new integrations {#oauth-service}
+## Create new OAuth technical account for new integrations {#oauth-service}
 
 1. Access Adobe Developer console and log in as **System Administrator** of your Organization.
    
@@ -52,7 +52,7 @@ Once migration is done, you must associate your new credential to Campaign as ex
    * **[!UICONTROL Technical account ID]**
    * **[!UICONTROL Organization ID]**
 
-## Add Oauth project credentials in Adobe Campaign {#add-credentials}
+## Add OAuth project credentials in Adobe Campaign {#add-credentials}
 
 Follow the steps below to add your OAuth project credentials in Adobe Campaign:
 

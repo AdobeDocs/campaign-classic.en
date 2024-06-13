@@ -9,6 +9,8 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
+hide: yes
+hidefromtoc: yes
 ---
 # Configuring Developer Console for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
@@ -32,7 +34,7 @@ Before starting this implementation, please check you have:
 * a valid **Organization identifier**: the Organization ID is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO). [Learn more](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)
 * a **Developer access** to your Organization. The System administrator of the organization needs to follow the **Add developers to a single product profile** procedure detailed [in this page](https://helpx.adobe.com/enterprise/using/manage-developers.html) to provide developer access for the `Analytics - {tenantID}` Product Profile of the Adobe Analytics Product associated with Triggers.
 
-## Step 1: Create/update Oauth project {#creating-adobe-io-project}
+## Step 1: Create/update OAuth project {#creating-adobe-io-project}
 
 >[!AVAILABILITY]
 >

@@ -63,7 +63,7 @@ The logs should be as follows:
 2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
 ```
 
-This error message means that the authentication is configured using the legacy Omniture base OAuth. Refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) documentation to upgrade your authentication.
+This error message means that the authentication is configured using the legacy Omniture base OAuth. Refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/about-triggers.md#implement) documentation to upgrade your authentication.
 
 **No triggers are retrieved**
 

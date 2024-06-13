@@ -117,11 +117,11 @@ Learn how to check your version [in this section](../../platform/using/launching
 
 **How to update?**
 
-Once the instances are upgraded to a newer version, all customers need to follow the [procedure move to the new authentication mode](../../integrations/using/configuring-adobe-io.md). This requires you to generate the new Adobe I/O token and use it in the implementation.    
+Once the instances are upgraded to a newer version, all customers need to follow the [procedure move to the new authentication mode](../../integrations/using/about-triggers.md#implement). This requires you to generate the new Adobe I/O token and use it in the implementation.    
 
 In addition, for hybrid environments, customers need to ensure that pipeline is configured on mid-sourcing instance. [Learn more](../../integrations/using/configuring-pipeline.md).
 
-[Learn how to migrate to Adobe I/O](../../integrations/using/configuring-adobe-io.md). 
+[Learn how to migrate to Adobe I/O](../../integrations/using/about-triggers.md#implement). 
 
 ## APNs updates {#acc-apns-updates}
 

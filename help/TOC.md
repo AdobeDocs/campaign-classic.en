@@ -347,7 +347,7 @@ type: Documentation
   + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
-  + [Manage Oauth Server-to-Server technical account](integrations/using/oauth-technical-account.md)
+  + [Manage OAuth Server-to-Server technical account](integrations/using/oauth-technical-account.md)
   + Audience sharing {#audience-sharing}
        + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -375,7 +375,6 @@ type: Documentation
   + Adobe Experience Cloud Triggers {#experience-triggers}
        + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
        + [Configure pipeline](integrations/using/configuring-pipeline.md)
-       + [Configure Adobe I/O for [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
        + [Configure events for custom implementation](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)

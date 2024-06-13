@@ -82,8 +82,8 @@ This section lists features and capabilities that have been removed from Campaig
  </tr>
   <tr>
   <td>OAuth Authentication (OAuth and JWT)<br></td>
-  <td><p> Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. This authentication mode had been deprecated with Campaign 20.3 release.<p>
-  <p>If you were using Triggers integration, learn how to adapt your implementation <a href="../../integrations/using/configuring-adobe-io.md">in this page</a>.</p> 
+  <td><p> Triggers integration authentication originally based on OAuth authentication setup to access pipeline has now been changed and moved to Adobe I/O. This authentication mode had been deprecated with Campaign 20.3 release.<p>
+  <p>If you were using Triggers integration, learn how to adapt your implementation <a href="../../integrations/using/about-triggers.md#implement">in this page</a>.</p> 
   <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>
