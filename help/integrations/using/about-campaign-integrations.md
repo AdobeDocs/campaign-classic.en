@@ -15,8 +15,6 @@ Adobe Experience Cloud is a comprehensive set of best-in-class, integrated solut
 
 Learn more about functional integrations available between Adobe Campaign and Adobe Experience Cloud solutions in [this page](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/integrations){_blank}. 
 
-   ![](assets/ExCloud-solutions.png)
-
 The full list of Adobe solutions and apps services which can be integrated with Adobe Campaign, as well as associated documentation, is available in [this section](#experience-cloud-integrations).
 
 >[!CAUTION]
