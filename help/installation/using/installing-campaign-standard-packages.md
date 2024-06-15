@@ -196,7 +196,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud Shared Audiences Integration<br /> </td> 
-   <td> Allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and core services. Requires IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Learn More</a> <br /> </td> 
+   <td> Allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and apps. Requires IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

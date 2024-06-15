@@ -25,19 +25,17 @@ Before starting this configuration, please check you have:
 * A Developer access to your Organization
 * A valid triggers configuration in Adobe Analytics
 
-## Authentication and configuration files {#authentication-configuration}
-
-Authentication is required since pipeline is hosted in the Adobe Experience Cloud. It uses a pair of public and private keys. This process has the same function as a user/password but is more secure. Authentication is supported for the Marketing Cloud via Adobe Developer Project.
+Authentication is required since pipeline is hosted in the Adobe Experience Cloud. It uses an authentication which is supported for via an Adobe Developer Project.
 
 ## Step 1: Create/update your Adobe Developer Project {#creating-adobe-io-project}
 
-For Hosted customers, work with your Adobe representative / Customer Care to enable your organization with Adobe Developer Account Tokens for the Triggers integration.
+You must enable your organization with Adobe Developer Account Tokens for the Triggers integration.
 
-For On-premise/Hybrid customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe Developer credential.
+Learn how to create your Adobe Technical account in [this page](../../integrations/using/oauth-technical-account.md). Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe Developer credential.
 
 ## Step 2: Configure the pipeline option {#configuring-nmspipeline}
 
-Once the authentication is set, pipeline will retrieve the events. It will only process triggers that are configured in Adobe Campaign. The trigger must have been generated from Adobe Analytics and pushed to the pipeline which will only process triggers that are configured in Adobe Campaign.
+Once the authentication is set, the pipeline will retrieve the events. It only processes triggers that are configured in Adobe Campaign. The trigger must have been generated from Adobe Analytics and pushed to the pipeline which will only process triggers that are configured in Adobe Campaign.
 
 The option can also be configured with a wildcard in order to catch all triggers regardless of the name.
 
@@ -45,7 +43,7 @@ The option can also be configured with a wildcard in order to catch all triggers
 
 1. Select the **[!UICONTROL NmsPipeline_Config]** option.
 
-1. In the **[!UICONTROL Value (long text)]** field, you can paste the following JSON code, which specifies two triggers. You need to make sure to remove comments.
+1. In the **[!UICONTROL Value (long text)]** field, you can paste the following JSON code, which specifies two triggers. Make sure to remove comments.
 
     ```json
     {
@@ -105,7 +103,7 @@ To configure Pipeline option, you should follow these recommendations:
 * the `pipelined`process also supports the "aliases" topic.
 * You should always restart `pipelined`process after making changes.
 
-## Step 3: Optional configuration {#step-optional}
+## (optional) Step 3: Additional configuration {#step-optional}
 
 You can change some internal parameters as per your load requirements but make sure to test them before applying them to your production environment.
 

@@ -9,11 +9,9 @@ content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
 ---
-# Configuring access to Assets{#configuring-access-to-assets}
+# Configuring access to Assets {#configuring-access-to-assets}
 
- 
-
-This section details the necessary configuration steps in Adobe Campaign to use the integration functionalities with Assets core service or Adobe Experience Manager Assets (AEM Assets) library.
+This section details the necessary configuration steps in Adobe Campaign to use the integration functionalities with Assets or Adobe Experience Manager Assets (AEM Assets) library.
 
 >[!CAUTION]
 >
