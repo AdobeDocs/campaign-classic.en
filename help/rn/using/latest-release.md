@@ -24,7 +24,7 @@ _June 18, 2024_
 
 * With the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth before January 27, 2025. [Learn more](../../campaign-classic-home.md)
 
-* Once you have [migrated your Campaign technical operators to Developer Console](ims-migration.md) and [transitioned to IMS for end-user authentication](migrate-users-to-ims.md), you can now enable the user interface and API restrictions to remove options and capabilities which are specific to native authentication. [Learn more](../../technotes/using/impact-ims-migration.md).
+* Once you have [migrated your Campaign technical operators to Developer Console](../../technotes/using/ims-migration.md) and [transitioned to IMS for end-user authentication](../../technotes/using/migrate-users-to-ims.md), you can now enable the user interface and API restrictions to remove options and capabilities which are specific to native authentication. [Learn more](../../technotes/using/impact-ims-migration.md).
 
 
 
