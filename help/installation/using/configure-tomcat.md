@@ -33,7 +33,7 @@ When the 8080 listening port of the Tomcat server is already busy with another a
 
 Then modify the port of the JSP relay pages. To do this, change the **serverConf.xml** file saved in the **/conf** directory of the Adobe Campaign installation directory.
 
-```
+```xml
 <serverConf>
    ...
    <web controlPort="8005" httpPort="8090"...
@@ -53,7 +53,7 @@ To define customer specific settings, you can create a **user_contexts.xml** fil
 
 This file will contain the following type of information:
 
-```
+```xml
  <Context path='/foo' docBase='../customers/foo'   crossContext='true' debug='0' reloadable='true' trusted='false'/>
 ```
 
@@ -72,7 +72,7 @@ For security reasons, we strongly recommend that you hide the Tomcat error repor
 1. Open the **server.xml** file located in the **/tomcat-X/conf** directory of the Adobe Campaign installation folder:  `/usr/local/neolane/nl6/tomcat-X/conf`
 1. Add the following element at the bottom after all existing context elements:
 
-    ```
+    ```xml
     <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false"/>
     ```
     
