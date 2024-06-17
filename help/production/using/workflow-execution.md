@@ -85,7 +85,7 @@ To check this and to start the module if necessary, apply the following steps:
     
     An admin user can also check that the **wfserver@`<instance>`** module is launched on your main application server using the command below.
 
-   ```
+   ```sql
    nlserver pdump
    HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    [...]

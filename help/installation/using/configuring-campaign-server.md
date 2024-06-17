@@ -63,13 +63,13 @@ Operators connected using this login will have all the rights on all instances. 
 
 Use the following command:
 
-```
+```sql
 nlserver config -internalpassword
 ```
 
 The following information is then displayed. Enter and confirm the password:
 
-```
+```sql
 17:33:57 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 Enter the current password.
 Password:

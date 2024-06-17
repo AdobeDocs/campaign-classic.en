@@ -84,7 +84,7 @@ The files in the installation directory are used to configure the Adobe Campaign
 
 The following information is displayed:
 
-```
+```sql
 15:30:12 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 15:30:12 >   Web server start (pid=664, tid=4188)...
 15:30:12 >   Creation of server configuration file '[INSTALL]bin..confserverConf.xml' server via '[INSTALL]bin..conffraserverConf.xml.sample

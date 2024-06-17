@@ -64,7 +64,7 @@ Higher hardware and administration costs.
 >  
 >If your application servers point to a single database instance, after changing schema on one instance, the schema is not loaded on the other instance.
 >
->To recover these issues, you need to reboot ‘web@default‘ process on the second instance where error occurred.
+>To recover these issues, you need to reboot 'web@default' process on the second instance where error occurred.
 
 ### Installing and configuring the application server 1 {#installing-and-configuring-the-application-server-1}
 
@@ -83,7 +83,7 @@ The steps for installing the first server are:
 
 1. Once the Adobe Campaign server is installed, start the application server (web) using the command **nlserver web -tomcat** (the Web module enables you to start Tomcat in standalone Web server mode listening on port 8080) and to make sure Tomcat starts correctly:
 
-   ```
+   ```sql
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    12:08:18 >   Starting Web server module (pid=28505, tid=-1225184768)...
    12:08:18 >   Tomcat started
@@ -130,7 +130,7 @@ The steps for installing the first server are:
 
 1. Edit the **config-demo.xml** file (created via the previous command and located next to the **config-default.xml** file), check that the **mta** (delivery), **wfserver** (workflow), **inMail** (rebound mails) and **stat** (statistics) processes are enabled, then configure the address of the **app** statistics server:
 
-   ```
+   ```xml
    <?xml version='1.0'?>
    <serverconf>  
      <shared>    
@@ -150,7 +150,7 @@ The steps for installing the first server are:
 
 1. Edit the **serverConf.xml** file and specify the delivery domain, then specify the IP (or host) addresses of the DNS servers used by the MTA module to answer MX type DNS queries.
 
-   ```
+   ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
    ```
 
@@ -169,7 +169,7 @@ The steps for installing the first server are:
    >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
 
 
-   ```
+   ```sql
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
    stat@demo (5988) - 1.5 MB
@@ -208,7 +208,7 @@ Apply the following steps:
 
 1. Edit the **config-demo.xml** file (created via the previous command and located next to the **config-default.xml** file), check that the **mta** (delivery), **wfserver** (workflow), **inMail** (rebound mails) and **stat** (statistics) processes are enabled, then configure the address of the **app** statistics server:
 
-   ```
+   ```xml
    <?xml version='1.0'?>
    <serverconf>  
      <shared>    
@@ -228,7 +228,7 @@ Apply the following steps:
 
 1. Edit the **serverConf.xml** file and populate the DNS configuration of the MTA module:
 
-   ```
+   ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
    ```
 
@@ -260,7 +260,7 @@ The steps are as follows:
 1. Copy the **config-demo.xml** and **serverConf.xml** files created during installation. In the **config-demo.xml** file, activate the **trackinglogd** process and deactivate the **mta**, **inmail**, **wfserver** and **stat** processes.
 1. Edit the **serverConf.xml** file and populate the redundant tracking servers in the parameters of the redirection:
 
-   ```
+   ```xml
    <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
    <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
    ```
@@ -269,13 +269,13 @@ The steps are as follows:
 
    The browser should display the following messages (depending on the URL redirected by the load balancer):
 
-   ```
+   ```xml
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
    ```
 
    or
 
-   ```
+   ```xml
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
    ```
 

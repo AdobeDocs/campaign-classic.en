@@ -51,7 +51,7 @@ In order to replace all files with the new version, you need to shut down all in
 
 1. Check that no tasks are active by running the **nlserver pdump** command. The following should come up:
 
-   ```
+   ```sql
    C:<installation path>Adobe Campaign v7bin>nlserver pdump
    HH:MM:SS > Application Server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    No tasks
