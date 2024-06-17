@@ -1,41 +1,115 @@
 ---
-title: Interface impact after IMS migration
-description: Learn Adobe Identity Management System migration interface impact
+title: Update Campaign interface after IMS migration
+description: Learn how to activate Adobe Identity Management System migration interface impacts
 ---
-# Interface impact after IMS migration {#impact-ims-migration}
+# Update Campaign interface after IMS migration {#impact-ims-migration}
 
 To enhance security and streamline the authentication process, Adobe Campaign strongly recommends migrating end-user authentication from the traditional login/password method to the Adobe Identity Management System (IMS). All operators should adopt [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html) for accessing Campaign.
 
-Once you have transitioned to IMS for end-user authentication, please be aware of the following changes in the user interface.
+Once you have [migrated your Campaign technical operators to Developer Console](ims-migration.md) and [transitioned to IMS for end-user authentication](migrate-users-to-ims.md), the last step is to enable the user interface and API restrictions to remove options and capabilities which are specific to native authentication. This update is available starting Campaign v7.4.1.
 
-## Manage in Admin console {#manage-admin}
+## Enable IMS restrictions {#ims-restrictions}
 
-The administration of operators will be centralized in the Admin Console, and the following tasks will now be managed exclusively through this console:
+To finalize your migration to Adobe Identify Management System (IMS), you must block new native user creation, native user login, and API access for native operators. Your environment is then secured and standardized.
 
-* [Creating operators](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)
-* [Creating operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Createusergroups)
-* [Editing operators](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html)
-* [Editing operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Editusergroups)
-* [Assigning or updating operators' access rights](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html)
-* [Deleting operators](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)
-* [Deleting operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Removeusergroups)
+As a Managed Cloud Service/Hosted user, contact Adobe to enable this restriction, and associated updates in the product user interface.
 
-## Unavailable after migration {#unavailable-migration}
+As an on-premise/hybrid user, follow these steps:
 
-After the migration, the following tasks will no longer be available:
+1. Browse to the `<imsConfig>` section of your instance configuration file.
+1. To enable the UI restrictions, update the `nonIMSOperatorMgmtInClientConsoleRestricted` option, inside the `nonIMSOperatorMgmtInClientConsole` element, to `true`, as below:
 
-* Using the [Merge Selected lines option](../../platform/using/updating-data.md#merge-data) to merge two operators.
 
-* Updating the following fields for your operators:
+    ```xml
+    <serverConf>
+    <shared>
+        <imsConfig>
+            <nonIMSOperatorMgmtInClientConsole nonIMSOperatorMgmtInClientConsoleRestricted="true"/>
+        </imsConfig>
+    </shared>
+    </serverConf>
+    ```
+
+1. To enable the API restrictions, update the `disableAPI`option, inside the `nonIMSAuthnAPI` element, to `true`, as below:
+
+    ```xml
+    <serverConf>
+    <shared>
+        <imsConfig>
+            <nonIMSAuthnAPI disableAPI="false">
+                ...
+            </nonIMSAuthnAPI>
+        </imsConfig>
+    </shared>
+    </serverConf>
+    ```
+
+Note that a few operators are allowed to connect to Adobe Campaign with a native authentication. These technical operators are enabled by default and must not be modified. To allow this exception, these technical operators are added to the allow-list by default. You can find this list in the `<imsConfig>` section of your instance configuration file, in the `allowOperator` option inside the `nonIMSAuthnAPI` element.
+
+```xml
+<serverConf>
+  <shared>
+    <imsConfig>
+        <nonIMSAuthnAPI disableAPI="false">
+            <allowOperator name="admin"/>
+            <allowOperator name="aemserver"/>
+            <allowOperator name="campaign-loginmonitor"/>
+            <allowOperator name="internal|monitoring"/>
+        </nonIMSAuthnAPI>
+    </imsConfig>
+  </shared>
+</serverConf>
+```
+
+If you need to add an operator to the allowlist, add a new `allowOperator` element with the operator's name. For example, if you want to add a new operator with the name `test`, update this section as follows:
+
+<serverConf>
+  <shared>
+    <imsConfig>
+        <nonIMSAuthnAPI disableAPI="false">
+            <allowOperator name="admin"/>
+            <allowOperator name="aemserver"/>
+            <allowOperator name="campaign-loginmonitor"/>
+            <allowOperator name="internal|monitoring"/>
+            <allowOperator name="test"/>
+        </nonIMSAuthnAPI>
+    </imsConfig>
+  </shared>
+</serverConf>
+
+
+## Impacts in the user interface {#ims-impacts}
+
+Once the migration is finalized, and restrictions have been applied as described below, the following changes are applied to the product and its user interface.
+
+### Operator management {#manage-admin}
+
+You can no longer create operators with native authentication. The administration of operators is centralized in the Adobe Admin Console, and the following tasks are now be managed exclusively through this console. Browse the links to learn more.
+
+* [Create operators](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)
+* [Create operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Createusergroups)
+* [Edit operators](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html)
+* [Edit operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Editusergroups)
+* [Assign or update operators' access rights](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html)
+* [Delete operators](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)
+* [Delete operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Removeusergroups)
+
+### Unavailable options {#unavailable-migration}
+
+After the migration, the following tasks are no longer be available in the client console:
+
+* Use the [Merge Selected lines option](../../platform/using/updating-data.md#merge-data) to merge two operators.
+
+* Update the following fields for your operators:
     * Name
     * Password
     * Label
     * Email
 
-* [Resetting your Campaign password](../../production/using/lost-password.md)
+* [Reset your Campaign password](../../production/using/lost-password.md)
 
-* Editing the XML source.
+* Edit the XML source.
 
-* Duplicating operators.
+* Duplicate operators.
 
 
