@@ -30,7 +30,7 @@ As an on-premise/hybrid user, follow these steps:
     </serverConf>
     ```
 
-1. To enable the API restrictions, update the `disableAPI`option, inside the `nonIMSAuthnAPI` element, to `true`, as below:
+1. To enable the API restrictions, update the `disableAPI` option, inside the `nonIMSAuthnAPI` element, to `true`, as below:
 
     ```xml
     <serverConf>
