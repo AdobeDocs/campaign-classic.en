@@ -21,7 +21,10 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID, i
 
 >[!IMPORTANT]
 >
-> Note that in Campaign v8, connecting with user/password (aka native authentication) is not allowed. **Adobe recommends to perform this migration in Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.**
+> Note that in Campaign v8, connecting with user/password (aka native authentication) is not allowed. **Adobe recommends to perform this migration starting Campaign v7.3.5 to be able to migrate smoothly to Campaign v8.** 
+>
+>Learn how to migrate to Adobe IMS in this section
+>
 
 
 <!--

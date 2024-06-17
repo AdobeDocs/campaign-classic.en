@@ -819,6 +819,7 @@ type: Documentation
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
   + [Inbound SMS workflow activity for Mid-sourcing infrastructure](technotes/using/inbound-sms-wf.md)
   + Upgrade to IMS{#ims}
+    + [Transition to Adobe IMS](technotes/using/ac-ims.md)
     + [Migrate users to IMS](technotes/using/migrate-users-to-ims.md)
     + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)
     + [Interface impact after IMS migration](technotes/using/impact-ims-migration.md)

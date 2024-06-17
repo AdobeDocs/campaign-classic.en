@@ -114,3 +114,10 @@ After the migration, the following tasks are no longer be available in the clien
 * Duplicate operators.
 
 
+## Useful links {#ims-useful-links}
+
+* [Migration of end-users to IMS](migrate-users-to-ims.md)
+* [Migration of technical operators to Adobe Developer console](ims-migration.md)
+* [Adobe Campaign Classic v7 latest release notes](../../rn/using/latest-release.md)
+* [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
+
