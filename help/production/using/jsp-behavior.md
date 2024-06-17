@@ -19,7 +19,7 @@ For this, enter the following commands:
 
 ```
 nlserver stop web
-cd nl6/tomcat-8
+cd nl6/tomcat-X
 rm -r work/
 nlserver start web
 ```

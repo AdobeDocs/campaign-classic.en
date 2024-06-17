@@ -25,7 +25,7 @@ There are three different thresholds:
 
     * **Tomcat** side: all queries actually arriving on the Adobe Campaign Tomcat client.
 
-      This threshold is configured in the **nl6/tomcat-8/conf/server.xml** file. The **maxThreads** attribute lets you increase the threshold of the number of queries processed at a time. It can be changed to 250, for instance.
+      This threshold is configured in the **nl6/tomcat-X/conf/server.xml** file. The **maxThreads** attribute lets you increase the threshold of the number of queries processed at a time. It can be changed to 250, for instance.
 
       ```    
       <Connector protocol="HTTP/1.1" port="8080"

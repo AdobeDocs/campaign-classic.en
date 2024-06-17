@@ -20,7 +20,7 @@ The technical and software configuration required for installing Adobe Campaign 
 As a reminder, the following components need to be installed and correctly configured:
 
 * Apache, refer to [Compatibility matrix](../../rn/using/compatibility-matrix.md),
-* Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
+* Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#jdk),
 * Libraries, refer to [Libraries](#libraries),
 * Database access layers, refer to [Database access layers](#database-access-layers),
 * LibreOffice, refer to [Installing LibreOffice for Debian](#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](#installing-libreoffice-for-centos),

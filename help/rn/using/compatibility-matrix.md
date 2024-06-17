@@ -123,7 +123,7 @@ As an on-premise / hybrid customer, you must install and configure the tools lis
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>Read more about JDK and Campaign in <a href="https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">this page</a>.</p>
+<p>Read more about JDK and Campaign in <a href="../../installation/using/application-server.md#jdk" target="_blank">this page</a>.</p>
 </td>
 </tr>
 <tr>

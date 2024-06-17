@@ -13,7 +13,7 @@ exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 
 The required database access layers must be installed on the server and accessible from the Adobe Campaign account.
 
-## Java Development Kit - JDK {#java-development-kit---jdk}
+## Java Development Kit - JDK {#jdk}
 
 Java Development Kit, or JDK, is a software development kit. It is the foundational component that enables Java application and Java applet development. 
 
@@ -25,6 +25,13 @@ The application has been approved for the Java Development Kit (JDK) developed b
 
 The supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
+
+>[!AVAILABILITY]
+>
+> Starting v7.4.1, Campaign supports Java JDK 11. If your Campaign server is installed in a Windows environment, you must generate a JRE as it is no longer provided by default.
+>
+> Starting v7.4.1, Tomcat 10.1 is the default version.
+>
 
 ### Recommendations
 

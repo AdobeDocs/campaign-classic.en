@@ -41,7 +41,7 @@ The [compatibility matrix for Adobe Campaign](compatibility-matrix.md) has been 
     * a new Campaign SDK 1.0.27 for iOS, compatible with iOS 16 and 17, and the latest [Apple iOS Privacy Request requirements](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
     * a new Campaign SDK for Android 14.
 
-* Adobe Campaign is now compatible with Java Development Kit (JDK) 11. On Windows, the JRE must be available as described in [this section](../../installation/using/application-server.md#java-development-kit---jdk).
+* Adobe Campaign is now compatible with Java Development Kit (JDK) 11. On Windows, the JRE must be available as described in [this section](../../installation/using/application-server.md#jdk).
 
 ### Patches {#release-7-4-1-patches}
 
