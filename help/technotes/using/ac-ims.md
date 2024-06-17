@@ -6,7 +6,7 @@ description: Learn how to migrate your authentication process to Adobe Identity 
 
 As part of the effort to reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
-In addition, as part of the effort to reinforce security and authentication process, Adobe Campaign client application now calls Campaign APIs directly using the IMS technical account token. You must migrate your technical operators to Adobe Developer Console.
+In addition, Adobe Campaign client application now calls Campaign APIs directly using the IMS technical account token. You must migrate your technical operators to Adobe Developer Console.
 
 >[!CAUTION]
 >

@@ -4,8 +4,6 @@ description: Learn how to activate Adobe Identity Management System migration in
 ---
 # Update Campaign interface after IMS migration {#impact-ims-migration}
 
-To enhance security and streamline the authentication process, Adobe Campaign strongly recommends migrating end-user authentication from the traditional login/password method to the Adobe Identity Management System (IMS). All operators should adopt [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html) for accessing Campaign.
-
 Once you have [migrated your Campaign technical operators to Developer Console](ims-migration.md) and [transitioned to IMS for end-user authentication](migrate-users-to-ims.md), the last step is to enable the user interface and API restrictions to remove options and capabilities which are specific to native authentication. This update is available starting Campaign v7.4.1.
 
 ## Enable IMS restrictions {#ims-restrictions}
