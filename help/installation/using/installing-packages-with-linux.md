@@ -29,7 +29,7 @@ You can run the **ping `hostname`** command to make sure the server can reach it
 
 ## Distribution based on RPM packages {#distribution-based-on-rpm--packages}
 
-To install Adobe Campaign onto an RPM (RHEL, CentOS and SUSE) operating system, follow these steps:
+To install Adobe Campaign onto an RPM (RHEL, CentOS) operating system, follow these steps:
 
 1. Get the Adobe Campaign package. The name of the file is **nlserver6-v7-XXXX-0.x86_64.rpm**, where **XXXX** is the Adobe Campaign build number.
 
