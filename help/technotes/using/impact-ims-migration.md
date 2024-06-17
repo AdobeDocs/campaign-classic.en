@@ -63,6 +63,7 @@ Note that a few operators are allowed to connect to Adobe Campaign with a native
 
 If you need to add an operator to the allowlist, add a new `allowOperator` element with the operator's name. For example, if you want to add a new operator with the name `test`, update this section as follows:
 
+```xml
 <serverConf>
   <shared>
     <imsConfig>
@@ -76,7 +77,7 @@ If you need to add an operator to the allowlist, add a new `allowOperator` eleme
     </imsConfig>
   </shared>
 </serverConf>
-
+``
 
 ## Impacts in the user interface {#ims-impacts}
 
