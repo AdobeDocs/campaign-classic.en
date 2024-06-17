@@ -77,7 +77,7 @@ If you need to add an operator to the allowlist, add a new `allowOperator` eleme
     </imsConfig>
   </shared>
 </serverConf>
-``
+```
 
 ## Impacts in the user interface {#ims-impacts}
 
