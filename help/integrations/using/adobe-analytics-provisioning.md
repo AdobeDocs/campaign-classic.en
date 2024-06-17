@@ -12,7 +12,7 @@ exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 
 >[!CAUTION]
 >
-> These steps should only be carried out by Hybrid and On-Premise implementations.
+> These steps should only be carried out by Hybrid and On-premise implementations.
 >
 >For Hosted and Campaign Managed Services implementations, please contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. 
 

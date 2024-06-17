@@ -21,7 +21,7 @@ Before starting working with the Adobe Campaign-Adobe Analytics connector, consi
 
 * The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
 
-    * For Hybrid and On-Premise implementations, make sure to follow the provisioning steps detailed in this [page](adobe-analytics-provisioning.md).
+    * For Hybrid and On-premise implementations, make sure to follow the provisioning steps detailed in this [page](adobe-analytics-provisioning.md).
     * As a Hoster or Managed Cloud Services user, contact Adobe to connect Campaign with Adobe Experience Cloud services and solutions. 
 
 

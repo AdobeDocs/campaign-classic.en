@@ -44,7 +44,7 @@ An overview of the steps are:
 
     For other cases, you must reach out to your Adobe Transition Manager (for Managed Services users) or to Adobe Customer Care (for other Hosted users), so that Adobe technical teams can migrate your existing Operator groups and Named rights to the Product Profiles within the Admin Console.
 
-* Campaign On-Premise and Hybrid customers
+* Campaign On-premise and Hybrid customers
 
     For API calls into the Message Center instance(s), you must create a product profile named:
 

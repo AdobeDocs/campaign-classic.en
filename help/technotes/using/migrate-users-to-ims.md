@@ -51,7 +51,7 @@ You can also migrate your technical operator(s) to Adobe Developer Console as de
 Once this migration is completed, confirm to your Adobe Transition Manager (for Managed Services users), or to Adobe Customer care (for Hosted customers). Adobe then marks the migration as complete. Your environment is then secured and standardized. 
 
 
-## How to migrate Hybrid and On-Premise environments? {#ims-migration-procedure-on-prem}
+## How to migrate Hybrid and On-premise environments? {#ims-migration-procedure-on-prem}
 
 Key steps for this migration are listed below: 
 

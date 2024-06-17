@@ -48,7 +48,7 @@ As a hosted customer, you have two options to install or update your client cons
 
    **Users will require Admin access to complete the update. If the users do not have admin rights, a system administrator will need to deploy to all client consoles**
 
-## Hybrid & On-Premise implementations {#hybrid-onprem-customers}
+## Hybrid & On-premise implementations {#hybrid-onprem-customers}
 
 For Adobe Campaign users to be able to log on to the instance you have created and configured, they need to use the client console.
 
