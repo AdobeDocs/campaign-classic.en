@@ -15,6 +15,7 @@ type: Documentation
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
   + Previous releases {#previous-releases}
+    + [2024](rn/using/release-2024.md)    
     + [2023](rn/using/release-2023.md)    
     + [2022](rn/using/release-2022.md)    
     + [2021](rn/using/release-2021.md)
@@ -30,6 +31,7 @@ type: Documentation
        + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
        + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
        + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
+     + [Campaign connectors](platform/using/about-connectors.md)
      + Frequently Asked Questions {#faq}
        + [Top questions](platform/using/common-questions.md)
        + [Global concepts](platform/using/faq-key-concepts.md)
@@ -94,17 +96,11 @@ type: Documentation
   + Data packages and enumerations {#administration-basics}
        + [Data packages](platform/using/working-with-data-packages.md)
        + [Enumerations](platform/using/managing-enumerations.md)
-  + Connectors {#connectors}
-       + [About connectors](platform/using/about-connectors.md)
-       + CRM Connectors{#crm-connectors}
-          + [Get started with CRM Connectors](platform/using/crm-connectors.md)
-          + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-          + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
-          + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
-       + Adobe Analytics Connector{#analytics-connector}
-          + [Get started with Adobe Analytics Connector](platform/using/gs-aa.md)
-          + [Adobe Analytics Connector provisioning](platform/using/adobe-analytics-provisioning.md)
-          + [How to migrate to Adobe Analytics Connector](technotes/using/aa-connector-migration.md)
+  + CRM connectors {#connectors}
+       + [Get started with CRM Connectors](platform/using/crm-connectors.md)
+       + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+       + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
+       + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
   + [Get started with messages](delivery/using/communication-channels.md)
@@ -349,7 +345,21 @@ type: Documentation
   + [Use case: create a referral form](surveys/using/use-case-creating-a-refer-a-friend-form.md)
   + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-  + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [Get started with Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [Create your Adobe technical account](integrations/using/oauth-technical-account.md)
+  + Adobe Experience Cloud Triggers {#experience-triggers}
+       + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Configure pipeline](integrations/using/configuring-pipeline.md)
+       + [Configure events for custom implementation](integrations/using/events.md)
+       + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
+       + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
+  + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
+       + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+       + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
+       + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
+  + Adobe Analytics Connector{#analytics-connector}
+       + [Get started with Adobe Analytics Connector](integrations/using/gs-aa.md)
+       + [Adobe Analytics Connector provisioning](integrations/using/adobe-analytics-provisioning.md)
   + Audience sharing {#audience-sharing}
        + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -374,17 +384,6 @@ type: Documentation
        + [Synchronize audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
-  + Adobe Experience Cloud Triggers {#experience-triggers}
-       + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
-       + [Configure pipeline](integrations/using/configuring-pipeline.md)
-       + [Configure Adobe I/O for [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
-       + [Configure events for custom implementation](integrations/using/events.md)
-       + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
-       + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
-  + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
-       + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
-       + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
-       + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automate with workflows {#automating-with-workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
@@ -818,10 +817,12 @@ type: Documentation
   + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
   + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
-  + [Inbound SMS workflow activity for Mid-sourcing infrastructure](technotes/using/inbound-SMS.md)
+  + [Inbound SMS workflow activity for Mid-sourcing infrastructure](technotes/using/inbound-sms-wf.md)
   + Upgrade to IMS{#ims}
+    + [Transition to Adobe IMS](technotes/using/ac-ims.md)
     + [Migrate users to IMS](technotes/using/migrate-users-to-ims.md)
     + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)
+    + [Interface impact after IMS migration](technotes/using/impact-ims-migration.md)
   + Upgrades and compatibility{#technote-migration}
        + [Technotes](technotes/using/technote.md)
        + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       

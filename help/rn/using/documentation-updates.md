@@ -76,7 +76,7 @@ The migration guide has been updated. References to unsupported Adobe Campaign v
 
 ## July 2022 {#july-2022}
 
-Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)
+<!--Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)-->
 
 **Documentation updates coming with the 7.3.1 release**
 
@@ -149,11 +149,9 @@ Added a limitation about Incoming SMS (MO). [Read more](../../delivery/using/sms
 
 Updated the migration process logs details for CRM connector deployment. [Read more](../../migration/using/testing-the-migration.md#verification-process)
 
-Added requirements about IMS permissions to implement Adobe Campaign-Adobe Analytics integration. [Read more](../../platform/using/adobe-analytics-provisioning.md)
+Added requirements about IMS permissions to implement Adobe Campaign-Adobe Analytics integration. [Read more](../../integrations/using/adobe-analytics-provisioning.md)
 
 Updated Adobe Analytics Data Connector End-of-Life date from March 1, 2022 to August 17, 2022. [Read more](deprecated-features.md)
-
-Added a link to Adobe Experience Platform mobile SDK documentation to learn how to configure the Campaign extension in Adobe Launch. [Read more](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
 
 Added a section about how to use JavaScript to calculate values, exchange data and to execute specific operations using SOAP calls.[Read more](../../workflow/using/javascript-scripts-and-templates.md) 
 
@@ -344,7 +342,7 @@ The Deprecated and removed features page has been updated. [Read more](../../rn/
 Release notes and Compatibility matrix for [!DNL Gold Standard] release are now available in a dedicated page.
 [Read more](../../rn/using/gold-standard.md).
 
-Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
+Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/about-triggers.md#implement)
 
 **Other updates**
 

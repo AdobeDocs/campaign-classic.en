@@ -11,7 +11,9 @@ exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 ---
 # Lost password{#lost-password}
 
-
+>[!NOTE]
+>
+>This page only applies for operators connecting to Campaign with native authentication.
 
 You can change or recover a lost password.
 There are two possible scenarios:

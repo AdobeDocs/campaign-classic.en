@@ -104,7 +104,7 @@ nlserver pdump
 
 It must return the following information:
 
-```
+```sql
 HH:MM:SS >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 webmdl@default (1644) - 18.2 Mo
 ```

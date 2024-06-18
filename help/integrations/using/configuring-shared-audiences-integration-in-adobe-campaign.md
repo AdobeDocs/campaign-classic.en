@@ -2,7 +2,7 @@
 product: campaign
 title: Configuring shared audiences integration in Adobe Campaign
 description: Learn how to configure shared audiences integration
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
@@ -11,7 +11,6 @@ exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 ---
 # Configuring shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
- 
 
 Once you have submitted this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
@@ -82,7 +81,7 @@ To configure the **[!UICONTROL Recipient - Visitor ID]** data source:
 
 ## Step 3: Configure Campaign Tracking server {#step-3--configure-campaign-tracking-server}
 
-For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.
+For the configuration of the integration with Audience manager, we also need to configure Campaign Tracking server.
 
 To enable shared audiences to function with Visitor ID, the tracking server domain should be a sub-domain of the clicked URL or the main website.
 

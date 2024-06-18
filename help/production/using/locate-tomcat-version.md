@@ -11,8 +11,6 @@ exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 ---
 # Locate Tomcat version{#locate-tomcat-version}
 
-
-
 Adobe Campaign uses an **embedded web servlet called Apache Tomcat** to process HTTP/HTTPS requests between the application and any external interface (including Client Console, tracked URL links, SOAP calls, and others). There is often an external web server (usually IIS or Apache) in front of this for any external-facing Adobe Campaign instances.
 
 Follow the procedure below to find out the exact version of Tomcat used in a **Campaign Classic on-premise instance** in order to help troubleshoot issues.
@@ -25,6 +23,12 @@ The Tomcat used in Adobe Campaign is a customized embedded version that does not
 
 New or upgraded versions of the embedded versions of Tomcat are only released with new builds of Adobe Campaign itself and not as separate patches outside of the Adobe Campaign builds.
 
+>[!AVAILABILITY]
+>
+>
+> Starting Campaign v7.4.1, Tomcat 10.1 is the default version.
+>
+
 ## How to locate the version of embedded Tomcat
 
 To locate the version of embedded Tomcat in an instance of Adobe Campaign, follow the steps below.
@@ -33,7 +37,7 @@ To locate the version of embedded Tomcat in an instance of Adobe Campaign, follo
 >
 >You must have access to the files on the Adobe Campaign server you need to check. The procedure described below only applies to **on-premise hosting models**.
 
-1. Navigate to the *\tomcat-7\lib* subfolder within the Adobe Campaign installation folder (for example, *C:\Program Files\ [Installation_folder]* in Windows, or */usr/local/neolane/nl6* in Linux).
+1. Navigate to the *\tomcat-11\lib* subfolder within the Adobe Campaign installation folder (for example, *C:\Program Files\ [Installation_folder]* in Windows, or */usr/local/neolane/nl6* in Linux).
 
 1. Copy the file *catalina.jar* to an outside temporary folder (for example, your desktop) and rename the extension from .jar to .zip.
 
@@ -43,11 +47,11 @@ To locate the version of embedded Tomcat in an instance of Adobe Campaign, follo
 
 1. Once finished, if it is on a server machine, delete the temporary file(s) you created.
 
-As an example, the *ServerInfo.properties* file for Adobe Campaign will contain the following information, indicating Tomcat v8.5.X:
+As an example, the *ServerInfo.properties* file for Adobe Campaign contains the following information, indicating Tomcat v11.X:
 
-*`server.info=Apache Tomcat/8.5.X`*
+*`server.info=Apache Tomcat/11.X`*
 
-*`server.number=8.5.X.Y`*
+*`server.number=A.B.X.Y`*
 
 *`server.built=MM DD YYY HH:MM:SS`*
 

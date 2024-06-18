@@ -19,7 +19,11 @@ exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 >After this migration, note that the following section no longer apply.  Learn how to set up permissions with Adobe IMS in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}. 
  
 
-## Get started with Campaign operators  {#about-operators}
+## Get started with Campaign operators {#about-operators}
+
+>[!NOTE]
+>
+>These procedures only apply for operators connecting to Campaign with native authentication. For Adobe IMS authentication, refer to [this documentation](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank).
 
 An operator is an Adobe Campaign user who has permissions to log in and perform actions.
 

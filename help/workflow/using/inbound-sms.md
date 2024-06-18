@@ -5,7 +5,7 @@ description: Learn more about the Inbound SMS workflow activity
 feature: Workflows, Channels Activity
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 ---
-# Inbound SMS{#inbound-sms}
+# Inbound SMS {#inbound-sms}
 
 
 

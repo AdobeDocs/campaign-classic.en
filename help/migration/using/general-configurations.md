@@ -470,19 +470,21 @@ If you choose to manually resolve the conflict, proceed as follows:
 1. Go to the conflict you would have resolved. Click the **[!UICONTROL Actions]** icon and select **[!UICONTROL Declare as resolved]**. 
 1. Save your changes: the conflict is now resolved.
 
+<!--
 ## Tomcat {#tomcat}
 
 The integrated Tomcat server in Adobe Campaign v7 has changed version. Its installation folder (tomcat-6) has therefore also changed (tomcat 7). After the postupgrade, make sure to check that the paths do link to the updated folder (in the **[!UICONTROL serverConf.xml]** file):
 
 ```
-$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
-$(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/bin/bootstrap.jar 
+$(XTK_INSTALL_DIR)/tomcat-X/bin/tomcat-juli.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-util.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/servlet-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/jsp-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/el-api.jar
 ```
+-->
 
 ## Interaction {#interaction}
 

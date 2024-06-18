@@ -84,7 +84,7 @@ After creating your service, you now need to create your Android application:
 
    ![](assets/nmac_android.png)
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
 
     >[!NOTE]
     >
@@ -150,4 +150,4 @@ You need to extend the **appsubscriptionRcp** to define new additional fields to
 
    >[!CAUTION]
    >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).
+   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. <!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->

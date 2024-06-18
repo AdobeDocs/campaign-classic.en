@@ -331,7 +331,7 @@ In the **dataStore > dataSource > dbcnx** node, configure the connection setting
   </tr> 
   <tr> 
    <td> provider<br /> </td> 
-   <td> Type (enumeration). Possible values are 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase ASE, Sybase IQ)), 'Relay' (HTTP relay to remote database).<br /> </td> 
+   <td> Type (enumeration). Possible values are 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL), 'Teradata', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase ASE, Sybase IQ)), 'Relay' (HTTP relay to remote database).<br /> </td> 
    <td> String<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -2978,18 +2978,18 @@ Here are the different parameters of the **web > jsp** node. This is the configu
 The **web > jsp > classpath** node contains the list of all class paths to use when starting JVM. Here is the default configuration:
 
 ```
-'$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-coyote.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/annotations-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/catalina.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/websocket-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat7-websocket.jar
+'$(XTK_INSTALL_DIR)/tomcat-X/bin/bootstrap.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/bin/tomcat-juli.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-coyote.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-util.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/servlet-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/jsp-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/el-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/annotations-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/catalina.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/websocket-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat7-websocket.jar
           $(XTK_INSTALL_DIR)/java/lib/pdfbox-2.0.4.jar
           $(XTK_INSTALL_DIR)/java/lib/FontBox-0.1.0.jar
           $(XTK_INSTALL_DIR)/java/lib/AGJavaEndpoint.22.jar

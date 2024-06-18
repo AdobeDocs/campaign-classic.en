@@ -37,16 +37,21 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Feature</strong></td>
    <td><strong>Details</strong></td>
   </tr>
+  <tr>
+ <td>Campaign (Neolane) legacy SDK</td>
+ <td><p>The Campaign (Neolane) SDK for mobile applications is now deprecated. Instead, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. Learn how to configure the Mobile App channel in <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 documentation</a>.</p>
+<p>Target removal date: End of 2024 </p>
+</td>
+</tr>
 <tr>
  <td>Social Marketing with Facebook</td>
- <td>Social Marketing with Facebook is now deprecated. You can use X (formerly known as Twitter) integration to post on social media, or work with Adobe to create a custom channel.
- <p></p>
+ <td><p>Social Marketing with Facebook is now deprecated. You can use X (formerly known as Twitter) integration to post on social media, or work with Adobe to create a custom channel.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
 <tr>
  <td>ACS Connector</td>
- <td>ACS Connector (Prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.<p></p>
+ <td><p>ACS Connector (Prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
@@ -66,7 +71,7 @@ This section lists features and capabilities that have been removed from Campaig
       <tr>
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>The Adobe Analytics Data Connector has been removed on August 17,2022. It had been deprecated with Campaign 21.1.3 release.</p>
-   <p>If you are using this connector, you need to adapt your implementation accordingly. <a href="../../platform/using/gs-aa.md">Learn more</a></p>
+   <p>If you are using this connector, you need to adapt your implementation accordingly. <a href="../../integrations/using/gs-aa.md">Learn more</a></p>
   </td>
  </tr>
     <tr>
@@ -77,8 +82,8 @@ This section lists features and capabilities that have been removed from Campaig
  </tr>
   <tr>
   <td>OAuth Authentication (OAuth and JWT)<br></td>
-  <td><p> Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. This authentication mode had been deprecated with Campaign 20.3 release.<p>
-  <p>If you were using Triggers integration, learn how to adapt your implementation <a href="../../integrations/using/configuring-adobe-io.md">in this page</a>.</p> 
+  <td><p> Triggers integration authentication originally based on OAuth authentication setup to access pipeline has now been changed and moved to Adobe I/O. This authentication mode had been deprecated with Campaign 20.3 release.<p>
+  <p>If you were using Triggers integration, learn how to adapt your implementation <a href="../../integrations/using/about-triggers.md#implement">in this page</a>.</p> 
   <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>

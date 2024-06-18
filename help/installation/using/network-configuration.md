@@ -162,10 +162,6 @@ The default ports are the following:
    <td> <strong>Microsoft SQL Server</strong><br /> </td> 
    <td> 1433/tcp<br /> </td> 
   </tr> 
-  <tr> 
-   <td> <strong>DB2</strong><br /> </td> 
-   <td> 50000/tcp<br /> </td> 
-  </tr> 
  </tbody> 
 </table>
 

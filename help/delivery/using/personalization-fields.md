@@ -110,6 +110,26 @@ The default value is 5 seconds.
 
 If you set this option to 0, there will be no time limit for the personalization phase.
 
+## Personalization tab {#personalization-tab}
+
+In the Delivery Properties, you have a Personalization tab.
+
+You can find there the possibility to add data to the profile query of the targeting dimension by clicking on the **"Edit the recipient profile loading query"**. You can use the data extracted directly within an expression to extract what you really need. Those data will be added to the context.
+
+![](assets/persotab-edit.png){zoomable="yes"}
+
+If the data you want to add is not in the targeting dimension, you can click on **"Add objects in the execution context of the scripts"**.
+
+![](assets/persotab_addobjects.png){zoomable="yes"}
+
+You can select there the object schema that you need, then you can use those data inside your Javascript code, which will be executed during the delivery preparation.
+
+![](assets/persotab_addobjects_articles.png){zoomable="yes"}
+
+By adding the object schema, you can select the fields you want to add to the context : 
+
+![](assets/persotab_addobjects_fields.png){zoomable="yes"}
+
 ## Tutorial video {#personalization-fields-video}
 
 Learn how to add a personalization field to the subject line and the content of an email delivery.

@@ -12,7 +12,7 @@ exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 
 >[!CAUTION]
 >
-> These steps should only be carried out by Hybrid and On-Premise implementations.
+> These steps should only be carried out by Hybrid and On-premise implementations.
 >
 >For Hosted and Campaign Managed Services implementations, please contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team. 
 
@@ -26,15 +26,15 @@ The problem was that the owner of the Data connector was a different user than t
 
 * If you are implementing a new connector, implementing Adobe IMS is optional. Without an Adobe ID User, Adobe Campaign will use a technical user to sync with Adobe Analytics.
 
-For this integration to work, you have to create an Adobe Analytics product profile which will be used exclusively for the Analytics connector. Then, you will need to create an Adobe I/O project.
+For this integration to work, you have to create an Adobe Analytics product profile which will be used exclusively for the Analytics connector. Then, you will need to create a Developer console project.
 
 >[!AVAILABILITY]
 >
 > The Service Account (JWT) credential is being deprecated by Adobe, Campaign integrations with Adobe solutions and apps must now rely on OAuth Server-to-Server credential. </br>
 >
-> * If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025. In addition, the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024. A new Service Account (JWT) credential cannot be created or added to a project after this date. </br>
+> * If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Existing Service Account (JWT) credentials will continue to work until January 27, 2025.</br>
 >
-> * If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth. As the creation of new Service Account (JWT) credentials in the Developer Console is no longer possible starting June 3, 2024, you cannot create a new outbound integration relying on JWT after this date
+> * If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, they will continue to work until until January 27, 2025. However, before that date, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to OAuth.
 
 ## Create an Adobe Analytics Product profile {#analytics-product-profile}
 
@@ -66,7 +66,7 @@ For more information on Product profiles, refer to the [Admin console documentat
 
 1. For the **[!UICONTROL Report Suites]** capability, add the **[!UICONTROL Report Suites]** you need to use later on.
       
-      If you don't have any report suites, you can create it following [these steps](../../platform/using/gs-aa.md).
+      If you don't have any report suites, you can create it following [these steps](../../integrations/using/gs-aa.md).
 
     ![](assets/do-not-localize/triggers_4.png)
 
@@ -98,71 +98,14 @@ For more information on Product profiles, refer to the [Admin console documentat
    * **[!UICONTROL Calculated metric creation]**
    * **[!UICONTROL Segment creation]**
 
-Your Product profile is now configured. You then need to create the Adobe I/O project.
+Your Product profile is now configured. You then need to create the OAuth project.
 
-## Create Adobe I/O Project {#create-adobe-io}
+## Create OAuth project {#create-adobe-io}
 
-1. Access Adobe I/O and log in as **System Administrator** of your Organization.
-   
-   For more information on Admin roles, refer to this [page](https://helpx.adobe.com/enterprise/using/admin-roles.html).
-   
-1. Click **[!UICONTROL Create a new project]**.
+To proceed with configuring your Adobe Analytics connector, access the Adobe Developer console and create your OAuth Server-to-Server project.
 
-    ![](assets/do-not-localize/triggers_5.png)
+Refer to [this page](oauth-technical-account.md#oauth-service) for the detailed documentation.
 
-1. Click **[!UICONTROL Add to Project]** and select **[!UICONTROL API]**.
+## Configuration and usage {#adobe-analytics-connector-usage}
 
-    ![](assets/do-not-localize/triggers_6.png)
-
-1. Select [!DNL Adobe Analytics] and click **[!UICONTROL Next]**.
-
-    ![](assets/do-not-localize/triggers_7.png)
-
-1. Choose **[!UICONTROL Service Account (JWT)]** as authentication type and click **[!UICONTROL Next]**.
-
-    ![](assets/do-not-localize/triggers_8.png)
-
-1. Select the **[!UICONTROL Option 1: Generate a Key-Pair]** option and click **[!UICONTROL Generate a Key-Pair]**.
-
-   The config.zip file will then be automatically downloaded.
-
-    ![](assets/do-not-localize/triggers_9.png)
-
-1. Click **[!UICONTROL Next]**. 
-
-    ![](assets/do-not-localize/triggers_10.png)
-
-1. Select the **[!UICONTROL Product profile]** created in the previous steps detailed in this [section](#analytics-product-profile).
-
-1. Then, click **[!UICONTROL Save Configured API]**.
-
-    ![](assets/do-not-localize/triggers_11.png)
-
-1. From your project, select [!DNL Adobe Analytics] and copy the following information under **[!UICONTROL Service Account (JWT)]**:
-
-   * **[!UICONTROL Client ID]**
-   * **[!UICONTROL Client Secret]**
-   * **[!UICONTROL Technical account ID]**
-   * **[!UICONTROL Organization ID]**
-
-    ![](assets/do-not-localize/triggers_12.png)
-
-1. Use the private key generated in step 6. 
-    
-    If you already set up Triggers using these credentials, your private key must be the same for this connector configuration.
-
-1. Encode the private key using the following command: `base64 ./private.key > private.key.base64`. This will save the base64 content to a new file `private.key.base64`.
-
-    >[!NOTE]
-    >
-    >Extra lines can sometimes be automatically added when copy/pasting the private key. Remember to remove it before encoding your private key.
-
-1. Copy the contents from the file `private.key.base64`.
-
-1. Login via SSH to each container where the Adobe Campaign instance is installed and add the Project credentials in Adobe Campaign by running the following command as `neolane` user. This will insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
-
-    ```
-    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
-    ```
-
-You can now start using the Analytics connector and track your customer behaviors.
+Learn how to work with Adobe Campaign and Adobe Analytics in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.

@@ -52,7 +52,7 @@ Connecting to an Oracle external database in FDA requires additional configurati
     * **libaio1**
 
       ```
-      aptitude install libaio1
+      apt install libaio1
       or
       yum install libaio1
       ```

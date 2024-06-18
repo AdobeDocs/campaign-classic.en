@@ -10,7 +10,9 @@ exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 ---
 # Update data{#updating-data}
 
-
+>[!NOTE]
+>
+>This page only applies for operators connecting to Campaign with native authentication.
 
 The data linked to a recipient's profile can be updated manually or automatically.
 

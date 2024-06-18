@@ -186,7 +186,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Web Analytics connectors<br /> </td> 
-   <td> Allows Adobe Campaign and Adobe Analytics to interact through the Web Analytics connectors package. Not compatible with Transactional messaging (Message center package). <a href="../../platform/using/gs-aa.md">Learn More</a><br /> </td> 
+   <td> Allows Adobe Campaign and Adobe Analytics to interact through the Web Analytics connectors package. Not compatible with Transactional messaging (Message center package). <a href="../../integrations/using/gs-aa.md">Learn More</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -196,7 +196,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud Shared Audiences Integration<br /> </td> 
-   <td> Allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and core services. Requires IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Learn More</a> <br /> </td> 
+   <td> Allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and apps. Requires IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

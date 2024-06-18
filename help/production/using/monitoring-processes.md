@@ -367,7 +367,7 @@ It generates output in an easily processed XML format.
 
 This command can also be run with the **-missing** parameter, which lists the processes that are missing from this instance when the configuration files say that they should be executing.
 
-```
+```sql
 nlserver monitor -missing
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 mta@prod

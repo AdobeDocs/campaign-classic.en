@@ -5,6 +5,8 @@ description: Learn how to uninstall Campaign
 feature: Installation
 audience: installation
 content-type: reference
+hide: yes
+hidefromtoc: yes
 topic-tags: appendices
 exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
 ---

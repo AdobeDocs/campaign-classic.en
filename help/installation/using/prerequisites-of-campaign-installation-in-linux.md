@@ -11,8 +11,6 @@ exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 ---
 # Prerequisites to install Campaign on Linux{#prerequisites-of-campaign-installation-in-linux}
 
-
-
 ## Software prerequisites {#software-prerequisites}
 
 This section details the preliminary configurations steps required before installing Adobe Campaign.
@@ -22,15 +20,12 @@ The technical and software configuration required for installing Adobe Campaign 
 As a reminder, the following components need to be installed and correctly configured:
 
 * Apache, refer to [Compatibility matrix](../../rn/using/compatibility-matrix.md),
-* Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
+* Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#jdk),
 * Libraries, refer to [Libraries](#libraries),
 * Database access layers, refer to [Database access layers](#database-access-layers),
 * LibreOffice, refer to [Installing LibreOffice for Debian](#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](#installing-libreoffice-for-centos),
 * Fonts, refer to [Fonts for MTA statistics](#fonts-for-mta-statistics) and [Fonts for Japanese instances](#fonts-for-japanese-instances).
 
->[!NOTE]
->
->To install a build lower or equal to 8709 on CentOS 7 and Debian 8 platforms the apache access_compat module must be enabled.
 
 ### Libraries {#libraries}
 
@@ -40,31 +35,13 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
   To check this, you can use the **uname -a | grep xen** command for example.
 
-  If the command doesn't return anything (empty line), it means configuration is correct.
+  If the command does not return an empty line, it means configuration is correct.
 
 * You must have OpenSSL version **1.0.2** or higher.
 
-  For RHEL 7/8 distributions, version 1.0 of OpenSSL is required.
+  For RHEL distributions, version 1.0 of OpenSSL is required.
 
 * To use Adobe Campaign, you need to have the **libicu** library installed.
-
-  The following versions of **libicu** are supported (32bit or 64bit):
-
-    * RHEL 7/8, CentOS 7: libicu50
-    * Debian 8: libicu52
-    * Debian 9: libicu57 
-
-  To use Adobe Campaign, you need to have the libc-ares library installed. On RHEL/CentOS, run the following command:
-
-  ```
-  yum install c-ares
-  ```
-
-  On Debian:
-
-  ```
-  aptitude install libc-ares2
-  ```
 
 ### SELinux {#selinux}
 
@@ -101,22 +78,14 @@ In order for reports on MTA statistics (nms/fra/jsp/stat.jsp) to be displayed co
 In Debian, add the command:
 
 ```
-aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
+apt install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 ```
 
-In Redhat, use the following command:
+Use the following command for RHEL:
 
-* For CentOS/RHEL 7:
-
-   ```
-   yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-   ```
-
-* For RHEL 8:
-
-   ```
-   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
-   ```
+```
+dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+```
 
 ### Fonts for Japanese instances {#fonts-for-japanese-instances}
 
@@ -125,20 +94,13 @@ Fonts of specific characters are necessary for the Japanese instances in order t
 In Debian, add the command:
 
 ```
-aptitude install fonts-ipafont
+apt install fonts-ipafont
 ```
 
-In Red Hat, add the command:
-
-* For RHEL 7:
+For RHEL, add the following command:
 
    ```
-   yum install ipa-gothic-fonts ipa-mincho-fonts
-   ```
-
-* For RHEL 8:
-
-   ```
+   dnf install epel-release # if required
    dnf install vlgothic-fonts
    ```
 
@@ -176,13 +138,13 @@ Also check the general [Database](../../installation/using/database.md) section.
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign supports all versions of the PostgreSQL client libraries from version 7.2: (**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** and **libpq.so.3.1**).
+Adobe Campaign supports all versions of the PostgreSQL client libraries from version 9.6: **libpq.so.5**.
 
 Using PostgreSQL with Adobe Campaign also requires installing the corresponding **pgcrypto** libraries.
 
 ### Oracle {#oracle}
 
-Retrieve the library version for 64-bit Debian, i.e.: **libclntsh.so**, **libclntsh.so.11.1** and **libclntsh.so.10.1**.
+Retrieve the library version for 64-bit Debian, i.e.: **libclntsh.so**, **libclntsh.so.19.1**, **libclntsh.so.18.1**, **libclntsh.so.12.1**, **libclntsh.so.11.1** or **libclntsh.so.10.1**.
 
 You can obtain a Linux RPM package from the Oracle Technology Network.
 
@@ -207,10 +169,6 @@ If you notice on the client console that there are unexpected time lags (one or 
    Also check ORACLE_HOME value to make sure it points to the expected client version (in case several versions are installed on the machine).
 
 1. Make sure the client and the server use the same **timezone file**.
-
-### DB2 {#db2}
-
-The library version supported is **libdb2.so**.
 
 ## Implementation steps {#implementation-steps}
 
