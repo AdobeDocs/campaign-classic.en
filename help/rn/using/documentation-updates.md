@@ -15,6 +15,10 @@ Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-releas
 
 ## 2024
 
+### June 2024 {#june-2024}
+
+A note has been added to specify how to clear instance variables when restarting workflows. [Read more](../../workflow/using/starting-a-workflow.md)
+
 ### April 2024 {#apr-2024}
 
 A caution note has been added about user creation with Adobe Identity Management System (IMS). [Read more](../../platform/using/access-management.md)

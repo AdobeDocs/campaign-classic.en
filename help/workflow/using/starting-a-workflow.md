@@ -59,6 +59,16 @@ The toolbar buttons are detailed in this [section](../../campaign/using/marketin
 
   The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. For more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
+  Note that the **Restart** action does not clear the workflow instance variables compared to **Execution**, **Stop**, and **Start** actions (the instance variables clearing happening upon Start action). When restarting a workflow, instance variables are still available for use with preserved values. To clear them, you can either:
+  * Perform **Stop** and **Start** actions.
+  * Add below javascript code at the end of your workflow execution:
+
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
+    
 * **[!UICONTROL Purge history]**
 
   This action lets you purge the workflow history. For more on this, refer to [Purging the logs](monitoring-workflow-execution.md#purging-the-logs).
