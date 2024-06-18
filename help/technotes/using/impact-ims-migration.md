@@ -1,6 +1,7 @@
 ---
 title: Update Campaign interface after IMS migration
 description: Learn how to activate Adobe Identity Management System migration interface impacts
+exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
 ---
 # Update Campaign interface after IMS migration {#impact-ims-migration}
 
@@ -114,4 +115,3 @@ After the migration, the following tasks are no longer be available in the clien
 >* [Migration of technical operators to Adobe Developer console](ims-migration.md)
 >* [Adobe Campaign Classic v7 latest release notes](../../rn/using/latest-release.md)
 >* [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
-
