@@ -34,7 +34,7 @@ As an on-premise/hybrid user, follow these steps:
     <serverConf>
     <shared>
         <imsConfig>
-            <nonIMSAuthnAPI disableAPI="false">
+            <nonIMSAuthnAPI disableAPI="true">
                 ...
             </nonIMSAuthnAPI>
         </imsConfig>
@@ -48,7 +48,7 @@ Note that a few operators are allowed to connect to Adobe Campaign with a native
 <serverConf>
   <shared>
     <imsConfig>
-        <nonIMSAuthnAPI disableAPI="false">
+        <nonIMSAuthnAPI disableAPI="true">
             <allowOperator name="admin"/>
             <allowOperator name="aemserver"/>
             <allowOperator name="campaign-loginmonitor"/>
@@ -65,7 +65,7 @@ If you need to add an operator to the allowlist, add a new `allowOperator` eleme
 <serverConf>
   <shared>
     <imsConfig>
-        <nonIMSAuthnAPI disableAPI="false">
+        <nonIMSAuthnAPI disableAPI="true">
             <allowOperator name="admin"/>
             <allowOperator name="aemserver"/>
             <allowOperator name="campaign-loginmonitor"/>
@@ -83,21 +83,17 @@ Once the migration is finalized, and restrictions have been applied as described
 
 ### Operator management {#manage-admin}
 
-You can no longer create operators with native authentication. The administration of operators is centralized in the Adobe Admin Console, and the following tasks are now be managed exclusively through this console. Browse the links to learn more.
+You can no longer create, edit, update, or delete operators with native authentication from the client console. 
 
-* [Create operators](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)
-* [Create operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Createusergroups)
-* [Edit operators](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html)
-* [Edit operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Editusergroups)
-* [Assign or update operators' access rights](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html)
-* [Delete operators](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)
-* [Delete operator groups](https://helpx.adobe.com/enterprise/using/user-groups.html#Removeusergroups)
+As a consequence, these actions have been disabled in the client console.
+
+The administration of operators is centralized in the Adobe Admin Console, and the following tasks are now be managed exclusively through this console. Learn how to create users and assign permissions in [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}
 
 ### Unavailable options {#unavailable-migration}
 
 After the migration, the following tasks are no longer be available in the client console:
 
-* Use the [Merge Selected lines option](../../platform/using/updating-data.md#merge-data) to merge two operators.
+* Use the [Merge Selected lines option](../../platform/using/updating-data.md#merge-data) to merge operators.
 
 * Update the following fields for your operators:
     * Name
@@ -107,15 +103,15 @@ After the migration, the following tasks are no longer be available in the clien
 
 * [Reset your Campaign password](../../production/using/lost-password.md)
 
-* Edit the XML source.
+* Edit the XML source of the operators
 
 * Duplicate operators.
 
 
-## Useful links {#ims-useful-links}
-
-* [Migration of end-users to IMS](migrate-users-to-ims.md)
-* [Migration of technical operators to Adobe Developer console](ims-migration.md)
-* [Adobe Campaign Classic v7 latest release notes](../../rn/using/latest-release.md)
-* [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [Migration of end-users to IMS](migrate-users-to-ims.md)
+>* [Migration of technical operators to Adobe Developer console](ims-migration.md)
+>* [Adobe Campaign Classic v7 latest release notes](../../rn/using/latest-release.md)
+>* [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
 

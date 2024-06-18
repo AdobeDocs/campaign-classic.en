@@ -479,3 +479,12 @@ Note that the Technical Account user will NOT exist in Adobe Campaign until at l
 Once you have migrated all of the third-party systems to use the new Technical Account with IMS Authentication you can delete the old technical operator from the Campaign Client Console. 
 
 You do this by logging into the Campaign Client Console, navigating to **Administration > Access Management > Operators** and locating the old Technical Users and deleting them.
+
+
+>[!MORELIKETHIS]
+>
+>* [Migration of end-users to IMS](migrate-users-to-ims.md)
+>* [Update Campaign interface after IMS migration](impact-ims-migration.md)
+>* [Adobe Campaign Classic v7 latest release notes](../../rn/using/latest-release.md)
+>* [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
+

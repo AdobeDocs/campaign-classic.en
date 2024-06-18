@@ -123,8 +123,9 @@ You can now see the list of your **Operators** and their **Authentication Type**
 
 ![](assets/ims_3.png)
 
-## Useful links {#ims-useful-links}
 
-* [Migration of technical users to Adobe Developer console](ims-migration.md)
-* [Adobe Campaign Classic v7 release notes](../../rn/using/latest-release.md)
-* [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [Migration of technical users to Adobe Developer console](ims-migration.md)
+>* [Adobe Campaign Classic v7 release notes](../../rn/using/latest-release.md)
+>* [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
