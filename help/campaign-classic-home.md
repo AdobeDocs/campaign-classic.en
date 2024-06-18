@@ -15,9 +15,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Classic v7 product an
 >[!BEGINTABS]
 
 
->[!TAB December release is live!] 
+>[!TAB June release is live!] 
 
-Discover updates, improvements and patches coming with Campaign Classic v7.3.5.
+Discover updates, improvements and patches coming with Campaign Classic v7.4.1.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -25,7 +25,7 @@ Discover updates, improvements and patches coming with Campaign Classic v7.3.5.
 
 To reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS).
 
-[![image](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](technotes/using/ac-ims.md)
 
 
 >[!TAB Push channel changes] 
