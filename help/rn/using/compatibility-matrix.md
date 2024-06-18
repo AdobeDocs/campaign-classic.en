@@ -9,28 +9,17 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 ---
 # Compatibility matrix {#compatibility-matrix}
 
-
-
-This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic v7**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
-
-If you are a [!DNL Gold Standard] user, refer to the [[!DNL Gold Standard] Compatibility matrix](../../rn/using/gold-standard.md#compatibility-matrix-gs).
-
-## Important notes {#important-notes}
+In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic v7 is compatible with all the systems and tools listed in this page. As specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign will no longer be compatible with those versions, and they will be removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in this compatibility matrix to avoid any issues. To learn more about deprecated items, visit [this page](../../rn/using/deprecated-features.md).
 
 Unless mentioned otherwise, all minor releases are supported.
 
-In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic is compatible with all the systems and tools listed in this page. As specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign will no longer be compatible with those versions, and they will be removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
-
-To learn more about deprecated items, visit [this page](../../rn/using/deprecated-features.md).
-
 >[!CAUTION]
 >
->This matrix is regularly updated with new supported items being added and deprecated items being removed.
+>This matrix is regularly updated with new supported systems and tools being added and deprecated being removed.
 
 ## Operating Systems {#OperatingSystems}
 
 As an on-premise / hybrid customer, you must install Adobe Campaign in one of the operating systems listed below. Learn more about Campaign Classic v7 installation steps in [this page](../../installation/using/application-server.md).
-
 
 <table> 
 <tbody> 
@@ -154,7 +143,6 @@ As an on-premise / hybrid customer, you must install and configure the tools lis
 </td>
 </tbody>
 </table>
-
 
 ## Relation Database Management Systems (RDBMS) {#RDBMSservers}
 
@@ -385,7 +373,6 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </tr>
 </tbody>
 </table>
-
 
 
 ## Client Console {#ClientOS}
