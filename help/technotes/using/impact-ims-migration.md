@@ -87,7 +87,7 @@ You can no longer create, edit, update, or delete operators with native authenti
 
 As a consequence, these actions have been disabled in the client console.
 
-The administration of operators is centralized in the Adobe Admin Console, and the following tasks are now be managed exclusively through this console. Learn how to create users and assign permissions in [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}
+The administration of operators is centralized in the Adobe Admin Console, and the following tasks are now be managed exclusively through this console. Learn how to create users and assign permissions in [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
 
 ### Unavailable options {#unavailable-migration}
 
