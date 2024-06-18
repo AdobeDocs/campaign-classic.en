@@ -64,10 +64,12 @@ If necessary, this operation can be reproduced on the server-side.
 
 >[!NOTE]
 >
->This procedure is restricted to **on-premise** deployments. 
+>This procedure is restricted to **on-premise** deployments.
+>
+>This change is no longer needed starting Campaign v7.4.1.
 >
 
-For security reasons, we strongly recommend that you hide the Tomcat error report. Here are the steps.
+For security reasons, we strongly recommend that you hide the Tomcat error report. Follow these steps:
 
 1. Open the **server.xml** file located in the **/tomcat-X/conf** directory of the Adobe Campaign installation folder:  `/usr/local/neolane/nl6/tomcat-X/conf`
 1. Add the following element at the bottom after all existing context elements:

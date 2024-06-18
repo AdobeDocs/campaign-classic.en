@@ -52,7 +52,7 @@ Identify the server and choose the type of operation to perform. In this case, *
 Depending on the selected database engine, the server identification information may vary.
 
 * For an **Oracle** engine, populate the **TNS name** defined for the application server.
-* For a **PostgreSQL** or **DB2** engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.
+* For a **PostgreSQL** engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.
 * For a **Microsoft SQL Server** engine, you must define: the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS `\<instance>`** (instance mode),
 
    >[!CAUTION]
@@ -72,7 +72,6 @@ To do this, enter the name and password of an **Administration system account** 
 * **system** for an Oracle database,
 * **sa** for a Microsoft SQL Server database,
 * **postgres** for a PostgreSQL database,
-* **db2inst1** for a DB2 database.
 
 ### Step 3 - Connection and characteristics of the database {#step-3---connection-and-characteristics-of-the-database}
 
@@ -83,11 +82,6 @@ The following step lets you configure the settings for logging on to the databas
 You need to define the following settings:
 
 * Specify the name of the database to be created.
-
-  >[!NOTE]
-  >
-  >For a DB2 database, the name of the database must not exceed 8 characters.
-
 * Enter the password of the account linked to this database.
 * Indicate whether or not the database must be in Unicode.
 
@@ -176,7 +170,7 @@ Identify the server and choose the type of operation you want to carry out. In t
 Depending on the selected database engine, the server identification information may vary.
 
 * For an **Oracle** engine, populate the **TNS name** defined for the application server.
-* For a **PostgreSQL** or **DB2** engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.
+* For a **PostgreSQL** engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.
 * For a **Microsoft SQL Server** engine, you must define:
 
     1. the DNS name (or IP address) defined on the application server to access the database server,

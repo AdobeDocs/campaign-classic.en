@@ -78,7 +78,7 @@ In order for reports on MTA statistics (nms/fra/jsp/stat.jsp) to be displayed co
 In Debian, add the command:
 
 ```
-aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
+apt install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 ```
 
 Use the following command for RHEL:
@@ -94,7 +94,7 @@ Fonts of specific characters are necessary for the Japanese instances in order t
 In Debian, add the command:
 
 ```
-aptitude install fonts-ipafont
+apt install fonts-ipafont
 ```
 
 For RHEL, add the following command:
@@ -138,13 +138,13 @@ Also check the general [Database](../../installation/using/database.md) section.
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign supports all versions of the PostgreSQL client libraries from version 7.2: (**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** and **libpq.so.3.1**).
+Adobe Campaign supports all versions of the PostgreSQL client libraries from version 9.6: **libpq.so.5**.
 
 Using PostgreSQL with Adobe Campaign also requires installing the corresponding **pgcrypto** libraries.
 
 ### Oracle {#oracle}
 
-Retrieve the library version for 64-bit Debian, i.e.: **libclntsh.so**, **libclntsh.so.11.1** and **libclntsh.so.10.1**.
+Retrieve the library version for 64-bit Debian, i.e.: **libclntsh.so**, **libclntsh.so.19.1**, **libclntsh.so.18.1**, **libclntsh.so.12.1**, **libclntsh.so.11.1** or **libclntsh.so.10.1**.
 
 You can obtain a Linux RPM package from the Oracle Technology Network.
 
@@ -169,10 +169,6 @@ If you notice on the client console that there are unexpected time lags (one or 
    Also check ORACLE_HOME value to make sure it points to the expected client version (in case several versions are installed on the machine).
 
 1. Make sure the client and the server use the same **timezone file**.
-
-### DB2 {#db2}
-
-The library version supported is **libdb2.so**.
 
 ## Implementation steps {#implementation-steps}
 

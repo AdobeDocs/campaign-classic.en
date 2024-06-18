@@ -34,6 +34,8 @@ The [compatibility matrix for Adobe Campaign](compatibility-matrix.md) has been 
 
 * Adobe Campaign is now compatible with **Microsoft SQL Server 2022** and **Oracle 23c** as Relation Database Management Systems, and in Federated Data Access (FDA).
 
+* Adobe Campaign now requires at least a Java Development Kit (JDK) 11. On Windows, the JRE must be available as described in [this section](../../installation/using/application-server.md#jdk).
+
 * The Campaign (Neolane) SDK for mobile applications is now deprecated. You must now transition to Adobe Experience Platform SDK. [Learn more](deprecated-features.md).
     
     In the meantime, to ensure service continuity, Campaign v7.4 comes with:
@@ -41,7 +43,6 @@ The [compatibility matrix for Adobe Campaign](compatibility-matrix.md) has been 
     * a new Campaign SDK 1.0.27 for iOS, compatible with iOS 16 and 17, and the latest [Apple iOS Privacy Request requirements](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
     * a new Campaign SDK for Android 14.
 
-* Adobe Campaign is now compatible with Java Development Kit (JDK) 11. On Windows, the JRE must be available as described in [this section](../../installation/using/application-server.md#jdk).
 
 ### Patches {#release-7-4-1-patches}
 

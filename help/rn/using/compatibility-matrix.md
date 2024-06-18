@@ -117,29 +117,44 @@ As an on-premise / hybrid customer, you must install and configure the tools lis
 
 <table>
 <tbody>
+<td><strong>Tool</strong></td>
+<td><strong>Version</strong></td>
+<td><strong>Minium Campaign version</strong></td>
 <tr>
-<td>Java Development Kit (JDK)</td>
+<td><p>Java Development Kit (JDK)</p>
+<p>Learn more in <a href="../../installation/using/application-server.md#jdk" target="_blank">this page</a>.</p>
+</td>
 <td>
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>Read more about JDK and Campaign in <a href="../../installation/using/application-server.md#jdk" target="_blank">this page</a>.</p>
+<p></p>
 </td>
+<td>
+<p>required starting v7.4.1</p>
+<p>until v7.4.1</p>
+<p>until v7.4.1</p>
 </tr>
 <tr>
-<td>Libre Office</td>
+<td><p>Libre Office</p></td>
 <td>
 <p>7 (and previous versions if embedded in your system)</p>
 </td>
+<td>
+<p></p>
+</td>
 </tr>
 <tr>
-<td>SpamAssassin</td>
+<td><p>SpamAssassin</p></td>
 <td>
 <p>3.4.x</p>
 </td>
-</tr>
+<td>
+<p></p>
+</td>
 </tbody>
 </table>
+
 
 ## Relation Database Management Systems (RDBMS) {#RDBMSservers}
 

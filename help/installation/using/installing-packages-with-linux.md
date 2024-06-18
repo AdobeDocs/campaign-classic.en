@@ -86,15 +86,15 @@ To install Adobe Campaign on a Debian 64 bit operating system, apply the followi
   * Install libicu and libc-aresYY, where XX is the version, with the following commands:
 
     ```
-    aptitude install libicuXX
+    apt install libicuXX
     ```
 
     ```
-    aptitude install libc-aresXX
+    apt install libc-aresXX
     ```
 
     ```
-    aptitude install openjdk-XX-jdk
+    apt install openjdk-XX-jdk
     ```
 
 ## Personalizing parameters {#personalizing-parameters}
@@ -125,25 +125,6 @@ To enable the UTF-8 environment, use the following command:
 mkdir -p /usr/local/neolane/nl6 
 touch /usr/local/neolane/nl6/unicodeenv
 ```
-
-### Default language for the server {#default-language-for-the-server}
-
-The installation supports both English and French. English is used by default.
-
-To switch to French, enter the following commands:
-
-```
-su - neolane
-vi nl6/customer.sh
-```
-
-and add the following line:
-
-```
-export neolane_LANG=fra
-```
-
-To ensure that system messages are correctly read, the client console must be in a code page corresponding to the language (ISO-8859-1 or -15 for French).
 
 ### Environment variables {#environment-variables}
 

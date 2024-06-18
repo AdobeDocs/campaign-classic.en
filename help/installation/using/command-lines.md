@@ -39,7 +39,6 @@ The following values are possible for the **`[rdbms]`** parameter:
 * **postgresql**: for PostgreSQL,
 * **oracle**: for Oracle,
 * **mssql**: for Microsoft SQL Server,
-* **DB2**: for the DB2 engine.
 
 The following command configures the **demo** instance with the SQL type server known as **base6**, linked to the **campaign** account and its **password** on the **dbsrv** server:
 
