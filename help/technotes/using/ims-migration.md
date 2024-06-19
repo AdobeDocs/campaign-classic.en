@@ -154,12 +154,17 @@ You must now update all of the API Integrations making calls into Adobe Campaign
 
 For details on API integration steps, please refer to the code samples below.
 
+When using Adobe Identity Management System (IMS) authentication, to generate a WSDL file, you should add the Authorization: Bearer <IMS_Technical_Token_Token> in the postman call:
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
+
 >[!BEGINTABS]
 
 >[!TAB SOAP Call]
 
 ```
-
 curl --location --request POST 'https://<instance_name>.campaign.adobe.com/nl/jsp/soaprouter.jsp' \
 --header 'Content-Type: text/xml; charset=utf-8' \
 --header 'SOAPAction: xtk:queryDef#ExecuteQuery' \
