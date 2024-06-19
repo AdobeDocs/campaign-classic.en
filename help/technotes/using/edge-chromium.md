@@ -7,14 +7,15 @@ exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 ---
 # How to enable Microsoft Edge Chromium on your environment {#edge-conf}
 
-
-
-
 ## What changed?
 
 Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for dashboards in the client console is using Edge Chromium, starting Campaign Classic v7.3.
 
-In addition to the installation of Microsoft Edge Webview 2 runtime, which is now [required for any client console installation](../../installation/using/installing-the-client-console.md#webview), Microsoft Edge Chromium must be enabled on your instance(s). 
+In addition to the installation of Microsoft Edge Webview 2 runtime, which is now [required for any client console installation](../../installation/using/installing-the-client-console.md#webview), Microsoft Edge Chromium must be enabled on your instance(s).
+
+>[!NOTE]
+>
+>After enabling Microsoft Edge Chromium, the `Ctrl+F` (Windows) or `Command+F` (Mac) shortcut to open the browser's search dialog box will no longer work.
 
 ## Are you impacted?
 
