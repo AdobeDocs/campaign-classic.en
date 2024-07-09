@@ -31,7 +31,7 @@ Global impacts on database and infrastructure are listed below.
 
 * **Is there a risk of data loss?**
     
-    The database will be dumped from the legacy datacenter and restored in Public Cloud (AWS). When restarted on the new data center, the application will resume from the exact state it was before the migration. Users won’t see any difference, except that some scheduled tasks will have been delayed.
+    The database will be dumped from the legacy datacenter and restored in Public Cloud (AWS). When restarted on the new data center, the application will resume from the exact state it was before the migration. Users won't see any difference, except that some scheduled tasks will have been delayed.
 
 * **Are there any differences in the size of the package between the Legacy data center and the Public Cloud?**
     
@@ -72,7 +72,11 @@ Global impacts on IPs, block list, sub-domains and URLs are listed below.
 * **How will sub-domain delegation be handled?**
     
     Existing subdomains will be moved from legacy Data Center to Public Cloud (AWS). This part will be handled by Adobe Deliverability team as part of the migration process.
-    
+
+    >[!NOTE]
+    >
+    >Engagement of Deliverability team is based on contract, and customers should contact their Adobe representative for information related to Deliverability engagement.
+
     Adobe will guide the customer through the required tests to ensure configuration is up and running on new Public Cloud (AWS) servers after the migration.
 
 * **Will the migration produce new URLs for tracking, resources and web applications?**
@@ -85,7 +89,7 @@ Global impacts on IPs, block list, sub-domains and URLs are listed below.
 
 * **What is the plan for IP Warming?**
     
-    First of all, Adobe Deliverability will assess the platform’s deliverability status and recommend a plan for the switch to the new IPs 
+    First of all, Adobe Deliverability will assess the platform's deliverability status and recommend a plan for the switch to the new IPs 
     
     No warm-up is required after the migration. It might be some exception and, in such case, [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support) will reach out to customers.
     
@@ -113,7 +117,7 @@ Migration to public Cloud will come with new IPs for Adobe Campaign application 
 
 ![](assets/migration.png)
 
-Let’s consider the two cases :
+Let's consider the two cases :
 
 * Inbound traffic: All network activity that is initiated from your systems or any other third party to Adobe Campaign servers. Configuration will be handled by Adobe and then copied from legacy to public Cloud during migration. Then connectivity for inbound traffic will be preserved as is after the migration and no action is expected from Customer side 
 
@@ -139,7 +143,7 @@ Global impacts on configuration, connectivity with other systems and products, A
 
 * **What about customer that are not attached to Organization ID for IMS integration?**
 
-    Customers who don’t have IMS will be provided one: an organization ID will be attached to their instance.
+    Customers who don't have IMS will be provided one: an organization ID will be attached to their instance.
 
 * **Are multi-branding configurations impacted by the migration?**
     
@@ -217,7 +221,7 @@ Global impacts during the migration are listed below.
 
 * **Do we need to plan stopping Marketing activity during the migration?**  
 
-    Adobe recommends slowing down and ideally pausing all executions just before the application is shut down on the legacy Data Center: deliveries and workflows. That will ease the restart on Cloud Server (AWS) as processes will have been given time to pause “gracefully” and save any in-progress execution state. 
+    Adobe recommends slowing down and ideally pausing all executions just before the application is shut down on the legacy Data Center: deliveries and workflows. That will ease the restart on Cloud Server (AWS) as processes will have been given time to pause "gracefully" and save any in-progress execution state. 
 
 * **Do we expect downtime of our Adobe Campaign service?**
 
@@ -235,7 +239,7 @@ Global impacts during the migration are listed below.
 
 * **What is the estimated downtime for migrating an instance?**
     
-    Downtime is entirely dependent on the size of the customer’s database and SFTP file storage sizes. Please reach out to your Customer Care contact to get provided with an estimated duration.
+    Downtime is entirely dependent on the size of the customer's database and SFTP file storage sizes. Please reach out to your Customer Care contact to get provided with an estimated duration.
 
 * **What about messages sent from the legacy server. Will links always be accessible?**
     

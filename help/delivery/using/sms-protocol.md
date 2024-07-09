@@ -377,6 +377,10 @@ If you need to precisely control the number of connections, e.g. provider requir
 
 Sets the name of the SMSC implementation. It should be set to the name of your provider. Contact the administrator or the deliverability team to know what to add in this field. The role of this field is described in the [SR error management](sms-protocol.md#sr-error-management) section.
 
+>[!NOTE]
+>
+>Engagement of Deliverability team is based on contract, and customers should contact their Adobe representative for information related to Deliverability engagement.
+
 #### Server {#server}
 
 The DNS name or IP address of the server to connect to.
