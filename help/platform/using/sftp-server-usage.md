@@ -11,15 +11,13 @@ exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 ---
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
 
- 
-
 ## SFTP server global recommendations {#global-recommendations}
 
 When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. Make sure you follow the recommendations below when using SFTP servers.
 
 * Use key based authentication rather than password authentication, in order to avoid password expiration (passwords have a validity period of 90 days). Moreover, key based authentication lets you generate multiple keys, for example when managing multiple entities. On the contrary, password authentication requires that you share the password with all the entities you are managing.
 
-  The supported key format is SSH-2 RSA 2048. Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have it uploaded on the Campaign server. 
+  The supported key format is SSH-2 RSA 2048. The tool to generate SSH keys for Windows is PuTTYgen, and ssh-keygen for Linux. You can upload public SSH keys via the Campaign Control Panel. [Learn more](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/key-management){target="_blank"}
 
 * Use batching in SFTP uploads as well as in workflows.
 
@@ -27,9 +25,9 @@ When managing files and data for ETL purposes, these files are stored on a hoste
 
 * By default, all the folders you create are in Read/Write mode for your identifier only. When creating folders that need to be accessed by Campaign, make sure to configure them with Read/write rights for the whole group. Otherwise, workflows may not be able to create / delete files as they are run under a different identifier within the same group for security reasons.
 
-* The public IPs from which you are trying to initiate the SFTP connection must be added to the allowlist on the Campaign instance. Adding IP addresses to the allowlist can be requested via [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+* The public IPs from which you are trying to initiate the SFTP connection must be added to the allowlist on the Campaign instance. The public IPs can be added via the Control Panel. [Learn more](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
 
-## Database usage best practices {#sftp-server-best-practices}
+## SFTP storage usage best practices {#sftp-server-best-practices}
 
 SFTP severs are designed to be temporary storage spaces on which you can control retention and deletion of files.
 
@@ -39,11 +37,11 @@ To avoid such problems, Adobe recommends following the best practices below.
 
 >[!NOTE]
 >
->If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). To check if your instance is hosted on AWS, follow the steps detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+>You can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
 >
->Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel){target="_blank"}.
 >
->Note that your instance must be upgraded with the [latest GA build](../../rn/using/rn-overview.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>Note that your instance must be upgraded with the [latest GA build](../../rn/using/rn-overview.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}.
 
 * The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).
 
@@ -64,7 +62,7 @@ Moreover, when specifying in Campaign Classic a path to an external SFTP server,
 
 ## Connection issues with Adobe hosted SFTP server {#sftp-server-troubleshooting}
 
-The section below lists the information to check and provide to the Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) when encountering connection issues with Adobe hosted SFTP servers.
+The section below lists the information to check and provide to the Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} when encountering connection issues with Adobe hosted SFTP servers.
 
 1. Check that your instance is running. To do this, open your browser, then make a **[!UICONTROL GET]** call on the instance **[!UICONTROL /r/test]** endpoint:
 
@@ -91,10 +89,6 @@ The section below lists the information to check and provide to the Adobe Suppor
    bash-3.2$ nc -vz myCompagny-stage-sftp.neolane.net 22
    myCompany-stage-sftp.neolane.net [AAA.BBB.CCC.D] 22 (ssh) open
    ```
-
-   >[!NOTE]
-   >
-   >The Netcat tool lets you easily manage network connections on various operating systems (see [https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/)).
 
    If the port is not opened, make sure to open outbound connections at your side, then try again. If you still meet connection issues, share the output of the command with [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team.
 
