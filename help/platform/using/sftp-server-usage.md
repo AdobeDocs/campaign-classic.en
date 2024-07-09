@@ -37,11 +37,11 @@ To avoid such problems, Adobe recommends following the best practices below.
 
 >[!NOTE]
 >
->You can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
+>* You can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
 >
->Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel){target="_blank"}.
+>* Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel){target="_blank"}.
 >
->Note that your instance must be upgraded with the [latest GA build](../../rn/using/rn-overview.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}.
+>* Note that your instance must be upgraded with the [latest GA build](../../rn/using/rn-overview.md). Learn how to check your version in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}.
 
 * The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).
 
@@ -66,13 +66,13 @@ The section below lists the information to check and provide to the Adobe Suppor
 
 1. Check that your instance is running. To do this, open your browser, then make a **[!UICONTROL GET]** call on the instance **[!UICONTROL /r/test]** endpoint:
 
-   ```
+   ```xml
    https://instanceUrl/r/test
    ```
 
    If the instance is running, you should get this type of response:
 
-   ```
+   ```xml
    <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instance-name'
    sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instance-name'/>
    ```
@@ -81,7 +81,7 @@ The section below lists the information to check and provide to the Adobe Suppor
 
 1. Check if the outbound port 22 is opened at the site from which you are trying to initiate the SFTP connection. To do this, use the following command:
 
-   ```
+   ```xml
    bash-3.2$ nc -vz <SFTP_URL> 22
    # Replace the SFTP_URL with actual SFTP instance URL
    # If the port 22 is opened you will see output similar to the below one
@@ -103,7 +103,7 @@ This section provides information on the checks and action to perform when getti
 
 The workflow journal shows the following logs:
 
-```
+```xml
 16/05/2016 12:49:03    fileTransfer    Upload error in cURL
 16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
 16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
@@ -138,8 +138,8 @@ This error indicates that FTP server domain name could not be resolved properly.
 
       Otherwise validate:
 
-      * The password doesn't contain '@'. The connection failed if there is '@' in the password.
+      * The password does not contain the `@` character. The connection fails if there is an `@` character in the password.
       * There are no firewall issues which can hamper communication between Adobe Campaign application server and SFTP server.
       * Run tracert and telnet commands from the campaign server to the sftp to see if there are any connection issues.
       * There are no communication protocol issues.
-      * Port is open.
+      * The port is open.
