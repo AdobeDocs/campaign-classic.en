@@ -47,6 +47,10 @@ Here are the consequences of using this attribute in Campaign:
 * When storing the targeted population in a group (list), the characteristics of the stored fields are the same as the source of data.
 * Data is not accessible to JS code by default.
 
+>[!IMPORTANT]
+>
+>Using the **accessibleIf** attribute on critical parameters (such as those in composite keys) can result in errors for users that are not allowed to read the data due to hidden data. This may lead to query failures or unexpected behavior. Ensure essential parameters are accessible to prevent disruptions.
+
 ## Recommendations {#recommendations}
 
 In each delivery, email addresses are copied into the **[!UICONTROL broadLog]** and the **[!UICONTROL forecastLog]** tables: as a consequence, those fields needs to be protected too.
