@@ -15,7 +15,7 @@ exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 >
 >As a v7 user, to be able to proceed further, make sure that Adobe Identity Management System (IMS) is enabled on your system. [Learn more](../../integrations/using/about-adobe-id.md).
 
-Once Adobe Identity Management Service (IMS) is enabled for your organization, you can request provisioning of the [Experience Cloud Audience](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} integration with Campaign. To do that, send an email to [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) with the following information:
+Once Adobe Identity Management Service (IMS) is enabled for your organization, you can request provisioning of the [Experience Cloud Audience](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} integration with Campaign. To do that, contact your Adobe representative and provide the following information:
 
 <table> 
  <tbody> 
