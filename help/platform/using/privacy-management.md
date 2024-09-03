@@ -11,7 +11,6 @@ exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 ---
 # Privacy management {#privacy-management}
 
-
 Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
 Here are the five main capabilities offered by Adobe Campaign to ensure privacy regulations readiness:
@@ -99,6 +98,7 @@ The following are the default retention values for built-in tables. Be aware tha
 * **Statistics of event processing**: 1 year
 * **Archived events**: 1 year
 * **Pipeline events ignored**: 1 month
+* **Dynamic reporting**: 13 months
 
 And similar to delete, using standard workflow functionality, it is possible to set up retention periods for any custom table.
 
