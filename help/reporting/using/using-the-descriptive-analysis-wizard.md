@@ -6,7 +6,7 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 ---
-# Use the descriptive analysis assistant{#using-the-descriptive-analysis-assistant}
+# Use the descriptive analysis assistant{#using-the-descriptive-analysis-wizard}
 
  
 

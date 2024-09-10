@@ -130,4 +130,4 @@ To create a new statistic, click the **[!UICONTROL Add]** icon and configure the
 
 ![](assets/reporting_add_statistics.png)
 
-For more on this, refer to [this section](../../reporting/using/using-the-descriptive-analysis-assistant.md#statistics-calculation).
+For more on this, refer to [this section](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).

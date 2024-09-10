@@ -455,6 +455,6 @@ If you click the link of one of these deliveries, it shows the chart showing the
 
 This type of table lets you display statistics calculated on the data in the database.
 
-The configuration of these types of reports is similar to the one used for the descriptive analysis assistant. For more on this, refer to [this page](../../reporting/using/using-the-descriptive-analysis-assistant.md#configuring-the-quantitative-distribution-template).
+The configuration of these types of reports is similar to the one used for the descriptive analysis assistant. For more on this, refer to [this page](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
 
 For more on creating a pivot table, refer to [this section](../../reporting/using/ac-cubes.md).

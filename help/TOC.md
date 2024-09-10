@@ -288,7 +288,7 @@ type: Documentation
        + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyze populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
-       + [Use the descriptive analysis assistant](reporting/using/using-the-descriptive-analysis-assistant.md)
+       + [Use the descriptive analysis assistant](reporting/using/using-the-descriptive-analysis-wizard.md)
        + [Report settings](reporting/using/processing-a-report.md)
        + [Use cases](reporting/using/use-cases.md)
   + Create new reports {#creating-new-reports}
