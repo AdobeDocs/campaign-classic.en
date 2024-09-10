@@ -81,7 +81,7 @@ After configuring your query (refer to the [Workflows guide](../../workflow/usin
     
       ![](assets/int_enrichment_offer4.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-assistant.md#inserting-an-offer-proposition-into-a-delivery) section.
+1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ To do this, use the following process:
 
    ![](assets/int_enrichment_link2.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-assistant.md#inserting-an-offer-proposition-into-a-delivery) section.
+1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
 
    >[!NOTE]
    >
@@ -151,7 +151,7 @@ After configuring your query (refer to the [Workflows guide](../../workflow/usin
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-assistant.md#inserting-an-offer-proposition-into-a-delivery) section.
+1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
 
 ## Offers by cell {#offers-by-cell}
 
@@ -168,4 +168,4 @@ To do this, use the following process:
     
       ![](assets/int_offer_per_cell1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-assistant.md#inserting-an-offer-proposition-into-a-delivery) section.
+1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.

@@ -690,7 +690,7 @@ Learn more about [Offer space](../../interaction/using/creating-offer-spaces.md)
 
 Offer themes are keywords defined in a category, which lets Operators filter offers when they are presented. Themes allow for the non-hierarchical selection of offers from the catalog structure. 
 
-Learn more about [Offer themes](../../interaction/using/integrating-an-offer-via-the-assistant.md).
+Learn more about [Offer themes](../../interaction/using/integrating-an-offer-via-the-wizard.md).
 +++
 
 +++**Offer weight**

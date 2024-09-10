@@ -45,7 +45,7 @@ To define your target, create a query to identify the recipients.
 
    ![](assets/wkf_cross-channel_1.png)
 
-   For more on integrating an offer into the body of a message, refer to [this section](../../interaction/using/integrating-an-offer-via-the-assistant.md#delivering-with-a-call-to-the-offer-engine).
+   For more on integrating an offer into the body of a message, refer to [this section](../../interaction/using/integrating-an-offer-via-the-wizard.md#delivering-with-a-call-to-the-offer-engine).
 
 1. Save your changes.
 1. Right-click the **[!UICONTROL Email delivery]** activity to open it.

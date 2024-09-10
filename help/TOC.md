@@ -532,7 +532,7 @@ type: Documentation
        + [Simulation tracking](interaction/using/simulation-tracking.md)
   + Deliver an offer {#delivering-an-offer}
        + [About outbound channels](interaction/using/about-outbound-channels.md)
-       + [Integrate an offer via the assistant](interaction/using/integrating-an-offer-via-the-assistant.md)
+       + [Integrate an offer via the assistant](interaction/using/integrating-an-offer-via-the-wizard.md)
        + [Integrate an offer via a workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
   + Unitary interactions {#unitary-interactions}
        + [About inbound channels](interaction/using/about-inbound-channels.md)
