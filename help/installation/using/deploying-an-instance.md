@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Deploying an instance
-description: Learn more about Campaign deployment assistant
+description: Learn more about Campaign deployment wizard
 feature: Installation, Instance Settings, Deployment
 badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
@@ -15,11 +15,11 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 >
 >Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
 
-## Deployment assistant {#deployment-assistant}
+## deployment wizard {#deployment-assistant}
 
 Adobe Campaign provides a graphical assistant, available in the Adobe Campaign client console, to define the parameters of the instance to which you are going to connect.
 
-To start the deployment assistant, select **Tools > Advanced > Deployment assistant**.
+To start the deployment wizard, select **Tools > Advanced > deployment wizard**.
 
 ![](assets/s_ncs_install_deployment_wiz_01.png)
 
@@ -37,7 +37,7 @@ The configuration steps are as follows:
 
 ## General parameters {#general-parameters}
 
-The first step of the deployment assistant lets you enter general information on the instance.
+The first step of the deployment wizard lets you enter general information on the instance.
 
 ![](assets/s_ncs_install_deployment_wiz_02.png)
 
@@ -139,7 +139,7 @@ Configuration options for quarantines are as follows:
 
 Bounce mail is extremely important to qualify delivery errors. These errors are categorized in the NP@I once the rules have determined their cause.
 
-This step is only available if the **Email channel** and **Bounce mail** management options are selected in the first stage of the deployment assistant. Refer to [General parameters](#general-parameters).
+This step is only available if the **Email channel** and **Bounce mail** management options are selected in the first stage of the deployment wizard. Refer to [General parameters](#general-parameters).
 
 This stage lets you define settings for managing bounce mails.
 
@@ -176,7 +176,7 @@ Unprocessed bounces are not displayed in the Adobe Campaign interface. They are 
 
 The next step lets you configure tracking for the instance. The instance must be declared and registered with the tracking server(s).
 
-This step is only offered when the **Email channel** and **Tracking** options are selected in the first page of the deployment assistant. Refer to [General parameters](#general-parameters).
+This step is only offered when the **Email channel** and **Tracking** options are selected in the first page of the deployment wizard. Refer to [General parameters](#general-parameters).
 
 For more detailed information on web tracking (tracking mode, creating and inserting tags...), refer to [this document](../../configuration/using/about-web-tracking.md).
 
@@ -184,7 +184,7 @@ For more detailed information on web tracking (tracking mode, creating and inser
 
 When you activate tracking on an instance, the URLs in the deliveries are changed during sending to enable tracking.
 
-* The information on external URLs (whether secure or not) entered on this page of the deployment assistant is used to build the new URL. As well as this information, the modified link contains: the identifiers of the delivery, the recipient and the URL.
+* The information on external URLs (whether secure or not) entered on this page of the deployment wizard is used to build the new URL. As well as this information, the modified link contains: the identifiers of the delivery, the recipient and the URL.
 
   Tracking information is collected by Adobe Campaign on the tracking server(s) to enrich recipient profiles and the data linked to the delivery ( **[!UICONTROL Tracking]** tabs).
 
@@ -509,7 +509,7 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false"
 
 ## Purging data {#purging-data}
 
-The last stage of the deployment assistant lets you configure the automatic purging of obsolete data. The values are expressed in days.
+The last stage of the deployment wizard lets you configure the automatic purging of obsolete data. The values are expressed in days.
 
 ![](assets/s_ncs_install_deployment_wiz_16.png)
 

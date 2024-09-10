@@ -18,7 +18,7 @@ You can configure the warning thresholds (orange) and alert thresholds (red) of 
 
 To do this, follow the steps below:
 
-1. Open the deployment assistant on the **execution instance**.
+1. Open the deployment wizard on the **execution instance**.
 
 1. Go to the **[!UICONTROL Message Center]** page.
 
@@ -28,11 +28,11 @@ To do this, follow the steps below:
 
 >[!NOTE]
 >
->The number of events pending in queue is displayed in the [System indicators](../../production/using/monitoring-processes.md#system-indicators) section of the Adobe Campaign process monitoring page. For more information on the deployment assistant, refer to [this section](../../installation/using/deploying-an-instance.md#deployment-assistant).
+>The number of events pending in queue is displayed in the [System indicators](../../production/using/monitoring-processes.md#system-indicators) section of the Adobe Campaign process monitoring page. For more information on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 ## Purge events {#purging-events}
 
-You can use the [deployment assistant](../../production/using/database-cleanup-workflow.md#deployment-assistant) to configure how long the data is to be stored in the database.
+You can use the [deployment wizard](../../production/using/database-cleanup-workflow.md#deployment-assistant) to configure how long the data is to be stored in the database.
 
 Event purging is carried out automatically by the [Database cleanup workflow](../../production/using/database-cleanup-workflow.md). This workflow purges the events received and stored on the execution instances and events archived on a control instance.
 
@@ -65,7 +65,7 @@ These workflows can then be accessed from the **Administration > Production > Me
 
 <!--**Minimal architecture**
 
-Once the control and execution modules are installed on the same instance, you must create the archiving workflow using the deployment assistant. Click the **[!UICONTROL Create the archiving workflow]** button to create and start the workflow.
+Once the control and execution modules are installed on the same instance, you must create the archiving workflow using the deployment wizard. Click the **[!UICONTROL Create the archiving workflow]** button to create and start the workflow.
 
 ![](assets/messagecenter_archiving_001.png)-->
 

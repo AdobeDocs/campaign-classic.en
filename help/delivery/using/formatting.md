@@ -536,7 +536,7 @@ Example of how to use the image placement option and its use with an image:
 
 ### Using public resources {#using-public-resources}
 
-You can also use **[!UICONTROL Public resources]** to declare images and upload them onto the server depending on the instance settings entered in the deployment assistant.
+You can also use **[!UICONTROL Public resources]** to declare images and upload them onto the server depending on the instance settings entered in the deployment wizard.
 
 You can then call up these images in contents. to do this, use the following syntax in the content management schema:
 

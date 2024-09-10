@@ -22,7 +22,7 @@ Each mode has specific characteristics. The "permanent" Web tracking mode includ
 >
 >The "anonymous" Web tracking mode is enabled by default if the "Leads" package is enabled. In all other cases, the "session" Web tracking mode is enabled by default.
 >
->At any time, the default mode can be changed in the instance deployment assistant.
+>At any time, the default mode can be changed in the instance deployment wizard.
 
 Note that if you are using the **permanent web** or **anonymous** tracking mode, you must add an index to the "sourceID" column (uuid230) in the tracking tables (trackingLogXXX):
 

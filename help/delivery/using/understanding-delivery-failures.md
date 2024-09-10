@@ -269,7 +269,7 @@ Mail rules are accessed via the **[!UICONTROL Administration > Campaign Manageme
 
 >[!NOTE]
 >
->The default parameters of the platform are configured in the deployment assistant. For further information, refer to [this section](../../installation/using/deploying-an-instance.md).
+>The default parameters of the platform are configured in the deployment wizard. For further information, refer to [this section](../../installation/using/deploying-an-instance.md).
 
 The default rules are as follows.
 

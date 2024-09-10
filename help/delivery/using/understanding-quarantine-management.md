@@ -119,7 +119,7 @@ The error counter is reinitialized if the last significant error occurred more t
 
 For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the maximum number of retries to be performed in case of **[!UICONTROL Erroneous]** status and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain.
 
-For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment assistant](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or [at the delivery level](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment wizard](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or [at the delivery level](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 
 ## Remove an address from quarantine {#removing-a-quarantined-address}

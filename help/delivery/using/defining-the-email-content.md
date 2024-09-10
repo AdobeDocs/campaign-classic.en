@@ -22,7 +22,7 @@ To find out how to insert and use personalization fields, refer to [About person
 >[!NOTE]
 >
 >* The sender's address is used for replies by default.
->* The header parameters must not be empty. By default, they contain the values input when configuring the deployment assistant. Learn more in [this section](../../installation/using/deploying-an-instance.md).
+>* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. Learn more in [this section](../../installation/using/deploying-an-instance.md).
 >* The sender's address is mandatory to allow an email to be sent (RFC standard).
 >* Adobe Campaign checks the syntax of email addresses entered.
 
@@ -205,7 +205,7 @@ For each image detected, you can view its status:
 
 * If an image is stored locally or located on another server, even if this server is visible from the outside (on an internet site, for example), it will be detected as **[!UICONTROL Not yet online]**.
 * The images are detected as **[!UICONTROL Already online]** if they were uploaded earlier while creating another delivery.
-* In the deployment assistant, you can define URLs for which image detection is not enabled: uploading these images will be **[!UICONTROL Skipped]**.
+* In the deployment wizard, you can define URLs for which image detection is not enabled: uploading these images will be **[!UICONTROL Skipped]**.
 
 >[!NOTE]
 >

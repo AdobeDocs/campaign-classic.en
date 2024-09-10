@@ -35,7 +35,7 @@ Offer synchronization is carried out via packages. On execution instances, all c
 
 Offers are automatically deployed then published on execution and control instances.
 
-Offers deleted in the design environment are disabled on all online instances. Obsolete propositions and offers are automatically deleted on all instances after the purge period (specified in each instance's deployment assistant) and sliding period (specified in the incoming propositions' typology rules).
+Offers deleted in the design environment are disabled on all online instances. Obsolete propositions and offers are automatically deleted on all instances after the purge period (specified in each instance's deployment wizard) and sliding period (specified in the incoming propositions' typology rules).
 
 ![](assets/interaction_powerbooster_schema2.png)
 
@@ -59,7 +59,7 @@ The Interaction package must be installed on all instances (control and executio
 >
 >When installing the package, the **long** type fields of the **nms:proposition** table such as the proposition ID, become **int64** type fields. This type of data is detailed in the [this section](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
-The data retention duration must be configured on each instance (via the **[!UICONTROL Data purge]** window in the deployment assistant). On execution instances, this period must correspond to the historical depth necessary for typology rules (sliding period) and eligibility rules to be calculated.
+The data retention duration must be configured on each instance (via the **[!UICONTROL Data purge]** window in the deployment wizard). On execution instances, this period must correspond to the historical depth necessary for typology rules (sliding period) and eligibility rules to be calculated.
 
 On the control instances:
 

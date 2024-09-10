@@ -30,7 +30,7 @@ For additional tips to optimize deliverability when designing content, see the [
 
 Certain ISPs check the validity of the sender address (**[!UICONTROL From]**) before accepting messages. A badly formed address may result in it being rejected by the receiving server.
 
-You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > Deployment assistant...]**) or in the most frequently-used scenarios.
+You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > deployment wizard...]**) or in the most frequently-used scenarios.
 
 For more on this, see [this page](defining-the-email-content.md).
 

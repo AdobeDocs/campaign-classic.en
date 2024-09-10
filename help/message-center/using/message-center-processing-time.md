@@ -31,4 +31,4 @@ The indicators displayed in the **[!UICONTROL Indicators over the period]** sect
 
 >[!NOTE]
 >
->The warning (orange) and alert (red) indicator thresholds can be configured in Adobe Campaign deployment assistant. Refer to [Monitor thresholds](../../message-center/using/additional-configurations.md#monitoring-thresholds).
+>The warning (orange) and alert (red) indicator thresholds can be configured in Adobe Campaign deployment wizard. Refer to [Monitor thresholds](../../message-center/using/additional-configurations.md#monitoring-thresholds).

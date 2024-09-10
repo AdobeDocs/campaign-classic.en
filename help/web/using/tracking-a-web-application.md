@@ -50,7 +50,7 @@ In order to identify the traffic source in a Web application, Adobe Campaign suc
 
 >[!NOTE]
 >
->Anonymous tracking is only available if the option has been activated in the deployment assistant when installing Campaign. 
+>Anonymous tracking is only available if the option has been activated in the deployment wizard when installing Campaign. 
 
 ## Web applications designed with Digital Content Editor (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 

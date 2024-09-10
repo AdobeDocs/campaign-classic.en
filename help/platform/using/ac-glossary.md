@@ -239,11 +239,11 @@ A delivery outline is a structured set of elements (documents, stores, promotion
 Learn more about [Direct Mail](../../delivery/using/about-direct-mail-channel.md).
 +++
 
-+++**Deployment assistant**
++++**deployment wizard**
 
-The deployment assistant defines the parameters of the Campaign instance, such as the default namespace, database cleanup schedule, data retention periods, and other technical settings.
+The deployment wizard defines the parameters of the Campaign instance, such as the default namespace, database cleanup schedule, data retention periods, and other technical settings.
 
-Learn more about [Deployment assistant](../../installation/using/deploying-an-instance.md#deployment-assistant).
+Learn more about [deployment wizard](../../installation/using/deploying-an-instance.md#deployment-assistant).
 +++
 
 +++**Descriptive Analysis**
@@ -478,7 +478,7 @@ Learn more about [Inbox rendering](../../delivery/using/delivery-dashboard.md#de
 
 +++**Instance settings**
 
-Instance settings are configuration details of an Adobe Campaign instance. These settings are defined in the Deployment assistant (Tools>Advanced>Deployment assistant) or in the server and/or instance configuration files.
+Instance settings are configuration details of an Adobe Campaign instance. These settings are defined in the deployment wizard (Tools>Advanced>deployment wizard) or in the server and/or instance configuration files.
 
 Learn more about [Instance settings](../../installation/using/about-initial-configuration.md).
 

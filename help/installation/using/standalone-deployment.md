@@ -220,7 +220,7 @@ Apply the following steps:
 
    Once the database is created, log off.
 
-1. Log back on to the client console using the **admin** login without a password and start the deployment assistant ( **[!UICONTROL Tools > Advanced]** menu) to finish configuring the instance.
+1. Log back on to the client console using the **admin** login without a password and start the deployment wizard ( **[!UICONTROL Tools > Advanced]** menu) to finish configuring the instance.
 
    For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 

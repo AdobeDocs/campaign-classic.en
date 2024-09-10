@@ -133,7 +133,7 @@ The final stage of the assistant enables you to create the database. Click **[!U
 
 Once the database is created, you can re-connect to finalize instance configuration.
 
-You must now start the deployment assistant to finish configuring the instance. Refer to [Deployment assistant](../../installation/using/deploying-an-instance.md#deployment-assistant).
+You must now start the deployment wizard to finish configuring the instance. Refer to [deployment wizard](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 The connection settings for the database linked to the instance are stored in the file **`/conf/config-<instance>.xml`** found in the Adobe Campaign installation directory.
 
@@ -224,7 +224,7 @@ The final stage of the assistant enables you to create the database. Click **[!U
 
 Once database creation is complete, you can reconnect to finalize instance configuration.
 
-You must now start the deployment assistant to finish configuring the instance. Refer to [Deployment assistant](../../installation/using/deploying-an-instance.md#deployment-assistant).
+You must now start the deployment wizard to finish configuring the instance. Refer to [deployment wizard](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 The connection settings for the database linked to the instance are stored in the file **`/conf/config-<instance>.xml`** found in the Adobe Campaign installation directory.
 
