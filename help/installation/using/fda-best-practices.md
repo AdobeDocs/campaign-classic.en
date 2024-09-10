@@ -32,11 +32,13 @@ In multiple Adobe Campaign workflow activities, you can use the data stored in a
 
 * **Adding information and links** - The [Enrichment](../../workflow/using/enrichment.md) activity lets you to add additional data to the worktable of the workflow, and links to an external table. In this context, it can use data from an external database. Learn more in [this page](../../workflow/using/enrichment.md).
 
-## FDA limitations {#limitations}
+## Guardrails and limitations {#fda-limitations}
 
-The FDA option is made to manipulate the data in external databases in batch mode in workflows. To avoid performance issues, it is not recommended to use the FDA module in the context of unitary operations, such as: personalization, interaction, real-time messaging, etc.
+The FDA option is designed to manipulate the data in external databases in batch mode in workflows. To avoid performance issues, it is not recommended to use the FDA module in the context of unitary operations, such as: personalization, interaction, real-time messaging, etc.
 
-Avoid the operations that need to use both the Adobe Campaign and the external database as much as possible. To do this, you can:
+Targeting data from one database and filering the results using a filtering dimension that belongs to another database is not supported. You cannot join tables that are on different data sources in one query. You can overcome this limitation using other workflow activities such as Change dimension.
+
+Avoid the operations that need to use both the Adobe Campaign and the external database as much as possible. Best practice is to:
 
 * Export the Adobe Campaign database to the external database and execute the operations only from the external database before re-importing the results into Adobe Campaign.
 
