@@ -45,7 +45,7 @@ By default, the **[!UICONTROL Database cleanup]** workflow is configured to star
 
 The **[!UICONTROL deployment wizard]**, accessed via the **[!UICONTROL Tools > Advanced]** menu, lets you configure how long data is saved for. Values are expressed in days. If these values aren't altered, the workflow will use the default values. 
 
-![](assets/ncs_cleanup_deployment-assistant.png)
+![](assets/ncs_cleanup_deployment-wizard.png)
 
 The fields of the **[!UICONTROL Purge of data]** window coincide with the following options. These are used by some of the tasks executed by the **[!UICONTROL Database cleanup]** workflow:
 
