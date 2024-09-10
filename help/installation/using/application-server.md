@@ -28,7 +28,7 @@ The supported versions are detailed in Campaign [Compatibility matrix](../../rn/
 
 >[!AVAILABILITY]
 >
->* Starting v7.4.1, Campaign requires at least Java JDK 11. If your Campaign server is installed in a Windows environment, you must generate a JRE as it is no longer provided by default.
+>* Starting v7.4.1, Campaign requires at least Java JDK 11. If your Campaign server is installed in a Windows environment, you must generate a JRE as it is no longer provided by default. The JRE_HOME environment variable is required to locate the Java runtime DLL (jvm.dll).
 >
 >* Starting v7.4.1, Tomcat 10.1 is the default version.
 >

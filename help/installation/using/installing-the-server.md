@@ -13,8 +13,6 @@ exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 
 ## Executing the installation program {#executing-the-installation-program}
 
-For a Windows 32 bit platform, install Adobe Campaign 32 bit. For a Windows 64 bit platform, install Adobe Campaign 64 bit.
-
 The installation steps for the Adobe Campaign server are the following:
 
 1. Execute the file **setup.exe**.

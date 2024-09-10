@@ -20,7 +20,7 @@ Once it is configured, this variable is taken into account by all Adobe Campaign
 
 Edit the **customer.sh** file and add the following line:
 
-```
+```sql
 export TRACE_ADDR=localhost:<listening port>
 ```
 
