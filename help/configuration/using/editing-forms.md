@@ -51,7 +51,7 @@ You can create different types of input forms. The form type determines how user
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
-* Wizard
+* Assistant
 
   This form comprises multiple floating screens that are ordered in a specific sequences. Users navigate from one screen to the next. [Read more](form-structure.md#wizards).
 

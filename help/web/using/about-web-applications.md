@@ -88,7 +88,7 @@ By default, Adobe Campaign provides one template per available Web application.
 
 You can create new templates via the **[!UICONTROL Resources > Templates > Web Application templates]** node of the Adobe Campaign tree.
 
-The creation wizard lets you select the options you want to enable, as shown below. 
+The creation assistant lets you select the options you want to enable, as shown below. 
 
 ![](assets/webapp_create_template.png)
 

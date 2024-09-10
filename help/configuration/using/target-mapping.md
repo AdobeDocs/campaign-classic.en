@@ -16,7 +16,7 @@ Target mapping creation is necessary in two cases:
 * if you use a recipient table other than the one provided by Adobe Campaign,
 * if you configure a filtering dimension which is different from the standard targeting dimension on the target mapping screen.
 
-The target mapping creation wizard will help you create all schemas required to use your custom table.
+The target mapping creation assistant will help you create all schemas required to use your custom table.
 
 ## Creating and configuring schemas linked to the custom table {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
@@ -83,7 +83,7 @@ To do this, apply the following steps:
    ```
 
 1. Click the **[!UICONTROL Administration > Campaign management > Target mappings]** node.
-1. Click the **New** button to open the target mapping creation wizard.
+1. Click the **New** button to open the target mapping creation assistant.
 1. Enter the **Label** field and select the schema which you have just created in the **Targeting dimension** field.
 
    ![](assets/mapping_diffusion_wizard_1.png)
@@ -110,9 +110,9 @@ To do this, apply the following steps:
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
-1. Click the **Save** button to close the wizard.
+1. Click the **Save** button to close the assistant.
 
-   The wizard uses the start schema to create all the other schemas required to make the new target mapping work.
+   The assistant uses the start schema to create all the other schemas required to make the new target mapping work.
 
    ![](assets/mapping_schema_list.png)
 

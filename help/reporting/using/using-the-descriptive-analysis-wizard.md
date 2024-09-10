@@ -1,24 +1,24 @@
 ---
 product: campaign
-title: Use the descriptive analysis wizard
-description: Use the descriptive analysis wizard
+title: Use the descriptive analysis assistant
+description: Use the descriptive analysis assistant
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 ---
-# Use the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
+# Use the descriptive analysis assistant{#using-the-descriptive-analysis-assistant}
 
  
 
-To create a descriptive analysis report, use the dedicated wizard. Configuration depends on the data to be analyzed and on the desired rendering.
+To create a descriptive analysis report, use the dedicated assistant. Configuration depends on the data to be analyzed and on the desired rendering.
 
 ## Analyze data in the database {#analyzing-data-in-the-database}
 
-The descriptive analysis wizard can be launched via the **[!UICONTROL Tools > Descriptive analysis]** menu: in this case, the analysis concerns recipients by default (**nms:recipient**). It applies to all the data in the Adobe Campaign database.
+The descriptive analysis assistant can be launched via the **[!UICONTROL Tools > Descriptive analysis]** menu: in this case, the analysis concerns recipients by default (**nms:recipient**). It applies to all the data in the Adobe Campaign database.
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
-To analyze a table other than the standard recipients one (**nms:recipient**), click the **[!UICONTROL Advanced settings...]** link in the last stage of the wizard and select the table that matches your settings, in this case **cus:individual**:
+To analyze a table other than the standard recipients one (**nms:recipient**), click the **[!UICONTROL Advanced settings...]** link in the last stage of the assistant and select the table that matches your settings, in this case **cus:individual**:
 
 ![](assets/reporting_descriptive_other_schema.png)
 
@@ -30,11 +30,11 @@ The analysis will only concern database recipients aged 16 and over and living i
 
 ## Analyze a set of data {#analyzing-a-set-of-data}
 
-You can use the descriptive analysis wizard via a different context: a list, a workflow transition, one or more deliveries, a selection of recipients, etc.
+You can use the descriptive analysis assistant via a different context: a list, a workflow transition, one or more deliveries, a selection of recipients, etc.
 
 It is accessible via several nodes of the Adobe Campaign tree that point to the recipient table.
 
-Open the descriptive analysis wizard by selecting items and right-clicking. Only the selected data will be analyzed.
+Open the descriptive analysis assistant by selecting items and right-clicking. Only the selected data will be analyzed.
 
 ![](assets/reporting_descriptive_from_recipients.png)
 
@@ -58,7 +58,7 @@ The **[!UICONTROL Qualitative distribution]** template lets you create statistic
 
 Configuration options available for a report created via the **[!UICONTROL Qualitative distribution]** template are detailed in [Display data in the table](#displaying-data-in-the-table). A full example is detailed in [Analyze a population](../../reporting/using/use-cases.md#analyzing-a-population).
 
-When you use the descriptive analysis wizard to analyze your data, the available options depend on the chosen settings. These are detailed below.
+When you use the descriptive analysis assistant to analyze your data, the available options depend on the chosen settings. These are detailed below.
 
 ### Data binning {#data-binning}
 
@@ -113,7 +113,7 @@ You can display or hide the name of the statistics and the sub-totals and choose
 
 ### Display data in the chart {#displaying-data-in-the-chart}
 
-In the first step of the descriptive analysis wizard, you can choose to display the data in chart form only, without a table. In this case, variable selection must be done when configuring the graphic. You must first select the number of variables to display and select the fields from the relevant database. 
+In the first step of the descriptive analysis assistant, you can choose to display the data in chart form only, without a table. In this case, variable selection must be done when configuring the graphic. You must first select the number of variables to display and select the fields from the relevant database. 
 
 ![](assets/s_ncs_user_report_wizard_023.png)
 
@@ -133,7 +133,7 @@ The options offered depend on the type of chart selected. For more information, 
 
 ### Statistics calculation {#statistics-calculation}
 
-The descriptive analysis wizard lets you calculate several types of statistics on the data. By default, only one simple count is configured.
+The descriptive analysis assistant lets you calculate several types of statistics on the data. By default, only one simple count is configured.
 
 Click **[!UICONTROL Add]** to create a new statistic.
 
@@ -177,7 +177,7 @@ The following operations are possible:
 
 ### Display the report {#displaying-the-report}
 
-The last step of the wizard lets you display the report, i.e. the table or the chart as they have been configured.
+The last step of the assistant lets you display the report, i.e. the table or the chart as they have been configured.
 
 When the report contains a table, the computation result cell is colored. The higher the result, the more intense the color.
 
@@ -199,7 +199,7 @@ The **[!UICONTROL Quantitative distribution]** template that lets you generate s
 
 The configuration mode of an analysis report created via the **[!UICONTROL Quantitative distribution]** template is detailed in an implementation example [Quantitative data analysis](../../reporting/using/use-cases.md#quantitative-data-analysis).
 
-The options available when using the descriptive analysis wizard to create a quantitative report are detailed below.
+The options available when using the descriptive analysis assistant to create a quantitative report are detailed below.
 
 Start by selecting the variable which the calculations concern:
 
@@ -223,7 +223,7 @@ The following operations are possible:
 
   ![](assets/s_ncs_user_report_wizard_030.png)
 
-  The last step of the wizard shows the quantitative analysis report.
+  The last step of the assistant shows the quantitative analysis report.
 
   ![](assets/reporting_descriptive_view_report.png)
 

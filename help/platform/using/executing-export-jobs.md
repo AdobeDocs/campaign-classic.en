@@ -17,13 +17,13 @@ The export jobs allow you to access and extract data from the database: contacts
 
 For example, it can be useful to use campaign tracking data (tracking history, etc.) in a spreadsheet. The output data can be in txt, CSV, TAB, or XML format.
 
-The export wizard lets you configure an export, define its options and launch execution. It is a series of screens whose content depends on the type of export (simple or multiple) and the operator's rights.
+The export assistant lets you configure an export, define its options and launch execution. It is a series of screens whose content depends on the type of export (simple or multiple) and the operator's rights.
 
-The export wizard displays after creating a new export job (see [Create import and export jobs](../../platform/using/creating-import-export-jobs.md).
+The export assistant displays after creating a new export job (see [Create import and export jobs](../../platform/using/creating-import-export-jobs.md).
 
 ## Step 1 - Choose the export template {#step-1---choosing-the-export-template}
 
-When launching the export wizard, you first have to select a template. As an example, to configure the export of recipients who recently registered, follow the steps below:
+When launching the export assistant, you first have to select a template. As an example, to configure the export of recipients who recently registered, follow the steps below:
 
 1. Select the **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** folder.
 1. Click **New** and then click **Export** to create the export template.
@@ -89,7 +89,7 @@ Select the sorting order of the columns.
 
 ## Step 6 - Filter conditions {#step-6---filter-conditions-}
 
-You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery wizard. Refer to [this page](../../delivery/using/steps-defining-the-target-population.md).
+You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery assistant. Refer to [this page](../../delivery/using/steps-defining-the-target-population.md).
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
@@ -119,7 +119,7 @@ Click **[!UICONTROL Start the preview of the data]** for a preview of the export
 
 ![](assets/s_ncs_user_export_wizard07.png)
 
-Click the tabs at the bottom of the wizard to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.
+Click the tabs at the bottom of the assistant to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.
 
 ## Step 9 - Launch the export {#step-9---launching-the-export}
 

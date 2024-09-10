@@ -66,7 +66,7 @@ As an on-premise/hybrid customer, you can integrate Campaign Classic with your L
 
 Adobe Campaign provides various CRM connectors for linking your Adobe Campaign platform to your third-party systems. These CRM connectors enable you to synchronize contacts, accounts, purchases, etc. They make for easy integration of your application with various third-party and business applications.
 
-These connectors enable quick and easy data integration: Adobe Campaign provides a dedicated wizard for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
+These connectors enable quick and easy data integration: Adobe Campaign provides a dedicated assistant for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
 Read out [Configure CRM connectors](../../platform/using/crm-connectors.md) to learn how to synchronize your CRM tool with Adobe Campaign.
 

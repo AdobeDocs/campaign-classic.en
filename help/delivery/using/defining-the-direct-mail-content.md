@@ -21,7 +21,7 @@ For a direct mail delivery, the content of the extraction is defined in **[!UICO
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
-This link lets you access the extraction wizard and define the information (columns) to be exported into the output file.
+This link lets you access the extraction assistant and define the information (columns) to be exported into the output file.
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
@@ -29,4 +29,4 @@ It is possible to insert a personalized URL into the extraction file. For more o
 
 >[!NOTE]
 >
->This wizard includes the steps of the export wizard detailed in the [Getting Started](../../platform/using/executing-export-jobs.md) section.
+>This assistant includes the steps of the export assistant detailed in the [Getting Started](../../platform/using/executing-export-jobs.md) section.

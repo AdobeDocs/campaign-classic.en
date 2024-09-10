@@ -31,7 +31,7 @@ In this example, the URL https://www.adobe.com is followed by a semicolon. The s
 
 Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
 
-1. Select the **[!UICONTROL Display URLs]** option in the lower section of the delivery wizard, under the message content. 
+1. Select the **[!UICONTROL Display URLs]** option in the lower section of the delivery assistant, under the message content. 
 
    ![](assets/s_ncs_user_email_del_display_urls.png)
 

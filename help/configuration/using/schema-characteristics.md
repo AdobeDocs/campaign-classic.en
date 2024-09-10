@@ -23,13 +23,13 @@ The characteristics of a schema that references an existing table are as follows
 
 ## The view attribute {#the-view-attribute}
 
-Source schemas accept the **view** attribute for the **srcSchema** root element. It must be used when Adobe Campaign is manipulated in custom tables. The **view="true"** attribute tells the database structure update wizard to ignore this schema. The application is therefore prohibited from synchronizing the table, its columns and its indexes with the corresponding schema.
+Source schemas accept the **view** attribute for the **srcSchema** root element. It must be used when Adobe Campaign is manipulated in custom tables. The **view="true"** attribute tells the database structure update assistant to ignore this schema. The application is therefore prohibited from synchronizing the table, its columns and its indexes with the corresponding schema.
 
 When this attribute is set to **true**, the schema is used only to generate SQL queries to access the data of this table.
 
 ## Names of tables and columns {#names-of-tables-and-columns}
 
-When tables are created by the table update wizard, the names of tables and columns are generated automatically based on the names of the respective schemas and attributes. It is however possible to force the SQL names to be used by entering the following attributes:
+When tables are created by the table update assistant, the names of tables and columns are generated automatically based on the names of the respective schemas and attributes. It is however possible to force the SQL names to be used by entering the following attributes:
 
 * **sqltable** within the main element of the schema, to specify the table,
 * **sqlname** within each attribute, to specify the columns.

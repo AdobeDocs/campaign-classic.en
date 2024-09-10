@@ -19,9 +19,9 @@ Adobe Campaign lets you import data into the database from one or more files in 
 >
 >You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
 
-The import wizard lets you configure an import, define its options (such as data transformation), and launch execution. It is a series of screens whose content depends on the type of import (simple or multiple) and the operator's rights.
+The import assistant lets you configure an import, define its options (such as data transformation), and launch execution. It is a series of screens whose content depends on the type of import (simple or multiple) and the operator's rights.
 
-The import wizard displays after creating a new import job (see [Create import and export jobs](../../platform/using/creating-import-export-jobs.md).
+The import assistant displays after creating a new import job (see [Create import and export jobs](../../platform/using/creating-import-export-jobs.md).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ In the source file, each line coincides with a record. The data in records is se
 
 ## Step 1 - Choose the import template {#step-1---choosing-the-import-template}
 
-When launching the import wizard, you first have to select a template. As an example, to configure the import of recipients who received a newsletter, follow the steps below:
+When launching the import assistant, you first have to select a template. As an example, to configure the import of recipients who received a newsletter, follow the steps below:
 
 1. Select the **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** folder.
 1. Click **New** and then click **Import** to create the import template.
@@ -47,7 +47,7 @@ When launching the import wizard, you first have to select a template. As an exa
 1. Enter a name for this import in the **[!UICONTROL Label]** field. You can add a description.
 1. Select the import type in the appropriate field. There are two possible types of import: **[!UICONTROL Simple import]** to import only one file, and **[!UICONTROL Multiple import]** to import several files in a single execution.
 
-   For a multiple import, select **[!UICONTROL Multiple import]** from the **[!UICONTROL Import type]** drop-down list in the first screen of the import wizard.
+   For a multiple import, select **[!UICONTROL Multiple import]** from the **[!UICONTROL Import type]** drop-down list in the first screen of the import assistant.
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
@@ -55,7 +55,7 @@ When launching the import wizard, you first have to select a template. As an exa
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Each time a file is added, the screen of the **[!UICONTROL File to import]** wizard is displayed. See section [Step 2 - Source file selection](#step-2---source-file-selection) and follow the steps in the wizard to define the import options as for a simple import.
+   Each time a file is added, the screen of the **[!UICONTROL File to import]** assistant is displayed. See section [Step 2 - Source file selection](#step-2---source-file-selection) and follow the steps in the assistant to define the import options as for a simple import.
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ There are four types of calculated fields:
 
 ## Step 4 - Reconciliation {#step-4---reconciliation}
 
-The reconciliation step of the import wizard lets you define the mode of reconciling the data from the file with the existing data in the database, and to set the priority rules between the file data and the database data. The configuration window looks like this:
+The reconciliation step of the import assistant lets you define the mode of reconciling the data from the file with the existing data in the database, and to set the priority rules between the file data and the database data. The configuration window looks like this:
 
 ![](assets/s_ncs_user_import_wizard04_1.png)
 
@@ -271,7 +271,7 @@ You can generate a file containing these records via the **[!UICONTROL Export re
 
 ## Step 5 - Additional step when importing recipients {#step-5---additional-step-when-importing-recipients}
 
-The next step of the import wizard lets you select or create the folder in which data will be imported, automatically map imported recipients with a (new or existing) list, and subscribe recipients to a service.
+The next step of the import assistant lets you select or create the folder in which data will be imported, automatically map imported recipients with a (new or existing) list, and subscribe recipients to a service.
 
 ![](assets/s_ncs_user_import_wizard05_1.png)
 
@@ -327,7 +327,7 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 ## Step 6 - Launch the import {#step-6---launching-the-import}
 
-The last step of the wizard lets you launch data import. To do this, click the **[!UICONTROL Start]** button.
+The last step of the assistant lets you launch data import. To do this, click the **[!UICONTROL Start]** button.
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 

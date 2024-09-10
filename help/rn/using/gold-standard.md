@@ -202,7 +202,7 @@ _August 13, 2019_
 
 The initial 19.1.4 build includes the following fixes:
 
-* Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
+* Fixed an issue with the scheduler activity generating undesired error messages during assistant configuration. Reverting update from NEO-11662. (NEO-17097)
 * Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
 * Fixed an issue which led to an erroneous HTTP code being returned (HTTP 200 OK instead of HTTP 403 Forbidden) when an invalid or expired session token was used in API calls. (NEO-16826) 
 * Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 

@@ -413,7 +413,7 @@ Please contact your database administrator to find out about the procedures best
 The example below concerns Microsoft SQL Server 2005. If you are using another version, contact your database administrator to find out about maintenance procedures.
 
 1. First, connect to Microsoft SQL Server Management Studio, with a login with administrator rights.
-1. Go to the **[!UICONTROL Management > Maintenance Plans]** folder, right-click on it and choose **[!UICONTROL Maintenance Plan Wizard]**.
+1. Go to the **[!UICONTROL Management > Maintenance Plans]** folder, right-click on it and choose **[!UICONTROL Maintenance Plan Assistant]**.
 1. Click **[!UICONTROL Next]** when the first page comes up.
 1. Select the type of maintenance plan you want to create (separate schedules for each task or single schedule for the whole plan), then click the **[!UICONTROL Change...]** button.
 1. In the **[!UICONTROL Job schedule properties]** window, select the desired execution settings and click **[!UICONTROL OK]**, then click **[!UICONTROL Next]**.

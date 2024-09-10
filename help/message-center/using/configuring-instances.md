@@ -100,9 +100,9 @@ When using several execution instances, repeat these steps to create as many ext
 
 Each execution instance must be associated with a unique identifier to differentiate the history of each execution instance when viewing them on the control instance.
 
-This identifier can be attributed on each execution instance **manually**. In this case, this step must be performed **on each execution instance**. To do this, use the deployment wizard as detailed below:
+This identifier can be attributed on each execution instance **manually**. In this case, this step must be performed **on each execution instance**. To do this, use the deployment assistant as detailed below:
 
-1. Open the deployment wizard on an execution instance.
+1. Open the deployment assistant on an execution instance.
 1. Go to the **[!UICONTROL Message Center]** window.
 1. Assign your chosen identifier to the instance.
 

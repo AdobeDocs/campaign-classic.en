@@ -207,7 +207,7 @@ Use the example below to include fields relating to the creation date, the user 
 
 ## Updating the database structure {#updating-the-database-structure}
 
-Once your changes are completed and saved, any changes that may impact the SQL structure need to be applied to the database. To do this, use the database update wizard.
+Once your changes are completed and saved, any changes that may impact the SQL structure need to be applied to the database. To do this, use the database update assistant.
 
 ![](assets/schemaextension_getting_started_3.png)
 

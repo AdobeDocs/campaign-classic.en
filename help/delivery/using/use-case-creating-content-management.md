@@ -376,7 +376,7 @@ You may now create content based on this publication template.
 >
 >For more on creating contents, refer to [Use a content template](using-a-content-template.md).
 
-### Create content in the delivery wizard {#creating-content-in-the-delivery-wizard}
+### Create content in the delivery assistant {#creating-content-in-the-delivery-assistant}
 
 To create content directly in the deliveries, apply the following steps:
 
@@ -384,7 +384,7 @@ To create content directly in the deliveries, apply the following steps:
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   An additional tab is added to the delivery wizard in order to define the content via the content management form.
+   An additional tab is added to the delivery assistant in order to define the content via the content management form.
 
 1. Enter the variable information of your newsletter.
 

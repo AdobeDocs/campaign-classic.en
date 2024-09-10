@@ -120,11 +120,11 @@ For more on this, refer to [this page](../../reporting/using/actions-on-reports.
 
 ## Re-use existing reports and analyses {#re-using-existing-reports-and-analyses}
 
-You can create descriptive analysis reports on data using existing reports already stored in Adobe Campaign. This mode is possible when analyses have been saved or when reports have been created and configured to be accessed via the descriptive analysis wizard.
+You can create descriptive analysis reports on data using existing reports already stored in Adobe Campaign. This mode is possible when analyses have been saved or when reports have been created and configured to be accessed via the descriptive analysis assistant.
 
 To find out how to save descriptive analyses, refer to [Saving an analysis report](#saving-an-analysis-report).
 
-To create descriptive analysis reports, the descriptive analysis wizard must be executed via a workflow transition or via the **[!UICONTROL Tools > Descriptive analysis]** menu.
+To create descriptive analysis reports, the descriptive analysis assistant must be executed via a workflow transition or via the **[!UICONTROL Tools > Descriptive analysis]** menu.
 
 1. Select **[!UICONTROL Existing analyses and reports]** and click **[!UICONTROL Next]**.
 1. This lets you access the list of available reports. Select the report you wish to generate.
@@ -137,7 +137,7 @@ When you create a descriptive analysis based on an existing analysis, you can cr
 
 To create a history, apply the following steps:
 
-1. Open an existing analysis or create a new descriptive analysis wizard.
+1. Open an existing analysis or create a new descriptive analysis assistant.
 1. In the report display page, click the button to create a history in the tool bar, then confirm as shown below:
 
    ![](assets/reporting_descriptive_historize_icon.png)

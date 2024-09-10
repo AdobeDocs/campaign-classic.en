@@ -47,7 +47,7 @@ For example, within the framework of a direct mail delivery, you can include the
 
 ![](assets/s_advuser_add_data_postal_mail.png)
 
-In addition to the usual personalization fields, you can add personalization fields from workflow stages to the delivery content. The additional data defined in the workflow activities can be kept and made accessible in the delivery wizard, as shown in the example below, for defining the name of the output file within the framework of direct mail delivery:
+In addition to the usual personalization fields, you can add personalization fields from workflow stages to the delivery content. The additional data defined in the workflow activities can be kept and made accessible in the delivery assistant, as shown in the example below, for defining the name of the output file within the framework of direct mail delivery:
 
 ![](assets/s_advuser_using_additional_data.png)
 

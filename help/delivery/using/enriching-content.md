@@ -33,7 +33,7 @@ The **`<collection-recipient>`** element represents the input element of the doc
 
 ### Adding a query {#adding-a-query}
 
-The query parameters are edited using a wizard.
+The query parameters are edited using an assistant.
 
 1. In the first page, specify the label and the schema containing the data to be retrieved.
 

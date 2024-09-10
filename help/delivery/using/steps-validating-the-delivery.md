@@ -132,7 +132,7 @@ To send a proof, follow the steps below:
 
 1. Make sure the proof target has been configured as described in [Define a specific proof target](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
-1. Click **[!UICONTROL Send a proof]** on the top bar of the delivery wizard.
+1. Click **[!UICONTROL Send a proof]** on the top bar of the delivery assistant.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
@@ -165,7 +165,7 @@ The following options are available:
 
 * The first option lets you keep the proof doubles.
 * Both of the following options let you keep recipients that are on denylist and addresses in quarantine. See the description of these options for the main target in [Customize exclusion settings](steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
-* The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery wizard.
+* The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery assistant.
 * By default, the subject of the proof is prefixed by 'Proof #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 
 ## Validation process with typologies {#validation-process-with-typologies}

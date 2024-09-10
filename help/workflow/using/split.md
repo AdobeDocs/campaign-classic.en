@@ -38,7 +38,7 @@ To create a subset:
 
 1. You can specify the maximum number of records to be extracted from the target to create the subset. To do this, check the **[!UICONTROL Limit the selected records]** option and click the **[!UICONTROL Edit...]** link.
 
-   A wizard lets you choose the selection mode for records of this subset. The steps can be found in [Limiting the number of subset records](#limiting-the-number-of-subset-records).
+   An assistant lets you choose the selection mode for records of this subset. The steps can be found in [Limiting the number of subset records](#limiting-the-number-of-subset-records).
 
    ![](assets/s_user_segmentation_partage4.png)
 

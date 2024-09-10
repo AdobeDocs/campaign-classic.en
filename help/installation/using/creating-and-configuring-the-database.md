@@ -127,13 +127,13 @@ The **[!UICONTROL Creation steps]** window enables you to display and edit the S
 
 ### Step 6 - Creating the database {#step-6---creating-the-database}
 
-The final stage of the wizard enables you to create the database. Click **[!UICONTROL Start]** to confirm.
+The final stage of the assistant enables you to create the database. Click **[!UICONTROL Start]** to confirm.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 Once the database is created, you can re-connect to finalize instance configuration.
 
-You must now start the deployment wizard to finish configuring the instance. Refer to [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
+You must now start the deployment assistant to finish configuring the instance. Refer to [Deployment assistant](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 The connection settings for the database linked to the instance are stored in the file **`/conf/config-<instance>.xml`** found in the Adobe Campaign installation directory.
 
@@ -218,13 +218,13 @@ The **[!UICONTROL Creation steps]** window enables you to display and edit the S
 
 ### Step 5 - Creating the database {#step-5---creating-the-database}
 
-The final stage of the wizard enables you to create the database. Click **[!UICONTROL Start]** to confirm.
+The final stage of the assistant enables you to create the database. Click **[!UICONTROL Start]** to confirm.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 Once database creation is complete, you can reconnect to finalize instance configuration.
 
-You must now start the deployment wizard to finish configuring the instance. Refer to [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
+You must now start the deployment assistant to finish configuring the instance. Refer to [Deployment assistant](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 The connection settings for the database linked to the instance are stored in the file **`/conf/config-<instance>.xml`** found in the Adobe Campaign installation directory.
 

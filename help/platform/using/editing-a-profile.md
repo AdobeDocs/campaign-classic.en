@@ -54,7 +54,7 @@ This screen contains user-defined fields that can be personalized based on requi
 
 >[!NOTE]
 >
->For more on field properties and on adding fields, refer to [this page](../../configuration/using/new-field-wizard.md).
+>For more on field properties and on adding fields, refer to [this page](../../configuration/using/new-field-assistant.md).
 
 ## Lists tab {#lists-tab}
 

@@ -38,7 +38,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
    ![](assets/query_temporary_table.png)
 
-1. Define the populations using the wizard. The fields to be entered can differ according to the type of target. You can preview the targeted population with your current criteria using the **[!UICONTROL Preview]** tab.
+1. Define the populations using the assistant. The fields to be entered can differ according to the type of target. You can preview the targeted population with your current criteria using the **[!UICONTROL Preview]** tab.
 
    For more on creating and using filters or queries, refer to this [section](../../platform/using/filtering-options.md).
 
@@ -91,7 +91,7 @@ To add data from the Adobe Campaign database:
 
 To add a collection of information linked to a targeted population:
 
-1. At the first step of the wizard, select the **[!UICONTROL Data linked to the filtering dimension]** option:
+1. At the first step of the assistant, select the **[!UICONTROL Data linked to the filtering dimension]** option:
 1. Select the table which contains the information you want to collect and click **[!UICONTROL Next]**.
 
    ![](assets/wf_add_data_linked_table.png)

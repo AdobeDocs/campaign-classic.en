@@ -55,7 +55,7 @@ To do this, you need to create the schema of the table and update the database s
    >
    >By default, schemas created by users are stored in the 'cus' namespace. For more on this, refer to [Identification of a schema](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
-1. Create the content of the table. We recommend using the entry wizard to make sure no settings are missing. To do this, click the **[!UICONTROL Insert]** button and choose the type of setting to be added.
+1. Create the content of the table. We recommend using the entry assistant to make sure no settings are missing. To do this, click the **[!UICONTROL Insert]** button and choose the type of setting to be added.
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 

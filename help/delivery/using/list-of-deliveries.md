@@ -23,7 +23,7 @@ By default, the list of deliveries contains the names and statuses of the delive
 
 >[!NOTE]
 >
->For large deliveries, you may wish to update these values. To do this, select the delivery in question and then right-click it. Select **[!UICONTROL Action > Recompute delivery and tracking indicators...]** and then use the wizard to update this information.
+>For large deliveries, you may wish to update these values. To do this, select the delivery in question and then right-click it. Select **[!UICONTROL Action > Recompute delivery and tracking indicators...]** and then use the assistant to update this information.
 
 **Related topics:**
 

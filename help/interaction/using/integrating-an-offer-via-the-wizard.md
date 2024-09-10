@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: Integrating an offer via the wizard
-description: Integrating an offer via the wizard
+title: Integrating an offer via the assistant
+description: Integrating an offer via the assistant
 feature: Interaction, Offers
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 ---
-# Integrating an offer via the wizard{#integrating-an-offer-via-the-wizard}
+# Integrating an offer via the assistant{#integrating-an-offer-via-the-assistant}
 
 
 

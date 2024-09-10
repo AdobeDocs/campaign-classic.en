@@ -28,7 +28,7 @@ The pages of the form are created using a special editor that lets you define an
 
 ## Add fields {#adding-fields}
 
-The fields in a form enable users to enter information and select options. For each page in the form, they are created via the first button in the toolbar using the **[!UICONTROL Add using the wizard]** menu. 
+The fields in a form enable users to enter information and select options. For each page in the form, they are created via the first button in the toolbar using the **[!UICONTROL Add using the assistant]** menu. 
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

@@ -18,7 +18,7 @@ They can also be used to create content instances. Once they have been created, 
 
 ## Creating a delivery via content management {#creating-a-delivery-via-content-management}
 
-You can reference a content template in a delivery in view of using input fields to enter content. An additional tab is added to the delivery wizard for defining delivery content. 
+You can reference a content template in a delivery in view of using input fields to enter content. An additional tab is added to the delivery assistant for defining delivery content. 
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
@@ -26,7 +26,7 @@ The layout will be applied automatically based on the selected settings. To view
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-For more on this, refer to the full implementation example: [Creating content in the delivery wizard](use-case-creating-content-management.md#creating-content-in-the-delivery-wizard).
+For more on this, refer to the full implementation example: [Creating content in the delivery assistant](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant).
 
 ## Creating a content instance {#creating-a-content-instance}
 

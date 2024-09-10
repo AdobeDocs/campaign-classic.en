@@ -61,7 +61,7 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
 * **Add input fields**
 
-  To create the content of the page, you must edit it: to do this, double-click the **[!UICONTROL Page]** object. Click the first icon in the toolbar to open the field creation wizard. To create an entry field for the user name to be stored in the matching field of the recipient's profile, select **[!UICONTROL Edit a recipient]**.
+  To create the content of the page, you must edit it: to do this, double-click the **[!UICONTROL Page]** object. Click the first icon in the toolbar to open the field creation assistant. To create an entry field for the user name to be stored in the matching field of the recipient's profile, select **[!UICONTROL Edit a recipient]**.
 
   ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -124,7 +124,7 @@ Click **[!UICONTROL OK]** to confirm, then click **[!UICONTROL Save]** to save t
 For users to be able to access the HTML pages, the application must be made available. It must no longer be at the editing stage, but in production. To put a survey in production, you must publish it. To do this:
 
 * Click the **[!UICONTROL Publish]** button located above the survey dashboard.
-* Click **[!UICONTROL Start]** to launch publication and close the wizard.
+* Click **[!UICONTROL Start]** to launch publication and close the assistant.
 
   ![](assets/s_ncs_admin_survey_start_publ.png)
 

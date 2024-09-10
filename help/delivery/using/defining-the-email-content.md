@@ -22,7 +22,7 @@ To find out how to insert and use personalization fields, refer to [About person
 >[!NOTE]
 >
 >* The sender's address is used for replies by default.
->* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. Learn more in [this section](../../installation/using/deploying-an-instance.md).
+>* The header parameters must not be empty. By default, they contain the values input when configuring the deployment assistant. Learn more in [this section](../../installation/using/deploying-an-instance.md).
 >* The sender's address is mandatory to allow an email to be sent (RFC standard).
 >* Adobe Campaign checks the syntax of email addresses entered.
 
@@ -111,7 +111,7 @@ For more on this, see [this section](defining-interactive-content.md).
 
 ## Use content management {#using-content-management}
 
-You can define the content of the delivery using the content management forms, directly in the delivery wizard. To do this, you must reference the publication template of the content management to be used, in the **[!UICONTROL Advanced]** tab of the delivery properties.
+You can define the content of the delivery using the content management forms, directly in the delivery assistant. To do this, you must reference the publication template of the content management to be used, in the **[!UICONTROL Advanced]** tab of the delivery properties.
 
 ![](assets/s_ncs_content_in_delivery.png)
 
@@ -138,7 +138,7 @@ To customize the emoticon list, refer to this [page](customizing-emoticon-list.m
 
 ## Add images {#adding-images}
 
-HTML format email deliveries can contain images. From the delivery wizard, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon.
+HTML format email deliveries can contain images. From the delivery assistant, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon.
 
 
 ### Guardrails {#img-guardrails}
@@ -160,7 +160,7 @@ Images can be:
 
 ### Insert and manage images {#manage-images}
 
-The delivery wizard lets you add local images, or images stored in the library, to the content of messages. To do this, click the **[!UICONTROL Image]** button in the HTML content toolbar.
+The delivery assistant lets you add local images, or images stored in the library, to the content of messages. To do this, click the **[!UICONTROL Image]** button in the HTML content toolbar.
 
 ![](assets/s_ncs_user_image_from_library.png)
 
@@ -168,7 +168,7 @@ The delivery wizard lets you add local images, or images stored in the library, 
 >
 >In order for the recipients to be able to view the images included in the messages that they receive, these messages must be available on a server accessible from the outside.
 
-To manage images via the delivery wizard:
+To manage images via the delivery assistant:
 
 1. Click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
   ![](assets/s_ncs_user_email_del_img_param.png)
@@ -178,9 +178,9 @@ To manage images via the delivery wizard:
   ![](assets/s_ncs_user_email_del_img_upload.png)
 
 * You can upload images manually without waiting for the delivery analysis phase. To do this, click the **[!UICONTROL Upload the images straightaway...]** link.
-* You can specify another path for access to the images on the tracking server. To do this, enter it in the **[!UICONTROL Images URL]** field. This value overrides the value defined in the parameters of the installation wizard.
+* You can specify another path for access to the images on the tracking server. To do this, enter it in the **[!UICONTROL Images URL]** field. This value overrides the value defined in the parameters of the installation assistant.
 
-When you open HTML content with included images in the delivery wizard, a message gives you the option of uploading the images immediately, according to the delivery parameters.
+When you open HTML content with included images in the delivery assistant, a message gives you the option of uploading the images immediately, according to the delivery parameters.
 
 ![](assets/s_ncs_user_email_del_img_local.png)
 
@@ -205,7 +205,7 @@ For each image detected, you can view its status:
 
 * If an image is stored locally or located on another server, even if this server is visible from the outside (on an internet site, for example), it will be detected as **[!UICONTROL Not yet online]**.
 * The images are detected as **[!UICONTROL Already online]** if they were uploaded earlier while creating another delivery.
-* In the deployment wizard, you can define URLs for which image detection is not enabled: uploading these images will be **[!UICONTROL Skipped]**.
+* In the deployment assistant, you can define URLs for which image detection is not enabled: uploading these images will be **[!UICONTROL Skipped]**.
 
 >[!NOTE]
 >

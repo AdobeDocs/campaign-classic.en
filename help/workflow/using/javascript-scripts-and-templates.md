@@ -53,7 +53,7 @@ logInfo("Start date: " + task.creationDate)
 
 The **[!UICONTROL logInfo(message)]** function inserts a message into the log.
 
-Click **[!UICONTROL OK]** to close the creation wizard, then start the workflow using the action buttons situated at the top right of the list of workflows. At the end of execution, consult the log. You should see two messages corresponding to the script: one displays the label of the workflow, the other displays the date that the script was activated.
+Click **[!UICONTROL OK]** to close the creation assistant, then start the workflow using the action buttons situated at the top right of the list of workflows. At the end of execution, consult the log. You should see two messages corresponding to the script: one displays the label of the workflow, the other displays the date that the script was activated.
 
 ## Variables {#variables}
 

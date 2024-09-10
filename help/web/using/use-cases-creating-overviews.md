@@ -88,7 +88,7 @@ In an overview, you can choose to access data depending on its location in the A
    >
    >**nms:webApp** coincides with the Web application schema.
    >
-   >**nms:newWebApp** coincides with the new Web application creation wizard.
+   >**nms:newWebApp** coincides with the new Web application creation assistant.
 
 1. Choose to display the URL in the same window.
 1. Add the Web application icon in the image field: **/nms/img/webApp.png**.

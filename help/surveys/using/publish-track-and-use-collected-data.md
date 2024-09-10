@@ -88,7 +88,7 @@ Answers to a survey can be exported in an external file to be processed later. T
 
    Then enter the information you want to export and the storage file.
 
-   You can configure the content and format of the output file in the export wizard.
+   You can configure the content and format of the output file in the export assistant.
 
    This lets you:
 

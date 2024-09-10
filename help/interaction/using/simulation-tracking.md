@@ -19,7 +19,7 @@ The simulation results contain a breakdown of propositions per rank and per reci
 
 You can save these results and export them if necessary by creating a descriptive analysis of results. To do this, click the appropriate link in the result window.
 
-Refer to [this section](../../reporting/using/about-descriptive-analysis.md) for more information on the descriptive analysis wizard. 
+Refer to [this section](../../reporting/using/about-descriptive-analysis.md) for more information on the descriptive analysis assistant. 
 
 ![](assets/offer_simulation_012.png)
 

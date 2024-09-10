@@ -49,7 +49,7 @@ To do this, click **[!UICONTROL Send]**, select the desired action and click **[
 
 Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
 
-You can then close the delivery wizard and track the execution of the delivery from the **[!UICONTROL Delivery]** tab, accessible via the detail of this delivery or via the list of deliveries.
+You can then close the delivery assistant and track the execution of the delivery from the **[!UICONTROL Delivery]** tab, accessible via the detail of this delivery or via the list of deliveries.
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 

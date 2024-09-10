@@ -26,7 +26,7 @@ Built-in packages contain a set of features that can be installed according to y
 
 To install a built-in package:
 
-1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Import package]** in the Adobe Campaign client console.
+1. Access the package import assistant from **[!UICONTROL Tools > Advanced > Import package]** in the Adobe Campaign client console.
 1. Select **[!UICONTROL Install a standard package]**.
 1. In the package list, check the packages you want to install.
    >[!NOTE]
@@ -236,7 +236,7 @@ The following table lists all Campaign built-in packages.
 
 You must install delivery channels (Email, Mobile channel, Mobile App channel, LINE, etc.) before installing Transactional messaging (Message center package). If you have started an email-only Message Center project, and need to add a new channel afterwards, you must follow these steps:
 
-1. Install the new channel, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
+1. Install the new channel, for example the **Mobile channel**, using the package import assistant ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
 1. Import the file ( **[!UICONTROL Tools > Advanced > Import package > File]**), and select:
 
    ```

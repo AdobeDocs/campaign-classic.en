@@ -18,7 +18,7 @@ To do this, log on to an existing database and apply the following steps:
 
 1. Declare a new instance
 
-   Go to **[!UICONTROL Tools > Advanced > Declare a new instance...]** to start the wizard.
+   Go to **[!UICONTROL Tools > Advanced > Declare a new instance...]** to start the assistant.
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 

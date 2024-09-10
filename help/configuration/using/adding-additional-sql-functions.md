@@ -22,7 +22,7 @@ Once these functions have been added, they will appear in the expression editor 
 
 The function(s) to add are in a **"package" file in XML format**, whose structure is detailed in the following paragraph.
 
-To install it from the console, select the **Tools/Advanced/Import package** options from the menu, then the **[!UICONTROL Install from file]** , and follow the instructions in the import wizard.
+To install it from the console, select the **Tools/Advanced/Import package** options from the menu, then the **[!UICONTROL Install from file]** , and follow the instructions in the import assistant.
 
 >[!IMPORTANT]
 >

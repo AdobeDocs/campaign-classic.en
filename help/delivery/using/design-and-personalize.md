@@ -143,7 +143,7 @@ To be accessible from the outside, the images used in emails and public resource
 
 * You can check if the instance configuration enables public resource management. [Learn more](../../installation/using/deploying-an-instance.md#managing-public-resources)
     
-* From the delivery wizard, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon. [Learn more](defining-the-email-content.md#adding-images)
+* From the delivery assistant, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon. [Learn more](defining-the-email-content.md#adding-images)
 
 * If images are not displayed, check that the images are available on the server. To do this, click the Source tab from your delivery. Find your images and copy-paste each image's URL in a web browser. If the images are not displayed, contact your IT administrator or the third-party vendor providing your delivery content.
 
@@ -151,6 +151,6 @@ To be accessible from the outside, the images used in emails and public resource
 
 Adobe recommends previewing your message to check its personalization and how your recipients will see your delivery. 
 
-* In the delivery wizard, the **[!UICONTROL Preview]** sub-tab lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](defining-the-email-content.md#message-content)
+* In the delivery assistant, the **[!UICONTROL Preview]** sub-tab lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](defining-the-email-content.md#message-content)
 
 *  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)

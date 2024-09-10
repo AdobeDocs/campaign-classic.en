@@ -43,7 +43,7 @@ After the selection of a data source (recipient fields or file field), this inse
 We create an email in which we will first insert the name of the recipient and then add the profile creation date in the body of the message. To do this:
 
 1. Create a new delivery or open an existing email type delivery.
-1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
+1. In the delivery assistant, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
 1. Enter " **[!UICONTROL Special offer for]** " and use the button in the toolbar to insert a personalization field. Select **[!UICONTROL Recipients>Title]**.
 
     ![](assets/s_ncs_user_insert_custom_field.png)

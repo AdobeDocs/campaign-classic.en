@@ -70,7 +70,7 @@ The **[!UICONTROL Tracking]** tab lists the tracking history for this delivery. 
 >
 >If tracking is not enabled for a delivery, this tab is not displayed.
 
-Tracking configuration is performed at the appropriate stage in the delivery wizard. See [How to configure tracked links](how-to-configure-tracked-links.md).
+Tracking configuration is performed at the appropriate stage in the delivery assistant. See [How to configure tracked links](how-to-configure-tracked-links.md).
 
 **[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](../../reporting/using/delivery-reports.md).
 

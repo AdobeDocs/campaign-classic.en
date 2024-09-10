@@ -26,7 +26,7 @@ The send confirmation starts the data extraction in the specified file.
 
 ![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
-You can then close the wizard and look at the delivery logs via the **[!UICONTROL Delivery]** tab, accessible via the delivery details.
+You can then close the assistant and look at the delivery logs via the **[!UICONTROL Delivery]** tab, accessible via the delivery details.
 
 You can configure the delivery logs retrieval mode from the **[!UICONTROL Analysis]** tab of the delivery properties.
 

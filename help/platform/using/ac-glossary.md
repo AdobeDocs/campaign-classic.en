@@ -239,11 +239,11 @@ A delivery outline is a structured set of elements (documents, stores, promotion
 Learn more about [Direct Mail](../../delivery/using/about-direct-mail-channel.md).
 +++
 
-+++**Deployment wizard**
++++**Deployment assistant**
 
-The deployment wizard defines the parameters of the Campaign instance, such as the default namespace, database cleanup schedule, data retention periods, and other technical settings.
+The deployment assistant defines the parameters of the Campaign instance, such as the default namespace, database cleanup schedule, data retention periods, and other technical settings.
 
-Learn more about [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Learn more about [Deployment assistant](../../installation/using/deploying-an-instance.md#deployment-assistant).
 +++
 
 +++**Descriptive Analysis**
@@ -478,7 +478,7 @@ Learn more about [Inbox rendering](../../delivery/using/delivery-dashboard.md#de
 
 +++**Instance settings**
 
-Instance settings are configuration details of an Adobe Campaign instance. These settings are defined in the Deployment wizard (Tools>Advanced>Deployment wizard) or in the server and/or instance configuration files.
+Instance settings are configuration details of an Adobe Campaign instance. These settings are defined in the Deployment assistant (Tools>Advanced>Deployment assistant) or in the server and/or instance configuration files.
 
 Learn more about [Instance settings](../../installation/using/about-initial-configuration.md).
 
@@ -486,7 +486,7 @@ Learn more about [Instance settings](../../installation/using/about-initial-conf
 
 +++**Jobs (import and export)**
 
-Jobs are managed by a wizard system that simplifies the import and export of data into and out of the product. Jobs use the templating system for simplicity and consistency and can be defined to execute on a schedule.
+Jobs are managed by an assistant system that simplifies the import and export of data into and out of the product. Jobs use the templating system for simplicity and consistency and can be defined to execute on a schedule.
 
 Learn more about [import and export jobs](../../platform/using/get-started-data-import-export.md).
 +++
@@ -690,7 +690,7 @@ Learn more about [Offer space](../../interaction/using/creating-offer-spaces.md)
 
 Offer themes are keywords defined in a category, which lets Operators filter offers when they are presented. Themes allow for the non-hierarchical selection of offers from the catalog structure. 
 
-Learn more about [Offer themes](../../interaction/using/integrating-an-offer-via-the-wizard.md).
+Learn more about [Offer themes](../../interaction/using/integrating-an-offer-via-the-assistant.md).
 +++
 
 +++**Offer weight**

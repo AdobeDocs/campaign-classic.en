@@ -66,7 +66,7 @@ To extend the **nms:recipient** schema recipient table, apply the following proc
    </schema>
    ```
 
-   The SQL script generated from the database update wizard is as follows:
+   The SQL script generated from the database update assistant is as follows:
 
    ```
    ALTER TABLE NmsRecipient ADD iFidelity INTEGER;

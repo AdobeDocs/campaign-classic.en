@@ -58,7 +58,7 @@ You can create **[!UICONTROL Filtering]** typologies: they only contain filterin
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-These specific typologies can be linked to a delivery when the target is selected: in the delivery wizard, click the **[!UICONTROL To]** link, then click the **[!UICONTROL Exclusions]** tab. 
+These specific typologies can be linked to a delivery when the target is selected: in the delivery assistant, click the **[!UICONTROL To]** link, then click the **[!UICONTROL Exclusions]** tab. 
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 

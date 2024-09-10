@@ -84,7 +84,7 @@ For SQLServer database, you could consider using "clustered index" if performanc
 
 The tablespace attribute in the schema allows you to specify a dedicated tablespace for a table.
 
-The installation wizard allows you to store objects by type (data, temporary, and index).
+The installation assistant allows you to store objects by type (data, temporary, and index).
 
 Dedicated tablespaces are better for partitioning, security rules, and allow fluid and flexible administration, better optimization, and performance.
 

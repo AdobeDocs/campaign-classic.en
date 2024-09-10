@@ -20,7 +20,7 @@ The **[!UICONTROL Database cleanup]** workflow accessible via the **[!UICONTROL 
 
 ## Configuration {#configuration}
 
-The database cleanup is configured on two levels: in the workflow scheduler and in the deployment wizard.
+The database cleanup is configured on two levels: in the workflow scheduler and in the deployment assistant.
 
 ### Workflow scheduler {#the-scheduler}
 
@@ -41,11 +41,11 @@ By default, the **[!UICONTROL Database cleanup]** workflow is configured to star
 >
 >In order for the **[!UICONTROL Database cleanup]** workflow to start at the date and time defined in the scheduler, the workflow engine (wfserver) must be started.
 
-### Deployment wizard {#deployment-wizard}
+### Deployment assistant {#deployment-assistant}
 
-The **[!UICONTROL Deployment wizard]**, accessed via the **[!UICONTROL Tools > Advanced]** menu, lets you configure how long data is saved for. Values are expressed in days. If these values aren't altered, the workflow will use the default values. 
+The **[!UICONTROL Deployment assistant]**, accessed via the **[!UICONTROL Tools > Advanced]** menu, lets you configure how long data is saved for. Values are expressed in days. If these values aren't altered, the workflow will use the default values. 
 
-![](assets/ncs_cleanup_deployment-wizard.png)
+![](assets/ncs_cleanup_deployment-assistant.png)
 
 The fields of the **[!UICONTROL Purge of data]** window coincide with the following options. These are used by some of the tasks executed by the **[!UICONTROL Database cleanup]** workflow:
 
@@ -119,7 +119,7 @@ The first task executed by the **[!UICONTROL Database cleanup]** workflow delete
 
 This task purges all deliveries to be deleted or recycled.
 
-1. The **[!UICONTROL Database cleanup]** workflow selects all deliveries for which the **deleteStatus** field has the value **[!UICONTROL Yes]** or **[!UICONTROL Recycled]** and whose delete date is earlier than the period defined in the **[!UICONTROL Deleted deliveries]** (**NmsCleanup_RecycledDeliveryPurgeDelay**) field of the deployment wizard. For more on this, refer to [Deployment wizard](#deployment-wizard). This period is calculated in relation to the current server date. 
+1. The **[!UICONTROL Database cleanup]** workflow selects all deliveries for which the **deleteStatus** field has the value **[!UICONTROL Yes]** or **[!UICONTROL Recycled]** and whose delete date is earlier than the period defined in the **[!UICONTROL Deleted deliveries]** (**NmsCleanup_RecycledDeliveryPurgeDelay**) field of the deployment assistant. For more on this, refer to [Deployment assistant](#deployment-assistant). This period is calculated in relation to the current server date. 
 1. For each mid-sourcing server, the task selects the list of deliveries to be deleted. 
 1. The **[!UICONTROL Database cleanup]** workflow deletes delivery logs, attachments, mirror page information and all other related data. 
 1. Before deleting the delivery for good, the workflow purges linked information from the following tables:
@@ -303,7 +303,7 @@ This step lets you delete records for which all data wasn't processed during imp
    DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
-   where `$(curDate)` is the current server date from which we subtract the period defined for the **NmsCleanup_RejectsPurgeDelay** option (refer to [Deployment wizard](#deployment-wizard)) and `$(l)` is the maximum number of records to be mass deleted.
+   where `$(curDate)` is the current server date from which we subtract the period defined for the **NmsCleanup_RejectsPurgeDelay** option (refer to [Deployment assistant](#deployment-assistant)) and `$(l)` is the maximum number of records to be mass deleted.
 
 1. All orphan rejects are then deleted using the following query:
 
@@ -390,7 +390,7 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 
 ### Cleanup of visitors {#cleanup-of-visitors}
 
-This task deletes obsolete records from the visitor table using mass-deletion. Obsolete records are those for which the last modification is earlier than the conservation period defined in the deployment wizard (refer to [Deployment wizard](#deployment-wizard)). The following query is used:
+This task deletes obsolete records from the visitor table using mass-deletion. Obsolete records are those for which the last modification is earlier than the conservation period defined in the deployment assistant (refer to [Deployment assistant](#deployment-assistant)). The following query is used:
 
 ```sql
 DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
@@ -418,7 +418,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 ### Cleanup of tracking logs {#cleanup-of-tracking-logs}
 
-This task deletes obsolete records from the tracking and webtracking log tables. Obsolete records are those which are earlier than the conservation period defined in the deployment wizard (refer to [Deployment wizard](#deployment-wizard)).
+This task deletes obsolete records from the tracking and webtracking log tables. Obsolete records are those which are earlier than the conservation period defined in the deployment assistant (refer to [Deployment assistant](#deployment-assistant)).
 
 1. First, the list of tracking log tables is recovered using the following query:
 
@@ -459,7 +459,7 @@ This task lets you purge the delivery logs stored in various tables.
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
    ```
 
-   where `$(tableName)` is the name of each table in the list of schemas, and `$(option)` is the date defined for the **NmsCleanup_BroadLogPurgeDelay** option (refer to [Deployment wizard](#deployment-wizard)).
+   where `$(tableName)` is the name of each table in the list of schemas, and `$(option)` is the date defined for the **NmsCleanup_BroadLogPurgeDelay** option (refer to [Deployment assistant](#deployment-assistant)).
 
 1. Finally, the workflow checks whether the **NmsProviderMsgId** table exists. If so, all obsolete data is deleted using the following query:
 
@@ -467,7 +467,7 @@ This task lets you purge the delivery logs stored in various tables.
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
    ```
 
-   where `$(option)` matches the date defined for the **NmsCleanup_BroadLogPurgeDelay** option (refer to [Deployment wizard](#deployment-wizard)).
+   where `$(option)` matches the date defined for the **NmsCleanup_BroadLogPurgeDelay** option (refer to [Deployment assistant](#deployment-assistant)).
 
 ### Cleanup of the NmsEmailErrorStat table {#cleanup-of-the-nmsemailerrorstat-table-}
 
@@ -547,7 +547,7 @@ The list of propositions tables is recovered and mass-deletion is carried out on
 DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FROM NmsPropositionXxx WHERE tsLastModified < $(option) LIMIT 5000) 
 ```
 
-where `$(option)` is the date defined for the **NmsCleanup_PropositionPurgeDelay** option (refer to [Deployment wizard](#deployment-wizard)).
+where `$(option)` is the date defined for the **NmsCleanup_PropositionPurgeDelay** option (refer to [Deployment assistant](#deployment-assistant)).
 
 ### Cleanup of simulation tables {#cleanup-of-simulation-tables}
 

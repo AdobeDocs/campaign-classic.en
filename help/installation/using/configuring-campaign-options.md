@@ -126,7 +126,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDeliveryWizard_ShowDeliveryWeight</span> <br /> </td> 
-   <td> Display the message weight in the delivery wizard.<br /> </td> 
+   <td> Display the message weight in the delivery assistant.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultErrorAddr</span> <br /> </td> 
@@ -427,7 +427,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_SaveOptions_AllowNonAdmin</span> <br /> </td> 
-   <td> If set to 'true', authorized non-admin operator to update the xtkOption values through the deployment wizard.<br /> </td> 
+   <td> If set to 'true', authorized non-admin operator to update the xtkOption values through the deployment assistant.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Unsafe_DecryptString</span> <br /> </td> 

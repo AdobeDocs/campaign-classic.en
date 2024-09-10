@@ -29,7 +29,7 @@ To create a new SMS delivery, follow the steps below:
 
 To create the content of the SMS, follow the steps below:
 
-1. Enter the content of the message in the **[!UICONTROL Text content]** section of the wizard. The toolbar buttons let you import, save, or search in contents. The last button is used to insert personalization fields.
+1. Enter the content of the message in the **[!UICONTROL Text content]** section of the assistant. The toolbar buttons let you import, save, or search in contents. The last button is used to insert personalization fields.
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 

@@ -51,7 +51,7 @@ Schema presentation is available in [About schema reference](../../../configurat
 * **desc (string)**: schema description
 * **entitySchema (string)**: basic schema which syntax and approval are based on (by default for Adobe Campaign: xtk:srcSchema). When you save the current schema, Adobe Campaign will approve its grammar with the schema declared in the @xtkschema attribute.
 * **extendedSchema (string)**: receives the name of the out-of-the-box schema which the current schema extension is based on. The form is "namespace:name". 
-* **img (string)**: icon linked to the schema (may be defined in the schema creation wizard). 
+* **img (string)**: icon linked to the schema (may be defined in the schema creation assistant). 
 * **label (string)**: schema label.
 * **labelSingular (string)**: label (singular) for display in the interface. 
 * **lastModified (datetime)**: this attribute provides information on the date and time of the last modification. It has a "Date Time" form. The values displayed are taken from the server. The time is shown in UTC format. 
@@ -67,7 +67,7 @@ Schema presentation is available in [About schema reference](../../../configurat
 * **name (string)**: unique schema name.
 * **namespace (string)**: namespace of the schema (default: nms, xtk, nl). When creating a new schema for a project, we recommend that you use a dedicated namespace.
 * **useRecycleBin (boolean)**: activates the trash feature in the application. Deleted records will be placed in the trash before final deletion. This function is only available in "Delivery" mode.
-* **view (boolean)**: if it is activated (@view="true"), the schema will be used as a view. The database structure update wizard will not take the schema into account. This option is mainly used for referencing external tables.
+* **view (boolean)**: if it is activated (@view="true"), the schema will be used as a view. The database structure update assistant will not take the schema into account. This option is mainly used for referencing external tables.
 * **xtkschema (string)**: name of the schema which defines schema grammar (xtk:srcSchema by default).
 
 ## Examples {#examples-11}

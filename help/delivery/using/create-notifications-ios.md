@@ -50,7 +50,7 @@ To create a push notification for iOS devices, follow the steps below:
 
 1. You can add a **[!UICONTROL Subtitle]**, value of the subtitle parameter of the iOS notification payload. Refer to the [this section](configuring-the-mobile-application.md).
 
-1. Enter the content of the message in the **[!UICONTROL Message content]** section of the wizard. The use of personalization fields is presented in the [About personalization](about-personalization.md) section.
+1. Enter the content of the message in the **[!UICONTROL Message content]** section of the assistant. The use of personalization fields is presented in the [About personalization](about-personalization.md) section.
 
    ![](assets/nmac_delivery_ios_5.png)
 

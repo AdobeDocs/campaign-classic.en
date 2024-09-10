@@ -85,7 +85,7 @@ A data package can be constructed manually from any text editor. Simply ensure t
 
 Packages can be exported in three different ways:
 
-* The **[!UICONTROL Package Export Wizard]** enables you to export a set of objects in a single package. For more on this refer to [Export a set of objects in a package](#exporting-a-set-of-objects-in-a-package)
+* The **[!UICONTROL Package Export Assistant]** enables you to export a set of objects in a single package. For more on this refer to [Export a set of objects in a package](#exporting-a-set-of-objects-in-a-package)
 * A **single object** can be exported in a package directly by right-clicking on it and selecting **[!UICONTROL Actions > Export in a package]**.
 * **Package definitions** let you create a package structure in which you add objects that will be exported later on in a package. For more on this, refer to [Manage package definitions](#managing-package-definitions)
 
@@ -93,11 +93,11 @@ Once a package exported, you will be able to import it and all the added entitie
 
 ### Export a set of objects in a package {#exporting-a-set-of-objects-in-a-package}
 
-The package export wizard is accessible via the **[!UICONTROL Tools > Advanced > Export package...]** menu of the Adobe Campaign client console.
+The package export assistant is accessible via the **[!UICONTROL Tools > Advanced > Export package...]** menu of the Adobe Campaign client console.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
-For the three types of packages, the wizard offers the following steps:
+For the three types of packages, the assistant offers the following steps:
 
 1. List the entities to be exported by document type:
 
@@ -133,7 +133,7 @@ For the three types of packages, the wizard offers the following steps:
 
    ![](assets/ncs_datapackage_export6.png)
 
-1. The last page of the package export wizard lets you start the export. The data will be stored in the file indicated in the **[!UICONTROL File]** field.
+1. The last page of the package export assistant lets you start the export. The data will be stored in the file indicated in the **[!UICONTROL File]** field.
 
    ![](assets/ncs_datapackage_export7.png)
 
@@ -298,7 +298,7 @@ To export a package from a package definition, follow the steps below:
 
 ## Import packages {#importing-packages}
 
-The package import wizard is accessible via the main menu **[!UICONTROL Tools > Advanced > Import package]** of the Adobe Campaign client console.
+The package import assistant is accessible via the main menu **[!UICONTROL Tools > Advanced > Import package]** of the Adobe Campaign client console.
 
 You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a [built-in package](../../installation/using/installing-campaign-standard-packages.md), depending on the terms of your license.
 

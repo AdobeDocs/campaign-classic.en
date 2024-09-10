@@ -19,7 +19,7 @@ There are three types of instructions:
 * **[!DNL value]**: to give access to fields of the delivery, delivery variables and custom objects loaded in the delivery. [Learn more](#value)
 * **[!DNL foreach]**: to loop an array loaded as a custom object. [Learn more](#foreach)
 
-They can be tested directly from the delivery wizard. They apply in the content preview and when you click the tracking button to see the list of the URLs.
+They can be tested directly from the delivery assistant. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
 ## [!DNL include] {#include}
 
@@ -51,7 +51,7 @@ The following examples are among the most commonly used:
   <%@ include option='NmsServer_URL' %>
   ```
 
-  Use the personalization button in the delivery wizard to get the correct syntax.
+  Use the personalization button in the delivery assistant to get the correct syntax.
 
 ## [!DNL value] {#value}
 

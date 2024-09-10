@@ -22,7 +22,7 @@ Adobe Campaign provides several reporting tools:
 
    For more on this, refer to [this section](../../reporting/using/about-campaign-built-in-reports.md).
 
-1. **Descriptive data analysis**: Adobe Campaign provides a visual tool for producing statistics on the data in the database. You can create descriptive analysis reports using a dedicated wizard and adapt their content and layout depending on your needs.
+1. **Descriptive data analysis**: Adobe Campaign provides a visual tool for producing statistics on the data in the database. You can create descriptive analysis reports using a dedicated assistant and adapt their content and layout depending on your needs.
 
    For more on this, refer to [this section](../../reporting/using/about-descriptive-analysis.md).
 

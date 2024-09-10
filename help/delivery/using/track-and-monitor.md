@@ -34,7 +34,7 @@ Tip: Check the configuration of traffic management (IP affinity). For more on th
 
 To better know the behavior of your recipients, you can track how they react to a delivery: reception, opening, clicks on links, unsubscriptions, etc. In Campaign Classic, this information is displayed in the Tracking tab of the recipients targeted by the delivery and in the Tracking tab of the delivery.
 
-**Tip**: Message tracking is enabled by default. To configure URLs, select the Display URLs option in the lower section of the delivery wizard. For each URL of the message, you can choose whether to activate tracking.
+**Tip**: Message tracking is enabled by default. To configure URLs, select the Display URLs option in the lower section of the delivery assistant. For each URL of the message, you can choose whether to activate tracking.
 
 For more on this, refer to the [Configure tracking](how-to-configure-tracked-links.md) section and the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) description. 
 

@@ -48,7 +48,7 @@ To attach a local file to a delivery, follow the steps below.
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-  You can also directly drag and drop the file in the delivery **[!UICONTROL Attachments]** field, or use the **[!UICONTROL Attach]** icon from the delivery wizard toolbar,
+  You can also directly drag and drop the file in the delivery **[!UICONTROL Attachments]** field, or use the **[!UICONTROL Attach]** icon from the delivery assistant toolbar,
 
   ![](assets/s_ncs_user_wizard_add_file_ico.png)
 

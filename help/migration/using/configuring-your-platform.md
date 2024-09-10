@@ -21,7 +21,7 @@ During the migration, the **NmsRecipient** table is rebuilt from the schemas def
 Example of elements to check:
 
 * If you have added a column (or an index) into the **NmsRecipient** table but you have not detailed it in the schema, this will not be saved.
-* The **tablespace** attribute takes back its values by default, in other words those defined in the deployment wizard.
+* The **tablespace** attribute takes back its values by default, in other words those defined in the deployment assistant.
 * If you have added a reference view to the **NmsRecipient** table, you must delete it before migrating.
 
 
@@ -225,7 +225,7 @@ To make sure the postupgrade works, you must delete the view before the migratio
 
 The tracking formula has been modified. When migrating, the old formula (v5) is replaced by the new one (v7). If you use a personalized formula in Adobe Campaign v5, this configuration has to be adapted in Adobe Campaign v7 (**NmsTracking_ClickFormula** and **NmsTracking_OpenFormula** options).
 
-Web tracking management has also been modified. Once migration to v7 has been carried out, you must start the deployment wizard to finish configuring the web tracking.
+Web tracking management has also been modified. Once migration to v7 has been carried out, you must start the deployment assistant to finish configuring the web tracking.
 
   ![](assets/migration_web_tracking.png)
 

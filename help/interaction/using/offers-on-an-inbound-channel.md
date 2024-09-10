@@ -191,7 +191,7 @@ Apply the following steps:
 
 ### Creating an environment for anonymous contacts {#creating-an-environment-for-anonymous-contacts}
 
-1. Create an offer environment for anonymous inbound interactions via the delivery mapping wizard (**Visitor** mapping). For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+1. Create an offer environment for anonymous inbound interactions via the delivery mapping assistant (**Visitor** mapping). For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
    ![](assets/offer_env_anonymous_003.png)
 

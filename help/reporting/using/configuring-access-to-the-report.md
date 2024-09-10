@@ -76,7 +76,7 @@ It's possible to make a report accessible via a specific node of the tree, such 
 
 As an example, we are going to create a link to a report to make it accessible via a list of recipients.
 
-1. Click **[!UICONTROL New]** and select **[!UICONTROL Create a link to an existing report]** in the report creation wizard.
+1. Click **[!UICONTROL New]** and select **[!UICONTROL Create a link to an existing report]** in the report creation assistant.
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
@@ -120,7 +120,7 @@ To learn more about these settings, refer to the **Defning web form properties**
 
 Publishing the report is mandatory in order to share them with other operators and display them in the list of available reports (also refer to [Report display context](#report-display-context)). This operation must be carried out again each time the report is changed.
 
-1. Open the publishing wizard by clicking **[!UICONTROL Publish]** in the toolbar.
+1. Open the publishing assistant by clicking **[!UICONTROL Publish]** in the toolbar.
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 

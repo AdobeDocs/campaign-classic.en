@@ -607,12 +607,12 @@ The **`<check expr="<condition>" />`** tag combined with the **`<error>`** tag p
 
 ## Wizards {#wizards}
 
-A wizard guides you through a set of data entry steps in the form of pages. The data entered is saved when you validate the form.
+An assistant guides you through a set of data entry steps in the form of pages. The data entered is saved when you validate the form.
 
-A wizard has the following structure:
+An assistant has the following structure:
 
 ```xml
-<form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
+<form type="assistant" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Assistant example" entity-schema="nms:recipient">
   <container title="Title of page 1" desc="Long description of page 1">
     <input xpath="@lastName"/>
     <input xpath="comment"/>
@@ -626,7 +626,7 @@ A wizard has the following structure:
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-The presence of the **type="wizard"** attribute on the `<form>` element lets you define the wizard mode in the construction of the form. The pages are completed from `<container>` elements, which are children of the `<form>` element. The `<container>` element of a page is populated with the title attributes for the title and desc to display the description under the page title. The **[!UICONTROL Previous]** and **[!UICONTROL Next]** buttons are automatically added to allow browsing between pages.
+The presence of the **type="assistant"** attribute on the `<form>` element lets you define the assistant mode in the construction of the form. The pages are completed from `<container>` elements, which are children of the `<form>` element. The `<container>` element of a page is populated with the title attributes for the title and desc to display the description under the page title. The **[!UICONTROL Previous]** and **[!UICONTROL Next]** buttons are automatically added to allow browsing between pages.
 
 The **[!UICONTROL Finish]** button saves the data entered and closes the form.
 

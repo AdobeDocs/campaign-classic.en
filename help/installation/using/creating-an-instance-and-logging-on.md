@@ -43,7 +43,7 @@ To create a new instance, follow the steps below:
    >For the connection URL, only use the following characters: `[a-z]`, `[A-Z]`, `[0-9]` and dashes (-) or full stops.
 
 1. Click **[!UICONTROL Ok]** to confirm settings: you can now begin with the instance creation process.
-1. In the **[!UICONTROL Connection settings]** window, enter the **internal** login and its password to connect to the Adobe Campaign application server. Once connected, you access the instance creation wizard to declare a new instance
+1. In the **[!UICONTROL Connection settings]** window, enter the **internal** login and its password to connect to the Adobe Campaign application server. Once connected, you access the instance creation assistant to declare a new instance
 1. In the **[!UICONTROL Name]** field, enter the **instance name**. As this name is used to generate a configuration file **config-`<instance>`.xml** and is used in the command line parameters to identify the instance, make sure you choose a short name without special characters. For example: **eMarketing**.
 
    ![](assets/s_ncs_install_create_instance.png)

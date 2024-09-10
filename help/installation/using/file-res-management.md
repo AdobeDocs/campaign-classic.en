@@ -135,4 +135,4 @@ You can specify another directory by adding a node to the **conf-`<instance>`.xm
 </serverconf>
 ```
 
-In this case, the new URL for the public resources given in the upper part of the window of the deployment wizard should point to this folder.
+In this case, the new URL for the public resources given in the upper part of the window of the deployment assistant should point to this folder.

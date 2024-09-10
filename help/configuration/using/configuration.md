@@ -95,7 +95,7 @@ The form context can be updated on initialization from the **`<enter>`** tag. Fo
 * Declaration of a global command to launch the "xtk:import" form:
 
   ```
-  <command desc="Start the data import wizard" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
+  <command desc="Start the data import assistant" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
   ```
 
   A keyboard shortcut is declared on the 'I' character by the presence of **&** in the command label.

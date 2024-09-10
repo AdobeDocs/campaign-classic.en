@@ -72,7 +72,7 @@ To access your instance's **[!UICONTROL Audit trail]** :
 
 >[!NOTE]
 >
->By default, retention period is set to 180 days for **[!UICONTROL Audit logs]** . To learn more on how to change the retention period, refer to this [page](../../production/using/database-cleanup-workflow.md#deployment-wizard).
+>By default, retention period is set to 180 days for **[!UICONTROL Audit logs]** . To learn more on how to change the retention period, refer to this [page](../../production/using/database-cleanup-workflow.md#deployment-assistant).
 
 ## Enable/disable Audit trail {#enable-disable-audit-trail}
 

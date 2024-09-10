@@ -27,7 +27,7 @@ By default, Interaction comes with a **[!UICONTROL Design]** environment and a *
 
 >[!NOTE]
 >
->To target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environments. For more on this, refer to [Creating an offer environment](#creating-an-offer-environment).
+>To target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping assistant to create the environments. For more on this, refer to [Creating an offer environment](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 
@@ -41,7 +41,7 @@ By default, Interaction comes with a pre-configured environment to target the re
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. Click **[!UICONTROL Next]** to proceed to the next screen in the wizard, check the **[!UICONTROL Generate a storage schema for propositions]** box and click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Next]** to proceed to the next screen in the assistant, check the **[!UICONTROL Generate a storage schema for propositions]** box and click **[!UICONTROL Save]**.
 
    ![](assets/offer_env_anonymous_002.png)
 

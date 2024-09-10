@@ -315,7 +315,7 @@ This option lets you define someone in charge of content editing, such as a webm
 
    ![](assets/s_ncs_user_validation_submit_content_notif.png)
 
-1. They can then log on to the console, open the delivery and edit it using a simplified wizard to change the subject, HTML and text content, and send proofs.
+1. They can then log on to the console, open the delivery and edit it using a simplified assistant to change the subject, HTML and text content, and send proofs.
 
    ![](assets/s_user_validation_content_edition.png)
 

@@ -31,7 +31,7 @@ In Microsoft Dynamics CRM:
 In Campaign Classic:
 1. Create a new external account
 1. Configure the external account with Microsoft Dynamics settings
-1. Use the configuration wizard to map tables and synchronize enumerations
+1. Use the configuration assistant to map tables and synchronize enumerations
 1. Create the synchronization workflow
 
 [Learn more in this section](#configure-acc-for-microsoft)
@@ -163,7 +163,7 @@ To connect Microsoft Dynamics 365 and Campaign, you need to create and configure
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 
-1. Click the **[!UICONTROL Microsoft CRM configuration wizard...]** link. Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.
+1. Click the **[!UICONTROL Microsoft CRM configuration assistant...]** link. Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 

@@ -12,7 +12,7 @@ exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 
 In a Web form, fields enable users to enter information and select options. Web forms can offer input fields, selection fields, static and advanced content (captchas, subscriptions, etc.).
 
-When you use the wizard to add fields, the field type is detected automatically based on the selected field or storage variable. You can edit it using the **[!UICONTROL Type]** drop-down box in the **[!UICONTROL General]** tab. 
+When you use the assistant to add fields, the field type is detected automatically based on the selected field or storage variable. You can edit it using the **[!UICONTROL Type]** drop-down box in the **[!UICONTROL General]** tab. 
 
 ![](assets/s_ncs_admin_webform_change_type.png)
 
@@ -37,9 +37,9 @@ Please specify the response storage mode: update a field in the database (stores
 >
 >By default, the field is inserted at the bottom of the current tree. Use the arrows in the toolbar to move it up or down.
 
-## Field creation wizard {#field-creation-wizard}
+## Field creation assistant {#field-creation-assistant}
 
-For each page of the form, you can add a field via the first button in the toolbar. To do this, go to the **[!UICONTROL Add using the wizard]** menu. 
+For each page of the form, you can add a field via the first button in the toolbar. To do this, go to the **[!UICONTROL Add using the assistant]** menu. 
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

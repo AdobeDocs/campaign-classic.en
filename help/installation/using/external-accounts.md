@@ -400,7 +400,7 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 
   Select the version of the API.
 
-For this external account, you need to configure you Salesforce CRM with the configuration wizard.
+For this external account, you need to configure you Salesforce CRM with the configuration assistant.
 
 For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md).
 

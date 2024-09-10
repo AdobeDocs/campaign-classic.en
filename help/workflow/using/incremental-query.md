@@ -29,7 +29,7 @@ To do this:
 1. In the **[!UICONTROL Scheduling & History]** tab, select the **[!UICONTROL Schedule execution]** option. The task remains active once it has been created and will only be triggered at the times specified by the schedule for executing the query. However, if the option is disabled, the query is executed immediately **and in one go**.
 1. Click the **[!UICONTROL Change]** button.
 
-   In the **[!UICONTROL Schedule editing wizard]** window, you can configure the type of frequency, event recurrence and event validity period.
+   In the **[!UICONTROL Schedule editing assistant]** window, you can configure the type of frequency, event recurrence and event validity period.
 
    ![](assets/s_user_segmentation_wizard_11.png)
 

@@ -25,7 +25,7 @@ You have the ability to define new blocks that will enable you to optimize your 
 
 To insert a personalization block in a message, follow the steps below:
 
-1. In the content editor of the delivery wizard, click the personalized field icon and select the **[!UICONTROL Include]** menu.
+1. In the content editor of the delivery assistant, click the personalized field icon and select the **[!UICONTROL Include]** menu.
 1. Select a personalization block from the list (the list displays the 10 last used blocks), or click the **[!UICONTROL Other...]** menu to access the full list.
 
    ![](assets/s_ncs_user_personalized_block01.png)
@@ -65,7 +65,7 @@ To do this, we need to insert the following personalization blocks:
 >For more on the mirror page generation, refer to [Generate the mirror page](sending-messages.md#generating-the-mirror-page).
 
 1. Create a new delivery or open an existing email type delivery.
-1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
+1. In the delivery assistant, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
 1. Insert the personalization blocks in the message body. To do this, click in the message content, click the personalized field icon and select the **[!UICONTROL Include]** menu.
 1. Select the first block to insert. Renew the procedure to include the two other blocks.
 

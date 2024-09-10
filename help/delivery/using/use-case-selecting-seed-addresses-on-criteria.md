@@ -77,15 +77,15 @@ For further details on schema extensions, refer to [this section](../../configur
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. When the update wizard is displayed, click the **[!UICONTROL Next]** button to access the Edit tables window: changes carried out in the seed address data schema require a structure update.
+1. When the update assistant is displayed, click the **[!UICONTROL Next]** button to access the Edit tables window: changes carried out in the seed address data schema require a structure update.
 
    ![](assets/dlv_seeds_usecase_13.png)
 
-1. Follow the wizard until you come to the page to run the update. Click the **[!UICONTROL Start]** button.
+1. Follow the assistant until you come to the page to run the update. Click the **[!UICONTROL Start]** button.
 
    ![](assets/dlv_seeds_usecase_14.png)
 
-   Once the update has finished, you can close the wizard.
+   Once the update has finished, you can close the assistant.
 
 1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. Refer to the [Update the input form](#updating-the-input-form) section.
 

@@ -1,23 +1,23 @@
 ---
 product: campaign
-title: New field wizard
-description: New field wizard
+title: New field assistant
+description: New field assistant
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---
-# New field wizard{#new-field-wizard}
+# New field assistant{#new-field-assistant}
 
 
-A wizard accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
+An assistant accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
 
-Validating the wizard updates the extension schema of the table to be extended and launches the SQL script to modify the physical structure of the database.
+Validating the assistant updates the extension schema of the table to be extended and launches the SQL script to modify the physical structure of the database.
 
 This assistant has the advantage of quickly adding a field without needing to know the structure of a data schema.
 
 The main disadvantage is the limitation of the data and the properties to be extended.
 
-The wizard screens contain the following steps:
+The assistant screens contain the following steps:
 
 1. The first page lets you enter the name of the schema to be extended and the namespace of the extension schema where the modifications will be saved: 
 

@@ -39,7 +39,7 @@ To configure CRM Connector for Salesforce, follow the steps below:
 
     * **[!UICONTROL API version]**
     Select the version of the API.
-1. Run the configuration wizard to generate the available CRM table: the configuration wizard lets you collect tables and create the matching schema.
+1. Run the configuration assistant to generate the available CRM table: the configuration assistant lets you collect tables and create the matching schema.
 
    ![](assets/crm_connectors_sfdc_launch.png)
 

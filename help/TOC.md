@@ -288,7 +288,7 @@ type: Documentation
        + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyze populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
-       + [Use the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)
+       + [Use the descriptive analysis assistant](reporting/using/using-the-descriptive-analysis-assistant.md)
        + [Report settings](reporting/using/processing-a-report.md)
        + [Use cases](reporting/using/use-cases.md)
   + Create new reports {#creating-new-reports}
@@ -532,7 +532,7 @@ type: Documentation
        + [Simulation tracking](interaction/using/simulation-tracking.md)
   + Deliver an offer {#delivering-an-offer}
        + [About outbound channels](interaction/using/about-outbound-channels.md)
-       + [Integrate an offer via the wizard](interaction/using/integrating-an-offer-via-the-wizard.md)
+       + [Integrate an offer via the assistant](interaction/using/integrating-an-offer-via-the-assistant.md)
        + [Integrate an offer via a workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
   + Unitary interactions {#unitary-interactions}
        + [About inbound channels](interaction/using/about-inbound-channels.md)
@@ -766,7 +766,7 @@ type: Documentation
        + [Filtering schemas](configuration/using/filtering-schemas.md)
        + [Restricting PII view](configuration/using/restricting-pii-view.md)
        + [Updating the database structure](configuration/using/updating-the-database-structure.md)
-       + [New field wizard](configuration/using/new-field-wizard.md)
+       + [New field assistant](configuration/using/new-field-assistant.md)
        + [Structure of a data schema](configuration/using/structure-of-a-data-schema.md)
        + [Regenerating schemas](configuration/using/regenerating-schemas.md)
        + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)

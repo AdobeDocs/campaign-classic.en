@@ -88,7 +88,7 @@ To perform this, follow the steps below:
 
 1. Choose **[!UICONTROL External Account]** (extAccount).
 
-1. In the last wizard screen, edit your new 'srcSchema' to restrict access to all password fields:
+1. In the last assistant screen, edit your new 'srcSchema' to restrict access to all password fields:
 
     You can replace the main element (`<element name="extAccount" ... >`) by:
 

@@ -9,7 +9,7 @@ exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 ---
 # Configure URL tracking options{#personalizing-url-tracking}
 
-Advanced message tracking settings are accessible via the **[!UICONTROL Tracking & Images]** icon in the toolbar of the delivery wizard.
+Advanced message tracking settings are accessible via the **[!UICONTROL Tracking & Images]** icon in the toolbar of the delivery assistant.
 
 >[!NOTE]
 >

@@ -9,15 +9,18 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 ---
-# Connecting through LDAP{#connecting-through-ldap}
+# Connecting through LDAP {#connecting-through-ldap}
 
 ## Configuring Campaign and LDAP {#configuring-campaign-and-ldap}
 
 >[!NOTE]
 >
->The LDAP configuration is only possible for on-premise or hybrid installations.
+>* The LDAP configuration is only possible for on-premise or hybrid installations.
+>
+>* Make sure that your system and your openssl versions are compatible with Campaign in the [Compatibility matrix](../../rn/using/compatibility-matrix.md). Outdated versions can impact your LDAP authentication.
+>
 
-The LDAP configuration is carried out in the deployment wizard. The **[!UICONTROL LDAP integration]** option must be selected during the first configuration step. Refer to [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
+The LDAP configuration is carried out in the deployment assistant. The **[!UICONTROL LDAP integration]** option must be selected during the first configuration step. Refer to [Deployment assistant](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 The window lets you configure the identification of Adobe Campaign users via the specified LDAP directory.
 
@@ -26,29 +29,19 @@ The window lets you configure the identification of Adobe Campaign users via the
 * Specify the address of the LDAP server in the **[!UICONTROL LDAP server]** field. You can add the port number. By default, the port used is 389.
 * In the drop-down list, select the authentication method for users:
 
-    * Encrypted password (**md5**)
-
-      Default mode.
+    * Encrypted password (**md5**) - Default mode.
     
-    * Plain text password + SSL (**TLS**)
-
-      The entire authentication procedure (password included) is encrypted. The secure port 636 must not be used in this mode: Adobe Campaign automatically switches to secure mode.
+    * Plain text password + SSL (**TLS**) - The entire authentication procedure (password included) is encrypted. The secure port 636 must not be used in this mode: Adobe Campaign automatically switches to secure mode.
 
       When you use this authentication mode, in Linux, the certificate is verified by an openLDAP client library. We recommend using a valid SSL certificate so that the authentication procedure is encrypted. Otherwise, information will be in plain text.
 
       The certificate is also verified in Windows.
     
-    * Windows NT LAN Manager (**NTLM**)
-
-      Proprietary Windows authentication. The **[!UICONTROL Unique identifier]** is used for the domain name only. 
+    * Windows NT LAN Manager (**NTLM**) - Proprietary Windows authentication. The **[!UICONTROL Unique identifier]** is used for the domain name only. 
     
-    * Distributed Password Authentication (**DPA**)
-
-      Proprietary Windows authentication. The **[!UICONTROL Unique identifier]** is used for the domain name only (domain.com). 
+    * Distributed Password Authentication (**DPA**) - Proprietary Windows authentication. The **[!UICONTROL Unique identifier]** is used for the domain name only (domain.com). 
     
-    * Plain text password
-
-      No encryption (for use in test phases only).
+    * Plain text password - No encryption (for use in test phases only).
 
 * Select the user authentication mode: **[!UICONTROL Automatically compute the unique user identifier]** (see step [Distinguished Name calculation](#distinguished-name-calculation)) or **[!UICONTROL Search the unique user identifier in the directory]** (see step [Searching for identifiers](#searching-for-identifiers)).
 
@@ -90,7 +83,7 @@ The systems that are compatible depend on the selected authentication mechanism.
 
 ## Distinguished Name calculation {#distinguished-name-calculation}
 
-If you wish to compute the Distinguished Name (DN) identifiers, the next step of the deployment wizard lets you configure the calculation mode.
+If you wish to compute the Distinguished Name (DN) identifiers, the next step of the deployment assistant lets you configure the calculation mode.
 
 ![](assets/s_ncs_install_deployment_wiz_ldap_02.png)
 
@@ -110,7 +103,7 @@ If you wish to compute the Distinguished Name (DN) identifiers, the next step of
 
 ## Searching for identifiers {#searching-for-identifiers}
 
-If you choose to search for an identifier, the deployment wizard lets you configure the search.
+If you choose to search for an identifier, the deployment assistant lets you configure the search.
 
 * In the **[!UICONTROL Application level DN used for the search]** and **[!UICONTROL Password of the application login]** fields, provide the identifier and password with which Adobe Campaign will connect to search for the identifier. If they are empty, Adobe Campaign will connect to the server anonymously. 
 * Specify the **[!UICONTROL Base identifier]** and **[!UICONTROL Search scope]** fields in order to determine a subset of the LDAP directory to start the search from.
@@ -183,4 +176,4 @@ This section provides a few simple use cases to help you achieve the most approp
 
    Groups are never created on the fly, whether by Adobe Campaign or by LDAP. They need to be created individually, both in Adobe Campaign and in the LDAP directory.
 
-   The names of groups in the LDAP directory need to coincide with the names of Adobe Campaign groups. Their association mask is defined in the last configuration stage of the deployment wizard: Adobe Campaign_(.&#42;), for instance.
+   The names of groups in the LDAP directory need to coincide with the names of Adobe Campaign groups. Their association mask is defined in the last configuration stage of the deployment assistant: Adobe Campaign_(.&#42;), for instance.

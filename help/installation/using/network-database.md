@@ -10,8 +10,6 @@ exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 ---
 # Network, database and SSL/TLS {#network-database}
 
-
-
 ## Network configuration
 
 A very important thing to check when deploying an on-premise type of architecture is the [networking configuration](../../installation/using/network-configuration.md). Ensure that the Tomcat server is NOT directly accessible outside the server:

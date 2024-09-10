@@ -41,7 +41,7 @@ The **[!UICONTROL Add a sub-item]** option lets you attach computed data to the 
 
 The sub-elements will be represented in the sub-tree of the collection they are mapped to.
 
-Collections are shown in the **[!UICONTROL Collections]** sub-tab. You can filter the collected elements by clicking the **[!UICONTROL Detail]** icon of the selected collection. The filter wizard lets you select the collected data and specify the filtering conditions to be applied to the data in the collection.
+Collections are shown in the **[!UICONTROL Collections]** sub-tab. You can filter the collected elements by clicking the **[!UICONTROL Detail]** icon of the selected collection. The filter assistant lets you select the collected data and specify the filtering conditions to be applied to the data in the collection.
 
 ![](assets/query_add_columns_collection.png)
 

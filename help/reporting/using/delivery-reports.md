@@ -61,7 +61,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 * **[!UICONTROL Distinct opens for the population reached]** : Estimation of the number of targeted recipients having opened a message at least once. Clicks on tracked URLs are taken into account since emails have to be opened to click on a link.
 * **[!UICONTROL Sum of opens for the population reached]** : Estimation of the total number of opens by targeted recipients. 
 * **[!UICONTROL Clicks on opt-out link]** : Number of clicks on the unsubscription link.
-* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). Refer to this [page](../../delivery/using/about-delivery-monitoring.md). 
+* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery assistant (tracked URLs). Refer to this [page](../../delivery/using/about-delivery-monitoring.md). 
 * **[!UICONTROL Estimation of forwards]** : Estimation of the number of emails forwarded by the targeted recipients. This value is calculated by subtracting the number of distinct people and the number of distinct recipients who clicked in the email.
 
   >[!NOTE]

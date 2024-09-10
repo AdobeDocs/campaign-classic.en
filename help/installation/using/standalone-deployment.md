@@ -210,17 +210,17 @@ Apply the following steps:
 
    Refer to [this page](../../installation/using/creating-an-instance-and-logging-on.md) and [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-   The database creation wizard appears when you log in for the first time:
+   The database creation assistant appears when you log in for the first time:
 
    ![](assets/s_ncs_install_db_oracle_creation01.png)
 
-   Follow the steps in the wizard and create the database associated with the connection instance.
+   Follow the steps in the assistant and create the database associated with the connection instance.
 
    For more on this, refer to [Creating and configuring the database](../../installation/using/creating-and-configuring-the-database.md).
 
    Once the database is created, log off.
 
-1. Log back on to the client console using the **admin** login without a password and start the deployment wizard ( **[!UICONTROL Tools > Advanced]** menu) to finish configuring the instance.
+1. Log back on to the client console using the **admin** login without a password and start the deployment assistant ( **[!UICONTROL Tools > Advanced]** menu) to finish configuring the instance.
 
    For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 

@@ -158,7 +158,7 @@ The steps are as follows:
     * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Start the Adobe Campaign server.
-1. In the Adobe Campaign console, connect using the **admin** login without a password and launch the deployment wizard.
+1. In the Adobe Campaign console, connect using the **admin** login without a password and launch the deployment assistant.
 
    For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 
