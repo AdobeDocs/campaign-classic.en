@@ -766,7 +766,7 @@ type: Documentation
        + [Filtering schemas](configuration/using/filtering-schemas.md)
        + [Restricting PII view](configuration/using/restricting-pii-view.md)
        + [Updating the database structure](configuration/using/updating-the-database-structure.md)
-       + [New field assistant](configuration/using/new-field-assistant.md)
+       + [New field assistant](configuration/using/new-field-wizard.md)
        + [Structure of a data schema](configuration/using/structure-of-a-data-schema.md)
        + [Regenerating schemas](configuration/using/regenerating-schemas.md)
        + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)

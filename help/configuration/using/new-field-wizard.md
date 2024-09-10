@@ -6,7 +6,7 @@ feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---
-# New field assistant{#new-field-assistant}
+# New field assistant{#new-field-wizard}
 
 
 An assistant accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
