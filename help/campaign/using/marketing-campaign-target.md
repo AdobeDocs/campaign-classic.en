@@ -161,6 +161,10 @@ The toolbar icons let you take action concerning the execution of the targeting 
 
   ![](assets/s_user_segmentation_stop_unconditional.png)
 
+  >[!CAUTION]
+  >
+  >Unconditional stop is restricted to Admin users. 
+
 ## Add a control group {#defining-a-control-group}
 
 A control group is a population which will not receive the delivery; it is used to track post-delivery behavior and campaign impact by making a comparison with the behavior of target population, which has received the delivery.
