@@ -55,9 +55,16 @@ To create your OAuth technical account for new integrations, follow these steps:
    * **[!UICONTROL Technical account ID]**
    * **[!UICONTROL Organization ID]**
 
-## Add OAuth project credentials in Adobe Campaign {#add-credentials}
+## Add OAuth project credentials in Campaign {#add-credentials}
 
-Follow the steps below to add your OAuth project credentials in Adobe Campaign:
+Once the steps above have been executed, add your OAuth project credentials in Adobe Campaign.
+
+>[!NOTE]
+>
+>As a hosted or Managed Cloud Services customer, this steps is not needed: Adobe has already added your OAuth project credentials to your environment.
+>
+
+As an on-premise or hybrid customer, follow these steps:  
 
 1. Login via SSH to each container where the Adobe Campaign instance is installed.
 
