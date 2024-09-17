@@ -40,7 +40,7 @@ To create your OAuth technical account for new integrations, follow these steps:
 
     ![](assets/api-account-3.png)
 
-1. Select the **[!UICONTROL Product profile]** link to your project. 
+1. Select the **[!UICONTROL Product profile]** link to your project.
 
     You can create a new one if needed. [Learn more](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
 
