@@ -11,8 +11,6 @@ exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 ---
 # Upgrading to a new build (on-premise){#upgrading}
 
-
-
 Before starting the upgrading process, determine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 
 >[!IMPORTANT]
@@ -113,15 +111,17 @@ On a Linux environment, follow the steps below to update Adobe Campaign to a new
 
 [Learn more about Client Console availability](../../installation/using/client-console-availability-for-windows.md).
 
->[!NOTE]
->
->From build 8757, the third-party library is no longer needed.
-
 ### Obtain updated packages {#obtain-updated-packages}
 
 Start by recovering both updated packages of Adobe Campaign: connect to the [Software distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
 The file is **nlserver6-v7-XXX.rpm**
+
+>[!AVAILABILITY]
+>
+>Starting v7.4.1, libraries for RPM Linux packages are no longer included in Campaign. You must install these librairies.
+> 
+
 
 ### Perform an update {#perform-an-update}
 

@@ -13,6 +13,8 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 
 Adobe Campaign comes with the **nlserver** package which contains the binaries and configuration files for a given version.
 
+
+
 The installation commands enables you to:
 
 * Copy the files to **/usr/local/neolane**
@@ -28,6 +30,11 @@ The installation commands enables you to:
 You can run the **ping `hostname`** command to make sure the server can reach itself.
 
 ## Distribution based on RPM packages {#distribution-based-on-rpm--packages}
+
+>[!AVAILABILITY]
+>
+>Starting v7.4.1, libraries for RPM Linux packages are no longer included in Campaign. You must install these librairies.
+> 
 
 To install Adobe Campaign onto an RPM (RHEL, CentOS) operating system, follow these steps:
 
