@@ -58,7 +58,7 @@ This method lets you perform queries from data associated with a schema. It take
 
 Definition of the "ExecuteQuery" method in the "xtk:queryDef" schema:
 
-```
+```xml
 <method name="ExecuteQuery" const="true">
   <parameters>
     <param desc="Output XML document" name="output" type="DOMDocument" inout="out"/>
@@ -75,7 +75,7 @@ Definition of the "ExecuteQuery" method in the "xtk:queryDef" schema:
 
 The structure of the XML document of the query is described in the "xtk:queryDef " schema. This document describes the clauses of a SQL query: "select", "where", "order by", "group by", "having".
 
-```
+```xml
 <queryDef schema="schema_key" operation="operation_type">
   <select>
     <node expr="expression1">
@@ -109,8 +109,7 @@ A sub-query ( `<subquery>`  ) can be defined in a  `<condition> `  element. The 
 
 Example of a `<subquery>  : </subquery>`
 
-```
-
+```xml
 <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
   <subQuery schema="xtk:operatorGroup">
      <select>
@@ -139,7 +138,7 @@ The **XPath** syntax is used to locate data based on the input schema. For furth
 
 Retrieves the last name and first name of a recipient ("nms:recipient" schema) with a filter on the email.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="get">
   <!-- fields to retrieve -->
   <select>
@@ -152,14 +151,13 @@ Retrieves the last name and first name of a recipient ("nms:recipient" schema) w
     <condition expr="@email= 'john.doe@aol.com'"/>
   </where>
 </queryDef>
-
 ```
 
 #### Example with the 'select' operation {#example-with-the--select--operation}
 
 Returns the list of recipients filtered on a folder and the email domain with a sort in descending order on date of birth.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select">
   <select>
     <node expr="@email"/>
@@ -186,14 +184,14 @@ To limit the number of records to be returned, add the **lineCount** attribute t
 
 To limit the number of records returned by the query to 100:
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select" lineCount="100">
 ...
 ```
 
 To retrieve the next 100 records, run the same query again, adding the **startLine** attribute.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select" lineCount="100" startLine="100">
 ...
 ```
@@ -202,7 +200,7 @@ To retrieve the next 100 records, run the same query again, adding the **startLi
 
 To count the number of records on a query:
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="count"">
   <!-- condition on the folder and domain of the email -->
   <where>  
@@ -219,7 +217,7 @@ To count the number of records on a query:
 
 To retrieve email addresses referenced more than once:
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select">
   <select>
     <node expr="@email"/>
@@ -242,7 +240,7 @@ To retrieve email addresses referenced more than once:
 
 The query can be simplified by adding the **groupBy** attribute directly to the field to be grouped:
 
-```
+```xml
 <select>
   <node expr="@email" groupBy="true"/>
 </select>
@@ -259,7 +257,7 @@ Here are two examples of bracketing on the same condition.
 
 * The simple version in a single expression:
 
-  ```
+  ```xml
   <where>
     <condition expr="(@age > 15 or @age <= 45) and  (@city = 'Newton' or @city = 'Culver City') "/>
   </where>
@@ -268,7 +266,7 @@ Here are two examples of bracketing on the same condition.
 
 * The structured version with `<condition>` elements:
 
-  ```
+  ```xml
   <where>
     <condition bool-operator="AND">
       <condition expr="@age > 15" bool-operator="OR"/>
@@ -284,7 +282,7 @@ Here are two examples of bracketing on the same condition.
 
 It is possible to replace the 'OR' operator with the 'IN' operation when several conditions apply to the same field:
 
-```
+```xml
 <where>
   <condition>
     <condition expr="@age IN (15, 45)"/>
@@ -302,7 +300,7 @@ This syntax simplifies the query when more than two data are used in the conditi
 
   Example of a filter on the folder label:
 
-  ```
+  ```xml
   <where>
     <condition expr="[folder/@label] like 'Segment%'"/>
   </where>
@@ -311,7 +309,7 @@ This syntax simplifies the query when more than two data are used in the conditi
 
   To retrieve the fields of the folder from the "nms:recipient" schema:
 
-  ```
+  ```xml
   <select>
     <!-- label of recipient folder -->
     <node expr="[folder/@label]"/>
@@ -324,7 +322,7 @@ This syntax simplifies the query when more than two data are used in the conditi
 
   To filter the recipients who have subscribed to the 'Newsletter' information service:
 
-  ```
+  ```xml
   <where>
     <condition expr="subscription" setOperator="EXISTS">
       <condition expr="@name = 'Newsletter'"/>
@@ -337,7 +335,7 @@ This syntax simplifies the query when more than two data are used in the conditi
 
   Example on the "subscription" collection link:
 
-  ```
+  ```xml
   <select>
     <node expr="subscription/@label"/>
   </select>
@@ -349,7 +347,7 @@ This syntax simplifies the query when more than two data are used in the conditi
 
   In this example, for each recipient the query returns the email and list of information services to which the recipient subscribes:
 
-  ```
+  ```xml
   <queryDef schema="nms:recipient" operation="select">
     <select>
       <node expr="@email"/>
@@ -375,7 +373,7 @@ The binding of parameters lets the engine set the values of the parameters used 
 
 When a query is constructed, the "bound" values are replaced by a character (? in ODBC, `#[index]#` in postgres...) in the body of the SQL query.
 
-```
+```xml
 <select>
   <!--the value will be bound by the engine -->
   <node expr="@startDate = #2002/02/01#"/>                   
@@ -391,21 +389,6 @@ To avoid binding a parameter, the "noSqlBind" attribute must be populated with t
 >
 >If the query includes "order-by" or "group-by" instructions, the database engines will not be able to "bind" values. You must place the @noSqlBind="true" attribute on the "select" and/or "where" instructions of the query.
 
-#### Query-building tip: {#query-building-tip-}
-
-To help with the syntax of a query, you can write the query using the generic query editor in the Adobe Campaign client console ( **[!UICONTROL Tools/ Generic query editor...]** menu). To do this:
-
-1. Select the data to be retrieved:
-
-   ![](assets/s_ncs_integration_webservices_queyr1.png)
-
-1. Define the filter condition:
-
-   ![](assets/s_ncs_integration_webservices_queyr2.png)
-
-1. Execute the query and press CTRL+F4 to view the query source code. 
-
-   ![](assets/s_ncs_integration_webservices_queyr3.png)
 
 ### Output document format {#output-document-format}
 
@@ -419,7 +402,7 @@ Example of a return from the "nms:recipient" schema on a "get" operation:
 
 On a "select" operation, the document returned is an enumeration of elements:
 
-```
+```xml
 <!-- the name of the first element does not matter -->
 <recipient-collection>   
   <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
@@ -431,7 +414,7 @@ On a "select" operation, the document returned is an enumeration of elements:
 
 Example of a document returned for "count" type operation:
 
-```
+```xml
 <recipient count="3"/>
 ```
 
@@ -439,7 +422,7 @@ Example of a document returned for "count" type operation:
 
 An alias lets you modify the location of data in the output document. The **alias** attribute must specify an XPath on the corresponding field.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="get">
   <select>
     <node expr="@firstName" alias="@firstName"/>
@@ -451,13 +434,13 @@ An alias lets you modify the location of data in the output document. The **alia
 
 Returns:
 
-```
+```xml
 <recipient My_folder="Recipients" First name ="John" lastName="Doe"/>
 ```
 
 Instead of:
 
-```
+```xml
 <recipient firstName="John" lastName="Doe">
   <folder label="Recipients"/>
 </recipient>
@@ -468,7 +451,7 @@ Instead of:
 
 * Query:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -494,7 +477,7 @@ Instead of:
 
 * Response:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -520,7 +503,7 @@ The call does not return any data, except errors.
 
 Definition of the "Write" and "WriteCollection" methods in the "xtk:session" schema:
 
-```
+```xml
 <method name="Write" static="true">
   <parameters>
     <param name="doc" type="DOMDocument" desc="Difference document"/>
@@ -558,7 +541,7 @@ It is possible to force the type of operation by populating the **_operation** a
 
 Updating or inserting a recipient (implicit "insertOrUpdate" operation) with email address, date of birth and town:
 
-```
+```xml
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">
   <location city="Newton"/>
 </recipient>
@@ -567,7 +550,7 @@ Updating or inserting a recipient (implicit "insertOrUpdate" operation) with ema
 
 Deleting a recipient:
 
-```
+```xml
 <recipient xtkschema="nms:recipient" _operation="delete" email="rene.dupont@adobe.com" folder-id=1203 _key="@email, [@folder-id]"/>
 
 ```
@@ -580,7 +563,7 @@ Deleting a recipient:
 
 Update or insertion for several recipients:
 
-```
+```xml
 <recipient-collection xtkschema="nms:recipient">    
   <recipient email="john.doe@adobe.com" firstName="John" lastName="Doe" _key="@email"/>
   <recipient email="peter.martinez@adobe.com" firstName="Peter" lastName="Martinez" _key="@email"/>
@@ -595,7 +578,7 @@ Update or insertion for several recipients:
 
 Associating the folder with a recipient based on its internal name (@name).
 
-```
+```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
   <folder name="Folder2" _operation="none"/>
 </recipient>
@@ -613,7 +596,7 @@ The definition of the key of the main entity ("nms:recipient") consists of a fie
 
 Updating the company (linked table in "cus:company" schema) from a recipient:
 
-```
+```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
   <company name="adobe" code="ERT12T" _key="@name" _operation="update"/>
 </recipient>
@@ -623,7 +606,7 @@ Updating the company (linked table in "cus:company" schema) from a recipient:
 
 Adding a recipient to a group with the group relation table ("nms:rcpGrpRel"):
 
-```
+```xml
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
   <rcpGrpRel _key="[rcpGroup/@name]">
     <rcpGroup name="GRP1"/>
@@ -643,7 +626,7 @@ By default, all the collection elements must be populated in order to update the
 
 * Query:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -660,7 +643,7 @@ By default, all the collection elements must be populated in order to update the
 
 * Response:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -673,7 +656,7 @@ By default, all the collection elements must be populated in order to update the
 
   Return with error:
 
-  ```
+  ```xml
   <?xml version='1.0'?>
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
