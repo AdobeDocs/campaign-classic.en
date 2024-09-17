@@ -17,9 +17,10 @@ Use Campaign **Federated Data Access** (FDA) option to process information store
 
 >[!CAUTION]
 >
->+ [!DNL Snowflake] connector is available for hosted and on-premise deployments. For more on this, refer to [this page](../../installation/using/capability-matrix.md).
+>* [!DNL Snowflake] connector is available for hosted and on-premise deployments. For more on this, refer to [this page](../../installation/using/capability-matrix.md).
 >
 >* The minimal supported version of the [!DNL Snowflake] ODBC driver is **2.24.4**.
+>
 
 ![](assets/snowflake_3.png)
 
