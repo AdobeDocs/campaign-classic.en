@@ -181,4 +181,4 @@ Browse the following links to learn more:
 * [Schema structure](schema-structure.md)
 * [Database mapping](database-mapping.md)
 * [Link management](database-links.md)
-* [Campaign datamodel](about-data-model.md)
+* [Campaign data model](about-data-model.md)

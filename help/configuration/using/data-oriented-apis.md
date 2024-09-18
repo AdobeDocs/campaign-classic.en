@@ -8,9 +8,9 @@ exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 ---
 # Data oriented APIs{#data-oriented-apis}
 
-Data oriented APIs let you address the entire datamodel.
+Data oriented APIs let you address the entire data model.
 
-## Overview of the datamodel {#overview-of-the-datamodel}
+## Overview of the data model {#overview-of-the-datamodel}
 
 Adobe Campaign does not offer a dedicated read API per entity (no getRecipient or getDelivery function, etc.). Use the QUERY & WRITER data read and modification methods to access the data of the model.
 

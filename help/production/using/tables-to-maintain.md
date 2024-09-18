@@ -13,7 +13,7 @@ exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 
 
 
-The list of tables to maintain depends on your version of Adobe Campaign, how you use it and on the datamodel configuration.
+The list of tables to maintain depends on your version of Adobe Campaign, how you use it and on the data model configuration.
 
 The following list contains only the tables most subject to fragmentation. The impacts are as follows:
 
@@ -199,4 +199,4 @@ The following list contains only the tables most subject to fragmentation. The i
 
 ## Customer tables {#customer-tables}
 
-In addition to the list above, tables containing created by customers (which do not exist in the Adobe Campaign datamodel) during platform setup can also be subject to fragmentation, especially if they are frequently updated during data loading or synchronization procedures. These tables can be part of the default Adobe Campaign data model (for instance **NmsRecipient**). In this case, it is up to the administrator of the Adobe Campaign platform to conduct an audit of its specific database model to find these custom tables. These tables aren't necessarily mentioned explicitly in our maintenance procedures.
+In addition to the list above, tables containing created by customers (which do not exist in the Adobe Campaign data model) during platform setup can also be subject to fragmentation, especially if they are frequently updated during data loading or synchronization procedures. These tables can be part of the default Adobe Campaign data model (for instance **NmsRecipient**). In this case, it is up to the administrator of the Adobe Campaign platform to conduct an audit of its specific database model to find these custom tables. These tables aren't necessarily mentioned explicitly in our maintenance procedures.

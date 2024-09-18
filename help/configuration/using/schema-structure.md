@@ -498,4 +498,4 @@ Browse the following links to learn more:
 * [Database mapping](database-mapping.md)
 * [Link management](database-links.md)
 * [Key management](database-keys.md)
-* [Campaign datamodel](about-data-model.md)
+* [Campaign data model](about-data-model.md)

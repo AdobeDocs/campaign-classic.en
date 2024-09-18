@@ -91,7 +91,7 @@ The recommendations above enable you to optimize report calculation.
 
 In addition to this, Adobe Campaign recommends the following improvements:
 
-* Work on your datamodel: indexed fields must be used mainly to improve calculation formulas.
+* Work on your data model: indexed fields must be used mainly to improve calculation formulas.
 
   To find an indexed field quickly, look at the name of the column in the Adobe Campaign interface: the sorting arrow is underlined in red if the field is indexed.
 

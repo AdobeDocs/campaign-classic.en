@@ -18,7 +18,7 @@ As an open solution, Adobe Campaign is ready for customization and advanced appl
 
 The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction. The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, [refer to this section](../../configuration/using/about-schema-edition.md).
 
-[Click here to learn more about Campaign datamodel](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
+[Click here to learn more about Campaign data model](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
 
 Best practices are listed [in this article](../../configuration/using/data-model-best-practices.md).
 
