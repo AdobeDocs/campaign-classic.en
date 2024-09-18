@@ -26,8 +26,11 @@ New or upgraded versions of the embedded versions of Tomcat are only released wi
 >[!AVAILABILITY]
 >
 >
-> Starting Campaign v7.4.1, Tomcat 10.1 is the default version.
+>* Starting Campaign v7.4.1, Tomcat 10.1 is the default version.
 >
+>* Adobe Campaign Classic does not use WebSocket and HTTP2 protocols.
+>
+
 
 ## How to locate the version of embedded Tomcat
 

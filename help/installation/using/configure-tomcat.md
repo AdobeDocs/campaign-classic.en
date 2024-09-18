@@ -17,8 +17,12 @@ Learn more about Tomcat in Campaign and how to locate your Tomcat version in [th
 
 >[!AVAILABILITY]
 >
-> Starting v7.4.1, Tomcat 10.1 is the default version.
 >
+>* Starting Campaign v7.4.1, Tomcat 10.1 is the default version.
+>
+>* Adobe Campaign Classic does not use WebSocket and HTTP2 protocols.
+>
+
 
 
 ## Default port for Apache Tomcat {#default-port-for-tomcat}
