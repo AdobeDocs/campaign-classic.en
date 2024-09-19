@@ -119,7 +119,7 @@ The file is **nlserver6-v7-XXX.rpm**
 
 >[!AVAILABILITY]
 >
->Starting v7.4.1, libraries for RPM Linux packages are no longer included in Campaign. You must install these librairies.
+>Starting v7.4.1, XML libraries for RPM Linux packages are no longer included in Campaign. You must install these librairies.
 > 
 
 

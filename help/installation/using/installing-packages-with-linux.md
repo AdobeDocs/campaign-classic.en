@@ -33,7 +33,7 @@ You can run the **ping `hostname`** command to make sure the server can reach it
 
 >[!AVAILABILITY]
 >
->Starting v7.4.1, libraries for RPM Linux packages are no longer included in Campaign. You must install these librairies.
+>Starting v7.4.1, XML libraries for RPM Linux packages are no longer included in Campaign. You must install these librairies.
 > 
 
 To install Adobe Campaign onto an RPM (RHEL, CentOS) operating system, follow these steps:
