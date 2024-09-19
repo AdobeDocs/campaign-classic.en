@@ -43,7 +43,7 @@ The [compatibility matrix for Adobe Campaign](compatibility-matrix.md) has been 
 
 ### Other changes {#release-7-4-1-other}
 
-Starting v7.4.1, XML libraries for RPM Linux packages are no longer included in Campaign. You must install these librairies.
+Starting v7.4.1, XML libraries for RPM Linux packages are no longer included in Campaign. As an on-premise or hybrid customer, your Administrator must install these librairies.
 
 ### Patches {#release-7-4-1-patches}
 
