@@ -13,8 +13,6 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 
 Adobe Campaign comes with the **nlserver** package which contains the binaries and configuration files for a given version.
 
-
-
 The installation commands enables you to:
 
 * Copy the files to **/usr/local/neolane**
