@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 ---
-# Installing packages with Linux{#installing-packages-with-linux}
+# Installing packages with Linux {#installing-packages-with-linux}
 
 Adobe Campaign comes with the **nlserver** package which contains the binaries and configuration files for a given version.
 
