@@ -9,9 +9,24 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
 # Release updates{#rn-overview}
 
-
-
 Adobe Campaign Classic periodically releases product updates which bring new capabilities, bug fixes, and improve performance, security, and usability. These updates are released as **product builds**. Detailed information about each new build is available in the [Release notes](latest-release.md).
+
+<!--
+## Product versions
+
+For Campaign, the version naming is the following:
+
+1. Campaign Major version are v7 and v8.
+1. A Minor version is a sub-version of a Major version. For example: v7.3, v7.4.
+1. A Patch version is a post-release fix. For example: v7.3.2, v7.3.3.
+
+
+Aligned with this naming, Campaign has 3 types of upgrades:
+
+1. Major Upgrades - A major upgrade is an upgrade to a new version of Adobe Campaign (ex: v7 to v8)
+1. Minor Upgrades - A minor upgrade brings new features, enhancements and fixes (ex: 7.4.X to 7.5.X)
+1. Patch Upgrades - A patch upgrade includes fixes only (ex: 8.5.1 to 8.5.2)
+-->
 
 ## Release statuses{#rn-statuses}
 
@@ -21,22 +36,8 @@ Every new build comes with a status which is identified by a color in the [Relea
 |Status|Description|
 |---|---|
 |[!BADGE General Availability]{type=Positive}|Latest stable build, validated in production, and recommended by Adobe.|
-|[!BADGE Limited Availability]{type=Neutral}|On-demand deployment only.|
-|[!BADGE Release Candidate]{type=Informative}|Latest build with new capabilities.|
-|[!BADGE No longer available]{type=Caution}|No deployment. No bug fix. Update to a newer build is recommended.|
+|[!BADGE Limited Availability]{type=Informative}|On-demand deployment only.|
 |[!BADGE Deprecated]{type=negative}|No deployment. No bug fix. Existing implementations must be upgraded.|
-
-<!--
-![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
-
-![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
-
-![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest build with new capabilities.
-
-![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
-
-![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
--->
 
 ## Release cycle{#rn-cycle}
 

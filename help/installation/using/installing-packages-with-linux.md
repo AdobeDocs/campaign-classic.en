@@ -54,6 +54,8 @@ To install Adobe Campaign onto an RPM (RHEL, CentOS) operating system, follow th
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
+Note that most of the listed dependencies are mandatory and `nlserver` cannot start if they are not installed (the exception is opendk; another JDK can be installed).
+
 The `bc` command, mandatory for executing the [netreport](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts), is not available by default on all Linux distributions. To check whether the command is available, run the `which bc` command. If not, you have to install it.
 
 With CentOS, you must install the bc.x86_64 package: connect as **root** and run the following command:
@@ -75,32 +77,9 @@ To install Adobe Campaign on a Debian 64 bit operating system, apply the followi
 1. To install it, connect as **root** and execute the following command, where **XXXX** is the Adobe Campaign build number:
 
    ```
-   dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
+   apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-   If there are missing dependencies, run the following command: 
-
-   ```
-   apt-get install -f
-   ```
-
-
-1. When installing Adobe Campaign on a Debian operating system, consider the following:
-
-  * OpenSSL must be installed beforehand.
-  * Install libicu and libc-aresYY, where XX is the version, with the following commands:
-
-    ```
-    apt install libicuXX
-    ```
-
-    ```
-    apt install libc-aresXX
-    ```
-
-    ```
-    apt install openjdk-XX-jdk
-    ```
 
 ## Personalizing parameters {#personalizing-parameters}
 

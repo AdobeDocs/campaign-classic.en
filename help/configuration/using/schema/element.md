@@ -77,7 +77,7 @@ There are four types of `<element>`  elements in Adobe Campaign:
 * **dbEnum (string)**: receives the internal name of a "closed" enumeration. The enumeration values must be defined in the `<srcschema>`.
 * **defOnDuplicate (boolean)**: if this attribute is activated, when a record is duplicated the default value (defined in @default) is automatically reapplied to the record.
 * **default (string)**: lets you define element behavior (call to a function, default value). This attribute receives an XTK expression.
-* **desc (string)**: lets you insert a description of the element. This description is displayed in the status bar of the interface.
+* **desc (string)**: lets you insert a description of the element. This description is used to understand what is the element and what it is being used for. You can display it in the form.
 * **displayAsField (boolean)**: if this attribute is activated, a "link" type `<element>`  will be displayed as a field in the tree view of the schemas ("Structure" tab). This way, it's possible to display a link as a local field and change it behavior during a query. When the element is found in the SELECT of a query, the value of the link target will be used. When the element is found in the WHERE of a query, the underlying key of the link will be used. 
 * **edit (string)**: this attribute specifies the type of input that will be used in the form linked to the schema.
 * **enum (string)**: receives the name of the enumeration linked to the field. The enumeration can be inserted into the same schema or into a remote schema. 

@@ -15,7 +15,7 @@ Unless mentioned otherwise, all minor releases are supported.
 
 >[!CAUTION]
 >
->This matrix is regularly updated with new supported systems and tools being added and deprecated being removed.
+>This matrix is regularly updated with new supported systems and tools being added, and deprecated being removed.
 
 ## Operating Systems {#OperatingSystems}
 
@@ -47,7 +47,7 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 </td>
 </tr>
 <tr>
-<td>RHEL</td>
+<td>Red Hat Enterprise Linux (RHEL)</td>
 <td>
 <p>9.x</p>
 <p>8.x</p>
@@ -77,7 +77,7 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 
 >[!IMPORTANT]
 >
->If you are using RHEL, you must be willing to disable [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.
+>With RHEL, you must be willing to disable [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.
 
 ## Web Servers {#WebServers}
 
@@ -85,10 +85,12 @@ As an on-premise / hybrid customer, depending on your operating system, you must
 
 <table>
 <tbody>
+<td><strong>Web Server</strong></td>
+<td><strong>Web Server version</strong></td>
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>10.0 on Windows Server</p>
+<p>10.0</p>
 </td>
 </tr>
 <tr>

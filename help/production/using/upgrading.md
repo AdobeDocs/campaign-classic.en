@@ -111,7 +111,7 @@ On a Linux environment, follow the steps below to update Adobe Campaign to a new
 
 [Learn more about Client Console availability](../../installation/using/client-console-availability-for-windows.md).
 
-### Obtain updated packages {#obtain-updated-packages}
+### Install updated packages {#obtain-updated-packages}
 
 Start by recovering both updated packages of Adobe Campaign: connect to the [Software distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
@@ -122,15 +122,14 @@ The file is **nlserver6-v7-XXX.rpm**
 >Starting v7.4.1, XML libraries for RPM Linux packages are no longer included in Campaign. You must install these librairies.
 > 
 
-
-### Perform an update {#perform-an-update}
+Then you can install the required packages, as detailed below:
 
 * RPM based distribution (RedHat, SuSe)
 
   To install them, execute as root:
 
   ```
-  $rpm -Uvh nlserver6-v7-XXXX.rpm
+  yum install ./nlserver6-v7-XXXX.rpm
   ```
 
   Where XXX is the version of the file.
@@ -141,17 +140,20 @@ The file is **nlserver6-v7-XXX.rpm**
   rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
   ```
 
+  Note that most of the dependencies are mandatory and `nlserver` cannot start if there are not installed. The only exception is openjdk, you can install another JDK if required.
+
+
 * DEB based distribution (Debian)
 
   To install them, execute as root:
 
   ```
-  dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+  apt install ./nlserver6-v7-XXXX-amd64_debX.deb
   ```
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolve upgrade conflicts](#resolving-upgrade-conflicts).
+>Full installation procedures are detailed in [this section](../../installation/using/installing-packages-with-linux.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolve upgrade conflicts](#resolving-upgrade-conflicts).
 
 ### Reboot the web server {#reboot-the-web-server}
 

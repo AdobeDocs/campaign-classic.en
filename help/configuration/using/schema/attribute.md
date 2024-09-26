@@ -70,7 +70,7 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
 * **dbEnum (string)**: receives the internal name of a "closed" enumeration. The enumeration values must be defined in the `<srcschema>`.
 * **defOnDuplicate (boolean)**: if this attribute is activated, when a record is duplicated the default value (defined in @default) is automatically reapplied to the record.
 * **default (string)**: lets you define the value of the default field (call to a function, default value). This attribute receives an XTK expression. 
-* **desc (string)**: lets you insert a description of the attribute. This description is displayed in the status bar of the interface.
+* **desc (string)**: lets you insert a description of the attribute. This description is used to understand what is the element and what it is being used for. You can display it in the form.
 * **edit (string)**: this attribute specifies the type of input which will be used in the form linked to the schema.
 * **enum (string)**: receives the name of the enumeration linked to the field. The enumeration can be inserted into the same schema or into a remote schema.
 * **expr (string)**: defines a field precalculation expression. This attribute receives an Xpath or an XTK expression.
@@ -84,7 +84,7 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
     * dedicated: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
     * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-  There are two types of characteristics fields: simple oà¹ fields where a single value is authorized on the characteristic, and oà¹ multiple choice fields, where the characteristic is linked to a collection element which may contain several values.
+  There are two types of characteristics fields: simple oà<sup>1</sup> fields where a single value is authorized on the characteristic, and oà<sup>1</sup> multiple choice fields, where the characteristic is linked to a collection element which may contain several values.
 
   When a characteristic is defined in a schema, this schema must have a main key based on a single field (composite keys are not authorized).
 
