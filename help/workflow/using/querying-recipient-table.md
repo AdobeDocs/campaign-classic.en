@@ -77,6 +77,6 @@ To create this example, apply the following steps:
 
    ![](assets/query_editor_nveau_13.png)
 
-   The **[!UICONTROL Generated QSL queries]** tab shows the query result in SQL format.
+   The **[!UICONTROL Generated SQL queries]** tab shows the query result in SQL format.
 
    ![](assets/query_editor_nveau_14.png)
