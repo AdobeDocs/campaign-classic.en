@@ -164,7 +164,9 @@ Then you can install the required packages, as detailed below:
   nlserver6-v7                    x86_64        XXXX.0.0-1                 @commandline         63 M
   ```
   
-  If you read `Removing:` instead of `Upgrading:`, cancel the command. There are probably some errors (listed above) that explains the removal. In such case, correct those errors by updating / installing the listed missing dependencies and then try to run the command again.
+  >[!IMPORTANT]
+  >
+  >If you read `Removing:` instead of `Upgrading:`, cancel the command. There are probably some errors (listed above) that explains the removal. In such case, correct those errors by updating / installing the listed missing dependencies and then try to run the command again.
 
 * DEB based distribution (Debian)
 
