@@ -183,9 +183,9 @@ The following use case details the configurations to carry out in Adobe Campaign
    The name of the schema in the example is **cus:offer**
 
    ```
-   <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
+   <srcSchema _cs="Marketing offers (cus)" created="2 AAAA-MM-DD HH:MM:SS.762Z" createdBy-id="0"
               desc="" entitySchema="xtk:srcSchema" extendedSchema="nms:offer" img="nms:offer.png"
-              label="Marketing offers" labelSingular="Marketing offers" lastModified="2013-01-18 15:20:18.373Z"
+              label="Marketing offers" labelSingular="Marketing offers" lastModified="AAAA-MM-DD HH:MM:SS.373Z"
               mappingType="sql" md5="F14A7AA009AE1FCE31B0611E72866AC3" modifiedBy-id="0"
               name="offer" namespace="cus" xtkschema="xtk:srcSchema">
      <createdBy _cs="Administrator (admin)"/>

@@ -164,10 +164,10 @@ Package content:
 <package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
 label="" name="" namespace="" vendor="">
  <desc></desc>
- <version buildDate="2013-01-09 10:30:18.954Z"/>
+ <version buildDate="AAAA-MM-DD HH:MM:SS.954Z"/>
  <entities schema="nms:operation">
-  <operation duration="432000" end="2013-01-14" internalName="OP1" label="MyCampaign"
-  modelName="opEmpty" start="2013-01-09">
+  <operation duration="432000" end="AAAA-MM-DD" internalName="OP1" label="MyCampaign"
+  modelName="opEmpty" start="AAAA-MM-DD">
    <controlGroup>
     <where filteringSchema=""/>
    </controlGroup>
@@ -183,7 +183,7 @@ label="" name="" namespace="" vendor="">
    </fcpSeed>
    <owner _operation="none" name="admin" type="0"/>
    <program _operation="none" name="nmsOperations"/>
-   <task end="2013-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2013-01-16 10:07:51.000Z"
+   <task end="2023-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2023-01-16 10:07:51.000Z"
    status="1">
     <owner _operation="none" name="admin" type="0"/>
     <operation _operation="none" internalName="OP1"/>
@@ -349,7 +349,7 @@ Always import within the same version of the platform. You must check that you d
 >[!IMPORTANT]
 >
 >Importing between different versions is not supported by Adobe.
-<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.-->
 
 Pay attention to the schema and database structure. Importation of package with schema must be followed by schema generation.
 
@@ -360,11 +360,11 @@ Pay attention to the schema and database structure. Importation of package with 
 Start by defining different types of packages. Only four types will be used:
 
 **Entities**
-* All “xtk” and “nms” specific elements in Adobe Campaign like schemas, forms, folders, delivery templates, etc.
-* You can consider an entity as both an “admin” and “platform” element.
+* All "xtk" and "nms" specific elements in Adobe Campaign like schemas, forms, folders, delivery templates, etc.
+* You can consider an entity as both an "admin" and "platform" element.
 * You should not include more than one entity in a package when uploading it on a Campaign instance.  
 
-<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
+<!--Nothing "works" alone. An entity package does not have a specific role or objective.-->
 
 If you need to deploy your configuration on a new instance, you can import all your entity packages.
 
@@ -385,7 +385,7 @@ Once configured, a feature can be exported into another environment. For example
 
 The first solution would be to export the whole feature again. But, to avoid any risk (updating unwanted elements), it is safer to have a package containing only the correction.
 
-That’s why we recommend creating an “update” package, containing only one entity type of the feature.
+That's why we recommend creating an "update" package, containing only one entity type of the feature.
 
 An update could not only be a fix, but also a new element of your entity/feature/campaign package. To avoid deploying the whole package, you can export an update package.
 
@@ -418,11 +418,11 @@ To help the import, entity packages should by ordered as they will be imported. 
 
 #### Package 200 {#package-200}
 
-Package number “200” should not be used for a specific campaign: this number will be used to update something that concerns all campaigns.
+Package number "200" should not be used for a specific campaign: this number will be used to update something that concerns all campaigns.
 
 #### Update package {#update-package}
 
-The last point concerns the update package numbering. It is your package number (entity, feature, or campaign) with a “5” as prefix. For example:
+The last point concerns the update package numbering. It is your package number (entity, feature, or campaign) with a "5" as prefix. For example:
 * 5001 to update one schema
 * 5200 to update all campaigns
 * 5101 to update the 101 feature
@@ -445,7 +445,7 @@ When you update a package, you should always put a comment in the description fi
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
-You should also date the comment. Always report your comment on an update package to the “parent” (package without the 5 prefix).
+You should also date the comment. Always report your comment on an update package to the "parent" (package without the 5 prefix).
 
 >[!IMPORTANT]
 >

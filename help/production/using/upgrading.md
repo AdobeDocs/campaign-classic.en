@@ -142,6 +142,29 @@ Then you can install the required packages, as detailed below:
 
   Note that most of the dependencies are mandatory and `nlserver` cannot start if there are not installed. The only exception is openjdk, you can install another JDK if required.
 
+  If the `epel-release` package is not installed, install it. To perform this, enter the following command, as root:
+
+  ```
+  yum install epel-release
+  ```
+
+  To install the Campaign package, execute as root:
+
+  ```
+  yum update ./nlserver6-v7-XXXX.rpm
+  ```
+
+  Before confirming the update, make sure that the output looks like:
+
+  ```
+  ==================================================================================================== 
+  Package                         Architecture  Version                    Repository           Size 
+  ==================================================================================================== 
+  Upgrading: 
+  nlserver6-v7                    x86_64        XXXX.0.0-1                 @commandline         63 M
+  ```
+  
+  If you read `Removing:` instead of `Upgrading:`, cancel the command. There are probably some errors (listed above) that explains the removal. In such case, correct those errors by updating / installing the listed missing dependencies and then try to run the command again.
 
 * DEB based distribution (Debian)
 
@@ -154,6 +177,7 @@ Then you can install the required packages, as detailed below:
 >[!NOTE]
 >
 >Full installation procedures are detailed in [this section](../../installation/using/installing-packages-with-linux.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolve upgrade conflicts](#resolving-upgrade-conflicts).
+>
 
 ### Reboot the web server {#reboot-the-web-server}
 
@@ -189,12 +213,12 @@ There are two ways of viewing the synchronization result:
 * In the command-line interface, errors are materialized by a triple chevron **>>>** and synchronization is stopped automatically. Warnings are materialized by a double chevron **>>** and must be resolved once synchronization is complete. At the end of the postupgrade, a summary is displayed in the command prompt. It can look like this:
 
   ```
-  2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
-  2013-04-09 07:48:39.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
-  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
-  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
-  2013-04-09 07:48:39.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
-  2013-04-09 07:48:39.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 info log =========Summary of the update==========
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
   
   ```
 
@@ -255,7 +279,7 @@ The next time client consoles are connected, a window will inform users about th
 On the machine where the Adobe Campaign application server (**nlserver web**) is installed, retrieve the  **setup-client-6.XXXX.exe** package and copy it, saving as **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 
 ```
- cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
+cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
 ```
 
 The next time client consoles are connected, a window will inform users about the availability of an update and offer them the possibility of downloading and installing it.
