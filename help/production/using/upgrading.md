@@ -126,22 +126,6 @@ Then you can install the required packages, as detailed below:
 
 * RPM based distribution (RedHat, SuSe)
 
-  To install them, execute as root:
-
-  ```
-  yum install ./nlserver6-v7-XXXX.rpm
-  ```
-
-  Where XXX is the version of the file.
-
-  The rpm file has dependencies on packages that you can find on CentOS/Red Hat distributions. If you don't want to use some of these dependencies, you may have to use the "nodeps" option of rpm:
-
-  ```
-  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
-  ```
-
-  Note that most of the dependencies are mandatory and `nlserver` cannot start if there are not installed. The only exception is openjdk, you can install another JDK if required.
-
   If the `epel-release` package is not installed, install it. To perform this, enter the following command, as root:
 
   ```
@@ -167,6 +151,14 @@ Then you can install the required packages, as detailed below:
   >[!IMPORTANT]
   >
   >If you read `Removing:` instead of `Upgrading:`, cancel the command. There are probably some errors (listed above) that explains the removal. In such case, correct those errors by updating / installing the listed missing dependencies and then try to run the command again.
+
+  The rpm file has dependencies on packages that you can find on CentOS/Red Hat distributions. If you don't want to use some of these dependencies, you may have to use the "nodeps" option of rpm:
+
+  ```
+  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+  ```
+
+  Note that most of the dependencies are mandatory and `nlserver` cannot start if there are not installed. The only exception is openjdk, you can install another JDK if required.
 
 * DEB based distribution (Debian)
 
