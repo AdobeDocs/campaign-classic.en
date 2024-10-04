@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
-# Release updates{#rn-overview}
+# Release updates {#rn-overview}
 
 Adobe Campaign Classic periodically releases product updates which bring new capabilities, bug fixes, and improve performance, security, and usability. These updates are released as **product builds**. Detailed information about each new build is available in the [Release notes](latest-release.md).
 
@@ -28,10 +28,9 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 1. Patch Upgrades - A patch upgrade includes fixes only (ex: 8.5.1 to 8.5.2)
 -->
 
-## Release statuses{#rn-statuses}
+## Release statuses {#rn-statuses}
 
 Every new build comes with a status which is identified by a color in the [Release notes](latest-release.md). 
-
 
 |Status|Description|
 |---|---|
@@ -39,7 +38,7 @@ Every new build comes with a status which is identified by a color in the [Relea
 |[!BADGE Limited Availability]{type=Informative}|On-demand deployment only.|
 |[!BADGE Deprecated]{type=negative}|No deployment. No bug fix. Existing implementations must be upgraded.|
 
-## Release cycle{#rn-cycle}
+## Release cycle {#rn-cycle}
 
 Adobe Campaign is regularly updated. This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.
 
@@ -47,7 +46,7 @@ This is the reason why it is critical that you **run the most recent stable buil
 
 As a hosted customer, you automatically benefit from the upgrade with the latest stable build without any action. Learn more in the [Yearly Upgrade section](#yearly-upgrade). If you migrate from an old build, Adobe recommends that you upgrade to this build first.
 
-## Recommendations{#recommendations}
+## Recommendations {#rn-recommendations}
 
 To ensure a stable configuration, Adobe recommends that you install **the same build** on all servers that are running on the same client configuration.
 
