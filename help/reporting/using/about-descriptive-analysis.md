@@ -1,14 +1,12 @@
 ---
 product: campaign
-title: Get started with descriptive analysis
-description: Get started with descriptive analysis
+title: What is descriptive analysis
+description: Analyze populations with descriptive analysis reports
 feature: Reporting, Monitoring
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 ---
-# Get started with descriptive analysis{#about-descriptive-analysis}
-
- 
+# What is descriptive analysis {#about-descriptive-analysis}
 
 In order to produce statistics on the data in the database, create descriptive analysis reports using the dedicated assistant and adapt their content and presentation to suit your needs.
 

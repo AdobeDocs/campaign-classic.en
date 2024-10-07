@@ -1,14 +1,12 @@
 ---
 product: campaign
-title: Use an analysis report
-description: Use an analysis report
+title: Manage and configure your analysis report
+description: Manage and configure your analysis report
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 ---
-# Use an analysis report{#processing-a-report}
-
- 
+# Manage and configure your analysis report {#processing-a-report}
 
 ## Saving an analysis report {#saving-an-analysis-report}
 

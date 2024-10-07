@@ -287,10 +287,10 @@ type: Documentation
        + [Indicator calculation](reporting/using/indicator-calculation.md)
        + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyze populations {#analyzing-populations}
-       + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
-       + [Use the descriptive analysis assistant](reporting/using/using-the-descriptive-analysis-wizard.md)
-       + [Report settings](reporting/using/processing-a-report.md)
-       + [Use cases](reporting/using/use-cases.md)
+       + [What is descriptive analysis](reporting/using/about-descriptive-analysis.md)
+       + [Create your first descriptive analysis report](reporting/using/using-the-descriptive-analysis-wizard.md)
+       + [Manage and configure your analysis report](reporting/using/processing-a-report.md)
+       + [Analysis reporting use cases](reporting/using/use-cases.md)
   + Create new reports {#creating-new-reports}
        + [Key steps to design a report](reporting/using/about-reports-creation-in-campaign.md)
        + [Create a new report](reporting/using/creating-a-new-report.md)

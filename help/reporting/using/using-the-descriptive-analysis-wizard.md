@@ -1,14 +1,12 @@
 ---
 product: campaign
-title: Use the descriptive analysis assistant
-description: Use the descriptive analysis assistant
+title: Create your first descriptive analysis report 
+description: Learn how to use the assistant to create your first descriptive analysis report 
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 ---
-# Use the descriptive analysis assistant{#using-the-descriptive-analysis-wizard}
-
- 
+# Create your first descriptive analysis report {#using-the-descriptive-analysis-wizard}
 
 To create a descriptive analysis report, use the dedicated assistant. Configuration depends on the data to be analyzed and on the desired rendering.
 
