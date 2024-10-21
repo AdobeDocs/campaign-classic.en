@@ -26,20 +26,10 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 <td><strong>Operating system</strong></td>
 <td><strong>Operating system version</strong></td>
 <td><strong>Minimum Campaign version</strong></td>
-<tr> 
-<td>CentOs</td>
-<td>
-<p>7.x</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
 <tr>
 <td>Debian</td>
 <td>
 <p>11</p>
-<p>10</p>
 </td>
 <td>
 <p>v7.3</p>
