@@ -27,7 +27,9 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 <td><strong>Operating system version</strong></td>
 <td><strong>Minimum Campaign version</strong></td>
 <tr>
-<td>Debian</td>
+<td>
+<p>Debian</p>
+</td>
 <td>
 <p>11</p>
 </td>
@@ -37,7 +39,9 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 </td>
 </tr>
 <tr>
-<td>Red Hat Enterprise Linux (RHEL)</td>
+<td>
+<p>Red Hat Enterprise Linux (RHEL)</p>
+</td>
 <td>
 <p>9.x</p>
 <p>8.x</p>
@@ -50,7 +54,9 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 </td>
 </tr>
 <tr>
-<td>Windows Server</td>
+<td>
+<p>Windows Server</p>
+</td>
 <td>
 <p>2022</p>
 <p>2019</p>
