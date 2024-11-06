@@ -78,13 +78,17 @@ As an on-premise / hybrid customer, depending on your operating system, you must
 <td><strong>Web Server</strong></td>
 <td><strong>Web Server version</strong></td>
 <tr>
-<td>Microsoft IIS</td>
+<td>
+<p>Microsoft IIS</p>
+</td>
 <td>
 <p>10.0</p>
 </td>
 </tr>
 <tr>
-<td>Apache</td>
+<td>
+<p>Apache</p>
+</td>
 <td>
 <p>2.4</p>
 </td>
@@ -147,7 +151,9 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 <td><strong>Database version</strong></td>
 <td><strong>Minimum Campaign version</strong></td>
 <tr>
-<td>Oracle</td>
+<td>
+<p>Oracle</p>
+</td>
 <td>
 <p>23c</p>
 <p>19c</p>
@@ -164,7 +170,9 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 </td>
 </tr>
 <tr>
-<td>PostgreSQL</td>
+<td>
+<p>PostgreSQL</p>
+</td>
 <td>
 <p>14.x</p>
 <p>13.x</p>
@@ -179,7 +187,9 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 </td>
 </tr>
 <tr>
-<td>Microsoft SQL Server</td>
+<td>
+<p>Microsoft SQL Server</p>
+</td>
 <td>
 <p>2022</p>
 <p>2019</p>
@@ -216,13 +226,17 @@ Customer Relationship Management (CRM) systems compatible with Adobe Campaign ar
 <table>
 <tbody>
 <tr>
-<td>Salesforce connector API</td>
+<td>
+<p>Salesforce connector API</p>
+</td>
 <td>
 <p>API version 49</p>
 </td>
 </tr>
 <tr>
-<td>Microsoft Dynamics connector</td>
+<td>
+<p>Microsoft Dynamics connector</p>
+</td>
 <td>
 <p>Web API</p>
 </td>
