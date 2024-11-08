@@ -117,7 +117,7 @@ Responsive design ensures that an email renders optimally for the device on whic
 
 * Use the preview mode and send proofs to test the rendering on as much devices as possible
 
-* The Adobe Campaign Classic Digital Content Editor (DCE) module includes some responsive design formatted templates for mobile available via **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Learn more [in this article](https://theblog.adobe.com/responsive-email-design-101/)
+* The Adobe Campaign Classic Digital Content Editor (DCE) module includes some responsive design formatted templates for mobile available via **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**.
 
 ## Manage images {#manage-images}
 
