@@ -2,7 +2,6 @@
 product: campaign
 title: Define the target population
 description: Learn how to define the target population
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048

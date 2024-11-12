@@ -2,7 +2,6 @@
 product: campaign
 title: Create and identify the delivery
 description: Create and identify the delivery
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 role: User
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055

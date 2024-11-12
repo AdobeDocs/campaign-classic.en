@@ -2,7 +2,6 @@
 product: campaign
 title: Create SMS with Campaign
 description: Learn how to create SMS with Campaign
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b

@@ -2,7 +2,6 @@
 product: campaign
 title: Configure and send the delivery
 description: Learn how to configure and send the delivery
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 role: User
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd

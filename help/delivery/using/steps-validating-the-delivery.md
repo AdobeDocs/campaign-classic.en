@@ -2,7 +2,6 @@
 product: campaign
 title: Validate the delivery
 description: Learn how to validate a delivery
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
