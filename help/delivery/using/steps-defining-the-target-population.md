@@ -28,7 +28,7 @@ To select the recipients of a delivery, follow the steps below:
 
 1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]**, based on **nms:recipient** schema.
 
-   Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Select a target mapping](selecting-a-target-mapping.md).
+   Other target mappings are available, and some can be related to your specific configuration.[Learn more](#select-a-target-mapping).
 
 1. Click the **[!UICONTROL Add]** button to define restriction filters.
 
@@ -87,7 +87,7 @@ To do this:
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]**. For more on target mappings, refer to [Select a target mapping](selecting-a-target-mapping.md)
+1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]**. [Learn more](#select-a-target-mapping)
 
    You can also choose **[!UICONTROL Do not import the recipients into the database]**.
 
@@ -219,6 +219,25 @@ See also:
 * [Select the proof target](#selecting-the-proof-target)
 * [About seed addresses](about-seed-addresses.md)
 * [Use case: select seed addresses on criteria](use-case-selecting-seed-addresses-on-criteria.md)
+
+## Select a target mapping {#select-a-target-mapping}
+
+By default, delivery templates target **[!UICONTROL Recipients]**. Their target mapping therefore uses the fields of the **nms:recipient** table. Adobe Campaign offers other target mappings for your deliveries, to be used based on your needs. 
+
+![](assets/delivery_select_mapping.png)
+
+These mappings are as follows:
+
+|  Name  | Use  | Standard schema  |
+|---|---|---|
+|  Recipients  | Deliver to recipients of the Adobe Campaign database  | nms:recipient  |
+|  Visitors  | Deliver to visitors whose profiles have been collected via referral (viral marketing) or via social networks (Facebook, X - formerly known as Twitter) for instance.  | mns:visitor  |
+|  Subscriptions  | Deliver to recipients who are subscribed to an information service such as a newsletter  | nms:subscription  |
+|  Visitor subscriptions  | Deliver to visitors who are subscribed to an information service  | nms:visitorSub  |
+|  Service  | Publish to a X account or a Facebook page  | nms:service  |
+|  Operators  | Deliver to Adobe Campaign operators  | nms:operator  |
+|  External file  | Deliver via a file that contains all information needed for delivery  | No linked schema, no target entered  |
+
 
 ## Tutorial video {#seeds-and-proofs-video}
 

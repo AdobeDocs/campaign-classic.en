@@ -87,7 +87,7 @@ Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.
 
 *Context: Campaign Interaction*
 
-In the context of Campaign Interaction, the batch mode lets the Offer Engine select the best offer (or offers) for a set of contacts. Eligibility/prioritization rules are applied to all of the set’s contacts. 
+In the context of Campaign Interaction, the batch mode lets the Offer Engine select the best offer (or offers) for a set of contacts. Eligibility/prioritization rules are applied to all of the set's contacts. 
 
 Learn more about [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -182,7 +182,7 @@ Learn more about [Database cleanup workflow](../../production/using/database-cle
 
 *Context: Transactional Messaging*
 
-Dedicated execution server(s) to leverage Transactional Messaging. A server can typically process up to 50,000 Engine Calls per hour. The “Per-Dedicated Server” designation does not necessarily have a 1:1 correlation with a physical server as Adobe may utilize virtualization technologies to achieve the equivalent effect.
+Dedicated execution server(s) to leverage Transactional Messaging. A server can typically process up to 50,000 Engine Calls per hour. The "Per-Dedicated Server" designation does not necessarily have a 1:1 correlation with a physical server as Adobe may utilize virtualization technologies to achieve the equivalent effect.
 
 Learn more about [Transactional Messaging](../../message-center/using/about-transactional-messaging.md).
 +++
@@ -192,7 +192,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 *Context: Email Deliverability*
 
-Deliverability allows you to measure the success of your campaigns reaching your recipients’ inbox without bouncing, or being marked as spam. More precisely, email deliverability refers to the set of characteristics that determine a message’s ability to reach its destination, via a personal email address, within a short time, and with the expected quality in terms of content and format.
+Deliverability allows you to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam. More precisely, email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal email address, within a short time, and with the expected quality in terms of content and format.
 
 Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 +++
@@ -271,7 +271,7 @@ Learn more about [Distribution of values](../../platform/using/defining-filter-c
 
 +++**Domain delegation**
 
-Subdomain configuration allows you to configure a sub-section of your domain (technically a “DNS zone”) for use with Adobe Campaign.
+Subdomain configuration allows you to configure a sub-section of your domain (technically a "DNS zone") for use with Adobe Campaign.
 Domain delegation lets Adobe control and maintain all aspects of DNS that are required for delivering, rendering and tracking of email campaigns.
 
 Learn more about [Domain delegation](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
@@ -441,7 +441,7 @@ Learn more about [Hybrid deployment](../../installation/using/hosting-models.md#
 
 *Context: Campaign Interaction*
 
-The identification mode Refers to a Contact’s status. It can be explicit, implicit or anonymous. 
+The identification mode Refers to a Contact's status. It can be explicit, implicit or anonymous. 
 
 * **explicit**: the contact is identified following their login onto the channel interface.
 * **implicit**: the contact has been identified by a cookie (permanent or session). It can be processed as an anonymous or identified contact.
@@ -454,7 +454,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 ----NOT USEFUL HERE?----
 +++**Image serving**
 
-The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
+The functionality that supplies the images embedded in emails to the delivery's recipients. The insertion of the images based on an emails system's "download images" functionality is what generates an "open" entry in Campaign's tracking logs.
 
 Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
 +++
@@ -500,7 +500,7 @@ Learn more about [Lists](../../platform/using/creating-and-managing-lists.md).
 
 +++**Local cache**
 
-The local cache is the information that is stored locally on the operator’s computer. Cached information is used by the console to reduce the required traffic to the server and improve performance. Periodic clearing of the local cache (on the File menu) updates the stored information and improves performance and stability.  
+The local cache is the information that is stored locally on the operator's computer. Cached information is used by the console to reduce the required traffic to the server and improve performance. Periodic clearing of the local cache (on the File menu) updates the stored information and improves performance and stability.  
 
 Learn more about [Local Cache](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 +++
@@ -533,7 +533,7 @@ Learn more about [Named rights](../../platform/using/access-management-named-rig
 
 +++**Namespace**
 
-The namespace is a partition that separates customer data types from Adobe Campaign’s native datatypes in the data model. Also used to facilitate the migration of definitions from one instance to another, such as moving a schema or template from the Development instance to the Production instance. 
+The namespace is a partition that separates customer data types from Adobe Campaign's native datatypes in the data model. Also used to facilitate the migration of definitions from one instance to another, such as moving a schema or template from the Development instance to the Production instance. 
 
 Learn more about [Namespace](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
@@ -616,7 +616,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 *Context: Campaign Interaction*
 
-The offer environment is the root folder which defines an offer catalog, its available spaces and the environment’s pre-defined filters. Operators need to create one environment for each targeting dimension. There are two types of Offer environments: Design and Live.
+The offer environment is the root folder which defines an offer catalog, its available spaces and the environment's pre-defined filters. Operators need to create one environment for each targeting dimension. There are two types of Offer environments: Design and Live.
 
 Learn more about [Offer environments](../../interaction/using/fundamental-principles.md).
 +++
@@ -634,7 +634,7 @@ Learn more about [Offer Live environments](../../interaction/using/fundamental-p
 
 *Context: Campaign Interaction*
 
-Offer presentation rules are typology rules referenced in the offer environment, which let Operators exclude specific offers by taking the recipient’s proposition history into account. 
+Offer presentation rules are typology rules referenced in the offer environment, which let Operators exclude specific offers by taking the recipient's proposition history into account. 
 
 Learn more about [Offer presentation rules](../../interaction/using/managing-offer-presentation.md#presentation-rules-overview).
 +++
@@ -769,7 +769,7 @@ Learn more about [Personalization fields](../../delivery/using/personalization-f
 
 +++**Personalization variables**
 
-Personalization variables are pieces of code in a delivery that can display different text to different recipients based on the recipient’s information. These fields can be implemented as either a personalization field or block.
+Personalization variables are pieces of code in a delivery that can display different text to different recipients based on the recipient's information. These fields can be implemented as either a personalization field or block.
 
 Learn more about [Personalization variables](../../delivery/using/about-personalization.md).
 +++
@@ -877,7 +877,7 @@ Learn more about [Schema extension](../../configuration/using/extending-a-schema
 
 +++**Seed addresses**
 
-Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. 
+Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure delivery. 
 
 Learn more about [Seed addresses](../../delivery/using/about-seed-addresses.md).
 +++
@@ -933,7 +933,7 @@ Learn more about [Target data](../../workflow/using/data-life-cycle.md#target-da
 
 Target mapping is the mapping of delivery channels to a specific data type. Target mappings define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
 
-Learn more about [Target mapping](../../delivery/using/selecting-a-target-mapping.md).
+Learn more about [Target mapping](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping).
 +++
 
 +++**Targeting activities**
@@ -978,7 +978,7 @@ A template is a design element used to create an object. It contains object sett
 -----ACS -> SEEDS IN ACC-----
 +++**Test profiles**
 
-Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
+Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
 
 Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 +++

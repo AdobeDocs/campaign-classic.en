@@ -27,7 +27,7 @@ In Campaign Classic, by default, delivery templates target **Recipients**. Adobe
 
 For example, you can deliver to visitors whose profiles have been collected via social networks or to visitors who are subscribed to an information service.
 
-These mappings are presented [in this section](selecting-a-target-mapping.md).
+These mappings are presented [in this section](steps-defining-the-target-population.md#select-a-target-mapping).
 
 You can also create and use a customized target mapping. For more on this, refer to [this section](../../configuration/using/target-mapping.md).
 

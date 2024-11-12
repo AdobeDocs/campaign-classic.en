@@ -9,8 +9,6 @@ exl-id: 38333669-5598-4811-a121-b677c1413f56
 ---
 # Target mapping{#target-mapping}
 
- 
-
 Target mapping creation is necessary in two cases:
 
 * if you use a recipient table other than the one provided by Adobe Campaign,

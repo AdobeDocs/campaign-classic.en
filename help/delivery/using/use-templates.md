@@ -14,11 +14,11 @@ exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 
 Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities. With templates, marketers can deploy new campaigns with minimal customization in a shorter amount of time.
 
-Learn more about delivery templates in [this section](creating-a-delivery-template.md).
+Learn more about delivery templates in [this section](about-templates.md).
 
 ## Get started with delivery templates {#gs-templates}
 
-A [delivery template](creating-a-delivery-template.md) enables you to define once a set of technical and functional properties that suit your needs and that can be reused for future deliveries. You can then save time and standardize deliveries when needed.
+A [delivery template](about-templates.md) enables you to define once a set of technical and functional properties that suit your needs and that can be reused for future deliveries. You can then save time and standardize deliveries when needed.
 
 When you manage several brands in Adobe Campaign, Adobe recommends having one sub-domain per brand. For example, a bank can have several sub-domains corresponding to each of its regional agencies. If a bank owns the bluebank.com domain, its sub-domains can be @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Having one delivery template per sub-domain enables you to always use the right pre-configured parameters for each of your brand, which avoids errors and saves you time.
 
@@ -38,7 +38,7 @@ When you manage several brands in Adobe Campaign, Adobe recommends having one su
 
 To configure addresses in Campaign interface, follow the steps below:
 
-1. In the [delivery template](creating-a-delivery-template.md), click the **[!UICONTROL From]** link. In the **[!UICONTROL Email header parameters]** window, fill in the following fields:
+1. In the [delivery template](about-templates.md), click the **[!UICONTROL From]** link. In the **[!UICONTROL Email header parameters]** window, fill in the following fields:
 
     ![](assets/d_best_practices_email_header.png)
 

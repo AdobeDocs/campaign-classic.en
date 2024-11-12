@@ -113,4 +113,4 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 
 * [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
 
-* [Select target mapping](../../delivery/using/selecting-a-target-mapping.md)
+* [Select target mapping](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping)

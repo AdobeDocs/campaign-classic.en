@@ -163,10 +163,6 @@ To do this, follow the steps below:
 
 1. Create one external account per brand with the same internal name as defined on the [execution instance](#execution-instance) (step 1).
 
-1. Create one default delivery template per brand.
-
-    >[!NOTE]
-    >
-    >    Learn how to create a delivery template in [this section](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template).
+1. Create a [delivery template](../../delivery/using/about-templates.md) per brand.
 
 1. In the delivery template's **[!UICONTROL Properties]**, set the routing to the external account of the brand.

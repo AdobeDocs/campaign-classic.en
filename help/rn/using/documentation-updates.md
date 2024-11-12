@@ -392,7 +392,7 @@ How-to videos are now available on the following topics:
 
 * [How to create a multilingual newsletter with conditional content](../../delivery/using/conditional-content.md)
 
-* [How to configure and deploy a delivery template](../../delivery/using/creating-a-delivery-template.md)
+* [How to configure and deploy a delivery template](../../delivery/using/about-templates.md)
 
 * [How to activate and use AMP for emails](../../delivery/using/defining-interactive-content.md)
 
