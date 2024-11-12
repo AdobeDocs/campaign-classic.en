@@ -157,7 +157,7 @@ type: Documentation
        + [Define the direct mail content](delivery/using/defining-the-direct-mail-content.md)
        + [Validate](delivery/using/validating.md)
   + Use delivery templates {#using-delivery-templates}
-       + [About templates](delivery/using/about-templates.md)
+       + [Work with delivery templates](delivery/using/about-templates.md)
        + [Create a delivery template](delivery/using/creating-a-delivery-template.md)
        + [Select a target mapping](delivery/using/selecting-a-target-mapping.md)
        + [Create a delivery from a template](delivery/using/creating-a-delivery-from-a-template.md)

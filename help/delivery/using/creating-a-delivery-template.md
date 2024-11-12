@@ -2,8 +2,9 @@
 product: campaign
 title: Create a delivery template
 description: Create a delivery template
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
+hide: yes
+hidefromtoc: yes
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 ---

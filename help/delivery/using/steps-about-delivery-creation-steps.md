@@ -2,7 +2,6 @@
 product: campaign
 title: About deliveries creation steps in Adobe Campaign
 description: Discover the main delivery creation steps in Adobe Campaign
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 role: User
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
