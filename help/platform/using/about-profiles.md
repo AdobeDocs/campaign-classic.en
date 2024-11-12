@@ -111,10 +111,6 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 
 * [Privacy management in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
-* [Define the target population](../../delivery/using/define-the-right-audience.md)
-
 * [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
 
 * [Select target mapping](../../delivery/using/selecting-a-target-mapping.md)
-
-* [Define the audience - best practices](../../delivery/using/define-the-right-audience.md)

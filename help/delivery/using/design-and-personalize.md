@@ -5,6 +5,8 @@ description: Learn how to build personalized content in Adobe Campaign deliverie
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design, Personalization
 role: User
+hide: yes
+hidefromtoc: yes
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 ---
 # Build personalized content {#build-personalized-content}

@@ -23,7 +23,7 @@ For additional tips to optimize deliverability when designing content, see the [
 
 >[!NOTE]
 >
->For more information on editing email content, see [Define the email content](defining-the-email-content.md) and [Build personalized content](design-and-personalize.md).
+>For more information on editing email content, see [Define the email content](defining-the-email-content.md).
 
 ## Sender address {#sender-address}
 
@@ -38,8 +38,6 @@ For more on this, see [this page](defining-the-email-content.md).
 To improve your recipients' experience and make them open your email, Adobe Campaign enables you to personalize your messages.
 
 For more on using personalization fields in Adobe Campaign, see [this section](personalization-fields.md).
-
-Some tips to optimize personalization when building your content are presented in [this section](design-and-personalize.md#optimize-personalization).
 
 ## Opt-out link and form {#opt-out}
 

@@ -5,6 +5,8 @@ description: Learn how to track and monitor messages
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Reporting
 role: User
+hide: yes
+hidefromtoc: yes
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 ---
 # Track and monitor {#track-and-monitor}

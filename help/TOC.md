@@ -110,8 +110,8 @@ type: Documentation
        + [Define the audience](delivery/using/steps-defining-the-target-population.md)
        + [Validate the delivery](delivery/using/steps-validating-the-delivery.md)
        + [Send the delivery](delivery/using/steps-sending-the-delivery.md)
+       + [Delivery best practices](delivery/using/delivery-best-practices.md)
        + Delivery best practices {#delivery-bestpractices}
-          + [Learn good practices](delivery/using/delivery-best-practices.md)
           + [Optimize delivery](delivery/using/optimize-delivery.md)
           + [Use templates](delivery/using/use-templates.md)
           + [Build personalized content](delivery/using/design-and-personalize.md)
