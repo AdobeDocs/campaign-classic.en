@@ -9,7 +9,7 @@ exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 
 >[!INFO]
 >
->Discover more about the Audit trail functionality in the Adobe Campaign v8 documentation.
+>Discover more about the Audit trail functionality in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail).
 
 In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the complete history of changes made within your instance.
 
