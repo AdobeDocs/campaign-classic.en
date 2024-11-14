@@ -7,7 +7,9 @@ exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 ---
 # Audit trail{#audit-trail}
 
-
+>[!INFO]
+>
+>Discover more about the Audit trail functionality in the Adobe Campaign v8 documentation.
 
 In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the complete history of changes made within your instance.
 
@@ -18,13 +20,15 @@ In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the comp
 >Adobe Campaign is not auditing changes made within user rights, templates, personalization or campaigns.  
 >Audit trail can only be managed by administrators of the instance.
 
-Audit Trail consists of three components:
+![](assets/audit_trail_2.png)
 
-* **Schema audit trail**: Check the activities and last modifications done to your schemas.
++++ Learn more on Audit Trail available entities
 
-  For more information on schemas, refer to this [page](../../configuration/using/data-schemas.md).
+* **Schema audit trail**: allows you to explore the changes made to your schemas, as well as identify who made these modifications and when they occurred.
 
-* **Workflow audit trail**: Check activities and last modifications done to workflows, and additionally, the state of your workflows such as:
+  For detailed information on schemas, refer to this [page](../../configuration/using/data-schemas.md).
+
+* **Workflow audit trail** tracks all actions related to your workflows, including:
 
     * Start
     * Pause
@@ -39,63 +43,32 @@ Audit Trail consists of three components:
   
   For more on how to monitor workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflow-execution.md).
 
-* **Option audit trail**: Check the activities and last modifications done to your options.
+* **Option audit trail** allows you to check activities and last modifications done to your options.
 
   For more information on options, refer to this [page](../../installation/using/configuring-campaign-options.md).
 
-## Accessing Audit trail {#accessing-audit-trail}
+* **Delivery audit trail** allows you to check the activities and last modifications done to your deliveries. 
 
-To access your instance's **[!UICONTROL Audit trail]** :
+  For more information on deliveries, refer to this [page](../../delivery/using/communication-channels.md).
 
-1. Access the **[!UICONTROL Explorer]** menu of your instance.
-1. Under the **[!UICONTROL Administration]** menu, select **[!UICONTROL Audit]** .
+* **External Account** allows you to check modifications made to external accounts, used by technical processes such as technical workflows or campaign workflows.
 
-   ![](assets/audit_trail_1.png)
+  For more information on external account, refer to this [page](../../installation/using/external-accounts.md).
 
-1. The **[!UICONTROL Audit trail]** window opens with the list of your entities. Adobe Campaign will audit the create, edit and delete actions for workflows, options and schemas.
+* **Delivery Mapping** enables you to monitor activities and recent modifications made to your Delivery Mappings. 
 
-   Select one of the entities to learn more about the last modifications.
+  For more information on delivery mapping, refer to this [page](../../configuration/using/target-mapping.md).
 
-   ![](assets/audit_trail_2.png)
+* **Web Application** allows you to check modifications made to Web forms in Campaign V8 used to create pages with input and selection fields, and which may include data from the database. 
 
-1. The **[!UICONTROL Audit entity]** window gives you more detailed information on the chosen entity such as:
+  For more information on web application, refer to this [page](../../web/using/about-web-applications.md).
 
-    * **[!UICONTROL Type]** : Workflow, Options or Schemas.
-    * **[!UICONTROL Entity]** : Internal name of your activities.
-    * **[!UICONTROL Modified by]** : Username of the last person who last modified this entity.
-    * **[!UICONTROL Action]** : Last action performed on this entity, either Created, Edited or Deleted.
-    * **[!UICONTROL Modification date]** : Date of the last action performed on this entity.
+* **Offer** allows you to check the activities and last modifications done to your offers.
 
-   The code block gives you more information on what was changed exactly in your entity.
+  For more information on offer, refer to this [page](../../interaction/using/interaction-and-offer-management.md).
 
-   ![](assets/audit_trail_3.png)
+* **Operator** enables you to monitor activities and recent modifications made to your Operators.
 
->[!NOTE]
->
->By default, retention period is set to 180 days for **[!UICONTROL Audit logs]** . To learn more on how to change the retention period, refer to this [page](../../production/using/database-cleanup-workflow.md#deployment-assistant).
+  For more information on operators, refer to this [page](../../platform/using/access-management-operators.md).
 
-## Enable/disable Audit trail {#enable-disable-audit-trail}
-
-Audit trail can be easily activated or deactivated for a specific activity if, for example, you want to save some space on the database.
-
-To do so:
-
-1. Access the **[!UICONTROL Explorer]** menu of your instance.
-1. Under the **[!UICONTROL Administration]** menu, select **[!UICONTROL Platform]** then **[!UICONTROL Options]** .
-
-   ![](assets/audit_trail_4.png)
-
-1. Select one of the following options depending on the entity you want to activate/deactivate:
-
-    * For Workflow: **[!UICONTROL XtkAudit_Workflows]** 
-    * For Schemas: **[!UICONTROL XtkAudit_DataSchema]** 
-    * For Options: **[!UICONTROL XtkAudit_Option]** 
-    * For every entity: **[!UICONTROL XtkAudit_Enable_All]**
-
-   ![](assets/audit_trail_5.png)
-
-1. Change the **[!UICONTROL Value]** to 1 if you want to enable the entity or to 0 if you want to disable it.
-
-   ![](assets/audit_trail_6.png)
-
-1. Click **[!UICONTROL Save]** .
++++
