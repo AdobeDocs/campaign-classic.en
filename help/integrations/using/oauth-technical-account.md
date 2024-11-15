@@ -73,3 +73,9 @@ As an on-premise or hybrid customer, follow these steps:
     ```
     nlserver config -instance:<instance_name> -setimsoauth:ims-org-id/client-id/technical-account-id/client-secret
     ```
+
+    >[!NOTE]
+    >
+    > For versions older than 7.4.1, use `setimsauth` or `setimsjwtauth` instead of `setimsoauth`.
+
+
