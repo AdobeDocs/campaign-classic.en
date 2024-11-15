@@ -304,3 +304,30 @@ Result should be as follows:
 ```
 
 4 opened connections for the sms process and 2 per mta child with 5 children.
+
+## Difference between SMS delivery statuses
+
+To clarify the differences between the **Sent**, **Sent to the Provider** and **Received on Mobile** statuses, refer to the detailed definitions below:
+
+* **Received on Mobile**:
+  The message has been successfully delivered to the user's device, with confirmation provided by both the Mobile Terminated (MT) delivery and a Status Report (SR).
+
+* **Sent**:
+  The message was successfully processed through the Mobile Terminated (MT) step, but a Status Report (SR) confirming delivery to the mobile device has not yet been received.
+
+* **Sent to the Provider**:
+  The message was sent to the provider using the `SUBMIT_SM command`, but no `SUBMIT_SM_RESP` acknowledgment was received from the provider.
+
+Messages may remain in the **Sent** status because the transition to **Received** depends on a Status Report (SR) from the user's device. If the user has poor cell reception or other connectivity issues, they may not receive the message immediately. In such cases, it is the provider's responsibility to retry delivery or explain why no SR was generated. If the provider identifies any discrepancies, they must ensure Campaign's behavior was consistent with expectations.
+
+Here are the standard SMS delivery statuses:
+
+* **Pending**: The message has not yet been sent to the aggregator.
+
+* **Taken into Account by Provider**: The message has been sent to the aggregator, and the aggregator has confirmed receipt.
+
+* **Sent**: The aggregator has confirmed that the message has been successfully pushed to the user's mobile network without any immediate error.
+
+* **Received on Mobile**: The user's mobile device has acknowledged receipt, and this has been verified by the aggregator.
+
+* **Failed**: The message was sent to the aggregator, which attempted delivery to the user's mobile device for a defined period (e.g., several hours). Delivery ultimately failed due to network issues, user device unavailability, or other reasons.
