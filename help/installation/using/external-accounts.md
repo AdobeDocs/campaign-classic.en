@@ -95,6 +95,8 @@ To configure a POP3 external using **Microsoft OAuth 2.0**, check the **[!UICONT
 
   Redirect URL can be found in the **Authentication** menu of your application in the Azure portal. It should end with the following syntax `nl/jsp/oauth.jsp`, e.g. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
+Internet access is needed for setup and to use the **[!UICONTROL Test Connection]** button in the client console. After setup, the inMail process can communicate with Microsoft servers without internet.
+
 After entering your different credentials, you can click **[!UICONTROL Setup the connection]** to finish your external account configuration.
 
 ### Routing{#routing-external-account}
