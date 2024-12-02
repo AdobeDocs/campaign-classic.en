@@ -153,7 +153,7 @@ This example shows that the activity following **JavaScript Code** accesses the 
 
 Once you have specified an instance variable in an activity, you can re-use it in a workflow query.
 
-Thus, to call a variable **instance.vars.xxx = "yyy"** in a filter, enter **$(instance/vars/xxx)**.
+Thus, to call a variable **instance.vars.xxx = "yyy"** in a filter, enter **$(instance/vars/@xxx)**.
 
 For example:
 
