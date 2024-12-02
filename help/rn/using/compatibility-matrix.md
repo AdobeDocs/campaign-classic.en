@@ -116,12 +116,14 @@ As an on-premise / hybrid customer, you must install and configure the tools lis
 <p>Learn more in <a href="../../installation/using/application-server.md#jdk" target="_blank">this page</a>.</p>
 </td>
 <td>
+<p>17</p>
 <p>11</p>
 <p>9</p>
 <p>8</p>
 <p></p>
 </td>
 <td>
+<p>required starting v7.4.1</p>
 <p>required starting v7.4.1</p>
 <p>until v7.4.1</p>
 <p>until v7.4.1</p>
