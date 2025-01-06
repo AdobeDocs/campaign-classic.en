@@ -7,8 +7,6 @@ exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
 ---
 # parameters element {#parameters--element}
 
-![](../../../assets/v7-only.svg)
-
 ## Content model {#content-model-13}
 
 parameters:==param

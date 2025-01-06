@@ -44,8 +44,6 @@ These options are generally selected in the cart by right-clicking the activity.
 You can choose to force the execution of a workflow or workflow activity on a specific machine. To do this, you must define one or more propensities at the level of the workflow or the concerned activity.
 
 High availability workflow configuration is detailed in this [section](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
-
-
 ## Max. execution period {#max--execution-period}
 
 This field lets you set a warning for when the task takes too long. It won't impact workflow operation. If the task isn't finished by the time the **[!UICONTROL Max. execution period]** is over, the **[!UICONTROL Instance monitoring]** page will show a warning for this workflow. This page is accessed via the **[!UICONTROL Monitoring]** tab of the home page.

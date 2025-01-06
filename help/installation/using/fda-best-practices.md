@@ -10,8 +10,6 @@ exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 ---
 # Best practices and limitations 
 
-
-
 ## Optimize email personalization with external data {#optimizing-email-personalization-with-external-data}
 
 You can pre-process message personalization in a dedicated workflow. To perform this, use the **[!UICONTROL Prepare the personalization data with a workflow]** option, available in the **[!UICONTROL Analysis]** tab of the delivery properties.

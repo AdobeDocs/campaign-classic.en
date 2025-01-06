@@ -38,8 +38,6 @@ You can deliver to recipients who are stored in an external file rather than sav
 ## Send to your subscribers {#send-to-subscribers}
 
 To send messages to the subscribers of a newsletter, you can directly target the subscribers to the corresponding information service. Learn more [in this section](managing-subscriptions.md#delivering-to-the-subscribers-of-a-service).
-
-
 ## Test recipients and seed addresses {#test-recipients-seed-addresses}
 
 To test your delivery, use proofs before sending to the main target.

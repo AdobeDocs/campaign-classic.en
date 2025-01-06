@@ -10,8 +10,6 @@ exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 ---
 # Validate, send and track messages {#validate-send-track}
 
-
-
 ## Testing and validation {#test-and-validate-before-sending}
 
 Learn how to perform testing and validation steps before sending messages within Adobe Campaign.

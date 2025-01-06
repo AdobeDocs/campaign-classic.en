@@ -23,8 +23,6 @@ Before starting working with the Adobe Campaign-Adobe Analytics connector, consi
 
     * For Hybrid and On-premise implementations, make sure to follow the provisioning steps detailed in this [page](adobe-analytics-provisioning.md).
     * As a Hoster or Managed Cloud Services user, contact Adobe to connect Campaign with Adobe Experience Cloud services and solutions. 
-
-
 ## Configuration and usage {#adobe-analytics-connector-usage}
 
 To enable this integration, you must create your Adobe technical account as detailed in [this page](oauth-technical-account.md).

@@ -10,8 +10,6 @@ exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
 ---
 # Fundamental principles{#fundamental-principles}
 
-
-
 ## Deploying environments {#deploying-environments}
 
 There are two environments for each targeting dimension used when managing offers:

@@ -12,8 +12,6 @@ exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 ---
 # Migration tests{#testing-the-migration}
 
-
-
 ## General procedure {#general-procedure}
 
 Depending on your configuration, there are several ways of carrying out migration tests.
@@ -41,8 +39,6 @@ You should have a test/development environment to carry out migration tests. Ado
 >[!CAUTION]
 >
 >Due to changes made to the data structure, importing and exporting data packages is not possible between a v5 platform and a v7 platform.
-
-
 ## Migration tools {#migration-tools}
 
 Various options let you measure the impact from a migration and identify the potential problems. These options are to be executed:

@@ -10,8 +10,6 @@ exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
 ---
 # Reporting FAQ {#reporting-faq}
 
-
-
 ## How can I create new reports? {#how-can-i-create-new-reports-}
 
 In addition to built-in reports, Adobe Campaign lets you generate reports in various contexts and to meet different needs.

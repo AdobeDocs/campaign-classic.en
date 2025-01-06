@@ -8,8 +8,6 @@ exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 ---
 # Implement SOAP methods{#implementing-soap-methods}
 
-
-
 ## Introduction {#introduction}
 
 It is possible to create SOAP methods in JavaScript. This function simply enables applicative processes, it can avoid developing JSPs and their calling in the forms.

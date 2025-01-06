@@ -115,8 +115,6 @@ To do this, apply the following steps:
 
 1. Edit the ISAPI filters for the Adobe Campaign site by clicking the **[!UICONTROL Driver mapping]** icon.
 1. The check the content of the ISAPI filter.
-
-
 ## Changing the upload file size limit {#changing-the-upload-file-size-limit}
 
 When configuring the IIS Web server, a limit of approximately 28 MB is automatically for set files that are uploaded to the server.

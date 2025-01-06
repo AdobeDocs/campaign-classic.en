@@ -75,8 +75,6 @@ The connector also supports the following Hive options:
 |  hdfsPort |  port number <br>set by default to 8020 |  For HDFS bulk load (i.e. if the bulk load tool starts with webhdfs:// or webhdfss://). |
 |  bucketsNumber |  20 |  Number of buckets when creating a clustered table. |
 |  fileFormat |  PARQUET |  Default file format for work tables. |
-
-
 ## Configuring Hadoop 2.1 {#configure-access-hadoop-2}
 
 If you need to connect to Hadoop 2.1, follow the steps described below for [Windows](#for-windows) or [Linux](#for-linux).

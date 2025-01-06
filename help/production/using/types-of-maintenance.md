@@ -11,8 +11,6 @@ exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 ---
 # Types of maintenance{#types-of-maintenance}
 
-
-
 ## Application maintenance {#application-maintenance}
 
 Adobe Campaign provides a built-in workflow which lets you schedule certain database maintenance tasks: the **database cleanup workflow**. This workflow carries out the following tasks:

@@ -7,8 +7,6 @@ exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 ---
 # Hardware sizing recommendations{#hardware-sizing-reco}
 
-
-
 ## Overview
 
 >[!CAUTION]
@@ -118,8 +116,6 @@ It is estimated that the disk space required on the database to store all Adobe 
 >This estimate does not include any additional customer data. If you are planning to replicate additional columns or tables of customer data into the Adobe Campaign database, then you have to estimate the additional disk space requirement for it. Uploaded segments/lists also require more storage, depending on their size, frequency, and retention period.
 
 Also consider that due to the volume of information processed daily, the IOPS of the database server is critical. For example, on a peak day, you can deploy campaigns targeting a total of 500,000 recipients. To execute each campaign, Adobe Campaign inserts 500,000 records into a table containing roughly 12 million records (the delivery log table). To provide acceptable performance during the campaign deployment, Adobe recommends a minimum of 60,000 4-KB Random read/write IOPS for this scenario.
-
-
 ## Scenario 2: Large-Size Deployment{#scenario-2}
 
 ![](assets/scenario-2.png)

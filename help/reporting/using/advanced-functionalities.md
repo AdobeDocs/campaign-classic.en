@@ -108,8 +108,6 @@ In the video example below, you will learn how to  add a "_type" parameter to cr
 
 <!--
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://helpx.adobe.com/campaign/classic/how-to/add-url-parameter-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/business-practitioners/explevel/intermediate/applaunch/how-to-4/collection.ccx.js&ref=helpx.adobe.com)-->
-
-
 ## Calling up another report {#calling-up-another-report}
 
 A **Jump** activity is like a transition without an arrow: it lets you go from one activity to another or access another report.

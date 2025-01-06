@@ -62,8 +62,6 @@ A very important thing to check when deploying an on-premise type of architectur
 It is also imperative that you follow your database engine security.
 
 [Read more](../../installation/using/network-database.md)
-
-
 ## Server configuration
 
 <img src="assets/do-not-localize/icon_server.svg" width="60px">

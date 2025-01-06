@@ -11,8 +11,6 @@ exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 ---
 # Network configuration{#network-configuration}
 
-
-
 ## Communication between processes {#communication-between-processes}
 
 Certain processes of the application need to communicate with others or to access the LAN and internet. This means that some TCP ports need to be open for these processes.

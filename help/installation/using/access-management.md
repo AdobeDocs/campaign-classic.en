@@ -7,8 +7,6 @@ exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 ---
 # Access management {#access-management}
 
-
-
 ## Webapp operator
 
 Out of the box, the webApp operator is an administrator. To improve security, follow these guidelines:

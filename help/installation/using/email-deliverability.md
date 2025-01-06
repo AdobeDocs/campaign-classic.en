@@ -11,8 +11,6 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 ---
 # Technical email configurations{#email-deliverability}
 
-
-
 ## Overview {#overview}
 
 The following section provides an overview of the configuration required for controlling the output of Adobe Campaign instances when delivering emails.

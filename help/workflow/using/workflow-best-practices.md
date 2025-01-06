@@ -7,8 +7,6 @@ exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 ---
 # Workflow best practices{#workflow-best-practices}
 
-
-
 ## Execution and performance {#execution-and-performance}
 
 Below are listed general guidelines about optimizing Campaign performance, including best practices to apply to your workflows. 

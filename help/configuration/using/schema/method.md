@@ -7,8 +7,6 @@ exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
 ---
 # method element {#method--element}
 
-![](../../../assets/v7-only.svg)
-
 ## Content model {#content-model-10}
 
 method:==( help | parameters)

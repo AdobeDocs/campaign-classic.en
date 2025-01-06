@@ -234,8 +234,6 @@ External account configuration settings depend on the database engine. Learn mor
 * Configure access to [Snowflake](../../installation/using/configure-fda-snowflake.md)
 * Configure access to [Sybase IQ](../../installation/using/configure-fda-sybase.md)
 * Configure access to [Teradata](../../installation/using/configure-fda-teradata.md)
-
-
 ## Adobe Solution Integration External Accounts
 
 ### Adobe Experience Cloud {#adobe-experience-cloud-external-account}

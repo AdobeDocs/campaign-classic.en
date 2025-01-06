@@ -216,8 +216,6 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
 
 1. Click **[!UICONTROL OK]** and save the modifications to apply these changes.
 
-
-
 ## Recommendations
 
 * Make sure that your reverse proxy in not allowed in subNetwork. If it is the case, **all** traffic will be detected as coming from this local IP, so will be trusted.

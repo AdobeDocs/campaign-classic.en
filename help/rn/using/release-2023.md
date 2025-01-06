@@ -40,8 +40,6 @@ Starting this release, tracking links on emails that have already been sent will
 <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 
-
-
 ## Release 7.3.4 - Build 9364 {#release-7-3-4}
 
 [!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}

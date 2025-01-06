@@ -7,8 +7,6 @@ exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 ---
 # Query delivery information {#querying-delivery-information}
 
-
-
 ## Number of clicks for a specific delivery {#number-of-clicks-for-a-specific-delivery}
 
 In this example, we are looking to recover the number of clicks for a specific delivery. These clicks are recorded thanks to recipient tracking logs taken over a given period. The recipient is identified via their email address. This query uses the **[!UICONTROL Recipient tracking logs]** table.

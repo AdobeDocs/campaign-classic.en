@@ -67,8 +67,6 @@ Updated Release Notes section with 7.3.3 improvements and patches. [Read more](l
 
 
 +++ 2022
-
-
 ## November 2022 {#nov-2022}
 
 Updated Release Notes section with 7.3.2 improvements and patches. [Read more](latest-release.md)
@@ -80,8 +78,6 @@ The File and resource management section has been updated with additional inform
 The documentation on security zones has been updated withn additional information on the **allowDebug** attribute attribute. [Read more](../../installation/using/security-zones.md#recommendations)
 
 The migration guide has been updated. References to unsupported Adobe Campaign versions have been removed. [Read more](../../migration/using/about-migration.md)
-
-
 ## July 2022 {#july-2022}
 
 <!--Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)-->
@@ -93,8 +89,6 @@ Updated Compatibility Matrix. [Read more](compatibility-matrix.md)
 Updated Release Notes section. [Read more](rn-overview.md)
 
 Time Sensitive notifications with iOS 15. [Read more](../../delivery/using/create-notifications-ios.md)
-
-
 ## March 2022 {#mar-2022}
 
 Added a detailed description for the **[!UICONTROL Test SMTP delivery]** option. [Read more](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
@@ -164,8 +158,6 @@ Updated Adobe Analytics Data Connector End-of-Life date from March 1, 2022 to Au
 Added a section about how to use JavaScript to calculate values, exchange data and to execute specific operations using SOAP calls.[Read more](../../workflow/using/javascript-scripts-and-templates.md) 
 
 Added samples of JavaScript codes implementation in workflows. [Read more](../../workflow/using/javascript-in-workflows.md)
-
-
 ## October 2021{#oct-2021}
 
 Existing technotes have been grouped to the new **Technote** section.
@@ -189,13 +181,9 @@ Added new workflow activity: Change Data Source - [Learn more](../../workflow/us
 Applicability badges have been added to the documentation pages: **Applies to v7** for Campaign Classic v7 capabilities only, and **Applies to v7 & v8** for common capabilities.
 
 Added a note about the integration between Campaign and AEM Assets which has been decomissonned starting Adobe Experience Manager 6.4. [Learn more](../../integrations/using/configuring-access-to-assets.md)
-
-
 ## July 2021 {#july-2021}
 
 [Campaign 21.1.3 release](../../rn/using/latest-release.md#release-21-1-3-build-9330) has moved to General Availability (GA).
-
-
 ## June 2021 {#june-2021}
 
 The **Transactional Messaging** section has been reorganized and clarified with a new Get started section, including an [enhanced schema](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) for a better understanding of the process. [Read more](../../message-center/using/about-transactional-messaging.md)
@@ -297,8 +285,6 @@ A new **Importing and exporting data** section is available with new pages relat
 
 
 +++ 2020
-
-
 ## December 2020 {#dec-2020}
 
 The **Delivery monitoring** section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)

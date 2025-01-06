@@ -9,8 +9,6 @@ exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 ---
 # Overview{#dc-ovv}
 
-
-
 ## Context
 
 As a valued Adobe Campaign Classic customer, we are committed to providing you the best experience and value. Over the years, we have realized the value and reliability of hosting our customers in the cloud.  As part of our [Yearly Upgrade Initiative](../../rn/using/rn-overview.md#yearly-upgrade), we are moving all of our customers to Adobe Managed Services (Public Cloud on AWS) to provide better and more reliable services.
@@ -32,8 +30,6 @@ This program has three main goals:
 
 >[!NOTE]
 >Campaign Classic v7 migration to Public Cloud impacts customers using **Adobe Managed Services** only.
-
-
 ## Benefits
 
 **Security**
@@ -100,8 +96,6 @@ We have invested a huge effort in developing technologies that will make this mi
 * Deliverability ramp-up of new sending IPs. However, the plan is to make this operation transparent for the business, unlike the initial ramp-up that is done during go-live.
 
 Learn more in Campaign migration to [Public Cloud FAQ](dc-migration-faq.md).
-
-
 ## Migration path to Public Cloud
 
 Adobe handles most of the actions. We need you for validation and sign-off.
@@ -197,8 +191,6 @@ Once the application migration is complete, there is no plan for running any pro
 **DNS Delegation**
 
 Normally, the domain used for sending email (part on the right of the @ sign in the error address) from Campaign has been delegated to Adobe. The delegation can be changed and implemented towards the AWS DNS servers.
-
-
 ## Support and other useful links{#support}
 
 * [Migration to Adobe Managed Services (Public Cloud) FAQ](dc-migration-faq.md)

@@ -225,8 +225,6 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 >* You can also use Amazon RDS for PostgreSQL with the versions specified above.
 >
 >* PostgreSQL is the RDBMS for Hosted/Managed Cloud Services environments.
-
-
 ## CRM connectors {#CRMconnectors}
 
 Customer Relationship Management (CRM) systems compatible with Adobe Campaign are listed below. [Learn more](../../platform/using/crm-connectors.md) about Campaign CRM connectors.
@@ -387,8 +385,6 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 </tr>
 </tbody>
 </table>
-
-
 ## Client Console {#ClientOS}
 
 The following operating systems and browser are **required** to use [Campaign Client Console](../../installation/using/installing-the-client-console.md). 
@@ -430,8 +426,6 @@ The following operating systems and browser are **required** to use [Campaign Cl
 Microsoft Edge WebView2 runtime latest version is mandatory for Campaign client console. 
 
 Download Microsoft Edge WebView2 from [Microsoft Developer site](https://www.adobe.com/go/acc-ms-webview2-runtime-download).
-
-
 ## Mobile SDK {#MobileSDK}
 
 You can use Campaign to [send push notifications](../../delivery/using/about-mobile-app-channel.md), via the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. 

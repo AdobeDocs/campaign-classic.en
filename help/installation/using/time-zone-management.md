@@ -11,8 +11,6 @@ exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 ---
 # Time zone management{#time-zone-management}
 
-
-
 ## Operating principle {#operating-principle}
 
 Adobe Campaign lets you express dates as a function of their time zone: this enables international users to work worldwide on various time zones. Each country using the same instance can manage the execution of campaigns, tracking, archiving, etc. depending on local time.

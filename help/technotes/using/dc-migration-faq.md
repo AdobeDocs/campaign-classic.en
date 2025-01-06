@@ -168,8 +168,6 @@ Global impacts on configuration, connectivity with other systems and products, A
     It may change according to new servers location. However customer will be able to retain their current timezone.
     
     [Learn more](../../workflow/using/managing-time-zones.md) about timezone management in Adobe Campaign Classic v7.
-
-
 ## Security and permissions
 
 ![](assets/do-not-translate/security.png) 
@@ -211,8 +209,6 @@ Impacts on permissions, certificates and SFTP access are listed below.
 * **With IMS integration, will it work as is in new instance or will any additional configuration update is needed?**
     
     As we are keeping same DNS names, it should work as is after migration.
-
-
 ## Migration execution
 
 ![](assets/do-not-translate/upgrades.png) 

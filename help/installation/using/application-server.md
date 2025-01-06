@@ -73,8 +73,6 @@ For RHEL, use the following command:
 dnf install java-11-openjdk-headless
 ```
 
-
-
 ## Export reports {#exporting-reports}
 
 You can use Adobe Campaign to export reports into Microsoft Excel and Adobe PDF. 

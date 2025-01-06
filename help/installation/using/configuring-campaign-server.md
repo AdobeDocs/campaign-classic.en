@@ -53,8 +53,6 @@ Configure or adapt Campaign server depending on your needs and configuration. Yo
    * Enable access to public resources
    * Configure Proxy connection
 * [Automatic process restart](#automatic-process-restart)
-
-
 ## Internal identifier {#internal-identifier}
 
 The **internal** identifier is a technical login to be used for installation, administration and maintenance purposes. This login is not associated with an instance.
@@ -132,8 +130,6 @@ You can configure the storage directory (**var** directory) of Adobe Campaign da
 * In Linux, go to the **customer.sh** file and indicate: **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
   For more on this, refer to [Personalize parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
-
-
 ## Dynamic page security and relays {#dynamic-page-security-and-relays}
 
 By default, all dynamic pages are automatically related to the **local** Tomcat server of the machine whose Web module has started. This configuration is entered in the **`<url>`** section of the query relay configuration for the **ServerConf.xml** file. 
@@ -247,8 +243,6 @@ This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign o
 >[!IMPORTANT]
 >
 >You should not use a custom sudo. A standard sudo needs to be installed on the system.
-
-
 ## Redundant tracking {#redundant-tracking}
 
 When multiple servers are used for redirection, they must be able to communicate with each other via SOAP calls in order to share information from the URLs to be redirected. At the time of delivery start-up, it is possible that not all the redirection servers will be available; therefore they might not have the same level of information.
@@ -269,8 +263,6 @@ The URLs of the redundant servers must be specified in the redirection configura
 The **enableIf** property is optional (empty by default) and allows you to enable the connection only if the result is true. This lets you obtain an identical configuration on all redirection servers.
 
 To obtain the hostname of the computer, run the following command: **hostname -s**.
-
-
 
 ## High availability workflows and affinities {#high-availability-workflows-and-affinities}
 

@@ -237,8 +237,6 @@ These mappings are as follows:
 |  Service  | Publish to a X account or a Facebook page  | nms:service  |
 |  Operators  | Deliver to Adobe Campaign operators  | nms:operator  |
 |  External file  | Deliver via a file that contains all information needed for delivery  | No linked schema, no target entered  |
-
-
 ## Tutorial video {#seeds-and-proofs-video}
 
 In this video you will learn how to add seeds and proofs to an existing email and how to send it.

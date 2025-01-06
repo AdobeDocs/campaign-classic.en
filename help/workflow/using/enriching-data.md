@@ -7,8 +7,6 @@ exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 ---
 # Enrich data{#enriching-data}
 
-
-
 ## About enriching data {#about-enriching-data}
 
 This use case details possible uses of the **[!UICONTROL Enrichment]** activity in a targeting workflow. For more on using the **[!UICONTROL Enrichment]** activity, refer to: [Enrichment](enrichment.md).

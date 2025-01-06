@@ -36,8 +36,6 @@ Therefore, you must:
 >[!NOTE]
 >
 >Limitations specific to each operator must be taken into account when creating your message. Refer to their product documentation.
-
-
 ## Test the email content {#testing-the-email-content}
 
 ### Preview the message {#previewing-the-message}
