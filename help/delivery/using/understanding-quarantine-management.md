@@ -88,6 +88,8 @@ You can look up this information for all deliveries of the platform (**[!UICONTR
 You can look up the status of the email address of any recipient. To do this, select the recipient profile and click the **[!UICONTROL Deliveries]** tab. For all deliveries to that recipient, you can find out whether the address failed, was quarantined during analysis, etc. For each folder, you can display only the recipients whose email address is in quarantine. To do this, use the **[!UICONTROL Quarantined email address]** application filter.
 
 ![](assets/tech_quarant_recipients_filter.png)
+
+
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign manages quarantine according to the delivery failure type and the reason assigned during error messages qualification (see [Bounce mail qualification](understanding-delivery-failures.md#bounce-mail-qualification) and [Delivery failure types and reasons](understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
@@ -118,6 +120,8 @@ The error counter is reinitialized if the last significant error occurred more t
 For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the maximum number of retries to be performed in case of **[!UICONTROL Erroneous]** status and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain.
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment wizard](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or [at the delivery level](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+
+
 ## Remove an address from quarantine {#removing-a-quarantined-address}
 
 ### Automatic updates {#unquarantine-auto}

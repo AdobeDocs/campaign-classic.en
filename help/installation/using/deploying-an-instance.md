@@ -345,6 +345,8 @@ Adobe Campaign lets you differentiate these three URLs to spread the load over m
 >
 >* These settings are saved in the Campaign platform options. [Learn more](../../installation/using/configuring-campaign-options.md).
 >* For multi-branding configurations, you can adapt the Mirror page URL and override this configuration from the Email routing external account. [Learn more](../../installation/using/configuring-campaign-options.md).
+
+
 ## Managing public resources {#managing-public-resources}
 
 >[!IMPORTANT]

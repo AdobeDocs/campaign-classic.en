@@ -79,6 +79,8 @@ To install Adobe Campaign on a Debian 64 bit operating system, apply the followi
    ```
    apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
+
+
 ## Personalizing parameters {#personalizing-parameters}
 
 Some parameters can be personalized via the **customer.sh** file

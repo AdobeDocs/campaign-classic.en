@@ -22,6 +22,8 @@ This feature is available through a dedicated package in Adobe Campaign. Dependi
 >[!NOTE]
 >
 > For hybrid and hosted architectures, the package must be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/configuring-instances.md#execution-instance). 
+
+
 ## About AMP for Email {#about-amp-for-email}
 
 Use the **AMP for Email** new format to include AMP components in your messages and improve the email experience with a rich and actionable content. With modern app functionality directly available within emails, recipients can interact dynamically with content in the message itself.

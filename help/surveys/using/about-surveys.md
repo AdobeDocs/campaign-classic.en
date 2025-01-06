@@ -49,6 +49,8 @@ The optional survey creation module offers a user-friendly UI and the following 
 * Random displaying of questions. [Learn more](../../surveys/using/building-a-survey.md#adding-questions).
 * Real time tracking of answers. [Learn more](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
 * Generating dedicated reports. [Learn more](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys).
+
+
 ## Implementation steps {#surveys-implementation-steps}
 
 Apply the following steps to create and deliver a survey and process its results:

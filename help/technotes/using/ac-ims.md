@@ -23,6 +23,8 @@ Adobe supports you in this migration effort. You can find detailed context and s
 * Migration for end-users authentication is detailed in [this page](migrate-users-to-ims.md).
 * Migration for technical operators authentication is detailed in [this page](ims-migration.md).
 * Starting Campaign v7.4.1, enable the user interface and API restrictions to remove options and capabilities which are specific to native authentication, as detailed in [this page](impact-ims-migration.md).
+
+
 ## IMS migration compatible versions {#ims-versions}
 
 A prerequisite for this migration is to upgrade your environment to one of the following product version:
@@ -49,6 +51,8 @@ After your environments have been upgraded to Campaign Classic v7.4.1 (or an [IM
 ### When is the migration complete? {#ims-migration-end}
 
 Once end-user migration and technical operator(s) migration to Adobe Identity Management System (IMS) is done, you must update your environment to remove options which are specific to the native authentication and no longer applicable with IMS authentication. This update is only available starting Campaign v7.4.1. [Learn more](impact-ims-migration.md)
+
+
 
 ## Useful links {#ims-useful-links}
 

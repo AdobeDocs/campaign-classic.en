@@ -27,6 +27,8 @@ Discover easy use cases to [import profiles](../../platform/using/import-operati
 ## How can I define the target population of a marketing campaign? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
 You can [use workflows to create target population](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) of a marketing campaign. 
+
+
 ## How can I create a list of profiles? {#how-can-i-create-a-list-of-profiles-}
 
 A list is a static set of recipients that can be targeted in delivery actions, updated during import operations or workflow execution. For example, a population extracted from the database via a query can supply a list.

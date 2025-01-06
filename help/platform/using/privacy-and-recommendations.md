@@ -10,6 +10,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 ---
 # Privacy and Consent{#privacy-and-recommendations}
+
+
 ## General recommendations {#general-recommendations}
 
 Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information and sensitive data. This is why privacy needs to be managed carefully.

@@ -8,6 +8,8 @@ exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 ---
 # Configuration{#configuration}
 
+
+
 ## Changing the syslogd listening port {#changing-the-syslogd-listening-port}
 
 By default, the **syslogd** listening port is 666 (udp). You can alter it using an environment variable if necessary.

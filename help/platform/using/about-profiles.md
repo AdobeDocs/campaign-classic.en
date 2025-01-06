@@ -95,6 +95,8 @@ The following guardrails and limitations apply:
 * Profiles targeted in the context of Social marketing on X (Twitter) or Facebook are not taken into account as active profiles.
 * The count of active profiles is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
 * The count is based on the recipient primary key. As a consequence, if a profile is present in two different recipient tables, it can be counted twice as an active profile.
+
+
 ## Tutorial video {#create-profiles-video}
 
 Learn how to access profile data, sort and filter profiles and manually create and manage profiles.

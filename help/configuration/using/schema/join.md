@@ -7,6 +7,8 @@ exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
 ---
 # join element {#join--element}
 
+![](../../../assets/v7-only.svg)
+
 ## Content model {#content-model-7}
 
 join:==EMPTY

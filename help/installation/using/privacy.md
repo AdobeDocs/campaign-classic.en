@@ -173,6 +173,8 @@ To protect your pages, follow these steps:
     In addition to the **robots.txt** file, it is advised to add a **X-Robots-Tag** header. You can do it in Apache or IIS and in the **serverConf.xml** configuration file.
 
     For more information, refer to [this article](https://developers.google.com/search/reference/robots_meta_tag).
+
+
 ## Privacy Requests
 
 Refer to [this page](../../platform/using/privacy-management.md) for general information on what Privacy Management is and the implementation steps in Adobe Campaign. You will also find best practices and an overview of the user process and personas.  

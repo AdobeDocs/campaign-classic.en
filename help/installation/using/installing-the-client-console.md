@@ -30,6 +30,8 @@ Please review the details below to understand what is required for your implemen
 >
 >* Access to the installation folder in which the console is installed should be limited to the intended user only, ensuring that write permissions are restricted accordingly.
 
+
+
 ## Microsoft Edge Webview2 runtime installation {#webview}
 
 From Campaign Classic 7.3 build version, installation of Microsoft Edge Webview 2 runtime is required for any console installation.

@@ -163,6 +163,8 @@ This example shows references to the `book.png` and `detail.png` images from the
 These images are used for icons that users click to navigate a multipage form:
 
 ![](assets/nested_forms_preview.png)
+
+
 ## Create a simple form {#create-simple-form}
 
 To create a form, follow these steps:
@@ -431,6 +433,8 @@ This example shows a complex form:
   As a result, the **General** page of the outer form shows the **Name** and **Contact** tabs.
 
 ![](assets/nested_forms_preview.png)
+
+
 
 ## Modify a factory input form {#modify-factory-form}
 

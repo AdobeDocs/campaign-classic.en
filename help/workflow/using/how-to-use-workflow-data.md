@@ -7,6 +7,8 @@ exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 ---
 # How to use workflow data{#how-to-use-workflow-data}
 
+
+
 ## Updating the database {#updating-the-database}
 
 All collected data can be used to update the database, or in deliveries. For example, you can enrich message content personalization possibilities (include the number of contracts in the message, specify the average shopping cart over the last year, etc.) or detail population targeting (send a message to contract co-holders, target the 1,000 best subscribers to online services, etc.). This data can also be exported or archived in a list.

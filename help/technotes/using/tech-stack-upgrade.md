@@ -31,6 +31,8 @@ If you are impacted by the [operating system upgrade](#os-upgrade) and/or the [d
 * As a hosted or Managed Cloud Services customer, Adobe will contact you and upgrade your Campaign version.
 * As a hybrid customer, Adobe will inform you of the scheduled build upgrade dates for your mid-sourcing environment. You must also upgrade your marketing environment to that same version.
 * As an on-premise customer, you are requested to upgrade your Campaign environments to the latest 7.3.2 build. 
+
+
 ## Operating system upgrade {#os-upgrade}
 
 **Are you impacted?**
@@ -54,6 +56,8 @@ If your database system for Campaign is PostgreSQL, to benefit from latest Postg
 * As a hosted or Managed Cloud Services customer, Adobe will contact you and upgrade your database system from PostgreSQL 11 to PostgreSQL 14.
 * As a hybrid customer, if your marketing database system is PostgreSQL, you must upgrade it to PostgreSQL 14.
 * As an on-premise customer, you are requested to upgrade your database system to PostgreSQL 14. 
+
+
 ## Useful links
 
 * [Upgrade your environment](../../production/using/build-upgrade.md)

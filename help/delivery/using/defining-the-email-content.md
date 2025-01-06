@@ -101,6 +101,8 @@ Messages are sent in HTML or text format by default, according to recipient pref
   As for the HTML format click the **[!UICONTROL Preview]** tab at the bottom of the page to view the rendering of the message with its personalization. 
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
+
+
 ## Define interactive content {#amp-for-email-format}
 
 Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.

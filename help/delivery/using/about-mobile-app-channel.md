@@ -45,9 +45,13 @@ The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updat
 Adobe Campaign is compatible with HTTP/2 APNs. For more details on the configuration steps, refer to the [this section](configuring-the-mobile-application.md) section.
 
 For global information on how to create a delivery, refer to [this section](steps-about-delivery-creation-steps.md).
+
+
 ## Configure push notification channel {#push-notification-configuration}
 
 To send push notifications with Adobe Campaign, you must first configure your environment and app. Before beginning to send push notifications with Adobe Campaign, you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. Adobe Experience Platform Mobile SDK provides client-side integration APIs for your mobiles via Android and iOS compatible SDKs. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. Learn more in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings).
+
+
 ## Data path {#data-path}
 
 The following schemas detail the steps that enable a mobile application to exchange data with Adobe Campaign. This process involves three entities:

@@ -11,6 +11,8 @@ exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 ---
 # Duplicating environments{#duplicating-environments}
 
+
+
 ## Introduction {#introduction}
 
 ### Overview {#overview}

@@ -9,6 +9,8 @@ exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 ---
 # Adobe Campaign workspace{#adobe-campaign-workspace}
 
+
+
 ## Explore Adobe Campaign interface {#about-adobe-campaign-interface}
 
 Once you are connected to the database, you will access the Adobe Campaign home page, which is a dashboard: it is made up of links and shortcuts which let you access capabilities, depending on your installation as well as general platform configurations.
@@ -96,6 +98,8 @@ You can create a new element (delivery, Web application, workflow, etc.) using t
 For example, on the delivery page, use the **[!UICONTROL Create]** button to create a new delivery.
 
 ![](assets/d_ncs_user_interface_tab_add_del.png)
+
+
 ## Formats and units {#formats-and-units}
 
 ### Date and time {#date-and-time}

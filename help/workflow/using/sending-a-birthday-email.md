@@ -7,6 +7,8 @@ exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 ---
 # Send a birthday email{#sending-a-birthday-email}
 
+
+
 ## Introduction {#introduction}
 
 This use case presents how to plan sending a recurring email to a list of recipients on the day of their birthday.
@@ -28,6 +30,8 @@ Then follow these steps:
 1. First, add a **Scheduler** to trigger sending the delivery every day. In the example below, the delivery is created every day at 6am.
 
    ![](assets/recur_delivery2.png)
+
+
 ## Identifying recipients whose birthday it is {#identifying-recipients-whose-birthday-it-is}
 
 After configuring the **[!UICONTROL Scheduler]** activity so that the workflow starts every day, identify all of the recipients whose date of birth equals the current date.

@@ -10,6 +10,8 @@ exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 ---
 # Creating an offer{#creating-an-offer}
 
+
+
 ## Creating the offer {#creating-the-offer}
 
 To create an offer, apply the following steps:

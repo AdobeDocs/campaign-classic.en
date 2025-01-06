@@ -60,6 +60,8 @@ To configure a delivery template, carry out the following steps:
    ![](assets/delivery_template_5.png)
 
 1. Click **Save**. Your template is now ready to be used in a delivery.
+
+
 ## Tutorial videos {#delivery-template-video}
 
 ### How to configure a delivery template 

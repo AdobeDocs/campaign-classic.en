@@ -28,6 +28,8 @@ If operators in your organization are connecting to Campaign client console usin
 Migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is a security imperative to make your environments secure and standardized, as most of the other Adobe Experience Cloud solutions and apps are already on IMS.
 
 This change is applicable starting Campaign Classic v7.4.1 (and latest [IMS migration compatible versions](ac-ims.md#ims-versions)) and is **mandatory** to move to Adobe Campaign v8.
+
+
 ## How to migrate Hosted and Managed Services environments? {#ims-migration-procedure}
 
 ### Prerequisites {#ims-migration-prerequisites}
@@ -47,6 +49,8 @@ Key steps for this migration are listed below:
 You can also migrate your technical operator(s) to Adobe Developer Console as detailed in [this technote](ims-migration.md). 
 
 Once this migration is completed, confirm to your Adobe Transition Manager (for Managed Services users), or to Adobe Customer care (for Hosted customers). Adobe then marks the migration as complete. Your environment is then secured and standardized. 
+
+
 ## How to migrate Hybrid and On-premise environments? {#ims-migration-procedure-on-prem}
 
 Key steps for this migration are listed below: 
@@ -60,6 +64,8 @@ Key steps for this migration are listed below:
 1. Implement Adobe IMS for your connection as detailed in [this page](../../integrations/using/implementing-ims.md).
 
 You can also migrate your technical operator(s) to Adobe Developer Console as detailed in [this technote](ims-migration.md). 
+
+
 ## Frequently Asked Questions {#ims-migration-faq}
 
 ### How to create users after migration? {#ims-migration-native}

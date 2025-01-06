@@ -23,6 +23,8 @@ Example of elements to check:
 * If you have added a column (or an index) into the **NmsRecipient** table but you have not detailed it in the schema, this will not be saved.
 * The **tablespace** attribute takes back its values by default, in other words those defined in the deployment wizard.
 * If you have added a reference view to the **NmsRecipient** table, you must delete it before migrating.
+
+
 ## Before the migration {#before-the-migration}
 
 When migrating to Adobe Campaign v7, the following elements must be configured. These elements must be addressed before starting the **postupgrade**.
@@ -294,6 +296,8 @@ The obsolete folders to be deleted after the migration are as follows:
 | nmsResourcesModels | Templates | Campaign installed |
 | nmsRootPlan | Campaign management | Campaign installed |
 | nmsOperator | Marketing operators | MRM installed |
+
+
 ## Specific configurations from v6.02 to v7{#specific-configurations-in-v6-02}
 
 

@@ -9,6 +9,8 @@ exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
 ---
 # Work with Sources and Destinations {#rtcdp}
 
+
+
 ## About Sources and Destinations
 
 With Adobe Experience Platform, you can share data between Campaign Classic and Adobe Real-time Customer Data Platform (RTCDP). This allows you to target Adobe Experience Platform audiences in your Campaign workflows, then send back to Adobe Real-time Customer Data Platform data related to these audiences like sends, opens, and clicks.

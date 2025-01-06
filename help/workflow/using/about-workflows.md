@@ -7,6 +7,8 @@ exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
 ---
 # Get started with workflows{#gs-workflows}
 
+
+
 ## About workflows{#about-workflows}
 
 Adobe Campaign includes a workflow module that empowers you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.

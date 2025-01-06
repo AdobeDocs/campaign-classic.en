@@ -71,9 +71,9 @@ The identification key of a schema is a string built using the namespace and the
 
 >[!IMPORTANT]
 >
->* The name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
+>The name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
 >
->* Identifiers must not begin with numeric characters.
+>Identifiers must not begin with numeric characters.
 >
->* The following namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application and must not be used: **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**.
+>The following namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application and must not be used: **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**.
 

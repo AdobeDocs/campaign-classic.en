@@ -10,6 +10,8 @@ exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 ---
 # Additional configurations {#mc-additional-configurations}
 
+
+
 ## Monitor thresholds {#monitoring-thresholds}
 
 You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [Access transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)).
@@ -45,6 +47,8 @@ Event purge settings on an execution instance:
 ![](assets/messagecenter_delete_events_002.png)
 
 For more on the database cleanup workflow, see [this section](../../production/using/database-cleanup-workflow.md).
+
+
 ## Technical workflows {#technical-workflows}
 
 You must ensure that the technical workflows on the control instance and the different execution instances have indeed been created and started before deploying any transactional message templates.

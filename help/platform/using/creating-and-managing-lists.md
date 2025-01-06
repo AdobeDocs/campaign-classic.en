@@ -9,6 +9,8 @@ exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 ---
 # Create and manage lists{#creating-and-managing-lists}
 
+
+
 ## What is a list? {#about-lists-in-adobe-campaign}
 
 A list is a static set of profiles that can be targeted in delivery actions or updated during import operations or during workflow execution. For example, a population extracted from the database via a query can supply a list.

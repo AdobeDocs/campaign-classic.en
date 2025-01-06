@@ -23,6 +23,8 @@ The migration must be tested on the test/stage environment beforehand to make su
 >[!NOTE]
 >
 >New features and improvements coming with Adobe Campaign v7 are detailed in the [Release Notes](../../rn/using/latest-release.md).
+
+
 ## Prerequisites
 
 * The migration process must be performed by expert users. You must be assisted by at least a database expert, a system administrator and an application developer from Adobe Campaign.
@@ -33,6 +35,8 @@ The migration must be tested on the test/stage environment beforehand to make su
 * Adobe Campaign v7 is a more secure version than the previous ones: this impacts configuration guidelines to avoid problems such as data corruption and to preserve data integrity in the database. As a customer, you are respoonsible for testing all configurations, including workflows.
 
 More prerequisites are available in [this page](../../migration/using/before-starting-migration.md).
+
+
 ## Modernized environment {#modernizing-your-environment}
 
 Performing a migration can be a chance to update your environment (database engines, operating systems). Adobe Campaign strongly recommends upgrading your production environments to the most recent versions.
@@ -44,6 +48,8 @@ Performing a migration can be a chance to update your environment (database engi
 ## Key migration steps {#key-migration-steps}
 
 The general procedure for migrating to Adobe Campaign v7 is detailed in [this page](../../migration/using/before-starting-migration.md).
+
+
 ## Specific configurations {#specific-configurations}
 
 The changes brought about by Adobe Campaign v7 may also mean that you have to adapt certain specific configurations developed in the earlier versions. Therefore, it may be necessary to perform an audit on all your configurations before the migration: contact Adobe Campaign for any assistance.

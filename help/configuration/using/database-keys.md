@@ -171,6 +171,8 @@ In addition to the definition of the key and its index, a numeric field called "
 >[!IMPORTANT]
 >
 >A record with a primary key set to 0 is automatically inserted on creation of the table. This record is used to avoid outer joins, which are not effective on volume tables. By default, all foreign keys are initialized with value 0 so that a result can always be returned on the join when the data item is not populated.
+
+
 ## Learn more
 
 Browse the following links to learn more:

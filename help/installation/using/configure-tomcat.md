@@ -23,6 +23,8 @@ Learn more about Tomcat in Campaign and how to locate your Tomcat version in [th
 >* Adobe Campaign Classic does not use WebSocket and HTTP2 protocols.
 >
 
+
+
 ## Default port for Apache Tomcat {#default-port-for-tomcat}
 
 

@@ -30,6 +30,8 @@ New or upgraded versions of the embedded versions of Tomcat are only released wi
 >
 >* Adobe Campaign Classic does not use WebSocket and HTTP2 protocols.
 >
+
+
 ## How to locate the version of embedded Tomcat
 
 To locate the version of embedded Tomcat in an instance of Adobe Campaign, follow the steps below.

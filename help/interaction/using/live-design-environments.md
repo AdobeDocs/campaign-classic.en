@@ -10,6 +10,8 @@ exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
 ---
 # Live/Design environments{#live-design-environments}
 
+
+
 ## Operating principle {#operating-principle}
 
 Interaction operates with two types of offer environments:

@@ -86,6 +86,8 @@ The toolbar buttons are detailed in this [section](../../campaign/using/marketin
   This action creates a new workflow template based on the selected workflow. You need to specify the folder where it will be saved (in the **[!UICONTROL Folder]** field).
 
   The **[!UICONTROL Mass update of selected lines]** and **[!UICONTROL Merge selected lines]** options are generic platform options available in all **[!UICONTROL Actions]** menus. For more on this, refer to this [section](../../platform/using/updating-data.md).
+
+
 ## Workflow execution best practices {#workflow-execution-best-practices}
 
 **Do not to schedule a workflow to run more than every 15 minutes** because it may impede overall system performance and create blocks in the database.
