@@ -7,7 +7,6 @@ exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
 ---
 # key element {#key--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Content model {#content-model-8}
 

@@ -10,7 +10,6 @@ exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
 ---
 # srcschema element {#srcschema--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Content model {#content-model-14}
 
