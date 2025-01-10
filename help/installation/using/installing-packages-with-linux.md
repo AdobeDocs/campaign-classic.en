@@ -67,7 +67,7 @@ yum install bc.x86_64
 
 ### RHEL 9 for on-premise deployments {#rhel-9-update}
 
-With Campaign v7.4.1, as an on-premise customers using RHEL 9, you must update Campaign settings to disable your DKIM/Domain keys.
+With Campaign v7.4.1, as an on-premise customer using RHEL 9, you must update Campaign settings to disable your DKIM/Domain keys.
 
 To perform this, execute the following command as root, and restart the MTA:
 
