@@ -33,7 +33,7 @@ The [compatibility matrix for Adobe Campaign](compatibility-matrix.md) has been 
 
     >[!CAUTION]
     >
-    >As an on-premise customers using RHEL 9, you must update Campaign settings to disable your DKIM/Domain keys as detailed in [this section](../../installation/using/installing-packages-with-linux.md#rhel-9-update).
+    >As an on-premise customer using RHEL 9, you must update Campaign settings to disable your DKIM/Domain keys as detailed in [this section](../../installation/using/installing-packages-with-linux.md#rhel-9-update).
 
 
 * Adobe Campaign is now compatible with **Microsoft SQL Server 2022** and **Oracle 23c** as Relation Database Management Systems, and in Federated Data Access (FDA).
