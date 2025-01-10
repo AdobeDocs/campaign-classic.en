@@ -64,6 +64,18 @@ With CentOS, you must install the bc.x86_64 package: connect as **root** and run
 yum install bc.x86_64
 ```
 
+
+### RHEL 9 for on-premise deployments {#rhel-9-update}
+
+With Campaign v7.4.1, as an on-premise customers using RHEL 9, you must update Campaign settings to disable your DKIM/Domain keys.
+
+To perform this, execute the following command as root, and restart the MTA:
+
+```
+update-crypto-policies --set LEGACY
+```
+
+
 ## Distribution based on APT (Debian) {#distribution-based-on-apt--debian-}
 
 To install Adobe Campaign on a Debian 64 bit operating system, apply the following steps:
