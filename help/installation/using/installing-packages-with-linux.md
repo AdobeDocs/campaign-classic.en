@@ -77,7 +77,7 @@ To perform this, follow these steps:
   update-crypto-policies --set LEGACY
   ```
 
-2. Restart the MTA module:
+1. Restart the MTA module:
 
   ```sql
   nlserver restart mta@<instance-name>
