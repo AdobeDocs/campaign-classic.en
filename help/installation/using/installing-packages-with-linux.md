@@ -82,7 +82,7 @@ To perform this, follow these steps:
   ```sql
   nlserver restart mta@<instance-name>
   ```
-
+  
 ## Distribution based on APT (Debian) {#distribution-based-on-apt--debian-}
 
 To install Adobe Campaign on a Debian 64 bit operating system, apply the following steps:
