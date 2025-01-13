@@ -44,13 +44,13 @@ To install Adobe Campaign onto an RPM (RHEL, CentOS) operating system, follow th
 
 1. To install it, connect as **root** and execute the following command, where **XXXX** is the Adobe Campaign build number:
 
-   ```
+   ```sql
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
    The rpm file has dependencies on packages that you can find on CentOS/Red Hat distributions. If you don't want to use some of these dependencies (for example, if you want to use Oracle JDK instead of OpenJDK), you may have to use the "nodeps" option of rpm:
 
-   ```
+   ```sql
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
@@ -60,21 +60,28 @@ The `bc` command, mandatory for executing the [netreport](../../production/using
 
 With CentOS, you must install the bc.x86_64 package: connect as **root** and run the following command:
 
-```
+```sql
 yum install bc.x86_64
 ```
 
 
 ### RHEL 9 for on-premise deployments {#rhel-9-update}
 
-With Campaign v7.4.1, as an on-premise customer using RHEL 9, you must update Campaign settings to disable your DKIM/Domain keys.
+With Campaign v7.4.1, as an on-premise customer using RHEL 9, if you want to use DKIM/Domain keys, you must update your system settings.
 
-To perform this, execute the following command as root, and restart the MTA:
+To perform this, follow these steps:
 
-```
-update-crypto-policies --set LEGACY
-```
+1. Execute the following command as root:
 
+  ```sql
+  update-crypto-policies --set LEGACY
+  ```
+
+2. Restart the MTA module:
+
+  ```sql
+  nlserver restart mta@<instance-name>
+  ```
 
 ## Distribution based on APT (Debian) {#distribution-based-on-apt--debian-}
 
@@ -88,7 +95,7 @@ To install Adobe Campaign on a Debian 64 bit operating system, apply the followi
 
 1. To install it, connect as **root** and execute the following command, where **XXXX** is the Adobe Campaign build number:
 
-   ```
+   ```sql
    apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
@@ -101,7 +108,7 @@ If you are performing the installation for the first time, the **customer.sh** f
 
 Create it and make sure it has execution rights. If this is not the case, enter the following command:
 
-```
+```sql
 chmod +x /usr/local/neolane/nl6/customer.sh
 ```
 
@@ -117,7 +124,7 @@ To create a **Japanese instance**, you must use a UTF-8 environment.
 
 To enable the UTF-8 environment, use the following command:
 
-```
+```sql
 mkdir -p /usr/local/neolane/nl6 
 touch /usr/local/neolane/nl6/unicodeenv
 ```
@@ -132,7 +139,7 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 
 * For the Oracle client:
 
-  ```
+  ```sql
   export ORACLE_HOME=/usr/local/instantclient_10_2
   export TNS_ADMIN=/etc/oracle
   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
@@ -150,7 +157,7 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 
       Default values for OOO_INSTALL_DIR and OOO_BASIS_INSTALL_DIR are provided. You can override them in **customer.sh** if your layout of the LibreOffice installation is different:
 
-      ```    
+      ```sql  
       export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
       export OOO_INSTALL_DIR=/usr/lib/libreoffice/
       ```
@@ -159,7 +166,7 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 
       Use the following default values:
 
-      ```    
+      ```sql  
       export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
       export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
       ```
@@ -168,7 +175,7 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 
   By default, the configuration script of the Adobe Campaign environment (`~/nl6/env.sh`) searches for the JDK installation directory. However, it is recommended to specify which JDK needs to be used. To do this, you can force the **JDK_HOME** environment variable using the following command:
 
-  ```
+  ```sql
   export JDK_HOME=/usr/java/jdkX.Y.Z
   ```
 
@@ -178,7 +185,7 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 
   To test the JDK configuration, log in as the Adobe Campaign system user with the following command:
 
-  ```
+  ```sql
   su - neolane
   ```
 
@@ -186,7 +193,7 @@ You must restart the Adobe Campaign service in order for the changes to be taken
 
 The commands are as follows:
 
-```
+```sql
 systemctl stop nlserver
 systemctl start nlserver
 ```
@@ -200,7 +207,7 @@ When using Oracle with Adobe Campaign, you need to configure the Oracle client l
 
   The TNS definitions must be added during the installation phase. To do this, use the following commands:
 
-  ```
+  ```sql
   cd /etc
   mkdir oracle
   cd oracle
@@ -217,7 +224,7 @@ When using Oracle with Adobe Campaign, you need to configure the Oracle client l
 
   To do this, use the following commands:
 
-  ```
+  ```sql
   cd /usr/lib/oracle/10.2.0.4/client/lib
   ln -s libclntsh.so.10.1 libclntsh.so
   ```
@@ -228,14 +235,14 @@ In case of an issue, make sure the packages listed in the Oracle installation do
 
 You can now perform an initial installation test using the following commands:
 
-```
+```sql
 su - neolane
 nlserver pdump
 ```
 
 When Adobe Campaign is not started, the response is:
 
-```
+```sql
 no task
 ```
 
@@ -243,7 +250,7 @@ no task
 
 Once the installation test is complete, enter the following command:
 
-```
+```sql
 nlserver web
 ```
 
@@ -263,7 +270,7 @@ These commands let you create **config-default.xml** and **serverConf.xml** conf
 
 Press **Ctrl+C** to stop the process, then enter the following command:
 
-```
+```sql
 nlserver start web
 ```
 
@@ -281,7 +288,7 @@ The following information is then displayed:
 
 To stop it, enter:
 
-```
+```sql
 nlserver stop web
 ```
 

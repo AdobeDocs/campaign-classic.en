@@ -119,7 +119,7 @@ It is possible for a mid-sourcing instance to be shared by multiple submitting i
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Restart the Web module using the following command: **nlserver restart web**.
+1. Restart the Web module using the following command: ** web**.
 
 You must change the mid-sourcing server setting in the serverConf.xml file. The following line must be added to the "Management of affinities with IP addresses" section, under the existing line:
 
