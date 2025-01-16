@@ -67,7 +67,7 @@ yum install bc.x86_64
 
 ### RHEL 9 for on-premise deployments {#rhel-9-update}
 
-With Campaign v7.4.1, as an on-premise customer using RHEL 9, if you want to use DKIM/Domain keys, you must update your system settings.
+With Campaign v7.4.1, as an on-premise customer using RHEL 9, if you want to use DKIM (Domain Keys Identified Mail) authentication, you must update your system settings.
 
 To perform this, follow these steps:
 
