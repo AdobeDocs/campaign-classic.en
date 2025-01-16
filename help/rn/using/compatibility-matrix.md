@@ -110,7 +110,7 @@ As an on-premise / hybrid customer, you must install and configure the tools lis
 <tbody>
 <td><strong>Tool</strong></td>
 <td><strong>Version</strong></td>
-<td><strong>Minium Campaign version</strong></td>
+<td><strong>Minimum Campaign version</strong></td>
 <tr>
 <td><p>Java Development Kit (JDK)</p>
 <p>Learn more in <a href="../../installation/using/application-server.md#jdk" target="_blank">this page</a>.</p>
@@ -399,7 +399,7 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <tbody>
 <td><strong>System</strong></td>
 <td><strong>OS version</strong></td>
-<td><strong>Minium Campaign version</strong></td>
+<td><strong>Minimum Campaign version</strong></td>
 <tr>
 <td>Microsoft Windows</td>
 <td>
