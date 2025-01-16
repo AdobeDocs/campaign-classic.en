@@ -27,7 +27,7 @@ When creating a new delivery or delivery template, Email BCC is not enabled by d
 
 >[!NOTE]
 >
->If you are using Email BCC with Enhanced MTA, this option is automatically enabled for all deliveries.
+>If you are using Email BCC with [Enhanced MTA](ending-with-enhanced-mta.md), this option is automatically enabled for all deliveries.
 
 To enable Email BCC for an email delivery template, follow the steps below:
 
