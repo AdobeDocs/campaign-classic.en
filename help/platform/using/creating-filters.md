@@ -19,6 +19,8 @@ When you navigate in the Adobe Campaign tree (from the **[!UICONTROL Explorer]**
 >
 >User interface configuration settings are defined locally at the device level. It may sometimes be necessary to clean up this data, particularly if problems arise when refreshing data. To do this, use **[!UICONTROL File > Clear the local cache]** menu.
 
+<!--
+
 ## Typology of available filters {#typology-of-available-filters}
 
 Adobe Campaign lets you apply filters to data lists.
@@ -36,7 +38,7 @@ The following filter types are available in Adobe Campaign:
   >[!NOTE]
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an email address in the domain "yahoo.com".
--->
+
   You can change the default filter of a list. For more on this, refer to [Change the default filter](#altering-the-default-filter).
 
 * **Simple filters**
