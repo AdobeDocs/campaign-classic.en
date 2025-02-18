@@ -3,6 +3,8 @@ product: campaign
 title: Track a campaign
 description: Learn how to track a campaign with Campaign Distributed Marketing
 feature: Distributed Marketing
+hide: yes
+hidefromtoc: yes
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 ---
 # Track a campaign{#tracking-a-campaign}

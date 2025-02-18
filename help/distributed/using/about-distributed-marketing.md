@@ -17,6 +17,11 @@ The central entity provides campaigns that local entities may use. Campaigns are
 >
 >The Distributed Marketing module is a **Campaign** option. Please check your license agreement.
 
+>[!NOTE]
+>
+>To know more about Distributed Markting for Adobe Campaign and how to use it, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
+
+<!--
 ## Terminology {#terminology}
 
 * **Central entities**
@@ -154,4 +159,4 @@ These steps must be carried out for each campaign.
 1. Once you receive notification of the campaign package's availability, specify the campaign's location (optional).
 1. Evaluate the target, the budget, etc.
 1. Preview campaign content.
-1. Order the campaign.
+1. Order the campaign. --!>
