@@ -9,8 +9,13 @@ exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 
 
 
-You can access the lists of records in Campaign database using the Explorer. You can filter these lists, run searches, add information, filter and sort data.
+In Campaign client console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
 
+>[!NOTE]
+>
+>To learn how to manage and customize lists in Adobe Campaign, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+
+<!--
 ## Count records {#counting-records}
 
 By default, Adobe Campaign loads the first 200 records of a list. This means that the display does not necessarily show all the records of the table you are viewing. You can run a count of the number of records in the list and load more records.
@@ -197,3 +202,4 @@ You can run a search of the available fields in an editor using the **[!UICONTRO
 >[!NOTE]
 >
 >You can create filters to display only some of the data in a list. [Learn more](../../platform/using/creating-filters.md).
+-->
