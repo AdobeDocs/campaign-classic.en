@@ -202,4 +202,4 @@ You can run a search of the available fields in an editor using the **[!UICONTRO
 >[!NOTE]
 >
 >You can create filters to display only some of the data in a list. [Learn more](../../platform/using/creating-filters.md).
---!>
+-->
