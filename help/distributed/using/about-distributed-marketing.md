@@ -159,4 +159,5 @@ These steps must be carried out for each campaign.
 1. Once you receive notification of the campaign package's availability, specify the campaign's location (optional).
 1. Evaluate the target, the budget, etc.
 1. Preview campaign content.
-1. Order the campaign. --!>
+1. Order the campaign.
+-->
