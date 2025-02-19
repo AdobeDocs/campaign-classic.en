@@ -3,6 +3,8 @@ product: campaign
 title: Accessing campaigns
 description: Accessing campaigns
 feature: Distributed Marketing
+hide: yes
+hidefromtoc: yes
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
 ---
 # Access campaigns{#accessing-campaigns}

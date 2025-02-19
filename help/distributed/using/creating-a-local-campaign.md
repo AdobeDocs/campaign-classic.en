@@ -3,6 +3,8 @@ product: campaign
 title: Create a local campaign
 description: Create a local campaign
 feature: Distributed Marketing
+hide: yes
+hidefromtoc: yes
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 ---
 # Create a local campaign{#creating-a-local-campaign}
