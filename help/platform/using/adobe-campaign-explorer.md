@@ -14,6 +14,12 @@ exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 
 The Adobe Campaign explorer is accessible via the toolbar icon. It lets you access the Adobe Campaign all the Adobe Campaign capabilities, configuration screens and a more detailed view of some of the platform elements.
 
+>[!NOTE]
+>
+>To learn more about Adobe Campaign explorer, refer to these pages in the Campaign v8 documentation:
+
+
+
 The **[!UICONTROL Explorer]** workspace is divided into three zones:
 
 ![](assets/s_ncs_user_navigation.png)
