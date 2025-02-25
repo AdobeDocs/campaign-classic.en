@@ -14,6 +14,12 @@ exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 
 The Adobe Campaign explorer is accessible via the toolbar icon. It lets you access the Adobe Campaign all the Adobe Campaign capabilities, configuration screens and a more detailed view of some of the platform elements.
 
+>[!NOTE]
+>
+>To learn more about Adobe Campaign explorer, refer to these pages in the Campaign v8 documentation: to learn more [about the user interface](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, its [settings](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} or [how to manage folders and views in the explorer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+
+
+<!--
 The **[!UICONTROL Explorer]** workspace is divided into three zones:
 
 ![](assets/s_ncs_user_navigation.png)
@@ -78,3 +84,4 @@ In the **[!UICONTROL Explorer]** workspace, if some parts of the **[!UICONTROL D
 ## Browse and customize lists {#browsing-lists}
 
 Learn how to browse, manage and customize lists [in this section](adobe-campaign-ui-lists.md).
+-->
