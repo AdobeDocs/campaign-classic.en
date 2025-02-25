@@ -19,6 +19,11 @@ Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UIC
 
 ![](assets/s_ncs_user_interface_group_link.png)
 
+>[!NOTE]
+>
+>To learn more about lists and how to create and manage them, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}.
+
+<!--
 Two types of lists are available in Adobe Campaign:
 
 * **[!UICONTROL Group]** type: The **[!UICONTROL Group]** type lists belong to a **static** list of people selected according to specific criteria. The list is like a snapshot of a set of profiles. Please note that it is not updated automatically in the event of profiles being added to the database.
@@ -137,3 +142,5 @@ Learn how create a workflow in order to target recipients and how to make it rec
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
+-->
