@@ -15,7 +15,7 @@ exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 >
 >As part of the effort to reinforce security and authentication process, Adobe Campaign highly recommends to migrate all existing operators authentication mode from the login/password native authentication to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this page](../../technotes/using/migrate-users-to-ims.md).
 > 
->After this migration, note that the following section no longer apply.  Learn how to set up permissions with Adobe IMS in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}. 
+>After this migration, note that the following section no longer applies.  Learn how to set up permissions with Adobe IMS in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}. 
 
 
 Adobe Campaign lets you define and manage the rights assigned to the various operators. These are a set of rights and restrictions that authorize or deny:
