@@ -4,6 +4,7 @@ title: About marketing campaigns
 description: Define, optimize, execute and analyse marketing campaigns
 role: User
 feature: Campaigns
+exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
 ---
 # About marketing campaigns{#designing-marketing-campaigns}
 

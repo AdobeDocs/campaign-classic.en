@@ -3,6 +3,7 @@ product: campaign
 title: About workflows
 description: Automate processes with workflows, manage data and audiences, send messages, and more
 feature: Workflows, Data Management
+exl-id: 024a7344-9376-4ff3-926a-003148229f9f
 ---
 # Get started with workflows{#gs-workflows}
 

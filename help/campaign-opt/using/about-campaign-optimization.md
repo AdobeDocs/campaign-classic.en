@@ -4,6 +4,7 @@ title: About campaign typologies
 description: About campaign typologies
 role: User, Data Engineer
 feature: Typology Rules, Campaigns
+exl-id: b500bde4-6c81-4420-b1bf-e8eff1c53877
 ---
 # About campaign typologies{#about-campaign-typologies}
 
