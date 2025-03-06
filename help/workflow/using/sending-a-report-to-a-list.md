@@ -3,6 +3,8 @@ product: campaign
 title: Send a report to a list
 description: Learn how to send a report to a list with a workflow
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 ---
 # Send a report to a list{#sending-a-report-to-a-list}

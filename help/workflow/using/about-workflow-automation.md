@@ -3,9 +3,6 @@ product: campaign
 title: About workflows
 description: Automate processes with workflows, manage data and audiences, send messages, and more
 feature: Workflows, Data Management
-hide: yes
-hidefromtoc: yes
-exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
 ---
 # Get started with workflows{#gs-workflows}
 
@@ -20,6 +17,12 @@ You can use a workflow, for example, to download a file from a server, decompres
 A workflow can also involve one or more operators to be notified or who can make choices and approve processes. In this way, it is possible to create a delivery action, assign a task to one or more operators to work on content, specify targets, and to approve proofs before starting the delivery.
 
 Workflows occur within various contexts and stages of the campaign management process.
+
+>[!NOTE]
+>
+>To learn more about workflows management, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target=_blank}.
+
+<!--
 
 Adobe Campaign uses workflows to:
 
@@ -72,3 +75,5 @@ Refer to these sections to find guidance and best practices to automate processe
 * Find guidance about workflow execution in [this section](starting-a-workflow.md).
 * Learn how to monitor workflows in [this page](monitoring-workflow-execution.md).
 * Learn how to grant access to users to use workflows in [this page](managing-rights.md).
+
+-->

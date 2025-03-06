@@ -3,6 +3,8 @@ product: campaign
 title: Exclusion
 description: Learn more about the Exclusion workflow activity
 feature: Workflows, Targeting Activity
+hide: yes
+hidefromtoc: yes
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
 ---
 # Exclusion{#exclusion}

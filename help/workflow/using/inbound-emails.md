@@ -3,6 +3,8 @@ product: campaign
 title: Inbound Emails
 description: Learn more about the Inbound Emails workflow activity
 feature: Workflows, Channels Activity
+hide: yes
+hidefromtoc: yes
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 ---
 # Inbound Emails{#inbound-emails}

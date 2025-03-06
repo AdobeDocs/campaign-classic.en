@@ -3,6 +3,8 @@ product: campaign
 title: Supervising workflows
 description: Learn how to supervise Campaign workflows
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 ---
 # Use case: supervise your workflows{#supervising-workflows}

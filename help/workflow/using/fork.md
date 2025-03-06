@@ -3,6 +3,8 @@ product: campaign
 title: Fork
 description: Learn more about the Fork workflow activity
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 ---
 # Fork{#fork}

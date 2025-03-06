@@ -3,6 +3,8 @@ product: campaign
 title: Cells
 description: Cells
 feature: Workflows, Targeting Activity
+hide: yes
+hidefromtoc: yes
 exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
 ---
 # Cells{#cells}

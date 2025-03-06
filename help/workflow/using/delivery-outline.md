@@ -3,6 +3,8 @@ product: campaign
 title: Delivery outline
 description: Learn more about the Delivery outline workflow activity
 feature: Workflows, Targeting Activity
+hide: yes
+hidefromtoc: yes
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 ---
 # Delivery outline{#delivery-outline}

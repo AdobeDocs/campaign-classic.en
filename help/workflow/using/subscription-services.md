@@ -3,6 +3,8 @@ product: campaign
 title: Subscription Services
 description: Learn more about the Subscription Services workflow activity
 feature: Workflows, Targeting Activity, Subscription Services Activity
+hide: yes
+hidefromtoc: yes
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
 ---
 # Subscription Services{#subscription-services}

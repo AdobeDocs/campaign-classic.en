@@ -3,6 +3,8 @@ product: campaign
 title: Sub-workflow
 description: Learn more about the Sub-workflow activity
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 ---
 # Sub-workflow{#sub-workflow}

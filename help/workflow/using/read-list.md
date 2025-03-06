@@ -3,6 +3,8 @@ product: campaign
 title: Read list
 description: Learn more about the Read list workflow activity
 feature: Workflows, Targeting Activity
+hide: yes
+hidefromtoc: yes
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 ---
 # Read list{#read-list}

@@ -3,6 +3,8 @@ product: campaign
 title: Scheduler
 description: Learn more about the Scheduler workflow activity
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 ---
 # Scheduler {#scheduler}

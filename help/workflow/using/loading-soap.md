@@ -3,6 +3,8 @@ product: campaign
 title: Loading (SOAP)
 description: Loading (SOAP)
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 ---
 # Loading (SOAP){#loading-soap}

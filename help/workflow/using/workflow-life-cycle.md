@@ -3,6 +3,8 @@ product: campaign
 title: Workflow life cycle
 description: Learn more about the life cycle of a workflow
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 ---
 # Workflow life cycle {#workflow-life-cycle}

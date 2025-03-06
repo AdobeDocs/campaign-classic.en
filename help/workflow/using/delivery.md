@@ -3,6 +3,8 @@ product: campaign
 title: Delivery
 description: Learn more about the Delivery-type workflow activity
 feature: Workflows, Channels Activity
+hide: yes
+hidefromtoc: yes
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
 ---
 # Delivery{#delivery}

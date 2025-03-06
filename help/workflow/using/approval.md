@@ -3,6 +3,8 @@ product: campaign
 title: Approval
 description: Approval
 feature: Workflows, Approvals
+hide: yes
+hidefromtoc: yes
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 ---
 # Approval{#approval}

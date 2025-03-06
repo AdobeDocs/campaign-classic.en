@@ -3,6 +3,8 @@ product: campaign
 title: Query using a many-to-many relationship
 description: Learn how to perform queries using a many-to-many relationship
 feature: Query Editor, Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 ---
 # Query using a many-to-many relationship {#querying-using-a-many-to-many-relationship}

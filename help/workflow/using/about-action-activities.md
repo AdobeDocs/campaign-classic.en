@@ -3,6 +3,8 @@ product: campaign
 title: About action activities
 description: About action activities
 feature: Workflows, Data Management
+hide: yes
+hidefromtoc: yes
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
 ---
 # Action activities in workflows{#about-action-activities}

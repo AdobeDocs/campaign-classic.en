@@ -2,6 +2,8 @@
 product: campaign
 title: Message Center (Execution)
 description: Message Center (Execution)
+hide: yes
+hidefromtoc: yes
 feature: Workflows
 ---
 

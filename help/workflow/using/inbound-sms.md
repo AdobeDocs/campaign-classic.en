@@ -3,6 +3,8 @@ product: campaign
 title: Inbound SMS
 description: Learn more about the Inbound SMS workflow activity
 feature: Workflows, Channels Activity
+hide: yes
+hidefromtoc: yes
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 ---
 # Inbound SMS {#inbound-sms}

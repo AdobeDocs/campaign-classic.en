@@ -3,6 +3,8 @@ product: campaign
 title: Access an external database (FDA)
 description: Access an external database (FDA)
 feature: Workflows, Data Management, Federated Data Access
+hide: yes
+hidefromtoc: yes
 exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f
 ---
 # Access an external database (FDA){#accessing-an-external-database-fda}

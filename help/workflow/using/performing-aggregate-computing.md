@@ -3,6 +3,8 @@ product: campaign
 title: Performing aggregate computing
 description: Learn how to perform aggregate computing in queries
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 ---
 # Performing aggregate computing {#performing-aggregate-computing}

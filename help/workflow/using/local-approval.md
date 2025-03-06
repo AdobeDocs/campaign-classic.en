@@ -3,6 +3,8 @@ product: campaign
 title: Local approval
 description: Local approval
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
 ---
 # Local approval{#local-approval}

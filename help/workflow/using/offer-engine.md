@@ -3,6 +3,8 @@ product: campaign
 title: Offer engine
 description: Offer engine
 feature: Workflows, Interaction
+hide: yes
+hidefromtoc: yes
 exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
 ---
 # Offer engine{#offer-engine}

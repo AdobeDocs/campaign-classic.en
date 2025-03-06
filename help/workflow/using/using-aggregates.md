@@ -3,6 +3,8 @@ product: campaign
 title: Use aggregates
 description: Learn how to use aggregates
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 ---
 # Use aggregates{#using-aggregates}

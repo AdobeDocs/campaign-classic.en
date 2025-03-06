@@ -3,6 +3,8 @@ product: campaign
 title: Change dimension
 description: Change dimension
 feature: Workflows, Targeting Activity
+hide: yes
+hidefromtoc: yes
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 ---
 # Change dimension{#change-dimension}

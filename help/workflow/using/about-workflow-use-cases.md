@@ -3,6 +3,8 @@ product: campaign
 title: About workflow use cases
 description: Learn more on use cases that you can perform using Campaign Classic workflows
 feature: Workflows, Data Management
+hide: yes
+hidefromtoc: yes
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 ---
 # Workflow use cases {#about-workflow-use-cases}

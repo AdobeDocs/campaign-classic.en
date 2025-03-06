@@ -3,6 +3,8 @@ product: campaign
 title: Load delivery content
 description: Loading delivery content
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 ---
 # Load delivery content{#loading-delivery-content}

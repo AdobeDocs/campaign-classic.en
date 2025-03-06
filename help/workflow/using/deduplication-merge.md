@@ -2,6 +2,8 @@
 title: Use the Deduplication activity's Merge functionality
 description: Learn how to use the Deduplication activity's Merge functionality
 feature: Workflows, Data Management
+hide: yes
+hidefromtoc: yes
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 ---
 # Use the Deduplication activity's Merge functionality {#deduplication-merge}

@@ -3,6 +3,8 @@ product: campaign
 title: Workflow properties
 description: Learn more about Campaign Workflow properties
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 ---
 # Workflow properties{#workflow-properties}

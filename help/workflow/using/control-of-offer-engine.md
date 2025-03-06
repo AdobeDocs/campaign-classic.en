@@ -3,6 +3,8 @@ product: campaign
 title: Control of offer engine
 description: Control of offer engine
 feature: Workflows, Offers
+hide: yes
+hidefromtoc: yes
 topic-tags: technical-workflows
 ---
 

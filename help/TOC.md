@@ -387,6 +387,7 @@ type: Documentation
        + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
 + Automate with workflows {#automating-with-workflows}
+  + [About workflow automation](workflow/using/about-workflow-automation.md)
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)

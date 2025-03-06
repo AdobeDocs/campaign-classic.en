@@ -3,6 +3,8 @@ product: campaign
 title: Technical workflows
 description: Learn more about the technical workflows available with Campaign Classic packages
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 ---
 # Technical workflows{#about-technical-workflows}

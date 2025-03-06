@@ -2,6 +2,8 @@
 product: campaign
 title: Interaction
 description: Interaction
+hide: yes
+hidefromtoc: yes
 feature: Workflows, Interaction, Offers
 ---
 

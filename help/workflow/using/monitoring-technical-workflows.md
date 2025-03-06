@@ -3,6 +3,8 @@ product: campaign
 title: Monitor technical workflows
 description: Monitor technical workflows
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 ---
 # Monitor technical workflows {#monitoring-technical-workflows}

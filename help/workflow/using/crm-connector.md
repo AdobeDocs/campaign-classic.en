@@ -2,6 +2,8 @@
 title: CRM Connector
 description: Learn more about the CRM Connector and configure data synchronization
 feature: Workflows, Data Management
+hide: yes
+hidefromtoc: yes
 exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
 ---
 # CRM Connector{#crm-connector}

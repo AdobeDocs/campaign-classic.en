@@ -3,6 +3,8 @@ product: campaign
 title: Advanced parameters
 description: Advanced parameters
 feature: Workflows, Data Management
+hide: yes
+hidefromtoc: yes
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 ---
 # Advanced parameters{#advanced-parameters}

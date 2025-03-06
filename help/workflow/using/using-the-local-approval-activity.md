@@ -3,6 +3,8 @@ product: campaign
 title: Use the local approval activity
 description: Learn how to use the local approval activity
 feature: Workflows
+hide: yes
+hidefromtoc: yes
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 ---
 # Use the local approval activity{#using-the-local-approval-activity}

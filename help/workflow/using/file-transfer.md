@@ -3,6 +3,8 @@ product: campaign
 title: File transfer
 description: Learn more about the File transfer workflow activity
 feature: Workflows, Data Management
+hide: yes
+hidefromtoc: yes
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 ---
 # File transfer{#file-transfer}
