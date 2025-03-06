@@ -4,6 +4,8 @@ title: Create marketing campaigns
 description: Learn how to create and execute marketing campaigns
 role: User
 feature: Campaigns, Cross Channel Orchestration, Programs
+hide: yes
+hidefromtoc: yes
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 ---
 # Get started with marketing campaigns{#setting-up-marketing-campaigns}

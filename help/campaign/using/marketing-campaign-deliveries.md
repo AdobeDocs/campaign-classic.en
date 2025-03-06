@@ -4,6 +4,8 @@ title: Marketing campaign deliveries
 description: Learn more about marketing campaign deliveries
 role: User
 feature: Campaigns, Resource Management, Cross Channel Orchestration
+hide: yes
+hidefromtoc: yes
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 ---
 # Marketing campaign deliveries {#marketing-campaign-deliveries}

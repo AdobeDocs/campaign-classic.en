@@ -4,6 +4,8 @@ title: Marketing campaign templates
 description: Marketing campaign templates
 role: User
 feature: Campaigns, Templates
+hide: yes
+hidefromtoc: yes
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 ---
 # Create and configure campaign templates {#campaign-templates}

@@ -4,6 +4,8 @@ title: Set up and manage the approval process
 description: Learn how to manage approvals of marketing campaigns
 role: User
 feature: Approvals, Campaigns
+hide: yes
+hidefromtoc: yes
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 ---
 # Set up and manage the approval process {#approving-marketing-campaigns}

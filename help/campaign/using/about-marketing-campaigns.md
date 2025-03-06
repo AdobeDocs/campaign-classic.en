@@ -1,15 +1,22 @@
 ---
 product: campaign
-title: Design and execute marketing campaigns
+title: About marketing campaigns
 description: Define, optimize, execute and analyse marketing campaigns
 role: User
 feature: Campaigns
-hide: yes
-hidefromtoc: yes
-exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 ---
-# Design and execute marketing campaigns{#designing-marketing-campaigns}
+# About marketing campaigns{#designing-marketing-campaigns}
 
+Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels. You can create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. 
+
+Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
+
+>[!NOTE]
+>
+>To learn more about campaign management, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
+
+
+<!--
 
 Adobe Campaign lets you define, optimize, execute and analyze communications and marketing campaigns. Adobe Campaign acts like a unified order and execution center for marketing strategies. For more on this, refer to [Access campaigns](../../distributed/using/accessing-campaigns.md) and [Create marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
 
@@ -65,3 +72,5 @@ This video presents the key concepts of marketing campaigns.
 >[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
+-->

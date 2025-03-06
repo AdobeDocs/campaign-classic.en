@@ -4,6 +4,8 @@ title: Access marketing campaigns
 description: Access marketing campaigns
 role: User
 feature: Campaigns, Cross Channel Orchestration
+hide: yes
+hidefromtoc: yes
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 ---
 # Accessing marketing campaigns{#accessing-marketing-campaigns}
