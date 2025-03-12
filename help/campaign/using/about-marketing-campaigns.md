@@ -5,17 +5,35 @@ description: Define, optimize, execute and analyse marketing campaigns
 role: User
 feature: Campaigns
 exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
+
 ---
-# About marketing campaigns{#designing-marketing-campaigns}
+# Orchestrate marketing campaigns{#designing-marketing-campaigns}
 
 Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels. You can create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. 
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 
->[!NOTE]
->
->To learn more about campaign management, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
+To learn more about campaign management, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}. 
 
+![](assets/do-not-localize/campaign.jpg){width="40%"}
+
+Learn the key steps related to campaign management:
+
+* [Get started](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html){target=_blank}: Discover, step-by-step, how to create and execute a marketing campaign in Adobe Campaign.
+
+* [Create your first campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html){target=_blank}: Learn how to schedule and set up the logic to orchestrate your campaigns. A campaign centralizes all the elements related to a marketing campaign: deliveries, targeting rules, costs, export files, related documents, etc.
+
+* [Send messages in a campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target=_blank}: Orchestrate your cross channel deliveries in your campaigns: streamline your communications with Adobe Campaign through personalised emails, SMS, push notifications and in-app messages.
+
+![](assets/do-not-localize/add-on.jpg){width="40%"}
+
+Three add-ons are available for campaign management:
+
+* [Campaign Optimization](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target=_blank}: This module lets you control, filter and monitor the sending of deliveries. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
+
+* [Marketing Resource Management](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target=_blank}: This module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved.
+
+* [Distributed Marketing](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target=_blank}: This module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved.
 
 <!--
 

@@ -231,8 +231,8 @@ type: Documentation
        + [Use a content template](delivery/using/using-a-content-template.md)
        + [Enrich content](delivery/using/enriching-content.md)
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
++ [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
 + Orchestrate marketing campaigns {#orchestrating-campaigns}
-  + [About marketing campaigns](campaign/using/about-marketing-campaigns.md)
   + [About Campaign Optimization](campaign-opt/using/about-campaign-optimization.md)
   + About marketing campaigns {#about-marketing-campaigns}
        + [Designing marketing campaigns](campaign/using/designing-marketing-campaigns.md)
@@ -386,8 +386,8 @@ type: Documentation
        + [Synchronize audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
++ [Automate with workflows](workflow/using/about-workflow-automation.md)
 + Automate with workflows {#automating-with-workflows}
-  + [About workflow automation](workflow/using/about-workflow-automation.md)
   + Get started with workflows {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)

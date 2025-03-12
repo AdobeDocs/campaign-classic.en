@@ -14,9 +14,13 @@ Campaign Optimization is the Adobe Campaign module which lets you control, filte
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#typologies-video)
 
+Depending on your offering, Campaign Optimization can be included or an add-on. Please check your license agreement.
+
 >[!NOTE]
 >
->Depending on your offering, Campaign Optimization can be included or an add-on. Please check your license agreement.
+>To learn more about Campaign Optimization for Adobe Campaign and how to use it, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target=_blank}.
+
+<!--
 
 ## Typology rules {#typology-rules}
 
@@ -77,3 +81,4 @@ Additional Campaign how-to videos are available [here](https://experienceleague.
 
 * [Get started with typologies and fatigue management](pressure-rules.md)
 
+-->

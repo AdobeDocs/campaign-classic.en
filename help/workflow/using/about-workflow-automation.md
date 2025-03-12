@@ -4,12 +4,9 @@ title: About workflows
 description: Automate processes with workflows, manage data and audiences, send messages, and more
 feature: Workflows, Data Management
 exl-id: 024a7344-9376-4ff3-926a-003148229f9f
+
 ---
-# Get started with workflows{#gs-workflows}
-
-
-
-## About workflows{#about-workflows}
+# Automate with workflows {#gs-workflows}
 
 Adobe Campaign includes a workflow module that empowers you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
 
@@ -19,9 +16,21 @@ A workflow can also involve one or more operators to be notified or who can make
 
 Workflows occur within various contexts and stages of the campaign management process.
 
->[!NOTE]
->
->To learn more about workflows management, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target=_blank}.
+To learn more about workflows management, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target=_blank}.
+
+![](assets/do-not-localize/workflow.jpg){width="40%"}
+
+Learn the key steps related to workflow management:
+
+* [Workflow activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target=_blank}: An activity describes a task template. Worflows include targeting, flow control, action and event activities. 
+
+* [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target=_blank}: Learn how to create and run targeting, campaign and technical workflows. 
+
+* [Best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target=_blank}: Learn about the guidelines to optimize Campaign workflow performance, improve your workflow design and select the correct settings.
+
+* [Monitor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target=_blank}: Learn how to monitor workflow execution to ensure that everything is running correctly.
+
+* [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}: Learn different contexts in which workflows can be used and how to implement them through end-to-end use cases.
 
 <!--
 
