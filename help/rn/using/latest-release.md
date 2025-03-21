@@ -11,49 +11,41 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-## Release 7.4.1 - Build 9383 {#release-7-4-1}
+## Release 7.4.2 - Build 9390 {#release-7-4-2}
 
-[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
 
-_June 18, 2024_
+_March 21, 2025_
 
-### Changes and improvements {#release-7-4-1-changes}
+>[!AVAILABILITY]
+>
+>This release is in **Limited Availability** (LA). It is restricted to Hosted/Managed services users only. This release will soon be available for hybrid and on-premise customers.
 
-* With the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. If you have implemented outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth before January 27, 2025. [Learn more](../../integrations/using/oauth-technical-account.md)
+<!--
+### Compatibility updates {#comp-7-4-2}
 
-* Once you have [migrated your Campaign technical operators to Developer Console](../../technotes/using/ims-migration.md) and [transitioned to IMS for end-user authentication](../../technotes/using/migrate-users-to-ims.md), you can now enable the user interface and API restrictions to remove options and capabilities which are specific to native authentication. [Learn more](../../technotes/using/impact-ims-migration.md)
+This release comes with the following compatibility updates:
 
+* JQuery library update: fixes multiple UI issues (reports, web apps)
+* PostgreSQL 15 and 16
 
-### Compatibility updates {#release-7-4-1-compat}
+--> 
 
-The [compatibility matrix for Adobe Campaign](compatibility-matrix.md) has been updated with changes coming with this new release, and listed below.
+### Security improvements {#security-7-4-2}
 
-* Adobe Campaign is now compatible with **Microsoft Server 2022** as operating system.
-* Adobe Campaign is now compatible with **RHEL 9** as operating system.
+This release comes with several security fixes.
 
-    >[!CAUTION]
-    >
-    >As an on-premise customer using RHEL 9, if you want to use DKIM (Domain Keys Identified Mail) authentication, you must update your system settings as detailed in [this section](../../installation/using/installing-packages-with-linux.md#rhel-9-update).
+Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experience Cloud]** external account has been updated to reinforce security.
 
+### Fixes {#release-7-4-2-fixes}
 
-* Adobe Campaign is now compatible with **Microsoft SQL Server 2022** and **Oracle 23c** as Relation Database Management Systems, and in Federated Data Access (FDA).
+This release comes with the following main fixes:
 
-* Adobe Campaign now requires at least a Java Development Kit (JDK) 11. On Windows, the JRE must be available as described in [this section](../../installation/using/application-server.md#jdk).
+* TLS / SMPP connection fixes
+* Google BigQuery fixes
+* MTA fixes
 
-* The Campaign (Neolane) SDK for mobile applications is now deprecated. You must now transition to Adobe Experience Platform SDK. [Learn more](deprecated-features.md).
-    
-    In the meantime, to ensure service continuity, Campaign v7.4 comes with:
-    
-    * a new Campaign SDK 1.0.27 for iOS, compatible with iOS 16 and 17, and the latest [Apple iOS Privacy Request requirements](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
-    * a new Campaign SDK for Android 14.
+The following issues are also fixed in this release:
 
-### Other changes {#release-7-4-1-other}
-
-Starting v7.4.1, XML libraries for RPM Linux packages are no longer included in Campaign. As an on-premise or hybrid customer, your Administrator must install these librairies. [Learn more](../../installation/using/installing-packages-with-linux.md)
-
-### Patches {#release-7-4-1-patches}
-
-This release comes with the following fixes:
-
-NEO-74754, NEO-73174, NEO-72504, NEO-71534, NEO-71473, NEO-70195, NEO-69663, NEO-69651, NEO-67620, NEO-67235, NEO-66797, NEO-64680, NEO-63706, NEO-63657, NEO-62964, NEO-62575, NEO-58734, NEO-40531, NEO-36189, NEO-29592 
-
+NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-80683, NEO-81222, NEO-81433, NEO-81864, NEO-82351, NEO-82781, NEO-82838, NEO-82923, NEO-83252, NEO-83809, NEO-83826, NEO-84024, NEO-84553, NEO-85150
+ 
