@@ -19,7 +19,7 @@ _March 21, 2025_
 
 >[!AVAILABILITY]
 >
->This release is in **Limited Availability** (LA). It is restricted to Hosted/Managed services users only. This release will soon be available for hybrid and on-premise customers.
+>This release is in **Limited Availability** (LA). It is restricted to Hosted/Managed services users only. This release will soon be available for hybrid and on-premise customers. 
 
 <!--
 ### Compatibility updates {#comp-7-4-2}
