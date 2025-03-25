@@ -41,9 +41,19 @@ Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experie
 
 This release comes with the following main fixes:
 
-* TLS / SMPP connection fixes
-* Google BigQuery fixes
-* MTA fixes
+* TLS / SMPP connection - Fixed SMPP stability issues
+
+* Google BigQuery fixes:
+
+    * Fixed regressions on BOOLEAN data types
+    * Fixed proxy settings issues
+    * Fixed regressions on DATETIME data types
+    * Fixed bulk load stability
+    * Improved internal tests on ODBC versions
+    * Fixed an issue with special characters on connection string
+    * Removed default timeout (5min) on Google BigQuery queries
+
+* Mail Transfer Agent (MTA) - Fixed orphan MTA child to be stuck on **[!UICONTROL Start pending]** status.
 
 The following issues are also fixed in this release:
 
