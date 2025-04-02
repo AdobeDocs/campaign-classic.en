@@ -17,10 +17,6 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 _April 2, 2025_ 
 
->[!AVAILABILITY]
->
->This release is in **Limited Availability** (LA). It is restricted to Hosted/Managed services users only. This release will soon be available for hybrid and on-premise customers. 
-
 <!--
 ### Compatibility updates {#comp-7-4-2}
 
