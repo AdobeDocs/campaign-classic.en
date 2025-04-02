@@ -13,9 +13,9 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.2 - Build 9390 {#release-7-4-2}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
-_March 21, 2025_
+_April 2, 2025_
 
 >[!AVAILABILITY]
 >
