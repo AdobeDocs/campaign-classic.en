@@ -15,7 +15,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
-_April 2, 2025_
+_April 2, 2025_ 
 
 >[!AVAILABILITY]
 >
