@@ -233,7 +233,6 @@ type: Documentation
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
 + [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
 + Orchestrate marketing campaigns {#orchestrating-campaigns}
-     + [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
      + [About Campaign Optimization](campaign-opt/using/about-campaign-optimization.md)
      + About marketing campaigns {#about-marketing-campaigns}
        + [Designing marketing campaigns](campaign/using/designing-marketing-campaigns.md)
