@@ -231,6 +231,7 @@ type: Documentation
        + [Use a content template](delivery/using/using-a-content-template.md)
        + [Enrich content](delivery/using/enriching-content.md)
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
++ [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
 + Orchestrate marketing campaigns {#orchestrating-campaigns}
      + [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
      + [About Campaign Optimization](campaign-opt/using/about-campaign-optimization.md)
