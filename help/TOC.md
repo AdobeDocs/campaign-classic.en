@@ -232,12 +232,11 @@ type: Documentation
        + [Enrich content](delivery/using/enriching-content.md)
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
 + [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
-+ Orchestrate marketing campaigns {#orchestrating-campaigns}
   + [About Campaign Optimization](campaign-opt/using/about-campaign-optimization.md)
-  + About marketing campaigns {#about-marketing-campaigns}
+     + About marketing campaigns {#about-marketing-campaigns}
        + [Designing marketing campaigns](campaign/using/designing-marketing-campaigns.md)
        + [Access marketing campaigns](campaign/using/accessing-marketing-campaigns.md)  
-  + Orchestrate campaigns {#orchestrate-campaigns}
+     + Orchestrate campaigns {#orchestrate-campaigns}
        + [Get started with marketing campaigns](campaign/using/setting-up-marketing-campaigns.md)
        + [Create and configure templates](campaign/using/marketing-campaign-templates.md)
        + [Add deliveries](campaign/using/marketing-campaign-deliveries.md)
@@ -246,7 +245,7 @@ type: Documentation
        + [Set up and manage approvals](campaign/using/marketing-campaign-approval.md)
        + [Monitor your campaigns](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers-stocks-and-budgets.md)
-    + Campaign optimization {#campaign-optimization}
+     + Campaign optimization {#campaign-optimization}
        + [About campaign typologies](campaign-opt/using/about-campaign-typologies.md)
        + [Pressure rules](campaign-opt/using/pressure-rules.md)
        + [Consistency rules](campaign-opt/using/consistency-rules.md)
