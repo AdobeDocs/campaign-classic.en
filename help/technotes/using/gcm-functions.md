@@ -3,6 +3,7 @@ product: campaign
 title: New GCM based functions
 description: New GCM based functions
 feature: Technote
+exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
 ---
 # GCM based functions {#new-functions}
  
