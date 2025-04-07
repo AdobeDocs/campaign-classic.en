@@ -31,7 +31,7 @@ When managing files and data for ETL purposes, these files are stored on a hoste
 
 SFTP severs are designed to be temporary storage spaces on which you can control retention and deletion of files.
 
-When not correctly used or monitored, these spaces can quickly fill the physical space available on the server and lead to files being truncated on subsequent uploads. Once the space saturated, automatic purge may trigger and erase oldest files from the SFTP storage.
+When not correctly used or monitored, these spaces can quickly fill the physical space available on the server and lead to files being truncated on subsequent uploads. In Adobe-hosted SFTP servers, files are compressed if the SFTP storage reaches a 80% threshold. The process is automatic and triggered by Adobe monitoring system.
 
 To avoid such problems, Adobe recommends following the best practices below.
 

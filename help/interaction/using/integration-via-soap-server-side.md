@@ -46,10 +46,17 @@ Add the **nms:interaction#UpdateStatus** command to the URL, followed by these p
 
 ## Example using a SOAP call {#example-using-a-soap-call}
 
-Here is an example of code for a SOAP call:
+You will find below an example of code for a SOAP call.
+
+Here is an example of URL: 
+
+```
+http://<urlOfYourJSSP>?env=liveRcp&sp=<nameSpaceOfferSpace>&t=<targetID>
+```
 
 ```
 <%
+  var env = request.getUTF8Parameter("env");
   var space = request.parameters.sp
   var cnx = new HttpSoapConnection(
     "https://" + request.serverName + ":" + request.serverPort + "/interaction/" + env + "/" + space,
@@ -98,7 +105,7 @@ Here is an example of code for a SOAP call:
       var result = session.Propose(target, count, category, theme, <empty/>)
       var props = result[1]
   %><table><tr><%
-      for each( var propHtml in props.proposition.*.mdSource )
+      for each( var propHtml in props.proposition.*.htmlSource )
       {
         %><td><%=propHtml%></td><%
       }

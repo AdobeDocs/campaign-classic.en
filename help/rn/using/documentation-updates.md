@@ -13,6 +13,17 @@ This page lists all the new features and documentation updates per month and Cam
 
 Refer to the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for release related updates.
 
+## 2025
+
+### March 2025 {#march-2025}
+
+As part of a Campaign v8 promotion initiative, we have started reorganizing the Campaign Classic documentation set. In 7.4.2, we are releasing the first milestone. The following guides have been replaced with landing pages including links to v8 documentation:
+
+* Orchestrate marketing campaigns: this guide has been replaced with a [landing page](../../campaign/using/about-marketing-campaigns.md). 
+* Marketing Resource Management: this guide has been removed.
+* Distributed Marketing: this guide has been removed. 
+* Automate with workflows: this guide has been replaced with a [landing page](../../workflow/using/about-workflow-automation.md)
+
 ## 2024
 
 ### Sept 2024 {#sept-2024}

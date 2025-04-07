@@ -161,3 +161,13 @@ To change the **internal** password: **nlserver config -internalpassword**
 >
 >  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >
+
+Here is an example for MSSQL:
+
+```sql
+nlserver config -setdblogin:mssql:<login>/"<password>"@<server> -instance:<instance_name> 
+```
+
+* login (e.g. account:user), and server can be found in the dataSource node of the config-<instance_name>.xml file.
+* Password must be wrapped with quotes "".
+

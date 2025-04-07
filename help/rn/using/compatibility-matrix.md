@@ -164,6 +164,7 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 </td>
 <td>
 <p>23c</p>
+<p>21c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
@@ -330,6 +331,7 @@ In addition, **Hybrid** and **On-premise** environments can also connect Campaig
 <td>Oracle</td>
 <td>
 <p>23c</p>
+<p>21c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
