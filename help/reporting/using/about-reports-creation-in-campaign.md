@@ -3,6 +3,7 @@ product: campaign
 title: Key steps to create a report
 description: Learn key steps to create a report
 feature: Reporting, Monitoring
+level: Intermediate, Experienced
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 ---

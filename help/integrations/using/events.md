@@ -6,6 +6,7 @@ feature: Triggers
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 ---
 # Configuring events for custom implementation {#events}
@@ -109,7 +110,7 @@ Example:
 
 The events are processed one at a time, by order of offset. Each thread of the [!DNL pipelined] processes a different partition.
 
-The ‘offset’ of the last event retrieved is stored in the database. Therefore, if the process is stopped, it restarts from the last message. This data is stored in the built-in schema xtk:pipelineOffset.
+The 'offset' of the last event retrieved is stored in the database. Therefore, if the process is stopped, it restarts from the last message. This data is stored in the built-in schema xtk:pipelineOffset.
 
 This pointer is specific to each instance and each consumer. Therefore, when many instances access the same pipeline with different consumers, they each get all the messages and in the same order.
 

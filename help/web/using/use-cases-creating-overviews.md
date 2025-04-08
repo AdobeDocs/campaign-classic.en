@@ -4,6 +4,7 @@ title: "Use cases: create overviews"
 description: "Use cases: create overviews"
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
+level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 ---
 # Use cases: create overview pages{#use-cases-creating-overviews}

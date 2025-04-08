@@ -6,6 +6,7 @@ feature: Triggers
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 ---
 # Work with Campaign and Experience Cloud Triggers{#about-adobe-experience-triggers}

@@ -5,6 +5,7 @@ description: Developers FAQ
 feature: Troubleshooting, Configuration
 audience: platform
 content-type: reference
+level: Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
 ---

@@ -6,6 +6,7 @@ feature: Triggers
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 ---
 # Configure the pipeline {#configuring-pipeline}

@@ -3,7 +3,7 @@ product: campaign
 title: Create and configure your Adobe technical account for APIs
 description: Learn more on how to create your Adobe API account
 role: User, Admin
-level: Beginner
+level: Intermediate, Experienced
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
 ---
 # Create your Adobe technical account {#create-service-account}

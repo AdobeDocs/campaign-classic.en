@@ -5,6 +5,7 @@ description: Learn how to install and configure Campaign Classic
 feature: Installation, Architecture
 audience: installation
 content-type: reference
+level: Intermediate, Experienced
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 ---
@@ -48,7 +49,7 @@ The application can be accessed in different ways, depending on the users' needs
 
 ## Logical application layer {#logical-application-layer}
 
-Adobe Campaign is a single platform with different applications that combine to create an open and scalable architecture. The Adobe Campaign platform is written on a flexible application layer and is easily configurable to meet a company’s business needs. This accommodates the growing needs of the enterprise from a functional perspective as well as from a technical perspective. The distributed architecture ensures linear system scalability scaling from thousands of messages to millions of messages.
+Adobe Campaign is a single platform with different applications that combine to create an open and scalable architecture. The Adobe Campaign platform is written on a flexible application layer and is easily configurable to meet a company's business needs. This accommodates the growing needs of the enterprise from a functional perspective as well as from a technical perspective. The distributed architecture ensures linear system scalability scaling from thousands of messages to millions of messages.
 
 Adobe Campaign relies on a set of server-side processes that work together.
 

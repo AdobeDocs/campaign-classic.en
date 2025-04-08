@@ -4,6 +4,7 @@ title: Configure Campaign SMS channel on a mid-sourcing infrastructure
 description: Learn how to configure the SMS channel in Campaign on a mid-sourcing infrastructure
 feature: SMS
 role: User, Developer, Admin
+level: Experienced
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
 ---
 # Configure SMS channel on a mid-sourcing infrastructure {#setting-up-sms-channel}

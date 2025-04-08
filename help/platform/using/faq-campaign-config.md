@@ -5,6 +5,7 @@ description: Campaign Classic FAQ
 feature: Troubleshooting, Application Settings
 audience: platform
 content-type: reference
+level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 ---
@@ -80,7 +81,7 @@ Once you logged in, go to **[!UICONTROL File]** > **[!UICONTROL Clear the local 
 
 ![](assets/faq_soft_cache.png)
 
-If this still doesn’t help, please try clearing the Hard Cache by performing the below steps.
+If this still doesn't help, please try clearing the Hard Cache by performing the below steps.
 
 ## How to perform Hard Cache Clear when the issues are Machine-specific or User-specific? {#perform-hard-cache-clear}
 
