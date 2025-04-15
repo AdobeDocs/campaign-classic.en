@@ -14,7 +14,7 @@ Server-to-Server authentication credentials allow your application's server to g
 
 The Service Account (JWT) credential is being deprecated by Adobe. Campaign integrations with Adobe solutions and apps must now rely on OAuth Server-to-Server credential.
 
-If you have implemented inbound or outbound integrations with Campaign before June 2024, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**.
+If you have implemented inbound or outbound integrations with Campaign before June 2024, you must upgrade your Campaign environment to v7.4.1 and migrate your Technical Account to oAuth as detailed [in this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **June 30, 2025**.
 
 Once migration is done, you must associate your new credential to Campaign as explained in [this section](#add-credentials).
 
