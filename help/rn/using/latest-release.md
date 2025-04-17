@@ -33,7 +33,7 @@ This release comes with several security fixes.
 
 Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experience Cloud]** external account has been updated to reinforce security.
 
-### Fixes {#release-7-4-2-fixes}
+### Major fixes {#release-7-4-2-fixes}
 
 This release comes with the following main fixes:
 
@@ -50,6 +50,9 @@ This release comes with the following main fixes:
     * Removed default timeout (5min) on Google BigQuery queries
 
 * Mail Transfer Agent (MTA) - Fixed orphan MTA child to be stuck on **[!UICONTROL Start pending]** status.
+
+
+### Other fixes {#release-7-4-2-other-fixes}
 
 The following issues are also fixed in this release:
 
