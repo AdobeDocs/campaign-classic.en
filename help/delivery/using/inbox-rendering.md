@@ -84,7 +84,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 >* For the same delivery, if you generate the Inbox rendering again, the number of available tokens is again decreased by the number of generated renderings.
 >
 
-The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](#inbox-rendering-report).
+The number of remaining available tokens is displayed in the [Inbox rendering report](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -117,13 +117,13 @@ For more on creating, designing and targeting a delivery, refer to [this section
 
 This report displays the inbox renderings as they appear to the recipient. The renderings can differ based upon how the recipient opens the email delivery: in a browser, on a mobile device, or via an email application.
 
-The **[!UICONTROL General summary]** presents the number of messages received, unwanted (spam), not received, or pending reception, as a list and through a graphical color-coded representation.
+The top section presents the repartition of number of messages received, unwanted (spam), not received, or pending reception through a graphical color-coded representation.
 
-![](assets/s_tn_inbox_rendering_summary.png)
+![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
 
-Hover over the chart to display the details for each color.
+Hover over the chart to display the details for each color. Click on an item on the list to hide or display the corresponding category in the chart.
 
-The body of the report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. Scroll down the report to display all the renderings grouped into these three categories.
+The body of the report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]**, and **[!UICONTROL Webmails]**. Scroll down the report to display all the renderings grouped into these three categories.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
