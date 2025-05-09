@@ -80,6 +80,14 @@ The following issues are also fixed in this release:
 
 * Fixed an issue where event statuses were sent incorrectly while the broadlog was in a failed state. This enhancement ensures accurate event reporting. (NEO-80245)
 
+* POP3 OAuth refresh and access token are now saved in the database and `Authentication failure: unknown user name or bad password` error no longer appears after the refresh token has expired. (NEO-80683)
+
+* An option `XApiKey` is now used as a value for the client id to connect to Adobe Analytics instead of using the client id of the Marketing Cloud (MAC) external account. (NEO-80434)
+
+* Resolved an issue where inMail users encountered authentication errors due to token expiration. Users can now test the connection and restart the server to resolve similar issues. (NEO-80683)
+
+* Improved analytics API functionality by ensuring that all analytics calls use a consistent API key (Campaign1) for authentication, even when switching to a random client ID. This ensures seamless analytics tracking. (NEO-80434)
+
 * Enhanced the BigQuery Federated Data Access (FDA) connector by allowing users to adjust the timeout period for queries. This improvement prevents timeout errors during long-running queries. (NEO-81222)
 
 * Updated the Campaign <!--7.4.1--> release upgrade process to include required dependencies. This enhancement simplifies the upgrade process for users. (NEO-81433)
@@ -105,3 +113,4 @@ The following issues are also fixed in this release:
 * Implemented watchdog changes to address MTA child slot blockage caused by stuck processes. This enhancement ensures smooth delivery operations. (NEO-84553)
 
 * Augmented Javascript wait checks to address MTA child slot blockage caused by processes in a working state. This fix ensures stable delivery operations. (NEO-85150)
+
