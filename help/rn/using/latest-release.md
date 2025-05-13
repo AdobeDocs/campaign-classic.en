@@ -13,7 +13,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.2  {#release-7-4-2}
 
-### Build 9391 {#build-9391}
+### Build 9391 {#build-9391} 
 
 [!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
 
