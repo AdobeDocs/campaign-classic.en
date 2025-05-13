@@ -11,7 +11,20 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md). 
 
-## Release 7.4.2 - Build 9390 {#release-7-4-2}
+## Release 7.4.2  {#release-7-4-2}
+
+### Build 9391 {#build-9391}
+
+[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+
+_May 12, 2025_  
+
+This build includes the following fixes:
+
+* Fixed a postupgrade issue encountered in non-Oracle setups. (NEO-87012)
+* Fixed a TLS / HTTPS backend issue affecting both client console and server. (NEO-87432)
+
+### Build 9390 {#build-9390}
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
@@ -27,13 +40,13 @@ This release comes with the following compatibility updates:
 
 --> 
 
-### Security improvements {#security-7-4-2}
+**Security improvements**
 
 This release comes with several security fixes.
 
 Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experience Cloud]** external account has been updated to reinforce security.
 
-### Major fixes {#release-7-4-2-fixes}
+**Major fixes**
 
 This release comes with the following main fixes:
 
@@ -52,7 +65,7 @@ This release comes with the following main fixes:
 * Mail Transfer Agent (MTA) - Fixed orphan MTA child to be stuck on **[!UICONTROL Start pending]** status.
 
 
-### Other fixes {#release-7-4-2-other-fixes}
+**Other fixes**
 
 The following issues are also fixed in this release:
 
