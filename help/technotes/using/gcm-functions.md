@@ -33,7 +33,7 @@ Encrypts the character string with the instance key using AES algorithm with GCM
 ```
 
             String 
-            encrypted = Encrypt (
+            encrypted = EncryptString (
             String       
             decrypted
             
@@ -83,7 +83,7 @@ Encrypts a string of characters with the key of the instance or any other key.
 
 ```
 
-            cryptString (str [, key
+            encryptString (str [, key
       ] [, useSalt ])
          
 ```
@@ -124,7 +124,7 @@ Available in:
 
 ### decryptString() {#decryptString-javascript}
 
-Encrypts a string of characters with the key of the instance or any other key. This legacy function can be used with GCM. It is deprecated for decryption of cipher text that is encrypted using AES-CBC mode.
+Decrypts a string of characters with the key of the instance or any other key. This legacy function can be used with GCM. It is deprecated for decryption of cipher text that is encrypted using AES-CBC mode.
 
 ```
 
