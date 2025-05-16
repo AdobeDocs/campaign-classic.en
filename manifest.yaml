@@ -1,0 +1,6 @@
+type: navigation
+order: 1
+title: Campaign Classic Documentation
+pages:
+  - title: Campaign v7 documentation
+    url: /help/TOC.md
