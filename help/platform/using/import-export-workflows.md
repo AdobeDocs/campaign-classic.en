@@ -17,6 +17,12 @@ exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
 
 Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
 
+>[!NOTE]
+>
+>To learn more about importing and exporting data using workflows, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}.
+
+
+<!--
 ### Use data from a list: Read list {#using-data-from-a-list--read-list}
 
 The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
@@ -48,3 +54,4 @@ Once data has been collected you can use it in your workflows, for example to en
 Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 
 Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction-file.md).
+-->
