@@ -4,6 +4,8 @@ title: Validate the delivery
 description: Learn how to validate a delivery
 feature: Deliverability, Email Rendering, Proofs
 role: User
+hide: yes
+hidefromtoc: yes
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
 # Validate the delivery {#validating-the-delivery}
@@ -121,7 +123,7 @@ If a delivery is too large, it is better to assign a low priority to it in order
 
 ## Send a proof {#sending-a-proof}
 
-To detect possible errors in message configuration, Adobe highly recommend setting up a delivery validation cycle. Make sure content is approved as often as necessary by sending proofs to test recipients. A proof should be sent each time a change is made, to approve content.
+To detect possible errors in message configuration, Adobe highly recommends setting up a delivery validation cycle. Make sure content is approved as often as necessary by sending proofs to test recipients. A proof should be sent each time a change is made, to approve content.
 
 >[!NOTE]
 >

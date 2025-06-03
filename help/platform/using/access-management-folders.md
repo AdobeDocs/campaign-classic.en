@@ -14,6 +14,11 @@ exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 
 Each folder of the Explorer navigation tree has read, write, and delete access rights attached to it. To access a file, an operator or group of operators must at least have read access to it.
 
+>[!NOTE]
+>
+>To learn more about permissions on folders, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}.
+
+
 ## Folders and views {#folders-and-views}
 
 ### What is a folder {#about-folders}

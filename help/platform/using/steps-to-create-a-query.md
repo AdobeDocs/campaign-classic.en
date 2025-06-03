@@ -24,9 +24,11 @@ The steps for building a query in Adobe Campaign are as follows:
 
 >[!NOTE]
 >
->All these steps are available in the generic query editor. When a query is created in another context, some steps can be left out.  
+>* All these steps are available in the generic query editor. When a query is created in another context, some steps can be left out.  
 >The Query activity is presented in [this section](../../workflow/using/query.md).
+>* To learn more about Queries and how to create them, please refer to the [Campaign v8 documentation](../../workflow/using/query.md).
 
+<!--
 ## Step 1 - Choose a table {#step-1---choose-a-table}
 
 Select the table containing the data you want to query in the **[!UICONTROL Document type]** window. If necessary, filter the data using the filter field or the **[!UICONTROL Filters]** button.
@@ -134,3 +136,5 @@ In this example, data is sorted in ascending order based on recipient age.
 >[!NOTE]
 >
 >By default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**.
+
+-->

@@ -18,6 +18,11 @@ Campaign Client console is a rich client which enables you to connect to your Ca
 >
 >Check your system and tools compatibility with Adobe Campaign Client Console in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 
+>[!NOTE]
+>
+> To learn how to install and log on to Adobe Campaign, please refer to the detailed walkthrough on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}.
+
+<!--
 ## Start Adobe Campaign {#starting-adobe-campaign}
 
 You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.
@@ -40,7 +45,7 @@ You can also connect with a dedicated login/password:
 
    The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../platform/using/access-management.md).
 
-1. Click **[!UICONTROL LOG IN]** to confirm.<!--You can also press the **Enter** key to launch connection.-->
+1. Click **[!UICONTROL LOG IN]** to confirm.<!--You can also press the **Enter** key to launch connection.
 
 You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
 
@@ -101,3 +106,5 @@ Whenever you reach out to Adobe Customer Care team, you need to provide the vers
 * [Adobe Campaign Help and Support options](../../support.md)
 * [Adobe Campaign Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+
+-->

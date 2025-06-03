@@ -21,6 +21,12 @@ Data packages let entities of the Adobe Campaign database be displayed via files
 
 The principle of **data packages** is to export a data configuration and integrate it into another Adobe Campaign system. Learn how to maintain a consistent set of data packages in this [section](#data-package-best-practices).
 
+>[!NOTE]
+>
+>To learn more about data packages, please refer to the [Campaign v8 documentation.](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target=_blank}
+
+
+<!--
 ### Types of packages {#types-of-packages}
 
 There are three types of exportable packages: user packages, platform packages and admin packages.
@@ -44,36 +50,15 @@ The description of a data package is a structured XML document that complies wit
 
 Data package example:
 
-```
-<package>
-  <entities schema="nms:recipient">
-    <recipient email="john.smith@adobe.com" lastName="Smith" firstName="John">      
-      <folder _operation="none" name="nmsRootFolder"/>      
-      <company _operation="none" name="Adobe"/>
-    </recipient>
-  </entities>
-  <entities schema="sfa:company">
-    <company name="Adobe">
-      location city="London" zipCode="W11 2BQ"/>
-    </company>
-  </entities>
-</package>
-```
 
-The XML document must begin and end with the **`<package>`** element. Any **`<entities>`** elements that follow distribute the data by document type.
+The XML document must begin and end with the element. Any elements that follow distribute the data by document type.
 
-An **`<entities>`** element contains the data of the package in the format of the data schema entered in the **schema** attribute.
+An element contains the data of the package in the format of the data schema entered in the **schema** attribute.
 
 The data in a package must not contain internal keys that are not compatible between bases, such as auto-generated keys (**autopk** option).
 
 In our example, the joins on the "folder" and "company" links have been replaced by so-called "high level" keys on the destination tables:
 
-```
-<recipient>
-  <folder _operation="none" name="nmsRootFolder"/>
-  <company _operation="none" name="Adobe"/>
-</recipient>
-```
 
 The **`operation`** attribute with the value "none" defines a reconciliation link.
 
@@ -158,56 +143,7 @@ The task and the workflow are exported in the same package as the campaign since
 
 Package content:
 
-```
-
-<?xml version='1.0'?>
-<package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
-label="" name="" namespace="" vendor="">
- <desc></desc>
- <version buildDate="AAAA-MM-DD HH:MM:SS.954Z"/>
- <entities schema="nms:operation">
-  <operation duration="432000" end="AAAA-MM-DD" internalName="OP1" label="MyCampaign"
-  modelName="opEmpty" start="AAAA-MM-DD">
-   <controlGroup>
-    <where filteringSchema=""/>
-   </controlGroup>
-   <seedList>
-    <where filteringSchema="nms:seedMember"></where>
-    <seedMember internalName="SDM1"></seedMember>
-   </seedList>
-   <parameter useAsset="1" useBudget="1" useControlGroup="1" useDeliveryOutline="1"
-   useDocument="1" useFCPValidation="0" useSeedMember="1" useTask="1"
-   useValidation="1" useWorkflow="1"></parameter>
-   <fcpSeed>
-    <where filteringSchema="nms:seedMember"></where>
-   </fcpSeed>
-   <owner _operation="none" name="admin" type="0"/>
-   <program _operation="none" name="nmsOperations"/>
-   <task end="2023-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2023-01-16 10:07:51.000Z"
-   status="1">
-    <owner _operation="none" name="admin" type="0"/>
-    <operation _operation="none" internalName="OP1"/>
-    <folder _operation="none" name="nmsTask"/>
-   </task>
-   <workflow internalName="WKF12" label="CampaignWorkflow" modelName="newOpEmpty"
-   order="8982" scenario-cs="Notification of the workflow supervisor (notifySupervisor)"
-   schema="nms:recipient">
-    <scenario internalName="notifySupervisor"/>
-    <desc></desc>
-    <folder _operation="none" name="Folder4"/>
-    <operation _operation="none" internalName="OP1"/>
-   </workflow>
-  </operation>
- </entities>
-</package>   
-```
-
 Affiliation to a type of package is defined in a schema with the **@pkgAdmin and @pkgPlatform** attribute. Both these attributes receive an XTK expression that defines the conditions of affiliation to the package.
-
-```
-<element name="offerEnv" img="nms:offerEnv.png" 
-template="xtk:folder" pkgAdmin="@id != 0">
-```
 
 Finally, the **@pkgStatus** attribute enables you to define the export rules for these elements or attributes. Depending on the value of the attribute, the element or attribute will be found in the exported package. The three possible values for this attribute are:
 
@@ -349,7 +285,7 @@ Always import within the same version of the platform. You must check that you d
 >[!IMPORTANT]
 >
 >Importing between different versions is not supported by Adobe.
-<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.-->
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.
 
 Pay attention to the schema and database structure. Importation of package with schema must be followed by schema generation.
 
@@ -364,7 +300,7 @@ Start by defining different types of packages. Only four types will be used:
 * You can consider an entity as both an "admin" and "platform" element.
 * You should not include more than one entity in a package when uploading it on a Campaign instance.  
 
-<!--Nothing "works" alone. An entity package does not have a specific role or objective.-->
+<!--Nothing "works" alone. An entity package does not have a specific role or objective.
 
 If you need to deploy your configuration on a new instance, you can import all your entity packages.
 
@@ -450,3 +386,4 @@ You should also date the comment. Always report your comment on an update packag
 >[!IMPORTANT]
 >
 >The description field can only contain up to 2.000 characters.
+-->

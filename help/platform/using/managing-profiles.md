@@ -22,8 +22,11 @@ Each node coincides with a folder. The data from each folder must be considered 
 
 >[!NOTE]
 >
->To display the list of all recipients in the database, you must create a view. Learn more in [Folders and views](../../platform/using/access-management-folders.md).
+> * To display the list of all recipients in the database, you must create a view. Learn more in [Folders and views](../../platform/using/access-management-folders.md).
+> * To learn more on how to manage your profiles, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
+
+<!--
 ## Move recipients {#moving-recipients}
 
 You can select one or more recipients, drag them from the recipient list, and drop them in the desired folder. A warning message asks you to confirm this action.
@@ -43,3 +46,4 @@ To purge a folder, use the **[!UICONTROL Actions > Purge folder]** menu, accesse
 Click **[!UICONTROL Start]** to launch the operation. The middle section of the window displays the progress status, as shown below:
 
 ![](assets/s_ncs_user_purge_folder_start.png)
+-->

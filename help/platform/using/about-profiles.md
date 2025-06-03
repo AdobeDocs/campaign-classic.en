@@ -17,8 +17,13 @@ Profiles are centralized in the Adobe Campaign database. There are many possible
 
 In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-![](assets/do-not-localize/how-to-video.png) [Understand the concept of profiles in video](#create-profiles-video)
+![Video showing what profiles are and how they work](assets/do-not-localize/how-to-video.png) [Understand the concept of profiles in video](#create-profiles-video)
 
+>[!NOTE]
+>
+>To learn more about profile, how to create and edit them, please refer to the detailed documentation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}.
+
+<!--
 ## Profile types {#profile-types}
 
 Adobe Campaign lets you manage profiles throughout their entire lifecycle: creation, import, targeting, action tracking, updates, etc.
@@ -114,3 +119,5 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 * [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
 
 * [Select target mapping](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping)
+
+-->

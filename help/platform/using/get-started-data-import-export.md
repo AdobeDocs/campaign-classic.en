@@ -19,6 +19,12 @@ Adobe Campaign Classic provides data management capabilities that allow you to i
 >
 >Please keep in mind the SFTP storage, database storage and active profile limits as per your Adobe Campaign contract while using this functionality.
 
+>[!NOTE]
+>
+>To learn more on how to import and export data to Campaign, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target=_blank}.
+
+
+<!--
 ## Workflows {#workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
@@ -62,3 +68,4 @@ For more on this, refer to these sections:
 You should follow several [best practices](../../platform/using/import-export-best-practices.md) when performing import and export operations to ensure data consistency within the database and avoid common errors during update or export operations.
 
 Additionally, recommendations and common issues related to SFTP servers usage are available in [this section](../../platform/using/sftp-server-usage.md).
+-->

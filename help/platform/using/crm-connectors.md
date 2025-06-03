@@ -20,9 +20,10 @@ These connectors enable quick and easy data integration: Adobe Campaign provides
 
 >[!NOTE]
 >
->This feature is available in Adobe Campaign through the **CRM connectors** dedicated package.
+>* This feature is available in Adobe Campaign through the **CRM connectors** dedicated package.
+>* To learn more about CRM connectors, and how to connect to Microsoft Dynamics and Salesforce, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank}.
 
-
+<!--
 ### Compatible systems {#compatible-crm-systems-and-limitations}
 
 Supported CRM and versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
@@ -37,3 +38,5 @@ Learn step-by-step procedure to connect Campaign and Microsoft Dynamics [in this
 
 
 Learn step-by-step procedure to connect Campaign and Salesforce [in this section](../../platform/using/crm-sfdc.md)
+
+-->

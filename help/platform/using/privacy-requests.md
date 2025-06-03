@@ -31,8 +31,10 @@ Adobe Campaign offers Data Controllers two possibilities for performing Privacy 
 
 >[!NOTE]
 >
->For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Personal data and Personas](privacy-and-recommendations.md#personal-data).
+>* For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Personal data and Personas](privacy-and-recommendations.md#personal-data).
+>* To learn more about privacy requests, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy){target=_blank}.
 
+<!--
 ## Prerequisites {#prerequesites}
 
 Adobe Campaign offers Data Controllers tools to create and process Privacy requests for data stored in Adobe Campaign. However, it is the Data Controller's responsibility to handle the relationship with the Data Subject (email, customer care or a web portal).
@@ -71,3 +73,4 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >[!NOTE]
 >
 >For optimal performance, it is recommended to use out-of-the-box namespaces.
+-->

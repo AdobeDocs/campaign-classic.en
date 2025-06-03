@@ -22,6 +22,12 @@ Adobe Campaign is a powerful tool for collecting and processing extremely large 
 
 Take the time to go through the [Security and Privacy checklist](../../installation/using/get-started-security-privacy.md) to learn the key elements to check regarding security and privacy.
 
+>[!NOTE]
+>
+>To learn more about Privacy and safety regulations for Adobe Camppaign, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target=_blank}.
+
+
+<!--
 ### Privacy regulations {#privacy-regulations}
 
 To correctly handle privacy and manage personal data, work within the legislations applicable to the region(s) where you operate. Adobe Campaign's capabilities help you comply with the regulations listed in [this page](../../platform/using/privacy-management.md#privacy-management-regulations).
@@ -172,3 +178,4 @@ Adobe Campaign also lets you monitor how recipients browse your website: insert 
 The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 To further manage tracking, Adobe Campaign enables you to display an opt-out banner to stop tracking web behaviors of end users who opt-out of behavioral tracking. For more on this, see [Web application tracking opt-out](../../web/using/web-application-tracking-opt-out.md).
+-->

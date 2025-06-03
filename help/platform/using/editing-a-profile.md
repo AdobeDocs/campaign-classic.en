@@ -28,6 +28,13 @@ Tabs and their content depend on your configuration and installed packages.
 >
 >For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
 
+>[!NOTE]
+>
+>To learn more on how to edit profiles and access them, please refer to the detailed documentation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
+
+
+
+<!--
 ## General tab {#general-tab}
 
 This screen contains all general data about the selected profile. In particular, it contains the last name, first name, email address, email reception format, etc. It looks like this:
@@ -93,3 +100,5 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 >[!NOTE]
 >
 >For more on tracking functionality, please refer to [this page](../../delivery/using/delivery-dashboard.md).
+
+-->

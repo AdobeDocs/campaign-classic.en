@@ -8,6 +8,27 @@ exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 ---
 # Get started with SMS channel{#sms-channel}
 
+Use Adobe Campaign to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
+
+Learn the key steps related to SMS delivery creation in the Campaign v8 documentation:
+
+* [SMS channel overview](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target="_blank"}: Learn how you can send text messages to your customers on their mobile devices. 
+* [Create a SMS delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html){target="_blank"}: Discover the different steps needed to create a new SMS delivery.
+* [Define the content](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html){target="_blank"}: Learn how to personalize the content of your SMS messages.
+* [Select the audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html){target="_blank"}: The main target is extracted from Adobe Campaign database or can also be stored in an external file.  
+* [Send SMS proofs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html): Setting up a delivery validation cycle is essential. Make sure your content is approved before sending it to your audience.
+* [Send to the audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html): When your SMS is validated, you can now send it to its audience.
+* [Monitor and track a SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html): Monitor your SMS delivery in order to be sure that your marketing campaigns are efficient.
+
+Refer to these pages to learn about configuration:
+
+* [Standalone configuration](sms-set-up.md): Learn how to configure the SMS channel on a standalone instance.
+* [Mid-sourcing configuration](sms-set-up-mid.md): Discover how to send to a mobile phone with mid-servers.
+* [SMS connector](sms-protocol.md): Learn about the SMS connector protocol and settings.
+* [Additional configuration](sms-send.md): Find out about the advanced parameters and other additional configuration.
+* [Troubleshooting](troubleshooting-sms.md): We've listed a series of potential issues and their solutions.
+
+<!--
 Use Adobe Campaign to send personalized SMS messages.
 
 Before starting sending SMS:
@@ -33,3 +54,4 @@ For global information on how to create a delivery, refer to [this section](step
 >Adobe Campaign also lets you submit notifications on mobile terminals, via its **Adobe Campaign Mobile App Channel (NMAC)** option. 
 > 
 >For more on this, refer to the [Get started with mobile app channel](about-mobile-app-channel.md) section.
+-->

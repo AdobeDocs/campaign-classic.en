@@ -16,6 +16,13 @@ You can [use workflows](#use-workflows) to import or export recipients profiles 
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#import-profiles-video)
 
+>[!NOTE]
+>
+>To learn how to import and export profiles, please refer to the Campaign v8 documentation.
+
+
+<!--
+
 ## Use workflows{#use-workflows}
 
 Exports and imports are configured in dedicated templates executed through workflows via import and export activities. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. [Learn more](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
@@ -36,3 +43,4 @@ This video explains how to import profiles in Adobe Campaign, for an occasional 
 >[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+-->

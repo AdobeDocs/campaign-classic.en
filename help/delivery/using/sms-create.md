@@ -4,6 +4,8 @@ title: Create SMS with Campaign
 description: Learn how to create SMS with Campaign
 feature: SMS
 role: User
+hide: yes
+hidefromtoc: yes
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 ---
 # Create an SMS delivery {#creating-a-sms-delivery}

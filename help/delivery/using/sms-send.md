@@ -6,8 +6,9 @@ feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 ---
-# Send, monitor and track SMS deliveries{#sms-properties}
+# Additional configuration{#sms-properties}
 
+<!--
 ## Send SMS messages {#sending-sms-messages}
 
 To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
@@ -16,6 +17,7 @@ The detailed process when validating and sending a delivery is presented in the 
 
 * [Validate the delivery](steps-validating-the-delivery.md)
 * [Send the delivery](steps-sending-the-delivery.md)
+-->
 
 ## Advanced parameters {#advanced-parameters}
 
@@ -49,6 +51,7 @@ The following options are available:
 
 * **Maximum number of SMS per message**: this option lets you set the number of SMS to use to send a message. If the number is set to 0, you can use an SMS to deliver your message. If the number of SMS is set to 1 or 2 for instance, and the message exceeds this threshold, it will not be sent.
 
+<!--
 ## Monitor and track SMS {#monitoring-and-tracking-sms-deliveries}
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
@@ -56,6 +59,7 @@ After sending messages, you can monitor and track your deliveries. For more on t
 * [Monitor a delivery](about-delivery-monitoring.md)
 * [Understand delivery failures](understanding-delivery-failures.md)
 * [About message tracking](about-message-tracking.md)
+-->
 
 ## Process inbound messages {#processing-inbound-messages}
 

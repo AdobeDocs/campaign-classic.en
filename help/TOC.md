@@ -104,6 +104,7 @@ type: Documentation
   + [Help & support options](support.md)
 + Create and send messages {#sending-messages}
   + [Get started with messages](delivery/using/communication-channels.md)
+  + [Delivery settings](delivery/using/delivery-settings.md)
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
        + [Get started with deliveries](delivery/using/steps-about-delivery-creation-steps.md)
        + [Create and identify a delivery](delivery/using/steps-create-and-identify-the-delivery.md)
@@ -123,10 +124,10 @@ type: Documentation
        + [Create an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Define the email content](delivery/using/defining-the-email-content.md)
        + [Define interactive content](delivery/using/defining-interactive-content.md)
+       + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
        + Send the email delivery {#sending-an-email}
             + [Main steps to send an email](delivery/using/sending-messages.md)
             + [Email parameters](delivery/using/email-parameters.md)
-            + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
             + [Send on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
        + [Attach files](delivery/using/attaching-files.md)
   + Send SMS {#sending-messages-on-mobiles}
@@ -134,10 +135,10 @@ type: Documentation
        + Configure SMS channel {#sms-set-up}
           + [Configure SMS on a standalone instance](delivery/using/sms-set-up.md)
           + [Configure SMS on a mid-sourcing infrastructure](delivery/using/sms-set-up-mid.md)
+          + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
+          + [Additional configuration](delivery/using/sms-send.md)
+          + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
        + [Create a SMS](delivery/using/sms-create.md)
-       + [Send and track SMS](delivery/using/sms-send.md)
-       + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
-       + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
        + [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
   + [Send LINE messages](delivery/using/line-channel.md)
   + Send push notifications {#sending-push-notifications}

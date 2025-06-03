@@ -4,6 +4,8 @@ title: Campaign - Salesforce CRM Connector
 description: Learn how to connect Campaign and Salesforce
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
+hide: yes
+hidefromtoc: yes
 ---
 # Connect Campaign and Salesforce.com{#connect-to-sfdc}
 

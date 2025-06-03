@@ -8,9 +8,26 @@ exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 ---
 # Communication channels{#communication-channels}
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). These messages are designed and sent though deliveries, and can be personalized for each recipient.
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient.
 
-Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery assistant. This access point leads to multiple capabilities covered by Adobe Campaign.
+Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports.
+
+Learn the key steps related to delivery creation in the Campaign v8 documentation:
+
+* [Create the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}: Learn how to create a one-shot single delivery.
+* [Define the content](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#content-of-the-delivery){target="_blank"}: Configure the delivery content specific for each channel.
+* [Specify the audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}: Define several types of target: main audience, proof target, seed addresses and control groups. 
+* [Validate the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#validate-the-delivery){target="_blank"}: Learn how to validate the delivery before sending it to the main target.
+* [Send the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#configuring-and-sending-the-delivery){target="_blank"}: Configure the delivery settings and define how to send your messages.
+* [Delivery best practices](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}: Consult the best practices related to Campaign delivery capabilities.
+
+Also refer to this [page](delivery-settings.md) to learn about specific Campaign Classic delivery settings.
+
+<!--
+
+   Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
+
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >
@@ -119,4 +136,4 @@ If an information in the delivery changes (content, name, etc.), a new delivery 
 
 As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).
 
-Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).
+Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).-->

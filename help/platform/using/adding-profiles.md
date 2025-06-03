@@ -15,6 +15,13 @@ In most cases, profiles are [imported to Campaign through a workflow](../../plat
 
 ![](assets/s_ncs_user_profile_add.png)
 
+>[!NOTE]
+>
+>To learn more on how to create profiles in Adobe Campaign Console, please refer to the [Campaign v8 documentation.](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank} 
+
+
+<!--
 Enter the information for this profile. The tabs and fields to be completed are described in [Editing a profile](../../platform/using/editing-a-profile.md).
 
 Click **[!UICONTROL Save]** to validate profile creation. The profile is then added in Adobe Campaign database.
+-->

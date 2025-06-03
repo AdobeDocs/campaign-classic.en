@@ -17,9 +17,11 @@ Adobe Campaign lets you coordinate the creation of conversational marketing camp
 >
 >* Help materials in this collection apply to Campaign Classic v7 in its [latest build](../../rn/using/latest-release.md). A specific badge is available when a section also applies also to Campaign v8.
 >
->* Adobe Campaign v8 documentation is available [here](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html).
+>* To learn more about Adobe Campaign and how to get it started, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank}.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](#video)
+
+<!--
 
 ## Key capabilities {#key-capabilities}
 
@@ -88,3 +90,5 @@ This video presents Campaign Classic main features and capabilities.
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
+-->
