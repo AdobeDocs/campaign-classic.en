@@ -119,7 +119,7 @@ type: Documentation
           + [Define the right audience](delivery/using/define-the-right-audience.md)
           + [Check before sending](delivery/using/check-before-sending.md)
           + [Track and monitor](delivery/using/track-and-monitor.md)                    
-+ Send emails {#sending-emails}
++ Emails {#sending-emails}
        + [Create an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Define the email content](delivery/using/defining-the-email-content.md)
        + [Define interactive content](delivery/using/defining-interactive-content.md)
