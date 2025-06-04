@@ -12,15 +12,22 @@ Adobe Campaign includes a workflow module that empowers you to orchestrate the f
 
 You can use a workflow, for example, to download a file from a server, decompress it, and then import records contained within into the Adobe Campaign database.
 
-A workflow can also involve one or more operators to be notified or who can make choices and approve processes. In this way, it is possible to create a delivery action, assign a task to one or more operators to work on content, specify targets, and to approve proofs before starting the delivery.
+![](assets/do-not-localize/workflow.jpg){width="40%" align="center"}
 
-Workflows occur within various contexts and stages of the campaign management process.
+
+>[!BEGINTABS]
+
+>[!TAB Workflow documentation] 
 
 To learn more about workflows management, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target=_blank}.
 
-![](assets/do-not-localize/workflow.jpg){width="40%"}
 
-Learn the key steps related to workflow management:
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target=_blank}
+
+
+>[!TAB Useful links]
+
+Learn the key steps related to workflow management in Campaign v8 documentation:
 
 * [Workflow activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target=_blank}: An activity describes a task template. Worflows include targeting, flow control, action and event activities. 
 
@@ -31,6 +38,13 @@ Learn the key steps related to workflow management:
 * [Monitor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target=_blank}: Learn how to monitor workflow execution to ensure that everything is running correctly.
 
 * [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}: Learn different contexts in which workflows can be used and how to implement them through end-to-end use cases.
+
+
+>[!ENDTABS]
+
+
+
+
 
 <!--
 
