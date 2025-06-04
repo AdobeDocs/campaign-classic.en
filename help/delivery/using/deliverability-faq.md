@@ -2,7 +2,6 @@
 product: campaign
 title: Key points when managing deliverability in Adobe Campaign Classic
 description: Learn key points to check when managing deliverability in Adobe Campaign
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f

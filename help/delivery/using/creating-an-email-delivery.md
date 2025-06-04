@@ -2,7 +2,6 @@
 product: campaign
 title: Create an email delivery
 description: Learn how to create an email delivery
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User
 hide: yes

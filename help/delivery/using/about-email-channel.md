@@ -2,14 +2,30 @@
 product: campaign
 title: About email channel in Adobe Campaign Classic
 description: This section provides general information specific to the email channel in Adobe Campaign
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 ---
-# About email channel{#about-email-channel}
+# Get started with the email channel{#about-email-channel}
 
 With Adobe Campaign, create email deliveries to send personalized emails to the target population.
+
+Email remains one of the most powerful and flexible channels for engaging with your users beyond your app or website. Whether you are delivering personalized content, announcements, or promotional messages, email gives you full control over both the message and the audience. Learn how to configure and use the email channel to its fullest—customizing content, targeting specific user segments, and incorporating rich multimedia elements to maximize impact and engagement in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+
+
+
+
+>[!BEGINTABS]
+
+>[!TAB Email channel documentation] 
+
+To learn more about email channel, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}
+
+
+>[!TAB Email delivery creation]
 
 Learn the key steps related to email delivery creation in the Campaign v8 documentation:
 
@@ -19,6 +35,9 @@ Learn the key steps related to email delivery creation in the Campaign v8 docume
 * [Send emails on Japanese mobiles](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}: Use one of the three specific Japanese formats for email on mobiles.
 * [Attach files to an email](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html){target="_blank"}: Learn the different ways to attach one or more files to an email.
 
+
+>[!TAB Email parameters]
+
 Refer to these pages to learn about email parameters in the Campaign v8 documentation:
 
 * [Link to the mirror page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html){target="_blank"}: Configure the mirror page to make sure your clients always get the best rendering experience.
@@ -26,6 +45,11 @@ Refer to these pages to learn about email parameters in the Campaign v8 document
 * [Define additional email parameters](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html){target="_blank"}: Learn more about the options and parameters available from the delivery properties.
 
 Also refer to this [page](sending-with-enhanced-mta.md) to learn about the Enhanced MTA.
+
+>[!ENDTABS]
+
+
+
 
 
 <!--

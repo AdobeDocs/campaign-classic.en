@@ -2,7 +2,6 @@
 product: campaign
 title: Email parameters
 description: Learn about options and settings that are specific to email delivery
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User, Developer, Data Engineer
 hide: yes
