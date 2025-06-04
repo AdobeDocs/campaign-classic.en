@@ -8,12 +8,9 @@ exl-id: 024a7344-9376-4ff3-926a-003148229f9f
 ---
 # Automate with workflows {#gs-workflows}
 
-Adobe Campaign includes a workflow module that empowers you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
+Adobe Campaign's Workflow Module enables your team to streamline and automate end-to-end business processes across the platform. With an intuitive graphical interface, you can design and manage workflows that coordinate tasks such as data segmentation, campaign execution, file handling, and even user approvals—all in one place.
 
-You can use a workflow, for example, to download a file from a server, decompress it, and then import records contained within into the Adobe Campaign database.
-
-![](assets/do-not-localize/workflow.jpg){width="40%" align="center"}
-
+For instance, you can automate a process to retrieve a file from a remote server, extract its contents, and seamlessly load the data into Adobe Campaign server - reducing manual effort and increasing operational efficiency. The workflow engine ensures every step is executed reliably and tracked for visibility and control.
 
 >[!BEGINTABS]
 
