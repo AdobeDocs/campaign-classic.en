@@ -119,7 +119,9 @@ type: Documentation
           + [Define the right audience](delivery/using/define-the-right-audience.md)
           + [Check before sending](delivery/using/check-before-sending.md)
           + [Track and monitor](delivery/using/track-and-monitor.md)                    
-+ Emails {#sending-emails}
++ Send emails {#sending-emails}
+       + [Get started with emails](delivery/using/about-email-channel.md)
+       + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
        + [Create an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Define the email content](delivery/using/defining-the-email-content.md)
        + [Define interactive content](delivery/using/defining-interactive-content.md)
@@ -128,7 +130,6 @@ type: Documentation
             + [Email parameters](delivery/using/email-parameters.md)
             + [Send on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
        + [Attach files](delivery/using/attaching-files.md)
-+ [Send emails](delivery/using/about-email-channel.md)
 + Send SMS {#sending-messages-on-mobiles}
        + [Get started with SMS](delivery/using/sms-channel.md)
        + Configure SMS channel {#sms-set-up}
@@ -834,7 +835,6 @@ type: Documentation
        + [2023 system upgrades](technotes/using/tech-stack-upgrade.md)
        + [IMS updates](technotes/using/ims-updates.md)
        + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
-       + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
   + Emails and push notifications{#technotes-email}
        + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
        + [How to  update incorrect hard bounces](delivery/using/update-bounce-qualification.md)
