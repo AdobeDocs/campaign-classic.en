@@ -13,13 +13,23 @@ To deliver a high degree of customer engagement and great experiences, brands mu
 
 Adobe Campaign lets you coordinate the creation of conversational marketing campaigns. Adobe Campaign has innovative features to model, streamline, and automate marketing and customer communication processes.
 
->[!AVAILABILITY]
->
->* Help materials in this collection apply to Campaign Classic v7 in its [latest build](../../rn/using/latest-release.md). A specific badge is available when a section also applies also to Campaign v8.
->
->* To learn more about Adobe Campaign and how to get it started, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank}.
-
 ![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](#video)
+
+>[!BEGINTABS]
+
+>[!TAB Get started with Campaign]
+
+To learn more about Adobe Campaign and how to get it started, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank}
+
+>[!TAB Launch Campaign]
+
+* Check your system and tools compatibility with Adobe Campaign Client Console in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
+
+* To learn how to install and log on to Adobe Campaign, please refer to the detailed walkthrough on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}.
+
+>[!ENDTABS]
 
 <!--
 

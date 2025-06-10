@@ -20,8 +20,22 @@ This tool combines all Adobe Campaign querying possibilities. For instance, it l
 
 Queries are created using fields of the selected table or using a formula.
 
->[!NOTE]
->
->To learn more about Queries and how to create them, please refer to the [Campaign v8 documentation](../../workflow/using/query.md).
+>[!BEGINTABS]
+
+>[!TAB Queries documentation] 
+
+To learn more about queries, refer to the [Campaign v8 documentation.](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+
+
+>[!TAB Create a query]
+
+Learn the key steps related to the query creation in the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+
+>[!ENDTABS]
 
 ![Screenshot showing an example of a Query.](assets/query_recipients_4.png)
