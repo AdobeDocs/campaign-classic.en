@@ -49,16 +49,21 @@ To distinguish views from folders, the name of each view is displayed in a diffe
 
 ### Add folders and create views {#adding-folders-and-creating-views}
 
+>[!IMPORTANT]
+>
+>Out of the box folders should not be marked as view.
+
+
 In the example below, we will create new folders to display specific data:
 
 1. Create a new **[!UICONTROL Deliveries]** type folder, and name it **Deliveries France**.
 1. Right-click this folder and select **[!UICONTROL Properties...]**.
 
-   ![](assets/s_ncs_user_add_folder_exple.png)
+   ![Screenshot showing a right click into the propreties](assets/s_ncs_user_add_folder_exple.png)
 
 1. In the **[!UICONTROL Restriction]** tab, select **[!UICONTROL This folder is a view]**. All the deliveries in the database will then be displayed.
 
-   ![](assets/s_ncs_user_add_folder_exple01.png)
+   ![Screenshowing showing the view box being checked](assets/s_ncs_user_add_folder_exple01.png)
 
 1. Define the delivery filter criteria from the query editor in the middle section of the window: the campaigns corresponding to the defined filter will then be displayed.
 
@@ -68,7 +73,7 @@ In the example below, we will create new folders to display specific data:
 
    With the following filter conditions:
 
-![](assets/s_ncs_user_add_folder_exple00.png)
+![Screenshot showing the different filter conditions](assets/s_ncs_user_add_folder_exple00.png)
 
 The following deliveries will be displayed in the view:
 
@@ -78,6 +83,7 @@ The following deliveries will be displayed in the view:
 >
 >When managing [transactional messaging](../../message-center/using/about-transactional-messaging.md) events, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views on the execution instances, as this could lead to access right issues. For more on event collection, see [this section](../../message-center/using/about-event-processing.md#event-collection).
 
+<!--
 ## Permissions on a folder
 
 ### Edit permissions on a folder {#edit-permissions-on-a-folder}
@@ -121,3 +127,4 @@ The authorizations defined in this window will then be applied to all the sub-fo
 In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** option is selected, all operators will have access to this data, regardless of their rights. If this option is cleared, you must explicitly add the operator (or their group) to the list of authorizations in order for them to have access.
 
 ![](assets/s_ncs_user_folder_properties_security03b.png)
+-->
