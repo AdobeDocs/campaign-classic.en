@@ -119,9 +119,8 @@ type: Documentation
           + [Define the right audience](delivery/using/define-the-right-audience.md)
           + [Check before sending](delivery/using/check-before-sending.md)
           + [Track and monitor](delivery/using/track-and-monitor.md)                    
+     + [Send emails](delivery/using/about-email-channel.md)
      + Send emails {#sending-emails}
-          + [Get started with emails](delivery/using/about-email-channel.md)
-          + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
           + [Create an email delivery](delivery/using/creating-an-email-delivery.md)
           + [Define the email content](delivery/using/defining-the-email-content.md)
           + [Define interactive content](delivery/using/defining-interactive-content.md)
@@ -821,6 +820,7 @@ type: Documentation
      + [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
      + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
+     + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
      + [Inbound SMS workflow activity for Mid-sourcing infrastructure](technotes/using/inbound-sms-wf.md)
      + Upgrade to IMS{#ims}
           + [Transition to Adobe IMS](technotes/using/ac-ims.md)

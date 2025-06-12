@@ -12,6 +12,8 @@ With Adobe Campaign, create email deliveries to send personalized emails to the 
 
 Email remains one of the most powerful and flexible channels for engaging with your users beyond your app or website. Whether you are delivering personalized content, announcements, or promotional messages, email gives you full control over both the message and the audience. Learn how to configure and use the email channel to its fullest—customizing content, targeting specific user segments, and incorporating rich multimedia elements to maximize impact and engagement in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
+As part of the Campaign v8 promotion initiative, the Campaign Classic documentation has been reorganized. Common features are now only available in the Campaign v8 documentation set.
+
 
 
 

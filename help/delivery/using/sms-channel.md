@@ -10,6 +10,22 @@ exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 
 Use Adobe Campaign to send text messages to your customers on their mobile devices. You can create, personalize, and preview messages in text format from the SMS editor.
 
+SMS is a direct and highly effective channel for reaching your users wherever they are. With high open rates and near-instant delivery, SMS is ideal for time-sensitive alerts, transactional updates, and concise promotional messages. Use SMS to complement your cross-channel strategy and deliver impactful, real-time communication. Learn how to configure and use the SMS channel effectively in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target=_blank}.
+
+As part of the Campaign v8 promotion initiative, the Campaign Classic documentation has been reorganized. Common features are now only available in the Campaign v8 documentation set. 
+
+>[!BEGINTABS]
+
+>[!TAB SMS channel documentation] 
+
+To learn more about SMS channel, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target=_blank}.
+
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target=_blank}
+
+
+>[!TAB SMS delivery creation]
+
 Learn the key steps related to SMS delivery creation in the Campaign v8 documentation:
 
 * [SMS channel overview](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target="_blank"}: Learn how you can send text messages to your customers on their mobile devices. 
@@ -20,13 +36,20 @@ Learn the key steps related to SMS delivery creation in the Campaign v8 document
 * [Send to the audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html): When your SMS is validated, you can now send it to its audience.
 * [Monitor and track a SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html): Monitor your SMS delivery in order to be sure that your marketing campaigns are efficient.
 
-Refer to these pages to learn about configuration:
+
+>[!TAB SMS configuration]
+
+Refer to these pages to learn about SMS configuration:
 
 * [Standalone configuration](sms-set-up.md): Learn how to configure the SMS channel on a standalone instance.
 * [Mid-sourcing configuration](sms-set-up-mid.md): Discover how to send to a mobile phone with mid-servers.
 * [SMS connector](sms-protocol.md): Learn about the SMS connector protocol and settings.
 * [Additional configuration](sms-send.md): Find out about the advanced parameters and other additional configuration.
 * [Troubleshooting](troubleshooting-sms.md): We've listed a series of potential issues and their solutions.
+
+>[!ENDTABS]
+
+
 
 <!--
 Use Adobe Campaign to send personalized SMS messages.

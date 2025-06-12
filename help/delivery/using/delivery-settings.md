@@ -4,6 +4,8 @@ title: About deliveries settings
 description: Discover the specific v7 delivery settings
 feature: Channel Configuration
 role: User
+hide: yes
+hidefromtoc: yes
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
 ---
 # Delivery settings {#about-delivery-settings}
