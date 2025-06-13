@@ -24,6 +24,23 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 * Access to certain records,
 * Creation, modification and/or deletion of records (actions, contacts, campaigns, groups, etc.).
 
+>[!BEGINTABS]
+
+>[!TAB Permissions documentation]
+
+To learn more about permissions in Adobe Campaign, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
+
+>[!TAB Manage folders access]
+
+To learn more about Folders access and how to manage them, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=en#_blank){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)]([![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}){target=_blank}
+
+>[!ENDTABS]
+
+<!--
 The permissions apply to operator profiles or operator groups.
 
 They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more about security zones in [this page](../../installation/using/security-zones.md).
@@ -38,8 +55,6 @@ There are two types of permissions you can grant to a user:
 >
 > * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
 > * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
-
-<!--
 
 Learn how to grant access and set up permissions in these sections:
 
