@@ -8,6 +8,8 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
+hide: yes
+hidefromtoc: yes
 ---
 # Steps to create a query{#steps-to-create-a-query}
 
