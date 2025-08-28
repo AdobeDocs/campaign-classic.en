@@ -3,6 +3,8 @@ product: campaign
 title: Technote - Update your environment to connect to Adobe Campaign with IMS
 description: Campaign - IMS updates
 feature: Technote, Upgrade
+hide: yes
+hidefromtoc: yes
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}
@@ -17,7 +19,7 @@ Adobe Identity Management Service (IMS) stopped supporting old Internet Explorer
 
 Adobe wants to preserve IMS functionality for all customers past June 30, 2021. IMS is part of the security framework which allows users to login to the Client Console, thus Adobe Campaign. 
 
-To preserve this functionality, customers must update the Client Console on each users’ machine, and ensure the latest update of your [Windows version](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), with **Internet Explorer 11** built-in, is installed on each users’ machine. 
+To preserve this functionality, customers must update the Client Console on each users' machine, and ensure the latest update of your [Windows version](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), with **Internet Explorer 11** built-in, is installed on each users' machine. 
 
 ## Are you impacted?
 
@@ -41,7 +43,7 @@ If you already upgraded but using an old version of Microsoft Internet Explorer,
 
     These releases come with a new connection protocol. Upgrade is mandatory for both Campaign server and Client Console: once all instances are upgraded, the Client Console needs to be upgraded to this version as well to be able to connect to Campaign after **June 30, 2021**.
 
-In addition, ensure the latest update of your [Windows version](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), with **Internet Explorer 11** built-in, is installed on each users’ machine. 
+In addition, ensure the latest update of your [Windows version](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), with **Internet Explorer 11** built-in, is installed on each users' machine. 
 
 ## FAQ
 

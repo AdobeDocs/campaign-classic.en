@@ -5,6 +5,8 @@ description: Learn more about Campaign Classic 2023 releases
 feature: Release Notes
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 ---
 # 2023 releases{#release-2023}
