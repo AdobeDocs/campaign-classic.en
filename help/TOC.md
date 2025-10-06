@@ -31,6 +31,7 @@ type: Documentation
                + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
                + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
                + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
+               + [Enumerations](platform/using/managing-enumerations.md)
           + [Campaign connectors](platform/using/about-connectors.md)
           + Frequently Asked Questions {#faq}
                + [Top questions](platform/using/common-questions.md)
@@ -93,9 +94,6 @@ type: Documentation
           + [Create and manage groups](platform/using/access-management-groups.md)
           + [Use named rights to set up permissions](platform/using/access-management-named-rights.md)
           + [Manage access to folders](platform/using/access-management-folders.md)
-     + Data packages and enumerations {#administration-basics}
-          + [Data packages](platform/using/working-with-data-packages.md)
-          + [Enumerations](platform/using/managing-enumerations.md)
      + CRM connectors {#connectors}
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
@@ -732,6 +730,7 @@ type: Documentation
                + [JSP behavior](production/using/jsp-behavior.md)
                + [Locating Tomcat version](production/using/locate-tomcat-version.md)
 + Developers guide {#configuring-campaign-classic}
+     + [Data packages](platform/using/working-with-data-packages.md)
      + Data model {#data-model}
           + [About the data model](configuration/using/about-data-model.md)
           + [Data model description](configuration/using/data-model-description.md)

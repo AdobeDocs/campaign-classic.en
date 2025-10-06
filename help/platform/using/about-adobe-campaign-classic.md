@@ -93,6 +93,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,
 * [Reporting](../../reporting/using/about-adobe-campaign-reporting-tools.md) - access built-in reports, analyze data and design your own reports.
 
+-->
 ## Tutorial video {#video}
 
 This video presents Campaign Classic main features and capabilities.
@@ -100,5 +101,3 @@ This video presents Campaign Classic main features and capabilities.
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
-
--->
