@@ -5,6 +5,8 @@ description: Learn how to create a direct mail delivery
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Direct Mail
 role: User
+hide: yes
+hidefromtoc: yes
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 ---
 # Create a direct mail delivery{#creating-a-direct-mail-delivery}

@@ -138,8 +138,8 @@ type: Documentation
           + [Create a SMS](delivery/using/sms-create.md)
           + [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
      + [Send LINE messages](delivery/using/line-channel.md)
+     + [Send push notifications](delivery/using/about-mobile-app-channel.md)
      + Send push notifications {#sending-push-notifications}
-          + [Get started with mobile app channel](delivery/using/about-mobile-app-channel.md)
           + [Integrate Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
           + Configure the mobile application{#configure-the-mobile-app}
                + [Get started with the app configuration](delivery/using/get-started-app-config.md)
@@ -149,8 +149,8 @@ type: Documentation
                + [Create a push message for iOS](delivery/using/create-notifications-ios.md)
                + [Create a push message for Android](delivery/using/create-notifications-android.md)
           + [Troubleshooting](delivery/using/troubleshooting.md)
+     + [Send direct mails](delivery/using/about-direct-mail-channel.md)
      + Send direct mail {#sending-direct-mail}
-          + [About direct mail channel](delivery/using/about-direct-mail-channel.md)
           + [Create a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
           + [Define the direct mail content](delivery/using/defining-the-direct-mail-content.md)
           + [Validate](delivery/using/validating.md)

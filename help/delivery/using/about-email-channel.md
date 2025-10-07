@@ -15,8 +15,6 @@ Email remains one of the most powerful and flexible channels for engaging with y
 As part of the Campaign v8 promotion initiative, the Campaign Classic documentation has been reorganized. Common features are now only available in the Campaign v8 documentation set.
 
 
-
-
 >[!BEGINTABS]
 
 >[!TAB Email channel documentation] 

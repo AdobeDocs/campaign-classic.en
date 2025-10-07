@@ -4,6 +4,8 @@ title: Work with delivery templates
 description: Get started with delivery templates
 feature: Delivery Templates
 role: User
+hide: yes
+hidefromtoc: yes
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 ---
 # Work with delivery templates {#about-templates}

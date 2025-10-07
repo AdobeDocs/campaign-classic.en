@@ -32,7 +32,11 @@ Learn the key steps related to delivery creation, content and audience in the Ca
 
 * [Create the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}: Learn how to create a one-shot single delivery.
 * [Define the content](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#content-of-the-delivery){target="_blank"}: Configure the delivery content specific for each channel.
-* [Specify the audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}: Define several types of target: main audience, proof target, seed addresses and control groups. 
+* [Specify the audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}: Define several types of target: main audience, proof target, seed addresses and control groups.
+* [Work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}: Learn how to define templates in order to facilitate delivery creation.
+
+
+
 
 
 >[!TAB Delivery validation and sending]
