@@ -2,7 +2,6 @@
 product: campaign
 title: Get started with mobile app channel 
 description: Get started with mobile app channel in Adobe Campaign
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
