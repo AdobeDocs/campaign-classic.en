@@ -117,18 +117,14 @@ Data filtering is the process of narrowing down a dataset to only those records 
 
 When browsing Campaign, data is displayed in lists. You can apply built-in filters to quickly access a defined subset, such as quarantined addresses, untargeted recipients, or records within a specific age range or creation date. In addition, you can create custom filters, save them for future use, and share them with other Campaign users.
 
->[!NOTE]
->
->To learn how to access, design and share filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Learn how to **access, design and share filters** in the  the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 ## Work with lists {#manage-and-customize-lists}
 
 In Campaign client console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
 
->[!NOTE]
->
->To learn how to manage and customize lists, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+Learn how to **manage and customize lists** in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
 ## Manage enumerations{#managing-enumerations} 
 
@@ -136,7 +132,7 @@ An enumeration (also called an itemized list) is a predefined list of values you
 
 When defined, values are displayed in a drop-down list. A value can be selected directly or entered using predictive input, which suggests and completes matching entries. Some fields include predefined enumerations, and additional enumerations can be created if required.
 
-Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+Learn more how to **work with enumerations** in the [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 ## Tutorial video {#video}
 
