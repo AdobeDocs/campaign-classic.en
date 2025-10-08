@@ -81,7 +81,8 @@ The **[!UICONTROL Advanced parameters]** link lets you access the following opti
     
     * **[!UICONTROL Do not update enumerations]**
 
-      Select this option to avoid enriching the list of enumerated values in the database. See [Manage enumerations](../../platform/using/managing-enumerations.md).
+      Select this option to avoid enriching the list of enumerated values in the database. Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+
 
 * **[!UICONTROL Variables]** tab
 

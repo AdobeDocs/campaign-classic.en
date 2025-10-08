@@ -40,6 +40,7 @@ To create event types that will be processed by Adobe Campaign, follow the steps
 
 >[!NOTE]
 >
->Learn more on itemized lists in [Enumeration management](../../platform/using/managing-enumerations.md).
+>Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+
 
 

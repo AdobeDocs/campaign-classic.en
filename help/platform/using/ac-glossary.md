@@ -339,7 +339,7 @@ Learn more about [Enrichment activity](../../workflow/using/enrichment.md).
 
 An enumeration is a data type defined in schemas or at the Platform level that defines the valid input values for a field. Enumerations appear in the user interface and in query builders as a picklist.
 
-Learn more about [Enumerations](../../platform/using/managing-enumerations.md).
+Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 +++
 
 +++**Explorer view**

@@ -104,7 +104,7 @@ The Adobe Campaign explorer is accessible via the toolbar icon. It lets you acce
 
 To learn more about Adobe Campaign explorer, refer to these pages in the Campaign v8 (console) documentation: 
 
-* [Campaign user interface overview](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}
+* [Campaign user interface overview](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Campaign UI settings](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} 
 

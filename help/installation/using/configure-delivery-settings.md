@@ -82,7 +82,8 @@ To do this, apply the following steps:
 
    >[!NOTE]
    >
-   >Enumerations are detailed in [this document](../../platform/using/managing-enumerations.md).
+   >Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+
 
    You can then select the affinity to be used, as shown below for typologies:
 
