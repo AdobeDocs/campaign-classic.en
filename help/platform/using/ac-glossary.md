@@ -266,7 +266,7 @@ Learn more about [Distributed Marketing](../../distributed/using/about-distribut
 
 The Distribution of values is a tool which shows the distribution of the values for a schema attribute that currently exist in the database. This helps you determine what values are available, their counts and percentages, and to avoid issues with capitalization and spelling of values when creating a query or expression.
 
-Learn more about [Distribution of values](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+Learn more about [Distribution of values](../../platform/using/about-queries-in-campaign.md)
 +++
 
 +++**Domain delegation**

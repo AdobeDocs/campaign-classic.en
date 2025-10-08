@@ -33,7 +33,7 @@ To create this example, apply the following steps:
 
 1. In the **[!UICONTROL Data to extract]** window, select the **[!UICONTROL Email domain]** and **[!UICONTROL Primary key]** fields. Run a count on the **[!UICONTROL Primary key]** field.
 
-   For more on primary key counts, refer to [this section](../../platform/using/defining-filter-conditions.md#building-expressions).
+   For more on primary key counts, refer to [this section](../../platform/using/about-queries-in-campaign.md).
 
 1. Check the **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** box.
 
@@ -46,7 +46,7 @@ To create this example, apply the following steps:
 1. In **[!UICONTROL Data filtering]**, select **[!UICONTROL Filtering conditions]**. Go to the **[!UICONTROL Target elements]** window and click **[!UICONTROL Next]**.
 1. In the **[!UICONTROL Data grouping]** window, select the **[!UICONTROL Email domain]** by clicking **[!UICONTROL Add]**.
 
-   This data grouping window is only displayed if the **[!UICONTROL Handle groupings (GROUP BY + HAVING]**) box was checked.
+   This data grouping window is only displayed if the **[!UICONTROL Handle groupings (GROUP BY + HAVING])** box was checked.
 
    ![](assets/query_editor_blocklist_04.png)
 

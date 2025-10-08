@@ -111,13 +111,24 @@ To learn more about Adobe Campaign explorer, refer to these pages in the Campaig
 * [Manage folders and views in the explorer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
+## Filter data {#filters}
+
+Data filtering is the process of narrowing down a dataset to only those records that match specific criteria. This subset can then be used for targeted actions (such as updates or audience creation) or for analysis.
+
+When browsing Campaign, data is displayed in lists. You can apply built-in filters to quickly access a defined subset, such as quarantined addresses, untargeted recipients, or records within a specific age range or creation date. In addition, you can create custom filters, save them for future use, and share them with other Campaign users.
+
+>[!NOTE]
+>
+>To learn how to access, design and share filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+
+
 ## Work with lists {#manage-and-customize-lists}
 
 In Campaign client console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
 
 >[!NOTE]
 >
->To learn how to manage and customize lists in Adobe Campaign, please refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+>To learn how to manage and customize lists, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
 ## Manage enumerations{#managing-enumerations} 
 

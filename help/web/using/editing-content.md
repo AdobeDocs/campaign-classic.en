@@ -20,7 +20,7 @@ To add a visibility condition, select a block and enter the condition in the **[
 
 >[!NOTE]
 >
->Advanced expression editing is presented on [this page](../../platform/using/defining-filter-conditions.md#list-of-functions).
+>Advanced expression editing is presented on [this page](../../platform/using/about-queries-in-campaign.md).
 
 ![](assets/dce_popup_visibilitycondition.png)
 

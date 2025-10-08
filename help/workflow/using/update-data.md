@@ -96,7 +96,7 @@ Updating data and merging collections lets you update the data contained in a re
 
 1. Select the collections to move to the primary record and the fields to update.
 
-   Enter the rules that apply to these once one or multiple secondary records are identified. To do this, you can use the Expression builder. For more on this, refer to this [section](../../platform/using/defining-filter-conditions.md#building-expressions). For example, by specifying that it is the most recently updated value out of all the different records that must be kept.
+   Enter the rules that apply to these once one or multiple secondary records are identified. To do this, you can use the Expression builder. For more on this, refer to this [section](../../platform/using/about-queries-in-campaign.md). For example, by specifying that it is the most recently updated value out of all the different records that must be kept.
 
    Then enter the conditions to take into account for the rule.
 
