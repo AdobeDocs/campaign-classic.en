@@ -42,7 +42,7 @@ To learn how to define **permissions on folders**, please refer to the **[Campai
 
 >[!TAB Native authentication]
 
-Native authentication with login/password is still available in Campaign v7, however to reinforce security and authentication process, Adobe Campaign highly recommends to [migrate end user authentication mode](../../technotes/using/ac-ims.md) from the login/password native authentication to Adobe Identity Management System (IMS). Note that in Campaign v8, connecting with user/password (aka native authentication) is not allowed.
+Native authentication with login/password is still available in Campaign v7, however to reinforce security and authentication process, Adobe Campaign highly recommends to [migrate end user authentication mode](../../technotes/using/ac-ims.md) from the native authentication to Adobe Identity Management System (IMS). Note that in Campaign v8, connecting with native authentication is not allowed.
 
 [![image](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
 
