@@ -179,7 +179,7 @@ In the tree of all the execution instances, create one folder per operator (**Fo
 
 In order to use several control instances, this configuration has to be performed on ALL execution instances.
 
-1. Create one folder per operator in the **[!UICONTROL Administration > Production > Message Center]** node: **Folder 1** and **Folder 2**. For more on creating folders and views, refer to [this page](../../platform/using/access-management-folders.md).
+1. Create one folder per operator in the **[!UICONTROL Administration > Production > Message Center]** node: **Folder 1** and **Folder 2**. Learn more about folders and views in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
    ![](assets/messagecenter_multi_control_3.png)
 
