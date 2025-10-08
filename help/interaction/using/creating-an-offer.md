@@ -52,7 +52,7 @@ Outside of these dates, the offer won't be selected by the Interaction engine. I
 
 You can apply filters to the offer target.
 
-To do this, click the **[!UICONTROL Edit query]** link and select the filter you want to apply. (Refer to [this section](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)). 
+To do this, click the **[!UICONTROL Edit query]** link and select the filter you want to apply. Refer to [this section](../../platform/using/about-adobe-campaign-classic.md). 
 
 ![](assets/offer_eligibility_create_003.png)
 
