@@ -45,7 +45,7 @@ The language is selected when installing your Adobe Campaign Classic instance.
 
 ![](assets/language.png)
 
-You can choose between five different languages:
+You can choose between these languages:
 
 * English (UK)
 * English (US)
