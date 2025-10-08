@@ -13,7 +13,6 @@ To deliver a high degree of customer engagement and great experiences, brands mu
 
 Adobe Campaign lets you coordinate the creation of conversational marketing campaigns. Adobe Campaign has innovative features to model, streamline, and automate marketing and customer communication processes.
 
-![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](#video)
 
 >[!BEGINTABS]
 
@@ -27,7 +26,15 @@ To learn more about Adobe Campaign and how to get it started, please refer to th
 
 * Check your system and tools compatibility with Adobe Campaign Client Console in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 
-* To learn how to install and log on to Adobe Campaign, please refer to the detailed walkthrough on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}.
+* To learn how to install and log on to Adobe Campaign [on this page](launching-adobe-campaign.md).
+
+
+>[!TAB Browse Campaign UI]
+
+* Discover Adobe Campaign user interface [on this page](adobe-campaign-workspace.md).
+
+* Learn how to work with [Campaign Explorer](adobe-campaign-workspace.md#use-adobe-campaign-explorer).
+
 
 >[!ENDTABS]
 

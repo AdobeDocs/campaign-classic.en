@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 ---
-# Adobe Campaign workspace{#adobe-campaign-workspace}
+# Adobe Campaign workspace {#adobe-campaign-workspace}
 
 ## Explore Adobe Campaign interface {#about-adobe-campaign-interface}
 

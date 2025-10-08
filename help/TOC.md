@@ -26,7 +26,7 @@ type: Documentation
 + Get started {#getting-started}
      + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
      + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
-     + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
+     + [Discover Campaign UI](platform/using/adobe-campaign-workspace.md)
      + [Use Campaign Explorer - HIDDEN](platform/using/adobe-campaign-explorer.md)
      + [Browse and customize lists - HIDDEN](platform/using/adobe-campaign-ui-lists.md)
      + [Enumerations - HIDDEN](platform/using/managing-enumerations.md)
