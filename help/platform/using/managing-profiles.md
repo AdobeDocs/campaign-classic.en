@@ -25,7 +25,7 @@ Each node coincides with a folder. The data from each folder must be considered 
 >[!NOTE]
 >
 > * To display the list of all recipients in the database, you must create a view. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
-
+>
 > * To learn more on how to manage your profiles, please refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
