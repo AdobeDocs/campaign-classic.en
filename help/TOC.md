@@ -17,24 +17,22 @@ type: Documentation
   + Previous releases {#previous-releases}
     + [2024](rn/using/release-2024.md)    
     + [2023](rn/using/release-2023.md)    
-    + [2022](rn/using/release-2022.md)    
-    + [2021](rn/using/release-2021.md)
-    + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+    + [2022 - HIDDEN](rn/using/release-2022.md)    
+    + [2021 - HIDDEN](rn/using/release-2021.md)
+    + [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
-  + [Documentation updates](rn/using/documentation-updates.md)
+  + [Documentation updates - HIDDEN](rn/using/documentation-updates.md)
 + Get started {#getting-started}
-     + Start with Adobe Campaign {#starting-with-adobe-campaign}
-          + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-          + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
-          + Adobe Campaign workspace{#campaign-workspace}
-               + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
-               + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
-               + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
-               + [Enumerations](platform/using/managing-enumerations.md)
-          + [Campaign connectors](platform/using/about-connectors.md)
-          + Frequently Asked Questions {#faq}
-               + [Top questions](platform/using/common-questions.md)
+     + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+     + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
+     + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
+     + [Use Campaign Explorer - HIDDEN](platform/using/adobe-campaign-explorer.md)
+     + [Browse and customize lists - HIDDEN](platform/using/adobe-campaign-ui-lists.md)
+     + [Enumerations - HIDDEN](platform/using/managing-enumerations.md)
+     + [Campaign connectors](platform/using/about-connectors.md)
+     + Frequently Asked Questions {#faq}
+          + [Top questions](platform/using/common-questions.md)
                + [Global concepts](platform/using/faq-key-concepts.md)
                + [Build upgrade](platform/using/faq-build-upgrade.md)
                + [Privacy](platform/using/privacy-faq.md)
@@ -45,16 +43,15 @@ type: Documentation
                + [Configuration](platform/using/faq-campaign-config.md)
                + [Reports](platform/using/faq-reporting.md)
                + [Development](platform/using/faq-developers.md)
-               + [Tutorials](platform/using/tutorials.md)
-          + [Glossary](platform/using/ac-glossary.md)
-          + Privacy {#privacy}
-               + [Privacy and consent](platform/using/privacy-and-recommendations.md)
-               + [Privacy management](platform/using/privacy-management.md)
-               + Privacy requests {#privacy-requests}
-                    + [About Privacy requests](platform/using/privacy-requests.md)
-                    + [Create and manage Privacy requests](platform/using/privacy-requests-ui.md)
-                    + [Automatic Privacy request process](platform/using/privacy-requests-api.md)
-               + [Opt-out for the Sale of Personal Information](platform/using/privacy-requests-ccpa.md)
+     + [Glossary](platform/using/ac-glossary.md)
+     + Privacy {#privacy}
+          + [Privacy and consent](platform/using/privacy-and-recommendations.md)
+          + [Privacy management](platform/using/privacy-management.md)
+          + Privacy requests {#privacy-requests}
+               + [About Privacy requests](platform/using/privacy-requests.md)
+               + [Create and manage Privacy requests](platform/using/privacy-requests-ui.md)
+               + [Automatic Privacy request process](platform/using/privacy-requests-api.md)
+          + [Opt-out for the Sale of Personal Information](platform/using/privacy-requests-ccpa.md)
      + Profile management {#profile-management}
           + [About profiles](platform/using/about-profiles.md)
           + [Edit a profile](platform/using/editing-a-profile.md)

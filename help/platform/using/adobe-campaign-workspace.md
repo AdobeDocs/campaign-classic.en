@@ -9,8 +9,6 @@ exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 ---
 # Adobe Campaign workspace{#adobe-campaign-workspace}
 
-
-
 ## Explore Adobe Campaign interface {#about-adobe-campaign-interface}
 
 Once you are connected to the database, you will access the Adobe Campaign home page, which is a dashboard: it is made up of links and shortcuts which let you access capabilities, depending on your installation as well as general platform configurations.
@@ -55,7 +53,7 @@ You can choose between five different languages:
 * German
 * Japanese
 
-The language you chose for your Adobe Campaign Classic instance might impact date and time formats. For more on this, refer to this [section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+The language you chose for your Adobe Campaign Classic instance might impact date and time formats. For more on this, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#formats){target=_blank}.
 
 For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
 
@@ -100,70 +98,37 @@ For example, on the delivery page, use the **[!UICONTROL Create]** button to cre
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
 
-## Formats and units {#formats-and-units}
+## Use Adobe Campaign explorer {#using-adobe-campaign-explorer}
 
-### Date and time {#date-and-time}
+The Adobe Campaign explorer is accessible via the toolbar icon. It lets you access the Adobe Campaign all the Adobe Campaign capabilities, configuration screens and a more detailed view of some of the platform elements.
 
-The language of your Adobe Campaign Classic instance impacts date and time formats.
+To learn more about Adobe Campaign explorer, refer to these pages in the Campaign v8 (console) documentation: 
 
-Language is selected when installing Campaign, and cannot be changed afterwards. You can select: English (US), English (EN), French, German or Japanese. For more on this, refer to [this page](../../installation/using/creating-an-instance-and-logging-on.md).
+* [Campaign user interface overview](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}
 
-Main differences between US English and UK English are: 
+* [Campaign UI settings](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} 
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Formats<br /> </th> 
-   <th> English (US)<br /> </th> 
-   <th> English (EN)<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Date<br /> </td> 
-   <td> Week starts on Sunday<br /> </td> 
-   <td> Week starts on Monday<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Short date<br /> </td> 
-   <td> <p>%2M/%2D/%4Y</p><p><strong>ex: 09/25/2018</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25/09/2018</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td> Short date with time<br /> </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2018 10:47:25 PM</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22:47:25</strong></p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [Manage folders and views in the explorer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
-### Add values in an enumeration {#add-values-in-an-enumeration}
 
-Using the input fields with a drop-down list, you can enter an enumeration value, which can be stored and then offered as an option in the drop-down list. For example, in the **[!UICONTROL City]** field of the **[!UICONTROL General]** tab of a recipient profile, you can enter London. When you press Enter to confirm this value, a message asks if you want to save this value for the enumeration associated with the field. 
+## Work with lists {#manage-and-customize-lists}
 
-![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
-
-If you click **[!UICONTROL Yes]**, this value will be available in the combo box of the relevant field (in this case: **[!UICONTROL London]**).
+In Campaign client console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
 
 >[!NOTE]
 >
->Enumerations (also known as 'itemized lists') are managed by the administrator via the **[!UICONTROL Administration > Platform > Enumerations]** section. For more on this, refer to [Managing enumerations](../../platform/using/managing-enumerations.md).
+>To learn how to manage and customize lists in Adobe Campaign, please refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
-### Default units {#default-units}
+## Manage enumerations{#managing-enumerations} 
 
-In the fields that express a duration (e.g. validity period of the resources of a delivery, approval deadline for a task, etc.), the value can be expressed in the following **units**:
+An enumeration (also called an itemized list) is a predefined list of values you can use to fill in certain fields. Enumerations help standardize field values, making data entry more consistent and simplifying queries. 
 
-* **[!UICONTROL s]** for seconds,
-* **[!UICONTROL mn]** for minutes,
-* **[!UICONTROL h]** for hours,
-* **[!UICONTROL d]** for days.
+When defined, values are displayed in a drop-down list. A value can be selected directly or entered using predictive input, which suggests and completes matching entries. Some fields include predefined enumerations, and additional enumerations can be created if required.
 
-![](assets/enter_unit_sample.png)
+Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 ## Tutorial video {#video}
 
 This video presents Campaign Classic workspace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
-
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

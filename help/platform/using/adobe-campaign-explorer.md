@@ -7,9 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
+hide: yes
+hidefromtoc: yes
 ---
-# Use Adobe Campaign explorer {#using-adobe-campaign-explorer}
-
+# Use Adobe Campaign explorer
 
 
 The Adobe Campaign explorer is accessible via the toolbar icon. It lets you access the Adobe Campaign all the Adobe Campaign capabilities, configuration screens and a more detailed view of some of the platform elements.

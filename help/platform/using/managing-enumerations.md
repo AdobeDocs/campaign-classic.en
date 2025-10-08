@@ -4,6 +4,8 @@ title: Managing enumerations
 description: Managing enumerations
 feature: Data Management
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
+hide: yes
+hidefromtoc: yes
 ---
 # Manage enumerations{#managing-enumerations}
 
