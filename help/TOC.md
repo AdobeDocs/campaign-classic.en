@@ -81,10 +81,9 @@ type: Documentation
           + [Filtering options](platform/using/filtering-options.md)
           + [Create filters](platform/using/creating-filters.md)
           + [Use case](platform/using/use-case.md)
-     + Create queries {#creating-queries}
-          + [About queries in Campaign](platform/using/about-queries-in-campaign.md)
-          + [Steps to create a query](platform/using/steps-to-create-a-query.md)
-          + [Define filter conditions](platform/using/defining-filter-conditions.md)
+     + [Create queries in Campaign](platform/using/about-queries-in-campaign.md)
+     + [Steps to create a query - HIDDEN](platform/using/steps-to-create-a-query.md)
+     + [Define filter conditions - HIDDEN](platform/using/defining-filter-conditions.md)
      + Permissions {#permissions}
           + [Get started with permissions](platform/using/access-management.md)
           + [Create and manage operators](platform/using/access-management-operators.md)
@@ -96,7 +95,7 @@ type: Documentation
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + [Synchronize data with the CRM](platform/using/crm-data-sync.md)
-     + [Help & support options](support.md)
+     + [Help & support options - HIDDEN](support.md)
 + Create and send messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
      + [Delivery settings](delivery/using/delivery-settings.md)

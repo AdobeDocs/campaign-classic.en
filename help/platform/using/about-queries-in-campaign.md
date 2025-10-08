@@ -10,32 +10,36 @@ exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 ---
 # Get started with queries{#about-queries-in-campaign}
 
- 
+The query tool is available at various levels of the application and can be used to define target populations, segment customers, extract and filter tracking logs, create filters, and more.
 
-The Adobe Campaign query tool can be found on multiple levels of the software: to create a target population, segment customers, extract and filter tracking logs, build filters, etc.
+It provides a dedicated assistant — the generic query editor — accessible from the **[!UICONTROL Tools > Generic query editor...]** menu. This editor enables database queries to extract, organize, group, and sort information. For example, it can retrieve recipients who clicked more than n times on a newsletter link during a given period.
 
-The Adobe Campaign query tool lets you query a database using a dedicated assistant: the generic query editor. It is accessed via the **[!UICONTROL Tools > Generic query editor...]** menu. It lets you extract information stored in a database and organize, group, sort, etc. For instance, the user can recover recipients who clicked more than 'n' times on the link of a newsletter over a given period. This tool lets you collect, sort and display results based on your needs.
+The generic query editor centralizes all querying capabilities. It allows the creation and storage of restriction filters, which can then be reused in other contexts, such as the Query box of a targeting workflow.
 
-This tool combines all Adobe Campaign querying possibilities. For instance, it lets you create and save restriction filters. This means that a user filter created in the Generic query editor can be used in the Query box of a targeting workflow, etc.
+![Access the query editor and select a table](assets/query_editor_nveau_21.png)
 
-Queries are created using fields of the selected table or using a formula.
 
 >[!BEGINTABS]
 
->[!TAB Queries documentation] 
+>[!TAB Query the database] 
 
-To learn more about queries, refer to the [Campaign v8 documentation.](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
-
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+Steps to create a query are detailed in **[Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
->[!TAB Create a query]
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
-Learn the key steps related to the query creation in the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+
+>[!TAB Add a query in a workflow]
+
+Learn the key steps related to the query creation in the context of a workflow in the **[Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}**
 
 [![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
+>[!TAB Filter conditions]
+
+To design your query, you must select the filtering conditions in the query editor. Available capabilities and use cases are detailed in the **[Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+
 >[!ENDTABS]
 
-![Screenshot showing an example of a Query.](assets/query_recipients_4.png)

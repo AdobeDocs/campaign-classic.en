@@ -4,6 +4,7 @@ title: Help & support options for Campaign Classic
 description: Need Support for Campaign Classic? You are at the right place!
 feature: Troubleshooting
 hidefromtoc: yes
+hide: yes
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 ---
 # Help & support options for Campaign Classic {#help-support-options}
@@ -127,7 +128,7 @@ Learn how to manage your Campaign Classic instances settings in the Control Pane
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-The new ticketing system has been launched through [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
+The new ticketing system has been launched through [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. The new system requires new individual accounts for each user, with correct permissions. If you find that you can't log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 
 ### Ask the experts!
 
