@@ -117,8 +117,6 @@ To register recipients for an information service, you can:
 
 * Manually add the service: to do this, from the **[!UICONTROL Subscriptions]** tab of their profile, click **[!UICONTROL Add]** and select the information service concerned.
 
-  For more on this, refer to the section on profile editing in [this section](../../platform/using/editing-a-profile.md).
-
 * Automatically subscribe a set of recipients to this service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct selection using the mouse. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]**, select the service concerned, and launch the operation.
 * Import recipients and subscribe them automatically to an information service. To do this, select the service concerned in the last step of the import assistant.
 

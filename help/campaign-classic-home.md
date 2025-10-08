@@ -90,7 +90,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>Profiles & audiences</strong><br/><a href="platform/using/adding-profiles.md">Add profiles</a> - <a href="platform/using/creating-and-managing-lists.md">Create lists</a> - <a href="delivery/using/about-services-and-subscriptions.md">Services & subscriptions</a> - <a href="platform/using/privacy-management.md">Privacy & consent</a>
+      <strong>Profiles & audiences</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Create lists</a> - <a href="delivery/using/about-services-and-subscriptions.md">Services & subscriptions</a> - <a href="platform/using/privacy-management.md">Privacy & consent</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

@@ -35,8 +35,7 @@ Quarantine and denylist do not apply to the same object:
 
 * Being on the **denylist**, on the other hand, will result in the **profile** no longer being targeted by the delivery, such as after an unsubscription (opt-out), for a given channel. For example, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery.
 
-  You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. See [this section](../../platform/using/editing-a-profile.md#general-tab).
-
+  You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab.
 >[!NOTE]
 >
 >Quarantine includes a **[!UICONTROL Denylisted]** status, which applies when recipients report your message as spam or reply to an SMS message with a keyword such as "STOP". In that case, the profile's involved address or phone number is sent to quarantine with the **[!UICONTROL Denylisted]** status. For more on managing STOP SMS messages, refer to [this section](../../delivery/using/sms-send.md#processing-inbound-messages).

@@ -54,12 +54,12 @@ type: Documentation
           + [Opt-out for the Sale of Personal Information](platform/using/privacy-requests-ccpa.md)
      + Profile management {#profile-management}
           + [About profiles](platform/using/about-profiles.md)
-          + [Edit a profile](platform/using/editing-a-profile.md)
-          + [Add profiles](platform/using/adding-profiles.md)
-          + [Manage profiles](platform/using/managing-profiles.md)
+          + [Edit a profile - HIDDEN](platform/using/editing-a-profile.md)
+          + [Add profiles - HIDDEN](platform/using/adding-profiles.md)
+          + [Manage profiles - HIDDEN](platform/using/managing-profiles.md)
           + [Update data](platform/using/updating-data.md)
-          + [Import and export profiles](platform/using/exporting-and-importing-profiles.md)
-     + [Create and manage lists](platform/using/creating-and-managing-lists.md)
+          + [Import and export profiles - HIDDEN](platform/using/exporting-and-importing-profiles.md)
+          + [Create and manage lists](platform/using/creating-and-managing-lists.md)
      + Import and export data {#importing-and-exporting-data}
           + [Get started with data import and export](platform/using/get-started-data-import-export.md)
           + [Use workflows to import and export data](platform/using/import-export-workflows.md)
@@ -376,11 +376,11 @@ type: Documentation
           + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
           + [Insert a dynamic image](integrations/using/inserting-a-dynamic-image.md)
      + ACS Connector {#acs-connector}
-          + [Get started with [!DNL ACS Connector]](integrations/using/acs-connector-principles-and-data-cycle.md)
-          + [Synchronize profiles](integrations/using/synchronizing-profiles.md)
-          + [Synchronize audiences](integrations/using/synchronizing-audiences.md)
-          + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
-          + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+          + [Get started with [!DNL ACS Connector] - HIDDEN](integrations/using/acs-connector-principles-and-data-cycle.md)
+          + [Synchronize profiles - HIDDEN](integrations/using/synchronizing-profiles.md)
+          + [Synchronize audiences - HIDDEN](integrations/using/synchronizing-audiences.md)
+          + [Synchronize web applications - HIDDEN](integrations/using/synchronizing-web-applications.md)
+          + [Troubleshoot the [!DNL ACS Connector] - HIDDEN](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automate with workflows](workflow/using/about-workflow-automation.md)
 + Automate with workflows {#automating-with-workflows}
      + Get started with workflows {#introduction}

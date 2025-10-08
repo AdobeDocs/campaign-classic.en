@@ -27,13 +27,13 @@ In Adobe Campaign, recipients are the default profiles targeted for sending deli
 
 >[!TAB Profiles documentation]
 
-To learn more about profile, how to create and edit them, please refer to the detailed documentation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}.
+To learn more about profile, how to create and edit them, please refer to the detailed documentation on the **[Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}**.
 
 [![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
 
 >[!TAB Create and edit profiles]
 
-Learn how to edit, manage and add profiles in the Campaign v8 documentation:
+Learn how to edit, manage and add profiles in the **Campaign v8 documentation**:
 
 * [Add profiles](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}: Learn the key steps to add and create new profiles.
 * [Edit profiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles?lang=en#_blank){target=_blank}: View and edit existing profiles. 
@@ -41,7 +41,7 @@ Learn how to edit, manage and add profiles in the Campaign v8 documentation:
 
 >[!TAB Import/export profiles]
 
-Learn how to import and export profiles and data in the Campaign v8 documentation:
+Learn how to import and export profiles and data in the **Campaign v8 documentation**:
 
 * [Import profiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}: You can import profiles using workflows.
 * [Import/export data](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target=_blank}: Learn how to import or export data and profiles using generic imports/exports.
