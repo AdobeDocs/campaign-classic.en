@@ -329,8 +329,9 @@ The user interface will not display a link but a field. When users pick that fie
 
 ## Related topics
 
-* [Working with enumerations](../../platform/using/managing-enumerations.md)
+* Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 * [Get Started with Campaign schemas](../../configuration/using/about-schema-edition.md)
 
 * [Updating the database structure](../../configuration/using/updating-the-database-structure.md)
+

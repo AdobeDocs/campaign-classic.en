@@ -15,8 +15,6 @@ exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also:
 
 * [Watch tutorial videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)
-* [Browse self-help options](../../platform/using/tutorials.md#how-to-videos)
-* [Read out get started and use cases section](../../platform/using/tutorials.md#step-by-step-guides)
 * Cannot find the answer? [Ask the Expert](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 * Need support? [Consult Campaign Help and Support options](../../support.md)
 

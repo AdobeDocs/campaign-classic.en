@@ -53,7 +53,7 @@ You can choose between five different languages:
 * German
 * Japanese
 
-The language you chose for your Adobe Campaign Classic instance might impact date and time formats. For more on this, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#formats){target=_blank}.
+The language you chose for your Adobe Campaign Classic instance might impact date and time formats. For more on this, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
 

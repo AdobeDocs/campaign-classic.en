@@ -151,7 +151,7 @@ When you create a campaign template, you need to enter the following information
 
   >[!NOTE]
   >
-  >For more information on enumerations, refer to the [Getting Started](../../platform/using/managing-enumerations.md) section.
+  >Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 * Select the **type of campaign**: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed in [this section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Specify the duration of the campaign, i.e. the number of days over which the campaign will take place. When creating a campaign based on this template, the campaign start and end dates will be populated automatically.
