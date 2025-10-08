@@ -2,7 +2,6 @@
 product: campaign
 title: About queries in Campaign
 description: About queries in Campaign
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Query Editor
 role: User, Data Architect
 level: Beginner

@@ -119,7 +119,7 @@ When browsing Campaign, data is displayed in lists. You can apply built-in filte
 
 >[!NOTE]
 >
->To learn how to access, design and share filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+>To learn how to access, design and share filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 ## Work with lists {#manage-and-customize-lists}
