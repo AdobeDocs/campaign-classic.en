@@ -11,9 +11,9 @@ exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 
 ## Explore Adobe Campaign interface {#about-adobe-campaign-interface}
 
-Once you are connected to the database, you will access the Adobe Campaign home page, which is a dashboard: it is made up of links and shortcuts which let you access capabilities, depending on your installation as well as general platform configurations.
+Once you are connected to the database, you access the Adobe Campaign home page. This page is your dashboard: it is made up of links and shortcuts which let you access capabilities, depending on your installation and general platform configurations.
 
-From the central section of the home page, you can use links to access Campaign online documentation portal, forum and the support website.
+From the central section of the home page, you can use links to access Campaign documentation portal, community and the Adobe Customer Care website.
 
 ![](assets/d_ncs_user_interface_home.png)
 
