@@ -12,11 +12,9 @@ exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 
 >[!CAUTION]
 >
->* Starting Campaign Classic v7.3.1, all operators should use [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. 
->As part of the effort to reinforce security and authentication process, Adobe Campaign highly recommends to migrate all existing operators authentication mode from the login/password native authentication to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this page](../../technotes/using/migrate-users-to-ims.md).
-> 
->* After this migration, note that the following section no longer apply.  Learn how to set up permissions with Adobe IMS in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}. 
- 
+>These procedures only apply for operators connecting to Campaign with the legacy native authentication. Starting Campaign Classic v7.3.1, all operators should use [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. [Learn more](../../technotes/using/migrate-users-to-ims.md)
+>
+>When connecting to Campaign with your Adobe ID, the following section no longer applies. Learn how to set up permissions with Adobe IMS in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}. 
 
 ## Get started with Campaign operators {#about-operators}
 

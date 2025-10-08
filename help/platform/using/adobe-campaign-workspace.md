@@ -102,7 +102,7 @@ For example, on the delivery page, use the **[!UICONTROL Create]** button to cre
 
 The Adobe Campaign explorer is accessible via the toolbar icon. It lets you access the Adobe Campaign all the Adobe Campaign capabilities, configuration screens and a more detailed view of some of the platform elements.
 
-To learn more about Adobe Campaign explorer, refer to these pages in the Campaign v8 (console) documentation: 
+To learn more about Adobe Campaign explorer, refer to these pages in the **Campaign v8 (console) documentation**: 
 
 * [Campaign user interface overview](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 

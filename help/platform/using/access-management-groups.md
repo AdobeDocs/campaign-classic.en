@@ -12,7 +12,9 @@ exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 
 >[!NOTE]
 >
->These procedures only apply for operators connecting to Campaign with native authentication. For Adobe IMS authentication, refer to [this documentation](https://helpx.adobe.com/enterprise/using/user-groups.html).
+>These procedures only apply for operators connecting to Campaign with the legacy native authentication. Starting Campaign Classic v7.3.1, all operators should use [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. [Learn more](../../technotes/using/migrate-users-to-ims.md)
+>
+>When connecting to Campaign with your Adobe ID, the following section no longer applies. Learn how to set up permissions with Adobe IMS in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}. 
 
 Operator groups are created via the **[!UICONTROL Administration > Access management > Operator groups]** node in the tree.
 

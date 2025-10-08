@@ -86,10 +86,11 @@ type: Documentation
      + [Define filter conditions - HIDDEN](platform/using/defining-filter-conditions.md)
      + Permissions {#permissions}
           + [Get started with permissions](platform/using/access-management.md)
-          + [Create and manage operators](platform/using/access-management-operators.md)
-          + [Create and manage groups](platform/using/access-management-groups.md)
+          + Native authentication (legacy) {#native}
+               + [Create and manage operators](platform/using/access-management-operators.md)
+               + [Create and manage groups](platform/using/access-management-groups.md)
           + [Use named rights to set up permissions](platform/using/access-management-named-rights.md)
-          + [Manage access to folders](platform/using/access-management-folders.md)
+          + [Manage access to folders - HIDDEN](platform/using/access-management-folders.md)
      + CRM connectors {#connectors}
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
           + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
