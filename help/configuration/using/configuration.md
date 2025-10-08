@@ -10,7 +10,7 @@ exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 
 As an expert user, you can add folders in the explorer tree and customize it. 
 
-Learn more about Campaign explorer and navigation hierarchy [in this section](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
+Learn more about Campaign user interface in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 The types of folders used by the navigation list are described in an XML document that obeys the grammar of the **xtk:navtree** schema.
 

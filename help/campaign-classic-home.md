@@ -10,7 +10,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 ## What's New
 
-Get a glimpse of the newest enhancements in Adobe Campaign Classic v7 product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](rn/using/latest-release.md).  Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](rn/using/documentation-updates.md).
+Get a glimpse of the newest enhancements in Adobe Campaign Classic v7 product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](rn/using/latest-release.md). 
 
 >[!BEGINTABS]
 

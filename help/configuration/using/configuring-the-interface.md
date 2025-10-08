@@ -62,10 +62,6 @@ Creating a new form will enable you to view and edit the data of the external re
 1. Create a new **xtk:navtree** type **navtree** document.
 1. Describe all the monitoring and fields that you need depending on your table template.
 
-   >[!NOTE]
-   >
-   >For more on **navtree** type files, refer to [this page](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
-
    In the current example, the **navtree** file must be based on the **cus:individual** schema and therefore have the following form:
 
    ```

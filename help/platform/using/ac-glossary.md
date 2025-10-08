@@ -346,7 +346,9 @@ Learn more how to **work with enumerations** in [Adobe Campaign v8 (console) doc
 
 The Explorer view is a hierarchical display of the folders that hold Adobe Campaign artifacts and data. Note that the folder system in Adobe Campaign does not function like a typical treeview, in that each folder holds data of a specific type, such as Deliveries, Workflows or Offers.
 
-Learn more about [Explorer view](../../platform/using/adobe-campaign-explorer.md).
+
+Learn more about Campaign user interface in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**External accounts**
@@ -392,14 +394,15 @@ Learn more about [Filtering dimension](../../workflow/using/building-a-workflow.
 
 A folder is an Explorer view item that holds database records of a specific data type. The exception is the Generic folder type that is used as an organizing element and does not contain any data itself, only other folders. 
 
-Learn more about [Folders](../../platform/using/adobe-campaign-explorer.md).
+Learn more about Campaign user interface in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**Folder view**
 
 The Folder view is a special Explorer folder type that is used to display all records of a selected data type, no matter what folder it belongs to. Folder views are used as an administrative tool to manage partitioned data or data that is distributed among many folders.
 
-Learn more about [Folder View](../../platform/using/adobe-campaign-explorer.md).
+Learn more about Campaign user interface in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 +++
 
 +++**Forms**
@@ -552,7 +555,8 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 The navigation tree is the main navigation in the Explorer view of Adobe Campaign. The navigation tree works like a file browser (e.g. Windows Explorer). Folders may contain sub-folders. Selecting a node displays the view corresponding to the node. The view displayed is a list associated with a schema and an input form to edit the selected line. You can customize the navigation tree and set permissions on folders.
 
-Learn more about [Navigation Tree](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
+Learn more about Campaign user interface in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**Objectives**
