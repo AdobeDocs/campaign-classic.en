@@ -42,7 +42,7 @@ To select the recipients of a delivery, follow the steps below:
 
    The following target types are offered by default:
 
-    * **[!UICONTROL Filtering conditions]** : this option lets you define a query and display the result. The method for defining queries is presented in [this section](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+    * **[!UICONTROL Filtering conditions]** : this option lets you define a query and display the result. For more information about filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
     * **[!UICONTROL Subscribers of an information service]** : this option lets you select a newsletter to which the recipients must be subscribed to be targeted by the delivery being created.
 
       ![](assets/s_ncs_user_wizard_email02c.png)
@@ -66,7 +66,7 @@ To select the recipients of a delivery, follow the steps below:
     * **[!UICONTROL Recipients included in a folder]** : this option lets you target the profiles contained in a specific folder of the tree.
     * **[!UICONTROL A recipient]** : this option lets you select a specific recipient from the profiles in the database.
     * **[!UICONTROL A list of recipients]** : this option lets you target a list of recipients. Lists are presented in the [this section](../../platform/using/creating-and-managing-lists.md).
-    * **[!UICONTROL User filters]** : this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [this section](../../platform/using/creating-filters.md#saving-a-filter).
+    * **[!UICONTROL User filters]** : this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. For more information about filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
     * The option **[!UICONTROL Exclude recipients corresponding to this segment]** lets you target on recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
 
       ![](assets/s_ncs_user_wizard_email02g.png)

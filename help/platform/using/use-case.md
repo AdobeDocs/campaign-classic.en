@@ -3,7 +3,6 @@ product: campaign
 title: Use case
 description: Use case
 feature: Subscriptions, Email, Data Management
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
@@ -42,7 +41,8 @@ Apply the following steps:
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   You can access these fields to define filter conditions in the body of the filter editor. An application filter is defined in exactly the same way as an advanced filter. See [Create an advanced filter](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   You can access these fields to define filter conditions in the body of the filter editor. An application filter is defined in exactly the same way as an advanced filter. For more information about filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+
 
 1. Create a new filter on subscriptions to display only subscriptions with an undefined email format:
 

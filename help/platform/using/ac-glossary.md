@@ -789,7 +789,7 @@ Learn more about [Plans](../../campaign/using/setting-up-marketing-campaigns.md)
 
 Pre-defined filters are queries that have been saved for re-use. Use of pre-defined filters increases productivity (because they are only created once), help build consistency (because all marketers can use them) and lower the skills required of the marketer because they can use code or logic that they might not be able to create themselves. 
 
-Learn more about [Pre-defined filters](../../platform/using/creating-filters.md#filtering-recipients).
+For more information about filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 +++
 
 <!--

@@ -2,6 +2,8 @@
 product: campaign
 title: Creating filters
 description: Creating filters
+hide: yes
+hidefromtoc: yes
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 ---
 # Create filters{#creating-filters}
@@ -10,13 +12,7 @@ Data filtering is the process of selecting a smaller part of your data set, only
 
 When you navigate in the Adobe Campaign tree (from the **[!UICONTROL Explorer]** menu in the home page), the data contained in the database is displayed in lists. These lists can be configured to display only the data required by the operator. Actions can then be launched on the filtered data. Filter configuration lets you select data from a list **[!UICONTROL dynamically]**. If the data is modified, the filtered data is updated.
 
->[!NOTE]
->
->User interface configuration settings are defined locally at the device level. It may sometimes be necessary to clean up this data, particularly if problems arise when refreshing data. To do this, use **[!UICONTROL File > Clear the local cache]** menu.
-
->[!NOTE]
->
->To learn more about Filters and how to use them, please refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
+Learn more about **Filters and how to use them** in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 
 
 <!--

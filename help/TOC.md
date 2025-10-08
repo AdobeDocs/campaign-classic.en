@@ -31,6 +31,7 @@ type: Documentation
      + [Browse and customize lists - HIDDEN](platform/using/adobe-campaign-ui-lists.md)
      + [Enumerations - HIDDEN](platform/using/managing-enumerations.md)
      + [Campaign connectors](platform/using/about-connectors.md)
+     + [Create queries in Campaign](platform/using/about-queries-in-campaign.md)
      + Frequently Asked Questions {#faq}
           + [Top questions](platform/using/common-questions.md)
           + [Global concepts](platform/using/faq-key-concepts.md)
@@ -78,10 +79,9 @@ type: Documentation
                + [Import and export best practices](platform/using/import-export-best-practices.md)
                + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
      + Filter data {#filtering-data}
-          + [Filtering options](platform/using/filtering-options.md)
-          + [Create filters](platform/using/creating-filters.md)
-          + [Use case](platform/using/use-case.md)
-     + [Create queries in Campaign](platform/using/about-queries-in-campaign.md)
+          + [Filtering options - HIDDEN](platform/using/filtering-options.md)
+          + [Create filters - HIDDEN](platform/using/creating-filters.md)
+          + [Use case - Hidden](platform/using/use-case.md)
      + [Steps to create a query - HIDDEN](platform/using/steps-to-create-a-query.md)
      + [Define filter conditions - HIDDEN](platform/using/defining-filter-conditions.md)
      + Permissions {#permissions}

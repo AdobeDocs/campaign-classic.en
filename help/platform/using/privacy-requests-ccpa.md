@@ -67,7 +67,7 @@ It is the responsibility of the Data Controller to populate the value of the fie
 
 To populate the values, several methods can be used:
 
-* Using Campaign’s interface by editing the recipient's details
+* Using Campaign's interface by editing the recipient's details
 * Using the API
 * Via a data import workflow
 
@@ -81,6 +81,7 @@ You should then ensure that you never sell to any third party the personal infor
 
     ![](assets/privacy-ccpa-6.png)
 
-1. You can click the column to sort recipients according to the opt-out information. You can also create a filter to only display recipients who have opted-out. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
+1. You can click the column to sort recipients according to the opt-out information. You can also create a filter to only display recipients who have opted-out. For more information about filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+
 
     ![](assets/privacy-ccpa-7.png)

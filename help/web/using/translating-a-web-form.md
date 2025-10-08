@@ -64,7 +64,7 @@ For characters strings which have never been translated, the **[!UICONTROL Text]
 
 ### Filtering strings {#filtering-strings}
 
-By default, each translation language of the Web application is displayed. There are two default filters: language and status. Click the **[!UICONTROL Filters]** button, then click **[!UICONTROL By language or status]** to display the matching drop-down boxes. You can also create an advanced filter. For more on this, refer to [this page](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+By default, each translation language of the Web application is displayed. There are two default filters: language and status. Click the **[!UICONTROL Filters]** button, then click **[!UICONTROL By language or status]** to display the matching drop-down boxes. You can also create an advanced filter. For more information about filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 

@@ -275,7 +275,4 @@ Additionally to these views, you can set up filters folders that will allow you 
 
 ![](assets/workflow-monitoring-filter.png)
 
-For more information, refer to these sections:
-
-* [Creating advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
-* [Saving filters](../../platform/using/creating-filters.md#saving-a-filter)
+For more information about filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
