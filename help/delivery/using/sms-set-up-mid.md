@@ -148,7 +148,7 @@ To do this, follow the steps below:
 
 ## Change the delivery template {#changing-the-delivery-template}
 
-Adobe Campaign offers a mobile delivery template located in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [About templates](about-templates.md) section.
+Adobe Campaign offers a mobile delivery template located in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
 
 To send messages through the SMS channel, you must create a template that includes a reference to the channel connector.
 

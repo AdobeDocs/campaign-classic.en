@@ -109,7 +109,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
 Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
-For more on this, see [this section](defining-interactive-content.md).
+For more on this, see the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"}.
 
 ## Use content management {#using-content-management}
 

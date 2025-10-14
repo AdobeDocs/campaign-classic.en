@@ -25,7 +25,7 @@ After clicking the **[!UICONTROL Send]** button, your delivery seems to take lon
 
 * Some email providers might have added your IP addresses to a denylist. In this case, check your broadlogs and consult [this section](about-deliverability.md).
 
-* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](delivery-best-practices.md) to learn about content guidelines.
+* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign v8 [Delivery best practices](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}.  to learn about content guidelines.
 
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 
@@ -67,7 +67,7 @@ Delivery logs are key to learn why a delivery failed. Here are possible errors t
 
   To solve this, we recommend performing a vacuum and reindex on the database. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md).
 
-  You should also restart all workflows with a scheduled activity, and all workflows in failed status. Refer to [this section](../../workflow/using/scheduler.md).
+  You should also restart all workflows with a scheduled activity, and all workflows in failed status. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 * When a delivery fails, the following error can appear in the delivery logs:
 
@@ -77,7 +77,7 @@ Delivery logs are key to learn why a delivery failed. Here are possible errors t
 
   Usually, this error means that there is a personalization field or block within the email that has more than one values for the recipient. A personalization block is being used and it is fetching more than one record for a particular recipient.
 
-  To solve this, check the personalization data used, and then check the target for recipients that have more than one entry for any of those fields. You can also use a **[!UICONTROL Deduplication]** activity in the targeting workflow prior to the delivery activity to check there is only one personalization field at a time. For more information on deduplication, refer to [this page](../../workflow/using/deduplication.md).
+  To solve this, check the personalization data used, and then check the target for recipients that have more than one entry for any of those fields. You can also use a **[!UICONTROL Deduplication]** activity in the targeting workflow prior to the delivery activity to check there is only one personalization field at a time. For more information on deduplication, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
 
 * Some delivery can fail with an "Unreachable" error stating: 
 

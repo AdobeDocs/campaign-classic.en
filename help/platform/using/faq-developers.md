@@ -49,7 +49,7 @@ You can query Campaign database using the generic query editor. It is accessed v
 
 Queries are created using fields of the selected table or using a formula. Main principles to create a query on Campaign database are described [in this page](../../platform/using/about-queries-in-campaign.md).
 
-[Click here](../../workflow/using/query.md) to discover Campaign query editor.
+Learn about queries to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 ## How can I import a data package? {#how-can-i-import-a-data-package-}
 

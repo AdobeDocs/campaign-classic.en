@@ -23,7 +23,7 @@ For additional tips to optimize deliverability when designing content, see the [
 
 >[!NOTE]
 >
->For more information on editing email content, see [Define the email content](defining-the-email-content.md).
+>For more information on editing email content, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}.
 
 ## Sender address {#sender-address}
 
@@ -31,7 +31,7 @@ Certain ISPs check the validity of the sender address (**[!UICONTROL From]**) be
 
 You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > deployment wizard...]**) or in the most frequently-used scenarios.
 
-For more on this, see [this page](defining-the-email-content.md).
+For more on this, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}.
 
 ## Personalization {#personalization}
 
@@ -41,7 +41,7 @@ For more on using personalization fields in Adobe Campaign, see [this section](p
 
 ## Opt-out link and form {#opt-out}
 
-By default, when the message is analyzed, a [typology rule](steps-validating-the-delivery.md#validation-process-with-typologies) checks whether an opt-out link has been included and generates a warning if it is missing. You can change this rule so that an error is raised rather than a simple warning and stop a delivery from going out without this link.
+By default, when the message is analyzed, a typology rule checks whether an opt-out link has been included and generates a warning if it is missing. You can change this rule so that an error is raised rather than a simple warning and stop a delivery from going out without this link. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 You must check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line and that validating this changes the value of the **[!UICONTROL No longer contact this recipient]** field to **[!UICONTROL Yes]**. You should make this check systematically because human error is always possible when entering the link or when changing the form.
 

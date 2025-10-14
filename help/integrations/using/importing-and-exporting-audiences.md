@@ -50,7 +50,7 @@ The audience data is completely replaced every time it is synchronized. Only seg
 
 ## Exporting an audience {#exporting-an-audience}
 
-You can export an audience from Adobe Campaign to Audience manager using a workflow. The processes for creating and using a workflow are detailed in [this document](../../workflow/using/building-a-workflow.md). The exported audiences are saved as segments:
+You can export an audience from Adobe Campaign to Audience manager using a workflow. The processes for creating and using a workflow are detailed in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}. The exported audiences are saved as segments:
 
 1. Create a new targeting workflow.
 1. Using the different activities available, target a set of recipients.

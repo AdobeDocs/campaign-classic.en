@@ -26,7 +26,7 @@ The delivery outline activity, available in the campaign workflows, lets you pre
 1. In a workflow, add a delivery outline activity before adding a delivery activity.
 1. In the delivery outline activity, specify the outline you would like to use.
 
-   For more information on specifying delivery outlines, refer to the [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
+   For more information on specifying delivery outlines, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"}.
 
 1. Complete the available fields according to your delivery.
 1. There are two possible cases:
@@ -49,7 +49,7 @@ The enrichment activity lets you add offers or links to offers for delivery reci
 
 >[!NOTE]
 >
->For more information on the enrichment activity, refer to the dedicated documentation in the [Workflows guide](../../workflow/using/enrichment.md).
+>For more information on the enrichment activity, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 For example, you can enrich the data for a recipient query before a delivery.
 
@@ -62,7 +62,7 @@ There are two methods for specifying offer propositions.
 
 ### Specifying an offer or a call to the offer engine {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
+After configuring your query (refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}):
 
 1. Add and open an enrichment activity.
 1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]**.

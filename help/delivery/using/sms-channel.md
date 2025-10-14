@@ -12,7 +12,7 @@ Use Adobe Campaign to send text messages to your customers on their mobile devic
 
 SMS is a direct and highly effective channel for reaching your users wherever they are. With high open rates and near-instant delivery, SMS is ideal for time-sensitive alerts, transactional updates, and concise promotional messages. Use SMS to complement your cross-channel strategy and deliver impactful, real-time communication. Learn how to configure and use the SMS channel effectively in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target=_blank}.
 
-As part of the Campaign v8 promotion initiative, the Campaign Classic documentation has been reorganized. Common features are now only available in the Campaign v8 documentation set. 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
 
 >[!BEGINTABS]
 
@@ -26,7 +26,7 @@ To learn more about SMS channel, refer to the [Campaign v8 documentation](https:
 
 >[!TAB SMS delivery creation]
 
-Learn the key steps related to SMS delivery creation in the Campaign v8 documentation:
+Learn the key steps related to SMS delivery creation **in the Campaign v8 documentation**:
 
 * [SMS channel overview](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target="_blank"}: Learn how you can send text messages to your customers on their mobile devices. 
 * [Create a SMS delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html){target="_blank"}: Discover the different steps needed to create a new SMS delivery.
@@ -39,7 +39,7 @@ Learn the key steps related to SMS delivery creation in the Campaign v8 document
 
 >[!TAB SMS configuration]
 
-Refer to these pages to learn about SMS configuration:
+Refer to these pages to learn about SMS configuration. These pages are specific to Campaign v7.
 
 * [Standalone configuration](sms-set-up.md): Learn how to configure the SMS channel on a standalone instance.
 * [Mid-sourcing configuration](sms-set-up-mid.md): Discover how to send to a mobile phone with mid-servers.

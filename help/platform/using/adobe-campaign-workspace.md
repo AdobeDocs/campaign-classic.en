@@ -37,7 +37,7 @@ Whereas with web access, the options will mainly enable viewing:
 
 ![From a browser, the same operator can only view and cancel the campaign.](assets/operation_from_web.png)
 
-Learn more about [using the web interface](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+Learn more about using the web interface in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}.
 
 ### Languages {#languages}
 

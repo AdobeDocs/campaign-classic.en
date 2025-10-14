@@ -117,7 +117,7 @@ Reports on campaigns concern the data in the **nms:operation** table.
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](../../campaign/using/designing-marketing-campaigns.md).
+For more on the content of these reports, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}. 
 
 <table> 
  <tbody> 
@@ -213,7 +213,7 @@ For more on the content of these reports, refer to the related guides.
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](../../campaign/using/designing-marketing-campaigns.md).
+For more on the content of these reports, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}. 
 
 <table> 
  <tbody> 

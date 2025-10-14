@@ -24,7 +24,7 @@ To use the dynamic condition, you must have:
 
 ## Step 1 - Create a delivery {#step-1---creating-a-delivery}
 
-The steps for creating a delivery are detailed in the [Create an email delivery](creating-an-email-delivery.md) section.
+The steps for creating a delivery are detailed in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}.
 
 In this example, the delivery manager has created the newsletter and selected the recipients.
 

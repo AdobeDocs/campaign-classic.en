@@ -12,7 +12,7 @@ With Adobe Campaign, create push notification deliveries to send personalized me
 
 Push notifications let you engage users on iOS and Android in real time. Whether sending updates, announcements, or promotions, you can control content, timing, and targeting. Learn how to set up and use the push channel, managing subscriptions, integrating with APNs and FCM, and personalizing messages in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
-As part of the Campaign v8 promotion initiative, the Campaign Classic documentation has been reorganized. Common features are now only available in the Campaign v8 documentation set.
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
 
 >[!BEGINTABS]
 
@@ -25,7 +25,7 @@ To learn more about push notification channel, refer to the [Campaign v8 documen
 
 >[!TAB Push delivery creation]
 
-Learn the key steps related to push delivery creation in the Campaign v8 documentation:
+Learn the key steps related to push delivery creation **in the Campaign v8 documentation**:
 
 * [Create a push notification](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html#push-create){target="_blank"}: Learn about the different steps needed to create a push delivery.
 * [Send and monitor the push notification](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html#push-test){target="_blank"}: Learn how to validate, send and track your deliveries. 
@@ -35,7 +35,7 @@ Learn the key steps related to push delivery creation in the Campaign v8 documen
 
 >[!TAB Push parameters]
 
-Refer to these pages to learn about push parameters in the Campaign v8 documentation:
+Refer to these pages to learn about push parameters **in the Campaign v8 documentation**:
 
 * [Configuration prerequisites](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#before-starting){target="_blank"}: Learn how to set up permissions and configure your app.
 * [Configure the launch property](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#launch-property){target="_blank"}: Learn how to set up a mobile tag property in Adobe Experience Platform Data Collection to enable push notifications.

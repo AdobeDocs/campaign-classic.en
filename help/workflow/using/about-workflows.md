@@ -3,23 +3,47 @@ product: campaign
 title: About workflows
 description: Automate processes with workflows, manage data and audiences, send messages, and more
 feature: Workflows, Data Management
-hide: yes
-hidefromtoc: yes
-exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
+exl-id: 024a7344-9376-4ff3-926a-003148229f9f
+
 ---
-# Get started with workflows{#gs-workflows}
+# Automate with workflows {#gs-workflows}
+
+Adobe Campaign's workflows enable your team to streamline and automate end-to-end business processes across the platform. With an intuitive graphical interface, you can design and manage workflows that coordinate tasks such as data segmentation, campaign execution, file handling, and even user approvals — all in one place.
+
+For instance, you can automate a process to retrieve a file from a remote server, extract its contents, and seamlessly load the data into Adobe Campaign server - reducing manual effort and increasing operational efficiency. The workflow engine ensures every step is executed reliably and tracked for visibility and control.
+
+>[!BEGINTABS]
+
+>[!TAB Workflow documentation] 
+
+To learn more about workflows management, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target=_blank}.
+
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target=_blank}
+
+
+>[!TAB Useful links]
+
+Learn the key steps related to workflow management in Campaign v8 documentation:
+
+* [Workflow activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target=_blank}: An activity is a task template. Workflows include targeting, flow control, action and event activities. 
+
+* [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target=_blank}: Learn how to create and run targeting, campaign and technical workflows. 
+
+* [Best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target=_blank}: Learn guidelines to optimize Campaign workflows performance, improve your workflows design and define the correct settings.
+
+* [Monitor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target=_blank}: Learn how to monitor workflow execution to ensure that everything is running correctly.
+
+* [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}: Learn contexts in which workflows can be used and how to implement them through end-to-end use cases.
+
+
+>[!ENDTABS]
 
 
 
-## About workflows{#about-workflows}
 
-Adobe Campaign includes a workflow module that empowers you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
 
-You can use a workflow, for example, to download a file from a server, decompress it, and then import records contained within into the Adobe Campaign database.
-
-A workflow can also involve one or more operators to be notified or who can make choices and approve processes. In this way, it is possible to create a delivery action, assign a task to one or more operators to work on content, specify targets, and to approve proofs before starting the delivery.
-
-Workflows occur within various contexts and stages of the campaign management process.
+<!--
 
 Adobe Campaign uses workflows to:
 
@@ -72,3 +96,5 @@ Refer to these sections to find guidance and best practices to automate processe
 * Find guidance about workflow execution in [this section](starting-a-workflow.md).
 * Learn how to monitor workflows in [this page](monitoring-workflow-execution.md).
 * Learn how to grant access to users to use workflows in [this page](managing-rights.md).
+
+-->

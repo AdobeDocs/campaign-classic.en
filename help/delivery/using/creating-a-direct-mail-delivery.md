@@ -15,12 +15,12 @@ To create a new direct mail delivery, follow the steps below:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
+>Global concepts on delivery creation are presented in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 1. Create a new delivery, for example from the Delivery dashboard.
 1. Select the delivery template **Deliver by direct mail (paper)**.
 
    ![](assets/direct_mail.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](steps-create-and-identify-the-delivery.md#identifying-the-delivery)
+1. Identify your delivery with a label, code, and description. For more on this, refer to this section in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}.
 1. Click **Continue** to confirm this information and display the message configuration window.

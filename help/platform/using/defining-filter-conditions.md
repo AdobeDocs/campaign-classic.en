@@ -286,7 +286,7 @@ There are four types of calculated fields:
 
   It's possible to use the source value of a column and give it a destination value. This destination value will be displayed in the new output column.
 
-  An example of adding calculated field type **[!UICONTROL Enumerations]** is available, refer to [this section](../../workflow/using/adding-enumeration-type-calculated-field.md).
+  An example of adding calculated field type **[!UICONTROL Enumerations]** is available, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html){target="_blank"}.
 
   ![](assets/query_editor_nveau_63.png)
 

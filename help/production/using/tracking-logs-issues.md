@@ -16,7 +16,7 @@ There can be multiple reasons for tracking logs not being forwarded. We recommen
 
 * **Does the **Tracking** workflow have errors?**
 
-  Refer to [Monitoring technical workflows](../../workflow/using/monitoring-technical-workflows.md).
+Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}.
 
   ![](assets/tracking_scheduled_task.png)
 

@@ -10,7 +10,7 @@ exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 ---
 # Create notifications for iOS{#create-notifications-ios}
 
-This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
+This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 Start by creating a new delivery.
 
@@ -28,7 +28,7 @@ To create a push notification for iOS devices, follow the steps below:
 
    >[!NOTE]
    >
-   >The detailed process when selecting the target population of a delivery is presented in [this section](steps-defining-the-target-population.md).
+   >The detailed process when selecting the target population of a delivery is presented in this section in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population.){target="_blank"}.
    >
    >For more on the use of personalization fields, refer to [this section](about-personalization.md).
    >

@@ -58,7 +58,7 @@ The Control Panel allows you to manage several settings of your instance: manage
 
 **Workflow HeatMap**
 
-The Workflow HeatMap provided a visual representation of all the workflows that are running on your instance. It allows you to easily monitor the load on the instance and plan workflows accordingly. [Click here](../../workflow/using/heatmap.md) for more information.
+The Workflow HeatMap provided a visual representation of all the workflows that are running on your instance. It allows you to easily monitor the load on the instance and plan workflows accordingly. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}.
 
 **Audit trail**
 
@@ -70,13 +70,13 @@ Specific actions can be performed when encountering issues with a workflow execu
 
 **Workflow status monitoring**
 
-Additionally to the heatmap, you can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors. [Click here](../../workflow/using/supervising-workflows.md) for more information.
+Additionally to the heatmap, you can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}.
 
 **General guidelines**
 
 Following guidelines and best practices when using workflows can help improve performances. For more information, refer to these sections:
-* [Best practices when using workflows](../../workflow/using/workflow-best-practices.md)
-* [Monitoring workflow execution](../../workflow/using/monitoring-workflow-execution.md)
+* [Best practices when using workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
+* [Monitoring workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 ### Monitoring deliveries {#monitoring-deliveries}
 
@@ -88,7 +88,7 @@ SMTP reports display delivery statistics and SMTP errors by domain. [Learn more]
 
 **Best practices**
 
-[Best practices for delivery sending and designing](../../delivery/using/delivery-best-practices.md) can help you improve their performances.
+Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"} to learn about best practices for delivery sending and designing in order to improve performance.
 
 **Delivery troubleshooting**
 Specific actions can be performed when encountering issues with deliveries:

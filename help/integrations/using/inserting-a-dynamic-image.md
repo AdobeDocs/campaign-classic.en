@@ -148,7 +148,7 @@ The **[!UICONTROL Reporting Settings]** section lets you select an action and ed
 
 ## Preview and send the email {#preview-send-email}
 
-In Adobe Campaign, you can now preview your email and test its rendering on different recipients. You will notice that the image changes according to the different experiences created. To learn more on email creation, refer to this [page](../../delivery/using/defining-the-email-content.md).
+In Adobe Campaign, you can now preview your email and test its rendering on different recipients. You will notice that the image changes according to the different experiences created. To learn more on email creation, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}.
 
 You are now ready to send your email including a dynamic offer from Target.
 

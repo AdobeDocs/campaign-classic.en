@@ -14,7 +14,7 @@ In addition to [built-in reports](../../reporting/using/about-campaign-built-in-
 
 Adobe Campaign isn't a specialized reporting tool: reports created in Adobe Campaign mainly enable you to view aggregated data. Adobe Campaign reports, which are dedicated to analyzing and representing data, are not designed for database exports.
 
-To export data from the Adobe Campaign database, you need to create a workflow and use a data export activity. For more on this, refer to [this section](../../workflow/using/about-action-activities.md).
+To export data from the Adobe Campaign database, you need to create a workflow and use a data export activity. For more on this, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}.
 
 Adobe Campaign provides several reporting tools:
 

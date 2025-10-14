@@ -19,11 +19,11 @@ When adding personalized links to your content, always avoid having any personal
 
 ### Recommendation
 
-To validate and ensure that you are not using above, run a query on tracking URL table via [Campaign Generic Query Editor](../../platform/using/about-queries-in-campaign.md) or create a workflow with filter criteria in the [query activity](../../workflow/using/query.md).
+To validate and ensure that you are not using above, run a query on tracking URL table via [Campaign Generic Query Editor](../../platform/using/about-queries-in-campaign.md) or create a workflow with filter criteria in the query activity. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 Example:
 
-1. Create a workflow and add a **Query** activity. [Learn more](../../workflow/using/query.md).
+1. Create a workflow and add a **Query** activity. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. Open the **Query** activity and create a filter on the `nmsTrackingUrl` table as follows: 
 

@@ -163,6 +163,6 @@ To do this, follow the steps below:
 
 1. Create one external account per brand with the same internal name as defined on the [execution instance](#execution-instance) (step 1).
 
-1. Create a [delivery template](../../delivery/using/about-templates.md) per brand.
+1. Create a delivery template per brand. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
 
 1. In the delivery template's **[!UICONTROL Properties]**, set the routing to the external account of the brand.

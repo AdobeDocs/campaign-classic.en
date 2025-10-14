@@ -22,7 +22,7 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 ![](assets/campaign_op_add_delivery.png)
 
-The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. [Learn more](../../delivery/using/steps-about-delivery-creation-steps.md).
+The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 ## Start a delivery {#starting-a-delivery}
 

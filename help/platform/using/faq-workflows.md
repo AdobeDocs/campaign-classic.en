@@ -16,7 +16,7 @@ Learn how to orchestrate processes and tasks with Adobe Campaign workflows.
 
 ## What are the key steps to create a workflow? {#what-are-the-key-steps-to-create-a-workflow-}
 
-[Click here to learn how to create your first workflow](../../workflow/using/building-a-workflow.md): learn concepts and best practices to build workflows in Campaign.
+Learn how to create your first workflow in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}: learn concepts and best practices to build workflows in Campaign.
 
 ## How can I import data in Campaign? {#how-can-i-import-data-in-campaign-}
 
@@ -24,13 +24,14 @@ Learn best practices to import data in [this section](../../platform/using/impor
 
 ## Can I monitor workflow execution? {#can-i-monitor-workflow-execution-}
 
-Understand how to monitor Campaign workflow execution [in this page](../../workflow/using/starting-a-workflow.md).
+Understand how to monitor Campaign workflow execution in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution
+.html){target="_blank"}.
 
 ## How can I update Campaign data with a workflow? {#how-can-i-update-campaign-data-with-a-workflow-}
 
 You can perform massive update, merge and insert on the data in the database.
 
-[Click here to learn more](../../workflow/using/update-data.md).
+Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}.
 
 ## How can I leverage data management capabilities? {#how-can-i-leverage-data-management-capabilities-}
 
@@ -40,15 +41,15 @@ In Adobe Campaign, you can leverage a set of activities for solving complex targ
 * Keeping and conveying buffer calculations, especially during target construction phases or for database administration.
 * Accessing external bases (optional): heterogeneous databases taken into account during the targeting process.
 
-[Click here to learn more](../../workflow/using/targeting-data.md#data-management) and be able to design complex target and work on your data combining data management workflow activities.
+Learn how to design complex target and work on your data combining data management workflow activities in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}.
 
 ## Can I automate personalized messages sending? {#can-i-automate-personalized-messages-sending-}
 
-Read out [this use case](../../workflow/using/enriching-data.md) to send personalized messages to people depending on their highest scores of a competition.
+Check the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html){target="_blank"} to learn how to send personalized messages to people depending on their highest scores of a competition.
 
 ## How can I split an audience in subsets with a workflow? {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
 
-Learn how to split a target into several subsets [in this section](../../workflow/using/split.md).
+Learn how to split a target into several subsets in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}.
 
 ## How can I update recipient data from an external file? {#how-can-i-update-recipient-data-from-an-external-file-}
 
@@ -58,4 +59,4 @@ You can modify certain fields in a Campaign table with values from an external t
 
 ## How can I identify and target new recipients? {#how-can-i-identify-and-target-new-recipients-}
 
-[This use case](../../workflow/using/using-aggregates.md) will learn you how to use aggregates to automatically identify last recipients added in the database and send them a welcome message.
+Check the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"} to learn you how to use aggregates to automatically identify last recipients added in the database and send them a welcome message.

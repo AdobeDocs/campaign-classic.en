@@ -115,7 +115,7 @@ For more on the delivery throughput, see [this section](../../reporting/using/gl
 
 The retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
 
-For more on retries, see [this section](steps-sending-the-delivery.md#configuring-retries).
+For more on retries, see this [page](communication-channels.md) under **Delivery sending** > **Configure retries**.
 
 ### Validity period
 
@@ -125,7 +125,7 @@ For example, if the validity period is set to the default value of 5 days in Cam
 
 Once a message has been in the Enhanced MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the delivery logs.
 
-For more on the validity period, see [this section](steps-sending-the-delivery.md#defining-validity-period).
+For more on the validity period, see this [page](communication-channels.md) under **Delivery sending** > **Define the validity period**.
 
 ### DKIM-signing
 
@@ -134,7 +134,7 @@ For more on DKIM, see the [Adobe Deliverability Best Practice Guide](https://exp
 
 ### Delivery success reporting
 
-In the **[!UICONTROL Summary]** view of an email delivery [dashboard](delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
+In the **[!UICONTROL Summary]** view of an email delivery [dashboard](delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](communication-channels.md), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
 
 Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
 

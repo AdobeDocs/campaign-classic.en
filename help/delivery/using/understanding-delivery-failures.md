@@ -182,9 +182,9 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 >
 >For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
 
-For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. See [Defining validity period](steps-sending-the-delivery.md#defining-validity-period).
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, to modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. See this [page](communication-channels.md) under **Delivery sending** > **Define the validity period**.
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template. See [Configure retries](steps-sending-the-delivery.md#configuring-retries).
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template. See this [page](communication-channels.md) under **Delivery sending** > **Configure retries**.
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 

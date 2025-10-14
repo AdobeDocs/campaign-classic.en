@@ -139,7 +139,7 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 >* Adobe recommends that you add the tables that are specific to your data model, which can be subject to significant updates. This can be the case for **NmsRecipient** if you have large daily data replication flows.
 >* The VACUUM statement will lock the table, which pauses some processes while maintenance is carried out.
 >* For very large tables (typically above 5 Gb), the VACUUM FULL statement can become quite inefficient and take a very long time. Adobe does not recommend using it for the **YyyNmsBroadLogXxx** table.
->* This maintenance operation can be implemented by an Adobe Campaign workflow, using an **[!UICONTROL SQL]** activity. For more on this, refer to [this section](../../workflow/using/architecture.md). Make sure you schedule maintenance for a low activity time that does not collide with your backup window.
+>* This maintenance operation can be implemented by an Adobe Campaign workflow, using an **[!UICONTROL SQL]** activity. Make sure you schedule maintenance for a low activity time that does not collide with your backup window.
 >
 
 ### Rebuilding a database {#rebuilding-a-database}

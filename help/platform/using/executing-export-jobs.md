@@ -89,7 +89,7 @@ Select the sorting order of the columns.
 
 ## Step 6 - Filter conditions {#step-6---filter-conditions-}
 
-You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery assistant. Refer to [this page](../../delivery/using/steps-defining-the-target-population.md).
+You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery assistant. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 

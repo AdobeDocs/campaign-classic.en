@@ -59,7 +59,7 @@ The template's **[!UICONTROL General]** tab lets you specify the general templat
   >
   >If the template is configured to take a control group into account, but no group is defined in the delivery which the hypotheses concern, the results will be based on targeted recipients only.
 
-  For more on defining and configuring a control group, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  For more on defining and configuring a control group, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank}.
 
 * **[!UICONTROL Channel]**: you can choose a specific channel or make the hypothesis template available to all channels in the Adobe Campaign console by selecting **[!UICONTROL All channels]** in the drop-down list. If you configure the template for a specific channel, this lets you automatically filter deliveries per channel when creating the hypothesis. [Learn more](creating-hypotheses.md)
 

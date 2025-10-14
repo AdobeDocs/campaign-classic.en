@@ -13,7 +13,7 @@ Advanced message tracking settings are accessible via the **[!UICONTROL Tracking
 
 >[!NOTE]
 >
->The management of images in emails is also configured in this window. See [Add images](defining-the-email-content.md#adding-images).
+>The management of images in emails is also configured in this window. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

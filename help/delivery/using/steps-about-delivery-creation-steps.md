@@ -12,7 +12,7 @@ exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 
 The key steps when creating a delivery are as follows:
 
-1. **Create and identify the delivery**. [Read more](steps-create-and-identify-the-delivery.md)
+1. **Create and identify the delivery**. Read more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}.
 
 1. **Define the delivery content**. The delivery content definition is specific to each channel. For more on this, refer to the dedicated section:
 
@@ -21,7 +21,7 @@ The key steps when creating a delivery are as follows:
     * [Direct mail channel](defining-the-direct-mail-content.md)
     * [Mobile application channel](about-mobile-app-channel.md)
 
-1. **Define the target population**. [Read more](steps-defining-the-target-population.md)
+1. **Define the target population**. Read more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message#target-population.html){target="_blank"}.
 
 1. **Send the delivery**. [Read more](steps-sending-the-delivery.md)
 
@@ -29,4 +29,4 @@ The key steps when creating a delivery are as follows:
 
 >[!NOTE]
 >
->The steps described in this chapter assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](steps-defining-the-target-population.md#selecting-external-recipients)).
+>The steps described in this chapter assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}.

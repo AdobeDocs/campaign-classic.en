@@ -41,7 +41,8 @@ In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the comp
 
   For more information on workflows, refer to this [page](../../workflow/using/about-workflows.md).
   
-  For more on how to monitor workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflow-execution.md).
+  For more on how to monitor workflows, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}.
+
 
 * **Option audit trail** allows you to check activities and last modifications done to your options.
 

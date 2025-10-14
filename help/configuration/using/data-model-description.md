@@ -107,7 +107,7 @@ This set of tables is linked to the **Delivery** module, which allows to monitor
 
 ## Campaign management {#campaign-management}
 
-This set of tables is linked to the **Marketing campaigns** module, which allows to define, optimize, execute and analyze communications and marketing campaigns. For more on this, see [About marketing campaigns](../../campaign/using/designing-marketing-campaigns.md).
+This set of tables is linked to the **Marketing campaigns** module, which allows to define, optimize, execute and analyze communications and marketing campaigns. For more on this, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}. 
 
 ![](assets/data-model_campaign.png)
 
@@ -123,7 +123,8 @@ This set of tables is linked to the **Marketing campaigns** module, which allows
 
 ## Communication consistency {#communication-consistency}
 
-This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. For more on this, see [About campaign typologies](../../campaign-opt/using/about-campaign-typologies.md).
+This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
+
 
 ![](assets/data-model_typology.png)
 

@@ -209,11 +209,13 @@ The final action of the activity is to prepare and launch the delivery.
 
 ### Import content from FTP {#importing-content-from-ftp}
 
-If your delivery content is available in an HTML file located on FTP or SFTP servers, you can easily load this content into Adobe Campaign deliveries. Refer to [this example](../../workflow/using/loading-delivery-content.md).
+If your delivery content is available in an HTML file located on FTP or SFTP servers, you can easily load this content into Adobe Campaign deliveries. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+
 
 ### Import content from Amazon Simple Storage Service (S3) connector {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-If your delivery content is located on Amazon Simple Storage Service (S3) buckets, you can easily load this content into Adobe Campaign deliveries. Refer to [this example](../../workflow/using/loading-delivery-content.md).
+If your delivery content is located on Amazon Simple Storage Service (S3) buckets, you can easily load this content into Adobe Campaign deliveries. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+
 
 ## Semi-automatic update {#semi-automatic-update}
 

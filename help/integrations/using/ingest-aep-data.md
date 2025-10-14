@@ -29,7 +29,7 @@ You can now configure a Campaign Classic workflow to ingest the segment into Cam
 
 Once Campaign Classic has been configured as a Destination, you need to build a dedicated workflow to import the file that has been exported by Adobe Experience Platform.
 
-To do this, you need to add and configure a **[!UICONTROL File transfer]** activity. For more on how to configure this activity, refer to [this section](../../workflow/using/file-transfer.md).
+To do this, you need to add and configure a **[!UICONTROL File transfer]** activity. For more on how to configure this activity, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
    ![](assets/rtcdp-file-transfer.png)
 

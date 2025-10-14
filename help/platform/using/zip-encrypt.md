@@ -30,7 +30,7 @@ You can then use commands or code in the **[!UICONTROL Script]** tab of the acti
 **Related topics:**
 
 * [Unzip or decrypt a file before processing](../../platform/using/unzip-decrypt.md)
-* [Data extraction (file) activity](../../workflow/using/extraction-file.md).
+* [Data extraction (file) activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}
 
 ## Use case: Encrypt and export data using a key installed on Control Panel {#use-case-gpg-encrypt}
 
@@ -51,9 +51,9 @@ The steps to perform this use case are as follows:
     * **[!UICONTROL JavaScript code]** activity: Encrypts the data to extract.
     * **[!UICONTROL File transfer]** activity: Sends the data to an external source (in this example, an SFTP server).
 
-1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. For more on this, refer to [this section](../../workflow/using/query.md).
+1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
-1. Open the **[!UICONTROL Data extraction (file)]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../workflow/using/extraction-file.md).
+1. Open the **[!UICONTROL Data extraction (file)]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
 
     ![](assets/gpg-data-extraction.png)
 
@@ -75,7 +75,7 @@ The steps to perform this use case are as follows:
   
       ![](assets/gpg-script.png)
 
-1. Open the **[!UICONTROL File transfer]** activity, then specify the SFTP server to which you want to send the file. Global concepts on how to configure the activity are available in [this section](../../workflow/using/file-transfer.md).
+1. Open the **[!UICONTROL File transfer]** activity, then specify the SFTP server to which you want to send the file. Global concepts on how to configure the activity are available in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
     ![](assets/gpg-file-transfer.png)
 

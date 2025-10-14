@@ -29,7 +29,7 @@ Here are the information you can monitor using the several tabs that are availab
 
 * [Understanding delivery failures](understanding-delivery-failures.md)
 * [Understanding quarantine management](understanding-quarantine-management.md)
-* [Delivery best practices](delivery-best-practices.md)
+* [Delivery best practices](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 * [Managing deliverability](about-deliverability.md)
 
 ## Delivery summary {#delivery-summary}
@@ -58,7 +58,7 @@ For a delivery, you can display (for example) only recipients with a failed deli
 
 The **[!UICONTROL Display the mirror page for this message...]** link lets you view the mirror page for the contents of the delivery selected from the list in a new window.
 
-The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to [Generating the mirror page](sending-messages.md#generating-the-mirror-page).
+The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html){target="_blank"}.
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -92,7 +92,7 @@ The **[!UICONTROL Audit]** tab contains the delivery log and all the messages co
 
 The **[!UICONTROL Refresh]** button lets you update the data. Use the **[!UICONTROL Filters]** button to define a filter on the data.
 
-Special icons enable you to identify errors or warnings. See [Analyzing the delivery](steps-validating-the-delivery.md#analyzing-the-delivery).
+Special icons enable you to identify errors or warnings. See this section in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have been sent.
 

@@ -24,7 +24,7 @@ As part of a Campaign v8 promotion initiative, we have started reorganizing the 
 * Orchestrate marketing campaigns: this guide has been replaced with a [landing page](../../campaign/using/about-marketing-campaigns.md). 
 * Marketing Resource Management: this guide has been removed.
 * Distributed Marketing: this guide has been removed. 
-* Automate with workflows: this guide has been replaced with a [landing page](../../workflow/using/about-workflow-automation.md)
+* Automate with workflows: this guide has been replaced with a [landing page](../../workflow/using/about-workflows.md)
 
 ## 2024
 
@@ -413,7 +413,7 @@ How-to videos are now available on the following topics:
 
 * [How to personalize emails using personalization fields](../../delivery/using/personalization-fields.md)
 
-* [How to manage seed and proofs in an email](../../delivery/using/steps-defining-the-target-population.md)
+* [How to manage seed and proofs in an email](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}.
 
 * [How to set up a recurring delivery](../../workflow/using/recurring-delivery.md)
 

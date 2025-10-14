@@ -11,7 +11,7 @@ exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 
 You need to create your workflow in the **[!UICONTROL Targeting and Workflows]** tab of a campaign. It is made up of a **[!UICONTROL Query]** activity, a **[!UICONTROL Split]** activity linked to two **[!UICONTROL Email delivery]** activities, a **[!UICONTROL Wait]** activity, a **[!UICONTROL JavaScript code]** activity, and a **[!UICONTROL Delivery]** activity.
 
-1. If you haven't already done so, create a campaign (for more on this, refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
+1. If you haven't already done so, create a campaign. For more on this, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html){target=_blank}.
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
@@ -19,7 +19,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}.
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 

@@ -50,10 +50,10 @@ Adobe Campaign provides several tools to track and improve the deliverability pe
 
 When configuring, designing, and testing your message, make sure you follow the best practices mentioned in the sections listed below. Leveraging all the features provided by Adobe Campaign helps you improve deliverability.
 
-* [Delivery best practices](delivery-best-practices.md)
+* [Delivery best practices](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}.
 * [Control the email content](control-message-content.md)
 * [Inbox rendering](inbox-rendering.md)
-* [Sending a proof](steps-validating-the-delivery.md#sending-a-proof)
+* [Sending a proof](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}
 
 ### Verify consent through double opt-in {#double-opt-in}
 

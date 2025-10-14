@@ -56,7 +56,7 @@ Learn how to integrate Adobe Campaign and Adobe Experience Manager in the [detai
 
 Once this integration is set up, you can configure a new delivery template in Adobe Campaign to use AEM Assets library. To do this, follow the steps below:
 
-1. Create a new delivery template - or duplicate an existing one. For more on Delivery templates, refer to [this page](../../delivery/using/about-templates.md).
+1. Create a new delivery template - or duplicate an existing one. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
 1. Edit the **Properties** of this template.
 1. In the **[!UICONTROL Advanced]** tab, set the **[!UICONTROL Content editing mode]** to **DCE**. 
 1. Select the external **[!UICONTROL AEM account]** that you need to use to access your AEM Assets library.

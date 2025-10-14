@@ -25,11 +25,11 @@ To export data from Campaign Classic to your S3 or Azure Blob storage location, 
 
 To do this, add and configure:
 
-* An **[!UICONTROL Data extraction (file)]** activity to extract the targeted data into a CSV file. For more on how to configure this activity, refer to [this section](../../workflow/using/extraction-file.md).
+* An **[!UICONTROL Data extraction (file)]** activity to extract the targeted data into a CSV file. For more on how to configure this activity, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
 
    ![](assets/rtcdp-extract-file.png)
 
-* A **[!UICONTROL File transfer]** activity to transfer the CSV file to your storage location. For more on how to configure this activity, refer to [this section](../../workflow/using/file-transfer.md).
+* A **[!UICONTROL File transfer]** activity to transfer the CSV file to your storage location. For more on how to configure this activity, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
    ![](assets/rtcdp-file-transfer.png)
 

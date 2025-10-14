@@ -94,7 +94,7 @@ Using seed addresses, you can also display the rendering of the message for vari
 
 You can test message delivery by sending a proof to a previously created seed address.
 
-Sending a proof involves the same process as for a [regular delivery](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). However, with transactional messaging, you need to carry out the following operations beforehand:
+Sending a proof involves the same process as for a regular delivery. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}. However, with transactional messaging, you need to carry out the following operations beforehand:
 
 * Create one or more [seed addresses](#managing-seed-addresses-in-transactional-messages) with [personalization data](#personalization-data).
 * [Create the message content](../../message-center/using/creating-the-message-template.md#creating-message-content).
@@ -111,7 +111,7 @@ To send the proof:
 
    ![](assets/messagecenter_send_proof_002.png)
 
-Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab. For more details on this, see [Send a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab. For more details on this, see the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ![](assets/messagecenter_send_proof_003.png)
 

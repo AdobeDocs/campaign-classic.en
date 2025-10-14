@@ -310,7 +310,7 @@ You can define the format of sent messages, so that the content displayed automa
 
 To do this, go to the **[!UICONTROL Management of email formats]** document, which is located in **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
-This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}.
 
 ![](assets/mail_rule_sets.png)
 
@@ -325,7 +325,7 @@ The **MIME structure** (Multipurpose Internet Mail Extensions) parameter allows 
 
 If the **[!UICONTROL Image inclusion]** option is enabled, these are displayed directly in the body of the email. The images will then be uploaded and the URL links will be replaced by their content.
 
-This option is particularly used by the Japanese market for **Deco-mail**, **Decore Mail** or **Decoration Mail**. For more information, consult [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+This option is particularly used by the Japanese market for **Deco-mail**, **Decore Mail** or **Decoration Mail**. For more information, consult the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}.
 
 >[!IMPORTANT]
 >

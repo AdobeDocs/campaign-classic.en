@@ -51,7 +51,8 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.</p><p> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".</p><p> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">this section</a>.</p> </td> 
+   <td><p> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.</p><p> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".</p><p> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery" target="_blank">this section</a>.</p> </td> 
+
    <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaign uses a "Nms_DefaultRcpSchema" global variable to dialog with the default recipient database (nms:recipient).<br /> The option value must correspond to the name of the schema which matches the external recipient table.<br /> </td> 
@@ -202,7 +203,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to "7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
+   <td><p>This option is used by the <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to "7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -358,7 +359,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Allows you to monitor the <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> technical workflow execution. When activated (value "1"), the execution information are logged in the workflow audit logs.<br /> </td> 
+   <td> Allows you to monitor the <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a> technical workflow execution. When activated (value "1"), the execution information are logged in the workflow audit logs.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 

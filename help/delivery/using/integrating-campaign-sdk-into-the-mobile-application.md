@@ -58,7 +58,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
   >[!NOTE]
   >
-  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [Configuring a mobile application in Adobe Campaign](configuring-the-mobile-application.md).
+  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}.
 
 * **A tracking URL**: that matches the address of the Adobe Campaign tracking server.
 * **A marketing URL**: to enable the collection of subscriptions.

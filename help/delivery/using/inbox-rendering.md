@@ -25,7 +25,7 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 
 >[!NOTE]
 >
->Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](steps-validating-the-delivery.md#sending-a-proof).
+>Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and proofs. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ## Activating Inbox rendering {#activating-inbox-rendering}
 
@@ -101,7 +101,7 @@ For more on creating, designing and targeting a delivery, refer to [this section
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](steps-validating-the-delivery.md#sending-a-proof).
+   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 1. After being sent, the proof appears in the delivery list. Double-click it.
 

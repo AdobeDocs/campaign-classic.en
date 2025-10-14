@@ -88,7 +88,7 @@ In this example, a marketer wants to send a reward offer to the recipients who o
 
     ![](assets/identify-email-open-tracking-2.png)
 
-* You can use a predefined filter. [Learn more](../../workflow/using/creating-a-filter.md).
+* You can use a predefined filter. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 
     ![](assets/identify-email-open-tracking-3.png)
 

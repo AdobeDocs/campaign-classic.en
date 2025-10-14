@@ -12,9 +12,7 @@ With Adobe Campaign, you can send cross-channel campaigns including emails, SMS,
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports.
 
-As part of the Campaign v8 promotion initiative, the Campaign Classic documentation has been reorganized. Common features are now only available in the Campaign v8 documentation set.
-
-
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
 
 >[!BEGINTABS]
 
@@ -28,7 +26,7 @@ To learn more about communication channels, refer to the [Campaign v8 documentat
 
 >[!TAB Delivery content and audience]
 
-Learn the key steps related to delivery creation, content and audience in the Campaign v8 documentation:
+Learn the key steps related to delivery creation, content and audience **in the Campaign v8 documentation**:
 
 * [Create the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}: Learn how to create a one-shot single delivery.
 * [Define the content](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#content-of-the-delivery){target="_blank"}: Configure the delivery content specific for each channel.
@@ -41,7 +39,7 @@ Learn the key steps related to delivery creation, content and audience in the Ca
 
 >[!TAB Delivery validation and sending]
 
-Refer to these pages to learn delivery validation, sending and best practices in the Campaign v8 documentation:
+Refer to these pages to learn delivery validation, sending and best practices **in the Campaign v8 documentation**:
 
 * [Validate the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#validate-the-delivery){target="_blank"}: Learn how to validate the delivery before sending it to the main target.
 * [Send the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#configuring-and-sending-the-delivery){target="_blank"}: Configure the delivery settings and define how to send your messages.
@@ -98,7 +96,7 @@ For on-premise installations and hosted/hybrid installations using the legacy Ca
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. See [Define the validity period](#defining-validity-period).
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. See the section below.
 
 **Define the validity period**
 

@@ -167,7 +167,7 @@ Global impacts on configuration, connectivity with other systems and products, A
     
     It may change according to new servers location. However customer will be able to retain their current timezone.
     
-    [Learn more](../../workflow/using/managing-time-zones.md) about timezone management in Adobe Campaign Classic v7.
+    Learn more about timezone management in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"}.
 
 
 ## Security and permissions

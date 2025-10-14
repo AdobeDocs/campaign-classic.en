@@ -23,7 +23,7 @@ Some internet access providers automatically consider emails to be spam if the r
 
 Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
 
-For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).
+For more on best practices to secure and optimize your deliveries, refer to this page in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}.
 
 ### Quarantine vs denylist {#quarantine-vs-denylist}
 
@@ -111,14 +111,14 @@ In the list of quarantined addresses (see see [Identifying quarantined addresses
 
 As opposed to hard errors, soft errors do not send immediately an address to quarantine, but instead they increment an error counter.
 
-Retries will be performed during the [delivery duration](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). When the error counter reaches the limit threshold, the address goes into quarantine. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Retries will be performed during the delivery duration. See this [page](communication-channels.md) under **Delivery sending** > **Define the validity period**. When the error counter reaches the limit threshold, the address goes into quarantine. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the [Database cleanup](../../production/using/database-cleanup-workflow.md) workflow.
 
 
 For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the maximum number of retries to be performed in case of **[!UICONTROL Erroneous]** status and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain.
 
-For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment wizard](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or [at the delivery level](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the [deployment wizard](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) or at the delivery level. See this [page](communication-channels.md) under **Delivery sending** > **Configure retries**.
 
 
 ## Remove an address from quarantine {#removing-a-quarantined-address}

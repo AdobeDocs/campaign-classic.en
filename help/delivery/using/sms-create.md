@@ -16,14 +16,14 @@ To create a new SMS delivery, follow the steps below:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
+>Global concepts on delivery creation are presented in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 1. Create a new delivery, for example from the Delivery dashboard.
 1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. For more on this, refer to the [Change the delivery template](sms-set-up.md#changing-the-delivery-template) section.
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identify your delivery with a label, code, and description. For more on this, refer to this section in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}.
 1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
 
 ## Define the SMS content {#defining-the-sms-content}

@@ -87,7 +87,7 @@ To learn how to optimize the deliverability of your Adobe Campaign emails, refer
 
 After confirming your delivery, you can see that the status of your delivery is **[!UICONTROL Pending]**. This status means that the execution process is waiting on the availability of some resources.
 
-The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](steps-sending-the-delivery.md#scheduling-the-delivery-sending) section.
+The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"} 
 
 If your delivery is not being sent and its status remains **[!UICONTROL Pending]**, it can be the result of:
 

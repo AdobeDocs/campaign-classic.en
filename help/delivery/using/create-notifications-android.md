@@ -10,7 +10,7 @@ exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
 # Create notifications for Android{#create-notificaations-android}
 
-Use Adobe Campaign to send push notifications on Android devices. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
+Use Adobe Campaign to send push notifications on Android devices. Global concepts on delivery creation are presented in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 Start by creating a new delivery.
 

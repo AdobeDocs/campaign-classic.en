@@ -13,7 +13,7 @@ Adobe Campaign Content Manager module is a specific Campaign Classic [built-in p
 
 >[!NOTE]
 >
->This section refers to the Content Management module. For more information on how to design email deliveries content, refer to [this section](defining-the-email-content.md).
+>This section refers to the Content Management module. For more information on how to design email deliveries content, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}. 
 
 The Content management module incorporates working group, workflow and content aggregation functionality. This allows a message to be formatted automatically: email, mail, SMS, web, etc.
 

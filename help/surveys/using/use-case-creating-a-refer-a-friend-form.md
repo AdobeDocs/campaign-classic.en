@@ -82,7 +82,7 @@ To configure and create the referral block, apply the following steps:
 
    >[!NOTE]
    >
-   >Refer to [this page](../../delivery/using/about-templates.md) for more information on delivery templates.
+   >Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"} for more information on delivery templates.
 
 1. Create the second script for delivering the subscription messages.
 

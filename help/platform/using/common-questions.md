@@ -46,7 +46,8 @@ Adobe Campaign comes with a set of dashboards and tools to monitor your email de
 
 ## 5. Can I monitor workflow execution? {#can-i-monitor-workflow-execution}
 
-Understand how to monitor Campaign workflow execution [in this page](../../workflow/using/starting-a-workflow.md).
+Understand how to monitor Campaign workflow execution in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution
+.html){target="_blank"}.
 
 ## 6. How can I connect to Campaign Classic? {#how-can-i-connect-to-campaign-classic-}
 

@@ -78,8 +78,7 @@ Indicate the following parameters:
 * **[!UICONTROL Reply address text]** : Enter the name used when the recipient clicks the **[!UICONTROL Reply]** button.
 * **[!UICONTROL Reply address]** : Enter the email address to use when the recipient clicks the **[!UICONTROL Reply]** button in their email client software. The purpose of the **Reply Address** field is when you want the recipient to reply to a different address than the **Sender Address**.  This address must be a valid email address, linked to a monitored mailbox, and hosted by the customer.  It could be a support mailbox, for example, `customer-care@customer.com`, where emails are read and responded to.
 
-* **[!UICONTROL Error address]** : Enter the email address of messages with errors. This is the technical address used to handle bounce mail, including emails received by the Adobe Campaign server due to non-existent target addresses. This address must be a valid email address, linked to a monitored mailbox, and hosted by the customer. It could be a bounce mailbox, for example, `errors@customer.com`. This address can be changed for a delivery or in the delivery templates, from the **SMTP** tab of the delivery / delivery template properties. [Learn more](../../delivery/using/email-parameters.md#managing-bounce-emails-managing-bounce-emails).
-
+* **[!UICONTROL Error address]** : Enter the email address of messages with errors. This is the technical address used to handle bounce mail, including emails received by the Adobe Campaign server due to non-existent target addresses. This address must be a valid email address, linked to a monitored mailbox, and hosted by the customer. It could be a bounce mailbox, for example, `errors@customer.com`. This address can be changed for a delivery or in the delivery templates, from the **SMTP** tab of the delivery / delivery template properties. Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html#managing-bounce-emails){target="_blank"}. 
 
 In addition to this, you can specify the **masks** authorized for the sender address and the error address. If necessary, these masks can be separated using commas. This configuration is optional. When fields are entered, Adobe Campaign checks at the time of delivery (during analysis, if the address does not include any variables) that the addresses are valid. This operating mode ensure that no addresses are used that could trigger delivery issues. Delivery addresses must be configured on the delivery server.
 
@@ -389,7 +388,7 @@ The field **URL masks** lets you specify the list of URL masks to be skipped whe
 
 You can specify multiple URL masks by using a comma to separate each of them.
 
-* For information on using and managing images in emails, refer to [this section](../../delivery/using/defining-the-email-content.md#adding-images).
+* For information on using and managing images in emails, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
 * In the delivery assistant, the images called from these URLs will have the status "Ignored".
 
 ### Publication modes {#publication-modes}

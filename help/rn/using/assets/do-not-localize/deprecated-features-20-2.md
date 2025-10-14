@@ -58,7 +58,8 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr>  
    <td>Fax channel<br></td>
    <td><p>Starting Campaign 20.2 release, the Fax channel is deprecated.</p> 
-   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a> about Campaign channels.</p>
+   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html" target="_blank">Learn more in Campaign v8 documentation</a> about Campaign channels.</p>
+
    <p><em>Target removal date: 2021</em></p></td>
   </tr>
  </tbody> 

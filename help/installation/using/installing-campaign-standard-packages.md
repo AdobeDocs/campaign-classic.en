@@ -60,12 +60,12 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Marketing campaigns (Campaign)<br /> </td> 
-   <td> Defines, optimizes, executes and analyzes communications and marketing campaigns. <a href="../../campaign/using/designing-marketing-campaigns.md">Learn More</a><br /> </td> 
+   <td> Defines, optimizes, executes and analyzes communications and marketing campaigns. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html" target="_blank">Learn More</a><br /> </td> 
    <td> Marketing</td>
   </tr> 
   <tr> 
    <td> Marketing resources (MRM)<br /> </td> 
-   <td> Controls marketing actions in a collaborative mode by providing management and tracking of the tasks, budgets and marketing resources. <a href="../../mrm/using/about-marketing-resource-management.md">Learn More</a> <br /> </td> 
+   <td> Controls marketing actions in a collaborative mode by providing management and tracking of the tasks, budgets and marketing resources. <a href="https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html" target="_blank">Learn More</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Access to external data (Federated Data Access)<br /> </td> 
-   <td> Provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases so that you can access external data without changing the structure of Adobe Campaign data.  Optional. <a href="../../workflow/using/accessing-an-external-database-fda.md">Learn More</a> <br /> </td> 
+   <td> Provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases so that you can access external data without changing the structure of Adobe Campaign data.  Optional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign Optimization<br /> </td> 
-   <td> Controls, filters and monitors the sending of deliveries so that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. Optional. <a href="../../campaign-opt/using/about-campaign-typologies.md">Learn More</a> <br /> </td> 
+   <td> Controls, filters and monitors the sending of deliveries so that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. Optional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html" target="_blank">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -176,7 +176,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Central/local Marketing (Distributed Marketing)<br /> </td> 
-   <td> Implements cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Optional. <a href="../../distributed/using/about-distributed-marketing.md">Learn More</a><br /> </td> 
+   <td> Implements cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Optional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html" target="_blank">Learn More</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> AMP support<br /> </td> 
-   <td> Enables you to use the new interactive AMP for email format, and send dynamic emails. Optional. <a href="../../delivery/using/defining-interactive-content.md">Learn More</a> <br /> </td> 
+   <td> Enables you to use the new interactive AMP for email format, and send dynamic emails. Optional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html" target="_blank">Learn More</a> <br /> </td> 
    <td> All </td> 
   </tr> 
   <tr> 

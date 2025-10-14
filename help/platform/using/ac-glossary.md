@@ -40,7 +40,8 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 An activity is a palette item which is added to a workflow to define an execution functionality. The activity is a container that executes a task. In a workflow, a given activity can produce multiple tasks, in particular when there is a loop or recurrent (periodic) actions.
 
-Learn more about [Workflow activities](../../workflow/using/about-activities.md).
+Learn more about workflow activities in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities
+.html){target="_blank"}.
 +++
 
 +++**Active profile**
@@ -56,14 +57,13 @@ Learn more about [Active profiles](../../platform/using/about-profiles.md#active
 
 The Local Approval activity is a workflow activity which is used to set up a delivery approval process before the messages are sent.
 
-Learn more about the [Local Approval activity](../../workflow/using/local-approval.md).
 +++
 
 +++**Audience**
 
 An audience is the resulting set of profiles that meet the criteria of a filter definition, based on rules and attributes. 
 
-Learn more about [Audiences](../../campaign/using/marketing-campaign-target.md).
+Learn more about audiences in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}.
 +++
 
 +++**Audit trail**
@@ -96,7 +96,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 Campaign is an interface to coordinate, define and execute marketing campaigns. Campaigns can contain one or more workflows, deliveries, documents and other related data points into a single, easy-to-use interface. 
 
-Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.md).
+Learn more about campaigns in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
 +++
 
 <!--
@@ -129,14 +129,15 @@ Learn more about [Client console](../../platform/using/adobe-campaign-workspace.
 
 Content approval is the process of having a separate Operator or group of Operators approve the content of a delivery before it can be sent. 
 
-Learn more about [Content approval](../../campaign/using/marketing-campaign-approval.md).
+Learn more about content approval in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}. 
+
 +++
 
 +++**Control groups**
 
 Use Control groups to measure the impact of your campaigns by excluding a portion of their audience. Operators can compare the behavior of the target population who did receive the message with the behavior of contacts who were not targeted. Based on the sending logs, Operators can also target a control group in future campaigns.
 
-Learn more about [Control groups](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+Learn more about control groups in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}.
 +++
 
 +++**Control Panel**
@@ -208,7 +209,7 @@ Learn more about [Deliveries](../../delivery/using/communication-channels.md).
 
 Delivery analysis is the preparation of the delivery. This process combines the content with the recipient profile data to produce the personalized email that the recipient receives. The delivery analysis logic can exclude recipients from the target or stop the delivery altogether, based on the defined logic. This process also includes the evaluation of dynamic content logic and the insertion of offers specific to the individual recipient profile. 
 
-Learn more about [Delivery analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Learn more about delivery analysis in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 +++
 
 +++**Delivery logs**
@@ -259,7 +260,7 @@ Learn more about [Descriptive Analysis](../../reporting/using/about-descriptive-
 
 The Distributed Marketing add-on offers to Campaign Operators a collaborative workspace for implementing campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the **list of Campaign packages**, where centrally created campaign templates and instances are offered to local entities.
 
-Learn more about [Distributed Marketing](../../distributed/using/about-distributed-marketing.md)
+Learn more about Distributed Marketing in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}.
 +++
 
 +++**Distribution of values**
@@ -309,7 +310,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 Email BCC capability sends an exact copy in EML format of a corresponding delivered email, which is saved to a dedicated BCC email address where the emails can be processed and archived by the sender in an external system.
 
-Learn more about [Email BCC](../../delivery/using/email-parameters.md#email-bcc).
+Learn more about Email BCC in the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 +++
 
 <!--
@@ -332,7 +333,7 @@ An engine call is a server call that starts real-time processing on server side 
 
 The Enrichment activity is an advanced workflow activity that allows Operators to enrich the generated worktable data that will be processed in the workflow. This activity is generally used following targeting activities or after importing a file and before activities that use of targeted data. Enrichments can transform the inbound transition data and configure the activity to complete the output transition with enhanced data. It allows the Operator to combine data from multiple data sets, or to create links to a temporary resource.
 
-Learn more about [Enrichment activity](../../workflow/using/enrichment.md).
+Learn more about the Enrichment activity in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 +++
 
 +++**Enumerations**
@@ -364,7 +365,7 @@ Learn more about [External accounts](../../installation/using/external-accounts.
 
 Fatigue management helps you control the frequency and quantity of messages to avoid over-solicitation of recipients and is often applied using a typology rule.
 
-Learn more about [Fatigue management](../../campaign-opt/using/pressure-rules.md).
+Learn more about fatigue management in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 +++
 
 +++**Federated Data Access (FDA)**
@@ -380,14 +381,14 @@ Learn more about [Federated Data Access](../../installation/using/about-fda.md).
 
 The File extraction approval is the process of having a separate Operator or group of Operators approve the content and configuration of an extracted file before it is sent to an outside vendor, such as for a direct mail delivery.
 
-Learn more about [File extraction approval](../../delivery/using/validating.md).
+Learn more about the file extraction approval in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#validating){target="_blank"}.
 +++
 
 +++**Filtering dimension**
 
 The filtering dimension is the schema that contains the data or attributes used by a query to filter the desired rows. The Filtering dimension schema must be directly linked to the defined Targeting dimension to allow Adobe Campaign to cross the database join and return the respondent rows.
 
-Learn more about [Filtering dimension](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
+Learn more about filtering dimension in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
 +++
 
 +++**Folder**
@@ -426,7 +427,7 @@ Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-
 
 Campaign Heatmap is a table showing workflow execution information for a 24-hour period. It displays the distribution of workflows across the period by hour and by 5-minute intervals. Heatmap is used to evaluate server load and to determine the workflow activities that are consuming the most resources.
 
-Learn more about [Heatmap](../../workflow/using/heatmap.md).
+Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}.
 +++
 
 +++**Hybrid deployment**
@@ -516,7 +517,7 @@ Learn more about [Local Cache](../../platform/using/faq-campaign-config.md#perfo
 
 The **Marketing Resource Management (MRM)** module in Adobe Campaign lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets, and marketing resources involved. Adobe Campaign operators can coordinate their actions and approve their progress at all stages via complete validation processes and appropriate tracking tools: reporting, tracking of approvals, notifications, discussion forums, etc.
 
-Learn more about [MRM](../../mrm/using/about-marketing-resource-management.md).
+Learn more about MRM in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}.
 +++
 
 <!--
@@ -565,7 +566,7 @@ Learn more about Campaign user interface in [Adobe Campaign v8 (console) documen
 
 Within the campaign, program or plan, Operators can state a list of objectives. These are quantified values to be reached. At the end of the campaign, program or plan, the MRM module lets Operators compare the objectives and results in dedicated reports. 
 
-Learn more about [Objectives](../../mrm/using/creating-and-managing-tasks.md#expenses-and-revenues).
+Learn more about objectives in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html#expenses-and-revenues){target=_blank}.
 +++
 
 +++**Offer catalog**
@@ -747,7 +748,7 @@ Learn more about [Package export/import](../../platform/using/working-with-data-
 
 The workflow palette displays the available activities that can be added to a workflow. This component is shown in a tabbed format with workflow activities grouped logically by their use. Activities available on the palette are determined by the add-ons that have been installed into the Campaign instance, and by the context displaying the workflow. 
 
-Learn more about [Palette](../../workflow/using/building-a-workflow.md#adding-and-linking-activities).
+Learn more about the palette in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#add-and-link-activities){target="_blank"}.
 +++
 
 +++**Performance monitoring**
@@ -782,7 +783,7 @@ Learn more about [Personalization variables](../../delivery/using/about-personal
 
 A plan is a folder type that is used to organize marketing activities on a calendar basis. Plan folders in the Explorer view define time-based units, such as a year, quarter, or month. Plan folders can be nested and can contain other Plan folders, program folders or Campaigns. 
 
-Learn more about [Plans](../../campaign/using/setting-up-marketing-campaigns.md).
+Learn more about plans in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html){target=_blank}.
 +++
 
 +++**Pre-defined filters**
@@ -820,7 +821,7 @@ Learn more about [Profiles](../../platform/using/about-profiles.md).
 
 Programs and sub-program folders organize marketing activities around a business objective, such as loyalty, acquisition or cross-sell. They can also represent fiscal periods or campaign tactics, such as events or newsletters. Each program contains campaigns linked to a calendar, which provides an overall view.
 
-Learn more about [Programs](../../campaign/using/setting-up-marketing-campaigns.md).
+Learn more about programs in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html){target=_blank}.
 +++
 
 +++**Public resources**
@@ -914,7 +915,7 @@ Learn more about [SFTP Management](https://experienceleague.adobe.com/docs/contr
 
 The Subscription services workflow activity lets you create or delete a subscription to an information service for the population specified in the transition.
 
-Learn more about [Subscription services activity](../../workflow/using/subscription-services.md).
+Learn more about the Subscription services activity in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
 +++
 
 +++**Target approval**
@@ -923,35 +924,36 @@ Learn more about [Subscription services activity](../../workflow/using/subscript
 
 Target approval is the process of having a separate Operator or group of Operators approve the final target of a delivery (after the analysis phase has generated the target) before the delivery can be sent. 
 
-Learn more about [Target approval](../../workflow/using/local-approval.md).
+Learn more about the Target Approval activity the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html){target="_blank"}.
 +++
 
 +++**Target data**
 
 Target data is the data stored in the worktable (transition) of a workflow. This data is available inside the delivery for personalization of the delivery content or to define the logic of dynamic elements of the delivery.
 
-Learn more about [Target data](../../workflow/using/data-life-cycle.md#target-data).
+Learn more about target data in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html#target-data){target="_blank"}.
 +++
 
 +++**Target mapping**
 
 Target mapping is the mapping of delivery channels to a specific data type. Target mappings define how different delivery channels link to the data fields of a schema. It defines how Campaign sends to that data type using a specific field or expression. 
 
-Learn more about [Target mapping](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping).
+Learn more about target mapping in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 +++
 
 +++**Targeting activities**
 
 Targeting activities are workflow activities that are specific to targeting, manipulating population data and filtering activities. They let Operators build one or more targets by defining sets and splitting or combining these sets using intersection, union or exclusion operations. 
 
-Learn more about [Targeting activities](../../workflow/using/about-targeting-activities.md).
+Learn more about targeting activities in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities
+.html){target="_blank"}.
 +++
 
 +++**Targeting dimension**
 
 Targeting dimension is the data type that is produced (returned) by a query or other workflow activities. Note that Adobe Campaign only returns the Primary Key of the respondent database rows, no matter what query was used to obtain them.  
 
-Learn more about [Targeting dimension](../../workflow/using/targeting-data.md).
+Learn more about targeting dimension in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}.
 +++
 
 +++**Task activity**
@@ -960,7 +962,7 @@ Learn more about [Targeting dimension](../../workflow/using/targeting-data.md).
 
 The Task workflow activity incorporates human action into the logic of a workflow. You can specify two scenarios: the first if the task is completed and a second if the task is not completed. Typical use cases are for incorporating offline actions into a campaign, or for custom actions such as approvals.
 
-Learn more about [Task activity](../../workflow/using/task.md).
+Learn more about the ask activity in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}.
 +++
 
 <!--
@@ -1017,7 +1019,7 @@ Learn more about [Transactional messaging](../../message-center/using/about-tran
 
 Triggered campaigns are campaigns that are executed when an API request is received in a workflow. API calls are consumed by a Signal activity in the workflow that initiates the execution of the workflow. 
 
-Learn more about [Triggered Ccmpaigns](../../workflow/using/external-signal.md).
+Learn more about triggered campaigns in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html){target="_blank"}.
 +++
 
 <!--
@@ -1036,7 +1038,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 A typology is a grouping of typology rules that are applied to the analysis phase of a delivery. A campaign typology can contain several typology rules, but a delivery can only reference one typology.
 
-Learn more about [Typologies](../../campaign-opt/using/about-campaign-typologies.md#typologies).
+Learn more about typologies in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 +++
 
 +++**Typology rule**
@@ -1045,7 +1047,7 @@ Learn more about [Typologies](../../campaign-opt/using/about-campaign-typologies
 
 Typology rules are business rules that are implemented as part of the analysis phase of the delivery. Typology rules are checks on the content of the delivery (control rules) or the target of the delivery (filtering rules) or other logic (pressure rules) that enforce business requirements. Rules are granular elements that can be included in one or more typologies.
 
-Learn more about [Typology rules](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+Learn more about typology rules in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 +++
 
 ## U - Z {#sec-6}
@@ -1077,7 +1079,7 @@ Learn more about [Workflows](../../workflow/using/about-workflows.md).
 
 The workflow journal is the step-by-step execution log of a workflow. It contains all the history or audit trail of the workflow. It is used for development, troubleshooting or debug purposes.  
 
-Learn more about [Workflow Journal](../../workflow/using/monitoring-workflow-execution.md).
+Learn more about the workflow journal in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}.
 +++
 
 +++**Worktable**

@@ -86,7 +86,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    ![](assets/campaign_opt_create_a_rule_05.png)
 
-1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. For more on this, refer to [Applying typologies](about-campaign-typologies.md#applying-typologies).
+1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ## Define thresholds and weights {#defining-thresholds-and-weights}
 

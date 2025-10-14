@@ -13,7 +13,7 @@ With Adobe Campaign, create direct mail deliveries to send personalized physical
 
 Direct mail remains a powerful channel for establishing tangible connections with your customers—ideal for delivering printed offers, catalogs, loyalty messages, or personalized letters that reinforce brand presence beyond digital touchpoints. Learn how to configure and manage direct mail campaigns effectively, from preparing data and generating files for routing partners to tracking delivery outcomes, in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html){target=_blank}.
 
-As part of the Campaign v8 promotion initiative, the Campaign Classic documentation has been reorganized. Common features are now only available in the Campaign v8 documentation set.
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
 
 >[!BEGINTABS]
 
@@ -27,7 +27,7 @@ To learn more about direct mail channel, refer to the [Campaign v8 documentation
 
 >[!TAB Direct mail delivery creation]
 
-Learn the key steps related to email delivery creation and audience definition in the Campaign v8 documentation:
+Learn the key steps related to email delivery creation and audience definition **in the Campaign v8 documentation**:
 
 * [Create a direct email delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery){target="_blank"}: Learn about the different steps needed to create a direct mail delivery.
 * [Define the direct mail audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#defining-the-direct-mail-audience){target="_blank"}: Learn how to define the audience for your direct mail delivery by identifying the targeted profiles. 
@@ -35,10 +35,10 @@ Learn the key steps related to email delivery creation and audience definition i
 
 >[!TAB Direct mail validation and send]
 
-Refer to these pages to learn how to validate and send your direct mail delivery in the Campaign v8 documentation:
+Refer to these pages to learn how to validate and send your direct mail delivery **in the Campaign v8 documentation**:
 
-* [Validate the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#defining-the-direct-mail-content){target="_blank"}: Learn how to check the result of the analysis and the content of the output file.
-* [Send the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#defining-the-direct-mail-content){target="_blank"}: Learn how to send your direct mail delivery by generating the extraction file.
+* [Validate the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#validating){target="_blank"}: Learn how to check the result of the analysis and the content of the output file.
+* [Send the delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#start-delivery){target="_blank"}: Learn how to send your direct mail delivery by generating the extraction file.
 
 
 

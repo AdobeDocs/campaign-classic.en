@@ -48,7 +48,7 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Performance and throughput issues</a></li>
         <li><a href="delivery/using/delivery-performances.md">Delivery performances</a></li>
-        <li><a href="workflow/using/workflow-best-practices.md">Optimize workflow performances</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Optimize workflow performances</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Workflow execution troubleshooting</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP server usage</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
@@ -56,14 +56,14 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
     </td>
    <td valign="top">
         <ul>
-        <li><a href="workflow/using/workflow-best-practices.md">Workflows best practices</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Worflow best practices</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">Technical workflow monitoring</a></li>
         <li><a href="delivery/using/about-message-tracking.md">Understand tracking management</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Discover monitoring tools</a></li>
         <li><a href="platform/using/import-export-workflows.md">Import data with workflows</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Send messages in multiple waves</a></li>
         <li><a href="delivery/using/defining-the-email-content.md">Design email content</a></li>
-        <li><a href="delivery/using/delivery-best-practices.md">Delivery best practices</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html" target="_blank">Delivery best practices</a></li>
         </ul>
     </td>
     <td valign="top">

@@ -126,7 +126,7 @@ This error indicates that FTP server domain name could not be resolved properly.
 
 1. Troubleshoot **session logs**:
 
-   1. In the workflow, double-click the [File transfer](../../workflow/using/file-transfer.md) activity.
+   1. In the workflow, double-click the [File transfer](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"} activity.
    1. Go to **[!UICONTROL File Transfer]** tab, then click **[!UICONTROL Advanced Parameters]**.
    1. Check the **[!UICONTROL Display the session logs]** option.
 

@@ -93,7 +93,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr>
   <tr>  
    <td>Fax channel<br></td>
-   <td><p>Starting Campaign 21.1.3 release, the Fax channel is no longer available. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a></p>
+   <td><p>Starting Campaign 21.1.3 release, the Fax channel is no longer available. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html" target="_blank">Learn more in the Campaign v8 documentation</a></p>
   </tr>
   <tr>
   <td>Demdex domain<br></td>

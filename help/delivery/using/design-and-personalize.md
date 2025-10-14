@@ -11,7 +11,7 @@ exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 ---
 # Build personalized content {#build-personalized-content}
 
-When designing your message content, try to avoid common issues that could prevent you from executing your delivery. Most of the time, possible errors are related to [personalization](about-personalization.md), [formatting](defining-the-email-content.md#message-content) and [images](defining-the-email-content.md#adding-images).
+When designing your message content, try to avoid common issues that could prevent you from executing your delivery. Most of the time, possible errors are related to [personalization](about-personalization.md), [formatting](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} and [images](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
 
 ## Optimize personalization {#optimize-personalization}
 
@@ -52,7 +52,7 @@ When building your emails, keep the general best practices below in mind.
 
 ### Subject line
 
-Work on the [subject line](defining-the-email-content.md#message-content) to improve open rates:
+Learn about the subject line in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#sender){target="_blank"} to improve open rates:
 
 * Avoid subjects that are too long. Use 50 characters maximum
 
@@ -145,7 +145,7 @@ To be accessible from the outside, the images used in emails and public resource
 
 * You can check if the instance configuration enables public resource management. [Learn more](../../installation/using/deploying-an-instance.md#managing-public-resources)
     
-* From the delivery assistant, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon. [Learn more](defining-the-email-content.md#adding-images)
+* From the delivery assistant, you can import an HTML page containing images or insert images directly using the HTML editor via the **[!UICONTROL Image]** icon. Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
 
 * If images are not displayed, check that the images are available on the server. To do this, click the Source tab from your delivery. Find your images and copy-paste each image's URL in a web browser. If the images are not displayed, contact your IT administrator or the third-party vendor providing your delivery content.
 
@@ -153,6 +153,6 @@ To be accessible from the outside, the images used in emails and public resource
 
 Adobe recommends previewing your message to check its personalization and how your recipients will see your delivery. 
 
-* In the delivery assistant, the **[!UICONTROL Preview]** sub-tab lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](defining-the-email-content.md#message-content)
+* In the delivery assistant, the **[!UICONTROL Preview]** sub-tab lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}.
 
 *  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)

@@ -20,13 +20,13 @@ Learn how to perform testing and validation steps before sending messages within
 
 The delivery analysis is the phase during which the target population is calculated and the delivery content prepared. Once it is complete, the delivery is ready to send. Consult logs to make sure everything is correct.
 
-[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md).
+Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 ### Why should I create proofs? {#why-should-i-create-proofs-}
 
 Adobe highly recommends creating proof messages to test your delivery on an approval group before sending it to the main target. You can then validate message content, personalization and delivery parameters.
 
-[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). 
+Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ### How to use seed addresses in Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
 
@@ -43,13 +43,13 @@ This has the following benefits:
 
 To detect possible errors in message configuration, Adobe highly recommend setting up a delivery validation cycle. Make sure content is approved as often as necessary by sending proofs to test recipients. A proof should be sent each time a change is made, to approve content.
 
-[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ### What is a typology rule? {#what-is-a-typology-rule-}
 
 To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies.
 
-[Click here to learn more](../../campaign-opt/using/about-campaign-typologies.md).
+Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ## Send your messages {#send-your-messages}
 
@@ -57,25 +57,25 @@ Learn how to send messages in various channels with Adobe Campaign.
 
 ### How can I send emails in waves? {#how-can-i-send-emails-in-waves-}
 
-Before sending a delivery to a large population, you can [configure waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) to divide messages into several batches and balance the load.
+Before sending a delivery to a large population, you can configure waves to divide messages into several batches and balance the load. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}.
 
 ### Which are the key steps to create an email in Campaign? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
 Once the email delivery is created and validated, you can send it. You can decide to send the email to the main target immediately or schedule a delivery for a later date. If needed, before that, you can also estimate the target population.
 
-[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ### How to schedule a delivery? {#how-to-schedule-a-delivery-}
 
 You can defer the delivery of messages in order to schedule the delivery or to manage sales pressure and avoid over-soliciting a population.
 
-[Click here to learn more](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"}.
 
 ### Can I add an attachment to emails? {#can-i-add-an-attachment-to-emails-}
 
 With Campaign Classic, you can add personalized attachments to your emails.
 
-[Click here to learn more about email attachments](../../delivery/using/attaching-files.md).
+Learn more about email attachments in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html){target="_blank"}.
 
 ## Track your messages and measure their impact {#track-your-messages-and-measure-their-impact}
 

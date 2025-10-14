@@ -63,7 +63,7 @@ Read out [this section](../../platform/using/adobe-campaign-workspace.md) to lea
 
 With Adobe Campaign, you can use different strategies to create audiences and select target recipients.
 
-[Click here to learn more](../../delivery/using/steps-defining-the-target-population.md).
+Click here to learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}.
 
 ## What is a workflow? {#what-is-a-workflow-}
 
@@ -73,7 +73,7 @@ You can use a workflow, for example, to download a file from a server, decompres
 
 A workflow can also involve one or more operators to be notified or who can make choices and approve processes. In this way, it is possible to create a delivery action, assign a task to one or more operators to work on content, specify targets, and to approve proofs before starting the delivery.
 
-[Click here to learn more](../../workflow/using/about-workflows.md) about workflows. You can also read out [workflow best practices](../../workflow/using/building-a-workflow.md).
+[Click here to learn more](../../workflow/using/about-workflows.md) about workflows. You can also read out workflow best practices in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}.
 
 ## How to create and send a first email? {#how-to-create-and-send-a-first-email-}
 
@@ -87,7 +87,7 @@ Learn how to configure your platform and send SMS messages [in this section](../
 
 ## How to send push notifications? {#how-to-send-push-notifications-}
 
-Learn how to use the Adobe Campaign to [send a personalized push notification](../../delivery/using/create-notifications-ios.md) to iOS and Android devices via apps.
+Learn how to use the Adobe Campaign to send a personalized push notification in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target="_blank"}.
 
 ## How to design and share an online survey? {#how-to-design-and-share-an-online-survey-}
 

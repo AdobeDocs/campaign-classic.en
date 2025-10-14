@@ -76,8 +76,6 @@ The **nlserver sms** module queries the SMS router at regular intervals. This al
 
 * **Unsubscription**: recipients who wish to stop receiving SMS deliveries can return a message containing the word STOP. If your provider allows it under the terms of the contract, you can retrieve messages via the **Inbound SMS** workflow activity and then create a query to enable the **No longer contact this recipient** option for the recipients concerned.
 
-  Refer to the [Workflows](../../workflow/using/architecture.md) guide.
-
 ## InSMS schema {#insms-schema}
 
 The InSMS schema contains information relevant to incoming SMS. A description of these fields is available via the desc attribute.
@@ -163,4 +161,4 @@ The sender name for this type of message is a short code usually used to send de
 >
 >These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard. [Learn more](delivery-dashboard.md).
 >
->These messages are not taken into account in the commercial pressure rules. [Learn more](../../campaign-opt/using/pressure-rules.md).
+>These messages are not taken into account in the commercial pressure rules. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.

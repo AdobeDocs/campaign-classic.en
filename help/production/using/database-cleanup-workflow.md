@@ -26,7 +26,7 @@ The database cleanup is configured on two levels: in the workflow scheduler and 
 
 >[!NOTE]
 >
->For more on the scheduler, refer to [this section](../../workflow/using/scheduler.md).
+>For more on the scheduler, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 By default, the **[!UICONTROL Database cleanup]** workflow is configured to start daily at 4AM. The scheduler lets you change the workflow triggering frequency. The following frequencies are available:
 
