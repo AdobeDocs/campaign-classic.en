@@ -37,7 +37,7 @@ For more on this, refer to the [Campaign v8 documentation](https://experiencelea
 
 To improve your recipients' experience and make them open your email, Adobe Campaign enables you to personalize your messages.
 
-For more on using personalization fields in Adobe Campaign, see [this section](personalization-fields.md).
+For more on using personalization fields in Adobe Campaign, see the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-fields){target="_blank"}.
 
 ## Opt-out link and form {#opt-out}
 
@@ -45,7 +45,7 @@ By default, when the message is analyzed, a typology rule checks whether an opt-
 
 You must check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line and that validating this changes the value of the **[!UICONTROL No longer contact this recipient]** field to **[!UICONTROL Yes]**. You should make this check systematically because human error is always possible when entering the link or when changing the form.
 
-Learn how to insert an opt-out link [in this section](personalization-blocks.md#personalization-blocks-example).
+Learn how to insert an opt-out in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 If a problem is detected concerning unsubscription after the delivery is started, it is still possible to perform an unsubscription manually (using the mass-update function, for example) for those recipients who click the opt-out link even if they were not able to confirm their choice.
 

@@ -16,7 +16,7 @@ With the Digital Content Editor, you can insert and format page elements, and ma
 
 >[!NOTE]
 >
->If you need to add server-side JavaScript code, use personalization blocks. [Learn more](../../delivery/using/personalization-blocks.md).
+>If you need to add server-side JavaScript code, use personalization blocks. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!CAUTION]
 >

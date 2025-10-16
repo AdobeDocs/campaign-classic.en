@@ -158,11 +158,11 @@ type: Documentation
           + [Create a delivery from a template - HIDDEN](delivery/using/creating-a-delivery-from-a-template.md)
      + Personalize deliveries {#personalizing-deliveries}
           + [About personalization](delivery/using/about-personalization.md)
-          + [Personalization fields](delivery/using/personalization-fields.md)
-          + [Personalization blocks](delivery/using/personalization-blocks.md)
-          + [Conditional content](delivery/using/conditional-content.md)
-          + [Personalized coupons](delivery/using/personalized-coupons.md)
-          + [Generate personalized PDF documents](delivery/using/generating-personalized-pdf-documents.md)
+          + [Personalization fields - HIDDEN](delivery/using/personalization-fields.md)
+          + [Personalization blocks - HIDDEN](delivery/using/personalization-blocks.md)
+          + [Conditional content - HIDDEN](delivery/using/conditional-content.md)
+          + [Personalized coupons - HIDDEN](delivery/using/personalized-coupons.md)
+          + [Generate personalized PDF documents - HIDDEN](delivery/using/generating-personalized-pdf-documents.md)
           + [Customize the emoticon list](delivery/using/customizing-emoticon-list.md)
      + Use seed addresses {#using-seed-addresses}
           + [About seed addresses](delivery/using/about-seed-addresses.md)

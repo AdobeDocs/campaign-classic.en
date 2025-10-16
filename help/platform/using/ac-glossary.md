@@ -762,14 +762,14 @@ Learn more about [Performance monitoring](../../production/using/monitoring-proc
 
 Adobe Campaign offers built-in personalization blocks that you can insert in your deliveries. They are dynamic, personalized and contain a specific rendering. For example, you can add a logo, a greeting message, or a link to a mirror page. Several personalization blocks are available by default. You can also define custom personalization blocks that will allow you to optimize your delivery personalization. The actual data is inserted into each generated message during the analysis phase of the delivery.  
 
-Learn more about [Personalization blocks](../../delivery/using/personalization-blocks.md).
+Learn more about personalization blocks in to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 +++
 
 +++**Personalization field**
 
 A personalization field is a single data field reference used when personalizing a delivery for a specific recipient. The actual data value is inserted during the delivery analysis phase.
 
-Learn more about [Personalization fields](../../delivery/using/personalization-fields.md).
+Learn more about personalization fields in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}.
 +++
 
 +++**Personalization variables**

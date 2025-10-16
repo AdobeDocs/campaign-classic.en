@@ -166,7 +166,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Coupon Management<br /> </td> 
-   <td> Creates a set of coupons to add to upcoming marketing offers. Optional. <a href="../../delivery/using/personalized-coupons.md">Learn More</a> <br /> </td> 
+   <td> Creates a set of coupons to add to upcoming marketing offers. Optional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

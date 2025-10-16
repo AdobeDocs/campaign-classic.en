@@ -5,6 +5,8 @@ description: Learn how to generate personalized PDF documents
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 role: User
+hide: yes
+hidefromtoc: yes
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 ---
 # Generate personalized PDF documents{#generating-personalized-pdf-documents}

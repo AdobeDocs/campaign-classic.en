@@ -22,7 +22,7 @@ If an end-user opts-out of behavioral tracking via cookies or web beacons, then 
 
 To be displayed within Web applications or Landing pages, the banner needs to be configured.
 
-Adobe Campaign is delivered with a sample banner that you must adapt to your needs. This banner version appears as a personalization block located in the content model folder. Refer to [this page](../../delivery/using/personalization-blocks.md).
+Adobe Campaign is delivered with a sample banner that you must adapt to your needs. This banner version appears as a personalization block located in the content model folder. refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!IMPORTANT]
 >

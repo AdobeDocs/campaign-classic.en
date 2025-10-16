@@ -253,4 +253,4 @@ The **Personalization block** option lets you insert dynamic and personalized bl
 
 Once inserted, the personalization block name appears in the editor, highlighted in yellow. It is automatically adapted to the recipient profile when personalization is generated.
 
-For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
+For more on built-in personalization blocks and how to define custom personalization blocks, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.

@@ -76,7 +76,7 @@ Select the format of the email in the lower section of the window:
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email.
 
-By default, the mirror page is generated if the link is inserted in the content of the mail. For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).
+By default, the mirror page is generated if the link is inserted in the content of the mail. For more on personalization blocks insertion, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 In the delivery properties, the **[!UICONTROL Mode]** field of the **[!UICONTROL Validity]** tab lets you modify the generation mode for this page.
 
