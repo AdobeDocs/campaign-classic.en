@@ -45,9 +45,9 @@ Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com
 Messages delivered by Adobe Campaign can be personalized in several different ways, concerning the content or the appearance of messages. These ways can be combined according to criteria taken particularly from the recipient profiles. In general, Adobe Campaign allows you to:
 
 * Personalize the message format. Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}.
-* Insert dynamic personalization fields. [Click here to learn more](../../delivery/using/personalization-fields.md).
-* Insert predefined personalization blocks, or create your own block. [Click here to learn more](../../delivery/using/personalization-blocks.md).
-* Create conditional content. [Click here to learn more](../../delivery/using/conditional-content.md) and read [this section](../../delivery/using/conditional-content.md).
+* Insert dynamic personalization fields. Learn more in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}.
+* Insert predefined personalization blocks, or create your own block. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+* Create conditional content. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditional-content.html){target="_blank"}.
 
 ## Can I send multilingual messages? {#can-i-send-multilingual-messages-}
 

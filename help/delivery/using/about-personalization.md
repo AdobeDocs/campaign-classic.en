@@ -13,7 +13,7 @@ With Adobe Campaign, personalize your deliveries to send messages that match eac
 
 Personalization helps you make your messages more relevant and engaging. You can use recipient data to adapt content, add dynamic fields, or display different information based on conditions. Learn how to set up and use personalization features in your deliveries in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}.
 
-As part of the Campaign v8 promotion initiative, the Campaign Classic documentation has been reorganized. Common features are now only available in the Campaign v8 documentation set.
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
 
 >[!BEGINTABS]
 
@@ -27,20 +27,20 @@ To learn more about content personalization, refer to the [Campaign v8 documenta
 
 >[!TAB Personalization and conditional content]
 
-Learn the key steps related to conditional content and personalization in the Campaign v8 documentation:
+Learn the key steps related to conditional content and personalization **in the Campaign v8 documentation**:
 
 * [Personalization data](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html){target="_blank"}: Learn how to use different data sources for personalization to customize your deliveries.
 * [Personalization fields](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}: Learn how to insert and use personalization fields so that each recipient sees their own data in the subject or body of your message.
 * [Personalization blocks](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}: Learn how to use personalization blocks to insert dynamic, conditional content into your messages based on recipient data.
 * [Conditional content](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html){target="_blank"}: Learn how to insert conditional content based on recipient field values.
 
->[!TAB EXXXXXX]
+>[!TAB Coupons, PDF documents and emoticons]
 
-Refer to these pages to learn about XXXXX Campaign v8 documentation:
+Refer to these pages to learn about personalized coupons, PDF documents and emoticon customozation **in the Campaign v8 documentation**:
 
-Personalized coupons
-Generate personalized PDF documents
-Customize the emoticon list
+* [Personalized coupons](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"}: Learn how to create and assign personalized or anonymous coupons in your email deliveries.
+* [Generate personalized PDF documents](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html){target="_blank"}: Learn how to generate PDF attachments with personalized content for each recipient.
+* [Customize the emoticon list](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html){target="_blank"}: Learn how to add and manage emoticons to enhance email messages.
 
 >[!ENDTABS]
 
