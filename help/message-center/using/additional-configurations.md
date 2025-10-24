@@ -96,6 +96,12 @@ If you do modify the archiving workflow schedule, you must also change the **tra
 
 This section describes one solution to configure tracking and mirror page URLs per brand, for transactional messages in Adobe Campaign.
 
+### Compatibility note {#compatibility-note}
+
+This legacy branding configuration is not compatible with the new [centralized branding](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} model introduced in Campaign v8.  
+
+If your existing environment uses this legacy configuration, it cannot be migrated directly to the new centralized branding model. A full reimplementation of branding settings is required to adopt the new system.
+
 ### Prerequisites {#prerequisites}
 
 * All of the hosts must be added to the configuration file of the instance (`config-<instance>.xml`).
