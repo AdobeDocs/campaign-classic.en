@@ -318,7 +318,7 @@ The **Delivery monitoring** section has been reorganized into thematic topics. [
 
 A use case has been added on how to add senders' IP addresses to the delivery logs. [Read more](../../delivery/using/delivery-dashboard.md#use-case)
 
-Privacy FAQ has been moved to [this section](../../platform/using/privacy-faq.md).
+Privacy documentation is available in [this section](../../platform/using/privacy-management.md).
 
 A use case has been added on how to use the **[!UICONTROL Deduplication]** activity's merge functionality. [Read more](../../workflow/using/deduplication-merge.md)
 
@@ -344,7 +344,7 @@ Information has been added on the syntax to use when specifying a path to an ext
 
 The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
 
-A new section listing Frequently Asked Questions on Privacy has been added. [Read more](../../platform/using/privacy-faq.md)
+Privacy documentation is available. For comprehensive privacy FAQs, see the [Campaign v8 Comprehensive FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html#privacy){target="_blank"}.
 
 ## October 2020 {#oct-2020}
 
@@ -504,7 +504,6 @@ The Data package best practices section has been moved and updated. [Read more](
 
 The FDA rights table has been moved to the Accessing an external database (FDA) documentation. [Read more](../../installation/using/remote-database-access-rights.md)
 
-The FAQ has been updated with tips on how to clear soft and hard cache. [Read more](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
 Data model best practices have been improved with additional information on indexes. [Read more](../../configuration/using/data-model-best-practices.md#indexes)
 

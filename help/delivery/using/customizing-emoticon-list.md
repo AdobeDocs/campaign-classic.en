@@ -57,7 +57,7 @@ Note that emoticons are only available for email and push. For more on this refe
 
 1. Your new emoticon has now been added to the **[!UICONTROL Insert emoticon list]** out-of-the-box enumeration. You can change its **[!UICONTROL Display order]** at any time or move it to the store if you do not need it anymore.
 
-1. For your changes to be taken into account, disconnect then reconnect from Adobe Campaign Classic. If your new emoticon still doesn't appear in the **[!UICONTROL Insert emoticon]** pop-up window, you might need to clear your cache. For more on this, refer to this [section](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
+1. For your changes to be taken into account, disconnect then reconnect from Adobe Campaign Classic. If your new emoticon still doesn't appear in the **[!UICONTROL Insert emoticon]** pop-up window, you might need to clear your cache. For more on this, refer to this [section](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache).
 
 1. Your new emoticon can now be found in your deliveries in the **[!UICONTROL Insert emoticon]** pop-up window in the 61st position as configured in the previous steps. For more information on how to use emoticons in your deliveries, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}.
 

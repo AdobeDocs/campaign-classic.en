@@ -506,7 +506,7 @@ Learn more about [Lists](../../platform/using/creating-and-managing-lists.md).
 
 The local cache is the information that is stored locally on the operator's computer. Cached information is used by the console to reduce the required traffic to the server and improve performance. Periodic clearing of the local cache (on the File menu) updates the stored information and improves performance and stability.  
 
-Learn more about [Local Cache](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
+Learn more about [Local Cache](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache).
 +++
 
 ## M - P {#sec-4}

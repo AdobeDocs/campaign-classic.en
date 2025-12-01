@@ -33,17 +33,8 @@ type: Documentation
      + [Campaign connectors](platform/using/about-connectors.md)
      + [Create queries in Campaign](platform/using/about-queries-in-campaign.md)
      + Frequently Asked Questions {#faq}
-          + [Top questions](platform/using/common-questions.md)
-          + [Global concepts](platform/using/faq-key-concepts.md)
+          + [Campaign Classic v7 Specific FAQ](platform/using/faq-campaign-classic-v7.md)
           + [Build upgrade](platform/using/faq-build-upgrade.md)
-          + [Privacy](platform/using/privacy-faq.md)
-          + [Audiences](platform/using/faq-audiences.md)
-          + [Design messages](platform/using/faq-designing.md)
-          + [Send messages](platform/using/faq-messages.md)
-          + [Workflows](platform/using/faq-workflows.md)
-          + [Configuration](platform/using/faq-campaign-config.md)
-          + [Reports](platform/using/faq-reporting.md)
-          + [Development](platform/using/faq-developers.md)
      + [Glossary](platform/using/ac-glossary.md)
      + Privacy {#privacy}
           + [Privacy and consent](platform/using/privacy-and-recommendations.md)
