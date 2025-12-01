@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 ---
-# Campaign Classic v7 Specific FAQ {#campaign-classic-v7-faq}
+# Campaign Classic v7 FAQ {#campaign-classic-v7-faq}
 
 This FAQ addresses questions specific to Adobe Campaign Classic v7 architecture, deployment models, and v7-specific features.
 
