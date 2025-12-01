@@ -6,7 +6,6 @@ feature: Overview, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: faq-campaign-classic-v7
 ---
 # Campaign Classic v7 Specific FAQ {#campaign-classic-v7-faq}
 
