@@ -3,7 +3,7 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 Documentation
 product: campaign
 title: Campaign Classic v7 Guide
-user-guide-titel: Campaign Classic v7 Guide
+user-guide-title: Campaign Classic v7 Guide
 user-guide-description: Product documentation for Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
