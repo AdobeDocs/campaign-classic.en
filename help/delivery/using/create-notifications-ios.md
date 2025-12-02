@@ -3,7 +3,7 @@ product: campaign
 title: Create a push notification for iOS devices
 description: Learn how to create push notifications for iOS
 feature: Push
-role: User, Developer, Data Engineer
+role: User, Developer
 hide: yes
 hidefromtoc: yes
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0

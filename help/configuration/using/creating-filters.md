@@ -3,7 +3,7 @@ product: campaign
 title: Create filters
 description: Learn how to create filters for a custom table
 feature: Profiles, Custom Resources
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
 ---

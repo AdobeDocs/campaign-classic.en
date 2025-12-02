@@ -2,7 +2,7 @@
 product: campaign
 title: Consistency rules
 description: Learn how to work with consistency rules in Adobe Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: yes
 hidefromtoc: yes

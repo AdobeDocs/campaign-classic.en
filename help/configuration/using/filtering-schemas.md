@@ -3,7 +3,7 @@ product: campaign
 title: Filtering schemas
 description: Filtering schemas
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 ---
 # Filter schemas{#filtering-schemas}

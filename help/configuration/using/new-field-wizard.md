@@ -3,7 +3,7 @@ product: campaign
 title: New field assistant
 description: New field assistant
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---
 # New field assistant{#new-field-wizard}

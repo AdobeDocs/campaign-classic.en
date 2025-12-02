@@ -2,7 +2,7 @@
 product: campaign
 title: Campaign simulations
 description: Get started with Campaign simulations
-role: User, Data Engineer
+role: User, Developer
 feature: Campaigns
 hide: yes
 hidefromtoc: yes

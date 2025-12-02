@@ -4,7 +4,7 @@ title: Create seed addresses
 description: Learn how to create and use seed addresses
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
-role: User, Data Engineer
+role: User, Developer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 ---
 # Create seed addresses{#creating-seed-addresses}

@@ -3,7 +3,7 @@ product: campaign
 title: Additional web tracking parameters
 description: Learn more about parameters for web tracking
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 ---
 # Additional web tracking parameters{#additional-parameters}

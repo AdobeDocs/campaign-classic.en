@@ -2,7 +2,7 @@
 product: campaign
 title: Apply typology rules
 description: Learn how to apply typology rules
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: yes
 hidefromtoc: yes

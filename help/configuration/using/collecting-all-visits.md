@@ -3,7 +3,7 @@ product: campaign
 title: Collecting all visits
 description: Collecting all visits
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 ---
 # Collecting all visits{#collecting-all-visits}

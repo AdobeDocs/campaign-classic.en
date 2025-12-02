@@ -3,7 +3,7 @@ product: campaign
 title: Key management in data schemas
 description: Understand key management in data schemas
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
 ---
 # Key management in schemas {#management-of-keys}

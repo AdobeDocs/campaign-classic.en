@@ -3,7 +3,7 @@ product: campaign
 title: Data schemas
 description: Get started with Campaign data schemas
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 ---
 # Data schemas{#data-schemas}

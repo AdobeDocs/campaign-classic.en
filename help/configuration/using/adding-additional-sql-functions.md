@@ -3,7 +3,7 @@ product: campaign
 title: Adding additional SQL functions
 description: Learn how to define additional SQL function
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 ---
 # Define additional SQL functions{#adding-additional-sql-functions}

@@ -3,7 +3,7 @@ product: campaign
 title: Database mapping
 description: Database mapping
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
 ---
 # Link management {#links--relation-between-tables}

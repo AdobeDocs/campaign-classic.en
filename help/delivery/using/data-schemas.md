@@ -4,7 +4,7 @@ title: Use data schemas in Campaign
 description: Learn how to use data schemas in Campaign
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Model
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 ---
 # Use data schemas in Campaign{#data-schemas}

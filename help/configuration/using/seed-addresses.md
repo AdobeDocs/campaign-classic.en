@@ -2,7 +2,7 @@
 product: campaign
 title: Seed addresses
 description: Seed addresses
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 level: Intermediate, Experienced

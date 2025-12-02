@@ -2,7 +2,7 @@
 product: campaign
 title: Extend a schema
 description: Learn how to extend a schema
-role: Data Engineer, Developer
+role: Developer
 feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
 ---
