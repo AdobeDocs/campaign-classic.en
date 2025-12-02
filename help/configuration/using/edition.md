@@ -3,7 +3,7 @@ product: campaign
 title: Edit Campaign Explorer navigation tree
 description: Edit Campaign Explorer navigation tree
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 ---
 

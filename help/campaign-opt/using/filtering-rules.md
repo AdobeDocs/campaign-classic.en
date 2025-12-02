@@ -2,7 +2,7 @@
 product: campaign
 title: Filtering rules
 description: Learn how to use filtering rules in Adobe Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: yes
 hidefromtoc: yes

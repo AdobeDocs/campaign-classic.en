@@ -3,7 +3,7 @@ product: campaign
 title: SOAP methods in JavaScript
 feature: Configuration, Instance Settings
 description: SOAP methods in JavaScript
-role: Data Engineer, Developer
+role: Developer
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 ---
 # SOAP methods in JavaScript{#soap-methods-in-javascript}

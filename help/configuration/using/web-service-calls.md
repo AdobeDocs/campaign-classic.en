@@ -3,7 +3,7 @@ product: campaign
 title: Web service calls
 description: Web service calls
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 ---
 # Web service calls{#web-service-calls}

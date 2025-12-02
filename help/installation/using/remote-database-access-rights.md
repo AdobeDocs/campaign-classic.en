@@ -69,5 +69,5 @@ The database administrator needs to make these rights match with the rights spec
 | **Monitoring executions**  | No privilege required to use EXPLAIN statement |SELECT privilege | Only a system Administrator can execute sp_showplan| No privilege required to use EXPLAIN statement | No privilege required to use EXPLAIN statement |
 |  **Writing data** | INSERT and UPDATE privileges | INSERT and UPDATE privileges| INSERT and UPDATE permissions| INSERT and UPDATE privileges | INSERT and UPDATE privileges |
 | **Loading data into tables**   | SELECT and INSERT privileges to respectively use COPY TO and COPY FROM statements| FILE privilege| Be the owner of the table or ALTER permission. Depending on the -gl option, LOAD TABLE might only be performed if the user has the DBA authority| SELECT and INSERT privileges| SELECT and INSERT privileges |
-| **Accessing to client data** | SELECT privilege | SELECT permission| SELECT privilege | SELECT privilege |
+| **Accessing to client data** | SELECT privilege | SELECT permission| SELECT privilege | SELECT privilege ||
 |  **Accessing to metadata**  | SHOW privilege| SELECT privilege | No permission required to use DESCRIBE statement| No privilege required to use "\d table" command | No privilege required to use SHOW command |

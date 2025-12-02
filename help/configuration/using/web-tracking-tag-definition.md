@@ -3,7 +3,7 @@ product: campaign
 title: Define web tracking tag
 description: Define web tracking tag
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 ---
 # Web tracking tag: definition{#web-tracking-tag-definition}

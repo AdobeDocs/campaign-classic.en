@@ -3,7 +3,7 @@ product: campaign
 title: Business oriented APIs
 description: Business oriented APIs
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 ---
 # Business oriented APIs{#business-oriented-apis}

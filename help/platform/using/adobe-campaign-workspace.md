@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Campaign workspace
 description: Learn how to use and customize Campaign workspace
 feature: Overview
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 ---

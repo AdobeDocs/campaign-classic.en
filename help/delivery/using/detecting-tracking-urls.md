@@ -3,7 +3,7 @@ product: campaign
 title: Detecting tracking URLs
 description: Learn more about recommended pattern to track URLs
 feature: Monitoring
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
 ---
 # Detect tracking URLs

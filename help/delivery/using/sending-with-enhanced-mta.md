@@ -150,11 +150,10 @@ Consequently, you should wait until the end of the validity period to see the fi
 
 The table below shows the different steps in the sending process with the corresponding KPIs and sending logs statuses.
 
-| Step in the sending process | KPI summary | Sending logs status | 
+| Step in the sending process | KPI summary | Sending logs status |
 |--- |--- |--- |
 | Message is successfully relayed from Campaign to the Enhanced MTA | **[!UICONTROL Success]** percentage starts out at 100%| Sent |
 | Hard-bouncing messages get reported back from the Enhanced MTA | **[!UICONTROL Success]** percentage is decreased accordingly | Failed |
 | Soft-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Sent |
-| Soft-bouncing messages retries are successful | No change in **[!UICONTROL Success]** percentage | Sent | **[!UICONTROL Success]** percentage is increased accordingly | Sent |
+| Soft-bouncing messages retries are successful | No change in **[!UICONTROL Success]** percentage \|  **[!UICONTROL Success]** percentage is increased accordingly | Sent |
 | Soft-bouncing messages retries fail | **[!UICONTROL Success]** percentage is decreased accordingly | Failed |
-

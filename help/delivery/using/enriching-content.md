@@ -4,7 +4,7 @@ title: Enriching content
 description: Enriching content
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Management
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 ---
 # Enriching content{#enriching-content}

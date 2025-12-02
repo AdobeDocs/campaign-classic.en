@@ -4,7 +4,7 @@ title: Content manager resources and principles
 description: Content manager resources and principle
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Templates
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
 ---
 # Content manager resources and principles{#content-manager-resources-and-principles}

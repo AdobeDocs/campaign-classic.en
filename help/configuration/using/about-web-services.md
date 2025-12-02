@@ -3,7 +3,7 @@ product: campaign
 title: About web services
 description: About web services
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 ---
 # About web services{#about-web-services}

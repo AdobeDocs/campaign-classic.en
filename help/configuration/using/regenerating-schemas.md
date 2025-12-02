@@ -3,7 +3,7 @@ product: campaign
 title: Regenerate schemas
 description: Learn how to regenerate Campaign schemas
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
 ---
 # Regenerate schemas{#regenerating-schemas}

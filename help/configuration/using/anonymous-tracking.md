@@ -3,7 +3,7 @@ product: campaign
 title: Anonymous tracking
 description: Learn how to set up anonymous tracking
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 ---
 # Anonymous tracking{#anonymous-tracking}
