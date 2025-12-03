@@ -506,7 +506,7 @@ Learn more about [Lists](../../platform/using/creating-and-managing-lists.md).
 
 The local cache is the information that is stored locally on the operator's computer. Cached information is used by the console to reduce the required traffic to the server and improve performance. Periodic clearing of the local cache (on the File menu) updates the stored information and improves performance and stability.  
 
-Learn more about [Local Cache](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
+Learn more about [Local Cache](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache).
 +++
 
 ## M - P {#sec-4}
@@ -1004,7 +1004,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 The Tracking technical workflow retrieves the tracking data once the delivery has been sent and tracking activated. This data can be found in the Tracking tab of your delivery. You can find information for opens and clicks on an email or other interactions with a message received by the recipient.
 
-Learn more about [Tracking logs](../../delivery/using/accessing-the-tracking-logs.md).
+Learn more about [Tracking logs in Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} or [v7-specific tracking](../../delivery/using/about-message-tracking.md).
 +++
 
 +++**Transactional messaging**

@@ -2,49 +2,111 @@
 product: campaign
 title: Get started with delivery monitoring
 description: Learn more about Campaign Classic delivery monitoring capabilities
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 ---
 # Get started with delivery monitoring {#about-delivery-monitoring}
 
-Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach out to your customers.
+>[!IMPORTANT]
+>
+>For comprehensive monitoring guidance that applies to both Campaign Classic v7 and Campaign v8, refer to the [Campaign v8 Monitor your Campaign environment documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/monitor){target="_blank"}.
+>
+>This page documents **Campaign Classic v7-specific monitoring features** for on-premise installations.
 
-In this section, you will learn more about the information you can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
+## Campaign Classic v7-specific monitoring features
 
-<img src="assets/do-not-localize/icon_monitor.svg" width="60px">
+### On-premise delivery monitoring {#monitoring-deliveries}
 
-**Monitor your deliveries**
+**For Campaign Classic v7 on-premise installations**, additional monitoring is required for server resources and MTA (Mail Transfer Agent) configuration.
 
-The list of deliveries allows you to see all created deliveries into one single location.
+#### Troubleshoot pending deliveries {#pending-deliveries}
 
-For each delivery, a dedicated dashboard is available. It allows you to monitor  eventual issues encountered during the sending as well as various types of information regarding the delivery: reports, mirror pages, exclusions, tracking logs, rendering, etc.
+What if the deliveries are not being sent and their status remains **Pending**?
+
+* The execution process is waiting on the availability of some resources. The MTA may have not been started.
+Check that your mta@instance modules are launched on your MTA servers and start the MTA module if necessary. [Learn more](../../production/using/administration.md).
+
+* The delivery may be using an affinity that has not been configured on the sending instance.
+Tip: Check the configuration of traffic management (IP affinity). For more on this, see Control outgoing SMTP traffic.
+
+>[!NOTE]
+>
+>These steps can only be performed by an expert user on on-premise installations.
+
+### Deliverability monitoring for on-premise installations {#deliverability-monitoring}
+
+#### Deliverability package installation {#deliverability-package}
+
+This feature is available through a dedicated package in Adobe Campaign. To use it, this package must be installed. Once done, restart the server for the package to be taken into account.
+
+* For hosted and hybrid clients, **Deliverability monitoring** is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
+ 
+* For on-premise installations, you must install the **[!UICONTROL Deliverability monitoring (Email Deliverability)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Install Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
+
+#### Deliverability workflow {#deliverability-workflow}
+
+In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!UICONTROL Refresh for deliverability]** workflow. It is installed by default on all instances and lets you initialize the list of bounce mail qualification rules, the list of domains and the list of MXs. Once the **[!UICONTROL Deliverability monitoring (Email Deliverability)]** package is installed, this workflow runs nightly to regularly update the list of rules and enables you to actively manage platform deliverability.
+
+**The Deliverability package gives you access to:**
+
+* The [Inbox rendering report](inbox-rendering.md) which enables you to preview your messages on major email clients in order to scan content and reputation.
+* Overview of message quality (inbox, spam).
+
+#### Monitoring tools for on-premise {#monitoring-tools}
+
+**For on-premise installations**, you can use the following monitoring tools:
+
+* The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
+* Each delivery generates a broadcast statistics report for the different Internet service providers (ISPs). It shows some data quality and reputation metrics that may impact your deliverability, including the following numbers:
+    * **[!UICONTROL Hard bounces]** indicate data quality. This number should be less than 2%.
+    * **[!UICONTROL Soft bounces]** indicate reputation. This number should not be higher than 10% for any given ISP.
+    
+    For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
+
+#### Monitoring guidelines for on-premise {#monitoring-guidelines}
+
+**For on-premise installations**, here are some additional guidelines on deliverability monitoring:
+
+* Regularly check the [delivery throughput](../../reporting/using/global-reports.md#delivery-throughput) for the whole platform to verify whether it is consistent with the original set-up.
+* Check that [retries](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
+* Regularly verify that the [bounce](understanding-delivery-failures.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
+* Check each delivery throughput, accessible from the [delivery dashboard](delivery-dashboard.md), to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
+* When using waves, verify that each wave has enough time to finish before the next one is triggered. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}.
+* Check that the number of errors and new [quarantines](understanding-quarantine-management.md) are consistent with other deliveries.
+* Carefully consult the [delivery logs](delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
+
+### On-premise troubleshooting {#delivery-troubleshooting}
+
+Specific actions can be performed when encountering issues with deliveries on **on-premise installations**:
+
+* [Deliverability issues](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
+* [Image display issues](../../production/using/image-display-issues.md)
+* [Delivery performance issues](delivery-performances.md)
+* [Temporary files issues](../../production/using/temporary-files.md) - *on-premise customers only*
+
+## General monitoring topics
+
+The following monitoring capabilities apply to both Campaign Classic v7 and Campaign v8:
+
+**Monitor your deliveries:**
 
 * [Accessing the list of deliveries](list-of-deliveries.md)
 * [Delivery dashboard](delivery-dashboard.md)
-
-<img src="assets/do-not-localize/icon_guidelines.svg" width="60px">
-
-**Secure delivery performances**
-
-Several guidelines should be followed in order to ensure your deliveries perform well. Common issues you may encounter when sending deliveries are also available to help you send deliveries efficiently.
-
 * [Delivery performances and best practices](delivery-performances.md)
 * [Delivery sending troubleshooting](delivery-troubleshooting.md)
 
-<img src="assets/do-not-localize/icon_failure.svg" width="60px">
+**Understand delivery failures and quarantines:**
 
-**Understand delivery failures**
+* [Understanding delivery failures](understanding-delivery-failures.md)
+* [Understanding quarantine management](understanding-quarantine-management.md)
 
-When a message cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined.
+**Track messages:**
 
-[Understanding delivery failures](understanding-delivery-failures.md) is a key step to help you improve your marketing campaigns.
+* [Get started with message tracking](about-message-tracking.md)
 
-<img src="assets/do-not-localize/icon_quarantine.svg" width="60px">
+## Related topics
 
-**Understand quarantine management**
-
-Adobe Campaign manages a list of quarantined addresses. Recipients whose address is quarantined are excluded by default during delivery analysis, and will not be targeted.
-
-In [this section](understanding-quarantine-management.md), you will find information on how to identify and manage quarantined addresses, and learn more about the conditions for sending an address to quarantine.
+* [Monitor your Campaign environment](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/monitor){target="_blank"} - Comprehensive monitoring for v7 & v8
+* [Delivery statuses](delivery-statuses.md)
+* [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}

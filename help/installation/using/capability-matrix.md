@@ -29,7 +29,7 @@ The different hosting models are introduced [in this section](../../installation
 | Zipping/Unzipping files | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
 | Domain Name Delegation | On-demand | On-demand | Not available | [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) |
 | Installing SpamAssassin | On-demand | Available | Available | [Learn more](../../delivery/using/spamassassin.md) |
-| Accessing deliverability reports | Available | On-demand | Available | [Learn more](../../delivery/using/monitoring-deliverability.md)|
+| Accessing deliverability reports | Available | On-demand | Available | [Learn more](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring)|
 | Configuring LDAP authentication | Not Available | Available | Available | [Learn more](../../installation/using/connecting-through-ldap.md) |
 
 

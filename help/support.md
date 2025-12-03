@@ -27,21 +27,15 @@ Get support using our FAQs, best practices, online resources and support portal.
 
 ### Frequently Asked Questions
 
-How to upgrade to a new build? how to monitor workflow execution? what is the database cleanup workflow?... [Read out top 10 questions](platform/using/common-questions.md).
-
 <table>
     <tr><td><strong>Topics Q&A</strong></td><td><strong>Common issues</strong></td><td><strong>Best practices</strong></td><td><strong>How-to</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="platform/using/faq-key-concepts.md">Key concepts</a></li>
-        <li><a href="platform/using/faq-campaign-config.md">Campaign settings</a></li>
-        <li><a href="platform/using/faq-reporting.md">Reporting</a></li>
+        <li><a href="platform/using/faq-campaign-classic-v7.md">Campaign Classic v7 FAQ</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Build upgrade</a></li>
-        <li><a href="platform/using/faq-messages.md">Testing, sending and tracking messages</a></li>
-        <li><a href="platform/using/faq-workflows.md">Workflows</a></li>
-        <li><a href="platform/using/faq-developers.md">Developers</a></li>
-        <li><a href="delivery/using/monitoring-deliverability.md">Deliverability</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">Campaign v8 Comprehensive FAQ</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">Delivery monitoring</a></li>
         </ul>
     </td>
     <td valign="top">
