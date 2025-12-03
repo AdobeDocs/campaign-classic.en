@@ -27,17 +27,32 @@ exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 
 For Campaign Classic v7 **on-premise installations**, you need to configure tracking at the instance level before using it.
 
+>[!NOTE]
+>
+>For Campaign v8 Managed Cloud Services, tracking configuration is performed by Adobe.
+
 **Operating principle**
 
-Before using tracking, you need to first configure it for your instance. [Learn more](../../installation/using/deploying-an-instance.md#operating-principle)
+Before using tracking, you need to first configure it for your instance. The configuration needs to be performed on the Adobe Campaign application server(s) and web server(s).
+
+In Campaign, there are two types of tracking:
+
+* **Web tracking**: this mode lets you track visits to your website pages
+* **Message tracking**: this mode lets you track message deliveries and recipient behavior
+
+The tracking mode is selected during installation. For on-premise installations, tracking configuration must be defined at the instance level. [Learn more](../../installation/using/deploying-an-instance.md#operating-principle)
 
 **Tracking server**
 
-To configure tracking, your instance must be declared and registered with the tracking server(s). [Learn more](../../installation/using/deploying-an-instance.md#tracking-server)
+To configure tracking, your instance must be declared and registered with the tracking server(s). The tracking server is used to record and retrieve information about URLs clicked by recipients. 
+
+For on-premise installations, the tracking server is typically a web server running the Adobe Campaign web application. The tracking server URL must be defined in your instance configuration. [Learn more](../../installation/using/deploying-an-instance.md#tracking-server)
 
 **Saving tracking**
 
-Once tracking is configured and your URLs populated, the tracking server must be registered. [Learn more](../../installation/using/deploying-an-instance.md#saving-tracking)
+Once tracking is configured and your URLs populated, the tracking server must be registered. The registration allows Adobe Campaign to save tracking information and provide reports and statistics on tracked activities.
+
+For on-premise installations, tracking information is stored in the database and retrieved through technical workflows. The **Tracking** technical workflow processes and stores the tracking data collected from the redirection server. [Learn more](../../installation/using/deploying-an-instance.md#saving-tracking)
 
 ### Web application tracking {#web-application-tracking}
 
