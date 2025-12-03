@@ -73,7 +73,7 @@ Some internet access providers automatically consider emails to be spam if the r
 
 For more on this, refer to the following sections:
 
-* [Understand delivery failures](understanding-delivery-failures.md)
+* [Understand delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide)
 * [Understand quarantine management](understanding-quarantine-management.md)
 * [Quarantine vs denylist](understanding-quarantine-management.md#quarantine-vs-denylist)
 

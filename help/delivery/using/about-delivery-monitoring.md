@@ -87,13 +87,13 @@ Specific actions can be performed when encountering issues with deliveries on **
 
 **Monitor your deliveries:**
 
-* [Monitor your deliveries in Campaign UI](delivery-dashboard.md)
+* [Monitor your deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
 * [Delivery performances and best practices](delivery-performances.md)
-* [Delivery sending troubleshooting](delivery-troubleshooting.md)
+* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
 
-**Understand delivery failures and quarantines:**
+**v7-specific on-premise configuration:**
 
-* [Understanding delivery failures](understanding-delivery-failures.md)
+* [Bounce mail management configuration](understanding-delivery-failures.md) (v7 on-premise)
 * [Understanding quarantine management](understanding-quarantine-management.md)
 
 **Track messages:**
