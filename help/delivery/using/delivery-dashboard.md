@@ -10,13 +10,13 @@ exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 
 >[!NOTE]
 >
->Comprehensive guidance on accessing the delivery list and using the delivery dashboard is documented in the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-dashboard). This content applies to both Campaign Classic v7 and Campaign v8 users.
+>Comprehensive guidance on accessing the delivery list and using the delivery dashboard is documented in the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard). This content applies to both Campaign Classic v7 and Campaign v8 users.
 >
 >This page documents **Campaign Classic v7-specific customizations** for on-premise deployments.
 
 Monitoring your deliveries is essential to ensure your campaigns are efficient and reach your customers. 
 
-For comprehensive information on accessing the delivery list, using the delivery dashboard tabs, and monitoring your deliveries, refer to the [Campaign v8 Monitor deliveries in Campaign UI documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-dashboard){target="_blank"}.
+For comprehensive information on accessing the delivery list, using the delivery dashboard tabs, and monitoring your deliveries, refer to the [Campaign v8 Monitor deliveries in Campaign UI documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
 ## Campaign Classic v7-specific: Customize delivery logs {#use-case}
 
@@ -109,8 +109,9 @@ Below is what you should see in the **[!UICONTROL Delivery]** tab after modifica
 
 ## Related topics
 
-* [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
-* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-statuses){target="_blank"} (Campaign v8 documentation)
-* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
+* [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
+* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
+* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
+* [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
 * [Bounce mail configuration](understanding-delivery-failures.md) (v7 on-premise)
-* [Understanding quarantine management](understanding-quarantine-management.md)
+* [Quarantine configuration](understanding-quarantine-management.md) (v7 on-premise)

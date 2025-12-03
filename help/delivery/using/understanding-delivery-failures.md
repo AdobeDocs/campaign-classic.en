@@ -10,7 +10,7 @@ exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 
 >[!NOTE]
 >
->Comprehensive guidance on understanding delivery failures is documented in the [Campaign v8 Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures) page. This content applies to both Campaign Classic v7 and Campaign v8 users, covering:
+>Comprehensive guidance on understanding delivery failures is documented in the [Campaign v8 Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures) page. This content applies to both Campaign Classic v7 and Campaign v8 users, covering:
 >
 >* Delivery failure types and reasons (hard, soft, ignored)
 >* Synchronous and asynchronous errors
@@ -21,7 +21,7 @@ exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 >
 >This page documents **Campaign Classic v7-specific configuration** for on-premise bounce mail management.
 
-For common delivery failure concepts, error types, and troubleshooting guidance, refer to the [Campaign v8 Understanding delivery failures documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"}.
+For common delivery failure concepts, error types, and troubleshooting guidance, refer to the [Campaign v8 Understanding delivery failures documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
 
 ## Campaign Classic v7 on-premise bounce mail configuration {#v7-bounce-mail-config}
 
@@ -123,7 +123,7 @@ These rules are available in the deployment wizard and can be customized:
 
 * **[!UICONTROL Limit]**: the maximum number of messages allowed per time period.
 
-* **[!UICONTROL Type]**: the error type (hard, soft, or ignored) used to determine sending behavior. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"} for error type definitions.
+* **[!UICONTROL Type]**: the error type (hard, soft, or ignored) used to determine sending behavior. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} for error type definitions.
 
 For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#about-mx-rules).
 
@@ -133,9 +133,10 @@ For more on MX management, refer to [this section](../../installation/using/emai
 
 ## Related topics
 
-* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"} (Campaign v8 documentation)
-* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-statuses){target="_blank"} (Campaign v8 documentation)
-* [Quarantine management](understanding-quarantine-management.md)
+* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation)
+* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
+* [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation)
+* [Quarantine configuration](understanding-quarantine-management.md) (v7 on-premise)
 * [Update bounce qualification](update-bounce-qualification.md) (v7 on-premise)
 * [Email deliverability configuration](../../installation/using/email-deliverability.md) (v7 on-premise)
 * [Deploying an instance](../../installation/using/deploying-an-instance.md#managing-bounced-emails) (v7 on-premise)

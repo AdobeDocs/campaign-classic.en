@@ -12,10 +12,10 @@ exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 >
 >For **general tracking guidance** that applies to both Campaign Classic v7 and Campaign v8, refer to the [Campaign v8 Message tracking documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}:
 >
->* [Configure tracked links](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracked-links){target="_blank"}
->* [Configure URL tracking options](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/url-tracking){target="_blank"}
->* [Track personalized links](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalized-links){target="_blank"}
->* [Access tracking logs](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"}
+>* [Configure tracked links](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
+>* [Configure URL tracking options](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
+>* [Track personalized links](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [Access tracking logs](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
 >* [Test tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
 >* [Tracking reports](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
@@ -76,7 +76,7 @@ The Web application tracking opt-out enables you to stop tracking web behaviors 
 
 The following troubleshooting tips apply to **Campaign Classic v7 on-premise installations**. Some information may also apply to Campaign v8 on-premise deployments. For Campaign v8 Managed Cloud Services, contact your Adobe representative for assistance.
 
-For basic tracking troubleshooting steps in Campaign v8, refer to the [Troubleshooting tracking in Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs#troubleshooting){target="_blank"}.
+For basic tracking troubleshooting steps in Campaign v8, refer to the [Troubleshooting tracking in Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}.
 
 ### Basic checks {#basic-checks}
 

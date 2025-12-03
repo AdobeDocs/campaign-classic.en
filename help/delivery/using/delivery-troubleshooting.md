@@ -12,8 +12,8 @@ exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 >
 >Comprehensive guidance on delivery troubleshooting is documented in the Campaign v8 documentation, applicable to both Campaign Classic v7 and Campaign v8 users:
 >
->* Common delivery failures and solutions: [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"}
->* Slow delivery diagnosis: [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-dashboard){target="_blank"}
+>* Common delivery failures and solutions: [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
+>* Slow delivery diagnosis: [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
 >* Delivery best practices: [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
 >
 >This page documents **Campaign Classic v7-specific troubleshooting** for on-premise deployments.
@@ -54,12 +54,12 @@ Check workflow status in **[!UICONTROL Administration]** > **[!UICONTROL Product
 
 >[!NOTE]
 >
->For Campaign v8 Managed Cloud Services users, technical workflows and infrastructure monitoring are managed by Adobe. Focus on delivery content and targeting as described in the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"}.
+>For Campaign v8 Managed Cloud Services users, technical workflows and infrastructure monitoring are managed by Adobe. Focus on delivery content and targeting as described in the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
 
 ## Related topics
 
-* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"} (Campaign v8 documentation)
+* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation)
 * [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (Campaign v8 documentation)
-* [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
+* [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
 * [Database maintenance](../../production/using/recommendations.md) (v7 on-premise)
 * [Email deliverability](../../installation/using/email-deliverability.md) (v7 on-premise)

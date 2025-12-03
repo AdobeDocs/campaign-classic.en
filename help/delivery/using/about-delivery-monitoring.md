@@ -87,14 +87,15 @@ Specific actions can be performed when encountering issues with deliveries on **
 
 **Monitor your deliveries:**
 
-* [Monitor your deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
+* [Monitor your deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
 * [Delivery performances and best practices](delivery-performances.md)
-* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
+* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
 
 **v7-specific on-premise configuration:**
 
 * [Bounce mail management configuration](understanding-delivery-failures.md) (v7 on-premise)
-* [Understanding quarantine management](understanding-quarantine-management.md)
+* [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
+* [Quarantine configuration](understanding-quarantine-management.md) (v7 on-premise)
 
 **Track messages:**
 
@@ -102,4 +103,4 @@ Specific actions can be performed when encountering issues with deliveries on **
 
 ## Related topics
 
-* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-statuses){target="_blank"} (Campaign v8 documentation)
+* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
