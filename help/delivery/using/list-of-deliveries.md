@@ -28,4 +28,4 @@ By default, the list of deliveries contains the names and statuses of the delive
 **Related topics:**
 
 * [Delivery dashboard](delivery-dashboard.md)
-* [Delivery statuses](delivery-statuses.md)
+* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-statuses){target="_blank"} (Campaign v8 documentation)

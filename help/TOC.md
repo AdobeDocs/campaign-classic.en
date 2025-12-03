@@ -185,7 +185,6 @@ type: Documentation
           + [Delivery dashboard](delivery/using/delivery-dashboard.md)
           + [Delivery performances best practices](delivery/using/delivery-performances.md)
           + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
-          + [Delivery statuses](delivery/using/delivery-statuses.md)
           + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
           + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
           + [Message tracking](delivery/using/about-message-tracking.md)

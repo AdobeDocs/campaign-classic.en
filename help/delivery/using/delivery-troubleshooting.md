@@ -15,7 +15,7 @@ Additionally, make sure you follow the best practices and checklist detailed in 
 
 **Related topics:**
 
-* [Delivery statuses](delivery-statuses.md)
+* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-statuses){target="_blank"} (Campaign v8 documentation)
 * [Delivery dashboard](delivery-dashboard.md)
 * [Understanding delivery failures](understanding-delivery-failures.md)
 

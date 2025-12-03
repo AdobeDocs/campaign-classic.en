@@ -10,8 +10,6 @@ exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 
 >[!IMPORTANT]
 >
->For comprehensive monitoring guidance that applies to both Campaign Classic v7 and Campaign v8, refer to the [Campaign v8 Monitor your Campaign environment documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/monitor){target="_blank"}.
->
 >This page documents **Campaign Classic v7-specific monitoring features** for on-premise installations.
 
 ## Campaign Classic v7-specific monitoring features
@@ -72,7 +70,7 @@ In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!U
 * Check that [retries](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
 * Regularly verify that the [bounce](understanding-delivery-failures.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
 * Check each delivery throughput, accessible from the [delivery dashboard](delivery-dashboard.md), to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
-* When using waves, verify that each wave has enough time to finish before the next one is triggered. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}.
+* When using waves, verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new [quarantines](understanding-quarantine-management.md) are consistent with other deliveries.
 * Carefully consult the [delivery logs](delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
 
@@ -86,8 +84,6 @@ Specific actions can be performed when encountering issues with deliveries on **
 * [Temporary files issues](../../production/using/temporary-files.md) - *on-premise customers only*
 
 ## General monitoring topics
-
-The following monitoring capabilities apply to both Campaign Classic v7 and Campaign v8:
 
 **Monitor your deliveries:**
 
@@ -107,6 +103,4 @@ The following monitoring capabilities apply to both Campaign Classic v7 and Camp
 
 ## Related topics
 
-* [Monitor your Campaign environment](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/monitor){target="_blank"} - Comprehensive monitoring for v7 & v8
-* [Delivery statuses](delivery-statuses.md)
-* [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
+* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-statuses){target="_blank"} (Campaign v8 documentation)
