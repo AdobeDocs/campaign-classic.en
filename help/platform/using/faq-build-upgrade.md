@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 ---
-# Build Upgrade FAQ (Campaign Classic v7) {#build-upgrade-faq}
+# Build Upgrade FAQ {#build-upgrade-faq}
 
 This FAQ addresses questions about Campaign Classic v7 build upgrades, particularly for on-premise and hybrid deployments.
 

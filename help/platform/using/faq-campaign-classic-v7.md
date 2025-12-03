@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Campaign Classic v7 Specific FAQ
+title: Campaign Classic FAQ
 description: Questions specific to Adobe Campaign Classic v7 architecture, deployment, and features
 feature: Overview, Troubleshooting
 audience: platform

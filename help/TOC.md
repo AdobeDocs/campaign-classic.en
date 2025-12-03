@@ -34,7 +34,7 @@ type: Documentation
      + [Campaign connectors](platform/using/about-connectors.md)
      + [Create queries in Campaign](platform/using/about-queries-in-campaign.md)
      + Frequently Asked Questions {#faq}
-          + [Campaign Classic v7 Specific FAQ](platform/using/faq-campaign-classic-v7.md)
+          + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
           + [Build upgrade](platform/using/faq-build-upgrade.md)
      + [Glossary](platform/using/ac-glossary.md)
      + Privacy {#privacy}
