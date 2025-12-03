@@ -188,17 +188,7 @@ type: Documentation
           + [Delivery statuses](delivery/using/delivery-statuses.md)
           + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
           + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
-          + Track messages {#tracking-messages}
-               + [About message tracking](delivery/using/about-message-tracking.md)
-               + [How to configure tracked links](delivery/using/how-to-configure-tracked-links.md)
-          + Track personalized links {#tracking-personalized-links}
-               + [Get started with personalized links tracking](delivery/using/tracking-personalized-links.md)
-               + [Detect tracking URLs](delivery/using/detecting-tracking-urls.md)
-               + [Pre-processing instructions for tracking](delivery/using/pre-processing-instructions.md)
-          + [Configure URL tracking options](delivery/using/personalizing-url-tracking.md)
-          + [Access the tracking logs](delivery/using/accessing-the-tracking-logs.md)
-          + [Test tracking](delivery/using/testing-tracking.md)
-          + [Tracking troubleshooting](delivery/using/tracking-troubleshooting.md)
+          + [Message tracking](delivery/using/about-message-tracking.md)
      + Deliverability management {#deliverability-management}
        + [What is deliverability](delivery/using/about-deliverability.md)
        + [Control message content](delivery/using/control-message-content.md)

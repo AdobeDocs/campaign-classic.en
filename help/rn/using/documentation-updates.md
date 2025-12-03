@@ -282,11 +282,9 @@ The Adobe Campaign Enhanced MTA section has moved [here](../../delivery/using/se
 
 A new page has been added to provide an overview of tracking capabilities in [!DNL Campaign Classic]. [Read more](../../delivery/using/about-message-tracking.md)
 
-A troubleshooting section has been added to help you solve common issues related to tracking. [Read more](../../delivery/using/tracking-troubleshooting.md)
+Tracking documentation has been consolidated. For general tracking guidance, refer to [Campaign v8 tracking documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}. For v7-specific features, see [Message tracking](../../delivery/using/about-message-tracking.md).
 
 The **Sending an email** section has been reorganized and clarified with new subsections. [Read more](../../delivery/using/sending-messages.md)
-
-Information has been added on how to add links in emails that can be personalized and that support tracking. [Read more](../../delivery/using/tracking-personalized-links.md).
 
 ## January 2021 {#jan-2021}
 
