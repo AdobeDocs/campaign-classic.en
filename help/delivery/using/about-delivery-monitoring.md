@@ -87,8 +87,7 @@ Specific actions can be performed when encountering issues with deliveries on **
 
 **Monitor your deliveries:**
 
-* [Accessing the list of deliveries](list-of-deliveries.md)
-* [Delivery dashboard](delivery-dashboard.md)
+* [Monitor your deliveries in Campaign UI](delivery-dashboard.md)
 * [Delivery performances and best practices](delivery-performances.md)
 * [Delivery sending troubleshooting](delivery-troubleshooting.md)
 

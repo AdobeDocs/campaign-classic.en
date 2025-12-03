@@ -181,8 +181,7 @@ type: Documentation
           + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
      + Monitor deliveries {#monitoring-deliveries}
           + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)     
-          + [Access the list of deliveries](delivery/using/list-of-deliveries.md)     
-          + [Delivery dashboard](delivery/using/delivery-dashboard.md)
+          + [Monitor your deliveries in Campaign UI](delivery/using/delivery-dashboard.md)
           + [Delivery performances best practices](delivery/using/delivery-performances.md)
           + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
           + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)

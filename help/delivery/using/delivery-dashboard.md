@@ -1,14 +1,33 @@
 ---
 product: campaign
-title: Delivery dashboard
-description: Learn more about how to use the delivery dashboard to monitor your deliveries
+title: Monitor your deliveries in Campaign UI
+description: Learn how to access the list of deliveries and use the delivery dashboard to monitor your deliveries
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 ---
-# Delivery dashboard {#delivery-dashboard}
+# Monitor your deliveries in Campaign UI {#delivery-dashboard}
 
+Monitoring your deliveries is essential to ensure your campaigns are efficient and reach your customers. Adobe Campaign provides you with tools to access your deliveries and monitor their performance through the delivery list and the delivery dashboard.
+
+## Access the list of deliveries {#list-of-deliveries}
+
+You can access deliveries from the delivery list, via the **[!UICONTROL Campaign Management > Deliveries]** node of the tree.
+
+![](assets/deliveries-list.png)
+
+By default, the list of deliveries contains the names and statuses of the deliveries created in the selected node. It also shows the number of messages to send, processed and sent with success.
+
+* The number of **[!UICONTROL Messages to send]** corresponds to the number of recipients targeted after analysis and prior to delivery.
+* The number of messages in the **[!UICONTROL Success]** column corresponds to the number of messages sent by the server and received by the recipients.
+* The number of **[!UICONTROL Processed]** messages corresponds to the number of messages received plus the number of messages with errors.
+
+>[!NOTE]
+>
+>For large deliveries, you may wish to update these values. To do this, select the delivery in question and then right-click it. Select **[!UICONTROL Action > Recompute delivery and tracking indicators...]** and then use the assistant to update this information.
+
+## Delivery dashboard overview {#delivery-dashboard-overview}
 
 The **delivery dashboard** is key to monitor your deliveries and eventual issues encountered during the sending of messages.
 
