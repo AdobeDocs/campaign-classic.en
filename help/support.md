@@ -35,7 +35,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="platform/using/faq-campaign-classic-v7.md">Campaign Classic v7 Specific FAQ</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Build upgrade</a></li>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">Campaign v8 Comprehensive FAQ</a></li>
-        <li><a href="delivery/using/monitoring-deliverability.md">Deliverability</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">Delivery monitoring</a></li>
         </ul>
     </td>
     <td valign="top">

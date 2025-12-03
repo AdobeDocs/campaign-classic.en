@@ -57,7 +57,7 @@ Here are is a list of articles related to application configuration best practic
 
 Here are is a list of best practices and articles related to deliverability:
 
-* IP reputation: if the IP reputation is not good enough, there will be an impact on performance. The **Deliverability Monitoring** module offers various tools to track the deliverability performance of your platform. Refer to this [page](../../delivery/using/monitoring-deliverability.md). 
+* IP reputation: if the IP reputation is not good enough, there will be an impact on performance. The **Deliverability Monitoring** module offers various tools to track the deliverability performance of your platform. Refer to this [page](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring). 
 * IP warm-up: the IP warm-up is performed by the deliverability team. This involves gradually increasing the number of emails through new IPs over a period of a few weeks.
 
     >[!NOTE]

@@ -105,7 +105,6 @@ type: Documentation
           + [Build personalized content - HIDDEN](delivery/using/design-and-personalize.md)
           + [Define the right audience - HIDDEN](delivery/using/define-the-right-audience.md)
           + [Check before sending - HIDDEN](delivery/using/check-before-sending.md)
-          + [Track and monitor - HIDDEN](delivery/using/track-and-monitor.md)                    
      + [Send emails](delivery/using/about-email-channel.md)
      + Send emails {#sending-emails}
           + [Create an email delivery - HIDDEN](delivery/using/creating-an-email-delivery.md)
@@ -193,7 +192,6 @@ type: Documentation
      + Deliverability management {#deliverability-management}
        + [What is deliverability](delivery/using/about-deliverability.md)
        + [Control message content](delivery/using/control-message-content.md)
-       + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
