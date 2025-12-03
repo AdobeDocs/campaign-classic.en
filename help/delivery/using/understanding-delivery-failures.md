@@ -19,13 +19,13 @@ exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 >* Retry management and validity periods
 >* Troubleshooting common delivery failures
 >
->This page documents **Campaign Classic v7-specific configuration** for on-premise bounce mail management.
+>This page documents **Campaign Classic v7-specific configuration** for bounce mail management in hybrid and on-premise deployments.
 
 For common delivery failure concepts, error types, and troubleshooting guidance, refer to the [Campaign v8 Understanding delivery failures documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
 
-## Campaign Classic v7 on-premise bounce mail configuration {#v7-bounce-mail-config}
+## Bounce mail configuration {#v7-bounce-mail-config}
 
-The following configuration options are available for **Campaign Classic v7 on-premise installations** to manage bounce mail processing.
+The following configuration options are available for **Campaign Classic v7 hybrid/on-premise deployments** to manage bounce mail processing.
 
 ### Bounce mailbox configuration {#bounce-mailbox-configuration}
 
@@ -136,7 +136,7 @@ For more on MX management, refer to [this section](../../installation/using/emai
 * [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation)
 * [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
 * [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation)
-* [Quarantine configuration](understanding-quarantine-management.md) (v7 on-premise)
-* [Update bounce qualification](update-bounce-qualification.md) (v7 on-premise)
-* [Email deliverability configuration](../../installation/using/email-deliverability.md) (v7 on-premise)
-* [Deploying an instance](../../installation/using/deploying-an-instance.md#managing-bounced-emails) (v7 on-premise)
+* [Quarantine configuration](understanding-quarantine-management.md) (v7 hybrid/on-premise)
+* [Update bounce qualification](update-bounce-qualification.md) (v7 hybrid/on-premise)
+* [Email deliverability configuration](../../installation/using/email-deliverability.md) (v7 hybrid/on-premise)
+* [Deploying an instance](../../installation/using/deploying-an-instance.md#managing-bounced-emails) (v7 hybrid/on-premise)

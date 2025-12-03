@@ -12,13 +12,13 @@ exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 >
 >Comprehensive guidance on delivery performance and best practices is documented in the [Campaign v8 Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices) page. This content applies to both Campaign Classic v7 and Campaign v8 users.
 >
->This page documents **Campaign Classic v7-specific performance configurations** for on-premise deployments.
+>This page documents **Campaign Classic v7-specific performance configurations** for hybrid and on-premise deployments.
 
 For comprehensive best practices on delivery performance, platform optimization, quarantine management, database maintenance, and scheduling recommendations, refer to the [Campaign v8 Delivery best practices documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}.
 
-## Campaign Classic v7-specific performance tuning {#best-practices-performance}
+## Performance tuning {#best-practices-performance}
 
-For **Campaign Classic v7 on-premise installations**, the following database and infrastructure optimizations can improve delivery performance:
+For **Campaign Classic v7 hybrid/on-premise deployments**, the following database and infrastructure optimizations can improve delivery performance:
 
 ### Database optimization
 
@@ -32,9 +32,9 @@ For **Campaign Classic v7 on-premise installations**, the following database and
 >
 >For Campaign v8 Managed Cloud Services users, infrastructure optimization and MTA configuration are managed by Adobe. Refer to the [Campaign v8 Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} for performance recommendations applicable to your deployment.
 
-## Campaign Classic v7 database maintenance {#performance-issues}
+## Database maintenance {#performance-issues}
 
-For **Campaign Classic v7 on-premise installations**, platform and database maintenance directly affects delivery sending performance.
+For **Campaign Classic v7 hybrid/on-premise deployments**, platform and database maintenance directly affects delivery sending performance.
 
 Regular maintenance tasks include:
 
@@ -53,4 +53,4 @@ Regular maintenance tasks include:
 * [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (Campaign v8 documentation)
 * [Monitor your deliverability](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} (Campaign v8 documentation)
 * [Delivery troubleshooting](delivery-troubleshooting.md)
-* [Database performances](../../production/using/database-performances.md) (v7 on-premise)
+* [Database performances](../../production/using/database-performances.md) (v7 hybrid/on-premise)

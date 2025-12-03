@@ -19,13 +19,13 @@ exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 >* How to remove addresses from quarantine (automatic, manual, bulk)
 >* Quarantine management reports
 >
->This page documents **Campaign Classic v7-specific configuration** for on-premise quarantine management.
+>This page documents **Campaign Classic v7-specific configuration** for quarantine management in hybrid and on-premise deployments.
 
 For comprehensive quarantine management guidance, refer to the [Campaign v8 Quarantine management documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}.
 
-## Campaign Classic v7 on-premise quarantine configuration {#v7-quarantine-config}
+## Quarantine configuration {#v7-quarantine-config}
 
-The following configuration options are available for **Campaign Classic v7 on-premise installations** to customize quarantine behavior.
+The following configuration options are available for **Campaign Classic v7 hybrid/on-premise deployments** to customize quarantine behavior.
 
 ### Soft error threshold configuration {#soft-error-threshold}
 
@@ -92,5 +92,5 @@ For detailed information about SMS quarantine scenarios and error types, refer t
 * [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation)
 * [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation)
 * [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (Campaign v8 documentation)
-* [Database cleanup workflow](../../production/using/database-cleanup-workflow.md) (v7 on-premise)
-* [Configure delivery retries](communication-channels.md) (v7 on-premise)
+* [Database cleanup workflow](../../production/using/database-cleanup-workflow.md) (v7 hybrid/on-premise)
+* [Configure delivery retries](communication-channels.md) (v7 hybrid/on-premise)

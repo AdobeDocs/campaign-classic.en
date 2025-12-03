@@ -19,13 +19,13 @@ exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 >* [Test tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
 >* [Tracking reports](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
->**This page documents Campaign Classic v7-specific tracking features only**, primarily for on-premise installations.
+>**This page documents Campaign Classic v7-specific tracking features only**, primarily for hybrid and on-premise deployments.
 
-## Campaign Classic v7-specific tracking features
+## Tracking features
 
-### On-premise tracking configuration {#configure-tracking}
+### Tracking configuration {#configure-tracking}
 
-For Campaign Classic v7 **on-premise installations**, you need to configure tracking at the instance level before using it.
+For Campaign Classic v7 **hybrid/on-premise deployments**, you need to configure tracking at the instance level before using it.
 
 >[!NOTE]
 >
@@ -70,11 +70,11 @@ You can also track and measure visits on Web application pages with tracking tag
 
 The Web application tracking opt-out enables you to stop tracking web behaviors of end-users who opt-out of behavioral tracking. You can include the ability to display a banner into web applications or landing pages to allow users to opt-out. [Learn more](../../web/using/web-application-tracking-opt-out.md)
 
-## Tracking troubleshooting for on-premise installations {#tracking-troubleshooting}
+## Tracking troubleshooting {#tracking-troubleshooting}
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-The following troubleshooting tips apply to **Campaign Classic v7 on-premise installations**. Some information may also apply to Campaign v8 on-premise deployments. For Campaign v8 Managed Cloud Services, contact your Adobe representative for assistance.
+The following troubleshooting tips apply to **Campaign Classic v7 hybrid/on-premise deployments**. Some information may also apply to Campaign v8 on-premise deployments. For Campaign v8 Managed Cloud Services, contact your Adobe representative for assistance.
 
 For basic tracking troubleshooting steps in Campaign v8, refer to the [Troubleshooting tracking in Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}.
 

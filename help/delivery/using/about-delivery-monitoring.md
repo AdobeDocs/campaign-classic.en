@@ -10,13 +10,13 @@ exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 
 >[!IMPORTANT]
 >
->This page documents **Campaign Classic v7-specific monitoring features** for on-premise installations.
+>This page documents **Campaign Classic v7-specific monitoring features** for hybrid and on-premise deployments.
 
-## Campaign Classic v7-specific monitoring features
+## Monitoring features
 
-### On-premise delivery monitoring {#monitoring-deliveries}
+### Delivery monitoring {#monitoring-deliveries}
 
-**For Campaign Classic v7 on-premise installations**, additional monitoring is required for server resources and MTA (Mail Transfer Agent) configuration.
+**For Campaign Classic v7 hybrid/on-premise deployments**, additional monitoring is required for server resources and MTA (Mail Transfer Agent) configuration.
 
 #### Troubleshoot pending deliveries {#pending-deliveries}
 
@@ -32,7 +32,7 @@ Tip: Check the configuration of traffic management (IP affinity). For more on th
 >
 >These steps can only be performed by an expert user on on-premise installations.
 
-### Deliverability monitoring for on-premise installations {#deliverability-monitoring}
+### Deliverability monitoring {#deliverability-monitoring}
 
 #### Deliverability package installation {#deliverability-package}
 
@@ -51,7 +51,7 @@ In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!U
 * The [Inbox rendering report](inbox-rendering.md) which enables you to preview your messages on major email clients in order to scan content and reputation.
 * Overview of message quality (inbox, spam).
 
-#### Monitoring tools for on-premise {#monitoring-tools}
+#### Monitoring tools {#monitoring-tools}
 
 **For on-premise installations**, you can use the following monitoring tools:
 
@@ -62,7 +62,7 @@ In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!U
     
     For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
 
-#### Monitoring guidelines for on-premise {#monitoring-guidelines}
+#### Monitoring guidelines {#monitoring-guidelines}
 
 **For on-premise installations**, here are some additional guidelines on deliverability monitoring:
 
@@ -74,9 +74,9 @@ In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!U
 * Check that the number of errors and new [quarantines](understanding-quarantine-management.md) are consistent with other deliveries.
 * Carefully consult the [delivery logs](delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
 
-### On-premise troubleshooting {#delivery-troubleshooting}
+### Troubleshooting {#delivery-troubleshooting}
 
-Specific actions can be performed when encountering issues with deliveries on **on-premise installations**:
+Specific actions can be performed when encountering issues with deliveries on **hybrid/on-premise deployments**:
 
 * [Deliverability issues](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Image display issues](../../production/using/image-display-issues.md)
@@ -91,11 +91,11 @@ Specific actions can be performed when encountering issues with deliveries on **
 * [Delivery performances and best practices](delivery-performances.md)
 * [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
 
-**v7-specific on-premise configuration:**
+**v7-specific configuration:**
 
-* [Bounce mail management configuration](understanding-delivery-failures.md) (v7 on-premise)
+* [Bounce mail management configuration](understanding-delivery-failures.md) (v7 hybrid/on-premise)
 * [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
-* [Quarantine configuration](understanding-quarantine-management.md) (v7 on-premise)
+* [Quarantine configuration](understanding-quarantine-management.md) (v7 hybrid/on-premise)
 
 **Track messages:**
 

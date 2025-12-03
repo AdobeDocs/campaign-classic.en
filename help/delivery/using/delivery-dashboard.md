@@ -12,15 +12,15 @@ exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 >
 >Comprehensive guidance on accessing the delivery list and using the delivery dashboard is documented in the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard). This content applies to both Campaign Classic v7 and Campaign v8 users.
 >
->This page documents **Campaign Classic v7-specific customizations** for on-premise deployments.
+>This page documents **Campaign Classic v7-specific customizations** for hybrid and on-premise deployments.
 
 Monitoring your deliveries is essential to ensure your campaigns are efficient and reach your customers. 
 
 For comprehensive information on accessing the delivery list, using the delivery dashboard tabs, and monitoring your deliveries, refer to the [Campaign v8 Monitor deliveries in Campaign UI documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
-## Campaign Classic v7-specific: Customize delivery logs {#use-case}
+## Customize delivery logs {#use-case}
 
-For **Campaign Classic v7 on-premise installations**, you can customize delivery logs by extending schemas. This section shows how to add senders' IP addresses to the delivery logs.
+For **Campaign Classic v7 hybrid/on-premise deployments**, you can customize delivery logs by extending schemas. This section shows how to add senders' IP addresses to the delivery logs.
 
 >[!NOTE]
 >
@@ -113,5 +113,5 @@ Below is what you should see in the **[!UICONTROL Delivery]** tab after modifica
 * [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
 * [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
 * [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
-* [Bounce mail configuration](understanding-delivery-failures.md) (v7 on-premise)
-* [Quarantine configuration](understanding-quarantine-management.md) (v7 on-premise)
+* [Bounce mail configuration](understanding-delivery-failures.md) (v7 hybrid/on-premise)
+* [Quarantine configuration](understanding-quarantine-management.md) (v7 hybrid/on-premise)

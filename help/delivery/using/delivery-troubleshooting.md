@@ -16,11 +16,11 @@ exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 >* Slow delivery diagnosis: [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
 >* Delivery best practices: [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
 >
->This page documents **Campaign Classic v7-specific troubleshooting** for on-premise deployments.
+>This page documents **Campaign Classic v7-specific troubleshooting** for hybrid and on-premise deployments.
 
-## Campaign Classic v7-specific troubleshooting {#v7-specific}
+## Troubleshooting {#v7-specific}
 
-For **Campaign Classic v7 on-premise installations**, the following troubleshooting steps are specific to infrastructure you manage:
+For **Campaign Classic v7 hybrid/on-premise deployments**, the following troubleshooting steps are specific to infrastructure you manage:
 
 ### MX rules configuration
 
@@ -61,5 +61,5 @@ Check workflow status in **[!UICONTROL Administration]** > **[!UICONTROL Product
 * [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation)
 * [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (Campaign v8 documentation)
 * [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
-* [Database maintenance](../../production/using/recommendations.md) (v7 on-premise)
-* [Email deliverability](../../installation/using/email-deliverability.md) (v7 on-premise)
+* [Database maintenance](../../production/using/recommendations.md) (v7 hybrid/on-premise)
+* [Email deliverability](../../installation/using/email-deliverability.md) (v7 hybrid/on-premise)
