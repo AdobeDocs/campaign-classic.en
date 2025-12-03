@@ -2,7 +2,7 @@
 product: campaign
 title: Pressure rules
 description: Learn how to work with pressure rules in Adobe Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Fatigue Management, Typology Rules, Campaigns
 hide: yes
 hidefromtoc: yes

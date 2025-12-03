@@ -4,7 +4,7 @@ title: Delivery performances best practices
 description: Learn more about delivery performances and best practices
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
-role: User, Data Engineer
+role: User, Developer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 ---
 # Delivery performances best practices {#delivery-performances}

@@ -3,7 +3,7 @@ product: campaign
 title: Understand schema structure in Adobe Campaign
 description: Schema structure
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 audience: configuration
 content-type: reference
 level: Intermediate, Experienced

@@ -3,7 +3,7 @@ product: campaign
 title: About web tracking
 feature: Configuration, Instance Settings
 description: About web tracking
-role: User, Data Engineer, Developer
+role: User, Developer
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
 ---
 # About web tracking{#about-web-tracking}

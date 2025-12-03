@@ -3,7 +3,7 @@ product: campaign
 title: About schema edition
 description: Get started with schema edition
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 ---
 # About schema edition{#about-schema-edition}

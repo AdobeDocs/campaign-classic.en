@@ -3,7 +3,7 @@ product: campaign
 title: Hosting models
 description: Discover Campaign hosting models
 feature: Installation, Architecture, Deployment
-role: Architect
+role: Developer
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
 ---

@@ -2,7 +2,7 @@
 product: campaign
 title: About campaign typologies
 description: About campaign typologies
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: yes
 hidefromtoc: yes

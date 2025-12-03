@@ -3,7 +3,7 @@ product: campaign
 title: Schema of an existing table
 description: Schema of an existing table
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 ---
 # Schema of an existing table{#schema-of-an-existing-table}

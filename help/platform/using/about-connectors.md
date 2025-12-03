@@ -3,7 +3,7 @@ product: campaign
 title: About connectors
 description: About connectors
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
 ---

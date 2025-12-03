@@ -4,7 +4,7 @@ title: Delivery dashboard
 description: Learn more about how to use the delivery dashboard to monitor your deliveries
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
-role: User, Data Engineer
+role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 ---
 # Delivery dashboard {#delivery-dashboard}

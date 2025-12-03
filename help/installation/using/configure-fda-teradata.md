@@ -137,7 +137,7 @@ To configure Query banding, follow the steps below:
 
 If the following error appears while testing the connection **TIM-030008 Date '2': missing character(s) (iRc=-53)** make sure that the ODBC driver is correctly installed and that the LD_LIBRARY_PATH (Linux) / PATH (Windows) is set for the Campaign server.
 
-The error **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** occurs with Windows if you use a 16.X driver. Adobe Campaign expects the teradata to be named '{teradata}' in odbcinst.ini.
+The error **ODB-240000 ODBC error: \[Microsoft\]\[ODBC Driver Manager\] Data source name not found and no default driver specified.** occurs with Windows if you use a 16.X driver. Adobe Campaign expects the teradata to be named '{teradata}' in odbcinst.ini.
 
 * Starting Campaign 18.10, you can add ODBCDriverName="Teradata Database ODBC Driver 16.10" in the options of the external account. The version number can change, the exact name can be found by running odbcad32.exe and accessing to the Drivers tab.
 

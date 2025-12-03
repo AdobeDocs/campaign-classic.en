@@ -3,6 +3,7 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 Documentation
 product: campaign
 title: Campaign Classic v7 Guide
+user-guide-title: Campaign Classic v7 Guide
 user-guide-description: Product documentation for Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
@@ -458,7 +459,7 @@ type: Documentation
           + [Set up a recurring import workflow - HIDDEN](workflow/using/recurring-import-workflow.md)
      + Design queries {#designing-queries}
           + [Quarterly list update using an incremental query - HIDDEN](workflow/using/quarterly-list-update.md)
-     + Query and filter {#designing-queries}
+     + Query and filter {#query-and-filter-hidden}
           + [Query the recipient table - HIDDEN](workflow/using/querying-recipient-table.md)
           + [Query delivery information - HIDDEN](workflow/using/querying-delivery-information.md)
           + [Perform aggregate computing - HIDDEN](workflow/using/performing-aggregate-computing.md)

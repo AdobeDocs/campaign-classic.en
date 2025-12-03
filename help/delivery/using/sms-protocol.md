@@ -3,7 +3,7 @@ product: campaign
 title: SMS connector protocol and settings
 description: Learn more on the SMS connector and how to configure it
 feature: SMS
-role: Developer, Data Engineer
+role: Developer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 ---
 # SMS connector protocol and settings {#sms-connector-protocol}

@@ -3,7 +3,7 @@ product: campaign
 title: Data oriented APIs
 description: Data oriented APIs
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 ---
 # Data oriented APIs{#data-oriented-apis}

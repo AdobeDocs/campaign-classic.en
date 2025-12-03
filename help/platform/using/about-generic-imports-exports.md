@@ -4,7 +4,7 @@ title: About generic imports and exports
 description: Learn more about generic imports and exports
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
 ---

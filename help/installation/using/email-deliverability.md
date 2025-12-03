@@ -129,7 +129,7 @@ By default, the statistics server listens on port 7777. This port can be modifie
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you're sending emails.
 
 ### About MX rules {#about-mx-rules}
 
@@ -196,7 +196,7 @@ In total, we have 16 remote IP addresses. In combination with our 2 local public
 
 Below are some examples of using MX rules:
 
-   ![](assets/s_ncs_examples_mx_rules.png)
+![](assets/s_ncs_examples_mx_rules.png)
 
 In the example below, the user has a limit of 10,000 messages per hour for a particular domain, but the MTA throughput capacity is higher than this limit.
 
@@ -204,7 +204,7 @@ In this case, the traffic is divided into 12 periods of 5 minutes for each hour,
 
 These messages will be delivered as quickly as possible.
 
-   ![](assets/s_ncs_traffic_shaping.png)
+![](assets/s_ncs_traffic_shaping.png)
 
 ### Configuring MX management {#configuring-mx-management}
 
@@ -387,16 +387,16 @@ The parameters are as follows:
 >
 >In the serverConf.xml file, you need to verify that that one IP corresponds to a single helohost with a unique identifier (public_id). It cannot be mapped to multiple helohosts, which could result in delivery throttling issues.
 
-  In the previous example, with normal conditions, the addresses will be distributed as follows:
+In the previous example, with normal conditions, the addresses will be distributed as follows:
 
-    * "1": 5 / (5+5+1) = 45% 
-    * "2": 5 / (5+5+1) = 45% 
-    * "3": 1 / (5+5+1) = 10%
+* "1": 5 / (5+5+1) = 45% 
+* "2": 5 / (5+5+1) = 45% 
+* "3": 1 / (5+5+1) = 10%
 
-  If, for example, the first address cannot be used towards a given MX, messages will be sent as follows:
+If, for example, the first address cannot be used towards a given MX, messages will be sent as follows:
 
-    * "2": 5 / (5+1) = 83% 
-    * "3": 1 / (5+1) = 17%
+* "2": 5 / (5+1) = 83% 
+* "3": 1 / (5+1) = 17%
 
 * **includeDomains**: lets you reserve this IP address for emails belonging to a specific domain. This is a list of masks that can contain one or more wildcards ('&#42;'). If the attribute is not specified, all domains can use this IP address.
 

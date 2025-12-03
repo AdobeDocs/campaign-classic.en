@@ -3,7 +3,7 @@ product: campaign
 title: Updating the database structure
 description: Updating the database structure
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
 ---
 # Updating the database structure{#updating-the-database-structure}

@@ -3,7 +3,7 @@ product: campaign
 title: Setup stages
 description: Setup stages
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
 ---
 # Setup stages{#setup-stages}

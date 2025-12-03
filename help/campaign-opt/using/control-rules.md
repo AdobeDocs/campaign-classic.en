@@ -2,7 +2,7 @@
 product: campaign
 title: Control rules
 description: Learn how to work with control rules in Adobe Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: yes
 hidefromtoc: yes

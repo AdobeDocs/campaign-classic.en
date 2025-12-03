@@ -3,7 +3,7 @@ product: campaign
 title: Schema reference
 description: Schema reference list
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
 ---
 # Schema reference {#schema-reference}

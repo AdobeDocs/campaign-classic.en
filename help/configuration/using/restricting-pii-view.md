@@ -3,7 +3,7 @@ product: campaign
 title: Restrict PI view
 description: Learn how to restrict PI view
 feature: PI
-role: Data Engineer, Developer
+role: Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 ---
 # Restrict PI view{#restricting-pii-view}

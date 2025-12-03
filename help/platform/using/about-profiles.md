@@ -3,7 +3,7 @@ product: campaign
 title: Get started with profiles
 description: Work with profiles in Adobe Campaign
 feature: Profiles, Audiences
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 ---
