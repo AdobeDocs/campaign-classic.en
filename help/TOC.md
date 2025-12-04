@@ -180,7 +180,8 @@ type: Documentation
           + [Manage subscriptions](delivery/using/managing-subscriptions.md)
           + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
      + Monitor deliveries {#monitoring-deliveries}
-          + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)
+          + [Monitor delivery performance](delivery/using/about-delivery-monitoring.md)
+          + [Track messages](delivery/using/about-message-tracking.md)
           + [Delivery performance and troubleshooting](delivery/using/delivery-performance-troubleshooting.md)
           + [Delivery failures and quarantine management](delivery/using/delivery-failures-quarantine.md)
           + [Advanced: Customize delivery logs](delivery/using/customize-delivery-logs.md)
