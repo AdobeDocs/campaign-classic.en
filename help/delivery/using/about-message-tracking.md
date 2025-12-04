@@ -94,10 +94,7 @@ You can locate the Tracking technical workflow in the folders Administration > P
 
 ### Advanced troubleshooting {#advanced-troubleshooting}
 
-<details>
-<summary><strong>The tracking workflow is failing</strong> - Click to expand</summary>
-
-#### How can I detect the corrupted lines in the tracking file? {#tracking-workflow-failing}
++++The tracking workflow is failing
 
 >[!NOTE]
 >
@@ -157,12 +154,9 @@ You can then stop the tracking workflow, delete the corrupted line(s) and restar
 
 You can then stop the tracking workflow, delete the corrupted line(s) and restart the workflow.
 
-</details>
++++
 
-<details>
-<summary><strong>Tracking links fail intermittently</strong> - Click to expand</summary>
-
-#### How to fix intermittent tracking link failures {#tracking-links-fail-intermittently}
++++Tracking links fail intermittently
 
 When trying to access the tracking links, the following message displays:
 
@@ -195,12 +189,9 @@ When trying to access the tracking links, the following message displays:
 
    They should have at least 644 permission so that Apache can read tracking urls to redirect requested link.
 
-</details>
++++
 
-<details>
-<summary><strong>Updating the NmsTracking_Pointer option</strong> - Click to expand</summary>
-
-#### Steps to update NmsTracking_Pointer {#updating-option}
++++Updating the NmsTracking_Pointer option
 
 Follow these steps when updating the NmsTracking_Pointer option:
 
@@ -214,12 +205,9 @@ Follow these steps when updating the NmsTracking_Pointer option:
 
 1. Restart the tracking workflow.
 
-</details>
++++
 
-<details>
-<summary><strong>Tracking does not work with some WebMail</strong> - Click to expand</summary>
-
-#### Custom tracking formulas and linefeed characters {#webmail}
++++Tracking does not work with some WebMail
 
 You can customize click tracking formula and specify a custom Adobe Analytics tracking formula.
 
@@ -296,12 +284,9 @@ STRING1&cid=STRING2&bid=STRING3&SHPID=STRING4
 STRING1&cid=STRING2&bid=STRING3&SHPID=STRING4
 ```
 
-</details>
++++
 
-<details>
-<summary><strong>Tracking logs retrieval is too slow</strong> - Click to expand</summary>
-
-#### Optimize logCountPerRequest parameter {#slow-retrieval}
++++Tracking logs retrieval is too slow
 
 When the instance does not retrieve directly tracking logs but from a distant Adobe Campaign Classic server, the logs are retrieved through the GetTrackingLogs SOAP call which is defined in the remoteTracking schema.
 
@@ -309,12 +294,9 @@ An option in the serverConf.xml file enables you to set the number of logs that 
 
 The default value of logCountPerRequest being 1000, it may prove in some case to be too small. The accepted values must be between 0 and 10.000.
 
-</details>
++++
 
-<details>
-<summary><strong>Tracking logs could not be linked to recipients</strong> - Click to expand</summary>
-
-#### Target mapping and tracking schemas {#link-recipients}
++++Tracking logs could not be linked to recipients
 
 In Adobe Campaign Classic, a target mapping is supposed to be unique in term of recipient schema vs broadlog / trackinglog schemas.
 
@@ -328,4 +310,4 @@ If you do not want to use the out-of-the-box target mapping with nms:recipient, 
 
 * If you want to use OOB trackingLogRcp/broadLogRcp, the targeting dimension needs to be nms:recipient and filtering dimenstion could be a custom schema.
 
-</details>
++++
