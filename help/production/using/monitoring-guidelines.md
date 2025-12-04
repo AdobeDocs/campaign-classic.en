@@ -94,7 +94,7 @@ Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs
 Specific actions can be performed when encountering issues with deliveries:
 * [Deliverability issues](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Image display issues](../../production/using/image-display-issues.md)
-* [Delivery performance issues](../../delivery/using/delivery-performances.md)
+* [Delivery performance issues](../../delivery/using/delivery-performance-troubleshooting.md)
 * [Temporary files issues](../../production/using/temporary-files.md) - *on premise hosting models only*
 
 ### Monitoring the database {#monitoring-database}

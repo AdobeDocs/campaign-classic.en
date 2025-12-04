@@ -80,7 +80,7 @@ Specific actions can be performed when encountering issues with deliveries on **
 
 * [Deliverability issues](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Image display issues](../../production/using/image-display-issues.md)
-* [Delivery performance issues](delivery-performances.md)
+* [Delivery performance issues](delivery-performance-troubleshooting.md)
 * [Temporary files issues](../../production/using/temporary-files.md) - *on-premise customers only*
 
 ## Monitor your deliveries

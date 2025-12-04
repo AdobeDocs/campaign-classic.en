@@ -169,7 +169,7 @@ Regulations such as the General Data Protection Regulation (GDPR) state that com
 
 Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscriptions, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
 
-To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](../../delivery/using/delivery-dashboard.md#tracking-logs) tab of the delivery dashboard. Learn how to [configure tracked links in Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracked-links){target="_blank"}. Tracking data is interpreted in the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) report.
+To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#tracking-logs){target="_blank"} tab of the delivery dashboard. Learn how to [configure tracked links in Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracked-links){target="_blank"}. Tracking data is interpreted in the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) report.
 
 ### Web tracking {#web-tracking}
 

@@ -477,7 +477,7 @@ Learn more about [Inbound interaction](../../interaction/using/about-inbound-cha
 
 Inbox rendering is the generation of email previews, which ensures the message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices. Adobe Campaign leverages the Litmus, which allows email content creators to preview their message content in over 70 email renderers, such as the Gmail inbox or the Apple Mail client.
 
-Learn more about [Inbox rendering](../../delivery/using/delivery-dashboard.md#delivery-rendering).
+Learn more about [Inbox rendering](../../delivery/using/inbox-rendering.md).
 +++
 
 +++**Instance settings**

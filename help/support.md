@@ -41,7 +41,7 @@ Get support using our FAQs, best practices, online resources and support portal.
     <td valign="top">
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Performance and throughput issues</a></li>
-        <li><a href="delivery/using/delivery-performances.md">Delivery performances</a></li>
+        <li><a href="delivery/using/delivery-performance-troubleshooting.md">Delivery performances</a></li>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Optimize workflow performances</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Workflow execution troubleshooting</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP server usage</a></li>
