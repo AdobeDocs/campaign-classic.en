@@ -61,7 +61,7 @@ When starting to send emails on a new platform, you may use a list of addresses 
 
 * The recipients whose addresses are quarantined are excluded by default during the delivery analysis: they are not targeted. This will speed up deliveries, as the error rate has a significant effect on delivery speed. An email address can be quarantined for example when the inbox is full or if the address does not exist. [Learn more](#identifying-quarantined-addresses-for-a-delivery)
 
-* Adobe Campaign manages erroneous addresses according to the type of error returned. For more on this, refer to [this section](understanding-quarantine-management.md).
+* Adobe Campaign manages erroneous addresses according to the type of error returned. For more on this, refer to [this section](delivery-failures-quarantine.md).
 
 
 * Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.

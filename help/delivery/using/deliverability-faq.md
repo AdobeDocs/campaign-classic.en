@@ -43,13 +43,13 @@ If the problem persists, contact the commercial or deliverability services, [Ado
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
-    For more on this, see [this section](understanding-quarantine-management.md#quarantine-vs-denylist).
+    For more on this, see [this section](delivery-failures-quarantine.md#quarantine-vs-denylist).
 
 * **What do the different quarantine error reasons mean?**
 
     Here are 10 possible reasons: not defined, user unknown, invalid domain, on denylist, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
     
-    For more on this, see [Understanding quarantine management](understanding-quarantine-management.md).
+    For more on this, see [Understanding quarantine management](delivery-failures-quarantine.md).
 
 ## Removing from denylist {#remove-from-denylist}
 
