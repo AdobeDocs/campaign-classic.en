@@ -143,7 +143,7 @@ The following options are available:
 
   >[!NOTE]
   >
-  >For further information about quarantine management, refer to [Understand quarantine management](understanding-quarantine-management.md).
+  >For further information about quarantine management, refer to [Understand quarantine management](delivery-failures-quarantine.md).
 
 * **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the content of the target exceeds the number of messages indicated, a random selection is applied to the target.
 

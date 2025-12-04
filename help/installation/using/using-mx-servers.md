@@ -58,7 +58,7 @@ Adobe Campaign manages this process with a match between an error type and a rea
 
 >[!NOTE]
 >
->To learn more about delivery failure types and reasons, refer to this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>To learn more about delivery failure types and reasons, refer to this [section](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 ## Deliverability instance {#deliveratbility-env}
 
@@ -84,5 +84,5 @@ The Custom mode is for advanced clients who wish to set their own MX rules. When
 **Related topics:**
 * [MX configuration](../../installation/using/email-deliverability.md#mx-configuration)
 * [Technical email configuration](../../installation/using/email-deliverability.md)
-* [Understand Delivery Failures](../../delivery/using/understanding-delivery-failures.md)
+* [Understand Delivery Failures](../../delivery/using/delivery-failures-quarantine.md)
 * [Campaign Classic - Technical Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)

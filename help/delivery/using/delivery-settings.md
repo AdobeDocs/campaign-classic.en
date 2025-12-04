@@ -47,7 +47,7 @@ If a delivery is too large, it is better to assign a low priority to it in order
 
 ### Configure retries {#configuring-retries}
 
-Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 >[!IMPORTANT]
 >

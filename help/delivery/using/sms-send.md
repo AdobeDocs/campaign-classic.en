@@ -57,7 +57,7 @@ The following options are available:
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Monitor a delivery](about-delivery-monitoring.md)
-* [Understand delivery failures](understanding-delivery-failures.md)
+* [Understand delivery failures](delivery-failures-quarantine.md)
 * [About message tracking](about-message-tracking.md)
 -->
 

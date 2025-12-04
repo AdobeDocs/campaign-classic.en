@@ -50,5 +50,5 @@ Based on the timeframe of the incident, below are the recommended guidelines for
 Once you have the list of affected recipients, you can either set them to a status of **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow, or just delete them from the table.
 
 **Related topics:**
-* [Understand Delivery Failures](understanding-delivery-failures.md)
-* [Bounce mail qualification](understanding-delivery-failures.md#bounce-mail-qualification)
+* [Understand Delivery Failures](delivery-failures-quarantine.md)
+* [Bounce mail qualification](delivery-failures-quarantine.md#bounce-mail-qualification)

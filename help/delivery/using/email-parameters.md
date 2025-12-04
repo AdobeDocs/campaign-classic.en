@@ -116,7 +116,7 @@ You can also define a specific address from this screen in order to investigate 
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-For more on bounce mail management, see [this section](understanding-delivery-failures.md#bounce-mail-management).
+For more on bounce mail management, see [this section](delivery-failures-quarantine.md#bounce-mail-management).
 
 ## Adding SMTP headers {#adding-smtp-headers}
 

@@ -178,6 +178,6 @@ Consequently, make sure:
 
 ### Limitations
 
-* Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
+* Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/delivery-failures-quarantine.md).
 
 * There is no reporting available on the delivery status of the emails sent to the BCC email address.-->

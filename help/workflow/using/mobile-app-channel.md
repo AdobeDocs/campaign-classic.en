@@ -23,7 +23,7 @@ The workflow detailed below is installed with the **Mobile App Channel** module 
   <tr> 
    <td> <span class="uicontrol">NMAC opt-out management</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> This workflow updates notification unsubscriptions on mobile devices. It is triggered every 6 hours between 1am and midnight. For more details, refer to this <a href="../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines">section</a>.<br /> </td> 
+   <td> This workflow updates notification unsubscriptions on mobile devices. It is triggered every 6 hours between 1am and midnight. For more details, refer to this <a href="../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines">section</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

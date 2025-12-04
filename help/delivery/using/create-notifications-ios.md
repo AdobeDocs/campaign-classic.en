@@ -124,9 +124,9 @@ To send a proof and to send the final delivery, use the same process as email de
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Push notification quarantines](understanding-quarantine-management.md#push-notification-quarantines)
+* [Push notification quarantines](delivery-failures-quarantine.md#push-notification-quarantines)
 * [Monitoring a delivery](about-delivery-monitoring.md)
-* [Understanding delivery failures](understanding-delivery-failures.md)
+* [Understanding delivery failures](delivery-failures-quarantine.md)
 
 ## Create an iOS rich notification {#creating-ios-delivery}
 

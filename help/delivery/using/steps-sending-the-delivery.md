@@ -55,7 +55,7 @@ You can then close the delivery assistant and track the execution of the deliver
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Monitor a delivery](about-delivery-monitoring.md)
-* [Understand delivery failures](understanding-delivery-failures.md)
+* [Understand delivery failures](delivery-failures-quarantine.md)
 * [About message tracking](about-message-tracking.md)
 
 ## Schedule the delivery sending {#scheduling-the-delivery-sending}
@@ -165,7 +165,7 @@ The two examples below are the most common use cases for using multiple waves.
 
 ## Configure retries {#configuring-retries}
 
-Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 >[!IMPORTANT]
 >

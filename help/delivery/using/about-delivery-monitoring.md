@@ -67,11 +67,11 @@ In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!U
 **For on-premise installations**, here are some additional guidelines on deliverability monitoring:
 
 * Regularly check the [delivery throughput](../../reporting/using/global-reports.md#delivery-throughput) for the whole platform to verify whether it is consistent with the original set-up.
-* Check that [retries](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
-* Regularly verify that the [bounce](understanding-delivery-failures.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
+* Check that [retries](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
+* Regularly verify that the [bounce](delivery-failures-quarantine.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
 * Check each delivery throughput, accessible from the [delivery dashboard](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
 * When using waves, verify that each wave has enough time to finish before the next one is triggered.
-* Check that the number of errors and new [quarantines](understanding-quarantine-management.md) are consistent with other deliveries.
+* Check that the number of errors and new [quarantines](delivery-failures-quarantine.md) are consistent with other deliveries.
 * Carefully consult the [delivery logs](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
 
 ### Troubleshooting {#delivery-troubleshooting}

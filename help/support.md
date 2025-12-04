@@ -45,7 +45,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Optimize workflow performances</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Workflow execution troubleshooting</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP server usage</a></li>
-        <li><a href="delivery/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
+        <li><a href="delivery/using/delivery-failures-quarantine.md">Understand delivery failures</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -65,7 +65,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="production/using/build-upgrade.md">Upgrade to the latest build</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Build upgrade FAQ</a></li>
         <li><a href="delivery/using/about-delivery-monitoring.md">Monitor a delivery</a></li>
-        <li><a href="delivery/using/understanding-quarantine-management.md">Understand quarantine management</a></li>
+        <li><a href="delivery/using/delivery-failures-quarantine.md">Understand quarantine management</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">Security and privacy checklist</a></li>
         <li><a href="platform/using/privacy-management.md">Privacy and consent management</a></li>
         <li><a href="platform/using/about-queries-in-campaign.md">Design a query</a></li>

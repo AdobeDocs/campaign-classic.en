@@ -159,7 +159,7 @@ Once the POP settings are specified, click **Test** to make sure they are correc
 
 ### Unprocessed bounce mails {#unprocessed-bounce-mails}
 
-Bounces are handled automatically by Adobe Campaign, applying the rules listed in the **Administration > Campaign Management > Non deliverables Management > Delivery log qualification** node. For more on this, refer to [Bounce mail management](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Bounces are handled automatically by Adobe Campaign, applying the rules listed in the **Administration > Campaign Management > Non deliverables Management > Delivery log qualification** node. For more on this, refer to [Bounce mail management](../../delivery/using/delivery-failures-quarantine.md#bounce-mail-management).
 
 Unprocessed bounces are not displayed in the Adobe Campaign interface. They are automatically deleted unless they are transferred to a third party mailbox using the following fields:
 
