@@ -52,7 +52,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Worflow best practices</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">Technical workflow monitoring</a></li>
-        <li><a href="delivery/using/about-message-tracking.md">Understand tracking management</a></li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Understand tracking management</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Discover monitoring tools</a></li>
         <li><a href="platform/using/import-export-workflows.md">Import data with workflows</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Send messages in multiple waves</a></li>

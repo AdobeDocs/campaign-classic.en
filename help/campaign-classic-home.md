@@ -83,7 +83,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Send messages</strong><br/><a href="delivery/using/communication-channels.md">Communication channels</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Send proofs</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B testing</a> - <a href="delivery/using/about-message-tracking.md">Message tracking</a> - <a href="delivery/using/about-deliverability.md">Deliverability</a> - <a href="message-center/using/about-transactional-messaging.md">Transactional messaging</a>
+      <strong>Send messages</strong><br/><a href="delivery/using/communication-channels.md">Communication channels</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Send proofs</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B testing</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Message tracking</a> - <a href="delivery/using/about-deliverability.md">Deliverability</a> - <a href="message-center/using/about-transactional-messaging.md">Transactional messaging</a>
     </td>
   </tr>
   <tr style="border: 0;">

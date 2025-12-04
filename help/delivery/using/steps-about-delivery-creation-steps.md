@@ -25,7 +25,7 @@ The key steps when creating a delivery are as follows:
 
 1. **Send the delivery**. [Read more](steps-sending-the-delivery.md)
 
-1. **Monitor the delivery** (tracking, quarantine, reports, etc.). For more on this, refer to the [Monitoring deliveries](about-delivery-monitoring.md) and [Tracking deliveries](about-message-tracking.md) sections.
+1. **Monitor the delivery** (tracking, quarantine, reports, etc.). For more on this, refer to the [Monitoring deliveries](about-delivery-monitoring.md) and [Message tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} sections.
 
 >[!NOTE]
 >

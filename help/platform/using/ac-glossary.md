@@ -1004,7 +1004,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 The Tracking technical workflow retrieves the tracking data once the delivery has been sent and tracking activated. This data can be found in the Tracking tab of your delivery. You can find information for opens and clicks on an email or other interactions with a message received by the recipient.
 
-Learn more about [Tracking logs in Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} or [v7-specific tracking](../../delivery/using/about-message-tracking.md).
+Learn more about [Tracking logs in Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"}.
 +++
 
 +++**Transactional messaging**
