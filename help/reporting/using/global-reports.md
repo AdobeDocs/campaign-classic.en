@@ -76,7 +76,7 @@ The **[!UICONTROL Number of messages processed]** represents the total number of
 
 >[!NOTE]
 >
->The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Quarantine management](../../delivery/using/understanding-quarantine-management.md).
+>The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Quarantine management](../../delivery/using/delivery-failures-quarantine.md).
 
 The first section of this report shows the breakdown of non-deliverables in the form of a table of values and a chart.
 
@@ -288,7 +288,7 @@ The following indicators are used:
 
   >[!NOTE]
   >
-  >For more on hard and soft bounces, refer to [Quarantine management](../../delivery/using/understanding-quarantine-management.md).
+  >For more on hard and soft bounces, refer to [Quarantine management](../../delivery/using/delivery-failures-quarantine.md).
 
 * **[!UICONTROL Opens]** : percentage of the number of targeted recipients who opened a message at least once compared to the number of messages processed successfully.
 * **[!UICONTROL Clicks]** : percentage of the number of people who clicked in a delivery at least once compared to the number of messages processed successfully. 
