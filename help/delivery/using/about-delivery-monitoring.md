@@ -83,24 +83,37 @@ Specific actions can be performed when encountering issues with deliveries on **
 * [Delivery performance issues](delivery-performances.md)
 * [Temporary files issues](../../production/using/temporary-files.md) - *on-premise customers only*
 
-## General monitoring topics
+## Monitor your deliveries
 
-**Monitor your deliveries:**
+The following resources will help you monitor and track your delivery performance in Campaign Classic v7:
 
-* [Monitor your deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (Campaign v8 documentation)
-* [Delivery performances and best practices](delivery-performances.md)
-* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
+### Access the delivery dashboard
 
-**v7-specific configuration:**
+Learn how to access delivery lists and use the delivery dashboard to monitor your sending activity:
 
-* [Bounce mail management configuration](understanding-delivery-failures.md) (v7 hybrid/on-premise)
-* [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
-* [Quarantine configuration](understanding-quarantine-management.md) (v7 hybrid/on-premise)
-
-**Track messages:**
-
-* [Get started with message tracking](about-message-tracking.md)
-
-## Related topics
-
+* [Monitor deliveries in Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (Campaign v8 documentation - applies to both v7 and v8)
 * [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
+* [Advanced: Customize delivery logs](customize-delivery-logs.md) (v7 hybrid/on-premise only - schema extension)
+
+### Track message interactions
+
+Track opens, clicks, and recipient interactions with your deliveries:
+
+* [Message tracking documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} (Campaign v8 documentation - applies to both v7 and v8)
+* [Configure tracked links](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} (Campaign v8 documentation)
+* [Access tracking logs](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"} (Campaign v8 documentation)
+
+### Optimize delivery performance
+
+Best practices and troubleshooting for delivery performance issues:
+
+* [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (Campaign v8 documentation - applies to both v7 and v8)
+* [Delivery performance and troubleshooting](delivery-performance-troubleshooting.md) (v7 hybrid/on-premise specific configurations)
+
+### Understand failures and quarantines
+
+Manage delivery failures, bounce mail, and quarantined addresses:
+
+* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
+* [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation - comprehensive guide for both v7 and v8)
+* [Delivery failures and quarantine configuration](delivery-failures-quarantine.md) (v7 hybrid/on-premise specific configurations)

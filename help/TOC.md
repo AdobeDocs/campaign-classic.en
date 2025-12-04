@@ -180,13 +180,10 @@ type: Documentation
           + [Manage subscriptions](delivery/using/managing-subscriptions.md)
           + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
      + Monitor deliveries {#monitoring-deliveries}
-          + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)     
-          + [Monitor your deliveries in Campaign UI](delivery/using/delivery-dashboard.md)
-          + [Delivery performances best practices](delivery/using/delivery-performances.md)
-          + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
-          + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
-          + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
-          + [Message tracking](delivery/using/about-message-tracking.md)
+          + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)
+          + [Delivery performance and troubleshooting](delivery/using/delivery-performance-troubleshooting.md)
+          + [Delivery failures and quarantine management](delivery/using/delivery-failures-quarantine.md)
+          + [Advanced: Customize delivery logs](delivery/using/customize-delivery-logs.md)
      + Deliverability management {#deliverability-management}
        + [What is deliverability](delivery/using/about-deliverability.md)
        + [Control message content](delivery/using/control-message-content.md)

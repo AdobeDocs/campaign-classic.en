@@ -1,29 +1,27 @@
 ---
 product: campaign
-title: Understand delivery failures
-description: Learn how to understand delivery failures
+title: Delivery failures and quarantine management
+description: Learn how to understand delivery failures and manage quarantines in Campaign Classic v7
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 ---
-# Understand delivery failures{#understanding-delivery-failures}
+# Delivery failures and quarantine management {#delivery-failures-quarantine}
 
 >[!NOTE]
 >
->Comprehensive guidance on understanding delivery failures is documented in the [Campaign v8 Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures) page. This content applies to both Campaign Classic v7 and Campaign v8 users, covering:
+>Comprehensive guidance on delivery failures and quarantine management is documented in Campaign v8 documentation. This content applies to both Campaign Classic v7 and Campaign v8 users:
 >
->* Delivery failure types and reasons (hard, soft, ignored)
->* Synchronous and asynchronous errors
->* Bounce mail qualification
->* Email, push notification, and SMS error types
->* Retry management and validity periods
->* Troubleshooting common delivery failures
+>* [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} - Covers failure types, error reasons, synchronous/asynchronous errors, retry management, and troubleshooting
+>* [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} - Covers quarantine vs denylist, soft error thresholds, quarantine reports, and address removal
 >
->This page documents **Campaign Classic v7-specific configuration** for bounce mail management in hybrid and on-premise deployments.
+>This page documents **Campaign Classic v7-specific configuration** for bounce mail and quarantine management in hybrid and on-premise deployments.
+
+## Understanding delivery failures
 
 For common delivery failure concepts, error types, and troubleshooting guidance, refer to the [Campaign v8 Understanding delivery failures documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
 
-## Bounce mail configuration {#v7-bounce-mail-config}
+## Bounce mail configuration {#bounce-mail-config}
 
 The following configuration options are available for **Campaign Classic v7 hybrid/on-premise deployments** to manage bounce mail processing.
 
@@ -131,12 +129,83 @@ For more on MX management, refer to [this section](../../installation/using/emai
 >
 >For Campaign v8 Managed Cloud Services users, MX rules and email flow management are managed by Adobe as part of the managed infrastructure. Contact Adobe Customer Care if you need to adjust MX settings for specific use cases.
 
+## Quarantine management {#quarantine-management}
+
+For comprehensive quarantine management guidance, refer to the [Campaign v8 Quarantine management documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}.
+
+## Quarantine configuration {#quarantine-config}
+
+The following configuration options are available for **Campaign Classic v7 hybrid/on-premise deployments** to customize quarantine behavior.
+
+### Soft error threshold configuration {#soft-error-threshold}
+
+For on-premise installations using the legacy Campaign MTA, you can modify the number of errors and the period between two errors before an address is quarantined.
+
+To configure these settings:
+
+1. Access the deployment wizard from **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]**
+2. Navigate to **[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**
+3. Configure:
+   * **Number of errors**: The maximum number of soft errors before an address is quarantined (default: 5)
+   * **Period between two significant errors**: The time window (in seconds) for error counting (default: 86,400 seconds = 1 day)
+
+When the error counter reaches the threshold, the address is quarantined. If the last significant error occurred more than 10 days ago, the error counter is reinitialized.
+
+For more details, refer to [this page](communication-channels.md) under **Delivery sending** > **Configure retries**.
+
+>[!NOTE]
+>
+>For Campaign v8 Managed Cloud Services users, retry settings and error thresholds are managed by Adobe based on IP performance and domain reputation. No configuration is required.
+
+### Database cleanup workflow {#database-cleanup-workflow}
+
+For on-premise installations, the **[!UICONTROL Database cleanup]** technical workflow automatically removes quarantined addresses that match specific conditions.
+
+Access this workflow from **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Database cleanup]**.
+
+The workflow removes addresses from quarantine in the following cases:
+
+* Addresses in **[!UICONTROL With errors]** status after a successful delivery
+* Addresses in **[!UICONTROL With errors]** status if the last soft bounce occurred more than 10 days ago
+* Addresses in **[!UICONTROL With errors]** status with **[!UICONTROL Mailbox full]** error after 30 days
+
+Ensure this workflow runs regularly (recommended: daily) to maintain quarantine list hygiene.
+
+For more on database cleanup, refer to [this section](../../production/using/database-cleanup-workflow.md).
+
+>[!NOTE]
+>
+>For Campaign v8 Managed Cloud Services users, the database cleanup workflow is monitored and managed by Adobe.
+
+### Push notification quarantine specifics {#push-quarantine-specifics}
+
+For Campaign Classic v7, push notification quarantines follow the general quarantine mechanism with some channel-specific behaviors.
+
+For **iOS** and **Android** push notifications, the quarantine mechanism uses device tokens rather than email addresses. When a mobile application is uninstalled or reinstalled, the associated token is quarantined.
+
+For detailed information about push notification quarantine scenarios (iOS and Android error types, retry behavior, etc.), refer to the [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} documentation which includes comprehensive push notification error type tables.
+
+### SMS quarantine specifics {#sms-quarantine-specifics}
+
+For Campaign Classic v7, SMS quarantines follow the general quarantine mechanism with some channel-specific behaviors related to phone numbers rather than email addresses.
+
+The SMS quarantine mechanism varies depending on the connector used:
+
+* **Standard SMPP connectors**: Error qualification rules defined in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** apply to SMS deliveries.
+
+* **Extended generic SMPP connector**: Error management is handled differently using regular expressions (regexes) to parse Status Report (SR) messages returned by the SMSC provider.
+
+For detailed information about SMS quarantine scenarios and error types, refer to the [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} documentation which includes comprehensive SMS error type tables.
+
 ## Related topics
 
 * [Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Campaign v8 documentation)
-* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
 * [Quarantine management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation)
-* [Quarantine configuration](understanding-quarantine-management.md) (v7 hybrid/on-premise)
+* [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (Campaign v8 documentation)
+* [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
+* [Database cleanup workflow](../../production/using/database-cleanup-workflow.md) (v7 hybrid/on-premise)
+* [Configure delivery retries](communication-channels.md) (v7 hybrid/on-premise)
 * [Update bounce qualification](update-bounce-qualification.md) (v7 hybrid/on-premise)
 * [Email deliverability configuration](../../installation/using/email-deliverability.md) (v7 hybrid/on-premise)
 * [Deploying an instance](../../installation/using/deploying-an-instance.md#managing-bounced-emails) (v7 hybrid/on-premise)
+
