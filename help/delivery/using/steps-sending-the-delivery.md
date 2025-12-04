@@ -137,7 +137,7 @@ To balance the load, you can divide deliveries into several batches. Configure t
    >
    >You must also allow enough time for retries when configuring the last waves. See [this section](steps-sending-the-delivery.md#configuring-retries).
 
-1. To monitor your sends, go to the delivery logs. See [this page](delivery-dashboard.md#delivery-logs-and-history).
+1. To monitor your sends, go to the delivery logs. See [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 
    You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 

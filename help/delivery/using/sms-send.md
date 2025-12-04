@@ -159,6 +159,6 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!IMPORTANT]
 >
->These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard. [Learn more](delivery-dashboard.md).
+>These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 >
 >These messages are not taken into account in the commercial pressure rules. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.

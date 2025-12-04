@@ -134,9 +134,9 @@ For more on DKIM, see the [Adobe Deliverability Best Practice Guide](https://exp
 
 ### Delivery success reporting
 
-In the **[!UICONTROL Summary]** view of an email delivery [dashboard](delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](communication-channels.md), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
+In the **[!UICONTROL Summary]** view of an email delivery [dashboard](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](communication-channels.md), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
 
-Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
+Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
 
 When hard-bouncing messages get reported back from the Enhanced MTA, their status changes from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
 

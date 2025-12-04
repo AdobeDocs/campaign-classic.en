@@ -216,7 +216,7 @@ Learn more about delivery analysis in the [Campaign v8 documentation](https://ex
 
 Delivery logs contain information generated when sending of a message. These logs show the detail of the sending, which message has been prepared, ignored, sent or failed. They can be accessed directly from the delivery dashboard.
 
-Learn more about [Delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+Learn more about [Delivery logs](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 +++
 
 <!--
