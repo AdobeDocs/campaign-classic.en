@@ -269,7 +269,7 @@ Learn more about Distributed Marketing in the [Campaign v8 documentation](https:
 
 The Distribution of values is a tool which shows the distribution of the values for a schema attribute that currently exist in the database. This helps you determine what values are available, their counts and percentages, and to avoid issues with capitalization and spelling of values when creating a query or expression.
 
-Learn more about [Distribution of values](../../platform/using/about-queries-in-campaign.md)
+Learn more about [Distribution of values](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)
 +++
 
 +++**Domain delegation**

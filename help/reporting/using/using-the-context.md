@@ -28,7 +28,7 @@ To do this, click the **[!UICONTROL Filter data...]** link in the **[!UICONTROL 
 
 In the following example, we want the chart to show only recipient profiles who live in France and who made a purchase during the year.
 
-To define this filter, place a page in the chart and edit it. Click the **[!UICONTROL Filter data]** link and create the filter that matches the data you want to display. For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/about-queries-in-campaign.md).
+To define this filter, place a page in the chart and edit it. Click the **[!UICONTROL Filter data]** link and create the filter that matches the data you want to display. For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 

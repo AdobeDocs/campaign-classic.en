@@ -33,7 +33,7 @@ To create this example, apply the following steps:
 
 1. In the **[!UICONTROL Data to extract]** window, select the **[!UICONTROL Email domain]** and **[!UICONTROL Primary key]** fields. Run a count on the **[!UICONTROL Primary key]** field.
 
-   For more on primary key counts, refer to [this section](../../platform/using/about-queries-in-campaign.md).
+   For more on primary key counts, refer to [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 1. Check the **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** box.
 

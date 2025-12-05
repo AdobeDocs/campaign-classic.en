@@ -165,7 +165,7 @@ To define a new measure, apply the following steps:
 
 1. If necessary, and depending on the operator, choose the expression which the operation concerns.
 
-   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [this section](../../platform/using/about-queries-in-campaign.md).
+   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 

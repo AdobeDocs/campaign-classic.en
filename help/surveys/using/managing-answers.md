@@ -90,7 +90,7 @@ For each form, the answers provided can be used in fields or labels. Use the fol
 
 >[!NOTE]
 >
->For other types of fields, the syntax is detailed in [this section](../../platform/using/about-queries-in-campaign.md).
+>For other types of fields, the syntax is detailed in [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 ### Storage settings {#storage-settings}
 

@@ -19,7 +19,7 @@ When adding personalized links to your content, always avoid having any personal
 
 ### Recommendation
 
-To validate and ensure that you are not using above, run a query on tracking URL table via [Campaign Generic Query Editor](../../platform/using/about-queries-in-campaign.md) or create a workflow with filter criteria in the query activity. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+To validate and ensure that you are not using above, run a query on tracking URL table via [Campaign Generic Query Editor](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) or create a workflow with filter criteria in the query activity. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 Example:
 

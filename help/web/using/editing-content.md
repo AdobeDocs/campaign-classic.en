@@ -20,7 +20,7 @@ To add a visibility condition, select a block and enter the condition in the **[
 
 >[!NOTE]
 >
->Advanced expression editing is presented on [this page](../../platform/using/about-queries-in-campaign.md).
+>Advanced expression editing is presented on [this page](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 ![](assets/dce_popup_visibilitycondition.png)
 

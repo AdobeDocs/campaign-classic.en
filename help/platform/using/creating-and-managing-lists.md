@@ -68,7 +68,7 @@ You can create new profiles directly from the 'add profiles' window by clicking 
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-The profile list can be configured just like other lists. See [this section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+The profile list can be configured just like other lists. See [this section](../../platform/using/adobe-campaign-ui-lists.md#configuring-lists).
 
 ## Link data to a list {#linking-data-to-a-list}
 

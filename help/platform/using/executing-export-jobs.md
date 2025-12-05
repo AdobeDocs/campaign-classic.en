@@ -79,7 +79,7 @@ Select the fields to export. To do this:
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. Click the **[!UICONTROL Add]** button to call on functions. For more on this, refer to [List of functions](../../platform/using/about-queries-in-campaign.md).
+1. Click the **[!UICONTROL Add]** button to call on functions. For more on this, refer to [List of functions](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 ## Step 5 - Sort columns {#step-5---sorting-columns}
 

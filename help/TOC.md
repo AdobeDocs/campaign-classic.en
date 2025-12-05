@@ -32,7 +32,7 @@ type: Documentation
      + [Browse and customize lists - HIDDEN](platform/using/adobe-campaign-ui-lists.md)
      + [Enumerations - HIDDEN](platform/using/managing-enumerations.md)
      + [Campaign connectors](platform/using/about-connectors.md)
-     + [Create queries in Campaign](platform/using/about-queries-in-campaign.md)
+     + [Create queries in Campaign](platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)
      + Frequently Asked Questions {#faq}
           + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
           + [Build upgrade](platform/using/faq-build-upgrade.md)

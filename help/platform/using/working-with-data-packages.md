@@ -108,7 +108,7 @@ For the three types of packages, the assistant offers the following steps:
 
    >[!NOTE]
    >
-   >The query editor is presented in [this section](../../platform/using/about-queries-in-campaign.md).
+   >The query editor is presented in [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 1. Click **[!UICONTROL Next]** and select the sorting columns to order the data during extraction:
 

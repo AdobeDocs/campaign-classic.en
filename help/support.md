@@ -68,7 +68,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="delivery/using/delivery-failures-quarantine.md">Understand quarantine management</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">Security and privacy checklist</a></li>
         <li><a href="platform/using/privacy-management.md">Privacy and consent management</a></li>
-        <li><a href="platform/using/about-queries-in-campaign.md">Design a query</a></li>
+        <li><a href="platform/using/adobe-campaign-workspace.md#about-queries-in-campaign">Design a query</a></li>
         <li><a href="workflow/using/querying-recipient-table.md">Query samples</a></li>
         <li><a href="workflow/using/building-a-workflow.md">Build a workflow</a></li>
         </ul>

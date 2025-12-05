@@ -71,7 +71,7 @@ In the example below, we will create new folders to display specific data:
 
    >[!NOTE]
    >
-   >The query editor is presented in [this section](../../platform/using/about-queries-in-campaign.md).
+   >The query editor is presented in [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
    With the following filter conditions:
 

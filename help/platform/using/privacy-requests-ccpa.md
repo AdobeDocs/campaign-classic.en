@@ -77,7 +77,7 @@ You should then ensure that you never sell to any third party the personal infor
 
     ![](assets/privacy-ccpa-5.png)
 
-1. Configure the recipients list to display the op-out column. To learn how to configure lists, refer to the [detailed documentation](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+1. Configure the recipients list to display the op-out column. To learn how to configure lists, refer to the [detailed documentation](../../platform/using/adobe-campaign-ui-lists.md#configuring-lists).
 
     ![](assets/privacy-ccpa-6.png)
 

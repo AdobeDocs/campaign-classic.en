@@ -50,7 +50,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
    You can also add data grouping conditions by checking the corresponding box. To do this, the filtering dimension must be different to the query's targeting dimension. For more information on grouping, refer to this [section](querying-using-grouping-management.md).
 
-   You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT. You can then preview the **[!UICONTROL Corresponding SQL query...]** for your criteria combination. For more on this refer to this [section](../../platform/using/about-queries-in-campaign.md).
+   You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT. You can then preview the **[!UICONTROL Corresponding SQL query...]** for your criteria combination. For more on this refer to this [section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
    Save your filter if you wish to re-use it later.
 
@@ -191,7 +191,7 @@ The section below provides best practices to optimize the queries running on Ado
 * Beware of functions like `Lower(...)`. When the Lower function is used, the Index is not used.
 * Check queries using the "like" instruction or the "upper" or "lower" instructions carefully. Apply "Upper" on the user input, not on the database field.
 
-  For more on functions, refer to [this section](../../platform/using/about-queries-in-campaign.md).
+  For more on functions, refer to [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 ### Filtering dimensions {#filtering-dimensions}
 

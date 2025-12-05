@@ -32,7 +32,7 @@ To learn more about Adobe Campaign capabilities, and how to get started, refer t
 
 * Discover Adobe Campaign user interface [on this page](adobe-campaign-workspace.md).
 
-* Learn how to work with [Campaign Explorer](adobe-campaign-workspace.md#use-adobe-campaign-explorer).
+* Learn how to work with [Campaign Explorer](adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 
 >[!ENDTABS]
 
@@ -56,7 +56,7 @@ Profile management basics are explained in [About profiles](../../platform/using
 
 ### Targeted segmentation {#targeted-segmentation}
 
-Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../platform/using/about-queries-in-campaign.md) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
+Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
 
 The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](../../workflow/using/targeting-data.md#data-management).
 

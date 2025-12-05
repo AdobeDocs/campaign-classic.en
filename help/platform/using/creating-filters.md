@@ -57,7 +57,7 @@ The following filter types are available in Adobe Campaign:
 
   >[!NOTE]
   >
-  >For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/about-queries-in-campaign.md).
+  >For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 * **User filters**
 
