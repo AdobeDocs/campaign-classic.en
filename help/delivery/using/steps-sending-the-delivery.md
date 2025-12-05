@@ -193,4 +193,4 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 
 * **Validity limit of resources**: The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
-  The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).
+  The values in this field can be expressed in the following units: **s** for seconds, **m** for minutes, **h** for hours, **d** for days (default), **y** for years.
