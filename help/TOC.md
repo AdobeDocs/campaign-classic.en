@@ -36,7 +36,7 @@ type: Documentation
      + Frequently Asked Questions {#faq}
           + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
           + [Build upgrade](platform/using/faq-build-upgrade.md)
-     + [Glossary](platform/using/ac-glossary.md)
+     + [Glossary - HIDDEN](platform/using/ac-glossary.md)
      + Privacy {#privacy}
           + [Privacy and consent](platform/using/privacy-and-recommendations.md)
           + [Privacy management](platform/using/privacy-management.md)

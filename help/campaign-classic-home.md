@@ -73,7 +73,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Get started</strong><br/><a href="platform/using/adobe-campaign-workspace.md">User interface</a> - <a href="platform/using/ac-glossary.md">Glossary</a> - <a href="platform/using/launching-adobe-campaign.md">Connect to Campaign</a> - <a href="platform/using/get-started-data-import-export.md">Import & export data</a> - <a href="platform/using/access-management.md">Permissions</a>
+      <strong>Get started</strong><br/><a href="platform/using/adobe-campaign-workspace.md">User interface</a> - <a href="platform/using/launching-adobe-campaign.md">Connect to Campaign</a> - <a href="platform/using/get-started-data-import-export.md">Import & export data</a> - <a href="platform/using/access-management.md">Permissions</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
