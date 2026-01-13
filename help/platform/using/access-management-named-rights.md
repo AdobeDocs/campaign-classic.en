@@ -17,7 +17,15 @@ These rights are as follows:
 
 * **[!UICONTROL ADMINISTRATION]**: Operators with the **[!UICONTROL ADMINISTRATION]** right has full access on the instance. Admin users can execute/create/edit/delete any object such as workflow, delivery, scripts, etc.
 
+   >[!IMPORTANT]
+   >
+   >**After migrating to IMS:** Once you migrate to Adobe Identity Management System (IMS), any Product Profile or Named Right containing the word "admin" in its name (such as "Administrators", "admin", "admins", etc.) will automatically grant access to Campaign Control Panel. We recommend avoiding the use of "admin" in Named Right or Role names unless you intend for those users to have Control Panel access. Learn more about [IMS migration](../../technotes/using/migrate-users-to-ims.md) and [managing Control Panel access](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
+
 * **[!UICONTROL APPROVAL ADMINISTRATION]**: You can set multiple approval steps within workflows and deliveries to ensure that the current state has been approved by an assigned operator or group. Users with the **[!UICONTROL APPROVAL ADMINISTRATION]** right can set approval steps and also assign an operator or operator group who should approve those steps.
+
+   >[!IMPORTANT]
+   >
+   >**After migrating to IMS:** Product Profiles or Named Rights containing the word "admin" (such as "Approval Administrator") will grant access to Campaign Control Panel. Learn more about [IMS migration](../../technotes/using/migrate-users-to-ims.md) and [managing Control Panel access](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
 
 * **[!UICONTROL CENTRAL]**: Right for central management (Distributed Marketing).
 

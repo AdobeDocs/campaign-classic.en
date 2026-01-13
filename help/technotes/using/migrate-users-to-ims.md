@@ -29,6 +29,14 @@ Migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/en
 
 This change is applicable starting Campaign Classic v7.4.1 (and latest [IMS migration compatible versions](ac-ims.md#ims-versions)) and is **mandatory** to move to Adobe Campaign v8.
 
+>[!IMPORTANT]
+>
+>**Control Panel access impact**
+>
+>Once you migrate your users to IMS, be aware that any Product Profile in the Adobe Admin Console containing the word "admin" in its name (such as "Administrators", "admin", "admins", "approval admin", etc.) will automatically grant access to the Campaign Control Panel. Control Panel is a self-service tool that allows making significant changes to Campaign instances. 
+>
+>Carefully review your Product Profile naming conventions to ensure only authorized users have access to Control Panel. Learn more about managing Control Panel permissions in the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
+
 
 ## How to migrate Hosted and Managed Services environments? {#ims-migration-procedure}
 
