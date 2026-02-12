@@ -1,4 +1,5 @@
----product: campaign
+---
+product: campaign
 title: Set up and manage the approval process
 description: Learn how to manage approvals of marketing campaigns
 language: en
@@ -8,8 +9,8 @@ hide: yes
 hidefromtoc: yes
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 ---
-# Set up and manage the approval process {#approving-marketing-campaigns}
 
+# Set up and manage the approval process {#approving-marketing-campaigns}
 
 Each step of a delivery can be subject to approval to ensure full monitoring and control of campaign processes. These include targeting, content, budget, extraction, and sending a proof.
 
