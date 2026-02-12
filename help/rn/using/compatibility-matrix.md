@@ -183,12 +183,14 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 <p>PostgreSQL</p>
 </td>
 <td>
+<p>16.x</p>
 <p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
 </td>
 <td>
+<p>v7.4.1</p>
 <p>v7.3.2</p>
 <p></p>
 <p></p>

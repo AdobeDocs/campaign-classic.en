@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Design and execute marketing campaigns
-description: Define, optimize, execute and analyse marketing campaigns
+description: Define, optimize, execute and analyze marketing campaigns
 role: User
 feature: Campaigns
 hide: yes
@@ -11,16 +11,16 @@ exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 # Design and execute marketing campaigns{#designing-marketing-campaigns}
 
 
-Adobe Campaign lets you define, optimize, execute and analyze communications and marketing campaigns. Adobe Campaign acts like a unified order and execution center for marketing strategies. For more on this, refer to [Access campaigns](../../distributed/using/accessing-campaigns.md) and [Create marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
+[!DNL Adobe Campaign] lets you define, optimize, execute and analyze communications and marketing campaigns. [!DNL Adobe Campaign] acts like a unified order and execution center for marketing strategies. For more on this, refer to [Access campaigns](../../distributed/using/accessing-campaigns.md) and [Create marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
 
-In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. The Marketing Resource Management lets you optimize and regulate the management of internal and external processes, resources and marketing campaigns, as well as third party relations (agencies, printers, etc.). For more on this, refer to [this section](../../mrm/using/about-marketing-resource-management.md).
+In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. The Marketing Resource Management lets you optimize and regulate the management of internal and external processes, resources and marketing campaigns. It also supports third-party relations (agencies, printers, etc.). For more on this, refer to [this section](../../mrm/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
->For more on the Adobe Campaign core functionalities, refer t [this section](../../platform/using/about-adobe-campaign-classic.md) section.  
->Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+>For more on the [!DNL Adobe Campaign] core functionalities, refer to [this section](../../platform/using/about-adobe-campaign-classic.md).  
+>Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in the [!DNL Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
-![](assets/do-not-localize/how-to-video.png) [Discover marketing campaigns keys concepts in video](#video)
+![How-to video thumbnail](assets/do-not-localize/how-to-video.png) [Discover marketing campaigns key concepts in video](#video)
 
 ## Core concepts {#core-concepts}
 
@@ -64,4 +64,4 @@ This video presents the key concepts of marketing campaigns.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional [!DNL Campaign Classic] how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
