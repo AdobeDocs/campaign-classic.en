@@ -5,6 +5,8 @@ git-repo: https://github.com/AdobeDocs/campaign-classic.en
 solution: Campaign, Campaign Classic v7
 version: Campaign Classic v7
 feature-set: Campaign
+landing-page-name: campaign
+landing-page-breadcrumb-title: Campaign
 index: yes
 ---
 
