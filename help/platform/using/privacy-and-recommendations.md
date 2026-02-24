@@ -56,10 +56,6 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
     * Your privacy practices in connection with Adobe Experience Cloud
     * How users can set their preferences for the collection or use of their information in connection with Adobe Experience Cloud
 
-    >[!NOTE]
-    >
-    >As for all Adobe products, Campaign users can opt-out sharing information collected about them through apps and websites. For more on this, see the [Adobe Experience Cloud Usage Information FAQ](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html).
-
 For further details on the Adobe Experience Cloud privacy, see [this page](https://www.adobe.com/privacy/marketing-cloud.html).
 
 ## Personal Data and Personas {#personal-data}
