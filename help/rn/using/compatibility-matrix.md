@@ -31,11 +31,14 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 <p>Debian</p>
 </td>
 <td>
+<p>13</p>
+<p>12</p>
 <p>11</p>
 </td>
 <td>
+<p>7.4.3</p>
+<p>7.4.3</p>
 <p>v7.3</p>
-<p></p>
 </td>
 </tr>
 <tr>
@@ -45,11 +48,9 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 <td>
 <p>9.x</p>
 <p>8.x</p>
-<p>7.x</p>
 </td>
 <td>
 <p>v7.4</p>
-<p></p>
 <p></p>
 </td>
 </tr>
@@ -183,6 +184,7 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 <p>PostgreSQL</p>
 </td>
 <td>
+<p>17.x</p>
 <p>16.x</p>
 <p>15.x</p>
 <p>14.x</p>
@@ -191,6 +193,7 @@ As an on-premise / hybrid customer, you must install and configure one of the da
 <p>11.x</p>
 </td>
 <td>
+<p>v7.4.3</p>
 <p>v7.4.1</p>
 <p>v7.4.1</p>
 <p>v7.3.2</p>
@@ -282,11 +285,13 @@ External databases compatible with Adobe Campaign [Federated Data Access module]
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>17.x</p>
 <p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
 </td>
+<p>v7.4.3</p>
 <td>v7.0 19.1.4</td>
 </tr>
 <tr>

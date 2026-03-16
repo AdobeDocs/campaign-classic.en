@@ -23,7 +23,7 @@ _March 16, 2026_
 
 ### Security improvements {#security-7-4-3}
 
-* To maintain optimal security, stability, and compliance, Debian has been upgraded to version 13 and PostgreSQL to version 17.
+* To maintain optimal security, stability, and compliance, Debian has been upgraded to version 13 and PostgreSQL to version 17. Refer to the [compatibility matrix](compatibility-matrix.md).
 
 ### Fixes {#fixes-7-4-3}
 
