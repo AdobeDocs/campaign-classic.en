@@ -16,6 +16,7 @@ type: Documentation
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
   + Previous releases {#previous-releases}
+    + [2025](rn/using/release-2025.md)
     + [2024](rn/using/release-2024.md)    
     + [2023](rn/using/release-2023.md)    
     + [2022 - HIDDEN](rn/using/release-2022.md)    

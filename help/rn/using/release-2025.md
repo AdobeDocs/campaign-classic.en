@@ -1,0 +1,125 @@
+---
+product: campaign
+title: Campaign Classic 2025 releases
+description: Learn more about Campaign Classic 2025 releases
+feature: Release Notes
+role: User
+level: Beginner
+---
+# 2025 releases{#release-2025}
+
+## Release 7.4.2  {#release-7-4-2}
+
+### Build 9391 {#build-9391} 
+
+[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+
+_May 12, 2025_  
+
+This build includes the following fixes:
+
+* Fixed a postupgrade issue encountered in non-Oracle setups. (NEO-87012)
+* Fixed a TLS / HTTPS backend issue affecting both client console and server. (NEO-87432)
+
+### Build 9390 {#build-9390}
+
+[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+
+_April 2, 2025_  
+
+<!--
+### Compatibility updates {#comp-7-4-2}
+
+This release comes with the following compatibility updates:
+
+* JQuery library update: fixes multiple UI issues (reports, web apps)
+* PostgreSQL 15 and 16
+
+--> 
+
+**Security improvements**
+
+This release comes with several security fixes.
+
+Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experience Cloud]** external account has been updated to reinforce security.
+
+**Major fixes**
+
+This release comes with the following main fixes:
+
+* TLS / SMPP connection - Fixed SMPP stability issues
+
+* Google BigQuery fixes:
+
+    * Fixed regressions on BOOLEAN data types
+    * Fixed proxy settings issues
+    * Fixed regressions on DATETIME data types
+    * Fixed bulk load stability
+    * Improved internal tests on ODBC versions
+    * Fixed an issue with special characters on connection string
+    * Removed default timeout (5min) on Google BigQuery queries
+
+* Mail Transfer Agent (MTA) - Fixed orphan MTA child to be stuck on **[!UICONTROL Start pending]** status.
+
+
+**Other fixes**
+
+The following issues are also fixed in this release:
+
+* Fixed an issue where the **Data Loading (file)** activity failed to upload files to the server<!--after an upgrade to version 8.3.8-->. Users can now successfully upload files without encountering stuck progress or console errors. (NEO-47269)
+
+* Resolved segmentation fault errors in Apache <!--following an upgrade to Adobe Campaign Classic 7.2.2 build 9349-->. This fix prevents core file generation and ensures stable server operation. (NEO-59059)
+
+* Addressed a connectivity issue with the Google BigQuery database <!--after upgrading to version 7.3.3 build 9359-->. Users can now test connections successfully using the GCP external account. (NEO-62455)
+
+* Enhanced compatibility for Boolean and Datetime column updates in Google BigQuery tables using Federated Data Access (FDA). This fix ensures proper handling of data types during Insert/Update operations. (NEO-65774)
+
+* Fixed a resource injection vulnerability that allowed attackers to inject HTML elements into email endpoints. This security enhancement prevents unauthorized access and phishing attempts. (NEO-66462)
+
+* Resolved intermittent errors when inserting data into Google BigQuery tables due to HTTP content or transfer encoding issues. This fix ensures stable data loading workflows. (NEO-66989)
+
+* Addressed a path traversal vulnerability in the `File.list()` method within workflows. This security enhancement prevents unauthorized directory access and protects sensitive files. (NEO-77898)
+
+* Fixed an issue where SMS delivery logs were not updating correctly to "received on mobile" status. This enhancement ensures accurate delivery reporting. (NEO-78843)
+
+* Resolved login errors in Adobe Campaign Classic when using Azure Federated Data Access (FDA). Users can now log in successfully via the client console. (NEO-79373)
+
+* Fixed a crash in workflows caused by the `CCurlAzureBlobStorage::UploadStream()` method. This enhancement ensures stable workflow execution. (NEO-79598)
+
+* Activated two critical compilation flags (`ControlFlowGuard` and `StackProtection`) on Windows to enhance product security and mitigate exploitation risks. (NEO-80145)
+
+* Fixed an issue where event statuses were sent incorrectly while the broadlog was in a failed state. This enhancement ensures accurate event reporting. (NEO-80245)
+
+* POP3 OAuth refresh and access token are now saved in the database and `Authentication failure: unknown user name or bad password` error no longer appears after the refresh token has expired. (NEO-80683)
+
+* An option `XApiKey` is now used as a value for the client id to connect to Adobe Analytics instead of using the client id of the Marketing Cloud (MAC) external account. (NEO-80434)
+
+* Resolved an issue where inMail users encountered authentication errors due to token expiration. Users can now test the connection and restart the server to resolve similar issues. (NEO-80683)
+
+* Improved analytics API functionality by ensuring that all analytics calls use a consistent API key (Campaign1) for authentication, even when switching to a random client ID. This ensures seamless analytics tracking. (NEO-80434)
+
+* Enhanced the BigQuery Federated Data Access (FDA) connector by allowing users to adjust the timeout period for queries. This improvement prevents timeout errors during long-running queries. (NEO-81222)
+
+* Updated the Campaign <!--7.4.1--> release upgrade process to include required dependencies. This enhancement simplifies the upgrade process for users. (NEO-81433)
+
+* Fixed a console crash issue when using a subworkflow in combination with an `enum` field. This enhancement ensures stable workflow execution. (NEO-81864)
+
+* Resolved an issue where MTA child processes were stuck, blocking delivery slots. This fix ensures smooth delivery operations for Push and WhatsApp communications. (NEO-82351)
+
+* Fixed an issue where deliveries were stuck in personalization pending due to paused delivery activities. This enhancement ensures successful delivery execution. (NEO-82781)
+
+* Enhanced IMS login functionality by leveraging the CampaignIO endpoint for authentication. This improvement streamlines the login process. (NEO-82838)
+
+* Readdressed Google BigQuery Federated Data Access (FDA) timeout errors to ensure stable query execution post-hotfix deployment. (NEO-82923)
+
+* Resolved a space issue when loading large data volumes into Teradata tables. This enhancement ensures stable data loading operations. (NEO-83252)
+
+* Fixed an issue where GCP queries failed due to mismatched date and timestamp comparisons <!--after upgrading to version 9383-->. This enhancement ensures query compatibility. (NEO-83826)
+
+* Addressed delivery failures caused by resuming paused delivery activities. This fix ensures successful delivery execution. (NEO-83809)
+
+* Fixed authentication errors with the Snowflake Federated Data Access (FDA) connector when using Private Key Authentication. This enhancement ensures successful database connections. (NEO-84024)
+
+* Implemented watchdog changes to address MTA child slot blockage caused by stuck processes. This enhancement ensures smooth delivery operations. (NEO-84553)
+
+* Augmented Javascript wait checks to address MTA child slot blockage caused by processes in a working state. This fix ensures stable delivery operations. (NEO-85150)
