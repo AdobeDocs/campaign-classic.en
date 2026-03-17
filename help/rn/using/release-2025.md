@@ -5,7 +5,6 @@ description: Learn more about Campaign Classic 2025 releases
 feature: Release Notes
 role: User
 level: Beginner
-exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
 ---
 # 2025 releases{#release-2025}
 
