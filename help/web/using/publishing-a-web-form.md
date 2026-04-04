@@ -190,6 +190,7 @@ Learn more on the different statuses of a web form in [this section](#life-cycle
   >
   >You can check the latest version of your web form using the **[!UICONTROL Preview]** tab.
 
-<!--For RN:
+<!--
+For RN:
 * Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 -->

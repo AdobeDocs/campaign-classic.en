@@ -85,7 +85,8 @@ However, if you have started a transactional messaging project on the email chan
 
    ![](assets/messagecenter_install_channel.png)
 
-<!--## Transactional messages and inbound Interaction {#transactional-messages-and-inbound-interaction}
+<!--
+## Transactional messages and inbound Interaction {#transactional-messages-and-inbound-interaction}
 
 When combined with the Inbound Interaction module, transactional messaging enables you to insert a marketing offer dedicated to the recipient into the message.
 
@@ -118,7 +119,9 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).
+
+-->
 
 ### Transactional push notifications {#transactional-messaging-and-push-notifications}
 

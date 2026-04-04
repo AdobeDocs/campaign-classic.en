@@ -63,11 +63,13 @@ On the control instance, whether you have one or several execution instances reg
 
 These workflows can then be accessed from the **Administration > Production > Message Center** folder. Once created, the archiving workflows are automatically started.
 
-<!--**Minimal architecture**
+<!--
+**Minimal architecture**
 
 Once the control and execution modules are installed on the same instance, you must create the archiving workflow using the deployment wizard. Click the **[!UICONTROL Create the archiving workflow]** button to create and start the workflow.
 
-![](assets/messagecenter_archiving_001.png)-->
+![](assets/messagecenter_archiving_001.png)
+-->
 
 ### Execution instance workflows {#execution-instance-workflows}
 

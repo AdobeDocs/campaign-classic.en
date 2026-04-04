@@ -283,7 +283,8 @@ Learn more about [Domain delegation](https://experienceleague.adobe.com/docs/con
 ## E - H {#sec-2}
 
 <!--
-----DEPRECATED------>
+----DEPRECATED----
+-->
 +++**E4X**
 
 E4X is the version of Javascript that is used in Adobe Campaign Classic. Sometimes called ECMAScript, it is an extension of Javascript that allows the mixing of Javascript and XML primitives in the same code. Note that E4X is classified as a deprecated language. 
@@ -1016,7 +1017,7 @@ Transactional messaging is a Campaign module designed for managing custom trigge
 Learn more about [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 +++
 
-<!------- USEFUL HERE??----->
+<!-- USEFUL HERE?? -->
 +++**Triggered campaigns**
 
 Triggered campaigns are campaigns that are executed when an API request is received in a workflow. API calls are consumed by a Signal activity in the workflow that initiates the execution of the workflow. 
