@@ -5,7 +5,7 @@ description: Learn how to configure Developer Console Adobe Experience Cloud Tri
 feature: Triggers
 audience: integrations
 content-type: reference
-index: y
+index: true
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
