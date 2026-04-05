@@ -7,7 +7,7 @@ version: Campaign Classic v7
 feature-set: Campaign
 landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
-index: yes
+index: true
 ---
 
 # Metadata for Adobe Campaign Classic

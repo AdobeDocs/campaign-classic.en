@@ -35,10 +35,12 @@ Once Adobe Identity Management Service (IMS) is enabled for your organization, y
    <td> <strong>Environment</strong><br /> </td> 
    <td> Example: Production </td> 
   </tr> 
-  <!--tr> 
+  <!--
+  tr> 
    <td> <strong>AAM or People Service</strong><br /> </td> 
    <td> Example: Adobe Audience Manager. Make sure to mention whether or not you own Audience Manager license.</td> 
-  </tr--> 
+  </tr
+  --> 
   <tr> 
    <td> <strong>Declared ID or Visitor ID</strong><br /> </td> 
    <td> Example: Declared ID </td> 

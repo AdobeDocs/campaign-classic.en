@@ -27,8 +27,10 @@ Once your email has been created and configured, you can send it to the main tar
 >The whole process to validate a delivery is described in [this section](steps-validating-the-delivery.md). The full detailed steps to configure and send a delivery are presented in [this section](steps-sending-the-delivery.md).
 
 The following sections detail settings and configurations that are specific to delivering emails:
-<!--* [Generating the mirror page](generating-mirror-page.md)
-* [Email BCC](email-bcc.md)-->
+<!--
+* [Generating the mirror page](generating-mirror-page.md)
+* [Email BCC](email-bcc.md)
+-->
 * [Email parameters](email-parameters.md)
 * [Send emails with the Enhanced MTA](sending-with-enhanced-mta.md)
 * [Send emails on Japanese mobiles](sending-emails-on-japanese-mobiles.md)

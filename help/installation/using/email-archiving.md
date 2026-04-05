@@ -89,7 +89,8 @@ Once the local folder path is defined, add and edit the following elements as de
 * **archivingType**: archiving strategy to be used. The only possible value is **1**. Raw copies of sent emails are saved in .eml format to the **dataLogPath** folder and they are sent to the BCC email address over SMTP. Once the email copies are sent to the BCC address, the archive file name becomes **`<deliveryid>-<broadlogid>-sent-archived.eml`** and the file is moved to the **dataLogPath/archives** folder. The sent and BCC archived email file path is then **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
 
   <!--
-  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->
+  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
+  -->
 
 * **expirationDelay**: number of days .eml files are kept for archiving. After that delay, they are automatically moved to the **dataLogPath/archives** folder for compression. By default, .eml files expire after two days.
 * **purgeArchivesDelay**: number of days archives are kept in the **dataLogPath/`<archives>`** folder. After that period, they are permanently deleted. The purge begins when the MTA is started. By default, it is carried out every seven days.
@@ -154,7 +155,8 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 * **Emails per connection**: BCC email archiving operates by opening a connection and trying to send all emails through that connection. Adobe recommends checking with your internal technical contact the number of emails that are accepted on a given connection. Increasing this number can have a great impact on BCC throughput.
 * **BCC sending IPs**: currently, BCC emails are not sent through the normal MTA proxies. Instead, a direct connection is open from the MTA server to the destination email server. This means that you may need to add additional IPs to the allowlist on your network, depending on your email server configuration.
 
-<!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
+<!--
+## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
 
 For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA, which is more reliable, efficient, and has lower latency.
 
@@ -180,4 +182,6 @@ Consequently, make sure:
 
 * Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/delivery-failures-quarantine.md).
 
-* There is no reporting available on the delivery status of the emails sent to the BCC email address.-->
+* There is no reporting available on the delivery status of the emails sent to the BCC email address.
+
+-->

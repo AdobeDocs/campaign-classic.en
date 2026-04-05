@@ -264,7 +264,8 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
  </tbody> 
 </table>
 
-<!--<tr> 
+<!--
+<tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
    <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
   </tr>

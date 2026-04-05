@@ -26,11 +26,13 @@ Make sure your message content is properly designed to avoid any errors, which a
 
 The incorrect use of parameters in personalization blocks can be an issue. For example, variables in JavaScript should be used as follows:
 
+```
     <%
 
     var brand = "xxx"
 
     %>
+```
 
 For more on personalization blocks, refer to the [this section](personalization-blocks.md).
 

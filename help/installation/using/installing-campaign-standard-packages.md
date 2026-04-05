@@ -83,12 +83,14 @@ The following table lists all Campaign built-in packages.
    <td> Package to install on execution instances for Offer engine (interaction). <a href="../../interaction/using/distributed-architectures.md">Learn More</a> </td> 
    <td> Mid, Execution <br /> </td>  
   </tr> 
-  <!--tr> 
+  <!--
+  tr> 
    <td> Lead Management (Leads) (deprecated)<br /> </td> 
    <td> Simplifies the process of building and maintaining the entire leads management life cycle. <br /> </td> 
    <td> Yes<br /> </td> 
    <td> Optional, <a href="https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html">Learn More</a> </td> 
-  </tr--> 
+  </tr
+  --> 
   <tr> 
    <td> Social networks (Social Marketing) <br /> </td> 
    <td> Synchronizes Adobe Campaign with X (formerly known as Twitter) and Facebook. <a href="../../social/using/about-social-marketing.md">Learn More</a> <br /> </td> 

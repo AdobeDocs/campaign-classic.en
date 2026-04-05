@@ -36,7 +36,8 @@ Momentum represents innovative, high-performance MTA technology which includes s
 
 **What are the benefits?**
 
-* Adobe Campaign clients using the Enhanced MTA have seen a <!--300%-->massive increase in overall throughput speed, and a <!--90%+-->significant reduction in soft bounces.
+* Adobe Campaign clients using the Enhanced MTA have seen a <!--300%-->massive increase in overall throughput speed, and a significant reduction in soft bounces.
+<!--90%+-->
 * The Enhanced MTA uses the latest MTA technology to provide you with the optimal throughput speeds for your email delivery.
 * By adapting instantly and automatically to the feedback it receives, it also ensures more accurate and intelligent email delivery with real-time delivery data.
 

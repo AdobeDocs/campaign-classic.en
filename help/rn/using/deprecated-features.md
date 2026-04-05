@@ -144,9 +144,11 @@ This section lists features and capabilities that have been removed from Campaig
  </tbody> 
 </table>
 
-<!--## Deprecated compatibility {#deprecated-compatibility}
+<!--
+## Deprecated compatibility {#deprecated-compatibility}
 
-The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.-->
+The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.
+-->
 
 ## End of compatibility {#end-of-compatibility}
 
