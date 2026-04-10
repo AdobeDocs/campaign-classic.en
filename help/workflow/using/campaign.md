@@ -4,7 +4,6 @@ title: Campaign
 description: Campaign
 feature: Workflows
 hide: yes
-hidefromtoc: yes
 topic-tags: technical-workflows
 ---
 

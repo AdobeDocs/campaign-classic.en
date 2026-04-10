@@ -5,7 +5,6 @@ description: Learn how to update bounce qualification after an ISP outage
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 hide: yes
-hidefromtoc: yes
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 ---
 # Update incorrect hard bounces after an ISP outage {#update-bounces}

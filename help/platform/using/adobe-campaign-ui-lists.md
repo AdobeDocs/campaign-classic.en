@@ -5,7 +5,7 @@ description: Learn how to browse and configure lists
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 hide: yes
-hidefromtoc: yes
+
 ---
 # Manage and customize lists{#manage-and-customize-lists}
 

@@ -6,7 +6,6 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Audiences
 role: User
 hide: yes
-hidefromtoc: yes
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 ---
 # Define the right audience {#define-the-right-audience}

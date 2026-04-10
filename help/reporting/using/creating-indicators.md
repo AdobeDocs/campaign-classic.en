@@ -4,7 +4,6 @@ title: Create indicators
 description: Create indicators
 feature: Reporting, Monitoring
 hide: yes
-hidefromtoc: yes
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 ---
 # Create indicators{#creating-indicators}

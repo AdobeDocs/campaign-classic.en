@@ -6,7 +6,6 @@ feature: Release Notes
 role: User
 level: Beginner
 hide: yes
-hidefromtoc: yes
 exl-id: 28490323-41d0-4d61-b309-6892fb826d21
 ---
 # 2022 releases{#release-2022}

@@ -5,7 +5,7 @@ description: Learn how to connect Campaign and Microsoft Dynamics
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 hide: yes
-hidefromtoc: yes
+
 ---
 # Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
 

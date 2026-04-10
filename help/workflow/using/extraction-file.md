@@ -4,7 +4,6 @@ title: Data extraction (file)
 description: Learn more about the Data extraction (file) workflow activity
 feature: Workflows, Data Management Activity
 hide: yes
-hidefromtoc: yes
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
 ---
 # Data extraction (file){#extraction-file}

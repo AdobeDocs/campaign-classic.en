@@ -8,7 +8,6 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 hide: yes
-hidefromtoc: yes
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
 ---
 # Troubleshooting{#troubleshooting}

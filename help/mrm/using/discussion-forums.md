@@ -6,7 +6,6 @@ feature: Resource Management
 audience: campaign
 content-type: reference
 hide: yes
-hidefromtoc: yes
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 ---

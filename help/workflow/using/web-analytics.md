@@ -3,7 +3,6 @@ product: campaign
 title: Web Analytics
 description: Learn more about the Web Analytics package
 hide: yes
-hidefromtoc: yes
 feature: Workflows, Analytics Integration
 ---
 

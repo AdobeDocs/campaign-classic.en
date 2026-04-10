@@ -3,7 +3,6 @@ product: campaign
 title: Unsupported SMS connector migration
 description: Migrate unsupported SMS connector to the Extended Generic SMPP connector
 feature: SMS, Upgrade
-hidefromtoc: yes
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 ---
 # Migrate unsupported SMS connector to the Extended Generic SMPP connector{#unsupported-connector-migration}

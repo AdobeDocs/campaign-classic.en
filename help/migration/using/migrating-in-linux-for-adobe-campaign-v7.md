@@ -7,7 +7,6 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: yes
-hidefromtoc: yes
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 ---
 # Migrate a Linux platform to Campaign v7{#migrating-in-linux-for-adobe-campaign-v}

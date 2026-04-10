@@ -4,7 +4,6 @@ title: Distributed Marketing samples
 description: Distributed Marketing samples
 feature: Distributed Marketing
 hide: yes
-hidefromtoc: yes
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 ---
 # Distributed Marketing samples{#distributed-marketing-samples}

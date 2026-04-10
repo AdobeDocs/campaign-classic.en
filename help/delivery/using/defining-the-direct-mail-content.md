@@ -6,7 +6,6 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Direct Mail
 role: User
 hide: yes
-hidefromtoc: yes
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 ---
 # Define the direct mail content{#defining-the-direct-mail-content}

@@ -5,7 +5,6 @@ description: Learn how to work with consistency rules in Adobe Campaign
 role: User, Developer
 feature: Typology Rules, Campaigns
 hide: yes
-hidefromtoc: yes
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 ---
 # Consistency rules{#consistency-rules}

@@ -6,7 +6,6 @@ feature: Overview
 role: User, Developer
 level: Beginner
 hide: yes
-hidefromtoc: yes
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 ---
 # Adobe Campaign Glossary{#ac-glossary}

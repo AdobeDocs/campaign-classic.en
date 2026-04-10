@@ -4,7 +4,6 @@ title: Create a delivery from a template
 description: Learn how to create a delivery from a template
 feature: Delivery Templates
 hide: yes
-hidefromtoc: yes
 role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 ---

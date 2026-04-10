@@ -4,7 +4,6 @@ title: Intersection
 description: Intersection
 feature: Workflows, Targeting Activity
 hide: yes
-hidefromtoc: yes
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---
 # Intersection{#intersection}

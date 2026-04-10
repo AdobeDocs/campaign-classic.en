@@ -4,7 +4,6 @@ title: Workflow best practices
 description: Learn Campaign Workflow best practices
 feature: Workflows
 hide: yes
-hidefromtoc: yes
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 ---
 # Workflow best practices{#workflow-best-practices}

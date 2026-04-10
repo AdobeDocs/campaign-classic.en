@@ -4,7 +4,6 @@ title: Send personalized alerts to operators
 description: Learn how to send personalized alerts to operators
 feature: Workflows
 hide: yes
-hidefromtoc: yes
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 ---
 # Send personalized alerts to operators{#sending-personalized-alerts-to-operators}

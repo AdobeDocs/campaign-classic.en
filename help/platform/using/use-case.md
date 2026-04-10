@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 hide: yes
-hidefromtoc: yes
+
 ---
 # Use case{#use-case}
 

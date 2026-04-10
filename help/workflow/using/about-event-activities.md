@@ -4,7 +4,6 @@ title: About event activities
 description: About event activities
 feature: Workflows, Data Management
 hide: yes
-hidefromtoc: yes
 exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
 ---
 # Event activities in workflows{#about-event-activities}

@@ -4,7 +4,6 @@ title: Deduplication
 description: Learn more about the Deduplication workflow activity
 feature: Workflows, Targeting Activity
 hide: yes
-hidefromtoc: yes
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 ---
 # Deduplication{#deduplication}

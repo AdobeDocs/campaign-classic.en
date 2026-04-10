@@ -7,7 +7,6 @@ badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experi
 audience: production
 content-type: reference
 hide: yes
-hidefromtoc: yes
 topic-tags: updating-adobe-campaign
 exl-id: 0b71a4d3-b340-4742-bd69-4073ce271cf3
 ---

@@ -7,7 +7,6 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 hide: yes
-hidefromtoc: yes
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 ---
 # Get started with Marketing Resource Management{#about-marketing-resource-management} 

@@ -4,7 +4,6 @@ title: Wait
 description: Learn more about the Wait workflow activity
 feature: Workflows
 hide: yes
-hidefromtoc: yes
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
 ---
 # Wait{#wait}

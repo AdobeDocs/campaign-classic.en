@@ -4,7 +4,6 @@ title: Create a delivery template
 description: Create a delivery template
 feature: Delivery Templates
 hide: yes
-hidefromtoc: yes
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 ---

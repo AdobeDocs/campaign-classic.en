@@ -4,7 +4,6 @@ title: Select a target mapping
 description: Learn how to target mapping
 feature: Delivery Templates
 hide: yes
-hidefromtoc: yes
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 ---
