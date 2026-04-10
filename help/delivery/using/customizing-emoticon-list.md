@@ -6,7 +6,6 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Email, Push
 role: User, Developer
 hide: yes
-hidefromtoc: yes
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 ---
 # Customize the emoticon list {#customize-emoticons}

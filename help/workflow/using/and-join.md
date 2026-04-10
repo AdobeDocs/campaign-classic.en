@@ -4,7 +4,6 @@ title: AND-join
 description: AND-join
 feature: Workflows
 hide: yes
-hidefromtoc: yes
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
 ---
 # AND-join{#and-join}

@@ -4,7 +4,6 @@ title: Technote - Update your environment to connect to Adobe Campaign with IMS
 description: Campaign - IMS updates
 feature: Technote, Upgrade
 hide: yes
-hidefromtoc: yes
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}

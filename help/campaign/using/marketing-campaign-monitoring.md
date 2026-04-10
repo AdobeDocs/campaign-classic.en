@@ -5,7 +5,6 @@ description: Monitoring marketing campaigns
 role: User
 feature: Campaigns, Monitoring
 hide: yes
-hidefromtoc: yes
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 ---
 # Monitor marketing campaigns {#monitoring-marketing-campaigns}

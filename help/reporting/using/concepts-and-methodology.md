@@ -5,7 +5,6 @@ description: Best practices for cubes
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: yes
-hidefromtoc: yes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 ---
 # Best practices for cubes{#concepts-and-methodology}

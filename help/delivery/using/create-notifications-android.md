@@ -5,7 +5,6 @@ description: Learn how to create push notifications for Android
 feature: Push
 role: User, Developer
 hide: yes
-hidefromtoc: yes
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
 # Create notifications for Android{#create-notificaations-android}

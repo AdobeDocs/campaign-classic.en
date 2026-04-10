@@ -6,7 +6,6 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Deliverability
 role: User
 hide: yes
-hidefromtoc: yes
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 ---
 # Optimize delivery {#optimize-delivery}

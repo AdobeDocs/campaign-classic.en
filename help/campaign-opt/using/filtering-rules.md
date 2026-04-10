@@ -5,7 +5,6 @@ description: Learn how to use filtering rules in Adobe Campaign
 role: User, Developer
 feature: Typology Rules, Campaigns
 hide: yes
-hidefromtoc: yes
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 ---
 # Filtering rules{#filtering-rules}

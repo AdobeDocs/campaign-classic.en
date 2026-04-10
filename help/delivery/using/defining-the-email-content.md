@@ -6,7 +6,6 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Email Design
 role: User
 hide: yes
-hidefromtoc: yes
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 ---
 # Define the email content {#defining-the-email-content}

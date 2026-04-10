@@ -4,7 +4,6 @@ title: Update data
 description: Learn more about the Update data workflow activity
 feature: Workflows, Targeting Activity, Data Management
 hide: yes
-hidefromtoc: yes
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 ---
 # Update data{#update-data}

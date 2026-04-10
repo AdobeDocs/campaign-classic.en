@@ -3,7 +3,6 @@ product: campaign
 title: LINE Channel
 description: LINE Channel
 hide: yes
-hidefromtoc: yes
 feature: Workflows
 ---
 

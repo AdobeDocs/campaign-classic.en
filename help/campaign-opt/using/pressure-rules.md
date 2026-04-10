@@ -5,7 +5,6 @@ description: Learn how to work with pressure rules in Adobe Campaign
 role: User, Developer
 feature: Fatigue Management, Typology Rules, Campaigns
 hide: yes
-hidefromtoc: yes
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 ---
 # Pressure rules{#pressure-rules}

@@ -4,7 +4,6 @@ title: Enrichment
 description: Learn more about the Enrichment workflow activity
 feature: Workflows, Enrichment Activity, Targeting Activity
 hide: yes
-hidefromtoc: yes
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 ---
 # Enrichment{#enrichment}

@@ -7,7 +7,6 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: yes
-hidefromtoc: yes
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 ---
 # Prerequisites{#before-starting-migration}

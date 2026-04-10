@@ -4,7 +4,6 @@ title: Integrations with Adobe Experience Cloud solutions workflows
 description: Learn more about Integrations with Adobe Experience Cloud solutions workflows
 feature: Workflows, Audiences
 hide: yes
-hidefromtoc: yes
 topic-tags: technical-workflows
 ---
 

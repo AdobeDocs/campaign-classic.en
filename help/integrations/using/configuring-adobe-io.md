@@ -10,7 +10,7 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 hide: yes
-hidefromtoc: yes
+
 ---
 # Configuring Developer Console for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 

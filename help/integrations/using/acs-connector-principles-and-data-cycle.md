@@ -4,7 +4,6 @@ title: Get started with ACS Connector
 description: ACS Connector principles and data cycle
 feature: ACS Connector
 hide: yes
-hidefromtoc: yes
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 ---
 # Get started with ACS Connector{#acs-connector-gs}

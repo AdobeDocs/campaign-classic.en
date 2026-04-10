@@ -6,7 +6,6 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Email Design
 role: User
 hide: yes
-hidefromtoc: yes
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 ---
 # Define interactive content{#defining-interactive-content}

@@ -5,7 +5,6 @@ description: About campaign typologies
 role: User, Developer
 feature: Typology Rules, Campaigns
 hide: yes
-hidefromtoc: yes
 exl-id: b500bde4-6c81-4420-b1bf-e8eff1c53877
 
 ---

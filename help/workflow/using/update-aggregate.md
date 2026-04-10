@@ -4,7 +4,6 @@ title: Update aggregate
 description: Learn more about the Update aggregate workflow activity
 feature: Workflows
 hide: yes
-hidefromtoc: yes
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
 ---
 # Update aggregate{#update-aggregate}

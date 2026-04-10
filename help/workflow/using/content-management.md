@@ -4,7 +4,6 @@ title: Content Management
 description: Content Management
 feature: Workflows, Data Management
 hide: yes
-hidefromtoc: yes
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
 ---
 # Content Management{#content-management}

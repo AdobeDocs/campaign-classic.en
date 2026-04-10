@@ -5,7 +5,6 @@ description: Use cubes to explore data
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 hide: yes
-hidefromtoc: yes
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 ---
 # Use cubes to explore data{#using-cubes-to-explore-data}

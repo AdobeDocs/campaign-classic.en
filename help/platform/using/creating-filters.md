@@ -3,7 +3,6 @@ product: campaign
 title: Creating filters
 description: Creating filters
 hide: yes
-hidefromtoc: yes
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 ---
 # Create filters{#creating-filters}

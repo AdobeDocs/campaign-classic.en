@@ -3,7 +3,6 @@ product: campaign
 title: Deliveries
 description: Learn more about default Deliveries workflows
 hide: yes
-hidefromtoc: yes
 feature: Workflows
 ---
 
