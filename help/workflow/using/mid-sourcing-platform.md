@@ -2,7 +2,7 @@
 product: campaign
 title: Mid-sourcing platform
 description: Mid-sourcing platform
-hide: yes
+hide: true
 feature: Workflows
 ---
 

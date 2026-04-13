@@ -3,7 +3,7 @@ product: campaign
 title: JavaScript scripts and templates
 description: JavaScript scripts and templates
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 ---
 # JavaScript scripts and templates{#javascript-scripts-and-templates}

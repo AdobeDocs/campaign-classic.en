@@ -3,7 +3,7 @@ product: campaign
 title: Filter duplicated recipients
 description: Learn how to filter duplicated recipients
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
 ---
 # Filter duplicated recipients {#filtering-duplicated-recipients}

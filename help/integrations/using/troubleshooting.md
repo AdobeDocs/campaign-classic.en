@@ -7,7 +7,7 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-hide: yes
+hide: true
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
 ---
 # Troubleshooting{#troubleshooting}

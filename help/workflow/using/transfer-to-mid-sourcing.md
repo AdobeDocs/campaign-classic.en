@@ -2,7 +2,7 @@
 product: campaign
 title: Transfer to Mid-sourcing
 description: Learn more about Transfer to Mid-sourcing workflows
-hide: yes
+hide: true
 feature: Workflows
 ---
 

@@ -3,7 +3,7 @@ product: campaign
 title: Social Marketing
 description: Learn more about Social Marketing technical workflows
 feature: Workflows
-hide: yes
+hide: true
 
 ---
 

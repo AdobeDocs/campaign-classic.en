@@ -7,7 +7,7 @@ feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-hide: yes
+hide: true
 
 ---
 # Manage access to folders{#folder-access-management}

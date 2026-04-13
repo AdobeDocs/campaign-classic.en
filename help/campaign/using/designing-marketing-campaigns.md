@@ -4,7 +4,7 @@ title: Design and execute marketing campaigns
 description: Define, optimize, execute and analyze marketing campaigns
 role: User
 feature: Campaigns
-hide: yes
+hide: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 ---
 

@@ -4,7 +4,7 @@ title: Configure and send the delivery
 description: Learn how to configure and send the delivery
 feature: Channel Configuration
 role: User
-hide: yes
+hide: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 ---
 # Configure and send the delivery {#configuring-and-sending-the-delivery}

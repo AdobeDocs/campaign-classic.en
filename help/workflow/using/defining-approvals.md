@@ -3,7 +3,7 @@ product: campaign
 title: Define approvals
 description: Approvals enable operators to make decisions governing a workflow or to confirm its continued execution
 feature: Approvals
-hide: yes
+hide: true
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 ---
 # Define approvals {#defining-approvals}

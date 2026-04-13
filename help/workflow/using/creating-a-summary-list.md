@@ -3,7 +3,7 @@ product: campaign
 title: Create a summary list
 description: Create a summary list
 feature: Workflows, Data Management
-hide: yes
+hide: true
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 ---
 # Create a summary list{#creating-a-summary-list}

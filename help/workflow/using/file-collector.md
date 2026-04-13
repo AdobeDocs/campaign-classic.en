@@ -3,7 +3,7 @@ product: campaign
 title: File collector
 description: Learn more about the File collector workflow activity
 feature: Workflows, Data Management
-hide: yes
+hide: true
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 ---
 # File collector{#file-collector}

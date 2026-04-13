@@ -2,7 +2,7 @@
 product: campaign
 title: Privacy Data Protection Regulation workflows
 description: Learn more about the Privacy Data Protection Regulation workflows
-hide: yes
+hide: true
 feature: Workflows, Privacy
 ---
 

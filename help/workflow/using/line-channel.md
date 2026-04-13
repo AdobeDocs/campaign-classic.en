@@ -2,7 +2,7 @@
 product: campaign
 title: LINE Channel
 description: LINE Channel
-hide: yes
+hide: true
 feature: Workflows
 ---
 

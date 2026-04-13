@@ -2,7 +2,7 @@
 product: campaign
 title: Message Center (Control)
 description: Message Center (Control)
-hide: yes
+hide: true
 feature: Workflows
 ---
 

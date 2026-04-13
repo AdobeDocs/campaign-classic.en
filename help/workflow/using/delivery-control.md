@@ -3,7 +3,7 @@ product: campaign
 title: Delivery control
 description: Learn more about the Delivery control workflow activity
 feature: Workflows
-hide: yes
+hide: true
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 ---
 # Delivery control{#delivery-control}

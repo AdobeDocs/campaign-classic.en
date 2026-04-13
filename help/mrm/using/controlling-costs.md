@@ -5,7 +5,7 @@ description: Learn how to control costs
 feature: Resource Management
 audience: campaign
 content-type: reference
-hide: yes
+hide: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 ---

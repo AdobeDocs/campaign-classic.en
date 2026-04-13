@@ -3,7 +3,7 @@ product: campaign
 title: Create a collaborative campaign
 description: Learn how to create a collaborative campaign
 feature: Distributed Marketing
-hide: yes
+hide: true
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 ---
 # Create a collaborative campaign{#creating-a-collaborative-campaign-intro}

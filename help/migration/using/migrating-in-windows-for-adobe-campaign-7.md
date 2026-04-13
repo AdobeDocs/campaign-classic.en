@@ -6,7 +6,7 @@ feature: Upgrade
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-hide: yes
+hide: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 ---
 # Migrate a Microsoft Windows platform to Campaign v7{#migrating-in-windows-for-adobe-campaign}

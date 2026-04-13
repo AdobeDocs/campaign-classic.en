@@ -3,7 +3,7 @@ product: campaign
 title: Enrich data
 description: Learn more about the Enrichment workflow activity
 feature: Workflows, Enrichment Activity
-hide: yes
+hide: true
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 ---
 # Enrich data{#enriching-data}

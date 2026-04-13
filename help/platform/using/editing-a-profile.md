@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
-hide: yes
+hide: true
 
 ---
 # Edit a profile{#editing-a-profile}

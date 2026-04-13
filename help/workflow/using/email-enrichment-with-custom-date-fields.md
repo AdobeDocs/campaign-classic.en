@@ -3,7 +3,7 @@ product: campaign
 title: Email enrichment with custom date fields
 description: Learn how to enrich emails with custom date fields
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
 ---
 # Email enrichment with custom date fields{#email-enrichment-with-custom-date-fields}

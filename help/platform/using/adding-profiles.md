@@ -6,7 +6,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
-hide: yes
+hide: true
 
 ---
 # Add profiles{#adding-profiles}

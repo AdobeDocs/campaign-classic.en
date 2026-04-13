@@ -5,7 +5,7 @@ description: Learn how to manage approvals of marketing campaigns
 language: en
 role: User
 feature: Approvals, Campaigns
-hide: yes
+hide: true
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 ---
 

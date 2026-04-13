@@ -6,7 +6,7 @@ feature: Upgrade
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-hide: yes
+hide: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 ---
 # Migration tests{#testing-the-migration}

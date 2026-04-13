@@ -3,7 +3,7 @@ product: campaign
 title: Monitor workflow execution
 description: Monitor workflow execution
 feature: Workflows
-hide: yes
+hide: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 ---
 # Monitor workflow execution {#monitoring-workflow-execution}

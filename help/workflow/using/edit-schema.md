@@ -3,7 +3,7 @@ product: campaign
 title: Edit schema
 description: Learn more about the Edit schema workflow activity
 feature: Workflows, Targeting Activity
-hide: yes
+hide: true
 exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
 ---
 # Edit schema{#edit-schema}

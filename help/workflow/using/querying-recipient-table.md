@@ -3,7 +3,7 @@ product: campaign
 title: Query the recipient table
 description: Learn how to query the recipient table
 feature: Query Editor, Workflows
-hide: yes
+hide: true
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 ---
 # Query the recipient table {#querying-recipient-table}

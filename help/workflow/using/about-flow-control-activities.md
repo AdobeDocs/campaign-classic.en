@@ -3,7 +3,7 @@ product: campaign
 title: About flow control activities
 description: About flow control activities
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 ---
 # Flow control activities in workflows{#about-flow-control-activities}

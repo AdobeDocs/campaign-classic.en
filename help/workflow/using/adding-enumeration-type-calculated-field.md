@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
-hide: yes
+hide: true
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 ---
 # Add an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}
