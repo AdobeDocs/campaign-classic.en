@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-hide: yes
+hide: true
 
 ---
 # Import and export profiles{#exporting-and-importing-profiles}

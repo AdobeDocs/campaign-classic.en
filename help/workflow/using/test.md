@@ -3,7 +3,7 @@ product: campaign
 title: Test
 description: Learn more about the Test workflow activity
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
 ---
 # Test{#test}

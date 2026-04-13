@@ -3,7 +3,7 @@ product: campaign
 title: Technote - Adobe Campaign configuration updates
 description: Adobe Campaign configuration updates
 feature: Technote, Upgrade
-hide: yes
+hide: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 ---
 # Adobe Campaign configuration updates 2021 {#acc-config-updates}

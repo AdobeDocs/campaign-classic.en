@@ -4,7 +4,7 @@ title: Create a push notification for iOS devices
 description: Learn how to create push notifications for iOS
 feature: Push
 role: User, Developer
-hide: yes
+hide: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 ---
 # Create notifications for iOS{#create-notifications-ios}

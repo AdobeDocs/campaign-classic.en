@@ -5,7 +5,7 @@ description: Creating and managing tasks
 feature: Resource Management
 audience: campaign
 content-type: reference
-hide: yes
+hide: true
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 ---

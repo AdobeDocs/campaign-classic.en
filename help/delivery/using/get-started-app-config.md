@@ -5,7 +5,7 @@ description: Learn how to start with the mobile application configuration
 feature: Push
 role: User, Developer
 level: Intermediate, Experienced
-hide: yes
+hide: true
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 ---
 # Get started with the app configuration

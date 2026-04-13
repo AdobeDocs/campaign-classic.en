@@ -3,7 +3,7 @@ product: campaign
 title: Task
 description: Learn more about the Task workflow activity
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
 ---
 # Task{#task}

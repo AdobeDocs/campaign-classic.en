@@ -2,7 +2,7 @@
 product: campaign
 title: Mobile App Channel
 description: Mobile App Channel
-hide: yes
+hide: true
 feature: Workflows
 ---
 

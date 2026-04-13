@@ -3,7 +3,7 @@ product: campaign
 title: Build a workflow
 description: Learn how to build a workflow
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 ---
 # Build a workflow {#building-a-workflow}

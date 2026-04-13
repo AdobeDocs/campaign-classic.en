@@ -2,7 +2,7 @@
 product: campaign
 title: Interaction
 description: Interaction
-hide: yes
+hide: true
 feature: Workflows, Interaction, Offers
 ---
 

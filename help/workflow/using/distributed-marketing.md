@@ -2,7 +2,7 @@
 product: campaign
 title: Distributed Marketing
 description: Learn more about the Distributed Marketing package
-hide: yes
+hide: true
 feature: Workflows, Data Management, Distributed Marketing
 ---
 

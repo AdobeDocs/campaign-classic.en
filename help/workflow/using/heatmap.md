@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Workflow HeatMap
 description: Monitor your workflows with Workflow HeatMap
 feature: Workflows, Heatmap
-hide: yes
+hide: true
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 ---
 # Workflow HeatMap {#workflow-heatmap}

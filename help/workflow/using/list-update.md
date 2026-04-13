@@ -3,7 +3,7 @@ product: campaign
 title: List update
 description: List update
 feature: Workflows, Targeting Activity
-hide: yes
+hide: true
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 ---
 # List update{#list-update}

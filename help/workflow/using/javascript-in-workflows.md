@@ -3,7 +3,7 @@ product: campaign
 title: Examples of JavaScript code in workflows
 description: These examples show how you can use JavaScript code in a workflow
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 ---
 # Examples of JavaScript code in workflows{#javascript-in-workflows}

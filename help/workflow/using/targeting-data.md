@@ -3,7 +3,7 @@ product: campaign
 title: Targeting data
 description: Learn more about Targeting data in a workflow
 feature: Query Editor, Data Management, Workflows
-hide: yes
+hide: true
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 ---
 # Target data{#targeting-data}

@@ -3,7 +3,7 @@ product: campaign
 title: Querying delivery information
 description: Learn how to query delivery information
 feature: Query Editor, Workflows
-hide: yes
+hide: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 ---
 # Query delivery information {#querying-delivery-information}

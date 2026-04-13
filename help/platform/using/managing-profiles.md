@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
-hide: yes
+hide: true
 
 ---
 # Manage profiles{#managing-profiles}

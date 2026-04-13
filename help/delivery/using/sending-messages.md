@@ -5,7 +5,7 @@ description: Learn how to confirm the delivery of an email and discover the spec
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User
-hide: yes
+hide: true
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
 ---
 # Key steps to send an email {#key-steps-to-send-an-email}

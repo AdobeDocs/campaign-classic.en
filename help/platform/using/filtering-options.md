@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
-hide: yes
+hide: true
 
 ---
 # Filtering options{#filtering-options}

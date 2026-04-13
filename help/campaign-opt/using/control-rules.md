@@ -4,7 +4,7 @@ title: Control rules
 description: Learn how to work with control rules in Adobe Campaign
 role: User, Developer
 feature: Typology Rules, Campaigns
-hide: yes
+hide: true
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 ---
 # Control rules{#control-rules}

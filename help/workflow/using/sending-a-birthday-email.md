@@ -3,7 +3,7 @@ product: campaign
 title: Send a birthday email
 description: Learn how to send a birthday email with a workflow
 feature: Workflows
-hide: yes
+hide: true
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 ---
 # Send a birthday email{#sending-a-birthday-email}

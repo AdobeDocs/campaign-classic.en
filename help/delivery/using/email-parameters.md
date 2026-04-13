@@ -4,7 +4,7 @@ title: Email parameters
 description: Learn about options and settings that are specific to email delivery
 feature: Email
 role: User, Developer
-hide: yes
+hide: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 ---
 # Email parameters {#email-parameters}

@@ -2,7 +2,7 @@
 product: campaign
 title: Email Deliverability
 description: Learn more about the Email Deliverability package
-hide: yes
+hide: true
 feature: Workflows, Deliverability
 ---
 

@@ -3,7 +3,7 @@ product: campaign
 title: Create a filter
 description: Learn how to create a filter when performing queries
 feature: Query Editor, Workflows
-hide: yes
+hide: true
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 ---
 # Create a filter {#creating-a-filter}

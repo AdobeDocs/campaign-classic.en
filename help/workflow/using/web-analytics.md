@@ -2,7 +2,7 @@
 product: campaign
 title: Web Analytics
 description: Learn more about the Web Analytics package
-hide: yes
+hide: true
 feature: Workflows, Analytics Integration
 ---
 

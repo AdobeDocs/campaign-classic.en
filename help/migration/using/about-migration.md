@@ -6,7 +6,7 @@ feature: Upgrade
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-hide: yes
+hide: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 ---
 # Get started with the migration{#about-migration}

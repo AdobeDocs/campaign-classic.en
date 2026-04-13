@@ -3,7 +3,7 @@ product: campaign
 title: Synchronize profiles
 description: Learn how to synchronize profiles with ACS Connector
 feature: ACS Connector
-hide: yes
+hide: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 ---
 # Synchronize profiles{#synchronizing-profiles}

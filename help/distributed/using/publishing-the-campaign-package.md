@@ -3,7 +3,7 @@ product: campaign
 title: Publish the campaign package
 description: Publish the campaign package
 feature: Distributed Marketing
-hide: yes
+hide: true
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 ---
 # Publish the campaign package{#publishing-the-campaign-package}

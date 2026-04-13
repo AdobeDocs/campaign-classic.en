@@ -3,7 +3,7 @@ product: campaign
 title: Campaign
 description: Campaign
 feature: Workflows
-hide: yes
+hide: true
 topic-tags: technical-workflows
 ---
 
