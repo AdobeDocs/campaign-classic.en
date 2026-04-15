@@ -221,3 +221,4 @@ Learn more in the [Deprecated and removed features page](deprecated-features.md)
 * Fixed an issue that led to an error when a user with read access rights on the nmsDeliveryMapping folder tried to run a campaign or workflow. (NEO-48230)
 * Fixed an issue which prevented the `JSPContext.sqlExecWithOneParam` function from working. (NEO-50066)
 * Fixed various redirection errors. (NEO-50030)
+
