@@ -18,7 +18,7 @@ type: Documentation
   + Previous releases {#previous-releases}
     + [2025](rn/using/release-2025.md)
     + [2024](rn/using/release-2024.md)    
-    + {hide-from-toc} [2023](rn/using/release-2023.md)    
+    + {hide-from-toc} [2023 - HIDDEN](rn/using/release-2023.md)    
     + {hide-from-toc} [2022 - HIDDEN](rn/using/release-2022.md)    
     + {hide-from-toc} [2021 - HIDDEN](rn/using/release-2021.md)
     + {hide-from-toc} [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
