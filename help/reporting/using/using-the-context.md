@@ -5,6 +5,13 @@ description: Learn how to use the context in your reports
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
+TQID: https://experienceleague.adobe.com/xFtDxJJKoG88QlTs6AFZtHuxOEGfGtEHqEfnEarJYwY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Use the context in your reports{#using-the-context}
 

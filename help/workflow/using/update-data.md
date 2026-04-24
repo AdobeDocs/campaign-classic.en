@@ -5,6 +5,13 @@ description: Learn more about the Update data workflow activity
 feature: Workflows, Targeting Activity, Data Management
 hide: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
+TQID: https://experienceleague.adobe.com/VrAHuf0Go-6f8-cL-kuZrttoGWUzxkBMUbhDaj-gJRc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Update data{#update-data}
 

@@ -4,6 +4,13 @@ title: Transactional messaging architecture
 description: This section describes the Adobe Campaign Classic transactional messaging architecture and the available channels to deliver transactional messages
 feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
+TQID: https://experienceleague.adobe.com/37Nw8x5SwRELOeJd8BXvE-tcN66Kb1vraEgkkzeaKI8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Transactional messaging architecture {#transactional-messaging-architecture}
 

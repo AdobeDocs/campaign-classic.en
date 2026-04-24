@@ -5,6 +5,10 @@ description: Learn more about the Delivery control workflow activity
 feature: Workflows
 hide: true
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
+TQID: https://experienceleague.adobe.com/WVXqtjcGQQOQJfVi58BqtLPqgG7AkgslAzQk4Vjbl9k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Delivery control{#delivery-control}
 

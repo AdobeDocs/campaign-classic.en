@@ -5,6 +5,19 @@ description: Learn how to synchronize web applications with ACS Connector
 feature: ACS Connector
 hide: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
+TQID: https://experienceleague.adobe.com/bPSfdUln5NEqvtnJxYQVbbUd6uOCdjDSDGRceee8i6o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
+    internal-label: ACS Connector
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
 ---
 # Synchronize web applications{#synchronizing-web-applications}
 

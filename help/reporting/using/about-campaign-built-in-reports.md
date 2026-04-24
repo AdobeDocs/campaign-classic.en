@@ -5,6 +5,13 @@ description: About Campaign built-in reports
 feature: Reporting, Monitoring
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
+TQID: https://experienceleague.adobe.com/zjrN-SzHA8r8hp9F0vfF8wvTooP6gIDjuLOzh3v6KGE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # About Campaign built-in reports{#about-campaign-built-in-reports}
 

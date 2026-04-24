@@ -5,6 +5,13 @@ description: "Use case: configure the field substitution"
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
+TQID: https://experienceleague.adobe.com/IJ-Kie5L-2m-7GDoYregJNglQRPeWsCnXaWjUcDT6TU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Use case: configure the field substitution{#use-case-configuring-the-field-substitution}
 

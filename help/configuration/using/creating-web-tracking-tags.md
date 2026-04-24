@@ -5,6 +5,13 @@ description: Learn how to create web tracking tags
 feature: Application Settings
 role: Developer
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
+TQID: https://experienceleague.adobe.com/PG8eMBoER5bR4uc9jaQfDX4mm3rhhMxfmF5Wv4brUtg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Create web tracking tags{#creating-web-tracking-tags}
 

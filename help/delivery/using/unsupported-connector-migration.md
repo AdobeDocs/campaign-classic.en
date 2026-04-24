@@ -4,6 +4,10 @@ title: Unsupported SMS connector migration
 description: Migrate unsupported SMS connector to the Extended Generic SMPP connector
 feature: SMS, Upgrade
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
+TQID: https://experienceleague.adobe.com/D8kf1pCamwi5BLeP4-7dirW0831g5q0LOVeZuNMBi2o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Migrate unsupported SMS connector to the Extended Generic SMPP connector{#unsupported-connector-migration}
 

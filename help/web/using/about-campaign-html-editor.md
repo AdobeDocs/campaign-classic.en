@@ -5,6 +5,15 @@ description: Get started with Campaign DCE
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
+TQID: https://experienceleague.adobe.com/X-hpH7G2DRGdimNZ-HRbRJpnhmP-QByWSIF5hSUQFG0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Get started with Campaign HTML editor{#about-campaign-html-editor}
 

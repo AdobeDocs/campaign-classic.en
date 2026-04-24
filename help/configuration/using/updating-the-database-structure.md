@@ -5,6 +5,13 @@ description: Updating the database structure
 feature: Configuration
 role: Developer
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
+TQID: https://experienceleague.adobe.com/y4P6bZcEyVIdfI4LHMivPIRVzb1Z4sV7ewISWqk29F0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Updating the database structure{#updating-the-database-structure}
 

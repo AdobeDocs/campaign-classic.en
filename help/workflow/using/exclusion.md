@@ -5,6 +5,10 @@ description: Learn more about the Exclusion workflow activity
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
+TQID: https://experienceleague.adobe.com/ievtR8K-XJLaluRuUfCMqOcCCgaT8-euRj949bPVS30
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Exclusion{#exclusion}
 

@@ -5,6 +5,16 @@ description: Learn more about the Inbound SMS workflow activity
 feature: Workflows, Channels Activity
 hide: true
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
+TQID: https://experienceleague.adobe.com/D1sDFGhO5g6QdwAPz2DHToXtI2SPAk8PQrrTY8-3gYg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Inbound SMS {#inbound-sms}
 

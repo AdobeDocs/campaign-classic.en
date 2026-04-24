@@ -4,6 +4,10 @@ title: Get Started with Federated Data Access
 description: Learn how to access and process data in an external database
 feature: Installation, Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
+TQID: https://experienceleague.adobe.com/X-VyiKlGatskoXtPoLYhb8HrAgCRLLHxTbwXDFmg8jI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Get Started with Federated Data Access {#about-federated-data-access}
 

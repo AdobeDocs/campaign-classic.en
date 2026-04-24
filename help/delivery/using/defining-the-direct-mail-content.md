@@ -7,6 +7,16 @@ feature: Direct Mail
 role: User
 hide: true
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
+TQID: https://experienceleague.adobe.com/LybEpDwVDNAGQg5CA2nZ3IkNoyHFiYvNuKm-VXYW4s4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Define the direct mail content{#defining-the-direct-mail-content}
 

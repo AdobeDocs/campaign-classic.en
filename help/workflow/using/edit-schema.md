@@ -5,6 +5,10 @@ description: Learn more about the Edit schema workflow activity
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
+TQID: https://experienceleague.adobe.com/cxBDJJXifg7C4vtB5MPBYSluRpgnbsBkDiuSsnIHDYo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Edit schema{#edit-schema}
 

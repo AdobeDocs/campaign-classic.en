@@ -6,6 +6,16 @@ role: User
 feature: Campaigns, Monitoring
 hide: true
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
+TQID: https://experienceleague.adobe.com/pWtvLbBTzAs8yhya3hnXaW8o-bpMebF24L5tRL4iMD0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Monitor marketing campaigns {#monitoring-marketing-campaigns}
 

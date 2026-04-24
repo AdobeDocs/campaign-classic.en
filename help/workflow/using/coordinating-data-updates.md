@@ -5,6 +5,13 @@ description: Coordinate data updates
 feature: Workflows, Data Management
 hide: true
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
+TQID: https://experienceleague.adobe.com/G82StaXeELHRHF4C1qMnRK0IekJoF0n-r6xQi63KPlk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Coordinate data updates{#coordinating-data-updates}
 

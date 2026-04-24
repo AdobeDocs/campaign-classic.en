@@ -8,6 +8,16 @@ content-type: reference
 hide: true
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
+TQID: https://experienceleague.adobe.com/sFzCe7kCFHbHV53zFQIfRh7-ASJp1isMV3PYU7IUqDc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Manage marketing resources{#managing-marketing-resources}
 

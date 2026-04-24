@@ -8,7 +8,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 hide: true
-
+TQID: https://experienceleague.adobe.com/5CsoA8T4nnHgRIZRVPD2JQguwFHizJqswDWTKfpp1yY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Use Adobe Campaign explorer
 

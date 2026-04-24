@@ -5,6 +5,13 @@ description: Collecting all visits
 feature: Configuration, Instance Settings
 role: Developer
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
+TQID: https://experienceleague.adobe.com/EdEX0IPygnmmYAqewEpX2jRqrCZ723itOEW6DhnMSl8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Collecting all visits{#collecting-all-visits}
 

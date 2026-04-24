@@ -5,6 +5,15 @@ description: Learn how to use workflow data
 feature: Workflows, Data Management
 hide: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
+TQID: https://experienceleague.adobe.com/xasYSu6WyHC0T6CpKn51bZ5K7WlspJAbB0R45AeXb8M
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # How to use workflow data{#how-to-use-workflow-data}
 

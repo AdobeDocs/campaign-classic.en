@@ -4,6 +4,13 @@ title: Inbound SMS workflow activity for Mid-sourcing infrastructure
 description: Inbound SMS workflow activity for Mid-sourcing infrastructure
 feature: Technote, SMS
 exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
+TQID: https://experienceleague.adobe.com/wIOQi9sSeY4YPy5GmPFucVQsOEzg4FY1DGXpII0MrCk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Inbound SMS workflow activity for Mid-sourcing infrastructure {#inbound-sms-wf}
 

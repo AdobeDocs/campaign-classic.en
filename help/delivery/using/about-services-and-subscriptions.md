@@ -6,6 +6,13 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Subscriptions
 role: User
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
+TQID: https://experienceleague.adobe.com/N0ypoaOGuQVHrb7LweKcjlWJhAQMC-hOF29XABFfVVE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # About services and subscriptions{#about-services-and-subscriptions}
 

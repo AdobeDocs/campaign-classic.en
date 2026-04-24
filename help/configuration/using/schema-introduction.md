@@ -5,6 +5,13 @@ description: Schema reference list
 feature: Custom Resources
 role: Developer
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
+TQID: https://experienceleague.adobe.com/M8NNQbT-Kt4wYQhIVeq0sceBctFGvHjrfT7qe-X-u0U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Schema reference {#schema-reference}
 

@@ -5,6 +5,15 @@ description: Distributed Marketing samples
 feature: Distributed Marketing
 hide: true
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
+TQID: https://experienceleague.adobe.com/76BtaM1C72-GcMxXoFHtIFV4-dIQTzcNoamtyQ9-gcg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 ---
 # Distributed Marketing samples{#distributed-marketing-samples}
 

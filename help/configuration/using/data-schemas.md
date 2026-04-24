@@ -5,6 +5,24 @@ description: Get started with Campaign data schemas
 feature: Schema Extension
 role: Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
+TQID: https://experienceleague.adobe.com/4iwfPoaz5-vnbH-mPd819bB6rxGGdqGjJPwQ-kqCl-c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Data schemas{#data-schemas}
 

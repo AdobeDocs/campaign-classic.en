@@ -5,6 +5,13 @@ description: Campaign - IMS updates
 feature: Technote, Upgrade
 hide: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
+TQID: https://experienceleague.adobe.com/JEGK7xRIWwipkqKnRGEByK7pCBCkgXzOrbMPHoXCDUU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}
 

@@ -8,6 +8,10 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
+TQID: https://experienceleague.adobe.com/ZXUhBpNXWOjaLlJ0U1ToxAi9HlC0AKenRKIIu0z-63c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Restoration{#restoration}
 

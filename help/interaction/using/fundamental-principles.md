@@ -7,6 +7,13 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
+TQID: https://experienceleague.adobe.com/85eFjFxcGeeWAYkV8sHKgsrJc0rqATQlSEglE05LjAg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Fundamental principles{#fundamental-principles}
 

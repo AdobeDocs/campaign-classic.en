@@ -8,8 +8,11 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
+TQID: https://experienceleague.adobe.com/bKs1NqCHtMzrqdNZFCYQuj659V6GOHfD-LKClp3aacE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
-
 # Unzip or decrypt a file {#unzipping-or-decrypting-a-file-before-processing}
 
 Adobe Campaign lets you import zipped or encrypted files. Before they can be read in a [Data loading (file)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}) activity, you can define a pre-processing to unzip or to decrypt the file.

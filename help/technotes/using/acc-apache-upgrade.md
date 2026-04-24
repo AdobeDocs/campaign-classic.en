@@ -5,6 +5,16 @@ description: Adobe Campaign - Apache version security update
 feature: Technote, Upgrade
 hide: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
+TQID: https://experienceleague.adobe.com/iTszfeybA8gTvgRCpTAXNEKQIbTeGHUDx-1plG77NUo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Adobe Campaign - Apache version security update {#apache-update}
 

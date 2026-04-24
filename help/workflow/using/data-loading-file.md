@@ -5,6 +5,16 @@ description: Learn more about the Data loading (file) workflow activity
 feature: Workflows, Data Management Activity
 hide: true
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
+TQID: https://experienceleague.adobe.com/PJrUzETTVGOlfnNcnYgUxOSEhZatGBfcDST49uwUVwM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Data loading (file){#data-loading-file}
 

@@ -8,7 +8,10 @@ content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
 hide: true
-
+TQID: https://experienceleague.adobe.com/Ora2xniPzzRPwpJYbIqgyPLKHi77-pk6tm-80gFfHmA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Import and export profiles{#exporting-and-importing-profiles}
 

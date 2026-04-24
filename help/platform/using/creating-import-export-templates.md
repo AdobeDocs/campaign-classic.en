@@ -8,6 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
+TQID: https://experienceleague.adobe.com/KV2jYphvbknvGlfCH0k7QPdfPCAWgwg-X67ICvPmADo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Create import and export templates {#creating-import-export-templates}
 

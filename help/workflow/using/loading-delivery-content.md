@@ -5,6 +5,15 @@ description: Loading delivery content
 feature: Workflows
 hide: true
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
+TQID: https://experienceleague.adobe.com/xRyiD1VNPPhdRtnyRn6JX76vao1-b348bZPoQ3eraLQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Load delivery content{#loading-delivery-content}
 

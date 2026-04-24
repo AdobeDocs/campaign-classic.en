@@ -6,6 +6,13 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: A/B Testing
 role: User
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
+TQID: https://experienceleague.adobe.com/WeKPxg-eyHRxKWXK4LM0djXr-HlKkpH0FnW-utZoG10
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # AB testing: Analyze the result {#step-8--analyzing-the-result}
 

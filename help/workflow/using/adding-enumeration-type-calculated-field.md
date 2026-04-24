@@ -8,6 +8,13 @@ topic-tags: use-cases
 feature: Workflows, Data Management
 hide: true
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
+TQID: https://experienceleague.adobe.com/5bTNT0ISIGOSlFtkHAQ7RsAeNleZhUZUtZ34Cgood0Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Add an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}
 

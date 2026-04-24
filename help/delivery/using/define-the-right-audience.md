@@ -7,6 +7,13 @@ feature: Audiences
 role: User
 hide: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
+TQID: https://experienceleague.adobe.com/bA0bwsoCEGaC0-R64f08j8vLzGFDI7hhN3rFYnKdRWA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Define the right audience {#define-the-right-audience}
 

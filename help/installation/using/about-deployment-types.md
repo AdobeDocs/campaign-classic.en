@@ -7,6 +7,13 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
+TQID: https://experienceleague.adobe.com/Xf-z3lKtUNbgrNAh0-3vRasteUegsRDW2cYQ7L9-rok
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # About deployment types{#about-deployment-types}
 

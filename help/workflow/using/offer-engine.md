@@ -5,6 +5,10 @@ description: Offer engine
 feature: Workflows, Interaction
 hide: true
 exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
+TQID: https://experienceleague.adobe.com/oAzSAhtWhfJTWcWowjaewtlVucahY839933SaCQZO10
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Offer engine{#offer-engine}
 

@@ -5,8 +5,20 @@ description: About direct mail channel
 feature: Direct Mail
 role: User
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
+TQID: https://experienceleague.adobe.com/qY-CnJcPTGV-KBGIgb9xkaYWMUeWkZQDaE54tjjvvGs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
-
 # About direct mail channel{#about-direct-mail-channel}
 
 With Adobe Campaign, create direct mail deliveries to send personalized physical messages to your audience.

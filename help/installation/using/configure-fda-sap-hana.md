@@ -7,6 +7,13 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
+TQID: https://experienceleague.adobe.com/m2ibPllvRz-0vRS80bsktgY2qKdxL-fH9UEmHDgokT8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure access to SAP HANA {#configure-access-to-sap-hana}
 

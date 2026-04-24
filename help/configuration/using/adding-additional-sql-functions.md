@@ -5,6 +5,18 @@ description: Learn how to define additional SQL function
 feature: Configuration, Instance Settings
 role: Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
+TQID: https://experienceleague.adobe.com/HRym19p3YGAa3PEPgFBfU3ka39l5348CkdQaWcHZOJk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Define additional SQL functions{#adding-additional-sql-functions}
 

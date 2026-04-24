@@ -5,6 +5,16 @@ description: Learn how to create LINE messages
 feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
+TQID: https://experienceleague.adobe.com/txn8xb-BeOx76Rt0Qco-vxb8X868DHTkJw-5H4kkooU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Create LINE deliveries{#line-channel}
 

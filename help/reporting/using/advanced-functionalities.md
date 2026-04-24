@@ -5,6 +5,15 @@ description: Learn more about advanced capabilities when working with reports
 feature: Reporting, Monitoring
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
+TQID: https://experienceleague.adobe.com/-zMimjSqi-wczwpF8dTQkZgOrAmXBXWARggSPc1a-u8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Advanced capabilities{#advanced-functionalities}
 

@@ -8,6 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
+TQID: https://experienceleague.adobe.com/hs8ha4nJ0Mj33-Ae5sT29rM8rSZ-aJU3wWpSFwzYmWw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Installing the server{#installing-the-server}
 

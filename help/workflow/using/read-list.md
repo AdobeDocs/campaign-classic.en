@@ -5,6 +5,10 @@ description: Learn more about the Read list workflow activity
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
+TQID: https://experienceleague.adobe.com/BpoGip5vK0telNbSNDqQeEobF-5cXml0fD-Wnr2kUy8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Read list{#read-list}
 

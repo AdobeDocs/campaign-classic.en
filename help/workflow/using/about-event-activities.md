@@ -5,6 +5,13 @@ description: About event activities
 feature: Workflows, Data Management
 hide: true
 exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
+TQID: https://experienceleague.adobe.com/q-Kv3YHhNFlw-nPb0mpKXg-Abyg-b1zqRPivHBFryVk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Event activities in workflows{#about-event-activities}
 

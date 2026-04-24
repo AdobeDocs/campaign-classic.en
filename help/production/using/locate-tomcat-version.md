@@ -8,6 +8,13 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
+TQID: https://experienceleague.adobe.com/cu5oSibc5iznD6CUZSoLxXf1D21g-eoJG3udHBVel7w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Locate Tomcat version{#locate-tomcat-version}
 

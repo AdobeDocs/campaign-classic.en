@@ -5,6 +5,13 @@ description: Collect data to analyze
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
+TQID: https://experienceleague.adobe.com/fk2YgX6UDVDTKH7v2Lcq01QAK7tElhnPkSvrpn25nzk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Collect data to analyze{#collecting-data-to-analyze}
 

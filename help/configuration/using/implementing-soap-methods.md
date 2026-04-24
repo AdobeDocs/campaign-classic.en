@@ -5,6 +5,24 @@ description: Implementing SOAP methods
 feature: Configuration
 role: Developer
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
+TQID: https://experienceleague.adobe.com/EN-Xu7KjcQ5GXDqnEIySe23eQbhb2JGORf-vmpplNFs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Implement SOAP methods{#implementing-soap-methods}
 

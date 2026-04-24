@@ -6,6 +6,16 @@ feature: Push, Troubleshooting
 role: User
 hide: true
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
+TQID: https://experienceleague.adobe.com/3T6eC52Edyai-8Bn-ioDxvB5C04iDqBNmlZzuxVturE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Troubleshooting{#troubleshooting}
 

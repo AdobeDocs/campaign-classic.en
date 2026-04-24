@@ -4,6 +4,10 @@ title: Technote - Apple Push Notification service server certificate update
 description: Apple Push Notification service server certificate update
 feature: Technote, Push
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
+TQID: https://experienceleague.adobe.com/3tQ4npyE0-ZfCgVPYy3kiRv1q0HPcq-DI4rpAXTCXb0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Apple Push Notification service server certificate update {#apns-certificate-update}
 

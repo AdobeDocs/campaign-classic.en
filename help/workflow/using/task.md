@@ -5,6 +5,10 @@ description: Learn more about the Task workflow activity
 feature: Workflows
 hide: true
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
+TQID: https://experienceleague.adobe.com/1MCN46-ZO9rMal9125rQYOFK-Bx4QKyeTtm402haDvA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Task{#task}
 

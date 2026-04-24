@@ -5,6 +5,10 @@ description: Learn more about the Wait workflow activity
 feature: Workflows
 hide: true
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
+TQID: https://experienceleague.adobe.com/sQ3GwMFQnhy6eOmFSfMUwT8Z3UE0p4cHLAjr8CjS2FM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Wait{#wait}
 

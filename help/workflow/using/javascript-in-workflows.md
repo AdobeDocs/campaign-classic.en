@@ -5,6 +5,18 @@ description: These examples show how you can use JavaScript code in a workflow
 feature: Workflows
 hide: true
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
+TQID: https://experienceleague.adobe.com/M-kPHHBE-Vc1AHYLxDPaCOI6PIul2L-2b0ZLISzs0qI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 ---
 # Examples of JavaScript code in workflows{#javascript-in-workflows}
 

@@ -4,6 +4,15 @@ title: Interaction and offer management
 description: Learn how to send the best offers to your contacts based on eligibility rules
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
+TQID: https://experienceleague.adobe.com/yUoaaurDek0SyjlZXodUQw5iruwl4WN5zNYaMaAVTeA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Interaction and offer management{#interaction-and-offer-management}
 

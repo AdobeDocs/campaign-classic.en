@@ -5,6 +5,10 @@ description: Alert
 feature: Workflows
 hide: true
 exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
+TQID: https://experienceleague.adobe.com/xYCc-adlUMfkDNIPGbbYShSmFuwqURtqtnE79MYC-Ys
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Alert{#alert}
 

@@ -5,6 +5,27 @@ description: Campaign reporting best practices
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
+TQID: https://experienceleague.adobe.com/0NZ2bS4K-X1okyD-snv-pBDekzNqmFV5soF-qUOOVKo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+    internal-label: Data retention
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Reporting best practices{#best-practices-reporting}
 

@@ -7,6 +7,19 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
+TQID: https://experienceleague.adobe.com/xf9xuNHybHeAqXZnZbhV9v3oIhgH03uXiUpHsuMaLeg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Experience Manager integration
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Work with Campaign and Experience Manager{#about-adobe-experience-manager}
 

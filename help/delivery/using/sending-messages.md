@@ -7,6 +7,13 @@ feature: Email
 role: User
 hide: true
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
+TQID: https://experienceleague.adobe.com/71T12angLVVjy-LdD2jfqnMRn3O64XEVf4aslHvuIHg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Key steps to send an email {#key-steps-to-send-an-email}
 

@@ -5,6 +5,13 @@ description: Element layout
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
+TQID: https://experienceleague.adobe.com/do7CqEaE2v7cdpI-mXZ2AQ6L4nsyDnEzEXdC-zHEcs4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Element layout{#element-layout}
 

@@ -1,10 +1,19 @@
 ---
 product: campaign
-title: Analysis reporting use cases 
-description: Analysis reporting use cases 
+title: Analysis reporting use cases
+description: Analysis reporting use cases
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
+TQID: https://experienceleague.adobe.com/oSrEh9-C6tDQ59-reQaLJf0BiCLgJX-G0P4ga5M5ElI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Analysis reporting use cases {#use-cases}
 

@@ -7,6 +7,13 @@ feature: Email, Email Design
 role: User
 hide: true
 exl-id: 44634227-2340-49c4-b330-740c739ea551
+TQID: https://experienceleague.adobe.com/-IaAfjCvy9znHFt89tg-gGkcbAHpJExugPFr9T6RwWA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Send emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
 
