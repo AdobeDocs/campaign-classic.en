@@ -77,3 +77,16 @@ Restart the server if any changes are made to the above settings in the Campaign
 * The user is unable to access the Adobe ID login page:
 
   Refer to the previous steps to check the scope configuration.
+
+**WebView2 cache issues**
+
+If you're experiencing issues when signing in to the **[!UICONTROL Client Console]** with your Adobe ID, try clearing the local WebView2 cache. In most cases, this solves the problem. Follow the steps below:
+
+1. Close the **[!UICONTROL Client Console]** and stop any running `nlclient` process.
+
+1. Delete all `webview2` and `webview2Cache` folders from the following locations:
+
+   * `C:\ProgramData\Neolane\NL_5\nlclient\`
+   * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
+
+1. Restart the **[!UICONTROL Client Console]** and sign in with your Adobe ID. The cache folders will be automatically recreated at the next launch.
