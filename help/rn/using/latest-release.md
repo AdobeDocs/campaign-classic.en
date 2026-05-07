@@ -19,17 +19,17 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 >
 > Client Console upgrade is mandatory.
 
->[!NOTE]
->
-> Fixes listed below have been progressively rolled out across successive 7.4.3 builds. Navigate to the **[!UICONTROL Help > About...]** [menu](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)to check that you have the latest 9394.28aaec9 build. Contact your Adobe representative for more information.
-
-_March 16, 2026_
+_Mar 31, 2026_
 
 ### Security improvements {#security-7-4-3}
 
 * To maintain optimal security, stability, and compliance, Debian has been upgraded to version 13 and PostgreSQL to version 17. Refer to the [compatibility matrix](compatibility-matrix.md).
 
 ### Fixes {#fixes-7-4-3}
+
+>[!NOTE]
+>
+> Fixes listed below have been progressively rolled out across successive 7.4.3 builds. Navigate to the **[!UICONTROL Help > About...]** [menu](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) to check that you have the latest 9394@28aaec9 build. Contact your Adobe representative for more information.
 
 * Fixed an issue where the barcode component allowed an unbounded height parameter, which could lead to a security vulnerability. (NEO-89984)
 * Fixed an issue where enumeration fields in lists created via workflows were missing temporary name attributes, causing incorrect or blank enum labels to be displayed in the interface. (NEO-91158)
