@@ -19,11 +19,9 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 >
 > Client Console upgrade is mandatory.
 
-_7.0.9394.28aaec9_
-
-* Fixed an issue where delivery statistics were not fully recomputed for some deliveries, particularly affecting the success indicators. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
-* Fixed an issue where the Client Console could crash when opening certain workflows referencing a missing upstream targeting schema. (NEO-28727)
-* Fixed an issue where the Client Console version could not be identified after a failed startup, because the version file was missing from the install package. (NEO-94798)
+>[!NOTE]
+>
+> Fixes listed below have been progressively rolled out across successive 7.4.3 builds. Navigate to the **[!UICONTROL Help > About...]** [menu](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)to check that you have the latest 9394.28aaec9 build. Contact your Adobe representative for more information.
 
 _March 16, 2026_
 
@@ -40,6 +38,12 @@ _March 16, 2026_
 * Fixed an issue where tracking logs for collaborative campaigns in Distributed Marketing were not being written to the database due to a mismatch between parent and child delivery IDs. (NEO-86836)
 * Fixed an issue where delivery logs showed messages as canceled even though they were successfully sent, particularly affecting deliveries with wave scheduling. (NEO-78933)
 * Fixed an issue where the database cleanup workflow was not efficiently purging data, which could impact performance. (NEO-76439)
+
+<!-- BUILD 7.0.9394.28aaec9 -->
+
+* Fixed an issue where delivery statistics were not fully recomputed for some deliveries, particularly affecting the success indicators. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
+* Fixed an issue where the Client Console could crash when opening certain workflows referencing a missing upstream targeting schema. (NEO-28727)
+* Fixed an issue where the Client Console version could not be identified after a failed startup, because the version file was missing from the install package. (NEO-94798)
 
 <!--
 other fixes - ommitted from release notes
