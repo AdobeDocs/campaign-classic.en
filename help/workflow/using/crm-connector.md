@@ -4,6 +4,13 @@ description: Learn more about the CRM Connector and configure data synchronizati
 feature: Workflows, Data Management
 hide: true
 exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
+TQID: https://experienceleague.adobe.com/z5ARPIDVgVIqW--lwx0UEoVYJlITGb8Mke9sLDaTJI8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # CRM Connector{#crm-connector}
 

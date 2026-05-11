@@ -5,6 +5,16 @@ description: Learn how to create a filter when performing queries
 feature: Query Editor, Workflows
 hide: true
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
+TQID: https://experienceleague.adobe.com/zbo80k37hd1N8jpdy-kQqLAl06B6sbsjKfQ-iyC8-1A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a filter {#creating-a-filter}
 

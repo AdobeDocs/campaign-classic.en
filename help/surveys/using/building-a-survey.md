@@ -5,6 +5,10 @@ description: Learn key steps to design a survey
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
+TQID: https://experienceleague.adobe.com/aeRP0GoE5lu3eUsJ4kg8DoUnqFeipazoax--zX8Lv60
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Design a survey{#building-a-survey}
 

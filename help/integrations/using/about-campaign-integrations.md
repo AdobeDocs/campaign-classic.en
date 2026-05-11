@@ -9,6 +9,28 @@ content-type: reference
 level: Intermediate, Experienced
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
+TQID: https://experienceleague.adobe.com/PUFoWjnwax8oHM3dH-FJDH7b26p4qNBMaJfm2qWGNz0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
+  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Experience Manager integration
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Get started with Adobe Campaign integrations {#about-campaign-integrations}
 

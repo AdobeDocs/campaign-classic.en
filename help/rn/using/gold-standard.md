@@ -7,6 +7,33 @@ role: User
 level: Beginner
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
+TQID: https://experienceleague.adobe.com/AItPQMVIh2I-clE0UymqzG13gYHFKd0z2LW-gk9rJik
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
+  - id: fb2a841f-c522-491f-9901-a1b939d252df
+    internal-label: Security
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # [!DNL Gold Standard] releases{#gold-standard}
 

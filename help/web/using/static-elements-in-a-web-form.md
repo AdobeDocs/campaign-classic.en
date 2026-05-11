@@ -5,6 +5,15 @@ description: Static elements in a web form
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
+TQID: https://experienceleague.adobe.com/X32IQAVVq68tRjHIXaHN99S-EbL3vqP0j7gTL0fvmNA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Static elements in a web form{#static-elements-in-a-web-form}
 

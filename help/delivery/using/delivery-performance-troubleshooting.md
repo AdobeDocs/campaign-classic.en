@@ -5,6 +5,22 @@ description: Learn how to optimize delivery performance and troubleshoot issues 
 feature: Monitoring, Deliverability, Troubleshooting
 role: User, Developer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
+TQID: https://experienceleague.adobe.com/B6Fu-5VqsHGkXOX88d4MdTSkczdPGDfd79cFUhfe9tI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Delivery performance and troubleshooting {#delivery-performance-troubleshooting}
 

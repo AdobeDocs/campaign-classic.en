@@ -7,6 +7,13 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
+TQID: https://experienceleague.adobe.com/UYcZcSX8pLO0mCB8OW6WWx9qQ4vg13FAel6R7moeMA8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Distributed architectures{#distributed-architectures}
 

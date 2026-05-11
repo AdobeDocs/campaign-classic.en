@@ -8,6 +8,22 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
+TQID: https://experienceleague.adobe.com/e9fIzwdGvuV9a-LRdXFLcghMGf79KQcoMT37K37ZOOE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configuring shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 

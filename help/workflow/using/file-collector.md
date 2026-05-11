@@ -5,6 +5,13 @@ description: Learn more about the File collector workflow activity
 feature: Workflows, Data Management
 hide: true
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
+TQID: https://experienceleague.adobe.com/P10IkPnf-FyMoIdOZ-t5zUCGN7PL-KPrfn9PgVmHlNk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # File collector{#file-collector}
 

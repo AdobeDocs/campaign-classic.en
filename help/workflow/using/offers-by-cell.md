@@ -5,6 +5,10 @@ description: Offers by cell
 feature: Workflows, Targeting Activity, Interaction
 hide: true
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
+TQID: https://experienceleague.adobe.com/ddCHWdqnyWjUtP3lcc3yIaUHffGkNCbnVKWiJVfhdjg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Offers by cell{#offers-by-cell}
 

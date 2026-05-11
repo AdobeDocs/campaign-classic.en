@@ -5,6 +5,10 @@ description: Learn how to perform queries using grouping management
 feature: Query Editor, Workflows
 hide: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
+TQID: https://experienceleague.adobe.com/jQoIc-ceJgiBqFrlPgDR1nm7PpcqLJedI36hnBQHrl0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Query using grouping management {#querying-using-grouping-management}
 

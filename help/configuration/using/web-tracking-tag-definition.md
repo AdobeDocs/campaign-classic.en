@@ -5,6 +5,13 @@ description: Define web tracking tag
 feature: Application Settings
 role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
+TQID: https://experienceleague.adobe.com/UkA0XyCzaDt2qlxpODQ-zoyC0YdKs3K5qg4UacvT8ck
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Web tracking tag: definition{#web-tracking-tag-definition}
 

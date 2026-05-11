@@ -5,6 +5,10 @@ description: Manage time zones
 feature: Workflows
 hide: true
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
+TQID: https://experienceleague.adobe.com/POlYZz1HCRqIp3TdBvIEsOu1grFmxVgqN1xQ1KnuQlQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Managing time zones{#managing-time-zones}
 

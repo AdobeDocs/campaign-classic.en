@@ -1,12 +1,24 @@
 ---
 product: campaign
 title: Customize the emoticon list
-description: Learn how to customize the emoticon list when using Adobe Campaign 
+description: Learn how to customize the emoticon list when using Adobe Campaign
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Push
 role: User, Developer
 hide: true
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
+TQID: https://experienceleague.adobe.com/QtOpkl4Sa6PJe5IGz4ffvpQdl2QfKA5J47WBKtIg2j8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Customize the emoticon list {#customize-emoticons}
 

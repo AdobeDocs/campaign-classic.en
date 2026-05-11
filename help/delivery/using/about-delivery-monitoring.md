@@ -5,6 +5,22 @@ description: Learn more about Campaign Classic delivery monitoring capabilities
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
+TQID: https://experienceleague.adobe.com/IRAgAQvquHFcfGDRU9Sof8NpSn3khyRRPOdpIRKUOzg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Get started with delivery monitoring {#about-delivery-monitoring}
 

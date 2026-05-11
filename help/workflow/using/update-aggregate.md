@@ -5,6 +5,13 @@ description: Learn more about the Update aggregate workflow activity
 feature: Workflows
 hide: true
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
+TQID: https://experienceleague.adobe.com/YnOd1mT0WQqXHVeFUXFoumzDHxSSlKE2tgGSQFrjBzQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Update aggregate{#update-aggregate}
 

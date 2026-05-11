@@ -7,6 +7,29 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
+TQID: https://experienceleague.adobe.com/d7BixCjNjofJbMlbLbTFVN9BiPArA4uCms0QdV5uW-0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Adobe Analytics Connector provisioning {#adobe-analytics-connector-provisioning}
 

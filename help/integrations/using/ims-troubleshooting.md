@@ -8,6 +8,16 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
+TQID: https://experienceleague.adobe.com/cUoMAlp8ExhammApiilFqRyrOkyyqxk1om0AifZVxb0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # IMS troubleshooting{#ims-troubleshooting}
 

@@ -7,6 +7,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
+TQID: https://experienceleague.adobe.com/kd15Dm8jY6xE0RpGTImgoL27wDbYmvuuLs-jK4-BwVo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 ---
 # attribute element {#attribute--element}
 

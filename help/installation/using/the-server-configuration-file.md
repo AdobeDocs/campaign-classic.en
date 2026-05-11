@@ -7,6 +7,20 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
+TQID: https://experienceleague.adobe.com/BZ4rjzbXYikNoGAVHq4Gy7tY8OugKDgsmVLkKuIB9tw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # The server configuration file{#the-server-configuration-file}
 

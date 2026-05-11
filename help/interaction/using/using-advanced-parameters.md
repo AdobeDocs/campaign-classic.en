@@ -7,6 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 232e2bfc-f497-40ad-811e-118dbfcabbcf
+TQID: https://experienceleague.adobe.com/lOa7VK2aHLcyt5-QibMBvJ3VbCwBDqHIPGb-ztU11Y0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Using advanced parameters{#using-advanced-parameters}
 

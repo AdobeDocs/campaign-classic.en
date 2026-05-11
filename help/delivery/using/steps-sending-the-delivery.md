@@ -6,6 +6,16 @@ feature: Channel Configuration
 role: User
 hide: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
+TQID: https://experienceleague.adobe.com/-Wh-pHFGE1kTId3t6g7wVJFfSvh2W5ERHi2K5-0Ohdw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Configure and send the delivery {#configuring-and-sending-the-delivery}
 

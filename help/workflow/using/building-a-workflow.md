@@ -5,6 +5,31 @@ description: Learn how to build a workflow
 feature: Workflows
 hide: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
+TQID: https://experienceleague.adobe.com/0-dipIpnwzpjanXaeOWQiF5l4Ofx6M0YZdif82b8arc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Build a workflow {#building-a-workflow}
 

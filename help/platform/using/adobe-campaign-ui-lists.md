@@ -5,7 +5,13 @@ description: Learn how to browse and configure lists
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 hide: true
-
+TQID: https://experienceleague.adobe.com/Zs3teanwlpwFblKXgoZ4fA85aPbc8Nzi1djtF04HvuA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Manage and customize lists{#manage-and-customize-lists}
 

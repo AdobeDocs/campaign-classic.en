@@ -8,7 +8,16 @@ content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 hide: true
-
+TQID: https://experienceleague.adobe.com/dzb9z38Ll-hIgxopLxXRfunLkhOFtS7TcbovRjoEk-4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit a profile{#editing-a-profile}
 

@@ -6,6 +6,25 @@ role: User, Developer
 feature: Campaigns
 hide: true
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
+TQID: https://experienceleague.adobe.com/RRjCa2LDMEuCoh-u4xGb4lZZpNOxPk4IjTMa-iSPUlg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Campaign simulations{#campaign-simulations}
 

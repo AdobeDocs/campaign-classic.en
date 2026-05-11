@@ -5,6 +5,10 @@ description: Define web forms layout
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
+TQID: https://experienceleague.adobe.com/-0PZWl-79Q-MXZ-jHjp-VF12IUPeMcq27aGSgWl5Ans
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Define web forms layout{#defining-web-forms-layout}
 

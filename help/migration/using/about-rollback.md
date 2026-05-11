@@ -8,6 +8,10 @@ content-type: reference
 topic-tags: rollback
 hide: true
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
+TQID: https://experienceleague.adobe.com/THilp-bTvgoG7Sot0dc-2f07Ff-kpkNUFYAdUMAQbv4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Rollback to the previous version{#about-rollback}
 

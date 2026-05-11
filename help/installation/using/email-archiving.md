@@ -7,6 +7,15 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
+TQID: https://experienceleague.adobe.com/DkmZBc4Awifbwqo7zqniEu6RlHDc91788XKN2nNg-Pg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Configure email BCC {#email-archiving}
 

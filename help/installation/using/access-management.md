@@ -4,6 +4,19 @@ title: Access management
 description: Learn more about access management best practices
 feature: Installation, Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
+TQID: https://experienceleague.adobe.com/dbC74X04V5SFr7fWOl1b0-Br-x-jjHFNvMSX9Y6M-JQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Access management {#access-management}
 

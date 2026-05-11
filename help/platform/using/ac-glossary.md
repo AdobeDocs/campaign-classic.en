@@ -7,6 +7,37 @@ role: User, Developer
 level: Beginner
 hide: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
+TQID: https://experienceleague.adobe.com/e9S6zCJjh4LKzlKKy-tqz8KOR1hScKbMuzuppbVUuGI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+subfeature_v2:
+  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Adobe Campaign Glossary{#ac-glossary}
 

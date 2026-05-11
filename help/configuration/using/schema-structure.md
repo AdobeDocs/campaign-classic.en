@@ -9,6 +9,29 @@ content-type: reference
 level: Intermediate, Experienced
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
+TQID: https://experienceleague.adobe.com/dFZ38qRKX-4vTEYS9GosS5TdW-XhnoIq8ckbjnNEJmo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Understand schema structure {#schema-structure}
 

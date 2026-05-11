@@ -5,6 +5,18 @@ description: Learn more about the Delivery-type workflow activity
 feature: Workflows, Channels Activity
 hide: true
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
+TQID: https://experienceleague.adobe.com/WKtg0nyzpu1XCBJzXnDEKXY8KgcLhsSrQVDvHJAiPKw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Delivery{#delivery}
 

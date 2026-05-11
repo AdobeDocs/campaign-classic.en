@@ -4,6 +4,18 @@ title: Create a new report
 description: Learn key steps to create a new report
 feature: Reporting, Monitoring
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
+TQID: https://experienceleague.adobe.com/ikcjJaLsw4qYhd4wCaSTlg4FP-QYL33R--V3lnUAaV0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create a new report{#creating-a-new-report}
 

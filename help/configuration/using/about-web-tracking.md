@@ -5,6 +5,18 @@ feature: Configuration, Instance Settings
 description: About web tracking
 role: User, Developer
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
+TQID: https://experienceleague.adobe.com/FfA6FEH5WP2JJGVR4BhpjO19Yj4mt8irvyJLwuzCThs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # About web tracking{#about-web-tracking}
 

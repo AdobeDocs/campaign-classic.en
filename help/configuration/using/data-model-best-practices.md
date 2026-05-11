@@ -4,6 +4,45 @@ title: Data model best practices
 description: Learn how to work with Campaign Classic data model
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
+TQID: https://experienceleague.adobe.com/O5LgBFV-0Mw3nzVyD2mxCCPxjZ07Ss9sS4K5MrdYdns
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+subfeature_v2:
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
+  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+    internal-label: Data retention
+  - id: bec93d13-829e-414d-9c2b-71b3974944a0
+    internal-label: Campaign data model
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Data model best practices{#data-model-best-practices}
 

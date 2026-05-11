@@ -8,6 +8,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
+TQID: https://experienceleague.adobe.com/IIiDeR9teIgEBsbUb70DP-PA56Ux2MmpmBZuVIVF0M0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Submitting request to Adobe{#submitting-request-to-adobe}
 

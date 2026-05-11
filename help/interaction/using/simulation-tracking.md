@@ -8,6 +8,13 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
+TQID: https://experienceleague.adobe.com/QtLHh94vHm1bhcz6XsCLrVNates86kVNFTd3zYi8-yA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Simulation tracking{#simulation-tracking}
 

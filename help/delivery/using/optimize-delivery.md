@@ -7,6 +7,20 @@ feature: Deliverability
 role: User
 hide: true
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
+TQID: https://experienceleague.adobe.com/XiK0I9mZTlGWACRL-TTdDO5pByzBg-6oFdfcTNfhX44
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Optimize delivery {#optimize-delivery}
 

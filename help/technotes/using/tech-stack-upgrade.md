@@ -5,6 +5,13 @@ description: Adobe Campaign system upgrade
 feature: Technote, Upgrade
 hide: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
+TQID: https://experienceleague.adobe.com/lfaxfILJCapcyjrRDvppv-FuXrkKciYlfWfKBtayoIY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Adobe Campaign 2023 environment upgrades {#ac-system-upgrade}
 

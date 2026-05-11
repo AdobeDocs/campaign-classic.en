@@ -7,6 +7,10 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
+TQID: https://experienceleague.adobe.com/n-ppeL-j1SdCPTXFo8Mw4GEWcSD4L7LnDxg9K9klU3U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # General architecture{#general-architecture}
 

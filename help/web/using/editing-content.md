@@ -5,6 +5,13 @@ description: Edit content
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
+TQID: https://experienceleague.adobe.com/vk9ll3YorktZfTylENZ1dgtDU3lfJeT2WHx991jY4dw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Edit content{#editing-content}
 

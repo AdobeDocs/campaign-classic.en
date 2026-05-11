@@ -5,6 +5,10 @@ description: Loading (SOAP)
 feature: Workflows
 hide: true
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
+TQID: https://experienceleague.adobe.com/8G5YOa4HCsSoB9veHyexQ9uFvVDTYCj4W2Cv-nsmguw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Loading (SOAP){#loading-soap}
 

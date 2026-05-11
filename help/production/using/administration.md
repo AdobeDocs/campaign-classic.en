@@ -8,6 +8,16 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
+TQID: https://experienceleague.adobe.com/s-FvcKmvrRP7l91MkglXI2ITjrFQYbV5Lj92k6UO7WE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Administration{#administration}
 

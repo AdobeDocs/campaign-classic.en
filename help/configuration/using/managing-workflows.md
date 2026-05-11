@@ -6,6 +6,13 @@ feature: Workflows, Configuration
 role: Developer
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
+TQID: https://experienceleague.adobe.com/dpHtLw4PYGg35t-ihmw9LGUSbjgeNloUhGXp9KPJaRU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Managing workflows{#managing-workflows}
 

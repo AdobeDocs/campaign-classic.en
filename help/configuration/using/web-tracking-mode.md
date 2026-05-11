@@ -5,6 +5,16 @@ description: Learn how to select the web tracking mode
 feature: Instance Settings
 role: Developer
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
+TQID: https://experienceleague.adobe.com/pz5f6t-a2s0-38qK7JW2Y2bMxStx88IsE6hxO7x9gxI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Web tracking mode{#web-tracking-mode}
 

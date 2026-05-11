@@ -5,6 +5,13 @@ description: Create a summary list
 feature: Workflows, Data Management
 hide: true
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
+TQID: https://experienceleague.adobe.com/TM6lXgY-engMX-uC0-P0erLjuioUuIdwQUpEm6bM8t8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Create a summary list{#creating-a-summary-list}
 

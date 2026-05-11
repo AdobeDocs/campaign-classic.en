@@ -9,6 +9,10 @@ content-type: reference
 topic-tags: creating-queries
 hide: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
+TQID: https://experienceleague.adobe.com/QyGgyPI1vfy54m-3nNtEOt5tFr-RqWT9tfOg2GMQRdo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Define filter conditions{#defining-filter-conditions}
 

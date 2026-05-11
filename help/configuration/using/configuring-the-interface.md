@@ -6,6 +6,19 @@ feature: Application Settings
 role: Developer
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
+TQID: https://experienceleague.adobe.com/KUwDwl9noj6RJa0wn6ZEVnCBRLdOUMoSTf-5b1PrH-g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure the interface{#configuring-the-interface}
 

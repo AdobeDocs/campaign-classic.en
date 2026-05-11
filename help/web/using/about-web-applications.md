@@ -5,6 +5,35 @@ description: Create and share dynamic Web applications, landing pages and survey
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
+TQID: https://experienceleague.adobe.com/GP-1vCAYzcgjaOyUs-Zkx6rXOLSNbpF7962OEMsw5YM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
+  - id: fb2a841f-c522-491f-9901-a1b939d252df
+    internal-label: Security
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Get started with web applications{#about-web-applications}
 

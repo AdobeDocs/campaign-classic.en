@@ -8,6 +8,13 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
+TQID: https://experienceleague.adobe.com/s2QV1BGLtUfyWg1BfYuryciF9STRK3HpIXNc6oQ0ATY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Presentation rules{#presentation-rules}
 

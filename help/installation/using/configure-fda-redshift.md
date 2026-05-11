@@ -7,6 +7,13 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
+TQID: https://experienceleague.adobe.com/j-ZDe68d2AlmSqJsNTn8TAqN8Dq5jrB--lq5Ef4xJZY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure access to Amazon Redshift {#configure-access-to-redshift}
 

@@ -6,6 +6,19 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
+TQID: https://experienceleague.adobe.com/mU7usRNlg73dYQS1PuorYpp9g4d7bNXAWBtIEE1VULk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Publication templates{#publication-templates}
 

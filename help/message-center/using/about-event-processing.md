@@ -7,6 +7,13 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
+TQID: https://experienceleague.adobe.com/pex7wiGCNMdY86-Ug7dyLxE3RRT-ejlgz8eH7zVmZc4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Event processing {#about-event-processing}
 

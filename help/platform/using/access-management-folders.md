@@ -8,7 +8,21 @@ role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 hide: true
-
+TQID: https://experienceleague.adobe.com/c4mev5HLxN6XRYRkqNokbrt45a1nImtMaJJ0uEZLGH4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Manage access to folders{#folder-access-management}
 

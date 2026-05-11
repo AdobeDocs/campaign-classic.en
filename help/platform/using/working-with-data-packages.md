@@ -8,6 +8,17 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
+TQID: https://experienceleague.adobe.com/6-rFCJnDmYMbjZazKrYQD--Y-qENi9PWxLvxamxoEvU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Work with data packages{#working-with-data-packages}
 

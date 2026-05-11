@@ -4,6 +4,10 @@ title: Schema elements and attributes - join element
 description: join element
 feature: Schema Extension
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
+TQID: https://experienceleague.adobe.com/qze6zOBr1DxBIClCPPjIAZ2BeS7mMwnTFuoMw2-d9Cw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # join element {#join--element}
 

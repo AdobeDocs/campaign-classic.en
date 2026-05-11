@@ -7,6 +7,21 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
+TQID: https://experienceleague.adobe.com/Mcd1Z7q66wcVzDNkyk72FlqgOIL52DOjqkg8VQzKlU8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Connecting to the database {#connecting-to-the-database}
 

@@ -4,6 +4,16 @@ title: About outbound channels
 description: About outbound channels
 feature: Interaction, Offers
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
+TQID: https://experienceleague.adobe.com/vzwHUSw4EejkLqaKBEPA2Cc5hn3xtG-KiSw9lWgaq60
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # About outbound channels{#about-outbound-channels}
 

@@ -8,6 +8,13 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
+TQID: https://experienceleague.adobe.com/MGzMyGtmzaVGZy6oWHcirPPdSSpu9YYcuR30KIVZ9bc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 ---
 # Sharing audiences with Adobe Experience Cloud {#sharing-audiences-with-adobe-experience-cloud}
 

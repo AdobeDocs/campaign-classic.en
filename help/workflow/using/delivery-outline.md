@@ -5,6 +5,13 @@ description: Learn more about the Delivery outline workflow activity
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
+TQID: https://experienceleague.adobe.com/-KNip5bdMEMgGw7dz6Y4SQ4ueu-iPvYDF0D01hvGn94
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 ---
 # Delivery outline{#delivery-outline}
 

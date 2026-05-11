@@ -4,6 +4,10 @@ title: Schema elements and attributes - condition element
 description: condition element
 feature: Schema Extension
 exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
+TQID: https://experienceleague.adobe.com/Jx8bLCt1UEqAZDm0cSuexx25js-e5xTsvkeSMzVCUHw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # condition element {#condition--element}
 

@@ -5,6 +5,18 @@ description: Create a local campaign
 feature: Distributed Marketing
 hide: true
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
+TQID: https://experienceleague.adobe.com/geEAQfCmSJvBXR-u74aiAd-Wb3XU-gj--3f-Sstn-90
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Create a local campaign{#creating-a-local-campaign}
 

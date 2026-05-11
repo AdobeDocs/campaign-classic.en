@@ -5,6 +5,10 @@ description: Learn more about the Time constraint workflow activity
 feature: Workflows
 hide: true
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
+TQID: https://experienceleague.adobe.com/DDv8JBaXXnciohugVDEzBl-1Dba21VTScEpA1GEneqI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Time constraint{#time-constraint}
 

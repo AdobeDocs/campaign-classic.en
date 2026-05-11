@@ -5,6 +5,21 @@ description: About response manager
 feature: Campaigns
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
+TQID: https://experienceleague.adobe.com/ScwRjZlHoAjXQBxig5Mt3HuNkpPiZ9J-FQTm9FuCY4g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Get started with Campaign Response Manager{#about-response-manager}
 

@@ -7,6 +7,15 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
+TQID: https://experienceleague.adobe.com/lZr-7gHVoc8gahLQ6JSP05vRbNzOZ1ODlo3P3AIyTLA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Mid-sourcing deployment{#mid-sourcing-deployment}
 

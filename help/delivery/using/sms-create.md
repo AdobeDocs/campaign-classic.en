@@ -6,6 +6,16 @@ feature: SMS
 role: User
 hide: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
+TQID: https://experienceleague.adobe.com/ENt9cwc7OjXcMr5tbkg2f3BxpPBNtVytVTw70NQZPyI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Create an SMS delivery {#creating-a-sms-delivery}
 

@@ -5,6 +5,10 @@ description: AND-join
 feature: Workflows
 hide: true
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
+TQID: https://experienceleague.adobe.com/L6SmrK6xHkRqZI69OepbB4drLPfrX-cmvi6h6su3LYk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # AND-join{#and-join}
 

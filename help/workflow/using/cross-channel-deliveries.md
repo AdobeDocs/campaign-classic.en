@@ -5,6 +5,10 @@ description: Learn more about cross-channel deliveries
 feature: Workflows, Channels Activity
 hide: true
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
+TQID: https://experienceleague.adobe.com/BXn5nJkGD-NL8Rh5kYtltXfGJiWlYQqbyzcdZ1SleJA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Cross-channel deliveries{#cross-channel-deliveries}
 

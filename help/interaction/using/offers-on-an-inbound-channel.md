@@ -8,6 +8,13 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
+TQID: https://experienceleague.adobe.com/HkXtRV9hn2hZSZyxx86o2muGafhdhWuLp-uYBe4xTaU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Offers on an inbound channel{#offers-on-an-inbound-channel}
 

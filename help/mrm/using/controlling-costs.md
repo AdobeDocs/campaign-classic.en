@@ -8,6 +8,20 @@ content-type: reference
 hide: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
+TQID: https://experienceleague.adobe.com/sP42vA9z95SnIsjehzZeMNMmYhaqq-Z8-BqB-HXGTxQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Control costs{#controlling-costs}
 

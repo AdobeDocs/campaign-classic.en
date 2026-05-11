@@ -7,6 +7,13 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
+TQID: https://experienceleague.adobe.com/-5lcbNCBW2O9H9bLk5zbvuDrH711BkCSHYmW9jTBWUo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure access to Hadoop {#configure-access-to-hadoop}
 

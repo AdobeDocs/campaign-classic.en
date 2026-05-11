@@ -4,6 +4,10 @@ title: Elements and attributes - dbindex element
 description: dbindex element
 feature: Schema Extension
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
+TQID: https://experienceleague.adobe.com/VWv-F5lUufsXeurPt0GMUICNvrp7cKi-AJWxFzA6wRE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # dbindex element {#dbindex--element}
 

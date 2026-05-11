@@ -7,6 +7,17 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
+TQID: https://experienceleague.adobe.com/daz7TEa76-e6V3DbFHIzggxj07CKsh1pS-ShT6d-Tfo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Scripting and coding guidelines {#scripting-coding-guidelines}
 

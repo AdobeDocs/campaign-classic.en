@@ -7,6 +7,24 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Seed Address
 level: Intermediate, Experienced
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
+TQID: https://experienceleague.adobe.com/xEP-TmMNJ0On70jE2PdjywSXeXw5oF0LVeCDiA7nKB8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Seed addresses{#seed-addresses}
 

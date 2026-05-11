@@ -7,6 +7,13 @@ feature: Direct Mail
 role: User
 hide: true
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
+TQID: https://experienceleague.adobe.com/SoRik68y9GPavnSbqqVWtbghnt-hqwo3hrwuWgHq-vI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Create a direct mail delivery{#creating-a-direct-mail-delivery}
 

@@ -8,6 +8,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
+TQID: https://experienceleague.adobe.com/7-mUD8D6rmpenOO30kTDzR5IbbitJxVa9b5l5DQgKaE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Managing offer templates{#managing-offer-templates}
 

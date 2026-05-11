@@ -1,13 +1,20 @@
 ---
 product: campaign
 title: Connecting through LDAP
-description: Learn how to use LDAP to login to Campaign 
+description: Learn how to use LDAP to login to Campaign
 feature: Installation, Instance Settings
 badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
+TQID: https://experienceleague.adobe.com/GMKB83dj65iqnlu97uX-d672TWOysjd4gspRLEfz-y8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Connecting through LDAP {#connecting-through-ldap}
 

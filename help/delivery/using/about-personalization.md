@@ -6,6 +6,16 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Personalization
 role: User
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
+TQID: https://experienceleague.adobe.com/2hPiid3SAGMJcpSZmLtfNIZ08JSqOTnyDmsvzYarDG0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Get started with personalization{#about-personalization}
 

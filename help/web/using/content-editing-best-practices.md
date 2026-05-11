@@ -5,6 +5,13 @@ description: Content editing best practices
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
+TQID: https://experienceleague.adobe.com/9ei3-06pNnCbg0airicWrcVLosdZLvuq7RCUrEfHxGc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Content editing best practices{#content-editing-best-practices}
 

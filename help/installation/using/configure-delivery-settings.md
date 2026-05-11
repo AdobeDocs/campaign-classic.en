@@ -8,6 +8,15 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
+TQID: https://experienceleague.adobe.com/UqFS48Wvx9JP84bhLSDfMe1OYscrgzknFcjKT0CWvY8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Configure delivery settings {#delivery-settings}
 

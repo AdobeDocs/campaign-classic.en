@@ -6,6 +6,16 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
+TQID: https://experienceleague.adobe.com/5O5mdQrj0-Ts1C-lZRDHqDYwit4dSUOZHzG5SVDVitA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Control your message content{#control-message-content}
 

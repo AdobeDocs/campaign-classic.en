@@ -4,6 +4,13 @@ description: Learn how to use the Deduplication activity's Merge functionality
 feature: Workflows, Data Management
 hide: true
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
+TQID: https://experienceleague.adobe.com/1KKmaXm0FnnDnLesz6wayUw25stzk7NfZpcdCQW5Ak4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Use the Deduplication activity's Merge functionality {#deduplication-merge}
 

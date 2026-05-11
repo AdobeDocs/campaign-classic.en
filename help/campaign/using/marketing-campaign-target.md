@@ -6,6 +6,21 @@ role: User
 feature: Campaigns, Audiences
 hide: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
+TQID: https://experienceleague.adobe.com/uJW1-zNfhCUn15Nxa9T7bXTzX6nGdZJ1QfuUa38L7HY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Select the audience of your campaigns {#marketing-campaign-deliveries}
 

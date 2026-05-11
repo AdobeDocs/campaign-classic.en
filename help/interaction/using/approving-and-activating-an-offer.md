@@ -8,6 +8,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
+TQID: https://experienceleague.adobe.com/f0zYxpc5-71Ci-4Q485v4rRdD1xHs6tKLkl7vrITMP0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Approving and activating an offer{#approving-and-activating-an-offer}
 

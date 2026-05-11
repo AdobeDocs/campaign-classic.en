@@ -6,6 +6,16 @@ feature: Experience Platform Integration
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
+TQID: https://experienceleague.adobe.com/gZ3arUya5UYcZckqtlDObZTA7laUmVttTDHxgOb97vE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Experience Platform integration
 ---
 # Ingest Adobe Experience Platform segments into Campaign {#destinations}
 

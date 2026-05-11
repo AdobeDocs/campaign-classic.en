@@ -7,6 +7,23 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
+TQID: https://experienceleague.adobe.com/J55-McblpyrkaTwKk7d09Yv6sXereUGgjep-k-wNdA4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Remote database access rights {#remote-database-access-rights}
 

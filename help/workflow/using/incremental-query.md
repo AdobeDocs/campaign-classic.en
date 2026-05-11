@@ -5,6 +5,10 @@ description: Learn more about the Incremental query workflow activity
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
+TQID: https://experienceleague.adobe.com/RBw8ii57Yhf9IHnK9Q-v7zUqq0cJKx3JMuaS84w1Y7E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Incremental query{#incremental-query}
 

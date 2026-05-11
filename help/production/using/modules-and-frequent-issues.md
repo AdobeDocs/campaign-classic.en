@@ -8,6 +8,13 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: dbd50178-0a16-46ed-bfad-47beb3c2a420
+TQID: https://experienceleague.adobe.com/hOoVSREluOp-2yZuImbeUgstHiTz4kiwJqyAp3Q3eq0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Modules and frequent issues{#modules-and-frequent-issues}
 

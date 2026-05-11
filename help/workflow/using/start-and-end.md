@@ -5,6 +5,10 @@ description: Learn more about Start and End workflow activities
 feature: Workflows
 hide: true
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
+TQID: https://experienceleague.adobe.com/Vw3JK6VyMf4HrEkvYk4-34dGTp0e3e1xPZ8jG0bAxz8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Start and end{#start-and-end}
 

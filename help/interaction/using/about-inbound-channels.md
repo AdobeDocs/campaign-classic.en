@@ -4,6 +4,10 @@ title: About inbound channels
 description: About inbound channels
 feature: Interaction, Offers
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
+TQID: https://experienceleague.adobe.com/xOrs5M2yPLGEDpVwYhaylXRtSRxxzFq8AvdDehWGe3M
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # About inbound channels{#about-inbound-channels}
 

@@ -5,6 +5,13 @@ description: Get started with distributed marketing
 feature: Distributed Marketing
 hide: true
 exl-id: c166409b-e040-491e-840a-a41310935d75
+TQID: https://experienceleague.adobe.com/1T-VO8AH7Rhk9HAhMufgPSSh4lNIC-D65ldnJIfDFvA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 ---
 # Get started with distributed marketing{#about-distributed-marketing}
 

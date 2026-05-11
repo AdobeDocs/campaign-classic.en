@@ -7,6 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
+TQID: https://experienceleague.adobe.com/v9s-xydUk-4cNxNYSAj1HLCOOscZhpQDP-bSJt9mUzg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Message Center service level {#message-center-service-level}
 

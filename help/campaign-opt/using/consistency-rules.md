@@ -6,6 +6,25 @@ role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
+TQID: https://experienceleague.adobe.com/rkCdxvBXQAvuM0hpIt2nQ35lxDBK2XpS-0tHN7NzQVI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Consistency rules{#consistency-rules}
 

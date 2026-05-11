@@ -5,6 +5,13 @@ description: Publish the campaign package
 feature: Distributed Marketing
 hide: true
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
+TQID: https://experienceleague.adobe.com/5M0QtWtNs4Llfmaw8cbvYLD2YM7ET-QcKf-GjQP0ZRg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 ---
 # Publish the campaign package{#publishing-the-campaign-package}
 

@@ -7,6 +7,13 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
+TQID: https://experienceleague.adobe.com/PbyBdgy6uFZNOmZ2GFrntS4XSJoJj41uFXLWOF4eWyA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure access to Oracle {#configure-access-to-oracle}
 

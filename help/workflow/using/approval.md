@@ -5,6 +5,16 @@ description: Approval
 feature: Workflows, Approvals
 hide: true
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
+TQID: https://experienceleague.adobe.com/ykTAMDWQNqrbB3K6-AxF9Tpxd0buiLFqLZ1tyU71QoA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Approval{#approval}
 

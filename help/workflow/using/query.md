@@ -5,6 +5,10 @@ description: Learn more about the Query workflow activity
 feature: Workflows, Targeting Activity, Query Editor
 hide: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
+TQID: https://experienceleague.adobe.com/Htrpo3hCrbp9H7cQD4KWTnMbA-rjgM0K1PFHh-Fak1M
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Query{#query}
 

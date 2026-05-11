@@ -5,6 +5,13 @@ description: Define a conditional content
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
+TQID: https://experienceleague.adobe.com/LSZh-7Q3HKx0rIWHJRRvMo4q-HWSxrK38QCV7Sz-LT0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Define a conditional content{#defining-a-conditional-content}
 

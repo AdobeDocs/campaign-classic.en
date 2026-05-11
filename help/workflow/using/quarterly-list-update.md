@@ -5,6 +5,13 @@ description: In this use case, an incremental query is used to automatically upd
 feature: Workflows
 hide: true
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
+TQID: https://experienceleague.adobe.com/BH9Rd9DTl5ZnTIo17AS6FKEYio-DjbXiOf0Nn1GLXWI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 ---
 # Quarterly list update using an incremental query {#quarterly-list-update}
 

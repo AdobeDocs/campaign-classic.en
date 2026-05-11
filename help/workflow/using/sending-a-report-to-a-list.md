@@ -5,6 +5,18 @@ description: Learn how to send a report to a list with a workflow
 feature: Workflows
 hide: true
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
+TQID: https://experienceleague.adobe.com/ELb4jeS02eqvarEkyYHnnEOhNfSv6N-ENgkS2I0sBjk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Send a report to a list{#sending-a-report-to-a-list}
 

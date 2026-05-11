@@ -8,6 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
+TQID: https://experienceleague.adobe.com/iXiiqwE6-FqHpRFes1bzJ5mLc3-z-HQBUR7ASL5A1G8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Using MX servers with Campaign {#using-mx-servers}
 

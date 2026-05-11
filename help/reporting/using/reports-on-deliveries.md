@@ -5,6 +5,13 @@ description: Reports on deliveries
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
+TQID: https://experienceleague.adobe.com/mksUYDyAkAHaeILP6JIIVHDxvxV33jc-Ku4-ETXdUBs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # About reports on deliveries{#reports-on-deliveries}
 

@@ -5,6 +5,13 @@ description: Learn how to design a chart
 feature: Reporting, Monitoring
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
+TQID: https://experienceleague.adobe.com/-212hQNHR-f8ktM3kNKiHgYw4C8Ql71dbZtOX7zoKqc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Create a chart{#creating-a-chart}
 

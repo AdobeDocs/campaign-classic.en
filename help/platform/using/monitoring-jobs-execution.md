@@ -8,6 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
+TQID: https://experienceleague.adobe.com/g25R2WVJ2ULkITvhyNbvq87lxMdUNaHDJdm9rZNg-PA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Monitor jobs execution {#monitoring-job-execution}
 

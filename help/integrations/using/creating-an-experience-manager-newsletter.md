@@ -7,6 +7,21 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 audience: integrations
 content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
+TQID: https://experienceleague.adobe.com/-5orLjm8w8PjA4t4Swox55NP2MTw3rGZzGq42JwuzeQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Experience Manager integration
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
 

@@ -2,6 +2,25 @@
 title: Update Campaign interface after IMS migration
 description: Learn how to activate Adobe Identity Management System migration interface impacts
 exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
+TQID: https://experienceleague.adobe.com/RkgX2M0BnO5pjgI7oAp7NlycXY551manwFHhcA1LMjw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Update Campaign interface after IMS migration {#impact-ims-migration}
 

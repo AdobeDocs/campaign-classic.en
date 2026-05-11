@@ -5,6 +5,23 @@ description: Learn more about Targeting data in a workflow
 feature: Query Editor, Data Management, Workflows
 hide: true
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
+TQID: https://experienceleague.adobe.com/K-RxfMfggibrXC1g6kF03-cSuF-acyg085uWwHJyBBQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Target data{#targeting-data}
 

@@ -5,6 +5,10 @@ description: Use a web form template
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
+TQID: https://experienceleague.adobe.com/Rv0Vn64-LJgNufPSOd0-1z0G7cDqMEN9QSrzZYr3ypY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Use a web form template{#using-a-web-form-template}
 

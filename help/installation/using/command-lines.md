@@ -7,6 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
+TQID: https://experienceleague.adobe.com/e85vFL0iZ586ICGGH1CP6fgqGU717W1aPDWqmj40-3s
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Command lines{#command-lines}
 

@@ -5,6 +5,10 @@ description: Learn more about the Union workflow activity
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
+TQID: https://experienceleague.adobe.com/qgrHaoMQwEN1YVWXuRHPiCchaQSaiwW5HgVLWgpUymg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Union{#union}
 

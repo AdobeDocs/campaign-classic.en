@@ -7,6 +7,21 @@ feature: Email Design
 role: User
 hide: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
+TQID: https://experienceleague.adobe.com/NWs-NqNfnkyoj0XJfy5-BvKwJofom-V0iSQJI3-F-38
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Define the email content {#defining-the-email-content}
 

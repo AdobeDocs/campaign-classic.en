@@ -5,6 +5,10 @@ description: Learn how to use aggregates
 feature: Workflows
 hide: true
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
+TQID: https://experienceleague.adobe.com/gGjUc-62oHW0OBV-iPKYGoDWiTebnQ3g7v4cInh3TLw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Use aggregates{#using-aggregates}
 

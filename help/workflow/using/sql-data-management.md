@@ -5,6 +5,18 @@ description: Learn more about SQL Data Management workflow activity
 feature: Workflows
 hide: true
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
+TQID: https://experienceleague.adobe.com/69utVGZghklulU5x5HcHF-hA-UKbSgGLQZ-CtlVanL0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # SQL Data Management{#sql-data-management}
 

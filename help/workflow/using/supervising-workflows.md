@@ -5,6 +5,18 @@ description: Learn how to supervise Campaign workflows
 feature: Workflows
 hide: true
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
+TQID: https://experienceleague.adobe.com/mcgxBQd1FMGyw6MiTBsp05X91sZzx93RbnFta9MNgvI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use case: supervise your workflows{#supervising-workflows}
 

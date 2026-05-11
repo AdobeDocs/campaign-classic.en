@@ -7,6 +7,30 @@ role: User, Developer
 level: Intermediate, Experienced
 hide: true
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
+TQID: https://experienceleague.adobe.com/8-DYZII2iuPYgAUSytJowvP7pXIUY1h1H-OWzlav7UQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configuration steps for Android
 

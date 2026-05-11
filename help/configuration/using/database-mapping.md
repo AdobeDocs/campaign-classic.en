@@ -5,6 +5,13 @@ description: Database mapping
 feature: Configuration, Instance Settings
 role: Developer
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
+TQID: https://experienceleague.adobe.com/d3oQ8zJVsjVdj9PZ30rQ8hEuern1l3ZlMAWrbymhnvs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Database mapping{#database-mapping}
 

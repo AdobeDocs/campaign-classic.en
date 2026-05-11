@@ -7,6 +7,18 @@ feature: Personalization
 role: User
 hide: true
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
+TQID: https://experienceleague.adobe.com/5hETJLlKZ9iWu2k1nW-RMeDlzpSm7wFwfe3QwSEZCa4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Generate personalized PDF documents{#generating-personalized-pdf-documents}
 

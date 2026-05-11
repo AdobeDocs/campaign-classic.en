@@ -7,8 +7,29 @@ role: User
 feature: Approvals, Campaigns
 hide: true
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
+TQID: https://experienceleague.adobe.com/xRSXwdwAWrtY5l-khF8ewhOZR9IUvTl3aWLO3eb-6cw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Set up and manage the approval process {#approving-marketing-campaigns}
 
 Each step of a delivery can be subject to approval to ensure full monitoring and control of campaign processes. These include targeting, content, budget, extraction, and sending a proof.

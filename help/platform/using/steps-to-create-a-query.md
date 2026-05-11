@@ -9,7 +9,10 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 hide: true
-
+TQID: https://experienceleague.adobe.com/LzWl-FTFuwEnkum23W9nPjZi7Nhi6hdgztsyjrrzPQM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Steps to create a query{#steps-to-create-a-query}
 

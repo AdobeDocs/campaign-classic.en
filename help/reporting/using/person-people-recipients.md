@@ -5,6 +5,13 @@ description: Person, people and recipients
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
+TQID: https://experienceleague.adobe.com/ZvTALeh3LgGQxNwaQv-usFMAfVvyQFe-rmf6WQDHqTE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Person/people and recipients {#person-people-and-recipients}
 

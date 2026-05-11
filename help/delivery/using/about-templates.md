@@ -6,6 +6,13 @@ feature: Delivery Templates
 role: User
 hide: true
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
+TQID: https://experienceleague.adobe.com/Pk7P-N4pOwS9bP2HcL4Y6etV3tVK8-80FyZZQUNASwg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Work with delivery templates {#about-templates}
 

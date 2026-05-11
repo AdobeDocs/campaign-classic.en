@@ -5,6 +5,10 @@ description: Learn how to manage survey answers
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
+TQID: https://experienceleague.adobe.com/-xjK3nxUc4Lz-mWyVoUbbIJ8HQvyLRInYk-w8zYLYE4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Manage answers{#managing-answers}
 

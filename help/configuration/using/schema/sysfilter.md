@@ -7,6 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: a0069688-fd05-42e9-91dd-adc10bea3461
+TQID: https://experienceleague.adobe.com/hjsD-JSGBPnwyj1IsLDo-tUy-63apy0-6kT9vngaaQk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # sysfilter element {#sysfilter--element}
 

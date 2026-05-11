@@ -7,6 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
+TQID: https://experienceleague.adobe.com/sfD2AC1pBRsuvD-SScCQRjB1oL5ok55ZOEaoGuLhzmQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Creating offer spaces{#creating-offer-spaces}
 

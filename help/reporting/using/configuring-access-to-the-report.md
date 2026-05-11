@@ -5,6 +5,13 @@ description: Configure access to the report
 feature: Reporting, Monitoring
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
+TQID: https://experienceleague.adobe.com/I1mGm11kQMgw-Iy-tbKBPGupVtiiCIT-SUzZVjoPwuM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Configure access to the report{#configuring-access-to-the-report}
 

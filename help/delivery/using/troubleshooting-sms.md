@@ -5,6 +5,18 @@ description: Learn more how to troubleshoot SMS channel
 feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
+TQID: https://experienceleague.adobe.com/h0vsbqdwW-21Ay-v8v8eUQzHyDkCVZoxXWHx5m1Qd7g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # SMS Troubleshooting {#troubleshooting-sms}
 

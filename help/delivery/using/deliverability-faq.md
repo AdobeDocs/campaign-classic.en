@@ -5,6 +5,24 @@ description: Learn key points to check when managing deliverability in Adobe Cam
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
+TQID: https://experienceleague.adobe.com/ZRai7Bd-IRaWUQQmkuUYwXhNXp2BI-B4k-4cGq1k6uk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Deliverability troubleshooting{#deliverability-faq}
 

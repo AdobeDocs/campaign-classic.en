@@ -6,6 +6,24 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
+TQID: https://experienceleague.adobe.com/qngVGmYzQ0Qrr1erTTlSEO7FX6djL-mfax-N4ypchy8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 ---
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}
 

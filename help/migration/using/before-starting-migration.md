@@ -8,6 +8,10 @@ content-type: reference
 topic-tags: migration-procedure
 hide: true
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
+TQID: https://experienceleague.adobe.com/FBbSwRfACqdgT1S9aXlDvR4tqqBOuv1BnMYqASi4OoQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Prerequisites{#before-starting-migration}
 

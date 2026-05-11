@@ -5,6 +5,18 @@ description: Learn how to grant access to Campaign capabilities
 badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
+TQID: https://experienceleague.adobe.com/03hVUeg0dRIFz0J20RfxH4EdSmAhe9h2c9BfKB-qJUs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Get started with permissions{#access-management}
 

@@ -5,6 +5,13 @@ description: Advanced parameters
 feature: Workflows, Data Management
 hide: true
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
+TQID: https://experienceleague.adobe.com/ghepBaMXkefYkadDf1LLaDAf5XU8VDgHGM-3tpQ6x0s
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Advanced parameters{#advanced-parameters}
 

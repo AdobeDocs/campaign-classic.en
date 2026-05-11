@@ -5,6 +5,35 @@ description: Learn how to update to the new Campaign deliverability server
 feature: Technote, Deliverability
 hide: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
+TQID: https://experienceleague.adobe.com/ktbzQKuNSjctRAyH-hbZyYajuoZFJy4Yt01y34X-tnk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Update to the new deliverability server {#acc-deliverability}
 

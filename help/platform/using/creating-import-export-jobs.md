@@ -8,6 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
+TQID: https://experienceleague.adobe.com/W76ysgz2I33F1AEDSitlPycrpICJ9BKOW3bDr7uq6e8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Create import and export jobs {#creating-import-export-jobs}
 

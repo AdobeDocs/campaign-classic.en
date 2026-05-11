@@ -5,6 +5,25 @@ description: Learn more about the File transfer workflow activity
 feature: Workflows, Data Management
 hide: true
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
+TQID: https://experienceleague.adobe.com/Y8ggbKYhnIg8ncfMNoCG7-9J-GxhVrNQmK-PPFqRk04
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # File transfer{#file-transfer}
 

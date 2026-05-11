@@ -8,6 +8,13 @@ content-type: reference
 topic-tags: migration-overview
 hide: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
+TQID: https://experienceleague.adobe.com/Cpa5--gsUgdw1FtmYuGJaKDEOVm2BOuG-Ok5bvfEPyA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Get started with the migration{#about-migration}
 

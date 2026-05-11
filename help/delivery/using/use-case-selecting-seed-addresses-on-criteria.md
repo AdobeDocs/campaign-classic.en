@@ -5,6 +5,16 @@ description: "Use case: select seed addresses on criteria"
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
+TQID: https://experienceleague.adobe.com/vVOd7BFN-EgiwiYk-ssMDkkmcUnRyI62tpMk2R-FVAQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use case: select seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}
 

@@ -7,6 +7,16 @@ feature: Personalization
 role: User
 hide: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
+TQID: https://experienceleague.adobe.com/KfD6zudZg8B6r8ftdINuXjWAqRiHLP9dtGi--H-E6RU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Personalization blocks{#personalization-blocks}
 

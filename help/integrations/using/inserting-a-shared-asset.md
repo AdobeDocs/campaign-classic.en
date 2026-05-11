@@ -7,6 +7,13 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
+TQID: https://experienceleague.adobe.com/5SrvIw1sYSNd4Hw1we554AfxDj3VgeTeqIOOzTTrWuY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 ---
 # Inserting a shared asset{#inserting-a-shared-asset}
 

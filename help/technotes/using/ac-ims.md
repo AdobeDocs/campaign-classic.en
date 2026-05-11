@@ -2,6 +2,16 @@
 title: Migrate to Adobe Identity Management System (IMS)
 description: Learn how to migrate your authentication process to Adobe Identity Management System (IMS)
 exl-id: 84853dbe-8b6f-4875-b29a-c1b755423a3c
+TQID: https://experienceleague.adobe.com/DKwv-rLrgm0ce9cycT1QMtBgQP-2pnMNhqHlH1xJWvo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Migrate to Adobe Identity Management System (IMS) {#migrate-to-ims}
 

@@ -5,6 +5,10 @@ description: Learn how to send personalized alerts to operators
 feature: Workflows
 hide: true
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
+TQID: https://experienceleague.adobe.com/AhEp-fucKo-UN8M9kzPxqpbHU2ichyv1LHa-qeN9qRc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Send personalized alerts to operators{#sending-personalized-alerts-to-operators}
 

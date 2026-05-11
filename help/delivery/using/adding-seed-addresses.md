@@ -6,6 +6,13 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Seed Address
 role: User
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
+TQID: https://experienceleague.adobe.com/pVYaTG48-HiK0RwJXgBbIMWa-o-R7jlEpauXNXvGi5E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Add seed addresses{#adding-seed-addresses}
 

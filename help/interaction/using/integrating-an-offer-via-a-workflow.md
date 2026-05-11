@@ -7,6 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
+TQID: https://experienceleague.adobe.com/mAyeOK618LvVCdtRqLykUECmgWZce8bKoMiT-WIOe1Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Integrating an offer via a workflow{#integrating-an-offer-via-a-workflow}
 

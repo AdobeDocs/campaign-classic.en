@@ -5,6 +5,13 @@ description: Learn how to insert web tracking tags in your site
 feature: Configuration
 role: Developer
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
+TQID: https://experienceleague.adobe.com/Z8FQ1ukAxvRBTBFOxf2-lZF2-cqIIgA4H0bYDc9uTe4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Insert web tracking tags in your site{#inserting-tags-in-your-site}
 

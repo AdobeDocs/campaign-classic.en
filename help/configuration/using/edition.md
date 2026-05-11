@@ -5,8 +5,20 @@ description: Edit Campaign Explorer navigation tree
 feature: Application Settings
 role: Developer
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
+TQID: https://experienceleague.adobe.com/k8LhZvPSYchAxnQew5eknkDbxHDznzPefl032auuYLc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Edit Campaign Explorer navigation tree{#edition}
 
 The screen for creating and configuring the navigation hierarchy configuration documents is accessible via the **[!UICONTROL Administration > Configuration > Navigation hierarchies]** node:

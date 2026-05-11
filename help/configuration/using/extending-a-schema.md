@@ -5,6 +5,21 @@ description: Learn how to extend a schema
 role: Developer
 feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
+TQID: https://experienceleague.adobe.com/w-Pe9dOgxIRB0KnOggStMDqzaNkCFGsh-5sOISc-t2E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+subfeature_v2:
+  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Extend a schema{#extending-a-schema}
 
