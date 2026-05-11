@@ -29,7 +29,7 @@ _Mar 31, 2026_
 
 >[!NOTE]
 >
-> Fixes listed below have been progressively rolled out across successive 7.4.3 builds. Navigate to the **[!UICONTROL Help > About...]** [menu](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) to check that you have the latest 9394@28aaec9 build. Contact your Adobe representative for more information.
+> Fixes listed below have been progressively rolled out across successive 7.4.3 builds. Navigate to the **[!UICONTROL Help > About...]** [menu](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) to check that you have the latest 9394@28aaec9 build. Contact your Adobe representative for more information.
 
 * Fixed an issue where the barcode component allowed an unbounded height parameter, which could lead to a security vulnerability. (NEO-89984)
 * Fixed an issue where enumeration fields in lists created via workflows were missing temporary name attributes, causing incorrect or blank enum labels to be displayed in the interface. (NEO-91158)
