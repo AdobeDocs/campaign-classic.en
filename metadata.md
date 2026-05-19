@@ -8,6 +8,7 @@ product_v2:
     internal-label: "Campaign"
   - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
     internal-label: "Adobe Campaign Classic v7"
+usetq: true
 version: Campaign Classic v7
 feature-set: Campaign
 landing-page-name: campaign
