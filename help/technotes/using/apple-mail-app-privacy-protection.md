@@ -30,8 +30,6 @@ topic_v2:
 ---
 # Mail Privacy Protection in Apple's Mail app
 
-![Applies to v7 and v8](../../assets/common.svg)
-
 ## What changed?
 
 In 2021, Apple introduced new privacy protection capabilities for their native Mail app. This app now includes Apple's Mail Privacy Protection feature. Basically, senders cannot use tracking pixels anymore to collect information about recipients who have chosen to turn on Apple's Mail Privacy Protection feature. 
