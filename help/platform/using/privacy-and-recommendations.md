@@ -15,11 +15,17 @@ product_v2:
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
     internal-label: Security and privacy
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences (Campaign)
 subfeature_v2:
-  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
-    internal-label: Privacy
-  - id: fb2a841f-c522-491f-9901-a1b939d252df
-    internal-label: Security
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles (Campaign)
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences (Campaign)
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor (Campaign)
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management (Campaign)
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

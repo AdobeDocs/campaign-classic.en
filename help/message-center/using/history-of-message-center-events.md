@@ -14,6 +14,8 @@ product_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
+feature_v2: []
+subfeature_v2: []
 ---
 # Message Center event history{#history-of-message-center-events}
 

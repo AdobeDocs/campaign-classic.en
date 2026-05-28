@@ -18,6 +18,8 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
+feature_v2: []
+subfeature_v2: []
 ---
 # Configuring FDA connectors {#specific-configurations-by-database-type}
 

@@ -13,6 +13,8 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+feature_v2: []
+subfeature_v2: []
 ---
 # Configure access to Microsoft SQL Server {#configure-fda-sql}
 

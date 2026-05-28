@@ -15,9 +15,17 @@ product_v2:
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences (Campaign)
 subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-    internal-label: PI
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles (Campaign)
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences (Campaign)
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor (Campaign)
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management (Campaign)
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy

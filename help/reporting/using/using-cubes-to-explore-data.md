@@ -6,6 +6,16 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Reporting, Monitoring
 hide: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting (Campaign)
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface (Campaign)
+  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports (Campaign)
+  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis (Campaign)
 ---
 # Use cubes to explore data{#using-cubes-to-explore-data}
 

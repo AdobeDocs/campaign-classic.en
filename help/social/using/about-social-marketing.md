@@ -11,6 +11,14 @@ TQID: https://experienceleague.adobe.com/9pymGC7CW9d5FJL-A5Cj-DvbqeF8WZtpqqRtaUu
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels (Campaign)
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations (Campaign)
+subfeature_v2:
+  - id: a79c82df-714a-4b22-beac-74500b5e034f
+    internal-label: Twitter integration (Campaign)
 ---
 # About social marketing{#about-social-marketing}
 

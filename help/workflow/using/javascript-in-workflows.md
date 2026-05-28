@@ -17,6 +17,14 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap (Campaign)
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities (Campaign)
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities (Campaign)
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases (Campaign)
 ---
 # Examples of JavaScript code in workflows{#javascript-in-workflows}
 

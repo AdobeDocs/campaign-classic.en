@@ -13,6 +13,8 @@ product_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+feature_v2: []
+subfeature_v2: []
 ---
 # Managing workflows{#managing-workflows}
 

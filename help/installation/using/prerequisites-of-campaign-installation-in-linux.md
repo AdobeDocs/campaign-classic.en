@@ -17,6 +17,8 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
+feature_v2: []
+subfeature_v2: []
 ---
 # Prerequisites to install Campaign on Linux{#prerequisites-of-campaign-installation-in-linux}
 

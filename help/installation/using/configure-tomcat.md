@@ -17,6 +17,8 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
+feature_v2: []
+subfeature_v2: []
 ---
 # Configure Apache Tomcat {#configuring-tomcat}
 

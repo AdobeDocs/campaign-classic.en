@@ -12,14 +12,10 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
 subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-    internal-label: Permissions
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-    internal-label: Release notes
   - id: efa38731-2723-4334-8d8b-a778af834835
-    internal-label: Access management
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-    internal-label: Upgrade
+    internal-label: Access management (Campaign)
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration (Campaign)
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

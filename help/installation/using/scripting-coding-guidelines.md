@@ -18,6 +18,8 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
+feature_v2: []
+subfeature_v2: []
 ---
 # Scripting and coding guidelines {#scripting-coding-guidelines}
 

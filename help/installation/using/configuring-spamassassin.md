@@ -15,6 +15,8 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
+feature_v2: []
+subfeature_v2: []
 ---
 # Configuring SpamAssassin{#configuring-spamassassin}
 

@@ -16,8 +16,10 @@ feature_v2:
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes (Campaign)
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Analytics integration
+    internal-label: Adobe Analytics integration (Campaign)
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

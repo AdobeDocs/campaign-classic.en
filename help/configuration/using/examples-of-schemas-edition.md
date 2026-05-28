@@ -17,6 +17,8 @@ subfeature_v2:
     internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases (Campaign)
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

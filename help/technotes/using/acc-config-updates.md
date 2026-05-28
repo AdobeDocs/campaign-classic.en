@@ -5,6 +5,10 @@ description: Adobe Campaign configuration updates
 feature: Technote, Upgrade
 hide: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
+feature_v2: []
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration (Campaign)
 ---
 # Adobe Campaign configuration updates 2021 {#acc-config-updates}
 

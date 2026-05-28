@@ -14,6 +14,8 @@ product_v2:
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences (Campaign)
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -25,6 +27,15 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
+subfeature_v2:
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles (Campaign)
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences (Campaign)
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor (Campaign)
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management (Campaign)
 ---
 # Build Upgrade FAQ {#build-upgrade-faq}
 

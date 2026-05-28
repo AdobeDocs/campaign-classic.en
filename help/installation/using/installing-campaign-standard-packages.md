@@ -9,16 +9,8 @@ TQID: https://experienceleague.adobe.com/o-8uf081NQCy3ZB8mmLk0Gm8J9Pu--Zh4znqn3H
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-    internal-label: Campaigns
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-    internal-label: Communication channels
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-    internal-label: Transactional messaging
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-    internal-label: Direct mail
+feature_v2: []
+subfeature_v2: []
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

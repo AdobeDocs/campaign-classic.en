@@ -12,6 +12,10 @@ TQID: https://experienceleague.adobe.com/7-mUD8D6rmpenOO30kTDzR5IbbitJxVa9b5l5DQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management (Campaign)
+subfeature_v2: []
 ---
 # Managing offer templates{#managing-offer-templates}
 

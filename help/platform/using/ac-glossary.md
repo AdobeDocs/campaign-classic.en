@@ -12,15 +12,19 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
 feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences (Campaign)
 subfeature_v2:
-  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
-    internal-label: Schema extension
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-    internal-label: PI
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles (Campaign)
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences (Campaign)
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor (Campaign)
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management (Campaign)
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

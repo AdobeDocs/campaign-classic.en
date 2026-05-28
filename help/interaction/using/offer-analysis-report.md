@@ -14,6 +14,10 @@ product_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management (Campaign)
+subfeature_v2: []
 ---
 # Offer analysis report{#offer-analysis-report}
 

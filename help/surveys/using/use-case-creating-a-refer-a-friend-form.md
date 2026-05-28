@@ -14,11 +14,18 @@ feature_v2:
     internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels (Campaign)
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+subfeature_v2:
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms (Campaign)
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases (Campaign)
 ---
 # Use case: create a referral form{#use-case-creating-a-refer-a-friend-form}
 

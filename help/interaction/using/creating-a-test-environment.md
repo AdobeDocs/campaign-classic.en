@@ -11,6 +11,10 @@ TQID: https://experienceleague.adobe.com/-V-tBgJnQ-1-W7MfUEqXQ5Zzd8GN32XT-9dWVsR
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management (Campaign)
+subfeature_v2: []
 ---
 # Creating a test environment{#creating-a-test-environment}
 

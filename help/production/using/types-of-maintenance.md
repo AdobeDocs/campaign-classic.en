@@ -12,6 +12,12 @@ TQID: https://experienceleague.adobe.com/bnEjFRKyiM1Um7c1bjoQ6Irblxu9UnQdtXQeGxG
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2: []
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring (Campaign)
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines (Campaign)
 ---
 # Types of maintenance{#types-of-maintenance}
 

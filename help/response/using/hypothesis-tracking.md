@@ -20,6 +20,9 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
+subfeature_v2:
+  - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management (Campaign)
 ---
 # Hypothesis tracking{#hypothesis-tracking}
 

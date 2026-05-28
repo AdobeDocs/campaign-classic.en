@@ -14,6 +14,8 @@ product_v2:
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management (Campaign)
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
     internal-label: Schema extension

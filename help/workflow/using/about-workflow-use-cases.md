@@ -14,7 +14,9 @@ feature_v2:
     internal-label: Data management
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-    internal-label: Workflows
+    internal-label: Workflows (Campaign)
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases (Campaign)
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
