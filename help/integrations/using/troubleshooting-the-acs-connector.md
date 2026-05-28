@@ -140,6 +140,6 @@ Depending on your implementation, you can face several common issues.
 
   In case both Campaign Classic and Campaign Standard instances are used to send emails with tracked URLs, an issue with duplicate URL tagIds may occur during the synchronization. In this case, the **[ACS] Profile delivery log replication** (newRcpDeliveryLogReplication) worflow sill fail with the following error:
 
-     ```PGS-220000 PostgreSQL error: ERROR: duplicate key value violates unique constraint "nmstrackingurl_tagid" DETAIL: Key (stagid) = (1c7bdec2) already exists.```
+     `PGS-220000 PostgreSQL error: ERROR: duplicate key value violates unique constraint "nmstrackingurl_tagid" DETAIL: Key (stagid) = (1c7bdec2) already exists.`
 
   To solve the issue and prevent it from occurring again, update the **Update tracking URLs** (writerTrackingUrls) activity in the workflow and add the "ACS" prefix to the @tagId source expression.
