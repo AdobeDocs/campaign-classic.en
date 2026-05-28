@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Data integration
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
 ---
 # Overview{#dc-ovv}
 

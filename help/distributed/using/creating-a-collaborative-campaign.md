@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Personalization
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
-    internal-label: Distributed Marketing (Campaign)
+    internal-label: Distributed Marketing
 ---
 # Create a collaborative campaign{#creating-a-collaborative-campaign-intro}
 

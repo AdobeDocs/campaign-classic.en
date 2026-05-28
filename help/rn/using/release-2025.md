@@ -9,9 +9,9 @@ exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
 feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-    internal-label: Release notes (Campaign)
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
 ---
 # 2025 releases{#release-2025}
 

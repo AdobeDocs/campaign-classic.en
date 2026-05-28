@@ -13,7 +13,7 @@ feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
-    internal-label: Communication channels (Campaign)
+    internal-label: Communication channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Data collection
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-    internal-label: Web Forms (Campaign)
+    internal-label: Web Forms
   - id: e739ee2b-6228-412e-878f-45de0791417d
-    internal-label: Use cases (Campaign)
+    internal-label: Use cases
 ---
 # Use case: display a report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}
 

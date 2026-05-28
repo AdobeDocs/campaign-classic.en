@@ -5,14 +5,6 @@ description: Learn more about Integrations with Adobe Experience Cloud solutions
 feature: Workflows, Audiences
 hide: true
 topic-tags: technical-workflows
-feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-    internal-label: Workflow HeatMap (Campaign)
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-    internal-label: Execution activities (Campaign)
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-    internal-label: Data Management activities (Campaign)
 ---
 
 # Integrations with Adobe Experience Cloud solutions{#integrations-with-adobe-experience-cloud-solutions}

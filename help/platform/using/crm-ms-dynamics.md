@@ -13,16 +13,16 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-    internal-label: Profiles and audiences (Campaign)
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-    internal-label: Profiles (Campaign)
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-    internal-label: Audiences (Campaign)
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
-    internal-label: Query Editor (Campaign)
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
-    internal-label: Access management (Campaign)
+    internal-label: Access management
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement

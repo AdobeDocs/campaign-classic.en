@@ -20,13 +20,13 @@ topic_v2:
     internal-label: Administration
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-    internal-label: Adobe Experience Manager integration (Campaign)
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-    internal-label: Adobe Experience Platform integration (Campaign)
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-    internal-label: Adobe Target integration (Campaign)
+    internal-label: Adobe Target integration
 ---
 # Submitting request to Adobe{#submitting-request-to-adobe}
 

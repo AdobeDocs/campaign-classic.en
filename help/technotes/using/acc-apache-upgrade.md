@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Security
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
 ---
 # Adobe Campaign - Apache version security update {#apache-update}
 

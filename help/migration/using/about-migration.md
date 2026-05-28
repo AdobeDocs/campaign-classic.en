@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Security
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-    internal-label: Administration (Campaign)
+    internal-label: Administration
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
-    internal-label: Upgrade (Campaign)
+    internal-label: Upgrade
 ---
 # Get started with the migration{#about-migration}
 

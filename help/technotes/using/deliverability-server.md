@@ -20,7 +20,7 @@ subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

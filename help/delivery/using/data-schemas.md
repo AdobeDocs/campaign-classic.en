@@ -14,18 +14,18 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
   - id: b631758a-142d-425f-b9aa-f756d85cb979
-    internal-label: Campaign Email Designer (Campaign)
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
-    internal-label: Prepare and test messages (Campaign)
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
-    internal-label: Email messaging (Campaign)
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-    internal-label: Email design (Campaign)
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-    internal-label: A/B testing (Campaign)
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-    internal-label: Manage deliverability (Campaign)
+    internal-label: Manage deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

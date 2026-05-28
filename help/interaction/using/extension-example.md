@@ -14,10 +14,10 @@ product_v2:
     internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
-    internal-label: Offer Management (Campaign)
+    internal-label: Offer Management
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
-    internal-label: Use cases (Campaign)
+    internal-label: Use cases
 ---
 # Extension example{#extension-example}
 

@@ -16,7 +16,7 @@ feature_v2:
     internal-label: Communication channels
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
-    internal-label: Response Management (Campaign)
+    internal-label: Response Management
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

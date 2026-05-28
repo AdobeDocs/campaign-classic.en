@@ -4,10 +4,6 @@ title: Campaign web components and version 100 in Chrome Firefox, and Edge brows
 description: Campaign web components and version 100 in Chrome, Firefox, and Edge browsers
 feature: Technote
 exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
-feature_v2: []
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
 ---
 # 3-digit browser version impacts on Campaign web components {#version-100}
 

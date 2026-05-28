@@ -13,12 +13,12 @@ product_v2:
     internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
-    internal-label: Communication channels (Campaign)
+    internal-label: Communication channels
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-    internal-label: Integrations (Campaign)
+    internal-label: Integrations
 subfeature_v2:
   - id: a79c82df-714a-4b22-beac-74500b5e034f
-    internal-label: Twitter integration (Campaign)
+    internal-label: Twitter integration
 ---
 # About social marketing{#about-social-marketing}
 

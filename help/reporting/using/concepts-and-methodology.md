@@ -6,15 +6,6 @@ feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-feature_v2:
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-    internal-label: Dynamic Reporting (Campaign)
-subfeature_v2:
-  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
-    internal-label: Reporting interface (Campaign)
-  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
-    internal-label: Customize reports (Campaign)
-  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
     internal-label: Cubes and multidimensional analysis (Campaign)
 ---
 # Best practices for cubes{#concepts-and-methodology}

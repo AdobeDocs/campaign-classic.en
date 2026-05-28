@@ -13,7 +13,7 @@ subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
     internal-label: Troubleshooting
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

@@ -11,7 +11,7 @@ product_v2:
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
 ---
 # Apple Push Notification service server certificate update {#apns-certificate-update}
 

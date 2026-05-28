@@ -17,9 +17,9 @@ feature_v2:
     internal-label: Integrations
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
-    internal-label: Access management (Campaign)
+    internal-label: Access management
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

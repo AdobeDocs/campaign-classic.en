@@ -13,7 +13,7 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
-    internal-label: Communication channels (Campaign)
+    internal-label: Communication channels
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Privacy
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-    internal-label: Web Forms (Campaign)
+    internal-label: Web Forms
 ---
 # Get started with surveys{#about-surveys}
 

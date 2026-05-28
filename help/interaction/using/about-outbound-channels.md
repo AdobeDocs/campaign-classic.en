@@ -12,7 +12,7 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
-    internal-label: Offer Management (Campaign)
+    internal-label: Offer Management
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience

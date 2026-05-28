@@ -14,7 +14,7 @@ product_v2:
     internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
-    internal-label: Offer Management (Campaign)
+    internal-label: Offer Management
 subfeature_v2: []
 ---
 # Offers on an outbound channel{#offers-on-an-outbound-channel}

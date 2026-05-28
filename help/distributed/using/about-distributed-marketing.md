@@ -14,7 +14,7 @@ feature_v2:
     internal-label: Campaigns
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
-    internal-label: Distributed Marketing (Campaign)
+    internal-label: Distributed Marketing
 ---
 # Get started with distributed marketing{#about-distributed-marketing}
 

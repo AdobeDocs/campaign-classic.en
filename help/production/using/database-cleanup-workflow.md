@@ -20,9 +20,9 @@ subfeature_v2:
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
     internal-label: Audit trail
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-    internal-label: Performance Monitoring (Campaign)
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
-    internal-label: Monitoring guidelines (Campaign)
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization

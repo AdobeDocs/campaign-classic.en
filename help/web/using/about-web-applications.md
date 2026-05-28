@@ -17,14 +17,14 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
-    internal-label: Communication channels (Campaign)
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
-    internal-label: Web Apps (Campaign)
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-    internal-label: Web Forms (Campaign)
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-    internal-label: Landing pages (Campaign)
+    internal-label: Landing pages
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

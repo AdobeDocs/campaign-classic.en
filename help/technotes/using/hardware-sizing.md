@@ -25,7 +25,7 @@ subfeature_v2:
   - id: fb2a841f-c522-491f-9901-a1b939d252df
     internal-label: Security
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration (Campaign)
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience

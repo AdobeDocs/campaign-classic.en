@@ -16,9 +16,9 @@ feature_v2:
     internal-label: APIs
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
-    internal-label: Distributed Marketing (Campaign)
+    internal-label: Distributed Marketing
   - id: e739ee2b-6228-412e-878f-45de0791417d
-    internal-label: Use cases (Campaign)
+    internal-label: Use cases
 ---
 # Distributed Marketing samples{#distributed-marketing-samples}
 

@@ -14,7 +14,7 @@ product_v2:
     internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-    internal-label: Profiles and audiences (Campaign)
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,13 +25,13 @@ level_v2:
     internal-label: Beginner
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-    internal-label: Profiles (Campaign)
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-    internal-label: Audiences (Campaign)
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
-    internal-label: Query Editor (Campaign)
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
-    internal-label: Access management (Campaign)
+    internal-label: Access management
 ---
 # Manage access to folders{#folder-access-management}
 

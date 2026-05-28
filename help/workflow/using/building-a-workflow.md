@@ -18,11 +18,11 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-    internal-label: Workflow HeatMap (Campaign)
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-    internal-label: Execution activities (Campaign)
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-    internal-label: Data Management activities (Campaign)
+    internal-label: Data Management activities
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

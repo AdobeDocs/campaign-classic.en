@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Schemas
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-    internal-label: Performance Monitoring (Campaign)
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
-    internal-label: Monitoring guidelines (Campaign)
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

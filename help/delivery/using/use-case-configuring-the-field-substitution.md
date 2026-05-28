@@ -14,14 +14,14 @@ topic_v2:
     internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
-    internal-label: Campaign Email Designer (Campaign)
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
-    internal-label: Prepare and test messages (Campaign)
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
-    internal-label: Email messaging (Campaign)
+    internal-label: Email messaging
   - id: e739ee2b-6228-412e-878f-45de0791417d
-    internal-label: Use cases (Campaign)
+    internal-label: Use cases
 ---
 # Use case: configure the field substitution{#use-case-configuring-the-field-substitution}
 

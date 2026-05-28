@@ -9,11 +9,6 @@ TQID: https://experienceleague.adobe.com/Xz3bnoS9EL84A5hx6WSqQlQC0G-sq-mO0j1-HTW
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-    internal-label: Campaigns
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-    internal-label: Dynamic Reporting (Campaign)
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,12 +20,6 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-subfeature_v2:
-  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
-    internal-label: Reporting interface (Campaign)
-  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
-    internal-label: Customize reports (Campaign)
-  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
     internal-label: Cubes and multidimensional analysis (Campaign)
 ---
 # Create indicators{#creating-indicators}

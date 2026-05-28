@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Reporting
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
-    internal-label: Offer Management (Campaign)
+    internal-label: Offer Management
 subfeature_v2: []
 ---
 # Simulation tracking{#simulation-tracking}

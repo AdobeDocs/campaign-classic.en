@@ -16,7 +16,7 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
-    internal-label: Prepare and test messages (Campaign)
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Administration
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
-    internal-label: Typology rules (Campaign)
+    internal-label: Typology rules
 ---
 # Consistency rules{#consistency-rules}
 

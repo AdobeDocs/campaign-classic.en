@@ -17,12 +17,12 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-    internal-label: Profiles and audiences (Campaign)
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
     internal-label: Permissions
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
-    internal-label: Subscription services (Campaign)
+    internal-label: Subscription services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

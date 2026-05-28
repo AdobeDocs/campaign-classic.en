@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Implementation
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
-    internal-label: Marketing Resource Management (Campaign)
+    internal-label: Marketing Resource Management
 ---
 # Manage marketing resources{#managing-marketing-resources}
 

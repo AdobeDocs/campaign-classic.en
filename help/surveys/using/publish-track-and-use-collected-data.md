@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Reporting
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
-    internal-label: Communication channels (Campaign)
+    internal-label: Communication channels
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-    internal-label: Web Forms (Campaign)
+    internal-label: Web Forms
 ---
 # Publish, track and use collected data{#publish-track-and-use-collected-data}
 
