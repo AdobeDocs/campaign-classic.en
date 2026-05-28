@@ -185,7 +185,7 @@ Adobe Campaign will not set a protection mode (fallback) on the objects it will 
 
 | disable default fallback  |
 | :-: |
-| ```MODIFY USER $login$ AS NO FALLBACK;```  |
+| `MODIFY USER $login$ AS NO FALLBACK;`  |
 
 ### MD5 installation {#md5-installation}
 
