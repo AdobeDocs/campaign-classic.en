@@ -131,13 +131,13 @@ The list of optional parameters is:
 |  Option | Description  |
 |:-:|:-:|
 |  appName(Legacy) |  AppID of the OAuth application registered in the Legacy Oath application where the public key was uploaded. For more on this, refer to this [page](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) |
-| authGatewayEndpoint(Legacy)  |  URL to get gateway tokens. Default: ```https://api.omniture.com``` |
-|  authPrivateKey(Legacy) |  The private key, public part uploaded in the Legacy Oath application, AES encrypted with the XtkKey option: ```cryptString("PRIVATE_KEY")``` |
+| authGatewayEndpoint(Legacy)  |  URL to get gateway tokens. Default: `https://api.omniture.com` |
+|  authPrivateKey(Legacy) |  The private key, public part uploaded in the Legacy Oath application, AES encrypted with the XtkKey option: `cryptString("PRIVATE_KEY")` |
 | disableAuth(Legacy)  | Disable authentication, connecting without gateway tokens will only be accepted by some development Pipeline endpoints. |
-| discoverPipelineEndpoint  |  URL to find the Pipeline Services endpoint to be used for this tenant. Default: ```https://producer-pipeline-pnw.adobe.net``` |
-| dumpStatePeriodSec  |  Period between two dumps of the internal state process in ```var/INSTANCE/pipelined.json.``` <br> Internal state is also accessible on-demand here: ```http://INSTANCE:7781/pipelined/status``` |
+| discoverPipelineEndpoint  |  URL to find the Pipeline Services endpoint to be used for this tenant. Default: `https://producer-pipeline-pnw.adobe.net` |
+| dumpStatePeriodSec  |  Period between two dumps of the internal state process in `var/INSTANCE/pipelined.json.` <br> Internal state is also accessible on-demand here: `http://INSTANCE:7781/pipelined/status` |
 | forcedPipelineEndpoint  |  Disable the detection of the PipelineServicesEndpoint to force it |
-| monitorServerPort  | The pipelined process will listen on this port to provide the internal state process here: ```http://INSTANCE:PORT/pipelined/status```. <br>Default is 7781  |
+| monitorServerPort  | The pipelined process will listen on this port to provide the internal state process here: `http://INSTANCE:PORT/pipelined/status`. <br>Default is 7781  |
 |  pointerFlushMessageCount |  When this number of messages is processed, the offsets will be saved in the database. <br> Default is 1000 |
 |  pointerFlushPeriodSec | After this period, the offsets will be saved in the database. <br>Default is 5 (secs) |
 | processingJSThreads  | Number of dedicated threads processing messages with custom JS connectors. <br> Default is 4  |
