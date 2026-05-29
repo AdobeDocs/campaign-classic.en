@@ -14,9 +14,15 @@ feature_v2:
     internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-    internal-label: PI
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization

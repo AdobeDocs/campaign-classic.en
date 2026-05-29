@@ -10,15 +10,17 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
 feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
     internal-label: Permissions
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-    internal-label: HeatMap
+    internal-label: Workflow HeatMap
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

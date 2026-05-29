@@ -16,14 +16,10 @@ feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
 subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-    internal-label: Permissions
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-    internal-label: Release notes
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-    internal-label: Upgrade
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

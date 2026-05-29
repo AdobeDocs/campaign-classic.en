@@ -13,6 +13,8 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
+feature_v2: []
+subfeature_v2: []
 ---
 # Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
 

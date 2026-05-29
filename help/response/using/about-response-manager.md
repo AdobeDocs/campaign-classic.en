@@ -15,8 +15,8 @@ feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
 subfeature_v2:
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-    internal-label: Direct mail
+  - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

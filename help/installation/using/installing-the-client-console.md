@@ -14,6 +14,8 @@ product_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
+feature_v2: []
+subfeature_v2: []
 ---
 # Install & Update the Campaign client console{#installing-the-client-console}
 

@@ -12,14 +12,13 @@ TQID: https://experienceleague.adobe.com/GyNWNrT81f8tWIQizlu3KcVgKvepCjqd6G40DKe
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-    internal-label: Campaigns
+feature_v2: []
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
+subfeature_v2: []
 ---
 # File and resource management{#file-and-resmanagement}
 

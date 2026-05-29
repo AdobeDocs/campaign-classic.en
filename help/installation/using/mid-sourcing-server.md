@@ -8,6 +8,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
+feature_v2: []
+subfeature_v2: []
 ---
 # Mid-sourcing server{#mid-sourcing-server}
 

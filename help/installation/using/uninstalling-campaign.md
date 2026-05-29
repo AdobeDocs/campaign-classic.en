@@ -12,6 +12,8 @@ TQID: https://experienceleague.adobe.com/Dm4S9swh30hagUhayZHmaOS3Cjh1U-sWiG7crbI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2: []
+subfeature_v2: []
 ---
 # Uninstalling Campaign{#uninstalling-campaign}
 

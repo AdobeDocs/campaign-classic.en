@@ -15,12 +15,17 @@ feature_v2:
     internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+subfeature_v2:
+  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 ---
 # Select the audience of your campaigns {#marketing-campaign-deliveries}
 

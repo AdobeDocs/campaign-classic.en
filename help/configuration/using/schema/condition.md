@@ -8,6 +8,8 @@ TQID: https://experienceleague.adobe.com/Jx8bLCt1UEqAZDm0cSuexx25js-e5xTsvkeSMzV
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2: []
+subfeature_v2: []
 ---
 # condition element {#condition--element}
 

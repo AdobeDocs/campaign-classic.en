@@ -15,6 +15,10 @@ product_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
+subfeature_v2: []
 ---
 # Managing offer presentation{#managing-offer-presentation}
 

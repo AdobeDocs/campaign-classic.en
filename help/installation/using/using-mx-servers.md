@@ -12,6 +12,8 @@ TQID: https://experienceleague.adobe.com/iXiiqwE6-FqHpRFes1bzJ5mLc3-z-HQBUR7ASL5
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2: []
+subfeature_v2: []
 ---
 # Using MX servers with Campaign {#using-mx-servers}
 

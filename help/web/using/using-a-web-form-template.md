@@ -9,6 +9,16 @@ TQID: https://experienceleague.adobe.com/Rv0Vn64-LJgNufPSOd0-1z0G7cDqMEN9QSrzZYr
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 ---
 # Use a web form template{#using-a-web-form-template}
 

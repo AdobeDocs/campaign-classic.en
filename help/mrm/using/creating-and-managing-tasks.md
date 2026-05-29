@@ -18,6 +18,9 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
+subfeature_v2:
+  - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 ---
 # Create and manage tasks{#creating-and-managing-tasks}
 

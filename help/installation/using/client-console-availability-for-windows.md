@@ -12,6 +12,8 @@ TQID: https://experienceleague.adobe.com/9FqLCew1PO-oxl2hBlK1-4L3SG7tVp28x8GUAPk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2: []
+subfeature_v2: []
 ---
 # Client console availability for Windows{#client-console-availability-for-windows}
 

@@ -17,6 +17,8 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+feature_v2: []
+subfeature_v2: []
 ---
 # Define additional SQL functions{#adding-additional-sql-functions}
 

@@ -20,6 +20,9 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+subfeature_v2:
+  - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 ---
 # Create hypotheses{#creating-hypotheses}
 

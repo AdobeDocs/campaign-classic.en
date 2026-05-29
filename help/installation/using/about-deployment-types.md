@@ -14,6 +14,8 @@ product_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
+feature_v2: []
+subfeature_v2: []
 ---
 # About deployment types{#about-deployment-types}
 

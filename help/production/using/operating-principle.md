@@ -20,12 +20,10 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
 subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-    internal-label: PI
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-    internal-label: Installation
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-    internal-label: Upgrade
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration

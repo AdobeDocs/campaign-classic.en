@@ -8,6 +8,8 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
+feature_v2: []
+subfeature_v2: []
 ---
 # Messaging server{#messaging-server}
 

@@ -10,21 +10,19 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
 feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
 subfeature_v2:
-  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
-    internal-label: Troubleshooting
-  - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
-    internal-label: Audit trail
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-    internal-label: Installation
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

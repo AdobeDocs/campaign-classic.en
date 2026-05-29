@@ -22,6 +22,8 @@ subfeature_v2:
     internal-label: Permissions
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration

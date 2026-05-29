@@ -17,6 +17,8 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
+feature_v2: []
+subfeature_v2: []
 ---
 # About web tracking{#about-web-tracking}
 

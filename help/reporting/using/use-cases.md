@@ -14,6 +14,18 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
+  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
+  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 ---
 # Analysis reporting use cases {#use-cases}
 

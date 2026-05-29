@@ -21,6 +21,10 @@ subfeature_v2:
     internal-label: Privacy
   - id: fb2a841f-c522-491f-9901-a1b939d252df
     internal-label: Security
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

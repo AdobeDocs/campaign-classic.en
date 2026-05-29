@@ -17,6 +17,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
+feature_v2: []
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 ---
 # Database performance{#database-performances}
 

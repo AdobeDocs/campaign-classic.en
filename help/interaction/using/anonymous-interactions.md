@@ -14,6 +14,10 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
+subfeature_v2: []
 ---
 # Anonymous interactions{#anonymous-interactions}
 

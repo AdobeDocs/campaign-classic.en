@@ -10,21 +10,19 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
 feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
 subfeature_v2:
-  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
-    internal-label: Troubleshooting
-  - id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
-    internal-label: ACS Connector
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-    internal-label: Installation
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-    internal-label: Use cases
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
+  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
+  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

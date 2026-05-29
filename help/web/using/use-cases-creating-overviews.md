@@ -13,6 +13,18 @@ product_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 ---
 # Use cases: create overview pages{#use-cases-creating-overviews}
 

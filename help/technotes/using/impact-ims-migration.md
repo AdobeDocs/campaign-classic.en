@@ -12,10 +12,8 @@ feature_v2:
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
     internal-label: Troubleshooting
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-    internal-label: Permissions
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-    internal-label: Release notes
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

@@ -15,9 +15,13 @@ product_v2:
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-    internal-label: PI
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management

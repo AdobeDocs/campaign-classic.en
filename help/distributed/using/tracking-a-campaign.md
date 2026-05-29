@@ -12,6 +12,9 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+subfeature_v2:
+  - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+    internal-label: Distributed Marketing
 ---
 # Track a campaign{#tracking-a-campaign}
 

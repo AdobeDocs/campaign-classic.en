@@ -17,6 +17,13 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 ---
 # Use case: supervise your workflows{#supervising-workflows}
 

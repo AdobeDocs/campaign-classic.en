@@ -9,9 +9,6 @@ TQID: https://experienceleague.adobe.com/Xz3bnoS9EL84A5hx6WSqQlQC0G-sq-mO0j1-HTW
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

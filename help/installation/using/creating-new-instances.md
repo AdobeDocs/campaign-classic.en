@@ -11,6 +11,8 @@ TQID: https://experienceleague.adobe.com/4XWDcRed-GK3sUfFT72sh9Hwz4aiI0fSwppFTvb
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+feature_v2: []
+subfeature_v2: []
 ---
 # Creating new instances{#creating-new-instances}
 

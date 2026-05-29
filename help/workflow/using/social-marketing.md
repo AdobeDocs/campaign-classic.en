@@ -4,7 +4,6 @@ title: Social Marketing
 description: Learn more about Social Marketing technical workflows
 feature: Workflows
 hide: true
-
 ---
 
 # Social Marketing{#social-marketing}
