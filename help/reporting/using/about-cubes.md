@@ -6,7 +6,6 @@ feature: Reporting, Monitoring
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 hide: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
-    internal-label: Cubes and multidimensional analysis (Campaign)
 ---
 # Get started with cubes{#about-cubes}
 

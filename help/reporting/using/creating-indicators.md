@@ -20,7 +20,6 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-    internal-label: Cubes and multidimensional analysis (Campaign)
 ---
 # Create indicators{#creating-indicators}
 

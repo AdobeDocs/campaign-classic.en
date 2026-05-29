@@ -6,7 +6,6 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Reporting, Monitoring
 hide: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-    internal-label: Cubes and multidimensional analysis (Campaign)
 ---
 # Use cubes to explore data{#using-cubes-to-explore-data}
 

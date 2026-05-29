@@ -5,7 +5,6 @@ description: Insert a barcode in an email
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 role: User
-    internal-label: Manage deliverability (Campaign)
 ---
 # Insert a barcode in an email{#insert-a-barcode-in-an-email}
 

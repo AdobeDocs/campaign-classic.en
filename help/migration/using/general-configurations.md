@@ -8,7 +8,6 @@ content-type: reference
 topic-tags: configuration
 hide: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-    internal-label: Upgrade (Campaign)
 ---
 # General configurations{#general-configurations}
 
