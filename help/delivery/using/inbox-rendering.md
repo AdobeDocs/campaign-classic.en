@@ -145,7 +145,7 @@ This report displays the inbox renderings as they appear to the recipient. The r
 
 The top section presents the repartition of number of messages received, unwanted (spam), not received, or pending reception through a graphical color-coded representation.
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
+![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
 
 Hover over the chart to display the details for each color. Click on an item on the list to hide or display the corresponding category in the chart.
 
