@@ -34,9 +34,19 @@ subfeature_v2:
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md).
 
-## Release 7.4.3 - Build 9394 {#release-7-4-3}
+## Release 7.4.3 {#release-7-4-3}
+
+### Build 9396 {#build-9396}
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+
+_June 9, 2026_
+
+This build includes security fixes. It is the recommended General Availability build and supersedes the previous Campaign Classic v7 builds.
+
+### Build 9394 {#build-9394}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 >[!CAUTION]
 >
@@ -44,11 +54,11 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 _Mar 31, 2026_
 
-### Security improvements {#security-7-4-3}
+#### Security improvements {#security-7-4-3}
 
 * To maintain optimal security, stability, and compliance, Debian has been upgraded to version 13 and PostgreSQL to version 17. Refer to the [compatibility matrix](compatibility-matrix.md).
 
-### Fixes {#fixes-7-4-3}
+#### Fixes {#fixes-7-4-3}
 
 >[!NOTE]
 >

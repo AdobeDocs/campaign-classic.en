@@ -41,7 +41,7 @@ topic_v2:
 
 ## Release 7.3.5 - Build 9368 {#release-7-3-5}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _December 5, 2023_
 
@@ -74,7 +74,7 @@ Starting this release, tracking links on emails that have already been sent will
 
 ## Release 7.3.4 - Build 9364 {#release-7-3-4}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 
 >[!CAUTION]
@@ -144,7 +144,7 @@ Fixed an issue which could cause Japanese characters to be incorrectly displayed
 
 ## Release 7.3.3 - Build 9359 {#release-7-3-3}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 >[!AVAILABILITY]
 >
@@ -180,7 +180,7 @@ _March 20, 2023_
 
 ## Release 7.3.2 - Build 9356 {#release-7-3-2}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 
 >[!AVAILABILITY]
