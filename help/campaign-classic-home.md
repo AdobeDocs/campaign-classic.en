@@ -40,9 +40,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Classic v7 product an
 >[!BEGINTABS]
 
 
->[!TAB April 2025 release is live!] 
+>[!TAB June 2026 release is live!] 
 
-Discover updates, improvements and fixes coming with Campaign Classic v7.4.2 - April '25 release.
+The Campaign Classic v7.4.3 - June '26 build comes with security updates on top of the previous release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
