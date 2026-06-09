@@ -19,7 +19,7 @@ subfeature_v2:
 
 ### Build 9391 {#build-9391} 
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _May 12, 2025_  
 
@@ -30,7 +30,7 @@ This build includes the following fixes:
 
 ### Build 9390 {#build-9390}
 
-[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _April 2, 2025_  
 
