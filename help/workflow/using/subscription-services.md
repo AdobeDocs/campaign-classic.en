@@ -76,3 +76,4 @@ You can check that the subscription was successful by going to the **[!UICONTROL
 * schema
 
 Each inbound event must specify a target defined by these parameters.
+

@@ -83,3 +83,4 @@ This video presents the key concepts of marketing campaigns.
 >[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 Additional [!DNL Campaign Classic] how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+

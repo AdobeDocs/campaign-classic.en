@@ -35,3 +35,4 @@ You can also insert variables directly from this editor. For more  information o
 Conditions can be added, deleted, or ordered from the activity property edit window, but can also be modified from the transition.
 
 If the result of a calculation is to be reused by different conditions, it is possible to calculate it in the initialization script of the activity. The result must be stored in a variable of the task to be accessed by the condition scripts (task.vars.xxx).
+

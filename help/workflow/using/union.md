@@ -61,3 +61,4 @@ Each inbound event must specify a target defined by these parameters.
 * recCount
 
 This set of three values identifies the target resulting from the union. **[!UICONTROL tableName]** is the name of the table that records the target identifiers, **[!UICONTROL schema]** is the schema of the population (usually nms:recipient) and **[!UICONTROL recCount]** is the number of elements in the table.
+

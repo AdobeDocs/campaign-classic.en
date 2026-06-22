@@ -206,3 +206,4 @@ Approvals (of a target or a delivery content, for instance) can be carried out v
 ![](assets/campaign_web_interface_validation.png)
 
 You can also use the link contained in the notification messages. For more on this, refer to [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+

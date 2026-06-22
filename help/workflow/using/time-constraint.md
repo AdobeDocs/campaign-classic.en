@@ -29,3 +29,4 @@ Enter the label for the activity and specify the time frame during which the wor
 When the **[!UICONTROL Try again later if outside of execution period]** option is selected, it lets you re-start the task outside of the execution time frame. if you want the workflow action to be abandoned for good after its suspension, deselect this option.
 
 ![](assets/s_user_scheduled_wait.png)
+

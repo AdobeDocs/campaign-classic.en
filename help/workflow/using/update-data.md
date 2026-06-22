@@ -134,3 +134,4 @@ The [Step 2: Writing enriched data to the 'Purchases' table](creating-a-summary-
 * schema
 
 Each inbound event must specify a target defined by these parameters.
+

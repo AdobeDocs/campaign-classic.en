@@ -39,3 +39,4 @@ The **[!UICONTROL Start]** and **[!UICONTROL End]** activities allow you to grap
   The data in the worktable is deleted automatically when the end activity is enabled. If this isn't necessary, and to avoid unnecessary loads, you can choose to disable the transition at the last activity output. For example, at a delivery output, if no process is scheduled, uncheck the relevant option as shown below:
 
   ![](assets/s_advuser_delivery_option_no_output.png)
+

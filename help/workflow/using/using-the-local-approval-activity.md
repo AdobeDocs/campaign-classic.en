@@ -224,3 +224,4 @@ This tab shows the following information:
 The **[!UICONTROL Targeted]** tab of the approval log displays the list of targeted recipients and their approval status. You can change this status if necessary. 
 
 ![](assets/local_validation_admin_6.png)
+

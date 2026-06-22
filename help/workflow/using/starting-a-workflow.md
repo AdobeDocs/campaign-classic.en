@@ -148,3 +148,4 @@ The following options are available in the right-click menu:
 >You can select a group of activities and apply one of these commands to them.
 
 The right-click menu is also detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#executing-a-workflow).
+
