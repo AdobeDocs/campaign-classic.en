@@ -398,3 +398,4 @@ On the extraction request date, the extraction file is created and the delivery 
 You can view the content of the extracted file (by clicking its name), approve it or, if necessary, change the format and re-launch the extraction using the links on the dashboard.
 
 Once the file has been approved, you can send the notification email to the router. For more on this, refer to [Start an offline delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).
+

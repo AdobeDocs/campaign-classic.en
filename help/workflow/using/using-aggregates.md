@@ -87,3 +87,4 @@ Once the link has been established, the aggregate result and the recipients make
 The result of the split activity thus relates to the recipients created the same day as the last known creation date.
 
 You can then add other activities such as a list update or a delivery to enrich your workflow.
+

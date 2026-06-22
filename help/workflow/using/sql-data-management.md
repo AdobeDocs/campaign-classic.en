@@ -132,3 +132,4 @@ AS SELECT i1.sFirstName, i1.sLastName, i2.sEmail
 FROM <%= task.incomingTransitionByName('input1').tableName %> i1
 JOIN <%= task.incomingTransitionByName('input2').tableName %> i2 ON (i1.id = i2.id)
 ```
+

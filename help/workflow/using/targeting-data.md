@@ -276,3 +276,4 @@ The identified and collected data can be enriched, aggregated and manipulated to
 * The **[!UICONTROL Enrichment]** activity lets you momentarily add columns to a schema, as well as add information to certain elements. It is detailed in the [Enrichment](enrichment.md) section of the repository of activities.
 * The **[!UICONTROL Edit schema]** activity lets you modify the structure of a schema. It is detailed in the [Edit schema](edit-schema.md) section of the repository of activities.
 * The **[!UICONTROL Change dimension]** activity lets you change the targeting dimension during the target construction cycle. It is detailed in the [Change dimension](change-dimension.md) section.
+

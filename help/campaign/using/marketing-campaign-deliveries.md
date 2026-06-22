@@ -256,3 +256,4 @@ This video explains how to create a campaign and an email in Adobe Campaign.
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+

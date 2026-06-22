@@ -84,3 +84,4 @@ The **Web download** activity launches the downloading of a file on an explicit 
 ## Output parameters {#output-parameters}
 
 * filename: Complete name of the downloaded file.
+

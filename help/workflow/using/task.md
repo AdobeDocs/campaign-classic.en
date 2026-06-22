@@ -35,3 +35,4 @@ How to configure and operate a task is detailed in [Campaign Classic v7 document
 ![](assets/wkf_task_activity.png)
 
 The **[!UICONTROL Resources]** option lets you define several operators as well as an approval schedule for the task. If the person approving rejects, this does not lead to the task itself being rejected.
+

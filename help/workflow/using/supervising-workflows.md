@@ -193,3 +193,4 @@ Double-click the **Delivery** activity and select the following options:
 Once this monitoring workflow is launched, it sends the following summary to the recipient:
 
 ![](assets/uc_monitoring_workflow_mailfinal.png)
+

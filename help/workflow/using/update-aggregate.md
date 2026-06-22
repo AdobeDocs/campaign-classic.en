@@ -43,3 +43,4 @@ By default, a full update is carried out during each calculation. To enable a pa
 **Good practice**: a **[!UICONTROL Scheduler]** activity can be used to specify the frequency of calculation updates.
 
 ![](assets/s_advuser_cube_agregate_04.png)
+
