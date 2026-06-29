@@ -36,13 +36,21 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.3 {#release-7-4-3}
 
-### Build 9396 {#build-9396}
+### Build 9397 {#build-9397}
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
-_June 9, 2026_
+_June 30, 2026_
 
 This build includes security fixes. It is the recommended General Availability build and supersedes the previous Campaign Classic v7 builds.
+
+### Build 9396 {#build-9396}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
+
+_June 9, 2026_
+
+This build includes security fixes.
 
 ### Build 9394 {#build-9394}
 
