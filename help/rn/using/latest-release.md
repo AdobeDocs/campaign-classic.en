@@ -42,7 +42,21 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 _June 30, 2026_
 
+#### Security improvements {#security-7-4-3-9397}
+
 This build includes security fixes. It is the recommended General Availability build and supersedes the previous Campaign Classic v7 builds.
+
+#### Other changes {#changes-7-4-3-9397}
+
+`webForm.jsp` now ignores client-supplied `ctx` parameters by default (controlled by the `disableCtxInWebForm` option, which defaults to `true`).
+
+If your webForm requests currently pass a `ctx` parameter, you can temporarily re-enable this behavior by adding the following to the `<web>` element of your `config-<instance>.xml` file. Plan to phase out this usage over time.
+
+<web>
+  ...
+  <jsp disableCtxInWebForm="false" />
+  ...
+</web>
 
 ### Build 9396 {#build-9396}
 
