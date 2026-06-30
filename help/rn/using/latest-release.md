@@ -48,9 +48,9 @@ This build includes security fixes. It is the recommended General Availability b
 
 #### Other changes {#changes-7-4-3-9397}
 
-`webForm.jsp` now ignores client-supplied `ctx` parameters by default (controlled by the `disableCtxInWebForm` option, which defaults to `true`).
+By default, webForm.jsp now ignores client-supplied `ctx` parameters. This is controlled by the `disableCtxInWebForm` parameter which is set to "true" by default.
 
-If your webForm requests currently pass a `ctx` parameter, you can temporarily re-enable this behavior by adding the following to the `<web>` element of your `config-<instance>.xml` file. Plan to phase out this usage over time.
+If your webForm requests currently pass a `ctx` parameter in, you can temporarily re-enable this behavior by adding the following to the <web> element of your config-<instance>.xml file. Plan to phase out this usage.
 
 ```
 <web>
