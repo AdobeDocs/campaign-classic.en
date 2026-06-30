@@ -52,11 +52,13 @@ This build includes security fixes. It is the recommended General Availability b
 
 If your webForm requests currently pass a `ctx` parameter, you can temporarily re-enable this behavior by adding the following to the `<web>` element of your `config-<instance>.xml` file. Plan to phase out this usage over time.
 
+```
 <web>
   ...
   <jsp disableCtxInWebForm="false" />
   ...
 </web>
+```
 
 ### Build 9396 {#build-9396}
 
