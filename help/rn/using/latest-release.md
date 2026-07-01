@@ -36,13 +36,37 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.3 {#release-7-4-3}
 
-### Build 9396 {#build-9396}
+### Build 9397 {#build-9397}
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
-_June 9, 2026_
+_June 30, 2026_
+
+#### Security improvements {#security-7-4-3-9397}
 
 This build includes security fixes. It is the recommended General Availability build and supersedes the previous Campaign Classic v7 builds.
+
+#### Other changes {#changes-7-4-3-9397}
+
+By default, webForm.jsp now ignores client-supplied `ctx` parameters. This is controlled by the `disableCtxInWebForm` parameter which is set to "true" by default.
+
+If your webForm requests currently pass a `ctx` parameter in, you can temporarily re-enable this behavior by adding the following to the <web> element of your config-<instance>.xml file. Plan to phase out this usage.
+
+```
+<web>
+  ...
+  <jsp disableCtxInWebForm="false" />
+  ...
+</web>
+```
+
+### Build 9396 {#build-9396}
+
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
+
+_June 9, 2026_
+
+This build includes security fixes.
 
 ### Build 9394 {#build-9394}
 
