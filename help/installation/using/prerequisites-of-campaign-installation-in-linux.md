@@ -54,6 +54,34 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
 * To use Adobe Campaign, you need to have the **libicu** library installed.
 
+* On RHEL distributions, **xalan-c** is mandatory. Install it via `epel-release`:
+
+  ```
+  dnf install epel-release
+  dnf install xalan-c
+  ```
+
+### PDF report export dependencies {#pdf-export-dependencies}
+
+The **wkhtmltopdf** tool is used when exporting reports to PDF format. It requires the following packages:
+
+* **libjpeg**
+* **xvfb**
+
+If PDF report export is not used, these packages do not need to be installed.
+
+On RHEL distributions:
+
+```
+dnf install libjpeg xvfb
+```
+
+On Debian:
+
+```
+apt-get install libjpeg-dev xvfb
+```
+
 ### SELinux {#selinux}
 
 When used, the SELinux module must be properly configured.
