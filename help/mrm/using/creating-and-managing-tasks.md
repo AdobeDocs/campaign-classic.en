@@ -8,7 +8,7 @@ content-type: reference
 hide: true
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-TQID: https://experienceleague.adobe.com/Mv-2GGcnP----L-D2h5DDz3StnT5rH4TlnQdxn9bdnY
+TQID: https://experienceleague.adobe.com/Mv-2GGcnP%2D%2D%2D%2DL-D2h5DDz3StnT5rH4TlnQdxn9bdnY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
