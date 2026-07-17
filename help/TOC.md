@@ -7,7 +7,7 @@ user-guide-title: Campaign Classic v7 Guide
 user-guide-description: Product documentation for Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-nudge: true
+nudge: false
 ---
 
 # Adobe Campaign Classic v7 Documentation {#using}
