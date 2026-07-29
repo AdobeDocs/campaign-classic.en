@@ -36,15 +36,27 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.3 {#release-7-4-3}
 
+### Build 9398 {#build-9398}
+
+[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+
+_July 29, 2026_
+
+#### Security improvements {#security-7-4-3-9398}
+
+Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the [security bulletin](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"}.
+
+A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual-commands.md#restart-services) is required to load the build and complete deployment. The fix is active by default once restarted.
+
 ### Build 9397 {#build-9397}
 
-[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
 
 _June 30, 2026_
 
 #### Security improvements {#security-7-4-3-9397}
 
-This build includes security fixes. It is the recommended General Availability build and supersedes the previous Campaign Classic v7 builds.
+This build includes security fixes and supersedes the previous Campaign Classic v7 builds. This build is now deprecated for on-premise and hybrid deployments; we encourage customers in these deployment modes to install the updates as soon as possible by upgrading to [Build 9398](#build-9398) or later.
 
 #### Other changes {#changes-7-4-3-9397}
 
