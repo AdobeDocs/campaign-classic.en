@@ -36,6 +36,20 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.3 {#release-7-4-3}
 
+### Build 9398 {#build-9398}
+
+[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+
+_July 29, 2026_
+
+#### Security improvements {#security-7-4-3-9398}
+
+Adobe has released a security update for Adobe Campaign Classic. This update addresses critical vulnerabilities that could result in arbitrary code execution and arbitrary file system read. Adobe is not aware of any exploits in the wild for any of the issues addressed in these updates.
+
+This security update applies only to fully on-premise deployments of Adobe Campaign Classic and to the on-premise components of hybrid deployments. Adobe-hosted instances have already been remediated and require no customer action.
+
+A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual-commands.md#restart-services) is required to load the build and complete deployment. The fix is active by default once restarted.
+
 ### Build 9397 {#build-9397}
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
