@@ -46,7 +46,7 @@ _July 29, 2026_
 
 Adobe has released a security update for Adobe Campaign Classic. This update addresses critical vulnerabilities that could result in arbitrary code execution and arbitrary file system read. Adobe is not aware of any exploits in the wild for any of the issues addressed in these updates.
 
-This security update applies only to fully on-premise deployments of Adobe Campaign Classic and to the on-premise components of hybrid deployments. Adobe-hosted instances have already been remediated and require no customer action.
+This security update applies only to fully on-premise deployments of Adobe Campaign Classic and to the on-premise components of hybrid deployments. Adobe-hosted instances have already been remediated and require no customer action. Please see the [security bulletin](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"} for more information.
 
 A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual-commands.md#restart-services) is required to load the build and complete deployment. The fix is active by default once restarted.
 
