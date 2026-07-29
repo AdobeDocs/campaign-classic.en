@@ -42,7 +42,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 >[!CAUTION]
 >
-> This is a mandatory security build for on-premise and hybrid environments. All customers in these deployment modes must upgrade to this build as soon as possible.
+> **This build is mandatory for fully on-premise deployments of Adobe Campaign Classic and for the on-premise components of hybrid deployments.** Adobe-hosted instances have already been remediated and require no customer action.
 
 _July 29, 2026_
 
