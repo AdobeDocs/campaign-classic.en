@@ -42,7 +42,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 >[!CAUTION]
 >
-> **This build is mandatory for fully on-premise deployments of Adobe Campaign Classic and for the on-premise components of hybrid deployments.** Adobe-hosted instances have already been remediated and require no customer action.
+> **This build is mandatory for fully on-premise and hybrid deployments of Adobe Campaign Classic.** Adobe-hosted instances have already been remediated and require no customer action.
 
 _July 29, 2026_
 
@@ -58,7 +58,7 @@ A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual
 
 >[!CAUTION]
 >
-> **This build is deprecated for on-premise deployments of Adobe Campaign Classic and for the on-premise components of hybrid deployments.** Customers in these deployment modes must upgrade to [Build 9398](#build-9398) or later.
+> **This build is deprecated for on-premise and hybrid deployments.** Customers in these deployment modes must upgrade to [Build 9398](#build-9398) or later.
 
 _June 30, 2026_
 
