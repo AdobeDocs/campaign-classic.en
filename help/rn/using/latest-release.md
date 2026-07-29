@@ -40,6 +40,10 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 [!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
 
+>[!CAUTION]
+>
+> This is a mandatory security build for on-premise and hybrid environments. All customers in these deployment modes must upgrade to this build as soon as possible.
+
 _July 29, 2026_
 
 #### Security improvements {#security-7-4-3-9398}
