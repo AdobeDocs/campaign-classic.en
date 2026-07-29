@@ -48,15 +48,17 @@ _July 29, 2026_
 
 #### Security improvements {#security-7-4-3-9398}
 
-Adobe has released a security update for Adobe Campaign Classic. This update addresses critical vulnerabilities that could result in arbitrary code execution and arbitrary file system read. Adobe is not aware of any exploits in the wild for any of the issues addressed in these updates.
-
-This security update applies only to fully on-premise deployments of Adobe Campaign Classic and to the on-premise components of hybrid deployments. Adobe-hosted instances have already been remediated and require no customer action. Please see the [security bulletin](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"} for more information.
+Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers to install the updates as soon as possible. You can find more information in the [security bulletin](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"}.
 
 A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual-commands.md#restart-services) is required to load the build and complete deployment. The fix is active by default once restarted.
 
 ### Build 9397 {#build-9397}
 
-[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+
+>[!CAUTION]
+>
+> **This build is deprecated for on-premise deployments of Adobe Campaign Classic and for the on-premise components of hybrid deployments.** Customers in these deployment modes must upgrade to [Build 9398](#build-9398) or later.
 
 _June 30, 2026_
 
