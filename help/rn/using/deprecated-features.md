@@ -71,6 +71,12 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Details</strong></td>
   </tr>
   <tr>
+ <td>Netsize SMPP connector</td>
+ <td><p>The Netsize SMPP connector is now deprecated. We recommend migrating to the <strong>Extended generic SMPP</strong> connector. For more information, refer to <a href="../../delivery/using/unsupported-connector-migration.md">this page</a>.</p>
+<p>Target removal date: January 2027</p>
+</td>
+</tr>
+<tr>
  <td>Campaign (Neolane) legacy SDK</td>
  <td><p>The Campaign (Neolane) SDK for mobile applications is now deprecated. Instead, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. Learn how to configure the Mobile App channel in <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 documentation</a>.</p>
 </td>
@@ -86,12 +92,6 @@ Customers are advised to review if they make use of the feature/capability in th
  <td><p>ACS Connector (Prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
-</tr>
-<tr>
- <td>Netsize SMPP connector</td>
- <td><p>The Netsize SMPP connector is now deprecated. We recommend migrating to the <strong>Extended generic SMPP</strong> connector. For more information, refer to <a href="../../delivery/using/unsupported-connector-migration.md">this page</a>.</p>
-<p>Target removal date: January 2027</p>
-</td>
 </tr>
  </tbody> 
 </table>
