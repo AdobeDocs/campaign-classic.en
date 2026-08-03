@@ -36,9 +36,21 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.3 {#release-7-4-3}
 
+### Build 9399 {#build-9399}
+
+[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+
+_August 3, 2026_
+
+#### Security improvements {#security-7-4-3-9399}
+
+Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the [security bulletin](https://helpx.adobe.com/security/products/campaign/apsb26-120.html){target="_blank"}.
+
+A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual-commands.md#restart-services) is required to load the build and complete deployment. The fix is active by default once restarted.
+
 ### Build 9398 {#build-9398}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _July 29, 2026_
 
@@ -50,7 +62,7 @@ A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual
 
 ### Build 9397 {#build-9397}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _June 30, 2026_
 
