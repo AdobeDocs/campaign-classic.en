@@ -50,7 +50,7 @@ A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual
 
 ### Build 9398 {#build-9398}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _July 29, 2026_
 
@@ -62,7 +62,7 @@ A [restart of the Adobe Campaign server (nlserver)](../../production/using/usual
 
 ### Build 9397 {#build-9397}
 
-[!BADGE Limited Availability]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Limited Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _June 30, 2026_
 
