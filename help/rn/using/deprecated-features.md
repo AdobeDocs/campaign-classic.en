@@ -87,6 +87,12 @@ Customers are advised to review if they make use of the feature/capability in th
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
+<tr>
+ <td>Netsize SMPP connector</td>
+ <td><p>The Netsize SMPP connector is now deprecated. We recommend migrating to the <strong>Extended generic SMPP</strong> connector. For more information, refer to <a href="../../delivery/using/unsupported-connector-migration.md">this page</a>.</p>
+<p>Target removal date: January 2027</p>
+</td>
+</tr>
  </tbody> 
 </table>
 
@@ -287,8 +293,6 @@ Starting 20.2 release, Legacy SMS connectors are deprecated. Adobe Campaign is n
 * Tele2
 * O2
 * iOS
-
-The Netsize SMPP connector is deprecated and will be removed in January 2027. We recommend migrating to the **[!UICONTROL Extended generic SMPP]** connector before this date. For more information, refer to [this page](../../delivery/using/unsupported-connector-migration.md).
 
 ### CRM connectors {#crm-connectors}
 
