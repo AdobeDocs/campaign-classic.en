@@ -65,7 +65,15 @@ Adobe Campaign is regularly updated. This regular frequency of updates aims at g
 
 This is the reason why it is critical that you **run the most recent stable build** of Adobe Campaign. It also ensures that you get a better support experience as identifying, reproducing and fixing an issue on a recent build is usually much faster. Also, many issues you may encounter have already been fixed in most recent builds.
 
+>[!NOTE]
+>
+> Each build is cumulative: it includes all the capabilities, improvements, and fixes delivered in earlier builds of the same release, in addition to its own changes. You do not need to install every intermediate build to benefit from previous fixes — installing the latest build brings you up to date with everything included in previous ones.
+
 As a hosted customer, you automatically benefit from the upgrade with the latest stable build without any action. Learn more in the [Yearly Upgrade section](#yearly-upgrade). If you migrate from an old build, Adobe recommends that you upgrade to this build first.
+
+### Security patching for hosted environments {#security-patching}
+
+To protect the integrity of hosted environments, Adobe reserves the right to apply critical security patches at any time and without prior notice, in order to remediate vulnerabilities as quickly as possible. These patches are deployed with no service interruption. This practice is consistent with Adobe's security governance standards, under which the urgency of remediating a critical vulnerability takes precedence over advance notification.
 
 ## Recommendations {#rn-recommendations}
 
