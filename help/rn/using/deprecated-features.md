@@ -73,7 +73,6 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr>
  <td>Campaign (Neolane) legacy SDK</td>
  <td><p>The Campaign (Neolane) SDK for mobile applications is now deprecated. Instead, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. Learn how to configure the Mobile App channel in <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 documentation</a>.</p>
-<p>Target removal date: July 31, 2025 </p>
 </td>
 </tr>
 <tr>
@@ -288,6 +287,8 @@ Starting 20.2 release, Legacy SMS connectors are deprecated. Adobe Campaign is n
 * Tele2
 * O2
 * iOS
+
+The Netsize SMPP connector is deprecated and will be removed in January 2027. We recommend migrating to the **[!UICONTROL Extended generic SMPP]** connector before this date. For more information, refer to [this page](../../delivery/using/unsupported-connector-migration.md).
 
 ### CRM connectors {#crm-connectors}
 
