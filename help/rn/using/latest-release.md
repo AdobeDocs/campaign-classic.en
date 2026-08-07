@@ -36,9 +36,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.4 {#release-7-4-4}
 
-<!-- TODO: replace build-tbc placeholder (heading + anchor) once the 7.4.4 build number is confirmed -->
-
-### Build TBC {#build-tbc}
+### Build 9400 {#build-9400}
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
