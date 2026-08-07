@@ -34,11 +34,27 @@ subfeature_v2:
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md).
 
+## Release 7.4.4 {#release-7-4-4}
+
+<!-- TODO: replace build-tbc placeholder (heading + anchor) once the 7.4.4 build number is confirmed -->
+
+### Build TBC {#build-tbc}
+
+[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+
+_August 12, 2026_
+
+This build includes several product improvements, security fixes, and the upgrade to the Adobe Analytics 2.0 API for the Adobe Analytics connector.
+
+#### Adobe Analytics 2.0 upgrade {#analytics-2-0-7-4-4}
+
+Adobe Analytics 1.4 APIs are reaching end-of-life. If you use the Adobe Analytics connector, you must upgrade to this build and complete a few migration steps depending on your deployment and use case. [Learn how to migrate to the Adobe Analytics 2.0 API](../../technotes/using/analytics-2-migration.md).
+
 ## Release 7.4.3 {#release-7-4-3}
 
 ### Build 9399 {#build-9399}
 
-[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _August 3, 2026_
 
