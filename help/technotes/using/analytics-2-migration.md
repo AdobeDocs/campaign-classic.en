@@ -49,7 +49,28 @@ If you are on an **on-premise or hybrid** deployment, complete the following ste
 
 ## Setting up a new Web Analytics external account {#setting-up-a-new-web-analytics-external-account}
 
-If you are configuring the [!UICONTROL Web Analytics] external account for the first time rather than migrating an existing one, follow the [external account setup steps](../../installation/using/external-accounts.md#web-analytics-external-account) and the [connector getting-started guide](../../integrations/using/gs-aa.md). Because Analytics 2.0 introduces new classification handling, you also need to create the matching [classification sets on the Analytics side](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"} before data will flow correctly between the two solutions.
+If you are configuring the [!UICONTROL Web Analytics] external account for the first time rather than migrating an existing one, follow the [external account setup steps](../../installation/using/external-accounts.md#web-analytics-external-account) and the [connector getting-started guide](../../integrations/using/gs-aa.md).
+
+Because Analytics 2.0 introduces new classification handling, you also need to create a classification set in Adobe Analytics before your external account can pick up your report suite's classification data. This is a new step: create it after configuring your Conversion variables and Success events, and before configuring the external account in Campaign.
+
+To create your classification set:
+
+1. From the [!DNL Adobe Analytics] top menu bar, select **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**, then click **[!UICONTROL New]**.
+
+   ![](assets/analytics-classification-set-menu.png)
+
+1. In the **[!UICONTROL Add New Classification Set]** dialog:
+
+   ![](assets/analytics-classification-set-dialog.png)
+
+   * Enter a **[!UICONTROL Name]** for the classification set.
+   * Set the **[!UICONTROL Type]** to **[!UICONTROL Primary]**.
+   * In **[!UICONTROL Job notifications]**, choose who should be notified on success or failure of the classification set jobs, and provide the corresponding email addresses.
+   * In **[!UICONTROL Subscriptions]**, select your report suite and the conversion variable you created for the internal campaign name in the previous step.
+
+1. Click **[!UICONTROL Save]**.
+
+This classification set will be automatically discovered by Campaign when you configure your external account in the next step. For more information on classification sets, refer to the [Adobe Analytics documentation](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
 
 ## Need help? {#need-help}
 
