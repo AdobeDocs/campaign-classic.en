@@ -12,7 +12,7 @@ Adobe Analytics 1.4 APIs are [reaching end-of-life](https://developer.adobe.com/
 
 >[!CAUTION]
 >
->Upgrading re-imports the two built-in technical workflows that power the connector, [!UICONTROL webAnalyticsSendMetrics] and [!UICONTROL webAnalyticsGetWebEvents] (see the [Web Analytics workflows reference](../../workflow/using/web-analytics.md) for what each one does). Any customization you made on top of these workflows is overwritten by the re-import. If you built a custom implementation around them, plan to re-apply and re-test that customization after the upgrade — it will otherwise stop working.
+>Upgrading re-imports the two built-in technical workflows that power the connector, [!UICONTROL webAnalyticsSendMetrics] and [!UICONTROL webAnalyticsGetWebEvents] (see the [Web Analytics workflows reference](../../workflow/using/web-analytics.md) for what each one does). Any customization you made on top of these workflows is overwritten by the re-import. Avoid modifying these built-in workflows directly — build your customization in a separate custom workflow instead, so future upgrades don't overwrite it. The upgrade also updates the built-in Analytics JavaScript files: if any of your custom workflows reference these files, they will break and need to be adapted to the new code.
 
 ## Are you impacted? {#are-you-impacted}
 
@@ -32,10 +32,9 @@ If you are on an **Adobe-hosted** instance, Adobe handles the SFTP provisioning,
 If you are on an **on-premise or hybrid** deployment, complete the following steps.
 
 1. [Upgrade your Campaign environment](../../production/using/build-upgrade.md) to a build that includes the Adobe Analytics 2.0 changes. You can confirm which build you are running from [!UICONTROL Help > About...] (see [how to check your Campaign version](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)).
-1. Review which of the use cases above apply to your instance, since the remaining steps depend on it.
-1. If you only send metrics and classification data (no remarketing flow), ask [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to enable the `FEATUREFLAG_USE_ANALYTICS_20_API` flag on your instance. No further configuration is required on your side for this use case.
-1. If you also use the remarketing flow, the [!UICONTROL webAnalyticsFindConverted] workflow needs a dedicated SFTP channel to exchange data with Adobe Analytics 2.0. Set this up as follows:
-   1. Provision an SFTP server for the instance, following the same [SFTP server best practices](../../platform/using/sftp-server-usage.md) (key-based authentication, dedicated storage) you'd apply to any other external SFTP integration.
+1. Review which of the use cases above apply to your instance, since the next step depends on it.
+1. If you use the remarketing flow, the [!UICONTROL webAnalyticsFindConverted] workflow needs a dedicated SFTP channel to exchange data with Adobe Analytics 2.0. Set this up as follows; otherwise, skip to the next step.
+   1. Provision an SFTP server for the instance using key-based authentication, following the same [SFTP server best practices](../../platform/using/sftp-server-usage.md) you'd apply to any other external SFTP integration.
    1. Register that server's connection details in Adobe Analytics by running the script delivered with the new build:
 
       ```
@@ -44,7 +43,8 @@ If you are on an **on-premise or hybrid** deployment, complete the following ste
 
    1. Allow-list Adobe Analytics on your SFTP server, since remarketing exports are only ever initiated from a small, fixed set of Adobe IP ranges:
       * [Look up the current Adobe Analytics data collection IP addresses](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses){target="_blank"} and add them to your SFTP server's allow list. FTP-based Analytics exports (including data feeds) only originate from IPv4 addresses in the London, Oregon, and Singapore regions.
-      * [Retrieve the Adobe Analytics public key](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"} and add it to your SFTP server so Analytics can authenticate.
+      * [Retrieve the Adobe Analytics public key](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"} and add it to the `authorized_keys` file on your SFTP server so Analytics can authenticate.
+1. Enable the `FEATUREFLAG_USE_ANALYTICS_20_API` feature flag on your instance by creating or setting this option to `true` under **[!UICONTROL Administration] > [!UICONTROL Platform] > [!UICONTROL Options]** in the Campaign Explorer tree. This step is required regardless of which use case above applies to you.
 1. Validate the migration by exercising each use case that applies to your instance (send a test campaign, check that indicators land in Analytics, and confirm remarketing data if applicable) before decommissioning any old connectivity.
 
 ## Setting up a new Web Analytics external account {#setting-up-a-new-web-analytics-external-account}
