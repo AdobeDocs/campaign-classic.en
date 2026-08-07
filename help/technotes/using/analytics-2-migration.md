@@ -33,10 +33,7 @@ If you are on an **on-premise or hybrid** deployment, complete the following ste
 1. [Upgrade your Campaign environment](../../production/using/build-upgrade.md) to a build that includes the Adobe Analytics 2.0 changes. You can confirm which build you are running from [!UICONTROL Help > About...] (see [how to check your Campaign version](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)).
 1. Review which of the use cases above apply to your instance, since the next step depends on it.
 1. If you use the remarketing flow, the [!UICONTROL webAnalyticsFindConverted] workflow needs a dedicated SFTP channel to exchange data with Adobe Analytics 2.0. Set this up as follows; otherwise, skip to the next step.
-   1. Provision an SFTP server for the instance using key-based authentication, following the same [SFTP server best practices](../../platform/using/sftp-server-usage.md) you'd apply to any other external SFTP integration.
-
-      <!-- TODO (blocking, per PR #1283 review from piygoel_adobe): add link to the sample SFTP setup script once shared by @aryad — do not finalize without it -->
-
+   1. Provision an SFTP server for the instance using key-based authentication, following the same [SFTP server best practices](../../platform/using/sftp-server-usage.md) you'd apply to any other external SFTP integration. Adobe provides a [sample SFTP setup script](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?package=/content/software-distribution/en/details.html/content/dam/campaign/public/setup_sftp.zip){target="_blank"} to help you get started.
    1. Register that server's connection details in Adobe Analytics by running the script delivered with the new build:
 
       ```
