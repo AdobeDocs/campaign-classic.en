@@ -3,7 +3,6 @@ product: campaign
 title: Migrate to the Adobe Analytics 2.0 API
 description: Campaign Classic - Adobe Analytics 2.0 API migration guide
 feature: Technote, Analytics Integration
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to v7 on-premise and hybrid deployments only"
 hide: true
 ---
 # Migrate to the Adobe Analytics 2.0 API {#analytics-2-migration}
@@ -35,19 +34,30 @@ If you are on an **on-premise or hybrid** deployment, complete the following ste
 1. Review which of the use cases above apply to your instance, since the next step depends on it.
 1. If you use the remarketing flow, the [!UICONTROL webAnalyticsFindConverted] workflow needs a dedicated SFTP channel to exchange data with Adobe Analytics 2.0. Set this up as follows; otherwise, skip to the next step.
    1. Provision an SFTP server for the instance using key-based authentication, following the same [SFTP server best practices](../../platform/using/sftp-server-usage.md) you'd apply to any other external SFTP integration.
+
+      <!-- TODO (blocking, per PR #1283 review from piygoel_adobe): add link to the sample SFTP setup script once shared by @aryad — do not finalize without it -->
+
    1. Register that server's connection details in Adobe Analytics by running the script delivered with the new build:
 
       ```
       nlserver javascript -instance:<instance_name> -arg:host=<sftp_host_url>#user=<sftp_user> -file <path_to_the_file>/aaremarketingLocation.js
       ```
 
-   1. Allow-list Adobe Analytics on your SFTP server, since remarketing exports are only ever initiated from a small, fixed set of Adobe IP ranges:
+      Example:
+
+      ```
+      nlserver javascript -instance:test_mkt_stage2 -arg:host=test-mkt-stage1.campaign.adobe.com#user=test -file ./nl6/datakit/nms/eng/js/aaremarketingLocation.js
+      ```
+
+   1. Allow-list Adobe Analytics on your SFTP server, since remarketing exports are only ever initiated from a fixed set of Adobe IP ranges:
       * [Look up the current Adobe Analytics data collection IP addresses](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses){target="_blank"} and add them to your SFTP server's allow list. FTP-based Analytics exports (including data feeds) only originate from IPv4 addresses in the London, Oregon, and Singapore regions.
       * [Retrieve the Adobe Analytics public key](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"} and add it to the `authorized_keys` file on your SFTP server so Analytics can authenticate.
-1. Enable the `FEATUREFLAG_USE_ANALYTICS_20_API` feature flag on your instance by creating or setting this option to `true` under **[!UICONTROL Administration] > [!UICONTROL Platform] > [!UICONTROL Options]** in the Campaign Explorer tree. This step is required regardless of which use case above applies to you.
+1. Enable the `FEATUREFLAG_USE_ANALYTICS_20_API` feature flag on your instance by creating or setting the `longvalue` of the option to `1` in [!UICONTROL xtkOption], under **[!UICONTROL Administration] > [!UICONTROL Platform] > [!UICONTROL Options]** in the Campaign Explorer tree. This step is required regardless of which use case above applies to you.
 1. Validate the migration by exercising each use case that applies to your instance (send a test campaign, check that indicators land in Analytics, and confirm remarketing data if applicable) before decommissioning any old connectivity.
 
 ## Setting up a new Web Analytics external account {#setting-up-a-new-web-analytics-external-account}
+
+The following applies whether your instance is Adobe-hosted or on-premise/hybrid.
 
 If you are configuring the [!UICONTROL Web Analytics] external account for the first time rather than migrating an existing one, follow the [external account setup steps](../../installation/using/external-accounts.md#web-analytics-external-account) and the [connector getting-started guide](../../integrations/using/gs-aa.md).
 
