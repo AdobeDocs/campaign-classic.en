@@ -40,9 +40,15 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
-_August 12, 2026_
+_August 11, 2026_
 
 This build includes several product improvements, security fixes, and the upgrade to the Adobe Analytics 2.0 API for the Adobe Analytics connector.
+
+#### Security improvements {#security-7-4-4-9400}
+
+Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the [security bulletin](https://helpx.adobe.com/security/products/campaign/apsb26-123.html){target="_blank"}.
+
+A restart of the Adobe Campaign server (nlserver) is required to load the build and complete deployment. The fix is active by default once restarted.
 
 #### Adobe Analytics 2.0 upgrade {#analytics-2-0-7-4-4}
 
