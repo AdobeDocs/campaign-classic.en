@@ -40,9 +40,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Classic v7 product an
 >[!BEGINTABS]
 
 
->[!TAB June 2026 release is live!] 
+>[!TAB August 2026 release is live!] 
 
-The Campaign Classic v7.4.3 - June '26 build comes with security updates on top of the previous release.
+The Campaign Classic v7.4.4 - August '26 build delivers security updates and upgrades the Adobe Analytics connector to the Analytics 2.0 API.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 

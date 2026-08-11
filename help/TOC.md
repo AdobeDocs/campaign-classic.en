@@ -807,6 +807,7 @@ nudge: false
           + {hide-from-toc} [2023 system upgrades](technotes/using/tech-stack-upgrade.md)
           + {hide-from-toc} [IMS updates](technotes/using/ims-updates.md)
           + {hide-from-toc} [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
+          + {hide-from-toc} [Migrate to the Adobe Analytics 2.0 API](technotes/using/analytics-2-migration.md)
      + Emails and push notifications{#technotes-email}
           + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
           + [How to  update incorrect hard bounces](delivery/using/update-bounce-qualification.md)
