@@ -27,7 +27,7 @@ subfeature_v2: []
 
 ## Scripting
 
-For more details, refer to [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+For more details, refer to [Campaign JSAPI documentation](https://experienceleague.adobe.com/en/tools/campaign-api).
 
 If you script using workflow, web applications, jssp, follow these best practices:
 
@@ -64,7 +64,7 @@ To avoid SQL injections, SQL functions must be added to the allowlist to be used
 >
 >If you are using a build that is older than 8140, the **XtkPassUnknownSQLFunctionsToRDBMS** option might be set to '1'. If you want to secure your database, delete this option (or set it to '0').
 
-If you are using user input to build filters in queries or SQL statements, you always have to escape them (refer to [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) - Data protection: escaping functions). These functions are:
+If you are using user input to build filters in queries or SQL statements, you always have to escape them (refer to [Campaign JSAPI documentation](https://experienceleague.adobe.com/en/tools/campaign-api) - Data protection: escaping functions). These functions are:
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
