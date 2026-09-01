@@ -85,6 +85,10 @@ You can also insert emoticons to your subject line with the **[!UICONTROL Insert
 >
 >For privacy reasons, we recommend using HTTPS for all external resources.
 
+>[!IMPORTANT]
+>
+>External URLs referenced in your message content must be added to the instance's approved URL allow list, or the corresponding resources will not be loaded. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
+
 The content of the message is defined in the lower section of the delivery configuration window.
 
 Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](email-parameters.md#selecting-message-formats).
