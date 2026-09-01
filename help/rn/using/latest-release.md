@@ -50,7 +50,7 @@ A restart of the Adobe Campaign server (nlserver) is required to load the build 
 
 ### Build 9400 {#build-9400}
 
-[!BADGE Deprecated]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _August 11, 2026_
 
