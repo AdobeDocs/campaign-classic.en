@@ -104,7 +104,7 @@ The commands are displayed in the same order as they are declared in the XML doc
 
 A command separator lets you display a separation bar between commands. It is identified by the **'-'** value contained in the command label.
 
-The optional presence of the **`<soapcall>`** tag with its input parameters defines the call of a SOAP method to be executed. For further information on the SOAP API, refer to [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+The optional presence of the **`<soapcall>`** tag with its input parameters defines the call of a SOAP method to be executed. For further information on the SOAP API, refer to [Campaign JSAPI documentation](https://experienceleague.adobe.com/en/tools/campaign-api).
 
 The form context can be updated on initialization from the **`<enter>`** tag. For further information on this tag, refer to the documentation on input forms.
 
@@ -277,7 +277,7 @@ The commands are displayed in the same order as they are declared in the XML doc
 
 A command separator lets you display a separation bar between commands. It is identified by the **'-'** value contained in the command label.
 
-The optional presence of the **`<soapcall>`** tag with its input parameters defines the call of a SOAP method to be executed. For further information about SOAP APIs, refer to [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+The optional presence of the **`<soapcall>`** tag with its input parameters defines the call of a SOAP method to be executed. For further information about SOAP APIs, refer to [Campaign JSAPI documentation](https://experienceleague.adobe.com/en/tools/campaign-api).
 
 The form context can be updated on initialization via the **`<enter>`** tag. For further information about this tag, refer to the input form documentation.
 
