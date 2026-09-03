@@ -48,6 +48,12 @@ Adobe has released security updates for Adobe Campaign Classic that address crit
 
 A restart of the Adobe Campaign server (nlserver) is required to load the build and complete deployment. The fix is active by default once restarted.
 
+#### External URL allow list update {#security-enhancement-url-validation-9401}
+
+This release includes an update to the external URL allow list used for delivery content and attachments. Make sure all domains you currently reference are added to your instance's approved allow list.
+
+As a Campaign Administrator, use the Control Panel to add external URLs currently used in your deliveries to the allow list, and follow the same process for any new external URL going forward. Complete this activity by 5 September 2026 to avoid impact to affected deliveries. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
+
 ### Build 9400 {#build-9400}
 
 [!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}

@@ -68,6 +68,10 @@ The procedure for generating dynamic tables is as follows:
 
 ## Insert external images {#inserting-external-images}
 
+>[!IMPORTANT]
+>
+>Release 7.4.4 (build 9401) includes an update to the external URL allow list. Make sure the domains used for external images in your attachments are added to your instance's approved allow list so that resources continue to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
+
 The insertion of external images is useful if, for instance, you want to personalize a document with an image whose URL is entered in a field of the recipient.
 
 To do this, you need to configure a personalization block, then include a call to the personalization block in the attachment.

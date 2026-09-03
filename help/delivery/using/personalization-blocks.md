@@ -139,6 +139,10 @@ A list of personalization blocks is available by default to help you personalize
 
 ## Define custom personalization blocks {#defining-custom-personalization-blocks}
 
+>[!IMPORTANT]
+>
+>Release 7.4.4 (build 9401) includes an update to the external URL allow list. If a custom personalization block references an external URL (for example, an externally-hosted image), make sure that domain is added to your instance's approved allow list so that the resource continues to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
+
 You can define new personalization fields to be inserted from the personalized field icon via the **[!UICONTROL Include...]** menu. These fields are defined in personalization blocks.
 
 To create a personalization block, go to the explorer and apply the following steps:
