@@ -82,12 +82,10 @@ As an on-premise / hybrid customer, you must install Adobe Campaign in one of th
 <td>
 <p>2022</p>
 <p>2019</p>
-<p>2016</p>
 </td>
 <td>
 <p>v7.4</p>
 <p>v7.2</p>
-<p></p>
 </td>
 </tr>
 </tbody>
@@ -448,12 +446,10 @@ The following operating systems and browser are **required** to use [Campaign Cl
 <td>
 <p>2022</p>
 <p>2019</p>
-<p>2016</p>
 </td>
 <td>
 <p>v7.4.1</p>
 <p>v7.2.1</p>
-<p></p>
 </tbody>
 </table>
 
