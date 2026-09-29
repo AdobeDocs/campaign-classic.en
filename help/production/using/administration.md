@@ -42,9 +42,9 @@ The following commands are used to start up and shut down the Adobe Campaign ser
     * **/etc/init.d/nlserver6 start**
     * **/etc/init.d/nlserver6 stop**
 
- >[!NOTE]
- >
- >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver** / **systemctl stop nlserver**
+    >[!NOTE]
+    >
+    >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver** / **systemctl stop nlserver**
 
 Here is a list of the usual administration commands accessible in Linux (as **Adobe Campaign**):
 

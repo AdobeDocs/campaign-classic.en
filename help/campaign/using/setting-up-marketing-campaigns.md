@@ -133,15 +133,15 @@ Recurring campaigns are created from a specific template defining the workflow t
 
 1. For this type of campaign, a **[!UICONTROL Schedule]** tab is added in order to create the template execution schedule.
 
-  In this tab, specify the planned execution dates of the campaigns based on this template.
+    In this tab, specify the planned execution dates of the campaigns based on this template.
 
-  ![](assets/s_ncs_user_op_template_recur_planning.png)
+    ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-  The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. For more on this, refer to [this section](../../workflow/using/architecture.md).
+    The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. For more on this, refer to [this section](../../workflow/using/architecture.md).
 
-  >[!IMPORTANT]
-  >
-  >Execution schedule configuration must be performed carefully to avoid overloading the database. Recurring campaigns duplicate the workflow(s) of their template depending on the specified schedule. The implementation of excessively frequent workflow creation can hinder the operation of the database.
+    >[!IMPORTANT]
+    >
+    >Execution schedule configuration must be performed carefully to avoid overloading the database. Recurring campaigns duplicate the workflow(s) of their template depending on the specified schedule. The implementation of excessively frequent workflow creation can hinder the operation of the database.
 
 1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
 1. Create the workflow template to be used in campaigns based on this template, with the targeting parameters and one or more generic deliveries.
