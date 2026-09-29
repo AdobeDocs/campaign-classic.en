@@ -113,9 +113,9 @@ To do this, follow the steps below:
 
     ![](assets/start-database-update.png)
 
-  >[!NOTE]
-  >
-  >Once the update of the physical structure of the database is successfully completed, you need to disconnect and reconnect so that your modifications are taken into account.
+    >[!NOTE]
+    >
+    >Once the update of the physical structure of the database is successfully completed, you need to disconnect and reconnect so that your modifications are taken into account.
 
 ### Step 3: Validate the modification
 

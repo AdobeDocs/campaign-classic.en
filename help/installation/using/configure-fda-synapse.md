@@ -113,9 +113,9 @@ To configure Azure Synapse on CentOS, follow the steps below:
 
 ## Azure Synapse on Windows {#azure-windows}
 
-   >[!NOTE]
-   >
-   >This is exclusive to version 13 of the ODBC Driver but Adobe Campaign Classic can also use SQL Server Native Client drivers 11.0 and 10.0.
+>[!NOTE]
+>
+>This is exclusive to version 13 of the ODBC Driver but Adobe Campaign Classic can also use SQL Server Native Client drivers 11.0 and 10.0.
 
 To configure Azure Synapse on Windows:
 
