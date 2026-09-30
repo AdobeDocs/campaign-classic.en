@@ -40,11 +40,17 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
+>[!IMPORTANT]
+>
+> These are early release notes. Please note that Jira numbers and notes are for reviewing only. They will be removed before publication.
+
 _October 1, 2026_
 
 #### Fixes {#fixes-7-4-5}
 
-<!-- New ones 100% (6 Jiras) -->
+<!-- New ones 100% (5 Jiras) -->
+`New 7.4.5 fixes (5 jiras)`
+
 * Fixed an issue where the Analytics external account could fail with a "Gone" (410) error. (NEO-99019)
 * Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
 * Fixed an issue where an internal locking mechanism could enter a retry loop and cause high CPU usage on the server. (NEO-94845)
@@ -52,6 +58,8 @@ _October 1, 2026_
 * Fixed an issue where a "Spam check failed" error could incorrectly appear while creating or editing a delivery. (NEO-53888)
 
 <!-- From 7.4.3 build 9394 (3 Jiras) -->
+`7.4.3 fixes, already documented, duplicates (3 jiras)`
+
 * Fixed an issue where integer columns loaded from Snowflake through a Data Loading (RDBMS) activity were incorrectly typed as strings in the generated temporary schema. (NEO-95534)
 * Fixed an issue where coupon assignment could fail during delivery message preparation due to a SQL syntax error when looking up coupon codes. (NEO-92857)
 * Fixed an issue where recipients were not quarantined as expected after recurring soft bounces. (NEO-94422)
