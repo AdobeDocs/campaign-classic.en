@@ -40,8 +40,6 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
-`These are early release notes. Please note that Jira numbers and notes are for reviewing only. They will be removed before publication.`
-
 _October 1, 2026_
 
 #### Fixes {#fixes-7-4-5}
