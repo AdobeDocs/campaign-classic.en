@@ -44,14 +44,17 @@ _October 1, 2026_
 
 #### Fixes {#fixes-7-4-5}
 
+<!-- New ones 100% (6 Jiras) -->
 * Fixed an issue where the Analytics external account could fail with a "Gone" (410) error. (NEO-99019)
-* Fixed an issue where integer columns loaded from Snowflake through a Data Loading (RDBMS) activity were incorrectly typed as strings in the generated temporary schema. (NEO-95534)
 * Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
 * Fixed an issue where an internal locking mechanism could enter a retry loop and cause high CPU usage on the server. (NEO-94845)
-* Fixed an issue where recipients were not quarantined as expected after recurring soft bounces. (NEO-94422)
-* Fixed an issue where coupon assignment could fail during delivery message preparation due to a SQL syntax error when looking up coupon codes. (NEO-92857)
 * Fixed an issue where data model updates could fail intermittently. (NEO-84347) (NEO-84824)
 * Fixed an issue where a "Spam check failed" error could incorrectly appear while creating or editing a delivery. (NEO-53888)
+
+<!-- From 7.4.3 build 9394 (3 Jiras) -->
+* Fixed an issue where integer columns loaded from Snowflake through a Data Loading (RDBMS) activity were incorrectly typed as strings in the generated temporary schema. (NEO-95534)
+* Fixed an issue where coupon assignment could fail during delivery message preparation due to a SQL syntax error when looking up coupon codes. (NEO-92857)
+* Fixed an issue where recipients were not quarantined as expected after recurring soft bounces. (NEO-94422)
 
 ## Release 7.4.4 {#release-7-4-4}
 
