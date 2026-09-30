@@ -52,7 +52,7 @@ _October 1, 2026_
 * Fixed an issue where the Analytics external account could fail with a "Gone" (410) error. (NEO-99019)
 * Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
 * Fixed an issue where an internal locking mechanism could enter a retry loop and cause high CPU usage on the server. (NEO-94845)
-* Fixed an issue where data model updates could fail intermittently. (NEO-84347) (NEO-84824)
+* Fixed an issue where data model updates could fail intermittently. (NEO-84347, NEO-84824)
 * Fixed an issue where a "Spam check failed" error could incorrectly appear while creating or editing a delivery. (NEO-53888)
 
 <!-- From 7.4.3 build 9394 (3 Jiras) -->
