@@ -6,10 +6,12 @@ feature: Mobile SDK Integration, Push
 role: User, Developer
 hide: true
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-TQID: https://experienceleague.adobe.com/-WrV4RTfV-NAowbLBcfEDXJrWMu9j8OjnIZcCSvSquY
+TQID: 'https://experienceleague.adobe.com/-WrV4RTfV-NAowbLBcfEDXJrWMu9j8OjnIZcCSvSquY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
@@ -17,6 +19,21 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
+  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
+  - id: b45a4838-5b62-4448-8ed8-7d42a4be276a
+    internal-label: Mobile SDK integration
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,15 +46,6 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-    internal-label: Email messaging
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-    internal-label: Email design
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-    internal-label: A/B testing
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-    internal-label: Manage deliverability
 ---
 # Integrate Campaign SDK with your app {#integrating-campaign-sdk-into-the-mobile-application}
 

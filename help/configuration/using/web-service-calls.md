@@ -5,10 +5,12 @@ description: Web service calls
 feature: API
 role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-TQID: https://experienceleague.adobe.com/-VSnXHtg3Zi3VGHVAF72uRpJa3gulT3h40BIsdnGjqo
+TQID: 'https://experienceleague.adobe.com/-VSnXHtg3Zi3VGHVAF72uRpJa3gulT3h40BIsdnGjqo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs

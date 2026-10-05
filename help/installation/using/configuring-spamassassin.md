@@ -8,15 +8,23 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
-TQID: https://experienceleague.adobe.com/vdeIEtt5-uhrKN-DcrRJQRmKV2zGin7BuXkPia4b25g
+TQID: 'https://experienceleague.adobe.com/vdeIEtt5-uhrKN-DcrRJQRmKV2zGin7BuXkPia4b25g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-feature_v2: []
-subfeature_v2: []
 ---
 # Configuring SpamAssassin{#configuring-spamassassin}
 

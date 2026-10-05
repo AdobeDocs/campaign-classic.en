@@ -4,14 +4,22 @@ title: Technote - Apple Push Notification service server certificate update
 description: Apple Push Notification service server certificate update
 feature: Technote, Push
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-TQID: https://experienceleague.adobe.com/3tQ4npyE0-ZfCgVPYy3kiRv1q0HPcq-DI4rpAXTCXb0
+TQID: 'https://experienceleague.adobe.com/3tQ4npyE0-ZfCgVPYy3kiRv1q0HPcq-DI4rpAXTCXb0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 ---
 # Apple Push Notification service server certificate update {#apns-certificate-update}
 

@@ -5,17 +5,25 @@ description: Campaign - IMS updates
 feature: Technote, Upgrade
 hide: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-TQID: https://experienceleague.adobe.com/JEGK7xRIWwipkqKnRGEByK7pCBCkgXzOrbMPHoXCDUU
+TQID: 'https://experienceleague.adobe.com/JEGK7xRIWwipkqKnRGEByK7pCBCkgXzOrbMPHoXCDUU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-feature_v2: []
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}
 

@@ -5,18 +5,28 @@ description: Offers by cell
 feature: Workflows, Targeting Activity, Interaction
 hide: true
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
-TQID: https://experienceleague.adobe.com/ddCHWdqnyWjUtP3lcc3yIaUHffGkNCbnVKWiJVfhdjg
+TQID: 'https://experienceleague.adobe.com/ddCHWdqnyWjUtP3lcc3yIaUHffGkNCbnVKWiJVfhdjg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-    internal-label: Workflow HeatMap
+    internal-label: HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
     internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
     internal-label: Data Management activities
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
 ---
 # Offers by cell{#offers-by-cell}
 

@@ -5,10 +5,12 @@ description: Get started with SMS channel
 feature: SMS
 role: User
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
-TQID: https://experienceleague.adobe.com/bk-HUOGv3u60NzOnXD0huo74lBJJuiBOaOJeGmPa2E4
+TQID: 'https://experienceleague.adobe.com/bk-HUOGv3u60NzOnXD0huo74lBJJuiBOaOJeGmPa2E4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -16,12 +18,8 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-    internal-label: Troubleshooting
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -31,6 +29,14 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Get started with SMS channel{#sms-channel}
 

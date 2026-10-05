@@ -7,11 +7,17 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
-TQID: https://experienceleague.adobe.com/n-ppeL-j1SdCPTXFo8Mw4GEWcSD4L7LnDxg9K9klU3U
+TQID: 'https://experienceleague.adobe.com/n-ppeL-j1SdCPTXFo8Mw4GEWcSD4L7LnDxg9K9klU3U'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
     internal-label: Performance Monitoring

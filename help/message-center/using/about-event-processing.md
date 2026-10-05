@@ -7,15 +7,23 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-TQID: https://experienceleague.adobe.com/pex7wiGCNMdY86-Ug7dyLxE3RRT-ejlgz8eH7zVmZc4
+TQID: 'https://experienceleague.adobe.com/pex7wiGCNMdY86-Ug7dyLxE3RRT-ejlgz8eH7zVmZc4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: 6d358f27-4f3c-5ddf-9159-05192e672ba7
+    internal-label: Message Center
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-feature_v2: []
-subfeature_v2: []
 ---
 # Event processing {#about-event-processing}
 

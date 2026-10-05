@@ -5,12 +5,20 @@ description: Learn how to install Campaign built-in packages
 feature: Installation, Application Settings
 badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-TQID: https://experienceleague.adobe.com/o-8uf081NQCy3ZB8mmLk0Gm8J9Pu--Zh4znqn3HUjr0
+TQID: 'https://experienceleague.adobe.com/o-8uf081NQCy3ZB8mmLk0Gm8J9Pu--Zh4znqn3HUjr0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
-subfeature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

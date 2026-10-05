@@ -4,13 +4,17 @@ title: Get started with transactional messaging
 description: Learn more on the Adobe Campaign Classic transactional messaging operating principle and key steps
 feature: Transactional Messaging, Message Center
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-TQID: https://experienceleague.adobe.com/n4w2hZkuzHlD3Axc1tUCGfBQ13D28j3Xpmdh07tVr4g
+TQID: 'https://experienceleague.adobe.com/n4w2hZkuzHlD3Axc1tUCGfBQ13D28j3Xpmdh07tVr4g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
+  - id: 6d358f27-4f3c-5ddf-9159-05192e672ba7
+    internal-label: Message Center
 subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
     internal-label: Transactional messaging

@@ -6,10 +6,12 @@ feature: Configuration
 role: Developer
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-TQID: https://experienceleague.adobe.com/9HCx821ff3mVcpUhmpUziFpZdmAnPUC49ootzGDOjLQ
+TQID: 'https://experienceleague.adobe.com/9HCx821ff3mVcpUhmpUziFpZdmAnPUC49ootzGDOjLQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
@@ -20,6 +22,8 @@ subfeature_v2:
     internal-label: PI
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
     internal-label: Upgrade
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

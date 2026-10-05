@@ -8,19 +8,21 @@ content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-TQID: https://experienceleague.adobe.com/PnBnslBSLLV6MNF9KlyJQ-n2jGA-r4N6KASrrG3-65k
+TQID: 'https://experienceleague.adobe.com/PnBnslBSLLV6MNF9KlyJQ-n2jGA-r4N6KASrrG3-65k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
     internal-label: Upgrade
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Migrate a Microsoft Windows platform to Campaign v7{#migrating-in-windows-for-adobe-campaign}
 

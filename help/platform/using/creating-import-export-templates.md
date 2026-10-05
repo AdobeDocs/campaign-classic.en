@@ -8,13 +8,17 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
-TQID: https://experienceleague.adobe.com/KV2jYphvbknvGlfCH0k7QPdfPCAWgwg-X67ICvPmADo
+TQID: 'https://experienceleague.adobe.com/KV2jYphvbknvGlfCH0k7QPdfPCAWgwg-X67ICvPmADo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: baf8e746-117b-5e73-b179-0a83edc0295f
+    internal-label: Templates
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles

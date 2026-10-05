@@ -5,15 +5,19 @@ description: Learn how to connect Campaign and Microsoft Dynamics
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 hide: true
-TQID: https://experienceleague.adobe.com/44zbpdKmmkaUnaKuvB39Tw8TA-sIFHXlCBKyfRiGEvs
+TQID: 'https://experienceleague.adobe.com/44zbpdKmmkaUnaKuvB39Tw8TA-sIFHXlCBKyfRiGEvs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -23,6 +27,8 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement

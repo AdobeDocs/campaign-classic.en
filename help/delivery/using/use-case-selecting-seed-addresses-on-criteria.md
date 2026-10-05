@@ -1,14 +1,16 @@
 ---
 product: campaign
-title: "Use case: select seed addresses on criteria"
-description: "Use case: select seed addresses on criteria"
+title: 'Use case: select seed addresses on criteria'
+description: 'Use case: select seed addresses on criteria'
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-TQID: https://experienceleague.adobe.com/vVOd7BFN-EgiwiYk-ssMDkkmcUnRyI62tpMk2R-FVAQ
+TQID: 'https://experienceleague.adobe.com/vVOd7BFN-EgiwiYk-ssMDkkmcUnRyI62tpMk2R-FVAQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
@@ -16,14 +18,16 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
+  - id: f852274f-9e3d-5d58-ae48-3ec2fd81baf0
+    internal-label: Seed Address
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use case: select seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}
 

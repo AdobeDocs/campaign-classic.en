@@ -4,16 +4,20 @@ title: Schema elements and attributes - element element
 description: element element
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-TQID: https://experienceleague.adobe.com/MbBmc-H9eZfmqWy-vZb6dd-m-l0G-UxtY-HAboNURjc
+TQID: 'https://experienceleague.adobe.com/MbBmc-H9eZfmqWy-vZb6dd-m-l0G-UxtY-HAboNURjc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
+  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
 ---
 # element element {#element--element}
 

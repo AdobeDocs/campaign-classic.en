@@ -5,6 +5,19 @@ description: Adobe Campaign configuration updates
 feature: Technote, Upgrade
 hide: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 ---
 # Adobe Campaign configuration updates 2021 {#acc-config-updates}
 

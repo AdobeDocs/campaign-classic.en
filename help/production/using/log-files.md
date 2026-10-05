@@ -8,19 +8,23 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
-TQID: https://experienceleague.adobe.com/ueoodkXqvcxSjb4Q2NOKXrTgZIiQEGvBiW8JQF-PFss
+TQID: 'https://experienceleague.adobe.com/ueoodkXqvcxSjb4Q2NOKXrTgZIiQEGvBiW8JQF-PFss'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
     internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Log files{#log-files}
 

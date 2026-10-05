@@ -7,18 +7,26 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-TQID: https://experienceleague.adobe.com/e4mk1nx7CoqoUJv39nnr5ynkz629kEzR3jdP-lyMUzA
+TQID: 'https://experienceleague.adobe.com/e4mk1nx7CoqoUJv39nnr5ynkz629kEzR3jdP-lyMUzA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: 6d358f27-4f3c-5ddf-9159-05192e672ba7
+    internal-label: Message Center
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
     internal-label: Permissions
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

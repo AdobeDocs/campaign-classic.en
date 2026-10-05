@@ -6,10 +6,12 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: A/B Testing
 role: User
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-TQID: https://experienceleague.adobe.com/D4O223FYCiIwT-P4WCXa1gYjxB56lCGVIuGL3x-fDRo
+TQID: 'https://experienceleague.adobe.com/D4O223FYCiIwT-P4WCXa1gYjxB56lCGVIuGL3x-fDRo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -17,14 +19,14 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
 subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
     internal-label: A/B testing
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # AB testing: Create a targeting workflow {#step-1--creating-a-targeting-workflow}
 

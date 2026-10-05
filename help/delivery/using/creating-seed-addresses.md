@@ -6,10 +6,12 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Seed Address
 role: User, Developer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-TQID: https://experienceleague.adobe.com/ya4m8nG7m3DUj-buOZMnd2Nzfx1J6lmIiOuo1VcHjwU
+TQID: 'https://experienceleague.adobe.com/ya4m8nG7m3DUj-buOZMnd2Nzfx1J6lmIiOuo1VcHjwU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -28,6 +30,8 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
+  - id: f852274f-9e3d-5d58-ae48-3ec2fd81baf0
+    internal-label: Seed Address
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

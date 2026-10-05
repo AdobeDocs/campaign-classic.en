@@ -6,10 +6,18 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Monitoring
 role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-TQID: https://experienceleague.adobe.com/cDB7CFuf6Gv0eyik3yEyJh4auo97LkazDSahUNPFtec
+TQID: 'https://experienceleague.adobe.com/cDB7CFuf6Gv0eyik3yEyJh4auo97LkazDSahUNPFtec'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

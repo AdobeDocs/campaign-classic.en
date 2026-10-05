@@ -5,10 +5,22 @@ description: Create indicators
 feature: Reporting, Monitoring
 hide: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-TQID: https://experienceleague.adobe.com/Xz3bnoS9EL84A5hx6WSqQlQC0G-sq-mO0j1-HTWsQac
+TQID: 'https://experienceleague.adobe.com/Xz3bnoS9EL84A5hx6WSqQlQC0G-sq-mO0j1-HTWsQac'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -9,13 +9,17 @@ content-type: reference
 topic-tags: creating-queries
 hide: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-TQID: https://experienceleague.adobe.com/QyGgyPI1vfy54m-3nNtEOt5tFr-RqWT9tfOg2GMQRdo
+TQID: 'https://experienceleague.adobe.com/QyGgyPI1vfy54m-3nNtEOt5tFr-RqWT9tfOg2GMQRdo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles

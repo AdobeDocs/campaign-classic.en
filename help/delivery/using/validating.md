@@ -6,15 +6,19 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Direct Mail
 hide: true
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-TQID: https://experienceleague.adobe.com/I31u-kAqMRpzti-bOtfYjrGbwvmsfeEPwWU7kCFLzcQ
+TQID: 'https://experienceleague.adobe.com/I31u-kAqMRpzti-bOtfYjrGbwvmsfeEPwWU7kCFLzcQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -24,6 +28,8 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
 ---
 # Validating{#validating}
 

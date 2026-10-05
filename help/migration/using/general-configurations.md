@@ -8,6 +8,17 @@ content-type: reference
 topic-tags: configuration
 hide: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 ---
 # General configurations{#general-configurations}
 

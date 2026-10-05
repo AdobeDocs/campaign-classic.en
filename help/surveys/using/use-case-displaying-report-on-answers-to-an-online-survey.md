@@ -1,29 +1,33 @@
 ---
 product: campaign
-title: "Use case: displaying report on answers to an online survey"
-description: "Use case: displaying report on answers to an online survey"
+title: 'Use case: displaying report on answers to an online survey'
+description: 'Use case: displaying report on answers to an online survey'
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-TQID: https://experienceleague.adobe.com/8JCloZIvg2WQsoFoEq6zYnDcrUOSBXCXlrkF2hY0xhc
+TQID: 'https://experienceleague.adobe.com/8JCloZIvg2WQsoFoEq6zYnDcrUOSBXCXlrkF2hY0xhc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-    internal-label: Data collection
+  - id: 71b1c383-45b9-57e0-b8cd-ea2e98a01a26
+    internal-label: Surveys
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Use case: display a report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}
 

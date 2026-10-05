@@ -7,10 +7,12 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-TQID: https://experienceleague.adobe.com/di5aVMrrRhaiOfjx--JjNJy9E5R4fl4YkhOjTeHJtsg
+TQID: 'https://experienceleague.adobe.com/di5aVMrrRhaiOfjx--JjNJy9E5R4fl4YkhOjTeHJtsg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -27,6 +29,8 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

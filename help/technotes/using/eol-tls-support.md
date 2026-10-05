@@ -8,10 +8,18 @@ content-type: reference
 topic-tags: tracking-messages
 hide: true
 exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
-TQID: https://experienceleague.adobe.com/QqPQkow0oa3RgI2k7xNouJgX6OwNuObuFuk2zWxy8Lc
+TQID: 'https://experienceleague.adobe.com/QqPQkow0oa3RgI2k7xNouJgX6OwNuObuFuk2zWxy8Lc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -19,10 +27,6 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-feature_v2: []
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
 ---
 # End of Life for TLS 1.0 and 1.1 support{#eol-tls-support}
 

@@ -7,15 +7,19 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-TQID: https://experienceleague.adobe.com/dka5G-03UMUH8Gzlu2JhbI9sw5alaTaoClsxEKhhEPY
+TQID: 'https://experienceleague.adobe.com/dka5G-03UMUH8Gzlu2JhbI9sw5alaTaoClsxEKhhEPY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
     internal-label: Audit trail
@@ -23,6 +27,8 @@ subfeature_v2:
     internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization

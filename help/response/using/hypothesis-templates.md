@@ -8,21 +8,25 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-TQID: https://experienceleague.adobe.com/FKf9pDlOZI1NEhwmdSpcpvEbNsT28wEvgy81TBEQQgo
+TQID: 'https://experienceleague.adobe.com/FKf9pDlOZI1NEhwmdSpcpvEbNsT28wEvgy81TBEQQgo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: baf8e746-117b-5e73-b179-0a83edc0295f
+    internal-label: Templates
+subfeature_v2:
+  - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-subfeature_v2:
-  - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
-    internal-label: Response Management
 ---
 # Hypothesis templates{#hypothesis-templates}
 

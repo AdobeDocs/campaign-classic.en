@@ -4,20 +4,30 @@ title: Mail Privacy Protection in Apple's Mail app
 feature: Technote, Privacy, Privacy Tools
 description: Learn how your campaigns might be affected by Apple's Mail Privacy Protection feature
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-TQID: https://experienceleague.adobe.com/i3aMiL43o3Sj7aR1u2KJmlMVe3UiS6j-tLc5augCryk
+TQID: 'https://experienceleague.adobe.com/i3aMiL43o3Sj7aR1u2KJmlMVe3UiS6j-tLc5augCryk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
+  - id: ac72e249-ebbf-4bb6-96c9-596af925419a
+    internal-label: Privacy tools
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

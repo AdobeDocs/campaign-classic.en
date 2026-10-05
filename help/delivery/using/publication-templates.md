@@ -6,10 +6,12 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-TQID: https://experienceleague.adobe.com/mU7usRNlg73dYQS1PuorYpp9g4d7bNXAWBtIEE1VULk
+TQID: 'https://experienceleague.adobe.com/mU7usRNlg73dYQS1PuorYpp9g4d7bNXAWBtIEE1VULk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
@@ -17,12 +19,8 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
+  - id: baf8e746-117b-5e73-b179-0a83edc0295f
+    internal-label: Templates
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -32,6 +30,12 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Publication templates{#publication-templates}
 

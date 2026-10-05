@@ -8,17 +8,27 @@ content-type: reference
 level: Intermediate, Experienced
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
-TQID: https://experienceleague.adobe.com/E1wF1SdCAc2Kq-xHSkdR4Yij-VyxTE4Aq7dZAmU-v1o
+TQID: 'https://experienceleague.adobe.com/E1wF1SdCAc2Kq-xHSkdR4Yij-VyxTE4Aq7dZAmU-v1o'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
-subfeature_v2: []
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

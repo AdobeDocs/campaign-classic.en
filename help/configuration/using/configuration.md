@@ -5,10 +5,12 @@ feature: Application Settings
 description: Learn how to configure Campaign Explorer navigation tree
 role: Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-TQID: https://experienceleague.adobe.com/K2bUgEoNSbVfc5hs1O-V36yNrjUFKQEO00-clOYc5u4
+TQID: 'https://experienceleague.adobe.com/K2bUgEoNSbVfc5hs1O-V36yNrjUFKQEO00-clOYc5u4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -17,6 +19,8 @@ feature_v2:
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

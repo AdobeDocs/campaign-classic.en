@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 hide: true
-TQID: https://experienceleague.adobe.com/dzb9z38Ll-hIgxopLxXRfunLkhOFtS7TcbovRjoEk-4
+TQID: 'https://experienceleague.adobe.com/dzb9z38Ll-hIgxopLxXRfunLkhOFtS7TcbovRjoEk-4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -29,6 +28,9 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Edit a profile{#editing-a-profile}
 

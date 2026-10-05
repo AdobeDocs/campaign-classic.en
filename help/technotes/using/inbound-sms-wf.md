@@ -4,17 +4,25 @@ title: Inbound SMS workflow activity for Mid-sourcing infrastructure
 description: Inbound SMS workflow activity for Mid-sourcing infrastructure
 feature: Technote, SMS
 exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
-TQID: https://experienceleague.adobe.com/wIOQi9sSeY4YPy5GmPFucVQsOEzg4FY1DGXpII0MrCk
+TQID: 'https://experienceleague.adobe.com/wIOQi9sSeY4YPy5GmPFucVQsOEzg4FY1DGXpII0MrCk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-feature_v2: []
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
 ---
 # Inbound SMS workflow activity for Mid-sourcing infrastructure {#inbound-sms-wf}
 

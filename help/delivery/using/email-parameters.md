@@ -6,23 +6,19 @@ feature: Email
 role: User, Developer
 hide: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-TQID: https://experienceleague.adobe.com/MmKuHkMyqQizW9agSWTlcNOzrzG12TkBXcHVHjGvhxA
+TQID: 'https://experienceleague.adobe.com/MmKuHkMyqQizW9agSWTlcNOzrzG12TkBXcHVHjGvhxA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-    internal-label: Developer
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -32,6 +28,14 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Email parameters {#email-parameters}
 

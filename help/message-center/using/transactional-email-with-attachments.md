@@ -4,17 +4,25 @@ title: Send transactional emails with attachments
 description: Learn how to send transactional emails with individual and/or personalized attachments using Adobe Campaign
 feature: Transactional Messaging, Message Center
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-TQID: https://experienceleague.adobe.com/xc89iwDzHmUWU4PfAZ-LWpO3ggN6ySCv-n0iVrdlEKc
+TQID: 'https://experienceleague.adobe.com/xc89iwDzHmUWU4PfAZ-LWpO3ggN6ySCv-n0iVrdlEKc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: 6d358f27-4f3c-5ddf-9159-05192e672ba7
+    internal-label: Message Center
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-feature_v2: []
-subfeature_v2: []
 ---
 # Use case: Send transactional emails with attachments {#transactional-email-with-attachments}
 

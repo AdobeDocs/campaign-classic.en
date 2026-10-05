@@ -7,17 +7,27 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
-TQID: https://experienceleague.adobe.com/lZr-7gHVoc8gahLQ6JSP05vRbNzOZ1ODlo3P3AIyTLA
+TQID: 'https://experienceleague.adobe.com/lZr-7gHVoc8gahLQ6JSP05vRbNzOZ1ODlo3P3AIyTLA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 5b4bbd22-07a0-59e8-ada0-54a763ae2394
+    internal-label: Deployment
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-feature_v2: []
-subfeature_v2: []
 ---
 # Mid-sourcing deployment{#mid-sourcing-deployment}
 

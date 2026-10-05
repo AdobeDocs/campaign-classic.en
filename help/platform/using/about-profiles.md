@@ -6,10 +6,24 @@ feature: Profiles, Audiences
 role: User, Developer
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-TQID: https://experienceleague.adobe.com/Dei-s110P86YcNVUldkQdWasJrsWWVhhXC8hDVi6Gpc
+TQID: 'https://experienceleague.adobe.com/Dei-s110P86YcNVUldkQdWasJrsWWVhhXC8hDVi6Gpc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,18 +37,6 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-    internal-label: Profiles and audiences
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-    internal-label: Profiles
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-    internal-label: Audiences
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-    internal-label: Query Editor
-  - id: efa38731-2723-4334-8d8b-a778af834835
-    internal-label: Access management
 ---
 # Get started with profiles{#about-profiles}
 

@@ -7,15 +7,25 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-TQID: https://experienceleague.adobe.com/qg59AtZmUGDO0bLwykBdMxL9pEUDwsyxn98faauXCdc
+TQID: 'https://experienceleague.adobe.com/qg59AtZmUGDO0bLwykBdMxL9pEUDwsyxn98faauXCdc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 5b4bbd22-07a0-59e8-ada0-54a763ae2394
+    internal-label: Deployment
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-subfeature_v2: []
 ---
 # Standard deployment{#standard-deployment}
 

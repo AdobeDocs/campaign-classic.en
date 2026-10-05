@@ -7,19 +7,29 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
-TQID: https://experienceleague.adobe.com/Q1KlIMtNKUuqwNQMt7FHheVuVPZ38O3ZIUqOGOt2z0g
+TQID: 'https://experienceleague.adobe.com/Q1KlIMtNKUuqwNQMt7FHheVuVPZ38O3ZIUqOGOt2z0g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: 6d358f27-4f3c-5ddf-9159-05192e672ba7
+    internal-label: Message Center
+  - id: baf8e746-117b-5e73-b179-0a83edc0295f
+    internal-label: Templates
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-subfeature_v2: []
 ---
 # Publish message templates {#publishing-template-messages}
 

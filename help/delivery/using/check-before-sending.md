@@ -7,10 +7,12 @@ feature: Deliverability
 role: User
 hide: true
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-TQID: https://experienceleague.adobe.com/ngnYPos--1A5p7WN-fJnxaLt-yHG50lWHid4wbbyVZw
+TQID: 'https://experienceleague.adobe.com/ngnYPos--1A5p7WN-fJnxaLt-yHG50lWHid4wbbyVZw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -18,6 +20,17 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
+subfeature_v2:
+  - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
+  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,15 +41,6 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-    internal-label: Email messaging
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-    internal-label: Email design
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-    internal-label: A/B testing
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-    internal-label: Manage deliverability
 ---
 # Perform all checks before sending {#perform-all-checks}
 

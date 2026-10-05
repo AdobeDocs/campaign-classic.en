@@ -6,16 +6,26 @@ feature: Configuration, Custom Resources
 role: User, Developer
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-TQID: https://experienceleague.adobe.com/Okjz7RRmzZCTCBNbBqR1nHDq7ML8WjrJrs1XR0aDZSE
+TQID: 'https://experienceleague.adobe.com/Okjz7RRmzZCTCBNbBqR1nHDq7ML8WjrJrs1XR0aDZSE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
+  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

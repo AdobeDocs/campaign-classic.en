@@ -1,17 +1,16 @@
 ---
 product: campaign
-title: "Use case: configure the field substitution"
-description: "Use case: configure the field substitution"
+title: 'Use case: configure the field substitution'
+description: 'Use case: configure the field substitution'
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-TQID: https://experienceleague.adobe.com/IJ-Kie5L-2m-7GDoYregJNglQRPeWsCnXaWjUcDT6TU
+TQID: 'https://experienceleague.adobe.com/IJ-Kie5L-2m-7GDoYregJNglQRPeWsCnXaWjUcDT6TU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
@@ -22,6 +21,11 @@ subfeature_v2:
     internal-label: Email messaging
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
+  - id: f852274f-9e3d-5d58-ae48-3ec2fd81baf0
+    internal-label: Seed Address
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Use case: configure the field substitution{#use-case-configuring-the-field-substitution}
 
