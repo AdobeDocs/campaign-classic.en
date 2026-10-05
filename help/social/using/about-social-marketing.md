@@ -7,10 +7,12 @@ audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
-TQID: https://experienceleague.adobe.com/9pymGC7CW9d5FJL-A5Cj-DvbqeF8WZtpqqRtaUuzK-U
+TQID: 'https://experienceleague.adobe.com/9pymGC7CW9d5FJL-A5Cj-DvbqeF8WZtpqqRtaUuzK-U'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
@@ -19,6 +21,8 @@ feature_v2:
 subfeature_v2:
   - id: a79c82df-714a-4b22-beac-74500b5e034f
     internal-label: Twitter integration
+  - id: c35aa8ae-39a1-5077-a11b-97cb512e4004
+    internal-label: Social Marketing
 ---
 # About social marketing{#about-social-marketing}
 

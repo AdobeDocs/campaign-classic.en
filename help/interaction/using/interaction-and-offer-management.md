@@ -4,19 +4,24 @@ title: Interaction and offer management
 description: Learn how to send the best offers to your contacts based on eligibility rules
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-TQID: https://experienceleague.adobe.com/yUoaaurDek0SyjlZXodUQw5iruwl4WN5zNYaMaAVTeA
+TQID: 'https://experienceleague.adobe.com/yUoaaurDek0SyjlZXodUQw5iruwl4WN5zNYaMaAVTeA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-feature_v2:
-  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
-    internal-label: Offer Management
-subfeature_v2: []
 ---
 # Interaction and offer management{#interaction-and-offer-management}
 

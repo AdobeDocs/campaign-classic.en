@@ -5,10 +5,12 @@ description: Learn more on use cases that you can perform using Campaign Classic
 feature: Workflows, Data Management
 hide: true
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-TQID: https://experienceleague.adobe.com/r0vqPkkBIGiuTxKTUddP2ybqrBGKqK2dOsWgpdhF17Y
+TQID: 'https://experienceleague.adobe.com/r0vqPkkBIGiuTxKTUddP2ybqrBGKqK2dOsWgpdhF17Y'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management

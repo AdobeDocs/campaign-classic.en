@@ -8,10 +8,12 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-TQID: https://experienceleague.adobe.com/7a7sQ1yn6F1Zio6n0vbhs61WGgsK-hL-fnudIvtGDGQ
+TQID: 'https://experienceleague.adobe.com/7a7sQ1yn6F1Zio6n0vbhs61WGgsK-hL-fnudIvtGDGQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
     internal-label: Security and privacy
@@ -26,6 +28,10 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
+  - id: ac72e249-ebbf-4bb6-96c9-596af925419a
+    internal-label: Privacy tools
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

@@ -8,11 +8,15 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
-TQID: https://experienceleague.adobe.com/bnEjFRKyiM1Um7c1bjoQ6Irblxu9UnQdtXQeGxGvsZk
+TQID: 'https://experienceleague.adobe.com/bnEjFRKyiM1Um7c1bjoQ6Irblxu9UnQdtXQeGxGvsZk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
     internal-label: Performance Monitoring

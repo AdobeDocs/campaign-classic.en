@@ -8,17 +8,21 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 hide: true
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
-TQID: https://experienceleague.adobe.com/a2eozRiOohzkY4Jbpn7DDm-kKQ0-198CCT182A-xVPo
+TQID: 'https://experienceleague.adobe.com/a2eozRiOohzkY4Jbpn7DDm-kKQ0-198CCT182A-xVPo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
     internal-label: Marketing Resource Management
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Get started with Marketing Resource Management{#about-marketing-resource-management} 
 

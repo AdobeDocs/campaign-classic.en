@@ -4,14 +4,19 @@ title: About inbound channels
 description: About inbound channels
 feature: Interaction, Offers
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-TQID: https://experienceleague.adobe.com/xOrs5M2yPLGEDpVwYhaylXRtSRxxzFq8AvdDehWGe3M
+TQID: 'https://experienceleague.adobe.com/xOrs5M2yPLGEDpVwYhaylXRtSRxxzFq8AvdDehWGe3M'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
     internal-label: Offer Management
-subfeature_v2: []
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 ---
 # About inbound channels{#about-inbound-channels}
 

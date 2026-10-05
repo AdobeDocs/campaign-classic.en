@@ -8,10 +8,12 @@ content-type: reference
 topic-tags: rollback
 hide: true
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-TQID: https://experienceleague.adobe.com/THilp-bTvgoG7Sot0dc-2f07Ff-kpkNUFYAdUMAQbv4
+TQID: 'https://experienceleague.adobe.com/THilp-bTvgoG7Sot0dc-2f07Ff-kpkNUFYAdUMAQbv4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration

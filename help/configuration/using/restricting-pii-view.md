@@ -5,10 +5,18 @@ description: Learn how to restrict PI view
 feature: PI
 role: Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-TQID: https://experienceleague.adobe.com/sgAVeWQxzJ6c4DB9VIA-5joGq0Y8bZ8UZfA9dg9xdeU
+TQID: 'https://experienceleague.adobe.com/sgAVeWQxzJ6c4DB9VIA-5joGq0Y8bZ8UZfA9dg9xdeU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -19,8 +27,6 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-feature_v2: []
-subfeature_v2: []
 ---
 # Restrict PI view{#restricting-pii-view}
 

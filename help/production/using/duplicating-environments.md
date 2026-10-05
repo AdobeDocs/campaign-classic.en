@@ -8,10 +8,12 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
-TQID: https://experienceleague.adobe.com/DkH3PW3W-JGXqbIMNG83YKGqCi-aDisCyu6wAsx69Io
+TQID: 'https://experienceleague.adobe.com/DkH3PW3W-JGXqbIMNG83YKGqCi-aDisCyu6wAsx69Io'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration

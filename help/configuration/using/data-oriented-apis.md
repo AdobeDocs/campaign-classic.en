@@ -5,17 +5,18 @@ description: Data oriented APIs
 feature: API
 role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-TQID: https://experienceleague.adobe.com/57imQDwof4UvPsE4WyQj9-NS3z7i2mEwxObF-WrwH74
+TQID: 'https://experienceleague.adobe.com/57imQDwof4UvPsE4WyQj9-NS3z7i2mEwxObF-WrwH74'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-subfeature_v2: []
 ---
 # Data oriented APIs{#data-oriented-apis}
 

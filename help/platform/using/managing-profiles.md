@@ -8,10 +8,12 @@ content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 hide: true
-TQID: https://experienceleague.adobe.com/cdeZeLKKuMwxLq0uvsh5yrYSyLGN5wkzhDsUukb885c
+TQID: 'https://experienceleague.adobe.com/cdeZeLKKuMwxLq0uvsh5yrYSyLGN5wkzhDsUukb885c'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences

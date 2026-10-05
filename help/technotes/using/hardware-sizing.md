@@ -4,10 +4,12 @@ title: Hardware sizing recommendations for Campaign Classic v7
 description: Hardware sizing recommendations for Campaign Classic v7
 feature: Technote
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
-TQID: https://experienceleague.adobe.com/lHuaRF5IduJcVWIKDqnkgYirPrhHDi4ro9SkCAw3nZE
+TQID: 'https://experienceleague.adobe.com/lHuaRF5IduJcVWIKDqnkgYirPrhHDi4ro9SkCAw3nZE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -17,6 +19,8 @@ feature_v2:
     internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
 subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
     internal-label: Privacy
@@ -25,7 +29,7 @@ subfeature_v2:
   - id: fb2a841f-c522-491f-9901-a1b939d252df
     internal-label: Security
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience

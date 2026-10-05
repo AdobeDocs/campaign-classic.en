@@ -8,10 +8,12 @@ content-type: reference
 topic-tags: migration-procedure
 hide: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-TQID: https://experienceleague.adobe.com/HZERmdCmROnTPEDdssihMivZ9Nq2aSAwcySN-AmocpA
+TQID: 'https://experienceleague.adobe.com/HZERmdCmROnTPEDdssihMivZ9Nq2aSAwcySN-AmocpA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
