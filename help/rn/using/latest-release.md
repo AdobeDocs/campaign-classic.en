@@ -38,7 +38,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 7.4.4 {#release-7-4-4}
 
-## Build 9403 {#build-9403}
+### Build 9403 {#build-9403}
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
