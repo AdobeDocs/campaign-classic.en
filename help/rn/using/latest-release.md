@@ -42,7 +42,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
-_October 5, 2026_
+_October 6, 2026_
 
 #### Security improvements {#security-7-4-4-9403}
 
