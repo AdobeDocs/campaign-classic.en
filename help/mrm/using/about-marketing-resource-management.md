@@ -17,6 +17,8 @@ product_v2:
 feature_v2:
   - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
     internal-label: Resource Management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
     internal-label: Marketing Resource Management

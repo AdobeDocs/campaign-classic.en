@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging

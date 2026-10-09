@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Campaigns
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
     internal-label: Response Management
