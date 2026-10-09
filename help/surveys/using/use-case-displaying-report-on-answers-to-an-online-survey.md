@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Communication channels
   - id: 71b1c383-45b9-57e0-b8cd-ea2e98a01a26
     internal-label: Surveys
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms

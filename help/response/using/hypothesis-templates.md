@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Campaigns
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
     internal-label: Response Management

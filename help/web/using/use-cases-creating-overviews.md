@@ -15,6 +15,8 @@ product_v2:
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
     internal-label: Web Apps

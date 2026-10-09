@@ -5,7 +5,7 @@ description: Learn how to build a workflow
 feature: Workflows
 hide: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-TQID: https://experienceleague.adobe.com/0-dipIpnwzpjanXaeOWQiF5l4Ofx6M0YZdif82b8arc
+TQID: 'https://experienceleague.adobe.com/0-dipIpnwzpjanXaeOWQiF5l4Ofx6M0YZdif82b8arc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
@@ -18,7 +18,7 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-    internal-label: Workflow HeatMap
+    internal-label: HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
     internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee

@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Security and privacy
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
     internal-label: Privacy

@@ -14,6 +14,8 @@ product_v2:
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
     internal-label: Schema extension
