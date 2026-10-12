@@ -123,7 +123,7 @@ Learn more about [Audit trail](../../production/using/audit-trail.md).
 
 Campaigns that run on a schedule, such as for targeting recipients who have a birthday or an anniversary. Can also be used to execute look-ahead and look-back logic, such as who purchased yesterday or who has a payment due tomorrow.
 
-Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.md).
+Learn more about [Campaigns](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} (Campaign v8 documentation).
 +++
 -->
 

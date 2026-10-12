@@ -78,7 +78,7 @@ To configure addresses in Campaign interface, follow the steps below:
 
 ### Set up a control group
 
-Once the delivery is sent, you can compare the behavior of the excluded recipients with the recipients who did receive the delivery. You can then measure the efficiency of your campaigns. Learn more about control groups [this section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+Once the delivery is sent, you can compare the behavior of the excluded recipients with the recipients who did receive the delivery. You can then measure the efficiency of your campaigns. Learn more about control groups [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (Campaign v8 documentation).
 
 To set up a control group, click the **[!UICONTROL To]** link. In the **[!UICONTROL Select target]** window, select the **[!UICONTROL Control group]** tab. You can extract a portion of the target, for example a 5% random sample.
 
@@ -92,4 +92,4 @@ In the **[!UICONTROL Typology]** tab of the template's properties, change the de
 
 For example, to better control the outbound traffic, you can define which IP addresses can be used by defining one affinity per sub-domain and creating one typology per affinity. The affinities are defined in the instance's configuration file. Contact your Adobe Campaign administrator.
 
-For more on typologies, refer to [this section](../../campaign-opt/using/about-campaign-typologies.md).
+For more on typologies, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (Campaign v8 documentation).

@@ -228,7 +228,7 @@ You can view and edit the approval rules, their content, their order of executio
 
 You can create new rules and define new typologies from this node. These tasks are however reserved for expert users who know JavaScript.
 
-For more on typology rules, refer to [this page](../../campaign-opt/using/about-campaign-typologies.md).
+For more on typology rules, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (Campaign v8 documentation).
 
 To edit the current typology, click the **[!UICONTROL Edit link]** icon to the right of the **[!UICONTROL Typology]** field.
 
@@ -240,7 +240,7 @@ The **[!UICONTROL Rule]** tab gives a list of the typology rules to apply. Selec
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** type typologies are used within the framework of sales pressure management. For more on this, refer to [this section](../../mrm/using/about-marketing-resource-management.md).
+>**[!UICONTROL Arbitration]** type typologies are used within the framework of sales pressure management. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"} (Campaign v8 documentation).
 
 ## Change the approval mode {#changing-the-approval-mode}
 

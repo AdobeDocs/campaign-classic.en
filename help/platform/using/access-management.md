@@ -112,7 +112,7 @@ Learn how to grant access and set up permissions in these sections:
 See also:
 
 * [Manage permissions for workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/managing-rights){target="_blank"} (Campaign v8 documentation)
-* [Manage permissions for distributed marketing](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
+* [Manage permissions for distributed marketing](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing#operators-and-entities){target="_blank"} (Campaign v8 documentation)
 * [Manage permissions for the interaction module](../../interaction/using/operator-profiles.md)
 * [Filter access to schemas](../../configuration/using/filtering-schemas.md)
 * [Restricting PI view](../../configuration/using/restricting-pii-view.md)

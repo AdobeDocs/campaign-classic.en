@@ -47,7 +47,7 @@ For each delivery, you can define several types of target populations:
 * **Main audience**: profiles who will receive messages. [Learn more](steps-defining-the-target-population.md#selecting-the-main-target)
 * **Proof**: recipients of proof messages, involved in the validation cycle. [Learn more](steps-defining-the-target-population.md#defining-a-specific-proof-target)
 * **Seed addresses**: recipients who are out of the delivery target but will receive the delivery (in the context of a marketing campaign only). [Learn more](about-seed-addresses.md)
-* **Control groups**: population which will not receive the delivery, used to track behavior and campaign impact (in the context of a marketing campaign only). [Learn more](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+* **Control groups**: population which will not receive the delivery, used to track behavior and campaign impact (in the context of a marketing campaign only). [Learn more](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (Campaign v8 documentation).
 
 ## Select the main recipients of the delivery {#selecting-the-main-target}
 

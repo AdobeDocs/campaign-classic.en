@@ -204,42 +204,6 @@ nudge: false
        + [Enrich content](delivery/using/enriching-content.md)
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
 + [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
-+ Orchestrate marketing campaigns {#orchestrating-campaigns}
-     + {hide-from-toc} [About Campaign Optimization - HIDDEN](campaign-opt/using/about-campaign-optimization.md)
-     + About marketing campaigns {#about-marketing-campaigns}
-       + {hide-from-toc} [Designing marketing campaigns - HIDDEN](campaign/using/designing-marketing-campaigns.md)
-       + {hide-from-toc} [Access marketing campaigns - HIDDEN](campaign/using/accessing-marketing-campaigns.md)  
-     + Orchestrate campaigns {#orchestrate-campaigns}
-       + {hide-from-toc} [Get started with marketing campaigns - HIDDEN](campaign/using/setting-up-marketing-campaigns.md)
-       + {hide-from-toc} [Create and configure templates - HIDDEN](campaign/using/marketing-campaign-templates.md)
-       + {hide-from-toc} [Add deliveries - HIDDEN](campaign/using/marketing-campaign-deliveries.md)
-       + {hide-from-toc} [Select the audience - HIDDEN](campaign/using/marketing-campaign-target.md)
-       + {hide-from-toc} [Manage documents and assets - HIDDEN](campaign/using/marketing-campaign-assets.md)
-       + {hide-from-toc} [Set up and manage approvals - HIDDEN](campaign/using/marketing-campaign-approval.md)
-       + {hide-from-toc} [Monitor your campaigns - HIDDEN](campaign/using/marketing-campaign-monitoring.md)
-       + {hide-from-toc} [Providers, stocks and budgets - HIDDEN](campaign/using/providers-stocks-and-budgets.md)
-     + Campaign optimization {#campaign-optimization}
-       + {hide-from-toc} [About campaign typologies - HIDDEN](campaign-opt/using/about-campaign-typologies.md)
-       + {hide-from-toc} [Pressure rules - HIDDEN](campaign-opt/using/pressure-rules.md)
-       + {hide-from-toc} [Consistency rules - HIDDEN](campaign-opt/using/consistency-rules.md)
-       + {hide-from-toc} [Control rules - HIDDEN](campaign-opt/using/control-rules.md)
-       + {hide-from-toc} [Filtering rules - HIDDEN](campaign-opt/using/filtering-rules.md)
-       + {hide-from-toc} [Apply rules - HIDDEN](campaign-opt/using/applying-rules.md)
-       + {hide-from-toc} [Campaign simulations - HIDDEN](campaign-opt/using/campaign-simulations.md)
-+ Marketing Resource Management {#mrm}
-  + {hide-from-toc} [About marketing resource management - HIDDEN](mrm/using/about-marketing-resource-management.md)
-  + {hide-from-toc} [Create and manage tasks - HIDDEN](mrm/using/creating-and-managing-tasks.md)
-  + {hide-from-toc} [Control costs - HIDDEN](mrm/using/controlling-costs.md)
-  + {hide-from-toc} [Manage marketing resources - HIDDEN](mrm/using/managing-marketing-resources.md)
-  + {hide-from-toc} [Discussion forums - HIDDEN](mrm/using/discussion-forums.md)
-+ Distributed marketing {#distributed-marketing}
-  + {hide-from-toc} [About distributed marketing - HIDDEN](distributed/using/about-distributed-marketing.md)
-  + {hide-from-toc} [Create a local campaign - HIDDEN](distributed/using/creating-a-local-campaign.md)
-  + {hide-from-toc} [Create a collaborative campaign - HIDDEN](distributed/using/creating-a-collaborative-campaign.md)
-  + {hide-from-toc} [Publish the campaign package - HIDDEN](distributed/using/publishing-the-campaign-package.md)
-  + {hide-from-toc} [Access campaigns - HIDDEN](distributed/using/accessing-campaigns.md)
-  + {hide-from-toc} [Track a campaign - HIDDEN](distributed/using/tracking-a-campaign.md)
-  + {hide-from-toc} [Use cases - HIDDEN](distributed/using/examples.md)
 + Response manager {#response-manager}
   + [Get started with response manager](response/using/about-response-manager.md)
   + [Configuration](response/using/configuration.md)
@@ -662,16 +626,6 @@ nudge: false
           + [Inserting tags in your site](configuration/using/inserting-tags-in-your-site.md)
           + [Collecting all visits](configuration/using/collecting-all-visits.md)
           + [Anonymous tracking](configuration/using/anonymous-tracking.md)
-+ Migration guide {#migrating-to-a-new-version}
-     + {hide-from-toc} [Migrate to Adobe Campaign v7](migration/using/about-migration.md)
-     + Migration procedure {#migration-procedure}
-          + {hide-from-toc} [Prerequisites](migration/using/before-starting-migration.md)
-          + {hide-from-toc} [About migration tests](migration/using/testing-the-migration.md)
-          + {hide-from-toc} [Adapt your configuration](migration/using/configuring-your-platform.md)
-     + Start the migration {#migrating-to-adobe-campaign-7}
-          + {hide-from-toc} [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-          + {hide-from-toc} [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-     + {hide-from-toc} [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
      + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
      + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
