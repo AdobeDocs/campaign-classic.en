@@ -94,7 +94,7 @@ As a final step, maximize your chances and leverage the power of Adobe Campaign 
 
 ### Go through a validation process
 
-You can define a full validation process, involving Adobe Campaign operators and groups, to validate both the target and the message content. This will ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof. Depending on their permissions, users will be notified, receive proofs and be able to validate or reject the message. Learn more [in this section](../../campaign/using/marketing-campaign-approval.md).
+You can define a full validation process, involving Adobe Campaign operators and groups, to validate both the target and the message content. This will ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof. Depending on their permissions, users will be notified, receive proofs and be able to validate or reject the message. Learn more [in this section](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval){target="_blank"} (Campaign v8 documentation).
 
 ### Use waves
 
@@ -122,7 +122,7 @@ You can:
 
 * For each IPAffinity element, declare the IP addresses that can be used. [Learn more](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* In the [typology](../../campaign-opt/using/about-campaign-typologies.md) of your choice, use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) which manages the said affinity. [Learn more](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic).
+* In the [typology](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (Campaign v8 documentation) of your choice, use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) which manages the said affinity. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"} (Campaign v8 documentation).
 
 * Once the email is sent, check the header to verify which IP address the delivery was sent from. Your email administrator should help you obtain the header information.
 
@@ -134,7 +134,7 @@ You can:
 
 ### Use typologies
 
-You can use typology rules to exclude part of the target based on specific criteria. This guarantees that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. For example, you can filter the recipients who are underage from the target of your newsletter. Learn more [in this example](../../campaign-opt/using/filtering-rules.md).
+You can use typology rules to exclude part of the target based on specific criteria. This guarantees that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. For example, you can filter the recipients who are underage from the target of your newsletter. Learn more [in this example](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules){target="_blank"} (Campaign v8 documentation).
 
 ### Avoid attachments
 

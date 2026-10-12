@@ -138,7 +138,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
 
 -->
 
@@ -260,4 +260,4 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
     * Click the **[!UICONTROL Create the archiving workflow]** button.
     * Click the **[!UICONTROL Create data synchronization workflow]** button to create the LINE data sync workflow.
 
-1. You can now start [creating transactional messages](../../message-center/using/creating-the-message-template.md).
+1. You can now start [creating transactional messages](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (Campaign v8 documentation).

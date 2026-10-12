@@ -31,115 +31,11 @@ role_v2:
 ---
 # Key management in schemas {#management-of-keys}
 
-Each table associated with a data schema must have at least one key for identifying a record in a table.
+Each table associated with a data schema must have at least one key for identifying a record in a table. This page describes the auto-incremental key used in Campaign Classic v7 tables.
 
-A key is declared from the main element of the data schema.
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about key management, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}.
 
-```sql
-<key name="name_of_key">
-  <keyfield xpath="xpath_of_field1"/>
-  <keyfield xpath="xpath_of_field2"/>
-  ...
-</key>
-```
-
-A key is known as a 'primary key' when it is the first in the schema to be populated, or if it contains the `internal` attribute set to "true".
-
-The following rules apply to keys:
-
-* A key can reference one or more fields in the table
-* A unique index is declared implicitly for each key definition. The creation of an index on the key can be prevented by setting the `noDbIndex` attribute to "true".
-
->[!NOTE]
->
->* As a standard, keys are the elements declared from the main element of the schema after indexes have been defined.
->
->* Keys are created during table mapping (standard or FDA), Adobe Campaign finds unique indexes.
-
-**Example**:
-
-* Adding a key to the email address and city:
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <key name="email">
-        <keyfield xpath="@email"/> 
-        <keyfield xpath="location/@city"/> 
-      </key>
-  
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-      <element name="location" label="Location">
-        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-      </element>
-    </element>
-  </srcSchema>
-  ```
-
-  The schema generated:
-
-  ```sql
-  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-    <element name="recipient" sqltable="CusRecipient">    
-     <dbindex name="email" unique="true">      
-       <keyfield xpath="@email"/>      
-       <keyfield xpath="location/@city"/>    
-     </dbindex>    
-  
-     <key name="email">      
-      <keyfield xpath="@email"/>      
-      <keyfield xpath="location/@city"/>    
-     </key>    
-  
-     <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-     <element label="Location" name="location">      
-       <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-     </element>  
-    </element>
-  </schema>
-  ```
-
-* Adding a primary or internal key on the "id" name field:
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <key name="id" internal="true">
-        <keyfield xpath="@id"/> 
-      </key>
-  
-      <key name="email" noDbIndex="true">
-        <keyfield xpath="@email"/> 
-      </key>
-  
-      <attribute name="id" type="long" label="Identifier"/>
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-    </element>
-  </srcSchema>
-  ```
-
-  The schema generated:
-
-  ```sql
-  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-    <element name="recipient" sqltable="CusRecipient">    
-      <key name="email">      
-        <keyfield xpath="@email"/>    
-      </key>    
-  
-      <dbindex name="id" unique="true">      
-        <keyfield xpath="@id"/>    
-      </dbindex>    
-  
-      <key internal="true" name="id">      
-       <keyfield xpath="@id"/>    
-      </key>    
-  
-      <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-      <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
-    </element>
-  </schema>
-  ```
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}
 
 ## Auto-incremental key {#auto-incremental-key}
 
@@ -203,5 +99,5 @@ Browse the following links to learn more:
 * [Get started with schemas](about-schema-reference.md)
 * [Schema structure](schema-structure.md)
 * [Database mapping](database-mapping.md)
-* [Link management](database-links.md)
-* [Campaign data model](about-data-model.md)
+* [Link management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Campaign v8 documentation)
+* [Campaign data model](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (Campaign v8 documentation)

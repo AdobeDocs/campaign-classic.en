@@ -66,7 +66,7 @@ To leverage this information, you need to create this field in Adobe Campaign Cl
 
 If you use a custom recipient table, you also need to perform this operation.
 
-For more detailed information on how to create a new field, refer to the [Schema edition documentation](../../configuration/using/about-schema-edition.md).
+For more detailed information on how to create a new field, refer to the [Schema edition documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ For more detailed information on how to create a new field, refer to the [Schema
 
     ![](assets/privacy-ccpa-3.png)
 
-1. Click the **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** node of the explorer. In **[!UICONTROL Recipient (nms)]**, under "General Package", add an `<input>` element and use, for the xpath value, the relative path defined in step 2. For more on identifying a form, see [this section](../../configuration/using/identifying-a-form.md).
+1. Click the **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** node of the explorer. In **[!UICONTROL Recipient (nms)]**, under "General Package", add an `<input>` element and use, for the xpath value, the relative path defined in step 2. For more on identifying a form, see [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).
 
     ```
     <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>

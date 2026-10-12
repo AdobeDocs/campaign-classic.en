@@ -83,7 +83,7 @@ The **[!UICONTROL Targeting dimension]** coincides with the table of recipients 
 
 >[!NOTE]
 >
->You can also use non-standard tables. If you want to use a specific targeting dimension, you will need to create tables as well as a dedicated environment using the target mapping. For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>You can also use non-standard tables. If you want to use a specific targeting dimension, you will need to create tables as well as a dedicated environment using the target mapping. For more on this, refer to [Creating an offer environment](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (Campaign v8 documentation).
 
 ### Period {#period}
 

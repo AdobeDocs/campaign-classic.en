@@ -52,7 +52,7 @@ Tabs and their content depend on your configuration and installed packages.
 >
 >The XML schema and the form that concerns the fields in the profiles table are accessed via the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign tree. Only expert users may make changes to these schemas.  
 >
->For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
+>For further information, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).
 
 >[!NOTE]
 >

@@ -50,9 +50,9 @@ topic_v2:
 
 This document outlines key recommendations while designing your Adobe Campaign data model.
 
-For a better understanding of Campaign built-in tables and their interaction, refer to [this section](../../configuration/using/about-data-model.md) section.
+For a better understanding of Campaign built-in tables and their interaction, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (Campaign v8 documentation) section.
 
-Read out [this documentation](../../configuration/using/about-schema-reference.md) to get started with Campaign schemas. Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this document](../../configuration/using/about-schema-edition.md).
+Read out [this documentation](../../configuration/using/about-schema-reference.md) to get started with Campaign schemas. Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this document](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).
 
 ## Overview {#overview}
 
@@ -78,7 +78,7 @@ The Adobe Campaign default data model is presented in [this document](../../conf
 
 >[!NOTE]
 >
->Adobe Campaign Classic allows to build a custom customer table. However, in most cases, it is recommended to leverage the standard [Recipient table](../../configuration/using/about-data-model.md#default-recipient-table) which already has pre-built additional tables and features.
+>Adobe Campaign Classic allows to build a custom customer table. However, in most cases, it is recommended to leverage the standard [Recipient table](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (Campaign v8 documentation) which already has pre-built additional tables and features.
 
 ### Data for Adobe Campaign {#data-for-campaign}
 

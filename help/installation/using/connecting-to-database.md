@@ -122,4 +122,4 @@ If necessary, you can create the schema for processing data in an external datab
 
 >[!NOTE]
 >
->For more on creating schemas in Adobe Campaign and defining a new data mapping, refer [this page](../../configuration/using/about-schema-edition.md).
+>For more on creating schemas in Adobe Campaign and defining a new data mapping, refer [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).

@@ -107,7 +107,7 @@ Apply the following steps:
    >    
    >
 
-1. Modify the **[!UICONTROL seedMember]** form accordingly to define a new "Internal recipient" tab in the **[!UICONTROL Seed addresses]** window. For more on this, refer to [this page](../../configuration/using/form-structure.md).
+1. Modify the **[!UICONTROL seedMember]** form accordingly to define a new "Internal recipient" tab in the **[!UICONTROL Seed addresses]** window. For more on this, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).
 
    ```
    

@@ -29,7 +29,7 @@ To create a test environment (sandbox mode), apply the following steps:
 
 >[!IMPORTANT]
 >
->Only use this environment creation method for test environments. In all other cases, use the target mapping assistant. For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>Only use this environment creation method for test environments. In all other cases, use the target mapping assistant. For more on this, refer to [Creating an offer environment](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (Campaign v8 documentation).
 
 1. Launch the Adobe Campaign explorer and go to the instance root.
 1. Right-click and add a **[!UICONTROL Generic folder]** using the drop-down menus.

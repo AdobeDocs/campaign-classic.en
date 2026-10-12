@@ -113,7 +113,7 @@ To enable URL signature, follow these steps on all Campaign servers at the same 
 
 You must make sure that the encrypted passwords are not accessible by a low privilege authenticated user. To do that, restrict access to password fields only, or to the entire entity (need a build >= 8770).
 
-This restriction allows you to remove passwords fields but let the external account accessible from the interface for all users. [Learn more](../../configuration/using/restricting-pii-view.md).
+This restriction allows you to remove passwords fields but let the external account accessible from the interface for all users. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (Campaign v8 documentation).
 
 To perform this, follow the steps below:
 

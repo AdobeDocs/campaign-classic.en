@@ -204,42 +204,6 @@ nudge: false
        + [Enrich content](delivery/using/enriching-content.md)
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
 + [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
-+ Orchestrate marketing campaigns {#orchestrating-campaigns}
-     + {hide-from-toc} [About Campaign Optimization - HIDDEN](campaign-opt/using/about-campaign-optimization.md)
-     + About marketing campaigns {#about-marketing-campaigns}
-       + {hide-from-toc} [Designing marketing campaigns - HIDDEN](campaign/using/designing-marketing-campaigns.md)
-       + {hide-from-toc} [Access marketing campaigns - HIDDEN](campaign/using/accessing-marketing-campaigns.md)  
-     + Orchestrate campaigns {#orchestrate-campaigns}
-       + {hide-from-toc} [Get started with marketing campaigns - HIDDEN](campaign/using/setting-up-marketing-campaigns.md)
-       + {hide-from-toc} [Create and configure templates - HIDDEN](campaign/using/marketing-campaign-templates.md)
-       + {hide-from-toc} [Add deliveries - HIDDEN](campaign/using/marketing-campaign-deliveries.md)
-       + {hide-from-toc} [Select the audience - HIDDEN](campaign/using/marketing-campaign-target.md)
-       + {hide-from-toc} [Manage documents and assets - HIDDEN](campaign/using/marketing-campaign-assets.md)
-       + {hide-from-toc} [Set up and manage approvals - HIDDEN](campaign/using/marketing-campaign-approval.md)
-       + {hide-from-toc} [Monitor your campaigns - HIDDEN](campaign/using/marketing-campaign-monitoring.md)
-       + {hide-from-toc} [Providers, stocks and budgets - HIDDEN](campaign/using/providers-stocks-and-budgets.md)
-     + Campaign optimization {#campaign-optimization}
-       + {hide-from-toc} [About campaign typologies - HIDDEN](campaign-opt/using/about-campaign-typologies.md)
-       + {hide-from-toc} [Pressure rules - HIDDEN](campaign-opt/using/pressure-rules.md)
-       + {hide-from-toc} [Consistency rules - HIDDEN](campaign-opt/using/consistency-rules.md)
-       + {hide-from-toc} [Control rules - HIDDEN](campaign-opt/using/control-rules.md)
-       + {hide-from-toc} [Filtering rules - HIDDEN](campaign-opt/using/filtering-rules.md)
-       + {hide-from-toc} [Apply rules - HIDDEN](campaign-opt/using/applying-rules.md)
-       + {hide-from-toc} [Campaign simulations - HIDDEN](campaign-opt/using/campaign-simulations.md)
-+ Marketing Resource Management {#mrm}
-  + {hide-from-toc} [About marketing resource management - HIDDEN](mrm/using/about-marketing-resource-management.md)
-  + {hide-from-toc} [Create and manage tasks - HIDDEN](mrm/using/creating-and-managing-tasks.md)
-  + {hide-from-toc} [Control costs - HIDDEN](mrm/using/controlling-costs.md)
-  + {hide-from-toc} [Manage marketing resources - HIDDEN](mrm/using/managing-marketing-resources.md)
-  + {hide-from-toc} [Discussion forums - HIDDEN](mrm/using/discussion-forums.md)
-+ Distributed marketing {#distributed-marketing}
-  + {hide-from-toc} [About distributed marketing - HIDDEN](distributed/using/about-distributed-marketing.md)
-  + {hide-from-toc} [Create a local campaign - HIDDEN](distributed/using/creating-a-local-campaign.md)
-  + {hide-from-toc} [Create a collaborative campaign - HIDDEN](distributed/using/creating-a-collaborative-campaign.md)
-  + {hide-from-toc} [Publish the campaign package - HIDDEN](distributed/using/publishing-the-campaign-package.md)
-  + {hide-from-toc} [Access campaigns - HIDDEN](distributed/using/accessing-campaigns.md)
-  + {hide-from-toc} [Track a campaign - HIDDEN](distributed/using/tracking-a-campaign.md)
-  + {hide-from-toc} [Use cases - HIDDEN](distributed/using/examples.md)
 + Response manager {#response-manager}
   + [Get started with response manager](response/using/about-response-manager.md)
   + [Configuration](response/using/configuration.md)
@@ -248,18 +212,12 @@ nudge: false
   + [Hypothesis tracking](response/using/hypothesis-tracking.md)
 + Design and share reports {#reporting}
   + Get started with reporting {#reporting-in-adobe-campaign}
-     + [Reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
      + [Best practices for reporting](reporting/using/best-practices.md)
   + Access built-in reports {#accessing-built-in-reports}
      + [About built-in reports](reporting/using/about-campaign-built-in-reports.md)
      + [List of reports](reporting/using/list-of-reports.md)
   + Reports on deliveries{#reports-on-deliveries}
-     + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
-     + [Global reports](reporting/using/global-reports.md)
-     + [Delivery reports](reporting/using/delivery-reports.md)
-     + [Cumulative reports](reporting/using/cumulative-reports.md)
      + [Indicator calculation](reporting/using/indicator-calculation.md)
-     + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyze populations {#analyzing-populations}
      + [What is descriptive analysis](reporting/using/about-descriptive-analysis.md)
      + [Create your first descriptive analysis report](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -362,22 +320,7 @@ nudge: false
 + Manage Offers {#managing-offers}
      + Get started with Interaction {#interaction-overview}
           + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
-          + [Glossary](interaction/using/i-glossary.md)
-          + [Interaction best practices](interaction/using/interaction-best-practices.md)
-     + General operation {#general-operation}
-          + [Implementation steps](interaction/using/implementation-steps.md)
-          + [Fundamental principles](interaction/using/fundamental-principles.md)
-     + Manage environments {#managing-environments}
-          + [Environments overview](interaction/using/environments-overview.md)
-          + [Operator profiles](interaction/using/operator-profiles.md)
-          + [Live/Design environments](interaction/using/live-design-environments.md)
-          + [Create offer spaces](interaction/using/creating-offer-spaces.md)
-          + [Create predefined filters](interaction/using/creating-predefined-filters.md)
      + Manage an offer catalog {#managing-an-offer-catalog}
-          + [Offer catalog overview](interaction/using/offer-catalog-overview.md)
-          + [Create offer categories](interaction/using/creating-offer-categories.md)
-          + [Recommend a category](interaction/using/recommending-a-category.md)
-          + [Create an offer](interaction/using/creating-an-offer.md)
           + [Approve and activate an offer](interaction/using/approving-and-activating-an-offer.md)
           + [Manage offer templates](interaction/using/managing-offer-templates.md)
           + [Manage offer presentation](interaction/using/managing-offer-presentation.md)
@@ -386,18 +329,6 @@ nudge: false
           + [Execution settings](interaction/using/execution-settings.md)
           + [Simulation scope](interaction/using/simulation-scope.md)
           + [Simulation tracking](interaction/using/simulation-tracking.md)
-     + Deliver an offer {#delivering-an-offer}
-          + [About outbound channels](interaction/using/about-outbound-channels.md)
-          + [Integrate an offer via the assistant](interaction/using/integrating-an-offer-via-the-wizard.md)
-          + [Integrate an offer via a workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
-     + Unitary interactions {#unitary-interactions}
-          + [About inbound channels](interaction/using/about-inbound-channels.md)
-          + [Integration via JavaScript (client side)](interaction/using/integration-via-javascript-client-side.md)
-          + [Integration via SOAP (server side)](interaction/using/integration-via-soap-server-side.md)
-          + [Anonymous interactions](interaction/using/anonymous-interactions.md)
-     + Track offers {#tracking-offers}
-          + [Offer proposition history](interaction/using/offer-proposition-history.md)
-          + [Offer analysis report](interaction/using/offer-analysis-report.md)
      + Advanced parameters {#advanced-parameters}
           + [Use advanced parameters](interaction/using/using-advanced-parameters.md)
           + [Additional data](interaction/using/additional-data.md)
@@ -417,19 +348,7 @@ nudge: false
           + [Configure instances](message-center/using/configuring-instances.md)
           + [Additional configurations](message-center/using/additional-configurations.md)
      + Message templates {#message-templates}
-          + [Create event types](message-center/using/creating-event-types.md)
-          + [Design message templates](message-center/using/creating-the-message-template.md)
           + [Test message templates](message-center/using/testing-message-templates.md)
-          + [Publish message templates](message-center/using/publishing-message-templates.md)
-     + Transactional event processing {#processing}
-          + [Event description](message-center/using/event-description.md)
-          + [Event processing](message-center/using/about-event-processing.md)
-          + [Delivery execution](message-center/using/delivery-execution.md)
-     + Reports {#reports}
-          + [Access transactional messaging reports](message-center/using/about-transactional-messaging-reports.md)
-          + [History of Message Center events](message-center/using/history-of-message-center-events.md)
-          + [Message Center service level](message-center/using/message-center-service-level.md)
-          + [Message Center processing time](message-center/using/message-center-processing-time.md)
      + [Use case](message-center/using/transactional-email-with-attachments.md)
 + Integrate with social media {#integrating-with-social-media}
      + [About social marketing](social/using/about-social-marketing.md)
@@ -587,7 +506,6 @@ nudge: false
 + Developers guide {#configuring-campaign-classic}
      + [Data packages](platform/using/working-with-data-packages.md)
      + Data model {#data-model}
-          + [About the data model](configuration/using/about-data-model.md)
           + [Data model description](configuration/using/data-model-description.md)
           + [Best practices](configuration/using/data-model-best-practices.md)
      + Work with schemas {#schema-reference}
@@ -595,7 +513,6 @@ nudge: false
           + [Schema structure](configuration/using/schema-structure.md)
           + [Database mapping](configuration/using/database-mapping.md)
           + [Key management](configuration/using/database-keys.md)
-          + [Link management](configuration/using/database-links.md)
           + Elements and attributes {#elements-attributes}
                + [Introduction](configuration/using/schema-introduction.md)
                + [Attribute](configuration/using/schema/attribute.md)
@@ -616,21 +533,15 @@ nudge: false
                + [Sysfilter](configuration/using/schema/sysfilter.md)
                + [Value](configuration/using/schema/value.md)
      + Editing schemas {#editing-schemas}
-          + [About schema edition](configuration/using/about-schema-edition.md)
-          + [Data schemas](configuration/using/data-schemas.md)
           + [Schema of an existing table](configuration/using/schema-of-an-existing-table.md)
           + [Extending a schema](configuration/using/extending-a-schema.md)
-          + [Filtering schemas](configuration/using/filtering-schemas.md)
-          + [Restricting PII view](configuration/using/restricting-pii-view.md)
           + [Updating the database structure](configuration/using/updating-the-database-structure.md)
           + [New field assistant](configuration/using/new-field-wizard.md)
           + [Structure of a data schema](configuration/using/structure-of-a-data-schema.md)
           + [Regenerating schemas](configuration/using/regenerating-schemas.md)
           + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)
      + Input forms {#input-forms}
-          + [Identify a form](configuration/using/identifying-a-form.md)
           + [Edit forms](configuration/using/editing-forms.md)
-          + [Form structure](configuration/using/form-structure.md)
      + API {#api}
           + [About web services](configuration/using/about-web-services.md)
           + [Web service calls](configuration/using/web-service-calls.md)

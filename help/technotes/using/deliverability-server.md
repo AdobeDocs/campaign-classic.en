@@ -146,4 +146,4 @@ Any Campaign instance not upgraded by August 31 will no longer be able to connec
 
 If you do not upgrade your environment, email settings will stop being synchronized (MX Management rules, Inbound Email rules, Domain Management rules, and bounce qualification rules). This could affect over time your deliverability. If a significant change is made on these rules, these will have to be applied manually from this point. 
 
-For MKT instances, only [Global Suppression List](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) is affected.
+For MKT instances, only [Global Suppression List](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"} (Campaign v8 documentation) is affected.

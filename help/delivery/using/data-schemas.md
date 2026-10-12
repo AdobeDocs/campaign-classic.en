@@ -44,7 +44,7 @@ role_v2:
 
 Below are some general principles concerning the use of data schemas in Adobe Campaign.
 
-For more on creating and configuring data schemas in Adobe Campaign, refer to [this section](../../configuration/using/about-schema-edition.md).
+For more on creating and configuring data schemas in Adobe Campaign, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).
 
 ## Schema structure {#schema-structure}
 

@@ -105,7 +105,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Customer's experience</strong><br/><a href="workflow/using/about-workflows.md">Automate with workflows</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html" target="_blank">Marketing campaign</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction & offer management</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Reporting</a>
+      <strong>Customer's experience</strong><br/><a href="workflow/using/about-workflows.md">Automate with workflows</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html" target="_blank">Marketing campaign</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction & offer management</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Reporting</a> (Campaign v8 documentation)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -127,7 +127,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>Developer resources</strong><br/><a href="configuration/using/about-data-model.md">Data model description</a> - <a href="configuration/using/about-schema-reference.md">Schema structure</a> - <a href="configuration/using/editing-forms.md">Schema structure</a> - <a href="configuration/using/about-web-services.md">APIs</a> - <a href="https://experienceleague.adobe.com/en/tools/campaign-api">JSAPI Reference Documentation</a> - <a href="configuration/using/about-custom-recipient-table.md">Custom recipient table</a>
+      <strong>Developer resources</strong><br/><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel" target="_blank">Data model description</a> (Campaign v8 documentation) - <a href="configuration/using/about-schema-reference.md">Schema structure</a> - <a href="configuration/using/editing-forms.md">Schema structure</a> - <a href="configuration/using/about-web-services.md">APIs</a> - <a href="https://experienceleague.adobe.com/en/tools/campaign-api">JSAPI Reference Documentation</a> - <a href="configuration/using/about-custom-recipient-table.md">Custom recipient table</a>
     </td>
   </tr>
 </table> 

@@ -42,7 +42,7 @@ role_v2:
 
 ## Permissions{#delivery-permissions}
 
-Only the delivery owner can start a delivery. For other operators (or operator group) to be able to start a delivery, add them as reviewers in the **[!UICONTROL Delivery start:]** field. [Learn more](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+Only the delivery owner can start a delivery. For other operators (or operator group) to be able to start a delivery, add them as reviewers in the **[!UICONTROL Delivery start:]** field. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"} (Campaign v8 documentation).
 
 ## Delivery additional parameters {#delivery-additiona-parameters}
 

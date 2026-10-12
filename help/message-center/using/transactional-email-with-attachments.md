@@ -83,7 +83,7 @@ To add an email attachment on the fly to a transactional message, follow the ste
 
 1. You can send emails via a SOAP message trigger. In the SOAP call, there is a URL parameter (attachmentURL).
 
-    For more information on SOAP requests, see [Event description](../../message-center/using/event-description.md).
+    For more information on SOAP requests, see [Event description](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} (Campaign v8 documentation).
 
 1. When designing your email, click **[!UICONTROL Attachment]**.
 

@@ -181,7 +181,7 @@ To confirm that the delivery was successful:
 
 >[!NOTE]
 >
->By default, the coupon management module uses an **nms:recipient** table. [Learn more](../../configuration/using/about-data-model.md#default-recipient-table).
+>By default, the coupon management module uses an **nms:recipient** table. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (Campaign v8 documentation).
 >
 >Learn how to use a custom recipient table [in this page](../../configuration/using/about-custom-recipient-table.md).
 

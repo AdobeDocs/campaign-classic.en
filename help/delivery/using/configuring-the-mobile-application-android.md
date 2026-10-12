@@ -191,7 +191,7 @@ Below are the FCM payload names to further personalize your push notification:
 
 You need to extend the **appsubscriptionRcp** to define new additional fields to store parameters from the app in Campaign database. These fields are used for personalization for example. To do this:
 
-1. Create an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema and define the new fields. Learn more about schema extension in [this page](../../configuration/using/about-schema-edition.md)
+1. Create an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema and define the new fields. Learn more about schema extension in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation)
 
 1. Define the mapping in the **[!UICONTROL Subscription parameters]** tab.
 
