@@ -54,8 +54,8 @@ Once your email has been created and configured, you can send it to the main tar
 
 The following sections detail settings and configurations that are specific to delivering emails:
 <!--
-* [Generating the mirror page](generating-mirror-page.md)
-* [Email BCC](email-bcc.md)
+* [Generating the mirror page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
+* [Email BCC](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
 -->
 * [Email parameters](email-parameters.md)
 * [Send emails with the Enhanced MTA](sending-with-enhanced-mta.md)
