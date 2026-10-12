@@ -212,18 +212,12 @@ nudge: false
   + [Hypothesis tracking](response/using/hypothesis-tracking.md)
 + Design and share reports {#reporting}
   + Get started with reporting {#reporting-in-adobe-campaign}
-     + [Reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
      + [Best practices for reporting](reporting/using/best-practices.md)
   + Access built-in reports {#accessing-built-in-reports}
      + [About built-in reports](reporting/using/about-campaign-built-in-reports.md)
      + [List of reports](reporting/using/list-of-reports.md)
   + Reports on deliveries{#reports-on-deliveries}
-     + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
-     + [Global reports](reporting/using/global-reports.md)
-     + [Delivery reports](reporting/using/delivery-reports.md)
-     + [Cumulative reports](reporting/using/cumulative-reports.md)
      + [Indicator calculation](reporting/using/indicator-calculation.md)
-     + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyze populations {#analyzing-populations}
      + [What is descriptive analysis](reporting/using/about-descriptive-analysis.md)
      + [Create your first descriptive analysis report](reporting/using/using-the-descriptive-analysis-wizard.md)

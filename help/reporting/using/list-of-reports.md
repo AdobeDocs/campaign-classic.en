@@ -41,7 +41,7 @@ topic_v2:
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](../../reporting/using/delivery-reports.md).
+For more on the content of these reports, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (Campaign v8 documentation).
 
 <table> 
  <tbody> 

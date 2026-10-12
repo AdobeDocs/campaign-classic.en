@@ -95,18 +95,18 @@ In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!U
 
 **For on-premise installations**, you can use the following monitoring tools:
 
-* The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
+* The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (Campaign v8 documentation).
 * Each delivery generates a broadcast statistics report for the different Internet service providers (ISPs). It shows some data quality and reputation metrics that may impact your deliverability, including the following numbers:
     * **[!UICONTROL Hard bounces]** indicate data quality. This number should be less than 2%.
     * **[!UICONTROL Soft bounces]** indicate reputation. This number should not be higher than 10% for any given ISP.
     
-    For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
+    For more on this, see the [Delivery statistics](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-statistics){target="_blank"} (Campaign v8 documentation) section.
 
 #### Monitoring guidelines {#monitoring-guidelines}
 
 **For on-premise installations**, here are some additional guidelines on deliverability monitoring:
 
-* Regularly check the [delivery throughput](../../reporting/using/global-reports.md#delivery-throughput) for the whole platform to verify whether it is consistent with the original set-up.
+* Regularly check the [delivery throughput](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (Campaign v8 documentation) for the whole platform to verify whether it is consistent with the original set-up.
 * Check that [retries](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
 * Regularly verify that the [bounce](delivery-failures-quarantine.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
 * Check each delivery throughput, accessible from the [delivery dashboard](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).

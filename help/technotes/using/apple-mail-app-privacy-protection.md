@@ -91,7 +91,7 @@ To gather insights from Adobe Campaign data, you can use out-of-the-box reports:
 
 * **[!UICONTROL Operating Systems]** report
 
-    To identify the proportion of visitors per operating system and per version, use this report. [Read more](../../reporting/using/global-reports.md#operating-systems).
+    To identify the proportion of visitors per operating system and per version, use this report. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} (Campaign v8 documentation).
 
     You can view the breakdown of visitors per operating system in relation to the total number of visitors.
 
@@ -103,7 +103,7 @@ To gather insights from Adobe Campaign data, you can use out-of-the-box reports:
 
 * **[!UICONTROL Breakdown of opens]** report
 
-    To identify the proportion of email opens per operating system, use this report. [Read more](../../reporting/using/global-reports.md#breakdown-of-opens).
+    To identify the proportion of email opens per operating system, use this report. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} (Campaign v8 documentation).
 
     ![](../../reporting/using/assets/dlv_useragent_report.png)
 

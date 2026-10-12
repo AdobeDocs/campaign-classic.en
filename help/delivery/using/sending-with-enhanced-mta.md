@@ -150,7 +150,7 @@ A delivery cannot be stopped once it has been transferred to the Enhanced MTA - 
 
 The Campaign Delivery throughput graph will no longer display the throughput to your email recipients. That graph will now show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
 
-For more on the delivery throughput, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
+For more on the delivery throughput, see [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (Campaign v8 documentation).
 
 ### Retries
 
