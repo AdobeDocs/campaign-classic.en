@@ -245,7 +245,7 @@ Select a filter to display its definition and to access a preview of the filtere
 
 >[!NOTE]
 >
->For a detailed example of predefined filter creation, refer to [Use case](../../platform/using/use-case.md).
+>For a detailed example of predefined filter creation, refer to [Use case](creating-filters.md).
 
 The predefined filters are:
 

@@ -110,7 +110,7 @@ Once you select the **[!UICONTROL Filtering conditions]** you will access the **
 
   >[!NOTE]
   >
-  >For more on creating and using filters, refer to [Filtering options](../../platform/using/filtering-options.md).
+  >For more on creating and using filters, refer to [Filtering options](creating-filters.md).
 
 As shown in the following example, to recover all English-speaking recipients, select: "recipient language **equal to** EN".
 

@@ -68,7 +68,7 @@ To add a new folder to the tree, right-click the folder in the branch where you 
 
 Learn how to configure Campaign navigation tree [in this section](../../configuration/using/configuration.md).
 
-Learn how to set permissions on folders [in this section](access-management-folders.md).
+Learn how to set permissions on folders [in this section](access-management.md).
 
 ## Folder configuration best practices
 

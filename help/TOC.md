@@ -47,11 +47,7 @@ nudge: false
           + [Opt-out for the Sale of Personal Information](platform/using/privacy-requests-ccpa.md)
      + Profile management {#profile-management}
           + [About profiles](platform/using/about-profiles.md)
-          + {hide-from-toc} [Edit a profile - HIDDEN](platform/using/editing-a-profile.md)
-          + {hide-from-toc} [Add profiles - HIDDEN](platform/using/adding-profiles.md)
-          + {hide-from-toc} [Manage profiles - HIDDEN](platform/using/managing-profiles.md)
           + [Update data](platform/using/updating-data.md)
-          + {hide-from-toc} [Import and export profiles - HIDDEN](platform/using/exporting-and-importing-profiles.md)
           + [Create and manage lists](platform/using/creating-and-managing-lists.md)
      + Import and export data {#importing-and-exporting-data}
           + [Get started with data import and export](platform/using/get-started-data-import-export.md)
@@ -71,9 +67,7 @@ nudge: false
                + [Import and export best practices](platform/using/import-export-best-practices.md)
                + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
      + Filter data {#filtering-data}
-          + {hide-from-toc} [Filtering options - HIDDEN](platform/using/filtering-options.md)
           + {hide-from-toc} [Create filters - HIDDEN](platform/using/creating-filters.md)
-          + {hide-from-toc} [Use case - Hidden](platform/using/use-case.md)
      + {hide-from-toc} [Steps to create a query - HIDDEN](platform/using/steps-to-create-a-query.md)
      + {hide-from-toc} [Define filter conditions - HIDDEN](platform/using/defining-filter-conditions.md)
      + Permissions {#permissions}
@@ -82,12 +76,8 @@ nudge: false
                + [Create and manage operators](platform/using/access-management-operators.md)
                + [Create and manage groups](platform/using/access-management-groups.md)
           + [Use named rights to set up permissions](platform/using/access-management-named-rights.md)
-          + {hide-from-toc} [Manage access to folders - HIDDEN](platform/using/access-management-folders.md)
      + CRM connectors {#connectors}
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
-          + {hide-from-toc} [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-          + {hide-from-toc} [Connect with Salesforce.com](platform/using/crm-sfdc.md)
-          + {hide-from-toc} [Synchronize data with the CRM](platform/using/crm-data-sync.md)
 + Create and send messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
      + {hide-from-toc} [Delivery settings - HIDDEN](delivery/using/delivery-settings.md)

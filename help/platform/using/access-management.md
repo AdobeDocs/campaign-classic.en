@@ -104,7 +104,7 @@ Learn how to grant access and set up permissions in these sections:
 
 * [Add Named rights](access-management-named-rights.md)
 
-* [Manage Campaign folder access](access-management-folders.md)
+* [Manage Campaign folder access](access-management.md)
 
 * [Access rights matrix](access-management-named-rights.md#access-rights-matrix)
 
