@@ -35,7 +35,7 @@ topic_v2:
 
 ## Monitor thresholds {#monitoring-thresholds}
 
-You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [Access transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)).
+You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [Access transactional messaging reports](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (Campaign v8 documentation)).
 
 To do this, follow the steps below:
 

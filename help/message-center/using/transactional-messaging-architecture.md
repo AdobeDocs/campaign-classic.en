@@ -260,4 +260,4 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
     * Click the **[!UICONTROL Create the archiving workflow]** button.
     * Click the **[!UICONTROL Create data synchronization workflow]** button to create the LINE data sync workflow.
 
-1. You can now start [creating transactional messages](../../message-center/using/creating-the-message-template.md).
+1. You can now start [creating transactional messages](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (Campaign v8 documentation).
