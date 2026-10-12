@@ -35,6 +35,12 @@ You can create an offer catalog that will interface with inbound and outbound ch
 
 Interaction lets you create and manage a catalog of offers, and configure the eligibility rules and application themes linked to them. Depending on the channel chosen, offer content can be personalized thanks to various rendering functions. Finally, you can use the simulation module to calculate the impact of an offer presentation.
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about Interaction, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+
+This section only covers the Interaction capabilities that are not described in the Campaign v8 documentation: [offer simulation](about-offers-simulation.md), [offer presentation](managing-offer-presentation.md), [offer approval](approving-and-activating-an-offer.md), [offer templates](managing-offer-templates.md) and [advanced settings](using-advanced-parameters.md).
+
 ![](assets/Offermgt2.png)
 
 ![](assets/do-not-localize/how-to-video.png) To familiarize yourself with the interaction feature and terminologies used in Campaign Interaction, watch [this video](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
@@ -43,6 +49,6 @@ Interaction lets you create and manage a catalog of offers, and configure the el
 
 | Useful pages | Additional resources |
 |---|---|
-| [Interaction implementation steps](../../interaction/using/implementation-steps.md) | [Testing offer distribution](../../interaction/using/about-offers-simulation.md) |
-| [Live/Design environments](../../interaction/using/live-design-environments.md) | [Adding an offer in an email](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
-| [Creating offer spaces](../../interaction/using/creating-offer-spaces.md) |  [Use case: add an offer in a website](../../interaction/using/offers-on-an-inbound-channel.md)  |
+| [Interaction implementation steps](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target="_blank"} (Campaign v8 documentation) | [Testing offer distribution](../../interaction/using/about-offers-simulation.md) |
+| [Live/Design environments](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"} (Campaign v8 documentation) | [Adding an offer in an email](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (Campaign v8 documentation) |
+| [Creating offer spaces](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation) |  [Use case: add an offer in a website](../../interaction/using/offers-on-an-inbound-channel.md)  |

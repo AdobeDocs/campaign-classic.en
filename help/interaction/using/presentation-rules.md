@@ -109,7 +109,7 @@ We want to send a first offer proposition belonging to the Canada category. If t
 
    ![](assets/offer_typology_example_016.png)
 
-1. Insert your offers in the body of the message and send the delivery. For more on this, refer to [About outbound channels](../../interaction/using/about-outbound-channels.md).
+1. Insert your offers in the body of the message and send the delivery. For more on this, refer to [About outbound channels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (Campaign v8 documentation).
 
    The recipient received the offer for which they are eligible.
 

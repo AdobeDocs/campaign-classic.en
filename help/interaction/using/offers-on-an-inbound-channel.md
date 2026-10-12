@@ -43,7 +43,7 @@ To set up this interaction, we're going to:
 
 ### Creating an anonymous environment {#creating-an-anonymous-environment}
 
-Follow the procedure detailed in [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment) to create your anonymous environment based on the **Visitors**' dimensions.
+Follow the procedure detailed in [Creating an offer environment](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (Campaign v8 documentation) to create your anonymous environment based on the **Visitors**' dimensions.
 
 You will get a tree structure containing your new environment:
 
@@ -143,7 +143,7 @@ You will get a tree structure containing your new environment:
 
 ### Configure the web offer space on the website {#configure-the-web-offer-space-on-the-website}
 
-To make the offers you have just configured visible on the website, insert a JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md)).
+To make the offers you have just configured visible on the website, insert a JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (Campaign v8 documentation)).
 
 1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](#creating-anonymous-offer-spaces)), preceded by **i_**.
 
@@ -207,7 +207,7 @@ Apply the following steps:
 
 ### Creating an environment for anonymous contacts {#creating-an-environment-for-anonymous-contacts}
 
-1. Create an offer environment for anonymous inbound interactions via the delivery mapping assistant (**Visitor** mapping). For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+1. Create an offer environment for anonymous inbound interactions via the delivery mapping assistant (**Visitor** mapping). For more on this, refer to [Creating an offer environment](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (Campaign v8 documentation).
 
    ![](assets/offer_env_anonymous_003.png)
 

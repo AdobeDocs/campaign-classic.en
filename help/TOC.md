@@ -326,22 +326,7 @@ nudge: false
 + Manage Offers {#managing-offers}
      + Get started with Interaction {#interaction-overview}
           + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
-          + [Glossary](interaction/using/i-glossary.md)
-          + [Interaction best practices](interaction/using/interaction-best-practices.md)
-     + General operation {#general-operation}
-          + [Implementation steps](interaction/using/implementation-steps.md)
-          + [Fundamental principles](interaction/using/fundamental-principles.md)
-     + Manage environments {#managing-environments}
-          + [Environments overview](interaction/using/environments-overview.md)
-          + [Operator profiles](interaction/using/operator-profiles.md)
-          + [Live/Design environments](interaction/using/live-design-environments.md)
-          + [Create offer spaces](interaction/using/creating-offer-spaces.md)
-          + [Create predefined filters](interaction/using/creating-predefined-filters.md)
      + Manage an offer catalog {#managing-an-offer-catalog}
-          + [Offer catalog overview](interaction/using/offer-catalog-overview.md)
-          + [Create offer categories](interaction/using/creating-offer-categories.md)
-          + [Recommend a category](interaction/using/recommending-a-category.md)
-          + [Create an offer](interaction/using/creating-an-offer.md)
           + [Approve and activate an offer](interaction/using/approving-and-activating-an-offer.md)
           + [Manage offer templates](interaction/using/managing-offer-templates.md)
           + [Manage offer presentation](interaction/using/managing-offer-presentation.md)
@@ -350,18 +335,6 @@ nudge: false
           + [Execution settings](interaction/using/execution-settings.md)
           + [Simulation scope](interaction/using/simulation-scope.md)
           + [Simulation tracking](interaction/using/simulation-tracking.md)
-     + Deliver an offer {#delivering-an-offer}
-          + [About outbound channels](interaction/using/about-outbound-channels.md)
-          + [Integrate an offer via the assistant](interaction/using/integrating-an-offer-via-the-wizard.md)
-          + [Integrate an offer via a workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
-     + Unitary interactions {#unitary-interactions}
-          + [About inbound channels](interaction/using/about-inbound-channels.md)
-          + [Integration via JavaScript (client side)](interaction/using/integration-via-javascript-client-side.md)
-          + [Integration via SOAP (server side)](interaction/using/integration-via-soap-server-side.md)
-          + [Anonymous interactions](interaction/using/anonymous-interactions.md)
-     + Track offers {#tracking-offers}
-          + [Offer proposition history](interaction/using/offer-proposition-history.md)
-          + [Offer analysis report](interaction/using/offer-analysis-report.md)
      + Advanced parameters {#advanced-parameters}
           + [Use advanced parameters](interaction/using/using-advanced-parameters.md)
           + [Additional data](interaction/using/additional-data.md)
