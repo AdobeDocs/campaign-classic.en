@@ -348,19 +348,7 @@ nudge: false
           + [Configure instances](message-center/using/configuring-instances.md)
           + [Additional configurations](message-center/using/additional-configurations.md)
      + Message templates {#message-templates}
-          + [Create event types](message-center/using/creating-event-types.md)
-          + [Design message templates](message-center/using/creating-the-message-template.md)
           + [Test message templates](message-center/using/testing-message-templates.md)
-          + [Publish message templates](message-center/using/publishing-message-templates.md)
-     + Transactional event processing {#processing}
-          + [Event description](message-center/using/event-description.md)
-          + [Event processing](message-center/using/about-event-processing.md)
-          + [Delivery execution](message-center/using/delivery-execution.md)
-     + Reports {#reports}
-          + [Access transactional messaging reports](message-center/using/about-transactional-messaging-reports.md)
-          + [History of Message Center events](message-center/using/history-of-message-center-events.md)
-          + [Message Center service level](message-center/using/message-center-service-level.md)
-          + [Message Center processing time](message-center/using/message-center-processing-time.md)
      + [Use case](message-center/using/transactional-email-with-attachments.md)
 + Integrate with social media {#integrating-with-social-media}
      + [About social marketing](social/using/about-social-marketing.md)

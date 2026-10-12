@@ -57,7 +57,7 @@ All the steps needed to configure and connect the control and execution instance
 
 ## Configure the control instance {#control-instance}
 
-To connect the control instance and the execution instances, you first need to create and configure an **[!UICONTROL Execution instance]** type external account **on the control instance**. Therefore, once [published](../../message-center/using/publishing-message-templates.md#template-publication), transactional message templates can be deployed to the execution instances.
+To connect the control instance and the execution instances, you first need to create and configure an **[!UICONTROL Execution instance]** type external account **on the control instance**. Therefore, once [published](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"} (Campaign v8 documentation), transactional message templates can be deployed to the execution instances.
 
 If you are using several execution instances, you must create as many external accounts as there are execution instances.
 
