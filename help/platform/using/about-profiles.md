@@ -110,7 +110,7 @@ The main methods for creating recipient profiles are as follows:
 
 ## Profiles and targets {#profiles-and-targets}
 
-The **[!UICONTROL Profiles and targets]** link lets you display recipients stored in Adobe Campaign database. You can create new recipient, edit an existing recipient and access its profile. For more on this, refer to [this page](../../platform/using/editing-a-profile.md).
+The **[!UICONTROL Profiles and targets]** link lets you display recipients stored in Adobe Campaign database. You can create new recipient, edit an existing recipient and access its profile. For more on this, refer to [this page](about-profiles.md).
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
@@ -128,10 +128,10 @@ For more advanced profile manipulations, you need to edit the Adobe Campaign tre
 
 By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view, as well as:
 
-* sort and filter the profiles of the database - [Learn more](../../platform/using/filtering-options.md)
-* move, copy or delete profiles from the database - [Learn more](../../platform/using/managing-profiles.md),
+* sort and filter the profiles of the database - [Learn more](creating-filters.md)
+* move, copy or delete profiles from the database - [Learn more](about-profiles.md),
 * update profiles - [Learn more](../../platform/using/updating-data.md)
-* export recipients - [Learn more](../../platform/using/exporting-and-importing-profiles.md)
+* export recipients - [Learn more](about-profiles.md)
 * create recipient groups - [Learn more](../../platform/using/creating-and-managing-lists.md)
 
 To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon. 
@@ -144,7 +144,7 @@ The general layout of the Adobe Campaign explorer is presented in [this page](..
 >
 >You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this page](../../platform/using/adobe-campaign-ui-lists.md).  
 >
->You can also define recipient views. For further information about this functionality, refer to [this section](../../platform/using/access-management-folders.md).
+>You can also define recipient views. For further information about this functionality, refer to [this section](access-management.md).
 
 ## Active profiles {#active-profiles}
 

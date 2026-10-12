@@ -83,7 +83,7 @@ _September 7, 2021_
 **Other changes**
 
 * Fixed a regression introduced in 21.1.3 with the billing workflow new guardrail. The billing workflow was executed on wrong instances and crashed trying to send the billing report which wasn't generated. You need to manually restart the workflow for the fix to be applied.
-* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
+* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](../../platform/using/crm-connectors.md)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
 * Missing database indexes were added to the following schemas to prevent database update issues: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl

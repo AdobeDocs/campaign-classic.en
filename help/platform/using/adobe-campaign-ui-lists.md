@@ -109,7 +109,7 @@ Another way to add columns, for example if you want to display data which is not
    >
    >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Learn more](#configuring-lists).  
    >
-   >You can also sort and filter data. See [this section](../../platform/using/filtering-options.md).
+   >You can also sort and filter data. See [this section](creating-filters.md).
 
 1. Repeat for each column to be displayed.
 1. Use the arrows to modify the **display order**. The highest column will be on the left in the list of records.
