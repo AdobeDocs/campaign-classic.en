@@ -85,7 +85,7 @@ To get the final audience and its additional data:
 
    ![](assets/acs_connect_query1.png)
 
-1. Add additional data from within the query. For more information, refer to the [Adding data](../../workflow/using/query.md#adding-data) section.
+1. Add additional data from within the query. For more information, refer to the [Adding data](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} (Campaign v8 documentation) section.
 
    This example shows how to add an aggregate to count how many deliveries a recipient received in a year.
 

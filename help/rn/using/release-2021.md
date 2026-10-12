@@ -120,7 +120,7 @@ _June 5, 2021_
 <td>
 <p>The new <b>Change Data Source</b> workflow activity allows you to change the data source of a workflow's working table. This provides enhanced flexibility in managing data across different data sources (FDA & local database).</p>
 <p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
-<p>For more information, refer to the <a href="../../workflow/using/change-data-source.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">detailed documentation</a> (Campaign v8 documentation).</p>
 </td>
 </tr>
 </tbody>
@@ -222,7 +222,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 **Improvements**
 
 * Extra checks have been added when saving a workflow to make sure that activity names are unique and that transitions are always followed by an activity.
-* The **Billing (billing)** technical workflow now includes the tasks originally performed by the **Number of active billing profiles** (billingActiveContactCount) workflow, which has been removed. The email report sent each month by the workflow will now provide information on the number of active profiles on the instance. [Read more](../../workflow/using/about-technical-workflows.md).
+* The **Billing (billing)** technical workflow now includes the tasks originally performed by the **Number of active billing profiles** (billingActiveContactCount) workflow, which has been removed. The email report sent each month by the workflow will now provide information on the number of active profiles on the instance. [Read more](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (Campaign v8 documentation).
 * New **_keyOnMData** attribute has been added to be able to use a key for operations on memo data.
 
 **Other changes**

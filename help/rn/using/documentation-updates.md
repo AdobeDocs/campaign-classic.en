@@ -61,15 +61,15 @@ Linux packages installation has been updated for v7.4.1. [Read more](../../insta
 
 Updated Release Notes section with 7.4.1 improvements, compatibility updates, and patches. [Read more](latest-release.md)
 
-A note has been added to specify how to clear instance variables when restarting workflows. [Read more](../../workflow/using/starting-a-workflow.md)
+A note has been added to specify how to clear instance variables when restarting workflows. [Read more](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} (Campaign v8 documentation)
 
 ### April 2024 {#apr-2024}
 
 A caution note has been added about user creation with Adobe Identity Management System (IMS). [Read more](../../platform/using/access-management.md)
 
-Missing options for the Web Download workflow activity have been added. [Read more](../../workflow/using/web-download.md)
+Missing options for the Web Download workflow activity have been added. [Read more](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"} (Campaign v8 documentation)
 
-A caution note has been added to the **Change Dimension** and **Change Data source** activities about their usage in a workflow. [Read more](../../workflow/using/change-data-source.md)
+A caution note has been added to the **Change Dimension** and **Change Data source** activities about their usage in a workflow. [Read more](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"} (Campaign v8 documentation)
 
 ### March 2024 {#mar-2024}
 

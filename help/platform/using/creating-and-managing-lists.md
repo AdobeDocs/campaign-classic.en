@@ -60,7 +60,7 @@ Two types of lists are available in Adobe Campaign:
 
 * **[!UICONTROL List]** type: The **[!UICONTROL List]** type lists allows you to use workflows to create and manage lists. These will be specific lists resulting from data imports, that can be updated via the dedicated **[!UICONTROL List update]** workflow activity.
 
-  Unlike the **[!UICONTROL Group]** type list, this type list can be automatically updated with a **[!UICONTROL Scheduler]** activity. Note that For an example on how to create **[!UICONTROL List]** type lists, refer to [this page](../../workflow/using/list-update.md).
+  Unlike the **[!UICONTROL Group]** type list, this type list can be automatically updated with a **[!UICONTROL Scheduler]** activity. Note that For an example on how to create **[!UICONTROL List]** type lists, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#create-list-video)
 

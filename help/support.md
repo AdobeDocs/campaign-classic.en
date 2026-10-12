@@ -71,7 +71,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="production/using/performance-and-throughput-issues.md">Performance and throughput issues</a></li>
         <li><a href="delivery/using/delivery-performance-troubleshooting.md">Delivery performances</a></li>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Optimize workflow performances</a></li>
-        <li><a href="workflow/using/monitoring-workflow-execution.md">Workflow execution troubleshooting</a></li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution" target="_blank">Workflow execution troubleshooting</a> (Campaign v8 documentation)</li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP server usage</a></li>
         <li><a href="delivery/using/delivery-failures-quarantine.md">Understand delivery failures</a></li>
         </ul>
@@ -79,7 +79,7 @@ Get support using our FAQs, best practices, online resources and support portal.
    <td valign="top">
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Worflow best practices</a></li>
-        <li><a href="workflow/using/monitoring-technical-workflows.md">Technical workflow monitoring</a></li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows" target="_blank">Technical workflow monitoring</a> (Campaign v8 documentation)</li>
         <li><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Understand tracking management</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Discover monitoring tools</a></li>
         <li><a href="platform/using/import-export-workflows.md">Import data with workflows</a></li>
@@ -97,8 +97,8 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="installation/using/get-started-security-privacy.md">Security and privacy checklist</a></li>
         <li><a href="platform/using/privacy-management.md">Privacy and consent management</a></li>
         <li><a href="platform/using/adobe-campaign-workspace.md#about-queries-in-campaign">Design a query</a></li>
-        <li><a href="workflow/using/querying-recipient-table.md">Query samples</a></li>
-        <li><a href="workflow/using/building-a-workflow.md">Build a workflow</a></li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table" target="_blank">Query samples</a> (Campaign v8 documentation)</li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/build-a-workflow" target="_blank">Build a workflow</a> (Campaign v8 documentation)</li>
         </ul>
     </td>
     </tr>

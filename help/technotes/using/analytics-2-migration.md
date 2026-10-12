@@ -24,7 +24,7 @@ Adobe Analytics 1.4 APIs are [reaching end-of-life](https://developer.adobe.com/
 
 >[!CAUTION]
 >
->Upgrading re-imports the two built-in technical workflows that power the connector, [!UICONTROL webAnalyticsSendMetrics] and [!UICONTROL webAnalyticsGetWebEvents] (see the [Web Analytics workflows reference](../../workflow/using/web-analytics.md) for what each one does). Any customization you made on top of these workflows is overwritten by the re-import. Avoid modifying these built-in workflows directly — build your customization in a separate custom workflow instead, so future upgrades don't overwrite it. The upgrade also updates the built-in Analytics JavaScript files: if any of your custom workflows reference these files, they will break and need to be adapted to the new code.
+>Upgrading re-imports the two built-in technical workflows that power the connector, [!UICONTROL webAnalyticsSendMetrics] and [!UICONTROL webAnalyticsGetWebEvents] (see the [Web Analytics workflows reference](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (Campaign v8 documentation) for what each one does). Any customization you made on top of these workflows is overwritten by the re-import. Avoid modifying these built-in workflows directly — build your customization in a separate custom workflow instead, so future upgrades don't overwrite it. The upgrade also updates the built-in Analytics JavaScript files: if any of your custom workflows reference these files, they will break and need to be adapted to the new code.
 
 ## Are you impacted? {#are-you-impacted}
 

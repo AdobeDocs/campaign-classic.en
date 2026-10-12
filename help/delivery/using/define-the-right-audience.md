@@ -88,8 +88,8 @@ Deduplicating addresses protects your sending reputation and ensures good quaran
 
 **Related topics:**
 
-* [Deduplication activity](../../workflow/using/deduplication.md).
-* [Use case: Using the Deduplication activity's merge functionality](../../workflow/using/deduplication-merge.md)
+* [Deduplication activity](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} (Campaign v8 documentation).
+* [Use case: Using the Deduplication activity's merge functionality](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} (Campaign v8 documentation)
 
 ## Index email addresses {#index-addresses}
 
