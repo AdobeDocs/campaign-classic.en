@@ -179,7 +179,7 @@ A team of dedicated Customer Care Representativess, Product Managers, Engineers 
 ## Additional resources{#support}
 
 * [Find your Campaign version](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
-* [Help and Support](../../support.md)
+* [Help and Support](../../campaign-classic-home.md)
 * [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 * [Deprecated and removed features](../../rn/using/deprecated-features.md)
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
