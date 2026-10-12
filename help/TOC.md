@@ -626,6 +626,16 @@ nudge: false
           + [Inserting tags in your site](configuration/using/inserting-tags-in-your-site.md)
           + [Collecting all visits](configuration/using/collecting-all-visits.md)
           + [Anonymous tracking](configuration/using/anonymous-tracking.md)
++ Migration guide {#migrating-to-a-new-version}
+     + {hide-from-toc} [Migrate to Adobe Campaign v7](migration/using/about-migration.md)
+     + Migration procedure {#migration-procedure}
+          + {hide-from-toc} [Prerequisites](migration/using/before-starting-migration.md)
+          + {hide-from-toc} [About migration tests](migration/using/testing-the-migration.md)
+          + {hide-from-toc} [Adapt your configuration](migration/using/configuring-your-platform.md)
+     + Start the migration {#migrating-to-adobe-campaign-7}
+          + {hide-from-toc} [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+          + {hide-from-toc} [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+     + {hide-from-toc} [Rollback procedure](migration/using/about-rollback.md)
 + Technotes {#technotes}
      + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
      + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)

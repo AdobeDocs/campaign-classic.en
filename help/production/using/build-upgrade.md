@@ -44,7 +44,7 @@ The following prerequisites are needed:
 * Systems and server side knowledge
 * Administrative rights and permissions
 
-You can find more information in these sections: [Updating Adobe Campaign](../../production/using/upgrading.md), [Migrating to a new version](upgrading.md).
+You can find more information in these sections: [Updating Adobe Campaign](../../production/using/upgrading.md), [Migrating to a new version](../../migration/using/about-migration.md).
 
 For hosted and hybrid instances, you must request the build upgrade to Adobe Technical Operations team. For more on this, refer to the Frequently Asked Questions section at the bottom if this page. Also consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
 
