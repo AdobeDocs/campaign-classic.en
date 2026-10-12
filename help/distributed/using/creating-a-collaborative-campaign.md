@@ -89,7 +89,7 @@ The campaign workflow must integrate **Local approval** type activity. The activ
 * **[!UICONTROL Distribution context]** : Explicit.
 * **[!UICONTROL Data distribution]** : Local entity distribution.
 
-**Local entity distribution** type data distribution must be created. The data distribution template lets you limit the number of records from a list of grouping values. In **[!UICONTROL Resources > Campaign management > Data distribution]**, click the **[!UICONTROL New]** icon to create a new **[!UICONTROL Data distribution]**. For more information on data distribution, refer to the [Workflows](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-) guide.
+**Local entity distribution** type data distribution must be created. The data distribution template lets you limit the number of records from a list of grouping values. In **[!UICONTROL Resources > Campaign management > Data distribution]**, click the **[!UICONTROL New]** icon to create a new **[!UICONTROL Data distribution]**. For more information on data distribution, refer to the [Workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/local-approval-activity#step-1--creating-the-data-distribution-template-){target="_blank"} (Campaign v8 documentation) guide.
 
 ![](assets/mkg_dist_data_distribution.png)
 

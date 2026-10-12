@@ -79,7 +79,7 @@ Once all approvals have been granted, the delivery status changes to **[!UICONTR
 
 >[!NOTE]
 >
->The technical workflows related to the Campaign package are presented in [List of technical workflows](../../workflow/using/about-technical-workflows.md).
+>The technical workflows related to the Campaign package are presented in [List of technical workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (Campaign v8 documentation).
 
 **Step 1 - File approval**
 

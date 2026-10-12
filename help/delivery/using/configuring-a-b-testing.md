@@ -40,7 +40,7 @@ This section details how to build a workflow to perform A/B testing.
 
 1. Add a Split activity to divide the targeted population into multiple sub-sets. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}.
 
-1. Open the activity, then configure each sub-set according to your needs. For more on how to configure a **[!UICONTROL Split]** activity, refer to [this section](../../workflow/using/split.md).
+1. Open the activity, then configure each sub-set according to your needs. For more on how to configure a **[!UICONTROL Split]** activity, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} (Campaign v8 documentation).
 
     In this example, we want to test 2 new subjects for a newsletter by presenting each of them to 10% of the targeted population.
 

@@ -209,7 +209,7 @@ Advanced filters can use functions; **filters with functions** are created via a
 
       >[!NOTE]
       >
-      >For an example of filter creation based on an expression, refer to [this section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
+      >For an example of filter creation based on an expression, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email#identifying-recipients-whose-birthday-it-is){target="_blank"} (Campaign v8 documentation).
 
 ## Save a filter {#saving-a-filter}
 

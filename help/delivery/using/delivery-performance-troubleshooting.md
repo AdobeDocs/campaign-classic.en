@@ -120,7 +120,7 @@ The cause is linked to performance issues where the marketing instance spends to
 
 **For on-premise installations**, perform a vacuum and reindex on the database. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md).
 
-You should also restart all workflows with a scheduled activity, and all workflows in failed status. Refer to [this section](../../workflow/using/scheduler.md).
+You should also restart all workflows with a scheduled activity, and all workflows in failed status. Refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (Campaign v8 documentation).
 
 ### Technical workflow monitoring
 

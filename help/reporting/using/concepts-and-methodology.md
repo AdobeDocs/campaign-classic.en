@@ -158,7 +158,7 @@ To create a new aggregate, apply the following steps:
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [this section](../../workflow/using/scheduler.md).
+    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (Campaign v8 documentation).
     * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
 
       By default, a full update is carried out during each calculation. To enable a partial update, select the relevant option and define the update conditions.

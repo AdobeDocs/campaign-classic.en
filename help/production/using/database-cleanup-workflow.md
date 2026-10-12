@@ -346,7 +346,7 @@ This task purges each workflow instance using its identifer (**lWorkflowId**) an
 
 >[!NOTE]
 >
->The purge frequency of the history is specified for each workflow in the **History in days** field (default value 30 days). This field can be found in the **Execution** tab of the workflow properties. For more on this, refer to [this section](../../workflow/using/workflow-properties.md#execution).
+>The purge frequency of the history is specified for each workflow in the **History in days** field (default value 30 days). This field can be found in the **Execution** tab of the workflow properties. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} (Campaign v8 documentation).
 
 1. To recover the list of workflows to be deleted, the following query is used:
 

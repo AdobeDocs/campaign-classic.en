@@ -48,8 +48,8 @@ The steps for building a query in Adobe Campaign are as follows:
 >[!NOTE]
 >
 >* All these steps are available in the generic query editor. When a query is created in another context, some steps can be left out.  
->The Query activity is presented in [this section](../../workflow/using/query.md).
->* To learn more about Queries and how to create them, please refer to the [Campaign v8 documentation](../../workflow/using/query.md).
+>The Query activity is presented in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (Campaign v8 documentation).
+>* To learn more about Queries and how to create them, please refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}.
 
 <!--
 ## Step 1 - Choose a table {#step-1---choose-a-table}
@@ -70,13 +70,13 @@ You can edit an expression by inserting a formula into it or running a process o
 
 ![](assets/query_editor_nveau_97.png)
 
-It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](../../workflow/using/querying-delivery-information.md).
+It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/query_editor_nveau_56.png)
 
 * The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** function lets you "group by" and select what has been grouped ("having"). This function applies to all fields in the output column. For example, this option lets you group all choices of an output column and recover a specific type of information, such as recipients between 35 and 50.
 
-  For more on this, refer to [this section](../../workflow/using/querying-using-grouping-management.md).
+  For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management){target="_blank"} (Campaign v8 documentation).
 
 * The **[!UICONTROL Remove duplicate rows (DISTINCT)]** function lets you deduplicate identical results obtained in the output column. For example, if you take a census by selecting the Last name, First name and Email fields in the output column, those with identical data will be eliminated, since it means the same contact has been entered several times in the database: only one result will be taken into account.
 

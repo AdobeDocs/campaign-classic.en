@@ -73,7 +73,7 @@ In this case, even if the rule is linked to all deliveries, it will only be appl
 
 >[!NOTE]
 >
->Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. For more on this, refer to [this section](../../workflow/using/delivery-outline.md).
+>Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"} (Campaign v8 documentation).
 
 ## Create and use a filtering typology {#creating-and-using-a-filtering-typology}
 

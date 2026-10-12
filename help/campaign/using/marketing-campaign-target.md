@@ -71,7 +71,7 @@ Targeting can be created via a combination of filtering conditions in a graphica
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
-The target population is extracted from the Adobe Campaign database via one or more queries placed in a workflow. To learn how to build a query, refer to [this section](../../workflow/using/query.md).
+The target population is extracted from the Adobe Campaign database via one or more queries placed in a workflow. To learn how to build a query, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (Campaign v8 documentation).
 
 You can launch queries and share populations via boxes such as Union, Intersection, Sharing, Exclusion, etc.
 
@@ -83,7 +83,7 @@ In the diagram, link up the targeting and scheduling queries required for target
 
 >[!NOTE]
 >
->Examples and procedure for defining queries are presented in [this section](../../workflow/using/query.md).
+>Examples and procedure for defining queries are presented in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (Campaign v8 documentation).
 
 The left-hand section of the editor contains a library of graphical objects representing activities. The first tab contains the targeting activities, and the second tab contains the flow-control activities, which are used occasionally to coordinate targeting activities.
 
@@ -93,7 +93,7 @@ The targeting workflow execution and formatting functions are accessible via the
 
 >[!NOTE]
 >
->The activities available to build the diagram as well as all display and layout features are detailed in the [Automating with workflows](../../workflow/using/architecture.md) guide.
+>The activities available to build the diagram as well as all display and layout features are detailed in the [Automating with workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} (Campaign v8 documentation) guide.
 
 You can create several targeting workflows for a single campaign. To add a workflow:
 
@@ -246,7 +246,7 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/architecture.md) for more information.
+This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} (Campaign v8 documentation) for more information.
 
 ### Use a new population as a control group {#adding-a-population}
 
@@ -256,7 +256,7 @@ You can define a new population to be used as a control group. This population c
 
 >[!NOTE]
 >
->Adobe Campaign query editor is presented in [this section](../../workflow/using/query.md).
+>Adobe Campaign query editor is presented in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (Campaign v8 documentation).
 
 
 #### Tutorial video {#create-email-video}

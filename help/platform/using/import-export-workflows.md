@@ -56,13 +56,13 @@ The data sent in a workflow can come from lists whereby the data has been prepar
 
 This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/about-generic-imports-exports.md).
 
-For more on using the read list activity in a workflow, refer to [this page](../../workflow/using/read-list.md).
+For more on using the read list activity in a workflow, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list){target="_blank"} (Campaign v8 documentation).
 
 ### Load data from a file {#loading-data-from-a-file}
 
 The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
 
-A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading-file.md) section.
+A description of the loading data activity can be found in the [Data loading (file)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"} (Campaign v8 documentation) section.
 
 Example of structured file to import:
 
@@ -74,11 +74,11 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this page](../../workflow/using/how-to-use-workflow-data.md).
+Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} (Campaign v8 documentation).
 
 ## Export data {#exporting-data-via-a-workflow}
 
 Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 
-Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction-file.md).
+Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file){target="_blank"} (Campaign v8 documentation).
 -->
