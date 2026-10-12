@@ -78,7 +78,7 @@ A data schema is an XML document associated with content. It describes the XML s
 
 >[!NOTE]
 >
->For more on creating and configuring data schemas in Adobe Campaign, please refer to [this section](../../configuration/using/about-schema-edition.md).
+>For more on creating and configuring data schemas in Adobe Campaign, please refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).
 >
 >Configuration elements specific to content management are detailed in [Data schemas](data-schemas.md).
 
@@ -190,7 +190,7 @@ The description of a form is a structured XML document that observes the grammar
 
 >[!NOTE]
 >
->For more on creating and configuring forms in Adobe Campaign, refer to [this section](../../configuration/using/identifying-a-form.md). 
+>For more on creating and configuring forms in Adobe Campaign, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation). 
 >
 >Configuration elements specific to content management are detailed in [Input forms](input-forms.md).
 

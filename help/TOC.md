@@ -518,7 +518,6 @@ nudge: false
 + Developers guide {#configuring-campaign-classic}
      + [Data packages](platform/using/working-with-data-packages.md)
      + Data model {#data-model}
-          + [About the data model](configuration/using/about-data-model.md)
           + [Data model description](configuration/using/data-model-description.md)
           + [Best practices](configuration/using/data-model-best-practices.md)
      + Work with schemas {#schema-reference}
@@ -526,7 +525,6 @@ nudge: false
           + [Schema structure](configuration/using/schema-structure.md)
           + [Database mapping](configuration/using/database-mapping.md)
           + [Key management](configuration/using/database-keys.md)
-          + [Link management](configuration/using/database-links.md)
           + Elements and attributes {#elements-attributes}
                + [Introduction](configuration/using/schema-introduction.md)
                + [Attribute](configuration/using/schema/attribute.md)
@@ -547,21 +545,15 @@ nudge: false
                + [Sysfilter](configuration/using/schema/sysfilter.md)
                + [Value](configuration/using/schema/value.md)
      + Editing schemas {#editing-schemas}
-          + [About schema edition](configuration/using/about-schema-edition.md)
-          + [Data schemas](configuration/using/data-schemas.md)
           + [Schema of an existing table](configuration/using/schema-of-an-existing-table.md)
           + [Extending a schema](configuration/using/extending-a-schema.md)
-          + [Filtering schemas](configuration/using/filtering-schemas.md)
-          + [Restricting PII view](configuration/using/restricting-pii-view.md)
           + [Updating the database structure](configuration/using/updating-the-database-structure.md)
           + [New field assistant](configuration/using/new-field-wizard.md)
           + [Structure of a data schema](configuration/using/structure-of-a-data-schema.md)
           + [Regenerating schemas](configuration/using/regenerating-schemas.md)
           + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)
      + Input forms {#input-forms}
-          + [Identify a form](configuration/using/identifying-a-form.md)
           + [Edit forms](configuration/using/editing-forms.md)
-          + [Form structure](configuration/using/form-structure.md)
      + API {#api}
           + [About web services](configuration/using/about-web-services.md)
           + [Web service calls](configuration/using/web-service-calls.md)

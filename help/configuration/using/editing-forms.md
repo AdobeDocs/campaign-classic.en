@@ -42,7 +42,7 @@ You can create and modify input forms:
 * You can modify the factory input forms that are delivered by default. The factory input forms are based on the factory data schemas.
 * You can create custom input forms, based on data schemas that you define.
 
-Forms are entities of `xtk:form` type. You can view the input form structure in the `xtk:form` schema. To view this schema, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** from the menu. Read more about [form structure](form-structure.md).
+Forms are entities of `xtk:form` type. You can view the input form structure in the `xtk:form` schema. To view this schema, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** from the menu. Read more about [form structure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).
 
 To access input forms, choose **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Input forms]** from the menu:
 
@@ -52,7 +52,7 @@ To design forms, edit the XML content in the XML editor:
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-[Read more](form-structure.md#formatting).
+[Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (Campaign v8 documentation).
 
 To preview a form, click the **[!UICONTROL Preview]** tab:
 
@@ -76,7 +76,7 @@ You can create different types of input forms. The form type determines how user
 
 * Assistant
 
-  This form comprises multiple floating screens that are ordered in a specific sequences. Users navigate from one screen to the next. [Read more](form-structure.md#wizards).
+  This form comprises multiple floating screens that are ordered in a specific sequences. Users navigate from one screen to the next. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"} (Campaign v8 documentation).
 
 * Iconbox
 
@@ -106,7 +106,7 @@ In forms, you can use containers for various purposes:
 * Define access to input fields
 * Nest forms within other forms
 
-[Read more](form-structure.md#containers).
+[Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Campaign v8 documentation).
 
 ### Organize content
 
@@ -115,7 +115,7 @@ Use containers to organize content within forms:
 * You can group fields into sections.
 * You can add pages to multipage forms.
 
-To insert a container, use the `<container>` element. [Read more](form-structure.md#containers).
+To insert a container, use the `<container>` element. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Campaign v8 documentation).
 
 #### Group fields
 
@@ -228,7 +228,7 @@ To create a form, follow these steps:
 
 1. Insert the form elements.
    
-   For example, to insert an input field, use the `<input>` element. Set the `xpath` attribute to the field reference as an XPath expression. [Read more](schema-structure.md#referencing-with-xpath).
+   For example, to insert an input field, use the `<input>` element. Set the `xpath` attribute to the field reference as an XPath expression. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (Campaign v8 documentation).
 
    This example shows input fields based on the `nms:recipient` schema.
 
@@ -261,7 +261,7 @@ To create a form, follow these steps:
    | Checkbox | `type="checkbox"` |
    | Edit tree | `type="tree"` |
 
-    Read more about [memory list controls](form-structure.md#memory-list-controls).
+    Read more about [memory list controls](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"} (Campaign v8 documentation).
 
 1. Optionally, define access to the fields:
 
@@ -478,7 +478,7 @@ You can include validation controls in forms.
 
 ### Grant read-only access to fields
 
-To grant read-only access to a field, use the `readOnly="true"` attribute. For example, you might want to show the primary key of a record, but with read-only access. [Read more](form-structure.md#non-editable-fields).
+To grant read-only access to a field, use the `readOnly="true"` attribute. For example, you might want to show the primary key of a record, but with read-only access. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#non-editable-fields){target="_blank"} (Campaign v8 documentation).
 
 In this example, the primary key (`iRecipientId`) of the `nms:recipient` schema is displayed in read-only access:
 
@@ -504,11 +504,11 @@ In this example, the email address is required, and an error message is displaye
 </leave>
 ```
 
-Read more about [expression fields](form-structure.md#expression-field) and [form context](form-structure.md#context-of-forms).
+Read more about [expression fields](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} (Campaign v8 documentation) and [form context](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (Campaign v8 documentation).
 
 ### Validate values
 
-You can use JavaScript SOAP calls to validate form data from the Console. Use these calls for complex validation, for example, to check a value against a list of authorized values. [Read more](form-structure.md#soap-methods).
+You can use JavaScript SOAP calls to validate form data from the Console. Use these calls for complex validation, for example, to check a value against a list of authorized values. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"} (Campaign v8 documentation).
 
 1. Create a validation function in a JS file.
 
@@ -565,4 +565,4 @@ This example shows how you can make service calls from within forms:
 </enter>
 ```
 
-In this example, the input is an ID, which is a primary key. When users fill the form for this ID, a SOAP call is made with this ID as the input parameter. The output is a boolean that is written to this field: `/tmp/@count`. You can use this boolean inside the form. Read more about [form context](form-structure.md#context-of-forms).
+In this example, the input is an ID, which is a primary key. When users fill the form for this ID, a SOAP call is made with this ID as the input parameter. The output is a boolean that is written to this field: `/tmp/@count`. You can use this boolean inside the form. Read more about [form context](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (Campaign v8 documentation).

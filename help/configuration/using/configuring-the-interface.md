@@ -53,7 +53,7 @@ Creating a new form will enable you to view and edit the data of the external re
 
    >[!NOTE]
    >
-   >To find out more about **form** type files, refer to [this page](../../configuration/using/identifying-a-form.md).
+   >To find out more about **form** type files, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).
 
    In our current example, the **form** file must be based on the **cus:individual** schema and therefore have the following layout:
 

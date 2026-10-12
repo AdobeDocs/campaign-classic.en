@@ -23,28 +23,12 @@ role_v2:
 ---
 # Updating the database structure{#updating-the-database-structure}
 
-
-
-To apply the modifications made to the schemas, launch the database update assistant. This assistant is accessible via **[!UICONTROL Tools > Advanced > Update database structure]** . It checks whether the physical structure of the database matches its logical description and executes the SQL update scripts.
-
-![](assets/d_ncs_integration_schema_update.png)
-
-The modules in the database are automatically populated and activated.
-
-![](assets/d_ncs_integration_schema_update_select.png)
+To apply the modifications made to the schemas, launch the database update assistant, available via **[!UICONTROL Tools > Advanced > Update database structure]**. In Campaign Classic v7, the assistant also offers the following options:
 
 The **[!UICONTROL Add stored procedures]** and **[!UICONTROL Import initialization data]** options are used to launch the initial SQL scripts and the data packages executed when the database is created.
 
 You can import a set of data from an external data package. To do this, select **[!UICONTROL Import a package]** and enter the XML file of the package.
 
-Follow the steps and view the database update SQL script:
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about the database update assistant, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/update-database-structure){target=_blank}.
 
-![](assets/d_ncs_integration_schema_update2.png)
-
->[!NOTE]
->
->This is in an editing field and can be modified in order to delete or add SQL code.
-
-Next, launch the database update:
-
-![](assets/d_ncs_integration_schema_update3.png)
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/update-database-structure){target=_blank}

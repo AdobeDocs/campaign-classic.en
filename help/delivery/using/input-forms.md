@@ -43,7 +43,7 @@ topic_v2:
 
 Below are some general principles concerning the use of input forms in Adobe Campaign.
 
-Forms are detailed in [this section](../../configuration/using/identifying-a-form.md).
+Forms are detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).
 
 ## Form structure {#form-structure}
 
@@ -101,7 +101,7 @@ By default, each field is displayed on one line and occupies all of the availabl
 
 The arrangement of the controls relative to each other looks like the arrangement used in HTML tables, with the possibility of dividing a control into several columns, of interlacing elements, or of specifying the occupation of available space. Bear in mind, however, that formatting authorizes the distribution of proportions only; you cannot specify fixed dimensions for an object.
 
-For more on this, refer to [this section](../../configuration/using/form-structure.md#formatting).
+For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (Campaign v8 documentation).
 
 ## List type controls {#list-type-controls}
 
@@ -210,7 +210,7 @@ Use the toolbar buttons to add or delete list elements.
 
 Containers let you group a set of controls. They exist via the **`<container>`** element. They have already been used to format controls in several columns and for the control of the tab list.
 
-For more on containers and how to use them in input forms, refer to [this section](../../configuration/using/form-structure.md#containers).
+For more on containers and how to use them in input forms, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Campaign v8 documentation).
 
 ## Editing forms {#editing-forms}
 
@@ -222,4 +222,4 @@ The **[!UICONTROL Preview]** tab lets you view the input form:
 
 ![](assets/d_ncs_content_form13.png)
 
-Read more about [editing forms](../../configuration/using/editing-forms.md) and [form structure](../../configuration/using/form-structure.md).
+Read more about [editing forms](../../configuration/using/editing-forms.md) and [form structure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).

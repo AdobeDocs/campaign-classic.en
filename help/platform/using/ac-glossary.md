@@ -204,14 +204,14 @@ Learn more about [Cubes](../../reporting/using/ac-cubes.md).
 
 Adobe Campaign comes with a pre-defined data model, where data types are defined through the installation of various packages. Operators can enrich the data model that is provided by extending the resources to add custom fields or custom tables, such as transaction or product tables.
 
-Learn more about [Custom resources](../../configuration/using/about-schema-edition.md).
+Learn more about [Custom resources](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).
 +++
 
 +++**Data model**
 
 Campaign data model is a set of schemas that define the data types and their relationships (links). The data model is an abstract definition that is physically implemented with a database that contains the actual data.
 
-Learn more about [Data model](../../configuration/using/about-data-model.md).
+Learn more about [Data model](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (Campaign v8 documentation).
 +++
 
 +++**Database cleanup workflow**
@@ -455,7 +455,7 @@ Learn more about Campaign user interface in [Adobe Campaign v8 (console) documen
 
 Forms define the interface representation for a specific schema type. Forms are the means used to easily create and edit data elements in the product, such as Recipients, Deliveries and Campaigns. All interface elements in Adobe Campaign are created in the product itself using Forms. Note that forms are optional and not all schemas have forms. 
 
-Learn more about [Forms](../../configuration/using/identifying-a-form.md).
+Learn more about [Forms](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).
 +++
 
 <!--
@@ -584,7 +584,7 @@ Learn more about [Named rights](../../platform/using/access-management-named-rig
 
 The namespace is a partition that separates customer data types from Adobe Campaign's native datatypes in the data model. Also used to facilitate the migration of definitions from one instance to another, such as moving a schema or template from the Development instance to the Production instance. 
 
-Learn more about [Namespace](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
+Learn more about [Namespace](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas#identification-of-a-schema){target="_blank"} (Campaign v8 documentation).
 +++
 
 <!--
@@ -891,7 +891,7 @@ Learn more about [Push](../../delivery/using/about-mobile-app-channel.md).
 
 In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.) to your customers. Recipient data stored in the database enable you to filter the target and add personalization data. Typically, this is personal, contact, demographic and transactional information, but it could be any type of information that supports marketing and analytics.  
 
-Learn more about [Recipient](../../configuration/using/about-data-model.md).
+Learn more about [Recipient](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (Campaign v8 documentation).
 +++
 
 +++**Rendering function**

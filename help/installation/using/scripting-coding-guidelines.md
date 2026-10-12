@@ -92,7 +92,7 @@ Refer to these pages:
 
 In addition to the folder-based security model, you can use named rights to limit operator actions:
 
-* You can add some system filters (sysFilter) to prevent reading/writing to your data (see [this page](../../configuration/using/filtering-schemas.md)).
+* You can add some system filters (sysFilter) to prevent reading/writing to your data (see [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (Campaign v8 documentation)).
 
     ```
     <sysFilter name="writeAccess">    
