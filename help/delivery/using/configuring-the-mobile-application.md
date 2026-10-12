@@ -57,7 +57,7 @@ Key steps are:
 1. [Configure the iOS service](#configuring-ios-service)
 1. [Integrate the iOS mobile app in Campaign](#creating-ios-app)
 
-You will then be able to [create a push notification for iOS devices](create-notifications-ios.md).
+You will then be able to [create a push notification for iOS devices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"} (Campaign v8 documentation).
 
 ## Configure iOS external account {#configuring-external-account-ios}
 
@@ -129,7 +129,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. <!--For more on this, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
 
     >[!NOTE]
     >

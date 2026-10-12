@@ -32,23 +32,11 @@ topic_v2:
 ---
 # Detect tracking URLs
 
-## Example of non-detection
+Adobe Campaign detects the URLs to track in your content during the delivery analysis.
 
-`<%= getURL("http://mynewsletter.com") %>` works and sends the actual content of the web page via email to the recipients. But none of the links are tracked. The reason for this is that the MTA executes `"<%=getURL(..."` for each email before sending. It can be different for each recipient, so Adobe Campaign cannot know the URLs for tracking and assign them a tag ID.
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn how URLs are detected and which patterns to use, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}.
 
-When the page to download is the same for all recipients, the best practice is to do the following:
-
-`<%@ include url="http://mynewsletter.com" %>`
-
-In that case, the page is downloaded during the analysis, before the tracking detection. It allows Adobe Campaign to discover the links, assign a tag ID, and track them.
-
-## Recommended Pattern
-
-After processing `<%@` instructions, the URL to be tracked has the following syntax: `<a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">`
-
->[!IMPORTANT]
->
->All other patterns are not supported by Adobe and should be avoided to prevent potential security gaps.
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
 
 ## Unsecured pattern
 

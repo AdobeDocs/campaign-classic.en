@@ -176,7 +176,7 @@ Adobe Campaign offers the following delivery channels:
 
 1. **Email channel**: email deliveries let you send personalized emails to the target population. Refer to [About email channel](about-email-channel.md).
 1. **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population. Refer to [About direct mail channel](about-direct-mail-channel.md).
-1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](sms-channel.md).
+1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"} (Campaign v8 documentation).
 1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](about-mobile-app-channel.md) chapter.
 
    Other channels are described on [this section](#other-channels).
@@ -204,13 +204,13 @@ You can send different types of emails:
 * Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/recurring-delivery){target="_blank"} (Campaign v8 documentation).
 * Transactional emails: unitary emails that are triggered based on your customers' behavior. Refer to [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
-To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](delivery-best-practices.md).
+To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-best-practices){target="_blank"} (Campaign v8 documentation).
 
 For more on the different types of deliveries, refer to [this section](#types-of-deliveries).
 
 ## Mobile deliveries {#mobile-deliveries}
 
-Adobe Campaign allows you to deliver [SMS](sms-channel.md) and [LINE](line-channel.md) messages on mobiles.
+Adobe Campaign allows you to deliver [SMS](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"} (Campaign v8 documentation) and [LINE](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line){target="_blank"} (Campaign v8 documentation) messages on mobiles.
 
 For SMS messages, you can create, modify, and personalize messages in text format only. You can also preview your SMS messages before they are sent.
 

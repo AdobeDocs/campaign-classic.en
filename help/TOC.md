@@ -82,73 +82,27 @@ nudge: false
      + [Get started with messages](delivery/using/communication-channels.md)
      + {hide-from-toc} [Delivery settings - HIDDEN](delivery/using/delivery-settings.md)
      + Quick start {#key-steps-when-creating-a-delivery}
-          + {hide-from-toc} [Get started with deliveries - HIDDEN](delivery/using/steps-about-delivery-creation-steps.md)
-          + {hide-from-toc} [Create and identify a delivery - HIDDEN](delivery/using/steps-create-and-identify-the-delivery.md)
-          + {hide-from-toc} [Define the audience - HIDDEN](delivery/using/steps-defining-the-target-population.md)
-          + {hide-from-toc} [Validate the delivery - HIDDEN](delivery/using/steps-validating-the-delivery.md)
           + {hide-from-toc} [Send the delivery - HIDDEN](delivery/using/steps-sending-the-delivery.md)
-          + {hide-from-toc} [Delivery best practices - HIDDEN](delivery/using/delivery-best-practices.md)
-     + Delivery best practices {#delivery-bestpractices}
-          + {hide-from-toc} [Optimize delivery - HIDDEN](delivery/using/optimize-delivery.md)
-          + {hide-from-toc} [Use templates - HIDDEN](delivery/using/use-templates.md)
-          + {hide-from-toc} [Build personalized content - HIDDEN](delivery/using/design-and-personalize.md)
-          + {hide-from-toc} [Define the right audience - HIDDEN](delivery/using/define-the-right-audience.md)
-          + {hide-from-toc} [Check before sending - HIDDEN](delivery/using/check-before-sending.md)
      + [Send emails](delivery/using/about-email-channel.md)
-     + Send emails {#sending-emails}
-          + {hide-from-toc} [Create an email delivery - HIDDEN](delivery/using/creating-an-email-delivery.md)
-          + {hide-from-toc} [Define the email content - HIDDEN](delivery/using/defining-the-email-content.md)
-          + {hide-from-toc} [Define interactive content - HIDDEN](delivery/using/defining-interactive-content.md)
-          + Send the email delivery {#sending-an-email}
-               + {hide-from-toc} [Main steps to send an email - HIDDEN](delivery/using/sending-messages.md)
-               + {hide-from-toc} [Email parameters - HIDDEN](delivery/using/email-parameters.md)
-               + {hide-from-toc} [Send on Japanese mobiles - HIDDEN](delivery/using/sending-emails-on-japanese-mobiles.md)
-          + {hide-from-toc} [Attach files - HIDDEN](delivery/using/attaching-files.md)
      + Send SMS {#sending-messages-on-mobiles}
-          + [Get started with SMS](delivery/using/sms-channel.md)
           + Configure SMS channel {#sms-set-up}
                + [Configure SMS on a standalone instance](delivery/using/sms-set-up.md)
                + [Configure SMS on a mid-sourcing infrastructure](delivery/using/sms-set-up-mid.md)
                + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
                + [Additional configuration](delivery/using/sms-send.md)
                + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
-          + {hide-from-toc} [Create a SMS - HIDDEN](delivery/using/sms-create.md)
           + {hide-from-toc} [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
-     + [Send LINE messages](delivery/using/line-channel.md)
      + [Send push notifications](delivery/using/about-mobile-app-channel.md)
      + Send push notifications {#sending-push-notifications}
-          + {hide-from-toc} [Integrate Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
           + Configure the mobile application{#configure-the-mobile-app}
                + {hide-from-toc} [Get started with the app configuration - HIDDEN](delivery/using/get-started-app-config.md)
                + {hide-from-toc} [Configuration steps for iOS - HIDDEN](delivery/using/configuring-the-mobile-application.md)
                + {hide-from-toc} [Configuration steps for Android - HIDDEN](delivery/using/configuring-the-mobile-application-android.md)
-          + Create a push notification{#create-a-push-msg}
-               + {hide-from-toc} [Create a push message for iOS - HIDDEN](delivery/using/create-notifications-ios.md)
-               + {hide-from-toc} [Create a push message for Android - HIDDEN](delivery/using/create-notifications-android.md)
           + {hide-from-toc} [Troubleshooting - HIDDEN](delivery/using/troubleshooting.md)
      + [Send direct mails](delivery/using/about-direct-mail-channel.md)
-     + Send direct mail {#sending-direct-mail}
-          + {hide-from-toc} [Create a direct mail delivery - HIDDEN](delivery/using/creating-a-direct-mail-delivery.md)
-          + {hide-from-toc} [Define the direct mail content - HIDDEN](delivery/using/defining-the-direct-mail-content.md)
-          + {hide-from-toc} [Validate - HIDDEN](delivery/using/validating.md)
-     + Use delivery templates {#using-delivery-templates}
-          + {hide-from-toc} [Work with delivery templates - HIDDEN](delivery/using/about-templates.md)
-          + {hide-from-toc} [Create a delivery template - HIDDEN](delivery/using/creating-a-delivery-template.md)
-          + {hide-from-toc} [Select a target mapping - HIDDEN](delivery/using/selecting-a-target-mapping.md)
-          + {hide-from-toc} [Create a delivery from a template - HIDDEN](delivery/using/creating-a-delivery-from-a-template.md)
      + Personalize deliveries {#personalizing-deliveries}
           + [About personalization](delivery/using/about-personalization.md)
-          + {hide-from-toc} [Personalization fields - HIDDEN](delivery/using/personalization-fields.md)
-          + {hide-from-toc} [Personalization blocks - HIDDEN](delivery/using/personalization-blocks.md)
-          + {hide-from-toc} [Conditional content - HIDDEN](delivery/using/conditional-content.md)
-          + {hide-from-toc} [Personalized coupons - HIDDEN](delivery/using/personalized-coupons.md)
-          + {hide-from-toc} [Generate personalized PDF documents - HIDDEN](delivery/using/generating-personalized-pdf-documents.md)
-          + {hide-from-toc} [Customize the emoticon list](delivery/using/customizing-emoticon-list.md)
      + Use seed addresses {#using-seed-addresses}
-          + [About seed addresses](delivery/using/about-seed-addresses.md)
-          + [Create seed addresses](delivery/using/creating-seed-addresses.md)
-          + [Add seed addresses](delivery/using/adding-seed-addresses.md)
-          + [Use an external recipient table](delivery/using/using-an-external-recipient-table.md)
           + [Use case: select seed addresses on criteria](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
           + [Use case: configure the field substitution](delivery/using/use-case-configuring-the-field-substitution.md)
      + A/B testing {#a-b-testing}
@@ -176,9 +130,7 @@ nudge: false
           + [Advanced: Customize delivery logs](delivery/using/customize-delivery-logs.md)
      + Deliverability management {#deliverability-management}
        + [What is deliverability](delivery/using/about-deliverability.md)
-       + [Control message content](delivery/using/control-message-content.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
-       + [SpamAssassin](delivery/using/spamassassin.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
      + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
@@ -589,8 +541,6 @@ nudge: false
           + {hide-from-toc} [Migrate to the Adobe Analytics 2.0 API](technotes/using/analytics-2-migration.md)
      + Emails and push notifications{#technotes-email}
           + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-          + [How to  update incorrect hard bounces](delivery/using/update-bounce-qualification.md)
-          + {hide-from-toc} [Update incorrect hard bounces after an ISP outage](delivery/using/update-bounces.md)
           + [iOS certificate update](technotes/using/ios-certificate-update.md)
           + {hide-from-toc} [Tracked URLs update](technotes/using/tracked-urls.md)
      + Migration to Adobe Managed Services{#dc-migration}

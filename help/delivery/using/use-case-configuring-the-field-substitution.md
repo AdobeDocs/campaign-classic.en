@@ -81,7 +81,7 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure your delivery list and your seed addresses. Refer to [Identify target populations](steps-defining-the-target-population.md).
+1. Configure your delivery list and your seed addresses. Refer to [Identify target populations](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation).
 
    In this example, the user selects users whose **favorite literary genre** is Sci-Fi as the main target population.
 

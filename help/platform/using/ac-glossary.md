@@ -505,7 +505,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 The functionality that supplies the images embedded in emails to the delivery's recipients. The insertion of the images based on an emails system's "download images" functionality is what generates an "open" entry in Campaign's tracking logs.
 
-Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
+Learn more about [Image serving](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/defining-the-email-content#adding-images){target="_blank"} (Campaign v8 documentation).
 +++
 -->
 
@@ -929,7 +929,7 @@ Learn more about [Schema extension](../../configuration/using/extending-a-schema
 
 Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure delivery. 
 
-Learn more about [Seed addresses](../../delivery/using/about-seed-addresses.md).
+Learn more about [Seed addresses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (Campaign v8 documentation).
 +++
 
 <!--

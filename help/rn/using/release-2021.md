@@ -158,7 +158,7 @@ _June 5, 2021_
 <li><p>Support for LINE Partner Registration API</p></li>
 <li><p>Support retry of message sending in the event of LINE server-side error or network timeout</p></li>
 </ul>
-<p>For more information refer to the <a href="../../delivery/using/line-channel.md">detailed documentation</a>.</p>
+<p>For more information refer to the <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">detailed documentation</a> (Campaign v8 documentation).</p>
 </td> 
 </tr> 
 </tbody> 

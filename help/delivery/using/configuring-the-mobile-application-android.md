@@ -64,7 +64,7 @@ Key steps are:
 1. [Create the mobile app in Campaign](#creating-android-app)
 1. [Extend the app schema with additional data](#extend-subscription-schema)
 
-You will then be able to [create an Android rich notification](create-notifications-android.md).
+You will then be able to [create an Android rich notification](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (Campaign v8 documentation).
 
 >[!IMPORTANT]
 >
@@ -131,7 +131,7 @@ After creating your service, you now need to create your Android application:
 
    ![](assets/nmac_android.png)
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. <!--For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
 
     >[!NOTE]
     >
@@ -197,4 +197,4 @@ You need to extend the **appsubscriptionRcp** to define new additional fields to
 
    >[!CAUTION]
    >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. <!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. <!--Refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->

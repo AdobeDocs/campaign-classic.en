@@ -42,6 +42,10 @@ topic_v2:
 ---
 # Additional configuration{#sms-properties}
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about SMS delivery settings, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}
+
 <!--
 ## Send SMS messages {#sending-sms-messages}
 
@@ -49,7 +53,7 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validate the delivery](steps-validating-the-delivery.md)
+* [Validate the delivery](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/validate/delivery-analysis){target="_blank"} (Campaign v8 documentation)
 * [Send the delivery](steps-sending-the-delivery.md)
 -->
 
@@ -69,7 +73,6 @@ The following options are available:
   >
   >Check the law in your country regarding editing sender names. You should also check with your operator whether they offer this functionality.
 
-* **Transmission mode**: message transmission by SMS.
 * **Priority**: level of importance assigned to a message. **[!UICONTROL Normal]** priority is selected by default. Ask your service provider about the cost of SMS sent with **[!UICONTROL High]** priority.
 * **Type of application**: choose the application you wish to assign to your SMS delivery. The **[!UICONTROL Direct Marketing]** option is selected by default and is the most common one used.
 
@@ -78,12 +81,6 @@ The following options are available:
 ![](assets/s_user_mobile_sms_adv_netsize.png)
 
 * **Use several SMS for a single message**: this lets you send a message over 160 characters long via several SMS messages.
-
-**Parameters specific to an SMPP connector**
-
-![](assets/s_user_mobile_sms_adv_smpp.png)
-
-* **Maximum number of SMS per message**: this option lets you set the number of SMS to use to send a message. If the number is set to 0, you can use an SMS to deliver your message. If the number of SMS is set to 1 or 2 for instance, and the message exceeds this threshold, it will not be sent.
 
 <!--
 ## Monitor and track SMS {#monitoring-and-tracking-sms-deliveries}

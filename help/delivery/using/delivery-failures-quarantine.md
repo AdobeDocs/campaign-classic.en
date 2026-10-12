@@ -101,7 +101,7 @@ Bounce mails can have the following qualification status:
 
 >[!NOTE]
 >
->In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. For more on this, see [this page](update-bounce-qualification.md).
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. For more on this, see [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation).
 
 ### Email management rules configuration {#email-management-rules}
 
@@ -241,7 +241,7 @@ For detailed information about SMS quarantine scenarios and error types, refer t
 * [Delivery statuses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (Campaign v8 documentation)
 * [Database cleanup workflow](../../production/using/database-cleanup-workflow.md) (v7 hybrid/on-premise)
 * [Configure delivery retries](communication-channels.md) (v7 hybrid/on-premise)
-* [Update bounce qualification](update-bounce-qualification.md) (v7 hybrid/on-premise)
+* [Update bounce qualification](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (Campaign v8 documentation) (v7 hybrid/on-premise)
 * [Email deliverability configuration](../../installation/using/email-deliverability.md) (v7 hybrid/on-premise)
 * [Deploying an instance](../../installation/using/deploying-an-instance.md#managing-bounced-emails) (v7 hybrid/on-premise)
 

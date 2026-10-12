@@ -129,7 +129,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> LINE channel<br /> </td> 
-   <td> Sends deliveries using the LINE channel with Adobe Campaign. Optional. Transactional messaging (Message center package) mandatory. <a href="../../delivery/using/line-channel.md">Learn More</a> <br /> </td> 
+   <td> Sends deliveries using the LINE channel with Adobe Campaign. Optional. Transactional messaging (Message center package) mandatory. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">Learn More</a> (Campaign v8 documentation) <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
   <tr> 
@@ -139,7 +139,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Mobile channel (SMS) <br /> </td> 
-   <td> Sends deliveries using the Mobile/SMS channel with Adobe Campaign. Optional. <a href="../../delivery/using/sms-channel.md">Learn More</a> <br /> </td> 
+   <td> Sends deliveries using the Mobile/SMS channel with Adobe Campaign. Optional. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms" target="_blank">Learn More</a> (Campaign v8 documentation) <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
    <tr> 
@@ -279,7 +279,7 @@ In the context of a mid-sourcing configuration, you need to:
 
 * Install the [!DNL LINE] package on both the Marketing and the MID instance
 
-* Setup the [!DNL LINE] external account on the mkt instance to point to the mid instance by changing the delivery mode. [Learn more](../../delivery/using/line-channel.md#configure-line-external)
+* Setup the [!DNL LINE] external account on the mkt instance to point to the mid instance by changing the delivery mode. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (Campaign v8 documentation)
 
 * Setup the [!DNL LINE] credentials in the external account on the MID instance. 
 

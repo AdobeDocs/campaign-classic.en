@@ -40,6 +40,10 @@ role_v2:
 
 The following settings are specific to Campaign Classic. For other delivery settings, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}. 
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about delivery settings, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}
+
 ## Delivery analysis {#delivery-analysis}
 
 ### Improve the delivery analysis performance {#improving-delivery-analysis}
@@ -75,8 +79,6 @@ If a delivery is too large, it is better to assign a low priority to it in order
 
 ### Configure retries {#configuring-retries}
 
-Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
-
 >[!IMPORTANT]
 >
 >For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
@@ -94,8 +96,6 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
 * The **[!UICONTROL Delivery duration]** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
-
-  You can also choose to specify dates. To do this, select **[!UICONTROL Explicitly set validity dates]**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
   >[!IMPORTANT]
   >
