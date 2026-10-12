@@ -25,7 +25,6 @@ nudge: false
     + {hide-from-toc} [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
-  + {hide-from-toc} [Documentation updates - HIDDEN](rn/using/documentation-updates.md)
 + Get started {#getting-started}
      + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
      + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
@@ -89,7 +88,6 @@ nudge: false
           + {hide-from-toc} [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
           + {hide-from-toc} [Connect with Salesforce.com](platform/using/crm-sfdc.md)
           + {hide-from-toc} [Synchronize data with the CRM](platform/using/crm-data-sync.md)
-     + {hide-from-toc} [Help & support options - HIDDEN](support.md)
 + Create and send messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
      + {hide-from-toc} [Delivery settings - HIDDEN](delivery/using/delivery-settings.md)
@@ -593,13 +591,11 @@ nudge: false
           + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)
           + [Interface impact after IMS migration](technotes/using/impact-ims-migration.md)
      + Upgrades and compatibility{#technote-migration}
-          + {hide-from-toc} [Technotes](technotes/using/technote.md)
           + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       
           + {hide-from-toc} [New deliverabiity server](technotes/using/deliverability-server.md)
           + {hide-from-toc} [Apache Security Upgrade](technotes/using/acc-apache-upgrade.md)
           + {hide-from-toc} [2023 system upgrades](technotes/using/tech-stack-upgrade.md)
           + {hide-from-toc} [IMS updates](technotes/using/ims-updates.md)
-          + {hide-from-toc} [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
           + {hide-from-toc} [Migrate to the Adobe Analytics 2.0 API](technotes/using/analytics-2-migration.md)
      + Emails and push notifications{#technotes-email}
           + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
