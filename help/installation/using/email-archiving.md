@@ -162,7 +162,7 @@ To do this, make the following changes to the **`config-<instance>.xml`** file:
 1. Set the **compressionFormat** parameter to **1** if needed.
 1. Set the **archivingType** parameter to **1**.
 
-Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation).
 -->
 
 ## Email BCC best practices {#best-practices}

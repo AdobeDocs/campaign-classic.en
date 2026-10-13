@@ -144,7 +144,7 @@ How to fix connection stability problems:
 
 ## Issue when sending a MT (regular SMS sent to an end-user){#issue-MT}
 
-* Check that the connection is stable. An SMPP connection should stay up for at least 1 hour continuously except for transmitters on Adobe Campaign Classic. See the section [Issue with unstable connections](sms-protocol.md#issues-unstable-connection).
+* Check that the connection is stable. An SMPP connection should stay up for at least 1 hour continuously except for transmitters on Adobe Campaign Classic. See the section [Issue with unstable connections](#issues-unstable-connection).
 
 * If restarting the MTA makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section [Issue with unstable connections](troubleshooting-sms.md#issues-unstable-connection).
 

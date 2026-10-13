@@ -41,6 +41,10 @@ There are three types of instructions:
 
 They can be tested directly from the delivery assistant. They apply in the content preview and when you click the tracking button to see the list of the URLs.
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about pre-processing instructions, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}
+
 ## [!DNL include] {#include}
 
 The following examples are among the most commonly used:
@@ -146,19 +150,6 @@ For example:
 ## [!DNL foreach] {#foreach}
 
 This instruction allows iteration on an array of objects loaded in the delivery to track individual links related to the objects.
-
-Syntax:
-
-```
-<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
-```
-
-Where:
-
-* **[!DNL object]**: name of the object to start from, typically an extra script object, but it can be a delivery.
-* **[!DNL xpath]** (optional): xpath of the collection to loop on. Default is ".", meaning that object is the array to loop on.
-* **[!DNL index]** (optional): if xpath is not "." and object is an array itself, item index of object (starts at 0).
-* **[!DNL item]** (optional): name of a new object accessible with <%@ value inside the foreach loop. Default with the link name in the schema.
 
 Example:
 

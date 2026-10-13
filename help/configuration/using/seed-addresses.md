@@ -41,7 +41,7 @@ If the recipient table is a custom table, additional configurations are required
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-For more on using seed addresses, refer [this section](../../delivery/using/about-seed-addresses.md).
+For more on using seed addresses, refer [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (Campaign v8 documentation).
 
 ## Implementation {#implementation}
 

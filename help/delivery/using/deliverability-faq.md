@@ -46,6 +46,10 @@ topic_v2:
 
 Are you experiencing a deliverability problem? You may find the solution here.
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn about quarantines, the denylist and how to remove an address from them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}
+
 ## MX rule error {#mx-rule-error}
 
 **What does the error message 'quotas met' mean?**
@@ -71,29 +75,7 @@ If you always get the same error message for an ISP, your email or IP may have b
 
 If the problem persists, contact the commercial or deliverability services, [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-## Denylist versus quarantine {#denylist-versus-quarantine}
-
-* **What is the difference between a email address on denylist and a quarantined email address?**
-
-    * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
-
-    * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
-    
-    For more on this, see [this section](delivery-failures-quarantine.md#quarantine-vs-denylist).
-
-* **What do the different quarantine error reasons mean?**
-
-    Here are 10 possible reasons: not defined, user unknown, invalid domain, on denylist, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
-    
-    For more on this, see [Understanding quarantine management](delivery-failures-quarantine.md).
-
-## Removing from denylist {#remove-from-denylist}
-
-* **One of my recipients was added to denylist by mistake. How do I remove them from the denyist so that I can start sending them messages again?**
-
-    * Go to **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
-    * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
-    * Save the record.
+## Removing an IP from a denylist {#remove-from-denylist}
 
 * **How can I find out whether one of my IPs is on a denylist? How do I remove my IP(s) from a denylist?**
 

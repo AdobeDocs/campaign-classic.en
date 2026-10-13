@@ -40,64 +40,11 @@ role_v2:
 ---
 # Automate with workflows{#automating-via-workflows}
 
-## Content management activity {#content-management-activity}
+Creating, editing, and publishing Content Management content can be automated using a workflow.
 
-Creating, editing, and publishing content can be automated using a workflow configured via the Adobe Campaign client interface.
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn how to configure the **Content management** activity, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}.
 
-The **Content management** activity is accessed via the **[!UICONTROL Tools]** toolbar of the workflow diagram.
-
-Activity properties are broken down into four steps:
-
-* **[!UICONTROL Content]** : lets you enter existing content or create content,
-* **[!UICONTROL Update content]** : lets you modify the subject of the content or update the content via an XML data flux,
-* **[!UICONTROL Action to execute]** : lets you save or generate content,
-* **[!UICONTROL Transition]** : lets you choose whether or not to generate an output transition and give it a name.
-
-![](assets/d_ncs_content_wf.png)
-
-### Content {#content}
-
-* **Specified by the transition**
-
-  The content to be used was created previously. Processes will concern the content instance propagated by the incoming event. The content identifier is accessed via the "contentId" variable of the event.
-
-* **Explicit**
-
-  Lets you choose previously created content.
-
-* **Calculated by a script**
-
-  Selects a content instance based on a JavaScript template. The code to be evaluated lets you retrieve the content identifier.
-
-* **New, created via a publication template**
-
-  Creates a new content via a publication template. The content instance will be saved in the populated "String" folder.
-
-### Update the content {#update-the-content}
-
-* **Subject**
-
-  Lets you modify the subject of the delivery action when publishing.
-
-* **Access to the data from an XML feed**
-
-  The content is updated from an XML feed from an external source. A URL must be entered for data downloading to occur.
-
-  An XSL stylesheet can be used to transform the incoming XML data.
-
-### Action to execute {#action-to-execute}
-
-* **Save**
-
-  Saves the created or modified content. The identifier of the saved content is propagated in the "contentId" variable of the outgoing event.
-
-* **Generate**
-
-  Generates the output files for each of the transformation templates with a "File" type publication. The outgoing transition is activated for each generated file, with the following parameters: the identifier of the content saved in the "contentId" variable and the filename in the "filename" variable.
-
-### Transition {#transition}
-
-The **Generate an output transition** option lets you add an output transition to the **[!UICONTROL Content management]** activity to link a new activity to workflow execution. After checking this option, enter a label for the transition.
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
 
 ## Examples {#examples}
 
@@ -237,11 +184,6 @@ The target to be delivered is entered via the incoming event.
 The delivery content is populated via the incoming event.
 
 The final action of the activity is to prepare and launch the delivery.
-
-### Import content from FTP {#importing-content-from-ftp}
-
-If your delivery content is available in an HTML file located on FTP or SFTP servers, you can easily load this content into Adobe Campaign deliveries. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
-
 
 ### Import content from Amazon Simple Storage Service (S3) connector {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
