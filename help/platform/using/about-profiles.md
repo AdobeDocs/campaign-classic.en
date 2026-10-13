@@ -70,9 +70,9 @@ To learn more about profile, how to create and edit them, please refer to the de
 
 Learn how to edit, manage and add profiles in the **Campaign v8 documentation**:
 
-* [Add profiles](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}: Learn the key steps to add and create new profiles.
-* [Edit profiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles?lang=en#_blank){target=_blank}: View and edit existing profiles. 
-* [Manage profiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views?lang=en#_blank){target=_blank}: Access and manage your exisiting profiles using using the folder management tool.
+* [Add profiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/create-profiles){target=_blank}: Learn the key steps to add and create new profiles.
+* [Edit profiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}: View and edit existing profiles. 
+* [Manage profiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/folders-and-views){target=_blank}: Access and manage your exisiting profiles using using the folder management tool.
 
 >[!TAB Import/export profiles]
 
@@ -106,7 +106,7 @@ The main methods for creating recipient profiles are as follows:
 
 >[!NOTE]
 >
->To find out how files and web forms are imported, refer to [Generic imports and exports](../../platform/using/get-started-data-import-export.md).
+>To find out how files and web forms are imported, refer to [Generic imports and exports](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation).
 
 ## Profiles and targets {#profiles-and-targets}
 
@@ -116,10 +116,10 @@ The **[!UICONTROL Profiles and targets]** link lets you display recipients store
 
 It also gives you access to:
 
-* lists - [Learn more](../../platform/using/creating-and-managing-lists.md)
+* lists - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
 * subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
 * web applications - [Learn more](../../web/using/about-web-applications.md)
-* imports and exports (jobs) - [Learn more](../../platform/using/about-generic-imports-exports.md)
+* imports and exports (jobs) - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation)
 * targeting workflows - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/build-a-workflow){target="_blank"} (Campaign v8 documentation)
 
 The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.
@@ -128,21 +128,21 @@ For more advanced profile manipulations, you need to edit the Adobe Campaign tre
 
 By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view, as well as:
 
-* sort and filter the profiles of the database - [Learn more](creating-filters.md)
+* sort and filter the profiles of the database - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target="_blank"} (Campaign v8 documentation)
 * move, copy or delete profiles from the database - [Learn more](about-profiles.md),
 * update profiles - [Learn more](../../platform/using/updating-data.md)
 * export recipients - [Learn more](about-profiles.md)
-* create recipient groups - [Learn more](../../platform/using/creating-and-managing-lists.md)
+* create recipient groups - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
 
 To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon. 
 
 ![](assets/d_ncs_user_interface01.png)
 
-The general layout of the Adobe Campaign explorer is presented in [this page](../../platform/using/adobe-campaign-explorer.md).
+The general layout of the Adobe Campaign explorer is presented in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (Campaign v8 documentation).
 
 >[!NOTE]
 >
->You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this page](../../platform/using/adobe-campaign-ui-lists.md).  
+>You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/ui-settings){target="_blank"} (Campaign v8 documentation).  
 >
 >You can also define recipient views. For further information about this functionality, refer to [this section](access-management.md).
 

@@ -89,7 +89,7 @@ There are two types of permissions you can grant to a user:
 
 * You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in [this section](access-management-groups.md).
 
-* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [this page](access-management-named-rights.md).
+* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions){target="_blank"} (Campaign v8 documentation).
 
 >[!NOTE]
 >
@@ -102,11 +102,11 @@ Learn how to grant access and set up permissions in these sections:
 
 * [Define groups](access-management-groups.md)
 
-* [Add Named rights](access-management-named-rights.md)
+* [Add Named rights](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions){target="_blank"} (Campaign v8 documentation)
 
 * [Manage Campaign folder access](access-management.md)
 
-* [Access rights matrix](access-management-named-rights.md#access-rights-matrix)
+* [Access rights matrix](assets/access-rights-matrix.pdf)
 
 
 See also:

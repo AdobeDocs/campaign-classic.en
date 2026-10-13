@@ -365,7 +365,7 @@ For all these reasons, we strongly recommend that you export this data as soon a
 
 #### How can I preserve tracking data?
 
-To preserve tracking data, you must export it from Adobe Campaign to your information system. [Read more](../../platform/using/get-started-data-import-export.md).
+To preserve tracking data, you must export it from Adobe Campaign to your information system. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation).
 
 >[!IMPORTANT]
 >

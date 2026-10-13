@@ -80,7 +80,7 @@ Using a custom recipient table has the following limitations:
 
 * You cannot manually add profiles in a list.
 
-  Therefore, the procedure detailed in [this section](../../platform/using/creating-and-managing-lists.md) is not applicable without an additional configuration.
+  Therefore, the procedure detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation) is not applicable without an additional configuration.
 
   >[!NOTE]
   >

@@ -100,7 +100,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Get started</strong><br/><a href="platform/using/adobe-campaign-workspace.md">User interface</a> - <a href="platform/using/launching-adobe-campaign.md">Connect to Campaign</a> - <a href="platform/using/get-started-data-import-export.md">Import & export data</a> - <a href="platform/using/access-management.md">Permissions</a>
+      <strong>Get started</strong><br/><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">User interface</a> (Campaign v8 documentation) - <a href="platform/using/launching-adobe-campaign.md">Connect to Campaign</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import" target="_blank">Import & export data</a> (Campaign v8 documentation) - <a href="platform/using/access-management.md">Permissions</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
@@ -117,7 +117,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>Profiles & audiences</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Create lists</a> - <a href="delivery/using/about-services-and-subscriptions.md">Services & subscriptions</a> - <a href="platform/using/privacy-management.md">Privacy & consent</a>
+      <strong>Profiles & audiences</strong><br/> <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">Create lists</a> (Campaign v8 documentation) - <a href="delivery/using/about-services-and-subscriptions.md">Services & subscriptions</a> - <a href="platform/using/privacy-management.md">Privacy & consent</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

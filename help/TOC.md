@@ -28,36 +28,22 @@ nudge: false
 + Get started {#getting-started}
      + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
      + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
-     + [Discover Campaign UI](platform/using/adobe-campaign-workspace.md)
-     + {hide-from-toc} [Use Campaign Explorer - HIDDEN](platform/using/adobe-campaign-explorer.md)
-     + {hide-from-toc} [Browse and customize lists - HIDDEN](platform/using/adobe-campaign-ui-lists.md)
-     + {hide-from-toc} [Enumerations - HIDDEN](platform/using/managing-enumerations.md)
      + [Campaign connectors](platform/using/about-connectors.md)
      + Frequently Asked Questions {#faq}
           + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
           + [Build upgrade](platform/using/faq-build-upgrade.md)
-     + {hide-from-toc} [Glossary - HIDDEN](platform/using/ac-glossary.md)
      + Privacy {#privacy}
           + [Privacy and consent](platform/using/privacy-and-recommendations.md)
           + [Privacy management](platform/using/privacy-management.md)
           + Privacy requests {#privacy-requests}
-               + [About Privacy requests](platform/using/privacy-requests.md)
                + [Create and manage Privacy requests](platform/using/privacy-requests-ui.md)
                + [Automatic Privacy request process](platform/using/privacy-requests-api.md)
           + [Opt-out for the Sale of Personal Information](platform/using/privacy-requests-ccpa.md)
      + Profile management {#profile-management}
           + [About profiles](platform/using/about-profiles.md)
           + [Update data](platform/using/updating-data.md)
-          + [Create and manage lists](platform/using/creating-and-managing-lists.md)
      + Import and export data {#importing-and-exporting-data}
-          + [Get started with data import and export](platform/using/get-started-data-import-export.md)
-          + [Use workflows to import and export data](platform/using/import-export-workflows.md)
           + Create generic imports and exports {#generic-imports-exports}
-               + [Get started with generic imports and exports](platform/using/about-generic-imports-exports.md)
-               + [Create import and export templates](platform/using/creating-import-export-templates.md)
-               + [Create import and export jobs](platform/using/creating-import-export-jobs.md)
-               + [Configure import jobs](platform/using/executing-import-jobs.md)
-               + [Configure export jobs](platform/using/executing-export-jobs.md)
                + [Monitor jobs execution](platform/using/monitoring-jobs-execution.md)
                + [Generic import samples](platform/using/import-operations-samples.md)
           + Manage data encryption and compression {#managing-data-encryption-compression}
@@ -66,16 +52,11 @@ nudge: false
           + Best practices and troubleshooting {#best-practices}
                + [Import and export best practices](platform/using/import-export-best-practices.md)
                + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
-     + Filter data {#filtering-data}
-          + {hide-from-toc} [Create filters - HIDDEN](platform/using/creating-filters.md)
-     + {hide-from-toc} [Steps to create a query - HIDDEN](platform/using/steps-to-create-a-query.md)
-     + {hide-from-toc} [Define filter conditions - HIDDEN](platform/using/defining-filter-conditions.md)
      + Permissions {#permissions}
           + [Get started with permissions](platform/using/access-management.md)
           + Native authentication (legacy) {#native}
                + [Create and manage operators](platform/using/access-management-operators.md)
                + [Create and manage groups](platform/using/access-management-groups.md)
-          + [Use named rights to set up permissions](platform/using/access-management-named-rights.md)
      + CRM connectors {#connectors}
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
 + Create and send messages {#sending-messages}

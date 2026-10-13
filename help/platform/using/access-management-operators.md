@@ -147,7 +147,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
   >
   >Even if their account is disabled, the operator can still receive alerts or notifications from Campaign. To stop sending Campaign notifications to this operator, Adobe recommends you to remove the email address from their profile.
 
-* The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) or through APIs: access to the Adobe Campaign client console is no longer available.
+* The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (Campaign v8 documentation) or through APIs: access to the Adobe Campaign client console is no longer available.
 * It's possible to link a safety zone to the operator. For more on this, refer to [this page](../../installation/using/security-zones.md).
 * You can also define a trusted IP mask using the appropriate link.
 
