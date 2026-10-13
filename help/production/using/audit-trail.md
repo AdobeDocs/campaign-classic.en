@@ -51,7 +51,7 @@ In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the comp
 
 * **Schema audit trail**: allows you to explore the changes made to your schemas, as well as identify who made these modifications and when they occurred.
 
-  For detailed information on schemas, refer to this [page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (Campaign v8 documentation).
+  For detailed information on schemas, refer to this [page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).
 
 * **Workflow audit trail** tracks all actions related to your workflows, including:
 

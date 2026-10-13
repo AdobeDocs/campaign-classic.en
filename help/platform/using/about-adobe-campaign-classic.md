@@ -53,9 +53,9 @@ Adobe Campaign lets you coordinate the creation of conversational marketing camp
 
 >[!TAB Get started with Campaign]
 
-To learn more about Adobe Campaign capabilities, and how to get started, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank}.
+To learn how to get started with the Adobe Campaign client console and its user interface, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank}
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 >[!TAB Launch Campaign]
 
