@@ -121,7 +121,7 @@ Answers to a survey can be exported in an external file to be processed later. T
 
    >[!NOTE]
    >
-   >Data exports and the stages of their configuration are detailed in [this section](../../platform/using/about-generic-imports-exports.md).
+   >Data exports and the stages of their configuration are detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation).
 
 ## Using the collected data {#using-the-collected-data}
 

@@ -31,9 +31,9 @@ role_v2:
 
 To create a **[!UICONTROL List]** type list based on the new recipient table, you need to create a targeting workflow which will generate the list. 
 
-For more information about lists in Campaign, refer to [this section](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
+For more information about lists in Campaign, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"} (Campaign v8 documentation).
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"} (Campaign v8 documentation)
 
 To create a targeting workflow and update recipients in a custom recipient table, follow the steps below: 
 

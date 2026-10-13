@@ -144,7 +144,7 @@ The type of operation desired is entered in the **operation** attribute and cont
 * **select**: creates a cursor to return several records and returns an empty document if there is no data,
 * **count**: returns a data count.
 
-The **XPath** syntax is used to locate data based on the input schema. For further information about XPaths, refer to [Data schemas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (Campaign v8 documentation).
+The **XPath** syntax is used to locate data based on the input schema. For further information about XPaths, refer to [Data schemas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (Campaign v8 documentation).
 
 #### Example with the 'get' operation {#example-with-the--get--operation}
 

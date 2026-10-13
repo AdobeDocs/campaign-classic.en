@@ -61,7 +61,7 @@ To create a common value like the one in our example (Purchasing department), yo
 
 ### Extend the data schema {#extending-the-data-schema}
 
-For further details on schema extensions, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (Campaign v8 documentation).
+For further details on schema extensions, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/extend-schema){target="_blank"} (Campaign v8 documentation).
 
 1. In the **[!UICONTROL Administration > Configuration > Data schemas]** node, click the **[!UICONTROL New]** icon.
 1. In the **[!UICONTROL Creation of a data schema]** window, select the **[!UICONTROL Extension of a schema]** option and click **[!UICONTROL Next]**.

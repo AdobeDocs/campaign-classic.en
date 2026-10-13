@@ -50,7 +50,7 @@ Assets shared from Adobe Experience Cloud can be used in your emails and landing
 
       >[!NOTE]
       >
-      >You cannot insert shared images from Adobe Campaign in [web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) when using the DCE.
+      >You cannot insert shared images from Adobe Campaign in [web access](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (Campaign v8 documentation) when using the DCE.
 
 1. In the selection window that opens, select an image, then confirm.
 

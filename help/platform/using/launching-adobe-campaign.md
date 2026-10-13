@@ -78,7 +78,7 @@ You can also connect with a dedicated login/password. This connection is known a
 
 1. Click **[!UICONTROL LOG IN]** to confirm.
 
-You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
+You can now access [Adobe Campaign workspace](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (Campaign v8 documentation).
 
 ## Set up connections {#setting-up-connections}
 

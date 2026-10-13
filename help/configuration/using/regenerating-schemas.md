@@ -33,7 +33,7 @@ When you modify a schema and save the modifications, extended schema is automati
 1. Right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]** .
 1. Click **[!UICONTROL OK]** to confirm and launch the process.
 
-You can then check the structure of the generated schema in the Preview and Documentation tabs. For more on this, refer to the [Principles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (Campaign v8 documentation) section.
+You can then check the structure of the generated schema in the Preview and Documentation tabs. For more on this, refer to the [Principles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation) section.
 
 >[!NOTE]
 >

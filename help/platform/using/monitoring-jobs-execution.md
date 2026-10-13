@@ -42,7 +42,7 @@ You can track the execution of your import and export jobs directly from the lis
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * The **[!UICONTROL Journal]** tab lets you look at log messages concerning execution.
-* The **[!UICONTROL Rejects]** tab contains the rejected records. See [this section](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
+* The **[!UICONTROL Rejects]** tab contains the rejected records. See [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} (Campaign v8 documentation).
 
 In the **[!UICONTROL General]** tab, the **[!UICONTROL Status]** field indicates the current status of a job.
 

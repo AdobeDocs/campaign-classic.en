@@ -109,7 +109,7 @@ Refer to these sections to find guidance and best practices to automate processe
 
 * Learn more about workflow activities in [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} (Campaign v8 documentation).
 * Learn how to build a workflow in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/build-a-workflow){target="_blank"} (Campaign v8 documentation).
-* Discover how to use workflows to import data in Campaign in [this section](../../platform/using/import-export-workflows.md).
+* Discover how to use workflows to import data in Campaign in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target="_blank"} (Campaign v8 documentation).
 * Workflow best practices are detailed in [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/workflow-best-practices){target="_blank"} (Campaign v8 documentation).
 * Find guidance about workflow execution in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} (Campaign v8 documentation).
 * Learn how to monitor workflows in [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} (Campaign v8 documentation).

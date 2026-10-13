@@ -135,7 +135,7 @@ To do this, access the delivery logs and add the "IP identifier" column.
 
 >[!NOTE]
 >
->To learn how to configure lists in Campaign Classic interface, refer to [this page](../../platform/using/adobe-campaign-workspace.md).
+>To learn how to configure lists in Campaign Classic interface, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (Campaign v8 documentation).
 
 Below is what you should see in the **[!UICONTROL Delivery]** tab after modifications:
 

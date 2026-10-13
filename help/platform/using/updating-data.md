@@ -114,7 +114,7 @@ The content of a list can be exported. To configure and run the export:
 
     ![](assets/s_ncs_user_export_list_start.png)
 
-   For more on how to configure the export assistant, refer to [this section](../../platform/using/executing-export-jobs.md).
+   For more on how to configure the export assistant, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation).
 
 ## Subscribe to a service {#subscribing-to-a-service}
 
