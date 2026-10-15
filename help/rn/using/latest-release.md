@@ -67,7 +67,7 @@ _October 15, 2026_
 
 #### Security improvements {#security-7-4-4-9403}
 
-Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the [security bulletin](https://link-to-add){target="_blank"}.
+Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action.
 
 A restart of the Adobe Campaign server (nlserver) is required to load the build and complete deployment. The fix is active by default once restarted.
 
