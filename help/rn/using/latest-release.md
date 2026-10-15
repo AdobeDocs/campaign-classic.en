@@ -74,7 +74,7 @@ A restart of the Adobe Campaign server (nlserver) is required to load the build 
 
 ### Build 9402 {#build-9402}
 
-[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _September 11, 2026_
 
