@@ -34,15 +34,13 @@ subfeature_v2:
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md).
 
-
-
 ## Release 7.4.4 {#release-7-4-4}
 
 ### Build 9403 {#build-9403}
 
 [!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
-_October 6, 2026_
+_October 15, 2026_
 
 #### Security improvements {#security-7-4-4-9403}
 
@@ -53,7 +51,7 @@ A restart of the Adobe Campaign server (nlserver) is required to load the build 
 
 ### Build 9402 {#build-9402}
 
-[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
+[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
 
 _September 11, 2026_
 
