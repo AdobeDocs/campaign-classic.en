@@ -55,8 +55,6 @@ _October 15, 2026_
 * Fixed an issue where an internal locking mechanism could enter a retry loop and cause high CPU usage on the server. (NEO-94845)
 * Fixed an issue where data model updates could fail intermittently. (NEO-84347, NEO-84824)
 * Fixed an issue where a "Spam check failed" error could incorrectly appear while creating or editing a delivery. (NEO-53888)
-* Fixed an issue where integer columns loaded from Snowflake through a Data Loading (RDBMS) activity were incorrectly typed as strings in the generated temporary schema. (NEO-95534)
-* Fixed an issue where coupon assignment could fail during delivery message preparation due to a SQL syntax error when looking up coupon codes. (NEO-92857)
 * Fixed an issue where recipients were not quarantined as expected after recurring soft bounces. (NEO-94422)
 
 ## Release 7.4.4 {#release-7-4-4}
