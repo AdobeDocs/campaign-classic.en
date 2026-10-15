@@ -77,6 +77,16 @@ This is the reason why it is critical that you **run the most recent stable buil
 
 As a hosted customer, you automatically benefit from the upgrade with the latest stable build without any action. Learn more in the [Yearly Upgrade section](#yearly-upgrade). If you migrate from an old build, Adobe recommends that you upgrade to this build first.
 
+## Hotflixes {#hotflixes}
+
+In exceptional cases, Adobe may provide a customer-specific hotfix to address an issue before a fix is available in a standard release. Hotfix requests are assessed case by case and are not part of the standard release cycle.
+
+Hotfix requests should be raised through Adobe Customer Care. If approved, a hotfix is prepared for the affected customer and product build. A hotfix is not a general release for all customers; Adobe may approve sharing it with other affected customers after review.
+
+Hotfix details may not be included in public release notes when the hotfix is delivered. Adobe may later include a hotfix fix in a standard release for the applicable version. Inclusion and timing are not guaranteed. Consult the release notes for changes included in each standard release.
+
+This customer-specific hotfix process is separate from the critical security patch policy described above, under which Adobe may apply critical security patches to hosted environments without prior notice.
+
 ### Security patching for hosted environments {#security-patching}
 
 To protect the integrity of hosted environments, Adobe reserves the right to apply critical security patches at any time and without prior notice, in order to remediate vulnerabilities as quickly as possible. These patches are deployed with no service interruption. This practice is consistent with Adobe's security governance standards, under which the urgency of remediating a critical vulnerability takes precedence over advance notification.

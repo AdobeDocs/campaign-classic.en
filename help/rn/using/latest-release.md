@@ -40,11 +40,41 @@ topic_v2:
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic v7 Release**. Every new build comes with a status which is materialized by a color. Learn more about Campaign Classic v7 build statuses in [this page](rn-overview.md).
 
+## Release 7.4.5 {#release-7-4-5}
+
+### Build 9420 {#build-9420}
+
+[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+
+_October 15, 2026_
+
+#### Fixes {#fixes-7-4-5}
+
+* Fixed an issue where the Analytics external account could fail with a "Gone" (410) error. (NEO-99019)
+* Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
+* Fixed an issue where an internal locking mechanism could enter a retry loop and cause high CPU usage on the server. (NEO-94845)
+* Fixed an issue where data model updates could fail intermittently. (NEO-84347, NEO-84824)
+* Fixed an issue where a "Spam check failed" error could incorrectly appear while creating or editing a delivery. (NEO-53888)
+* Fixed an issue where recipients were not quarantined as expected after recurring soft bounces. (NEO-94422)
+
 ## Release 7.4.4 {#release-7-4-4}
+
+### Build 9403 {#build-9403}
+
+[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+
+_October 15, 2026_
+
+#### Security improvements {#security-7-4-4-9403}
+
+Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action.
+
+A restart of the Adobe Campaign server (nlserver) is required to load the build and complete deployment. The fix is active by default once restarted.
+
 
 ### Build 9402 {#build-9402}
 
-[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _September 11, 2026_
 
@@ -56,7 +86,7 @@ A restart of the Adobe Campaign server (nlserver) is required to load the build 
 
 ### Build 9401 {#build-9401}
 
-[!BADGE General Availability]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="General Availability"}
+[!BADGE Deprecated]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses" tooltip="Deprecated"}
 
 _August 25, 2026_
 
