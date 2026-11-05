@@ -480,3 +480,7 @@ To configure the **[!UICONTROL Azure external account]** to work with Adobe Camp
 * **[!UICONTROL Access key]**
 
   To know where to find your **[!UICONTROL Access key]**, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+  >[!NOTE]
+  >
+  >Azure Blob Storage filters files by name prefix, not by pattern. A trailing asterisk (`*`) in a file mask is removed, so `TEST_EXPORT_AZURE_*` matches all files that start with `TEST_EXPORT_AZURE_`. Characters after the asterisk, such as in `TEST_EXPORT_AZURE_*.csv`, are not supported. [Learn more in Microsoft documentation](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
