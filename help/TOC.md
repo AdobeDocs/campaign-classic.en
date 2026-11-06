@@ -162,13 +162,13 @@ nudge: false
 + Operate and monitor {#monitoring-campaign-classic}
      + Introduction {#introduction}
           + [Foreword](production/using/foreword.md)
-          + [General architecture](production/using/general-architecture.md)
+          + [Architecture and open ports](production/using/general-architecture.md)
           + [Monitoring guidelines](production/using/monitoring-guidelines.md)
      + Production procedures {#production-procedures}
           + [Configuration principle](production/using/configuration-principle.md)
           + [Operating principle](production/using/operating-principle.md)
           + [Administration](production/using/administration.md)
-          + [Configuration](production/using/configuration.md)
+          + [Syslogd port and security zones](production/using/configuration.md)
           + [Log files](production/using/log-files.md)
           + [Monitor processes](production/using/monitoring-processes.md)
           + [Usual commands](production/using/usual-commands.md)
@@ -178,7 +178,7 @@ nudge: false
           + [Duplicating environments](production/using/duplicating-environments.md)
           + [Database cleanup workflow](production/using/database-cleanup-workflow.md)
      + Update Adobe Campaign {#updating-adobe-campaign}
-          + [Introduction](production/using/introduction.md)
+          + [About updating Campaign](production/using/introduction.md)
           + [Perform a build upgrade](production/using/build-upgrade.md)
           + [Upgrade procedure (on-premise)](production/using/upgrading.md)
           + [Switch to Unicode](production/using/switching-to-unicode.md)
@@ -225,7 +225,7 @@ nudge: false
           + [Database mapping](configuration/using/database-mapping.md)
           + [Key management](configuration/using/database-keys.md)
           + Elements and attributes {#elements-attributes}
-               + [Introduction](configuration/using/schema-introduction.md)
+               + [Introduction to elements and attributes](configuration/using/schema-introduction.md)
                + [Attribute](configuration/using/schema/attribute.md)
                + [Compute string](configuration/using/schema/compute-string.md)
                + [Condition](configuration/using/schema/condition.md)
@@ -416,7 +416,7 @@ nudge: false
           + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
 + Response manager {#response-manager}
   + [Get started with response manager](response/using/about-response-manager.md)
-  + [Configuration](response/using/configuration.md)
+  + [Configure Response Manager](response/using/configuration.md)
   + [Hypothesis templates](response/using/hypothesis-templates.md)
   + [Create hypotheses](response/using/creating-hypotheses.md)
   + [Hypothesis tracking](response/using/hypothesis-tracking.md)

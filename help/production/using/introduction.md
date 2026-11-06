@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Introduction
-description: Introduction
+title: About updating Campaign
+description: About updating Campaign
 feature: Monitoring, Upgrade
 audience: production
 content-type: reference
@@ -24,7 +24,7 @@ subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
     internal-label: Upgrade
 ---
-# Introduction{#introduction}
+# About updating Campaign{#introduction}
 
 
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: General architecture
-description: General architecture
+title: Architecture and open ports
+description: Architecture and open ports
 feature: Monitoring, Architecture
 audience: production
 content-type: reference
@@ -24,7 +24,7 @@ subfeature_v2:
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
 ---
-# General architecture{#general-architecture}
+# Architecture and open ports{#general-architecture}
 
 
 
