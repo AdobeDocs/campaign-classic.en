@@ -430,3 +430,29 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 For this external account, you need to configure you Salesforce CRM with the configuration assistant.
 
 For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md).
+
+## Transfer Data External Accounts
+
+### Azure Blob Storage {#azure-blob-external-account}
+
+The **Azure Blob storage** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
+
+![](assets/ext_account_23.png)
+
+To configure the **[!UICONTROL Azure external account]** to work with Adobe Campaign, you need to provide the following details:
+
+* **[!UICONTROL Server]**
+
+  URL of your Azure Blob storage server.
+
+* **[!UICONTROL Encryption]**
+
+  Type of chosen encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
+
+* **[!UICONTROL Access key]**
+
+  To know where to find your **[!UICONTROL Access key]**, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+  >[!NOTE]
+  >
+  >Azure Blob Storage filters files by name prefix, not by pattern. A trailing asterisk (`*`) in a file mask is removed, so `TEST_EXPORT_AZURE_*` matches all files that start with `TEST_EXPORT_AZURE_`. Characters after the asterisk, such as in `TEST_EXPORT_AZURE_*.csv`, are not supported. [Learn more in Microsoft documentation](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
