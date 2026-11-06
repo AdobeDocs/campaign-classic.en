@@ -22,7 +22,6 @@ nudge: false
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
 + Get started {#getting-started}
-     + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
      + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
      + [Campaign connectors](platform/using/about-connectors.md)
      + Frequently Asked Questions {#faq}
@@ -113,7 +112,6 @@ nudge: false
        + [Use a content template](delivery/using/using-a-content-template.md)
        + [Enrich content](delivery/using/enriching-content.md)
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
-+ [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
 + Response manager {#response-manager}
   + [Get started with response manager](response/using/about-response-manager.md)
   + [Configuration](response/using/configuration.md)
@@ -213,7 +211,6 @@ nudge: false
           + [Configure the integration](integrations/using/configuring-the-integration.md)
      + Adobe Target {#adobe-target}
           + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
-+ [Automate with workflows](workflow/using/about-workflows.md)
 + Manage Offers {#managing-offers}
      + Get started with Interaction {#interaction-overview}
           + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
@@ -435,8 +432,6 @@ nudge: false
           + [Structure of a data schema](configuration/using/structure-of-a-data-schema.md)
           + [Regenerating schemas](configuration/using/regenerating-schemas.md)
           + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)
-     + Input forms {#input-forms}
-          + [Edit forms](configuration/using/editing-forms.md)
      + API {#api}
           + [About web services](configuration/using/about-web-services.md)
           + [Web service calls](configuration/using/web-service-calls.md)

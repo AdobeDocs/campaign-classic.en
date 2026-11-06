@@ -41,6 +41,10 @@ topic_v2:
 
 Campaign Client console is a rich client which enables you to connect to your Campaign application server(s). Learn how to download and configure the client console in [this page](../../installation/using/installing-the-client-console.md).
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about connecting to Campaign, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}
+
 >[!CAUTION]
 >
 >Check your system and tools compatibility with Adobe Campaign Client Console in the [Compatibility matrix](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
@@ -57,12 +61,7 @@ The client console connection window lets you select or configure existing datab
 
 ### Connect with your Adobe ID
 
-Campaign users connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). They can use same ID all Adobe solutions. The connection is saved when using Adobe Campaign with other solutions. Learn more about Adobe IMS [on this page](https://helpx.adobe.com/enterprise/using/identity.html).
-
 To configure Campaign Classic v7 connection with Adobe Identity Management Service (IMS), refer to [this page](../../integrations/using/about-adobe-id.md).
-
-Once the configuration is done, learn how to connect to Campaign with your Adobe ID in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}.
-
 
 ### Connect with a login/password
 
@@ -79,14 +78,6 @@ You can also connect with a dedicated login/password. This connection is known a
 1. Click **[!UICONTROL LOG IN]** to confirm.
 
 You can now access [Adobe Campaign workspace](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (Campaign v8 documentation).
-
-## Set up connections {#setting-up-connections}
-
-You can access the server connection settings via the link above the input zone.
-
-![](assets/s_ncs_user_connections_management.png)
-
-Learn how to set up connections in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}. 
 
 ## Operators and permissions {#operators-and-permissions}
 

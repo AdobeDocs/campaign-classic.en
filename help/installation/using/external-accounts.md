@@ -33,6 +33,10 @@ topic_v2:
 
 Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems, you can create new external accounts.
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about external accounts, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}
+
 External accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.
 
 ## Create an external account {#creating-an-external-account}
@@ -426,61 +430,3 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 For this external account, you need to configure you Salesforce CRM with the configuration assistant.
 
 For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md).
-
-## Transfer Data External Accounts
-
-### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
-
-The Amazon Simple Storage Service (S3) connector can be used to import or export data to Adobe Campaign. It can be set up in a workflow activity. refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
-
-![](assets/ext_account_3.png)
-
-As you are setting up this new external account, you need to provide the following details:
-
-* **[!UICONTROL AWS S3 Account Server]**
-
-  URL of your server, it should be filled as follows:
-
-  ```
-  <S3bucket name>.s3.amazonaws.com/<s3object path>
-  ```
-
-* **[!UICONTROL AWS access key ID]**
-
-  To know where to find your AWS access key ID, refer to this [page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
-
-* **[!UICONTROL Secret access key to AWS]**
-
-  To know where to find your secret access key to AWS, refer to this [page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
-
-* **[!UICONTROL AWS Region]**
-
-  To learn more on AWS region, refer to this [page](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
-
-* The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode.
-
-To learn where to find the access key ID and secret access key, refer to Amazon Web services [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
-
-### Azure Blob Storage {#azure-blob-external-account}
-
-The **Azure Blob storage** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
-
-![](assets/ext_account_23.png)
-
-To configure the **[!UICONTROL Azure external account]** to work with Adobe Campaign, you need to provide the following details:
-
-* **[!UICONTROL Server]**
-
-  URL of your Azure Blob storage server.
-
-* **[!UICONTROL Encryption]**
-
-  Type of chosen encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
-
-* **[!UICONTROL Access key]**
-
-  To know where to find your **[!UICONTROL Access key]**, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
-
-  >[!NOTE]
-  >
-  >Azure Blob Storage filters files by name prefix, not by pattern. A trailing asterisk (`*`) in a file mask is removed, so `TEST_EXPORT_AZURE_*` matches all files that start with `TEST_EXPORT_AZURE_`. Characters after the asterisk, such as in `TEST_EXPORT_AZURE_*.csv`, are not supported. [Learn more in Microsoft documentation](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.

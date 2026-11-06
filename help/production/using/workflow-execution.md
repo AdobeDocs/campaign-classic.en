@@ -42,7 +42,7 @@ The section below presents information on common issues related to workflows exe
 
 For more information on workflows, refer to these sections:
 
-* [About workflows](../../workflow/using/about-workflows.md)
+* [About workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Campaign v8 documentation)
 * [Starting a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html){target="_blank"}.
 * [Workflow life cycle](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"}.
 * [Best practices when using workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}.

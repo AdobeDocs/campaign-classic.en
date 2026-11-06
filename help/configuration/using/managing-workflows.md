@@ -38,6 +38,6 @@ By basing your new workflows on a recently created template, your personalized t
 
 All the activities used in your workflow will thus use your custom table without needing any additional manual configuration.
 
-For more information on workflows, refer to [this section](../../workflow/using/about-workflows.md).
+For more information on workflows, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/cfg_external_table_workflow.png)

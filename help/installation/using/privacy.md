@@ -44,6 +44,12 @@ topic_v2:
 ---
 # Personalization and privacy {#privacy}
 
+This page covers URL personalization, URL signature and the protection of pages containing personal information.
+
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about data restriction and privacy requests, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
+
 ## URL Personalization {#url-personalization}
 
 When adding personalized links to your content, always avoid having any personalization in the hostname part of the URL to avoid potential security gaps. The following examples should never be used in all URL attributes <`a href="">` or `<img src="">`:
@@ -109,79 +115,6 @@ To enable URL signature, follow these steps on all Campaign servers at the same 
 1. Restart the **nlserver** service.
 1. On the `tracking` server, restart the `web` server (apache2 on Debian, httpd on CentOS/RedHat, IIS on Windows).
 
-## Data restriction
-
-You must make sure that the encrypted passwords are not accessible by a low privilege authenticated user. To do that, restrict access to password fields only, or to the entire entity (need a build >= 8770).
-
-This restriction allows you to remove passwords fields but let the external account accessible from the interface for all users. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (Campaign v8 documentation).
-
-To perform this, follow the steps below:
-
-1. Browse to the **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** folder of Campaign explorer.
-
-1. Create a data schema, as an **[!UICONTROL Extension of a schema]**.
-
-    ![](assets/privacy-data-restriction.png)
-
-1. Choose **[!UICONTROL External Account]** (extAccount).
-
-1. In the last assistant screen, edit your new 'srcSchema' to restrict access to all password fields:
-
-    You can replace the main element (`<element name="extAccount" ... >`) by:
-
-    ```sql
-    <element name="extAccount">
-        <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-        <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-   
-        <element name="s3Account">
-            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="awsSecret"/>
-        </element>
-        <element name="wapPush">
-            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-        </element>
-        <element name="mms">
-            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-        </element>
-    </element>
-    ```
-
-    So your extended srcSchema can look like:
-
-    ```sql
-    <srcSchema _cs="External Accounts (cus)" created="2017-05-12 07:53:49.691Z" createdBy-id="0"
-                desc="Definition of external accounts (Email, SMS...) used by the modules"
-                entitySchema="xtk:srcSchema" extendedSchema="nms:extAccount" img="" label="External Accounts"
-                labelSingular="External account" lastModified="2017-05-12 08:33:49.365Z"
-                mappingType="sql" md5="E9BB0CD6A4375F500027C86EA854E101" modifiedBy-id="0"
-                name="extAccount" namespace="cus" xtkschema="xtk:srcSchema">
-        <createdBy _cs="Administrator (admin)"/>
-        <modifiedBy _cs="Administrator (admin)"/>
-        <element name="extAccount">
-            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-  
-            <element name="s3Account">
-                <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="awsSecret"/>
-            </element>
-            <element name="wapPush">
-                <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-                <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-            </element>
-            <element name="mms">
-                <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-                <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-            </element>
-        </element>
-    </srcSchema>    
-    ```
-
-    >[!NOTE]
-    >
-    >You can replace `$(loginId) = 0 or $(login) = 'admin'` with `hasNamedRight('admin')` to allow all users with admin rights to see these passwords.
-
 ## Protect pages with PI
 
 We strongly advise on-premise customers to protect the pages that might contain personal information (PI) such as mirror pages, web applications, etc.
@@ -210,8 +143,3 @@ To protect your pages, follow these steps:
     In addition to the **robots.txt** file, it is advised to add a **X-Robots-Tag** header. You can do it in Apache or IIS and in the **serverConf.xml** configuration file.
 
     For more information, refer to [this article](https://developers.google.com/search/reference/robots_meta_tag).
-
-
-## Privacy Requests
-
-Refer to [this page](../../platform/using/privacy-management.md) for general information on what Privacy Management is and the implementation steps in Adobe Campaign. You will also find best practices and an overview of the user process and personas.  

@@ -50,15 +50,13 @@ topic_v2:
 
 This document outlines key recommendations while designing your Adobe Campaign data model.
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about data model best practices, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}
+
 For a better understanding of Campaign built-in tables and their interaction, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (Campaign v8 documentation) section.
 
 Read out [this documentation](../../configuration/using/about-schema-reference.md) to get started with Campaign schemas. Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this document](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Campaign v8 documentation).
-
-## Overview {#overview}
-
-Adobe Campaign system is extremely flexible and can be extended beyond the initial implementation. However, while possibilities are infinite, it is critical to make wise decisions and build strong foundations to start designing your data model.
-
-This document provides common use cases and best practices to learn how to architect properly your Adobe Campaign tool.
 
 ## Data model architecture {#data-model-architecture}
 
@@ -79,22 +77,6 @@ The Adobe Campaign default data model is presented in [this document](../../conf
 >[!NOTE]
 >
 >Adobe Campaign Classic allows to build a custom customer table. However, in most cases, it is recommended to leverage the standard [Recipient table](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (Campaign v8 documentation) which already has pre-built additional tables and features.
-
-### Data for Adobe Campaign {#data-for-campaign}
-
-What data should be sent to Adobe Campaign? It is critical to determine the data required for your marketing activities.
-
->[!NOTE]
->
->Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, do not try to import all possible customers and their associated information into Adobe Campaign, or import data which will only be used to build reports.
-
-To make the decision whether an attribute would be needed or not in Adobe Campaign, ask yourself if it would fall under one of these categories:
-
-* Attribute used for **segmentation**
-* Attribute used for **data management processes** (aggregate calculation for example)
-* Attribute used for **personalization**
-
-If not falling into any of these, you are most likely not going to need this attribute in Adobe Campaign.
 
 ### Choice of data types {#data-types}
 
@@ -309,12 +291,6 @@ In order to ensure better performance at any time, follow the best practices bel
 * Make sure none of the daily campaign is run during the import process or when any manual process is executed.
 * Use one or several reference tables rather than duplicating a field in every row. When using key/value pairs, it is preferred to choose a numerical key.
 * A short string remains acceptable. In case references tables are already in place in an external system, reusing the same will facilitate the data integration with Adobe Campaign.
-
-### One-to-many relationships {#one-to-many-relationships}
-
-* Data design impacts usability and functionality. If you design your data model with lots of one-to-many relationships, it makes it more difficult for users to construct meaningful logic in the application. One-to-many filter logic can be difficult for non-technical marketers to correctly construct and understand.
-* It is good to have all the essential fields in one table because it makes it easier for users to build queries. Sometimes it is also good for performance to duplicate some fields across tables if it can avoid a join. 
-* Certain built-in functionalities will not be able to reference one-to-many relationships, for example, Offer Weighting formula and Deliveries.
 
 ## Large tables {#large-tables}
 
