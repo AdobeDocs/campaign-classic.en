@@ -21,6 +21,40 @@ nudge: false
     + [2024](rn/using/release-2024.md)    
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
++ Get started {#getting-started}
+     + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+     + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
+     + [Campaign connectors](platform/using/about-connectors.md)
+     + Frequently Asked Questions {#faq}
+          + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
+          + [Build upgrade](platform/using/faq-build-upgrade.md)
+     + Privacy {#privacy}
+          + [Privacy and consent](platform/using/privacy-and-recommendations.md)
+          + [Privacy management](platform/using/privacy-management.md)
+          + Privacy requests {#privacy-requests}
+               + [Create and manage Privacy requests](platform/using/privacy-requests-ui.md)
+               + [Automatic Privacy request process](platform/using/privacy-requests-api.md)
+          + [Opt-out for the Sale of Personal Information](platform/using/privacy-requests-ccpa.md)
+     + Profile management {#profile-management}
+          + [About profiles](platform/using/about-profiles.md)
+          + [Update data](platform/using/updating-data.md)
+     + Import and export data {#importing-and-exporting-data}
+          + Create generic imports and exports {#generic-imports-exports}
+               + [Monitor jobs execution](platform/using/monitoring-jobs-execution.md)
+               + [Generic import samples](platform/using/import-operations-samples.md)
+          + Manage data encryption and compression {#managing-data-encryption-compression}
+               + [Unzip or decrypt a file before processing](platform/using/unzip-decrypt.md)
+               + [Zip or encrypt a file before processing](platform/using/zip-encrypt.md)
+          + Best practices and troubleshooting {#best-practices}
+               + [Import and export best practices](platform/using/import-export-best-practices.md)
+               + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
+     + Permissions {#permissions}
+          + [Get started with permissions](platform/using/access-management.md)
+          + Native authentication (legacy) {#native}
+               + [Create and manage operators](platform/using/access-management-operators.md)
+               + [Create and manage groups](platform/using/access-management-groups.md)
+     + CRM connectors {#connectors}
+          + [Get started with CRM Connectors](platform/using/crm-connectors.md)
 + Install and configure {#installing-campaign-classic}
      + Architecture principles {#architecture-and-hosting-models}
           + [General architecture](installation/using/general-architecture.md)
@@ -250,61 +284,6 @@ nudge: false
           + [Inserting tags in your site](configuration/using/inserting-tags-in-your-site.md)
           + [Collecting all visits](configuration/using/collecting-all-visits.md)
           + [Anonymous tracking](configuration/using/anonymous-tracking.md)
-+ Technotes {#technotes}
-     + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
-     + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
-     + [Inbound SMS workflow activity for Mid-sourcing infrastructure](technotes/using/inbound-sms-wf.md)
-     + Upgrade to IMS{#ims}
-          + [Transition to Adobe IMS](technotes/using/ac-ims.md)
-          + [Migrate users to IMS](technotes/using/migrate-users-to-ims.md)
-          + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)
-          + [Interface impact after IMS migration](technotes/using/impact-ims-migration.md)
-     + Upgrades and compatibility{#technote-migration}
-          + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       
-          + {hide-from-toc} [Apache Security Upgrade](technotes/using/acc-apache-upgrade.md)
-          + {hide-from-toc} [2023 system upgrades](technotes/using/tech-stack-upgrade.md)
-          + {hide-from-toc} [Migrate to the Adobe Analytics 2.0 API](technotes/using/analytics-2-migration.md)
-     + Emails and push notifications{#technotes-email}
-          + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-          + [iOS certificate update](technotes/using/ios-certificate-update.md)
-     + Migration to Adobe Managed Services{#dc-migration}
-          + [Migration to Public Cloud](technotes/using/dc-migration.md)
-          + [FAQ](technotes/using/dc-migration-faq.md)
-     + [GCM based functions](technotes/using/gcm-functions.md)
-+ Get started {#getting-started}
-     + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-     + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
-     + [Campaign connectors](platform/using/about-connectors.md)
-     + Frequently Asked Questions {#faq}
-          + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
-          + [Build upgrade](platform/using/faq-build-upgrade.md)
-     + Privacy {#privacy}
-          + [Privacy and consent](platform/using/privacy-and-recommendations.md)
-          + [Privacy management](platform/using/privacy-management.md)
-          + Privacy requests {#privacy-requests}
-               + [Create and manage Privacy requests](platform/using/privacy-requests-ui.md)
-               + [Automatic Privacy request process](platform/using/privacy-requests-api.md)
-          + [Opt-out for the Sale of Personal Information](platform/using/privacy-requests-ccpa.md)
-     + Profile management {#profile-management}
-          + [About profiles](platform/using/about-profiles.md)
-          + [Update data](platform/using/updating-data.md)
-     + Import and export data {#importing-and-exporting-data}
-          + Create generic imports and exports {#generic-imports-exports}
-               + [Monitor jobs execution](platform/using/monitoring-jobs-execution.md)
-               + [Generic import samples](platform/using/import-operations-samples.md)
-          + Manage data encryption and compression {#managing-data-encryption-compression}
-               + [Unzip or decrypt a file before processing](platform/using/unzip-decrypt.md)
-               + [Zip or encrypt a file before processing](platform/using/zip-encrypt.md)
-          + Best practices and troubleshooting {#best-practices}
-               + [Import and export best practices](platform/using/import-export-best-practices.md)
-               + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
-     + Permissions {#permissions}
-          + [Get started with permissions](platform/using/access-management.md)
-          + Native authentication (legacy) {#native}
-               + [Create and manage operators](platform/using/access-management-operators.md)
-               + [Create and manage groups](platform/using/access-management-groups.md)
-     + CRM connectors {#connectors}
-          + [Get started with CRM Connectors](platform/using/crm-connectors.md)
 + Create and send messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
      + {hide-from-toc} [Delivery settings - HIDDEN](delivery/using/delivery-settings.md)
@@ -363,36 +342,15 @@ nudge: false
        + [Use a content template](delivery/using/using-a-content-template.md)
        + [Enrich content](delivery/using/enriching-content.md)
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
-+ Response manager {#response-manager}
-  + [Get started with response manager](response/using/about-response-manager.md)
-  + [Configuration](response/using/configuration.md)
-  + [Hypothesis templates](response/using/hypothesis-templates.md)
-  + [Create hypotheses](response/using/creating-hypotheses.md)
-  + [Hypothesis tracking](response/using/hypothesis-tracking.md)
-+ Design and share reports {#reporting}
-  + Get started with reporting {#reporting-in-adobe-campaign}
-     + [Best practices for reporting](reporting/using/best-practices.md)
-  + Access built-in reports {#accessing-built-in-reports}
-     + [About built-in reports](reporting/using/about-campaign-built-in-reports.md)
-  + Analyze populations {#analyzing-populations}
-     + [What is descriptive analysis](reporting/using/about-descriptive-analysis.md)
-     + [Create your first descriptive analysis report](reporting/using/using-the-descriptive-analysis-wizard.md)
-     + [Manage and configure your analysis report](reporting/using/processing-a-report.md)
-     + [Analysis reporting use cases](reporting/using/use-cases.md)
-  + Create new reports {#creating-new-reports}
-     + [Key steps to design a report](reporting/using/about-reports-creation-in-campaign.md)
-     + [Create a new report](reporting/using/creating-a-new-report.md)
-     + [Collect data to analyze](reporting/using/collecting-data-to-analyze.md)
-     + [Use the context](reporting/using/using-the-context.md)
-     + [Create a table](reporting/using/creating-a-table.md)
-     + [Create a chart](reporting/using/creating-a-chart.md)
-     + [Element layout](reporting/using/element-layout.md)
-     + [Define a conditional content](reporting/using/defining-a-conditional-content.md)
-     + [Advanced capabilities](reporting/using/advanced-functionalities.md)
-     + [Properties of the report](reporting/using/properties-of-the-report.md)
-     + [Configure access to the report](reporting/using/configuring-access-to-the-report.md)
-     + [Actions on reports](reporting/using/actions-on-reports.md)
-  + [Design reports with cubes](reporting/using/ac-cubes.md)
++ Transactional Messaging {#transactional-messaging}
+     + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
+     + Configure transactional messaging {#configure-transactional-messaging}
+          + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
+          + [Configure instances](message-center/using/configuring-instances.md)
+          + [Additional configurations](message-center/using/additional-configurations.md)
+     + Message templates {#message-templates}
+          + [Test message templates](message-center/using/testing-message-templates.md)
+     + [Use case](message-center/using/transactional-email-with-attachments.md)
 + Design web content {#designing-content}
      + Web applications {#web-applications}
           + [Get started with web applications](web/using/about-web-applications.md)
@@ -432,6 +390,60 @@ nudge: false
      + [Configure surveys](surveys/using/configuring-surveys.md)
      + [Use case: create a referral form](surveys/using/use-case-creating-a-refer-a-friend-form.md)
      + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
++ Manage Offers {#managing-offers}
+     + Get started with Interaction {#interaction-overview}
+          + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
+     + Manage an offer catalog {#managing-an-offer-catalog}
+          + [Approve and activate an offer](interaction/using/approving-and-activating-an-offer.md)
+          + [Manage offer templates](interaction/using/managing-offer-templates.md)
+          + [Manage offer presentation](interaction/using/managing-offer-presentation.md)
+     + Offers simulation{#simulating-offers}
+          + [About offers simulation](interaction/using/about-offers-simulation.md)
+          + [Execution settings](interaction/using/execution-settings.md)
+          + [Simulation scope](interaction/using/simulation-scope.md)
+          + [Simulation tracking](interaction/using/simulation-tracking.md)
+     + Advanced parameters {#advanced-parameters}
+          + [Use advanced parameters](interaction/using/using-advanced-parameters.md)
+          + [Additional data](interaction/using/additional-data.md)
+          + [Extension example](interaction/using/extension-example.md)
+          + [Create a test environment](interaction/using/creating-a-test-environment.md)
+          + [Modify the standard engine behavior](interaction/using/hooks.md)
+          + [Distributed architectures](interaction/using/distributed-architectures.md)
+          + [Data buffer configuration](installation/using/interaction-data-buffer.md)
+     + Use case {#case-study}
+          + [Presentation rules](interaction/using/presentation-rules.md)
+          + [Offers on an inbound channel](interaction/using/offers-on-an-inbound-channel.md)
+          + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
++ Response manager {#response-manager}
+  + [Get started with response manager](response/using/about-response-manager.md)
+  + [Configuration](response/using/configuration.md)
+  + [Hypothesis templates](response/using/hypothesis-templates.md)
+  + [Create hypotheses](response/using/creating-hypotheses.md)
+  + [Hypothesis tracking](response/using/hypothesis-tracking.md)
++ Design and share reports {#reporting}
+  + Get started with reporting {#reporting-in-adobe-campaign}
+     + [Best practices for reporting](reporting/using/best-practices.md)
+  + Access built-in reports {#accessing-built-in-reports}
+     + [About built-in reports](reporting/using/about-campaign-built-in-reports.md)
+  + Analyze populations {#analyzing-populations}
+     + [What is descriptive analysis](reporting/using/about-descriptive-analysis.md)
+     + [Create your first descriptive analysis report](reporting/using/using-the-descriptive-analysis-wizard.md)
+     + [Manage and configure your analysis report](reporting/using/processing-a-report.md)
+     + [Analysis reporting use cases](reporting/using/use-cases.md)
+  + Create new reports {#creating-new-reports}
+     + [Key steps to design a report](reporting/using/about-reports-creation-in-campaign.md)
+     + [Create a new report](reporting/using/creating-a-new-report.md)
+     + [Collect data to analyze](reporting/using/collecting-data-to-analyze.md)
+     + [Use the context](reporting/using/using-the-context.md)
+     + [Create a table](reporting/using/creating-a-table.md)
+     + [Create a chart](reporting/using/creating-a-chart.md)
+     + [Element layout](reporting/using/element-layout.md)
+     + [Define a conditional content](reporting/using/defining-a-conditional-content.md)
+     + [Advanced capabilities](reporting/using/advanced-functionalities.md)
+     + [Properties of the report](reporting/using/properties-of-the-report.md)
+     + [Configure access to the report](reporting/using/configuring-access-to-the-report.md)
+     + [Actions on reports](reporting/using/actions-on-reports.md)
+  + [Design reports with cubes](reporting/using/ac-cubes.md)
 + Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
      + [Get started with Campaign integrations](integrations/using/about-campaign-integrations.md)
      + [Create your Adobe technical account](integrations/using/oauth-technical-account.md)
@@ -462,39 +474,27 @@ nudge: false
           + [Configure the integration](integrations/using/configuring-the-integration.md)
      + Adobe Target {#adobe-target}
           + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
-+ Manage Offers {#managing-offers}
-     + Get started with Interaction {#interaction-overview}
-          + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
-     + Manage an offer catalog {#managing-an-offer-catalog}
-          + [Approve and activate an offer](interaction/using/approving-and-activating-an-offer.md)
-          + [Manage offer templates](interaction/using/managing-offer-templates.md)
-          + [Manage offer presentation](interaction/using/managing-offer-presentation.md)
-     + Offers simulation{#simulating-offers}
-          + [About offers simulation](interaction/using/about-offers-simulation.md)
-          + [Execution settings](interaction/using/execution-settings.md)
-          + [Simulation scope](interaction/using/simulation-scope.md)
-          + [Simulation tracking](interaction/using/simulation-tracking.md)
-     + Advanced parameters {#advanced-parameters}
-          + [Use advanced parameters](interaction/using/using-advanced-parameters.md)
-          + [Additional data](interaction/using/additional-data.md)
-          + [Extension example](interaction/using/extension-example.md)
-          + [Create a test environment](interaction/using/creating-a-test-environment.md)
-          + [Modify the standard engine behavior](interaction/using/hooks.md)
-          + [Distributed architectures](interaction/using/distributed-architectures.md)
-          + [Data buffer configuration](installation/using/interaction-data-buffer.md)
-     + Use case {#case-study}
-          + [Presentation rules](interaction/using/presentation-rules.md)
-          + [Offers on an inbound channel](interaction/using/offers-on-an-inbound-channel.md)
-          + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
-+ Transactional Messaging {#transactional-messaging}
-     + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
-     + Configure transactional messaging {#configure-transactional-messaging}
-          + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
-          + [Configure instances](message-center/using/configuring-instances.md)
-          + [Additional configurations](message-center/using/additional-configurations.md)
-     + Message templates {#message-templates}
-          + [Test message templates](message-center/using/testing-message-templates.md)
-     + [Use case](message-center/using/transactional-email-with-attachments.md)
 + Integrate with social media {#integrating-with-social-media}
      + [About social marketing](social/using/about-social-marketing.md)
++ Technotes {#technotes}
+     + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
+     + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
+     + [Inbound SMS workflow activity for Mid-sourcing infrastructure](technotes/using/inbound-sms-wf.md)
+     + Upgrade to IMS{#ims}
+          + [Transition to Adobe IMS](technotes/using/ac-ims.md)
+          + [Migrate users to IMS](technotes/using/migrate-users-to-ims.md)
+          + [Migrate technical operators to Developer Console](technotes/using/ims-migration.md)
+          + [Interface impact after IMS migration](technotes/using/impact-ims-migration.md)
+     + Upgrades and compatibility{#technote-migration}
+          + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       
+          + {hide-from-toc} [Apache Security Upgrade](technotes/using/acc-apache-upgrade.md)
+          + {hide-from-toc} [2023 system upgrades](technotes/using/tech-stack-upgrade.md)
+          + {hide-from-toc} [Migrate to the Adobe Analytics 2.0 API](technotes/using/analytics-2-migration.md)
+     + Emails and push notifications{#technotes-email}
+          + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
+          + [iOS certificate update](technotes/using/ios-certificate-update.md)
+     + Migration to Adobe Managed Services{#dc-migration}
+          + [Migration to Public Cloud](technotes/using/dc-migration.md)
+          + [FAQ](technotes/using/dc-migration-faq.md)
+     + [GCM based functions](technotes/using/gcm-functions.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
