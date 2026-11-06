@@ -19,10 +19,6 @@ nudge: false
   + Previous releases {#previous-releases}
     + [2025](rn/using/release-2025.md)
     + [2024](rn/using/release-2024.md)    
-    + {hide-from-toc} [2023 - HIDDEN](rn/using/release-2023.md)    
-    + {hide-from-toc} [2022 - HIDDEN](rn/using/release-2022.md)    
-    + {hide-from-toc} [2021 - HIDDEN](rn/using/release-2021.md)
-    + {hide-from-toc} [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
 + Get started {#getting-started}
@@ -62,8 +58,6 @@ nudge: false
 + Create and send messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
      + {hide-from-toc} [Delivery settings - HIDDEN](delivery/using/delivery-settings.md)
-     + Quick start {#key-steps-when-creating-a-delivery}
-          + {hide-from-toc} [Send the delivery - HIDDEN](delivery/using/steps-sending-the-delivery.md)
      + [Send emails](delivery/using/about-email-channel.md)
      + Send SMS {#sending-messages-on-mobiles}
           + Configure SMS channel {#sms-set-up}
@@ -72,13 +66,8 @@ nudge: false
                + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
                + [Additional configuration](delivery/using/sms-send.md)
                + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
-          + {hide-from-toc} [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
      + [Send push notifications](delivery/using/about-mobile-app-channel.md)
      + Send push notifications {#sending-push-notifications}
-          + Configure the mobile application{#configure-the-mobile-app}
-               + {hide-from-toc} [Get started with the app configuration - HIDDEN](delivery/using/get-started-app-config.md)
-               + {hide-from-toc} [Configuration steps for iOS - HIDDEN](delivery/using/configuring-the-mobile-application.md)
-               + {hide-from-toc} [Configuration steps for Android - HIDDEN](delivery/using/configuring-the-mobile-application-android.md)
           + {hide-from-toc} [Troubleshooting - HIDDEN](delivery/using/troubleshooting.md)
      + [Send direct mails](delivery/using/about-direct-mail-channel.md)
      + Personalize deliveries {#personalizing-deliveries}
@@ -505,15 +494,12 @@ nudge: false
           + [Interface impact after IMS migration](technotes/using/impact-ims-migration.md)
      + Upgrades and compatibility{#technote-migration}
           + [Enable Microsoft Edge Chromium](technotes/using/edge-chromium.md)       
-          + {hide-from-toc} [New deliverabiity server](technotes/using/deliverability-server.md)
           + {hide-from-toc} [Apache Security Upgrade](technotes/using/acc-apache-upgrade.md)
           + {hide-from-toc} [2023 system upgrades](technotes/using/tech-stack-upgrade.md)
-          + {hide-from-toc} [IMS updates](technotes/using/ims-updates.md)
           + {hide-from-toc} [Migrate to the Adobe Analytics 2.0 API](technotes/using/analytics-2-migration.md)
      + Emails and push notifications{#technotes-email}
           + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
           + [iOS certificate update](technotes/using/ios-certificate-update.md)
-          + {hide-from-toc} [Tracked URLs update](technotes/using/tracked-urls.md)
      + Migration to Adobe Managed Services{#dc-migration}
           + [Migration to Public Cloud](technotes/using/dc-migration.md)
           + [FAQ](technotes/using/dc-migration-faq.md)

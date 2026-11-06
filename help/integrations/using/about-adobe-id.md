@@ -61,10 +61,10 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID, i
 >
 >Depending on your current version, you must upgrade to one of the following releases: 
 >
-> * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
+> * [Campaign [!DNL Gold Standard] 11](../../rn/using/rn-overview.md)
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
 >
->[Learn more about IMS updates](../../technotes/using/ims-updates.md)
+>[Learn more about IMS updates](../../technotes/using/ac-ims.md)
 -->
 
 ## More resources
