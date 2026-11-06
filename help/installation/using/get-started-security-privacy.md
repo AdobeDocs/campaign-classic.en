@@ -68,7 +68,7 @@ Access management is an important part of security hardening. Here are some of t
 * Check that each operator has the appropriate access rights
 * Avoid using the admin operator and avoid having too many operators in the admin group
 
-[Read more](../../installation/using/access-management.md)
+[Read more](../../installation/using/secure-access-management.md)
 
 ## Scripting and coding guidelines
 

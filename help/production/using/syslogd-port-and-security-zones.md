@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Additional configuration
+title: Syslogd port and security zones
 description: Configuration
 feature: Monitoring, Configuration
 badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Configuration{#configuration}
+# Syslogd port and security zones{#configuration}
 
 
 

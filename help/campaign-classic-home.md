@@ -95,7 +95,7 @@ To reinforce security and authentication process, Adobe Campaign highly recommen
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
       <br/>
-      <strong>Administrators</strong><br/><a href="production/using/general-architecture.md">Architecture principles</a> - <a href="production/using/configuration.md">Configure Campaign</a> - <a href="platform/using/launching-adobe-campaign.md">Connect to Campaign</a> - <a href="installation/using/external-accounts.md">Connect to external systems</a> - <a href="platform/using/access-management.md">Permissions</a> - <a href="platform/using/privacy-management.md">Privacy & consent</a> - <a href="production/using/build-upgrade.md">Performing a build upgrade</a> - <a href="delivery/using/about-deliverability.md">Deliverability</a>
+      <strong>Administrators</strong><br/><a href="production/using/architecture-and-open-ports.md">Architecture principles</a> - <a href="production/using/syslogd-port-and-security-zones.md">Configure Campaign</a> - <a href="platform/using/launching-adobe-campaign.md">Connect to Campaign</a> - <a href="installation/using/external-accounts.md">Connect to external systems</a> - <a href="platform/using/access-management.md">Permissions</a> - <a href="platform/using/privacy-management.md">Privacy & consent</a> - <a href="production/using/build-upgrade.md">Performing a build upgrade</a> - <a href="delivery/using/about-deliverability.md">Deliverability</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">

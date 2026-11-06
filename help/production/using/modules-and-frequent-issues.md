@@ -71,7 +71,7 @@ Here is a list of modules impacted by frequent issues:
   <tr> 
    <td> syslogd </td> 
    <td> Log writing<br /> </td> 
-   <td> If some logs are missing in the log files, check to make sure that the module is using port 6666. Refer to <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">List of open ports</a>.<br /> </td> 
+   <td> If some logs are missing in the log files, check to make sure that the module is using port 6666. Refer to <a href="../../production/using/architecture-and-open-ports.md#list-of-open-ports" target="_blank">List of open ports</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> tracking </td> 

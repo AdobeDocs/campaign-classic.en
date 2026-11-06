@@ -162,7 +162,7 @@ Technical resources are available in Campaign Classic documentation. We recommen
 
 **General principles**
 
-* [Campaign Classic architecture](../../production/using/general-architecture.md)
+* [Campaign Classic architecture](../../production/using/architecture-and-open-ports.md)
 * [Campaign Classic modules](../../production/using/operating-principle.md)
 * [Campaign Classic options](../../installation/using/configuring-campaign-options.md)
 * [How to set up modules' automatic startup](../../production/using/administration.md)
