@@ -50,6 +50,8 @@ As part of the transition from Campaign v7 to v8, the Campaign Classic documenta
 
 [![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
 
+In Campaign Classic v7, restricting access to the entire entity requires build 8770 or later.
+
 ## URL Personalization {#url-personalization}
 
 When adding personalized links to your content, always avoid having any personalization in the hostname part of the URL to avoid potential security gaps. The following examples should never be used in all URL attributes <`a href="">` or `<img src="">`:

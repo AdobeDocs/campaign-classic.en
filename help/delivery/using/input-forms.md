@@ -222,4 +222,4 @@ The **[!UICONTROL Preview]** tab lets you view the input form:
 
 ![](assets/d_ncs_content_form13.png)
 
-Read more about [editing forms](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation) and [form structure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).
+Read more about [editing forms](../../configuration/using/editing-forms.md) and [form structure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (Campaign v8 documentation).

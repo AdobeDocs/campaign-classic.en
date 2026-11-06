@@ -22,6 +22,7 @@ nudge: false
   + [Deprecated features](rn/using/deprecated-features.md)
   + [Compatibility matrix](rn/using/compatibility-matrix.md)
 + Get started {#getting-started}
+     + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
      + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
      + [Campaign connectors](platform/using/about-connectors.md)
      + Frequently Asked Questions {#faq}
@@ -435,6 +436,8 @@ nudge: false
      + API {#api}
           + [About web services](configuration/using/about-web-services.md)
           + [Web service calls](configuration/using/web-service-calls.md)
+     + Input forms {#input-forms}
+          + [Edit forms](configuration/using/editing-forms.md)
           + [Data oriented APIs](configuration/using/data-oriented-apis.md)
           + [Business oriented APIs](configuration/using/business-oriented-apis.md)
           + [Implementing SOAP methods](configuration/using/implementing-soap-methods.md)

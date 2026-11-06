@@ -57,6 +57,8 @@ As part of the transition from Campaign v7 to v8, the Campaign Classic documenta
 
 [![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}
 
+To learn how to define permissions on folders, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/folder-permissions){target=_blank}.
+
 Native authentication with login/password is still available in Campaign v7, however to reinforce security and authentication process, Adobe Campaign highly recommends to [migrate end user authentication mode](../../technotes/using/ac-ims.md) from the native authentication to Adobe Identity Management System (IMS). Note that in Campaign v8, connecting with native authentication is not allowed.
 
 [![image](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)

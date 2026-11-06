@@ -72,7 +72,7 @@ The Privacy technical workflows run once every day and process each new request:
 
 ![](assets/privacy-request-download.png)
 
-## List of tables {#list-of-tables}
+## Batch requests via workflows
 
 >[!IMPORTANT]
 >
