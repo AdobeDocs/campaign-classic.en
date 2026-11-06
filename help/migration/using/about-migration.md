@@ -26,6 +26,10 @@ topic_v2:
 ---
 # Get started with the migration{#about-migration}
 
+>[!NOTE]
+>
+>This guide covers the migration from Campaign Classic v5 and v6 to v7. It is no longer maintained and is kept for reference only. To update a v7 platform to a new build, refer to [Upgrading to a new build](../../production/using/upgrading.md).
+
 
 
 This document details the prerequisites to a migration, the steps for a migration to Adobe Campaign Classic v7. Steps and optional settings depend on your configuration. 

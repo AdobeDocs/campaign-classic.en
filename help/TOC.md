@@ -13,7 +13,7 @@ nudge: false
 # Adobe Campaign Classic v7 Documentation {#using}
 
 + [Campaign v7 documentation](campaign-classic-home.md)
-+ Release notes {#release-notes}
++ Release notes and compatibility {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest release](rn/using/latest-release.md)
   + Previous releases {#previous-releases}
@@ -55,199 +55,7 @@ nudge: false
                + [Create and manage groups](platform/using/access-management-groups.md)
      + CRM connectors {#connectors}
           + [Get started with CRM Connectors](platform/using/crm-connectors.md)
-+ Create and send messages {#sending-messages}
-     + [Get started with messages](delivery/using/communication-channels.md)
-     + {hide-from-toc} [Delivery settings - HIDDEN](delivery/using/delivery-settings.md)
-     + [Send emails](delivery/using/about-email-channel.md)
-     + Send SMS {#sending-messages-on-mobiles}
-          + Configure SMS channel {#sms-set-up}
-               + [Configure SMS on a standalone instance](delivery/using/sms-set-up.md)
-               + [Configure SMS on a mid-sourcing infrastructure](delivery/using/sms-set-up-mid.md)
-               + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
-               + [Additional configuration](delivery/using/sms-send.md)
-               + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
-     + [Send push notifications](delivery/using/about-mobile-app-channel.md)
-     + Send push notifications {#sending-push-notifications}
-          + {hide-from-toc} [Troubleshooting - HIDDEN](delivery/using/troubleshooting.md)
-     + [Send direct mails](delivery/using/about-direct-mail-channel.md)
-     + Personalize deliveries {#personalizing-deliveries}
-          + [About personalization](delivery/using/about-personalization.md)
-     + Use seed addresses {#using-seed-addresses}
-          + [Use case: select seed addresses on criteria](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
-          + [Use case: configure the field substitution](delivery/using/use-case-configuring-the-field-substitution.md)
-     + A/B testing {#a-b-testing}
-          + [Get started with A/B testing](delivery/using/get-started-a-b-testing.md)
-          + [Configure A/B testing](delivery/using/configuring-a-b-testing.md)
-          + Use case {#use-case}
-               + [About this use case](delivery/using/a-b-testing-use-case.md)
-               + [Create a targeting workflow](delivery/using/a-b-testing-uc-targeting-workflow.md)
-               + [Configure population samples](delivery/using/a-b-testing-uc-population-samples.md)
-               + [Create the delivery templates](delivery/using/a-b-testing-uc-delivery-templates.md)
-               + [Configure the deliveries](delivery/using/a-b-testing-uc-configuring-deliveries.md)
-               + [Create the script](delivery/using/a-b-testing-uc-script.md)
-               + [Define the final delivery](delivery/using/a-b-testing-uc-final-delivery.md)
-               + [Start the workflow](delivery/using/a-b-testing-uc-start-workflow.md)
-               + [Analyze the result](delivery/using/a-b-testing-uc-analyzing.md)
-     + Services and subscriptions {#subscriptions-and-referrals}
-          + [About services and subscriptions](delivery/using/about-services-and-subscriptions.md)
-          + [Manage subscriptions](delivery/using/managing-subscriptions.md)
-          + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
-     + Monitor deliveries {#monitoring-deliveries}
-          + [Monitor delivery performance](delivery/using/about-delivery-monitoring.md)
-          + [Track messages](delivery/using/about-message-tracking.md)
-          + [Delivery performance and troubleshooting](delivery/using/delivery-performance-troubleshooting.md)
-          + [Delivery failures and quarantine management](delivery/using/delivery-failures-quarantine.md)
-          + [Advanced: Customize delivery logs](delivery/using/customize-delivery-logs.md)
-     + Deliverability management {#deliverability-management}
-       + [What is deliverability](delivery/using/about-deliverability.md)
-       + [Inbox rendering](delivery/using/inbox-rendering.md)
-       + [Troubleshooting](delivery/using/deliverability-faq.md)
-     + Content management module {#content-management}
-       + [About content management](delivery/using/about-content-management.md)
-       + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
-       + [Use case: creating content management](delivery/using/use-case-creating-content-management.md)
-       + [Data schemas](delivery/using/data-schemas.md)
-       + [Input forms](delivery/using/input-forms.md)
-       + [Formatting](delivery/using/formatting.md)
-       + [Publication templates](delivery/using/publication-templates.md)
-       + [Use a content template](delivery/using/using-a-content-template.md)
-       + [Enrich content](delivery/using/enriching-content.md)
-       + [Automate via workflows](delivery/using/automating-via-workflows.md)
-+ Response manager {#response-manager}
-  + [Get started with response manager](response/using/about-response-manager.md)
-  + [Configuration](response/using/configuration.md)
-  + [Hypothesis templates](response/using/hypothesis-templates.md)
-  + [Create hypotheses](response/using/creating-hypotheses.md)
-  + [Hypothesis tracking](response/using/hypothesis-tracking.md)
-+ Design and share reports {#reporting}
-  + Get started with reporting {#reporting-in-adobe-campaign}
-     + [Best practices for reporting](reporting/using/best-practices.md)
-  + Access built-in reports {#accessing-built-in-reports}
-     + [About built-in reports](reporting/using/about-campaign-built-in-reports.md)
-  + Analyze populations {#analyzing-populations}
-     + [What is descriptive analysis](reporting/using/about-descriptive-analysis.md)
-     + [Create your first descriptive analysis report](reporting/using/using-the-descriptive-analysis-wizard.md)
-     + [Manage and configure your analysis report](reporting/using/processing-a-report.md)
-     + [Analysis reporting use cases](reporting/using/use-cases.md)
-  + Create new reports {#creating-new-reports}
-     + [Key steps to design a report](reporting/using/about-reports-creation-in-campaign.md)
-     + [Create a new report](reporting/using/creating-a-new-report.md)
-     + [Collect data to analyze](reporting/using/collecting-data-to-analyze.md)
-     + [Use the context](reporting/using/using-the-context.md)
-     + [Create a table](reporting/using/creating-a-table.md)
-     + [Create a chart](reporting/using/creating-a-chart.md)
-     + [Element layout](reporting/using/element-layout.md)
-     + [Define a conditional content](reporting/using/defining-a-conditional-content.md)
-     + [Advanced capabilities](reporting/using/advanced-functionalities.md)
-     + [Properties of the report](reporting/using/properties-of-the-report.md)
-     + [Configure access to the report](reporting/using/configuring-access-to-the-report.md)
-     + [Actions on reports](reporting/using/actions-on-reports.md)
-  + [Design reports with cubes](reporting/using/ac-cubes.md)
-+ Design web content {#designing-content}
-     + Web applications {#web-applications}
-          + [Get started with web applications](web/using/about-web-applications.md)
-          + [Create a new web application](web/using/creating-a-new-web-application.md)
-          + [Design a web application](web/using/designing-a-web-application.md)
-          + [Use cases: create overviews](web/using/use-cases-creating-overviews.md)
-          + [Translate a web application](web/using/translating-a-web-application.md)
-          + [Track visits on a web application](web/using/tracking-a-web-application.md)
-          + [Web application tracking opt-out](web/using/web-application-tracking-opt-out.md)
-     + Edit HTML content {#editing-html-content}
-          + [Get started with the HTML editor](web/using/about-campaign-html-editor.md)
-          + [Template management](web/using/template-management.md)
-          + [Content editor interface](web/using/content-editor-interface.md)
-          + [Edit content](web/using/editing-content.md)
-          + [Content editing best practices](web/using/content-editing-best-practices.md)
-          + [Create a landing page](web/using/creating-a-landing-page.md)
-          + [Use case: create an email delivery](web/using/use-case-creating-an-email-delivery.md)
-     + Web forms {#web-forms}
-          + [Get started with web forms](web/using/about-web-forms.md)
-          + [Use a web form template](web/using/using-a-web-form-template.md)
-          + [Add fields to a web form](web/using/adding-fields-to-a-web-form.md)
-          + [Static elements in a web form](web/using/static-elements-in-a-web-form.md)
-          + [Define web forms layout](web/using/defining-web-forms-layout.md)
-          + [Form rendering](web/using/form-rendering.md)
-          + [Define page sequencing](web/using/defining-web-forms-page-sequencing.md)
-          + [Save web forms answers](web/using/web-forms-answers.md)
-          + [Publish a web form](web/using/publishing-a-web-form.md)
-          + [Define web forms properties](web/using/defining-web-forms-properties.md)
-          + [Translate a web form](web/using/translating-a-web-form.md)
-          + [Use cases: web forms](web/using/use-cases-web-forms.md)
-+ Create online surveys {#online-surveys}
-     + [Get started with surveys](surveys/using/about-surveys.md)
-     + [Key steps to create a survey](surveys/using/getting-started-with-surveys.md)
-     + [Design a survey](surveys/using/building-a-survey.md)
-     + [Manage answers](surveys/using/managing-answers.md)
-     + [Publish, track and use collected data](surveys/using/publish-track-and-use-collected-data.md)
-     + [Configure surveys](surveys/using/configuring-surveys.md)
-     + [Use case: create a referral form](surveys/using/use-case-creating-a-refer-a-friend-form.md)
-     + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
-+ Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-     + [Get started with Campaign integrations](integrations/using/about-campaign-integrations.md)
-     + [Create your Adobe technical account](integrations/using/oauth-technical-account.md)
-     + Adobe Experience Cloud Triggers {#experience-triggers}
-          + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
-          + [Configure pipeline](integrations/using/configuring-pipeline.md)
-          + [Configure events for custom implementation](integrations/using/events.md)
-          + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
-          + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
-     + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
-          + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
-          + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
-          + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
-     + Adobe Analytics Connector{#analytics-connector}
-          + [Get started with Adobe Analytics Connector](integrations/using/gs-aa.md)
-          + [Adobe Analytics Connector provisioning](integrations/using/adobe-analytics-provisioning.md)
-     + Audience sharing {#audience-sharing}
-          + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
-          + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
-          + [Configure shared audiences integration in [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-          + {hide-from-toc} [Troubleshooting](integrations/using/troubleshooting.md)
-          + [Import and export audiences](integrations/using/importing-and-exporting-audiences.md)
-     + Asset sharing {#asset-sharing}
-          + [Share assets with [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-          + [Configure access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
-          + [Insert a shared asset](integrations/using/inserting-a-shared-asset.md)
-     + Adobe Experience Manager {#adobe-experience-manager}
-          + [Configure the integration](integrations/using/configuring-the-integration.md)
-     + Adobe Target {#adobe-target}
-          + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
-+ Manage Offers {#managing-offers}
-     + Get started with Interaction {#interaction-overview}
-          + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
-     + Manage an offer catalog {#managing-an-offer-catalog}
-          + [Approve and activate an offer](interaction/using/approving-and-activating-an-offer.md)
-          + [Manage offer templates](interaction/using/managing-offer-templates.md)
-          + [Manage offer presentation](interaction/using/managing-offer-presentation.md)
-     + Offers simulation{#simulating-offers}
-          + [About offers simulation](interaction/using/about-offers-simulation.md)
-          + [Execution settings](interaction/using/execution-settings.md)
-          + [Simulation scope](interaction/using/simulation-scope.md)
-          + [Simulation tracking](interaction/using/simulation-tracking.md)
-     + Advanced parameters {#advanced-parameters}
-          + [Use advanced parameters](interaction/using/using-advanced-parameters.md)
-          + [Additional data](interaction/using/additional-data.md)
-          + [Extension example](interaction/using/extension-example.md)
-          + [Create a test environment](interaction/using/creating-a-test-environment.md)
-          + [Modify the standard engine behavior](interaction/using/hooks.md)
-          + [Distributed architectures](interaction/using/distributed-architectures.md)
-          + [Data buffer configuration](installation/using/interaction-data-buffer.md)
-     + Use case {#case-study}
-          + [Presentation rules](interaction/using/presentation-rules.md)
-          + [Offers on an inbound channel](interaction/using/offers-on-an-inbound-channel.md)
-          + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
-+ Transactional Messaging {#transactional-messaging}
-     + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
-     + Configure transactional messaging {#configure-transactional-messaging}
-          + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
-          + [Configure instances](message-center/using/configuring-instances.md)
-          + [Additional configurations](message-center/using/additional-configurations.md)
-     + Message templates {#message-templates}
-          + [Test message templates](message-center/using/testing-message-templates.md)
-     + [Use case](message-center/using/transactional-email-with-attachments.md)
-+ Integrate with social media {#integrating-with-social-media}
-     + [About social marketing](social/using/about-social-marketing.md)
-+ Installation and configuration guide {#installing-campaign-classic}
++ Install and configure {#installing-campaign-classic}
      + Architecture principles {#architecture-and-hosting-models}
           + [General architecture](installation/using/general-architecture.md)
           + Hosting models{#hosting-models-lp}
@@ -341,7 +149,17 @@ nudge: false
           + [List of Campaign options](installation/using/configuring-campaign-options.md)
           + {hide-from-toc} [Uninstall Campaign](installation/using/uninstalling-campaign.md)
           + [Install new fonts](installation/using/install-fonts.md)
-+ Monitoring guide {#monitoring-campaign-classic}
++ Migration guide {#migrating-to-a-new-version}
+     + {hide-from-toc} [Migrate to Adobe Campaign v7](migration/using/about-migration.md)
+     + Migration procedure {#migration-procedure}
+          + {hide-from-toc} [Prerequisites](migration/using/before-starting-migration.md)
+          + {hide-from-toc} [About migration tests](migration/using/testing-the-migration.md)
+          + {hide-from-toc} [Adapt your configuration](migration/using/configuring-your-platform.md)
+     + Start the migration {#migrating-to-adobe-campaign-7}
+          + {hide-from-toc} [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+          + {hide-from-toc} [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+     + {hide-from-toc} [Rollback procedure](migration/using/about-rollback.md)
++ Operate and monitor {#monitoring-campaign-classic}
      + Introduction {#introduction}
           + [Foreword](production/using/foreword.md)
           + [General architecture](production/using/general-architecture.md)
@@ -396,7 +214,7 @@ nudge: false
                + [Stack trace in Linux](production/using/stack-trace-in-linux.md)
                + [JSP behavior](production/using/jsp-behavior.md)
                + [Locating Tomcat version](production/using/locate-tomcat-version.md)
-+ Developers guide {#configuring-campaign-classic}
++ Develop and extend {#configuring-campaign-classic}
      + [Data packages](platform/using/working-with-data-packages.md)
      + Data model {#data-model}
           + [Data model description](configuration/using/data-model-description.md)
@@ -466,16 +284,198 @@ nudge: false
           + [Inserting tags in your site](configuration/using/inserting-tags-in-your-site.md)
           + [Collecting all visits](configuration/using/collecting-all-visits.md)
           + [Anonymous tracking](configuration/using/anonymous-tracking.md)
-+ Migration guide {#migrating-to-a-new-version}
-     + {hide-from-toc} [Migrate to Adobe Campaign v7](migration/using/about-migration.md)
-     + Migration procedure {#migration-procedure}
-          + {hide-from-toc} [Prerequisites](migration/using/before-starting-migration.md)
-          + {hide-from-toc} [About migration tests](migration/using/testing-the-migration.md)
-          + {hide-from-toc} [Adapt your configuration](migration/using/configuring-your-platform.md)
-     + Start the migration {#migrating-to-adobe-campaign-7}
-          + {hide-from-toc} [Migrate a Microsoft Windows platform](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-          + {hide-from-toc} [Migrate a Linux platform](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-     + {hide-from-toc} [Rollback procedure](migration/using/about-rollback.md)
++ Create and send messages {#sending-messages}
+     + [Get started with messages](delivery/using/communication-channels.md)
+     + {hide-from-toc} [Delivery settings - HIDDEN](delivery/using/delivery-settings.md)
+     + [Send emails](delivery/using/about-email-channel.md)
+     + Send SMS {#sending-messages-on-mobiles}
+          + Configure SMS channel {#sms-set-up}
+               + [Configure SMS on a standalone instance](delivery/using/sms-set-up.md)
+               + [Configure SMS on a mid-sourcing infrastructure](delivery/using/sms-set-up-mid.md)
+               + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
+               + [Additional configuration](delivery/using/sms-send.md)
+               + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
+     + [Send push notifications](delivery/using/about-mobile-app-channel.md)
+     + Send push notifications {#sending-push-notifications}
+          + {hide-from-toc} [Troubleshooting - HIDDEN](delivery/using/troubleshooting.md)
+     + [Send direct mails](delivery/using/about-direct-mail-channel.md)
+     + Personalize deliveries {#personalizing-deliveries}
+          + [About personalization](delivery/using/about-personalization.md)
+     + Use seed addresses {#using-seed-addresses}
+          + [Use case: select seed addresses on criteria](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
+          + [Use case: configure the field substitution](delivery/using/use-case-configuring-the-field-substitution.md)
+     + A/B testing {#a-b-testing}
+          + [Get started with A/B testing](delivery/using/get-started-a-b-testing.md)
+          + [Configure A/B testing](delivery/using/configuring-a-b-testing.md)
+          + Use case {#use-case}
+               + [About this use case](delivery/using/a-b-testing-use-case.md)
+               + [Create a targeting workflow](delivery/using/a-b-testing-uc-targeting-workflow.md)
+               + [Configure population samples](delivery/using/a-b-testing-uc-population-samples.md)
+               + [Create the delivery templates](delivery/using/a-b-testing-uc-delivery-templates.md)
+               + [Configure the deliveries](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+               + [Create the script](delivery/using/a-b-testing-uc-script.md)
+               + [Define the final delivery](delivery/using/a-b-testing-uc-final-delivery.md)
+               + [Start the workflow](delivery/using/a-b-testing-uc-start-workflow.md)
+               + [Analyze the result](delivery/using/a-b-testing-uc-analyzing.md)
+     + Services and subscriptions {#subscriptions-and-referrals}
+          + [About services and subscriptions](delivery/using/about-services-and-subscriptions.md)
+          + [Manage subscriptions](delivery/using/managing-subscriptions.md)
+          + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
+     + Monitor deliveries {#monitoring-deliveries}
+          + [Monitor delivery performance](delivery/using/about-delivery-monitoring.md)
+          + [Track messages](delivery/using/about-message-tracking.md)
+          + [Delivery performance and troubleshooting](delivery/using/delivery-performance-troubleshooting.md)
+          + [Delivery failures and quarantine management](delivery/using/delivery-failures-quarantine.md)
+          + [Advanced: Customize delivery logs](delivery/using/customize-delivery-logs.md)
+     + Deliverability management {#deliverability-management}
+       + [What is deliverability](delivery/using/about-deliverability.md)
+       + [Inbox rendering](delivery/using/inbox-rendering.md)
+       + [Troubleshooting](delivery/using/deliverability-faq.md)
+     + Content management module {#content-management}
+       + [About content management](delivery/using/about-content-management.md)
+       + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
+       + [Use case: creating content management](delivery/using/use-case-creating-content-management.md)
+       + [Data schemas](delivery/using/data-schemas.md)
+       + [Input forms](delivery/using/input-forms.md)
+       + [Formatting](delivery/using/formatting.md)
+       + [Publication templates](delivery/using/publication-templates.md)
+       + [Use a content template](delivery/using/using-a-content-template.md)
+       + [Enrich content](delivery/using/enriching-content.md)
+       + [Automate via workflows](delivery/using/automating-via-workflows.md)
++ Transactional Messaging {#transactional-messaging}
+     + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
+     + Configure transactional messaging {#configure-transactional-messaging}
+          + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
+          + [Configure instances](message-center/using/configuring-instances.md)
+          + [Additional configurations](message-center/using/additional-configurations.md)
+     + Message templates {#message-templates}
+          + [Test message templates](message-center/using/testing-message-templates.md)
+     + [Use case](message-center/using/transactional-email-with-attachments.md)
++ Design web content {#designing-content}
+     + Web applications {#web-applications}
+          + [Get started with web applications](web/using/about-web-applications.md)
+          + [Create a new web application](web/using/creating-a-new-web-application.md)
+          + [Design a web application](web/using/designing-a-web-application.md)
+          + [Use cases: create overviews](web/using/use-cases-creating-overviews.md)
+          + [Translate a web application](web/using/translating-a-web-application.md)
+          + [Track visits on a web application](web/using/tracking-a-web-application.md)
+          + [Web application tracking opt-out](web/using/web-application-tracking-opt-out.md)
+     + Edit HTML content {#editing-html-content}
+          + [Get started with the HTML editor](web/using/about-campaign-html-editor.md)
+          + [Template management](web/using/template-management.md)
+          + [Content editor interface](web/using/content-editor-interface.md)
+          + [Edit content](web/using/editing-content.md)
+          + [Content editing best practices](web/using/content-editing-best-practices.md)
+          + [Create a landing page](web/using/creating-a-landing-page.md)
+          + [Use case: create an email delivery](web/using/use-case-creating-an-email-delivery.md)
+     + Web forms {#web-forms}
+          + [Get started with web forms](web/using/about-web-forms.md)
+          + [Use a web form template](web/using/using-a-web-form-template.md)
+          + [Add fields to a web form](web/using/adding-fields-to-a-web-form.md)
+          + [Static elements in a web form](web/using/static-elements-in-a-web-form.md)
+          + [Define web forms layout](web/using/defining-web-forms-layout.md)
+          + [Form rendering](web/using/form-rendering.md)
+          + [Define page sequencing](web/using/defining-web-forms-page-sequencing.md)
+          + [Save web forms answers](web/using/web-forms-answers.md)
+          + [Publish a web form](web/using/publishing-a-web-form.md)
+          + [Define web forms properties](web/using/defining-web-forms-properties.md)
+          + [Translate a web form](web/using/translating-a-web-form.md)
+          + [Use cases: web forms](web/using/use-cases-web-forms.md)
++ Create online surveys {#online-surveys}
+     + [Get started with surveys](surveys/using/about-surveys.md)
+     + [Key steps to create a survey](surveys/using/getting-started-with-surveys.md)
+     + [Design a survey](surveys/using/building-a-survey.md)
+     + [Manage answers](surveys/using/managing-answers.md)
+     + [Publish, track and use collected data](surveys/using/publish-track-and-use-collected-data.md)
+     + [Configure surveys](surveys/using/configuring-surveys.md)
+     + [Use case: create a referral form](surveys/using/use-case-creating-a-refer-a-friend-form.md)
+     + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
++ Manage Offers {#managing-offers}
+     + Get started with Interaction {#interaction-overview}
+          + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
+     + Manage an offer catalog {#managing-an-offer-catalog}
+          + [Approve and activate an offer](interaction/using/approving-and-activating-an-offer.md)
+          + [Manage offer templates](interaction/using/managing-offer-templates.md)
+          + [Manage offer presentation](interaction/using/managing-offer-presentation.md)
+     + Offers simulation{#simulating-offers}
+          + [About offers simulation](interaction/using/about-offers-simulation.md)
+          + [Execution settings](interaction/using/execution-settings.md)
+          + [Simulation scope](interaction/using/simulation-scope.md)
+          + [Simulation tracking](interaction/using/simulation-tracking.md)
+     + Advanced parameters {#advanced-parameters}
+          + [Use advanced parameters](interaction/using/using-advanced-parameters.md)
+          + [Additional data](interaction/using/additional-data.md)
+          + [Extension example](interaction/using/extension-example.md)
+          + [Create a test environment](interaction/using/creating-a-test-environment.md)
+          + [Modify the standard engine behavior](interaction/using/hooks.md)
+          + [Distributed architectures](interaction/using/distributed-architectures.md)
+          + [Data buffer configuration](installation/using/interaction-data-buffer.md)
+     + Use case {#case-study}
+          + [Presentation rules](interaction/using/presentation-rules.md)
+          + [Offers on an inbound channel](interaction/using/offers-on-an-inbound-channel.md)
+          + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
++ Response manager {#response-manager}
+  + [Get started with response manager](response/using/about-response-manager.md)
+  + [Configuration](response/using/configuration.md)
+  + [Hypothesis templates](response/using/hypothesis-templates.md)
+  + [Create hypotheses](response/using/creating-hypotheses.md)
+  + [Hypothesis tracking](response/using/hypothesis-tracking.md)
++ Design and share reports {#reporting}
+  + Get started with reporting {#reporting-in-adobe-campaign}
+     + [Best practices for reporting](reporting/using/best-practices.md)
+  + Access built-in reports {#accessing-built-in-reports}
+     + [About built-in reports](reporting/using/about-campaign-built-in-reports.md)
+  + Analyze populations {#analyzing-populations}
+     + [What is descriptive analysis](reporting/using/about-descriptive-analysis.md)
+     + [Create your first descriptive analysis report](reporting/using/using-the-descriptive-analysis-wizard.md)
+     + [Manage and configure your analysis report](reporting/using/processing-a-report.md)
+     + [Analysis reporting use cases](reporting/using/use-cases.md)
+  + Create new reports {#creating-new-reports}
+     + [Key steps to design a report](reporting/using/about-reports-creation-in-campaign.md)
+     + [Create a new report](reporting/using/creating-a-new-report.md)
+     + [Collect data to analyze](reporting/using/collecting-data-to-analyze.md)
+     + [Use the context](reporting/using/using-the-context.md)
+     + [Create a table](reporting/using/creating-a-table.md)
+     + [Create a chart](reporting/using/creating-a-chart.md)
+     + [Element layout](reporting/using/element-layout.md)
+     + [Define a conditional content](reporting/using/defining-a-conditional-content.md)
+     + [Advanced capabilities](reporting/using/advanced-functionalities.md)
+     + [Properties of the report](reporting/using/properties-of-the-report.md)
+     + [Configure access to the report](reporting/using/configuring-access-to-the-report.md)
+     + [Actions on reports](reporting/using/actions-on-reports.md)
+  + [Design reports with cubes](reporting/using/ac-cubes.md)
++ Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
+     + [Get started with Campaign integrations](integrations/using/about-campaign-integrations.md)
+     + [Create your Adobe technical account](integrations/using/oauth-technical-account.md)
+     + Adobe Experience Cloud Triggers {#experience-triggers}
+          + [Work with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+          + [Configure pipeline](integrations/using/configuring-pipeline.md)
+          + [Configure events for custom implementation](integrations/using/events.md)
+          + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
+          + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
+     + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
+          + [Work with Sources and Destinations](integrations/using/get-started-sources-destinations.md)
+          + [Ingest Adobe Experience Platform audiences into Campaign](integrations/using/ingest-aep-data.md)
+          + [Export data from Campaign to Adobe Experience Platform](integrations/using/export-campaign-data.md)
+     + Adobe Analytics Connector{#analytics-connector}
+          + [Get started with Adobe Analytics Connector](integrations/using/gs-aa.md)
+          + [Adobe Analytics Connector provisioning](integrations/using/adobe-analytics-provisioning.md)
+     + Audience sharing {#audience-sharing}
+          + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+          + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
+          + [Configure shared audiences integration in [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+          + {hide-from-toc} [Troubleshooting](integrations/using/troubleshooting.md)
+          + [Import and export audiences](integrations/using/importing-and-exporting-audiences.md)
+     + Asset sharing {#asset-sharing}
+          + [Share assets with [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+          + [Configure access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
+          + [Insert a shared asset](integrations/using/inserting-a-shared-asset.md)
+     + Adobe Experience Manager {#adobe-experience-manager}
+          + [Configure the integration](integrations/using/configuring-the-integration.md)
+     + Adobe Target {#adobe-target}
+          + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
++ Integrate with social media {#integrating-with-social-media}
+     + [About social marketing](social/using/about-social-marketing.md)
 + Technotes {#technotes}
      + [Hardware sizing recommendations](technotes/using/hardware-sizing.md)
      + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
@@ -494,7 +494,7 @@ nudge: false
           + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
           + [iOS certificate update](technotes/using/ios-certificate-update.md)
      + Migration to Adobe Managed Services{#dc-migration}
-          + [Migration to Public Cloud](technotes/using/dc-migration.md)
-          + [FAQ](technotes/using/dc-migration-faq.md)
+          + {hide-from-toc} [Migration to Public Cloud](technotes/using/dc-migration.md)
+          + {hide-from-toc} [FAQ](technotes/using/dc-migration-faq.md)
      + [GCM based functions](technotes/using/gcm-functions.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
