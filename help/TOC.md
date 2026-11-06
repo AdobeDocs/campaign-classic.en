@@ -71,7 +71,7 @@ nudge: false
      + Security and privacy settings {#security-privacy}
           + [Security and privacy checklist](installation/using/get-started-security-privacy.md)
           + [Personalization and privacy](installation/using/privacy.md)
-          + [Secure access management](installation/using/access-management.md)
+          + [Secure access management](installation/using/secure-access-management.md)
           + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)
           + [Network, database and SSL/TLS](installation/using/network-database.md)
           + [Server security settings](installation/using/server-configuration.md)
@@ -162,13 +162,13 @@ nudge: false
 + Operate and monitor {#monitoring-campaign-classic}
      + Introduction {#introduction}
           + [Foreword](production/using/foreword.md)
-          + [Architecture and open ports](production/using/general-architecture.md)
+          + [Architecture and open ports](production/using/architecture-and-open-ports.md)
           + [Monitoring guidelines](production/using/monitoring-guidelines.md)
      + Production procedures {#production-procedures}
           + [Configuration principle](production/using/configuration-principle.md)
           + [Operating principle](production/using/operating-principle.md)
           + [Administration](production/using/administration.md)
-          + [Syslogd port and security zones](production/using/configuration.md)
+          + [Syslogd port and security zones](production/using/syslogd-port-and-security-zones.md)
           + [Log files](production/using/log-files.md)
           + [Monitor processes](production/using/monitoring-processes.md)
           + [Usual commands](production/using/usual-commands.md)
@@ -297,7 +297,7 @@ nudge: false
                + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
      + [Send push notifications](delivery/using/about-mobile-app-channel.md)
      + Send push notifications {#sending-push-notifications}
-          + {hide-from-toc} [Troubleshooting - HIDDEN](delivery/using/troubleshooting.md)
+          + {hide-from-toc} [Troubleshooting - HIDDEN](delivery/using/push-troubleshooting.md)
      + [Send direct mails](delivery/using/about-direct-mail-channel.md)
      + Personalize deliveries {#personalizing-deliveries}
           + [About personalization](delivery/using/about-personalization.md)
@@ -416,7 +416,7 @@ nudge: false
           + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
 + Response manager {#response-manager}
   + [Get started with response manager](response/using/about-response-manager.md)
-  + [Configure Response Manager](response/using/configuration.md)
+  + [Configure Response Manager](response/using/configure-response-manager.md)
   + [Hypothesis templates](response/using/hypothesis-templates.md)
   + [Create hypotheses](response/using/creating-hypotheses.md)
   + [Hypothesis tracking](response/using/hypothesis-tracking.md)
@@ -464,7 +464,7 @@ nudge: false
           + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
           + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
           + [Configure shared audiences integration in [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-          + {hide-from-toc} [Troubleshooting](integrations/using/troubleshooting.md)
+          + {hide-from-toc} [Troubleshooting](integrations/using/integrations-troubleshooting.md)
           + [Import and export audiences](integrations/using/importing-and-exporting-audiences.md)
      + Asset sharing {#asset-sharing}
           + [Share assets with [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)

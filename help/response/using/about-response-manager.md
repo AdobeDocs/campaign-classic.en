@@ -53,7 +53,7 @@ Each hypothesis is linked to a single transaction table. One delivery or offer c
 
 ## Implementation steps {#method}
 
-Before you start using Response Manager, refer to [Configuration](configuration.md) and carry out the necessary configurations.
+Before you start using Response Manager, refer to [Configuration](configure-response-manager.md) and carry out the necessary configurations.
 
 In order to launch a hypothesis on a delivery or an offer, you need to define its context in a template which will be used for each hypothesis you create.
 
