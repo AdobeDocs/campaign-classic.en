@@ -433,11 +433,11 @@ nudge: false
           + [Structure of a data schema](configuration/using/structure-of-a-data-schema.md)
           + [Regenerating schemas](configuration/using/regenerating-schemas.md)
           + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)
+     + Input forms {#input-forms}
+          + [Edit forms](configuration/using/editing-forms.md)
      + API {#api}
           + [About web services](configuration/using/about-web-services.md)
           + [Web service calls](configuration/using/web-service-calls.md)
-     + Input forms {#input-forms}
-          + [Edit forms](configuration/using/editing-forms.md)
           + [Data oriented APIs](configuration/using/data-oriented-apis.md)
           + [Business oriented APIs](configuration/using/business-oriented-apis.md)
           + [Implementing SOAP methods](configuration/using/implementing-soap-methods.md)
