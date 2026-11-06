@@ -61,7 +61,7 @@ Several automatic methods are available. to help you monitor your instance. You 
 
 **Audit trail**
 
-The Audit trail allows you to visualize the complete history of changes related to options, workflows and schemas within your instance. [Click here](../../production/using/audit-trail.md) for more information.
+The Audit trail allows you to visualize the complete history of changes related to options, workflows and schemas within your instance. [Click here](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (Campaign v8 documentation) for more information.
 
 **Control Panel**
 
@@ -83,7 +83,7 @@ The Workflow HeatMap provided a visual representation of all the workflows that 
 
 **Audit trail**
 
-The Audit trail allows you to visualize all the modifications that have been made in workflows, as well as their current states. [Click here](../../production/using/audit-trail.md).
+The Audit trail allows you to visualize all the modifications that have been made in workflows, as well as their current states. [Click here](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (Campaign v8 documentation).
 
 **Workflows troubleshooting**
 

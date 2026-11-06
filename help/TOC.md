@@ -125,9 +125,6 @@ nudge: false
      + [Best practices for reporting](reporting/using/best-practices.md)
   + Access built-in reports {#accessing-built-in-reports}
      + [About built-in reports](reporting/using/about-campaign-built-in-reports.md)
-     + [List of reports](reporting/using/list-of-reports.md)
-  + Reports on deliveries{#reports-on-deliveries}
-     + [Indicator calculation](reporting/using/indicator-calculation.md)
   + Analyze populations {#analyzing-populations}
      + [What is descriptive analysis](reporting/using/about-descriptive-analysis.md)
      + [Create your first descriptive analysis report](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -319,7 +316,6 @@ nudge: false
           + [Configure external accounts](installation/using/external-accounts.md)
           + Configure Federated Data Access{#configure-fda}
                + [Get started with Federated Data Access](installation/using/about-fda.md)
-               + [Best practices and limitations](installation/using/fda-best-practices.md)
                + Configuration guidelines {#config-databases}
                     + [Configuration steps](installation/using/configure-fda.md)
                     + [Configure Amazon Redshift](installation/using/configure-fda-redshift.md)
@@ -360,7 +356,6 @@ nudge: false
           + [Log files](production/using/log-files.md)
           + [Monitor processes](production/using/monitoring-processes.md)
           + [Usual commands](production/using/usual-commands.md)
-          + [Audit trail](production/using/audit-trail.md)
      + Data processing {#data-processing}
           + [Backup](production/using/backup.md)
           + [Restoration](production/using/restoration.md)
