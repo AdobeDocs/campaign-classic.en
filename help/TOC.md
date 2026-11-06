@@ -113,7 +113,6 @@ nudge: false
        + [Use a content template](delivery/using/using-a-content-template.md)
        + [Enrich content](delivery/using/enriching-content.md)
        + [Automate via workflows](delivery/using/automating-via-workflows.md)
-+ [Orchestrate marketing campaigns](campaign/using/about-marketing-campaigns.md)
 + Response manager {#response-manager}
   + [Get started with response manager](response/using/about-response-manager.md)
   + [Configuration](response/using/configuration.md)
@@ -213,7 +212,6 @@ nudge: false
           + [Configure the integration](integrations/using/configuring-the-integration.md)
      + Adobe Target {#adobe-target}
           + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
-+ [Automate with workflows](workflow/using/about-workflows.md)
 + Manage Offers {#managing-offers}
      + Get started with Interaction {#interaction-overview}
           + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)

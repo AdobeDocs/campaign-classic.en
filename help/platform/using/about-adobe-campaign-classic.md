@@ -123,7 +123,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,
 * [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
 * [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, X (formerly known as Twitter),
-* [Workflow](../../workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
+* [Workflow](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Campaign v8 documentation) / Data Management - automate processes and manage data with workflows,
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
 * [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,

@@ -58,7 +58,7 @@ Do not use the admin operator (or don't share it). Create one operator per physi
 
 Avoid adding too many operators in the admin group (or with admin named rights). They are very powerful operators (they can perform all SQL statements, execute commands on the server, etc.).
 
-Adobe Campaign provides three high-level privileges through [named rights](../../platform/using/access-management.md#named-rights):
+Adobe Campaign provides three high-level privileges through [named rights](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} (Campaign v8 documentation):
 
 * **ADMINISTRATION** (admin): gives access to everything and allows to do everything, bypassing all named right checks, so it includes the PROGRAM EXECUTION (createProcess) and SQL named rights
 

@@ -37,6 +37,10 @@ topic_v2:
 
 Marketers and operators use input forms to create, modify, and preview records. Forms show a visual representation of information.
 
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about input forms, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
+
 You can create and modify input forms:
 
 * You can modify the factory input forms that are delivered by default. The factory input forms are based on the factory data schemas.
@@ -97,72 +101,6 @@ You can create different types of input forms. The form type determines how user
 * Horizontal pane
 
   This form shows a list of items.
-
-## Containers
-
-In forms, you can use containers for various purposes:
-
-* Organize content within forms
-* Define access to input fields
-* Nest forms within other forms
-
-[Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Campaign v8 documentation).
-
-### Organize content
-
-Use containers to organize content within forms:
-
-* You can group fields into sections.
-* You can add pages to multipage forms.
-
-To insert a container, use the `<container>` element. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Campaign v8 documentation).
-
-#### Group fields
-
-Use containers to group input fields into organized sections.
-
-To insert a section into a form, use this element: `<container type="frame">`. Optionally, to add a section title, use the `label` attribute.
-
-Syntax: `<container type="frame" label="`*section_title*`"> […] </container>`
-
-  In this example, a container defines the **Creation** section, which comprises the **[!UICONTROL Created by]** and **[!UICONTROL Name]** input fields:
-
-```xml
-<form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
-      name="coupon" namespace="nms" type="default" xtkschema="xtk:form">
-  <input xpath="@code"/>
-  <input xpath="@type"/>
-  <container label="Creation" type="frame">
-    <input xpath="createdBy"/>
-    <input xpath="createdBy/@name"/>
-  </container>
-</form>
-```
-
-![](assets/console_screen_form.png)
-
-#### Add pages to multipage forms
-
-For multipage forms, use a container to create a form page.
-
-This example shows containers for the **General** and **Details** pages of a form:
-
-```xml
-<container img="ncm:book.png" label="General">
-[…]
-</container>
-<container img="ncm:detail.png" label="Details">
-[…]
-</container>
-```
-
-### Define access to fields
-
-Use containers to define what is visible and to define access to fields. You can turn on or off groups of fields.
-
-### Nest forms
-
-Use containers to nest forms within other forms. [Read more](#add-pages-to-multipage-forms).
 
 ## References to images
 
@@ -299,165 +237,7 @@ To create a form, follow these steps:
 
 ## Create a multipage form {#create-multipage-form}
 
-You can create multipage forms. You can also nest forms within other forms.
-
-### Create an `iconbox` form
-
-Use the `iconbox` form type to show icons at the left of the form, which take users to different pages in the form.
-
-![](assets/iconbox_form_preview.png)
-
-To change the type of an existing form to `iconbox`, follow these steps:
-
-1. Change the `type` attribute of the `<form>` element to `iconbox`: 
-   
-   ```xml
-   <form […] type="iconbox">
-   ```
-
-1. Set a container for each form page:
-
-   1. Add a `<container>` element as a child of the `<form>` element.
-   1. To define a label and an image for the icon, use the `label` and `img` attributes.
-
-      ```xml
-      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
-          <container img="xtk:properties.png" label="General">
-              <input xpath="@label"/>
-              <input xpath="@name"/>
-              […]
-          </container>
-          <container img="nms:msgfolder.png" label="Details">
-              <input xpath="@address"/>
-              […]
-          </container>
-          <container img="nms:supplier.png" label="Services">
-              […]
-          </container>
-      </form>
-      ```
-
-     Alternatively, remove the `type="frame"` attribute from the existing `<container>` elements.
-
-### Create a notebook form
-
-Use the `notebook` form type to show tabs at the top of the form, which take users to different pages.
-
-![](assets/notebook_form_preview.png)
-
-To change the type of an existing form to `notebook`, follow these steps:
-
-1. Change the `type` attribute of the `<form>` element to `notebook`:
-
-   ```xml
-   <form […] type="notebook">
-   ```
-
-1. Add a container for each form page:
-
-    1. Add a `<container>` element as a child of the `<form>` element.
-    1. To define the label and the image for the icon, use the `label` and `img` attributes.
-
-    ```xml
-      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
-          <container label="General">
-              <input xpath="@label"/>
-              <input xpath="@name"/>
-              […]
-          </container>
-          <container label="Details">
-              <input xpath="@address"/>
-              […]
-          </container>
-          <container label="Services">
-              […]
-          </container>
-      </form>
-    ```
-
-   Alternatively, remove the `type="frame"` attribute from the existing `<container>` elements.
-
-### Nest forms
-
-You can nest forms within other forms. For example, you can nest notebook forms within iconbox forms.
-
-The level of nesting controls navigation. Users can drill down to subforms. 
-
-To nest a form within another form, insert a `<container>` element and set the `type` attribute to the form type. For the top-level form, you can set the form type in an outer container or in the `<form>` element.
-
-### Example
-
-This example shows a complex form:
-
-* The top-level form is an iconbox form. This form comprises two containers labelled **General** and **Details**.
-
-  As a result, the outer form shows the **General** and **Details** pages at the top level. To access these pages, users click the icons at the left of the form.
-
-* The subform is an notebook form that is nested within the **General** container. The subform comprises two containers that are labelled **Name** and **Contact**.
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-  As a result, the **General** page of the outer form shows the **Name** and **Contact** tabs.
-
-![](assets/nested_forms_preview.png)
-
-To nest a form within another form, insert a `<container>` element and set the `type` attribute to the form type. For the top-level form, you can set the form type in an outer container or in the `<form>` element.
-
-### Example
-
-This example shows a complex form:
-
-* The top-level form is an iconbox form. This form comprises two containers labelled **General** and **Details**.
-
-  As a result, the outer form shows the **General** and **Details** pages at the top level. To access these pages, users click the icons at the left of the form.
-
-* The subform is an notebook form that is nested within the **General** container. The subform comprises two containers that are labelled **Name** and **Contact**.
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-  As a result, the **General** page of the outer form shows the **Name** and **Contact** tabs.
-
-![](assets/nested_forms_preview.png)
-
-
+You can create multipage forms. You can also nest forms within other forms. Read more about [containers, notebook and iconbox forms](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Campaign v8 documentation).
 
 ## Modify a factory input form {#modify-factory-form}
 
@@ -475,16 +255,6 @@ To modify a factory form, follow these steps:
 ## Validate forms {#validate-forms}
 
 You can include validation controls in forms.
-
-### Grant read-only access to fields
-
-To grant read-only access to a field, use the `readOnly="true"` attribute. For example, you might want to show the primary key of a record, but with read-only access. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#non-editable-fields){target="_blank"} (Campaign v8 documentation).
-
-In this example, the primary key (`iRecipientId`) of the `nms:recipient` schema is displayed in read-only access:
-
-```xml
-<value xpath="@iRecipientId" readOnly="true"/>
-```
 
 ### Check mandatory fields 
 

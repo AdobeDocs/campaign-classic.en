@@ -45,7 +45,7 @@ To use the transactional messaging capabilities, you need to configure the contr
 
 >[!IMPORTANT]
 >
->Schema extensions impacted the resources used by [Message Center technical workflows](../../message-center/using/additional-configurations.md#technical-workflows) on either control or execution instances need to be duplicated on the other instances used by the Transactional messaging module.
+>Schema extensions impacted the resources used by [Message Center technical workflows](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} (Campaign v8 documentation) on either control or execution instances need to be duplicated on the other instances used by the Transactional messaging module.
 
 You also need to specify and connect the execution instance(s) to the control instance(s).
 

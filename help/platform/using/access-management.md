@@ -53,32 +53,15 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 * Access to certain records,
 * Creation, modification and/or deletion of records (actions, contacts, campaigns, groups, etc.).
 
->[!BEGINTABS]
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about permissions, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}.
 
->[!TAB Permissions documentation]
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}
 
-To learn more about **permissions in Adobe Campaign**, please refer to the **[Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}**.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
-
-
->[!TAB Manage permissions on folders]
-
-To learn how to define **permissions on folders**, please refer to the **[Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}**.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}
-
-
->[!TAB Native authentication]
+To learn how to define permissions on folders, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/folder-permissions){target=_blank}.
 
 Native authentication with login/password is still available in Campaign v7, however to reinforce security and authentication process, Adobe Campaign highly recommends to [migrate end user authentication mode](../../technotes/using/ac-ims.md) from the native authentication to Adobe Identity Management System (IMS). Note that in Campaign v8, connecting with native authentication is not allowed.
 
 [![image](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
-
-
->[!ENDTABS]
-
-
 
 <!--
 The permissions apply to operator profiles or operator groups.

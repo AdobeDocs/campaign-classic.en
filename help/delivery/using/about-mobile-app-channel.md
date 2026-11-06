@@ -42,40 +42,9 @@ topic_v2:
 
 With Adobe Campaign, create push notification deliveries to send personalized messages to your mobile app users.
 
-Push notifications let you engage users on iOS and Android in real time. Whether sending updates, announcements, or promotions, you can control content, timing, and targeting. Learn how to set up and use the push channel, managing subscriptions, integrating with APNs and FCM, and personalizing messages in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about the push notification channel, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push){target=_blank}.
 
-As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
-
->[!BEGINTABS]
-
->[!TAB Push channel documentation] 
-
-To learn more about push notification channel, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target=_blank}
-
-
->[!TAB Push delivery creation]
-
-Learn the key steps related to push delivery creation **in the Campaign v8 documentation**:
-
-* [Create a push notification](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html#push-create){target="_blank"}: Learn about the different steps needed to create a push delivery.
-* [Send and monitor the push notification](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html#push-test){target="_blank"}: Learn how to validate, send and track your deliveries. 
-* [Design an Android rich push delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android.html){target="_blank"}: Learn how to create and configure rich push notifications for Android devices.
-* [Design an iOS rich push delivery](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios.html){target="_blank"}: Learn how to design and configure rich push notifications for iOS devices in Adobe Campaign v8.
-
-
->[!TAB Push parameters]
-
-Refer to these pages to learn about push parameters **in the Campaign v8 documentation**:
-
-* [Configuration prerequisites](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#before-starting){target="_blank"}: Learn how to set up permissions and configure your app.
-* [Configure the launch property](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#launch-property){target="_blank"}: Learn how to set up a mobile tag property in Adobe Experience Platform Data Collection to enable push notifications.
-* [Configure push services mobile services](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#push-service){target="_blank"}: Set up iOS and Android push services in Adobe to enable targeted push notifications for your mobile app users.
-* [Configure the extension in your mobile property](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#configure-extension){target="_blank"}: Integrate the Campaign extension into your mobile property to enable push notifications and manage user interactions effectively.
-
->[!ENDTABS]
-
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push){target=_blank}
 
 The following information is specific to Campaign Classic.
 

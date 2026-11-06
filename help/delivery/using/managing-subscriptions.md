@@ -162,7 +162,7 @@ To register recipients for an information service, you can:
 
   ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-  Workflows and how to use them is detailed in [this section](../../workflow/using/about-workflows.md).
+  Workflows and how to use them is detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Campaign v8 documentation).
 
 ### Unsubscribing a recipient from a service {#unsubscribing-a-recipient-from-a-service}
 

@@ -77,7 +77,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <div><strong>Add & manage profiles</strong><br/>Explore profile management in the Adobe Campaign v7 database with ease. Add profiles manually or through imports, refining customer data and customizing campaigns effortlessly.</div>
     </td>
     <td>
-    <a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
     <div><strong>Automate with workflows</strong><br/>Learn how to leverage workflow to design processes including segmentation, campaign execution, file processing, human participation, among others.
     </div></td>
     <td>
@@ -88,7 +88,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
   <tr style="border: 0;">
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -105,7 +105,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Customer's experience</strong><br/><a href="workflow/using/about-workflows.md">Automate with workflows</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html" target="_blank">Marketing campaign</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction & offer management</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Reporting</a> (Campaign v8 documentation)
+      <strong>Customer's experience</strong><br/><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank">Automate with workflows</a> (Campaign v8 documentation) - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html" target="_blank">Marketing campaign</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction & offer management</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Reporting</a> (Campaign v8 documentation)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">

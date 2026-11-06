@@ -43,9 +43,11 @@ topic_v2:
 ---
 # Create and manage Privacy requests {#privacy-request-ui}
 
-
-
 This section describes how you can create Access and Delete requests, as well as how Adobe Campaign processes them.
+
+As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about the tables searched when processing Privacy requests, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}
 
 ## Create a Privacy request {#create-privacy-request-ui}
 
@@ -70,24 +72,7 @@ The Privacy technical workflows run once every day and process each new request:
 
 ![](assets/privacy-request-download.png)
 
-## List of tables {#list-of-tables}
-
-When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the **[!UICONTROL Reconciliation value]** in all the tables that have a link to the recipient table (own type).
-
-Here is the list of out-of-the-box tables that are taken into account when performing Privacy requests:
-
-* Recipients (recipient)
-* Recipient delivery log (broadLogRcp)
-* Recipient tracking log (trackingLogRcp)
-* Archived event delivery log (broadLogEventHisto)
-* Recipient list content (rcpGrpRel)
-* Visitor offer proposition (propositionVisitor)
-* Visitors (visitor)
-* Subscription history (subHisto)
-* Subscriptions (subscription)
-* Recipient offer proposition (propositionRcp)
-
-If you created custom tables that have a link to the recipient table (own type), they will also be taken into account. For example, if you have a transaction table linked to the recipient table and a transaction details table linked to the transaction table, they will be both taken into account.
+## Batch requests via workflows
 
 >[!IMPORTANT]
 >
