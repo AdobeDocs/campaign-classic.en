@@ -115,7 +115,7 @@ nudge: false
           + [List of Campaign options](installation/using/configuring-campaign-options.md)
           + {hide-from-toc} [Uninstall Campaign](installation/using/uninstalling-campaign.md)
           + [Install new fonts](installation/using/install-fonts.md)
-+ Upgrade and migrate {#migrating-to-a-new-version}
++ Migration guide {#migrating-to-a-new-version}
      + {hide-from-toc} [Migrate to Adobe Campaign v7](migration/using/about-migration.md)
      + Migration procedure {#migration-procedure}
           + {hide-from-toc} [Prerequisites](migration/using/before-starting-migration.md)
