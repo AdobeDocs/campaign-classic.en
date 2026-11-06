@@ -494,7 +494,7 @@ nudge: false
           + [Mail privacy protection on Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
           + [iOS certificate update](technotes/using/ios-certificate-update.md)
      + Migration to Adobe Managed Services{#dc-migration}
-          + [Migration to Public Cloud](technotes/using/dc-migration.md)
-          + [FAQ](technotes/using/dc-migration-faq.md)
+          + {hide-from-toc} [Migration to Public Cloud](technotes/using/dc-migration.md)
+          + {hide-from-toc} [FAQ](technotes/using/dc-migration-faq.md)
      + [GCM based functions](technotes/using/gcm-functions.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
