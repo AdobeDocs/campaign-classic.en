@@ -62,4 +62,4 @@ Adobe Campaign provides the **Federated Data Access** (FDA) option in order to p
 * [Release notes](../../rn/using/latest-release.md)
 * [Campaign Classic upgrades](../../rn/using/rn-overview.md)
 * [Deprecated and removed features](../../rn/using/deprecated-features.md)
-* [[!DNL Gold Standard] releases](../../rn/using/gold-standard.md)
+* [[!DNL Gold Standard] releases](../../rn/using/rn-overview.md)

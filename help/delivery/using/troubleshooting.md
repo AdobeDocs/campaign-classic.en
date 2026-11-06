@@ -56,4 +56,4 @@ HTTP/2 connector: you must allow communication to and from the following servers
 
 >[!NOTE]
 >
->For more information on the two connectors, refer to [Configuring the mobile application in Adobe Campaign](configuring-the-mobile-application.md).
+>For more information on the two connectors, refer to [Configuring the mobile application in Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings){target="_blank"} (Campaign v8 documentation).

@@ -76,7 +76,7 @@ Customers are advised to review if they make use of the feature/capability in th
   </tr>
   <tr>
  <td>Netsize SMPP connector</td>
- <td><p>The Netsize SMPP connector is now deprecated. We recommend migrating to the <strong>Extended generic SMPP</strong> connector. For more information, refer to <a href="../../delivery/using/unsupported-connector-migration.md">this page</a>.</p>
+ <td><p>The Netsize SMPP connector is now deprecated. We recommend migrating to the <strong>Extended generic SMPP</strong> connector. For more information, refer to <a href="../../delivery/using/sms-set-up.md">this page</a>.</p>
 <p>Target removal date: January 2027</p>
 </td>
 </tr>
