@@ -67,7 +67,7 @@ Learn the key steps related to email delivery creation **in the Campaign v8 docu
 Refer to these pages to learn about email parameters **in the Campaign v8 documentation**:
 
 * [Link to the mirror page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html){target="_blank"}: Configure the mirror page to make sure your clients always get the best rendering experience.
-* [Add a BCC address](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}: Configure Adobe Campaign to keep a copy of emails sent from your platform. 
+* [Add a BCC address](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"}: Configure Adobe Campaign to keep a copy of emails sent from your platform. 
 * [Define additional email parameters](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html){target="_blank"}: Learn more about the options and parameters available from the delivery properties.
 
 Also refer to this [page](sending-with-enhanced-mta.md) to learn about the Enhanced MTA.
