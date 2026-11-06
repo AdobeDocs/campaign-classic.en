@@ -214,7 +214,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> AEM integration<br /> </td> 
-   <td> Allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager in order to benefit from AEM's content editing functionalities as well as Adobe Campaign's delivery capacities. <a href="../../integrations/using/about-adobe-experience-manager.md">Learn More</a> <br /> </td> 
+   <td> Allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager in order to benefit from AEM's content editing functionalities as well as Adobe Campaign's delivery capacities. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">Learn More</a> (Campaign v8 documentation) <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 

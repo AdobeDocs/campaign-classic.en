@@ -329,7 +329,7 @@ The **[!UICONTROL AEM (AEM instance)]** external account allows you to manage th
 
   Password used to connect to the Adobe Experience Manager authoring instance.
 
-For more on this, refer to this [section](../../integrations/using/about-adobe-experience-manager.md).
+For more on this, refer to this [section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (Campaign v8 documentation).
 
 ## CRM Connector External Accounts 
 

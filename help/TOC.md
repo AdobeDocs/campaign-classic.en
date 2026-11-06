@@ -224,19 +224,9 @@ nudge: false
           + [Configure access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
           + [Insert a shared asset](integrations/using/inserting-a-shared-asset.md)
      + Adobe Experience Manager {#adobe-experience-manager}
-          + [Work with [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
           + [Configure the integration](integrations/using/configuring-the-integration.md)
-          + [Create an [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
      + Adobe Target {#adobe-target}
-          + [Work with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
           + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
-          + [Insert a dynamic image](integrations/using/inserting-a-dynamic-image.md)
-     + ACS Connector {#acs-connector}
-          + {hide-from-toc} [Get started with [!DNL ACS Connector] - HIDDEN](integrations/using/acs-connector-principles-and-data-cycle.md)
-          + {hide-from-toc} [Synchronize profiles - HIDDEN](integrations/using/synchronizing-profiles.md)
-          + {hide-from-toc} [Synchronize audiences - HIDDEN](integrations/using/synchronizing-audiences.md)
-          + {hide-from-toc} [Synchronize web applications - HIDDEN](integrations/using/synchronizing-web-applications.md)
-          + {hide-from-toc} [Troubleshoot the [!DNL ACS Connector] - HIDDEN](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automate with workflows](workflow/using/about-workflows.md)
 + Manage Offers {#managing-offers}
      + Get started with Interaction {#interaction-overview}
