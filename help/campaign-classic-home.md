@@ -33,7 +33,7 @@ topic_v2:
 ---
 # Campaign Classic v7 Documentation {#campaign-classic-documentation}
 
-This documentation covers Campaign Classic v7 for **on-premise and hybrid** deployments: installation, configuration, upgrades, operations and the features that are specific to v7. If your instance is hosted by Adobe (Managed Cloud Services), refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home){target="_blank"}. For the web interface, refer to the [Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}. Content that Campaign v8 documents in the same way is no longer duplicated here: see [From v7 to v8](#from-v7-to-v8).
+This documentation covers Campaign Classic v7 for **on-premise and hybrid** deployments: installation, configuration, upgrades, operations and the features that are specific to v7. If your instance is hosted by Adobe (Managed Cloud Services), refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home){target="_blank"}. Content that Campaign v8 documents in the same way is no longer duplicated here: see [From v7 to v8](#from-v7-to-v8).
 
 <!--![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) -->
 
