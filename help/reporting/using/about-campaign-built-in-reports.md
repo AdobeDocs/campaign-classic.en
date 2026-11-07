@@ -51,8 +51,10 @@ The following types of report are available:
 
 You can access reports from the client console home page, the reports dashboard or the delivery list. The display mode of a report depends on its context. The list of main reports is available on the home page and lets you access delivery data quickly. This list can be changed to suit your needs. Refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md) for more information.
 
-As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn how to access and use built-in reports, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
+>[!NOTE]
+>
+>As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn how to access and use built-in reports, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
+>
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 
 Other possible actions on a report being edited are detailed in [this page](../../reporting/using/actions-on-reports.md).

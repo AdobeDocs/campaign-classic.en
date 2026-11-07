@@ -48,9 +48,11 @@ Learn more about functional integrations available between Adobe Campaign and Ad
 
 The full list of Adobe solutions and apps services which can be integrated with Adobe Campaign, as well as associated documentation, is available in [this section](#experience-cloud-integrations).
 
-As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about connecting Campaign with your solutions, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target=_blank}
+>[!NOTE]
+>
+>As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about connecting Campaign with your solutions, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target=_blank}.
+>
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target=_blank}
 
 >[!CAUTION]
 >

@@ -44,7 +44,9 @@ With Adobe Campaign, create direct mail deliveries to send personalized physical
 
 Direct mail remains a powerful channel for establishing tangible connections with your customers—ideal for delivering printed offers, catalogs, loyalty messages, or personalized letters that reinforce brand presence beyond digital touchpoints. Learn how to configure and manage direct mail campaigns effectively, from preparing data and generating files for routing partners to tracking delivery outcomes, in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html){target=_blank}.
 
-As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
+>[!NOTE]
+>
+>As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
 
 >[!BEGINTABS]
 

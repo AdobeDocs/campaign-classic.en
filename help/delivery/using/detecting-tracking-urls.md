@@ -34,9 +34,11 @@ topic_v2:
 
 Adobe Campaign detects the URLs to track in your content during the delivery analysis.
 
-As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn how URLs are detected and which patterns to use, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
+>[!NOTE]
+>
+>As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn how URLs are detected and which patterns to use, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}.
+>
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
 
 ## Unsecured pattern
 

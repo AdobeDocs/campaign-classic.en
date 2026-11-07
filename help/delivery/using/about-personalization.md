@@ -43,7 +43,9 @@ With Adobe Campaign, personalize your deliveries to send messages that match eac
 
 Personalization helps you make your messages more relevant and engaging. You can use recipient data to adapt content, add dynamic fields, or display different information based on conditions. Learn how to set up and use personalization features in your deliveries in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}.
 
-As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
+>[!NOTE]
+>
+>As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
 
 >[!BEGINTABS]
 
