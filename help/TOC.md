@@ -148,7 +148,6 @@ nudge: false
           + [Create new instances](installation/using/creating-new-instances.md)
           + [List of Campaign options](installation/using/configuring-campaign-options.md)
           + {hide-from-toc} [Uninstall Campaign](installation/using/uninstalling-campaign.md)
-          + [Install new fonts](installation/using/install-fonts.md)
 + Migration guide {#migrating-to-a-new-version}
      + {hide-from-toc} [Migrate to Adobe Campaign v7](migration/using/about-migration.md)
      + Migration procedure {#migration-procedure}
