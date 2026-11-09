@@ -125,7 +125,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, X (formerly known as Twitter),
 * [Workflow](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Campaign v8 documentation) / Data Management - automate processes and manage data with workflows,
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
-* [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
+* [Survey Manager](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (Campaign v8 documentation) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
 * [Distributed Marketing](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target="_blank"} (Campaign v8 documentation) - coordinate campaigns for central/local agencies,
 * [Response Manager](https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager){target="_blank"} (Campaign v8 documentation) - manage customer response,

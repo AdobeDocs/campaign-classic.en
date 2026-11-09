@@ -159,7 +159,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Online surveys (Survey Manager)<br /> </td> 
-   <td> Creates and manages online forms to add or modify profile information, to subscribe, to unsubscribe or a competition entry form. Optional. <a href="../../surveys/using/about-surveys.md">Learn More</a> <br /> </td> 
+   <td> Creates and manages online forms to add or modify profile information, to subscribe, to unsubscribe or a competition entry form. Optional. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">Learn More</a> (Campaign v8 documentation) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
