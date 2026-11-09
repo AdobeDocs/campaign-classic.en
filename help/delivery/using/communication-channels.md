@@ -54,7 +54,9 @@ With Adobe Campaign, you can send cross-channel campaigns including emails, SMS,
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports.
 
-As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
+>[!NOTE]
+>
+>As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set.
 
 >[!BEGINTABS]
 

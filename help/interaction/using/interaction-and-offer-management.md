@@ -35,9 +35,11 @@ You can create an offer catalog that will interface with inbound and outbound ch
 
 Interaction lets you create and manage a catalog of offers, and configure the eligibility rules and application themes linked to them. Depending on the channel chosen, offer content can be personalized thanks to various rendering functions. Finally, you can use the simulation module to calculate the impact of an offer presentation.
 
-As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about Interaction, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+>[!NOTE]
+>
+>As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about Interaction, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
+>
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}
 
 This section only covers the Interaction capabilities that are not described in the Campaign v8 documentation: [offer simulation](about-offers-simulation.md), [offer presentation](managing-offer-presentation.md), [offer approval](approving-and-activating-an-offer.md), [offer templates](managing-offer-templates.md) and [advanced settings](using-advanced-parameters.md).
 
