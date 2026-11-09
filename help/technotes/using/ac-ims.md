@@ -33,7 +33,7 @@ In addition, Adobe Campaign client application now calls Campaign APIs directly 
 
 ## Migration steps {#ims-steps}
 
-Migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is a security imperative to make your environments secure and standardized, as most of the other Adobe Experience Cloud solutions and apps are already on IMS.
+Migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is a security imperative to make your environments secure and standardized, as most of the other [!DNL Adobe CX Enterprise] solutions and apps are already on IMS.
 
 Adobe supports you in this migration effort. You can find detailed context and step by step guidelines in the below articles:
 

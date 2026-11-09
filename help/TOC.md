@@ -443,7 +443,7 @@ nudge: false
      + [Configure access to the report](reporting/using/configuring-access-to-the-report.md)
      + [Actions on reports](reporting/using/actions-on-reports.md)
   + [Design reports with cubes](reporting/using/ac-cubes.md)
-+ Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
++ Integrate with [!DNL Adobe CX Enterprise] {#integrating-with-adobe-experience-cloud}
      + [Get started with Campaign integrations](integrations/using/about-campaign-integrations.md)
      + [Create your Adobe technical account](integrations/using/oauth-technical-account.md)
      + Adobe Experience Cloud Triggers {#experience-triggers}
@@ -460,13 +460,13 @@ nudge: false
           + [Get started with Adobe Analytics Connector](integrations/using/gs-aa.md)
           + [Adobe Analytics Connector provisioning](integrations/using/adobe-analytics-provisioning.md)
      + Audience sharing {#audience-sharing}
-          + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+          + [Share audiences with [!DNL Adobe CX Enterprise]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
           + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
           + [Configure shared audiences integration in [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
           + {hide-from-toc} [Troubleshooting](integrations/using/integrations-troubleshooting.md)
           + [Import and export audiences](integrations/using/importing-and-exporting-audiences.md)
      + Asset sharing {#asset-sharing}
-          + [Share assets with [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+          + [Share assets with [!DNL Adobe CX Enterprise]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
           + [Configure access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
           + [Insert a shared asset](integrations/using/inserting-a-shared-asset.md)
      + Adobe Experience Manager {#adobe-experience-manager}

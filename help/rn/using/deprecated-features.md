@@ -82,7 +82,7 @@ Customers are advised to review if they make use of the feature/capability in th
 </tr>
 <tr>
  <td>Campaign (Neolane) legacy SDK</td>
- <td><p>The Campaign (Neolane) SDK for mobile applications is now deprecated. Instead, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. Learn how to configure the Mobile App channel in <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 documentation</a>.</p>
+ <td><p>The Campaign (Neolane) SDK for mobile applications is now deprecated. Instead, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe CX Enterprise solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. Learn how to configure the Mobile App channel in <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 documentation</a>.</p>
 </td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr>
   <tr>
   <td>Demdex domain<br></td>
-  <td><p> Starting Campaign 21.1.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is no longer available. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
+  <td><p> Starting Campaign 21.1.3 release, the demdex domain used to import and export audiences to Adobe CX Enterprise is no longer available. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
   </td>
   </tr>
    <tr> 

@@ -44,7 +44,7 @@ You can import audiences/segments from Audience manager into Adobe Campaign via 
 
    ![](assets/aam_import_audience.png)
 
-1. In the window that opens, click **[!UICONTROL Select a shared audience]** to go to the list of shared audiences/segments available from the other Adobe Experience Cloud solutions.
+1. In the window that opens, click **[!UICONTROL Select a shared audience]** to go to the list of shared audiences/segments available from the other [!DNL Adobe CX Enterprise] solutions.
 1. Select an audience and confirm. The audience's information is automatically completed.
 
    Please note that to be able to import shared audience, you should be assigned the **[!UICONTROL Audience library]** product in the admin console and be an administrator in Audience Manager. For more on this, refer to the [Admin console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
@@ -95,7 +95,7 @@ You can export an audience from Adobe Campaign to Audience manager using a workf
 
 The audience is then exported. The save audience activity has two outbound transitions. The main transition contains the recipients that were successfully exported. The additional transition contains the recipients that could not have been mapped with a visitor ID or declared ID.
 
-Synchronization between solutions takes 24-36 hours. After this period, you will be able to find your new audience and reuse it in other Adobe Experience Cloud solutions. For more information on using an Adobe Campaign shared audience, refer to this [documentation](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create){target="_blank"}.
+Synchronization between solutions takes 24-36 hours. After this period, you will be able to find your new audience and reuse it in other [!DNL CX Enterprise] solutions. For more information on using an Adobe Campaign shared audience, refer to this [documentation](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create){target="_blank"}.
 
 >[!NOTE]
 >

@@ -56,7 +56,7 @@ Before starting this configuration, please check you have:
 * A Developer access to your Organization
 * A valid triggers configuration in Adobe Analytics
 
-Authentication is required since pipeline is hosted in the Adobe Experience Cloud. It uses an authentication which is supported for via an Adobe Developer Project.
+Authentication is required since pipeline is hosted in the [!DNL Adobe CX Enterprise]. It uses an authentication which is supported for via an Adobe Developer Project.
 
 ## Step 1: Create/update your Adobe Developer Project {#creating-adobe-io-project}
 
