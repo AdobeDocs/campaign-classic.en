@@ -50,7 +50,7 @@ Email remains one of the most powerful and flexible channels for engaging with y
 To learn more about email channel, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
 
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target="_blank"}
 
 
 >[!TAB Email delivery creation]

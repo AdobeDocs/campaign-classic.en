@@ -37,7 +37,7 @@ This page covers additional configurations for transactional messaging on Campai
 >
 >As part of the transition from Campaign v7 to v8, the Campaign Classic documentation set has been streamlined and reorganized. Common features are now available exclusively in the Campaign v8 documentation set. To learn more about transactional messaging event purge and technical workflows, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}.
 >
->[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target="_blank"}
 
 ## Monitor thresholds {#monitoring-thresholds}
 

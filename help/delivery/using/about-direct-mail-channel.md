@@ -55,7 +55,7 @@ Direct mail remains a powerful channel for establishing tangible connections wit
 To learn more about direct mail channel, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html){target=_blank}.
 
 
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html){target=_blank}
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html){target="_blank"}
 
 
 >[!TAB Direct mail delivery creation]

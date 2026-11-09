@@ -65,7 +65,7 @@ Core functionalities include targeting, definition and personalization of messag
 To learn more about communication channels, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target=_blank}.
 
 
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target=_blank}
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}
 
 
 >[!TAB Delivery content and audience]
