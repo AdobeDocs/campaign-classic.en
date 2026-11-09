@@ -41,7 +41,7 @@ Interaction lets you create and manage a catalog of offers, and configure the el
 >
 >[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target="_blank"}
 
-This section only covers the Interaction capabilities that are not described in the Campaign v8 documentation: [offer simulation](about-offers-simulation.md), [offer presentation](managing-offer-presentation.md), [offer approval](approving-and-activating-an-offer.md), [offer templates](managing-offer-templates.md) and [advanced settings](using-advanced-parameters.md).
+This section only covers the Interaction capabilities that are not described in the Campaign v8 documentation: [offer simulation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} (Campaign v8 documentation), [offer presentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/managing-offer-presentation){target="_blank"} (Campaign v8 documentation), [offer approval](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/approving-and-activating-an-offer){target="_blank"} (Campaign v8 documentation), [offer templates](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/managing-offer-templates){target="_blank"} (Campaign v8 documentation) and [advanced settings](using-advanced-parameters.md).
 
 ![](assets/Offermgt2.png)
 
@@ -51,6 +51,6 @@ This section only covers the Interaction capabilities that are not described in 
 
 | Useful pages | Additional resources |
 |---|---|
-| [Interaction implementation steps](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target="_blank"} (Campaign v8 documentation) | [Testing offer distribution](../../interaction/using/about-offers-simulation.md) |
+| [Interaction implementation steps](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target="_blank"} (Campaign v8 documentation) | [Testing offer distribution](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} (Campaign v8 documentation) |
 | [Live/Design environments](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"} (Campaign v8 documentation) | [Adding an offer in an email](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (Campaign v8 documentation) |
-| [Creating offer spaces](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation) |  [Use case: add an offer in a website](../../interaction/using/offers-on-an-inbound-channel.md)  |
+| [Creating offer spaces](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation) |  [Use case: add an offer in a website](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/case-study/offers-on-an-inbound-channel){target="_blank"} (Campaign v8 documentation)  |
