@@ -218,7 +218,7 @@ It contains a record representing an individual's reaction to a given hypothesis
 
 ## Simulation and delivery {#simulation-and-delivery}
 
-This set of tables is linked to the **Simulation** module, which allows to test the distribution of offers belonging to a category or an environment before sending your proposition to recipients. For more on this, see [About offers simulation](../../interaction/using/about-offers-simulation.md).
+This set of tables is linked to the **Simulation** module, which allows to test the distribution of offers belonging to a category or an environment before sending your proposition to recipients. For more on this, see [About offers simulation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/data-model_simulation.png)
 

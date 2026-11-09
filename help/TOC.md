@@ -353,27 +353,13 @@ nudge: false
 + Manage Offers {#managing-offers}
      + Get started with Interaction {#interaction-overview}
           + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
-     + Manage an offer catalog {#managing-an-offer-catalog}
-          + [Approve and activate an offer](interaction/using/approving-and-activating-an-offer.md)
-          + [Manage offer templates](interaction/using/managing-offer-templates.md)
-          + [Manage offer presentation](interaction/using/managing-offer-presentation.md)
-     + Offers simulation{#simulating-offers}
-          + [About offers simulation](interaction/using/about-offers-simulation.md)
-          + [Execution settings](interaction/using/execution-settings.md)
-          + [Simulation scope](interaction/using/simulation-scope.md)
-          + [Simulation tracking](interaction/using/simulation-tracking.md)
      + Advanced parameters {#advanced-parameters}
           + [Use advanced parameters](interaction/using/using-advanced-parameters.md)
           + [Additional data](interaction/using/additional-data.md)
-          + [Extension example](interaction/using/extension-example.md)
           + [Create a test environment](interaction/using/creating-a-test-environment.md)
           + [Modify the standard engine behavior](interaction/using/hooks.md)
           + [Distributed architectures](interaction/using/distributed-architectures.md)
           + [Data buffer configuration](installation/using/interaction-data-buffer.md)
-     + Use case {#case-study}
-          + [Presentation rules](interaction/using/presentation-rules.md)
-          + [Offers on an inbound channel](interaction/using/offers-on-an-inbound-channel.md)
-          + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
 + Design and share reports {#reporting}
   + Get started with reporting {#reporting-in-adobe-campaign}
      + [Best practices for reporting](reporting/using/best-practices.md)
