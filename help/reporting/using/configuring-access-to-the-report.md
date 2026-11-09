@@ -137,7 +137,7 @@ For more on this, refer to [Report display context](#report-display-context).
 
 Specific settings enable you to control errors. The **_uuid** setting is found in the URL of the report. You can add the **&_preview** or the **&_debug** settings to it.
 
-To learn more about these settings, refer to the **Defning web form properties** section of the [Web forms](../../web/using/about-web-forms.md) chapter.
+To learn more about these settings, refer to the **Defning web form properties** section of the [Web forms](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (Campaign v8 documentation) chapter.
 
 ## Publish the report {#publishing-the-report}
 

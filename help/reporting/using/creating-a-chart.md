@@ -139,7 +139,7 @@ This type of chart lets you track the conversation rate of measured elements.
 
 You can define an action when the user clicks the chart. Open the **[!UICONTROL Interaction events]** window and select the action you want to perform.
 
-Possible interaction types and their configurations are detailed in [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+Possible interaction types and their configurations are detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 

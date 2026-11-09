@@ -63,7 +63,7 @@ To do this:
 
    ![](assets/reporting_custom_js.png)
 
-For normal execution on the client side, the referenced scripts must be written in JavaScript and need to be compatible with common browsers. For more on this, refer to [this section](../../web/using/web-forms-answers.md).
+For normal execution on the client side, the referenced scripts must be written in JavaScript and need to be compatible with common browsers. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"} (Campaign v8 documentation).
 
 ### Adding a Script activity {#script-activity}
 

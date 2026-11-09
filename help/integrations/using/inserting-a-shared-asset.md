@@ -44,7 +44,7 @@ Assets shared from Adobe Experience Cloud can be used in your emails and landing
     
       ![](assets/dam_insert_image_standard.png)
 
-    * If you are using the [advanced editing mode](../../web/using/about-campaign-html-editor.md) (DCE), go to an image block, then via the contextual menu, select **[!UICONTROL Select a shared asset]**.
+    * If you are using the [advanced editing mode](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} (Campaign v8 documentation) (DCE), go to an image block, then via the contextual menu, select **[!UICONTROL Select a shared asset]**.
     
       ![](assets/dam_insert_image_dce.png)
 

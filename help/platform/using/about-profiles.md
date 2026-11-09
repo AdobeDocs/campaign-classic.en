@@ -118,7 +118,7 @@ It also gives you access to:
 
 * lists - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
 * subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
-* web applications - [Learn more](../../web/using/about-web-applications.md)
+* web applications - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation)
 * imports and exports (jobs) - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation)
 * targeting workflows - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/build-a-workflow){target="_blank"} (Campaign v8 documentation)
 
