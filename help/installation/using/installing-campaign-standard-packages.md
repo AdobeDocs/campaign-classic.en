@@ -169,7 +169,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Response Manager<br /> </td> 
-   <td> Measures the success and profitability of marketing campaigns or offer propositions for all communication channels.  Optional. <a href="../../response/using/about-response-manager.md">Learn More</a> <br /> </td> 
+   <td> Measures the success and profitability of marketing campaigns or offer propositions for all communication channels.  Optional. <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">Learn More</a> (Campaign v8 documentation) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
