@@ -128,7 +128,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
 * [Distributed Marketing](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target="_blank"} (Campaign v8 documentation) - coordinate campaigns for central/local agencies,
-* [Response Manager](../../response/using/about-response-manager.md) - manage customer response,
+* [Response Manager](https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager){target="_blank"} (Campaign v8 documentation) - manage customer response,
 * [Connectors](../../platform/using/about-connectors.md) - use connectors to communicate with external solutions and database engines,
 * [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,
 * [Reporting](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} (Campaign v8 documentation) - access built-in reports, analyze data and design your own reports.

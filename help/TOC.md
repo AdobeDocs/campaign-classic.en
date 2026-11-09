@@ -413,12 +413,6 @@ nudge: false
           + [Presentation rules](interaction/using/presentation-rules.md)
           + [Offers on an inbound channel](interaction/using/offers-on-an-inbound-channel.md)
           + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
-+ Response manager {#response-manager}
-  + [Get started with response manager](response/using/about-response-manager.md)
-  + [Configure Response Manager](response/using/configure-response-manager.md)
-  + [Hypothesis templates](response/using/hypothesis-templates.md)
-  + [Create hypotheses](response/using/creating-hypotheses.md)
-  + [Hypothesis tracking](response/using/hypothesis-tracking.md)
 + Design and share reports {#reporting}
   + Get started with reporting {#reporting-in-adobe-campaign}
      + [Best practices for reporting](reporting/using/best-practices.md)
