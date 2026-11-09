@@ -64,7 +64,7 @@ In Adobe Campaign, recipients are the default profiles targeted for sending deli
 
 To learn more about profile, how to create and edit them, please refer to the detailed documentation on the **[Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}**.
 
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target="_blank"}
 
 >[!TAB Create and edit profiles]
 
