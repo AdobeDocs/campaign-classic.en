@@ -139,7 +139,7 @@ Here is the general flow for this use case:
 
 Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
-* Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
+* Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"} (Campaign v8 documentation).
 * Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (Campaign v8 documentation).
 * Through consent and rights management, you can track your recipients' preferences as well as manage who within your organization can access which data. For more on this, see [this section](#consent).
 * Facilitate and manage Privacy requests from your recipients. For more on this, see [this section](#privacy-requests).
@@ -202,9 +202,9 @@ To do this, add tracked links to your messages in order to measure the impact of
 
 ### Web tracking {#web-tracking}
 
-Adobe Campaign also lets you monitor how recipients browse your website: insert tracking tags to collect information and measure visits on web application pages. For more on this, see [Tracking a web application](../../web/using/tracking-a-web-application.md).
+Adobe Campaign also lets you monitor how recipients browse your website: insert tracking tags to collect information and measure visits on web application pages. For more on this, see [Tracking a web application](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"} (Campaign v8 documentation).
 
 The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
 
-To further manage tracking, Adobe Campaign enables you to display an opt-out banner to stop tracking web behaviors of end users who opt-out of behavioral tracking. For more on this, see [Web application tracking opt-out](../../web/using/web-application-tracking-opt-out.md).
+To further manage tracking, Adobe Campaign enables you to display an opt-out banner to stop tracking web behaviors of end users who opt-out of behavioral tracking. For more on this, see [Web application tracking opt-out](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"} (Campaign v8 documentation).
 -->

@@ -62,7 +62,7 @@ There are three service subscription/unsubscription modes:
 
 >[!NOTE]
 >
->A sample to create a subscription form with double opt-in is detailed in [this section](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
+>A sample to create a subscription form with double opt-in is detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"} (Campaign v8 documentation).
 
 ## Creating an information service {#creating-an-information-service}
 
@@ -156,7 +156,7 @@ To register recipients for an information service, you can:
 
 * Use a web form so that recipients can subscribe to a service.
 
-  For more on this, refer to [this section](../../web/using/about-web-applications.md).
+  For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation).
 
 * Creating a targeting workflow and using a **[!UICONTROL Subscription service]** box.
 
@@ -172,7 +172,7 @@ email deliveries must contain an unsubscription link, by law. Recipients can cli
 
 The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery assistant (see [About personalization](about-personalization.md)). When the recipient clicks this link, the profile is added to the denylist (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
 
-Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) or insert a personalized unsubscription link. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/adding-fields-to-a-web-form#subscription-checkboxes){target="_blank"} (Campaign v8 documentation)) or insert a personalized unsubscription link. See the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 You can also unsubscribe a recipient manually from the recipient profile. To do this, click the **[!UICONTROL Subscriptions]** tab of the recipient concerned, select the information service(s) concerned, and click **[!UICONTROL Delete]**.
 

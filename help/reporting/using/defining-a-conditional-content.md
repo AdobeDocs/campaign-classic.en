@@ -45,7 +45,7 @@ To make the display of part of a report conditional, you need to define its visi
 
 Visibility conditions may depend on the operator status, on the items selected or entered in the report page.
 
-Examples showing the conditional display of items on a page are provided in [this section](../../web/using/form-rendering.md#defining-fields-conditional-display).
+Examples showing the conditional display of items on a page are provided in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/form-rendering#defining-fields-conditional-display){target="_blank"} (Campaign v8 documentation).
 
 In the following example, the display condition depends on the language:
 
@@ -68,6 +68,6 @@ This activity is based on the following operating principle:
 
 1. Select the **[!UICONTROL Enable default transition]** to add a transition, in case one of the configured conditions isn't met.
 
-   For more on this, refer to [this section](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
+   For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-page-sequencing#conditional-page-display){target="_blank"} (Campaign v8 documentation).
 
 A **[!UICONTROL Test]** activity can be placed at the start of the chart to condition the display depending on context or operator profile for instance.

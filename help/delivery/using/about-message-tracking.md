@@ -104,11 +104,11 @@ For on-premise installations, tracking information is stored in the database and
 
 **Tracking a web application**
 
-You can also track and measure visits on Web application pages with tracking tags. This functionality can be used for all Web application types such as forms and landing pages. [Learn more](../../web/using/tracking-a-web-application.md)
+You can also track and measure visits on Web application pages with tracking tags. This functionality can be used for all Web application types such as forms and landing pages. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"} (Campaign v8 documentation)
 
 **Web application tracking opt-out**
 
-The Web application tracking opt-out enables you to stop tracking web behaviors of end-users who opt-out of behavioral tracking. You can include the ability to display a banner into web applications or landing pages to allow users to opt-out. [Learn more](../../web/using/web-application-tracking-opt-out.md)
+The Web application tracking opt-out enables you to stop tracking web behaviors of end-users who opt-out of behavioral tracking. You can include the ability to display a banner into web applications or landing pages to allow users to opt-out. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"} (Campaign v8 documentation)
 
 ## Tracking troubleshooting {#tracking-troubleshooting}
 

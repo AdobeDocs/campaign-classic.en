@@ -35,7 +35,7 @@ topic_v2:
 
 In addition to the various charts detailed [here](../../reporting/using/creating-a-chart.md#chart-types-and-variants), you can adapt the display and add elements to the report page(s).
 
-You can use containers: these enable you to link several elements of a page and configure their layout in columns and/or cells. How to use them is detailed in [this section](../../web/using/defining-web-forms-layout.md#creating-containers).
+You can use containers: these enable you to link several elements of a page and configure their layout in columns and/or cells. How to use them is detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#creating-containers){target="_blank"} (Campaign v8 documentation).
 
 You can configure the report layout at the root of the tree and overload it for each container. Pages are sorted into columns. Containers are also sorted into columns. Only the static and graphical items are sorted into cells.
 
@@ -49,7 +49,7 @@ The **[!UICONTROL General]** tab lets you change the title of the page, as well 
 
 The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. For more on this, refer to [Adding a header and a footer](#adding-a-header-and-a-footer).
 
-The **[!UICONTROL Display settings]** options enable you to select the position of the control caption within a report page and to define the number of columns on the page. For more on page layout, refer to the **Item layout** section of [this section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
+The **[!UICONTROL Display settings]** options enable you to select the position of the control caption within a report page and to define the number of columns on the page. For more on page layout, refer to the **Item layout** section of [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"} (Campaign v8 documentation).
 
 Select the various options in the **[!UICONTROL Browse]** section to authorize browsing from one report page to another. If the **[!UICONTROL Disable next page]** or the **[!UICONTROL Disable previous page]** option is selected, the **[!UICONTROL Next]** and **[!UICONTROL Previous]** buttons disappear from the report page.
 

@@ -350,36 +350,6 @@ nudge: false
      + Message templates {#message-templates}
           + [Test message templates](message-center/using/testing-message-templates.md)
      + [Use case](message-center/using/transactional-email-with-attachments.md)
-+ Design web content {#designing-content}
-     + Web applications {#web-applications}
-          + [Get started with web applications](web/using/about-web-applications.md)
-          + [Create a new web application](web/using/creating-a-new-web-application.md)
-          + [Design a web application](web/using/designing-a-web-application.md)
-          + [Use cases: create overviews](web/using/use-cases-creating-overviews.md)
-          + [Translate a web application](web/using/translating-a-web-application.md)
-          + [Track visits on a web application](web/using/tracking-a-web-application.md)
-          + [Web application tracking opt-out](web/using/web-application-tracking-opt-out.md)
-     + Edit HTML content {#editing-html-content}
-          + [Get started with the HTML editor](web/using/about-campaign-html-editor.md)
-          + [Template management](web/using/template-management.md)
-          + [Content editor interface](web/using/content-editor-interface.md)
-          + [Edit content](web/using/editing-content.md)
-          + [Content editing best practices](web/using/content-editing-best-practices.md)
-          + [Create a landing page](web/using/creating-a-landing-page.md)
-          + [Use case: create an email delivery](web/using/use-case-creating-an-email-delivery.md)
-     + Web forms {#web-forms}
-          + [Get started with web forms](web/using/about-web-forms.md)
-          + [Use a web form template](web/using/using-a-web-form-template.md)
-          + [Add fields to a web form](web/using/adding-fields-to-a-web-form.md)
-          + [Static elements in a web form](web/using/static-elements-in-a-web-form.md)
-          + [Define web forms layout](web/using/defining-web-forms-layout.md)
-          + [Form rendering](web/using/form-rendering.md)
-          + [Define page sequencing](web/using/defining-web-forms-page-sequencing.md)
-          + [Save web forms answers](web/using/web-forms-answers.md)
-          + [Publish a web form](web/using/publishing-a-web-form.md)
-          + [Define web forms properties](web/using/defining-web-forms-properties.md)
-          + [Translate a web form](web/using/translating-a-web-form.md)
-          + [Use cases: web forms](web/using/use-cases-web-forms.md)
 + Manage Offers {#managing-offers}
      + Get started with Interaction {#interaction-overview}
           + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)

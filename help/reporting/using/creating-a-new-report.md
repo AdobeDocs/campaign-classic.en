@@ -138,7 +138,7 @@ A **[!UICONTROL Page]** can include the following elements:
 * Value, Link, HTML, Image, etc. **[!UICONTROL Static elements]**. 
 * **[!UICONTROL Containers]** that enable you to control component layout.
 
-The configuration mode of a page and its components is detailed in [this section](../../web/using/about-web-forms.md).
+The configuration mode of a page and its components is detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (Campaign v8 documentation).
 
 The toolbar lets you add or remove controls and organize their sequence in the report page(s).
 
@@ -146,7 +146,7 @@ The toolbar lets you add or remove controls and organize their sequence in the r
 
 ### Static elements {#static-elements}
 
-Static elements enable you to display information in the report, such as graphical elements or scripts, which the user will not interact with. Refer to [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content) for more information.
+Static elements enable you to display information in the report, such as graphical elements or scripts, which the user will not interact with. Refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (Campaign v8 documentation) for more information.
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
@@ -154,7 +154,7 @@ Static elements enable you to display information in the report, such as graphic
 
 Input and selection controls enable you to filter the information displayed in the report. For more on implementing this type of filtering, refer to [Filtering options in the queries](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries).
 
-To learn more on creating and configuring input fields and selection fields, refer to [this section](../../web/using/about-web-forms.md).
+To learn more on creating and configuring input fields and selection fields, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (Campaign v8 documentation).
 
 You can integrate one or more input controls into your reports. This type of control lets you filter information displayed according to a value entered.
 

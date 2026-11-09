@@ -82,7 +82,7 @@ The editing language is the language which you write in. When you add a language
 
 >[!NOTE]
 >
->For more on web page localization in Campaign, refer to [this section](../../web/using/translating-a-web-form.md).
+>For more on web page localization in Campaign, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} (Campaign v8 documentation).
 
 ## Personalize HTML rendering {#personalizing-html-rendering}
 
