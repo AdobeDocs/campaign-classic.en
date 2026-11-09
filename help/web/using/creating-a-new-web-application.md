@@ -61,7 +61,7 @@ This template determines the type of Web application. You can create:
 
 1. Surveys
 
-   Adobe Campaign enables you, via the **Survey Manager** option, to design and manage online surveys and process their results: dynamic field creation, score management, export of answers and dedicated reports. For more on this, refer to [this section](../../surveys/using/about-surveys.md).
+   Adobe Campaign enables you, via the **Survey Manager** option, to design and manage online surveys and process their results: dynamic field creation, score management, export of answers and dedicated reports. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (Campaign v8 documentation).
 
    >[!CAUTION]
    >

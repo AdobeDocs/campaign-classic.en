@@ -380,15 +380,6 @@ nudge: false
           + [Define web forms properties](web/using/defining-web-forms-properties.md)
           + [Translate a web form](web/using/translating-a-web-form.md)
           + [Use cases: web forms](web/using/use-cases-web-forms.md)
-+ Create online surveys {#online-surveys}
-     + [Get started with surveys](surveys/using/about-surveys.md)
-     + [Key steps to create a survey](surveys/using/getting-started-with-surveys.md)
-     + [Design a survey](surveys/using/building-a-survey.md)
-     + [Manage answers](surveys/using/managing-answers.md)
-     + [Publish, track and use collected data](surveys/using/publish-track-and-use-collected-data.md)
-     + [Configure surveys](surveys/using/configuring-surveys.md)
-     + [Use case: create a referral form](surveys/using/use-case-creating-a-refer-a-friend-form.md)
-     + [Use case: display report on answers to an online survey](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Manage Offers {#managing-offers}
      + Get started with Interaction {#interaction-overview}
           + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
