@@ -51,7 +51,7 @@ In case of error, make sure that the following elements are correctly configured
 
 * **External accounts**
 
-  In **[!UICONTROL Administration > Platform > External accounts]**, make sure that the following external SFTP accounts are correctly configured. The mentioned SFTP servers should have been configured in Adobe Experience Cloud by your consultant.
+  In **[!UICONTROL Administration > Platform > External accounts]**, make sure that the following external SFTP accounts are correctly configured. The mentioned SFTP servers should have been configured in [!DNL Adobe CX Enterprise] by your consultant.
 
     * **[!UICONTROL importSharedAudience]** : SFTP account dedicated to importing audiences.
     * **[!UICONTROL exportSharedAudience]** : SFTP account dedicated to exporting audiences.

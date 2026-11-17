@@ -39,12 +39,12 @@ subfeature_v2:
 
 ## Prerequisites {#prerequisites}
 
-* You must have an Adobe Experience Cloud Organization name and ID. To find your Organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
-* You have to add users in the Experience Cloud. For more on this, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}.
+* You must have an [!DNL Adobe CX Enterprise] Organization name and ID. To find your Organization ID, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
+* You have to add users in the [!DNL CX Enterprise]. For more on this, refer to [this page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}.
 
 >[!NOTE]
 >
->Make sure that your users are linked to the Adobe Experience Cloud groups that will be synced with Adobe Campaign. [Learn more](#configuring-the-external-account).
+>Make sure that your users are linked to the [!DNL CX Enterprise] groups that will be synced with Adobe Campaign. [Learn more](#configuring-the-external-account).
 
 ## Updating the console {#updating-the-console}
 

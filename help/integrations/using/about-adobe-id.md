@@ -41,7 +41,7 @@ Adobe Identity Management System (IMS) helps admins create and manage user's acc
 
 Campaign users can connect to the Adobe Campaign console using their Adobe ID, instead of the [native user/password authentication](../../platform/using/access-management-operators.md). This implementation provides the following advantages:
 
-* The same ID can be used for all Experience Cloud solutions.
+* The same ID can be used for all [!DNL Adobe CX Enterprise] solutions.
 * The connection is kept when using Adobe Campaign with different integrations.
 * Securer password management policy than native login/password.
 * Use of Federated ID accounts (external ID provider).

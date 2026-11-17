@@ -194,4 +194,4 @@ A team of dedicated Customer Care Representativess, Product Managers, Engineers 
 * [Deprecated and removed features](../../rn/using/deprecated-features.md)
 * [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
 
-To be informed of new Experience Cloud solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html).
+To be informed of new [!DNL Adobe CX Enterprise] solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html).

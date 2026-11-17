@@ -42,7 +42,7 @@ topic_v2:
 
 This integration requires:
 
-* Adobe Experience Cloud and Adobe Target organizations
+* [!DNL Adobe CX Enterprise] and Adobe Target organizations
 * An Adobe Target rawbox specified to establish the connection with Adobe Campaign
 
 To configure this integration in Adobe Campaign, follow the steps below:

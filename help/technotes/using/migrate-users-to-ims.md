@@ -48,7 +48,7 @@ This procedure applies to all Campaign users which are not already connecting to
 
 If operators in your organization are connecting to Campaign client console using their login/password (aka. native authentication), you are impacted, and should migrate these operator(s) to Adobe IMS as detailed below.
 
-Migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is a security imperative to make your environments secure and standardized, as most of the other Adobe Experience Cloud solutions and apps are already on IMS.
+Migration to [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is a security imperative to make your environments secure and standardized, as most of the other [!DNL Adobe CX Enterprise] solutions and apps are already on IMS.
 
 This change is applicable starting Campaign Classic v7.4.1 (and latest [IMS migration compatible versions](ac-ims.md#ims-versions)) and is **mandatory** to move to Adobe Campaign v8.
 

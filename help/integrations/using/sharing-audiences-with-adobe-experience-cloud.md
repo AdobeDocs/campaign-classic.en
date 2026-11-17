@@ -31,22 +31,22 @@ subfeature_v2:
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
     internal-label: Audiences
 ---
-# Sharing audiences with Adobe Experience Cloud {#sharing-audiences-with-adobe-experience-cloud}
+# Sharing audiences with [!DNL Adobe CX Enterprise] {#sharing-audiences-with-adobe-experience-cloud}
 
 
 >[!CAUTION]
 >
->To share audiences with Adobe Experience Cloud solutions, you need to implement Adobe Identity Management System. [Learn more about IMS](../../integrations/using/about-adobe-id.md).
+>To share audiences with [!DNL CX Enterprise] solutions, you need to implement Adobe Identity Management System. [Learn more about IMS](../../integrations/using/about-adobe-id.md).
 
-With Adobe Campaign, you can share audiences and segments with Adobe Experience Cloud services. Two options are available:
+With Adobe Campaign, you can share audiences and segments with [!DNL CX Enterprise] services. Two options are available:
 
 1. Send Adobe Experience Platform segment data to Adobe Campaign. To implement this integration, you need to connect your Real-Time Customer Data Platform to Campaign (RTCDP). [Learn more in this section](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
 1. Integrate **Adobe Campaign** with  **Experience Cloud Audiences** or **Adobe Audience Manager**. You will then be able to:
 
-    * Import shared audiences/segments from different Adobe Experience Cloud solutions into Adobe Campaign. Audiences can be imported via lists in Adobe Campaign.
+    * Import shared audiences/segments from different [!DNL CX Enterprise] solutions into Adobe Campaign. Audiences can be imported via lists in Adobe Campaign.
 
-    * Export lists in the form of Adobe Experience Cloud shared audiences. These audiences can be used in the different Adobe Experience Cloud solutions that you use. Audiences can be exported after targeting in a workflow, using a dedicated **[!UICONTROL Update shared audience]** activity.
+    * Export lists in the form of [!DNL CX Enterprise] shared audiences. These audiences can be used in the different [!DNL CX Enterprise] solutions that you use. Audiences can be exported after targeting in a workflow, using a dedicated **[!UICONTROL Update shared audience]** activity.
 
 This integration supports two types of Adobe Experience Cloud IDs:
 

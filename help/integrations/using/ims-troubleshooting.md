@@ -58,9 +58,9 @@ Delete any duplicate external account that have same the same settings.
 
 If the external account has a **Product Context** field, check that its value is set to: **dma_campaign_classic**
 
-Make sure your product context is the same for Campaign and Experience Cloud.
+Make sure your product context is the same for Campaign and [!DNL Adobe CX Enterprise].
 
-For example, if the **Product Context** does not appear, the default product context should be **dma_campaign** in both Campaign and Experience Cloud. If the **Product Context** field appears, the default product context should be **dma_campaign_classic** in both Campaign and Experience Cloud.
+For example, if the **Product Context** does not appear, the default product context should be **dma_campaign** in both Campaign and [!DNL CX Enterprise]. If the **Product Context** field appears, the default product context should be **dma_campaign_classic** in both Campaign and [!DNL CX Enterprise].
 
 **[!UICONTROL IMS Server URL]**
 
