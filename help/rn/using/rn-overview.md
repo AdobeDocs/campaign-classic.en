@@ -77,7 +77,7 @@ This is the reason why it is critical that you **run the most recent stable buil
 
 As a hosted customer, you automatically benefit from the upgrade with the latest stable build without any action. Learn more in the [Yearly Upgrade section](#yearly-upgrade). If you migrate from an old build, Adobe recommends that you upgrade to this build first.
 
-## Hotflixes {#hotflixes}
+## Hotfixes {#hotfixes}
 
 In exceptional cases, Adobe may provide a customer-specific hotfix to address an issue before a fix is available in a standard release. Hotfix requests are assessed case by case and are not part of the standard release cycle.
 
